@@ -1,0 +1,39 @@
+{
+  "traders": {
+    "Crypto_Chase": {
+      "discord_username": "crypto_chase",
+      "channels": {
+        "primary": ["1336082716063694962"],
+        "supporting": ["1343971265962049597", "1247927786681794601"]
+      },
+      "notes": "Primary channel is the hard plan. Supporting channels are member Q&A where Chase's replies reflect real-time conviction/sentiment changes. For supporting channel messages, include brief context of what member asked if Chase's reply isn't self-explanatory."
+    },
+    "KillaXBT": {
+      "discord_username": "killaxbt",
+      "channels": {
+        "primary": ["1411492188315193416"],
+        "supporting": []
+      },
+      "notes": ""
+    },
+    "HeartCanHodl": {
+      "discord_username": "heartcanhodl",
+      "channels": {
+        "primary": ["1472153627324842057", "1191800982414299217", "1279738718680256553", "1393137051108507728"],
+        "supporting": ["1023638573313966212"]
+      },
+      "notes": "1279738718680256553 is most important. 1472153627324842057 is free/public (X posts often appear here first). Supporting channel 1023638573313966212 is premium member chat — treat HCH msgs there as real-time updates/changes to his trade thoughts, tag as supporting detail onto primary channel content."
+    }
+  },
+  "all_channel_ids": [
+    "1336082716063694962",
+    "1343971265962049597",
+    "1247927786681794601",
+    "1411492188315193416",
+    "1472153627324842057",
+    "1191800982414299217",
+    "1279738718680256553",
+    "1393137051108507728",
+    "1023638573313966212"
+  ]
+}

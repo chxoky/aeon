@@ -6,7 +6,7 @@
 
 skills:
   # --- Morning aggregation (7 AM UTC) ---
-  morning-brief: { enabled: false, schedule: "0 7 * * *" }
+  morning-brief: { enabled: true, schedule: "0 7 * * *" }
   daily-routine: { enabled: false, schedule: "0 7 * * *" }
   rss-digest: { enabled: false, schedule: "0 7 * * *" }
   hacker-news-digest: { enabled: false, schedule: "0 7 * * *" } # top HN stories filtered by MEMORY.md interests
@@ -28,8 +28,8 @@ skills:
   huggingface-trending: { enabled: false, schedule: "30 9 * * *", model: "claude-sonnet-4-6", var: "" } # daily — curated trending HF models/datasets/spaces with "why notable" lines, momentum tags, and bucket clustering. Set var to one of {models, datasets, spaces} to scope.
 
   # --- Midday (12 PM UTC) ---
-  token-alert: { enabled: false, schedule: "0 12 * * *" }
-  token-movers: { enabled: false, schedule: "0 12 * * *" }
+  token-alert: { enabled: true, schedule: "0 12 * * *" }
+  token-movers: { enabled: true, schedule: "0 12 * * *" }
   on-chain-monitor: { enabled: false, schedule: "0 12 * * *" }
   defi-monitor: { enabled: false, schedule: "0 12 * * *" }
   treasury-info: { enabled: false, schedule: "0 12 * * *" }
@@ -55,9 +55,9 @@ skills:
   monitor-runners: { enabled: false, schedule: "0 12 * * *" }
   token-pick: { enabled: false, schedule: "0 12 * * *" }
   token-report: { enabled: false, schedule: "30 12 * * *", model: "claude-sonnet-4-6" } # daily token price/volume from GeckoTerminal
-  price-threshold-alert: { enabled: false, schedule: "*/30 * * * *", model: "claude-sonnet-4-6", var: "" } # every 30 minutes — fire on tracked-token ATH, ±20% 1h move, or operator-set target crossing (var=target_price,target_price2,...). Silent on normal runs. Set var=dry-run to skip notify.
-  market-context-refresh: { enabled: false, schedule: "0 13 * * *", model: "claude-sonnet-4-6" } # fetch live crypto macro data, update memory
-  narrative-tracker: { enabled: false, schedule: "30 13 * * *" } # track rising/peaking/fading narratives
+  price-threshold-alert: { enabled: true, schedule: "*/30 * * * *", model: "claude-sonnet-4-6", var: "" } # every 30 minutes — fire on tracked-token ATH, ±20% 1h move, or operator-set target crossing (var=target_price,target_price2,...). Silent on normal runs. Set var=dry-run to skip notify.
+  market-context-refresh: { enabled: true, schedule: "0 13 * * *", model: "claude-sonnet-4-6" } # fetch live crypto macro data, update memory
+  narrative-tracker: { enabled: true, schedule: "30 13 * * *" } # track rising/peaking/fading narratives
   polymarket-comments: { enabled: false, schedule: "0 13 * * *" } # top comments from trending Polymarket markets
   unlock-monitor: { enabled: false, schedule: "0 10 * * 1" } # weekly token unlock/vesting tracker
   aixbt-pulse: { enabled: false, schedule: "0 9,21 * * *", model: "claude-sonnet-4-6" } # twice daily — AIXBT free grounding endpoint: cross-domain market pulse (crypto/macro/tradfi/geopolitics) with taxonomy refresh
@@ -97,6 +97,10 @@ skills:
   autoresearch: { enabled: false, schedule: "workflow_dispatch", var: "" } # on-demand — set var to skill name to evolve
   create-skill: { enabled: false, schedule: "workflow_dispatch", var: "" } # one-shot skill creator — set var to a description prompt
 
+  # --- Custom: trading monitors ---
+  x-trader-monitor: { enabled: true, schedule: "*/15 * * * *", model: "claude-haiku-4-5-20251001" }
+  discord-trader-monitor: { enabled: true, schedule: "*/15 * * * *", model: "claude-haiku-4-5-20251001" }
+
   # --- X / social (5 PM UTC) ---
   fetch-tweets: { enabled: false, schedule: "0 17 * * *" }
   refresh-x: { enabled: false, schedule: "0 17 * * *" }
@@ -122,7 +126,7 @@ skills:
 
   # --- Evening / meta (6 PM UTC) ---
   goal-tracker: { enabled: false, schedule: "0 18 * * *" }
-  skill-health: { enabled: false, schedule: "0 18 * * *" }
+  skill-health: { enabled: true, schedule: "0 18 * * *" }
   skill-analytics: { enabled: false, schedule: "30 18 * * 3", model: "claude-sonnet-4-6" } # Wednesday — fleet-level skill-run analytics: ranked run counts, exit-taxonomy distribution, anomaly flags (significance-gated)
 
   self-improve: { enabled: false, schedule: "0 18 1/2 * *" } # every other day — improve agent skills/prompts/config
@@ -289,6 +293,13 @@ reactive:
 #         - parallel: [skill-a, skill-b]
 #         - skill: skill-c, consume: [skill-a, skill-b]
 chains:
+  morning-pipeline:
+    schedule: "0 7 * * *"
+    on_error: continue
+    steps:
+      - parallel: [token-movers, market-context-refresh]
+      - skill: morning-brief
+        consume: [token-movers, market-context-refresh]
   # daily-routine:
   #   schedule: "0 7 * * *"
   #   on_error: fail-fast

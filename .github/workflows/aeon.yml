@@ -175,6 +175,9 @@ jobs:
           VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
           REPLICATE_API_TOKEN: ${{ secrets.REPLICATE_API_TOKEN }}
           SKILL_VAR: ${{ inputs.var }}
+          X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
+          DISCORD_USER_TOKEN: ${{ secrets.DISCORD_USER_TOKEN }}
+          WATCHED_X_ACCOUNTS: ${{ vars.WATCHED_X_ACCOUNTS }}
         run: |
           # Run all scripts/prefetch-*.sh before Claude starts (outside sandbox).
           # Each script receives the skill name and var as arguments.
