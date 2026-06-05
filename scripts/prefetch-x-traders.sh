@@ -29,9 +29,9 @@ echo "prefetch-x-traders: fetching tweets for accounts: $WATCHED_X_ACCOUNTS"
 IFS=',' read -ra ACCOUNTS <<< "$WATCHED_X_ACCOUNTS"
 
 RESULTS="[]"
-TODAY=$(date -u +%Y-%m-%dT%H:%M:%SZ)
-# Look back 2 hours (skill runs every 15-30 min, 2h catches any gaps)
-START_TIME=$(date -u -d '2 hours ago' +%Y-%m-%dT%H:%M:%SZ 2>/dev/null || date -u -v-2H +%Y-%m-%dT%H:%M:%SZ)
+# Look back 24 hours; seen-file deduplication prevents re-alerting
+START_TIME=$(date -u -d '24 hours ago' +%Y-%m-%dT%H:%M:%SZ 2>/dev/null || date -u -v-24H +%Y-%m-%dT%H:%M:%SZ)
+echo "prefetch-x-traders: start_time=$START_TIME"
 
 for ACCOUNT in "${ACCOUNTS[@]}"; do
   ACCOUNT=$(echo "$ACCOUNT" | tr -d ' @')
@@ -40,12 +40,13 @@ for ACCOUNT in "${ACCOUNTS[@]}"; do
   echo "  fetching @$ACCOUNT..."
 
   # Step 1: Get user ID from username
-  USER_RESP=$(curl -sf \
+  USER_RESP=$(curl -s \
     -H "Authorization: Bearer $X_BEARER_TOKEN" \
-    "https://api.twitter.com/2/users/by/username/$ACCOUNT" 2>/dev/null) || {
-    echo "  warning: failed to get user ID for @$ACCOUNT"
+    "https://api.twitter.com/2/users/by/username/$ACCOUNT") || {
+    echo "  warning: curl failed for @$ACCOUNT"
     continue
   }
+  echo "  user_resp for @$ACCOUNT: $(echo "$USER_RESP" | head -c 200)"
 
   USER_ID=$(echo "$USER_RESP" | python3 -c "import json,sys; d=json.load(sys.stdin); print(d['data']['id'])" 2>/dev/null) || {
     echo "  warning: could not parse user ID for @$ACCOUNT"
