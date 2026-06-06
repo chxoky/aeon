@@ -1,0 +1,169 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "Trader Bootstrap Complete — 3-day lookback (2026-06-03 → 06-06)"
+      },
+      "children": [
+        "alert-feed",
+        "sep-1",
+        "heading-positions",
+        "stack-traders",
+        "sep-2",
+        "heading-overlap",
+        "text-overlap",
+        "sep-3",
+        "heading-theses",
+        "text-theses",
+        "sep-4",
+        "text-realtime"
+      ]
+    },
+    "alert-feed": {
+      "type": "Alert",
+      "props": {
+        "message": "X feed was empty this window — state built from Discord only.",
+        "type": "info"
+      }
+    },
+    "sep-1": {
+      "type": "Separator"
+    },
+    "heading-positions": {
+      "type": "Heading",
+      "props": {
+        "text": "Currently live setups/positions",
+        "level": "h2"
+      }
+    },
+    "stack-traders": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "trader-killaxbt",
+        "trader-hch",
+        "trader-chase"
+      ]
+    },
+    "trader-killaxbt": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-killaxbt",
+        "text-killaxbt"
+      ]
+    },
+    "heading-killaxbt": {
+      "type": "Heading",
+      "props": {
+        "text": "KillaXBT",
+        "level": "h3"
+      }
+    },
+    "text-killaxbt": {
+      "type": "Text",
+      "props": {
+        "text": "BTC low-leverage swing LONG, 75% exposed. 'Bottom is close,' holding a long time."
+      }
+    },
+    "trader-hch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-hch",
+        "text-hch"
+      ]
+    },
+    "heading-hch": {
+      "type": "Heading",
+      "props": {
+        "text": "HeartCanHodl",
+        "level": "h3"
+      }
+    },
+    "text-hch": {
+      "type": "Text",
+      "props": {
+        "text": "Hedged book — spot BTC/ETH/SOL longs hedged 2x short at 63-64K, plus standalone shorts on ZEC (2x), WLD (2x, SL at BE), LAB (half left), HYPE, and VVV (3x, just added)."
+      }
+    },
+    "trader-chase": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-chase",
+        "text-chase"
+      ]
+    },
+    "heading-chase": {
+      "type": "Heading",
+      "props": {
+        "text": "Crypto_Chase",
+        "level": "h3"
+      }
+    },
+    "text-chase": {
+      "type": "Text",
+      "props": {
+        "text": "Effectively FLAT. HYPE long stopped out -1.5R; resting flush bids only in the mid-50s. NVDA and GOOG both closed near breakeven."
+      }
+    },
+    "sep-2": {
+      "type": "Separator"
+    },
+    "heading-overlap": {
+      "type": "Heading",
+      "props": {
+        "text": "Top overlap tickers",
+        "level": "h2"
+      }
+    },
+    "text-overlap": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE (divergent — Chase bullish-but-flat vs HCH hedged short), BTC (net long but heavily hedged; sub-63K = high risk), ZEC (bearish — Chase avoiding, HCH 2x short 'luna candidate')."
+      }
+    },
+    "sep-3": {
+      "type": "Separator"
+    },
+    "heading-theses": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable theses to watch",
+        "level": "h2"
+      }
+    },
+    "text-theses": {
+      "type": "Text",
+      "props": {
+        "text": "KillaXBT wants a multi-week range above 60K before any capitulation. HCH is defensive/bearish, eyeing an ETH cascade toward 1200-1300s. Chase won't call a bottom until HYPE reclaims ~63 on the daily."
+      }
+    },
+    "sep-4": {
+      "type": "Separator"
+    },
+    "text-realtime": {
+      "type": "Text",
+      "props": {
+        "text": "Real-time monitoring is now active — you'll hear about new developments as they happen.",
+        "variant": "muted"
+      }
+    }
+  }
+}
