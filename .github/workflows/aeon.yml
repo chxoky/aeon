@@ -742,14 +742,26 @@ jobs:
           SKILL_NAME: ${{ steps.skill.outputs.name }}
         run: |
           # Re-deliver any .pending-notify/ messages that failed during sandbox.
-          # Skip messages whose hash was already sent by ./notify inline,
-          # and skip short test/trace probes that shouldn't reach channels.
+          #
+          # NOTE: ./notify writes the hash to .notify-sent-hashes at *call time*
+          # (to dedup repeated in-run calls with identical content), not at
+          # *delivery-success time* — see the inline notify script above. That
+          # means the hash is already present even when inline delivery failed
+          # and the message was queued to .pending-notify/. A dedup check here
+          # against .notify-sent-hashes therefore always matches and silently
+          # drops every queued message (the bug behind "Skipping pending
+          # duplicate" with no Telegram/Discord/Slack message ever arriving).
+          #
+          # ./notify only removes a file from .pending-notify/ once DELIVERED=true
+          # (see "Remove pending file if immediate delivery succeeded" above), so
+          # a file's mere presence here is already sufficient proof it was never
+          # delivered. No additional hash dedup is needed — just send it.
+          #
+          # Skip short test/trace probes that shouldn't reach channels.
           if [ ! -d .pending-notify ] || [ -z "$(ls -A .pending-notify/*.md 2>/dev/null)" ]; then
             echo "No pending notifications"
             exit 0
           fi
-          HASH_FILE=".notify-sent-hashes"
-          touch "$HASH_FILE"
           for pending in .pending-notify/*.md; do
             [ -f "$pending" ] || continue
             MSG=$(cat "$pending")
@@ -765,14 +777,6 @@ jobs:
                   ;;
               esac
             fi
-
-            # Dedup against messages already sent by ./notify inline
-            HASH=$(printf '%s' "$MSG" | sha256sum | awk '{print $1}')
-            if grep -qxF "$HASH" "$HASH_FILE" 2>/dev/null; then
-              echo "Skipping pending duplicate (${HASH:0:8}): $(basename "$pending")"
-              continue
-            fi
-            printf '%s\n' "$HASH" >> "$HASH_FILE"
 
             echo "Delivering pending notification: $(basename "$pending")"
             # Telegram
