@@ -1,19 +1,13 @@
-The situation is clear. The `trader-bootstrap` skill does not exist anywhere in the repo, and this isn't the first time it's been requested — a prior run already reached the same conclusion and recorded it in `.outputs/trader-bootstrap.md`.
+📋 *Trader Bootstrap Complete — 3-day lookback (Jun 3–6)*
+X feed was empty this window; state seeded from Discord.
 
-What I verified:
-- `skills/trader-bootstrap/SKILL.md` — does not exist
-- No reference to `trader-bootstrap` in `aeon.yml`, `.github/`, or `.claude/` (the only hit is the stale `.outputs/trader-bootstrap.md` from the previous run)
-- The only trader-related skills present are `x-trader-monitor` and `discord-trader-monitor` (both enabled, every 15 min, on Haiku)
+*Currently live setups/positions:*
+— KillaXBT: BTC low-leverage swing LONG, 75% exposed ("bottom is close," wants a multi-week range above 60K)
+— HeartCanHodl: hedged book — spot BTC/ETH/SOL longs hedged 2x short at 63-64K; standalone shorts on ZEC, WLD, HYPE, half LAB, and new VVV (3x)
+— Crypto_Chase: effectively FLAT — HYPE long stopped out -1.5R, NVDA/GOOG closed near breakeven. Only resting HYPE flush bids in the mid-50s.
 
-The commit `chore(cron): trader-bootstrap success` is an auto-generated cron-completion marker, not evidence that the skill was ever defined.
+*Top overlap tickers:* HYPE (divergent — Chase bullish-but-flat vs HCH short), BTC (constructive but heavily hedged; sub-63K = high risk), ZEC (bearish — Chase dropped it, HCH short).
 
-I'm stopping here rather than guessing what a `trader-bootstrap` skill should do — fabricating a trading/bootstrap skill would be exactly the kind of irreversible, outward-facing behavior I shouldn't invent without direction.
+*Notable theses to watch:* Killa is accumulating BTC calling a near bottom; HCH is positioned for more downside / a cascade and holding shorts overnight; Chase won't call a bottom until HYPE reclaims ~63 on the daily and is eyeing an AI-bubble-pop (INTC/MU watch).
 
-## Summary
-- **Action taken:** None — the target skill file `skills/trader-bootstrap/SKILL.md` does not exist.
-- **Files created/modified:** None.
-- **Verified:** No `trader-bootstrap` references in `aeon.yml`, workflows, or `.claude/`; only `x-trader-monitor` and `discord-trader-monitor` exist.
-- **Follow-up needed (your call):**
-  1. If you meant an existing skill, confirm the correct name (`x-trader-monitor` or `discord-trader-monitor`) and I'll run it.
-  2. If `trader-bootstrap` should be a new skill, tell me what it should do and I'll scaffold `skills/trader-bootstrap/SKILL.md` + wire it into `aeon.yml` via a PR.
-  3. If a cron is firing a phantom `trader-bootstrap` job, point me at it and I'll remove/fix the schedule.
+Real-time monitoring is now active — you'll hear about new developments as they happen.
