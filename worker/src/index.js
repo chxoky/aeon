@@ -1,0 +1,300 @@
+/**
+ * Trading Bot — Cloudflare Worker
+ *
+ * Handles:
+ *   POST /telegram  — Telegram webhook (instant command routing)
+ *   POST /twitter   — twitterapi.io webhook → relays event to x-trader-monitor
+ *   Cron every 1min — Discord polling → relays each event to discord-trader-monitor
+ *
+ * Note: the Worker does NOT forward raw X/Discord content to Telegram. Each
+ * event is base64-JSON-encoded and handed to AEON via `${var}` (toBase64Json),
+ * and the monitor skill is the SOLE gate on what reaches Kyle — this avoids
+ * double-alerting (raw forward + classified alert for the same event).
+ *
+ * Env secrets (set via wrangler secret put):
+ *   TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID
+ *   DISCORD_USER_TOKEN
+ *   GH_TOKEN, GH_REPO
+ *
+ * KV namespace: BOT_STATE (stores Discord last-seen message IDs)
+ */
+
+// ── Channel config ────────────────────────────────────────────────────────────
+
+const CHANNEL_CONFIG = {
+  '1336082716063694962': { trader: 'Crypto_Chase',  type: 'primary' },
+  '1343971265962049597': { trader: 'Crypto_Chase',  type: 'supporting' },
+  '1247927786681794601': { trader: 'Crypto_Chase',  type: 'supporting' },
+  '1411492188315193416': { trader: 'KillaXBT',      type: 'primary' },
+  '1472153627324842057': { trader: 'HeartCanHodl',  type: 'primary' },
+  '1191800982414299217': { trader: 'HeartCanHodl',  type: 'primary' },
+  '1279738718680256553': { trader: 'HeartCanHodl',  type: 'primary' },   // most important
+  '1393137051108507728': { trader: 'HeartCanHodl',  type: 'primary' },
+  '1023638573313966212': { trader: 'HeartCanHodl',  type: 'supporting' },
+};
+
+const WATCHED_DISCORD_USERNAMES = new Set(['crypto_chase', 'killaxbt', 'heartcanhodl']);
+// Ignored accounts: Banana3Stocks, benjamincowen
+
+// ── Entry point ───────────────────────────────────────────────────────────────
+
+export default {
+  async fetch(request, env, ctx) {
+    const url = new URL(request.url);
+
+    if (request.method === 'POST' && url.pathname === '/telegram') {
+      return handleTelegram(request, env, ctx);
+    }
+    if (request.method === 'POST' && url.pathname === '/twitter') {
+      return handleTwitter(request, env, ctx);
+    }
+
+    return new Response('Trading Bot — OK', { status: 200 });
+  },
+
+  async scheduled(event, env, ctx) {
+    ctx.waitUntil(pollDiscord(env));
+  },
+};
+
+// ── Telegram handler ──────────────────────────────────────────────────────────
+
+async function handleTelegram(request, env, ctx) {
+  let body;
+  try { body = await request.json(); } catch { return new Response('OK'); }
+
+  const message = body?.message;
+  if (!message) return new Response('OK');
+
+  const rawText = message?.text?.trim() ?? '';
+  const text    = rawText.toLowerCase();
+  const chatId  = String(message?.chat?.id ?? env.TELEGRAM_CHAT_ID);
+
+  if (!text) return new Response('OK');
+
+  // ── Command routing ────────────────────────────────────────────────────────
+  if (text === 'brief') {
+    await sendTelegram(env, chatId, '⏳ Generating trading brief...');
+    ctx.waitUntil(triggerAEON(env, 'trading-brief'));
+
+  } else if (text.startsWith('close trade')) {
+    const detail = rawText.slice('close trade'.length).trim();
+    await sendTelegram(env, chatId, `⏳ Closing trade: ${detail}`);
+    ctx.waitUntil(triggerAEON(env, 'close-trade', detail));
+
+  } else if (text === 'status') {
+    ctx.waitUntil(triggerAEON(env, 'heartbeat'));
+    await sendTelegram(env, chatId, '⏳ Checking system status...');
+
+  } else if (text.startsWith('approve')) {
+    const detail = rawText.slice('approve'.length).trim();
+    await sendTelegram(env, chatId, `✅ Approved. What is your USD size for this trade?`);
+    await env.BOT_STATE.put(`pending_trade_${chatId}`, detail, { expirationTtl: 3600 });
+
+  } else if (text.startsWith('confirm')) {
+    const pendingTrade = await env.BOT_STATE.get(`pending_trade_${chatId}`);
+    if (pendingTrade) {
+      const detail = rawText.slice('confirm'.length).trim();
+      await sendTelegram(env, chatId, `⏳ Executing trade on Kraken...`);
+      ctx.waitUntil(triggerAEON(env, 'kraken-execute', `${pendingTrade} | size: ${detail}`));
+      await env.BOT_STATE.delete(`pending_trade_${chatId}`);
+    } else {
+      await sendTelegram(env, chatId, `No pending trade to confirm.`);
+    }
+
+  } else {
+    // Freeform — forward to AEON concierge
+    await sendTelegram(env, chatId, '⏳ On it...');
+    ctx.waitUntil(triggerAEON(env, 'concierge', rawText));
+  }
+
+  return new Response('OK');
+}
+
+// ── twitterapi.io webhook handler ─────────────────────────────────────────────
+
+async function handleTwitter(request, env, ctx) {
+  let body;
+  try { body = await request.json(); } catch { return new Response('OK'); }
+
+  const eventType = body?.event_type;
+  if (!eventType || eventType === 'ping' || eventType === 'connected') {
+    return new Response('OK');
+  }
+
+  // fast_tweet = single tweet object; tweet = array in tweets[]
+  const tweet = eventType === 'fast_tweet'
+    ? body?.tweet
+    : body?.tweets?.[0];
+
+  if (!tweet) return new Response('OK');
+
+  const username = tweet.screen_name ?? tweet?.author?.username ?? 'unknown';
+  const text     = tweet.text ?? '';
+  const tweetId  = tweet.id ?? '';
+
+  if (!text.trim()) return new Response('OK');
+
+  const tweetUrl = `https://x.com/${username}/status/${tweetId}`;
+
+  // No raw forward to Telegram — x-trader-monitor is the sole gate on what
+  // reaches Kyle. Pass the event through as base64-JSON via ${var}; the skill
+  // decides whether (and how) to alert.
+  const event = {
+    id:         tweetId,
+    username,
+    text,
+    created_at: tweet.created_at ?? tweet?.tweet_created_at ?? '',
+    url:        tweetUrl,
+    media:      extractTweetMedia(tweet),
+  };
+
+  ctx.waitUntil(triggerAEON(env, 'x-trader-monitor', toBase64Json(event)));
+
+  return new Response('OK');
+}
+
+function extractTweetMedia(tweet) {
+  const entities = tweet?.extended_entities?.media ?? tweet?.entities?.media ?? [];
+  if (!Array.isArray(entities)) return [];
+  return entities
+    .map((m) => m?.media_url_https ?? m?.media_url ?? null)
+    .filter(Boolean);
+}
+
+// ── Discord poller (cron every 1 min) ─────────────────────────────────────────
+
+async function pollDiscord(env) {
+  const channelIds = Object.keys(CHANNEL_CONFIG);
+
+  for (const channelId of channelIds) {
+    try {
+      const lastSeenKey = `discord_last_${channelId}`;
+      const lastSeenId  = await env.BOT_STATE.get(lastSeenKey);
+
+      // Fetch messages after last seen (or last 10 if first run)
+      let apiUrl = `https://discord.com/api/v10/channels/${channelId}/messages?limit=10`;
+      if (lastSeenId) apiUrl += `&after=${lastSeenId}`;
+
+      const resp = await fetch(apiUrl, {
+        headers: {
+          Authorization:   env.DISCORD_USER_TOKEN,
+          'Content-Type':  'application/json',
+        },
+      });
+
+      if (!resp.ok) continue;
+
+      const messages = await resp.json();
+      if (!Array.isArray(messages) || messages.length === 0) continue;
+
+      // Sort oldest → newest (Discord returns newest first)
+      messages.sort((a, b) => (BigInt(a.id) < BigInt(b.id) ? -1 : 1));
+
+      // Update last seen to newest message ID
+      const newestId = messages[messages.length - 1].id;
+      await env.BOT_STATE.put(lastSeenKey, newestId);
+
+      // Process trader messages only
+      for (const msg of messages) {
+        const authorUsername = msg?.author?.username?.toLowerCase() ?? '';
+        if (!WATCHED_DISCORD_USERNAMES.has(authorUsername)) continue;
+
+        const content     = msg.content?.trim() ?? '';
+        const attachments = (msg.attachments ?? []).map((a) => a?.url).filter(Boolean);
+        if (!content && attachments.length === 0) continue;
+
+        // No raw forward to Telegram — discord-trader-monitor is the sole gate
+        // on what reaches Kyle. Pass the event through as base64-JSON via
+        // ${var}; the skill resolves channel hierarchy, reply context, and
+        // classification, then decides whether (and how) to alert.
+        const ref = msg.referenced_message;
+        const referencedMessage = ref
+          ? { username: ref?.author?.username ?? 'member', content: (ref?.content ?? '').slice(0, 150) }
+          : null;
+
+        const event = {
+          id:                  msg.id,
+          channel_id:          channelId,
+          username:            authorUsername,
+          content,
+          created_at:          msg.timestamp ?? '',
+          is_reply:            Boolean(ref),
+          referenced_message:  referencedMessage,
+          attachments,
+        };
+
+        await triggerAEON(env, 'discord-trader-monitor', toBase64Json(event));
+      }
+
+    } catch (e) {
+      console.error(`Discord poll error for channel ${channelId}:`, e.message);
+    }
+
+    // Small delay to avoid Discord rate limits
+    await sleep(300);
+  }
+}
+
+// ── Helpers ───────────────────────────────────────────────────────────────────
+
+// Base64-encode a JSON-serializable event for the `${var}` pass-through to
+// x-trader-monitor / discord-trader-monitor. Goes through TextEncoder first so
+// unicode (emoji, non-Latin trader text, etc.) survives — btoa() alone chokes
+// on anything outside Latin1.
+function toBase64Json(obj) {
+  const bytes = new TextEncoder().encode(JSON.stringify(obj));
+  let binary = '';
+  for (const b of bytes) binary += String.fromCharCode(b);
+  return btoa(binary);
+}
+
+async function triggerAEON(env, skill, varValue = '') {
+  const resp = await fetch(
+    `https://api.github.com/repos/${env.GH_REPO}/actions/workflows/aeon.yml/dispatches`,
+    {
+      method: 'POST',
+      headers: {
+        Authorization:  `Bearer ${env.GH_TOKEN}`,
+        Accept:         'application/vnd.github+json',
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ ref: 'main', inputs: { skill, var: varValue } }),
+    }
+  );
+  if (!resp.ok) {
+    console.error(`AEON trigger failed for skill=${skill}: ${resp.status}`);
+  }
+  return resp.ok;
+}
+
+async function sendTelegram(env, chatId, text) {
+  const MAX = 3900;
+  const chunks = [];
+  for (let i = 0; i < text.length; i += MAX) chunks.push(text.slice(i, i + MAX));
+
+  for (const chunk of chunks) {
+    try {
+      await fetch(
+        `https://api.telegram.org/bot${env.TELEGRAM_BOT_TOKEN}/sendMessage`,
+        {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ chat_id: chatId, text: chunk, parse_mode: 'Markdown' }),
+        }
+      );
+    } catch (e) {
+      // Retry without markdown if parse fails
+      await fetch(
+        `https://api.telegram.org/bot${env.TELEGRAM_BOT_TOKEN}/sendMessage`,
+        {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ chat_id: chatId, text: chunk }),
+        }
+      );
+    }
+  }
+}
+
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));

@@ -1,0 +1,12 @@
+name = "trading-bot"
+main = "src/index.js"
+compatibility_date = "2025-01-01"
+
+# Cron trigger — polls Discord every minute
+[triggers]
+crons = ["* * * * *"]
+
+# KV namespace for storing last-seen Discord message IDs
+[[kv_namespaces]]
+binding = "BOT_STATE"
+id = "991599d862df48a2a5e61c8161f83195"
