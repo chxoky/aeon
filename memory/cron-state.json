@@ -1,13 +1,13 @@
 {
   "x-trader-monitor": {
-    "last_status": "dispatched",
-    "last_failed": "2026-06-05T20:23:33Z",
-    "total_runs": 3,
+    "last_status": "failed",
+    "last_failed": "2026-06-07T23:29:12Z",
+    "total_runs": 4,
     "total_successes": 2,
-    "total_failures": 1,
-    "consecutive_failures": 0,
-    "success_rate": 0.67,
-    "last_error": "1d8d138\",\"total_cost_usd\":0,\"usage\":{\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"",
+    "total_failures": 2,
+    "consecutive_failures": 1,
+    "success_rate": 0.5,
+    "last_error": "234c5db\",\"total_cost_usd\":0,\"usage\":{\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"",
     "last_success": "2026-06-05T20:33:17Z",
     "last_dispatch": "2026-06-07T23:28:15Z"
   },
