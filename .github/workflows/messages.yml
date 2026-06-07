@@ -479,8 +479,11 @@ jobs:
 
           # --- Telegram (collect ALL pending updates) ---
           if [ -n "${TELEGRAM_BOT_TOKEN:-}" ] && [ -n "${TELEGRAM_CHAT_ID:-}" ]; then
-            RESPONSE=$(curl -s "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/getUpdates?timeout=0&allowed_updates=%5B%22message%22%5D")
-            COUNT=$(echo "$RESPONSE" | jq '.result | length')
+            # Strip trailing whitespace/newlines — secrets set via `echo` can have a trailing \n
+            # that makes the URL malformed (curl exit 3) and silently breaks all sends.
+            TG_TOKEN=$(printf '%s' "${TELEGRAM_BOT_TOKEN}" | tr -d '\r\n')
+            RESPONSE=$(curl -s "https://api.telegram.org/bot${TG_TOKEN}/getUpdates?timeout=0&allowed_updates=%5B%22message%22%5D" 2>/dev/null) || RESPONSE=""
+            COUNT=$(echo "$RESPONSE" | jq '.result | length' 2>/dev/null) || COUNT=0
             MAX_UPDATE_ID=""
 
             for ((i=0; i<COUNT; i++)); do
@@ -497,7 +500,7 @@ jobs:
 
             # Acknowledge all updates at once
             if [ -n "$MAX_UPDATE_ID" ]; then
-              curl -s "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/getUpdates?offset=$((MAX_UPDATE_ID + 1))" > /dev/null
+              curl -s "https://api.telegram.org/bot${TG_TOKEN}/getUpdates?offset=$((MAX_UPDATE_ID + 1))" > /dev/null || true
             fi
           fi
 

@@ -359,6 +359,9 @@ jobs:
 
           # Telegram: 4096 char limit, strict Markdown parsing
           if [ -n "${TELEGRAM_BOT_TOKEN:-}" ] && [ -n "${TELEGRAM_CHAT_ID:-}" ]; then
+            # Strip trailing whitespace/newlines — secrets set via `echo` can have a trailing \n
+            # that makes the URL malformed (curl exit 3) and silently breaks all sends.
+            TELEGRAM_BOT_TOKEN=$(printf '%s' "${TELEGRAM_BOT_TOKEN}" | tr -d '\r\n')
             # Split $MSG into chunks ≤3900 chars (Telegram cap 4096, leaves room for
             # "[i/N]" suffix). Prefer paragraph (\n\n) then line (\n) boundaries,
             # hard-split only if a single paragraph/line exceeds the limit.
@@ -786,6 +789,7 @@ jobs:
             # rate limit, etc.) looks identical to a success in the Actions log,
             # so delivery could only be confirmed by manually checking Telegram.
             if [ -n "${TELEGRAM_BOT_TOKEN:-}" ] && [ -n "${TELEGRAM_CHAT_ID:-}" ]; then
+              TELEGRAM_BOT_TOKEN=$(printf '%s' "${TELEGRAM_BOT_TOKEN}" | tr -d '\r\n')
               TG_MSG="$MSG"
               [ ${#TG_MSG} -gt 4000 ] && TG_MSG="${TG_MSG:0:3990}...(truncated)"
               TG_RESULT=$(curl -s -w "\n%{http_code}" -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
