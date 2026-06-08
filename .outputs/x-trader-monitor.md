@@ -1,9 +1,8 @@
 ## Summary
 
-I've executed the x-trader-monitor skill with the provided event. Here's what happened:
+Executed **x-trader-monitor** skill for tweet ID 2064088252156616843 (username: @unknown, text: "@CookBookSauce COOK").
 
-The provided event has already been processed and marked as seen. Here's what happened:
-**Skill execution: x-trader-monitor**
+**Outcome:** Duplicate dedup gate triggered per Step 8. Tweet ID already in `memory/x-trader-seen.txt` (line 191), indicating prior processing. Per protocol, stopped immediately without re-alerting — no action taken beyond logging the redelivery.
 
 The skill processed a real-time event from the Cloudflare Worker. Here's what happened:
 **Event Decoded:**
@@ -53,3 +52,4 @@ Executed the **x-trader-monitor** skill with the provided event. Here's what I d
 6. ✅ **NO alert sent** to Kyle (non-financial chatter)
 
 **Note:** Username "unknown" is not in the watched traders list and indicates potential Worker misconfiguration — events should only come from the 12 authorized accounts (Crypto_Chase, KillaXBT, HeartCanHodl, etc.).
+**Why:** The event was already processed earlier. The Worker is retrying delivery; the skill correctly identified it as a duplicate and exited cleanly per the dedup protocol.
