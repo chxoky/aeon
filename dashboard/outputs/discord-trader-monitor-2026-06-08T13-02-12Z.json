@@ -1,0 +1,122 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Discord message analysis"
+      },
+      "children": [
+        "alert_header",
+        "separator_1",
+        "message_section",
+        "separator_2",
+        "analysis_section",
+        "separator_3",
+        "status_section"
+      ]
+    },
+    "alert_header": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "🔍 Crypto_Chase — Clarification needed",
+        "message": "Fragmentary Discord message detected"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_channel",
+        "tweet_message"
+      ]
+    },
+    "heading_channel": {
+      "type": "Heading",
+      "props": {
+        "text": "Supporting Channel (Q&A)",
+        "level": "h3"
+      }
+    },
+    "tweet_message": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Crypto_Chase",
+        "text": "Even just on like typical ES liquidity trades,"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_analysis",
+        "text_fragmentary",
+        "text_context",
+        "text_classification"
+      ]
+    },
+    "heading_analysis": {
+      "type": "Heading",
+      "props": {
+        "text": "Analysis",
+        "level": "h3"
+      }
+    },
+    "text_fragmentary": {
+      "type": "Text",
+      "props": {
+        "text": "Fragmentary/incomplete message (ends mid-thought).",
+        "variant": "body"
+      }
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "References ES (E-mini S&P 500) but lacks continuation or actionable detail.",
+        "variant": "body"
+      }
+    },
+    "text_classification": {
+      "type": "Text",
+      "props": {
+        "text": "Cannot classify as trade signal, informational, or non-financial without context.",
+        "variant": "muted"
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "status_section": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "title": "Status",
+        "message": "Awaiting calibration"
+      }
+    }
+  }
+}
