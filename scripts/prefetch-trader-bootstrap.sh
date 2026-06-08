@@ -3,13 +3,13 @@
 # Prefetch — Trader Bootstrap (one-time 4-day lookback)
 #
 # Runs BEFORE Claude starts, with full env access. Fetches 4 days of history
-# from twitterapi.io REST (X) and Discord REST, writes JSON caches that the
+# from Twitter API v2 (X) and Discord REST, writes JSON caches that the
 # `trader-bootstrap` skill reads. Credential separation: Claude never sees
-# TWITTERAPI_IO_KEY or DISCORD_USER_TOKEN directly.
+# X_BEARER_TOKEN or DISCORD_USER_TOKEN directly.
 #
 # Required env:
-#   TWITTERAPI_IO_KEY   — twitterapi.io API key
-#   DISCORD_USER_TOKEN  — Discord user token (REST auth header)
+#   X_BEARER_TOKEN     — Twitter API v2 bearer token
+#   DISCORD_USER_TOKEN — Discord user token (REST auth header)
 #
 # Output:
 #   .xai-cache/trader-bootstrap-x.json        — array of tweets, oldest first
@@ -34,35 +34,75 @@ DISCORD_CHANNELS=(
   "1023638573313966212:HeartCanHodl:supporting"
 )
 
-LOOKBACK_TS=$(date -u -d '4 days ago' +%Y-%m-%dT%H:%M:%SZ 2>/dev/null || date -u -v-4d +%Y-%m-%dT%H:%M:%SZ)
+START_TIME=$(date -u -d '4 days ago' +%Y-%m-%dT%H:%M:%SZ 2>/dev/null || date -u -v-4d +%Y-%m-%dT%H:%M:%SZ)
 
-# ── X via twitterapi.io REST ──────────────────────────────────────────────────
+# ── X via Twitter API v2 ──────────────────────────────────────────────────────
 
-echo "Fetching 4-day X history for: ${WATCHED_X_ACCOUNTS}"
+if [ -z "${X_BEARER_TOKEN:-}" ]; then
+  echo "X_BEARER_TOKEN not set — skipping X fetch"
+  echo "[]" > .xai-cache/trader-bootstrap-x.json
+else
+  echo "Fetching 4-day X history for: ${WATCHED_X_ACCOUNTS} (start_time=${START_TIME})"
 
-X_RESULTS="[]"
-IFS=',' read -ra ACCOUNTS <<< "$WATCHED_X_ACCOUNTS"
-for handle in "${ACCOUNTS[@]}"; do
-  RESP=$(curl -s -H "x-api-key: ${TWITTERAPI_IO_KEY}" \
-    "https://api.twitterapi.io/twitter/user/last_tweets?userName=${handle}&since=${LOOKBACK_TS}" || echo "")
+  X_RESULTS="[]"
+  IFS=',' read -ra ACCOUNTS <<< "$WATCHED_X_ACCOUNTS"
+  for handle in "${ACCOUNTS[@]}"; do
+    handle=$(echo "$handle" | tr -d ' @')
+    [ -z "$handle" ] && continue
 
-  if [ -n "$RESP" ]; then
-    PARSED=$(echo "$RESP" | jq -c '[.tweets[]? | {
-      id: .id,
-      username: .author.userName,
-      text: .text,
-      created_at: .createdAt,
-      url: ("https://x.com/" + .author.userName + "/status/" + .id),
-      media: [.media[]?.media_url_https? // empty]
-    }]' 2>/dev/null || echo "[]")
-    X_RESULTS=$(echo "$X_RESULTS $PARSED" | jq -s 'add')
-  fi
-  sleep 1  # gentle on rate limits across 12 accounts
-done
+    echo "  fetching @${handle}..."
 
-# Sort oldest → newest
-echo "$X_RESULTS" | jq 'sort_by(.created_at)' > .xai-cache/trader-bootstrap-x.json
-echo "X cache written: $(echo "$X_RESULTS" | jq 'length') tweets"
+    # Step 1: resolve username → user ID
+    USER_RESP=$(curl -s \
+      -H "Authorization: Bearer ${X_BEARER_TOKEN}" \
+      "https://api.twitter.com/2/users/by/username/${handle}") || { echo "  warning: curl failed for @${handle}"; continue; }
+
+    USER_ID=$(echo "$USER_RESP" | python3 -c "import json,sys; d=json.load(sys.stdin); print(d['data']['id'])" 2>/dev/null) || { echo "  warning: no user ID for @${handle}"; continue; }
+
+    # Step 2: fetch up to 100 tweets since START_TIME (exclude retweets and replies)
+    TWEETS_RESP=$(curl -s \
+      -H "Authorization: Bearer ${X_BEARER_TOKEN}" \
+      "https://api.twitter.com/2/users/${USER_ID}/tweets?max_results=100&tweet.fields=created_at,text,attachments&exclude=retweets,replies&start_time=${START_TIME}") || { echo "  warning: tweets fetch failed for @${handle}"; continue; }
+
+    ACCOUNT_TWEETS=$(echo "$TWEETS_RESP" | python3 -c "
+import json, sys
+username = '$handle'
+try:
+    data = json.load(sys.stdin)
+    tweets = data.get('data', [])
+    result = []
+    for t in tweets:
+        result.append({
+            'id': t['id'],
+            'username': username,
+            'text': t['text'],
+            'created_at': t.get('created_at', ''),
+            'url': f'https://x.com/{username}/status/{t[\"id\"]}',
+            'media': []
+        })
+    print(json.dumps(result))
+except Exception as e:
+    import sys as _sys; print(f'parse error: {e}', file=_sys.stderr)
+    print('[]')
+" 2>/dev/null) || ACCOUNT_TWEETS="[]"
+
+    COUNT=$(echo "$ACCOUNT_TWEETS" | python3 -c "import json,sys; print(len(json.load(sys.stdin)))" 2>/dev/null || echo 0)
+    echo "  @${handle}: ${COUNT} tweets"
+
+    X_RESULTS=$(python3 -c "
+import json, sys
+existing = json.loads('''$X_RESULTS''')
+new = json.loads('''$ACCOUNT_TWEETS''')
+print(json.dumps(existing + new))
+" 2>/dev/null || echo "$X_RESULTS")
+
+    sleep 1  # gentle on rate limits across 12 accounts
+  done
+
+  # Sort oldest → newest
+  echo "$X_RESULTS" | python3 -c "import json,sys; data=json.load(sys.stdin); data.sort(key=lambda x: x.get('created_at','')); print(json.dumps(data))" > .xai-cache/trader-bootstrap-x.json
+  echo "X cache written: $(echo "$X_RESULTS" | python3 -c "import json,sys; print(len(json.load(sys.stdin)))" 2>/dev/null || echo 0) tweets"
+fi
 
 # ── Discord REST ──────────────────────────────────────────────────────────────
 
@@ -76,7 +116,7 @@ for entry in "${DISCORD_CHANNELS[@]}"; do
     "https://discord.com/api/v10/channels/${channel_id}/messages?limit=100" || echo "")
 
   if [ -n "$RESP" ]; then
-    PARSED=$(echo "$RESP" | jq -c --arg cid "$channel_id" --arg cutoff "$LOOKBACK_TS" '[.[] | select(.timestamp > $cutoff) | {
+    PARSED=$(echo "$RESP" | jq -c --arg cid "$channel_id" --arg cutoff "$START_TIME" '[.[] | select(.timestamp > $cutoff) | {
       id: .id,
       channel_id: $cid,
       username: .author.username,

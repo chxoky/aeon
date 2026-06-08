@@ -32,7 +32,7 @@ Read the prefetch cache written by `scripts/prefetch-trader-bootstrap.sh` (handl
 X_CACHE=$(cat .xai-cache/trader-bootstrap-x.json 2>/dev/null)
 ```
 
-Shape: JSON array of `{ id, username, text, created_at, url, media }`, one entry per tweet from any of the 12 watched accounts in the last 4 days, **oldest first**.
+Shape: JSON array of `{ id, username, text, created_at, url, media }`, one entry per tweet from any of the 12 watched accounts in the last 4 days, **oldest first**. Uses Twitter API v2 (same pattern as `x-trader-monitor`'s prefetch).
 
 If missing/empty, log `TRADER_BOOTSTRAP_X_EMPTY` and continue with Discord only — don't block the whole bootstrap on one platform.
 
@@ -142,4 +142,4 @@ If nothing is currently "live" (no open positions detected, just commentary), sa
 
 ## Sandbox note
 
-This is a **prefetch-pattern skill**: `scripts/prefetch-trader-bootstrap.sh` runs before Claude starts (full env access — `TWITTERAPI_IO_KEY`, `DISCORD_USER_TOKEN`), fetches 4 days of history from twitterapi.io REST + Discord REST, and writes `.xai-cache/trader-bootstrap-x.json` and `.xai-cache/trader-bootstrap-discord.json`. Read only from those caches — never call the APIs directly from here.
+This is a **prefetch-pattern skill**: `scripts/prefetch-trader-bootstrap.sh` runs before Claude starts (full env access — `X_BEARER_TOKEN`, `DISCORD_USER_TOKEN`), fetches 4 days of history from Twitter API v2 + Discord REST, and writes `.xai-cache/trader-bootstrap-x.json` and `.xai-cache/trader-bootstrap-discord.json`. Read only from those caches — never call the APIs directly from here.
