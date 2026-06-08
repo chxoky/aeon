@@ -1,7 +1,5 @@
-🔍 **[DC: crypto_chase] — AMBIGUOUS**
+↩️ _Member: "Classic since war started"_
 
-Message: Either weird price action, no sweep, or they're saving it for later
+💬 *[DC: crypto_chase — member chat]*
 
-Timestamp: 2026-06-08 12:43:46 UTC (supporting channel)
-
-Need clarification: Is this a conviction shift on a specific ticker, a general market observation, or commentary on a position?
+Yeah, there's been a lot of front running recently. I'm not fully sure what to make of it

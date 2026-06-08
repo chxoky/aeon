@@ -1,0 +1,48 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "content_stack"
+      ]
+    },
+    "content_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "quote_text",
+        "channel_text",
+        "message_text"
+      ]
+    },
+    "quote_text": {
+      "type": "Text",
+      "props": {
+        "text": "↩️ Member: \"Classic since war started\"",
+        "variant": "muted"
+      }
+    },
+    "channel_text": {
+      "type": "Text",
+      "props": {
+        "text": "💬 [DC: crypto_chase — member chat]",
+        "variant": "caption"
+      }
+    },
+    "message_text": {
+      "type": "Text",
+      "props": {
+        "text": "Yeah, there's been a lot of front running recently. I'm not fully sure what to make of it",
+        "variant": "body"
+      }
+    }
+  }
+}
