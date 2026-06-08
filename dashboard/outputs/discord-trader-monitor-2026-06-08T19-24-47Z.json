@@ -1,0 +1,200 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "❓ Discord Calibration Needed — Crypto_Chase"
+      },
+      "children": [
+        "stack_metadata",
+        "separator_1",
+        "heading_message",
+        "text_message_content",
+        "separator_2",
+        "heading_issue",
+        "text_issue",
+        "separator_3",
+        "heading_interpretations",
+        "stack_interpretations",
+        "separator_4",
+        "alert_clarification",
+        "separator_5",
+        "heading_status",
+        "stack_status"
+      ]
+    },
+    "stack_metadata": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_channel",
+        "text_time"
+      ]
+    },
+    "text_channel": {
+      "type": "Text",
+      "props": {
+        "text": "Channel: 1343971265962049597 (supporting/member Q&A)",
+        "variant": "body"
+      }
+    },
+    "text_time": {
+      "type": "Text",
+      "props": {
+        "text": "Time: 2026-06-08T19:17:44Z",
+        "variant": "body"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_message": {
+      "type": "Heading",
+      "props": {
+        "text": "Message",
+        "level": "h3"
+      }
+    },
+    "text_message_content": {
+      "type": "Text",
+      "props": {
+        "text": "\"Although it is bearish that he wasn't the huge seller 'and we just crashed, crashed, crashed\"",
+        "variant": "lead"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_issue": {
+      "type": "Heading",
+      "props": {
+        "text": "Issue",
+        "level": "h3"
+      }
+    },
+    "text_issue": {
+      "type": "Text",
+      "props": {
+        "text": "Cryptic/fragmentary — appears to reference Saylor/BTC seller dynamics + market crash, but intent unclear. Incomplete sentence (trailing quote).",
+        "variant": "body"
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_interpretations": {
+      "type": "Heading",
+      "props": {
+        "text": "Possible Interpretations",
+        "level": "h3"
+      }
+    },
+    "stack_interpretations": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_interp1",
+        "text_interp2",
+        "text_interp3"
+      ]
+    },
+    "text_interp1": {
+      "type": "Text",
+      "props": {
+        "text": "Sarcasm on crash dynamics (if Saylor wasn't the seller, crash driven by other bearish factors)",
+        "variant": "body"
+      }
+    },
+    "text_interp2": {
+      "type": "Text",
+      "props": {
+        "text": "Market observation on institutional dynamics",
+        "variant": "body"
+      }
+    },
+    "text_interp3": {
+      "type": "Text",
+      "props": {
+        "text": "Unrelated reference to another conversation",
+        "variant": "body"
+      }
+    },
+    "separator_4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_clarification": {
+      "type": "Alert",
+      "props": {
+        "title": "Action Required",
+        "message": "Can't classify without context. Please clarify: should this be alerted as market sentiment, skipped as chatter, or logged as a specific conviction shift?",
+        "type": "warning"
+      }
+    },
+    "separator_5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_status": {
+      "type": "Heading",
+      "props": {
+        "text": "Status",
+        "level": "h3"
+      }
+    },
+    "stack_status": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_status",
+        "text_marked_seen",
+        "text_awaiting"
+      ]
+    },
+    "badge_status": {
+      "type": "Badge",
+      "props": {
+        "text": "Awaiting Calibration",
+        "variant": "outline"
+      }
+    },
+    "text_marked_seen": {
+      "type": "Text",
+      "props": {
+        "text": "✅ Message ID marked seen (15136230814433131442) to prevent re-alert.",
+        "variant": "caption"
+      }
+    },
+    "text_awaiting": {
+      "type": "Text",
+      "props": {
+        "text": "Awaiting calibration.",
+        "variant": "caption"
+      }
+    }
+  }
+}
