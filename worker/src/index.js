@@ -306,15 +306,18 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 // ── Direct Claude freeform handler ────────────────────────────────────────────
 
 async function answerFreeform(env, chatId, userMessage) {
-  const timeout = new Promise((_, reject) =>
-    setTimeout(() => reject(new Error('timeout')), 25000)
-  );
   try {
-    await Promise.race([_answerFreeform(env, chatId, userMessage), timeout]);
+    await _answerFreeform(env, chatId, userMessage);
   } catch (e) {
     console.error('answerFreeform outer:', e.message);
-    if (e.message === 'timeout') {
-      await sendTelegram(env, chatId, '⚠️ Timed out — took too long to think. Try again or rephrase.');
+    const isTimeout = e.name === 'AbortError';
+    const msg = isTimeout
+      ? '⚠️ Timed out — took too long to think. Try again or rephrase.'
+      : `⚠️ Something went wrong (${e.message.slice(0, 120)}). Try again or send "status".`;
+    try {
+      await sendTelegram(env, chatId, msg);
+    } catch (telegramErr) {
+      console.error('answerFreeform: failed to send error to Telegram:', telegramErr.message);
     }
   }
 }
@@ -323,6 +326,9 @@ async function _answerFreeform(env, chatId, userMessage) {
   const repo  = env.GH_REPO;
   const base  = `https://raw.githubusercontent.com/${repo}/main`;
   const today = new Date().toISOString().slice(0, 10);
+
+  const controller = new AbortController();
+  const timeoutId  = setTimeout(() => controller.abort(), 25000);
 
   console.log(`answerFreeform: start, msg="${userMessage.slice(0,50)}"`);
 
@@ -368,6 +374,7 @@ ${sections}`;
         system,
         messages:   [{ role: 'user', content: userMessage }],
       }),
+      signal: controller.signal,
     });
 
     console.log(`answerFreeform: Claude responded ${resp.status}`);
@@ -380,8 +387,11 @@ ${sections}`;
     reply = data?.content?.[0]?.text ?? '(empty response)';
     console.log(`answerFreeform: reply ready, ~${reply.length} chars — sending Telegram`);
   } catch (e) {
+    if (e.name === 'AbortError') throw e; // propagate to outer handler for clean timeout message
     console.error('answerFreeform error:', e.message);
     reply = `⚠️ Could not reach Claude (${e.message}). Try again or send "status".`;
+  } finally {
+    clearTimeout(timeoutId);
   }
 
   await sendTelegram(env, chatId, reply);

@@ -39,6 +39,8 @@ If decoding fails or `content` is empty (and there are no attachments), log `DIS
 
 Read `memory/discord-channels.json` to map `channel_id` → `{ trader, type: "primary"|"supporting" }`.
 
+**Heading label (hardcoded):** Also read `channel_labels[channel_id]` from that same file. Use this label — not the trader handle — in every alert heading. This gives Kyle channel-specific context at a glance. Format: `*[DC: {label}]*` (bold in Telegram Markdown v1).
+
 Confirm `username` matches the trader's known Discord username for that channel (case-insensitive). If it doesn't — this is a member message that only exists to provide reply-context for a trader's reply elsewhere; do not alert on it standalone, skip.
 
 ## Step 3 — Load context
@@ -101,8 +103,8 @@ Use the exact same decision tree as `x-trader-monitor` Step 4:
 
 Use the exact same sub-case logic, approval flow, mirror behavior, and message bodies as `x-trader-monitor` Steps 5a-5d, with these label/format adjustments for Discord:
 
-- Replace `🚨 *Trade Signal — @{username}*` with `🚨 *Trade Signal — [DC: {trader_handle}]*`
-- Replace `[View post]({url})` with a short context line instead (Discord messages don't have public URLs Kyle can open) — e.g. `_via Discord — {channel_label}_`
+- Replace `🚨 *Trade Signal — @{username}*` with `🚨 *Trade Signal — [DC: {label}]*` where `label` = `channel_labels[channel_id]`
+- Replace `[View post]({url})` with a short context line instead (Discord messages don't have public URLs Kyle can open) — e.g. `_via Discord — {label}_`
 - If `is_reply: true` and the reply context clarifies the message, prepend:
   ```
   ↩️ _Member: "{referenced_message.content, trimmed to ~150 chars}"_
@@ -117,7 +119,7 @@ Everything else — approval gating, USD-size prompt, mirror-immediately cases, 
 **Primary channel** (the trader's deliberate trade plans/analysis — alert in full):
 
 ```
-💬 *[DC: {trader_handle}]*
+💬 *[DC: {label}]*
 
 {message_text}
 ```
@@ -126,7 +128,7 @@ If a reply adds clarity:
 ```
 ↩️ _Member: "{referenced_message.content, trimmed}"_
 
-💬 *[DC: {trader_handle}]*
+💬 *[DC: {label}]*
 
 {message_text}
 ```
@@ -135,11 +137,11 @@ If a reply adds clarity:
 - Do NOT send a standalone alert by default. Check whether there's a related primary-channel message from the same trader on the same topic in `traders.md` from the last little while.
   - If yes → fold this in as a footnote on that existing context:
     ```
-    📎 _[Member chat — {trader_handle}] {message_text}_
+    📎 _[Member chat — {label}] {message_text}_
     ```
   - If no related primary message exists, and this genuinely stands alone (a real conviction shift or new info, not just chatter) → send standalone, clearly tagged:
     ```
-    💬 *[DC: {trader_handle} — member chat]*
+    💬 *[DC: {label}]*
 
     {message_text}
     ```
