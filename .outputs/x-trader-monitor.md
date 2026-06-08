@@ -45,3 +45,4 @@ The event was skipped because:
 This was a duplicate delivery from the Cloudflare Worker. The tweet from @unknown was already processed earlier today and correctly skipped without a second alert.
 ✓ Execution completed successfully (exit code: success).
 **Recommendation:** The Cloudflare Worker should only deliver events from the 12 authorized trader accounts. Receiving events from "@unknown" suggests a potential worker filter misconfiguration.
+✓ **Skill execution complete.** The event (tweet ID `2064088252156616843` from @unknown) was successfully decoded but immediately flagged as a duplicate via the dedup gate (Step 8). The tweet ID was already present in `memory/x-trader-seen.txt`, indicating a prior processing or Worker retry/redelivery. Per the skill protocol, no re-alert was sent. Logged the duplicate detection and exited cleanly.
