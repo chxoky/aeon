@@ -1,22 +1,19 @@
 ## Summary
 
-Processed Discord message from **Crypto_Chase** (supporting channel Q&A):
+Executed `discord-trader-monitor` skill with the provided Discord event variable.
 
-**Event:** 
-- ID: 1513654420292898897
-- Time: 2026-06-08T21:22:16Z
-- Content: "Yeah, that's pretty much the same level" (reply to member asking if SPY lines up with ES)
+**Event processed:**
+- **Trader:** crypto_chase
+- **Channel:** 1343971265962049597 (Crypto_Chase supporting channel)
+- **Message ID:** 1513664121806127184
+- **Content:** Link to X post (https://x.com/DeItaone/status/2064101978007888369)
+- **Time:** 2026-06-08T22:00:49Z
 
-**Classification:** Informational Q&A reply — **NO ALERT**
+**Classification:** SKIP — Supporting channel message containing only an external link with no explanation from the trader. Not a trade signal or conviction shift.
 
-**Reasoning:**
-1. **Step 5:** Not describing a personal trade action (just confirming technical level alignment)
-2. **Step 7:** Supporting-channel message that is a footnote to existing analysis (21:15Z ES target 7225)
-3. No new conviction shift, no position change, no actionable signal
+**Actions taken:**
+- Added message ID to `memory/discord-trader-seen.txt` (782 lines total)
+- Logged event to `memory/logs/2026-06-08.md` with skip classification
+- **No alert sent** — supporting channel link shares without explanation do not trigger notifications
 
-**Memory Updated:**
-- ✓ Message ID added to `discord-trader-seen.txt`
-- ✓ Activity logged in `memory/topics/traders.md` under Crypto_Chase latest activity
-- ✓ Log entry added to `memory/logs/2026-06-08.md`
-
-Kyle was not notified — this is routine Q&A confirmation on technical levels already in discussion.
+**Why skipped:** Per skill Step 7, supporting channel messages require either (a) a related primary-channel post from the same trader on the same topic, or (b) a genuine conviction shift or new info to trigger an alert. A link-only message with no explanation is neither.
