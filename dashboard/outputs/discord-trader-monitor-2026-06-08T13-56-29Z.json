@@ -1,0 +1,110 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Bull Market Conviction Shift"
+      },
+      "children": [
+        "source",
+        "sep1",
+        "message_stack",
+        "sep2",
+        "context_stack"
+      ]
+    },
+    "source": {
+      "type": "Badge",
+      "props": {
+        "text": "💬 Discord • crypto_chase • member chat",
+        "variant": "outline"
+      }
+    },
+    "sep1": {
+      "type": "Separator"
+    },
+    "message_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "quote",
+        "stat"
+      ]
+    },
+    "quote": {
+      "type": "Text",
+      "props": {
+        "text": "Yep, bull market just begun. Up 50% in two months",
+        "variant": "lead"
+      }
+    },
+    "stat": {
+      "type": "Stat",
+      "props": {
+        "label": "2-month performance",
+        "value": "+50%",
+        "trend": "up"
+      }
+    },
+    "sep2": {
+      "type": "Separator"
+    },
+    "context_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_header",
+        "shift_alert",
+        "context_details"
+      ]
+    },
+    "context_header": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "shift_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "180° Reversal",
+        "message": "Complete shift in sentiment — Major conviction shift alert",
+        "type": "info"
+      }
+    },
+    "context_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "previous_stance",
+        "previous_timestamp"
+      ]
+    },
+    "previous_stance": {
+      "type": "Text",
+      "props": {
+        "text": "Previous: 'playing slow & conservative' (GOLD stop)",
+        "variant": "muted"
+      }
+    },
+    "previous_timestamp": {
+      "type": "Text",
+      "props": {
+        "text": "Stop time: 06-08T11:57Z",
+        "variant": "caption"
+      }
+    }
+  }
+}
