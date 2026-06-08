@@ -1,0 +1,358 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Trader Bootstrap Complete"
+      },
+      "children": [
+        "subtitle",
+        "separator-1",
+        "positions-heading",
+        "positions-stack",
+        "separator-2",
+        "tickers-heading",
+        "tickers-stack",
+        "separator-3",
+        "theses-heading",
+        "theses-stack",
+        "separator-4",
+        "monitoring-text"
+      ]
+    },
+    "subtitle": {
+      "type": "Text",
+      "props": {
+        "text": "3-day lookback (Jun 5 → Jun 8)",
+        "variant": "caption"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "positions-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Currently Live Setups/Positions",
+        "level": "h2"
+      }
+    },
+    "positions-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "position-chase",
+        "position-killa",
+        "position-hch"
+      ]
+    },
+    "position-chase": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "chase-label",
+        "chase-gold",
+        "chase-hype",
+        "chase-nvda"
+      ]
+    },
+    "chase-label": {
+      "type": "Badge",
+      "props": {
+        "text": "Crypto_Chase",
+        "variant": "default"
+      }
+    },
+    "chase-gold": {
+      "type": "Text",
+      "props": {
+        "text": "GOLD long (spot), still open, stop not yet hit"
+      }
+    },
+    "chase-hype": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE flat (stopped -1.5R, orders cancelled)"
+      }
+    },
+    "chase-nvda": {
+      "type": "Text",
+      "props": {
+        "text": "NVDA cut ~breakeven"
+      }
+    },
+    "position-killa": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "killa-label",
+        "killa-btc"
+      ]
+    },
+    "killa-label": {
+      "type": "Badge",
+      "props": {
+        "text": "KillaXBT",
+        "variant": "default"
+      }
+    },
+    "killa-btc": {
+      "type": "Text",
+      "props": {
+        "text": "BTC low-leverage swing long (~75% exposed, long-horizon hold)"
+      }
+    },
+    "position-hch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "hch-label",
+        "hch-hedged",
+        "hch-shorts"
+      ]
+    },
+    "hch-label": {
+      "type": "Badge",
+      "props": {
+        "text": "HeartCanHodl",
+        "variant": "default"
+      }
+    },
+    "hch-hedged": {
+      "type": "Text",
+      "props": {
+        "text": "Hedged book — BTC/ETH/SOL spot longs hedged 2x short ~63-64k"
+      }
+    },
+    "hch-shorts": {
+      "type": "Text",
+      "props": {
+        "text": "Shorts on ZEC (large), VVV (3x), LAB, HYPE (2x), WLD"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tickers-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Overlap Tickers",
+        "level": "h2"
+      }
+    },
+    "tickers-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ticker-hype",
+        "ticker-btc",
+        "ticker-zec"
+      ]
+    },
+    "ticker-hype": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "hype-badge",
+        "hype-text"
+      ]
+    },
+    "hype-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "HYPE",
+        "variant": "outline"
+      }
+    },
+    "hype-text": {
+      "type": "Text",
+      "props": {
+        "text": "CONTESTED — Chase flat w/ bullish bias vs HCH short"
+      }
+    },
+    "ticker-btc": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "btc-badge",
+        "btc-text"
+      ]
+    },
+    "btc-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "BTC",
+        "variant": "outline"
+      }
+    },
+    "btc-text": {
+      "type": "Text",
+      "props": {
+        "text": "MIXED — Killa long, HCH hedged/defensive, Chase cautious"
+      }
+    },
+    "ticker-zec": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "zec-badge",
+        "zec-text"
+      ]
+    },
+    "zec-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "ZEC",
+        "variant": "outline"
+      }
+    },
+    "zec-text": {
+      "type": "Text",
+      "props": {
+        "text": "BEARISH — Chase avoids, HCH short"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "theses-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable Theses to Watch",
+        "level": "h2"
+      }
+    },
+    "theses-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "thesis-chase",
+        "thesis-hch",
+        "thesis-killa"
+      ]
+    },
+    "thesis-chase": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "thesis-chase-trader",
+        "thesis-chase-text"
+      ]
+    },
+    "thesis-chase-trader": {
+      "type": "Badge",
+      "props": {
+        "text": "Crypto_Chase",
+        "variant": "secondary"
+      }
+    },
+    "thesis-chase-text": {
+      "type": "Text",
+      "props": {
+        "text": "Turned cautious post-HYPE-stop (BTC broke weekly 200 EMA → leans more downside; rotating toward trad: INTC, MU, silver)"
+      }
+    },
+    "thesis-hch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "thesis-hch-trader",
+        "thesis-hch-text"
+      ]
+    },
+    "thesis-hch-trader": {
+      "type": "Badge",
+      "props": {
+        "text": "HeartCanHodl",
+        "variant": "secondary"
+      }
+    },
+    "thesis-hch-text": {
+      "type": "Text",
+      "props": {
+        "text": "Defensive, 63k the key line, watching what Saylor actually did"
+      }
+    },
+    "thesis-killa": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "thesis-killa-trader",
+        "thesis-killa-text"
+      ]
+    },
+    "thesis-killa-trader": {
+      "type": "Badge",
+      "props": {
+        "text": "KillaXBT",
+        "variant": "secondary"
+      }
+    },
+    "thesis-killa-text": {
+      "type": "Text",
+      "props": {
+        "text": "Patient — thinks the bottom is \"close\""
+      }
+    },
+    "separator-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "monitoring-text": {
+      "type": "Alert",
+      "props": {
+        "message": "Real-time monitoring is now active — you'll hear about new developments as they happen",
+        "type": "info"
+      }
+    }
+  }
+}
