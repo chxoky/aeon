@@ -1,57 +1,52 @@
 # Trader State
 
-*Seeded by trader-bootstrap, 3-day lookback (2026-06-03 → 2026-06-06, var=force re-run). X cache was empty this window — Discord-only state. Shorthand: `pf` = % of portfolio, `1x/2x/10x` = leverage, `R` = risk unit, `fc/sc` = chart link, `BE` = breakeven, `SL/TP` = stop/take-profit.*
+> Seeded by `trader-bootstrap` on 2026-06-08 (4-day lookback, 2026-06-04 → 2026-06-08).
+> X cache was empty at bootstrap (`TRADER_BOOTSTRAP_X_EMPTY`) — the 9 X-only accounts
+> below have no recorded state yet and will be populated by `x-trader-monitor`.
+> The 3 Discord-tracked traders have full state from 445 Discord messages.
 
 ## Crypto_Chase
-- Platforms: X + Discord (primary 1336082716063694962 "hard plan"; supporting 1343971265962049597, 1247927786681794601 = member Q&A reflecting live conviction)
-- Current open positions (as of bootstrap): **Effectively flat.** HYPE long was STOPPED OUT -1.5R on 06-05 (avg entry ~67.5, layered from high-69s). Resting buy bids only: 1R at ~56 lows, 0.5R at ~54 lows ("last hope" flush bids — if these stop out, done with HYPE for a long time). NVDA closed for tiny profit (entry 210, half TP 216, cut rest 208.7 on 06-05). GOOG closed ~breakeven 06-04 (367). ZEC removed from watchlist (hacked, going to zero).
-- Watching (not entered): INTC low-90s→mid-80s, MU (Micron) ~820→790, S&P/ES bid level on a strong pullback, NVDA high-180s on a sweep, GOOG 342 low sweep. Would risk ~3R if INTC→mid-70s / MU→low-600s.
-- Recent thesis/posture: Bearish-cautious on crypto, frustrated after HYPE retraced its whole bullish leg with no respect for daily/weekly levels (blames BTC crater + ZEC collapse + panic = anomaly). Won't call a bottom until HYPE reclaims ~63 daily. Open to AI-bubble-popped scenario; macro risk = possible rate hike later this year. Trimming risk, staying nimble. Sleep-deprived past 2 nights, dialed back overnight scalping.
-- Conviction notes: Pure price-action, "no hope trades," defines risk in R, layers entries, extremely transparent/communicative, admits mistakes (cited member counter-trading him on ES). 10yr track record, won't change style over one bad chart. High conviction by default; verbose.
-- Last seen: 2026-06-06T02:10Z
+- Platforms: X + Discord (primary: 1336082716063694962; Q&A: 1343971265962049597, 1247927786681794601)
+- Current open positions (as of bootstrap):
+  - GOLD — long (spot) — still open, stop not yet hit; expects it may stop and "sweep into the box". SPY for spot, ES futures for active trades.
+  - HYPE — FLAT. Layered long avg ~67.5 was stopped out -1.5R on 2026-06-05. Re-bids set then fully cancelled 2026-06-06 ("All other orders on HYPE cancelled"). Now watching low-50s for possible re-entry but leaning that more downside is likely.
+- Recent thesis/posture: Turned cautious/bearish on crypto after HYPE stop — notes BTC broke below weekly 200 EMA (last time preceded a longer bear market), gut says more downside + consolidation. Sees recent action as anomalous (HTF levels gave zero reaction). Thinks AI bubble may have popped; rotating attention to trad: likes INTC (low 90s–mid 80s), MU/Micron (~790–820), silver (~53 spot), S&P/SPY bid on strong pullback. NVDA long was cut 2026-06-05 at 208.7 for minor profit (entry 210, half TP 216). GOOG closed 2026-06-04 ~breakeven. ZEC removed from watchlist 2026-06-04 (hack), later went toward zero — dodged.
+- Conviction notes: Process-driven, level/confluence trader (FVGs, weekly SR, fib). Verbose, transparent about R-risk and invalidation. Will defend a thesis through drawdown but cuts on clean HTF invalidation. Discord now Rainbet-sponsored; some posts are sponsor/engagement asks (ignore for signal).
+- Last seen: 2026-06-08T00:29Z (Sunday-night markets commentary — "could be an interesting day tomorrow", focusing on charts from the weekly-plans stream)
 
 ## KillaXBT
-- Platforms: X + Discord (primary 1411492188315193416)
-- Current open positions (as of bootstrap): **BTC low-leverage swing LONG, 75% exposed** (built 06-04T17:49 after closing an earlier scalp/long that got no bounce). Explicitly a long-hold position.
-- Recent thesis/posture: "Bottom is close." Looking for a multi-week range above 60K before any capitulation candle. Notes crowd flipped extremely bearish at the lows. Local targets 68.2K, ideally 69.3K–70K.
-- Conviction notes: Patient, range-first, low leverage. Warns followers this is a long hold "not for the weak minded." Posts emergency streams on big moves.
-- Last seen: 2026-06-04T17:49Z (no posts 06-05/06 in window)
+- Platforms: X + Discord (primary: 1411492188315193416)
+- Current open positions (as of bootstrap):
+  - BTC — long (low-leverage swing) — 75% exposed, built 2026-06-04, intends to hold "a very long time". Closed a prior BTC long + scalp earlier 06-04 ("no bounce from key area") before rebuilding.
+- Recent thesis/posture: Believes bottom is "close". Searching for a range above 60K lasting a few weeks before any possible capitulation candle below the lows; targets local reclaim 68.2K, ideally 69.3K–70K. Sentiment-contrarian (most turned bearish at lows). Manual invalidation, patient. Posted a "little update" on BTC 06-06 (detail in stream, not cached).
+- Conviction notes: Low-leverage, long-horizon swing style; explicitly warns impatient followers off. Terse.
+- Last seen: 2026-06-06T17:29Z
 
 ## HeartCanHodl
-- Platforms: X + Discord (primary 1279738718680256553 = most important, 1472153627324842057 = free/public X mirror, 1191800982414299217, 1393137051108507728; supporting 1023638573313966212 = premium chat, real-time updates)
-- Current open positions (as of bootstrap): **Hedged book.** Spot longs BTC/ETH/SOL (added ~5% each 06-04, entered underside 62.9K) hedged 2x short on all three at 63-64K. Standalone shorts: LAB (half still on after TP'ing half at $11 on 06-04; thesis -90% "luna of cycle", entered $16-20 1x), ZEC (2x, another "luna candidate"), WLD (2x, SL at BE), HYPE (short hedge), VVV (added 2% pf 3x on 06-06 — most recent action). Confirmed in premium chat 06-06 he is long HYPE (spot leg).
-- Recent thesis/posture: Bearish/defensive — expects more downside, possible cascade toward ETH 1200s/1300s (calls 1200 "a bit ambitious" for a straight cascade, but whale liqs laddered 1300-1400 could trigger it). Sub-63K = high risk; above 63K = safe to hold. Likes ETH lows as MTF/HTF buy zone. Prefers holding green shorts/hedges through Asia overnight, re-evaluates next day.
-- Conviction notes: Terse ticker-action shorthand ("Add 1% more to lab short", "2x short wld 1%"). Trades a hedged long/short book in pf-% sizing with leverage multiples. Promotes a Blofin (non-KYC) referral for shorts. Most active overnight/Asia session.
-- Last seen: 2026-06-06T08:26Z
+- Platforms: X + Discord (free/public: 1472153627324842057; primary/most-important: 1279738718680256553; premium chat: 1023638573313966212)
+- Current open positions (as of bootstrap) — runs a HEDGED book:
+  - BTC / ETH / SOL — spot longs, hedged 2x short around 63–64k. Added 5% each 06-04. Net cautious.
+  - ZEC — short (large), built 1x→2x, multiple adds/rebalances; rebalanced ~405 on 06-07. Expects further downside ("coming for mechanical bounce chasers").
+  - VVV — short, 3x, added/rebalanced ~15.8 on 06-07.
+  - LAB — short (partial), 1x, total ~5% pf built $16–20; TP half at $11 (06-04); re-added 2% at $13 (06-07). Thesis: due for a -90% leg, possible "luna of cycle".
+  - HYPE — short, added 2% at 2x on 06-07 (separate account).
+  - WLD — short, 2x, SL at BE.
+- Recent thesis/posture: Defensive/hedged. 63k is the key line — above = support, below = "much riskier territory". Prefers not to close green shorts overnight/Asia session. Watching what Saylor actually did for next market direction. Risk triggers firing frequently.
+- Conviction notes: Very terse shorthand — "fc {ticker} {tf}" = forecast/chart post, "sc" = chart, "pf" = portfolio %, "BE" = breakeven, "sl 10x" sizing notation. Posts liquidation feeds and X reposts in public channel (low signal). Real position changes come as explicit "add/tp/enter/short {ticker} {%}" lines, mostly in 1279738718680256553 and premium 1023638573313966212.
+- Last seen: 2026-06-07T19:47Z
 
 ---
-*X-only watched accounts (no data in bootstrap window — X cache empty; state will populate once x-trader-monitor runs):*
 
-## Bitcoin_Astro
-- Platforms: X. No data in bootstrap window.
+## X-only watched accounts (no data at bootstrap — X cache empty)
+State to be populated by `x-trader-monitor` once X history flows.
+- Bitcoin_Astro — Platforms: X. No state yet.
+- abetrade — Platforms: X. No state yet.
+- trading_axe — Platforms: X. No state yet.
+- t_in_crypto — Platforms: X. No state yet.
+- ryzzqq — Platforms: X. No state yet.
+- swarmister — Platforms: X. No state yet.
+- bull_genius — Platforms: X. No state yet.
+- Stoiiic — Platforms: X. No state yet.
+- Wild_Randomness — Platforms: X. No state yet.
 
-## abetrade
-- Platforms: X. No data in bootstrap window.
-
-## trading_axe
-- Platforms: X. No data in bootstrap window.
-
-## t_in_crypto
-- Platforms: X. No data in bootstrap window.
-
-## ryzzqq
-- Platforms: X. No data in bootstrap window.
-
-## swarmister
-- Platforms: X. No data in bootstrap window.
-
-## bull_genius
-- Platforms: X. No data in bootstrap window.
-
-## Stoiiic
-- Platforms: X. No data in bootstrap window.
-
-## Wild_Randomness
-- Platforms: X. No data in bootstrap window.
-
-BOOTSTRAP_COMPLETE: 2026-06-06
+BOOTSTRAP_COMPLETE: 2026-06-08
