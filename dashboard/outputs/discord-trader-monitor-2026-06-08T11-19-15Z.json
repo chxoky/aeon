@@ -1,0 +1,48 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge-source",
+        "text-headline",
+        "text-attribution"
+      ]
+    },
+    "badge-source": {
+      "type": "Badge",
+      "props": {
+        "text": "💬 DC: heartcanhodl",
+        "variant": "secondary"
+      }
+    },
+    "text-headline": {
+      "type": "Text",
+      "props": {
+        "text": "IRAN'S ARMED FORCES ANNOUNCE END OF MILITARY OPERATIONS AGAINST ISRAEL, WARN OF HARSHER ATTACKS IF ISRAEL RESUMES ATTACKS ON LEBANON - FARS NEWS",
+        "variant": "lead"
+      }
+    },
+    "text-attribution": {
+      "type": "Text",
+      "props": {
+        "text": "@WalterBloomberg",
+        "variant": "muted"
+      }
+    }
+  }
+}
