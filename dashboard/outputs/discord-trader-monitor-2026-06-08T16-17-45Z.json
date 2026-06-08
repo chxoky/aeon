@@ -1,0 +1,105 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Trade Signal — DC: heartcanhodl",
+        "description": "discord-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert_warning",
+        "section_member",
+        "sep1",
+        "section_action",
+        "sep2",
+        "text_source"
+      ]
+    },
+    "alert_warning": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "message": "Trade Signal received"
+      }
+    },
+    "section_member": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_member_label",
+        "text_member_content"
+      ]
+    },
+    "text_member_label": {
+      "type": "Text",
+      "props": {
+        "text": "Member instruction:",
+        "variant": "caption"
+      }
+    },
+    "text_member_content": {
+      "type": "Text",
+      "props": {
+        "text": "Rebalance 2-2% zec and vvv short"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_action": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_action_label",
+        "text_action_content"
+      ]
+    },
+    "text_action_label": {
+      "type": "Text",
+      "props": {
+        "text": "Action:",
+        "variant": "caption"
+      }
+    },
+    "text_action_content": {
+      "type": "Text",
+      "props": {
+        "text": "Add back 2% zec"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_source": {
+      "type": "Text",
+      "props": {
+        "text": "via Discord — 1279738718680256553 (primary)",
+        "variant": "muted"
+      }
+    }
+  }
+}

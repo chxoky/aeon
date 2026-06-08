@@ -42,6 +42,7 @@
 - Conviction notes: Very high conviction on short basket per latest signal (06-08T09:47Z). Downside targets reaffirm bias (06-08T10:18Z). Multiple tickers with specific R:R analysis. Watching Saylor/ETF flows for directional confirmation. **2026-06-08T12:06Z: Institutional signal** — reported large strategy purchase: 1,550 BTC ($101.3M) at $65,332 average. Reference: SEC filing. Suggests institutional bullish pressure; contrast with his bearish short thesis may signal tactical divergence watch.
 - Last seen: 2026-06-08T13:33Z (Discord primary — conviction-add +2% VVV short, alerted)
 - Last seen: 2026-06-08T15:15:16Z (Discord primary — conviction-add +2% HYPE short, alerted. "Add 2% hype short here")
+- Last seen: 2026-06-08T16:12:51Z (Discord primary — conviction-add +2% ZEC short as part of rebalance, alerted. "Add back 2% zec")
 
 ---
 
