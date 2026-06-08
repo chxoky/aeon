@@ -54,6 +54,36 @@ All three Discord-tracked traders also post on X. Apply the same dedup logic as 
 - **Default assumption: Discord posts first** — so in most cases, THIS is the original sighting. Proceed with full classification, then write a note to `traders.md` flagging "first seen on Discord — X monitor should dedupe against this" so the X side doesn't double-alert.
 - If you find this trader already posted the same thing on X moments ago (check `traders.md` for a recent X entry on the same topic), treat this Discord message as the reiteration: silent unless it adds meaningful variation, in which case fold it in as a footnote on the existing alert. Remember X carries slightly more conviction weight for these three — note if the Discord version reads as more tentative or more confident than the X version.
 
+## Hardcoded Rules
+
+Same three rules as `x-trader-monitor` — applied identically here:
+
+**HR-1 — Test tweets/messages: silent skip**
+Any message matching test patterns (`"test"`, `"[ticker] test"`, `"testing"`) → non-financial, skip silently. No calibration alert.
+
+**HR-2 — Calibration alert format: always include context**
+When you can't classify a message and need to ask Kyle, never send the bare quote. Always include the triggering context:
+```
+🔍 *Calibration — [DC: {trader_handle}]*
+
+Event: {what prompted it — the referenced_message content, prior message in the same channel, external news}
+{trader_handle}: "{cryptic message}"
+
+Unable to classify — what's your read?
+```
+For Discord, `referenced_message` (the member's question being replied to) is the most common context source — always include it if `is_reply: true`.
+
+**HR-3 — Self-resolve: always alert**
+After logging any AMBIGUOUS/PENDING item in `traders.md`, if a subsequent message from the same trader clearly resolves it, always send:
+```
+✅ *Self-resolved — [DC: {trader_handle}]*
+
+Earlier ambiguous: "{original cryptic message}"
+Resolved by: "{subsequent message or action}"
+Classification: {what it means now}
+```
+Do not silently fold it into memory — Kyle wants to know when the system caught its own ambiguity.
+
 ## Step 5 — Classify the message
 
 Use the exact same decision tree as `x-trader-monitor` Step 4:

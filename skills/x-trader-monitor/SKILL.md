@@ -52,6 +52,36 @@ If `username` is one of the three dual-platform traders:
 
 If `username` is one of the other 9 X-only traders, skip dedup — proceed directly.
 
+## Hardcoded Rules
+
+These rules are non-negotiable and take priority over general classification judgment.
+
+**HR-1 — Test tweets: silent skip**
+Any post matching test-tweet patterns (`"test"`, `"[ticker] test"`, `"[any word] test"`, `"testing 123"`, standalone `"testing"`) → classify as non-financial, skip silently. No calibration alert.
+
+**HR-2 — Calibration alert format: always include context**
+When you can't classify a message and need to ask Kyle (ambiguous/cryptic), never send the message as a bare quote. Always include the triggering context:
+```
+🔍 *Calibration — @{username}*
+
+Event: {what prompted the message — e.g. external news, price action, the message being replied to}
+{username}: "{cryptic message}"
+
+Unable to classify — what's your read?
+```
+If no external event is visible, describe the most likely trigger from `traders.md` context ("~24 min after their last short add on VVV").
+
+**HR-3 — Self-resolve: always alert**
+After writing any AMBIGUOUS/PENDING item to `traders.md`, check every subsequent message from that trader in the same run (and cross-check on each new event) to see if it clarifies the ambiguous one. If it does, always send:
+```
+✅ *Self-resolved — @{username}*
+
+Earlier ambiguous: "{original cryptic message}"
+Resolved by: "{subsequent message or action}"
+Classification: {what it means now}
+```
+Do not silently fold it into memory without alerting Kyle.
+
 ## Step 4 — Classify the post
 
 Walk through these in order and stop at the first match:

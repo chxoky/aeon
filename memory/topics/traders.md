@@ -42,7 +42,7 @@
 - Recent thesis/posture: **2026-06-08T16:09Z update** (resolves the prior "stream content not cached" gap) — split view: bullish HTF, bearish LTF. Holding the BTC swing long while scalping shorts at a defined "grey box" with deliberately small risk. Prior cached view (bottom is "close"; wants multi-week range above 60K; local-reclaim targets ~68.2K/69.3K–70K) still consistent. Sentiment-contrarian, patient, manual invalidation.
 - Conviction notes: Low-leverage, long-horizon swing style; explicitly warns impatient followers off. Very terse — usually points to a stream, but the 16:09Z post stated his stance inline (rare and useful). Distinguishes timeframes clearly (HTF bias vs LTF tactical).
 - Last seen: 2026-06-08T16:09:26Z (Discord primary — HTF-bullish / LTF scalp-short update, role-pinged followers)
-- **PENDING (carried):** 2026-06-08T08:00 "BTC test" flagged AMBIGUOUS by real-time monitor — too cryptic to classify; awaiting Kyle's calibration on intent (test/signal/typo). Not present in this bootstrap cache; preserved so the open question isn't lost.
+- **RESOLVED:** 2026-06-08T08:00 "BTC test" — confirmed test tweet by Kyle. Skipped silently per hardcoded test-tweet rule.
 - X recent activity (bootstrap, 06-05→06-08): Emphatically bullish BTC spot accumulation — "I am buying as much $BTC as I possibly can," ~90% invested (06-06), DCAing after the 50% drop; flipped bullish after the 126K→59K retrace, eyes 160K, sees the bottom close after the sub-60K sweep (could still wick 45-50K into August). 06-07: $SOL "time to start bidding," doesn't see it below $40 but small size (not an altcoin guy). 06-08: expects months of sideways chop with shallow pumps, no V-shape recovery; flags a 700 BTC sell wall at 64-64.2K and deleveraged OI as a HTF-bottom tell. The X feed is pure spot-accumulation conviction — strengthens, and is consistent with, the Discord HTF-bullish read (the LTF scalp-short nuance is Discord-only).
 - Last X post seen: 2064001729893449808 (06-08T15:08Z)
 
@@ -138,11 +138,16 @@ Crypto_Chase in member Q&A (channel 1343971265962049597): **Bull market convicti
 - **Significance:** 180° reversal from post-GOLD stop cautious/bearish stance (11:57Z: "playing it slow and conservative"). This represents genuine macro outlook shift, not supporting-channel chatter.
 - **Alert:** YES — supporting-channel conviction shift qualifies for standalone alert per Step 7 case 2. Sent to Kyle via ./notify with context of prior bearish posture.
 
-### 2026-06-08T14:02:10Z (supporting channel — AMBIGUOUS, awaiting calibration)
+### 2026-06-08T14:02:10Z (supporting channel — RESOLVED, calibration alert sent)
 Crypto_Chase in member Q&A (channel 1343971265962049597): **Cryptic message** — "Very coincidental timing if you ask me".
-- **Context:** Posted ~10 minutes after major bull market conviction call (13:52:38Z). No prior context message provided (is_reply = false).
-- **Interpretation needed:** Message is cryptic — unclear whether it's sarcasm, reference to a specific market event, or reaction to news. Could be conviction marker or casual observation.
-- **Status:** AWAITING KYLE CALIBRATION. Should we classify this as (a) non-financial chatter to skip, (b) market observation to log, or (c) something else? Once answered, record pattern for future similar Discord member-chat messages.
+- **Context:** Reply to pp_kushgod's comment about Jensen Huang. Jensen publicly commented on stock prices on a day stocks were down (posting stocks look cheap the prior night, then again that morning). Chase's message = market observation on suspicious/front-run-like timing of CEO comments, not a trade signal.
+- **Classification:** Non-financial / market observation — do NOT classify as a position or conviction signal. DO send a calibration alert with full context so Kyle can interpret.
+- **Calibration alert format used:**
+  ```
+  Event: Jensen Huang publicly comments on the price of stocks on a down day (posted "stocks are cheap" last night + this morning)
+  Chase: "Very coincidental timing if you ask me"
+  ```
+- **Pattern (hardcoded):** When a cryptic/ambiguous message is a reaction to an external event visible in the reply chain, always surface the triggering event in the calibration alert. Don't send as a standalone quote — include what prompted it.
 
 ### 2026-06-08T14:45:35Z (primary channel — CRYPTIC/AMBIGUOUS, awaiting calibration)
 HeartCanHodl in primary/free-public channel (1472153627324842057): **Terse chart reference** — "Fc bio 1m https://x.com/i/status/2063994803797561636".
@@ -150,12 +155,11 @@ HeartCanHodl in primary/free-public channel (1472153627324842057): **Terse chart
 - **Context:** Link to X post provided but no inline explanation. Latest prior HCH activity was conviction-add +2% VVV short at 13:33Z.
 - **Interpretation needed:** Cannot determine intent without understanding what "bio" refers to. Could be (a) new position/ticker alert, (b) chart share for informational purposes, (c) typo/shorthand mishap.
 - **Status:** ✅ RESOLVED (force re-run #8) — self-answered by HCH's own action at 15:10:22Z ("Add 1% bio short 2x"). "bio" is a ticker ($BIO / Bio Protocol); the 14:45Z "Fc bio 1m" was a forecast/chart preceding his short entry. Now tracked as a HCH position. No Kyle calibration needed.
-### 2026-06-08T14:46:06Z (primary channel — AMBIGUOUS, awaiting calibration)
+### 2026-06-08T14:46:06Z (primary channel — SELF-RESOLVED, alert sent)
 HeartCanHodl in public/primary channel (1472153627324842057): **Cryptic message** — "Let's see".
-- **Context:** Posted ~73 minutes after last tracked signal (13:33:27Z conviction-add +2% VVV short). No attachments, no reply context (is_reply = false).
-- **Pattern:** Same cryptic, zero-detail style as Crypto_Chase's "Very coincidental timing if you ask me" — could be market observation, anticipation of price action, or casual chatter with no trade signal.
-- **Interpretation needed:** In HCH's terse style, this could mean: (a) watching a setup unfold; (b) waiting for confirmation on his bearish shorts thesis; (c) reaction to breaking news; (d) non-financial chatter.
-- **Status:** AWAITING KYLE CALIBRATION. Given that HCH is terse and this matches the CryptoCH pattern, should we auto-skip future single-word "Let's see" / "Here we go" / "Watch this" messages, or case-by-case?
+- **Context:** Posted ~73 minutes after last tracked signal (13:33:27Z conviction-add +2% VVV short). No attachments, no reply context. 24 minutes later (15:10Z) HCH opened a new $BIO short — this "Let's see" was him watching a setup on BIO before pulling the trigger.
+- **Classification:** Self-resolved by subsequent action. Alert sent per hardcoded self-resolve rule.
+- **Pattern (hardcoded):** When an AMBIGUOUS/PENDING item in traders.md is clarified by a subsequent message or action from the same trader, always send a self-resolve alert to Kyle.
 
 ### 2026-06-08T15:12:00Z (supporting channel — informational)
 Crypto_Chase in member Q&A (channel 1247927786681794601): **Market sentiment** — "We were 1.5% away from getting good fills on quality equities but unfortunately Jensen CEO and Trump 100th ceasefire announcement hundredth deal made this month reversed everything".
