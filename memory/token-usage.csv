@@ -8,3 +8,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-06-08,price-threshold-alert,claude-sonnet-4-6,7,3280,177464,17158
 2026-06-08,x-trader-monitor,claude-haiku-4-5-20251001,135,6929,691453,23769
 2026-06-08,trader-bootstrap,claude-opus-4-8,2650,25565,1683652,65479
+2026-06-08,trader-bootstrap,claude-opus-4-8,2509,16434,1338422,58282
