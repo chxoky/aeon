@@ -609,19 +609,40 @@ jobs:
           git config user.name "aeonframework"
           git config user.email "aeonframework@proton.me"
 
-      - name: Setup Node.js
+      - name: Route skill commands
+        id: route
         if: steps.msg.outputs.source != ''
+        env:
+          GH_TOKEN: ${{ secrets.GH_GLOBAL || secrets.GITHUB_TOKEN }}
+          _ROUTE_MESSAGE: ${{ steps.msg.outputs.message }}
+        run: |
+          MESSAGE="$_ROUTE_MESSAGE"
+
+          # chart $TICKER [TIMEFRAME] [INDICATOR] → dispatch chart-request skill
+          if echo "$MESSAGE" | grep -qiE "^chart[[:space:]]+\\\$?[A-Za-z0-9]+"; then
+            echo "Routing to chart-request: $MESSAGE"
+            gh workflow run aeon.yml \
+              -f skill=chart-request \
+              -f var="$MESSAGE" \
+              -f model=claude-haiku-4-5-20251001
+            echo "routed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "routed=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Setup Node.js
+        if: steps.msg.outputs.source != '' && steps.route.outputs.routed != 'true'
         uses: actions/setup-node@v5
         with:
           node-version: '22'
 
       - name: Install Claude Code
-        if: steps.msg.outputs.source != ''
+        if: steps.msg.outputs.source != '' && steps.route.outputs.routed != 'true'
         run: npm install -g @anthropic-ai/claude-code
 
       - name: Run
         id: run
-        if: steps.msg.outputs.source != ''
+        if: steps.msg.outputs.source != '' && steps.route.outputs.routed != 'true'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
@@ -715,7 +736,7 @@ jobs:
           echo "::notice::Token usage — input: $INPUT_TOKENS, output: $OUTPUT_TOKENS, cache_read: $CACHE_READ, cache_creation: $CACHE_CREATION, total: $TOTAL_TOKENS"
 
       - name: Log token usage
-        if: steps.msg.outputs.source != ''
+        if: steps.msg.outputs.source != '' && steps.route.outputs.routed != 'true'
         env:
           _LOG_SOURCE: ${{ steps.msg.outputs.source }}
           _LOG_INPUT: ${{ steps.run.outputs.SKILL_INPUT_TOKENS }}
@@ -740,7 +761,7 @@ jobs:
           echo "| **Total** | **$TOTAL** |" >> "$GITHUB_STEP_SUMMARY"
 
       - name: Commit results
-        if: steps.msg.outputs.source != ''
+        if: steps.msg.outputs.source != '' && steps.route.outputs.routed != 'true'
         env:
           _COMMIT_SOURCE: ${{ steps.msg.outputs.source }}
         run: |

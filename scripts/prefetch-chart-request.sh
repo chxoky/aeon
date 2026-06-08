@@ -1,24 +1,90 @@
 #!/usr/bin/env bash
 # prefetch-chart-request.sh
-# Runs BEFORE Claude starts. Polls Telegram getUpdates for chart command messages,
-# saves matching requests to .xai-cache/chart-request-messages.json, and advances offset.
-# Called by AEON's workflow: ./scripts/prefetch-*.sh <skill_name> <var>
-# Only activates for the chart-request skill.
+# Runs BEFORE Claude starts. Two modes:
+#   1. VAR is set: parse chart command directly from VAR (dispatched via messages.yml routing)
+#   2. VAR is empty: poll Telegram getUpdates for chart commands (scheduled runs)
+# Saves parsed requests to .xai-cache/chart-request-messages.json.
 
 set -euo pipefail
 
 SKILL="${1:-}"
+VAR="${2:-}"
 [ "$SKILL" = "chart-request" ] || exit 0
-
-if [ -z "${TELEGRAM_BOT_TOKEN:-}" ]; then
-  echo "prefetch-chart-request: TELEGRAM_BOT_TOKEN not set, skipping"
-  exit 0
-fi
 
 mkdir -p .xai-cache .pending-chart-request
 
-OFFSET_FILE=".xai-cache/chart-request-offset.txt"
 MESSAGES_FILE=".xai-cache/chart-request-messages.json"
+OFFSET_FILE=".xai-cache/chart-request-offset.txt"
+
+# Pattern: chart $TICKER [TIMEFRAME] [INDICATOR]
+parse_chart_command() {
+  local text="$1"
+  python3 - "$text" <<'PYEOF'
+import sys, re, json
+
+text = sys.argv[1].strip()
+chart_re = re.compile(
+    r"^chart\s+\$?([A-Za-z0-9]+)(?:\s+([A-Za-z0-9]+))?(?:\s+([A-Za-z0-9]+))?\s*$",
+    re.IGNORECASE
+)
+m = chart_re.match(text)
+if not m:
+    print("[]")
+    sys.exit(0)
+
+ticker    = m.group(1).upper()
+timeframe = (m.group(2) or "1D").upper()
+indicator = (m.group(3) or "EMA50").upper()
+
+print(json.dumps([{
+    "message_id": None,
+    "chat_id": None,
+    "ticker": ticker,
+    "timeframe": timeframe,
+    "indicator": indicator,
+    "requested_by": "user",
+    "original_text": text,
+}]))
+PYEOF
+}
+
+# ── Mode 1: VAR-based (routed from messages.yml) ─────────────────────────────
+if [ -n "$VAR" ]; then
+  echo "prefetch-chart-request: var-mode, parsing: $VAR"
+
+  PARSED=$(parse_chart_command "$VAR")
+  COUNT=$(echo "$PARSED" | python3 -c "import json,sys; print(len(json.load(sys.stdin)))" 2>/dev/null || echo 0)
+
+  if [ "$COUNT" -eq 0 ]; then
+    echo "prefetch-chart-request: could not parse chart command from var"
+    echo "[]" > "$MESSAGES_FILE"
+    exit 0
+  fi
+
+  # Inject chat_id from env if available (so postprocess knows where to send)
+  CHAT_ID="${TELEGRAM_CHAT_ID:-}"
+  if [ -n "$CHAT_ID" ]; then
+    PARSED=$(echo "$PARSED" | python3 -c "
+import json, sys
+msgs = json.load(sys.stdin)
+for m in msgs:
+    m['chat_id'] = int('$CHAT_ID')
+print(json.dumps(msgs))
+" 2>/dev/null || echo "$PARSED")
+  fi
+
+  echo "$PARSED" > "$MESSAGES_FILE"
+  echo "prefetch-chart-request: wrote 1 chart request from var"
+  exit 0
+fi
+
+# ── Mode 2: Telegram polling (scheduled runs) ─────────────────────────────────
+if [ -z "${TELEGRAM_BOT_TOKEN:-}" ]; then
+  echo "prefetch-chart-request: TELEGRAM_BOT_TOKEN not set, skipping"
+  echo "[]" > "$MESSAGES_FILE"
+  exit 0
+fi
+
 OFFSET=0
 if [ -f "$OFFSET_FILE" ]; then
   OFFSET=$(cat "$OFFSET_FILE" 2>/dev/null || echo 0)
@@ -26,7 +92,6 @@ fi
 
 echo "prefetch-chart-request: polling getUpdates (offset=$OFFSET)..."
 
-# Poll Telegram — timeout=0 for non-blocking
 TG_RESP=$(curl -sf --max-time 15 \
   "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/getUpdates?offset=${OFFSET}&timeout=0&limit=100" 2>/dev/null) || {
   echo "prefetch-chart-request: curl failed (sandbox?), writing empty cache"
@@ -34,7 +99,6 @@ TG_RESP=$(curl -sf --max-time 15 \
   exit 0
 }
 
-# Write raw response to a temp file so Python can read it without quoting issues
 TMP_RESP=$(mktemp)
 echo "$TG_RESP" > "$TMP_RESP"
 trap 'rm -f "$TMP_RESP"' EXIT
@@ -62,9 +126,8 @@ if not data.get("ok"):
 
 updates = data.get("result", [])
 
-# Pattern: chart $TICKER [TIMEFRAME] [INDICATOR]
 chart_re = re.compile(
-    r"^\s*chart\s+\$?([A-Za-z0-9]+)(?:\s+([A-Za-z0-9]+))?(?:\s+([A-Za-z0-9]+))?\s*$",
+    r"^chart\s+\$?([A-Za-z0-9]+)(?:\s+([A-Za-z0-9]+))?(?:\s+([A-Za-z0-9]+))?\s*$",
     re.IGNORECASE
 )
 
@@ -88,7 +151,7 @@ for update in updates:
     if not m:
         continue
 
-    ticker   = m.group(1).upper()
+    ticker    = m.group(1).upper()
     timeframe = (m.group(2) or "1D").upper()
     indicator = (m.group(3) or "EMA50").upper()
 
@@ -108,7 +171,6 @@ for update in updates:
 with open(messages_path, "w") as f:
     json.dump(chart_messages, f, indent=2)
 
-# Advance offset so we don't reprocess these updates
 if max_update_id is not None:
     with open(offset_path, "w") as f:
         f.write(str(max_update_id + 1))
