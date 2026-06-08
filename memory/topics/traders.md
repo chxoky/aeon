@@ -16,6 +16,7 @@
 - Conviction notes: Process-driven, level/confluence trader (FVGs, weekly SR, fib, 618). Verbose, transparent about R-risk and invalidation. Will defend a thesis through drawdown but cuts on clean HTF invalidation. Discord now Rainbet-sponsored; some posts are sponsor/engagement asks (ignore for signal).
 - Last seen: 2026-06-08T12:54:08Z (front-running concern, Discord supporting/Q&A reply to pp_kushgod) — conviction observation, sentiment cautious on market microstructure. Consistent with post-GOLD stop wariness about market structure and chop.
 - Last seen: 2026-06-08T12:54:14Z (fragmentary cryptic message on ES liquidity trades, Discord Q&A/supporting) — "Even just on like typical ES liquidity trades," incomplete sentence, awaiting Kyle's calibration. Prior: 2026-06-08T12:02:33Z shareholder dilution commentary.
+- Last seen: 2026-06-08T13:07:56Z (supporting channel Q&A reply on bounce interpretation) — member asked "would you short this bounce?"; Chase: "I'm just waiting for a bit to see if this is a scam bounce or whatnot. If it is a scam bounce, then we'll probably get some of the equity bids filled. And if it's not, then at least I'll understand that the trend is upwards again." Expresses waiting/uncertainty posture; consistent with recent conservative stance.
 
 ## KillaXBT
 - Platforms: X + Discord (primary: 1411492188315193416)
