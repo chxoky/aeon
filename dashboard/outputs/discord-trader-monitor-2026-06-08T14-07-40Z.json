@@ -1,0 +1,149 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor",
+        "description": "Ambiguous message requiring calibration"
+      },
+      "children": [
+        "main_stack"
+      ]
+    },
+    "main_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading",
+        "discord_section",
+        "separator1",
+        "context_section",
+        "separator2",
+        "calibration_section"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🤔 Crypto_Chase — Ambiguous Message",
+        "level": "h2"
+      }
+    },
+    "discord_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "qa_label",
+        "message_card",
+        "no_reply_badge"
+      ]
+    },
+    "qa_label": {
+      "type": "Text",
+      "props": {
+        "text": "Supporting channel member Q&A (14:02:10Z)",
+        "variant": "lead"
+      }
+    },
+    "message_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Crypto_Chase",
+        "text": "Very coincidental timing if you ask me"
+      }
+    },
+    "no_reply_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "No reply context provided",
+        "variant": "outline"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context_label",
+        "timing_text",
+        "original_call_heading",
+        "original_call_text"
+      ]
+    },
+    "context_label": {
+      "type": "Text",
+      "props": {
+        "text": "Context:",
+        "variant": "lead"
+      }
+    },
+    "timing_text": {
+      "type": "Text",
+      "props": {
+        "text": "Posted 10 min after major bull market conviction call",
+        "variant": "body"
+      }
+    },
+    "original_call_heading": {
+      "type": "Text",
+      "props": {
+        "text": "Original call @ 13:52:38Z:",
+        "variant": "lead"
+      }
+    },
+    "original_call_text": {
+      "type": "Text",
+      "props": {
+        "text": "\"Yep, bull market just begun. Up 50% in two months\"",
+        "variant": "muted"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "calibration_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "calibration_heading",
+        "calibration_question"
+      ]
+    },
+    "calibration_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Need Calibration",
+        "level": "h3"
+      }
+    },
+    "calibration_question": {
+      "type": "Alert",
+      "props": {
+        "message": "Cryptic message — unclear if sarcasm, market reaction, or conviction marker. Should future similar Discord member-chat messages be (a) skipped, (b) logged, or (c) something else?",
+        "type": "info"
+      }
+    }
+  }
+}
