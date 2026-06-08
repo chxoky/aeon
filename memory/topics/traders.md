@@ -32,11 +32,11 @@
   - ZEC — short (large), built/added repeatedly (06-06 → 06-07), rebalanced ~405 on 06-07. Expects further downside ("coming for all those mechanical bounce chasers", their stops at BE).
   - VVV — short, 3x, added 2% 06-06, +2% 06-07, rebalanced ~15.8 on 06-07.
   - LAB — short, ~1x, half of the book; re-added 2% 1x at $13 on 06-07. Part of the bearish-alt basket.
-  - HYPE — short, added 2% at 2x on 06-07 (from a separate account).
+  - HYPE — short, added 2% at 2x on 06-07 (from a separate account); re-added 2% via Discord 06-08T06:59Z (conviction-add, alerted).
   - WLD — short (part of the short basket).
 - Recent thesis/posture: Defensive/hedged. 63k is the key line — above = support, below = "much riskier territory". Risk triggers firing frequently. Prefers not to close green shorts/hedges overnight or in the Asia session. Watching what Saylor actually did for next market direction. Called one name "a free short", ideally 320 or 190, upside capped (won't revisit ATH).
 - Conviction notes: Very terse shorthand — "fc {ticker} {tf}" = forecast/chart, "sc" = chart, "pf" = portfolio %, "BE" = breakeven. Posts liquidation feeds and X reposts in the public channel (low signal). Real position changes come as explicit "add/tp/enter/short {ticker} {%}" lines, mostly in 1279738718680256553 and premium 1023638573313966212. Warns against adding to already-green positions (worsens cumulative entry, hurts psychology).
-- Last seen: 2026-06-07T19:47Z
+- Last seen: 2026-06-08T06:59Z (Discord — HYPE add)
 
 ---
 

@@ -1,0 +1,105 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor",
+        "description": "Conviction Add"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-conviction",
+        "user-badge",
+        "action-text",
+        "separator-1",
+        "quote-stack",
+        "separator-2",
+        "channel-text",
+        "cta-text"
+      ]
+    },
+    "heading-conviction": {
+      "type": "Heading",
+      "props": {
+        "text": "Conviction Add",
+        "level": "h2"
+      }
+    },
+    "user-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "HeartCanHodl",
+        "variant": "default"
+      }
+    },
+    "action-text": {
+      "type": "Text",
+      "props": {
+        "text": "Added to HYPE position (2x short)",
+        "variant": "body"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "quote-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "quote-label",
+        "quote-text"
+      ]
+    },
+    "quote-label": {
+      "type": "Text",
+      "props": {
+        "text": "Trade signal:",
+        "variant": "muted"
+      }
+    },
+    "quote-text": {
+      "type": "Text",
+      "props": {
+        "text": "\"Add 2% to hype short\"",
+        "variant": "lead"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "channel-text": {
+      "type": "Text",
+      "props": {
+        "text": "via Discord — primary channel (most important)",
+        "variant": "caption"
+      }
+    },
+    "cta-text": {
+      "type": "Text",
+      "props": {
+        "text": "Want to add to yours too?",
+        "variant": "body"
+      }
+    }
+  }
+}
