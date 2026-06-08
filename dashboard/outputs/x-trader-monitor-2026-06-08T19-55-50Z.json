@@ -1,0 +1,54 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor Worker Alert"
+      },
+      "children": [
+        "alert-main",
+        "separator-1",
+        "stack-details"
+      ]
+    },
+    "alert-main": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "message": "Received event from username 'unknown' (tweet ID 2064072748901773636), which does NOT match any of the 12 watched traders. Event was skipped without alerting."
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-issue",
+        "text-recommendation"
+      ]
+    },
+    "text-issue": {
+      "type": "Text",
+      "props": {
+        "text": "This suggests a Worker misconfiguration — the Cloudflare Worker filter may be including unintended accounts.",
+        "variant": "lead"
+      }
+    },
+    "text-recommendation": {
+      "type": "Text",
+      "props": {
+        "text": "Recommend verifying the Worker account filter against the current watched list."
+      }
+    }
+  }
+}
