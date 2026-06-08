@@ -1,0 +1,107 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Strategy Trading Activity"
+      },
+      "children": [
+        "tweet_card",
+        "sep1",
+        "stats_grid",
+        "sep2",
+        "filing_section"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "heartcanhodl",
+        "handle": "heartcanhodl",
+        "text": "STRATEGY BOUGHT 1,550 BTC ($101.3M) AT AN AVERAGE PRICE OF $65,332 [287]"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stats_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "stat_btc",
+        "stat_value",
+        "stat_price"
+      ]
+    },
+    "stat_btc": {
+      "type": "Stat",
+      "props": {
+        "label": "Bitcoin Purchased",
+        "value": "1,550 BTC"
+      }
+    },
+    "stat_value": {
+      "type": "Stat",
+      "props": {
+        "label": "Total Investment",
+        "value": "$101.3M"
+      }
+    },
+    "stat_price": {
+      "type": "Stat",
+      "props": {
+        "label": "Average Price",
+        "value": "$65,332"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "filing_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "source_info",
+        "channel_badge",
+        "sec_filing"
+      ]
+    },
+    "source_info": {
+      "type": "Text",
+      "props": {
+        "text": "via Discord",
+        "variant": "caption"
+      }
+    },
+    "channel_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "free/public channel",
+        "variant": "outline"
+      }
+    },
+    "sec_filing": {
+      "type": "StoryLink",
+      "props": {
+        "title": "SEC Filing",
+        "href": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526260709/0001193125-26-260709-index.html",
+        "source": "sec.gov"
+      }
+    }
+  }
+}

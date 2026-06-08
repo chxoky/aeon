@@ -1,8 +1,9 @@
 💬 *[DC: crypto_chase — member chat]*
+💬 *[DC: heartcanhodl]*
 
-GOLD — **Stopped out.** First stop out on Gold in my last 4 public Gold trades.
+STRATEGY BOUGHT 1,550 BTC ($101.3M) AT AN AVERAGE PRICE OF $65,332 [287]
 
-_Market context: Trump ceasefire, HYPE test overnight. Posture: slow and conservative, looking for setups._
+_via Discord — free/public channel_
 
 _via Discord — crypto_chase primary_
 ## Summary
@@ -23,3 +24,4 @@ The skill successfully processed one Discord message event from Crypto_Chase in 
 
 The message contains no trade signal, no ticker, and no actionable position update — it's administrative/contextual chatter in a member Q&A channel. Per the workflow, it was skipped from alerting and logged only.
 They diluted the common shareholder even more lmao
+SEC filing: https://www.sec.gov/Archives/edgar/data/1050446/000119312526260709/0001193125-26-260709-index.html
