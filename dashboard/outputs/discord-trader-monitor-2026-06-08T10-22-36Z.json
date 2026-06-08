@@ -1,0 +1,55 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "💬 [DC: heartcanhodl]"
+      },
+      "children": [
+        "heading-1",
+        "table-1"
+      ]
+    },
+    "heading-1": {
+      "type": "Heading",
+      "props": {
+        "text": "Rough downside estimate:",
+        "level": "h3"
+      }
+    },
+    "table-1": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Asset",
+          "Downside Range"
+        ],
+        "rows": [
+          [
+            "Btc",
+            "$57,000 - $52,000"
+          ],
+          [
+            "Eth",
+            "$1450 - $1360"
+          ],
+          [
+            "Sol",
+            "$56 - $52"
+          ],
+          [
+            "Hype",
+            "$55 - $50"
+          ],
+          [
+            "Zec",
+            "$350 - $320"
+          ]
+        ]
+      }
+    }
+  }
+}

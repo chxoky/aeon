@@ -35,8 +35,9 @@
   - HYPE — short, 2x (added 06-07, re-added 06-08T06:59Z). Most crowded CT long leg, death-spiral potential with dex-cex-tradfi competition.
   - WLD — short (part of the short basket).
 - Recent thesis/posture: **2026-06-08T09:47Z major update** — "hunting for ltf weakness and building shorts" (primary conviction post). BTC <63k favorable, <60k = freefall. Risk: strong support over 63k = reversal signal. Post-run consolidation risk; ETF flows + Saylor announcement reaction = key signal. Zec & Lab "destined lower" — won't care about macro noise. Terse shorthand — "fc {ticker} {tf}" = forecast/chart, "BE" = breakeven.
-- Conviction notes: Very high conviction on short basket per latest signal (06-08T09:47Z). First Discord post in primary channel at this scale. Multiple tickers with specific R:R analysis. Watching Saylor/ETF flows for directional confirmation.
-- Last seen: 2026-06-08T09:47Z (Discord primary — multi-ticker short conviction, alerted)
+  - **2026-06-08T10:18Z update** — Downside estimate: BTC $57-52k, ETH $1450-1360, SOL $56-52, HYPE $55-50, ZEC $350-320. Follows 09:47Z conviction post; reinforces bearish shorts thesis with explicit targets. Alert: informational.
+- Conviction notes: Very high conviction on short basket per latest signal (06-08T09:47Z). Downside targets reaffirm bias (06-08T10:18Z). Multiple tickers with specific R:R analysis. Watching Saylor/ETF flows for directional confirmation.
+- Last seen: 2026-06-08T10:18Z (Discord primary — downside price estimates, alerted)
 
 ---
 
