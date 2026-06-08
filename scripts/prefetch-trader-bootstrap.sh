@@ -74,6 +74,13 @@ for handle in "${ACCOUNTS[@]}"; do
       break
     fi
 
+    # Debug: show raw createdAt format and total tweet count on first page/account
+    if [ $pages -eq 0 ] && [ "${handle}" = "KillaXBT" ]; then
+      SAMPLE_DATE=$(echo "$RESP" | jq -r '.tweets[0].createdAt // "missing"')
+      TOTAL_TWEETS=$(echo "$RESP" | jq '.tweets | length')
+      echo "  DEBUG @${handle}: total=${TOTAL_TWEETS} createdAt_sample='${SAMPLE_DATE}' cutoff='${LOOKBACK_TS}'"
+    fi
+
     # Parse tweets within lookback window
     PAGE_TWEETS=$(echo "$RESP" | jq -c --arg cutoff "$LOOKBACK_TS" '[.tweets[]? | select(.createdAt >= $cutoff) | {
       id: .id,
