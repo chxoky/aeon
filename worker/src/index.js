@@ -128,10 +128,9 @@ async function handleTwitter(request, env, ctx) {
     return new Response('OK');
   }
 
-  // fast_tweet = single tweet object; tweet = array in tweets[]
-  const tweet = eventType === 'fast_tweet'
-    ? body?.tweet
-    : body?.tweets?.[0];
+  // fast_tweet and tweet both carry the tweet at body.tweet; tweets[] is a
+  // batch format twitterapi.io occasionally uses — fall back to body.tweet.
+  const tweet = body?.tweet ?? body?.tweets?.[0];
 
   if (!tweet) return new Response('OK');
 
