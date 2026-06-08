@@ -176,6 +176,7 @@ jobs:
           REPLICATE_API_TOKEN: ${{ secrets.REPLICATE_API_TOKEN }}
           SKILL_VAR: ${{ inputs.var }}
           X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
+          TWITTERAPI_IO_KEY: ${{ secrets.TWITTERAPI_IO_KEY }}
           DISCORD_USER_TOKEN: ${{ secrets.DISCORD_USER_TOKEN }}
           WATCHED_X_ACCOUNTS: ${{ vars.WATCHED_X_ACCOUNTS }}
         run: |
@@ -857,7 +858,8 @@ jobs:
             git push --force-with-lease -u origin "$CURRENT_BRANCH" || true
 
             # Switch back to main and cherry-pick memory/log changes if any
-            git checkout main
+            git fetch origin main
+            git checkout main 2>/dev/null || git checkout -b main origin/main
             git pull --rebase origin main || true
           fi
 
