@@ -1,0 +1,52 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor"
+      },
+      "children": [
+        "badge_source",
+        "separator_1",
+        "text_message",
+        "separator_2",
+        "text_chart_ref"
+      ]
+    },
+    "badge_source": {
+      "type": "Badge",
+      "props": {
+        "text": "DC: crypto_chase — supporting Q&A",
+        "variant": "default"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_message": {
+      "type": "Text",
+      "props": {
+        "text": "Just for future reference of what will likely perform best if equities do pull back and some bids fill",
+        "variant": "body"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_chart_ref": {
+      "type": "Text",
+      "props": {
+        "text": "Reference chart provided — equity pullback scenario analysis",
+        "variant": "caption"
+      }
+    }
+  }
+}
