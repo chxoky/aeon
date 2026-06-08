@@ -1,12 +1,14 @@
-📋 *Trader Bootstrap Complete — 3-day lookback (Jun 5 → Jun 8)*
+📋 Trader Bootstrap Complete — 3-day lookback (Jun 5–8)
 
-*Currently live setups/positions:*
-— Crypto_Chase: GOLD long (spot), still open, stop not yet hit. HYPE & NVDA both flat (HYPE stopped -1.5R, orders cancelled; NVDA cut ~breakeven).
-— KillaXBT: BTC low-leverage swing long (~75% exposed, long-horizon hold).
-— HeartCanHodl: hedged book — BTC/ETH/SOL spot longs hedged 2x short ~63-64k; shorts on ZEC (large), VVV (3x), LAB, HYPE (2x), WLD.
+Force re-run: state re-verified, no changes. X cache was empty (X-only accounts will populate via x-trader-monitor); the 3 Discord traders have full state.
 
-*Top overlap tickers:* HYPE (CONTESTED — Chase flat w/ bullish bias vs HCH short) · BTC (MIXED — Killa long, HCH hedged/defensive, Chase cautious) · ZEC (BEARISH — Chase avoids, HCH short).
+Currently live setups/positions:
+— Crypto_Chase: GOLD long (spot), stop not yet hit. HYPE + NVDA now FLAT (both stopped/cut Jun 5). Turned cautious/bearish — BTC broke weekly 200 EMA, eyeing trad rotation (INTC, MU, silver, SPY).
+— HeartCanHodl: running a hedged book — BTC/ETH/SOL spot longs hedged 2x short ~63–64k; large ZEC short (rebal ~405), VVV short 3x (~15.8), LAB ~1x, HYPE 2x, WLD short. 63k is the line in the sand.
+— KillaXBT: low-leverage BTC swing long carried forward; one Jun 6 stream update not cached.
 
-*Notable theses to watch:* Chase turned cautious post-HYPE-stop (BTC broke weekly 200 EMA → leans more downside; rotating toward trad: INTC, MU, silver). HCH defensive, 63k the key line, watching what Saylor actually did. Killa patient — thinks the bottom is "close".
+Top overlap tickers: BTC (group lean bearish/cautious), HYPE (Chase flat, HCH short), ZEC.
+
+Notable theses: weekly 200 EMA breakdown has Chase expecting more downside + consolidation; HCH defensive below 63k. Both watching what Saylor actually did for next direction.
 
 Real-time monitoring is now active — you'll hear about new developments as they happen.

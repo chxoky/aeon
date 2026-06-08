@@ -1,0 +1,305 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "📋 Trader Bootstrap Complete — 3-day lookback (Jun 5–8)"
+      },
+      "children": [
+        "status",
+        "sep1",
+        "setups_heading",
+        "crypto_chase",
+        "heart_can_hodl",
+        "killa_xbt",
+        "sep2",
+        "overlap_heading",
+        "overlap_list",
+        "sep3",
+        "theses_heading",
+        "theses_list",
+        "sep4",
+        "monitoring"
+      ]
+    },
+    "status": {
+      "type": "Text",
+      "props": {
+        "text": "Force re-run: state re-verified, no changes. X cache was empty (X-only accounts will populate via x-trader-monitor); the 3 Discord traders have full state.",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "setups_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Currently live setups/positions",
+        "level": "h2"
+      }
+    },
+    "crypto_chase": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "chase_name",
+        "chase_gold",
+        "chase_hype_nvda",
+        "chase_sentiment",
+        "chase_thesis"
+      ]
+    },
+    "chase_name": {
+      "type": "Heading",
+      "props": {
+        "text": "Crypto_Chase",
+        "level": "h3"
+      }
+    },
+    "chase_gold": {
+      "type": "Text",
+      "props": {
+        "text": "GOLD long (spot), stop not yet hit"
+      }
+    },
+    "chase_hype_nvda": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE + NVDA now FLAT (both stopped/cut Jun 5)"
+      }
+    },
+    "chase_sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Cautious/bearish",
+        "variant": "secondary"
+      }
+    },
+    "chase_thesis": {
+      "type": "Text",
+      "props": {
+        "text": "BTC broke weekly 200 EMA, eyeing trad rotation (INTC, MU, silver, SPY)",
+        "variant": "caption"
+      }
+    },
+    "heart_can_hodl": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "hch_name",
+        "hch_overview",
+        "hch_positions",
+        "hch_line"
+      ]
+    },
+    "hch_name": {
+      "type": "Heading",
+      "props": {
+        "text": "HeartCanHodl",
+        "level": "h3"
+      }
+    },
+    "hch_overview": {
+      "type": "Text",
+      "props": {
+        "text": "Running a hedged book",
+        "variant": "lead"
+      }
+    },
+    "hch_positions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "hch_spot_hedged",
+        "hch_zec",
+        "hch_vvv",
+        "hch_lab",
+        "hch_hype",
+        "hch_wld"
+      ]
+    },
+    "hch_spot_hedged": {
+      "type": "Text",
+      "props": {
+        "text": "BTC/ETH/SOL spot longs hedged 2x short ~63–64k"
+      }
+    },
+    "hch_zec": {
+      "type": "Text",
+      "props": {
+        "text": "ZEC short (rebal ~405)"
+      }
+    },
+    "hch_vvv": {
+      "type": "Text",
+      "props": {
+        "text": "VVV short 3x (~15.8)"
+      }
+    },
+    "hch_lab": {
+      "type": "Text",
+      "props": {
+        "text": "LAB ~1x"
+      }
+    },
+    "hch_hype": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE 2x"
+      }
+    },
+    "hch_wld": {
+      "type": "Text",
+      "props": {
+        "text": "WLD short"
+      }
+    },
+    "hch_line": {
+      "type": "Alert",
+      "props": {
+        "title": "Key level",
+        "message": "63k is the line in the sand",
+        "type": "warning"
+      }
+    },
+    "killa_xbt": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "kxbt_name",
+        "kxbt_position",
+        "kxbt_note"
+      ]
+    },
+    "kxbt_name": {
+      "type": "Heading",
+      "props": {
+        "text": "KillaXBT",
+        "level": "h3"
+      }
+    },
+    "kxbt_position": {
+      "type": "Text",
+      "props": {
+        "text": "Low-leverage BTC swing long carried forward"
+      }
+    },
+    "kxbt_note": {
+      "type": "Alert",
+      "props": {
+        "message": "One Jun 6 stream update not cached",
+        "type": "info"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "overlap_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top overlap tickers",
+        "level": "h2"
+      }
+    },
+    "overlap_list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "overlap_btc",
+        "overlap_hype",
+        "overlap_zec"
+      ]
+    },
+    "overlap_btc": {
+      "type": "Text",
+      "props": {
+        "text": "BTC — group lean bearish/cautious"
+      }
+    },
+    "overlap_hype": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE — Chase flat, HCH short"
+      }
+    },
+    "overlap_zec": {
+      "type": "Text",
+      "props": {
+        "text": "ZEC"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "theses_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable theses",
+        "level": "h2"
+      }
+    },
+    "theses_list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "thesis_ema",
+        "thesis_hch",
+        "thesis_saylor"
+      ]
+    },
+    "thesis_ema": {
+      "type": "Text",
+      "props": {
+        "text": "Weekly 200 EMA breakdown has Chase expecting more downside + consolidation"
+      }
+    },
+    "thesis_hch": {
+      "type": "Text",
+      "props": {
+        "text": "HCH defensive below 63k"
+      }
+    },
+    "thesis_saylor": {
+      "type": "Text",
+      "props": {
+        "text": "Both watching what Saylor actually did for next direction"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "monitoring": {
+      "type": "Alert",
+      "props": {
+        "title": "Real-time monitoring",
+        "message": "Now active — you'll hear about new developments as they happen",
+        "type": "success"
+      }
+    }
+  }
+}
