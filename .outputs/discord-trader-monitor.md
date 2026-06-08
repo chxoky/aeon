@@ -1,30 +1,17 @@
-↩️ _Member: "but it's below support now, no?"_
-
-💬 *[DC: crypto_chase — member chat]*
-
-I believe the draw on liquidity for ES is at least the equal lows, if not lower, like 7250 as discussed in the stream. With that said, I don't really short SPX unless it's like an A-plus tier setup. I'm more than happy with SPX crashing without me because even without me it still means that I'm going to get better entries on equities.
-
-📎 Chart: https://cdn.discordapp.com/attachments/1343971265962049597/1513638073139859506/image.png
 ## Summary
 
-**Skill:** discord-trader-monitor
-**Event:** Real-time Discord message from Crypto_Chase (2026-06-08T20:20:51Z)
+Executed the `discord-trader-monitor` skill for the Discord event from 2026-06-08T21:15:24Z.
 
-**Execution Complete:**
+**Event details:**
+- **Trader:** Crypto_Chase
+- **Channel:** 1343971265962049597 (supporting/Q&A)
+- **Message:** "Optimal level would be like 7225, but we'll see"
 
-✅ **Event decoded** — Base64-decoded Discord message successfully
-✅ **Channel verified** — Channel 1343971265962049597 (Crypto_Chase supporting/member Q&A channel)
-✅ **Trader match confirmed** — Username "crypto_chase" matches expected trader
+**Classification:** Informational (supporting-channel technical level observation)
 
-**Classification:** Informational (supporting channel market analysis)
-- Message is analytical commentary on ES liquidity dynamics and institutional order behavior
-- No personal trade action described ("I'm entering/adding/closing")
-- Consistent with recent analytical posture on market microstructure
-- Supporting-channel context; no related primary message detected
-
-**Alert sent:** YES — Notification written to `.pending-notify/1780950401.md` for delivery to Kyle via configured channels
+**Alert decision:** NO — This is a hedged level observation ("would be like" + "but we'll see") about ES/SPX at 7225, continuing the thread from Chase's earlier messages at 20:17:18Z (discussing ES liquidity at ~7250) and 20:20:51Z (institutional order-flow analysis). Per Step 7 supporting-channel rules, since a related primary-channel message exists on the same topic, this is folded as context continuation rather than sent as a standalone alert.
 
 **Memory updated:**
-- `discord-trader-seen.txt` — Added message ID 1513638964643237918 (now 778 unique IDs)
-- `traders.md` — Added last-seen entry with context and analysis
-- `memory/logs/2026-06-08.md` — Detailed log entry with classification, ticker (ES), and notes
+- discord-trader-seen.txt: added message ID (now 780 unique IDs)
+- traders.md: added 21:15:24Z last-seen entry with level observation context
+- logs/2026-06-08.md: appended full event log entry
