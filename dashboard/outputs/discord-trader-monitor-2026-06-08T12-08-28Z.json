@@ -1,0 +1,25 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "💬 Discord message"
+      },
+      "children": [
+        "tweet_card"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "crypto_chase",
+        "handle": "member chat",
+        "text": "They diluted the common shareholder even more lmao"
+      },
+      "children": []
+    }
+  }
+}

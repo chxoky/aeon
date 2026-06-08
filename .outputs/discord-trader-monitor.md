@@ -1,4 +1,4 @@
-🚨 *Trade Signal — [DC: crypto_chase]*
+💬 *[DC: crypto_chase — member chat]*
 
 GOLD — **Stopped out.** First stop out on Gold in my last 4 public Gold trades.
 
@@ -22,3 +22,4 @@ The skill successfully processed one Discord message event from Crypto_Chase in 
   - Logged event to `memory/logs/2026-06-08.md` with classification details
 
 The message contains no trade signal, no ticker, and no actionable position update — it's administrative/contextual chatter in a member Q&A channel. Per the workflow, it was skipped from alerting and logged only.
+They diluted the common shareholder even more lmao

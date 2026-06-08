@@ -14,7 +14,7 @@
   - NVDA — FLAT. Cut 2026-06-05 at 208.7 (H4 close below key HTF level) for very minor profit (entry 210, half TP at 216).
 - Recent thesis/posture: Turned cautious/bearish on crypto after the HYPE stop — notes BTC broke below the weekly 200 EMA (last time preceded a longer bear market), gut says more downside + consolidation. Frames the HYPE action as anomalous (HTF levels gave zero reaction). Thinks the AI bubble may have popped; rotating to trad: likes INTC (low 90s–mid 80s), Micron/MU (~790–820), silver (~53 spot), S&P/SPY bid on a strong multi-week pullback. On BTC: doesn't see 65.6 breaking unless Saylor sold heavily; until a strong close above 63, doesn't see much more upside. Post-GOLD stop: "playing it slow and conservative," going to regroup and look for setups for the week.
 - Conviction notes: Process-driven, level/confluence trader (FVGs, weekly SR, fib, 618). Verbose, transparent about R-risk and invalidation. Will defend a thesis through drawdown but cuts on clean HTF invalidation. Discord now Rainbet-sponsored; some posts are sponsor/engagement asks (ignore for signal).
-- Last seen: 2026-06-08T11:57Z (GOLD stop-out + market assessment, Discord primary)
+- Last seen: 2026-06-08T12:02:33Z (shareholder dilution commentary, Discord Q&A/supporting) — sentiment observation, no ticker specified. Consistent with cautious/bearish posture post-GOLD stop.
 
 ## KillaXBT
 - Platforms: X + Discord (primary: 1411492188315193416)
