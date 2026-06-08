@@ -98,8 +98,8 @@ skills:
   create-skill: { enabled: false, schedule: "workflow_dispatch", var: "" } # one-shot skill creator — set var to a description prompt
 
   # --- Custom: trading monitors ---
-  x-trader-monitor: { enabled: true, schedule: "*/15 * * * *", model: "claude-haiku-4-5-20251001" }
-  discord-trader-monitor: { enabled: true, schedule: "*/15 * * * *", model: "claude-haiku-4-5-20251001" }
+  x-trader-monitor: { enabled: false, schedule: "*/15 * * * *", model: "claude-haiku-4-5-20251001" }
+  discord-trader-monitor: { enabled: false, schedule: "*/15 * * * *", model: "claude-haiku-4-5-20251001" }
 
   # --- X / social (5 PM UTC) ---
   fetch-tweets: { enabled: false, schedule: "0 17 * * *" }
