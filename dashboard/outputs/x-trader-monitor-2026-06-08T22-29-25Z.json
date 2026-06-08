@@ -1,0 +1,104 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event_details",
+        "action_section",
+        "status_badges"
+      ]
+    },
+    "event_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event_id_text",
+        "event_source_text"
+      ]
+    },
+    "event_id_text": {
+      "type": "Text",
+      "props": {
+        "text": "Event ID: 2064111072353870093"
+      }
+    },
+    "event_source_text": {
+      "type": "Text",
+      "props": {
+        "text": "Source: @unknown"
+      }
+    },
+    "action_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "action_badge",
+        "reason_text"
+      ]
+    },
+    "action_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "SKIP",
+        "variant": "outline"
+      }
+    },
+    "reason_text": {
+      "type": "Text",
+      "props": {
+        "text": "Reason: non-watched trader"
+      }
+    },
+    "status_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "logged_badge",
+        "deduped_badge",
+        "no_alert_badge"
+      ]
+    },
+    "logged_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "✓ Logged"
+      }
+    },
+    "deduped_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "✓ Deduped"
+      }
+    },
+    "no_alert_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "✓ No alert"
+      }
+    }
+  }
+}

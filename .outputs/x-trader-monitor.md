@@ -30,3 +30,4 @@ I've executed the x-trader-monitor skill with the provided event. Here's what ha
 - ✓ No alert sent to Kyle (event out of scope)
 
 The skill completed successfully with exit code: `X_TRADER_SKIP_UNTRACKED` (non-watched trader account).
+✓ x-trader-monitor: Event 2064111072353870093 from @unknown — SKIP (non-watched trader). Logged, deduped, no alert.
