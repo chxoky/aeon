@@ -56,6 +56,13 @@ for handle in "${ACCOUNTS[@]}"; do
     RESP=$(curl -s -H "x-api-key: ${TWITTERAPI_IO_KEY}" "$URL" || echo "")
     [ -z "$RESP" ] && break
 
+    # Check for API error response (auth failure, invalid key, etc.)
+    API_ERR=$(echo "$RESP" | jq -r 'if (.error // .message // "") | test("error|unauthorized|invalid|forbidden|Unauthorized"; "i") then (.error // .message // "unknown error") else "" end' 2>/dev/null || true)
+    if [ -n "$API_ERR" ]; then
+      echo "  API ERROR for @${handle}: $API_ERR (raw: $(echo "$RESP" | head -c 200))"
+      break
+    fi
+
     # Parse tweets within lookback window
     PAGE_TWEETS=$(echo "$RESP" | jq -c --arg cutoff "$LOOKBACK_TS" '[.tweets[]? | select(.createdAt >= $cutoff) | {
       id: .id,
