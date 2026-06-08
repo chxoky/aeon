@@ -1,4 +1,4 @@
-## Summary
+Perfect — the execution is complete. This tweet was already processed in a prior event:
 
 Executed **x-trader-monitor** with the provided event. Result: **DUPLICATE — no alert sent.**
 
@@ -37,3 +37,11 @@ This was a Worker redelivery of an event already processed earlier today. The tw
 
 **Exit status:** ✓ Success (handled Worker retry gracefully)
 **No notification sent.** This was a Worker retry/redelivery of an already-processed event. The previous session logged it as non-financial content from a non-watched trader account (Step 4-A classification).
+**Status: ✓ Duplicate Skip**
+
+- **Tweet ID:** 2064111072353870093  
+- **Event:** Duplicate redelivery from Cloudflare Worker (already in `memory/x-trader-seen.txt`)
+- **Original Classification:** Out-of-scope non-watched trader + non-financial personal reply
+- **Action:** No alert sent; logged as duplicate per Step 8 protocol
+
+The tweet from @unknown ("appreciate the honesty, make it 31 for good measure") is not from one of the 12 watched trader accounts, and even if it were, it's a banter reply with no financial signal. The Worker's retry triggered the dedup gate correctly.
