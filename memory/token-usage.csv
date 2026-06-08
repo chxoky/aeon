@@ -3,3 +3,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-06-05,x-trader-monitor,claude-haiku-4-5-20251001,51,1303,192285,10949
 2026-06-08,trader-bootstrap,claude-opus-4-8,2380,18344,1232395,54956
 2026-06-08,trader-bootstrap,claude-opus-4-8,2370,7457,789181,31855
+2026-06-08,trader-bootstrap,claude-opus-4-8,2654,15187,1492008,45431

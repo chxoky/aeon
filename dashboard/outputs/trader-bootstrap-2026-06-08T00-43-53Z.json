@@ -1,0 +1,352 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Trader Bootstrap Complete",
+        "description": "4-day lookback (06-04 → 06-08)"
+      },
+      "children": [
+        "section_data_source",
+        "sep_1",
+        "section_positions",
+        "sep_2",
+        "section_overlap",
+        "sep_3",
+        "section_theses",
+        "sep_4",
+        "section_monitoring"
+      ]
+    },
+    "section_data_source": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_datasource"
+      ]
+    },
+    "text_datasource": {
+      "type": "Text",
+      "props": {
+        "text": "X history was empty this run, so state is built from 445 Discord messages across Crypto_Chase, KillaXBT and HeartCanHodl."
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_positions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "heading_positions",
+        "pos_killa",
+        "pos_chase",
+        "pos_hch"
+      ]
+    },
+    "heading_positions": {
+      "type": "Heading",
+      "props": {
+        "text": "Currently live setups/positions",
+        "level": "h2"
+      }
+    },
+    "pos_killa": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_killa_name",
+        "badge_killa",
+        "text_killa_detail"
+      ]
+    },
+    "text_killa_name": {
+      "type": "Text",
+      "props": {
+        "text": "KillaXBT",
+        "variant": "lead"
+      }
+    },
+    "badge_killa": {
+      "type": "Badge",
+      "props": {
+        "text": "BTC low-leverage swing long",
+        "variant": "default"
+      }
+    },
+    "text_killa_detail": {
+      "type": "Text",
+      "props": {
+        "text": "75% exposed, holding long-term (\"bottom is close\")"
+      }
+    },
+    "pos_chase": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_chase_name",
+        "badge_chase_gold",
+        "badge_chase_hype",
+        "text_chase_rotation"
+      ]
+    },
+    "text_chase_name": {
+      "type": "Text",
+      "props": {
+        "text": "Crypto_Chase",
+        "variant": "lead"
+      }
+    },
+    "badge_chase_gold": {
+      "type": "Badge",
+      "props": {
+        "text": "Gold spot long still open (stop not hit)",
+        "variant": "default"
+      }
+    },
+    "badge_chase_hype": {
+      "type": "Badge",
+      "props": {
+        "text": "HYPE flat — stopped -1.5R, all orders cancelled",
+        "variant": "secondary"
+      }
+    },
+    "text_chase_rotation": {
+      "type": "Text",
+      "props": {
+        "text": "Turned cautious on crypto, rotating to traditional (Intel, Micron, silver, SPY)"
+      }
+    },
+    "pos_hch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_hch_name",
+        "badge_hch",
+        "text_hch_hedge",
+        "text_hch_shorts"
+      ]
+    },
+    "text_hch_name": {
+      "type": "Text",
+      "props": {
+        "text": "HeartCanHodl",
+        "variant": "lead"
+      }
+    },
+    "badge_hch": {
+      "type": "Badge",
+      "props": {
+        "text": "Hedged book",
+        "variant": "outline"
+      }
+    },
+    "text_hch_hedge": {
+      "type": "Text",
+      "props": {
+        "text": "BTC/ETH/SOL spot longs hedged 2x short ~63-64k"
+      }
+    },
+    "text_hch_shorts": {
+      "type": "Text",
+      "props": {
+        "text": "Standalone shorts in ZEC (large), VVV (3x), LAB, HYPE and WLD"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_overlap": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_overlap",
+        "ticker_btc",
+        "ticker_hype",
+        "ticker_zec"
+      ]
+    },
+    "heading_overlap": {
+      "type": "Heading",
+      "props": {
+        "text": "Top overlap tickers",
+        "level": "h2"
+      }
+    },
+    "ticker_btc": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "text_btc_label",
+        "text_btc_sentiment"
+      ]
+    },
+    "text_btc_label": {
+      "type": "Text",
+      "props": {
+        "text": "BTC",
+        "variant": "lead"
+      }
+    },
+    "text_btc_sentiment": {
+      "type": "Text",
+      "props": {
+        "text": "Mixed — Killa long, HCH hedged, Chase cautious",
+        "variant": "caption"
+      }
+    },
+    "ticker_hype": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "text_hype_label",
+        "text_hype_sentiment"
+      ]
+    },
+    "text_hype_label": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE",
+        "variant": "lead"
+      }
+    },
+    "text_hype_sentiment": {
+      "type": "Text",
+      "props": {
+        "text": "Contested — Chase flat/bullish bias vs HCH short",
+        "variant": "caption"
+      }
+    },
+    "ticker_zec": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "text_zec_label",
+        "text_zec_sentiment"
+      ]
+    },
+    "text_zec_label": {
+      "type": "Text",
+      "props": {
+        "text": "ZEC",
+        "variant": "lead"
+      }
+    },
+    "text_zec_sentiment": {
+      "type": "Text",
+      "props": {
+        "text": "Bearish — both avoid/short",
+        "variant": "caption"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_theses": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_theses",
+        "text_thesis_1",
+        "text_thesis_2",
+        "text_thesis_3",
+        "text_thesis_4"
+      ]
+    },
+    "heading_theses": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable theses to watch",
+        "level": "h2"
+      }
+    },
+    "text_thesis_1": {
+      "type": "Text",
+      "props": {
+        "text": "The group is leaning defensive/bearish on crypto"
+      }
+    },
+    "text_thesis_2": {
+      "type": "Text",
+      "props": {
+        "text": "Chase flags the weekly 200 EMA break"
+      }
+    },
+    "text_thesis_3": {
+      "type": "Text",
+      "props": {
+        "text": "HCH runs a heavy short book; only KillaXBT is outright bullish"
+      }
+    },
+    "text_thesis_4": {
+      "type": "Text",
+      "props": {
+        "text": "63k is HCH's key support line, and everyone's watching what Saylor did next"
+      }
+    },
+    "sep_4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_monitoring": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_monitoring"
+      ]
+    },
+    "badge_monitoring": {
+      "type": "Badge",
+      "props": {
+        "text": "Real-time monitoring is now active — you'll hear about new developments as they happen",
+        "variant": "success"
+      }
+    }
+  }
+}

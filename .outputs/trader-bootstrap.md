@@ -1,14 +1,14 @@
-📋 *Trader Bootstrap Complete — 4-day lookback (2026-06-04 → 2026-06-08)*
+📋 *Trader Bootstrap Complete — 4-day lookback (06-04 → 06-08)*
 
-X cache was empty this run; state built from 445 Discord messages across Crypto_Chase, KillaXBT, HeartCanHodl.
+X history was empty this run, so state is built from 445 Discord messages across Crypto_Chase, KillaXBT and HeartCanHodl.
 
 *Currently live setups/positions:*
-— KillaXBT: BTC long, 75% exposed, low-leverage swing, intends to hold long — believes bottom is close.
-— HeartCanHodl: hedged book — BTC/ETH/SOL spot longs hedged 2x short ~63-64k; ZEC short (rebalanced ~405), VVV short 3x (~15.8), LAB short (-90% thesis), HYPE short 2x, WLD short 2x SL at BE. Defensive, 63k is the key line.
-— Crypto_Chase: GOLD spot long still open (stop not hit). HYPE flat after -1.5R stop-out, watching low-50s. Turned cautious — BTC broke weekly 200 EMA; rotating to trad (INTC low-90s/mid-80s, MU ~790-820, silver ~53).
+— KillaXBT: BTC low-leverage swing *long*, 75% exposed, holding long-term ("bottom is close").
+— Crypto_Chase: Gold spot *long* still open (stop not hit). HYPE now *flat* — stopped -1.5R, all orders cancelled; turned cautious on crypto, rotating to trad (Intel, Micron, silver, SPY).
+— HeartCanHodl: *hedged book* — BTC/ETH/SOL spot longs hedged 2x short ~63-64k, plus standalone shorts in ZEC (large), VVV (3x), LAB, HYPE and WLD.
 
-*Top overlap tickers:* HYPE (CONTESTED — Chase long-bias-but-flat vs HCH short), BTC (MIXED — Killa long, HCH hedged, Chase cautious), ZEC (BEARISH — both short/avoid).
+*Top overlap tickers:* BTC (mixed — Killa long, HCH hedged, Chase cautious) · HYPE (contested — Chase flat/bullish bias vs HCH short) · ZEC (bearish — both avoid/short).
 
-*Notable thesis to watch:* Possible AI-bubble pop + BTC weekly 200 EMA breakdown has the group net-cautious; next direction hinges on what Saylor actually did.
+*Notable theses to watch:* The group is leaning defensive/bearish on crypto — Chase flags the weekly 200 EMA break, HCH runs a heavy short book; only KillaXBT is outright bullish. 63k is HCH's key support line, and everyone's watching what Saylor did next.
 
 Real-time monitoring is now active — you'll hear about new developments as they happen.

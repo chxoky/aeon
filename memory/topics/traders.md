@@ -12,7 +12,7 @@
   - HYPE — FLAT. Layered long avg ~67.5 was stopped out -1.5R on 2026-06-05. Re-bids set then fully cancelled 2026-06-06 ("All other orders on HYPE cancelled"). Now watching low-50s for possible re-entry but leaning that more downside is likely.
 - Recent thesis/posture: Turned cautious/bearish on crypto after HYPE stop — notes BTC broke below weekly 200 EMA (last time preceded a longer bear market), gut says more downside + consolidation. Sees recent action as anomalous (HTF levels gave zero reaction). Thinks AI bubble may have popped; rotating attention to trad: likes INTC (low 90s–mid 80s), MU/Micron (~790–820), silver (~53 spot), S&P/SPY bid on strong pullback. NVDA long was cut 2026-06-05 at 208.7 for minor profit (entry 210, half TP 216). GOOG closed 2026-06-04 ~breakeven. ZEC removed from watchlist 2026-06-04 (hack), later went toward zero — dodged.
 - Conviction notes: Process-driven, level/confluence trader (FVGs, weekly SR, fib). Verbose, transparent about R-risk and invalidation. Will defend a thesis through drawdown but cuts on clean HTF invalidation. Discord now Rainbet-sponsored; some posts are sponsor/engagement asks (ignore for signal).
-- Last seen: 2026-06-07T23:26Z
+- Last seen: 2026-06-08T00:29Z (Sunday-night markets commentary — "could be an interesting day tomorrow", focusing on charts from the weekly-plans stream)
 
 ## KillaXBT
 - Platforms: X + Discord (primary: 1411492188315193416)
