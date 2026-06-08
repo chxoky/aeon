@@ -1,0 +1,252 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Trader Bootstrap Complete — 4-day lookback (2026-06-04 → 2026-06-08)"
+      },
+      "children": [
+        "datasource_text",
+        "sep_1",
+        "heading_positions",
+        "trader_killa",
+        "sep_2",
+        "trader_hch",
+        "sep_3",
+        "trader_chase",
+        "sep_4",
+        "heading_overlap",
+        "tickers_section",
+        "sep_5",
+        "heading_thesis",
+        "thesis_text",
+        "sep_6",
+        "monitoring_note"
+      ]
+    },
+    "datasource_text": {
+      "type": "Text",
+      "props": {
+        "text": "X cache was empty this run; state built from 445 Discord messages across Crypto_Chase, KillaXBT, HeartCanHodl.",
+        "variant": "muted"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_positions": {
+      "type": "Heading",
+      "props": {
+        "text": "Currently Live Setups/Positions",
+        "level": "h2"
+      }
+    },
+    "trader_killa": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "killa_name",
+        "killa_content"
+      ]
+    },
+    "killa_name": {
+      "type": "Heading",
+      "props": {
+        "text": "KillaXBT",
+        "level": "h3"
+      }
+    },
+    "killa_content": {
+      "type": "Text",
+      "props": {
+        "text": "BTC long, 75% exposed, low-leverage swing, intends to hold long — believes bottom is close."
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "trader_hch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "hch_name",
+        "hch_content"
+      ]
+    },
+    "hch_name": {
+      "type": "Heading",
+      "props": {
+        "text": "HeartCanHodl",
+        "level": "h3"
+      }
+    },
+    "hch_content": {
+      "type": "Text",
+      "props": {
+        "text": "Hedged book — BTC/ETH/SOL spot longs hedged 2x short ~63-64k; ZEC short (rebalanced ~405), VVV short 3x (~15.8), LAB short (-90% thesis), HYPE short 2x, WLD short 2x SL at BE. Defensive, 63k is the key line."
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "trader_chase": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "chase_name",
+        "chase_content"
+      ]
+    },
+    "chase_name": {
+      "type": "Heading",
+      "props": {
+        "text": "Crypto_Chase",
+        "level": "h3"
+      }
+    },
+    "chase_content": {
+      "type": "Text",
+      "props": {
+        "text": "GOLD spot long still open (stop not hit). HYPE flat after -1.5R stop-out, watching low-50s. Turned cautious — BTC broke weekly 200 EMA; rotating to trad (INTC low-90s/mid-80s, MU ~790-820, silver ~53)."
+      }
+    },
+    "sep_4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_overlap": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Overlap Tickers",
+        "level": "h2"
+      }
+    },
+    "tickers_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ticker_hype",
+        "ticker_btc",
+        "ticker_zec"
+      ]
+    },
+    "ticker_hype": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "hype_label",
+        "hype_status"
+      ]
+    },
+    "hype_label": {
+      "type": "Heading",
+      "props": {
+        "text": "HYPE",
+        "level": "h3"
+      }
+    },
+    "hype_status": {
+      "type": "Text",
+      "props": {
+        "text": "CONTESTED — Chase long-bias-but-flat vs HCH short"
+      }
+    },
+    "ticker_btc": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "btc_label",
+        "btc_status"
+      ]
+    },
+    "btc_label": {
+      "type": "Heading",
+      "props": {
+        "text": "BTC",
+        "level": "h3"
+      }
+    },
+    "btc_status": {
+      "type": "Text",
+      "props": {
+        "text": "MIXED — Killa long, HCH hedged, Chase cautious"
+      }
+    },
+    "ticker_zec": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "zec_label",
+        "zec_status"
+      ]
+    },
+    "zec_label": {
+      "type": "Heading",
+      "props": {
+        "text": "ZEC",
+        "level": "h3"
+      }
+    },
+    "zec_status": {
+      "type": "Text",
+      "props": {
+        "text": "BEARISH — both short/avoid"
+      }
+    },
+    "sep_5": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_thesis": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable Thesis to Watch",
+        "level": "h2"
+      }
+    },
+    "thesis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Possible AI-bubble pop + BTC weekly 200 EMA breakdown has the group net-cautious; next direction hinges on what Saylor actually did."
+      }
+    },
+    "sep_6": {
+      "type": "Separator",
+      "props": {}
+    },
+    "monitoring_note": {
+      "type": "Alert",
+      "props": {
+        "title": "Monitoring Active",
+        "message": "Real-time monitoring is now active — you'll hear about new developments as they happen.",
+        "type": "info"
+      }
+    }
+  }
+}
