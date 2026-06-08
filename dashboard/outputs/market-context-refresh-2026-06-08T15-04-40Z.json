@@ -1,0 +1,231 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Market Context — 2026-06-08"
+      },
+      "children": [
+        "take-section",
+        "sep1",
+        "prices-section",
+        "sep2",
+        "metrics-section",
+        "sep3",
+        "narratives-section"
+      ]
+    },
+    "take-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "take-label",
+        "take-badge"
+      ]
+    },
+    "take-label": {
+      "type": "Text",
+      "props": {
+        "text": "Take:",
+        "variant": "lead"
+      }
+    },
+    "take-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "chop (conviction low)",
+        "variant": "secondary"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "prices-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "prices-title",
+        "prices-grid"
+      ]
+    },
+    "prices-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Asset Prices",
+        "level": "h3"
+      }
+    },
+    "prices-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "btc-stat",
+        "eth-stat"
+      ]
+    },
+    "btc-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$63,976",
+        "delta": "+3.41%",
+        "trend": "up"
+      }
+    },
+    "eth-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$1,691",
+        "delta": "+4.10%",
+        "trend": "up"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "metrics-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "metrics-title",
+        "fg-row",
+        "breadth-stat",
+        "tvl-stat"
+      ]
+    },
+    "metrics-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Market Metrics",
+        "level": "h3"
+      }
+    },
+    "fg-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "fg-label",
+        "fg-badge"
+      ]
+    },
+    "fg-label": {
+      "type": "Text",
+      "props": {
+        "text": "Fear & Greed Index:",
+        "variant": "body"
+      }
+    },
+    "fg-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "8 — Extreme Fear",
+        "variant": "destructive"
+      }
+    },
+    "breadth-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Breadth",
+        "value": "16/20"
+      }
+    },
+    "tvl-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "TVL (top chains)",
+        "value": "~$51B",
+        "delta": "7d delta n/a"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "narratives-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "narratives-title",
+        "narrative-badge",
+        "hot-market-title",
+        "hot-market-stack"
+      ]
+    },
+    "narratives-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Narrative",
+        "level": "h3"
+      }
+    },
+    "narrative-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Perp DEX / Hyperliquid (rising)",
+        "variant": "outline"
+      }
+    },
+    "hot-market-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Hot Market",
+        "level": "h3"
+      }
+    },
+    "hot-market-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "market-question",
+        "market-probability"
+      ]
+    },
+    "market-question": {
+      "type": "Text",
+      "props": {
+        "text": "Keiko Fujimori wins Peru 2026 — YES",
+        "variant": "body"
+      }
+    },
+    "market-probability": {
+      "type": "Progress",
+      "props": {
+        "value": 68.5,
+        "max": 100,
+        "label": "68.5% probability"
+      }
+    }
+  }
+}
