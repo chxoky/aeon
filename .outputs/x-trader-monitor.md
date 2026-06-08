@@ -55,3 +55,11 @@ I've completed execution of the **X Trader Monitor** skill on the provided event
 
 **Result:** No alert sent to Kyle. This appears to be either a test event, a malformed webhook delivery, or a Worker misconfiguration. The Cloudflare Worker should only deliver tweets from the 12 watched accounts.
 **Note:** This event was previously flagged as a WORKER_MISCONFIGURATION — the username "unknown" is not in the 12 watched traders list, so the Worker should filter these out before delivery.
+**Execution: x-trader-monitor with duplicate event**
+
+- **Event:** Tweet ID 2064080972791037992 from @unknown
+- **Status:** Duplicate — already processed earlier today
+- **Action:** No re-alert sent per Step 8 dedup protocol
+- **Log:** Appended redelivery entry to memory/logs/2026-06-08.md
+
+The tweet was previously flagged as non-financial (cryptic observation from a non-watched trader) and has now been redelivered by the Worker. Per the skill's dedup gate in Step 8, execution stops immediately without re-notifying Kyle.
