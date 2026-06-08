@@ -1,0 +1,125 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Trading signal from Discord"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "source_text",
+        "separator1",
+        "main_signal",
+        "separator2",
+        "details_stack"
+      ]
+    },
+    "source_text": {
+      "type": "Text",
+      "props": {
+        "text": "💬 Discord: heartcanhodl",
+        "variant": "caption"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "main_signal": {
+      "type": "Text",
+      "props": {
+        "text": "Fc zec 1d ema50 — tracking 1-day EMA50 level on ZEC",
+        "variant": "lead"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "details_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tags_row",
+        "position_details"
+      ]
+    },
+    "tags_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_zec",
+        "badge_1d",
+        "badge_ema50"
+      ]
+    },
+    "badge_zec": {
+      "type": "Badge",
+      "props": {
+        "text": "ZEC",
+        "variant": "default"
+      }
+    },
+    "badge_1d": {
+      "type": "Badge",
+      "props": {
+        "text": "1d",
+        "variant": "default"
+      }
+    },
+    "badge_ema50": {
+      "type": "Badge",
+      "props": {
+        "text": "EMA50",
+        "variant": "default"
+      }
+    },
+    "position_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "position_text",
+        "target_text"
+      ]
+    },
+    "position_text": {
+      "type": "Text",
+      "props": {
+        "text": "Position: Large short",
+        "variant": "body"
+      }
+    },
+    "target_text": {
+      "type": "Text",
+      "props": {
+        "text": "Target: Eventually < 190",
+        "variant": "body"
+      }
+    }
+  }
+}
