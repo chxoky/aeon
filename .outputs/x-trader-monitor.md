@@ -1,6 +1,6 @@
 ## Summary
 
-**Skill execution complete**: x-trader-monitor processed event `2064118177932406994`
+**x-trader-monitor execution completed**
 
 **Classification:** Non-financial (personal/sports commentary)
 - Content: New York Yankees and Knicks sports banter
@@ -70,3 +70,12 @@ No notifications sent. Skill exited cleanly with duplicate detection.
 - Logged event to `memory/logs/2026-06-08.md`
 - Committed changes to main branch
 The skill executed successfully. No notification was sent since this event is out of scope and non-financial.
+**Event:** Tweet ID `2064118177932406994` from @unknown
+- **Status:** DUPLICATE REDELIVERY (Worker retry)
+- **Detection:** Tweet ID already in `memory/x-trader-seen.txt` (line 196)
+- **Action:** Stopped immediately per Step 8 protocol — no re-alert sent
+- **Log:** Appended dedup-gate entry to `memory/logs/2026-06-08.md`
+
+**Context:** Sports banter about Yankees/Knicks from a non-tracked account (username "unknown" not in the 12 watched traders list). Even if new, would be classified as Step 4-A (non-financial) and skipped. Dedup gate prevented redundant processing.
+
+✓ **Success** — X_TRADER_DUPLICATE_SKIP
