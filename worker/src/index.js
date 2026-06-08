@@ -103,6 +103,11 @@ async function handleTelegram(request, env, ctx) {
       await sendTelegram(env, chatId, `No pending trade to confirm.`);
     }
 
+  } else if (/^chart\s+\$?[a-z0-9]+/i.test(text)) {
+    // Chart request — dispatch chart-request skill with full command as var
+    await sendTelegram(env, chatId, '⏳ Fetching chart...');
+    ctx.waitUntil(triggerAEON(env, 'chart-request', rawText));
+
   } else {
     // Freeform — answer directly via Claude API (2-8s) if key is set,
     // otherwise fall back to AEON concierge via GitHub Actions (~2min).
