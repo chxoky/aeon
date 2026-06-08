@@ -1,15 +1,16 @@
 ## Summary
 
-I've executed the x-trader-monitor skill with the provided event. Here's what happened:
+**Skill:** x-trader-monitor  
+**Event:** Real-time duplicate redelivery  
+**Status:** ✓ Success (X_TRADER_DUPLICATE_SKIP)
 
-**Event decoded:**
-- ID: 2064088252156616843
-- Username: unknown (not in the 12 watched traders)
-- Text: "@CookBookSauce COOK"
-- URL: https://x.com/unknown/status/2064088252156616843
+### Execution Details
 
-**Action taken:**
-Per Step 8 of the skill (deduplication), this tweet ID was already present in `memory/x-trader-seen.txt` from prior processing. The skill correctly stopped immediately without re-alerting, as designed to handle Worker retries/redeliveries.
+1. **Decoded event:** tweet_id=`2064088252156616843`, username=`unknown`, text=`@CookBookSauce COOK`
+2. **Step 8 (Dedup Gate):** Tweet ID already in `memory/x-trader-seen.txt` → immediate stop per protocol
+3. **Account check:** Username "unknown" is NOT in the 12 watched traders list (secondary disqualification)
+4. **Content:** Non-financial banter (@mention + one-word reference)
+5. **Action:** No alert sent, logged as duplicate redelivery, exited cleanly
 
 **Log entry:** Appended to `memory/logs/2026-06-08.md` documenting the duplicate skip.
 I've executed the x-trader-monitor skill with the provided event variable. Here's what occurred:
@@ -46,3 +47,4 @@ This was a duplicate delivery from the Cloudflare Worker. The tweet from @unknow
 ✓ Execution completed successfully (exit code: success).
 **Recommendation:** The Cloudflare Worker should only deliver events from the 12 authorized trader accounts. Receiving events from "@unknown" suggests a potential worker filter misconfiguration.
 ✓ **Skill execution complete.** The event (tweet ID `2064088252156616843` from @unknown) was successfully decoded but immediately flagged as a duplicate via the dedup gate (Step 8). The tweet ID was already present in `memory/x-trader-seen.txt`, indicating a prior processing or Worker retry/redelivery. Per the skill protocol, no re-alert was sent. Logged the duplicate detection and exited cleanly.
+The Worker has redelivered this same event multiple times today. The dedup gate caught it and prevented re-alerting as designed. The skill executed successfully with no unnecessary notifications.
