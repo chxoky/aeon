@@ -30,3 +30,13 @@ No further action needed.
 The tweet (from @unknown, "@GH0P__ 36 was not bad either...") was already in the dedup list and has been logged multiple times today. Per the skill's Step 8 duplicate detection gate, I immediately stopped without re-alerting. Only a log entry was appended confirming this final duplicate verification.
 
 No notification sent. No memory updates needed.
+Perfect. The duplicate tweet from `@unknown` (tweet ID 2064072748901773636) has been detected and logged. Per the skill's Step 8 dedup gate, the ID was already in the seen file, so the skill exited cleanly without re-alerting.
+
+**Summary:**
+- **Event**: Tweet from @unknown: "@GH0P__ 36 was not bad either 🤷🏻" with media links
+- **Classification**: Duplicate (already processed earlier today)
+- **Action taken**: Logged and skipped (per Step 8 — ID already in `memory/x-trader-seen.txt`)
+- **Alert sent**: No
+- **Exit**: Clean—no re-alert on redelivery
+
+This is a Worker webhook retry/redelivery of an event that had already been classified as non-actionable (non-watched trader account, non-financial content). The dedup logic is working correctly.
