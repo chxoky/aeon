@@ -651,7 +651,8 @@ jobs:
           set -euo pipefail
           MSG="$1"
           if [ -n "${TELEGRAM_BOT_TOKEN:-}" ] && [ -n "${TELEGRAM_CHAT_ID:-}" ]; then
-            curl -sf -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+            TG_TOKEN=$(printf '%s' "${TELEGRAM_BOT_TOKEN}" | tr -d '\r\n')
+            curl -sf -X POST "https://api.telegram.org/bot${TG_TOKEN}/sendMessage" \
               -H "Content-Type: application/json" \
               -d "$(jq -n --arg chat "$TELEGRAM_CHAT_ID" --arg text "$MSG" '{chat_id: $chat, text: $text, parse_mode: "Markdown"}')" > /dev/null || true
           fi
