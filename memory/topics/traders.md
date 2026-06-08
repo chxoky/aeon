@@ -27,16 +27,16 @@
 
 ## HeartCanHodl
 - Platforms: X + Discord (free/public: 1472153627324842057; primary/most-important: 1279738718680256553; premium chat: 1023638573313966212)
-- Current open positions (as of bootstrap) — runs a HEDGED book:
-  - BTC / ETH / SOL — spot longs, hedged 2x short around 63–64k. Net cautious; ETH lows called "great MTF/HTF price".
-  - ZEC — short (large), built/added repeatedly (06-06 → 06-07), rebalanced ~405 on 06-07. Expects further downside ("coming for all those mechanical bounce chasers", their stops at BE).
-  - VVV — short, 3x, added 2% 06-06, +2% 06-07, rebalanced ~15.8 on 06-07.
-  - LAB — short, ~1x, half of the book; re-added 2% 1x at $13 on 06-07. Part of the bearish-alt basket.
-  - HYPE — short, added 2% at 2x on 06-07 (from a separate account); re-added 2% via Discord 06-08T06:59Z (conviction-add, alerted).
+- Current open positions (as of 2026-06-08T09:47Z) — runs a HEDGED book:
+  - BTC / ETH / SOL — spot longs, hedged 2x short around 63–64k. Net cautious; 63k = key line (above = support, below = "much riskier territory").
+  - ZEC — short (large), large conviction. Target "eventually" 320/<190. Trust broken, exploit dump risk.
+  - VVV — short, 3x, good R:R play to downside, crowded.
+  - LAB — short, ~1x, half of the book. Capped upside, part of bearish-alt basket.
+  - HYPE — short, 2x (added 06-07, re-added 06-08T06:59Z). Most crowded CT long leg, death-spiral potential with dex-cex-tradfi competition.
   - WLD — short (part of the short basket).
-- Recent thesis/posture: Defensive/hedged. 63k is the key line — above = support, below = "much riskier territory". Risk triggers firing frequently. Prefers not to close green shorts/hedges overnight or in the Asia session. Watching what Saylor actually did for next market direction. Called one name "a free short", ideally 320 or 190, upside capped (won't revisit ATH).
-- Conviction notes: Very terse shorthand — "fc {ticker} {tf}" = forecast/chart, "sc" = chart, "pf" = portfolio %, "BE" = breakeven. Posts liquidation feeds and X reposts in the public channel (low signal). Real position changes come as explicit "add/tp/enter/short {ticker} {%}" lines, mostly in 1279738718680256553 and premium 1023638573313966212. Warns against adding to already-green positions (worsens cumulative entry, hurts psychology).
-- Last seen: 2026-06-08T06:59Z (Discord — HYPE add)
+- Recent thesis/posture: **2026-06-08T09:47Z major update** — "hunting for ltf weakness and building shorts" (primary conviction post). BTC <63k favorable, <60k = freefall. Risk: strong support over 63k = reversal signal. Post-run consolidation risk; ETF flows + Saylor announcement reaction = key signal. Zec & Lab "destined lower" — won't care about macro noise. Terse shorthand — "fc {ticker} {tf}" = forecast/chart, "BE" = breakeven.
+- Conviction notes: Very high conviction on short basket per latest signal (06-08T09:47Z). First Discord post in primary channel at this scale. Multiple tickers with specific R:R analysis. Watching Saylor/ETF flows for directional confirmation.
+- Last seen: 2026-06-08T09:47Z (Discord primary — multi-ticker short conviction, alerted)
 
 ---
 

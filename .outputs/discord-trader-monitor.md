@@ -1,28 +1,20 @@
-➕ *Conviction Add — [DC: HeartCanHodl]*
+🚨 *Trade Signal — [DC: heartcanhodl]*
 
-HeartCanHodl just added to their HYPE position (2x short).
-"Add 2% to hype short"
+_via Discord — primary_
 
-_via Discord — primary channel (most important)_
+**I am hunting for ltf weakness and building shorts**
 
-Want to add to yours too?
-**Discord Trader Monitor — Real-time event processed**
+Key levels:
+- BTC <63k → favourable
+- BTC <60k → market in freefall
+- Risk: strong support over 63k = reversal signal
 
-| Field | Value |
-|-------|-------|
-| **Trader** | HeartCanHodl |
-| **Channel** | 1472153627324842057 (public/free primary) |
-| **Message ID** | 1513437515632214107 |
-| **Content** | https://x.com/i/status/2063878362477822343 |
-| **Created** | 2026-06-08 07:00:22 UTC |
-| **Classification** | Non-financial (link reshare, no caption) |
-| **Action** | SKIPPED — no alert |
+**Tickers (R:R focus):**
+- **ZEC** (short, large): trust broken, exploit dump risk → 320/<190 target
+- **LAB** (short, ~1x, half book): capped upside, re-added at $13
+- **VVV** (short, 3x): good R:R to downside, crowded
+- **HYPE** (short, 2x): most crowded CT long leg, death-spiral potential
 
-**Details:**
-- Message is a bare Twitter/X link with no accompanying caption, explanation, or described action
-- HeartCanHodl's public Discord channel often carries low-signal link reshares (liquidation feeds, X reposts)
-- Real position changes are posted to primary/premium channels instead (per `traders.md`)
-- Message ID marked seen in `memory/discord-trader-seen.txt` to prevent re-processing
-- Event logged to `memory/logs/2026-06-08.md`
+**BTC/ETH/SOL:** spot longs hedged 2x short ~63–64k
 
-**No notifications sent.** Skill execution complete.
+**Market thesis:** Post-run consolidation risk; ETF flows + Saylor reaction = key signal. Zec & Lab destined

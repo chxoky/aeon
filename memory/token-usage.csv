@@ -16,3 +16,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-06-08,trader-bootstrap,claude-opus-4-8,2515,11637,1187579,36728
 2026-06-08,trader-bootstrap,claude-opus-4-8,2380,14845,1138280,41878
 2026-06-08,discord-trader-monitor,claude-haiku-4-5-20251001,86,6633,456707,32068
+2026-06-08,discord-trader-monitor,claude-haiku-4-5-20251001,121,12729,764636,46360

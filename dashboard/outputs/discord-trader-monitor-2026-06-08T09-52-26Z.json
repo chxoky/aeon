@@ -1,0 +1,283 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Trade Signal — heartcanhodl"
+      },
+      "children": [
+        "source-badge",
+        "thesis-text",
+        "separator-1",
+        "key-levels-heading",
+        "key-levels-stack",
+        "separator-2",
+        "tickers-heading",
+        "tickers-section",
+        "separator-3",
+        "hedges-heading",
+        "hedges-text",
+        "separator-4",
+        "market-thesis-heading",
+        "market-thesis-text"
+      ]
+    },
+    "source-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "via Discord — primary",
+        "variant": "default"
+      }
+    },
+    "thesis-text": {
+      "type": "Text",
+      "props": {
+        "text": "I am hunting for ltf weakness and building shorts",
+        "variant": "lead"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "key-levels-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Key Levels",
+        "level": "h3"
+      }
+    },
+    "key-levels-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "btc-63k",
+        "btc-60k",
+        "btc-support"
+      ]
+    },
+    "btc-63k": {
+      "type": "Text",
+      "props": {
+        "text": "BTC <63k → favourable"
+      }
+    },
+    "btc-60k": {
+      "type": "Text",
+      "props": {
+        "text": "BTC <60k → market in freefall"
+      }
+    },
+    "btc-support": {
+      "type": "Text",
+      "props": {
+        "text": "Risk: strong support over 63k = reversal signal"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "tickers-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Tickers (R:R focus)",
+        "level": "h3"
+      }
+    },
+    "tickers-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ticker-zec",
+        "ticker-lab",
+        "ticker-vvv",
+        "ticker-hype"
+      ]
+    },
+    "ticker-zec": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "zec-title",
+        "zec-position",
+        "zec-reason",
+        "zec-target"
+      ]
+    },
+    "zec-title": {
+      "type": "Heading",
+      "props": {
+        "text": "ZEC",
+        "level": "h4"
+      }
+    },
+    "zec-position": {
+      "type": "Badge",
+      "props": {
+        "text": "short, large",
+        "variant": "secondary"
+      }
+    },
+    "zec-reason": {
+      "type": "Text",
+      "props": {
+        "text": "trust broken, exploit dump risk"
+      }
+    },
+    "zec-target": {
+      "type": "Text",
+      "props": {
+        "text": "Target: 320/<190"
+      }
+    },
+    "ticker-lab": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "lab-title",
+        "lab-position",
+        "lab-reason",
+        "lab-target"
+      ]
+    },
+    "lab-title": {
+      "type": "Heading",
+      "props": {
+        "text": "LAB",
+        "level": "h4"
+      }
+    },
+    "lab-position": {
+      "type": "Badge",
+      "props": {
+        "text": "short, ~1x, half book",
+        "variant": "secondary"
+      }
+    },
+    "lab-reason": {
+      "type": "Text",
+      "props": {
+        "text": "capped upside, re-added at $13"
+      }
+    },
+    "lab-target": {
+      "type": "Text",
+      "props": {
+        "text": "Position at $13"
+      }
+    },
+    "ticker-vvv": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "vvv-title",
+        "vvv-position",
+        "vvv-reason"
+      ]
+    },
+    "vvv-title": {
+      "type": "Heading",
+      "props": {
+        "text": "VVV",
+        "level": "h4"
+      }
+    },
+    "vvv-position": {
+      "type": "Badge",
+      "props": {
+        "text": "short, 3x",
+        "variant": "secondary"
+      }
+    },
+    "vvv-reason": {
+      "type": "Text",
+      "props": {
+        "text": "good R:R to downside, crowded"
+      }
+    },
+    "ticker-hype": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "hype-title",
+        "hype-position",
+        "hype-reason"
+      ]
+    },
+    "hype-title": {
+      "type": "Heading",
+      "props": {
+        "text": "HYPE",
+        "level": "h4"
+      }
+    },
+    "hype-position": {
+      "type": "Badge",
+      "props": {
+        "text": "short, 2x",
+        "variant": "secondary"
+      }
+    },
+    "hype-reason": {
+      "type": "Text",
+      "props": {
+        "text": "most crowded CT long leg, death-spiral potential"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "hedges-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "BTC/ETH/SOL Strategy",
+        "level": "h3"
+      }
+    },
+    "hedges-text": {
+      "type": "Text",
+      "props": {
+        "text": "spot longs hedged 2x short ~63–64k"
+      }
+    },
+    "separator-4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "market-thesis-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Market Thesis",
+        "level": "h3"
+      }
+    },
+    "market-thesis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Post-run consolidation risk; ETF flows + Saylor reaction = key signal. Zec & Lab destined"
+      }
+    }
+  }
+}
