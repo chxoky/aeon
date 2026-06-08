@@ -256,21 +256,20 @@ function toBase64Json(obj) {
 }
 
 async function triggerAEON(env, skill, varValue = '') {
-  const resp = await fetch(
-    `https://api.github.com/repos/${env.GH_REPO}/actions/workflows/aeon.yml/dispatches`,
-    {
-      method: 'POST',
-      headers: {
-        Authorization:  `Bearer ${env.GH_TOKEN}`,
-        Accept:         'application/vnd.github+json',
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({ ref: 'main', inputs: { skill, var: varValue } }),
-    }
-  );
-  if (!resp.ok) {
-    console.error(`AEON trigger failed for skill=${skill}: ${resp.status}`);
-  }
+  const url = `https://api.github.com/repos/${env.GH_REPO}/actions/workflows/aeon.yml/dispatches`;
+  console.log(`triggerAEON: skill=${skill} repo=${env.GH_REPO} var_len=${varValue.length}`);
+  const resp = await fetch(url, {
+    method: 'POST',
+    headers: {
+      Authorization:  `Bearer ${env.GH_TOKEN}`,
+      Accept:         'application/vnd.github+json',
+      'Content-Type': 'application/json',
+      'User-Agent':   'trading-bot-worker/1.0',
+    },
+    body: JSON.stringify({ ref: 'main', inputs: { skill, var: varValue } }),
+  });
+  const body = resp.ok ? '' : await resp.text();
+  console.log(`triggerAEON: skill=${skill} status=${resp.status} body=${body.slice(0,200)}`);
   return resp.ok;
 }
 
@@ -312,6 +311,8 @@ async function answerFreeform(env, chatId, userMessage) {
   const base  = `https://raw.githubusercontent.com/${repo}/main`;
   const today = new Date().toISOString().slice(0, 10);
 
+  console.log(`answerFreeform: start, msg="${userMessage.slice(0,50)}"`);
+
   // Fetch memory context in parallel — public repo, no auth needed
   const [traders, activeTrades, tickerFocus, todayLog] = await Promise.allSettled([
     fetchText(`${base}/memory/topics/traders.md`),
@@ -320,12 +321,16 @@ async function answerFreeform(env, chatId, userMessage) {
     fetchText(`${base}/memory/logs/${today}.md`),
   ]);
 
+  console.log(`answerFreeform: memory fetched — traders=${traders.status} activeTrades=${activeTrades.status} tickerFocus=${tickerFocus.status} log=${todayLog.status}`);
+
   const sections = [
     traders.status      === 'fulfilled' ? `## traders.md\n${traders.value}`           : '',
     activeTrades.status === 'fulfilled' ? `## active-trades.md\n${activeTrades.value}` : '',
     tickerFocus.status  === 'fulfilled' ? `## ticker-focus.md\n${tickerFocus.value}`   : '',
     todayLog.status     === 'fulfilled' ? `## today's log (${today})\n${todayLog.value}` : '',
   ].filter(Boolean).join('\n\n---\n\n');
+
+  console.log(`answerFreeform: context built, ~${sections.length} chars — calling Claude`);
 
   const system = `You are AEON, a trading bot assistant. Today is ${today}.
 Kyle runs a crypto/stocks trading bot monitoring 12 traders on X and Discord.
@@ -352,15 +357,22 @@ ${sections}`;
       }),
     });
 
-    if (!resp.ok) throw new Error(`Claude API ${resp.status}`);
+    console.log(`answerFreeform: Claude responded ${resp.status}`);
+
+    if (!resp.ok) {
+      const errBody = await resp.text();
+      throw new Error(`Claude API ${resp.status}: ${errBody.slice(0, 300)}`);
+    }
     const data = await resp.json();
     reply = data?.content?.[0]?.text ?? '(empty response)';
+    console.log(`answerFreeform: reply ready, ~${reply.length} chars — sending Telegram`);
   } catch (e) {
     console.error('answerFreeform error:', e.message);
     reply = `⚠️ Could not reach Claude (${e.message}). Try again or send "status".`;
   }
 
   await sendTelegram(env, chatId, reply);
+  console.log('answerFreeform: done');
 }
 
 async function fetchText(url) {
