@@ -37,17 +37,27 @@ DISCORD_CHANNELS=(
 LOOKBACK_TS=$(date -u -d '3 days ago' +%Y-%m-%dT%H:%M:%SZ 2>/dev/null || date -u -v-3d +%Y-%m-%dT%H:%M:%SZ)
 
 # ── X via twitterapi.io REST ──────────────────────────────────────────────────
+# twitterapi.io does not support a "since" param — paginate and stop when
+# tweets fall outside the 3-day lookback window.
 
 echo "Fetching 3-day X history for: ${WATCHED_X_ACCOUNTS}"
 
 X_RESULTS="[]"
 IFS=',' read -ra ACCOUNTS <<< "$WATCHED_X_ACCOUNTS"
 for handle in "${ACCOUNTS[@]}"; do
-  RESP=$(curl -s -H "x-api-key: ${TWITTERAPI_IO_KEY}" \
-    "https://api.twitterapi.io/twitter/user/last_tweets?userName=${handle}&since=${LOOKBACK_TS}" || echo "")
+  cursor=""
+  handle_tweets="[]"
+  pages=0
 
-  if [ -n "$RESP" ]; then
-    PARSED=$(echo "$RESP" | jq -c '[.tweets[]? | {
+  while [ $pages -lt 10 ]; do
+    URL="https://api.twitterapi.io/twitter/user/last_tweets?userName=${handle}"
+    [ -n "$cursor" ] && URL="${URL}&cursor=${cursor}"
+
+    RESP=$(curl -s -H "x-api-key: ${TWITTERAPI_IO_KEY}" "$URL" || echo "")
+    [ -z "$RESP" ] && break
+
+    # Parse tweets within lookback window
+    PAGE_TWEETS=$(echo "$RESP" | jq -c --arg cutoff "$LOOKBACK_TS" '[.tweets[]? | select(.createdAt >= $cutoff) | {
       id: .id,
       username: .author.userName,
       text: .text,
@@ -55,9 +65,24 @@ for handle in "${ACCOUNTS[@]}"; do
       url: ("https://x.com/" + .author.userName + "/status/" + .id),
       media: [.media[]?.media_url_https? // empty]
     }]' 2>/dev/null || echo "[]")
-    X_RESULTS=$(echo "$X_RESULTS $PARSED" | jq -s 'add')
-  fi
-  sleep 1  # gentle on rate limits across 12 accounts
+
+    handle_tweets=$(echo "$handle_tweets $PAGE_TWEETS" | jq -s 'add')
+
+    # Check if oldest tweet on this page is still within window — if not, stop paginating
+    OLDEST=$(echo "$RESP" | jq -r '[.tweets[]?.createdAt] | min // ""')
+    [ -z "$OLDEST" ] || [ "$OLDEST" \< "$LOOKBACK_TS" ] && break
+
+    # Get next cursor
+    cursor=$(echo "$RESP" | jq -r '.next_cursor // .nextCursor // ""')
+    [ -z "$cursor" ] && break
+
+    pages=$((pages + 1))
+    sleep 1
+  done
+
+  echo "  @${handle}: $(echo "$handle_tweets" | jq 'length') tweets"
+  X_RESULTS=$(echo "$X_RESULTS $handle_tweets" | jq -s 'add')
+  sleep 1
 done
 
 # Sort oldest → newest
