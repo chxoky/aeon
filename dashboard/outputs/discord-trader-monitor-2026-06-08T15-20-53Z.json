@@ -1,0 +1,63 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "badge_channel",
+        "text_message",
+        "separator_1",
+        "context_section"
+      ]
+    },
+    "badge_channel": {
+      "type": "Badge",
+      "props": {
+        "text": "crypto_chase — member chat",
+        "variant": "default"
+      }
+    },
+    "text_message": {
+      "type": "Text",
+      "props": {
+        "text": "We were 1.5% away from getting good fills on quality equities but unfortunately Jensen CEO and Trump 100th ceasefire announcement hundredth deal made this month reversed everything",
+        "variant": "body"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_context",
+        "text_context"
+      ]
+    },
+    "heading_context": {
+      "type": "Heading",
+      "props": {
+        "text": "Market context",
+        "level": "h4"
+      }
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "Confirms the equity pullback scenario he's been watching (from 13:34:50Z analysis) didn't materialize. Trump ceasefire + Jensen NVIDIA announcement reversed the setup.",
+        "variant": "body"
+      }
+    }
+  }
+}
