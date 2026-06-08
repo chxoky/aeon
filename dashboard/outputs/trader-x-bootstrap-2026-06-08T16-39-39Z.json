@@ -1,0 +1,351 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Bootstrap Complete — 3-day lookback (06-05→06-08)"
+      },
+      "children": [
+        "summary",
+        "sep1",
+        "active-traders-heading",
+        "trader-list",
+        "sep2",
+        "consensus-section",
+        "sep3",
+        "new-tickers-section",
+        "sep4",
+        "monitoring-section"
+      ]
+    },
+    "summary": {
+      "type": "Text",
+      "props": {
+        "text": "183 tweets across all 12 watched X accounts processed; state seeded in traders.md, all IDs marked seen (no alerts fired)."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "active-traders-heading": {
+      "type": "Text",
+      "props": {
+        "text": "Active X traders:",
+        "variant": "lead"
+      }
+    },
+    "trader-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "trader1",
+        "trader2",
+        "trader3",
+        "trader4",
+        "trader5",
+        "trader6",
+        "traders-cautious"
+      ]
+    },
+    "trader1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trader1-badge",
+        "trader1-text"
+      ]
+    },
+    "trader1-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "@KillaXBT"
+      }
+    },
+    "trader1-text": {
+      "type": "Text",
+      "props": {
+        "text": "aggressively accumulating BTC spot (~90%, eyes 160K) — the lone HTF bull"
+      }
+    },
+    "trader2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trader2-badge",
+        "trader2-text"
+      ]
+    },
+    "trader2-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "@HeartCanHodl"
+      }
+    },
+    "trader2-text": {
+      "type": "Text",
+      "props": {
+        "text": "short basket (ZEC/WLD/VVV) + NEW stock shorts $MU/$SNDK"
+      }
+    },
+    "trader3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trader3-badge",
+        "trader3-text"
+      ]
+    },
+    "trader3-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "@Wild_Randomness"
+      }
+    },
+    "trader3-text": {
+      "type": "Text",
+      "props": {
+        "text": "defensive options book — ~75% cash, Aug-Oct COIN/IBIT/ETHA puts, tactical QQQ Jun-30 calls, building NVDA Jan-27 leaps"
+      }
+    },
+    "trader4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trader4-badge",
+        "trader4-text"
+      ]
+    },
+    "trader4-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "@swarmister"
+      }
+    },
+    "trader4-text": {
+      "type": "Text",
+      "props": {
+        "text": "large oil ($CL) long, gold short→long flip @4200, bearish crypto (BTC bottom 40-50k)"
+      }
+    },
+    "trader5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trader5-badge",
+        "trader5-text"
+      ]
+    },
+    "trader5-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "@bull_genius"
+      }
+    },
+    "trader5-text": {
+      "type": "Text",
+      "props": {
+        "text": "tactical long $HYPE / short $ZEC"
+      }
+    },
+    "trader6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trader6-badge",
+        "trader6-text"
+      ]
+    },
+    "trader6-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "@abetrade"
+      }
+    },
+    "trader6-text": {
+      "type": "Text",
+      "props": {
+        "text": "$WLD long (OpenAI-IPO proxy)"
+      }
+    },
+    "traders-cautious": {
+      "type": "Text",
+      "props": {
+        "text": "Cautious/neutral: @Crypto_Chase, @Stoiiic, @t_in_crypto, @ryzzqq, @trading_axe, @Bitcoin_Astro"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "consensus-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "consensus-heading",
+        "consensus-text"
+      ]
+    },
+    "consensus-heading": {
+      "type": "Text",
+      "props": {
+        "text": "Consensus:",
+        "variant": "lead"
+      }
+    },
+    "consensus-text": {
+      "type": "Text",
+      "props": {
+        "text": "$ZEC strongly bearish; $BTC mixed/cautious near-term; $WLD & $VVV contested."
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "new-tickers-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "new-tickers-heading",
+        "new-tickers-badges"
+      ]
+    },
+    "new-tickers-heading": {
+      "type": "Text",
+      "props": {
+        "text": "New tickers on radar from X:",
+        "variant": "lead"
+      }
+    },
+    "new-tickers-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-qqq",
+        "badge-coin",
+        "badge-soxl",
+        "badge-sndk",
+        "badge-nbis",
+        "badge-lit",
+        "badge-amat",
+        "badge-cl",
+        "badge-total3"
+      ]
+    },
+    "badge-qqq": {
+      "type": "Badge",
+      "props": {
+        "text": "$QQQ"
+      }
+    },
+    "badge-coin": {
+      "type": "Badge",
+      "props": {
+        "text": "$COIN"
+      }
+    },
+    "badge-soxl": {
+      "type": "Badge",
+      "props": {
+        "text": "$SOXL"
+      }
+    },
+    "badge-sndk": {
+      "type": "Badge",
+      "props": {
+        "text": "$SNDK"
+      }
+    },
+    "badge-nbis": {
+      "type": "Badge",
+      "props": {
+        "text": "$NBIS"
+      }
+    },
+    "badge-lit": {
+      "type": "Badge",
+      "props": {
+        "text": "$LIT"
+      }
+    },
+    "badge-amat": {
+      "type": "Badge",
+      "props": {
+        "text": "$AMAT"
+      }
+    },
+    "badge-cl": {
+      "type": "Badge",
+      "props": {
+        "text": "$CL (oil)"
+      }
+    },
+    "badge-total3": {
+      "type": "Badge",
+      "props": {
+        "text": "$TOTAL3"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "monitoring-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "monitoring-text",
+        "monitoring-badge"
+      ]
+    },
+    "monitoring-text": {
+      "type": "Text",
+      "props": {
+        "text": "X monitoring is live — new tweets surface in real time."
+      }
+    },
+    "monitoring-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "LIVE",
+        "variant": "secondary"
+      }
+    }
+  }
+}

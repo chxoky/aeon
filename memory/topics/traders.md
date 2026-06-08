@@ -5,6 +5,7 @@
 > below have no recorded state yet and will be populated by `x-trader-monitor`.
 > The 3 Discord-tracked traders have full state from the Discord cache (313 messages this run; count fluctuates run-to-run as the prefetch re-fetches, but the signal-bearing posts are stable).
 > Force re-run #8 (2026-06-08): cache timeline now extends to 16:12:51Z (past the prior 15:15Z cutoff), so this run had REAL state changes — see "Developments since prior state (15:08→16:13Z)" at the bottom. Headline: KillaXBT posted his first substantive in-window update (16:09Z); HCH opened a BIO short (resolving the earlier "Fc bio" ambiguity by his own action) and re-added ZEC; Chase stayed patient/uncertain. Step 7: 227 previously-unmarked cache IDs marked seen this run (seen file now 769 lines; all 313 cache IDs covered); X cache still empty.
+> **X bootstrap (`trader-x-bootstrap`, force re-run, 2026-06-08):** X cache is now populated — 183 tweets across all 12 watched accounts (06-05→06-08). The 9 X-only sections below are now filled with real state, and X-activity lines were added to the 3 Discord traders. See `X_BOOTSTRAP_COMPLETE` marker at the bottom of the X-only block.
 
 ## Crypto_Chase
 - Platforms: X + Discord (primary: 1336082716063694962; Q&A: 1343971265962049597, 1247927786681794601)
@@ -19,6 +20,8 @@
 - Last seen: 2026-06-08T13:07:56Z (supporting channel Q&A reply on bounce interpretation) — member asked "would you short this bounce?"; Chase: "I'm just waiting for a bit to see if this is a scam bounce or whatnot. If it is a scam bounce, then we'll probably get some of the equity bids filled. And if it's not, then at least I'll understand that the trend is upwards again." Expresses waiting/uncertainty posture; consistent with recent conservative stance.
 - Last seen: 2026-06-08T13:34:50Z (supporting channel informational) — "Just for future reference of what will likely perform best if equities do pull back and some bids fill" — provides forward-looking analysis with chart reference for the equity pullback scenario he's been tracking. Alerted to Kyle with chart context.
 - Last seen: 2026-06-08T15:08:22Z → 15:13:36Z (supporting/Q&A, channel 1247927786681794601) — **net posture: patient, flat, no clear trade.** Verbatim: "it's safe to say that at the moment I'm not really interested in shorting, but I also didn't get my long positions filled, so at the moment I'm just staying patient"; "I'm just being conservative... I'm not sure what the actual trade is right now"; notes ES left lows behind ("very, very unusual"). **Reconciliation:** this walks back any read of the 13:52Z "bull market just begun" line as a firm directional flip — by 15:08Z he is uncommitted (neither long-filled nor shorting), waiting to see if the up-move is real. Treat 13:52Z as sentiment/banter, not a held position. Current real stance = FLAT + patient, watching for equity fills.
+- X recent activity (bootstrap, 06-05→06-08): Bearish/cautious on BTC ("Not a good look at all"); flagged $HYPE as "the only long trade I'd be interested in at the moment" (06-06); $SOL — wait for a deviation below the consolidation, then weekly reclaim + close. Saylor framing (06-07): if he sold 2-3B and 60k held = bullish; if he bought, questions what the big players are thinking. 06-08 sarcasm that the NVDA-CEO/Trump-ceasefire headlines front-ran his equity bids (matches Discord 15:12Z). Also pushing Rainbet-sponsored sports bets (ignore for signal). No new X position entries — consistent with the Discord FLAT/patient read.
+- Last X post seen: 2063967349384876505 (06-08T12:52Z)
 
 ## KillaXBT
 - Platforms: X + Discord (primary: 1411492188315193416)
@@ -29,6 +32,8 @@
 - Conviction notes: Low-leverage, long-horizon swing style; explicitly warns impatient followers off. Very terse — usually points to a stream, but the 16:09Z post stated his stance inline (rare and useful). Distinguishes timeframes clearly (HTF bias vs LTF tactical).
 - Last seen: 2026-06-08T16:09:26Z (Discord primary — HTF-bullish / LTF scalp-short update, role-pinged followers)
 - **PENDING (carried):** 2026-06-08T08:00 "BTC test" flagged AMBIGUOUS by real-time monitor — too cryptic to classify; awaiting Kyle's calibration on intent (test/signal/typo). Not present in this bootstrap cache; preserved so the open question isn't lost.
+- X recent activity (bootstrap, 06-05→06-08): Emphatically bullish BTC spot accumulation — "I am buying as much $BTC as I possibly can," ~90% invested (06-06), DCAing after the 50% drop; flipped bullish after the 126K→59K retrace, eyes 160K, sees the bottom close after the sub-60K sweep (could still wick 45-50K into August). 06-07: $SOL "time to start bidding," doesn't see it below $40 but small size (not an altcoin guy). 06-08: expects months of sideways chop with shallow pumps, no V-shape recovery; flags a 700 BTC sell wall at 64-64.2K and deleveraged OI as a HTF-bottom tell. The X feed is pure spot-accumulation conviction — strengthens, and is consistent with, the Discord HTF-bullish read (the LTF scalp-short nuance is Discord-only).
+- Last X post seen: 2064001729893449808 (06-08T15:08Z)
 
 ## HeartCanHodl
 - Platforms: X + Discord (free/public: 1472153627324842057; primary/most-important: 1279738718680256553; premium chat: 1023638573313966212)
@@ -48,22 +53,70 @@
 - Last seen: 2026-06-08T16:12:51Z (Discord primary — conviction-add +2% ZEC short as part of rebalance, alerted. "Add back 2% zec")
 - Last seen: 2026-06-08T15:15:16Z (Discord primary — conviction-add +2% HYPE short, "Add 2% hype short here")
 - Last seen: 2026-06-08T16:12:51Z (Discord premium chat — conviction re-add +2% ZEC short, "Add back 2% zec"). Most recent action this run. Short basket steadily being rebuilt/expanded (HYPE, ZEC, VVV, new BIO) — fully consistent with the 09:47Z "building shorts" conviction post.
+- X recent activity (bootstrap, 06-05→06-08): Public short basket fully visible on X — $ZEC (sell wall now > buy wall, target ~$190 = -50%, late longs stopped at BE), $WLD (new "biggest loser"), $VVV (inverse-V tops, grok-flagged uncapped owner-only mint, "-8% is just a headstart"; "Fc venice 1hr" — venice = $VVV/Venice.ai). 06-08 14:41 "$Bio pump looks sus" corroborates the new Discord BIO short. Macro: BTC 63k = key reclaim line, fail = leg lower; "doom scenario for crypto liquidity either way" (equity weakness drains it / AI buildout soaks up the sideline dollars); bear-year of the 4-yr cycle. Net: high-conviction bearish, hedged — fully consistent with Discord.
+- Open positions detected on X (beyond Discord book): **$MU short** and **$SNDK short** — the only two stock names he's publicly traded (semis; flagged $SOXL -30% session). These are NOT in the Discord state.
+- Last X post seen: 2063994803797561636 (06-08T14:41Z)
 
 ---
 
-## X-only watched accounts (no data at bootstrap — X cache empty)
-State to be populated by `x-trader-monitor` once X history flows.
-- Bitcoin_Astro — Platforms: X. No state yet.
-- abetrade — Platforms: X. No state yet.
-- trading_axe — Platforms: X. No state yet.
-- t_in_crypto — Platforms: X. No state yet.
-- ryzzqq — Platforms: X. No state yet.
-- swarmister — Platforms: X. No state yet.
-- bull_genius — Platforms: X. No state yet.
-- Stoiiic — Platforms: X. No state yet.
-- Wild_Randomness — Platforms: X. No state yet.
+## X-only watched accounts (populated by `trader-x-bootstrap` 2026-06-08, 3-day lookback)
+
+## Bitcoin_Astro
+- Platforms: X
+- X recent activity (bootstrap): Gann/astrology/cycles BTC analyst, very low post volume. Flagged 06-05 as a "potential turning point" for Bitcoin — watching whether price reverses into a meaningful bounce or grinds lower for a few more days before the real low is in; said the next 24-48h of price/structure would tell. Ran an AMA Sunday. No trades, no levels given.
+- Open positions detected: none detected (neutral, watching for a cycle turning point)
+- Last X post seen: 2063928260623303038 (06-08T10:16Z)
+
+## abetrade
+- Platforms: X
+- X recent activity (bootstrap): Macro/derivatives analyst. Thinks the BTC bottom forms only at full capitulation OR when price-sensitive demand appears — sees neither yet (global OI at 5-yr lows, neutral funding ⇒ the selloff is purely ETF/spot driven; $IBIT put skew steepening but not at panic). Constructive on $WLD as a liquid OpenAI-IPO beta proxy (Worldcoin / Tools-for-Humanity / Altman link): a break from 6-month accumulation, holding the 200D SMA, tight invalidation on consecutive closes below. Runs a paid multi-market data-aggregation product (promo).
+- Open positions detected: $WLD — long bias / constructive (technical breakout setup). Cautious-neutral on BTC.
+- Last X post seen: 2063717128918692173 (06-07T20:18Z)
+
+## trading_axe (Dr. Axius)
+- Platforms: X
+- X recent activity (bootstrap): Contrarian, abrasive style; much of the feed is off-topic (UFC bet on Bonfim, CT drama — ignore for signal). BTC: notes worst sentiment + slow bleed "still couldn't break below 60K and accelerate" — reads that resilience as notable; if the selling was panic over a "Saylor Ponzi implode" or institutional shorts hedging, "this could get SUPER INTERESTING" (contrarian-bullish tilt). $ZEC: strongly bearish — no demand, overhang of unknown free-minted tokens, "you're being CLOWNED" paying $360 for a token generated for free; demands the long-promised clarification post.
+- Open positions detected: none explicit. Theses: $ZEC bearish; $BTC cautiously contrarian-bullish on the 60K hold.
+- Last X post seen: 2063969580607799454 (06-08T13:01Z)
+
+## t_in_crypto
+- Platforms: X
+- X recent activity (bootstrap): BTC level/timing trader. Watching a key structural support level (notes the crowd "ready to long 57-58k"). Cautious on the "bottom is in" chorus — says June won't be a high-price month, sees two ~2-day profit-taking windows for longs, "don't get too excited" with lofty targets. Leans more downside likely before the real bottom.
+- Open positions detected: none explicit (cautious/bearish, trades defined support levels)
+- Last X post seen: 2063839534702334438 (06-08T04:24Z)
+
+## ryzzqq
+- Platforms: X
+- X recent activity (bootstrap): BTC capitulation thesis — new lows mark the start of the capitulation phase where "tourists better say their prayers" and time horizons collapse to a point. Mused on the crowd front-running Saylor's sells (after front-running his monthly buys). Posted a long essay on why crypto-trained instincts (over-trading, "fair value is 0" fear) hurt in equities — let winners ride, respect valuation floors, build deep conviction on few ideas. Macro/educational; no trades.
+- Open positions detected: none detected (bearish/capitulation watch)
+- Last X post seen: 2063982801809186818 (06-08T13:53Z)
+
+## swarmister
+- Platforms: X
+- X recent activity (bootstrap): Bearish crypto, macro/dominance-driven. No BTC longs and won't consider them near-term; watching the 55k reaction to gauge a possible +-70k local play, but sees the real bottom at 40-50k or lower ("no global reversal here at all") and calls 60k a sucker-trap for liquidity. Views SOL/crypto as a "liquidity-extraction tool" — would only buy $SOL spot at 50-56. $ETH → $800 (bearish). Large NON-crypto positions: a massive $CL (oil) long (entry 89.5, adding on a China-reserves / Strait-closed shortage thesis) and a $XAU (gold) HTF swing short (+7.1%) he plans to flip LONG at 4200 (his gold-bottom call).
+- Open positions detected: $CL (oil) — large long; $XAU (gold) — short, planning a long flip @4200; crypto: flat/bearish, possible small $SOL spot bid 50-56.
+- Last X post seen: 2063949705252323391 (06-08T11:42Z)
+
+## bull_genius
+- Platforms: X
+- X recent activity (bootstrap): Tactical, small-size / low-leverage, mean-reversion focused ("mean_reversion.exe", "newton re-enters with a lot"). Core idea: **long $HYPE / short $ZEC** pair (ZEC bag-holders rotate into HYPE; ZEC leaves the "good coins" pool). Careful on ZEC near 365d/90d rvwap resistance — would short only above 400 on a liquidation candle. Likes the AI bracket ($WLD/$VVV/NEAR) for mean-reversion bounces. 06-08: opened a short on Saylor's "$100m via ATM" announcement, got stopped breakeven; levels — rejection at 7d rvwap 63.6k → 60.7k weekly POC, upside 67k "unlikely." Trading small (at a concert). Skeptical of the "Claude Opus 4.8 discovered the ZEC exploit" narrative.
+- Open positions detected: mostly flat — short stopped BE 06-08; active idea = long $HYPE / short $ZEC (tactical, small size).
+- Last X post seen: 2063976949869916287 (06-08T13:30Z)
+
+## Stoiiic
+- Platforms: X
+- X recent activity (bootstrap): BTC order-flow / microstructure trader. 06-07: BTC "attempting to base out for the first time after a week of continuous selling"; ~65 a good pivot; the short squeeze left a passive spot ask-side skew (~70M) that needs aggressive spot buying to push higher. 06-08: posted "interim thoughts" on BTC (chart). Mixes in trading-psychology aphorisms ("price is an advertising mechanism"; unbreakable mindset; "stop calling bottom every two mins"). No explicit position.
+- Open positions detected: none explicit (trades around the ~65 BTC pivot using an order-flow/skew framework)
+- Last X post seen: 2064004102712135816 (06-08T15:18Z)
+
+## Wild_Randomness
+- Platforms: X
+- X recent activity (bootstrap): Very active options/equities trader, currently defensive (~75% cash). Heavy August-October put book — IWM/COIN/ETHA/IBIT; by Friday close exited his June+July IBIT/ETHA puts, still holds ~50% of the Aug-Oct puts and ~80% of his COIN puts, now prefers a smaller July-Aug put position. Tactically pressing **June-30 $QQQ calls** (faded weakness into Friday's close) and re-added some spot tech after hours; added $SOXL (filled 172). $NVDA: sold July calls ~221, rotated into August + Jan-27 leaps, building a Jan-27 position. 06-08: $NBIS "back in" (long), $AMAT entry note, $LIT watching 1.30 as a final-stand level. Thinks the market is pulling events forward and "the transition to phase 2 is upon us"; plans to fade early-week weakness with more QQQ calls. $TOTAL3: alts on "hard mode," chop at best.
+- Open positions detected: $COIN puts (~80%), $IBIT/$ETHA Aug-Oct puts (~50%), $QQQ Jun-30 calls (long), $SOXL long, $NBIS long, $NVDA Jan-27 leaps (building). Net: cautious/hedged, mostly cash, tactically long short-dated QQQ.
+- Last X post seen: 2064005239032983790 (06-08T15:22Z)
 
 BOOTSTRAP_COMPLETE: 2026-06-08
+X_BOOTSTRAP_COMPLETE: 2026-06-08
 
 ### 2026-06-08T13:52:38Z (supporting channel — major conviction shift)
 Crypto_Chase in member Q&A (channel 1343971265962049597): **Bull market conviction call** — "Yep, bull market just begun. Up 50% in two months".
