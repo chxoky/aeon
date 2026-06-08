@@ -21,6 +21,7 @@
 - Recent thesis/posture: Believes bottom is "close". Searching for a range above 60K lasting a few weeks before any possible capitulation candle below the lows; targets local reclaim 68.2K, ideally 69.3K–70K. Sentiment-contrarian (most turned bearish at lows). Manual invalidation, patient. Posted a "little update" on BTC 06-06 (detail in stream, not cached).
 - Conviction notes: Low-leverage, long-horizon swing style; explicitly warns impatient followers off. Terse.
 - Last seen: 2026-06-06T17:29Z
+- 2026-06-08T08:00:00Z — **AMBIGUOUS** — "BTC test" too cryptic to classify; asked Kyle for calibration on intent (test/signal/typo) → awaiting guidance
 
 ## HeartCanHodl
 - Platforms: X + Discord (free/public: 1472153627324842057; primary/most-important: 1279738718680256553; premium chat: 1023638573313966212)

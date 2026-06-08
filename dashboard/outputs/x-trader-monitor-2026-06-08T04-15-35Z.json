@@ -1,0 +1,96 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert_main",
+        "text_question",
+        "text_issue",
+        "stack_interpretations",
+        "link_post",
+        "text_cta"
+      ]
+    },
+    "alert_main": {
+      "type": "Alert",
+      "props": {
+        "title": "🤔 Ambiguous: KillaXBT",
+        "message": "\"BTC test\" — too cryptic to classify",
+        "type": "warning"
+      }
+    },
+    "text_question": {
+      "type": "Text",
+      "props": {
+        "text": "How should I read this?",
+        "variant": "lead"
+      }
+    },
+    "text_issue": {
+      "type": "Text",
+      "props": {
+        "text": "Is this:"
+      }
+    },
+    "stack_interpretations": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_interp1",
+        "text_interp2",
+        "text_interp3"
+      ]
+    },
+    "text_interp1": {
+      "type": "Text",
+      "props": {
+        "text": "A social media test (skip)?"
+      }
+    },
+    "text_interp2": {
+      "type": "Text",
+      "props": {
+        "text": "A signal on BTC (his current 75%-exposed long)?"
+      }
+    },
+    "text_interp3": {
+      "type": "Text",
+      "props": {
+        "text": "Something else?"
+      }
+    },
+    "link_post": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View post",
+        "href": "https://x.com/KillaXBT/status/test_ghfix",
+        "source": "X"
+      }
+    },
+    "text_cta": {
+      "type": "Text",
+      "props": {
+        "text": "Reply with context so I can calibrate.",
+        "variant": "muted"
+      }
+    }
+  }
+}
