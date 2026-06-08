@@ -1,0 +1,24 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "alert_error"
+      ]
+    },
+    "alert_error": {
+      "type": "Alert",
+      "props": {
+        "title": "DISCORD_TRADER_BAD_EVENT",
+        "message": "base64 decode failed (corrupted var input). No Discord event processed.",
+        "type": "error"
+      },
+      "children": []
+    }
+  }
+}
