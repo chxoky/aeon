@@ -1,0 +1,154 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Trade Signal — heartcanhodl"
+      },
+      "children": [
+        "alert_emoji",
+        "sep1",
+        "stack_header",
+        "sep2",
+        "stack_signal",
+        "sep3",
+        "stack_context"
+      ]
+    },
+    "alert_emoji": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "message": "🚨 Active trade signal"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_source",
+        "badge_priority"
+      ]
+    },
+    "badge_source": {
+      "type": "Badge",
+      "props": {
+        "text": "Discord",
+        "variant": "secondary"
+      }
+    },
+    "badge_priority": {
+      "type": "Badge",
+      "props": {
+        "text": "Primary/Most-Important",
+        "variant": "destructive"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_signal": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_token",
+        "badge_action",
+        "stat_size"
+      ]
+    },
+    "badge_token": {
+      "type": "Badge",
+      "props": {
+        "text": "$WLD",
+        "variant": "outline"
+      }
+    },
+    "badge_action": {
+      "type": "Badge",
+      "props": {
+        "text": "SHORT",
+        "variant": "destructive"
+      }
+    },
+    "stat_size": {
+      "type": "Stat",
+      "props": {
+        "label": "Position Size",
+        "value": "1%",
+        "trend": "down"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_context_label",
+        "text_context_conviction",
+        "text_context_catalyst",
+        "text_context_timestamp",
+        "text_context_classification"
+      ]
+    },
+    "text_context_label": {
+      "type": "Text",
+      "props": {
+        "text": "Context",
+        "variant": "lead"
+      }
+    },
+    "text_context_conviction": {
+      "type": "Text",
+      "props": {
+        "text": "Part of active short-building conviction",
+        "variant": "body"
+      }
+    },
+    "text_context_catalyst": {
+      "type": "Text",
+      "props": {
+        "text": "HCH flagged $WLD as new \"biggest loser\" earlier today",
+        "variant": "body"
+      }
+    },
+    "text_context_timestamp": {
+      "type": "Text",
+      "props": {
+        "text": "Flagged: X 2026-06-08T14:41Z",
+        "variant": "caption"
+      }
+    },
+    "text_context_classification": {
+      "type": "Text",
+      "props": {
+        "text": "Starter add on high-conviction shorts",
+        "variant": "muted"
+      }
+    }
+  }
+}
