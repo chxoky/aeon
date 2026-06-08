@@ -31,3 +31,14 @@ This is normal operational behavior — the Cloudflare Worker webhook can redeli
 ✓ Skill execution complete. No notification sent (duplicate prevention per protocol).
 Skill execution complete. The tweet (ID 2064088252156616843) has already been processed and marked in the dedup file. Per Step 8 of the skill, duplicate events trigger an immediate exit without re-alerting. Logged and exited cleanly.
 The Worker is redelivering a previously-processed event. The skill handled it gracefully without duplicate alerting.
+This is a **Worker redelivery** of tweet ID `2064088252156616843`. The skill was executed with a base64-encoded event containing:
+- **id:** 2064088252156616843
+- **username:** unknown
+- **text:** @CookBookSauce COOK
+- **url:** https://x.com/unknown/status/2064088252156616843
+
+**Action taken:** Skipped (Step 8 dedup gate)
+
+The tweet ID is already present in `memory/x-trader-seen.txt` (line 191) and has been processed 10+ times today. Per the skill's Step 8 protocol: *"If `id` is already in `memory/x-trader-seen.txt`, stop immediately after logging — do not re-alert."*
+
+No notification sent. Logged the duplicate detection and exited cleanly. ✓
