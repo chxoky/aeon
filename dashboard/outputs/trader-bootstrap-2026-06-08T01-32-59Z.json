@@ -1,0 +1,158 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Trader Bootstrap Complete — 4-day lookback (Jun 4–8)"
+      },
+      "children": [
+        "intro_text",
+        "sep1",
+        "positions_section",
+        "sep2",
+        "overlap_section",
+        "sep3",
+        "theses_section",
+        "sep4",
+        "monitoring_text"
+      ]
+    },
+    "intro_text": {
+      "type": "Text",
+      "props": {
+        "text": "Seeded state for all 12 X accounts + 3 Discord traders from 340 tweets & 444 Discord msgs."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "positions_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "pos_heading",
+        "pos_killa",
+        "pos_hch",
+        "pos_chase",
+        "pos_wild",
+        "pos_swarm",
+        "pos_bull"
+      ]
+    },
+    "pos_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Currently live positions:",
+        "level": "h3"
+      }
+    },
+    "pos_killa": {
+      "type": "Text",
+      "props": {
+        "text": "KillaXBT: BTC swing long, ~90% in (target 160k, inval 31950) + small SOL long. Calls this a generational bottom."
+      }
+    },
+    "pos_hch": {
+      "type": "Text",
+      "props": {
+        "text": "HeartCanHodl: hedged book — spot BTC/ETH/SOL longs vs 2x shorts ~63-64k; shorting ZEC (large), VVV (3x), LAB, HYPE, WLD. 63k is his key line."
+      }
+    },
+    "pos_chase": {
+      "type": "Text",
+      "props": {
+        "text": "Crypto_Chase: GOLD spot long still open (stop not hit); HYPE flat after -1.5R stop + all bids cancelled; turned cautious (BTC lost weekly 200 EMA), eyeing INTC/Micron/silver."
+      }
+    },
+    "pos_wild": {
+      "type": "Text",
+      "props": {
+        "text": "Wild_Randomness: building NVDA Jan27 leaps; QQQ/SPCX calls + Russell puts; bearish crypto."
+      }
+    },
+    "pos_swarm": {
+      "type": "Text",
+      "props": {
+        "text": "swarmister: large BTC short (trimmed 30%), bearish ETH/SOL."
+      }
+    },
+    "pos_bull": {
+      "type": "Text",
+      "props": {
+        "text": "bull_genius: small WLD long, some BTC spot; waiting on capitulation."
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "overlap_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "overlap_heading",
+        "overlap_text"
+      ]
+    },
+    "overlap_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top overlap tickers:",
+        "level": "h3"
+      }
+    },
+    "overlap_text": {
+      "type": "Text",
+      "props": {
+        "text": "BTC (mixed — bottoming debate), HYPE (CONTESTED — Chase flat vs HCH short), ZEC (bearish post-exploit)."
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "theses_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "theses_heading",
+        "theses_text"
+      ]
+    },
+    "theses_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable theses to watch:",
+        "level": "h3"
+      }
+    },
+    "theses_text": {
+      "type": "Text",
+      "props": {
+        "text": "The whole group is fixated on Monday's Saylor/MSTR reveal for market direction. Bull/bear split is sharp — Killa & bull_genius see a bottom forming; Wild, swarmister, t_in_crypto & abetrade call for lower (40s BTC)."
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "monitoring_text": {
+      "type": "Text",
+      "props": {
+        "text": "Real-time monitoring is now active — you'll hear about new developments as they happen."
+      }
+    }
+  }
+}

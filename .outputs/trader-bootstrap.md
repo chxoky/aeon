@@ -1,14 +1,17 @@
-📋 *Trader Bootstrap Complete — 4-day lookback (06-04 → 06-08)*
+📋 *Trader Bootstrap Complete — 4-day lookback (Jun 4–8)*
 
-X history was empty this run, so state is built from 445 Discord messages across Crypto_Chase, KillaXBT and HeartCanHodl.
+Seeded state for all 12 X accounts + 3 Discord traders from 340 tweets & 444 Discord msgs.
 
-*Currently live setups/positions:*
-— KillaXBT: BTC low-leverage swing *long*, 75% exposed, holding long-term ("bottom is close").
-— Crypto_Chase: Gold spot *long* still open (stop not hit). HYPE now *flat* — stopped -1.5R, all orders cancelled; turned cautious on crypto, rotating to trad (Intel, Micron, silver, SPY).
-— HeartCanHodl: *hedged book* — BTC/ETH/SOL spot longs hedged 2x short ~63-64k, plus standalone shorts in ZEC (large), VVV (3x), LAB, HYPE and WLD.
+*Currently live positions:*
+— KillaXBT: BTC swing long, ~90% in (target 160k, inval 31950) + small SOL long. Calls this a generational bottom.
+— HeartCanHodl: hedged book — spot BTC/ETH/SOL longs vs 2x shorts ~63-64k; shorting ZEC (large), VVV (3x), LAB, HYPE, WLD. 63k is his key line.
+— Crypto_Chase: GOLD spot long still open (stop not hit); HYPE flat after -1.5R stop + all bids cancelled; turned cautious (BTC lost weekly 200 EMA), eyeing INTC/Micron/silver.
+— Wild_Randomness: building NVDA Jan27 leaps; QQQ/SPCX calls + Russell puts; bearish crypto.
+— swarmister: large BTC short (trimmed 30%), bearish ETH/SOL.
+— bull_genius: small WLD long, some BTC spot; waiting on capitulation.
 
-*Top overlap tickers:* BTC (mixed — Killa long, HCH hedged, Chase cautious) · HYPE (contested — Chase flat/bullish bias vs HCH short) · ZEC (bearish — both avoid/short).
+*Top overlap tickers:* BTC (mixed — bottoming debate), HYPE (CONTESTED — Chase flat vs HCH short), ZEC (bearish post-exploit).
 
-*Notable theses to watch:* The group is leaning defensive/bearish on crypto — Chase flags the weekly 200 EMA break, HCH runs a heavy short book; only KillaXBT is outright bullish. 63k is HCH's key support line, and everyone's watching what Saylor did next.
+*Notable theses to watch:* The whole group is fixated on Monday's Saylor/MSTR reveal for market direction. Bull/bear split is sharp — Killa & bull_genius see a bottom forming; Wild, swarmister, t_in_crypto & abetrade call for lower (40s BTC).
 
 Real-time monitoring is now active — you'll hear about new developments as they happen.
