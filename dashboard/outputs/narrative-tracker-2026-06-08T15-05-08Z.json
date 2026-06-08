@@ -1,0 +1,606 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-06-08",
+        "description": "baseline run — no prior map to diff"
+      },
+      "children": [
+        "section_catalyst",
+        "sep1",
+        "section_reflexivity",
+        "sep2",
+        "section_positions",
+        "sep3",
+        "section_map"
+      ]
+    },
+    "section_catalyst": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h_catalyst",
+        "catalyst_text",
+        "catalyst_stats"
+      ]
+    },
+    "h_catalyst": {
+      "type": "Heading",
+      "props": {
+        "text": "LIVE CATALYST",
+        "level": "h2"
+      }
+    },
+    "catalyst_text": {
+      "type": "Text",
+      "props": {
+        "text": "BTC ETF exodus + Strategy's first sale in ~4yrs. This is the tape today — every other narrative is bleeding into it."
+      }
+    },
+    "catalyst_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_btc_drop",
+        "stat_etf_outflows",
+        "stat_liquidations"
+      ]
+    },
+    "stat_btc_drop": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC Price Drop",
+        "value": "-12%",
+        "delta": "72.8k → 64.1k",
+        "trend": "down"
+      }
+    },
+    "stat_etf_outflows": {
+      "type": "Stat",
+      "props": {
+        "label": "Weekly ETF Outflows (Record)",
+        "value": "3.4B USD"
+      }
+    },
+    "stat_liquidations": {
+      "type": "Stat",
+      "props": {
+        "label": "Liquidations",
+        "value": "1.8B USD",
+        "delta": "largest since Feb"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section_reflexivity": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert_reflexivity",
+        "reflex_subsection1",
+        "reflex_subsection2"
+      ]
+    },
+    "alert_reflexivity": {
+      "type": "Alert",
+      "props": {
+        "title": "REFLEXIVITY ALERT",
+        "message": "Outcome moved on narrative, not fundamentals",
+        "type": "warning"
+      }
+    },
+    "reflex_subsection1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "reflex_h1",
+        "reflex_text1",
+        "reflex_stat1"
+      ]
+    },
+    "reflex_h1": {
+      "type": "Text",
+      "props": {
+        "text": "'Never sell' break — Strategy sold 32 BTC",
+        "variant": "lead"
+      }
+    },
+    "reflex_text1": {
+      "type": "Text",
+      "props": {
+        "text": "Trivial size (~2.5M) but snapped the reflexive infinite-bid story → cascading liquidations."
+      }
+    },
+    "reflex_stat1": {
+      "type": "Stat",
+      "props": {
+        "label": "Position Size",
+        "value": "32 BTC (~2.5M)"
+      }
+    },
+    "reflex_subsection2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "reflex_h2",
+        "reflex_text2",
+        "reflex_stat_group"
+      ]
+    },
+    "reflex_h2": {
+      "type": "Text",
+      "props": {
+        "text": "ZEC — Polymarket narrative swing on Orchard bug",
+        "variant": "lead"
+      }
+    },
+    "reflex_text2": {
+      "type": "Text",
+      "props": {
+        "text": "Counterfeit-coin bug fear (disclosed Jun 4). Price chasing the story, not cashflows."
+      }
+    },
+    "reflex_stat_group": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "reflex_stat2",
+        "reflex_stat3"
+      ]
+    },
+    "reflex_stat2": {
+      "type": "Stat",
+      "props": {
+        "label": "Polymarket Odds Swing (24h)",
+        "value": "+28%"
+      }
+    },
+    "reflex_stat3": {
+      "type": "Stat",
+      "props": {
+        "label": "Weekly Decline",
+        "value": "-38%",
+        "trend": "down"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section_positions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "h_positions",
+        "pos_ride_short",
+        "pos_fade",
+        "pos_ride_ai",
+        "pos_watch",
+        "pos_ignore"
+      ]
+    },
+    "h_positions": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      }
+    },
+    "pos_ride_short": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos1_title",
+        "pos1_badges",
+        "pos1_thesis",
+        "pos1_detail"
+      ]
+    },
+    "pos1_title": {
+      "type": "Heading",
+      "props": {
+        "text": "RIDE-SHORT: BTC / majors",
+        "level": "h3"
+      }
+    },
+    "pos1_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_pos1_mind",
+        "badge_pos1_bear"
+      ]
+    },
+    "badge_pos1_mind": {
+      "type": "Badge",
+      "props": {
+        "text": "mindshare 5 ↑↑"
+      }
+    },
+    "badge_pos1_bear": {
+      "type": "Badge",
+      "props": {
+        "text": "Bear",
+        "variant": "destructive"
+      }
+    },
+    "pos1_thesis": {
+      "type": "Text",
+      "props": {
+        "text": "ETF outflows + Saylor sell signal"
+      }
+    },
+    "pos1_detail": {
+      "type": "Text",
+      "props": {
+        "text": "Bear case: 1.35B of longs already liquidated, capitulation-bounce risk near 60k. (Tracked HCH already short, targets 57-52k.)",
+        "variant": "caption"
+      }
+    },
+    "pos_fade": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos2_title",
+        "pos2_badges",
+        "pos2_thesis",
+        "pos2_detail"
+      ]
+    },
+    "pos2_title": {
+      "type": "Heading",
+      "props": {
+        "text": "FADE: Privacy / ZEC",
+        "level": "h3"
+      }
+    },
+    "pos2_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_pos2_mind",
+        "badge_pos2_cope"
+      ]
+    },
+    "badge_pos2_mind": {
+      "type": "Badge",
+      "props": {
+        "text": "mindshare 4 ↓↓"
+      }
+    },
+    "badge_pos2_cope": {
+      "type": "Badge",
+      "props": {
+        "text": "Cope",
+        "variant": "secondary"
+      }
+    },
+    "pos2_thesis": {
+      "type": "Text",
+      "props": {
+        "text": "'privacy is normal' bulls (Multicoin, Grayscale filings) holding through counterfeit-coin bug"
+      }
+    },
+    "pos2_detail": {
+      "type": "Text",
+      "props": {
+        "text": "Trust broken near-term; structural bid only much lower.",
+        "variant": "caption"
+      }
+    },
+    "pos_ride_ai": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos3_title",
+        "pos3_badges",
+        "pos3_tokens",
+        "pos3_thesis",
+        "pos3_detail"
+      ]
+    },
+    "pos3_title": {
+      "type": "Heading",
+      "props": {
+        "text": "RIDE: AI infrastructure",
+        "level": "h3"
+      }
+    },
+    "pos3_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_pos3_mind",
+        "badge_pos3_mixed"
+      ]
+    },
+    "badge_pos3_mind": {
+      "type": "Badge",
+      "props": {
+        "text": "mindshare 4 →"
+      }
+    },
+    "badge_pos3_mixed": {
+      "type": "Badge",
+      "props": {
+        "text": "Mixed",
+        "variant": "secondary"
+      }
+    },
+    "pos3_tokens": {
+      "type": "Text",
+      "props": {
+        "text": "TAO / RENDER / AKT / FET",
+        "variant": "muted"
+      }
+    },
+    "pos3_thesis": {
+      "type": "Text",
+      "props": {
+        "text": "Capital rotating out of agent-meme speculation into real compute/data demand"
+      }
+    },
+    "pos3_detail": {
+      "type": "Text",
+      "props": {
+        "text": "Bear case: still crypto-beta, bleeds with BTC.",
+        "variant": "caption"
+      }
+    },
+    "pos_watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos4_title",
+        "pos4_badges",
+        "pos4_thesis",
+        "pos4_detail"
+      ]
+    },
+    "pos4_title": {
+      "type": "Heading",
+      "props": {
+        "text": "WATCH: Prediction / Attention markets",
+        "level": "h3"
+      }
+    },
+    "pos4_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_pos4_mind",
+        "badge_pos4_bull"
+      ]
+    },
+    "badge_pos4_mind": {
+      "type": "Badge",
+      "props": {
+        "text": "mindshare 3 ↑"
+      }
+    },
+    "badge_pos4_bull": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "default"
+      }
+    },
+    "pos4_thesis": {
+      "type": "Text",
+      "props": {
+        "text": "Polymarket + Kaito Attention Markets scaling to thousands"
+      }
+    },
+    "pos4_detail": {
+      "type": "Text",
+      "props": {
+        "text": "Structurally real, no clean token vehicle yet.",
+        "variant": "caption"
+      }
+    },
+    "pos_ignore": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos5_title",
+        "pos5_note",
+        "pos5_detail"
+      ]
+    },
+    "pos5_title": {
+      "type": "Heading",
+      "props": {
+        "text": "IGNORE: pure AI-agent memes",
+        "level": "h3"
+      }
+    },
+    "pos5_note": {
+      "type": "Text",
+      "props": {
+        "text": "VIRTUAL-style"
+      }
+    },
+    "pos5_detail": {
+      "type": "Text",
+      "props": {
+        "text": "No catalyst; the rotation is leaving them.",
+        "variant": "caption"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section_map": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h_map",
+        "map_emerging",
+        "map_rising",
+        "map_peak",
+        "map_fading"
+      ]
+    },
+    "h_map": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP (baseline)",
+        "level": "h2"
+      }
+    },
+    "map_emerging": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "label_emerging",
+        "value_emerging"
+      ]
+    },
+    "label_emerging": {
+      "type": "Text",
+      "props": {
+        "text": "Emerging:",
+        "variant": "lead"
+      }
+    },
+    "value_emerging": {
+      "type": "Text",
+      "props": {
+        "text": "—",
+        "variant": "muted"
+      }
+    },
+    "map_rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "label_rising",
+        "value_rising"
+      ]
+    },
+    "label_rising": {
+      "type": "Text",
+      "props": {
+        "text": "Rising:",
+        "variant": "lead"
+      }
+    },
+    "value_rising": {
+      "type": "Text",
+      "props": {
+        "text": "Prediction/Attention markets, Macro risk-off (AI-stock/IPO capital drain, geopolitics)"
+      }
+    },
+    "map_peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "label_peak",
+        "value_peak"
+      ]
+    },
+    "label_peak": {
+      "type": "Text",
+      "props": {
+        "text": "Peak:",
+        "variant": "lead"
+      }
+    },
+    "value_peak": {
+      "type": "Text",
+      "props": {
+        "text": "BTC ETF-exodus crash, AI infrastructure rotation"
+      }
+    },
+    "map_fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "label_fading",
+        "value_fading"
+      ]
+    },
+    "label_fading": {
+      "type": "Text",
+      "props": {
+        "text": "Fading:",
+        "variant": "lead"
+      }
+    },
+    "value_fading": {
+      "type": "Text",
+      "props": {
+        "text": "Privacy/ZEC (Orchard bug)"
+      }
+    }
+  }
+}
