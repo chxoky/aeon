@@ -1,0 +1,41 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_source",
+        "message_tweet"
+      ]
+    },
+    "badge_source": {
+      "type": "Badge",
+      "props": {
+        "text": "💬 DC: crypto_chase — member chat",
+        "variant": "secondary"
+      }
+    },
+    "message_tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Discord Member",
+        "handle": "crypto_chase",
+        "text": "my recommendation at the moment is to probably give it until maybe even tomorrow and see if these moves are genuine or not"
+      }
+    }
+  }
+}
