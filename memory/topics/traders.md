@@ -3,7 +3,8 @@
 > Rebuilt by `trader-bootstrap` on 2026-06-08 (force re-run, 3-day lookback, 2026-06-05 → 2026-06-08).
 > X cache was empty at bootstrap (`TRADER_BOOTSTRAP_X_EMPTY`) — the 9 X-only accounts
 > below have no recorded state yet and will be populated by `x-trader-monitor`.
-> The 3 Discord-tracked traders have full state from 331 Discord messages.
+> The 3 Discord-tracked traders have full state from 333 Discord messages.
+> Verified intact against the same cache on a subsequent force re-run (2026-06-08); no state changes.
 
 ## Crypto_Chase
 - Platforms: X + Discord (primary: 1336082716063694962; Q&A: 1343971265962049597, 1247927786681794601)

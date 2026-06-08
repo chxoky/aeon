@@ -1,0 +1,237 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Trader Bootstrap Complete — 3-day lookback"
+      },
+      "children": [
+        "text-daterange",
+        "separator-1",
+        "heading-overview",
+        "text-x-history",
+        "text-discord-baseline",
+        "separator-2",
+        "heading-positions",
+        "stack-positions",
+        "separator-3",
+        "heading-overlap",
+        "stack-overlap",
+        "separator-4",
+        "heading-theses",
+        "stack-theses"
+      ]
+    },
+    "text-daterange": {
+      "type": "Text",
+      "props": {
+        "text": "(2026-06-05 → 2026-06-08)",
+        "variant": "caption"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-overview": {
+      "type": "Heading",
+      "props": {
+        "text": "Overview",
+        "level": "h3"
+      }
+    },
+    "text-x-history": {
+      "type": "Text",
+      "props": {
+        "text": "X history was empty this run, so this baseline is from Discord only (333 messages across Crypto_Chase, HeartCanHodl, KillaXBT)."
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-positions": {
+      "type": "Heading",
+      "props": {
+        "text": "Currently Live Setups/Positions",
+        "level": "h3"
+      }
+    },
+    "stack-positions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-crypto-chase",
+        "text-killa-xbt",
+        "text-heartcanhodl"
+      ]
+    },
+    "text-crypto-chase": {
+      "type": "Text",
+      "props": {
+        "text": "Crypto_Chase: GOLD long (spot) still open, stop not yet hit. HYPE now FLAT (long stopped -1.5R, re-bids cancelled); NVDA cut for minor profit."
+      }
+    },
+    "text-killa-xbt": {
+      "type": "Text",
+      "props": {
+        "text": "KillaXBT: BTC low-leverage swing long (carried; only a stream-pointer update in-window)."
+      }
+    },
+    "text-heartcanhodl": {
+      "type": "Text",
+      "props": {
+        "text": "HeartCanHodl (hedged book): BTC/ETH/SOL spot longs hedged ~2x short around 63–64k; shorts on ZEC (sizeable, rebalanced ~405), VVV (3x, ~15.8), LAB (~$13), HYPE (2x), WLD."
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-overlap": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Overlap Tickers",
+        "level": "h3"
+      }
+    },
+    "stack-overlap": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item-hype",
+        "item-btc",
+        "item-zec"
+      ]
+    },
+    "item-hype": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-hype",
+        "text-hype-detail"
+      ]
+    },
+    "badge-hype": {
+      "type": "Badge",
+      "props": {
+        "text": "HYPE",
+        "variant": "secondary"
+      }
+    },
+    "text-hype-detail": {
+      "type": "Text",
+      "props": {
+        "text": "CONTESTED (Chase flat w/ bullish bias vs HCH short)"
+      }
+    },
+    "item-btc": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-btc",
+        "text-btc-detail"
+      ]
+    },
+    "badge-btc": {
+      "type": "Badge",
+      "props": {
+        "text": "BTC",
+        "variant": "outline"
+      }
+    },
+    "text-btc-detail": {
+      "type": "Text",
+      "props": {
+        "text": "MIXED (Killa long, HCH hedged/defensive, Chase cautious; 63k the key line)"
+      }
+    },
+    "item-zec": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-zec",
+        "text-zec-detail"
+      ]
+    },
+    "badge-zec": {
+      "type": "Badge",
+      "props": {
+        "text": "ZEC",
+        "variant": "destructive"
+      }
+    },
+    "text-zec-detail": {
+      "type": "Text",
+      "props": {
+        "text": "BEARISH (Chase dodged/avoids, HCH short)"
+      }
+    },
+    "separator-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-theses": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable Theses",
+        "level": "h3"
+      }
+    },
+    "stack-theses": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-chase-thesis",
+        "text-hch-thesis",
+        "text-monitor-thesis"
+      ]
+    },
+    "text-chase-thesis": {
+      "type": "Text",
+      "props": {
+        "text": "Chase turned cautious on crypto — BTC broke the weekly 200 EMA, leans more downside, rotating toward trad (INTC, MU, silver, SPY on a pullback)."
+      }
+    },
+    "text-hch-thesis": {
+      "type": "Text",
+      "props": {
+        "text": "HeartCanHodl defensive/hedged: above 63k = support, below = riskier; watching what Saylor did for direction."
+      }
+    },
+    "text-monitor-thesis": {
+      "type": "Text",
+      "props": {
+        "text": "Real-time monitoring is now active — you'll hear about new developments as they happen."
+      }
+    }
+  }
+}
