@@ -1,0 +1,41 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "message_card",
+        "chart_link"
+      ]
+    },
+    "message_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "crypto_chase",
+        "handle": "member chat",
+        "text": "Nothing quite like a flat candle low, nothing odd about that at all lol"
+      }
+    },
+    "chart_link": {
+      "type": "Link",
+      "props": {
+        "label": "📸 Chart",
+        "href": "https://cdn.discordapp.com/attachments/1247927786681794601/1513539097891700736/image.png"
+      }
+    }
+  }
+}

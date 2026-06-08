@@ -1,12 +1,5 @@
-🚨 *Trade Signal — [DC: heartcanhodl]*
+💬 *[DC: crypto_chase — member chat]*
 
-↩️ _Rebalance context: "Rebalance 2-2% zec and vvv short"_
+Nothing quite like a flat candle low, nothing odd about that at all lol
 
-**Add 2% back to vvv** — conviction-add on existing 3x short (part of broader bearish short basket from 06-08T09:47Z hunt). VVV noted as crowded, good R:R downside play.
-
-_via Discord — primary channel (1279738718680256553)_
-💬 *[DC: crypto_chase — supporting Q&A]*
-
-Just for future reference of what will likely perform best if equities do pull back and some bids fill
-
-📊 [Reference chart provided — equity pullback scenario analysis]
+📸 Chart: https://cdn.discordapp.com/attachments/1247927786681794601/1513539097891700736/image.png
