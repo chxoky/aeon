@@ -1,22 +1,23 @@
-Heartbeat complete.
-
-`HEARTBEAT_OK · STATUS_PAGE=WATCH` — no new notification sent (deduped).
+Heartbeat complete. Here's the rundown:
 
 ## Summary
 
-Ran the heartbeat checks for the 20:00 UTC slot (2026-06-08).
+Ran all heartbeat priority checks against `memory/cron-state.json`, `aeon.yml`, GitHub, and memory.
 
-**Findings by priority:**
-- **P0 (failed/stuck/degraded skills):** All green. Every `cron-state.json` entry is `success` with `consecutive_failures: 0`. No stuck dispatches, no API degradation, no chronic failures. Trader stack healthy (x-trader-monitor 20:10, discord-trader-monitor 20:07).
-- **P1 (PRs/issues):** No open PRs; repo issues disabled.
-- **P2 (memory):** Nothing flagged for follow-up.
-- **P3 (missing scheduled skills):** ⚠️ Still firing — morning-brief, token-alert, token-movers, and now skill-health passed their schedules with no recorded run (standard GH Actions scheduler not dispatching the non-trader fleet). **Deduped** — this item was already notified at 15:02 today, so no new notification per the 48h rule. Partial recovery: market-context-refresh and narrative-tracker, flagged at 15:02, have since recorded successful runs.
-- **Self-check:** Heartbeat's own last success was ~5h ago — healthy.
+**Findings:**
+- 🟢 **P0 (failed/stuck/degraded):** Clean. All 9 tracked skills `last_status=success`; nothing stuck; no skill with `consecutive_failures ≥ 3`; no chronic failures (price-threshold-alert is 50% but only 2 runs, under the ≥5 threshold). Heartbeat self-check fresh.
+- 🟢 **P1 (PRs/issues):** 0 open PRs. Issues are disabled on this fork, so the issue check is skipped.
+- 🟢 **P2 (memory flags):** None — MEMORY.md shows "Open Calibration Items: None."
+- 🟡 **P3 (missing scheduled):** Four enabled daily skills have **no cron-state entry and no `.outputs/`** — never dispatched: `morning-brief` (07:00), `token-alert` (12:00), `token-movers` (12:00), `skill-health` (18:00). Their next fire is tomorrow.
 
-**Overall status:** 🟡 WATCH (P3 flag).
+**Notification:** **Skipped (dedup).** The identical P3 gap was already surfaced by the 20:13 UTC heartbeat on the status page — nothing changed and the next runs are tomorrow, so per the dedup rule I did not re-notify.
+
+**Status page:** Regenerated `docs/status.md` (always runs) — **🟡 WATCH**, timestamp 23:44 UTC, added the `chart-request` row, refreshed trader-stack run times (x-trader 23:18, discord 23:01), and updated the WATCH banner. No token pulse section (no `articles/token-report-*.md` exists).
 
 **Files modified:**
-- `docs/status.md` — regenerated (Overall WATCH, 0 open issues, next run morning-brief 07:00 UTC, Token pulse omitted — no token-report article exists)
-- `memory/logs/2026-06-08.md` — appended the heartbeat run log
+- `docs/status.md` — regenerated (auto-committed to `main` by the workflow)
+- `memory/logs/2026-06-08.md` — appended heartbeat run entry
 
-**Follow-up needed:** The recurring P3 — the standard GitHub Actions scheduler appears not to be dispatching the non-trader fleet (morning-brief, token-alert, token-movers, skill-health). Only the Cloudflare-Worker-driven trader skills (plus the manually-run market-context-refresh/narrative-tracker) are recording state. Worth an operator look at the scheduler workflow if it persists tomorrow.
+**Follow-up:** Verify the scheduler actually dispatches `morning-brief`, `token-alert`, `token-movers`, and `skill-health` on tomorrow's cycle — if they're still absent after their fire times, that's a real scheduler gap worth a notification then.
+
+`HEARTBEAT_OK · STATUS_PAGE=WATCH` (no new alert — deduped)
