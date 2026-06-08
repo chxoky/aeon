@@ -1,0 +1,64 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "member_question",
+        "context_badge",
+        "response_para1",
+        "response_para2",
+        "chart_link"
+      ]
+    },
+    "member_question": {
+      "type": "Text",
+      "props": {
+        "text": "↩️ Member: \"but it's below support now, no?\"",
+        "variant": "body"
+      }
+    },
+    "context_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "💬 DC: crypto_chase — member chat",
+        "variant": "secondary"
+      }
+    },
+    "response_para1": {
+      "type": "Text",
+      "props": {
+        "text": "I believe the draw on liquidity for ES is at least the equal lows, if not lower, like 7250 as discussed in the stream. With that said, I don't really short SPX unless it's like an A-plus tier setup.",
+        "variant": "body"
+      }
+    },
+    "response_para2": {
+      "type": "Text",
+      "props": {
+        "text": "I'm more than happy with SPX crashing without me because even without me it still means that I'm going to get better entries on equities.",
+        "variant": "body"
+      }
+    },
+    "chart_link": {
+      "type": "Link",
+      "props": {
+        "label": "📎 View Chart",
+        "href": "https://cdn.discordapp.com/attachments/1343971265962049597/1513638073139859506/image.png"
+      }
+    }
+  }
+}
