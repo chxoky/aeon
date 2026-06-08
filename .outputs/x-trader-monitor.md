@@ -1,4 +1,4 @@
-⚠️ **x-trader-monitor Worker Alert**
+## Summary
 
 Received event from username 'unknown' (tweet ID 2064072748901773636), which does NOT match any of the 12 watched traders. Event was skipped without alerting.
 
@@ -20,3 +20,4 @@ I've executed the x-trader-monitor skill with the provided variable. Here's what
 6. ✅ Marked tweet ID as seen to prevent reprocessing
 
 **Result**: Event logged but not alerted. The skill completed successfully with no action required.
+Executed the x-trader-monitor skill per the Worker webhook delivery. The event decoded successfully but was already processed earlier today (Tweet ID: 2064072748901773636). Per the skill's Step 8 dedup gate, I stopped immediately without re-alerting. The original sighting was flagged as a worker misconfiguration since the username "unknown" is not in the watched trader list. Logged as a redelivery/duplicate in memory.
