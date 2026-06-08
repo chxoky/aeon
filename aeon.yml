@@ -100,6 +100,7 @@ skills:
   # --- Custom: trading monitors ---
   x-trader-monitor: { enabled: false, schedule: "*/15 * * * *", model: "claude-haiku-4-5-20251001" }
   discord-trader-monitor: { enabled: false, schedule: "*/15 * * * *", model: "claude-haiku-4-5-20251001" }
+  chart-request: { enabled: true, schedule: "* * * * *", model: "claude-haiku-4-5-20251001" } # every minute — poll Telegram for chart $TICKER commands, render candlestick PNG and reply in-thread
 
   # --- X / social (5 PM UTC) ---
   fetch-tweets: { enabled: false, schedule: "0 17 * * *" }
