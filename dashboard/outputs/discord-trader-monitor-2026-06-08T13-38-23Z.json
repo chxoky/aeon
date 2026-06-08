@@ -1,0 +1,105 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Trade Signal — DC: heartcanhodl"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stack-rebalance",
+        "separator-1",
+        "stack-action",
+        "separator-2",
+        "text-source"
+      ]
+    },
+    "stack-rebalance": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-rebalance-label",
+        "text-rebalance-value"
+      ]
+    },
+    "text-rebalance-label": {
+      "type": "Text",
+      "props": {
+        "text": "Rebalance context:",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "text-rebalance-value": {
+      "type": "Text",
+      "props": {
+        "text": "Rebalance 2-2% zec and vvv short",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack-action": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-action",
+        "text-action-detail"
+      ]
+    },
+    "heading-action": {
+      "type": "Heading",
+      "props": {
+        "text": "Add 2% back to vvv",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text-action-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Conviction-add on existing 3x short (part of broader bearish short basket from 06-08T09:47Z hunt). VVV noted as crowded, good R:R downside play.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text-source": {
+      "type": "Text",
+      "props": {
+        "text": "via Discord — primary channel (1279738718680256553)",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}

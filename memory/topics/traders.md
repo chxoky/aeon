@@ -29,17 +29,17 @@
 
 ## HeartCanHodl
 - Platforms: X + Discord (free/public: 1472153627324842057; primary/most-important: 1279738718680256553; premium chat: 1023638573313966212)
-- Current open positions (as of 2026-06-08T12:06Z) — runs a HEDGED book:
+- Current open positions (as of 2026-06-08T13:33Z) — runs a HEDGED book:
   - BTC / ETH / SOL — spot longs, hedged 2x short around 63–64k. Net cautious; 63k = key line (above = support, below = "much riskier territory").
   - ZEC — short (large), large conviction. Target "eventually" 320/<190. Trust broken, exploit dump risk.
-  - VVV — short, 3x, good R:R play to downside, crowded.
+  - VVV — short, 3x, good R:R play to downside, crowded. **+2% add 06-08T13:33Z** (conviction-add on existing position, part of rebalance with ZEC).
   - LAB — short, ~1x, half of the book. Capped upside, part of bearish-alt basket.
-  - HYPE — short, 2x (added 06-07, re-added 06-08T06:59Z). Most crowded CT long leg, death-spiral potential with dex-cex-tradfi competition.
+  - HYPE — short, 2x (added 06-07, re-added 06-08T06:59Z, +2% 06-08T10:46Z). Most crowded CT long leg, death-spiral potential with dex-cex-tradfi competition.
   - WLD — short (part of the short basket).
 - Recent thesis/posture: **2026-06-08T09:47Z major update** — "hunting for ltf weakness and building shorts" (primary conviction post). BTC <63k favorable, <60k = freefall. Risk: strong support over 63k = reversal signal. Post-run consolidation risk; ETF flows + Saylor announcement reaction = key signal. Zec & Lab "destined lower" — won't care about macro noise. Terse shorthand — "fc {ticker} {tf}" = forecast/chart, "BE" = breakeven.
   - **2026-06-08T10:18Z update** — Downside estimate: BTC $57-52k, ETH $1450-1360, SOL $56-52, HYPE $55-50, ZEC $350-320. Follows 09:47Z conviction post; reinforces bearish shorts thesis with explicit targets. Alert: informational.
 - Conviction notes: Very high conviction on short basket per latest signal (06-08T09:47Z). Downside targets reaffirm bias (06-08T10:18Z). Multiple tickers with specific R:R analysis. Watching Saylor/ETF flows for directional confirmation. **2026-06-08T12:06Z: Institutional signal** — reported large strategy purchase: 1,550 BTC ($101.3M) at $65,332 average. Reference: SEC filing. Suggests institutional bullish pressure; contrast with his bearish short thesis may signal tactical divergence watch.
-- Last seen: 2026-06-08T12:06Z (Discord primary — institutional BTC purchase signal, alerted)
+- Last seen: 2026-06-08T13:33Z (Discord primary — conviction-add +2% VVV short, alerted)
 
 ---
 

@@ -1,19 +1,7 @@
-## Summary
+🚨 *Trade Signal — [DC: heartcanhodl]*
 
-Executed discord-trader-monitor skill with the provided Discord message event.
+↩️ _Rebalance context: "Rebalance 2-2% zec and vvv short"_
 
-**Event processed:**
-- **Message ID:** 1513534673018425425
-- **Trader:** Crypto_Chase
-- **Channel:** 1247927786681794601 (supporting/member Q&A)
-- **Content:** "Yep, let's pile on all the news in one day"
-- **Timestamp:** 2026-06-08T13:26:26Z
+**Add 2% back to vvv** — conviction-add on existing 3x short (part of broader bearish short basket from 06-08T09:47Z hunt). VVV noted as crowded, good R:R downside play.
 
-**Classification:** Non-financial banter (skip per Step 5-A)
-- This is motivational fluff with no trade signal, position change, or market conviction
-- Supporting channel message, no standalone value
-- No alert sent
-
-**Updates made:**
-- Added message ID to `memory/discord-trader-seen.txt` (535 unique IDs now tracked)
-- Appended skip entry to `memory/logs/2026-06-08.md`
+_via Discord — primary channel (1279738718680256553)_
