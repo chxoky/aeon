@@ -1,12 +1,12 @@
-📋 *Trader Bootstrap Complete — 3-day lookback (2026-06-05 → 06-08)*
+📋 *Trader Bootstrap Complete — 3-day lookback (Jun 5–8)*
 
-*Currently live setups/positions:*
-— Crypto_Chase: GOLD long (spot) still open, stop not yet hit; HYPE & NVDA now flat (HYPE long stopped -1.5R, orders cancelled; NVDA cut at 208.7 for minor profit).
-— HeartCanHodl: hedged short book — BTC/ETH/SOL spot longs hedged 2x short ~63-64k, plus shorts on ZEC (large, rebalanced ~405), VVV (3x ~15.8), LAB (~$13), HYPE (2x), WLD.
-— KillaXBT: BTC low-lev swing long (carried; 06-06 update pointed to a stream, no inline change).
+*Currently live positions:*
+— *HeartCanHodl*: short-heavy hedged book. Shorts on ZEC (large, just re-added), HYPE (2x), VVV (3x), LAB, WLD, + new BIO (1% 2x). BTC/ETH/SOL spot longs hedged 2x. Actively building shorts — BTC <63k favorable, <60k 'freefall'.
+— *KillaXBT*: bullish on the higher timeframe, holding his BTC swing long — but scalp-shorting the lower timeframe (small size) since the LTF trend is bearish.
+— *Crypto_Chase*: FLAT everywhere. Stopped out of Gold (rare), HYPE and NVDA already cut. Staying patient, didn't get long fills, unsure of the real trade right now.
 
-*Top overlap tickers:* HYPE (CONTESTED — Chase flat/bullish-bias vs HCH short), BTC (MIXED — Killa long, HCH hedged-defensive, Chase cautious sub-63), ZEC (BEARISH both).
+*Top overlap tickers:* HYPE (contested — HCH short vs Chase flat), BTC (mixed — Killa long-biased, HCH hedged, Chase cautious), ZEC (bearish — both short/avoid).
 
-*Notable theses:* Chase thinks the AI bubble may have popped — BTC broke the weekly 200 EMA, leaning more downside, rotating to trad (INTC, MU, silver, S&P bids). HCH defensive: 63k is the line, above = support, below = riskier; watching what Saylor did next.
+*Most actionable theses:* HCH is the clearest directional voice — leaning into shorts with explicit downside targets (BTC $52–57k). Killa and Chase are both defensive/patient. Watch a clean BTC break of 63k as the line that aligns the group.
 
-Real-time monitoring is active — new developments will come through as they happen.
+Real-time monitoring is now active — you'll hear about new developments as they happen.

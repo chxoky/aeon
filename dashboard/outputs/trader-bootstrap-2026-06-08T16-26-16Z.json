@@ -1,0 +1,301 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Trader Bootstrap",
+        "description": "3-day lookback (Jun 5–8)"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "heading-positions",
+        "positions-stack",
+        "sep1",
+        "heading-overlap",
+        "overlap-stack",
+        "sep2",
+        "heading-theses",
+        "theses-stack",
+        "sep3",
+        "monitoring-alert"
+      ]
+    },
+    "heading-positions": {
+      "type": "Heading",
+      "props": {
+        "text": "Currently Live Positions",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "positions-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "pos-hch",
+        "pos-killa",
+        "pos-chase"
+      ]
+    },
+    "pos-hch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-hch",
+        "text-hch"
+      ]
+    },
+    "badge-hch": {
+      "type": "Badge",
+      "props": {
+        "text": "HeartCanHodl",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "text-hch": {
+      "type": "Text",
+      "props": {
+        "text": "Short-heavy hedged book. Shorts on ZEC (large, just re-added), HYPE (2x), VVV (3x), LAB, WLD, + new BIO (1% 2x). BTC/ETH/SOL spot longs hedged 2x. Actively building shorts — BTC <63k favorable, <60k 'freefall'.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "pos-killa": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-killa",
+        "text-killa"
+      ]
+    },
+    "badge-killa": {
+      "type": "Badge",
+      "props": {
+        "text": "KillaXBT",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "text-killa": {
+      "type": "Text",
+      "props": {
+        "text": "Bullish on the higher timeframe, holding his BTC swing long — but scalp-shorting the lower timeframe (small size) since the LTF trend is bearish.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "pos-chase": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-chase",
+        "text-chase"
+      ]
+    },
+    "badge-chase": {
+      "type": "Badge",
+      "props": {
+        "text": "Crypto_Chase",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "text-chase": {
+      "type": "Text",
+      "props": {
+        "text": "FLAT everywhere. Stopped out of Gold (rare), HYPE and NVDA already cut. Staying patient, didn't get long fills, unsure of the real trade right now.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading-overlap": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Overlap Tickers",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "overlap-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "overlap-hype",
+        "overlap-btc",
+        "overlap-zec"
+      ]
+    },
+    "overlap-hype": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-hype",
+        "text-hype"
+      ]
+    },
+    "badge-hype": {
+      "type": "Badge",
+      "props": {
+        "text": "HYPE",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "text-hype": {
+      "type": "Text",
+      "props": {
+        "text": "Contested — HCH short vs Chase flat",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "overlap-btc": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-btc",
+        "text-btc"
+      ]
+    },
+    "badge-btc": {
+      "type": "Badge",
+      "props": {
+        "text": "BTC",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "text-btc": {
+      "type": "Text",
+      "props": {
+        "text": "Mixed — Killa long-biased, HCH hedged, Chase cautious",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "overlap-zec": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-zec",
+        "text-zec"
+      ]
+    },
+    "badge-zec": {
+      "type": "Badge",
+      "props": {
+        "text": "ZEC",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "text-zec": {
+      "type": "Text",
+      "props": {
+        "text": "Bearish — both short/avoid",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading-theses": {
+      "type": "Heading",
+      "props": {
+        "text": "Most Actionable Theses",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "theses-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "theses-hch",
+        "theses-watch"
+      ]
+    },
+    "theses-hch": {
+      "type": "Text",
+      "props": {
+        "text": "HCH is the clearest directional voice — leaning into shorts with explicit downside targets (BTC $52–57k).",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "theses-watch": {
+      "type": "Text",
+      "props": {
+        "text": "Killa and Chase are both defensive/patient. Watch a clean BTC break of 63k as the line that aligns the group.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "monitoring-alert": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "Real-time monitoring is now active — you'll hear about new developments as they happen."
+      },
+      "children": []
+    }
+  }
+}
