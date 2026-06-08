@@ -41,7 +41,7 @@ Read `memory/discord-channels.json` to map `channel_id` → `{ trader, type: "pr
 
 **Heading label (hardcoded):** Also read `channel_labels[channel_id]` from that same file. Use this label — not the trader handle — in every alert heading. This gives Kyle channel-specific context at a glance. Format: `*[DC: {label}]*` (bold in Telegram Markdown v1).
 
-**Verbatim rule (hardcoded):** For channel `1279738718680256553` (HCH — Trades), always send HCH's message exactly as written — no rewording, no summarizing, no interpretation added inline. Quote the raw text. Any interpretation goes in `traders.md` only.
+**Verbatim rule (hardcoded):** For channel `1279738718680256553` (HCH — Trades), the alert body must be HCH's exact message text, unchanged. If he says "1% wld short", send "1% wld short" — do not rephrase, expand, or add inline commentary. Classification and interpretation still happen (for memory/routing), but they go to `traders.md` only, never into the Telegram message body.
 
 Confirm `username` matches the trader's known Discord username for that channel (case-insensitive). If it doesn't — this is a member message that only exists to provide reply-context for a trader's reply elsewhere; do not alert on it standalone, skip.
 
