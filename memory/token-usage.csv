@@ -49,9 +49,10 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-06-08,x-trader-monitor,claude-haiku-4-5-20251001,164,3532,219556,45695
 2026-06-08,x-trader-monitor,claude-haiku-4-5-20251001,114,7004,699904,41342
 2026-06-08,x-trader-monitor,claude-haiku-4-5-20251001,65,3010,293770,35400
-2026-06-08,x-trader-monitor,claude-haiku-4-5-20251001,79,3482,389282,37195
-2026-06-08,x-trader-monitor,claude-haiku-4-5-20251001,58,3029,253545,19328
-2026-06-08,x-trader-monitor,claude-haiku-4-5-20251001,65,22868,349502,68703
-2026-06-08,discord-trader-monitor,claude-haiku-4-5-20251001,191,9320,1318769,42062
-2026-06-08,x-trader-monitor,claude-haiku-4-5-20251001,2352,7957,863485,60358
-2026-06-08,x-trader-monitor,claude-haiku-4-5-20251001,51,3660,274994,52829
+2026-06-08,x-trader-monitor,claude-haiku-4-5-20251001,58,3170,271821,38337
+2026-06-08,x-trader-monitor,claude-haiku-4-5-20251001,86,4456,406600,38203
+2026-06-08,heartbeat,claude-opus-4-8,2225,10774,569676,45265
+2026-06-08,discord-trader-monitor,claude-haiku-4-5-20251001,114,15807,767745,70853
+2026-06-08,x-trader-monitor,claude-haiku-4-5-20251001,128,28484,963213,78640
+2026-06-08,x-trader-monitor,claude-haiku-4-5-20251001,72,5096,362972,54137
+2026-06-08,x-trader-monitor,claude-haiku-4-5-20251001,86,4033,510326,50099
