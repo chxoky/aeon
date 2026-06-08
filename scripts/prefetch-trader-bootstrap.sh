@@ -54,12 +54,23 @@ for handle in "${ACCOUNTS[@]}"; do
     [ -n "$cursor" ] && URL="${URL}&cursor=${cursor}"
 
     RESP=$(curl -s -H "x-api-key: ${TWITTERAPI_IO_KEY}" "$URL" || echo "")
-    [ -z "$RESP" ] && break
+    if [ -z "$RESP" ]; then
+      echo "  WARN: empty response for @${handle} (curl failed or timeout)"
+      break
+    fi
 
     # Check for API error response (auth failure, invalid key, etc.)
-    API_ERR=$(echo "$RESP" | jq -r 'if (.error // .message // "") | test("error|unauthorized|invalid|forbidden|Unauthorized"; "i") then (.error // .message // "unknown error") else "" end' 2>/dev/null || true)
+    API_ERR=$(echo "$RESP" | jq -r 'if (.error // .message // "") | test("error|unauthorized|invalid|forbidden"; "i") then (.error // .message // "unknown error") else "" end' 2>/dev/null || true)
     if [ -n "$API_ERR" ]; then
-      echo "  API ERROR for @${handle}: $API_ERR (raw: $(echo "$RESP" | head -c 200))"
+      echo "  API ERROR for @${handle}: $API_ERR"
+      echo "  RAW: $(echo "$RESP" | head -c 300)"
+      break
+    fi
+
+    # If no tweets field at all, print raw response for debugging
+    HAS_TWEETS=$(echo "$RESP" | jq 'has("tweets")' 2>/dev/null || echo "false")
+    if [ "$HAS_TWEETS" = "false" ]; then
+      echo "  UNEXPECTED RESPONSE for @${handle}: $(echo "$RESP" | head -c 300)"
       break
     fi
 
