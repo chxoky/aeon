@@ -10,3 +10,7 @@ crons = ["* * * * *"]
 [[kv_namespaces]]
 binding = "BOT_STATE"
 id = "991599d862df48a2a5e61c8161f83195"
+
+[observability.logs]
+enabled = true
+invocation_logs = true
