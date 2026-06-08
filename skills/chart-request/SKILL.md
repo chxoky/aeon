@@ -51,7 +51,7 @@ Note: yfinance has no 4h interval — use 1h data and let the chart show 1h cand
 
 ## Step 3 — Validate and write job specs
 
-For each valid request, create a JSON file at `.pending-chart-request/chart-{message_id}.json`:
+For each valid request, create a JSON file at `.pending-chart-request/chart-{message_id}.json`. If `message_id` is null or None, use a Unix timestamp instead (e.g. `chart-1749425000.json`) so filenames are always unique and the dedup skip never prevents rendering:
 
 ```json
 {
