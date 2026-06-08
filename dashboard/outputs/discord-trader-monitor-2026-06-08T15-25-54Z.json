@@ -1,0 +1,168 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Trade Signal — heartcanhodl",
+        "description": "🚨 HYPE Short Position Update"
+      },
+      "children": [
+        "action-section",
+        "sep1",
+        "position-section",
+        "sep2",
+        "conviction-section",
+        "sep3",
+        "targets-section",
+        "sep4",
+        "risk-section"
+      ]
+    },
+    "action-section": {
+      "type": "Text",
+      "props": {
+        "text": "Adding 2% to HYPE short",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "position-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "position-heading",
+        "position-details",
+        "source-text"
+      ]
+    },
+    "position-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Position Details",
+        "level": "h3"
+      }
+    },
+    "position-details": {
+      "type": "Text",
+      "props": {
+        "text": "Existing 2x short with prior +2% adds on 06-08T06:59Z, 06-08T10:46Z"
+      }
+    },
+    "source-text": {
+      "type": "Text",
+      "props": {
+        "text": "via Discord — primary (1279738718680256553)",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "conviction-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "conviction-heading",
+        "conviction-badge",
+        "conviction-thesis"
+      ]
+    },
+    "conviction-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Conviction",
+        "level": "h3"
+      }
+    },
+    "conviction-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "High",
+        "variant": "default"
+      }
+    },
+    "conviction-thesis": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE position is HCH's core bearish thesis entry. Referenced as \"most crowded CT long leg, death-spiral potential with dex-cex-tradfi competition.\""
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "targets-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "targets-heading",
+        "targets-value"
+      ]
+    },
+    "targets-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Targets (per 06-08T10:18Z)",
+        "level": "h3"
+      }
+    },
+    "targets-value": {
+      "type": "Text",
+      "props": {
+        "text": "$55–$50 downside range"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "risk-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "risk-heading",
+        "risk-alert"
+      ]
+    },
+    "risk-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Risk Context",
+        "level": "h3"
+      }
+    },
+    "risk-alert": {
+      "type": "Alert",
+      "props": {
+        "message": "BTC <63k favorable; >63k = potential reversal signal on his broader short basket",
+        "type": "warning"
+      }
+    }
+  }
+}
