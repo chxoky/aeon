@@ -55,53 +55,37 @@ else
     # Step 1: resolve username → user ID
     USER_RESP=$(curl -s \
       -H "Authorization: Bearer ${X_BEARER_TOKEN}" \
-      "https://api.twitter.com/2/users/by/username/${handle}") || { echo "  warning: curl failed for @${handle}"; continue; }
+      "https://api.twitter.com/2/users/by/username/${handle}") || { echo "  warning: curl failed for @${handle}"; sleep 1; continue; }
 
-    USER_ID=$(echo "$USER_RESP" | python3 -c "import json,sys; d=json.load(sys.stdin); print(d['data']['id'])" 2>/dev/null) || { echo "  warning: no user ID for @${handle}"; continue; }
+    USER_ID=$(echo "$USER_RESP" | jq -r '.data.id // empty' 2>/dev/null) || true
+    if [ -z "$USER_ID" ]; then
+      echo "  warning: no user ID for @${handle}"
+      sleep 1
+      continue
+    fi
 
     # Step 2: fetch up to 100 tweets since START_TIME (exclude retweets and replies)
     TWEETS_RESP=$(curl -s \
       -H "Authorization: Bearer ${X_BEARER_TOKEN}" \
-      "https://api.twitter.com/2/users/${USER_ID}/tweets?max_results=100&tweet.fields=created_at,text,attachments&exclude=retweets,replies&start_time=${START_TIME}") || { echo "  warning: tweets fetch failed for @${handle}"; continue; }
+      "https://api.twitter.com/2/users/${USER_ID}/tweets?max_results=100&tweet.fields=created_at,text&exclude=retweets,replies&start_time=${START_TIME}") || { echo "  warning: tweets fetch failed for @${handle}"; sleep 1; continue; }
 
-    ACCOUNT_TWEETS=$(echo "$TWEETS_RESP" | python3 -c "
-import json, sys
-username = '$handle'
-try:
-    data = json.load(sys.stdin)
-    tweets = data.get('data', [])
-    result = []
-    for t in tweets:
-        result.append({
-            'id': t['id'],
-            'username': username,
-            'text': t['text'],
-            'created_at': t.get('created_at', ''),
-            'url': f'https://x.com/{username}/status/{t[\"id\"]}',
-            'media': []
-        })
-    print(json.dumps(result))
-except Exception as e:
-    import sys as _sys; print(f'parse error: {e}', file=_sys.stderr)
-    print('[]')
-" 2>/dev/null) || ACCOUNT_TWEETS="[]"
+    # Normalize to {id, username, text, created_at, url, media}
+    PARSED=$(echo "$TWEETS_RESP" | jq -c --arg u "$handle" \
+      '[.data[]? | {id: .id, username: $u, text: .text, created_at: .created_at, url: ("https://x.com/" + $u + "/status/" + .id), media: []}]' \
+      2>/dev/null || echo "[]")
 
-    COUNT=$(echo "$ACCOUNT_TWEETS" | python3 -c "import json,sys; print(len(json.load(sys.stdin)))" 2>/dev/null || echo 0)
+    COUNT=$(echo "$PARSED" | jq 'length' 2>/dev/null || echo 0)
     echo "  @${handle}: ${COUNT} tweets"
 
-    X_RESULTS=$(python3 -c "
-import json, sys
-existing = json.loads('''$X_RESULTS''')
-new = json.loads('''$ACCOUNT_TWEETS''')
-print(json.dumps(existing + new))
-" 2>/dev/null || echo "$X_RESULTS")
+    # Merge using jq -s add (same pattern as Discord accumulation below)
+    X_RESULTS=$(echo "$X_RESULTS $PARSED" | jq -s 'add' 2>/dev/null || echo "$X_RESULTS")
 
     sleep 1  # gentle on rate limits across 12 accounts
   done
 
-  # Sort oldest → newest
-  echo "$X_RESULTS" | python3 -c "import json,sys; data=json.load(sys.stdin); data.sort(key=lambda x: x.get('created_at','')); print(json.dumps(data))" > .xai-cache/trader-bootstrap-x.json
-  echo "X cache written: $(echo "$X_RESULTS" | python3 -c "import json,sys; print(len(json.load(sys.stdin)))" 2>/dev/null || echo 0) tweets"
+  # Sort oldest → newest and write cache
+  echo "$X_RESULTS" | jq 'sort_by(.created_at)' > .xai-cache/trader-bootstrap-x.json
+  echo "X cache written: $(echo "$X_RESULTS" | jq 'length') tweets"
 fi
 
 # ── Discord REST ──────────────────────────────────────────────────────────────
