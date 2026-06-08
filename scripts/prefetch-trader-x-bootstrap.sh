@@ -1,0 +1,116 @@
+#!/usr/bin/env bash
+#
+# Prefetch — Trader X Bootstrap (X-only, 3-day lookback)
+#
+# Runs BEFORE Claude starts, with full env access. Fetches recent tweets
+# from twitterapi.io REST for all watched X accounts, writes a JSON cache
+# that the `trader-x-bootstrap` skill reads.
+#
+# twitterapi.io response shape:
+#   { "status": "success", "data": { "tweets": [...], "next_cursor": "..." } }
+# Tweets do NOT have a reliable createdAt string — we stop pagination by
+# snowflake ID (tweet IDs encode timestamp; lower ID = older tweet).
+#
+# Required env:
+#   TWITTERAPI_IO_KEY   — twitterapi.io API key
+#
+# Output:
+#   .xai-cache/trader-x-bootstrap.json  — array of tweets, newest first
+
+set -uo pipefail
+
+# Only run for trader-x-bootstrap skill (or if called directly)
+SKILL="${1:-}"
+if [ -n "$SKILL" ] && [ "$SKILL" != "trader-x-bootstrap" ]; then
+  exit 0
+fi
+
+mkdir -p .xai-cache
+
+WATCHED_X_ACCOUNTS="Bitcoin_Astro,abetrade,trading_axe,KillaXBT,Crypto_Chase,HeartCanHodl,t_in_crypto,ryzzqq,swarmister,bull_genius,Stoiiic,Wild_Randomness"
+
+# Cutoff: snowflake ID corresponding to ~3 days ago
+# Twitter snowflake: (timestamp_ms - 1288834974657) << 22
+# 3 days ago in ms: (now_ms - 259200000)
+# We compute this via bash arithmetic (no date dependency)
+NOW_S=$(date +%s)
+CUTOFF_MS=$(( (NOW_S - 259200) * 1000 ))
+CUTOFF_SNOWFLAKE=$(( (CUTOFF_MS - 1288834974657) * 4194304 ))
+
+echo "Fetching X history for: ${WATCHED_X_ACCOUNTS}"
+echo "Cutoff snowflake ID: ${CUTOFF_SNOWFLAKE} (~3 days ago)"
+
+X_RESULTS="[]"
+IFS=',' read -ra ACCOUNTS <<< "$WATCHED_X_ACCOUNTS"
+for handle in "${ACCOUNTS[@]}"; do
+  cursor=""
+  handle_tweets="[]"
+  pages=0
+
+  while [ $pages -lt 5 ]; do
+    URL="https://api.twitterapi.io/twitter/user/last_tweets?userName=${handle}"
+    [ -n "$cursor" ] && URL="${URL}&cursor=${cursor}"
+
+    RESP=$(curl -s --max-time 15 -H "x-api-key: ${TWITTERAPI_IO_KEY}" "$URL" || echo "")
+
+    if [ -z "$RESP" ]; then
+      echo "  WARN: empty response for @${handle} (curl timeout or network error)"
+      break
+    fi
+
+    # Check for API-level error
+    STATUS=$(echo "$RESP" | jq -r '.status // ""' 2>/dev/null || true)
+    if [ "$STATUS" != "success" ]; then
+      echo "  API ERROR for @${handle}: $(echo "$RESP" | jq -r '.msg // .message // .error // "unknown"' 2>/dev/null)"
+      echo "  RAW: $(echo "$RESP" | head -c 200)"
+      break
+    fi
+
+    # Extract tweets from correct path: .data.tweets[]
+    TWEET_COUNT=$(echo "$RESP" | jq '.data.tweets | length' 2>/dev/null || echo "0")
+    if [ "$TWEET_COUNT" = "0" ]; then
+      echo "  @${handle}: no tweets on page $((pages+1)), stopping"
+      break
+    fi
+
+    # Take tweets whose snowflake ID is above cutoff (i.e. newer than 3 days ago)
+    # Also normalize fields into our standard shape
+    PAGE_TWEETS=$(echo "$RESP" | jq -c --argjson cutoff "$CUTOFF_SNOWFLAKE" '[
+      .data.tweets[]? |
+      select((.id | tonumber) > $cutoff) |
+      {
+        id: .id,
+        username: .author.userName,
+        text: .text,
+        created_at: (.createdAt // .created_at // ""),
+        url: (.url // ("https://x.com/" + .author.userName + "/status/" + .id)),
+        media: ([.media[]?.media_url_https? // empty] // [])
+      }
+    ]' 2>/dev/null || echo "[]")
+
+    PAGE_COUNT=$(echo "$PAGE_TWEETS" | jq 'length' 2>/dev/null || echo "0")
+    handle_tweets=$(echo "$handle_tweets $PAGE_TWEETS" | jq -s 'add // []')
+
+    # If fewer tweets passed the cutoff than were on the page, we've gone back far enough
+    if [ "$PAGE_COUNT" -lt "$TWEET_COUNT" ]; then
+      break
+    fi
+
+    # Get next cursor
+    cursor=$(echo "$RESP" | jq -r '.data.next_cursor // .next_cursor // .nextCursor // ""' 2>/dev/null || true)
+    [ -z "$cursor" ] && break
+
+    pages=$((pages + 1))
+    sleep 1
+  done
+
+  COUNT=$(echo "$handle_tweets" | jq 'length' 2>/dev/null || echo "0")
+  echo "  @${handle}: ${COUNT} tweets"
+  X_RESULTS=$(echo "$X_RESULTS $handle_tweets" | jq -s 'add // []')
+  sleep 1
+done
+
+# Sort newest first (by snowflake ID, descending — higher ID = newer)
+TOTAL=$(echo "$X_RESULTS" | jq 'length')
+echo "$X_RESULTS" | jq 'sort_by(.id | tonumber) | reverse' > .xai-cache/trader-x-bootstrap.json
+echo "X cache written: ${TOTAL} tweets → .xai-cache/trader-x-bootstrap.json"
