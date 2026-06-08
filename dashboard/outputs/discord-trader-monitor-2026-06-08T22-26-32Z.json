@@ -1,0 +1,49 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "💬 Discord: crypto_chase — member chat"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "message_card",
+        "separator_1",
+        "analysis"
+      ]
+    },
+    "message_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Channel Member",
+        "handle": "crypto_chase",
+        "text": "I certainly wouldn't short the support and resistance level blindly though. I may be consider a short if we lose the SR level and then a setup appears"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Conditional short approach: won't short SR blindly; waiting for SR break + setup confluence. Consistent with recent patient/conservative stance. Ongoing ES/SPX technical analysis.",
+        "variant": "body"
+      }
+    }
+  }
+}
