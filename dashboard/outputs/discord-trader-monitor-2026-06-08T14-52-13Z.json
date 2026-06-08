@@ -1,0 +1,233 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "HeartCanHodl — CRYPTIC CHART REFERENCE"
+      },
+      "children": [
+        "timestamp-section",
+        "sep-1",
+        "message-section",
+        "sep-2",
+        "breakdown-section",
+        "sep-3",
+        "issue-alert",
+        "sep-4",
+        "metadata-section",
+        "sep-5",
+        "updates-section"
+      ]
+    },
+    "timestamp-section": {
+      "type": "Text",
+      "props": {
+        "text": "2026-06-08T14:45:35Z",
+        "variant": "muted"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "message-heading",
+        "message-text",
+        "message-link"
+      ]
+    },
+    "message-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Message",
+        "level": "h3"
+      }
+    },
+    "message-text": {
+      "type": "Text",
+      "props": {
+        "text": "Fc bio 1m"
+      }
+    },
+    "message-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Chart reference (X/Twitter)",
+        "href": "https://x.com/i/status/2063994803797561636"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "breakdown-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "breakdown-heading",
+        "breakdown-line-1",
+        "breakdown-line-2",
+        "breakdown-line-3"
+      ]
+    },
+    "breakdown-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Shorthand Breakdown",
+        "level": "h3"
+      }
+    },
+    "breakdown-line-1": {
+      "type": "Text",
+      "props": {
+        "text": "'Fc' = forecast/chart"
+      }
+    },
+    "breakdown-line-2": {
+      "type": "Text",
+      "props": {
+        "text": "'bio' = unknown ticker (not in watchlist)"
+      }
+    },
+    "breakdown-line-3": {
+      "type": "Text",
+      "props": {
+        "text": "'1m' = 1-minute"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "issue-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Cannot Classify",
+        "message": "Cannot classify without understanding what 'bio' refers to. Could be: New position/ticker alert, Informational chart share, or Typo/shorthand mishap",
+        "type": "warning"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "metadata-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "location-group",
+        "timing-group"
+      ]
+    },
+    "location-group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "location-label",
+        "location-value"
+      ]
+    },
+    "location-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Location",
+        "level": "h4"
+      }
+    },
+    "location-value": {
+      "type": "Text",
+      "props": {
+        "text": "Primary channel (1472153627324842057) — free/public"
+      }
+    },
+    "timing-group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "timing-label",
+        "timing-value"
+      ]
+    },
+    "timing-label": {
+      "type": "Heading",
+      "props": {
+        "text": "When",
+        "level": "h4"
+      }
+    },
+    "timing-value": {
+      "type": "Text",
+      "props": {
+        "text": "~1h 12m after last HCH activity (VVV conviction-add at 13:33Z)"
+      }
+    },
+    "sep-5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "updates-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "updates-heading",
+        "updates-text",
+        "calibration-alert"
+      ]
+    },
+    "updates-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Updated",
+        "level": "h3"
+      }
+    },
+    "updates-text": {
+      "type": "Text",
+      "props": {
+        "text": "discord-trader-seen.txt + traders.md (calibration-pending note)"
+      }
+    },
+    "calibration-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Need Calibration",
+        "message": "What does 'bio' mean? How should we handle HCH's terse shorthand messages?",
+        "type": "info"
+      }
+    }
+  }
+}
