@@ -1,15 +1,19 @@
 ## Summary
 
-I executed the x-trader-monitor skill with the provided event variable. Here's what happened:
+Executed the x-trader-monitor skill with the provided event:
 
 **Event decoded:**
-- Tweet ID: 2064088252156616843
-- Username: @unknown
-Executed **x-trader-monitor** skill with the provided event variable.
+- tweet_id: 2064088252156616843
+- username: unknown (⚠️ not in the 12 watched traders list)
+- text: "@CookBookSauce COOK"
+- url: https://x.com/unknown/status/2064088252156616843
 
-**Result: Duplicate Detected**
+**Classification:** **DUPLICATE_SKIP** (Step 8 dedup gate)
 
-The tweet ID `2064088252156616843` was already present in `memory/x-trader-seen.txt`, indicating this event had been processed previously. Per **Step 8** of the skill (dedup gate), the skill stopped immediately without re-alerting.
+**Result:** 
+- ✓ Tweet ID already in `memory/x-trader-seen.txt` 
+- ✓ No re-alert sent
+- ✓ Logged to memory and exited cleanly per Step 8 protocol: *"If `id` is already in `memory/x-trader-seen.txt`, stop immediately after logging — do not re-alert"*
 
 **Event Details:**
 - Username: @unknown (not in watched traders list)
@@ -26,3 +30,4 @@ Per **Step 8** of the skill protocol, the tweet ID was already present in `memor
 This is normal operational behavior — the Cloudflare Worker webhook can redelivery the same event, and the dedup gate prevents duplicate alerts from reaching Kyle.
 ✓ Skill execution complete. No notification sent (duplicate prevention per protocol).
 Skill execution complete. The tweet (ID 2064088252156616843) has already been processed and marked in the dedup file. Per Step 8 of the skill, duplicate events trigger an immediate exit without re-alerting. Logged and exited cleanly.
+The Worker is redelivering a previously-processed event. The skill handled it gracefully without duplicate alerting.
