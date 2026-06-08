@@ -1,0 +1,62 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "channel-header",
+        "separator-1",
+        "message-text",
+        "separator-2",
+        "source-footer"
+      ]
+    },
+    "channel-header": {
+      "type": "Text",
+      "props": {
+        "text": "💬 DC: crypto_chase — member chat",
+        "variant": "lead"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message-text": {
+      "type": "Text",
+      "props": {
+        "text": "UUUU major liq sweep on the high time frame, I see there's some confluence between previous SR and Fibs",
+        "variant": "body"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "source-footer": {
+      "type": "Text",
+      "props": {
+        "text": "via Discord — supporting channel (1343971265962049597)",
+        "variant": "caption"
+      }
+    }
+  }
+}

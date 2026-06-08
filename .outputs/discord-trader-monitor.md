@@ -1,4 +1,4 @@
-## Summary
+💬 *[DC: crypto_chase — member chat]*
 
 I've executed the **Discord Trader Monitor** skill for the provided message event.
 
@@ -27,3 +27,6 @@ Following Steps 1-7:
 - ✓ Logged event in `memory/logs/2026-06-08.md`
 
 No notification sent to Kyle.
+UUUU major liq sweep on the high time frame, I see there's some confluence between previous SR and Fibs
+
+_via Discord — supporting channel (1343971265962049597)_
