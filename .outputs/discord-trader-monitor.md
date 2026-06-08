@@ -18,3 +18,6 @@ Key levels:
 **BTC/ETH/SOL:** spot longs hedged 2x short ~63–64k
 
 **Market thesis:** Post-run consolidation risk; ETF flows + Saylor reaction = key signal. Zec & Lab destined
+💬 *[DC: heartcanhodl]*
+
+Not ideal if we will be looking for a leg down once again
