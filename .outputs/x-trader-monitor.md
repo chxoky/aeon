@@ -1,13 +1,10 @@
 ## Summary
 
-**Summary:**
-- **Event**: Base64-decoded successfully to JSON tweet object
-- **Username**: unknown (not a tracked trader)
-- **Tweet text**: "@CookBookSauce COOK" (non-financial, test/spam)
-- **Processing**: Duplicate tweet ID found in `memory/x-trader-seen.txt` → skipped re-alert
-- **Log**: Appended entry to `memory/logs/2026-06-08.md`
-- **Status**: `X_TRADER_DUPLICATE_HANDLED` ✓
-**Skill execution: x-trader-monitor (duplicate detection)**
+I've executed the x-trader-monitor skill with the provided event. The decoded tweet had:
+- **ID:** 2064088252156616843
+- **Username:** @unknown (not in the 12 watched traders)
+- **Text:** "@CookBookSauce COOK"
+- **Classification:** Duplicate (already seen)
 
 - **Event:** Tweet ID `2064088252156616843` from @unknown with text "@CookBookSauce COOK"
 - **Result:** Duplicate (Step 8 dedup gate triggered)
@@ -25,3 +22,6 @@ Executed the x-trader-monitor skill with the provided event variable override.
 4. **Logged** — Appended execution record to memory/logs/2026-06-08.md
 
 **Result:** Duplicate detected and handled gracefully. No alert sent. Skill exited cleanly per dedup protocol. ✓
+**Action taken:** Per Step 8 of the skill, since this tweet ID is already present in `memory/x-trader-seen.txt` (line 191), the skill exited immediately without re-alerting. The event has been logged to `memory/logs/2026-06-08.md`.
+
+This appears to be a Worker redelivery (retry) of a previously-processed event. The skill handled it correctly per the dedup protocol—no alert sent.
