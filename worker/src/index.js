@@ -35,6 +35,11 @@ const CHANNEL_CONFIG = {
 };
 
 const WATCHED_DISCORD_USERNAMES = new Set(['crypto_chase', 'killaxbt', 'heartcanhodl']);
+const WATCHED_X_USERNAMES = new Set([
+  'crypto_chase', 'killaxbt', 'heartcanhodl', 'bitcoin_astro',
+  'abetrade', 'trading_axe', 't_in_crypto', 'ryzzqq',
+  'swarmister', 'bull_genius', 'stoiiic', 'wild_randomness',
+]);
 // Ignored accounts: Banana3Stocks, benjamincowen
 
 // ── Entry point ───────────────────────────────────────────────────────────────
@@ -147,6 +152,8 @@ async function handleTwitter(request, env, ctx) {
   if (!text.trim()) return new Response('OK');
 
   const tweetUrl = `https://x.com/${username}/status/${tweetId}`;
+
+  if (!WATCHED_X_USERNAMES.has(username.toLowerCase())) return new Response('OK');
 
   // No raw forward to Telegram — x-trader-monitor is the sole gate on what
   // reaches Kyle. Pass the event through as base64-JSON via ${var}; the skill
