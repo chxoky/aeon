@@ -8,13 +8,13 @@
 
 ## Crypto_Chase
 - Platforms: X + Discord (primary: 1336082716063694962; Q&A: 1343971265962049597, 1247927786681794601)
-- Current open positions (as of bootstrap):
-  - GOLD — long (spot) — still open as of 2026-06-07, stop not yet hit; expects it may stop and "sweep into the box". Uses SPY for spot, ES futures for active trades.
+- Current open positions (as of 2026-06-08T11:57Z):
+  - GOLD — FLAT. Stopped out 2026-06-08T11:57Z. "First stop out on Gold in my last 4 public Gold trades" — notable/rare. Context: Trump ceasefire announcement, market chop, HYPE test overnight didn't catch (2am ET).
   - HYPE — FLAT. Layered long was stopped out -1.5R on 2026-06-05. Re-bids set then fully cancelled 2026-06-06 ("All other orders on HYPE cancelled"). Now eyeing low-50s for possible re-entry but leaning that more downside is likely. Said a stop-out here would be "my last HYPE trade for a long time".
   - NVDA — FLAT. Cut 2026-06-05 at 208.7 (H4 close below key HTF level) for very minor profit (entry 210, half TP at 216).
-- Recent thesis/posture: Turned cautious/bearish on crypto after the HYPE stop — notes BTC broke below the weekly 200 EMA (last time preceded a longer bear market), gut says more downside + consolidation. Frames the HYPE action as anomalous (HTF levels gave zero reaction). Thinks the AI bubble may have popped; rotating to trad: likes INTC (low 90s–mid 80s), Micron/MU (~790–820), silver (~53 spot), S&P/SPY bid on a strong multi-week pullback. On BTC: doesn't see 65.6 breaking unless Saylor sold heavily; until a strong close above 63, doesn't see much more upside.
+- Recent thesis/posture: Turned cautious/bearish on crypto after the HYPE stop — notes BTC broke below the weekly 200 EMA (last time preceded a longer bear market), gut says more downside + consolidation. Frames the HYPE action as anomalous (HTF levels gave zero reaction). Thinks the AI bubble may have popped; rotating to trad: likes INTC (low 90s–mid 80s), Micron/MU (~790–820), silver (~53 spot), S&P/SPY bid on a strong multi-week pullback. On BTC: doesn't see 65.6 breaking unless Saylor sold heavily; until a strong close above 63, doesn't see much more upside. Post-GOLD stop: "playing it slow and conservative," going to regroup and look for setups for the week.
 - Conviction notes: Process-driven, level/confluence trader (FVGs, weekly SR, fib, 618). Verbose, transparent about R-risk and invalidation. Will defend a thesis through drawdown but cuts on clean HTF invalidation. Discord now Rainbet-sponsored; some posts are sponsor/engagement asks (ignore for signal).
-- Last seen: 2026-06-08T00:55Z (overnight chop commentary; focusing on charts from the weekly-plans stream, warned he'll be less responsive to chart requests this week)
+- Last seen: 2026-06-08T11:57Z (GOLD stop-out + market assessment, Discord primary)
 
 ## KillaXBT
 - Platforms: X + Discord (primary: 1411492188315193416)

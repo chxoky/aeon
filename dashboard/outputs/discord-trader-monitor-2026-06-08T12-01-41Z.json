@@ -1,0 +1,46 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Trade Signal — crypto_chase"
+      },
+      "children": [
+        "alert_signal",
+        "sep1",
+        "text_context",
+        "text_source"
+      ]
+    },
+    "alert_signal": {
+      "type": "Alert",
+      "props": {
+        "title": "GOLD — Stopped out",
+        "message": "First stop out on Gold in my last 4 public Gold trades.",
+        "type": "error"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "Market context: Trump ceasefire, HYPE test overnight. Posture: slow and conservative, looking for setups.",
+        "variant": "body"
+      }
+    },
+    "text_source": {
+      "type": "Text",
+      "props": {
+        "text": "via Discord — crypto_chase primary",
+        "variant": "caption"
+      }
+    }
+  }
+}
