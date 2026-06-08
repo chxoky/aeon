@@ -176,6 +176,7 @@ jobs:
           REPLICATE_API_TOKEN: ${{ secrets.REPLICATE_API_TOKEN }}
           SKILL_VAR: ${{ inputs.var }}
           X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
+          TWITTERAPI_IO_KEY: ${{ secrets.TWITTERAPI_IO_KEY }}
           DISCORD_USER_TOKEN: ${{ secrets.DISCORD_USER_TOKEN }}
           WATCHED_X_ACCOUNTS: ${{ vars.WATCHED_X_ACCOUNTS }}
         run: |
