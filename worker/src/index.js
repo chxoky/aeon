@@ -54,7 +54,8 @@ export default {
   },
 
   async scheduled(event, env, ctx) {
-    ctx.waitUntil(pollDiscord(env));
+    // Discord polling temporarily disabled — re-enable once chart-request is stable
+    // ctx.waitUntil(pollDiscord(env));
   },
 };
 

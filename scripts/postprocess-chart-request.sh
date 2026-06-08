@@ -100,6 +100,10 @@ if df is None or df.empty:
     print(f"ERROR: no data returned for {yf_ticker}", file=sys.stderr)
     sys.exit(2)
 
+# yfinance >=0.2 returns a MultiIndex (Price, Ticker) — flatten to single level
+if isinstance(df.columns, __import__("pandas").MultiIndex):
+    df.columns = df.columns.get_level_values(0)
+
 # Drop timezone from index (mplfinance prefers tz-naive for daily)
 if hasattr(df.index, "tz") and df.index.tz is not None:
     df.index = df.index.tz_localize(None)
