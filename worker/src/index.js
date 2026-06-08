@@ -306,6 +306,20 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 // ── Direct Claude freeform handler ────────────────────────────────────────────
 
 async function answerFreeform(env, chatId, userMessage) {
+  const timeout = new Promise((_, reject) =>
+    setTimeout(() => reject(new Error('timeout')), 25000)
+  );
+  try {
+    await Promise.race([_answerFreeform(env, chatId, userMessage), timeout]);
+  } catch (e) {
+    console.error('answerFreeform outer:', e.message);
+    if (e.message === 'timeout') {
+      await sendTelegram(env, chatId, '⚠️ Timed out — took too long to think. Try again or rephrase.');
+    }
+  }
+}
+
+async function _answerFreeform(env, chatId, userMessage) {
   const repo  = env.GH_REPO;
   const base  = `https://raw.githubusercontent.com/${repo}/main`;
   const today = new Date().toISOString().slice(0, 10);
