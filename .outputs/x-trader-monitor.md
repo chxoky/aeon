@@ -6,15 +6,18 @@ Confirmed — this event was already processed earlier today. The tweet ID is de
 - **Classification:** SKIP (non-watched trader + duplicate)
 - **Action:** No re-alert, no memory update needed
 - **Exit:** `X_TRADER_DUPLICATE_SKIP_UNTRACKED` — success
+**Skill executed:** `x-trader-monitor`  
+**Status:** ✓ Success
 
-**Tweet details:**
-- ID: 2064105521846554751
-- Username: @unknown (not in the 12 watched traders)
-- Content: BTC macro sentiment ("survive chop → long your longs season")
-- Status: duplicate, non-watched account → skipped silently
+**Event details:**
+- Tweet ID: `2064105521846554751`
+- Username: `unknown`
+- Content: BTC sentiment opinion ("It's been 8 months since $BTC hit 126K. All you have to do is survive the next 3 months of chop… then it's long your longs season.")
 
-No notification sent.
-I've successfully executed the **X Trader Monitor** skill with the provided event variable. Here's what happened:
+**Action taken:**
+- **Dedup gate triggered** — Tweet ID already present in `memory/x-trader-seen.txt`
+- Per Step 8 protocol: stopped immediately, logged, sent **no re-alert**
+- This is a Worker retry/redelivery — correctly handled by skipping duplicate processing
 
 **Event decoded:**
 - **Tweet ID:** 2064105521846554751
@@ -30,3 +33,4 @@ The tweet ID was confirmed to already exist in the seen list, so the skill exite
 
 **No action taken** — No notification sent, only logged to memory for tracking.
 The skill execution is complete. The event was fully handled earlier today per the log entry, and the dedup gate is working as expected per Step 8 of the skill definition.
+**Exit code:** `X_TRADER_DUPLICATE_SKIP` (success)
