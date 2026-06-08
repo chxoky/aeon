@@ -1,0 +1,40 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "message-stack"
+      ]
+    },
+    "message-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "author-badge",
+        "message-text"
+      ]
+    },
+    "author-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "💬 DC: Chase — Chase",
+        "variant": "secondary"
+      }
+    },
+    "message-text": {
+      "type": "Text",
+      "props": {
+        "text": "and don't worry, still hunting trades, just seeing how the start of this week shapes up (hard to tell if today was a complacency bounce or real move that has more legs up to it)",
+        "variant": "body"
+      }
+    }
+  }
+}
