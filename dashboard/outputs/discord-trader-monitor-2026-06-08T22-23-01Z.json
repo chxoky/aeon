@@ -1,0 +1,50 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor",
+        "description": "crypto_chase — market analysis"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post_main",
+        "sep1",
+        "chart_ref"
+      ]
+    },
+    "post_main": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Analyst",
+        "handle": "crypto_chase",
+        "text": "I feel like it's super unlikely that it's going to hold the SR flip level. I think it was just a overreaction, overall bounce of all markets today, deviation, and it will be headed back down. But of course, do not let my opinion influence your trade. Please stick to your plan. Hopefully I'm wrong and you see profit because I'm not positioned."
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "chart_ref": {
+      "type": "Text",
+      "props": {
+        "text": "Chart: SR flip level analysis",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
