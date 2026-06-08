@@ -1,26 +1,19 @@
-## Execution Summary
+## Summary
 
-**Event:** Real-time X trader monitor with tweet ID `2064072748901773636`
-
-**What happened:**
-- Decoded the base64 event JSON
-- Verified tweet ID in dedup list (`grep 2064072748901773636 memory/x-trader-seen.txt` → found)
-- Stopped immediately per Step 8 dedup gate
-- Appended duplicate log entry to `memory/logs/2026-06-08.md`
-**Skill executed:** x-trader-monitor with provided event data
+**Skill executed:** `skills/x-trader-monitor/SKILL.md`
 
 **Event processed:**
-- **Tweet ID:** 2064072748901773636  
-- **Username:** unknown (not in watched trader list)
-- **Text:** "@GH0P__ 36 was not bad either 🤷🏻" + links
-- **Classification:** Non-delivery (worker misconfiguration) / Redelivery
+- Tweet ID: 2064072748901773636
+- Username: @unknown  
+- Text: "@GH0P__ 36 was not bad either 🤷🏻" + links
+- Result: **Duplicate — skipped per protocol**
 
-**Action taken:**
-- ✓ Decoded base64 event successfully
-- ✓ Checked dedup list: tweet ID already seen (line 187 of `x-trader-seen.txt`)
-- ✓ Verified already logged today as worker error (username not in watched list)
-- ✓ Logged redelivery without re-alerting per dedup logic
-- ✓ Exit cleanly
+**Classification:**
+- ✅ Event decoded successfully
+- ✅ Dedup gate triggered: tweet ID already in `memory/x-trader-seen.txt`
+- ✅ Account check: @unknown is not in the 12 watched traders list
+- **Action taken:** None (no alert sent)
+- **Logged:** Duplicate verification appended to `memory/logs/2026-06-08.md`
 
 The event was from @unknown (not a watched trader account) containing non-financial banter. It was already in the seen file and has been logged multiple times today. Per the skill's Step 8 dedup logic, execution stops immediately without sending a duplicate alert.
 No further action needed.
@@ -40,3 +33,4 @@ Perfect. The duplicate tweet from `@unknown` (tweet ID 2064072748901773636) has 
 - **Exit**: Clean—no re-alert on redelivery
 
 This is a Worker webhook retry/redelivery of an event that had already been classified as non-actionable (non-watched trader account, non-financial content). The dedup logic is working correctly.
+The skill completed successfully. Per Step 8: "If `id` is already in `memory/x-trader-seen.txt`, stop immediately after logging — do not re-alert."
