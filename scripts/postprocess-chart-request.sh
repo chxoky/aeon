@@ -58,8 +58,10 @@ for spec_file in "$PENDING_DIR"/chart-*.json; do
   IMG_PATH="${spec_file%.json}.png"
   CAPTION_FILE="${spec_file%.json}.caption"
 
-  python3 - <<PYEOF
+  python3 - "$spec_file" "$IMG_PATH" "$CAPTION_FILE" <<'PYEOF'
 import json, sys
+
+spec_path, img_path, caption_path = sys.argv[1], sys.argv[2], sys.argv[3]
 
 try:
     import yfinance as yf
@@ -72,18 +74,18 @@ except ImportError as e:
     sys.exit(1)
 
 try:
-    spec = json.load(open("$spec_file"))
+    spec = json.load(open(spec_path))
 except Exception as e:
     print(f"ERROR: could not read spec: {e}", file=sys.stderr)
     sys.exit(1)
 
-yf_ticker  = spec["yf_ticker"]
-period     = spec["yf_period"]
-interval   = spec["yf_interval"]
-ma_type    = spec.get("ma_type")    # "EMA" or "SMA" or None
-ma_period  = spec.get("ma_period")  # int or None
-ticker     = spec["ticker"]
-timeframe  = spec["timeframe"]
+yf_ticker = spec["yf_ticker"]
+period    = spec["yf_period"]
+interval  = spec["yf_interval"]
+ma_type   = spec.get("ma_type")
+ma_period = spec.get("ma_period")
+ticker    = spec["ticker"]
+timeframe = spec["timeframe"]
 
 print(f"  fetching {yf_ticker} period={period} interval={interval}...")
 
@@ -102,12 +104,10 @@ if df is None or df.empty:
 if hasattr(df.index, "tz") and df.index.tz is not None:
     df.index = df.index.tz_localize(None)
 
-# Build mplfinance kwargs
 mav_kwargs = {}
 if ma_type and ma_period:
     mav_kwargs["mav"] = (ma_period,)
 
-# Style
 style = mpf.make_mpf_style(
     base_mpf_style="nightclouds",
     rc={"font.size": 9, "axes.labelsize": 9},
@@ -128,26 +128,23 @@ fig, axes = mpf.plot(
     **mav_kwargs,
 )
 
-# If mav was used, label it
 if ma_type and ma_period:
-    legend_label = f"{ma_type}{ma_period}"
-    axes[0].legend([legend_label], loc="upper left",
+    axes[0].legend([f"{ma_type}{ma_period}"], loc="upper left",
                    fontsize=8, facecolor="#1a1a2e", labelcolor="white")
 
-fig.savefig("$IMG_PATH", dpi=130, bbox_inches="tight",
+fig.savefig(img_path, dpi=130, bbox_inches="tight",
             facecolor=fig.get_facecolor())
 plt.close(fig)
 
-print(f"  saved chart to $IMG_PATH ({len(df)} candles)")
+print(f"  saved chart to {img_path} ({len(df)} candles)")
 
-# Write caption
 last_close = float(df["Close"].iloc[-1]) if "Close" in df.columns else 0
-caption = f"\${ticker}  {timeframe}"
+caption = f"${ticker}  {timeframe}"
 if ma_type and ma_period:
     caption += f"  {ma_type}{ma_period}"
 caption += f"\nLast: {last_close:,.4f}" if last_close < 10 else f"\nLast: {last_close:,.2f}"
 
-with open("$CAPTION_FILE", "w") as f:
+with open(caption_path, "w") as f:
     f.write(caption)
 PYEOF
 
