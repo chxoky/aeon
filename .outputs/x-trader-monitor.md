@@ -25,3 +25,4 @@ Per **Step 8** of the skill protocol, the tweet ID was already present in `memor
 
 This is normal operational behavior — the Cloudflare Worker webhook can redelivery the same event, and the dedup gate prevents duplicate alerts from reaching Kyle.
 ✓ Skill execution complete. No notification sent (duplicate prevention per protocol).
+Skill execution complete. The tweet (ID 2064088252156616843) has already been processed and marked in the dedup file. Per Step 8 of the skill, duplicate events trigger an immediate exit without re-alerting. Logged and exited cleanly.
