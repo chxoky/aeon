@@ -48,3 +48,12 @@ This was a duplicate delivery from the Cloudflare Worker. The tweet from @unknow
 **Recommendation:** The Cloudflare Worker should only deliver events from the 12 authorized trader accounts. Receiving events from "@unknown" suggests a potential worker filter misconfiguration.
 ✓ **Skill execution complete.** The event (tweet ID `2064088252156616843` from @unknown) was successfully decoded but immediately flagged as a duplicate via the dedup gate (Step 8). The tweet ID was already present in `memory/x-trader-seen.txt`, indicating a prior processing or Worker retry/redelivery. Per the skill protocol, no re-alert was sent. Logged the duplicate detection and exited cleanly.
 The Worker has redelivered this same event multiple times today. The dedup gate caught it and prevented re-alerting as designed. The skill executed successfully with no unnecessary notifications.
+This is a duplicate event that was already processed. The tweet ID `2064088252156616843` was confirmed to be in the dedup list (`memory/x-trader-seen.txt`), so per Step 8 of the skill protocol, I stopped immediately without re-alerting.
+
+**Event details:**
+- **Tweet ID:** 2064088252156616843
+- **Username:** @unknown (not in the 12 watched traders list)
+- **Content:** "@CookBookSauce COOK"
+- **Status:** ✓ Duplicate skipped, logged
+
+No notification sent. Skill exited cleanly per dedup protocol.
