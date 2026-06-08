@@ -15,6 +15,7 @@
  *   TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID
  *   DISCORD_USER_TOKEN
  *   GH_TOKEN, GH_REPO
+ *   ANTHROPIC_API_KEY
  *
  * KV namespace: BOT_STATE (stores Discord last-seen message IDs)
  */
@@ -103,9 +104,14 @@ async function handleTelegram(request, env, ctx) {
     }
 
   } else {
-    // Freeform — forward to AEON concierge
+    // Freeform — answer directly via Claude API (2-8s) if key is set,
+    // otherwise fall back to AEON concierge via GitHub Actions (~2min).
     await sendTelegram(env, chatId, '⏳ On it...');
-    ctx.waitUntil(triggerAEON(env, 'concierge', rawText));
+    if (env.ANTHROPIC_API_KEY) {
+      ctx.waitUntil(answerFreeform(env, chatId, rawText));
+    } else {
+      ctx.waitUntil(triggerAEON(env, 'concierge', rawText));
+    }
   }
 
   return new Response('OK');
@@ -298,3 +304,67 @@ async function sendTelegram(env, chatId, text) {
 }
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+// ── Direct Claude freeform handler ────────────────────────────────────────────
+
+async function answerFreeform(env, chatId, userMessage) {
+  const repo  = env.GH_REPO;
+  const base  = `https://raw.githubusercontent.com/${repo}/main`;
+  const today = new Date().toISOString().slice(0, 10);
+
+  // Fetch memory context in parallel — public repo, no auth needed
+  const [traders, activeTrades, tickerFocus, todayLog] = await Promise.allSettled([
+    fetchText(`${base}/memory/topics/traders.md`),
+    fetchText(`${base}/memory/topics/active-trades.md`),
+    fetchText(`${base}/memory/topics/ticker-focus.md`),
+    fetchText(`${base}/memory/logs/${today}.md`),
+  ]);
+
+  const sections = [
+    traders.status      === 'fulfilled' ? `## traders.md\n${traders.value}`           : '',
+    activeTrades.status === 'fulfilled' ? `## active-trades.md\n${activeTrades.value}` : '',
+    tickerFocus.status  === 'fulfilled' ? `## ticker-focus.md\n${tickerFocus.value}`   : '',
+    todayLog.status     === 'fulfilled' ? `## today's log (${today})\n${todayLog.value}` : '',
+  ].filter(Boolean).join('\n\n---\n\n');
+
+  const system = `You are AEON, a trading bot assistant. Today is ${today}.
+Kyle runs a crypto/stocks trading bot monitoring 12 traders on X and Discord.
+Answer his Telegram messages directly and concisely — informal and direct, match his tone.
+Cite specific traders by name when referencing their views. If he asks for live prices you don't have them — say so plainly.
+
+Current bot state:
+${sections}`;
+
+  let reply;
+  try {
+    const resp = await fetch('https://api.anthropic.com/v1/messages', {
+      method: 'POST',
+      headers: {
+        'x-api-key':         env.ANTHROPIC_API_KEY,
+        'anthropic-version': '2023-06-01',
+        'content-type':      'application/json',
+      },
+      body: JSON.stringify({
+        model:      'claude-haiku-4-5-20251001',
+        max_tokens: 1024,
+        system,
+        messages:   [{ role: 'user', content: userMessage }],
+      }),
+    });
+
+    if (!resp.ok) throw new Error(`Claude API ${resp.status}`);
+    const data = await resp.json();
+    reply = data?.content?.[0]?.text ?? '(empty response)';
+  } catch (e) {
+    console.error('answerFreeform error:', e.message);
+    reply = `⚠️ Could not reach Claude (${e.message}). Try again or send "status".`;
+  }
+
+  await sendTelegram(env, chatId, reply);
+}
+
+async function fetchText(url) {
+  const r = await fetch(url);
+  if (!r.ok) throw new Error(`${r.status} ${url}`);
+  return r.text();
+}
