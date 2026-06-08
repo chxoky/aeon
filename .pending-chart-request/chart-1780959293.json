@@ -1,0 +1,13 @@
+{
+  "message_id": 1780959293,
+  "chat_id": null,
+  "ticker": "ZEC",
+  "yf_ticker": "ZEC-USD",
+  "timeframe": "1D",
+  "yf_period": "90d",
+  "yf_interval": "1d",
+  "ma_type": "EMA",
+  "ma_period": 50,
+  "requested_by": "direct",
+  "original_text": "chart $ZEC 1D EMA50"
+}

@@ -1,25 +1,13 @@
-Perfect! The skill has already been executed with your variable override. Here's the status:
+## Summary
 
-## Chart Request: `chart $ZEC 1D EMA50` ✓
+✓ **Chart request skill executed successfully**
 
-**Status:** Queued for rendering
+Parsed the direct variable override `chart $ZEC 1D EMA50` and created a job spec:
 
-**Job Spec Created:**
-- File: `.pending-chart-request/chart-0.json`
-- Ticker: ZEC → ZEC-USD (crypto assumption)
-- Timeframe: 1D → 90d lookback, 1d candles
-- Indicator: EMA50 (50-period exponential moving average)
+- **Job file**: `.pending-chart-request/chart-1780959293.json`
+- **Ticker**: ZEC (mapped to ZEC-USD for yfinance)
+- **Timeframe**: 1D (90 days historical, 1d interval)
+- **Indicator**: EMA50
+- **Status**: Ready for postprocess rendering
 
-**Execution Details (from memory/logs/2026-06-08.md, lines 159–172):**
-- Direct invocation via var override
-- Parsed successfully
-- No errors
-- Awaiting postprocess rendering pipeline
-
-The chart job spec is now in the queue. The postprocess script will:
-1. Fetch ZEC-USD OHLC data from yfinance (90-day lookback)
-2. Calculate the 50-period EMA
-3. Render the candlestick chart with the EMA overlay
-4. Deliver to the configured Telegram/Discord channel
-
-No further action needed — the request is live.
+Logged to `memory/logs/2026-06-08.md`. The postprocess script will now render the candlestick chart and deliver it when ready.
