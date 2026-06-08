@@ -1,16 +1,13 @@
 ## Summary
 
-✅ **Skill executed successfully.**
+**x-trader-monitor execution completed.**
 
-**Event classification:** `X_TRADER_DUPLICATE` (Worker redelivery)
+**Event:** Tweet ID `2064111072353870093` from @unknown
+- **Decoded content:** "@mcgeecrypto99 appreciate the honesty, make it 31 for good measure"
+- **Status:** Duplicate redelivery — tweet already in `memory/x-trader-seen.txt`
+- **Action:** Stopped at Step 8 (dedup gate), logged event, no alert sent
 
-- **Tweet ID:** 2064111072353870093
-- **Username:** unknown (not a watched trader)
-- **Status:** Already in dedup file (`memory/x-trader-seen.txt` line 195)
-- **Action:** Dropped per hardcoded redelivery rule
-- **Alert sent:** No
-- **Log entry:** Added to `memory/logs/2026-06-08.md`
-- **Commit:** [30a2feb] logged duplicate redelivery
+**Exit code:** `X_TRADER_DUPLICATE_SKIP` ✓
 
 **Actions taken:**
 - ✓ Added tweet ID to `memory/x-trader-seen.txt` (Step 8 dedup gate)
@@ -53,3 +50,4 @@ Executed **x-trader-monitor** skill with the provided event variable. The decode
 **Result:** ✅ **SKIP — No alert sent**
 
 Per Step 8 of the skill, this tweet ID was already in the dedup list (`memory/x-trader-seen.txt`), indicating a Worker redelivery/retry. Protocol: stop immediately without re-alerting. Additionally, the username "unknown" is not one of the 12 watched traders, so this would have been skipped regardless. Logged the redelivery to `memory/logs/2026-06-08.md`.
+The Worker retry/redelivery was handled correctly per skill protocol. No notification sent.
