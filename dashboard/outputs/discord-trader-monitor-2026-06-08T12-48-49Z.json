@@ -1,0 +1,107 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "header_stack",
+        "sep1",
+        "message_section",
+        "sep2",
+        "clarification"
+      ]
+    },
+    "header_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "channel_heading",
+        "badge_status"
+      ]
+    },
+    "channel_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "[DC: crypto_chase]",
+        "level": "h3"
+      }
+    },
+    "badge_status": {
+      "type": "Badge",
+      "props": {
+        "text": "AMBIGUOUS",
+        "variant": "outline"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "message_label",
+        "message_text",
+        "timestamp_text"
+      ]
+    },
+    "message_label": {
+      "type": "Text",
+      "props": {
+        "text": "Message:",
+        "variant": "caption"
+      }
+    },
+    "message_text": {
+      "type": "Text",
+      "props": {
+        "text": "Either weird price action, no sweep, or they're saving it for later",
+        "variant": "body"
+      }
+    },
+    "timestamp_text": {
+      "type": "Text",
+      "props": {
+        "text": "2026-06-08 12:43:46 UTC (supporting channel)",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "clarification": {
+      "type": "Alert",
+      "props": {
+        "title": "Clarification Needed",
+        "message": "Is this a conviction shift on a specific ticker, a general market observation, or commentary on a position?",
+        "type": "info"
+      }
+    }
+  }
+}
