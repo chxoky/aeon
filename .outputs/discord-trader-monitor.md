@@ -30,3 +30,8 @@ Files updated:
 - `memory/discord-trader-seen.txt` — added message ID 1514070215598800977
 - `memory/logs/2026-06-16.md` — appended event log entry
 **Action:** No Telegram alert sent (matches supporting-channel rule for technical confirmation without actionable conviction). Event logged for audit trail.
+🔍 *Calibration — [DC: Chase — TradFi]*
+
+Crypto_Chase: "Didn't catch it"
+
+Unable to classify — what's your read? Missed a trade setup, or casual conversation?

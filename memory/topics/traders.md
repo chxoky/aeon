@@ -15,6 +15,7 @@
 - Last seen: 2026-06-10T00:54:29Z (TradFi Q&A — "and yes, I would definitely bid the flush below 7200 if it happens" — conditional setup, consistent with waiting-for-flush posture). Net stance: FLAT + patient, resting bids below, leaning cautious-bearish on the broader bubble.
 - **[AMBIGUOUS — 2026-06-09T18:56:41Z, TradFi channel]** "Risking some of today's profit from ES" with image. Unable to classify without viewing the chart — is this a new ES trade entry, position reallocation, or profit management statement? Sent calibration alert for Kyle's read.
 - **[AMBIGUOUS — 2026-06-09T22:12:06Z, TradFi channel]** "War literally restarts and there's no response from ES" (possibly follow-up to earlier ES message same day). Cryptic reference to geopolitical event + market reaction. Sent calibration alert 06-16T** for Kyle's context.
+- **[AMBIGUOUS — 2026-06-10T13:38:26Z, TradFi channel]** "Didn't catch it." Short, conversational, no referenced-message context. Likely a response to a member question (what did you miss — trade, message, move?). Sent calibration alert 06-16T** for Kyle to clarify.
 
 ## KillaXBT
 - Platforms: X + Discord (primary: 1411492188315193416)
