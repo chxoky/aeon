@@ -244,9 +244,11 @@ Respond with JSON only: {"is_signal":true|false,"alert_text":"..."|null}`;
       return false;
     }
 
-    const data   = await resp.json();
-    const text   = data?.content?.[0]?.text?.trim() ?? '';
-    const result = JSON.parse(text);
+    const data    = await resp.json();
+    const rawText = data?.content?.[0]?.text?.trim() ?? '';
+    // Strip markdown fences if model wrapped the JSON
+    const jsonText = rawText.replace(/^```(?:json)?\s*/i, '').replace(/\s*```$/i, '');
+    const result  = JSON.parse(jsonText);
 
     if (result.is_signal && result.alert_text) {
       await sendTelegram(env, env.TELEGRAM_CHAT_ID, result.alert_text);
@@ -266,7 +268,19 @@ Respond with JSON only: {"is_signal":true|false,"alert_text":"..."|null}`;
 async function pollDiscord(env) {
   const channelIds = Object.keys(CHANNEL_CONFIG);
 
-  for (const channelId of channelIds) {
+  // Rotate 3 channels per invocation to stay under CF's 50-subrequest limit.
+  // With 9 channels / 3 per batch, each channel is checked every 3 minutes.
+  const BATCH_SIZE  = 3;
+  const counterKey  = 'discord_poll_batch';
+  const batchIndex  = parseInt((await env.BOT_STATE.get(counterKey)) ?? '0', 10);
+  const start       = (batchIndex * BATCH_SIZE) % channelIds.length;
+  const batchIds    = [
+    ...channelIds.slice(start, start + BATCH_SIZE),
+    ...channelIds.slice(0, Math.max(0, start + BATCH_SIZE - channelIds.length)),
+  ];
+  await env.BOT_STATE.put(counterKey, String(batchIndex + 1));
+
+  for (const channelId of batchIds) {
     try {
       const lastSeenKey = `discord_last_${channelId}`;
       const lastSeenId  = await env.BOT_STATE.get(lastSeenKey);
