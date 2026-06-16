@@ -47,3 +47,8 @@ The message represents Chase explaining his risk-management approach rather than
 Classification: informational (conversational market commentary, no new trade action)
 Status: logged, not alerted
 Seen ID: 1514361928875773952 tracked
+↩️ _Member: "With the rollover of es contracts, you guys buying the September expiration?"_
+
+💬 *[DC: Chase — TradFi]*
+
+No I'm just going to buy current contract and when my broker switches it to September then I'll just roll it over

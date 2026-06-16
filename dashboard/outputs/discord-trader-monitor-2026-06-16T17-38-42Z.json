@@ -1,0 +1,74 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "message_1",
+        "message_2"
+      ]
+    },
+    "message_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "author_1",
+        "text_1"
+      ]
+    },
+    "author_1": {
+      "type": "Badge",
+      "props": {
+        "text": "↩️ Member",
+        "variant": "outline"
+      }
+    },
+    "text_1": {
+      "type": "Text",
+      "props": {
+        "text": "With the rollover of es contracts, you guys buying the September expiration?"
+      }
+    },
+    "message_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "author_2",
+        "text_2"
+      ]
+    },
+    "author_2": {
+      "type": "Badge",
+      "props": {
+        "text": "💬 DC: Chase — TradFi",
+        "variant": "secondary"
+      }
+    },
+    "text_2": {
+      "type": "Text",
+      "props": {
+        "text": "No I'm just going to buy current contract and when my broker switches it to September then I'll just roll it over"
+      }
+    }
+  }
+}
