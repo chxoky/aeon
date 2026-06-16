@@ -13,6 +13,7 @@
 - Open positions detected (X): none live (HYPE long was closed at TP).
 - Last X post seen: 2066500853708562794 (06-15T12:39Z).
 - Last seen: 2026-06-15T15:06:38Z (TradFi Q&A — cancelled a pending trade idea, "prob cancel i have to go to dr soon"). Net stance: FLAT + patient, bids resting below, leaning cautious-bearish on the broader bubble.
+- **[AMBIGUOUS — 2026-06-09T18:56:41Z, TradFi channel]** "Risking some of today's profit from ES" with image. Unable to classify without viewing the chart — is this a new ES trade entry, position reallocation, or profit management statement? Sent calibration alert for Kyle's read.
 
 ## KillaXBT
 - Platforms: X + Discord (primary: 1411492188315193416)

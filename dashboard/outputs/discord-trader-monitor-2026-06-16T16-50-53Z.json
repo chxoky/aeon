@@ -1,0 +1,79 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-calibration",
+        "badge-context",
+        "separator-1",
+        "text-event-detail",
+        "text-quote",
+        "separator-2",
+        "alert-issue"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration Event",
+        "level": "h3"
+      }
+    },
+    "badge-context": {
+      "type": "Badge",
+      "props": {
+        "text": "Chase — TradFi",
+        "variant": "outline"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-event-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Chase posting in TradFi supporting channel with image attachment, referencing ES (E-mini S&P 500) position.",
+        "variant": "body"
+      }
+    },
+    "text-quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"Risking some of today's profit from ES\"",
+        "variant": "lead"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert-issue": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification Required",
+        "message": "Unable to classify without the image. Is this a new trade entry, position update, or profit reallocation? What's your read?",
+        "type": "warning"
+      }
+    }
+  }
+}
