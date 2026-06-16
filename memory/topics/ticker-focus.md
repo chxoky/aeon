@@ -13,6 +13,7 @@
 - $Gold (normalize: $GC, $XAUUSD, $GLD, $GOLD, $XAU → one) — Crypto_Chase's primary resting-bid instrument (bids front-run ~1% by the peace deal; waiting for a clean flush). **X (06-16): Wild_Randomness flags a potential 2026 gold low "already in" if Warsh & BOJ "say the right things this week."** Two-trader watch, constructive-on-a-dip.
 
 ## Single-trader / quiet tickers (tracked silently)
+- **LAB**: HeartCanHodl — **short, RE-ADDED 06-16T13:23Z** ("Add 1x 1% lab short. Will add to it"). Thought closed/reduced from prior window, now clearly re-entering with conviction to scale.
 - **ZEC**: HeartCanHodl — short, highest-conviction; actively scaling/adding (06-15: after low-400 take-profits, +2% then +1% 2x). (No fresh X mention this window.)
 - **TAO** (bittensor): **contested** — HeartCanHodl short (NEW 06-13, 2x 1%) vs **bull_genius watching for a dip to get LONG** (OI ripped +60%, currently sidelined, 06-13 X).
 - **VVV**: HeartCanHodl — short (confirmed live in the 06-16 rebalance basket).
