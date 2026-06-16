@@ -1,8 +1,8 @@
 🔍 *Calibration — \[DC: Chase — TradFi\]*
 
-Event: Chase posting in TradFi supporting channel with image attachment, referencing ES (E-mini S&P 500) position.
+Second image-only message from Crypto_Chase in TradFi channel (50 min apart).
 
-crypto_chase: "Risking some of today's profit from ES"
+_Message: 2026-06-09T19:46Z, ID 1513992688184066068_
 
 Unable to classify — the referenced stream discussion isn't available. What's your read on the LPTH position (cutting or holding)?
 Message (2026-06-09, old event re-triggered): "At least I got one fill to profit"
@@ -19,3 +19,4 @@ Processed Discord trader monitor event for Crypto_Chase:
 **Content:** "I was waiting for this. It's fresh, isn't it 🤣" — pure banter, non-financial.  
 **Classification:** Non-financial / banter → skip, log only (no alert).  
 **Status:** ✓ Message deduped (added ID 1513991899827142717 to seen list), logged to 2026-06-16.md, no notification sent.
+Unable to view chart attachment or infer context from empty text — what's your read? Is this a new trade entry, position reallocation, or just market observation?

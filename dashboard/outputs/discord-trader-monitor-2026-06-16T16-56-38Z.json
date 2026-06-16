@@ -1,0 +1,56 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_calibration",
+        "text_context",
+        "text_metadata",
+        "alert_question"
+      ]
+    },
+    "badge_calibration": {
+      "type": "Badge",
+      "props": {
+        "text": "Calibration — DC: Chase — TradFi",
+        "variant": "secondary"
+      }
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "Second image-only message from Crypto_Chase in TradFi channel (50 min apart).",
+        "variant": "body"
+      }
+    },
+    "text_metadata": {
+      "type": "Text",
+      "props": {
+        "text": "Message: 2026-06-09T19:46Z, ID 1513992688184066068",
+        "variant": "caption"
+      }
+    },
+    "alert_question": {
+      "type": "Alert",
+      "props": {
+        "message": "Unable to view chart attachment or infer context from empty text — what's your read? Is this a new trade entry, position reallocation, or just market observation?",
+        "type": "info"
+      }
+    }
+  }
+}
