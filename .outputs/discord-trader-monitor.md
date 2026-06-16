@@ -46,3 +46,6 @@ Something like this perhaps but I don't know yet
 - ✓ Logged event to memory/logs/2026-06-16.md with full classification details
 
 **Note:** This is a low-conviction response (Chase is noncommittal on Silver direction), but worth alerting as it represents new topic activity. The message defers to his chart analysis, suggesting he's watching Silver technically but hasn't formed a directional bias yet.
+**discord-trader-monitor** — duplicate message
+
+Message from Crypto_Chase (Chase — TradFi) already seen. ID 1516096607500636181 was previously processed and remains in dedup cache. No new alert sent. Logged as re-trigger.
