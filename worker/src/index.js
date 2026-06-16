@@ -428,7 +428,7 @@ async function _answerFreeform(env, chatId, userMessage) {
   const today = new Date().toISOString().slice(0, 10);
 
   const controller = new AbortController();
-  const timeoutId  = setTimeout(() => controller.abort(), 25000);
+  const timeoutId  = setTimeout(() => controller.abort(), 20000);
 
   console.log(`answerFreeform: start, msg="${userMessage.slice(0,50)}"`);
 
