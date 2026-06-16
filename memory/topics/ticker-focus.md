@@ -22,6 +22,7 @@
 - **XPL**: HeartCanHodl — short, NEW this window (06-16 rebalance basket).
 - **TON**: HeartCanHodl — short, NEW this window (06-16 rebalance basket).
 - **ETH / SOL**: HeartCanHodl — spot longs, trimmed alongside BTC into the rally.
+- **STRC** (Structural): Crypto_Chase — **technical sentiment, watching downside**. 2026-06-16T20:07Z: in response to member noting "Strc continues to dump now sub 92 again," Chase replied "Weekly closes looking suspect" — bearish technical read on weekly closes below the 92 level. Supporting-channel sentiment commentary, no personal trade yet, monitoring the structure downside.
 - **Silver**: Crypto_Chase — watching, undecided ("something like this perhaps but I don't know yet").
 
 ## Sentiment / contrarian gauges

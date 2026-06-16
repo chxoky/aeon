@@ -1,22 +1,14 @@
-💬 *[DC: Chase — Crypto]*
+Done. I've processed the Discord message event from Crypto_Chase about STRC weekly closes looking suspect.
 
-↩️ _Member: "Any thoughts on hype? Was that like a rejection or just consolidating before a new push past ath"_
+**Summary of execution:**
 
-**Event Details:**
-- **Trader:** Crypto_Chase
-- **Channel:** 1343971265962049597 (Chase — TradFi, supporting channel)
-- **Message ID:** 1516530952266977492
-- **Content:** "gettin weird at the close here on ES"
-- **Time:** 2026-06-16T19:52:34Z
+- **Event decoded:** Message ID 1516534593430225028 from crypto_chase in the Chase — Crypto supporting channel at 2026-06-16T20:07:02Z
+- **Classification:** Informational (technical sentiment on STRC weekly structure appearing weak/suspicious)
+- **Fast-path handling:** Worker already sent Telegram alert at event time, so skipped re-alert and proceeded to memory updates only
+- **Memory updates:**
+  - Added message ID to `discord-trader-seen.txt` (now 1088 entries)
+  - Updated `traders.md` Crypto_Chase section with latest timestamp and STRC technical sentiment note
+  - Added STRC as new single-ticker entry in `ticker-focus.md` (technical downside watch, weekly closes suspect below 92 level)
+  - Logged full event details to `memory/logs/2026-06-16.md`
 
-**Classification:** SKIP
-- Supporting channel market observation/color (not a trade action, not a conviction shift)
-- No alert sent (supporting-channel rule: no alert by default unless genuinely significant)
-- Message added to discord-trader-seen.txt to prevent reprocessing
-- Event logged to memory/logs/2026-06-16.md
-
-The message is casual market commentary about ES closing behavior consistent with Chase's documented intraday trading focus, but doesn't meet the threshold for an alert per the skill's supporting-channel rules.
-💬 *[DC: Chase — Crypto]*
-
-https://x.com/coinbase/status/2066890566667796530 all the major crypto exchanges pivoted into stock exchanges that simply use USDC or USDT 🤣  if that doesn't tell you a lot about the state of crypto, then I don't know what will.
-Not really. I'm sort of over it price action-wise, with the way it played out. Once I just look at it and I naturally see something, I'll get back into it.
+The message was classified as supporting-channel informational commentary with no immediate trade signal — Chase is monitoring STRC's technical structure deterioration in response to the member's observation that it continues dumping sub-92.
