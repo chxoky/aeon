@@ -13,7 +13,7 @@
 - $Gold (normalize: $GC, $XAUUSD, $GLD, $GOLD, $XAU → one) — Crypto_Chase's primary resting-bid instrument (bids front-run ~1% by the peace deal; waiting for a clean flush). **X (06-16): Wild_Randomness flags a potential 2026 gold low "already in" if Warsh & BOJ "say the right things this week."** Two-trader watch, constructive-on-a-dip.
 
 ## Single-trader / quiet tickers (tracked silently)
-- **BOX**: Crypto_Chase — **chart-based bid interest** (06-16T12:58Z: "probably worth bidding if it's offered today" with chart image). NEW, first mention this window; conditional setup, not yet executed.
+- **BOX**: Crypto_Chase — **technical level + bid conviction**. Timeline: (06-12T18:29Z, original technical sighting in Crypto channel: "It should hold around here and grind up if it's bullish. I don't see why it would go back down below the box") → (06-16T12:58Z, TradFi channel: "probably worth bidding if it's offered today" with chart). Two-part signal: technical confirmation followed by conditional bid interest. NEW ticker for this season; both messages conditional (not yet executed).
 - **ES** (S&P 500 E-mini futures): Crypto_Chase — **intraday trading approach** (06-11T19:38Z: "I'll just intraday trade ES every day" — strategy conviction statement in Q&A channel). Earlier ES activity: rollover strategy statement (06-11), ambiguous "risking some of today's profit from ES" (06-09).
 - **LAB**: HeartCanHodl — **short, RE-ADDED 06-16T13:23Z** ("Add 1x 1% lab short. Will add to it"). Thought closed/reduced from prior window, now clearly re-entering with conviction to scale.
 - **ZEC**: HeartCanHodl — short, highest-conviction; actively scaling/adding (06-15: after low-400 take-profits, +2% then +1% 2x). (No fresh X mention this window.)
