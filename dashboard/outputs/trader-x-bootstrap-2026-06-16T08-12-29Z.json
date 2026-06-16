@@ -1,0 +1,119 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "📡 X Bootstrap Complete — 3-day lookback"
+      },
+      "children": [
+        "meta",
+        "sep1",
+        "heading_traders",
+        "traders_table",
+        "sep2",
+        "heading_radar",
+        "radar_content",
+        "monitoring"
+      ]
+    },
+    "meta": {
+      "type": "Text",
+      "props": {
+        "text": "06-13→06-16, 112 tweets across 11/12 accounts; ryzzqq quiet",
+        "variant": "caption"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_traders": {
+      "type": "Heading",
+      "props": {
+        "text": "Active X Traders",
+        "level": "h3"
+      }
+    },
+    "traders_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Trader",
+          "Activity"
+        ],
+        "rows": [
+          [
+            "swarmister",
+            "long $HYPE (+22%, closed ~70% into strength); $PUMP/$SCY/$SKY long ideas"
+          ],
+          [
+            "Wild_Randomness",
+            "long $HYPE + $QQQ calls (+4x); gold-low watch if Warsh/BOJ deliver"
+          ],
+          [
+            "bull_genius",
+            "TP'd longs at the 67-68k POC, now FLAT, eyeing shorts"
+          ],
+          [
+            "KillaXBT",
+            "BTC 2X swing long + spot intact; closed 50% $SPCX, rotated gains into BTC spot"
+          ],
+          [
+            "HeartCanHodl",
+            "trimmed to under 20% long exposure; high conviction $SPCX short (fade-the-hype)"
+          ],
+          [
+            "Crypto_Chase",
+            "$HYPE long TP hit, otherwise flat"
+          ],
+          [
+            "t_in_crypto",
+            "bearish/date-driven"
+          ],
+          [
+            "trading_axe",
+            "contrarian-bullish BTC"
+          ],
+          [
+            "Stoiiic",
+            "don't-fade the spot-led squeeze"
+          ],
+          [
+            "abetrade",
+            "USD-firm/EUR-downside"
+          ]
+        ]
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_radar": {
+      "type": "Heading",
+      "props": {
+        "text": "New Tickers on Radar",
+        "level": "h3"
+      }
+    },
+    "radar_content": {
+      "type": "Text",
+      "props": {
+        "text": "$HYPE (3-trader long overlap), $SPCX (now 5-trader, fade lean), $AKT, $QQQ, $SCY, $SKY, $PUMP, $ARE, gold-low watch"
+      }
+    },
+    "monitoring": {
+      "type": "Text",
+      "props": {
+        "text": "X monitoring is live — new tweets surface in real time",
+        "variant": "muted"
+      }
+    }
+  }
+}

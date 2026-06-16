@@ -1,19 +1,20 @@
 # Ticker Focus
 
-> Rebuilt by `trader-bootstrap` 2026-06-16 (force re-run, Discord-only; **X cache empty this run**). Lean reflects the 06-13→06-16 window for the 3 Discord traders. X-only overlaps are STALE (06-08) — kept in a separate section below until `x-trader-monitor` refreshes them.
+> Discord lean rebuilt by `trader-bootstrap` 2026-06-16 (06-13→06-16, 3 Discord traders). **X-sourced tickers refreshed by `trader-x-bootstrap` 2026-06-16** (112 tweets, 06-13→06-16) — the stale 06-08 X section is replaced with fresh data below.
 
 ## Overlap tickers (mentioned by 2+ watched traders this window)
 - **BTC**: KillaXBT (2X swing long, HTF-bullish, "bear cycle ending"; small LTF scalp short hedge filled 67.2K) + HeartCanHodl (majors spot long, but trimming/covering >50% into 66–67k) + Crypto_Chase (FLAT, resting bids below, watching). Group lean: **MIXED → cautiously constructive near-term** — BTC rallied into 66–67k on the Iran-deal resolution + FOMC. Killa still the lone aggressive HTF bull; HCH de-risking the long into strength; Chase flat and waiting for a flush.
-- **SpaceX / SPCX** (pre-IPO / IPO proxy): HeartCanHodl (NEW 1% 2x short, 06-16) + Crypto_Chase (watching the lingering SpaceX IPO as an unresolved market factor). Group lean: **bearish/cautious** — HCH actively short; Chase treats the IPO as overhang. NEW overlap this run.
+- **SpaceX / SPCX** (pre-IPO / IPO proxy): now a **5-trader overlap with X data added** — HeartCanHodl (short, conviction: "crypto crowd tops even stocks, $SPCX won't be different"), KillaXBT (rode the low-float squeeze, **closed 50% and rotated the 20% gain into BTC spot** 06-15), Wild_Randomness ($TSLA/$SPCX "so far so good," constructive), Crypto_Chase (watching as overhang). Group lean: **fade-the-hype** — short/profit-taking conviction (HCH + Killa) vs Wild's momentum-long; squeeze has largely played out.
+- **HYPE** (on Kyle's watch list): big **3-trader X overlap, all long-biased** — swarmister (long +22%, closed ~70% into strength, holding remainder; target $64, D1 FVG $66-68), Wild_Randomness (long, "pretty sweet call"), Crypto_Chase (long, **TP hit** 06-15, structure held). Group lean: **bullish, in profit-taking mode** — the leg up has been ridden; traders are trimming, not adding. (NB: HeartCanHodl's Discord HYPE short was NOT mentioned this window — direction conflict resolves toward long on X.)
 
 ## Kyle's explicit watch list
-- $HYPE — HCH's HYPE short was NOT mentioned this window; status unconfirmed (assume reduced/closed until monitor says otherwise).
-- $NVDA (traded as $NVDL on Kraken) — no Discord activity this window.
-- $Gold (normalize: $GC, $XAUUSD, $GLD, $GOLD, $XAU → one) — Crypto_Chase's primary resting-bid instrument right now: bids front-run ~1% by the peace deal; waiting for a clean flush of his level to bid. (X-stale: swarmister short $XAU, planning a long flip @4200.)
+- $HYPE — see overlap section above: **long-biased across swarmister / Wild_Randomness / Crypto_Chase on X this window** (all in profit-taking mode). HCH's old Discord short went unmentioned.
+- $NVDA (traded as $NVDL on Kraken) — no Discord activity; no fresh X mention this window (Wild_Randomness's Jan-27 leaps from 06-08 not reaffirmed).
+- $Gold (normalize: $GC, $XAUUSD, $GLD, $GOLD, $XAU → one) — Crypto_Chase's primary resting-bid instrument (bids front-run ~1% by the peace deal; waiting for a clean flush). **X (06-16): Wild_Randomness flags a potential 2026 gold low "already in" if Warsh & BOJ "say the right things this week."** Two-trader watch, constructive-on-a-dip.
 
 ## Single-trader / quiet tickers (tracked silently)
-- **ZEC**: HeartCanHodl — short, highest-conviction; actively scaling/adding (06-15: after low-400 take-profits, +2% then +1% 2x). (X-stale: trading_axe & bull_genius also bearish.)
-- **TAO**: HeartCanHodl — short, NEW 06-13 (2x 1%).
+- **ZEC**: HeartCanHodl — short, highest-conviction; actively scaling/adding (06-15: after low-400 take-profits, +2% then +1% 2x). (No fresh X mention this window.)
+- **TAO** (bittensor): **contested** — HeartCanHodl short (NEW 06-13, 2x 1%) vs **bull_genius watching for a dip to get LONG** (OI ripped +60%, currently sidelined, 06-13 X).
 - **VVV**: HeartCanHodl — short (confirmed live in the 06-16 rebalance basket).
 - **XPL**: HeartCanHodl — short, NEW this window (06-16 rebalance basket).
 - **TON**: HeartCanHodl — short, NEW this window (06-16 rebalance basket).
@@ -23,12 +24,23 @@
 ## Sentiment / contrarian gauges
 - **Ansem as a fade signal** (HeartCanHodl): when Ansem aggressively pushes a crowded narrative or public-shorts, HCH reads it as a "take some profits / find exits" cue (06-15 Ansem public-short above 60k, stop ~1733; 06-16 "by the time he tweets, much of the excitement is already priced in").
 
-## X-sourced tickers — STALE (06-08, X cache empty this run)
-> Kept verbatim from the 2026-06-08 X bootstrap; not refreshed 06-16. `x-trader-monitor` will update.
-- $WLD: HeartCanHodl short vs abetrade long / bull_genius bounce candidate — contested.
-- $MU / $SNDK: HeartCanHodl short (his two public stock names); $SOXL contested (Wild_Randomness long vs HCH semis-bearish).
-- $QQQ / $SPX: Wild_Randomness tactically long Jun-30 QQQ calls + dated index puts.
-- $COIN: Wild_Randomness ~80% puts (bearish).
-- $NBIS / $AMAT / $NVDA Jan-27 leaps: Wild_Randomness long/building.
-- $CL (oil): swarmister large long (entry 89.5, Strait-of-Hormuz shortage thesis).
-- $TOTAL3: Wild_Randomness — alts on "hard mode."
+## X-sourced tickers — FRESH (`trader-x-bootstrap` 06-16, window 06-13 → 06-16)
+> Refreshed from the populated X cache. Single-trader unless noted.
+- **$AKT**: Wild_Randomness — bullish chart (weekly trend flip; favored over $VVV in a 06-14 divergence post). New on radar.
+- **$VVV**: Wild_Randomness (chart-weak vs AKT) + HeartCanHodl (Discord short) — bearish lean.
+- **$QQQ**: Wild_Randomness — long Jun-30 calls, **+4x** (gap fill played out 06-15).
+- **$PUMP**: swarmister — half-closed long, SL at break-even; targets intact, would re-buy a dip.
+- **$SCY**: swarmister — long working (+1.8% off POI, cautiously bullish next two weeks, targets 0.059 → 0.0627).
+- **$SKY**: swarmister — long idea (4H, ~12.5% upside on a POI pullback).
+- **$ARE**: Wild_Randomness — weekly trend reset, "only buying strength from here."
+- **$TSLA**: Wild_Randomness — constructive ("so far, so good," paired with $SPCX).
+- **$EUR / DXY**: abetrade — USD-firm, EUR-downside; more downside while price holds below MAs.
+- Bitfinex BTC flow (Wild_Randomness): **first decline in Bitfinex longs in over a month** + first pause in the Bitfinex TWAP since it switched on at 76k — a near-term caution tell.
+- Dropped vs 06-08 (no fresh mention this window): $WLD, $MU/$SNDK, $COIN puts, $NBIS, $CL (oil), $TOTAL3, $SOL/$ETH→$800 thesis.
+
+## Sentiment / contrarian gauges (X)
+- **trading_axe**: contrarian-bullish on BTC — "worst sentiment and slow bleed ever and still couldn't break below 60K."
+- **t_in_crypto**: bearish/date-driven — "downturns ahead, June a crazy month," sees the 65-70k short setup building.
+- **Stoiiic**: don't-fade BTC — coinbase-spot-buying-led squeeze, "rotation nearing completion."
+- **bull_genius**: 67-68k POC = sell/distribution zone, went flat, "considering shorts soon."
+- **Bitcoin_Astro**: neutral cycle-window watch (astrology + geometry confluence), no levels.

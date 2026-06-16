@@ -1,16 +1,14 @@
-📡 X Bootstrap Complete — 3-day lookback (06-05→06-08)
-
-183 tweets across all 12 watched X accounts processed; state seeded in traders.md, all IDs marked seen (no alerts fired).
+📡 X Bootstrap Complete — 3-day lookback (06-13→06-16, 112 tweets across 11/12 accounts; ryzzqq quiet)
 
 Active X traders:
-— @KillaXBT: aggressively accumulating BTC spot (~90%, eyes 160K) — the lone HTF bull
-— @HeartCanHodl: short basket (ZEC/WLD/VVV) + NEW stock shorts $MU/$SNDK
-— @Wild_Randomness: defensive options book — ~75% cash, Aug-Oct COIN/IBIT/ETHA puts, tactical QQQ Jun-30 calls, building NVDA Jan-27 leaps
-— @swarmister: large oil ($CL) long, gold short→long flip @4200, bearish crypto (BTC bottom 40-50k)
-— @bull_genius: tactical long $HYPE / short $ZEC; @abetrade: $WLD long (OpenAI-IPO proxy)
-Cautious/neutral: @Crypto_Chase, @Stoiiic, @t_in_crypto, @ryzzqq, @trading_axe, @Bitcoin_Astro
+— swarmister: long $HYPE (+22%, closed ~70% into strength); $PUMP/$SCY/$SKY long ideas
+— Wild_Randomness: long $HYPE + $QQQ calls (+4x); gold-low watch if Warsh/BOJ deliver
+— bull_genius: TP'd longs at the 67-68k POC, now FLAT, eyeing shorts
+— KillaXBT: BTC 2X swing long + spot intact; closed 50% $SPCX, rotated gains into BTC spot
+— HeartCanHodl: trimmed to under 20% long exposure; high conviction $SPCX short (fade-the-hype)
+— Crypto_Chase: $HYPE long TP hit, otherwise flat
+— t_in_crypto bearish/date-driven; trading_axe contrarian-bullish BTC; Stoiiic don't-fade the spot-led squeeze; abetrade USD-firm/EUR-downside
 
-Consensus: $ZEC strongly bearish; $BTC mixed/cautious near-term; $WLD & $VVV contested.
-New tickers on radar from X: $QQQ, $COIN, $SOXL, $SNDK, $NBIS, $LIT, $AMAT, $CL (oil), $TOTAL3.
+New tickers on radar from X: $HYPE (3-trader long overlap), $SPCX (now 5-trader, fade lean), $AKT, $QQQ, $SCY, $SKY, $PUMP, $ARE, gold-low watch
 
 X monitoring is live — new tweets surface in real time.
