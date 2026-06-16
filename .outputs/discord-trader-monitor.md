@@ -16,3 +16,6 @@ I've executed the discord-trader-monitor skill with the provided message event.
 - Event logged to memory/logs/2026-06-16.md
 
 The message is casual market commentary about ES closing behavior consistent with Chase's documented intraday trading focus, but doesn't meet the threshold for an alert per the skill's supporting-channel rules.
+💬 *[DC: Chase — Crypto]*
+
+https://x.com/coinbase/status/2066890566667796530 all the major crypto exchanges pivoted into stock exchanges that simply use USDC or USDT 🤣  if that doesn't tell you a lot about the state of crypto, then I don't know what will.

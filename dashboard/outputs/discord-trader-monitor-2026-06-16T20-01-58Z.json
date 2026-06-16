@@ -1,0 +1,66 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_header",
+        "separator1",
+        "stack_content"
+      ]
+    },
+    "badge_header": {
+      "type": "Badge",
+      "props": {
+        "text": "💬 DC: Chase — Crypto",
+        "variant": "secondary"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "storylink_tweet",
+        "text_comment"
+      ]
+    },
+    "storylink_tweet": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Coinbase",
+        "href": "https://x.com/coinbase/status/2066890566667796530",
+        "source": "X (Twitter)"
+      }
+    },
+    "text_comment": {
+      "type": "Text",
+      "props": {
+        "text": "all the major crypto exchanges pivoted into stock exchanges that simply use USDC or USDT 🤣 if that doesn't tell you a lot about the state of crypto, then I don't know what will.",
+        "variant": "body"
+      }
+    }
+  }
+}
