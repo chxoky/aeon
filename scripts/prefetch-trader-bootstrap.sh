@@ -17,6 +17,11 @@
 
 set -uo pipefail
 
+SKILL="${1:-}"
+if [ -n "$SKILL" ] && [ "$SKILL" != "trader-bootstrap" ]; then
+  exit 0
+fi
+
 mkdir -p .xai-cache
 
 WATCHED_X_ACCOUNTS="Bitcoin_Astro,abetrade,trading_axe,KillaXBT,Crypto_Chase,HeartCanHodl,t_in_crypto,ryzzqq,swarmister,bull_genius,Stoiiic,Wild_Randomness"
