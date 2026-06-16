@@ -268,24 +268,27 @@ Respond with JSON only: {"is_signal":true|false,"alert_text":"..."|null}`;
 async function pollDiscord(env) {
   const channelIds = Object.keys(CHANNEL_CONFIG);
 
-  // Rotate 3 channels per invocation to stay under CF's 50-subrequest limit.
-  // With 9 channels / 3 per batch, each channel is checked every 3 minutes.
-  const BATCH_SIZE  = 3;
-  const counterKey  = 'discord_poll_batch';
-  const batchIndex  = parseInt((await env.BOT_STATE.get(counterKey)) ?? '0', 10);
-  const start       = (batchIndex * BATCH_SIZE) % channelIds.length;
-  const batchIds    = [
-    ...channelIds.slice(start, start + BATCH_SIZE),
-    ...channelIds.slice(0, Math.max(0, start + BATCH_SIZE - channelIds.length)),
-  ];
-  await env.BOT_STATE.put(counterKey, String(batchIndex + 1));
+  // Hard subrequest budget — CF limit is 50/invocation.
+  // Each operation deducts from the budget; we stop before hitting the ceiling.
+  // Accounting:
+  //   Channel baseline: 2 (KV get + Discord fetch) + 1 if new messages (KV put)
+  //   Per trader message: 3 (Claude API + Telegram send + GitHub dispatch)
+  // Budget of 44 leaves a 6-slot safety buffer and covers all 9 channels
+  // at baseline (18 slots) + ~8 concurrent trader messages before stopping.
+  let budget = 44;
+  const spend = (n = 1) => { budget -= n; };
 
-  for (const channelId of batchIds) {
+  for (const channelId of channelIds) {
+    if (budget < 2) {
+      console.log(`pollDiscord: budget exhausted, skipping remaining channels`);
+      break;
+    }
+
     try {
       const lastSeenKey = `discord_last_${channelId}`;
       const lastSeenId  = await env.BOT_STATE.get(lastSeenKey);
+      spend(); // KV get
 
-      // Fetch messages after last seen (or last 10 if first run)
       let apiUrl = `https://discord.com/api/v10/channels/${channelId}/messages?limit=10`;
       if (lastSeenId) apiUrl += `&after=${lastSeenId}`;
 
@@ -295,6 +298,7 @@ async function pollDiscord(env) {
           'Content-Type':  'application/json',
         },
       });
+      spend(); // Discord fetch
 
       if (!resp.ok) continue;
 
@@ -307,6 +311,7 @@ async function pollDiscord(env) {
       // Update last seen to newest message ID
       const newestId = messages[messages.length - 1].id;
       await env.BOT_STATE.put(lastSeenKey, newestId);
+      spend(); // KV put
 
       // Process trader messages only
       for (const msg of messages) {
@@ -317,9 +322,14 @@ async function pollDiscord(env) {
         const attachments = (msg.attachments ?? []).map((a) => a?.url).filter(Boolean);
         if (!content && attachments.length === 0) continue;
 
-        // Fast-path classification sends the alert directly if it's a signal.
-        // AEON's discord-trader-monitor still runs for memory updates, deeper
-        // analysis, and logging — but skips re-alerting if fast_path_alerted=true.
+        // Reserve 3 slots upfront (Claude + Telegram + GitHub) before processing.
+        // Conservative: deduct the max cost regardless of whether it ends up a signal.
+        if (budget < 3) {
+          console.log(`pollDiscord: budget exhausted at channel ${channelId}, msg ${msg.id}`);
+          break;
+        }
+        spend(3);
+
         const ref = msg.referenced_message;
         const referencedMessage = ref
           ? { username: ref?.author?.username ?? 'member', content: (ref?.content ?? '').slice(0, 150) }
@@ -336,9 +346,6 @@ async function pollDiscord(env) {
           attachments,
         };
 
-        // Fast path: classify + alert via Claude directly (~2-5s).
-        // Result is passed to AEON so the skill skips re-alerting but
-        // still does memory updates and logging.
         const fastPathAlerted       = await classifyAndAlertDiscord(env, event);
         event.fast_path_alerted     = fastPathAlerted;
 
