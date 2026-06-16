@@ -2,9 +2,9 @@ name = "trading-bot"
 main = "src/index.js"
 compatibility_date = "2025-01-01"
 
-# Cron trigger — polls Discord every minute
+# Cron trigger — PAUSED
 [triggers]
-crons = ["* * * * *"]
+crons = []
 
 # KV namespace for storing last-seen Discord message IDs
 [[kv_namespaces]]

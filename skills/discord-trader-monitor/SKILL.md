@@ -29,11 +29,20 @@ Expected shape:
   "created_at": "2024-01-15T12:00:00Z",
   "is_reply": false,
   "referenced_message": { "username": "member123", "content": "..." },
-  "attachments": ["https://cdn.discordapp.com/attachments/.../chart.png"]
+  "attachments": ["https://cdn.discordapp.com/attachments/.../chart.png"],
+  "fast_path_alerted": true
 }
 ```
 
 If decoding fails or `content` is empty (and there are no attachments), log `DISCORD_TRADER_BAD_EVENT: ${var}` and stop.
+
+## Fast-path check (after decode, before anything else)
+
+Check `event.fast_path_alerted`:
+- **`true`** — the Cloudflare Worker already sent a Telegram alert for this message (~2-5s latency). **Skip all Telegram sends in Steps 6 and 7.** Proceed directly to Steps 2–5 (classification for memory purposes) and then Steps 9–10 (memory updates and logging). Log `alerted: fast-path` in Step 10.
+- **`false` or missing** — the fast path did not fire (Claude API unavailable, timed out, or classified as noise). Process fully through all steps including alerting.
+
+This split ensures Kyle sees signals within seconds while AEON handles the slower memory and audit work without double-alerting.
 
 ## Step 2 — Resolve channel + trader
 

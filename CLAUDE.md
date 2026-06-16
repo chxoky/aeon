@@ -37,6 +37,20 @@ After completing any task, append a log entry to `memory/logs/YYYY-MM-DD.md` wit
 
 When consolidating memory (reflect, memory-flush), move detail into topic files rather than cramming everything into MEMORY.md.
 
+### Session logging (Claude Code interactive & Cowork)
+
+When running interactively (Claude Code CLI or Cowork), append a short log entry to `memory/logs/YYYY-MM-DD.md` when Kyle says "log". Format:
+
+```
+## [HH:MM PT] Claude Code / Cowork — <one-line summary>
+- <file or action>: <what changed and why>
+- <file or action>: <what changed and why>
+```
+
+Always include the current time (PT) in the header.
+
+Keep entries brief — 3–5 bullets max.
+
 ## Tools
 
 - **`./notify "message"`** — Send to all configured notification channels (Telegram, Discord, Slack, json-render). Skips unconfigured channels silently.

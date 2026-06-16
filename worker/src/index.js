@@ -23,15 +23,15 @@
 // ── Channel config ────────────────────────────────────────────────────────────
 
 const CHANNEL_CONFIG = {
-  '1336082716063694962': { trader: 'Crypto_Chase',  type: 'primary' },
-  '1343971265962049597': { trader: 'Crypto_Chase',  type: 'supporting' },
-  '1247927786681794601': { trader: 'Crypto_Chase',  type: 'supporting' },
-  '1411492188315193416': { trader: 'KillaXBT',      type: 'primary' },
-  '1472153627324842057': { trader: 'HeartCanHodl',  type: 'primary' },
-  '1191800982414299217': { trader: 'HeartCanHodl',  type: 'primary' },
-  '1279738718680256553': { trader: 'HeartCanHodl',  type: 'primary' },   // most important
-  '1393137051108507728': { trader: 'HeartCanHodl',  type: 'primary' },
-  '1023638573313966212': { trader: 'HeartCanHodl',  type: 'supporting' },
+  '1336082716063694962': { trader: 'Crypto_Chase',  type: 'primary',    label: 'Chase — Chase' },
+  '1343971265962049597': { trader: 'Crypto_Chase',  type: 'supporting', label: 'Chase — TradFi' },
+  '1247927786681794601': { trader: 'Crypto_Chase',  type: 'supporting', label: 'Chase — Crypto' },
+  '1411492188315193416': { trader: 'KillaXBT',      type: 'primary',    label: 'K' },
+  '1472153627324842057': { trader: 'HeartCanHodl',  type: 'primary',    label: 'HCH — Free' },
+  '1191800982414299217': { trader: 'HeartCanHodl',  type: 'primary',    label: 'HCH — Opportunistic Moments' },
+  '1279738718680256553': { trader: 'HeartCanHodl',  type: 'primary',    label: 'HCH — Trades' },  // most important; verbatim rule
+  '1393137051108507728': { trader: 'HeartCanHodl',  type: 'primary',    label: 'HCH — Comments' },
+  '1023638573313966212': { trader: 'HeartCanHodl',  type: 'supporting', label: 'HCH — Chat' },
 };
 
 const WATCHED_DISCORD_USERNAMES = new Set(['crypto_chase', 'killaxbt', 'heartcanhodl']);
@@ -180,6 +180,88 @@ function extractTweetMedia(tweet) {
     .filter(Boolean);
 }
 
+// ── Discord fast-path classifier ──────────────────────────────────────────────
+// Calls Claude Haiku directly to classify and alert in ~2-5s.
+// Returns true if a Telegram alert was sent, false otherwise.
+// The result is passed as fast_path_alerted in the AEON event so the skill
+// skips re-alerting but still does memory updates and logging.
+
+async function classifyAndAlertDiscord(env, event) {
+  if (!env.ANTHROPIC_API_KEY) return false;
+
+  const ch = CHANNEL_CONFIG[event.channel_id] ?? {};
+  const label       = ch.label ?? ch.trader ?? event.username;
+  const channelType = ch.type ?? 'primary';
+  const isVerbatim  = event.channel_id === '1279738718680256553'; // HCH — Trades
+
+  const replyCtx = event.is_reply && event.referenced_message
+    ? `\nReplying to ${event.referenced_message.username}: "${event.referenced_message.content}"`
+    : '';
+  const attachNote = event.attachments?.length
+    ? `\n[${event.attachments.length} attachment(s)]`
+    : '';
+
+  const prompt =
+`Discord message from ${ch.trader ?? event.username} in "${label}" (${channelType} channel):${replyCtx}
+"${event.content}"${attachNote}
+
+Classify as SIGNAL or NOISE.
+SIGNAL: directional call, price target, stop/invalidation, position change, conviction shift, actionable market view.
+NOISE: admin, scheduling, links, banter, motivation without trade detail, test messages.
+For supporting channels: only SIGNAL if it's a clear, self-contained conviction shift — not chatter.
+
+If SIGNAL, write a short Telegram alert (under 400 chars total). Keep the trader's message verbatim in the body.${isVerbatim ? ' VERBATIM CHANNEL — never rephrase or expand the body.' : ''}
+Format:
+- Trade/position action → 🚨 *[DC: ${label}]*\\n\\n{message_text}
+- Analysis/informational → 💬 *[DC: ${label}]*\\n\\n{message_text}
+- If reply context matters, prepend: ↩️ _Member: "{reply_text}"_\\n\\n
+
+Respond with JSON only: {"is_signal":true|false,"alert_text":"..."|null}`;
+
+  try {
+    const controller = new AbortController();
+    const timeoutId  = setTimeout(() => controller.abort(), 8000);
+
+    const resp = await fetch('https://api.anthropic.com/v1/messages', {
+      method: 'POST',
+      headers: {
+        'x-api-key':         env.ANTHROPIC_API_KEY,
+        'anthropic-version': '2023-06-01',
+        'content-type':      'application/json',
+      },
+      body: JSON.stringify({
+        model:      'claude-haiku-4-5-20251001',
+        max_tokens: 300,
+        system:     'You are a trading signal classifier. Output only valid JSON. No preamble or explanation.',
+        messages:   [{ role: 'user', content: prompt }],
+      }),
+      signal: controller.signal,
+    });
+
+    clearTimeout(timeoutId);
+
+    if (!resp.ok) {
+      console.error(`classifyAndAlertDiscord: Claude API ${resp.status}`);
+      return false;
+    }
+
+    const data   = await resp.json();
+    const text   = data?.content?.[0]?.text?.trim() ?? '';
+    const result = JSON.parse(text);
+
+    if (result.is_signal && result.alert_text) {
+      await sendTelegram(env, env.TELEGRAM_CHAT_ID, result.alert_text);
+      console.log(`classifyAndAlertDiscord: alerted — ${ch.trader} in ${label}`);
+      return true;
+    }
+
+    return false;
+  } catch (e) {
+    console.error('classifyAndAlertDiscord error:', e.message);
+    return false;
+  }
+}
+
 // ── Discord poller (cron every 1 min) ─────────────────────────────────────────
 
 async function pollDiscord(env) {
@@ -222,10 +304,9 @@ async function pollDiscord(env) {
         const attachments = (msg.attachments ?? []).map((a) => a?.url).filter(Boolean);
         if (!content && attachments.length === 0) continue;
 
-        // No raw forward to Telegram — discord-trader-monitor is the sole gate
-        // on what reaches Kyle. Pass the event through as base64-JSON via
-        // ${var}; the skill resolves channel hierarchy, reply context, and
-        // classification, then decides whether (and how) to alert.
+        // Fast-path classification sends the alert directly if it's a signal.
+        // AEON's discord-trader-monitor still runs for memory updates, deeper
+        // analysis, and logging — but skips re-alerting if fast_path_alerted=true.
         const ref = msg.referenced_message;
         const referencedMessage = ref
           ? { username: ref?.author?.username ?? 'member', content: (ref?.content ?? '').slice(0, 150) }
@@ -241,6 +322,12 @@ async function pollDiscord(env) {
           referenced_message:  referencedMessage,
           attachments,
         };
+
+        // Fast path: classify + alert via Claude directly (~2-5s).
+        // Result is passed to AEON so the skill skips re-alerting but
+        // still does memory updates and logging.
+        const fastPathAlerted       = await classifyAndAlertDiscord(env, event);
+        event.fast_path_alerted     = fastPathAlerted;
 
         await triggerAEON(env, 'discord-trader-monitor', toBase64Json(event));
       }
