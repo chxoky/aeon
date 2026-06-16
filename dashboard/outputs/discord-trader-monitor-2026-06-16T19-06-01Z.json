@@ -1,0 +1,129 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor"
+      },
+      "children": [
+        "heading_calib",
+        "separator_1",
+        "message_section",
+        "separator_2",
+        "context_section",
+        "separator_3",
+        "analysis_alert",
+        "question_text"
+      ]
+    },
+    "heading_calib": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: Chase — TradFi]",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "message_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "timestamp_text",
+        "tweet_message"
+      ]
+    },
+    "timestamp_text": {
+      "type": "Text",
+      "props": {
+        "text": "Cryptic message (06-16T14:25Z)",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "tweet_message": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Crypto_Chase",
+        "text": "Want to long*"
+      },
+      "children": []
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_label",
+        "flat_status",
+        "earlier_activity"
+      ]
+    },
+    "context_label": {
+      "type": "Text",
+      "props": {
+        "text": "Context:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "flat_status": {
+      "type": "Text",
+      "props": {
+        "text": "Chase has been FLAT since 06-15, resting bids front-run by peace deal."
+      },
+      "children": []
+    },
+    "earlier_activity": {
+      "type": "Text",
+      "props": {
+        "text": "Earlier same day (06-16T12:58Z) posted BOX conviction in same channel."
+      },
+      "children": []
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "This message is incomplete (asterisk at end, no referenced context) — unable to determine if it's a trade intent, position update, or conversational fragment.",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "question_text": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "lead"
+      },
+      "children": []
+    }
+  }
+}

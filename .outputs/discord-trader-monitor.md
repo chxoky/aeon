@@ -16,3 +16,11 @@ _via Discord — Chase — Crypto_
 
 It's not a high-quality trade. The high-quality trade I already missed. Not sure what else to say
 _Forward-looking positioning strategy: waiting until January 2027 to avoid crowded trades._
+🔍 *Calibration — [DC: Chase — TradFi]*
+
+Cryptic message (06-16T14:25Z):
+Crypto_Chase: "Want to long*"
+
+Context: Chase has been FLAT since 06-15, resting bids front-run by peace deal. Earlier same day (06-16T12:58Z) posted BOX conviction in same channel. This message is incomplete (asterisk at end, no referenced context) — unable to determine if it's a trade intent, position update, or conversational fragment.
+
+Unable to classify — what's your read?
