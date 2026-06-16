@@ -205,7 +205,7 @@ async function classifyAndAlertDiscord(env, event) {
 "${event.content}"${attachNote}
 
 Classify as SIGNAL or NOISE.
-SIGNAL: directional call, price target, stop/invalidation, position change, conviction shift, actionable market view.
+SIGNAL: directional call, price target, stop/invalidation, position change, conviction shift, actionable market view. Also SIGNAL: any message that defers to a stream/video for details but mentions a specific asset or position — surface it so the user can check the stream.
 NOISE: admin, scheduling, links, banter, motivation without trade detail, test messages.
 For supporting channels: only SIGNAL if it's a clear, self-contained conviction shift — not chatter.
 
@@ -213,6 +213,7 @@ If SIGNAL, write a short Telegram alert (under 400 chars total). Keep the trader
 Format:
 - Trade/position action → 🚨 *[DC: ${label}]*\\n\\n{message_text}
 - Analysis/informational → 💬 *[DC: ${label}]*\\n\\n{message_text}
+- Stream reference (details in stream) → 💬 *[DC: ${label}]*\\n\\n{verbatim message} _(details in stream)_
 - If reply context matters, prepend: ↩️ _Member: "{reply_text}"_\\n\\n
 
 Respond with JSON only: {"is_signal":true|false,"alert_text":"..."|null}`;
