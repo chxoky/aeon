@@ -1,51 +1,16 @@
 ## Summary
 
-**Discord Trader Monitor — Event Processed**
+**discord-trader-monitor skill executed successfully.**
 
-| Field | Value |
-|-------|-------|
-| Trader | Crypto_Chase |
-| Channel | 1343971265962049597 (Chase — TradFi, supporting) |
-| Message ID | 1516522312617168936 |
-| Timestamp | 2026-06-16T19:18:14Z |
-| Content | "da fuck lol that was quick" |
-| Classification | **Non-financial (banter/reaction)** |
-| Alert Sent | **No** (skip) |
-🔍 *Calibration — [DC: Chase — TradFi]*
+**Event processed:**
+- Crypto_Chase, Chase — Crypto (supporting channel), 2026-06-15T12:39:57Z
+- Message: Link to X post ($HYPE long TP hit) + clapping emoji, replying to member saying "This one played out fully"
 
-Earlier message (19:21 PM UTC): "hmm if it wasn't FOMC, I would think this is good but there's not really any time to make it happen. Maybe tomorrow morning?"
+**Classification:** SKIP — Cross-platform reiteration without new substance.
 
-Chase's reply: "tp'd"
+This was a member-initiated acknowledgment of a completed trade, with the trader echoing back to the member via an X post link. The X announcement already covered the $HYPE long TP closure, so the Discord reply adds no new signal, conviction shift, or actionable information. Supporting-channel rule applied: no alert for member chatter unless there's genuinely new conviction context.
 
-He said he was FLAT earlier today. Did he take a quick scalp after that FOMC comment, or is this referring to something else? Image attached in Discord channel 1343971265962049597 (msg ID 1516523100613644458).
-
-## Event Summary
-
-**Message:** Crypto_Chase in Discord "Chase — Crypto" channel (2026-06-14T22:09:24Z)  
-**Content:** "no I don't want just people spamming random charts without ideas"  
-**Context:** Reply to kevin.patrick's request to add Treebot (charting bot)
-
-**Classification:** **Non-financial** (HR-1 category A)  
-This is a cultural/administrative comment expressing Chase's view on channel standards, not a trade signal or conviction.
-
-**Action:** **Skipped** — no alert sent. Message ID tracked in seen-IDs for dedup.
-
----
-
-Execution complete:
-- ✅ Decoded event (base64 → JSON)
-- ✅ Resolved channel (1247927786681794601 = Chase — Crypto, supporting)
-- ✅ Verified trader (crypto_chase matches config)
-- ✅ Classified message (non-financial banter)
-- ✅ Logged to memory/logs/2026-06-16.md
-- ✅ Added to memory/discord-trader-seen.txt (ID: 151584061063920204)
-**Analysis:**
-- Event decoded successfully from base64
-- Message is a playful reaction to quick market movement within the context of earlier FOMC scenario discussion
-- No trade signal, execution language, or conviction shift
-- Supporting-channel rule applied: no alert for chatter/banter unless representing genuine conviction update
-- Message ID added to `discord-trader-seen.txt` (line 1066)
-- Event logged to `memory/logs/2026-06-16.md`
-
-**Action:** Skipped per Step 5 (HR-A) and supporting-channel Step 7 rules. Memory updated, no notification sent.
-What's your read?
+**Actions taken:**
+- Added message ID 1516059691430711336 to `memory/discord-trader-seen.txt` (1068 IDs tracked)
+- Logged event to `memory/logs/2026-06-16.md` with classification and reasoning
+- No Telegram alert sent (silent skip per classification)
