@@ -1,0 +1,78 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_calib",
+        "text_msg1",
+        "text_msg2",
+        "text_analysis",
+        "text_discord_ref",
+        "text_question"
+      ]
+    },
+    "heading_calib": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration — DC: Chase — TradFi",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text_msg1": {
+      "type": "Text",
+      "props": {
+        "text": "Earlier message (19:21 PM UTC): \"hmm if it wasn't FOMC, I would think this is good but there's not really any time to make it happen. Maybe tomorrow morning?\"",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_msg2": {
+      "type": "Text",
+      "props": {
+        "text": "Chase's reply: \"tp'd\"",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_analysis": {
+      "type": "Text",
+      "props": {
+        "text": "He said he was FLAT earlier today. Did he take a quick scalp after that FOMC comment, or is this referring to something else?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_discord_ref": {
+      "type": "Text",
+      "props": {
+        "text": "Image attached in Discord channel 1343971265962049597 (msg ID 1516523100613644458)",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "text_question": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "lead"
+      },
+      "children": []
+    }
+  }
+}
