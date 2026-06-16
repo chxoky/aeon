@@ -1,0 +1,23 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "tweet"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Chase",
+        "handle": "TradFi",
+        "text": "Or maybe even for January 2027 so I'm not in the quote on quote \"crowded trade\"\n\nForward-looking positioning strategy: waiting until January 2027 to avoid crowded trades."
+      }
+    }
+  }
+}
