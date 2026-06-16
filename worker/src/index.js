@@ -434,10 +434,10 @@ async function _answerFreeform(env, chatId, userMessage) {
 
   // Fetch memory context in parallel — public repo, no auth needed
   const [traders, activeTrades, tickerFocus, todayLog] = await Promise.allSettled([
-    fetchText(`${base}/memory/topics/traders.md`),
-    fetchText(`${base}/memory/topics/active-trades.md`),
-    fetchText(`${base}/memory/topics/ticker-focus.md`),
-    fetchText(`${base}/memory/logs/${today}.md`),
+    fetchText(`${base}/memory/topics/traders.md`, controller.signal),
+    fetchText(`${base}/memory/topics/active-trades.md`, controller.signal),
+    fetchText(`${base}/memory/topics/ticker-focus.md`, controller.signal),
+    fetchText(`${base}/memory/logs/${today}.md`, controller.signal),
   ]);
 
   console.log(`answerFreeform: memory fetched — traders=${traders.status} activeTrades=${activeTrades.status} tickerFocus=${tickerFocus.status} log=${todayLog.status}`);
@@ -498,8 +498,8 @@ ${sections}`;
   console.log('answerFreeform: done');
 }
 
-async function fetchText(url) {
-  const r = await fetch(url);
+async function fetchText(url, signal) {
+  const r = await fetch(url, signal ? { signal } : undefined);
   if (!r.ok) throw new Error(`${r.status} ${url}`);
   return r.text();
 }
