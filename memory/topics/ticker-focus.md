@@ -1,42 +1,34 @@
 # Ticker Focus
 
-> Rebuilt by `trader-bootstrap` 2026-06-08 (force re-run #8, 3-day window 2026-06-05 → 2026-06-08, cache extends to 16:12Z). Lean reflects bootstrap window only.
-> **X data added by `trader-x-bootstrap` 2026-06-08** (183 tweets, all 12 accounts, 3-day window). X-sourced traders and new equities/macro tickers folded in below.
+> Rebuilt by `trader-bootstrap` 2026-06-16 (force re-run, Discord-only; **X cache empty this run**). Lean reflects the 06-13→06-16 window for the 3 Discord traders. X-only overlaps are STALE (06-08) — kept in a separate section below until `x-trader-monitor` refreshes them.
 
-## Overlap tickers (mentioned by 2+ watched traders)
-- HYPE: Crypto_Chase (long stopped out -1.5R 06-05, now FLAT, watching low-50s with lingering bullish bias; X 06-06: "only long trade I'd be interested in") vs HeartCanHodl (2x short, added 2% 06-07). X adds: bull_genius (idea **long HYPE / short ZEC** — ZEC bag-holders rotate into HYPE), Wild_Randomness ("what if 2026 range" — neutral/structural). Group lean: CONTESTED — Chase/bull_genius lean long, HCH short; flag any new HYPE move as high-interest.
-- BTC: KillaXBT (bullish HTF swing long ~75-90% exposed, aggressively accumulating spot, eyes 160K; LTF scalp-shorts small) + HeartCanHodl (spot long hedged 2x short ~63-64k, 63k key, <60k "freefall") + Crypto_Chase (cautious/flat, broke weekly 200 EMA, no upside until strong close >63). **X adds:** Stoiiic (basing ~65 pivot, needs aggressive spot buying), trading_axe (contrarian-bullish — couldn't break <60K), swarmister (bearish, real bottom 40-50k, 60k a liquidity trap), t_in_crypto (cautious, more downside, two profit-take windows), ryzzqq (capitulation phase begins), abetrade (no bottom yet — needs capitulation or price-sensitive demand), bull_genius (tactical short stopped BE), Bitcoin_Astro (watching turning point). Group lean: MIXED, cautious near-term — KillaXBT the lone aggressive HTF bull; most others expect chop/lower before the real bottom.
-- ZEC: Crypto_Chase (called it to zero on the hack — dodged) + HeartCanHodl (short, sizeable, +2% re-add 06-08T16:12Z, target eventually 320/<190). **X adds:** trading_axe (strongly bearish — "you're being clowned"), bull_genius (short above 400 on a liq candle, "done for a while"), Wild_Randomness (tracking the Q4-2025 analog, projection serving as pico-top resistance). Group lean: STRONGLY BEARISH (consensus short/avoid).
-- WLD: HeartCanHodl short (part of the short basket, called it the new "biggest loser") vs abetrade (constructive LONG — liquid OpenAI-IPO beta proxy, break from 6-mo accumulation, holding 200D SMA) + bull_genius (AI-bracket mean-reversion bounce candidate). Group lean: CONTESTED — HCH short vs abetrade/bull_genius constructive. NEW overlap from X.
-- SOL: KillaXBT ("time to start bidding," won't drop <$40, small long) + HeartCanHodl (spot long, hedged) + Crypto_Chase (wait for deviation-below + weekly reclaim) + swarmister (bearish but might buy spot 50-56). Group lean: MIXED — constructive-on-dip / accumulate, no one outright short. NEW overlap from X.
-- VVV: HeartCanHodl short (3x) vs bull_genius (AI-bracket mean-rev long-lean — "VVV looks best" on the bounce) + Wild_Randomness ($VVV = Venice.ai, "Fc venice"). Note: grok flagged an uncapped owner-only mint() on the Base contract (supply risk). Group lean: CONTESTED. NEW overlap from X.
+## Overlap tickers (mentioned by 2+ watched traders this window)
+- **BTC**: KillaXBT (2X swing long, HTF-bullish, "bear cycle ending"; small LTF scalp short hedge filled 67.2K) + HeartCanHodl (majors spot long, but trimming/covering >50% into 66–67k) + Crypto_Chase (FLAT, resting bids below, watching). Group lean: **MIXED → cautiously constructive near-term** — BTC rallied into 66–67k on the Iran-deal resolution + FOMC. Killa still the lone aggressive HTF bull; HCH de-risking the long into strength; Chase flat and waiting for a flush.
+- **SpaceX / SPCX** (pre-IPO / IPO proxy): HeartCanHodl (NEW 1% 2x short, 06-16) + Crypto_Chase (watching the lingering SpaceX IPO as an unresolved market factor). Group lean: **bearish/cautious** — HCH actively short; Chase treats the IPO as overhang. NEW overlap this run.
 
 ## Kyle's explicit watch list
-- $HYPE — CONTESTED (Chase flat w/ bullish bias, HCH short). Active overlap ticker.
-- $NVDA (traded as $NVDL on Kraken) — Chase cut at 208.7 for minor profit, now flat; sees possible AI-bubble pop, rotating to INTC/MU instead. **X adds:** Wild_Randomness building a Jan-27 leaps position (sold July calls ~221, rotated August + Jan-27) — net constructive long-term. Now a 2-trader ticker.
-- $Gold (normalize: $GC, $XAUUSD, $GLD, $GOLD, $XAU → one) — Chase FLAT: stopped out 06-08T11:57Z, blamed Trump ceasefire front-running his stock bids. **X adds:** swarmister took a HTF swing SHORT (+7.1%), plans to flip LONG at 4200 (his gold-bottom call). Now a 2-trader ticker.
+- $HYPE — HCH's HYPE short was NOT mentioned this window; status unconfirmed (assume reduced/closed until monitor says otherwise).
+- $NVDA (traded as $NVDL on Kraken) — no Discord activity this window.
+- $Gold (normalize: $GC, $XAUUSD, $GLD, $GOLD, $XAU → one) — Crypto_Chase's primary resting-bid instrument right now: bids front-run ~1% by the peace deal; waiting for a clean flush of his level to bid. (X-stale: swarmister short $XAU, planning a long flip @4200.)
 
-## Quiet tickers (single-trader mentions, tracked silently)
-- LAB: HeartCanHodl short (~1x, half the book, re-added 2% at $13 on 06-07).
-- VVV: HeartCanHodl short (3x), added 06-06 and 06-07, rebalanced ~15.8.
-- WLD: HeartCanHodl short (part of the short basket).
-- BIO ($BIO / Bio Protocol): HeartCanHodl short, 1% 2x, NEW 06-08T15:10Z (starter size, LTF-weakness short basket).
-- ETH / SOL: HeartCanHodl spot longs, hedged 2x short ~63-64k (move with BTC); ETH lows called "great MTF/HTF price".
-- INTC: Crypto_Chase watching, bid low 90s–mid 80s (would lose ~3R if Intel→mid-70s + Micron→low-600s).
-- MU (Micron): Crypto_Chase watching ~790–820 + HeartCanHodl SHORT (one of his two public stock names — X). Now 2-trader, bearish/contested.
-- Silver: Crypto_Chase ~53 good for spot (start of the previous uptrend).
-- S&P / SPY / ES: Crypto_Chase bid level set for a strong multi-week pullback.
-- NVDA: see watch list above — now 2-trader (Chase flat, Wild_Randomness building Jan-27 leaps).
+## Single-trader / quiet tickers (tracked silently)
+- **ZEC**: HeartCanHodl — short, highest-conviction; actively scaling/adding (06-15: after low-400 take-profits, +2% then +1% 2x). (X-stale: trading_axe & bull_genius also bearish.)
+- **TAO**: HeartCanHodl — short, NEW 06-13 (2x 1%).
+- **VVV**: HeartCanHodl — short (confirmed live in the 06-16 rebalance basket).
+- **XPL**: HeartCanHodl — short, NEW this window (06-16 rebalance basket).
+- **TON**: HeartCanHodl — short, NEW this window (06-16 rebalance basket).
+- **ETH / SOL**: HeartCanHodl — spot longs, trimmed alongside BTC into the rally.
+- **Silver**: Crypto_Chase — watching, undecided ("something like this perhaps but I don't know yet").
 
-## X-sourced tickers (new from `trader-x-bootstrap` 2026-06-08 — mostly equities/macro)
-- $QQQ / $SPX / $SPCX: Wild_Randomness — tactically LONG June-30 $QQQ calls (fading weakness), thinks "transition to phase 2" upon us; also holds dated index/ETF puts. Active equities-hedge book.
-- $COIN: Wild_Randomness — ~80% of position is PUTS (bearish, part of Aug-Oct put book).
-- $SOXL / semis: Wild_Randomness LONG $SOXL (filled 172) vs HeartCanHodl bearish semis ($MU/$SNDK shorts, flagged $SOXL -30% session). Contested semis read.
-- $SNDK: HeartCanHodl SHORT (one of his two public stock names).
-- $NBIS: Wild_Randomness LONG ("back in", 06-08).
-- $LIT: Wild_Randomness watching 1.30 as a final-stand level (sold higher; delete off watchlist below 1.30).
-- $AMAT: Wild_Randomness entry note 06-08.
-- $WMT: Wild_Randomness exited a 2-day counter-trend long ~+65% (options) 06-05 — closed.
-- $CL (oil): swarmister LARGE LONG (entry 89.5, adding on China-reserves / Strait-closed shortage thesis). Non-crypto macro.
-- $ETH: swarmister bearish ($800 target) + HeartCanHodl spot long hedged. 2-trader, bearish/cautious.
-- $TOTAL3 (alts): Wild_Randomness — alts on "hard mode," chop at best; use as a North Star for whether longing alts is worth it.
+## Sentiment / contrarian gauges
+- **Ansem as a fade signal** (HeartCanHodl): when Ansem aggressively pushes a crowded narrative or public-shorts, HCH reads it as a "take some profits / find exits" cue (06-15 Ansem public-short above 60k, stop ~1733; 06-16 "by the time he tweets, much of the excitement is already priced in").
+
+## X-sourced tickers — STALE (06-08, X cache empty this run)
+> Kept verbatim from the 2026-06-08 X bootstrap; not refreshed 06-16. `x-trader-monitor` will update.
+- $WLD: HeartCanHodl short vs abetrade long / bull_genius bounce candidate — contested.
+- $MU / $SNDK: HeartCanHodl short (his two public stock names); $SOXL contested (Wild_Randomness long vs HCH semis-bearish).
+- $QQQ / $SPX: Wild_Randomness tactically long Jun-30 QQQ calls + dated index puts.
+- $COIN: Wild_Randomness ~80% puts (bearish).
+- $NBIS / $AMAT / $NVDA Jan-27 leaps: Wild_Randomness long/building.
+- $CL (oil): swarmister large long (entry 89.5, Strait-of-Hormuz shortage thesis).
+- $TOTAL3: Wild_Randomness — alts on "hard mode."

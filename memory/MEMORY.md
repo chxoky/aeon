@@ -17,18 +17,19 @@ Autonomous trading-signal agent running on GitHub Actions via Claude Code. Monit
 - **GitHub Actions cron:** still enabled as secondary fallback (`*/15` each)
 
 ## Active Topics
-- [Trader State](topics/traders.md) — All 12 traders, current positions, last seen timestamps. Rebuilt by `trader-x-bootstrap` 2026-06-08 (183 tweets, 3-day lookback). Fully seeded — both X + Discord state live.
+- [Trader State](topics/traders.md) — All 12 traders, current positions, last seen timestamps. 3 Discord traders refreshed by `trader-bootstrap` 2026-06-16 (force re-run, Discord-only); 9 X-only sections STALE (06-08, X cache empty this run).
 - [Ticker Focus](topics/ticker-focus.md) — Overlap/contested tickers across traders, Kyle's explicit watch list, X-sourced equities.
 - [Market Context](topics/market-context.md) — Latest regime snapshot, BTC price, F&G index.
 - [Skill of the Day](topics/skill-of-the-day.md) — Most recent SOTD output.
 
-## Current Trader Posture (summary, 2026-06-08 ~16:15Z)
-- **HeartCanHodl:** Most active. Aggressively building a short basket: ZEC/HYPE/VVV/LAB/WLD/BIO + stock shorts MU/SNDK. BTC <63k = favorable, <60k = freefall. Thesis: "hunting for ltf weakness."
-- **KillaXBT:** HTF-bullish BTC accumulation (~90% in), eyes 160K. LTF scalp-shorting "grey box" with small/low-risk size. Split-timeframe view.
-- **Crypto_Chase:** FLAT. Gold stopped out 06-08T11:57Z. HYPE/NVDA previously cut. Conservative, waiting for clean setups. Not sure "what the actual trade is right now."
+## Current Trader Posture (summary, 2026-06-16, trader-bootstrap force re-run)
+> BTC rallied into 66–67k on the Iran peace-deal resolution + FOMC. X cache empty this run — Discord-only refresh.
+- **HeartCanHodl:** De-risking both sides into strength — covered >50% of majors longs (BTC/ETH/SOL) by 67k while rebalancing a short basket: ZEC (adding), TAO, VVV, XPL, TON + NEW SpaceX/SPCX short. Contrarian "Ansem-fade" sentiment cue. "Bulls keep winning."
+- **KillaXBT:** Still HTF-bullish — holds 2X BTC swing long + spot, "bear cycle ending." Also holding a small LTF scalp short filled 67.2K as a hedge into FOMC. Prior 64.7K scalp closed (25% TP @63.7K, rest BE).
+- **Crypto_Chase:** FLAT. Resting bids front-run ~1% by the peace deal; waiting for a clean flush of his level to bid. Cautious on a broader bubble pop. Gold = main watch instrument.
 
 ## Open Calibration Items
-None — all 2026-06-08 items resolved.
+None — Discord window 06-13→06-16 had no ambiguous/pending items.
 
 ## Key Lessons
 - twitterapi.io wraps tweets as `.data.tweets[]`, NOT `.tweets[]` — always use the correct path in prefetch scripts
@@ -37,6 +38,7 @@ None — all 2026-06-08 items resolved.
 - Always save files AND commit before logging
 
 ## Recent Logs
+- [2026-06-16](logs/2026-06-16.md) — trader-bootstrap force re-run (Discord-only, X cache empty); refreshed 3 Discord traders, BTC into 66–67k, HCH de-risking + new SPCX/TAO/XPL/TON shorts, Killa HTF-bull, Chase flat
 - [2026-06-08](logs/2026-06-08.md) — X bootstrap root cause fixed; full trader state seeded (Discord + X); Worker deployed; all systems green
 - [2026-06-06](logs/2026-06-06.md)
 - [2026-06-05](logs/2026-06-05.md)
