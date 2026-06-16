@@ -20,6 +20,7 @@
 - **[AMBIGUOUS — 2026-06-09T22:12:06Z, TradFi channel]** "War literally restarts and there's no response from ES" (possibly follow-up to earlier ES message same day). Cryptic reference to geopolitical event + market reaction. Sent calibration alert 06-16T** for Kyle's context.
 - **[AMBIGUOUS — 2026-06-10T13:38:26Z, TradFi channel]** "Didn't catch it." Short, conversational, no referenced-message context. Likely a response to a member question (what did you miss — trade, message, move?). Sent calibration alert 06-16T** for Kyle to clarify.
 - **[AMBIGUOUS — 2026-06-10T19:31:36Z, Crypto channel (supporting)]** "You got these equal lows left behind below. I don't even know. Probably goes even lower." Technical market read about price levels (equal lows pattern, downside direction). Cryptic phrasing makes classification unclear — is he commenting on a chart pattern (informational), expressing conviction update, or responding to a member? Sent calibration alert 2026-06-16 for Kyle's interpretation.
+- **[AMBIGUOUS — 2026-06-14T18:42:34Z, TradFi channel (supporting)]** "https://x.com/DeItaone/status/2066199715801153872 well let's see if it's signed today." Chase sharing external X post (from DeItaone, not his own) with vague commentary. Context of referenced post unknown — cannot interpret Chase's intent without viewing the linked post. Is this about geopolitical news, SpaceX IPO, or market commentary? Sent calibration alert 2026-06-16 for Kyle's read.
 
 ## KillaXBT
 - Platforms: X + Discord (primary: 1411492188315193416)
