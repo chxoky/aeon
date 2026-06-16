@@ -1,4 +1,4 @@
-✅ discord-trader-monitor (2026-06-10T20:13:39Z)
+💬 *[DC: Chase — Crypto]*
 
 Crypto_Chase — TradFi Q&A (supporting channel)
 Message: "Yeah, hopefully just enough to get our bids filled and then they'll act like nothing happened at all and everything will reverse"
@@ -52,3 +52,4 @@ Seen ID: 1514361928875773952 tracked
 💬 *[DC: Chase — TradFi]*
 
 No I'm just going to buy current contract and when my broker switches it to September then I'll just roll it over
+It does make sense with AI being the new meta and it's easily bought on something like Robinhood . A lot of people from crypto obviously, you know, could have moved towards that. I still think Bitcoin could perform very well though if we got Scammer out of the picture. With that said I am going to look for trades.
