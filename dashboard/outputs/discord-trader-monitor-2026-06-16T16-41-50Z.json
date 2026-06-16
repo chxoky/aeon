@@ -1,0 +1,81 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor — Calibration"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "header_calibration",
+        "sep1",
+        "stack_conversation",
+        "sep2",
+        "alert_classify"
+      ]
+    },
+    "header_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: Chase — TradFi]",
+        "level": "h3"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_conversation": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "member_msg",
+        "chase_msg"
+      ]
+    },
+    "member_msg": {
+      "type": "Text",
+      "props": {
+        "text": "↩️ Member: \"you cutting LPTH or holding?\"",
+        "variant": "body"
+      }
+    },
+    "chase_msg": {
+      "type": "Text",
+      "props": {
+        "text": "Crypto_Chase: \"I said exactly what I'm doing with it in the stream yesterday\"",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_classify": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to Classify",
+        "message": "The referenced stream discussion isn't available. What's your read on the LPTH position (cutting or holding)?",
+        "type": "warning"
+      }
+    }
+  }
+}
