@@ -1,0 +1,23 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "message_1"
+      ]
+    },
+    "message_1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Chase",
+        "handle": "DC: TradFi",
+        "text": "I'll just intraday trade ES every day"
+      }
+    }
+  }
+}

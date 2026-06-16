@@ -13,6 +13,7 @@
 - $Gold (normalize: $GC, $XAUUSD, $GLD, $GOLD, $XAU → one) — Crypto_Chase's primary resting-bid instrument (bids front-run ~1% by the peace deal; waiting for a clean flush). **X (06-16): Wild_Randomness flags a potential 2026 gold low "already in" if Warsh & BOJ "say the right things this week."** Two-trader watch, constructive-on-a-dip.
 
 ## Single-trader / quiet tickers (tracked silently)
+- **ES** (S&P 500 E-mini futures): Crypto_Chase — **intraday trading approach** (06-11T19:38Z: "I'll just intraday trade ES every day" — strategy conviction statement in Q&A channel). Earlier ES activity: rollover strategy statement (06-11), ambiguous "risking some of today's profit from ES" (06-09).
 - **LAB**: HeartCanHodl — **short, RE-ADDED 06-16T13:23Z** ("Add 1x 1% lab short. Will add to it"). Thought closed/reduced from prior window, now clearly re-entering with conviction to scale.
 - **ZEC**: HeartCanHodl — short, highest-conviction; actively scaling/adding (06-15: after low-400 take-profits, +2% then +1% 2x). (No fresh X mention this window.)
 - **TAO** (bittensor): **contested** — HeartCanHodl short (NEW 06-13, 2x 1%) vs **bull_genius watching for a dip to get LONG** (OI ripped +60%, currently sidelined, 06-13 X).
