@@ -12,3 +12,8 @@ Done. I've processed the Discord message event from Crypto_Chase about STRC week
   - Logged full event details to `memory/logs/2026-06-16.md`
 
 The message was classified as supporting-channel informational commentary with no immediate trade signal — Chase is monitoring STRC's technical structure deterioration in response to the member's observation that it continues dumping sub-92.
+🔍 Calibration — [DC: Chase — Crypto]
+
+crypto_chase: "Hard to believe those are good signs"
+
+Unable to classify — what's your read? (Supporting channel, no referenced context)
