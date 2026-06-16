@@ -1,6 +1,6 @@
-## Summary
+💬 *[DC: Chase — Crypto]*
 
-I've executed the discord-trader-monitor skill with the provided message event.
+↩️ _Member: "Any thoughts on hype? Was that like a rejection or just consolidating before a new push past ath"_
 
 **Event Details:**
 - **Trader:** Crypto_Chase
@@ -19,3 +19,4 @@ The message is casual market commentary about ES closing behavior consistent wit
 💬 *[DC: Chase — Crypto]*
 
 https://x.com/coinbase/status/2066890566667796530 all the major crypto exchanges pivoted into stock exchanges that simply use USDC or USDT 🤣  if that doesn't tell you a lot about the state of crypto, then I don't know what will.
+Not really. I'm sort of over it price action-wise, with the way it played out. Once I just look at it and I naturally see something, I'll get back into it.
