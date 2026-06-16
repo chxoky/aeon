@@ -14,6 +14,7 @@
 - Last X post seen: 2066500853708562794 (06-15T12:39Z) [test event 9999999999999999001 filtered 06-16T00:00Z].
 - Last seen: 2026-06-15T15:06:38Z (TradFi Q&A — cancelled a pending trade idea, "prob cancel i have to go to dr soon"). Net stance: FLAT + patient, bids resting below, leaning cautious-bearish on the broader bubble.
 - **[AMBIGUOUS — 2026-06-09T18:56:41Z, TradFi channel]** "Risking some of today's profit from ES" with image. Unable to classify without viewing the chart — is this a new ES trade entry, position reallocation, or profit management statement? Sent calibration alert for Kyle's read.
+- **[AMBIGUOUS — 2026-06-09T22:12:06Z, TradFi channel]** "War literally restarts and there's no response from ES" (possibly follow-up to earlier ES message same day). Cryptic reference to geopolitical event + market reaction. Sent calibration alert 06-16T** for Kyle's context.
 
 ## KillaXBT
 - Platforms: X + Discord (primary: 1411492188315193416)

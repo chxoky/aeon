@@ -1,4 +1,4 @@
-🔍 *Calibration — \[DC: Chase — TradFi\]*
+🔍 *Calibration — [DC: Chase — TradFi]*
 
 Second image-only message from Crypto_Chase in TradFi channel (50 min apart).
 
@@ -20,3 +20,8 @@ Processed Discord trader monitor event for Crypto_Chase:
 **Classification:** Non-financial / banter → skip, log only (no alert).  
 **Status:** ✓ Message deduped (added ID 1513991899827142717 to seen list), logged to 2026-06-16.md, no notification sent.
 Unable to view chart attachment or infer context from empty text — what's your read? Is this a new trade entry, position reallocation, or just market observation?
+Event: Earlier same-day message (06-09 18:56Z) mentioned risking profit from ES with a chart.
+
+crypto_chase: "War literally restarts and there's no response from ES"
+
+Unable to classify — does this relate to the earlier ES trade setup? What's your read?
