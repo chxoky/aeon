@@ -378,17 +378,16 @@ async function sendTelegram(env, chatId, text) {
   for (let i = 0; i < text.length; i += MAX) chunks.push(text.slice(i, i + MAX));
 
   for (const chunk of chunks) {
-    try {
-      await fetch(
-        `https://api.telegram.org/bot${env.TELEGRAM_BOT_TOKEN}/sendMessage`,
-        {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ chat_id: chatId, text: chunk, parse_mode: 'Markdown' }),
-        }
-      );
-    } catch (e) {
-      // Retry without markdown if parse fails
+    const resp = await fetch(
+      `https://api.telegram.org/bot${env.TELEGRAM_BOT_TOKEN}/sendMessage`,
+      {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ chat_id: chatId, text: chunk, parse_mode: 'Markdown' }),
+      }
+    );
+    if (!resp.ok) {
+      // Retry without markdown — Telegram returns 400 on malformed entities, fetch won't throw
       await fetch(
         `https://api.telegram.org/bot${env.TELEGRAM_BOT_TOKEN}/sendMessage`,
         {
