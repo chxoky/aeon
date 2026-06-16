@@ -1,0 +1,131 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor — Calibration"
+      },
+      "children": [
+        "calibration_section",
+        "sep1",
+        "message_section",
+        "sep2",
+        "classification_section"
+      ]
+    },
+    "calibration_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cal_heading",
+        "cal_text"
+      ]
+    },
+    "cal_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration",
+        "level": "h3"
+      }
+    },
+    "cal_text": {
+      "type": "Text",
+      "props": {
+        "text": "DC: Chase — TradFi",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "msg_heading",
+        "msg_date",
+        "msg_channel",
+        "msg_quote",
+        "analysis_heading",
+        "analysis_text"
+      ]
+    },
+    "msg_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Message",
+        "level": "h3"
+      }
+    },
+    "msg_date": {
+      "type": "Badge",
+      "props": {
+        "text": "2026-06-09 (old event re-triggered)",
+        "variant": "outline"
+      }
+    },
+    "msg_channel": {
+      "type": "Text",
+      "props": {
+        "text": "Source: Chase's TradFi Q&A supporting channel",
+        "variant": "caption"
+      }
+    },
+    "msg_quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"At least I got one fill to profit\"",
+        "variant": "lead"
+      }
+    },
+    "analysis_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Analysis",
+        "level": "h4"
+      }
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Message is cryptic about which fill/instrument and predates his recent state update. As of 2026-06-15, Chase was FLAT with resting bids.",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "question"
+      ]
+    },
+    "question": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification Question",
+        "message": "Should old/cryptic supporting-channel updates be treated as standalone informational alerts, or folded into traders.md only? What's your read on this one?",
+        "type": "info"
+      }
+    }
+  }
+}
