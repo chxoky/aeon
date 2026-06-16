@@ -1,6 +1,7 @@
-## Summary
+🔍 *Calibration — [DC: Chase — Crypto]*
 
-I've executed the Discord Trader Monitor skill for the provided event. Here's what happened:
+Standalone message from crypto_chase, 2026-06-09T14:07Z:
+"no retest tho 🙁"
 
 **Event Details:**
 - **Trader:** Crypto_Chase
@@ -28,3 +29,4 @@ Executed `discord-trader-monitor` skill with the provided event (HeartCanHodl, Z
 - Classification: conviction-add on ZEC short position
 - Fast-path alerted: true
 - Log entry: appended to `memory/logs/2026-06-16.md`
+Unable to classify — what's your read? (Contextless in supporting channel; no member Q referenced.)
