@@ -50,3 +50,6 @@ Something like this perhaps but I don't know yet
 
 Message from Crypto_Chase (Chase — TradFi) already seen. ID 1516096607500636181 was previously processed and remains in dedup cache. No new alert sent. Logged as re-trigger.
 _via Discord — Chase — Crypto_
+*[DC: Chase — Crypto]*
+
+It's not a high-quality trade. The high-quality trade I already missed. Not sure what else to say
