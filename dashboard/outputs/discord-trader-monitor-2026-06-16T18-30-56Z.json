@@ -1,0 +1,68 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "heading_calibration",
+        "sep1",
+        "text_event",
+        "tweetcard_member",
+        "text_chase",
+        "alert_unable"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: Chase — TradFi]",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Member farmerfroom asked about fill status",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "tweetcard_member": {
+      "type": "TweetCard",
+      "props": {
+        "author": "farmerfroom",
+        "text": "Did you get your fill? Looks like it hit 343.63..but on Hyperliquid only 346 so missed my bid..."
+      },
+      "children": []
+    },
+    "text_chase": {
+      "type": "Text",
+      "props": {
+        "text": "Chase: [image attachment, no text]",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "alert_unable": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's Chase saying? Fill confirmation, missed bid, chart annotation, or something else?",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}
