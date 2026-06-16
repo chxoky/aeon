@@ -59,8 +59,7 @@ export default {
   },
 
   async scheduled(event, env, ctx) {
-    // Discord polling temporarily disabled — re-enable once chart-request is stable
-    // ctx.waitUntil(pollDiscord(env));
+    ctx.waitUntil(pollDiscord(env));
   },
 };
 
@@ -145,7 +144,7 @@ async function handleTwitter(request, env, ctx) {
 
   if (!tweet) return new Response('OK');
 
-  const username = tweet.screen_name ?? tweet?.author?.username ?? 'unknown';
+  const username = tweet.screen_name ?? tweet?.user?.screen_name ?? tweet?.user?.username ?? tweet?.author?.username ?? tweet?.author?.screen_name ?? 'unknown';
   const text     = tweet.text ?? '';
   const tweetId  = tweet.id ?? '';
 
