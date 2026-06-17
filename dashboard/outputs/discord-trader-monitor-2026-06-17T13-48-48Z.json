@@ -1,0 +1,23 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor"
+      },
+      "children": [
+        "tweet_1"
+      ]
+    },
+    "tweet_1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Chase",
+        "handle": "Chase",
+        "text": "My overall stock performance for 2026 (this does not include crypto or futures). Unfortunately we came into a period recently where Trump had been signing and cancelling the Iran deal every single day so performance dipped a little bit. And unfortunately we should have got filled on Google and some other big stocks and be in huge profit right now, but the deal was \"signed\" right before all our orders were going to fill. The reason I'm showing this to you guys is because I want it to be clear why I'm always very patient and picky with my trades. It's not just some bullshit I make up to have an excuse for being inactive sometimes. It's because when I take trades, I truly want to have very high confidence in them and that shows in my win rate. I don't care if it takes a while for my portfolio to grow. I just want it to grow strongly over time. I don't like the feeling of drawdown, I don't like the stress that it brings, I wait for good trades. With that said I'm always watching the markets and looking for the next opportunity. It's just lately it's been hard to find opportunity, in my opinion. Hopefully things turn for the better soon. Thanks for being here and let's keep striving to become better traders."
+      }
+    }
+  }
+}
