@@ -80,7 +80,8 @@
 - X recent activity (bootstrap 06-16): Fully consistent with Discord. Posted a video on the **2X swing long** reasoning (06-13T20:59Z); reaffirms HTF-bull thesis — capitulation low already swept, "the only thing that doesn't quite fit is the timing" (historically Q4, not Q2); "I'm not missing a move to 160K because I'm waiting for another 10% lower." **$SPCX: closed 50% of position, rotating the 20% gains into BTC native spot** (06-15T21:32Z) — overvalued fundamentally but rode the low-float squeeze. BTC levels: watching 67.2-68.5K; flip 67.4-67.5K → 70.3K; expects range not nuke before FOMC (priced in); LTF scalp-short edge — "could've shorted every Monday pump for 5 weeks and won."
 - Open positions detected (X): BTC 2X swing long + spot (intact, HTF-bull); $SPCX 50% closed → BTC spot.
 - Last X post seen: 2066665534997832008 (06-15T23:33Z).
-- Last seen: 2026-06-17T10:24:56Z (Discord primary — executing 25% TP at 64.9K on scalp short, moving SL to BE at 67.2K).
+- **[POSITION MANAGEMENT REINFORCEMENT — 2026-06-17T19:32:34Z, Discord primary]** "BE on the remainder of the short wasn't hit despite the scam pump. The plan remains: either sub-$60K or BE on the rest. No reason to take profits early. If $BTC loses 64K, things can get bloody very quickly." — Follow-up reinforcement of LTF scalp-short position parameters: no fill yet on sub-60K target, defending break-even (67.2K) on remainder after 25% TP taken at 64.9K (06-17T10:24Z). Risk clarity: ready to manage if BTC loses 64K support. Fast-path Telegram alert already sent by Cloudflare Worker at event time; processed for memory only (message_id: 1516888304895656016).
+- Last seen: 2026-06-17T19:32:34Z (Discord primary — position management reminder on scalp short).
 
 ## HeartCanHodl
 - Platforms: X + Discord (free/public: 1472153627324842057; primary/most-important: 1279738718680256553; comments: 1393137051108507728; premium chat: 1023638573313966212)
