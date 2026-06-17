@@ -1,3 +1,13 @@
-💬 *[DC: Chase — Chase]*
+💬 *[DC: Chase — Crypto]*
 
-My overall stock performance for 2026 (this does not include crypto or futures). Unfortunately we came into a period recently where Trump had been signing and cancelling the Iran deal every single day so performance dipped a little bit. And unfortunately we should have got filled on Google and some other big stocks and be in huge profit right now, but the deal was "signed" right before all our orders were going to fill. The reason I'm showing this to you guys is because I want it to be clear why I'm always very patient and picky with my trades. It's not just some bullshit I make up to have an excuse for being inactive sometimes. It's because when I take trades, I truly want to have very high confidence in them and that shows in my win rate. I don't care if it takes a while for my portfolio to grow. I just want it to grow strongly over time. I don't like the feeling of drawdown, I don't like the stress that it brings, I wait for good trades. With that said I'm always watching the markets and looking for the next opportunity. It's just lately it's been hard to find opportunity, in my opinion. Hopefully things turn for the better soon. Thanks for being here and let's keep striving to become better traders.
+↩️ _Member: "of course he's got a 95% win rate on stocks, I join the discord, take the HYPE trade"_
+
+**Winrate hierarchy:** stocks > futures (ES/gold/etc) > crypto. Crypto is his lowest performing asset.
+
+**HYPE chart lesson:** If HYPE were a stock, it would have played as expected. Crypto price action itself is inherently erratic vs equities.
+
+**Macro interference:** Iran peace-deal headlines (signed/unsigned/signed again daily) disrupted his stock win rate — forced to absorb repeated whipsaws on setup timing.
+
+**Core conviction:** Logical trade reasoning doesn't guarantee execution success in rare/disruptive scenarios. His broader thesis (stocks > crypto structurally) remains intact.
+
+_Supporting-channel elaboration on 13:42Z conviction philosophy. Fast-path did not fire._
