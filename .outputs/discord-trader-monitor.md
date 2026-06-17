@@ -1,6 +1,6 @@
-## Skill Execution Complete
+↩️ _Member: "are you playing this on low leverage or spot only?"_
 
-**Event processed:** Discord message from Crypto_Chase at 2026-06-17T14:04:04Z
+💬 *[DC: Chase — TradFi]*
 
 **Classification:** 🚨 **Trade Signal — New Entry**
 - **Ticker:** SPCX (SpaceX)
@@ -22,3 +22,4 @@
 💬 *[DC: Chase — TradFi]*
 
 I'd probably trim like 70% at that point and let the other 30% run for a bit with a trailed stop or something
+I don't use leverage on anything except for crypto trades and that's only because I don't keep a large amount of USDT in crypto . And yeah leverage doesn't matter at all, as long as your stop loss is before your liquidation price and you know how much you're going to be losing upon SL and you're comfortable with that amount
