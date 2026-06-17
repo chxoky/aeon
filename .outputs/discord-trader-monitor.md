@@ -15,3 +15,10 @@ I've processed the Discord trader-monitor real-time event. Here's what I found a
 5. ✅ Skipped alerting (no Telegram message sent) — this is non-trading content
 
 **Result:** Silent skip per skill guidelines. The channel management announcement carries no trading signal or market information, so it was processed for memory only without notifying Kyle.
+*💬 [DC: HCH — Free]*
+
+Crypto folks topped spcx with their mentions 🗿
+
+_via Discord — HCH Free_
+
+Sentiment validation on his recent SPCX short (added 06-16, thesis: crypto crowd consistently tops equities).

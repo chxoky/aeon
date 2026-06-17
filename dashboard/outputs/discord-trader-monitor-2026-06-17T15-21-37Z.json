@@ -1,0 +1,89 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor: SPCX Sentiment",
+        "description": "Crypto crowd sentiment validation on SPCX short"
+      },
+      "children": [
+        "header-stack",
+        "sep1",
+        "message-text",
+        "sep2",
+        "footer-stack"
+      ]
+    },
+    "header-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "emoji-text",
+        "source-badge"
+      ]
+    },
+    "emoji-text": {
+      "type": "Text",
+      "props": {
+        "text": "💬",
+        "variant": "lead"
+      }
+    },
+    "source-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "[DC: HCH — Free]*",
+        "variant": "default"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message-text": {
+      "type": "Text",
+      "props": {
+        "text": "Crypto folks topped spcx with their mentions 🗿",
+        "variant": "lead"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "footer-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "source-text",
+        "context-text"
+      ]
+    },
+    "source-text": {
+      "type": "Text",
+      "props": {
+        "text": "via Discord — HCH Free",
+        "variant": "caption"
+      }
+    },
+    "context-text": {
+      "type": "Text",
+      "props": {
+        "text": "Sentiment validation on his recent SPCX short (added 06-16, thesis: crypto crowd consistently tops equities).",
+        "variant": "muted"
+      }
+    }
+  }
+}
