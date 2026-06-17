@@ -40,17 +40,17 @@
 
 ## KillaXBT
 - Platforms: X + Discord (primary: 1411492188315193416)
-- Current open positions (as of 2026-06-15T22:36Z):
+- Current open positions (as of 2026-06-17T10:24Z):
   - BTC — **2X swing long (HTF), open.** Still very bullish higher-timeframe; "the bear cycle is coming to an end" (06-15T15:50Z). Posted a video 06-13T21:00Z on the swing-long position. Carried/intact from prior bootstrap.
   - BTC spot — held alongside the swing.
-  - LTF scalp SHORT — **filled at 67.2K on 06-15T15:49Z, open.** Explicitly "small risk," "mainly a small hedge against my swing long + spot," SSL, "pumping into FOMC so playing it safe." Still on as of 06-15T22:36Z ("so far so good… holding it purely cause of my swing long; could see some more hunts above with FOMC, be careful").
-- Recent thesis/posture: Unchanged split view — bullish HTF (holds the 2X swing + spot), tactical LTF scalp shorts kept SMALL. Scalp-short zone defined as 64.4–65.6K originally (SL 67.5K, target sub-60K), moved first limit to 64.7K. Repeatedly stresses: do NOT confuse small LTF scalps with the much larger HTF swing positions.
-- Conviction notes: Low-leverage, long-horizon swing style; scalps are hedges, not directional reversals. Terse, role-pings followers, manages by stream/video. Clear timeframe separation.
+  - LTF scalp SHORT — **filled at 67.2K on 06-15T15:49Z, open. Updated 06-17T10:24Z: taking 25% TP at 64.9K, moving SL to BE (67.2K).** Originally "small risk," "mainly a small hedge against my swing long + spot," SSL, "pumping into FOMC so playing it safe." Position management: partial profit-taking at 64.9K with stop-loss reset to break-even (67.2K), allowing remainder to run with reduced risk.
+- Recent thesis/posture: Unchanged split view — bullish HTF (holds the 2X swing + spot), tactical LTF scalp shorts kept SMALL. Scalp-short zone defined as 64.4–65.6K originally (SL 67.5K, target sub-60K), moved first limit to 64.7K, now executing partial TP at 64.9K. Repeatedly stresses: do NOT confuse small LTF scalps with the much larger HTF swing positions.
+- Conviction notes: Low-leverage, long-horizon swing style; scalps are hedges, not directional reversals. Terse, role-pings followers, manages by stream/video. Clear timeframe separation. Risk-management: scales profits at predetermined levels (25% at 64.9K), moves SL to break-even to protect principal while letting remainder run.
 - Closed this window: prior scalp short (filled ~64.7K, 06-13T21:43Z) → SL to BE 06-14T14:57Z → 25% TP at 63.7K (06-14T18:09Z) → remainder stopped BE (06-14T21:20Z, "BE hit guys after 25% TP at 63.7K").
 - X recent activity (bootstrap 06-16): Fully consistent with Discord. Posted a video on the **2X swing long** reasoning (06-13T20:59Z); reaffirms HTF-bull thesis — capitulation low already swept, "the only thing that doesn't quite fit is the timing" (historically Q4, not Q2); "I'm not missing a move to 160K because I'm waiting for another 10% lower." **$SPCX: closed 50% of position, rotating the 20% gains into BTC native spot** (06-15T21:32Z) — overvalued fundamentally but rode the low-float squeeze. BTC levels: watching 67.2-68.5K; flip 67.4-67.5K → 70.3K; expects range not nuke before FOMC (priced in); LTF scalp-short edge — "could've shorted every Monday pump for 5 weeks and won."
 - Open positions detected (X): BTC 2X swing long + spot (intact, HTF-bull); $SPCX 50% closed → BTC spot.
 - Last X post seen: 2066665534997832008 (06-15T23:33Z).
-- Last seen: 2026-06-15T22:36:14Z (Discord primary — holding the 67.2K scalp short into FOMC, caution on upside hunts).
+- Last seen: 2026-06-17T10:24:56Z (Discord primary — executing 25% TP at 64.9K on scalp short, moving SL to BE at 67.2K).
 
 ## HeartCanHodl
 - Platforms: X + Discord (free/public: 1472153627324842057; primary/most-important: 1279738718680256553; comments: 1393137051108507728; premium chat: 1023638573313966212)
