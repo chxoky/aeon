@@ -1,13 +1,7 @@
-🔍 *Calibration — [DC: Chase — Crypto]*
+🔍 *Calibration — [DC: Chase — TradFi]*
 
-Event: Crypto market commentary / dividend scenario
+Event: Member's technical observation "have these highs. Also swept liq into demand on 5m" (with chart attachment)
 
-**Context**: Chase entered SPCX long 06-17T14:04Z as a tactical dual-purpose play (participate in rally if FOMC bullish, OR create capital for buys on GOOG/Micron/others if macro deteriorates). This msg clarifies: SPCX failure = fill his resting bids on Micron/GOOG. Related primary-channel contingency plan 06-17T15:25Z, 06-17T17:50Z. Supporting-channel reinforcement of existing strategy.
-🔍 *Calibration — [DC: Chase — Crypto]*
+crypto_chase: "Yes and even extremely simple concept would just say trade from inefficiency to inefficiency"
 
-Message: "that is Giga Bearish no lie"
-
-Unable to classify — what's the subject of the bearish call?
-**Crypto_Chase**: "So they're going to have to sell endless amounts of BTC to pay the dividend ???????"
-
-Unable to classify — which entity/project is issuing the dividend? Is this: (1) a specific crypto project's token offering, (2) commentary on corporate BTC holdings + dividend pressure, (3) a meme/sarcastic reaction to market news? What's your read?
+Unable to classify — is this a conceptual explanation of his trading approach, or a specific read on the member's setup?
