@@ -1,0 +1,24 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor",
+        "description": "via Discord — HCH Free channel"
+      },
+      "children": [
+        "tweetcard"
+      ]
+    },
+    "tweetcard": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HCH",
+        "handle": "Free",
+        "text": "One shoe fits all approach: Observing since 2024 and it taught me when Ansem starts aggressively pushing a narrative that nearly everyone is already positioned in…\n\nRetraced the whole pump next day 🗿"
+      }
+    }
+  }
+}
