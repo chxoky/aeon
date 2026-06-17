@@ -1,0 +1,69 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Discord: Chase — TradFi"
+      },
+      "children": [
+        "conversation-stack"
+      ]
+    },
+    "conversation-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "question-part",
+        "response-part"
+      ]
+    },
+    "question-part": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "question-label",
+        "question-text"
+      ]
+    },
+    "question-label": {
+      "type": "Text",
+      "props": {
+        "text": "Member:",
+        "variant": "caption"
+      }
+    },
+    "question-text": {
+      "type": "Text",
+      "props": {
+        "text": "\"do u do any options at all? or u do spot only\"",
+        "variant": "body"
+      }
+    },
+    "response-part": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "response-text"
+      ]
+    },
+    "response-text": {
+      "type": "Text",
+      "props": {
+        "text": "I do options when I have a strong read on direction and time frame but it's more rare than my typical trading",
+        "variant": "body"
+      }
+    }
+  }
+}
