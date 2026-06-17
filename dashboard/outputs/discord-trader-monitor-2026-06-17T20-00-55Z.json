@@ -1,0 +1,174 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor"
+      },
+      "children": [
+        "source-badge",
+        "quote-label",
+        "tweet-card",
+        "separator-1",
+        "context-stack"
+      ]
+    },
+    "source-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DC: Chase — TradFi",
+        "variant": "secondary"
+      }
+    },
+    "quote-label": {
+      "type": "Heading",
+      "props": {
+        "text": "SpaceX Position Context",
+        "level": "h3"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Chase",
+        "handle": "TradFi",
+        "text": "I don't mind if SpaceX shits the bed. That means I'm going to get orders filled on Micron GOOG and other shit. Like I said, that was part of the plan."
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "context-title",
+        "context-explanation",
+        "entry-details",
+        "contingency-details"
+      ]
+    },
+    "context-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "context-explanation": {
+      "type": "Text",
+      "props": {
+        "text": "Chase entered SPCX long 06-17T14:04Z as a tactical dual-purpose play (participate in rally if FOMC bullish, OR create capital for buys on GOOG/Micron/others if macro deteriorates). This msg clarifies: SPCX failure = fill his resting bids on Micron/GOOG.",
+        "variant": "body"
+      }
+    },
+    "entry-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "entry-title",
+        "entry-position",
+        "entry-time",
+        "entry-strategy-type"
+      ]
+    },
+    "entry-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Entry Details",
+        "level": "h4"
+      }
+    },
+    "entry-position": {
+      "type": "Text",
+      "props": {
+        "text": "Position: SPCX Long",
+        "variant": "body"
+      }
+    },
+    "entry-time": {
+      "type": "Text",
+      "props": {
+        "text": "Entry Time: 06-17T14:04Z",
+        "variant": "body"
+      }
+    },
+    "entry-strategy-type": {
+      "type": "Badge",
+      "props": {
+        "text": "Tactical Dual-Purpose",
+        "variant": "default"
+      }
+    },
+    "contingency-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "contingency-title",
+        "contingency-primary",
+        "contingency-plans-list"
+      ]
+    },
+    "contingency-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Contingency Plans",
+        "level": "h4"
+      }
+    },
+    "contingency-primary": {
+      "type": "Text",
+      "props": {
+        "text": "Primary Channel: SPCX failure → fill resting bids on Micron/GOOG",
+        "variant": "body"
+      }
+    },
+    "contingency-plans-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "plan-timestamp-1",
+        "plan-timestamp-2",
+        "plan-supporting-note"
+      ]
+    },
+    "plan-timestamp-1": {
+      "type": "Text",
+      "props": {
+        "text": "Related Plan: 06-17T15:25Z",
+        "variant": "body"
+      }
+    },
+    "plan-timestamp-2": {
+      "type": "Text",
+      "props": {
+        "text": "Related Plan: 06-17T17:50Z",
+        "variant": "body"
+      }
+    },
+    "plan-supporting-note": {
+      "type": "Text",
+      "props": {
+        "text": "Supporting-channel reinforcement of existing strategy",
+        "variant": "caption"
+      }
+    }
+  }
+}
