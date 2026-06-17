@@ -1,0 +1,89 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — [DC: Chase — Crypto]"
+      },
+      "children": [
+        "event_section",
+        "separator1",
+        "link_section",
+        "separator2",
+        "classification_alert"
+      ]
+    },
+    "event_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event_heading",
+        "event_text"
+      ]
+    },
+    "event_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "event_text": {
+      "type": "Text",
+      "props": {
+        "text": "Bare YouTube link shared by crypto_chase in supporting channel with zero explanation"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_heading",
+        "youtube_link"
+      ]
+    },
+    "link_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Link",
+        "level": "h3"
+      }
+    },
+    "youtube_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "https://www.youtube.com/watch?v=aKllbvCaWvo",
+        "href": "https://www.youtube.com/watch?v=aKllbvCaWvo",
+        "source": "YouTube"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification Needed",
+        "message": "Unable to classify without context — is this educational content, market analysis, or off-topic? What's your read?",
+        "type": "info"
+      }
+    }
+  }
+}
