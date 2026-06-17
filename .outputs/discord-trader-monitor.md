@@ -18,3 +18,16 @@ Successfully executed the **discord-trader-monitor** skill for the HCH message e
 6. ✅ Logged to `memory/logs/2026-06-17.md`
 
 No calibration alert needed — message is clear (TP = take profit, established shorthand in HCH's trading vocabulary).
+**Skill execution complete:** Discord Trader Monitor processed a real-time HCH event.
+
+**Event:** HeartCanHodl posted "Tp 1% from altcoins shorts except for lab" at 2026-06-17T13:10:23Z in the HCH — Trades channel (1279738718680256553).
+
+**Classification:** Trade execution — taking profit on 1% of his short basket (ZEC, TAO, SPCX, VVV, XPL, TON) while explicitly carving out LAB, which he re-added with conviction 06-16 and is continuing to scale.
+
+**Actions taken:**
+- ✓ Fast-path check: Cloudflare Worker already sent Telegram alert (~2-5s latency). Skipped re-alert.
+- ✓ Updated `memory/topics/traders.md` with trade execution entry
+- ✓ Added message ID (1516792127525355686) to `memory/discord-trader-seen.txt` to prevent re-alerts
+- ✓ Logged event to `memory/logs/2026-06-17.md` with full classification and context
+
+Kyle received the real-time Telegram notification via the fast-path; AEON handled the slower memory and audit work.
