@@ -1,0 +1,77 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack-all"
+      ]
+    },
+    "stack-all": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading",
+        "text-sharing",
+        "link-post",
+        "text-comment",
+        "separator",
+        "heading-question",
+        "text-question"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: HCH — Chat]",
+        "level": "h2"
+      }
+    },
+    "text-sharing": {
+      "type": "Text",
+      "props": {
+        "text": "Sharing external X post with one-word comment:"
+      }
+    },
+    "link-post": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/i/status/2067161157014610292",
+        "href": "https://x.com/i/status/2067161157014610292"
+      }
+    },
+    "text-comment": {
+      "type": "Text",
+      "props": {
+        "text": "heartcanhodl: \"Tate gone\"",
+        "variant": "lead"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-question": {
+      "type": "Heading",
+      "props": {
+        "text": "Unable to classify",
+        "level": "h3"
+      }
+    },
+    "text-question": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read? (Trade action, position update, external commentary, or something else?)"
+      }
+    }
+  }
+}

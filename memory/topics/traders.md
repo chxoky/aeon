@@ -54,6 +54,7 @@
 
 ## HeartCanHodl
 - Platforms: X + Discord (free/public: 1472153627324842057; primary/most-important: 1279738718680256553; comments: 1393137051108507728; premium chat: 1023638573313966212)
+- **[AMBIGUOUS — 2026-06-17T08:41:42Z, HCH — Chat (supporting)]** Shared external X post link (2067161157014610292) with cryptic one-word commentary: "Tate gone". Unable to determine if this is a position update, trade signal, external news commentary, or personal note without viewing the linked post. No trading language; insufficient context for classification. Sent calibration alert 2026-06-17T** for Kyle's read.
 - Current open positions (as of 2026-06-16T05:36Z) — runs a HEDGED book; this window he is de-risking BOTH sides into the rally:
   - BTC / ETH / SOL — spot **longs, being actively trimmed/covered.** Series of trims: 06-13T22:19Z "take 5% off once again from all three majors" (btc ~64k, eth ~1700, sol same); 06-15T04:21Z "close 5% each from majors long"; 06-15T11:00Z "take profits 2.5% each more"; 06-16T05:36Z "**covered more than 50% (15+15+15+7.5) of long position by 67k**." Net: scaling out of the long leg into strength at 66–67k.
   - ZEC — **short, adding/scaling.** 06-15T07:40Z "scaling again in zec short after low-400 tps… add 2% short"; 06-15T11:14Z "add 1% more on zec, 2x." Highest-conviction short, repeatedly rebuilt.
