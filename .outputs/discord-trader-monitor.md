@@ -11,3 +11,4 @@
 **Core conviction:** Logical trade reasoning doesn't guarantee execution success in rare/disruptive scenarios. His broader thesis (stocks > crypto structurally) remains intact.
 
 _Supporting-channel elaboration on 13:42Z conviction philosophy. Fast-path did not fire._
+Even with the gold trade, we get in the gold trade and all of a sudden Trump says he's going to bomb them harder than he's ever bombed them before . And then right as my next stock and gold orders are about to fill, all of a sudden the deal is signed. It's just been a fucking joke.

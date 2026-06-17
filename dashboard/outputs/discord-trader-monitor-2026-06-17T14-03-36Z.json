@@ -1,0 +1,24 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "tweet_1"
+      ]
+    },
+    "tweet_1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Chase",
+        "handle": "Crypto",
+        "text": "Even with the gold trade, we get in the gold trade and all of a sudden Trump says he's going to bomb them harder than he's ever bombed them before . And then right as my next stock and gold orders are about to fill, all of a sudden the deal is signed. It's just been a fucking joke."
+      },
+      "children": []
+    }
+  }
+}
