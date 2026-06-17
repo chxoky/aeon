@@ -1,0 +1,51 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor"
+      },
+      "children": [
+        "channel_badge",
+        "message_card",
+        "separator_1",
+        "sentiment_badge",
+        "conviction_text"
+      ]
+    },
+    "channel_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Chase — TradFi",
+        "variant": "secondary"
+      }
+    },
+    "message_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Chase",
+        "text": "If Warsh signals dovish, that doesn't automatically rotate equity holders into crypto. Equities will just keep outperforming and crypto will lag behind."
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "sentiment_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Sentiment: Skeptical",
+        "variant": "outline"
+      }
+    },
+    "conviction_text": {
+      "type": "Text",
+      "props": {
+        "text": "Skeptical on crypto benefiting from Fed dovishness; aligns with his FLAT/patient stance on entries.",
+        "variant": "caption"
+      }
+    }
+  }
+}
