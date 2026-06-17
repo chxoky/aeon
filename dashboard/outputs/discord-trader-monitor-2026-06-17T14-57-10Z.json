@@ -1,0 +1,42 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor — Chase"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_message",
+        "link_chart"
+      ]
+    },
+    "tweet_message": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Chase",
+        "text": "Also likely plan for HYPE, will update in a bit if I want to set orders"
+      },
+      "children": []
+    },
+    "link_chart": {
+      "type": "Link",
+      "props": {
+        "label": "Chart attachment",
+        "href": "https://cdn.discordapp.com/attachments/1336082716063694962/1516817378292273162/image.png"
+      },
+      "children": []
+    }
+  }
+}
