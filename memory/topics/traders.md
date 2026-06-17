@@ -57,10 +57,10 @@
 
 ## KillaXBT
 - Platforms: X + Discord (primary: 1411492188315193416)
-- Current open positions (as of 2026-06-17T10:24Z):
+- Current open positions (as of 2026-06-17T16:28Z):
   - BTC — **2X swing long (HTF), open.** Still very bullish higher-timeframe; "the bear cycle is coming to an end" (06-15T15:50Z). Posted a video 06-13T21:00Z on the swing-long position. Carried/intact from prior bootstrap.
   - BTC spot — held alongside the swing.
-  - LTF scalp SHORT — **filled at 67.2K on 06-15T15:49Z, open. Updated 06-17T10:24Z: taking 25% TP at 64.9K, moving SL to BE (67.2K).** Originally "small risk," "mainly a small hedge against my swing long + spot," SSL, "pumping into FOMC so playing it safe." Position management: partial profit-taking at 64.9K with stop-loss reset to break-even (67.2K), allowing remainder to run with reduced risk.
+  - LTF scalp SHORT — **filled at 67.2K on 06-15T15:49Z, open. Updated 06-17T10:24Z: taking 25% TP at 64.9K, moving SL to BE (67.2K).** Originally "small risk," "mainly a small hedge against my swing long + spot," SSL, "pumping into FOMC so playing it safe." Position management: partial profit-taking at 64.9K with stop-loss reset to break-even (67.2K), allowing remainder to run with reduced risk. **Confirmation reminder 06-17T16:28Z: "Remember SL BE is on the rest!" — reaffirming that SL on remainder is at break-even (67.2K) after the 25% profit-taking execution.**
 - Recent thesis/posture: Unchanged split view — bullish HTF (holds the 2X swing + spot), tactical LTF scalp shorts kept SMALL. Scalp-short zone defined as 64.4–65.6K originally (SL 67.5K, target sub-60K), moved first limit to 64.7K, now executing partial TP at 64.9K. Repeatedly stresses: do NOT confuse small LTF scalps with the much larger HTF swing positions.
 - Conviction notes: Low-leverage, long-horizon swing style; scalps are hedges, not directional reversals. Terse, role-pings followers, manages by stream/video. Clear timeframe separation. Risk-management: scales profits at predetermined levels (25% at 64.9K), moves SL to break-even to protect principal while letting remainder run.
 - Closed this window: prior scalp short (filled ~64.7K, 06-13T21:43Z) → SL to BE 06-14T14:57Z → 25% TP at 63.7K (06-14T18:09Z) → remainder stopped BE (06-14T21:20Z, "BE hit guys after 25% TP at 63.7K").
