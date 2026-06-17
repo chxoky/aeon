@@ -19,3 +19,6 @@
 - ✓ Changes committed to git
 
 **Cross-trade context:** This is Chase's first SPCX entry. HeartCanHodl remains short with structural conviction ("crypto crowd tops even stocks"). KillaXBT rode the squeeze and closed 50% at profit. Contrarian positioning emerging.
+💬 *[DC: Chase — TradFi]*
+
+I'd probably trim like 70% at that point and let the other 30% run for a bit with a trailed stop or something
