@@ -22,3 +22,10 @@
 - ✓ Message ID (1516868124874641468) queued to add to `discord-trader-seen.txt`
 
 **Fast-Path Status:** `fast_path_alerted: false` — Full processing performed (Worker did not send Telegram alert), no duplicate alert sent, appropriate for informational reiteration.
+🔍 *Calibration — [DC: Chase — TradFi]*
+
+Missing context: event has no referenced_message.
+
+Crypto_Chase (2026-06-17T18:14:33Z, supporting channel): "I mean it can outperform but not if everything is crashing"
+
+Unable to classify — what's your read?
