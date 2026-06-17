@@ -1,0 +1,137 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "heading_calibration",
+        "sep1",
+        "message_metadata",
+        "message_text",
+        "sep2",
+        "note_context",
+        "sep3",
+        "classification_question",
+        "options_list",
+        "sep4",
+        "question_final"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: Chase — Crypto]",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "message_metadata": {
+      "type": "Text",
+      "props": {
+        "text": "Crypto_Chase (Discord, 2026-06-17T13:30:22Z):",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "message_text": {
+      "type": "Text",
+      "props": {
+        "text": "\"And basically put up fake stats on your website\"",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "note_context": {
+      "type": "Text",
+      "props": {
+        "text": "No referenced message — appears to be a continuation of conversation.",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "classification_question": {
+      "type": "Heading",
+      "props": {
+        "text": "Unable to classify — is this:",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "options_list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "option_exchange",
+        "option_sentiment",
+        "option_response"
+      ]
+    },
+    "option_exchange": {
+      "type": "Text",
+      "props": {
+        "text": "• Commentary on a specific exchange/project?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "option_sentiment": {
+      "type": "Text",
+      "props": {
+        "text": "• Market-structure sentiment?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "option_response": {
+      "type": "Text",
+      "props": {
+        "text": "• Response to a member question?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "question_final": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "lead"
+      },
+      "children": []
+    }
+  }
+}
