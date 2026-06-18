@@ -1,0 +1,191 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor",
+        "description": "🔍 Calibration — DC: Chase — TradFi"
+      },
+      "children": [
+        "main-stack"
+      ]
+    },
+    "main-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "trade-section",
+        "separator-1",
+        "message-section",
+        "separator-2",
+        "analysis-section"
+      ]
+    },
+    "trade-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trade-heading",
+        "trade-stat",
+        "trade-time"
+      ]
+    },
+    "trade-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "SPCX Trade Fill",
+        "level": "h3"
+      }
+    },
+    "trade-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Average Fill Price",
+        "value": "185"
+      }
+    },
+    "trade-time": {
+      "type": "Text",
+      "props": {
+        "text": "Filled at 13:44Z",
+        "variant": "caption"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "message-heading",
+        "message-card",
+        "message-meta"
+      ]
+    },
+    "message-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Discord Message",
+        "level": "h3"
+      }
+    },
+    "message-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Crypto_Chase",
+        "text": "Liquidity to liquidity for old time's sake?"
+      }
+    },
+    "message-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "message-time",
+        "message-context"
+      ]
+    },
+    "message-time": {
+      "type": "Text",
+      "props": {
+        "text": "14:23:40Z",
+        "variant": "caption"
+      }
+    },
+    "message-context": {
+      "type": "Badge",
+      "props": {
+        "text": "no context",
+        "variant": "secondary"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "analysis-title",
+        "analysis-question",
+        "analysis-label",
+        "interp-1",
+        "interp-2",
+        "interp-3",
+        "message-id"
+      ]
+    },
+    "analysis-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Classification Analysis",
+        "level": "h3"
+      }
+    },
+    "analysis-question": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "lead"
+      }
+    },
+    "analysis-label": {
+      "type": "Text",
+      "props": {
+        "text": "Could be:",
+        "variant": "body"
+      }
+    },
+    "interp-1": {
+      "type": "Text",
+      "props": {
+        "text": "(1) Position mgmt commentary on entry vs exit liquidity",
+        "variant": "body"
+      }
+    },
+    "interp-2": {
+      "type": "Text",
+      "props": {
+        "text": "(2) Trading philosophy musing",
+        "variant": "body"
+      }
+    },
+    "interp-3": {
+      "type": "Text",
+      "props": {
+        "text": "(3) Channel context we don't have",
+        "variant": "body"
+      }
+    },
+    "message-id": {
+      "type": "Text",
+      "props": {
+        "text": "Message ID: 1517172955937767465",
+        "variant": "muted"
+      }
+    }
+  }
+}
