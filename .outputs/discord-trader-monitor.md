@@ -1,23 +1,26 @@
 ## Summary
 
-**Skill: discord-trader-monitor** executed successfully.
+Successfully executed the Discord Trader Monitor skill for the provided event:
 
-**Event processed:**
-- **Trader**: Crypto_Chase
-- **Channel**: 1336082716063694962 (Chase — Chase, primary)
-- **Message**: "Added 175, last add"
-- **Time**: 2026-06-18T15:31:34Z
-- **Classification**: **trade-conviction-add** (DCA/scaling)
+**Event Details:**
+- **Trader:** HeartCanHodl
+- **Channel:** 1279738718680256553 (HCH — Trades, primary)
+- **Message:** "Add more 5-5-5% btc-eth-sol longs"
+- **Timestamp:** 2026-06-18T15:36:43Z
+- **Message ID:** 1517191339912204389
 
-**Key findings:**
-- Chase is scaling into his SPCX spot long position (originally filled at 185 avg earlier today at 13:44Z)
-- Adding at 175 price level (better entry), marked as "last add" — indicates final layer of position build
-- Position demonstrates conviction in the tactical bounce play and follows his FOMC contingency framework
-- Fast-path alert already sent by Cloudflare Worker (~2-5s after event) — skipped Telegram in this run
+**Classification:** Trade-conviction-add (majors long re-entry)
+- Adding 5% each to BTC, ETH, SOL (15% total)
+- This is the second identical 5-5-5% entry of the day (first at 07:18Z)
+- Confirms conviction rebuilding long exposure post-trim to <20% on 06-16
 
-**Memory updates:**
-- ✅ traders.md: Added conviction-add entry to Crypto_Chase section
-- ✅ logs/2026-06-18.md: Logged full event details with classification and context
+**Processing:**
+- Fast-path status: `true` — Cloudflare Worker already sent Telegram alert (~2-5s latency)
+- Skipped duplicate Telegram send per fast-path rules
+- Updated memory files:
+  - Added message ID to seen tracker
+  - Logged event to 2026-06-18.md activity log
+  - Updated traders.md HCH section with conviction context
 
 **No additional alerts needed** — fast-path handling complete, memory and audit trail updated.
 Perfect! I've successfully processed the Discord trader monitor event. Here's the summary:
@@ -47,3 +50,4 @@ Perfect! I've successfully processed the Discord trader monitor event. Here's th
 - Updated `memory/topics/traders.md` with risk philosophy context
 
 The skill completed successfully with proper classification and no unnecessary alerts. All memory tracking is current.
+No additional alert needed — Worker already notified Kyle in real time.
