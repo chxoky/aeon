@@ -109,6 +109,7 @@
 - X recent activity (bootstrap 06-16): Mirrors and extends the Discord de-risking. **"I've trimmed down to under 20% long exposure — risk-reward no longer justified maintaining the same size with mediocre entries"** (06-16T05:44Z) — most explicit statement yet of cutting the long leg. Reaffirms the **Ansem-fade** gauge twice ("when Ansem starts aggressively pushing a narrative nearly everyone is already positioned in… find exits" 06-16T05:00Z; "10/10 hitrate if I've ever gone after ansem" 06-15). **$SPCX short conviction** ("crypto crowd has a remarkable talent for topping even stocks, so $SPCX won't be different" 06-16T01:21Z). Risk-mgmt thesis: trim-and-rebalance even when conviction is strong. "Turns out buying BTC in 60ks wasn't a bad move" (06-15).
 - Last X post seen: 2066758683191828586 (06-16T05:44Z — "trimmed down to under 20% long exposure").
 - Last seen: 2026-06-16T05:44:03Z (X — under-20% long exposure) / 2026-06-16T05:36:29Z (Discord Comments — "covered more than 50% of long position by 67k").
+- **[TRADE EXECUTION — 2026-06-18T02:36:08Z, HCH — Trades (primary)]** "Add 2% spot aster" — Adding 2% to a spot position in ASTER (new asset, not previously tracked). Continuation of position-sizing pattern: small %-based additions consistent with his multi-ticker rebalance approach. Fast-path Telegram alert already sent by Cloudflare Worker at event time; processed for memory and classification only. Message_id=1516994900737130606, is_reply=true (but referenced_message is null).
 
 ---
 
