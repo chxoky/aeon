@@ -1,0 +1,246 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor — Calibration"
+      },
+      "children": [
+        "context-section",
+        "separator-1",
+        "message-section",
+        "separator-2",
+        "metadata-section",
+        "separator-3",
+        "calibration-alert"
+      ]
+    },
+    "context-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context-heading",
+        "context-date",
+        "context-prev-msg"
+      ]
+    },
+    "context-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — DC: Chase — TradFi",
+        "level": "h2"
+      }
+    },
+    "context-date": {
+      "type": "Text",
+      "props": {
+        "text": "Crypto_Chase posts in supporting TradFi channel, 2026-06-18 13:46:54 UTC",
+        "variant": "body"
+      }
+    },
+    "context-prev-msg": {
+      "type": "Text",
+      "props": {
+        "text": "Last message was SPCX conviction reaffirmation 51 minutes prior (12:55:56 UTC)",
+        "variant": "caption"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "msg-heading",
+        "msg-text",
+        "img-link"
+      ]
+    },
+    "msg-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Message",
+        "level": "h3"
+      }
+    },
+    "msg-text": {
+      "type": "Text",
+      "props": {
+        "text": "\"so odd\" + image attachment (chart)",
+        "variant": "lead"
+      }
+    },
+    "img-link": {
+      "type": "Link",
+      "props": {
+        "label": "View attached chart",
+        "href": "https://cdn.discordapp.com/attachments/1343971265962049597/1517163703252815922/image.png?ex=6a35484e&is=6a33f6ce&hm=f6165fbd374959ccfc32ec822cac46460c6cc1c0473d7c5bae73a97c6b5166c5&"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "metadata-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "meta-row-1",
+        "meta-row-2"
+      ]
+    },
+    "meta-row-1": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "msg-id-cell",
+        "channel-id-cell"
+      ]
+    },
+    "msg-id-cell": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "msg-id-label",
+        "msg-id-value"
+      ]
+    },
+    "msg-id-label": {
+      "type": "Text",
+      "props": {
+        "text": "Message ID",
+        "variant": "caption"
+      }
+    },
+    "msg-id-value": {
+      "type": "Text",
+      "props": {
+        "text": "1517163703395553341",
+        "variant": "body"
+      }
+    },
+    "channel-id-cell": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "channel-id-label",
+        "channel-id-value"
+      ]
+    },
+    "channel-id-label": {
+      "type": "Text",
+      "props": {
+        "text": "Channel ID",
+        "variant": "caption"
+      }
+    },
+    "channel-id-value": {
+      "type": "Text",
+      "props": {
+        "text": "1343971265962049597 (Chase — TradFi, supporting)",
+        "variant": "body"
+      }
+    },
+    "meta-row-2": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "alert-status-cell",
+        "classification-cell"
+      ]
+    },
+    "alert-status-cell": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "alert-label",
+        "alert-value"
+      ]
+    },
+    "alert-label": {
+      "type": "Text",
+      "props": {
+        "text": "Fast-path alerted",
+        "variant": "caption"
+      }
+    },
+    "alert-value": {
+      "type": "Badge",
+      "props": {
+        "text": "false",
+        "variant": "outline"
+      }
+    },
+    "classification-cell": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "classification-label",
+        "classification-value"
+      ]
+    },
+    "classification-label": {
+      "type": "Text",
+      "props": {
+        "text": "Classification",
+        "variant": "caption"
+      }
+    },
+    "classification-value": {
+      "type": "Badge",
+      "props": {
+        "text": "ambiguous / calibration",
+        "variant": "secondary"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "calibration-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Calibration Request",
+        "message": "Unable to classify — what's your read on the chart and the context? Is this a technical concern on SPCX, BTC levels, or a different conviction shift?",
+        "type": "info"
+      }
+    }
+  }
+}
