@@ -29,3 +29,9 @@ Chase elaborated on his risk management philosophy, specifying:
 ✓ Recorded message ID in daily event tracking
 
 **No Telegram notification sent.** This message reinforced existing risk management context already documented from earlier today (15:34Z), so it was folded into traders.md as supporting-channel elaboration per the skill's Step 7 guidelines.
+🔍 *Calibration — [DC: Chase — TradFi]*
+
+Cryptic message from crypto_chase:
+"As I've said about a hundred times in this Discord,"
+
+Unable to classify — message appears incomplete/truncated. What's your read?

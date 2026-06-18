@@ -1,0 +1,79 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-calibration",
+        "separator-1",
+        "section-message",
+        "alert-classification"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: Chase — TradFi]",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-message": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-message-label",
+        "text-message-content"
+      ]
+    },
+    "text-message-label": {
+      "type": "Text",
+      "props": {
+        "text": "Cryptic message from crypto_chase:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text-message-content": {
+      "type": "Text",
+      "props": {
+        "text": "\"As I've said about a hundred times in this Discord,\"",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "alert-classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Message appears incomplete/truncated. What's your read?",
+        "type": "warning"
+      },
+      "children": []
+    }
+  }
+}
