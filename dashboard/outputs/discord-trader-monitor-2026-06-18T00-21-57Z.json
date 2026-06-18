@@ -1,0 +1,98 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Market catalyst — index inclusion for SpaceX today (06-18)"
+      },
+      "children": [
+        "source-badge",
+        "crsp-section",
+        "ftse-section",
+        "inflows-stat",
+        "separator",
+        "position-alert"
+      ]
+    },
+    "source-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "💬 DC: Chase — TradFi",
+        "variant": "secondary"
+      }
+    },
+    "crsp-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "crsp-label",
+        "crsp-stat"
+      ]
+    },
+    "crsp-label": {
+      "type": "Text",
+      "props": {
+        "text": "CRSP index inclusion",
+        "variant": "body"
+      }
+    },
+    "crsp-stat": {
+      "type": "Stat",
+      "props": {
+        "value": "$4–7B",
+        "label": "Forced buying"
+      }
+    },
+    "ftse-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ftse-label",
+        "ftse-stat"
+      ]
+    },
+    "ftse-label": {
+      "type": "Text",
+      "props": {
+        "text": "FTSE Russell inclusion",
+        "variant": "body"
+      }
+    },
+    "ftse-stat": {
+      "type": "Stat",
+      "props": {
+        "value": "$6–9B",
+        "label": "Forced buying"
+      }
+    },
+    "inflows-stat": {
+      "type": "Stat",
+      "props": {
+        "value": "~$10–16B",
+        "label": "Passive inflows TODAY"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "position-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "SPCX Long Position",
+        "message": "Entered 06-17 at box level (65%/35% split). Supporting fundamental for the tactical bounce thesis.",
+        "type": "info"
+      }
+    }
+  }
+}

@@ -1,7 +1,8 @@
-🔍 *Calibration — [DC: Chase — TradFi]*
+💬 *[DC: Chase — TradFi]*
 
-Event: Member's technical observation "have these highs. Also swept liq into demand on 5m" (with chart attachment)
+Market catalyst — index inclusion for SpaceX today (06-18):
+• CRSP index inclusion: $4–7B forced buying
+• FTSE Russell inclusion: $6–9B forced buying
+→ ~$10–16B passive inflows TODAY
 
-crypto_chase: "Yes and even extremely simple concept would just say trade from inefficiency to inefficiency"
-
-Unable to classify — is this a conceptual explanation of his trading approach, or a specific read on the member's setup?
+Relevant to your SPCX long (entered 06-17 at box level, 65%/35% split). Supporting fundamental for the tactical bounce thesis.
