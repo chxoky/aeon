@@ -17,3 +17,10 @@ This is pure administrative frustration about channel etiquette, not a trade sig
 - ✅ No memory updates needed (non-financial content)
 
 **Next Event:** Ready to process real-time Discord messages. The system is monitoring Crypto_Chase, KillaXBT, and HeartCanHodl across their tracked Discord channels.
+🔍 *Calibration — [DC: Chase — TradFi]*
+
+Event: Supporting-channel message, no prior context (is_reply=false)
+
+crypto_chase: "Things that were posted literally in the initial thesis with a tag"
+
+Unable to classify — what's your read?
