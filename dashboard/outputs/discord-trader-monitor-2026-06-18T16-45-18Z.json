@@ -1,0 +1,94 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — [DC: Chase — TradFi]",
+        "description": "Supporting channel, no referenced context"
+      },
+      "children": [
+        "main-stack"
+      ]
+    },
+    "main-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "quote",
+        "analysis-alert",
+        "position-section",
+        "inquiry"
+      ]
+    },
+    "quote": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Crypto_Chase",
+        "text": "So we will have to wait for next week"
+      }
+    },
+    "analysis-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Waiting for what?\n• FOMC outcome?\n• Next week market volatility?\n• Cleaner entry?",
+        "type": "warning"
+      }
+    },
+    "position-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "position-details",
+        "targets-grid"
+      ]
+    },
+    "position-details": {
+      "type": "Text",
+      "props": {
+        "text": "SPCX long • Filled 185 avg (today) • Contingency targets:",
+        "variant": "body"
+      }
+    },
+    "targets-grid": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "target-bullish",
+        "target-bearish"
+      ]
+    },
+    "target-bullish": {
+      "type": "Stat",
+      "props": {
+        "label": "Bullish",
+        "value": "250"
+      }
+    },
+    "target-bearish": {
+      "type": "Stat",
+      "props": {
+        "label": "Bearish (FOMC)",
+        "value": "160s"
+      }
+    },
+    "inquiry": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "lead"
+      }
+    }
+  }
+}

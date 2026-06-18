@@ -18,3 +18,9 @@ Successfully executed the Discord Trader Monitor skill for the incoming message.
 - Logged event to memory/logs/2026-06-18.md
 - Updated traders.md with win-rate clarification context
 - Processed for memory classification only
+🔍 *Calibration — [DC: Chase — TradFi]*
+
+Event: Supporting channel, no referenced context
+Crypto_Chase: "So we will have to wait for next week"
+
+Unable to classify — waiting for what? (FOMC outcome? next week market volatility? cleaner entry?) Context: he's holding SPCX long (filled 185 avg today with contingency targets 250 bullish/160s bearish FOMC). What's your read?
