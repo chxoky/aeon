@@ -1,0 +1,150 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor — Calibration"
+      },
+      "children": [
+        "heading_dc",
+        "separator1",
+        "event_details",
+        "separator2",
+        "message_card",
+        "separator3",
+        "context_header",
+        "position_stack",
+        "separator4",
+        "classification_alert"
+      ]
+    },
+    "heading_dc": {
+      "type": "Heading",
+      "props": {
+        "text": "DC: Chase — TradFi",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "event_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event_label",
+        "timestamp_text"
+      ]
+    },
+    "event_label": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Real-time Discord message from Crypto_Chase",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "timestamp_text": {
+      "type": "Text",
+      "props": {
+        "text": "2026-06-18T21:31:44Z",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "message_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Crypto_Chase",
+        "text": "That was an hour ago though and futures were still open and they didn't respond"
+      },
+      "children": []
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "context_header": {
+      "type": "Text",
+      "props": {
+        "text": "SPCX Long Position Context",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "position_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_initial",
+        "pos_add",
+        "pos_tp",
+        "pos_sl",
+        "channel_note"
+      ]
+    },
+    "pos_initial": {
+      "type": "Text",
+      "props": {
+        "text": "Initial fill: 13:44Z at 185 avg"
+      },
+      "children": []
+    },
+    "pos_add": {
+      "type": "Text",
+      "props": {
+        "text": "Added: 175 at 15:31Z"
+      },
+      "children": []
+    },
+    "pos_tp": {
+      "type": "Text",
+      "props": {
+        "text": "Partial TP: 33% taken at 19:36Z"
+      },
+      "children": []
+    },
+    "pos_sl": {
+      "type": "Text",
+      "props": {
+        "text": "New stop loss set: 19:37Z"
+      },
+      "children": []
+    },
+    "channel_note": {
+      "type": "Text",
+      "props": {
+        "text": "Posted to: TradFi Q&A (supporting channel, no referenced_message field)",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "separator4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "classification_alert": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Unable to classify",
+        "message": "Cryptic reference to 'an hour ago' when 'futures were still open' and someone 'didn't respond.' Context unclear — Chase appears to be responding to something, but the referenced message is missing or context is ambiguous. What is this message responding to?"
+      },
+      "children": []
+    }
+  }
+}
