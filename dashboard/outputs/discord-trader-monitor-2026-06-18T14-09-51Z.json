@@ -1,0 +1,99 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor — Calibration"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_cal",
+        "text_context",
+        "msg_card",
+        "text_analysis",
+        "alert_chart",
+        "stack_meta"
+      ]
+    },
+    "heading_cal": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — DC: Chase — TradFi",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "Context: Chart attachment (currently unviewable in real-time)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "msg_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Chase",
+        "handle": "DC",
+        "text": "This should be the trap; otherwise it's not a great look but I will of course update when necessary"
+      },
+      "children": []
+    },
+    "text_analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Cryptic take on current market structure. Unable to classify without viewing the chart — is this a bearish technical read (fake pump), a neutral observation, or setup planning? Chart attachment is critical.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "alert_chart": {
+      "type": "Alert",
+      "props": {
+        "title": "Chart Attachment Critical",
+        "message": "Chart attachment is required for full interpretation. Currently unviewable in real-time.",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "stack_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_timestamp",
+        "text_msgid"
+      ]
+    },
+    "text_timestamp": {
+      "type": "Text",
+      "props": {
+        "text": "Timestamp: 2026-06-18T14:04:36Z",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "text_msgid": {
+      "type": "Text",
+      "props": {
+        "text": "Message ID: 1517168160048943386",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
