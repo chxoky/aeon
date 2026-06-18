@@ -110,6 +110,7 @@
 - Last X post seen: 2066758683191828586 (06-16T05:44Z — "trimmed down to under 20% long exposure").
 - Last seen: 2026-06-16T05:44:03Z (X — under-20% long exposure) / 2026-06-16T05:36:29Z (Discord Comments — "covered more than 50% of long position by 67k").
 - **[TRADE EXECUTION — 2026-06-18T02:36:08Z, HCH — Trades (primary)]** "Add 2% spot aster" — Adding 2% to a spot position in ASTER (new asset, not previously tracked). Continuation of position-sizing pattern: small %-based additions consistent with his multi-ticker rebalance approach. Fast-path Telegram alert already sent by Cloudflare Worker at event time; processed for memory and classification only. Message_id=1516994900737130606, is_reply=true (but referenced_message is null).
+- **[TRADE EXECUTION — 2026-06-18T02:42:42Z, HCH — Trades (primary)]** "Add 1% more to 1s lab short" — Adding 1% to the LAB short position (originally entered 06-16T13:23Z with intent to scale). Continuation of conviction scaling into the short position; LAB remains a highest-conviction holding within his multi-ticker short basket (ZEC, TAO, SPCX, VVV, XPL, TON, LAB). Fast-path Telegram alert already sent by Cloudflare Worker at event time; processed for memory and classification only. Message_id=1516996552718160024, is_reply=false.
 
 ---
 
