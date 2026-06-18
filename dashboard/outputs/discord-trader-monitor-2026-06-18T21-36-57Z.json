@@ -1,0 +1,95 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "calibration-badge",
+        "separator1",
+        "event-heading",
+        "event-text",
+        "message-card",
+        "separator2",
+        "classification-status",
+        "question-text"
+      ]
+    },
+    "calibration-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Calibration — DC: Chase — TradFi",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "event-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "event-text": {
+      "type": "Text",
+      "props": {
+        "text": "Discord message in Chase's TradFi supporting channel",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "message-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Crypto_Chase",
+        "text": "So I question the legitimacy"
+      },
+      "children": []
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "classification-status": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "No ticker, no position language",
+        "type": "info"
+      },
+      "children": []
+    },
+    "question-text": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "lead"
+      },
+      "children": []
+    }
+  }
+}

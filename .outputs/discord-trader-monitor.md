@@ -9,3 +9,10 @@ Context: Message posted to supporting channel (TradFi Q&A) without a referenced_
 
 Unable to classify — what's the context/what was Chase responding to?
 
+🔍 *Calibration — [DC: Chase — TradFi]*
+
+Event: Discord message in Chase's TradFi supporting channel
+
+Crypto_Chase: "So I question the legitimacy"
+
+Unable to classify — no ticker, no position language. What's your read?
