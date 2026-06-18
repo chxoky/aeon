@@ -15,3 +15,6 @@
 - No Telegram notification (non-financial content, zero trade signal)
 
 This message is pure social interaction—empathy/support for a member's personal situation with no financial or trading context. Correctly skipped per the skill's hardcoded rules (Step 5A: non-financial banter → skip, log only).
+💬 *[DC: Chase — TradFi]*
+
+If it doesn't continue to blast upwards, that's a telling sign about markets, I would say
