@@ -25,3 +25,6 @@ Perfect. I've successfully processed the Discord trader-monitor event. Here's wh
 - Event marked seen (logged to prevent re-alert)
 
 No additional notification needed — fast-path alert already reached Kyle within seconds.
+💬 *[DC: Chase — Chase]*
+
+SL can now be set below the local low.
