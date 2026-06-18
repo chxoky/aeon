@@ -1,6 +1,7 @@
 I've successfully processed this Discord message through the skill workflow. Here's the summary:
+📌 *[DC: Chase — Chase]*
 
-## Summary
+Good partial TP — uncertain about adding back
 
 **Message Details:**
 - **Event:** Discord message from crypto_chase in Chase — TradFi (supporting) channel
@@ -25,3 +26,4 @@ The message is a community philosophy/morale statement with no trade signals, te
 - ✓ Logged entry to `memory/logs/2026-06-18.md` for audit trail
 
 **Result:** No action required. Message logged for completeness; no notification sent to Kyle.
+Crypto_Chase took 33% TP near 187 on his SPCX long (entered 185 avg, added 175). Price now 182.5. He's reconsidering whether to add back the remainder, says he's "not sure yet."
