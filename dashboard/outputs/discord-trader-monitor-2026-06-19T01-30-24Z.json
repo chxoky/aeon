@@ -1,0 +1,49 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "text_channel_label",
+        "separator_1",
+        "text_member_message",
+        "text_response"
+      ]
+    },
+    "text_channel_label": {
+      "type": "Text",
+      "props": {
+        "text": "💬 [DC: Chase — Crypto]",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text_member_message": {
+      "type": "Text",
+      "props": {
+        "text": "↩️ Member: \"still looking for hype entry?\"",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_response": {
+      "type": "Text",
+      "props": {
+        "text": "no interest in crypto atm. saylor death loop just nuking everything",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
