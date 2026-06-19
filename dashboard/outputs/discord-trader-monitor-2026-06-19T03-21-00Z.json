@@ -1,0 +1,122 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — DC: HCH — Trades"
+      },
+      "children": [
+        "tweet_message",
+        "sep1",
+        "details_stack",
+        "sep2",
+        "question_stack"
+      ]
+    },
+    "tweet_message": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "text": "Fc btc 1hr"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "details_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "channel_text",
+        "time_text"
+      ]
+    },
+    "channel_text": {
+      "type": "Text",
+      "props": {
+        "text": "Channel: 1279738718680256553 (HCH — Trades)",
+        "variant": "caption"
+      }
+    },
+    "time_text": {
+      "type": "Text",
+      "props": {
+        "text": "Time: 2026-06-19T03:18:41Z",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "question_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "question_text",
+        "options_stack"
+      ]
+    },
+    "question_text": {
+      "type": "Heading",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "level": "h4"
+      }
+    },
+    "options_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opt1",
+        "opt2",
+        "opt3",
+        "opt4"
+      ]
+    },
+    "opt1": {
+      "type": "Badge",
+      "props": {
+        "text": "Failed close",
+        "variant": "outline"
+      }
+    },
+    "opt2": {
+      "type": "Badge",
+      "props": {
+        "text": "Funny chart",
+        "variant": "outline"
+      }
+    },
+    "opt3": {
+      "type": "Badge",
+      "props": {
+        "text": "chart pattern",
+        "variant": "outline"
+      }
+    },
+    "opt4": {
+      "type": "Badge",
+      "props": {
+        "text": "other abbreviation",
+        "variant": "outline"
+      }
+    }
+  }
+}
