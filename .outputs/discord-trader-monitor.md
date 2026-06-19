@@ -1,7 +1,5 @@
-🔍 *Calibration — [DC: HCH — Trades]*
+💬 *[DC: HCH — Free]*
 
-HeartCanHodl: "Fc btc 1hr"
-Channel: 1279738718680256553 (HCH — Trades)
-Time: 2026-06-19T03:18:41Z
+We start holding & climbing up as asia close would be a good strength sign
 
-Unable to classify — what's your read? (Failed close / Funny chart / chart pattern / other abbreviation?)
+https://x.com/i/status/2067701501116436573

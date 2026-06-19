@@ -1,0 +1,38 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "badge_source",
+        "text_message",
+        "link_tweet"
+      ]
+    },
+    "badge_source": {
+      "type": "Badge",
+      "props": {
+        "text": "DC: HCH — Free",
+        "variant": "default"
+      }
+    },
+    "text_message": {
+      "type": "Text",
+      "props": {
+        "text": "We start holding & climbing up as asia close would be a good strength sign",
+        "variant": "body"
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "x.com/i/status/2067701501116436573",
+        "href": "https://x.com/i/status/2067701501116436573"
+      }
+    }
+  }
+}
