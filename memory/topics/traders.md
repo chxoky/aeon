@@ -226,5 +226,10 @@
 - Open positions detected: **long $HYPE; $QQQ calls (in profit); $AKT long-lean; gold-low watch; $TSLA/$SPCX constructive.** BTC near-term cautious (Bitfinex-long decline).
 - Last X post seen: 2066737150541140068 (06-16T04:18Z)
 
+## Real-time Discord events (2026-06-20 onward)
+
+### HeartCanHodl
+- **[AMBIGUOUS — 2026-06-20T10:46:49Z, HCH — Chat (supporting)]** "Nb re 15m % oi" — Cryptic shorthand message. Possible interpretations: (1) technical forecast shorthand (15-minute timeframe observation regarding open interest %), (2) market commentary on OI levels, (3) trade-related note, or (4) something else. No referenced_message context, no ticker specified, no position language. Unable to classify without Kyle's interpretation. Calibration alert sent to Kyle for read. Message_id: 1517843157897711748, is_reply: false, fast_path_alerted: false.
+
 BOOTSTRAP_COMPLETE: 2026-06-16
 X_BOOTSTRAP_COMPLETE: 2026-06-16
