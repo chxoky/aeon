@@ -1,22 +1,20 @@
-Perfect! I've successfully processed the Discord trader event. Here's what was executed:
+## Summary
 
-## Event Processing Summary
+Skill execution complete. Processed real-time Discord event from **KillaXBT** (2026-06-20T21:12:55Z):
 
-**Event Details:**
-- **Trader:** HeartCanHodl
-- **Channel:** 1279738718680256553 (HCH — Trades, primary/most-important)
-- **Message ID:** 1517923212845908198
-- **Created:** 2026-06-20T16:04:55Z
-- **Content:** "Cover 5-5-5% each from majors on 64k range over the weekend"
+**Event:** Full exit of LTF scalp short position
+- **Original entry:** 67.2K (2026-06-15T15:49Z) — small hedge against 2X swing long
+- **Partial TP:** 25% taken at 64.9K (2026-06-17T10:24Z, SL to BE 67.2K)
+- **Remaining:** 50% held at BE through 2026-06-20T08:59:24Z
+- **Exit:** Closed remaining 50% at market (2026-06-20T21:12:55Z)
 
-**Classification:** `trade-execution / mirror-partial-tp` (profit-taking on majors)
+**Classification:** Trade execution (exit)
+**Conviction shift:** Near-term upside lean ("Leaning to upside in the near term before downside... trusting my gut")
+**Fast-path status:** ✓ Cloudflare Worker already sent Telegram alert ~2-5s after event — no duplicate Telegram needed
 
-**Action Taken:**
-- **Fast-path Status:** ✓ Telegram alert already sent by Cloudflare Worker (~2-5s latency)
-- **Memory Updated:** 
-  - ✓ Added message ID to discord-trader-seen.txt (1043 → 1044 entries)
-  - ✓ Updated traders.md with new HCH profit-taking entry
-  - ✓ Logged event to memory/logs/2026-06-20.md
-- **Verbatim Rule Applied:** Channel 1279738718680256553 requires exact message text preservation ✓
+**Updated:**
+- ✓ `memory/discord-trader-seen.txt` — message ID 1518000721923014716 tracked
+- ✓ `memory/topics/traders.md` — KillaXBT section with full exit details + conviction shift
+- ✓ `memory/logs/2026-06-20.md` — event log entry appended
 
-**Context:** HCH continues his rebalancing pattern—trimmed majors to <20% at 67k on 06-16, re-added 5-5-5% through 06-18/19, now taking profits at lower 64k zone. Consistent with hedged-book risk management discipline.
+Kyle was notified via Telegram by the fast-path Worker. Position now fully closed, trader aligned with bullish 2X swing long conviction.
