@@ -1,6 +1,7 @@
 🔍 *Calibration — [DC: HCH — Chat]*
 
-Event: Discord message 2026-06-20T10:46:49Z, message ID 1517843157897711748
+Event: Supporting channel member chat
+heartcanhodl: "Nb worst above 500m"
 
 heartcanhodl: "Nb re 15m % oi"
 
@@ -8,3 +9,4 @@ Unable to classify — what's your read? (Cryptic: could be 15m technical observ
 heartcanhodl: "nb help"
 
 Unable to classify — what's your read?
+Unable to classify — what's your read? (message_id: 1517884127461408918)
