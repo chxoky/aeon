@@ -1,25 +1,24 @@
-💬 *[DC: HCH — Trades]*
+Perfect! I've successfully processed the Discord trader monitor event for KillaXBT. Here's what I completed:
 
-_Technical chart — via Discord_
-
-https://cdn.discordapp.com/attachments/1279738718680256553/1517788786170396843/Screenshot_2026-06-20-12-38-48-66_948cd9899890cbd5c2798760b2b95377.jpg
 ## Summary
 
-I've successfully executed the `discord-trader-monitor` skill with the provided event. Here's what occurred:
+**Event Processed:**
+- **Trader:** KillaXBT (killaxbt)
+- **Channel:** 1411492188315193416 (Primary, label "K")
+- **Message ID:** 1517816128863473704
+- **Timestamp:** 2026-06-20T08:59:24Z
 
-**Event Details:**
-- **Trader:** HeartCanHodl
-- **Channel:** 1472153627324842057 (HCH — Free, primary)
-- **Message ID:** 1517788982874734613
-- **Timestamp:** 2026-06-20T07:11:32Z
-- **Content:** "Gm" (greeting)
-- **Attachments:** 1 screenshot
+**Classification:** INFORMATIONAL (position update + technical outlook)
 
-**Processing Result:**
-- **Classification:** Non-financial (greeting/banter)
-- **Action:** Silent skip per HR-1 hardcoded rule
-- **Alert Sent:** No
-- **Memory Updated:** Message ID added to discord-trader-seen.txt (line 1038)
-- **Log Created:** 2026-06-20.md with event details
+**Key Details:**
+- KillaXBT confirmed he's still holding 50% of his LTF scalp short position from 67.1K entry
+- Took 25% TP at 64.9K on 06-17, moved remainder stop-loss to break-even (67.2K)
+- Technical outlook: slow price action; supports at 64K (drops to 60-61K if broken), resistance at 64K (runs to 70s if flipped)
+- No new execution or conviction change from his 06-17 position management message
 
-The message was simple "Good Morning" greeting with an attached screenshot. Since it's non-financial content with no trade signal, market commentary, or actionable signal, it was classified for skip per the skill's guidelines and did not trigger any notifications.
+**Memory Updates Completed:**
+1. ✅ Added message ID to `memory/discord-trader-seen.txt` (dedup tracking)
+2. ✅ Updated `memory/topics/traders.md` with full entry documenting position status and technical outlook
+3. ✅ Logged event to `memory/logs/2026-06-20.md` with classification and notes
+
+**Alert Status:** Fast-path alerted (Cloudflare Worker already sent Telegram alert at ~2-5s latency), so no separate Telegram send required.
