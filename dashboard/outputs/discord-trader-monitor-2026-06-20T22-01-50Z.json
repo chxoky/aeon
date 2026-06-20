@@ -1,0 +1,113 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "calibration-badge",
+        "separator-1",
+        "event-section",
+        "separator-2",
+        "response-section",
+        "separator-3",
+        "alert-classify"
+      ]
+    },
+    "calibration-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Calibration — DC: Chase — Crypto",
+        "variant": "default"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "event-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event-heading",
+        "event-text"
+      ]
+    },
+    "event-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "event-text": {
+      "type": "Text",
+      "props": {
+        "text": "No referenced message context (bare reply). Last known Crypto channel activity from Crypto_Chase was 2026-06-19 re: 'no interest in crypto atm. saylor death loop just nuking everything'",
+        "variant": "body"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "response-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "response-heading",
+        "response-text"
+      ]
+    },
+    "response-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Response",
+        "level": "h3"
+      }
+    },
+    "response-text": {
+      "type": "Text",
+      "props": {
+        "text": "crypto_chase: \"correct\""
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert-classify": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to Classify",
+        "message": "What's your read? (Message ID: 1518012273979953312, Timestamp: 2026-06-20T21:58:49Z)",
+        "type": "info"
+      }
+    }
+  }
+}
