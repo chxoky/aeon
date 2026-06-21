@@ -1,16 +1,23 @@
-🔍 *Calibration — [DC: Chase — Chase]*
+**Skill execution complete.**
 
-**Gut feeling / Intuition message:**
+## Summary
 
-Chase: "Sort of a gut feeling I've been having about stocks lately , but I'm sure I'm wrong but I can't do anything but be transparent and truthful about how I feel and what my intuition was saying so strongly that it popped up in my dream."
+**Discord event processed:**
+- **Trader:** Crypto_Chase
+- **Channel:** 1247927786681794601 (Chase — Crypto, supporting)
+- **Message ID:** 1518400707143930046
+- **Content:** "Yeah it was a dream. I was basically just lulled into longing every single day and then one day I just kept longing and longing and everything shit the bed."
+- **Classification:** Non-financial (introspection/dream elaboration)
+- **Alert sent:** No
 
-**Context:** No ticker, position action, or trade signal. Self-disclaiming. Message felt introspective/subconscious.
+**Rationale:**
+This message is a follow-up clarification of Chase's prior 23:23:01Z ambiguous dream/gut-feeling message. It elaborates on the dream content but contains no trade action, ticker, or current market conviction—just self-reflection on trading psychology mistakes. 
 
-**Question:** Should we treat subconscious/dream intuition messages as early-alpha sentiment signals worth flagging, or skip them as noise?
+Per **Step 5A (HR-1)**, non-financial messages are skipped silently and logged only. Since Kyle was already notified of the prior ambiguous message via a calibration alert, this elaboration doesn't warrant a separate alert.
 
-Message ID: 1518395852354228436 | Timestamp: 2026-06-21T23:23:01Z
-🚨 *Trade Signal — [DC: Chase — Chase]*
+**Actions taken:**
+1. ✅ Message ID tracked in `discord-trader-seen.txt`
+2. ✅ Entry added to `traders.md` (Crypto_Chase section, as sub-entry under prior 23:23:01Z message)
+3. ✅ Logged to `memory/logs/2026-06-21.md`
 
-_via Discord — Chase — Chase_
-
-I never dream about trading, but for some reason this weekend I did. The market opened and I got long the S&P 500 (via $ES contracts, my preferred method).
+No Telegram notification sent. Skill completed successfully.
