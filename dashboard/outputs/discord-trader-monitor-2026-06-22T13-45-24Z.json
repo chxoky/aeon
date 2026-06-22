@@ -1,0 +1,43 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet",
+        "link_tg"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Chase",
+        "handle": "DC",
+        "text": "Google bids laid out clearly in TG. Like I said just going to give it some extra focus this week."
+      },
+      "children": []
+    },
+    "link_tg": {
+      "type": "Link",
+      "props": {
+        "label": "View on Telegram: chasescharts",
+        "href": "https://t.me/chasescharts"
+      },
+      "children": []
+    }
+  }
+}
