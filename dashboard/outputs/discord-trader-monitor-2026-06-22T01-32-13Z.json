@@ -1,0 +1,100 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Calibration — [DC: Chase — TradFi]"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event_header",
+        "sep1",
+        "message_section",
+        "sep2",
+        "classification_alert"
+      ]
+    },
+    "event_header": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Sharing external X post from rinegadeSOL (2026-06-22T01:26:03Z)",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "author",
+        "message_content"
+      ]
+    },
+    "author": {
+      "type": "Badge",
+      "props": {
+        "text": "Crypto_Chase",
+        "variant": "default"
+      }
+    },
+    "message_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link",
+        "comment"
+      ]
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/rinegadeSOL/status/2068866832245911803",
+        "href": "https://x.com/rinegadeSOL/status/2068866832245911803"
+      }
+    },
+    "comment": {
+      "type": "Text",
+      "props": {
+        "text": "all in a night's work huh? 🤣",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Sarcastic/cryptic reference to external post. What's your read?",
+        "type": "info"
+      }
+    }
+  }
+}

@@ -1,8 +1,8 @@
-💬 *\[DC: Chase — TradFi\]*
+🔍 *Calibration — [DC: Chase — TradFi]*
 
-But honestly it's 50/50. I swear, I might wake up and it might be up but I really don't know . And when I don't know, I don't feel a need to risk.
+Event: Sharing external X post from rinegadeSOL (2026-06-22T01:26:03Z)
 
-**Event:** Message from Crypto_Chase in Chase — TradFi (supporting channel 1343971265962049597)
+Crypto_Chase: "https://x.com/rinegadeSOL/status/2068866832245911803 all in a night's work huh? 🤣"
 
 **Content:** "Yes please do. Thank you. I'm going to clear out all this chat."
 
@@ -59,3 +59,4 @@ _Post-SPCX exit conviction state, 2026-06-22T01:16Z_
 ↩️ _Member: "How much weight does overnight PA have on tradfi?"_
 
 Well we just had an argument in here about it lol so I'm not going to re-fire that back up . But what I will say is that I have personally gotten entries overnight, like liquidity sweep entries on Sunday night that have sparked an entire move. (GOOG sweep, ES sweep). And those entries were not given again the next morning or during the cash session etc. So I think it is a difficult question to fully answer.
+Unable to classify — sarcastic/cryptic reference to external post. What's your read?
