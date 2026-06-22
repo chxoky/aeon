@@ -1,6 +1,6 @@
-Skill execution complete. Here's the summary:
+💬 *[DC: HCH — Free]*
 
-## Summary
+https://x.com/i/status/2069047283560202501
 
 **Event:** Discord message from Crypto_Chase on 2026-06-22 at 14:31:43 UTC
 
@@ -27,3 +27,4 @@ Skill execution complete. Here's the summary:
 "166 now, would have turned into a decent loss. Always important to trust your gut and understand when the setup is invalidated. The only reason I didn't full TP on Friday was because I thought we were maybe going to reclaim our box / area of interest. When I saw the Sunday overnight action immediately fully retrace all the Friday bullish move, I knew it was weak. But alas that's the last update on it for now. Just a good reminder to accept when the trade is no longer going as you expect and to cut and wait for the next trade rather than rely on hope."
 
 _2026-06-22T14:35:58Z · SPCX post-mortem (exited 176 with small profit; price now 166 validates exit decision)_
+Rebalance or take it easy approach now onwards 🍊💯
