@@ -26,24 +26,27 @@ Perfect. Now let me finalize the status and send a summary notification.
 
 ## Summary
 
-**Discord Trader Monitor — Event processed 2026-06-22T00:42:04Z**
+**Discord Trader Monitor — 2026-06-22T00:50:39Z**
 
-**Message Details:**
-- Trader: Crypto_Chase
-- Channel: 1343971265962049597 (Chase — TradFi, supporting)
-- Message ID: 1518415743623106640
-- Content: "But yeah, at the end of the day if I don't have confidence in how I expect the trade to move, then there really is no trade for me anymore"
+✅ **Event processed successfully**
 
-**Classification:** Informational (conviction philosophy reinforcement)
-- Pure philosophy statement, not a trade execution
-- Reinforces his core discipline: only trades with high confidence
-- Supporting channel message following recent ES long entry (06-21T23:23Z)
-- No Telegram alert sent (supporting channel + related primary context exists per Step 7 rules)
+**Execution details:**
+- **Decoded event:** Base64-decoded JSON from the provided variable
+- **Event validation:** Valid message structure (id, channel_id, username, content, timestamps)
+- **Channel resolution:** 1343971265962049597 → "Chase — TradFi" (supporting channel for Crypto_Chase)
+- **Trader verification:** Username `crypto_chase` matches Crypto_Chase's known Discord handle ✓
 
-**Memory Updated:**
-- ✓ Added entry to `memory/topics/traders.md` 
-- ✓ Added log entry to `memory/logs/2026-06-22.md`
-- ✓ Message ID logged for dedup tracking
+**Classification:** **Non-financial (banter)** per Step 5.A
+- Content: "pretty funny" — pure social conversation
+- No trade signal, no conviction shift, no technical analysis, no ticker
+- Per hardcoded Rule HR-1: not a test pattern (no "test"/"testing" language)
+- **No Telegram alert sent** (correctly skipped)
 
 **Result:** Message processed successfully. No user alert needed — logged for memory/audit purposes.
 **Result:** No Telegram alert sent (supporting channel + non-financial per Step 7 rules). Logged for memory completeness only.
+**Memory updates:**
+- ✅ Logged event to `memory/logs/2026-06-22.md` (14 entries now for today)
+- ✅ Updated `memory/discord-trader-seen.txt` (message ID 1518417906210308196 tracked; 1038 total seen IDs)
+- ✅ Fast-path status: `false` (Cloudflare Worker did not pre-alert on this message)
+
+**Result:** Event processed silently per Step 5.A non-financial skip rule. No action required.
