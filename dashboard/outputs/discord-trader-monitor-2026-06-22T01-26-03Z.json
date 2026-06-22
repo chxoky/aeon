@@ -1,0 +1,81 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor"
+      },
+      "children": [
+        "channel_info",
+        "sep1",
+        "conversation"
+      ]
+    },
+    "channel_info": {
+      "type": "Badge",
+      "props": {
+        "text": "💬 DC: Chase — TradFi",
+        "variant": "secondary"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "conversation": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "question_block",
+        "response_block"
+      ]
+    },
+    "question_block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "q_label",
+        "q_text"
+      ]
+    },
+    "q_label": {
+      "type": "Text",
+      "props": {
+        "text": "↩️ Member",
+        "variant": "lead"
+      }
+    },
+    "q_text": {
+      "type": "Text",
+      "props": {
+        "text": "How much weight does overnight PA have on tradfi?"
+      }
+    },
+    "response_block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "r_text"
+      ]
+    },
+    "r_text": {
+      "type": "Text",
+      "props": {
+        "text": "Well we just had an argument in here about it lol so I'm not going to re-fire that back up. But what I will say is that I have personally gotten entries overnight, like liquidity sweep entries on Sunday night that have sparked an entire move. (GOOG sweep, ES sweep). And those entries were not given again the next morning or during the cash session etc. So I think it is a difficult question to fully answer."
+      }
+    }
+  }
+}

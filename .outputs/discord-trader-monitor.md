@@ -54,3 +54,8 @@ I've executed the Discord trader monitor skill for the provided Discord event. H
 
 **Rationale:** The message is casual banter expressing frustration about market conditions or trading limitations, not a trade signal, conviction update, or critical information requiring Kyle's immediate attention. It follows his SPCX full exit at 176 and appears to be a sign-off remark after an inactive trading period.
 _Post-SPCX exit conviction state, 2026-06-22T01:16Z_
+💬 *[DC: Chase — TradFi]*
+
+↩️ _Member: "How much weight does overnight PA have on tradfi?"_
+
+Well we just had an argument in here about it lol so I'm not going to re-fire that back up . But what I will say is that I have personally gotten entries overnight, like liquidity sweep entries on Sunday night that have sparked an entire move. (GOOG sweep, ES sweep). And those entries were not given again the next morning or during the cash session etc. So I think it is a difficult question to fully answer.
