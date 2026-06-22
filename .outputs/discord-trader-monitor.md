@@ -1,21 +1,7 @@
-## Summary
+🔍 *Calibration — [DC: Chase — Crypto]*
 
-✅ **Discord Trader Monitor skill executed successfully**
+Event: Member .stickyg asked: "Hey <@328653965099139073> sorry to tag you but i was wondering what broker you use to trade stocks like GOOGL etc? I live in Australia so i want to us[...]"
 
-**Message processed**:
-- **Trader**: Crypto_Chase
-- **Channel**: 1247927786681794601 (Chase — Crypto, supporting channel)
-- **Message ID**: 1518712499627622641
-- **Content**: Bare Telegram link `https://t.me/chasescharts`
-- **Created**: 2026-06-22T20:21:16Z
+Crypto_Chase replied with image only (no text).
 
-**Classification**: NON-FINANCIAL (admin/links)
-- Step 5A analysis: bare link with zero context → skip alerting, log only
-- No trade signal, no conviction update, no position action
-- Supporting channel message related to earlier primary-channel focus statement (13:37:47Z: "Google bids laid out clearly in TG")
-
-**Actions completed**:
-1. ✅ Added message ID to `memory/discord-trader-seen.txt` (dedup prevention)
-2. ✅ Logged entry to `memory/logs/2026-06-22.md` with full context
-
-**Result**: Message skipped (no Telegram alert sent per Step 5A non-financial rule)
+Unable to classify — what's the image showing? Broker platform screenshot, GOOGL chart, or something else?

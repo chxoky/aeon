@@ -1,0 +1,70 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_calibration",
+        "sep1",
+        "heading_event",
+        "text_event_details",
+        "sep2",
+        "alert_classification"
+      ]
+    },
+    "text_calibration": {
+      "type": "Text",
+      "props": {
+        "text": "🔍 Calibration — [DC: Chase — Crypto]",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h2"
+      }
+    },
+    "text_event_details": {
+      "type": "Text",
+      "props": {
+        "text": "Member .stickyg asked: \"Hey <@328653965099139073> sorry to tag you but i was wondering what broker you use to trade stocks like GOOGL etc? I live in Australia so i want to us[...]\"\n\nCrypto_Chase replied with image only (no text)."
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's the image showing? Broker platform screenshot, GOOGL chart, or something else?",
+        "type": "warning"
+      }
+    }
+  }
+}
