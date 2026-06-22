@@ -1,0 +1,201 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor — Calibration",
+        "description": "[DC: Chase — TradFi]"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "prior-context-section",
+        "sep-1",
+        "new-message-section",
+        "sep-2",
+        "interpretation-alert"
+      ]
+    },
+    "prior-context-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context-heading",
+        "frontrun-incident",
+        "bearish-incident"
+      ]
+    },
+    "context-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Prior Context",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "frontrun-incident": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "frontrun-text",
+        "frontrun-details"
+      ]
+    },
+    "frontrun-text": {
+      "type": "Text",
+      "props": {
+        "text": "MU orders getting front-run",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "frontrun-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-loss",
+        "badge-time-1"
+      ]
+    },
+    "badge-loss": {
+      "type": "Badge",
+      "props": {
+        "text": "~$20",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "badge-time-1": {
+      "type": "Badge",
+      "props": {
+        "text": "19:55:24Z",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "bearish-incident": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "bearish-label",
+        "bearish-quote",
+        "badge-time-2"
+      ]
+    },
+    "bearish-label": {
+      "type": "Text",
+      "props": {
+        "text": "Bearish concern expressed",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "bearish-quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"market looks like it wants to fucking crash\"",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "badge-time-2": {
+      "type": "Badge",
+      "props": {
+        "text": "19:04Z",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "new-message-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "new-msg-heading",
+        "new-msg-content"
+      ]
+    },
+    "new-msg-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "New Message",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "new-msg-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "msg-user",
+        "msg-quote"
+      ]
+    },
+    "msg-user": {
+      "type": "Badge",
+      "props": {
+        "text": "crypto_chase (20:09Z)",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "msg-quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"Oh yeah, perfect timing\"",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "interpretation-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to Classify",
+        "message": "Sarcasm on the front-run? Affirmation of the crash? Something else? What's your read?",
+        "type": "warning"
+      },
+      "children": []
+    }
+  }
+}
