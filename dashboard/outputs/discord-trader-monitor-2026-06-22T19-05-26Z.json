@@ -1,0 +1,209 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor",
+        "description": "Message Calibration & Classification"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "calibration_section",
+        "sep_1",
+        "context_section",
+        "sep_2",
+        "message_section",
+        "sep_3",
+        "issue_section"
+      ]
+    },
+    "calibration_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_calibration",
+        "text_calibration"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text_calibration": {
+      "type": "Text",
+      "props": {
+        "text": "DC: Chase — TradFi"
+      },
+      "children": []
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_context",
+        "text_context"
+      ]
+    },
+    "heading_context": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "Chase recently closed SPCX with small profits (00:35Z), announced Google focus (13:37Z), noted ES \"giga chop\" (17:50Z), evaluated HYPE shorting rationale (18:26Z)."
+      },
+      "children": []
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "message_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_message",
+        "text_timestamp",
+        "text_quote"
+      ]
+    },
+    "heading_message": {
+      "type": "Heading",
+      "props": {
+        "text": "Message",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text_timestamp": {
+      "type": "Text",
+      "props": {
+        "text": "2026-06-22T18:59:31Z",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "text_quote": {
+      "type": "Text",
+      "props": {
+        "text": "Crypto_Chase: \"I'm amazed to see that there's not more retail participation in this\""
+      },
+      "children": []
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "issue_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert_issue",
+        "interpretations"
+      ]
+    },
+    "alert_issue": {
+      "type": "Alert",
+      "props": {
+        "title": "Issue",
+        "message": "\"This\" is unspecified — could refer to a specific ticker (GOOG/HYPE/ES?), overall market structure, breadth signal, or asset class.",
+        "type": "info"
+      },
+      "children": []
+    },
+    "interpretations": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_is_this",
+        "text_option_1",
+        "text_option_2",
+        "text_option_3",
+        "text_closing"
+      ]
+    },
+    "text_is_this": {
+      "type": "Text",
+      "props": {
+        "text": "Is this:"
+      },
+      "children": []
+    },
+    "text_option_1": {
+      "type": "Text",
+      "props": {
+        "text": "1. Bearish sentiment on market health/breadth?"
+      },
+      "children": []
+    },
+    "text_option_2": {
+      "type": "Text",
+      "props": {
+        "text": "2. Observation on specific equity/crypto showing low retail interest?"
+      },
+      "children": []
+    },
+    "text_option_3": {
+      "type": "Text",
+      "props": {
+        "text": "3. Structural concern about market conviction?"
+      },
+      "children": []
+    },
+    "text_closing": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify without clarity. What's your read?"
+      },
+      "children": []
+    }
+  }
+}
