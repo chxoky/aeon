@@ -1,12 +1,25 @@
-🔍 **Calibration — [DC: Chase — TradFi]**
+## Summary
 
-Event: Member Q&A about entry strategy
+**Discord Trader Monitor — Crypto_Chase GOOG Trade Execution**
 
-Crypto_Chase: "Yeah it could go. It depends on how greedy you want to be with the entry because there is also the hourly high"
+✅ **Event processed successfully:**
+- **Trader:** Crypto_Chase (verified username)
+- **Channel:** 1336082716063694962 (primary, "Chase — Chase")
+- **Trade:** GOOG filled at 342, partial TP (70% → 50% size)
+- **Status:** Not previously seen (message ID added to tracking)
+- **Alert Path:** Fast-path (Cloudflare Worker already sent Telegram ~2-5s ago)
 
-Missing context: referenced_message not provided. Setup unclear — what instrument/ticker is being discussed? What entry level/timeframe?
-💬 *[DC: Chase — TradFi]*
+**Classification:** Trade execution — partial take profit on GOOG long
+- Entry average: profitable (filled 342 after resting bid in 330s zone)
+- TP trigger: 342 level
+- Position management: reduced from 70% → 50%
+- Outlook: watching 320s for further moves on remainder
+- Context: fulfills long-standing resting bid from 2026-06-11+ that got front-run by peace deal on 06-15
 
-↩️ _Member: "even i had the same idea into nyo. u taking this scalp chase ?"_
+**Memory updated:**
+- Added message ID to `memory/discord-trader-seen.txt`
+- Updated `memory/topics/traders.md` with trade entry and headline status change
+- Logged event to `memory/logs/2026-06-23.md` at 13:31 UTC
+- Chase status: FLAT → LONG GOOG (50% core position retained)
 
-I'm not a fan that The massive move happened overnight and I feel like I'm picking up scraps, but I may take it. I'm going to watch price action. I don't have limits set yet
+Per Step 2 rule (fast_path_alerted=true): skipped additional Telegram sends, proceeded directly to memory/logging completion. Task complete.
