@@ -28,3 +28,13 @@ Perfect! I've successfully executed the skill and processed the Discord event. H
 ✅ **Alerting:** Skipped (fast-path pre-alerted via Telegram ~2-5s latency by Cloudflare Worker)
 
 The skill execution completed successfully. All memory and logs are current.
+🔍 *Calibration — [DC: Chase — Crypto]*
+
+Trader: crypto_chase (supporting channel)
+Timestamp: 2026-06-23T00:35:50Z
+Message: _image-only, no text context_
+Attachment: https://cdn.discordapp.com/attachments/1247927786681794601/1518776563011686420/image.png
+
+Context: Chase holding ES long (entered 06-21 via dream/gut feeling), reported "ES giga chop" (06-22T17:50), 50/50 market conviction.
+
+Unable to classify — is this chart analysis on ES, Google bid setup, or market conditions?
