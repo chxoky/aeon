@@ -1,4 +1,4 @@
-## Summary
+🔍 *Calibration — [DC: Chase — Crypto]*
 
 Processed Discord real-time event from **Crypto_Chase** (2026-06-23T20:00:23Z):
 
@@ -15,3 +15,8 @@ Processed Discord real-time event from **Crypto_Chase** (2026-06-23T20:00:23Z):
 - ✅ All changes committed
 
 No notification sent. Non-financial content handled per hardcoded rules.
+Event: Bare X broadcast link, no context
+
+https://x.com/i/broadcasts/1rGmqqRBDdBGy
+
+Unable to classify — is this a self-reference to his own stream/broadcast, or external content? What's the broadcast about?

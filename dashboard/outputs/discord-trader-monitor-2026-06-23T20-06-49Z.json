@@ -1,0 +1,89 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor"
+      },
+      "children": [
+        "content-stack"
+      ]
+    },
+    "content-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "calibration-heading",
+        "event-section",
+        "separator-1",
+        "broadcast-link",
+        "separator-2",
+        "classification-alert"
+      ]
+    },
+    "calibration-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — DC: Chase — Crypto",
+        "level": "h2"
+      }
+    },
+    "event-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "event-label",
+        "event-text"
+      ]
+    },
+    "event-label": {
+      "type": "Text",
+      "props": {
+        "text": "Event:",
+        "variant": "muted"
+      }
+    },
+    "event-text": {
+      "type": "Text",
+      "props": {
+        "text": "Bare X broadcast link, no context"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "broadcast-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "X Broadcast 1rGmqqRBDdBGy",
+        "href": "https://x.com/i/broadcasts/1rGmqqRBDdBGy",
+        "source": "X (Twitter)"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Is this a self-reference to his own stream/broadcast, or external content? What's the broadcast about?",
+        "type": "warning"
+      }
+    }
+  }
+}
