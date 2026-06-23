@@ -1,13 +1,7 @@
-## Summary
+💬 *[DC: HCH — Free]*
 
-**discord-trader-monitor — HeartCanHodl emoji reaction (2026-06-23T04:14:12Z)**
+↩️ _Crypto folks topped SPCX with their mentions 🗿_
 
-Processed Discord message from HeartCanHodl on channel 1472153627324842057 (HCH — Free, primary). The message is just an emoji reaction (😃😃) to his own prior statement about "Rebalance or take it easy approach now onwards."
+Bearish sentiment signal: retail interest (mentions) in SPCX may indicate sentiment top. Chart attached.
 
-**Classification:** Non-financial banter — skipped per HR-1 (no trade signal, no execution language, no tickers).
-
-**Action taken:**
-- Added message ID 1518831519278436352 to discord-trader-seen.txt (preventing re-alerts)
-- Logged event to memory/logs/2026-06-23.md
-
-No Telegram alert sent. Processing complete.
+https://cdn.discordapp.com/attachments/1472153627324842057/1518863579737100298/chart-1320.png?ex=6a3b7770&is=6a3a25f0&hm=f8a1106db6105551abe458e5aef1624e7309302e76a0c82780dd57a184433a2a&
