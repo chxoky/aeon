@@ -1,0 +1,197 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor — Chase (TradFi)",
+        "description": "Calibration: DC"
+      },
+      "children": [
+        "message-section",
+        "chart-alert",
+        "timeline-section",
+        "analysis-section",
+        "question-alert"
+      ]
+    },
+    "message-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "msg-timestamp",
+        "msg-text"
+      ]
+    },
+    "msg-timestamp": {
+      "type": "Text",
+      "props": {
+        "text": "2026-06-23T13:49:16Z",
+        "variant": "caption"
+      }
+    },
+    "msg-text": {
+      "type": "Text",
+      "props": {
+        "text": "If it does something like this, it could be higher confidence. We'll see",
+        "variant": "lead"
+      }
+    },
+    "chart-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Chart Attachment",
+        "message": "Uninterpretable — unable to determine subject, timeframe, or market setup",
+        "type": "warning"
+      }
+    },
+    "timeline-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "timeline-heading",
+        "timeline-item-1",
+        "timeline-item-2"
+      ]
+    },
+    "timeline-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Related Messages",
+        "level": "h3"
+      }
+    },
+    "timeline-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "ts-1",
+        "msg-1"
+      ]
+    },
+    "ts-1": {
+      "type": "Text",
+      "props": {
+        "text": "2026-06-23T12:56:28Z",
+        "variant": "caption"
+      }
+    },
+    "msg-1": {
+      "type": "Text",
+      "props": {
+        "text": "Gut is telling me this might be the start of a larger pullback",
+        "variant": "body"
+      }
+    },
+    "timeline-item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "ts-2",
+        "msg-2"
+      ]
+    },
+    "ts-2": {
+      "type": "Text",
+      "props": {
+        "text": "2026-06-23T13:31:28Z",
+        "variant": "caption"
+      }
+    },
+    "msg-2": {
+      "type": "Text",
+      "props": {
+        "text": "GOOG setup following partial TP at 342 (executed)",
+        "variant": "body"
+      }
+    },
+    "analysis-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis-heading",
+        "analysis-text",
+        "target-label",
+        "badges-row"
+      ]
+    },
+    "analysis-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Analysis",
+        "level": "h3"
+      }
+    },
+    "analysis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Context clue: confidence statement may relate to prior gut-feeling message or GOOG setup. Unclear if ES-related, GOOG-related, or another ticker.",
+        "variant": "body"
+      }
+    },
+    "target-label": {
+      "type": "Text",
+      "props": {
+        "text": "Possible targets:",
+        "variant": "caption"
+      }
+    },
+    "badges-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-es",
+        "badge-goog",
+        "badge-unknown"
+      ]
+    },
+    "badge-es": {
+      "type": "Badge",
+      "props": {
+        "text": "ES",
+        "variant": "outline"
+      }
+    },
+    "badge-goog": {
+      "type": "Badge",
+      "props": {
+        "text": "GOOG",
+        "variant": "outline"
+      }
+    },
+    "badge-unknown": {
+      "type": "Badge",
+      "props": {
+        "text": "Unknown",
+        "variant": "outline"
+      }
+    },
+    "question-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Question",
+        "message": "What's the read?",
+        "type": "info"
+      }
+    }
+  }
+}
