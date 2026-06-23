@@ -19,3 +19,4 @@ Chart attachment uninterpretable — unable to determine subject, timeframe, or 
 
 What's the read?
 Unable to classify — what's your read? (relates to ES long entered 2026-06-21)
+🔍 *Calibration — [DC: Chase — TradFi]*\n\ncrypto_chase: "I think one of the problems here too is that it'\''s difficult to find validation"\n\nContext: Message is part of supporting-channel conversation but lacks referenced-message context. The phrase "here too" suggests it'\''s a continuation.\n\nUnable to classify. Could be: (1) sentiment on trade setup validation/difficulty finding entries, (2) philosophy on conviction requirements, (3) commentary on market conditions.\n\nWhat prompted this message?

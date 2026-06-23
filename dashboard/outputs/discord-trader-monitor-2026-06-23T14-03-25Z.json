@@ -1,0 +1,56 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor",
+        "description": "Message calibration analysis"
+      },
+      "children": [
+        "heading_cal",
+        "tweet_card",
+        "context_text",
+        "unable_section",
+        "question_text"
+      ]
+    },
+    "heading_cal": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: Chase — TradFi]",
+        "level": "h2"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "crypto_chase",
+        "text": "I think one of the problems here too is that it's difficult to find validation"
+      }
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "Context: Message is part of supporting-channel conversation but lacks referenced-message context. The phrase \"here too\" suggests it's a continuation.",
+        "variant": "body"
+      }
+    },
+    "unable_section": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Could be: (1) sentiment on trade setup validation/difficulty finding entries, (2) philosophy on conviction requirements, (3) commentary on market conditions.",
+        "type": "warning"
+      }
+    },
+    "question_text": {
+      "type": "Text",
+      "props": {
+        "text": "What prompted this message?",
+        "variant": "lead"
+      }
+    }
+  }
+}
