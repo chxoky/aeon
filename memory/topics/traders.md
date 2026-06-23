@@ -274,5 +274,7 @@
 ### HeartCanHodl
 - **[AMBIGUOUS — 2026-06-20T10:46:49Z, HCH — Chat (supporting)]** "Nb re 15m % oi" — Cryptic shorthand message. Possible interpretations: (1) technical forecast shorthand (15-minute timeframe observation regarding open interest %), (2) market commentary on OI levels, (3) trade-related note, or (4) something else. No referenced_message context, no ticker specified, no position language. Unable to classify without Kyle's interpretation. Calibration alert sent to Kyle for read. Message_id: 1517843157897711748, is_reply: false, fast_path_alerted: false.
 
+- **[AMBIGUOUS — 2026-06-23T06:23:43Z, HCH — Free (primary)]** "If he is not promoting something to his million followers with low Mcap" — Cryptic message referencing "him" (another person/trader/influencer) promoting something to "his million followers" with low market cap. No ticker, no personal trade execution language, no referenced-message context (is_reply: false, referenced_message: null). Unable to classify without Kyle's interpretation — could be: (1) commentary on another influencer's pump scheme, (2) sentiment on crowd behavior with low-mcap assets, (3) part of larger channel discussion with missing context. Message_id: 1518864112048930917, fast_path_alerted: false. Sent calibration alert 2026-06-23T06:23Z for Kyle's read.
+
 BOOTSTRAP_COMPLETE: 2026-06-16
 X_BOOTSTRAP_COMPLETE: 2026-06-16

@@ -1,0 +1,140 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "badge-calibration",
+        "event-section",
+        "message-section",
+        "sep-1",
+        "context-section",
+        "classification-section"
+      ]
+    },
+    "badge-calibration": {
+      "type": "Badge",
+      "props": {
+        "text": "Calibration — HCH — Free",
+        "variant": "outline"
+      }
+    },
+    "event-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-event",
+        "text-event-details"
+      ]
+    },
+    "heading-event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event: HeartCanHodl message",
+        "level": "h3"
+      }
+    },
+    "text-event-details": {
+      "type": "Text",
+      "props": {
+        "text": "Timestamp: 2026-06-23T06:23:43Z",
+        "variant": "caption"
+      }
+    },
+    "message-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-message",
+        "text-message"
+      ]
+    },
+    "heading-message": {
+      "type": "Heading",
+      "props": {
+        "text": "Message",
+        "level": "h4"
+      }
+    },
+    "text-message": {
+      "type": "Text",
+      "props": {
+        "text": "\"If he is not promoting something to his million followers with low Mcap\"",
+        "variant": "body"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-context",
+        "text-context-1",
+        "text-context-2",
+        "text-context-3",
+        "text-context-4"
+      ]
+    },
+    "heading-context": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h4"
+      }
+    },
+    "text-context-1": {
+      "type": "Text",
+      "props": {
+        "text": "Cryptic reference to another person/trader with large following + low-mcap assets.",
+        "variant": "body"
+      }
+    },
+    "text-context-2": {
+      "type": "Text",
+      "props": {
+        "text": "No ticker mentioned.",
+        "variant": "caption"
+      }
+    },
+    "text-context-3": {
+      "type": "Text",
+      "props": {
+        "text": "No personal execution or trading activity indicated.",
+        "variant": "caption"
+      }
+    },
+    "text-context-4": {
+      "type": "Text",
+      "props": {
+        "text": "Reply context: false",
+        "variant": "caption"
+      }
+    },
+    "classification-section": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "title": "Unable to classify",
+        "message": "What's your read? Is this commentary on influencer pump schemes, crowd behavior, or something else?"
+      }
+    }
+  }
+}
