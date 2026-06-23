@@ -1,12 +1,8 @@
 🔍 *Calibration — [DC: Chase — TradFi]*
 
-✅ **Discord Trader Monitor executed successfully**
+Context: 57 min after pullback gut feeling (12:56Z: "Gut is telling me this might be the start of a larger pullback")
 
-**Event Details:**
-- Message ID: 1518975455116656811
-- Trader: Crypto_Chase
-- Channel: 1343971265962049597 (Chase — TradFi, supporting)
-- Timestamp: 2026-06-23T13:46:09Z
+Crypto_Chase: "Maybe some scam action first then we find the short later"
 
 **Classification: Non-financial banter**
 
@@ -22,3 +18,4 @@ Message (2026-06-23T13:49:16Z):
 Chart attachment uninterpretable — unable to determine subject, timeframe, or market setup. Context clue: this may relate to his prior gut-feeling message same day (12:56:28Z: "Gut is telling me this might be the start of a larger pullback"), or possibly GOOG setup following the just-executed partial TP at 342 (13:31:28Z). Unclear if confidence statement is ES-related, GOOG-related, or another ticker.
 
 What's the read?
+Unable to classify — what's your read? (relates to ES long entered 2026-06-21)
