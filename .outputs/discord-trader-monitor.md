@@ -1,23 +1,18 @@
 ## Summary
 
-Skill execution completed for discord-trader-monitor event 2026-06-23T14:42:41Z.
+Executed discord-trader-monitor skill for the real-time Discord event from Crypto_Chase.
 
-**Event Details:**
-- **Trader:** Crypto_Chase (username: crypto_chase)
-- **Channel:** 1343971265962049597 (Chase — TradFi, supporting)
-- **Type:** Supporting channel member Q&A response
-- **Content:** Empty text; image attachment (broker screenshot)
-- **Referenced Message:** Member capezera asking "which broker do u use to trade trad fi stuff"
+**Event:** Message ID 1519039478616817875  
+**Timestamp:** 2026-06-23T18:00:34Z  
+**Channel:** Chase — TradFi (supporting)  
+**Content:** "i wait for sub 850 or sideline forever" (reply to member asking "What do you think of Mu?")
 
-**Classification:** Non-financial / Informational (broker logistics Q&A)
+**Classification:** INFORMATIONAL / TRADE SETUP  
+**Ticker:** MU (Micron Technology)  
+**Action Taken:**
+- ✅ Skipped Telegram (fast-path already alerted by Cloudflare Worker)
+- ✅ Recorded message ID in discord-trader-seen.txt
+- ✅ Updated traders.md with MU resting-bid conviction (sub-850, willing to sideline indefinitely)
+- ✅ Logged event to memory/logs/2026-06-23.md
 
-**Alert Decision:** ❌ **No Telegram alert sent**
-- Per skill Step 7: supporting channels receive no standalone alert by default unless they represent genuine conviction shifts or new market information
-- This is administrative Q&A chatter answering a member's operational question about broker platform choice
-- No trade signal, position action, or conviction change
-
-**Files Modified:**
-- `memory/discord-trader-seen.txt` — added message ID 1518989680899526666
-- `memory/logs/2026-06-23.md` — logged event classification and reasoning
-
-Fast-path was not pre-triggered, so full skill processing executed as expected.
+**Trade Setup Context:** Chase has a resting bid for MU below 850 level. Prior message (06-22T19:55:24Z) indicated his MU orders were front-run earlier, establishing MU as a new entry target alongside his existing GOOG resting bid conviction.
