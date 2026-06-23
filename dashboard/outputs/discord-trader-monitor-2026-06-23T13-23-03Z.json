@@ -1,0 +1,59 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_channel",
+        "separator_1",
+        "message_1",
+        "message_2"
+      ]
+    },
+    "heading_channel": {
+      "type": "Heading",
+      "props": {
+        "text": "💬 [DC: Chase — TradFi]",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "message_1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Member",
+        "text": "even i had the same idea into nyo. u taking this scalp chase ?"
+      },
+      "children": []
+    },
+    "message_2": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Chase",
+        "text": "I'm not a fan that The massive move happened overnight and I feel like I'm picking up scraps, but I may take it. I'm going to watch price action. I don't have limits set yet"
+      },
+      "children": []
+    }
+  }
+}
