@@ -1,0 +1,68 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Discord sentiment calibration"
+      },
+      "children": [
+        "heading_main",
+        "text_context",
+        "separator_1",
+        "tweet_chase",
+        "separator_2",
+        "alert_classify"
+      ]
+    },
+    "heading_main": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: Chase — TradFi]",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "Supporting-channel sentiment message, 2026-06-24T20:40:55Z",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "tweet_chase": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Chase",
+        "text": "But I'll change my tune if there's continuation tomorrow"
+      },
+      "children": []
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert_classify": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Unable to classify",
+        "message": "What's he referring to? (ES long position? Broader market outlook?) What continuation should we watch for?"
+      },
+      "children": []
+    }
+  }
+}
