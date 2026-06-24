@@ -1,0 +1,48 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-context",
+        "tweet-message",
+        "text-response"
+      ]
+    },
+    "text-context": {
+      "type": "Text",
+      "props": {
+        "text": "💬 [DC: Chase — TradFi]",
+        "variant": "muted"
+      }
+    },
+    "tweet-message": {
+      "type": "TweetCard",
+      "props": {
+        "author": "fuwoy",
+        "text": "↩️ I feel like price has to drop a lot more (at least 830's) in order for it to be a good 2:1RR trade with a 650 inval"
+      }
+    },
+    "text-response": {
+      "type": "Text",
+      "props": {
+        "text": "There are times when you're not going to get good risk reward. I'm just looking for a very fast move, hopefully in and out in less than a few mins",
+        "variant": "body"
+      }
+    }
+  }
+}
