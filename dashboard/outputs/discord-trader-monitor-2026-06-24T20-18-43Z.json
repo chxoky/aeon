@@ -1,0 +1,165 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor — Calibration"
+      },
+      "children": [
+        "content-stack"
+      ]
+    },
+    "content-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "channel-info",
+        "separator-1",
+        "quote-card",
+        "separator-2",
+        "ambiguity-section",
+        "separator-3",
+        "subjects-section"
+      ]
+    },
+    "channel-info": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "channel-badge",
+        "timestamp-text"
+      ]
+    },
+    "channel-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Chase — TradFi (supporting)",
+        "variant": "secondary"
+      }
+    },
+    "timestamp-text": {
+      "type": "Text",
+      "props": {
+        "text": "2026-06-24T20:11:32Z",
+        "variant": "caption"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "quote-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Chase",
+        "text": "I would never short this but I think you could probably short sometime soon to that low but I don't have the balls to put capital behind it. It's just not an intelligent trade"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "ambiguity-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ambiguity-heading",
+        "ambiguity-alert",
+        "ambiguity-question"
+      ]
+    },
+    "ambiguity-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Ambiguity Detected",
+        "level": "h3"
+      }
+    },
+    "ambiguity-alert": {
+      "type": "Alert",
+      "props": {
+        "message": "Subject ticker not mentioned. Referenced context missing.",
+        "type": "warning"
+      }
+    },
+    "ambiguity-question": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — which asset is he referencing, and is this a conviction shift or just observation?",
+        "variant": "muted"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "subjects-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "subjects-heading",
+        "subjects-list"
+      ]
+    },
+    "subjects-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Possible Subjects",
+        "level": "h3"
+      }
+    },
+    "subjects-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "subject-1",
+        "subject-2",
+        "subject-3"
+      ]
+    },
+    "subject-1": {
+      "type": "Text",
+      "props": {
+        "text": "Google (GOOG TP'd 06-23, watching dips)",
+        "variant": "body"
+      }
+    },
+    "subject-2": {
+      "type": "Text",
+      "props": {
+        "text": "Micron (MU post-earnings)",
+        "variant": "body"
+      }
+    },
+    "subject-3": {
+      "type": "Text",
+      "props": {
+        "text": "ES (active long entry 06-21)",
+        "variant": "body"
+      }
+    }
+  }
+}
