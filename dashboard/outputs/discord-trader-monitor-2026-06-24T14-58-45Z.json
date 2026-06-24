@@ -1,0 +1,95 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "heading",
+        "context_stack",
+        "sep1",
+        "issue_alert",
+        "sep2",
+        "question_stack"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: Chase — TradFi]",
+        "level": "h2"
+      }
+    },
+    "context_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context_label",
+        "context_text"
+      ]
+    },
+    "context_label": {
+      "type": "Text",
+      "props": {
+        "text": "Context:",
+        "variant": "lead"
+      }
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "Chase just responded in the supporting channel with: \"Everything is based off the total amount , does that answer your question? lol\""
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "issue_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification Blocked",
+        "message": "The original member question isn't attached to the Discord event. Unable to classify without understanding what \"total amount\" refers to — could be position sizing, capital allocation, risk calculations, or something else.",
+        "type": "warning"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "question_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "question_label",
+        "question_text"
+      ]
+    },
+    "question_label": {
+      "type": "Text",
+      "props": {
+        "text": "Action Required:",
+        "variant": "lead"
+      }
+    },
+    "question_text": {
+      "type": "Text",
+      "props": {
+        "text": "What was the member asking about? This will determine if it's a financial signal or general discussion."
+      }
+    }
+  }
+}
