@@ -1,0 +1,70 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "main-stack"
+      ]
+    },
+    "main-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-calib",
+        "separator-1",
+        "event-text",
+        "context-text",
+        "separator-2",
+        "alert-clarify"
+      ]
+    },
+    "heading-calib": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: Chase — TradFi]",
+        "level": "h3"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "event-text": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Market timing context, follows MU earnings message (10 min prior)"
+      }
+    },
+    "context-text": {
+      "type": "Text",
+      "props": {
+        "text": "crypto_chase: \"Earnings are tomorrow, p.m. session\"",
+        "variant": "lead"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert-clarify": {
+      "type": "Alert",
+      "props": {
+        "title": "Clarification needed",
+        "message": "Which earnings/company are you tracking? This could be setup context for GOOG, MU, or other. Needs clarification to determine if actionable.",
+        "type": "info"
+      }
+    }
+  }
+}

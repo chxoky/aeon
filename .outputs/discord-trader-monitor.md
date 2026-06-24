@@ -1,6 +1,8 @@
 Perfect. I've successfully executed the discord-trader-monitor skill. Here's the summary:
+🔍 *Calibration — [DC: Chase — TradFi]*
 
-## Summary
+Event: Market timing context, follows MU earnings message (10 min prior)
+crypto_chase: "Earnings are tomorrow, p.m. session"
 
 **Event Processed**: Discord message from Crypto_Chase (message_id: 1519135455910821999) at 2026-06-24T00:21:56Z
 
@@ -22,3 +24,4 @@ Perfect. I've successfully executed the discord-trader-monitor skill. Here's the
 9. ✅ Logged activity to memory/logs/2026-06-24.md
 
 **Key Insight**: This elaborates on Chase's ongoing MU resting-bid setup with specific entry levels (820 primary, sub-850 secondary, 650 technical floor). Reinforces his frustration with repeated front-runs by the "fake Iran deal" event that also affected his GOOG/gold orders on 06-15. Conviction on eventual MU entry remains high despite execution challenges.
+Which earnings/company are you tracking? This could be setup context for GOOG, MU, or other. Needs clarification to determine if actionable.
