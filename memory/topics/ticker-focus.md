@@ -25,6 +25,7 @@
 - **ETH / SOL**: HeartCanHodl — spot longs, trimmed alongside BTC into the rally.
 - **STRC** (Structural): Crypto_Chase — **technical sentiment, watching downside**. 2026-06-16T20:07Z: in response to member noting "Strc continues to dump now sub 92 again," Chase replied "Weekly closes looking suspect" — bearish technical read on weekly closes below the 92 level. Supporting-channel sentiment commentary, no personal trade yet, monitoring the structure downside.
 - **Silver**: Crypto_Chase — watching, undecided ("something like this perhaps but I don't know yet").
+- **SNDK**: Crypto_Chase — **technical level watch, passing on entry**. 2026-06-24T00:10:55Z: member asked about "higher low on SNDK"; Chase declined with "Only interested in here for now. Way too much upside in a short amount of time." Sizing discipline signal — monitoring technically but conviction that the move is too rapid/running away relative to his entry comfort zone. NEW ticker this window; awaiting follow-up.
 
 ## Sentiment / contrarian gauges
 - **Ansem as a fade signal** (HeartCanHodl): when Ansem aggressively pushes a crowded narrative or public-shorts, HCH reads it as a "take some profits / find exits" cue (06-15 Ansem public-short above 60k, stop ~1733; 06-16 "by the time he tweets, much of the excitement is already priced in").

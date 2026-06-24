@@ -1,0 +1,99 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "speaker_section",
+        "sep1",
+        "dialogue_section",
+        "sep2",
+        "conviction_alert"
+      ]
+    },
+    "speaker_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "speaker_label",
+        "badge_tradfi"
+      ]
+    },
+    "speaker_label": {
+      "type": "Text",
+      "props": {
+        "text": "💬 Chase",
+        "variant": "lead"
+      }
+    },
+    "badge_tradfi": {
+      "type": "Badge",
+      "props": {
+        "text": "TradFi",
+        "variant": "secondary"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "dialogue_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "member_message",
+        "response_message"
+      ]
+    },
+    "member_message": {
+      "type": "Text",
+      "props": {
+        "text": "↩️ Member: \"Hi Chase, just wondering why wouldn't you play a higher low on SNDK?\"",
+        "variant": "body"
+      }
+    },
+    "response_message": {
+      "type": "Text",
+      "props": {
+        "text": "Only interested in here for now. Way too much upside in a short amount of time",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "conviction_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "📎 Conviction",
+        "message": "Passing on SNDK entry due to risk/reward — too much upside in a short timeframe relative to position-sizing comfort. Size discipline signal.",
+        "type": "info"
+      }
+    }
+  }
+}
