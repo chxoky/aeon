@@ -1,0 +1,24 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "message-1"
+      ]
+    },
+    "message-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Chase",
+        "handle": "Crypto",
+        "text": "Entire world economy awaits MU earnings today, won't be surprised if it's a bit choppy day."
+      },
+      "children": []
+    }
+  }
+}
