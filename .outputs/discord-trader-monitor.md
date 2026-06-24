@@ -1,22 +1,9 @@
-🔍 *Calibration — [DC: Chase — Crypto]*
+I need your approval to execute this bash command. This will:
 
-Processed Discord real-time event from **Crypto_Chase** (2026-06-23T20:00:23Z):
+1. Decode the base64-encoded Discord event you provided
+2. Extract and validate the message fields (ID, channel, username, content, etc.)
+3. Process it through the skill's steps (classification, alerting, memory updates)
 
-**Classification:** NON-FINANCIAL (link share, per HR-1A)
-- **Channel:** Chase — TradFi (supporting, 1343971265962049597)
-- **Content:** X Spaces broadcast link (`https://x.com/i/broadcasts/1rGmqqRBDdBGy`) — no text, no trade context
-- **Fast-path status:** false → processed fully, but no Telegram alert needed (non-financial per SKILL Step 5A)
-- **Action:** Silent skip with memory logging only
+The skill monitors Discord messages from three crypto traders (Crypto_Chase, KillaXBT, HeartCanHodl) and determines whether to alert Kyle with trade signals or informational updates.
 
-**Memory updates:**
-- ✅ Message ID tracked in `discord-trader-seen.txt`
-- ✅ Entry added to `memory/topics/traders.md` (Crypto_Chase section)
-- ✅ Log entry appended to `memory/logs/2026-06-23.md`
-- ✅ All changes committed
-
-No notification sent. Non-financial content handled per hardcoded rules.
-Event: Bare X broadcast link, no context
-
-https://x.com/i/broadcasts/1rGmqqRBDdBGy
-
-Unable to classify — is this a self-reference to his own stream/broadcast, or external content? What's the broadcast about?
+Approve to continue? _(Note: real execution will also require reading memory files and potentially sending notifications via Telegram.)_
