@@ -1,0 +1,200 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — [DC: Chase — TradFi]",
+        "description": "Discord trader sentiment and position analysis"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_section",
+        "sep1",
+        "quote_section",
+        "sep2",
+        "analysis_section"
+      ]
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_heading",
+        "jdubs_quote"
+      ]
+    },
+    "context_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "jdubs_quote": {
+      "type": "TweetCard",
+      "props": {
+        "author": "jdubs",
+        "text": "inflation print could retrace the entire move wouldn't get too crazy here"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "quote_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "quote_heading",
+        "chase_quote",
+        "position_detail"
+      ]
+    },
+    "quote_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "crypto_chase Read",
+        "level": "h3"
+      }
+    },
+    "chase_quote": {
+      "type": "TweetCard",
+      "props": {
+        "author": "crypto_chase",
+        "text": "Yeah this was a boring ass move. It's not passing the smell test at the moment"
+      }
+    },
+    "position_detail": {
+      "type": "Text",
+      "props": {
+        "text": "Active long from 06-21T23:23Z | Bearish skepticism on ES structure",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis_heading",
+        "analysis_question",
+        "option_1",
+        "option_2",
+        "option_3"
+      ]
+    },
+    "analysis_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "What's your read?",
+        "level": "h3"
+      }
+    },
+    "analysis_question": {
+      "type": "Text",
+      "props": {
+        "text": "Is the skepticism on ES structure a signal of conviction shift, position reduction, or just venting on choppy conditions?",
+        "variant": "lead"
+      }
+    },
+    "option_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_1",
+        "text_1"
+      ]
+    },
+    "badge_1": {
+      "type": "Badge",
+      "props": {
+        "text": "(1)",
+        "variant": "secondary"
+      }
+    },
+    "text_1": {
+      "type": "Text",
+      "props": {
+        "text": "Just venting on choppy conditions"
+      }
+    },
+    "option_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_2",
+        "text_2"
+      ]
+    },
+    "badge_2": {
+      "type": "Badge",
+      "props": {
+        "text": "(2)",
+        "variant": "secondary"
+      }
+    },
+    "text_2": {
+      "type": "Text",
+      "props": {
+        "text": "Considering position reduction"
+      }
+    },
+    "option_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_3",
+        "text_3"
+      ]
+    },
+    "badge_3": {
+      "type": "Badge",
+      "props": {
+        "text": "(3)",
+        "variant": "secondary"
+      }
+    },
+    "text_3": {
+      "type": "Text",
+      "props": {
+        "text": "Signaling a conviction shift on ES"
+      }
+    }
+  }
+}
