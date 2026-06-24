@@ -1,4 +1,4 @@
-## Summary
+🔍 *Calibration — [DC: Chase — TradFi]*
 
 **Event processed successfully.**
 
@@ -20,3 +20,11 @@
 - Applied HR-1A classification ✓
 - Recorded to discord-trader-seen.txt ✓
 - Logged to daily activity (memory/logs/2026-06-24.md) ✓
+Event: Supporting channel message (12:12 PT, 2026-06-24)
+Crypto_Chase: "frank actually has it posted here"
+
+Context: Chase monitoring MU/GOOG resting bids. Most recent msg (00:21:56Z today) was frustrated about MU 820 bid front-ran by $30 on Iran deal.
+
+Unable to classify — who is Frank, and what did he post? Is this reference to another trader, member, or market condition relevant to Chase's setups?
+
+Your read?

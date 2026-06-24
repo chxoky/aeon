@@ -1,0 +1,196 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor — Calibration"
+      },
+      "children": [
+        "heading_main",
+        "sep1",
+        "event_stack",
+        "sep2",
+        "quote_stack",
+        "sep3",
+        "context_stack",
+        "sep4",
+        "classification_alert",
+        "sep5",
+        "question"
+      ]
+    },
+    "heading_main": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: Chase — TradFi]",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "event_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event_label",
+        "event_text"
+      ]
+    },
+    "event_label": {
+      "type": "Text",
+      "props": {
+        "text": "Event",
+        "variant": "muted"
+      }
+    },
+    "event_text": {
+      "type": "Text",
+      "props": {
+        "text": "Supporting channel message (12:12 PT, 2026-06-24)",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "quote_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "quote_author",
+        "quote_content"
+      ]
+    },
+    "quote_author": {
+      "type": "Text",
+      "props": {
+        "text": "Crypto_Chase",
+        "variant": "lead"
+      }
+    },
+    "quote_content": {
+      "type": "Text",
+      "props": {
+        "text": "\"frank actually has it posted here\"",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_label",
+        "monitoring",
+        "recent_msg"
+      ]
+    },
+    "context_label": {
+      "type": "Text",
+      "props": {
+        "text": "Context",
+        "variant": "muted"
+      }
+    },
+    "monitoring": {
+      "type": "Text",
+      "props": {
+        "text": "Chase monitoring MU/GOOG resting bids.",
+        "variant": "body"
+      }
+    },
+    "recent_msg": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "recent_label",
+        "recent_details"
+      ]
+    },
+    "recent_label": {
+      "type": "Text",
+      "props": {
+        "text": "Most recent message",
+        "variant": "muted"
+      }
+    },
+    "recent_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "msg_time",
+        "msg_content"
+      ]
+    },
+    "msg_time": {
+      "type": "Badge",
+      "props": {
+        "text": "00:21:56Z today",
+        "variant": "default"
+      }
+    },
+    "msg_content": {
+      "type": "Text",
+      "props": {
+        "text": "Frustrated about MU 820 bid front-ran by $30 on Iran deal.",
+        "variant": "body"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to Classify",
+        "message": "Who is Frank, and what did he post? Is this reference to another trader, member, or market condition relevant to Chase's setups?",
+        "type": "warning"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "question": {
+      "type": "Text",
+      "props": {
+        "text": "Your read?",
+        "variant": "lead"
+      }
+    }
+  }
+}
