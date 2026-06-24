@@ -1,0 +1,190 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Calibration — Chase [TradFi]"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_calibration",
+        "text_event",
+        "separator_1",
+        "tweetcard_message",
+        "separator_2",
+        "heading_analysis",
+        "alert_classification",
+        "heading_context",
+        "stack_context",
+        "separator_3",
+        "heading_interpretations",
+        "stack_interpretations"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — DC: Chase — TradFi",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Message posted in TradFi supporting channel post-MU-earnings-context + prior ES giga chop frustration",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "tweetcard_message": {
+      "type": "TweetCard",
+      "props": {
+        "author": "crypto_chase",
+        "text": "I can only imagine what happens now"
+      },
+      "children": []
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_analysis": {
+      "type": "Heading",
+      "props": {
+        "text": "Classification Analysis",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "alert_classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read?",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "heading_context": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "stack_context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat_mu_earnings",
+        "stat_es_position",
+        "text_chop_frustration"
+      ]
+    },
+    "stat_mu_earnings": {
+      "type": "Stat",
+      "props": {
+        "label": "MU Earnings",
+        "value": "Today",
+        "delta": "mentioned 13:32Z"
+      },
+      "children": []
+    },
+    "stat_es_position": {
+      "type": "Stat",
+      "props": {
+        "label": "ES Position",
+        "value": "Active",
+        "delta": "50/50 conviction",
+        "trend": "neutral"
+      },
+      "children": []
+    },
+    "text_chop_frustration": {
+      "type": "Text",
+      "props": {
+        "text": "Recent chop frustration",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_interpretations": {
+      "type": "Heading",
+      "props": {
+        "text": "Possible Interpretations",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "stack_interpretations": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_resignation",
+        "badge_anticipation",
+        "badge_other"
+      ]
+    },
+    "badge_resignation": {
+      "type": "Badge",
+      "props": {
+        "text": "resignation",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "badge_anticipation": {
+      "type": "Badge",
+      "props": {
+        "text": "anticipation",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "badge_other": {
+      "type": "Badge",
+      "props": {
+        "text": "something else entirely",
+        "variant": "outline"
+      },
+      "children": []
+    }
+  }
+}
