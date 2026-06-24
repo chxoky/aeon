@@ -1,0 +1,57 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "channel",
+        "sep1",
+        "donpanick_msg",
+        "chase_msg",
+        "sep2",
+        "chart"
+      ]
+    },
+    "channel": {
+      "type": "Badge",
+      "props": {
+        "text": "💬 DC: Chase — TradFi",
+        "variant": "secondary"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "donpanick_msg": {
+      "type": "TweetCard",
+      "props": {
+        "author": "donpanick",
+        "handle": "donpanick",
+        "text": "I know you are not really trading nasdaq but overall what do you think of this trade idea from chart perspective , a quick retes"
+      }
+    },
+    "chase_msg": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Chase",
+        "text": "So it left equal lows behind. I guess something like how I drew it would be how I would see it, I think my drawing is somewhat confluent with what you drew. Just a reminder that passive flows into the indexes and high-time-frame swing shorts are not really of interest to me for the most part"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "chart": {
+      "type": "Text",
+      "props": {
+        "text": "📊 Chart attachment from Discord",
+        "variant": "caption"
+      }
+    }
+  }
+}
