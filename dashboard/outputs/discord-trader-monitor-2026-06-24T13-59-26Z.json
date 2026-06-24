@@ -1,0 +1,90 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "alert_success",
+        "separator1",
+        "stack_framework",
+        "separator2",
+        "stack_status"
+      ]
+    },
+    "alert_success": {
+      "type": "Alert",
+      "props": {
+        "type": "success",
+        "title": "BTC Framework Analysis Complete",
+        "message": "Crypto_Chase strategy processed"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "stack_framework": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_framework",
+        "text_price",
+        "text_signal"
+      ]
+    },
+    "text_framework": {
+      "type": "Text",
+      "props": {
+        "text": "Framework: Crypto_Chase BTC"
+      }
+    },
+    "text_price": {
+      "type": "Text",
+      "props": {
+        "text": "Price levels: 66k-72k bounce range"
+      }
+    },
+    "text_signal": {
+      "type": "Text",
+      "props": {
+        "text": "Signal: Bearish below 66k"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "stack_status": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_alert",
+        "badge_logging"
+      ]
+    },
+    "badge_alert": {
+      "type": "Badge",
+      "props": {
+        "text": "Fast-path alert already sent",
+        "variant": "default"
+      }
+    },
+    "badge_logging": {
+      "type": "Badge",
+      "props": {
+        "text": "Memory + logging updated",
+        "variant": "secondary"
+      }
+    }
+  }
+}

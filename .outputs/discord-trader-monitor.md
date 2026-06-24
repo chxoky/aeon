@@ -1,3 +1,1 @@
-💬 *[DC: Chase — Crypto]*
-
-Entire world economy awaits MU earnings today, won't be surprised if it's a bit choppy day.
+✅ discord-trader-monitor: Crypto_Chase BTC framework (66k-72k bounce, bearish below 66k) — fast-path alert already sent, memory + logging updated
