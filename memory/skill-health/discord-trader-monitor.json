@@ -1,10 +1,10 @@
 {
   "skill": "discord-trader-monitor",
-  "last_analyzed": "2026-06-24T14:38:32Z",
-  "quality_score": 4,
-  "assessment": "Complete execution with sound classification logic, appropriate alert suppression for supporting channel, proper dedup tracking and memory logging",
+  "last_analyzed": "2026-06-24T19:27:08Z",
+  "quality_score": 3,
+  "assessment": "Skill executed correctly; properly classified non-actionable message and suppressed false alert while maintaining dedup tracking and logging",
   "flags": [],
-  "avg_score": 4,
+  "avg_score": 3.89,
   "history": [
     {
       "date": "2026-06-08",
@@ -37,6 +37,10 @@
     {
       "date": "2026-06-24",
       "score": 4
+    },
+    {
+      "date": "2026-06-24",
+      "score": 3
     }
   ]
 }
