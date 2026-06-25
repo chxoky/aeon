@@ -1,0 +1,42 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_header",
+        "text_message"
+      ]
+    },
+    "heading_header": {
+      "type": "Heading",
+      "props": {
+        "text": "💬 [DC: HCH — Comments]",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text_message": {
+      "type": "Text",
+      "props": {
+        "text": "With ugly US session start",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
