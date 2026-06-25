@@ -23,6 +23,14 @@
 - **Context**: Entered on dream conviction after being patient/flat through FOMC window. Subsequently expressed 50/50 uncertainty as of 06-22T01:16Z, frustrated with "giga chop" market structure.
 - **Last update**: 2026-06-21T23:23Z (need to track conviction state changes)
 
+## HeartCanHodl
+
+### BTC/ETH/SOL Spot — LONGS (scaled position)
+- **Status**: SCALED DOWN near 59k (2026-06-25T14:05Z) — **CLOSED the underside-60k tranche at 59k**
+- **Thesis**: Running a hedged book with active rebalancing. Trimmed majors to <20% at 67k strength on 06-16. Recovered to ~20-30% size through multiple 5% re-entry adds (06-18 through 06-25 04:28Z add of 2%). **Tactical close at 59k reflects precision-timing conviction: rejects further weakness below 60k, targeting cleaner re-entry above support.**
+- **Forward plan**: Re-entry above 60k support level (stated conviction 2026-06-25T14:05:03Z)
+- **Short basket**: ZEC (scaling conviction), TAO, SPCX, VVV, XPL, TON, LAB — maintained as hedges against trimmed longs
+
 ---
 
-> Last bootstrapped: 2026-06-25 (discord-trader-monitor real-time event). Prior active-trades.md did not exist; created from current GOOG position update + ES position context from traders.md.
+> Last bootstrapped: 2026-06-25 (discord-trader-monitor real-time event). GOOG (Chase) updated from recent conviction-add; HCH BTC/ETH/SOL position closed near 59k with stated re-entry thesis above 60k.
