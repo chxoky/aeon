@@ -1,26 +1,20 @@
-Perfect! I've successfully executed the skill. Here's what I did:
-🔍 *Calibration — [DC: Chase — Crypto]*
+## Summary
 
-Event: Crypto_Chase message in supporting channel
-Message: "nice hold"
+**Discord-trader-monitor executed successfully for event 2026-06-25T18:22:57Z**
 
 **Event decoded:**
-- Crypto_Chase replied to omrshkh in the Chase — TradFi supporting channel at 16:47:44Z
-- Message: "Yeah sub-250, monthly block should hold" (in response to question about BTC invalidation at ~245)
-
-**Classification:** INFORMATIONAL / TECHNICAL FRAMEWORK
-- BTC price structure commentary (no execution language)
-- Supporting channel, member Q&A context
-- Technical opinion on support level holding
+- **Trader:** Crypto_Chase (username: crypto_chase)
+- **Channel:** 1343971265962049597 (Chase — TradFi, supporting)
+- **Message:** "ye the gap" (reply to ted4ka's "290s 1st tp ?")
 
 **Processing:**
-1. ✅ **Fast-path:** `fast_path_alerted: true` → Worker already sent Telegram alert; skipped additional sends per Step 2
-2. ✅ **Routing:** Supporting channel + no related primary-channel BTC message → **no Telegram alert** (Step 7 default)
-3. ✅ **Dedup:** Message ID 1519745926036590612 not in seen list → new event
-4. ✅ **Memory updated:**
-   - Added to `discord-trader-seen.txt` (60 entries now)
-   - Added entry to `traders.md` (Crypto_Chase section, top of recent messages)
-   - Appended to `memory/logs/2026-06-25.md` (classification: informational / technical framework, BTC ticker)
+- **Fast-path status:** Already alerted by Cloudflare Worker at 18:22:57Z → skipped Telegram, proceeded to memory/logging only
+- **Classification:** INFORMATIONAL / TECHNICAL FRAMEWORK — member Q&A confirming a gap-based first-TP target at 290s
+- **Action taken:** No Telegram alert (per Step 7: supporting-channel default, fast-path already fired)
 
-The event has been fully processed and logged. No user-facing alert sent per the fast-path rule and supporting-channel guidelines.
-Unable to classify — what's your read? (Ambiguous context: could reference active GOOG long, ES long, or broader market sentiment about holdings. No explicit ticker mentioned.)
+**Memory updates:**
+- ✅ Added message ID 1519769887013077013 to `memory/discord-trader-seen.txt`
+- ✅ Updated `memory/topics/traders.md` with new entry (chronologically placed after 14:42:21Z GOOG sentiment)
+- ✅ Appended log entry to `memory/logs/2026-06-25.md` with classification and notes
+
+The event is now fully processed, logged, and deduplicated.
