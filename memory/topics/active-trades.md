@@ -23,6 +23,21 @@
 - **Context**: Entered on dream conviction after being patient/flat through FOMC window. Subsequently expressed 50/50 uncertainty as of 06-22T01:16Z, frustrated with "giga chop" market structure.
 - **Last update**: 2026-06-21T23:23Z (need to track conviction state changes)
 
+## KillaXBT
+
+### BTC — LONG (multi-timeframe, primary conviction + near-term DCA)
+- **Status**: ACTIVE (long-horizon HTF swing + spot accumulation)
+- **Holdings**: 
+  - **2X swing long** (HTF): open since 06-13, "the bear cycle is coming to an end" thesis
+  - **Spot position**: ~11 Bitcoin notional at avg entry 65897
+- **Position history**:
+  - Small LTF long (CLOSED 06-24T16:49Z with -15k loss) — was tactical hedge, conviction targets 60.7K sweep, 68-69K next month (failed to materialize)
+  - LTF scalp short (CLOSED 06-20T21:12:55Z) — de-hedged after HTF conviction strengthened
+- **DCA Plan**: Targeting ~20 Bitcoin total notional over 3-4 months on dips (especially sub-50k level where willing to liquidate ISA stock holdings)
+- **Current conviction**: HIGH on BTC structure (bear market ~80% complete per 06-22 analysis); willing to add significantly at lower levels
+- **Technical thesis**: Monday High pattern in play; 60.7K initial sweep target, then 68-69K push expected next month; sub-50k triggers ISA liquidation for additional conviction add
+- **Last update**: 2026-06-25T14:50:04Z (position confirmation + DCA plan, message_id=1519716314996805654, fast-path alerted)
+
 ## HeartCanHodl
 
 ### BTC/ETH/SOL Spot — LONGS (scaled position, post-close)
