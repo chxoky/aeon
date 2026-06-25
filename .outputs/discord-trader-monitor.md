@@ -1,6 +1,8 @@
 Perfect! I've successfully executed the skill. Here's what I did:
+🔍 *Calibration — [DC: Chase — Crypto]*
 
-## Summary
+Event: Crypto_Chase message in supporting channel
+Message: "nice hold"
 
 **Event decoded:**
 - Crypto_Chase replied to omrshkh in the Chase — TradFi supporting channel at 16:47:44Z
@@ -21,3 +23,4 @@ Perfect! I've successfully executed the skill. Here's what I did:
    - Appended to `memory/logs/2026-06-25.md` (classification: informational / technical framework, BTC ticker)
 
 The event has been fully processed and logged. No user-facing alert sent per the fast-path rule and supporting-channel guidelines.
+Unable to classify — what's your read? (Ambiguous context: could reference active GOOG long, ES long, or broader market sentiment about holdings. No explicit ticker mentioned.)
