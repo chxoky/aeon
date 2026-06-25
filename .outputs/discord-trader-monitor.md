@@ -37,3 +37,21 @@ Perfect! I've successfully executed the discord-trader-monitor skill for the rea
   - `logs/2026-06-25.md`: Added log entry at 14:06 UTC
   - `discord-trader-seen.txt`: Added message ID 1519705337756647604 to prevent re-processing
 - **Alerted**: Yes (fast-path alert already delivered by Worker)
+Perfect! I've completed processing the HeartCanHodl Discord event. Here's what happened:
+
+## Summary
+
+**Event:** HeartCanHodl closed a partial BTC/ETH/SOL long position at 59k on 2026-06-25T14:08:51Z
+
+**Key Details:**
+- **Channel:** HCH — Free (primary, 1472153627324842057)
+- **Action:** Tactical position close with forward re-entry conviction above 60k support
+- **Risk Philosophy:** "I'd rather pay a little higher for confirmation than gamble below a level that still acts as flip zone"
+- **Forward Thesis:** Re-entry when 60k is "reclaimed, accepted, and held" (rejecting sub-60k as knife-catching)
+
+**Processing:**
+- Fast-path alert already sent by Cloudflare Worker (~2-5s latency)
+- Skipped redundant Telegram per Step 2 rule
+- Updated memory: active-trades.md (position status), traders.md (detailed execution entry), discord-trader-seen.txt (dedup), 2026-06-25.md log
+
+This represents HCH's continued rebalancing approach: trimmed >50% at 67k (06-16), recovered through 2% add (04:28Z), and now taking the tactical underside-60k tranche off at support with precision timing.
