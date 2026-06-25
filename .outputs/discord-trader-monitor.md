@@ -1,4 +1,4 @@
-Skill execution complete. HeartCanHodl's Discord message processed and logged.
+💬 *[DC: HCH — Trades]*
 
 **Summary:**
 
@@ -55,3 +55,4 @@ Perfect! I've completed processing the HeartCanHodl Discord event. Here's what h
 - Updated memory: active-trades.md (position status), traders.md (detailed execution entry), discord-trader-seen.txt (dedup), 2026-06-25.md log
 
 This represents HCH's continued rebalancing approach: trimmed >50% at 67k (06-16), recovered through 2% add (04:28Z), and now taking the tactical underside-60k tranche off at support with precision timing.
+Fc btc 1hr
