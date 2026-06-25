@@ -1,0 +1,269 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor — Calibration [DC: Chase — TradFi]",
+        "description": "Real-time supporting-channel sentiment message"
+      },
+      "children": [
+        "metadata-stack",
+        "sep-1",
+        "quote-section",
+        "chart-alert",
+        "sep-2",
+        "context-section",
+        "sep-3",
+        "classification-alert",
+        "sep-4",
+        "possible-readings-section",
+        "sep-5",
+        "conclusion-alert"
+      ]
+    },
+    "metadata-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "timestamp",
+        "message-id"
+      ]
+    },
+    "timestamp": {
+      "type": "Text",
+      "props": {
+        "text": "2026-06-25T20:38:18Z",
+        "variant": "caption"
+      }
+    },
+    "message-id": {
+      "type": "Text",
+      "props": {
+        "text": "message_id=1519803952600973314",
+        "variant": "caption"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "quote-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "quote-author-text",
+        "quote-body"
+      ]
+    },
+    "quote-author-text": {
+      "type": "Text",
+      "props": {
+        "text": "Crypto_Chase:",
+        "variant": "lead"
+      }
+    },
+    "quote-body": {
+      "type": "Text",
+      "props": {
+        "text": "\"Maybe better to just wait and see if it gives a dip opportunity, in my opinion\" [+ chart image attachment]",
+        "variant": "body"
+      }
+    },
+    "chart-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Chart Attachment Unviewable",
+        "message": "Image attached but subject unknown. Could be GOOG, broader market, or other ticker.",
+        "type": "warning"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context-heading",
+        "goog-entry-stat",
+        "entry-timing-text",
+        "position-scale-stat"
+      ]
+    },
+    "context-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "goog-entry-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "GOOG Entry Price",
+        "value": "336"
+      }
+    },
+    "entry-timing-text": {
+      "type": "Text",
+      "props": {
+        "text": "Conviction add 6 hours prior (13:34Z)",
+        "variant": "caption"
+      }
+    },
+    "position-scale-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Position Scale at Entry",
+        "value": "60%",
+        "delta": "+10%",
+        "trend": "up"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to Classify Fully",
+        "message": "1. Chart subject (GOOG? broader market? other ticker?)\n2. Is this conviction shift on existing GOOG position, or general sentiment?\n3. Is he reconsidering the 336 add, or expressing patience for NEW entries?",
+        "type": "warning"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "possible-readings-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "readings-heading",
+        "reading-1-stack",
+        "reading-2-stack",
+        "reading-3-stack"
+      ]
+    },
+    "readings-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Possible Readings",
+        "level": "h3"
+      }
+    },
+    "reading-1-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "reading-1-badge",
+        "reading-1-description"
+      ]
+    },
+    "reading-1-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Reconsidering GOOG add",
+        "variant": "outline"
+      }
+    },
+    "reading-1-description": {
+      "type": "Text",
+      "props": {
+        "text": "Shift to waiting for deeper dip opportunity before adding more",
+        "variant": "caption"
+      }
+    },
+    "reading-2-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "reading-2-badge",
+        "reading-2-description"
+      ]
+    },
+    "reading-2-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "General market sentiment",
+        "variant": "outline"
+      }
+    },
+    "reading-2-description": {
+      "type": "Text",
+      "props": {
+        "text": "Consolidation phase expected before next leg",
+        "variant": "caption"
+      }
+    },
+    "reading-3-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "reading-3-badge",
+        "reading-3-description"
+      ]
+    },
+    "reading-3-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Informational patience reinforcement",
+        "variant": "outline"
+      }
+    },
+    "reading-3-description": {
+      "type": "Text",
+      "props": {
+        "text": "Reinforcing existing patient posture—no conviction shift on GOOG",
+        "variant": "caption"
+      }
+    },
+    "sep-5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "conclusion-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Analysis Request",
+        "message": "Your read on conviction + asset + intent?",
+        "type": "info"
+      }
+    }
+  }
+}
