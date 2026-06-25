@@ -14,3 +14,10 @@ Execution complete. The Discord message from Crypto_Chase about his GOOG positio
 - ✅ Activity logged to memory/logs/2026-06-25.md
 
 **Summary**: Real-time update on his active GOOG long position showing continued conviction in the multi-level DCA approach. At current 336-ish level, he's comfortable trimming and re-entering lower into the mid-330s zone.
+🔍 *Calibration — [DC: Chase — TradFi]*
+
+Message (2026-06-25T14:42Z): "Working the average entry down"
+
+Context: Chase is actively managing GOOG (latest add at 336 on 06-25T13:34Z with resting bids to 315). This message arrives 1h8m later in the same supporting channel.
+
+Unable to classify without explicit ticker — what's your read? Is this GOOG DCA continuation, or a different asset?

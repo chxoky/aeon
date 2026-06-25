@@ -1,0 +1,167 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor — Calibration"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_calibration",
+        "section_message",
+        "separator1",
+        "section_context",
+        "separator2",
+        "section_question"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — DC: Chase — TradFi",
+        "level": "h3"
+      }
+    },
+    "section_message": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_message",
+        "text_message_body",
+        "text_timestamp"
+      ]
+    },
+    "heading_message": {
+      "type": "Heading",
+      "props": {
+        "text": "Message",
+        "level": "h4"
+      }
+    },
+    "text_message_body": {
+      "type": "Text",
+      "props": {
+        "text": "Working the average entry down",
+        "variant": "lead"
+      }
+    },
+    "text_timestamp": {
+      "type": "Text",
+      "props": {
+        "text": "2026-06-25T14:42Z",
+        "variant": "caption"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_context",
+        "text_context_description",
+        "grid_details"
+      ]
+    },
+    "heading_context": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h4"
+      }
+    },
+    "text_context_description": {
+      "type": "Text",
+      "props": {
+        "text": "Chase is actively managing GOOG (latest add at 336 on 06-25T13:34Z with resting bids to 315). This message arrives 1h8m later in the same supporting channel.",
+        "variant": "body"
+      }
+    },
+    "grid_details": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "badge_ticker",
+        "stat_entry_price",
+        "stat_bid_level",
+        "stat_elapsed"
+      ]
+    },
+    "badge_ticker": {
+      "type": "Badge",
+      "props": {
+        "text": "GOOG",
+        "variant": "default"
+      }
+    },
+    "stat_entry_price": {
+      "type": "Stat",
+      "props": {
+        "label": "Latest add (06-25T13:34Z)",
+        "value": "336"
+      }
+    },
+    "stat_bid_level": {
+      "type": "Stat",
+      "props": {
+        "label": "Resting bids to",
+        "value": "315"
+      }
+    },
+    "stat_elapsed": {
+      "type": "Stat",
+      "props": {
+        "label": "Message delay after entry",
+        "value": "1h8m"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_question": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "alert_classify"
+      ]
+    },
+    "alert_classify": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification Question",
+        "message": "Unable to classify without explicit ticker — what's your read? Is this GOOG DCA continuation, or a different asset?",
+        "type": "info"
+      }
+    }
+  }
+}
