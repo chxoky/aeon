@@ -1,9 +1,7 @@
-🔍 *Calibration — [DC: Chase — TradFi]*
+💬 *[DC: Chase — TradFi]*
 
-Message: "optimally something like this" + chart attachment
+↩️ _Member (mtcrypto): "Intc worth a short 📉.. ? what do you think about this"_
 
-Channel: Supporting (TradFi member Q&A)
-Message ID: 1519772013466484898
-Time: 2026-06-25T18:31:24Z
+Chase: "you got a good read on the chart. I was actually thinking the same thing but it's Intel so it's very difficult for me to short Intel"
 
-Unable to classify without chart context — what asset/setup is he discussing, and what's your read on the conviction?
+**Conviction**: Agrees on bearish technicals, constraint on shorting Intel (likely structural/large-cap mechanics).

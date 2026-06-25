@@ -1,0 +1,85 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "context",
+        "sep1",
+        "conversation",
+        "sep2",
+        "analysis"
+      ]
+    },
+    "context": {
+      "type": "Text",
+      "props": {
+        "text": "💬 [DC: Chase — TradFi]",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "conversation": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "msg1",
+        "msg2"
+      ]
+    },
+    "msg1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "mtcrypto",
+        "handle": "mtcrypto",
+        "text": "Intc worth a short 📉.. ? what do you think about this"
+      }
+    },
+    "msg2": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Chase",
+        "text": "you got a good read on the chart. I was actually thinking the same thing but it's Intel so it's very difficult for me to short Intel"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "analysis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "analysis_heading",
+        "analysis_text"
+      ]
+    },
+    "analysis_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Conviction",
+        "level": "h3"
+      }
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Agrees on bearish technicals, constraint on shorting Intel (likely structural/large-cap mechanics).",
+        "variant": "body"
+      }
+    }
+  }
+}
