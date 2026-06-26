@@ -1,0 +1,84 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor",
+        "description": "💬 Technical update from HCH (Free tier)"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "btc_section",
+        "separator1",
+        "context_section"
+      ]
+    },
+    "btc_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "btc_heading",
+        "btc_text"
+      ]
+    },
+    "btc_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "BTC 15m",
+        "level": "h3"
+      }
+    },
+    "btc_text": {
+      "type": "Text",
+      "props": {
+        "text": "Forming consolidation (referenced prior macro sentiment: not yet in favour of risk-on)",
+        "variant": "body"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context_heading",
+        "context_text"
+      ]
+    },
+    "context_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "HCH added 5% BTC + hedges @ 07:23Z; reassessing structure post-60k re-entry.",
+        "variant": "body"
+      }
+    }
+  }
+}
