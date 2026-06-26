@@ -1,38 +1,17 @@
 ## Summary
 
-**Discord Trader Monitor Skill — Real-time Event Processed**
+**Discord Trader Monitor — Skill Execution Complete**
 
-✅ **Event Details:**
-- **Message ID:** 1520084381899686019
-- **Trader:** crypto_chase (Crypto_Chase)
-- **Channel:** 1343971265962049597 (Chase — TradFi, supporting)
-- **Time:** 2026-06-26T15:12:38Z
-- **Content:** Market sentiment on ES (S&P 500) choppiness — "I usually just get a feeling... the candles do confirm it" with chart attachment
+Processed real-time Discord event from Crypto_Chase at 15:41 UTC:
 
-✅ **Classification:** INFORMATIONAL / SENTIMENT (real-time market observation, no position action)
+- **Event ID:** 1520091534895222875 (new, not previously seen)
+- **Channel:** Chase — TradFi (1343971265962049597, supporting channel)
+- **Classification:** Non-financial (community banter / link endorsement)
+- **Message:** Reply to member's Telegram channel share with enthusiastic endorsement ("guys a legend")
+- **Action:** No Telegram alert sent
+  - Supporting channel default rule (no standalone alerts unless genuine conviction shift)
+  - HR-1A classification (non-financial banter skips alert, logged only)
 
-✅ **Alerting Decision:** NO Telegram alert sent
-- Supporting channel default rule applies (no alert unless genuine new conviction shift)
-- Message aligns with existing ES long context (entered 06-21, frustrated with chop since 06-22, noted "ES breaking down" at 06-26T03:02Z)
-- This is a follow-up sentiment observation, not a position management action
-
-✅ **Memory Updated:**
-- Message ID added to discord-trader-seen.txt
-- Entry added to traders.md (Crypto_Chase section)
-- Log entry appended to memory/logs/2026-06-26.md
-
-**ES Conviction Context:** Chase maintains patience on his active ES long position; chop + intuitive feel + technical confirmation reinforce the waiting posture during ongoing market breakdown.
-Skill execution complete. 
-
-**Summary of action:**
-
-The Discord message from Crypto_Chase at 15:13:16Z (channel: Chase — TradFi, supporting) is an elaboration on his primary-channel market sentiment update from 13:26:11Z. Both messages convey a cautious macro outlook (painful trading conditions predicted, market shift from bullish to neutral).
-
-**Classification:** INFORMATIONAL / MARKET SENTIMENT ELABORATION (supporting channel)
-
-**Alert decision:** NO Telegram alert sent (per Step 7: supporting channel + related primary-channel message exists from same trader ~1h 47m ago)
-
-**Memory updates:**
-- Message ID tracked in dedup file (discord-trader-seen.txt)
-- traders.md: Added supporting-channel footnote to existing 13:26:11Z primary-channel entry
-- Daily log (2026-06-26.md): Recorded event with classification and rationale
+**Memory Updates:**
+- ✅ Added message_id to discord-trader-seen.txt (73 total entries)
+- ✅ Logged event to memory/logs/2026-06-26.md with classification rationale
