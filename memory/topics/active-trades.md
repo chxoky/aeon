@@ -41,12 +41,13 @@
 
 ## HeartCanHodl
 
-### BTC/ETH/SOL Spot — LONGS (scaled position, post-close)
-- **Status**: CLOSED underside-60k tranche at 59k (2026-06-25T14:08:51Z)
-- **Thesis**: Running a hedged book with active rebalancing. Trimmed majors to <20% at 67k strength on 06-16. Recovered to ~20-30% size through multiple 5% re-entry adds (06-18 through 06-25 04:28Z add of 2%). **Tactical close at 59k reflects precision-timing conviction: "I'd rather pay a little higher for confirmation than gamble below a level that still acts as flip zone."**
-- **Forward plan**: Re-entry above 60k support level. **Conviction statement**: "The easier trade comes when 60k is reclaimed, accepted, and held. Below it, it would be a tough knife-catching." (2026-06-25T14:08:51Z, message_id=1519705941027721408)
-- **Short basket**: ZEC (scaling conviction), TAO, SPCX, VVV, XPL, TON, LAB — maintained as hedges against trimmed longs
-- **Last update**: 2026-06-25T14:08:51Z (discord-trader-monitor, fast-path alerted)
+### BTC/ETH/SOL Spot — LONGS (re-entered above 60k)
+- **Status**: ACTIVE re-entry above 60k support (2026-06-26T07:23:30Z)
+- **Position sizes** (as of 06-26T07:23:30Z): BTC +5%, ETH +2%, SOL +2% (conviction add following precision close at 59k)
+- **Thesis**: Running a hedged book with active rebalancing. Trimmed majors to <20% at 67k strength on 06-16. Recovered to ~20-30% size through multiple 5% re-entry adds (06-18 through 06-25 04:28Z add of 2%). **Tactical close at 59k reflects precision-timing conviction: "I'd rather pay a little higher for confirmation than gamble below a level that still acts as flip zone."** **Now executing re-entry above 60k per his stated preference** (2026-06-25T14:08:51Z: "The easier trade comes when 60k is reclaimed, accepted, and held").
+- **Current forward plan**: Continue scaling majors above 60k support. Re-balance with 2% HYPE shorts hedge.
+- **Short basket**: HYPE (2% shorts, current hedge), ZEC (scaling conviction), TAO, SPCX, VVV, XPL, TON, LAB — maintained as hedges against trimmed longs
+- **Last update**: 2026-06-26T07:23:30Z (discord-trader-monitor, fast-path alerted)
 
 ---
 
