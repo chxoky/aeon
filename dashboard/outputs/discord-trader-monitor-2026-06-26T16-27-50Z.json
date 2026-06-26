@@ -1,0 +1,56 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — [DC: Chase — TradFi]"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event_label",
+        "tweet_card",
+        "separator",
+        "alert_classification"
+      ]
+    },
+    "event_label": {
+      "type": "Text",
+      "props": {
+        "text": "Real-time market observation, no ticker specified",
+        "variant": "muted"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Crypto_Chase",
+        "text": "when it basically went to 0 after pumping for 1 day"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What asset is he referring to, and is this a position concern or just commentary on market conditions?",
+        "type": "warning"
+      }
+    }
+  }
+}
