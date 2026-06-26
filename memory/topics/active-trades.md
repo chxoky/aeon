@@ -4,17 +4,18 @@
 
 ### GOOG (Google) — LONG
 - **Entry zone**: 330s (initial resting bid filled 2026-06-23T13:31Z at ~330-342 zone)
-- **Current size**: 60% (as of 2026-06-25T13:34Z)
+- **Current size**: 40% (as of 2026-06-26T03:02:34Z)
 - **Position history**:
   - 2026-06-23T13:31Z: Filled at 342, entered into 330s zone
   - Initial size: 70% of target position
   - 2026-06-23T13:31Z: Partial TP at 342 → reduced from 70% to 50%
   - 2026-06-25T13:34Z: Conviction add at 336 → scaled from 50% back up to 60%
-- **Resting bids**: Down to 315 zone
-- **Status**: ACTIVE — managing long position, taking profits into strength, re-entering on pullbacks
-- **Thesis**: Patient, multi-level DCA strategy; expects further weakness toward 315, then likely to 320s
+  - 2026-06-26T03:02Z: Partial TP at 336 → reduced from 60% to 40%
+- **Resting bids**: Down to 315 zone (still active, wanting more bullets for lower)
+- **Status**: ACTIVE — managing long position, taking partial profits, re-entering on pullbacks
+- **Thesis**: Patient, multi-level DCA strategy; expects further weakness toward 315, then likely to 320s; market pressure noted (ES breaking down)
 - **Average entry**: Profitable (filled at 330s-342 zone, current price at 336 suggests slightly underwater from TP level but still profitable overall)
-- **Last update**: 2026-06-25T13:34:38Z (message_id=1519697331451072574, fast-path alerted)
+- **Last update**: 2026-06-26T03:02:34Z (message_id=1519900653873401856, fast-path alerted)
 
 ## ES (S&P 500 E-mini Futures) — LONG
 - **Entry**: 2026-06-21T23:23Z (dream/gut feeling conviction entry)
