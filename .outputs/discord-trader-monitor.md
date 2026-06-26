@@ -1,35 +1,29 @@
 ## Summary
 
-**Event processed**: Discord message from `crypto_chase` on 2026-06-26T17:12:48Z
-- **Channel**: Chase — TradFi (supporting channel 1343971265962049597)
-- **Message ID**: 1520114624085889155
-- **Classification**: INFORMATIONAL / PRICE TARGET + MARKET TIMING (no Telegram alert sent)
+**Discord Trader Monitor — Event Processed**
 
-**Actions taken**:
-1. ✅ Decoded base64 event → valid JSON with content and chart attachment
-2. ✅ Verified channel mapping (supporting channel for Crypto_Chase)
-3. ✅ Confirmed message_id not previously seen
-4. ✅ Classified as informational sentiment/price-target observation (ES 7513 target, Friday market lacks trade opportunity)
-5. ✅ Applied Step 7 supporting-channel rule: folded into existing primary-channel ES sentiment conversation from 2026-06-26T13:26:11Z (no separate Telegram alert)
-6. ✅ Updated `memory/topics/traders.md` with message context and conviction update
-7. ✅ Tracked message_id in `memory/discord-trader-seen.txt`
-8. ✅ Logged event to `memory/logs/2026-06-26.md` with full context
+**Event Details:**
+- **Time**: 2026-06-26T20:00:36Z
+- **Trader**: crypto_chase
+- **Channel**: 1247927786681794601 (Chase — Crypto, supporting)
+- **Message ID**: 1520156851080007861
+- **Content**: Image-only (one chart attachment, no text)
 
-**Key finding**: Chase articulates ES price target of 7513 with uncertainty on mechanism, while observing Friday market conditions present no clear trade opportunity. Message reinforces his cautious market posture from the 13:26Z primary-channel sentiment shift message earlier today.
-**Skill execution complete.**
+**Processing:**
+- ✓ Event decoded successfully
+- ✓ Fast-path status: false (process fully)
+- ✓ Channel resolved: supporting channel
+- ✓ Cross-platform dedup: first sighting on Discord
+- ✓ Classification: **INFORMATIONAL / IMAGE-ONLY**
 
-## Summary
+**Alert Decision:**
+- **NO Telegram alert sent** ✓
+- Per Step 7 supporting-channel rule: image-only messages without text context in supporting channels do not trigger standalone alerts
+- No related primary-channel message from today to fold into
 
-Processed Discord message from Crypto_Chase (crypto_chase) in the TradFi supporting channel (1343971265962049597):
+**Memory Updates:**
+- ✓ Message ID added to discord-trader-seen.txt (tracking: 1520156851080007861)
+- ✓ Entry added to traders.md (Crypto_Chase section)
+- ✓ Log entry added to memory/logs/2026-06-26.md (20:00 UTC event)
 
-**Message:** "Yeah I won't be surprised if it does the Sunday night drift up, to be honest"  
-**Time:** 2026-06-26T17:15:03Z  
-**Classification:** Informational / Market Sentiment  
-
-**Result:**
-- ✅ No Telegram alert sent (per Step 7: supporting channel + related primary-channel message exists from 13:26Z)
-- ✅ Message ID added to discord-trader-seen.txt
-- ✅ Entry added to traders.md under Crypto_Chase
-- ✅ Log entry appended to memory/logs/2026-06-26.md
-
-**Context:** Passive market direction speculation on potential upside drift during Sunday evening. Aligns with Chase's morning macro sentiment shift (13:26Z): transitioned from bullish to cautious/neutral posture, now "dipping toes in" selectively. This follow-up is casual market observation without personal execution language—folded into existing context per supporting-channel guidelines rather than standalone alerted.
+**Status**: Event processed successfully. Trader account monitored. Image content pending Kyle's review if deemed relevant.
