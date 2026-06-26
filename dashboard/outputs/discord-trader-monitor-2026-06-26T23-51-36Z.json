@@ -1,0 +1,66 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "header",
+        "event-desc",
+        "sep-1",
+        "quote-card",
+        "sep-2",
+        "analysis"
+      ]
+    },
+    "header": {
+      "type": "Text",
+      "props": {
+        "text": "🔍 Calibration — [DC: Chase — TradFi]",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "event-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Standalone message, no referenced context",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "quote-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "crypto_chase",
+        "text": "Weird. Did they have intel that things are going to get weird this weekend?"
+      },
+      "children": []
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read? Is this market speculation, reference to external news, or sentiment on market psychology?",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
