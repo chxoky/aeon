@@ -1,0 +1,154 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor",
+        "description": "Calibration signal requiring interpretation"
+      },
+      "children": [
+        "header-badge",
+        "sep1",
+        "quote-card",
+        "sep2",
+        "context-section",
+        "sep3",
+        "analysis-section",
+        "sep4",
+        "question-alert"
+      ]
+    },
+    "header-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "🔍 Calibration — DC: Chase — TradFi",
+        "variant": "outline"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "quote-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Crypto_Chase",
+        "text": "They must think that the war is going to kick up"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context-label",
+        "context-text"
+      ]
+    },
+    "context-label": {
+      "type": "Text",
+      "props": {
+        "text": "Context",
+        "variant": "muted"
+      }
+    },
+    "context-text": {
+      "type": "Text",
+      "props": {
+        "text": "Supporting channel, standalone message. No referenced context or explicit ticker.",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis-label",
+        "analysis-text",
+        "tags-row"
+      ]
+    },
+    "analysis-label": {
+      "type": "Text",
+      "props": {
+        "text": "Analysis",
+        "variant": "muted"
+      }
+    },
+    "analysis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Sounds like macro/geopolitical sentiment, but unable to classify intent.",
+        "variant": "body"
+      }
+    },
+    "tags-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "tag-macro",
+        "tag-geopolitical",
+        "tag-iran"
+      ]
+    },
+    "tag-macro": {
+      "type": "Badge",
+      "props": {
+        "text": "macro sentiment",
+        "variant": "secondary"
+      }
+    },
+    "tag-geopolitical": {
+      "type": "Badge",
+      "props": {
+        "text": "geopolitical",
+        "variant": "secondary"
+      }
+    },
+    "tag-iran": {
+      "type": "Badge",
+      "props": {
+        "text": "Iran conflict narrative?",
+        "variant": "secondary"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "question-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification Needed",
+        "message": "Is this a conviction signal on a specific ticker, or market commentary? What's your read?",
+        "type": "info"
+      }
+    }
+  }
+}
