@@ -12,3 +12,8 @@ Executed `discord-trader-monitor` skill on Discord event from Crypto_Chase.
 - **Logging**: Created daily log entry (2026-06-28.md)
 
 **Context:** Chase is currently in neutral/cautious macro posture (shifted 06-26 from bullish). Sharing external bearish perspective aligns with existing conviction state but introduces no new personal trade action warranting escalation to Kyle via Telegram.
+🔍 *Calibration — [DC: Chase — TradFi]*
+
+Crypto_Chase: "announcing it is weird"
+
+Unable to classify — what's your read? (message_id=1520805958098485352, 2026-06-28T14:59:55Z, supporting channel, no context/references)

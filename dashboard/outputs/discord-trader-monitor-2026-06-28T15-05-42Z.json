@@ -1,0 +1,76 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — [DC: Chase — TradFi]"
+      },
+      "children": [
+        "tweet-1",
+        "separator-1",
+        "alert-1",
+        "meta-stack"
+      ]
+    },
+    "tweet-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Crypto_Chase",
+        "text": "announcing it is weird"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert-1": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification Status",
+        "message": "Unable to classify — what's your read?",
+        "type": "info"
+      }
+    },
+    "meta-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-msgid",
+        "badge-time",
+        "badge-channel",
+        "badge-context"
+      ]
+    },
+    "badge-msgid": {
+      "type": "Badge",
+      "props": {
+        "text": "message_id: 1520805958098485352"
+      }
+    },
+    "badge-time": {
+      "type": "Badge",
+      "props": {
+        "text": "2026-06-28T14:59:55Z"
+      }
+    },
+    "badge-channel": {
+      "type": "Badge",
+      "props": {
+        "text": "supporting channel"
+      }
+    },
+    "badge-context": {
+      "type": "Badge",
+      "props": {
+        "text": "no context/references"
+      }
+    }
+  }
+}
