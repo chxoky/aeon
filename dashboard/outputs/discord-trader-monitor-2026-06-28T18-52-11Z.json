@@ -1,0 +1,96 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_voice",
+        "stack_content",
+        "sep1",
+        "alert_transcribe",
+        "text_message_id"
+      ]
+    },
+    "heading_voice": {
+      "type": "Heading",
+      "props": {
+        "text": "Voice Message",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_indicator",
+        "text_main",
+        "text_timestamp"
+      ]
+    },
+    "badge_indicator": {
+      "type": "Badge",
+      "props": {
+        "text": "DC: K",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "text_main": {
+      "type": "Text",
+      "props": {
+        "text": "KillaXBT posted a voice message in his primary channel"
+      },
+      "children": []
+    },
+    "text_timestamp": {
+      "type": "Text",
+      "props": {
+        "text": "2026-06-28T18:48:46Z",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert_transcribe": {
+      "type": "Alert",
+      "props": {
+        "title": "Transcription Unavailable",
+        "message": "Unable to transcribe in automated environment — please review directly if actionable",
+        "type": "info"
+      },
+      "children": []
+    },
+    "text_message_id": {
+      "type": "Text",
+      "props": {
+        "text": "message_id: 1520863550552277042",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
