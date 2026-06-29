@@ -1,22 +1,23 @@
 ## Summary
 
-**Skill executed:** `discord-trader-monitor` (real-time event mode)
+Executed discord-trader-monitor skill with the provided Discord event.
 
-**Event processed:**
+**Message processed:**
 - **Trader:** HeartCanHodl
-- **Channel:** 1279738718680256553 (HCH — Trades, primary ★ most important)
-- **Message:** "1x ofc" (reply to "Short 1% syn")
-- **Timestamp:** 2026-06-29T02:29:03.968Z
-- **Message ID:** 1520979385644089354
+- **Channel:** 1472153627324842057 (HCH — Free, primary)
+- **Content:** Promotional campaign announcement for Blofin partnership (10% cashback + Rolex prize for 15 days)
+- **Created:** 2026-06-29T06:20:07 UTC
+- **Message ID:** 1521037533050437654
 
-**Classification:** TRADE EXECUTION / SHORT CONFIRMATION
-- New short position entered: 1% size at 1x leverage on "syn" ticker (likely Synapse/SYN)
-- Confirmation message following HCH's own trade entry message
-- Complements existing short basket (ZEC, TAO, SPCX, VVV, XPL, TON, LAB) used as rebalancing hedge
+**Classification:** NON-FINANCIAL (HR-1A rule)
+- No trading signal or market commentary
+- No personal execution language
+- Promotional/administrative content only
 
 **Actions taken:**
-1. ✓ Added message ID to `memory/discord-trader-seen.txt` (new entry, not duplicate)
-2. ✓ Updated `memory/topics/traders.md` with full trade execution context
-3. ✓ Logged event to `memory/logs/2026-06-29.md` with classification and details
+- Added message ID to `memory/discord-trader-seen.txt` to prevent re-processing
+- Logged event to `memory/logs/2026-06-29.md` with classification and notes
+- No Telegram notification sent (promotional content, not actionable)
+- No traders.md or active-trades.md updates needed
 
-**Alert status:** Fast-path already alerted (Cloudflare Worker sent Telegram ~2-5s latency). Per Step 2 rule, skipped all additional Telegram sends; processed for memory classification and logging only.
+**Result:** Silent skip per HR-1A. Skill execution complete.
