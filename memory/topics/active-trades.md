@@ -12,10 +12,11 @@
   - 2026-06-25T13:34Z: Conviction add at 336 → scaled from 50% back up to 60%
   - 2026-06-26T03:02Z: Partial TP at 336 → reduced from 60% to 40%
 - **Resting bids**: Down to 315 zone (still active, wanting more bullets for lower)
-- **Status**: ACTIVE — managing long position, taking partial profits, re-entering on pullbacks
-- **Thesis**: Patient, multi-level DCA strategy; expects further weakness toward 315, then likely to 320s; market pressure noted (ES breaking down)
+- **Conditional trim target**: 352.83 level — if swept within next few days, will trim from 40% to 25% (15% size reduction)
+- **Status**: ACTIVE — managing long position, taking partial profits, re-entering on pullbacks; disciplined upside exit contingency set
+- **Thesis**: Patient, multi-level DCA strategy; expects further weakness toward 315, then likely to 320s; market pressure noted (ES breaking down); willing to let position run into strength with predetermined trim discipline
 - **Average entry**: Profitable (filled at 330s-342 zone, current price at 336 suggests slightly underwater from TP level but still profitable overall)
-- **Last update**: 2026-06-26T03:02:34Z (message_id=1519900653873401856, fast-path alerted)
+- **Last update**: 2026-06-29T14:09:08Z (message_id=1521155566075121715, conditional TP contingency at 352.83, fast-path alerted)
 
 ## ES (S&P 500 E-mini Futures) — LONG
 - **Entry**: 2026-06-21T23:23Z (dream/gut feeling conviction entry)
