@@ -1,0 +1,90 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "alert",
+        "sep1",
+        "info_stack"
+      ]
+    },
+    "alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Micron Dual-Entry Trade Plan",
+        "message": "Trade captured from crypto_chase at 14:25 UTC via fast-path alert",
+        "type": "success"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "info_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tags",
+        "risk",
+        "logging"
+      ]
+    },
+    "tags": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "tag_trader",
+        "tag_time",
+        "tag_alert_type"
+      ]
+    },
+    "tag_trader": {
+      "type": "Badge",
+      "props": {
+        "text": "crypto_chase",
+        "variant": "secondary"
+      }
+    },
+    "tag_time": {
+      "type": "Badge",
+      "props": {
+        "text": "14:25 UTC",
+        "variant": "outline"
+      }
+    },
+    "tag_alert_type": {
+      "type": "Badge",
+      "props": {
+        "text": "fast-path alerted",
+        "variant": "outline"
+      }
+    },
+    "risk": {
+      "type": "Stat",
+      "props": {
+        "label": "Max Portfolio Risk",
+        "value": "3%"
+      }
+    },
+    "logging": {
+      "type": "Text",
+      "props": {
+        "text": "Logged to traders.md and activity log",
+        "variant": "caption"
+      }
+    }
+  }
+}
