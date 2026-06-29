@@ -1,0 +1,83 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Calibration — DC: Chase — TradFi"
+      },
+      "children": [
+        "heading_event",
+        "text_context",
+        "sep_1",
+        "heading_convo",
+        "text_member",
+        "text_chase",
+        "sep_2",
+        "alert_classify"
+      ]
+    },
+    "heading_event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event: Supporting channel member context",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "Member discussing trades and market movements"
+      },
+      "children": []
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_convo": {
+      "type": "Heading",
+      "props": {
+        "text": "Conversation",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text_member": {
+      "type": "Text",
+      "props": {
+        "text": "Member: \"Yeah, miseed the one good trade though sadly\""
+      },
+      "children": []
+    },
+    "text_chase": {
+      "type": "Text",
+      "props": {
+        "text": "Chase: \"Yeah the morning flush at 10:00 am or whatever, I was too busy eyeing up the memory charts thinking we may be getting an entry\""
+      },
+      "children": []
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert_classify": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Unable to classify",
+        "message": "What asset/charts is he referring to? What entry opportunity? (2026-06-29T19:29:46Z)"
+      },
+      "children": []
+    }
+  }
+}
