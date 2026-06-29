@@ -1,23 +1,20 @@
 ## Summary
 
-Executed discord-trader-monitor skill with the provided Discord event.
+**Event processed**: HeartCanHodl Discord message (2026-06-29T08:51:38Z)
 
-**Message processed:**
-- **Trader:** HeartCanHodl
-- **Channel:** 1472153627324842057 (HCH — Free, primary)
-- **Content:** Promotional campaign announcement for Blofin partnership (10% cashback + Rolex prize for 15 days)
-- **Created:** 2026-06-29T06:20:07 UTC
-- **Message ID:** 1521037533050437654
+**Classification**: ✅ **SKIP** — Non-financial per HR-1A rule (link-only message, no trade context)
 
-**Classification:** NON-FINANCIAL (HR-1A rule)
-- No trading signal or market commentary
-- No personal execution language
-- Promotional/administrative content only
+**Channel**: HCH — Free (primary, public channel)
 
-**Actions taken:**
-- Added message ID to `memory/discord-trader-seen.txt` to prevent re-processing
-- Logged event to `memory/logs/2026-06-29.md` with classification and notes
-- No Telegram notification sent (promotional content, not actionable)
-- No traders.md or active-trades.md updates needed
+**Message**: Link to X post (https://x.com/i/status/2071516454998913294), no accompanying text or trade signal
 
-**Result:** Silent skip per HR-1A. Skill execution complete.
+**Decision**: No Telegram alert sent. Link share does not qualify as a financial signal — primary channel status alone insufficient to override missing trade detail requirement.
+
+**Memory updated**: 
+- Logged to memory/logs/2026-06-29.md with classification, timestamp (08:51 UTC), and rationale
+
+**No follow-up actions needed.** The X-side monitor will dedupe against this Discord message when the underlying X post flows through.
+
+---
+
+**Skill result**: SUCCESS — Event evaluated per Steps 1–10, classified as non-actionable per HR-1A guidelines, logged for audit trail.
