@@ -1,16 +1,18 @@
 ## Summary
 
-**discord-trader-monitor** skill executed successfully.
+**Skill executed:** `discord-trader-monitor` on real-time Discord event
 
 **Event processed:**
-- Message ID: 1521224749370310657
-- Trader: crypto_chase  
-- Channel: Chase — Crypto (supporting)
-- Content: Thumbs-up emoji ("👍") reply to member's casual statement "Me too, remembering the golden rule though"
+- **Trader:** Crypto_Chase
+- **Channel:** 1343971265962049597 (Chase — TradFi, supporting)
+- **Message:** "woo" (reply to his own message about ES 7513 target)
+- **Message ID:** 1521230759757873294
 
-**Classification:** NON-FINANCIAL (HR-1A rule) — Simple emoji banter with no trade signal, ticker reference, or market commentary.
+**Classification:** Non-financial / banter (HR-1A rule — skip silently)
 
-**Actions taken:**
-- Message marked as seen (prevent re-alert)
-- Logged to memory/logs/2026-06-29.md  
-- No Telegram alert sent (per HR-1A and Step 7 supporting-channel rules)
+**Action taken:**
+- ❌ No Telegram alert sent (correctly classified as non-financial)
+- ✅ Added message ID to seen list to prevent re-processing
+- ✅ Logged event in memory/logs/2026-06-29.md
+
+This was a simple positive exclamation in response to Crypto_Chase's own analysis about ES and lack of Friday trading opportunity — pure reaction, no actionable signal.
