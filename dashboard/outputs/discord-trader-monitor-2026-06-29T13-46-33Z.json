@@ -1,0 +1,63 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "🚨 Trade Signal — Chase (Discord)"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-main",
+        "sep1",
+        "badge-source",
+        "sep2",
+        "alert-ambiguity"
+      ]
+    },
+    "text-main": {
+      "type": "Text",
+      "props": {
+        "text": "Simple liquidity → inefficiency trade, this is how they should all work. Of course I only got a half fill bc it only swept slightly, but all gains are welcome.",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "badge-source": {
+      "type": "Badge",
+      "props": {
+        "text": "via Discord — Chase — Chase",
+        "variant": "outline"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert-ambiguity": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Ambiguity Note",
+        "message": "Asset/ticker not named in message. Awaiting clarification on which position (GOOG? MU? ES? New scalp?). Partial fill executed profitably."
+      }
+    }
+  }
+}
