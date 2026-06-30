@@ -1,0 +1,131 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — DC: Chase — TradFi",
+        "description": "Discord trader monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_label",
+        "msg1_container",
+        "msg2_container",
+        "msg3_container",
+        "sep1",
+        "analysis_heading",
+        "analysis_text"
+      ]
+    },
+    "context_label": {
+      "type": "Text",
+      "props": {
+        "text": "Recent context (same channel):",
+        "variant": "lead"
+      }
+    },
+    "msg1_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "msg1_badge",
+        "msg1_text"
+      ]
+    },
+    "msg1_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "14:02:05Z",
+        "variant": "outline"
+      }
+    },
+    "msg1_text": {
+      "type": "Text",
+      "props": {
+        "text": "Nothing clear yet for me. Maybe a short if we go straight to 7550s"
+      }
+    },
+    "msg2_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "msg2_badge",
+        "msg2_text"
+      ]
+    },
+    "msg2_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "14:13:33Z (Crypto channel)",
+        "variant": "outline"
+      }
+    },
+    "msg2_text": {
+      "type": "Text",
+      "props": {
+        "text": "make sure to terminate"
+      }
+    },
+    "msg3_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "msg3_badge",
+        "msg3_text"
+      ]
+    },
+    "msg3_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "14:19:52Z (TradFi — THIS MESSAGE)",
+        "variant": "default"
+      }
+    },
+    "msg3_text": {
+      "type": "Text",
+      "props": {
+        "text": "So we'll see"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Analysis",
+        "level": "h3"
+      }
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Cryptic one-liner without referenced context or explicit subject. Unable to classify — is he: (1) reflecting on the 14:02Z conditional short setup? (2) responding to market action? (3) external context? What's your read?",
+        "variant": "body"
+      }
+    }
+  }
+}
