@@ -1,13 +1,8 @@
-## Summary
+🔍 *Calibration — [DC: Chase — Crypto]*
 
-**Discord Trader Monitor — Event processed:**
+Event: Prior message 14:02:05Z same day: "Nothing clear yet for me. Maybe a short if we go straight to 7550s" (ES-likely, ambiguous). Active positions: GOOG long (25% size after 4 partial TPs), ES long (neutral conviction, giga chop), MU waiting pattern (resting bids sub-850/650).
 
-- **Trader:** Crypto_Chase
-- **Channel:** 1343971265962049597 (Chase — TradFi, supporting)
-- **Message ID:** 1521517686490660895
-- **Content:** "like these colors" (reply to wiebol's bullish gap commentary)
-- **Classification:** INFORMATIONAL / AGREEMENT SENTIMENT
-- **Action:** Logged, no alert sent
+Message (14:13:33Z): "make sure to terminate"
 
 The message is lightweight member-Q&A agreement chatter on an unnamed gap setup. Per the supporting-channel rule (Step 7), no standalone Telegram alert is warranted — it's a simple affirmation, not a conviction shift or new trade signal.
 
@@ -34,3 +29,4 @@ I've successfully executed the `discord-trader-monitor` skill for the provided D
 **Notification**: No Telegram alert sent (correctly classified as non-trade content per HR-1A rule).
 
 The skill completed successfully with no alerts needed — this message represents operational/business discussion rather than market trading activity.
+Unable to classify — which position/trade are you terminating? (GOOG? ES? MU? or external context?)
