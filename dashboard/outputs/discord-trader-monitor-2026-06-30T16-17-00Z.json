@@ -1,0 +1,134 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor",
+        "description": "Chase — TradFi Trading Insights"
+      },
+      "children": [
+        "channel_badge",
+        "sep_1",
+        "question_stack",
+        "response_stack",
+        "analysis_stack"
+      ]
+    },
+    "channel_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "💬 DC: Chase — TradFi",
+        "variant": "default"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "question_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "member_label",
+        "member_question_text"
+      ]
+    },
+    "member_label": {
+      "type": "Text",
+      "props": {
+        "text": "↩️ Member (.vek.):",
+        "variant": "lead"
+      }
+    },
+    "member_question_text": {
+      "type": "Text",
+      "props": {
+        "text": "\"I know you are trading liquidity to liquidity and using Price action mainly from your videos, do you also take into factor the timing (e.g. what hour\"",
+        "variant": "body"
+      }
+    },
+    "response_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "response_label",
+        "response_text",
+        "timing_badges"
+      ]
+    },
+    "response_label": {
+      "type": "Text",
+      "props": {
+        "text": "crypto_chase:",
+        "variant": "lead"
+      }
+    },
+    "response_text": {
+      "type": "Text",
+      "props": {
+        "text": "\"930-1130am, 1pm-330pm optimally\"",
+        "variant": "body"
+      }
+    },
+    "timing_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_morning",
+        "badge_afternoon"
+      ]
+    },
+    "badge_morning": {
+      "type": "Badge",
+      "props": {
+        "text": "Morning: 9:30–11:30 AM",
+        "variant": "secondary"
+      }
+    },
+    "badge_afternoon": {
+      "type": "Badge",
+      "props": {
+        "text": "Afternoon: 1:00–3:30 PM",
+        "variant": "secondary"
+      }
+    },
+    "analysis_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis_title",
+        "analysis_text"
+      ]
+    },
+    "analysis_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Timing Methodology Clarification",
+        "level": "h3"
+      }
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Chase specifies his optimal trading window: morning session (9:30–11:30 AM) and afternoon session (1:00–3:30 PM). Responds directly to member's question about incorporating timing/hourly factors into his liquidity-to-liquidity + price action approach. Methodological insight into his systematic trading approach.",
+        "variant": "body"
+      }
+    }
+  }
+}
