@@ -1,0 +1,80 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "channel_badge",
+        "separator1",
+        "member_section",
+        "separator2",
+        "response_section"
+      ]
+    },
+    "channel_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "💬 DC: Chase — Crypto",
+        "variant": "default"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "member_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "member_label",
+        "member_question_text"
+      ]
+    },
+    "member_label": {
+      "type": "Text",
+      "props": {
+        "text": "↩️ Member",
+        "variant": "caption"
+      }
+    },
+    "member_question_text": {
+      "type": "Text",
+      "props": {
+        "text": "what kind of monsters lurk below 58k",
+        "variant": "body"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "response_section": {
+      "type": "Text",
+      "props": {
+        "text": "saylor and phong le liquidation on binance account filled up with offshore loans",
+        "variant": "lead"
+      }
+    }
+  }
+}
