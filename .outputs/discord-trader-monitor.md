@@ -12,3 +12,10 @@ Processed Discord message from Crypto_Chase at 2026-06-30T13:56:18Z:
 - **Memory**: Message ID added to discord-trader-seen.txt; log entry appended to 2026-06-30.md
 
 No Telegram alert sent. Skill completed successfully.
+🔍 *Calibration — [DC: Chase — Crypto]*
+
+Event: Standalone message in supporting channel
+
+Crypto_Chase: "unwind will be amazing if it gives out"
+
+Unable to classify — what's your read? (subject ticker/asset? market event? position sentiment?)
