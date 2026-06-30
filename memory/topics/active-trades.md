@@ -18,6 +18,17 @@
 - **Average entry**: ~338 (profitable, as evidenced by TP hits at 342→336→352.84)
 - **Last update**: 2026-06-30T12:58:46Z (message_id=1521500243718570035, partial TP execution at 352.84, fast-path alerted)
 
+### LPTH (Loopring) — LONG (partial position reduction)
+- **Entry**: Unknown date (position was existing prior to 2026-06-30)
+- **Current size**: 50% (after partial exit)
+- **Position history**:
+  - 2026-06-30T19:16:20Z: Partial TP → sold 50% at/above breakeven (BEP)
+  - Remainder: 50% held as lottery/run ticket
+- **Status**: ACTIVE — 50% closed, 50% remainder held
+- **Thesis**: Pragmatic capital discipline; position "takes forever" to move (low volatility frustration); maintains remainder despite ambivalence ("don't want to miss if it runs either")
+- **Conviction**: MEDIUM (ambivalent on remainder — neither bullish enough to add nor bearish enough to fully exit)
+- **Last update**: 2026-06-30T19:16:20Z (message_id=1521595260629946561, partial TP at breakeven, fast-path alerted)
+
 ## ES (S&P 500 E-mini Futures) — LONG
 - **Entry**: 2026-06-21T23:23Z (dream/gut feeling conviction entry)
 - **Size/Targets**: Not explicitly disclosed
