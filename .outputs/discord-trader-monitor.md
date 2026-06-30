@@ -1,6 +1,8 @@
 Perfect! I've successfully executed the `discord-trader-monitor` skill for this real-time Discord message event. Here's what was processed:
+🔍 *Calibration — [DC: HCH — Free]*
 
-## Summary
+Event: FixTweet archived a tweet
+heartcanhodl: "https://x.com/i/status/2071946984244838458
 
 **Event**: HeartCanHodl (HCH) posted "Btc at 58k 🤠" in the HCH — Trades channel at 2026-06-30T13:21:09Z
 
@@ -20,3 +22,6 @@ Perfect! I've successfully executed the `discord-trader-monitor` skill for this 
 **Classification**: This is a casual market observation acknowledging current BTC price (58k) in the context of HCH's prior trade-plan suggestion to add positions. The bullish emoji indicates hodling conviction, aligned with his conviction-add pattern at support levels.
 
 Skill execution complete — no additional Telegram alerts needed (fast-path already handled notification latency).
+Nailed it 😉"
+
+**Context missing** — unable to determine what trade/prediction was successful without viewing the original X post. What did he nail?
