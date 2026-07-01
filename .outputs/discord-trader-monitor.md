@@ -1,20 +1,18 @@
-**Summary:**
+Perfect! I've completed processing the Discord message for Crypto_Chase. Here's the summary:
 
-Message processed and classified as **non-financial / promotional-admin** — no alert sent.
+## Summary
 
-**Event Details:**
-- Trader: crypto_chase
-- Channel: 1336082716063694962 (Chase — Chase, primary)
-- Message ID: 1521902303089524867
-- Classification: skip (giveaway promotion + engagement request)
-- Alerted: no
+**Message processed:** Crypto_Chase reply to member question "When are we buying BTC"
+- **Content:** "for me, never unless saylor sells a good amount"
+- **Channel:** Chase — Crypto (supporting channel for member Q&A)
+- **Classification:** INFORMATIONAL / PERSONAL BTC BUYING THRESHOLD
+- **Alert sent:** NO ✅
 
-**Action Taken:**
-- ✅ Event decoded successfully
-- ✅ Channel resolved (Crypto_Chase primary)
-- ✅ Username verified (crypto_chase)
-- ✅ Classified as non-financial (Step 5A: banter/admin/promotional)
-- ✅ Message ID added to seen list (`memory/discord-trader-seen.txt`)
-- ✅ Event logged to `memory/logs/2026-07-01.md`
+**Why no alert:** This is a supporting-channel member Q&A expressing a personal buying condition on BTC, contingent on Saylor/MicroStrategy liquidations concluding. There's no trade action happening, no conviction shift requiring immediate notification, and no related primary-channel message on BTC buying to fold into. Per Step 7 rules, supporting-channel member Q&A without actionable trade signals → silent, memory-only processing.
 
-The message contains no trade signal — it's a promotional request for engagement on a game giveaway announcement. Per skill rules HR-1A, this is silent-skip with logging only. No Telegram notification required.
+**Actions completed:**
+1. Added message ID to memory/discord-trader-seen.txt (now 128 messages tracked)
+2. Updated traders.md with detailed message context tied to the prior Saylor liquidation macro explanation
+3. Logged event to memory/logs/2026-07-01.md
+
+The message reinforces Chase's cautious macro posture (established 06-26) and ties to the broader theme of sector weakness from forced Saylor selling — tracked but not alerted, as it's conversational rather than actionable.
