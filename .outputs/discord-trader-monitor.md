@@ -1,6 +1,6 @@
-Perfect! I've completed processing the Discord message for Crypto_Chase. Here's the summary:
+💬 *[DC: Chase — Crypto]*
 
-## Summary
+ES/GOOG only longs i talked about recently, only assets up
 
 **Message processed:** Crypto_Chase reply to member question "When are we buying BTC"
 - **Content:** "for me, never unless saylor sells a good amount"
@@ -36,3 +36,4 @@ The message reinforces Chase's cautious macro posture (established 06-26) and ti
 - `memory/logs/2026-07-01.md` — event logged per skill Step 10
 
 Skill execution complete. No Telegram notification sent (classification: non-financial per Step 5.A).
+_via Discord — supporting channel, 2026-07-01T15:46Z_

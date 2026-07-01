@@ -1,0 +1,107 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor"
+      },
+      "children": [
+        "header_stack",
+        "content_text",
+        "assets_badges",
+        "separator",
+        "footer_stack"
+      ]
+    },
+    "header_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "author_badge",
+        "category_badge"
+      ]
+    },
+    "author_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Chase",
+        "variant": "default"
+      }
+    },
+    "category_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Crypto",
+        "variant": "secondary"
+      }
+    },
+    "content_text": {
+      "type": "Text",
+      "props": {
+        "text": "ES/GOOG only longs i talked about recently, only assets up",
+        "variant": "body"
+      }
+    },
+    "assets_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "es_badge",
+        "goog_badge"
+      ]
+    },
+    "es_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "ES",
+        "variant": "outline"
+      }
+    },
+    "goog_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "GOOG",
+        "variant": "outline"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "footer_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "source_text",
+        "timestamp_text"
+      ]
+    },
+    "source_text": {
+      "type": "Text",
+      "props": {
+        "text": "via Discord — supporting channel",
+        "variant": "caption"
+      }
+    },
+    "timestamp_text": {
+      "type": "Text",
+      "props": {
+        "text": "2026-07-01T15:46Z",
+        "variant": "muted"
+      }
+    }
+  }
+}
