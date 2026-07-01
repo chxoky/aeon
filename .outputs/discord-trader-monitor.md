@@ -1,12 +1,20 @@
-🔍 *Calibration — [DC: Chase — Crypto]*
+**Summary:**
 
-Event: Market context — BTC in 60–67K consolidation (mixed trader lean, increasingly bullish on dips); Chase flat on BTC with resting bids below.
+Message processed and classified as **non-financial / promotional-admin** — no alert sent.
 
-crypto_chase: "bitcoin only asset up"
+**Event Details:**
+- Trader: crypto_chase
+- Channel: 1336082716063694962 (Chase — Chase, primary)
+- Message ID: 1521902303089524867
+- Classification: skip (giveaway promotion + engagement request)
+- Alerted: no
 
-Unable to classify — what's the read? Market sentiment observation on current asset performance, position conviction statement, or something else?
-Context: Supporting channel message, no referenced text, standalone one-liner
+**Action Taken:**
+- ✅ Event decoded successfully
+- ✅ Channel resolved (Crypto_Chase primary)
+- ✅ Username verified (crypto_chase)
+- ✅ Classified as non-financial (Step 5A: banter/admin/promotional)
+- ✅ Message ID added to seen list (`memory/discord-trader-seen.txt`)
+- ✅ Event logged to `memory/logs/2026-07-01.md`
 
-Chase: "but alas"
-
-Unable to classify — what's your read? (Trade exit? Market frustration? Missed setup?)
+The message contains no trade signal — it's a promotional request for engagement on a game giveaway announcement. Per skill rules HR-1A, this is silent-skip with logging only. No Telegram notification required.
