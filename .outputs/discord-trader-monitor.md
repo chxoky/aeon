@@ -5,3 +5,8 @@ Event: Market context — BTC in 60–67K consolidation (mixed trader lean, incr
 crypto_chase: "bitcoin only asset up"
 
 Unable to classify — what's the read? Market sentiment observation on current asset performance, position conviction statement, or something else?
+Context: Supporting channel message, no referenced text, standalone one-liner
+
+Chase: "but alas"
+
+Unable to classify — what's your read? (Trade exit? Market frustration? Missed setup?)
