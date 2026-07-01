@@ -28,3 +28,12 @@ Perfect! I've completed the Discord trader monitor skill execution. Here's the s
 - Content forwarded to Kyle via fast-path already; memory now updated for context and cross-platform dedup
 
 Processing complete.
+🔍 *Calibration — [DC: Chase — TradFi]*
+
+Event: Image attachment with vague commentary
+crypto_chase: "Something like this maybe but not sure yet"
+
+Unable to classify — what's your read? Image may contain chart/analysis/trade setup reference, but message text doesn't clarify. Supporting channel message (member Q&A context).
+
+Channel: 1343971265962049597 (Chase — TradFi)
+Message ID: 1521996132887167057

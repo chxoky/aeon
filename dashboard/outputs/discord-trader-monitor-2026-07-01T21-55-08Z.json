@@ -1,0 +1,104 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "heading",
+        "badge",
+        "message-quote",
+        "alert",
+        "text-analysis",
+        "text-context",
+        "separator",
+        "metadata"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — Chase — TradFi",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Image attachment with vague commentary"
+      },
+      "children": []
+    },
+    "message-quote": {
+      "type": "Text",
+      "props": {
+        "text": "crypto_chase: \"Something like this maybe but not sure yet\"",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read?",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "text-analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Image may contain chart/analysis/trade setup reference, but message text doesn't clarify.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-context": {
+      "type": "Text",
+      "props": {
+        "text": "Supporting channel message (member Q&A context).",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "metadata": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "channel-info",
+        "message-id"
+      ]
+    },
+    "channel-info": {
+      "type": "Text",
+      "props": {
+        "text": "Channel: 1343971265962049597 (Chase — TradFi)",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "message-id": {
+      "type": "Text",
+      "props": {
+        "text": "Message ID: 1521996132887167057",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
