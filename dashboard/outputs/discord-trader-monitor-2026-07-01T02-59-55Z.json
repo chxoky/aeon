@@ -1,0 +1,61 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "heading_calibration",
+        "text_content",
+        "separator1",
+        "alert_images",
+        "separator2",
+        "text_note"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: HCH — Free]",
+        "level": "h2"
+      }
+    },
+    "text_content": {
+      "type": "Text",
+      "props": {
+        "text": "Before vs After.",
+        "variant": "lead"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_images": {
+      "type": "Alert",
+      "props": {
+        "title": "Attachments",
+        "message": "2 images (chart/analysis)",
+        "type": "info"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_note": {
+      "type": "Text",
+      "props": {
+        "text": "This is a completely cryptic message — unable to classify without viewing the images. Is this: (1) a trade setup comparison, (2) technical analysis update, (3) position management action, (4) market observation, or something else? What's your read?",
+        "variant": "muted"
+      }
+    }
+  }
+}
