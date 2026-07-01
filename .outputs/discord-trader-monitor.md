@@ -1,6 +1,6 @@
-Perfect! I've completed the discord-trader-monitor skill execution. Here's what was processed:
+🔍 *Calibration — [DC: HCH — Trades]*
 
-## Skill Execution Summary
+HeartCanHodl: "1-1% xpl, lit too on spot"
 
 **Event:** HeartCanHodl message in HCH — Comments channel
 - **Time:** 2026-07-01T03:20:02Z
@@ -44,3 +44,4 @@ Perfect! I've successfully executed the Discord Trader Monitor skill for the Hea
 4. ✓ **Classification:** Informational (no trade action, just technical risk mapping for active BTC long position management)
 
 **Note:** This is the third HCH message processed today (after the 02:42:59Z short close and 03:04:56Z profit-taking confirmation). Kyle may want to calibrate exact position details from the earlier ambiguous messages for active-trades.md once the market clarifies which specific shorts were closed.
+Unable to classify — what's your read? (position action? TP? market observation?)
