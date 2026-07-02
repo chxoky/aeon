@@ -1,0 +1,57 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context-text",
+        "tweet-chase",
+        "timestamp-text",
+        "chart-link"
+      ]
+    },
+    "context-text": {
+      "type": "Text",
+      "props": {
+        "text": "Earlier",
+        "variant": "muted"
+      }
+    },
+    "tweet-chase": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Chase",
+        "handle": "TradFi",
+        "text": "I'll be watching Apple. Feel like it should put in a lower high here."
+      }
+    },
+    "timestamp-text": {
+      "type": "Text",
+      "props": {
+        "text": "2026-07-02T14:19:37Z",
+        "variant": "caption"
+      }
+    },
+    "chart-link": {
+      "type": "Link",
+      "props": {
+        "label": "Chart",
+        "href": "https://cdn.discordapp.com/attachments/1343971265962049597/1522247692292587611/image.png"
+      }
+    }
+  }
+}
