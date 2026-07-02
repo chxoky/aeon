@@ -1,0 +1,141 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor — Calibration"
+      },
+      "children": [
+        "heading_calib",
+        "sep1",
+        "section_context",
+        "sep2",
+        "section_message",
+        "sep3",
+        "section_issue",
+        "sep4",
+        "section_input"
+      ]
+    },
+    "heading_calib": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: Chase — TradFi]",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section_context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_ctx",
+        "text_ctx"
+      ]
+    },
+    "badge_ctx": {
+      "type": "Badge",
+      "props": {
+        "text": "Context",
+        "variant": "secondary"
+      }
+    },
+    "text_ctx": {
+      "type": "Text",
+      "props": {
+        "text": "Crypto_Chase in supporting channel (member Q&A) — not direct reply to member."
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section_message": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_msg",
+        "text_msg"
+      ]
+    },
+    "badge_msg": {
+      "type": "Badge",
+      "props": {
+        "text": "Message",
+        "variant": "secondary"
+      }
+    },
+    "text_msg": {
+      "type": "Text",
+      "props": {
+        "text": "\"It might have already given the entry to be honest\"",
+        "variant": "lead"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section_issue": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_issue",
+        "text_issue1",
+        "text_issue2",
+        "text_issue3"
+      ]
+    },
+    "badge_issue": {
+      "type": "Badge",
+      "props": {
+        "text": "Issue",
+        "variant": "outline"
+      }
+    },
+    "text_issue1": {
+      "type": "Text",
+      "props": {
+        "text": "Cryptic reference to \"the entry\" without context. Unclear which entry/asset/timeframe."
+      }
+    },
+    "text_issue2": {
+      "type": "Text",
+      "props": {
+        "text": "Reads like conviction reflection on existing position, but standalone text insufficient for classification."
+      }
+    },
+    "text_issue3": {
+      "type": "Text",
+      "props": {
+        "text": "Ambiguous context makes interpretation difficult."
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section_input": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Input Needed",
+        "message": "What is he referring to? New position update, historical reference, or member-question response?"
+      }
+    }
+  }
+}
