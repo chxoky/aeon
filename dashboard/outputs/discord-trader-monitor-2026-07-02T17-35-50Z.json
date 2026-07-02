@@ -1,0 +1,88 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Calibration diagnostics"
+      },
+      "children": [
+        "heading-cal",
+        "sep1",
+        "badge-chain",
+        "stack-main",
+        "sep2",
+        "alert-context",
+        "text-question"
+      ]
+    },
+    "heading-cal": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration",
+        "level": "h3"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "badge-chain": {
+      "type": "Badge",
+      "props": {
+        "text": "DC: Chase — Crypto",
+        "variant": "default"
+      }
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-trader-status",
+        "text-attachment"
+      ]
+    },
+    "text-trader-status": {
+      "type": "Text",
+      "props": {
+        "text": "Crypto_Chase: \"Slightly refined\"",
+        "variant": "body"
+      }
+    },
+    "text-attachment": {
+      "type": "Text",
+      "props": {
+        "text": "+ chart image attachment",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert-context": {
+      "type": "Alert",
+      "props": {
+        "title": "Missing Context",
+        "message": "No referenced_message, supporting channel, no prior context visible",
+        "type": "warning"
+      }
+    },
+    "text-question": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "lead"
+      }
+    }
+  }
+}
