@@ -1,0 +1,89 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "messages_stack"
+      ]
+    },
+    "messages_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "member_message",
+        "sep1",
+        "response_section"
+      ]
+    },
+    "member_message": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "member_indicator",
+        "member_badge",
+        "member_text"
+      ]
+    },
+    "member_indicator": {
+      "type": "Text",
+      "props": {
+        "text": "↩️ Reply",
+        "variant": "caption"
+      }
+    },
+    "member_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Member",
+        "variant": "outline"
+      }
+    },
+    "member_text": {
+      "type": "Text",
+      "props": {
+        "text": "Isn't there a case to be made that we're forming a HTF HL here?"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "response_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "response_indicator",
+        "response_text"
+      ]
+    },
+    "response_indicator": {
+      "type": "Text",
+      "props": {
+        "text": "💬 DC: Chase — Crypto",
+        "variant": "caption"
+      }
+    },
+    "response_text": {
+      "type": "Text",
+      "props": {
+        "text": "yes, there is an argument for that, it's just not the type of PA I typically get interested in"
+      }
+    }
+  }
+}
