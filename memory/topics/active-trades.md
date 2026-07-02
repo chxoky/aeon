@@ -29,6 +29,24 @@
 - **Conviction**: MEDIUM (ambivalent on remainder — neither bullish enough to add nor bearish enough to fully exit)
 - **Last update**: 2026-06-30T19:16:20Z (message_id=1521595260629946561, partial TP at breakeven, fast-path alerted)
 
+### MU (Micron Technology) — LONG (dual-entry plan, first trade TP hit)
+- **Entry setup**: Conditional dual-entry plan articulated 2026-06-29T14:25:41Z
+  - Trade 1: 1:1 risk/reward, risk 2% portfolio
+  - Trade 2: 1% risk
+  - Max total loss: 3% portfolio if both SL hit
+- **Entry date**: Unknown (first trade entry point not explicitly disclosed; plan was conditional on MU weakness)
+- **TP hit**: 2026-07-02T17:47:32Z — "MU first trade hit" (first trade's 1:1 R:R target achieved)
+- **Position history**:
+  - 2026-06-29T14:25Z: Dual-entry plan codified with specific risk parameters
+  - 2026-06-24T00:12Z: Resting bid context — "earnings stink bids below built-up lows"; technical floor 650
+  - 2026-06-24T13:32Z: Pre-earnings awareness — "MU earnings today, chop expected"
+  - 2026-06-25T13:51Z: Post-earnings observation — "SFP'd high and everything dumped"
+  - 2026-07-02T17:47Z: First trade TP hit
+- **Status**: FIRST TRADE CLOSED (TP hit), second trade status unknown
+- **Thesis**: Earnings-driven volatility + weak technical structure play; multi-tier entry strategy allowing 3% max loss tolerance
+- **Conviction**: Was HIGH at entry (waiting months for sub-850 level per 06-23 message); TP hit confirms 1:1 R:R thesis executed successfully
+- **Last update**: 2026-07-02T17:47:32Z (message_id=1522297689591517444, first trade TP hit, fast-path alerted)
+
 ## ES (S&P 500 E-mini Futures) — LONG
 - **Entry**: 2026-06-21T23:23Z (dream/gut feeling conviction entry)
 - **Size/Targets**: Not explicitly disclosed
