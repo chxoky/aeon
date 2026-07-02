@@ -1,0 +1,192 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — DC: Chase — TradFi"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event_section",
+        "sep1",
+        "content_section",
+        "sep2",
+        "interpretation_section",
+        "sep3",
+        "clarification_alert"
+      ]
+    },
+    "event_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event_title",
+        "event_details"
+      ]
+    },
+    "event_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "event_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "event_text",
+        "badge_id",
+        "badge_channel"
+      ]
+    },
+    "event_text": {
+      "type": "Text",
+      "props": {
+        "text": "Image-only message from Crypto_Chase (14:36:03Z)"
+      }
+    },
+    "badge_id": {
+      "type": "Badge",
+      "props": {
+        "text": "msg ID 1522249501102833787",
+        "variant": "secondary"
+      }
+    },
+    "badge_channel": {
+      "type": "Badge",
+      "props": {
+        "text": "Supporting channel",
+        "variant": "outline"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "content_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "content_heading",
+        "no_text",
+        "timeline",
+        "image_link"
+      ]
+    },
+    "content_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Content",
+        "level": "h3"
+      }
+    },
+    "no_text": {
+      "type": "Text",
+      "props": {
+        "text": "No text content provided — only a chart image attachment."
+      }
+    },
+    "timeline": {
+      "type": "Text",
+      "props": {
+        "text": "Posted ~7 minutes after AAPL technical analysis chart (14:28:51Z).",
+        "variant": "caption"
+      }
+    },
+    "image_link": {
+      "type": "Link",
+      "props": {
+        "label": "View image attachment",
+        "href": "https://cdn.discordapp.com/attachments/1343971265962049597/1522249500880539789/image.png"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "interpretation_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "interp_heading",
+        "unable_text",
+        "opt_a",
+        "opt_b",
+        "opt_c"
+      ]
+    },
+    "interp_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Unable to interpret — possible interpretations",
+        "level": "h3"
+      }
+    },
+    "unable_text": {
+      "type": "Text",
+      "props": {
+        "text": "Is this:"
+      }
+    },
+    "opt_a": {
+      "type": "Text",
+      "props": {
+        "text": "(a) Follow-up elaboration on AAPL lower-high setup"
+      }
+    },
+    "opt_b": {
+      "type": "Text",
+      "props": {
+        "text": "(b) New asset/technical analysis"
+      }
+    },
+    "opt_c": {
+      "type": "Text",
+      "props": {
+        "text": "(c) Non-financial content"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "clarification_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Clarification Needed",
+        "message": "What's your read?",
+        "type": "info"
+      }
+    }
+  }
+}
