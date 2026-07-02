@@ -1,0 +1,84 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "heading-calibration",
+        "text-context",
+        "sep-1",
+        "text-member-context",
+        "tweet-chase",
+        "sep-2",
+        "heading-unable-classify",
+        "text-analysis"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text-context": {
+      "type": "Text",
+      "props": {
+        "text": "[DC: Chase — TradFi]",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text-member-context": {
+      "type": "Text",
+      "props": {
+        "text": "Member context: standalone message, no reply context",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "tweet-chase": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Crypto_Chase",
+        "text": "Let's see if I can even send memory to zero bc of a decent dip buy"
+      },
+      "children": []
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading-unable-classify": {
+      "type": "Heading",
+      "props": {
+        "text": "Unable to classify",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text-analysis": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read on this dip-buying opportunity? Is Chase considering position entry, or is this just market observation?",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
