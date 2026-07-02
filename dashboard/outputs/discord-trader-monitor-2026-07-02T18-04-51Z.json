@@ -1,0 +1,139 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — [DC: Chase — TradFi]",
+        "description": "Discord Trader Monitor Event"
+      },
+      "children": [
+        "event_info",
+        "sep1",
+        "alert_classify",
+        "sep2",
+        "quote_section",
+        "sep3",
+        "context_section"
+      ]
+    },
+    "event_info": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Posted after MU first trade TP hit (17:47Z)",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_classify": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to Classify",
+        "message": "What's your read?",
+        "type": "warning"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "quote_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "quote_label",
+        "quote_text"
+      ]
+    },
+    "quote_label": {
+      "type": "Text",
+      "props": {
+        "text": "crypto_chase:",
+        "variant": "muted"
+      }
+    },
+    "quote_text": {
+      "type": "Text",
+      "props": {
+        "text": "\"Should come back for the highs\"",
+        "variant": "lead"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_heading",
+        "context_items",
+        "question_text"
+      ]
+    },
+    "context_heading": {
+      "type": "Text",
+      "props": {
+        "text": "Context hint:",
+        "variant": "muted"
+      }
+    },
+    "context_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_mu",
+        "badge_positions",
+        "badge_watchlist"
+      ]
+    },
+    "badge_mu": {
+      "type": "Badge",
+      "props": {
+        "text": "Just closed MU TP",
+        "variant": "default"
+      }
+    },
+    "badge_positions": {
+      "type": "Badge",
+      "props": {
+        "text": "GOOG/ES positions active",
+        "variant": "default"
+      }
+    },
+    "badge_watchlist": {
+      "type": "Badge",
+      "props": {
+        "text": "Multiple tickers on watchlist",
+        "variant": "default"
+      }
+    },
+    "question_text": {
+      "type": "Text",
+      "props": {
+        "text": "Does \"highs\" refer to market recovery, specific position, or general conviction?",
+        "variant": "caption"
+      }
+    }
+  }
+}
