@@ -1,0 +1,103 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Calibration — classification issue"
+      },
+      "children": [
+        "heading_calibration",
+        "sep1",
+        "badge_context",
+        "text_event",
+        "sep2",
+        "text_quote",
+        "text_details",
+        "sep3",
+        "alert_unclassified",
+        "text_questions"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "badge_context": {
+      "type": "Badge",
+      "props": {
+        "text": "DC: Chase — Crypto",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Chart-dependent technical commentary in supporting channel",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text_quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"You could see how clean the initial deviation was\"",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_details": {
+      "type": "Text",
+      "props": {
+        "text": "Chart attachment included but subject ticker/asset unclear. Supporting-channel standalone message without prior context or referenced discussion.",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert_unclassified": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Event could not be automatically categorized.",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "text_questions": {
+      "type": "Text",
+      "props": {
+        "text": "Which asset/ticker? What does initial deviation refer to?",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
