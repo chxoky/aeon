@@ -53,13 +53,13 @@
 
 ## HeartCanHodl
 
-### BTC/ETH/SOL Spot — LONGS (re-entered above 60k)
-- **Status**: ACTIVE re-entry above 60k support (2026-06-26T07:23:30Z)
-- **Position sizes** (as of 06-26T07:23:30Z): BTC +5%, ETH +2%, SOL +2% (conviction add following precision close at 59k)
-- **Thesis**: Running a hedged book with active rebalancing. Trimmed majors to <20% at 67k strength on 06-16. Recovered to ~20-30% size through multiple 5% re-entry adds (06-18 through 06-25 04:28Z add of 2%). **Tactical close at 59k reflects precision-timing conviction: "I'd rather pay a little higher for confirmation than gamble below a level that still acts as flip zone."** **Now executing re-entry above 60k per his stated preference** (2026-06-25T14:08:51Z: "The easier trade comes when 60k is reclaimed, accepted, and held").
-- **Current forward plan**: Continue scaling majors above 60k support. Re-balance with 2% HYPE shorts hedge.
-- **Short basket**: HYPE (2% shorts, current hedge), ZEC (scaling conviction), TAO, SPCX, VVV, XPL, TON, LAB, SYN (1% short, added 2026-06-30T13:36:08Z) — maintained as hedges against trimmed longs
-- **Last update**: 2026-06-30T13:36:08Z (discord-trader-monitor, fast-path alerted, SYN 1% short add)
+### BTC/ETH/SOL Spot — LONGS (CLOSED)
+- **Status**: CLOSED at market 2026-07-02T10:25:13Z — "Close majors fully here"
+- **Final position sizes** (at close): BTC 0%, ETH 0%, SOL 0% (fully exited)
+- **Position history**: Re-entered above 60k support on 2026-06-26T07:23:30Z with BTC +5%, ETH +2%, SOL +2%. Held through technical contingency planning (2026-07-01: "No fixed price target. We'll scale out manually and re-evaluate the setup once 60+ breakout happens"). Closed fully on 2026-07-02T10:25:13Z as BTC approached/reached key technical levels (60k arrived 2026-07-01T14:27:07Z).
+- **Thesis/Execution**: Managed hedged book with active rebalancing through June, trimmed at 67k strength (06-16), re-added through multiple conviction dips (06-18 through 06-25), closed underside-59k tranche on 06-25, re-entered above 60k on 06-26, then fully closed majors above 60k on 07-02 per manual scaling plan contingency.
+- **Short basket**: HYPE (2% shorts, current hedge), ZEC (scaling conviction), TAO, SPCX, VVV, XPL, TON, LAB, SYN (1% short, added 2026-06-30T13:36:08Z) — maintained as hedges; no closure announced yet for these
+- **Last update**: 2026-07-02T10:25:13Z (discord-trader-monitor, fast-path alerted, MAJORS LONGS FULLY CLOSED; message_id=1522186380598448128)
 
 ---
 

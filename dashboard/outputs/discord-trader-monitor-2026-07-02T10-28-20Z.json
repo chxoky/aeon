@@ -1,0 +1,210 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge-status",
+        "section-event",
+        "sep-1",
+        "section-actions",
+        "sep-2",
+        "section-hedge"
+      ]
+    },
+    "badge-status": {
+      "type": "Badge",
+      "props": {
+        "text": "Success",
+        "variant": "default"
+      }
+    },
+    "section-event": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-event",
+        "text-event-detail"
+      ]
+    },
+    "heading-event": {
+      "type": "Heading",
+      "props": {
+        "text": "Trade Execution",
+        "level": "h3"
+      }
+    },
+    "text-event-detail": {
+      "type": "Text",
+      "props": {
+        "text": "HeartCanHodl closed majors (BTC/ETH/SOL longs) fully at 10:25:13Z in HCH — Trades channel"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-actions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-actions",
+        "text-alert",
+        "text-memory"
+      ]
+    },
+    "heading-actions": {
+      "type": "Heading",
+      "props": {
+        "text": "System Actions",
+        "level": "h3"
+      }
+    },
+    "text-alert": {
+      "type": "Text",
+      "props": {
+        "text": "Fast-path alert sent by Cloudflare Worker"
+      }
+    },
+    "text-memory": {
+      "type": "Text",
+      "props": {
+        "text": "Memory updated: majors marked CLOSED in active-trades.md, trade execution logged in traders.md with verbatim message text preserved"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-hedge": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-hedge",
+        "text-hedge-intro",
+        "grid-hedge-symbols"
+      ]
+    },
+    "heading-hedge": {
+      "type": "Heading",
+      "props": {
+        "text": "Active Positions",
+        "level": "h3"
+      }
+    },
+    "text-hedge-intro": {
+      "type": "Text",
+      "props": {
+        "text": "Short hedge basket remains active:"
+      }
+    },
+    "grid-hedge-symbols": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-hype",
+        "badge-zec",
+        "badge-tao",
+        "badge-spcx",
+        "badge-vvv",
+        "badge-xpl",
+        "badge-ton",
+        "badge-lab",
+        "badge-syn"
+      ]
+    },
+    "badge-hype": {
+      "type": "Badge",
+      "props": {
+        "text": "HYPE",
+        "variant": "secondary"
+      }
+    },
+    "badge-zec": {
+      "type": "Badge",
+      "props": {
+        "text": "ZEC",
+        "variant": "secondary"
+      }
+    },
+    "badge-tao": {
+      "type": "Badge",
+      "props": {
+        "text": "TAO",
+        "variant": "secondary"
+      }
+    },
+    "badge-spcx": {
+      "type": "Badge",
+      "props": {
+        "text": "SPCX",
+        "variant": "secondary"
+      }
+    },
+    "badge-vvv": {
+      "type": "Badge",
+      "props": {
+        "text": "VVV",
+        "variant": "secondary"
+      }
+    },
+    "badge-xpl": {
+      "type": "Badge",
+      "props": {
+        "text": "XPL",
+        "variant": "secondary"
+      }
+    },
+    "badge-ton": {
+      "type": "Badge",
+      "props": {
+        "text": "TON",
+        "variant": "secondary"
+      }
+    },
+    "badge-lab": {
+      "type": "Badge",
+      "props": {
+        "text": "LAB",
+        "variant": "secondary"
+      }
+    },
+    "badge-syn": {
+      "type": "Badge",
+      "props": {
+        "text": "SYN",
+        "variant": "secondary"
+      }
+    }
+  }
+}
