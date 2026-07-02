@@ -1,0 +1,114 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_calibration",
+        "sep_1",
+        "stack_context",
+        "sep_2",
+        "stack_quote",
+        "sep_3",
+        "alert_analysis"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: Chase — Crypto]",
+        "level": "h2"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_context",
+        "text_context"
+      ]
+    },
+    "badge_context": {
+      "type": "Badge",
+      "props": {
+        "text": "Event context",
+        "variant": "secondary"
+      }
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "Standalone message in supporting channel, no referenced context.",
+        "variant": "body"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_quote": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_quote",
+        "text_quote"
+      ]
+    },
+    "badge_quote": {
+      "type": "Badge",
+      "props": {
+        "text": "crypto_chase",
+        "variant": "outline"
+      }
+    },
+    "text_quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"Rather than just deviating resistance again\"",
+        "variant": "lead"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_analysis": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read? Which asset/ticker is he referring to, and what does this signal about his conviction or position management?",
+        "type": "warning"
+      }
+    }
+  }
+}
