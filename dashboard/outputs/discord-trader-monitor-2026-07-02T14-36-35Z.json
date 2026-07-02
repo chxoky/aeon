@@ -1,0 +1,125 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor"
+      },
+      "children": [
+        "main-stack"
+      ]
+    },
+    "main-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "source-badge",
+        "title-heading",
+        "message-note",
+        "sep1",
+        "watchlist-heading",
+        "symbols-stack",
+        "sep2",
+        "chart-heading",
+        "chart-link",
+        "context-text"
+      ]
+    },
+    "source-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Discord",
+        "variant": "secondary"
+      }
+    },
+    "title-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "[DC: Chase — TradFi]",
+        "level": "h2"
+      }
+    },
+    "message-note": {
+      "type": "Text",
+      "props": {
+        "text": "Chart-only message from Crypto_Chase",
+        "variant": "muted"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "watchlist-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Watchlist Items",
+        "level": "h3"
+      }
+    },
+    "symbols-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-aapl",
+        "badge-goog",
+        "badge-lpth"
+      ]
+    },
+    "badge-aapl": {
+      "type": "Badge",
+      "props": {
+        "text": "AAPL"
+      }
+    },
+    "badge-goog": {
+      "type": "Badge",
+      "props": {
+        "text": "GOOG"
+      }
+    },
+    "badge-lpth": {
+      "type": "Badge",
+      "props": {
+        "text": "LPTH"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "chart-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart",
+        "level": "h3"
+      }
+    },
+    "chart-link": {
+      "type": "Link",
+      "props": {
+        "label": "View Chart",
+        "href": "https://cdn.discordapp.com/attachments/1343971265962049597/1522247729844326470/image.png"
+      }
+    },
+    "context-text": {
+      "type": "Text",
+      "props": {
+        "text": "Chase discussing TradFi watchlist (AAPL, GOOG, LPTH) — chart likely relates to one of these setups or member response.",
+        "variant": "caption"
+      }
+    }
+  }
+}
