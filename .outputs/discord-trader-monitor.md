@@ -1,12 +1,7 @@
-💬 *[DC: Chase — Crypto]*
-
-Alright there's the HYPE read. Prove that it's strong by reclaiming the daily level fully and then maybe a trend line bid
-
-_Chart attached showing daily setup_
 🔍 *Calibration — [DC: Chase — Crypto]*
 
-Crypto_Chase: "Slightly refined" + chart image attachment
+crypto_chase: "That's not what I drew"
 
-Context: No referenced_message, supporting channel, no prior context visible.
+Unable to classify — what's your read? (chart mismatch? setup that didn't work? market structure surprise?)
 
-Unable to classify — what's your read?
+Message ID: 1522295808127533206 | 2026-07-02T17:40:03Z | supporting channel

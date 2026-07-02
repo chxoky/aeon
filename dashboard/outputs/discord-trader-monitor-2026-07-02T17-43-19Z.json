@@ -1,0 +1,93 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "heading",
+        "sep1",
+        "message",
+        "sep2",
+        "classification",
+        "sep3",
+        "metadata"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: Chase — Crypto]",
+        "level": "h3"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message": {
+      "type": "TweetCard",
+      "props": {
+        "author": "crypto_chase",
+        "text": "That's not what I drew"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read? (chart mismatch? setup that didn't work? market structure surprise?)",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "metadata": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "msgid",
+        "ts",
+        "ch"
+      ]
+    },
+    "msgid": {
+      "type": "Text",
+      "props": {
+        "text": "Message ID: 1522295808127533206",
+        "variant": "caption"
+      }
+    },
+    "ts": {
+      "type": "Text",
+      "props": {
+        "text": "2026-07-02T17:40:03Z",
+        "variant": "caption"
+      }
+    },
+    "ch": {
+      "type": "Text",
+      "props": {
+        "text": "Channel: supporting channel",
+        "variant": "caption"
+      }
+    }
+  }
+}
