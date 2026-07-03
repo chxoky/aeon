@@ -1,0 +1,55 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "alert_main",
+        "sep1",
+        "details"
+      ]
+    },
+    "alert_main": {
+      "type": "Alert",
+      "props": {
+        "type": "success",
+        "message": "HCH conviction-add price specification processed"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_status",
+        "text_msgid"
+      ]
+    },
+    "badge_status": {
+      "type": "Badge",
+      "props": {
+        "text": "fast-path alerted",
+        "variant": "secondary"
+      }
+    },
+    "text_msgid": {
+      "type": "Text",
+      "props": {
+        "text": "message_id: 1522703206847873127",
+        "variant": "caption"
+      }
+    }
+  }
+}

@@ -90,15 +90,17 @@
   - 2026-07-03T04:08:17Z: Initial entry — BTC 5%, ETH 2.5%, SOL 2.5%, HYPE 2%
   - 2026-07-03T06:20:35Z: Scale-in intent clarification — "Keeping a room to add to the local highs"
   - 2026-07-03T08:50:27Z: Conviction add (50% scale) — "Add half of that here on all of them" (message_id=1522524915574640651, fast-path alerted)
+  - 2026-07-03T20:38:54Z: Second tranche price specification — "Add other half here at 62.8kish tag" (pending/resting order at 62.8k for remaining 50% scale; message_id=1522703206847873127, fast-path alerted)
 - **Entry details**: 
-  - BTC short: 7.5% position size (5% initial + 2.5% conviction add), entry ~60k+ initial (post-revaluation)
-  - ETH short: 3.75% position size (2.5% initial + 1.25% conviction add)
-  - SOL short: 3.75% position size (2.5% initial + 1.25% conviction add)
-  - HYPE short: 3% (2% maintained + 1% conviction add)
-- **Context**: HCH closed major longs (BTC 5%, ETH 2%, SOL 2%) on 2026-07-02T10:25:13Z, confirmed re-evaluation mode on 2026-07-02T11:15:47Z ("Scaled out from majors. Will re-evaluate now"), posted 15m technical watchlist on 2026-07-02T11:25:10Z. New entry message 2026-07-03T04:08:17Z initiates SHORT conviction on major pairs — thesis shift from neutral re-evaluation to bearish positioning. 4.5 hours later (08:50Z), HCH doubles down with 50% conviction add across all shorts. This escalation suggests either: (a) accelerating technical breakdown below key support, or (b) on-the-fly tactical add as market rallied into "local highs" as he predicted in his 06:20Z intent message.
-- **Short basket**: Updated basket = HYPE (3%, conviction add), BTC (7.5%, conviction add), ETH (3.75%, conviction add), SOL (3.75%, conviction add). Prior conviction shorts ZEC/TAO/SPCX/VVV/XPL/TON/LAB/SYN status unknown (likely still held as tactical hedges unless closed)
-- **Scale-in intent**: Proven active — 2026-07-03T06:20:35Z intent to add on local highs executed on 08:50Z message. High conviction signaling; no stated further add intent, but pattern suggests HCH is actively trading tactical bounces into his conviction shorts.
-- **Last update**: 2026-07-03T08:50:27Z (discord-trader-monitor, fast-path alerted, CONVICTION ADD / POSITION SCALING; message_id=1522524915574640651)
+  - BTC short: 7.5% position size current (5% initial + 2.5% first conviction add), target 10% with second tranche at 62.8k, entry ~60k+ initial (post-revaluation)
+  - ETH short: 3.75% position size current (2.5% initial + 1.25% first conviction add), target 5% with second tranche at 62.8k-equivalent level
+  - SOL short: 3.75% position size current (2.5% initial + 1.25% first conviction add), target 5% with second tranche at 62.8k-equivalent level
+  - HYPE short: 3% (2% maintained + 1% conviction add), second tranche pending at 62.8k level
+- **Scaling strategy**: Multi-phase tactical conviction adds — (1) initial entry at market (04:08Z), (2) first 50% scale at market (08:50Z), (3) second 50% scale pending at 62.8k price trigger (20:38Z, resting order/pending execution). Full planned scale: BTC 5%→10%, ETH 2.5%→5%, SOL 2.5%→5%, HYPE 2%→4% upon second tranche execution at 62.8k level.
+- **Context**: HCH closed major longs (BTC 5%, ETH 2%, SOL 2%) on 2026-07-02T10:25:13Z, confirmed re-evaluation mode on 2026-07-02T11:15:47Z ("Scaled out from majors. Will re-evaluate now"), posted 15m technical watchlist on 2026-07-02T11:25:10Z. New entry message 2026-07-03T04:08:17Z initiates SHORT conviction on major pairs — thesis shift from neutral re-evaluation to bearish positioning. 4.5 hours later (08:50Z), HCH doubles down with 50% conviction add across all shorts. 12 hours later (20:38Z), HCH specifies the price level (62.8k) for the remaining 50% add — suggesting resting orders or manual trigger point set for BTC pullback. This multi-phase escalation suggests: (a) high conviction on downside move, (b) tactical price-level scaling strategy (adding at predetermined support breaks), or (c) managing entry psychology with phased conviction builds.
+- **Short basket**: Updated basket = HYPE (3% current, 4% target), BTC (7.5% current, 10% target), ETH (3.75% current, 5% target), SOL (3.75% current, 5% target). Prior conviction shorts ZEC/TAO/SPCX/VVV/XPL/TON/LAB/SYN status unknown (likely still held as tactical hedges unless closed)
+- **Scale-in intent**: Proven active with price-level discipline — 2026-07-03T06:20:35Z intent to add on local highs executed in phases (08:50Z market add, 20:38Z pending 62.8k add). High conviction signaling with tactical execution discipline; watching for BTC movement toward 62.8k trigger.
+- **Last update**: 2026-07-03T20:38:54Z (discord-trader-monitor, fast-path alerted, CONVICTION ADD SPECIFICATION / PRICE-LEVEL TRIGGER; message_id=1522703206847873127)
 
 ### BTC/ETH/SOL Spot — LONGS (CLOSED)
 - **Status**: CLOSED at market 2026-07-02T10:25:13Z — "Close majors fully here"
