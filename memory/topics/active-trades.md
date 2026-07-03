@@ -71,6 +71,18 @@
 
 ## HeartCanHodl
 
+### BTC/ETH/SOL — SHORTS (NEW ENTRY)
+- **Status**: ACTIVE — NEW SHORT ENTRY 2026-07-03T04:08:17Z — "Enter 5% btc, 2.5-2.5% each eth and sol short, 2% hype short"
+- **Current position sizes** (at entry): BTC short 5%, ETH short 2.5%, SOL short 2.5%, HYPE short 2% (maintained/confirmed)
+- **Entry details**: 
+  - BTC short: 5% position size, entry ~60k+ (post-revaluation, after closing majors longs on 2026-07-02T10:25:13Z)
+  - ETH short: 2.5% position size
+  - SOL short: 2.5% position size
+  - HYPE short: 2% (maintained from prior hedge basket, confirmed in entry message)
+- **Context**: HCH closed major longs (BTC 5%, ETH 2%, SOL 2%) on 2026-07-02T10:25:13Z, confirmed re-evaluation mode on 2026-07-02T11:15:47Z ("Scaled out from majors. Will re-evaluate now"), posted 15m technical watchlist on 2026-07-02T11:25:10Z. New entry message 2026-07-03T04:08:17Z initiates SHORT conviction on major pairs — thesis shift from neutral re-evaluation to bearish positioning. Likely triggered by overnight weakness below 60k technical level or BTC/ETH/SOL technical failure to hold 60k+ (per his prior contingency plan framework from 2026-07-01).
+- **Short basket**: Updated basket = HYPE (2%, maintained from hedge), BTC (5%, new), ETH (2.5%, new), SOL (2.5%, new). Prior conviction shorts ZEC/TAO/SPCX/VVV/XPL/TON/LAB/SYN status unknown (likely still held as tactical hedges unless closed)
+- **Last update**: 2026-07-03T04:08:17Z (discord-trader-monitor, fast-path alerted, NEW SHORT ENTRY; message_id=1522453909497712780)
+
 ### BTC/ETH/SOL Spot — LONGS (CLOSED)
 - **Status**: CLOSED at market 2026-07-02T10:25:13Z — "Close majors fully here"
 - **Final position sizes** (at close): BTC 0%, ETH 0%, SOL 0% (fully exited)
