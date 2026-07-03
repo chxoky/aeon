@@ -96,6 +96,17 @@
 - **Short basket**: HYPE (2% shorts, current hedge), ZEC (scaling conviction), TAO, SPCX, VVV, XPL, TON, LAB, SYN (1% short, added 2026-06-30T13:36:08Z) — maintained as hedges; no closure announced yet for these
 - **Last update**: 2026-07-02T10:25:13Z (discord-trader-monitor, fast-path alerted, MAJORS LONGS FULLY CLOSED; message_id=1522186380598448128)
 
+### ZEC — SHORT (ONGOING SCALING / CONVICTION ADD)
+- **Status**: ACTIVE — highest-conviction short, actively scaled and added throughout the window
+- **Position history**:
+  - 06-15T07:40Z: Scaling after low-400 take-profits — "scaling again in zec short after low-400 tps… add 2% short"
+  - 06-15T11:14Z: Additional add — "add 1% more on zec, 2x" (second 1% add same session)
+  - 2026-07-03T09:21:56Z: Conviction add — "Add 1% zec short too" (part of broader short-basket escalation morning session; message_id=1522532840686747658, fast-path alerted)
+- **Current size**: Unknown exact %, but described as "highest-conviction" with repeated 1-2% adds across multiple sessions; latest add +1% on 07-03T09:21:56Z
+- **Entry levels**: Unknown (position predates tracked window; lows referenced around 400 level for TP management)
+- **Context**: ZEC remains HCH's highest-conviction short despite volatile market conditions. Added 1% on 07-03T09:21:56Z as part of broader bearish positioning cascade (after BTC/ETH/SOL short entry at 04:08Z, conviction add at 08:50Z, now ZEC add at 09:21Z). Pattern suggests technical breakdown validation or continuation of local-high scaling strategy outlined in 06:20Z message ("Keeping a room to add to the local highs").
+- **Last update**: 2026-07-03T09:21:56Z (discord-trader-monitor, fast-path alerted, CONVICTION ADD; message_id=1522532840686747658)
+
 ---
 
 > Last bootstrapped: 2026-06-25 (discord-trader-monitor real-time event). GOOG (Chase) updated from recent conviction-add; HCH BTC/ETH/SOL position closed near 59k with stated re-entry thesis above 60k.
