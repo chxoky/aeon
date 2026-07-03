@@ -73,16 +73,20 @@
 
 ### BTC/ETH/SOL — SHORTS (NEW ENTRY)
 - **Status**: ACTIVE — NEW SHORT ENTRY 2026-07-03T04:08:17Z — "Enter 5% btc, 2.5-2.5% each eth and sol short, 2% hype short"
-- **Current position sizes** (at entry): BTC short 5%, ETH short 2.5%, SOL short 2.5%, HYPE short 2% (maintained/confirmed)
+- **Current position sizes** (CONVICTION ADD 2026-07-03T08:50:27Z): BTC short 7.5% (+2.5%), ETH short 3.75% (+1.25%), SOL short 3.75% (+1.25%), HYPE short 3% (+1%)
+- **Position history**:
+  - 2026-07-03T04:08:17Z: Initial entry — BTC 5%, ETH 2.5%, SOL 2.5%, HYPE 2%
+  - 2026-07-03T06:20:35Z: Scale-in intent clarification — "Keeping a room to add to the local highs"
+  - 2026-07-03T08:50:27Z: Conviction add (50% scale) — "Add half of that here on all of them" (message_id=1522524915574640651, fast-path alerted)
 - **Entry details**: 
-  - BTC short: 5% position size, entry ~60k+ (post-revaluation, after closing majors longs on 2026-07-02T10:25:13Z)
-  - ETH short: 2.5% position size
-  - SOL short: 2.5% position size
-  - HYPE short: 2% (maintained from prior hedge basket, confirmed in entry message)
-- **Context**: HCH closed major longs (BTC 5%, ETH 2%, SOL 2%) on 2026-07-02T10:25:13Z, confirmed re-evaluation mode on 2026-07-02T11:15:47Z ("Scaled out from majors. Will re-evaluate now"), posted 15m technical watchlist on 2026-07-02T11:25:10Z. New entry message 2026-07-03T04:08:17Z initiates SHORT conviction on major pairs — thesis shift from neutral re-evaluation to bearish positioning. Likely triggered by overnight weakness below 60k technical level or BTC/ETH/SOL technical failure to hold 60k+ (per his prior contingency plan framework from 2026-07-01).
-- **Short basket**: Updated basket = HYPE (2%, maintained from hedge), BTC (5%, new), ETH (2.5%, new), SOL (2.5%, new). Prior conviction shorts ZEC/TAO/SPCX/VVV/XPL/TON/LAB/SYN status unknown (likely still held as tactical hedges unless closed)
-- **Scale-in intent**: 2026-07-03T06:20:35Z — "Keeping a room to add to the local highs" = HCH preserving dry powder to scale INTO his shorts on bounces to local resistance. Confirms conviction on the bearish setup; plans to use tactical rallies as entry opportunities for increasing position size. (message_id=1522487200913166368)
-- **Last update**: 2026-07-03T06:20:35Z (discord-trader-monitor, fast-path alerted, POSITION MANAGEMENT INTENT CLARIFICATION; message_id=1522487200913166368)
+  - BTC short: 7.5% position size (5% initial + 2.5% conviction add), entry ~60k+ initial (post-revaluation)
+  - ETH short: 3.75% position size (2.5% initial + 1.25% conviction add)
+  - SOL short: 3.75% position size (2.5% initial + 1.25% conviction add)
+  - HYPE short: 3% (2% maintained + 1% conviction add)
+- **Context**: HCH closed major longs (BTC 5%, ETH 2%, SOL 2%) on 2026-07-02T10:25:13Z, confirmed re-evaluation mode on 2026-07-02T11:15:47Z ("Scaled out from majors. Will re-evaluate now"), posted 15m technical watchlist on 2026-07-02T11:25:10Z. New entry message 2026-07-03T04:08:17Z initiates SHORT conviction on major pairs — thesis shift from neutral re-evaluation to bearish positioning. 4.5 hours later (08:50Z), HCH doubles down with 50% conviction add across all shorts. This escalation suggests either: (a) accelerating technical breakdown below key support, or (b) on-the-fly tactical add as market rallied into "local highs" as he predicted in his 06:20Z intent message.
+- **Short basket**: Updated basket = HYPE (3%, conviction add), BTC (7.5%, conviction add), ETH (3.75%, conviction add), SOL (3.75%, conviction add). Prior conviction shorts ZEC/TAO/SPCX/VVV/XPL/TON/LAB/SYN status unknown (likely still held as tactical hedges unless closed)
+- **Scale-in intent**: Proven active — 2026-07-03T06:20:35Z intent to add on local highs executed on 08:50Z message. High conviction signaling; no stated further add intent, but pattern suggests HCH is actively trading tactical bounces into his conviction shorts.
+- **Last update**: 2026-07-03T08:50:27Z (discord-trader-monitor, fast-path alerted, CONVICTION ADD / POSITION SCALING; message_id=1522524915574640651)
 
 ### BTC/ETH/SOL Spot — LONGS (CLOSED)
 - **Status**: CLOSED at market 2026-07-02T10:25:13Z — "Close majors fully here"
