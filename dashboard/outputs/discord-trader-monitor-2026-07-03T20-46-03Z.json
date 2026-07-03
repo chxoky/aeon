@@ -1,0 +1,161 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "status-section",
+        "separator-1",
+        "action-section",
+        "separator-2",
+        "position-section"
+      ]
+    },
+    "status-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "status-badge",
+        "context-text"
+      ]
+    },
+    "status-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "✅ Self-resolved"
+      }
+    },
+    "context-text": {
+      "type": "Text",
+      "props": {
+        "text": "DC: HCH — Trades",
+        "variant": "muted"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "action-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "action-label",
+        "action-value",
+        "resolved-label",
+        "resolved-value"
+      ]
+    },
+    "action-label": {
+      "type": "Text",
+      "props": {
+        "text": "Earlier action:",
+        "variant": "caption"
+      }
+    },
+    "action-value": {
+      "type": "Text",
+      "props": {
+        "text": "For 2nd entries to make it 20-25% positioning",
+        "variant": "body"
+      }
+    },
+    "resolved-label": {
+      "type": "Text",
+      "props": {
+        "text": "Resolved by:",
+        "variant": "caption"
+      }
+    },
+    "resolved-value": {
+      "type": "Text",
+      "props": {
+        "text": "Done",
+        "variant": "body"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "position-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "position-summary",
+        "timestamp",
+        "positions-table",
+        "target-range"
+      ]
+    },
+    "position-summary": {
+      "type": "Text",
+      "props": {
+        "text": "HCH completed adding 2nd entries to scale short position toward 20-25% target positioning.",
+        "variant": "body"
+      }
+    },
+    "timestamp": {
+      "type": "Text",
+      "props": {
+        "text": "Initial shorts entered: 2026-07-03T04:08:17Z",
+        "variant": "caption"
+      }
+    },
+    "positions-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Asset",
+          "Position"
+        ],
+        "rows": [
+          [
+            "BTC",
+            "5%"
+          ],
+          [
+            "ETH",
+            "2.5%"
+          ],
+          [
+            "SOL",
+            "2.5%"
+          ],
+          [
+            "HYPE",
+            "2%"
+          ],
+          [
+            "Aggregate",
+            "≈ 12.5%"
+          ]
+        ]
+      }
+    },
+    "target-range": {
+      "type": "Text",
+      "props": {
+        "text": "Now scaling to 20-25% range",
+        "variant": "body"
+      }
+    }
+  }
+}
