@@ -20,3 +20,4 @@ Perfect! I've completed the discord-trader-monitor skill execution. Here's what 
    - Updated `memory/topics/active-trades.md` with scale-in intent ("Keeping a room to add to the local highs")
 
 **Result:** No additional notification sent (Telegram already delivered by Worker). Memory and audit logging complete.
+HCH Trades: market narrative sentiment update - interesting unfolding with time ahead
