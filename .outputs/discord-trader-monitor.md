@@ -1,26 +1,22 @@
-Perfect! I've successfully executed the Discord Trader Monitor skill. Here's what I completed:
+Perfect! I've completed the discord-trader-monitor skill execution. Here's what was processed:
 
-## Execution Summary
+## Summary
 
-**Event Processed:** Message ID 1522463797724315648 from HeartCanHodl at 2026-07-03T04:47:35Z
+**Event:** Discord message from HeartCanHodl at 2026-07-03T06:20:35 UTC
+- **Channel:** HCH — Trades (ID: 1279738718680256553 - primary/★ most important)
+- **Message:** "Keeping a room to add to the local highs" (reply to his short entry)
+- **Status:** ✅ Processed
 
-**Channel:** HCH — Free (primary channel 1472153627324842057)
+### Actions taken:
 
-**Classification:** INFORMATIONAL / Narrative-Sentiment Observation
-- **Not** a trade execution or position management signal
-- **Is** a forward-looking market narrative risk assessment
-- HCH highlights how the Cointelegraph rumor historically sparked bullish moves, suggesting the current Saylor "potentially selling" narrative could drive similar psychological impact **in the opposite direction** (downside)
+1. **Dedup check:** Message ID 1522487200913166368 was new (not previously seen)
+2. **Classification:** Informational / position-management intent clarification
+   - HCH is clarifying his strategy for the short entry he posted at 04:08:17 UTC
+   - Intention: preserve dry powder to scale INTO his BTC/ETH/SOL/HYPE shorts on local resistance bounces
+3. **Fast-path skip:** `fast_path_alerted: true` — Cloudflare Worker already sent Telegram notification (~2-5s latency), so skipped redundant send
+4. **Memory updates:**
+   - Added message ID to `memory/discord-trader-seen.txt` (dedup tracking)
+   - Logged event in `memory/logs/2026-07-03.md` with classification and context
+   - Updated `memory/topics/active-trades.md` with scale-in intent ("Keeping a room to add to the local highs")
 
-**Key Details:**
-- **Fast-path alerted:** TRUE (Cloudflare Worker already sent Telegram ~2-5s after event)
-- **Per Step 2 rule:** Skipped additional Telegram sends, proceeded directly to memory updates and logging
-- **Ticker context:** BTC (implied via Saylor/MicroStrategy narrative)
-- **Sentiment:** Bearish/cautious on near-term narrative-driven volatility risk
-- **Message content:** 1 screenshot attachment included
-
-**Memory Updated:**
-- ✅ Added entry to `memory/topics/traders.md` (HCH section)
-- ✅ Added message ID to `memory/discord-trader-seen.txt` 
-- ✅ Logged execution to `memory/logs/2026-07-03.md`
-
-The skill identified this as a primary-channel informational message that warrants Kyle's awareness of HCH's narrative-psychology risk assessment but does not represent an active trade signal requiring duplicate alerting.
+**Result:** No additional notification sent (Telegram already delivered by Worker). Memory and audit logging complete.
