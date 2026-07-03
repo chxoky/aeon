@@ -69,6 +69,18 @@
 - **Technical thesis**: Monday High pattern in play; 60.7K initial sweep target, then 68-69K push expected next month; sub-50k triggers ISA liquidation for additional conviction add
 - **Last update**: 2026-06-25T14:50:04Z (position confirmation + DCA plan, message_id=1519716314996805654, fast-path alerted)
 
+### BTC — SHORT (tactical position, derisking plan)
+- **Status**: ACTIVE — SHORT POSITION MANAGEMENT 2026-07-03T11:35:22Z — tactical short with derisking intent
+- **Position plan** (from referenced message 11:30Z approx):
+  - **Derisking intent**: Close 50% at entry price
+  - **Re-add intent**: Add back 50% around 62.9 level
+- **Conviction**: LOW-MEDIUM ("Not risking too much at all on this short as its not insanely high conviction" per 07-03T11:35Z message)
+- **Market context**: "Got quite alot of low leverage shorts above us hence we can expect the deviation within the scale box" — implies short entry above current market, likely in 63s+ zone based on derisking/re-add targets
+- **Comparison**: "The 67k short was in a much better area than here" — suggests current short entry is suboptimal compared to prior 67k entry, supporting LOW conviction assessment
+- **Technical thesis**: Scale-box deviation pattern expected; lower leverage posture due to technical uncertainty
+- **Chart reference**: Attachment to 2026-07-03T11:35:22Z message (technical setup validation)
+- **Last update**: 2026-07-03T11:35:22Z (position context + risk explanation, message_id=1522566420431376385, fast-path alerted)
+
 ## HeartCanHodl
 
 ### BTC/ETH/SOL — SHORTS (NEW ENTRY)
