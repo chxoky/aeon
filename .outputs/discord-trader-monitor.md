@@ -17,3 +17,10 @@ Processed Discord real-time event from Crypto_Chase in the "Chase — Crypto" su
 - No Telegram notification sent (correctly classified as technical banter, not trade signal)
 
 The message carries no trade execution, no conviction shift, and no new market information requiring Kyle's attention.
+🔍 *Calibration — [DC: Chase — Crypto]*
+
+Event: Standalone message in member Q&A channel (no referenced context)
+
+Crypto_Chase: "It's not about the timeframe of the close. It's about an impulse below the level and what setup develops there"
+
+Unable to classify without context — what asset/level is he discussing?

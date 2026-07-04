@@ -1,0 +1,103 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor"
+      },
+      "children": [
+        "content-stack"
+      ]
+    },
+    "content-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "header-section",
+        "sep-1",
+        "event-details",
+        "sep-2",
+        "message-card",
+        "sep-3",
+        "classification-alert"
+      ]
+    },
+    "header-section": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: Chase — Crypto]",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "event-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event-label",
+        "event-context"
+      ]
+    },
+    "event-label": {
+      "type": "Text",
+      "props": {
+        "text": "Event",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "event-context": {
+      "type": "Text",
+      "props": {
+        "text": "Standalone message in member Q&A channel (no referenced context)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "message-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Crypto_Chase",
+        "text": "It's not about the timeframe of the close. It's about an impulse below the level and what setup develops there"
+      },
+      "children": []
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "classification-alert": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "message": "Unable to classify without context — what asset/level is he discussing?"
+      },
+      "children": []
+    }
+  }
+}
