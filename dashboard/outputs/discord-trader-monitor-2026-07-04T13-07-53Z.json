@@ -1,0 +1,72 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor — Calibration Required",
+        "description": "Unable to classify cryptic message without image context"
+      },
+      "children": [
+        "heading-main",
+        "separator-1",
+        "stack-context",
+        "separator-2",
+        "alert-question"
+      ]
+    },
+    "heading-main": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: Chase — Crypto]",
+        "level": "h3"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack-context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-user-message",
+        "text-attachment-note"
+      ]
+    },
+    "text-user-message": {
+      "type": "Text",
+      "props": {
+        "text": "<@408096220389834783> Are you talking about this?",
+        "variant": "lead"
+      }
+    },
+    "text-attachment-note": {
+      "type": "Text",
+      "props": {
+        "text": "Attachment: Image/chart included",
+        "variant": "muted"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert-question": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to Classify",
+        "message": "Crypto_Chase question in supporting channel is cryptic without image context. Unable to classify — what's your read?",
+        "type": "warning"
+      }
+    }
+  }
+}
