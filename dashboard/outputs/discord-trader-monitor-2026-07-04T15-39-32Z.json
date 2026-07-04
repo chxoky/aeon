@@ -1,0 +1,170 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor — Calibration"
+      },
+      "children": [
+        "stack-header",
+        "section-trader",
+        "section-message",
+        "section-question",
+        "section-attachment"
+      ]
+    },
+    "stack-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-calibration"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — DC: Chase — Crypto",
+        "level": "h3"
+      }
+    },
+    "section-trader": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "label-trader",
+        "text-trader"
+      ]
+    },
+    "label-trader": {
+      "type": "Heading",
+      "props": {
+        "text": "Trader",
+        "level": "h4"
+      }
+    },
+    "text-trader": {
+      "type": "Text",
+      "props": {
+        "text": "crypto_chase",
+        "variant": "body"
+      }
+    },
+    "section-message": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "label-message",
+        "text-message"
+      ]
+    },
+    "label-message": {
+      "type": "Heading",
+      "props": {
+        "text": "Message",
+        "level": "h4"
+      }
+    },
+    "text-message": {
+      "type": "Text",
+      "props": {
+        "text": "my usual type setup",
+        "variant": "body"
+      }
+    },
+    "section-question": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert-unclassified",
+        "options-stack"
+      ]
+    },
+    "alert-unclassified": {
+      "type": "Alert",
+      "props": {
+        "message": "Unable to classify — what's your read?",
+        "type": "warning"
+      }
+    },
+    "options-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "option-1",
+        "option-2",
+        "option-3",
+        "option-4"
+      ]
+    },
+    "option-1": {
+      "type": "Badge",
+      "props": {
+        "text": "Position setup",
+        "variant": "outline"
+      }
+    },
+    "option-2": {
+      "type": "Badge",
+      "props": {
+        "text": "Order level",
+        "variant": "outline"
+      }
+    },
+    "option-3": {
+      "type": "Badge",
+      "props": {
+        "text": "Portfolio rebalancing reference",
+        "variant": "outline"
+      }
+    },
+    "option-4": {
+      "type": "Badge",
+      "props": {
+        "text": "Technical setup pattern",
+        "variant": "outline"
+      }
+    },
+    "section-attachment": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "label-attachment",
+        "link-attachment"
+      ]
+    },
+    "label-attachment": {
+      "type": "Heading",
+      "props": {
+        "text": "Attachment",
+        "level": "h4"
+      }
+    },
+    "link-attachment": {
+      "type": "Link",
+      "props": {
+        "label": "Chart image (Discord CDN)",
+        "href": "https://cdn.discordapp.com/attachments/1247927786681794601/1522988780678680625/image.png?ex=6a4a7955&is=6a4927d5&hm=02d333d109accc84c46b3189f13bfea61095bd4c3c1be55b55eb2204abd9ab030&"
+      }
+    }
+  }
+}

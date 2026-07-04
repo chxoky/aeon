@@ -1,6 +1,9 @@
 Perfect! I've successfully executed the discord-trader-monitor skill. Here's what was processed:
+🔍 *Calibration — [DC: Chase — Crypto]*
 
-## Summary
+Trader: crypto_chase
+Message: 'my usual type setup'
+(with chart attachment)
 
 **Event Processed:**
 - **Message ID**: 1522988707265777665
@@ -24,3 +27,6 @@ Perfect! I've successfully executed the discord-trader-monitor skill. Here's wha
 5. ✅ Logged event: Appended to `memory/logs/2026-07-04.md`
 
 **Note for Kyle**: Message is cryptic and requires calibration—which asset is the "key level" (ETH or BTC?), and what specific price level is referenced? Context suggests ETH (given the 15:02:19Z message confirming an ETH short), but explicit clarification would help with futures monitoring and position tracking.
+Unable to classify — what's your read? Is this a position setup, order level, portfolio rebalancing reference, or technical setup pattern?
+
+Attachment: https://cdn.discordapp.com/attachments/1247927786681794601/1522988780678680625/image.png?ex=6a4a7955&is=6a4927d5&hm=02d333d109accc84c46b3189f13bfea61095bd4c3c1be55b55eb2204abd9ab030&
