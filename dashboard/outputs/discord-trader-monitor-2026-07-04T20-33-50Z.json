@@ -1,0 +1,30 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "channel-badge",
+        "signal-text"
+      ]
+    },
+    "channel-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DC: HCH — Trades",
+        "variant": "default"
+      }
+    },
+    "signal-text": {
+      "type": "Text",
+      "props": {
+        "text": "Fc lab 4hr",
+        "variant": "body"
+      }
+    }
+  }
+}
