@@ -34,3 +34,8 @@
 
 ### Kyle Implication
 Supporting-channel member Q&A reiterating crypto_chase's trade philosophy. Monitor for follow-up Monday morning if market environment improves during normal hours or member re-presents the setup.
+🔍 *Calibration — [DC: Chase — Crypto]*
+
+Technical observation: "equal highs potentially left behind"
+
+Unable to classify — what's the asset reference and what's your read on the pattern implication (failed resistance / breakdown)?

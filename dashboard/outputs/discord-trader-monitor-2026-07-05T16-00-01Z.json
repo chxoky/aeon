@@ -1,0 +1,99 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "content_stack"
+      ]
+    },
+    "content_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "header_section",
+        "separator_1",
+        "observation_section",
+        "separator_2",
+        "clarification_alert"
+      ]
+    },
+    "header_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_calibration",
+        "badge_context"
+      ]
+    },
+    "badge_calibration": {
+      "type": "Badge",
+      "props": {
+        "text": "Calibration",
+        "variant": "secondary"
+      }
+    },
+    "badge_context": {
+      "type": "Badge",
+      "props": {
+        "text": "DC: Chase — Crypto",
+        "variant": "outline"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "observation_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_observation",
+        "text_observation"
+      ]
+    },
+    "heading_observation": {
+      "type": "Heading",
+      "props": {
+        "text": "Technical observation",
+        "level": "h4"
+      }
+    },
+    "text_observation": {
+      "type": "Text",
+      "props": {
+        "text": "equal highs potentially left behind",
+        "variant": "lead"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "clarification_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's the asset reference and what's your read on the pattern implication (failed resistance / breakdown)?",
+        "type": "info"
+      }
+    }
+  }
+}
