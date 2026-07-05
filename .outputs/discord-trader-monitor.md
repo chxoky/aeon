@@ -28,7 +28,10 @@ Perfect! I've completed the discord-trader-monitor skill execution. Here's what 
 Supporting-channel member Q&A reiterating crypto_chase's trade philosophy. Monitor for follow-up Monday morning if market environment improves during normal hours or member re-presents the setup.
 🔍 *Calibration — [DC: Chase — Crypto]*
 
-Technical observation: "equal highs potentially left behind"
+Event: Standalone message in supporting channel
 
 Unable to classify — what's the asset reference and what's your read on the pattern implication (failed resistance / breakdown)?
 **No Telegram notification sent** — this is supporting-channel educational content with no actionable trade signal. The message reinforces Chase's documented technical framework without requiring Kyle's immediate attention.
+crypto_chase: "The difference between high confidence and mediocre setup"
+
+Unable to classify — is this a general teaching principle, or commentary on a specific trade setup? What's your read?

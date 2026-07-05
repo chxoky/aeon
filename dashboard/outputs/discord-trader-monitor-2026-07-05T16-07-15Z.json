@@ -1,0 +1,96 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_calib",
+        "sep1",
+        "text_event",
+        "stack_quote",
+        "sep2",
+        "alert_classify"
+      ]
+    },
+    "heading_calib": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration — [DC: Chase — Crypto]",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Standalone message in supporting channel",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "stack_quote": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_source",
+        "text_quote"
+      ]
+    },
+    "text_source": {
+      "type": "Text",
+      "props": {
+        "text": "crypto_chase",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "text_quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"The difference between high confidence and mediocre setup\"",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert_classify": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to Classify",
+        "message": "Is this a general teaching principle, or commentary on a specific trade setup? What's your read?",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}
