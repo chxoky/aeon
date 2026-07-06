@@ -1,0 +1,149 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Calibration — DC: Chase — TradFi"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_calibration",
+        "sep1",
+        "section_message",
+        "sep2",
+        "section_context",
+        "sep3",
+        "section_status"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: Chase — TradFi]",
+        "level": "h3"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_message": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "label_message",
+        "quote_message",
+        "metadata_posted"
+      ]
+    },
+    "label_message": {
+      "type": "Text",
+      "props": {
+        "text": "Message",
+        "variant": "lead"
+      }
+    },
+    "quote_message": {
+      "type": "Text",
+      "props": {
+        "text": "\"I don't trade charts that look like that\"",
+        "variant": "body"
+      }
+    },
+    "metadata_posted": {
+      "type": "Text",
+      "props": {
+        "text": "Posted: 2026-07-06 19:19 UTC",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "label_context",
+        "text_context",
+        "text_context_details",
+        "badge_context"
+      ]
+    },
+    "label_context": {
+      "type": "Text",
+      "props": {
+        "text": "Context",
+        "variant": "lead"
+      }
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "Supporting channel message, no referenced context (is_reply: false, no attachments).",
+        "variant": "body"
+      }
+    },
+    "text_context_details": {
+      "type": "Text",
+      "props": {
+        "text": "Message reads like a response but standing alone — unable to determine what chart/setup Chase is referring to.",
+        "variant": "body"
+      }
+    },
+    "badge_context": {
+      "type": "Badge",
+      "props": {
+        "text": "Orphaned context",
+        "variant": "outline"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_status": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "alert_status"
+      ]
+    },
+    "alert_status": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Unable to classify",
+        "message": "What chart/context is this referring to? Does this require alerting?"
+      }
+    }
+  }
+}

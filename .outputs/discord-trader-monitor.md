@@ -1,4 +1,4 @@
-## Summary
+🔍 *Calibration — [DC: Chase — TradFi]*
 
 Skill **discord-trader-monitor** executed successfully. 
 
@@ -24,3 +24,9 @@ Skill **discord-trader-monitor** executed successfully.
 - memory/logs/2026-07-06.md: Event logged per protocol
 
 No notification sent (alerted: no). Fast-path rule: false (standard processing, no double-alert).
+Message: "I don't trade charts that look like that"
+Posted: 2026-07-06 19:19 UTC
+
+Context: Supporting channel message, no referenced context (is_reply: false, no attachments). Message reads like a response but standing alone — unable to determine what chart/setup Chase is referring to.
+
+Unable to classify — what chart/context is this referring to? Does this require alerting?
