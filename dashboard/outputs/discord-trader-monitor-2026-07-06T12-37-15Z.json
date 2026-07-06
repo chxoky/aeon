@@ -1,0 +1,69 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_channel",
+        "text_setup",
+        "text_message",
+        "link_chart",
+        "text_classification"
+      ]
+    },
+    "heading_channel": {
+      "type": "Heading",
+      "props": {
+        "text": "💬 DC: Chase — Crypto",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text_setup": {
+      "type": "Text",
+      "props": {
+        "text": "Setup: \"If we get this, tag me, I'll likely look for entry\"",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_message": {
+      "type": "Text",
+      "props": {
+        "text": "Crypto_Chase: perfect example why i dont trade this garbage anymore",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "link_chart": {
+      "type": "Link",
+      "props": {
+        "label": "Chart",
+        "href": "https://cdn.discordapp.com/attachments/1247927786681794601/1523668448700399719/image.png"
+      },
+      "children": []
+    },
+    "text_classification": {
+      "type": "Text",
+      "props": {
+        "text": "Classification: Conviction signal — entry conditions triggered but dismissed.",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
