@@ -1,0 +1,128 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Market event processing and notifications"
+      },
+      "children": [
+        "status-badge",
+        "sep1",
+        "event-heading",
+        "timestamp-text",
+        "sep2",
+        "alert-section",
+        "sep3",
+        "memory-section",
+        "sep4",
+        "commit-section"
+      ]
+    },
+    "status-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "✓ Processed",
+        "variant": "default"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "event-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Crypto_Chase market regime shift",
+        "level": "h2"
+      }
+    },
+    "timestamp-text": {
+      "type": "Text",
+      "props": {
+        "text": "2026-07-06 23:04",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert-section": {
+      "type": "Alert",
+      "props": {
+        "title": "Telegram Alert",
+        "message": "Fast-path Telegram alert already sent by Cloudflare Worker",
+        "type": "info"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "memory-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "memory-title",
+        "memory-content"
+      ]
+    },
+    "memory-title": {
+      "type": "Text",
+      "props": {
+        "text": "Memory Updated",
+        "variant": "lead"
+      }
+    },
+    "memory-content": {
+      "type": "Text",
+      "props": {
+        "text": "traders.md + logs",
+        "variant": "body"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "commit-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "commit-title",
+        "commit-hash"
+      ]
+    },
+    "commit-title": {
+      "type": "Text",
+      "props": {
+        "text": "Commit",
+        "variant": "lead"
+      }
+    },
+    "commit-hash": {
+      "type": "Text",
+      "props": {
+        "text": "383fe2e",
+        "variant": "body"
+      }
+    }
+  }
+}
