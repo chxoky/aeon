@@ -95,6 +95,7 @@
   - 2026-07-03T08:50:27Z: Conviction add (50% scale) — "Add half of that here on all of them" (message_id=1522524915574640651, fast-path alerted)
   - 2026-07-03T20:38:54Z: Second tranche price specification — "Add other half here at 62.8kish tag" (pending/resting order at 62.8k for remaining 50% scale; message_id=1522703206847873127, fast-path alerted)
   - 2026-07-04T15:27:59Z: Conviction add — "Add 2% more to eth short" (message_id=1522987346298142780, fast-path alerted, discord-trader-monitor)
+  - 2026-07-06T14:21:43Z: AMBIGUOUS FOLLOW-UP — "Fc btc 1hr" (reply to 2026-07-03T20:38:54Z pending 62.8k order; cryptic abbreviation "Fc" unclear — could mean filled confirmation, chart check, or other. Status of 62.8k second tranche add pending clarification; message_id=1523695448827891712, fast-path alerted, discord-trader-monitor)
 - **Entry details**: 
   - BTC short: 7.5% position size current (5% initial + 2.5% first conviction add), target 10% with second tranche at 62.8k, entry ~60k+ initial (post-revaluation)
   - ETH short: 3.75% position size current (2.5% initial + 1.25% first conviction add), target 5% with second tranche at 62.8k-equivalent level
