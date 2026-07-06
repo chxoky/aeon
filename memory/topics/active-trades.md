@@ -70,18 +70,19 @@
 - **Last update**: 2026-06-25T14:50:04Z (position confirmation + DCA plan, message_id=1519716314996805654, fast-path alerted)
 
 ### BTC — SHORT (tactical position, derisking plan)
-- **Status**: ACTIVE — SHORT POSITION MANAGEMENT 2026-07-06T12:01:29Z — tactical short with derisking + conviction-add closure
+- **Status**: ACTIVE — SHORT POSITION MANAGEMENT 2026-07-06T12:01:29Z → EXECUTION CONFIRMATION 2026-07-06T13:30:11Z
 - **Position evolution**:
   - 2026-07-02T16:38Z: Filled small BTC short at market
   - 2026-07-03T11:33Z: Planned derisk 50% at entry, re-add 50% at 62.9K
   - 2026-07-05T12:13Z: Confirmed still in position, waiting for 60.6 pivot test for re-add
-  - **2026-07-06T12:01Z: Abandoned re-add plan, closing conviction-add 50%, retaining core entry 50%**
+  - **2026-07-06T12:01Z: Abandoned re-add plan, closing conviction-add 50%, retaining core entry 50%** (message_id=1523660156997734463)
+  - **2026-07-06T13:30Z: EXECUTION CONFIRMED — "Closed 50% of small pos, we can see a bounce around NY open back upto 62.3K"** (message_id=1523682478618050701, is_reply=true, attachment: price/position chart)
 - **Current position size**: ~50% of peak (core entry retained, conviction-add exited)
 - **Conviction**: MEDIUM ("Ideally looking for low 60s" per 07-06T12:01Z message) — maintaining core short despite failed re-add attempt
-- **Market context**: Original entry implied 63-65k zone; derisk/re-add plan expected 62.9K re-entry level; low 60s now the target
+- **Market context**: Original entry implied 63-65k zone; derisk/re-add plan expected 62.9K re-entry level; low 60s now the target; 13:30Z execution note suggests bounce potential around NY open to 62.3K level
 - **Comparison**: "The 67k short was in a much better area than here" — acknowledges current short entry is suboptimal, reinforces tactical hedging posture
-- **Technical thesis**: Tactical position management with scale-box deviation pattern; conservative sizing due to macro macro-bottom proximity
-- **Last update**: 2026-07-06T12:01:29Z (position derisking + conviction-add closure, message_id=1523660156997734463, fast-path alerted)
+- **Technical thesis**: Tactical position management with scale-box deviation pattern; conservative sizing due to macro macro-bottom proximity; 62.3K bounce observation suggests price structure confirmation
+- **Last update**: 2026-07-06T13:30:11Z (execution confirmation, message_id=1523682478618050701, fast-path alerted, reply context: "Current average invalidation remains the same. Not a big position as mentioned")
 
 ## HeartCanHodl
 
