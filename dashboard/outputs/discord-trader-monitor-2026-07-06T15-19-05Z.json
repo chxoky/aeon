@@ -1,0 +1,41 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Chase — TradFi"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_message",
+        "text_chart"
+      ]
+    },
+    "text_message": {
+      "type": "Text",
+      "props": {
+        "text": "Still some lower liquidity, it could go for though, and I'm fine with that",
+        "variant": "body"
+      }
+    },
+    "text_chart": {
+      "type": "Text",
+      "props": {
+        "text": "Chart attached showing the market setup",
+        "variant": "caption"
+      }
+    }
+  }
+}
