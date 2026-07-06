@@ -69,20 +69,24 @@
 - **Technical thesis**: Monday High pattern in play; 60.7K initial sweep target, then 68-69K push expected next month; sub-50k triggers ISA liquidation for additional conviction add
 - **Last update**: 2026-06-25T14:50:04Z (position confirmation + DCA plan, message_id=1519716314996805654, fast-path alerted)
 
-### BTC — SHORT (tactical position, derisking plan)
-- **Status**: ACTIVE — SHORT POSITION MANAGEMENT 2026-07-06T12:01:29Z → EXECUTION CONFIRMATION 2026-07-06T13:30:11Z
+### BTC — SHORT (tactical position, fully closed with small profits)
+- **Status**: CLOSED — SHORT POSITION FULLY EXITED 2026-07-06T13:30:11Z → 2026-07-06T16:47:59Z
 - **Position evolution**:
   - 2026-07-02T16:38Z: Filled small BTC short at market
   - 2026-07-03T11:33Z: Planned derisk 50% at entry, re-add 50% at 62.9K
   - 2026-07-05T12:13Z: Confirmed still in position, waiting for 60.6 pivot test for re-add
   - **2026-07-06T12:01Z: Abandoned re-add plan, closing conviction-add 50%, retaining core entry 50%** (message_id=1523660156997734463)
   - **2026-07-06T13:30Z: EXECUTION CONFIRMED — "Closed 50% of small pos, we can see a bounce around NY open back upto 62.3K"** (message_id=1523682478618050701, is_reply=true, attachment: price/position chart)
-- **Current position size**: ~50% of peak (core entry retained, conviction-add exited)
-- **Conviction**: MEDIUM ("Ideally looking for low 60s" per 07-06T12:01Z message) — maintaining core short despite failed re-add attempt
-- **Market context**: Original entry implied 63-65k zone; derisk/re-add plan expected 62.9K re-entry level; low 60s now the target; 13:30Z execution note suggests bounce potential around NY open to 62.3K level
-- **Comparison**: "The 67k short was in a much better area than here" — acknowledges current short entry is suboptimal, reinforces tactical hedging posture
-- **Technical thesis**: Tactical position management with scale-box deviation pattern; conservative sizing due to macro macro-bottom proximity; 62.3K bounce observation suggests price structure confirmation
-- **Last update**: 2026-07-06T13:30:11Z (execution confirmation, message_id=1523682478618050701, fast-path alerted, reply context: "Current average invalidation remains the same. Not a big position as mentioned")
+  - **2026-07-06T16:47Z: FINAL CLOSE — "Closing out the remaining 25% of the short position here at 63.7k. Ended up overall in small profits on the short"** (message_id=1523732256555012227, is_reply=true, fast-path alerted)
+- **Final position size**: 0% — fully exited
+- **Exit prices**: 50% closed at 62.3K, 25% closed at 63.7K
+- **Outcome**: SMALL PROFITS overall ("Ended up overall in small profits on the short, I forgot to ping to put stops at entry. All good.")
+- **Conviction**: Post-close assessment indicates satisfied with risk management despite initial plan complications; searching for higher re-entry point
+- **Market context**: Original entry implied 63-65k zone; derisk/re-add plan expected 62.9K re-entry level, but de-risked early when plan didn't materialize; eventual closes at 62.3K-63.7K bracket suggest tactical success despite missed re-entry opportunity
+- **Comparison**: "The 67k short was in a much better area than here" — earlier assessment acknowledged current short entry was suboptimal
+- **Technical thesis**: Tactical position management with scale-box deviation pattern; conservative sizing due to macro bottom proximity; price structure confirmation through multi-leg close
+- **Next action**: "Will search for a higher entry!" — plans to re-enter short at better technical level
+- **Last update**: 2026-07-06T16:47:59Z (position fully closed, message_id=1523732256555012227, fast-path alerted)
 
 ## HeartCanHodl
 
