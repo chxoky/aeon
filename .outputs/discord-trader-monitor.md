@@ -1,23 +1,15 @@
 ## Summary
 
-**Skill:** discord-trader-monitor (real-time event processing)
+I've successfully processed the Discord trader monitor skill event for crypto_chase's message "liq draw should be up" posted 2026-07-06T14:07:32Z in the Chase — TradFi supporting channel.
 
-**Event Processed:**
-- **Trader:** KillaXBT (killaxbt, primary channel "K")
-- **Time:** 2026-07-06T13:30:11Z (06:30 PT)
-- **Message:** "Closed 50% of small pos, we can see a bounce around NY open back upto 62.3K"
-- **Classification:** Trade-execution / position-closure confirmation (BTC short)
-- **Fast-path status:** ✅ Alert already sent by Cloudflare Worker (~2-5s latency)
+**Processing completed:**
+- ✅ Event decoded and validated (message ID: 1523691879114346699)
+- ✅ Fast-path check: false → processing full workflow
+- ✅ Dedup verified: new message (added to discord-trader-seen.txt)
+- ✅ Classification: **AMBIGUOUS / CRYPTIC TECHNICAL COMMENTARY** (requires Kyle's calibration)
+- ✅ Memory updated:
+  - `/memory/discord-trader-seen.txt` — message ID appended
+  - `/memory/logs/2026-07-06.md` — event logged with ambiguous classification note
+  - `/memory/topics/traders.md` — detailed entry added with chart context required
 
-**Actions Completed:**
-1. ✅ Event decoded and validated
-2. ✅ Trader + channel resolved (KillaXBT, primary trading channel)
-3. ✅ Cross-platform dedup check (Discord-first, no X duplicate)
-4. ✅ Classification confirmed: closing 50% of conviction-add position, retaining core entry (~50% of peak)
-5. ✅ Memory updated:
-   - `discord-trader-seen.txt`: message ID recorded
-   - `active-trades.md`: BTC SHORT updated with execution confirmation + 62.3K bounce context
-   - `logs/2026-07-06.md`: event logged
-6. ✅ Changes committed
-
-**Position Context:** This message confirms the earlier 12:01 PT decision to abandon the re-add plan and close the conviction-add 50% of KillaXBT's BTC short. The trader is now holding the core entry portion with invalidation level unchanged and a near-term target of low 60s.
+**Next action:** Calibration alert to Kyle pending notification approval. The message references "liq draw should be up" with a chart attachment, but the specific asset/technical intent needs Kyle's interpretation to classify correctly.
