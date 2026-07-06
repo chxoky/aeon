@@ -70,16 +70,18 @@
 - **Last update**: 2026-06-25T14:50:04Z (position confirmation + DCA plan, message_id=1519716314996805654, fast-path alerted)
 
 ### BTC — SHORT (tactical position, derisking plan)
-- **Status**: ACTIVE — SHORT POSITION MANAGEMENT 2026-07-03T11:35:22Z — tactical short with derisking intent
-- **Position plan** (from referenced message 11:30Z approx):
-  - **Derisking intent**: Close 50% at entry price
-  - **Re-add intent**: Add back 50% around 62.9 level
-- **Conviction**: LOW-MEDIUM ("Not risking too much at all on this short as its not insanely high conviction" per 07-03T11:35Z message)
-- **Market context**: "Got quite alot of low leverage shorts above us hence we can expect the deviation within the scale box" — implies short entry above current market, likely in 63s+ zone based on derisking/re-add targets
-- **Comparison**: "The 67k short was in a much better area than here" — suggests current short entry is suboptimal compared to prior 67k entry, supporting LOW conviction assessment
-- **Technical thesis**: Scale-box deviation pattern expected; lower leverage posture due to technical uncertainty
-- **Chart reference**: Attachment to 2026-07-03T11:35:22Z message (technical setup validation)
-- **Last update**: 2026-07-03T11:35:22Z (position context + risk explanation, message_id=1522566420431376385, fast-path alerted)
+- **Status**: ACTIVE — SHORT POSITION MANAGEMENT 2026-07-06T12:01:29Z — tactical short with derisking + conviction-add closure
+- **Position evolution**:
+  - 2026-07-02T16:38Z: Filled small BTC short at market
+  - 2026-07-03T11:33Z: Planned derisk 50% at entry, re-add 50% at 62.9K
+  - 2026-07-05T12:13Z: Confirmed still in position, waiting for 60.6 pivot test for re-add
+  - **2026-07-06T12:01Z: Abandoned re-add plan, closing conviction-add 50%, retaining core entry 50%**
+- **Current position size**: ~50% of peak (core entry retained, conviction-add exited)
+- **Conviction**: MEDIUM ("Ideally looking for low 60s" per 07-06T12:01Z message) — maintaining core short despite failed re-add attempt
+- **Market context**: Original entry implied 63-65k zone; derisk/re-add plan expected 62.9K re-entry level; low 60s now the target
+- **Comparison**: "The 67k short was in a much better area than here" — acknowledges current short entry is suboptimal, reinforces tactical hedging posture
+- **Technical thesis**: Tactical position management with scale-box deviation pattern; conservative sizing due to macro macro-bottom proximity
+- **Last update**: 2026-07-06T12:01:29Z (position derisking + conviction-add closure, message_id=1523660156997734463, fast-path alerted)
 
 ## HeartCanHodl
 
