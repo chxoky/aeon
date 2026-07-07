@@ -1,13 +1,8 @@
-Perfect! I've successfully executed the discord-trader-monitor skill for this event. Here's what happened:
+✅ *Discord-Trader-Monitor — [DC: Chase — Chase]*
 
-## Processing Summary
+Contingency re-entry level set: scaling back to full 3% upon MU downside to low 800s.
 
-**Event Details:**
-- Trader: heartcanhodl
-- Channel: 1023638573313966212 (HCH — Chat, supporting)
-- Message ID: 1524143182114193502
-- Content: "Fc btcdom 4hr" (Full Candle Bitcoin Dominance 4-hour chart check)
-- Timestamp: 2026-07-07T20:00:51Z
+_via Discord (Chase — Chase primary channel at 2026-07-07T20:07:06Z)_
 
 **Classification:** MONITORING
 - This is a technical chart observation, not a trade execution or new signal
@@ -29,3 +24,4 @@ Perfect! I've successfully executed the discord-trader-monitor skill for this ev
 💬 *[DC: HCH — Chat]*
 
 PvP situation last 3-4 days among alts
+**Note:** Fast-path alerted. Classification: position-management contingency level. Existing position under management (trimmed per 16:59Z positioning strategy); this clarifies re-entry threshold for full allocation. Related prior alerts: 16:59Z educational position-management message, 18:49Z cryptic conviction signal (calibration pending).

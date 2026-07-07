@@ -1,0 +1,134 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord-Trader-Monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "channel-info",
+        "main-message",
+        "source-attribution",
+        "note-section"
+      ]
+    },
+    "channel-info": {
+      "type": "Text",
+      "props": {
+        "text": "✅ DC: Chase — Chase",
+        "variant": "lead"
+      }
+    },
+    "main-message": {
+      "type": "Text",
+      "props": {
+        "text": "Contingency re-entry level set: scaling back to full 3% upon MU downside to low 800s.",
+        "variant": "body"
+      }
+    },
+    "source-attribution": {
+      "type": "Text",
+      "props": {
+        "text": "via Discord (Chase — Chase primary channel at 2026-07-07T20:07:06Z)",
+        "variant": "caption"
+      }
+    },
+    "note-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "note-header",
+        "fast-path-info",
+        "position-info",
+        "related-alerts"
+      ]
+    },
+    "note-header": {
+      "type": "Heading",
+      "props": {
+        "text": "Note",
+        "level": "h4"
+      }
+    },
+    "fast-path-info": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "fast-path-text",
+        "classification-badge"
+      ]
+    },
+    "fast-path-text": {
+      "type": "Text",
+      "props": {
+        "text": "Fast-path alerted.",
+        "variant": "body"
+      }
+    },
+    "classification-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "position-management contingency level",
+        "variant": "default"
+      }
+    },
+    "position-info": {
+      "type": "Text",
+      "props": {
+        "text": "Existing position under management (trimmed per 16:59Z positioning strategy); this clarifies re-entry threshold for full allocation.",
+        "variant": "body"
+      }
+    },
+    "related-alerts": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "related-alerts-header",
+        "alert-1",
+        "alert-2"
+      ]
+    },
+    "related-alerts-header": {
+      "type": "Text",
+      "props": {
+        "text": "Related prior alerts:",
+        "variant": "body"
+      }
+    },
+    "alert-1": {
+      "type": "Text",
+      "props": {
+        "text": "16:59Z educational position-management message",
+        "variant": "caption"
+      }
+    },
+    "alert-2": {
+      "type": "Text",
+      "props": {
+        "text": "18:49Z cryptic conviction signal (calibration pending)",
+        "variant": "caption"
+      }
+    }
+  }
+}
