@@ -24,3 +24,6 @@ Since `fast_path_alerted: true`, the Cloudflare Worker already sent a Telegram a
 
 **Position Context:**
 Chase's SNDK progression shows he entered an HTF flush setup at 14:30Z with 3-4% risk tolerance, experienced rapid drawdown (expressing frustration at 14:43Z), and then took a 30% trim at 1589 for a minor loss—classic risk reduction/rebalancing behavior after a setup that moved against him quickly.
+💬 *[DC: Chase — Chase]*
+
+Overall risk will be at 2.5%~

@@ -1,0 +1,42 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "content-stack"
+      ]
+    },
+    "content-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "source-text",
+        "risk-stat"
+      ]
+    },
+    "source-text": {
+      "type": "Text",
+      "props": {
+        "text": "💬 [DC: Chase — Chase]",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "risk-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Overall risk",
+        "value": "2.5%~"
+      },
+      "children": []
+    }
+  }
+}
