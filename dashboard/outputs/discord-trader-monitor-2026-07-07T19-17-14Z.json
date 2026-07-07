@@ -1,0 +1,31 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "metadata",
+        "crash"
+      ]
+    },
+    "metadata": {
+      "type": "Badge",
+      "props": {
+        "text": "DC: HCH — Free",
+        "variant": "default"
+      }
+    },
+    "crash": {
+      "type": "Stat",
+      "props": {
+        "label": "Crash",
+        "value": "-82%",
+        "trend": "down"
+      }
+    }
+  }
+}
