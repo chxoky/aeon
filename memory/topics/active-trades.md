@@ -50,15 +50,20 @@
 - **Conviction**: Was HIGH at entry (waiting months for sub-850 level per 06-23 message); both TP hit and trim management confirm disciplined execution on profitable trades; re-add signal indicates willingness to scale into strength/weakness pattern post-earnings
 - **Last update**: 2026-07-07T01:44:32Z (message_id=1523867283854987345, re-add consideration, fast-path alerted)
 
-### Pullback Entry — TBD (chart context required)
-- **Entry**: 2026-07-07T13:25:08Z (NEW)
+### SNDK (Structural) — LONG (pullback entry, partial TP hit)
+- **Entry**: 2026-07-07T13:25:08Z (pullback tactical entry on HTF flush setup)
 - **Message**: "This is the first real pullback. It's the pullback I was waiting for so I got to take a risk on it."
-- **Attachment**: chart image (provides market/ticker context)
-- **Status**: EXECUTION CONFIRMED — "I got to take a risk on it" (first person, active execution language)
-- **Conviction**: HIGH — waited specifically for this pullback, describes as "first real pullback" (technical setup confirmed)
-- **Thesis**: Pullback entry on technical setup; conviction indicates this was a planned, waited-for opportunity
-- **Note**: Chart attachment in Discord message 1524043593319448669 contains the market/ticker context and entry visualization. Fast-path alert already sent to Kyle via Telegram at time of message. Ticker/market: __TBD from chart context__. Follow-up image posted 2026-07-07T14:30:31Z (message_id=1524060048760766555) — image-only message, likely position documentation or market structure confirmation.
-- **Last update**: 2026-07-07T14:30:31Z (message_id=1524060048760766555, image follow-up, discord-trader-monitor)
+- **Entry signal**: Chart attachment (Discord message 1524043593319448669) — technical confirmation of flush/liquidity sweep setup
+- **HTF setup articulated**: 2026-07-07T14:30:28Z — "last chance here for SNDK, flush all the liquidity, guppy support, etc. expecting something like i draw below" (specific confluence: liquidity zones + guppy MA support); risk-defined at 3-4% portfolio loss; mid-1400s appears to be part of multi-level entry plan
+- **Status**: ACTIVE with partial TP hit 2026-07-07T16:13:45Z
+- **Position history**:
+  - 2026-07-07T13:25:08Z: Entry executed on pullback (high conviction, waited-for setup)
+  - 2026-07-07T14:30:28Z: Full HTF flush plan articulated with risk parameters and expected structure
+  - 2026-07-07T16:13:45Z: PARTIAL TP CONFIRMED — "eh, full trim hit lmao" (trim/partial take-profit executed as planned)
+- **Conviction**: HIGH — pre-planned setup, waited specifically for pullback, structured multi-level entry strategy, disciplined risk management (3-4% max loss)
+- **Thesis**: HTF flush/liquidity sweep play; technical confluence (guppy support + liquidity zones) validated by entry; TP hit on partial position confirms plan execution
+- **Note**: Follow-up image posted 2026-07-07T14:30:31Z (message_id=1524060048760766555) — market structure documentation. TP confirmation at 16:13:45Z (message_id=1524086030821757130) shows partial trim hit; remainder position status TBD.
+- **Last update**: 2026-07-07T16:13:45Z (message_id=1524086030821757130, partial TP hit, discord-trader-monitor, no fast-path alert on TP confirmation)
 
 ## ES (S&P 500 E-mini Futures) — LONG
 - **Entry**: 2026-06-21T23:23Z (dream/gut feeling conviction entry)
