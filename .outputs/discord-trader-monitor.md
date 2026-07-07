@@ -1,34 +1,30 @@
-Perfect! I've completed the skill execution for this Discord trader monitor event. Here's what was processed:
+Perfect. I've completed processing the Discord message from Crypto_Chase about the SNDK HTF flush trade setup. Here's what was executed:
 
 ## Summary
 
-**Event:** Crypto_Chase Discord message about SNDK limit order level  
-**Timestamp:** 2026-07-07T13:57:43Z  
-**Message ID:** 1524051795347771442  
-**Channel:** Chase — Chase (primary)
+**Event Processed**: Crypto_Chase's SNDK trade setup announcement (2026-07-07T14:30:28Z, message_id: 1524060038740574338)
 
-### Processing Complete:
+**Classification**: Trade Setup / HTF Flush Expectation (Primary Channel)
 
-1. **Decoded Event** ✓ — Base64 event decoded successfully
-2. **Verified Trader** ✓ — crypto_chase in primary channel (Chase — Chase)
-3. **Classification** — `watchlist / conviction-add level`
-4. **Fast-Path Status** — `fast_path_alerted: true` (Cloudflare Worker already sent Telegram alert ~2-5s ago)
-5. **Action Taken** — Skipped redundant Telegram send per fast-path protocol; proceeded to memory updates
+**Key Details**:
+- Describes a High Time Frame (HTF) flush trade setup on SNDK
+- Technical confluence: liquidity flush + guppy MA support level
+- Entry target: mid-1400s (resting bid identified 37 min prior at 13:57:43Z)
+- Risk tolerance: willing to lose 3-4% portfolio if necessary
+- Positioned as "last chance" despite recent HTF strategy disappointment
+- Pre-execution trade plan (not yet filled)
 
-### Memory Updates:
-- ✅ **discord-trader-seen.txt** — Message ID tracked
-- ✅ **ticker-focus.md** — SNDK entry refined with new conviction level (mid-1400s)
-- ✅ **traders.md** — New entry added to Crypto_Chase section documenting the conviction shift
-- ✅ **memory/logs/2026-07-07.md** — Complete log entry appended
+**Memory Updates**:
+- ✓ Added message ID to seen-list (discord-trader-seen.txt)
+- ✓ Updated traders.md with detailed HTF flush setup entry and conviction progression
+- ✓ Updated ticker-focus.md reflecting three-tier conviction shift on SNDK
+- ✓ Logged event to memory/logs/2026-07-07.md
 
-### Context:
-Chase previously passed on SNDK on 06-24 ("too much upside in a short amount of time"), now signals willingness to add at mid-1400s via resting bid. This represents a refined entry strategy with specific price discipline rather than aggressive accumulation. Awaiting execution confirmation if that level is touched.
+**Fast-Path Status**: `alerted: true` — Cloudflare Worker already sent Telegram alert (~2-5s latency). This skill processed for memory/logging only, skipped redundant Telegram send per protocol.
 
-**Status:** Task complete. Kyle already received the fast-path Telegram alert. All memory/audit work processed.
-🔍 *Calibration — [DC: Chase — Chase]*
+**Conviction Progression Tracked**: 
+- 2026-06-24: "too fast, pass"
+- 2026-07-07T13:57: "willing at mid-1400s resting bid"  
+- 2026-07-07T14:30: Complete HTF flush technical setup with multi-level entry plan
 
-Event: Earlier message at 2026-07-07T01:44Z — "920's to add back some MU, but keeping total risk at 2% or so"
-
-crypto_chase: "Sorta want it today though, we'll see"
-
-Unable to classify — is this a confirmed re-add execution intent, or still evaluation? The language is tentative ("Sorta", "we'll see").
+Awaiting order-fill confirmation or setup execution on SNDK.
