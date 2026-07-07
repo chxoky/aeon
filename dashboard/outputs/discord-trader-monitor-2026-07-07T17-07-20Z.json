@@ -1,0 +1,145 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-processed",
+        "stack-processed",
+        "separator-1",
+        "heading-related",
+        "text-related",
+        "separator-2",
+        "heading-action",
+        "text-action",
+        "separator-3",
+        "stack-status"
+      ]
+    },
+    "heading-processed": {
+      "type": "Heading",
+      "props": {
+        "text": "Processed",
+        "level": "h3"
+      }
+    },
+    "stack-processed": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-channel",
+        "text-update",
+        "text-time"
+      ]
+    },
+    "text-channel": {
+      "type": "Text",
+      "props": {
+        "text": "Channel: crypto_chase (supporting-channel)",
+        "variant": "body"
+      }
+    },
+    "text-update": {
+      "type": "Text",
+      "props": {
+        "text": "Sentiment update: flush-trade strategy degradation",
+        "variant": "body"
+      }
+    },
+    "text-time": {
+      "type": "Text",
+      "props": {
+        "text": "Time: 17:01 PT",
+        "variant": "caption"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-related": {
+      "type": "Heading",
+      "props": {
+        "text": "Related",
+        "level": "h3"
+      }
+    },
+    "text-related": {
+      "type": "Text",
+      "props": {
+        "text": "SNDK HTF setup from 14:30 PT",
+        "variant": "body"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-action": {
+      "type": "Heading",
+      "props": {
+        "text": "Action",
+        "level": "h3"
+      }
+    },
+    "text-action": {
+      "type": "Text",
+      "props": {
+        "text": "No standalone alert per Step 7 rule; folded into traders.md context",
+        "variant": "body"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack-status": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "text-status-label",
+        "badge-status"
+      ]
+    },
+    "text-status-label": {
+      "type": "Text",
+      "props": {
+        "text": "Status:",
+        "variant": "caption"
+      }
+    },
+    "badge-status": {
+      "type": "Badge",
+      "props": {
+        "text": "complete",
+        "variant": "default"
+      }
+    }
+  }
+}
