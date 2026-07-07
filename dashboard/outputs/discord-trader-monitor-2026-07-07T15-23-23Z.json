@@ -1,0 +1,111 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — [DC: Chase — Chase]"
+      },
+      "children": [
+        "content-stack"
+      ]
+    },
+    "content-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event-section",
+        "quote-section",
+        "context-section",
+        "classification-alert"
+      ]
+    },
+    "event-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event-heading",
+        "event-details"
+      ]
+    },
+    "event-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "event-details": {
+      "type": "Text",
+      "props": {
+        "text": "SNDK trim executed 15:12Z (30% at 1589~, minor loss)",
+        "variant": "body"
+      }
+    },
+    "quote-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "quote-label",
+        "quote-text"
+      ]
+    },
+    "quote-label": {
+      "type": "Text",
+      "props": {
+        "text": "crypto_chase:",
+        "variant": "caption"
+      }
+    },
+    "quote-text": {
+      "type": "Text",
+      "props": {
+        "text": "\"So sometimes management is unfortunately necessary\"",
+        "variant": "body"
+      }
+    },
+    "context-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context-heading",
+        "context-text"
+      ]
+    },
+    "context-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "context-text": {
+      "type": "Text",
+      "props": {
+        "text": "Posted immediately after trim execution.",
+        "variant": "body"
+      }
+    },
+    "classification-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification Query",
+        "message": "Is this a philosophical reflection on the trim decision, or is there a new position-management action/thought embedded? Unable to classify without your read.",
+        "type": "info"
+      }
+    }
+  }
+}
