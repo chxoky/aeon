@@ -1,0 +1,24 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "message_1"
+      ]
+    },
+    "message_1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Chase",
+        "handle": "DC: Chase",
+        "text": "help us superguppy.\n\nReal talk though , I'm only at 2% risk at the moment , I'm willing to add a little lower if need be , I'm willing to lose 3-4% of my portfolio if we're entering a recession. It's as simple as that . If the AI bubble has burst, then GG, it's over. I am going to continue to think that this is just a bit of uncertainty and that we are going to be headed back up sooner than later, within a month or less."
+      },
+      "children": []
+    }
+  }
+}
