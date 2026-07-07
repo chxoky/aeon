@@ -25,3 +25,10 @@ Perfect! I've completed the skill execution for this Discord trader monitor even
 Chase previously passed on SNDK on 06-24 ("too much upside in a short amount of time"), now signals willingness to add at mid-1400s via resting bid. This represents a refined entry strategy with specific price discipline rather than aggressive accumulation. Awaiting execution confirmation if that level is touched.
 
 **Status:** Task complete. Kyle already received the fast-path Telegram alert. All memory/audit work processed.
+🔍 *Calibration — [DC: Chase — Chase]*
+
+Event: Earlier message at 2026-07-07T01:44Z — "920's to add back some MU, but keeping total risk at 2% or so"
+
+crypto_chase: "Sorta want it today though, we'll see"
+
+Unable to classify — is this a confirmed re-add execution intent, or still evaluation? The language is tentative ("Sorta", "we'll see").
