@@ -50,6 +50,16 @@
 - **Conviction**: Was HIGH at entry (waiting months for sub-850 level per 06-23 message); both TP hit and trim management confirm disciplined execution on profitable trades; re-add signal indicates willingness to scale into strength/weakness pattern post-earnings
 - **Last update**: 2026-07-07T01:44:32Z (message_id=1523867283854987345, re-add consideration, fast-path alerted)
 
+### Pullback Entry — TBD (chart context required)
+- **Entry**: 2026-07-07T13:25:08Z (NEW)
+- **Message**: "This is the first real pullback. It's the pullback I was waiting for so I got to take a risk on it."
+- **Attachment**: chart image (provides market/ticker context)
+- **Status**: EXECUTION CONFIRMED — "I got to take a risk on it" (first person, active execution language)
+- **Conviction**: HIGH — waited specifically for this pullback, describes as "first real pullback" (technical setup confirmed)
+- **Thesis**: Pullback entry on technical setup; conviction indicates this was a planned, waited-for opportunity
+- **Note**: Chart attachment in Discord message 1524043593319448669 contains the market/ticker context and entry visualization. Fast-path alert already sent to Kyle via Telegram at time of message. Ticker/market: __TBD from chart context__
+- **Last update**: 2026-07-07T13:25:08Z (message_id=1524043593319448669, discord-trader-monitor, fast-path alerted)
+
 ## ES (S&P 500 E-mini Futures) — LONG
 - **Entry**: 2026-06-21T23:23Z (dream/gut feeling conviction entry)
 - **Size/Targets**: Not explicitly disclosed
