@@ -25,3 +25,6 @@ I've successfully executed the **discord-trader-monitor** skill for the new Disc
 - Daily log entry appended to `memory/logs/2026-07-07.md`
 
 The message is routine market chatter that doesn't require Kyle's attention per the skill's information routing rules.
+💬 *[DC: Chase — TradFi]*
+
+I want to see if the strikes wrap up before futures open back up
