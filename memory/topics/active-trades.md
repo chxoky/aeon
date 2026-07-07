@@ -32,7 +32,7 @@
 ### MU (Micron Technology) — LONG (dual-entry plan, both trades managed)
 - **Entry setup**: Conditional dual-entry plan articulated 2026-06-29T14:25:41Z
   - Trade 1: 1:1 risk/reward, risk 2% portfolio → CLOSED (TP hit 2026-07-02)
-  - Trade 2: 1% risk → ACTIVE (trimmed to 1% remaining risk 2026-07-06)
+  - Trade 2: 1% risk → ACTIVE (trimmed to 1% remaining risk 2026-07-06, re-add contemplated 2026-07-07)
   - Max total loss: 3% portfolio if both SL hit (original thesis)
 - **Entry date**: Unknown (first trade entry point not explicitly disclosed; plan was conditional on MU weakness)
 - **TP hit**: 2026-07-02T17:47:32Z — "MU first trade hit" (first trade's 1:1 R:R target achieved)
@@ -43,10 +43,12 @@
   - 2026-06-25T13:51Z: Post-earnings observation — "SFP'd high and everything dumped"
   - 2026-07-02T17:47Z: First trade TP hit
   - 2026-07-06T22:58Z: Trim action on second trade — "Trimmed another 17% of MU, now down to 1% risk from the original 2% risk. All trims done in small profits so far." (message_id=1523825621443153920, fast-path alerted)
-- **Status**: FIRST TRADE CLOSED (TP hit), SECOND TRADE ACTIVE with reduced risk exposure (1% remaining)
-- **Thesis**: Earnings-driven volatility + weak technical structure play; multi-tier entry strategy allowing 3% max loss tolerance; second trade being managed with ongoing trim-for-profit discipline
-- **Conviction**: Was HIGH at entry (waiting months for sub-850 level per 06-23 message); both TP hit and trim management confirm disciplined execution on profitable trades
-- **Last update**: 2026-07-06T22:58:59Z (message_id=1523825621443153920, second trade partial trim, fast-path alerted)
+  - 2026-07-07T01:44Z: Re-add consideration — "920's to add back some MU, but keeping total risk at 2% or so, leaves room to add 1% more if both go lower, gn." (message_id=1523867283854987345, fast-path alerted, discord-trader-monitor)
+- **Current position**: Contemplating re-add from 1% back to 2% risk, with conditional room for additional 1% if MU dips further (per 07-07T01:44 message)
+- **Status**: FIRST TRADE CLOSED (TP hit), SECOND TRADE ACTIVE with reduced risk exposure (1% remaining); CONVICTION RE-ADD IN PLAY (target 2-3% total risk)
+- **Thesis**: Earnings-driven volatility + weak technical structure play; multi-tier entry strategy allowing 3% max loss tolerance; second trade being managed with ongoing trim-for-profit discipline; re-add suggests technical setup remains favorable below current level
+- **Conviction**: Was HIGH at entry (waiting months for sub-850 level per 06-23 message); both TP hit and trim management confirm disciplined execution on profitable trades; re-add signal indicates willingness to scale into strength/weakness pattern post-earnings
+- **Last update**: 2026-07-07T01:44:32Z (message_id=1523867283854987345, re-add consideration, fast-path alerted)
 
 ## ES (S&P 500 E-mini Futures) — LONG
 - **Entry**: 2026-06-21T23:23Z (dream/gut feeling conviction entry)
