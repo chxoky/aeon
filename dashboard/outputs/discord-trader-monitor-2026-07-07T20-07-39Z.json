@@ -1,0 +1,40 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "source_badge",
+        "message_text"
+      ]
+    },
+    "source_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DC: HCH — Chat",
+        "variant": "secondary"
+      }
+    },
+    "message_text": {
+      "type": "Text",
+      "props": {
+        "text": "PvP situation last 3-4 days among alts",
+        "variant": "body"
+      }
+    }
+  }
+}
