@@ -29,3 +29,10 @@ Perfect! I've successfully executed the discord-trader-monitor skill. Here's the
 - No actionable trade signal for Kyle
 
 The skill processed this event cleanly—it's just Crypto_Chase asking for help with a chart display issue, not a trading alert.
+🔍 *Calibration — [DC: Chase — Crypto]*
+
+Earlier context: Chase frustrated with flush strategy degradation (17:01Z).
+
+Chase: "idk if on ct"
+
+Unable to classify — what's your read?
