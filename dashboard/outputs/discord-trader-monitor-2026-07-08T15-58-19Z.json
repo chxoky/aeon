@@ -1,0 +1,23 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor"
+      },
+      "children": [
+        "tweet-message"
+      ]
+    },
+    "tweet-message": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Chase",
+        "handle": "Crypto",
+        "text": "One can be profitable simply off that one setup. It's just a lot of monitoring and patience when price is above the level that you want to see deviated. And then you have to be quick to take action when you get the real impulse below that leaves a gap behind."
+      }
+    }
+  }
+}
