@@ -1,0 +1,93 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor — Calibration Alert"
+      },
+      "children": [
+        "header",
+        "sep1",
+        "risk_section",
+        "sep2",
+        "analysis"
+      ]
+    },
+    "header": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: Chase — Chase]",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "risk_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "risk_label",
+        "stats_row"
+      ]
+    },
+    "risk_label": {
+      "type": "Text",
+      "props": {
+        "text": "Portfolio risk adjustment: \"will go from 1.8% risk to 1.5~\"",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "stats_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat_current",
+        "stat_target"
+      ]
+    },
+    "stat_current": {
+      "type": "Stat",
+      "props": {
+        "label": "Current Risk",
+        "value": "1.8%"
+      },
+      "children": []
+    },
+    "stat_target": {
+      "type": "Stat",
+      "props": {
+        "label": "Target Risk",
+        "value": "1.5%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "analysis": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to Classify — Clarification Needed",
+        "message": "This appears to reference overall portfolio risk reallocation, but lacks specifics: which positions are being adjusted? Is this a de-risk action happening now, or a stated risk tolerance change? Unable to classify without clarification — what's your read?",
+        "type": "warning"
+      },
+      "children": []
+    }
+  }
+}
