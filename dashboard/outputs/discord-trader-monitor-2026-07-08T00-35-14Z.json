@@ -1,0 +1,41 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_quote",
+        "text_attribution"
+      ]
+    },
+    "tweet_quote": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Chase",
+        "handle": "TradFi",
+        "text": "💬 And on the extremely rare times that I'm unable to manage my way out, I end up taking a 3% portfolio hit, something I've discussed many times"
+      }
+    },
+    "text_attribution": {
+      "type": "Text",
+      "props": {
+        "text": "via Discord — Chase — TradFi",
+        "variant": "muted"
+      }
+    }
+  }
+}

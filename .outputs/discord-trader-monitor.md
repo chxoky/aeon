@@ -16,3 +16,8 @@ Successfully processed Discord trader-monitor event from 2026-07-08T00:27:00Z.
 **Telegram Alert Sent:** No (supporting-channel footnote rule)
 
 **Git Status:** ✓ Committed as `8329ef8`
+💬 *[DC: Chase — TradFi]*
+
+And on the extremely rare times that I'm unable to manage my way out, I end up taking a 3% portfolio hit, something I've discussed many times
+
+_via Discord — Chase — TradFi_
