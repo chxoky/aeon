@@ -138,6 +138,18 @@
 - **Short basket**: HYPE (2% shorts, current hedge), ZEC (scaling conviction), TAO, SPCX, VVV, XPL, TON, LAB, SYN (1% short, added 2026-06-30T13:36:08Z) — maintained as hedges; no closure announced yet for these
 - **Last update**: 2026-07-02T10:25:13Z (discord-trader-monitor, fast-path alerted, MAJORS LONGS FULLY CLOSED; message_id=1522186380598448128)
 
+### LAB — SHORT (ACTIVE — PARTIAL PROFIT-TAKING 2026-07-08)
+- **Status**: ACTIVE — part of high-conviction alt-short basket, managing positions with disciplined TP scaling
+- **Position history**:
+  - 06-16T13:23Z: Re-entry / conviction add — "Add 1x 1% lab short. Will add to it" (message_id prior to 06-16 window; re-added after prior position closure)
+  - 06-17T13:09:44Z: Partial TP — "Tp 1% from altcoins shorts except for beat" (batch TP action covering ZEC, TAO, SPCX, VVV, XPL, TON, LAB; message_id=1517000083437260883)
+  - **2026-07-08T15:17:50Z: Partial TP execution — "Take 1% off from lab short here at $1"** (is_reply to earlier message "Take 1% off from lab short here at $4"; message_id=1524434343978733658, fast-path alerted)
+- **Current size**: Unknown exact %, but actively managed (re-added +1% on 06-16, TP'd -1% on 06-17, TP'd -1% on 07-08; current size likely ≥2-3% if multiple adds occurred between 06-16 and 07-08)
+- **Entry levels**: Unknown (position predates detailed tracking; re-entry on 06-16 suggests prior closure and fresh accumulation)
+- **Context**: LAB is part of HCH's rotating alt-short basket (alongside ZEC high-conviction, TAO, SPCX, VVV, XPL, TON, SYN). Re-added 06-16 with intent to scale further ("Will add to it"); participated in 06-17 batch TP; now actively scaled again 07-08. Profit-taking pattern across multiple sessions (06-17, 07-08) suggests favorable short thesis execution with consistent position management. 07-08 TP timing aligns with broader multi-asset profit-taking wave (BTC/ETH/SOL/HYPE/ZEC scale-out at 09:06Z same day), indicating coordinated portfolio rebalancing.
+- **Conviction**: MEDIUM-HIGH (maintained position through multiple TP actions rather than full exit; continues to hold core LAB short within alt-basket allocation)
+- **Last update**: 2026-07-08T15:17:50Z (discord-trader-monitor, fast-path alerted, PARTIAL TP; message_id=1524434343978733658)
+
 ### ZEC — SHORT (ONGOING SCALING / CONVICTION ADD)
 - **Status**: ACTIVE — highest-conviction short, actively scaled and added throughout the window
 - **Position history**:
