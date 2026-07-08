@@ -1,7 +1,6 @@
-Perfect! I've completed the Discord Trader Monitor skill execution. Here's the summary:
-Perfect! I've successfully executed the discord-trader-monitor skill for the Discord event. Here's what was processed:
+💬 *[DC: Chase — Chase]*
 
-## Summary
+Hopefully we can one day return to flushes that pay out in the same day and don't require tons of tedious management, but those times are not right now we've learned.
 
 **Event:** Crypto_Chase posting in primary channel (Chase — Chase)
 - **Message:** "No more trims from here , SNDK final TP 1855~, MU final TP 1050~"
@@ -48,3 +47,4 @@ The position management narrative is now well-documented: initial setup (07-07) 
 💬 *[DC: Chase — Chase]*
 
 And yes the original TPs were of course much higher but it's very critical to remember context . The initial context of these trades was for a quick flush and a move back to all-time highs. That's obviously not what the trade became. Prices went lower than expected. They left bearish gaps behind. We managed to profit by getting good adds near the lows but the long story short is it's important to adjust the expectations of a trade if the initial thesis had been adjusted as well.
+https://cdn.discordapp.com/attachments/1336082716063694962/1524425867269378100/image.png

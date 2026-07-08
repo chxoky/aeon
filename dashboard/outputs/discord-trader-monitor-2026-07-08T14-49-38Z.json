@@ -1,0 +1,43 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_message",
+        "link_image"
+      ]
+    },
+    "tweet_message": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Chase",
+        "handle": "Chase",
+        "text": "Hopefully we can one day return to flushes that pay out in the same day and don't require tons of tedious management, but those times are not right now we've learned."
+      },
+      "children": []
+    },
+    "link_image": {
+      "type": "Link",
+      "props": {
+        "label": "View image",
+        "href": "https://cdn.discordapp.com/attachments/1336082716063694962/1524425867269378100/image.png"
+      },
+      "children": []
+    }
+  }
+}
