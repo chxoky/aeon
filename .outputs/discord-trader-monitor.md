@@ -45,3 +45,6 @@ Perfect! I've successfully executed the discord-trader-monitor skill for the Dis
 - ✅ Appended comprehensive log entry to `memory/logs/2026-07-08.md`
 
 The position management narrative is now well-documented: initial setup (07-07) → first trim (07-07) → second trim (07-08T14:30Z) → exit target specification (07-08T14:36Z, current).
+💬 *[DC: Chase — Chase]*
+
+And yes the original TPs were of course much higher but it's very critical to remember context . The initial context of these trades was for a quick flush and a move back to all-time highs. That's obviously not what the trade became. Prices went lower than expected. They left bearish gaps behind. We managed to profit by getting good adds near the lows but the long story short is it's important to adjust the expectations of a trade if the initial thesis had been adjusted as well.

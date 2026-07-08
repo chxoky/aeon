@@ -1,0 +1,25 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor",
+        "description": "Chase — Trading strategy discussion"
+      },
+      "children": [
+        "tweet_1"
+      ]
+    },
+    "tweet_1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Chase",
+        "handle": "Chase",
+        "text": "And yes the original TPs were of course much higher but it's very critical to remember context . The initial context of these trades was for a quick flush and a move back to all-time highs. That's obviously not what the trade became. Prices went lower than expected. They left bearish gaps behind. We managed to profit by getting good adds near the lows but the long story short is it's important to adjust the expectations of a trade if the initial thesis had been adjusted as well."
+      },
+      "children": []
+    }
+  }
+}
