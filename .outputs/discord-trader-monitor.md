@@ -1,14 +1,11 @@
-## Summary
+🔍 *Calibration — [DC: Chase — TradFi]*
 
-Executed `discord-trader-monitor` skill for event from **2026-07-08T00:54:09Z**.
+Prior: "There's obviously been a lot of adjustments since then but yeah" (2026-07-08T00:35:05Z)
+Recent: "Completely reversed into a hole" (2026-07-08T00:57:25Z)
 
-**Event details:**
-- Message ID: 1524216993266401290
-- Trader: crypto_chase (Crypto_Chase)
-- Channel: 1343971265962049597 (Chase — TradFi, supporting)
-- Content: "lmao this market" (reply to member joke about implementing markers)
+Context: Just finished explaining invalidation levels + risk tolerance on what appears to be down-40%-in-4-days position. Now cryptic "reversed into a hole" message. 
 
-**Classification:** Non-financial (banter) → **Skipped, no alert sent**
+Is this: (1) SNDK deteriorating further, (2) new position entry gone wrong, (3) conviction reversal on an existing trade, or (4) something else entirely?
 
 **Rationale:** Supporting-channel reaction to member's joke. No trade execution, no conviction shift, no market analysis. Per Step 5-A (non-financial content) and Step 7 (supporting channel chatter policy), this should not trigger an alert.
 
@@ -18,3 +15,4 @@ Executed `discord-trader-monitor` skill for event from **2026-07-08T00:54:09Z**.
 💬 *[DC: Chase — TradFi]*
 
 korean fed put
+Unable to classify — what's your read?
