@@ -1,0 +1,40 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_header",
+        "text_message"
+      ]
+    },
+    "text_header": {
+      "type": "Text",
+      "props": {
+        "text": "💬 [DC: Chase — TradFi]",
+        "variant": "caption"
+      }
+    },
+    "text_message": {
+      "type": "Text",
+      "props": {
+        "text": "korean fed put",
+        "variant": "body"
+      }
+    }
+  }
+}
