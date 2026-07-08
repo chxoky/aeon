@@ -1,4 +1,4 @@
-## Summary
+💬 *[DC: Chase — TradFi]*
 
 **Discord Trader Monitor Execution Complete**
 
@@ -26,3 +26,4 @@ I processed a real-time Discord event from `crypto_chase` posted at 2026-07-08T1
 ↩️ _Member: "jfc memory stocks all freaking heavy, every pump retraces"_
 
 Yeah the whole market's heavy. That's why I've been TPing a lot
+As long as you don't overleverge and you just have a plan, all crashes typically pay out
