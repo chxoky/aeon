@@ -1,0 +1,55 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_metadata",
+        "separator",
+        "text_message",
+        "text_attachment"
+      ]
+    },
+    "text_metadata": {
+      "type": "Text",
+      "props": {
+        "text": "💬 [DC: Chase — Chase]",
+        "variant": "caption"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_message": {
+      "type": "Text",
+      "props": {
+        "text": "Hard to ignore these levels",
+        "variant": "body"
+      }
+    },
+    "text_attachment": {
+      "type": "Text",
+      "props": {
+        "text": "Chart image attached",
+        "variant": "muted"
+      }
+    }
+  }
+}
