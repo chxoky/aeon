@@ -50,20 +50,23 @@
 - **Conviction**: Was HIGH at entry (waiting months for sub-850 level per 06-23 message); both TP hit and trim management confirm disciplined execution on profitable trades; re-add signal indicates willingness to scale into strength/weakness pattern post-earnings
 - **Last update**: 2026-07-07T01:44:32Z (message_id=1523867283854987345, re-add consideration, fast-path alerted)
 
-### SNDK (Structural) — LONG (pullback entry, partial TP hit)
+### SNDK (Structural) — LONG (multi-phase entry/exit, trailing remainder)
 - **Entry**: 2026-07-07T13:25:08Z (pullback tactical entry on HTF flush setup)
 - **Message**: "This is the first real pullback. It's the pullback I was waiting for so I got to take a risk on it."
 - **Entry signal**: Chart attachment (Discord message 1524043593319448669) — technical confirmation of flush/liquidity sweep setup
 - **HTF setup articulated**: 2026-07-07T14:30:28Z — "last chance here for SNDK, flush all the liquidity, guppy support, etc. expecting something like i draw below" (specific confluence: liquidity zones + guppy MA support); risk-defined at 3-4% portfolio loss; mid-1400s appears to be part of multi-level entry plan
-- **Status**: ACTIVE with partial TP hit 2026-07-07T16:13:45Z
+- **Status**: ACTIVE with trailing remainder position
 - **Position history**:
   - 2026-07-07T13:25:08Z: Entry executed on pullback (high conviction, waited-for setup)
   - 2026-07-07T14:30:28Z: Full HTF flush plan articulated with risk parameters and expected structure
-  - 2026-07-07T16:13:45Z: PARTIAL TP CONFIRMED — "eh, full trim hit lmao" (trim/partial take-profit executed as planned)
-- **Conviction**: HIGH — pre-planned setup, waited specifically for pullback, structured multi-level entry strategy, disciplined risk management (3-4% max loss)
-- **Thesis**: HTF flush/liquidity sweep play; technical confluence (guppy support + liquidity zones) validated by entry; TP hit on partial position confirms plan execution
-- **Note**: Follow-up image posted 2026-07-07T14:30:31Z (message_id=1524060048760766555) — market structure documentation. TP confirmation at 16:13:45Z (message_id=1524086030821757130) shows partial trim hit; remainder position status TBD.
-- **Last update**: 2026-07-07T16:13:45Z (message_id=1524086030821757130, partial TP hit, discord-trader-monitor, no fast-path alert on TP confirmation)
+  - 2026-07-07T14:43:09Z: Real-time frustration — "SNDK that's fucking shredding me" (position moving underwater)
+  - 2026-07-07T15:12:49Z: **First trim — 30% closed at ~1589 for minor loss** (rebalancing action, overrisk reduction); remainder at 70%
+  - 2026-07-07T16:13:45Z: PARTIAL TP CONFIRMED — "eh, full trim hit lmao" (secondary trim/TP executed as planned)
+  - **2026-07-09T12:41:13Z: SECOND TP EXECUTION — "TP SNDK HERE AT 1834 (LEFT A SMALL RUNNER)"** (partial exit at 1834, small remainder held for continued upside participation)
+- **Conviction**: HIGH — pre-planned setup, waited specifically for pullback, structured multi-phase entry/exit strategy, disciplined risk management (3-4% max loss). Recovery from underwater 07-07 position to profitable 07-09 TP indicates market recovered and position management executed as planned.
+- **Thesis**: HTF flush/liquidity sweep play; technical confluence (guppy support + liquidity zones) validated by entry; multi-phase TP strategy confirms plan execution over 2-day hold period. Entry estimated 1500-1600 range (based on "minor loss" at 1589 on 07-07); TP at 1834 represents 244-334 point recovery rally capture.
+- **Note**: Position evolution shows recovery from "shredding" underwater state (07-07 14:43Z) → partial loss exit at 1589 (07-07 15:12Z) → favorable close 07-09 at 1834 with remainder held. Market appeared to reverse sharply upside 07-07 evening through 07-09 morning, validating original HTF flush setup thesis belatedly.
+- **Last update**: 2026-07-09T12:41:13Z (message_id=1524757320645607495, partial TP execution at 1834 with small runner remainder, discord-trader-monitor, fast-path alerted)
 
 ## ES (S&P 500 E-mini Futures) — LONG
 - **Entry**: 2026-06-21T23:23Z (dream/gut feeling conviction entry)
