@@ -1,4 +1,4 @@
-## Summary
+🔍 *Calibration — [DC: Chase — TradFi]*
 
 I've successfully executed the **Discord Trader Monitor** skill for the received event. Here's what was processed:
 
@@ -23,3 +23,8 @@ I've successfully executed the **Discord Trader Monitor** skill for the received
 ✓ Daily log (2026-07-09.md) updated with skill execution summary  
 
 **Status**: ✓ Complete — Skill executed successfully. No fast-path pre-alert occurred, so full processing handled classification, memory updates, and logging.
+**Context:** Chase monitoring ES 5h earlier ("ES tightening / trapped"), now cryptic observation on 5-min timeframe.
+
+**Message:** "boting bleed on 5 min candles"
+
+Unable to classify — what's your read? (Technical setup talk, liquidation cascade observation, or active trade signal?)
