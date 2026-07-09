@@ -1,30 +1,25 @@
-🔍 *Calibration — [DC: Chase — TradFi]*
+## Summary
 
-I've successfully executed the **Discord Trader Monitor** skill for the received event. Here's what was processed:
+✅ **Discord Trader Monitor — Event processed**
 
 **Event Details:**
 - **Trader**: Crypto_Chase
-- **Channel**: Chase — TradFi (supporting channel)
-- **Time**: 2026-07-09T19:28:52Z
-- **Message**: "played a bit but never impulsed, didn't enter. in profit still atm" (reply to earlier "watch for deviation setup, brb gym")
+- **Channel**: 1336082716063694962 (Chase — Chase, primary)
+- **Message ID**: 1524867634997362768
+- **Content**: Role mention + link to X post https://x.com/Crypto_Chase/status/2075308827520516261
+- **Classification**: Non-financial / cross-posting
 
-**Classification:** INFORMATIONAL / TRADE SETUP DISCIPLINE
-- Chase actively tested a technical deviation setup but passed on entry because the required impulse confirmation never materialized
-- Demonstrates live execution of his discipline philosophy ("high-confidence only, no chasing mediocre setups")
-- Remains profitable on current positions (SNDK runner from morning TP at 1834)
+**Decision**: SKIP (per HR-1 rule)
+- This is administrative link-sharing, not a trade signal or market update
+- No Telegram alert warranted
+- No new conviction or trade action present
 
 **Actions Completed:**
-✓ Message decoded and verified as new (not previously seen)  
-✓ Channel/trader resolved correctly  
-✓ Classified with context from recent traders.md (morning philosophy statements from 07-09T15:14Z)  
-✓ Informational alert sent via `./notify`  
-✓ Message added to dedup tracking (discord-trader-seen.txt)  
-✓ Traders.md updated with full detailed event record  
-✓ Daily log (2026-07-09.md) updated with skill execution summary  
+- ✓ Decoded base64 event JSON
+- ✓ Verified message ID not in seen list (new)
+- ✓ Resolved channel mapping and trader identity
+- ✓ Applied classification rules (Step 5A non-financial)
+- ✓ Updated memory: discord-trader-seen.txt with message ID
+- ✓ Logged event to memory/logs/2026-07-09.md
 
-**Status**: ✓ Complete — Skill executed successfully. No fast-path pre-alert occurred, so full processing handled classification, memory updates, and logging.
-**Context:** Chase monitoring ES 5h earlier ("ES tightening / trapped"), now cryptic observation on 5-min timeframe.
-
-**Message:** "boting bleed on 5 min candles"
-
-Unable to classify — what's your read? (Technical setup talk, liquidation cascade observation, or active trade signal?)
+Status: **COMPLETE** — Event logged; no alert sent.
