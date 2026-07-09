@@ -1,0 +1,56 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "TradFi Trading Strategy Discussion"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_channel",
+        "tweet_member",
+        "separator_1",
+        "tweet_chase"
+      ]
+    },
+    "badge_channel": {
+      "type": "Badge",
+      "props": {
+        "text": "Discord — Chase",
+        "variant": "secondary"
+      }
+    },
+    "tweet_member": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Member",
+        "text": "If we did go back down from here and you had a new plan for bids again, would you close this position or just let it be and add to it?"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet_chase": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Chase",
+        "text": "Would just add to it because I don't feel like our current entries are too far from a bottom anyway. Then that begs the question: if I believe that we're near a bottom, why would I take profit at all? It's necessary because what if I'm wrong. If there's a situation where I'm wrong and it drops even further, then all of a sudden I'm losing what, 5% or 6% of my full portfolio or something? That's where the trims and the ads and whatnot come into play. If prices were to go back down, I would just leave the runner position open because the entries are already good and the remaining amount is very small. So if we had 0.35% of MU at 905 and SNDK at 1620 or w/e the avg entries were and prices go down to 800 and 1300, the 0.35% isnt going to make a big difference when i add back 2.15% size bringing total position to 2.5% size for example."
+      }
+    }
+  }
+}
