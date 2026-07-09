@@ -1,25 +1,21 @@
 ## Summary
 
-✅ **Discord Trader Monitor — Event processed**
+✓ **Skill execution complete**: discord-trader-monitor processed one real-time Discord event.
 
 **Event Details:**
 - **Trader**: Crypto_Chase
-- **Channel**: 1336082716063694962 (Chase — Chase, primary)
-- **Message ID**: 1524867634997362768
-- **Content**: Role mention + link to X post https://x.com/Crypto_Chase/status/2075308827520516261
-- **Classification**: Non-financial / cross-posting
+- **Channel**: 1343971265962049597 (Chase — TradFi, supporting)
+- **Message**: "Yeah I've had the overnight added to my charts for like a week now I feel like"
+- **Classification**: Non-financial banter (casual chart management observation)
+- **Alert Decision**: No alert — supporting channel + non-financial commentary
 
-**Decision**: SKIP (per HR-1 rule)
-- This is administrative link-sharing, not a trade signal or market update
-- No Telegram alert warranted
-- No new conviction or trade action present
+**Processing:**
+- Decoded base64 event ✓
+- Dedup check (new message ID 1524888436383682631) ✓
+- Resolved channel and trader ✓
+- Applied Step 5A classification (non-financial) ✓
+- Applied Step 7 supporting-channel rule (default do-not-alert) ✓
+- Updated discord-trader-seen.txt ✓
+- Logged to memory/logs/2026-07-09.md ✓
 
-**Actions Completed:**
-- ✓ Decoded base64 event JSON
-- ✓ Verified message ID not in seen list (new)
-- ✓ Resolved channel mapping and trader identity
-- ✓ Applied classification rules (Step 5A non-financial)
-- ✓ Updated memory: discord-trader-seen.txt with message ID
-- ✓ Logged event to memory/logs/2026-07-09.md
-
-Status: **COMPLETE** — Event logged; no alert sent.
+No Telegram notification sent. Skill completed per protocol.
