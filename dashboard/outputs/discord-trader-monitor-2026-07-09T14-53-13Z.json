@@ -1,0 +1,214 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "header_section",
+        "sep1",
+        "observation_section",
+        "sep2",
+        "alert_section",
+        "sep3",
+        "classification_section",
+        "sep4",
+        "status_section"
+      ]
+    },
+    "header_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "status_badge",
+        "timestamp_text"
+      ]
+    },
+    "status_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "✅ Success",
+        "variant": "default"
+      }
+    },
+    "timestamp_text": {
+      "type": "Text",
+      "props": {
+        "text": "2026-07-09T14:49Z",
+        "variant": "caption"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "observation_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "obs_heading",
+        "obs_title",
+        "obs_message",
+        "obs_chart"
+      ]
+    },
+    "obs_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Observation",
+        "level": "h3"
+      }
+    },
+    "obs_title": {
+      "type": "Text",
+      "props": {
+        "text": "Crypto_Chase ES technical observation processed",
+        "variant": "lead"
+      }
+    },
+    "obs_message": {
+      "type": "Text",
+      "props": {
+        "text": "Message: 'ES tightening / trapped'",
+        "variant": "body"
+      }
+    },
+    "obs_chart": {
+      "type": "Text",
+      "props": {
+        "text": "Chart in TradFi supporting channel",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "alert_heading",
+        "alert_text"
+      ]
+    },
+    "alert_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Alert Method",
+        "level": "h3"
+      }
+    },
+    "alert_text": {
+      "type": "Text",
+      "props": {
+        "text": "Fast-path alert via Cloudflare Worker",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "class_heading",
+        "class_badge",
+        "class_details"
+      ]
+    },
+    "class_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Classification",
+        "level": "h3"
+      }
+    },
+    "class_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "INFORMATIONAL",
+        "variant": "secondary"
+      }
+    },
+    "class_details": {
+      "type": "Text",
+      "props": {
+        "text": "Market structure update on active 06-21 ES long",
+        "variant": "caption"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "status_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "status_heading",
+        "status_item1",
+        "status_item2"
+      ]
+    },
+    "status_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Processing Status",
+        "level": "h3"
+      }
+    },
+    "status_item1": {
+      "type": "Text",
+      "props": {
+        "text": "✓ Memory updated",
+        "variant": "body"
+      }
+    },
+    "status_item2": {
+      "type": "Text",
+      "props": {
+        "text": "✓ Event logged",
+        "variant": "body"
+      }
+    }
+  }
+}

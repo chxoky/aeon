@@ -71,9 +71,9 @@
 ## ES (S&P 500 E-mini Futures) — LONG
 - **Entry**: 2026-06-21T23:23Z (dream/gut feeling conviction entry)
 - **Size/Targets**: Not explicitly disclosed
-- **Status**: ACTIVE (last seen 06-21)
-- **Context**: Entered on dream conviction after being patient/flat through FOMC window. Subsequently expressed 50/50 uncertainty as of 06-22T01:16Z, frustrated with "giga chop" market structure.
-- **Last update**: 2026-06-21T23:23Z (need to track conviction state changes)
+- **Status**: ACTIVE
+- **Context**: Entered on dream conviction after being patient/flat through FOMC window. Subsequently expressed 50/50 uncertainty as of 06-22T01:16Z, frustrated with "giga chop" market structure. 2026-07-09T14:49Z: Posted technical observation "ES tightening / trapped" with chart in TradFi supporting channel — first update on ES in 18 days; suggests he's actively monitoring structure (likely related to position management or intraday trading approach from 06-11 strategy note).
+- **Last update**: 2026-07-09T14:49:32Z (discord-trader-monitor real-time, technical observation, message_id=1524789609450569858, fast-path alerted)
 
 ## KillaXBT
 
