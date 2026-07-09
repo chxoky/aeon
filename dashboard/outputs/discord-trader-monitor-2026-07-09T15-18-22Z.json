@@ -1,0 +1,23 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor"
+      },
+      "children": [
+        "tweet-card"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Chase",
+        "handle": "Chase",
+        "text": "Not too different from how I'm willing to add, add, add when I think a market is overextending foolishly to the downside, I'm also not afraid to sell when something is doing an insane rip in a single day. These assets can very likely go back to all-time highs. I'm not doubting that at all, but at the end of the day I have to take profits when the chart tells me to. Not going to pretend I'm some type of AI wizard who understands all these things about whether memory is truly undervalued or not for years to come and if it's factored into stock prices or not etc. If there was a world where our initial entry was literally 1,500, then I'd probably be holding for longer, I'd TP 60% here and I'd let the rest run but that wasn't really the way the trade went. Over your career you'll understand that medium wins are often better than always aiming for the home run and watching things reverse on you constantly. Take profit and keep the momentum in your favor. If you can still crank out medium wins when the conditions are tough, then easy conditions will net you big wins quickly. And above all always do your best to not take any big losses. That's really the key."
+      }
+    }
+  }
+}
