@@ -1,0 +1,53 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Trading discussion from Chase — TradFi channel"
+      },
+      "children": [
+        "badge-channel",
+        "separator-1",
+        "message-question",
+        "separator-2",
+        "message-response"
+      ]
+    },
+    "badge-channel": {
+      "type": "Badge",
+      "props": {
+        "text": "DC: Chase — TradFi",
+        "variant": "secondary"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message-question": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Member",
+        "text": "what would you look for to determine whether this bounce on memory is a lower high or has the potential for new highs"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message-response": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Trader",
+        "text": "If I had a clear answer to that, I would either TP the whole position or hold it into all-time highs"
+      }
+    }
+  }
+}
