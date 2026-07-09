@@ -22,3 +22,10 @@ Skill execution complete! The discord-trader-monitor skill has been successfully
 - ✓ Logged event to memory/logs/2026-07-09.md
 
 **Result**: Message properly categorized and logged. No Kyle notification needed.
+🔍 *Calibration — [DC: HCH — Comments]*
+
+**Context**: HeartCanHodl managing LAB short position earlier today (TP 1% at $0.80 at 11:20Z). Recently celebrated covering subscription costs via trading profit (11:31Z). No prior context in this message (is_reply=false, no referenced_message).
+
+**Message**: 'Or so below'
+
+Unable to classify — is this referring to: (a) price level below current, (b) position sizing/scaling reference, (c) follow-up on LAB setup, or (d) something else? What's your read?
