@@ -1,26 +1,21 @@
 ## Summary
 
-**Discord Trader Monitor — Event Processed**
+**Discord Trader Monitor executed successfully.**
 
-Executed skill `discord-trader-monitor` for real-time Discord event.
+**Event processed:**
+- **Trader:** Crypto_Chase
+- **Channel:** 1336082716063694962 (Chase — Chase, primary)
+- **Message ID:** 15251909908291909300
+- **Content:** Promotional engagement request on X post ("any likes/comments on the fight appreciated!")
 
-**Event Details:**
-- Trader: Crypto_Chase
-- Channel: 1343971265962049597 (Chase — TradFi, supporting)
-- Message ID: 1525161604985913525
-- Content: "Well that's one of the scammier moves I've seen in a while for sure"
-- Timestamp: 2026-07-10T15:27:42Z
+**Classification:** SKIP (non-financial — admin/promotional)
+- Per HR-1 and Step 5A: social banter/links with no trade detail → silently skip
+- No trade signal, no market insight, no position change
+- **No Telegram alert sent**
 
-**Classification:** SKIP (non-financial market sentiment/banter)
+**Actions completed:**
+1. ✅ Event decoded and validated
+2. ✅ Message added to `discord-trader-seen.txt` for dedup tracking
+3. ✅ Logged to `memory/logs/2026-07-10.md` at 17:24:28 UTC
 
-**Rationale:**
-- No personal trade execution language (not "I'm entering", "closing", etc.)
-- Pure market sentiment observation in supporting channel (member Q&A)
-- Per Step 5A (HR-1): non-financial banter with no actionable trade detail → skip
-- Per Step 7 supporting-channel rule: no standalone alert for sentiment-only content
-- Similar classification to earlier 14:33:27 UTC "wtf" message
-
-**Actions Taken:**
-- ✓ Message ID tracked in `discord-trader-seen.txt` for dedup (now 143 entries)
-- ✓ Event logged to `memory/logs/2026-07-10.md`
-- ✓ No Telegram alert sent (non-financial classification)
+Skill execution complete.
