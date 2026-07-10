@@ -1,34 +1,26 @@
-Perfect! I've successfully processed the Discord trader-monitor event. Here's a summary:
+## Summary
 
-## Event Processed
-**HeartCanHodl — Short Re-entry (2026-07-10T08:21:41Z)**
+I've executed the `discord-trader-monitor` skill with the provided Discord event. Here's what happened:
 
-### Key Details:
-- **Message**: "Enter half of that on the short side here" (reply to 07-08 profit-taking)
-- **Channel**: HCH — Trades (1279738718680256553) — ★most important
-- **Tickers**: BTC, ETH, SOL, HYPE, ZEC
-- **Action**: Scale-in short re-entry (half-sizing of amounts closed on 07-08):
-  - BTC: re-enter ~3.75% 
-  - ETH: re-enter ~1.75%
-  - SOL: re-enter ~1.75%
-  - HYPE: re-enter ~0.5%
-  - ZEC: re-enter ~0.5%
+**Event Details:**
+- **Message ID:** 1525111346738495618
+- **Trader:** KillaXBT (killaxbt)
+- **Channel:** 1411492188315193416 (K — primary)
+- **Time:** 2026-07-10 12:08:00 UTC
+- **Content:** Engagement request for X post ("Likes/RTs are much appreciated guys ❤️")
 
-### Classification: **TRADE SIGNAL** (short re-entry)
-This is a disciplined scale-back-in pattern following profit-taking — HCH confident in the original bearish thesis and redeploying capital 2 days later at new levels.
+**Classification:** SKIP (non-financial)
+- Hardcoded Rule HR-1 applies: admin/links/scheduling content with no trade signal
+- No personal trading action, just a self-promotion request
+- No actionable trade content
 
-### Memory Updates:
-- ✅ `discord-trader-seen.txt` — message ID added (dedup tracking)
-- ✅ `active-trades.md` — new re-entry section with sizing & conviction assessment
-- ✅ `traders.md` — full event entry with context & analysis
-- ✅ `memory/logs/2026-07-10.md` — activity log updated
+**Actions Completed:**
+1. ✅ Decoded base64 event and validated structure
+2. ✅ Verified message is new (not previously seen)
+3. ✅ Resolved channel metadata (KillaXBT primary channel)
+4. ✅ Classified per decision tree (non-financial → skip)
+5. ✅ Updated dedup tracking in `memory/discord-trader-seen.txt`
+6. ✅ Logged event to `memory/logs/2026-07-10.md`
+7. ✅ No Telegram alert sent (non-financial messages silent skip)
 
-### Telegram Status:
-No additional Telegram alert needed — Cloudflare Worker already sent fast-path alert (~2-5s latency at 2026-07-10T08:21:41Z UTC).
-🔍 *Calibration — [DC: HCH — Trades]*
-
-Context: Same message appeared 4 days ago (2026-07-06T14:21Z) in this channel — was marked ambiguous then too.
-
-HCH: "fc btc 1hr"
-
-Unable to classify. What's your read on "fc"?
+**Result:** Event processed successfully with no notification needed.
