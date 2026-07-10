@@ -1,0 +1,107 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor",
+        "description": "Calibration — TradFi Member Q&A"
+      },
+      "children": [
+        "heading-calibration",
+        "separator-1",
+        "stack-content"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — DC: Chase — TradFi",
+        "level": "h2"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-message",
+        "badge-channel",
+        "stack-metadata",
+        "separator-2",
+        "alert-classification",
+        "link-chart"
+      ]
+    },
+    "text-message": {
+      "type": "Text",
+      "props": {
+        "text": "\"watching if it comes\"",
+        "variant": "lead"
+      }
+    },
+    "badge-channel": {
+      "type": "Badge",
+      "props": {
+        "text": "supporting — TradFi / member Q&A",
+        "variant": "secondary"
+      }
+    },
+    "stack-metadata": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-timestamp",
+        "text-messageid"
+      ]
+    },
+    "text-timestamp": {
+      "type": "Text",
+      "props": {
+        "text": "Time: 2026-07-10T14:30:15Z",
+        "variant": "caption"
+      }
+    },
+    "text-messageid": {
+      "type": "Text",
+      "props": {
+        "text": "Message ID: 1525147145844297769",
+        "variant": "caption"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert-classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's the market context here? What chart structure is he watching for, and is this a conviction shift or passive monitoring?",
+        "type": "warning"
+      }
+    },
+    "link-chart": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Chart Attachment",
+        "href": "https://cdn.discordapp.com/attachments/1343971265962049597/1525147145261416580/image.png",
+        "source": "Discord"
+      }
+    }
+  }
+}
