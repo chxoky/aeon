@@ -133,6 +133,21 @@
 - **Trade result**: Profit-taking on 5-day hold (entered 07-03 early morning, exited 07-08 early morning). Estimated holding period: 5 full calendar days ≈ 105 hours. Entry context (BTC near 60k+, SOL/ETH corresponding levels, HYPE at tactical levels) vs. 07-08 exit context (BTC at 62.8k zone or below, consolidating without "concrete flip" per 07-06 observations) suggests shorts likely profitable on scale-out (entry was bearish thesis capitalization; 5-day hold without major reversal = profitable trade management). Full BTC exit + partial ETH/SOL/HYPE exits = tiered profit-taking with remainder positions maintaining downside participation. HCH's discipline evident: take profits when risk exhausted, retain core for continuation.
 - **Last update**: 2026-07-08T09:06:01Z (discord-trader-monitor, fast-path alerted, PROFIT-TAKING / POSITION SCALE-OUT; message_id=1524340774735450112)
 
+### BTC/ETH/SOL/HYPE/ZEC SHORTS — RE-ENTRY (2026-07-10)
+- **Status**: ACTIVE — NEW SCALE-IN ENTRY (follow-up after 07-08 profit-taking)
+- **Entry**: 2026-07-10T08:21:41Z — "Enter half of that on the short side here" (is_reply to 07-08 profit-taking message)
+- **Re-entry context**: HCH took profits on the 07-03→07-08 short basket (BTC 7.5% taken off, ETH 3.5% off, SOL 3.5% off, HYPE 1% off, ZEC 1% off). Two days later, re-entering HALF of what was closed:
+  - **BTC**: Re-enter ~3.75% (half of 7.5% closed)
+  - **ETH**: Re-enter ~1.75% (half of 3.5% closed)
+  - **SOL**: Re-enter ~1.75% (half of 3.5% closed)
+  - **HYPE**: Re-enter ~0.5% (half of 1% closed)
+  - **ZEC**: Re-enter ~0.5% (half of 1% closed)
+- **Position interpretation**: Classic "scale-back-in after TP" pattern — HCH satisfied with 07-08 profit-taking discipline, now re-accumulating at potentially better price levels. Suggests either: (a) market weakness resumed after brief consolidation, validating original bearish thesis for deeper penetration, or (b) HCH confident in structural downside and using TP-derived capital to average into lower. Core remainder positions (ETH 2.25%, SOL 0.25%, HYPE 2%, ZEC [reduced]) + new re-entry creates layered short exposure across multiple timeframes/conviction levels.
+- **Conviction**: HIGH (proactive re-entry within 2 days of taking profits indicates strong conviction on continuation; disciplined scaling avoids FOMO overexposure)
+- **Message_id**: 1525054393576063046
+- **Channel**: 1279738718680256553 (HCH — Trades, ★most important)
+- **Last update**: 2026-07-10T08:21:41Z (discord-trader-monitor, fast-path alerted by Cloudflare Worker, RE-ENTRY SCALE-IN; no Telegram alert needed — fast-path already sent)
+
 ### BTC/ETH/SOL Spot — LONGS (CLOSED)
 - **Status**: CLOSED at market 2026-07-02T10:25:13Z — "Close majors fully here"
 - **Final position sizes** (at close): BTC 0%, ETH 0%, SOL 0% (fully exited)
