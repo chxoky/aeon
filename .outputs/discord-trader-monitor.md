@@ -1,13 +1,8 @@
-## Summary
+🔍 *Calibration — [DC: Chase — TradFi]*
 
-✅ **Discord Trader Monitor — Execution Complete**
+Event: Supporting channel message, no reply context provided
 
-**Event processed:**
-- **Message:** "wtf" from crypto_chase
-- **Channel:** 1343971265962049597 (Chase — TradFi, supporting)
-- **Message ID:** 1525147951343603852
-- **Classification:** Non-financial banter → **skip silently**
-- **Alerted:** No
+crypto_chase: "starting at 5pm today"
 
 **Memory updated:**
 - Added message ID to `discord-trader-seen.txt` (139 entries total)
@@ -19,3 +14,4 @@ Context: Supporting-channel message with chart attachment
 crypto_chase: "real? idk"
 
 Unable to classify — what's your read? Is this expressing doubt about a technical setup, market structure, or chart pattern? The attachment suggests technical context but message text is cryptic.
+Unable to classify — what's your read?
