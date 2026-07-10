@@ -25,3 +25,10 @@ This is a disciplined scale-back-in pattern following profit-taking — HCH conf
 
 ### Telegram Status:
 No additional Telegram alert needed — Cloudflare Worker already sent fast-path alert (~2-5s latency at 2026-07-10T08:21:41Z UTC).
+🔍 *Calibration — [DC: HCH — Trades]*
+
+Context: Same message appeared 4 days ago (2026-07-06T14:21Z) in this channel — was marked ambiguous then too.
+
+HCH: "fc btc 1hr"
+
+Unable to classify. What's your read on "fc"?

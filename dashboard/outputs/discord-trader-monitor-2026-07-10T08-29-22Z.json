@@ -1,0 +1,64 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor — Calibration"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_cal",
+        "text_context",
+        "sep_1",
+        "text_message",
+        "alert_classify"
+      ]
+    },
+    "heading_cal": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration — [DC: HCH — Trades]",
+        "level": "h2"
+      }
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "Same message appeared 4 days ago (2026-07-06T14:21Z) in this channel — was marked ambiguous then too.",
+        "variant": "body"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_message": {
+      "type": "Text",
+      "props": {
+        "text": "HCH: \"fc btc 1hr\"",
+        "variant": "lead"
+      }
+    },
+    "alert_classify": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read on \"fc\"?",
+        "type": "warning"
+      }
+    }
+  }
+}
