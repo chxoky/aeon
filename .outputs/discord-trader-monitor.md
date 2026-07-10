@@ -14,3 +14,8 @@
 - Logged event to `memory/logs/2026-07-10.md` at 14:33:27 UTC
 
 The message is clearly a reaction/banter ("wtf") with no trade signal, no attachments, and no context. Per Step 5A hardcoded rules, non-financial content is skipped. No Telegram notification sent to Kyle.
+Context: Supporting-channel message with chart attachment
+
+crypto_chase: "real? idk"
+
+Unable to classify — what's your read? Is this expressing doubt about a technical setup, market structure, or chart pattern? The attachment suggests technical context but message text is cryptic.
