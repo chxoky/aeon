@@ -1,4 +1,4 @@
-## Summary
+💬 *[DC: Chase — TradFi]*
 
 Processed Discord trader monitor event for **Crypto_Chase** (2026-07-13T00:19:57Z):
 
@@ -19,3 +19,8 @@ Processed Discord trader monitor event for **Crypto_Chase** (2026-07-13T00:19:57
    - Created daily log: `memory/logs/2026-07-13.md`
 
 **Classification:** INFORMATIONAL — Member Q&A response teaching continuation trade concepts; not a trade execution or conviction shift. Fast-path alert already sent; no duplicate notification required.
+And here's a bonus to go even deeper. Let's say we reclaim this bearish fair value gap, and the hourly moving average becomes confluent with it. That would likely be good
+
+📎 _Chart attachment (chart image from Discord CDN)_
+
+_via Discord — Chase — TradFi_

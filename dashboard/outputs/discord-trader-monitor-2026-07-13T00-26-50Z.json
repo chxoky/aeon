@@ -1,0 +1,23 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "tweet-message"
+      ]
+    },
+    "tweet-message": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Chase",
+        "handle": "TradFi",
+        "text": "And here's a bonus to go even deeper. Let's say we reclaim this bearish fair value gap, and the hourly moving average becomes confluent with it. That would likely be good\n\n📎 Chart attachment (chart image from Discord CDN)"
+      }
+    }
+  }
+}
