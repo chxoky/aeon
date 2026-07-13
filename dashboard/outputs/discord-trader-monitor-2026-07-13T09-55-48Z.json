@@ -1,0 +1,115 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor",
+        "description": "Calibration — [DC: HCH — Chat]"
+      },
+      "children": [
+        "heading-1",
+        "text-event",
+        "separator-1",
+        "stack-message",
+        "separator-2",
+        "alert-uncertainty"
+      ]
+    },
+    "heading-1": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration",
+        "level": "h2"
+      }
+    },
+    "text-event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Supporting-channel message with X post reference",
+        "variant": "lead"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack-message": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-user",
+        "stack-content"
+      ]
+    },
+    "text-user": {
+      "type": "Text",
+      "props": {
+        "text": "heartcanhodl:",
+        "variant": "body"
+      }
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-fc",
+        "badge-zec",
+        "link-post",
+        "badge-time"
+      ]
+    },
+    "badge-fc": {
+      "type": "Badge",
+      "props": {
+        "text": "Fc",
+        "variant": "outline"
+      }
+    },
+    "badge-zec": {
+      "type": "Badge",
+      "props": {
+        "text": "ZEC",
+        "variant": "default"
+      }
+    },
+    "link-post": {
+      "type": "StoryLink",
+      "props": {
+        "title": "X Post",
+        "href": "https://x.com/i/status/2076382678530826288",
+        "source": "X"
+      }
+    },
+    "badge-time": {
+      "type": "Badge",
+      "props": {
+        "text": "1hr",
+        "variant": "secondary"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert-uncertainty": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to Classify",
+        "message": "What's your read? Does \"Fc\" mean \"Filled confirmed\" (ZEC execution), or \"For Chart\" (technical reference)? Is this a position update, chart analysis reference, or something else?",
+        "type": "warning"
+      }
+    }
+  }
+}
