@@ -1,0 +1,55 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "content_stack"
+      ]
+    },
+    "content_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "calibration_badge",
+        "supporting_text",
+        "crypto_data",
+        "classification_question"
+      ]
+    },
+    "calibration_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "🔍 Calibration — DC: Chase — TradFi",
+        "variant": "secondary"
+      }
+    },
+    "supporting_text": {
+      "type": "Text",
+      "props": {
+        "text": "Supporting channel, standalone message",
+        "variant": "muted"
+      }
+    },
+    "crypto_data": {
+      "type": "Text",
+      "props": {
+        "text": "crypto_chase: \"needs 0.5-0618 anyways\""
+      }
+    },
+    "classification_question": {
+      "type": "Alert",
+      "props": {
+        "message": "Unable to classify — what's your read?",
+        "type": "info"
+      }
+    }
+  }
+}
