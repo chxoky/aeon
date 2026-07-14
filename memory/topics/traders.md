@@ -60,7 +60,7 @@
 - Current open positions: No explicit sized position — intraday BTC/ETH trader, long-biased.
 - Recent thesis: Bullish lean ("bears are being abused," "Go up"). BTC posts daily H1/H4 structure updates; Jul 13 at a global POC with an EQH formed, waiting for LTF reversal patterns. ETH "structure looks clean," dismissive of ETH longs earlier in window. Trades intraday around volume clusters. (Based in Moscow; lots of off-topic personal/gym content.)
 - Conviction notes: Technical (volume profile / clusters / POC), publishes game plans with invalidations. Signal is in the "$BTC Daily Update" posts.
-- Last seen: 2026-07-14 12:52 UTC
+- Last seen: 2026-07-14 17:26 UTC
 - **Events log:**
   - Jul 14 07:33 — informational (bullish sentiment / DCA plan) — "I agree with @ryzzqq and @Trade17 that we've hit the local low for the month; I plan to build up long positions over the next couple of days" — BTC, convergence with KillaXBT/t_in_crypto bullish bias
   - Jul 14 07:48 — skip (non-financial) — "@wasmynme @ryzzcqq @Trade17 :3 \n\nTo you too" — personal response, no signal
@@ -71,6 +71,7 @@
   - Jul 14 10:01 — skip (non-financial) — "@blancxbt Hey, I just turned off notifications for you. Thanks, Nikita beer" — personal message to another user, no financial signal
   - Jul 14 10:36 — skip (non-financial/social) — "@HeiroCapital @garbycan +1 woman" — personal social banter, no financial signal, HR-1 apply
   - Jul 14 12:52 — skip (non-financial/social) — "@ag_dwf +" — cryptic social reply to non-watched user, no ticker/level/sizing, pattern of recent banter posts
+  - Jul 14 17:26 — skip (non-financial/personal) — "@knveth Yep" — one-word reply, no ticker/level/context, personal acknowledgment, continues pattern of non-financial social posts
 
 ## bull_genius (marmot)
 - Platforms: X
