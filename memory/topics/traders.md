@@ -52,9 +52,10 @@
 - Current open positions: **BTC — 100%+ LONG from 58.4K, conviction add x2 volume at 62K on Jul 14** (escalating holdings, high conviction through consolidation).
 - Recent thesis: Astro/moon-cycle bull. Bullish, sticking to plan through protracted consolidation; expects the Jul 14–15 new moon will NOT deliver the candle everyone counts on — preaches patience. "Don't short strength and consolidation." A reversal is coming "but not just yet."
 - Conviction notes: Lunar/pivot-date framing (3D candles, moon phases, pivots). High-conviction diamond-hand long. Action-oriented (not just holding); adding at pivot-time tests.
-- Last seen: 2026-07-14 16:15:38 UTC
+- Last seen: 2026-07-14 17:39:14 UTC
 - **Events log:**
   - Jul 14 16:15:38 — trade-conviction-add (BTC) — "I took x2 volume to my position from 58.4 at 62k today in my pivot time. The market favors the patient🧘🏽‍♀️" — Direct execution call: doubled exposure by taking x2 volume at 62K on intraday pivot. First-person, execution-oriented language confirms action (NOT hypothetical). Ties to lunar/patience thesis articulated prior (expects patience to be rewarded). Alerts Kyle with conviction-add prompt (tweet_id=2077064489598374073)
+  - Jul 14 17:39:14 — skip (non-financial / personal interaction) — "@tiger_khan9 🤝" — personal mention/acknowledgment, no financial signal, silent log (tweet_id=2077085526499143914)
 
 ## swarmister
 - Platforms: X
