@@ -69,6 +69,7 @@
   - Jul 14 19:04:32 — skip (non-financial / personal mention) — "@mr_saqib_6 🙈" — personal mention with emoji, no financial signal, silent log (tweet_id=2077106991462306069)
   - Jul 14 19:47:03 — self-resolved (bullish conviction reaffirm) — "@sameenshaikhh @mr_saqib_6 Look at my last post, it has all the answers. And this post is ironic" — Direct clarification of the ambiguous 18:57:32 "Please shorted bitcoin..." post. t_in_crypto explicitly states that the previous "shorted bitcoin" message was IRONIC/SARCASTIC, not a genuine reversal. Reaffirms bullish 100%+ LONG conviction from 58.4K + conviction add x2 volume at 62K. Self-resolved alert sent to Kyle (tweet_id=2077117694025879999)
   - Jul 14 21:14:25 — skip (non-financial / personal mention) — "@sameenshaikkh @mr_saqib_6 UTC +7 time" — Reply about timezone (UTC +7), personal scheduling/mention context, no financial signal, silent log (tweet_id=2077139678004719623)
+  - Jul 14 21:44:31 — skip (non-financial / personal banter) — "@zohaan1324 @honey_xbt I don't work with fractals" — Response to other traders discussing fractal technical analysis; personal methodology statement with no trade action or market-relevant signal. Silent log (tweet_id=2077147252645142733)
 
 ## swarmister
 - Platforms: X
