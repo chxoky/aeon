@@ -16,3 +16,12 @@ Excellent! I've successfully executed the x-trader-monitor skill. Here's what ha
 ✅ Added tweet ID to seen file (memory/x-trader-seen.txt) to prevent reprocessing if the Worker redelivers the same event
 
 No alert was sent to Kyle because this tweet is non-financial content, which aligns with the skill's goal of filtering noise and only notifying on actionable trading signals or informational market insights.
+➕ *Conviction Add — @t_in_crypto*
+
+@t_in_crypto just added to their BTC position.
+"I took x2 volume to my position from 58.4 at 62k today in my pivot time
+The market favors the patient🧘🏽‍♀️"
+
+[View tweet](https://x.com/t_in_crypto/status/2077064489598374073)
+
+Want to add to yours too?

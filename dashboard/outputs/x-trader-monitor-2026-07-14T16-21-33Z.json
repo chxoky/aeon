@@ -1,0 +1,47 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Conviction Add — @t_in_crypto"
+      },
+      "children": [
+        "context_pre",
+        "tweet",
+        "link",
+        "cta"
+      ]
+    },
+    "context_pre": {
+      "type": "Text",
+      "props": {
+        "text": "@t_in_crypto just added to their BTC position.",
+        "variant": "body"
+      }
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "handle": "@t_in_crypto",
+        "text": "I took x2 volume to my position from 58.4 at 62k today in my pivot time\nThe market favors the patient🧘🏽‍♀️"
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/t_in_crypto/status/2077064489598374073"
+      }
+    },
+    "cta": {
+      "type": "Text",
+      "props": {
+        "text": "Want to add to yours too?",
+        "variant": "body"
+      }
+    }
+  }
+}

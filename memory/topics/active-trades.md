@@ -208,6 +208,20 @@
 - **Context**: ZEC remains HCH's highest-conviction short despite volatile market conditions. Added 1% on 07-03T09:21:56Z as part of broader bearish positioning cascade (after BTC/ETH/SOL short entry at 04:08Z, conviction add at 08:50Z, now ZEC add at 09:21Z). Pattern suggests technical breakdown validation or continuation of local-high scaling strategy outlined in 06:20Z message ("Keeping a room to add to the local highs").
 - **Last update**: 2026-07-03T09:21:56Z (discord-trader-monitor, fast-path alerted, CONVICTION ADD; message_id=1522532840686747658)
 
+## t_in_crypto
+
+### BTC — LONG (conviction add 2026-07-14)
+- **Status**: ACTIVE — conviction add 2026-07-14T16:15:38Z
+- **Entry**: 
+  - **Initial entry**: 58.4K (100% position, held since at least Jul 12)
+  - **Conviction add**: 2026-07-14T16:15:38Z — "took x2 volume" at 62K (doubled exposure)
+- **Current size**: 200%+ notional (2x original at 58.4K equivalent)
+- **Thesis**: Lunar/moon-cycle bull. High-conviction diamond-hand long through consolidation. Expects Jul 14–15 new moon pivot to validate patience thesis ("The market favors the patient"). Belief that reversal is coming but "not just yet" — playing through chop into later rally.
+- **Conviction**: EXTREMELY HIGH — adding at pivot time despite macro chop/uncertainty across broader group (KillaXBT scalp-short hedge, HCH/Wild_Randomness shorting, only structural bulls participating). Solo-long positioning. Action-oriented execution call (not just holding).
+- **Execution language**: "I took x2 volume to my position... today in my pivot time" — first-person, intraday action confirmation, tied to technical pivot calendar (3D candles, moon phases).
+- **Context**: t_in_crypto stands alone in the group conviction map (see traders.md regime note: "Structural bulls (Killa, t_in_crypto) vs tactical bears"). Killa is also long (2x swing HTF from 62.6K) but with hedged scalp shorts; t_in_crypto is pure conviction long with ADD into strength/chop (inverse to HCH/Wild_Randomness scalp-short thinking). Pattern suggests belief in structural bottom closer than consensus estimates.
+- **Last update**: 2026-07-14T16:15:38Z (X, fast-path alerted; tweet_id=2077064489598374073)
+
 ---
 
 > Last bootstrapped: 2026-06-25 (discord-trader-monitor real-time event). GOOG (Chase) updated from recent conviction-add; HCH BTC/ETH/SOL position closed near 59k with stated re-entry thesis above 60k.
