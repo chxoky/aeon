@@ -134,13 +134,14 @@
 ## ryzzqq
 - Platforms: X
 - Current open positions: **Long** filled Jul 9 ("filled some longs here… left ammo for lower, one more leg left before it dies") — likely BTC/crypto, small, unconfirmed since.
-- Recent thesis: Minimal data this window (3 posts). Tactical long expecting chop first. Cross-asset interest noted (BTC + SPCX). Recent conviction: bullish on month-end lows being in despite headline fud.
+- Recent thesis: Minimal data this window (4 posts). Tactical long expecting chop first. Cross-asset interest noted (BTC + SPCX). Recent conviction: bullish on month-end lows being in despite headline fud.
 - Conviction notes: Very low posting volume — a low-signal account; treat any post as relatively high-intent given rarity.
-- Last seen: 2026-07-14 07:31 UTC
+- Last seen: 2026-07-14 16:57 UTC
 - **Events log:** 
   - Jul 14 06:38 — informational (macro/price target) — "68K before 58K revisit, buying dips next 48h, local bottom in for the month" — BTC, aligns w/ structural bull bias
   - Jul 14 06:47 — ambiguous (trade-setup vs. directional) — "looking to buy spcx 120-130, ipo was at 135 / betting on the fact that they crime it into unlocks" — SPCX, contrarian to group bearish (HCH short, Chase dismissive), awaiting calibration on "looking to buy" language
   - Jul 14 07:31 — informational (conviction reaffirm) — "@threesixfiv3 yes it was a max fud event for now that is why i think lows in for the month" — BTC, reiterates conviction that July lows are in post-FUD
+  - Jul 14 16:57 — ambiguous (cryptic post with URL, awaiting Kyle calibration) — "looking good https://t.co/cgSu4Dt6NC" — very terse message with shortened URL; context suggests likely related to BTC long performance or SPCX update, but URL inaccessible; cannot definitively confirm scope. Calibration alert sent (tweet_id=2077075054765244918)
 
 ## abetrade
 - Platforms: X

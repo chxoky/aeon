@@ -1,0 +1,124 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @ryzzqq"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "skill-badge",
+        "context-text",
+        "sep-1",
+        "tweet-card",
+        "sep-2",
+        "classification-stack"
+      ]
+    },
+    "skill-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "x-trader-monitor",
+        "variant": "secondary"
+      }
+    },
+    "context-text": {
+      "type": "Text",
+      "props": {
+        "text": "ryzzqq is bullish on BTC lows being in (posted 06:38 & 07:31 UTC today, \"68K before 58K revisit\", small long from Jul 9), just posted at 16:57 UTC.",
+        "variant": "body"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "ryzzqq",
+        "handle": "ryzzqq",
+        "text": "looking good https://t.co/cgSu4Dt6NC"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "classification-alert",
+        "classification-options"
+      ]
+    },
+    "classification-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read?",
+        "type": "info"
+      }
+    },
+    "classification-options": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opt-1",
+        "opt-2",
+        "opt-3",
+        "opt-4"
+      ]
+    },
+    "opt-1": {
+      "type": "Badge",
+      "props": {
+        "text": "Long entry confirmation",
+        "variant": "outline"
+      }
+    },
+    "opt-2": {
+      "type": "Badge",
+      "props": {
+        "text": "Chart setup",
+        "variant": "outline"
+      }
+    },
+    "opt-3": {
+      "type": "Badge",
+      "props": {
+        "text": "SPCX update",
+        "variant": "outline"
+      }
+    },
+    "opt-4": {
+      "type": "Badge",
+      "props": {
+        "text": "Market sentiment",
+        "variant": "outline"
+      }
+    }
+  }
+}
