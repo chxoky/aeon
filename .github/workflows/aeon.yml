@@ -175,10 +175,6 @@ jobs:
           VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
           REPLICATE_API_TOKEN: ${{ secrets.REPLICATE_API_TOKEN }}
           SKILL_VAR: ${{ inputs.var }}
-          X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
-          TWITTERAPI_IO_KEY: ${{ secrets.TWITTERAPI_IO_KEY }}
-          DISCORD_USER_TOKEN: ${{ secrets.DISCORD_USER_TOKEN }}
-          WATCHED_X_ACCOUNTS: ${{ vars.WATCHED_X_ACCOUNTS }}
         run: |
           # Run all scripts/prefetch-*.sh before Claude starts (outside sandbox).
           # Each script receives the skill name and var as arguments.
@@ -247,6 +243,10 @@ jobs:
         id: run
         if: steps.work.outputs.mode != ''
         env:
+          # Full secrets context — consumed by the per-skill injection loop below
+          # (only keys a skill declares in `requires:` frontmatter get exported),
+          # then unset before Claude runs so the blob never reaches skill code.
+          ALL_SECRETS: ${{ toJSON(secrets) }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           ANTHROPIC_BASE_URL: ${{ vars.ANTHROPIC_BASE_URL }}
@@ -458,9 +458,34 @@ jobs:
           NOTIFY_SCRIPT
           chmod +x ./notify
 
+          # secretcurl (upstream v0.1): generic auth'd curl that substitutes
+          # {ENV_KEY} placeholders inside the script, so a secret never lands on
+          # the agent's Bash command line (the permission analyzer blocks
+          # $SECRET expansions). Allow-listed below as Bash(./secretcurl:*).
+          cp scripts/secretcurl.sh ./secretcurl
+          chmod +x ./secretcurl
+
+          # Per-skill least-privilege secrets (upstream v0.1 model): inject ONLY
+          # the keys this skill declares in its `requires:` frontmatter (bare =
+          # required, `KEY?` = optional/works-better). A skill sees nothing else
+          # from the secret store. Optional key with no secret set → not
+          # exported, skill degrades to its public path.
+          SECRETS_JSON="${ALL_SECRETS:-}"; [ -z "$SECRETS_JSON" ] && SECRETS_JSON='{}'
+          INJECTED=""
+          while IFS= read -r key; do
+            [ -z "$key" ] && continue
+            [ -n "${!key:-}" ] && continue                     # already in env (infra) — leave it
+            val="$(jq -r --arg k "$key" '.[$k] // empty' <<<"$SECRETS_JSON")"
+            if [ -n "$val" ]; then export "$key=$val"; INJECTED="$INJECTED $key"; fi
+          done < <(bash scripts/skill_requires.sh "$SKILL_NAME" 2>/dev/null)
+          if [ -n "$INJECTED" ]; then echo "::notice::Injected declared secrets for ${SKILL_NAME}:${INJECTED}"; fi
+
+          unset ALL_SECRETS SECRETS_JSON   # drop the secrets blob before Claude runs
+
           ALLOWED="Read,Write,Edit,Glob,Grep,WebFetch,WebSearch"
           ALLOWED="$ALLOWED,Bash(curl:*),Bash(gh:*),Bash(git:*),Bash(jq:*)"
-          ALLOWED="$ALLOWED,Bash(./notify:*),Bash(./notify-jsonrender:*)"
+          ALLOWED="$ALLOWED,Bash(./notify:*),Bash(./notify-jsonrender:*),Bash(./secretcurl:*)"
+          ALLOWED="$ALLOWED,Bash(./scripts/fetch-trader-bootstrap.sh:*),Bash(./scripts/fetch-trader-x-bootstrap.sh:*)"
           ALLOWED="$ALLOWED,Bash(mkdir:*),Bash(ls:*),Bash(cat:*),Bash(chmod:*)"
           ALLOWED="$ALLOWED,Bash(date:*),Bash(echo:*),Bash(node:*),Bash(npm:*),Bash(npx:*)"
           ALLOWED="$ALLOWED,Bash(head:*),Bash(tail:*),Bash(wc:*),Bash(sort:*),Bash(grep:*)"
