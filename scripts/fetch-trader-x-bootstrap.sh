@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-# Fetch — Trader X Bootstrap (X-only, 3-day lookback)
+# Fetch — Trader X Bootstrap (X-only, LOOKBACK_DAYS lookback, default 3)
 #
 # Invoked BY the `trader-x-bootstrap` skill (inside the sandbox), replacing the
 # old prefetch-trader-x-bootstrap.sh workflow stage. Auth goes through
@@ -32,14 +32,21 @@ mkdir -p .xai-cache
 
 WATCHED_X_ACCOUNTS="Bitcoin_Astro,abetrade,trading_axe,KillaXBT,Crypto_Chase,HeartCanHodl,t_in_crypto,ryzzqq,swarmister,bull_genius,Stoiiic,Wild_Randomness"
 
-# Cutoff: snowflake ID corresponding to ~3 days ago
+# Lookback window (days). Override via env: LOOKBACK_DAYS=7 ./scripts/fetch-trader-x-bootstrap.sh
+LOOKBACK_DAYS="${LOOKBACK_DAYS:-3}"
+
+# Cutoff: snowflake ID corresponding to ~LOOKBACK_DAYS ago
 # Twitter snowflake: (timestamp_ms - 1288834974657) << 22
 NOW_S=$(date +%s)
-CUTOFF_MS=$(( (NOW_S - 259200) * 1000 ))
+CUTOFF_MS=$(( (NOW_S - LOOKBACK_DAYS * 86400) * 1000 ))
 CUTOFF_SNOWFLAKE=$(( (CUTOFF_MS - 1288834974657) * 4194304 ))
 
+# Pagination cap scales with the window (~20 tweets/page)
+MAX_PAGES=$(( LOOKBACK_DAYS * 2 ))
+[ "$MAX_PAGES" -lt 5 ] && MAX_PAGES=5
+
 echo "Fetching X history for: ${WATCHED_X_ACCOUNTS}"
-echo "Cutoff snowflake ID: ${CUTOFF_SNOWFLAKE} (~3 days ago)"
+echo "Cutoff snowflake ID: ${CUTOFF_SNOWFLAKE} (~${LOOKBACK_DAYS} days ago)"
 
 X_RESULTS="[]"
 IFS=',' read -ra ACCOUNTS <<< "$WATCHED_X_ACCOUNTS"
@@ -48,7 +55,7 @@ for handle in "${ACCOUNTS[@]}"; do
   handle_tweets="[]"
   pages=0
 
-  while [ $pages -lt 5 ]; do
+  while [ $pages -lt $MAX_PAGES ]; do
     URL="https://api.twitterapi.io/twitter/user/last_tweets?userName=${handle}"
     [ -n "$cursor" ] && URL="${URL}&cursor=${cursor}"
 
@@ -74,7 +81,7 @@ for handle in "${ACCOUNTS[@]}"; do
       break
     fi
 
-    # Take tweets whose snowflake ID is above cutoff (i.e. newer than 3 days ago)
+    # Take tweets whose snowflake ID is above cutoff (i.e. newer than the window)
     # Also normalize fields into our standard shape
     PAGE_TWEETS=$(echo "$RESP" | jq -c --argjson cutoff "$CUTOFF_SNOWFLAKE" '[
       .data.tweets[]? |

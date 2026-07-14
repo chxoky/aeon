@@ -8,7 +8,7 @@ requires: [TWITTERAPI_IO_KEY, DISCORD_USER_TOKEN]
 
 Today is ${today}. This is a **one-time setup skill** — run it once to seed memory before the real-time monitors (`x-trader-monitor`, `discord-trader-monitor`) take over. Running it again is harmless but wasteful (it re-marks already-seen IDs); don't schedule it recurring.
 
-> **${var}** — Optional. Pass `force` to re-run even if `memory/topics/traders.md` already shows a completed bootstrap. Otherwise the skill checks first and exits if bootstrap already ran.
+> **${var}** — Optional. Pass `force` to re-run even if `memory/topics/traders.md` already shows a completed bootstrap. Otherwise the skill checks first and exits if bootstrap already ran. You may also append a day count to set the lookback window, e.g. `force 7` for a 7-day lookback (default 3). If `${var}` contains a number, export it as `LOOKBACK_DAYS` before running the fetch script and read every "3 days" below as that window.
 
 ## Why this skill exists
 
@@ -17,22 +17,22 @@ The real-time monitors are reactive — they only know what's happened since the
 ## Step 1 — Check if already run
 
 ```bash
-if grep -q "BOOTSTRAP_COMPLETE" memory/topics/traders.md 2>/dev/null && [ "${var}" != "force" ]; then
+if grep -q "BOOTSTRAP_COMPLETE" memory/topics/traders.md 2>/dev/null && [[ "${var}" != *force* ]]; then
   echo "Bootstrap already completed — exiting"
   exit 0
 fi
 ```
 
-If already complete and `${var}` isn't `force`, log `TRADER_BOOTSTRAP_SKIPPED — already initialized` and stop. No notify.
+If already complete and `${var}` doesn't contain `force`, log `TRADER_BOOTSTRAP_SKIPPED — already initialized` and stop. No notify.
 
-## Step 2 — Fetch 3 days of X + Discord history
+## Step 2 — Fetch X + Discord history (lookback window)
 
 Run the fetch script (it authenticates via `./secretcurl` using the per-skill
 secrets declared in this file's `requires:` frontmatter — see Sandbox note),
 then read both caches it writes:
 
 ```bash
-./scripts/fetch-trader-bootstrap.sh
+LOOKBACK_DAYS="${LOOKBACK_DAYS:-3}" ./scripts/fetch-trader-bootstrap.sh
 X_CACHE=$(cat .xai-cache/trader-bootstrap-x.json 2>/dev/null)
 ```
 
@@ -114,7 +114,7 @@ sort -u memory/discord-trader-seen.txt -o memory/discord-trader-seen.txt
 This is the only notification this skill sends — one message, covering everything live right now:
 
 ```
-📋 *Trader Bootstrap Complete — 3-day lookback*
+📋 *Trader Bootstrap Complete — {LOOKBACK_DAYS}-day lookback*
 
 *Currently live setups/positions:*
 {for each trader with an open position: — {handle}: {ticker} {direction}, {context}}

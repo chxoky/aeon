@@ -8,12 +8,12 @@ requires: [TWITTERAPI_IO_KEY]
 
 Today is ${today}. This skill fetches fresh X tweet history via `scripts/fetch-trader-x-bootstrap.sh` and patches the trader state memory. Run it whenever the X section of traders.md is stale or empty. Discord state is untouched.
 
-> **${var}** — Pass `force` to skip the already-run check.
+> **${var}** — Pass `force` to skip the already-run check. You may also append a day count to set the lookback window, e.g. `force 7` for a 7-day lookback (default 3). If `${var}` contains a number, export it as `LOOKBACK_DAYS` before running the fetch script and read every "3 days" below as that window.
 
 ## Step 1 — Check if X bootstrap already ran
 
 ```bash
-if grep -q "X_BOOTSTRAP_COMPLETE" memory/topics/traders.md 2>/dev/null && [ "${var}" != "force" ]; then
+if grep -q "X_BOOTSTRAP_COMPLETE" memory/topics/traders.md 2>/dev/null && [[ "${var}" != *force* ]]; then
   echo "X bootstrap already completed — exiting. Pass var=force to re-run."
   exit 0
 fi
@@ -22,7 +22,7 @@ fi
 ## Step 2 — Fetch and load X history
 
 ```bash
-./scripts/fetch-trader-x-bootstrap.sh
+LOOKBACK_DAYS="${LOOKBACK_DAYS:-3}" ./scripts/fetch-trader-x-bootstrap.sh
 X_CACHE=$(cat .xai-cache/trader-x-bootstrap.json 2>/dev/null || echo "[]")
 TWEET_COUNT=$(echo "$X_CACHE" | jq 'length')
 echo "X cache loaded: $TWEET_COUNT tweets"
@@ -79,7 +79,7 @@ This prevents x-trader-monitor from re-alerting on bootstrap tweets.
 One message, X-focused:
 
 ```
-📡 *X Bootstrap Complete — 3-day lookback*
+📡 *X Bootstrap Complete — {LOOKBACK_DAYS}-day lookback*
 
 *Active X traders:*
 {for each trader with detected positions/thesis: — @{handle}: {1-line summary}}
