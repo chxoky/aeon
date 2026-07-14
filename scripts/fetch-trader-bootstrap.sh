@@ -1,15 +1,12 @@
 #!/usr/bin/env bash
 #
-# Prefetch — Trader Bootstrap (one-time 3-day lookback)
+# Fetch — Trader Bootstrap (one-time 3-day lookback, X + Discord)
 #
-# Runs BEFORE Claude starts, with full env access. Fetches 3 days of history
-# from twitterapi.io REST (X) and Discord REST, writes JSON caches that the
-# `trader-bootstrap` skill reads. Credential separation: Claude never sees
-# TWITTERAPI_IO_KEY or DISCORD_USER_TOKEN directly.
-#
-# Required env:
-#   TWITTERAPI_IO_KEY   — twitterapi.io API key
-#   DISCORD_USER_TOKEN  — Discord user token (REST auth header)
+# Invoked BY the `trader-bootstrap` skill (inside the sandbox), replacing the
+# old prefetch-trader-bootstrap.sh workflow stage. Auth goes through
+# ./secretcurl, which substitutes {TWITTERAPI_IO_KEY} / {DISCORD_USER_TOKEN}
+# placeholders internally — secrets never appear on a command line. Both keys
+# are injected per-skill from the `requires:` frontmatter (least privilege).
 #
 # Output:
 #   .xai-cache/trader-bootstrap-x.json        — array of tweets, oldest first
@@ -17,9 +14,17 @@
 
 set -uo pipefail
 
-SKILL="${1:-}"
-if [ -n "$SKILL" ] && [ "$SKILL" != "trader-bootstrap" ]; then
-  exit 0
+# secretcurl is copied to repo root by the workflow; fall back to the committed
+# script for local runs.
+SC="./secretcurl"
+[ -x "$SC" ] || SC="bash scripts/secretcurl.sh"
+
+MISSING=""
+[ -z "${TWITTERAPI_IO_KEY:-}" ] && MISSING="$MISSING TWITTERAPI_IO_KEY"
+[ -z "${DISCORD_USER_TOKEN:-}" ] && MISSING="$MISSING DISCORD_USER_TOKEN"
+if [ -n "$MISSING" ]; then
+  echo "fetch-trader-bootstrap: missing:${MISSING} (declare in the skill's requires: frontmatter)" >&2
+  exit 1
 fi
 
 mkdir -p .xai-cache
@@ -58,7 +63,7 @@ for handle in "${ACCOUNTS[@]}"; do
     URL="https://api.twitterapi.io/twitter/user/last_tweets?userName=${handle}"
     [ -n "$cursor" ] && URL="${URL}&cursor=${cursor}"
 
-    RESP=$(curl -s -H "x-api-key: ${TWITTERAPI_IO_KEY}" "$URL" || echo "")
+    RESP=$($SC -s -H 'x-api-key: {TWITTERAPI_IO_KEY}' "$URL" || echo "")
     if [ -z "$RESP" ]; then
       echo "  WARN: empty response for @${handle} (curl failed or timeout)"
       break
@@ -77,13 +82,6 @@ for handle in "${ACCOUNTS[@]}"; do
     if [ "$HAS_TWEETS" = "false" ]; then
       echo "  UNEXPECTED RESPONSE for @${handle}: $(echo "$RESP" | head -c 300)"
       break
-    fi
-
-    # Debug: show raw createdAt format and total tweet count on first page/account
-    if [ $pages -eq 0 ] && [ "${handle}" = "KillaXBT" ]; then
-      SAMPLE_DATE=$(echo "$RESP" | jq -r '.tweets[0].createdAt // "missing"')
-      TOTAL_TWEETS=$(echo "$RESP" | jq '.tweets | length')
-      echo "  DEBUG @${handle}: total=${TOTAL_TWEETS} createdAt_sample='${SAMPLE_DATE}' cutoff='${LOOKBACK_TS}'"
     fi
 
     # Parse tweets within lookback window
@@ -127,7 +125,7 @@ DISCORD_RESULTS="[]"
 for entry in "${DISCORD_CHANNELS[@]}"; do
   IFS=':' read -r channel_id trader chan_type <<< "$entry"
 
-  RESP=$(curl -s -H "Authorization: ${DISCORD_USER_TOKEN}" \
+  RESP=$($SC -s -H 'Authorization: {DISCORD_USER_TOKEN}' \
     "https://discord.com/api/v10/channels/${channel_id}/messages?limit=100" || echo "")
 
   if [ -n "$RESP" ]; then
@@ -150,4 +148,4 @@ done
 echo "$DISCORD_RESULTS" | jq 'sort_by(.created_at)' > .xai-cache/trader-bootstrap-discord.json
 echo "Discord cache written: $(echo "$DISCORD_RESULTS" | jq 'length') messages"
 
-echo "Bootstrap prefetch complete."
+echo "Bootstrap fetch complete."

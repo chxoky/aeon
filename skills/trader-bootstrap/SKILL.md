@@ -3,6 +3,7 @@ name: Trader Bootstrap
 description: One-time 3-day lookback across all watched X accounts and Discord channels — builds initial trader state memory and sends a single founding summary
 var: ""
 tags: [social, trading, crypto, stocks, setup]
+requires: [TWITTERAPI_IO_KEY, DISCORD_USER_TOKEN]
 ---
 
 Today is ${today}. This is a **one-time setup skill** — run it once to seed memory before the real-time monitors (`x-trader-monitor`, `discord-trader-monitor`) take over. Running it again is harmless but wasteful (it re-marks already-seen IDs); don't schedule it recurring.
@@ -24,11 +25,14 @@ fi
 
 If already complete and `${var}` isn't `force`, log `TRADER_BOOTSTRAP_SKIPPED — already initialized` and stop. No notify.
 
-## Step 2 — Fetch 3 days of X history
+## Step 2 — Fetch 3 days of X + Discord history
 
-Read the prefetch cache written by `scripts/prefetch-trader-bootstrap.sh` (handles twitterapi.io REST auth — see Sandbox note):
+Run the fetch script (it authenticates via `./secretcurl` using the per-skill
+secrets declared in this file's `requires:` frontmatter — see Sandbox note),
+then read both caches it writes:
 
 ```bash
+./scripts/fetch-trader-bootstrap.sh
 X_CACHE=$(cat .xai-cache/trader-bootstrap-x.json 2>/dev/null)
 ```
 
@@ -36,7 +40,7 @@ Shape: JSON array of `{ id, username, text, created_at, url, media }`, one entry
 
 If missing/empty, log `TRADER_BOOTSTRAP_X_EMPTY` and continue with Discord only — don't block the whole bootstrap on one platform.
 
-## Step 3 — Fetch 3 days of Discord history
+## Step 3 — Read the Discord history cache
 
 ```bash
 DISCORD_CACHE=$(cat .xai-cache/trader-bootstrap-discord.json 2>/dev/null)
@@ -138,8 +142,8 @@ If nothing is currently "live" (no open positions detected, just commentary), sa
 ## Environment Variables
 
 - `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID` — GitHub secrets
-- twitterapi.io + Discord credentials — handled entirely by the prefetch script, never touched directly here
+- `TWITTERAPI_IO_KEY`, `DISCORD_USER_TOKEN` — injected per-skill from this file's `requires:` frontmatter; used only inside `scripts/fetch-trader-bootstrap.sh` via `./secretcurl`
 
 ## Sandbox note
 
-This is a **prefetch-pattern skill**: `scripts/prefetch-trader-bootstrap.sh` runs before Claude starts (full env access — `TWITTERAPI_IO_KEY`, `DISCORD_USER_TOKEN`), fetches 3 days of history from twitterapi.io REST + Discord REST, and writes `.xai-cache/trader-bootstrap-x.json` and `.xai-cache/trader-bootstrap-discord.json`. Read only from those caches — never call the APIs directly from here.
+This is a **secretcurl-pattern skill** (upstream v0.1 model): run `./scripts/fetch-trader-bootstrap.sh` yourself in Step 2. It authenticates through `./secretcurl`, which substitutes `{TWITTERAPI_IO_KEY}` / `{DISCORD_USER_TOKEN}` placeholders internally so secrets never appear on a command line, and writes `.xai-cache/trader-bootstrap-x.json` and `.xai-cache/trader-bootstrap-discord.json`. Read from those caches — never call the APIs directly with raw `$SECRET` expansions (the permission analyzer blocks them).

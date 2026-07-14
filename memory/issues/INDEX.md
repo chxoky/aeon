@@ -4,6 +4,7 @@
 
 | ID | Title | Severity | Category | Detected | Affected Skills |
 |----|-------|----------|----------|----------|-----------------|
+| [002](ISS-002.md) | twitterapi.io webhook stopped delivering — no X events since 06-16 | high | api-change | 2026-07-13 | x-trader-monitor |
 
 ## Resolved
 

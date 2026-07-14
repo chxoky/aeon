@@ -1,28 +1,31 @@
 #!/usr/bin/env bash
 #
-# Prefetch — Trader X Bootstrap (X-only, 3-day lookback)
+# Fetch — Trader X Bootstrap (X-only, 3-day lookback)
 #
-# Runs BEFORE Claude starts, with full env access. Fetches recent tweets
-# from twitterapi.io REST for all watched X accounts, writes a JSON cache
-# that the `trader-x-bootstrap` skill reads.
+# Invoked BY the `trader-x-bootstrap` skill (inside the sandbox), replacing the
+# old prefetch-trader-x-bootstrap.sh workflow stage. Auth goes through
+# ./secretcurl, which substitutes the {TWITTERAPI_IO_KEY} placeholder
+# internally — the secret never appears on a command line. The key itself is
+# injected per-skill from the `requires:` frontmatter (least privilege).
 #
 # twitterapi.io response shape:
 #   { "status": "success", "data": { "tweets": [...], "next_cursor": "..." } }
 # Tweets do NOT have a reliable createdAt string — we stop pagination by
 # snowflake ID (tweet IDs encode timestamp; lower ID = older tweet).
 #
-# Required env:
-#   TWITTERAPI_IO_KEY   — twitterapi.io API key
-#
 # Output:
 #   .xai-cache/trader-x-bootstrap.json  — array of tweets, newest first
 
 set -uo pipefail
 
-# Only run for trader-x-bootstrap skill (or if called directly)
-SKILL="${1:-}"
-if [ -n "$SKILL" ] && [ "$SKILL" != "trader-x-bootstrap" ]; then
-  exit 0
+# secretcurl is copied to repo root by the workflow; fall back to the committed
+# script for local runs.
+SC="./secretcurl"
+[ -x "$SC" ] || SC="bash scripts/secretcurl.sh"
+
+if [ -z "${TWITTERAPI_IO_KEY:-}" ]; then
+  echo "fetch-trader-x-bootstrap: TWITTERAPI_IO_KEY not set (declare it in the skill's requires: frontmatter)" >&2
+  exit 1
 fi
 
 mkdir -p .xai-cache
@@ -31,8 +34,6 @@ WATCHED_X_ACCOUNTS="Bitcoin_Astro,abetrade,trading_axe,KillaXBT,Crypto_Chase,Hea
 
 # Cutoff: snowflake ID corresponding to ~3 days ago
 # Twitter snowflake: (timestamp_ms - 1288834974657) << 22
-# 3 days ago in ms: (now_ms - 259200000)
-# We compute this via bash arithmetic (no date dependency)
 NOW_S=$(date +%s)
 CUTOFF_MS=$(( (NOW_S - 259200) * 1000 ))
 CUTOFF_SNOWFLAKE=$(( (CUTOFF_MS - 1288834974657) * 4194304 ))
@@ -51,7 +52,7 @@ for handle in "${ACCOUNTS[@]}"; do
     URL="https://api.twitterapi.io/twitter/user/last_tweets?userName=${handle}"
     [ -n "$cursor" ] && URL="${URL}&cursor=${cursor}"
 
-    RESP=$(curl -s --max-time 15 -H "x-api-key: ${TWITTERAPI_IO_KEY}" "$URL" || echo "")
+    RESP=$($SC -s --max-time 15 -H 'x-api-key: {TWITTERAPI_IO_KEY}' "$URL" || echo "")
 
     if [ -z "$RESP" ]; then
       echo "  WARN: empty response for @${handle} (curl timeout or network error)"

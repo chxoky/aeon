@@ -3,9 +3,10 @@ name: Trader X Bootstrap
 description: Seed X tweet history (3-day lookback) for all 12 watched accounts — updates traders.md X sections and marks IDs as seen so x-trader-monitor doesn't re-alert
 var: ""
 tags: [social, trading, crypto, setup, x]
+requires: [TWITTERAPI_IO_KEY]
 ---
 
-Today is ${today}. This skill reads fresh X tweet history fetched by `scripts/prefetch-trader-x-bootstrap.sh` and patches the trader state memory. Run it whenever the X section of traders.md is stale or empty. Discord state is untouched.
+Today is ${today}. This skill fetches fresh X tweet history via `scripts/fetch-trader-x-bootstrap.sh` and patches the trader state memory. Run it whenever the X section of traders.md is stale or empty. Discord state is untouched.
 
 > **${var}** — Pass `force` to skip the already-run check.
 
@@ -18,9 +19,10 @@ if grep -q "X_BOOTSTRAP_COMPLETE" memory/topics/traders.md 2>/dev/null && [ "${v
 fi
 ```
 
-## Step 2 — Load X cache
+## Step 2 — Fetch and load X history
 
 ```bash
+./scripts/fetch-trader-x-bootstrap.sh
 X_CACHE=$(cat .xai-cache/trader-x-bootstrap.json 2>/dev/null || echo "[]")
 TWEET_COUNT=$(echo "$X_CACHE" | jq 'length')
 echo "X cache loaded: $TWEET_COUNT tweets"
@@ -28,7 +30,7 @@ echo "X cache loaded: $TWEET_COUNT tweets"
 
 Cache shape: JSON array of `{ id, username, text, created_at, url, media[] }`, newest first, from all 12 watched X accounts in the last 3 days.
 
-If empty or missing, log `TRADER_X_BOOTSTRAP_EMPTY — X cache not populated` and stop. Do not notify. The prefetch script likely failed — check the Actions log for API errors.
+If empty or missing, log `TRADER_X_BOOTSTRAP_EMPTY — X cache not populated` and stop. Do not notify. The fetch script likely failed — check its output above for API errors (auth failures mean `TWITTERAPI_IO_KEY` wasn't injected; verify the secret is set and declared in `requires:`).
 
 ## Step 3 — Process tweets oldest → newest
 
@@ -102,8 +104,8 @@ If all X accounts were quiet (no positions, just commentary), say so plainly.
 ## Environment Variables
 
 - `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID` — GitHub secrets
-- `TWITTERAPI_IO_KEY` — handled entirely by the prefetch script
+- `TWITTERAPI_IO_KEY` — injected per-skill from this file's `requires:` frontmatter; used only inside `scripts/fetch-trader-x-bootstrap.sh` via `./secretcurl`
 
 ## Sandbox note
 
-Prefetch-pattern skill: `scripts/prefetch-trader-x-bootstrap.sh` runs before Claude starts with full env access, writes `.xai-cache/trader-x-bootstrap.json`. Read only from that cache.
+Secretcurl-pattern skill (upstream v0.1 model): run `./scripts/fetch-trader-x-bootstrap.sh` yourself in Step 2. It authenticates through `./secretcurl` (the `{TWITTERAPI_IO_KEY}` placeholder is substituted inside the script — the secret never appears on a command line) and writes `.xai-cache/trader-x-bootstrap.json`. Read from that cache — never call the API directly with raw `$SECRET` expansions.

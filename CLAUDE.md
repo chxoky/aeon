@@ -108,9 +108,10 @@ GitHub Actions runs Claude Code in a sandbox that may block outbound network fro
 
 1. **Public APIs (no auth):** curl may fail intermittently. Always add a **WebFetch fallback** — WebFetch is a built-in Claude tool that bypasses the sandbox. Example: "If curl fails, use WebFetch for the same URL."
 
-2. **Auth-required APIs (env vars in headers):** curl with `$ENV_VAR` in headers fails because sandbox blocks env var expansion. Workarounds:
-   - **Pre-fetch** (before Claude runs): Create `scripts/prefetch-{name}.sh`. The workflow runs all `scripts/prefetch-*.sh` before Claude starts, with full env access. Skills read cached data from `.xai-cache/` or similar.
-   - **Post-process** (after Claude runs): Write request JSON to `.pending-{service}/`. Create `scripts/postprocess-{name}.sh` to process them. The workflow runs all `scripts/postprocess-*.sh` after Claude finishes. Used for: `.pending-replicate/`, `.pending-notify/`, etc.
+2. **Auth-required APIs (env vars in headers):** curl with `$ENV_VAR` in headers fails because the permission analyzer blocks secret env-var expansion on the command line. Patterns, in order of preference:
+   - **secretcurl (preferred, upstream v0.1 model):** call `./secretcurl` exactly like curl, but write `{ENV_NAME}` placeholders instead of `$ENV_NAME` — the substitution happens inside the script, so the secret never appears on the analyzed command line. Works for any header/URL/query placement. The skill must declare each key in its `requires:` frontmatter (e.g. `requires: [TWITTERAPI_IO_KEY, COINGECKO_API_KEY?]` — `?` = optional); the workflow injects ONLY those keys into the run (least privilege). Longer fetch logic can live in a committed `scripts/fetch-{name}.sh` that the skill invokes and that calls `./secretcurl` internally.
+   - **Post-process** (after Claude runs) — still required when the API needs request signing (e.g. Kraken HMAC-SHA512 via `.pending-kraken/`) or heavy non-curl work: write request JSON to `.pending-{service}/`; `scripts/postprocess-{name}.sh` processes them after Claude finishes. Used for: `.pending-kraken/`, `.pending-replicate/`, `.pending-notify/`, etc.
+   - **Pre-fetch** (before Claude runs) — legacy: `scripts/prefetch-{name}.sh` runs before Claude with full env access, caching to `.xai-cache/`. Don't add new prefetch scripts; use secretcurl. Remaining users: chart-request, xai, api-probe, fleet-scorecard, liquidpad.
    - **`gh` CLI**: For GitHub API, use `gh api` instead of curl — handles auth internally.
 
 When writing new skills, always include a "Sandbox note" section with the appropriate fallback pattern.
