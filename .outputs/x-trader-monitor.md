@@ -1,6 +1,7 @@
-🔍 *Calibration — @Wild_Randomness*
+🔍 *Calibration — @Stoiiic*
 
-Event: Reply to @lord_fed (context unclear from text alone)
-Wild_Randomness: "Level to level me matey https://t.co/hKOxv2NbS7"
+Event: BTC soft-bounce intraday (range-trading 60–65K zone per prior context; Stoiiic watches crucial 60–62K pivot; KillaXBT running conditional scalp-short hedge ladder 64.8–65.8K; t_in_crypto just posted x2 conviction add at 62K)
 
-URL-only minimal-caption pattern (repeated 4x on 07-14). Unable to classify — what's your read?
+Stoiiic: "are we actually back?!"
+
+Unable to classify — cryptic sentiment call. Could mean: (a) "are we holding above the crucial pivot?" (bullish confirmation), (b) skepticism about bounce sustainability, or (c) something triggered by real-time price action at post time. What's your read?

@@ -1,0 +1,226 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration — @Stoiiic"
+      },
+      "children": [
+        "event-section",
+        "sep1",
+        "traders-section",
+        "sep2",
+        "sentiment-section",
+        "sep3",
+        "analysis-section"
+      ]
+    },
+    "event-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event-heading",
+        "event-content"
+      ]
+    },
+    "event-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "event-content": {
+      "type": "Text",
+      "props": {
+        "text": "BTC soft-bounce intraday (range-trading 60–65K zone per prior context; Stoiiic watches crucial 60–62K pivot; KillaXBT running conditional scalp-short hedge ladder 64.8–65.8K; t_in_crypto just posted x2 conviction add at 62K)"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "traders-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "traders-heading",
+        "traders-list"
+      ]
+    },
+    "traders-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Traders & Positions",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "traders-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trader-stoiiic",
+        "trader-killaxbt",
+        "trader-t-in-crypto"
+      ]
+    },
+    "trader-stoiiic": {
+      "type": "Text",
+      "props": {
+        "text": "Stoiiic: watching crucial 60–62K pivot"
+      },
+      "children": []
+    },
+    "trader-killaxbt": {
+      "type": "Text",
+      "props": {
+        "text": "KillaXBT: running conditional scalp-short hedge ladder 64.8–65.8K"
+      },
+      "children": []
+    },
+    "trader-t-in-crypto": {
+      "type": "Text",
+      "props": {
+        "text": "t_in_crypto: posted x2 conviction add at 62K"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "sentiment-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "sentiment-heading",
+        "sentiment-quote"
+      ]
+    },
+    "sentiment-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Sentiment Call",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "sentiment-quote": {
+      "type": "Text",
+      "props": {
+        "text": "Stoiiic: \"are we actually back?!\"",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis-heading",
+        "classification-status",
+        "analysis-note",
+        "interpretations-stack",
+        "read-question"
+      ]
+    },
+    "analysis-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Classification",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "classification-status": {
+      "type": "Badge",
+      "props": {
+        "text": "Unable to classify — cryptic sentiment call",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "analysis-note": {
+      "type": "Text",
+      "props": {
+        "text": "Could mean:"
+      },
+      "children": []
+    },
+    "interpretations-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "interp-a",
+        "interp-b",
+        "interp-c"
+      ]
+    },
+    "interp-a": {
+      "type": "Text",
+      "props": {
+        "text": "(a) \"are we holding above the crucial pivot?\" (bullish confirmation)"
+      },
+      "children": []
+    },
+    "interp-b": {
+      "type": "Text",
+      "props": {
+        "text": "(b) skepticism about bounce sustainability"
+      },
+      "children": []
+    },
+    "interp-c": {
+      "type": "Text",
+      "props": {
+        "text": "(c) something triggered by real-time price action at post time"
+      },
+      "children": []
+    },
+    "read-question": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "lead"
+      },
+      "children": []
+    }
+  }
+}
