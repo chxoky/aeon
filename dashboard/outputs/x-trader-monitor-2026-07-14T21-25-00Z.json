@@ -1,0 +1,33 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "link_view"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Yeah I think anything above 7 is noise, but over the past 10 months any trip below has been quickly met with index vol — doesn't mean one can buy 7dte puts and print but it is a decent signal to ease off the leveraged longs and have cash to put to work. One additional factor this time is COR1M which is now in deep July 2024 territory. N=1 sample size territory now."
+      },
+      "children": []
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2077141245848371408"
+      },
+      "children": []
+    }
+  }
+}
