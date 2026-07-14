@@ -1,0 +1,24 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "alert_1"
+      ]
+    },
+    "alert_1": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "title": "Calibration — @Wild_Randomness",
+        "message": "Reply to @ezcontra about a topping pattern scenario. Without context, cannot determine which asset. Awaiting clarification."
+      },
+      "children": []
+    }
+  }
+}
