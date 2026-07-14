@@ -1,0 +1,109 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "➕ Conviction Add — @Wild_Randomness"
+      },
+      "children": [
+        "badges_row",
+        "separator1",
+        "tweet_card",
+        "separator2",
+        "context_stack",
+        "link_post"
+      ]
+    },
+    "badges_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_action",
+        "badge_spy"
+      ]
+    },
+    "badge_action": {
+      "type": "Badge",
+      "props": {
+        "text": "Conviction Add",
+        "variant": "secondary"
+      }
+    },
+    "badge_spy": {
+      "type": "Badge",
+      "props": {
+        "text": "$SPY",
+        "variant": "default"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Tapping my SPY box again, check. ~30,000 NQ, check"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_approach",
+        "text_thesis",
+        "text_portfolio",
+        "text_cta"
+      ]
+    },
+    "text_approach": {
+      "type": "Text",
+      "props": {
+        "text": "Continuing to average into SPY at box support levels"
+      }
+    },
+    "text_thesis": {
+      "type": "Text",
+      "props": {
+        "text": "Macro thesis: spot up/vol up into a broader top"
+      }
+    },
+    "text_portfolio": {
+      "type": "Text",
+      "props": {
+        "text": "Portfolio notional context: ~30,000 NQ"
+      }
+    },
+    "text_cta": {
+      "type": "Text",
+      "props": {
+        "text": "Want to add to your SPY position too?"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2077051901804417406"
+      }
+    }
+  }
+}
