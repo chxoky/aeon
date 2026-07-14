@@ -1,0 +1,50 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet",
+        "link",
+        "separator",
+        "analysis"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "ryzzqq",
+        "handle": "@ryzzqq",
+        "text": "yes it was a max fud event for now that is why i think lows in for the month"
+      },
+      "children": []
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/ryzzqq/status/2076932708564123901"
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Low-volume account signal: bullish conviction that BTC lows are in for July. Aligns with structural bull consensus (Killa, t_in_crypto) despite near-term chop expectations.",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
