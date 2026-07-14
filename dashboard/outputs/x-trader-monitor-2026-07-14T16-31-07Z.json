@@ -1,0 +1,106 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor: Calibration",
+        "description": "Investigation — @Wild_Randomness"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event_heading",
+        "tweet",
+        "sep1",
+        "metadata_section",
+        "sep2",
+        "alert_classify"
+      ]
+    },
+    "event_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Event: Reply to @lord_fed",
+        "level": "h3"
+      }
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Level to level me matey https://t.co/hKOxv2NbS7"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "metadata_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context_note",
+        "pattern_heading",
+        "pattern_text",
+        "observation_text"
+      ]
+    },
+    "context_note": {
+      "type": "Text",
+      "props": {
+        "text": "Context unclear from text alone",
+        "variant": "caption"
+      }
+    },
+    "pattern_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Pattern Observed",
+        "level": "h4"
+      }
+    },
+    "pattern_text": {
+      "type": "Text",
+      "props": {
+        "text": "URL-only minimal-caption pattern"
+      }
+    },
+    "observation_text": {
+      "type": "Badge",
+      "props": {
+        "text": "Repeated 4× on 2026-07-14",
+        "variant": "outline"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_classify": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification Needed",
+        "message": "Unable to classify — what's your read?",
+        "type": "info"
+      }
+    }
+  }
+}
