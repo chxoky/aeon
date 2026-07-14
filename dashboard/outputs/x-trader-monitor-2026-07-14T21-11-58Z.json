@@ -1,0 +1,77 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @HeartCanHodl"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-event",
+        "tweet-card",
+        "separator-1",
+        "text-analysis",
+        "text-url-note",
+        "separator-2",
+        "text-question"
+      ]
+    },
+    "text-event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: HCH in aggressive short positions (BTC +3%, ETH +2%, SOL +2% added today). Just posted a Polymarket link."
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "@Polymarket https://t.co/8RbS5TjomJ"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Unclear if this is: (a) sharing a bearish prediction market position supporting their shorts, (b) market research on sentiment, or (c) unrelated platform update."
+      }
+    },
+    "text-url-note": {
+      "type": "Text",
+      "props": {
+        "text": "URL inaccessible.",
+        "variant": "muted"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-question": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "lead"
+      }
+    }
+  }
+}
