@@ -1,0 +1,46 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet_card",
+        "separator_1",
+        "link_view",
+        "interpretation_text"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "ryzzqq",
+        "handle": "ryzzqq",
+        "text": "68K before we revisit 58K. think buying dips next 48 hours won't hurt, and we did the usual derisk into CPI"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/ryzzqq/status/2076919289958027669"
+      }
+    },
+    "interpretation_text": {
+      "type": "Text",
+      "props": {
+        "text": "Rare poster — high intent. Aligns with structural bull take (Killa @62.6K 2x long, t_in_crypto 100% @58.4K). Local bottom thesis converges w/ group consensus.",
+        "variant": "muted"
+      }
+    }
+  }
+}
