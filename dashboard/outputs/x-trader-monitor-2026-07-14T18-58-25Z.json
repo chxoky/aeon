@@ -1,0 +1,90 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "content"
+      ]
+    },
+    "content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "calibration_note",
+        "sep1",
+        "event_section",
+        "sep2",
+        "tweet_section",
+        "sep3",
+        "classification_question"
+      ]
+    },
+    "calibration_note": {
+      "type": "Text",
+      "props": {
+        "text": "🔍 Calibration — @t_in_crypto",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "event_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event_heading",
+        "event_text"
+      ]
+    },
+    "event_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "event_text": {
+      "type": "Text",
+      "props": {
+        "text": "Just took x2 volume conviction add on BTC at 62K (Jul 14 16:15:38 UTC); asked @Stefan_B_Trades 'when?' at 17:58:44 UTC"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "tweet_section": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "handle": "t_in_crypto",
+        "text": "@zohaan1324 @Stefan_B_Trades I was really intrigued by this price, so I was wondering when he expected it. What's wrong with my question?😁"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "classification_question": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read? Is this asking for Stefan's price target/timing on BTC from the 62K entry, or something else?",
+        "type": "info"
+      }
+    }
+  }
+}

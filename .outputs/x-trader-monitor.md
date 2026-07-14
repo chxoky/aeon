@@ -1,17 +1,7 @@
-🔍 *Calibration — @Wild_Randomness*
+🔍 *Calibration — @t_in_crypto*
 
-Event: iBit expectation + personal position status
+Event: Just took x2 volume conviction add on BTC at 62K (Jul 14 16:15:38 UTC); asked @Stefan_B_Trades 'when?' at 17:58:44 UTC
 
-@Wild_Randomness: "I'm expecting 39-40 on iBit but only if this level breaks
+t_in_crypto: "@zohaan1324 @Stefan_B_Trades I was really intrigued by this price, so I was wondering when he expected it. What's wrong with my question?😁"
 
-I'm personally TP'd"
-
-Unable to classify — what's your read?
-- Does "I'm personally TP'd" refer to an iBit position that was closed, or something else?
-- Is the 39-40 expectation a new setup idea, or context for the TP'd statement?
-
-[View tweet](https://x.com/Wild_Randomness/status/2077098463914049932)
-Event: (context inferred from earlier trades)
-Wild_Randomness: "Mattering for now…"
-
-URL inaccessible; extremely cryptic. Pattern: fourth URL-minimal-caption post from Wild_Randomness on 07-14. Could reference equity/vol setup, market structure, or personal sentiment. Unable to classify — what's your read?
+Unable to classify — what's your read? Is this asking for Stefan's price target/timing on BTC from the 62K entry, or something else?
