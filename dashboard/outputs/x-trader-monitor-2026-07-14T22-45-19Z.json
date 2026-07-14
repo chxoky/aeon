@@ -1,0 +1,87 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor Calibration"
+      },
+      "children": [
+        "header_stack",
+        "separator1",
+        "tweet_card_element",
+        "separator2",
+        "question_alert"
+      ]
+    },
+    "header_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "header_text",
+        "timestamp_text",
+        "source_text"
+      ]
+    },
+    "header_text": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "timestamp_text": {
+      "type": "Text",
+      "props": {
+        "text": "Event: posted at 22:37:44 UTC (Jul 14)",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "source_text": {
+      "type": "Text",
+      "props": {
+        "text": "Source: @Wild_Randomness",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "tweet_card_element": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Industry is healing https://t.co/fhDTGaGq7r"
+      },
+      "children": []
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "question_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification Status",
+        "message": "Unable to classify — what's your read? (Macro sentiment, specific sector, personal noise?)",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}
