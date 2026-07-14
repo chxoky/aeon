@@ -1,0 +1,47 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "header",
+        "event_context",
+        "tweet_ref",
+        "classification_alert"
+      ]
+    },
+    "header": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @HeartCanHodl",
+        "level": "h3"
+      }
+    },
+    "event_context": {
+      "type": "Text",
+      "props": {
+        "text": "Event: ~18 minutes after previous cryptic chart post (\"down/chop [image]\") and ETH short conviction add",
+        "variant": "caption"
+      }
+    },
+    "tweet_ref": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "@WatcherGuru https://t.co/RqFSY9Ua9h"
+      }
+    },
+    "classification_alert": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "Unable to classify — what's your read?"
+      }
+    }
+  }
+}
