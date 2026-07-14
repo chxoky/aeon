@@ -1,0 +1,445 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-07-14"
+      },
+      "children": [
+        "subtitle",
+        "sep1",
+        "transitions-section",
+        "sep2",
+        "reflexivity-section",
+        "sep3",
+        "positions-section",
+        "sep4",
+        "map-section",
+        "sep5",
+        "trader-note",
+        "context"
+      ]
+    },
+    "subtitle": {
+      "type": "Text",
+      "props": {
+        "text": "(first run since dormancy 06-08 — transitions seeded, real diff starts tomorrow)",
+        "variant": "muted"
+      }
+    },
+    "sep1": {
+      "type": "Separator"
+    },
+    "transitions-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "transitions-heading",
+        "transition-1",
+        "transition-2",
+        "transition-3"
+      ]
+    },
+    "transitions-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS (seeded)",
+        "level": "h3"
+      }
+    },
+    "transition-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t1-badge",
+        "t1-content"
+      ]
+    },
+    "t1-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "default"
+      }
+    },
+    "t1-content": {
+      "type": "Text",
+      "props": {
+        "text": "Privacy/ZEC — +70–90% in a week, $500→~$600; Ironwood upgrade + Tachyon formal-verification; Multicoin (Tushar Jain) building since Feb."
+      }
+    },
+    "transition-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t2-badge",
+        "t2-content"
+      ]
+    },
+    "t2-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "default"
+      }
+    },
+    "t2-content": {
+      "type": "Text",
+      "props": {
+        "text": "AI-agent trading goes retail — Robinhood connecting 3rd-party AI agents (70k beta accts); XRPL >1M agent txns."
+      }
+    },
+    "transition-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t3-badge",
+        "t3-content"
+      ]
+    },
+    "t3-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED",
+        "variant": "secondary"
+      }
+    },
+    "t3-content": {
+      "type": "Text",
+      "props": {
+        "text": "DATs — mNAV compressing; Strategy ~1.5x, Bitmine/SharpLink <1.0 (discount-to-NAV) post June preferred stress."
+      }
+    },
+    "sep2": {
+      "type": "Separator"
+    },
+    "reflexivity-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "reflexivity-heading",
+        "reflexivity-1",
+        "reflexivity-2"
+      ]
+    },
+    "reflexivity-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY",
+        "level": "h3"
+      }
+    },
+    "reflexivity-1": {
+      "type": "Text",
+      "props": {
+        "text": "DATs — reverse flywheel: discount-to-NAV makes issuance dilutive, premium engine seizes (NYDIG \"How DATs Die\")."
+      }
+    },
+    "reflexivity-2": {
+      "type": "Text",
+      "props": {
+        "text": "ZEC — price front-running fundamentals on upgrade hype + VC endorsement into mid-July Ironwood."
+      }
+    },
+    "sep3": {
+      "type": "Separator"
+    },
+    "positions-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "positions-heading",
+        "position-1",
+        "position-2",
+        "position-3",
+        "position-4",
+        "position-5"
+      ]
+    },
+    "positions-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h3"
+      }
+    },
+    "position-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p1-badge",
+        "p1-content"
+      ]
+    },
+    "p1-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE: 5 ↓↓ Cope",
+        "variant": "destructive"
+      }
+    },
+    "p1-content": {
+      "type": "Text",
+      "props": {
+        "text": "DATs/mNAV — Strategy/Bitmine/SharpLink — reflexivity flipped negative, dilutive death spiral."
+      }
+    },
+    "position-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p2-badge",
+        "p2-content"
+      ]
+    },
+    "p2-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE: 4 ↑↑ Bull",
+        "variant": "default"
+      }
+    },
+    "p2-content": {
+      "type": "Text",
+      "props": {
+        "text": "Privacy/ZEC — Multicoin, Ironwood — bear: sell-the-news into the upgrade + privacy regulatory risk."
+      }
+    },
+    "position-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p3-badge",
+        "p3-content"
+      ]
+    },
+    "p3-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE: 4 ↑ Bull",
+        "variant": "default"
+      }
+    },
+    "p3-content": {
+      "type": "Text",
+      "props": {
+        "text": "AI agents — Robinhood, XRPL, a16z — bear: prompt-injection drains (JADEPUFFER); infra w/o token accrual."
+      }
+    },
+    "position-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p4-badge",
+        "p4-content"
+      ]
+    },
+    "p4-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE: 4 → Bull",
+        "variant": "default"
+      }
+    },
+    "p4-content": {
+      "type": "Text",
+      "props": {
+        "text": "Stablecoins — Tether $20M→Mercado — bear: no contrarian edge, already priced."
+      }
+    },
+    "position-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p5-badge",
+        "p5-content"
+      ]
+    },
+    "p5-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH: 3 ↑ Mixed",
+        "variant": "outline"
+      }
+    },
+    "p5-content": {
+      "type": "Text",
+      "props": {
+        "text": "Prediction/attention mkts — Kaito×Polymarket, Robinhood — bear: wagering on vibes."
+      }
+    },
+    "sep4": {
+      "type": "Separator"
+    },
+    "map-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "map-heading",
+        "map-emerging",
+        "map-rising",
+        "map-peak",
+        "map-fading"
+      ]
+    },
+    "map-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h3"
+      }
+    },
+    "map-emerging": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "map-emerging-label",
+        "map-emerging-content"
+      ]
+    },
+    "map-emerging-label": {
+      "type": "Badge",
+      "props": {
+        "text": "Emerging",
+        "variant": "outline"
+      }
+    },
+    "map-emerging-content": {
+      "type": "Text",
+      "props": {
+        "text": "Prediction/attention markets"
+      }
+    },
+    "map-rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "map-rising-label",
+        "map-rising-content"
+      ]
+    },
+    "map-rising-label": {
+      "type": "Badge",
+      "props": {
+        "text": "Rising",
+        "variant": "default"
+      }
+    },
+    "map-rising-content": {
+      "type": "Text",
+      "props": {
+        "text": "Privacy/ZEC, AI agents"
+      }
+    },
+    "map-peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "map-peak-label",
+        "map-peak-content"
+      ]
+    },
+    "map-peak-label": {
+      "type": "Badge",
+      "props": {
+        "text": "Peak",
+        "variant": "default"
+      }
+    },
+    "map-peak-content": {
+      "type": "Text",
+      "props": {
+        "text": "Stablecoins, RWA-as-collateral"
+      }
+    },
+    "map-fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "map-fading-label",
+        "map-fading-content"
+      ]
+    },
+    "map-fading-label": {
+      "type": "Badge",
+      "props": {
+        "text": "Fading",
+        "variant": "secondary"
+      }
+    },
+    "map-fading-content": {
+      "type": "Text",
+      "props": {
+        "text": "DATs/mNAV, meme+ICO launchpads"
+      }
+    },
+    "sep5": {
+      "type": "Separator"
+    },
+    "trader-note": {
+      "type": "Alert",
+      "props": {
+        "title": "Trader note",
+        "message": "HeartCanHodl short-basket includes ZEC — the +70–90% rip runs hard against that leg; watch for cover/stop.",
+        "type": "warning"
+      }
+    },
+    "context": {
+      "type": "Text",
+      "props": {
+        "text": "Context: BTC −3.3% to ~$62K (Jul 13, US-Iran/oil/inflation); CPI + Warsh testimony this week.",
+        "variant": "muted"
+      }
+    }
+  }
+}

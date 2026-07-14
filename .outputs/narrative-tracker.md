@@ -1,21 +1,27 @@
-*Narrative Tracker — 2026-06-08*  (baseline run — no prior map to diff)
+*Narrative Tracker — 2026-07-14*
+_(first run since dormancy 06-08 — transitions seeded, real diff starts tomorrow)_
 
-LIVE CATALYST
-• BTC ETF exodus + Strategy's first sale in ~4yrs → -12% (72.8k→64.1k). Record 3.4B (USD) weekly ETF outflows, 1.8B in liquidations (largest since Feb). This is the tape today — every other narrative is bleeding into it.
+TRANSITIONS (seeded)
+• NEW: Privacy/ZEC — +70–90% in a week, $500→~$600; Ironwood upgrade + Tachyon formal-verification; Multicoin (Tushar Jain) building since Feb.
+• NEW: AI-agent trading goes retail — Robinhood connecting 3rd-party AI agents (70k beta accts); XRPL >1M agent txns.
+• DEMOTED: DATs — mNAV compressing; Strategy ~1.5x, Bitmine/SharpLink <1.0 (discount-to-NAV) post June preferred stress.
 
-REFLEXIVITY ALERT
-• 'Never sell' break — Strategy sold just 32 BTC (~2.5M, a trivial size) but it snapped the reflexive infinite-bid story → cascading liquidations. Outcome moved on narrative, not fundamentals.
-• ZEC — Polymarket odds swung 28% in 24h on Orchard counterfeit-coin bug fear (disclosed Jun 4); -38% on the week. Price chasing the story, not cashflows.
+REFLEXIVITY
+• DATs — reverse flywheel: discount-to-NAV makes issuance dilutive, premium engine seizes (NYDIG "How DATs Die").
+• ZEC — price front-running fundamentals on upgrade hype + VC endorsement into mid-July Ironwood.
 
 POSITIONS
-• RIDE-SHORT: BTC / majors (mindshare 5 ↑↑, Bear) — ETF outflows + Saylor sell signal — bear case: 1.35B of longs already liquidated, capitulation-bounce risk near 60k. (Tracked HCH already short, targets 57-52k.)
-• FADE: Privacy / ZEC (4 ↓↓, Cope) — 'privacy is normal' bulls (Multicoin, Grayscale filings) holding through a counterfeit-coin bug — trust broken near-term; structural bid only much lower.
-• RIDE: AI infrastructure — TAO / RENDER / AKT / FET (4 →, Mixed) — capital rotating out of agent-meme speculation into real compute/data demand — bear case: still crypto-beta, bleeds with BTC.
-• WATCH: Prediction / Attention markets (3 ↑, Bull) — Polymarket + Kaito Attention Markets scaling to thousands — structurally real, no clean token vehicle yet.
-• IGNORE: pure AI-agent memes (VIRTUAL-style) — no catalyst; the rotation is leaving them.
+• FADE: DATs/mNAV (5 ↓↓ Cope) — Strategy/Bitmine/SharpLink — reflexivity flipped negative, dilutive death spiral.
+• RIDE: Privacy/ZEC (4 ↑↑ Bull) — Multicoin, Ironwood — bear: sell-the-news into the upgrade + privacy regulatory risk.
+• RIDE: AI agents (4 ↑ Bull) — Robinhood, XRPL, a16z — bear: prompt-injection drains (JADEPUFFER); infra w/o token accrual.
+• RIDE: Stablecoins (4 → Bull) — Tether $20M→Mercado — bear: no contrarian edge, already priced.
+• WATCH: Prediction/attention mkts (3 ↑ Mixed) — Kaito×Polymarket, Robinhood — bear: wagering on vibes.
 
-MAP (baseline)
-Emerging: —
-Rising: Prediction/Attention markets, Macro risk-off (AI-stock/IPO capital drain, geopolitics)
-Peak: BTC ETF-exodus crash, AI infrastructure rotation
-Fading: Privacy/ZEC (Orchard bug)
+MAP
+Emerging: Prediction/attention markets
+Rising: Privacy/ZEC, AI agents
+Peak: Stablecoins, RWA-as-collateral
+Fading: DATs/mNAV, meme+ICO launchpads
+
+Trader note: HeartCanHodl short-basket includes ZEC — the +70–90% rip runs hard against that leg; watch for cover/stop.
+Context: BTC −3.3% to ~$62K (Jul 13, US-Iran/oil/inflation); CPI + Warsh testimony this week.
