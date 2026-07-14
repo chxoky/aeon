@@ -1,0 +1,169 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading_calibration",
+        "separator_1",
+        "stack_context",
+        "separator_2",
+        "stack_event",
+        "separator_3",
+        "stack_question"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack_context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_context_label",
+        "text_context_time",
+        "text_context_analysis"
+      ]
+    },
+    "text_context_label": {
+      "type": "Text",
+      "props": {
+        "text": "Context:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text_context_time": {
+      "type": "Text",
+      "props": {
+        "text": "@Wild_Randomness recent macro/regime analysis (20:03:38 UTC, 5 min prior) on correlation regimes and hyperscaler spending cycles.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_context_analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Macro/vol trader expecting 'spot up, vol up, then broader top' scenario.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack_event": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_event_label",
+        "tweet_card",
+        "link_tweet_url"
+      ]
+    },
+    "text_event_label": {
+      "type": "Text",
+      "props": {
+        "text": "Event:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "@PlutonicXBT",
+        "text": "What if we're topping now",
+        "handle": "PlutonicXBT"
+      },
+      "children": []
+    },
+    "link_tweet_url": {
+      "type": "Link",
+      "props": {
+        "label": "https://t.co/hwRqfUkJoi",
+        "href": "https://t.co/hwRqfUkJoi"
+      },
+      "children": []
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack_question": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_question_label",
+        "text_classification",
+        "text_uncertainty",
+        "alert_uncertainty"
+      ]
+    },
+    "text_question_label": {
+      "type": "Text",
+      "props": {
+        "text": "Question:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text_classification": {
+      "type": "Text",
+      "props": {
+        "text": "Is this (a) genuine uncertainty/question to another trader, (b) bearish conviction phrasing, or (c) market discussion?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_uncertainty": {
+      "type": "Text",
+      "props": {
+        "text": "URL inaccessible for full context.",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "alert_uncertainty": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify definitively",
+        "message": "What's your read?",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}
