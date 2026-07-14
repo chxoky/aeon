@@ -1,0 +1,71 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "topic_heading",
+        "tweet_card",
+        "separator_1",
+        "analysis_heading",
+        "analysis_text",
+        "link_tweet"
+      ]
+    },
+    "topic_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "BTC/NQ Correlation",
+        "level": "h3"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "@bull_genius",
+        "text": "i completely ignore it... its not robust except for specific occasions where both are tanking... the predictor you are looking for isnt nq its the bond market. on an average day the corr btc nq isnt robust enough to draw actionable conclusions"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Substantive Technical Pushback",
+        "level": "h4"
+      }
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Dismisses BTC/NQ as reliable signal, re-frames focus to bond-market moves (real rates, credit spreads) as underlying driver."
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/bull_genius/status/2077033653901689311"
+      }
+    }
+  }
+}

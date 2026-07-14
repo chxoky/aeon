@@ -69,9 +69,10 @@
 - Current open positions: Mostly **FLAT / patient**. Closed in profit: **$MU + $SNDK** memory longs (Jul 9, ~1000/1800) and an onchain **cashcat** 15x. Small BTC longs opened/trimmed intraday, no held size.
 - Recent thesis: Patient tactical — "letting the market come to me," won't chase the "meatgrinder range" (summer POC vs 7d rvwap ~61.4–61.6K = line in sand). Bearish/cautious **$HYPE** near-term (7d/30d trend exhausted, weekly bear div, Robinhood + perp-DEX TGE headwinds Q3–Q4 — justifies HYPE bulls' short hedges). Long-term accumulator: DCA shitcoin profits into majors spot over summer/fall. Onchain more rewarding than BTC right now. Thinks CLARITY Act unlikely this month.
 - Conviction notes: rvwap/POC volume-profile framing; disciplined, waits for others to "do the heavy lifting." Signs off "marmot."
-- Last seen: 2026-07-14 13:31 UTC
+- Last seen: 2026-07-14 14:13 UTC
 - **Events log:**
   - Jul 14 13:31 — informational (market commentary / range-trading strategy) — "and we are back at range highs on soft cpi\n\nbuy lows sell highs repeat until breakout confirm then join the momentum" — general market observation (range highs = context), strategy principle (buy lows/sell highs in range-bound market), and exit rule (breakout confirmation → momentum follow). Aligns with bull_genius's thesis of patient, disciplined trading waiting for structural clarity; not a personal execution call. Alert sent.
+  - Jul 14 14:13 — informational (macro analysis / technical pushback) — Reply to @0xelevenquit on BTC/NQ correlation: "i completely ignore it... its not robust except for specific occasions where both are tanking... the predictor you are looking for isnt nq its the bond market. on an average day the corr btc nq isnt robust enough to draw actionable conclusions" — Substantive take: dismisses BTC/NQ as a reliable signal, re-frames focus to bond-market moves (real rates, credit spreads) as the underlying driver. Challenges a common TA assumption. Alert sent.
 
 ## Stoiiic
 - Platforms: X
