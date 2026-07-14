@@ -37,7 +37,7 @@
 - Current open positions: No explicit sized position — intraday BTC/ETH trader, long-biased.
 - Recent thesis: Bullish lean ("bears are being abused," "Go up"). BTC posts daily H1/H4 structure updates; Jul 13 at a global POC with an EQH formed, waiting for LTF reversal patterns. ETH "structure looks clean," dismissive of ETH longs earlier in window. Trades intraday around volume clusters. (Based in Moscow; lots of off-topic personal/gym content.)
 - Conviction notes: Technical (volume profile / clusters / POC), publishes game plans with invalidations. Signal is in the "$BTC Daily Update" posts.
-- Last seen: 2026-07-14 08:53 UTC
+- Last seen: 2026-07-14 10:01 UTC
 - **Events log:**
   - Jul 14 07:33 — informational (bullish sentiment / DCA plan) — "I agree with @ryzzqq and @Trade17 that we've hit the local low for the month; I plan to build up long positions over the next couple of days" — BTC, convergence with KillaXBT/t_in_crypto bullish bias
   - Jul 14 07:48 — skip (non-financial) — "@wasmynme @ryzzcqq @Trade17 :3 \n\nTo you too" — personal response, no signal
@@ -45,6 +45,7 @@
   - Jul 14 07:57 — ambiguous (cryptic reply, no context) — "@dingiloop Leopard" — no clear financial signal, awaiting Kyle clarification on "Leopard" meaning
   - Jul 14 08:53 — skip (non-financial/existential) — "One day you'll post your last trading setup" — philosophical commentary on trading finitude, no market signal, no ticker, pure personal reflection
   - Jul 14 08:57 — skip (non-financial) — "@pierre_crypt0 🫶🏼❤️" — personal reply with emojis, no financial signal
+  - Jul 14 10:01 — skip (non-financial) — "@blancxbt Hey, I just turned off notifications for you. Thanks, Nikita beer" — personal message to another user, no financial signal
 
 ## bull_genius (marmot)
 - Platforms: X
