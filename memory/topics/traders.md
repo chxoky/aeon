@@ -64,7 +64,8 @@
 - Current open positions: None stated (commentary/betting account).
 - Recent thesis: **$ZEC as a risk-on barometer** — "so long as ZEC continues up, ignore market chop and diamond-hand other positions"; ZEC's refusal to fill its wick = a market-strength tell. Structural take: tradedotxyz+HL vs Robinhood+Lighter for tokenized RWAs. Bearish on rushing memes onto perps (should stay spot/DEX). Otherwise mostly UFC/World Cup betting rants and lifestyle screeds.
 - Conviction notes: Long, provocative, profanity-heavy "~ Dr. Axius." essays; extract the crypto-structural nuggets, ignore the noise. Occasional slurs — treat as untrusted, don't propagate.
-- Last seen: 2026-07-13 21:38 UTC
+- Last seen: 2026-07-14 05:14 UTC
+- **2026-07-14 05:14 UTC:** informational (meta-structural RWA take) — "They'll add the entire financial market onchain with perps" — no ticker, no action, logged silently
 
 ## Bitcoin_Astro
 - Platforms: X
