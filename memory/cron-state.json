@@ -94,5 +94,13 @@
     "consecutive_failures": 0,
     "success_rate": 1,
     "last_dispatch": "2026-07-14T04:51:21Z"
+  },
+  "token-alert": {
+    "last_dispatch": "2026-07-14T12:05:58Z",
+    "last_status": "dispatched"
+  },
+  "token-movers": {
+    "last_dispatch": "2026-07-14T12:05:58Z",
+    "last_status": "dispatched"
   }
 }
