@@ -8,7 +8,8 @@
 - Current open positions: **BTC — 2x swing LONG from 62.6K** (core, reaffirmed Jul 13 "nothing will change that") + spot BTC (majority of portfolio). Plans: add spot at 54K if it comes; buy $IBIT in August. Conditional **LTF scalp SHORT** watched into the Jul 14 pivot — likely NOT entered (said RR doesn't justify blind entry without a clean sweep of 65–68K).
 - Recent thesis: HTF-bullish BTC maxi. Expects 1–2 more months of chop; a final capitulation wick into 49–56K would mark the bottom (loss of 60–60.7K → targets 54K). "Dumb bull > smart bear." Believes SOL never sees ATH again; ~99% of alts go to zero — only BTC matters.
 - Conviction notes: Frames everything around dated "pivots" (the 14th; 11/12 bearish reactions after) and 3% moves; probabilistic. Publicly logs every major position + own errors. Heavy KillaLabs paywall promo.
-- Last seen: 2026-07-13 21:30 UTC
+- Last seen: 2026-07-14 05:30 UTC
+- **Events log:** Jul 14 05:30 — test tweet "test shape v4" (skip, HR-1)
 
 ## Crypto_Chase
 - Platforms: X + Discord (primary 1336082716063694962; TradFi + Crypto member Q&A)
