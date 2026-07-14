@@ -1,7 +1,9 @@
-🐦 *[X] @bull_genius*
+🔍 *Calibration — @Wild_Randomness*
 
-The semis/memory/AI market has been decoupled from BTC — haven't seen them move together at all, on the contrary. Having trouble extracting a solid trade idea from 'NQ did X so BTC should do Y' correlation.
+Event: Unclear. Wild_Randomness is primarily an equities/vol trader; sudden minimal ETH post suggests either a new thesis or chart observation.
 
-[View tweet](https://x.com/bull_genius/status/2077035518957690973)
+Wild_Randomness: "$ETH
 
-_Follows earlier take (14:13) on BTC/NQ unreliability; reinforces bond-market focus over equity correlation._
+Progressing https://t.co/vIcXwkWHmm"
+
+Unable to classify — is this a chart analysis post (informational), or are they positioning in ETH?
