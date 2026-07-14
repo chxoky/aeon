@@ -1,0 +1,44 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "alignment_note",
+        "tweet_link"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "If $BTC manages to sweep above the current highs, I'll be watching closely for signs of exhaustion.\n\nThere's still a liquidity pool sitting above 64.8K, but right now we're testing the weekly open.\n\nIf we can't reclaim and hold the weekly open, this is likely just a lower high before we move down to test the $60K region.\n\nI'd consider taking some scalp shorts around the $65K area if price gets there.\n\nThat said, I'd keep position sizes small. We're in the final stages of this bear market, so I'd rather stay cautious than get overly aggressive on the short side."
+      },
+      "children": []
+    },
+    "alignment_note": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "title": "Trading Consensus",
+        "message": "Aligns with HCH's bearish bias (short basket added 07-14) + macro consensus on bear-market final phases; differs from Killa's HTF 2x BTC long conviction (reaffirmed 07-14 12:56)."
+      },
+      "children": []
+    },
+    "tweet_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View on X",
+        "href": "https://x.com/KillaXBT/status/2077025047282122755",
+        "source": "X (Twitter)"
+      },
+      "children": []
+    }
+  }
+}

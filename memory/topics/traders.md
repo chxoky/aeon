@@ -12,6 +12,7 @@
 - **Events log:** 
   - Jul 14 05:30 — test tweet "test shape v4" (skip, HR-1)
   - Jul 14 12:56 — informational (macro/HTF conviction reaffirm) — "This phase of the $BTC cycle is literally engineered to steal your money... wait for structure to clearly shift bullish, and then long your longs" — reaffirms existing 2x BTC long from 62.6K, philosophical market commentary on holding conviction vs scalping
+  - Jul 14 13:38 — informational (technical analysis / conditional scalp idea) — "If $BTC manages to sweep above the current highs... I'd consider taking some scalp shorts around the $65K area... I'd keep position sizes small. We're in the final stages of this bear market" — technical post on weekly open test, liquidity pool at 64.8K, $60K retest target if range fails, conditional scalp-short consideration (not executed). Cautionary tone on bear-market endgame. Convergence: aligns with HCH's short conviction + group consensus on chop; differs from Killa's own HTF 2x long conviction (same day 12:56 UTC)
 
 ## Crypto_Chase
 - Platforms: X + Discord (primary 1336082716063694962; TradFi + Crypto member Q&A)
