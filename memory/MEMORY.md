@@ -14,7 +14,7 @@ Autonomous trading-signal agent running on GitHub Actions via Claude Code. Monit
 - **Discord inbound:** Worker cron every 1 min → `discord-trader-monitor`
 - **Telegram inbound:** Worker `/telegram` → instant routing (concierge, brief, etc.)
 - **Telegram outbound:** `./notify` in all skills (token-strip fix applied)
-- **GitHub Actions cron:** still enabled as secondary fallback (`*/15` each)
+- **GitHub Actions cron:** monitors have `enabled: false` in aeon.yml — intentionally webhook/Worker-triggered only, no cron fallback (corrected 2026-07-13; the `*/15` fallback line was stale)
 
 ## Active Topics
 - [Trader State](topics/traders.md) — All 12 traders, current positions, last seen timestamps. 3 Discord traders refreshed by `trader-bootstrap` 2026-06-16 (force re-run, Discord-only); 9 X-only sections STALE (06-08, X cache empty this run).

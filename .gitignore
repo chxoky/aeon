@@ -49,3 +49,8 @@ node_modules/
 # Stale artifacts
 .external-work
 .vuln-scan/
+
+# Dev-agent framework (local interactive sessions only — never committed, never read by Actions)
+USER.md
+STATE.md
+BRAIN.md
