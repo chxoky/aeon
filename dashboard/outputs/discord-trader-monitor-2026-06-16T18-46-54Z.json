@@ -1,0 +1,83 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Duplicate message detection"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert_duplicate",
+        "separator_1",
+        "stack_details"
+      ]
+    },
+    "alert_duplicate": {
+      "type": "Alert",
+      "props": {
+        "title": "Duplicate Message",
+        "message": "Message from Crypto_Chase (Chase — TradFi) already seen. No new alert sent.",
+        "type": "info"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_sender",
+        "text_id",
+        "text_cache",
+        "text_logging"
+      ]
+    },
+    "text_sender": {
+      "type": "Text",
+      "props": {
+        "text": "Sender: Crypto_Chase (Chase — TradFi)",
+        "variant": "body"
+      }
+    },
+    "text_id": {
+      "type": "Text",
+      "props": {
+        "text": "Message ID: 1516096607500636181",
+        "variant": "caption"
+      }
+    },
+    "text_cache": {
+      "type": "Text",
+      "props": {
+        "text": "Status: Remains in dedup cache (previously processed)",
+        "variant": "body"
+      }
+    },
+    "text_logging": {
+      "type": "Text",
+      "props": {
+        "text": "Logged as: re-trigger",
+        "variant": "caption"
+      }
+    }
+  }
+}

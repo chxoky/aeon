@@ -1,0 +1,43 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-main",
+        "badge-crypto"
+      ]
+    },
+    "tweet-main": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Chase",
+        "handle": "DC",
+        "text": "It's not a high-quality trade. The high-quality trade I already missed. Not sure what else to say"
+      },
+      "children": []
+    },
+    "badge-crypto": {
+      "type": "Badge",
+      "props": {
+        "text": "Crypto",
+        "variant": "secondary"
+      },
+      "children": []
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "main-stack"
+      ]
+    },
+    "main-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "metadata",
+        "insight",
+        "signal",
+        "chart"
+      ]
+    },
+    "metadata": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-discord",
+        "badge-hch",
+        "badge-free"
+      ]
+    },
+    "badge-discord": {
+      "type": "Badge",
+      "props": {
+        "text": "💬 Discord",
+        "variant": "default"
+      }
+    },
+    "badge-hch": {
+      "type": "Badge",
+      "props": {
+        "text": "HCH",
+        "variant": "secondary"
+      }
+    },
+    "badge-free": {
+      "type": "Badge",
+      "props": {
+        "text": "Free",
+        "variant": "secondary"
+      }
+    },
+    "insight": {
+      "type": "Text",
+      "props": {
+        "text": "↩️ Crypto folks topped SPCX with their mentions 🗿",
+        "variant": "lead"
+      }
+    },
+    "signal": {
+      "type": "Alert",
+      "props": {
+        "title": "Bearish Sentiment Signal",
+        "message": "Retail interest (mentions) in SPCX may indicate sentiment top. Chart attached.",
+        "type": "warning"
+      }
+    },
+    "chart": {
+      "type": "Link",
+      "props": {
+        "label": "Chart",
+        "href": "https://cdn.discordapp.com/attachments/1472153627324842057/1518863579737100298/chart-1320.png?ex=6a3b7770&is=6a3a25f0&hm=f8a1106db6105551abe458e5aef1624e7309302e76a0c82780dd57a184433a2a&"
+      }
+    }
+  }
+}

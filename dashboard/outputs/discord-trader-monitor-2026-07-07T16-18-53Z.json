@@ -1,0 +1,24 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor"
+      },
+      "children": [
+        "message"
+      ]
+    },
+    "message": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Chase",
+        "handle": "Chase",
+        "text": "just another day managing collapsing markets, apologies for the lack of easy trades lately, but hopefully the management is at least educational to a degree"
+      },
+      "children": []
+    }
+  }
+}

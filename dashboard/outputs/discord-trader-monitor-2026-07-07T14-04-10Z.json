@@ -1,0 +1,117 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor",
+        "description": "Trade signal tracking and classification"
+      },
+      "children": [
+        "calibration",
+        "sep1",
+        "event",
+        "sep2",
+        "classification"
+      ]
+    },
+    "calibration": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cal-text",
+        "cal-badge"
+      ]
+    },
+    "cal-text": {
+      "type": "Text",
+      "props": {
+        "text": "🔍 Calibration —",
+        "variant": "muted"
+      }
+    },
+    "cal-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DC: Chase — Chase"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "event": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event-title",
+        "event-timestamp",
+        "message1",
+        "message2"
+      ]
+    },
+    "event-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "event-timestamp": {
+      "type": "Text",
+      "props": {
+        "text": "Earlier message at 2026-07-07T01:44Z",
+        "variant": "caption"
+      }
+    },
+    "message1": {
+      "type": "Text",
+      "props": {
+        "text": "\"920's to add back some MU, but keeping total risk at 2% or so\""
+      }
+    },
+    "message2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "msg2-speaker",
+        "msg2-text"
+      ]
+    },
+    "msg2-speaker": {
+      "type": "Text",
+      "props": {
+        "text": "crypto_chase:",
+        "variant": "muted"
+      }
+    },
+    "msg2-text": {
+      "type": "Text",
+      "props": {
+        "text": "\"Sorta want it today though, we'll see\""
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Is this a confirmed re-add execution intent, or still evaluation? The language is tentative (\"Sorta\", \"we'll see\").",
+        "type": "warning"
+      }
+    }
+  }
+}

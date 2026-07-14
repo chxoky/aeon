@@ -1,0 +1,59 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — [DC: Chase — TradFi]"
+      },
+      "children": [
+        "alert_missing",
+        "sep1",
+        "message",
+        "sep2",
+        "question"
+      ]
+    },
+    "alert_missing": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Missing Context",
+        "message": "Event has no referenced_message."
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "message": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Crypto_Chase",
+        "handle": "supporting channel • 2026-06-17T18:14:33Z",
+        "text": "I mean it can outperform but not if everything is crashing"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "question": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "lead"
+      },
+      "children": []
+    }
+  }
+}

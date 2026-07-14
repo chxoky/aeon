@@ -1,0 +1,39 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "heading",
+        "message",
+        "alert"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration — [DC: Chase — Crypto]",
+        "level": "h3"
+      }
+    },
+    "message": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Chase",
+        "text": "that is Giga Bearish no lie"
+      }
+    },
+    "alert": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Unable to classify",
+        "message": "what's the subject of the bearish call?"
+      }
+    }
+  }
+}

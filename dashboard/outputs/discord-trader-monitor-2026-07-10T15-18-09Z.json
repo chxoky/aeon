@@ -1,0 +1,113 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor — Calibration [DC: HCH — Free]"
+      },
+      "children": [
+        "event_section",
+        "link_section",
+        "sandbox_note",
+        "options_section",
+        "closing_question"
+      ]
+    },
+    "event_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event_label",
+        "event_text"
+      ]
+    },
+    "event_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h4"
+      }
+    },
+    "event_text": {
+      "type": "Text",
+      "props": {
+        "text": "HCH shared X post link in free/public Discord channel"
+      }
+    },
+    "link_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_label",
+        "x_link"
+      ]
+    },
+    "link_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Link",
+        "level": "h4"
+      }
+    },
+    "x_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "X Post",
+        "href": "https://x.com/i/status/2075598488247963763",
+        "source": "X"
+      }
+    },
+    "sandbox_note": {
+      "type": "Alert",
+      "props": {
+        "message": "Unable to access X content in sandbox — is this:",
+        "type": "info"
+      }
+    },
+    "options_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "option_a",
+        "option_b",
+        "option_c"
+      ]
+    },
+    "option_a": {
+      "type": "Text",
+      "props": {
+        "text": "(a) Follow-up analysis on this morning's short re-entry (BTC/ETH/SOL/HYPE/ZEC)?"
+      }
+    },
+    "option_b": {
+      "type": "Text",
+      "props": {
+        "text": "(b) New trade signal requiring action?"
+      }
+    },
+    "option_c": {
+      "type": "Text",
+      "props": {
+        "text": "(c) Market commentary / community resource?"
+      }
+    },
+    "closing_question": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "lead"
+      }
+    }
+  }
+}

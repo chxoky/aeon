@@ -1,0 +1,125 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor"
+      },
+      "children": [
+        "heading_calibration",
+        "separator_1",
+        "stack_content"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: Chase — TradFi]",
+        "level": "h2"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event_section",
+        "quote_section",
+        "image_section",
+        "alert_question"
+      ]
+    },
+    "event_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event_label",
+        "event_text"
+      ]
+    },
+    "event_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "event_text": {
+      "type": "Text",
+      "props": {
+        "text": "10 min after gut-feeling about larger pullback (12:56Z); supports Chase's current ES position anxiety (giga chop, 50/50 conviction)."
+      }
+    },
+    "quote_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "quote_label",
+        "quote_text"
+      ]
+    },
+    "quote_label": {
+      "type": "Heading",
+      "props": {
+        "text": "crypto_chase",
+        "level": "h3"
+      }
+    },
+    "quote_text": {
+      "type": "Text",
+      "props": {
+        "text": "Something like this maybe"
+      }
+    },
+    "image_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "image_label",
+        "image_link"
+      ]
+    },
+    "image_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Image Attachment",
+        "level": "h3"
+      }
+    },
+    "image_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Discord Image",
+        "href": "https://cdn.discordapp.com/attachments/1343971265962049597/1518965488141467830/image.png",
+        "source": "Discord"
+      }
+    },
+    "alert_question": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read? Technical setup on Google/MU/ES or market sentiment?",
+        "type": "info"
+      }
+    }
+  }
+}

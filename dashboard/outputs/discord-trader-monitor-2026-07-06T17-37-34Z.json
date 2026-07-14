@@ -1,0 +1,23 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor — Chase"
+      },
+      "children": [
+        "tweet-1"
+      ]
+    },
+    "tweet-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Chase",
+        "handle": "DC",
+        "text": "I like buying flushes..\n\nRule of thumb though\n1. Buy flush, big profit / strong PA within minutes/hours or next day = great, small TP's and let run\n2. Buy flush, stagnate PA / retracing towards the flush = not great, cuts and look for lower.\n\nDoesn't always play out this way, but it keeps the profits big, losses small."
+      }
+    }
+  }
+}

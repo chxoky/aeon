@@ -1,0 +1,123 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — Discord Trader Monitor [DC: Chase — TradFi]",
+        "description": "Supporting-channel message analysis"
+      },
+      "children": [
+        "metadata_stack",
+        "sep1",
+        "message_section",
+        "sep2",
+        "analysis_section"
+      ]
+    },
+    "metadata_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "timestamp",
+        "event_type"
+      ]
+    },
+    "timestamp": {
+      "type": "Text",
+      "props": {
+        "text": "Time: 2026-06-17T19:24:39Z",
+        "variant": "caption"
+      }
+    },
+    "event_type": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Supporting-channel message with image attachment",
+        "variant": "caption"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "message_card",
+        "image_link"
+      ]
+    },
+    "message_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Crypto_Chase",
+        "text": "Something like this would interest me way more but it probably just goes straight to it if the market's actually bearish"
+      }
+    },
+    "image_link": {
+      "type": "Link",
+      "props": {
+        "label": "View attached image",
+        "href": "https://cdn.discordapp.com/attachments/1343971265962049597/1516886310709625003/image.png?ex=6a3445f6&is=6a32f476&hm=4befad9ef5716ece333942f23174ccc328814dd52b77634dced6f08624eb8ad78b9&"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_heading",
+        "context_text",
+        "classification_note",
+        "question"
+      ]
+    },
+    "context_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context Analysis",
+        "level": "h3"
+      }
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "Conditional interest statement. Cannot determine what \"this\" refers to without seeing the image. Appears to be responding to a setup/chart but lacks the referenced_message field.",
+        "variant": "body"
+      }
+    },
+    "classification_note": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify as trade signal, informational setup, or strategy philosophy.",
+        "variant": "muted"
+      }
+    },
+    "question": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "lead"
+      }
+    }
+  }
+}

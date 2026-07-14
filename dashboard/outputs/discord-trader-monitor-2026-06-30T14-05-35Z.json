@@ -1,0 +1,160 @@
+{
+  "root": "card-discord-trader",
+  "state": {},
+  "elements": {
+    "card-discord-trader": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Skill completed"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-completed",
+        "sep-1",
+        "heading-signal",
+        "text-author",
+        "text-message",
+        "badge-ambiguous",
+        "text-context",
+        "sep-2",
+        "heading-alert",
+        "badge-alerted",
+        "text-latency",
+        "sep-3",
+        "heading-memory",
+        "stack-files"
+      ]
+    },
+    "text-completed": {
+      "type": "Text",
+      "props": {
+        "text": "✅ Completed at 2026-06-30T14:02:05Z",
+        "variant": "body"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-signal": {
+      "type": "Heading",
+      "props": {
+        "text": "Trading Signal",
+        "level": "h2"
+      }
+    },
+    "text-author": {
+      "type": "Text",
+      "props": {
+        "text": "Crypto_Chase TradFi message",
+        "variant": "lead"
+      }
+    },
+    "text-message": {
+      "type": "Text",
+      "props": {
+        "text": "Conditional ES short speculation at 7550s",
+        "variant": "body"
+      }
+    },
+    "badge-ambiguous": {
+      "type": "Badge",
+      "props": {
+        "text": "AMBIGUOUS",
+        "variant": "destructive"
+      }
+    },
+    "text-context": {
+      "type": "Text",
+      "props": {
+        "text": "Chart context required",
+        "variant": "caption"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-alert": {
+      "type": "Heading",
+      "props": {
+        "text": "Alert Status",
+        "level": "h2"
+      }
+    },
+    "badge-alerted": {
+      "type": "Badge",
+      "props": {
+        "text": "alerted=true",
+        "variant": "secondary"
+      }
+    },
+    "text-latency": {
+      "type": "Text",
+      "props": {
+        "text": "Worker already sent Telegram ~2-5s latency",
+        "variant": "caption"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-memory": {
+      "type": "Heading",
+      "props": {
+        "text": "Memory Updated",
+        "level": "h2"
+      }
+    },
+    "stack-files": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-file1",
+        "text-file2",
+        "text-file3"
+      ]
+    },
+    "text-file1": {
+      "type": "Text",
+      "props": {
+        "text": "traders.md",
+        "variant": "body"
+      }
+    },
+    "text-file2": {
+      "type": "Text",
+      "props": {
+        "text": "discord-trader-seen.txt",
+        "variant": "body"
+      }
+    },
+    "text-file3": {
+      "type": "Text",
+      "props": {
+        "text": "logs/2026-06-30.md",
+        "variant": "body"
+      }
+    }
+  }
+}

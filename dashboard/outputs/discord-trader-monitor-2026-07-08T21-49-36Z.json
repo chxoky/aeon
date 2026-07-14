@@ -1,0 +1,48 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_channel",
+        "text_question",
+        "text_response"
+      ]
+    },
+    "badge_channel": {
+      "type": "Badge",
+      "props": {
+        "text": "DC: Chase — Crypto",
+        "variant": "secondary"
+      }
+    },
+    "text_question": {
+      "type": "Text",
+      "props": {
+        "text": "Member: \"Do you expect a sweep of its previous low ?\"",
+        "variant": "body"
+      }
+    },
+    "text_response": {
+      "type": "Text",
+      "props": {
+        "text": "unlikely",
+        "variant": "muted"
+      }
+    }
+  }
+}

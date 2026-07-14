@@ -1,0 +1,51 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "heading_calib",
+        "text_context",
+        "tweet_chase",
+        "alert_classify"
+      ]
+    },
+    "heading_calib": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: Chase — Crypto]",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "Context: Member discussion in supporting channel (appears to be continuation of prior message/context)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "tweet_chase": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Crypto_Chase",
+        "text": "and i drew this all out before it even happened, so the example isnt hindsight."
+      },
+      "children": []
+    },
+    "alert_classify": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Which prediction/trade is he defending? What's the full context?",
+        "type": "warning"
+      },
+      "children": []
+    }
+  }
+}

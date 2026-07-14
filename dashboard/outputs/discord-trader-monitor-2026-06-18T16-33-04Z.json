@@ -1,0 +1,84 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — Discord Trader Monitor"
+      },
+      "children": [
+        "badge-metadata",
+        "separator-1",
+        "event-text",
+        "separator-2",
+        "message-label",
+        "link-xpost",
+        "separator-3",
+        "alert-unclassified"
+      ]
+    },
+    "badge-metadata": {
+      "type": "Badge",
+      "props": {
+        "text": "DC: HCH — Free",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "event-text": {
+      "type": "Text",
+      "props": {
+        "text": "Event: HeartCanHodl shared a bare X post link in the free/public Discord channel",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "message-label": {
+      "type": "Text",
+      "props": {
+        "text": "Message:",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "link-xpost": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/i/status/2067636578738991290",
+        "href": "https://x.com/i/status/2067636578738991290"
+      },
+      "children": []
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert-unclassified": {
+      "type": "Alert",
+      "props": {
+        "title": "No explanation provided",
+        "message": "Unable to classify — is this a trade idea, a chart analysis, market commentary, or just a share? Please review the linked post and provide context.",
+        "type": "warning"
+      },
+      "children": []
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "source-badge",
+        "message-text"
+      ]
+    },
+    "source-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "💬 [DC: HCH — Trades]",
+        "variant": "secondary"
+      }
+    },
+    "message-text": {
+      "type": "Text",
+      "props": {
+        "text": "Fc btc 1hr",
+        "variant": "lead"
+      }
+    }
+  }
+}

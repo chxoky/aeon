@@ -1,0 +1,112 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "heading",
+        "context",
+        "sep1",
+        "message_stack",
+        "sep2",
+        "metadata_stack",
+        "sep3",
+        "classification_alert"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: Chase — Crypto]",
+        "level": "h2"
+      }
+    },
+    "context": {
+      "type": "Text",
+      "props": {
+        "text": "Context: Chase recently discussed HYPE planning (06-17T14:50Z), leverage philosophy, and conviction shifts throughout the day.",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "message_author",
+        "message_text"
+      ]
+    },
+    "message_author": {
+      "type": "Text",
+      "props": {
+        "text": "crypto_chase",
+        "variant": "lead"
+      }
+    },
+    "message_text": {
+      "type": "Text",
+      "props": {
+        "text": "\"There you go\"",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "metadata_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "timestamp",
+        "channel_badge"
+      ]
+    },
+    "timestamp": {
+      "type": "Text",
+      "props": {
+        "text": "2026-06-17T15:21:06Z",
+        "variant": "caption"
+      }
+    },
+    "channel_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Supporting channel",
+        "variant": "secondary"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's the context / what does this refer to?",
+        "type": "warning"
+      }
+    }
+  }
+}

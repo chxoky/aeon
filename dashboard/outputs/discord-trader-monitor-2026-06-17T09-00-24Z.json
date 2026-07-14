@@ -1,0 +1,56 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge-discord",
+        "separator-1",
+        "text-context",
+        "storylink-tweet"
+      ]
+    },
+    "badge-discord": {
+      "type": "Badge",
+      "props": {
+        "text": "DC: HCH — Free",
+        "variant": "secondary"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-context": {
+      "type": "Text",
+      "props": {
+        "text": "HeartCanHodl sharing a post in reply to 'Bulls keep winning'",
+        "variant": "body"
+      }
+    },
+    "storylink-tweet": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Reply to 'Bulls keep winning'",
+        "href": "https://x.com/i/status/2067166845363265884",
+        "source": "HeartCanHodl (HCH)"
+      }
+    }
+  }
+}

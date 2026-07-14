@@ -1,0 +1,184 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — Discord Trader Monitor"
+      },
+      "children": [
+        "badge_header",
+        "sep_1",
+        "context_stack",
+        "sep_2",
+        "message_stack",
+        "sep_3",
+        "analysis_stack"
+      ]
+    },
+    "badge_header": {
+      "type": "Badge",
+      "props": {
+        "text": "DC: HCH — Comments"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_heading",
+        "context_text",
+        "context_flags"
+      ]
+    },
+    "context_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "HeartCanHodl managing LAB short position earlier today (TP 1% at $0.80 at 11:20Z). Recently celebrated covering subscription costs via trading profit (11:31Z). No prior context in this message."
+      }
+    },
+    "context_flags": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "flag_reply",
+        "flag_ref"
+      ]
+    },
+    "flag_reply": {
+      "type": "Badge",
+      "props": {
+        "text": "is_reply=false",
+        "variant": "outline"
+      }
+    },
+    "flag_ref": {
+      "type": "Badge",
+      "props": {
+        "text": "no referenced_message",
+        "variant": "outline"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "message_heading",
+        "message_text"
+      ]
+    },
+    "message_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Message",
+        "level": "h3"
+      }
+    },
+    "message_text": {
+      "type": "Text",
+      "props": {
+        "text": "'Or so below'",
+        "variant": "lead"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis_alert",
+        "options_group"
+      ]
+    },
+    "analysis_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Is this referring to:",
+        "type": "warning"
+      }
+    },
+    "options_group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opt_a",
+        "opt_b",
+        "opt_c",
+        "opt_d",
+        "final_q"
+      ]
+    },
+    "opt_a": {
+      "type": "Text",
+      "props": {
+        "text": "(a) price level below current"
+      }
+    },
+    "opt_b": {
+      "type": "Text",
+      "props": {
+        "text": "(b) position sizing/scaling reference"
+      }
+    },
+    "opt_c": {
+      "type": "Text",
+      "props": {
+        "text": "(c) follow-up on LAB setup"
+      }
+    },
+    "opt_d": {
+      "type": "Text",
+      "props": {
+        "text": "(d) something else"
+      }
+    },
+    "final_q": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "muted"
+      }
+    }
+  }
+}

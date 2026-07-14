@@ -1,0 +1,134 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "trade_heading",
+        "separator1",
+        "content_stack"
+      ]
+    },
+    "trade_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Crypto_Chase SNDK",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "content_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "status_badges",
+        "position_info",
+        "timeline_info"
+      ]
+    },
+    "status_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_commentary",
+        "badge_channel",
+        "badge_alert"
+      ]
+    },
+    "badge_commentary": {
+      "type": "Badge",
+      "props": {
+        "text": "Close Commentary",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "badge_channel": {
+      "type": "Badge",
+      "props": {
+        "text": "Supporting Channel",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "badge_alert": {
+      "type": "Badge",
+      "props": {
+        "text": "No Alert",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "position_info": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_position",
+        "stat_tp"
+      ]
+    },
+    "text_position": {
+      "type": "Text",
+      "props": {
+        "text": "Position remainder minimal after TP",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "stat_tp": {
+      "type": "Stat",
+      "props": {
+        "label": "Take Profit Level",
+        "value": "1834"
+      },
+      "children": []
+    },
+    "timeline_info": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_alert_time",
+        "text_log_time"
+      ]
+    },
+    "text_alert_time": {
+      "type": "Text",
+      "props": {
+        "text": "Fast-path alerted 12:41 UTC",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "text_log_time": {
+      "type": "Text",
+      "props": {
+        "text": "Event logged 14:50 UTC",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}

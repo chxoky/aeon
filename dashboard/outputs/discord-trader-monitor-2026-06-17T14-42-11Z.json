@@ -1,0 +1,48 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_source",
+        "link_tweet",
+        "text_message"
+      ]
+    },
+    "badge_source": {
+      "type": "Badge",
+      "props": {
+        "text": "Discord: Chase",
+        "variant": "secondary"
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/DeItaone/status/2067251068258406706",
+        "href": "https://x.com/DeItaone/status/2067251068258406706"
+      }
+    },
+    "text_message": {
+      "type": "Text",
+      "props": {
+        "text": "very good thing that we got front run on our Google orders because the deal was 100% done and signed.",
+        "variant": "body"
+      }
+    }
+  }
+}

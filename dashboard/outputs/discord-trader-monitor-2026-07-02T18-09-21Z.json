@@ -1,0 +1,40 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "header-source",
+        "message-text"
+      ]
+    },
+    "header-source": {
+      "type": "Text",
+      "props": {
+        "text": "💬 [DC: Chase — TradFi]",
+        "variant": "muted"
+      }
+    },
+    "message-text": {
+      "type": "Text",
+      "props": {
+        "text": "I don't go into these trades with invalidations, I'll add and trim as needed",
+        "variant": "lead"
+      }
+    }
+  }
+}

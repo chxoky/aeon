@@ -1,0 +1,98 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — DC: Chase — TradFi"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert_event",
+        "sep1",
+        "analysis_group",
+        "sep2",
+        "metadata_group"
+      ]
+    },
+    "alert_event": {
+      "type": "Alert",
+      "props": {
+        "title": "Event",
+        "message": "Image-only message (no text content)",
+        "type": "info"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "analysis_label",
+        "analysis_text"
+      ]
+    },
+    "analysis_label": {
+      "type": "Text",
+      "props": {
+        "text": "Chart Analysis",
+        "variant": "muted"
+      }
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify without image interpretation — what's Chase analyzing here? New entry setup, technical level observation, or chart-framework reference?"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "metadata_group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "metadata_id",
+        "metadata_ts"
+      ]
+    },
+    "metadata_id": {
+      "type": "Text",
+      "props": {
+        "text": "Message ID: 1522324041170554920",
+        "variant": "caption"
+      }
+    },
+    "metadata_ts": {
+      "type": "Text",
+      "props": {
+        "text": "Timestamp: 2026-07-02T19:32:14Z",
+        "variant": "caption"
+      }
+    }
+  }
+}

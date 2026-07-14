@@ -1,0 +1,39 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Trading monitor notification"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "status-badge",
+        "action-text"
+      ]
+    },
+    "status-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DC: HCH — Free"
+      }
+    },
+    "action-text": {
+      "type": "Text",
+      "props": {
+        "text": "💬 Reply to X post with blofin chart (reference: \"534 🗿\")"
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "message-stack",
+        "channel-info",
+        "follow-up"
+      ]
+    },
+    "message-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "member-label",
+        "shorting-message"
+      ]
+    },
+    "member-label": {
+      "type": "Text",
+      "props": {
+        "text": "Member",
+        "variant": "muted"
+      }
+    },
+    "shorting-message": {
+      "type": "Text",
+      "props": {
+        "text": "Shorting sol",
+        "variant": "lead"
+      }
+    },
+    "channel-info": {
+      "type": "Badge",
+      "props": {
+        "text": "DC: Chase — Crypto",
+        "variant": "secondary"
+      }
+    },
+    "follow-up": {
+      "type": "Text",
+      "props": {
+        "text": "Tag me if it deviates. I might be interested in short if so",
+        "variant": "body"
+      }
+    }
+  }
+}

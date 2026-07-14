@@ -1,0 +1,30 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "channel_header",
+        "status_line"
+      ]
+    },
+    "channel_header": {
+      "type": "Text",
+      "props": {
+        "text": "💬 *[DC: HCH — Trades]*",
+        "variant": "lead"
+      }
+    },
+    "status_line": {
+      "type": "Text",
+      "props": {
+        "text": "Fc syn 1m",
+        "variant": "caption"
+      }
+    }
+  }
+}

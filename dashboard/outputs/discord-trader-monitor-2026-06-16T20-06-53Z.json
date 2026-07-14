@@ -1,0 +1,74 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor",
+        "description": "Chase — Crypto Channel"
+      },
+      "children": [
+        "channel_header",
+        "conversation"
+      ]
+    },
+    "channel_header": {
+      "type": "Heading",
+      "props": {
+        "text": "💬 Chase — Crypto",
+        "level": "h3"
+      }
+    },
+    "conversation": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "question_section",
+        "divider",
+        "response_section"
+      ]
+    },
+    "question_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "member_label",
+        "question_text"
+      ]
+    },
+    "member_label": {
+      "type": "Text",
+      "props": {
+        "text": "↩️ Member:",
+        "variant": "caption"
+      }
+    },
+    "question_text": {
+      "type": "Text",
+      "props": {
+        "text": "\"Any thoughts on hype? Was that like a rejection or just consolidating before a new push past ath\"",
+        "variant": "body"
+      }
+    },
+    "divider": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "response_section": {
+      "type": "Text",
+      "props": {
+        "text": "Not really. I'm sort of over it price action-wise, with the way it played out. Once I just look at it and I naturally see something, I'll get back into it.",
+        "variant": "body"
+      }
+    }
+  }
+}

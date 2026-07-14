@@ -1,0 +1,61 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "channel-badge",
+        "divider-1",
+        "message-namtsrof",
+        "divider-2",
+        "response-message"
+      ]
+    },
+    "channel-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DC: Chase — TradFi"
+      }
+    },
+    "divider-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message-namtsrof": {
+      "type": "TweetCard",
+      "props": {
+        "author": "namtsrof",
+        "text": "these markets are crazy, put some orders on 1500 this morning but cancalled due to uncertainty. bouncy as fuck on these big mcaps"
+      }
+    },
+    "divider-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "response-message": {
+      "type": "Text",
+      "props": {
+        "text": "I would never cancel those with the market being down 40% in four days , something to consider . The only mistake I made was starting to buy a bit too early. Otherwise this would have been a super banger trade.",
+        "variant": "body"
+      }
+    }
+  }
+}

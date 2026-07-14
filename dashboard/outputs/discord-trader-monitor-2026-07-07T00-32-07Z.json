@@ -1,0 +1,57 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "main-stack"
+      ]
+    },
+    "main-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "channel-badge",
+        "conversation-stack"
+      ]
+    },
+    "channel-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Chase — TradFi"
+      }
+    },
+    "conversation-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "member-message",
+        "response-message"
+      ]
+    },
+    "member-message": {
+      "type": "Text",
+      "props": {
+        "text": "Member: \"Hey... any thoughts on PLTR?\"",
+        "variant": "body"
+      }
+    },
+    "response-message": {
+      "type": "Text",
+      "props": {
+        "text": "Front ran'sweep never got entered",
+        "variant": "body"
+      }
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-title",
+        "text-context",
+        "sep1",
+        "text-message",
+        "alert-question"
+      ]
+    },
+    "heading-title": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: Chase — TradFi]",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text-context": {
+      "type": "Text",
+      "props": {
+        "text": "Context: Chase closed SPCX long earlier today (2026-06-22T00:35:13Z at 176 with very small profits; reassessed 14:31:43Z: 'no re-entry planned, lost all local bullish levels')",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text-message": {
+      "type": "Text",
+      "props": {
+        "text": "Message: 'SPCX 162'",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "alert-question": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification needed",
+        "message": "Unable to classify bare price reference — what's your read?",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "header",
+        "separator1",
+        "event_section",
+        "separator2",
+        "quote_section",
+        "separator3",
+        "classification_alert"
+      ]
+    },
+    "header": {
+      "type": "Badge",
+      "props": {
+        "text": "Calibration — [DC: Chase — TradFi]",
+        "variant": "outline"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "event_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event_label",
+        "event_text"
+      ]
+    },
+    "event_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "event_text": {
+      "type": "Text",
+      "props": {
+        "text": "wiebol pinged Chase"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "quote_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "chase_label",
+        "chase_quote"
+      ]
+    },
+    "chase_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Chase",
+        "level": "h3"
+      }
+    },
+    "chase_quote": {
+      "type": "Text",
+      "props": {
+        "text": "just got home, but never had an impulse below",
+        "variant": "lead"
+      }
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "what's the subject level/asset and read?",
+        "type": "warning"
+      }
+    }
+  }
+}

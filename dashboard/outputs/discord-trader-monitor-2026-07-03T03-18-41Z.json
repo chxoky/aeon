@@ -1,0 +1,23 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "alert_signal"
+      ]
+    },
+    "alert_signal": {
+      "type": "Alert",
+      "props": {
+        "title": "🚨 Trade Signal — [DC: HCH — Trades]",
+        "message": "Secure all spot alt bags gains here",
+        "type": "warning"
+      }
+    }
+  }
+}

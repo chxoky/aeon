@@ -1,0 +1,79 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor"
+      },
+      "children": [
+        "heading_calibration",
+        "separator_top",
+        "context_badge",
+        "message_stack",
+        "separator_bottom",
+        "status_alert"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration",
+        "level": "h2"
+      }
+    },
+    "separator_top": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DC: Chase — TradFi",
+        "variant": "secondary"
+      }
+    },
+    "message_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "message_label",
+        "image_note"
+      ]
+    },
+    "message_label": {
+      "type": "Text",
+      "props": {
+        "text": "Message: \"dump it\"",
+        "variant": "lead"
+      }
+    },
+    "image_note": {
+      "type": "Text",
+      "props": {
+        "text": "Chart image attached",
+        "variant": "body"
+      }
+    },
+    "separator_bottom": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "status_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to Classify",
+        "message": "What's your read?",
+        "type": "info"
+      }
+    }
+  }
+}

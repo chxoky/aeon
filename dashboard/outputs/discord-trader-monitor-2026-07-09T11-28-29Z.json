@@ -1,0 +1,245 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — Discord Trader Monitor",
+        "description": "HCH Signal Classification Uncertainty"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert-main",
+        "sep-1",
+        "stack-earlier",
+        "sep-2",
+        "stack-today",
+        "sep-3",
+        "stack-interpretations",
+        "text-msgid"
+      ]
+    },
+    "alert-main": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to Classify",
+        "message": "HCH posted new signal notation today. Previous context: free short on LAB 1x (2026-07-06). Current message uses ambiguous abbreviations.",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack-earlier": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-earlier",
+        "text-earlier-ts",
+        "text-earlier-msg"
+      ]
+    },
+    "heading-earlier": {
+      "type": "Heading",
+      "props": {
+        "text": "Earlier",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "text-earlier-ts": {
+      "type": "Text",
+      "props": {
+        "text": "2026-07-06 15:23:58Z",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "text-earlier-msg": {
+      "type": "Text",
+      "props": {
+        "text": "HCH: 'Btw lab is again a free short 😉 1x' — posted with LAB chart",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack-today": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-today",
+        "text-today-ts",
+        "text-today-msg"
+      ]
+    },
+    "heading-today": {
+      "type": "Heading",
+      "props": {
+        "text": "Today",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "text-today-ts": {
+      "type": "Text",
+      "props": {
+        "text": "2026-07-09 11:23:16Z",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "text-today-msg": {
+      "type": "Text",
+      "props": {
+        "text": "HCH: 'Fc lab 1hr [link to prior msg] %'",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack-interpretations": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-interp",
+        "row-fc",
+        "row-1hr",
+        "row-pct"
+      ]
+    },
+    "heading-interp": {
+      "type": "Heading",
+      "props": {
+        "text": "Possible Interpretations",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "row-fc": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-fc",
+        "text-fc"
+      ]
+    },
+    "badge-fc": {
+      "type": "Badge",
+      "props": {
+        "text": "'Fc'",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text-fc": {
+      "type": "Text",
+      "props": {
+        "text": "confirmation on setup?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "row-1hr": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-1hr",
+        "text-1hr"
+      ]
+    },
+    "badge-1hr": {
+      "type": "Badge",
+      "props": {
+        "text": "'1hr'",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text-1hr": {
+      "type": "Text",
+      "props": {
+        "text": "timeframe indicator?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "row-pct": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-pct",
+        "text-pct"
+      ]
+    },
+    "badge-pct": {
+      "type": "Badge",
+      "props": {
+        "text": "'%'",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text-pct": {
+      "type": "Text",
+      "props": {
+        "text": "take-profit/position scaling?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-msgid": {
+      "type": "Text",
+      "props": {
+        "text": "Message ID: 1524737700651991060",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}

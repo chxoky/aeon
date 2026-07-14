@@ -1,0 +1,48 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-indicator",
+        "text-description",
+        "link-chart"
+      ]
+    },
+    "text-indicator": {
+      "type": "Text",
+      "props": {
+        "text": "💬 [DC: Chase — Chase]",
+        "variant": "lead"
+      }
+    },
+    "text-description": {
+      "type": "Text",
+      "props": {
+        "text": "Chart reference — posted 14:30 PT following pullback entry confirmation from 13:25 PT",
+        "variant": "body"
+      }
+    },
+    "link-chart": {
+      "type": "Link",
+      "props": {
+        "label": "View chart",
+        "href": "https://cdn.discordapp.com/attachments/1336082716063694962/1524060048433741976/image.png?ex=6a4e5f07&is=6a4d0d87&hm=ae4367b8121382bf531f472a94f8ee9f5a247825a5ed3f6d7f069243325cbbbb&"
+      }
+    }
+  }
+}

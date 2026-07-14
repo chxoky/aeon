@@ -1,0 +1,58 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_calibration",
+        "event_text",
+        "post_link",
+        "classification_alert"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration — DC: HCH — Free",
+        "level": "h2"
+      }
+    },
+    "event_text": {
+      "type": "Text",
+      "props": {
+        "text": "Event: HeartCanHodl shared X post in the public/free channel with no context.",
+        "variant": "body"
+      }
+    },
+    "post_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "X Post #2068642598755991919",
+        "href": "https://x.com/i/status/2068642598755991919",
+        "source": "Twitter/X"
+      }
+    },
+    "classification_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's this about? (position-related signal, market catalyst, sentiment confirmation, or just shared content?)",
+        "type": "info"
+      }
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "heading_calibration",
+        "text_event",
+        "separator_1",
+        "text_quote_source",
+        "text_quote",
+        "separator_2",
+        "alert_classification",
+        "separator_3",
+        "heading_context",
+        "text_context_content"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: Chase — TradFi]",
+        "level": "h2"
+      }
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: 2026-06-30T19:02:00Z (supporting channel, Crypto_Chase)",
+        "variant": "caption"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "text_quote_source": {
+      "type": "Text",
+      "props": {
+        "text": "crypto_chase:",
+        "variant": "muted"
+      }
+    },
+    "text_quote": {
+      "type": "Text",
+      "props": {
+        "text": "mayb still comes later or tom tho, watching",
+        "variant": "lead"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "alert_classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "what's your read?",
+        "type": "warning"
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_context": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "text_context_content": {
+      "type": "Text",
+      "props": {
+        "text": "Could refer to ES (watching after chop week), GOOG (watching 320s after partial TP at 352.84 this morning), or MU (watching resting bids). Message lacks explicit ticker and reply context.",
+        "variant": "body"
+      }
+    }
+  }
+}

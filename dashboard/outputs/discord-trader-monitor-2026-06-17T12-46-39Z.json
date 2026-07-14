@@ -1,0 +1,88 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "calibration",
+        "event_group",
+        "separator1",
+        "xpost",
+        "context",
+        "question"
+      ]
+    },
+    "calibration": {
+      "type": "Badge",
+      "props": {
+        "text": "Calibration: Chase — Chase",
+        "variant": "outline"
+      }
+    },
+    "event_group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event_text",
+        "timestamp"
+      ]
+    },
+    "event_text": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Crypto_Chase shared an X post in his primary Discord channel"
+      }
+    },
+    "timestamp": {
+      "type": "Badge",
+      "props": {
+        "text": "2026-06-17T12:39:40Z",
+        "variant": "secondary"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "xpost": {
+      "type": "StoryLink",
+      "props": {
+        "title": "X post",
+        "href": "https://x.com/Crypto_Chase/status/2067225598787813550",
+        "source": "X"
+      }
+    },
+    "context": {
+      "type": "Text",
+      "props": {
+        "text": "Discord message contained only the URL, no additional context. Unable to classify without viewing the X post."
+      }
+    },
+    "question": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "lead"
+      }
+    }
+  }
+}

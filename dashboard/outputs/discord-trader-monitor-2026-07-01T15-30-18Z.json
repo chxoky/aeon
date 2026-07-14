@@ -1,0 +1,129 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Discord Trader Monitor — Calibration"
+      },
+      "children": [
+        "main_stack"
+      ]
+    },
+    "main_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_section",
+        "sep1",
+        "message_section",
+        "sep2",
+        "classification_section"
+      ]
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context_heading",
+        "context_desc",
+        "badges_stack"
+      ]
+    },
+    "context_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "context_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Supporting channel message, no referenced text, standalone one-liner",
+        "variant": "body"
+      }
+    },
+    "badges_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_dc",
+        "badge_chase",
+        "badge_crypto"
+      ]
+    },
+    "badge_dc": {
+      "type": "Badge",
+      "props": {
+        "text": "DC",
+        "variant": "secondary"
+      }
+    },
+    "badge_chase": {
+      "type": "Badge",
+      "props": {
+        "text": "Chase",
+        "variant": "secondary"
+      }
+    },
+    "badge_crypto": {
+      "type": "Badge",
+      "props": {
+        "text": "Crypto",
+        "variant": "secondary"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "message_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "message_heading",
+        "tweet"
+      ]
+    },
+    "message_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Message",
+        "level": "h3"
+      }
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Chase",
+        "text": "but alas"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "classification_section": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read? (Trade exit? Market frustration? Missed setup?)",
+        "type": "info"
+      }
+    }
+  }
+}

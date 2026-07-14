@@ -1,0 +1,53 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "channel_header",
+        "separator",
+        "thread"
+      ]
+    },
+    "channel_header": {
+      "type": "Text",
+      "props": {
+        "text": "💬 [DC: Chase — Crypto]",
+        "variant": "lead"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "thread": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "member_question",
+        "bot_response"
+      ]
+    },
+    "member_question": {
+      "type": "Text",
+      "props": {
+        "text": "↩️ Member: \"isn't this a sol chart?\""
+      }
+    },
+    "bot_response": {
+      "type": "Text",
+      "props": {
+        "text": "Yeah it is my bad but I don't have any read on the HYPE chart at the moment"
+      }
+    }
+  }
+}

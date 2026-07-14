@@ -1,0 +1,61 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Skill execution error"
+      },
+      "children": [
+        "alert_error",
+        "separator_1",
+        "details_stack"
+      ]
+    },
+    "alert_error": {
+      "type": "Alert",
+      "props": {
+        "title": "Base64 Decoding Error",
+        "message": "Base64-encoded event var is corrupted/incomplete and cannot be decoded. Processing stopped per Step 1 (DISCORD_TRADER_BAD_EVENT). Check var encoding and retry.",
+        "type": "error"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "details_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "error_code_badge",
+        "action_text"
+      ]
+    },
+    "error_code_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DISCORD_TRADER_BAD_EVENT",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "action_text": {
+      "type": "Text",
+      "props": {
+        "text": "Check var encoding and retry",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — [DC: Chase — TradFi]"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_event",
+        "stack_badges",
+        "separator_1",
+        "stack_message",
+        "separator_2",
+        "alert_classify",
+        "separator_3",
+        "stack_context"
+      ]
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Discord message 2026-06-23T14:35:12Z from Crypto_Chase in TradFi supporting channel."
+      }
+    },
+    "stack_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_user",
+        "badge_channel"
+      ]
+    },
+    "badge_user": {
+      "type": "Badge",
+      "props": {
+        "text": "Crypto_Chase",
+        "variant": "default"
+      }
+    },
+    "badge_channel": {
+      "type": "Badge",
+      "props": {
+        "text": "TradFi supporting",
+        "variant": "outline"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_message": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_message",
+        "link_image"
+      ]
+    },
+    "text_message": {
+      "type": "Text",
+      "props": {
+        "text": "Message: \"Hourly to hourly\""
+      }
+    },
+    "link_image": {
+      "type": "Link",
+      "props": {
+        "label": "chart image",
+        "href": "https://cdn.discordapp.com/attachments/1343971265962049597/1518987799397929050/image.png?ex=6a3beb20&is=6a3a99a0&hm=49cd27796a984d2280801d246a202641f81004d52f26e9609e03e11d6e800f9e&"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_classify": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read?",
+        "type": "info"
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_context",
+        "text_context_position",
+        "text_context_interpretation"
+      ]
+    },
+    "heading_context": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "text_context_position": {
+      "type": "Text",
+      "props": {
+        "text": "Chase currently holds ES long (50% open, 50% reserve per latest position structure), with recent gut-feeling bearish pullback signal (12:56Z) + GOOG partial TP execution (13:31Z)."
+      }
+    },
+    "text_context_interpretation": {
+      "type": "Text",
+      "props": {
+        "text": "This message could indicate: (1) timeframe shift to hourly analysis, (2) commentary on hourly market chop, or (3) technical setup on the chart. Classification: depends on chart subject and intent."
+      }
+    }
+  }
+}

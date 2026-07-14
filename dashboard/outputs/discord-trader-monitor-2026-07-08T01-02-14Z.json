@@ -1,0 +1,177 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor — Calibration"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "section_header",
+        "separator1",
+        "section_messages",
+        "separator2",
+        "section_interpretation"
+      ]
+    },
+    "section_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_calibration",
+        "badge_context"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration",
+        "level": "h3"
+      }
+    },
+    "badge_context": {
+      "type": "Badge",
+      "props": {
+        "text": "DC: Chase — TradFi",
+        "variant": "secondary"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_messages": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "message_prior",
+        "message_recent"
+      ]
+    },
+    "message_prior": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_prior_label",
+        "text_prior_time",
+        "text_prior_content"
+      ]
+    },
+    "text_prior_label": {
+      "type": "Text",
+      "props": {
+        "text": "Prior:",
+        "variant": "caption"
+      }
+    },
+    "text_prior_time": {
+      "type": "Text",
+      "props": {
+        "text": "2026-07-08T00:35:05Z",
+        "variant": "muted"
+      }
+    },
+    "text_prior_content": {
+      "type": "Text",
+      "props": {
+        "text": "\"There's obviously been a lot of adjustments since then but yeah\"",
+        "variant": "body"
+      }
+    },
+    "message_recent": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_recent_label",
+        "text_recent_time",
+        "text_recent_content"
+      ]
+    },
+    "text_recent_label": {
+      "type": "Text",
+      "props": {
+        "text": "Recent:",
+        "variant": "caption"
+      }
+    },
+    "text_recent_time": {
+      "type": "Text",
+      "props": {
+        "text": "2026-07-08T00:57:25Z",
+        "variant": "muted"
+      }
+    },
+    "text_recent_content": {
+      "type": "Text",
+      "props": {
+        "text": "\"Completely reversed into a hole\"",
+        "variant": "body"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_interpretation": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_context",
+        "text_context",
+        "alert_classification"
+      ]
+    },
+    "heading_context": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h4"
+      }
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "Just finished explaining invalidation levels + risk tolerance on what appears to be down-40%-in-4-days position. Now cryptic \"reversed into a hole\" message.",
+        "variant": "body"
+      }
+    },
+    "alert_classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify — what's your read?",
+        "message": "Is this: (1) SNDK deteriorating further, (2) new position entry gone wrong, (3) conviction reversal on an existing trade, or (4) something else entirely?",
+        "type": "info"
+      }
+    }
+  }
+}

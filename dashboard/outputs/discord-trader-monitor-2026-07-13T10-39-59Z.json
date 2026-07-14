@@ -1,0 +1,83 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "🔍 Calibration — [DC: HCH — Chat]"
+      },
+      "children": [
+        "section_context",
+        "separator1",
+        "section_message",
+        "separator2",
+        "alert_classification"
+      ]
+    },
+    "section_context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "label_context",
+        "text_context"
+      ]
+    },
+    "label_context": {
+      "type": "Text",
+      "props": {
+        "text": "Context",
+        "variant": "caption"
+      }
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "Supporting-channel message, no referenced context",
+        "variant": "body"
+      }
+    },
+    "separator1": {
+      "type": "Separator"
+    },
+    "section_message": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_author",
+        "text_message_content"
+      ]
+    },
+    "badge_author": {
+      "type": "Badge",
+      "props": {
+        "text": "heartcanhodl"
+      }
+    },
+    "text_message_content": {
+      "type": "Text",
+      "props": {
+        "text": "\"Too bold\"",
+        "variant": "body"
+      }
+    },
+    "separator2": {
+      "type": "Separator"
+    },
+    "alert_classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read? Is HCH commenting on one of his short positions being too aggressive, or responding to market/member sentiment?",
+        "type": "info"
+      }
+    }
+  }
+}

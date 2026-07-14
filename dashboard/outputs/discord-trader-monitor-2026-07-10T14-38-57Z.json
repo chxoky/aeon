@@ -1,0 +1,169 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Message classification calibration"
+      },
+      "children": [
+        "heading",
+        "sep1",
+        "context_stack",
+        "sep2",
+        "message_stack",
+        "sep3",
+        "classification_stack"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: Chase — TradFi]",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "context_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context_label",
+        "context_value"
+      ]
+    },
+    "context_label": {
+      "type": "Text",
+      "props": {
+        "text": "Context:",
+        "variant": "lead"
+      }
+    },
+    "context_value": {
+      "type": "Text",
+      "props": {
+        "text": "Supporting-channel message with chart attachment",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "message_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "message_title",
+        "message_content"
+      ]
+    },
+    "message_title": {
+      "type": "Text",
+      "props": {
+        "text": "Message Data:",
+        "variant": "lead"
+      }
+    },
+    "message_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "msg_key",
+        "msg_value"
+      ]
+    },
+    "msg_key": {
+      "type": "Badge",
+      "props": {
+        "text": "crypto_chase",
+        "variant": "outline"
+      }
+    },
+    "msg_value": {
+      "type": "Text",
+      "props": {
+        "text": "\"real? idk\"",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "classification_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "classification_status",
+        "interpretation_note",
+        "interpretation_options"
+      ]
+    },
+    "classification_status": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to Classify",
+        "message": "What's your read?",
+        "type": "info"
+      }
+    },
+    "interpretation_note": {
+      "type": "Text",
+      "props": {
+        "text": "The attachment suggests technical context but message text is cryptic.",
+        "variant": "caption"
+      }
+    },
+    "interpretation_options": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opt1",
+        "opt2",
+        "opt3"
+      ]
+    },
+    "opt1": {
+      "type": "Text",
+      "props": {
+        "text": "Is this expressing doubt about a technical setup?",
+        "variant": "body"
+      }
+    },
+    "opt2": {
+      "type": "Text",
+      "props": {
+        "text": "Is this expressing doubt about market structure?",
+        "variant": "body"
+      }
+    },
+    "opt3": {
+      "type": "Text",
+      "props": {
+        "text": "Is this expressing doubt about chart pattern?",
+        "variant": "body"
+      }
+    }
+  }
+}

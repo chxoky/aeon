@@ -1,0 +1,23 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "tweet-1"
+      ]
+    },
+    "tweet-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Chase",
+        "handle": "DC · TradFi",
+        "text": "And it doesn't even need to go lower and do all that shit. I just drew it out conservatively"
+      }
+    }
+  }
+}

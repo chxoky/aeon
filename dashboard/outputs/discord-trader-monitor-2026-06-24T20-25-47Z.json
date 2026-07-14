@@ -1,0 +1,98 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "channel-info",
+        "sep-1",
+        "message-member-container",
+        "sep-2",
+        "message-chase-container"
+      ]
+    },
+    "channel-info": {
+      "type": "Badge",
+      "props": {
+        "text": "DC: Chase — TradFi",
+        "variant": "secondary"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message-member-container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "member-author",
+        "member-text"
+      ]
+    },
+    "member-author": {
+      "type": "Text",
+      "props": {
+        "text": "Member",
+        "variant": "lead"
+      }
+    },
+    "member-text": {
+      "type": "Text",
+      "props": {
+        "text": "\"hey chase why are you on something that strong as mu dont look this as OB and layer orders inside, im geninly interested on your thinking?\"",
+        "variant": "body"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message-chase-container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "chase-author",
+        "chase-text"
+      ]
+    },
+    "chase-author": {
+      "type": "Text",
+      "props": {
+        "text": "Chase",
+        "variant": "lead"
+      }
+    },
+    "chase-text": {
+      "type": "Text",
+      "props": {
+        "text": "Because earnings typically provide liquidity (sweeps of obvious levels etc)",
+        "variant": "body"
+      }
+    }
+  }
+}

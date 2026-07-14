@@ -1,0 +1,60 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "heading_calibration",
+        "text_event",
+        "text_observation",
+        "alert_analysis"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: Chase — TradFi]",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Supporting-channel image attachment (Discord CDN link provided)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_observation": {
+      "type": "Text",
+      "props": {
+        "text": "crypto_chase: \"Real it seems\" + chart image",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "alert_analysis": {
+      "type": "Alert",
+      "props": {
+        "message": "Chart content unknown without viewing. Unable to classify — what's your read on the chart and sentiment?",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}

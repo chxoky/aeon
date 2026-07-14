@@ -1,0 +1,188 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Trading framework discussion analysis"
+      },
+      "children": [
+        "main-stack"
+      ]
+    },
+    "main-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "calibration-heading",
+        "event-stack",
+        "sep1",
+        "context-stack",
+        "sep2",
+        "classify-stack"
+      ]
+    },
+    "calibration-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: Chase — Crypto]",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "event-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event-label",
+        "event-msg",
+        "event-author"
+      ]
+    },
+    "event-label": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Standalone framework discussion message (no reply context, no attachments)",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "event-msg": {
+      "type": "Text",
+      "props": {
+        "text": "\"There's going to be a lot of nuance to it of course , but the framework is certainly there\"",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "event-author": {
+      "type": "Badge",
+      "props": {
+        "text": "crypto_chase",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "context-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context-heading",
+        "context-text",
+        "context-quote",
+        "context-note"
+      ]
+    },
+    "context-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "context-text": {
+      "type": "Text",
+      "props": {
+        "text": "Continuation of framework/setup validity discussion from earlier today. crypto_chase articulated:",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "context-quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"what if there's no impulse then there's no trade. it's a high confidence setup, it's not adjustable outside of the parameters\" (16:01:31Z)",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "context-note": {
+      "type": "Text",
+      "props": {
+        "text": "Tonight's message echoes framework theme but lacks specificity on which framework.",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "classify-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "classify-heading",
+        "classify-prompt",
+        "q1",
+        "q2",
+        "q3"
+      ]
+    },
+    "classify-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Unable to classify",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "classify-prompt": {
+      "type": "Text",
+      "props": {
+        "text": "what's your read?",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "q1": {
+      "type": "Text",
+      "props": {
+        "text": "• Which framework/pattern is he referencing?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "q2": {
+      "type": "Text",
+      "props": {
+        "text": "• In context of which asset/trade setup?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "q3": {
+      "type": "Text",
+      "props": {
+        "text": "• Is this validation of active setup condition, philosophical teaching moment, or new conviction signal?",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor"
+      },
+      "children": [
+        "channel-badge",
+        "sep-1",
+        "heading",
+        "sep-2",
+        "details-stack"
+      ]
+    },
+    "channel-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DC: Chase — Chase",
+        "variant": "outline"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Good partial TP — uncertain about adding back",
+        "level": "h2"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "details-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "trader-name",
+        "tp-details",
+        "sep-3",
+        "prices-grid",
+        "sep-4",
+        "status"
+      ]
+    },
+    "trader-name": {
+      "type": "Heading",
+      "props": {
+        "text": "Crypto_Chase — SPCX Long",
+        "level": "h3"
+      }
+    },
+    "tp-details": {
+      "type": "Text",
+      "props": {
+        "text": "Took 33% Take Profit near 187",
+        "variant": "lead"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "prices-grid": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "entry-avg",
+        "added-price",
+        "tp-price",
+        "current-price"
+      ]
+    },
+    "entry-avg": {
+      "type": "Stat",
+      "props": {
+        "label": "Entry Average",
+        "value": "185"
+      }
+    },
+    "added-price": {
+      "type": "Stat",
+      "props": {
+        "label": "Position Added At",
+        "value": "175"
+      }
+    },
+    "tp-price": {
+      "type": "Stat",
+      "props": {
+        "label": "Take Profit Price (33%)",
+        "value": "187"
+      }
+    },
+    "current-price": {
+      "type": "Stat",
+      "props": {
+        "label": "Current Price",
+        "value": "182.5"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "status": {
+      "type": "Text",
+      "props": {
+        "text": "Reconsidering whether to add back the remainder. Status: \"not sure yet.\"",
+        "variant": "muted"
+      }
+    }
+  }
+}

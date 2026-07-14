@@ -1,0 +1,49 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge-channel",
+        "text-description",
+        "storylink-chart"
+      ]
+    },
+    "badge-channel": {
+      "type": "Badge",
+      "props": {
+        "text": "DC: HCH — Trades",
+        "variant": "secondary"
+      }
+    },
+    "text-description": {
+      "type": "Text",
+      "props": {
+        "text": "Technical chart — via Discord",
+        "variant": "body"
+      }
+    },
+    "storylink-chart": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Technical Chart",
+        "href": "https://cdn.discordapp.com/attachments/1279738718680256553/1517788786170396843/Screenshot_2026-06-20-12-38-48-66_948cd9899890cbd5c2798760b2b95377.jpg",
+        "source": "Discord"
+      }
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — [DC: Chase — TradFi]",
+        "description": "Discord trader monitoring and analysis"
+      },
+      "children": [
+        "event-section",
+        "sep1",
+        "crypto-section",
+        "sep2",
+        "classification-note"
+      ]
+    },
+    "event-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event-label",
+        "event-content"
+      ]
+    },
+    "event-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "event-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "member-obs-label",
+        "member-obs-text"
+      ]
+    },
+    "member-obs-label": {
+      "type": "Text",
+      "props": {
+        "text": "Member's technical observation:",
+        "variant": "muted"
+      }
+    },
+    "member-obs-text": {
+      "type": "Text",
+      "props": {
+        "text": "\"have these highs. Also swept liq into demand on 5m\" (with chart attachment)"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "crypto-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "crypto-label",
+        "crypto-response"
+      ]
+    },
+    "crypto-label": {
+      "type": "Heading",
+      "props": {
+        "text": "crypto_chase response",
+        "level": "h3"
+      }
+    },
+    "crypto-response": {
+      "type": "Text",
+      "props": {
+        "text": "\"Yes and even extremely simple concept would just say trade from inefficiency to inefficiency\""
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification-note": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Is this a conceptual explanation of his trading approach, or a specific read on the member's setup?",
+        "type": "info"
+      }
+    }
+  }
+}

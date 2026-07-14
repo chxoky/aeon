@@ -1,0 +1,23 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "message"
+      ]
+    },
+    "message": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Chase",
+        "handle": "Crypto",
+        "text": "It does make sense with AI being the new meta and it's easily bought on something like Robinhood . A lot of people from crypto obviously, you know, could have moved towards that. I still think Bitcoin could perform very well though if we got Scammer out of the picture. With that said I am going to look for trades."
+      }
+    }
+  }
+}

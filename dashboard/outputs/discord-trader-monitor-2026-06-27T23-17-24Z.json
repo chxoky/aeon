@@ -1,0 +1,192 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor",
+        "description": "Cryptic message analysis from trading channel"
+      },
+      "children": [
+        "badge_calibration",
+        "sep_1",
+        "heading_event",
+        "text_channel",
+        "text_timestamp",
+        "sep_2",
+        "tweet_message",
+        "sep_3",
+        "heading_context",
+        "stack_context_data",
+        "sep_4",
+        "heading_meanings",
+        "stack_meanings",
+        "sep_5",
+        "alert_classification"
+      ]
+    },
+    "badge_calibration": {
+      "type": "Badge",
+      "props": {
+        "text": "🔍 Calibration — [DC: Chase — Crypto]",
+        "variant": "outline"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h2"
+      }
+    },
+    "text_channel": {
+      "type": "Text",
+      "props": {
+        "text": "Cryptic Discord message in supporting channel: Crypto_Chase (ID: 1247927786681794601)",
+        "variant": "body"
+      }
+    },
+    "text_timestamp": {
+      "type": "Text",
+      "props": {
+        "text": "Posted 2026-06-27T23:12:41Z (end of trading day)",
+        "variant": "caption"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet_message": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Chase",
+        "handle": "Crypto_Chase",
+        "text": "if market is open guaranteed no strikes"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_context": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h2"
+      }
+    },
+    "stack_context_data": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ctx_1",
+        "ctx_2",
+        "ctx_3",
+        "ctx_4"
+      ]
+    },
+    "ctx_1": {
+      "type": "Text",
+      "props": {
+        "text": "ES long: Entered 06-21 with uncertain conviction. Week of \"giga chop\" frustration.",
+        "variant": "body"
+      }
+    },
+    "ctx_2": {
+      "type": "Text",
+      "props": {
+        "text": "Market sentiment: Shifted to neutral/cautious (06-26)",
+        "variant": "body"
+      }
+    },
+    "ctx_3": {
+      "type": "Text",
+      "props": {
+        "text": "GOOG long: Trimmed to 40% size with resting bids down to 315",
+        "variant": "body"
+      }
+    },
+    "ctx_4": {
+      "type": "Text",
+      "props": {
+        "text": "Message follows week of reduced volatility and position sizing adjustments",
+        "variant": "muted"
+      }
+    },
+    "sep_4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_meanings": {
+      "type": "Heading",
+      "props": {
+        "text": "Possible Interpretations",
+        "level": "h2"
+      }
+    },
+    "stack_meanings": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "meaning_1",
+        "meaning_2",
+        "meaning_3"
+      ]
+    },
+    "meaning_1": {
+      "type": "Text",
+      "props": {
+        "text": "(1) Sentiment on limited volatility if market opens",
+        "variant": "body"
+      }
+    },
+    "meaning_2": {
+      "type": "Text",
+      "props": {
+        "text": "(2) Options-related comment (strikes = no profitable setups)",
+        "variant": "body"
+      }
+    },
+    "meaning_3": {
+      "type": "Text",
+      "props": {
+        "text": "(3) Conviction statement on expected flat/choppy market conditions",
+        "variant": "body"
+      }
+    },
+    "sep_5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification Unclear",
+        "message": "Unable to determine if this signals confidence in flat/chop conditions or references something specific. Requires external context or direct clarification.",
+        "type": "info"
+      }
+    }
+  }
+}

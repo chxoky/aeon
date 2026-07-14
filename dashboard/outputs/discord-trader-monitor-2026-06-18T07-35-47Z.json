@@ -1,0 +1,50 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — [DC: HCH — Free]",
+        "description": "discord-trader-monitor"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event-text",
+        "post-link",
+        "alert-unable"
+      ]
+    },
+    "event-text": {
+      "type": "Text",
+      "props": {
+        "text": "Event: HeartCanHodl shared X post (no accompanying text)",
+        "variant": "body"
+      }
+    },
+    "post-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "X Post",
+        "href": "https://x.com/i/status/2067510355484352731",
+        "source": "HeartCanHodl"
+      }
+    },
+    "alert-unable": {
+      "type": "Alert",
+      "props": {
+        "message": "Unable to interpret — what's this post about?",
+        "type": "warning"
+      }
+    }
+  }
+}

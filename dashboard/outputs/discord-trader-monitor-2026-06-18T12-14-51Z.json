@@ -1,0 +1,130 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Calibration — [DC: Chase — TradFi]"
+      },
+      "children": [
+        "main_stack"
+      ]
+    },
+    "main_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event_section",
+        "sep1",
+        "response_section",
+        "sep2",
+        "status_alert"
+      ]
+    },
+    "event_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event_heading",
+        "member_badge",
+        "question_text"
+      ]
+    },
+    "event_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Member Question",
+        "level": "h3"
+      }
+    },
+    "member_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "diyar9065"
+      }
+    },
+    "question_text": {
+      "type": "Text",
+      "props": {
+        "text": "Will you buy at 180$?"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "response_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "response_heading",
+        "responder_badge",
+        "response_content",
+        "message_id_text",
+        "image_link"
+      ]
+    },
+    "response_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Response",
+        "level": "h3"
+      }
+    },
+    "responder_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Crypto_Chase",
+        "variant": "secondary"
+      }
+    },
+    "response_content": {
+      "type": "Text",
+      "props": {
+        "text": "[image attachment, no text response]",
+        "variant": "muted"
+      }
+    },
+    "message_id_text": {
+      "type": "Text",
+      "props": {
+        "text": "Message ID: 1517139268219306146",
+        "variant": "caption"
+      }
+    },
+    "image_link": {
+      "type": "Link",
+      "props": {
+        "label": "Image: image.png",
+        "href": "https://cdn.discordapp.com/attachments/1343971265962049597/1517139268147871834/image.png"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "status_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification Status",
+        "message": "Unable to classify — image content unclear. What's your read?",
+        "type": "warning"
+      }
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "HCH session wrap-up (non-financial)"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge-status",
+        "stack-message",
+        "stack-timestamp",
+        "badge-alerts",
+        "badge-complete"
+      ]
+    },
+    "badge-status": {
+      "type": "Badge",
+      "props": {
+        "text": "success",
+        "variant": "default"
+      }
+    },
+    "stack-message": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-message-label",
+        "text-message-value"
+      ]
+    },
+    "text-message-label": {
+      "type": "Text",
+      "props": {
+        "text": "Message:",
+        "variant": "caption"
+      }
+    },
+    "text-message-value": {
+      "type": "Text",
+      "props": {
+        "text": "'Enough for the day'"
+      }
+    },
+    "stack-timestamp": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-timestamp-label",
+        "text-timestamp-value"
+      ]
+    },
+    "text-timestamp-label": {
+      "type": "Text",
+      "props": {
+        "text": "Timestamp:",
+        "variant": "caption"
+      }
+    },
+    "text-timestamp-value": {
+      "type": "Text",
+      "props": {
+        "text": "2026-07-01T21:39:34Z",
+        "variant": "muted"
+      }
+    },
+    "badge-alerts": {
+      "type": "Badge",
+      "props": {
+        "text": "No alerts",
+        "variant": "secondary"
+      }
+    },
+    "badge-complete": {
+      "type": "Badge",
+      "props": {
+        "text": "Processing complete",
+        "variant": "default"
+      }
+    }
+  }
+}

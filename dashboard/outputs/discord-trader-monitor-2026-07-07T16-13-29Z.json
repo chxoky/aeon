@@ -1,0 +1,145 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "status-badge",
+        "sep1",
+        "message-details",
+        "sep2",
+        "classification-section",
+        "sep3",
+        "actions-stack"
+      ]
+    },
+    "status-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "✅ Processed",
+        "variant": "default"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "msg-id-text",
+        "channel-text",
+        "timestamp-text",
+        "content-text"
+      ]
+    },
+    "msg-id-text": {
+      "type": "Text",
+      "props": {
+        "text": "ID: 1524084824120365206",
+        "variant": "caption"
+      }
+    },
+    "channel-text": {
+      "type": "Text",
+      "props": {
+        "text": "Crypto_Chase supporting-channel",
+        "variant": "body"
+      }
+    },
+    "timestamp-text": {
+      "type": "Text",
+      "props": {
+        "text": "16:08 PT",
+        "variant": "caption"
+      }
+    },
+    "content-text": {
+      "type": "Text",
+      "props": {
+        "text": "\"sndk is like mu beta\"",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "class-heading",
+        "class-badge",
+        "alert-decision"
+      ]
+    },
+    "class-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Classification",
+        "level": "h4"
+      }
+    },
+    "class-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "INFORMATIONAL / TECHNICAL OBSERVATION",
+        "variant": "secondary"
+      }
+    },
+    "alert-decision": {
+      "type": "Text",
+      "props": {
+        "text": "No alert sent — supporting channel, educational context",
+        "variant": "muted"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "actions-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "logged-badge",
+        "updated-badge"
+      ]
+    },
+    "logged-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Logged",
+        "variant": "default"
+      }
+    },
+    "updated-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "traders.md updated",
+        "variant": "default"
+      }
+    }
+  }
+}

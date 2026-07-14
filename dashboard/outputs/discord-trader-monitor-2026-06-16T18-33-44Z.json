@@ -1,0 +1,74 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — [DC: Chase — TradFi]",
+        "description": "discord-trader-monitor"
+      },
+      "children": [
+        "event_text",
+        "sep1",
+        "chase_section",
+        "sep2",
+        "question_text"
+      ]
+    },
+    "event_text": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Unknown external X post (DeItaone) being referenced",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "chase_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "chase_quote",
+        "tweet_link"
+      ]
+    },
+    "chase_quote": {
+      "type": "Text",
+      "props": {
+        "text": "Chase: \"well let's see if it's signed today.\"",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "tweet_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "DeItaone Post",
+        "href": "https://x.com/DeItaone/status/2066199715801153872",
+        "source": "X (Twitter)"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "question_text": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify without viewing the referenced post — what's your read?",
+        "variant": "lead"
+      },
+      "children": []
+    }
+  }
+}

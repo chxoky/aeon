@@ -1,0 +1,96 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "heading-calibration",
+        "text-channel",
+        "separator-1",
+        "quote-section",
+        "separator-2",
+        "analysis-section"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: Chase — TradFi]",
+        "level": "h2"
+      }
+    },
+    "text-channel": {
+      "type": "Text",
+      "props": {
+        "text": "[Supporting channel, no referenced context]",
+        "variant": "muted"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "quote-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge-chase",
+        "text-quote"
+      ]
+    },
+    "badge-chase": {
+      "type": "Badge",
+      "props": {
+        "text": "Chase — TradFi",
+        "variant": "secondary"
+      }
+    },
+    "text-quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"There's obviously been a lot of adjustments since then but yeah\"",
+        "variant": "body"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge-unclear",
+        "text-analysis"
+      ]
+    },
+    "badge-unclear": {
+      "type": "Badge",
+      "props": {
+        "text": "Unable to classify",
+        "variant": "outline"
+      }
+    },
+    "text-analysis": {
+      "type": "Text",
+      "props": {
+        "text": "What adjustments is he referring to? Trade position management, timeframe shifts, or general market commentary? What's your read?",
+        "variant": "body"
+      }
+    }
+  }
+}

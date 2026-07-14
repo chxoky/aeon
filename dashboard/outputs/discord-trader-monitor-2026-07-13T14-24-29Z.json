@@ -1,0 +1,193 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor — Calibration"
+      },
+      "children": [
+        "header_ref",
+        "sep1",
+        "event_section",
+        "sep2",
+        "message_section",
+        "sep3",
+        "context_section",
+        "sep4",
+        "classification_alert"
+      ]
+    },
+    "header_ref": {
+      "type": "Text",
+      "props": {
+        "text": "[DC: Chase — Chase]",
+        "variant": "muted"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "event_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event_label",
+        "event_badge"
+      ]
+    },
+    "event_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "event_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Informal comment in primary channel",
+        "variant": "outline"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "msg_header",
+        "author",
+        "msg_text"
+      ]
+    },
+    "msg_header": {
+      "type": "Heading",
+      "props": {
+        "text": "Message",
+        "level": "h3"
+      }
+    },
+    "author": {
+      "type": "Text",
+      "props": {
+        "text": "Crypto_Chase:",
+        "variant": "muted"
+      }
+    },
+    "msg_text": {
+      "type": "Text",
+      "props": {
+        "text": "\"btw, good TP's on memory\""
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ctx_header",
+        "attachment_note",
+        "ambiguity_detail",
+        "possible_meanings"
+      ]
+    },
+    "ctx_header": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "attachment_note": {
+      "type": "Text",
+      "props": {
+        "text": "Message includes chart attachment but text reference is unclear"
+      }
+    },
+    "ambiguity_detail": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to determine what \"memory\" refers to",
+        "variant": "lead"
+      }
+    },
+    "possible_meanings": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "opt_ticker",
+        "opt_position",
+        "opt_pattern",
+        "opt_other"
+      ]
+    },
+    "opt_ticker": {
+      "type": "Badge",
+      "props": {
+        "text": "Ticker",
+        "variant": "secondary"
+      }
+    },
+    "opt_position": {
+      "type": "Badge",
+      "props": {
+        "text": "Position",
+        "variant": "secondary"
+      }
+    },
+    "opt_pattern": {
+      "type": "Badge",
+      "props": {
+        "text": "Technical pattern",
+        "variant": "secondary"
+      }
+    },
+    "opt_other": {
+      "type": "Badge",
+      "props": {
+        "text": "Other",
+        "variant": "secondary"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read on this message?",
+        "type": "warning"
+      }
+    }
+  }
+}

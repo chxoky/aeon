@@ -1,0 +1,72 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Calibration"
+      },
+      "children": [
+        "header_section",
+        "sep1",
+        "message_stack",
+        "sep2",
+        "classification_alert"
+      ]
+    },
+    "header_section": {
+      "type": "Text",
+      "props": {
+        "text": "🔍 Calibration — [DC: HCH — Trades]",
+        "variant": "muted"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "author_badge",
+        "message_text"
+      ]
+    },
+    "author_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "HeartCanHodl",
+        "variant": "default"
+      }
+    },
+    "message_text": {
+      "type": "Text",
+      "props": {
+        "text": "\"1-1% xpl, lit too on spot\"",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read? (position action? TP? market observation?)",
+        "type": "info"
+      }
+    }
+  }
+}

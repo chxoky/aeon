@@ -1,0 +1,87 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Discord message analysis and calibration"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-calibration",
+        "separator-1",
+        "text-context",
+        "tweetcard-discord",
+        "text-metadata",
+        "separator-2",
+        "alert-ambiguity"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: Chase — Crypto]",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text-context": {
+      "type": "Text",
+      "props": {
+        "text": "Ambiguous message from crypto_chase",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "tweetcard-discord": {
+      "type": "TweetCard",
+      "props": {
+        "author": "crypto_chase",
+        "text": "I've seen it before. It usually just turns into people spamming whatever chart is currently pumping and then people just chase etc. I don't see too much benefit to it honestly"
+      },
+      "children": []
+    },
+    "text-metadata": {
+      "type": "Text",
+      "props": {
+        "text": "Message ID: 1515840807624642742 | Timestamp: 2026-06-14T22:10:11Z",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert-ambiguity": {
+      "type": "Alert",
+      "props": {
+        "title": "Calibration Needed",
+        "message": "Unable to determine what crypto_chase is referring to. Is this sentiment about a specific strategy/setup, or general market commentary?",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}

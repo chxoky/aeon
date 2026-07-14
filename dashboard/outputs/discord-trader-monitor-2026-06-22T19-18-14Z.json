@@ -1,0 +1,114 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor"
+      },
+      "children": [
+        "heading_calibration",
+        "sep1",
+        "heading_event",
+        "text_event",
+        "sep2",
+        "tweet_chase",
+        "sep3",
+        "heading_context",
+        "stack_context",
+        "sep4",
+        "alert_question"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Text",
+      "props": {
+        "text": "🔍 Calibration — [DC: Chase — TradFi]",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Message appears to be follow-up to prior conversation (\"answered my own question\"), lacks referenced context."
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "tweet_chase": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Chase",
+        "handle": "DC",
+        "text": "Or I guess I answered my own question. Maybe the market just doesn't care about anything but the AI build out"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_context": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "stack_context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_spcx",
+        "context_es",
+        "context_hype"
+      ]
+    },
+    "context_spcx": {
+      "type": "Text",
+      "props": {
+        "text": "Just exited SPCX (small profit, \"no leading asset\")"
+      }
+    },
+    "context_es": {
+      "type": "Text",
+      "props": {
+        "text": "Currently ES long (choppy action)"
+      }
+    },
+    "context_hype": {
+      "type": "Text",
+      "props": {
+        "text": "Recent sentiment on HYPE weakness"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "alert_question": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification",
+        "message": "Unable to classify — what's your read? Bearish on non-AI sectors? Skeptical on ES? Or philosophical observation?",
+        "type": "info"
+      }
+    }
+  }
+}

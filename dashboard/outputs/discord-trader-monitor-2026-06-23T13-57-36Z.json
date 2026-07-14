@@ -1,0 +1,123 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Calibration — DC: Chase — TradFi"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert_calibration",
+        "sep1",
+        "stack_context",
+        "sep2",
+        "card_chase",
+        "sep3",
+        "stack_classification"
+      ]
+    },
+    "alert_calibration": {
+      "type": "Alert",
+      "props": {
+        "title": "🔍 Calibration",
+        "message": "DC: Chase — TradFi",
+        "type": "info"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_context_label",
+        "text_context_time",
+        "text_context_quote"
+      ]
+    },
+    "text_context_label": {
+      "type": "Text",
+      "props": {
+        "text": "Context:",
+        "variant": "lead"
+      }
+    },
+    "text_context_time": {
+      "type": "Text",
+      "props": {
+        "text": "57 min after pullback gut feeling (12:56Z)",
+        "variant": "body"
+      }
+    },
+    "text_context_quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"Gut is telling me this might be the start of a larger pullback\"",
+        "variant": "muted"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "card_chase": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Crypto_Chase",
+        "text": "Maybe some scam action first then we find the short later"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_classification": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_classification",
+        "text_position_ref"
+      ]
+    },
+    "text_classification": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "lead"
+      }
+    },
+    "text_position_ref": {
+      "type": "Text",
+      "props": {
+        "text": "Relates to ES long entered 2026-06-21",
+        "variant": "muted"
+      }
+    }
+  }
+}

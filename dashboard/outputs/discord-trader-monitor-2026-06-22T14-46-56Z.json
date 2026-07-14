@@ -1,0 +1,46 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "heading",
+        "source-info",
+        "separator",
+        "tweet-link"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "discord-trader-monitor",
+        "level": "h2"
+      }
+    },
+    "source-info": {
+      "type": "Badge",
+      "props": {
+        "text": "💬 DC: HCH — Free",
+        "variant": "secondary"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Rebalance or take it easy approach now onwards 🍊💯",
+        "href": "https://x.com/i/status/2069047283560202501",
+        "source": "Twitter/X"
+      }
+    }
+  }
+}

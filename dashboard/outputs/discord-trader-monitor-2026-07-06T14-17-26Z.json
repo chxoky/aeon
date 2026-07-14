@@ -1,0 +1,95 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — [DC: Chase — TradFi]",
+        "description": "Standalone supporting-channel commentary with no prior context."
+      },
+      "children": [
+        "tweetcard-chase",
+        "separator-1",
+        "heading-unclear",
+        "text-unclear-intro",
+        "stack-bullets",
+        "separator-2",
+        "text-metadata"
+      ]
+    },
+    "tweetcard-chase": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Crypto_Chase",
+        "text": "Although he talks so much, I think the market almost doesn't even care anymore"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-unclear": {
+      "type": "Heading",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "level": "h3"
+      }
+    },
+    "text-unclear-intro": {
+      "type": "Text",
+      "props": {
+        "text": "Unclear context:",
+        "variant": "body"
+      }
+    },
+    "stack-bullets": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "bullet-1",
+        "bullet-2",
+        "bullet-3"
+      ]
+    },
+    "bullet-1": {
+      "type": "Text",
+      "props": {
+        "text": "Who is \"he\"? (Fed, Elon, analyst, other?)",
+        "variant": "body"
+      }
+    },
+    "bullet-2": {
+      "type": "Text",
+      "props": {
+        "text": "What market structure implication? (Fed complacency, sentiment fade, narrative saturation?)",
+        "variant": "body"
+      }
+    },
+    "bullet-3": {
+      "type": "Text",
+      "props": {
+        "text": "Is this a conviction shift on positioning, or meta-commentary?",
+        "variant": "body"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-metadata": {
+      "type": "Text",
+      "props": {
+        "text": "Message_id: 1523693465941311528 | 2026-07-06T14:13:51Z",
+        "variant": "caption"
+      }
+    }
+  }
+}

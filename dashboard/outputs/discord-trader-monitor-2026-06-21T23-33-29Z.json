@@ -1,0 +1,71 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "alert-signal",
+        "source-text",
+        "separator1",
+        "narrative-text",
+        "trade-badges"
+      ]
+    },
+    "alert-signal": {
+      "type": "Alert",
+      "props": {
+        "title": "🚨 Trade Signal — [DC: Chase — Chase]",
+        "type": "info"
+      }
+    },
+    "source-text": {
+      "type": "Text",
+      "props": {
+        "text": "via Discord — Chase — Chase",
+        "variant": "muted"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "narrative-text": {
+      "type": "Text",
+      "props": {
+        "text": "I never dream about trading, but for some reason this weekend I did. The market opened and I got long the S&P 500 (via $ES contracts, my preferred method).",
+        "variant": "body"
+      }
+    },
+    "trade-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-ticker",
+        "badge-position"
+      ]
+    },
+    "badge-ticker": {
+      "type": "Badge",
+      "props": {
+        "text": "$ES",
+        "variant": "outline"
+      }
+    },
+    "badge-position": {
+      "type": "Badge",
+      "props": {
+        "text": "LONG",
+        "variant": "default"
+      }
+    }
+  }
+}

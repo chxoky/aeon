@@ -1,0 +1,52 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — [DC: Chase — TradFi]"
+      },
+      "children": [
+        "heading_external",
+        "link_post",
+        "text_response",
+        "alert_classification"
+      ]
+    },
+    "heading_external": {
+      "type": "Heading",
+      "props": {
+        "text": "External post shared",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "link_post": {
+      "type": "StoryLink",
+      "props": {
+        "title": "DeItaone Post",
+        "href": "https://x.com/DeItaone/status/2066967089441599956",
+        "source": "X"
+      },
+      "children": []
+    },
+    "text_response": {
+      "type": "Text",
+      "props": {
+        "text": "Crypto_Chase: \"hmmm\"",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "alert_classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read? Is this market commentary, position setup, or tactical interest?",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}

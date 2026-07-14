@@ -1,0 +1,49 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Discord trader conversation about leverage strategy"
+      },
+      "children": [
+        "stack_conversation"
+      ]
+    },
+    "stack_conversation": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "message_question",
+        "separator_1",
+        "message_response"
+      ]
+    },
+    "message_question": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Member",
+        "text": "are you playing this on low leverage or spot only?"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message_response": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Chase",
+        "handle": "TradFi",
+        "text": "I don't use leverage on anything except for crypto trades and that's only because I don't keep a large amount of USDT in crypto . And yeah leverage doesn't matter at all, as long as your stop loss is before your liquidation price and you know how much you're going to be losing upon SL and you're comfortable with that amount"
+      }
+    }
+  }
+}

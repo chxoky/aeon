@@ -1,0 +1,88 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Discord trading channel monitoring"
+      },
+      "children": [
+        "heading-calibration",
+        "separator-1",
+        "metadata-stack",
+        "separator-2",
+        "tweet-message",
+        "image-section",
+        "alert-classification"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: Chase — TradFi]",
+        "level": "h2"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "metadata-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "timestamp-text",
+        "channel-badge"
+      ]
+    },
+    "timestamp-text": {
+      "type": "Text",
+      "props": {
+        "text": "2026-06-24T20:11:05Z",
+        "variant": "caption"
+      }
+    },
+    "channel-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Supporting Channel",
+        "variant": "secondary"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-message": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Chase",
+        "text": "Not even flushing that low is insane lol"
+      }
+    },
+    "image-section": {
+      "type": "Text",
+      "props": {
+        "text": "+ chart image",
+        "variant": "muted"
+      }
+    },
+    "alert-classification": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Needs Classification",
+        "message": "Unable to classify without chart context — what's your read? Which asset/level is he referencing?"
+      }
+    }
+  }
+}

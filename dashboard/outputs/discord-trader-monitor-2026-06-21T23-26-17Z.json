@@ -1,0 +1,152 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Discord trader sentiment analysis and calibration"
+      },
+      "children": [
+        "heading_calibration",
+        "subheading_gut",
+        "tweet_chase",
+        "sep1",
+        "subheading_context",
+        "context_stack",
+        "sep2",
+        "subheading_question",
+        "alert_question",
+        "sep3",
+        "metadata_section"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: Chase — Chase]",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "subheading_gut": {
+      "type": "Heading",
+      "props": {
+        "text": "Gut feeling / Intuition message",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "tweet_chase": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Chase",
+        "text": "Sort of a gut feeling I've been having about stocks lately, but I'm sure I'm wrong but I can't do anything but be transparent and truthful about how I feel and what my intuition was saying so strongly that it popped up in my dream."
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "subheading_context": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "context_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context_line1",
+        "context_line2",
+        "context_line3"
+      ]
+    },
+    "context_line1": {
+      "type": "Text",
+      "props": {
+        "text": "No ticker, position action, or trade signal.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "context_line2": {
+      "type": "Text",
+      "props": {
+        "text": "Self-disclaiming.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "context_line3": {
+      "type": "Text",
+      "props": {
+        "text": "Message felt introspective/subconscious.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "subheading_question": {
+      "type": "Heading",
+      "props": {
+        "text": "Question",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "alert_question": {
+      "type": "Alert",
+      "props": {
+        "message": "Should we treat subconscious/dream intuition messages as early-alpha sentiment signals worth flagging, or skip them as noise?",
+        "type": "info"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "metadata_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "metadata_id",
+        "metadata_timestamp"
+      ]
+    },
+    "metadata_id": {
+      "type": "Text",
+      "props": {
+        "text": "Message ID: 1518395852354228436",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "metadata_timestamp": {
+      "type": "Text",
+      "props": {
+        "text": "Timestamp: 2026-06-21T23:23:01Z",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor"
+      },
+      "children": [
+        "calibration-section",
+        "sep-1",
+        "message-section",
+        "sep-2",
+        "metadata-section",
+        "sep-3",
+        "caveat-alert"
+      ]
+    },
+    "calibration-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cal-heading",
+        "cal-badge"
+      ]
+    },
+    "cal-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration",
+        "level": "h3"
+      }
+    },
+    "cal-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DC: Chase — TradFi",
+        "variant": "secondary"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "msg-label",
+        "msg-text",
+        "msg-attachment"
+      ]
+    },
+    "msg-label": {
+      "type": "Text",
+      "props": {
+        "text": "Message",
+        "variant": "lead"
+      }
+    },
+    "msg-text": {
+      "type": "Text",
+      "props": {
+        "text": "optimally something like this",
+        "variant": "body"
+      }
+    },
+    "msg-attachment": {
+      "type": "Badge",
+      "props": {
+        "text": "chart attachment",
+        "variant": "outline"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "metadata-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "channel-row",
+        "msgid-row",
+        "time-row"
+      ]
+    },
+    "channel-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "channel-key",
+        "channel-val"
+      ]
+    },
+    "channel-key": {
+      "type": "Text",
+      "props": {
+        "text": "Channel:",
+        "variant": "caption"
+      }
+    },
+    "channel-val": {
+      "type": "Text",
+      "props": {
+        "text": "Supporting (TradFi member Q&A)",
+        "variant": "body"
+      }
+    },
+    "msgid-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "msgid-key",
+        "msgid-val"
+      ]
+    },
+    "msgid-key": {
+      "type": "Text",
+      "props": {
+        "text": "Message ID:",
+        "variant": "caption"
+      }
+    },
+    "msgid-val": {
+      "type": "Text",
+      "props": {
+        "text": "1519772013466484898",
+        "variant": "body"
+      }
+    },
+    "time-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "time-key",
+        "time-val"
+      ]
+    },
+    "time-key": {
+      "type": "Text",
+      "props": {
+        "text": "Time:",
+        "variant": "caption"
+      }
+    },
+    "time-val": {
+      "type": "Text",
+      "props": {
+        "text": "2026-06-25T18:31:24Z",
+        "variant": "body"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "caveat-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification Needed",
+        "message": "Unable to classify without chart context — what asset/setup is he discussing, and what's your read on the conviction?",
+        "type": "info"
+      }
+    }
+  }
+}

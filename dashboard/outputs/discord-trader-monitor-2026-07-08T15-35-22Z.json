@@ -1,0 +1,56 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Discord conversation from Chase — TradFi channel"
+      },
+      "children": [
+        "channel-header",
+        "separator1",
+        "conversation"
+      ]
+    },
+    "channel-header": {
+      "type": "Text",
+      "props": {
+        "text": "💬 Discord: Chase — TradFi",
+        "variant": "lead"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "conversation": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "member-quote",
+        "response-msg"
+      ]
+    },
+    "member-quote": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Member",
+        "text": "jfc memory stocks all freaking heavy, every pump retraces"
+      }
+    },
+    "response-msg": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Response",
+        "text": "Yeah the whole market's heavy. That's why I've been TPing a lot"
+      }
+    }
+  }
+}

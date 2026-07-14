@@ -1,0 +1,133 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_channel",
+        "text_channel_desc",
+        "separator_1",
+        "heading_content",
+        "text_topic",
+        "text_setup",
+        "separator_2",
+        "heading_analysis",
+        "text_classification",
+        "badge_alert",
+        "text_alert_reason",
+        "separator_3",
+        "text_logging"
+      ]
+    },
+    "heading_channel": {
+      "type": "Heading",
+      "props": {
+        "text": "Crypto_Chase",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text_channel_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Chase — Crypto, supporting channel",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_content": {
+      "type": "Heading",
+      "props": {
+        "text": "Content",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text_topic": {
+      "type": "Text",
+      "props": {
+        "text": "Educational technical pattern explanation using ES as example"
+      },
+      "children": []
+    },
+    "text_setup": {
+      "type": "Text",
+      "props": {
+        "text": "Setup criteria: key-level deviation, 20 SMA loss, impulse below level, FVG, Fib retrace"
+      },
+      "children": []
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_analysis": {
+      "type": "Heading",
+      "props": {
+        "text": "Analysis",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text_classification": {
+      "type": "Text",
+      "props": {
+        "text": "Classification: INFORMATIONAL / TECHNICAL PATTERN EDUCATION"
+      },
+      "children": []
+    },
+    "badge_alert": {
+      "type": "Badge",
+      "props": {
+        "text": "Alert: NO",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "text_alert_reason": {
+      "type": "Text",
+      "props": {
+        "text": "Supporting channel, no execution signal"
+      },
+      "children": []
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text_logging": {
+      "type": "Text",
+      "props": {
+        "text": "Logged to memory/traders.md and daily log"
+      },
+      "children": []
+    }
+  }
+}

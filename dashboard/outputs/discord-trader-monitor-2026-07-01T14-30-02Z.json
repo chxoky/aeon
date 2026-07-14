@@ -1,0 +1,42 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_channel",
+        "text_update"
+      ]
+    },
+    "text_channel": {
+      "type": "Text",
+      "props": {
+        "text": "💬 [DC: HCH — Trades]",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "text_update": {
+      "type": "Text",
+      "props": {
+        "text": "60k arrived",
+        "variant": "lead"
+      },
+      "children": []
+    }
+  }
+}

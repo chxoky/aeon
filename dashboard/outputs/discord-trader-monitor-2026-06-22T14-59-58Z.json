@@ -1,0 +1,40 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "attribution",
+        "quote"
+      ]
+    },
+    "attribution": {
+      "type": "Text",
+      "props": {
+        "text": "💬 DC: Chase — Chase",
+        "variant": "caption"
+      }
+    },
+    "quote": {
+      "type": "Text",
+      "props": {
+        "text": "Never a need to chase. Either it gives what we want or we say fuck it.",
+        "variant": "lead"
+      }
+    }
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor"
+      },
+      "children": [
+        "header-line",
+        "separator-1",
+        "member-quote",
+        "separator-2",
+        "winrate-section",
+        "hype-section",
+        "macro-section",
+        "conviction-section",
+        "separator-3",
+        "elaboration"
+      ]
+    },
+    "header-line": {
+      "type": "Text",
+      "props": {
+        "text": "💬 [DC: Chase — Crypto]",
+        "variant": "lead"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "member-quote": {
+      "type": "Text",
+      "props": {
+        "text": "↩️ Member: \"of course he's got a 95% win rate on stocks, I join the discord, take the HYPE trade\"",
+        "variant": "body"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "winrate-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "winrate-heading",
+        "winrate-text"
+      ]
+    },
+    "winrate-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Winrate Hierarchy",
+        "level": "h3"
+      }
+    },
+    "winrate-text": {
+      "type": "Text",
+      "props": {
+        "text": "stocks > futures (ES/gold/etc) > crypto. Crypto is his lowest performing asset.",
+        "variant": "body"
+      }
+    },
+    "hype-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "hype-heading",
+        "hype-text"
+      ]
+    },
+    "hype-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "HYPE Chart Lesson",
+        "level": "h3"
+      }
+    },
+    "hype-text": {
+      "type": "Text",
+      "props": {
+        "text": "If HYPE were a stock, it would have played as expected. Crypto price action itself is inherently erratic vs equities.",
+        "variant": "body"
+      }
+    },
+    "macro-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "macro-heading",
+        "macro-text"
+      ]
+    },
+    "macro-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Macro Interference",
+        "level": "h3"
+      }
+    },
+    "macro-text": {
+      "type": "Text",
+      "props": {
+        "text": "Iran peace-deal headlines (signed/unsigned/signed again daily) disrupted his stock win rate — forced to absorb repeated whipsaws on setup timing.",
+        "variant": "body"
+      }
+    },
+    "conviction-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "conviction-heading",
+        "conviction-text"
+      ]
+    },
+    "conviction-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Core Conviction",
+        "level": "h3"
+      }
+    },
+    "conviction-text": {
+      "type": "Text",
+      "props": {
+        "text": "Logical trade reasoning doesn't guarantee execution success in rare/disruptive scenarios. His broader thesis (stocks > crypto structurally) remains intact.",
+        "variant": "body"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "elaboration": {
+      "type": "Text",
+      "props": {
+        "text": "Supporting-channel elaboration on 13:42Z conviction philosophy. Fast-path did not fire.",
+        "variant": "muted"
+      }
+    }
+  }
+}

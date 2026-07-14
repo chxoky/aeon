@@ -1,0 +1,105 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor",
+        "description": "Self-resolved: Chase — TradFi"
+      },
+      "children": [
+        "badge_resolved",
+        "separator_1",
+        "stack_main",
+        "separator_2",
+        "stack_source"
+      ]
+    },
+    "badge_resolved": {
+      "type": "Badge",
+      "props": {
+        "text": "✅ Self-resolved",
+        "variant": "default"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_ambiguous",
+        "text_resolved",
+        "badge_classification"
+      ]
+    },
+    "text_ambiguous": {
+      "type": "Text",
+      "props": {
+        "text": "Earlier ambiguous: \"liq draw should be up\"",
+        "variant": "body"
+      }
+    },
+    "text_resolved": {
+      "type": "Text",
+      "props": {
+        "text": "Resolved by: ✅ + chart image",
+        "variant": "body"
+      }
+    },
+    "badge_classification": {
+      "type": "Badge",
+      "props": {
+        "text": "Technical confirmation (liquidity structure)",
+        "variant": "secondary"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_source": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_platform",
+        "badge_trader",
+        "badge_community"
+      ]
+    },
+    "badge_platform": {
+      "type": "Badge",
+      "props": {
+        "text": "Discord",
+        "variant": "outline"
+      }
+    },
+    "badge_trader": {
+      "type": "Badge",
+      "props": {
+        "text": "Chase",
+        "variant": "outline"
+      }
+    },
+    "badge_community": {
+      "type": "Badge",
+      "props": {
+        "text": "TradFi",
+        "variant": "outline"
+      }
+    }
+  }
+}

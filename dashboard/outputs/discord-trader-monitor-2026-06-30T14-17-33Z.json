@@ -1,0 +1,209 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor — Calibration",
+        "description": "DC: Chase — Crypto"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event_section",
+        "sep1",
+        "message_section",
+        "sep2",
+        "analysis_section"
+      ]
+    },
+    "event_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event_heading",
+        "event_time",
+        "event_quote",
+        "positions_heading",
+        "positions_list"
+      ]
+    },
+    "event_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "event_time": {
+      "type": "Text",
+      "props": {
+        "text": "Prior message 14:02:05Z same day",
+        "variant": "caption"
+      }
+    },
+    "event_quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"Nothing clear yet for me. Maybe a short if we go straight to 7550s\" (ES-likely, ambiguous)",
+        "variant": "body"
+      }
+    },
+    "positions_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Active Positions",
+        "level": "h4"
+      }
+    },
+    "positions_list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_goog",
+        "pos_es",
+        "pos_mu"
+      ]
+    },
+    "pos_goog": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_goog",
+        "text_goog"
+      ]
+    },
+    "badge_goog": {
+      "type": "Badge",
+      "props": {
+        "text": "GOOG"
+      }
+    },
+    "text_goog": {
+      "type": "Text",
+      "props": {
+        "text": "long (25% size after 4 partial TPs)",
+        "variant": "body"
+      }
+    },
+    "pos_es": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_es",
+        "text_es"
+      ]
+    },
+    "badge_es": {
+      "type": "Badge",
+      "props": {
+        "text": "ES"
+      }
+    },
+    "text_es": {
+      "type": "Text",
+      "props": {
+        "text": "long (neutral conviction, giga chop)",
+        "variant": "body"
+      }
+    },
+    "pos_mu": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_mu",
+        "text_mu"
+      ]
+    },
+    "badge_mu": {
+      "type": "Badge",
+      "props": {
+        "text": "MU"
+      }
+    },
+    "text_mu": {
+      "type": "Text",
+      "props": {
+        "text": "waiting pattern (resting bids sub-850/650)",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "message_heading",
+        "message_time",
+        "message_content"
+      ]
+    },
+    "message_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Message",
+        "level": "h3"
+      }
+    },
+    "message_time": {
+      "type": "Text",
+      "props": {
+        "text": "14:13:33Z",
+        "variant": "caption"
+      }
+    },
+    "message_content": {
+      "type": "Text",
+      "props": {
+        "text": "make sure to terminate",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_section": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to Classify",
+        "message": "Which position/trade are you terminating? (GOOG? ES? MU? or external context?)",
+        "type": "warning"
+      }
+    }
+  }
+}

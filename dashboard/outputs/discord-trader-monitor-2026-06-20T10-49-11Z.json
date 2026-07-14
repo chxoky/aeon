@@ -1,0 +1,134 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor — Calibration"
+      },
+      "children": [
+        "heading_context",
+        "sep_1",
+        "event_meta",
+        "message_section",
+        "sep_2",
+        "classification_section"
+      ]
+    },
+    "heading_context": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: HCH — Chat]",
+        "level": "h3"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "event_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event_text",
+        "message_id_text"
+      ]
+    },
+    "event_text": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Discord message 2026-06-20T10:46:49Z",
+        "variant": "caption"
+      }
+    },
+    "message_id_text": {
+      "type": "Text",
+      "props": {
+        "text": "Message ID: 1517843157897711748",
+        "variant": "caption"
+      }
+    },
+    "message_section": {
+      "type": "TweetCard",
+      "props": {
+        "author": "heartcanhodl",
+        "text": "Nb re 15m % oi"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "classification_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "unable_classify_text",
+        "cryptic_text",
+        "possibilities_stack"
+      ]
+    },
+    "unable_classify_text": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "lead"
+      }
+    },
+    "cryptic_text": {
+      "type": "Text",
+      "props": {
+        "text": "Cryptic: could be",
+        "variant": "body"
+      }
+    },
+    "possibilities_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_15m",
+        "badge_oi",
+        "badge_signal",
+        "badge_other"
+      ]
+    },
+    "badge_15m": {
+      "type": "Badge",
+      "props": {
+        "text": "15m technical observation",
+        "variant": "outline"
+      }
+    },
+    "badge_oi": {
+      "type": "Badge",
+      "props": {
+        "text": "OI % commentary",
+        "variant": "outline"
+      }
+    },
+    "badge_signal": {
+      "type": "Badge",
+      "props": {
+        "text": "Market signal",
+        "variant": "outline"
+      }
+    },
+    "badge_other": {
+      "type": "Badge",
+      "props": {
+        "text": "Something else",
+        "variant": "outline"
+      }
+    }
+  }
+}

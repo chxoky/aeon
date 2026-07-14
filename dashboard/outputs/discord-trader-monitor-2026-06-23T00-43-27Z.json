@@ -1,0 +1,244 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor — Calibration [DC: Chase — Crypto]",
+        "description": "Message classification and position context"
+      },
+      "children": [
+        "trader_info",
+        "sep1",
+        "message_section",
+        "sep2",
+        "context_section",
+        "sep3",
+        "classification"
+      ]
+    },
+    "trader_info": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "trader_label",
+        "trader_name",
+        "channel_badge"
+      ]
+    },
+    "trader_label": {
+      "type": "Text",
+      "props": {
+        "text": "Trader:",
+        "variant": "muted"
+      }
+    },
+    "trader_name": {
+      "type": "Heading",
+      "props": {
+        "text": "crypto_chase",
+        "level": "h3"
+      }
+    },
+    "channel_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "supporting channel",
+        "variant": "secondary"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "timestamp_row",
+        "content_badge",
+        "attachment_link"
+      ]
+    },
+    "timestamp_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "ts_label",
+        "ts_value"
+      ]
+    },
+    "ts_label": {
+      "type": "Text",
+      "props": {
+        "text": "Timestamp:",
+        "variant": "muted"
+      }
+    },
+    "ts_value": {
+      "type": "Text",
+      "props": {
+        "text": "2026-06-23T00:35:50Z",
+        "variant": "caption"
+      }
+    },
+    "content_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "image-only, no text context",
+        "variant": "outline"
+      }
+    },
+    "attachment_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Discord Attachment Image",
+        "href": "https://cdn.discordapp.com/attachments/1247927786681794601/1518776563011686420/image.png",
+        "source": "Discord CDN"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_heading",
+        "position_row",
+        "report_row",
+        "conviction_row"
+      ]
+    },
+    "context_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Position Context",
+        "level": "h4"
+      }
+    },
+    "position_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "pos_label",
+        "pos_badge",
+        "pos_date"
+      ]
+    },
+    "pos_label": {
+      "type": "Text",
+      "props": {
+        "text": "Position:",
+        "variant": "muted"
+      }
+    },
+    "pos_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "ES long",
+        "variant": "default"
+      }
+    },
+    "pos_date": {
+      "type": "Text",
+      "props": {
+        "text": "Entered 06-21",
+        "variant": "caption"
+      }
+    },
+    "report_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "report_label",
+        "report_text",
+        "report_date"
+      ]
+    },
+    "report_label": {
+      "type": "Text",
+      "props": {
+        "text": "Report:",
+        "variant": "muted"
+      }
+    },
+    "report_text": {
+      "type": "Text",
+      "props": {
+        "text": "ES giga chop",
+        "variant": "body"
+      }
+    },
+    "report_date": {
+      "type": "Text",
+      "props": {
+        "text": "06-22T17:50",
+        "variant": "caption"
+      }
+    },
+    "conviction_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "conv_label",
+        "conv_badge"
+      ]
+    },
+    "conv_label": {
+      "type": "Text",
+      "props": {
+        "text": "Market Conviction:",
+        "variant": "muted"
+      }
+    },
+    "conv_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "50/50",
+        "variant": "outline"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to Classify",
+        "message": "Is this chart analysis on ES, Google bid setup, or market conditions?",
+        "type": "warning"
+      }
+    }
+  }
+}

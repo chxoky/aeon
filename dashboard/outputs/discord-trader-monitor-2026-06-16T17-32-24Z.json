@@ -1,0 +1,182 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "header_section",
+        "sep1",
+        "channel_section",
+        "message_section",
+        "classification_section",
+        "sep2",
+        "tracking_section"
+      ]
+    },
+    "header_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "success_badge",
+        "timestamp"
+      ]
+    },
+    "success_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "✅ Success",
+        "variant": "default"
+      }
+    },
+    "timestamp": {
+      "type": "Text",
+      "props": {
+        "text": "2026-06-10T20:13:39Z",
+        "variant": "caption"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "channel_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "channel_label",
+        "channel_value"
+      ]
+    },
+    "channel_label": {
+      "type": "Text",
+      "props": {
+        "text": "Channel",
+        "variant": "muted"
+      }
+    },
+    "channel_value": {
+      "type": "Text",
+      "props": {
+        "text": "Crypto_Chase — TradFi Q&A (supporting channel)",
+        "variant": "body"
+      }
+    },
+    "message_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "message_label",
+        "discord_message"
+      ]
+    },
+    "message_label": {
+      "type": "Text",
+      "props": {
+        "text": "Message",
+        "variant": "muted"
+      }
+    },
+    "discord_message": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Discord Trader",
+        "text": "Yeah, hopefully just enough to get our bids filled and then they'll act like nothing happened at all and everything will reverse"
+      }
+    },
+    "classification_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "classification_label",
+        "classification_badge",
+        "classification_desc"
+      ]
+    },
+    "classification_label": {
+      "type": "Text",
+      "props": {
+        "text": "Classification",
+        "variant": "muted"
+      }
+    },
+    "classification_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "informational",
+        "variant": "secondary"
+      }
+    },
+    "classification_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Conversational market commentary, no new trade action",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tracking_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "alert_status_label",
+        "alert_status",
+        "seen_id_label",
+        "seen_id"
+      ]
+    },
+    "alert_status_label": {
+      "type": "Text",
+      "props": {
+        "text": "Alert Status",
+        "variant": "muted"
+      }
+    },
+    "alert_status": {
+      "type": "Badge",
+      "props": {
+        "text": "logged, not alerted",
+        "variant": "outline"
+      }
+    },
+    "seen_id_label": {
+      "type": "Text",
+      "props": {
+        "text": "Seen ID",
+        "variant": "muted"
+      }
+    },
+    "seen_id": {
+      "type": "Text",
+      "props": {
+        "text": "1514361928875773952 (tracked)",
+        "variant": "caption"
+      }
+    }
+  }
+}

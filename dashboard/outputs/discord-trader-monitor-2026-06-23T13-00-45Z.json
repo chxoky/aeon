@@ -1,0 +1,198 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — Chase TradFi",
+        "description": "Real-time gut feeling / intuitive signal on ES position"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge-event",
+        "separator-1",
+        "section-signal",
+        "separator-2",
+        "section-context",
+        "separator-3",
+        "section-classification",
+        "separator-4",
+        "section-metadata"
+      ]
+    },
+    "badge-event": {
+      "type": "Badge",
+      "props": {
+        "text": "Real-time gut feeling / intuitive signal",
+        "variant": "default"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-signal": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-signal",
+        "quote-signal",
+        "signal-implication"
+      ]
+    },
+    "heading-signal": {
+      "type": "Heading",
+      "props": {
+        "text": "Signal from Crypto_Chase",
+        "level": "h3"
+      }
+    },
+    "quote-signal": {
+      "type": "Text",
+      "props": {
+        "text": "Gut is telling me this might be the start of a larger pullback",
+        "variant": "lead"
+      }
+    },
+    "signal-implication": {
+      "type": "Text",
+      "props": {
+        "text": "Implication: Potentially bearish on ES position",
+        "variant": "body"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-context",
+        "text-position",
+        "text-entry-date",
+        "text-frustration"
+      ]
+    },
+    "heading-context": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "text-position": {
+      "type": "Text",
+      "props": {
+        "text": "Position: ES long",
+        "variant": "body"
+      }
+    },
+    "text-entry-date": {
+      "type": "Text",
+      "props": {
+        "text": "Entry date: 2026-06-21 (based on dream/gut)",
+        "variant": "body"
+      }
+    },
+    "text-frustration": {
+      "type": "Text",
+      "props": {
+        "text": "Recent sentiment: Frustrated with chop since entry",
+        "variant": "body"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-classification": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-classification",
+        "alert-uncertainty"
+      ]
+    },
+    "heading-classification": {
+      "type": "Heading",
+      "props": {
+        "text": "Classification",
+        "level": "h3"
+      }
+    },
+    "alert-uncertainty": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Signal could be: (1) conviction shift on ES requiring action, (2) directional commentary, or (3) noise",
+        "type": "warning"
+      }
+    },
+    "separator-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-metadata": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-channel",
+        "text-timestamp",
+        "text-message-id"
+      ]
+    },
+    "text-channel": {
+      "type": "Text",
+      "props": {
+        "text": "Channel: Chase — TradFi",
+        "variant": "caption"
+      }
+    },
+    "text-timestamp": {
+      "type": "Text",
+      "props": {
+        "text": "Timestamp: 2026-06-23T12:56:28Z",
+        "variant": "caption"
+      }
+    },
+    "text-message-id": {
+      "type": "Text",
+      "props": {
+        "text": "Message ID: 1518962951489589248",
+        "variant": "caption"
+      }
+    }
+  }
+}

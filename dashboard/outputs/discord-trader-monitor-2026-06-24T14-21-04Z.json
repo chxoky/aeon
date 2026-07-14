@@ -1,0 +1,39 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "speaker",
+        "description",
+        "chart-link"
+      ]
+    },
+    "speaker": {
+      "type": "Text",
+      "props": {
+        "text": "💬 DC: Chase — Chase",
+        "variant": "lead"
+      }
+    },
+    "description": {
+      "type": "Text",
+      "props": {
+        "text": "📊 Likely Google technical chart continuation from stream discussion",
+        "variant": "body"
+      }
+    },
+    "chart-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Chart",
+        "href": "https://cdn.discordapp.com/attachments/1336082716063694962/1519345324450385960/image.png?ex=6a3d3819&is=6a3be699&hm=0b757abc7f520648ec8d562e81efc71bdf5f467cb318b6fe1e9378c28e67f0d9&",
+        "source": "Discord"
+      }
+    }
+  }
+}

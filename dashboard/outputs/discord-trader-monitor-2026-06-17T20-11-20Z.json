@@ -1,0 +1,48 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Crypto market commentary calibration"
+      },
+      "children": [
+        "heading-cal",
+        "text-event",
+        "card-message",
+        "text-analysis"
+      ]
+    },
+    "heading-cal": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — DC: Chase — Crypto",
+        "level": "h3"
+      }
+    },
+    "text-event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Crypto market commentary / dividend scenario",
+        "variant": "lead"
+      }
+    },
+    "card-message": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Crypto_Chase",
+        "text": "So they're going to have to sell endless amounts of BTC to pay the dividend ???????"
+      }
+    },
+    "text-analysis": {
+      "type": "Alert",
+      "props": {
+        "title": "Clarification needed",
+        "message": "Unable to classify — which entity/project is issuing the dividend? Is this: (1) a specific crypto project's token offering, (2) commentary on corporate BTC holdings + dividend pressure, (3) a meme/sarcastic reaction to market news? What's your read?",
+        "type": "info"
+      }
+    }
+  }
+}

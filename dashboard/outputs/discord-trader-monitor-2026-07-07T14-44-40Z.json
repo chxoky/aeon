@@ -1,0 +1,172 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "heading-calibration",
+        "sep-1",
+        "stack-timeline",
+        "sep-2",
+        "alert-unclassified"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: Chase — TradFi]",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack-timeline": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event-1",
+        "event-2",
+        "event-3"
+      ]
+    },
+    "event-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-event1-label",
+        "text-event1-timestamp",
+        "card-event1-quote"
+      ]
+    },
+    "text-event1-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Event: Pullback Setup Entry",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text-event1-timestamp": {
+      "type": "Badge",
+      "props": {
+        "text": "13:25:08Z",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "card-event1-quote": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Chase",
+        "handle": "discord",
+        "text": "This is the first real pullback. It's the pullback I was waiting for so I got to take a risk on it."
+      },
+      "children": []
+    },
+    "event-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-event2-label",
+        "text-event2-timestamp",
+        "text-event2-detail"
+      ]
+    },
+    "text-event2-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Event: SNDK HTF Flush Technical Plan Completed",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text-event2-timestamp": {
+      "type": "Badge",
+      "props": {
+        "text": "14:30:28Z (37 minutes later)",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text-event2-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Technical plan execution completed",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "event-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-event3-label",
+        "text-event3-timestamp",
+        "card-event3-quote"
+      ]
+    },
+    "text-event3-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Event: Trader Statement",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text-event3-timestamp": {
+      "type": "Badge",
+      "props": {
+        "text": "14:39:28Z",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "card-event3-quote": {
+      "type": "TweetCard",
+      "props": {
+        "author": "crypto_chase",
+        "handle": "discord",
+        "text": "I just want to be in at this point , down 30% in four days or something"
+      },
+      "children": []
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert-unclassified": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to Classify",
+        "message": "Which position is he referencing? Is the 30% drawdown real (existing position loss) or hypothetical (concern)? Is this a follow-up on the pullback entry or the SNDK setup, or something else entirely?",
+        "type": "warning"
+      },
+      "children": []
+    }
+  }
+}

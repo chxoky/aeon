@@ -1,0 +1,31 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "tweet_1",
+        "attribution_text"
+      ]
+    },
+    "tweet_1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Chase",
+        "handle": "Crypto",
+        "text": "It should hold around here and grind up if it's bullish. I don't see why it would go back down below the box"
+      }
+    },
+    "attribution_text": {
+      "type": "Text",
+      "props": {
+        "text": "via Discord",
+        "variant": "caption"
+      }
+    }
+  }
+}

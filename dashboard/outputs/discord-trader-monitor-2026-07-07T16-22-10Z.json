@@ -1,0 +1,195 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor"
+      },
+      "children": [
+        "main_stack"
+      ]
+    },
+    "main_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading",
+        "sep1",
+        "event_section",
+        "sep2",
+        "context_section",
+        "sep3",
+        "alert_section",
+        "sep4",
+        "image_section"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: Chase — TradFi]",
+        "level": "h1"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "event_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event_label",
+        "event_text",
+        "crypto_chase_info"
+      ]
+    },
+    "event_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "event_text": {
+      "type": "Text",
+      "props": {
+        "text": "Image-only post, no explanatory text"
+      }
+    },
+    "crypto_chase_info": {
+      "type": "Badge",
+      "props": {
+        "text": "crypto_chase: posted chart/screenshot with no text",
+        "variant": "outline"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context_label",
+        "context_text",
+        "position_details"
+      ]
+    },
+    "context_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "Recent position shows Crypto_Chase LONG GOOG (filled 342L, partial TP taken 06-23T13:31Z). This supporting-channel image unclear — is this a GOOG trade update, new position signal, or unrelated analysis?"
+      }
+    },
+    "position_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_long",
+        "badge_goog",
+        "badge_filled",
+        "badge_tp_date"
+      ]
+    },
+    "badge_long": {
+      "type": "Badge",
+      "props": {
+        "text": "LONG",
+        "variant": "default"
+      }
+    },
+    "badge_goog": {
+      "type": "Badge",
+      "props": {
+        "text": "GOOG",
+        "variant": "secondary"
+      }
+    },
+    "badge_filled": {
+      "type": "Badge",
+      "props": {
+        "text": "Filled: 342L",
+        "variant": "secondary"
+      }
+    },
+    "badge_tp_date": {
+      "type": "Badge",
+      "props": {
+        "text": "TP: 06-23T13:31Z",
+        "variant": "secondary"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_section": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification Required",
+        "message": "Unable to classify — what's your read?",
+        "type": "info"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "image_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "image_label",
+        "image_link"
+      ]
+    },
+    "image_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Supporting Image",
+        "level": "h4"
+      }
+    },
+    "image_link": {
+      "type": "Link",
+      "props": {
+        "label": "View Image",
+        "href": "https://cdn.discordapp.com/attachments/1343971265962049597/1524087265448693890/image.png"
+      }
+    }
+  }
+}
