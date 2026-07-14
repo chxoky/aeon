@@ -1,7 +1,7 @@
-🐦 [X] @bull_genius
+🐦 *[X] @bull_genius*
 
-BTC/NQ correlation: 'i completely ignore it... its not robust except for specific occasions where both are tanking... the predictor you are looking for isnt nq its the bond market. on an average day the corr btc nq isnt robust enough to draw actionable conclusions'
+The semis/memory/AI market has been decoupled from BTC — haven't seen them move together at all, on the contrary. Having trouble extracting a solid trade idea from 'NQ did X so BTC should do Y' correlation.
 
-Substantive technical pushback: dismisses BTC/NQ as reliable signal, re-frames focus to bond-market moves (real rates, credit spreads) as underlying driver.
+[View tweet](https://x.com/bull_genius/status/2077035518957690973)
 
-https://x.com/bull_genius/status/2077033653901689311
+_Follows earlier take (14:13) on BTC/NQ unreliability; reinforces bond-market focus over equity correlation._
