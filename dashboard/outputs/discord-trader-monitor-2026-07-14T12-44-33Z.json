@@ -1,0 +1,56 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "header_text",
+        "description_text",
+        "separator",
+        "image_link"
+      ]
+    },
+    "header_text": {
+      "type": "Text",
+      "props": {
+        "text": "📸 [DC: HCH — Comments]",
+        "variant": "caption"
+      }
+    },
+    "description_text": {
+      "type": "Text",
+      "props": {
+        "text": "Chart analysis from HeartCanHodl",
+        "variant": "lead"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "image_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Screenshot",
+        "href": "https://cdn.discordapp.com/attachments/1393137051108507728/1526569394702909720/Screenshot_2026-07-14-18-11-01-13_0b2fce7a16bf2b728d6ffa28c8d60efb.jpg?ex=6a578009&is=6a562e89&hm=2116542ac65493d8f3462c16aad2c10dc19938cf2084d2931816511a06b5c014&",
+        "source": "Discord / HeartCanHodl"
+      }
+    }
+  }
+}
