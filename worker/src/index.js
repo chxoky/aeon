@@ -138,41 +138,48 @@ async function handleTwitter(request, env, ctx) {
     return new Response('OK');
   }
 
-  // fast_tweet and tweet both carry the tweet at body.tweet; tweets[] is a
-  // batch format twitterapi.io occasionally uses — fall back to body.tweet.
-  const tweet = body?.tweet ?? body?.tweets?.[0];
+  // twitterapi.io tweet_filter webhooks deliver ALL rule matches from a poll
+  // window as a batch in body.tweets[]; body.tweet covers single-tweet formats.
+  // Live field shape is camelCase (author.userName, createdAt) — verified via
+  // scripts/fetch-trader-x-bootstrap.sh against the real API (ISS-002).
+  const tweets = Array.isArray(body?.tweets) ? body.tweets
+               : body?.tweet ? [body.tweet]
+               : [];
 
-  if (!tweet) return new Response('OK');
+  for (const tweet of tweets) {
+    if (!tweet) continue;
 
-  const username = tweet.screen_name ?? tweet?.user?.screen_name ?? tweet?.user?.username ?? tweet?.author?.username ?? tweet?.author?.screen_name ?? 'unknown';
-  const text     = tweet.text ?? '';
-  const tweetId  = tweet.id ?? '';
+    const username = tweet?.author?.userName ?? tweet.screen_name ?? tweet?.user?.screen_name ?? tweet?.user?.username ?? tweet?.author?.username ?? tweet?.author?.screen_name ?? 'unknown';
+    const text     = tweet.text ?? '';
+    const tweetId  = tweet.id ?? '';
 
-  if (!text.trim()) return new Response('OK');
+    if (!text.trim()) continue;
+    if (!WATCHED_X_USERNAMES.has(username.toLowerCase())) continue;
 
-  const tweetUrl = `https://x.com/${username}/status/${tweetId}`;
+    const tweetUrl = tweet.url ?? `https://x.com/${username}/status/${tweetId}`;
 
-  if (!WATCHED_X_USERNAMES.has(username.toLowerCase())) return new Response('OK');
+    // No raw forward to Telegram — x-trader-monitor is the sole gate on what
+    // reaches Kyle. Pass the event through as base64-JSON via ${var}; the skill
+    // decides whether (and how) to alert.
+    const event = {
+      id:         tweetId,
+      username,
+      text,
+      created_at: tweet.createdAt ?? tweet.created_at ?? tweet?.tweet_created_at ?? '',
+      url:        tweetUrl,
+      media:      extractTweetMedia(tweet),
+    };
 
-  // No raw forward to Telegram — x-trader-monitor is the sole gate on what
-  // reaches Kyle. Pass the event through as base64-JSON via ${var}; the skill
-  // decides whether (and how) to alert.
-  const event = {
-    id:         tweetId,
-    username,
-    text,
-    created_at: tweet.created_at ?? tweet?.tweet_created_at ?? '',
-    url:        tweetUrl,
-    media:      extractTweetMedia(tweet),
-  };
-
-  ctx.waitUntil(triggerAEON(env, 'x-trader-monitor', toBase64Json(event)));
+    ctx.waitUntil(triggerAEON(env, 'x-trader-monitor', toBase64Json(event)));
+  }
 
   return new Response('OK');
 }
 
 function extractTweetMedia(tweet) {
-  const entities = tweet?.extended_entities?.media ?? tweet?.entities?.media ?? [];
+  // twitterapi.io live shape: top-level media[] with media_url_https (verified);
+  // extended_entities/entities kept as fallbacks for other formats.
+  const entities = tweet?.media ?? tweet?.extended_entities?.media ?? tweet?.entities?.media ?? [];
   if (!Array.isArray(entities)) return [];
   return entities
     .map((m) => m?.media_url_https ?? m?.media_url ?? null)
