@@ -151,6 +151,8 @@
 - Current open positions: None stated.
 - Recent thesis: Near-silent this window (1 post) — educational thread on Binance's BTC "yield" product being a covered-call/option-selling strategy. No directional call.
 - Conviction notes: Educational/structural; low frequency. Signal is rare and analytical rather than positional.
-- Last seen: 2026-07-08 15:02 UTC
+- Last seen: 2026-07-14 17:34:34 UTC
+- **Events log:**
+  - Jul 14 17:34:34 UTC (X) — skip (non-financial / platform meta-commentary) — "I see the algo's been fixed, so now I unfortunately have to see all your posts again" — personal commentary on X algorithm changes, no financial signal, silent log, no alert
 
 BOOTSTRAP_COMPLETE: 2026-07-14
