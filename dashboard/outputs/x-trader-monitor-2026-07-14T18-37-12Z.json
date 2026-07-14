@@ -1,0 +1,96 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading-calibration",
+        "text-event-label",
+        "text-event-context",
+        "tweet-post",
+        "sep-1",
+        "alert-issues",
+        "text-pattern",
+        "text-possible",
+        "text-unable"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration — @Wild_Randomness",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text-event-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text-event-context": {
+      "type": "Text",
+      "props": {
+        "text": "(context inferred from earlier trades)",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "tweet-post": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Mattering for now…"
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert-issues": {
+      "type": "Alert",
+      "props": {
+        "title": "Issues",
+        "message": "URL inaccessible; extremely cryptic",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "text-pattern": {
+      "type": "Text",
+      "props": {
+        "text": "Pattern: Fourth URL-minimal-caption post from Wild_Randomness on 07-14",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-possible": {
+      "type": "Text",
+      "props": {
+        "text": "Could reference: equity/vol setup, market structure, or personal sentiment",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-unable": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "lead"
+      },
+      "children": []
+    }
+  }
+}
