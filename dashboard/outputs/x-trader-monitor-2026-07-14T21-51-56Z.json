@@ -1,0 +1,57 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Trading signal and market analysis"
+      },
+      "children": [
+        "tweet-card",
+        "separator-1",
+        "details-stack"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Ok that tracked…\n\n- cold cpi\n- Warsh still not convinced\n- SPY exact same bounce as 06/04\n- NQ tested 30\n\nWhat followed after 06/04 is definitely not my base case lol"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "details-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-link",
+        "interpretation-text"
+      ]
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet on X",
+        "href": "https://x.com/Wild_Randomness/status/2077147915802358230"
+      }
+    },
+    "interpretation-text": {
+      "type": "Text",
+      "props": {
+        "text": "Setup divergence: base case expectations not matching current SPY/NQ price action.",
+        "variant": "muted"
+      }
+    }
+  }
+}
