@@ -1,0 +1,77 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration — @Wild_Randomness"
+      },
+      "children": [
+        "heading-1",
+        "text-event",
+        "separator-1",
+        "tweet-card-1",
+        "text-interpretation",
+        "separator-2",
+        "link-post"
+      ]
+    },
+    "heading-1": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text-event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: No external context visible. Two-hour gap from prior vol/options post (12:36 UTC).",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "tweet-card-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "$ETHA $ETHA https://t.co/BKHs4aq5hN"
+      },
+      "children": []
+    },
+    "text-interpretation": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — ticker outside his typical focus (equities/vol/semis). What's your read?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link-post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2077040941257630126"
+      },
+      "children": []
+    }
+  }
+}
