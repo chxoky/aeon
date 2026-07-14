@@ -1,0 +1,217 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "market context",
+        "description": "2026-07-14"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "take_section",
+        "sep1",
+        "prices_heading",
+        "btc_stat",
+        "eth_stat",
+        "sep2",
+        "sentiment_heading",
+        "fg_progress",
+        "sep3",
+        "breadth_heading",
+        "breadth_24h_progress",
+        "breadth_7d_progress",
+        "sep4",
+        "volume_heading",
+        "dex_stat",
+        "sep5",
+        "narrative_heading",
+        "zec_stat",
+        "drv_stat",
+        "sep6",
+        "catalyst_alert",
+        "sep7",
+        "etf_stat"
+      ]
+    },
+    "take_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "take_badge",
+        "conviction_badge"
+      ]
+    },
+    "take_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "chop/bounce"
+      }
+    },
+    "conviction_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "conviction low",
+        "variant": "secondary"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "prices_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Prices",
+        "level": "h3"
+      }
+    },
+    "btc_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$63,637",
+        "delta": "+2.23%",
+        "trend": "up"
+      }
+    },
+    "eth_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$1,862",
+        "delta": "+5.39%",
+        "trend": "up"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "sentiment_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Market Sentiment",
+        "level": "h3"
+      }
+    },
+    "fg_progress": {
+      "type": "Progress",
+      "props": {
+        "label": "Fear & Greed (Extreme Fear ↓ from 28)",
+        "value": 22,
+        "max": 100
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "breadth_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Market Breadth",
+        "level": "h3"
+      }
+    },
+    "breadth_24h_progress": {
+      "type": "Progress",
+      "props": {
+        "label": "24h",
+        "value": 17,
+        "max": 20
+      }
+    },
+    "breadth_7d_progress": {
+      "type": "Progress",
+      "props": {
+        "label": "7d",
+        "value": 10,
+        "max": 20
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "volume_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Volume",
+        "level": "h3"
+      }
+    },
+    "dex_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "DEX volume",
+        "value": "$7.76B"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {}
+    },
+    "narrative_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Narratives",
+        "level": "h3"
+      }
+    },
+    "zec_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Privacy/ZK rising (ZEC)",
+        "value": "+13.75%",
+        "delta": "7d",
+        "trend": "up"
+      }
+    },
+    "drv_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Derivatives infra emerging (DRV)",
+        "value": "+35.94%",
+        "delta": "trending",
+        "trend": "up"
+      }
+    },
+    "sep6": {
+      "type": "Separator",
+      "props": {}
+    },
+    "catalyst_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Catalyst",
+        "message": "US CPI today 8:30am ET · ETF inflows $510M in 3 July sessions",
+        "type": "info"
+      }
+    },
+    "sep7": {
+      "type": "Separator",
+      "props": {}
+    },
+    "etf_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "ETF inflows (3 July sessions)",
+        "value": "$510M"
+      }
+    }
+  }
+}
