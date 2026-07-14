@@ -28,11 +28,12 @@
 - Current open positions: Net **SHORT basket, adding Jul 14**: **BTC short** (+3% add on separate account Jul 14), **ETH short** (+2% add Jul 14), **SOL short** (+2% add Jul 14), **UNI short** (+1% add Jul 14), **HYPE short**, **ZEC short** (one basket). **$SPCX short** — big winner, printed all-time low Jul 13 (called the top, still showcased/riding). Closed for large profit: **"$LAB" short** (~-82% move, fully out Jul 9).
 - Recent thesis: Firmly bearish. BTC can't hold above 62.8K, keeps rejecting ~61K. "Not buying anything, short on some stuff." SOL his weakest-major short candidate (weak since Ansem underperforms, attention rotating to Robinhood chain). Skeptical of the memory-stocks-new-highs narrative. Macro fixation on MSTR/STRC↔BTC reflexive-loop fragility. "Shorts doing well." Macro note (2026-07-14 04:56 UTC, Discord Chat): using Hynix -42% drop in 19d as volatility reference point vs Bitcoin's 4-month decline — framing rapid drawdown mechanics for market context.
 - Conviction notes: Terse, mirror-able calls with explicit %-of-portfolio sizing and exact prices ("Add 1% zec short", "Take X% off at $Y"). "Fc {ticker} {tf}" chart callouts. Low-leverage framing. Longer macro reasoning in Comments channel.
-- Last seen: 2026-07-14 12:59 UTC
+- Last seen: 2026-07-14 13:10 UTC
 - **Events log:**
   - 2026-07-14 11:12:24 UTC (Comments) — informational (macro short-add analysis) — "Prices are now below our average short entry $64k+. I think we can add a bit more around these levels close to $63k. It's a higher-risk add, but I could see a deeper dip into the high $60,500s over the next few days, if we break $59k then the next zone is $54k-57k" — strategic entry/add zone structure callouts
   - 2026-07-14 12:41:46 UTC (Comments) — informational (chart/screenshot) — image-only macro analysis visual supporting entry-zone discussion (message_id=1526569394954833952, discord-trader-monitor, fast-path=false)
   - 2026-07-14 12:59:26 UTC (Free) — informational (macro sentiment/macro discipline) — "CPI doesn't change the broader trend. As long as that trend remains down, don't get carried away by the prints that in the past as well followed the broader trend." — cautionary take on macro positioning; emphasizing structural downtrend discipline over short-term volatility/data prints (message_id=1526573843223810078, discord-trader-monitor, fast-path=true)
+  - 2026-07-14 13:10:26 UTC (X) — skip (mechanical-repeat dedup vs Discord 12:59:26 UTC) — "Forget the CPI for a second, what's the broader crypto market trend?" — reiterates same theme (CPI is noise; focus on macro trend) via X question instead of Discord statement; silent log, no alert
 
 ## t_in_crypto
 - Platforms: X
