@@ -73,8 +73,9 @@
 - Current open positions (equities/vol trader, most active names): **$SPY** — averaging in (plus some short-term right-tail/put positions); **$EWY/$KOSPI** — bid zone 6800–7100 (Korea/Hynix bottom thesis); **$LIT** — weekend momentum long (cup-and-handle above POC). Out of **$NVDA** (July calls, TP'd, sidelined). Sold **$BE** rejection for small loss, will rebuy a reclaim.
 - Recent thesis: Macro/vol-focused. $SPX/$NDX: expects short-term "spot up, vol up," then a broader top (dispersion trade fueling record single-stock vol vs record-low index vol → gap-ups that get sold; cares about positioning into earnings, not earnings). Watching semis ($QQQ/$SMH — "fatwa until it breaks"), $ORCL (bullish squeeze), $META (Pascal's-wager long, stop 615), $ALAB (Sept bid), $OKLO (uranium), $IBIT ($36–37 sticking point), $VIX/$VIXN AI-vol dispersion. Calls July the worst momentum month since the GFC.
 - Conviction notes: Options/vol/correlation language (COR1M, dispersion, implied corr). Chart-and-one-liner posting style; strong opinions on positioning.
-- Last seen: 2026-07-14 05:37 UTC
+- Last seen: 2026-07-14 12:36 UTC
 - **2026-07-14 05:37 UTC:** skip (non-financial/personal) — "lol alright botted by Kenny G\n\nquick 1% swing overnight\n\nLet's see what tomorrow morning brings" — personal emotional reflection on stopped-out swing, no ticker, no signal
+- **2026-07-14 12:36 UTC:** ambiguous (cryptic post, awaiting Kyle calibration) — URL-only post "https://t.co/yr6TZn5wlA" (self-referential link, no caption/context). Unclear if equity/vol signal or personal noise — calibration alert sent
 
 ## trading_axe (Dr. Axius)
 - Platforms: X
