@@ -1,0 +1,91 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading_skill",
+        "sep1",
+        "heading_calibration",
+        "text_event",
+        "tweet_wild",
+        "sep2",
+        "heading_analysis",
+        "text_unable",
+        "text_ibit_watch"
+      ]
+    },
+    "heading_skill": {
+      "type": "Heading",
+      "props": {
+        "text": "x-trader-monitor",
+        "level": "h1"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: BTC at potential pivot, testing structure"
+      },
+      "children": []
+    },
+    "tweet_wild": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "$BTC $IBIT\n\nShow me what you got\n\n(Big pivot) https://t.co/OWDj7z9YGu"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_analysis": {
+      "type": "Heading",
+      "props": {
+        "text": "Analysis Note",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text_unable": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read? Is this a personal entry signal on BTC/IBIT positions, or general technical sentiment?"
+      },
+      "children": []
+    },
+    "text_ibit_watch": {
+      "type": "Text",
+      "props": {
+        "text": "($IBIT is on watch list $36–37 sticking point)"
+      },
+      "children": []
+    }
+  }
+}

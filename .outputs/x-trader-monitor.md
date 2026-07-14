@@ -1,10 +1,11 @@
-🐦 *[X] @Wild_Randomness*
 
-$LIT — Pretty schizo PA
+🔍 *Calibration — @Wild_Randomness*
 
-They ran the same playbook from the previous week, makes me a little concerned tbh
+Event: BTC at potential pivot, testing structure
+Wild_Randomness: "$BTC $IBIT
 
-POC is a big pivot here… https://x.com/Wild_Randomness/status/2077057234677473544
+Show me what you got
 
----
-Context: Wild_Randomness holds a weekend momentum long on $LIT (cup-and-handle above POC). This post expresses concern about erratic price action + pattern repetition. Technical observation, not an execution call.
+(Big pivot) https://t.co/OWDj7z9YGu"
+
+Unable to classify — what's your read? Is this a personal entry signal on BTC/IBIT positions, or general technical sentiment? ($IBIT is on watch list $36–37 sticking point)
