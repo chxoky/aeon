@@ -146,6 +146,8 @@ async function handleTwitter(request, env, ctx) {
                : body?.tweet ? [body.tweet]
                : [];
 
+  const batchSeen = new Set();
+
   for (const tweet of tweets) {
     if (!tweet) continue;
 
@@ -155,6 +157,16 @@ async function handleTwitter(request, env, ctx) {
 
     if (!text.trim()) continue;
     if (!WATCHED_X_USERNAMES.has(username.toLowerCase())) continue;
+
+    // twitterapi.io redelivers every tweet matched in its lookback window on
+    // each 180s poll — dedup on tweet ID so each dispatches exactly once.
+    // Marked seen only after a successful dispatch so GH hiccups get retried
+    // by the next redelivery.
+    if (tweetId) {
+      if (batchSeen.has(tweetId)) continue;
+      batchSeen.add(tweetId);
+      if (await env.BOT_STATE.get(`x-seen:${tweetId}`)) continue;
+    }
 
     const tweetUrl = tweet.url ?? `https://x.com/${username}/status/${tweetId}`;
 
@@ -170,7 +182,12 @@ async function handleTwitter(request, env, ctx) {
       media:      extractTweetMedia(tweet),
     };
 
-    ctx.waitUntil(triggerAEON(env, 'x-trader-monitor', toBase64Json(event)));
+    ctx.waitUntil((async () => {
+      const ok = await triggerAEON(env, 'x-trader-monitor', toBase64Json(event));
+      if (ok && tweetId) {
+        await env.BOT_STATE.put(`x-seen:${tweetId}`, '1', { expirationTtl: 604800 });
+      }
+    })());
   }
 
   return new Response('OK');
