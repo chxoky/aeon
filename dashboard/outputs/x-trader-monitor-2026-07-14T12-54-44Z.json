@@ -1,0 +1,97 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @Wild_Randomness"
+      },
+      "children": [
+        "metadata-stack",
+        "sep1",
+        "post-tweet",
+        "sep2",
+        "analysis-stack"
+      ]
+    },
+    "metadata-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "timestamp-text",
+        "context-text"
+      ]
+    },
+    "timestamp-text": {
+      "type": "Text",
+      "props": {
+        "text": "Post at 2026-07-14 12:36 UTC",
+        "variant": "caption"
+      }
+    },
+    "context-text": {
+      "type": "Text",
+      "props": {
+        "text": "(6h after personal swing reflection)",
+        "variant": "muted"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "post-tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "https://t.co/yr6TZn5wlA\n(self-referential link, no caption)"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis-text",
+        "classification-alert",
+        "view-link"
+      ]
+    },
+    "analysis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Post contains only a shortened URL linking back to itself with no text/context. Unable to classify."
+      }
+    },
+    "classification-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "equity/vol signal or personal?",
+        "type": "warning"
+      }
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2077009213214032010"
+      }
+    }
+  }
+}
