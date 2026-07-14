@@ -133,8 +133,8 @@
 - **Trade result**: Profit-taking on 5-day hold (entered 07-03 early morning, exited 07-08 early morning). Estimated holding period: 5 full calendar days ≈ 105 hours. Entry context (BTC near 60k+, SOL/ETH corresponding levels, HYPE at tactical levels) vs. 07-08 exit context (BTC at 62.8k zone or below, consolidating without "concrete flip" per 07-06 observations) suggests shorts likely profitable on scale-out (entry was bearish thesis capitalization; 5-day hold without major reversal = profitable trade management). Full BTC exit + partial ETH/SOL/HYPE exits = tiered profit-taking with remainder positions maintaining downside participation. HCH's discipline evident: take profits when risk exhausted, retain core for continuation.
 - **Last update**: 2026-07-08T09:06:01Z (discord-trader-monitor, fast-path alerted, PROFIT-TAKING / POSITION SCALE-OUT; message_id=1524340774735450112)
 
-### BTC/ETH/SOL/HYPE/ZEC SHORTS — RE-ENTRY (2026-07-10)
-- **Status**: ACTIVE — NEW SCALE-IN ENTRY (follow-up after 07-08 profit-taking)
+### BTC/ETH/SOL/HYPE/ZEC SHORTS — RE-ENTRY (2026-07-10) & CONVICTION ADD (2026-07-14)
+- **Status**: ACTIVE — CONVICTION ADD ON SEPARATE ACCOUNT (2026-07-14T11:13:44Z)
 - **Entry**: 2026-07-10T08:21:41Z — "Enter half of that on the short side here" (is_reply to 07-08 profit-taking message)
 - **Re-entry context**: HCH took profits on the 07-03→07-08 short basket (BTC 7.5% taken off, ETH 3.5% off, SOL 3.5% off, HYPE 1% off, ZEC 1% off). Two days later, re-entering HALF of what was closed:
   - **BTC**: Re-enter ~3.75% (half of 7.5% closed)
@@ -142,11 +142,17 @@
   - **SOL**: Re-enter ~1.75% (half of 3.5% closed)
   - **HYPE**: Re-enter ~0.5% (half of 1% closed)
   - **ZEC**: Re-enter ~0.5% (half of 1% closed)
-- **Position interpretation**: Classic "scale-back-in after TP" pattern — HCH satisfied with 07-08 profit-taking discipline, now re-accumulating at potentially better price levels. Suggests either: (a) market weakness resumed after brief consolidation, validating original bearish thesis for deeper penetration, or (b) HCH confident in structural downside and using TP-derived capital to average into lower. Core remainder positions (ETH 2.25%, SOL 0.25%, HYPE 2%, ZEC [reduced]) + new re-entry creates layered short exposure across multiple timeframes/conviction levels.
-- **Conviction**: HIGH (proactive re-entry within 2 days of taking profits indicates strong conviction on continuation; disciplined scaling avoids FOMO overexposure)
-- **Message_id**: 1525054393576063046
+- **Conviction Add (Jul 14)**: 2026-07-14T11:13:44Z — "on separate account: add 3% to btc short, 2% to eth short and 2% to sol short, and 1% to uni short" (is_reply to "Enter half of that on the short side here")
+  - **BTC**: +3% (separate account allocation)
+  - **ETH**: +2% (separate account)
+  - **SOL**: +2% (separate account)
+  - **UNI**: +1% (NEW TICKER — first short mention)
+  - Total allocation on separate account: 8% across 4 tickers
+  - **Message_id**: 1526547243564269689 (fast-path alerted by Cloudflare Worker; Telegram alert already sent, memory/logging only)
+- **Position interpretation**: Classic "scale-back-in after TP" pattern — HCH satisfied with 07-08 profit-taking discipline, now re-accumulating at potentially better price levels. 07-10 re-entry + 07-14 conviction add (4 days later) = two-phase re-accumulation strategy with explicit account segregation. Separate-account framing suggests: (a) distinct risk management universe (secondary capital allocation), (b) potential position-size/leverage differentiation, or (c) tax/operational tracking discipline. High conviction across both phases (re-entry + add within 4 days) indicates strong structural bearish thesis validation. Suggests either: (a) market weakness resumed after brief consolidation, validating original bearish thesis for deeper penetration, or (b) HCH confident in structural downside and using TP-derived capital to average into lower. Core remainder positions (ETH 2.25%, SOL 0.25%, HYPE 2%, ZEC [reduced]) + primary re-entry (07-10) + secondary account adds (07-14) creates layered short exposure across multiple timeframes/conviction levels/accounts.
+- **Conviction**: VERY HIGH (two-phase re-entry within 4 days of TP + explicit account add = triple conviction signal; disciplined scaling avoids FOMO overexposure while maintaining structured risk approach)
 - **Channel**: 1279738718680256553 (HCH — Trades, ★most important)
-- **Last update**: 2026-07-10T08:21:41Z (discord-trader-monitor, fast-path alerted by Cloudflare Worker, RE-ENTRY SCALE-IN; no Telegram alert needed — fast-path already sent)
+- **Last update**: 2026-07-14T11:13:44Z (discord-trader-monitor, fast-path alerted by Cloudflare Worker, CONVICTION ADD ON SEPARATE ACCOUNT; Telegram alert already sent 2-5s after event)
 
 ### BTC/ETH/SOL Spot — LONGS (CLOSED)
 - **Status**: CLOSED at market 2026-07-02T10:25:13Z — "Close majors fully here"

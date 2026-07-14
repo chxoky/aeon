@@ -4,7 +4,7 @@
 ## Overlap tickers (mentioned by 2+ watched traders)
 - **BTC**: nearly universal. Longs — KillaXBT (2x @62.6K + spot), t_in_crypto (100% @58.4K), swarmister (intraday long-lean), ryzzqq (small). Short — HeartCanHodl (basket, adding). Watching/flat — Crypto_Chase (66K trigger), bull_genius, Stoiiic, Bitcoin_Astro. **Group lean: MIXED** — HTF-bullish structural bias, but near-term chop/downside expected (60–60.7K = key breakdown → 54K; 64.7K lower high; 66K = bull trigger).
 - **HYPE**: Wild_Randomness (do-or-die at 66.66, daily trend), Crypto_Chase (waiting to bid a flush of lows), HeartCanHodl (short in basket), bull_genius (bearish near-term, short hedges justified — trend exhausted, weekly bear div). **Group lean: BEARISH / cautious near-term** (Q3–Q4 Robinhood + perp-DEX TGE headwinds).
-- **SOL**: HeartCanHodl (short, weakest major), KillaXBT ("never reaching ATH again"), Crypto_Chase (passed on a short — low conviction), trading_axe (attention rotating to Robinhood chain). **Group lean: BEARISH.**
+- **SOL**: HeartCanHodl (short, weakest major, added +2% Jul 14 on secondary account), KillaXBT ("never reaching ATH again"), Crypto_Chase (passed on a short — low conviction), trading_axe (attention rotating to Robinhood chain). **Group lean: BEARISH** (HCH conviction reinforced Jul 14).
 - **ZEC**: HeartCanHodl (short in basket), trading_axe (risk-on barometer — "while ZEC up, diamond-hand everything"). **Group lean: CONTESTED** — HCH short vs axe treating strength as a market-health tell. Watch closely as a sentiment signal.
 - **ETH**: HeartCanHodl (short in basket), swarmister ("structure looks clean," watching for continuation), Crypto_Chase (best structure among majors this dump). **Group lean: MIXED** (structurally least-weak major, but HCH short).
 - **Memory / semis — MU, SNDK, DRAM**: Crypto_Chase (flushed longs, TP'd in profit), bull_genius (same, TP'd), Stoiiic (noted the SNDK bounce), HeartCanHodl (skeptical of the "new highs on memory" narrative). Wild_Randomness watches broader semis ($QQQ/$SMH/$SOXL). **Group lean: BOUNCE PLAYED → now cautious.**
@@ -16,6 +16,7 @@
 - $Gold (normalize: $GC, $XAUUSD, $GLD, $GOLD, $XAU → treat as one) — Crypto_Chase interested ~3,820 (watching PA before bidding).
 
 ## Quiet tickers (single-trader mentions, tracked silently)
+- **$UNI** (Uniswap): HeartCanHodl — SHORT, 1% added Jul 14 on secondary account (first mention in tracked window)
 - **$SPCX** (SpaceX): HeartCanHodl — SHORT, big winner, printed all-time low Jul 13. Chase calls it "dogshit" (agrees directionally). ryzzqq — LONG interest (Jul 14, "looking to buy 120-130") — contrarian to shorts, awaiting calibration.
 - **$ORCL**: Wild_Randomness — bullish, short-squeeze thesis, "motion."
 - **$META**: Wild_Randomness — Pascal's-wager long idea, tight stop ~615.
