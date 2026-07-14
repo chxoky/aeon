@@ -1,0 +1,76 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @KillaXBT"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-event",
+        "text-event-details",
+        "sep-1",
+        "tweet-killaXBT",
+        "sep-2",
+        "text-analysis"
+      ]
+    },
+    "heading-event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text-event-details": {
+      "type": "Text",
+      "props": {
+        "text": "Earlier conditional scalp-short plan at 14:08 UTC (ladder shorts at 64.7K sweep into mid-65s); market action from 14:54 UTC onwards awaited execution confirmation."
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "tweet-killaXBT": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "$BTC\n\nCheckmate. Easy ✅ https://t.co/3g6Hjkg9go"
+      },
+      "children": []
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text-analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — does 'Checkmate. Easy' confirm the scalp-short plan executed, or is it general market commentary?",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}

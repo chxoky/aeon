@@ -1,9 +1,9 @@
-➕ *Conviction Add — @Wild_Randomness*
+🔍 *Calibration — @KillaXBT*
 
-$SPY conviction add — "Tapping my SPY box again, check. ~30,000 NQ, check"
+Event: Earlier conditional scalp-short plan at 14:08 UTC (ladder shorts at 64.7K sweep into mid-65s); market action from 14:54 UTC onwards awaited execution confirmation.
 
-Wild_Randomness continues averaging into SPY at box support levels (ongoing macro thesis: spot up/vol up into a broader top). Portfolio notional context: ~30,000 NQ.
+KillaXBT: "$BTC
 
-Want to add to your SPY position too?
+Checkmate. Easy ✅ https://t.co/3g6Hjkg9go"
 
-[View post](https://x.com/Wild_Randomness/status/2077051901804417406)
+Unable to classify — does 'Checkmate. Easy' confirm the scalp-short plan executed, or is it general market commentary?
