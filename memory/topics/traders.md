@@ -79,10 +79,12 @@
 ## ryzzqq
 - Platforms: X
 - Current open positions: **Long** filled Jul 9 ("filled some longs here… left ammo for lower, one more leg left before it dies") — likely BTC/crypto, small, unconfirmed since.
-- Recent thesis: Minimal data this window (1 post). Tactical long expecting chop first.
+- Recent thesis: Minimal data this window (2 posts). Tactical long expecting chop first. Cross-asset interest noted (BTC + SPCX).
 - Conviction notes: Very low posting volume — a low-signal account; treat any post as relatively high-intent given rarity.
-- Last seen: 2026-07-14 06:38 UTC
-- **Events log:** Jul 14 06:38 — informational (macro/price target) — "68K before 58K revisit, buying dips next 48h, local bottom in for the month" — BTC, aligns w/ structural bull bias
+- Last seen: 2026-07-14 06:47 UTC
+- **Events log:** 
+  - Jul 14 06:38 — informational (macro/price target) — "68K before 58K revisit, buying dips next 48h, local bottom in for the month" — BTC, aligns w/ structural bull bias
+  - Jul 14 06:47 — ambiguous (trade-setup vs. directional) — "looking to buy spcx 120-130, ipo was at 135 / betting on the fact that they crime it into unlocks" — SPCX, contrarian to group bearish (HCH short, Chase dismissive), awaiting calibration on "looking to buy" language
 
 ## abetrade
 - Platforms: X

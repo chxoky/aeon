@@ -16,7 +16,7 @@
 - $Gold (normalize: $GC, $XAUUSD, $GLD, $GOLD, $XAU → treat as one) — Crypto_Chase interested ~3,820 (watching PA before bidding).
 
 ## Quiet tickers (single-trader mentions, tracked silently)
-- **$SPCX** (SpaceX): HeartCanHodl — SHORT, big winner, printed all-time low Jul 13. Chase calls it "dogshit" (agrees directionally).
+- **$SPCX** (SpaceX): HeartCanHodl — SHORT, big winner, printed all-time low Jul 13. Chase calls it "dogshit" (agrees directionally). ryzzqq — LONG interest (Jul 14, "looking to buy 120-130") — contrarian to shorts, awaiting calibration.
 - **$ORCL**: Wild_Randomness — bullish, short-squeeze thesis, "motion."
 - **$META**: Wild_Randomness — Pascal's-wager long idea, tight stop ~615.
 - **$EWY / $KOSPI**: Wild_Randomness — bid zone 6800–7100 (Korea/Hynix bottom).

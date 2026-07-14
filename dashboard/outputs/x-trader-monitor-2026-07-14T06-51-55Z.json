@@ -1,0 +1,23 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "alert_calibration"
+      ]
+    },
+    "alert_calibration": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Calibration Alert Needed",
+        "message": "Post by @ryzzqq regarding SPCX contains ambiguous 'looking to buy' language. See memory for details."
+      }
+    }
+  }
+}
