@@ -1,0 +1,66 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ticker",
+        "sep1",
+        "tweet",
+        "sep2",
+        "analysis",
+        "view-link"
+      ]
+    },
+    "ticker": {
+      "type": "Badge",
+      "props": {
+        "text": "$BTC"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "The number of people about to get brutally front run this cycle is insane.\n\n49K isn't even unrealistic, but if we hit it, the same crowd will scream for $35K… then $25K… then $10K, until price reverses and leaves them sidelined.\n\nHindsight is a b*tch. We're sitting at generational entries, yet people are still waiting for even lower prices.\n\nJust stop being a P*ssy and click buy. Thank me later in 2-3 years."
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Lines up with t_in_crypto's conviction-add (x2 volume at 62K) — bullish group convergence on current price as entry opportunity.",
+        "variant": "lead"
+      }
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2077082980573405646"
+      }
+    }
+  }
+}
