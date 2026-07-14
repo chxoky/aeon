@@ -1,0 +1,198 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Trade sentiment & position tracking"
+      },
+      "children": [
+        "header",
+        "sep1",
+        "ambiguous",
+        "sep2",
+        "resolution",
+        "sep3",
+        "position",
+        "sep4",
+        "link"
+      ]
+    },
+    "header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_status",
+        "badge_author"
+      ]
+    },
+    "badge_status": {
+      "type": "Badge",
+      "props": {
+        "text": "Self-resolved",
+        "variant": "default"
+      }
+    },
+    "badge_author": {
+      "type": "Badge",
+      "props": {
+        "text": "@t_in_crypto",
+        "variant": "secondary"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "ambiguous": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ambig_heading",
+        "ambig_text"
+      ]
+    },
+    "ambig_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Earlier ambiguous post",
+        "level": "h3"
+      }
+    },
+    "ambig_text": {
+      "type": "Text",
+      "props": {
+        "text": "\"Please shorted bitcoin:native as much as possible in the next 24-30 hours. Thank you very much and God bless you 😁\"",
+        "variant": "lead"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "resolution": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "res_heading",
+        "res_text",
+        "res_classification"
+      ]
+    },
+    "res_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Resolution",
+        "level": "h3"
+      }
+    },
+    "res_text": {
+      "type": "Text",
+      "props": {
+        "text": "\"Look at my last post, it has all the answers. And this post is ironic\"",
+        "variant": "lead"
+      }
+    },
+    "res_classification": {
+      "type": "Badge",
+      "props": {
+        "text": "Sarcastic/ironic — bullish conviction reaffirmed",
+        "variant": "outline"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "position": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "pos_heading",
+        "pos_grid"
+      ]
+    },
+    "pos_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Position & consolidation",
+        "level": "h3"
+      }
+    },
+    "pos_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat_size",
+        "stat_entry",
+        "stat_add",
+        "stat_volume"
+      ]
+    },
+    "stat_size": {
+      "type": "Stat",
+      "props": {
+        "label": "Position size",
+        "value": "100%+ LONG"
+      }
+    },
+    "stat_entry": {
+      "type": "Stat",
+      "props": {
+        "label": "Entry price",
+        "value": "$58.4K"
+      }
+    },
+    "stat_add": {
+      "type": "Stat",
+      "props": {
+        "label": "Conviction add",
+        "value": "$62K"
+      }
+    },
+    "stat_volume": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume multiplier",
+        "value": "x2"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View original post",
+        "href": "https://x.com/t_in_crypto/status/2077117694025879999",
+        "source": "X"
+      }
+    }
+  }
+}
