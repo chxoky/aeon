@@ -90,7 +90,17 @@
 - **Technical thesis**: Monday High pattern in play; 60.7K initial sweep target, then 68-69K push expected next month; sub-50k triggers ISA liquidation for additional conviction add
 - **Last update**: 2026-06-25T14:50:04Z (position confirmation + DCA plan, message_id=1519716314996805654, fast-path alerted)
 
-### BTC — SHORT (tactical position, fully closed with small profits)
+### BTC — SHORT (scalp hedge, ACTIVE entry 2026-07-14)
+- **Status**: ACTIVE — LADDER ENTRY INITIATED 2026-07-14T15:38:48Z
+- **Entry range**: 64.8K–65.8K (laddering gradual, small-position entry)
+- **Position size**: Small (~30% hedge of total BTC holdings on separate account)
+- **Entry signal**: Execution on conditional scalp-short plan from Discord 14:08:41 UTC message ("Hoping we get a sweep above the highs so I can start laddering into some scalp shorts")
+- **Invalidation**: 66.5–66.8K
+- **Thesis**: Tactical hedge against HTF 2x long conviction (same message: "Remember I am still swing long on the HTF. So this current short serves as somewhat of a hedge against my holdings"). NOT a standalone bearish conviction; rather, a portfolio hedge to cap drawdown risk on core long if market stalls into 65–66K zone.
+- **Context**: Execution reply following earlier conditional plan setup and "Checkmate" X post at 15:34Z. Chart attachment support execution structure. Message_id: 1526613949217509600, fast-path alerted by Cloudflare Worker (Telegram already sent 2-5s after message).
+- **Last update**: 2026-07-14T15:38:48Z (discord-trader-monitor real-time, trade-new-entry; message_id=1526613949217509600)
+
+### BTC — SHORT (tactical position, fully closed with small profits — PRIOR ENTRY)
 - **Status**: CLOSED — SHORT POSITION FULLY EXITED 2026-07-06T13:30:11Z → 2026-07-06T16:47:59Z
 - **Position evolution**:
   - 2026-07-02T16:38Z: Filled small BTC short at market
