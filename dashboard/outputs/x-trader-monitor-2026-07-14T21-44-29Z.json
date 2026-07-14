@@ -1,0 +1,56 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge-sentiment",
+        "tweet-card",
+        "link-view",
+        "text-analysis"
+      ]
+    },
+    "badge-sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "ETH Sentiment"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "Stoiiic",
+        "text": "everyone talking about $ETH favorably in unison today.\n\nfeels like an alternate timeline."
+      }
+    },
+    "link-view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Stoiiic/status/2077145667294597139"
+      }
+    },
+    "text-analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Sentiment convergence noted: This contrasts with the mixed group lean (HCH short vs structural strength). Potential tactical signal or contrary indicator.",
+        "variant": "muted"
+      }
+    }
+  }
+}
