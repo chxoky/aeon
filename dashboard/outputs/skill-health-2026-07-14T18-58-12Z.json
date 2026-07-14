@@ -1,0 +1,186 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Skill Health"
+      },
+      "children": [
+        "heading",
+        "status",
+        "sep1",
+        "no-data-section",
+        "sep2",
+        "healthy-section",
+        "sep3",
+        "stats"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Skill Health — 2026-07-14",
+        "level": "h1"
+      },
+      "children": []
+    },
+    "status": {
+      "type": "Text",
+      "props": {
+        "text": "HEALTH: OK — 5 skills healthy",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "no-data-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "no-data-heading",
+        "no-data-item"
+      ]
+    },
+    "no-data-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "NO DATA (1)",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "no-data-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "no-data-badge",
+        "no-data-text"
+      ]
+    },
+    "no-data-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "NO DATA",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "no-data-text": {
+      "type": "Text",
+      "props": {
+        "text": "morning-brief — DISPATCH-SKILL (scheduled 07:00 UTC daily, no run ever recorded; scheduled cron fleet was dormant since Jun 8 per heartbeat 04:29)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "healthy-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "healthy-heading",
+        "healthy-grid"
+      ]
+    },
+    "healthy-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "HEALTHY (5)",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "healthy-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 5,
+        "gap": "sm"
+      },
+      "children": [
+        "skill-1",
+        "skill-2",
+        "skill-3",
+        "skill-4",
+        "skill-5"
+      ]
+    },
+    "skill-1": {
+      "type": "Badge",
+      "props": {
+        "text": "token-alert",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "skill-2": {
+      "type": "Badge",
+      "props": {
+        "text": "token-movers",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "skill-3": {
+      "type": "Badge",
+      "props": {
+        "text": "market-context-refresh",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "skill-4": {
+      "type": "Badge",
+      "props": {
+        "text": "narrative-tracker",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "skill-5": {
+      "type": "Badge",
+      "props": {
+        "text": "heartbeat",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stats": {
+      "type": "Text",
+      "props": {
+        "text": "Open issues: 0 · Resolved this run: 0",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
