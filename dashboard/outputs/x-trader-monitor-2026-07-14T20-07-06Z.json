@@ -1,0 +1,71 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "badge-macro",
+        "tweet",
+        "note-divider",
+        "note"
+      ]
+    },
+    "badge-macro": {
+      "type": "Badge",
+      "props": {
+        "text": "Macro",
+        "variant": "default"
+      }
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "We'll see — Maybe this time is different, but the argument that we're in a different regime doesn't really hold up when the market has freaked out every time we've gotten this low on correlation (under this current hyperscaler spending binge regime).\n\nI did boldly call for the July 24 undercut scenario which we got (to the day), but I don't know if this market can sustainably trend until this resets"
+      }
+    },
+    "note-divider": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "note": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "note-title",
+        "note-text",
+        "link"
+      ]
+    },
+    "note-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Analysis",
+        "level": "h4"
+      }
+    },
+    "note-text": {
+      "type": "Text",
+      "props": {
+        "text": "Regime sustainability commentary. Prior July 24 undercut call shows precision execution on market timing. Flagging uncertainty about trend sustainability until correlation/spending cycle resets."
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2077121866758820020"
+      }
+    }
+  }
+}
