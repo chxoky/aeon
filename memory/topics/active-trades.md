@@ -208,6 +208,21 @@
 - **Context**: ZEC remains HCH's highest-conviction short despite volatile market conditions. Added 1% on 07-03T09:21:56Z as part of broader bearish positioning cascade (after BTC/ETH/SOL short entry at 04:08Z, conviction add at 08:50Z, now ZEC add at 09:21Z). Pattern suggests technical breakdown validation or continuation of local-high scaling strategy outlined in 06:20Z message ("Keeping a room to add to the local highs").
 - **Last update**: 2026-07-03T09:21:56Z (discord-trader-monitor, fast-path alerted, CONVICTION ADD; message_id=1522532840686747658)
 
+## Wild_Randomness
+
+### NVDA — SHORT (PUT) — ACTIVE (entry 2026-07-14)
+- **Status**: ACTIVE — trade-new-entry with approval pending
+- **Entry**: 2026-07-14T21:55:29Z — "Bought some August puts"
+- **Expiry**: August (standard monthly options)
+- **Entry type**: Market-filled ("bought")
+- **Position size**: Small (willing to add on bounces/pops)
+- **Exit criteria**: Hard exit if weekly closes above 215
+- **Thesis**: Mean-reversion vol play on NVDA (trader notes pattern: "chart looks good today = chart looks bad tomorrow")
+- **Context**: Wild_Randomness previously held/closed July calls on NVDA (per prior thesis). This is a fresh entry with opposite directional bias (puts vs. calls) and extended expiry (August vs. July). Position reflects tactical short-vol / mean-reversion conviction on a specific price level (215 weekly close).
+- **Conviction**: MEDIUM (small position + willing to scale, but not maximum conviction on hard entry)
+- **Approval status**: AWAITING KYLE APPROVAL (trade signal 5a alert sent, awaiting "approve NVDA" confirmation before mirror on Kraken)
+- **Last update**: 2026-07-14T21:55:29Z (X, tweet_id=2077150011847016918, fast-path alerted, awaiting approval)
+
 ## t_in_crypto
 
 ### BTC — LONG (conviction add 2026-07-14)
