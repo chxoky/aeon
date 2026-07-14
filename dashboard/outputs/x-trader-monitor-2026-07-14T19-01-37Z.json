@@ -1,0 +1,169 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @t_in_crypto"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event_section",
+        "sep1",
+        "quote_section",
+        "sep2",
+        "context_section",
+        "sep3",
+        "question_text",
+        "sep4",
+        "link_section"
+      ]
+    },
+    "event_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event_label",
+        "event_detail"
+      ]
+    },
+    "event_label": {
+      "type": "Text",
+      "props": {
+        "text": "Event",
+        "variant": "caption"
+      }
+    },
+    "event_detail": {
+      "type": "Text",
+      "props": {
+        "text": "2h43m after x2 volume conviction-add BTC LONG at 62K (just 16:15 UTC)"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "quote_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "quote_attribution",
+        "quote_text"
+      ]
+    },
+    "quote_attribution": {
+      "type": "Text",
+      "props": {
+        "text": "t_in_crypto",
+        "variant": "caption"
+      }
+    },
+    "quote_text": {
+      "type": "Text",
+      "props": {
+        "text": "'Please shorted bitcoin:native as much as possible in the next 24-30 hours'",
+        "variant": "lead"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_label",
+        "analysis_stack"
+      ]
+    },
+    "context_label": {
+      "type": "Text",
+      "props": {
+        "text": "Context",
+        "variant": "caption"
+      }
+    },
+    "analysis_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "analysis_1",
+        "analysis_2",
+        "analysis_3"
+      ]
+    },
+    "analysis_1": {
+      "type": "Text",
+      "props": {
+        "text": "High-conviction moon-cycle bull who JUST doubled exposure. This directly contradicts that thesis."
+      }
+    },
+    "analysis_2": {
+      "type": "Text",
+      "props": {
+        "text": "Grammar awkward ('Please shorted' is non-standard)."
+      }
+    },
+    "analysis_3": {
+      "type": "Text",
+      "props": {
+        "text": "Could be typo, sarcasm, or actual reversal."
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "question_text": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "lead"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_section": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View on X",
+        "href": "https://x.com/t_in_crypto/status/2077105232069140597",
+        "source": "X (Twitter)"
+      }
+    }
+  }
+}
