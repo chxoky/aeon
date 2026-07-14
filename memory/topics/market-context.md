@@ -1,68 +1,67 @@
-# Market Context (as of 2026-06-08)
+# Market Context (as of 2026-07-14)
 
-> **Take:** chop — 24h technical bounce (16/20 green, BTC +3.4%) against F&G of 8 (Extreme Fear) and 7d breadth of just 4/20 green. Conviction: low.
+> **Take:** chop with 24h bounce — BTC +2.2% 24h with 17/20 top-cap majors green, but F&G fell to 22 (Extreme Fear, −6 pts overnight) as BTC posts zero net gain since the June 8 snapshot. Conviction: low.
 
 ## Signal Snapshot
-- BTC $63,976 (+3.41% 24h, -10.62% 7d) · dominance 56.31%
-- ETH $1,691 (+4.10% 24h, -13.97% 7d) · ETH/BTC 0.02643
-- SOL $67.12 (+3.51% 24h, -15.91% 7d)
-- Total mcap $2.27T (+2.49% 24h) · DEX vol $5.97B 24h
-- Breadth: 16/20 green 24h · 4/20 green 7d
-- Fear & Greed: 8 (Extreme Fear) — yesterday 12
+- BTC $63,637 (+2.23% 24h, +1.03% 7d) · dominance 56.04%
+- ETH $1,862 (+5.39% 24h, +4.62% 7d) · ETH/BTC 0.02927
+- SOL $76.76 (+1.67% 24h, −4.98% 7d)
+- Total mcap $2.28T (+1.58% 24h) · DEX vol $7.76B 24h
+- Breadth: 17/20 green 24h · 10/20 green 7d
+- Fear & Greed: 22 (Extreme Fear) — yesterday 28
 
 ## What Changed Since Last Refresh
-First run — no prior snapshot available. Initial conditions: BTC down -10.62% on the week with extreme fear sentiment (F&G 8), despite a strong 24h bounce across the board.
+- F&G climbed +14 pts (8 → 22) since June 8: recovered from the floor but still Extreme Fear and now declining again (28→22 overnight) as the 24h bounce failed to lift sentiment.
+- ETH +10.2%, SOL +14.4% since Jun 8: alts recovered; BTC went nowhere (flat at ~$63.6K over 5+ weeks).
+- DEX 24h vol +30% ($5.97B → $7.76B): capital more active despite sentiment staying bearish.
+- BTC ETF flows reversed: $2.7B outflow streak through late June ended July 2; $510M in inflows across first three July sessions, IBIT-led — institutional re-engagement signal.
 
 ## Active Narratives
-- **Perp DEX / Hyperliquid** — phase: rising. Evidence: HYPE +9.92% 24h, leading all top-20 movers, ranked #1 trending on CoinGecko.
-- **AI/ML networks** — phase: rising. Evidence: 2 of top 7 trending coins are AI-focused (Allora +42% BTC-pair, Bittensor trending #7), sustained mindshare despite broader sell-off.
-- **Speculative micro-caps** — phase: emerging. Evidence: Audiera (BEAT) +55% BTC-pair trending; no mcap leader yet, early rotation signal into long-tail assets.
-- **Bitcoin ETF / institutional demand narrative** — phase: fading. Evidence: record $3.4B weekly outflow from BTC ETFs, 11 consecutive days of net selling — largest weekly bleed since product launch Jan 2024.
+- **Privacy/ZK assets** — phase: rising. Evidence: ZEC +13.75% 7d, top 7d mover in top-20 by mcap; ZEC also +19% since Jun 8 while BTC is flat — sustained, not a one-day pump.
+- **Ethereum ecosystem recovery** — phase: emerging. Evidence: ETH +4.62% 7d, LINK +4.31% 7d; both outperforming BTC and SOL on the week.
+- **On-chain derivatives infrastructure** — phase: emerging. Evidence: Derive (DRV) +35.94% 24h trending #1 CoinGecko; Lighter (LIT) also trending +7.50% 24h — two derivatives-adjacent names surfacing simultaneously is an early cluster signal.
+- **Perp DEX / Hyperliquid** — phase: fading. Evidence: HYPE −10.4% 7d, worst weekly performer in the top-10 by mcap despite leading the prior bounce.
 
 ## Top DeFi Protocols (TVL, 7d change)
-- Lido: $15.01B (-13.79%)
-- Binance CEX: $139.98B (-7.29%) *(CEX, not DeFi — included per DeFiLlama protocols endpoint)*
-- OKX: $22.52B (-4.63%) *(CEX)*
-- Bitfinex: $16.65B (-8.99%) *(CEX)*
-- Bybit: $14.12B (-5.27%) *(CEX)*
+- Lido: $16.50B (+1.59%)
+- Aave V3: $13.22B (+3.55%)
+- SSV Network: $8.76B (+0.43%)
+- WBTC: $7.16B (−0.91%)
+- Morpho Blue: $7.11B (+0.27%)
 
-*Note: DeFiLlama protocols endpoint ranks CEXes above DeFi protocols by TVL. Lido is the top pure-DeFi protocol at $15B. All TVL down 5–14% on the week — net capital outflow across venues.*
-
-## Chain Flow (top 3 by TVL, 7d)
-- Ethereum: $38.0B (7d change: n/a)
-- BSC: $5.2B (7d change: n/a)
-- Solana: $4.9B (7d change: n/a)
-
-*7d delta not returned by /v2/chains endpoint on this run.*
+## Chain Flow (top 5 by TVL)
+- Ethereum: $40.11B (7d: n/a)
+- BSC: $4.90B (7d: n/a)
+- Solana: $4.81B (7d: n/a)
+- Tron: $4.73B (7d: n/a)
+- Base: $4.43B (7d: n/a)
 
 ## Stablecoins
-Total: ~$280B (top 5). USDT $186.83B · USDC $75.84B · USDS $8.51B · USD1 $4.64B · USDe $4.49B · combined share of total mcap ~12.3%.
+Total: ~$273B. USDT $184.13B · USDC $73.00B · USDS $6.67B · DAI $4.86B · USD1 $4.41B · combined share of total mcap ~12.0%.
 
 ## Trending (CoinGecko)
-- HYPE — Hyperliquid perp DEX L1; +9.92% 24h, $64.73. Dominant mover in top-20.
-- ZEC — Zcash privacy coin; +1.45% 24h, $439. Trending despite flat move — watch for rotation.
-- ALLO — Allora AI/ML network; +42% BTC-pair 24h. Speculative AI narrative play.
-- BEAT — Audiera music token; +55% BTC-pair 24h. Micro-cap, high-risk speculation.
-- TAO — Bittensor decentralized ML; -1.80% BTC-pair 24h. AI narrative anchor alongside ALLO.
+- DRV (Derive) — on-chain derivatives DEX on Base; +35.94% 24h. Two derivatives names trending together signals emerging narrative.
+- LIT (Lighter) — perp DEX / derivatives infrastructure; +7.50% 24h. Second consecutive derivatives-adjacent trending coin.
+- CCD (Concordium) — identity-layer L1; −2.07% 24h. Trending on volume, not price momentum.
 
 ## Prediction Markets (Polymarket, top by 24h vol)
 | Market | YES% | 24h Vol | Liquidity |
 |--------|------|---------|-----------|
-| Will Keiko Fujimori win 2026 Peru presidential election? | 68.5% | $3.44M | $123.3K |
-| US × Iran permanent peace deal by June 15, 2026? | 4.5% | $3.13M | $841.4K |
-| Will Roberto Sánchez Palomino win 2026 Peru presidential election? | 32.3% | $3.23M | $123.7K |
-| Israel closes its airspace by June 15? | 19.0% | $2.59M | $45.4K |
-| World Cup winner — Spain? | ~50% | $50.7M | $348.1M |
+| France vs Spain — France to advance | 58.9% | $6.47M | $2.43M |
+| Will France win 2026-07-14? | 40.4% | $3.96M | $4.55M |
+| Will Spain win 2026-07-14? | 29.4% | $2.31M | $2.85M |
+| Will Spain win 2026 FIFA World Cup? | 21.8% | $2.39M | $7.92M |
+| Will France win 2026 FIFA World Cup? | 39.1% | $1.97M | $7.23M |
+
+*Top volume today is the World Cup Final (France vs Spain). No high-signal crypto markets in the top 10.*
 
 ## Macro Catalysts (next 48h)
-- **BTC ETF outflow streak:** 11 consecutive days of net selling, $3.4B weekly — largest since ETF launch. Watch for reversal as positioning signal; sustained outflows would confirm risk-off.
-- **Fed Chair transition uncertainty:** Jerome Powell's term expired May 2026; policy transition adds macro liquidity uncertainty — crypto historically sensitive.
-- **US CLARITY Act (crypto regulation):** Anticipation around US crypto legislation; positive catalyst if clarity materializes, but still speculative.
-- **Geopolitical risk premium:** Polymarket pricing Iran peace deal at only 4.5% YES and Israel airspace closure at 19% YES — elevated tail-risk bids suggest traders hedging macro uncertainty.
+- **US CPI, June 2026 (today, 8:30am ET):** The week's primary crypto catalyst. Soft print extends the ETF inflow streak and could push BTC toward $66K; hotter print pressures via higher hold odds and USD strength. The $62–$64K range carries the highest implied probability — market priced for drift, not conviction.
+- **BTC ETF inflow streak:** IBIT-led $510M across three July sessions after the $2.7B June outflow streak. Continuation depends on today's CPI and the Fed meeting at month-end (93.5% priced for no change).
 
 ## Implications for Downstream Skills
-- **token-pick:** Avoid broad long exposure in this regime — 7d breadth 4/20 and F&G=8 make mean-reversion punishing. If picking, favor HYPE (perp DEX momentum) or AI-narrative tokens (ALLO, TAO) with tight stops.
-- **narrative-tracker:** Monitor Perp DEX (HYPE) for peak signal — it's leading the bounce but could top quickly if broader market stalls. Watch AI tokens for emerging→rising transition if ALLO volume sustains.
+- **token-pick:** Favor ETH-ecosystem (ETH, LINK) and privacy/ZK (ZEC) — positive 7d momentum in a flat BTC environment signals relative strength. Avoid HYPE short-term: −10.4% 7d, no visible catalyst. Hold judgment on DRV until 24h move confirms volume-backed conviction.
+- **narrative-tracker:** Watch Ethereum ecosystem for emerging→rising transition if ETH sustains above $1,900 post-CPI. Monitor DRV/LIT derivatives cluster — two coins trending simultaneously is the earliest reliable phase signal.
 
 ## Token Picks Made
 | Date | Token | Price | Thesis |
