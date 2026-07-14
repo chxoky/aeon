@@ -1,0 +1,135 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading-calibration",
+        "sep-1",
+        "event-section",
+        "sep-2",
+        "context-section",
+        "sep-3",
+        "question-alert"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration — @t_in_crypto",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "event-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event-heading",
+        "event-description",
+        "tweet-event"
+      ]
+    },
+    "event-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "event-description": {
+      "type": "Text",
+      "props": {
+        "text": "Mention to @SidequestTurtle with shortened URL link, no context",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "tweet-event": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "handle": "@t_in_crypto",
+        "text": "@SidequestTurtle https://t.co/wD0Tx43F9z"
+      },
+      "children": []
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "context-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context-heading",
+        "context-timing",
+        "context-btc-activity",
+        "context-url-note"
+      ]
+    },
+    "context-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "context-timing": {
+      "type": "Text",
+      "props": {
+        "text": "Posted 3.5h after prior ambiguous 'when?' question",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "context-btc-activity": {
+      "type": "Text",
+      "props": {
+        "text": "4.5h after x2 BTC conviction add at 62K (high-conviction long thesis)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "context-url-note": {
+      "type": "Text",
+      "props": {
+        "text": "URL inaccessible from shortened link",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "question-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification Uncertain",
+        "message": "Unable to classify — is this market-related or personal? What's your read?",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}
