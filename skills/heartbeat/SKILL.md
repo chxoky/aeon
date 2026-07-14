@@ -3,6 +3,7 @@ name: Heartbeat
 description: Proactive ambient check — surface anything worth attention
 var: ""
 tags: [meta]
+requires: [TWITTERAPI_IO_KEY?]
 ---
 > **${var}** — Area to focus on. If empty, runs all checks.
 
@@ -39,6 +40,32 @@ Flag these conditions:
 - **API degradation**: any skill with `consecutive_failures >= 3`. This likely indicates an external API is down or rate-limiting. Report the skill, failure count, and `last_error`. If multiple skills share similar error signatures, flag the shared dependency.
 - **Chronic failures**: any skill with `success_rate < 0.5` (and `total_runs >= 5`). The skill is failing more than it succeeds.
 - **Self-check**: if heartbeat's own entry shows `last_success` is **>36 hours ago** (or missing), note that heartbeat itself may be unreliable.
+
+### P0 — X webhook rule health (ISS-002 guard)
+
+The x-trader-monitor pipeline depends on a twitterapi.io tweet-filter webhook rule
+staying active — when it silently died in June 2026 (ISS-002), X signals were lost for
+~27 days before anyone noticed. Check it every heartbeat:
+
+```bash
+RULES=$(./secretcurl -s --max-time 15 -H 'x-api-key: {TWITTERAPI_IO_KEY}' \
+  "https://api.twitterapi.io/oapi/tweet_filter/get_rules" 2>/dev/null || echo "")
+```
+
+(Skip silently if `TWITTERAPI_IO_KEY` isn't injected or the call errors — this check is
+optional and must never break the rest of heartbeat.)
+
+In the response, find the rule named `WATCHED_TRADERS`
+(rule_id `35f3c57caf934741a13daf03a64c987b`) and flag 🔴 if ANY of:
+- the rule is missing entirely
+- its active/effect flag is off (`is_effect: 0`, or status not `ON_AIR`/active —
+  field naming varies; treat anything that doesn't clearly say active as dead)
+
+If flagged, include in the notification: "X webhook rule WATCHED_TRADERS is dead —
+X trade signals are NOT flowing. Re-activate via the twitterapi.io dashboard
+(see memory/issues/ISS-002.md)." Also check `memory/issues/ISS-002.md`: if its status
+is `resolved`, re-open it (status → `open`) with a note; if the rule is healthy, no
+action and no notification.
 
 ### P1 — Stalled PRs & urgent issues
 
