@@ -1,0 +1,39 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "view_link",
+        "footer_note"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "This phase of the $BTC cycle is literally engineered to steal your money. They'll chop this range relentlessly until everyone is heavily overleveraged in one direction. Then, silently at first, then all at once. Sometimes the most profitable move is holding your high conviction trade that aligns with the bigger picture.\n\nInstead of trying to scalp every little range, my advice is to sit back, relax for the next 2 months, wait for structure to clearly shift bullish, and then long your longs."
+      }
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2077014492064436384"
+      }
+    },
+    "footer_note": {
+      "type": "Text",
+      "props": {
+        "text": "Reaffirms his existing 2x BTC long from 62.6K; reinforces HTF bullish lean.",
+        "variant": "muted"
+      }
+    }
+  }
+}
