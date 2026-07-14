@@ -1,0 +1,94 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "main-stack"
+      ]
+    },
+    "main-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "tweet-link",
+        "separator",
+        "alignment-section"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "I agree with @ryzzqq and @Trade17 that we've hit the local low for the month; I plan to build up long positions over the next couple of days.\n\nThe market is barely reacting (again) to the U.S. attacks on Iran because nobody cares about it anymore. News stops being news once the markets stop reflecting it."
+      },
+      "children": []
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/swarmister/status/2076933074739147063"
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alignment-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "alignment-heading",
+        "killaxbt-item",
+        "t_in_crypto-item",
+        "ryzzqq-item"
+      ]
+    },
+    "alignment-heading": {
+      "type": "Text",
+      "props": {
+        "text": "Aligns with recent bullish convergence from:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "killaxbt-item": {
+      "type": "Text",
+      "props": {
+        "text": "KillaXBT: 2x LONG + spot"
+      },
+      "children": []
+    },
+    "t_in_crypto-item": {
+      "type": "Text",
+      "props": {
+        "text": "t_in_crypto: 100% LONG"
+      },
+      "children": []
+    },
+    "ryzzqq-item": {
+      "type": "Text",
+      "props": {
+        "text": "ryzzqq: Early-morning call on buying dips into local low"
+      },
+      "children": []
+    }
+  }
+}

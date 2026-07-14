@@ -37,7 +37,9 @@
 - Current open positions: No explicit sized position — intraday BTC/ETH trader, long-biased.
 - Recent thesis: Bullish lean ("bears are being abused," "Go up"). BTC posts daily H1/H4 structure updates; Jul 13 at a global POC with an EQH formed, waiting for LTF reversal patterns. ETH "structure looks clean," dismissive of ETH longs earlier in window. Trades intraday around volume clusters. (Based in Moscow; lots of off-topic personal/gym content.)
 - Conviction notes: Technical (volume profile / clusters / POC), publishes game plans with invalidations. Signal is in the "$BTC Daily Update" posts.
-- Last seen: 2026-07-13 15:40 UTC
+- Last seen: 2026-07-14 07:33 UTC
+- **Events log:**
+  - Jul 14 07:33 — informational (bullish sentiment / DCA plan) — "I agree with @ryzzqq and @Trade17 that we've hit the local low for the month; I plan to build up long positions over the next couple of days" — BTC, convergence with KillaXBT/t_in_crypto bullish bias
 
 ## bull_genius (marmot)
 - Platforms: X
