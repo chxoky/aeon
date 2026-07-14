@@ -1,0 +1,203 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @Stoiiic"
+      },
+      "children": [
+        "event_section",
+        "sep1",
+        "quote_section",
+        "sep2",
+        "context_section",
+        "sep3",
+        "calibration_section"
+      ]
+    },
+    "event_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event_heading",
+        "event_description",
+        "traders_group"
+      ]
+    },
+    "event_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "event_description": {
+      "type": "Text",
+      "props": {
+        "text": "BTC consolidating 60-65K range; group mixed conviction"
+      }
+    },
+    "traders_group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trader1",
+        "trader2",
+        "trader3"
+      ]
+    },
+    "trader1": {
+      "type": "Text",
+      "props": {
+        "text": "KillaXBT: scalp short 64.8-65.8K"
+      }
+    },
+    "trader2": {
+      "type": "Text",
+      "props": {
+        "text": "t_in_crypto: x2 conviction add at 62K"
+      }
+    },
+    "trader3": {
+      "type": "Text",
+      "props": {
+        "text": "HeartCanHodl: escalating shorts"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "quote_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "quote_heading",
+        "quote_text"
+      ]
+    },
+    "quote_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Stoiiic",
+        "level": "h3"
+      }
+    },
+    "quote_text": {
+      "type": "Text",
+      "props": {
+        "text": "\"Bumpy road but back in the mix.\"",
+        "variant": "lead"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_heading",
+        "context_thesis",
+        "context_posts"
+      ]
+    },
+    "context_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "context_thesis": {
+      "type": "Text",
+      "props": {
+        "text": "Stoiiic's thesis centers on 60-62K pivot + fractal cap 65-70K."
+      }
+    },
+    "context_posts": {
+      "type": "Text",
+      "props": {
+        "text": "Recent posts cryptic (\"are we actually back?!\")."
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "calibration_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "calibration_heading",
+        "calibration_question",
+        "options_stack"
+      ]
+    },
+    "calibration_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Unable to classify",
+        "level": "h3"
+      }
+    },
+    "calibration_question": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "lead"
+      }
+    },
+    "options_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "option1",
+        "option2",
+        "option3"
+      ]
+    },
+    "option1": {
+      "type": "Badge",
+      "props": {
+        "text": "Chop confirmation",
+        "variant": "outline"
+      }
+    },
+    "option2": {
+      "type": "Badge",
+      "props": {
+        "text": "Subtle re-entry signal",
+        "variant": "outline"
+      }
+    },
+    "option3": {
+      "type": "Badge",
+      "props": {
+        "text": "Banter",
+        "variant": "outline"
+      }
+    }
+  }
+}
