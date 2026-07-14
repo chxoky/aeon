@@ -1,7 +1,7 @@
-🔍 *Calibration — [DC: Chase — TradFi]*
+💬 *[DC: HCH — Chat]*
 
-_Supporting channel, standalone message_
+Hynix dropped about -42% in approximately 19 days.
 
-crypto_chase: "needs 0.5-0618 anyways"
+If we compare it to Bitcoin, it's like going from its peak of 124K down to 75K without a breath.
 
-Unable to classify — what's your read?
+In reality, Bitcoin took 4 months for a similar drop. Looking at it this way.

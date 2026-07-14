@@ -20,9 +20,9 @@
 ## HeartCanHodl
 - Platforms: X + Discord (Trades 1279738718680256553 = primary; Chat 1023638573313966212 = real-time updates)
 - Current open positions: Net **SHORT basket, re-entered at ~half size Jul 10, added BTC Jul 13**: **BTC short**, **ETH short**, **SOL short**, **HYPE short**, **ZEC short** (one basket). **$SPCX short** — big winner, printed all-time low Jul 13 (called the top, still showcased/riding). Closed for large profit: **"$LAB" short** (~-82% move, fully out Jul 9).
-- Recent thesis: Firmly bearish. BTC can't hold above 62.8K, keeps rejecting ~61K. "Not buying anything, short on some stuff." SOL his weakest-major short candidate (weak since Ansem underperforms, attention rotating to Robinhood chain). Skeptical of the memory-stocks-new-highs narrative. Macro fixation on MSTR/STRC↔BTC reflexive-loop fragility. "Shorts doing well."
+- Recent thesis: Firmly bearish. BTC can't hold above 62.8K, keeps rejecting ~61K. "Not buying anything, short on some stuff." SOL his weakest-major short candidate (weak since Ansem underperforms, attention rotating to Robinhood chain). Skeptical of the memory-stocks-new-highs narrative. Macro fixation on MSTR/STRC↔BTC reflexive-loop fragility. "Shorts doing well." Macro note (2026-07-14 04:56 UTC, Discord Chat): using Hynix -42% drop in 19d as volatility reference point vs Bitcoin's 4-month decline — framing rapid drawdown mechanics for market context.
 - Conviction notes: Terse, mirror-able calls with explicit %-of-portfolio sizing and exact prices ("Add 1% zec short", "Take X% off at $Y"). "Fc {ticker} {tf}" chart callouts. Low-leverage framing. Longer macro reasoning in Comments channel.
-- Last seen: 2026-07-13 20:31 UTC
+- Last seen: 2026-07-14 04:56 UTC
 
 ## t_in_crypto
 - Platforms: X

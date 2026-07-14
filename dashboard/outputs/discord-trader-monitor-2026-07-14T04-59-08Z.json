@@ -1,0 +1,89 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge-source",
+        "text-hynix-drop",
+        "stat-hynix",
+        "separator-1",
+        "text-bitcoin-intro",
+        "stat-bitcoin-drop",
+        "text-bitcoin-timeframe",
+        "text-conclusion"
+      ]
+    },
+    "badge-source": {
+      "type": "Badge",
+      "props": {
+        "text": "DC: HCH — Chat",
+        "variant": "secondary"
+      }
+    },
+    "text-hynix-drop": {
+      "type": "Text",
+      "props": {
+        "text": "Hynix dropped about -42% in approximately 19 days.",
+        "variant": "lead"
+      }
+    },
+    "stat-hynix": {
+      "type": "Stat",
+      "props": {
+        "label": "Hynix performance",
+        "value": "-42%",
+        "delta": "19 days",
+        "trend": "down"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-bitcoin-intro": {
+      "type": "Text",
+      "props": {
+        "text": "If we compare it to Bitcoin, it's like going from its peak of 124K down to 75K without a breath.",
+        "variant": "body"
+      }
+    },
+    "stat-bitcoin-drop": {
+      "type": "Stat",
+      "props": {
+        "label": "Bitcoin equivalent drop",
+        "value": "124K → 75K"
+      }
+    },
+    "text-bitcoin-timeframe": {
+      "type": "Text",
+      "props": {
+        "text": "In reality, Bitcoin took 4 months for a similar drop.",
+        "variant": "body"
+      }
+    },
+    "text-conclusion": {
+      "type": "Text",
+      "props": {
+        "text": "Looking at it this way.",
+        "variant": "muted"
+      }
+    }
+  }
+}
