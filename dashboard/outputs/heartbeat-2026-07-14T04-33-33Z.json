@@ -1,0 +1,286 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Aeon Heartbeat",
+        "description": "System health check — first run since Jun 8"
+      },
+      "children": [
+        "alert-critical",
+        "sep1",
+        "stack-incident",
+        "sep2",
+        "stack-affected",
+        "sep3",
+        "stack-fix",
+        "sep4",
+        "stack-health"
+      ]
+    },
+    "alert-critical": {
+      "type": "Alert",
+      "props": {
+        "type": "error",
+        "title": "🔴 GitHub Actions Scheduled Crons Not Firing",
+        "message": "Every run in the last ~5 weeks was workflow_dispatch (Worker webhooks + manual triggers only). No scheduled cron executions detected."
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack-incident": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-incident",
+        "stat-days",
+        "text-lastrun"
+      ]
+    },
+    "heading-incident": {
+      "type": "Heading",
+      "props": {
+        "text": "Outage Timeline",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "stat-days": {
+      "type": "Stat",
+      "props": {
+        "label": "Days since last successful run",
+        "value": "36",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "text-lastrun": {
+      "type": "Text",
+      "props": {
+        "text": "Last successful run: 2026-06-08"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack-affected": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-affected",
+        "grid-affected"
+      ]
+    },
+    "heading-affected": {
+      "type": "Heading",
+      "props": {
+        "text": "Affected Daily Skills",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "grid-affected": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "sm"
+      },
+      "children": [
+        "badge-morning",
+        "badge-token-alert",
+        "badge-token-movers",
+        "badge-market",
+        "badge-narrative",
+        "badge-health"
+      ]
+    },
+    "badge-morning": {
+      "type": "Badge",
+      "props": {
+        "text": "morning-brief",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "badge-token-alert": {
+      "type": "Badge",
+      "props": {
+        "text": "token-alert",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "badge-token-movers": {
+      "type": "Badge",
+      "props": {
+        "text": "token-movers",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "badge-market": {
+      "type": "Badge",
+      "props": {
+        "text": "market-context-refresh",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "badge-narrative": {
+      "type": "Badge",
+      "props": {
+        "text": "narrative-tracker",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "badge-health": {
+      "type": "Badge",
+      "props": {
+        "text": "skill-health",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack-fix": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-fix",
+        "text-fix-steps",
+        "text-fix-reason"
+      ]
+    },
+    "heading-fix": {
+      "type": "Heading",
+      "props": {
+        "text": "Fix Required",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text-fix-steps": {
+      "type": "Text",
+      "props": {
+        "text": "Navigate to repo → Actions → re-enable the scheduled workflow"
+      },
+      "children": []
+    },
+    "text-fix-reason": {
+      "type": "Text",
+      "props": {
+        "text": "Root cause: GitHub likely auto-disabled the scheduled workflow after inactivity or due to configuration drift."
+      },
+      "children": []
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack-health": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-health",
+        "stack-components"
+      ]
+    },
+    "heading-health": {
+      "type": "Heading",
+      "props": {
+        "text": "Dependency Status",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "stack-components": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-trading",
+        "badge-discord",
+        "badge-twitter",
+        "badge-iss002",
+        "badge-status"
+      ]
+    },
+    "badge-trading": {
+      "type": "Badge",
+      "props": {
+        "text": "✓ Live trading pipeline — HEALTHY",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "badge-discord": {
+      "type": "Badge",
+      "props": {
+        "text": "✓ Discord monitor — Firing daily",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "badge-twitter": {
+      "type": "Badge",
+      "props": {
+        "text": "✓ twitterapi.io WATCHED_TRADERS webhook — Active (is_effect:1)",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "badge-iss002": {
+      "type": "Badge",
+      "props": {
+        "text": "⏳ ISS-002 — Status: fixing (rule live, awaiting first real tweet event)",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "badge-status": {
+      "type": "Badge",
+      "props": {
+        "text": "⚠ Status Page — DEGRADED",
+        "variant": "destructive"
+      },
+      "children": []
+    }
+  }
+}
