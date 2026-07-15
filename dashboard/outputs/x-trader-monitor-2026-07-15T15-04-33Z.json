@@ -1,0 +1,50 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet",
+        "tweet_link",
+        "separator",
+        "commentary"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Financials and MAGS ripping, inflation prints cold as hell…\n\nSPY +0.3%\n\nIt reminds me of the Q1 meme where we'd see max FUD and SPY would be -0.3% on the day"
+      },
+      "children": []
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2077408216997388634"
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "commentary": {
+      "type": "Text",
+      "props": {
+        "text": "Aligns with group equity bullish lean (rate-relief narrative, Crypto_Chase tracking SPX new ATHs). Wild_Randomness tracking semis/SPX structure.",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
