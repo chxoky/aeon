@@ -1,9 +1,7 @@
 🐦 *[X] @HeartCanHodl*
 
-Technical level commentary on BTC bounce:
+The first half of July 2026 has been a joyride. Whether it was a genuine green month like usual or merely a bait will become clear during the next market dip, depending if $59k-$60k could hold well or not this time..
 
-"`The first half of July 2026 has been a joyride. Whether it was a genuine green month like usual or merely a bait will become clear during the next market depending if $59k-$60k could hold well or not this time..`"
+[View tweet](https://x.com/HeartCanHodl/status/2077369620911345894)
 
-[View tweet](https://x.com/HeartCanHodl/status/2077367644311974163)
-
-**Context:** HCH holds escalating bearish short basket (BTC +3%, ETH +2%, SOL +2%, ZEC +1% Jul 14-15, targeting 35% portfolio allocation). This frames $59k-$60k as the key test for genuine support vs. false-breakout rug-pull setup. Aligns with recent 'weakness brewing' / 'exit chance on pump' calls from earlier session.
+↳ _Reinforces HCH's bearish tech-level callout. Support test at $59k-$60k is critical. Aligns with recent string of bearish conviction adds (BTC +3% Jul 14, ETH +2% Jul 14, ZEC +1% Jul 15) and 35% portfolio short allocation milestone._

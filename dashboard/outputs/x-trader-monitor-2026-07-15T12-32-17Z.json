@@ -1,0 +1,164 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_stack",
+        "sep1",
+        "analysis_stack"
+      ]
+    },
+    "tweet_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet",
+        "tweet_link"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "The first half of July 2026 has been a joyride. Whether it was a genuine green month like usual or merely a bait will become clear during the next market dip, depending if $59k-$60k could hold well or not this time.."
+      }
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/HeartCanHodl/status/2077369620911345894"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis_heading",
+        "analysis_text",
+        "callouts_stack",
+        "metrics_heading",
+        "metrics_stack"
+      ]
+    },
+    "analysis_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Analysis",
+        "level": "h3"
+      }
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Reinforces HCH's bearish tech-level callout. Support test at $59k-$60k is critical. Aligns with recent string of bearish conviction adds and 35% portfolio short allocation milestone.",
+        "variant": "body"
+      }
+    },
+    "callouts_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_critical",
+        "badge_bearish"
+      ]
+    },
+    "badge_critical": {
+      "type": "Badge",
+      "props": {
+        "text": "Support $59k-$60k Critical",
+        "variant": "destructive"
+      }
+    },
+    "badge_bearish": {
+      "type": "Badge",
+      "props": {
+        "text": "Bearish Conviction",
+        "variant": "secondary"
+      }
+    },
+    "metrics_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Conviction Adds",
+        "level": "h3"
+      }
+    },
+    "metrics_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_btc",
+        "stat_eth",
+        "stat_zec",
+        "stat_portfolio"
+      ]
+    },
+    "stat_btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC (Jul 14)",
+        "value": "+3%",
+        "trend": "down"
+      }
+    },
+    "stat_eth": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH (Jul 14)",
+        "value": "+2%",
+        "trend": "down"
+      }
+    },
+    "stat_zec": {
+      "type": "Stat",
+      "props": {
+        "label": "ZEC (Jul 15)",
+        "value": "+1%",
+        "trend": "down"
+      }
+    },
+    "stat_portfolio": {
+      "type": "Stat",
+      "props": {
+        "label": "Portfolio Short Allocation",
+        "value": "35%",
+        "trend": "down"
+      }
+    }
+  }
+}
