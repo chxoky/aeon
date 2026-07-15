@@ -1,0 +1,85 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading_calibration",
+        "text_event",
+        "separator_1",
+        "tweetcard_wild",
+        "separator_2",
+        "alert_unclassified",
+        "separator_3",
+        "text_pattern",
+        "text_options"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h3"
+      }
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: 17:15 UTC post about chart setup trading",
+        "variant": "body"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweetcard_wild": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Likely will get burnt playing this a second time but a chart is a chart https://t.co/w4TPAosn5J"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_unclassified": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read?",
+        "type": "info"
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_pattern": {
+      "type": "Text",
+      "props": {
+        "text": "Pattern: 7+ ambiguous URL-minimal posts from this trader over past 36h (07-14 to 07-15).",
+        "variant": "body"
+      }
+    },
+    "text_options": {
+      "type": "Text",
+      "props": {
+        "text": "Should I: (1) continue individual calibration asks, or (2) filter as noise unless new ticker/clear execution signal?",
+        "variant": "lead"
+      }
+    }
+  }
+}
