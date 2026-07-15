@@ -1,0 +1,145 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Real-time market signal classification"
+      },
+      "children": [
+        "heading_calib",
+        "event_desc",
+        "tweet_card",
+        "sep_1",
+        "stack_analysis",
+        "sep_2",
+        "stack_context",
+        "sep_3",
+        "alert_question"
+      ]
+    },
+    "heading_calib": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h2"
+      }
+    },
+    "event_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Real-time reply to @PauloMacro with @Evan_ss6 mention",
+        "variant": "lead"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "text": "@PauloMacro LIT? @Evan_ss6"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Classification Analysis",
+        "level": "h3"
+      }
+    },
+    "analysis_intro": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — the reply lacks context (original message from PauloMacro is missing). \"LIT\" could be:",
+        "variant": "body"
+      }
+    },
+    "interpretation_1": {
+      "type": "Text",
+      "props": {
+        "text": "1. The ticker $LIT (which you hold as a weekend momentum long)",
+        "variant": "body"
+      }
+    },
+    "interpretation_2": {
+      "type": "Text",
+      "props": {
+        "text": "2. Slang for \"good/exciting\" + sentiment question",
+        "variant": "body"
+      }
+    },
+    "interpretation_3": {
+      "type": "Text",
+      "props": {
+        "text": "3. Personal banter unrelated to markets",
+        "variant": "body"
+      }
+    },
+    "stack_analysis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis_heading",
+        "analysis_intro",
+        "interpretation_1",
+        "interpretation_2",
+        "interpretation_3"
+      ]
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "No execution language detected. Wild_Randomness has posted 10+ cryptic/URL-minimal-caption messages in the past 18h (07-14 12:36 UTC → 07-15 00:34 UTC cluster). Appears to be a phase of terse, context-dependent replies.",
+        "variant": "body"
+      }
+    },
+    "stack_context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_heading",
+        "context_text"
+      ]
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_question": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification Request",
+        "message": "What's your read — should I track this as a position signal, sentiment commentary, or skip it?",
+        "type": "info"
+      }
+    }
+  }
+}
