@@ -1,0 +1,117 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @t_in_crypto",
+        "description": "x-trader-monitor event analysis"
+      },
+      "children": [
+        "heading_event",
+        "stack_tweet",
+        "separator_1",
+        "stack_context",
+        "separator_2",
+        "stack_link"
+      ]
+    },
+    "heading_event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event: Reply to external trader (vero_pg_)",
+        "level": "h3"
+      }
+    },
+    "stack_tweet": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "analysis_text"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "handle": "@t_in_crypto",
+        "text": "@vero_pg_ Stop…WHAT?"
+      }
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Very cryptic, one-liner reply. Cannot determine financial relevance without context of the original message from vero_pg_.",
+        "variant": "body"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_heading",
+        "context_text"
+      ]
+    },
+    "context_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Current Context",
+        "level": "h3"
+      }
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "t_in_crypto is holding 100%+ BTC LONG from 58.4K with x2 conviction add at 62K (Jul 14). Recent posts have been mix of market commentary, personal interactions, and ambiguous replies.",
+        "variant": "body"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_link": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "story_link",
+        "question_text"
+      ]
+    },
+    "story_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View original post",
+        "href": "https://x.com/t_in_crypto/status/2077418558850523229",
+        "source": "X (Twitter)"
+      }
+    },
+    "question_text": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read on this?",
+        "variant": "lead"
+      }
+    }
+  }
+}

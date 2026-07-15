@@ -1,19 +1,13 @@
-🚨 *Trade Signal — @Wild_Randomness*
+🔍 *Calibration — @t_in_crypto*
 
-**$VIX — BUY — Market order**
+Event: Reply to external trader (vero_pg_)
 
-"Ok buying 2031 VIX calls"
+t_in_crypto: "@vero_pg_ Stop…WHAT?"
 
-[View post](https://x.com/Wild_Randomness/status/2077415514746318933)
+Very cryptic, one-liner reply. Cannot determine financial relevance without context of the original message from vero_pg_.
 
-[View tweet](https://x.com/Wild_Randomness/status/2077414181809090673)
+Current context: t_in_crypto is holding 100%+ BTC LONG from 58.4K with x2 conviction add at 62K (Jul 14). Recent posts have been mix of market commentary, personal interactions, and ambiguous replies.
 
-↳ _Aligns with Wild's macro thesis (spot up vol up → broader top) and group cautious lean on SPX/NDX positioning._
-Current read is people are way too focused on the next 2% of upside on SPX
+[View post](https://x.com/t_in_crypto/status/2077418558850523229)
 
-And no respect for a scenario where we exit this maximum dispersion regime right when covering your ass is single digit percentile cheap
-
-[View tweet](https://x.com/Wild_Randomness/status/2077414880395641090)
-
-↳ _Macro sentiment on SPX consolidation risk + hedge value. Aligns with group equity bullish lean + Wild_Randomness's dispersion-trade thesis. Emphasizes current consensus overweighting upside, undervaluing protective puts._
-Reply `approve VIX` to mirror this on Kraken (spot), or ignore to skip.
+What's your read on this?
