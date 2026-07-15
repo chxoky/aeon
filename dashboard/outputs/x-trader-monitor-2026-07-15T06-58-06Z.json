@@ -1,0 +1,63 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading_calibration",
+        "separator_1",
+        "event_context",
+        "separator_2",
+        "tweet_content",
+        "separator_3",
+        "note_classification"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @ryzzqq",
+        "level": "h2"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "event_context": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @0120NMiami @megastuffs",
+        "variant": "body"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "tweet_content": {
+      "type": "TweetCard",
+      "props": {
+        "author": "ryzzqq",
+        "handle": "@ryzzqq",
+        "text": "yes coz risk, rissk riiskkk or any of these wasn't available"
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "note_classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "what's your read? (Original context needed)",
+        "type": "warning"
+      }
+    }
+  }
+}
