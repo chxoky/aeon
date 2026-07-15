@@ -1,29 +1,25 @@
-Log entry recorded. Here's the outcome.
+Done.
 
 ## Summary
 
-**Skill executed:** `skills/token-alert/SKILL.md` — **Outcome: SKIPPED (no config)**
+Executed the `token-alert` skill (`skills/token-alert/SKILL.md`).
 
-The skill is designed to alert on price/volume anomalies for tokens listed in a **"Tracked Tokens"** section of `memory/MEMORY.md`. That section does not exist:
-- `MEMORY.md` contains no `## Tracked Tokens` table.
-- A grep of the entire `memory/` tree returned no matches anywhere.
+**Outcome: `TOKEN_ALERT_OK` — skipped (no config).**
 
-The skill's own instructions are explicit for this case: *"If the section doesn't exist yet, add it to MEMORY.md or skip this skill."* I chose to skip rather than invent a token list — which tokens to track and at what thresholds is Kyle's decision and isn't safely inferrable. So no API call was made and no notification was sent (correctly, since there was nothing to check and no anomaly to report).
+- The skill sources its watchlist from a **"Tracked Tokens"** section in `memory/MEMORY.md`. I confirmed no such section exists in MEMORY.md — and a repo-wide grep across `memory/` found no `Tracked Tokens` / `CoinGecko ID` / `Alert Threshold` table anywhere.
+- Per the skill's own rule ("If the section doesn't exist yet, add it to MEMORY.md or skip this skill"), the correct action was to **skip cleanly** rather than fabricate a token list. No API calls were made and no notifications were sent.
 
 **Files modified:**
-- `memory/logs/2026-07-14.md` — appended a `## token-alert — skipped (no config)` entry documenting the skip and how to enable the skill.
+- `memory/logs/2026-07-15.md` — appended a `token-alert` log entry recording the skip and how to activate the skill.
 
-**Follow-up needed (optional):** To activate this skill on future runs, add a table to `memory/MEMORY.md`, e.g.:
+**Follow-up needed (optional):**
+- To enable this skill, add a `## Tracked Tokens` table to `memory/MEMORY.md`:
+  ```markdown
+  ## Tracked Tokens
+  | Token | CoinGecko ID | Alert Threshold |
+  |-------|-------------|-----------------|
+  | ETH   | ethereum    | 10%             |
+  | SOL   | solana      | 10%             |
+  ```
 
-```markdown
-## Tracked Tokens
-| Token | CoinGecko ID | Alert Threshold |
-|-------|--------------|-----------------|
-| BTC   | bitcoin      | 10%             |
-| ETH   | ethereum     | 10%             |
-| SOL   | solana       | 10%             |
-```
-
-Given the traders being monitored are heavily focused on BTC/ETH/SOL, those would be natural candidates — but I'll leave the choice to you rather than assume it.
-
-Note: one minor sandbox friction — the shell heredoc write was blocked, so I wrote the log via the Edit tool instead.
+Note: the initial log append via a bash heredoc was blocked by the write sandbox; I completed it with the Edit tool instead.
