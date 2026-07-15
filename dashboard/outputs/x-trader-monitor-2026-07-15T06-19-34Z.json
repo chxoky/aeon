@@ -1,0 +1,52 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "link_view",
+        "text_note"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "ryzzqq",
+        "handle": "ryzzqq",
+        "text": "cashcat but delayed, don't think it has any more squeeze potential left"
+      },
+      "children": []
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/ryzzqq/status/2077274339452580246"
+      },
+      "children": []
+    },
+    "text_note": {
+      "type": "Text",
+      "props": {
+        "text": "Second cashcat mention: bull_genius closed their 15x onchain trade earlier; this is a sentiment read on the squeeze setup being exhausted.",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
