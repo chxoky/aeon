@@ -1,0 +1,47 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor",
+        "description": "Trading signals and market analysis"
+      },
+      "children": [
+        "tweet_card",
+        "tweet_link",
+        "separator_1",
+        "context_text"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "@HeartCanHodl",
+        "text": "We could see $59-$60k on ltf?"
+      }
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/HeartCanHodl/status/2077379819965497601"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "This reinforces the 60.8K/59.3K short targets HCH posted 46 min earlier; LTF level specification aligns with existing 35% portfolio short allocation (BTC/ETH/SOL/ZEC/HYPE/UNI escalating adds Jul 14-15).",
+        "variant": "body"
+      }
+    }
+  }
+}
