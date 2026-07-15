@@ -1,0 +1,124 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor - Bitcoin Dominance Analysis"
+      },
+      "children": [
+        "tweet",
+        "tweet_link",
+        "separator1",
+        "details_stack",
+        "separator2",
+        "info_alert"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "@swarmister",
+        "text": "$USDT.D will be 7.8–8% = sell, but for now, enjoy the rally.\n\nAfter the interaction with the zone where altcoins will be wiped out along with your deposits, there was a sharp decline in dominance, and I think the main target is 7.8–8%. Keep in mind that this chart is inversely proportional — if dominance falls, the crypto market rises, and vice versa. If we see the target values, it's time to open short positions.\n\nAt the moment, a sell context is active based on my tools and analysis.\n\nThe main trend-defining zone is around 7.8–8.0%, where profit-taking may resume; for Bitcoin, this could correspond to the 70k zone."
+      },
+      "children": []
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/swarmister/status/2077359365489619442"
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "details_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "targets_grid",
+        "status_stack"
+      ]
+    },
+    "targets_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat_dominance",
+        "stat_bitcoin"
+      ]
+    },
+    "stat_dominance": {
+      "type": "Stat",
+      "props": {
+        "label": "Target Dominance Zone",
+        "value": "7.8–8.0%"
+      },
+      "children": []
+    },
+    "stat_bitcoin": {
+      "type": "Stat",
+      "props": {
+        "label": "Bitcoin Corresponding Zone",
+        "value": "70k"
+      },
+      "children": []
+    },
+    "status_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_sell",
+        "badge_analysis"
+      ]
+    },
+    "badge_sell": {
+      "type": "Badge",
+      "props": {
+        "text": "Sell Context Active",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "badge_analysis": {
+      "type": "Badge",
+      "props": {
+        "text": "Tools & Analysis Based",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "info_alert": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "Dominance analysis with macro altcoin-risk implications. Convergence: aligns with group structural-bull bias (HTF longs) + near-term consolidation consensus."
+      },
+      "children": []
+    }
+  }
+}
