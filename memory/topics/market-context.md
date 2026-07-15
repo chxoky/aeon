@@ -1,67 +1,63 @@
-# Market Context (as of 2026-07-14)
+# Market Context (as of 2026-07-15)
 
-> **Take:** chop with 24h bounce — BTC +2.2% 24h with 17/20 top-cap majors green, but F&G fell to 22 (Extreme Fear, −6 pts overnight) as BTC posts zero net gain since the June 8 snapshot. Conviction: low.
+> **Take:** risk-on relief rally — BTC +3.1% 24h to $64.5K with 19/20 top-20 majors green after June CPI printed 3.5% (vs 3.8% est), gutting the July 29 Fed-hike trade. Conviction: medium — breadth + CPI agree, but F&G is still 25 (Extreme Fear) and the move was short-squeeze-led ($113M BTC shorts liquidated), with June PPI at 8:30am ET the same-day risk.
 
 ## Signal Snapshot
-- BTC $63,637 (+2.23% 24h, +1.03% 7d) · dominance 56.04%
-- ETH $1,862 (+5.39% 24h, +4.62% 7d) · ETH/BTC 0.02927
-- SOL $76.76 (+1.67% 24h, −4.98% 7d)
-- Total mcap $2.28T (+1.58% 24h) · DEX vol $7.76B 24h
-- Breadth: 17/20 green 24h · 10/20 green 7d
-- Fear & Greed: 22 (Extreme Fear) — yesterday 28
+- BTC $64,505 (+3.13% 24h, +3.04% 7d) · dominance 56.3% (+0.26 pp 24h)
+- ETH $1,866 (+4.66% 24h, +6.51% 7d) · ETH/BTC 0.02893
+- SOL $77.51 (+3.22% 24h, −1.11% 7d)
+- Total mcap $2.30T (+2.91% 24h) · DEX vol $7.84B 24h
+- Breadth: 19/20 green 24h · 11/20 green 7d
+- Fear & Greed: 25 (Extreme Fear) — yesterday 22
 
 ## What Changed Since Last Refresh
-- F&G climbed +14 pts (8 → 22) since June 8: recovered from the floor but still Extreme Fear and now declining again (28→22 overnight) as the 24h bounce failed to lift sentiment.
-- ETH +10.2%, SOL +14.4% since Jun 8: alts recovered; BTC went nowhere (flat at ~$63.6K over 5+ weeks).
-- DEX 24h vol +30% ($5.97B → $7.76B): capital more active despite sentiment staying bearish.
-- BTC ETF flows reversed: $2.7B outflow streak through late June ended July 2; $510M in inflows across first three July sessions, IBIT-led — institutional re-engagement signal.
+- **June CPI (released Jul 14) printed soft:** headline 3.5% YoY vs 3.8% est, MoM −0.4% (biggest monthly drop since Apr 2020), core flat 0.0%. That removed the July 29 Fed rate-hike risk and triggered a relief rally — BTC +3.1%, with ~$376M crypto liquidated in 24h including $113M in BTC shorts.
+- **Breadth flipped decisively risk-on:** 19/20 top-20 green 24h (was 17/20); 76/100 of the top-100 green.
+- **Sentiment still lagging price:** F&G only 22→25, holding in Extreme Fear while price rallied 3% — a bullish divergence, or an unconvinced bounce. This gap is the key tell to watch.
+- **ZEC $551 (+8.9% 24h, +14.4% 7d)** into #14 by mcap — privacy/ZK bid intact and extending, not fading.
 
 ## Active Narratives
-- **Privacy/ZK assets** — phase: rising. Evidence: ZEC +13.75% 7d, top 7d mover in top-20 by mcap; ZEC also +19% since Jun 8 while BTC is flat — sustained, not a one-day pump.
-- **Ethereum ecosystem recovery** — phase: emerging. Evidence: ETH +4.62% 7d, LINK +4.31% 7d; both outperforming BTC and SOL on the week.
-- **On-chain derivatives infrastructure** — phase: emerging. Evidence: Derive (DRV) +35.94% 24h trending #1 CoinGecko; Lighter (LIT) also trending +7.50% 24h — two derivatives-adjacent names surfacing simultaneously is an early cluster signal.
-- **Perp DEX / Hyperliquid** — phase: fading. Evidence: HYPE −10.4% 7d, worst weekly performer in the top-10 by mcap despite leading the prior bounce.
+- **Soft-CPI relief / short squeeze** — phase: rising. Evidence: $376M 24h liquidations incl $113M BTC shorts; 19/20 top-20 green; BTC reclaimed $64K after dipping to ~$61.6K on hike fear earlier in the week.
+- **Privacy / ZK assets** — phase: rising. Evidence: ZEC $551 (+14.4% 7d), #14 mcap and top-20 weekly leader; XMR holding $331. Third straight refresh with ZEC as a top-20 mover — sustained, not a pump.
+- **Ethereum ecosystem** — phase: rising (upgraded from emerging). Evidence: ETH +6.51% 7d and LINK +8.38% 7d both beating BTC (+3.0%) and SOL (−1.1%) on the week — clearest relative-strength cluster.
+- **Perp DEX / Hyperliquid** — phase: fading. Evidence: HYPE −1.67% 7d despite bouncing +5.1% 24h with the tape and trending #2 — recovering on price, not fundamentals.
 
 ## Top DeFi Protocols (TVL, 7d change)
-- Lido: $16.50B (+1.59%)
-- Aave V3: $13.22B (+3.55%)
-- SSV Network: $8.76B (+0.43%)
-- WBTC: $7.16B (−0.91%)
-- Morpho Blue: $7.11B (+0.27%)
+- Lido: $17.25B (+7.5%)
+- Aave V3: $13.66B (+8.9%)
+- SSV Network: $9.16B (+6.3%)
+- WBTC: $7.39B (+3.1%)
+- Morpho Blue: $7.34B (+4.4%)
 
-## Chain Flow (top 5 by TVL)
-- Ethereum: $40.11B (7d: n/a)
-- BSC: $4.90B (7d: n/a)
-- Solana: $4.81B (7d: n/a)
-- Tron: $4.73B (7d: n/a)
-- Base: $4.43B (7d: n/a)
+## Chain Flow (top 3 by TVL)
+- Ethereum: $41.21B (7d: n/a)
+- BSC: $4.96B (7d: n/a)
+- Solana: $4.92B (7d: n/a)
 
 ## Stablecoins
-Total: ~$273B. USDT $184.13B · USDC $73.00B · USDS $6.67B · DAI $4.86B · USD1 $4.41B · combined share of total mcap ~12.0%.
+Total ~$309B (flat 7d — majors unchanged). USDT $184.2B · USDC $73.2B · USDS $6.6B · DAI $4.9B · combined share of total mcap ~11.6%.
 
 ## Trending (CoinGecko)
-- DRV (Derive) — on-chain derivatives DEX on Base; +35.94% 24h. Two derivatives names trending together signals emerging narrative.
-- LIT (Lighter) — perp DEX / derivatives infrastructure; +7.50% 24h. Second consecutive derivatives-adjacent trending coin.
-- CCD (Concordium) — identity-layer L1; −2.07% 24h. Trending on volume, not price momentum.
+- HYPE (Hyperliquid) — #10, $67.05, +5.3% 24h. Bouncing with the tape but still −1.7% on the week.
+- LIT (Lighter) — #92, $2.54, +6.3% 24h. Perp-DEX / derivatives infra, second consecutive refresh trending.
+- CASHCAT — #232, $0.123, −35.3% 24h. Trending on a capitulation flush, not momentum (was +9% yesterday).
 
 ## Prediction Markets (Polymarket, top by 24h vol)
 | Market | YES% | 24h Vol | Liquidity |
 |--------|------|---------|-----------|
-| France vs Spain — France to advance | 58.9% | $6.47M | $2.43M |
-| Will France win 2026-07-14? | 40.4% | $3.96M | $4.55M |
-| Will Spain win 2026-07-14? | 29.4% | $2.31M | $2.85M |
-| Will Spain win 2026 FIFA World Cup? | 21.8% | $2.39M | $7.92M |
-| Will France win 2026 FIFA World Cup? | 39.1% | $1.97M | $7.23M |
+| Fed: no change at July 2026 meeting | 93% | $3.0M | $0.78M |
+| Fed: +25 bps at July 2026 meeting | 7% | $1.3M | $0.39M |
+| Spain to win 2026 FIFA World Cup | 58% | $7.4M | $8.7M |
 
-*Top volume today is the World Cup Final (France vs Spain). No high-signal crypto markets in the top 10.*
+*Top raw volume is the 2026 World Cup (sports); the only crypto-macro signal is the Fed market — now 93% no-change after the soft CPI all but closed the hike debate.*
 
 ## Macro Catalysts (next 48h)
-- **US CPI, June 2026 (today, 8:30am ET):** The week's primary crypto catalyst. Soft print extends the ETF inflow streak and could push BTC toward $66K; hotter print pressures via higher hold odds and USD strength. The $62–$64K range carries the highest implied probability — market priced for drift, not conviction.
-- **BTC ETF inflow streak:** IBIT-led $510M across three July sessions after the $2.7B June outflow streak. Continuation depends on today's CPI and the Fed meeting at month-end (93.5% priced for no change).
+- **US June PPI — today (Jul 15), 8:30am ET, consensus −0.1% MoM.** The same-day risk to the rally: a hot wholesale print reopens the inflation debate CPI just cooled and threatens the $64K reclaim; an in-line/soft print confirms disinflation and supports continuation toward $66K.
+- **BTC ETF flows:** week of Jul 7–11 pulled +$282M combined BTC+ETH inflows, snapping the 8-week outflow streak (IBIT-led, after a $2.73B/10-day June exodus). Continuation hinges on PPI and the July 29 Fed hold (93% priced).
 
 ## Implications for Downstream Skills
-- **token-pick:** Favor ETH-ecosystem (ETH, LINK) and privacy/ZK (ZEC) — positive 7d momentum in a flat BTC environment signals relative strength. Avoid HYPE short-term: −10.4% 7d, no visible catalyst. Hold judgment on DRV until 24h move confirms volume-backed conviction.
-- **narrative-tracker:** Watch Ethereum ecosystem for emerging→rising transition if ETH sustains above $1,900 post-CPI. Monitor DRV/LIT derivatives cluster — two coins trending simultaneously is the earliest reliable phase signal.
+- **token-pick:** Favor relative-strength leaders — ETH ecosystem (ETH, LINK) and privacy (ZEC) are outperforming on 7d in a still-Extreme-Fear tape. The rally is squeeze-driven, so don't chase thin low-caps (e.g. GNO's $10M-volume +28% candle); wait for PPI before adding beta.
+- **narrative-tracker:** Confirm ETH-ecosystem emerging→rising if ETH holds >$1,850 post-PPI with LINK leading. Track the F&G-vs-price divergence (price +3%, sentiment stuck at Extreme Fear 25) — resolution decides whether the bounce extends.
 
 ## Token Picks Made
 | Date | Token | Price | Thesis |

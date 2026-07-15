@@ -41,3 +41,32 @@ _Losers are shallow on a green tape — most majors down under 5%._
 • GNO: +27.9% 24h on +35.6% 7d, +22.3% in the last hour — BREAKOUT, sustained not a flash pump (#118).
 • CASHCAT: trending but −37% on volume 0.6× its mcap — CAPITULATION, flushing a recent pump (7d still +9%).
 • ARROW: trending +22% at rank #897 — low-cap, illiquid spike; treat as pump-risk.
+_Broad relief rally — 76/100 top-100 coins green, median +1.4% after soft June CPI; majors lead, ZEC extends its privacy run._
+
+*Top Winners (24h)*
+1. GNO (Gnosis) — $141.8  +28.4% / 7d +36.1% / 1h +22.8%  •  $10M / #118  [BREAKOUT]
+2. KAITO (Kaito) — $0.776  +15.1% / 7d +21.6% / 1h −0.7%  •  $51M / #175
+3. PI (Pi Network) — $0.0844  +13.8% / 7d −18.9% / 1h −0.9%  •  $29M / #70
+4. PUMP (Pump.fun) — $0.001645  +12.7% / 7d +7.3%  •  $118M / #91
+5. SPX (SPX6900) — $0.3833  +10.1% / 7d +1.3%  •  $11M / #123
+6. CC (Canton) — $0.1431  +9.8% / 7d +12.0%  •  $12M / #21  [MAJOR]
+7. ZEC (Zcash) — $551.2  +8.9% / 7d +14.4%  •  $503M / #14  [MAJOR]
+
+*Top Losers (24h)*
+1. CASHCAT — $0.1218  −37.1% / 7d +9.4% / 1h +6.5%  •  $75M / #228  [TRENDING+DOWN][CAPITULATION]
+2. VELVET — $0.5206  −17.0% / 7d +28.4%  •  $20M / #154
+3. BDX (Beldex) — $0.0859  −12.4% / 7d −5.2%  •  $20M / #90
+4. DEXE — $38.65  −6.4% / 7d +36.7%  •  $91M / #42
+5. JTO (Jito) — $0.6019  −6.4% / 7d −15.9%  •  $39M / #134
+
+*Trending*
+1. PENGU (Pudgy Penguins) — #116, $0.00609, 24h +5.3%
+2. HYPE (Hyperliquid) — #10, $67.05, 24h +5.3%
+3. LIT (Lighter) — #92, $2.54, 24h +6.3%
+4. CASHCAT — #232, $0.123, 24h −35.3%  [TRENDING+DOWN]
+5. ADI — #73, $6.93, 24h −2.0%
+
+*Notable*
+• CASHCAT: trending while −37% on 0.6× mcap volume — capitulation/exit, not an entry signal (was +9% winner yesterday).
+• GNO: +28% but only $10M 24h volume and a +22.8% 1h candle — thin and fast; treat the breakout as unconfirmed.
+• ZEC: +8.9% into #14 by mcap and +14% on the week — privacy/ZK bid still intact.
