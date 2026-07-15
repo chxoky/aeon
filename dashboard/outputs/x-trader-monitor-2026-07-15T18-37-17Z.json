@@ -1,0 +1,56 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_alab",
+        "tweet_card",
+        "link_message",
+        "link_view_tweet"
+      ]
+    },
+    "badge_alab": {
+      "type": "Badge",
+      "props": {
+        "text": "$ALAB"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Gavin just dm'd saying: Right shoulder at $440 first"
+      }
+    },
+    "link_message": {
+      "type": "Link",
+      "props": {
+        "label": "Tweet",
+        "href": "https://t.co/rX9F0cXLpu"
+      }
+    },
+    "link_view_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2077461741542470096"
+      }
+    }
+  }
+}

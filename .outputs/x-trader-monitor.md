@@ -1,7 +1,8 @@
 🐦 *[X] @Wild_Randomness*
 
-$QQQ
+$ALAB
 
-Every single time QQQ drops below the POC
+Gavin just dm'd saying:
+Right shoulder at $440 first https://t.co/rX9F0cXLpu
 
-Fair warning https://x.com/Wild_Randomness/status/2077460223061549194
+[View tweet](https://x.com/Wild_Randomness/status/2077461741542470096)
