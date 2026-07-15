@@ -1,16 +1,7 @@
-🔍 *Calibration — @Wild_Randomness*
+🐦 *[X] @t_in_crypto*
 
-Event: Real-time trader event at 18:04:53 UTC, Jul 15 2026
+According to the channel structure, this is the minimum acceptable target. We can squeeze it (fast) like 49k for Bitcoin on August 5, 2024 (for example)
 
-Tweet: "Out at 209, little redacted to be trying this if I'm sniping a soxl low"
+[View tweet](https://x.com/t_in_crypto/status/2077458128807817426)
 
----
-
-**Ambiguities:**
-1. "Out at 209" — sounds like a position close/profit-take, but SOXL not in documented positions (currently holding $SPY, $EWY/$KOSPI, $LIT)
-2. "little redacted" — unclear phrase (typo? intentional opacity?)
-3. "to be trying this if I'm sniping a soxl low" — future/conditional phrasing
-
-**Unable to classify** — is this a trade-exit signal (5b mirror case), speculation, or commentary? What's your read?
-
-[View post](https://x.com/Wild_Randomness/status/2077454369386279249)
+_Technical price-target discussion; aligns with t_in_crypto's bullish BTC long conviction (100%+ from 58.4K, +x2 volume at 62K Jul 14)_

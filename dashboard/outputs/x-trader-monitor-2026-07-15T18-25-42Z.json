@@ -1,0 +1,57 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Bitcoin Price Target Analysis"
+      },
+      "children": [
+        "tweet_card",
+        "separator1",
+        "details_stack"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "handle": "t_in_crypto",
+        "text": "According to the channel structure, this is the minimum acceptable target. We can squeeze it (fast) like 49k for Bitcoin on August 5, 2024 (for example)"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "details_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "link_tweet",
+        "analysis_context"
+      ]
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/t_in_crypto/status/2077458128807817426"
+      }
+    },
+    "analysis_context": {
+      "type": "Text",
+      "props": {
+        "text": "Technical price-target discussion; aligns with t_in_crypto's bullish BTC long conviction (100%+ from 58.4K, +x2 volume at 62K Jul 14)",
+        "variant": "caption"
+      }
+    }
+  }
+}
