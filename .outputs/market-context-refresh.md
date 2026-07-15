@@ -1,8 +1,9 @@
 market context — 2026-07-15
 
-take: risk-on relief rally (conviction medium)
-BTC $64,505 (+3.1%) / ETH $1,866 (+4.7%) · F&G 25 (Extreme Fear, ↑ from 22)
-breadth 19/20 24h · DEX vol $7.84B · soft June CPI gutted the July Fed-hike trade
-top narrative: soft-CPI relief / short squeeze (rising) — $113M BTC shorts liquidated
-risk today: June PPI 8:30am ET (est −0.1% MoM)
-hot market: "Fed no change July 2026" YES 93%
+take: risk-on continuation (conviction medium)
+BTC 65.2K (+2.2%) / ETH 1922 (+3.2%) · F&G 25 (Extreme Fear)
+breadth 20/20 24h · 15/20 7d (was 11/20 — broadening)
+ETH ecosystem leading: ETH/BTC 0.02950, LINK +12.2% 7d
+ZEC 580 (+25% 7d) — peak territory
+hot market: England vs Argentina (World Cup semifinal) YES 54%
+BTC ETF Jul 13: -430M outflows (IBIT+FBTC), reversing prior week inflows

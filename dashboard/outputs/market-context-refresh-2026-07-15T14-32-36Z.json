@@ -1,0 +1,370 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "market-context-refresh"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "date",
+        "sep1",
+        "take",
+        "sep2",
+        "prices",
+        "sep3",
+        "breadth",
+        "sep4",
+        "eth_eco",
+        "sep5",
+        "zec",
+        "sep6",
+        "betting",
+        "sep7",
+        "etf"
+      ]
+    },
+    "date": {
+      "type": "Text",
+      "props": {
+        "text": "2026-07-15",
+        "variant": "muted"
+      }
+    },
+    "sep1": {
+      "type": "Separator"
+    },
+    "take": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "take_label",
+        "take_stack"
+      ]
+    },
+    "take_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Take",
+        "level": "h3"
+      }
+    },
+    "take_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "take_text",
+        "take_badge"
+      ]
+    },
+    "take_text": {
+      "type": "Text",
+      "props": {
+        "text": "risk-on continuation"
+      }
+    },
+    "take_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "conviction medium",
+        "variant": "secondary"
+      }
+    },
+    "sep2": {
+      "type": "Separator"
+    },
+    "prices": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "prices_label",
+        "btc",
+        "eth",
+        "fear"
+      ]
+    },
+    "prices_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Prices",
+        "level": "h3"
+      }
+    },
+    "btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "65.2K",
+        "delta": "+2.2%",
+        "trend": "up"
+      }
+    },
+    "eth": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "1922",
+        "delta": "+3.2%",
+        "trend": "up"
+      }
+    },
+    "fear": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "fear_stat",
+        "fear_badge"
+      ]
+    },
+    "fear_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Fear & Greed",
+        "value": "25"
+      }
+    },
+    "fear_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Extreme Fear",
+        "variant": "destructive"
+      }
+    },
+    "sep3": {
+      "type": "Separator"
+    },
+    "breadth": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "breadth_label",
+        "breadth_24h",
+        "breadth_7d"
+      ]
+    },
+    "breadth_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Market Breadth",
+        "level": "h3"
+      }
+    },
+    "breadth_24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h",
+        "value": "20/20"
+      }
+    },
+    "breadth_7d": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "breadth_7d_stat",
+        "breadth_note"
+      ]
+    },
+    "breadth_7d_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "7d",
+        "value": "15/20",
+        "delta": "was 11/20"
+      }
+    },
+    "breadth_note": {
+      "type": "Badge",
+      "props": {
+        "text": "broadening",
+        "variant": "outline"
+      }
+    },
+    "sep4": {
+      "type": "Separator"
+    },
+    "eth_eco": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "eth_eco_label",
+        "eth_btc",
+        "link"
+      ]
+    },
+    "eth_eco_label": {
+      "type": "Heading",
+      "props": {
+        "text": "ETH Ecosystem Leading",
+        "level": "h3"
+      }
+    },
+    "eth_btc": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH/BTC",
+        "value": "0.02950"
+      }
+    },
+    "link": {
+      "type": "Stat",
+      "props": {
+        "label": "LINK 7d",
+        "value": "+12.2%",
+        "trend": "up"
+      }
+    },
+    "sep5": {
+      "type": "Separator"
+    },
+    "zec": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "zec_label",
+        "zec_stack"
+      ]
+    },
+    "zec_label": {
+      "type": "Heading",
+      "props": {
+        "text": "ZEC",
+        "level": "h3"
+      }
+    },
+    "zec_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "zec_stat",
+        "zec_badge"
+      ]
+    },
+    "zec_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "580",
+        "delta": "+25% 7d",
+        "trend": "up"
+      }
+    },
+    "zec_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "peak territory",
+        "variant": "outline"
+      }
+    },
+    "sep6": {
+      "type": "Separator"
+    },
+    "betting": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "betting_label",
+        "betting_odds"
+      ]
+    },
+    "betting_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Hot Market",
+        "level": "h3"
+      }
+    },
+    "betting_odds": {
+      "type": "Stat",
+      "props": {
+        "label": "England vs Argentina (World Cup semifinal)",
+        "value": "54%"
+      }
+    },
+    "sep7": {
+      "type": "Separator"
+    },
+    "etf": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "etf_label",
+        "etf_date",
+        "etf_flows",
+        "etf_note"
+      ]
+    },
+    "etf_label": {
+      "type": "Heading",
+      "props": {
+        "text": "BTC ETF",
+        "level": "h3"
+      }
+    },
+    "etf_date": {
+      "type": "Text",
+      "props": {
+        "text": "Jul 13",
+        "variant": "caption"
+      }
+    },
+    "etf_flows": {
+      "type": "Stat",
+      "props": {
+        "label": "Outflows (IBIT+FBTC)",
+        "value": "-430M",
+        "trend": "down"
+      }
+    },
+    "etf_note": {
+      "type": "Text",
+      "props": {
+        "text": "reversing prior week inflows",
+        "variant": "caption"
+      }
+    }
+  }
+}
