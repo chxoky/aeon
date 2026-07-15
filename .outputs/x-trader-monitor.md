@@ -20,3 +20,9 @@
 - `memory/logs/2026-07-15.md` — Added full skill-processing log entry
 
 **Alert to Kyle:** Informational alert sent (via `./notify`) with macro context annotation on CPI components, FX reaction, and swarmister's positioning patience on EUR trade opportunity.
+🐦 *[X] @t_in_crypto*
+
+@RAFAELA_RIGO_ I don't see 46k
+MM either stop us at 48 or let us drop to 44
+
+[View tweet](https://x.com/t_in_crypto/status/2077444600818512009)
