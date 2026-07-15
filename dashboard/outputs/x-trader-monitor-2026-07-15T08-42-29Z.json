@@ -1,0 +1,47 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @swarmister"
+      },
+      "children": [
+        "meta-info",
+        "tweet-card",
+        "question-alert",
+        "twitter-link"
+      ]
+    },
+    "meta-info": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to @Baskitchbrah • Jul 15 08:38:30 UTC",
+        "variant": "caption"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "(Bittex is black, just in case)"
+      }
+    },
+    "question-alert": {
+      "type": "Alert",
+      "props": {
+        "message": "Cannot determine if this is a market signal or personal banter. What's your read?",
+        "type": "info"
+      }
+    },
+    "twitter-link": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/swarmister/status/2077311835783545036"
+      }
+    }
+  }
+}
