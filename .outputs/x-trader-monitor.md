@@ -1,11 +1,7 @@
-🐦 *[X] @Wild_Randomness*
+🐦 *[X] @t_in_crypto*
 
-Financials and MAGS ripping, inflation prints cold as hell…
+My time deadline around 12h (left) $btc #btc
 
-SPY +0.3%
+[View tweet](https://x.com/t_in_crypto/status/2077411815940669445)
 
-It reminds me of the Q1 meme where we'd see max FUD and SPY would be -0.3% on the day
-
-[View tweet](https://x.com/Wild_Randomness/status/2077408216997388634)
-
-↳ _Aligns with group equity bullish lean (rate-relief narrative, Crypto_Chase tracking SPX new ATHs). Wild_Randomness tracking semis/SPX structure._
+Context: Astro/moon-cycle timing thesis. Added 2x volume at 62K Jul 14. This 12h window likely tied to lunar/pivot structure (new moon Jul 14-15 expectations).

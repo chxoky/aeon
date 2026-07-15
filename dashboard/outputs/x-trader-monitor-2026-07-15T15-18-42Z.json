@@ -1,0 +1,87 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "sep-1",
+        "stack-context",
+        "link-tweet"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "handle": "t_in_crypto",
+        "text": "My time deadline around 12h (left) $btc #btc"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack-context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-context",
+        "text-thesis",
+        "text-volume",
+        "text-timing"
+      ]
+    },
+    "heading-context": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "text-thesis": {
+      "type": "Text",
+      "props": {
+        "text": "Astro/moon-cycle timing thesis"
+      }
+    },
+    "text-volume": {
+      "type": "Text",
+      "props": {
+        "text": "Added 2x volume at 62K Jul 14"
+      }
+    },
+    "text-timing": {
+      "type": "Text",
+      "props": {
+        "text": "This 12h window likely tied to lunar/pivot structure (new moon Jul 14-15 expectations)"
+      }
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/t_in_crypto/status/2077411815940669445"
+      }
+    }
+  }
+}
