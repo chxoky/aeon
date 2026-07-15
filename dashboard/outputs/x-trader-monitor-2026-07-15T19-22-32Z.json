@@ -1,0 +1,121 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "calibration_text",
+        "separator_1",
+        "event_heading",
+        "event_text",
+        "separator_2",
+        "tweet_card",
+        "separator_3",
+        "unclassified_heading",
+        "questions_stack",
+        "separator_4",
+        "view_link"
+      ]
+    },
+    "calibration_text": {
+      "type": "Text",
+      "props": {
+        "text": "Calibration — @Wild_Randomness",
+        "variant": "lead"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "event_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "event_text": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to @ivanhalen0x discussing market strategy on range lows"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "I'm not really bullish on it I'm just refraining from encouraging everyone to stay away from shorts at range lows cause it's been a trap for ages\n\nyes to the latter though https://t.co/UN1mhU47e5"
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "unclassified_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "level": "h3"
+      }
+    },
+    "questions_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "question_1",
+        "question_2",
+        "question_3"
+      ]
+    },
+    "question_1": {
+      "type": "Text",
+      "props": {
+        "text": "What asset/market is 'it'?"
+      }
+    },
+    "question_2": {
+      "type": "Text",
+      "props": {
+        "text": "What does 'the latter' refer to?"
+      }
+    },
+    "question_3": {
+      "type": "Text",
+      "props": {
+        "text": "Is this cautionary (range lows trap FOR shorts) or subtle bullish (expects bounce)?"
+      }
+    },
+    "separator_4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2077472758100111392"
+      }
+    }
+  }
+}
