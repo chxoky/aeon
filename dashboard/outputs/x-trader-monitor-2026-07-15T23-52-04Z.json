@@ -1,0 +1,60 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "calibration-heading",
+        "event-badge",
+        "tweet-card",
+        "calibration-question",
+        "view-link"
+      ]
+    },
+    "calibration-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "event-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Likely equities/token market signal reference",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Stonks Dev Sold? https://t.co/1uypALdB3J"
+      },
+      "children": []
+    },
+    "calibration-question": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read? Is 'Dev' a ticker, a position reference, or something else?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2077540675034497025"
+      },
+      "children": []
+    }
+  }
+}
