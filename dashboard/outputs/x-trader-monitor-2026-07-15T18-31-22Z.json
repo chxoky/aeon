@@ -1,0 +1,41 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_1"
+      ]
+    },
+    "stack_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_1",
+        "link_1"
+      ]
+    },
+    "tweet_1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "Wild_Randomness",
+        "text": "$QQQ\n\nEvery single time QQQ drops below the POC"
+      }
+    },
+    "link_1": {
+      "type": "Link",
+      "props": {
+        "label": "Fair warning",
+        "href": "https://x.com/Wild_Randomness/status/2077460223061549194"
+      }
+    }
+  }
+}
