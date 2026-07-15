@@ -28,7 +28,7 @@
 - **$OKLO**: Wild_Randomness — uranium, "run before a Q3 index top."
 - **$ALAB** (Astera): Wild_Randomness — bidding the 200DMA/prior-ATH retest ~September.
 - **$IBIT**: KillaXBT plans an August buy; Wild_Randomness watches the $36–37 sticking point.
-- **$INTC**: Wild_Randomness & Crypto_Chase — bearish (Chase wants ~90).
+- **$INTC**: Crypto_Chase — conditional long on unwind if strong sell-off (targets 120~, wants to see ~90 first as entry zone); Wild_Randomness — bearish. **Group lean: BEARISH near-term, long-only on structural unwind (Chase thesis).**
 - **$LPTH**: Crypto_Chase — tiny neglected residual long.
 - **hyperliquid (spot)**: Crypto_Chase — bidding "the box" toward a $100 target.
 - **MSTR / STRC**: HeartCanHodl — bearish macro (reflexive-loop fragility with BTC), no stated position.
