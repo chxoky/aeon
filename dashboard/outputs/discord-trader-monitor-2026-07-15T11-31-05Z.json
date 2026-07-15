@@ -1,0 +1,133 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor"
+      },
+      "children": [
+        "calibration",
+        "sep1",
+        "event_heading",
+        "event_text",
+        "sep2",
+        "message_heading",
+        "message_text",
+        "message_link",
+        "sep3",
+        "context_heading",
+        "context_text",
+        "sep4",
+        "interpretations_heading",
+        "interpretations_text",
+        "sep5",
+        "question"
+      ]
+    },
+    "calibration": {
+      "type": "Text",
+      "props": {
+        "text": "🔍 Calibration — [DC: HCH — Free]",
+        "variant": "muted"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "event_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "event_text": {
+      "type": "Text",
+      "props": {
+        "text": "HCH replying in Free channel (public X-sharing)"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Message",
+        "level": "h3"
+      }
+    },
+    "message_text": {
+      "type": "Text",
+      "props": {
+        "text": "\"Let's see how it goes\""
+      }
+    },
+    "message_link": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/i/status/2077353308235481438",
+        "href": "https://x.com/i/status/2077353308235481438"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "Reply in Free channel with link reference (FixTweet archiver). Minimal text + external URL context. Likely sentiment on market/position but cannot determine direction without URL."
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "interpretations_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Possible Interpretations",
+        "level": "h3"
+      }
+    },
+    "interpretations_text": {
+      "type": "Text",
+      "props": {
+        "text": "Could be:\n(a) technical conviction update\n(b) position monitoring\n(c) general observation"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "question": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read on this message's intent?",
+        "variant": "lead"
+      }
+    }
+  }
+}
