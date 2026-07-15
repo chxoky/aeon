@@ -1,0 +1,421 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Token Movers — 2026-07-15"
+      },
+      "children": [
+        "summary",
+        "sep1",
+        "winners-heading",
+        "winners-table",
+        "sep2",
+        "losers-heading",
+        "losers-table",
+        "sep3",
+        "losers-comment",
+        "sep4",
+        "trending-heading",
+        "trending-table",
+        "sep5",
+        "notable-heading",
+        "notable-alerts"
+      ]
+    },
+    "summary": {
+      "type": "Text",
+      "props": {
+        "text": "Broad risk-on — 76/100 top coins green, top-50 median +1.4%; BTC +3.1% to $64.5K and ETH +4.7% lead, privacy (ZEC) and AI-agent names (GNO, KAITO, VIRTUAL) outrunning the tape.",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "winners-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Winners (24h)",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "winners-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Vol/Rank",
+          "Status"
+        ],
+        "rows": [
+          [
+            "GNO (Gnosis)",
+            "$141.24",
+            "+27.9%",
+            "+35.6%",
+            "+22.3%",
+            "$9.9M / #118",
+            "BREAKOUT"
+          ],
+          [
+            "KAITO",
+            "$0.7750",
+            "+14.9%",
+            "+21.4%",
+            "−0.8%",
+            "$49M / #175",
+            ""
+          ],
+          [
+            "PI (Pi Network)",
+            "$0.0844",
+            "+13.8%",
+            "−18.9%",
+            "−0.9%",
+            "$29M / #70",
+            ""
+          ],
+          [
+            "PUMP (Pump.fun)",
+            "$0.001651",
+            "+13.1%",
+            "+7.7%",
+            "+0.4%",
+            "$118M / #91",
+            ""
+          ],
+          [
+            "SPX (SPX6900)",
+            "$0.3832",
+            "+10.0%",
+            "+1.3%",
+            "−1.2%",
+            "$11M / #123",
+            ""
+          ],
+          [
+            "CC (Canton)",
+            "$0.1431",
+            "+9.8%",
+            "+11.9%",
+            "+0.5%",
+            "$12M / #21",
+            ""
+          ],
+          [
+            "ZEC (Zcash)",
+            "$551.41",
+            "+8.9%",
+            "+14.5%",
+            "−1.2%",
+            "$503M / #14",
+            "MAJOR"
+          ],
+          [
+            "PIEVERSE",
+            "$0.7014",
+            "+8.9%",
+            "+3.8%",
+            "+0.4%",
+            "$6.6M / #170",
+            ""
+          ],
+          [
+            "DCR (Decred)",
+            "$13.18",
+            "+8.2%",
+            "+19.6%",
+            "−0.0%",
+            "$5.2M / #150",
+            ""
+          ],
+          [
+            "VIRTUAL (Virtuals Protocol)",
+            "$0.5938",
+            "+7.6%",
+            "+12.0%",
+            "+0.3%",
+            "$60M / #115",
+            ""
+          ]
+        ]
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "losers-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Losers (24h)",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "losers-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Vol/Rank",
+          "Status"
+        ],
+        "rows": [
+          [
+            "CASHCAT (Cash Cat)",
+            "$0.1218",
+            "−37.1%",
+            "+9.4%",
+            "+6.5%",
+            "$74M / #228",
+            "TRENDING+DOWN, CAPITULATION"
+          ],
+          [
+            "VELVET",
+            "$0.5203",
+            "−17.0%",
+            "+28.3%",
+            "−1.4%",
+            "$20M / #154",
+            "FADE"
+          ],
+          [
+            "BDX (Beldex)",
+            "$0.0863",
+            "−12.0%",
+            "−4.7%",
+            "+2.7%",
+            "$20M / #90",
+            ""
+          ],
+          [
+            "DEXE (DeXe)",
+            "$38.31",
+            "−7.3%",
+            "+35.5%",
+            "+1.3%",
+            "$91M / #42",
+            ""
+          ],
+          [
+            "JTO (Jito)",
+            "$0.6016",
+            "−6.4%",
+            "−16.0%",
+            "−4.1%",
+            "$39M / #134",
+            ""
+          ],
+          [
+            "EDGE (edgeX)",
+            "$0.3943",
+            "−6.0%",
+            "−10.1%",
+            "+0.0%",
+            "$8M / #212",
+            ""
+          ],
+          [
+            "AWE (AWE Network)",
+            "$0.0621",
+            "−4.9%",
+            "+5.2%",
+            "−0.2%",
+            "$2M / #232",
+            ""
+          ],
+          [
+            "BSV (Bitcoin SV)",
+            "$13.44",
+            "−4.0%",
+            "+0.7%",
+            "−3.5%",
+            "$4.6M / #137",
+            ""
+          ],
+          [
+            "ZANO",
+            "$9.54",
+            "−3.6%",
+            "+10.4%",
+            "+0.2%",
+            "$1.2M / #205",
+            ""
+          ],
+          [
+            "JST (JUST)",
+            "$0.0989",
+            "−3.2%",
+            "+5.1%",
+            "−0.0%",
+            "$28M / #75",
+            ""
+          ]
+        ]
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "losers-comment": {
+      "type": "Text",
+      "props": {
+        "text": "Losers are shallow on a green tape — most majors down under 5%.",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "trending-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "trending-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Rank",
+          "Price",
+          "24h"
+        ],
+        "rows": [
+          [
+            "Pudgy Penguins (PENGU)",
+            "#116",
+            "$0.006089",
+            "+5.3%"
+          ],
+          [
+            "Hyperliquid (HYPE)",
+            "#10",
+            "$67.05",
+            "+5.3%"
+          ],
+          [
+            "ADI",
+            "#73",
+            "$6.93",
+            "−2.0%"
+          ],
+          [
+            "Cash Cat (CASHCAT)",
+            "#232",
+            "$0.1235",
+            "−35.3%"
+          ],
+          [
+            "Lighter (LIT)",
+            "#92",
+            "$2.54",
+            "+6.3%"
+          ],
+          [
+            "The Black Bull (ANSEM)",
+            "#255",
+            "$0.2481",
+            "−3.8%"
+          ],
+          [
+            "Arrow (ARROW)",
+            "#897",
+            "$1.88",
+            "+22.4%"
+          ]
+        ]
+      },
+      "children": []
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "notable-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "notable-alerts": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert-1",
+        "alert-2",
+        "alert-3"
+      ]
+    },
+    "alert-1": {
+      "type": "Alert",
+      "props": {
+        "title": "GNO: Sustained Breakout",
+        "message": "+27.9% 24h on +35.6% 7d, +22.3% in the last hour — BREAKOUT, sustained not a flash pump (#118).",
+        "type": "success"
+      },
+      "children": []
+    },
+    "alert-2": {
+      "type": "Alert",
+      "props": {
+        "title": "CASHCAT: Capitulation",
+        "message": "Trending but −37% on volume 0.6× its mcap — CAPITULATION, flushing a recent pump (7d still +9%).",
+        "type": "error"
+      },
+      "children": []
+    },
+    "alert-3": {
+      "type": "Alert",
+      "props": {
+        "title": "ARROW: Low-Cap Spike Risk",
+        "message": "Trending +22% at rank #897 — low-cap, illiquid spike; treat as pump-risk.",
+        "type": "warning"
+      },
+      "children": []
+    }
+  }
+}
