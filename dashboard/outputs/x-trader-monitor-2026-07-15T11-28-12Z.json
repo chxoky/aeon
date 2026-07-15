@@ -1,0 +1,72 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "tweet_url_link",
+        "separator_1",
+        "convergence_section"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "The same crowd that was waiting for 3-digit $HYPE is now waiting for 4-digit $ZEC\n\nWell, one didn't happen, and I don't expect the other to happen either, at least not in the mid term.\n\nGarrett seems to know that too, which is why he's short. The only difference is that our entry here is better 📉⏳"
+      }
+    },
+    "tweet_url_link": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/HeartCanHodl/status/2077353308235481438"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "convergence_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "convergence_label",
+        "convergence_text"
+      ]
+    },
+    "convergence_label": {
+      "type": "Badge",
+      "props": {
+        "text": "Convergence"
+      }
+    },
+    "convergence_text": {
+      "type": "Text",
+      "props": {
+        "text": "Aligns with HCH's escalating ZEC short conviction (added 1% today 07:35UTC, now at 35% portfolio in shorts). ZEC contested — HCH bearish vs trading_axe strength-as-health thesis."
+      }
+    }
+  }
+}
