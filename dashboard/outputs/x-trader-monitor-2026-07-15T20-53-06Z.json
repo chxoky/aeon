@@ -1,0 +1,102 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @Wild_Randomness"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_event",
+        "sep1",
+        "badge_position",
+        "text_context",
+        "sep2",
+        "tweet_card",
+        "sep3",
+        "alert_missing",
+        "sep4",
+        "link_source"
+      ]
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Wild_Randomness just opened a position (\"small batch of July 31 puts\") after closing out a prior position.",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "badge_position": {
+      "type": "Badge",
+      "props": {
+        "text": "July 31 Puts (Long)",
+        "variant": "default"
+      }
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "Context: Tracking bear divergence / macro concern about broader technical levels.",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Closed but opened up a small batch of July 31 puts to feel something\n\nSaw some flow for end of July and technically a red close tomorrow still locks in a bear div (yeah that's cope but I need a technical reasoning lol)"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_missing": {
+      "type": "Alert",
+      "props": {
+        "title": "Missing Detail",
+        "message": "Which underlying are the July 31 puts on? (SPY? Broad index? Single name?)\n\nUnable to classify without clarification — is this a mirrored trade, or informational sentiment update?",
+        "type": "warning"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_source": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/Wild_Randomness/status/2077495822921720051"
+      }
+    }
+  }
+}
