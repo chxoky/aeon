@@ -1,0 +1,150 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "heartbeat",
+        "description": "System health status and alerts"
+      },
+      "children": [
+        "alert_degraded",
+        "sep1",
+        "heading_issue",
+        "stack_issue",
+        "sep2",
+        "heading_healthy",
+        "stack_healthy",
+        "sep3",
+        "heading_context",
+        "text_context"
+      ]
+    },
+    "alert_degraded": {
+      "type": "Alert",
+      "props": {
+        "type": "error",
+        "title": "🔴 DEGRADED",
+        "message": "morning-pipeline chain failed its first scheduled run today (07:34 UTC)"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_issue": {
+      "type": "Heading",
+      "props": {
+        "text": "Chain Failure Details",
+        "level": "h2"
+      }
+    },
+    "stack_issue": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_chain_failure",
+        "text_root_cause",
+        "text_manual_rerun"
+      ]
+    },
+    "text_chain_failure": {
+      "type": "Text",
+      "props": {
+        "text": "chain-runner exited 1 at Step 1/2 (parallel dispatch of token-movers + market-context-refresh)"
+      }
+    },
+    "text_root_cause": {
+      "type": "Text",
+      "props": {
+        "text": "Root cause: Failure is in the chain-orchestration wrapper, not skill content. The skills themselves are fine."
+      }
+    },
+    "text_manual_rerun": {
+      "type": "Text",
+      "props": {
+        "text": "Manual re-run delivered all three outputs successfully."
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_healthy": {
+      "type": "Heading",
+      "props": {
+        "text": "Healthy Systems",
+        "level": "h2"
+      }
+    },
+    "stack_healthy": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_webhook",
+        "badge_monitors",
+        "stat_prs",
+        "badge_iss002"
+      ]
+    },
+    "badge_webhook": {
+      "type": "Badge",
+      "props": {
+        "text": "✓ X WATCHED_TRADERS webhook rule active (all 12 accounts)",
+        "variant": "default"
+      }
+    },
+    "badge_monitors": {
+      "type": "Badge",
+      "props": {
+        "text": "✓ Live Discord/X monitors firing",
+        "variant": "default"
+      }
+    },
+    "stat_prs": {
+      "type": "Stat",
+      "props": {
+        "label": "Open PRs",
+        "value": "0"
+      }
+    },
+    "badge_iss002": {
+      "type": "Badge",
+      "props": {
+        "text": "✓ ISS-002 stays resolved",
+        "variant": "default"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_context": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "First chain-runner run since the fleet revived 07-14.",
+        "variant": "caption"
+      }
+    }
+  }
+}
