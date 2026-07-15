@@ -1,0 +1,52 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "link_view",
+        "text_memory"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "$SKHynix continues to respect the 4H EMA 50 perfectly 📉"
+      },
+      "children": []
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/HeartCanHodl/status/2077350122136928727"
+      },
+      "children": []
+    },
+    "text_memory": {
+      "type": "Text",
+      "props": {
+        "text": "Memory/semis sector — aligns with HCH's bearish skepticism on 'new highs' narrative",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}

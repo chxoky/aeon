@@ -17,6 +17,7 @@
 
 ## Quiet tickers (single-trader mentions, tracked silently)
 - **cashcat** (onchain): bull_genius (closed 15x trade), ryzzqq (squeeze-exhaustion commentary Jul 15 06:09) — CONVERGING THEME (second mention in short window; tracking for momentum acceleration)
+- **$SKHynix**: HeartCanHodl (technical analysis on 4H EMA50 structure, Jul 15 11:10) — single mention, memory/semis sector tracking (aligns with bearish memory-stock skepticism theme)
 - **$UNI** (Uniswap): HeartCanHodl — SHORT, 1% added Jul 14 on secondary account (first mention in tracked window)
 - **$SPCX** (SpaceX): HeartCanHodl — SHORT, big winner, printed all-time low Jul 13. Chase calls it "dogshit" (agrees directionally). ryzzqq — LONG interest (Jul 14, "looking to buy 120-130") — contrarian to shorts, awaiting calibration.
 - **$ORCL**: Wild_Randomness — bullish, short-squeeze thesis, "motion."
