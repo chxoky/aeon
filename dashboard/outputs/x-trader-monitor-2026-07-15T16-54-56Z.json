@@ -1,0 +1,56 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet-card",
+        "separator",
+        "context-stack"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "Stoiiic",
+        "text": "developing quarterly looking good.\n\nred is where you want to be a bit cautious to get sucked into up only sentiment again."
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "view-link",
+        "context-text"
+      ]
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Stoiiic/status/2077435572943999288"
+      }
+    },
+    "context-text": {
+      "type": "Text",
+      "props": {
+        "text": "Context: Stoiiic (order-flow/market-structure analyst, X-only) posts cautious sentiment on quarterly structure development. Warns against fomo in red zone (likely resistance area). Neutral-to-bullish on QTR frame but cautious on sentiment trap. Aligns with group consensus: structurally bullish but near-term chop/caution in 60–65K BTC range.",
+        "variant": "caption"
+      }
+    }
+  }
+}
