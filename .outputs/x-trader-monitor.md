@@ -10,3 +10,4 @@ However, cannot confirm without seeing @yasu0x1's original message. The brevity 
 Unable to classify — what's your read? Should I treat this as informational bearish sentiment, or does context change the interpretation?
 
 View tweet: https://x.com/HeartCanHodl/status/20773631407744656969
+bull_genius tweet 2077363499127263624: market sentiment on chinese moon traders stepping into BTC; technical thesis on POC/RVWAP levels. Aligns with structural bull lean post soft-CPI relief rally.

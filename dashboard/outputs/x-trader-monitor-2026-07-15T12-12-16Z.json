@@ -1,0 +1,26 @@
+{
+  "root": "card_main",
+  "state": {
+    "tweetId": "2077363499127263624"
+  },
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_1"
+      ]
+    },
+    "tweet_1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "market sentiment on chinese moon traders stepping into BTC; technical thesis on POC/RVWAP levels. Aligns with structural bull lean post soft-CPI relief rally."
+      },
+      "children": []
+    }
+  }
+}
