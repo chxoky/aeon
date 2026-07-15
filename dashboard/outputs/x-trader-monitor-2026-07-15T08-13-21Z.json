@@ -1,0 +1,120 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @HeartCanHodl"
+      },
+      "children": [
+        "heading-event",
+        "text-event",
+        "sep1",
+        "text-tweet-context",
+        "tweetcard-main",
+        "sep2",
+        "section-classification"
+      ]
+    },
+    "heading-event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "text-event": {
+      "type": "Text",
+      "props": {
+        "text": "HCH just achieved 35% portfolio allocation in shorts (BTC/ETH/SOL/HYPE/ZEC) ~20min prior"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "text-tweet-context": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to @BullTheoryio with no visible context:"
+      }
+    },
+    "tweetcard-main": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "It has to come to this sooner or later"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section-classification": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert-classification",
+        "interpretations-stack",
+        "text-question",
+        "link-post"
+      ]
+    },
+    "alert-classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "This is a reply to a non-watched trader (@BullTheoryio) with no visible context. \"It\" could refer to:",
+        "type": "info"
+      }
+    },
+    "interpretations-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "interp-a",
+        "interp-b",
+        "interp-c"
+      ]
+    },
+    "interp-a": {
+      "type": "Text",
+      "props": {
+        "text": "(a) the broader bearish scenario HCH expects (capitulation/downside)"
+      }
+    },
+    "interp-b": {
+      "type": "Text",
+      "props": {
+        "text": "(b) the short positioning milestone"
+      }
+    },
+    "interp-c": {
+      "type": "Text",
+      "props": {
+        "text": "(c) something else"
+      }
+    },
+    "text-question": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?"
+      }
+    },
+    "link-post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/HeartCanHodl/status/2077304564886507762"
+      }
+    }
+  }
+}
