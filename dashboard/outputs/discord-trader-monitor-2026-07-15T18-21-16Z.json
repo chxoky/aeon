@@ -1,0 +1,148 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — DC: Chase — TradFi"
+      },
+      "children": [
+        "context_text",
+        "messages_stack",
+        "separator1",
+        "classification_section",
+        "separator2",
+        "question_section"
+      ]
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "Two-message sentiment thread (15 min span, same supporting channel)"
+      },
+      "children": []
+    },
+    "messages_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "message1",
+        "message2"
+      ]
+    },
+    "message1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Chase",
+        "text": "hopefully tho",
+        "handle": "18:01:52 UTC"
+      },
+      "children": []
+    },
+    "message2": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Chase",
+        "text": "yeah hopefully patience pays",
+        "handle": "18:17:21 UTC"
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "classification_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "unable_text",
+        "positions_stack"
+      ]
+    },
+    "unable_text": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — which position(s)?",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "positions_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos1",
+        "pos2",
+        "pos3",
+        "pos4"
+      ]
+    },
+    "pos1": {
+      "type": "Badge",
+      "props": {
+        "text": "SPX/ES long waiting for new ATHs?"
+      },
+      "children": []
+    },
+    "pos2": {
+      "type": "Badge",
+      "props": {
+        "text": "HYPE long waiting for flush entry?"
+      },
+      "children": []
+    },
+    "pos3": {
+      "type": "Badge",
+      "props": {
+        "text": "BTC potential long on flush into demand?"
+      },
+      "children": []
+    },
+    "pos4": {
+      "type": "Badge",
+      "props": {
+        "text": "Or something else?"
+      },
+      "children": []
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "question_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "question_text"
+      ]
+    },
+    "question_text": {
+      "type": "Text",
+      "props": {
+        "text": "Is this a bull confirmation or bear flush-entry setup?",
+        "variant": "lead"
+      },
+      "children": []
+    }
+  }
+}
