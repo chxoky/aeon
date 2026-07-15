@@ -1,0 +1,72 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "Conviction Add"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_type",
+        "text_summary",
+        "separator1",
+        "tweet_card",
+        "link_tweet",
+        "text_cta"
+      ]
+    },
+    "badge_type": {
+      "type": "Badge",
+      "props": {
+        "text": "Conviction Add",
+        "variant": "secondary"
+      }
+    },
+    "text_summary": {
+      "type": "Text",
+      "props": {
+        "text": "Wild_Randomness just added to their NVDA position at $211.",
+        "variant": "body"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Ok I'm re-adding here at 211 lol. Hoping for a red close"
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/Wild_Randomness/status/2077473282195071203"
+      }
+    },
+    "text_cta": {
+      "type": "Text",
+      "props": {
+        "text": "Want to add to yours too?",
+        "variant": "body"
+      }
+    }
+  }
+}

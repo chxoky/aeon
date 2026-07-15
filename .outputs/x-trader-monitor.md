@@ -12,3 +12,11 @@ Unable to classify — what's your read?
 - Is this cautionary (range lows trap FOR shorts) or subtle bullish (expects bounce)?
 
 [View post](https://x.com/Wild_Randomness/status/2077472758100111392)
+➕ *Conviction Add — @Wild_Randomness*
+
+Wild_Randomness just added to their NVDA position at $211.
+"Ok I'm re-adding here at 211 lol. Hoping for a red close"
+
+https://x.com/Wild_Randomness/status/2077473282195071203
+
+Want to add to yours too?

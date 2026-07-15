@@ -254,18 +254,22 @@
 - **Last update**: 2026-07-15T15:30:29Z (X, tweet_id=2077415514746318933, fast-path alerted via notify)
 
 ### NVDA — LONG (EQUITY) — CONVICTION ADD (2026-07-15)
-- **Status**: ACTIVE — conviction add executed, awaiting Kyle's decision to add to his own position
-- **Entry**: 2026-07-15T15:47:46Z — "Was able to double the position"
-- **Entry level**: $213 (market open pop)
-- **Entry type**: Market-filled at market open above $213 resistance
-- **Position action**: CONVICTION ADD (doubled existing position; not fresh new entry)
+- **Status**: ACTIVE — multiple conviction adds executed (15:47:46Z doubled at 213, 19:20:02Z re-added at 211)
+- **Entry history**:
+  - 2026-07-15T15:47:46Z: Doubled position at $213 (market open pop) — "Was able to double the position"
+  - 2026-07-15T19:20:02Z: Re-added at $211 (intraday pullback dip) — "Ok I'm re-adding here at 211 lol"
+- **Entry levels**: 213 (market open), 211 (intraday dip, 2 points lower)
+- **Entry type**: Market-filled entries at both levels
+- **Position action**: LAYERED CONVICTION ADD (doubled at 213, re-added at 211 on dip)
 - **Exit criteria**: Hard stop at $215 weekly close (invalidation level); price action contingent on daily bearish divergence formation
-- **Thesis**: Mean-reversion vol play using pattern recognition: "chart looks good today = chart looks bad tomorrow". Trader expecting near-term pullback after this pop before longer-term structure reassessment. Position aligned with $NVDA watching for weakness back into prior levels.
-- **Execution language**: "Got what I wanted— a pop at the open above 213. Was able to double the position." — first-person past-tense execution confirmation; market order filled at market open
-- **Context**: Wild_Randomness previously held July calls on NVDA (TP'd), was sidelined. This is a fresh entry into NVDA equities with opposite tactical bias (long on pop vs. prior short vol via puts on Jul 14). Re-entry reflects tactical reversal play on specific price structure ($213 pop → expect pull back to lock in div). $NVDA is on Kyle's explicit watch list (prior context: chart constructive into resistance).
-- **Conviction**: MEDIUM-HIGH — explicit entry language ("Got what I wanted"), willingness to double position, defined invalidation level
-- **Approval status**: CONVICTION ADD SIGNAL SENT (Step 5d alert format: "Want to add to your position too?" awaiting Kyle's response on whether to mirror)
-- **Last update**: 2026-07-15T15:47:46Z (X, tweet_id=2077419864185323597, fast-path alerted via notify)
+- **Thesis**: Mean-reversion vol play using pattern recognition: "chart looks good today = chart looks bad tomorrow". Trader expecting near-term pullback after pop to set up mean-reversion upside bounce. "Hoping for a red close" = expecting today's downside (211 entry captures additional dip), which validates setup for tomorrow's recovery. Position aligned with $NVDA watching for weakness back into prior levels while adding on dips.
+- **Execution language**: 
+  - 15:47:46Z: "Got what I wanted— a pop at the open above 213. Was able to double the position." — first-person execution confirmation
+  - 19:20:02Z: "Ok I'm re-adding here at 211 lol. Hoping for a red close" — first-person re-add with tactical dip buying conviction
+- **Context**: Wild_Randomness previously held July calls on NVDA (TP'd), was sidelined. Fresh entry into NVDA equities on pop (213 open), then adding to position on intraday pullback (211 dip). Layered entry strategy reflects disciplined accumulation on tactical levels within mean-reversion framework. $NVDA is on Kyle's explicit watch list (chart constructive into resistance).
+- **Conviction**: HIGH — dual-entry same-day with explicit execution language, layered accumulation at support levels, defined invalidation level at 215
+- **Approval/Alert status**: CONVICTION ADD signals sent for both entries (Step 5d format: "Want to add to your position too?" awaiting Kyle's response on whether to mirror)
+- **Last update**: 2026-07-15T19:20:02Z (X, tweet_id=2077473282195071203, fast-path alerted via notify)
 
 ---
 
