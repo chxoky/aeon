@@ -1,7 +1,10 @@
-🔍 *Calibration — @t_in_crypto*
+🔍 *Calibration — @ryzzqq*
 
-Event: Just added x2 BTC volume at 62K (Jul 14, 16:15:38 UTC) — diamond-hand lunar bull thesis active
+Event: Posted ~12h after confirming prior position progress
+Text: "cashcat but delayed https://t.co/KY0dZjWXBc"
 
-Message: "@Alulim123gmail1 At this moment yes"
+Context: 'cashcat' referenced as closed onchain 15x trade (bull_genius history), but context here unclear. URL inaccessible. "but delayed" suggests timing/entry commentary?
 
-Unable to classify — what's your read? No original context visible, but timing suggests financially related.
+Unable to classify — what's your read?
+
+[View tweet](https://x.com/ryzzqq/status/2077272995308204468)
