@@ -1,0 +1,64 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor: Calibration"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_main",
+        "text_event",
+        "tweetcard_reply",
+        "text_analysis",
+        "link_tweet"
+      ]
+    },
+    "heading_main": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @ryzzqq",
+        "level": "h2"
+      }
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @CoinflipApe (context not visible to me)"
+      }
+    },
+    "tweetcard_reply": {
+      "type": "TweetCard",
+      "props": {
+        "author": "ryzzqq",
+        "handle": "ryzzqq",
+        "text": "@CoinflipApe let them larp"
+      }
+    },
+    "text_analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read? Is this market commentary, trader-activity dismissal, or position-related?",
+        "variant": "muted"
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/ryzzqq/status/2077278681001812078"
+      }
+    }
+  }
+}

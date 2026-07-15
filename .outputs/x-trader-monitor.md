@@ -1,13 +1,9 @@
-🐦 *[X] @ryzzqq*
+🔍 *Calibration — @ryzzqq*
 
-Event: Reply to @SolBuysa (message context not visible)
-@ryzzqq: "@SolBuysa you know what i mean"
+Event: Reply to @CoinflipApe (context not visible to me)
 
-Unable to classify — what's your read? (ryzq is low-volume; high-intent signal)
+ryzzqq: "@CoinflipApe let them larp"
 
-[View tweet](https://x.com/ryzzqq/status/2077274999178895508)
-cashcat but delayed, don't think it has any more squeeze potential left
+Unable to classify — what's your read? Is this market commentary, trader-activity dismissal, or position-related?
 
-[View tweet](https://x.com/ryzzqq/status/2077274339452580246)
-
-↳ _Second cashcat mention: bull_genius closed their 15x onchain trade earlier; this is a sentiment read on the squeeze setup being exhausted._
+[View tweet](https://x.com/ryzzqq/status/2077278681001812078)
