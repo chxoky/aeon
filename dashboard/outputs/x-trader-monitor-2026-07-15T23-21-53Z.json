@@ -1,0 +1,102 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "🔍 Calibration — @Stoiiic"
+      },
+      "children": [
+        "event_details",
+        "separator_1",
+        "tweet_card",
+        "separator_2",
+        "section_questions",
+        "separator_3",
+        "link_view"
+      ]
+    },
+    "event_details": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @dogboii at 2026-07-15 23:19:25 UTC",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "Stoiiic",
+        "text": "@dogboii yes"
+      },
+      "children": []
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_questions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_unable",
+        "question_1",
+        "question_2"
+      ]
+    },
+    "text_unable": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "question_1": {
+      "type": "Text",
+      "props": {
+        "text": "What was @dogboii's original message?"
+      },
+      "children": []
+    },
+    "question_2": {
+      "type": "Text",
+      "props": {
+        "text": "Does '@dogboii yes' represent a market-relevant signal (position action/sentiment shift) or casual acknowledgment?"
+      },
+      "children": []
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Stoiiic/status/2077533526128570721"
+      },
+      "children": []
+    }
+  }
+}
