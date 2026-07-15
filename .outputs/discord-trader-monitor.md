@@ -2,12 +2,11 @@
 
 Event: crypto_chase posted standalone message in supporting channel
 crypto_chase: "hopefully tho"
+🔍 **Calibration — [DC: Chase — TradFi]**
 
-**Step 1 — Decode:** ✅ Event decoded successfully
-- **Message:** "note SOL recent weekly deviation then apply it to ETH"
-- **From:** crypto_chase (username verified)
-- **Channel:** 1247927786681794601 (Chase — Crypto supporting channel)
-- **Reply context:** Member turk_solo asked for ETH chart analysis near profit-taking levels
+Event: Cryptic supporting-channel message with minimal context
+
+Crypto_Chase: "I mean like 460, 440"
 
 **Step 2 — Channel & Trader:** ✅ Resolved
 - Channel label: **"Chase — Crypto"** (supporting channel type)
@@ -50,3 +49,4 @@ Crypto_Chase: "out"
 
 Unable to classify — what's your read? (Exit signal, away/offline, or non-financial banter?)
 Unable to classify — what's your read? (Hope for bullish move? Sentiment on existing positions? Reference to prior channel discussion?)
+Unable to classify — what's your read? (Price levels for some ticker, position sizing amounts, percentage targets, or something else?)

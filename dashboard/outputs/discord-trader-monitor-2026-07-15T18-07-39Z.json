@@ -1,0 +1,97 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading",
+        "badge",
+        "sep1",
+        "event_text",
+        "message_section",
+        "sep2",
+        "classification_alert"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration",
+        "level": "h2"
+      }
+    },
+    "badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DC: Chase — TradFi",
+        "variant": "outline"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "event_text": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Cryptic supporting-channel message with minimal context",
+        "variant": "lead"
+      }
+    },
+    "message_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "message_author",
+        "message_quote"
+      ]
+    },
+    "message_author": {
+      "type": "Text",
+      "props": {
+        "text": "Crypto_Chase:",
+        "variant": "caption"
+      }
+    },
+    "message_quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"I mean like 460, 440\"",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read? (Price levels for some ticker, position sizing amounts, percentage targets, or something else?)",
+        "type": "info"
+      }
+    }
+  }
+}
