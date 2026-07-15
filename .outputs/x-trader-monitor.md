@@ -16,8 +16,8 @@
 [View tweet](https://x.com/KillaXBT/status/2077356154057830492)
 🔍 *Calibration — @t_in_crypto*
 
-Event: Follow-up cryptic reply to @Alulim123gmail1 (same thread, 7h later)
-@t_in_crypto: "@Alulim123gmail1 Time first"
+Event: t_in_crypto replied cryptically to @CryptoPoseidonn
+t_in_crypto: "@CryptoPoseidonn Only 15k? 😅"
 
 Context: 100%+ BTC LONG @58.4K (conviction add x2 @62K Jul 14). Astro/moon-cycle thesis emphasizes timing/patience through consolidation. Previous message to same user (Jul 14 04:55 UTC): "@Alulim123gmail1 At this moment yes" — similar cryptic pattern.
 
@@ -25,3 +25,4 @@ Context: 100%+ BTC LONG @58.4K (conviction add x2 @62K Jul 14). Astro/moon-cycle
 
 Unable to classify without original @Alulim123gmail1 context. What's your read?
 The skill correctly identified this as routine personal banter from swarmister (consistent with their established pattern on 07-15) and skipped it as expected.
+Unable to classify without context — what's your read? Does "15k" refer to a price level, position size, or something else? How should I handle similar replies from t_in_crypto?
