@@ -1,13 +1,9 @@
-🔍 *Calibration — @HeartCanHodl*
+🐦 *[X] @HeartCanHodl*
 
-Event: Reply to @yasu0x1 about market direction — posted 12:02:22 UTC
-@HeartCanHodl: "@yasu0x1 Sloppy down road ahead.."
+Technical level commentary on BTC bounce:
 
-Context: HCH is at 35% portfolio allocation in shorts (BTC/ETH/SOL/ZEC/UNI adds through Jul 14-15). Recent posts emphasize "weakness brewing", "exit chances", and bearish sentiment on HYPE/ZEC. This cryptic reply likely means "sloppy consolidation with downside expected ahead" — aligned with documented thesis.
+"`The first half of July 2026 has been a joyride. Whether it was a genuine green month like usual or merely a bait will become clear during the next market depending if $59k-$60k could hold well or not this time..`"
 
-However, cannot confirm without seeing @yasu0x1's original message. The brevity and reply-format create ambiguity.
+[View tweet](https://x.com/HeartCanHodl/status/2077367644311974163)
 
-Unable to classify — what's your read? Should I treat this as informational bearish sentiment, or does context change the interpretation?
-
-View tweet: https://x.com/HeartCanHodl/status/20773631407744656969
-bull_genius tweet 2077363499127263624: market sentiment on chinese moon traders stepping into BTC; technical thesis on POC/RVWAP levels. Aligns with structural bull lean post soft-CPI relief rally.
+**Context:** HCH holds escalating bearish short basket (BTC +3%, ETH +2%, SOL +2%, ZEC +1% Jul 14-15, targeting 35% portfolio allocation). This frames $59k-$60k as the key test for genuine support vs. false-breakout rug-pull setup. Aligns with recent 'weakness brewing' / 'exit chance on pump' calls from earlier session.

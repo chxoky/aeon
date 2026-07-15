@@ -1,0 +1,190 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Technical analysis on BTC bounce"
+      },
+      "children": [
+        "tweet_section",
+        "sep1",
+        "context_section"
+      ]
+    },
+    "tweet_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet_card",
+        "tweet_link"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "The first half of July 2026 has been a joyride. Whether it was a genuine green month like usual or merely a bait will become clear during the next market depending if $59k-$60k could hold well or not this time.."
+      }
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/HeartCanHodl/status/2077367644311974163"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_heading",
+        "positions_stack",
+        "allocation_stack",
+        "support_stack",
+        "thesis_stack"
+      ]
+    },
+    "context_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "positions_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "positions_label",
+        "positions_table"
+      ]
+    },
+    "positions_label": {
+      "type": "Text",
+      "props": {
+        "text": "HCH Escalating Bearish Short Basket (Jul 14-15):",
+        "variant": "lead"
+      }
+    },
+    "positions_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Asset",
+          "Change"
+        ],
+        "rows": [
+          [
+            "BTC",
+            "+3%"
+          ],
+          [
+            "ETH",
+            "+2%"
+          ],
+          [
+            "SOL",
+            "+2%"
+          ],
+          [
+            "ZEC",
+            "+1%"
+          ]
+        ]
+      }
+    },
+    "allocation_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "allocation_label",
+        "allocation_badge"
+      ]
+    },
+    "allocation_label": {
+      "type": "Text",
+      "props": {
+        "text": "Target Portfolio Allocation:",
+        "variant": "body"
+      }
+    },
+    "allocation_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "35%"
+      }
+    },
+    "support_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "support_label",
+        "support_badge"
+      ]
+    },
+    "support_label": {
+      "type": "Text",
+      "props": {
+        "text": "Key Support Test:",
+        "variant": "body"
+      }
+    },
+    "support_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "$59k-$60k",
+        "variant": "outline"
+      }
+    },
+    "thesis_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "thesis_text1",
+        "thesis_text2"
+      ]
+    },
+    "thesis_text1": {
+      "type": "Text",
+      "props": {
+        "text": "Frames $59k-$60k as the key test for genuine support vs. false-breakout rug-pull setup.",
+        "variant": "body"
+      }
+    },
+    "thesis_text2": {
+      "type": "Text",
+      "props": {
+        "text": "Aligns with recent 'weakness brewing' / 'exit chance on pump' calls from earlier session.",
+        "variant": "muted"
+      }
+    }
+  }
+}
