@@ -1,0 +1,455 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Token Movers — 2026-07-15"
+      },
+      "children": [
+        "summary-section",
+        "separator-1",
+        "winners-heading",
+        "winners-table",
+        "separator-2",
+        "losers-heading",
+        "losers-table",
+        "separator-3",
+        "trending-heading",
+        "trending-section",
+        "separator-4",
+        "notable-heading",
+        "notable-section"
+      ]
+    },
+    "summary-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "summary-text"
+      ]
+    },
+    "summary-text": {
+      "type": "Text",
+      "props": {
+        "text": "Mild risk-on grind — 74/100 top-100 green, top-50 median +1.7%; BTC +2% ($64.7K), ETH +3.7%, SOL +2%. ZEC leads majors (+11.6%) on the privacy bid; the early GNO/meme pop is fading.",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "winners-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Winners (24h)",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "winners-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Vol/Rank"
+        ],
+        "rows": [
+          [
+            "KAITO",
+            "$0.7845",
+            "+14.2%",
+            "+28.7%",
+            "−2.9%",
+            "$56M / #174"
+          ],
+          [
+            "XEC (eCash)",
+            "$0.0000067",
+            "+13.3%",
+            "+31.8%",
+            "−0.5%",
+            "$62M / #216"
+          ],
+          [
+            "PUMP (Pump.fun)",
+            "$0.001636",
+            "+12.8%",
+            "+9.8%",
+            "−0.1%",
+            "$133M / #91"
+          ],
+          [
+            "UB (Unibase)",
+            "$0.08563",
+            "+12.6%",
+            "+7.0%",
+            "−0.6%",
+            "$11M / #161"
+          ],
+          [
+            "GNO (Gnosis)",
+            "$124.66",
+            "+11.6%",
+            "+19.7%",
+            "−0.5%",
+            "$18M / #127"
+          ],
+          [
+            "ZEC (Zcash)",
+            "$575.4",
+            "+11.6%",
+            "+23.4%",
+            "+0.7%",
+            "$575M / #14 [MAJOR]"
+          ],
+          [
+            "PI (Pi Network)",
+            "$0.08269",
+            "+11.4%",
+            "−19.3%",
+            "+0.3%",
+            "$27M / #70 [TRENDING+UP]"
+          ],
+          [
+            "CC (Canton)",
+            "$0.1418",
+            "+8.6%",
+            "+11.9%",
+            "+3.3%",
+            "$21M / #21"
+          ]
+        ]
+      },
+      "children": []
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "losers-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Losers (24h)",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "losers-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Vol/Rank"
+        ],
+        "rows": [
+          [
+            "CASHCAT",
+            "$0.1261",
+            "−30.9%",
+            "+17.5%",
+            "+0.5%",
+            "$80M / #225 [TRENDING+DOWN][CAPITULATION]"
+          ],
+          [
+            "M (MemeCore)",
+            "$1.25",
+            "−16.0%",
+            "−7.2%",
+            "+0.2%",
+            "$14M / #47"
+          ],
+          [
+            "DRV (Derive)",
+            "$0.1462",
+            "−12.1%",
+            "+32.5%",
+            "+0.1%",
+            "$7M / #206"
+          ],
+          [
+            "VELVET",
+            "$0.5079",
+            "−9.0%",
+            "+20.1%",
+            "−0.4%",
+            "$14M / #160"
+          ],
+          [
+            "DEXE",
+            "$37.44",
+            "−8.9%",
+            "+31.8%",
+            "−0.8%",
+            "$102M / #44"
+          ],
+          [
+            "CVX (Convex)",
+            "$1.32",
+            "−5.7%",
+            "+12.5%",
+            "+0.4%",
+            "$8M / #231"
+          ],
+          [
+            "BP (Backpack)",
+            "$0.5221",
+            "−5.5%",
+            "−6.8%",
+            "+0.4%",
+            "$3M / #221"
+          ],
+          [
+            "JTO (Jito)",
+            "$0.6234",
+            "−5.3%",
+            "+0.4%",
+            "+0.6%",
+            "$40M / #131"
+          ]
+        ]
+      },
+      "children": []
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "trending-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "trending-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "trend-1",
+        "trend-2",
+        "trend-3",
+        "trend-4",
+        "trend-5",
+        "trend-6",
+        "trend-7"
+      ]
+    },
+    "trend-1": {
+      "type": "Text",
+      "props": {
+        "text": "1. PENGU (Pudgy Penguins) — #118, $0.006151, +6.3%"
+      },
+      "children": []
+    },
+    "trend-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "trend-2-text",
+        "trend-2-badge"
+      ]
+    },
+    "trend-2-text": {
+      "type": "Text",
+      "props": {
+        "text": "2. PI (Pi Network) — #70, $0.0827, +12.9%"
+      },
+      "children": []
+    },
+    "trend-2-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+UP",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "trend-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "trend-3-text",
+        "trend-3-badge"
+      ]
+    },
+    "trend-3-text": {
+      "type": "Text",
+      "props": {
+        "text": "3. CASHCAT (Cash Cat) — #223, $0.1306, −25.5%"
+      },
+      "children": []
+    },
+    "trend-3-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+DOWN",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "trend-4": {
+      "type": "Text",
+      "props": {
+        "text": "4. LAB — #307, $0.2427, −18.8%"
+      },
+      "children": []
+    },
+    "trend-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "trend-5-text",
+        "trend-5-badge"
+      ]
+    },
+    "trend-5-text": {
+      "type": "Text",
+      "props": {
+        "text": "5. ARROW — #839, $2.143, +52.4%"
+      },
+      "children": []
+    },
+    "trend-5-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "PUMP-RISK",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "trend-6": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "trend-6-text",
+        "trend-6-badge"
+      ]
+    },
+    "trend-6-text": {
+      "type": "Text",
+      "props": {
+        "text": "6. BTC — #1, $64.7K, +2.0%"
+      },
+      "children": []
+    },
+    "trend-6-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "MAJOR",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "trend-7": {
+      "type": "Text",
+      "props": {
+        "text": "7. LIT (Lighter) — #92, $2.566, +1.7%"
+      },
+      "children": []
+    },
+    "separator-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "notable-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "notable-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "notable-arrow",
+        "notable-cashcat",
+        "notable-pi",
+        "notable-session"
+      ]
+    },
+    "notable-arrow": {
+      "type": "Alert",
+      "props": {
+        "title": "ARROW: #839 up +52%",
+        "message": "PUMP-RISK, deep-microcap/illiquid; trending on price, not fundamentals.",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "notable-cashcat": {
+      "type": "Alert",
+      "props": {
+        "title": "CASHCAT: TRENDING+DOWN / CAPITULATION",
+        "message": "−31% on $80M vol (~0.6× mcap), day 3 of unwinding the earlier pump (a +9% winner Jul 13).",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "notable-pi": {
+      "type": "Alert",
+      "props": {
+        "title": "PI: trending + up ~12% but 7d −19%",
+        "message": "relief bounce in a downtrend, not a fresh trend.",
+        "type": "info"
+      },
+      "children": []
+    },
+    "notable-session": {
+      "type": "Alert",
+      "props": {
+        "title": "Session note",
+        "message": "the GNO breakout (+28% earlier today) faded to +11.6%; leadership rotated to KAITO / XEC / ZEC.",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}

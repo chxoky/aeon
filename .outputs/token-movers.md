@@ -1,72 +1,38 @@
 *Token Movers — 2026-07-15*
 
-_Broad risk-on — 76/100 top coins green, top-50 median +1.4%; BTC +3.1% to $64.5K and ETH +4.7% lead, privacy (ZEC) and AI-agent names (GNO, KAITO, VIRTUAL) outrunning the tape._
+_Mild risk-on grind — 74/100 top-100 green, top-50 median +1.7%; BTC +2% ($64.7K), ETH +3.7%, SOL +2%. ZEC leads majors (+11.6%) on the privacy bid; the early GNO/meme pop is fading._
 
 *Top Winners (24h)*
-1. GNO (Gnosis) — $141.24  +27.9% / 7d +35.6% / 1h +22.3%  •  $9.9M / #118  [BREAKOUT]
-2. KAITO — $0.7750  +14.9% / 7d +21.4% / 1h −0.8%  •  $49M / #175
-3. PI (Pi Network) — $0.0844  +13.8% / 7d −18.9% / 1h −0.9%  •  $29M / #70
-4. PUMP (Pump.fun) — $0.001651  +13.1% / 7d +7.7% / 1h +0.4%  •  $118M / #91
-5. SPX (SPX6900) — $0.3832  +10.0% / 7d +1.3% / 1h −1.2%  •  $11M / #123
-6. CC (Canton) — $0.1431  +9.8% / 7d +11.9% / 1h +0.5%  •  $12M / #21
-7. ZEC (Zcash) — $551.41  +8.9% / 7d +14.5% / 1h −1.2%  •  $503M / #14  [MAJOR]
-8. PIEVERSE — $0.7014  +8.9% / 7d +3.8% / 1h +0.4%  •  $6.6M / #170
-9. DCR (Decred) — $13.18  +8.2% / 7d +19.6% / 1h −0.0%  •  $5.2M / #150
-10. VIRTUAL (Virtuals Protocol) — $0.5938  +7.6% / 7d +12.0% / 1h +0.3%  •  $60M / #115
+1. KAITO — $0.7845  +14.2% / 7d +28.7% / 1h −2.9%  •  $56M / #174
+2. XEC (eCash) — $0.0000067  +13.3% / 7d +31.8% / 1h −0.5%  •  $62M / #216
+3. PUMP (Pump.fun) — $0.001636  +12.8% / 7d +9.8% / 1h −0.1%  •  $133M / #91
+4. UB (Unibase) — $0.08563  +12.6% / 7d +7.0% / 1h −0.6%  •  $11M / #161
+5. GNO (Gnosis) — $124.66  +11.6% / 7d +19.7% / 1h −0.5%  •  $18M / #127
+6. ZEC (Zcash) — $575.4  +11.6% / 7d +23.4% / 1h +0.7%  •  $575M / #14  [MAJOR]
+7. PI (Pi Network) — $0.08269  +11.4% / 7d −19.3% / 1h +0.3%  •  $27M / #70  [TRENDING+UP]
+8. CC (Canton) — $0.1418  +8.6% / 7d +11.9% / 1h +3.3%  •  $21M / #21
 
 *Top Losers (24h)*
-1. CASHCAT (Cash Cat) — $0.1218  −37.1% / 7d +9.4% / 1h +6.5%  •  $74M / #228  [TRENDING+DOWN, CAPITULATION]
-2. VELVET — $0.5203  −17.0% / 7d +28.3% / 1h −1.4%  •  $20M / #154  [FADE]
-3. BDX (Beldex) — $0.0863  −12.0% / 7d −4.7% / 1h +2.7%  •  $20M / #90
-4. DEXE (DeXe) — $38.31  −7.3% / 7d +35.5% / 1h +1.3%  •  $91M / #42
-5. JTO (Jito) — $0.6016  −6.4% / 7d −16.0% / 1h −4.1%  •  $39M / #134
-6. EDGE (edgeX) — $0.3943  −6.0% / 7d −10.1% / 1h +0.0%  •  $8M / #212
-7. AWE (AWE Network) — $0.0621  −4.9% / 7d +5.2% / 1h −0.2%  •  $2M / #232
-8. BSV (Bitcoin SV) — $13.44  −4.0% / 7d +0.7% / 1h −3.5%  •  $4.6M / #137
-9. ZANO — $9.54  −3.6% / 7d +10.4% / 1h +0.2%  •  $1.2M / #205
-10. JST (JUST) — $0.0989  −3.2% / 7d +5.1% / 1h −0.0%  •  $28M / #75
-
-_Losers are shallow on a green tape — most majors down under 5%._
+1. CASHCAT — $0.1261  −30.9% / 7d +17.5% / 1h +0.5%  •  $80M / #225  [TRENDING+DOWN][CAPITULATION]
+2. M (MemeCore) — $1.25  −16.0% / 7d −7.2% / 1h +0.2%  •  $14M / #47
+3. DRV (Derive) — $0.1462  −12.1% / 7d +32.5% / 1h +0.1%  •  $7M / #206
+4. VELVET — $0.5079  −9.0% / 7d +20.1% / 1h −0.4%  •  $14M / #160
+5. DEXE — $37.44  −8.9% / 7d +31.8% / 1h −0.8%  •  $102M / #44
+6. CVX (Convex) — $1.32  −5.7% / 7d +12.5% / 1h +0.4%  •  $8M / #231
+7. BP (Backpack) — $0.5221  −5.5% / 7d −6.8% / 1h +0.4%  •  $3M / #221
+8. JTO (Jito) — $0.6234  −5.3% / 7d +0.4% / 1h +0.6%  •  $40M / #131
 
 *Trending*
-1. Pudgy Penguins (PENGU) — #116, $0.006089, 24h +5.3%
-2. Hyperliquid (HYPE) — #10, $67.05, 24h +5.3%
-3. ADI — #73, $6.93, 24h −2.0%
-4. Cash Cat (CASHCAT) — #232, $0.1235, 24h −35.3%  [TRENDING+DOWN]
-5. Lighter (LIT) — #92, $2.54, 24h +6.3%
-6. The Black Bull (ANSEM) — #255, $0.2481, 24h −3.8%
-7. Arrow (ARROW) — #897, $1.88, 24h +22.4%
+1. PENGU (Pudgy Penguins) — #118, $0.006151, +6.3%
+2. PI (Pi Network) — #70, $0.0827, +12.9%  [TRENDING+UP]
+3. CASHCAT (Cash Cat) — #223, $0.1306, −25.5%  [TRENDING+DOWN]
+4. LAB — #307, $0.2427, −18.8%
+5. ARROW — #839, $2.143, +52.4%  [PUMP-RISK]
+6. BTC — #1, $64.7K, +2.0%  [MAJOR]
+7. LIT (Lighter) — #92, $2.566, +1.7%
 
 *Notable*
-• GNO: +27.9% 24h on +35.6% 7d, +22.3% in the last hour — BREAKOUT, sustained not a flash pump (#118).
-• CASHCAT: trending but −37% on volume 0.6× its mcap — CAPITULATION, flushing a recent pump (7d still +9%).
-• ARROW: trending +22% at rank #897 — low-cap, illiquid spike; treat as pump-risk.
-_Broad relief rally — 76/100 top-100 coins green, median +1.4% after soft June CPI; majors lead, ZEC extends its privacy run._
-
-*Top Winners (24h)*
-1. GNO (Gnosis) — $141.8  +28.4% / 7d +36.1% / 1h +22.8%  •  $10M / #118  [BREAKOUT]
-2. KAITO (Kaito) — $0.776  +15.1% / 7d +21.6% / 1h −0.7%  •  $51M / #175
-3. PI (Pi Network) — $0.0844  +13.8% / 7d −18.9% / 1h −0.9%  •  $29M / #70
-4. PUMP (Pump.fun) — $0.001645  +12.7% / 7d +7.3%  •  $118M / #91
-5. SPX (SPX6900) — $0.3833  +10.1% / 7d +1.3%  •  $11M / #123
-6. CC (Canton) — $0.1431  +9.8% / 7d +12.0%  •  $12M / #21  [MAJOR]
-7. ZEC (Zcash) — $551.2  +8.9% / 7d +14.4%  •  $503M / #14  [MAJOR]
-
-*Top Losers (24h)*
-1. CASHCAT — $0.1218  −37.1% / 7d +9.4% / 1h +6.5%  •  $75M / #228  [TRENDING+DOWN][CAPITULATION]
-2. VELVET — $0.5206  −17.0% / 7d +28.4%  •  $20M / #154
-3. BDX (Beldex) — $0.0859  −12.4% / 7d −5.2%  •  $20M / #90
-4. DEXE — $38.65  −6.4% / 7d +36.7%  •  $91M / #42
-5. JTO (Jito) — $0.6019  −6.4% / 7d −15.9%  •  $39M / #134
-
-*Trending*
-1. PENGU (Pudgy Penguins) — #116, $0.00609, 24h +5.3%
-2. HYPE (Hyperliquid) — #10, $67.05, 24h +5.3%
-3. LIT (Lighter) — #92, $2.54, 24h +6.3%
-4. CASHCAT — #232, $0.123, 24h −35.3%  [TRENDING+DOWN]
-5. ADI — #73, $6.93, 24h −2.0%
-
-*Notable*
-• CASHCAT: trending while −37% on 0.6× mcap volume — capitulation/exit, not an entry signal (was +9% winner yesterday).
-• GNO: +28% but only $10M 24h volume and a +22.8% 1h candle — thin and fast; treat the breakout as unconfirmed.
-• ZEC: +8.9% into #14 by mcap and +14% on the week — privacy/ZK bid still intact.
+• ARROW: #839 up +52% — PUMP-RISK, deep-microcap/illiquid; trending on price, not fundamentals.
+• CASHCAT: TRENDING+DOWN / CAPITULATION — −31% on $80M vol (~0.6× mcap), day 3 of unwinding the earlier pump (a +9% winner Jul 13).
+• PI: trending + up ~12% but 7d −19% — relief bounce in a downtrend, not a fresh trend.
+• Session note: the GNO breakout (+28% earlier today) faded to +11.6%; leadership rotated to KAITO / XEC / ZEC.
