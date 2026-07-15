@@ -1,0 +1,94 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_calibration",
+        "sep1",
+        "heading_event",
+        "text_event",
+        "sep2",
+        "heading_message",
+        "text_message",
+        "sep3",
+        "alert_classify"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @t_in_crypto",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Just added x2 BTC volume at 62K (Jul 14, 16:15:38 UTC) — diamond-hand lunar bull thesis active",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_message": {
+      "type": "Heading",
+      "props": {
+        "text": "Message",
+        "level": "h3"
+      }
+    },
+    "text_message": {
+      "type": "Text",
+      "props": {
+        "text": "@Alulim123gmail1 At this moment yes",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_classify": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read? No original context visible, but timing suggests financially related.",
+        "type": "warning"
+      }
+    }
+  }
+}
