@@ -1,0 +1,132 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Real-time trader event calibration"
+      },
+      "children": [
+        "heading-calibration",
+        "text-event",
+        "separator-1",
+        "tweet-quote",
+        "separator-2",
+        "heading-ambiguities",
+        "ambiguity-stack",
+        "separator-3",
+        "alert-classify",
+        "link-view"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text-event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Real-time trader event at 18:04:53 UTC, Jul 15 2026",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "tweet-quote": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Out at 209, little redacted to be trying this if I'm sniping a soxl low"
+      },
+      "children": []
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading-ambiguities": {
+      "type": "Heading",
+      "props": {
+        "text": "Ambiguities",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "ambiguity-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ambiguity-1",
+        "ambiguity-2",
+        "ambiguity-3"
+      ]
+    },
+    "ambiguity-1": {
+      "type": "Text",
+      "props": {
+        "text": "1. \"Out at 209\" — sounds like a position close/profit-take, but SOXL not in documented positions (currently holding $SPY, $EWY/$KOSPI, $LIT)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "ambiguity-2": {
+      "type": "Text",
+      "props": {
+        "text": "2. \"little redacted\" — unclear phrase (typo? intentional opacity?)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "ambiguity-3": {
+      "type": "Text",
+      "props": {
+        "text": "3. \"to be trying this if I'm sniping a soxl low\" — future/conditional phrasing",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert-classify": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Is this a trade-exit signal (5b mirror case), speculation, or commentary? What's your read?",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "link-view": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2077454369386279249"
+      },
+      "children": []
+    }
+  }
+}
