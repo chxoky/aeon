@@ -1,0 +1,51 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "X (Twitter) market insights"
+      },
+      "children": [
+        "tweet-card",
+        "separator-1",
+        "view-link",
+        "analysis-text"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Why SPY over QQQ for the hedge:\n\n1. Dispersion thesis — Low correlation fuels dispersion; thesis is correlation picks up, so just own the cheapest hedges (which is by far SPY)\n\n2. Korea positioning — Did not want to be a passenger to Korea reversal; rather be long it directly\n\n3. Regime analysis — Korea bounce doesn't help SPY much anyway; memory bouncing hurts MAGS and software in this regime"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2077246074503229742"
+      },
+      "children": []
+    },
+    "analysis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Contextualizes existing SPY averaging thesis + EWY/KOSPI long thesis into coherent multi-asset hedging framework.",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
