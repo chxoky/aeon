@@ -1,0 +1,194 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Trading signal calibration and analysis"
+      },
+      "children": [
+        "heading_calib",
+        "sep1",
+        "section_event",
+        "sep2",
+        "section_tweet",
+        "sep3",
+        "section_context",
+        "sep4",
+        "section_positions",
+        "sep5",
+        "section_question"
+      ]
+    },
+    "heading_calib": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @KillaXBT",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator"
+    },
+    "section_event": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h_event",
+        "event_time",
+        "event_prior"
+      ]
+    },
+    "h_event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "event_time": {
+      "type": "Text",
+      "props": {
+        "text": "Trading session, post at 14:44:19 UTC"
+      }
+    },
+    "event_prior": {
+      "type": "Text",
+      "props": {
+        "text": "Prior Delta pattern analysis: 11:34:37 UTC",
+        "variant": "muted"
+      }
+    },
+    "sep2": {
+      "type": "Separator"
+    },
+    "section_tweet": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h_tweet",
+        "tweet"
+      ]
+    },
+    "h_tweet": {
+      "type": "Heading",
+      "props": {
+        "text": "Signal",
+        "level": "h3"
+      }
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "$BTC ✅ https://t.co/gnlhc71xLg"
+      }
+    },
+    "sep3": {
+      "type": "Separator"
+    },
+    "section_context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h_context",
+        "ctx_similar",
+        "ctx_analysis",
+        "ctx_alert"
+      ]
+    },
+    "h_context": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "ctx_similar": {
+      "type": "Text",
+      "props": {
+        "text": "Similar pattern to Jul 14 15:34 post: \"Checkmate. Easy ✅\" (ambiguous then, awaiting clarification)"
+      }
+    },
+    "ctx_analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Checkmark + link suggests confirmation of something: trade execution, structural thesis, or chart update. Content inaccessible."
+      }
+    },
+    "ctx_alert": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "Signal meaning unclear without link content"
+      }
+    },
+    "sep4": {
+      "type": "Separator"
+    },
+    "section_positions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h_positions",
+        "pos_long",
+        "pos_spot",
+        "pos_hedge"
+      ]
+    },
+    "h_positions": {
+      "type": "Heading",
+      "props": {
+        "text": "Current Positions",
+        "level": "h3"
+      }
+    },
+    "pos_long": {
+      "type": "Badge",
+      "props": {
+        "text": "2x swing LONG from 62.6K",
+        "variant": "default"
+      }
+    },
+    "pos_spot": {
+      "type": "Badge",
+      "props": {
+        "text": "Spot",
+        "variant": "default"
+      }
+    },
+    "pos_hedge": {
+      "type": "Badge",
+      "props": {
+        "text": "Active scalp-short hedge (64.8–65.8K ladder entry)",
+        "variant": "secondary"
+      }
+    },
+    "sep5": {
+      "type": "Separator"
+    },
+    "section_question": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Classification",
+        "message": "Unable to classify — what's your read?"
+      }
+    }
+  }
+}
