@@ -1,0 +1,104 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "header-section",
+        "sep1",
+        "event-section",
+        "sep2",
+        "response-section",
+        "sep3",
+        "uncertainty-section"
+      ]
+    },
+    "header-section": {
+      "type": "Text",
+      "props": {
+        "text": "🔍 Calibration — @KillaXBT",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "event-section": {
+      "type": "Heading",
+      "props": {
+        "text": "Event: Response to criticism about his pivot-based strategy",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "response-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "criticism-quote",
+        "response-tweet",
+        "tweet-link"
+      ]
+    },
+    "criticism-quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"Killa, your pivots don't work.\"",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "response-tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "$BTC ... hold my 🍺"
+      },
+      "children": []
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "https://t.co/CbyZgJI8f5",
+        "href": "https://t.co/CbyZgJI8f5"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "uncertainty-section": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify — what's your read?",
+        "message": "URL inaccessible; could be linking chart evidence of scalp-short entry or BTC technical validation.",
+        "type": "warning"
+      },
+      "children": []
+    }
+  }
+}
