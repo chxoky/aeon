@@ -124,5 +124,13 @@
     "total_failures": 0,
     "consecutive_failures": 0,
     "success_rate": 1
+  },
+  "chain:morning-pipeline": {
+    "last_dispatch": "2026-07-15T07:33:03Z",
+    "last_status": "dispatched"
+  },
+  "morning-pipeline": {
+    "last_dispatch": "2026-07-15T07:33:03Z",
+    "last_status": "dispatched"
   }
 }
