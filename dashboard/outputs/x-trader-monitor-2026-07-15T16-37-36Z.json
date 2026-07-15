@@ -1,0 +1,79 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "link-view",
+        "separator",
+        "classification-section"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Yeah it hit my target and I didn't want to flip short\n\nBut then I realized that I put this target +25% ago, with the belief this would be a great area to short"
+      },
+      "children": []
+    },
+    "link-view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2077431305848197611"
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "classification-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-classification",
+        "text-explanation"
+      ]
+    },
+    "badge-classification": {
+      "type": "Badge",
+      "props": {
+        "text": "informational",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text-explanation": {
+      "type": "Text",
+      "props": {
+        "text": "Target hit, reconsidering short conviction",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
