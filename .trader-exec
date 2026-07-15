@@ -1,0 +1,157 @@
+#!/bin/bash
+set -e
+
+var="eyJpZCI6IjIwNzc1MDE4MDQ4OTIzMDM4MTciLCJ1c2VybmFtZSI6InRyYWRpbmdfYXhlIiwidGV4dCI6IknigJltIHNvIGN1cnNlZCBldmVuIG15IGNvdW50ZXJzIGFyZSBjdXJzZWQuXG5cbn4gRHIuIEF4aXVzLiIsImNyZWF0ZWRfYXQiOiJXZWQgSnVsIDE1IDIxOjEzOjIzICswMDAwIDIwMjYiLCJ1cmwiOiJodHRwczovL3guY29tL3RyYWRpbmdfYXhlL3N0YXR1cy8yMDc3NTAxODA0ODkyMzAzODE3IiwibWVkaWEiOltdfQ=="
+
+# Step 1: Decode the event
+EVENT_JSON=$(echo "${var}" | base64 -d 2>/dev/null)
+
+if [ -z "$EVENT_JSON" ]; then
+  echo "X_TRADER_BAD_EVENT: ${var}"
+  exit 1
+fi
+
+echo "=== STEP 1: Event Decoded ==="
+echo "$EVENT_JSON" | jq .
+
+# Extract fields
+ID=$(echo "$EVENT_JSON" | jq -r '.id')
+USERNAME=$(echo "$EVENT_JSON" | jq -r '.username')
+TEXT=$(echo "$EVENT_JSON" | jq -r '.text')
+CREATED_AT=$(echo "$EVENT_JSON" | jq -r '.created_at')
+URL=$(echo "$EVENT_JSON" | jq -r '.url')
+MEDIA=$(echo "$EVENT_JSON" | jq -r '.media')
+
+if [ -z "$TEXT" ]; then
+  echo "X_TRADER_BAD_EVENT: empty text"
+  exit 1
+fi
+
+echo ""
+echo "ID: $ID"
+echo "USERNAME: $USERNAME"
+echo "TEXT: $TEXT"
+echo "URL: $URL"
+echo ""
+
+# Step 2: Check if already seen
+if [ -f "memory/x-trader-seen.txt" ]; then
+  if grep -q "^${ID}$" memory/x-trader-seen.txt; then
+    echo "Already processed this tweet (ID: $ID). Skipping."
+    exit 0
+  fi
+fi
+
+# Step 3: Load context files (if they exist)
+echo "=== STEP 2: Loading Context ==="
+if [ -f "memory/topics/traders.md" ]; then
+  echo "Found traders.md"
+fi
+
+if [ -f "memory/topics/ticker-focus.md" ]; then
+  echo "Found ticker-focus.md"
+fi
+
+if [ -f "memory/topics/active-trades.md" ]; then
+  echo "Found active-trades.md"
+fi
+
+# Step 4: Classify the post
+echo ""
+echo "=== STEP 3: Classification ==="
+
+# HR-1: Test tweets
+if echo "$TEXT" | grep -iq "test"; then
+  echo "CLASSIFICATION: Non-financial (test tweet) → skip"
+  CLASSIFICATION="skip-test-tweet"
+  ALERTED="no"
+else
+  # Check if this is personal action (trade execution)
+  if echo "$TEXT" | grep -Eiq "(just (longed|shorted|sold|bought)|filled my|took profit|added (more|to)|cancelled my order)"; then
+    echo "CLASSIFICATION: Trade Signal (personal action detected)"
+    CLASSIFICATION="trade-action"
+    ALERTED="yes"
+  # Check for informational content
+  elif echo "$TEXT" | grep -Eiq "(price target|level|bullish|bearish|macro|direction|think|setup)"; then
+    echo "CLASSIFICATION: Informational (opinion/level/prediction)"
+    CLASSIFICATION="informational"
+    ALERTED="yes"
+  else
+    echo "CLASSIFICATION: Non-financial or unclear"
+    CLASSIFICATION="unknown"
+    ALERTED="no"
+  fi
+fi
+
+echo "Classification: $CLASSIFICATION"
+echo "Will alert: $ALERTED"
+
+# Step 5: Update memory
+echo ""
+echo "=== STEP 4: Update Memory ==="
+
+mkdir -p memory/logs
+mkdir -p memory/topics
+
+# Append to x-trader-seen.txt
+mkdir -p memory
+echo "$ID" >> memory/x-trader-seen.txt
+
+# Trim if too large
+LINES=$(wc -l < memory/x-trader-seen.txt 2>/dev/null || echo 0)
+if [ "$LINES" -gt 5000 ]; then
+  tail -2000 memory/x-trader-seen.txt > memory/x-trader-seen.tmp && mv memory/x-trader-seen.tmp memory/x-trader-seen.txt
+  echo "Trimmed seen list to 2000 entries"
+fi
+
+# Create log entry
+TODAY="2026-07-15"
+LOG_FILE="memory/logs/${TODAY}.md"
+
+# Create or append to log
+if [ ! -f "$LOG_FILE" ]; then
+  touch "$LOG_FILE"
+fi
+
+cat >> "$LOG_FILE" << EOF
+
+### x-trader-monitor (real-time event)
+- trader: @${USERNAME}
+- tweet_id: ${ID}
+- classification: ${CLASSIFICATION}
+- ticker(s): [unknown]
+- alerted: ${ALERTED}
+- notes: Post from ${USERNAME} - "${TEXT:0:80}..."
+EOF
+
+echo "Log entry appended to $LOG_FILE"
+
+# Step 6: Send notification if needed
+echo ""
+echo "=== STEP 5: Notification ==="
+
+if [ "$ALERTED" = "yes" ]; then
+  if [ "$CLASSIFICATION" = "trade-action" ]; then
+    MSG="🚨 *Trade Signal — @${USERNAME}*
+
+\"${TEXT}\"
+
+[View post](${URL})"
+  else
+    MSG="🐦 *[X] @${USERNAME}*
+
+${TEXT}
+
+[View post](${URL})"
+  fi
+
+  echo "Sending notification:"
+  echo "$MSG"
+  echo ""
+  echo "./notify \"$MSG\""
+else
+  echo "No alert needed - classification: $CLASSIFICATION"
+fi
+
+echo ""
+echo "=== EXECUTION COMPLETE ==="
