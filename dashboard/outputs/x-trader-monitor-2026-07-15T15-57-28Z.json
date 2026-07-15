@@ -1,0 +1,69 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_1",
+        "badge_ticker",
+        "text_past",
+        "text_present",
+        "text_note",
+        "link_1"
+      ]
+    },
+    "heading_1": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h3"
+      }
+    },
+    "badge_ticker": {
+      "type": "Badge",
+      "props": {
+        "text": "$NVDA (explicit watch-list)"
+      }
+    },
+    "text_past": {
+      "type": "Text",
+      "props": {
+        "text": "Past: \"we bought calls for +200% instead [at 193]\""
+      }
+    },
+    "text_present": {
+      "type": "Text",
+      "props": {
+        "text": "Present: \"I am in the arena now at $213\""
+      }
+    },
+    "text_note": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — is this a NEW entry at $213, or current position description?",
+        "variant": "muted"
+      }
+    },
+    "link_1": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2077420713372475393"
+      }
+    }
+  }
+}
