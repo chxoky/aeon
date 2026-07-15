@@ -1,0 +1,46 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet",
+        "link",
+        "separator",
+        "analysis"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "I think the next drop will break through the EMA50 $ZEC"
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/HeartCanHodl/status/2077296217575621031"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Technical opinion on ZEC price structure. HCH holds high-conviction ZEC short; this aligns with existing bearish posture. Context: trading_axe treats ZEC as a risk-on barometer (strength = market health), so this breakdown thesis signals contrarian bearish read on market structure.",
+        "variant": "caption"
+      }
+    }
+  }
+}
