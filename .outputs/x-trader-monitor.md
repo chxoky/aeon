@@ -1,8 +1,7 @@
-🔍 *Calibration — @swarmister*
+🐦 *[X] @HeartCanHodl*
 
-Event: Reply to @Baskitchbrah on Jul 15 08:38:30 UTC
-swarmister: "(Bittex is black, just in case)"
+I'd be concerned if I were long https://t.co/tnmU1OaW2D
 
-Cannot determine if this is a market signal or personal banter. What's your read?
+[View tweet](https://x.com/HeartCanHodl/status/2077346447989870842)
 
-https://x.com/swarmister/status/2077311835783545036
+↳ _Reinforces HCH's escalating bear conviction: 35% portfolio in shorts across BTC/ETH/SOL/ZEC. Weakness brewing, exits available._
