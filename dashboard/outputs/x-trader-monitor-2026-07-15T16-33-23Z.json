@@ -1,0 +1,56 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "tweet_link",
+        "separator",
+        "commentary_text"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Testing the biggest resistance on my chart\n\nBest crypto trader put out a bear post and got a lack of engagement\n\nAnd as per indicator, if we aren't about to begin trending upwards then this says deeper reversion down is imminent"
+      }
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2077429503450902996"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "commentary_text": {
+      "type": "Text",
+      "props": {
+        "text": "Conditional bearish on BTC resistance: aligns with group caution around 60-65K zone (HCH escalating shorts, Killa scalp-short hedge, consensus chop/downside expected).",
+        "variant": "body"
+      }
+    }
+  }
+}
