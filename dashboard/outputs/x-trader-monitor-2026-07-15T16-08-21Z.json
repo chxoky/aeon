@@ -1,0 +1,46 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "badge_qqq",
+        "tweet_card",
+        "link_view",
+        "text_commentary"
+      ]
+    },
+    "badge_qqq": {
+      "type": "Badge",
+      "props": {
+        "text": "$QQQ"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "I'll be pretty annoying if this was the last kiss of 30,000 for a while…"
+      }
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2077423395923198360"
+      }
+    },
+    "text_commentary": {
+      "type": "Text",
+      "props": {
+        "text": "↳ Price-level commentary on QQQ 30K resistance; skepticism about durability aligns with his broader bullish equity stance ($NVDA re-entry on strength).",
+        "variant": "caption"
+      }
+    }
+  }
+}
