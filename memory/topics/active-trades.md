@@ -239,6 +239,20 @@
 - **Context**: t_in_crypto stands alone in the group conviction map (see traders.md regime note: "Structural bulls (Killa, t_in_crypto) vs tactical bears"). Killa is also long (2x swing HTF from 62.6K) but with hedged scalp shorts; t_in_crypto is pure conviction long with ADD into strength/chop (inverse to HCH/Wild_Randomness scalp-short thinking). Pattern suggests belief in structural bottom closer than consensus estimates.
 - **Last update**: 2026-07-14T16:15:38Z (X, fast-path alerted; tweet_id=2077064489598374073)
 
+## Wild_Randomness
+
+### VIX calls — LONG (new entry 2026-07-15)
+- **Status**: AWAITING_APPROVAL — trade signal 5a alert sent, awaiting "approve VIX" confirmation
+- **Entry**: 2026-07-15T15:30:29Z
+- **Instrument**: $VIX calls (December 2031 expiration)
+- **Entry type**: Market order (no limit price specified in tweet)
+- **Position size**: Not disclosed
+- **Exit criterion**: Not specified
+- **Thesis**: Aligns with documented macro/vol thesis: watching "$VIX/$VIXN AI-vol dispersion"; expects "spot up, vol up then broader top" scenario. VIX calls position hedges long equity exposure (SPY averaging-in) against volatility spike/correlation pickup risk.
+- **Execution language**: "Ok buying 2031 VIX calls" — direct first-person execution call, market-order implied
+- **Approval status**: AWAITING KYLE APPROVAL (trade signal 5a alert sent via notify; awaiting "approve VIX" confirmation before mirror on Kraken)
+- **Last update**: 2026-07-15T15:30:29Z (X, tweet_id=2077415514746318933, fast-path alerted via notify)
+
 ---
 
 > Last bootstrapped: 2026-06-25 (discord-trader-monitor real-time event). GOOG (Chase) updated from recent conviction-add; HCH BTC/ETH/SOL position closed near 59k with stated re-entry thesis above 60k.

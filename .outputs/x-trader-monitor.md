@@ -1,10 +1,10 @@
-🐦 *[X] @Wild_Randomness*
+🚨 *Trade Signal — @Wild_Randomness*
 
-imo you're paying up big for the nasdaq vol (skew at 53rd percentile, SPX is single digits)
+**$VIX — BUY — Market order**
 
-If correlation snaps up you're going to wish you just bought the cheapest hedge (SPX), even if NDX draws down more the r:r is far better on spx
+"Ok buying 2031 VIX calls"
 
-Plus nasdaq vol vs spx is at giga highs
+[View post](https://x.com/Wild_Randomness/status/2077415514746318933)
 
 [View tweet](https://x.com/Wild_Randomness/status/2077414181809090673)
 
@@ -16,3 +16,4 @@ And no respect for a scenario where we exit this maximum dispersion regime right
 [View tweet](https://x.com/Wild_Randomness/status/2077414880395641090)
 
 ↳ _Macro sentiment on SPX consolidation risk + hedge value. Aligns with group equity bullish lean + Wild_Randomness's dispersion-trade thesis. Emphasizes current consensus overweighting upside, undervaluing protective puts._
+Reply `approve VIX` to mirror this on Kraken (spot), or ignore to skip.

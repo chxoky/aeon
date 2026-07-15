@@ -1,0 +1,71 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Trade Signal — @Wild_Randomness"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert_vix",
+        "tweet_card",
+        "sep_1",
+        "link_view",
+        "sep_2",
+        "alert_instruction"
+      ]
+    },
+    "alert_vix": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "$VIX — BUY — Market order"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Ok buying 2031 VIX calls"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2077415514746318933"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_instruction": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "Reply `approve VIX` to mirror this on Kraken (spot), or ignore to skip."
+      }
+    }
+  }
+}
