@@ -1,0 +1,326 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor: Calibration",
+        "description": "Market direction analysis — @HeartCanHodl"
+      },
+      "children": [
+        "heading_main",
+        "sep1",
+        "event_section",
+        "sep2",
+        "context_section",
+        "sep3",
+        "sentiment_section",
+        "sep4",
+        "interpretation_section",
+        "sep5",
+        "link_section"
+      ]
+    },
+    "heading_main": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration — @HeartCanHodl",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "event_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event_heading",
+        "event_metadata",
+        "tweet_card"
+      ]
+    },
+    "event_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Event: Reply to @yasu0x1",
+        "level": "h3"
+      }
+    },
+    "event_metadata": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "timestamp",
+        "author"
+      ]
+    },
+    "timestamp": {
+      "type": "Text",
+      "props": {
+        "text": "Posted 12:02:22 UTC",
+        "variant": "caption"
+      }
+    },
+    "author": {
+      "type": "Text",
+      "props": {
+        "text": "@HeartCanHodl",
+        "variant": "body"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "@HeartCanHodl",
+        "text": "Sloppy down road ahead.."
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_heading",
+        "portfolio_alloc",
+        "assets_info",
+        "timeframe"
+      ]
+    },
+    "context_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "portfolio_alloc": {
+      "type": "Stat",
+      "props": {
+        "label": "Portfolio Allocation (Shorts)",
+        "value": "35%"
+      }
+    },
+    "assets_info": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "assets_label",
+        "assets_badges"
+      ]
+    },
+    "assets_label": {
+      "type": "Text",
+      "props": {
+        "text": "Assets:",
+        "variant": "caption"
+      }
+    },
+    "assets_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_btc",
+        "badge_eth",
+        "badge_sol",
+        "badge_zec",
+        "badge_uni"
+      ]
+    },
+    "badge_btc": {
+      "type": "Badge",
+      "props": {
+        "text": "BTC",
+        "variant": "outline"
+      }
+    },
+    "badge_eth": {
+      "type": "Badge",
+      "props": {
+        "text": "ETH",
+        "variant": "outline"
+      }
+    },
+    "badge_sol": {
+      "type": "Badge",
+      "props": {
+        "text": "SOL",
+        "variant": "outline"
+      }
+    },
+    "badge_zec": {
+      "type": "Badge",
+      "props": {
+        "text": "ZEC",
+        "variant": "outline"
+      }
+    },
+    "badge_uni": {
+      "type": "Badge",
+      "props": {
+        "text": "UNI",
+        "variant": "outline"
+      }
+    },
+    "timeframe": {
+      "type": "Text",
+      "props": {
+        "text": "Positions added through Jul 14-15",
+        "variant": "caption"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sentiment_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "sentiment_heading",
+        "sentiment_items"
+      ]
+    },
+    "sentiment_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Recent Posts Emphasis",
+        "level": "h3"
+      }
+    },
+    "sentiment_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sentiment_weakness",
+        "sentiment_exit",
+        "sentiment_bearish",
+        "sentiment_hype"
+      ]
+    },
+    "sentiment_weakness": {
+      "type": "Badge",
+      "props": {
+        "text": "Weakness brewing",
+        "variant": "secondary"
+      }
+    },
+    "sentiment_exit": {
+      "type": "Badge",
+      "props": {
+        "text": "Exit chances",
+        "variant": "secondary"
+      }
+    },
+    "sentiment_bearish": {
+      "type": "Badge",
+      "props": {
+        "text": "Bearish sentiment on HYPE/ZEC",
+        "variant": "secondary"
+      }
+    },
+    "sentiment_hype": {
+      "type": "Text",
+      "props": {
+        "text": "Cryptic reply likely means: \"sloppy consolidation with downside expected ahead\" — aligned with documented thesis",
+        "variant": "caption"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "interpretation_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "interpretation_heading",
+        "interpretation_alert"
+      ]
+    },
+    "interpretation_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Interpretation",
+        "level": "h3"
+      }
+    },
+    "interpretation_alert": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Unable to Classify",
+        "message": "Cannot confirm without seeing @yasu0x1's original message. The brevity and reply-format create ambiguity. Question: Should this be treated as informational bearish sentiment, or does context change the interpretation?"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_label",
+        "tweet_link"
+      ]
+    },
+    "link_label": {
+      "type": "Text",
+      "props": {
+        "text": "View Tweet:",
+        "variant": "caption"
+      }
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/HeartCanHodl/status/20773631407744656969",
+        "href": "https://x.com/HeartCanHodl/status/20773631407744656969"
+      }
+    }
+  }
+}
