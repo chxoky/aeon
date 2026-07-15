@@ -1,0 +1,80 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration — @Wild_Randomness"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "separator-1",
+        "stack-details"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "iykyk https://t.co/EPtjtX{8Q4"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-tweet",
+        "text-time",
+        "text-question"
+      ]
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet on X",
+        "href": "https://x.com/Wild_Randomness/status/2077530720981958771"
+      },
+      "children": []
+    },
+    "text-time": {
+      "type": "Text",
+      "props": {
+        "text": "2026-07-15 23:08:17 UTC",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "text-question": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read? Is this a market signal, chart share, or personal reference?",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
