@@ -127,7 +127,8 @@
   },
   "chain:morning-pipeline": {
     "last_dispatch": "2026-07-15T07:33:03Z",
-    "last_status": "dispatched"
+    "last_status": "failed",
+    "last_failed": "2026-07-15T07:34:16Z"
   },
   "morning-pipeline": {
     "last_dispatch": "2026-07-15T07:33:03Z",
