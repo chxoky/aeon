@@ -1,0 +1,159 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 discord-trader-monitor",
+        "description": "Calibration — [DC: Chase — TradFi]"
+      },
+      "children": [
+        "event-section",
+        "sep1",
+        "message-section",
+        "sep2",
+        "classification-section"
+      ]
+    },
+    "event-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event-heading",
+        "event-body"
+      ]
+    },
+    "event-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "event-body": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "user-badge",
+        "event-text"
+      ]
+    },
+    "user-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "crypto_chase",
+        "variant": "outline"
+      }
+    },
+    "event-text": {
+      "type": "Text",
+      "props": {
+        "text": "posted standalone message in supporting channel",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "message-heading",
+        "message-content"
+      ]
+    },
+    "message-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Message",
+        "level": "h3"
+      }
+    },
+    "message-content": {
+      "type": "Alert",
+      "props": {
+        "message": "hopefully tho",
+        "type": "info"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "classification-heading",
+        "classification-prompt",
+        "classification-options"
+      ]
+    },
+    "classification-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Classification",
+        "level": "h3"
+      }
+    },
+    "classification-prompt": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "lead"
+      }
+    },
+    "classification-options": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "option1",
+        "option2",
+        "option3"
+      ]
+    },
+    "option1": {
+      "type": "Text",
+      "props": {
+        "text": "Hope for bullish move?",
+        "variant": "body"
+      }
+    },
+    "option2": {
+      "type": "Text",
+      "props": {
+        "text": "Sentiment on existing positions?",
+        "variant": "body"
+      }
+    },
+    "option3": {
+      "type": "Text",
+      "props": {
+        "text": "Reference to prior channel discussion?",
+        "variant": "body"
+      }
+    }
+  }
+}
