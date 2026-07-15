@@ -1,0 +1,151 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — [DC: HCH — Comments]",
+        "description": "discord-trader-monitor | 2026-07-15 11:56:08 UTC"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_event",
+        "sep1",
+        "section_link",
+        "sep2",
+        "section_context",
+        "sep3",
+        "alert_classification"
+      ]
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: HCH just posted a bare X link with no explanation or context in the Comments channel.",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_link": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_username",
+        "link_x"
+      ]
+    },
+    "text_username": {
+      "type": "Text",
+      "props": {
+        "text": "heartcanhodl:"
+      }
+    },
+    "link_x": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/i/status/2077361319410614281",
+        "href": "https://x.com/i/status/2077361319410614281"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_context",
+        "text_context_intro",
+        "stack_activities"
+      ]
+    },
+    "heading_context": {
+      "type": "Heading",
+      "props": {
+        "text": "Recent Activity (Last 45 minutes)",
+        "level": "h3"
+      }
+    },
+    "text_context_intro": {
+      "type": "Text",
+      "props": {
+        "text": "Within the last 45 minutes, HCH has shared:"
+      }
+    },
+    "stack_activities": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_activity_ema",
+        "text_activity_bearish",
+        "text_activity_technical",
+        "text_activity_philosophical"
+      ]
+    },
+    "text_activity_ema": {
+      "type": "Text",
+      "props": {
+        "text": "• Educational EMA content"
+      }
+    },
+    "text_activity_bearish": {
+      "type": "Text",
+      "props": {
+        "text": "• Bearish sentiment on HYPE/ZEC"
+      }
+    },
+    "text_activity_technical": {
+      "type": "Text",
+      "props": {
+        "text": "• Technical analysis on SKHynix"
+      }
+    },
+    "text_activity_philosophical": {
+      "type": "Text",
+      "props": {
+        "text": "• Philosophical commentary on thesis methodology"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Is this a financial signal, educational share, or off-topic content?",
+        "type": "warning"
+      }
+    }
+  }
+}
