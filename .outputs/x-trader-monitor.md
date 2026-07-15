@@ -1,18 +1,11 @@
 🔍 *Calibration — @HeartCanHodl*
+🚨 *Trade Signal — @HeartCanHodl*
 
-I've completed execution of the x-trader-monitor skill for the KillaXBT event received on 2026-07-15 12:49:24 UTC.
+ETH — SHORT
 
-**Event Details:**
-- **Trader**: @KillaXBT
-- **Tweet ID**: 2077374973371400620
-- **Content**: BTC statistical pattern analysis — 12-month history shows July derisks often occur, with only one April outlier
-- **Classification**: **INFORMATIONAL** (market sentiment observation, not personal trade action)
+"I am now short eth  👀🔨"
 
-**Rationale:**
-- No first-person execution language ("I just longed", "I placed an order", etc.)
-- Purely analytical framing ("If we follow...", "would likely...")
-- No trade signal to mirror
-- Ticker focus: BTC (overlap, highest priority)
+https://x.com/HeartCanHodl/status/2077376419521507490
 
 **Memory Updated:**
 - ✅ `x-trader-seen.txt`: Added tweet ID 2077374973371400620 for dedup tracking
@@ -29,3 +22,4 @@ Context: Escalating short basket (35% portfolio); just added 2% HYPE + 2% SOL sh
 Unable to classify — what's your read?
 
 [View tweet](https://x.com/HeartCanHodl/status/2077375209741353443)
+Reply `approve ETH` to mirror this on Kraken (spot), or ignore to skip.

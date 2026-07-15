@@ -1,0 +1,87 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Trade Signal — @HeartCanHodl"
+      },
+      "children": [
+        "alert-signal",
+        "separator-1",
+        "content-stack"
+      ]
+    },
+    "alert-signal": {
+      "type": "Alert",
+      "props": {
+        "title": "🚨 ETH — SHORT",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "content-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "separator-2",
+        "action-stack"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "@HeartCanHodl",
+        "text": "I am now short eth 👀🔨"
+      },
+      "children": []
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "action-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-tweet",
+        "text-action"
+      ]
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View Tweet",
+        "href": "https://x.com/HeartCanHodl/status/2077376419521507490"
+      },
+      "children": []
+    },
+    "text-action": {
+      "type": "Text",
+      "props": {
+        "text": "Reply `approve ETH` to mirror this on Kraken (spot), or ignore to skip.",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
