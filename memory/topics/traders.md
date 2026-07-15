@@ -122,7 +122,7 @@
 - Current open positions: No explicit sized position — intraday BTC/ETH trader, long-biased.
 - Recent thesis: Bullish lean ("bears are being abused," "Go up"). BTC posts daily H1/H4 structure updates; Jul 13 at a global POC with an EQH formed, waiting for LTF reversal patterns. ETH "structure looks clean," dismissive of ETH longs earlier in window. Trades intraday around volume clusters. (Based in Moscow; lots of off-topic personal/gym content.)
 - Conviction notes: Technical (volume profile / clusters / POC), publishes game plans with invalidations. Signal is in the "$BTC Daily Update" posts.
-- Last seen: 2026-07-15 14:26:30 UTC
+- Last seen: 2026-07-15 15:44:54 UTC
 - **Events log:**
   - Jul 14 07:33 — informational (bullish sentiment / DCA plan) — "I agree with @ryzzqq and @Trade17 that we've hit the local low for the month; I plan to build up long positions over the next couple of days" — BTC, convergence with KillaXBT/t_in_crypto bullish bias
   - Jul 14 07:48 — skip (non-financial) — "@wasmynme @ryzzcqq @Trade17 :3 \n\nTo you too" — personal response, no signal
@@ -164,6 +164,7 @@
   - Jul 15 14:13:16 UTC — skip (non-financial/personal mention) — "@toplonging @blancxbt https://t.co/tZMez6V6bc" — Minimal personal mention with shortened URL and no context/caption. No ticker, no price level, no execution language. Pattern consistent with swarmister's extensive social-banter posting style throughout 07-15. HR-1 category A classification (non-financial). Silent log, no alert (tweet_id=2077396081978036588)
   - Jul 15 14:18:45 UTC — skip (non-financial / personal banter) — "@cz_binance Those retards forgot to mention the profits (the real ones, the ones from market manipulation)\n\nShut up" — Criticism of CZ/Binance directed at exchange CEO. Personal banter/insult language with no market signal, trade action, thesis, or ticker mention. HR-1 category A classification (non-financial). Silent log, no alert (tweet_id=2077397459492278662)
   - Jul 15 14:25:48 UTC — skip (non-financial / personal safety commentary) — "@pierre_crypt0 wtf \n\nMan, hail like that can literally kill someone \n\nPark your car under a carport and be careful" — Personal safety advice regarding weather/hail. No financial signal, no ticker, no market opinion, no trade action. Pure personal life/weather commentary (HR-1 category A: non-financial). Silent log, no alert (tweet_id=2077399235503222878)
+  - Jul 15 15:44:54 UTC — skip (non-financial / personal banter) — "@AlucardTrades @kaledora Woman in crypto.. oh." — Personal social comment with dismissive tone. No financial signal, no ticker, no market opinion. Pure personal interaction/banter. HR-1 category A (non-financial). Silent log, no alert. (tweet_id=2077419143075152009)
 
 ## bull_genius (marmot)
 - Platforms: X
