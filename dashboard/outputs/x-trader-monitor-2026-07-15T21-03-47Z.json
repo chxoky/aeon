@@ -1,0 +1,79 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading_calib",
+        "stack_content"
+      ]
+    },
+    "heading_calib": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @swarmister",
+        "level": "h2"
+      }
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_event",
+        "separator1",
+        "tweet_card",
+        "separator2",
+        "text_interpretation",
+        "link_post"
+      ]
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: 2026-07-15 21:00:36 UTC",
+        "variant": "caption"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "@FalconyFalcon If…"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_interpretation": {
+      "type": "Text",
+      "props": {
+        "text": "Message is truncated/cryptic with no financial context visible. Unable to classify — what's your read?",
+        "variant": "body"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/swarmister/status/2077498589702434817"
+      }
+    }
+  }
+}
