@@ -1,0 +1,56 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "tweet-link",
+        "separator-1",
+        "analysis-text"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "@DanielFellow @Taiki-Maeda2 \"Shorts looking lucrative\""
+      }
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/HeartCanHodl/status/2077377985720758655",
+        "href": "https://x.com/HeartCanHodl/status/2077377985720758655"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis-text": {
+      "type": "Text",
+      "props": {
+        "text": "HCH reinforcing bearish thesis: BTC short targets at 60.8K/59.3K just posted; added HYPE/SOL shorts earlier; session escalation continuing (35% portfolio in shorts achieved earlier today).",
+        "variant": "lead"
+      }
+    }
+  }
+}

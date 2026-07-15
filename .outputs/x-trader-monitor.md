@@ -1,7 +1,6 @@
-🔍 *Calibration — @HeartCanHodl*
-🚨 *Trade Signal — @HeartCanHodl*
+🐦 *[X] @HeartCanHodl*
 
-ETH — SHORT
+@DanielFellow @Taiki-Maeda2 "Shorts looking lucrative" https://x.com/HeartCanHodl/status/2077377985720758655
 
 "I am now short eth  👀🔨"
 
@@ -38,3 +37,4 @@ Executed X Trader Monitor skill for real-time tweet event from @swarmister (12:5
 ✅ No notification sent (non-financial per HR-1 rules)
 
 The event matches swarmister's established pattern of frequent non-financial social posts throughout the session (12+ similar posts today with no market signals or execution language).
+↳ _HCH reinforcing bearish thesis: BTC short targets at 60.8K/59.3K just posted; added HYPE/SOL shorts earlier; session escalation continuing (35% portfolio in shorts achieved earlier today)._
