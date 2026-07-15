@@ -1,24 +1,19 @@
-Heartbeat run complete.
+All heartbeat checks complete. Nothing needs a notification — the fleet is healthy and the one nominal flag was a stale, already-notified, recovered artifact.
 
 ## Summary
 
-Executed the **heartbeat** skill (2026-07-15 14:28 UTC — the 14:00 scheduled run). All priority checks ran; the only flag is a **deduped** carryover, so **no notification was sent**.
+Ran the **heartbeat** skill (20:00 UTC run) for 2026-07-15. Verdict: **HEARTBEAT_OK · STATUS_PAGE=OK** — no notification sent.
 
-**Findings by tier:**
-- **P0 — Failed/stuck skills:** `chain:morning-pipeline` still carries `last_status=failed` (07:34 UTC) in cron-state — but this was already flagged and notified in the 09:33 UTC heartbeat today, so per the dedup rule (item within last 48h of logs) **no duplicate alert was sent**. Its constituent skills are healthy: `token-movers` (12:51 UTC) and `token-alert` (12:43 UTC) ran green today; the failure is confined to the `chain-runner.yml` wrapper. No new failures; heartbeat self-check OK (~5h). `price-threshold-alert` 50% but total_runs=2 (<5, not chronic).
-- **P0 — X webhook rule (ISS-002 guard):** `WATCHED_TRADERS` LIVE via secretcurl — `is_effect:1`, all 12 accounts, 180s interval. Healthy → **ISS-002 stays resolved, no re-open**.
-- **P1:** 0 open PRs; repo issues disabled.
-- **P2:** No flagged memory follow-ups.
-- **P3:** All enabled skills succeeded <48h ago; none exceed 2× their interval.
-
-**Overall verdict:** 🔴 DEGRADED (sole signal = the already-notified chain-wrapper failure).
+**Checks performed:**
+- **P0 failed/stuck skills:** All 7 enabled skills succeeded today (token-alert, token-movers, market-context-refresh, narrative-tracker, skill-health, heartbeat, morning-brief-via-chain). No stuck, degraded (`consecutive_failures ≥ 3`), or chronic (`success_rate < 0.5`, `runs ≥ 5`) skills. Heartbeat self-check fresh.
+  - `chain:morning-pipeline` shows `last_status: failed` (07:34 wrapper exit-1), but the `morning-pipeline` result row **succeeded the same run at 07:47**, and skill-health independently classified the fleet healthy (0 critical/0 degraded) at 18:38. Stale one-shot orchestration artifact, already flagged in the 08:00 & 14:00 heartbeats → deduped, no new notify.
+- **P0 X webhook (ISS-002 guard):** `WATCHED_TRADERS` rule active (`is_effect:1`, all 12 accounts, 180s interval). ISS-002 stays resolved.
+- **P1/P2/P3:** 0 open PRs, no urgent issues, no flagged memory items, no missing/stale scheduled skills.
 
 **Files modified:**
-- `docs/status.md` — regenerated (Overall 🔴 DEGRADED, Updated 14:28 UTC, Open issues 0, Next run: skill-health at 18:00 UTC; refreshed skill-health table with today's runs). Token Pulse omitted (no `articles/token-report-*.md` exists).
-- `memory/logs/2026-07-15.md` — appended heartbeat log entry (`STATUS_PAGE=DEGRADED`).
+- `docs/status.md` — regenerated. Overall flipped **🔴 DEGRADED → 🟢 OK** (no actual enabled skill failed; the chain-wrapper artifact no longer drives the verdict). Next run: morning-brief 07:00 UTC. Token Pulse section omitted (no `articles/token-report-*.md` exists).
+- `memory/logs/2026-07-15.md` — appended heartbeat run entry.
 
-**Notification:** none — sole flag deduped against the 09:33 UTC alert.
+**Follow-up:** None required now. Watch tomorrow's 07:00 UTC `chain-runner` execution — if the wrapper exit-1 at Step 1/2 recurs, it's a real orchestration bug worth filing as an issue (currently a single non-recurring event).
 
-**Follow-up:** The `chain-runner.yml` orchestration wrapper failure (run-ID discovery / parallel dispatch) is a standing issue worth a fix — it's cosmetic to the fleet (skills deliver on re-run) but keeps the status page pinned DEGRADED. No issue is filed for it yet (heartbeat doesn't file); a `skill-repair`/`skill-health` pass could formalize it.
-
-The `docs/status.md` and log land on `main` via the workflow's auto-commit step — no manual git needed.
+The workflow's auto-commit step will push `docs/status.md` and the log to `main`.
