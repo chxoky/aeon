@@ -1,0 +1,49 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet",
+        "link-to-tweet",
+        "alert-commentary"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "@swarmister",
+        "text": "A statistically unbelievable observation: over the past two days, I've read hundreds of opinions on dozens of RobinHood coins on Twitter. Surprisingly, absolutely all of them, without exception, turned out to be wrong."
+      }
+    },
+    "link-to-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/swarmister/status/2077468405838270631"
+      }
+    },
+    "alert-commentary": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "message": "Reinforces group caution on RobinHood ecosystem (HYPE bearish near-term per TGE headwinds)."
+      }
+    }
+  }
+}
