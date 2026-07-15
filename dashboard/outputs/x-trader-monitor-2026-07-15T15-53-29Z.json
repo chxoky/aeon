@@ -1,0 +1,49 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "➕ Conviction Add — @Wild_Randomness"
+      },
+      "children": [
+        "content-stack"
+      ]
+    },
+    "content-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "post-link",
+        "cta-text"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "$NVDA — Wild_Randomness just added to their position at $213 open.\n\n\"Got what I wanted— a pop at the open above 213. Was able to double the position. Inval remains $215 weekly close.\""
+      }
+    },
+    "post-link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2077419864185323597"
+      }
+    },
+    "cta-text": {
+      "type": "Text",
+      "props": {
+        "text": "Want to add to your position too?",
+        "variant": "lead"
+      }
+    }
+  }
+}

@@ -253,6 +253,20 @@
 - **Approval status**: AWAITING KYLE APPROVAL (trade signal 5a alert sent via notify; awaiting "approve VIX" confirmation before mirror on Kraken)
 - **Last update**: 2026-07-15T15:30:29Z (X, tweet_id=2077415514746318933, fast-path alerted via notify)
 
+### NVDA — LONG (EQUITY) — CONVICTION ADD (2026-07-15)
+- **Status**: ACTIVE — conviction add executed, awaiting Kyle's decision to add to his own position
+- **Entry**: 2026-07-15T15:47:46Z — "Was able to double the position"
+- **Entry level**: $213 (market open pop)
+- **Entry type**: Market-filled at market open above $213 resistance
+- **Position action**: CONVICTION ADD (doubled existing position; not fresh new entry)
+- **Exit criteria**: Hard stop at $215 weekly close (invalidation level); price action contingent on daily bearish divergence formation
+- **Thesis**: Mean-reversion vol play using pattern recognition: "chart looks good today = chart looks bad tomorrow". Trader expecting near-term pullback after this pop before longer-term structure reassessment. Position aligned with $NVDA watching for weakness back into prior levels.
+- **Execution language**: "Got what I wanted— a pop at the open above 213. Was able to double the position." — first-person past-tense execution confirmation; market order filled at market open
+- **Context**: Wild_Randomness previously held July calls on NVDA (TP'd), was sidelined. This is a fresh entry into NVDA equities with opposite tactical bias (long on pop vs. prior short vol via puts on Jul 14). Re-entry reflects tactical reversal play on specific price structure ($213 pop → expect pull back to lock in div). $NVDA is on Kyle's explicit watch list (prior context: chart constructive into resistance).
+- **Conviction**: MEDIUM-HIGH — explicit entry language ("Got what I wanted"), willingness to double position, defined invalidation level
+- **Approval status**: CONVICTION ADD SIGNAL SENT (Step 5d alert format: "Want to add to your position too?" awaiting Kyle's response on whether to mirror)
+- **Last update**: 2026-07-15T15:47:46Z (X, tweet_id=2077419864185323597, fast-path alerted via notify)
+
 ---
 
 > Last bootstrapped: 2026-06-25 (discord-trader-monitor real-time event). GOOG (Chase) updated from recent conviction-add; HCH BTC/ETH/SOL position closed near 59k with stated re-entry thesis above 60k.

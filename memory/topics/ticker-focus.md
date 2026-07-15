@@ -12,7 +12,7 @@
 
 ## Kyle's explicit watch list
 - $HYPE — see overlap above (bearish/cautious near-term; Chase & Wild watching bid zones).
-- $NVDA (traded as $NVDL on Kraken) — Wild_Randomness ran July calls, took profit, now sidelined; chart still constructive into resistance.
+- $NVDA (traded as $NVDL on Kraken) — Wild_Randomness ran July calls (TP'd, sidelined), re-entered equity position on Jul 15 15:47 with strength above $213 open (doubled position); invalidation at $215 weekly close; pattern: "chart looks good today = chart looks bad tomorrow" bet on mean reversion. Kyle's watch list ticker.
 - $Gold (normalize: $GC, $XAUUSD, $GLD, $GOLD, $XAU → treat as one) — Crypto_Chase interested ~3,820 (watching PA before bidding).
 
 ## Quiet tickers (single-trader mentions, tracked silently)
