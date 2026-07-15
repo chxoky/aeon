@@ -1,0 +1,74 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "content-stack"
+      ]
+    },
+    "content-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ticker-badge",
+        "tweet-card",
+        "tweet-link",
+        "separator-1",
+        "context-section"
+      ]
+    },
+    "ticker-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "$BTC",
+        "variant": "secondary"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "Momentum is already shifting away from aggressive selling.\n\nWe saw the capitulation wick at $60K (aggressive red selling), and now the market is forming a bottom.\n\nBears have 2 months left."
+      }
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2077511309101297714"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context-text"
+      ]
+    },
+    "context-text": {
+      "type": "Text",
+      "props": {
+        "text": "This confirms Killa's known HTF-bullish thesis (expects chop and final capitulation wick marking bottom; structural long from 62.6K unchanged).",
+        "variant": "body"
+      }
+    }
+  }
+}
