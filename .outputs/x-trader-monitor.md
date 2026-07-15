@@ -1,13 +1,11 @@
-🐦 *[X] @KillaXBT*
+🐦 *[X] @Stoiiic*
 
-$BTC 
+Don't remember the last time I posted an ETH chart.
 
-Momentum is already shifting away from aggressive selling. 
+BUT, just stopping by to say that in the interim this is pressing up against a lot of friction from here on out into the 2100s.
 
-We saw the capitulation wick at $60K (aggressive red selling), and now the market is forming a bottom. 
+90d rolling, prev month high and prior consolidation value before the breakdown.
 
-Bears have 2 months left.
+[View tweet](https://x.com/Stoiiic/status/2077514744924446994)
 
-[View tweet](https://x.com/KillaXBT/status/2077511309101297714)
-
-↳ _This confirms Killa's known HTF-bullish thesis (expects chop and final capitulation wick marking bottom; structural long from 62.6K unchanged)._
+_ETH resistance confluence: 90-day rolling, previous month high, prior consolidation — structural friction expected into 2100s zone._
