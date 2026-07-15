@@ -1,17 +1,9 @@
-🐦 *[X] @Wild_Randomness*
+🐦 *[X] @Stoiiic*
 
-$QQQ
+Statistical observation on weekly BTC price structure:
 
-I'll be pretty annoying if this was the last kiss of 30,000 for a while…
+Up to 60% of the lows are in ~23 hrs after weekly open and up to 80% of the lows are in by 2d and 11 hours — explained through price's advertising mechanism for discounts + time development of highs through rest of week.
 
-[View tweet](https://x.com/Wild_Randomness/status/2077423395923198360)
+[View post](https://x.com/Stoiiic/status/2077426175127789975)
 
-[View post](https://x.com/Stoiiic/status/2077421950155002218)
-🐦 *[X] @Wild_Randomness*
-
-$QQQ
-
-I should add that I no longer have my calls from previous post, sold them last week
-
-Just observing interplay with the POC here https://t.co/lzSftacID3
-↳ Price-level commentary on QQQ 30K resistance; skepticism about durability aligns with his broader bullish equity stance ($NVDA re-entry on strength).
+↳ *Convergence:* validates Stoiiic's documented weekly pivot thesis (60–62K crucial, low timing aligns with 80% by Wednesday pattern).

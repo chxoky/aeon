@@ -1,0 +1,69 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Weekly BTC Price Structure"
+      },
+      "children": [
+        "tweet_stoiiic",
+        "view_post_link",
+        "separator_1",
+        "convergence_section"
+      ]
+    },
+    "tweet_stoiiic": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "@Stoiiic",
+        "text": "Statistical observation on weekly BTC price structure:\n\nUp to 60% of the lows are in ~23 hrs after weekly open and up to 80% of the lows are in by 2d and 11 hours — explained through price's advertising mechanism for discounts + time development of highs through rest of week."
+      },
+      "children": []
+    },
+    "view_post_link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Stoiiic/status/2077426175127789975"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "convergence_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "convergence_badge",
+        "convergence_text"
+      ]
+    },
+    "convergence_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Convergence",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "convergence_text": {
+      "type": "Text",
+      "props": {
+        "text": "Validates Stoiiic's documented weekly pivot thesis (60–62K crucial, low timing aligns with 80% by Wednesday pattern).",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
