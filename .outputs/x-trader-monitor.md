@@ -11,3 +11,14 @@ Expanding the futures universe to more exotic markets improved the results, and 
 When it comes to rebalancing, trading less usually helps, mostly by saving on costs and avoiding whipsaws. Weekly was best in equities and monthly in futures. Crypto was the exception, where daily still won, which again fits it being the youngest and fastest market.
 
 [View tweet](https://x.com/abetrade/status/2077388668109496451)
+🔍 *Calibration — @Wild_Randomness*
+
+Event: Cryptic 2-line post about $ETH
+
+Post: "$ETH
+
+Ahead of schedule https://t.co/rZHTQR0gSr"
+
+Unable to classify — what's your read? (Is this a personal position update, a market observation, or external reference?)
+
+[View post](https://x.com/Wild_Randomness/status/2077389940871376957)
