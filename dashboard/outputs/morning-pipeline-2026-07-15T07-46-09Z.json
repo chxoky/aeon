@@ -1,0 +1,179 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-07-15"
+      },
+      "children": [
+        "heading_focus",
+        "stack_focus",
+        "sep1",
+        "heading_yesterday",
+        "stack_yesterday",
+        "sep2",
+        "heading_watch",
+        "text_watch",
+        "sep3",
+        "heading_running",
+        "table_running"
+      ]
+    },
+    "heading_focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus Today",
+        "level": "h2"
+      }
+    },
+    "stack_focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_focus_1",
+        "text_focus_2",
+        "text_focus_3"
+      ]
+    },
+    "text_focus_1": {
+      "type": "Text",
+      "props": {
+        "text": "1. June PPI @ 8:30am ET — why now: confirms or breaks yesterday's soft-CPI relief rally (BTC $64.5K)"
+      }
+    },
+    "text_focus_2": {
+      "type": "Text",
+      "props": {
+        "text": "2. HeartCanHodl short basket exposed — why now: $113M BTC shorts liquidated in the squeeze; PPI decides covering"
+      }
+    },
+    "text_focus_3": {
+      "type": "Text",
+      "props": {
+        "text": "3. Confirm scheduler fleet fires cleanly today — why now: first full scheduled day since the Jun 8 dormancy"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_yesterday": {
+      "type": "Heading",
+      "props": {
+        "text": "Since Yesterday",
+        "level": "h2"
+      }
+    },
+    "stack_yesterday": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_yesterday_1",
+        "text_yesterday_2",
+        "text_yesterday_3",
+        "text_yesterday_4"
+      ]
+    },
+    "text_yesterday_1": {
+      "type": "Text",
+      "props": {
+        "text": "Fleet live again: scheduler re-enabled Jul 14; this 07:00 brief is the first scheduled run since Jun 8"
+      }
+    },
+    "text_yesterday_2": {
+      "type": "Text",
+      "props": {
+        "text": "ISS-002 resolved: Worker webhook payload-shape + KV dedup fixed (PR #9/#10), real X events flowed all day"
+      }
+    },
+    "text_yesterday_3": {
+      "type": "Text",
+      "props": {
+        "text": "Market: soft June CPI (3.5% vs 3.8% est) sparked relief rally, BTC $61.6K→$64.5K, $376M liquidations"
+      }
+    },
+    "text_yesterday_4": {
+      "type": "Text",
+      "props": {
+        "text": "Stuck on Kyle: t_in_crypto↔Stefan_B_Trades calibration ping open since Jul 14 18:54 UTC"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "text_watch": {
+      "type": "Text",
+      "props": {
+        "text": "June PPI est −0.1% MoM — a hot wholesale print reopens the inflation debate CPI just cooled → threatens the $64K reclaim (focus #1)"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running Today (UTC)",
+        "level": "h2"
+      }
+    },
+    "table_running": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Skill",
+          "Time (UTC)"
+        ],
+        "rows": [
+          [
+            "heartbeat",
+            "08:00 / 14:00 / 20:00"
+          ],
+          [
+            "token-alert",
+            "12:00"
+          ],
+          [
+            "token-movers",
+            "12:00"
+          ],
+          [
+            "market-context-refresh",
+            "13:00"
+          ],
+          [
+            "narrative-tracker",
+            "13:30"
+          ],
+          [
+            "skill-health",
+            "18:00"
+          ]
+        ]
+      }
+    }
+  }
+}
