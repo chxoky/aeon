@@ -1,9 +1,7 @@
-🔍 *Calibration — @Stoiiic*
+🐦 *[X] @Wild_Randomness*
 
-Event: cryptic reply to @BigTrout300
+$EWY / $KOSPI — Korea bottom thesis update
 
-@Stoiiic: "the truth"
+Less than 24 hours after entering their 6800–7100 bid zone, a +15% bounce has developed. Wild_Randomness targets take-profit at 7800–8100 on KOSPI.
 
-Cannot classify — what's your read? Context: Stoiiic is order-flow/market-structure analyst; recent posts include "are we actually back?!" and "bumpy road but back in the mix" (structural commentary pattern).
-
-[View post](https://x.com/Stoiiic/status/2077219937593253919)
+[View post](https://x.com/Wild_Randomness/status/2077238411522416952)
