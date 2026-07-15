@@ -1,0 +1,140 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "calibration-badge",
+        "event-type",
+        "separator-1",
+        "quote-section",
+        "separator-2",
+        "classification-section",
+        "link-view"
+      ]
+    },
+    "calibration-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "🔍 Calibration — @Stoiiic",
+        "variant": "default"
+      }
+    },
+    "event-type": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Philosophical/methodological statement on analytical approach",
+        "variant": "muted"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "quote-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "quote-author",
+        "quote-text"
+      ]
+    },
+    "quote-author": {
+      "type": "Text",
+      "props": {
+        "text": "Stoiiic:",
+        "variant": "lead"
+      }
+    },
+    "quote-text": {
+      "type": "Text",
+      "props": {
+        "text": "\"Statistical data combined w/ contextual real-time behavior is where it's at.\"",
+        "variant": "body"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "classification-question",
+        "options-stack"
+      ]
+    },
+    "classification-question": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "lead"
+      }
+    },
+    "options-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "option-1",
+        "option-2",
+        "option-3"
+      ]
+    },
+    "option-1": {
+      "type": "Badge",
+      "props": {
+        "text": "Non-financial philosophy",
+        "variant": "outline"
+      }
+    },
+    "option-2": {
+      "type": "Badge",
+      "props": {
+        "text": "Market methodology comment",
+        "variant": "outline"
+      }
+    },
+    "option-3": {
+      "type": "Badge",
+      "props": {
+        "text": "Subtle signal?",
+        "variant": "outline"
+      }
+    },
+    "link-view": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Stoiiic/status/2077421950155002218"
+      }
+    }
+  }
+}
