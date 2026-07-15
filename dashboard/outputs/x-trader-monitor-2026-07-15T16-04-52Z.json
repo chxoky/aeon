@@ -1,0 +1,33 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet-card",
+        "link-poc"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "$QQQ\n\nI should add that I no longer have my calls from previous post, sold them last week\n\nJust observing interplay with the POC"
+      },
+      "children": []
+    },
+    "link-poc": {
+      "type": "Link",
+      "props": {
+        "label": "View POC reference",
+        "href": "https://t.co/lzSftacID3"
+      },
+      "children": []
+    }
+  }
+}
