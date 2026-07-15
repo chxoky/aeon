@@ -1,6 +1,7 @@
 🔍 *Calibration — [DC: Chase — Crypto]*
+↩️ _Member: "Chase where do you trade equities btw"_
 
-Skill executed successfully. Processed Discord message from Crypto_Chase at 14:48:46 UTC on Intel ($INTC):
+💬 *[DC: Chase — TradFi]*
 
 **Event Details:**
 - **Trader**: Crypto_Chase (primary channel "Chase — Chase")
@@ -19,3 +20,5 @@ Event: Reply to member mention (snyder_0101 tagged @328653965099139073)
 crypto_chase: "does a ban work?"
 
 Unable to classify — what's your read? (Financial signal or off-topic?)
+[Screenshot showing trading platform/broker where Chase trades equities]
+https://cdn.discordapp.com/attachments/1343971265962049597/1526964358872301599/image.png

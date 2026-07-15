@@ -1,0 +1,67 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-question",
+        "sep-1",
+        "text-response",
+        "sep-2",
+        "link-screenshot"
+      ]
+    },
+    "text-question": {
+      "type": "Text",
+      "props": {
+        "text": "↩️ Member: \"Chase where do you trade equities btw\"",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text-response": {
+      "type": "Text",
+      "props": {
+        "text": "💬 [DC: Chase — TradFi]",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link-screenshot": {
+      "type": "Link",
+      "props": {
+        "label": "Screenshot showing trading platform/broker where Chase trades equities",
+        "href": "https://cdn.discordapp.com/attachments/1343971265962049597/1526964358872301599/image.png"
+      },
+      "children": []
+    }
+  }
+}
