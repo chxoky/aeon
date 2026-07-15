@@ -1,22 +1,5 @@
-🔍 *Calibration — @Wild_Randomness*
+🐦 *[X] @Stoiiic*
 
-Event: Reply to @ivanhalen0x discussing market strategy on range lows
+yeah its volume weighted average price (VWAP) - developing year with a 1 standard deviation band (highlighted area).
 
-Wild_Randomness: "I'm not really bullish on it I'm just refraining from encouraging everyone to stay away from shorts at range lows cause it's been a trap for ages
-
-yes to the latter though https://t.co/UN1mhU47e5"
-
-Unable to classify — what's your read?
-- What asset/market is 'it'?
-- What does 'the latter' refer to?  
-- Is this cautionary (range lows trap FOR shorts) or subtle bullish (expects bounce)?
-
-[View post](https://x.com/Wild_Randomness/status/2077472758100111392)
-➕ *Conviction Add — @Wild_Randomness*
-
-Wild_Randomness just added to their NVDA position at $211.
-"Ok I'm re-adding here at 211 lol. Hoping for a red close"
-
-https://x.com/Wild_Randomness/status/2077473282195071203
-
-Want to add to yours too?
+[View tweet](https://x.com/Stoiiic/status/2077477313017753621)

@@ -1,0 +1,41 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "content-stack"
+      ]
+    },
+    "content-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-1",
+        "view-link"
+      ]
+    },
+    "tweet-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "@Stoiiic",
+        "text": "yeah its volume weighted average price (VWAP) - developing year with a 1 standard deviation band (highlighted area)."
+      }
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Stoiiic/status/2077477313017753621"
+      }
+    }
+  }
+}
