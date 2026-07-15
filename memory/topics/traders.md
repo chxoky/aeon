@@ -331,4 +331,13 @@
   - Jul 14 17:34:34 UTC (X) — skip (non-financial / platform meta-commentary) — "I see the algo's been fixed, so now I unfortunately have to see all your posts again" — personal commentary on X algorithm changes, no financial signal, silent log, no alert
   - Jul 15 13:43:49 UTC (X) — informational (system design philosophy / educational) — "In general, there are three things I think matter when building these systems: how often you trade, how fast you generate signals, and how many markets you trade... Diversification is one of the easiest and biggest wins..." — Substantive educational thread on trading system design principles: trading frequency effects, signal generation speed, market diversity/expansion (futures universe, crypto expansion into "shitcoins"), rebalancing cadence (weekly best equities, monthly futures, daily crypto). NOT a personal execution call (no first-person "I'm placing/adding/closing" language). Analytical philosophy on system structure aligns with abetrade's documented educational/structural focus. Context: relevant to Kyle's multi-asset portfolio thinking. Alerted (tweet_id=2077388668109496451)
 
+## Stoiiic
+- Platforms: X
+- Current open positions: Not disclosed
+- Recent thesis: Technical analysis focus, methodology-oriented discussions
+- Conviction notes: Responds to market research questions; methodological/educational content
+- Last seen: 2026-07-15 19:39:28 UTC
+- **Events log:**
+  - Jul 15 19:39:28 UTC (X) — skip (non-financial / technical methodology discussion) — "@cd_src_ yes not linear regression but weighted average by volume" — Response to technical question about indicator methodology (linear regression vs weighted average by volume). No trade action, no market opinion, no first-person execution language. Pure educational/technical discussion. Silent log, no alert. (tweet_id=2077478172711702739)
+
 BOOTSTRAP_COMPLETE: 2026-07-14
