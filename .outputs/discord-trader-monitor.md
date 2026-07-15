@@ -42,3 +42,9 @@ Perfect. **Skill execution complete.** Summary of Steps 1-10:
 
 ## Result
 ✅ **Event processed successfully.** Classification: **INFORMATIONAL** (technical guidance, no alert needed beyond fast-path). Crypto_Chase offering pattern-based technical framework to member in supporting-channel context.
+🔍 *Calibration — [DC: Chase — Crypto]*
+
+Event: Single-word message in supporting channel (member Q&A)
+Crypto_Chase: "out"
+
+Unable to classify — what's your read? (Exit signal, away/offline, or non-financial banter?)
