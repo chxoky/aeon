@@ -1,0 +1,100 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @Wild_Randomness"
+      },
+      "children": [
+        "main_stack"
+      ]
+    },
+    "main_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event_text",
+        "sep1",
+        "tweet_card",
+        "link_tweet",
+        "sep2",
+        "classification_alert",
+        "context_header",
+        "context_q1",
+        "context_q2",
+        "context_q3"
+      ]
+    },
+    "event_text": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Third-party report on crypto market risk"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "I'm hearing reports that Ansem is a bigger systematic risk to the cryptocurrency markets than Saylor is at this point\n\nBig if true https://t.co/t33VKoBlmz"
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View original tweet",
+        "href": "https://x.com/Wild_Randomness/status/2077464269873099080"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification_alert": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "title": "Unable to classify",
+        "message": "What's your read?"
+      }
+    },
+    "context_header": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "context_q1": {
+      "type": "Text",
+      "props": {
+        "text": "(1) Who/what is 'Ansem'?"
+      }
+    },
+    "context_q2": {
+      "type": "Text",
+      "props": {
+        "text": "(2) Is this market-risk entity worth tracking?"
+      }
+    },
+    "context_q3": {
+      "type": "Text",
+      "props": {
+        "text": "(3) Does the image provide critical context?"
+      }
+    }
+  }
+}
