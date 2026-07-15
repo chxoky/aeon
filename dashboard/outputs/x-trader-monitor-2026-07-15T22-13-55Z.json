@@ -1,0 +1,53 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet",
+        "tweet_link",
+        "separator",
+        "context_heading",
+        "context_text"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "Stoiiic",
+        "text": "in an ideal world, this squeezes one more time to trap some positioning before a healthy pullback."
+      }
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Stoiiic/status/2077515670489882758"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "Market structure observation on BTC consolidation. Stoiiic cautiously expects one more squeeze (likely into 65–66K resistance zone per group consensus) to trap leveraged/weak positioning before a pullback/correction. Aligns with broader group theme: 60–65K range is key consolidation zone with multiple technical tests expected before directional confirmation."
+      }
+    }
+  }
+}

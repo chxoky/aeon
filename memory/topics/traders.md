@@ -344,10 +344,11 @@
 ## Stoiiic
 - Platforms: X
 - Current open positions: Not disclosed
-- Recent thesis: Technical analysis focus, methodology-oriented discussions
-- Conviction notes: Responds to market research questions; methodological/educational content
-- Last seen: 2026-07-15 19:39:28 UTC
+- Recent thesis: Technical analysis focus, methodology-oriented discussions; neutral positioning around 60-62K weekly pivot
+- Conviction notes: Responds to market research questions; methodological/educational content; order-flow/market-structure analyst
+- Last seen: 2026-07-15 22:08:28 UTC
 - **Events log:**
   - Jul 15 19:39:28 UTC (X) — skip (non-financial / technical methodology discussion) — "@cd_src_ yes not linear regression but weighted average by volume" — Response to technical question about indicator methodology (linear regression vs weighted average by volume). No trade action, no market opinion, no first-person execution language. Pure educational/technical discussion. Silent log, no alert. (tweet_id=2077478172711702739)
+  - Jul 15 22:08:28 UTC (X) — informational (market structure / technical commentary) — "in an ideal world, this squeezes one more time to trap some positioning before a healthy pullback." — Technical/market-structure commentary on expected price action. NOT a personal trade action (no execution language: "I'm entering/adding/closing"). Implies BTC structure (based on Stoiiic's documented 60-62K crucial weekly pivot thesis). Message describes conditional scenario: squeeze higher to trap positioning before pullback. Sentiment: cautious/predatory (trapping positioning = implied downside correction expected after move higher). Aligns with group near-term chop/consolidation theme (multiple traders flagging 60-65K range as key test zone). Context: BTC consolidating in documented 60-65K range; Stoiiic neutral positioning makes this observational commentary rather than conviction signal. Informational alert sent to Kyle with market-structure context (tweet_id=2077515670489882758, alerted=true)
 
 BOOTSTRAP_COMPLETE: 2026-07-14
