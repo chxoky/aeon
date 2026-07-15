@@ -1,0 +1,49 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ticker_badge",
+        "tweet",
+        "link"
+      ]
+    },
+    "ticker_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "$SNDK — Informational (price targets)",
+        "variant": "secondary"
+      }
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Crypto_Chase",
+        "handle": "@Crypto_Chase",
+        "text": "Treated us well on the last trade. Would love another chance to buy, but this time would be for a longer hold I expect. Generational bottom somewhere around 1350. Worst case scenario I could see would be 1K, below there it'd be game over."
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Crypto_Chase/status/2077392182772662626"
+      }
+    }
+  }
+}
