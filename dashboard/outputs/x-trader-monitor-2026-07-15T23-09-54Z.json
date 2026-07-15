@@ -1,0 +1,41 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "storylink-omen",
+        "alert-analysis"
+      ]
+    },
+    "storylink-omen": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Hindenburg Omen",
+        "href": "https://x.com/Wild_Randomness/status/2077530293313966267",
+        "source": "X / @Wild_Randomness"
+      }
+    },
+    "alert-analysis": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "message": "Bearish technical indicator — potential equity market weakness signal. Aligns with cautious/top-watch lean on SPX (group near-term UP, bigger-picture top-watch)."
+      }
+    }
+  }
+}
