@@ -1,0 +1,203 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — HeartCanHodl (Comments)"
+      },
+      "children": [
+        "alert_unable",
+        "section_event",
+        "section_message",
+        "section_context",
+        "section_interpretations"
+      ]
+    },
+    "alert_unable": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "Unable to classify — what's your read?"
+      }
+    },
+    "section_event": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_event_label",
+        "text_event_detail"
+      ]
+    },
+    "text_event_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "text_event_detail": {
+      "type": "Text",
+      "props": {
+        "text": "HeartCanHodl message in Comments channel (Jul 15 13:11Z)"
+      }
+    },
+    "section_message": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_msg_label",
+        "text_msg_content"
+      ]
+    },
+    "text_msg_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Message",
+        "level": "h3"
+      }
+    },
+    "text_msg_content": {
+      "type": "Heading",
+      "props": {
+        "text": "\"Pre-rich\"",
+        "level": "h2"
+      }
+    },
+    "section_context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_context_label",
+        "stack_timeline",
+        "separator_1",
+        "stack_portfolio"
+      ]
+    },
+    "text_context_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "stack_timeline": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_post1",
+        "text_post2"
+      ]
+    },
+    "text_post1": {
+      "type": "Text",
+      "props": {
+        "text": "Posted 24 min after 12:46:22 UTC \"Fc btc 15m\" (form confirmation)"
+      }
+    },
+    "text_post2": {
+      "type": "Text",
+      "props": {
+        "text": "Posted 21 min after 12:50:20 UTC cryptic post \"This might be the riskiest possible time to post this 🗿\""
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_portfolio": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_portfolio_label",
+        "text_portfolio_detail"
+      ]
+    },
+    "text_portfolio_label": {
+      "type": "Text",
+      "props": {
+        "text": "HCH currently holding:",
+        "variant": "body"
+      }
+    },
+    "text_portfolio_detail": {
+      "type": "Text",
+      "props": {
+        "text": "35% portfolio in escalating short basket (BTC/ETH/SOL/ZEC/HYPE shorts through Jul 14-15)"
+      }
+    },
+    "section_interpretations": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_interp_label",
+        "stack_options"
+      ]
+    },
+    "text_interp_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Possible Interpretations",
+        "level": "h3"
+      }
+    },
+    "stack_options": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "interp_a",
+        "interp_b",
+        "interp_c",
+        "interp_d"
+      ]
+    },
+    "interp_a": {
+      "type": "Text",
+      "props": {
+        "text": "(a) Pre-collapse sentiment aligned with short conviction"
+      }
+    },
+    "interp_b": {
+      "type": "Text",
+      "props": {
+        "text": "(b) Aspirational about upcoming profits"
+      }
+    },
+    "interp_c": {
+      "type": "Text",
+      "props": {
+        "text": "(c) Unrelated banter"
+      }
+    },
+    "interp_d": {
+      "type": "Text",
+      "props": {
+        "text": "(d) Other"
+      }
+    }
+  }
+}
