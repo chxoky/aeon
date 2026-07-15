@@ -264,10 +264,11 @@
 ## abetrade
 - Platforms: X
 - Current open positions: None stated.
-- Recent thesis: Near-silent this window (1 post) — educational thread on Binance's BTC "yield" product being a covered-call/option-selling strategy. No directional call.
-- Conviction notes: Educational/structural; low frequency. Signal is rare and analytical rather than positional.
-- Last seen: 2026-07-14 17:34:34 UTC
+- Recent thesis: Near-silent, educational focus. Posts system design philosophy: trading frequency, signal speed, market diversity, rebalancing cadence across equities/futures/crypto.
+- Conviction notes: Educational/structural; low frequency. Signal is rare and analytical rather than positional. System-design focused.
+- Last seen: 2026-07-15 13:43:49 UTC
 - **Events log:**
   - Jul 14 17:34:34 UTC (X) — skip (non-financial / platform meta-commentary) — "I see the algo's been fixed, so now I unfortunately have to see all your posts again" — personal commentary on X algorithm changes, no financial signal, silent log, no alert
+  - Jul 15 13:43:49 UTC (X) — informational (system design philosophy / educational) — "In general, there are three things I think matter when building these systems: how often you trade, how fast you generate signals, and how many markets you trade... Diversification is one of the easiest and biggest wins..." — Substantive educational thread on trading system design principles: trading frequency effects, signal generation speed, market diversity/expansion (futures universe, crypto expansion into "shitcoins"), rebalancing cadence (weekly best equities, monthly futures, daily crypto). NOT a personal execution call (no first-person "I'm placing/adding/closing" language). Analytical philosophy on system structure aligns with abetrade's documented educational/structural focus. Context: relevant to Kyle's multi-asset portfolio thinking. Alerted (tweet_id=2077388668109496451)
 
 BOOTSTRAP_COMPLETE: 2026-07-14
