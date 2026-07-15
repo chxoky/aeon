@@ -1,0 +1,667 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-07-15"
+      },
+      "children": [
+        "heading-transitions",
+        "stack-transitions",
+        "sep-1",
+        "heading-reflexivity",
+        "stack-reflexivity",
+        "sep-2",
+        "heading-positions",
+        "stack-positions",
+        "sep-3",
+        "heading-map",
+        "stack-map"
+      ]
+    },
+    "heading-transitions": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      }
+    },
+    "stack-transitions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "trans-1",
+        "trans-2",
+        "trans-3"
+      ]
+    },
+    "trans-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans-1-badge",
+        "trans-1-text"
+      ]
+    },
+    "trans-1-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "default"
+      }
+    },
+    "trans-1-text": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Infrastructure — \"narrative → architecture\" week. Robinhood extends AI-agent trading to crypto (70k beta accts); BNB Chain building a 100k-TPS L1 for autonomous agents; Meta embeds stablecoins in agentic commerce. Not in the internal map yet — biggest gap to close.",
+        "variant": "body"
+      }
+    },
+    "trans-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans-2-badge",
+        "trans-2-text"
+      ]
+    },
+    "trans-2-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED",
+        "variant": "secondary"
+      }
+    },
+    "trans-2-text": {
+      "type": "Text",
+      "props": {
+        "text": "ETH ecosystem Emerging → Rising — ETH +6.5% / LINK +8.4% 7d, both beating BTC (+3%) & SOL (−1%).",
+        "variant": "body"
+      }
+    },
+    "trans-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans-3-badge",
+        "trans-3-text"
+      ]
+    },
+    "trans-3-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED",
+        "variant": "destructive"
+      }
+    },
+    "trans-3-text": {
+      "type": "Text",
+      "props": {
+        "text": "Perp DEX / Hyperliquid Rising → Fading — HYPE −1.7% 7d, bouncing only with the tape.",
+        "variant": "body"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-reflexivity": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      }
+    },
+    "stack-reflexivity": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "refl-1",
+        "refl-2",
+        "refl-3"
+      ]
+    },
+    "refl-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "refl-1-title",
+        "refl-1-text"
+      ]
+    },
+    "refl-1-title": {
+      "type": "Heading",
+      "props": {
+        "text": "ZEC",
+        "level": "h4"
+      }
+    },
+    "refl-1-text": {
+      "type": "Text",
+      "props": {
+        "text": "Naval public endorsement + a paraded $15.85M→$126M whale manufacturing FOMO; price front-running the late-July Ironwood upgrade with no fundamentals change. Event-driven, not organic.",
+        "variant": "body"
+      }
+    },
+    "refl-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "refl-2-title",
+        "refl-2-text"
+      ]
+    },
+    "refl-2-title": {
+      "type": "Heading",
+      "props": {
+        "text": "BTC",
+        "level": "h4"
+      }
+    },
+    "refl-2-text": {
+      "type": "Text",
+      "props": {
+        "text": "$113M BTC shorts liquidated in 24h; the +3% reclaim is squeeze-led, not flow-led. F&G still 25 (Extreme Fear) vs price +3% = unconvinced bounce.",
+        "variant": "body"
+      }
+    },
+    "refl-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "refl-3-title",
+        "refl-3-text"
+      ]
+    },
+    "refl-3-title": {
+      "type": "Heading",
+      "props": {
+        "text": "AI agents",
+        "level": "h4"
+      }
+    },
+    "refl-3-text": {
+      "type": "Text",
+      "props": {
+        "text": "BNB Chain spinning up a dedicated L1 \"explicitly for agents\" = infra pivoting to ride the story.",
+        "variant": "body"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-positions": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      }
+    },
+    "stack-positions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "pos-1",
+        "pos-2",
+        "pos-3",
+        "pos-4",
+        "pos-5"
+      ]
+    },
+    "pos-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-1-header",
+        "pos-1-text"
+      ]
+    },
+    "pos-1-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-1-badge-ride",
+        "pos-1-title",
+        "pos-1-badge-mindshare",
+        "pos-1-badge-bull"
+      ]
+    },
+    "pos-1-badge-ride": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "default"
+      }
+    },
+    "pos-1-title": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Infrastructure",
+        "variant": "lead"
+      }
+    },
+    "pos-1-badge-mindshare": {
+      "type": "Badge",
+      "props": {
+        "text": "mindshare 5 ↑↑",
+        "variant": "outline"
+      }
+    },
+    "pos-1-badge-bull": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "default"
+      }
+    },
+    "pos-1-text": {
+      "type": "Text",
+      "props": {
+        "text": "@a16zcrypto / Robinhood / BNB — bear: value is landing in equities & permissioned infra, not tokens; agent-tokens lack accrual. Ride the theme, not the bags.",
+        "variant": "body"
+      }
+    },
+    "pos-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-2-header",
+        "pos-2-text"
+      ]
+    },
+    "pos-2-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-2-badge-ride",
+        "pos-2-title",
+        "pos-2-badge-mindshare",
+        "pos-2-badge-bull"
+      ]
+    },
+    "pos-2-badge-ride": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "default"
+      }
+    },
+    "pos-2-title": {
+      "type": "Text",
+      "props": {
+        "text": "ETH ecosystem",
+        "variant": "lead"
+      }
+    },
+    "pos-2-badge-mindshare": {
+      "type": "Badge",
+      "props": {
+        "text": "3 ↑",
+        "variant": "outline"
+      }
+    },
+    "pos-2-badge-bull": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "default"
+      }
+    },
+    "pos-2-text": {
+      "type": "Text",
+      "props": {
+        "text": "ETH/LINK relative strength — bear: leadership born in a squeeze tape; needs to hold >$1,850 through today's PPI.",
+        "variant": "body"
+      }
+    },
+    "pos-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-3-header",
+        "pos-3-text"
+      ]
+    },
+    "pos-3-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-3-badge-ride",
+        "pos-3-title",
+        "pos-3-badge-mindshare",
+        "pos-3-badge-bull"
+      ]
+    },
+    "pos-3-badge-ride": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE(event)",
+        "variant": "secondary"
+      }
+    },
+    "pos-3-title": {
+      "type": "Text",
+      "props": {
+        "text": "Privacy/ZK — ZEC",
+        "variant": "lead"
+      }
+    },
+    "pos-3-badge-mindshare": {
+      "type": "Badge",
+      "props": {
+        "text": "4 ↑",
+        "variant": "outline"
+      }
+    },
+    "pos-3-badge-bull": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "default"
+      }
+    },
+    "pos-3-text": {
+      "type": "Text",
+      "props": {
+        "text": "Naval / Grayscale ETF filing / Multicoin — bear: entire move front-runs Ironwood (post-June vuln); hard stop into the upgrade.",
+        "variant": "body"
+      }
+    },
+    "pos-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-4-header",
+        "pos-4-text"
+      ]
+    },
+    "pos-4-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-4-badge-fade",
+        "pos-4-title",
+        "pos-4-badge-mindshare",
+        "pos-4-badge-cope"
+      ]
+    },
+    "pos-4-badge-fade": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "destructive"
+      }
+    },
+    "pos-4-title": {
+      "type": "Text",
+      "props": {
+        "text": "Perp DEX / Hyperliquid",
+        "variant": "lead"
+      }
+    },
+    "pos-4-badge-mindshare": {
+      "type": "Badge",
+      "props": {
+        "text": "3 ↓",
+        "variant": "outline"
+      }
+    },
+    "pos-4-badge-cope": {
+      "type": "Badge",
+      "props": {
+        "text": "Cope",
+        "variant": "destructive"
+      }
+    },
+    "pos-4-text": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE dead-cat +5% 24h while −1.7% 7d; recovering on price, not usage.",
+        "variant": "body"
+      }
+    },
+    "pos-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-5-header",
+        "pos-5-text"
+      ]
+    },
+    "pos-5-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-5-badge-watch",
+        "pos-5-title",
+        "pos-5-badge-mindshare",
+        "pos-5-badge-mixed"
+      ]
+    },
+    "pos-5-badge-watch": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "outline"
+      }
+    },
+    "pos-5-title": {
+      "type": "Text",
+      "props": {
+        "text": "Soft-CPI relief",
+        "variant": "lead"
+      }
+    },
+    "pos-5-badge-mindshare": {
+      "type": "Badge",
+      "props": {
+        "text": "4 →",
+        "variant": "outline"
+      }
+    },
+    "pos-5-badge-mixed": {
+      "type": "Badge",
+      "props": {
+        "text": "Mixed",
+        "variant": "secondary"
+      }
+    },
+    "pos-5-text": {
+      "type": "Text",
+      "props": {
+        "text": "US June PPI 8:30am ET is the same-day risk to the $65K reclaim.",
+        "variant": "body"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-map": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h2"
+      }
+    },
+    "stack-map": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "map-emerging",
+        "map-rising",
+        "map-peak",
+        "map-fading"
+      ]
+    },
+    "map-emerging": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-emerging-title",
+        "map-emerging-text"
+      ]
+    },
+    "map-emerging-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Emerging",
+        "level": "h4"
+      }
+    },
+    "map-emerging-text": {
+      "type": "Text",
+      "props": {
+        "text": "Prediction markets (Kaito×Polymarket attention mkts)",
+        "variant": "body"
+      }
+    },
+    "map-rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-rising-title",
+        "map-rising-text"
+      ]
+    },
+    "map-rising-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Rising",
+        "level": "h4"
+      }
+    },
+    "map-rising-text": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Infra, ETH ecosystem, Privacy/ZK (ZEC)",
+        "variant": "body"
+      }
+    },
+    "map-peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-peak-title",
+        "map-peak-text"
+      ]
+    },
+    "map-peak-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Peak",
+        "level": "h4"
+      }
+    },
+    "map-peak-text": {
+      "type": "Text",
+      "props": {
+        "text": "Soft-CPI relief / short squeeze, Stablecoins (no contrarian edge — value accrues to issuer equity)",
+        "variant": "body"
+      }
+    },
+    "map-fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-fading-title",
+        "map-fading-text"
+      ]
+    },
+    "map-fading-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Fading",
+        "level": "h4"
+      }
+    },
+    "map-fading-text": {
+      "type": "Text",
+      "props": {
+        "text": "Perp DEX / Hyperliquid, Meme/ICO launchpads (quality rotation; memecoin mcap $33.7B)",
+        "variant": "body"
+      }
+    }
+  }
+}

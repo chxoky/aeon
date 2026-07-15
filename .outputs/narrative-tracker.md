@@ -1,27 +1,24 @@
-*Narrative Tracker — 2026-07-14*
-_(first run since dormancy 06-08 — transitions seeded, real diff starts tomorrow)_
+*Narrative Tracker — 2026-07-15*
 
-TRANSITIONS (seeded)
-• NEW: Privacy/ZEC — +70–90% in a week, $500→~$600; Ironwood upgrade + Tachyon formal-verification; Multicoin (Tushar Jain) building since Feb.
-• NEW: AI-agent trading goes retail — Robinhood connecting 3rd-party AI agents (70k beta accts); XRPL >1M agent txns.
-• DEMOTED: DATs — mNAV compressing; Strategy ~1.5x, Bitmine/SharpLink <1.0 (discount-to-NAV) post June preferred stress.
+TRANSITIONS (first tracker baseline; diffed vs today's market-context)
+• NEW: *AI Agent Infrastructure* — "narrative → architecture" week. Robinhood extends AI-agent trading to crypto (70k beta accts); BNB Chain building a 100k-TPS L1 for autonomous agents; Meta embeds stablecoins in agentic commerce. Not in the internal map yet — biggest gap to close.
+• PROMOTED: *ETH ecosystem* Emerging → Rising — ETH +6.5% / LINK +8.4% 7d, both beating BTC (+3%) & SOL (−1%).
+• DEMOTED: *Perp DEX / Hyperliquid* Rising → Fading — HYPE −1.7% 7d, bouncing only with the tape.
 
-REFLEXIVITY
-• DATs — reverse flywheel: discount-to-NAV makes issuance dilutive, premium engine seizes (NYDIG "How DATs Die").
-• ZEC — price front-running fundamentals on upgrade hype + VC endorsement into mid-July Ironwood.
+REFLEXIVITY ALERT
+• ZEC — Naval public endorsement + a paraded $15.85M→$126M whale manufacturing FOMO; price front-running the late-July Ironwood upgrade with no fundamentals change. Event-driven, not organic.
+• BTC — $113M BTC shorts liquidated in 24h; the +3% reclaim is squeeze-led, not flow-led. F&G still 25 (Extreme Fear) vs price +3% = unconvinced bounce.
+• AI agents — BNB Chain spinning up a dedicated L1 "explicitly for agents" = infra pivoting to ride the story.
 
 POSITIONS
-• FADE: DATs/mNAV (5 ↓↓ Cope) — Strategy/Bitmine/SharpLink — reflexivity flipped negative, dilutive death spiral.
-• RIDE: Privacy/ZEC (4 ↑↑ Bull) — Multicoin, Ironwood — bear: sell-the-news into the upgrade + privacy regulatory risk.
-• RIDE: AI agents (4 ↑ Bull) — Robinhood, XRPL, a16z — bear: prompt-injection drains (JADEPUFFER); infra w/o token accrual.
-• RIDE: Stablecoins (4 → Bull) — Tether $20M→Mercado — bear: no contrarian edge, already priced.
-• WATCH: Prediction/attention mkts (3 ↑ Mixed) — Kaito×Polymarket, Robinhood — bear: wagering on vibes.
+• RIDE: *AI Agent Infrastructure* (mindshare 5 ↑↑, Bull) — @a16zcrypto / Robinhood / BNB — bear: value is landing in equities & permissioned infra, not tokens; agent-tokens lack accrual. Ride the theme, not the bags.
+• RIDE: *ETH ecosystem* (3 ↑, Bull) — ETH/LINK relative strength — bear: leadership born in a squeeze tape; needs to hold >$1,850 through today's PPI.
+• RIDE(event): *Privacy/ZK — ZEC* (4 ↑, Bull) — Naval / Grayscale ETF filing / Multicoin — bear: entire move front-runs Ironwood (post-June vuln); hard stop into the upgrade.
+• FADE: *Perp DEX / Hyperliquid* (3 ↓, Cope) — HYPE dead-cat +5% 24h while −1.7% 7d; recovering on price, not usage.
+• WATCH: *Soft-CPI relief* (4 →, Mixed) — US June PPI 8:30am ET is the same-day risk to the $65K reclaim.
 
 MAP
-Emerging: Prediction/attention markets
-Rising: Privacy/ZEC, AI agents
-Peak: Stablecoins, RWA-as-collateral
-Fading: DATs/mNAV, meme+ICO launchpads
-
-Trader note: HeartCanHodl short-basket includes ZEC — the +70–90% rip runs hard against that leg; watch for cover/stop.
-Context: BTC −3.3% to ~$62K (Jul 13, US-Iran/oil/inflation); CPI + Warsh testimony this week.
+Emerging: Prediction markets (Kaito×Polymarket attention mkts)
+Rising: AI Agent Infra, ETH ecosystem, Privacy/ZK (ZEC)
+Peak: Soft-CPI relief / short squeeze, Stablecoins (no contrarian edge — value accrues to issuer equity)
+Fading: Perp DEX / Hyperliquid, Meme/ICO launchpads (quality rotation; memecoin mcap $33.7B)
