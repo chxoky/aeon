@@ -1,0 +1,41 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-card",
+        "sep-1",
+        "link-tweet"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "$BTC — Since August last year, every extended positive Delta period in BTC has ended in distribution. We're seeing the same setup again now, Delta stretched positive with matching price action.\n\nIf the pattern holds, BTC is forming a macro lower high. Eventually BTC will shift bullish, so be aware of that & wait for clear structure confirm."
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2077356154057830492"
+      },
+      "children": []
+    }
+  }
+}
