@@ -1,0 +1,72 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @Wild_Randomness"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_context",
+        "sep_1",
+        "tweet_card",
+        "sep_2",
+        "alert_analysis",
+        "link_tweet"
+      ]
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Prior documented as \"LIT long\" in portfolio",
+        "variant": "body"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "$LIT — It does seem like this asset has evolved into hard mode. Got too mainstream, I fear"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_analysis": {
+      "type": "Alert",
+      "props": {
+        "title": "Signal Classification",
+        "message": "Unable to classify — is this just market opinion on LIT momentum/sentiment, or a subtle position reconsider signal? Should I treat as potential exit thesis?",
+        "type": "info"
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2077536503727530420"
+      }
+    }
+  }
+}
