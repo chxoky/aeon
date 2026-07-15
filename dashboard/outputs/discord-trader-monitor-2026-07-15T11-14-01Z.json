@@ -1,0 +1,46 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_source",
+        "text_message",
+        "link_tweet"
+      ]
+    },
+    "badge_source": {
+      "type": "Badge",
+      "props": {
+        "text": "💬 DC: HCH — Free"
+      }
+    },
+    "text_message": {
+      "type": "Text",
+      "props": {
+        "text": "A must have Ema in your trading view account"
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View on Twitter",
+        "href": "https://x.com/i/status/2077350122136928727"
+      }
+    }
+  }
+}
