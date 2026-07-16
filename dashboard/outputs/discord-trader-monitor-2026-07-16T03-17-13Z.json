@@ -1,0 +1,107 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_1",
+        "stack_2",
+        "stack_3"
+      ]
+    },
+    "text_1": {
+      "type": "Text",
+      "props": {
+        "text": "↩️ A must have Ema in your trading view account"
+      }
+    },
+    "stack_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "text_emoji2",
+        "badge_dc",
+        "badge_hch",
+        "badge_free"
+      ]
+    },
+    "text_emoji2": {
+      "type": "Text",
+      "props": {
+        "text": "💬"
+      }
+    },
+    "badge_dc": {
+      "type": "Badge",
+      "props": {
+        "text": "DC"
+      }
+    },
+    "badge_hch": {
+      "type": "Badge",
+      "props": {
+        "text": "HCH"
+      }
+    },
+    "badge_free": {
+      "type": "Badge",
+      "props": {
+        "text": "Free"
+      }
+    },
+    "stack_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_fc",
+        "badge_skhynix",
+        "badge_4hr",
+        "badge_ema50"
+      ]
+    },
+    "badge_fc": {
+      "type": "Badge",
+      "props": {
+        "text": "Fc"
+      }
+    },
+    "badge_skhynix": {
+      "type": "Badge",
+      "props": {
+        "text": "SKHynix"
+      }
+    },
+    "badge_4hr": {
+      "type": "Badge",
+      "props": {
+        "text": "4hr"
+      }
+    },
+    "badge_ema50": {
+      "type": "Badge",
+      "props": {
+        "text": "ema50"
+      }
+    }
+  }
+}
