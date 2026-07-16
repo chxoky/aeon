@@ -154,7 +154,7 @@
 - Current open positions: No explicit sized position — intraday BTC/ETH trader, long-biased.
 - Recent thesis: Bullish lean ("bears are being abused," "Go up"). BTC posts daily H1/H4 structure updates; Jul 13 at a global POC with an EQH formed, waiting for LTF reversal patterns. ETH "structure looks clean," dismissive of ETH longs earlier in window. Trades intraday around volume clusters. (Based in Moscow; lots of off-topic personal/gym content.)
 - Conviction notes: Technical (volume profile / clusters / POC), publishes game plans with invalidations. Signal is in the "$BTC Daily Update" posts.
-- Last seen: 2026-07-15 19:00:40 UTC
+- Last seen: 2026-07-16 05:37:43 UTC
 - **Events log:**
   - Jul 14 07:33 — informational (bullish sentiment / DCA plan) — "I agree with @ryzzqq and @Trade17 that we've hit the local low for the month; I plan to build up long positions over the next couple of days" — BTC, convergence with KillaXBT/t_in_crypto bullish bias
   - Jul 14 07:48 — skip (non-financial) — "@wasmynme @ryzzcqq @Trade17 :3 \n\nTo you too" — personal response, no signal
@@ -204,6 +204,7 @@
   - Jul 15 19:08:20 UTC — skip (non-financial / personal banter) — "@FalconyFalcon Lmao" — Reply to another trader with laughing response; no ticker, no market opinion, no execution language, no financial signal. Pure social interaction / personal banter. HR-1 category A classification (non-financial). Silent log, no alert. (tweet_id=2077470335281008889)
   - Jul 15 19:05:00 UTC — skip (non-financial/personal banter) — "@Ehn_7H No no fak u !!" — Reply to @Ehn_7H with expletive-laden banter, no financial signal, no ticker, no market opinion, no trade action. Pure personal social interaction. Consistent with established extensive pattern of non-financial social posts throughout 07-15 session (06:47-19:05 cluster of ~60 posts, ~80% non-financial banter). HR-1 category A classification (non-financial). Silent log, no alert (tweet_id=2077469519149138010).
   - Jul 15 19:06:40 UTC — skip (non-financial / personal banter) — "@harmoniumx Thanks for the advice. I'm selling my house and buying some crap." — Response/reply to @harmoniumx with sarcastic/joking tone. Personal life commentary using "crap" as casual dismissal language, not a financial signal or trade action. HR-1 classification: non-financial. Silent log, no alert. (tweet_id=2077469916618240249)
+  - Jul 16 05:37:43 UTC — skip (non-financial / personal greeting) — "@janxbt Gm" — simple morning greeting/salutation to another trader. No ticker, no market opinion, no trade action, no financial signal. Pure personal social banter. HR-1 category A classification (non-financial). Silent log, no alert. (tweet_id=2077628725235974149)
 
 ## bull_genius (marmot)
 - Platforms: X
