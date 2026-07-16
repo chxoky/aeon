@@ -1,0 +1,65 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "main-stack"
+      ]
+    },
+    "main-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "channel-badge",
+        "separator",
+        "messages-stack"
+      ]
+    },
+    "channel-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DC: Chase — TradFi",
+        "variant": "default"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "messages-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "msg-1",
+        "msg-2"
+      ]
+    },
+    "msg-1": {
+      "type": "Text",
+      "props": {
+        "text": "Member: \"looks completely different from my chart for some reason\"",
+        "variant": "body"
+      }
+    },
+    "msg-2": {
+      "type": "Text",
+      "props": {
+        "text": "gold futures vs whatever chart you're using i presume",
+        "variant": "muted"
+      }
+    }
+  }
+}
