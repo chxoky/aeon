@@ -1,0 +1,69 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-calibration",
+        "text-trader-info",
+        "text-message",
+        "separator-1",
+        "alert-unclassifiable"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: Chase — TradFi]",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text-trader-info": {
+      "type": "Text",
+      "props": {
+        "text": "Trader: @Crypto_Chase | Time: 2026-07-16 13:36:50 UTC",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "text-message": {
+      "type": "Text",
+      "props": {
+        "text": "Supporter channel reply: \"is it as simple as just remaining patient\" + 1 image",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert-unclassifiable": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Context needed for which watchlist item (SPX/HYPE/BTC/MU?) and market structure reference. Chart attachment shown but unviewable here.",
+        "type": "warning"
+      },
+      "children": []
+    }
+  }
+}
