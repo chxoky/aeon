@@ -1,38 +1,39 @@
-*Token Movers — 2026-07-15*
+*Token Movers — 2026-07-16*
 
-_Mild risk-on grind — 74/100 top-100 green, top-50 median +1.7%; BTC +2% ($64.7K), ETH +3.7%, SOL +2%. ZEC leads majors (+11.6%) on the privacy bid; the early GNO/meme pop is fading._
+_Broad risk-off but shallow — only 24/100 top coins green, median top-50 −1.0%; BTC ~$64K (−1.1%) drifting while ONDO-led RWA/DeFi names buck the red tape._
 
 *Top Winners (24h)*
-1. KAITO — $0.7845  +14.2% / 7d +28.7% / 1h −2.9%  •  $56M / #174
-2. XEC (eCash) — $0.0000067  +13.3% / 7d +31.8% / 1h −0.5%  •  $62M / #216
-3. PUMP (Pump.fun) — $0.001636  +12.8% / 7d +9.8% / 1h −0.1%  •  $133M / #91
-4. UB (Unibase) — $0.08563  +12.6% / 7d +7.0% / 1h −0.6%  •  $11M / #161
-5. GNO (Gnosis) — $124.66  +11.6% / 7d +19.7% / 1h −0.5%  •  $18M / #127
-6. ZEC (Zcash) — $575.4  +11.6% / 7d +23.4% / 1h +0.7%  •  $575M / #14  [MAJOR]
-7. PI (Pi Network) — $0.08269  +11.4% / 7d −19.3% / 1h +0.3%  •  $27M / #70  [TRENDING+UP]
-8. CC (Canton) — $0.1418  +8.6% / 7d +11.9% / 1h +3.3%  •  $21M / #21
+1. ONDO (Ondo) — $0.3668  +14.7% / 7d +15.0% / 1h −0.4%  •  $275M / #44  [TRENDING+UP]
+2. LDO (Lido DAO) — $0.3654  +11.4% / 7d +13.6% / 1h −1.0%  •  $56.9M / #131
+3. EDGE (edgeX) — $0.4291  +9.9% / 7d −5.4% / 1h −0.0%  •  $12.4M / #198
+4. ETHFI (Ether.fi) — $0.4312  +8.8% / 7d +5.0% / 1h −1.5%  •  $63.1M / #116
+5. PYTH (Pyth Network) — $0.05010  +5.4% / 7d +16.7% / 1h −0.4%  •  $33.9M / #117
+6. DCR (Decred) — $13.86  +4.9% / 7d +26.9% / 1h −0.2%  •  $4.6M / #145
+7. VIRTUAL (Virtuals) — $0.6173  +3.9% / 7d +17.7% / 1h −0.0%  •  $100M / #114
+8. INJ (Injective) — $5.08  +3.4% / 7d +5.5% / 1h −0.7%  •  $98.8M / #101
+9. XLM (Stellar) — $0.1883  +2.9% / 7d +3.7% / 1h +0.7%  •  $232M / #17  [MAJOR]
 
 *Top Losers (24h)*
-1. CASHCAT — $0.1261  −30.9% / 7d +17.5% / 1h +0.5%  •  $80M / #225  [TRENDING+DOWN][CAPITULATION]
-2. M (MemeCore) — $1.25  −16.0% / 7d −7.2% / 1h +0.2%  •  $14M / #47
-3. DRV (Derive) — $0.1462  −12.1% / 7d +32.5% / 1h +0.1%  •  $7M / #206
-4. VELVET — $0.5079  −9.0% / 7d +20.1% / 1h −0.4%  •  $14M / #160
-5. DEXE — $37.44  −8.9% / 7d +31.8% / 1h −0.8%  •  $102M / #44
-6. CVX (Convex) — $1.32  −5.7% / 7d +12.5% / 1h +0.4%  •  $8M / #231
-7. BP (Backpack) — $0.5221  −5.5% / 7d −6.8% / 1h +0.4%  •  $3M / #221
-8. JTO (Jito) — $0.6234  −5.3% / 7d +0.4% / 1h +0.6%  •  $40M / #131
+1. H (Humanity) — $0.05951  −13.6% / 7d −13.3% / 1h +2.2%  •  $8.5M / #229
+2. GNO (Gnosis) — $114.7  −9.5% / 7d +7.1% / 1h −0.7%  •  $12.4M / #133
+3. XPL (Plasma) — $0.08554  −8.2% / 7d −8.2% / 1h +0.3%  •  $51.3M / #153
+4. DRV (Derive) — $0.1350  −8.2% / 7d +20.7% / 1h −2.7%  •  $6.8M / #214
+5. PI (Pi Network) — $0.07435  −8.1% / 7d −26.9% / 1h −0.5%  •  $22.2M / #76
+6. LIT (Lighter) — $2.40  −7.5% / 7d −2.2% / 1h +1.2%  •  $48.6M / #92
+7. CC (Canton) — $0.1326  −6.4% / 7d +2.8% / 1h −0.2%  •  $24.3M / #21  [MAJOR]
+8. KAITO — $0.7361  −6.0% / 7d +8.4% / 1h −1.9%  •  $40.6M / #179
+9. BONK — $0.00000354  −5.9% / 7d −11.6% / 1h −0.3%  •  $46.9M / #128
 
 *Trending*
-1. PENGU (Pudgy Penguins) — #118, $0.006151, +6.3%
-2. PI (Pi Network) — #70, $0.0827, +12.9%  [TRENDING+UP]
-3. CASHCAT (Cash Cat) — #223, $0.1306, −25.5%  [TRENDING+DOWN]
-4. LAB — #307, $0.2427, −18.8%
-5. ARROW — #839, $2.143, +52.4%  [PUMP-RISK]
-6. BTC — #1, $64.7K, +2.0%  [MAJOR]
-7. LIT (Lighter) — #92, $2.566, +1.7%
+1. AKE (Akedo) — #831, $0.00085, 24h +33.5%  [PUMP-RISK]
+2. ANSEM (The Black Bull) — #301, $0.1865, 24h −22.8%  [TRENDING+DOWN]
+3. ONDO (Ondo) — #44, $0.3667, 24h +14.7%  [TRENDING+UP]
+4. CASHCAT (Cash Cat) — #269, $0.09723, 24h −20.0%  [TRENDING+DOWN]
+5. PENGU (Pudgy Penguins) — #118, $0.006064, 24h −1.9%
+6. ADI — #72, $6.97, 24h +0.4%
+7. BTC (Bitcoin) — #1, $64.0K, 24h −1.1%  [MAJOR]
 
 *Notable*
-• ARROW: #839 up +52% — PUMP-RISK, deep-microcap/illiquid; trending on price, not fundamentals.
-• CASHCAT: TRENDING+DOWN / CAPITULATION — −31% on $80M vol (~0.6× mcap), day 3 of unwinding the earlier pump (a +9% winner Jul 13).
-• PI: trending + up ~12% but 7d −19% — relief bounce in a downtrend, not a fresh trend.
-• Session note: the GNO breakout (+28% earlier today) faded to +11.6%; leadership rotated to KAITO / XEC / ZEC.
+• ONDO: trending + up 14.7% on $275M vol — strongest liquid signal, RWA leader against a red tape
+• AKE (Akedo): #831 trending, +33.5% — PUMP-RISK, microcap/low liquidity, treat spike with caution
+• ANSEM & CASHCAT: both trending on −20%+ dumps — meme capitulation, no follow-through

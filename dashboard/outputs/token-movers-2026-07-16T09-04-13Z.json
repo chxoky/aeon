@@ -1,0 +1,368 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Token Movers — 2026-07-16"
+      },
+      "children": [
+        "text_summary",
+        "sep_1",
+        "heading_winners",
+        "winners_table",
+        "sep_2",
+        "heading_losers",
+        "losers_table",
+        "sep_3",
+        "heading_trending",
+        "trending_stack",
+        "sep_4",
+        "heading_notable",
+        "notable_stack"
+      ]
+    },
+    "text_summary": {
+      "type": "Text",
+      "props": {
+        "text": "Broad risk-off but shallow — only 24/100 top coins green, median top-50 −1.0%; BTC ~$64K (−1.1%) drifting while ONDO-led RWA/DeFi names buck the red tape.",
+        "variant": "lead"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_winners": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Winners (24h)",
+        "level": "h2"
+      }
+    },
+    "winners_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Volume / Rank",
+          "Status"
+        ],
+        "rows": [
+          [
+            "ONDO (Ondo)",
+            "$0.3668",
+            "+14.7%",
+            "+15.0%",
+            "−0.4%",
+            "$275M / #44",
+            "TRENDING+UP"
+          ],
+          [
+            "LDO (Lido DAO)",
+            "$0.3654",
+            "+11.4%",
+            "+13.6%",
+            "−1.0%",
+            "$56.9M / #131",
+            ""
+          ],
+          [
+            "EDGE (edgeX)",
+            "$0.4291",
+            "+9.9%",
+            "−5.4%",
+            "−0.0%",
+            "$12.4M / #198",
+            ""
+          ],
+          [
+            "ETHFI (Ether.fi)",
+            "$0.4312",
+            "+8.8%",
+            "+5.0%",
+            "−1.5%",
+            "$63.1M / #116",
+            ""
+          ],
+          [
+            "PYTH (Pyth Network)",
+            "$0.05010",
+            "+5.4%",
+            "+16.7%",
+            "−0.4%",
+            "$33.9M / #117",
+            ""
+          ],
+          [
+            "DCR (Decred)",
+            "$13.86",
+            "+4.9%",
+            "+26.9%",
+            "−0.2%",
+            "$4.6M / #145",
+            ""
+          ],
+          [
+            "VIRTUAL (Virtuals)",
+            "$0.6173",
+            "+3.9%",
+            "+17.7%",
+            "−0.0%",
+            "$100M / #114",
+            ""
+          ],
+          [
+            "INJ (Injective)",
+            "$5.08",
+            "+3.4%",
+            "+5.5%",
+            "−0.7%",
+            "$98.8M / #101",
+            ""
+          ],
+          [
+            "XLM (Stellar)",
+            "$0.1883",
+            "+2.9%",
+            "+3.7%",
+            "+0.7%",
+            "$232M / #17",
+            "MAJOR"
+          ]
+        ]
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_losers": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Losers (24h)",
+        "level": "h2"
+      }
+    },
+    "losers_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Volume / Rank",
+          "Status"
+        ],
+        "rows": [
+          [
+            "H (Humanity)",
+            "$0.05951",
+            "−13.6%",
+            "−13.3%",
+            "+2.2%",
+            "$8.5M / #229",
+            ""
+          ],
+          [
+            "GNO (Gnosis)",
+            "$114.7",
+            "−9.5%",
+            "+7.1%",
+            "−0.7%",
+            "$12.4M / #133",
+            ""
+          ],
+          [
+            "XPL (Plasma)",
+            "$0.08554",
+            "−8.2%",
+            "−8.2%",
+            "+0.3%",
+            "$51.3M / #153",
+            ""
+          ],
+          [
+            "DRV (Derive)",
+            "$0.1350",
+            "−8.2%",
+            "+20.7%",
+            "−2.7%",
+            "$6.8M / #214",
+            ""
+          ],
+          [
+            "PI (Pi Network)",
+            "$0.07435",
+            "−8.1%",
+            "−26.9%",
+            "−0.5%",
+            "$22.2M / #76",
+            ""
+          ],
+          [
+            "LIT (Lighter)",
+            "$2.40",
+            "−7.5%",
+            "−2.2%",
+            "+1.2%",
+            "$48.6M / #92",
+            ""
+          ],
+          [
+            "CC (Canton)",
+            "$0.1326",
+            "−6.4%",
+            "+2.8%",
+            "−0.2%",
+            "$24.3M / #21",
+            "MAJOR"
+          ],
+          [
+            "KAITO",
+            "$0.7361",
+            "−6.0%",
+            "+8.4%",
+            "−1.9%",
+            "$40.6M / #179",
+            ""
+          ],
+          [
+            "BONK",
+            "$0.00000354",
+            "−5.9%",
+            "−11.6%",
+            "−0.3%",
+            "$46.9M / #128",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_trending": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending",
+        "level": "h2"
+      }
+    },
+    "trending_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "trending_1",
+        "trending_2",
+        "trending_3",
+        "trending_4",
+        "trending_5",
+        "trending_6",
+        "trending_7"
+      ]
+    },
+    "trending_1": {
+      "type": "Text",
+      "props": {
+        "text": "AKE (Akedo) — #831, $0.00085, 24h +33.5% [PUMP-RISK]"
+      }
+    },
+    "trending_2": {
+      "type": "Text",
+      "props": {
+        "text": "ANSEM (The Black Bull) — #301, $0.1865, 24h −22.8% [TRENDING+DOWN]"
+      }
+    },
+    "trending_3": {
+      "type": "Text",
+      "props": {
+        "text": "ONDO (Ondo) — #44, $0.3667, 24h +14.7% [TRENDING+UP]"
+      }
+    },
+    "trending_4": {
+      "type": "Text",
+      "props": {
+        "text": "CASHCAT (Cash Cat) — #269, $0.09723, 24h −20.0% [TRENDING+DOWN]"
+      }
+    },
+    "trending_5": {
+      "type": "Text",
+      "props": {
+        "text": "PENGU (Pudgy Penguins) — #118, $0.006064, 24h −1.9%"
+      }
+    },
+    "trending_6": {
+      "type": "Text",
+      "props": {
+        "text": "ADI — #72, $6.97, 24h +0.4%"
+      }
+    },
+    "trending_7": {
+      "type": "Text",
+      "props": {
+        "text": "BTC (Bitcoin) — #1, $64.0K, 24h −1.1% [MAJOR]"
+      }
+    },
+    "sep_4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_notable": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h2"
+      }
+    },
+    "notable_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "notable_1",
+        "notable_2",
+        "notable_3"
+      ]
+    },
+    "notable_1": {
+      "type": "Text",
+      "props": {
+        "text": "• ONDO: trending + up 14.7% on $275M vol — strongest liquid signal, RWA leader against a red tape"
+      }
+    },
+    "notable_2": {
+      "type": "Text",
+      "props": {
+        "text": "• AKE (Akedo): #831 trending, +33.5% — PUMP-RISK, microcap/low liquidity, treat spike with caution"
+      }
+    },
+    "notable_3": {
+      "type": "Text",
+      "props": {
+        "text": "• ANSEM & CASHCAT: both trending on −20%+ dumps — meme capitulation, no follow-through"
+      }
+    }
+  }
+}
