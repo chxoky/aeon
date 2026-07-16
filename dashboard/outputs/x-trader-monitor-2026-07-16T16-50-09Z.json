@@ -1,0 +1,86 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration Event"
+      },
+      "children": [
+        "heading",
+        "event-text",
+        "sep1",
+        "tweet",
+        "sep2",
+        "context-note",
+        "sep3",
+        "link"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "event-text": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Technical question about higher low price pattern",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "@Rektlife_ Higher low?"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "context-note": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — is this a personal trade idea/setup they're watching, or market commentary/analysis? Your read?",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View X Post",
+        "href": "https://x.com/Wild_Randomness/status/2077796098119451100",
+        "source": "@Wild_Randomness"
+      },
+      "children": []
+    }
+  }
+}

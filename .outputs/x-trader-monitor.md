@@ -13,3 +13,9 @@ Unable to classify — what's your read?
 - External content share?
 
 [View tweet](https://x.com/Wild_Randomness/status/2077795345573302668)
+Event: Technical question about higher low price pattern
+@Wild_Randomness: "@Rektlife_ Higher low?"
+
+Unable to classify — is this a personal trade idea/setup they're watching, or market commentary/analysis? Your read?
+
+[View post](https://x.com/Wild_Randomness/status/2077796098119451100)
