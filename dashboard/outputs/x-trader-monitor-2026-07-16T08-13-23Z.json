@@ -1,0 +1,55 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @swarmister"
+      },
+      "children": [
+        "description-text",
+        "timestamp-text",
+        "tweet-card",
+        "question-text",
+        "view-link"
+      ]
+    },
+    "description-text": {
+      "type": "Text",
+      "props": {
+        "text": "Cryptic message to @blancxbt with question marks and a shortened link. Cannot determine if this is market sentiment (concern about a price move/event) or personal banter.",
+        "variant": "body"
+      }
+    },
+    "timestamp-text": {
+      "type": "Text",
+      "props": {
+        "text": "08:08:59 UTC",
+        "variant": "caption"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "@swarmister",
+        "text": "@blancxbt ??? https://t.co/I16h3F9zRq"
+      }
+    },
+    "question-text": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "body"
+      }
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/swarmister/status/2077666793796026416"
+      }
+    }
+  }
+}
