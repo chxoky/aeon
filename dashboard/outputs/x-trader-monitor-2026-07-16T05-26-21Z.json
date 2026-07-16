@@ -1,0 +1,67 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "main-stack"
+      ]
+    },
+    "main-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "sep1",
+        "badge-info",
+        "classification-text",
+        "view-post-link"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "The 1st best time to short ETH was yday.\nThe 2nd best time might just be today."
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "badge-info": {
+      "type": "Badge",
+      "props": {
+        "text": "Informational",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "classification-text": {
+      "type": "Text",
+      "props": {
+        "text": "Bearish sentiment on ETH timing. Aligns with HCH's documented ETH short conviction (escalated +2%/+2% adds Jul 14–15, reaching 35% portfolio allocation target).",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "view-post-link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/HeartCanHodl/status/2077624380570608012"
+      },
+      "children": []
+    }
+  }
+}
