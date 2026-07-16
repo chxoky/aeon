@@ -1,0 +1,87 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @bull_genius"
+      },
+      "children": [
+        "content_stack"
+      ]
+    },
+    "content_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "skill_label",
+        "event_heading",
+        "sep1",
+        "quote_card",
+        "context_text",
+        "sep2",
+        "classification_alert",
+        "view_link"
+      ]
+    },
+    "skill_label": {
+      "type": "Badge",
+      "props": {
+        "text": "x-trader-monitor",
+        "variant": "secondary"
+      }
+    },
+    "event_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Event: Technical observation on price structure",
+        "level": "h3"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "quote_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "infinitybanyan",
+        "handle": "infinitybanyan",
+        "text": "where a quite weak low has been set as well"
+      }
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "Context: bull_genius watching for BTC flush of lows to enter; bearish HYPE near-term. This reply appears to reference a weak low being established — possibly BTC or HYPE."
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read? Is this market commentary to log, or does the 'weak low' reference a position entry/exit?",
+        "type": "info"
+      }
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/bull_genius/status/2077769368012820617"
+      }
+    }
+  }
+}
