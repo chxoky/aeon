@@ -1,9 +1,7 @@
-🐦 *[X] @Wild_Randomness*
+🔍 *Calibration — @HeartCanHodl*
 
-$MSFT — The worst looking monthly chart ended up pico-bottoming in real time. Wondering if this will be another one of those cases on the daily.
+Event: Mention reply to @rng149
 
-MSFT is a pure beneficiary of the semis down / saas/mags up dispersion trade. With implied correlation already at historic lows (I've been documenting this all month), I wonder if OPEX/vixpiry offers an opportunity for correlation to pick back up.
+HeartCanHodl: "@rng149 2024!"
 
-In that event, there is likely a trade to be made in MSFT, just as there was at $350 near the end of June.
-
-[View tweet](https://x.com/Wild_Randomness/status/2077802154455441595)
+Unable to classify — what's your read? (Extremely terse, no context visible in standalone post. Is this a date reference, callback to prior conversation, meme, or market sentiment?)
