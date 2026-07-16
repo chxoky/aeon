@@ -1,0 +1,299 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X-Trader Monitor: Calibration — @HeartCanHodl"
+      },
+      "children": [
+        "header-section",
+        "separator-1",
+        "tweet-section",
+        "separator-2",
+        "alert-unable",
+        "separator-3",
+        "memory-section",
+        "separator-4",
+        "interpretations-section",
+        "separator-5",
+        "footer-section"
+      ]
+    },
+    "header-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-context",
+        "text-event"
+      ]
+    },
+    "text-context": {
+      "type": "Text",
+      "props": {
+        "text": "Real-time X post at market open (09:09:06 UTC Jul 16, 2026)",
+        "variant": "caption"
+      }
+    },
+    "text-event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: HCH posted a single shortened URL with no accompanying text"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-section": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "https://t.co/c07NcDPdOU"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert-unable": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read?",
+        "type": "info"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "memory-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "mem-heading",
+        "mem-bullet-1",
+        "mem-bullet-2",
+        "mem-bullet-3",
+        "mem-bullet-4"
+      ]
+    },
+    "mem-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context from memory",
+        "level": "h3"
+      }
+    },
+    "mem-bullet-1": {
+      "type": "Text",
+      "props": {
+        "text": "HCH holds 35-40% portfolio in escalating short basket (BTC/ETH/SOL/HYPE/ZEC/UNI)"
+      }
+    },
+    "mem-bullet-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "mem-2-label",
+        "mem-2-content"
+      ]
+    },
+    "mem-2-label": {
+      "type": "Text",
+      "props": {
+        "text": "Last Discord message (08:52:36 UTC):",
+        "variant": "caption"
+      }
+    },
+    "mem-2-content": {
+      "type": "Text",
+      "props": {
+        "text": "Price-target estimate for BTC \"59k-60k as first stop\""
+      }
+    },
+    "mem-bullet-3": {
+      "type": "Text",
+      "props": {
+        "text": "Recent posts: technical level callouts, bearish sentiment, form confirmations"
+      }
+    },
+    "mem-bullet-4": {
+      "type": "Text",
+      "props": {
+        "text": "Pattern: HCH often shares shortened URLs for bearish market commentary/evidence"
+      }
+    },
+    "separator-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "interpretations-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "interp-heading",
+        "interp-1",
+        "interp-2",
+        "interp-3",
+        "interp-4"
+      ]
+    },
+    "interp-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Possible interpretations",
+        "level": "h3"
+      }
+    },
+    "interp-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-1",
+        "text-interp-1"
+      ]
+    },
+    "badge-1": {
+      "type": "Badge",
+      "props": {
+        "text": "1",
+        "variant": "secondary"
+      }
+    },
+    "text-interp-1": {
+      "type": "Text",
+      "props": {
+        "text": "Market structure validation / chart evidence supporting short thesis"
+      }
+    },
+    "interp-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-2",
+        "text-interp-2"
+      ]
+    },
+    "badge-2": {
+      "type": "Badge",
+      "props": {
+        "text": "2",
+        "variant": "secondary"
+      }
+    },
+    "text-interp-2": {
+      "type": "Text",
+      "props": {
+        "text": "News/on-chain data reinforcing bearish case"
+      }
+    },
+    "interp-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-3",
+        "text-interp-3"
+      ]
+    },
+    "badge-3": {
+      "type": "Badge",
+      "props": {
+        "text": "3",
+        "variant": "secondary"
+      }
+    },
+    "text-interp-3": {
+      "type": "Text",
+      "props": {
+        "text": "Technical analysis breakdown"
+      }
+    },
+    "interp-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-4",
+        "text-interp-4"
+      ]
+    },
+    "badge-4": {
+      "type": "Badge",
+      "props": {
+        "text": "4",
+        "variant": "secondary"
+      }
+    },
+    "text-interp-4": {
+      "type": "Text",
+      "props": {
+        "text": "Market sentiment confirmation"
+      }
+    },
+    "separator-5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "footer-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "footer-question",
+        "footer-tweet-link"
+      ]
+    },
+    "footer-question": {
+      "type": "Text",
+      "props": {
+        "text": "Please let me know if this references a specific prediction/chart, or if I should mirror any new position action from it."
+      }
+    },
+    "footer-tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet on X",
+        "href": "https://x.com/HeartCanHodl/status/2077681924651573421"
+      }
+    }
+  }
+}
