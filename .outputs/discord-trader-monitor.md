@@ -1,35 +1,26 @@
-💬 *[DC: Chase — TradFi]*
-
-Member: "any interest in bidding $820 on MU or has that trade played out"
-
-Chase: "Not certain yet. My issue with memory at the moment is that the S&P has barely even pulled back"
-Perfect! I've successfully executed the discord-trader-monitor skill with the provided Discord event. Here's what happened:
+Perfect! I've successfully processed the Discord event from KillaXBT. Here's what happened:
 
 ## Event Summary
 
-**Event**: Crypto_Chase confirmed closure of GOOG (Google) position
+**Trade: Partial Profit-Taking on BTC Scalp-Short Hedge**
 
-**Classification**: Trade-order-filled / Position Closure
+- **Trader:** KillaXBT  
+- **Channel:** Primary (1411492188315193416)  
+- **Time:** 2026-07-16 12:43:56 UTC  
+- **Classification:** `trade-partial-tp` (partial take-profit execution)  
+- **Ticker:** BTC  
 
-**Details**:
-- **Time**: 2026-07-16 12:38:19 UTC
-- **Channel**: Chase — Chase (primary channel)
-- **Message**: "Took the high. I know this trade was scattered all over the place and smaller position size, but officially closed."
-- **Context**: This was a reply to earlier guidance to take profit on any remaining Google position at current highs (offered Jul 15 16:23:54 UTC)
+**Details:**
+- Taking 25% profits at 2% directional move from entry zone
+- Original scalp-short ladder entry: 64.8-65.8K (filled Jul 14)
+- Position sizing: ~30% hedge against 2x HTF long from 62.6K
+- Next scale-out target: 4% favorable move (additional profit-taking planned)
+- Chart attachment included
 
-**Position History**:
-- **Entry**: Jun 23, 2026 at ~$342
-- **Hold period**: 24 days
-- **TP sequence**: Scaled out through multiple phases ($342 → $336 → $352.84 → final high close)
-- **Final size**: 25% core position → now fully closed
-- **Profit**: Profitable across all TP executions
+**Status:**
+- ✅ Fast-path alert already sent by Cloudflare Worker (~2-5s latency)
+- ✅ Memory updated (traders.md, discord-trader-seen.txt)
+- ✅ Event logged to 2026-07-16.md
+- ✅ Position status updated to reflect profit-taking phase
 
-**Updates Made**:
-✅ Added message ID (1527293303068819607) to discord-trader-seen.txt
-✅ Updated traders.md with full event details in Crypto_Chase section
-✅ Marked GOOG as fully closed in active-trades.md
-✅ Added event log entry to 2026-07-16.md
-
-**Alert Status**: Fast-path alerted (Cloudflare Worker already sent Telegram to Kyle ~2-5s after the message)
-
-The skill processing is complete with memory updated.
+**Context:** This represents active position management on KillaXBT's documented tactical hedge. The scalp-short is showing profitability while the HTF 2x long conviction remains unchanged. The laddered profit-taking approach aligns with documented trading discipline.
