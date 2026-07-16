@@ -1,0 +1,239 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor — Chase Signal Calibration",
+        "description": "Support channel reply analysis in TradFi member discussion"
+      },
+      "children": [
+        "header",
+        "event",
+        "quote-section",
+        "context-section",
+        "sep1",
+        "analysis-section",
+        "question"
+      ]
+    },
+    "header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "search-icon-text",
+        "badge-dc",
+        "badge-chase",
+        "badge-tradfi"
+      ]
+    },
+    "search-icon-text": {
+      "type": "Text",
+      "props": {
+        "text": "🔍 Calibration",
+        "variant": "lead"
+      }
+    },
+    "badge-dc": {
+      "type": "Badge",
+      "props": {
+        "text": "DC"
+      }
+    },
+    "badge-chase": {
+      "type": "Badge",
+      "props": {
+        "text": "Chase"
+      }
+    },
+    "badge-tradfi": {
+      "type": "Badge",
+      "props": {
+        "text": "TradFi"
+      }
+    },
+    "event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Support channel reply in TradFi member discussion",
+        "variant": "caption"
+      }
+    },
+    "quote-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "quote-label",
+        "quote-box"
+      ]
+    },
+    "quote-label": {
+      "type": "Text",
+      "props": {
+        "text": "Crypto_Chase:",
+        "variant": "body"
+      }
+    },
+    "quote-box": {
+      "type": "Text",
+      "props": {
+        "text": "\"86~ me thinks\"",
+        "variant": "body"
+      }
+    },
+    "context-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context-title",
+        "context-intro",
+        "message1",
+        "message2"
+      ]
+    },
+    "context-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h4"
+      }
+    },
+    "context-intro": {
+      "type": "Text",
+      "props": {
+        "text": "Yesterday (Jul 15) Chase left similar cryptic hints in this channel:",
+        "variant": "body"
+      }
+    },
+    "message1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "time1",
+        "msg1"
+      ]
+    },
+    "time1": {
+      "type": "Badge",
+      "props": {
+        "text": "18:01:52 UTC",
+        "variant": "secondary"
+      }
+    },
+    "msg1": {
+      "type": "Text",
+      "props": {
+        "text": "\"hopefully tho\"",
+        "variant": "body"
+      }
+    },
+    "message2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "time2",
+        "msg2"
+      ]
+    },
+    "time2": {
+      "type": "Badge",
+      "props": {
+        "text": "18:17:21 UTC",
+        "variant": "secondary"
+      }
+    },
+    "msg2": {
+      "type": "Text",
+      "props": {
+        "text": "\"yeah hopefully patience pays\"",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis-title",
+        "analysis-intro",
+        "interp1",
+        "interp2",
+        "interp3",
+        "interp4"
+      ]
+    },
+    "analysis-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Unable to classify",
+        "level": "h4"
+      }
+    },
+    "analysis-intro": {
+      "type": "Text",
+      "props": {
+        "text": "Possible interpretations:",
+        "variant": "body"
+      }
+    },
+    "interp1": {
+      "type": "Text",
+      "props": {
+        "text": "• Bullish conviction on watched longs (SPX/HYPE/BTC)?",
+        "variant": "body"
+      }
+    },
+    "interp2": {
+      "type": "Text",
+      "props": {
+        "text": "• Position size or percentage reference (86%)?",
+        "variant": "body"
+      }
+    },
+    "interp3": {
+      "type": "Text",
+      "props": {
+        "text": "• Price level hint (86k something)?",
+        "variant": "body"
+      }
+    },
+    "interp4": {
+      "type": "Text",
+      "props": {
+        "text": "• Or off-topic sentiment?",
+        "variant": "body"
+      }
+    },
+    "question": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "lead"
+      }
+    }
+  }
+}
