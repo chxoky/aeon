@@ -15,3 +15,8 @@ Unable to classify — possible interpretations:
 - Or off-topic sentiment?
 
 What's your read?
+Event: Message posted in TradFi supporting channel (member Q&A area)
+
+Crypto_Chase: "But that doesn't mean that's the entire trade"
+
+Unable to classify — lacking prior context. Is this referencing an ongoing trade discussion? What trade is being discussed?

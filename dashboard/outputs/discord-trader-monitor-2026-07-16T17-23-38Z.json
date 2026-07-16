@@ -1,0 +1,150 @@
+{
+  "root": "root_card",
+  "state": {},
+  "elements": {
+    "root_card": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor — Calibration",
+        "description": "Classification Issue in TradFi Channel"
+      },
+      "children": [
+        "context_tags",
+        "separator_1",
+        "event_block",
+        "message_block",
+        "separator_2",
+        "classification_alert",
+        "questions_block"
+      ]
+    },
+    "context_tags": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "chase_badge",
+        "tradfi_badge"
+      ]
+    },
+    "chase_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Chase",
+        "variant": "secondary"
+      }
+    },
+    "tradfi_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "TradFi",
+        "variant": "secondary"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "event_block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event_label",
+        "event_text"
+      ]
+    },
+    "event_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h4"
+      }
+    },
+    "event_text": {
+      "type": "Text",
+      "props": {
+        "text": "Message posted in TradFi supporting channel (member Q&A area)",
+        "variant": "body"
+      }
+    },
+    "message_block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "message_author",
+        "message_content"
+      ]
+    },
+    "message_author": {
+      "type": "Text",
+      "props": {
+        "text": "Crypto_Chase",
+        "variant": "lead"
+      }
+    },
+    "message_content": {
+      "type": "Text",
+      "props": {
+        "text": "\"But that doesn't mean that's the entire trade\"",
+        "variant": "body"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to Classify",
+        "message": "Lacking prior context",
+        "type": "warning"
+      }
+    },
+    "questions_block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "question_label",
+        "question_1",
+        "question_2"
+      ]
+    },
+    "question_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Unanswered Questions",
+        "level": "h4"
+      }
+    },
+    "question_1": {
+      "type": "Text",
+      "props": {
+        "text": "Is this referencing an ongoing trade discussion?",
+        "variant": "caption"
+      }
+    },
+    "question_2": {
+      "type": "Text",
+      "props": {
+        "text": "What trade is being discussed?",
+        "variant": "caption"
+      }
+    }
+  }
+}
