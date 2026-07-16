@@ -1,0 +1,113 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @HeartCanHodl"
+      },
+      "children": [
+        "event_info",
+        "sep_1",
+        "tweet_post",
+        "sep_2",
+        "alert_unclassified",
+        "text_analysis",
+        "heading_interpretations",
+        "stack_interpretations",
+        "sep_3",
+        "link_post"
+      ]
+    },
+    "event_info": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Cryptic X post (Jul 16 07:37:56 UTC)",
+        "variant": "caption"
+      }
+    },
+    "sep_1": {
+      "type": "Separator"
+    },
+    "tweet_post": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "One of the good ones ;)"
+      }
+    },
+    "sep_2": {
+      "type": "Separator"
+    },
+    "alert_unclassified": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to Classify",
+        "message": "What's your read?",
+        "type": "warning"
+      }
+    },
+    "text_analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Terse message with no ticker/level/context. Winking emoji suggests sarcasm or positive sentiment. Given HCH's escalating 35% portfolio short conviction, could indicate multiple scenarios."
+      }
+    },
+    "heading_interpretations": {
+      "type": "Heading",
+      "props": {
+        "text": "Possible Interpretations",
+        "level": "h3"
+      }
+    },
+    "stack_interpretations": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_interp_a",
+        "text_interp_b",
+        "text_interp_c",
+        "text_interp_d"
+      ]
+    },
+    "text_interp_a": {
+      "type": "Text",
+      "props": {
+        "text": "(a) Affirmation of short thesis validity"
+      }
+    },
+    "text_interp_b": {
+      "type": "Text",
+      "props": {
+        "text": "(b) Sarcastic comment on market"
+      }
+    },
+    "text_interp_c": {
+      "type": "Text",
+      "props": {
+        "text": "(c) Personal banter unrelated to market"
+      }
+    },
+    "text_interp_d": {
+      "type": "Text",
+      "props": {
+        "text": "(d) Reference to external event"
+      }
+    },
+    "sep_3": {
+      "type": "Separator"
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/HeartCanHodl/status/2077658979497599456"
+      }
+    }
+  }
+}
