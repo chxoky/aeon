@@ -1,5 +1,5 @@
-↩️ _A must have Ema in your trading view account_
-
 💬 *[DC: HCH — Free]*
 
-Fc SKHynix 4hr ema50
+$Uni trading like arthur hayes started twap selling
+
+_Context: HCH holds 1% UNI short (added Jul 14). Reinforces bearish sentiment on UNI position._

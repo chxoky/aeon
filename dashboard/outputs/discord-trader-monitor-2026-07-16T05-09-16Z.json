@@ -1,0 +1,97 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "header",
+        "message",
+        "separator",
+        "context_stack"
+      ]
+    },
+    "header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "emoji",
+        "source_badge"
+      ]
+    },
+    "emoji": {
+      "type": "Text",
+      "props": {
+        "text": "💬"
+      }
+    },
+    "source_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DC: HCH — Free",
+        "variant": "default"
+      }
+    },
+    "message": {
+      "type": "Text",
+      "props": {
+        "text": "$Uni trading like arthur hayes started twap selling",
+        "variant": "lead"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_heading",
+        "position_info",
+        "added_date",
+        "sentiment_note"
+      ]
+    },
+    "context_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h4"
+      }
+    },
+    "position_info": {
+      "type": "Stat",
+      "props": {
+        "label": "UNI Position",
+        "value": "1% Short",
+        "trend": "down"
+      }
+    },
+    "added_date": {
+      "type": "Text",
+      "props": {
+        "text": "Added Jul 14",
+        "variant": "caption"
+      }
+    },
+    "sentiment_note": {
+      "type": "Text",
+      "props": {
+        "text": "Reinforces bearish sentiment on UNI position.",
+        "variant": "body"
+      }
+    }
+  }
+}
