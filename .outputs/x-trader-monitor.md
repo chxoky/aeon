@@ -1,9 +1,7 @@
-🐦 *[X] @KillaXBT*
+🔍 *Calibration — @swarmister*
 
-$BTC
+Event: Tweet with shortened URL
 
-As always, market follows liquidity ✅
+swarmister: "Ahhh, anyway, this is for you https://t.co/z8EUUVcROL"
 
-[View tweet](https://x.com/KillaXBT/status/2077729332382867819)
-
-↳ _Reinforces macro-bullish conviction on existing 2x long from 62.6K. Liquidity focus aligns with recent bottom-formation thesis post (Jul 15 21:51 UTC)._
+Unable to classify without URL context — what's the intent? Market signal, chart link, or personal share?
