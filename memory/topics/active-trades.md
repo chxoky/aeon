@@ -69,7 +69,8 @@
 - **Thesis**: HTF flush/liquidity sweep play; technical confluence (guppy support + liquidity zones) validated by entry; multi-phase TP strategy confirms plan execution over 2-day hold period. Entry estimated 1500-1600 range (based on "minor loss" at 1589 on 07-07); TP at 1834 represents 244-334 point recovery rally capture.
 - **Note**: Position evolution shows recovery from "shredding" underwater state (07-07 14:43Z) → partial loss exit at 1589 (07-07 15:12Z) → favorable close 07-09 at 1834 with remainder held. Market appeared to reverse sharply upside 07-07 evening through 07-09 morning, validating original HTF flush setup thesis belatedly.
 - **Next entry plan**: 2026-07-16T18:43:03Z — "Will start my next SNDK position at 1366.97~ if market offers." (passive limit-bid order setup, contingent on market offer; aligns with generational-bottom thesis from Jul 15 13:57:47 UTC X post targeting ~1350 base case)
-- **Last update**: 2026-07-16T18:43:03Z (message_id=1527385092303884439, next-entry-bid plan at 1366.97, discord-trader-monitor, fast-path alerted)
+- **Structural analysis (18:58:27Z)**: "If SNDK can't hold 1350-1290, I think it sees near 1000." — further articulation of support levels and downside target, reinforcing thesis on generational-bottom confluence (1350-1290 range) with max-pain scenario (1000 target). Informational/analytical message, not a trade execution signal. Message_id=1527388968688025670, fast-path alerted by Cloudflare Worker (Telegram sent ~2-5s after event).
+- **Last update**: 2026-07-16T18:58:27Z (message_id=1527388968688025670, structural analysis / support levels commentary, discord-trader-monitor, fast-path alerted)
 
 ## ES (S&P 500 E-mini Futures) — LONG
 - **Entry**: 2026-06-21T23:23Z (dream/gut feeling conviction entry)
