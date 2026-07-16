@@ -1,0 +1,129 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor: Calibration — @swarmister",
+        "description": "Follow-up validation on paid call detection"
+      },
+      "children": [
+        "heading_event",
+        "separator_1",
+        "text_timestamp",
+        "text_response",
+        "badge_validation",
+        "separator_2",
+        "heading_context",
+        "text_context_1",
+        "separator_3",
+        "heading_questions",
+        "alert_uncertainty",
+        "separator_4",
+        "link_post"
+      ]
+    },
+    "heading_event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text_timestamp": {
+      "type": "Text",
+      "props": {
+        "text": "Follow-up to 11:49:13 UTC '@blancxbt A paid call has been detected'",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_response": {
+      "type": "Text",
+      "props": {
+        "text": "swarmister: \"@blancxbt True (not fake)\"",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "badge_validation": {
+      "type": "Badge",
+      "props": {
+        "text": "Response: Genuine/Validated",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_context": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text_context_1": {
+      "type": "Text",
+      "props": {
+        "text": "Earlier cryptic post mentioned paid call detection (awaiting calibration). Current response appears to validate the detection as genuine.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_questions": {
+      "type": "Heading",
+      "props": {
+        "text": "Unable to classify without understanding:",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "alert_uncertainty": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Classification requires clarification",
+        "message": "1) Is swarmister actively trading off external paid signals?\n2) Did he enter a position based on the paid call mentioned at 11:49:13?\n3) Is this just meta-discussion unrelated to his personal trading?"
+      },
+      "children": []
+    },
+    "separator_4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/swarmister/status/2077734352922804254"
+      },
+      "children": []
+    }
+  }
+}
