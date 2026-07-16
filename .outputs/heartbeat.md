@@ -1,22 +1,19 @@
-Heartbeat complete. Everything is green — no notification sent.
-
 `HEARTBEAT_OK · STATUS_PAGE=OK`
 
 ## Summary
 
-Ran the `heartbeat` skill for 2026-07-16 14:32 UTC. All priority tiers clear.
+Ran the `heartbeat` skill for the 2026-07-16 20:00 UTC slot. Everything is green — **no notification sent**.
 
 **Checks performed:**
-- **P0 — Failed/stuck skills:** No real skill failures. The only `failed` entry is `chain:morning-pipeline` (08:59Z) — the known benign chain-orchestration wrapper artifact; the actual `morning-pipeline` skill succeeded at 09:14Z and `skill-health` classified the fleet healthy. Recurred harmlessly across prior heartbeats → deduped, no notification. No stuck skills, no consecutive_failures ≥ 3, no chronic failures, heartbeat self-check fresh (09:02Z).
-- **P0 — X webhook rule:** `WATCHED_TRADERS` (rule_id `35f3c57…`) active — `is_effect: 1`, all 12 accounts, 180s interval. ISS-002 stays resolved; no action.
-- **P1:** 0 open PRs; repo issues disabled (nothing to triage).
-- **P2:** No flagged memory items (Open Calibration Items: None).
-- **P3:** All enabled scheduled skills within 2× their interval.
-
-**Overall verdict:** 🟢 OK — no P0/P1/P2/P3 flags fired.
+- **P0 — Failed/stuck skills:** No stuck skills. The only `failed` entry is `chain:morning-pipeline` (08:59 UTC exit-1), a known stale one-shot chain-wrapper artifact — the underlying `morning-pipeline` succeeded the same run (09:14 UTC) and `skill-health` classified the fleet healthy. Already flagged in prior heartbeats, so dedup'd. No enabled skill failed → overall verdict stays OK.
+- **P0 — X webhook rule (ISS-002 guard):** `WATCHED_TRADERS` rule (`35f3c57…`) is **active** — `is_effect:1`, all 12 tracked accounts, 180s interval. ISS-002 remains resolved.
+- **P1:** 0 open PRs; repo issues disabled (no urgent issues).
+- **P2:** No flagged memory follow-ups.
+- **P3:** All enabled scheduled skills current (`morning-brief` runs inside the `morning-pipeline` chain — not a real gap).
+- **No API degradation, no chronic failures, heartbeat self-check healthy** (last success 14:35 UTC).
 
 **Files modified:**
-- `docs/status.md` — regenerated public status page (Overall 🟢 OK, Updated 14:32 UTC, next run `skill-health` at 18:00 UTC; Token pulse section omitted — no `token-report-*.md` article exists; 15-row skill-health table sorted by last-run desc).
-- `memory/logs/2026-07-16.md` — appended heartbeat log entry.
+- `docs/status.md` — regenerated public status page (Overall 🟢 OK, 0 open issues, next run morning-brief 07:00 UTC, refreshed skill-health table timestamps).
+- `memory/logs/2026-07-16.md` — appended heartbeat run log entry.
 
-**Follow-up:** None. The `chain:morning-pipeline` wrapper exit-1 remains a cosmetic one-shot artifact; worth a future fix in `chain-runner.yml` so the wrapper's exit code reflects the recovered pipeline result, but it has no operational impact.
+**Follow-up:** None. The `chain:morning-pipeline` wrapper artifact keeps surfacing harmlessly each heartbeat; if the noise is unwanted, the `chain-runner.yml` Step-1 exit-1-then-recover behavior could eventually be investigated, but it does not affect delivery.
