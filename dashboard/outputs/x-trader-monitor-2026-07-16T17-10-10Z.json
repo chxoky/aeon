@@ -1,0 +1,43 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "link-tweet"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "$MSFT — The worst looking monthly chart ended up pico-bottoming in real time. Wondering if this will be another one of those cases on the daily.\n\nMSFT is a pure beneficiary of the semis down / saas/mags up dispersion trade. With implied correlation already at historic lows (I've been documenting this all month), I wonder if OPEX/vixpiry offers an opportunity for correlation to pick back up.\n\nIn that event, there is likely a trade to be made in MSFT, just as there was at $350 near the end of June."
+      },
+      "children": []
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2077802154455441595"
+      },
+      "children": []
+    }
+  }
+}

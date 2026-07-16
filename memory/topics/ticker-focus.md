@@ -16,6 +16,7 @@
 - $Gold (normalize: $GC, $XAUUSD, $GLD, $GOLD, $XAU → treat as one) — Crypto_Chase interested ~3,820 (watching PA before bidding).
 
 ## Quiet tickers (single-trader mentions, tracked silently)
+- **MSFT**: Wild_Randomness (Jul 16 17:06 UTC) — dispersion-trade analysis on semis-down / SaaS-Mags-up beneficiary; technical "pico-bottom" on monthly; speculation on OPEX/vixpiry correlation-snap-up opportunity. Single-trader mention, tracked silently pending cross-trader convergence.
 - **cashcat** (onchain): bull_genius (closed 15x trade), ryzzqq (squeeze-exhaustion commentary Jul 15 06:09) — CONVERGING THEME (second mention in short window; tracking for momentum acceleration)
 - **$SKHynix**: HeartCanHodl (technical analysis on 4H EMA50 structure, Jul 15 11:10) — single mention, memory/semis sector tracking (aligns with bearish memory-stock skepticism theme)
 - **$UNI** (Uniswap): HeartCanHodl — SHORT, 1% added Jul 14 on secondary account (first mention in tracked window); extended to +1% primary channel add Jul 16 05:06:02 UTC (escalating short conviction)
