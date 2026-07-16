@@ -1,0 +1,196 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet-card",
+        "view-link",
+        "sep-1",
+        "analysis-stack"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "text": "@DanielFellow 4-5% downmove was quick"
+      },
+      "children": []
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/HeartCanHodl/status/2077633869281689955"
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "sentiment-label",
+        "sentiment-text",
+        "portfolio-header",
+        "portfolio-alloc",
+        "portfolio-grid",
+        "technical-header",
+        "tech-badges",
+        "conclusion-text"
+      ]
+    },
+    "sentiment-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Sentiment Validation",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "sentiment-text": {
+      "type": "Text",
+      "props": {
+        "text": "Existing bearish short basket. Quick downmove aligns with prior support-level targets. Reinforces short conviction timing.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "portfolio-header": {
+      "type": "Text",
+      "props": {
+        "text": "Bearish Short Basket",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "portfolio-alloc": {
+      "type": "Badge",
+      "props": {
+        "text": "35% portfolio allocation",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "portfolio-grid": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-btc",
+        "stat-eth",
+        "stat-sol",
+        "stat-hype",
+        "stat-zec",
+        "stat-uni"
+      ]
+    },
+    "stat-btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "+3%"
+      },
+      "children": []
+    },
+    "stat-eth": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "+2%"
+      },
+      "children": []
+    },
+    "stat-sol": {
+      "type": "Stat",
+      "props": {
+        "label": "SOL",
+        "value": "+2%"
+      },
+      "children": []
+    },
+    "stat-hype": {
+      "type": "Stat",
+      "props": {
+        "label": "HYPE",
+        "value": "+2%"
+      },
+      "children": []
+    },
+    "stat-zec": {
+      "type": "Stat",
+      "props": {
+        "label": "ZEC",
+        "value": "+1%"
+      },
+      "children": []
+    },
+    "stat-uni": {
+      "type": "Stat",
+      "props": {
+        "label": "UNI",
+        "value": "+1%"
+      },
+      "children": []
+    },
+    "technical-header": {
+      "type": "Text",
+      "props": {
+        "text": "Technical Support Levels",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "tech-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-level-1",
+        "badge-level-2"
+      ]
+    },
+    "badge-level-1": {
+      "type": "Badge",
+      "props": {
+        "text": "59-60K",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge-level-2": {
+      "type": "Badge",
+      "props": {
+        "text": "60.8K/59.3K",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "conclusion-text": {
+      "type": "Text",
+      "props": {
+        "text": "Quick downmove validates prior support-level targets. Conviction reinforced.",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
