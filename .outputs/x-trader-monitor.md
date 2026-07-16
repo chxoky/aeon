@@ -1,17 +1,7 @@
-## Summary
+🐦 *[X] @HeartCanHodl*
 
-I've processed the x-trader-monitor skill event for @swarmister's tweet (ID: 2077697237887385826).
+Short when it's fearful. Short more when it looks like holding again. Short again when ema starts rejecting. Then size more all the way down and finally cover when everybody start lowering their bottom targets. You win.
 
-**Classification: SKIP (Non-financial)**
+[View tweet](https://x.com/HeartCanHodl/status/2077701074761486651)
 
-The tweet is a reply to @cobie and @heart_ containing purely personal, philosophical banter about delegating work and pain-seeking behavior. It contains:
-- ❌ No trade actions
-- ❌ No financial tickers or price levels  
-- ❌ No market opinions or signals
-- ✅ Just personal social commentary
-
-Per the skill's **Category A** classification (Step 4), this was silently skipped with no alert to Kyle.
-
-**Updates made:**
-- Added tweet ID `2077697237887385826` to `memory/x-trader-seen.txt` (prevents reprocessing on Worker retry)
-- Logged event to `memory/logs/2026-07-16.md` with classification and notes
+↳ _Reinforces HCH's escalating short-basket conviction (BTC/ETH/SOL/ZEC +35% portfolio through Jul 14-15); frames the structural-bear thesis: scale into fear, exit on capitulation signals._

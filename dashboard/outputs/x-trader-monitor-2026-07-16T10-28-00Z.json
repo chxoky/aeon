@@ -1,0 +1,129 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "link_view",
+        "separator_1",
+        "stack_context"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Heart Can Hodl",
+        "handle": "@HeartCanHodl",
+        "text": "Short when it's fearful. Short more when it looks like holding again. Short again when ema starts rejecting. Then size more all the way down and finally cover when everybody start lowering their bottom targets. You win."
+      }
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/HeartCanHodl/status/2077701074761486651"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_reinforces",
+        "stack_holdings",
+        "stat_performance",
+        "text_thesis"
+      ]
+    },
+    "text_reinforces": {
+      "type": "Text",
+      "props": {
+        "text": "Reinforces HCH's escalating short-basket conviction",
+        "variant": "lead"
+      }
+    },
+    "stack_holdings": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "text_holdings_label",
+        "badge_btc",
+        "badge_eth",
+        "badge_sol",
+        "badge_zec"
+      ]
+    },
+    "text_holdings_label": {
+      "type": "Text",
+      "props": {
+        "text": "Holdings:",
+        "variant": "caption"
+      }
+    },
+    "badge_btc": {
+      "type": "Badge",
+      "props": {
+        "text": "BTC"
+      }
+    },
+    "badge_eth": {
+      "type": "Badge",
+      "props": {
+        "text": "ETH"
+      }
+    },
+    "badge_sol": {
+      "type": "Badge",
+      "props": {
+        "text": "SOL"
+      }
+    },
+    "badge_zec": {
+      "type": "Badge",
+      "props": {
+        "text": "ZEC"
+      }
+    },
+    "stat_performance": {
+      "type": "Stat",
+      "props": {
+        "label": "Portfolio (Jul 14–15)",
+        "value": "+35%",
+        "trend": "up"
+      }
+    },
+    "text_thesis": {
+      "type": "Text",
+      "props": {
+        "text": "Frames the structural-bear thesis: scale into fear, exit on capitulation signals.",
+        "variant": "body"
+      }
+    }
+  }
+}
