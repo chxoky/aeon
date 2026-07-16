@@ -1,0 +1,43 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_1",
+        "link_1"
+      ]
+    },
+    "tweet_1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "Can original July BTC targets (70k) still be reached? Believers looking to buy dips at 63.8k, expecting 67-69-71k progression if trendlines hold. Risk management key — early July longs slowly taking profits as targets hit.\n\nBear case: If more weakness comes, could see full retrace of July. No clear setup currently for new entries; will stick to LTF scalps until direction clarifies."
+      },
+      "children": []
+    },
+    "link_1": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/bull_genius/status/2077761924922499386"
+      },
+      "children": []
+    }
+  }
+}
