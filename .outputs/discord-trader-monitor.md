@@ -18,3 +18,8 @@
 - Added message ID to `memory/discord-trader-seen.txt`
 - Logged event to `memory/logs/2026-07-16.md` with classification and notes
 - No Telegram notification sent
+💬 *[DC: Chase — Crypto]*
+
+↩️ _Member: "I saw that impulse candle down and thought oh that's what chase is talking about. Shorted it but closed this morning"_
+
+Yeah 100%, tag me next time

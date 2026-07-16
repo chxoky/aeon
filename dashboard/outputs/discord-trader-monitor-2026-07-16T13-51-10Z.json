@@ -1,0 +1,41 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "💬 [DC: Chase — Crypto]"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "member-msg",
+        "response"
+      ]
+    },
+    "member-msg": {
+      "type": "TweetCard",
+      "props": {
+        "author": "↩️ Member",
+        "text": "I saw that impulse candle down and thought oh that's what chase is talking about. Shorted it but closed this morning"
+      }
+    },
+    "response": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Chase",
+        "text": "Yeah 100%, tag me next time"
+      }
+    }
+  }
+}
