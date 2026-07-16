@@ -17,3 +17,12 @@
 - ✅ No Telegram alert sent (silent skip per Step 7 supporting-channel protocol)
 
 The event is complete. Kyle missed this profitable HYPE deviation trade (it happened Jul 15), so this is purely retrospective social commentary on a completed position.
+🔍 *Calibration — [DC: Chase — Crypto]*
+
+**Event:** Crypto_Chase message in supporting channel
+
+**Message:** 'Quick deviation, quick impulse, fair value gap etc'
+
+**Context:** Recent use of deviation terminology in technical guidance. Current message could be market observation, technical teaching, or setup signal.
+
+**Unable to classify — what's your read?** (ID: 1527301365892907120)
