@@ -1,9 +1,8 @@
-🐦 *[X] @HeartCanHodl*
+🔍 *Calibration — @swarmister*
 
-Funny enough, the whales who made a killing on named memes have completely vanished too. 
+Event: Real-time post with image
+Post: @BittexXBT https://t.co/6hcTNQ9Vtp [image]
 
-Not sure what that says about this bear market or how fast people lose quick wealth.
+Unable to classify — the post is minimal (just a mention + link) and I can't read the image content. Is this a trade signal, technical chart, or social share? How should I read it?
 
-[View tweet](https://x.com/HeartCanHodl/status/2077662277801759116)
-
-↳ _Bearish macro sentiment on whale capitulation + wealth destruction in bear cycle — aligns with HCH's documented 35% short basket positioning (BTC/ETH/SOL/ZEC/HYPE/UNI adds Jul 14-15)._
+[View post](https://x.com/swarmister/status/2077664458948612300)

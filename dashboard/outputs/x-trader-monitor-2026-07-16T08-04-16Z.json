@@ -1,0 +1,58 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @swarmister"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event_type",
+        "post_card",
+        "alert_classification",
+        "link_view"
+      ]
+    },
+    "event_type": {
+      "type": "Text",
+      "props": {
+        "text": "Real-time post with image",
+        "variant": "caption"
+      }
+    },
+    "post_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "@BittexXBT https://t.co/6hcTNQ9Vtp [image]"
+      }
+    },
+    "alert_classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "The post is minimal (just a mention + link) and I can't read the image content. Is this a trade signal, technical chart, or social share? How should I read it?",
+        "type": "warning"
+      }
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/swarmister/status/2077664458948612300"
+      }
+    }
+  }
+}
