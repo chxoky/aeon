@@ -1,8 +1,8 @@
-## Summary
+🐦 *[X] @swarmister*
 
-Executed x-trader-monitor skill for tweet ID 2077668671258788008 from @swarmister.
+$BTC Daily
 
-**Classification: SKIP (Non-financial/Personal Banter)**
+We're testing last week's POC, which was previously broken to the upside, although it actually looks like it might dip a little lower here
 
 What's your read? [View tweet](https://x.com/swarmister/status/2077666793796026416)
 ## Summary
@@ -36,3 +36,4 @@ The tweet "@blancxbt An indescribable feeling, as if it were unreal\n\nFuck you 
 🔍 **Calibration — @HeartCanHodl**
 
 Context: Recent posts on BTC support levels (59-60K critical test), bearish sentiment (risky
+[View tweet](https://x.com/swarmister/status/2077670381926678958)
