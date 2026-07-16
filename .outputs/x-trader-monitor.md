@@ -30,3 +30,10 @@ The most interesting scenario remains a test of the indicated Order Block, which
 
 ↳ _This lines up with KillaXBT's structural bull thesis (2x long @62.6K, HTF conviction) and t_in_crypto's patience play (100% @58.4K). Convergence on bullish medium-term bias; specific zones (62.2-62.8k correction, 70.5k targets) add technical clarity._
 The tweet is pure personal meta-commentary with zero financial signal, so it was correctly classified as a silent skip.
+🐦 *[X] @t_in_crypto*
+
+"If you're short, you'll soon be called by liquidation. The top will only come when I close my long"
+
+[View tweet](https://x.com/t_in_crypto/status/2077781421779755362)
+
+↳ *Bullish conviction reinforcement on BTC long.* Trader holding 2x leveraged position from 58.4K (added at 62K on Jul 14), explicitly broadcasting confidence in sustained upside — warning liquidations for shorts, positioning as long-term holder.

@@ -1,0 +1,50 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-1",
+        "link-view",
+        "sep-1",
+        "text-analysis"
+      ]
+    },
+    "tweet-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "handle": "@t_in_crypto",
+        "text": "If you're short, you'll soon be called by liquidation. The top will only come when I close my long"
+      },
+      "children": []
+    },
+    "link-view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/t_in_crypto/status/2077781421779755362"
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text-analysis": {
+      "type": "Text",
+      "props": {
+        "text": "↳ Bullish conviction reinforcement on BTC long. Trader holding 2x leveraged position from 58.4K (added at 62K on Jul 14), explicitly broadcasting confidence in sustained upside — warning liquidations for shorts, positioning as long-term holder.",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
