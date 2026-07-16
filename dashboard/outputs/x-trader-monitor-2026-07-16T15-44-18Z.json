@@ -1,0 +1,236 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "BTC trading analysis and market outlook"
+      },
+      "children": [
+        "tweet_card",
+        "sep1",
+        "analysis_stack"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "@swarmister",
+        "text": "$BTC 1D + 4H timeframes, detailed analysis\n\nI maintain a bullish outlook for the medium term. However, before the uptrend continues, I expect a correction of several inefficiencies, which I plan to use to build up long positions. The main area of interest is around +-62.2-62.8k, with targets in the 70.5k range.\n\nWithin the current range, there are clear signs of accumulation. The forming upward IOF reinforces the likelihood of continued price appreciation and makes it reasonable to consider medium-term buys within the current range.\n\nThe most interesting scenario remains a test of the indicated Order Block, which, in my view, is highly likely to create conditions for the upward movement to continue."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "outlook_section",
+        "sep2",
+        "levels_section",
+        "sep3",
+        "convergence_section",
+        "sep4",
+        "link_section"
+      ]
+    },
+    "outlook_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "outlook_heading",
+        "outlook_text1",
+        "outlook_text2"
+      ]
+    },
+    "outlook_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Market Outlook",
+        "level": "h3"
+      }
+    },
+    "outlook_text1": {
+      "type": "Text",
+      "props": {
+        "text": "Bullish medium-term bias with expected correction before continuation. Plan to build long positions at attractive levels.",
+        "variant": "body"
+      }
+    },
+    "outlook_text2": {
+      "type": "Text",
+      "props": {
+        "text": "Clear signs of accumulation within current range; forming upward IOF reinforces likelihood of price appreciation. Order Block test scenario highly likely to create upward movement conditions.",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "levels_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "levels_heading",
+        "levels_grid"
+      ]
+    },
+    "levels_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Key Price Levels",
+        "level": "h3"
+      }
+    },
+    "levels_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "correction_level",
+        "target_level"
+      ]
+    },
+    "correction_level": {
+      "type": "Stat",
+      "props": {
+        "label": "Correction Zone",
+        "value": "$62.2k - $62.8k"
+      }
+    },
+    "target_level": {
+      "type": "Stat",
+      "props": {
+        "label": "Upside Target",
+        "value": "$70.5k"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "convergence_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "conv_heading",
+        "conv_text",
+        "traders_stack"
+      ]
+    },
+    "conv_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Convergence with Other Traders",
+        "level": "h3"
+      }
+    },
+    "conv_text": {
+      "type": "Text",
+      "props": {
+        "text": "Alignment on bullish medium-term bias; specific correction zones (62.2-62.8k) and targets (70.5k) add technical clarity.",
+        "variant": "body"
+      }
+    },
+    "traders_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trader1_row",
+        "trader2_row"
+      ]
+    },
+    "trader1_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "trader1_badge",
+        "trader1_text"
+      ]
+    },
+    "trader1_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "KillaXBT",
+        "variant": "secondary"
+      }
+    },
+    "trader1_text": {
+      "type": "Text",
+      "props": {
+        "text": "2x long @62.6K, HTF conviction",
+        "variant": "body"
+      }
+    },
+    "trader2_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "trader2_badge",
+        "trader2_text"
+      ]
+    },
+    "trader2_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "t_in_crypto",
+        "variant": "secondary"
+      }
+    },
+    "trader2_text": {
+      "type": "Text",
+      "props": {
+        "text": "Patience play (100% @58.4K)",
+        "variant": "body"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_section": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/swarmister/status/2077779463450841485"
+      }
+    }
+  }
+}
