@@ -1,0 +1,43 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor",
+        "description": "Chase — TradFi"
+      },
+      "children": [
+        "stack-messages"
+      ]
+    },
+    "stack-messages": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "message-1",
+        "message-2"
+      ]
+    },
+    "message-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Member",
+        "text": "any interest in bidding $820 on MU or has that trade played out"
+      },
+      "children": []
+    },
+    "message-2": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Chase",
+        "text": "Not certain yet. My issue with memory at the moment is that the S&P has barely even pulled back"
+      },
+      "children": []
+    }
+  }
+}
