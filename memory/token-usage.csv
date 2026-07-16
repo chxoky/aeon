@@ -847,3 +847,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-07-16,market-context-refresh,claude-sonnet-4-6,668,20932,672185,64751
 2026-07-16,x-trader-monitor,claude-haiku-4-5-20251001,121,5912,587031,39913
 2026-07-16,x-trader-monitor,claude-haiku-4-5-20251001,153,10670,958583,54314
+2026-07-16,x-trader-monitor,claude-haiku-4-5-20251001,89,18081,384917,46934
