@@ -68,7 +68,8 @@
 - **Conviction**: HIGH — pre-planned setup, waited specifically for pullback, structured multi-phase entry/exit strategy, disciplined risk management (3-4% max loss). Recovery from underwater 07-07 position to profitable 07-09 TP indicates market recovered and position management executed as planned.
 - **Thesis**: HTF flush/liquidity sweep play; technical confluence (guppy support + liquidity zones) validated by entry; multi-phase TP strategy confirms plan execution over 2-day hold period. Entry estimated 1500-1600 range (based on "minor loss" at 1589 on 07-07); TP at 1834 represents 244-334 point recovery rally capture.
 - **Note**: Position evolution shows recovery from "shredding" underwater state (07-07 14:43Z) → partial loss exit at 1589 (07-07 15:12Z) → favorable close 07-09 at 1834 with remainder held. Market appeared to reverse sharply upside 07-07 evening through 07-09 morning, validating original HTF flush setup thesis belatedly.
-- **Last update**: 2026-07-09T12:41:13Z (message_id=1524757320645607495, partial TP execution at 1834 with small runner remainder, discord-trader-monitor, fast-path alerted)
+- **Next entry plan**: 2026-07-16T18:43:03Z — "Will start my next SNDK position at 1366.97~ if market offers." (passive limit-bid order setup, contingent on market offer; aligns with generational-bottom thesis from Jul 15 13:57:47 UTC X post targeting ~1350 base case)
+- **Last update**: 2026-07-16T18:43:03Z (message_id=1527385092303884439, next-entry-bid plan at 1366.97, discord-trader-monitor, fast-path alerted)
 
 ## ES (S&P 500 E-mini Futures) — LONG
 - **Entry**: 2026-06-21T23:23Z (dream/gut feeling conviction entry)
