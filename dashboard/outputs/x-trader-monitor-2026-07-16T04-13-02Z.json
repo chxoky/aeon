@@ -1,0 +1,109 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor Calibration",
+        "description": "Real-time X post analysis at market open"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event_meta",
+        "separator_1",
+        "tweet_card",
+        "separator_2",
+        "analysis_section"
+      ]
+    },
+    "event_meta": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Real-time X post at market open (04:08 UTC Jul 16)",
+        "variant": "caption"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "@heiss_7 Next to follov it 📉👀🤞🏻 https://t.co/NL3hzH5ZSq"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert_classify",
+        "context_section"
+      ]
+    },
+    "alert_classify": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read?",
+        "type": "info"
+      }
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context_heading",
+        "context_details",
+        "pattern_details"
+      ]
+    },
+    "context_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h4"
+      }
+    },
+    "context_details": {
+      "type": "Text",
+      "props": {
+        "text": "Terse message, emoji-heavy, typo \"follov\", URL inaccessible.",
+        "variant": "body"
+      }
+    },
+    "pattern_details": {
+      "type": "Text",
+      "props": {
+        "text": "Pattern suggests bearish sentiment given HCH's 35% portfolio short basket, but intent unclear.",
+        "variant": "body"
+      }
+    }
+  }
+}
