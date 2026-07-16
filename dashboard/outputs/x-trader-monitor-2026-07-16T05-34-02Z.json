@@ -1,0 +1,103 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor: Calibration — @HeartCanHodl"
+      },
+      "children": [
+        "event-desc",
+        "tweet-card",
+        "sep1",
+        "context-stack",
+        "sep2",
+        "classification-alert",
+        "sep3",
+        "story-link"
+      ]
+    },
+    "event-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Early morning post on Jul 16 (new trading session, HCH escalating short conviction through Jul 14-16)",
+        "variant": "lead"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "@nocoffeenobrain Bear market things"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "context-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context-heading",
+        "portfolio-text",
+        "uni-short-text",
+        "last-activity-text"
+      ]
+    },
+    "context-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h4"
+      }
+    },
+    "portfolio-text": {
+      "type": "Text",
+      "props": {
+        "text": "Portfolio: 35-40% shorts in BTC, ETH, SOL, HYPE, ZEC, UNI"
+      }
+    },
+    "uni-short-text": {
+      "type": "Text",
+      "props": {
+        "text": "UNI short added 05:06 UTC same morning"
+      }
+    },
+    "last-activity-text": {
+      "type": "Text",
+      "props": {
+        "text": "Last activity (Jul 15 13:01 UTC): \"Shorts looking lucrative.\""
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "classification-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Is this market sentiment validation of bearish thesis, or casual social banter with @nocoffeenobrain?",
+        "type": "info"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "story-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View post",
+        "href": "https://x.com/HeartCanHodl/status/2077627055815241961",
+        "source": "X"
+      }
+    }
+  }
+}
