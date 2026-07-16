@@ -1,0 +1,126 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading-1",
+        "sep-1",
+        "event-text",
+        "sep-2",
+        "tweet-card",
+        "link-post",
+        "sep-3",
+        "analysis-text",
+        "heading-interpretations",
+        "interpretations-stack",
+        "question-text"
+      ]
+    },
+    "heading-1": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @swarmister",
+        "level": "h2"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "event-text": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Intraday trading position action (opposite to known pattern)",
+        "variant": "lead"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "@mert Shorted"
+      }
+    },
+    "link-post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/swarmister/status/2077706328248590598"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — no ticker mentioned, extremely terse, contradicts known long-lean pattern.",
+        "variant": "body"
+      }
+    },
+    "heading-interpretations": {
+      "type": "Heading",
+      "props": {
+        "text": "Possible interpretations:",
+        "level": "h3"
+      }
+    },
+    "interpretations-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "interp-1",
+        "interp-2",
+        "interp-3"
+      ]
+    },
+    "interp-1": {
+      "type": "Text",
+      "props": {
+        "text": "A personal short action (which ticker?)",
+        "variant": "body"
+      }
+    },
+    "interp-2": {
+      "type": "Text",
+      "props": {
+        "text": "Commentary on @mert's short position?",
+        "variant": "body"
+      }
+    },
+    "interp-3": {
+      "type": "Text",
+      "props": {
+        "text": "Confirmation of a prior discussion?",
+        "variant": "body"
+      }
+    },
+    "question-text": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "body"
+      }
+    }
+  }
+}
