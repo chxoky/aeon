@@ -1,7 +1,8 @@
-🔍 *Calibration — @t_in_crypto*
+🔍 *Calibration — @Wild_Randomness*
 
-Event: 3h20m after last message (16:04:32 UTC confirming 67-71K BTC target zone)
+Event: Reply to @chumbawamba22 @DeepDishEnjoyer (context not visible in single-message view)
+Wild_Randomness: "Planning this after 10k"
 
-t_in_crypto: "@trader_koala https://t.co/5vbvy80AW9"
+Unable to classify — what's your read? Is this a market condition trigger (e.g., BTC >10k?), a position plan, or something else?
 
-Unable to classify — is this sharing bullish analysis with trader_koala, or just link-sharing? What's your read?
+[View post](https://x.com/Wild_Randomness/status/2077858535292182697)
