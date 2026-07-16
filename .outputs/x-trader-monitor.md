@@ -1,5 +1,6 @@
-🐦 *[X] @ryzzqq*
+🔍 *Calibration — @HeartCanHodl*
 
-decent spot to tp on elhfi considering majors aren't looking that good
+Event: Follow-up to Jul 15 SKHynix technical structure post
+HeartCanHodl: "SK lownix https://t.co/Ogc9idGe9t"
 
-[View tweet](https://x.com/ryzzqq/status/2077582288083464305)
+Unable to classify — what's your read? (SK = SKHynix? lownix = low + nix, or something else?)
