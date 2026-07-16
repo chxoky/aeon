@@ -1,0 +1,50 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "separator",
+        "link_view_tweet",
+        "summary"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "$SOXL\n\nSold $163's for reasons I don't like to admit (don't worry still I lost money)\n\nBack for a day trade though\n\nGive me momentum up, SPX down tomorrow on openx, cause why not\n\n(This instrument literally is crack cocaine, just relapse after relapse now)"
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link_view_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2077872854234996748"
+      },
+      "children": []
+    },
+    "summary": {
+      "type": "Text",
+      "props": {
+        "text": "Wild_Randomness day-trading SOXL: wants momentum up at open, positioned for SPX weakness.",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
