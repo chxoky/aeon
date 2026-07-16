@@ -1,0 +1,92 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading_main",
+        "separator_1",
+        "text_desc",
+        "separator_2",
+        "heading_trades",
+        "stack_trades",
+        "separator_3",
+        "link_post"
+      ]
+    },
+    "heading_main": {
+      "type": "Heading",
+      "props": {
+        "text": "🔁 Mirrored — @Crypto_Chase",
+        "level": "h2"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Crypto_Chase just closed profitable positions on SNDK and MU. I closed your positions to match."
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_trades": {
+      "type": "Heading",
+      "props": {
+        "text": "Closed Positions",
+        "level": "h3"
+      }
+    },
+    "stack_trades": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat_sndk",
+        "stat_mu"
+      ]
+    },
+    "stat_sndk": {
+      "type": "Stat",
+      "props": {
+        "label": "SNDK",
+        "value": "1700–1830"
+      }
+    },
+    "stat_mu": {
+      "type": "Stat",
+      "props": {
+        "label": "MU",
+        "value": "over 1000"
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Crypto_Chase/status/2077831237566169306"
+      }
+    }
+  }
+}

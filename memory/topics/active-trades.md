@@ -31,13 +31,14 @@
 - **Conviction**: MEDIUM (ambivalent on remainder — neither bullish enough to add nor bearish enough to fully exit)
 - **Last update**: 2026-06-30T19:16:20Z (message_id=1521595260629946561, partial TP at breakeven, fast-path alerted)
 
-### MU (Micron Technology) — LONG (dual-entry plan, both trades managed)
+### MU (Micron Technology) — LONG (CLOSED 2026-07-16T19:02:25Z)
 - **Entry setup**: Conditional dual-entry plan articulated 2026-06-29T14:25:41Z
   - Trade 1: 1:1 risk/reward, risk 2% portfolio → CLOSED (TP hit 2026-07-02)
-  - Trade 2: 1% risk → ACTIVE (trimmed to 1% remaining risk 2026-07-06, re-add contemplated 2026-07-07)
-  - Max total loss: 3% portfolio if both SL hit (original thesis)
+  - Trade 2: 1% risk → CLOSED (final remainder TP'd 2026-07-16 over 1000 level)
+  - Max total loss thesis: 3% portfolio if both SL hit (original risk framework)
 - **Entry date**: Unknown (first trade entry point not explicitly disclosed; plan was conditional on MU weakness)
 - **TP hit**: 2026-07-02T17:47:32Z — "MU first trade hit" (first trade's 1:1 R:R target achieved)
+- **Final close**: 2026-07-16T19:02:25Z — Crypto_Chase TP'd MU over 1000. Final remainder (1% risk position) closed.
 - **Position history**:
   - 2026-06-29T14:25Z: Dual-entry plan codified with specific risk parameters
   - 2026-06-24T00:12Z: Resting bid context — "earnings stink bids below built-up lows"; technical floor 650
@@ -46,18 +47,19 @@
   - 2026-07-02T17:47Z: First trade TP hit
   - 2026-07-06T22:58Z: Trim action on second trade — "Trimmed another 17% of MU, now down to 1% risk from the original 2% risk. All trims done in small profits so far." (message_id=1523825621443153920, fast-path alerted)
   - 2026-07-07T01:44Z: Re-add consideration — "920's to add back some MU, but keeping total risk at 2% or so, leaves room to add 1% more if both go lower, gn." (message_id=1523867283854987345, fast-path alerted, discord-trader-monitor)
-- **Current position**: Contemplating re-add from 1% back to 2% risk, with conditional room for additional 1% if MU dips further (per 07-07T01:44 message)
-- **Status**: FIRST TRADE CLOSED (TP hit), SECOND TRADE ACTIVE with reduced risk exposure (1% remaining); CONVICTION RE-ADD IN PLAY (target 2-3% total risk)
-- **Thesis**: Earnings-driven volatility + weak technical structure play; multi-tier entry strategy allowing 3% max loss tolerance; second trade being managed with ongoing trim-for-profit discipline; re-add suggests technical setup remains favorable below current level
-- **Conviction**: Was HIGH at entry (waiting months for sub-850 level per 06-23 message); both TP hit and trim management confirm disciplined execution on profitable trades; re-add signal indicates willingness to scale into strength/weakness pattern post-earnings
-- **Last update**: 2026-07-07T01:44:32Z (message_id=1523867283854987345, re-add consideration, fast-path alerted)
+  - 2026-07-16T19:02Z: FINAL CLOSE — remaining 1% risk position TP'd over 1000 level
+- **Final exit price**: Over 1000 level (final TP execution)
+- **Overall position result**: Multi-phase profitable trade over 18-day hold (approx Jun 29-30 initial entry → Jul 16 close). Dual-trade structure with disciplined trim management (first trade closed at 1:1 R:R, second trade trimmed to 1% then finally closed at 1000+ level) demonstrates risk-managed profit-taking approach. Both trade legs profitable, supporting original thesis thesis on earnings-driven volatility + technical structure play.
+- **Status**: CLOSED — entire position exited, both trade legs closed profitably
+- **Conviction**: HIGH throughout (waiting months for sub-850 level per 06-23 message); both TP hit and trim management confirm disciplined execution; final close at 1000+ level validates multi-tier entry strategy and ongoing technical setup favorability thesis
+- **Last update**: 2026-07-16T19:02:25Z (final position closed, TP'd over 1000, X post tweet_id=2077831237566169306, fast-path alerted via ./notify)
 
-### SNDK (Structural) — LONG (multi-phase entry/exit, trailing remainder)
+### SNDK (Structural) — LONG (CLOSED 2026-07-16T19:02:25Z)
 - **Entry**: 2026-07-07T13:25:08Z (pullback tactical entry on HTF flush setup)
 - **Message**: "This is the first real pullback. It's the pullback I was waiting for so I got to take a risk on it."
 - **Entry signal**: Chart attachment (Discord message 1524043593319448669) — technical confirmation of flush/liquidity sweep setup
 - **HTF setup articulated**: 2026-07-07T14:30:28Z — "last chance here for SNDK, flush all the liquidity, guppy support, etc. expecting something like i draw below" (specific confluence: liquidity zones + guppy MA support); risk-defined at 3-4% portfolio loss; mid-1400s appears to be part of multi-level entry plan
-- **Status**: ACTIVE with trailing remainder position
+- **Status**: CLOSED — final remainder closed on 2026-07-16 at TP level 1700-1830
 - **Position history**:
   - 2026-07-07T13:25:08Z: Entry executed on pullback (high conviction, waited-for setup)
   - 2026-07-07T14:30:28Z: Full HTF flush plan articulated with risk parameters and expected structure
@@ -68,9 +70,12 @@
 - **Conviction**: HIGH — pre-planned setup, waited specifically for pullback, structured multi-phase entry/exit strategy, disciplined risk management (3-4% max loss). Recovery from underwater 07-07 position to profitable 07-09 TP indicates market recovered and position management executed as planned.
 - **Thesis**: HTF flush/liquidity sweep play; technical confluence (guppy support + liquidity zones) validated by entry; multi-phase TP strategy confirms plan execution over 2-day hold period. Entry estimated 1500-1600 range (based on "minor loss" at 1589 on 07-07); TP at 1834 represents 244-334 point recovery rally capture.
 - **Note**: Position evolution shows recovery from "shredding" underwater state (07-07 14:43Z) → partial loss exit at 1589 (07-07 15:12Z) → favorable close 07-09 at 1834 with remainder held. Market appeared to reverse sharply upside 07-07 evening through 07-09 morning, validating original HTF flush setup thesis belatedly.
-- **Next entry plan**: 2026-07-16T18:43:03Z — "Will start my next SNDK position at 1366.97~ if market offers." (passive limit-bid order setup, contingent on market offer; aligns with generational-bottom thesis from Jul 15 13:57:47 UTC X post targeting ~1350 base case)
-- **Structural analysis (18:58:27Z)**: "If SNDK can't hold 1350-1290, I think it sees near 1000." — further articulation of support levels and downside target, reinforcing thesis on generational-bottom confluence (1350-1290 range) with max-pain scenario (1000 target). Informational/analytical message, not a trade execution signal. Message_id=1527388968688025670, fast-path alerted by Cloudflare Worker (Telegram sent ~2-5s after event).
-- **Last update**: 2026-07-16T18:58:27Z (message_id=1527388968688025670, structural analysis / support levels commentary, discord-trader-monitor, fast-path alerted)
+- **FINAL CLOSE**: 2026-07-16T19:02:25Z — Crypto_Chase TP'd SNDK between 1700-1830 zone. Final remainder position closed.
+- **Final exit price zone**: 1700-1830 (final TP execution)
+- **Overall position result**: Profitable multi-phase trade executed over 9-day hold (Jul 7 entry → Jul 16 close). Multi-phase TP structure (Jul 7 trim at ~1589, Jul 9 TP at 1834, Jul 16 final remainder at 1700-1830 zone) demonstrates disciplined profit-taking management. Total recovery from initial "shredding" underwater state to multiple profitable TP levels validates HTF flush/liquidity thesis.
+- **Post-close plan**: 2026-07-16T18:43:03Z — Crypto_Chase set passive limit-bid order at 1366.97 for next entry (prior to final close). Aligns with generational-bottom thesis. This entry plan remains active (contingent on market offer).
+- **Structural analysis (18:58:27Z)**: "If SNDK can't hold 1350-1290, I think it sees near 1000." — articulation of support levels and downside target, reinforcing thesis on generational-bottom confluence.
+- **Last update**: 2026-07-16T19:02:25Z (final position closed, TP'd 1700-1830, X post tweet_id=2077831237566169306, fast-path alerted via ./notify)
 
 ## ES (S&P 500 E-mini Futures) — LONG
 - **Entry**: 2026-06-21T23:23Z (dream/gut feeling conviction entry)
