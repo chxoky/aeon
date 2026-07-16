@@ -1,0 +1,56 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweetCard",
+        "viewLink",
+        "separator",
+        "analysis"
+      ]
+    },
+    "tweetCard": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "$BTC\n\nAs always, market follows liquidity ✅"
+      }
+    },
+    "viewLink": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2077729332382867819"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis": {
+      "type": "Text",
+      "props": {
+        "text": "↳ Reinforces macro-bullish conviction on existing 2x long from 62.6K. Liquidity focus aligns with recent bottom-formation thesis post (Jul 15 21:51 UTC).",
+        "variant": "body"
+      }
+    }
+  }
+}
