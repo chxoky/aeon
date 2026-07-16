@@ -1,0 +1,192 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Skill Health — 2026-07-16"
+      },
+      "children": [
+        "status-badge",
+        "health-stats",
+        "separator-1",
+        "skills-section",
+        "separator-2",
+        "issues-section"
+      ]
+    },
+    "status-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "HEALTH: OK",
+        "variant": "default"
+      }
+    },
+    "health-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-healthy-count",
+        "stat-success-rate",
+        "stat-consecutive-fails"
+      ]
+    },
+    "stat-healthy-count": {
+      "type": "Stat",
+      "props": {
+        "label": "Skills Healthy",
+        "value": "6"
+      }
+    },
+    "stat-success-rate": {
+      "type": "Stat",
+      "props": {
+        "label": "Success Rate",
+        "value": "100%"
+      }
+    },
+    "stat-consecutive-fails": {
+      "type": "Stat",
+      "props": {
+        "label": "Consecutive Fails",
+        "value": "0"
+      }
+    },
+    "separator-1": {
+      "type": "Separator"
+    },
+    "skills-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "skills-heading",
+        "skills-list",
+        "no-data-subsection"
+      ]
+    },
+    "skills-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Enabled Cron Skills (All Green)",
+        "level": "h3"
+      }
+    },
+    "skills-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "skill-badge-1",
+        "skill-badge-2",
+        "skill-badge-3",
+        "skill-badge-4",
+        "skill-badge-5",
+        "skill-badge-6"
+      ]
+    },
+    "skill-badge-1": {
+      "type": "Badge",
+      "props": {
+        "text": "token-alert",
+        "variant": "secondary"
+      }
+    },
+    "skill-badge-2": {
+      "type": "Badge",
+      "props": {
+        "text": "token-movers",
+        "variant": "secondary"
+      }
+    },
+    "skill-badge-3": {
+      "type": "Badge",
+      "props": {
+        "text": "market-context-refresh",
+        "variant": "secondary"
+      }
+    },
+    "skill-badge-4": {
+      "type": "Badge",
+      "props": {
+        "text": "narrative-tracker",
+        "variant": "secondary"
+      }
+    },
+    "skill-badge-5": {
+      "type": "Badge",
+      "props": {
+        "text": "skill-health",
+        "variant": "secondary"
+      }
+    },
+    "skill-badge-6": {
+      "type": "Badge",
+      "props": {
+        "text": "heartbeat",
+        "variant": "secondary"
+      }
+    },
+    "no-data-subsection": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "no-data-heading",
+        "no-data-text"
+      ]
+    },
+    "no-data-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "No Data (1)",
+        "level": "h4"
+      }
+    },
+    "no-data-text": {
+      "type": "Text",
+      "props": {
+        "text": "morning-brief — runs via the morning-pipeline chain (recorded under that key), not a real gap.",
+        "variant": "body"
+      }
+    },
+    "separator-2": {
+      "type": "Separator"
+    },
+    "issues-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-open-issues",
+        "stat-resolved-issues"
+      ]
+    },
+    "stat-open-issues": {
+      "type": "Stat",
+      "props": {
+        "label": "Open Issues",
+        "value": "0"
+      }
+    },
+    "stat-resolved-issues": {
+      "type": "Stat",
+      "props": {
+        "label": "Resolved This Run",
+        "value": "0"
+      }
+    }
+  }
+}
