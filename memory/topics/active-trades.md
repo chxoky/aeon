@@ -2,9 +2,9 @@
 
 ## Crypto_Chase
 
-### GOOG (Google) — LONG
+### GOOG (Google) — LONG (CLOSED)
 - **Entry zone**: 330s (initial resting bid filled 2026-06-23T13:31Z at ~330-342 zone)
-- **Current size**: 25% (as of 2026-06-30T12:58:46Z)
+- **Final size**: 0% (fully closed 2026-07-16T12:38:19Z)
 - **Position history**:
   - 2026-06-23T13:31Z: Filled at 342, entered into 330s zone
   - Initial size: 70% of target position
@@ -12,11 +12,13 @@
   - 2026-06-25T13:34Z: Conviction add at 336 → scaled from 50% back up to 60%
   - 2026-06-26T03:02Z: Partial TP at 336 → reduced from 60% to 40%
   - 2026-06-30T12:58:46Z: Partial TP at 352.84 → reduced from 40% to 25% (conditional trim target HIT)
-- **Resting bids**: Down to 315 zone (still active, wanting more bullets for lower)
-- **Status**: ACTIVE — core 25% position held, multiple partial profits taken; willing to hold core for further participation
-- **Thesis**: Patient, multi-level DCA strategy; average entry ~338, profitable position; conditional trim threshold 352.83 was swept overnight, triggering final 15% reduction to 25% core position
-- **Average entry**: ~338 (profitable, as evidenced by TP hits at 342→336→352.84)
-- **Last update**: 2026-06-30T12:58:46Z (message_id=1521500243718570035, partial TP execution at 352.84, fast-path alerted)
+  - 2026-07-16T12:38:19Z: FINAL CLOSE — remaining 25% position closed at high TP guidance level; "officially closed" per trader confirmation
+- **Final resting bids**: Cancelled (position fully exited)
+- **Status**: CLOSED — all 25% core position exited, trade cycle complete
+- **Thesis**: Patient, multi-level DCA strategy; average entry ~338, profitable position; conditional trim threshold 352.83 was swept overnight (06-30), triggering 15% reduction to 25% core. Final 25% core held through Jul 14-16 window, closed at high TP level suggested Jul 15
+- **Average entry**: ~338 (confirmed profitable across all TP executions: 342→336→352.84→high close)
+- **Hold period**: 24 days (Jun 23 entry → Jul 16 final close)
+- **Last update**: 2026-07-16T12:38:19Z (message_id=1527293303068819607, final position closure, fast-path alerted)
 
 ### LPTH (Loopring) — LONG (partial position reduction)
 - **Entry**: Unknown date (position was existing prior to 2026-06-30)
