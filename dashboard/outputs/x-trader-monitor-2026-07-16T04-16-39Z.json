@@ -1,0 +1,104 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading_calib",
+        "sep1",
+        "stack_content"
+      ]
+    },
+    "heading_calib": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @HeartCanHodl",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_event",
+        "tweet_card",
+        "text_question",
+        "stack_options",
+        "link_post"
+      ]
+    },
+    "badge_event": {
+      "type": "Badge",
+      "props": {
+        "text": "Reply to @Quanterty",
+        "variant": "outline"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "@HeartCanHodl",
+        "text": "Down 60% a week later"
+      }
+    },
+    "text_question": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "lead"
+      }
+    },
+    "stack_options": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opt1",
+        "opt2",
+        "opt3"
+      ]
+    },
+    "opt1": {
+      "type": "Text",
+      "props": {
+        "text": "• Bearish market sentiment",
+        "variant": "body"
+      }
+    },
+    "opt2": {
+      "type": "Text",
+      "props": {
+        "text": "• Reference to a position/trade",
+        "variant": "body"
+      }
+    },
+    "opt3": {
+      "type": "Text",
+      "props": {
+        "text": "• Commentary on @Quanterty's specific setup",
+        "variant": "body"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/HeartCanHodl/status/2077607252778000763"
+      }
+    }
+  }
+}
