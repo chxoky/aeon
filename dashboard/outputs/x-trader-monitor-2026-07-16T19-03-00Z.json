@@ -1,0 +1,138 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading",
+        "stack-content"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @trading_axe",
+        "level": "h2"
+      }
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event-section",
+        "separator-1",
+        "quote-section",
+        "separator-2",
+        "context-section"
+      ]
+    },
+    "event-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event-label",
+        "event-value"
+      ]
+    },
+    "event-label": {
+      "type": "Text",
+      "props": {
+        "text": "Event:",
+        "variant": "caption"
+      }
+    },
+    "event-value": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to @r1ckGr1me5s and @vladtenev on Solana topic"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "quote-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "quote-author",
+        "quote-text"
+      ]
+    },
+    "quote-author": {
+      "type": "Text",
+      "props": {
+        "text": "@trading_axe:",
+        "variant": "caption"
+      }
+    },
+    "quote-text": {
+      "type": "Text",
+      "props": {
+        "text": "\"They don't give a fuck about Solana.\"",
+        "variant": "lead"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context-label",
+        "context-background",
+        "interpretation-options",
+        "interpretation-question"
+      ]
+    },
+    "context-label": {
+      "type": "Text",
+      "props": {
+        "text": "Context:",
+        "variant": "caption"
+      }
+    },
+    "context-background": {
+      "type": "Text",
+      "props": {
+        "text": "trading_axe documented as rotating attention to Robinhood chain; SOL has bearish group lean."
+      }
+    },
+    "interpretation-options": {
+      "type": "Text",
+      "props": {
+        "text": "This could be (a) bearish market sentiment, (b) meta-commentary, or (c) just banter."
+      }
+    },
+    "interpretation-question": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read?",
+        "type": "info"
+      }
+    }
+  }
+}
