@@ -1,26 +1,19 @@
-Perfect! I've successfully processed the Discord event from KillaXBT. Here's what happened:
+## Summary
 
-## Event Summary
+**Discord Trader Monitor — Event Processed**
 
-**Trade: Partial Profit-Taking on BTC Scalp-Short Hedge**
+- **Event:** Crypto_Chase message in supporting channel "Chase — Crypto" (1247927786681794601)
+- **Content:** "Surprised no one tagged me for deviation trade yesterday on Hype. It was a good one"
+- **Classification:** SKIP — retrospective commentary on completed past trade (Jul 15)
+- **Reason:** 
+  - Not a current execution signal (past tense: "It was a good one")
+  - Supporting channel rule: do not alert for retrospective social commentary
+  - No related primary message exists to fold this into
+  - Purely informational/social banter, not actionable
 
-- **Trader:** KillaXBT  
-- **Channel:** Primary (1411492188315193416)  
-- **Time:** 2026-07-16 12:43:56 UTC  
-- **Classification:** `trade-partial-tp` (partial take-profit execution)  
-- **Ticker:** BTC  
+**Actions taken:**
+- ✅ Added message ID (1527301221734547476) to `discord-trader-seen.txt` for dedup prevention
+- ✅ Logged full event details to `memory/logs/2026-07-16.md`
+- ✅ No Telegram alert sent (silent skip per Step 7 supporting-channel protocol)
 
-**Details:**
-- Taking 25% profits at 2% directional move from entry zone
-- Original scalp-short ladder entry: 64.8-65.8K (filled Jul 14)
-- Position sizing: ~30% hedge against 2x HTF long from 62.6K
-- Next scale-out target: 4% favorable move (additional profit-taking planned)
-- Chart attachment included
-
-**Status:**
-- ✅ Fast-path alert already sent by Cloudflare Worker (~2-5s latency)
-- ✅ Memory updated (traders.md, discord-trader-seen.txt)
-- ✅ Event logged to 2026-07-16.md
-- ✅ Position status updated to reflect profit-taking phase
-
-**Context:** This represents active position management on KillaXBT's documented tactical hedge. The scalp-short is showing profitability while the HTF 2x long conviction remains unchanged. The laddered profit-taking approach aligns with documented trading discipline.
+The event is complete. Kyle missed this profitable HYPE deviation trade (it happened Jul 15), so this is purely retrospective social commentary on a completed position.
