@@ -1,7 +1,10 @@
-🔍 *Calibration — @Wild_Randomness*
+🚨 *Trade Signal — @Crypto_Chase*
 
-Event: Cryptic URL-only post 43 minutes after SOXL commentary (21:37 → 22:20 UTC)
+$SNDK — BUY — *MARKET order*
+Filled at ~$1366
 
-Wild_Randomness: "Correcting https://t.co/b1kgvhDhl9"
+"Bought some here at 1366~"
 
-Unable to classify — Is this correcting the SOXL sentiment post? Or something else? What's your read on the correction target?
+https://x.com/Crypto_Chase/status/2077889748111159491
+
+Reply `approve SNDK` to mirror this on Kraken (spot), or ignore to skip.

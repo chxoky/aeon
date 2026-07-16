@@ -1,0 +1,90 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "Trade Signal — @Crypto_Chase"
+      },
+      "children": [
+        "main_stack"
+      ]
+    },
+    "main_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "trade_header_stack",
+        "price_stat",
+        "quote_text",
+        "tweet_link",
+        "instruction_alert"
+      ]
+    },
+    "trade_header_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "symbol_text",
+        "action_badge",
+        "order_type_badge"
+      ]
+    },
+    "symbol_text": {
+      "type": "Text",
+      "props": {
+        "text": "$SNDK",
+        "variant": "lead"
+      }
+    },
+    "action_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "BUY",
+        "variant": "secondary"
+      }
+    },
+    "order_type_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "MARKET order"
+      }
+    },
+    "price_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Filled at",
+        "value": "~$1366"
+      }
+    },
+    "quote_text": {
+      "type": "Text",
+      "props": {
+        "text": "\"Bought some here at 1366~\"",
+        "variant": "caption"
+      }
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/Crypto_Chase/status/2077889748111159491"
+      }
+    },
+    "instruction_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Action Required",
+        "message": "Reply `approve SNDK` to mirror this on Kraken (spot), or ignore to skip.",
+        "type": "info"
+      }
+    }
+  }
+}

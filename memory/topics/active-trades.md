@@ -54,28 +54,28 @@
 - **Conviction**: HIGH throughout (waiting months for sub-850 level per 06-23 message); both TP hit and trim management confirm disciplined execution; final close at 1000+ level validates multi-tier entry strategy and ongoing technical setup favorability thesis
 - **Last update**: 2026-07-16T19:02:25Z (final position closed, TP'd over 1000, X post tweet_id=2077831237566169306, fast-path alerted via ./notify)
 
-### SNDK (Structural) — LONG (CLOSED 2026-07-16T19:02:25Z)
-- **Entry**: 2026-07-07T13:25:08Z (pullback tactical entry on HTF flush setup)
-- **Message**: "This is the first real pullback. It's the pullback I was waiting for so I got to take a risk on it."
-- **Entry signal**: Chart attachment (Discord message 1524043593319448669) — technical confirmation of flush/liquidity sweep setup
-- **HTF setup articulated**: 2026-07-07T14:30:28Z — "last chance here for SNDK, flush all the liquidity, guppy support, etc. expecting something like i draw below" (specific confluence: liquidity zones + guppy MA support); risk-defined at 3-4% portfolio loss; mid-1400s appears to be part of multi-level entry plan
-- **Status**: CLOSED — final remainder closed on 2026-07-16 at TP level 1700-1830
-- **Position history**:
-  - 2026-07-07T13:25:08Z: Entry executed on pullback (high conviction, waited-for setup)
-  - 2026-07-07T14:30:28Z: Full HTF flush plan articulated with risk parameters and expected structure
-  - 2026-07-07T14:43:09Z: Real-time frustration — "SNDK that's fucking shredding me" (position moving underwater)
-  - 2026-07-07T15:12:49Z: **First trim — 30% closed at ~1589 for minor loss** (rebalancing action, overrisk reduction); remainder at 70%
-  - 2026-07-07T16:13:45Z: PARTIAL TP CONFIRMED — "eh, full trim hit lmao" (secondary trim/TP executed as planned)
-  - **2026-07-09T12:41:13Z: SECOND TP EXECUTION — "TP SNDK HERE AT 1834 (LEFT A SMALL RUNNER)"** (partial exit at 1834, small remainder held for continued upside participation)
-- **Conviction**: HIGH — pre-planned setup, waited specifically for pullback, structured multi-phase entry/exit strategy, disciplined risk management (3-4% max loss). Recovery from underwater 07-07 position to profitable 07-09 TP indicates market recovered and position management executed as planned.
-- **Thesis**: HTF flush/liquidity sweep play; technical confluence (guppy support + liquidity zones) validated by entry; multi-phase TP strategy confirms plan execution over 2-day hold period. Entry estimated 1500-1600 range (based on "minor loss" at 1589 on 07-07); TP at 1834 represents 244-334 point recovery rally capture.
-- **Note**: Position evolution shows recovery from "shredding" underwater state (07-07 14:43Z) → partial loss exit at 1589 (07-07 15:12Z) → favorable close 07-09 at 1834 with remainder held. Market appeared to reverse sharply upside 07-07 evening through 07-09 morning, validating original HTF flush setup thesis belatedly.
-- **FINAL CLOSE**: 2026-07-16T19:02:25Z — Crypto_Chase TP'd SNDK between 1700-1830 zone. Final remainder position closed.
-- **Final exit price zone**: 1700-1830 (final TP execution)
-- **Overall position result**: Profitable multi-phase trade executed over 9-day hold (Jul 7 entry → Jul 16 close). Multi-phase TP structure (Jul 7 trim at ~1589, Jul 9 TP at 1834, Jul 16 final remainder at 1700-1830 zone) demonstrates disciplined profit-taking management. Total recovery from initial "shredding" underwater state to multiple profitable TP levels validates HTF flush/liquidity thesis.
-- **Post-close plan**: 2026-07-16T18:43:03Z — Crypto_Chase set passive limit-bid order at 1366.97 for next entry (prior to final close). Aligns with generational-bottom thesis. This entry plan remains active (contingent on market offer).
-- **Structural analysis (18:58:27Z)**: "If SNDK can't hold 1350-1290, I think it sees near 1000." — articulation of support levels and downside target, reinforcing thesis on generational-bottom confluence.
+### SNDK (Structural) — LONG (PREVIOUS POSITION CLOSED 2026-07-16T19:02:25Z)
+- **Previous entry**: 2026-07-07T13:25:08Z (pullback tactical entry on HTF flush setup, CLOSED JUL 16)
+- **Status**: CLOSED
 - **Last update**: 2026-07-16T19:02:25Z (final position closed, TP'd 1700-1830, X post tweet_id=2077831237566169306, fast-path alerted via ./notify)
+
+### SNDK (Structural) — LONG (NEW ENTRY — PENDING APPROVAL)
+- **Entry**: 2026-07-16T22:54:55Z (execution of pre-planned limit-bid fill)
+- **Entry message**: "$SNDK\n\nBought some here at 1366~" (X post, tweet_id=2077889748111159491)
+- **Entry level**: ~$1366 (market-order execution or tight fill on resting limit bid 1366.97 from Jul 16 18:43:03 UTC setup)
+- **Entry context**: Crypto_Chase had set conditional limit-bid order at 1366.97 on Discord 2026-07-16T18:43:03Z ("Will start my next SNDK position at 1366.97~ if market offers") and gone offline with explanation message at 22:33:43Z predicting overnight fill. Current X post confirms fill execution ~21 minutes later.
+- **Thesis**: Generational-bottom accumulation play. Supporting technical context (from prior Discord messages):
+  - Jul 15 13:57:47Z: Identified generational bottom ~1350, worst case 1K (capitulation level)
+  - Jul 16 14:14:17Z: Expressed uncertainty ("tough to read at the moment") + lower contingency thinking (1300s if crash continues)
+  - Jul 16 15:30:36Z: Teaching moment on TP discipline from closed prior profitable position (TP'd 1700-1855)
+  - Jul 16 18:43:03Z: Conditional entry bid setup at 1366.97, described as "logical level"
+  - Jul 16 22:33:43Z: Offline explanation emphasizing SNDK down 42% ~1 month into 0.5-0.618 Fib support zone = "good area to take a risk on"
+- **Technical context**: Stock currently at 0.5-0.618 Fibonacci retracement level after 42% 1-month decline. Support zones identified: 1350 (base generational bottom), 1300s (crash scenario), ~1000 (capitulation). Entry at 1366 sits slightly above base-case 1350, aligns with thesis on "patience rewarded" and accumulated buying into foundational support structure.
+- **Status**: PENDING APPROVAL — awaiting Kyle response (`approve SNDK` to mirror on Kraken spot), or ignore to skip
+- **Trade alert format**: Step 5a (new entry requiring approval)
+- **Mirror instructions**: Upon Kyle approval, mirror $SNDK LONG position on Kraken spot (size to be specified by Kyle via `approve SNDK <size_or_percentage>` reply)
+- **Alerted**: YES (2026-07-16T22:54:55Z, X-trader-monitor real-time event, fast-path-alerted via Telegram)
+- **Last update**: 2026-07-16T22:54:55Z (new entry execution, awaiting approval, X post tweet_id=2077889748111159491, x-trader-monitor real-time, fast-path-alerted=true)
 
 ## ES (S&P 500 E-mini Futures) — LONG
 - **Entry**: 2026-06-21T23:23Z (dream/gut feeling conviction entry)
