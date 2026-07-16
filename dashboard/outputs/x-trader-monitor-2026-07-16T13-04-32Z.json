@@ -1,0 +1,197 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @HeartCanHodl",
+        "description": "x-trader-monitor"
+      },
+      "children": [
+        "event_badge",
+        "tweet_card",
+        "sep1",
+        "classification_alert",
+        "sep2",
+        "context_stack"
+      ]
+    },
+    "event_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Reply to @KobeissiLetter",
+        "variant": "secondary"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "You had 3 days window"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification Status",
+        "message": "Unable to classify — what's your read?",
+        "type": "info"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_heading",
+        "context_summary",
+        "basket_section",
+        "support_level",
+        "interpretations_section"
+      ]
+    },
+    "context_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "context_summary": {
+      "type": "Text",
+      "props": {
+        "text": "HCH has been running aggressive short basket with technical targets at support zone for BTC.",
+        "variant": "body"
+      }
+    },
+    "basket_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "basket_label",
+        "btc_badge",
+        "eth_badge",
+        "sol_badge",
+        "hype_badge",
+        "zec_badge"
+      ]
+    },
+    "basket_label": {
+      "type": "Text",
+      "props": {
+        "text": "Short basket:",
+        "variant": "muted"
+      }
+    },
+    "btc_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "BTC",
+        "variant": "outline"
+      }
+    },
+    "eth_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "ETH",
+        "variant": "outline"
+      }
+    },
+    "sol_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "SOL",
+        "variant": "outline"
+      }
+    },
+    "hype_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "HYPE",
+        "variant": "outline"
+      }
+    },
+    "zec_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "ZEC",
+        "variant": "outline"
+      }
+    },
+    "support_level": {
+      "type": "Text",
+      "props": {
+        "text": "Technical target: 59-60K support zone for BTC",
+        "variant": "caption"
+      }
+    },
+    "interpretations_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "interp_heading",
+        "interp1",
+        "interp2",
+        "interp3",
+        "interp4"
+      ]
+    },
+    "interp_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Possible Interpretations",
+        "level": "h4"
+      }
+    },
+    "interp1": {
+      "type": "Text",
+      "props": {
+        "text": "(1) a trade opportunity window closing",
+        "variant": "body"
+      }
+    },
+    "interp2": {
+      "type": "Text",
+      "props": {
+        "text": "(2) a technical setup timeframe",
+        "variant": "body"
+      }
+    },
+    "interp3": {
+      "type": "Text",
+      "props": {
+        "text": "(3) response to specific KobeissiLetter market call",
+        "variant": "body"
+      }
+    },
+    "interp4": {
+      "type": "Text",
+      "props": {
+        "text": "(4) bearish callout on market structure",
+        "variant": "body"
+      }
+    }
+  }
+}
