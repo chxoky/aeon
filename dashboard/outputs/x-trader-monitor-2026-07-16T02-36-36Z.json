@@ -1,0 +1,23 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "ryzzqq",
+        "handle": "@ryzzqq",
+        "text": "decent spot to tp on elhfi considering majors aren't looking that good"
+      }
+    }
+  }
+}

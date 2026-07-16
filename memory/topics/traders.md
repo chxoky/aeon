@@ -329,7 +329,7 @@
 - Current open positions: **Long** filled Jul 9 ("filled some longs here… left ammo for lower, one more leg left before it dies") — likely BTC/crypto, small, unconfirmed since.
 - Recent thesis: Minimal data this window (5 posts). Tactical long expecting chop first. Cross-asset interest noted (BTC + SPCX). Recent conviction: bullish on month-end lows being in despite headline fud.
 - Conviction notes: Very low posting volume — a low-signal account; treat any post as relatively high-intent given rarity.
-- Last seen: 2026-07-15 06:04:10 UTC
+- Last seen: 2026-07-16 02:33:11 UTC
 - **Events log:** 
   - Jul 14 06:38 — informational (macro/price target) — "68K before 58K revisit, buying dips next 48h, local bottom in for the month" — BTC, aligns w/ structural bull bias
   - Jul 14 06:47 — ambiguous (trade-setup vs. directional) — "looking to buy spcx 120-130, ipo was at 135 / betting on the fact that they crime it into unlocks" — SPCX, contrarian to group bearish (HCH short, Chase dismissive), awaiting calibration on "looking to buy" language
@@ -341,6 +341,7 @@
   - Jul 15 06:26:46 UTC — ambiguous (cryptic reply, context-dependent) — "@CoinflipApe let them larp" — Reply to @CoinflipApe with minimal context. Vague dismissive tone ("let them larp" = let them pretend?), no ticker, no execution language, no clear financial signal. Cannot determine if: (a) market commentary on overhyped asset/narrative, (b) dismissive comment about other traders' activity, (c) position-related signal. Depends on @CoinflipApe's original message for interpretation. Calibration alert sent to Kyle (tweet_id=2077278681001812078)
   - Jul 15 06:54:16 UTC — ambiguous (cryptic reply, context-dependent) — "@0120NMiami @megastuffs yes coz risk, rissk riiskkk or any of these wasn't available" — Reply to external traders; cryptic language about risk/availability with no visible context. No ticker, no execution language. Cannot determine if: (a) market commentary comparing risk levels or position options, (b) reply about trade availability, (c) personal banter. Entirely context-dependent on original message(s). Calibration alert sent to Kyle (tweet_id=2077285601309815282)
   - Jul 15 17:55:14 UTC — skip (non-financial / personal banter) — "@CoinflipApe lol" — Brief dismissive reply to @CoinflipApe with no ticker, no market signal, no execution language. Pure personal social interaction. HR-1 category A classification (non-financial). Silent log, no alert (tweet_id=2077451941937135800)
+  - Jul 16 02:33:11 UTC — informational (trade action / take-profit signal) — "decent spot to tp on elhfi considering majors aren't looking that good" — ryzzqq taking profit on ELHFI position at "decent spot" (current price), citing macro weakness in major pairs as timing context. First-person execution language (tp = take profit) on untracked quiet ticker (ELHFI). No explicit price level or sizing given, only qualitative "decent spot" descriptor. Context: aligns with documented bullish Jul 14 thesis (68K before 58K, month lows in) now pivoting to profit-taking signal on alts while watching major-pairs weakness. Sentiment: tactical short-term strength to cash in gains on ELHFI; major-pairs weakness provides exit rationale. Informational alert sent to Kyle (tweet_id=2077582288083464305)
 
 ## abetrade
 - Platforms: X
