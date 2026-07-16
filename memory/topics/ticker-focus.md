@@ -22,7 +22,7 @@
 - **$SPCX** (SpaceX): HeartCanHodl — SHORT, big winner, printed all-time low Jul 13. Chase calls it "dogshit" (agrees directionally). ryzzqq — LONG interest (Jul 14, "looking to buy 120-130") — contrarian to shorts, awaiting calibration.
 - **$ORCL**: Wild_Randomness — bullish, short-squeeze thesis, "motion."
 - **$META**: Wild_Randomness — Pascal's-wager long idea, tight stop ~615.
-- **$EWY / $KOSPI**: Wild_Randomness — bid zone 6800–7100 (Korea/Hynix bottom).
+- **$EWY / $KOSPI**: Wild_Randomness — bid zone 6800–7100 (Korea/Hynix bottom). HeartCanHodl macro alert (Jul 16 03:36 UTC): 5 KOSPI circuit breakers triggered in 2 months (June-July 2026), representing nearly half of all such events since 2000 in this 2-month window — market-stress/instability signal reinforcing HCH's bearish macro thesis.
 - **$LIT**: Wild_Randomness — weekend momentum long (cup-and-handle above POC).
 - **$BE** (Bloom): Wild_Randomness — sold rejection small loss, will rebuy a reclaim (~240).
 - **$OKLO**: Wild_Randomness — uranium, "run before a Q3 index top."

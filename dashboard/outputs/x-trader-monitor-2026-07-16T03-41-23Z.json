@@ -1,0 +1,60 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X-Trader Monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "link-tweet",
+        "separator",
+        "analysis"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "5 KOSPI market-wide lower circuit breakers have already been triggered in just 2 months; June and July 2026.\n\nOne more would make it six, meaning nearly half of all such events since 2000 happened in this two-month window alone.\n\nYet somehow, the entire AI & Crypto class is exposed to it as it is the opportunity lol"
+      },
+      "children": []
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/HeartCanHodl/status/2077598175368814781"
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Market-structure signal: HCH frames frequent KOSPI circuit breakers as a macro opportunity amid crypto/AI exposure. Aligns with their documented bearish positioning (35% portfolio short as of Jul 15).",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
