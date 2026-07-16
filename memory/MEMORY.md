@@ -16,6 +16,14 @@ Autonomous trading-signal agent running on GitHub Actions via Claude Code. Monit
 - **Telegram outbound:** `./notify` in all skills (token-strip fix applied)
 - **GitHub Actions cron:** monitors have `enabled: false` in aeon.yml — intentionally webhook/Worker-triggered only, no cron fallback (corrected 2026-07-13; the `*/15` fallback line was stale)
 
+## Tracked Tokens
+| Token | CoinGecko ID | Alert Threshold |
+|-------|-------------|-----------------|
+| BTC   | bitcoin     | 10%             |
+| ETH   | ethereum    | 10%             |
+| SOL   | solana      | 10%             |
+| HYPE  | hyperliquid | 10%             |
+
 ## Active Topics
 - [Trader State](topics/traders.md) — All 12 traders, current positions, last seen timestamps. Fully rebuilt by `trader-bootstrap` 2026-07-14 (force, 7-day lookback Jul 7–13; 248 tweets + 1,133 Discord msgs, both platforms populated). No stale sections.
 - [Ticker Focus](topics/ticker-focus.md) — Overlap/contested tickers across traders, Kyle's explicit watch list, X-sourced equities. Rebuilt 2026-07-14.
