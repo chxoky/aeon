@@ -1,0 +1,85 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "🔁 Mirror Close + DCA Plan — @Wild_Randomness"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "position-closed",
+        "separator1",
+        "heading-next",
+        "text-plan",
+        "text-quote",
+        "link-post",
+        "separator2",
+        "text-cta"
+      ]
+    },
+    "position-closed": {
+      "type": "Stat",
+      "props": {
+        "label": "Closed: July 31 puts (206s level context)",
+        "value": "+55%",
+        "trend": "up"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-next": {
+      "type": "Heading",
+      "props": {
+        "text": "Next",
+        "level": "h4"
+      }
+    },
+    "text-plan": {
+      "type": "Text",
+      "props": {
+        "text": "Planning to average into mid-August puts (mean-reversion dip-buying)."
+      }
+    },
+    "text-quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"Going to average into mid August Ps as they give guaranteed bounce\"",
+        "variant": "body"
+      }
+    },
+    "link-post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2077779190234104228"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-cta": {
+      "type": "Text",
+      "props": {
+        "text": "Want to set up your own mid-August puts DCA, or skip?"
+      }
+    }
+  }
+}
