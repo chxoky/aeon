@@ -1,0 +1,86 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @t_in_crypto"
+      },
+      "children": [
+        "event",
+        "sep1",
+        "post-stack",
+        "sep2",
+        "question"
+      ]
+    },
+    "event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Tagging two users with a shortened URL, no visible context",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "post-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "post-label",
+        "post-content-stack"
+      ]
+    },
+    "post-label": {
+      "type": "Text",
+      "props": {
+        "text": "Post:"
+      }
+    },
+    "post-content-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "mentions",
+        "url-link"
+      ]
+    },
+    "mentions": {
+      "type": "Text",
+      "props": {
+        "text": "@zohaan1324 @tiger_khan9"
+      }
+    },
+    "url-link": {
+      "type": "Link",
+      "props": {
+        "label": "https://t.co/8UmMwTyJfU",
+        "href": "https://t.co/8UmMwTyJfU"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "question": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — is this financial, or just link-sharing? What's your read?",
+        "variant": "lead"
+      }
+    }
+  }
+}

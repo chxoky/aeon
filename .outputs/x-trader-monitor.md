@@ -1,6 +1,6 @@
-I've reviewed the skill and the Base64-encoded event you provided. Let me break down the analysis:
+🔍 *Calibration — @t_in_crypto*
 
-## Event Decoded
+Event: Tagging two users with a shortened URL, no visible context
 
 **Tweet from: @Stoiiic**
 - ID: 2077792418968076601
@@ -64,3 +64,6 @@ The skill would then notify Kyle via the configured channel (Telegram/Discord/Sl
 - ✅ Logged event to `memory/logs/2026-07-16.md`
 
 No notification sent to Kyle — classified as non-actionable social banter.
+Post: "@zohaan1324 @tiger_khan9 https://t.co/8UmMwTyJfU"
+
+Unable to classify — is this financial, or just link-sharing? What's your read?
