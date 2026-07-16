@@ -1,0 +1,108 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration — @swarmister"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_event",
+        "separator_1",
+        "tweet_content",
+        "separator_2",
+        "stack_context",
+        "separator_3",
+        "alert_question"
+      ]
+    },
+    "heading_event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event: Cryptic reaction with inaccessible URL",
+        "level": "h3"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "tweet_content": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "No way https://t.co/DfxJ2ggpF6"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "stack_context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_context",
+        "text_context_1",
+        "text_context_2",
+        "text_context_3"
+      ]
+    },
+    "heading_context": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h4"
+      }
+    },
+    "text_context_1": {
+      "type": "Text",
+      "props": {
+        "text": "swarmister is a bullish-leaning intraday trader.",
+        "variant": "body"
+      }
+    },
+    "text_context_2": {
+      "type": "Text",
+      "props": {
+        "text": "Message posted 6 minutes after their last structural update.",
+        "variant": "body"
+      }
+    },
+    "text_context_3": {
+      "type": "Text",
+      "props": {
+        "text": "Could be dismissal of bearish narrative, reaction to external news, or technical observation.",
+        "variant": "body"
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "alert_question": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read? (tweet_id: 2077688921387839999)",
+        "type": "info"
+      }
+    }
+  }
+}
