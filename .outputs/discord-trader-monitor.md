@@ -25,3 +25,8 @@ Skill executed successfully: **discord-trader-monitor** real-time event processi
 8. No duplicate alerts sent (fast-path rule applied) ✓
 
 **Result**: Event fully processed. SNDK entry bid at 1366.97 now tracked as next-opportunity entry for Kyle's watchlist.
+⚠️ discord-trader-monitor: Bad event from Crypto_Chase
+
+Message ID 1527385772616057014 received with corrupted/unreadable content field. JSON structure decoded but UTF-8 encoding invalid. Event rejected and logged.
+
+Check memory/logs/2026-07-16.md for details. May indicate Worker encoding issue.

@@ -1,0 +1,73 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Bad event from Crypto_Chase"
+      },
+      "children": [
+        "alert_main",
+        "separator_1",
+        "details_section",
+        "cause_text"
+      ]
+    },
+    "alert_main": {
+      "type": "Alert",
+      "props": {
+        "type": "error",
+        "title": "Bad event from Crypto_Chase",
+        "message": "Message ID 1527385772616057014 received with corrupted/unreadable content field. JSON structure decoded but UTF-8 encoding invalid. Event rejected and logged."
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "details_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "check_text",
+        "file_link",
+        "details_text"
+      ]
+    },
+    "check_text": {
+      "type": "Text",
+      "props": {
+        "text": "Check",
+        "variant": "body"
+      }
+    },
+    "file_link": {
+      "type": "Link",
+      "props": {
+        "label": "memory/logs/2026-07-16.md",
+        "href": "memory/logs/2026-07-16.md"
+      }
+    },
+    "details_text": {
+      "type": "Text",
+      "props": {
+        "text": "for details.",
+        "variant": "body"
+      }
+    },
+    "cause_text": {
+      "type": "Text",
+      "props": {
+        "text": "May indicate Worker encoding issue.",
+        "variant": "muted"
+      }
+    }
+  }
+}
