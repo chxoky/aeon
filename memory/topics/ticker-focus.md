@@ -18,7 +18,7 @@
 ## Quiet tickers (single-trader mentions, tracked silently)
 - **cashcat** (onchain): bull_genius (closed 15x trade), ryzzqq (squeeze-exhaustion commentary Jul 15 06:09) — CONVERGING THEME (second mention in short window; tracking for momentum acceleration)
 - **$SKHynix**: HeartCanHodl (technical analysis on 4H EMA50 structure, Jul 15 11:10) — single mention, memory/semis sector tracking (aligns with bearish memory-stock skepticism theme)
-- **$UNI** (Uniswap): HeartCanHodl — SHORT, 1% added Jul 14 on secondary account (first mention in tracked window)
+- **$UNI** (Uniswap): HeartCanHodl — SHORT, 1% added Jul 14 on secondary account (first mention in tracked window); extended to +1% primary channel add Jul 16 05:06:02 UTC (escalating short conviction)
 - **$SPCX** (SpaceX): HeartCanHodl — SHORT, big winner, printed all-time low Jul 13. Chase calls it "dogshit" (agrees directionally). ryzzqq — LONG interest (Jul 14, "looking to buy 120-130") — contrarian to shorts, awaiting calibration.
 - **$ORCL**: Wild_Randomness — bullish, short-squeeze thesis, "motion."
 - **$META**: Wild_Randomness — Pascal's-wager long idea, tight stop ~615.
@@ -35,3 +35,4 @@
 - **$ANSEM**: Wild_Randomness — bearish/cautionary fractal prediction (expects -0.13 by end of Aug), 2 chart images. First mention Jul 15 23:37 UTC. Wild_Randomness is equities/vol specialist, not crypto trader; crypto tickers mentioned rarely, pattern worth monitoring for cross-trader convergence.
 - **$CBRS**: Wild_Randomness — mentioned alongside $ANSEM (Jul 15 23:37 UTC), no detailed analysis provided. Single mention, context unclear, tracking for momentum.
 - **ELHFI**: ryzzqq — taking profit at "decent spot" (Jul 16 02:33), major-pairs weakness exit context. Quiet ticker, single-mention tracking, awaiting cross-trader momentum.
+- **Effirium**: HeartCanHodl — reported commentary (Jul 16 07:36:29 UTC) on external trader (CT) planning 30x long position. HCH's sentiment: dismissive ("Total flustercluck!"). Not HCH's personal position. Quiet ticker, single-trader sentiment mention, tracked silently pending cross-trader convergence.

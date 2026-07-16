@@ -1,8 +1,5 @@
-🔍 *Calibration — @swarmister*
+🐦 *[X] @HeartCanHodl*
 
-Event: Reply to @based16z, context unknown without prior tweet
-swarmister: "@based16z Why"
+CT is telling me that they are about to throw their AI wealth (last pennies) into 30x long Effirium. Total flustercluck!
 
-Unable to classify — what's your read? Is this market sentiment on price action, technical structure, or personal banter?
-
-[View tweet](https://x.com/swarmister/status/2077656017677021536)
+[View tweet](https://x.com/HeartCanHodl/status/2077658614479851545)
