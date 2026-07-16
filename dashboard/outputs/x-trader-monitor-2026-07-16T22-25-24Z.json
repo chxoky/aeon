@@ -1,0 +1,99 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @Wild_Randomness"
+      },
+      "children": [
+        "badge_calibration",
+        "sep1",
+        "heading_event",
+        "text_event_desc",
+        "text_event_time",
+        "sep2",
+        "heading_post",
+        "tweet_card",
+        "sep3",
+        "heading_question",
+        "text_question"
+      ]
+    },
+    "badge_calibration": {
+      "type": "Badge",
+      "props": {
+        "text": "Calibration",
+        "variant": "secondary"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "text_event_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Cryptic URL-only post 43 minutes after SOXL commentary"
+      }
+    },
+    "text_event_time": {
+      "type": "Text",
+      "props": {
+        "text": "21:37 → 22:20 UTC",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_post": {
+      "type": "Heading",
+      "props": {
+        "text": "Post",
+        "level": "h3"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Correcting https://t.co/b1kgvhDhl9"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_question": {
+      "type": "Heading",
+      "props": {
+        "text": "Analysis Question",
+        "level": "h3"
+      }
+    },
+    "text_question": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — Is this correcting the SOXL sentiment post? Or something else? What's your read on the correction target?",
+        "variant": "lead"
+      }
+    }
+  }
+}
