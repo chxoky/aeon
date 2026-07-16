@@ -1,7 +1,10 @@
-🔍 Calibration — @Wild_Randomness
+🔍 *Calibration — @Wild_Randomness*
 
-Event: First ZEC mention from equities/vol specialist
+Event: Standalone cryptic post with 4-week timeframe reference
 
-Wild_Randomness: "$ZEC - Check back in 4 weeks, shall we? https://t.co/P1X5ootTF7"
+Wild_Randomness: "Check back in 4 weeks, shall we?"
 
-Unable to classify — what's your read? [View](https://x.com/Wild_Randomness/status/2077742220229189917)
+Unable to classify — what's your read? Is this:
+- A market prediction (something expected by Aug 13)?
+- A position-check reference (something he's holding/waiting on)?
+- Broader market commentary?
