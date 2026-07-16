@@ -1,0 +1,46 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet",
+        "separator",
+        "ticker-text",
+        "group-text"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Crypto_Chase",
+        "handle": "@Crypto_Chase",
+        "text": "MU setup\n\nTechnical confluence: patience play vs front-run scenario. If sweeps 850 + reclaims 0.382, will long the reclaim with SL at patient bids. Two shots, two chances."
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "ticker-text": {
+      "type": "Text",
+      "props": {
+        "text": "Ticker focus: MU tracking",
+        "variant": "caption"
+      }
+    },
+    "group-text": {
+      "type": "Text",
+      "props": {
+        "text": "Group lean: BOUNCE PLAYED → now patient/waiting (per memory)",
+        "variant": "caption"
+      }
+    }
+  }
+}
