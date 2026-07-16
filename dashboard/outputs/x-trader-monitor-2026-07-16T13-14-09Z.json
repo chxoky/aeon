@@ -1,0 +1,64 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @Wild_Randomness"
+      },
+      "children": [
+        "event_type",
+        "tweet_card",
+        "separator",
+        "note_section"
+      ]
+    },
+    "event_type": {
+      "type": "Text",
+      "props": {
+        "text": "Event: First ZEC mention from equities/vol specialist",
+        "variant": "body"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "$ZEC - Check back in 4 weeks, shall we? https://t.co/P1X5ootTF7"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "note_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "note_text",
+        "view_link"
+      ]
+    },
+    "note_text": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "muted"
+      }
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View",
+        "href": "https://x.com/Wild_Randomness/status/2077742220229189917"
+      }
+    }
+  }
+}
