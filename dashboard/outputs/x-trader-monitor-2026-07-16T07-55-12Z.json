@@ -1,0 +1,41 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-1",
+        "separator-1",
+        "analysis-1"
+      ]
+    },
+    "tweet-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Heart Can Hodl",
+        "handle": "HeartCanHodl",
+        "text": "Funny enough, the whales who made a killing on named memes have completely vanished too. Not sure what that says about this bear market or how fast people lose quick wealth."
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis-1": {
+      "type": "Text",
+      "props": {
+        "text": "Bearish macro sentiment on whale capitulation + wealth destruction in bear cycle — aligns with HCH's documented 35% short basket positioning (BTC/ETH/SOL/ZEC/HYPE/UNI adds Jul 14-15).",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}

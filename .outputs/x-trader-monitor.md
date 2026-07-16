@@ -1,11 +1,9 @@
-🔍 *Calibration — @HeartCanHodl*
+🐦 *[X] @HeartCanHodl*
 
-Event: Cryptic X post (Jul 16 07:37:56 UTC)
+Funny enough, the whales who made a killing on named memes have completely vanished too. 
 
-HeartCanHodl: "One of the good ones ;)"
+Not sure what that says about this bear market or how fast people lose quick wealth.
 
-Unable to classify — what's your read? 
+[View tweet](https://x.com/HeartCanHodl/status/2077662277801759116)
 
-Terse message with no ticker/level/context. Winking emoji suggests sarcasm or positive sentiment. Given HCH's escalating 35% portfolio short conviction, could mean: (a) affirmation of short thesis validity, (b) sarcastic comment on market, (c) personal banter unrelated to market, or (d) reference to external event. 
-
-[View post](https://x.com/HeartCanHodl/status/2077658979497599456)
+↳ _Bearish macro sentiment on whale capitulation + wealth destruction in bear cycle — aligns with HCH's documented 35% short basket positioning (BTC/ETH/SOL/ZEC/HYPE/UNI adds Jul 14-15)._
