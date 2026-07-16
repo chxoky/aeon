@@ -1,0 +1,117 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor Calibration",
+        "description": "Analysis request for @HeartCanHodl"
+      },
+      "children": [
+        "badge",
+        "event-section",
+        "sep-1",
+        "post-section",
+        "sep-2",
+        "question-section"
+      ]
+    },
+    "badge": {
+      "type": "Badge",
+      "props": {
+        "text": "🔍 Calibration Needed",
+        "variant": "secondary"
+      }
+    },
+    "event-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event-heading",
+        "event-text"
+      ]
+    },
+    "event-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "event-text": {
+      "type": "Text",
+      "props": {
+        "text": "Cryptic response to @lookonchain analytics post",
+        "variant": "body"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "post-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "post-label",
+        "tweet-card"
+      ]
+    },
+    "post-label": {
+      "type": "Text",
+      "props": {
+        "text": "HeartCanHodl:",
+        "variant": "caption"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "Instructions are clear. Short maxxing 🤜🏻 https://t.co/rjGUEQ6VQA"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "question-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "main-question",
+        "context-info"
+      ]
+    },
+    "main-question": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "lead"
+      }
+    },
+    "context-info": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "title": "Portfolio Context",
+        "message": "HCH holds 35% portfolio in short basket. Is this new data supporting shorts, or sentiment confirmation of existing thesis?"
+      }
+    }
+  }
+}
