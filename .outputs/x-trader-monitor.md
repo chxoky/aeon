@@ -29,3 +29,8 @@ https://x.com/Stoiiic/status/2077784067093742039
 **Alert Status:** None (silent skip per HR-1 rules)
 
 The skill completed without notifications as this was pure social banter with no financial signal.
+🐦 *[X] @t_in_crypto*
+
+67-71K a good zone, waiting to see how high MM wants to lift BTC.
+
+[View tweet](https://x.com/t_in_crypto/status/2077786469914009899)
