@@ -1,4 +1,4 @@
-## Summary
+🔍 *Calibration — @HeartCanHodl*
 
 I've executed the x-trader-monitor skill with the provided tweet event. Here's what happened:
 
@@ -15,3 +15,8 @@ I've executed the x-trader-monitor skill with the provided tweet event. Here's w
 - ✅ **Silent skip** per protocol
 
 This tweet is pure social banter directed at another user with no financial content, no ticker mentions, and no trade-related language. It follows the skill's Step 4A classification (non-financial) and is logged silently with no notification to Kyle.
+Event: Possible technical analysis response or market signal
+
+HeartCanHodl: "@DeItaone BMS after SOH"
+
+Unable to classify — what's your read? (likely technical signal or trader reference)
