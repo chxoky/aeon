@@ -1,0 +1,69 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor"
+      },
+      "children": [
+        "header-info",
+        "tweet-1",
+        "sep-1",
+        "footer-info"
+      ]
+    },
+    "header-info": {
+      "type": "Text",
+      "props": {
+        "text": "HCH — Free",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "tweet-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HCH",
+        "handle": "HCH",
+        "text": "Short when it's fearful. Short more when it looks like holding again. Short again when ema starts rejecting. Then size more all the way down and finally cover when everybody start lowering their bottom targets. You win."
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "footer-info": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "text-via",
+        "badge-free"
+      ]
+    },
+    "text-via": {
+      "type": "Text",
+      "props": {
+        "text": "via Discord — HCH",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "badge-free": {
+      "type": "Badge",
+      "props": {
+        "text": "Free",
+        "variant": "secondary"
+      },
+      "children": []
+    }
+  }
+}
