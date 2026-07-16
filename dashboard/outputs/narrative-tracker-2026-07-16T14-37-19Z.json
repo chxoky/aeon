@@ -1,0 +1,441 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker",
+        "description": "2026-07-16 — Baseline run"
+      },
+      "children": [
+        "alert_baseline",
+        "section_reflexivity",
+        "section_positions",
+        "section_map"
+      ]
+    },
+    "alert_baseline": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "No prior structured map logged — baseline run. Moves inferred vs 07-14 trader-state + velocity data."
+      }
+    },
+    "section_reflexivity": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_reflexivity",
+        "reflexivity_item_1",
+        "reflexivity_item_2"
+      ]
+    },
+    "heading_reflexivity": {
+      "type": "Heading",
+      "props": {
+        "text": "⚠️ Reflexivity Alert",
+        "level": "h2"
+      }
+    },
+    "reflexivity_item_1": {
+      "type": "Text",
+      "props": {
+        "text": "Privacy/ZEC — the price IS the narrative: +70% in a week, +1,200% YoY to ~$550, yet sources call it \"a repricing of the privacy narrative, not a rise in actual usage.\" Grayscale ZEC-ETF filing + Cypherpunk Technologies treasury + Multicoin (\"return to cypherpunk ideals\") are manufacturing legitimacy into the pump.",
+        "variant": "body"
+      }
+    },
+    "reflexivity_item_2": {
+      "type": "Text",
+      "props": {
+        "text": "AI agents — BNB Chain building a 100k-TPS L1 \"for autonomous agents\" + the BCG $2B→$200B-by-2030 projection are being used to justify today's bids. Infra rebrand-to-narrative in progress.",
+        "variant": "body"
+      }
+    },
+    "section_positions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "heading_positions",
+        "position_1",
+        "position_2",
+        "position_3",
+        "position_4",
+        "position_5"
+      ]
+    },
+    "heading_positions": {
+      "type": "Heading",
+      "props": {
+        "text": "Positions",
+        "level": "h2"
+      }
+    },
+    "position_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos1_header",
+        "pos1_body",
+        "pos1_bear"
+      ]
+    },
+    "pos1_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos1_label",
+        "pos1_status"
+      ]
+    },
+    "pos1_label": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE: Solana RWA/stablecoins",
+        "variant": "secondary"
+      }
+    },
+    "pos1_status": {
+      "type": "Badge",
+      "props": {
+        "text": "4 ↑ Bull",
+        "variant": "default"
+      }
+    },
+    "pos1_body": {
+      "type": "Text",
+      "props": {
+        "text": "BlackRock BUIDL $615M via Securitize + real $8.68B/30d transfer volume (circulation, not just balances), 300k holders (#1 by count)",
+        "variant": "body"
+      }
+    },
+    "pos1_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: ETH still ~5x the SOL RWA value, SOL spot lagging (Killa: \"never sees ATH again\")",
+        "variant": "muted"
+      }
+    },
+    "position_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos2_header",
+        "pos2_body",
+        "pos2_bear"
+      ]
+    },
+    "pos2_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos2_label",
+        "pos2_status"
+      ]
+    },
+    "pos2_label": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE (late, tight stop): Privacy/ZEC",
+        "variant": "secondary"
+      }
+    },
+    "pos2_status": {
+      "type": "Badge",
+      "props": {
+        "text": "4 ↑↑ Reflexive-Bull",
+        "variant": "default"
+      }
+    },
+    "pos2_body": {
+      "type": "Text",
+      "props": {
+        "text": "Multicoin, Grayscale, Robinhood listing",
+        "variant": "body"
+      }
+    },
+    "pos2_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: one ETF-reject or Ironwood-upgrade slip and +1,200% YoY unwinds fast. NB: the HCH ZEC short basket is underwater here.",
+        "variant": "muted"
+      }
+    },
+    "position_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos3_header",
+        "pos3_body",
+        "pos3_bear"
+      ]
+    },
+    "pos3_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos3_label",
+        "pos3_status"
+      ]
+    },
+    "pos3_label": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE-infra / IGNORE-tail: AI agents",
+        "variant": "secondary"
+      }
+    },
+    "pos3_status": {
+      "type": "Badge",
+      "props": {
+        "text": "5 → Mixed",
+        "variant": "outline"
+      }
+    },
+    "pos3_body": {
+      "type": "Text",
+      "props": {
+        "text": "$VIRTUAL, $FET, Base (100M cumulative agent txns)",
+        "variant": "body"
+      }
+    },
+    "pos3_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: most agent tokens are speculation, not utility.",
+        "variant": "muted"
+      }
+    },
+    "position_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos4_header",
+        "pos4_body"
+      ]
+    },
+    "pos4_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos4_label",
+        "pos4_status"
+      ]
+    },
+    "pos4_label": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH→FADE: BTC \"Green July\" seasonal",
+        "variant": "secondary"
+      }
+    },
+    "pos4_status": {
+      "type": "Badge",
+      "props": {
+        "text": "4 → Cope",
+        "variant": "outline"
+      }
+    },
+    "pos4_body": {
+      "type": "Text",
+      "props": {
+        "text": "ETF outflows (~$84.9M/day) + declining retail search = no FOMO fuel; seasonal-bounce thesis is pattern-matched hopium.",
+        "variant": "body"
+      }
+    },
+    "position_5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos5_header",
+        "pos5_body"
+      ]
+    },
+    "pos5_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos5_label",
+        "pos5_status"
+      ]
+    },
+    "pos5_label": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH: Prediction markets",
+        "variant": "secondary"
+      }
+    },
+    "pos5_status": {
+      "type": "Badge",
+      "props": {
+        "text": "3 → Bull",
+        "variant": "default"
+      }
+    },
+    "pos5_body": {
+      "type": "Text",
+      "props": {
+        "text": "Polymarket ($10M on the July-BTC market alone) + Kaito Attention Markets — structural, no clean liquid token trade yet.",
+        "variant": "body"
+      }
+    },
+    "section_map": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_map",
+        "map_emerging",
+        "map_rising",
+        "map_peak",
+        "map_fading"
+      ]
+    },
+    "heading_map": {
+      "type": "Heading",
+      "props": {
+        "text": "Map",
+        "level": "h2"
+      }
+    },
+    "map_emerging": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "map_emerging_label",
+        "map_emerging_content"
+      ]
+    },
+    "map_emerging_label": {
+      "type": "Badge",
+      "props": {
+        "text": "Emerging",
+        "variant": "outline"
+      }
+    },
+    "map_emerging_content": {
+      "type": "Text",
+      "props": {
+        "text": "AI×DePIN, modular infra (no fresh catalyst)",
+        "variant": "body"
+      }
+    },
+    "map_rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "map_rising_label",
+        "map_rising_content"
+      ]
+    },
+    "map_rising_label": {
+      "type": "Badge",
+      "props": {
+        "text": "Rising",
+        "variant": "secondary"
+      }
+    },
+    "map_rising_content": {
+      "type": "Text",
+      "props": {
+        "text": "Solana RWA/stablecoins, Prediction markets",
+        "variant": "body"
+      }
+    },
+    "map_peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "map_peak_label",
+        "map_peak_content"
+      ]
+    },
+    "map_peak_label": {
+      "type": "Badge",
+      "props": {
+        "text": "Peak",
+        "variant": "destructive"
+      }
+    },
+    "map_peak_content": {
+      "type": "Text",
+      "props": {
+        "text": "AI agents, Privacy coins (parabolic)",
+        "variant": "body"
+      }
+    },
+    "map_fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "map_fading_label",
+        "map_fading_content"
+      ]
+    },
+    "map_fading_label": {
+      "type": "Badge",
+      "props": {
+        "text": "Fading",
+        "variant": "outline"
+      }
+    },
+    "map_fading_content": {
+      "type": "Text",
+      "props": {
+        "text": "Memory/AI equities (NVDA/MU/SNDK — traders banked), BTC seasonal-bounce cope",
+        "variant": "body"
+      }
+    }
+  }
+}
