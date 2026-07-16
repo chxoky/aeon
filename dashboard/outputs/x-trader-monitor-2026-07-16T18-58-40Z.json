@@ -1,0 +1,69 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_title",
+        "tweet_card",
+        "link_view",
+        "separator_main",
+        "alert_context"
+      ]
+    },
+    "heading_title": {
+      "type": "Heading",
+      "props": {
+        "text": "$SOL: Critical Analysis",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "$SOL: Critical analysis on token inflation and supply concentration. KillaXBT argues SOL's rise from $7→$300 wasn't organic demand but VC-driven distribution with massive insider/fund concentration. Positioned as exit liquidity trap for retail buyers.\n\n\"Don't hate the player, hate the game. It is what it is.\""
+      },
+      "children": []
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2077829093266272460"
+      },
+      "children": []
+    },
+    "separator_main": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert_context": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "Reinforces group bearish lean on SOL (HCH short + conviction adds, this conviction post adds fundamental pressure layer)."
+      },
+      "children": []
+    }
+  }
+}
