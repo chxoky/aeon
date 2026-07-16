@@ -1,0 +1,199 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "🔍 Calibration event requiring classification"
+      },
+      "children": [
+        "heading_calibration",
+        "sep_1",
+        "event_section",
+        "sep_2",
+        "classification_section"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration — Discord Trader Signal",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "event_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "source_badges",
+        "event_description",
+        "message_block"
+      ]
+    },
+    "source_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_platform",
+        "badge_user",
+        "badge_channel"
+      ]
+    },
+    "badge_platform": {
+      "type": "Badge",
+      "props": {
+        "text": "Discord",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "badge_user": {
+      "type": "Badge",
+      "props": {
+        "text": "HeartCanHodl",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "badge_channel": {
+      "type": "Badge",
+      "props": {
+        "text": "primary Comments",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "event_description": {
+      "type": "Text",
+      "props": {
+        "text": "HeartCanHodl message in primary Comments channel",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "message_block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "msg_label",
+        "msg_text"
+      ]
+    },
+    "msg_label": {
+      "type": "Text",
+      "props": {
+        "text": "Message:",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "msg_text": {
+      "type": "Text",
+      "props": {
+        "text": "\"2x on portfolio kinda play\"",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "classification_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "classification_title",
+        "status_alert",
+        "options_list"
+      ]
+    },
+    "classification_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Classification Request",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "status_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read on this signal?",
+        "type": "info"
+      },
+      "children": []
+    },
+    "options_list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opt_1",
+        "opt_2",
+        "opt_3",
+        "opt_4"
+      ]
+    },
+    "opt_1": {
+      "type": "Text",
+      "props": {
+        "text": "• A 2x leveraged position on something?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "opt_2": {
+      "type": "Text",
+      "props": {
+        "text": "• Doubling down on existing holdings?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "opt_3": {
+      "type": "Text",
+      "props": {
+        "text": "• Reference to portfolio rebalancing?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "opt_4": {
+      "type": "Text",
+      "props": {
+        "text": "• Something else entirely?",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}

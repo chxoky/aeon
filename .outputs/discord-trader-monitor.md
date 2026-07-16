@@ -1,15 +1,11 @@
 Perfect! I've successfully executed the discord-trader-monitor skill. Here's a summary of what was processed:
 
 ## Summary
+🔍 *Calibration — [DC: HCH — Comments]*
 
-✅ **Discord Trader Monitor Skill Executed Successfully**
+Event: HeartCanHodl message in primary Comments channel
 
-**Event processed:**
-- **Trader:** HeartCanHodl
-- **Channel:** 1393137051108507728 (HCH — Comments, primary)
-- **Message ID:** 1527235784762200074
-- **Time:** 2026-07-16 08:49:45 UTC
-- **Classification:** Informational (macro sentiment / bearish analysis)
+HCH: "2x on portfolio kinda play"
 
 **Content:** HCH macro commentary on AI runner/semis decline, characterizing market justifications (news/rate hikes) as post-hoc cover stories masking real structural decline → real-time speculative capitulation.
 
@@ -37,3 +33,8 @@ This is HCH expressing a technical price-target estimate for BTC, using conditio
 ✅ Logged to memory/logs/2026-07-16.md with classification and context  
 
 The message reinforces HCH's technical-discipline pattern during his documented 35-40% portfolio short-basket escalation phase (BTC/ETH/SOL/HYPE/ZEC/UNI adds through Jul 14-16).
+Unable to classify — what's your read? Is this:
+- A 2x leveraged position on something?
+- Doubling down on existing holdings?
+- Reference to portfolio rebalancing?
+- Something else entirely?
