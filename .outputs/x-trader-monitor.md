@@ -1,13 +1,8 @@
-🐦 *[X] @Stoiiic*
+🔍 *Calibration — @swarmister*
 
-Price is simply an advertising mechanism
+Event: Reply to @based16z, context unknown without prior tweet
+swarmister: "@based16z Why"
 
-with time regulating all advertised opportunities
+Unable to classify — what's your read? Is this market sentiment on price action, technical structure, or personal banter?
 
-and volume ultimately measuring the success or failure of all advertised opportunities.
-
-— J. Dalton
-
-auction market theory (amt) simplified in one image
-
-[View tweet](https://x.com/Stoiiic/status/2077649433639211115)
+[View tweet](https://x.com/swarmister/status/2077656017677021536)
