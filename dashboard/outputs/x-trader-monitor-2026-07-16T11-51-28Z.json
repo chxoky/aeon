@@ -1,0 +1,80 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X-Trader Monitor"
+      },
+      "children": [
+        "badge_calib",
+        "stack_content"
+      ]
+    },
+    "badge_calib": {
+      "type": "Badge",
+      "props": {
+        "text": "🔍 Calibration",
+        "variant": "default"
+      }
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_author",
+        "text_event",
+        "tweet_card",
+        "separator1",
+        "text_context",
+        "link_tweet"
+      ]
+    },
+    "heading_author": {
+      "type": "Heading",
+      "props": {
+        "text": "@swarmister",
+        "level": "h3"
+      }
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: @blancxbt mention of paid call activity",
+        "variant": "body"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Swarmister",
+        "handle": "swarmister",
+        "text": "A paid call has been detected"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "Swarmister is a new tracker (previously noted as BTC intraday long-lean). This message appears to reference monitoring of @blancxbt's paid calls service. Unable to classify without context: Is this a market signal, a service notification, or meta-commentary?",
+        "variant": "body"
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/swarmister/status/2077722216125301158"
+      }
+    }
+  }
+}
