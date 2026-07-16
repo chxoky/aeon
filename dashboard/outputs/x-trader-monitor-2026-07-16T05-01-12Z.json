@@ -1,0 +1,158 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @HeartCanHodl"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "badge_calibration",
+        "text_event",
+        "stack_quote",
+        "separator_1",
+        "stack_context",
+        "stack_interpretations",
+        "separator_2",
+        "text_question",
+        "link_post"
+      ]
+    },
+    "badge_calibration": {
+      "type": "Badge",
+      "props": {
+        "text": "Calibration Report",
+        "variant": "outline"
+      }
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Philosophical statement on market positioning",
+        "variant": "lead"
+      }
+    },
+    "stack_quote": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_quote_label",
+        "text_quote"
+      ]
+    },
+    "text_quote_label": {
+      "type": "Text",
+      "props": {
+        "text": "Quote:",
+        "variant": "muted"
+      }
+    },
+    "text_quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"It pays to be a contrarian\"",
+        "variant": "lead"
+      }
+    },
+    "separator_1": {
+      "type": "Separator"
+    },
+    "stack_context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_context_label",
+        "text_context"
+      ]
+    },
+    "text_context_label": {
+      "type": "Text",
+      "props": {
+        "text": "Context:",
+        "variant": "muted"
+      }
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "HCH holds 35% portfolio in short basket (BTC/ETH/SOL/ZEC/HYPE/UNI). Recent posts align with bearish conviction validation (shorts paying off, technical levels tested).",
+        "variant": "body"
+      }
+    },
+    "stack_interpretations": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_interp_label",
+        "text_interp_a",
+        "text_interp_b",
+        "text_interp_c"
+      ]
+    },
+    "text_interp_label": {
+      "type": "Text",
+      "props": {
+        "text": "Statement could mean:",
+        "variant": "muted"
+      }
+    },
+    "text_interp_a": {
+      "type": "Text",
+      "props": {
+        "text": "(a) validation of contrarian short positioning paying off",
+        "variant": "body"
+      }
+    },
+    "text_interp_b": {
+      "type": "Text",
+      "props": {
+        "text": "(b) general market philosophy with no specific signal",
+        "variant": "body"
+      }
+    },
+    "text_interp_c": {
+      "type": "Text",
+      "props": {
+        "text": "(c) sentiment on market structure",
+        "variant": "body"
+      }
+    },
+    "separator_2": {
+      "type": "Separator"
+    },
+    "text_question": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "lead"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/HeartCanHodl/status/2077618809444454641"
+      }
+    }
+  }
+}
