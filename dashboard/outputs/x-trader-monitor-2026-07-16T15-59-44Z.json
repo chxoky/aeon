@@ -1,0 +1,64 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @Stoiiic"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "link_composite",
+        "separator",
+        "text_analysis",
+        "link_fulltweet"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "Stoiiic",
+        "text": "initial reaction from composite ✅"
+      }
+    },
+    "link_composite": {
+      "type": "Link",
+      "props": {
+        "label": "t.co/Cm3S0xdG3P",
+        "href": "https://t.co/Cm3S0xdG3P"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Context unclear — is this a personal trade setup, technical indicator reaction, or market observation? Follows Jul 14-15 pattern of ambiguous posts. What's your read?",
+        "variant": "body"
+      }
+    },
+    "link_fulltweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet on X",
+        "href": "https://x.com/Stoiiic/status/2077784067093742039"
+      }
+    }
+  }
+}
