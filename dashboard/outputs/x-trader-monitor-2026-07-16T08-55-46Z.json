@@ -1,0 +1,47 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading_calibration",
+        "section_context"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration — @HeartCanHodl",
+        "level": "h2"
+      }
+    },
+    "section_context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "label_context",
+        "text_context"
+      ]
+    },
+    "label_context": {
+      "type": "Text",
+      "props": {
+        "text": "Context:",
+        "variant": "lead"
+      }
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "Recent posts on BTC support levels (59-60K critical test), bearish sentiment (risky"
+      }
+    }
+  }
+}
