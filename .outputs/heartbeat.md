@@ -1,19 +1,22 @@
-Heartbeat complete. All checks green — no notification sent (nothing new to surface).
+Heartbeat complete. Everything is green — no notification sent.
+
+`HEARTBEAT_OK · STATUS_PAGE=OK`
 
 ## Summary
 
-Ran the `heartbeat` skill (08:00 UTC run, 2026-07-16). Result: **HEARTBEAT_OK · STATUS_PAGE=OK**.
+Ran the `heartbeat` skill for 2026-07-16 14:32 UTC. All priority tiers clear.
 
 **Checks performed:**
-- **P0 — Skill health** (`cron-state.json`): all 7 enabled skills green. No failed/stuck/chronic skills, no API degradation. Heartbeat self-check fresh (last success ~12h ago). `price-threshold-alert` shows 50% success rate but only 2 total runs (<5 threshold) → not flagged.
-- **P0 — X webhook rule**: live-checked `WATCHED_TRADERS` (`35f3c57c…`) via secretcurl → `is_effect:1`, all 12 accounts, 180s interval = **ACTIVE**. ISS-002 stays resolved.
-- **P1 — PRs/issues**: 0 open PRs; repo issues disabled → nothing to flag.
-- **P2 — Memory**: no flagged follow-up items (Open Calibration Items = none).
-- **P3 — Missing skills**: every enabled skill is within 2× its schedule interval.
-- **Dedup note**: the `chain:morning-pipeline` `failed` entry (07:34 UTC wrapper exit-1 on 2026-07-15) is a stale orchestration artifact — the `morning-pipeline` result succeeded the same run (07:47). Already flagged across the 08:00/14:00/20:00 heartbeats on 2026-07-15, so skipped per dedup rule. It does not change the overall verdict since no enabled skill failed.
+- **P0 — Failed/stuck skills:** No real skill failures. The only `failed` entry is `chain:morning-pipeline` (08:59Z) — the known benign chain-orchestration wrapper artifact; the actual `morning-pipeline` skill succeeded at 09:14Z and `skill-health` classified the fleet healthy. Recurred harmlessly across prior heartbeats → deduped, no notification. No stuck skills, no consecutive_failures ≥ 3, no chronic failures, heartbeat self-check fresh (09:02Z).
+- **P0 — X webhook rule:** `WATCHED_TRADERS` (rule_id `35f3c57…`) active — `is_effect: 1`, all 12 accounts, 180s interval. ISS-002 stays resolved; no action.
+- **P1:** 0 open PRs; repo issues disabled (nothing to triage).
+- **P2:** No flagged memory items (Open Calibration Items: None).
+- **P3:** All enabled scheduled skills within 2× their interval.
+
+**Overall verdict:** 🟢 OK — no P0/P1/P2/P3 flags fired.
 
 **Files modified:**
-- `docs/status.md` — regenerated (verdict 🟢 OK, updated 2026-07-16 08:59 UTC, next run token-alert at 12:00 UTC). Token pulse section omitted (no `articles/token-report-*.md` exists).
+- `docs/status.md` — regenerated public status page (Overall 🟢 OK, Updated 14:32 UTC, next run `skill-health` at 18:00 UTC; Token pulse section omitted — no `token-report-*.md` article exists; 15-row skill-health table sorted by last-run desc).
 - `memory/logs/2026-07-16.md` — appended heartbeat log entry.
 
-**Follow-up:** None. `docs/status.md` lands on `main` via the workflow's auto-commit step.
+**Follow-up:** None. The `chain:morning-pipeline` wrapper exit-1 remains a cosmetic one-shot artifact; worth a future fix in `chain-runner.yml` so the wrapper's exit code reflects the recovered pipeline result, but it has no operational impact.
