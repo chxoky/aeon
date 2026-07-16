@@ -1,0 +1,54 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet",
+        "link",
+        "separator",
+        "commentary"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "The first best time to short $ETH was yesterday. The second-best time might just be today."
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/HeartCanHodl/status/2077624197694496848"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {}
+    },
+    "commentary": {
+      "type": "Text",
+      "props": {
+        "text": "Reinforces existing ETH short conviction (2% added Jul 14). HCH holds 35% portfolio in short basket (BTC/ETH/SOL/HYPE/ZEC/UNI).",
+        "variant": "muted"
+      }
+    }
+  }
+}
