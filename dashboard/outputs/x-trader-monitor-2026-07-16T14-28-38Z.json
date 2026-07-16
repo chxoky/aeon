@@ -1,0 +1,87 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor: Calibration"
+      },
+      "children": [
+        "heading-main",
+        "separator-1",
+        "event-badge",
+        "tweet",
+        "separator-2",
+        "context-section"
+      ]
+    },
+    "heading-main": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @KillaXBT",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "event-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Tweet shared with external reference"
+      },
+      "children": []
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "I'm just the messenger.\n\n750-1000D mark... $BTC"
+      },
+      "children": []
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "context-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context-alert",
+        "x-link"
+      ]
+    },
+    "context-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "External Link Inaccessible",
+        "message": "What's your read on \"750-1000D mark\"? (Daily chart level? Point target? External analysis?)",
+        "type": "info"
+      },
+      "children": []
+    },
+    "x-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Original Post",
+        "href": "https://x.com/KillaXBT/status/2077760851990204576",
+        "source": "X"
+      },
+      "children": []
+    }
+  }
+}
