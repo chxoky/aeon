@@ -1,0 +1,107 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading_cal",
+        "sep1",
+        "section_event",
+        "sep2",
+        "tweet_section",
+        "sep3",
+        "question_section"
+      ]
+    },
+    "heading_cal": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @swarmister",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_event": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event_label",
+        "event_detail"
+      ]
+    },
+    "event_label": {
+      "type": "Text",
+      "props": {
+        "text": "Event:",
+        "variant": "lead"
+      }
+    },
+    "event_detail": {
+      "type": "Text",
+      "props": {
+        "text": "~11 hours after opening partial BTC long position at 62.4k entry zones (target 70.7k)",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet_card"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "@blknoiz06 What the fuck"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "question_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "question_alert"
+      ]
+    },
+    "question_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read? Market frustration on BTC action, or unrelated?",
+        "type": "info"
+      }
+    }
+  }
+}
