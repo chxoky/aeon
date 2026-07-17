@@ -1,0 +1,77 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @Wild_Randomness"
+      },
+      "children": [
+        "event-desc",
+        "tweet-card",
+        "analysis-prompt",
+        "options-group",
+        "view-link"
+      ]
+    },
+    "event-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Cryptic one-liner URL post on tape watching"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Tape watching works https://t.co/6qhoUDTwii"
+      }
+    },
+    "analysis-prompt": {
+      "type": "Heading",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "level": "h3"
+      }
+    },
+    "options-group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "option-1",
+        "option-2",
+        "option-3"
+      ]
+    },
+    "option-1": {
+      "type": "Text",
+      "props": {
+        "text": "1. Personal methodology reaffirmation / resource link?"
+      }
+    },
+    "option-2": {
+      "type": "Text",
+      "props": {
+        "text": "2. Commentary on current order flow?"
+      }
+    },
+    "option-3": {
+      "type": "Text",
+      "props": {
+        "text": "3. General market observation?"
+      }
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2078208898914222537"
+      }
+    }
+  }
+}
