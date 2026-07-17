@@ -1,0 +1,108 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor",
+        "description": "Market observation flagged for classification"
+      },
+      "children": [
+        "header_stack",
+        "separator1",
+        "event_section",
+        "separator2",
+        "quote_section",
+        "separator3",
+        "questions_section"
+      ]
+    },
+    "header_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "calibration_badge"
+      ]
+    },
+    "calibration_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "🔍 Calibration — DC: Chase — TradFi",
+        "variant": "outline"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "event_section": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Crypto_Chase posted forward-looking market observation in supporting channel",
+        "variant": "lead"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "quote_section": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Crypto_Chase",
+        "text": "Huge deal coming Monday AM around 9:45 after 10-15 mins of opening panic"
+      }
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "questions_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "question_header",
+        "question_list"
+      ]
+    },
+    "question_header": {
+      "type": "Heading",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "level": "h3"
+      }
+    },
+    "question_list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "q1",
+        "q2"
+      ]
+    },
+    "q1": {
+      "type": "Text",
+      "props": {
+        "text": "• What deal? (specific market, asset, or macro event?)",
+        "variant": "body"
+      }
+    },
+    "q2": {
+      "type": "Text",
+      "props": {
+        "text": "• Is this a personal entry plan, or broader market timing observation?",
+        "variant": "body"
+      }
+    }
+  }
+}
