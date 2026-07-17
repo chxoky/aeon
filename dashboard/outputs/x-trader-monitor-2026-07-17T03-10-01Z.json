@@ -1,0 +1,40 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge-success",
+        "text-details"
+      ]
+    },
+    "badge-success": {
+      "type": "Badge",
+      "props": {
+        "text": "Success",
+        "variant": "default"
+      }
+    },
+    "text-details": {
+      "type": "Text",
+      "props": {
+        "text": "Non-financial post from @ryzzqq (tweet_id: 2077953124501967085) silently logged",
+        "variant": "body"
+      }
+    }
+  }
+}
