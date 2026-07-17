@@ -19,3 +19,16 @@
 - Daily log: Event logged to `memory/logs/2026-07-17.md`
 
 **Classification context:** Forward-looking conditional strategy (DCA plans for MU/SNDK, macro SPX watching) — no new positions being executed in this message, but reinforces conviction on MU accumulation thesis post-entry at ~$800 from earlier same day.
+✅ **Discord Trader Monitor executed successfully**
+
+**Event summary:**
+- **Message:** Role mention only (`<@&1247940234558177521>`)
+- **Trader:** crypto_chase (Crypto_Chase primary channel)
+- **Classification:** Non-financial / skip
+- **Action:** Silent log only — no alert sent
+
+**Memory updated:**
+- `discord-trader-seen.txt`: message ID 1527747769320865883 added to dedup list
+- `logs/2026-07-17.md`: event logged with classification and notes
+
+This was purely an administrative role mention with no trade signal or financial content, consistent with Step 4A (Non-financial) and HR-1 classification. No Kyle notification required.
