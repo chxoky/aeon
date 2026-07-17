@@ -1,4 +1,4 @@
-## Summary
+💬 *[DC: Chase — Chase]*
 
 **Discord Trader Monitor — Real-time Event Processing**
 
@@ -18,3 +18,4 @@
 6. Updated discord-trader-seen.txt with new message ID to prevent re-alerting
 
 ✅ **No action taken:** Fast-path=false, informational only (no Telegram alert needed — this is documentary feedback to Kyle showing his entry orders executing vs awaiting fill).
+But my INTC/AMD levels were lower bc I knew they were weaker overall, would have needed to see accelerated downside from them if I was going to have that extra risk on the table

@@ -1,0 +1,24 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "message_1"
+      ]
+    },
+    "message_1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Chase",
+        "handle": "chase",
+        "text": "But my INTC/AMD levels were lower bc I knew they were weaker overall, would have needed to see accelerated downside from them if I was going to have that extra risk on the table"
+      },
+      "children": []
+    }
+  }
+}
