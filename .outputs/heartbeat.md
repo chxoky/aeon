@@ -1,20 +1,21 @@
-`HEARTBEAT_OK · STATUS_PAGE=OK`
+HEARTBEAT_OK · STATUS_PAGE=OK
 
 ## Summary
 
-Ran the `heartbeat` skill for 2026-07-17. All checks green — no notification sent.
+Ran the `heartbeat` skill for the 2026-07-17 14:00 UTC cycle. All checks green — **no notification sent**.
 
 **Checks performed:**
-- **P0 — Skill health:** No failed or stuck enabled skills, no API degradation (0 consecutive failures fleet-wide), no chronic failures. The only `failed` entry is `chain:morning-pipeline` (08:59 UTC exit-1) — the known stale one-shot chain-wrapper artifact; the underlying `morning-pipeline` succeeded at 09:14 UTC and skill-health classified the fleet healthy. Dedup'd against prior heartbeats. Heartbeat self-check fresh.
-- **P0 — X webhook rule (ISS-002 guard):** `WATCHED_TRADERS` rule (`35f3c57…`) is active — `is_effect:1`, `is_delete:0`, all 12 accounts, 180s interval. Confirmed live via secretcurl. X events flowing through 08:23 UTC; `x-trader-monitor` last success 08:28 UTC. ISS-002 stays resolved.
-- **P1:** 0 open PRs, no urgent issues (repo issues disabled).
-- **P2:** No flagged memory follow-ups.
-- **P3:** All enabled scheduled skills current (within 2× their interval). `morning-brief` runs via the `morning-pipeline` chain — not a real gap.
+- **P0 failed/stuck skills** — No enabled top-level skill failed or stuck. The only `failed` entry is `chain:morning-pipeline` (exit-1 at 08:38 UTC), the recurring one-shot chain-wrapper artifact already dedup'd across prior heartbeats. Noted one wrinkle: today the standalone `morning-pipeline`/`morning-brief` keys stayed in `dispatched` with no same-run recovery (2026-07-16 recovered at 09:14; today didn't). `token-movers` (a pipeline member) still succeeded independently at 13:00 UTC, and skill-health classified the fleet healthy 2026-07-16, so it doesn't drive the verdict — but I flagged it as a **watch item**: if the keys stay stuck across tomorrow's 07:00 cron, escalate (morning-brief may be silently not delivering).
+- **P0 X webhook (ISS-002 guard)** — `WATCHED_TRADERS` rule live: `is_effect:1`, all 12 accounts, 180s interval, `is_delete:0`. ISS-002 stays resolved. Live pipeline confirmed: x-trader-monitor last success 14:05 UTC, discord 14:19 UTC.
+- **P1** — 0 open PRs, 0 open issues.
+- **P2** — No flagged memory follow-ups.
+- **P3** — All enabled scheduled skills current (none >2× their interval).
+- Heartbeat self-check fresh (last success 08:40 UTC).
 
 **Files modified:**
-- `docs/status.md` — regenerated public status page (Overall: 🟢 OK, Updated 2026-07-17 08:38 UTC, 0 open issues, next run token-alert at 12:00 UTC). Token pulse section omitted — no `token-report-*.md` exists yet.
-- `memory/logs/2026-07-17.md` — appended heartbeat run log.
+- `docs/status.md` — regenerated (Overall 🟢 OK, Updated 2026-07-17 14:22 UTC, 0 open issues, next run skill-health at 18:00 UTC; Token pulse section omitted — no token-report article exists). Table sorted by last-run desc with the honest morning-pipeline/chain-wrapper note.
+- `memory/logs/2026-07-17.md` — appended the heartbeat log entry.
 
-**Follow-ups:** None. The `chain:morning-pipeline` wrapper artifact remains cosmetic and will keep recurring harmlessly until the chain-runner exit-code handling is addressed — not blocking.
+**Follow-up needed:** Watch the morning-pipeline chain on tomorrow's 07:00 UTC cron. If `morning-pipeline`/`morning-brief` remain stuck in `dispatched` (no recovery two days running), it's likely a genuine morning-brief delivery failure worth filing as an issue rather than continuing to treat as a wrapper artifact.
 
-*Note: the status page and log land on `main` via the workflow's auto-commit step.*
+Both files land on `main` via the workflow's auto-commit step — no explicit git needed.
