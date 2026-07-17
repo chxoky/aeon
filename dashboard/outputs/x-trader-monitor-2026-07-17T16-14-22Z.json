@@ -1,0 +1,60 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "main_stack"
+      ]
+    },
+    "main_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet",
+        "separator",
+        "link",
+        "position_confirmation"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "handle": "t_in_crypto",
+        "text": "I bought 58k and will sell at X price\nEverything in between doesn't bother me at all\n\nUse my pivots as macro reversals or for any purpose in conjunction with your strategy\nI don't trade every dip and rise between the range's top and bottom ❗️\n\nThanks for attention 🫶🏽"
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/t_in_crypto/status/2078150358287692109"
+      },
+      "children": []
+    },
+    "position_confirmation": {
+      "type": "Text",
+      "props": {
+        "text": "↳ Position confirmation: Diamond-handing 100% BTC long @58.4K (since Jul 13) + x2 conviction add @62K (Jul 14). Sharing pivot framework for macro reversals — aligned with documented HTF bullish thesis and patience messaging.",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
