@@ -1,7 +1,7 @@
-*Skill Health — 2026-07-16*
-HEALTH: OK — 6 skills healthy
+*Skill Health — 2026-07-17*
+HEALTH: OK — 8 skills healthy
 
-All enabled cron skills green (token-alert, token-movers, market-context-refresh, narrative-tracker, skill-health, heartbeat) — 100% success, 0 consecutive fails.
-⚪ NO DATA (1): morning-brief — runs via the morning-pipeline chain (recorded under that key), not a real gap.
+🟢 HEALTHY (8): token-alert, token-movers, market-context-refresh, narrative-tracker, skill-health, heartbeat, x-trader-monitor, discord-trader-monitor
+⚪ NO DATA (1): morning-brief — runs via morning-pipeline chain, not a real scheduler gap
 
 Open issues: 0 · Resolved this run: 0

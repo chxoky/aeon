@@ -1,0 +1,151 @@
+{
+  "root": "card-health",
+  "state": {},
+  "elements": {
+    "card-health": {
+      "type": "Card",
+      "props": {
+        "title": "Skill Health — 2026-07-17"
+      },
+      "children": [
+        "status-text",
+        "sep-1",
+        "healthy-heading",
+        "healthy-grid",
+        "sep-2",
+        "no-data-heading",
+        "no-data-alert",
+        "sep-3",
+        "stats-section"
+      ]
+    },
+    "status-text": {
+      "type": "Text",
+      "props": {
+        "text": "HEALTH: OK — 8 skills healthy",
+        "variant": "lead"
+      }
+    },
+    "sep-1": {
+      "type": "Separator"
+    },
+    "healthy-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "HEALTHY (8)",
+        "level": "h3"
+      }
+    },
+    "healthy-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 4,
+        "gap": "sm"
+      },
+      "children": [
+        "badge-1",
+        "badge-2",
+        "badge-3",
+        "badge-4",
+        "badge-5",
+        "badge-6",
+        "badge-7",
+        "badge-8"
+      ]
+    },
+    "badge-1": {
+      "type": "Badge",
+      "props": {
+        "text": "token-alert"
+      }
+    },
+    "badge-2": {
+      "type": "Badge",
+      "props": {
+        "text": "token-movers"
+      }
+    },
+    "badge-3": {
+      "type": "Badge",
+      "props": {
+        "text": "market-context-refresh"
+      }
+    },
+    "badge-4": {
+      "type": "Badge",
+      "props": {
+        "text": "narrative-tracker"
+      }
+    },
+    "badge-5": {
+      "type": "Badge",
+      "props": {
+        "text": "skill-health"
+      }
+    },
+    "badge-6": {
+      "type": "Badge",
+      "props": {
+        "text": "heartbeat"
+      }
+    },
+    "badge-7": {
+      "type": "Badge",
+      "props": {
+        "text": "x-trader-monitor"
+      }
+    },
+    "badge-8": {
+      "type": "Badge",
+      "props": {
+        "text": "discord-trader-monitor"
+      }
+    },
+    "sep-2": {
+      "type": "Separator"
+    },
+    "no-data-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "NO DATA (1)",
+        "level": "h3"
+      }
+    },
+    "no-data-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "morning-brief",
+        "message": "Runs via morning-pipeline chain, not a real scheduler gap",
+        "type": "info"
+      }
+    },
+    "sep-3": {
+      "type": "Separator"
+    },
+    "stats-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-open-issues",
+        "stat-resolved"
+      ]
+    },
+    "stat-open-issues": {
+      "type": "Stat",
+      "props": {
+        "label": "Open issues",
+        "value": "0"
+      }
+    },
+    "stat-resolved": {
+      "type": "Stat",
+      "props": {
+        "label": "Resolved this run",
+        "value": "0"
+      }
+    }
+  }
+}
