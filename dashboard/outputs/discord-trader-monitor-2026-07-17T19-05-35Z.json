@@ -1,0 +1,94 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor"
+      },
+      "children": [
+        "main_stack"
+      ]
+    },
+    "main_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "question_section",
+        "response_section"
+      ]
+    },
+    "question_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "q_author_text",
+        "q_message"
+      ]
+    },
+    "q_author_text": {
+      "type": "Text",
+      "props": {
+        "text": "↩️ Member (cryptkeeper0614)",
+        "variant": "caption"
+      }
+    },
+    "q_message": {
+      "type": "Text",
+      "props": {
+        "text": "do you hold SPx long term?",
+        "variant": "body"
+      }
+    },
+    "response_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "r_header_stack",
+        "r_message"
+      ]
+    },
+    "r_header_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "r_author_text",
+        "r_channel_badge"
+      ]
+    },
+    "r_author_text": {
+      "type": "Text",
+      "props": {
+        "text": "💬 Chase",
+        "variant": "caption"
+      }
+    },
+    "r_channel_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DC: TradFi",
+        "variant": "outline"
+      }
+    },
+    "r_message": {
+      "type": "Text",
+      "props": {
+        "text": "I buy crashes and then sell along the way",
+        "variant": "body"
+      }
+    }
+  }
+}
