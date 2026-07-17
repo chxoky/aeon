@@ -1,0 +1,196 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor success"
+      },
+      "children": [
+        "badge_success",
+        "sep1",
+        "event_stack",
+        "sep2",
+        "classification_stack",
+        "sep3",
+        "action_stack",
+        "sep4",
+        "ticker_stack",
+        "sep5",
+        "notes_stack"
+      ]
+    },
+    "badge_success": {
+      "type": "Badge",
+      "props": {
+        "text": "✅ Success",
+        "variant": "default"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "event_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event_heading",
+        "event_link"
+      ]
+    },
+    "event_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "event_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Stoiiic tweet (2077923020601975082)",
+        "href": "https://twitter.com/i/web/status/2077923020601975082",
+        "source": "Twitter"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "classification_heading",
+        "classification_badge",
+        "classification_text"
+      ]
+    },
+    "classification_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Classification",
+        "level": "h3"
+      }
+    },
+    "classification_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "informational",
+        "variant": "secondary"
+      }
+    },
+    "classification_text": {
+      "type": "Text",
+      "props": {
+        "text": "third-party observation/gossip",
+        "variant": "caption"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "action_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "action_heading",
+        "action_text"
+      ]
+    },
+    "action_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Action",
+        "level": "h3"
+      }
+    },
+    "action_text": {
+      "type": "Text",
+      "props": {
+        "text": "silent file to traders.md — no user alert needed",
+        "variant": "body"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "ticker_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ticker_heading",
+        "ticker_text"
+      ]
+    },
+    "ticker_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Ticker",
+        "level": "h3"
+      }
+    },
+    "ticker_text": {
+      "type": "Text",
+      "props": {
+        "text": "unnamed shitcoin (untrackable)",
+        "variant": "body"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "notes_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "notes_heading",
+        "notes_text"
+      ]
+    },
+    "notes_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Notes",
+        "level": "h3"
+      }
+    },
+    "notes_text": {
+      "type": "Text",
+      "props": {
+        "text": "Stoiiic reporting @TheFlowHorse/@Rager PFP switches; insufficient specificity for tracking. No personal trade action from Stoiiic.",
+        "variant": "body"
+      }
+    }
+  }
+}
