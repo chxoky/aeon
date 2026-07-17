@@ -1,0 +1,88 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @bull_genius"
+      },
+      "children": [
+        "event_badge",
+        "story_link",
+        "separator",
+        "clarification_heading",
+        "clarifications_stack"
+      ]
+    },
+    "event_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Onchain market observation about token dynamics",
+        "variant": "outline"
+      }
+    },
+    "story_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "the account 'luckisaskill.eth' just happened to buy 12% of coinbase man token 48h before brian switches his pfp to it and it rips 30x in one candle",
+        "href": "https://t.co/uJaKeUSFi4",
+        "source": "@bull_genius"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "clarification_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Need clarification:",
+        "level": "h3"
+      }
+    },
+    "clarifications_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "q1",
+        "q2",
+        "q3",
+        "q4"
+      ]
+    },
+    "q1": {
+      "type": "Text",
+      "props": {
+        "text": "1. Which token/ticker is \"coinbase man token\"? (colloquial name, no symbol)",
+        "variant": "body"
+      }
+    },
+    "q2": {
+      "type": "Text",
+      "props": {
+        "text": "2. Who is \"brian\" and why is the PFP change significant?",
+        "variant": "body"
+      }
+    },
+    "q3": {
+      "type": "Text",
+      "props": {
+        "text": "3. Is this pump-and-dump mechanics observation or general onchain commentary?",
+        "variant": "body"
+      }
+    },
+    "q4": {
+      "type": "Text",
+      "props": {
+        "text": "4. Should this become a tracked ticker?",
+        "variant": "body"
+      }
+    }
+  }
+}
