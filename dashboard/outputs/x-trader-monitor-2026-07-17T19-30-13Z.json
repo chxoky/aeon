@@ -1,0 +1,50 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor",
+        "description": "Stoiiic's BTC Statistical Analysis"
+      },
+      "children": [
+        "content-stack"
+      ]
+    },
+    "content-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "tweet-link",
+        "follow-up-note"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "@Stoiiic",
+        "text": "One week removed.\n\nLet's reassess the statistical probability of how the rest of the month may look for BTC.\n\n98% of bearish months have the high in by now; 20% high target ~65.5k\nUnlikely BTC trades below lows this month at this point\nArea of trouble between 65-70k where reversion can begin\n\nTLDR: Counter trend rally thesis remains, with potential extension to mid-60s. These months tend to be choppy even if they resolve higher."
+      }
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Stoiiic/status/2078199470164951404"
+      }
+    },
+    "follow-up-note": {
+      "type": "Text",
+      "props": {
+        "text": "↳ Reinforces documented Stoiiic thesis (60-62K pivot, 65-70K caps upside) and aligns with group consensus on near-term chop zone.",
+        "variant": "caption"
+      }
+    }
+  }
+}
