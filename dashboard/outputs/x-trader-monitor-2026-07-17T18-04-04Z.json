@@ -1,0 +1,59 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "tweet_link",
+        "separator_1",
+        "context_heading",
+        "context_text"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "@Stoiiic",
+        "text": "throw up a 90d rolling vwap scan through alts. believe it's a great contextual gauge currently."
+      },
+      "children": []
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Stoiiic/status/2078178118993424888"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "context_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context & Analysis",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "Technical framework recommendation aligns with Stoiiic's order-flow/market-structure methodology (VWAP explanation shared Jul 15). Assessment of tool's current usefulness reflects group shift from neutral to near-term caution given 60-65K consolidation zone.",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
