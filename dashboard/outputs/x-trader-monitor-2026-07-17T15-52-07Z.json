@@ -1,0 +1,124 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-card",
+        "tweet-link",
+        "separator-1",
+        "analysis-stack"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "handle": "t_in_crypto",
+        "text": "Chop chop to the top of range $btc #btc"
+      },
+      "children": []
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/t_in_crypto/status/2078144321186918720"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis-text-1",
+        "analysis-text-2",
+        "data-stack"
+      ]
+    },
+    "analysis-text-1": {
+      "type": "Text",
+      "props": {
+        "text": "BTC consolidating in range; t_in_crypto maintaining 100% long conviction @58.4K entry (diamond-handing through chop).",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "analysis-text-2": {
+      "type": "Text",
+      "props": {
+        "text": "Group consensus: HTF bullish bias but near-term range-bound (60–64.7K zone under scrutiny).",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "data-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-entry",
+        "stat-range",
+        "badge-conviction",
+        "badge-diamond",
+        "badge-bias"
+      ]
+    },
+    "stat-entry": {
+      "type": "Stat",
+      "props": {
+        "label": "Entry",
+        "value": "58.4K"
+      },
+      "children": []
+    },
+    "stat-range": {
+      "type": "Stat",
+      "props": {
+        "label": "HTF Range",
+        "value": "60–64.7K"
+      },
+      "children": []
+    },
+    "badge-conviction": {
+      "type": "Badge",
+      "props": {
+        "text": "100% long conviction",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge-diamond": {
+      "type": "Badge",
+      "props": {
+        "text": "Diamond hands",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge-bias": {
+      "type": "Badge",
+      "props": {
+        "text": "HTF bullish bias",
+        "variant": "outline"
+      },
+      "children": []
+    }
+  }
+}
