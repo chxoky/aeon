@@ -1,0 +1,98 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "🔍 Calibration — [DC: Chase — TradFi]"
+      },
+      "children": [
+        "event-line",
+        "metadata-badges",
+        "divider-1",
+        "message-section",
+        "divider-2",
+        "classification-alert"
+      ]
+    },
+    "event-line": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Member Q&A in supporting channel",
+        "variant": "lead"
+      }
+    },
+    "metadata-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-context",
+        "badge-reply"
+      ]
+    },
+    "badge-context": {
+      "type": "Badge",
+      "props": {
+        "text": "context not provided",
+        "variant": "secondary"
+      }
+    },
+    "badge-reply": {
+      "type": "Badge",
+      "props": {
+        "text": "is_reply=false",
+        "variant": "secondary"
+      }
+    },
+    "divider-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "author-name",
+        "message-quote"
+      ]
+    },
+    "author-name": {
+      "type": "Text",
+      "props": {
+        "text": "crypto_chase",
+        "variant": "lead"
+      }
+    },
+    "message-quote": {
+      "type": "Text",
+      "props": {
+        "text": "Do I have a portion I specifically never touch? No",
+        "variant": "body"
+      }
+    },
+    "divider-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read? (Portfolio allocation philosophy? Risk management statement? Something actionable?)",
+        "type": "info"
+      }
+    }
+  }
+}
