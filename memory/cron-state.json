@@ -67,8 +67,8 @@
     "success_rate": 1
   },
   "heartbeat": {
-    "last_dispatch": "2026-07-16T20:35:27Z",
-    "last_status": "success",
+    "last_dispatch": "2026-07-17T08:37:20Z",
+    "last_status": "dispatched",
     "last_success": "2026-07-16T20:38:51Z",
     "total_runs": 13,
     "total_successes": 13,
@@ -126,18 +126,22 @@
     "success_rate": 1
   },
   "chain:morning-pipeline": {
-    "last_dispatch": "2026-07-16T08:58:31Z",
-    "last_status": "failed",
+    "last_dispatch": "2026-07-17T08:37:20Z",
+    "last_status": "dispatched",
     "last_failed": "2026-07-16T08:59:52Z"
   },
   "morning-pipeline": {
-    "last_dispatch": "2026-07-16T08:58:31Z",
-    "last_status": "success",
+    "last_dispatch": "2026-07-17T08:37:20Z",
+    "last_status": "dispatched",
     "last_success": "2026-07-16T09:14:09Z",
     "total_runs": 2,
     "total_successes": 2,
     "total_failures": 0,
     "consecutive_failures": 0,
     "success_rate": 1
+  },
+  "morning-brief": {
+    "last_dispatch": "2026-07-17T08:37:20Z",
+    "last_status": "dispatched"
   }
 }
