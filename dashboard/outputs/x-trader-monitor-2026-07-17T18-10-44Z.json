@@ -1,0 +1,118 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @t_in_crypto"
+      },
+      "children": [
+        "event-section",
+        "post-separator",
+        "post-content",
+        "context-separator",
+        "context-section",
+        "question-separator",
+        "classification-question"
+      ]
+    },
+    "event-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event-label",
+        "event-text"
+      ]
+    },
+    "event-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h4"
+      }
+    },
+    "event-text": {
+      "type": "Text",
+      "props": {
+        "text": "Ambiguous message about weekend pivots/technical analysis"
+      }
+    },
+    "post-separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "post-content": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "handle": "t_in_crypto",
+        "text": "@zohaan1324 @tiger_khan9 I haven't weekend pivots on technical chart"
+      }
+    },
+    "context-separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context-label",
+        "position-info",
+        "thesis-info",
+        "recent-activity"
+      ]
+    },
+    "context-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h4"
+      }
+    },
+    "position-info": {
+      "type": "Text",
+      "props": {
+        "text": "Position: 100% BTC LONG @58.4K with +x2 volume conviction add",
+        "variant": "lead"
+      }
+    },
+    "thesis-info": {
+      "type": "Text",
+      "props": {
+        "text": "Trading thesis heavily emphasizes pivot-date and astro-cycle timing analysis"
+      }
+    },
+    "recent-activity": {
+      "type": "Text",
+      "props": {
+        "text": "Recent posts focus on consolidation and patience through pivot windows"
+      }
+    },
+    "question-separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification-question": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "title": "Classification Help Needed",
+        "message": "Unable to classify — is this asking for pivot data from these traders, stating they lack weekend pivots, or something else? What's your read?"
+      }
+    }
+  }
+}
