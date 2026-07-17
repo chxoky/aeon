@@ -1,0 +1,49 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @t_in_crypto"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_event",
+        "tweet_crypto_lemon",
+        "alert_classification"
+      ]
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Price-level commentary, context appears to be market structure (demand at 56-57, asking at 59)",
+        "variant": "lead"
+      }
+    },
+    "tweet_crypto_lemon": {
+      "type": "TweetCard",
+      "props": {
+        "author": "The Crypto Lemon",
+        "handle": "TheCryptoLemon",
+        "text": "At 59 they wanna 56-57\nClassic story"
+      }
+    },
+    "alert_classification": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "Unable to classify with certainty — is this informational market observation or noise? How would you read this?"
+      }
+    }
+  }
+}

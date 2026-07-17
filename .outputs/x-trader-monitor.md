@@ -47,3 +47,11 @@ This is a casual, humorous reply to another user about appetite. It contains:
 ✅ **No notification sent** (silent log per Step 4A classification)
 
 This tweet is consistent with Stoiiic's established ~15-20% non-financial social-banter pattern throughout the tracking window.
+🔍 *Calibration — @t_in_crypto*
+
+Event: Price-level commentary, context appears to be market structure (demand at 56-57, asking at 59)
+
+@TheCryptoLemon: At 59 they wanna 56-57
+Classic story
+
+Unable to classify with certainty — is this informational market observation or noise? How would you read this?
