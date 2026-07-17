@@ -1,0 +1,96 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 x-trader-monitor: Calibration"
+      },
+      "children": [
+        "badge-author",
+        "text-event",
+        "tweet-quote",
+        "sep1",
+        "section-context",
+        "sep2",
+        "alert-classify"
+      ]
+    },
+    "badge-author": {
+      "type": "Badge",
+      "props": {
+        "text": "@bull_genius",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "text-event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Market/blockchain chain competitiveness discussion with Jesse/leadership failure context",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "tweet-quote": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "@iruletrenches @base this one i can see after cobie takeover - the best way to compete as a chain is to have coins that go up. i think many have jesse ptsd here as he has zeroed out several attempts in the past by being himself and doing dumb shit similar binary option as cashcat here"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-context",
+        "text-context-content"
+      ]
+    },
+    "heading-context": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text-context-content": {
+      "type": "Text",
+      "props": {
+        "text": "References 'cobie takeover' (likely Base/blockchain change), 'jesse ptsd' (past leadership failures), and comparison to cashcat (onchain asset from his previous 15x trade). Cryptic sentiment — unclear if bull_genius is bearish warning, bullish opportunity observation, or neutral market commentary.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert-classify": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read? Is this a warning, trade opportunity, or general market observation? Which chain/token is referenced?",
+        "type": "warning"
+      },
+      "children": []
+    }
+  }
+}
