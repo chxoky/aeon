@@ -1,0 +1,54 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Trading analysis from X (Twitter)"
+      },
+      "children": [
+        "tweet_card",
+        "separator_1",
+        "link_post",
+        "separator_2",
+        "analysis"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "$BTC $IBIT\n\nSome nice relative strength on OPEX day\n\nBut what kind of conclusions can we make?\n\nThe re-entry for a larger swing is tempting."
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/Wild_Randomness/status/2078196442037137756"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Aligns with structural bulls (Killa, t_in_crypto, swarmister active longs) but maintains near-term caution — group BTC lean is MIXED.",
+        "variant": "muted"
+      }
+    }
+  }
+}
