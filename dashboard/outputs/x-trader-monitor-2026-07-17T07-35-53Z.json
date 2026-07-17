@@ -1,0 +1,109 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor — Calibration",
+        "description": "Post context unclear"
+      },
+      "children": [
+        "event-label",
+        "sep1",
+        "tweet",
+        "sep2",
+        "analysis",
+        "sep3",
+        "question"
+      ]
+    },
+    "event-label": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Post context unclear — Stoiiic just posted cryptic reference",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "text": "@stoicscalper truth"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "classify-heading",
+        "options"
+      ]
+    },
+    "classify-heading": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — is this:",
+        "variant": "body"
+      }
+    },
+    "options": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opt-a",
+        "opt-b",
+        "opt-c"
+      ]
+    },
+    "opt-a": {
+      "type": "Text",
+      "props": {
+        "text": "(a) Non-financial / meta-commentary?"
+      }
+    },
+    "opt-b": {
+      "type": "Text",
+      "props": {
+        "text": "(b) Cryptic market signal / sarcasm?"
+      }
+    },
+    "opt-c": {
+      "type": "Text",
+      "props": {
+        "text": "(c) Reference to something in the market?"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "question": {
+      "type": "Text",
+      "props": {
+        "text": "Your read?",
+        "variant": "lead"
+      }
+    }
+  }
+}
