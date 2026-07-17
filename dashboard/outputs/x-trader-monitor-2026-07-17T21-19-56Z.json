@@ -1,0 +1,117 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor — BTC Analysis"
+      },
+      "children": [
+        "tweet",
+        "analysis-stack"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "Next key date for $BTC is July 28.\n\nHistorical pattern: 8 of the last 9 times, price reached more bearishly than bullishly after approaching these pivots.\n\nNarrative + context important to observe when approaching this period."
+      }
+    },
+    "analysis-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "key-date",
+        "pattern",
+        "context",
+        "link"
+      ]
+    },
+    "key-date": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "kd-label",
+        "kd-value"
+      ]
+    },
+    "kd-label": {
+      "type": "Text",
+      "props": {
+        "text": "Key Date",
+        "variant": "muted"
+      }
+    },
+    "kd-value": {
+      "type": "Heading",
+      "props": {
+        "text": "July 28",
+        "level": "h3"
+      }
+    },
+    "pattern": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p-label",
+        "p-value"
+      ]
+    },
+    "p-label": {
+      "type": "Text",
+      "props": {
+        "text": "Historical Pattern",
+        "variant": "muted"
+      }
+    },
+    "p-value": {
+      "type": "Text",
+      "props": {
+        "text": "8 of the last 9 times, price reached more bearishly than bullishly after approaching these pivots."
+      }
+    },
+    "context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "c-label",
+        "c-value"
+      ]
+    },
+    "c-label": {
+      "type": "Text",
+      "props": {
+        "text": "Context",
+        "variant": "muted"
+      }
+    },
+    "c-value": {
+      "type": "Text",
+      "props": {
+        "text": "He nailed the 4% drop after the 14th he was aiming for. July 28 is the next key period to watch."
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2078227289205088699"
+      }
+    }
+  }
+}
