@@ -24,3 +24,6 @@ The message expresses Crypto_Chase's general trading approach—observing price 
 - ✅ Cross-platform dedup checked (no matching X post)
 
 The skill completed its processing according to the specification in discord-trader-monitor/SKILL.md.
+💬 *[DC: Chase — TradFi]*
+
+I don't diddle in the middle when it comes to these crashes, just play the extremes

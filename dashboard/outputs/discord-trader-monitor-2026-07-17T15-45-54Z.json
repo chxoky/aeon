@@ -1,0 +1,23 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "tweet_card"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Chase",
+        "handle": "TradFi",
+        "text": "I don't diddle in the middle when it comes to these crashes, just play the extremes"
+      }
+    }
+  }
+}
