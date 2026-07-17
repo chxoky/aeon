@@ -1,0 +1,50 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading",
+        "sep1",
+        "tweet",
+        "sep2",
+        "alert"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 *Calibration — @Stoiiic*",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "@Stoiiic",
+        "text": "umm brian? https://t.co/HelO28Jgh4"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "alert": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "title": "Cannot classify",
+        "message": "What's your read? (cryptic post to unknown recipient; URL not expanded in raw event)"
+      }
+    }
+  }
+}
