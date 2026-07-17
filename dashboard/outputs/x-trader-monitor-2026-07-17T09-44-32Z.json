@@ -1,0 +1,146 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @swarmister"
+      },
+      "children": [
+        "event_desc",
+        "sep1",
+        "tweet_section",
+        "sep2",
+        "context_section",
+        "sep3",
+        "analysis_section"
+      ]
+    },
+    "event_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Event: cryptic X post with link to external content",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "tweet_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "text": "@MacroCRG https://t.co/UghbOUbIDW"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_title",
+        "context_stack"
+      ]
+    },
+    "context_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "context_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ctx_position",
+        "ctx_timing",
+        "ctx_link"
+      ]
+    },
+    "ctx_position": {
+      "type": "Text",
+      "props": {
+        "text": "swarmister opened a BTC LONG position this morning (partial position, targeting 70.7k)"
+      }
+    },
+    "ctx_timing": {
+      "type": "Text",
+      "props": {
+        "text": "This post came ~3h later"
+      }
+    },
+    "ctx_link": {
+      "type": "Text",
+      "props": {
+        "text": "Link target is unknown"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "analysis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis_title",
+        "analysis_stack"
+      ]
+    },
+    "analysis_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Classification Unknown",
+        "level": "h3"
+      }
+    },
+    "analysis_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "analysis_q1",
+        "analysis_q2"
+      ]
+    },
+    "analysis_q1": {
+      "type": "Text",
+      "props": {
+        "text": "Is this macro analysis commentary supporting the BTC thesis, or something else?"
+      }
+    },
+    "analysis_q2": {
+      "type": "Text",
+      "props": {
+        "text": "Should alert/track?"
+      }
+    }
+  }
+}
