@@ -1,0 +1,358 @@
+{
+  "root": "card-token-movers",
+  "state": {},
+  "elements": {
+    "card-token-movers": {
+      "type": "Card",
+      "props": {
+        "title": "Token Movers",
+        "description": "2026-07-17"
+      },
+      "children": [
+        "intro-text",
+        "sep1",
+        "winners-heading",
+        "winners-table",
+        "sep2",
+        "losers-heading",
+        "losers-table",
+        "sep3",
+        "trending-heading",
+        "trending-list",
+        "sep4",
+        "notable-heading",
+        "notable-list"
+      ]
+    },
+    "intro-text": {
+      "type": "Text",
+      "props": {
+        "text": "Red tape persists — BTC −1.4% at $63.0K, only 22/100 top coins green (median top-50 −1.4%); HYPE (−8.6%) is the lone major bleeding while XEC and KAITO breakouts extend on real 7d strength.",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "winners-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Winners (24h)",
+        "level": "h2"
+      }
+    },
+    "winners-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Coin",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "MCap / Rank",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "XEC (eCash)",
+            "$0.0000079",
+            "+25.8%",
+            "+51.9%",
+            "+0.2%",
+            "$53M / #193",
+            "BREAKOUT"
+          ],
+          [
+            "KAITO (Kaito)",
+            "$0.907",
+            "+24.1%",
+            "+39.3%",
+            "+2.1%",
+            "$63M / #157",
+            "BREAKOUT"
+          ],
+          [
+            "VELVET (Velvet)",
+            "$0.570",
+            "+13.1%",
+            "+0.7%",
+            "+2.5%",
+            "$9M / #145",
+            ""
+          ],
+          [
+            "UB (Unibase)",
+            "$0.0904",
+            "+11.3%",
+            "+21.4%",
+            "+1.2%",
+            "$12M / #154",
+            ""
+          ],
+          [
+            "PI (Pi Network)",
+            "$0.0812",
+            "+7.6%",
+            "−18.7%",
+            "−1.4%",
+            "$18M / #71",
+            ""
+          ],
+          [
+            "DEXE (DeXe)",
+            "$36.24",
+            "+6.6%",
+            "+5.6%",
+            "−0.8%",
+            "$131M / #45",
+            ""
+          ],
+          [
+            "ENS (Ethereum Name Service)",
+            "$4.50",
+            "+6.1%",
+            "+7.1%",
+            "−0.2%",
+            "$27M / #178",
+            ""
+          ],
+          [
+            "TRAC (OriginTrail)",
+            "$0.276",
+            "+6.1%",
+            "+2.1%",
+            "−1.4%",
+            "$16M / #226",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "losers-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Losers (24h)",
+        "level": "h2"
+      }
+    },
+    "losers-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Coin",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "MCap / Rank",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "BP (Backpack)",
+            "$0.439",
+            "−16.2%",
+            "−23.4%",
+            "+0.2%",
+            "$3.7M / #245",
+            ""
+          ],
+          [
+            "LIT (Lighter)",
+            "$2.18",
+            "−9.7%",
+            "−12.6%",
+            "−1.1%",
+            "$62M / #98",
+            ""
+          ],
+          [
+            "BONK (Bonk)",
+            "$0.0000032",
+            "−8.9%",
+            "−21.8%",
+            "−2.4%",
+            "$65M / #134",
+            ""
+          ],
+          [
+            "STABLE (Stable)",
+            "$0.0353",
+            "−8.8%",
+            "−0.3%",
+            "+1.4%",
+            "$19M / #73",
+            ""
+          ],
+          [
+            "HYPE (Hyperliquid)",
+            "$59.77",
+            "−8.6%",
+            "−13.1%",
+            "−0.9%",
+            "$657M / #10",
+            "TRENDING+DOWN, MAJOR"
+          ],
+          [
+            "JTO (Jito)",
+            "$0.552",
+            "−7.4%",
+            "−14.8%",
+            "−1.1%",
+            "$32M / #135",
+            ""
+          ],
+          [
+            "FARTCOIN (Fartcoin)",
+            "$0.133",
+            "−6.7%",
+            "−9.8%",
+            "−0.9%",
+            "$15M / #215",
+            ""
+          ],
+          [
+            "AXS (Axie Infinity)",
+            "$0.932",
+            "−6.4%",
+            "−8.1%",
+            "−0.4%",
+            "$17M / #187",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "trending-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending",
+        "level": "h2"
+      }
+    },
+    "trending-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trending-1",
+        "trending-2",
+        "trending-3",
+        "trending-4",
+        "trending-5",
+        "trending-6",
+        "trending-7"
+      ]
+    },
+    "trending-1": {
+      "type": "Text",
+      "props": {
+        "text": "ZANO (Zano) — #198, $9.84, 24h +0.7%"
+      }
+    },
+    "trending-2": {
+      "type": "Text",
+      "props": {
+        "text": "CASHCAT (Cash Cat) — #415, $0.0519, 24h −47.4%"
+      }
+    },
+    "trending-3": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE (Hyperliquid) — #10, $59.94, 24h −8.1%  [TRENDING+DOWN, MAJOR]"
+      }
+    },
+    "trending-4": {
+      "type": "Text",
+      "props": {
+        "text": "AERO (Aerodrome) — #105, $0.490, 24h +2.0%"
+      }
+    },
+    "trending-5": {
+      "type": "Text",
+      "props": {
+        "text": "ADI (ADI) — #73, $6.90, 24h −1.7%"
+      }
+    },
+    "trending-6": {
+      "type": "Text",
+      "props": {
+        "text": "ANSEM (The Black Bull) — #300, $0.185, 24h +8.9%"
+      }
+    },
+    "trending-7": {
+      "type": "Text",
+      "props": {
+        "text": "ETH (Ethereum) — #2, $1,830, 24h −2.1%  [MAJOR]"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "notable-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h2"
+      }
+    },
+    "notable-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "notable-1",
+        "notable-2",
+        "notable-3",
+        "notable-4"
+      ]
+    },
+    "notable-1": {
+      "type": "Text",
+      "props": {
+        "text": "• XEC: BREAKOUT extended — +25.8% 24h on +51.9% 7d, top winner, real trend not a flash pump"
+      }
+    },
+    "notable-2": {
+      "type": "Text",
+      "props": {
+        "text": "• KAITO: BREAKOUT extended — +24.1% 24h / +39.3% 7d, still leading alt strength"
+      }
+    },
+    "notable-3": {
+      "type": "Text",
+      "props": {
+        "text": "• HYPE: TRENDING+DOWN — only major in the red, −8.6% and still searched"
+      }
+    },
+    "notable-4": {
+      "type": "Text",
+      "props": {
+        "text": "• CASHCAT: −47% 24h (trending, #415 microcap) — noise, not a directional signal"
+      }
+    }
+  }
+}
