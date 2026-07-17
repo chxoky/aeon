@@ -1,0 +1,54 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor: Calibration"
+      },
+      "children": [
+        "event-meta",
+        "separator1",
+        "tweet-card",
+        "separator2",
+        "classification-alert"
+      ]
+    },
+    "event-meta": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Tweet at 2026-07-17 23:50:38 UTC",
+        "variant": "caption"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "wyd https://t.co/fjOJAGKTJm"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Cryptic message with shortened link. Is this financial commentary, a trade idea, or just casual chat? What's your read?",
+        "type": "info"
+      }
+    }
+  }
+}
