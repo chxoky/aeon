@@ -1,0 +1,23 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "discord-message"
+      ]
+    },
+    "discord-message": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HCH",
+        "handle": "DC",
+        "text": "We are already big on gains now 62k reached 🙂"
+      }
+    }
+  }
+}

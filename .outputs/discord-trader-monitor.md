@@ -1,8 +1,3 @@
-💬 *[DC: Chase — Chase]*
+💬 *[DC: HCH — Comments]*
 
-Final note, apparently there will be some massive Trump speech tonight. Who knows how markets will react and who really gives a fuck. If it's bad, he's just going to walk it back or make a new deal by Monday or by next week, or whatever you want to say. I don't care too much about the fundamental thing. He'll just change his mind the second that he needs to. Not gonna let fundamental stuff fuck with the trade I've been waiting for for a decent amount of time. Just always have your risk in check. It's as simple as that. And if he does announce something that tanks absolutely everything, then we get one trade stopped out and a bunch of lower entries on everything else (like Micron, S&P, etc). Unfortunately I won't be on when he's talking so just is what it is, but the reality is that skipping fundamental events usually just saves me anyway. The fundamental event could make me change my opinion on something and then I may close the trade just to be safe then it goes in the proper direction anyway so I'm just gonna let it ride.
-↩️ _Member: What's your inval on sndk?_
-
-💬 *[DC: Chase — TradFi]*
-
-Chart showing SNDK invalidation levels in response to member Q&A on closed position (TP'd 1830–1890).
+We are already big on gains now 62k reached 🙂
