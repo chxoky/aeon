@@ -1,0 +1,66 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @t_in_crypto",
+        "description": "Cryptic reply to @Trives_ with reference to values and dates"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post_label",
+        "tweet_card",
+        "context_text",
+        "interpretation_alert",
+        "link_post"
+      ]
+    },
+    "post_label": {
+      "type": "Text",
+      "props": {
+        "text": "Post:",
+        "variant": "caption"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "handle": "t_in_crypto",
+        "text": "@Trives_ Everything you need to find is easy! Several values and dates are in plain sight"
+      }
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "Context: t_in_crypto holds 100% BTC LONG @58.4K with +x2 volume conviction add. Documented thesis heavily emphasizes pivot-date/astro-cycle/timing analysis."
+      }
+    },
+    "interpretation_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Interpretation needed",
+        "message": "Unable to classify — is this a technical hint about chart levels, a timing signal, or just banter? What's your read?",
+        "type": "info"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/t_in_crypto/status/2078189721327436194"
+      }
+    }
+  }
+}
