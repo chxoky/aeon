@@ -1,7 +1,1 @@
-🔍 *Calibration — @HeartCanHodl*
-
-Event: Reply to @alyannnn2
-
-HeartCanHodl: "Not until I would cover"
-
-Unable to classify — what's your read? (He has active BTC/ETH/SOL/HYPE/ZEC shorts, so "cover" could mean position closure, but the full context is unclear.)
+🐦 *[X] @HeartCanHodl*\n\nfresh lows on #skhynix\n\n[View tweet](https://x.com/HeartCanHodl/status/2078060747465298380)\n\n↳ _Aligns with HCH's ongoing technical tracking on SK Hynix (4H EMA50 structure noted Jul 15); part of broader memory/semis bearish skepticism._

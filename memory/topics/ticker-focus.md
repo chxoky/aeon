@@ -18,7 +18,7 @@
 ## Quiet tickers (single-trader mentions, tracked silently)
 - **MSFT**: Wild_Randomness (Jul 16 17:06 UTC) — dispersion-trade analysis on semis-down / SaaS-Mags-up beneficiary; technical "pico-bottom" on monthly; speculation on OPEX/vixpiry correlation-snap-up opportunity. Single-trader mention, tracked silently pending cross-trader convergence.
 - **cashcat** (onchain): bull_genius (closed 15x trade), ryzzqq (squeeze-exhaustion commentary Jul 15 06:09) — CONVERGING THEME (second mention in short window; tracking for momentum acceleration)
-- **$SKHynix**: HeartCanHodl (technical analysis on 4H EMA50 structure, Jul 15 11:10) — single mention, memory/semis sector tracking (aligns with bearish memory-stock skepticism theme)
+- **$SKHynix**: HeartCanHodl (technical analysis on 4H EMA50 structure, Jul 15 11:10; fresh lows chart comment Jul 17 10:14) — dual-mention pattern emerging, memory/semis sector tracking (aligns with bearish memory-stock skepticism theme). Continued technical focus suggests active monitoring; potential momentum pick-up if third sighting from different trader occurs.
 - **$UNI** (Uniswap): HeartCanHodl — SHORT, 1% added Jul 14 on secondary account (first mention in tracked window); extended to +1% primary channel add Jul 16 05:06:02 UTC (escalating short conviction)
 - **$SPCX** (SpaceX): HeartCanHodl — SHORT, big winner, printed all-time low Jul 13. Chase calls it "dogshit" (agrees directionally). ryzzqq — LONG interest (Jul 14, "looking to buy 120-130") — contrarian to shorts, awaiting calibration.
 - **$ORCL**: Wild_Randomness — bullish, short-squeeze thesis, "motion."

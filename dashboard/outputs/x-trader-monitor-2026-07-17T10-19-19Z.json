@@ -1,0 +1,56 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "separator",
+        "stack_analysis"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "fresh lows on #skhynix"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_analysis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis_note",
+        "view_link"
+      ]
+    },
+    "analysis_note": {
+      "type": "Text",
+      "props": {
+        "text": "Aligns with HCH's ongoing technical tracking on SK Hynix (4H EMA50 structure noted Jul 15); part of broader memory/semis bearish skepticism.",
+        "variant": "muted"
+      }
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/HeartCanHodl/status/2078060747465298380"
+      }
+    }
+  }
+}
