@@ -1,0 +1,34 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet-card",
+        "analysis-alert"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "@bull_genius",
+        "text": "short was decently placed imo. its in profit you can just see what happens. it can still pay you out bigger. dont let me sway you out i really just nibble, its a knife catch especially on hype"
+      },
+      "children": []
+    },
+    "analysis-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Signal",
+        "message": "Reinforces group bearish HYPE consensus (weekly bear div, TGE headwinds Q3-Q4); bull_genius taking small nibbles alongside @OnlyZen_PK",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}
