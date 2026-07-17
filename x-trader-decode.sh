@@ -1,0 +1,5 @@
+#!/bin/bash
+# Decode the event
+VAR='eyJpZCI6IjIwNzgwNDEwODU1ODc0MzU4NDkiLCJ1c2VybmFtZSI6IkhlYXJ0Q2FuSG9kbCIsInRleHQiOiLwn5KAIiwiY3JlYXRlZF9hdCI6IkZyaSBKdWwgMTcgMDg6NTY6MTcgKzAwMDAgMjAyNiIsInVybCI6Imh0dHBzOi8veC5jb20vSGVhcnRDYW5Ib2RsL3N0YXR1cy8yMDc4MDQxMDg1NTg3NDM1ODQ5IiwibWVkaWEiOltdfQ=='
+EVENT_JSON=$(echo "$VAR" | base64 -d 2>/dev/null)
+echo "$EVENT_JSON" | jq .

@@ -1,0 +1,132 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration — @HeartCanHodl"
+      },
+      "children": [
+        "main-stack"
+      ]
+    },
+    "main-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event-section",
+        "context-section",
+        "separator",
+        "query-section"
+      ]
+    },
+    "event-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event-label",
+        "event-detail"
+      ]
+    },
+    "event-label": {
+      "type": "Text",
+      "props": {
+        "text": "Event",
+        "variant": "lead"
+      }
+    },
+    "event-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Morning (UTC 08:56:17 Jul 17, 2026) — no visible external trigger"
+      }
+    },
+    "context-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context-heading",
+        "context-content"
+      ]
+    },
+    "context-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Recent Context",
+        "level": "h3"
+      }
+    },
+    "context-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "shorts-text",
+        "sndk-text"
+      ]
+    },
+    "shorts-text": {
+      "type": "Text",
+      "props": {
+        "text": "Scaled shorts: BTC, ETH, SOL, HYPE, ZEC, LAB, UNI"
+      }
+    },
+    "sndk-text": {
+      "type": "Text",
+      "props": {
+        "text": "Entered SNDK long Jul 16 at 1366"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "query-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "reaction-text",
+        "query-heading",
+        "query-body"
+      ]
+    },
+    "reaction-text": {
+      "type": "Text",
+      "props": {
+        "text": "@HeartCanHodl: 🤔",
+        "variant": "caption"
+      }
+    },
+    "query-heading": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "lead"
+      }
+    },
+    "query-body": {
+      "type": "Text",
+      "props": {
+        "text": "Is this market structure uncertainty, prep for trade action, or reaction to overnight price movement?"
+      }
+    }
+  }
+}
