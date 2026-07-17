@@ -1,42 +1,37 @@
-*Token Movers — 2026-07-16 (midday)*
+*Token Movers — 2026-07-17*
 
-_Tape little changed since the AM read — shallow risk-off, 24/100 top coins green, median top-50 −1.0%; BTC ~$64.1K (−0.8%) drifting as ONDO-led RWA keeps bucking the red._
+_Broad risk-off — BTC −2.5% at $62.7K, 79/100 top-100 coins red (median −2.0%); losers span L1s, DeFi and memes while KAITO and eCash buck the tape on real 7d strength._
 
 *Top Winners (24h)*
-1. ONDO (Ondo) — $0.3763  +16.1% / 7d +18.8% / 1h +1.1%  •  $294M / #43  [TRENDING+UP]
-2. LDO (Lido) — $0.3640  +11.0% / 7d +13.8% / 1h +0.7%  •  $61M / #132
-3. EDGE (edgeX) — $0.4317  +9.4% / 7d 0.0% / 1h +1.2%  •  $10M / #198
-4. PYTH (Pyth) — $0.05091  +7.1% / 7d +19.8% / 1h −0.5%  •  $35M / #115
-5. BDX (Beldex) — $0.09011  +6.0% / 7d −6.7% / 1h +1.5%  •  $19M / #87
-6. VIRTUAL (Virtuals) — $0.6406  +5.2% / 7d +22.4% / 1h +0.5%  •  $103M / #112
-7. STABLE (Stable) — $0.03840  +4.7% / 7d +9.8% / 1h −0.0%  •  $15M / #69
-8. APE (ApeCoin) — $0.1526  +3.9% / 7d −6.5% / 1h +0.4%  •  $28M / #196
-9. JST (JUST) — $0.09913  +3.5% / 7d +2.3% / 1h −0.1%  •  $42M / #75
-10. ETHFI (Ether.fi) — $0.4316  +3.3% / 7d +3.7% / 1h +0.2%  •  $59M / #117
+1. KAITO (Kaito) — $0.8752  +18.0% / 7d +31.0% / 1h +0.8%  •  $57M / #158  [BREAKOUT]
+2. XEC (eCash) — $0.00000746  +15.5% / 7d +45.3% / 1h +9.7%  •  $32M / #197  [BREAKOUT]
+3. UB (Unibase) — $0.08261  +7.3% / 7d +17.8% / 1h +0.6%  •  $11M / #163
+4. PI (Pi Network) — $0.07904  +6.5% / 7d −21.3% / 1h +0.9%  •  $16M / #74
+5. DYDX (dYdX) — $0.1268  +5.5% / 7d −3.9% / 1h +0.1%  •  $6.6M / #248
+6. TRAC (OriginTrail) — $0.2767  +5.3% / 7d +5.7% / 1h −0.1%  •  $14M / #226
+7. ENS (ENS) — $4.43  +4.1% / 7d +6.3% / 1h +0.6%  •  $17M / #178
+8. CRO (Cronos) — $0.05807  +4.1% / 7d +2.2% / 1h −0.3%  •  $38M / #34
 
 *Top Losers (24h)*
-1. H (Humanity) — $0.05867  −12.7% / 7d −13.5% / 1h −1.2%  •  $8M / #230
-2. KAITO — $0.7052  −10.9% / 7d +1.9% / 1h −1.8%  •  $33M / #183
-3. GNO (Gnosis) — $114.3  −8.9% / 7d +7.5% / 1h +0.1%  •  $9M / #133
-4. XPL (Plasma) — $0.08590  −8.4% / 7d −6.6% / 1h +0.1%  •  $50M / #153  [TRENDING+DOWN]
-5. DEXE — $34.74  −7.7% / 7d +20.5% / 1h −2.9%  •  $88M / #47
-6. 2Z (DoubleZero) — $0.06775  −7.4% / 7d −4.3% / 1h −0.2%  •  $4M / #148
-7. PI (Pi Network) — $0.07668  −6.7% / 7d −22.0% / 1h +0.6%  •  $22M / #76
-8. LIT (Lighter) — $2.41  −6.4% / 7d −2.3% / 1h +1.2%  •  $49M / #92
-9. XEC (eCash) — $0.00000631  −5.9% / 7d +23.1% / 1h +0.1%  •  $34M / #222
-10. DRV (Derive) — $0.1360  −5.8% / 7d +22.2% / 1h +0.1%  •  $5M / #214
+1. BP (Backpack) — $0.4451  −15.4% / 7d −18.2% / 1h −1.7%  •  $3.4M / #239
+2. HYPE (Hyperliquid) — $59.35  −10.2% / 7d −12.6% / 1h +1.3%  •  $609M / #10  [TRENDING+DOWN, MAJOR]
+3. LIT (Lighter) — $2.19  −9.1% / 7d −12.1% / 1h +0.3%  •  $52M / #98
+4. FARTCOIN (Fartcoin) — $0.1320  −8.3% / 7d −10.2% / 1h −0.1%  •  $15M / #215
+5. BONK (Bonk) — $0.00000327  −7.8% / 7d −18.6% / 1h −1.1%  •  $62M / #134
+6. SYRUP (Maple) — $0.1778  −7.7% / 7d −0.1% / 1h −0.4%  •  $16M / #162
+7. JTO (Jito) — $0.5588  −7.2% / 7d −13.7% / 1h −0.1%  •  $33M / #136
+8. SPX (SPX6900) — $0.3455  −6.4% / 7d −10.1% / 1h −0.2%  •  $6.1M / #124
 
 *Trending*
-1. ONDO — #43, $0.3763, +16.1%  [TRENDING+UP]
-2. AKE (Akedo) — #798, $0.000927, +75.4%  [PUMP-RISK][MICROCAP]
-3. PENGU — #118, $0.006161, +0.5%
-4. CASHCAT — #274, $0.09761, −24.1%  [TRENDING+DOWN]
-5. ANSEM (Black Bull) — #332, $0.1747, −25.7%  [TRENDING+DOWN]
-6. ETH — #2, $1,878, −0.2%
-7. LAB — #347, $0.2147, −10.2%  [TRENDING+DOWN]
+1. AERO (Aerodrome) — #105, $0.4900, 24h −0.3%
+2. ZANO (Zano) — #199, $9.86, 24h +1.4%
+3. PENGU (Pudgy Penguins) — #118, $0.006043, 24h +0.5%
+4. ADI (ADI) — #71, $7.05, 24h +1.3%
+5. HYPE (Hyperliquid) — #10, $59.33, 24h −9.6%  [TRENDING+DOWN]
+6. CASHCAT (Cash Cat) — #381, $0.05866, 24h −39.1%
+7. ZIG (ZIGChain) — #374, $0.04292, 24h −0.4%
 
 *Notable*
-• KAITO: −6% this morning → −11% now, the day's clearest new leg lower (7d still green, so a sharp pullback rather than a trend break).
-• ONDO: still the standout — trending + top gainer, +16% on $294M vol; RWA leadership holding into a second read.
-• AKE: #798 microcap +75% — PUMP-RISK, illiquid and outside the top 250; treat as noise, not signal.
-• Meme cohort (ANSEM −26%, CASHCAT −24%, LAB −10%) keeps bleeding while trending — capitulation, not accumulation.
+• KAITO: +18% 24h on +31% 7d, $57M vol — BREAKOUT, sustained not a flash pump
+• XEC: +15.5% 24h on +45.3% 7d — BREAKOUT, top mover with real follow-through
+• HYPE: trending while −10% 24h / −12.6% 7d — TRENDING+DOWN, largest-cap name in the red
