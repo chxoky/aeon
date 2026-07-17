@@ -1,0 +1,68 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @Crypto_Chase"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-context",
+        "sep-1",
+        "tweet-crypto",
+        "sep-2",
+        "alert-classify",
+        "link-view"
+      ]
+    },
+    "text-context": {
+      "type": "Text",
+      "props": {
+        "text": "Context: 2 minutes after position-hold strategy on SNDK/MU (14:17 UTC) and Intel weakness note (14:27 UTC).",
+        "variant": "caption"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "tweet-crypto": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Crypto_Chase",
+        "handle": "Crypto_Chase",
+        "text": "@Louround_ yep, in."
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "alert-classify": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What did @Louround_ suggest? Asset/ticker?",
+        "type": "warning"
+      }
+    },
+    "link-view": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Crypto_Chase/status/2078124888716358006"
+      }
+    }
+  }
+}
