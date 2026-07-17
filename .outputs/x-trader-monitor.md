@@ -1,11 +1,10 @@
-🔍 *Calibration — @t_in_crypto*
+🐦 *[X] @Wild_Randomness*
 
-Event: Reply in ongoing BTC technical price discussion with @RAFAELA_RIGO_ (prior messages discuss 46K/48K/44K support/resistance levels, channel structure targets)
-t_in_crypto: "@RAFAELA_RIGO_ it's still early"
+I'm out of the July puts from 390-392.
 
-Context: t_in_crypto holds 100% BTC LONG @58.4K, +x2 volume conviction add @62K (Jul 14). Documented patience/moon-cycle thesis. Recent post: "Patience is key" (16:37 UTC same day).
+Will slow add October expiries from here I think
 
-Unable to classify — "it's still early" likely ties to bullish timing thesis (move hasn't happened yet), but exact referent unclear. What's your read?
+[View tweet](https://x.com/Wild_Randomness/status/2078158791443673152)
 
 **Reasoning:**
 - Reply to another user with a motivational message about patience
@@ -40,3 +39,4 @@ swarmister: "@bull_genius https://t.co/oyRJ0w4QGf"
 Unable to classify — what's your read? Trade signal coordination, chart link, or social banter?
 
 [View post](https://x.com/swarmister/status/2078158149517779324)
+↳ _Profit-taking on July put spreads, planning to scale into October on weakness. SPX tactical sentiment._
