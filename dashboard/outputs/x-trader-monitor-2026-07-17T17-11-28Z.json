@@ -1,0 +1,112 @@
+{
+  "root": "card_calibration",
+  "state": {},
+  "elements": {
+    "card_calibration": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @Wild_Randomness"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event_text",
+        "sep1",
+        "post_content",
+        "sep2",
+        "analysis_stack",
+        "sep3",
+        "view_link"
+      ]
+    },
+    "event_text": {
+      "type": "Text",
+      "props": {
+        "text": "Event: URL-only post at 17:07:34 UTC",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "post_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "handle_badge",
+        "url_link"
+      ]
+    },
+    "handle_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "@Wild_Randomness"
+      }
+    },
+    "url_link": {
+      "type": "Link",
+      "props": {
+        "label": "https://t.co/qvVwsFpmsr",
+        "href": "https://t.co/qvVwsFpmsr"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "analysis_question",
+        "analysis_details"
+      ]
+    },
+    "analysis_question": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "lead"
+      }
+    },
+    "analysis_details": {
+      "type": "Text",
+      "props": {
+        "text": "URL content inaccessible without fetch. Pattern consistent with Jul 14-16 cryptic posts. No first-person execution language visible. Could be: market sentiment, chart/analysis share, or personal noise.",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2078164719844921776"
+      }
+    }
+  }
+}
