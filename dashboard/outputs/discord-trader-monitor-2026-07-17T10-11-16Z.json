@@ -1,0 +1,112 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "heading_calibration",
+        "badge_metadata",
+        "separator_1",
+        "text_event",
+        "link_post",
+        "separator_2",
+        "stack_quote",
+        "separator_3",
+        "alert_classification"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "badge_metadata": {
+      "type": "Badge",
+      "props": {
+        "text": "DC: HCH — Free",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: HeartCanHodl shares X post link",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/i/status/2078053451138048428",
+        "href": "https://x.com/i/status/2078053451138048428"
+      },
+      "children": []
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack_quote": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_hch_label",
+        "text_hch_quote"
+      ]
+    },
+    "text_hch_label": {
+      "type": "Text",
+      "props": {
+        "text": "HCH:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text_hch_quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"It's real. Some of you might know him 😉\"",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert_classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's the context? Who/what is 'him'? Should Kyle check the X link?",
+        "type": "warning"
+      },
+      "children": []
+    }
+  }
+}
