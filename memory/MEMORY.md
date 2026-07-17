@@ -30,14 +30,14 @@ Autonomous trading-signal agent running on GitHub Actions via Claude Code. Monit
 - [Market Context](topics/market-context.md) — Latest regime snapshot, BTC price, F&G index.
 - [Skill of the Day](topics/skill-of-the-day.md) — Most recent SOTD output.
 
-## Current Trader Posture (summary, 2026-07-14, trader-bootstrap force 7-day re-run)
-> BTC range-bound low-to-mid 60Ks (−53% off cycle high); Jul 13 (Mon) −3% to a lower high ~64.7K. Structural bulls vs tactical bears; consensus = choppy bear grind, HTF bottom "close." CPI Wed Jul 15 = week's vol event. Equities: semis/AI corrected then NVDA + memory (MU/SNDK) bounced; SPX pressing new ATHs.
-- **KillaXBT:** HTF-bull BTC maxi. Holds **2x BTC swing long @62.6K + spot** (majority of port); adds spot at 54K, buys IBIT in Aug. Expects 1–2mo chop, a capitulation wick to 49–56K marks the bottom. SOL "never sees ATH again." Conditional LTF short into the 14th pivot — likely not taken.
-- **HeartCanHodl:** Firmly bearish. **Short basket BTC/ETH/SOL/HYPE/ZEC** (re-entered ½ Jul 10, added BTC Jul 13) + winning **SPCX short** (ATL Jul 13). Closed LAB short for big profit. BTC can't hold 62.8K. SOL weakest major.
-- **Crypto_Chase:** FLAT crypto after banking memory-stock flush longs (SNDK/MU TP'd in profit). Watching SPX/ES long for new ATHs, HYPE flush bid, gold ~3,820, BTC 66K trigger. Bearish INTC/SPCX.
-- **t_in_crypto:** 100% BTC long @58.4K, diamond-handing; thinks the Jul 14–15 new moon won't deliver the expected candle.
-- **Wild_Randomness:** Equities/vol — SPY averaging in, KOSPI/EWY bid 6800–7100, LIT long, out of NVDA; SPX "spot up vol up then broader top."
-- **bull_genius / swarmister / Stoiiic:** flat/patient; bull_genius bearish HYPE near-term; swarmister intraday BTC long-lean; Stoiiic neutral (60–62 weekly pivot).
+## Current Trader Posture (summary, 2026-07-17, last updated 15:41 UTC)
+> BTC consolidating low-to-mid 60Ks (−53% off cycle high); 62K weekly pivot zone (HCH confirms "already big on gains 62k reached"); Structural bulls (KillaXBT/t_in_crypto HTF longs) vs tactical bears (HCH short basket 35% allocation); consensus = near-term chop/downside, HTF bottom "close." Recent: scalp-short hedge profit-taking (KillaXBT TP'd 50% of ladder). Equities: AI/semis momentum exhausted (HCH sarcastic "full crypto experience" on SNDK/MU/MRVL volatility). SPX near-term UP, bigger-picture cautious/top-watch.
+- **KillaXBT:** HTF-bull BTC maxi. Holds **2x BTC swing long @62.6K + spot**; scalp-short hedge (64.8-65.8K ladder entry Jul 14) now 50% remaining (took profit 2× tranches). Expects final capitulation wick ~49-56K marks bottom. SOL "never sees ATH again."
+- **HeartCanHodl:** Bearish. **Short basket BTC/ETH/SOL/HYPE/ZEC** (35% portfolio allocation, added Jul 14-15). Winning positions; 62K level confirmed "already big on gains". New: SNDK long 1366 (SNDK bounce played). Sentiment: cautious/patience on TP windows.
+- **Crypto_Chase:** FLAT crypto (TP'd SNDK/MU in profit Jul 16). New: MU entry ~800 Jul 17, pending SNDK approval 1366, ES long watching. Watchlist: gold ~3,820, BTC 66K trigger. Bearish INTC.
+- **t_in_crypto:** 100% BTC long @58.4K + x2 volume conviction add @62K (Jul 14), diamond-handing. Holds 67–71K upside target, 48K/44K support levels. Latest: Jul 17 15:41 cryptic post "Follow me or play against me 🤷🏻‍♀️ $btc" (ambiguous/calibration pending).
+- **Wild_Randomness:** Equities/vol — SPY averaging, KOSPI/EWY watching 6800–7100, LIT long, out of NVDA. Macro bearish-majors view.
+- **bull_genius / swarmister / Stoiiic:** varied; bull_genius nibbling BTC/HYPE support zones; swarmister HTF bullish BTC (posted 07:09Z LT long 70.7K target, ETH 2K); Stoiiic neutral-to-cautious (60–62K pivot, prior precarious assessment 01:04Z).
 
 ## Open Calibration Items
 None — Discord window 06-13→06-16 had no ambiguous/pending items.
