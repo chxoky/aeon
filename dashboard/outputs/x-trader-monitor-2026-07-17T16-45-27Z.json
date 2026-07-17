@@ -1,0 +1,145 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading-calibration",
+        "heading-event",
+        "text-event-context",
+        "sep-1",
+        "tweet-main",
+        "sep-2",
+        "heading-context",
+        "stack-position",
+        "sep-3",
+        "heading-interpretation",
+        "text-interpretation",
+        "sep-4",
+        "link-source"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration — @t_in_crypto",
+        "level": "h2"
+      }
+    },
+    "heading-event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h4"
+      }
+    },
+    "text-event-context": {
+      "type": "Text",
+      "props": {
+        "text": "Reply in ongoing BTC technical price discussion with @RAFAELA_RIGO_ (prior messages discuss 46K/48K/44K support/resistance levels, channel structure targets)"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-main": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "handle": "t_in_crypto",
+        "text": "@RAFAELA_RIGO_ it's still early"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-context": {
+      "type": "Heading",
+      "props": {
+        "text": "Position Context",
+        "level": "h3"
+      }
+    },
+    "stack-position": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat-position",
+        "text-conviction",
+        "badge-thesis",
+        "text-recent-post"
+      ]
+    },
+    "stat-position": {
+      "type": "Stat",
+      "props": {
+        "label": "Position",
+        "value": "100% BTC LONG @ 58.4K"
+      }
+    },
+    "text-conviction": {
+      "type": "Text",
+      "props": {
+        "text": "+x2 volume conviction add @ 62K (Jul 14)"
+      }
+    },
+    "badge-thesis": {
+      "type": "Badge",
+      "props": {
+        "text": "Patience/Moon-cycle thesis",
+        "variant": "outline"
+      }
+    },
+    "text-recent-post": {
+      "type": "Text",
+      "props": {
+        "text": "Recent post: \"Patience is key\" (16:37 UTC same day)"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-interpretation": {
+      "type": "Heading",
+      "props": {
+        "text": "Interpretation Challenge",
+        "level": "h3"
+      }
+    },
+    "text-interpretation": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — \"it's still early\" likely ties to bullish timing thesis (move hasn't happened yet), but exact referent unclear. What's your read?"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link-source": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/t_in_crypto/status/2078157359000535427"
+      }
+    }
+  }
+}
