@@ -1,0 +1,115 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @ryzzqq"
+      },
+      "children": [
+        "event",
+        "context-alert",
+        "possibilities",
+        "classification-alert",
+        "post-link"
+      ]
+    },
+    "event": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event-heading",
+        "event-text"
+      ]
+    },
+    "event-heading": {
+      "type": "Text",
+      "props": {
+        "text": "Event",
+        "variant": "lead"
+      }
+    },
+    "event-text": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to @0xbeyonder asking 'is it fixed now?'"
+      }
+    },
+    "context-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Context is hidden",
+        "message": "The original @0xbeyonder message isn't visible.",
+        "type": "info"
+      }
+    },
+    "possibilities": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "poss-title",
+        "poss-1",
+        "poss-2",
+        "poss-3",
+        "poss-4"
+      ]
+    },
+    "poss-title": {
+      "type": "Text",
+      "props": {
+        "text": "Could reference:",
+        "variant": "lead"
+      }
+    },
+    "poss-1": {
+      "type": "Badge",
+      "props": {
+        "text": "A trading platform/system bug fix",
+        "variant": "outline"
+      }
+    },
+    "poss-2": {
+      "type": "Badge",
+      "props": {
+        "text": "A position that was problematic and is now resolved",
+        "variant": "outline"
+      }
+    },
+    "poss-3": {
+      "type": "Badge",
+      "props": {
+        "text": "A personal/non-trading issue",
+        "variant": "outline"
+      }
+    },
+    "poss-4": {
+      "type": "Badge",
+      "props": {
+        "text": "Something else entirely",
+        "variant": "outline"
+      }
+    },
+    "classification-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read?",
+        "type": "info"
+      }
+    },
+    "post-link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/ryzzqq/status/2077954424379760942"
+      }
+    }
+  }
+}
