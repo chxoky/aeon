@@ -1,0 +1,102 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_header",
+        "separator_1",
+        "text_event",
+        "tweet_card",
+        "stack_links",
+        "separator_2",
+        "text_question"
+      ]
+    },
+    "stack_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "heading_calibration",
+        "badge_author"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration",
+        "level": "h2"
+      }
+    },
+    "badge_author": {
+      "type": "Badge",
+      "props": {
+        "text": "@Wild_Randomness"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Market observation on ETH"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "$ETH\n\nFaded?\n\njfc"
+      }
+    },
+    "stack_links": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_tco",
+        "link_tweet"
+      ]
+    },
+    "link_tco": {
+      "type": "Link",
+      "props": {
+        "label": "https://t.co/7bnT2abydC",
+        "href": "https://t.co/7bnT2abydC"
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2078129841132765657"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_question": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — is this a trade signal, conviction opinion, or just market observation? Your read?"
+      }
+    }
+  }
+}
