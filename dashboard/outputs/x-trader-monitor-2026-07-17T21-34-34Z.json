@@ -1,0 +1,60 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "link-tweet",
+        "separator-1",
+        "context-text"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "@swarmister",
+        "text": "$BTC Expectations -> execution 🫰🏼\n\nOverall, this is a technically sound move, but let me remind you that I'm not fully in the position, and as the markets close… Trump might start spouting nonsense again, though I'd consider a subsequent rally likely. Although liquidity is a bit lower (ranging from 60k to 61.5k)\n\nJust a quick update before bed \n\nGn fam <3 and enjoooy"
+      },
+      "children": []
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/swarmister/status/2078231158374940675"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "context-text": {
+      "type": "Text",
+      "props": {
+        "text": "Follows up on their earlier Jul 17 intraday BTC thesis (entered at 2/3 volume, may add at 61.5k support). Confirms 60k-61.5k liquidity zone with bullish technical bias. Aligns with KillaXBT/t_in_crypto HTF bullish lean.",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
