@@ -1,0 +1,121 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration — @Wild_Randomness"
+      },
+      "children": [
+        "heading_event",
+        "tweet_wr",
+        "sep_1",
+        "context_stack",
+        "sep_2",
+        "question_stack",
+        "sep_3",
+        "link_view"
+      ]
+    },
+    "heading_event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event: Trader-to-trader discussion (asking @DannyDayan5 about entry)",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "tweet_wr": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "last good entry? https://t.co/plG4y2Z95v"
+      },
+      "children": []
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "context_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_heading",
+        "context_text"
+      ]
+    },
+    "context_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "Wild_Randomness is asking another trader (DannyDayan5) about entry opportunities. This matches their known pattern of cryptic/URL-minimal posts."
+      },
+      "children": []
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "question_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "question_heading",
+        "question_text"
+      ]
+    },
+    "question_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Question",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "question_text": {
+      "type": "Text",
+      "props": {
+        "text": "Should peer-to-peer trading discussions be surfaced (informational), or are these noise to skip silently?"
+      },
+      "children": []
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2078136907071172925"
+      },
+      "children": []
+    }
+  }
+}
