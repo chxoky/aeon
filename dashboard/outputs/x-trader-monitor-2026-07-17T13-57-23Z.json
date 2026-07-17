@@ -1,0 +1,75 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @Wild_Randomness"
+      },
+      "children": [
+        "context-label",
+        "context-text",
+        "sep1",
+        "tweet-card",
+        "sep2",
+        "analysis-label",
+        "analysis-text",
+        "view-link"
+      ]
+    },
+    "context-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "context-text": {
+      "type": "Text",
+      "props": {
+        "text": "Wild_Randomness (equities/vol trader) has been averaging into $SPY (bullish), tracking $EWY/$KOSPI bid zone, $LIT momentum long. History of ambiguous/cryptic posts that needed previous calibration."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Last time I gave a bear set up was\n\noh."
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Interpretation",
+        "level": "h3"
+      }
+    },
+    "analysis-text": {
+      "type": "Text",
+      "props": {
+        "text": "The post trails off with \"oh.\" — unclear intent. Possibly: (a) retrospective comment about a past setup they shared, (b) new bearish setup entry, (c) technical observation on a bear scenario, or (d) just personal/incomplete thought. Doesn't fit clear execution language pattern. What's your read?"
+      }
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2078114370241138733"
+      }
+    }
+  }
+}
