@@ -1,0 +1,67 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading-calibration",
+        "text-event",
+        "separator-1",
+        "tweet-swarmister",
+        "separator-2",
+        "text-interpretation"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @swarmister",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text-event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @bull_genius & @OnlyZen_PK with URL link",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "tweet-swarmister": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "@bull_genius @OnlyZen_PK https://t.co/rKNY7qbpCK"
+      },
+      "children": []
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text-interpretation": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read? Trade signal coordination, or social banter?",
+        "variant": "lead"
+      },
+      "children": []
+    }
+  }
+}
