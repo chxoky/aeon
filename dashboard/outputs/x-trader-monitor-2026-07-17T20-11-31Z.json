@@ -1,0 +1,86 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration request"
+      },
+      "children": [
+        "heading-1",
+        "text-1",
+        "sep-1",
+        "tweet-1",
+        "sep-2",
+        "alert-1",
+        "sep-3",
+        "link-1"
+      ]
+    },
+    "heading-1": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text-1": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @NotSpikeG about August puts strategy",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "tweet-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "You could get it, and I'll just bag hold these re-entered August puts for a few days"
+      },
+      "children": []
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert-1": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Did you add to your NVDA puts today/recently (\"re-entered\"), or just confirming you're holding the original small position from 07-14?",
+        "type": "info"
+      },
+      "children": []
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link-1": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2078209471000551879"
+      },
+      "children": []
+    }
+  }
+}
