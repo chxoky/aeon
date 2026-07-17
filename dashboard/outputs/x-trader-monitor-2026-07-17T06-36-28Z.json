@@ -1,0 +1,30 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-card",
+        "view-link"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "text": "$ETH near local bottom, targeting $2000 (possibly before global decline continues). Referenced bridge-chart setup from 2 weeks ago signaled prior ETH bottom with 23% gain."
+      }
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/swarmister/status/2078004569724858730"
+      }
+    }
+  }
+}
