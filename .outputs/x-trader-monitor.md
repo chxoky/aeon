@@ -1,13 +1,9 @@
 🔍 *Calibration — @Wild_Randomness*
 
-Event: Cryptic one-liner URL post on tape watching
-
-Wild_Randomness: "Tape watching works https://t.co/6qhoUDTwii"
+Event: Cryptic one-liner with inaccessible link
+Wild_Randomness: "Let that sink in https://t.co/qSlmFu43hT"
 
 Unable to classify — what's your read?
-1. Personal methodology reaffirmation / resource link?
-2. Commentary on current order flow?
-3. General market observation?
 
 [View post](https://x.com/Wild_Randomness/status/2078208898914222537)
 Event: Reply to @NotSpikeG about August puts strategy
@@ -17,3 +13,5 @@ Event: Reply to @NotSpikeG about August puts strategy
 Unable to classify — did you add to your NVDA puts today/recently ("re-entered"), or just confirming you're holding the original small position from 07-14?
 
 [View post](https://x.com/Wild_Randomness/status/2078209471000551879)
+Tweet: https://x.com/Wild_Randomness/status/2078210431148331486
+Timestamp: Fri Jul 17 20:09:12 +0000 2026
