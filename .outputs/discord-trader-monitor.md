@@ -1,4 +1,4 @@
-## Summary
+💬 *[DC: Chase — Chase]*
 
 **Discord Trader Monitor skill execution completed**
 
@@ -32,3 +32,4 @@
 - `logs/2026-07-17.md`: event logged with classification and notes
 
 This was purely an administrative role mention with no trade signal or financial content, consistent with Step 4A (Non-financial) and HR-1 classification. No Kyle notification required.
+And a reminder that during strong pullbacks you don't get all-time highs the same exact day, right? This isn't a liquidity flush from the all-time high. This is a major pullback. It's going to take a couple of days, at the minimum, or a week or more to see the type of profits that I'm looking for on these trades, most likely

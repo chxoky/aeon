@@ -1,0 +1,23 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "tweet-1"
+      ]
+    },
+    "tweet-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Chase",
+        "handle": "DC: Chase",
+        "text": "💬 *[DC: Chase — Chase]*\n\nAnd a reminder that during strong pullbacks you don't get all-time highs the same exact day, right? This isn't a liquidity flush from the all-time high. This is a major pullback. It's going to take a couple of days, at the minimum, or a week or more to see the type of profits that I'm looking for on these trades, most likely"
+      }
+    }
+  }
+}
