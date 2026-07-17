@@ -1,0 +1,241 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "Market Context — 2026-07-17"
+      },
+      "children": [
+        "sentiment_stack",
+        "sep_1",
+        "prices_stack",
+        "sep_2",
+        "market_metrics_stack",
+        "sep_3",
+        "narrative_stack",
+        "sep_4",
+        "sports_stack"
+      ]
+    },
+    "sentiment_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "take_label",
+        "risk_off_badge",
+        "conviction_badge"
+      ]
+    },
+    "take_label": {
+      "type": "Text",
+      "props": {
+        "text": "Take:",
+        "variant": "lead"
+      }
+    },
+    "risk_off_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "risk-off",
+        "variant": "destructive"
+      }
+    },
+    "conviction_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "conviction medium",
+        "variant": "secondary"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "prices_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "btc_stat",
+        "eth_stat",
+        "fng_section"
+      ]
+    },
+    "btc_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$63,270",
+        "delta": "−2.0%",
+        "trend": "down"
+      }
+    },
+    "eth_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$1,826",
+        "delta": "−3.1%",
+        "trend": "down"
+      }
+    },
+    "fng_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "fng_label",
+        "fng_progress"
+      ]
+    },
+    "fng_label": {
+      "type": "Text",
+      "props": {
+        "text": "Fear & Greed:",
+        "variant": "body"
+      }
+    },
+    "fng_progress": {
+      "type": "Progress",
+      "props": {
+        "value": 27,
+        "max": 100,
+        "label": "27 (Fear)"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "market_metrics_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "breadth_stat",
+        "dex_vol_stat"
+      ]
+    },
+    "breadth_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Market Breadth",
+        "value": "3/20"
+      }
+    },
+    "dex_vol_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "DEX Volume",
+        "value": "$6.5B",
+        "delta": "−14% vs yesterday",
+        "trend": "down"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "narrative_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "narrative_heading",
+        "narrative_description",
+        "ondo_stat"
+      ]
+    },
+    "narrative_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Narrative",
+        "level": "h3"
+      }
+    },
+    "narrative_description": {
+      "type": "Text",
+      "props": {
+        "text": "RWA / tokenized yield (peak → fading)",
+        "variant": "body"
+      }
+    },
+    "ondo_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "ONDO",
+        "value": "−3.9%",
+        "delta": "from +17%",
+        "trend": "down"
+      }
+    },
+    "sep_4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sports_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "sports_heading",
+        "sports_event",
+        "argentina_odds",
+        "spain_odds"
+      ]
+    },
+    "sports_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Hot Market",
+        "level": "h3"
+      }
+    },
+    "sports_event": {
+      "type": "Text",
+      "props": {
+        "text": "2026 FIFA World Cup Final",
+        "variant": "body"
+      }
+    },
+    "argentina_odds": {
+      "type": "Progress",
+      "props": {
+        "value": 41,
+        "max": 100,
+        "label": "Argentina 41%"
+      }
+    },
+    "spain_odds": {
+      "type": "Progress",
+      "props": {
+        "value": 59,
+        "max": 100,
+        "label": "Spain 59%"
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "skill": "market-context-refresh",
+  "last_analyzed": "2026-07-17T14:26:56Z",
+  "quality_score": 4,
+  "assessment": "Substantive market snapshot with specific metrics, clear regime call, tracked deltas from prior context, and narrative assessment; well-structured and actionable for market context",
+  "flags": [],
+  "avg_score": 4,
+  "history": [
+    {
+      "date": "2026-07-17",
+      "score": 4
+    }
+  ]
+}
