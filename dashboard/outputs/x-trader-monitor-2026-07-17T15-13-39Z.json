@@ -1,0 +1,60 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "marker_badge",
+        "tweet_card",
+        "link_view",
+        "note_context"
+      ]
+    },
+    "marker_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "[X]"
+      },
+      "children": []
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "Wild_Randomness",
+        "text": "I did sell my August leg of IBIT and a portion of my August ETHA puts there\n\n(Unfortunately I still have September and October as well)"
+      },
+      "children": []
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2078132132648743238"
+      },
+      "children": []
+    },
+    "note_context": {
+      "type": "Text",
+      "props": {
+        "text": "IBIT is an overlap ticker (KillaXBT planning August entry at higher levels).",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
