@@ -1,7 +1,11 @@
-🔍 *Calibration — @HeartCanHodl*
+🐦 *[X] @HeartCanHodl*
 
-Event: Morning (UTC 08:56:17 Jul 17, 2026) — no visible external trigger; recent context: scaled shorts (BTC/ETH/SOL/HYPE/ZEC/LAB/UNI) + entered SNDK long Jul 16 at 1366
+And I guess they got liquidated there too
 
-@HeartCanHodl: 🤔
+$ETH https://t.co/KYtVrf43Df
 
-Unable to classify — what's your read? Is this market structure uncertainty, prep for trade action, or reaction to overnight price movement?
+[View tweet](https://x.com/HeartCanHodl/status/2078046042608787738)
+
+↳ _Market commentary on ETH liquidations. Aligns with HCH's documented bearish short positioning on ETH (2.25% active short, conviction add Jul 14)._
+
+📸 [Image: https://pbs.twimg.com/media/HNaz2-eb0AEqesd.jpg]

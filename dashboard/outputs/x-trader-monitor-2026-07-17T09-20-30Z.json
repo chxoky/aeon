@@ -1,0 +1,100 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "X-Trader Monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet",
+        "sep1",
+        "commentary",
+        "positioning",
+        "links"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "And I guess they got liquidated there too\n\n$ETH https://t.co/KYtVrf43Df"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "commentary": {
+      "type": "Text",
+      "props": {
+        "text": "Market commentary on ETH liquidations. Aligns with HCH's documented bearish short positioning on ETH.",
+        "variant": "body"
+      }
+    },
+    "positioning": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-short",
+        "badge-date"
+      ]
+    },
+    "stat-short": {
+      "type": "Stat",
+      "props": {
+        "label": "Active Short",
+        "value": "2.25%"
+      }
+    },
+    "badge-date": {
+      "type": "Badge",
+      "props": {
+        "text": "Conviction add Jul 14",
+        "variant": "secondary"
+      }
+    },
+    "links": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-tweet",
+        "link-image"
+      ]
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/HeartCanHodl/status/2078046042608787738"
+      }
+    },
+    "link-image": {
+      "type": "Link",
+      "props": {
+        "label": "Tweet image",
+        "href": "https://pbs.twimg.com/media/HNaz2-eb0AEqesd.jpg"
+      }
+    }
+  }
+}
