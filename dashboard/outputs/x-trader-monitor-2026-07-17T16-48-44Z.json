@@ -1,0 +1,48 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @swarmister"
+      },
+      "children": [
+        "event-desc",
+        "tweet-card",
+        "classification-q",
+        "view-link"
+      ]
+    },
+    "event-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @bull_genius with URL link",
+        "variant": "lead"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "@bull_genius https://t.co/oyRJ0w4QGf"
+      }
+    },
+    "classification-q": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read? Trade signal coordination, chart link, or social banter?",
+        "variant": "muted"
+      }
+    },
+    "view-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View post",
+        "href": "https://x.com/swarmister/status/2078158149517779324",
+        "source": "X/Twitter"
+      }
+    }
+  }
+}

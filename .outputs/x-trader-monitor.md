@@ -31,3 +31,12 @@ Processed real-time trader event from @swarmister (tweet_id 2078156835912065233)
 
 **Alert status:** No notification sent (silent skip per HR-1 classification).
 https://x.com/t_in_crypto/status/2078157359000535427
+🔍 *Calibration — @swarmister*
+
+Event: Reply to @bull_genius with URL link
+
+swarmister: "@bull_genius https://t.co/oyRJ0w4QGf"
+
+Unable to classify — what's your read? Trade signal coordination, chart link, or social banter?
+
+[View post](https://x.com/swarmister/status/2078158149517779324)
