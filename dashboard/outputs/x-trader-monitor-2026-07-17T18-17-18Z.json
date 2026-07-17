@@ -1,0 +1,121 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading_main",
+        "text_event",
+        "separator1",
+        "tweet_card",
+        "separator2",
+        "stack_context",
+        "separator3",
+        "text_analysis",
+        "text_question"
+      ]
+    },
+    "heading_main": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration — @t_in_crypto",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Cryptic reply to @LP_NXT with shortened URL link (can't decode without fetching); follows earlier ambiguous post 15:41 UTC same day: \"Follow me or play against me 🤷🏻‍♀️ $btc\"",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "handle": "t_in_crypto",
+        "text": "@LP_NXT https://t.co/e2tZ3fXK8u"
+      },
+      "children": []
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack_context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_context",
+        "text_position",
+        "text_earlier_post"
+      ]
+    },
+    "heading_context": {
+      "type": "Heading",
+      "props": {
+        "text": "Position Context",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text_position": {
+      "type": "Text",
+      "props": {
+        "text": "Structural BTC bull: 100% long @58.4K + x2 conviction add @62K (Jul 14). Diamond-handing alone (vs HCH/Wild_Randomness tactical hedges).",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_earlier_post": {
+      "type": "Text",
+      "props": {
+        "text": "Earlier post (15:41 UTC same day): \"Follow me or play against me 🤷🏻‍♀️ $btc\"",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text_analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Is this LP_NXT exchange about the BTC position, or unrelated banter? The shortened URL can't be decoded without fetching.",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text_question": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
