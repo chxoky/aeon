@@ -1,0 +1,24 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_1"
+      ]
+    },
+    "tweet_1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "Structure currently suggests that we take the highs before any decisive movement back down.\n\nPretty textbook for a range bound market. We had the rejection. ✅\n\nThe next key area to watch is 61.3K-60.6K where we could get a 2% bounce from.\n\nhttps://x.com/KillaXBT/status/2078117168881811458"
+      },
+      "children": []
+    }
+  }
+}

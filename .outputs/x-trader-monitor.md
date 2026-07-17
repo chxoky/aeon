@@ -26,3 +26,12 @@ The post trails off with "oh." — unclear intent. Possibly: (a) retrospective c
 
 [View tweet](https://x.com/Wild_Randomness/status/2078114370241138733)
 The skill executed successfully with no alert sent. This aligns with the pattern of 80+ posts from swarmister today, majority non-financial banter.
+🐦 *[X] @KillaXBT*
+
+Structure currently suggests that we take the highs before any decisive movement back down.
+
+Pretty textbook for a range bound market. We had the rejection. ✅
+
+The next key area to watch is 61.3K-60.6K where we could get a 2% bounce from.
+
+https://x.com/KillaXBT/status/2078117168881811458
