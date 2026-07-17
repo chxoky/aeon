@@ -1,15 +1,7 @@
-🔍 *Calibration — @swarmister*
+🔍 *Calibration — @HeartCanHodl*
 
-Event: Reply to @avgcryptoguy & @0xMerp on unspecified topic
-swarmister: "Xpl too, yeah."
+Event: Reply to @alyannnn2
 
-Unable to classify — is this a financial signal (XPL ticker mention / price direction agree), or personal banter? How would you read this?
+HeartCanHodl: "Not until I would cover"
 
-[View tweet](https://x.com/swarmister/status/2078051137731596456)
-Event: cryptic X post with link to external content
-
-swarmister: "@MacroCRG https://t.co/UghbOUbIDW"
-
-Context: swarmister opened a BTC LONG position this morning (partial position, targeting 70.7k). This post came ~3h later but the link target is unknown.
-
-Unable to classify — is this macro analysis commentary supporting the BTC thesis, or something else? Should I alert/track?
+Unable to classify — what's your read? (He has active BTC/ETH/SOL/HYPE/ZEC shorts, so "cover" could mean position closure, but the full context is unclear.)
