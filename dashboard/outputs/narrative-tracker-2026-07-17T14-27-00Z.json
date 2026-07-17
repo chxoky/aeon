@@ -1,0 +1,588 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker",
+        "description": "2026-07-17 — First structured baseline — phase-transition diffs start tomorrow"
+      },
+      "children": [
+        "transitions-section",
+        "sep-1",
+        "reflexivity-section",
+        "sep-2",
+        "positions-section",
+        "sep-3",
+        "map-section"
+      ]
+    },
+    "transitions-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "transitions-heading",
+        "transition-ai",
+        "transition-privacy",
+        "transition-macro"
+      ]
+    },
+    "transitions-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS (NEW, baseline)",
+        "level": "h2"
+      }
+    },
+    "transition-ai": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ai-trans-label",
+        "ai-trans-text"
+      ]
+    },
+    "ai-trans-label": {
+      "type": "Badge",
+      "props": {
+        "text": "AI agents → infra",
+        "variant": "secondary"
+      }
+    },
+    "ai-trans-text": {
+      "type": "Text",
+      "props": {
+        "text": "Thesis went narrative→architecture this week — BNB 100k-TPS agent L1, 27-firm agent dispute court, Meta stablecoins in agentic commerce.",
+        "variant": "body"
+      }
+    },
+    "transition-privacy": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "privacy-trans-label",
+        "privacy-trans-text"
+      ]
+    },
+    "privacy-trans-label": {
+      "type": "Badge",
+      "props": {
+        "text": "Privacy-coin crackdown",
+        "variant": "secondary"
+      }
+    },
+    "privacy-trans-text": {
+      "type": "Text",
+      "props": {
+        "text": "MiCA/SEC/India FIU delistings pushing trade CEX→DEX. XMR $799→$331 (delisted Binance/Kraken); ZEC holds on optional privacy.",
+        "variant": "body"
+      }
+    },
+    "transition-macro": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "macro-trans-label",
+        "macro-trans-text"
+      ]
+    },
+    "macro-trans-label": {
+      "type": "Badge",
+      "props": {
+        "text": "'Green July' macro",
+        "variant": "secondary"
+      }
+    },
+    "macro-trans-text": {
+      "type": "Text",
+      "props": {
+        "text": "Soft June CPI (3.5% vs 3.8% exp) → BTC $62k→$64.9k, ETH +7%, spot-BTC ETFs snapped a 10-day skid (+$221.7M).",
+        "variant": "body"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "reflexivity-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "reflexivity-heading",
+        "refl-ai",
+        "refl-privacy",
+        "refl-macro"
+      ]
+    },
+    "reflexivity-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      }
+    },
+    "refl-ai": {
+      "type": "Alert",
+      "props": {
+        "title": "AI agents",
+        "message": "Identical $2B→$200B-by-2030 projection republished across Coinpedia/CryptoRank/Bitget + a16z endorsement pumping caps ahead of usage.",
+        "type": "warning"
+      }
+    },
+    "refl-privacy": {
+      "type": "Alert",
+      "props": {
+        "title": "Privacy coins",
+        "message": "Price moving on delisting fear, not usage (XMR halved on CEX removal; ZEC bid on 'we won't get delisted').",
+        "type": "warning"
+      }
+    },
+    "refl-macro": {
+      "type": "Alert",
+      "props": {
+        "title": "Macro",
+        "message": "Whole relief rally hangs on one CPI print; Fed's Warsh refused to call it a win ('no tolerance for elevated inflation').",
+        "type": "warning"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "positions-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "positions-heading",
+        "pos-ai",
+        "pos-privacy",
+        "pos-macro",
+        "pos-rwa"
+      ]
+    },
+    "positions-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      }
+    },
+    "pos-ai": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-ai-head",
+        "pos-ai-stat",
+        "pos-ai-detail",
+        "pos-ai-bear"
+      ]
+    },
+    "pos-ai-head": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-ai-action",
+        "pos-ai-name",
+        "pos-ai-sentiment"
+      ]
+    },
+    "pos-ai-action": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "default"
+      }
+    },
+    "pos-ai-name": {
+      "type": "Text",
+      "props": {
+        "text": "AI agents",
+        "variant": "lead"
+      }
+    },
+    "pos-ai-sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "default"
+      }
+    },
+    "pos-ai-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Confidence",
+        "value": "5",
+        "delta": "↑↑"
+      }
+    },
+    "pos-ai-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Assets: $VIRTUAL, $FET/ASI",
+        "variant": "caption"
+      }
+    },
+    "pos-ai-bear": {
+      "type": "Alert",
+      "props": {
+        "title": "Bear case",
+        "message": "JADEPUFFER prompt-injection wallet drain = unpriced attack surface.",
+        "type": "warning"
+      }
+    },
+    "pos-privacy": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-privacy-head",
+        "pos-privacy-stat",
+        "pos-privacy-detail",
+        "pos-privacy-bear",
+        "pos-privacy-note"
+      ]
+    },
+    "pos-privacy-head": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-privacy-action",
+        "pos-privacy-name",
+        "pos-privacy-sentiment"
+      ]
+    },
+    "pos-privacy-action": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH→FADE",
+        "variant": "outline"
+      }
+    },
+    "pos-privacy-name": {
+      "type": "Text",
+      "props": {
+        "text": "Privacy coins",
+        "variant": "lead"
+      }
+    },
+    "pos-privacy-sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Mixed",
+        "variant": "outline"
+      }
+    },
+    "pos-privacy-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Confidence",
+        "value": "4",
+        "delta": "↑"
+      }
+    },
+    "pos-privacy-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Assets: ZEC/XMR",
+        "variant": "caption"
+      }
+    },
+    "pos-privacy-bear": {
+      "type": "Alert",
+      "props": {
+        "title": "Bear case",
+        "message": "Delistings drain liquidity; rally is fear-driven.",
+        "type": "warning"
+      }
+    },
+    "pos-privacy-note": {
+      "type": "Text",
+      "props": {
+        "text": "HeartCanHodl holds a ZEC short into this.",
+        "variant": "muted"
+      }
+    },
+    "pos-macro": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-macro-head",
+        "pos-macro-stat",
+        "pos-macro-bear"
+      ]
+    },
+    "pos-macro-head": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-macro-action",
+        "pos-macro-name",
+        "pos-macro-sentiment"
+      ]
+    },
+    "pos-macro-action": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE, tighten stops",
+        "variant": "default"
+      }
+    },
+    "pos-macro-name": {
+      "type": "Text",
+      "props": {
+        "text": "Macro/BTC reflation",
+        "variant": "lead"
+      }
+    },
+    "pos-macro-sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Mixed",
+        "variant": "outline"
+      }
+    },
+    "pos-macro-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Confidence",
+        "value": "5",
+        "delta": "↑"
+      }
+    },
+    "pos-macro-bear": {
+      "type": "Alert",
+      "props": {
+        "title": "Bear case",
+        "message": "One data point, Warsh hawkish, oil clouds outlook.",
+        "type": "warning"
+      }
+    },
+    "pos-rwa": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-rwa-head",
+        "pos-rwa-stat",
+        "pos-rwa-data",
+        "pos-rwa-note"
+      ]
+    },
+    "pos-rwa-head": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-rwa-action",
+        "pos-rwa-name",
+        "pos-rwa-sentiment"
+      ]
+    },
+    "pos-rwa-action": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE, no edge",
+        "variant": "default"
+      }
+    },
+    "pos-rwa-name": {
+      "type": "Text",
+      "props": {
+        "text": "RWA/stablecoins",
+        "variant": "lead"
+      }
+    },
+    "pos-rwa-sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "default"
+      }
+    },
+    "pos-rwa-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Confidence",
+        "value": "4",
+        "delta": "↑"
+      }
+    },
+    "pos-rwa-data": {
+      "type": "Text",
+      "props": {
+        "text": "Record $311B RWA perp vol, CEX spot +15.3%",
+        "variant": "caption"
+      }
+    },
+    "pos-rwa-note": {
+      "type": "Text",
+      "props": {
+        "text": "Consensus long",
+        "variant": "muted"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "map-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "map-heading",
+        "map-emerging",
+        "map-rising",
+        "map-peak",
+        "map-fading"
+      ]
+    },
+    "map-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h2"
+      }
+    },
+    "map-emerging": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-emerging-label",
+        "map-emerging-items"
+      ]
+    },
+    "map-emerging-label": {
+      "type": "Text",
+      "props": {
+        "text": "Emerging:",
+        "variant": "lead"
+      }
+    },
+    "map-emerging-items": {
+      "type": "Text",
+      "props": {
+        "text": "Chain abstraction, DePIN",
+        "variant": "body"
+      }
+    },
+    "map-rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-rising-label",
+        "map-rising-items"
+      ]
+    },
+    "map-rising-label": {
+      "type": "Text",
+      "props": {
+        "text": "Rising:",
+        "variant": "lead"
+      }
+    },
+    "map-rising-items": {
+      "type": "Text",
+      "props": {
+        "text": "AI agents, privacy-coin crackdown, RWA/stablecoins",
+        "variant": "body"
+      }
+    },
+    "map-peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-peak-label",
+        "map-peak-items"
+      ]
+    },
+    "map-peak-label": {
+      "type": "Text",
+      "props": {
+        "text": "Peak:",
+        "variant": "lead"
+      }
+    },
+    "map-peak-items": {
+      "type": "Text",
+      "props": {
+        "text": "'Green July' reflation",
+        "variant": "body"
+      }
+    },
+    "map-fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-fading-label"
+      ]
+    },
+    "map-fading-label": {
+      "type": "Text",
+      "props": {
+        "text": "Fading: —",
+        "variant": "body"
+      }
+    }
+  }
+}

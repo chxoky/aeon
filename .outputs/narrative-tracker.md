@@ -1,20 +1,25 @@
-*Narrative Tracker — 2026-07-16*
+*Narrative Tracker — 2026-07-17*
 
-⚠️ No prior structured map logged — baseline run. Moves inferred vs 07-14 trader-state + velocity data.
+_First structured baseline — phase-transition diffs start tomorrow._
+
+TRANSITIONS (NEW, baseline)
+• AI agents → infra: thesis went narrative→architecture this week — BNB 100k-TPS agent L1, 27-firm agent dispute court, Meta stablecoins in agentic commerce.
+• Privacy-coin crackdown: MiCA/SEC/India FIU delistings pushing trade CEX→DEX. XMR $799→$331 (delisted Binance/Kraken); ZEC holds on optional privacy.
+• 'Green July' macro: soft June CPI (3.5% vs 3.8% exp) → BTC $62k→$64.9k, ETH +7%, spot-BTC ETFs snapped a 10-day skid (+$221.7M).
 
 REFLEXIVITY ALERT
-• Privacy/ZEC — the price IS the narrative: +70% in a week, +1,200% YoY to ~$550, yet sources call it "a repricing of the privacy narrative, not a rise in actual usage." Grayscale ZEC-ETF filing + Cypherpunk Technologies treasury + Multicoin ("return to cypherpunk ideals") are manufacturing legitimacy into the pump.
-• AI agents — BNB Chain building a 100k-TPS L1 "for autonomous agents" + the BCG $2B→$200B-by-2030 projection are being used to justify today's bids. Infra rebrand-to-narrative in progress.
+• AI agents — identical $2B→$200B-by-2030 projection republished across Coinpedia/CryptoRank/Bitget + a16z endorsement pumping caps ahead of usage.
+• Privacy coins — price moving on delisting *fear*, not usage (XMR halved on CEX removal; ZEC bid on 'we won't get delisted').
+• Macro — whole relief rally hangs on one CPI print; Fed's Warsh refused to call it a win ('no tolerance for elevated inflation').
 
 POSITIONS
-• RIDE: Solana RWA/stablecoins (4 ↑, Bull) — BlackRock BUIDL $615M via Securitize + real $8.68B/30d transfer volume (circulation, not just balances), 300k holders (#1 by count) — bear: ETH still ~5x the SOL RWA value, SOL spot lagging (Killa: "never sees ATH again").
-• RIDE (late, tight stop): Privacy/ZEC (4 ↑↑, reflexive-Bull) — Multicoin, Grayscale, Robinhood listing — bear: one ETF-reject or Ironwood-upgrade slip and +1,200% YoY unwinds fast. NB: the HCH ZEC short basket is underwater here.
-• RIDE-infra / IGNORE-tail: AI agents (5 →, Mixed) — $VIRTUAL, $FET, Base (100M cumulative agent txns) — bear: most agent tokens are speculation, not utility.
-• WATCH→FADE: BTC "Green July" seasonal (4 →, Cope) — ETF outflows (~$84.9M/day) + declining retail search = no FOMO fuel; seasonal-bounce thesis is pattern-matched hopium.
-• WATCH: Prediction markets (3 →, Bull) — Polymarket ($10M on the July-BTC market alone) + Kaito Attention Markets — structural, no clean liquid token trade yet.
+• RIDE: AI agents (5 ↑↑, Bull) — $VIRTUAL, $FET/ASI — bear: JADEPUFFER prompt-injection wallet drain = unpriced attack surface.
+• WATCH→FADE: Privacy coins (4 ↑, Mixed) — ZEC/XMR — bear: delistings drain liquidity; rally is fear-driven. (HeartCanHodl holds a ZEC short into this.)
+• RIDE, tighten stops: Macro/BTC reflation (5 ↑, Mixed) — bear: one data point, Warsh hawkish, oil clouds outlook.
+• RIDE, no edge: RWA/stablecoins (4 ↑, Bull) — record $311B RWA perp vol, CEX spot +15.3% — consensus long.
 
 MAP
-Emerging: AI×DePIN, modular infra (no fresh catalyst)
-Rising: Solana RWA/stablecoins, Prediction markets
-Peak: AI agents, Privacy coins (parabolic)
-Fading: Memory/AI equities (NVDA/MU/SNDK — traders banked), BTC seasonal-bounce cope
+Emerging: chain abstraction, DePIN
+Rising: AI agents, privacy-coin crackdown, RWA/stablecoins
+Peak: 'Green July' reflation
+Fading: —
