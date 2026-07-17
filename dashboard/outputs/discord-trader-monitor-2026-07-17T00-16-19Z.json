@@ -1,0 +1,70 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor"
+      },
+      "children": [
+        "member_q",
+        "sep1",
+        "discord_msg",
+        "sep2",
+        "chart_data"
+      ]
+    },
+    "member_q": {
+      "type": "Text",
+      "props": {
+        "text": "↩️ Member: What's your inval on sndk?",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "discord_msg": {
+      "type": "Text",
+      "props": {
+        "text": "💬 [DC: Chase — TradFi]",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "chart_data": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "chart_desc",
+        "tp_info"
+      ]
+    },
+    "chart_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Chart showing SNDK invalidation levels in response to member Q&A on closed position",
+        "variant": "body"
+      }
+    },
+    "tp_info": {
+      "type": "Stat",
+      "props": {
+        "label": "Take Profit Range",
+        "value": "1830–1890"
+      }
+    }
+  }
+}
