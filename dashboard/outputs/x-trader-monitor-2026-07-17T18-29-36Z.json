@@ -1,0 +1,66 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-stack",
+        "separator-1",
+        "interpretation"
+      ]
+    },
+    "tweet-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-card",
+        "link-tweet"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "If $BTC sees one final flush, it'll likely be driven by a correction in legacy markets.\n\nIt's happened in all 3 previous cycles.\n\nShortly after, it marked the macro bottom."
+      }
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2078183732125507841"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "interpretation": {
+      "type": "Text",
+      "props": {
+        "text": "Macro conviction on BTC cycles — aligns with KillaXBT's HTF 2x long from 62.6K. Structural bull thesis (BTC/SPX both in macro accumulation zone per group lean).",
+        "variant": "caption"
+      }
+    }
+  }
+}
