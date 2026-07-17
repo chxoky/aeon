@@ -1,0 +1,100 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_sentiment",
+        "tweet_card",
+        "tickers_stack",
+        "context_text",
+        "alert_sndk",
+        "link_source"
+      ]
+    },
+    "heading_sentiment": {
+      "type": "Heading",
+      "props": {
+        "text": "Bearish sentiment on AI stock volatility",
+        "level": "h2"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "@HeartCanHodl",
+        "text": "The biggest AI names just finished giving stock bros the full crypto experience."
+      }
+    },
+    "tickers_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_sndk",
+        "badge_mrvl",
+        "badge_mu"
+      ]
+    },
+    "badge_sndk": {
+      "type": "Badge",
+      "props": {
+        "text": "$SNDK",
+        "variant": "outline"
+      }
+    },
+    "badge_mrvl": {
+      "type": "Badge",
+      "props": {
+        "text": "$MRVL",
+        "variant": "outline"
+      }
+    },
+    "badge_mu": {
+      "type": "Badge",
+      "props": {
+        "text": "$MU",
+        "variant": "outline"
+      }
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "Aligns with HCH skepticism on memory-stocks momentum",
+        "variant": "body"
+      }
+    },
+    "alert_sndk": {
+      "type": "Alert",
+      "props": {
+        "title": "Your Portfolio",
+        "message": "Relevant to your active SNDK long (pending approval)",
+        "type": "info"
+      }
+    },
+    "link_source": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet on X",
+        "href": "https://x.com/HeartCanHodl/status/2078067195515658315"
+      }
+    }
+  }
+}
