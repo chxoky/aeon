@@ -54,6 +54,18 @@
 - **Conviction**: HIGH throughout (waiting months for sub-850 level per 06-23 message); both TP hit and trim management confirm disciplined execution; final close at 1000+ level validates multi-tier entry strategy and ongoing technical setup favorability thesis
 - **Last update**: 2026-07-16T19:02:25Z (final position closed, TP'd over 1000, X post tweet_id=2077831237566169306, fast-path alerted via ./notify)
 
+### MU (Micron Technology) — LONG (NEW ENTRY — 2026-07-17)
+- **Entry**: 2026-07-17T13:46:04Z — "I started about a third of my Micron bag around 800" (Discord message_id=1527672741509988483, fast-path-alerted=true)
+- **Entry level**: ~$800 (market-order execution or limit fill)
+- **Entry size**: ~33% (fractional position: "about a third" of intended full position; implies multi-tranche accumulation plan)
+- **Entry context**: Fresh entry after previous MU position fully closed 2026-07-16T19:02:25Z above 1000 level. New position initiated at $800, representing ~200-point pullback from prior TP level. Fractional sizing language ("about a third") suggests trader planning 2-3 tranche accumulation (similar to prior dual-entry structure). Entry timing: next session morning UTC after overnight consolidation.
+- **Thesis**: Likely continuation of multi-level DCA strategy on MU. Previous position: dual-entry framework with 1:1 R:R first trade + 1% risk second trade, both profitable. Fresh $800 entry suggests: (1) pullback buying opportunity, (2) accumulation into support level, or (3) restart of disciplined position building after prior successful cycle close.
+- **Status**: PENDING APPROVAL — awaiting Kyle response (`approve MU` to mirror on Kraken spot), or ignore to skip
+- **Trade alert format**: Step 5a (new entry requiring approval, fast-path already notified Kyle via Telegram ~13:46-13:48 UTC)
+- **Mirror instructions**: Upon Kyle approval, mirror MU LONG position on Kraken spot (size to be specified by Kyle via `approve MU <size_or_percentage>` reply)
+- **Alerted**: YES (2026-07-17T13:46:04Z, discord-trader-monitor real-time event, fast-path-alerted via Telegram)
+- **Last update**: 2026-07-17T13:46:04Z (new entry execution, awaiting approval, Discord message_id=1527672741509988483, discord-trader-monitor real-time, fast-path-alerted=true)
+
 ### SNDK (Structural) — LONG (PREVIOUS POSITION CLOSED 2026-07-16T19:02:25Z)
 - **Previous entry**: 2026-07-07T13:25:08Z (pullback tactical entry on HTF flush setup, CLOSED JUL 16)
 - **Status**: CLOSED
