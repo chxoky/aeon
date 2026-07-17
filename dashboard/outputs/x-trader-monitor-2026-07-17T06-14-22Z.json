@@ -1,0 +1,145 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "🚨 Trade Signal — @swarmister"
+      },
+      "children": [
+        "signal-header",
+        "separator1",
+        "entry-zones",
+        "target-price",
+        "description",
+        "warning",
+        "separator2",
+        "link",
+        "call-to-action"
+      ]
+    },
+    "signal-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "btc-badge",
+        "status-badge",
+        "order-badge"
+      ]
+    },
+    "btc-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "BTC",
+        "variant": "default"
+      }
+    },
+    "status-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "LONG",
+        "variant": "secondary"
+      }
+    },
+    "order-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Market order (partial position already filled)",
+        "variant": "outline"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "entry-zones": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "entry-label",
+        "entry-values"
+      ]
+    },
+    "entry-label": {
+      "type": "Text",
+      "props": {
+        "text": "Entry zones:",
+        "variant": "caption"
+      }
+    },
+    "entry-values": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "entry-62k",
+        "entry-61k"
+      ]
+    },
+    "entry-62k": {
+      "type": "Stat",
+      "props": {
+        "label": "Entry 1",
+        "value": "62.4K"
+      }
+    },
+    "entry-61k": {
+      "type": "Stat",
+      "props": {
+        "label": "Entry 2",
+        "value": "61.2K"
+      }
+    },
+    "target-price": {
+      "type": "Stat",
+      "props": {
+        "label": "Final target per Bitcoin",
+        "value": "70.7K"
+      }
+    },
+    "description": {
+      "type": "Text",
+      "props": {
+        "text": "Bitcoin is flexible enough to enter (for me), so I've now opened a partial position and am ready to add to my long position with a final target of 70.7k per Bitcoin.",
+        "variant": "body"
+      }
+    },
+    "warning": {
+      "type": "Alert",
+      "props": {
+        "title": "Liquidity risk",
+        "message": "Be careful here, as there's still liquidity on the downside, and the market is following it.",
+        "type": "warning"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View post",
+        "href": "https://x.com/swarmister/status/2077999097949102104",
+        "source": "@swarmister"
+      }
+    },
+    "call-to-action": {
+      "type": "Alert",
+      "props": {
+        "title": "Action required",
+        "message": "Reply `approve BTC` to mirror this LONG position on Kraken (spot), or ignore to skip.",
+        "type": "info"
+      }
+    }
+  }
+}

@@ -1,18 +1,11 @@
-## Summary
+🚨 *Trade Signal — @swarmister*
 
-I've successfully executed the X Trader Monitor skill for the real-time event from @swarmister (tweet ID 2077977372028977223).
+BTC — LONG — *Market order (partial position already filled)*
 
-**Event details:**
-- **Trader:** @swarmister (watched trader)
-- **Tweet:** "@Mario_kcex Hey! Never !"
-- **Time:** Jul 17 04:43:07 UTC
-- **Classification:** HR-1 Category A (Non-financial / Personal banter)
+Entry zones: 62.4K, 61.2K | Final target: 70.7K per Bitcoin
 
-**Decision:** Skip silently — no alert to Kyle
+Bitcoin is flexible enough to enter (for me), so I've now opened a partial position and am ready to add to my long position with a final target of 70.7k per Bitcoin. Be careful here, as there's still liquidity on the downside, and the market is following it.
 
-This extremely brief reply contains no ticker, no price level, no execution language, and no market signal. It's consistent with swarmister's established pattern of ~80% non-financial social posts throughout the monitoring window. The tweet was:
-- ✅ Added to dedup tracking (x-trader-seen.txt)
-- ✅ Logged in traders.md with context
-- ✅ Recorded in memory/logs/2026-07-17.md
+[View post](https://x.com/swarmister/status/2077999097949102104)
 
-No notification sent — memory-only update.
+Reply `approve BTC` to mirror this LONG position on Kraken (spot), or ignore to skip.

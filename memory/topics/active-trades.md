@@ -260,6 +260,22 @@
 - **Context**: t_in_crypto stands alone in the group conviction map (see traders.md regime note: "Structural bulls (Killa, t_in_crypto) vs tactical bears"). Killa is also long (2x swing HTF from 62.6K) but with hedged scalp shorts; t_in_crypto is pure conviction long with ADD into strength/chop (inverse to HCH/Wild_Randomness scalp-short thinking). Pattern suggests belief in structural bottom closer than consensus estimates.
 - **Last update**: 2026-07-14T16:15:38Z (X, fast-path alerted; tweet_id=2077064489598374073)
 
+## swarmister
+
+### BTC — LONG (new entry 2026-07-17, partial position opened)
+- **Entry**: 2026-07-17T06:09:26Z (X post, tweet_id=2077999097949102104)
+- **Entry message**: "$BTC D1 + H4 timeframes. Analysis results + update... I've now opened a partial position and am ready to add to my long position with a final target of 70.7k per Bitcoin."
+- **Entry type**: Market order (partial position already filled, price TBD)
+- **Entry zones for adds**: 62.4k, 61.2k (ready to scale in at liquidity zones)
+- **Final target**: 70.7k per Bitcoin
+- **Current size**: Partial position (amount unspecified, awaiting Kyle approval for mirror sizing)
+- **Status**: PENDING APPROVAL — awaiting Kyle response (`approve BTC` to mirror on Kraken spot)
+- **Thesis**: Bullish D1/H4 structure; currently in zone of interest with expected bounce. Sees 62.4k–61.2k as near-term support zones with downside liquidity risk. Continuation of Jul 16 15:36:42 UTC forecast (62.2–62.8k correction zone entry, 70.5k target).
+- **Risk**: Acknowledges downside liquidity still present and market following it (caution flag)
+- **Convergence**: Aligns with structural bull group thesis (KillaXBT 2x HTF long @62.6K, t_in_crypto x2 volume conviction add @62K). BTC overlap ticker on Kyle's watch list.
+- **Alert sent**: Yes, trade signal 5a format (2026-07-17T06:10Z via ./notify)
+- **Last update**: 2026-07-17T06:09:26Z (x-trader-monitor real-time event, awaiting approval)
+
 ## Wild_Randomness
 
 ### VIX calls — LONG (new entry 2026-07-15)
