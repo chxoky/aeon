@@ -1,0 +1,91 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration discussion"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading",
+        "sep1",
+        "event_label",
+        "tweet",
+        "sep2",
+        "analysis_stack"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @swarmister",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "event_label": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Tweet reply to @RaizeThatQ",
+        "variant": "muted"
+      }
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "@swarmister",
+        "text": "Baaaaan dis NNNNEEEGAAATROOON"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context_text",
+        "alert"
+      ]
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "This appears to be dismissive banter/commentary, but I can't determine the financial context without seeing RaizeThatQ's full post.",
+        "variant": "body"
+      }
+    },
+    "alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Calibration Question",
+        "message": "Is this worth tracking, or just noise to skip?",
+        "type": "info"
+      }
+    }
+  }
+}
