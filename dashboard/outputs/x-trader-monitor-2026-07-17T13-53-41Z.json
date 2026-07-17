@@ -1,0 +1,103 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "📐 DCA Plan — @Crypto_Chase"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "summary-line",
+        "ticker-info",
+        "separator1",
+        "tweet-quote",
+        "separator2",
+        "link-section",
+        "separator3",
+        "cta-section"
+      ]
+    },
+    "summary-line": {
+      "type": "Text",
+      "props": {
+        "text": "$MU: Started bag around 800, room to add lower if necessary",
+        "variant": "body"
+      }
+    },
+    "ticker-info": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-mu",
+        "stat-entry"
+      ]
+    },
+    "badge-mu": {
+      "type": "Badge",
+      "props": {
+        "text": "$MU",
+        "variant": "default"
+      }
+    },
+    "stat-entry": {
+      "type": "Stat",
+      "props": {
+        "label": "Entry Price",
+        "value": "800"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"Started my $MU Micron bag around 800. Left room to add lower if necessary.\"",
+        "variant": "lead"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link-section": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/Crypto_Chase/status/2078114525216157709"
+      }
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "cta-section": {
+      "type": "Text",
+      "props": {
+        "text": "Want to set up your own DCA on this, or skip?",
+        "variant": "body"
+      }
+    }
+  }
+}

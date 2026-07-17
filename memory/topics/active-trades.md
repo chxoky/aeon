@@ -89,6 +89,20 @@
 - **Alerted**: YES (2026-07-16T22:54:55Z, X-trader-monitor real-time event, fast-path-alerted via Telegram)
 - **Last update**: 2026-07-16T22:54:55Z (new entry execution, awaiting approval, X post tweet_id=2077889748111159491, x-trader-monitor real-time, fast-path-alerted=true)
 
+### MU (Micron Technology) — LONG (NEW ENTRY — DCA PLAN 2026-07-17)
+- **Entry**: 2026-07-17T13:48:06Z (X post, tweet_id=2078114525216157709)
+- **Entry message**: "Started my $MU Micron bag around 800. Left room to add lower if necessary."
+- **Initial entry level**: Around $800 (market order or near-market fill)
+- **DCA structure**: 
+  - Initial entry: ~$800 (filled)
+  - Planned adds: "Lower if necessary" (unspecified price levels; trader intent to scale into weakness)
+- **Status**: ACTIVE — DCA plan awaiting Kyle's own structuring
+- **Trade alert format**: Step 5c (DCA plan — no auto-mirror, Kyle designs his own scaling)
+- **Thesis**: Reversal accumulation on Micron. Prior MU position (closed 2026-07-16 at 1000+) delivered profits; current entry represents fresh accumulation into technical support with planned scaling on dips.
+- **Conviction**: MEDIUM-HIGH (new entry after prior profitable close, describes explicit DCA intent with "room to add lower")
+- **Alerted**: YES (2026-07-17T13:48:06Z, x-trader-monitor real-time event, DCA plan alert sent)
+- **Last update**: 2026-07-17T13:48:06Z (new DCA plan entry, X post tweet_id=2078114525216157709, x-trader-monitor real-time)
+
 ## ES (S&P 500 E-mini Futures) — LONG
 - **Entry**: 2026-06-21T23:23Z (dream/gut feeling conviction entry)
 - **Size/Targets**: Not explicitly disclosed

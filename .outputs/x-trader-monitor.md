@@ -1,6 +1,9 @@
-🔍 *Calibration — @swarmister*
+📐 *DCA Plan — @Crypto_Chase*
 
-Event: Tweet reply to @RaizeThatQ
-swarmister: "Baaaaan dis NNNNEEEGAAATROOON"
+$MU: Started bag around 800, room to add lower if necessary
 
-This appears to be dismissive banter/commentary, but I can't determine the financial context without seeing RaizeThatQ's full post. Is this worth tracking, or just noise to skip?
+"Started my $MU Micron bag around 800. Left room to add lower if necessary."
+
+https://x.com/Crypto_Chase/status/2078114525216157709
+
+Want to set up your own DCA on this, or skip?
