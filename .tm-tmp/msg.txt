@@ -1,0 +1,32 @@
+*Token Movers — 2026-07-18*
+
+_Muted, mixed tape — BTC +1.6% but breadth flat (54/100 top-100 green, median top-50 +0.6%); real movement is confined to a few low-caps while trending is led by red names (ADI, ONDO)._
+
+*Top Winners (24h)*
+1. B (BUILDon) — $0.176  +54.4% / 7d +34.9% / 1h +0.9%  •  $22M / #184  [PUMP-RISK][BREAKOUT]
+2. XEC (eCash) — $0.0000101  +27.8% / 7d +94.5% / 1h +7.0%  •  $115M / #170  [BREAKOUT]
+3. ALLO (Allora) — $0.447  +13.0% / 7d +13.0% / 1h −1.0%  •  $33M / #248
+4. VVV (Venice) — $11.57  +12.6% / 7d +10.8% / 1h −0.4%  •  $36M / #98
+5. TRUMP (Official Trump) — $1.68  +9.9% / 7d +4.7% / 1h −0.6%  •  $159M / #116
+
+*Top Losers (24h)*
+1. VELVET (Velvet) — $0.513  −9.8% / 7d +18.2% / 1h +0.3%  •  $8M / #156
+2. ONDO (Ondo) — $0.342  −8.9% / 7d +3.2% / 1h −0.7%  •  $186M / #45  [TRENDING+DOWN]
+3. KAITO (Kaito) — $0.831  −8.6% / 7d +26.7% / 1h +0.6%  •  $42M / #168
+4. AERO (Aerodrome) — $0.455  −7.1% / 7d −14.2% / 1h −1.2%  •  $55M / #109
+5. TRAC (OriginTrail) — $0.260  −6.6% / 7d −1.3% / 1h +0.3%  •  $6M / #233
+
+*Trending*
+1. ADI — #75, $6.58, 24h −5.2%
+2. AKE (Akedo) — #514, $0.0017, 24h +44.1%
+3. PENGU (Pudgy Penguins) — #119, $0.00595, 24h −2.1%
+4. CASHCAT — #396, $0.0566, 24h +10.2%
+5. ONDO — #45, $0.342, 24h −10.5%  [TRENDING+DOWN]
+6. LIT (Lighter) — #99, $2.18, 24h +0.1%
+7. ARB (Arbitrum) — #93, $0.0899, 24h +1.1%
+
+*Notable*
+• B: #184 up +54% on thin $22M vol vs $176M cap — PUMP-RISK, low-float spike, treat with caution.
+• XEC: +28% 24h and +94% 7d on $115M vol (57% of cap) — BREAKOUT, genuine multi-day momentum.
+• ONDO: trending #5 but −9% on heavy $186M vol — TRENDING+DOWN, RWA leader under distribution.
+• AKE: trending #514 up +44% — microcap pump, not a directional signal.
