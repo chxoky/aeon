@@ -1,0 +1,118 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor",
+        "description": "Crypto extraction risk analysis"
+      },
+      "children": [
+        "tweet_card",
+        "sep_1",
+        "links_section",
+        "sep_2",
+        "analysis_section"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "By no coincidences, I mean this:\n\nEvery retail stock rinsed (see below)\n\nLogical next step by them is to extract from the surviving crypto participants"
+      },
+      "children": []
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "links_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "link_research",
+        "link_tweet"
+      ]
+    },
+    "link_research": {
+      "type": "Link",
+      "props": {
+        "label": "Referenced analysis",
+        "href": "https://t.co/gPjTcGWfuw"
+      },
+      "children": []
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View full tweet",
+        "href": "https://x.com/Wild_Randomness/status/2078571089144242592"
+      },
+      "children": []
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis_text",
+        "stats_grid"
+      ]
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Bearish macro thesis on crypto extraction risk. Aligns with HYPE's current weakness (-3.39% 24h, -11.94% 7d).",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "stats_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat_24h",
+        "stat_7d"
+      ]
+    },
+    "stat_24h": {
+      "type": "Stat",
+      "props": {
+        "label": "HYPE 24h",
+        "value": "-3.39%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "stat_7d": {
+      "type": "Stat",
+      "props": {
+        "label": "HYPE 7d",
+        "value": "-11.94%",
+        "trend": "down"
+      },
+      "children": []
+    }
+  }
+}
