@@ -1,0 +1,98 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @Wild_Randomness",
+        "description": "Event: Index technical analysis pattern"
+      },
+      "children": [
+        "tweet_card",
+        "sep1",
+        "context_stack",
+        "sep2",
+        "classification_stack"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "$SPX $NDX Cinema https://t.co/96prkerQYW"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "timestamp",
+        "trader_spec",
+        "recent_posts"
+      ]
+    },
+    "timestamp": {
+      "type": "Text",
+      "props": {
+        "text": "Posted 15:05:46 UTC Jul 18",
+        "variant": "caption"
+      }
+    },
+    "trader_spec": {
+      "type": "Text",
+      "props": {
+        "text": "Wild_Randomness specializes in equities/vol/dispersion trades.",
+        "variant": "body"
+      }
+    },
+    "recent_posts": {
+      "type": "Text",
+      "props": {
+        "text": "Recently posted on mixed-timeframe signals (triple bull div daily / triple bear div weekly on small caps). SPX/NDX on watch list.",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "class_heading",
+        "class_issue"
+      ]
+    },
+    "class_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Classification Issue",
+        "level": "h3"
+      }
+    },
+    "class_issue": {
+      "type": "Alert",
+      "props": {
+        "message": "Unable to classify — what does \"Cinema\" pattern mean? Worth tracking as structural signal?",
+        "type": "warning"
+      }
+    }
+  }
+}

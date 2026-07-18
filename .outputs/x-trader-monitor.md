@@ -1,9 +1,10 @@
-🐦 *[X] @Bitcoin_Astro*
+🔍 *Calibration — @Wild_Randomness*
 
-Bitcoin Cycle Low Targets
-https://t.co/Xvo9cOtQ9z https://t.co/R2CF8IZixh
+Event: Index technical analysis pattern
+@Wild_Randomness: "$SPX $NDX 
 
-[View tweet](https://x.com/Bitcoin_Astro/status/2078494534049144895)
+Cinema https://t.co/96prkerQYW"
 
-Follows 10min earlier ambiguous post on red trend lines — both part of cycle-low TA thesis (key date window 23-30 Sept).
-🐦 @Wild_Randomness - IWM mixed signal: triple bull div daily / triple bear div weekly - view https://x.com/Wild_Randomness/status/2078495412194066672
+Context: Posted 15:05:46 UTC Jul 18. Wild_Randomness specializes in equities/vol/dispersion trades. Recently posted on mixed-timeframe signals (triple bull div daily / triple bear div weekly on small caps). SPX/NDX on watch list.
+
+Unable to classify — what does "Cinema" pattern mean? Worth tracking as structural signal?
