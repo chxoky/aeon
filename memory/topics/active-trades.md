@@ -65,7 +65,7 @@
 - **Trade alert format**: Step 5a/5c hybrid (new entry requiring approval; DCA plan with technical contingency). Fast-path already notified Kyle via Telegram ~13:46-13:48 UTC.
 - **Mirror instructions**: Upon Kyle approval, mirror MU LONG position on Kraken spot (size to be specified by Kyle via `approve MU <size_or_percentage>` reply). Planned total position: 3-4 tranches (1/3 filled at 800; 1/3 pending at key-level deviation setup; 1/3 unspecified).
 - **Alerted**: YES (2026-07-17T13:46:04Z primary event via Telegram; 14:43:49Z follow-up detail logged for memory continuity)
-- **Last update**: 2026-07-17T14:43:49Z (DCA plan follow-up detail, Discord message_id=1527687274634940416, discord-trader-monitor real-time, fast-path-alerted=true)
+- **Last update**: 2026-07-18T00:01:07Z (position update confirmation: "comfortably in MU...from 820...room to add equal sized orders lower", Discord message_id=1527827524824989736, discord-trader-monitor real-time, fast-path-alerted=true)
 
 ### SNDK (Structural) — LONG (PREVIOUS POSITION CLOSED 2026-07-16T19:02:25Z)
 - **Previous entry**: 2026-07-07T13:25:08Z (pullback tactical entry on HTF flush setup, CLOSED JUL 16)
@@ -84,11 +84,12 @@
   - Jul 16 18:43:03Z: Conditional entry bid setup at 1366.97, described as "logical level"
   - Jul 16 22:33:43Z: Offline explanation emphasizing SNDK down 42% ~1 month into 0.5-0.618 Fib support zone = "good area to take a risk on"
 - **Technical context**: Stock currently at 0.5-0.618 Fibonacci retracement level after 42% 1-month decline. Support zones identified: 1350 (base generational bottom), 1300s (crash scenario), ~1000 (capitulation). Entry at 1366 sits slightly above base-case 1350, aligns with thesis on "patience rewarded" and accumulated buying into foundational support structure.
-- **Status**: PENDING APPROVAL — awaiting Kyle response (`approve SNDK` to mirror on Kraken spot), or ignore to skip
-- **Trade alert format**: Step 5a (new entry requiring approval)
+- **Status**: PENDING APPROVAL — awaiting Kyle response (`approve SNDK` to mirror on Kraken spot), or ignore to skip. Scale-in plan confirmed 2026-07-18: "room to add equal sized orders lower" (Discord message_id=1527827524824989736)
+- **Trade alert format**: Step 5a (new entry requiring approval); Step 5c (DCA plan with scale-in contingency)
+- **Scale-in plan**: Confirmed 2026-07-18T00:01:07Z — "room to add equal sized orders lower" (implies multi-tranche accumulation similar to MU strategy; exact contingency levels unspecified but likely tied to technical support zones documented in prior messages)
 - **Mirror instructions**: Upon Kyle approval, mirror $SNDK LONG position on Kraken spot (size to be specified by Kyle via `approve SNDK <size_or_percentage>` reply)
 - **Alerted**: YES (2026-07-16T22:54:55Z, X-trader-monitor real-time event, fast-path-alerted via Telegram)
-- **Last update**: 2026-07-16T22:54:55Z (new entry execution, awaiting approval, X post tweet_id=2077889748111159491, x-trader-monitor real-time, fast-path-alerted=true)
+- **Last update**: 2026-07-18T00:01:07Z (position update confirmation: "comfortably in SNDK...from 1366...room to add equal sized orders lower", Discord message_id=1527827524824989736, discord-trader-monitor real-time, fast-path-alerted=true)
 
 ### MU (Micron Technology) — LONG (NEW ENTRY — DCA PLAN 2026-07-17)
 - **Entry**: 2026-07-17T13:48:06Z (X post, tweet_id=2078114525216157709)
