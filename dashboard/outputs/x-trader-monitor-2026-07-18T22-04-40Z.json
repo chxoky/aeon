@@ -1,0 +1,204 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X-Trader Monitor — BTC Trading Narrative"
+      },
+      "children": [
+        "tweet_stack",
+        "separator_main",
+        "analysis_section"
+      ]
+    },
+    "tweet_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet_card",
+        "tweet_link"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "Publicly shorted $BTC at $123K\n\nFlipped long at $62,600\n\nAggressively accumulated spot below $70K\n\nThis will age like fine wine in the next 2-3 years, and they'll still call it luck.😜"
+      }
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2078600494696615987"
+      }
+    },
+    "separator_main": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis_heading",
+        "narrative_badge",
+        "narrative_text",
+        "thesis_grid",
+        "convergence_stack",
+        "positioning_stack",
+        "sentiment_stack"
+      ]
+    },
+    "analysis_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Analysis",
+        "level": "h3"
+      }
+    },
+    "narrative_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "High-conviction BTC narrative",
+        "variant": "default"
+      }
+    },
+    "narrative_text": {
+      "type": "Text",
+      "props": {
+        "text": "Confirms structural long thesis (2x HTF swing from Jun 13, spot accumulation below 70K).",
+        "variant": "body"
+      }
+    },
+    "thesis_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "stat_short",
+        "stat_long_flip",
+        "stat_spot"
+      ]
+    },
+    "stat_short": {
+      "type": "Stat",
+      "props": {
+        "label": "Short Entry",
+        "value": "$123K"
+      }
+    },
+    "stat_long_flip": {
+      "type": "Stat",
+      "props": {
+        "label": "Long Flip",
+        "value": "$62,600"
+      }
+    },
+    "stat_spot": {
+      "type": "Stat",
+      "props": {
+        "label": "Spot Accumulation",
+        "value": "Below $70K"
+      }
+    },
+    "convergence_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "convergence_label",
+        "convergence_text"
+      ]
+    },
+    "convergence_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Structural Bull Group Convergence",
+        "level": "h4"
+      }
+    },
+    "convergence_text": {
+      "type": "Text",
+      "props": {
+        "text": "t_in_crypto x2 volume @62K, swarmister HTF entry 62.4K",
+        "variant": "body"
+      }
+    },
+    "positioning_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "positioning_label",
+        "positioning_stat",
+        "positioning_text"
+      ]
+    },
+    "positioning_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Recent Activity",
+        "level": "h4"
+      }
+    },
+    "positioning_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Partial Take Profit",
+        "value": "25%",
+        "delta": "@$62.6K / $63.8K today"
+      }
+    },
+    "positioning_text": {
+      "type": "Text",
+      "props": {
+        "text": "Shows tactical discipline on core long position.",
+        "variant": "body"
+      }
+    },
+    "sentiment_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sentiment_label",
+        "sentiment_stat"
+      ]
+    },
+    "sentiment_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Group BTC Lean",
+        "level": "h4"
+      }
+    },
+    "sentiment_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Status",
+        "value": "MIXED",
+        "delta": "HTF bullish, near-term chop watch"
+      }
+    }
+  }
+}
