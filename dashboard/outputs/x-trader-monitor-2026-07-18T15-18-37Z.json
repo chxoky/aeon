@@ -1,0 +1,114 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration task"
+      },
+      "children": [
+        "heading_calibration",
+        "text_event",
+        "separator_1",
+        "tweetcard_signal",
+        "separator_2",
+        "alert_status",
+        "heading_questions",
+        "stack_questions",
+        "link_original"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h2"
+      }
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @quantian1 on whale accumulation",
+        "variant": "body"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweetcard_signal": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "@quantian1 Whales accumulating"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_status": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read on this signal?",
+        "type": "warning"
+      }
+    },
+    "heading_questions": {
+      "type": "Heading",
+      "props": {
+        "text": "Clarification needed",
+        "level": "h3"
+      }
+    },
+    "stack_questions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "question_1",
+        "question_2",
+        "question_3"
+      ]
+    },
+    "question_1": {
+      "type": "Text",
+      "props": {
+        "text": "Is this macro sentiment (informational only)?",
+        "variant": "body"
+      }
+    },
+    "question_2": {
+      "type": "Text",
+      "props": {
+        "text": "Which asset(s) implied (BTC/ETH/other)?",
+        "variant": "body"
+      }
+    },
+    "question_3": {
+      "type": "Text",
+      "props": {
+        "text": "Conviction change vs documented thesis?",
+        "variant": "body"
+      }
+    },
+    "link_original": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View original tweet",
+        "href": "https://x.com/Wild_Randomness/status/2078498272990167277",
+        "source": "X"
+      }
+    }
+  }
+}
