@@ -1,0 +1,123 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading-main",
+        "separator-1",
+        "event-type",
+        "quote-box",
+        "separator-2",
+        "status-section",
+        "questions-section"
+      ]
+    },
+    "heading-main": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @bull_genius",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "event-type": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Cryptic post with no clear financial context",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "quote-box": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "realest shit ive read in a minute"
+      },
+      "children": []
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "status-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "status-label",
+        "status-badge"
+      ]
+    },
+    "status-label": {
+      "type": "Text",
+      "props": {
+        "text": "Classification Status:",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "status-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Unable to classify",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "questions-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "question-intro",
+        "q1",
+        "q2"
+      ]
+    },
+    "question-intro": {
+      "type": "Text",
+      "props": {
+        "text": "Seeking clarification:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "q1": {
+      "type": "Text",
+      "props": {
+        "text": "Is this referring to a market analysis/post you saw, or something else entirely?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "q2": {
+      "type": "Text",
+      "props": {
+        "text": "Any market implications?",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
