@@ -33,6 +33,7 @@
 - **$LPTH**: Crypto_Chase — tiny neglected residual long.
 - **hyperliquid (spot)**: Crypto_Chase — bidding "the box" toward a $100 target.
 - **MSTR / STRC**: HeartCanHodl — bearish macro (reflexive-loop fragility with BTC), no stated position.
+- **$IWM** (Russell 2000 ETF): Wild_Randomness (Jul 18 15:01:37 UTC) — technical analysis on mixed timeframe signals (triple bull div daily / triple bear div weekly). Small-cap indices barometer, tracking for cross-trader convergence. Wild_Randomness is equities/vol specialist; first mention of $IWM specifically. 
 - **$ANSEM**: Wild_Randomness — bearish/cautionary fractal prediction (expects -0.13 by end of Aug), 2 chart images. First mention Jul 15 23:37 UTC. Wild_Randomness is equities/vol specialist, not crypto trader; crypto tickers mentioned rarely, pattern worth monitoring for cross-trader convergence.
 - **$CBRS**: Wild_Randomness — mentioned alongside $ANSEM (Jul 15 23:37 UTC), no detailed analysis provided. Single mention, context unclear, tracking for momentum.
 - **ELHFI**: ryzzqq — taking profit at "decent spot" (Jul 16 02:33), major-pairs weakness exit context. Quiet ticker, single-mention tracking, awaiting cross-trader momentum.
