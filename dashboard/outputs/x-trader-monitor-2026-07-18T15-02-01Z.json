@@ -1,0 +1,86 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-card",
+        "separator1",
+        "links-section",
+        "separator2",
+        "context-text"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Bitcoin_Astro",
+        "handle": "@Bitcoin_Astro",
+        "text": "Bitcoin Cycle Low Targets"
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "links-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "url1",
+        "url2",
+        "view-tweet-link"
+      ]
+    },
+    "url1": {
+      "type": "Link",
+      "props": {
+        "label": "https://t.co/Xvo9cOtQ9z",
+        "href": "https://t.co/Xvo9cOtQ9z"
+      },
+      "children": []
+    },
+    "url2": {
+      "type": "Link",
+      "props": {
+        "label": "https://t.co/R2CF8IZixh",
+        "href": "https://t.co/R2CF8IZixh"
+      },
+      "children": []
+    },
+    "view-tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Bitcoin_Astro/status/2078494534049144895"
+      },
+      "children": []
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "context-text": {
+      "type": "Text",
+      "props": {
+        "text": "Follows 10min earlier ambiguous post on red trend lines — both part of cycle-low TA thesis (key date window 23-30 Sept).",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
