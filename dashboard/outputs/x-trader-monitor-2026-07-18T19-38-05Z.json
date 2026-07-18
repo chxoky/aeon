@@ -1,0 +1,56 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading-1",
+        "text-event",
+        "tweet-1",
+        "alert-classify",
+        "link-view"
+      ]
+    },
+    "heading-1": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration — @t_in_crypto",
+        "level": "h3"
+      }
+    },
+    "text-event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @bnshiv23 and @DrProfitCrypto discussion (context unknown from X context alone)",
+        "variant": "body"
+      }
+    },
+    "tweet-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "handle": "@t_in_crypto",
+        "text": "YES!"
+      }
+    },
+    "alert-classify": {
+      "type": "Alert",
+      "props": {
+        "message": "Unable to classify — what's your read?",
+        "type": "info"
+      }
+    },
+    "link-view": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View post",
+        "href": "https://x.com/t_in_crypto/status/2078564006109798459",
+        "source": "X"
+      }
+    }
+  }
+}
