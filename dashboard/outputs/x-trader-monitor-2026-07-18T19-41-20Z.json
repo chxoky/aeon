@@ -1,0 +1,51 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "btc_subject",
+        "tweet_card",
+        "view_link",
+        "analysis_note"
+      ]
+    },
+    "btc_subject": {
+      "type": "Badge",
+      "props": {
+        "text": "BTC",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "We're seeing liquidity stack up again around the recent highs at 65.9–66.3K.\n\nBTC has been incredibly choppy, so I wouldn't rule out another sweep if we can hold above the weekly open."
+      },
+      "children": []
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2078563810563002808"
+      },
+      "children": []
+    },
+    "analysis_note": {
+      "type": "Text",
+      "props": {
+        "text": "↳ Technical support/resistance commentary aligning with KillaXBT's active BTC long (target 66.3K).",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
