@@ -1,7 +1,10 @@
 🔍 *Calibration — @t_in_crypto*
 
-Event: t_in_crypto quoting CT's market sentiment comment about the weekend. t_in_crypto currently holds a 2x leveraged BTC long from 62K (added 07-14 conviction add).
+Event: Reply in ongoing conversation with @zohaan1324
+t_in_crypto: "@zohaan1324 Exactly"
 
-t_in_crypto: "CT said yesterday "It's going to be a boring weekend"
+Context: t_in_crypto holds 100% BTC LONG @58.4K with +x2 volume conviction add @62K (Jul 14). Has been posting throughout Jul 18 (latest: cycle analysis, technical targets, bullish sentiment).
 
-Unable to classify — is this a concern flag about consolidation/flat weekend, or just sharing CT's neutral sentiment? What's your read?
+Unable to classify — is this agreeing with a trade idea, technical analysis, market view, or just social banter? What's your read?
+
+[View post](https://x.com/t_in_crypto/status/2078581331634655242)
