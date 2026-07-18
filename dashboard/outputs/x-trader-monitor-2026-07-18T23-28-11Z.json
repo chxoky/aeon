@@ -1,0 +1,55 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @t_in_crypto"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context-text",
+        "message-value",
+        "separator-1",
+        "question-text"
+      ]
+    },
+    "context-text": {
+      "type": "Text",
+      "props": {
+        "text": "Context: Reply to @zohaan1324 @LP_NXT",
+        "variant": "body"
+      }
+    },
+    "message-value": {
+      "type": "Stat",
+      "props": {
+        "label": "Message",
+        "value": "48"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "question-text": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read? (Price target? Position size? Unrelated chatter?)",
+        "variant": "body"
+      }
+    }
+  }
+}
