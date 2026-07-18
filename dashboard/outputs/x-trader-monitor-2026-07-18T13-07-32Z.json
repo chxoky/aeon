@@ -1,0 +1,65 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "header-row",
+        "separator-1",
+        "details-text"
+      ]
+    },
+    "header-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-success",
+        "timestamp-text"
+      ]
+    },
+    "badge-success": {
+      "type": "Badge",
+      "props": {
+        "text": "success",
+        "variant": "default"
+      }
+    },
+    "timestamp-text": {
+      "type": "Text",
+      "props": {
+        "text": "13:04:24 UTC",
+        "variant": "caption"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "details-text": {
+      "type": "Text",
+      "props": {
+        "text": "swarmister — fitness banter, silent skip, no alert needed",
+        "variant": "body"
+      }
+    }
+  }
+}
