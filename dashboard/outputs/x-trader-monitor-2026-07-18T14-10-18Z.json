@@ -1,0 +1,73 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-calib",
+        "text-event",
+        "storylink-post",
+        "text-desc",
+        "alert-status",
+        "text-question"
+      ]
+    },
+    "heading-calib": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h2"
+      }
+    },
+    "text-event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Chart images posted with shortened link, no caption",
+        "variant": "lead"
+      }
+    },
+    "storylink-post": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Post by @Wild_Randomness",
+        "href": "https://x.com/Wild_Randomness/status/2078481706752069744",
+        "source": "X (Twitter)"
+      }
+    },
+    "text-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Wild_Randomness just posted 4 images with only a URL shortener, no text context. Given their pattern (chart-driven vol analysis, NVDA tracking), likely a technical setup or market observation—but can't determine classification without seeing image content."
+      }
+    },
+    "alert-status": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Cannot determine classification without seeing image content",
+        "type": "info"
+      }
+    },
+    "text-question": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "lead"
+      }
+    }
+  }
+}
