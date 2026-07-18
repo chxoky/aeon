@@ -19,3 +19,11 @@ Wow.
 Unable to determine: Is this observational (reviewing positions), or indicating new trade action (add/close/adjust)?
 
 How would you read this?
+🔍 *Calibration — @Stoiiic*
+
+Event: Cryptic technical post referencing VWAP framework
+
+Stoiiic: "bitcoin:native 
+avwap framework https://t.co/qixhOrnDP0"
+
+Unable to classify — what's your read? Is this a technical/educational link, a market framework observation, or a setup signal?
