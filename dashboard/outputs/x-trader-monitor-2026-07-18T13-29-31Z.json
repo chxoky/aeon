@@ -1,0 +1,52 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "content-stack"
+      ]
+    },
+    "content-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "view-link",
+        "analysis-text"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "$BTC has already established its major cycle low.\n\nThe move from 97K to 59K was the final major correction.\n\n59K is the base low. Could we wick below it? Yes. However, any move below is likely manipulation.\n\nWe're in the timebased capitulation phase."
+      },
+      "children": []
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2078470703494353173"
+      },
+      "children": []
+    },
+    "analysis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Aligns with group's HTF-bullish structural bias (capitulation = bottom formation).",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
