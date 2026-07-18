@@ -1,68 +1,67 @@
 # Market Context (as of 2026-07-18)
 
-> **Take:** relief bounce — BTC +1.95% to $63.9K with breadth flipping 3→15/20 green 24h, but F&G *fell* to 25 (Extreme Fear) and DEX vol is flat at $6.6B — a rebound with no conviction behind it. Conviction: low.
+> **Take:** chop — BTC holding +1.46% 24h at $64.1K but fading from the morning's +1.95%, DEX vol flat at $6.6B, F&G stuck at 25 Extreme Fear for a second consecutive day. Conviction: low.
 
 ## Signal Snapshot
-- BTC $63,928 (+1.95% 24h, −0.29% 7d) · dominance 56.42% (+0.14 pp 24h)
-- ETH $1,843 (+1.05% 24h, +2.50% 7d) · ETH/BTC 0.02883
-- SOL $74.84 (+0.40% 24h, −3.98% 7d)
-- Total mcap $2.27T (+1.11% 24h) · DEX vol $6.63B 24h
-- Breadth: 15/20 green 24h · 7/20 green 7d · 68/100 top-100 green, median top-50 +0.64%
+- BTC $64,062 (+1.46% 24h, −0.19% 7d) · dominance 56.48% (+0.06 pp 24h)
+- ETH $1,840 (+0.94% 24h, +2.17% 7d) · ETH/BTC 0.02872
+- SOL $74.67 (+0.80% 24h, −4.46% 7d)
+- Total mcap $2.27T (+1.00% 24h) · DEX vol $6.64B 24h
+- Breadth: 18/20 green 24h · 9/20 green 7d
 - Fear & Greed: 25 (Extreme Fear) — yesterday 27 (Fear)
 
 ## What Changed Since Last Refresh
-- **Regime flip risk-off → relief bounce:** BTC +1.95% to $63.9K reverses yesterday's −2.0%; breadth snapped 3/20 → 15/20 green 24h. The one-session washout absorbed.
-- **HYPE selling halted: −8.3% → −0.08%** ($59.25). Yesterday's accelerating downside leader flattened; still −10.8% 7d, so structural damage stands, but the velocity break is the notable delta.
-- **Sentiment lags price: F&G 27 → 25**, ticking *into* Extreme Fear even as spot bounced — positioning stays fearful, no chase. Classic relief-rally setup, not capitulation-to-euphoria.
-- **ONDO reclaimed green: +0.92% 24h / +12.1% 7d**, back in trending — the RWA momentum that reversed yesterday found a bid rather than dying.
-- **No volume expansion: DEX vol $6.51B → $6.63B (+2%)** — the bounce is short-covering / thin buying, not fresh conviction inflow.
+- **Regime: relief bounce → chop.** BTC's morning bounce is fading intra-day (+1.95% → +1.46%) with no volume follow-through; without F&G confirmation the move cannot be called relief — it's just drift.
+- **HYPE resumed decline: −0.08% → −3.39% 24h** (−11.94% 7d). Yesterday's apparent velocity break was a head-fake; structural downtrend is accelerating.
+- **ONDO reversed: +0.92% → −7.66% 24h.** The RWA recovery flagged in the prior snapshot failed to hold — back in sell mode after a single green candle.
+- **Breadth improved: 15/20 → 18/20 green 24h.** Broader participation, but only 9/20 green on the 7d — intra-day rotation, not a trend reversal.
 
 ## Active Narratives
-- **AI-agent tokens** — phase: rising. Evidence: VVV (Venice) +15.8% 24h — top winner of the tape; VIRTUAL trending #114. Sector caught the sharpest bid on the bounce.
-- **eCash / BTC-fork momentum** — phase: rising. Evidence: XEC +12.9% 24h AND +65.1% 7d, #2 winner — a sustained multi-session move, not a single-day pump.
-- **RWA / tokenized yield** — phase: rising (was peak→fading). Evidence: ONDO +0.92% / +12.1% 7d, reclaimed trending after yesterday's reversal — the narrative refused to roll over.
-- **Privacy micro-cap rotation** — phase: fading. Evidence: yesterday's trending #1 ZANO and OXT (+240% one-day pump) have dropped off the trending board entirely — a one-session rotation with no follow-through.
+- **Privacy coins (large cap)** — phase: rising. Evidence: ZEC +8.49% 7d (top-20 mcap, $9.1B), XMR +3.03% 7d — both outperforming the weekly tape while 11/20 top-cap coins are red 7d.
+- **L1 blue chips (ADA / LINK)** — phase: rising. Evidence: ADA +3.15% 24h, LINK +2.04% 24h — both trending on CoinGecko; LINK +2.98% 7d, confirming multi-day bid.
+- **AI-agent tokens** — phase: fading. Evidence: AERO −6.04% 24h (Base DeFi/AI adjacent, trending down), VIRTUAL flat — yesterday's VVV +15.8% impulse had zero follow-through.
+- **RWA / tokenized yield** — phase: fading. Evidence: ONDO −7.66% 24h reversing yesterday's +0.92%; failed to hold recovery bid, now re-establishing downtrend.
 
 ## Top DeFi Protocols (TVL, 7d change)
-- Lido: $16.94B (+2.77%)
-- Aave V3: $13.60B (+2.95%)
+- Lido: $16.91B (+2.58%)
+- Aave V3: $13.60B (+3.00%)
 - SSV Network: $8.95B (+2.23%)
 - Morpho Blue: $7.34B (+2.35%)
 - WBTC: $7.29B (−0.40%)
 
-## Chain Flow (top 3 by TVL)
-- Ethereum: $40.67B
-- BSC: $4.90B
-- Solana: $4.82B
+## Chain Flow (top 3 by TVL, 7d)
+- Ethereum: $40.74B (7d n/a)
+- BSC: $4.92B (7d n/a)
+- Solana: $4.83B (7d n/a)
 
 ## Stablecoins
-Total: ~$308.7B. USDT $184.1B · USDC $73.4B · USDS $6.6B · DAI $4.9B — USDT holds ~60% of stablecoin supply; combined pool ~13.6% of total crypto mcap. Supply flat/slightly up — no dry-powder drain.
+Total: ~$309B (flat). USDT $184.1B · USDC $73.4B · USDS $6.7B · DAI $4.9B — combined top-4 ~$269B; ~13.6% of total crypto mcap. Supply flat — no dry-powder drain or expansion.
 
 ## Trending (CoinGecko)
-- ADI (ADI) — #75, $6.53, −7.3% 24h. Trending on the way *down* (also a top-10 loser) — bearish attention, not accumulation.
-- Toshi (TOSHI) — #425, $0.00012, +12.3% 24h. Base-chain meme; micro-cap spike.
-- SOL / ETH — #7 / #2, +0.4% / +0.8%. Majors back on the trending board as the bounce draws eyes.
-- Virtuals Protocol (VIRTUAL) — #114, +0.7% 24h. AI-agent infra; trending alongside VVV's move.
-- Ondo (ONDO) — #44, +0.5% 24h. RWA leader reclaiming attention after yesterday's dip.
+- BTC — #1, $64,000, +1.92% 24h. Flagship reclaiming trending.
+- ADA — #20, $0.164, +3.82% 24h. Largest gainer among trending top-20 mcap names.
+- LINK — #19, $8.26, +2.68% 24h. Blue-chip oracle catching the bid.
+- ONDO — #47, $0.34, −7.66% 24h. Trending on the way down — bearish attention after failed recovery.
+- AERO — #110, $0.45, −6.04% 24h. Base-chain DEX, trending down.
+- ADI — #75, $6.55, −3.57% 24h. Second session trending in a decline — no position signal.
 
 ## Prediction Markets (Polymarket, top by 24h vol)
 | Market | YES% | 24h Vol | Liquidity |
 |--------|------|---------|-----------|
-| Argentina to win 2026 FIFA World Cup | 40% | $2.8M | $8.3M |
-| Will France win on 2026-07-18? | 52% | $1.7M | $3.7M |
-| France vs England: team to win | 67% | $1.4M | $2.0M |
+| Argentina to win 2026 FIFA World Cup | 40% | $2.7M | $7.4M |
+| France vs England: team to win | 67% | $2.0M | $1.8M |
+| Will France win on 2026-07-18? | 52% | $1.8M | $3.8M |
 
-*Top-10 by 24h vol entirely 2026 FIFA World Cup (final-stage matches today). Zero crypto/macro markets in top flow — prediction-market attention is fully off crypto.*
+*Top-10 by 24h vol entirely 2026 FIFA World Cup final stage. Zero crypto/macro markets in top flow — prediction-market attention fully off crypto.*
 
 ## Macro Catalysts (next 48h)
-- **Fed FOMC Jul 28–29:** Buyers are expected to defend lows but struggle to push higher *before* the meeting — rate-path uncertainty caps upside near-term. Positioning: fade rips into $64.5–65K until the meeting clears.
-- **BTC ETF flows:** Reversed to inflows in early July ($221M single day snapped a 10-day, $2.73B outflow streak; ~$191M over two days), but 2026 YTD is still ~120K BTC net *outflow*. Flow direction is the swing factor for any move above $65K.
-- **Resistance $64.5–65K:** A decisive weekly close above opens $67K; rejection here keeps the low-60Ks range intact.
-- **Oil / Middle East tension:** Rising oil + lingering geopolitical risk keep a lid on risk-asset upside.
+- **FOMC Jul 28–29 (hawkish repricing):** Strong retail sales + industrial production data prompted BofA call for three consecutive H2 2026 rate hikes. If confirmed at the meeting, $64–65K becomes a hard ceiling; fade rips toward that zone until cleared.
+- **BTC ETF flows (Jul 16 latest):** $79M inflow — IBIT $33M, FBTC $31M, BITB $15M. Positive streak intact but modest; not strong enough to break resistance on its own.
+- **CLARITY Act / stablecoin KYC:** Five US regulators proposed bank-grade KYC under the GENIUS Act; CLARITY Act passage at 48% on Polymarket. Regulatory overhang for USDC/USDT-reliant DeFi protocols.
 
 ## Implications for Downstream Skills
-- **token-pick:** Relief bounce with flat volume and falling sentiment = not a green light. Relative strength is in AI-agent (VVV/VIRTUAL) and XEC — favor those over broad beta if entering at all. No conviction chase until BTC reclaims $64.5–65K on volume.
-- **narrative-tracker:** Promote AI-agent tokens emerging→rising (VVV +15.8%, VIRTUAL trending). Watch XEC for a 3rd green day (breakout-confirm vs exhaustion). Mark privacy rotation fading (ZANO/OXT off trending). RWA/ONDO back to rising — track for follow-through.
+- **token-pick:** Chop + extreme fear = no green light for fresh longs. Relative strength in privacy (ZEC, XMR) and L1 blue chips (ADA, LINK). Avoid HYPE (accelerating decline), RWA (ONDO breaking down), and AI-agent names (no follow-through).
+- **narrative-tracker:** Promote privacy coins to rising (ZEC +8.49% 7d, XMR multi-day bid). Demote RWA and AI-agent to fading. Watch ADA/LINK for a 2nd consecutive green day to confirm L1 rotation vs one-day blip.
 
 ## Token Picks Made
 | Date | Token | Price | Thesis |
