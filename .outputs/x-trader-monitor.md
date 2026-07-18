@@ -1,18 +1,7 @@
-🐦 *[X] @Wild_Randomness*
-
-By no coincidences, I mean this:
-
-Every retail stock rinsed (see below)
-
-Logical next step by them is to extract from the surviving crypto participants https://t.co/gPjTcGWfuw
-
-[View tweet](https://x.com/Wild_Randomness/status/2078571089144242592)
-
-↳ _Bearish macro thesis on crypto extraction risk. Aligns with HYPE's current weakness (-3.39% 24h, -11.94% 7d)._
 🔍 *Calibration — @Wild_Randomness*
 
-Event: Image-only post (question mark + image link, can't fetch content)
+Context: Likely response to recent intraday move — Wild_Randomness has been trading NVDA (puts + equity positions at 213/211), VIX calls (Dec 2031), and general vol/equities focus
 
-@Wild_Randomness: "? https://t.co/Di9WCeZKPO"
+Post: "But it did go -40% off that victory lap first"
 
-Unable to classify — image unavailable, what's your read? (Financial signal, meme, market chart, other?)
+Unable to classify — what's your read? (What asset/position is the -40% drawdown on? What was the 'victory lap'?)

@@ -1,0 +1,95 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @Wild_Randomness"
+      },
+      "children": [
+        "context-section",
+        "sep1",
+        "post-section",
+        "sep2",
+        "analysis-section"
+      ]
+    },
+    "context-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context-heading",
+        "context-text"
+      ]
+    },
+    "context-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "context-text": {
+      "type": "Text",
+      "props": {
+        "text": "Likely response to recent intraday move — Wild_Randomness has been trading NVDA (puts + equity positions at 213/211), VIX calls (Dec 2031), and general vol/equities focus"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "post-section": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "But it did go -40% off that victory lap first"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis-title",
+        "unable-classify-alert",
+        "analysis-questions"
+      ]
+    },
+    "analysis-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Analysis",
+        "level": "h3"
+      }
+    },
+    "unable-classify-alert": {
+      "type": "Alert",
+      "props": {
+        "message": "Unable to classify",
+        "type": "info"
+      }
+    },
+    "analysis-questions": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read? (What asset/position is the -40% drawdown on? What was the 'victory lap'?)"
+      }
+    }
+  }
+}
