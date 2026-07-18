@@ -32,6 +32,8 @@ tmp_*
 .*-tmp.md
 .*-draft.md
 .*-msg.txt
+.*-msg.md
+.send-*.sh
 *_msg.txt
 *_raw.txt
 
