@@ -1,0 +1,55 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @Wild_Randomness",
+        "description": "Board member victory lapping stock at earnings release"
+      },
+      "children": [
+        "event_label",
+        "tweet_card",
+        "separator_main",
+        "classification_question",
+        "link_view"
+      ]
+    },
+    "event_label": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Board member 'victory lapping' stock at earnings release",
+        "variant": "lead"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "{ yes lol\n\nboard member victory lapping stock price on earnings release at the pico top ($70)\n\ndisgrace to capitalism"
+      }
+    },
+    "separator_main": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification_question": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?\n(Is this bearish on a specific ticker? General market commentary? Which stock $70?)",
+        "variant": "body"
+      }
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2078544018963931587"
+      }
+    }
+  }
+}

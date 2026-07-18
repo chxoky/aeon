@@ -1,10 +1,10 @@
 🔍 *Calibration — @Wild_Randomness*
 
-Event: Macro sentiment post with external link
+Event: Board member 'victory lapping' stock at earnings release
 
-Wild_Randomness: "Amusing watching Tradfi figure out what CT has known for a long time https://t.co/Hxy2Lndjh1"
+@Wild_Randomness: "{ yes lol
 
-Unable to classify — what's your read?
+board member victory lapping stock price on earnings release at the pico top ($70)
 
 **Pattern note:** 5th ambiguous/URL-only post in 60 minutes. Is this systematic chart-sharing behavior, or should I adjust alert thresholds?
 Event: Price action commentary on new ticker
@@ -17,3 +17,8 @@ Unable to classify — appears to be price action observation rather than person
 - Setup worth watching?
 
 [View tweet](https://x.com/Wild_Randomness/status/2078543743700148494)
+disgrace to capitalism"
+
+Unable to classify — what's your read? (Is this bearish on a specific ticker? General market commentary? Which stock $70?)
+
+[View tweet](https://x.com/Wild_Randomness/status/2078544018963931587)
