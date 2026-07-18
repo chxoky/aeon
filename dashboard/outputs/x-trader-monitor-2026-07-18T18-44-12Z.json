@@ -1,0 +1,64 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge-platform",
+        "tweet-trading-axe",
+        "link-tweet",
+        "separator-1",
+        "text-sentiment"
+      ]
+    },
+    "badge-platform": {
+      "type": "Badge",
+      "props": {
+        "text": "X",
+        "variant": "default"
+      }
+    },
+    "tweet-trading-axe": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Dr. Axius",
+        "handle": "trading_axe",
+        "text": "@retardmode You don't believe he bought SOL at $1 and sold at ATH?\n\nWow.\n\n~ Dr. Axius."
+      }
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/trading_axe/status/2078549824765346155"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-sentiment": {
+      "type": "Text",
+      "props": {
+        "text": "This reinforces broader bearish SOL sentiment from HeartCanHodl, KillaXBT, Crypto_Chase this week.",
+        "variant": "muted"
+      }
+    }
+  }
+}
