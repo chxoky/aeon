@@ -1,0 +1,134 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration event: URL-only post classification"
+      },
+      "children": [
+        "heading",
+        "sep1",
+        "event_type",
+        "post_stack",
+        "sep2",
+        "question_section",
+        "sep3",
+        "context_section"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "event_type": {
+      "type": "Text",
+      "props": {
+        "text": "Event: URL-only post (shortened link)",
+        "variant": "lead"
+      }
+    },
+    "post_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet_card",
+        "timestamp_info"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "https://t.co/8GwDGvz5kq"
+      }
+    },
+    "timestamp_info": {
+      "type": "Text",
+      "props": {
+        "text": "2026-07-18 16:07:41 UTC",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "question_section": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read?",
+        "type": "info"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_heading",
+        "context_items"
+      ]
+    },
+    "context_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "context_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ctx1",
+        "ctx2",
+        "ctx3"
+      ]
+    },
+    "ctx1": {
+      "type": "Text",
+      "props": {
+        "text": "Follows pattern of URL-minimal-caption posts (Jul 14)",
+        "variant": "body"
+      }
+    },
+    "ctx2": {
+      "type": "Text",
+      "props": {
+        "text": "Wild_Randomness is equities/vol specialist",
+        "variant": "body"
+      }
+    },
+    "ctx3": {
+      "type": "Text",
+      "props": {
+        "text": "Need calibration on whether these URL posts are trade-actionable signals or shared research",
+        "variant": "body"
+      }
+    }
+  }
+}
