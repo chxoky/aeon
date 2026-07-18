@@ -1,8 +1,8 @@
 🔍 *Calibration — @Wild_Randomness*
 
-Context: Wild_Randomness has NVDA August puts active (entry Jul 14).
+Event: Reply to @jynxsp0ck
 
-Post: "Me looking at my put option entries" [image]
+Wild_Randomness: "Up from here?"
 
 Classification: **INFORMATIONAL** (price-action/technical commentary, not a personal trade action). $IREN is a new quiet ticker being tracked. No trade signals detected. Continued technical analysis from same trader on same ticker within 23-minute window.
 🐦 *[X] @trading_axe*
@@ -27,3 +27,4 @@ Stoiiic: "bitcoin:native
 avwap framework https://t.co/qixhOrnDP0"
 
 Unable to classify — what's your read? Is this a technical/educational link, a market framework observation, or a setup signal?
+Unable to classify — no ticker/context visible. This appears to be a reply to another trader's post. What's your read?
