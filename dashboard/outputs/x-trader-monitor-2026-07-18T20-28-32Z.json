@@ -1,0 +1,111 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "🔍 Calibration — @t_in_crypto"
+      },
+      "children": [
+        "event-section",
+        "position-stack",
+        "interpretation-section"
+      ]
+    },
+    "event-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event-heading",
+        "event-text"
+      ]
+    },
+    "event-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h4"
+      }
+    },
+    "event-text": {
+      "type": "Text",
+      "props": {
+        "text": "t_in_crypto quoting CT's market sentiment comment about the weekend. t_in_crypto currently holds a 2x leveraged BTC long from 62K (added 07-14 conviction add).",
+        "variant": "body"
+      }
+    },
+    "position-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "leverage-stat",
+        "entry-stat",
+        "date-stat",
+        "conviction-badge"
+      ]
+    },
+    "leverage-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Position",
+        "value": "2x BTC Long"
+      }
+    },
+    "entry-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Entry",
+        "value": "62K"
+      }
+    },
+    "date-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Added",
+        "value": "07-14"
+      }
+    },
+    "conviction-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Conviction Add",
+        "variant": "secondary"
+      }
+    },
+    "interpretation-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ct-quote",
+        "question-alert"
+      ]
+    },
+    "ct-quote": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "handle": "t_in_crypto",
+        "text": "CT said yesterday \"It's going to be a boring weekend\""
+      }
+    },
+    "question-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Interpretation",
+        "message": "Unable to classify — is this a concern flag about consolidation/flat weekend, or just sharing CT's neutral sentiment? What's your read?",
+        "type": "info"
+      }
+    }
+  }
+}

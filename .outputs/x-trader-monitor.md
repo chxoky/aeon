@@ -1,7 +1,7 @@
-🔍 *Calibration — @Wild_Randomness*
+🔍 *Calibration — @t_in_crypto*
 
-Context: Likely response to recent intraday move — Wild_Randomness has been trading NVDA (puts + equity positions at 213/211), VIX calls (Dec 2031), and general vol/equities focus
+Event: t_in_crypto quoting CT's market sentiment comment about the weekend. t_in_crypto currently holds a 2x leveraged BTC long from 62K (added 07-14 conviction add).
 
-Post: "But it did go -40% off that victory lap first"
+t_in_crypto: "CT said yesterday "It's going to be a boring weekend"
 
-Unable to classify — what's your read? (What asset/position is the -40% drawdown on? What was the 'victory lap'?)
+Unable to classify — is this a concern flag about consolidation/flat weekend, or just sharing CT's neutral sentiment? What's your read?
