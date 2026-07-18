@@ -1,8 +1,8 @@
-🐦 *[X] @Wild_Randomness*
+🔍 *Calibration — @Wild_Randomness*
 
-If the market would be so kind I would cover 1-3% above previous ATHs on all indices. That getting ahead of myself, but that's the target.
+Event: Reply to @StewArtVandelay about a bear market coin
 
-[View tweet](https://x.com/Wild_Randomness/status/2078499833854214191)
+"I'm flat on it
 
 ↳ _Wild_Randomness setting short-cover target on indices; macro outlook remains cautious into resistance levels (aligns with spot
 Context: Reply to @KaneCapz discussing data analysis
@@ -14,3 +14,8 @@ Which is why I am."
 Unable to classify — what's your read?
 
 [View post](https://x.com/Wild_Randomness/status/2078500261622866288)
+Generally I'm pessimistic on coins and don't know if it's worth my time
+
+It is a bear market coin so I wouldn't be surprised if strength continues"
+
+Unable to classify — which coin are they referring to? Is this sentiment (skip), or tracking this ticker going forward?

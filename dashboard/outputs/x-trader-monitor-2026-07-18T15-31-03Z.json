@@ -1,0 +1,67 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading_cal",
+        "sep1",
+        "text_event",
+        "tweet_reply",
+        "sep2",
+        "alert_classify"
+      ]
+    },
+    "heading_cal": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @StewArtVandelay about a bear market coin",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "tweet_reply": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Respondent",
+        "text": "I'm flat on it\n\nGenerally I'm pessimistic on coins and don't know if it's worth my time\n\nIt is a bear market coin so I wouldn't be surprised if strength continues"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert_classify": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Which coin are they referring to? Is this sentiment (skip), or tracking this ticker going forward?",
+        "type": "warning"
+      },
+      "children": []
+    }
+  }
+}
