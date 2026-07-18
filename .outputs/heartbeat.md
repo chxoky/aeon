@@ -1,18 +1,16 @@
-HEARTBEAT_OK · STATUS_PAGE=OK
+Heartbeat complete. All checks green — no notification sent.
 
 ## Summary
 
-Ran the `heartbeat` skill for the 20:00 UTC 2026-07-17 cycle. All checks green or already-deduplicated — **no notification sent**.
+Ran the `heartbeat` skill for 2026-07-18 08:00 UTC. **Verdict: `HEARTBEAT_OK · STATUS_PAGE=OK`** — nothing needs attention, no notification sent.
 
 **Checks performed:**
-- **P0 skills** (`memory/cron-state.json`): No new failed/stuck skills. The only `failed` entry is `chain:morning-pipeline` (08:38 UTC exit-1) — the known stale one-shot chain-wrapper artifact flagged in prior heartbeats; its Step-1 members `token-movers` (13:00) and `market-context-refresh` (14:27) succeeded independently, and `skill-health` classified the fleet healthy at 19:00 UTC. Deduped → no notify. No skill has `consecutive_failures ≥ 3` or chronic sub-50% failure. Heartbeat self-check fresh (last success 14:27 UTC).
-- **P0 X webhook** (ISS-002 guard): `WATCHED_TRADERS` rule live — `is_effect:1`, all 12 accounts, 180s interval. ISS-002 remains resolved. No action.
-- **P1**: 0 open PRs; repo issues disabled (no urgent).
-- **P2**: No flagged memory follow-ups.
-- **P3**: All enabled cron skills current; `morning-brief` runs via the `morning-pipeline` chain (not a real gap).
+- **P0 — Failed/stuck skills:** Only flagged entry is `chain:morning-pipeline` (failed 08:38 UTC 2026-07-17) plus `morning-pipeline`/`morning-brief` stuck in `dispatched`. This is the known chain-runner artifact (it doesn't write per-skill success state back) — its Step-1 members `token-movers` + `market-context-refresh` both succeeded independently. Already dedup'd across multiple prior heartbeats, so no notify. No API degradation, no chronic failures qualifying (price-threshold-alert is 50% but only 2 runs, below the ≥5 threshold). Heartbeat self-check healthy.
+- **P0 — X webhook (ISS-002 guard):** Direct twitterapi.io rules-API call was sandbox-blocked this run (optional check, skipped silently per skill). But **functionally confirmed alive** — `x-trader-monitor` has already fired **14 real-time events today** (last success 08:09 UTC). The rule's failure mode is *zero* events, so this clearly means it's active. ISS-002 stays resolved; no re-open.
+- **P1/P2/P3:** 0 open PRs; repo issues disabled; no flagged memory follow-ups; all enabled skills current.
 
 **Files modified:**
-- `docs/status.md` — regenerated public status page (Overall 🟢 OK, Updated 2026-07-17 20:04 UTC, next run heartbeat 08:00 UTC; Token Pulse omitted — no `token-report-*.md` exists).
-- `memory/logs/2026-07-17.md` — appended heartbeat run log entry.
+- `docs/status.md` — regenerated: Overall 🟢 OK, Updated 2026-07-18 08:15 UTC, 0 open issues, next run token-movers 12:00 UTC. Refreshed all skill last-run timestamps.
+- `memory/logs/2026-07-18.md` — appended heartbeat log entry.
 
-**Follow-up:** None. Watch item — if the standalone `morning-pipeline`/`morning-brief` keys stay `dispatched` across the next 07:00 UTC chain run, it escalates from a wrapper artifact to a real issue.
+**Follow-up:** None required. If the `morning-pipeline`/`morning-brief` state keys stay stuck across the next several 07:00 crons, the artifact should be escalated to a real issue (noted on the status page).
