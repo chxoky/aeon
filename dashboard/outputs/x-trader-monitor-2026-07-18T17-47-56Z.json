@@ -1,0 +1,54 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @Wild_Randomness"
+      },
+      "children": [
+        "text_event",
+        "tweetcard_wild",
+        "separator1",
+        "alert_classify",
+        "link_view"
+      ]
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @Rektlife_ about managing BTC positions"
+      }
+    },
+    "tweetcard_wild": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "@Rektlife_ Cause I would have to manage it / check my phone (and potentially lose— who knows what gyration is next on BTC, especially outside of US session hours)\n\nIt's a beautiful day"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_classify": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read? Declining a trade proposal? Risk management philosophy? Lifestyle commentary?",
+        "type": "info"
+      }
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2078535088187584799"
+      }
+    }
+  }
+}
