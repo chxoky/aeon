@@ -1,20 +1,20 @@
-*Morning Brief — 2026-07-18*
+Morning Brief — 2026-07-18
 
-*Focus today*
+Focus today
 1. BTC $64.5–65K — the level that decides the week — why now: +1.95% into resistance pre-FOMC, trader book split here
 2. Trust the bounce? Not yet — why now: breadth flipped 3→15/20 green but DEX vol flat, F&G fell to 25
 3. Answer the t_in_crypto calibration — why now: two ambiguous $btc posts (7/17) await your read
 
-*Since yesterday*
+Since yesterday
 - Market bounced: BTC −2.0%→+1.95%, breadth 3→15/20 green; HYPE selling halted (−8.3%→flat), ONDO back green
 - Leverage flushed: ~102K traders liquidated 7/17, BTC wicked $62.6K — bounce is off cleaner positioning
 - Traders: Chase confirmed MU (~$800)+SNDK DCA plan; Wild_Randomness closed July SPX puts, scaling October
 - Leaders: AI-agent (VVV +15.8%) and XEC (+65% 7d) topping the tape — where money's rotating if hunting longs
 
-*Watch*
+Watch
 - Stablecoin cross-agency implementation-rules deadline today (7/18) — regulatory catalyst, watch sentiment (focus #2)
 - BTC ETF flows flipped to inflows early July but YTD still net-outflow — swing factor for any $65K break (focus #1)
 
-*Running today (UTC)*
+Running today (UTC)
 - token-alert, token-movers @ 12:00 · market-context-refresh @ 13:00 · narrative-tracker @ 13:30
 - heartbeat @ 14:00, 20:00 · skill-health @ 18:00

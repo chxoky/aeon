@@ -1,67 +1,68 @@
-# Market Context (as of 2026-07-17)
+# Market Context (as of 2026-07-18)
 
-> **Take:** risk-off — BTC −2.0% to $63.3K with breadth 3/20 green 24h (only 1 non-stablecoin barely positive) and HYPE −8.3%, while DEX vol dropped −14% to $6.5B with zero post-CPI-bounce follow-through. Conviction: medium.
+> **Take:** relief bounce — BTC +1.95% to $63.9K with breadth flipping 3→15/20 green 24h, but F&G *fell* to 25 (Extreme Fear) and DEX vol is flat at $6.6B — a rebound with no conviction behind it. Conviction: low.
 
 ## Signal Snapshot
-- BTC $63,270 (−2.04% 24h, −1.84% 7d) · dominance 56.28% (−0.04 pp 24h)
-- ETH $1,826 (−3.11% 24h, +1.26% 7d) · ETH/BTC 0.02887
-- SOL $74.51 (−2.70% 24h, −5.69% 7d)
-- Total mcap $2.26T (−1.69% 24h) · DEX vol $6.51B 24h
-- Breadth: 3/20 green 24h (USDC +0.07%, USDS +0.004%, TRX +0.02%; 1/17 ex-stables) · 8/20 green 7d
-- Fear & Greed: 27 (Fear) — yesterday 25 (Extreme Fear)
+- BTC $63,928 (+1.95% 24h, −0.29% 7d) · dominance 56.42% (+0.14 pp 24h)
+- ETH $1,843 (+1.05% 24h, +2.50% 7d) · ETH/BTC 0.02883
+- SOL $74.84 (+0.40% 24h, −3.98% 7d)
+- Total mcap $2.27T (+1.11% 24h) · DEX vol $6.63B 24h
+- Breadth: 15/20 green 24h · 7/20 green 7d · 68/100 top-100 green, median top-50 +0.64%
+- Fear & Greed: 25 (Extreme Fear) — yesterday 27 (Fear)
 
 ## What Changed Since Last Refresh
-- **Regime shift chop → risk-off:** BTC −2.0% to $63.3K; breadth collapsed 7/20 → 3/20 green 24h — only two stablecoins and TRX (+0.02%) in the green. CPI-day bounce fully absorbed with no continuation buyers.
-- **HYPE accelerating lower: −8.34% to $60.49** (from −3.7% yesterday), −11.98% 7d — largest single-session loss by magnitude in the top-20 today; sustained structural selling on onchain perps sector leader.
-- **DEX vol down −14%: $7.57B → $6.51B** — buy-side conviction absent; volume contraction confirms tape weakness is not a shakeout.
-- **ONDO reversed: +17.06% → −3.86%, trending position dropped from #1 to #8** — the RWA momentum spike was a single session. Narrative leadership window appears closed for now.
-- **F&G crossed Extreme Fear → Fear: 25 → 27** — technically an improvement but below the ±5 material threshold; still deeply suppressed sentiment.
+- **Regime flip risk-off → relief bounce:** BTC +1.95% to $63.9K reverses yesterday's −2.0%; breadth snapped 3/20 → 15/20 green 24h. The one-session washout absorbed.
+- **HYPE selling halted: −8.3% → −0.08%** ($59.25). Yesterday's accelerating downside leader flattened; still −10.8% 7d, so structural damage stands, but the velocity break is the notable delta.
+- **Sentiment lags price: F&G 27 → 25**, ticking *into* Extreme Fear even as spot bounced — positioning stays fearful, no chase. Classic relief-rally setup, not capitulation-to-euphoria.
+- **ONDO reclaimed green: +0.92% 24h / +12.1% 7d**, back in trending — the RWA momentum that reversed yesterday found a bid rather than dying.
+- **No volume expansion: DEX vol $6.51B → $6.63B (+2%)** — the bounce is short-covering / thin buying, not fresh conviction inflow.
 
 ## Active Narratives
-- **RWA / Tokenized Yield** — phase: peak→fading. Evidence: ONDO trending #8 at −3.86% today vs +17.06% trending #1 yesterday; single-session momentum reversal with no sector follow-through on USDY or other RWA tokens.
-- **Privacy micro-cap rotation** — phase: emerging. Evidence: ZANO (#199 by mcap) trending #1 on CoinGecko today at −0.74%; OXT (Orchid Protocol, #978) +240.53% 24h; ZEC +6.49% 7d despite −2.95% 24h — privacy narrative fragmenting from ZEC into smaller-cap assets as ZEC's own spotlight fades.
-- **Hyperliquid / onchain perps** — phase: fading. Evidence: HYPE −8.34% 24h to $60.49, −11.98% 7d, still trending #6 on CoinGecko — sector leader experiencing structural selling with accelerating velocity vs yesterday's −3.7%.
-- **Ethereum ecosystem** — phase: fading (was rising). Evidence: ETH −3.11% underperforms BTC −2.04% 24h; ETH/BTC slipped 0.02914 → 0.02887; LINK −3.87% same session — 7d momentum (+1.26%) intact but daily leadership transferring back to BTC dominance.
+- **AI-agent tokens** — phase: rising. Evidence: VVV (Venice) +15.8% 24h — top winner of the tape; VIRTUAL trending #114. Sector caught the sharpest bid on the bounce.
+- **eCash / BTC-fork momentum** — phase: rising. Evidence: XEC +12.9% 24h AND +65.1% 7d, #2 winner — a sustained multi-session move, not a single-day pump.
+- **RWA / tokenized yield** — phase: rising (was peak→fading). Evidence: ONDO +0.92% / +12.1% 7d, reclaimed trending after yesterday's reversal — the narrative refused to roll over.
+- **Privacy micro-cap rotation** — phase: fading. Evidence: yesterday's trending #1 ZANO and OXT (+240% one-day pump) have dropped off the trending board entirely — a one-session rotation with no follow-through.
 
 ## Top DeFi Protocols (TVL, 7d change)
-- Lido: $16.84B (+2.07%)
-- Aave V3: $13.39B (+1.64%)
-- SSV Network: $8.92B (+1.62%)
-- Morpho Blue: $7.26B (+1.21%)
-- WBTC: $7.20B (−1.87%)
+- Lido: $16.94B (+2.77%)
+- Aave V3: $13.60B (+2.95%)
+- SSV Network: $8.95B (+2.23%)
+- Morpho Blue: $7.34B (+2.35%)
+- WBTC: $7.29B (−0.40%)
 
-## Chain Flow (top 3 by TVL, 7d)
-- Ethereum: $40.37B (7d: n/a)
-- BSC: $4.87B (7d: n/a)
-- Solana: $4.81B (7d: n/a)
+## Chain Flow (top 3 by TVL)
+- Ethereum: $40.67B
+- BSC: $4.90B
+- Solana: $4.82B
 
 ## Stablecoins
-Total: ~$277B (flat 7d). USDT $184.1B · USDC $73.3B · USDS $6.7B · DAI $4.9B · USD1 $4.3B · USDe $4.0B — USD1 (World Liberty Financial) holds #5. Combined top 6: ~$277B; ~12.3% share of total mcap.
+Total: ~$308.7B. USDT $184.1B · USDC $73.4B · USDS $6.6B · DAI $4.9B — USDT holds ~60% of stablecoin supply; combined pool ~13.6% of total crypto mcap. Supply flat/slightly up — no dry-powder drain.
 
 ## Trending (CoinGecko)
-- ZANO (Zano) — #199, trending #1 despite −0.74% 24h. Privacy chain; likely early narrative bid as ZEC's spotlight fades.
-- OXT (Orchid Protocol) — #978, +240.53% 24h. Decentralized VPN/privacy; micro-cap pump from tiny base; not a thesis trade.
-- HYPE (Hyperliquid) — #10, −8.13% 24h. Trending despite steep sell-off; attention is bearish confirmation, not accumulation.
-- AERO (Aerodrome Finance) — #106, −1.73% 24h. Base chain DEX; relative resilience in risk-off.
-- ONDO (Ondo Finance) — #42, −3.86% 24h. Was trending #1 at +17% yesterday; now #8 with momentum reversing.
+- ADI (ADI) — #75, $6.53, −7.3% 24h. Trending on the way *down* (also a top-10 loser) — bearish attention, not accumulation.
+- Toshi (TOSHI) — #425, $0.00012, +12.3% 24h. Base-chain meme; micro-cap spike.
+- SOL / ETH — #7 / #2, +0.4% / +0.8%. Majors back on the trending board as the bounce draws eyes.
+- Virtuals Protocol (VIRTUAL) — #114, +0.7% 24h. AI-agent infra; trending alongside VVV's move.
+- Ondo (ONDO) — #44, +0.5% 24h. RWA leader reclaiming attention after yesterday's dip.
 
 ## Prediction Markets (Polymarket, top by 24h vol)
 | Market | YES% | 24h Vol | Liquidity |
 |--------|------|---------|-----------|
-| Argentina to win 2026 FIFA World Cup | 41% | $2.7M | $8.4M |
-| Spain 2–3 Argentina exact score | 3% | $2.1M | $1.3M |
+| Argentina to win 2026 FIFA World Cup | 40% | $2.8M | $8.3M |
+| Will France win on 2026-07-18? | 52% | $1.7M | $3.7M |
+| France vs England: team to win | 67% | $1.4M | $2.0M |
 
-*Top 10 by 24h volume dominated by 2026 FIFA World Cup Final (today). No crypto-specific or macro signal markets visible in top 10.*
+*Top-10 by 24h vol entirely 2026 FIFA World Cup (final-stage matches today). Zero crypto/macro markets in top flow — prediction-market attention is fully off crypto.*
 
 ## Macro Catalysts (next 48h)
-- **Fed Vice Chair Jefferson speech (Jul 17):** Speaking on economic and monetary policy — potential signal on rate-path view; market watching for any softening vs Warsh's hawkish hold stance (Warsh: "one CPI report not enough to declare victory").
-- **Iran geopolitical escalation (day 5):** Ongoing strikes; tail-risk event for all risk assets. Polymarket US-Iran market not in top 10 by vol but risk is live.
-- **BTC ETF flows (Jul 17):** Year-to-date net outflows still $5.4B; recent $510M inflow streak (early Jul) may be tested if spot tape continues declining. Today's flow data pending.
-- **Q2 options expiry:** Upcoming vol event; max pain levels may pin or accelerate BTC near current range.
+- **Fed FOMC Jul 28–29:** Buyers are expected to defend lows but struggle to push higher *before* the meeting — rate-path uncertainty caps upside near-term. Positioning: fade rips into $64.5–65K until the meeting clears.
+- **BTC ETF flows:** Reversed to inflows in early July ($221M single day snapped a 10-day, $2.73B outflow streak; ~$191M over two days), but 2026 YTD is still ~120K BTC net *outflow*. Flow direction is the swing factor for any move above $65K.
+- **Resistance $64.5–65K:** A decisive weekly close above opens $67K; rejection here keeps the low-60Ks range intact.
+- **Oil / Middle East tension:** Rising oil + lingering geopolitical risk keep a lid on risk-asset upside.
 
 ## Implications for Downstream Skills
-- **token-pick:** No new entries in current risk-off environment — breadth 1/17 ex-stables is as thin as it gets. If RWA (ONDO) reclaims yesterday's momentum with a green session + volume, it's the cleanest re-entry. ZANO/OXT are micro-cap pumps, not thesis trades. Avoid HYPE longs until seller exhaustion signal.
-- **narrative-tracker:** Track ONDO for second red day (peak confirmation) vs bounce (rising still active). Watch HYPE for velocity change — −8% today after −3.7% yesterday = acceleration, not exhaustion. Monitor Iran escalation daily for tail-risk regime shift.
+- **token-pick:** Relief bounce with flat volume and falling sentiment = not a green light. Relative strength is in AI-agent (VVV/VIRTUAL) and XEC — favor those over broad beta if entering at all. No conviction chase until BTC reclaims $64.5–65K on volume.
+- **narrative-tracker:** Promote AI-agent tokens emerging→rising (VVV +15.8%, VIRTUAL trending). Watch XEC for a 3rd green day (breakout-confirm vs exhaustion). Mark privacy rotation fading (ZANO/OXT off trending). RWA/ONDO back to rising — track for follow-through.
 
 ## Token Picks Made
 | Date | Token | Price | Thesis |

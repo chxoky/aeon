@@ -1,0 +1,19 @@
+{
+	"name": "Fear and Greed Index",
+	"data": [
+		{
+			"value": "25",
+			"value_classification": "Extreme Fear",
+			"timestamp": "1784332800",
+			"time_until_update": "56591"
+		},
+		{
+			"value": "27",
+			"value_classification": "Fear",
+			"timestamp": "1784246400"
+		}
+	],
+	"metadata": {
+		"error": null
+	}
+}

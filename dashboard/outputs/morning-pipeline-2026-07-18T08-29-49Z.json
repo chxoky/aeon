@@ -1,0 +1,367 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-07-18"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "focus-section",
+        "sep-1",
+        "yesterday-section",
+        "sep-2",
+        "watch-section",
+        "sep-3",
+        "running-section"
+      ]
+    },
+    "focus-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus-heading",
+        "focus-1",
+        "focus-2",
+        "focus-3"
+      ]
+    },
+    "focus-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "focus-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "f1-main",
+        "f1-why"
+      ]
+    },
+    "f1-main": {
+      "type": "Text",
+      "props": {
+        "text": "1. BTC $64.5–65K — the level that decides the week",
+        "variant": "lead"
+      }
+    },
+    "f1-why": {
+      "type": "Text",
+      "props": {
+        "text": "why now: +1.95% into resistance pre-FOMC, trader book split here",
+        "variant": "caption"
+      }
+    },
+    "focus-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "f2-main",
+        "f2-why"
+      ]
+    },
+    "f2-main": {
+      "type": "Text",
+      "props": {
+        "text": "2. Trust the bounce? Not yet",
+        "variant": "lead"
+      }
+    },
+    "f2-why": {
+      "type": "Text",
+      "props": {
+        "text": "why now: breadth flipped 3→15/20 green but DEX vol flat, F&G fell to 25",
+        "variant": "caption"
+      }
+    },
+    "focus-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "f3-main",
+        "f3-why"
+      ]
+    },
+    "f3-main": {
+      "type": "Text",
+      "props": {
+        "text": "3. Answer the t_in_crypto calibration",
+        "variant": "lead"
+      }
+    },
+    "f3-why": {
+      "type": "Text",
+      "props": {
+        "text": "why now: two ambiguous $btc posts (7/17) await your read",
+        "variant": "caption"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "yesterday-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "yesterday-heading",
+        "market-bounced",
+        "leverage-flushed",
+        "traders-subsection",
+        "leaders-subsection"
+      ]
+    },
+    "yesterday-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "market-bounced": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "mb-title",
+        "mb-1",
+        "mb-2",
+        "mb-3"
+      ]
+    },
+    "mb-title": {
+      "type": "Text",
+      "props": {
+        "text": "Market bounced:",
+        "variant": "lead"
+      }
+    },
+    "mb-1": {
+      "type": "Text",
+      "props": {
+        "text": "BTC −2.0%→+1.95%",
+        "variant": "body"
+      }
+    },
+    "mb-2": {
+      "type": "Text",
+      "props": {
+        "text": "breadth 3→15/20 green",
+        "variant": "body"
+      }
+    },
+    "mb-3": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE selling halted (−8.3%→flat), ONDO back green",
+        "variant": "body"
+      }
+    },
+    "leverage-flushed": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "lf-title",
+        "lf-1",
+        "lf-2"
+      ]
+    },
+    "lf-title": {
+      "type": "Text",
+      "props": {
+        "text": "Leverage flushed:",
+        "variant": "lead"
+      }
+    },
+    "lf-1": {
+      "type": "Text",
+      "props": {
+        "text": "~102K traders liquidated 7/17",
+        "variant": "body"
+      }
+    },
+    "lf-2": {
+      "type": "Text",
+      "props": {
+        "text": "BTC wicked $62.6K — bounce is off cleaner positioning",
+        "variant": "body"
+      }
+    },
+    "traders-subsection": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "traders-title",
+        "traders-1",
+        "traders-2"
+      ]
+    },
+    "traders-title": {
+      "type": "Text",
+      "props": {
+        "text": "Traders:",
+        "variant": "lead"
+      }
+    },
+    "traders-1": {
+      "type": "Text",
+      "props": {
+        "text": "Chase confirmed MU (~$800)+SNDK DCA plan",
+        "variant": "body"
+      }
+    },
+    "traders-2": {
+      "type": "Text",
+      "props": {
+        "text": "Wild_Randomness closed July SPX puts, scaling October",
+        "variant": "body"
+      }
+    },
+    "leaders-subsection": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "leaders-title",
+        "leaders-text"
+      ]
+    },
+    "leaders-title": {
+      "type": "Text",
+      "props": {
+        "text": "Leaders:",
+        "variant": "lead"
+      }
+    },
+    "leaders-text": {
+      "type": "Text",
+      "props": {
+        "text": "AI-agent (VVV +15.8%) and XEC (+65% 7d) topping the tape — where money's rotating if hunting longs",
+        "variant": "body"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "watch-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "watch-heading",
+        "watch-1",
+        "watch-2"
+      ]
+    },
+    "watch-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "watch-1": {
+      "type": "Text",
+      "props": {
+        "text": "Stablecoin cross-agency implementation-rules deadline today (7/18) — regulatory catalyst, watch sentiment (focus #2)",
+        "variant": "body"
+      }
+    },
+    "watch-2": {
+      "type": "Text",
+      "props": {
+        "text": "BTC ETF flows flipped to inflows early July but YTD still net-outflow — swing factor for any $65K break (focus #1)",
+        "variant": "body"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "running-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "running-heading",
+        "running-times"
+      ]
+    },
+    "running-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today (UTC)",
+        "level": "h2"
+      }
+    },
+    "running-times": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "running-1",
+        "running-2"
+      ]
+    },
+    "running-1": {
+      "type": "Text",
+      "props": {
+        "text": "token-alert, token-movers @ 12:00 · market-context-refresh @ 13:00 · narrative-tracker @ 13:30",
+        "variant": "body"
+      }
+    },
+    "running-2": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 14:00, 20:00 · skill-health @ 18:00",
+        "variant": "body"
+      }
+    }
+  }
+}
