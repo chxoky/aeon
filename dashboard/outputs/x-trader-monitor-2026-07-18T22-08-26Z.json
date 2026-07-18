@@ -1,0 +1,235 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading_calibration",
+        "separator_1",
+        "stack_event",
+        "separator_2",
+        "stack_post",
+        "separator_3",
+        "stack_context",
+        "separator_4",
+        "stack_analysis"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @t_in_crypto",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "stack_event": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_event",
+        "text_event"
+      ]
+    },
+    "heading_event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to three traders discussing August tops"
+      },
+      "children": []
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "stack_post": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_post",
+        "tweet_post"
+      ]
+    },
+    "heading_post": {
+      "type": "Heading",
+      "props": {
+        "text": "Post",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "tweet_post": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "text": "@LcozS49823 @zohaan1324 @Alulim123gmail1 I don't know which top in August you're talking about"
+      },
+      "children": []
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "stack_context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_context",
+        "stat_position",
+        "stat_conviction",
+        "heading_thesis",
+        "stack_thesis_items",
+        "heading_recent",
+        "stack_recent_items"
+      ]
+    },
+    "heading_context": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "stat_position": {
+      "type": "Stat",
+      "props": {
+        "label": "Position",
+        "value": "100%+ BTC LONG @58.4K"
+      },
+      "children": []
+    },
+    "stat_conviction": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume Conviction Add",
+        "value": "+x2 @62K (Jul 14)"
+      },
+      "children": []
+    },
+    "heading_thesis": {
+      "type": "Heading",
+      "props": {
+        "text": "Documented Thesis",
+        "level": "h5"
+      },
+      "children": []
+    },
+    "stack_thesis_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_bullish",
+        "badge_patience"
+      ]
+    },
+    "badge_bullish": {
+      "type": "Badge",
+      "props": {
+        "text": "Bullish through consolidation",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge_patience": {
+      "type": "Badge",
+      "props": {
+        "text": "Patience-oriented",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "heading_recent": {
+      "type": "Heading",
+      "props": {
+        "text": "Recent Posts Affirm",
+        "level": "h5"
+      },
+      "children": []
+    },
+    "stack_recent_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_67_71k",
+        "text_patience_msg"
+      ]
+    },
+    "text_67_71k": {
+      "type": "Text",
+      "props": {
+        "text": "67-71K technical zone"
+      },
+      "children": []
+    },
+    "text_patience_msg": {
+      "type": "Text",
+      "props": {
+        "text": "Patience messaging"
+      },
+      "children": []
+    },
+    "separator_4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "stack_analysis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_analysis",
+        "text_analysis"
+      ]
+    },
+    "heading_analysis": {
+      "type": "Heading",
+      "props": {
+        "text": "Analysis",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "text_analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — is this skepticism of a bearish August-top call, genuine confusion about the discussion, or dismissal? What's your read?",
+        "variant": "lead"
+      },
+      "children": []
+    }
+  }
+}
