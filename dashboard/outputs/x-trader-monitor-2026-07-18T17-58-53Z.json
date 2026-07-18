@@ -1,0 +1,80 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor — Calibration",
+        "description": "Classification request"
+      },
+      "children": [
+        "heading_title",
+        "separator_1",
+        "stack_content"
+      ]
+    },
+    "heading_title": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_event",
+        "link_url",
+        "tweet_wild",
+        "alert_question"
+      ]
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @wiglets256 about something external",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "link_url": {
+      "type": "Link",
+      "props": {
+        "label": "https://t.co/s6guXBJPIq",
+        "href": "https://t.co/s6guXBJPIq"
+      },
+      "children": []
+    },
+    "tweet_wild": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Honestly it looks pretty sketchy. Was looking earlier today"
+      },
+      "children": []
+    },
+    "alert_question": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification Needed",
+        "message": "Unable to classify — what's your read? Is this about a ticker, a setup, or something unrelated to trading?",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}
