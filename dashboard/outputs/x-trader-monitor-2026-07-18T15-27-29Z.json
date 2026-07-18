@@ -1,0 +1,61 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — x-trader-monitor (@Wild_Randomness)"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_text",
+        "tweet_card",
+        "prompt_text",
+        "view_link"
+      ]
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "Context: Reply to @KaneCapz discussing data analysis",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Judging by all the data I was looking at, absolutely no one was/is.\n\nWhich is why I am."
+      },
+      "children": []
+    },
+    "prompt_text": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2078500261622866288"
+      },
+      "children": []
+    }
+  }
+}
