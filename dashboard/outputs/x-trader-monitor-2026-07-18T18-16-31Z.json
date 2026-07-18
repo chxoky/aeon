@@ -1,0 +1,131 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor Calibration"
+      },
+      "children": [
+        "heading-1",
+        "stack-main"
+      ]
+    },
+    "heading-1": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration — @Wild_Randomness",
+        "level": "h2"
+      }
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event-label",
+        "sep-1",
+        "tweet-card",
+        "sep-2",
+        "classification-section"
+      ]
+    },
+    "event-label": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Price action commentary on new ticker",
+        "variant": "lead"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "$IREN — Since Mike Alfred told you to think bigger at the absolute pico top: -55%, straight line"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "classification-heading",
+        "classification-text",
+        "options-stack",
+        "view-link"
+      ]
+    },
+    "classification-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Classification",
+        "level": "h3"
+      }
+    },
+    "classification-text": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — appears to be price action observation rather than personal trade entry, but context unclear. Is this:",
+        "variant": "body"
+      }
+    },
+    "options-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "option-1",
+        "option-2",
+        "option-3"
+      ]
+    },
+    "option-1": {
+      "type": "Text",
+      "props": {
+        "text": "• Commentary on bearish move worth tracking?",
+        "variant": "body"
+      }
+    },
+    "option-2": {
+      "type": "Text",
+      "props": {
+        "text": "• Sarcastic take on failed trade setup?",
+        "variant": "body"
+      }
+    },
+    "option-3": {
+      "type": "Text",
+      "props": {
+        "text": "• Setup worth watching?",
+        "variant": "body"
+      }
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2078543743700148494"
+      }
+    }
+  }
+}
