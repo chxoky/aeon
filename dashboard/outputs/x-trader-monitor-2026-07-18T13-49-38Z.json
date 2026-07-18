@@ -1,0 +1,115 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — x-trader-monitor",
+        "description": "Event classification query"
+      },
+      "children": [
+        "event_desc",
+        "separator1",
+        "tweet_card",
+        "separator2",
+        "analysis_section",
+        "question_alert"
+      ]
+    },
+    "event_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Brief X reply to @maybe_cmeister with no visible context",
+        "variant": "lead"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "@maybe_cmeister yes"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis_intro",
+        "interpretations_stack"
+      ]
+    },
+    "analysis_intro": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — one-word agreement requires context of the original question/proposal. Could indicate:",
+        "variant": "body"
+      }
+    },
+    "interpretations_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "interp_a",
+        "interp_b",
+        "interp_c",
+        "interp_d"
+      ]
+    },
+    "interp_a": {
+      "type": "Badge",
+      "props": {
+        "text": "(a) trade-idea agreement",
+        "variant": "default"
+      }
+    },
+    "interp_b": {
+      "type": "Badge",
+      "props": {
+        "text": "(b) technical-level confirmation",
+        "variant": "default"
+      }
+    },
+    "interp_c": {
+      "type": "Badge",
+      "props": {
+        "text": "(c) support/resistance acceptance",
+        "variant": "default"
+      }
+    },
+    "interp_d": {
+      "type": "Badge",
+      "props": {
+        "text": "(d) casual social agreement",
+        "variant": "default"
+      }
+    },
+    "question_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Interpretation needed",
+        "message": "What's your read? Is this a trade signal (and if so, which ticker/setup?) or social banter?",
+        "type": "info"
+      }
+    }
+  }
+}
