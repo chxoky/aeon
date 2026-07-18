@@ -1,0 +1,64 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading_calibration",
+        "stack_content"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration — @Bitcoin_Astro",
+        "level": "h2"
+      }
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_event",
+        "tweet_bitcoinastro",
+        "separator_1",
+        "text_analysis"
+      ]
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Bitcoin_Astro tracking red trend lines as part of cycle-low thesis (yellow trend line pivots, key dates 23-30 Sept)",
+        "variant": "body"
+      }
+    },
+    "tweet_bitcoinastro": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Bitcoin_Astro",
+        "handle": "Bitcoin_Astro",
+        "text": "Red lines https://t.co/OOOt5GYSkI"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_analysis": {
+      "type": "Text",
+      "props": {
+        "text": "This looks like a chart update, but the minimal context makes it hard to read. Is this a notable trend-shift signal or routine TA commentary?",
+        "variant": "body"
+      }
+    }
+  }
+}
