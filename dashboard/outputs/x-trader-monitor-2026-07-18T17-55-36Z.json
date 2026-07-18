@@ -1,0 +1,74 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet_stack",
+        "separator",
+        "context_stack"
+      ]
+    },
+    "tweet_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "tweet_link"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "1H Weekend liq grab — reaction watch into high 64s (likely ES/SPY based on context)\n\n\"Just a matter of time... Personally if I was trading ltf this weekend I would observe reaction into high 64s\""
+      }
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2078537871179616745"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context_label",
+        "context_text"
+      ]
+    },
+    "context_label": {
+      "type": "Text",
+      "props": {
+        "text": "Context",
+        "variant": "body"
+      }
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "Follows earlier IWM technical analysis post (15:01 UTC triple divergence + 17:37 UTC dispersion trade bearishness commentary). Weekend setup observation consistent with documented SPX/macro focus.",
+        "variant": "caption"
+      }
+    }
+  }
+}

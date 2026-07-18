@@ -1,21 +1,9 @@
-🔍 *Calibration — @Wild_Randomness*
-
-Event: Reply to @Rektlife_ about managing BTC positions
-
-@Wild_Randomness: "@Rektlife_ Cause I would have to manage it / check my phone (and potentially lose— who knows what gyration is next on BTC, especially outside of US session hours)
-
-It's a beautiful day"
-
-Unable to classify — what's your read? Declining a trade proposal? Risk management philosophy? Lifestyle commentary?
-
-**Result:** Event logged and deduped. No notification sent to Kyle. Wild_Randomness position state unchanged.
 🐦 *[X] @Wild_Randomness*
 
-Personally I don't think Microsoft, regional banks, and railways are going to sustainably lead the next leg of the bull
+1H Weekend liq grab — reaction watch into high 64s (likely ES/SPY based on context)
 
-This is just a low implied correlation phenomenon and people are forced to buy the unloved sectors due to the dispersion trade
+"Just a matter of time... Personally if I was trading ltf this weekend I would observe reaction into high 64s"
 
-[View tweet](https://x.com/Wild_Randomness/status/2078534593276469563)
+[View tweet](https://x.com/Wild_Randomness/status/2078537871179616745)
 
-↳ _Macro context on IWM dispersion-trade rally — bearish on sustainability. Adds weight to earlier technical observation (triple bull div daily / triple bear div weekly)._
-[View post](https://x.com/Wild_Randomness/status/2078535088187584799)
+↳ _Follows earlier IWM technical analysis post (15:01 UTC triple divergence + 17:37 UTC dispersion trade bearishness commentary). Weekend setup observation consistent with documented SPX/macro focus._
