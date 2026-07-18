@@ -1,0 +1,385 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Token Movers",
+        "description": "Muted risk-on — 67/100 top coins green, median +0.5%, but low conviction: biggest gainer is only +15.6% and trending is led by a decliner (ADI)."
+      },
+      "children": [
+        "winners-section",
+        "sep1",
+        "losers-section",
+        "sep2",
+        "trending-section",
+        "sep3",
+        "notable-section"
+      ]
+    },
+    "winners-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "winners-heading",
+        "winners-table"
+      ]
+    },
+    "winners-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Winners (24h)",
+        "level": "h2"
+      }
+    },
+    "winners-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Coin",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Volume",
+          "Rank",
+          "Status"
+        ],
+        "rows": [
+          [
+            "VVV (Venice Token)",
+            "$11.66",
+            "+15.6%",
+            "+10%",
+            "+1.6%",
+            "$30M",
+            "#99",
+            ""
+          ],
+          [
+            "XEC (eCash)",
+            "$0.000009",
+            "+15.4%",
+            "+69%",
+            "+3.3%",
+            "$103M",
+            "#183",
+            "BREAKOUT"
+          ],
+          [
+            "EDGE (edgeX)",
+            "$0.4460",
+            "+12.5%",
+            "+18%",
+            "+0.8%",
+            "$8M",
+            "#195",
+            ""
+          ],
+          [
+            "TRUMP (Official Trump)",
+            "$1.66",
+            "+8.2%",
+            "+3%",
+            "+2.5%",
+            "$116M",
+            "#117",
+            ""
+          ],
+          [
+            "JASMY (JasmyCoin)",
+            "$0.004673",
+            "+7.5%",
+            "+3%",
+            "+0.2%",
+            "$24M",
+            "#149",
+            ""
+          ],
+          [
+            "ETHFI (Ether.fi)",
+            "$0.4403",
+            "+6.5%",
+            "+9%",
+            "+1.8%",
+            "$34M",
+            "#112",
+            ""
+          ],
+          [
+            "UB (Unibase)",
+            "$0.0865",
+            "+4.8%",
+            "+14%",
+            "-1.5%",
+            "$11M",
+            "#156",
+            ""
+          ],
+          [
+            "ADA (Cardano)",
+            "$0.1663",
+            "+4.7%",
+            "-1%",
+            "+0.2%",
+            "$393M",
+            "#18",
+            "MAJOR"
+          ]
+        ]
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "losers-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "losers-heading",
+        "losers-table"
+      ]
+    },
+    "losers-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Losers (24h)",
+        "level": "h2"
+      }
+    },
+    "losers-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Coin",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Volume",
+          "Rank",
+          "Status"
+        ],
+        "rows": [
+          [
+            "KITE (Kite)",
+            "$0.1087",
+            "-10.4%",
+            "-10%",
+            "-1.4%",
+            "$100M",
+            "#142",
+            "CAPITULATION"
+          ],
+          [
+            "BONK (Bonk)",
+            "$0.000003",
+            "-9.8%",
+            "-27%",
+            "-0.6%",
+            "$57M",
+            "#140",
+            ""
+          ],
+          [
+            "BEAT (Audiera)",
+            "$2.35",
+            "-7.6%",
+            "-17%",
+            "+0.2%",
+            "$6M",
+            "#84",
+            ""
+          ],
+          [
+            "ADI (ADI)",
+            "$6.53",
+            "-7.4%",
+            "+3%",
+            "-0.2%",
+            "$6M",
+            "#75",
+            "TRENDING+DOWN"
+          ],
+          [
+            "KAITO (KAITO)",
+            "$0.8213",
+            "-6.5%",
+            "+35%",
+            "-0.1%",
+            "$50M",
+            "#170",
+            ""
+          ],
+          [
+            "DCR (Decred)",
+            "$12.50",
+            "-5.0%",
+            "+12%",
+            "+0.2%",
+            "$2M",
+            "#153",
+            ""
+          ],
+          [
+            "AERO (Aerodrome Finance)",
+            "$0.4686",
+            "-4.5%",
+            "-12%",
+            "-0.3%",
+            "$63M",
+            "#107",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "trending-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "trending-heading",
+        "trending-table"
+      ]
+    },
+    "trending-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending",
+        "level": "h2"
+      }
+    },
+    "trending-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Coin",
+          "Rank",
+          "Price",
+          "24h",
+          "Status"
+        ],
+        "rows": [
+          [
+            "ADI (ADI)",
+            "#75",
+            "$6.53",
+            "-7.3%",
+            "TRENDING+DOWN"
+          ],
+          [
+            "Toshi (TOSHI)",
+            "#425",
+            "$0.000122",
+            "+12.3%",
+            ""
+          ],
+          [
+            "Solana (SOL)",
+            "#7",
+            "$74.85",
+            "+0.4%",
+            ""
+          ],
+          [
+            "Ethereum (ETH)",
+            "#2",
+            "$1,842",
+            "+0.8%",
+            ""
+          ],
+          [
+            "Virtuals Protocol (VIRTUAL)",
+            "#114",
+            "$0.6193",
+            "+0.7%",
+            ""
+          ],
+          [
+            "Ondo (ONDO)",
+            "#44",
+            "$0.3660",
+            "+0.5%",
+            ""
+          ],
+          [
+            "Cash Cat (CASHCAT)",
+            "#411",
+            "$0.0537",
+            "-6.7%",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "notable-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "notable-heading",
+        "notable-xec",
+        "notable-kite",
+        "notable-adi"
+      ]
+    },
+    "notable-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h2"
+      }
+    },
+    "notable-xec": {
+      "type": "Alert",
+      "props": {
+        "title": "XEC — Sustained Breakout",
+        "message": "XEC: +15.4% today on +69% over 7d — sustained BREAKOUT, not a flash pump (#183, $103M vol)",
+        "type": "success"
+      }
+    },
+    "notable-kite": {
+      "type": "Alert",
+      "props": {
+        "title": "KITE — Capitulation Flush",
+        "message": "KITE: -10.4% on heavy volume — CAPITULATION flush (#142, $100M vol)",
+        "type": "warning"
+      }
+    },
+    "notable-adi": {
+      "type": "Alert",
+      "props": {
+        "title": "ADI — Trending but Bleeding",
+        "message": "ADI: trending but bleeding — top-of-mind and a top loser (-7.4%), a bad-news / TRENDING+DOWN pattern",
+        "type": "error"
+      }
+    }
+  }
+}
