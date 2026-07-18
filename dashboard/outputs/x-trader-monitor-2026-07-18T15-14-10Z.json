@@ -1,0 +1,93 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading_calibration",
+        "sep1",
+        "stack_pattern",
+        "sep2",
+        "tweet_wild",
+        "sep3",
+        "analysis"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "stack_pattern": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "label_pattern",
+        "text_pattern",
+        "label_event",
+        "text_event"
+      ]
+    },
+    "label_pattern": {
+      "type": "Heading",
+      "props": {
+        "text": "Pattern",
+        "level": "h4"
+      }
+    },
+    "text_pattern": {
+      "type": "Text",
+      "props": {
+        "text": "Cryptic URL-only post (repeats pattern from Jul 14 + Jul 15)"
+      }
+    },
+    "label_event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h4"
+      }
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "No context provided; shortened URL with minimal caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "tweet_wild": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Let's watch https://t.co/iecGoYC3fo"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "analysis": {
+      "type": "Text",
+      "props": {
+        "text": "This trader continues the URL-minimal-caption pattern. Previous calibration alerts sent; pattern persists. Should I continue flagging these as ambiguous, or have a standing protocol for this trader's posting style?"
+      }
+    }
+  }
+}
