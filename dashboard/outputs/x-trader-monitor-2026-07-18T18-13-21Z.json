@@ -1,0 +1,105 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @Wild_Randomness"
+      },
+      "children": [
+        "event-badge",
+        "tweet-card",
+        "separator-1",
+        "classification-prompt",
+        "separator-2",
+        "pattern-section"
+      ]
+    },
+    "event-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Macro sentiment post with external link",
+        "variant": "secondary"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Amusing watching Tradfi figure out what CT has known for a long time https://t.co/Hxy2Lndjh1"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification-prompt": {
+      "type": "Alert",
+      "props": {
+        "message": "Unable to classify — what's your read?",
+        "type": "info"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "pattern-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "pattern-heading",
+        "pattern-stat",
+        "pattern-questions"
+      ]
+    },
+    "pattern-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Pattern Note",
+        "level": "h3"
+      }
+    },
+    "pattern-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Ambiguous/URL-only posts in 60 minutes",
+        "value": "5"
+      }
+    },
+    "pattern-questions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "q1",
+        "q2"
+      ]
+    },
+    "q1": {
+      "type": "Text",
+      "props": {
+        "text": "Is this systematic chart-sharing behavior?",
+        "variant": "body"
+      }
+    },
+    "q2": {
+      "type": "Text",
+      "props": {
+        "text": "Or should I adjust alert thresholds?",
+        "variant": "body"
+      }
+    }
+  }
+}
