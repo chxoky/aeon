@@ -20,3 +20,12 @@
 7. ✅ Committed changes to git
 
 **Result:** Event logged and deduped. No notification sent to Kyle. Wild_Randomness position state unchanged.
+🐦 *[X] @Wild_Randomness*
+
+Personally I don't think Microsoft, regional banks, and railways are going to sustainably lead the next leg of the bull
+
+This is just a low implied correlation phenomenon and people are forced to buy the unloved sectors due to the dispersion trade
+
+[View tweet](https://x.com/Wild_Randomness/status/2078534593276469563)
+
+↳ _Macro context on IWM dispersion-trade rally — bearish on sustainability. Adds weight to earlier technical observation (triple bull div daily / triple bear div weekly)._
