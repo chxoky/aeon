@@ -1,0 +1,7 @@
+### x-trader-monitor (real-time event)
+- trader: @t_in_crypto
+- tweet_id: 2078452577298006379
+- classification: ambiguous
+- ticker(s): [BTC (implicit, context-dependent)]
+- alerted: yes (calibration)
+- notes: Cryptic disclaimer post about time-variance (±4-8h) around pivots, referencing previous chart post. Missing context from @mentions' discussion. HR-2 calibration alert sent to Kyle for interpretation.

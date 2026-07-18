@@ -1,0 +1,141 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @t_in_crypto",
+        "description": "X-trader-monitor event capture"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event_desc",
+        "mentions_group",
+        "sep1",
+        "tweet_card",
+        "sep2",
+        "context_section",
+        "analysis_alert",
+        "post_link"
+      ]
+    },
+    "event_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Posted disclaimer about time-variance in trading setup, referencing a previous chart post.",
+        "variant": "lead"
+      }
+    },
+    "mentions_group": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "mentions_label",
+        "mention1",
+        "mention2",
+        "mention3"
+      ]
+    },
+    "mentions_label": {
+      "type": "Text",
+      "props": {
+        "text": "Mentions:",
+        "variant": "muted"
+      }
+    },
+    "mention1": {
+      "type": "Badge",
+      "props": {
+        "text": "@zohaan1324",
+        "variant": "outline"
+      }
+    },
+    "mention2": {
+      "type": "Badge",
+      "props": {
+        "text": "@LcozS49823",
+        "variant": "outline"
+      }
+    },
+    "mention3": {
+      "type": "Badge",
+      "props": {
+        "text": "@Alulim123gmail1",
+        "variant": "outline"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "handle": "t_in_crypto",
+        "text": "I have post with this chart. Please don't rely on time 100%, it rarely can shift +-4-8h. My time UTC+7 ALWAYS"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context_heading",
+        "context_body"
+      ]
+    },
+    "context_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Trader Context",
+        "level": "h3"
+      }
+    },
+    "context_body": {
+      "type": "Text",
+      "props": {
+        "text": "t_in_crypto holds 100% BTC LONG @58.4K with +x2 volume conviction add. Documented thesis heavily emphasizes pivot-date/astro-cycle/time-based analysis. Recent posts reference chart analysis with time-variance buffers (documented ±4h variance around pivot times).",
+        "variant": "body"
+      }
+    },
+    "analysis_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification",
+        "message": "Unable to classify — is this educational/disclaimer content on their methodology, or a market signal requiring action? References chart not visible in this event. What's your read?",
+        "type": "info"
+      }
+    },
+    "post_link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/t_in_crypto/status/2078452577298006379"
+      }
+    }
+  }
+}
