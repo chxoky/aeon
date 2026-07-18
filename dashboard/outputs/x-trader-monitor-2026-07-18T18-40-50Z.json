@@ -1,0 +1,165 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "status_row",
+        "separator_1",
+        "initial_section",
+        "separator_2",
+        "resolved_section",
+        "separator_3",
+        "notes_section"
+      ]
+    },
+    "status_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_status",
+        "text_trader"
+      ]
+    },
+    "badge_status": {
+      "type": "Badge",
+      "props": {
+        "text": "✅ Self-resolved",
+        "variant": "outline"
+      }
+    },
+    "text_trader": {
+      "type": "Text",
+      "props": {
+        "text": "@Wild_Randomness",
+        "variant": "body"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "initial_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_initial",
+        "text_timestamp_1",
+        "text_initial_content"
+      ]
+    },
+    "heading_initial": {
+      "type": "Heading",
+      "props": {
+        "text": "Earlier ambiguous",
+        "level": "h3"
+      }
+    },
+    "text_timestamp_1": {
+      "type": "Text",
+      "props": {
+        "text": "18:13:40 UTC",
+        "variant": "caption"
+      }
+    },
+    "text_initial_content": {
+      "type": "Text",
+      "props": {
+        "text": "\"$IREN — Since Mike Alfred told you to think bigger at absolute pico top: -55%, straight line\"",
+        "variant": "body"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "resolved_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_resolved",
+        "text_timestamp_2",
+        "text_resolved_content"
+      ]
+    },
+    "heading_resolved": {
+      "type": "Heading",
+      "props": {
+        "text": "Resolved by",
+        "level": "h3"
+      }
+    },
+    "text_timestamp_2": {
+      "type": "Text",
+      "props": {
+        "text": "18:36:57 UTC",
+        "variant": "caption"
+      }
+    },
+    "text_resolved_content": {
+      "type": "Text",
+      "props": {
+        "text": "\"Wrong, upon closer inspection it actually ended up grinding into the after hours level where he demanded everyone's apology. Victory Lap Price = Resistance. I expect that to be the forever top.\"",
+        "variant": "body"
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "notes_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_classification",
+        "text_notes"
+      ]
+    },
+    "badge_classification": {
+      "type": "Badge",
+      "props": {
+        "text": "INFORMATIONAL",
+        "variant": "secondary"
+      }
+    },
+    "text_notes": {
+      "type": "Text",
+      "props": {
+        "text": "$IREN is a new quiet ticker being tracked. No trade signals detected. Continued technical analysis from same trader on same ticker within 23-minute window.",
+        "variant": "body"
+      }
+    }
+  }
+}
