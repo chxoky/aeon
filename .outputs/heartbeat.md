@@ -1,16 +1,20 @@
-Heartbeat complete. All checks green — no notification sent.
+Heartbeat complete. All checks green — no notification needed.
 
 ## Summary
 
-Ran the `heartbeat` skill for 2026-07-18 08:00 UTC. **Verdict: `HEARTBEAT_OK · STATUS_PAGE=OK`** — nothing needs attention, no notification sent.
+Ran the `heartbeat` skill (14:00 UTC run) on 2026-07-18. **Verdict: `HEARTBEAT_OK · STATUS_PAGE=OK`** — nothing new needs attention, so no `./notify` was sent.
 
 **Checks performed:**
-- **P0 — Failed/stuck skills:** Only flagged entry is `chain:morning-pipeline` (failed 08:38 UTC 2026-07-17) plus `morning-pipeline`/`morning-brief` stuck in `dispatched`. This is the known chain-runner artifact (it doesn't write per-skill success state back) — its Step-1 members `token-movers` + `market-context-refresh` both succeeded independently. Already dedup'd across multiple prior heartbeats, so no notify. No API degradation, no chronic failures qualifying (price-threshold-alert is 50% but only 2 runs, below the ≥5 threshold). Heartbeat self-check healthy.
-- **P0 — X webhook (ISS-002 guard):** Direct twitterapi.io rules-API call was sandbox-blocked this run (optional check, skipped silently per skill). But **functionally confirmed alive** — `x-trader-monitor` has already fired **14 real-time events today** (last success 08:09 UTC). The rule's failure mode is *zero* events, so this clearly means it's active. ISS-002 stays resolved; no re-open.
-- **P1/P2/P3:** 0 open PRs; repo issues disabled; no flagged memory follow-ups; all enabled skills current.
+- **P0 — Failed/stuck skills:** No new issues. The only `failed`/`dispatched` entries (`chain:morning-pipeline` exit-1 at 08:13 UTC, `morning-brief` dispatched key) are the known, dedup'd stale chain-wrapper artifacts — the standalone `morning-pipeline` succeeded at 08:31 UTC and pipeline members `token-alert`/`token-movers` succeeded independently. No skill has `consecutive_failures ≥ 3` or chronic failure (`price-threshold-alert` 50% is only 2 runs, below the 5-run threshold). Heartbeat self-check fresh (last success 08:16 UTC).
+- **P0 — X webhook rule:** `secretcurl` to twitterapi.io was blocked by the sandbox permission analyzer → skipped silently per the skill's optional-check rule. Functionally confirmed healthy: `x-trader-monitor` fired many real-time events through 13:56 UTC today, so `WATCHED_TRADERS` is live and X signals are flowing. ISS-002 stays resolved.
+- **P1:** 0 open PRs; repo issues disabled.
+- **P2:** No flagged memory items (Open Calibration Items: None).
+- **P3:** All enabled skills current within 2× their schedule interval.
 
 **Files modified:**
-- `docs/status.md` — regenerated: Overall 🟢 OK, Updated 2026-07-18 08:15 UTC, 0 open issues, next run token-movers 12:00 UTC. Refreshed all skill last-run timestamps.
+- `docs/status.md` — regenerated public status page (Overall 🟢 OK, updated 2026-07-18 14:06 UTC, 0 open issues, next run: skill-health at 18:00 UTC; Token pulse omitted — no `token-report-*.md` exists).
 - `memory/logs/2026-07-18.md` — appended heartbeat log entry.
 
-**Follow-up:** None required. If the `morning-pipeline`/`morning-brief` state keys stay stuck across the next several 07:00 crons, the artifact should be escalated to a real issue (noted on the status page).
+**Follow-ups:** None. Monitor the `morning-pipeline` chain-wrapper artifact — if the standalone keys stay stuck after several more 07:00 crons, escalate to a filed issue.
+
+Both files land on `main` via the workflow's auto-commit step.
