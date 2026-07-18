@@ -1,0 +1,48 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @Wild_Randomness",
+        "description": "Context: Wild_Randomness has NVDA August puts active (entry Jul 14)."
+      },
+      "children": [
+        "tweet-post",
+        "separator-1",
+        "text-analysis",
+        "separator-2",
+        "text-question"
+      ]
+    },
+    "tweet-post": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Me looking at my put option entries"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "text-analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to determine: Is this observational (reviewing positions), or indicating new trade action (add/close/adjust)?"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "text-question": {
+      "type": "Text",
+      "props": {
+        "text": "How would you read this?"
+      }
+    }
+  }
+}
