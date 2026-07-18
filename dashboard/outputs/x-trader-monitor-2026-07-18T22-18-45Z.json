@@ -1,0 +1,152 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "heading_calibration",
+        "event_section",
+        "separator1",
+        "tweet",
+        "separator2",
+        "context_section",
+        "separator3",
+        "analysis_section",
+        "separator4",
+        "question"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "level": "h2",
+        "text": "🔍 Calibration — @t_in_crypto"
+      }
+    },
+    "event_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event_heading",
+        "event_text"
+      ]
+    },
+    "event_heading": {
+      "type": "Heading",
+      "props": {
+        "level": "h3",
+        "text": "Event"
+      }
+    },
+    "event_text": {
+      "type": "Text",
+      "props": {
+        "text": "Cryptic minimal post with shortened link"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "handle": "t_in_crypto",
+        "text": "#btc bitcoin:native https://t.co/mf4nTyPV0S"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context_heading",
+        "context_text"
+      ]
+    },
+    "context_heading": {
+      "type": "Heading",
+      "props": {
+        "level": "h3",
+        "text": "Context"
+      }
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "Currently x2 leverage long BTC (58.4K → conviction add to 62K on Jul 14). Structural bull, moon-cycle conviction."
+      }
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "analysis_heading",
+        "analysis_text"
+      ]
+    },
+    "analysis_heading": {
+      "type": "Heading",
+      "props": {
+        "level": "h3",
+        "text": "Analysis"
+      }
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify without expanding link — could be Bitcoin Ordinals/native asset commentary (bullish alignment), technical share, or news. No personal execution language."
+      }
+    },
+    "separator4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "question": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "What's your read?"
+      }
+    }
+  }
+}
