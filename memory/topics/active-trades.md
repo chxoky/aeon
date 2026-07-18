@@ -115,17 +115,23 @@
 ## KillaXBT
 
 ### BTC — LONG (multi-timeframe, primary conviction + near-term DCA)
-- **Status**: ACTIVE (long-horizon HTF swing + spot accumulation)
+- **Status**: ACTIVE (long-horizon HTF swing + spot accumulation, PARTIAL TP EXECUTED 2026-07-18)
 - **Holdings**: 
   - **2X swing long** (HTF): open since 06-13, "the bear cycle is coming to an end" thesis
-  - **Spot position**: ~11 Bitcoin notional at avg entry 65897
+  - **Spot position**: ~11 Bitcoin notional at avg entry 65897; **PARTIAL TP 25% secured at 63.8K and 62.6K (2026-07-18T18:12:05Z)**
 - **Position history**:
   - Small LTF long (CLOSED 06-24T16:49Z with -15k loss) — was tactical hedge, conviction targets 60.7K sweep, 68-69K next month (failed to materialize)
   - LTF scalp short (CLOSED 06-20T21:12:55Z) — de-hedged after HTF conviction strengthened
+  - **2026-07-18T18:12:05Z: PARTIAL TP — Took 25% off at 63.8K and 62.6K** (Discord reply, message_id=1528102077216194560, fast-path alerted)
+- **Current position sizing post-TP**: ~82.5% of original spot position remains (25% TP'd); core long thesis maintained with SL at BE on remainder
+- **SL/Targets (post-TP)**:
+  - Stop loss: BE (breakeven) on remaining 75%
+  - Next target: 66.3K (if BE hit, will look for 66.3K next)
+  - Support watch: 60.6K–61.3K region (tactical monitoring for structure)
 - **DCA Plan**: Targeting ~20 Bitcoin total notional over 3-4 months on dips (especially sub-50k level where willing to liquidate ISA stock holdings)
-- **Current conviction**: HIGH on BTC structure (bear market ~80% complete per 06-22 analysis); willing to add significantly at lower levels
-- **Technical thesis**: Monday High pattern in play; 60.7K initial sweep target, then 68-69K push expected next month; sub-50k triggers ISA liquidation for additional conviction add
-- **Last update**: 2026-06-25T14:50:04Z (position confirmation + DCA plan, message_id=1519716314996805654, fast-path alerted)
+- **Current conviction**: HIGH on BTC structure (bear market ~80% complete per 06-22 analysis); willing to add significantly at lower levels; adaptive TP management on bounces
+- **Technical thesis**: V-shape reversal from recent lows (62.6K–63.8K was tactical entry/scale zone); SL at BE suggests trading structure recovery into 66.3K resistance; continuing to eye 60.6K–61.3K as key support for potential re-entry if BE hit
+- **Last update**: 2026-07-18T18:12:05Z (position update: partial TP 25% @63.8K/62.6K, SL at BE, message_id=1528102077216194560, fast-path alerted, discord-trader-monitor)
 
 ### BTC — SHORT (scalp hedge, ACTIVE entry 2026-07-14)
 - **Status**: ACTIVE — LADDER ENTRY INITIATED 2026-07-14T15:38:48Z
