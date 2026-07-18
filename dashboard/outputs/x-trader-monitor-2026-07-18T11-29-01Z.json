@@ -1,0 +1,43 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "content-stack"
+      ]
+    },
+    "content-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "view-link"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "People call this \"typical\" weekend price action, but it's more illiquid than we've seen in a while.\n\nThis exact kind of price action tends to show up during bottoming formations.\n\nI remember it well in 2022, it was brutal to scalp. Hours would go by with virtually no movement.\n\nTrading in a tight $100 range for 12 straight hours isn't typical weekend price action. It's the kind of compression you see when a bear market is carving out a bottom."
+      },
+      "children": []
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2078440927534748083"
+      },
+      "children": []
+    }
+  }
+}
