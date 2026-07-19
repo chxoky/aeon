@@ -1,0 +1,126 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading-calibration",
+        "separator-1",
+        "text-event-type",
+        "tweet-card",
+        "separator-2",
+        "heading-context",
+        "stack-context",
+        "separator-3",
+        "alert-classification",
+        "separator-4",
+        "link-view"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration — @t_in_crypto",
+        "level": "h2"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "text-event-type": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Cryptic mention + URL-share post",
+        "variant": "lead"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "handle": "t_in_crypto",
+        "text": "@COTM_2 https://t.co/YaZmBjRHFi"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading-context": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "stack-context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat-position",
+        "stat-conviction",
+        "text-pattern",
+        "text-timeline"
+      ]
+    },
+    "stat-position": {
+      "type": "Stat",
+      "props": {
+        "label": "Position",
+        "value": "100% BTC LONG @ 58.4K"
+      }
+    },
+    "stat-conviction": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume conviction add",
+        "value": "x2 @ 62K (Jul 14)"
+      }
+    },
+    "text-pattern": {
+      "type": "Text",
+      "props": {
+        "text": "Pattern: Recent cryptic URL-shares tied to technical analysis",
+        "variant": "body"
+      }
+    },
+    "text-timeline": {
+      "type": "Text",
+      "props": {
+        "text": "Posted ~32 min after prior 'Bottom forming' post suggesting conversation thread continuation",
+        "variant": "body"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "alert-classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Is this (a) bullish technical setup share, (b) personal interaction, or (c) external content? What's your read?",
+        "type": "info"
+      }
+    },
+    "separator-4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "link-view": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/t_in_crypto/status/2078642115920134438"
+      }
+    }
+  }
+}
