@@ -1,0 +1,186 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration Request"
+      },
+      "children": [
+        "heading",
+        "sep1",
+        "tweet_card",
+        "sep2",
+        "context_stack",
+        "sep3",
+        "analysis_stack"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @swarmister",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "@AlucardTrades Delete"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "context_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "metadata_stack",
+        "position_stack"
+      ]
+    },
+    "metadata_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "timestamp_text",
+        "url_link"
+      ]
+    },
+    "timestamp_text": {
+      "type": "Text",
+      "props": {
+        "text": "Posted: Sun Jul 19 08:12:34 UTC 2026",
+        "variant": "caption"
+      }
+    },
+    "url_link": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/swarmister/status/2078754857809285419",
+        "href": "https://x.com/swarmister/status/2078754857809285419"
+      }
+    },
+    "position_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context_label",
+        "position_text"
+      ]
+    },
+    "context_label": {
+      "type": "Text",
+      "props": {
+        "text": "Context",
+        "variant": "lead"
+      }
+    },
+    "position_text": {
+      "type": "Text",
+      "props": {
+        "text": "swarmister is currently holding a partial BTC LONG position (entry 2026-07-17 ~62.4K) targeting 70.7K",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "analysis_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis_label",
+        "unable_text",
+        "interpretations_stack",
+        "question_alert"
+      ]
+    },
+    "analysis_label": {
+      "type": "Text",
+      "props": {
+        "text": "Possible Interpretations",
+        "variant": "lead"
+      }
+    },
+    "unable_text": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "muted"
+      }
+    },
+    "interpretations_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "interp_a",
+        "interp_b",
+        "interp_c",
+        "interp_d"
+      ]
+    },
+    "interp_a": {
+      "type": "Text",
+      "props": {
+        "text": "(a) closing/deleting a position",
+        "variant": "body"
+      }
+    },
+    "interp_b": {
+      "type": "Text",
+      "props": {
+        "text": "(b) deleting an order",
+        "variant": "body"
+      }
+    },
+    "interp_c": {
+      "type": "Text",
+      "props": {
+        "text": "(c) an external reference",
+        "variant": "body"
+      }
+    },
+    "interp_d": {
+      "type": "Text",
+      "props": {
+        "text": "(d) just banter",
+        "variant": "body"
+      }
+    },
+    "question_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Assessment Needed",
+        "message": "Is this financially significant to his trading?",
+        "type": "info"
+      }
+    }
+  }
+}
