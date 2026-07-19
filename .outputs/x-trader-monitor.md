@@ -1,8 +1,7 @@
-🔍 *Calibration — @Bitcoin_Astro*
+🐦 *[X] @Bitcoin_Astro*
 
-Event: Reply to @nsquaredvalue's statement about Bitcoin
+Gann angles continue to prove why W.D. Gann considered them one of the most powerful tools for identifying support and resistance.
 
-Bitcoin_Astro: "This is completely wrong.!
-Are you talking about Bitcoin or something else?!"
+If you study the charts below, you'll notice how price repeatedly reacts when it reaches one of the angle lines. Sometimes they act as support, other times as resistance, but they rarely get ignored.
 
-Unable to classify without context of the original statement — what's your read?
+[View tweet](https://x.com/Bitcoin_Astro/status/2078806607845027887)

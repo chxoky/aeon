@@ -1,0 +1,41 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweetcard",
+        "link"
+      ]
+    },
+    "tweetcard": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Bitcoin Astro",
+        "handle": "Bitcoin_Astro",
+        "text": "Gann angles continue to prove why W.D. Gann considered them one of the most powerful tools for identifying support and resistance.\n\nIf you study the charts below, you'll notice how price repeatedly reacts when it reaches one of the angle lines. Sometimes they act as support, other times as resistance, but they rarely get ignored."
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Bitcoin_Astro/status/2078806607845027887"
+      }
+    }
+  }
+}
