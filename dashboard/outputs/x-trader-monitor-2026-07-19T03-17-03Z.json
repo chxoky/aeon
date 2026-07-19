@@ -1,0 +1,52 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "main_stack"
+      ]
+    },
+    "main_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "link_tweet",
+        "technical_text"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Alright the weekend rally capped out right at the top of the liq from the last profile (so far…)\n\nI guess in theory this is where you would expect the asset to turn if this is just classic weekend liquidity hunting"
+      },
+      "children": []
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2078679616022041075"
+      },
+      "children": []
+    },
+    "technical_text": {
+      "type": "Text",
+      "props": {
+        "text": "Technical structure commentary: potential reversal zone at liquidity levels.",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
