@@ -1,0 +1,56 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_btc",
+        "tweet_card",
+        "link_tweet",
+        "text_analysis"
+      ]
+    },
+    "badge_btc": {
+      "type": "Badge",
+      "props": {
+        "text": "$BTC"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "2022 ended with a diagonal bottom.\n\nLet's see if 2026 does the same."
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/KillaXBT/status/2078934250208764268"
+      }
+    },
+    "text_analysis": {
+      "type": "Text",
+      "props": {
+        "text": "↳ Technical observation on BTC structure / historical pattern comparison. Aligns with KillaXBT's existing HTF-bullish conviction (2x long from 62.6K). Chart reference in tweet (inaccessible via bot). Group lean: MIXED — HTF bullish, but near-term chop expected.",
+        "variant": "muted"
+      }
+    }
+  }
+}
