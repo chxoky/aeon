@@ -1,0 +1,85 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration & event analysis"
+      },
+      "children": [
+        "heading_calibration",
+        "sep1",
+        "event_details",
+        "tweet_message",
+        "sep2",
+        "analysis_section"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @swarmister",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "event_details": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @0xjune_ (context missing — unclear what prompted the message)",
+        "variant": "body"
+      }
+    },
+    "tweet_message": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "@0xjune_ 😣"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "analysis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis_heading",
+        "analysis_text",
+        "calibration_request"
+      ]
+    },
+    "analysis_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Analysis",
+        "level": "h3"
+      }
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — is this market structure breaking (position underwater) or personal commentary?",
+        "variant": "body"
+      }
+    },
+    "calibration_request": {
+      "type": "Alert",
+      "props": {
+        "title": "Calibration Needed",
+        "message": "Reply so I can calibrate on similar cryptic posts from this trader.",
+        "type": "info"
+      }
+    }
+  }
+}
