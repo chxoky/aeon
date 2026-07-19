@@ -1,0 +1,49 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet",
+        "link_view",
+        "badge_strategy"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "yeah I think I put out about 20 tweets from last Friday into Wednesday that *if* anything bad were to happen July-August there would simply never be a cheaper time to accumulate those puts"
+      }
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2078693057290211834"
+      }
+    },
+    "badge_strategy": {
+      "type": "Badge",
+      "props": {
+        "text": "Macro hedging strategy — put accumulation positioning for potential July-August downside",
+        "variant": "outline"
+      }
+    }
+  }
+}
