@@ -1,0 +1,31 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "alert_calibration",
+        "link_post"
+      ]
+    },
+    "alert_calibration": {
+      "type": "Alert",
+      "props": {
+        "title": "Calibration",
+        "message": "@Wild_Randomness: July 2024 or 2026? Unable to classify cryptic philosophical post without URL context. Awaiting your read.",
+        "type": "info"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2078946279632372046"
+      }
+    }
+  }
+}
