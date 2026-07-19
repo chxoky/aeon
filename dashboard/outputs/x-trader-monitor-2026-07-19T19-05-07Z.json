@@ -1,0 +1,131 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_calib",
+        "sep_1",
+        "tweet_section",
+        "sep_2",
+        "context_section",
+        "sep_3",
+        "classification_alert",
+        "link_view"
+      ]
+    },
+    "heading_calib": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration — @swarmister",
+        "level": "h2"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_reply_header",
+        "tweet_reply"
+      ]
+    },
+    "text_reply_header": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to @DarthTrader0x and @icobeast:",
+        "variant": "caption"
+      }
+    },
+    "tweet_reply": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "text": "@DarthTrader0x @icobeast +++++++++++++++"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_trader_profile",
+        "stat_entry",
+        "stat_target"
+      ]
+    },
+    "text_trader_profile": {
+      "type": "Text",
+      "props": {
+        "text": "Intraday BTC trader, long-biased",
+        "variant": "muted"
+      }
+    },
+    "stat_entry": {
+      "type": "Stat",
+      "props": {
+        "label": "Entry (Jul 17)",
+        "value": "62.4k / 61.2k"
+      }
+    },
+    "stat_target": {
+      "type": "Stat",
+      "props": {
+        "label": "Target",
+        "value": "70.7k"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification",
+        "message": "Unable to classify — bullish confirmation or social banter?",
+        "type": "info"
+      }
+    },
+    "link_view": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View on X",
+        "href": "https://x.com/swarmister/status/2078917379753431180",
+        "source": "X"
+      }
+    }
+  }
+}

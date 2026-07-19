@@ -11,3 +11,8 @@
 - **Committed**: Changes saved to git
 
 The tweet is personal technical commentary about the trader's computer not being turned off (explaining elevated temperature/performance metrics). Consistent with swarmister's documented ~80% non-financial social-banter pattern. No market signal, no trade action detected.
+🔍 *Calibration — @swarmister*
+
+Reply to @DarthTrader0x and @icobeast: "@DarthTrader0x @icobeast ++++++++++++++"
+
+Context: @swarmister is intraday BTC trader (long-biased, 62.4k/61.2k entry Jul 17, 70.7k target). Unable to classify — bullish confirmation or social banter? [View](https://x.com/swarmister/status/2078917379753431180)
