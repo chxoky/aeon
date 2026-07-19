@@ -1,0 +1,159 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor",
+        "description": "Calibration — HCH Trade Alert Analysis"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_calibration",
+        "separator_1",
+        "section_message",
+        "separator_2",
+        "section_context",
+        "separator_3",
+        "section_question"
+      ]
+    },
+    "badge_calibration": {
+      "type": "Badge",
+      "props": {
+        "text": "Calibration — DC: HCH — Chat",
+        "variant": "secondary"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_message": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_message",
+        "text_author",
+        "text_message_content",
+        "link_twitter"
+      ]
+    },
+    "heading_message": {
+      "type": "Heading",
+      "props": {
+        "text": "Discord Message",
+        "level": "h3"
+      }
+    },
+    "text_author": {
+      "type": "Text",
+      "props": {
+        "text": "HeartCanHodl",
+        "variant": "lead"
+      }
+    },
+    "text_message_content": {
+      "type": "Text",
+      "props": {
+        "text": "Fc mu,sndk,mrvl 1d"
+      }
+    },
+    "link_twitter": {
+      "type": "Link",
+      "props": {
+        "label": "View on Twitter/X",
+        "href": "https://x.com/i/status/2067809014692426105"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_context",
+        "text_context_1",
+        "text_context_2",
+        "text_context_3"
+      ]
+    },
+    "heading_context": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "text_context_1": {
+      "type": "Text",
+      "props": {
+        "text": "Cryptic message from supporting channel referencing MU/SNDK/MRVL with 1d timeframe."
+      }
+    },
+    "text_context_2": {
+      "type": "Text",
+      "props": {
+        "text": "HCH's recent stance: bearish on memory/semis"
+      }
+    },
+    "text_context_3": {
+      "type": "Text",
+      "props": {
+        "text": "Crypto_Chase recently entered: MU @800 (pending approval), SNDK @1366 (pending approval)"
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_question": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_question",
+        "text_question"
+      ]
+    },
+    "heading_question": {
+      "type": "Heading",
+      "props": {
+        "text": "Analysis Request",
+        "level": "h3"
+      }
+    },
+    "text_question": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read — bearish commentary, technical analysis reference, or something else?"
+      }
+    }
+  }
+}
