@@ -265,6 +265,20 @@
 - **Approval/Alert status**: FAST-PATH ALERTED (Telegram already sent by Worker); no duplicate send by skill. Await Kyle signal on whether to mirror UNI short on Kraken or monitor as memory-only entry.
 - **Last update**: 2026-07-16T05:06:02Z (discord-trader-monitor, fast-path alerted, TRADE-CONVICTION-ADD; message_id=1527179482090311790)
 
+### VVV — SHORT (NEW ENTRY — CONVICTION ADD 2026-07-19)
+- **Status**: ACTIVE — trade-conviction-add 2026-07-19T02:08:23Z
+- **Entry**: 2026-07-19T02:08:23Z — "Add 2% vvv short"
+- **Ticker**: VVV (security/privacy crypto asset)
+- **Position size**: 2% portfolio allocation
+- **Entry type**: Direct execution call on primary Trades channel
+- **Channel**: 1279738718680256553 (HCH — Trades, ★most important)
+- **Context**: NEW TICKER for HCH's active short basket (first documented mention on 2026-07-19). Entry continues macro crypto bearish positioning expansion. VVV represents niche security/privacy token within broader bearish thesis. Terse execution format consistent with documented conviction-add pattern ("Add 2% vvv short" matches prior protocol calls). **FAST-PATH ALERTED** by Cloudflare Worker ~2-5s after event (2026-07-19T02:08:23Z); per skill Step 2 fast-path protocol, Telegram already sent to Kyle, memory-only processing applied (no duplicate notification).
+- **Thesis**: Continuation of structural bearish crypto thesis into privacy-focused layer/alternative narrative tokens. VVV enters as seventh ticker in HCH's documented short constellation (after BTC/ETH/SOL/HYPE/ZEC/UNI). Entry timing: early Asia session (02:08 UTC = Asian market overlap), suggesting overnight price action validation or pre-planned systematic accumulation into new trading week. Portfolio allocation trajectory: HCH previously achieved ~35% short-basket milestone (Jul 15 07:49:35 UTC), expanded to ~36-40% post-UNI (Jul 16), now adding VVV as incremental 2% allocation → estimated current total ~38-42% short-basket allocation (depending on profit-taking/rebalancing since last checkpoint).
+- **Conviction**: HIGH — direct execution call on ★most important primary channel; 2% allocation matches recent tier-1 ticker sizing (ETH +2%, SOL +2%, UNI +1% = variable tier, VVV at 2% = mid-tier conviction); timing suggests disciplined systematic accumulation into new trading week rather than panic/chop-driven entry.
+- **Cross-platform dedup**: HCH is dual-platform (X + Discord); no concurrent X post on VVV topic identified within ±30min prior window (last X post from HCH 2026-07-18 10:25:47 UTC ambiguous "@BullTheoryio ." — unrelated). Discord message is FIRST SIGHTING of VVV short entry.
+- **Approval/Alert status**: FAST-PATH ALERTED (Telegram already sent by Cloudflare Worker); no duplicate send by skill. Await Kyle signal on whether to mirror VVV short on Kraken or monitor as memory-only entry.
+- **Last update**: 2026-07-19T02:08:23Z (discord-trader-monitor, fast-path alerted, TRADE-CONVICTION-ADD; message_id=1528221938521079908)
+
 ## Wild_Randomness
 
 ### NVDA — SHORT (PUT) — ACTIVE (entry 2026-07-14)
