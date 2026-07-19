@@ -1,0 +1,23 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-1"
+      ]
+    },
+    "tweet-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "@HeartCanHodl",
+        "text": "🔍 *Calibration — @HeartCanHodl* — Weekend dome post. Cannot classify without seeing chart content. Context: active short basket, bearish thesis. What's your read?"
+      }
+    }
+  }
+}
