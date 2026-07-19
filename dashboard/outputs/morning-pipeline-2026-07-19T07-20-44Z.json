@@ -1,0 +1,168 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief",
+        "description": "2026-07-19"
+      },
+      "children": [
+        "focus_heading",
+        "focus_stack",
+        "sep1",
+        "since_heading",
+        "since_stack",
+        "sep2",
+        "watch_heading",
+        "watch_stack",
+        "sep3",
+        "running_heading",
+        "running_text"
+      ]
+    },
+    "focus_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "focus_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus_1",
+        "focus_2",
+        "focus_3"
+      ]
+    },
+    "focus_1": {
+      "type": "Text",
+      "props": {
+        "text": "1. HCH short basket escalating — why now: added VVV+KAITO today, both green, fading strength"
+      }
+    },
+    "focus_2": {
+      "type": "Text",
+      "props": {
+        "text": "2. BTC $65K into FOMC — why now: at ceiling; Polymarket now 93% no-July-hike"
+      }
+    },
+    "focus_3": {
+      "type": "Text",
+      "props": {
+        "text": "3. Clear the 5-post calibration backlog — why now: cryptic trader posts since 7/17 unanswered"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "since_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "since_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "since_1",
+        "since_2",
+        "since_3",
+        "since_4"
+      ]
+    },
+    "since_1": {
+      "type": "Text",
+      "props": {
+        "text": "Sentiment thawed: F&G 25→28 (out of Extreme Fear, 1st in 3d); 7d breadth 9→12/20 green; DEX vol +18% to $7.84B"
+      }
+    },
+    "since_2": {
+      "type": "Text",
+      "props": {
+        "text": "ETH leads rotation: +3.6% 7d vs BTC +1.1%; DeFi majors Aave +8.9% / Lido +7.5% 7d"
+      }
+    },
+    "since_3": {
+      "type": "Text",
+      "props": {
+        "text": "HCH escalated shorts: +2% VVV (02:08), +1% KAITO (04:36) — basket now 8 tickers (~40%), both names green"
+      }
+    },
+    "since_4": {
+      "type": "Text",
+      "props": {
+        "text": "Movers: BUILDon +62% (pump-risk #176), KAITO +37% 7d breakout; BONK −30% 7d, AERO −12% 7d lagging"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "watch_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "watch_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "watch_1",
+        "watch_2"
+      ]
+    },
+    "watch_1": {
+      "type": "Text",
+      "props": {
+        "text": "FOMC Jul 28–29 (Warsh) — Polymarket 93% hold; hawkish tone (not the rate) is the risk → caps a $65K break (focus #2)"
+      }
+    },
+    "watch_2": {
+      "type": "Text",
+      "props": {
+        "text": "BTC ETF flows positive in July (+$197M wk to 7/10) but YTD −$5.4B → needs confirmation to break $65K (focus #2)"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "running_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today (UTC)",
+        "level": "h2"
+      }
+    },
+    "running_text": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 08 · token-alert, token-movers @ 12 · market-context-refresh @ 13 · narrative-tracker @ 13:30 · heartbeat @ 14 · skill-health @ 18 · heartbeat @ 20"
+      }
+    }
+  }
+}

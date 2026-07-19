@@ -1,20 +1,19 @@
-*Morning Brief — 2026-07-18*
+*Morning Brief — 2026-07-19*
 
 *Focus today*
-1. BTC $64.5–65K — the level that decides the week — why now: +1.95% into resistance pre-FOMC, trader book split here
-2. Trust the bounce? Not yet — why now: breadth flipped 3→15/20 green but DEX vol flat, F&G fell to 25
-3. Answer the t_in_crypto calibration — why now: two ambiguous $btc posts (7/17) await your read
+1. HCH short basket escalating — why now: added VVV+KAITO today, both green, fading strength
+2. BTC $65K into FOMC — why now: at ceiling; Polymarket now 93% no-July-hike
+3. Clear the 5-post calibration backlog — why now: cryptic trader posts since 7/17 unanswered
 
 *Since yesterday*
-- Market bounced: BTC −2.0%→+1.95%, breadth 3→15/20 green; HYPE selling halted (−8.3%→flat), ONDO back green
-- Leverage flushed: ~102K traders liquidated 7/17, BTC wicked $62.6K — bounce is off cleaner positioning
-- Traders: Chase confirmed MU (~$800)+SNDK DCA plan; Wild_Randomness closed July SPX puts, scaling October
-- Leaders: AI-agent (VVV +15.8%) and XEC (+65% 7d) topping the tape — where money's rotating if hunting longs
+- Sentiment thawed: F&G 25→28 (out of Extreme Fear, 1st in 3d); 7d breadth 9→12/20 green; DEX vol +18% to $7.84B
+- ETH leads rotation: +3.6% 7d vs BTC +1.1%; DeFi majors Aave +8.9% / Lido +7.5% 7d
+- HCH escalated shorts: +2% VVV (02:08), +1% KAITO (04:36) — basket now 8 tickers (~40%), both names green
+- Movers: BUILDon +62% (pump-risk #176), KAITO +37% 7d breakout; BONK −30% 7d, AERO −12% 7d lagging
 
 *Watch*
-- Stablecoin cross-agency implementation-rules deadline today (7/18) — regulatory catalyst, watch sentiment (focus #2)
-- BTC ETF flows flipped to inflows early July but YTD still net-outflow — swing factor for any $65K break (focus #1)
+- FOMC Jul 28–29 (Warsh) — Polymarket 93% hold; hawkish *tone* (not the rate) is the risk → caps a $65K break (focus #2)
+- BTC ETF flows positive in July (+$197M wk to 7/10) but YTD −$5.4B → needs confirmation to break $65K (focus #2)
 
 *Running today (UTC)*
-- token-alert, token-movers @ 12:00 · market-context-refresh @ 13:00 · narrative-tracker @ 13:30
-- heartbeat @ 14:00, 20:00 · skill-health @ 18:00
+- heartbeat @ 08 · token-alert, token-movers @ 12 · market-context-refresh @ 13 · narrative-tracker @ 13:30 · heartbeat @ 14 · skill-health @ 18 · heartbeat @ 20
