@@ -1,0 +1,112 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading_calibration",
+        "text_event",
+        "separator_1",
+        "tweet_card",
+        "separator_2",
+        "text_unable_to_classify",
+        "stack_options",
+        "separator_3",
+        "text_context",
+        "link_tweet"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Stoiiic",
+        "level": "h2"
+      }
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Cryptic mention + prayer emoji (no visible external trigger in post)"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "Stoiiic",
+        "text": "@Crypto_tIdr 🙏"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_unable_to_classify": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — is this:"
+      }
+    },
+    "stack_options": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "option_a",
+        "option_b",
+        "option_c"
+      ]
+    },
+    "option_a": {
+      "type": "Text",
+      "props": {
+        "text": "(a) Personal interaction/non-financial?"
+      }
+    },
+    "option_b": {
+      "type": "Text",
+      "props": {
+        "text": "(b) Coded market signal related to order-flow/structure context?"
+      }
+    },
+    "option_c": {
+      "type": "Text",
+      "props": {
+        "text": "(c) Technical reference to a specific analysis or strategy?"
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "Context: Stoiiic has established pattern of terse, cryptic posts. Last similar post (Jul 17 19:52) was \"@brian?\" awaiting clarification."
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Stoiiic/status/2078670753252167709"
+      }
+    }
+  }
+}
