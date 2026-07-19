@@ -1,0 +1,108 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "main_stack"
+      ]
+    },
+    "main_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_section",
+        "tickers_section",
+        "analysis_section"
+      ]
+    },
+    "tweet_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet_card",
+        "tweet_link"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "So far, so good…"
+      },
+      "children": []
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/Wild_Randomness/status/2078691790635631030"
+      },
+      "children": []
+    },
+    "tickers_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_vix",
+        "badge_vxn"
+      ]
+    },
+    "badge_vix": {
+      "type": "Badge",
+      "props": {
+        "text": "$VIX",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge_vxn": {
+      "type": "Badge",
+      "props": {
+        "text": "$VXN",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "analysis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "separator",
+        "analysis_text"
+      ]
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Continues documented vol-dispersion watching; aligns with VIX calls thesis (Dec 2031, entry 2026-07-15)",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
