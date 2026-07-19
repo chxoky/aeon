@@ -1,0 +1,52 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "link_view",
+        "text_analysis"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Heart Can Hodl",
+        "handle": "@HeartCanHodl",
+        "text": "We've arrived at the second \"it looks like holding again\" short setup."
+      },
+      "children": []
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/HeartCanHodl/status/2078675848585191457"
+      },
+      "children": []
+    },
+    "text_analysis": {
+      "type": "Text",
+      "props": {
+        "text": "HCH tracking a repeating technical pattern (second occurrence). Likely validates his bearish short thesis on BTC/majors — watching for breakdown confirmation.",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
