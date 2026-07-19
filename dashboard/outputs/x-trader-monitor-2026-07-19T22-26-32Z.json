@@ -1,0 +1,39 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "alert_main",
+        "story_tweet",
+        "text_query"
+      ]
+    },
+    "alert_main": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "title": "🔍 Calibration Alert from KillaXBT",
+        "message": "Chart perspective analysis. Cannot classify without image context."
+      }
+    },
+    "story_tweet": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Tweet Analysis",
+        "href": "https://x.com/KillaXBT/status/2078966878962151791",
+        "source": "Twitter/X"
+      }
+    },
+    "text_query": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?"
+      }
+    }
+  }
+}
