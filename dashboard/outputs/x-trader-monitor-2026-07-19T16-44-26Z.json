@@ -1,0 +1,124 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor: Calibration — @t_in_crypto",
+        "description": "Event: t_in_crypto just posted about pivot dates — claiming foreknowledge of market structure and geometry"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_calibration",
+        "separator_1",
+        "tweet_card",
+        "separator_2",
+        "heading_context",
+        "stat_position",
+        "text_previous",
+        "separator_3",
+        "heading_classification",
+        "alert_classification",
+        "link_view"
+      ]
+    },
+    "text_calibration": {
+      "type": "Text",
+      "props": {
+        "text": "🔍 Calibration — @t_in_crypto",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "handle": "t_in_crypto",
+        "text": "Follow pivot dates 🧘🏽‍♀️\n\nI know all the dates a month or more in advance\nThis isn't astrology, it's market structure and geometry\n\n$btc #btc"
+      },
+      "children": []
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_context": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "stat_position": {
+      "type": "Stat",
+      "props": {
+        "label": "Current BTC Position",
+        "value": "200%+ Long",
+        "delta": "100% @ 58.4K + conviction add x2 volume @ 62K on Jul 14"
+      },
+      "children": []
+    },
+    "text_previous": {
+      "type": "Text",
+      "props": {
+        "text": "Previous post (Jul 17 15:41): \"Follow me or play against me 🤷🏻‍♀️ $btc\" — pending calibration",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_classification": {
+      "type": "Heading",
+      "props": {
+        "text": "Unable to Classify",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "alert_classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification Question",
+        "message": "Without seeing the chart/content at the link, is this:\n(a) Educational post about their methodology (informational)?\n(b) A trade-timing signal that they're about to execute?\n(c) A challenge/calibration message?\n\nWhat's your read?",
+        "type": "info"
+      },
+      "children": []
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/t_in_crypto/status/2078882394031923693"
+      },
+      "children": []
+    }
+  }
+}
