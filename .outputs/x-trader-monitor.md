@@ -1,8 +1,6 @@
 🔍 *Calibration — @t_in_crypto*
 
-Event: Reply to @Giant_Bull12 in choppy BTC consolidation (62K zone)
-t_in_crypto: "Still 0:0 🥲"
+Event: Reply to @Morecryptoonl (context unavailable)
+t_in_crypto: "39 🤌🏽🤌🏽"
 
-Unable to classify — cryptic/conversation-dependent. Is this personal banter, market chop commentary, or trade-status update?
-
-What's your read?
+Unable to classify — what's your read? This trader is 100% BTC long @58.4K + 2x conviction add @62K (Jul 14), diamond-handing 67–71K targets. Previous cryptic post (Jul 17) also marked ambiguous. Does "39" refer to a price level, leverage, percentage, or something else?

@@ -1,0 +1,176 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration — @t_in_crypto"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section_event",
+        "separator_1",
+        "section_response",
+        "separator_2",
+        "section_analysis"
+      ]
+    },
+    "section_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @Morecryptoonl (context unavailable)"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_response": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "handle": "t_in_crypto",
+        "text": "39 🤌🏽🤌🏽"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_analysis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert_unable",
+        "stack_position",
+        "text_previous",
+        "stack_question"
+      ]
+    },
+    "alert_unable": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to Classify",
+        "message": "What's your read?",
+        "type": "warning"
+      }
+    },
+    "stack_position": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_entry",
+        "stat_add",
+        "stat_targets"
+      ]
+    },
+    "stat_entry": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC Position",
+        "value": "100% Long @ 58.4K"
+      }
+    },
+    "stat_add": {
+      "type": "Stat",
+      "props": {
+        "label": "2x Conviction Add",
+        "value": "@ 62K",
+        "delta": "Jul 14"
+      }
+    },
+    "stat_targets": {
+      "type": "Stat",
+      "props": {
+        "label": "Target Range (Diamond-handing)",
+        "value": "67K – 71K"
+      }
+    },
+    "text_previous": {
+      "type": "Text",
+      "props": {
+        "text": "Previous cryptic post (Jul 17) also marked ambiguous",
+        "variant": "muted"
+      }
+    },
+    "stack_question": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_question",
+        "stack_options"
+      ]
+    },
+    "text_question": {
+      "type": "Text",
+      "props": {
+        "text": "Does \"39\" refer to:"
+      }
+    },
+    "stack_options": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_price",
+        "badge_leverage",
+        "badge_percentage",
+        "badge_other"
+      ]
+    },
+    "badge_price": {
+      "type": "Badge",
+      "props": {
+        "text": "Price level?",
+        "variant": "outline"
+      }
+    },
+    "badge_leverage": {
+      "type": "Badge",
+      "props": {
+        "text": "Leverage?",
+        "variant": "outline"
+      }
+    },
+    "badge_percentage": {
+      "type": "Badge",
+      "props": {
+        "text": "Percentage?",
+        "variant": "outline"
+      }
+    },
+    "badge_other": {
+      "type": "Badge",
+      "props": {
+        "text": "Something else?",
+        "variant": "outline"
+      }
+    }
+  }
+}
