@@ -1,0 +1,51 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @t_in_crypto"
+      },
+      "children": [
+        "tweet_card",
+        "analysis_text",
+        "question_text",
+        "view_link"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "handle": "t_in_crypto",
+        "text": "@zohaan1324 @LP_NXT Aug - oct"
+      },
+      "children": []
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "This is cryptic — appears to reference a timeframe (Aug-Oct?) but unclear if it's: a position hold window, price target range, reply context, or unrelated. Unable to classify without more context.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "question_text": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/t_in_crypto/status/2078634235099857003"
+      },
+      "children": []
+    }
+  }
+}
