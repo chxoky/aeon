@@ -1,20 +1,23 @@
-Done. Executed the token-alert skill.
+Snapshot logged. No notification needed since no anomalies were detected.
 
 ## Summary
 
-Ran the **token-alert** skill for 2026-07-18. Read tracked tokens from `memory/MEMORY.md` (BTC, ETH, SOL, HYPE — all 10% thresholds), pulled prior prices from recent logs/market-context, and fetched current data from the CoinGecko free API.
+Executed the **token-alert** skill for 2026-07-19.
 
-**Current prices:**
-| Token | Price | 24h | 24h Vol |
-|-------|-------|-----|---------|
-| BTC | $64,079 | +1.55% | $21.24B |
-| ETH | $1,841.17 | +0.59% | $6.92B |
-| SOL | $74.77 | +0.38% | $1.23B |
-| HYPE | $58.63 | −2.19% | $370M |
+- Read tracked tokens from `memory/MEMORY.md` (BTC, ETH, SOL, HYPE — all 10% thresholds) and checked recent logs for prior prices.
+- Fetched live data from CoinGecko `simple/price` (no-auth endpoint, curl succeeded — no fallback needed).
+- Evaluated anomaly conditions:
 
-**Result: TOKEN_ALERT_OK** — no anomalies. All 24h moves are well under the 10% threshold (largest is HYPE at −2.19%), no volume spike >3x average, and no threshold crosses. **No notification sent** (nothing to alert on).
+| Token | Price | 24h Change | Alert? |
+|-------|-------|-----------|--------|
+| BTC | $64,334 | +0.33% | No |
+| ETH | $1,870.24 | +1.51% | No |
+| SOL | $76.03 | +1.70% | No |
+| HYPE | $60.94 | +3.92% | No |
 
-- **Files modified:** `memory/logs/2026-07-18.md` — appended a `[token-alert] TOKEN_ALERT_OK` entry with all four prices for next comparison.
-- **Follow-up:** None.
+- All 24h moves are well below the 10% threshold; no >3x volume spike; no configured threshold crossings. **No alert sent.**
+- Logged the full price snapshot as `TOKEN_ALERT_OK` in `memory/logs/2026-07-19.md` for next comparison.
 
-Note: `soul/` files are empty templates, so no voice styling was applicable (and no outbound message was generated anyway).
+**Files modified:** `memory/logs/2026-07-19.md`
+
+**Follow-ups:** None. (Note: the skill's suggested `>>` shell redirect to the log is blocked by the workspace write sandbox — I used the Edit tool instead; worth noting if the skill is ever hardened for unattended runs.)
