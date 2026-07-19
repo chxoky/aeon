@@ -1,0 +1,60 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_main",
+        "text_context",
+        "text_interpretations",
+        "text_question"
+      ]
+    },
+    "heading_main": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "Context: Recent interaction history with @Xccvrid on technical chart analysis (Jul 18 19:13 UTC). Current post references @Xccvrid with cryptic phrase: \"Simple 50\".",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_interpretations": {
+      "type": "Text",
+      "props": {
+        "text": "Possible interpretations: 50-period SMA, price level, chart setup name, or reply context.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_question": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "lead"
+      },
+      "children": []
+    }
+  }
+}
