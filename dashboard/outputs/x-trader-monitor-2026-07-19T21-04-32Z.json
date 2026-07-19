@@ -1,0 +1,78 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X-Trader Monitor — Calibration",
+        "description": "Classification challenge on @t_in_crypto market commentary"
+      },
+      "children": [
+        "heading_1",
+        "event_context",
+        "sep_1",
+        "tweet_card",
+        "sep_2",
+        "analysis_alert",
+        "question_text"
+      ]
+    },
+    "heading_1": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @t_in_crypto",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "event_context": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to @Giant_Bull12 in choppy BTC consolidation (62K zone)",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "handle": "t_in_crypto",
+        "text": "Still 0:0 🥲"
+      },
+      "children": []
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Cryptic/conversation-dependent. Is this personal banter, market chop commentary, or trade-status update?",
+        "type": "info"
+      },
+      "children": []
+    },
+    "question_text": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "lead"
+      },
+      "children": []
+    }
+  }
+}
