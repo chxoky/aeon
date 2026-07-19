@@ -1,0 +1,65 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "main-stack"
+      ]
+    },
+    "main-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-link",
+        "classification-row",
+        "status-alert"
+      ]
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "Tweet by swarmister (ID: 2078862257920884793)",
+        "href": "https://twitter.com/i/web/status/2078862257920884793"
+      }
+    },
+    "classification-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "class-label",
+        "class-badge"
+      ]
+    },
+    "class-label": {
+      "type": "Text",
+      "props": {
+        "text": "Classification:"
+      }
+    },
+    "class-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "non-financial",
+        "variant": "outline"
+      }
+    },
+    "status-alert": {
+      "type": "Alert",
+      "props": {
+        "message": "No action required — skipped",
+        "type": "info"
+      }
+    }
+  }
+}
