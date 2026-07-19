@@ -1,0 +1,141 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration signal requiring interpretation"
+      },
+      "children": [
+        "header",
+        "event_info",
+        "sep1",
+        "tweet",
+        "sep2",
+        "analysis"
+      ]
+    },
+    "header": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @t_in_crypto",
+        "level": "h2"
+      }
+    },
+    "event_info": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event_badge",
+        "event_text"
+      ]
+    },
+    "event_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Event",
+        "variant": "secondary"
+      }
+    },
+    "event_text": {
+      "type": "Text",
+      "props": {
+        "text": "Third post in series on lunar cycles and market geometry.",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "handle": "@t_in_crypto",
+        "text": "Honestly, I'm ready to grunt with joy when the market geometry perfectly coincides with the lunar cycle (geometry is a priority for me)\n\nBig week guys 😁\n$btc #btc"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis_title",
+        "classification_section",
+        "pattern_section"
+      ]
+    },
+    "analysis_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Classification Required",
+        "level": "h3"
+      }
+    },
+    "classification_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "classification_prompt",
+        "option_a",
+        "option_b",
+        "option_c"
+      ]
+    },
+    "classification_prompt": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — which interpretation applies?",
+        "variant": "lead"
+      }
+    },
+    "option_a": {
+      "type": "Badge",
+      "props": {
+        "text": "Personal-spiritual observation (skip)",
+        "variant": "outline"
+      }
+    },
+    "option_b": {
+      "type": "Badge",
+      "props": {
+        "text": "Geometric-pivot hint (informational)",
+        "variant": "outline"
+      }
+    },
+    "option_c": {
+      "type": "Badge",
+      "props": {
+        "text": "Pre-execution signal",
+        "variant": "outline"
+      }
+    },
+    "pattern_section": {
+      "type": "Alert",
+      "props": {
+        "title": "Recent Pattern Alert",
+        "message": "3 cryptic posts in 90 min on timing/cycles. Need your read for calibration.",
+        "type": "warning"
+      }
+    }
+  }
+}
