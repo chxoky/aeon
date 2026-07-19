@@ -1,0 +1,160 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @swarmister"
+      },
+      "children": [
+        "event_heading",
+        "messages_section",
+        "context_section",
+        "classification_section",
+        "view_link"
+      ]
+    },
+    "event_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Event: Second rapid reply to @NewsInSmol within 10 minutes",
+        "level": "h3"
+      }
+    },
+    "messages_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "prior_msg_label",
+        "message1",
+        "current_msg_label",
+        "message2"
+      ]
+    },
+    "prior_msg_label": {
+      "type": "Text",
+      "props": {
+        "text": "Prior message (10 minutes ago):",
+        "variant": "caption"
+      }
+    },
+    "message1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "@swarmister",
+        "text": "@NewsInSmol Yeah https://t.co/WJFYddBgBT"
+      }
+    },
+    "current_msg_label": {
+      "type": "Text",
+      "props": {
+        "text": "Current message:",
+        "variant": "caption"
+      }
+    },
+    "message2": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "@swarmister",
+        "text": "@NewsInSmol https://t.co/LnBaK389KX"
+      }
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_heading",
+        "context_content"
+      ]
+    },
+    "context_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "context_content": {
+      "type": "Text",
+      "props": {
+        "text": "swarmister is an intraday BTC/ETH trader (long-biased, volume-profile focus). Both messages have inaccessible content. Pattern unclear.",
+        "variant": "body"
+      }
+    },
+    "classification_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "classification_prompt",
+        "classification_options"
+      ]
+    },
+    "classification_prompt": {
+      "type": "Heading",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "level": "h3"
+      }
+    },
+    "classification_options": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ]
+    },
+    "option1": {
+      "type": "Badge",
+      "props": {
+        "text": "Trade signal coordination with @NewsInSmol?",
+        "variant": "outline"
+      }
+    },
+    "option2": {
+      "type": "Badge",
+      "props": {
+        "text": "Chart/analysis link share?",
+        "variant": "outline"
+      }
+    },
+    "option3": {
+      "type": "Badge",
+      "props": {
+        "text": "Market sentiment alignment?",
+        "variant": "outline"
+      }
+    },
+    "option4": {
+      "type": "Badge",
+      "props": {
+        "text": "Social banter?",
+        "variant": "outline"
+      }
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/swarmister/status/2078774898244075695"
+      }
+    }
+  }
+}
