@@ -1,0 +1,325 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Market Context — 2026-07-19"
+      },
+      "children": [
+        "section-take",
+        "sep-1",
+        "section-prices",
+        "sep-2",
+        "section-sentiment",
+        "sep-3",
+        "section-volume",
+        "sep-4",
+        "section-narrative",
+        "sep-5",
+        "section-betting"
+      ]
+    },
+    "section-take": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-take",
+        "take-content"
+      ]
+    },
+    "heading-take": {
+      "type": "Heading",
+      "props": {
+        "text": "Take",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "take-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-chop",
+        "badge-conviction"
+      ]
+    },
+    "badge-chop": {
+      "type": "Badge",
+      "props": {
+        "text": "chop",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge-conviction": {
+      "type": "Badge",
+      "props": {
+        "text": "conviction low",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-prices": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-prices",
+        "grid-prices"
+      ]
+    },
+    "heading-prices": {
+      "type": "Heading",
+      "props": {
+        "text": "Prices",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "grid-prices": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat-btc",
+        "stat-eth"
+      ]
+    },
+    "stat-btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$64,455",
+        "delta": "+0.60%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat-eth": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$1,871",
+        "delta": "+1.67%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-sentiment": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-sentiment",
+        "grid-sentiment"
+      ]
+    },
+    "heading-sentiment": {
+      "type": "Heading",
+      "props": {
+        "text": "Market Sentiment",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "grid-sentiment": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat-fg",
+        "stat-breadth"
+      ]
+    },
+    "stat-fg": {
+      "type": "Stat",
+      "props": {
+        "label": "Fear & Greed",
+        "value": "28",
+        "delta": "Fear"
+      },
+      "children": []
+    },
+    "stat-breadth": {
+      "type": "Stat",
+      "props": {
+        "label": "Breadth",
+        "value": "17/20"
+      },
+      "children": []
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-volume": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-volume",
+        "stack-volume"
+      ]
+    },
+    "heading-volume": {
+      "type": "Heading",
+      "props": {
+        "text": "DEX Volume",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "stack-volume": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-dex-vol",
+        "text-dex-context"
+      ]
+    },
+    "stat-dex-vol": {
+      "type": "Stat",
+      "props": {
+        "label": "Current",
+        "value": "$4.65B",
+        "delta": "−30%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "text-dex-context": {
+      "type": "Text",
+      "props": {
+        "text": "vs yesterday: $7.84B",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-narrative": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-narrative",
+        "text-narrative"
+      ]
+    },
+    "heading-narrative": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Narrative",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text-narrative": {
+      "type": "Text",
+      "props": {
+        "text": "ETH/DeFi rising (decelerating); KAITO AI rising",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep-5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-betting": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-betting",
+        "betting-content"
+      ]
+    },
+    "heading-betting": {
+      "type": "Heading",
+      "props": {
+        "text": "Hot Market",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "betting-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-betting",
+        "progress-betting"
+      ]
+    },
+    "text-betting": {
+      "type": "Text",
+      "props": {
+        "text": "FIFA WC Final — Spain advance YES",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "progress-betting": {
+      "type": "Progress",
+      "props": {
+        "value": 58.9,
+        "max": 100,
+        "label": "58.9%"
+      },
+      "children": []
+    }
+  }
+}
