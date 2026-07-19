@@ -1,0 +1,82 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "header",
+        "event-section",
+        "message-section",
+        "alert-section"
+      ]
+    },
+    "header": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @t_in_crypto",
+        "level": "h2"
+      }
+    },
+    "event-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event-label",
+        "event-text"
+      ]
+    },
+    "event-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "event-text": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to KryptoFynn and/or KillaXBT about a trade decision"
+      }
+    },
+    "message-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "message-label",
+        "message-text"
+      ]
+    },
+    "message-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Message",
+        "level": "h3"
+      }
+    },
+    "message-text": {
+      "type": "Text",
+      "props": {
+        "text": "because he bought it and wants to make money quickly",
+        "variant": "lead"
+      }
+    },
+    "alert-section": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Is this dismissive commentary on someone else's strategy, or clarifying Kyle's own thinking? Without the original post context, unclear if this is informational or something to track differently.",
+        "type": "info"
+      }
+    }
+  }
+}
