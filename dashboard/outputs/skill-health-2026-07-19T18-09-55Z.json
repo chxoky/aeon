@@ -1,0 +1,111 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Skill Health",
+        "description": "2026-07-19"
+      },
+      "children": [
+        "stack-header",
+        "stack-body",
+        "stack-footer"
+      ]
+    },
+    "stack-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-status",
+        "text-summary"
+      ]
+    },
+    "badge-status": {
+      "type": "Badge",
+      "props": {
+        "text": "OK",
+        "variant": "secondary"
+      }
+    },
+    "text-summary": {
+      "type": "Text",
+      "props": {
+        "text": "6 skills healthy",
+        "variant": "lead"
+      }
+    },
+    "stack-body": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "alert-nodata",
+        "stack-healthy"
+      ]
+    },
+    "alert-nodata": {
+      "type": "Alert",
+      "props": {
+        "title": "⚪ NO DATA (1)",
+        "message": "morning-brief — DISPATCH-SKILL (stuck 'dispatched' since 2026-07-17, no completion)",
+        "type": "warning"
+      }
+    },
+    "stack-healthy": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-healthy",
+        "text-healthy-list"
+      ]
+    },
+    "heading-healthy": {
+      "type": "Heading",
+      "props": {
+        "text": "🟢 HEALTHY: 6",
+        "level": "h3"
+      }
+    },
+    "text-healthy-list": {
+      "type": "Text",
+      "props": {
+        "text": "token-alert, token-movers, market-context-refresh, narrative-tracker, skill-health, heartbeat"
+      }
+    },
+    "stack-footer": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat-open-issues",
+        "stat-resolved"
+      ]
+    },
+    "stat-open-issues": {
+      "type": "Stat",
+      "props": {
+        "label": "Open issues",
+        "value": "0"
+      }
+    },
+    "stat-resolved": {
+      "type": "Stat",
+      "props": {
+        "label": "Resolved this run",
+        "value": "0"
+      }
+    }
+  }
+}
