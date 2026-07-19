@@ -1,0 +1,178 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor — Calibration @t_in_crypto",
+        "description": "Cryptic tweet classification"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-event",
+        "text-event-desc",
+        "tweet-cryptic",
+        "sep-1",
+        "heading-context",
+        "text-background",
+        "text-thesis",
+        "grid-stats",
+        "sep-2",
+        "heading-analysis",
+        "alert-unable",
+        "text-question"
+      ]
+    },
+    "heading-event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text-event-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Extremely cryptic tweet with no ticker/context specified",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "tweet-cryptic": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "text": "@sarkillyxx60 @zohaan1324 @LP_NXT Bottom forming"
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading-context": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text-background": {
+      "type": "Text",
+      "props": {
+        "text": "t_in_crypto has been heavily focused on BTC bottom-formation thesis with documented multiple posts from Jul 15-18 discussing cycle bottom, capitulation wick, 59K base low, and capitulation phase.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-thesis": {
+      "type": "Text",
+      "props": {
+        "text": "Current position: 100%+ long BTC with +x2 volume conviction add at $62K (Jul 14).",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "grid-stats": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "stat-long",
+        "stat-entry-price",
+        "stat-base-low",
+        "stat-volume",
+        "stat-conviction-add"
+      ]
+    },
+    "stat-long": {
+      "type": "Stat",
+      "props": {
+        "label": "Long Position",
+        "value": "100%+"
+      },
+      "children": []
+    },
+    "stat-entry-price": {
+      "type": "Stat",
+      "props": {
+        "label": "Entry Price",
+        "value": "$58.4K"
+      },
+      "children": []
+    },
+    "stat-base-low": {
+      "type": "Stat",
+      "props": {
+        "label": "Capitulation Low",
+        "value": "$59K"
+      },
+      "children": []
+    },
+    "stat-volume": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume Conviction Multiplier",
+        "value": "x2"
+      },
+      "children": []
+    },
+    "stat-conviction-add": {
+      "type": "Stat",
+      "props": {
+        "label": "Conviction Add Price",
+        "value": "$62K"
+      },
+      "children": []
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading-analysis": {
+      "type": "Heading",
+      "props": {
+        "text": "Analysis",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "alert-unable": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "No ticker or clear context — unclear asset reference",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "text-question": {
+      "type": "Text",
+      "props": {
+        "text": "Is this confirming BTC bottom forming, or referring to another asset? What's your read?",
+        "variant": "lead"
+      },
+      "children": []
+    }
+  }
+}
