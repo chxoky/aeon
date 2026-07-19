@@ -1,0 +1,62 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet-card",
+        "view-link",
+        "separator",
+        "context-section"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "handle": "t_in_crypto",
+        "text": "this will help you $btc #btc https://t.co/ZBdLhwXGPI"
+      }
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/t_in_crypto/status/2078945019247927791"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {}
+    },
+    "context-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context-heading",
+        "context-content"
+      ]
+    },
+    "context-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "context-content": {
+      "type": "Text",
+      "props": {
+        "text": "t_in_crypto holds 100%+ BTC LONG @58.4K with x2 volume conviction add @62K (Jul 14). Shares bullish resource aligned with documented diamond-hand thesis. Structural bull positioning (aligns with KillaXBT 2x HTF long).",
+        "variant": "body"
+      }
+    }
+  }
+}

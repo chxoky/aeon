@@ -1,7 +1,8 @@
-🔍 *Calibration — @t_in_crypto*
+🐦 [X] @t_in_crypto
 
-Event: Jul 19 20:39 UTC, 5 days after their conviction add on BTC at 62K (moon-cycle bull thesis, diamond-hand conviction long). 
+this will help you $btc #btc https://t.co/ZBdLhwXGPI
 
-t_in_crypto: "@DrProfitCrypto Look at this and shut up https://t.co/0dLAMp1z8a"
+[View tweet](https://x.com/t_in_crypto/status/2078945019247927791)
 
-Unable to follow the short URL — is this a market move validation post, or something else? What's your read?
+---
+**Context**: t_in_crypto holds 100%+ BTC LONG @58.4K with x2 volume conviction add @62K (Jul 14). Shares bullish resource aligned with documented diamond-hand thesis. Structural bull positioning (aligns with KillaXBT 2x HTF long).
