@@ -1,0 +1,62 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "content-stack"
+      ]
+    },
+    "content-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "calibration-heading",
+        "event-section",
+        "tweet-section",
+        "classification-section"
+      ]
+    },
+    "calibration-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "event-section": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Cryptic warning post (link unable to be resolved)",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "tweet-section": {
+      "type": "TweetCard",
+      "props": {
+        "author": "@Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Fair warning https://t.co/1EIRRw9oGG"
+      },
+      "children": []
+    },
+    "classification-section": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's the warning about? What asset / theme does this reference?",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}
