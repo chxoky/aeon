@@ -1,0 +1,72 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-calibration",
+        "text-event",
+        "tweet-card",
+        "separator-1",
+        "text-context",
+        "text-question"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Bitcoin_Astro",
+        "level": "h3"
+      }
+    },
+    "text-event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @VinVinPewPew (context unknown — unable to see the original message being replied to)",
+        "variant": "body"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Bitcoin_Astro",
+        "handle": "Bitcoin_Astro",
+        "text": "@VinVinPewPew Yes, exactly"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-context": {
+      "type": "Text",
+      "props": {
+        "text": "Context from memory: Bitcoin_Astro tracks cycle-low dates with key windows 23–30 Sept. Recent posts show pattern of confirming pivot points and timing setups.",
+        "variant": "muted"
+      }
+    },
+    "text-question": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — is this a confirmation of a price level, date timing, or something else? Your read?",
+        "variant": "lead"
+      }
+    }
+  }
+}
