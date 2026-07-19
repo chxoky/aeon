@@ -1,0 +1,107 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @swarmister"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "heading",
+        "event-label",
+        "tweet-card",
+        "context-block",
+        "analysis-block",
+        "link"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @swarmister",
+        "level": "h2"
+      }
+    },
+    "event-label": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @NewsInSmol",
+        "variant": "muted"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "Yeah https://t.co/WJFYddBgBT"
+      }
+    },
+    "context-block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context-heading",
+        "context-text"
+      ]
+    },
+    "context-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "context-text": {
+      "type": "Text",
+      "props": {
+        "text": "@swarmister entered BTC long (partial, 62.4k/61.2k adds planned, 70.7k target) on Jul 17. Tweet is cryptic \"Yeah\" + URL with no visible financial content."
+      }
+    },
+    "analysis-block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "unable-text",
+        "question-text"
+      ]
+    },
+    "unable-text": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — is this agreement on market structure/direction, or social banter?"
+      }
+    },
+    "question-text": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "lead"
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/swarmister/status/2078772535450120469"
+      }
+    }
+  }
+}
