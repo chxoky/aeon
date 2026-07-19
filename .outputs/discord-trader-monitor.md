@@ -1,18 +1,21 @@
 ## Summary
 
-I've successfully executed the Discord Trader Monitor skill with the provided event data. Here's what happened:
+Executed `discord-trader-monitor` skill on real-time Discord message event from KillaXBT.
 
-**Event Analysis:**
-- **Trader**: Crypto_Chase in primary channel "Chase — Chase"
-- **Message ID**: 1528396579759722536 (new, not in dedup list)
-- **Content**: Link to X post asking for engagement ("any likes/comments on the game appreciated!")
-- **Classification**: Non-financial (administrative/engagement request per Step 4A)
+**Message:** Reply to his own BTC position update, clarifying conviction to hold 2x swing long from 62.6K, cautioning against shorts, and addressing funding-rate FUD with economic breakdown (8-10% annual costs vs 300% upside = tiny sacrifice for 2x leverage).
 
-**Actions Taken:**
-1. ✅ Decoded base64 event successfully
-2. ✅ Validated event structure and trader identity
-3. ✅ Classified as non-financial → silent skip (no Kyle alert)
-4. ✅ Updated `discord-trader-seen.txt` with message ID (dedup tracking)
-5. ✅ Appended log entry to `memory/logs/2026-07-19.md`
+**Key findings:**
+- **Classification:** Informational (position management / conviction reinforcement on existing 2x BTC long)
+- **Fast-path:** ✅ Already alerted to Kyle via Telegram ~2-5s after message receipt (Worker pre-sent)
+- **Action:** Memory-only processing (no duplicate Telegram sent per fast-path rule)
+- **Dedup:** Discord first-sighting (no matching X post on funding economics from KillaXBT within ±30min window; X post 24min prior was on different topic)
+- **Ticker:** BTC (top-tier, core watch list)
+- **Sentiment:** Reinforces HTF-bullish conviction, cautions new short entries
+- **Position impact:** None (reaffirms existing positions: 2x long 62.6K core + spot accumulation + scalp-short hedge tapering)
 
-**Result**: Message was correctly categorized as non-signal social banter. No notification sent to Kyle. Processing complete with memory updated to prevent reprocessing.
+**Memory updates:**
+- ✅ discord-trader-seen.txt: Added message_id 1528405792426950697
+- ✅ memory/logs/2026-07-19.md: Logged event classification + context
+- ✅ memory/topics/traders.md: Added detailed entry with cross-platform dedup reasoning
+
+Ready for next event.
