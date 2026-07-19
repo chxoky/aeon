@@ -1,0 +1,212 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — x-trader-monitor",
+        "description": "Interpreting @swarmister's cryptic tweet"
+      },
+      "children": [
+        "badge-author",
+        "separator-1",
+        "event-section",
+        "separator-2",
+        "context-section",
+        "separator-3",
+        "sentiment-section",
+        "separator-4",
+        "interpretations-section",
+        "separator-5",
+        "question-alert"
+      ]
+    },
+    "badge-author": {
+      "type": "Badge",
+      "props": {
+        "text": "@swarmister",
+        "variant": "secondary"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "event-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event-heading",
+        "tweet-card"
+      ]
+    },
+    "event-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Event: Reply to @exitpumpBTC with emotional reaction",
+        "level": "h3"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "@swarmister",
+        "text": "@exitpumpBTC Noooooooo😭"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "context-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context-heading",
+        "context-text",
+        "trade-details-stack"
+      ]
+    },
+    "context-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "context-text": {
+      "type": "Text",
+      "props": {
+        "text": "swarmister is a bullish BTC intraday trader who opened a partial long position on Jul 17, awaiting your approval for mirroring.",
+        "variant": "body"
+      }
+    },
+    "trade-details-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "detail-target",
+        "detail-entries",
+        "detail-status"
+      ]
+    },
+    "detail-target": {
+      "type": "Text",
+      "props": {
+        "text": "Target: 70.7k",
+        "variant": "body"
+      }
+    },
+    "detail-entries": {
+      "type": "Text",
+      "props": {
+        "text": "Entry zones: 62.4k / 61.2k",
+        "variant": "body"
+      }
+    },
+    "detail-status": {
+      "type": "Text",
+      "props": {
+        "text": "Status: Awaiting approval for mirroring",
+        "variant": "body"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "sentiment-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "sentiment-heading",
+        "sentiment-analysis"
+      ]
+    },
+    "sentiment-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Sentiment Analysis",
+        "level": "h3"
+      }
+    },
+    "sentiment-analysis": {
+      "type": "Text",
+      "props": {
+        "text": "This cryptic post shows strong negative sentiment (crying emoji, repeated 'Nooo'), but no explicit ticker, price level, or trade action.",
+        "variant": "body"
+      }
+    },
+    "separator-4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "interpretations-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "interp-heading",
+        "interp-1",
+        "interp-2",
+        "interp-3"
+      ]
+    },
+    "interp-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Possible Interpretations",
+        "level": "h3"
+      }
+    },
+    "interp-1": {
+      "type": "Text",
+      "props": {
+        "text": "(1) Reaction to bearish BTC price move / liquidation scare / reversal below entry zones",
+        "variant": "body"
+      }
+    },
+    "interp-2": {
+      "type": "Text",
+      "props": {
+        "text": "(2) Response to @exitpumpBTC's bearish post",
+        "variant": "body"
+      }
+    },
+    "interp-3": {
+      "type": "Text",
+      "props": {
+        "text": "(3) Personal event unrelated to trading",
+        "variant": "body"
+      }
+    },
+    "separator-5": {
+      "type": "Separator",
+      "props": {}
+    },
+    "question-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Is this market-sentiment reaction to current BTC action, or personal interaction?",
+        "type": "info"
+      }
+    }
+  }
+}
