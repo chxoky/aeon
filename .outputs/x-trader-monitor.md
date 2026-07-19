@@ -1,8 +1,8 @@
 🐦 *[X] @Wild_Randomness*
 
-Alright the weekend rally capped out right at the top of the liq from the last profile (so far…)
+Definitely a real scenario, I like the Jul-Aug ‚24 analog.
 
-I guess in theory this is where you would expect the asset to turn if this is just classic weekend liquidity hunting
+Relative strength, but not convinced quite yet that it doesn't still end in tears https://x.com/Wild_Randomness/status/2078681123392233697
 
 https://x.com/Wild_Randomness/status/2078679616022041075
 
@@ -28,3 +28,4 @@ The post is a reply to @bit0ii and @Josh_Rayner asking clarifying questions abou
 - `memory/x-trader-seen.txt` — added tweet ID
 - `memory/topics/traders.md` — added classification entry under Wild_Randomness section
 - `memory/logs/2026-07-19.md` — added event log entry
+_Macro sentiment: bullish near-term structure (relative strength), but caution on longer-term tail risk (potential teardown). Aligns with trader's recent IWM exhaustion analysis._
