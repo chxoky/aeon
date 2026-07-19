@@ -1,0 +1,64 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @swarmister"
+      },
+      "children": [
+        "event-heading",
+        "event-description",
+        "separator-1",
+        "tweet-card",
+        "separator-2",
+        "analysis-text",
+        "question-alert"
+      ]
+    },
+    "event-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "event-description": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to @jimtalbot and @btc_charlie with a media link (URL expands to photo attachment)"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "@swarmister",
+        "handle": "swarmister",
+        "text": "@jimtalbot @btc_charlie https://t.co/9GTgtd1Sy6"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "analysis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — the tweet is just mentions + a photo link with no caption text. swarmister's recent pattern is ~80% non-financial personal banter (\"Patriot\", \"OKROSHKA????\", etc.), but this mention of two traders suggests it COULD be trading-related."
+      }
+    },
+    "question-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification Question",
+        "message": "What's your read?",
+        "type": "info"
+      }
+    }
+  }
+}
