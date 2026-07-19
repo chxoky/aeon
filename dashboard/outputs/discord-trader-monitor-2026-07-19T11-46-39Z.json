@@ -1,0 +1,134 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor — Calibration Alert"
+      },
+      "children": [
+        "badge-calib",
+        "heading-source",
+        "text-event",
+        "sep-1",
+        "heading-message",
+        "text-quote",
+        "text-speaker",
+        "sep-2",
+        "heading-issues",
+        "stack-issues",
+        "sep-3",
+        "alert-input"
+      ]
+    },
+    "badge-calib": {
+      "type": "Badge",
+      "props": {
+        "text": "Calibration Needed",
+        "variant": "outline"
+      }
+    },
+    "heading-source": {
+      "type": "Heading",
+      "props": {
+        "text": "DC: HCH — Chat",
+        "level": "h4"
+      }
+    },
+    "text-event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Vague statement about market/trading changes",
+        "variant": "body"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-message": {
+      "type": "Heading",
+      "props": {
+        "text": "Message",
+        "level": "h4"
+      }
+    },
+    "text-quote": {
+      "type": "Text",
+      "props": {
+        "text": "We can do some changes immediately that don't require much technical difficulties",
+        "variant": "lead"
+      }
+    },
+    "text-speaker": {
+      "type": "Text",
+      "props": {
+        "text": "— HeartCanHodl",
+        "variant": "caption"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-issues": {
+      "type": "Heading",
+      "props": {
+        "text": "Classification Uncertainties",
+        "level": "h4"
+      }
+    },
+    "stack-issues": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "issue-1",
+        "issue-2",
+        "issue-3"
+      ]
+    },
+    "issue-1": {
+      "type": "Text",
+      "props": {
+        "text": "What \"changes\" is HCH referring to (market moves, strategy shift, operational update)?",
+        "variant": "body"
+      }
+    },
+    "issue-2": {
+      "type": "Text",
+      "props": {
+        "text": "Is this general observation or conviction/signal on specific ticker(s)?",
+        "variant": "body"
+      }
+    },
+    "issue-3": {
+      "type": "Text",
+      "props": {
+        "text": "Should I track this as sentiment baseline?",
+        "variant": "body"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert-input": {
+      "type": "Alert",
+      "props": {
+        "title": "Action needed",
+        "message": "What's your read?",
+        "type": "info"
+      }
+    }
+  }
+}
