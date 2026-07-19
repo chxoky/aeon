@@ -1,0 +1,95 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading_calibration",
+        "sep1",
+        "stack_event",
+        "sep2",
+        "tweet_card",
+        "link_tweet_url",
+        "sep3",
+        "callout"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @t_in_crypto",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_event": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_timestamp",
+        "text_context"
+      ]
+    },
+    "text_timestamp": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Jul 19 20:39 UTC",
+        "variant": "lead"
+      }
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "5 days after their conviction add on BTC at 62K (moon-cycle bull thesis, diamond-hand conviction long).",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "handle": "t_in_crypto",
+        "text": "@DrProfitCrypto Look at this and shut up https://t.co/0dLAMp1z8a"
+      }
+    },
+    "link_tweet_url": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet content",
+        "href": "https://t.co/0dLAMp1z8a"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "callout": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "title": "Unable to follow URL",
+        "message": "Short URL cannot be resolved — is this a market move validation post, or something else? What's your read?"
+      }
+    }
+  }
+}
