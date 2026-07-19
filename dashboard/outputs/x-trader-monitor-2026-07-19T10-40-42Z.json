@@ -1,0 +1,49 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @Bitcoin_Astro"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event_text",
+        "tweet_card",
+        "context_alert"
+      ]
+    },
+    "event_text": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @nsquaredvalue's statement about Bitcoin",
+        "variant": "body"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Bitcoin_Astro",
+        "handle": "Bitcoin_Astro",
+        "text": "This is completely wrong.! Are you talking about Bitcoin or something else?!"
+      }
+    },
+    "context_alert": {
+      "type": "Alert",
+      "props": {
+        "message": "Unable to classify without context of the original statement — what's your read?",
+        "type": "info"
+      }
+    }
+  }
+}
