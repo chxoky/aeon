@@ -14,3 +14,10 @@ Unable to classify without seeing the chart/content at the link — is this:
 What's your read?
 
 [View post](https://x.com/t_in_crypto/status/2078882394031923693)
+🐦 *[X] @t_in_crypto*
+
+Monday will decide whether this will be a top pivot or Whether we will continue to sail further to the right, cutting down everyone along the way
+
+[View tweet](https://x.com/t_in_crypto/status/2078883034871243256)
+
+↳ _Structural bull conviction on continuation vs concern about a top pivot._
