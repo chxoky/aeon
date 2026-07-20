@@ -1,0 +1,64 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @Wild_Randomness"
+      },
+      "children": [
+        "event-desc",
+        "tweet-card",
+        "classification-section"
+      ]
+    },
+    "event-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Market observation on Cramer bear-post contra trading pattern at open/close"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Help me out here because I'm a little confused…\n\nYou used the Cramer bear post at the open as a contra indicator… and what you ended up doing is longing the top.\n\nAnd now I'm seeing similar contra excitement around this bear post at close…"
+      }
+    },
+    "classification-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "classification-text",
+        "options-text",
+        "view-link"
+      ]
+    },
+    "classification-text": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read? Is this:"
+      }
+    },
+    "options-text": {
+      "type": "Text",
+      "props": {
+        "text": "(a) Questioning a recent trade decision that went wrong?\n(b) Asking philosophical guidance on why the contra-Cramer pattern failed?\n(c) Current market observation suggesting another similar setup forming?\n(d) Something else?",
+        "variant": "body"
+      }
+    },
+    "view-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2079335162744389974",
+        "source": "X"
+      }
+    }
+  }
+}
