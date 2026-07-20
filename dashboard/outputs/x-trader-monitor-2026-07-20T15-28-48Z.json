@@ -1,0 +1,87 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration for @t_in_crypto"
+      },
+      "children": [
+        "event_section",
+        "separator1",
+        "tweet_section",
+        "separator2",
+        "classification_alert"
+      ]
+    },
+    "event_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event_header",
+        "event_details"
+      ]
+    },
+    "event_header": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "event_details": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to external traders; t_in_crypto has been adding BTC conviction (x2 volume at 62K on Jul 14)"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet_section": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "text": "@Stepn113 @Morecryptoonl 2026 or never ever"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification_alert": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert_header",
+        "alert_text"
+      ]
+    },
+    "alert_header": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "lead"
+      }
+    },
+    "alert_text": {
+      "type": "Text",
+      "props": {
+        "text": "Is this a price target / moon timeline statement, or something else?"
+      }
+    }
+  }
+}

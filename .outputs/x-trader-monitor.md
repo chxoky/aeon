@@ -1,17 +1,7 @@
-🐦 *[X] @Wild_Randomness*
+🔍 *Calibration — @t_in_crypto*
 
-From there gold put in a steady 60% meltup over 5 months, no red weeklies
+Event: Reply to external traders; t_in_crypto has been adding BTC conviction (x2 volume at 62K on Jul 14)
 
-Btc put in the nastiest SFP 12% higher, only second to the 2021 cycle top SFP, trapping every participant
+@t_in_crypto: "@Stepn113 @Morecryptoonl 2026 or never ever"
 
-**Logged:** Event entry added to memory/logs/2026-07-20.md
-🐦 *[X] @abetrade* — Market Structure
-
-CME launching single-stock futures and the convergence toward perpetual contract characteristics. Pretty clear at this point how big of a success tradfi perps become — CME trying to get market share with single-stock futures launching soon. These spot-quoted futures are basically perps (1-year roll, much lower notional size).
-
-System-design/structural observation from educational-focused trader (rare signal).
-
-https://x.com/abetrade/status/20792207138152000095
-[View tweet](https://x.com/Wild_Randomness/status/2079222492925968481)
-
-↳ _Technical structure observation on BTC (top-overlap ticker) + Gold (Kyle watch list) — price-action commentary, not personal trade action._
+Unable to classify — what's your read? (Is this a price target / moon timeline statement, or something else?)
