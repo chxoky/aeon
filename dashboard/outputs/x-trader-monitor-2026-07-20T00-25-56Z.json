@@ -1,0 +1,87 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Tweet classification request"
+      },
+      "children": [
+        "heading",
+        "badge-calib",
+        "sep-1",
+        "event-desc",
+        "tweet-card",
+        "sep-2",
+        "analysis-text",
+        "classification-alert",
+        "view-link"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration — @t_in_crypto",
+        "level": "h3"
+      }
+    },
+    "badge-calib": {
+      "type": "Badge",
+      "props": {
+        "text": "Calibration",
+        "variant": "outline"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "event-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Event: @t_in_crypto posted a mention to @TrollFootball with shortened URL",
+        "variant": "lead"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "handle": "@t_in_crypto",
+        "text": "@TrollFootball https://t.co/oXVr4gwKTf"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis-text": {
+      "type": "Text",
+      "props": {
+        "text": "The post is cryptic — no financial language, no visible ticker or trade signal. URL cannot be resolved from tweet text alone.",
+        "variant": "body"
+      }
+    },
+    "classification-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification Needed",
+        "message": "Unable to classify — what is your read? Should I track this as trading-related or log it as personal/banter?",
+        "type": "warning"
+      }
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/t_in_crypto/status/2078998023460266411"
+      }
+    }
+  }
+}
