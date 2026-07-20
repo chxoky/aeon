@@ -1,0 +1,146 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Trading signal calibration and analysis"
+      },
+      "children": [
+        "heading_calibration",
+        "sep_1",
+        "main_stack"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration — @swarmister",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "main_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event_block",
+        "message_block",
+        "context_block",
+        "analysis_block",
+        "question_block"
+      ]
+    },
+    "event_block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event_label",
+        "event_badge"
+      ]
+    },
+    "event_label": {
+      "type": "Text",
+      "props": {
+        "text": "Event:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "event_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Very terse technical reference",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "message_block": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "@0xProfessor_ 15s tf.."
+      },
+      "children": []
+    },
+    "context_block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context_label",
+        "context_text"
+      ]
+    },
+    "context_label": {
+      "type": "Text",
+      "props": {
+        "text": "Context:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "swarmister is intraday BTC trader (current long position, 62.4k adds planned, 70.7K target). This appears to be a reference to a 15-second timeframe analysis, likely addressed at @0xProfessor_ (external trader/analyst not in watched list). The \"..\" suggests incomplete thought or context dependency on @0xProfessor_'s preceding message/chart. Cannot determine whether this signals a personal trade action (entry/add/close) or is just technical commentary/agreement.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "analysis_block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "analysis_label",
+        "analysis_text"
+      ]
+    },
+    "analysis_label": {
+      "type": "Text",
+      "props": {
+        "text": "Classification:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "question_block": {
+      "type": "Alert",
+      "props": {
+        "title": "Calibration Request",
+        "message": "Is swarmister taking action here, or just observing/discussing technical structure?",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}
