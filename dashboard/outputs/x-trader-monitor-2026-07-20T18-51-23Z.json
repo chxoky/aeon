@@ -1,0 +1,101 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration — @t_in_crypto"
+      },
+      "children": [
+        "main-stack"
+      ]
+    },
+    "main-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-event",
+        "badge-timestamp",
+        "separator-1",
+        "text-post-label",
+        "text-post-content",
+        "separator-2",
+        "heading-context",
+        "text-context",
+        "separator-3",
+        "alert-classification"
+      ]
+    },
+    "heading-event": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Event",
+        "level": "h2"
+      }
+    },
+    "badge-timestamp": {
+      "type": "Badge",
+      "props": {
+        "text": "Jul 20 18:45:11 UTC",
+        "variant": "outline"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-post-label": {
+      "type": "Text",
+      "props": {
+        "text": "Post:",
+        "variant": "lead"
+      }
+    },
+    "text-post-content": {
+      "type": "Text",
+      "props": {
+        "text": "@VegetaCrypto1 @follis_ 💯"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-context": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "text-context": {
+      "type": "Text",
+      "props": {
+        "text": "t_in_crypto holds 100% BTC LONG @58.4K + x2 volume conviction @62K (Jul 14). Recent posts have been cryptic mentions/URLs. This appears to be approval/agreement (checkmark emoji) with two external accounts, but context is unclear without seeing what VegetaCrypto1 or follis_ posted."
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert-classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Is this: (a) agreement with a trade setup/idea, (b) personal mention, (c) financially relevant? What's your read?",
+        "type": "info"
+      }
+    }
+  }
+}

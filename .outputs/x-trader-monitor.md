@@ -14,3 +14,10 @@ Prior unresolved ambiguous posts:
 Unable to classify warning emoji post — is this: (a) bullish alert on upcoming pivot/move, (b) warning of danger/reversal risk, (c) response to external market event, or (d) just cryptic banter? 
 
 Your read?
+Event: Jul 20 18:45:11 UTC post
+
+Post: @VegetaCrypto1 @follis_ 💯
+
+Context: t_in_crypto holds 100% BTC LONG @58.4K + x2 volume conviction @62K (Jul 14). Recent posts have been cryptic mentions/URLs. This appears to be approval/agreement (checkmark emoji) with two external accounts, but context is unclear without seeing what VegetaCrypto1 or follis_ posted.
+
+Unable to classify — is this: (a) agreement with a trade setup/idea, (b) personal mention, (c) financially relevant? What's your read?
