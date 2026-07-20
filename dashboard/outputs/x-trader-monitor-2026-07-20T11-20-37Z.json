@@ -1,0 +1,79 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — x-trader-monitor"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge-subject",
+        "heading-event",
+        "tweet-card",
+        "sep-1",
+        "alert-classify",
+        "text-context",
+        "link-view"
+      ]
+    },
+    "badge-subject": {
+      "type": "Badge",
+      "props": {
+        "text": "@swarmister",
+        "variant": "outline"
+      }
+    },
+    "heading-event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event: Real-time tweet during Asian market hours",
+        "level": "h3"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "@BittexXBT Bittex in trust"
+      }
+    },
+    "sep-1": {
+      "type": "Separator"
+    },
+    "alert-classify": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read? Is this a personal trade action, sentiment comment, or personal message?",
+        "type": "info"
+      }
+    },
+    "text-context": {
+      "type": "Text",
+      "props": {
+        "text": "Context: swarmister operates intraday BTC focus.",
+        "variant": "caption"
+      }
+    },
+    "link-view": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View post",
+        "href": "https://x.com/swarmister/status/207916366313964369",
+        "source": "X"
+      }
+    }
+  }
+}
