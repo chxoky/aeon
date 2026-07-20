@@ -1,0 +1,23 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "tweet_1"
+      ]
+    },
+    "tweet_1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Chase",
+        "handle": "Chase",
+        "text": "Nothing to update on at the moment. Positions are in profit but I'm looking for more profit than this. Everything is bouncing and we chose the two best assets to be in at the moment. So far so good."
+      }
+    }
+  }
+}
