@@ -1,0 +1,124 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading",
+        "sep1",
+        "event_section",
+        "sep2",
+        "problem_section"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @swarmister",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "event_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event_type",
+        "tweet_card"
+      ]
+    },
+    "event_type": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @Trade17",
+        "variant": "lead"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "@Trade17 Hyperliquid."
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "problem_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "classification_alert",
+        "interpretation_stack",
+        "final_question"
+      ]
+    },
+    "classification_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "type": "warning"
+      }
+    },
+    "interpretation_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "interp_header",
+        "interp1",
+        "interp2",
+        "interp3"
+      ]
+    },
+    "interp_header": {
+      "type": "Text",
+      "props": {
+        "text": "Possible interpretations:",
+        "variant": "lead"
+      }
+    },
+    "interp1": {
+      "type": "Text",
+      "props": {
+        "text": "Is @swarmister expressing a view on HYPE?"
+      }
+    },
+    "interp2": {
+      "type": "Text",
+      "props": {
+        "text": "Confirming a Trade17 signal?"
+      }
+    },
+    "interp3": {
+      "type": "Text",
+      "props": {
+        "text": "Something else?"
+      }
+    },
+    "final_question": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "lead"
+      }
+    }
+  }
+}
