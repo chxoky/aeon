@@ -1,0 +1,64 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading",
+        "badge",
+        "event-text",
+        "separator1",
+        "tweet",
+        "separator2",
+        "question"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration",
+        "level": "h2"
+      }
+    },
+    "badge": {
+      "type": "Badge",
+      "props": {
+        "text": "@trading_axe",
+        "variant": "outline"
+      }
+    },
+    "event-text": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @asparagoid discussing multiple points"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Dr. Axius",
+        "handle": "trading_axe",
+        "text": "Third point by far the most important."
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "question": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read on the \"third point\" reference?",
+        "variant": "muted"
+      }
+    }
+  }
+}
