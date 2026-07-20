@@ -1,0 +1,60 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "link-view",
+        "separator-1",
+        "interpretation"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "$BTC — It's time to start observing the LTF.\n\nWe're heading into Monday and a fresh weekly open by pushing above the recent highs.\n\nYou do not want to see price reject this area. If it does, there's a good chance this week is red & we don't sweep the 67K highs."
+      },
+      "children": []
+    },
+    "link-view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2079245013003776404"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "interpretation": {
+      "type": "Text",
+      "props": {
+        "text": "Weekly-open context reinforces HTF-bullish convergence (swarmister 2x LONG, KillaXBT 2x LONG + spot). Rejection risk at recent highs = tactical near-term caution.",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}

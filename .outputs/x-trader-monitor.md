@@ -1,15 +1,11 @@
-🔍 *Calibration — @t_in_crypto*
+🐦 *[X] @KillaXBT*
 
-Event: Cryptic mention post with three traders tagged
+$BTC — It's time to start observing the LTF.
 
-Post: "@Chakri861 @Morecryptoonl @Stepn113 👐🏽"
+We're heading into Monday and a fresh weekly open by pushing above the recent highs.
 
-Context: t_in_crypto holds 100% BTC LONG @58.4K + x2 volume conviction add @62K. Recent pattern includes ambiguous mentions and URL-shares. Cannot determine if this is: personal coordination, market signal, or social banter.
+You do not want to see price reject this area. If it does, there's a good chance this week is red & we don't sweep the 67K highs.
 
-Unable to classify — what's your read?
+[View tweet](https://x.com/KillaXBT/status/2079245013003776404)
 
-[View post](https://x.com/t_in_crypto/status/2079241925714919568)
-Event: Reply to @VegetaCrypto1 (original post context not visible)
-@t_in_crypto: "@VegetaCrypto1 7.7-7.8"
-
-Unable to classify — what's your read? Is this a trade level, a technical target, or something else? Current holdings show BTC long (58.4K→62K x2 volume), but this price range doesn't align with that position.
+↳ _Weekly-open context reinforces HTF-bullish convergence (swarmister 2x LONG, KillaXBT 2x LONG + spot). Rejection risk at recent highs = tactical near-term caution._
