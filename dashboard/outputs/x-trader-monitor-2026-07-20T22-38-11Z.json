@@ -1,0 +1,49 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "content_stack"
+      ]
+    },
+    "content_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "view_tweet_link",
+        "analysis_text"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "there was a little too much excitement this morning and I think there was a lot of \"chasing\" at +1.5% QQQ because of a Cramer bear post"
+      }
+    },
+    "view_tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2079333708608176590"
+      }
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "QQQ chasing behavior (retail momentum) aligns with your documented concern on late-cycle exhaustion and weak rally structure (weekend Nasdaq dump → minimal bounce = insufficient conviction).",
+        "variant": "body"
+      }
+    }
+  }
+}
