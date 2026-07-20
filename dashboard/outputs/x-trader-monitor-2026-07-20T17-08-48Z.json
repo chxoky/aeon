@@ -1,0 +1,171 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration — @t_in_crypto"
+      },
+      "children": [
+        "heading_cal",
+        "sep1",
+        "event_stack",
+        "sep2",
+        "context_stack",
+        "sep3",
+        "alert_classify",
+        "link_view"
+      ]
+    },
+    "heading_cal": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration — @t_in_crypto",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "event_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event_meta",
+        "tweet_card"
+      ]
+    },
+    "event_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_time",
+        "text_reply"
+      ]
+    },
+    "text_time": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Jul 20 17:04:50 UTC",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "text_reply": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to external user @VegetaCrypto1",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "handle": "@t_in_crypto",
+        "text": "All my feed in this"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "context_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ctx_heading",
+        "position_row",
+        "text_pattern"
+      ]
+    },
+    "ctx_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "position_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_btc",
+        "stat_conviction"
+      ]
+    },
+    "stat_btc": {
+      "type": "Stat",
+      "props": {
+        "label": "Position",
+        "value": "100% BTC LONG"
+      },
+      "children": []
+    },
+    "stat_conviction": {
+      "type": "Stat",
+      "props": {
+        "label": "Entry & Conviction",
+        "value": "$58.4K +x2 volume (Jul 14)"
+      },
+      "children": []
+    },
+    "text_pattern": {
+      "type": "Text",
+      "props": {
+        "text": "Pattern: 8+ cryptic replies in past 72h (context-dependent, hard to parse without full thread visibility)",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert_classify": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Is this a financial signal/analysis share, or community banter? What's your read?",
+        "type": "info"
+      },
+      "children": []
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/t_in_crypto/status/2079251195978211532"
+      },
+      "children": []
+    }
+  }
+}
