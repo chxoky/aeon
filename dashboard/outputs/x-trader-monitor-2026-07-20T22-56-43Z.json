@@ -1,0 +1,52 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @Wild_Randomness"
+      },
+      "children": [
+        "heading-event",
+        "tweet-card",
+        "separator-1",
+        "text-classification",
+        "link-view"
+      ]
+    },
+    "heading-event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Tweet with $BTC chart/image link",
+        "variant": "muted"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "$BTC\n\nWhat if blue? https://t.co/JEuFwD7ZvT"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "text-classification": {
+      "type": "Alert",
+      "props": {
+        "message": "Unable to classify — what's your read? (Bullish scenario? Specific level?)",
+        "type": "info"
+      }
+    },
+    "link-view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2079338527175954883"
+      }
+    }
+  }
+}
