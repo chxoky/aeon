@@ -1,0 +1,64 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "link_tweet",
+        "separator_1",
+        "note_signal",
+        "badge_topic"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "abetrade",
+        "handle": "abetrade",
+        "text": "Market Structure\n\nCME launching single-stock futures and the convergence toward perpetual contract characteristics. Pretty clear at this point how big of a success tradfi perps become — CME trying to get market share with single-stock futures launching soon. These spot-quoted futures are basically perps (1-year roll, much lower notional size)."
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/abetrade/status/20792207138152000095"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "note_signal": {
+      "type": "Text",
+      "props": {
+        "text": "System-design/structural observation from educational-focused trader (rare signal).",
+        "variant": "caption"
+      }
+    },
+    "badge_topic": {
+      "type": "Badge",
+      "props": {
+        "text": "Market Structure",
+        "variant": "secondary"
+      }
+    }
+  }
+}
