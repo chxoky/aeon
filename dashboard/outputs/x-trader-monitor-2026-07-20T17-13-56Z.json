@@ -1,0 +1,60 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "content_stack"
+      ]
+    },
+    "content_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "view_link",
+        "separator",
+        "analysis"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiiic",
+        "handle": "Stoiiiic",
+        "text": "BTC DVOL starting to look really compressed at the yearly lows. Little positioning that exists leans with positive skew, call volume at 68‰ 370way. Conditions seem ripe for an unexpected expansion."
+      },
+      "children": []
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Stoiiiic/status/207925241168882091"
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Vol compression + bullish skew setup aligns with structural bulls (KillaXBT 2x long, t_in_crypto conviction add, swarmister re-entry). BTC group lean remains MIXED HTF-bullish / near-term chop expected.",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
