@@ -1,8 +1,9 @@
-🐦 *[X] @Stoiiic*
+🔍 *Calibration — @t_in_crypto*
 
-**TPO Structural Framework — Poor High Decay**
+Event: Cryptic reply to @MylesGinvest about May 14-15 pattern repeating
+t_in_crypto: "It will be the same as May 14-15. They don't even want to come up with anything new"
 
-"here's something I will say when it comes to these TPO structural inefficiencies, though.
+Unable to classify — what's your read? Is this a personal conviction on market repeating patterns, or general commentary?
 
 in practice a poor high holds significance because we assume that this type of activity meant the auction was cut off and there are stops that get run here.
 
@@ -33,3 +34,4 @@ Event: General market structure commentary on price psychology
 Stoiiic: "tldr targeting these within +plus/minus a few sessions is how this should actually be applied but given there's memory when it comes to price and price charts my theory is there is still some residual psychology left behind."
 
 Unable to classify — what's your read? (cryptic reference to unspecified targets + price-memory psychology theory)
+[View tweet](https://x.com/t_in_crypto/status/2079302242767638730)

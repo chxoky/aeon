@@ -1,0 +1,46 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "🔍 Calibration — @t_in_crypto"
+      },
+      "children": [
+        "event_context",
+        "tweet_card",
+        "classification_question",
+        "link_tweet"
+      ]
+    },
+    "event_context": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Cryptic reply to @MylesGinvest about May 14-15 pattern repeating"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "handle": "t_in_crypto",
+        "text": "It will be the same as May 14-15. They don't even want to come up with anything new"
+      }
+    },
+    "classification_question": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read? Is this a personal conviction on market repeating patterns, or general commentary?"
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/t_in_crypto/status/2079302242767638730"
+      }
+    }
+  }
+}
