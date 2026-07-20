@@ -1,0 +1,48 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet",
+        "tweet_link",
+        "spy_stat",
+        "analysis"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Early Monday morning US-Iran ceasefire:\n\nSPY +0.3%"
+      }
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2079207408082227290"
+      }
+    },
+    "spy_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "SPY",
+        "value": "+0.3%",
+        "trend": "up"
+      }
+    },
+    "analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Macro sentiment aligns with group read on SPX near-term UP, adds US-Iran ceasefire as specific catalyst.",
+        "variant": "caption"
+      }
+    }
+  }
+}
