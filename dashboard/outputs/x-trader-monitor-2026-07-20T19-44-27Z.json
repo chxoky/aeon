@@ -1,0 +1,60 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "link_view",
+        "separator_1",
+        "analysis_text"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "I posted this when $BTC was at $122K\n\nThis is the reality of where we are in the cycle.\n\n90% of the bear market is completed.\n\nI never wait for the perfect entry. I simply scale in when the RR is in my favour, as you've probably noticed with my swing positions."
+      },
+      "children": []
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2079289602578214921"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Aligns with structural bull group convergence — KillaXBT HTF long 62.6K, t_in_crypto 100% long @58.4K + x2 conviction, swarmister partial + scale-in (70.7K target). Macro 90%-bear-complete thesis matches group near-term pivot scrutiny on 60-62K zone.",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
