@@ -1,0 +1,62 @@
+name: ci-actionlint
+
+# Lints every workflow file with actionlint.
+#
+# Why this exists: PR #12 shipped a comment containing a literal empty GitHub
+# expression inside a `run:` block. GitHub interpolates expressions across the
+# whole block scalar — comments included — so the empty expression made both
+# aeon.yml and chain-runner.yml unparseable. Every workflow_dispatch failed
+# with HTTP 422 and the trading pipeline was down for ~1h before anyone noticed.
+#
+# Nothing in the existing process caught it: the files are valid YAML, so a
+# yaml.safe_load check passes, and the error GitHub reports points at the line
+# where `run: |` starts rather than the offending comment. actionlint catches
+# this class directly — verified against the broken commit (60b999925), where
+# it flags both files, and against the fix (d013de346), where it is silent.
+#
+# shellcheck/pyflakes integration is disabled on purpose. Runners ship
+# shellcheck, and these run blocks are large enough that enabling it would land
+# this check red on unrelated pre-existing style findings. Turning it on is a
+# reasonable follow-up once those are triaged separately.
+
+on:
+  pull_request:
+    paths:
+      - '.github/workflows/**'
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/**'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+env:
+  # Pinned. Bump deliberately; verify the checksum still matches on bump.
+  ACTIONLINT_VERSION: 1.7.12
+
+jobs:
+  actionlint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install actionlint (pinned, checksum-verified)
+        run: |
+          set -euo pipefail
+          V="$ACTIONLINT_VERSION"
+          BASE="https://github.com/rhysd/actionlint/releases/download/v${V}"
+          TARBALL="actionlint_${V}_linux_amd64.tar.gz"
+          # Keep the published filename: `sha256sum -c` resolves the path from
+          # the checksums file, so renaming the download makes it unverifiable.
+          curl -fsSL -o "$TARBALL" "${BASE}/${TARBALL}"
+          curl -fsSL -o checksums.txt "${BASE}/actionlint_${V}_checksums.txt"
+          # Fail closed if the tarball doesn't match the published checksum.
+          grep " ${TARBALL}\$" checksums.txt > expected.txt
+          sha256sum -c expected.txt
+          tar xzf "$TARBALL" actionlint
+          ./actionlint --version
+
+      - name: Lint workflows
+        run: ./actionlint -shellcheck= -pyflakes= -color
