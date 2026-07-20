@@ -1,0 +1,53 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_main",
+        "link_short",
+        "story_link"
+      ]
+    },
+    "tweet_main": {
+      "type": "TweetCard",
+      "props": {
+        "author": "@Bitcoin_Astro",
+        "handle": "Bitcoin_Astro",
+        "text": "Bitcoin Update 20 July -Cycle Low Update"
+      },
+      "children": []
+    },
+    "link_short": {
+      "type": "Link",
+      "props": {
+        "label": "https://t.co/CLbULlulrW",
+        "href": "https://t.co/CLbULlulrW"
+      },
+      "children": []
+    },
+    "story_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View tweet",
+        "href": "https://x.com/Bitcoin_Astro/status/2079207757568176160",
+        "source": "X"
+      },
+      "children": []
+    }
+  }
+}
