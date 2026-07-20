@@ -1,0 +1,43 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor",
+        "description": "$BTC 4H +10M"
+      },
+      "children": [
+        "tweet-card",
+        "link-tweet",
+        "text-additional"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "@swarmister",
+        "text": "We're slowly creeping higher, the EQH pattern from last week remains on the 4h timeframe.\n\nBased on the cumulative delta, the buyers still have the upper hand for now.\nLocally, the day and week opened with a narrowing pattern; we're waiting for the situation to resolve itself.\n\nI remain bullish, but with a bit more caution."
+      },
+      "children": []
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/swarmister/status/2079066016584499682"
+      },
+      "children": []
+    },
+    "text-additional": {
+      "type": "Text",
+      "props": {
+        "text": "Structural bulls still in control (KillaXBT 2x, t_in_crypto 100%+), but near-term consolidation mode remains.",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
