@@ -1,0 +1,96 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-card",
+        "view-tweet-link",
+        "separator-1",
+        "analysis-heading",
+        "analysis-content"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "The important point is that each incremental 'SOL ecosystem rotation' has begun from lower prices"
+      }
+    },
+    "view-tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2079022772143976677"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "analysis-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Sentiment Analysis",
+        "level": "h3"
+      }
+    },
+    "analysis-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "consensus-badge",
+        "traders-sentiment",
+        "observation-text"
+      ]
+    },
+    "consensus-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "SOL: Group consensus bearish",
+        "variant": "destructive"
+      }
+    },
+    "traders-sentiment": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "hch-text",
+        "killaxbt-text"
+      ]
+    },
+    "hch-text": {
+      "type": "Text",
+      "props": {
+        "text": "HCH: short 0.25%",
+        "variant": "caption"
+      }
+    },
+    "killaxbt-text": {
+      "type": "Text",
+      "props": {
+        "text": "KillaXBT: skeptical",
+        "variant": "caption"
+      }
+    },
+    "observation-text": {
+      "type": "Text",
+      "props": {
+        "text": "This structural narrative observation may signal ecosystem dynamics shift — watch for cross-trader sentiment convergence.",
+        "variant": "body"
+      }
+    }
+  }
+}
