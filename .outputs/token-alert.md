@@ -1,23 +1,24 @@
-Snapshot logged. No notification needed since no anomalies were detected.
+Skill executed successfully.
 
 ## Summary
 
-Executed the **token-alert** skill for 2026-07-19.
+Ran the **token-alert** skill for 2026-07-20.
 
-- Read tracked tokens from `memory/MEMORY.md` (BTC, ETH, SOL, HYPE — all 10% thresholds) and checked recent logs for prior prices.
-- Fetched live data from CoinGecko `simple/price` (no-auth endpoint, curl succeeded — no fallback needed).
-- Evaluated anomaly conditions:
+**What I did:**
+- Read `memory/MEMORY.md` for tracked tokens (BTC, ETH, SOL, HYPE — all 10% thresholds) and checked the last 2 days of logs (no prior token-alert baseline existed).
+- Fetched live prices via the CoinGecko `simple/price` API (curl succeeded, no fallback needed).
+- Evaluated all four tokens against alert conditions.
 
-| Token | Price | 24h Change | Alert? |
-|-------|-------|-----------|--------|
-| BTC | $64,334 | +0.33% | No |
-| ETH | $1,870.24 | +1.51% | No |
-| SOL | $76.03 | +1.70% | No |
-| HYPE | $60.94 | +3.92% | No |
+**Result:** No anomalies. All 24h changes were well under the 10% threshold (max was SOL at +1.16%). No threshold crossings, and no volume-average baseline yet exists for spike detection. Logged **TOKEN_ALERT_OK** — no `./notify` sent (correct behavior when nothing triggers).
 
-- All 24h moves are well below the 10% threshold; no >3x volume spike; no configured threshold crossings. **No alert sent.**
-- Logged the full price snapshot as `TOKEN_ALERT_OK` in `memory/logs/2026-07-19.md` for next comparison.
+| Token | Price | 24h Change |
+|-------|-------|-----------|
+| BTC | $64,723 | +0.57% |
+| ETH | $1,881.75 | +0.87% |
+| SOL | $76.86 | +1.16% |
+| HYPE | $61.09 | +0.19% |
 
-**Files modified:** `memory/logs/2026-07-19.md`
+**Files modified:**
+- `memory/logs/2026-07-20.md` — appended current prices as a baseline for the next run's comparison.
 
-**Follow-ups:** None. (Note: the skill's suggested `>>` shell redirect to the log is blocked by the workspace write sandbox — I used the Edit tool instead; worth noting if the skill is ever hardened for unattended runs.)
+**Notes:** Shell `>>` redirection is blocked by the session sandbox; I appended via the Edit tool instead. No follow-up needed.
