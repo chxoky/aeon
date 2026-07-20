@@ -1,0 +1,46 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-card",
+        "link-view",
+        "separator",
+        "disclaimer"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "From there gold put in a steady 60% meltup over 5 months, no red weeklies\n\nBtc put in the nastiest SFP 12% higher, only second to the 2021 cycle top SFP, trapping every participant"
+      }
+    },
+    "link-view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2079222492925968481"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "disclaimer": {
+      "type": "Text",
+      "props": {
+        "text": "Technical structure observation on BTC (top-overlap ticker) + Gold (Kyle watch list) — price-action commentary, not personal trade action.",
+        "variant": "caption"
+      }
+    }
+  }
+}
