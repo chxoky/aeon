@@ -1,0 +1,69 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-framework",
+        "tweet-card",
+        "separator-1",
+        "text-context",
+        "link-view"
+      ]
+    },
+    "heading-framework": {
+      "type": "Heading",
+      "props": {
+        "text": "TPO Structural Framework — Poor High Decay",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "Stoiiic",
+        "text": "here's something I will say when it comes to these TPO structural inefficiencies, though.\n\nin practice a poor high holds significance because we assume that this type of activity meant the auction was cut off and there are stops that get run here.\n\nhowever, this far removed this application holds less significance unless we're assuming most of the positioning that went short there is holding on for dear life.\n\nso all in all, it's less effective or the original idea of when a poor high/low is used isn't exactly applicable this many sessions removed.\n\nwe can say it's more so a psychological area now and that people are prob more prone to shorting as price approaches back into this area."
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text-context": {
+      "type": "Text",
+      "props": {
+        "text": "Context: Educational framework on how TPO structural significance decays over time and trader psychology shifts from technical to psychological factors.",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "link-view": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Stoiiic/status/2079300171452871135"
+      },
+      "children": []
+    }
+  }
+}
