@@ -1,0 +1,52 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge",
+        "tweet",
+        "context"
+      ]
+    },
+    "badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Follow-up",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Chase",
+        "handle": "TradFi",
+        "text": "Yeah I won't be surprised if the box fills upwards again but we'll see"
+      },
+      "children": []
+    },
+    "context": {
+      "type": "Text",
+      "props": {
+        "text": "Follow-up to Jul 18 S&P box discussion — Chase expresses mild bullish conviction on upside potential. Chart attached.",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
