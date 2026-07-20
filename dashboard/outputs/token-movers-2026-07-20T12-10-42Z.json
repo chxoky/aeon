@@ -1,0 +1,343 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Token Movers — 2026-07-20",
+        "description": "Quiet, mildly green tape — 61/100 top-100 coins are up but the median move is just +0.2%; majors near flat (BTC +0.6% $65.0K, ETH +0.9%, SOL +1.2%). All the real action sits in a few low-cap pumps, not broad rotation."
+      },
+      "children": [
+        "sep1",
+        "winners-heading",
+        "winners-table",
+        "sep2",
+        "losers-heading",
+        "losers-table",
+        "sep3",
+        "trending-heading",
+        "trending-table",
+        "sep4",
+        "notable-heading",
+        "notable-stack"
+      ]
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "winners-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Winners (24h)",
+        "level": "h2"
+      }
+    },
+    "winners-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Vol / Rank",
+          "Status"
+        ],
+        "rows": [
+          [
+            "BANK (Lorenzo Protocol)",
+            "$0.287",
+            "+55.0%",
+            "+584%",
+            "−0.2%",
+            "$359M / #228",
+            "TRENDING+UP, PUMP-RISK"
+          ],
+          [
+            "PUMP (Pump.fun)",
+            "$0.00193",
+            "+17.4%",
+            "+29%",
+            "+0.4%",
+            "$167M / #77",
+            "TRENDING+UP, BREAKOUT"
+          ],
+          [
+            "JTO (Jito)",
+            "$0.593",
+            "+9.2%",
+            "−12%",
+            "+0.4%",
+            "$49M / #130",
+            "—"
+          ],
+          [
+            "PI (Pi Network)",
+            "$0.0993",
+            "+8.5%",
+            "+22%",
+            "−0.1%",
+            "$41M / #63",
+            "TRENDING+UP"
+          ],
+          [
+            "B (BUILDon)",
+            "$0.228",
+            "+7.7%",
+            "+89%",
+            "+0.8%",
+            "$47M / #153",
+            "—"
+          ],
+          [
+            "ADI",
+            "$6.67",
+            "+7.4%",
+            "−3%",
+            "+0.2%",
+            "$13M / #74",
+            "TRENDING+UP"
+          ],
+          [
+            "BONK",
+            "$0.00000309",
+            "+5.4%",
+            "−22%",
+            "+1.8%",
+            "$76M / #139",
+            "—"
+          ],
+          [
+            "VELVET",
+            "$0.534",
+            "+5.3%",
+            "−14%",
+            "+0.3%",
+            "$13M / #155",
+            "—"
+          ]
+        ]
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "losers-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Losers (24h)",
+        "level": "h2"
+      }
+    },
+    "losers-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Vol / Rank",
+          "Status"
+        ],
+        "rows": [
+          [
+            "TALUS (US)",
+            "$0.0416",
+            "−8.8%",
+            "+72%",
+            "−1.1%",
+            "$10M / #230",
+            "—"
+          ],
+          [
+            "BinanceLife",
+            "$0.636",
+            "−7.6%",
+            "−9%",
+            "−0.3%",
+            "$32M / #91",
+            "—"
+          ],
+          [
+            "XEC (eCash)",
+            "$0.00000777",
+            "−6.5%",
+            "+16%",
+            "−1.5%",
+            "$30M / #194",
+            "—"
+          ],
+          [
+            "BP (Backpack)",
+            "$0.432",
+            "−5.2%",
+            "−20%",
+            "−0.3%",
+            "$2M / #250",
+            "—"
+          ],
+          [
+            "RIF (Rootstock)",
+            "$0.125",
+            "−4.3%",
+            "+4%",
+            "−1.0%",
+            "$8M / #224",
+            "—"
+          ],
+          [
+            "APE (ApeCoin)",
+            "$0.140",
+            "−4.1%",
+            "−6%",
+            "+0.3%",
+            "$13M / #211",
+            "—"
+          ],
+          [
+            "TRUMP (Official Trump)",
+            "$1.57",
+            "−3.9%",
+            "+2%",
+            "+0.4%",
+            "$85M / #119",
+            "—"
+          ],
+          [
+            "ZEC (Zcash)",
+            "$535.9",
+            "−3.6%",
+            "+5%",
+            "+0.7%",
+            "$337M / #14",
+            "MAJOR"
+          ]
+        ]
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "trending-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending",
+        "level": "h2"
+      }
+    },
+    "trending-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Rank",
+          "Price",
+          "24h",
+          "Status"
+        ],
+        "rows": [
+          [
+            "PI (Pi Network)",
+            "#63",
+            "$0.0993",
+            "+8.4%",
+            "TRENDING+UP"
+          ],
+          [
+            "ACE (Fusionist)",
+            "#957",
+            "$0.140",
+            "+118.9%",
+            "PUMP-RISK"
+          ],
+          [
+            "BANK (Lorenzo Protocol)",
+            "#228",
+            "$0.286",
+            "+53.7%",
+            "TRENDING+UP, PUMP-RISK"
+          ],
+          [
+            "PENGU (Pudgy Penguins)",
+            "#117",
+            "$0.00628",
+            "+2.9%",
+            "—"
+          ],
+          [
+            "ADI",
+            "#74",
+            "$6.67",
+            "+7.2%",
+            "TRENDING+UP"
+          ],
+          [
+            "PUMP (Pump.fun)",
+            "#77",
+            "$0.00194",
+            "+18.0%",
+            "BREAKOUT"
+          ],
+          [
+            "BTC (Bitcoin)",
+            "#1",
+            "$65.0K",
+            "+0.9%",
+            "MAJOR"
+          ]
+        ]
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "notable-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h2"
+      }
+    },
+    "notable-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "notable-1",
+        "notable-2",
+        "notable-3"
+      ]
+    },
+    "notable-1": {
+      "type": "Text",
+      "props": {
+        "text": "BANK: trending + up 55% on $359M volume (2.9× its own market cap) with a 7d +584% run — momentum is real, but rank #228 makes it a PUMP-RISK; size accordingly.",
+        "variant": "body"
+      }
+    },
+    "notable-2": {
+      "type": "Text",
+      "props": {
+        "text": "PUMP: +17% today on a +29% week — a BREAKOUT with follow-through, and at #77 it is liquid enough to trust more than the microcaps.",
+        "variant": "body"
+      }
+    },
+    "notable-3": {
+      "type": "Text",
+      "props": {
+        "text": "ACE (Fusionist): #957 up 119% — PUMP-RISK on thin liquidity; treat the move as noise, not signal.",
+        "variant": "body"
+      }
+    }
+  }
+}

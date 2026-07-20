@@ -1,42 +1,37 @@
-*Token Movers — 2026-07-19*
+*Token Movers — 2026-07-20*
 
-_Quiet, two-sided tape — 51/100 top coins green, median top-50 +0.5%; no broad direction, and the standout move is a low-cap trending pump (BANK +138%), not price action across majors._
+_Quiet, mildly green tape — 61/100 top-100 coins are up but the median move is just +0.2%; majors near flat (BTC +0.6% $65.0K, ETH +0.9%, SOL +1.2%). All the real action sits in a few low-cap pumps, not broad rotation._
 
 *Top Winners (24h)*
-1. B (BUILDon) — $0.2197  +24.7% / 7d +82.3% / 1h +2.9%  •  $44M / #154  [BREAKOUT]
-2. TAG (TAGGER) — $0.001199  +23.8% / 7d +36.0% / 1h −3.1%  •  $6.7M / #222  [BREAKOUT]
-3. TRAC (OriginTrail) — $0.3186  +22.9% / 7d +19.3% / 1h −1.2%  •  $35M / #212
-4. KAITO — $0.9565  +15.0% / 7d +46.4% / 1h −1.0%  •  $54M / #150  [BREAKOUT]
-5. PI (Pi Network) — $0.0918  +10.4% / 7d −5.3% / 1h +2.8%  •  $16M / #65  [TRENDING+UP]
-6. AWE (AWE Network) — $0.0590  +5.8% / 7d −5.5% / 1h −1.1%  •  $4.5M / #239
-7. STRK (Starknet) — $0.0289  +5.6% / 7d −5.2% / 1h +0.1%  •  $16M / #172
-8. RUNE (THORChain) — $0.4446  +4.9% / 7d +10.1% / 1h −0.0%  •  $21M / #201
-9. PEPE — $0.00000285  +4.9% / 7d +4.6% / 1h +0.4%  •  $129M / #60  [TRENDING+UP]
-10. NEO — $2.06  +4.9% / 7d +4.3% / 1h −0.6%  •  $13M / #210
+1. BANK (Lorenzo Protocol) — $0.287  +55.0% / 7d +584% / 1h −0.2%  •  $359M / #228  [TRENDING+UP] [PUMP-RISK]
+2. PUMP (Pump.fun) — $0.00193  +17.4% / 7d +29% / 1h +0.4%  •  $167M / #77  [TRENDING+UP] [BREAKOUT]
+3. JTO (Jito) — $0.593  +9.2% / 7d −12% / 1h +0.4%  •  $49M / #130
+4. PI (Pi Network) — $0.0993  +8.5% / 7d +22% / 1h −0.1%  •  $41M / #63  [TRENDING+UP]
+5. B (BUILDon) — $0.228  +7.7% / 7d +89% / 1h +0.8%  •  $47M / #153
+6. ADI — $6.67  +7.4% / 7d −3% / 1h +0.2%  •  $13M / #74  [TRENDING+UP]
+7. BONK — $0.00000309  +5.4% / 7d −22% / 1h +1.8%  •  $76M / #139
+8. VELVET — $0.534  +5.3% / 7d −14% / 1h +0.3%  •  $13M / #155
 
 *Top Losers (24h)*
-1. XEC (eCash) — $0.00000828  −17.6% / 7d +61.0% / 1h +0.2%  •  $74M / #188  [CAPITULATION]
-2. EDGE (edgeX) — $0.4162  −8.2% / 7d +5.3% / 1h −1.1%  •  $5.2M / #209
-3. US (Talus) — $0.0450  −8.0% / 7d +86.5% / 1h −0.9%  •  $12M / #221
-4. UB (Unibase) — $0.0885  −5.4% / 7d +23.3% / 1h −0.3%  •  $4.9M / #155
-5. ADI — $6.25  −4.7% / 7d −3.2% / 1h +0.2%  •  $6.4M / #76
-6. TEL (Telcoin) — $0.001791  −4.4% / 7d −19.6% / 1h −0.4%  •  $1.6M / #184
-7. CHZ (Chiliz) — $0.0151  −3.3% / 7d −11.9% / 1h −1.1%  •  $23M / #193
-8. CRO (Cronos) — $0.0591  −3.2% / 7d +6.3% / 1h +0.1%  •  $9M / #33
-9. M (MemeCore) — $1.20  −3.1% / 7d −1.0% / 1h −0.4%  •  $9M / #48
-10. GRAM (prev. Toncoin) — $1.44  −3.0% / 7d −12.7% / 1h −1.1%  •  $20M / #26
+1. TALUS (US) — $0.0416  −8.8% / 7d +72% / 1h −1.1%  •  $10M / #230
+2. BinanceLife — $0.636  −7.6% / 7d −9% / 1h −0.3%  •  $32M / #91
+3. XEC (eCash) — $0.00000777  −6.5% / 7d +16% / 1h −1.5%  •  $30M / #194
+4. BP (Backpack) — $0.432  −5.2% / 7d −20% / 1h −0.3%  •  $2M / #250
+5. RIF (Rootstock) — $0.125  −4.3% / 7d +4% / 1h −1.0%  •  $8M / #224
+6. APE (ApeCoin) — $0.140  −4.1% / 7d −6% / 1h +0.3%  •  $13M / #211
+7. TRUMP (Official Trump) — $1.57  −3.9% / 7d +2% / 1h +0.4%  •  $85M / #119
+8. ZEC (Zcash) — $535.9  −3.6% / 7d +5% / 1h +0.7%  •  $337M / #14  [MAJOR]
 
 *Trending*
-1. Lorenzo Protocol (BANK) — #321, $0.1715, 24h +137.7%  [PUMP-RISK]
-2. Pudgy Penguins (PENGU) — #118, $0.006081, 24h +2.1%
-3. LAB — #401, $0.1704, 24h −6.9%
-4. Pi Network (PI) — #65, $0.0915, 24h +9.8%  [TRENDING+UP]
-5. Pepe (PEPE) — #60, $0.00000286, 24h +5.3%  [TRENDING+UP]
-6. Monad (MON) — #143, $0.0212, 24h −1.5%
-7. Cash Cat (CASHCAT) — #381, $0.0605, 24h +6.9%
+1. PI (Pi Network) — #63, $0.0993, 24h +8.4%  [TRENDING+UP]
+2. ACE (Fusionist) — #957, $0.140, 24h +118.9%  [PUMP-RISK]
+3. BANK (Lorenzo Protocol) — #228, $0.286, 24h +53.7%  [TRENDING+UP] [PUMP-RISK]
+4. PENGU (Pudgy Penguins) — #117, $0.00628, 24h +2.9%
+5. ADI — #74, $6.67, 24h +7.2%  [TRENDING+UP]
+6. PUMP (Pump.fun) — #77, $0.00194, 24h +18.0%  [BREAKOUT]
+7. BTC (Bitcoin) — #1, $65.0K, 24h +0.9%  [MAJOR]
 
 *Notable*
-• BANK: trending #321 up 138% — PUMP-RISK, sub-$0.20 microcap-tier; treat the spike as manipulation-prone.
-• B (BUILDon): +25% on +82% weekly, $44M vol — BREAKOUT, cleanest sustained move in the set.
-• KAITO: +15% / 7d +46% — BREAKOUT holding above its weekly base.
-• XEC: −17.6% today but still +61% on the week — CAPITULATION flag on volume, but it reads as a pullback from a weekly run, not a top.
+• BANK: trending + up 55% on $359M volume (2.9× its own market cap) with a 7d +584% run — momentum is real, but rank #228 makes it a PUMP-RISK; size accordingly.
+• PUMP: +17% today on a +29% week — a BREAKOUT with follow-through, and at #77 it is liquid enough to trust more than the microcaps.
+• ACE (Fusionist): #957 up 119% — PUMP-RISK on thin liquidity; treat the move as noise, not signal.
