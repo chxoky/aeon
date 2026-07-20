@@ -1,0 +1,78 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "content-stack"
+      ]
+    },
+    "content-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "author-text",
+        "heading-title",
+        "tweet-card",
+        "link-view",
+        "separator-1",
+        "analysis-text"
+      ]
+    },
+    "author-text": {
+      "type": "Text",
+      "props": {
+        "text": "🐦 [X] @Stoiiic",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "heading-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Market Structure Methodology",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "@Stoiiic",
+        "text": "terminology is cool and all but the dynamics behind them is what actually matters.\n\nwhen you're targeting a poor high or low you're looking for positioning to get squeezed out."
+      },
+      "children": []
+    },
+    "link-view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Stoiiic/status/2079303549620539721"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Methodological reinforcement: Understanding squeeze positioning at poor highs/lows is foundational for timing HTF bull entries. Aligns with documented HTF-bull group thesis (KillaXBT 2x long 62.6K, t_in_crypto 100% long 58.4K + x2 conviction 62K).",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}

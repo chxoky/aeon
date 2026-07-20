@@ -17,3 +17,14 @@
 - ✓ Committed changes (git commit `3ac4b9d`)
 
 **No notification sent to Kyle.** Consistent with swarmister's documented ~80% non-financial social-banter pattern.
+🐦 *[X] @Stoiiic*
+
+**Market Structure Methodology**
+
+"terminology is cool and all but the dynamics behind them is what actually matters.
+
+when you're targeting a poor high or low you're looking for positioning to get squeezed out."
+
+[View tweet](https://x.com/Stoiiic/status/2079303549620539721)
+
+↳ _Methodological reinforcement: Understanding squeeze positioning at poor highs/lows is foundational for timing HTF bull entries. Aligns with documented HTF-bull group thesis (KillaXBT 2x long 62.6K, t_in_crypto 100% long 58.4K + x2 conviction 62K)._
