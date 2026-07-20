@@ -1,0 +1,57 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor - Stoiiic"
+      },
+      "children": [
+        "section_stack"
+      ]
+    },
+    "section_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading",
+        "tweet_card",
+        "disclaimer",
+        "link_tweet"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Auction Market Theory (AMT) Framework",
+        "level": "h2"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "@Stoiiic",
+        "text": "Stoiiic sharing foundational market philosophy: 'acceptance' = time + volume at price (new value); 'rejection' = neither (excess). Explains how price is advertising mechanism evoking emotion. Teaches importance of perp vs. spot positioning dynamics, order-book skews, volume quality to assess real acceptance vs. failed auction scenarios."
+      }
+    },
+    "disclaimer": {
+      "type": "Text",
+      "props": {
+        "text": "NOT a personal trade action — pure educational/methodological content. Aligns with Stoiiic's documented analytical foundation (J. Dalton/AMT principles).",
+        "variant": "caption"
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Stoiiic/status/2079098984203980990"
+      }
+    }
+  }
+}
