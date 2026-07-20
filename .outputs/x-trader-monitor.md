@@ -1,13 +1,14 @@
-## Summary
+🔍 *Calibration — @abetrade*
 
-**x-trader-monitor skill executed successfully.**
+Event: Mention of @breakoutprop with link (Jul 20 16:15 UTC)
+@abetrade: "@breakoutprop https://t.co/lCism1QEFe"
 
-**Event:** HeartCanHodl tweet `@dolphinxbt 🤜🏻` (tweet_id: 2079237420512649480, timestamp: 2026-07-20 16:10:06 UTC)
+Unable to classify — abetrade typically posts substantive market structure/system design analysis (low-frequency educational focus), but this is just a mention with external link. Unable to interpret the intent from the text alone.
 
-**Classification:** **SKIP (non-financial / personal social banter)**
-- Pure greeting/fist bump between traders — no financial content
-- No market opinion, no trade action, no ticker mention
-- Per HR-1 Category A rules: silent log-only, no alert to Kyle
+Is this:
+- Endorsement/agreement with breakoutprop's take?
+- Reference to a specific chart/analysis you're tracking?
+- Something else worth following?
 
 **Updates:**
 - ✓ Added entry to `memory/topics/traders.md` (HeartCanHodl section)
@@ -28,3 +29,4 @@ Unable to classify — what's your read?
 - Personal trade action?
 
 Awaiting Kyle input for calibration library.
+[View post](https://x.com/abetrade/status/2079238682008072510)

@@ -1,0 +1,72 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @abetrade"
+      },
+      "children": [
+        "event_line",
+        "tweet_card",
+        "separator_1",
+        "analysis_stack",
+        "view_link"
+      ]
+    },
+    "event_line": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Mention of @breakoutprop with link (Jul 20 16:15 UTC)",
+        "variant": "caption"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "abetrade",
+        "handle": "@abetrade",
+        "text": "@breakoutprop https://t.co/lCism1QEFe"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "interpretation_text",
+        "alert_classification"
+      ]
+    },
+    "interpretation_text": {
+      "type": "Text",
+      "props": {
+        "text": "@abetrade typically posts substantive market structure/system design analysis (low-frequency educational focus), but this is just a mention with external link. Unable to interpret the intent from the text alone."
+      }
+    },
+    "alert_classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Is this:\n• Endorsement/agreement with breakoutprop's take?\n• Reference to a specific chart/analysis you're tracking?\n• Something else worth following?",
+        "type": "info"
+      }
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/abetrade/status/2079238682008072510"
+      }
+    }
+  }
+}
