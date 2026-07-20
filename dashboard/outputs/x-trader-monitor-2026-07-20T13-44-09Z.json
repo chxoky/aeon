@@ -1,0 +1,221 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_title",
+        "sep1",
+        "heading_event",
+        "text_event_desc",
+        "stack_blancxbt",
+        "stack_swarmister",
+        "sep2",
+        "heading_context",
+        "text_context",
+        "sep3",
+        "heading_position",
+        "badge_position_type",
+        "grid_position_details",
+        "sep4",
+        "alert_question",
+        "link_source"
+      ]
+    },
+    "heading_title": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @swarmister",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "text_event_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Follow-up to earlier ambiguous message",
+        "variant": "body"
+      }
+    },
+    "stack_blancxbt": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_blancxbt_timestamp",
+        "tweet_blancxbt"
+      ]
+    },
+    "text_blancxbt_timestamp": {
+      "type": "Text",
+      "props": {
+        "text": "@blancxbt 12:54:47 UTC",
+        "variant": "caption"
+      }
+    },
+    "tweet_blancxbt": {
+      "type": "TweetCard",
+      "props": {
+        "author": "@blancxbt",
+        "handle": "blancxbt",
+        "text": "Almost 24 fml"
+      }
+    },
+    "stack_swarmister": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_swarmister_label",
+        "tweet_swarmister"
+      ]
+    },
+    "text_swarmister_label": {
+      "type": "Text",
+      "props": {
+        "text": "@swarmister response",
+        "variant": "caption"
+      }
+    },
+    "tweet_swarmister": {
+      "type": "TweetCard",
+      "props": {
+        "author": "@swarmister",
+        "handle": "swarmister",
+        "text": "@blancxbt This is really... oh, shit\n\nWhat a.."
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_context": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "Multiple cryptic posts to @blancxbt today. Text is incomplete/trailing, suggests emotional reaction to price action or trade outcome. No explicit ticker, no price level, no execution language.",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_position": {
+      "type": "Heading",
+      "props": {
+        "text": "BTC Position",
+        "level": "h3"
+      }
+    },
+    "badge_position_type": {
+      "type": "Badge",
+      "props": {
+        "text": "LONG",
+        "variant": "secondary"
+      }
+    },
+    "grid_position_details": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat_entry_date",
+        "stat_adds_planned",
+        "stat_target",
+        "stat_current_price"
+      ]
+    },
+    "stat_entry_date": {
+      "type": "Stat",
+      "props": {
+        "label": "Entry",
+        "value": "07-17"
+      }
+    },
+    "stat_adds_planned": {
+      "type": "Stat",
+      "props": {
+        "label": "Adds planned",
+        "value": "62.4k / 61.2k"
+      }
+    },
+    "stat_target": {
+      "type": "Stat",
+      "props": {
+        "label": "Target",
+        "value": "70.7k"
+      }
+    },
+    "stat_current_price": {
+      "type": "Stat",
+      "props": {
+        "label": "Current price",
+        "value": "~62-63K"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_question": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read?",
+        "type": "info"
+      }
+    },
+    "link_source": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/swarmister/status/2079198949005508818"
+      }
+    }
+  }
+}
