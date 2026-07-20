@@ -1,0 +1,66 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @t_in_crypto"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_context",
+        "tweet_original",
+        "tweet_reply",
+        "text_question",
+        "link_tweet"
+      ]
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "Context: Jul 17 posted cryptic \"Follow me or play against me 🤷🏻‍♀️ $btc\" (awaiting calibration). Now (Jul 20 19:11 UTC) follow-up reply.",
+        "variant": "body"
+      }
+    },
+    "tweet_original": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "handle": "t_in_crypto",
+        "text": "Follow me or play against me 🤷🏻‍♀️ $btc"
+      }
+    },
+    "tweet_reply": {
+      "type": "TweetCard",
+      "props": {
+        "author": "tiger_khan9",
+        "handle": "tiger_khan9",
+        "text": "And check dates"
+      }
+    },
+    "text_question": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read? Is this financial / BTC-related?",
+        "variant": "lead"
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/t_in_crypto/status/2079283009056817346"
+      }
+    }
+  }
+}
