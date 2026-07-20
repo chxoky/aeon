@@ -1,0 +1,242 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @t_in_crypto",
+        "description": "Event: Third cryptic BTC post in 3 days"
+      },
+      "children": [
+        "section_post",
+        "sep1",
+        "section_context",
+        "sep2",
+        "section_prior",
+        "sep3",
+        "section_analysis"
+      ]
+    },
+    "section_post": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_post",
+        "tweet_main"
+      ]
+    },
+    "heading_post": {
+      "type": "Heading",
+      "props": {
+        "text": "Post",
+        "level": "h3"
+      }
+    },
+    "tweet_main": {
+      "type": "TweetCard",
+      "props": {
+        "author": "@t_in_crypto",
+        "text": "❗️❗️❗️\n$btc #btc"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_context",
+        "text_position",
+        "text_conviction",
+        "text_theme"
+      ]
+    },
+    "heading_context": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "text_position": {
+      "type": "Text",
+      "props": {
+        "text": "Position: 100% BTC LONG @58.4K"
+      }
+    },
+    "text_conviction": {
+      "type": "Text",
+      "props": {
+        "text": "Conviction add: x2 @62K (Jul 14)"
+      }
+    },
+    "text_theme": {
+      "type": "Text",
+      "props": {
+        "text": "Recent posts emphasize: pivot dates, patience, bullish through consolidation"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_prior": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_prior",
+        "prior_post_1",
+        "prior_post_2"
+      ]
+    },
+    "heading_prior": {
+      "type": "Heading",
+      "props": {
+        "text": "Prior unresolved ambiguous posts",
+        "level": "h3"
+      }
+    },
+    "prior_post_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ts_1",
+        "tweet_1"
+      ]
+    },
+    "ts_1": {
+      "type": "Text",
+      "props": {
+        "text": "Jul 17 15:41",
+        "variant": "caption"
+      }
+    },
+    "tweet_1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "@t_in_crypto",
+        "text": "Follow me or play against me 🤷🏻‍♀️ $btc"
+      }
+    },
+    "prior_post_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ts_2",
+        "tweet_2"
+      ]
+    },
+    "ts_2": {
+      "type": "Text",
+      "props": {
+        "text": "Jul 19 16:39",
+        "variant": "caption"
+      }
+    },
+    "tweet_2": {
+      "type": "TweetCard",
+      "props": {
+        "author": "@t_in_crypto",
+        "text": "Follow pivot dates... I know all the dates a month or more in advance"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_analysis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_analysis",
+        "alert_ambiguity",
+        "interp_intro",
+        "interp_a",
+        "interp_b",
+        "interp_c",
+        "interp_d",
+        "interp_question"
+      ]
+    },
+    "heading_analysis": {
+      "type": "Heading",
+      "props": {
+        "text": "Analysis",
+        "level": "h3"
+      }
+    },
+    "alert_ambiguity": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify warning emoji post",
+        "message": "Is this: (a) bullish alert, (b) warning, (c) market reaction, or (d) banter?",
+        "type": "warning"
+      }
+    },
+    "interp_intro": {
+      "type": "Text",
+      "props": {
+        "text": "Possible interpretations:",
+        "variant": "lead"
+      }
+    },
+    "interp_a": {
+      "type": "Text",
+      "props": {
+        "text": "(a) Bullish alert on upcoming pivot/move"
+      }
+    },
+    "interp_b": {
+      "type": "Text",
+      "props": {
+        "text": "(b) Warning of danger/reversal risk"
+      }
+    },
+    "interp_c": {
+      "type": "Text",
+      "props": {
+        "text": "(c) Response to external market event"
+      }
+    },
+    "interp_d": {
+      "type": "Text",
+      "props": {
+        "text": "(d) Just cryptic banter"
+      }
+    },
+    "interp_question": {
+      "type": "Text",
+      "props": {
+        "text": "Your read?",
+        "variant": "lead"
+      }
+    }
+  }
+}
