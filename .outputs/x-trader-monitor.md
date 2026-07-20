@@ -16,3 +16,15 @@
 - ✓ Committed changes
 
 No notification sent—this was a non-actionable social message.
+🔍 Calibration — @swarmister
+
+Event: Cryptic commodity mention with no context
+
+swarmister: @CL207 LMEEEEOOOOOOW
+
+Unable to classify — what's your read?
+- Bearish sentiment on crude oil?
+- Playful meme/reference?
+- Personal trade action?
+
+Awaiting Kyle input for calibration library.

@@ -1,0 +1,159 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @swarmister",
+        "description": "Event classification needed for trader sentiment analysis"
+      },
+      "children": [
+        "section_event",
+        "separator1",
+        "section_message",
+        "separator2",
+        "section_classification",
+        "separator3",
+        "section_awaiting"
+      ]
+    },
+    "section_event": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_event",
+        "text_event"
+      ]
+    },
+    "heading_event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Cryptic commodity mention with no context",
+        "variant": "body"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_message": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_message",
+        "text_message"
+      ]
+    },
+    "heading_message": {
+      "type": "Heading",
+      "props": {
+        "text": "Message",
+        "level": "h3"
+      }
+    },
+    "text_message": {
+      "type": "Text",
+      "props": {
+        "text": "@CL207 LMEEEEOOOOOOW",
+        "variant": "lead"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_classification": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_classification",
+        "options"
+      ]
+    },
+    "heading_classification": {
+      "type": "Heading",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "level": "h3"
+      }
+    },
+    "options": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "option1",
+        "option2",
+        "option3"
+      ]
+    },
+    "option1": {
+      "type": "Text",
+      "props": {
+        "text": "Bearish sentiment on crude oil?",
+        "variant": "body"
+      }
+    },
+    "option2": {
+      "type": "Text",
+      "props": {
+        "text": "Playful meme/reference?",
+        "variant": "body"
+      }
+    },
+    "option3": {
+      "type": "Text",
+      "props": {
+        "text": "Personal trade action?",
+        "variant": "body"
+      }
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_awaiting": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "alert_awaiting"
+      ]
+    },
+    "alert_awaiting": {
+      "type": "Alert",
+      "props": {
+        "title": "Awaiting input",
+        "message": "Awaiting Kyle input for calibration library.",
+        "type": "info"
+      }
+    }
+  }
+}
