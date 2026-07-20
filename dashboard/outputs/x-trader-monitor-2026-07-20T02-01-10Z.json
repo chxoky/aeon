@@ -1,0 +1,136 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "heading-1",
+        "sep-1",
+        "text-event",
+        "tweet-1",
+        "sep-2",
+        "heading-2",
+        "stack-options",
+        "sep-3",
+        "link-view"
+      ]
+    },
+    "heading-1": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text-event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Unknown (tweet is a bare shortened URL with no surrounding context)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "tweet-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "@Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "https://t.co/ZPdlHk1AnN"
+      },
+      "children": []
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading-2": {
+      "type": "Heading",
+      "props": {
+        "text": "Unable to classify — what's in this link? Is it:",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "stack-options": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-opt1",
+        "text-opt2",
+        "text-opt3",
+        "text-opt4"
+      ]
+    },
+    "text-opt1": {
+      "type": "Text",
+      "props": {
+        "text": "A chart/indicator screenshot?"
+      },
+      "children": []
+    },
+    "text-opt2": {
+      "type": "Text",
+      "props": {
+        "text": "Analysis thread or article?"
+      },
+      "children": []
+    },
+    "text-opt3": {
+      "type": "Text",
+      "props": {
+        "text": "Market alert from another source?"
+      },
+      "children": []
+    },
+    "text-opt4": {
+      "type": "Text",
+      "props": {
+        "text": "Trade-related observation?"
+      },
+      "children": []
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link-view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2079023092630737211"
+      },
+      "children": []
+    }
+  }
+}

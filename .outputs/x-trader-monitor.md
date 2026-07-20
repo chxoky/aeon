@@ -1,11 +1,13 @@
-🔍 *Calibration — @t_in_crypto*
+🔍 *Calibration — @Wild_Randomness*
 
-Event: @t_in_crypto posted a mention to @TrollFootball with shortened URL
+Event: Unknown (tweet is a bare shortened URL with no surrounding context)
 
-@t_in_crypto: "@TrollFootball https://t.co/oXVr4gwKTf"
+@Wild_Randomness: "https://t.co/ZPdlHk1AnN"
 
-The post is cryptic — no financial language, no visible ticker or trade signal. URL cannot be resolved from tweet text alone.
+Unable to classify — what's in this link? Is it:
+- A chart/indicator screenshot?
+- Analysis thread or article?
+- Market alert from another source?
+- Trade-related observation?
 
-Unable to classify — what is your read? Should I track this as trading-related or log it as personal/banter?
-
-[View post](https://x.com/t_in_crypto/status/2078998023460266411)
+[View tweet](https://x.com/Wild_Randomness/status/2079023092630737211)
