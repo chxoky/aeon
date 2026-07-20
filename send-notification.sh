@@ -1,0 +1,17 @@
+#!/bin/bash
+./notify "🔍 *Calibration — @t_in_crypto*
+
+Event: ~33 min after their documented \"waiting for 65.6K breakout\" setup condition (Jul 20 15:27:20 UTC)
+
+Post: \"Here we gooo\n\$btc #btc https://t.co/GUfFA14e4p\"
+
+Context: t_in_crypto holds 100% BTC LONG @58.4K + x2 volume conviction add @62K (Jul 14). Recent posts show structured patience on breakout condition. Current post lacks clear execution language.
+
+Unable to classify — is this:
+(a) NEW entry/add signal at current price?
+(b) Bullish sentiment reaction to price movement?
+(c) Resource/analysis share (URL content unknown)?
+
+What's your read?
+
+[View tweet](https://x.com/t_in_crypto/status/2079250089403396569)"
