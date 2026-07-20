@@ -1,0 +1,48 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "separator_1",
+        "tweet_link",
+        "interpretation_text"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "abetrade",
+        "handle": "@abetrade",
+        "text": "@Stoiiic spot vol correlation in btc is negative so you get vol spike on moves down not up"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/abetrade/status/2079255516451123529",
+        "href": "https://x.com/abetrade/status/2079255516451123529"
+      },
+      "children": []
+    },
+    "interpretation_text": {
+      "type": "Text",
+      "props": {
+        "text": "↳ Structural observation on BTC vol dynamics — aligns with group's near-term volatility expectations.",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}

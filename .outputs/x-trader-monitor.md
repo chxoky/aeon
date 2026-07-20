@@ -1,5 +1,7 @@
-🐦 *[X] @Bitcoin_Astro*
+🐦 *[X] @abetrade*
 
-It's 67833 actually. That's a square root price level
+@Stoiiic spot vol correlation in btc is negative so you get vol spike on moves down not up
 
-[View tweet](https://x.com/Bitcoin_Astro/status/2079254300711333934)
+https://x.com/abetrade/status/2079255516451123529
+
+↳ Structural observation on BTC vol dynamics — aligns with group's near-term volatility expectations.
