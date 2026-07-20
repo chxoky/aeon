@@ -1,0 +1,60 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "link-tweet",
+        "separator-1",
+        "text-annotation"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "Still waiting for this particular short on $BTC. Ideally, I want to see a sweep above the external highs. The only issue is we're currently struggling to flip 65.6K. If we can break above it, there's a good chance we get that sweep."
+      },
+      "children": []
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2079226657785708581"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text-annotation": {
+      "type": "Text",
+      "props": {
+        "text": "This is a conditional setup—waiting for 65.6K break to add to his existing scalp-short hedge (entered 64.8–65.8K ladder 07-14). Aligns with HTF long conviction (2x @62.6K) as a controlled tactical hedge.",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
