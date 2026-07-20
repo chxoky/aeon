@@ -1,0 +1,94 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "calibration_heading",
+        "author_badge",
+        "sep1",
+        "event_info",
+        "sep2",
+        "reply_context",
+        "tweet_content",
+        "sep3",
+        "classification_issue"
+      ]
+    },
+    "calibration_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "author_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "@swarmister",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "event_info": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Tweet 2079185974894940442 at 2026-07-20T12:45:40 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "reply_context": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to @pierre_crypt0:",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "tweet_content": {
+      "type": "TweetCard",
+      "props": {
+        "author": "pierre_crypt0",
+        "handle": "@pierre_crypt0",
+        "text": "Still waiting 0.55$ imo"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "classification_issue": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to Classify",
+        "message": "What ticker/asset is the 0.55$ reference? Is this a personal trade action (waiting to enter/add), or sentiment/analysis comment?",
+        "type": "warning"
+      },
+      "children": []
+    }
+  }
+}
