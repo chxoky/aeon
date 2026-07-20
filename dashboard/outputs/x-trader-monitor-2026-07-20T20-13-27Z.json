@@ -1,0 +1,88 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor",
+        "description": "Market sentiment and analysis from X"
+      },
+      "children": [
+        "tweet-card",
+        "sep1",
+        "perf-stat",
+        "sep2",
+        "analysis-section"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Coming off of a weekend where NQ nuked 1200 pts in a straight line to end the previous week:\n- Official reports of the Chinese model thirsty for more compute\n- 36 Gavin Baker bull posts\n- US-Iran 10-day ceasefire\n\nResult?\nQQQ +10 bps"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "perf-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "QQQ Performance",
+        "value": "+10 bps",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis-heading",
+        "analysis-text",
+        "link-tweet"
+      ]
+    },
+    "analysis-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Analysis",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "analysis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Sarcastic macro commentary on market resilience — bounce flat despite positive catalysts suggests near-term skepticism on follow-through.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2079297263072141633"
+      },
+      "children": []
+    }
+  }
+}
