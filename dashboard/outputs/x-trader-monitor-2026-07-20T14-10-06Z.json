@@ -1,0 +1,125 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Trade analysis and calibration"
+      },
+      "children": [
+        "heading_calibration",
+        "stack_main"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h2"
+      }
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_event",
+        "tweet_card",
+        "sep_1",
+        "analysis_section"
+      ]
+    },
+    "badge_event": {
+      "type": "Badge",
+      "props": {
+        "text": "Event: Cryptic commentary on completed trade",
+        "variant": "default"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "(Apparently not everyone knew how this trade ended…)"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis_heading",
+        "questions_stack",
+        "sep_2",
+        "link_post"
+      ]
+    },
+    "analysis_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "level": "h3"
+      }
+    },
+    "questions_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "q1",
+        "q2",
+        "q3"
+      ]
+    },
+    "q1": {
+      "type": "Text",
+      "props": {
+        "text": "Which trade does this reference (ticker, prior thread)?",
+        "variant": "body"
+      }
+    },
+    "q2": {
+      "type": "Text",
+      "props": {
+        "text": "What was the outcome/surprise?",
+        "variant": "body"
+      }
+    },
+    "q3": {
+      "type": "Text",
+      "props": {
+        "text": "Is this personal reflection, market insight, or banter?",
+        "variant": "body"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_post": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2079206110226260468",
+        "source": "X"
+      }
+    }
+  }
+}
