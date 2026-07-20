@@ -1,18 +1,18 @@
-Heartbeat complete. All checks green — no notification sent (nothing new needing attention; the only non-success entries are known chain-runner artifacts already dedup'd across prior heartbeats).
+All checks complete. Everything is green — no notification sent.
 
 ## Summary
 
-**Result: `HEARTBEAT_OK · STATUS_PAGE=OK`**
+Ran the **heartbeat** skill (14:00 UTC run, 2026-07-20). All priority checks passed — **HEARTBEAT_OK · STATUS_PAGE=OK**.
 
-Checks performed:
-- **P0 — Failed/stuck skills:** No new failures. The only non-success entries in `cron-state.json` are `chain:morning-pipeline` (failed 07-19) and `morning-brief` (stuck `dispatched` since 07-17) — both known `chain-runner.yml` state-writeback artifacts (standalone `morning-pipeline` succeeded at 07:21Z, brief delivered). Already dedup'd across prior heartbeats → no notification.
-- **P0 — X webhook rule (ISS-002 guard):** `WATCHED_TRADERS` rule active (`is_effect: 1`, 180s interval, all 12 accounts). `x-trader-monitor` fired a real event at 08:35Z today — signals flowing. ISS-002 stays resolved.
-- **P1:** 0 open PRs; repo issues disabled.
+**Checks performed:**
+- **P0 — Failed/stuck skills:** Only flags are `chain:morning-pipeline` (failed 07-19 07:08Z) and `morning-brief` (stuck in `dispatched` since 07-17) — both are known `chain-runner.yml` state artifacts (the standalone `morning-pipeline` succeeded and the brief shipped). Already dedup'd across prior heartbeats → no notification. No API degradation, no chronic failures, heartbeat self-check fresh.
+- **P0 — X webhook rule (ISS-002 guard):** `WATCHED_TRADERS` rule is **active** (`is_effect: 1`, `is_delete: 0`, 180s interval, all 12 accounts). X signals flowing (real-time event at 14:18Z). ISS-002 stays resolved.
+- **P1:** 0 open PRs, repo issues disabled.
 - **P2:** No flagged memory follow-ups.
-- **P3:** All enabled skills current (none past 2× their interval).
+- **P3:** All enabled scheduled skills current.
 
-Files modified:
-- `docs/status.md` — regenerated public status page (Overall 🟢 OK, updated 08:38 UTC, refreshed skill-health table with today's x/discord-monitor runs, next run token-alert 12:00 UTC).
+**Files modified:**
+- `docs/status.md` — regenerated (Overall 🟢 OK, updated 14:29 UTC, 0 open issues, next run: skill-health at 18:00 UTC).
 - `memory/logs/2026-07-20.md` — appended heartbeat log entry.
 
-Follow-up needed: none. (The chain-runner state-writeback quirk remains cosmetic; would only warrant a fix if `chain-runner.yml` is revisited.)
+**Follow-up:** None. No notification sent (nothing new needing attention). The `chain-runner.yml` per-skill state write-back is a persistent-but-benign cosmetic artifact if a future cleanup is ever desired.
