@@ -1,0 +1,97 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Market Action — @Stoiiic"
+      },
+      "children": [
+        "position-row",
+        "sep1",
+        "tweet",
+        "sep2",
+        "context-stack",
+        "view-link"
+      ]
+    },
+    "position-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "pos-label",
+        "closed-badge"
+      ]
+    },
+    "pos-label": {
+      "type": "Text",
+      "props": {
+        "text": "BTC Position",
+        "variant": "lead"
+      }
+    },
+    "closed-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "CLOSED",
+        "variant": "destructive"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "Stoiiic",
+        "text": "take these out I'm tired of looking at that poor high. https://t.co/hvPw4aU8fg"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context1",
+        "context2"
+      ]
+    },
+    "context1": {
+      "type": "Text",
+      "props": {
+        "text": "Stoiiic taking off a full position, frustrated with holding a resistance level. Context: minutes after posting DVOL compression + positive skew setup (counter-trend rally into breakdown thesis).",
+        "variant": "body"
+      }
+    },
+    "context2": {
+      "type": "Text",
+      "props": {
+        "text": "No Kyle mirror position tracked.",
+        "variant": "muted"
+      }
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Stoiiic/status/2079298734324605264"
+      }
+    }
+  }
+}
