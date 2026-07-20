@@ -1,0 +1,68 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "sep_1",
+        "link_view",
+        "sep_2",
+        "analysis"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "@swarmister",
+        "text": "$ETH 4H + 5M: Same as the daily overview.\n\nOn Ethereum, the uptrend looks stronger than Bitcoin, and it's approaching the key 2000 level.\n\nBtw, it would be nice to see one more pullback before a test. Locally, it's in a narrowing range, just like Bitcoin."
+      },
+      "children": []
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/swarmister/status/2079067607412375918"
+      },
+      "children": []
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis": {
+      "type": "Text",
+      "props": {
+        "text": "swarmister's technical thesis on ETH structure has upgraded — 4H + 5M alignment on uptrend + key 2000 level proximity suggests near-term breakout potential. Group context: structurally strong (Crypto_Chase: \"best structure among majors\") but HCH holds short in basket.",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}

@@ -1,14 +1,11 @@
 🐦 *[X] @swarmister*
 
-$BTC 4H +10M
+$ETH 4H + 5M: Same as the daily overview. 
 
-We're slowly creeping higher, the EQH pattern from last week remains on the 4h timeframe.
+On Ethereum, the uptrend looks stronger than Bitcoin, and it's approaching the key 2000 level. 
 
-Based on the cumulative delta, the buyers still have the upper hand for now.
-Locally, the day and week opened with a narrowing pattern; we're waiting for the situation to resolve itself.
+Btw, it would be nice to see one more pullback before a test. Locally, it's in a narrowing range, just like Bitcoin.
 
-I remain bullish, but with a bit more caution.
+[View tweet](https://x.com/swarmister/status/2079067607412375918)
 
-[View tweet](https://x.com/swarmister/status/2079066016584499682)
-
-_Structural bulls still in control (KillaXBT 2x, t_in_crypto 100%+), but near-term consolidation mode remains._
+↳ _swarmister's technical thesis on ETH structure has upgraded — 4H + 5M alignment on uptrend + key 2000 level proximity suggests near-term breakout potential. Group context: structurally strong (Crypto_Chase: "best structure among majors") but HCH holds short in basket._
