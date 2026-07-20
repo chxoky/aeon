@@ -11,3 +11,10 @@ I've successfully processed the real-time X trader event for Stoiiic (tweet ID `
 - Updated memory: traders.md event log, x-trader-seen.txt dedup list, and daily activity log (2026-07-20.md)
 
 **Why skip?** The main volatility setup was already covered and alerted. This post adds terminology clarity but no new market signal requiring Kyle's attention. No action notification sent.
+🔍 *Calibration — @Stoiiic*
+
+Event: 8-minute follow-up to conversation with @abetrade (17:23:29 UTC clarification on 'expansion' language)
+
+@Stoiiic: "in other words, this shits probably on a timer lol"
+
+Cannot decode — what does 'on a timer' reference? Dismissive sarcasm, technical pattern expiry, or market structure signal?

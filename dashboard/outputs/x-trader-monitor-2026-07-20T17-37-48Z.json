@@ -1,0 +1,70 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading_main",
+        "separator_1",
+        "text_event",
+        "separator_2",
+        "tweetcard_quote",
+        "separator_3",
+        "alert_analysis"
+      ]
+    },
+    "heading_main": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Stoiiic",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: 8-minute follow-up to conversation with @abetrade (17:23:29 UTC clarification on 'expansion' language)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "tweetcard_quote": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "Stoiiic",
+        "text": "in other words, this shits probably on a timer lol"
+      },
+      "children": []
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "alert_analysis": {
+      "type": "Alert",
+      "props": {
+        "title": "Cannot decode",
+        "message": "What does 'on a timer' reference? Dismissive sarcasm, technical pattern expiry, or market structure signal?",
+        "type": "warning"
+      },
+      "children": []
+    }
+  }
+}
