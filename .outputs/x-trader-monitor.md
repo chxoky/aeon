@@ -1,15 +1,11 @@
 🐦 *[X] @Wild_Randomness*
 
-Early Monday morning US-Iran ceasefire:
+Wrong chart?
 
-SPY +0.3%
+This is showing a 10-yr bearish retest?
 
-[View tweet](https://x.com/Wild_Randomness/status/2079207408082227290)
+"Going to correct" — Freudian Slip?
 
-↳ _Macro sentiment aligns with group read on SPX near-term UP, adds US-Iran ceasefire as specific catalyst._
-🐦 *[X] @Bitcoin_Astro*
+[View tweet](https://x.com/Wild_Randomness/status/2079218115557146695)
 
-Bitcoin Update 20 July -Cycle Low Update
-https://t.co/CLbULlulrW
-
-[View tweet](https://x.com/Bitcoin_Astro/status/2079207757568176160)
+_Market structure observation on potential bearish pattern; appears to reference external chart discussion (thread context). Aligns with recent Wild_Randomness macro/vol conviction on market exhaustion and near-term reversal risk._

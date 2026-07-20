@@ -1,0 +1,60 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "tweet_link",
+        "separator",
+        "analysis_text"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Wrong chart?\n\nThis is showing a 10-yr bearish retest?\n\n\"Going to correct\" — Freudian Slip?"
+      },
+      "children": []
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2079218115557146695"
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Market structure observation on potential bearish pattern; appears to reference external chart discussion (thread context). Aligns with recent Wild_Randomness macro/vol conviction on market exhaustion and near-term reversal risk.",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
