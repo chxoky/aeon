@@ -26,3 +26,10 @@ Stoiiic taking off a full position, frustrated with holding a resistance level. 
 
 [View post](https://x.com/Stoiiic/status/2079298734324605264)
 [View post](https://x.com/Stoiiic/status/2079300171452871135)
+🔍 *Calibration — @Stoiiic*
+
+Event: General market structure commentary on price psychology
+
+Stoiiic: "tldr targeting these within +plus/minus a few sessions is how this should actually be applied but given there's memory when it comes to price and price charts my theory is there is still some residual psychology left behind."
+
+Unable to classify — what's your read? (cryptic reference to unspecified targets + price-memory psychology theory)

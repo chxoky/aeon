@@ -1,0 +1,75 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading_title",
+        "badge_author",
+        "separator_1",
+        "heading_event",
+        "text_event",
+        "separator_2",
+        "text_quote",
+        "separator_3",
+        "alert_classification"
+      ]
+    },
+    "heading_title": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration",
+        "level": "h2"
+      }
+    },
+    "badge_author": {
+      "type": "Badge",
+      "props": {
+        "text": "@Stoiiic"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "General market structure commentary on price psychology"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "text_quote": {
+      "type": "Text",
+      "props": {
+        "text": "Stoiiic: \"tldr targeting these within +plus/minus a few sessions is how this should actually be applied but given there's memory when it comes to price and price charts my theory is there is still some residual psychology left behind.\""
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "alert_classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "what's your read? (cryptic reference to unspecified targets + price-memory psychology theory)",
+        "type": "warning"
+      }
+    }
+  }
+}
