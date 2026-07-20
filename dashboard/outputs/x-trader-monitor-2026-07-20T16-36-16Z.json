@@ -1,0 +1,96 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_calib",
+        "text_event",
+        "sep1",
+        "tweetcard_main",
+        "sep2",
+        "text_analysis",
+        "stat_holdings",
+        "alert_concern"
+      ]
+    },
+    "badge_calib": {
+      "type": "Badge",
+      "props": {
+        "text": "Calibration",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @VegetaCrypto1 (original post context not visible)",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "tweetcard_main": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "handle": "t_in_crypto",
+        "text": "@VegetaCrypto1 7.7-7.8"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text_analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read? Is this a trade level, a technical target, or something else?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "stat_holdings": {
+      "type": "Stat",
+      "props": {
+        "label": "Current Holdings",
+        "value": "BTC long (58.4K→62K x2 volume)"
+      },
+      "children": []
+    },
+    "alert_concern": {
+      "type": "Alert",
+      "props": {
+        "title": "Alignment Issue",
+        "message": "This price range doesn't align with current position",
+        "type": "warning"
+      },
+      "children": []
+    }
+  }
+}
