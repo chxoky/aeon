@@ -1,21 +1,14 @@
-Perfect! I've completed execution of the discord-trader-monitor skill. Here's what happened:
+Done. Processed Discord message from KillaXBT discussing his BTC position management.
 
-## Summary
+**Event summary:**
+- **Trader:** KillaXBT | **Channel:** K (primary) | **Time:** 2026-07-20T15:46:17Z
+- **Classification:** Informational (tactical TP analysis, no new execution)
+- **Fast-path:** Already alerted (Telegram sent by Cloudflare Worker ~2-5s after event)
+- **Content:** KillaXBT clarifying partial TP mechanics from 65.2K entry ("other 50% stopped at BE after securing 50% on drop"). Discusses tactical entry zones (66.3K workable but risky, prefers 67.6-68K sweep zone for ideal lower-high establishment). Notes pattern of external sweeps before downside pushes.
 
-**Event processed:** HeartCanHodl's Discord message on 2026-07-20 03:47:54 UTC
-- **Channel:** 1279738718680256553 (HCH — Trades, primary)
-- **Message:** "Add more 1% kaito short" (conviction add to KAITO short position)
-- **Message ID:** 1528609370680852550
-- **Classification:** trade-conviction-add (Step 5d flow)
+**Updates:**
+- Added message ID to seen list (prevents reprocessing)
+- Updated `active-trades.md` with latest position commentary and tactical zones
+- Logged event to `memory/logs/2026-07-20.md`
 
-**Actions taken:**
-1. ✓ Decoded base64 event JSON
-2. ✓ Verified dedup (new message ID, not seen before)
-3. ✓ Added message ID to `/memory/discord-trader-seen.txt` for tracking
-4. ✓ Updated `/memory/topics/traders.md` with conviction add entry (KAITO position now +2% total after Jul 19 initial +1%)
-5. ✓ Updated `/memory/logs/2026-07-20.md` with detailed event log
-
-**Key notes:**
-- **Fast-path alert:** true — Cloudflare Worker already sent Telegram notification to Kyle within 2-5 seconds of message receipt. No second notification sent per skill protocol.
-- **Position context:** Systematic short-basket escalation continuing (VVV +2% Jul 19 02:08, KAITO +1% Jul 19 04:36, KAITO +1% more Jul 20 03:47). Estimated total portfolio short allocation: ~40-44%.
-- **Cross-platform dedup:** No matching X post on KAITO found; Discord message is second sighting on this ticker.
+Position remains ACTIVE: HTF 2x long intact (62.6K entry, bear-cycle thesis), spot 82.5% remaining post-TP, scalp-short hedge continuing (64.8-65.8K ladder from Jul 14). No new mirror action required.

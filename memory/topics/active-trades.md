@@ -131,7 +131,7 @@
 - **DCA Plan**: Targeting ~20 Bitcoin total notional over 3-4 months on dips (especially sub-50k level where willing to liquidate ISA stock holdings)
 - **Current conviction**: HIGH on BTC structure (bear market ~80% complete per 06-22 analysis); willing to add significantly at lower levels; adaptive TP management on bounces
 - **Technical thesis**: V-shape reversal from recent lows (62.6K–63.8K was tactical entry/scale zone); SL at BE suggests trading structure recovery into 66.3K resistance; continuing to eye 60.6K–61.3K as key support for potential re-entry if BE hit
-- **Last update**: 2026-07-18T18:12:05Z (position update: partial TP 25% @63.8K/62.6K, SL at BE, message_id=1528102077216194560, fast-path alerted, discord-trader-monitor)
+- **Last update**: 2026-07-20T15:46:17Z (discord-trader-monitor real-time event, message_id=1528790159292891286, fast-path alerted; tactical TP clarification: "other 50% from 65.2K stopped at BE after securing 50% on drop"; remaining position targeting 67.6-68K zone for ideal lower-high establishment; 66.3K entry noted as workable but "little risky"; pattern observation "recently all ranges resulted in external sweeps before pushes lower")
 
 ### BTC — SHORT (scalp hedge, ACTIVE entry 2026-07-14)
 - **Status**: ACTIVE — LADDER ENTRY INITIATED 2026-07-14T15:38:48Z
