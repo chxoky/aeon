@@ -1,0 +1,161 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @swarmister"
+      },
+      "children": [
+        "event_stack",
+        "context_stack",
+        "analysis_stack",
+        "question_alert",
+        "link_stack"
+      ]
+    },
+    "event_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event_label",
+        "event_subtype",
+        "tweet_card"
+      ]
+    },
+    "event_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "event_subtype": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to @mainachad",
+        "variant": "body"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "text": "I'm in btw!!"
+      }
+    },
+    "context_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_label",
+        "context_desc",
+        "position_info"
+      ]
+    },
+    "context_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "context_desc": {
+      "type": "Text",
+      "props": {
+        "text": "swarmister is intraday BTC trader with active long position",
+        "variant": "body"
+      }
+    },
+    "position_info": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "entry",
+        "target",
+        "dca"
+      ]
+    },
+    "entry": {
+      "type": "Stat",
+      "props": {
+        "label": "Entry",
+        "value": "62.4k"
+      }
+    },
+    "target": {
+      "type": "Stat",
+      "props": {
+        "label": "Target",
+        "value": "70.7k"
+      }
+    },
+    "dca": {
+      "type": "Text",
+      "props": {
+        "text": "DCA planned at 62.4k/61.2k",
+        "variant": "caption"
+      }
+    },
+    "analysis_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis_label",
+        "analysis_text"
+      ]
+    },
+    "analysis_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Analysis",
+        "level": "h3"
+      }
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "This reply to @mainachad uses first-person execution language (\"I'm in\") but lacks detail — unclear whether this is a new trade entry confirmation, position reaffirmation, or social agreement on @mainachad's idea.",
+        "variant": "body"
+      }
+    },
+    "question_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read? Is this a new trade execution to mirror, or acknowledgment of existing position?",
+        "type": "warning"
+      }
+    },
+    "link_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "link_element"
+      ]
+    },
+    "link_element": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/swarmister/status/2079195167634927701"
+      }
+    }
+  }
+}
