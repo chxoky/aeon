@@ -1,0 +1,112 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Trade Signal — @swarmister"
+      },
+      "children": [
+        "alert",
+        "signal_info",
+        "sep1",
+        "liquidity",
+        "quote",
+        "sep2",
+        "link",
+        "sep3",
+        "action"
+      ]
+    },
+    "alert": {
+      "type": "Alert",
+      "props": {
+        "title": "🚨 Trade Signal",
+        "message": "$PEPE",
+        "type": "warning"
+      }
+    },
+    "signal_info": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badges",
+        "order_type"
+      ]
+    },
+    "badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_long"
+      ]
+    },
+    "badge_long": {
+      "type": "Badge",
+      "props": {
+        "text": "LONG",
+        "variant": "secondary"
+      }
+    },
+    "order_type": {
+      "type": "Text",
+      "props": {
+        "text": "Market order (spot) + long position",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "liquidity": {
+      "type": "Stat",
+      "props": {
+        "label": "Liquidity concentration zone",
+        "value": "0.002550—0.002489"
+      }
+    },
+    "quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"There has been a shift toward a long direction, a very clean price action. However, the main liquidity is concentrated in the 0.002550―0.002489 range. If conditions allow, I will buy spot and also try to open a long position.\"",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/swarmister/status/2079306438908813340"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "action": {
+      "type": "Alert",
+      "props": {
+        "message": "Reply `approve PEPE` to mirror this on Kraken (spot), or ignore to skip.",
+        "type": "info"
+      }
+    }
+  }
+}
