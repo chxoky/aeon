@@ -1,9 +1,11 @@
-🔍 *Calibration — @trading_axe*
+🐦 *[X] @swarmister*
 
-Event: Reply to @asparagoid discussing multiple points
+$BTC (H1)
 
-@trading_axe: "Third point by far the most important.
+We're seeing an interesting divergence between spot and futures prices. Plus, someone hit the glass on the spot market.
 
-~ Dr. Axius."
+P.S. We broke down from this morning's consolidation. And now this divergence has appeared, which often gets closed out (fill the wick).
 
-Unable to classify — what's your read on the "third point" reference?
+[View tweet](https://x.com/swarmister/status/2079153854344532392)
+
+_Technical context for your pending BTC long entry (targeting 70.7K). H1 divergence + breakdown = potential sharp move intraday._

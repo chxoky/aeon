@@ -1,0 +1,73 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "$BTC (H1) Trading Signal"
+      },
+      "children": [
+        "tweet_card",
+        "separator1",
+        "technical_stack"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "We're seeing an interesting divergence between spot and futures prices. Plus, someone hit the glass on the spot market.\n\nP.S. We broke down from this morning's consolidation. And now this divergence has appeared, which often gets closed out (fill the wick)."
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "technical_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tech_heading",
+        "tech_context",
+        "target_stat",
+        "tweet_link"
+      ]
+    },
+    "tech_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Technical Context",
+        "level": "h3"
+      }
+    },
+    "tech_context": {
+      "type": "Text",
+      "props": {
+        "text": "For your pending BTC long entry: H1 divergence + breakdown = potential sharp move intraday.",
+        "variant": "body"
+      }
+    },
+    "target_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Entry Target",
+        "value": "70.7K"
+      }
+    },
+    "tweet_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View tweet",
+        "href": "https://x.com/swarmister/status/2079153854344532392",
+        "source": "X"
+      }
+    }
+  }
+}
