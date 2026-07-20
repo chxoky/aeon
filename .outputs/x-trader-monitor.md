@@ -8,3 +8,11 @@ Liquidity concentration zone: 0.002550—0.002489
 [View post](https://x.com/swarmister/status/2079306438908813340)
 
 Reply `approve PEPE` to mirror this on Kraken (spot), or ignore to skip.
+🔍 *Calibration — @swarmister*
+
+Event: Cryptic market sentiment reply
+swarmister: "@DipWheeler Massive weak."
+
+Unable to classify — what's your read?
+
+[View post](https://x.com/swarmister/status/2079306483905290746)
