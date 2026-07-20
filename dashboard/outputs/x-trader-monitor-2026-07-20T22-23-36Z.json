@@ -1,0 +1,78 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @t_in_crypto"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_context",
+        "sep_1",
+        "text_message",
+        "sep_2",
+        "alert_classification",
+        "sep_3",
+        "link_post"
+      ]
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "Conversation with @Lambdadx2102 @sergio_tesla_ about trading plans",
+        "variant": "caption"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_message": {
+      "type": "Text",
+      "props": {
+        "text": "\"I have some dates, it will also depend on the price levels at these times\"",
+        "variant": "body"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification Question",
+        "message": "Unable to classify — Is this just sharing their planning approach/thesis (informational), or should I treat it differently given their established lunar/pivot-date framing?",
+        "type": "info"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/t_in_crypto/status/2079330224076931375"
+      }
+    }
+  }
+}
