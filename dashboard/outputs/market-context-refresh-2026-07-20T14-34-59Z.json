@@ -1,0 +1,269 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "market context — 2026-07-20"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "conviction_row",
+        "separator1",
+        "prices_section",
+        "separator2",
+        "indicators_section",
+        "separator3",
+        "narratives_section",
+        "separator4",
+        "fed_section"
+      ]
+    },
+    "conviction_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "conviction_label",
+        "conviction_badge"
+      ]
+    },
+    "conviction_label": {
+      "type": "Text",
+      "props": {
+        "text": "take:",
+        "variant": "muted"
+      }
+    },
+    "conviction_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "chop (conviction low)",
+        "variant": "outline"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "prices_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "prices_heading",
+        "prices_grid"
+      ]
+    },
+    "prices_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Prices",
+        "level": "h3"
+      }
+    },
+    "prices_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "btc_stat",
+        "eth_stat"
+      ]
+    },
+    "btc_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$64.3K",
+        "delta": "−0.1%",
+        "trend": "down"
+      }
+    },
+    "eth_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$1,864",
+        "delta": "−0.3%",
+        "trend": "down"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "indicators_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "indicators_heading",
+        "indicators_grid"
+      ]
+    },
+    "indicators_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Market Indicators",
+        "level": "h3"
+      }
+    },
+    "indicators_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "fg_indicator",
+        "breadth_indicator",
+        "dex_vol_stat"
+      ]
+    },
+    "fg_indicator": {
+      "type": "Badge",
+      "props": {
+        "text": "F&G 29 (Fear)",
+        "variant": "destructive"
+      }
+    },
+    "breadth_indicator": {
+      "type": "Text",
+      "props": {
+        "text": "breadth: 1/16",
+        "variant": "body"
+      }
+    },
+    "dex_vol_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "DEX vol",
+        "value": "$5.45B",
+        "delta": "+17%",
+        "trend": "up"
+      }
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "narratives_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "narratives_heading",
+        "narrative_item"
+      ]
+    },
+    "narratives_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Narrative",
+        "level": "h3"
+      }
+    },
+    "narrative_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "narrative_tag",
+        "narrative_detail"
+      ]
+    },
+    "narrative_tag": {
+      "type": "Badge",
+      "props": {
+        "text": "memecoins (emerging)",
+        "variant": "secondary"
+      }
+    },
+    "narrative_detail": {
+      "type": "Text",
+      "props": {
+        "text": "PUMP +16.6% on Ansem buzz",
+        "variant": "body"
+      }
+    },
+    "separator4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "fed_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "fed_heading",
+        "fed_content"
+      ]
+    },
+    "fed_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Market Event",
+        "level": "h3"
+      }
+    },
+    "fed_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "fed_question",
+        "fed_progress"
+      ]
+    },
+    "fed_question": {
+      "type": "Text",
+      "props": {
+        "text": "Fed: no change July 2026",
+        "variant": "body"
+      }
+    },
+    "fed_progress": {
+      "type": "Progress",
+      "props": {
+        "value": 93.2,
+        "max": 100,
+        "label": "YES 93.2%"
+      }
+    }
+  }
+}

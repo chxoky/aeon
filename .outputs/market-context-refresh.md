@@ -1,7 +1,7 @@
-market context — 2026-07-19
+market context — 2026-07-20
 
 take: chop (conviction low)
-BTC $64,455 (+0.60%) / ETH $1,871 (+1.67%) · F&G 28 (Fear)
-breadth 17/20 · DEX vol $4.65B (−30% vs yesterday's $7.84B)
-top narrative: ETH/DeFi rising (decelerating); KAITO AI rising
-hot market: FIFA WC Final — Spain advance YES 58.9%
+BTC $64.3K (−0.1%) / ETH $1,864 (−0.3%) · F&G 29 (Fear)
+breadth 1/16 · DEX vol $5.45B (+17% vs prior)
+top narrative: memecoins (emerging) — PUMP +16.6% on Ansem buzz
+hot market: "Fed: no change July 2026" YES 93.2%
