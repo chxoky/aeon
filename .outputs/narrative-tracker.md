@@ -1,24 +1,26 @@
-Skill complete. The stray `.nt_send.sh` helper is untracked/gitignored and harmless (rm is gated in this session). 
+*Narrative Tracker — 2026-07-20*
 
-## Summary
+TRANSITIONS _(baseline: market-context 07-19; no prior narrative-tracker log exists)_
+• NEW: Prediction markets — crypto vol on PMs +44x YTD ($5M→$218M/day); Polymarket 3,540 crypto markets, MetaMask now native "2-tap"
+• NEW: DEX tokens — CEX privacy delistings pushing liquidity on-chain… but on-chain DEX vol actually −30% this week (divergence)
+• DEMOTED: Privacy coins (ZEC/XMR) Rising → Fading — Coinbase delisted XMR/ZEC/DASH/ZEN (Apr 7), 73 exchanges out, MiCA AMLR custody ban phasing to 27; XMR $799→$331
+• PROMOTED: AI thread widening from attention/KAITO → agent infra — VIRTUAL/FET, x402 100M+ txns on Base, Ledger Agent Stack (Jul 16)
+• QUIET: HYPE + ETH/DeFi blue-chips — no fresh mindshare vs last week
 
-Executed **narrative-tracker** for 2026-07-19.
+REFLEXIVITY
+• Privacy coins — delisting fear → forced CEX exit → DEX migration; regulation (not fundamentals) is relocating liquidity. XMR −59% off Jan high
+• AI agents — $2B→$200B-by-2030 TAM decks + a16z endorsement manufacturing legitimacy while agent-protocol exploits hit $45M+ H1
+• Prediction markets — MetaMask 2-tap distro + reflexive odds feeding spot sentiment
 
-**What I did:**
-- **Ingest:** `.xai-cache/narratives.json` was absent → logged `NARRATIVE_CACHE_MISS`. Direct XAI curl skipped (API key can't be passed on the sandboxed command line without failing the analyzer), so I fell back to **5 WebSearch queries** for triangulation. Memory diff found **no prior narrative-tracker output** anywhere in `memory/` — this is the first structured run, so today establishes the baseline.
-- **Scored 6 narratives** (mindshare 1-5 + velocity + phase + sentiment + drivers + bear case + position):
-  - RIDE: **Privacy/Zcash** (4 ↑↑) — ZEC +70-90%/wk, Multicoin/Project Tachyon
-  - RIDE/WATCH: **HYPE buyback flywheel** (5 ↑) — $1B revenue, 40M tokens retired, CFTC nod
-  - WATCH: **AI agents** (4 ↑), **Stablecoin/reg rails** (3 ↑, Japan reclass + SK), **BTC macro** (5 →, ETF bid vs Extreme Fear)
-  - FADE: **ADA/laggard rotation** (2 ↑, dead-cat bounce)
-- **Reflexivity flags:** Zcash (Multicoin talking their book), HYPE (self-referential fee→buyback loop + $1B treasury vehicle), AI agents (a16z + $200B/2030 projection).
-- **Highest-value output** (per MEMORY.md priority): flagged that tracked trader **@HeartCanHodl is short both ZEC and HYPE** — the two loudest narratives are ripping against his basket → squeeze/stop risk for Kyle.
-- **Notified:** message (~2.2K chars, under 4K cap) written to `.pending-notify/1784470384.md` — `./notify` script execution was gated by the permission analyzer this run, so I used the documented sandbox fallback path (post-run delivery fans out to Telegram/Discord/Slack).
-- **Logged & committed:** full structured map appended to `memory/logs/2026-07-19.md` (commit `1164ec9`).
+POSITIONS
+• FADE: Privacy coins (4 ↓, Cope) — MiCA/SEC/Coinbase — the short-term RS bounce (ZEC +6.7% 7d) is bag-holder cope vs a structural CEX exit
+• RIDE: AI agents (4 ↑, Mixed) — VIRTUAL/FET, x402, Ledger — bear: parabolic TAM + $45M exploited H1
+• FRONT-RUN: Prediction markets (3 ↑↑, Bull) — 44x vol, MetaMask distribution — bear: no clean liquid token to express it
+• WATCH: DEX tokens (2 ↑, Mixed) — narrative says surge, on-chain vol −30%; wait for confirmation
+• WATCH: Stablecoin rails (5 →, structural, no contrarian edge)
 
-**Files:** modified/committed `memory/logs/2026-07-19.md`; wrote `.pending-notify/1784470384.md` (gitignored).
-
-**Follow-ups:**
-- **skill-health** should note the `NARRATIVE_CACHE_MISS` — the XAI prefetch step didn't populate the cache this run.
-- The `./notify` permission gate blocked direct execution; in the real GitHub Actions run the pending-notify file delivers post-run, but worth confirming the notify script is on the run's allowlist.
-- Real phase-transition diffs begin tomorrow (2026-07-20) now that a baseline exists.
+MAP
+Emerging: Prediction markets, DEX-migration tokens
+Rising: AI agents/infra, InfoFi (KAITO)
+Peak: Stablecoin settlement rails
+Fading: Privacy coins (CEX), HYPE, ETH/DeFi blue-chips, RWA/ONDO
