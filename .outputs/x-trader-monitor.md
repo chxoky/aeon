@@ -1,25 +1,11 @@
-Perfect! I've successfully processed the x-trader-monitor skill event for the provided tweet from @Stoiiic. Here's what happened:
+🔍 *Calibration — @Stoiiic*
 
-## Summary
+Event: Reply to @risextrade sharing promotional codes/identifiers for platform trial
 
-**Tweet Analyzed:**
-- **ID:** 2079596607771738299
-- **Trader:** @Stoiiic
-- **Time:** Jul 21 15:57:22 UTC
-- **Content:** "@risextrade if these get used and anyone wants one feel free to let me know."
+Stoiiic: "@risextrade a few more:
 
-**Classification:** **Non-financial / Personal offer** (HR-1 Category A)
+14I3JBNN
+2SJD49B7
+3RQVKVTX"
 
-**Reasoning:**
-- No first-person trade execution language ("I'm entering/adding/closing")
-- No ticker mentioned
-- No market opinion or price level
-- Pure personal engagement/offer to provide something unspecified
-
-**Action Taken:**
-- ✓ Silent skip (no alert sent to Kyle)
-- ✓ Added tweet ID to `memory/x-trader-seen.txt` (prevents duplicate processing)
-- ✓ Updated `memory/topics/traders.md` with event log entry and "Last seen" timestamp
-- ✓ Logged to `memory/logs/2026-07-21.md`
-
-This aligns with Stoiiic's established pattern of ~40% personal banter/engagement mixed with technical/educational content. No action required from Kyle.
+Context: Stoiiic has been sharing @risextrade early-access codes in promotional posts (15:45 & 15:49 UTC). Current message continues pattern but codes lack explanation. Cannot determine if: (a) promotional/social engagement (like prior posts), or (b) market signal/order IDs requiring mirror decision. What's your read? Are these access codes or financial signals?

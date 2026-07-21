@@ -1,0 +1,146 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @Stoiiic"
+      },
+      "children": [
+        "event-desc",
+        "sep1",
+        "tweet",
+        "sep2",
+        "context-section",
+        "sep3",
+        "codes-section",
+        "sep4",
+        "question-alert"
+      ]
+    },
+    "event-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @risextrade sharing promotional codes/identifiers for platform trial",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "stoiiic",
+        "text": "@risextrade a few more:\n\n14I3JBNN\n2SJD49B7\n3RQVKVTX"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context-label",
+        "context-text"
+      ]
+    },
+    "context-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h4"
+      }
+    },
+    "context-text": {
+      "type": "Text",
+      "props": {
+        "text": "Stoiiic has been sharing @risextrade early-access codes in promotional posts (15:45 & 15:49 UTC). Current message continues pattern but codes lack explanation. Cannot determine if: (a) promotional/social engagement (like prior posts), or (b) market signal/order IDs requiring mirror decision.",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "codes-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "codes-heading",
+        "codes-badges"
+      ]
+    },
+    "codes-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Shared Codes",
+        "level": "h4"
+      }
+    },
+    "codes-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-1",
+        "badge-2",
+        "badge-3"
+      ]
+    },
+    "badge-1": {
+      "type": "Badge",
+      "props": {
+        "text": "14I3JBNN",
+        "variant": "default"
+      }
+    },
+    "badge-2": {
+      "type": "Badge",
+      "props": {
+        "text": "2SJD49B7",
+        "variant": "default"
+      }
+    },
+    "badge-3": {
+      "type": "Badge",
+      "props": {
+        "text": "3RQVKVTX",
+        "variant": "default"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "question-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Calibration Question",
+        "message": "What's your read? Are these access codes or financial signals? (a) promotional/social engagement (like prior posts), or (b) market signal/order IDs requiring mirror decision?",
+        "type": "info"
+      }
+    }
+  }
+}
