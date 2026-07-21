@@ -1,0 +1,60 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-all"
+      ]
+    },
+    "stack-all": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "link-view",
+        "separator1",
+        "analysis-text"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "@swarmister",
+        "text": "My minimum forecast is in the range of 67-72 thousand dollars ☂ god damn it, I think I need to write a long post with a game plan for the next 3-4 months\n\nI'll get ready."
+      },
+      "children": []
+    },
+    "link-view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/swarmister/status/2079560745465839639"
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis-text": {
+      "type": "Text",
+      "props": {
+        "text": "↳ Aligns with swarmister's existing bullish D1/H4 BTC long thesis (70.7k target, pending approval). Structural bull group (KillaXBT 2x, t_in_crypto conviction add) converging on this zone.",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
