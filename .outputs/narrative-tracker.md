@@ -1,26 +1,25 @@
-*Narrative Tracker — 2026-07-20*
+*Narrative Tracker — 2026-07-21*
+(baseline run — no prior tracker log; transitions are directional from within-window evidence)
 
-TRANSITIONS _(baseline: market-context 07-19; no prior narrative-tracker log exists)_
-• NEW: Prediction markets — crypto vol on PMs +44x YTD ($5M→$218M/day); Polymarket 3,540 crypto markets, MetaMask now native "2-tap"
-• NEW: DEX tokens — CEX privacy delistings pushing liquidity on-chain… but on-chain DEX vol actually −30% this week (divergence)
-• DEMOTED: Privacy coins (ZEC/XMR) Rising → Fading — Coinbase delisted XMR/ZEC/DASH/ZEN (Apr 7), 73 exchanges out, MiCA AMLR custody ban phasing to 27; XMR $799→$331
-• PROMOTED: AI thread widening from attention/KAITO → agent infra — VIRTUAL/FET, x402 100M+ txns on Base, Ledger Agent Stack (Jul 16)
-• QUIET: HYPE + ETH/DeFi blue-chips — no fresh mindshare vs last week
+TRANSITIONS
+• PROMOTED: Prediction Markets Rising→Peak — Kalshi $31B June vol (+70% MoM), $50B World Cup breakout, 58.9% share vs Polymarket 30.2% (falling); institutional desks entering
+• DEMOTED: DATs Peak→Fading — mNAV compressing MSTR 2x→1.2x, forecasts ~1.05x, forced consolidation
+• DEMOTED: Meme/ICO Launchpads Peak→Fading — memecap flat ~$33.7B, rotation into utility/yield
+• NEW (baseline): AI Agents, Privacy Crackdown, Stablecoins, RWA
 
 REFLEXIVITY
-• Privacy coins — delisting fear → forced CEX exit → DEX migration; regulation (not fundamentals) is relocating liquidity. XMR −59% off Jan high
-• AI agents — $2B→$200B-by-2030 TAM decks + a16z endorsement manufacturing legitimacy while agent-protocol exploits hit $45M+ H1
-• Prediction markets — MetaMask 2-tap distro + reflexive odds feeding spot sentiment
+• DATs — memetic premium collapse self-reinforcing: share price leads the decline, compression forces more selling
+• Privacy coins — regulatory narrative alone knocked XMR $799→$331; liquidity fleeing exchanges→DEXs (ties to HCH's ZEC short)
+• AI Agents — projects rebranding "agentic"; velocity concentrated in $VIRTUAL/$FET on narrative capital, not fundamentals
 
 POSITIONS
-• FADE: Privacy coins (4 ↓, Cope) — MiCA/SEC/Coinbase — the short-term RS bounce (ZEC +6.7% 7d) is bag-holder cope vs a structural CEX exit
-• RIDE: AI agents (4 ↑, Mixed) — VIRTUAL/FET, x402, Ledger — bear: parabolic TAM + $45M exploited H1
-• FRONT-RUN: Prediction markets (3 ↑↑, Bull) — 44x vol, MetaMask distribution — bear: no clean liquid token to express it
-• WATCH: DEX tokens (2 ↑, Mixed) — narrative says surge, on-chain vol −30%; wait for confirmation
-• WATCH: Stablecoin rails (5 →, structural, no contrarian edge)
+• RIDE: Prediction Markets (5 ↑↑ Bull) — Kalshi/Polymarket/Coinbase — bear: 85% sports, post-World-Cup cliff
+• RIDE: AI Agents (4 ↑ Mixed) — $VIRTUAL/$FET, Ledger Agent Stack (Jul 15) — bear: $45M agent exploits H1; $2B→$200B hopium
+• FADE: DATs (3 ↓ Cope) — MSTR + ETH treasuries — reflexive premium collapse, no floor until ~NAV
+• WATCH: Privacy (3 ↑ Mixed) — Monero/Zcash — ZEC transparent layer = compliance edge over XMR
+• WATCH: Stablecoins (4 → Bull) — commoditized, no contrarian edge
 
 MAP
-Emerging: Prediction markets, DEX-migration tokens
-Rising: AI agents/infra, InfoFi (KAITO)
-Peak: Stablecoin settlement rails
-Fading: Privacy coins (CEX), HYPE, ETH/DeFi blue-chips, RWA/ONDO
+Rising: AI Agents, RWA
+Peak: Prediction Markets, Privacy, Stablecoins
+Fading: DATs, Meme/ICO Launchpads

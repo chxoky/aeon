@@ -1,0 +1,483 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-07-21",
+        "description": "Baseline run — no prior tracker log; transitions are directional from within-window evidence"
+      },
+      "children": [
+        "transitions-section",
+        "reflexivity-section",
+        "positions-section",
+        "map-section"
+      ]
+    },
+    "transitions-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "transitions-heading",
+        "sep1",
+        "promoted",
+        "demoted1",
+        "demoted2",
+        "new-narratives"
+      ]
+    },
+    "transitions-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "promoted": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "promoted-badge",
+        "promoted-text1",
+        "promoted-text2"
+      ]
+    },
+    "promoted-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED: Prediction Markets Rising → Peak",
+        "variant": "secondary"
+      }
+    },
+    "promoted-text1": {
+      "type": "Text",
+      "props": {
+        "text": "Kalshi $31B June vol (+70% MoM), $50B World Cup breakout",
+        "variant": "body"
+      }
+    },
+    "promoted-text2": {
+      "type": "Text",
+      "props": {
+        "text": "58.9% share vs Polymarket 30.2% (falling); institutional desks entering",
+        "variant": "body"
+      }
+    },
+    "demoted1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "demoted1-badge",
+        "demoted1-text1",
+        "demoted1-text2"
+      ]
+    },
+    "demoted1-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED: DATs Peak → Fading",
+        "variant": "secondary"
+      }
+    },
+    "demoted1-text1": {
+      "type": "Text",
+      "props": {
+        "text": "mNAV compressing MSTR 2x → 1.2x, forecasts ~1.05x",
+        "variant": "body"
+      }
+    },
+    "demoted1-text2": {
+      "type": "Text",
+      "props": {
+        "text": "Forced consolidation",
+        "variant": "body"
+      }
+    },
+    "demoted2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "demoted2-badge",
+        "demoted2-text"
+      ]
+    },
+    "demoted2-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED: Meme/ICO Launchpads Peak → Fading",
+        "variant": "secondary"
+      }
+    },
+    "demoted2-text": {
+      "type": "Text",
+      "props": {
+        "text": "Memecap flat ~$33.7B, rotation into utility/yield",
+        "variant": "body"
+      }
+    },
+    "new-narratives": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "new-badge",
+        "new-text"
+      ]
+    },
+    "new-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW (baseline)",
+        "variant": "outline"
+      }
+    },
+    "new-text": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agents, Privacy Crackdown, Stablecoins, RWA",
+        "variant": "body"
+      }
+    },
+    "reflexivity-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "reflexivity-heading",
+        "sep2",
+        "reflexivity-dats",
+        "reflexivity-privacy",
+        "reflexivity-ai"
+      ]
+    },
+    "reflexivity-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY",
+        "level": "h2"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "reflexivity-dats": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "reflexivity-dats-title",
+        "reflexivity-dats-text"
+      ]
+    },
+    "reflexivity-dats-title": {
+      "type": "Text",
+      "props": {
+        "text": "DATs",
+        "variant": "lead"
+      }
+    },
+    "reflexivity-dats-text": {
+      "type": "Text",
+      "props": {
+        "text": "Memetic premium collapse self-reinforcing: share price leads the decline, compression forces more selling",
+        "variant": "body"
+      }
+    },
+    "reflexivity-privacy": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "reflexivity-privacy-title",
+        "reflexivity-privacy-text"
+      ]
+    },
+    "reflexivity-privacy-title": {
+      "type": "Text",
+      "props": {
+        "text": "Privacy coins",
+        "variant": "lead"
+      }
+    },
+    "reflexivity-privacy-text": {
+      "type": "Text",
+      "props": {
+        "text": "Regulatory narrative alone knocked XMR $799→$331; liquidity fleeing exchanges→DEXs (ties to HCH's ZEC short)",
+        "variant": "body"
+      }
+    },
+    "reflexivity-ai": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "reflexivity-ai-title",
+        "reflexivity-ai-text"
+      ]
+    },
+    "reflexivity-ai-title": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agents",
+        "variant": "lead"
+      }
+    },
+    "reflexivity-ai-text": {
+      "type": "Text",
+      "props": {
+        "text": "Projects rebranding \"agentic\"; velocity concentrated in $VIRTUAL/$FET on narrative capital, not fundamentals",
+        "variant": "body"
+      }
+    },
+    "positions-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "positions-heading",
+        "sep3",
+        "positions-table"
+      ]
+    },
+    "positions-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "positions-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Position",
+          "Narrative",
+          "Rating",
+          "Assets/Projects",
+          "Notes"
+        ],
+        "rows": [
+          [
+            "RIDE",
+            "Prediction Markets",
+            "5 ↑↑ Bull",
+            "Kalshi/Polymarket/Coinbase",
+            "Bear: 85% sports, post-World-Cup cliff"
+          ],
+          [
+            "RIDE",
+            "AI Agents",
+            "4 ↑ Mixed",
+            "$VIRTUAL/$FET, Ledger Agent Stack (Jul 15)",
+            "Bear: $45M agent exploits H1; $2B→$200B hopium"
+          ],
+          [
+            "FADE",
+            "DATs",
+            "3 ↓ Cope",
+            "MSTR + ETH treasuries",
+            "Reflexive premium collapse, no floor until ~NAV"
+          ],
+          [
+            "WATCH",
+            "Privacy",
+            "3 ↑ Mixed",
+            "Monero/Zcash",
+            "ZEC transparent layer = compliance edge over XMR"
+          ],
+          [
+            "WATCH",
+            "Stablecoins",
+            "4 → Bull",
+            "Commoditized",
+            "No contrarian edge"
+          ]
+        ]
+      }
+    },
+    "map-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "map-heading",
+        "sep4",
+        "map-content"
+      ]
+    },
+    "map-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h2"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "map-content": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "map-rising",
+        "map-peak",
+        "map-fading"
+      ]
+    },
+    "map-rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-rising-heading",
+        "map-rising-ai",
+        "map-rising-rwa"
+      ]
+    },
+    "map-rising-heading": {
+      "type": "Text",
+      "props": {
+        "text": "Rising",
+        "variant": "lead"
+      }
+    },
+    "map-rising-ai": {
+      "type": "Badge",
+      "props": {
+        "text": "AI Agents",
+        "variant": "default"
+      }
+    },
+    "map-rising-rwa": {
+      "type": "Badge",
+      "props": {
+        "text": "RWA",
+        "variant": "default"
+      }
+    },
+    "map-peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-peak-heading",
+        "map-peak-pm",
+        "map-peak-privacy",
+        "map-peak-stables"
+      ]
+    },
+    "map-peak-heading": {
+      "type": "Text",
+      "props": {
+        "text": "Peak",
+        "variant": "lead"
+      }
+    },
+    "map-peak-pm": {
+      "type": "Badge",
+      "props": {
+        "text": "Prediction Markets",
+        "variant": "secondary"
+      }
+    },
+    "map-peak-privacy": {
+      "type": "Badge",
+      "props": {
+        "text": "Privacy",
+        "variant": "secondary"
+      }
+    },
+    "map-peak-stables": {
+      "type": "Badge",
+      "props": {
+        "text": "Stablecoins",
+        "variant": "secondary"
+      }
+    },
+    "map-fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-fading-heading",
+        "map-fading-dats",
+        "map-fading-meme"
+      ]
+    },
+    "map-fading-heading": {
+      "type": "Text",
+      "props": {
+        "text": "Fading",
+        "variant": "lead"
+      }
+    },
+    "map-fading-dats": {
+      "type": "Badge",
+      "props": {
+        "text": "DATs",
+        "variant": "destructive"
+      }
+    },
+    "map-fading-meme": {
+      "type": "Badge",
+      "props": {
+        "text": "Meme/ICO Launchpads",
+        "variant": "destructive"
+      }
+    }
+  }
+}
