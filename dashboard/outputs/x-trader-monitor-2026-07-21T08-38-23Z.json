@@ -1,0 +1,56 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "X-Trader Monitor"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet",
+        "link",
+        "separator",
+        "commentary"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "$BTC 4h tf update\n\nIt's looking like an upward breakout is coming (72 hell yeahhhhh), but the sellers at the top have built up resistance, so it looks like there's still going to be some fighting here.\n\nWe'll see who has more strength.\n\nBulls, give it your all!!"
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/swarmister/status/2079484942602359067"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "commentary": {
+      "type": "Text",
+      "props": {
+        "text": "Aligns with mixed group BTC lean (HTF-bullish, near-term pivot point; swarmister's open long position from Jul 17 remains on thesis).",
+        "variant": "muted"
+      }
+    }
+  }
+}
