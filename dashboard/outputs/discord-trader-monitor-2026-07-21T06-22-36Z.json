@@ -1,0 +1,40 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_source",
+        "text_message"
+      ]
+    },
+    "badge_source": {
+      "type": "Badge",
+      "props": {
+        "text": "💬 DC: HCH — Chat",
+        "variant": "outline"
+      }
+    },
+    "text_message": {
+      "type": "Text",
+      "props": {
+        "text": "True that. ansem cto'ing ansem coin, cashcat, arb, uni on rh chain, eth's decent performance on eth/btc chart breakout pre-positioning",
+        "variant": "body"
+      }
+    }
+  }
+}
