@@ -21,3 +21,16 @@ Executed `discord-trader-monitor` skill on 2026-07-21 with the provided Discord 
 - **Memory updated:** Daily log entry appended to `memory/logs/2026-07-21.md`, seen-ID tracking added.
 
 **Next Steps:** Awaiting Kyle's approval response (`approve SPCX <size>`) to mirror on Kraken spot trading, or ignore to monitor as memory-only entry. No second notification required — Worker already handled the alert.
+**Discord Trader Monitor — Event Processed**
+
+Decoded and processed Discord message from HeartCanHodl (message_id: 152893389698462238) posted at 2026-07-21T01:17:27 UTC in the HCH — Chat supporting channel (1023638573313966212).
+
+**Classification**: Skip (no alert)
+- **Reason**: Supporting channel message containing only a URL to an X post with no additional context or commentary
+- **Rule Applied**: Per SKILL.md Step 7, supporting channel messages should not alert unless they "genuinely stand alone" with real conviction shift or new info. A bare link doesn't qualify.
+- **Cross-platform note**: The X post (2077798126556242124) has not yet been seen by x-trader-monitor; will be processed separately if/when posted on X
+
+**Actions Taken**:
+- ✓ Added message_id to `memory/discord-trader-seen.txt` (duplicate prevention)
+- ✓ Logged event to `memory/logs/2026-07-21.md` with full classification details
+- ✓ No Telegram alert sent (correctly skipped per supporting channel rules)
