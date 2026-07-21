@@ -1,0 +1,77 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration — @KillaXBT"
+      },
+      "children": [
+        "heading_calibration",
+        "event_info",
+        "separator_1",
+        "tweet_card",
+        "classification_note",
+        "separator_2",
+        "view_link"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @KillaXBT",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "event_info": {
+      "type": "Text",
+      "props": {
+        "text": "Event: July 21 21:58:39 UTC — reply chain with @bodito91193 and @shqipper",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "@bodito91193 @shqipper https://t.co/RbL1flMXXb"
+      },
+      "children": []
+    },
+    "classification_note": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify without seeing link target. Is this worth tracking, or just group-chat engagement?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/KillaXBT/status/2079687526181134632"
+      },
+      "children": []
+    }
+  }
+}
