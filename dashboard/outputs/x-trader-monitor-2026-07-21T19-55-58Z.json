@@ -1,0 +1,70 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-calibration",
+        "text-interaction",
+        "sep-1",
+        "text-analysis",
+        "sep-2",
+        "text-question"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Bitcoin_Astro",
+        "level": "h3"
+      }
+    },
+    "text-interaction": {
+      "type": "Text",
+      "props": {
+        "text": "@CastilloTrading What can happen next? 🤷",
+        "variant": "lead"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-analysis": {
+      "type": "Text",
+      "props": {
+        "text": "This appears to be a reply asking another trader for their analysis. Without seeing CastilloTrading's preceding message, I can't determine if this is worth tracking (personal trade action, opinion, or just banter). Bitcoin_Astro is listed as watching/flat on BTC in memory.",
+        "variant": "body"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-question": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read — track this pattern, or file silently?",
+        "variant": "body"
+      }
+    }
+  }
+}
