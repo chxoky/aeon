@@ -1,0 +1,102 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @KillaXBT"
+      },
+      "children": [
+        "event_text",
+        "sep1",
+        "tweet_card",
+        "sep2",
+        "context_section",
+        "sep3",
+        "price_stat",
+        "sep4",
+        "question_alert"
+      ]
+    },
+    "event_text": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Strong emotional reaction to BTC-related content at 21:43 UTC",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "Holy. F*cking. Shit... $BTC\n\nJust got sent this. [link to image]"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_heading",
+        "context_details"
+      ]
+    },
+    "context_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "context_details": {
+      "type": "Text",
+      "props": {
+        "text": "KillaXBT bullish on BTC today:\n• Capitulation theory @11:17\n• Execution philosophy @12:20\n• Hedge detail @11:43"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "price_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Current BTC Price",
+        "value": "$66.4K",
+        "delta": "near structural targets"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "question_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read? Is this signaling a new position action, market setup discovery, or something else?",
+        "type": "warning"
+      }
+    }
+  }
+}
