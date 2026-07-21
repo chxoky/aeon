@@ -1,0 +1,55 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "calibration_heading",
+        "event_badge",
+        "tweet_card",
+        "analysis_text",
+        "post_link"
+      ]
+    },
+    "calibration_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Stoiiic",
+        "level": "h2"
+      }
+    },
+    "event_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Reply to @Theeesis",
+        "variant": "secondary"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "Stoiiic",
+        "text": "@Theeesis should be ok for a bit"
+      }
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read? Is this sentiment on BTC (his watched ticker), reassurance on a specific position, or market commentary?",
+        "variant": "body"
+      }
+    },
+    "post_link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Stoiiic/status/2079599807350395203"
+      }
+    }
+  }
+}
