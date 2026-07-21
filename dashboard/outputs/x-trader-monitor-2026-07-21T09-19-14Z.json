@@ -1,0 +1,81 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @t_in_crypto"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_event",
+        "text_event",
+        "separator1",
+        "tweet_card",
+        "separator2",
+        "text_no_media",
+        "text_context",
+        "link_tweet"
+      ]
+    },
+    "heading_event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Direct message to @tiger_khan9 about sharing chart"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "handle": "t_in_crypto",
+        "text": "@tiger_khan9 I shared chart"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "text_no_media": {
+      "type": "Text",
+      "props": {
+        "text": "No media attached to the tweet.",
+        "variant": "muted"
+      }
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "Context unclear — is this market-signal related or meta-commentary? How do you read this?"
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View original tweet",
+        "href": "https://x.com/t_in_crypto/status/2079494893215371604"
+      }
+    }
+  }
+}
