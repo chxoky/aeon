@@ -1,0 +1,64 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "status-badge",
+        "tweet-card",
+        "separator",
+        "classification-section"
+      ]
+    },
+    "status-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "✅ Non-financial event",
+        "variant": "secondary"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "Stoiiic",
+        "text": "Notes from Basics of Edge Extraction by @therobotjames"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "classification-label",
+        "classification-details"
+      ]
+    },
+    "classification-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Classification: Step 4A (Non-financial)",
+        "level": "h4"
+      }
+    },
+    "classification-details": {
+      "type": "Text",
+      "props": {
+        "text": "Educational material sharing — no trade signal. Logged silently.",
+        "variant": "body"
+      }
+    }
+  }
+}
