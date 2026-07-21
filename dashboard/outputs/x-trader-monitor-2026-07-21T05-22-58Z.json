@@ -1,0 +1,106 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor",
+        "description": "Calibration — @Wild_Randomness"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event-meta",
+        "sep-1",
+        "tweet-card",
+        "sep-2",
+        "calibration-section"
+      ]
+    },
+    "event-meta": {
+      "type": "Text",
+      "props": {
+        "text": "Event: X post at 2026-07-21 05:18:49 UTC",
+        "variant": "caption"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "First trouble area https://t.co/qHRtnopRib"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "calibration-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "cal-heading",
+        "cal-context",
+        "cal-q1",
+        "cal-q2",
+        "cal-link"
+      ]
+    },
+    "cal-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "level": "h3"
+      }
+    },
+    "cal-context": {
+      "type": "Text",
+      "props": {
+        "text": "Minimal caption + URL reference. Could be technical setup, chart observation, price level reference, or macro commentary.",
+        "variant": "body"
+      }
+    },
+    "cal-q1": {
+      "type": "Text",
+      "props": {
+        "text": "Which asset/ticker?",
+        "variant": "body"
+      }
+    },
+    "cal-q2": {
+      "type": "Text",
+      "props": {
+        "text": "What does \"first trouble area\" reference — support level, resistance zone, or other pattern?",
+        "variant": "body"
+      }
+    },
+    "cal-link": {
+      "type": "Link",
+      "props": {
+        "label": "https://t.co/qHRtnopRib",
+        "href": "https://t.co/qHRtnopRib"
+      }
+    }
+  }
+}
