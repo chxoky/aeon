@@ -1,19 +1,18 @@
-*Morning Brief — 2026-07-19*
+*Morning Brief — 2026-07-21*
 
 *Focus today*
-1. HCH short basket escalating — why now: added VVV+KAITO today, both green, fading strength
-2. BTC $65K into FOMC — why now: at ceiling; Polymarket now 93% no-July-hike
-3. Clear the 5-post calibration backlog — why now: cryptic trader posts since 7/17 unanswered
+1. BTC cleared $66K — why now: reclaimed bull trigger, pressures HCH short basket, validates the long book
+2. Merge PR #13 (chain-runner fix) — why now: fixes the morning-pipeline failures dogging cron since 07-17
+3. Clear trader-calibration backlog — why now: 6+ cryptic signals stuck pending your read, going stale
 
 *Since yesterday*
-- Sentiment thawed: F&G 25→28 (out of Extreme Fear, 1st in 3d); 7d breadth 9→12/20 green; DEX vol +18% to $7.84B
-- ETH leads rotation: +3.6% 7d vs BTC +1.1%; DeFi majors Aave +8.9% / Lido +7.5% 7d
-- HCH escalated shorts: +2% VVV (02:08), +1% KAITO (04:36) — basket now 8 tickers (~40%), both names green
-- Movers: BUILDon +62% (pump-risk #176), KAITO +37% 7d breakout; BONK −30% 7d, AERO −12% 7d lagging
+- Regime flipped risk-on: breadth 1/16 → 17/20 green, BTC +3.6% to $66.2K, mcap +3.0%
+- RWA/ONDO led (+14.5% 24h, #1 trending); ETH/DeFi accelerating (LDO +11.9%, UNI +8.4%)
+- BANK −43% fully unwound its +42% pump — yesterday's PUMP-RISK flag validated
+- PR #16 (default model → sonnet) also open, lower priority
 
 *Watch*
-- FOMC Jul 28–29 (Warsh) — Polymarket 93% hold; hawkish *tone* (not the rate) is the risk → caps a $65K break (focus #2)
-- BTC ETF flows positive in July (+$197M wk to 7/10) but YTD −$5.4B → needs confirmation to break $65K (focus #2)
+- F&G fell to 25 (Extreme Fear) despite the rally — sentiment disagrees with price; watch $66K holding as support into FOMC (Jul 28–29, 93% hold) to see if the move sticks (bears on focus #1)
 
 *Running today (UTC)*
-- heartbeat @ 08 · token-alert, token-movers @ 12 · market-context-refresh @ 13 · narrative-tracker @ 13:30 · heartbeat @ 14 · skill-health @ 18 · heartbeat @ 20
+- heartbeat @ 08/14/20 · token-alert, token-movers @ 12 · market-context-refresh @ 13 · narrative-tracker @ 13:30 · skill-health @ 18
