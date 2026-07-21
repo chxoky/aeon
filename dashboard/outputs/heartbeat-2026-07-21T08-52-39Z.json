@@ -1,0 +1,147 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Heartbeat",
+        "description": "System health status report"
+      },
+      "children": [
+        "alert_watch",
+        "sep1",
+        "stack_details",
+        "sep2",
+        "stack_green"
+      ]
+    },
+    "alert_watch": {
+      "type": "Alert",
+      "props": {
+        "title": "🟡 WATCH — Morning Brief Service Degraded",
+        "message": "The daily morning brief has missed 2 runs in a row",
+        "type": "warning"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_issue",
+        "text_issue",
+        "text_root_cause",
+        "text_fix_info",
+        "link_pr"
+      ]
+    },
+    "heading_issue": {
+      "type": "Heading",
+      "props": {
+        "text": "Issue Details",
+        "level": "h3"
+      }
+    },
+    "text_issue": {
+      "type": "Text",
+      "props": {
+        "text": "morning-pipeline chain last succeeded 2026-07-19 07:21 UTC (>48h ago). No brief shipped on 07-20 or 07-21.",
+        "variant": "body"
+      }
+    },
+    "text_root_cause": {
+      "type": "Text",
+      "props": {
+        "text": "Root cause: chain-runner run-discovery bug",
+        "variant": "body"
+      }
+    },
+    "text_fix_info": {
+      "type": "Text",
+      "props": {
+        "text": "Fix is open as PR #13 (<24h old) — merge it to restore the brief.",
+        "variant": "body"
+      }
+    },
+    "link_pr": {
+      "type": "StoryLink",
+      "props": {
+        "title": "fix(chain-runner): repair run discovery and honor on_error",
+        "href": "https://github.com/aeon/aeon/pull/13",
+        "source": "GitHub"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_green": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_green",
+        "badge_green",
+        "text_systems",
+        "text_webhook",
+        "text_signals",
+        "stat_issues"
+      ]
+    },
+    "heading_green": {
+      "type": "Heading",
+      "props": {
+        "text": "All Other Systems",
+        "level": "h3"
+      }
+    },
+    "badge_green": {
+      "type": "Badge",
+      "props": {
+        "text": "All Green",
+        "variant": "default"
+      }
+    },
+    "text_systems": {
+      "type": "Text",
+      "props": {
+        "text": "All other enabled skills on schedule",
+        "variant": "body"
+      }
+    },
+    "text_webhook": {
+      "type": "Text",
+      "props": {
+        "text": "X WATCHED_TRADERS webhook rule is active",
+        "variant": "body"
+      }
+    },
+    "text_signals": {
+      "type": "Text",
+      "props": {
+        "text": "Trade signals flowing (x-trader event 08:45 UTC)",
+        "variant": "body"
+      }
+    },
+    "stat_issues": {
+      "type": "Stat",
+      "props": {
+        "label": "Open issues",
+        "value": "0"
+      }
+    }
+  }
+}
