@@ -1,0 +1,207 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Market Context",
+        "description": "2026-07-21"
+      },
+      "children": [
+        "risk-stack",
+        "divider1",
+        "prices-stack",
+        "divider2",
+        "metrics-stack",
+        "divider3",
+        "narratives-stack"
+      ]
+    },
+    "risk-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "risk-on-badge",
+        "conviction-badge"
+      ]
+    },
+    "risk-on-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "risk-on",
+        "variant": "default"
+      }
+    },
+    "conviction-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "conviction medium",
+        "variant": "secondary"
+      }
+    },
+    "divider1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "prices-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "btc-stat",
+        "eth-stat",
+        "fear-greed-stat"
+      ]
+    },
+    "btc-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$66,654",
+        "delta": "+3.6%",
+        "trend": "up"
+      }
+    },
+    "eth-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$1,931",
+        "delta": "+3.6%",
+        "trend": "up"
+      }
+    },
+    "fear-greed-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Fear & Greed",
+        "value": "25",
+        "delta": "Extreme Fear"
+      }
+    },
+    "divider2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "metrics-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "breadth-stat",
+        "lido-stat"
+      ]
+    },
+    "breadth-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Breadth",
+        "value": "18/20"
+      }
+    },
+    "lido-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "TVL Lido (7d)",
+        "value": "+8.4%",
+        "trend": "up"
+      }
+    },
+    "divider3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "narratives-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "rwa-narrative",
+        "etf-inflow-stack",
+        "ada-badge",
+        "fomc-stack"
+      ]
+    },
+    "rwa-narrative": {
+      "type": "Text",
+      "props": {
+        "text": "Top narrative: RWA/ONDO +18% (rising)",
+        "variant": "lead"
+      }
+    },
+    "etf-inflow-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "etf-label",
+        "etf-stat"
+      ]
+    },
+    "etf-label": {
+      "type": "Text",
+      "props": {
+        "text": "ETF inflow streak: 5 days",
+        "variant": "body"
+      }
+    },
+    "etf-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Total",
+        "value": "$727M"
+      }
+    },
+    "ada-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "ADA +8.2% leads",
+        "variant": "outline"
+      }
+    },
+    "fomc-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "fomc-label",
+        "fomc-progress"
+      ]
+    },
+    "fomc-label": {
+      "type": "Text",
+      "props": {
+        "text": "FOMC Jul 28-29 no-change",
+        "variant": "body"
+      }
+    },
+    "fomc-progress": {
+      "type": "Progress",
+      "props": {
+        "label": "Probability",
+        "value": 93,
+        "max": 100
+      }
+    }
+  }
+}
