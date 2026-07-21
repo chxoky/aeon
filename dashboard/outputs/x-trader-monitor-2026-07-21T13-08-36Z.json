@@ -1,0 +1,56 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @swarmister"
+      },
+      "children": [
+        "main-stack"
+      ]
+    },
+    "main-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "event-text",
+        "quote-text",
+        "analysis-text",
+        "link-element"
+      ]
+    },
+    "event-text": {
+      "type": "Text",
+      "props": {
+        "text": "Event: swarmister has active BTC long (opened Jul 17 at partial position, ready to add at 62.4k/61.2k, target 70.7k)",
+        "variant": "body"
+      }
+    },
+    "quote-text": {
+      "type": "Text",
+      "props": {
+        "text": "swarmister: \"@TraderMercury (Buy more)\"",
+        "variant": "body"
+      }
+    },
+    "analysis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — is this a conviction add on BTC, a quoted message, or something else? What's your read?",
+        "variant": "body"
+      }
+    },
+    "link-element": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/swarmister/status/2079552590312829076"
+      }
+    }
+  }
+}
