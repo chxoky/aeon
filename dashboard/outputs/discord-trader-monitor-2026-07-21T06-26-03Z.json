@@ -1,0 +1,23 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "tweet_card"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HCH",
+        "handle": "DC",
+        "text": "And in stocks yeah spcx ipo, memory sector basket, other AI component plays"
+      }
+    }
+  }
+}
