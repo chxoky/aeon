@@ -62,16 +62,18 @@
 - **Thesis**: Likely continuation of multi-level DCA strategy on MU. Previous position: dual-entry framework with 1:1 R:R first trade + 1% risk second trade, both profitable. Fresh $800 entry suggests: (1) pullback buying opportunity, (2) accumulation into support level, or (3) restart of disciplined position building after prior successful cycle close.
 - **DCA plan detail** (2026-07-17T14:43:49Z): Follow-up clarification in supporting channel — "For Micron from here I'm gonna watch for my typical deviation setup at the key level, maybe look to add another third of the position then" (Discord message_id=1527687274634940416, fast-path-alerted=true). Confirms planned tranche 2 contingent on "deviation setup at key level" — likely technical support zone where trader expects to scale in second third if structure holds.
 - **Position confirmation** (2026-07-18T00:01:07Z): "comfortably in MU...from 820...room to add equal sized orders lower" (Discord message_id=1527827524824989736, discord-trader-monitor real-time, fast-path-alerted=true) — entry level refined to ~$820, scale-in plan confirmed at lower levels.
-- **PARTIAL TP EXECUTION** (2026-07-21T13:30:36Z): "Half TP MU at 956~ if it comes" (Discord message_id=1529118399781667028, discord-trader-monitor real-time, fast-path-alerted=true) — Crypto_Chase takes 50% profits on MU position at $956 target level (16.6% unrealized gain from $820 entry). Remaining 50% continues per documented DCA plan (awaiting lower entry prices per scale-in strategy).
+- **PARTIAL TP EXECUTION** (2026-07-21T13:30:36Z): "Half TP MU at 956~ if it comes" (Discord message_id=1529118399781667028, discord-trader-monitor real-time, fast-path-alerted=true) — Crypto_Chase sets contingent target to take 50% profits on MU position at $956 level (anticipated 16.6% unrealized gain from $820 entry).
+- **TP EXECUTION DETAIL** (2026-07-21T13:57:57Z): "TP 1/4th MU here at 930, let the other 1/4th aim original TP" (Discord message_id=1529125283037184111, discord-trader-monitor real-time, fast-path-alerted=true) — Crypto_Chase executes first tranche of TP at $930 (25% of total position = 1/4th), with second tranche (another 25%) targeting "original TP" level (higher than 930, likely 956 or above per prior guidance). Remaining 50% (2 quarters) continues under DCA plan. Structure suggests disciplined quarter-by-quarter profit-taking with tiered exit levels.
 - **Position evolution**:
   - 2026-07-17T13:46Z: Entry ~1/3 position at $800
   - 2026-07-18T00:01Z: Entry refined to $820, DCA plan confirmed
-  - 2026-07-21T13:30Z: 50% TP at $956 (locked-in ~16.6% gain), 50% remainder continues DCA plan
-- **Status**: ACTIVE — 50% position TP'd, 50% remainder under DCA plan awaiting lower entry prices
-- **Trade alert format**: Step 5a/5c hybrid (initial new entry + DCA plan; Step 5b partial TP execution on 2026-07-21). Fast-path already notified Kyle via Telegram ~13:30-13:32 UTC on TP event.
-- **Mirror instructions**: Original entry required Kyle approval (`approve MU`); TP execution status depends on whether prior entry was mirrored on Kraken. If mirrored, 50% should be taken off Kraken spot position at/around 956 level to match Discord TP. Remaining 50% continues DCA plan per original strategy.
-- **Alerted**: YES (2026-07-17T13:46:04Z primary event via Telegram; 2026-07-21T13:30:36Z partial TP execution via fast-path Telegram)
-- **Last update**: 2026-07-21T13:30:36Z (partial TP execution, 50% locked-in at $956, Discord message_id=1529118399781667028, discord-trader-monitor real-time, fast-path-alerted=true)
+  - 2026-07-21T13:30Z: Contingent TP target set at $956 for 50% of position
+  - 2026-07-21T13:57Z: First tranche 25% TP'd at $930, second tranche (25%) targeting original TP level, 50% remainder continues DCA plan
+- **Status**: ACTIVE — 25% TP'd at $930, 25% targeting higher TP level, 50% remainder under DCA plan awaiting lower entry prices
+- **Trade alert format**: Step 5a/5c hybrid (initial new entry + DCA plan; Step 5b partial TP execution on 2026-07-21 with tiered quarter-level exits). Fast-path already notified Kyle via Telegram ~13:30-13:32 UTC (first TP event) and ~13:57-13:59 UTC (TP detail/refinement).
+- **Mirror instructions**: Original entry required Kyle approval (`approve MU`); TP execution status depends on whether prior entry was mirrored on Kraken. If mirrored, 25% should be taken off Kraken spot position at/around 930 level, with secondary 25% exit at original TP level (956+). Remaining 50% continues DCA plan per original strategy.
+- **Alerted**: YES (2026-07-17T13:46:04Z primary event via Telegram; 2026-07-21T13:30:36Z + 2026-07-21T13:57:57Z partial TP execution events via fast-path Telegram, fast-path-alerted=true for both)
+- **Last update**: 2026-07-21T13:57:57Z (TP detail execution, 25% locked-in at $930 + 25% targeting original TP, Discord message_id=1529125283037184111, discord-trader-monitor real-time, fast-path-alerted=true)
 
 ### SNDK (Structural) — LONG (PREVIOUS POSITION CLOSED 2026-07-16T19:02:25Z)
 - **Previous entry**: 2026-07-07T13:25:08Z (pullback tactical entry on HTF flush setup, CLOSED JUL 16)
