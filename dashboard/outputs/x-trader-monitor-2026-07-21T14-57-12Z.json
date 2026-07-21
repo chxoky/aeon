@@ -1,0 +1,52 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_stack",
+        "analysis_text"
+      ]
+    },
+    "tweet_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "tweet_link"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "handle": "@t_in_crypto",
+        "text": "I don't use fractals. But I'll put it this way: who am I to go against market geometry and linear extrapolation? My current bottom target is between 44k and 39k"
+      },
+      "children": []
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/t_in_crypto/status/2079579021541601295"
+      },
+      "children": []
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Bullish trader telegraphing BTC downside-level context (support zone 44k–39k); consistent with defensive positioning if consolidation breaks lower.",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
