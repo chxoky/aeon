@@ -1,0 +1,124 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "content-stack"
+      ]
+    },
+    "content-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "source-header",
+        "tweet-quote",
+        "price-targets",
+        "view-link",
+        "separator",
+        "analysis-section"
+      ]
+    },
+    "source-header": {
+      "type": "Text",
+      "props": {
+        "text": "🐦 [X] @Wild_Randomness",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "tweet-quote": {
+      "type": "Text",
+      "props": {
+        "text": "He's calling for +20% on ETH over the next few weeks now though",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "price-targets": {
+      "type": "Text",
+      "props": {
+        "text": "BTC to 33k at 59k, now pivoted to ETH to 2.3k at 1.9k",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2079421092221882878"
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis-text",
+        "context-badges"
+      ]
+    },
+    "analysis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Amplifying @stogolp's bullish ETH call. Contrasts with HCH's documented ETH short (currently 2.25% after profit-taking). Group lean: mixed-to-bearish on crypto.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "context-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-bullish-eth",
+        "badge-hch-short",
+        "badge-group-sentiment"
+      ]
+    },
+    "badge-bullish-eth": {
+      "type": "Badge",
+      "props": {
+        "text": "ETH Bullish (+20%)",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge-hch-short": {
+      "type": "Badge",
+      "props": {
+        "text": "HCH Short (↓2.25%)",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "badge-group-sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Mixed-to-Bearish Lean",
+        "variant": "outline"
+      },
+      "children": []
+    }
+  }
+}
