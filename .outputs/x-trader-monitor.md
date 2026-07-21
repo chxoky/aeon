@@ -17,3 +17,4 @@ Knowledge is power, but too much of it can sometimes lead to overthinking and pa
 [View tweet](https://x.com/KillaXBT/status/2079541944716300391)
 
 💬 _Reinforces HTF long thesis alignment with group structural bull narrative. Reiterates position discipline ('execution over perfection'). Not a new trade signal._
+🔍 Calibration — bull_genius: Cryptic reply '@heart_ see @blancxbt man i told u they wont buy it' — what's the context? https://x.com/bull_genius/status/2079542718460518532
