@@ -1,6 +1,11 @@
-🔍 *Calibration — @Stoiiic*
+🐦 *[X] @KillaXBT*
 
-Event: Reply to @wasmynme discussing price levels/reversion zones
-@Stoiiic: "nah still think this can leg up again but the general idea is that 67+ - 70 area is prone for reversion."
+All I am going to say is study... $BTC
 
-Unable to classify — what ticker/asset is this discussing? (reply and I'll update memory)
+We formed a significant cycle high in January this cycle.   
+
+In 2022, it formed in April.
+
+[View tweet](https://x.com/KillaXBT/status/2079649831815925843)
+
+↳ _Cycle-high timing pattern observation — aligns with his HTF-bullish stance and upcoming Jul 28 pivot focus._

@@ -1,0 +1,56 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-1",
+        "sep-1",
+        "analysis-section"
+      ]
+    },
+    "tweet-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "All I am going to say is study... $BTC\n\nWe formed a significant cycle high in January this cycle.\n\nIn 2022, it formed in April."
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "observation-text",
+        "link-view-tweet"
+      ]
+    },
+    "observation-text": {
+      "type": "Text",
+      "props": {
+        "text": "Cycle-high timing pattern observation — aligns with his HTF-bullish stance and upcoming Jul 28 pivot focus.",
+        "variant": "caption"
+      }
+    },
+    "link-view-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2079649831815925843"
+      }
+    }
+  }
+}
