@@ -14,5 +14,9 @@
 *Watch*
 - F&G fell to 25 (Extreme Fear) despite the rally — sentiment disagrees with price; watch $66K holding as support into FOMC (Jul 28–29, 93% hold) to see if the move sticks (bears on focus #1)
 
-*Running today (UTC)*
-- heartbeat @ 08/14/20 · token-alert, token-movers @ 12 · market-context-refresh @ 13 · narrative-tracker @ 13:30 · skill-health @ 18
+*Running today*
+- heartbeat @ 08/14/20:00 UTC
+- token-alert, token-movers @ 12:00 UTC
+- market-context-refresh @ 13:00 UTC
+- narrative-tracker @ 13:30 UTC
+- skill-health @ 18:00 UTC
