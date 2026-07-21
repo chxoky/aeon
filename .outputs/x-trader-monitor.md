@@ -1,12 +1,9 @@
-🔍 *Calibration — @Wild_Randomness*
+🐦 *[X] @Wild_Randomness*
 
-Event: Semiconductor momentum discussion (group currently watching MRVL after single mention)
+Ok BTC longs, is the thesis vol just crushes to new all time lows and we just grind up 2% every week?
 
-Wild_Randomness: "$MRVL\n\nWhat do you think, Jensen…\n\nLevel to level… Bearish retest at $220? \n\nOr, just straight to 1T? https://t.co/0KMJDVqG7A"
+What's different from the previous two bear market rallies this time around is the low starting point of DVOL… the prior times there was vol to crush…
 
-Unable to classify — is this:
-(a) A technical level opinion/commentary (informational)
-(b) A setup they're considering entering
-(c) A request for your input on MRVL's next move?
+[View tweet](https://x.com/Wild_Randomness/status/2079396888072409217)
 
-What's your read?
+↳ _Macro volatility thesis on DVOL (realized vol) crush differential vs prior bear rallies — aligns with group near-term cautious lean on BTC consolidation (60–65K zone chop expected)._

@@ -1,0 +1,60 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "link-view",
+        "separator-1",
+        "insight-text"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Ok BTC longs, is the thesis vol just crushes to new all time lows and we just grind up 2% every week?\n\nWhat's different from the previous two bear market rallies this time around is the low starting point of DVOL… the prior times there was vol to crush…"
+      },
+      "children": []
+    },
+    "link-view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2079396888072409217"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "insight-text": {
+      "type": "Text",
+      "props": {
+        "text": "Macro volatility thesis on DVOL (realized vol) crush differential vs prior bear rallies — aligns with group near-term cautious lean on BTC consolidation (60–65K zone chop expected).",
+        "variant": "lead"
+      },
+      "children": []
+    }
+  }
+}
