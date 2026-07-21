@@ -1,0 +1,33 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-1",
+        "link-1"
+      ]
+    },
+    "tweet-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "My current $BTC plan.\n\nAbove 80K Q1 2027.\nAbove 110K Q4 2027.\n\nBull market tops June-July 2028. (160-180K)\n\nWe are not hitting 100K this year. Next year is a different story. I expect us to trade above 100K in Q4 2027."
+      },
+      "children": []
+    },
+    "link-1": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2079586556814164073"
+      },
+      "children": []
+    }
+  }
+}
