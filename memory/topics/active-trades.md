@@ -78,6 +78,8 @@
 - **Status**: ACTIVE — 75% cumulative TP'd (50% at ~$956 + 25% at ~$930), ~25% remainder under DCA plan awaiting lower entry prices
 - **Trade alert format**: Step 5a/5c hybrid (initial new entry + DCA plan; Step 5b partial TP executions on 2026-07-21). Fast-path already notified Kyle via Telegram on TP events.
 - **Mirror instructions**: Original entry required Kyle approval (`approve MU`); TP execution status depends on whether prior entry was mirrored on Kraken. If mirrored, cumulative reductions (50% at ~956 + 25% at ~930) should be mirrored on Kraken spot position to match trader. Remaining ~25% continues DCA plan per original strategy.
+- **NEW TP GUIDANCE** (2026-07-21T22:53:07Z): Crypto_Chase specifies additional 10% close target at $998 level. Total closes = 60% (75% prior TP'd + 10% contingent at 998 = would leave ~15% remainder to run). Chart images provided showing structure at 998 TP level.
+- **Last update**: 2026-07-21T22:53:07Z (discord-trader-monitor, fast-path-alerted=true, message_id=1529259965246607472)
 - **TP Execution detail**:
   - **First TP (2026-07-21T13:30:36Z)**: Discord "Half TP MU at 956~" (message_id=1529118399781667028) — 50% TP'd, ~16.6% gain from $820 entry
   - **Second TP (2026-07-21T14:02:55Z)**: X post "$MU update\n\nTP'd 1/4th..." (tweet_id=2079567804894785957) — 25% TP'd at ~$930, ~16.25% gain
@@ -110,7 +112,8 @@
 - **TP levels**: Conditional half TP target set at 1551~ (2026-07-21T13:29:00Z Discord message_id=1529117999510851585, discord-trader-monitor real-time, fast-path-alerted=true); **EXECUTED at 1533 on 2026-07-21T13:43:28Z** (X post tweet_id=2079562910213316621, partial TP executed slightly below stated target, P&L on half: +12.3% in 4.5 days)
 - **Partial TP detail**: 2026-07-21T13:43:28Z — Crypto_Chase posted "$SNDK update\n\nTook half profit on SNDK position from 1366~ here at 1533." Remaining half of position still held by trader. Kyle's mirror position status: PENDING APPROVAL (original entry not yet mirrored on Kraken per Kyle's outstanding approval decision). Notification sent to Kyle informing of partial TP context + trader P&L.
 - **Summary confirmation** (2026-07-21T14:56:24Z): Crypto_Chase posted overall update including SNDK: "TP'd half SNDK position from 1366~ at 1533~. Keeping half open... S/L set to B/E". X post tweet_id=2079581261996101922 provides consolidated summary of TP execution originally announced at 13:43:28Z. No mirror executed (position was pending approval, never entered on Kyle's account). Informational notation only: trader remains in +12.2% cumulative P&L on original half position with 50% remainder held under original thesis. Cross-platform dedup: X post is reiteration with new detail (SNDK+MU summary) added to MU context from earlier Discord announcements.
-- **Last update**: 2026-07-21T14:56:24Z (overall TP summary X post tweet_id=2079581261996101922, x-trader-monitor real-time, informational-confirmation, fast-path-alerted=false-but-notified-via-consolidated-alert)
+- **NEW TP GUIDANCE** (2026-07-21T22:53:07Z): Crypto_Chase specifies additional 10% close target at 1654~ level. Message: "Will be 60% closed in total if SNDK hits 1654~ and MU hits 998~ (closing 10% more of each position). Will let last 40% run." Total closes = 60% (50% prior TP'd at 1533 + 10% contingent at 1654 = would leave 40% remainder to run). Chart images provided showing structure at 1654 TP level.
+- **Last update**: 2026-07-21T22:53:07Z (discord-trader-monitor, fast-path-alerted=true, message_id=1529259965246607472)
 
 ### MU (Micron Technology) — LONG (NEW ENTRY — DCA PLAN 2026-07-17)
 - **Entry**: 2026-07-17T13:48:06Z (X post, tweet_id=2078114525216157709)

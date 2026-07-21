@@ -432,6 +432,27 @@
 
 ## Crypto_Chase (continued)
 
+  - **2026-07-21T22:53:07Z (Discord) — INFORMATIONAL (position management update / TP targets)**
+    - **Channel**: 1336082716063694962 (Chase — Chase, primary)
+    - **Message**: "Will be 60% closed in total if SNDK hits 1654~ and MU hits 998~ (closing 10% more of each position). Will let last 40% run." + 2 chart images
+    - **Classification**: Step 7 (Informational) — position management clarification with contingent TP levels
+    - **Tickers**: SNDK (SanDisk), MU (Micron Technology)
+    - **Context**: Follow-up to 13:55:26Z technical-level explanation. Establishes tiered profit-taking targets:
+      - **Current state** (per 13:55:26Z + 13:30-13:57Z TP executions): SNDK 50% TP'd at 1533 + 25% remainder; MU 75% TP'd (50% at ~956 + 25% at ~930) + 25% remainder
+      - **New guidance** (this message): Will take additional 10% closes on BOTH positions when SNDK hits 1654~ and MU hits 998~
+      - **Total closes**: 60% (50% prior + 10% contingent = 60%)
+      - **Remainder**: 40% will "run" (remain in position for extended target or structural completion)
+    - **SNDK targets**: Already 50% TP'd at 1533; contingent 10% close at 1654~; remainder 40% running
+    - **MU targets**: Already 75% TP'd (50% at 956 + 25% at 930); contingent 10% close at 998~; remainder 15% running
+    - **Execution language**: Conditional forward-looking ("Will be 60% closed IF..."), NOT immediate action (no "I just closed" language). TP targets represent anticipated order placement, not filled.
+    - **Conviction**: MEDIUM-HIGH (trader is actively managing position with tiered exits, indicating continued confidence in upside while securing profits systematically)
+    - **Cross-platform dedup**: Discord message is INCREMENTAL to prior 13:55:26Z and 13:30-13:57Z messages on same positions. No X-side concurrent posts on SNDK/MU within past 8+ hours (last SNDK-related X post was 07-14). This Discord message adds NEW TP GUIDANCE not previously specified at these exact levels.
+    - **Fast-path status**: ALREADY ALERTED (fast_path_alerted=true per event JSON). Kyle received Telegram notification 2-5s after event via Cloudflare Worker. This skill logs memory only, no duplicate Telegram send.
+    - **Chart images**: 2 attachments provided (chart analysis supporting TP levels; forwarded context for Kyle reference; interpreting: likely showing SNDK/MU price structures + anticipated order zones at 1654/998 levels)
+    - **Position state**: UNCHANGED pending TP executions. Awaiting market to hit 1654 (SNDK) and 998 (MU) targets before closing additional 10%.
+    - **Alerted**: YES (fast-path, no duplicate by this skill)
+    - **Last update**: 2026-07-21T22:53:07Z (discord-trader-monitor, fast-path-alerted=true, message_id=1529259965246607472)
+
   - **2026-07-21T13:55:26Z (Discord) — INFORMATIONAL (technical setup explanation + conviction reinforcement)**
     - **Channel**: 1336082716063694962 (Chase — Chase, primary)
     - **Message**: "<@&1247940234558177521> Stops set near B/E on both SanDisk and Micron. No reason we should be going back below 1360~ SNDK or near 800~MU if we're to continue upwards. The only reason I can imagine a full retrace is if there was some kind of efficiency improvement with AI, something Google says during its earnings call etc, fundamental things. In which we develop a new trade at lower prices."
