@@ -95,8 +95,9 @@
 - **Scale-in plan**: Confirmed 2026-07-18T00:01:07Z — "room to add equal sized orders lower" (implies multi-tranche accumulation similar to MU strategy; exact contingency levels unspecified but likely tied to technical support zones documented in prior messages)
 - **Mirror instructions**: Upon Kyle approval, mirror $SNDK LONG position on Kraken spot (size to be specified by Kyle via `approve SNDK <size_or_percentage>` reply)
 - **Alerted**: YES (2026-07-16T22:54:55Z, X-trader-monitor real-time event, fast-path-alerted via Telegram)
-- **TP levels**: Conditional half TP target set at 1551~ (2026-07-21T13:29:00Z Discord message_id=1529117999510851585, discord-trader-monitor real-time, fast-path-alerted=true)
-- **Last update**: 2026-07-21T13:29:00Z (TP level definition: "Half TP SNDJ at 1551~ if it comes", Discord message_id=1529117999510851585, discord-trader-monitor real-time, fast-path-alerted=true)
+- **TP levels**: Conditional half TP target set at 1551~ (2026-07-21T13:29:00Z Discord message_id=1529117999510851585, discord-trader-monitor real-time, fast-path-alerted=true); **EXECUTED at 1533 on 2026-07-21T13:43:28Z** (X post tweet_id=2079562910213316621, partial TP executed slightly below stated target, P&L on half: +12.3% in 4.5 days)
+- **Partial TP detail**: 2026-07-21T13:43:28Z — Crypto_Chase posted "$SNDK update\n\nTook half profit on SNDK position from 1366~ here at 1533." Remaining half of position still held by trader. Kyle's mirror position status: PENDING APPROVAL (original entry not yet mirrored on Kraken per Kyle's outstanding approval decision). Notification sent to Kyle informing of partial TP context + trader P&L.
+- **Last update**: 2026-07-21T13:43:28Z (partial TP executed: 50% at 1533, trader P&L +12.3%, informational alert sent to Kyle via x-trader-monitor real-time, fast-path-alerted=false, alerted=yes-informational)
 
 ### MU (Micron Technology) — LONG (NEW ENTRY — DCA PLAN 2026-07-17)
 - **Entry**: 2026-07-17T13:48:06Z (X post, tweet_id=2078114525216157709)

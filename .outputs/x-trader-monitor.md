@@ -1,10 +1,10 @@
-🐦 **[X] @swarmister**
+🐦 *[X] @Crypto_Chase*
 
-My minimum forecast is in the range of 67-72 thousand dollars ☂ god damn it, I think I need to write a long post with a game plan for the next 3-4 months
+$SNDK update
 
-I'll get ready.
+Took half profit on SNDK position from 1366~ here at 1533.
 
-[View tweet](https://x.com/swarmister/status/2079560745465839639)
+[View tweet](https://x.com/Crypto_Chase/status/2079562910213316621)
 
 67k big boss yearly poc, next resistance, 68.2k 90d rvwap, 71.7k yearly anchored vwap are targets above the line
 
@@ -18,3 +18,4 @@ remember our options trader that bet on 70-72k by EOM, getting more likely he ge
 Current phase it's best to be profit maxi on perps and think in years for the spot dca
 
 [View tweet](https://x.com/bull_genius/status/2079560964702163152)
+↳ _You haven't approved the original SNDK entry yet (pending at 1366~). Trader P&L on half: ~+12.3%. Ready to mirror when you decide._

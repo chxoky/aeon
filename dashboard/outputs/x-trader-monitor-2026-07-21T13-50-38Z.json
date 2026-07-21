@@ -1,0 +1,89 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Crypto Chase: SNDK Trade Update"
+      },
+      "children": [
+        "header_stack",
+        "content_stack"
+      ]
+    },
+    "header_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_platform",
+        "badge_sndk",
+        "badge_update"
+      ]
+    },
+    "badge_platform": {
+      "type": "Badge",
+      "props": {
+        "text": "🐦 X"
+      }
+    },
+    "badge_sndk": {
+      "type": "Badge",
+      "props": {
+        "text": "$SNDK"
+      }
+    },
+    "badge_update": {
+      "type": "Badge",
+      "props": {
+        "text": "update"
+      }
+    },
+    "content_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "link_tweet",
+        "stats_section",
+        "alert_pending"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Crypto Chase",
+        "handle": "@Crypto_Chase",
+        "text": "Took half profit on SNDK position from 1366~ here at 1533."
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Crypto_Chase/status/2079562910213316621"
+      }
+    },
+    "stats_section": {
+      "type": "Stat",
+      "props": {
+        "label": "Trader P&L on half",
+        "value": "~+12.3%",
+        "trend": "up"
+      }
+    },
+    "alert_pending": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "You haven't approved the original SNDK entry yet (pending at 1366~). Ready to mirror when you decide."
+      }
+    }
+  }
+}
