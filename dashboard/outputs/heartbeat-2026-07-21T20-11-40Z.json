@@ -1,0 +1,175 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Heartbeat WATCH"
+      },
+      "children": [
+        "alert-status",
+        "sep1",
+        "section-prs",
+        "sep2",
+        "status-note",
+        "section-status",
+        "sep3",
+        "call-to-action"
+      ]
+    },
+    "alert-status": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "🟡 Watch Status",
+        "message": "2 open PRs have crossed the 24h stalled line"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section-prs": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-prs",
+        "pr-13",
+        "pr-16"
+      ]
+    },
+    "heading-prs": {
+      "type": "Heading",
+      "props": {
+        "text": "Stalled PRs",
+        "level": "h3"
+      }
+    },
+    "pr-13": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pr13-title",
+        "pr13-desc",
+        "pr13-time"
+      ]
+    },
+    "pr13-title": {
+      "type": "Text",
+      "props": {
+        "text": "#13",
+        "variant": "lead"
+      }
+    },
+    "pr13-desc": {
+      "type": "Text",
+      "props": {
+        "text": "chain-runner fix, honors on_error/run discovery — the fix for the recurring morning-pipeline chain failure",
+        "variant": "body"
+      }
+    },
+    "pr13-time": {
+      "type": "Badge",
+      "props": {
+        "text": "~26h stalled",
+        "variant": "destructive"
+      }
+    },
+    "pr-16": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pr16-title",
+        "pr16-desc",
+        "pr16-time"
+      ]
+    },
+    "pr16-title": {
+      "type": "Text",
+      "props": {
+        "text": "#16",
+        "variant": "lead"
+      }
+    },
+    "pr16-desc": {
+      "type": "Text",
+      "props": {
+        "text": "default model → sonnet",
+        "variant": "body"
+      }
+    },
+    "pr16-time": {
+      "type": "Badge",
+      "props": {
+        "text": "~24h stalled",
+        "variant": "destructive"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "status-note": {
+      "type": "Text",
+      "props": {
+        "text": "Both green paths otherwise:",
+        "variant": "muted"
+      }
+    },
+    "section-status": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "status-webhook",
+        "status-skills",
+        "status-issues"
+      ]
+    },
+    "status-webhook": {
+      "type": "Badge",
+      "props": {
+        "text": "X webhook rule live",
+        "variant": "default"
+      }
+    },
+    "status-skills": {
+      "type": "Badge",
+      "props": {
+        "text": "All scheduled skills current",
+        "variant": "default"
+      }
+    },
+    "status-issues": {
+      "type": "Badge",
+      "props": {
+        "text": "0 open issues",
+        "variant": "default"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "call-to-action": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "title": "Action Required",
+        "message": "Worth a merge/close decision on #13 and #16"
+      }
+    }
+  }
+}
