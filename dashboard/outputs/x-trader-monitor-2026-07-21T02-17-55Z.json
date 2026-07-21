@@ -1,0 +1,109 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-stack",
+        "sep-1",
+        "analysis-stack"
+      ]
+    },
+    "tweet-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-card",
+        "tweet-link"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "@HeartCanHodl",
+        "text": "BTC closing weekly green candles above ema200\n\nETH reaching it's weekly down trendline breakout spot\n\nAnd that hopium going into new month?\n\nPerfect August Ambush."
+      },
+      "children": []
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/HeartCanHodl/status/2079388967972295012"
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert-sarcasm",
+        "short-basket",
+        "structure-note"
+      ]
+    },
+    "alert-sarcasm": {
+      "type": "Alert",
+      "props": {
+        "title": "Bearish Sarcasm Detected",
+        "message": "Bullish technicals on majors into August, but 'ambush' framing suggests bearish sarcasm — consistent with HCH's active short thesis",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "short-basket": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "basket-heading",
+        "basket-list"
+      ]
+    },
+    "basket-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "40%+ Short Basket",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "basket-list": {
+      "type": "Text",
+      "props": {
+        "text": "BTC, ETH, SOL, HYPE, ZEC, UNI, VVV",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "structure-note": {
+      "type": "Alert",
+      "props": {
+        "title": "Technical Setup",
+        "message": "HTF-bullish structure but near-term trap setup",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}
