@@ -1,0 +1,123 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Calibration alert for crypto trading message classification"
+      },
+      "children": [
+        "heading_calibration",
+        "separator_1",
+        "section_context",
+        "separator_2",
+        "section_message",
+        "separator_3",
+        "alert_classification"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: Chase — Chase]",
+        "level": "h2"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_context",
+        "stack_positions"
+      ]
+    },
+    "heading_context": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "stack_positions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "position_sndk",
+        "position_mu"
+      ]
+    },
+    "position_sndk": {
+      "type": "Text",
+      "props": {
+        "text": "SNDK: half remaining, S/L at B/E from 1366 entry",
+        "variant": "body"
+      }
+    },
+    "position_mu": {
+      "type": "Text",
+      "props": {
+        "text": "MU: half remaining under DCA, originally 800-820 entry",
+        "variant": "body"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_message": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_message",
+        "message_text"
+      ]
+    },
+    "heading_message": {
+      "type": "Heading",
+      "props": {
+        "text": "Message",
+        "level": "h3"
+      }
+    },
+    "message_text": {
+      "type": "Text",
+      "props": {
+        "text": "'Levels not hit yet.'",
+        "variant": "body"
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify message",
+        "message": "Which position/levels is Chase referring to? Possible interpretations: (a) SNDK target exit levels, (b) MU DCA entry levels, or (c) something else entirely.",
+        "type": "warning"
+      }
+    }
+  }
+}

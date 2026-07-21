@@ -20,3 +20,10 @@ Perfect! I've successfully executed the discord-trader-monitor skill for this ev
 - ⏭️ **Skipped Telegram** (fast_path_alerted=true — Cloudflare Worker already notified Kyle)
 
 **Status**: Complete. All memory systems updated, event deduped, no duplicate notification sent.
+🔍 *Calibration — [DC: Chase — Chase]*
+
+**Context**: Crypto_Chase has open positions on SNDK (half remaining, S/L at B/E from 1366 entry) and MU (half remaining under DCA, originally 800-820 entry).
+
+**Message**: 'Levels not hit yet.'
+
+Unable to classify — which position/levels is Chase referring to? Is this about (a) SNDK target exit levels, (b) MU DCA entry levels, or (c) something else entirely?
