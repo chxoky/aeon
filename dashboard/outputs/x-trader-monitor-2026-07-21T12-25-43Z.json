@@ -1,0 +1,60 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack",
+        "separator",
+        "commentary"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet",
+        "link"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "Nobody knows exactly where $BTC will bottom with precision. I'm just being completely honest here.\n\nWhile I consider myself very consistent with my swing trades and HTF bias, I still don't try to nail the absolute tops and bottoms. I almost always scale in ahead of time.\n\nThe reason is simple. I wait until the math, probabilities, and risk-reward are all stacked in my favor before scaling in.\n\nLast cycle, I started selling my spot holdings from 30K and exited between 108K and 120K. I didn't sell everything at the exact $126K peak. I was 10-15% off the top.\n\nYet the plan worked out flawlessly and delivered strong results. The same approach applies this cycle, my spot average is $65K, with a 2x leveraged long entered around 62.6K.\n\nI might be 10-15% early, or I might catch it right before the real bottom. Either way, I'll still come out ahead because I focused on execution rather than perfection.\n\nKnowledge is power, but too much of it can sometimes lead to overthinking and paralysis by analysis. I have a solid sense of the time windows where tops and bottoms are likely to form, but I never wait for the exact moment to pull the trigger."
+      },
+      "children": []
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2079541944716300391"
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "commentary": {
+      "type": "Text",
+      "props": {
+        "text": "Reinforces HTF long thesis alignment with group structural bull narrative. Reiterates position discipline ('execution over perfection'). Not a new trade signal.",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
