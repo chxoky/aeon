@@ -48,3 +48,9 @@ Unable to classify — is this financial sentiment affirmation on BTC/broader ma
 
 [View post](https://x.com/swarmister/status/2079485840720302229)
 No action required — this is informational noise per swarmister's profile.
+x-trader-monitor: success (2026-07-21 08:43:23 UTC)
+Trader: @bull_genius (tweet_id: 2079487390146506897)
+Classification: SKIP (non-financial / promotional)
+Content: Congratulations post on Risex platform launch with invitation links and access codes
+Reason: Personal social commentary + promotional content without personal trade action language
+Action: Silent log, no alert sent to Kyle

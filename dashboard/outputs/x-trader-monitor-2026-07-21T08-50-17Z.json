@@ -1,0 +1,184 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "status-info",
+        "separator1",
+        "trader-section",
+        "separator2",
+        "classification-section",
+        "separator3",
+        "details-section"
+      ]
+    },
+    "status-info": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "status-badge",
+        "timestamp"
+      ]
+    },
+    "status-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "success",
+        "variant": "default"
+      }
+    },
+    "timestamp": {
+      "type": "Text",
+      "props": {
+        "text": "2026-07-21 08:43:23 UTC",
+        "variant": "caption"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "trader-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trader-heading",
+        "tweet-card",
+        "tweet-id"
+      ]
+    },
+    "trader-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Trader",
+        "level": "h3"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "Congratulations post on Risex platform launch with invitation links and access codes"
+      }
+    },
+    "tweet-id": {
+      "type": "Text",
+      "props": {
+        "text": "tweet_id: 2079487390146506897",
+        "variant": "caption"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "classification-heading",
+        "classification-badge"
+      ]
+    },
+    "classification-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Classification",
+        "level": "h3"
+      }
+    },
+    "classification-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "SKIP (non-financial / promotional)",
+        "variant": "outline"
+      }
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "details-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "reason-block",
+        "action-block"
+      ]
+    },
+    "reason-block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "reason-heading",
+        "reason-text"
+      ]
+    },
+    "reason-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Reason",
+        "level": "h3"
+      }
+    },
+    "reason-text": {
+      "type": "Text",
+      "props": {
+        "text": "Personal social commentary + promotional content without personal trade action language",
+        "variant": "body"
+      }
+    },
+    "action-block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "action-heading",
+        "action-text"
+      ]
+    },
+    "action-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Action",
+        "level": "h3"
+      }
+    },
+    "action-text": {
+      "type": "Text",
+      "props": {
+        "text": "Silent log, no alert sent to Kyle",
+        "variant": "body"
+      }
+    }
+  }
+}
