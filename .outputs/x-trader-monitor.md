@@ -9,3 +9,8 @@ Unable to classify — what's your read? Is this: (a) chart-share on BTC price a
 Context: swarmister has opened ~12 cryptic posts in 48h window (Jul 19-21) requiring calibration; image content inaccessible for automated interpretation.
 
 [View post](https://x.com/swarmister/status/2079491637105811751)
+🐦 *[X] @swarmister*
+
+$USDT.D W. I told you to enjoy the rally. 
+
+After the death
