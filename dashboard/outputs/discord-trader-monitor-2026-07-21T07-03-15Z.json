@@ -1,0 +1,74 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "HCH Technical Entry",
+        "description": "Discord Trader Monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_pattern",
+        "separator1",
+        "message_stack"
+      ]
+    },
+    "badge_pattern": {
+      "type": "Badge",
+      "props": {
+        "text": "Sweep Pattern Emerging",
+        "variant": "secondary"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_opinion",
+        "text_analysis",
+        "text_chart"
+      ]
+    },
+    "text_opinion": {
+      "type": "Text",
+      "props": {
+        "text": "I am in favour of entering here",
+        "variant": "lead"
+      }
+    },
+    "text_analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Range players are waiting for such sweep which is slowly becoming the consensus technical analysis as I have noticed.",
+        "variant": "body"
+      }
+    },
+    "text_chart": {
+      "type": "Text",
+      "props": {
+        "text": "Chart attached",
+        "variant": "muted"
+      }
+    }
+  }
+}
