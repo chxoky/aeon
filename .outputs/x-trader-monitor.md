@@ -19,3 +19,10 @@ Current phase it's best to be profit maxi on perps and think in years for the sp
 
 [View tweet](https://x.com/bull_genius/status/2079560964702163152)
 ↳ _You haven't approved the original SNDK entry yet (pending at 1366~). Trader P&L on half: ~+12.3%. Ready to mirror when you decide._
+🔍 *Calibration — @KillaXBT*
+
+Event: Recent BTC structure setup (bull_genius posting 67K POC target, swarmister 67-72K minimum forecast within last 20min; current price ~66.4K near resistance)
+
+KillaXBT: "Imagine the fucking smell... $BTC [chart/link]"
+
+Unable to classify — what's your read? Is Killa bullish on the setup smell/ready-to-break, or bearish on the bounce being fake?

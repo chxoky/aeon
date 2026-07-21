@@ -1,0 +1,88 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor: Calibration"
+      },
+      "children": [
+        "header",
+        "event-stack",
+        "sep1",
+        "quote-stack",
+        "sep2",
+        "interpretation"
+      ]
+    },
+    "header": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @KillaXBT",
+        "level": "h2"
+      }
+    },
+    "event-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event-title",
+        "event-body"
+      ]
+    },
+    "event-title": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Recent BTC structure setup",
+        "variant": "lead"
+      }
+    },
+    "event-body": {
+      "type": "Text",
+      "props": {
+        "text": "bull_genius posting 67K POC target, swarmister 67-72K minimum forecast within last 20min; current price ~66.4K near resistance"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "quote-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "quote-card"
+      ]
+    },
+    "quote-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "text": "Imagine the fucking smell... $BTC [chart/link]"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "interpretation": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read? Is Killa bullish on the setup smell/ready-to-break, or bearish on the bounce being fake?",
+        "type": "info"
+      }
+    }
+  }
+}
