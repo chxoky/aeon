@@ -1,0 +1,97 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "🔍 Calibration — @t_in_crypto"
+      },
+      "children": [
+        "heading_event",
+        "event_text",
+        "separator_1",
+        "tweet_card",
+        "separator_2",
+        "heading_context",
+        "context_text",
+        "separator_3",
+        "heading_analysis",
+        "analysis_text",
+        "separator_4",
+        "view_tweet_link"
+      ]
+    },
+    "heading_event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "event_text": {
+      "type": "Text",
+      "props": {
+        "text": "Cryptic post asking other traders what will continue."
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "handle": "t_in_crypto",
+        "text": "@KatzarskaS @majidpatel0 @tiger_khan9 What will continue?"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_context": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "t_in_crypto holds 100% BTC LONG @58.4K with x2 volume conviction add @62K (Jul 14). Recent posts discuss market bottoming, 67–71K technical target, and cycle analysis. Known for cryptic/context-dependent messaging."
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_analysis": {
+      "type": "Heading",
+      "props": {
+        "text": "Analysis",
+        "level": "h3"
+      }
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify without context — what does \"What will continue?\" refer to? (Market direction? Their posts? A discussion topic?) What's your read?"
+      }
+    },
+    "separator_4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "view_tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/t_in_crypto/status/2079441916173688871"
+      }
+    }
+  }
+}
