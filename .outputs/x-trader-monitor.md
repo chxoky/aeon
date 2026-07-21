@@ -1,13 +1,7 @@
-🐦 *[X] @HeartCanHodl*
+🐦 *[X] @Wild_Randomness*
 
-BTC closing weekly green candles above ema200
+I'm learning so many new coins from Blunty past few days
 
-ETH reaching it's weekly down trendline breakout spot
+Why is he blasting all these low cap sh*itters to 600k people
 
-And that hopium going into new month?
-
-Perfect August Ambush.
-
-[View tweet](https://x.com/HeartCanHodl/status/2079388967972295012)
-
-↳ _Bullish technicals on majors into August, but 'ambush' framing suggests bearish sarcasm — consistent with HCH's active short thesis (40%+ short basket: BTC/ETH/SOL/HYPE/ZEC/UNI/VVV). HTF-bullish structure but near-term trap setup._ 
+[View tweet](https://x.com/Wild_Randomness/status/2079390840753889635)
