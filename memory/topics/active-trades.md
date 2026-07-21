@@ -253,17 +253,19 @@
 - **Context**: ZEC remains HCH's highest-conviction short despite volatile market conditions. Pattern shows disciplined profit-taking (07-08 trim 1%) followed by immediate re-accumulation (07-15 morning add 1% + 07-15 late-morning add 1%), indicating sustained structural bearish thesis on ZEC. Dual adds within single session (07-35 + 11:22) suggest intraday conviction escalation — likely price weakness validating short thesis or acceleration of pre-planned accumulation. Multi-day escalation pattern (06-15 through 07-15) confirms ZEC as cornerstone of HCH's alt-short basket. Ticker-focus notes ZEC as "CONTESTED" (HCH short vs trading_axe treating strength as market-health tell), reinforcing need for close monitoring as sentiment signal.
 - **Last update**: 2026-07-15T11:22:31Z (discord-trader-monitor, fast-path alerted, CONVICTION ADD; message_id=1526911839001251870)
 
-### UNI — SHORT (NEW ENTRY — CONVICTION ADD 2026-07-16)
-- **Status**: ACTIVE — trade-new-entry 2026-07-16T05:06:02Z
-- **Entry**: 2026-07-16T05:06:02Z — "Add 1% to uni short"
+### UNI — SHORT (NEW ENTRY — CONVICTION ADD 2026-07-16, SCALING 2026-07-21)
+- **Status**: ACTIVE — trade-new-entry 2026-07-16T05:06:02Z, conviction add 2026-07-21T01:38:04Z
+- **Entry history**:
+  - 2026-07-16T05:06:02Z — "Add 1% to uni short" (message_id=1527179482090311790, fast-path alerted)
+  - 2026-07-21T01:38:04Z — "Add 1% uni short" (message_id=1528939087354921080, fast-path alerted) — SECOND CONVICTION ADD
 - **Ticker**: UNI (Uniswap protocol governance token)
-- **Position size**: 1% portfolio allocation
-- **Entry type**: Direct execution call on primary Trades channel
-- **Context**: NEW TICKER for HCH's short basket. First mention of UNI short (previously documented shorts: BTC/ETH/SOL/HYPE/ZEC). Entry extends HCH's macro crypto bearish positioning from major pairs into protocol governance tokens. Terse execution format consistent with documented conviction-add pattern ("Add 1% to uni short" mirrors prior calls "Add 2% eth short", "Add 3% btc short"). FAST-PATH ALERTED by Cloudflare Worker ~2-5s after event; memory-only processing per skill protocol.
-- **Thesis**: Expansion of structural bearish crypto thesis to secondary tokens. UNI represents protocol narrative plays (DeFi sector risk, governance token volatility). Entry timing: immediately following "Short maxxing" X post at 04:16:37 UTC same day, suggesting coordinated escalation of short conviction across basket. Portfolio allocation trajectory: HCH achieved ~35% short basket target (Jul 15 07:49:35 UTC), now expanding into UNI as sixth ticker in constellation (after BTC/ETH/SOL/HYPE/ZEC reaches ~36-40% estimated allocation post-UNI entry).
-- **Conviction**: HIGH — direct execution call on ★most important primary channel; terse format matches prior high-conviction adds; timing suggests macro bearish acceleration into new session (pre-US market open entry at 05:06 UTC = Asia morning, likely price action validating overnight setup).
-- **Approval/Alert status**: FAST-PATH ALERTED (Telegram already sent by Worker); no duplicate send by skill. Await Kyle signal on whether to mirror UNI short on Kraken or monitor as memory-only entry.
-- **Last update**: 2026-07-16T05:06:02Z (discord-trader-monitor, fast-path alerted, TRADE-CONVICTION-ADD; message_id=1527179482090311790)
+- **Position size trajectory**: 1% (Jul 16) → 2% (Jul 21 after second add)
+- **Entry type**: Direct execution calls on primary Trades channel (consistent terse format)
+- **Context**: UNI represents protocol governance token within HCH's structural bearish crypto thesis. First mention Jul 16 05:06 UTC as sixth ticker in documented short constellation (BTC/ETH/SOL/HYPE/ZEC/UNI). Second conviction add Jul 21 01:38 UTC extends positioning after 5-day hold without adjustment — suggests confidence in UNI's downside thesis maintained through consolidation/structure. Both entries executed early Asia morning (pre-US market open), indicating systematic accumulation tied to overnight price validation or disciplined schedule adds.
+- **Thesis**: Expansion of structural bearish crypto thesis to governance/DeFi narrative tokens. Entry timing (05:06 Jul 16 = immediately after "Short maxxing" X post 04:16:37 UTC) suggested coordinated escalation; second add (01:38 Jul 21) confirms sustained high conviction on UNI as downside participates in broader alt-bearish environment. Portfolio allocation: HCH achieved ~35% short basket target (Jul 15), now accumulated UNI to 2% (from original 1% Jul 16) → estimated current total ~40-44% short-basket allocation (depending on other position scales since Jul 21).
+- **Conviction**: HIGH → EXTREMELY HIGH (dual execution adds within 5 days on same ticker without intervening reductions = escalating conviction rather than maintenance holding; typically indicates price weakness validating thesis or pre-planned systematic accumulation. Terse execution format + primary channel placement confirms maximum conviction classification)
+- **Approval/Alert status**: FAST-PATH ALERTED (Telegram already sent by Worker for both Jul 16 and Jul 21 events); no duplicate sends by skill. Await Kyle signal on whether to mirror UNI short on Kraken (cumulative 2% allocation) or monitor as memory-only entry.
+- **Last update**: 2026-07-21T01:38:04Z (discord-trader-monitor, fast-path alerted, TRADE-CONVICTION-ADD; message_id=1528939087354921080)
 
 ### VVV — SHORT (NEW ENTRY — CONVICTION ADD 2026-07-19)
 - **Status**: ACTIVE — trade-conviction-add 2026-07-19T02:08:23Z
