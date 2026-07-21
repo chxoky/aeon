@@ -5,3 +5,9 @@
 - ticker(s): [BTC (implicit, context-dependent)]
 - alerted: yes (calibration)
 - notes: Cryptic disclaimer post about time-variance (±4-8h) around pivots, referencing previous chart post. Missing context from @mentions' discussion. HR-2 calibration alert sent to Kyle for interpretation.
+
+### 06:00 UTC — @Stoiiic (tweet_id: 2079446273795539189)
+- classification: skip (non-financial / platform exploration)
+- text: "Always interested in keeping track of and testing out emerging perps dex's especially when there are sharp people talking about the platform.\n\nTrying out @risextrade next and they just went live with their incentive program this week as well so good opportunity to test and accumulate points early.\n\nThe team was kind enough to give me some codes for early access (these codes also provide you with a boost of stoicism):\n\n91NIRL08\nCCQQSHES\nDQAL40W1\nGM4ZBES6\nL2E2G2BT\nMMEM0EDM"
+- notes: Personal exploration of RiseX perps DEX platform, sharing early access codes. No market opinion, no ticker focus, no position action. HR-1 category A classification (non-financial / platform meta-commentary). Consistent with Stoiiic's established pattern of educational/technical methodology posts. Silent log, no alert.
+- alerted: no
