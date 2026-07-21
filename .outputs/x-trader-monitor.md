@@ -1,16 +1,8 @@
-## Summary
+🔍 *Calibration — @swarmister*
 
-**Skill:** X Trader Monitor  
-**Event:** Real-time X/Twitter tweet from @swarmister
+Event: Reply to @cremedupepe
+swarmister: "Algo https://t.co/sGGIOTCgyh"
 
-**Classification:** ✅ Non-financial (skip)
-- Tweet: "@deltaxbt Gm delto" (morning greeting)
-- No financial signal, no ticker, no market opinion, no execution language
-- Consistent with swarmister's established ~80% social-banter pattern
+Unable to classify — what's your read?
 
-**Action taken:**
-- Added tweet_id 2079454429221134403 to memory/x-trader-seen.txt (dedup prevention)
-- Appended log entry to memory/logs/2026-07-21.md
-- Silent skip — no alert to Kyle (HR-1 Category A)
-
-**Result:** ✅ Complete
+[URL content inaccessible; could reference Algorand token, algorithmic trading setup, chart analysis, or signal coordination. swarmister has 5+ ambiguous posts in past 24h — pattern suggests active monitoring but unclear intent/signal. Recent activity: BTC long targeting 70.7K from Jul 17 entry.]

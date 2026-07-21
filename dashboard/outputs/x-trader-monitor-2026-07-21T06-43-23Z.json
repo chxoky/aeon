@@ -1,0 +1,90 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "header_text",
+        "sep1",
+        "event_section",
+        "sep2",
+        "tweet_card",
+        "sep3",
+        "alert_classify"
+      ]
+    },
+    "header_text": {
+      "type": "Text",
+      "props": {
+        "text": "🔍 Calibration — @swarmister",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "event_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event_badge",
+        "event_text"
+      ]
+    },
+    "event_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Event",
+        "variant": "default"
+      }
+    },
+    "event_text": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to @cremedupepe"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "@swarmister",
+        "text": "Algo https://t.co/sGGIOTCgyh"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "alert_classify": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify — what's your read?",
+        "message": "URL content inaccessible; could reference Algorand token, algorithmic trading setup, chart analysis, or signal coordination. swarmister has 5+ ambiguous posts in past 24h — pattern suggests active monitoring but unclear intent/signal. Recent activity: BTC long targeting 70.7K from Jul 17 entry.",
+        "type": "info"
+      }
+    }
+  }
+}
