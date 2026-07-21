@@ -1,25 +1,15 @@
-## Summary
+🐦 *[X] @bull_genius*
 
-I've executed the x-trader-monitor skill on the provided event. Here's what happened:
+_BTC structure validation + resistance targets — still flat, technical outlook_
 
-**Event Details:**
-- **Tweet ID**: 2079556415081918502
-- **Trader**: @swarmister
-- **Content**: "@TraderMagus KING SHIIIIIIIT"
-- **Timestamp**: 2026-07-21 13:17:40 UTC
+haven't updated and haven't bid big positions as i was watching world cup and spent night in er earlier
 
-**Classification**: **SKIP — Non-financial personal banter (Category A)**
+our original 70k joyful july target is looking good again, btc first tested support at 30d rvwap thrice, then buyers already stepped in at summer (june+july) poc, now at 7d rvwap -> higher lows and now we finally broke 65k up
 
-**Reasoning:**
-- This is a reply to external trader @TraderMagus expressing excitement via slang
-- No ticker, price level, or execution language
-- No financial substance — pure personal social interaction
-- Fully consistent with swarmister's established ~80% non-financial banter pattern
+67k big boss yearly poc, next resistance, 68.2k 90d rvwap, 71.7k yearly anchored vwap are targets above the line
 
-**Actions Taken:**
-1. ✅ Added tweet ID to `memory/x-trader-seen.txt` (dedup tracking)
-2. ✅ Logged event to `memory/logs/2026-07-21.md` with classification details
-3. ✅ Updated `memory/topics/traders.md` with the event entry
-4. ✅ **NO alert sent** (per HR-1: non-financial posts skip silently)
+remember our options trader that bet on 70-72k by EOM, getting more likely he gets paid
 
-**Position State**: Unchanged — swarmister's BTC LONG (opened Jul 17 partial, targeting 70.7K with planned adds at 62.4k/61.2k) remains active.
+[View tweet](https://x.com/bull_genius/status/2079558808083272104)
+
+↳ Structural bull thesis reaffirmed: 30d RVWAP support validated 3x, summer POC bid, 7d RVWAP forming higher lows. Resistance progression 67–68.2–71.7K aligns with group structural bull lean (KillaXBT 2x HTF long, t_in_crypto x2 conviction add). External macro: options trader 70-72K bet becoming more likely to pay.

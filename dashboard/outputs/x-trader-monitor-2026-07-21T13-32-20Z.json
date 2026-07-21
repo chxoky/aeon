@@ -1,0 +1,264 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X-Trader Monitor: BTC Structure Validation"
+      },
+      "children": [
+        "tweet_card",
+        "separator_1",
+        "tweet_link",
+        "separator_2",
+        "key_targets",
+        "separator_3",
+        "structural_thesis",
+        "separator_4",
+        "conviction_adds"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "@bull_genius",
+        "text": "🐦 BTC structure validation + resistance targets — still flat, technical outlook\n\nhaven't updated and haven't bid big positions as i was watching world cup and spent night in er earlier\n\nour original 70k joyful july target is looking good again, btc first tested support at 30d rvwap thrice, then buyers already stepped in at summer (june+july) poc, now at 7d rvwap -> higher lows and now we finally broke 65k up\n\n67k big boss yearly poc, next resistance, 68.2k 90d rvwap, 71.7k yearly anchored vwap are targets above the line\n\nremember our options trader that bet on 70-72k by EOM, getting more likely he gets paid"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View tweet",
+        "href": "https://x.com/bull_genius/status/2079558808083272104",
+        "source": "X"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "key_targets": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "targets_heading",
+        "targets_stack"
+      ]
+    },
+    "targets_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Price Targets",
+        "level": "h3"
+      }
+    },
+    "targets_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "milestone_70k",
+        "target_67k",
+        "target_68_2k",
+        "target_71_7k",
+        "target_70_72k_eom"
+      ]
+    },
+    "milestone_70k": {
+      "type": "Stat",
+      "props": {
+        "label": "Joyful July Target (Original)",
+        "value": "$70,000"
+      }
+    },
+    "target_67k": {
+      "type": "Stat",
+      "props": {
+        "label": "Big Boss Yearly POC",
+        "value": "$67,000"
+      }
+    },
+    "target_68_2k": {
+      "type": "Stat",
+      "props": {
+        "label": "90d RVWAP Resistance",
+        "value": "$68,200"
+      }
+    },
+    "target_71_7k": {
+      "type": "Stat",
+      "props": {
+        "label": "Yearly Anchored VWAP",
+        "value": "$71,700"
+      }
+    },
+    "target_70_72k_eom": {
+      "type": "Stat",
+      "props": {
+        "label": "Options Trader Target (EOM)",
+        "value": "$70,000–$72,000"
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "structural_thesis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "thesis_heading",
+        "thesis_text",
+        "support_levels"
+      ]
+    },
+    "thesis_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Structural Bull Thesis",
+        "level": "h3"
+      }
+    },
+    "thesis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Structural bull thesis reaffirmed: 30d RVWAP support validated 3x, summer POC bid, 7d RVWAP forming higher lows. Resistance progression 67–68.2–71.7K aligns with group structural bull lean.",
+        "variant": "body"
+      }
+    },
+    "support_levels": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "level_title",
+        "level_30d",
+        "level_summer",
+        "level_7d",
+        "level_65k"
+      ]
+    },
+    "level_title": {
+      "type": "Text",
+      "props": {
+        "text": "Key Support Levels:",
+        "variant": "lead"
+      }
+    },
+    "level_30d": {
+      "type": "Text",
+      "props": {
+        "text": "30d RVWAP: Support tested and held 3 times",
+        "variant": "body"
+      }
+    },
+    "level_summer": {
+      "type": "Text",
+      "props": {
+        "text": "Summer (June+July) POC: Buyers stepping in",
+        "variant": "body"
+      }
+    },
+    "level_7d": {
+      "type": "Text",
+      "props": {
+        "text": "7d RVWAP: Higher lows forming",
+        "variant": "body"
+      }
+    },
+    "level_65k": {
+      "type": "Text",
+      "props": {
+        "text": "$65k: Recently broken to the upside",
+        "variant": "body"
+      }
+    },
+    "separator_4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "conviction_adds": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "conviction_heading",
+        "conviction_macro",
+        "traders_list"
+      ]
+    },
+    "conviction_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Group Conviction & External Macro",
+        "level": "h3"
+      }
+    },
+    "conviction_macro": {
+      "type": "Text",
+      "props": {
+        "text": "External macro: Options trader 70-72K bet becoming more likely to pay.",
+        "variant": "body"
+      }
+    },
+    "traders_list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "traders_title",
+        "trader_killaxbt",
+        "trader_t_in_crypto"
+      ]
+    },
+    "traders_title": {
+      "type": "Text",
+      "props": {
+        "text": "Additional Conviction Adds:",
+        "variant": "lead"
+      }
+    },
+    "trader_killaxbt": {
+      "type": "Text",
+      "props": {
+        "text": "KillaXBT: 2x HTF long",
+        "variant": "body"
+      }
+    },
+    "trader_t_in_crypto": {
+      "type": "Text",
+      "props": {
+        "text": "t_in_crypto: 2x conviction add",
+        "variant": "body"
+      }
+    }
+  }
+}
