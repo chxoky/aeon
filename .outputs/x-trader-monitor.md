@@ -1,11 +1,9 @@
-🐦 *[X] @Stoiiic*
+🔍 *Calibration — @Crypto_Chase*
 
-"The time to push aggressively for longs on BTC was down there.
+Event: Reply to external user @TamasKalman71
 
-Currently BTC is starting to tap the weekly trend.
+Crypto_Chase: "@TamasKalman71 too obvious"
 
-This remains a counter trend rally in an HTF downtrend unless proven otherwise."
+Unable to classify — what's your read? (Setup dismissal? Market sentiment? Non-financial banter?)
 
-[View tweet](https://x.com/Stoiiic/status/2079605462085861453)
-
-↳ _Counter-trend thesis aligns with KillaXBT's HTF-bullish structural view but tempered by near-term chop—HCH bears still add context._
+[View post](https://x.com/Crypto_Chase/status/2079607295462236447)
