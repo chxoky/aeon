@@ -1,0 +1,86 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration"
+      },
+      "children": [
+        "heading_calibration",
+        "sep1",
+        "section_event",
+        "sep2",
+        "section_message",
+        "sep3",
+        "alert_classification"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Text",
+      "props": {
+        "text": "🔍 Calibration — [DC: Chase — Chase]",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator"
+    },
+    "section_event": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_event",
+        "text_event"
+      ]
+    },
+    "heading_event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "SNDK TP level just defined (1551~) 13min ago; current price action likely in/near zone"
+      }
+    },
+    "sep2": {
+      "type": "Separator"
+    },
+    "section_message": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "quote_chase"
+      ]
+    },
+    "quote_chase": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Crypto_Chase",
+        "text": "SNDK ADJUST HERE"
+      }
+    },
+    "sep3": {
+      "type": "Separator"
+    },
+    "alert_classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification needed",
+        "message": "Unable to classify — what's your read on the 'ADJUST' intent? (half-TP confirm / add / reduce / something else?)",
+        "type": "info"
+      }
+    }
+  }
+}
