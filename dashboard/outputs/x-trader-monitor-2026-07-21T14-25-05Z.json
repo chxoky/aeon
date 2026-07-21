@@ -1,0 +1,76 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 x-trader-monitor Calibration"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge-source",
+        "sep-1",
+        "heading-post",
+        "text-post",
+        "sep-2",
+        "alert-question"
+      ]
+    },
+    "badge-source": {
+      "type": "Badge",
+      "props": {
+        "text": "@HeartCanHodl"
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading-post": {
+      "type": "Heading",
+      "props": {
+        "text": "Post",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text-post": {
+      "type": "Text",
+      "props": {
+        "text": "@degenstefo 🔥🔥",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert-question": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification",
+        "message": "Unable to classify — this appears to be a reply to @degenstefo's post (which I can't see). Is this financial-related or just engagement? What's your read?",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}

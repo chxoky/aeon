@@ -1,7 +1,6 @@
-🔁 *Trader Update — @Crypto_Chase*
 🔍 *Calibration — @HeartCanHodl*
 
-Event: HCH holds active SHORT on SPCX (big winner since Jul 13), but posts ambiguous message about longs
+Post: "@degenstefo 🔥🔥"
 
 HeartCanHodl: "Enjoying some longs too :)\n\n$SPCX"
 
@@ -32,3 +31,4 @@ You probably don't understand how easily we broke the strong median resistance a
 $BTC
 
 [View tweet](https://x.com/t_in_crypto/status/2079570546585407492)
+Unable to classify — this appears to be a reply to @degenstefo's post (which I can't see). Is this financial-related or just engagement? What's your read?
