@@ -1,0 +1,110 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @Wild_Randomness"
+      },
+      "children": [
+        "text-event",
+        "sep-1",
+        "tweet-wild",
+        "sep-2",
+        "heading-classify",
+        "text-classify-intro",
+        "stack-options",
+        "sep-3",
+        "text-read-prompt"
+      ]
+    },
+    "text-event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Semiconductor momentum discussion (group currently watching MRVL after single mention)",
+        "variant": "body"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-wild": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "$MRVL\n\nWhat do you think, Jensen…\n\nLevel to level… Bearish retest at $220?\n\nOr, just straight to 1T? https://t.co/0KMJDVqG7A"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-classify": {
+      "type": "Heading",
+      "props": {
+        "text": "Classification",
+        "level": "h2"
+      }
+    },
+    "text-classify-intro": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — is this:",
+        "variant": "body"
+      }
+    },
+    "stack-options": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-option-a",
+        "text-option-b",
+        "text-option-c"
+      ]
+    },
+    "text-option-a": {
+      "type": "Text",
+      "props": {
+        "text": "(a) A technical level opinion/commentary (informational)",
+        "variant": "body"
+      }
+    },
+    "text-option-b": {
+      "type": "Text",
+      "props": {
+        "text": "(b) A setup they're considering entering",
+        "variant": "body"
+      }
+    },
+    "text-option-c": {
+      "type": "Text",
+      "props": {
+        "text": "(c) A request for your input on MRVL's next move?",
+        "variant": "body"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-read-prompt": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "lead"
+      }
+    }
+  }
+}

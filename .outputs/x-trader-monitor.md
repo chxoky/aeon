@@ -1,7 +1,12 @@
-🐦 *[X] @Wild_Randomness*
+🔍 *Calibration — @Wild_Randomness*
 
-I'm learning so many new coins from Blunty past few days
+Event: Semiconductor momentum discussion (group currently watching MRVL after single mention)
 
-Why is he blasting all these low cap sh*itters to 600k people
+Wild_Randomness: "$MRVL\n\nWhat do you think, Jensen…\n\nLevel to level… Bearish retest at $220? \n\nOr, just straight to 1T? https://t.co/0KMJDVqG7A"
 
-[View tweet](https://x.com/Wild_Randomness/status/2079390840753889635)
+Unable to classify — is this:
+(a) A technical level opinion/commentary (informational)
+(b) A setup they're considering entering
+(c) A request for your input on MRVL's next move?
+
+What's your read?
