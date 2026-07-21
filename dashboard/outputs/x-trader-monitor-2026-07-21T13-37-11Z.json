@@ -1,0 +1,162 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "2026-07-21 13:32:04 UTC"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "status_row",
+        "separator1",
+        "tweet_card",
+        "separator2",
+        "analysis_stack"
+      ]
+    },
+    "status_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "author_text",
+        "alert_badge"
+      ]
+    },
+    "author_text": {
+      "type": "Text",
+      "props": {
+        "text": "Author: @bull_genius",
+        "variant": "lead"
+      }
+    },
+    "alert_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Not alerted",
+        "variant": "secondary"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "@bull_genius",
+        "text": "@swarmister yeah its quite rewarding rn especially on chain"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event_section",
+        "classification_section",
+        "reason_section"
+      ]
+    },
+    "event_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event_label",
+        "event_text"
+      ]
+    },
+    "event_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h4"
+      }
+    },
+    "event_text": {
+      "type": "Text",
+      "props": {
+        "text": "generic banter reply to @swarmister",
+        "variant": "body"
+      }
+    },
+    "classification_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "classification_label",
+        "classification_badge"
+      ]
+    },
+    "classification_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Classification",
+        "level": "h4"
+      }
+    },
+    "classification_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "SKIP",
+        "variant": "outline"
+      }
+    },
+    "reason_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "reason_label",
+        "reason_text"
+      ]
+    },
+    "reason_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Reason",
+        "level": "h4"
+      }
+    },
+    "reason_text": {
+      "type": "Text",
+      "props": {
+        "text": "Generic sentiment alignment without personal trade action or market intelligence. No specific ticker, no execution signal.",
+        "variant": "body"
+      }
+    }
+  }
+}
