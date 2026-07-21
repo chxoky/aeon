@@ -1,0 +1,173 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor — Calibration"
+      },
+      "children": [
+        "calibration_heading",
+        "event_section",
+        "sep1",
+        "conviction_section",
+        "sep2",
+        "classification_section"
+      ]
+    },
+    "calibration_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "HCH — Comments",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "event_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event_label",
+        "event_details"
+      ]
+    },
+    "event_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "event_details": {
+      "type": "Text",
+      "props": {
+        "text": "HCH previously posted a trading framework manifesto (04:59 UTC) covering position sizing, leverage guidelines, and risk-management philosophy."
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "conviction_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "conviction_label",
+        "conviction_quote",
+        "conviction_link"
+      ]
+    },
+    "conviction_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Conviction",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "conviction_quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"Conviction is strong and clear\"",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "conviction_link": {
+      "type": "Link",
+      "props": {
+        "label": "link to framework message",
+        "href": "#"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "classification_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "classification_prompt",
+        "options_label",
+        "options_stack"
+      ]
+    },
+    "classification_prompt": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read? Is this:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "options_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Classification Options",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "options_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opt_a",
+        "opt_b",
+        "opt_c",
+        "opt_d"
+      ]
+    },
+    "opt_a": {
+      "type": "Text",
+      "props": {
+        "text": "(a) Conviction about framework adequacy as risk-mgmt thesis?"
+      },
+      "children": []
+    },
+    "opt_b": {
+      "type": "Text",
+      "props": {
+        "text": "(b) Market directional conviction tied to framework principles?"
+      },
+      "children": []
+    },
+    "opt_c": {
+      "type": "Text",
+      "props": {
+        "text": "(c) Response to member questions about framework reliability?"
+      },
+      "children": []
+    },
+    "opt_d": {
+      "type": "Text",
+      "props": {
+        "text": "(d) Meta-commentary on conviction/sizing methodology?"
+      },
+      "children": []
+    }
+  }
+}
