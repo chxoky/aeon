@@ -25,3 +25,10 @@ Your MU position is still **pending approval** to mirror on Kraken. When ready, 
 
 [View post](https://x.com/Crypto_Chase/status/2079567804894785957)
 Unable to classify — are they enjoying longs elsewhere (non-SPCX), reversing the short, or being ironic? What's your read?
+🐦 *[X] @t_in_crypto*
+
+You probably don't understand how easily we broke the strong median resistance and opened the way to the next one
+
+$BTC
+
+[View tweet](https://x.com/t_in_crypto/status/2079570546585407492)
