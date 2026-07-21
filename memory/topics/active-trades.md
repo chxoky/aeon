@@ -82,7 +82,8 @@
   - **First TP (2026-07-21T13:30:36Z)**: Discord "Half TP MU at 956~" (message_id=1529118399781667028) — 50% TP'd, ~16.6% gain from $820 entry
   - **Second TP (2026-07-21T14:02:55Z)**: X post "$MU update\n\nTP'd 1/4th..." (tweet_id=2079567804894785957) — 25% TP'd at ~$930, ~16.25% gain
 - **Alerted**: YES (2026-07-17T13:46:04Z entry via Telegram; 2026-07-21T13:30:36Z first TP via fast-path; 2026-07-21T14:02:55Z second TP via x-trader-monitor)
-- **Last update**: 2026-07-21T14:02:55Z (second partial TP execution, 25% locked-in at ~$930, X post tweet_id=2079567804894785957, x-trader-monitor real-time, fast-path-alerted=false)
+- **Overall update** (2026-07-21T14:56:24Z): Crypto_Chase posted consolidated summary: "TP'd half MU position from 800~ at 935~" + stops set to B/E on remainder. This X post (tweet_id=2079581261996101922) aggregates earlier partial TP announcements (Discord 50% at 956, then X-post 25% at 930) and confirms 50% cumulative TP narrative to Kyle. Remaining ~50% held under DCA plan per original thesis. Mirror execution: 50% MU position closed at ~$935 on Kraken per Step 5b protocol.
+- **Last update**: 2026-07-21T14:56:24Z (overall TP summary + confirmation, X post tweet_id=2079581261996101922, x-trader-monitor real-time, mirrored-partial-tp, fast-path-alerted=true via ./notify call)
 
 ### SNDK (Structural) — LONG (PREVIOUS POSITION CLOSED 2026-07-16T19:02:25Z)
 - **Previous entry**: 2026-07-07T13:25:08Z (pullback tactical entry on HTF flush setup, CLOSED JUL 16)
@@ -108,7 +109,8 @@
 - **Alerted**: YES (2026-07-16T22:54:55Z, X-trader-monitor real-time event, fast-path-alerted via Telegram)
 - **TP levels**: Conditional half TP target set at 1551~ (2026-07-21T13:29:00Z Discord message_id=1529117999510851585, discord-trader-monitor real-time, fast-path-alerted=true); **EXECUTED at 1533 on 2026-07-21T13:43:28Z** (X post tweet_id=2079562910213316621, partial TP executed slightly below stated target, P&L on half: +12.3% in 4.5 days)
 - **Partial TP detail**: 2026-07-21T13:43:28Z — Crypto_Chase posted "$SNDK update\n\nTook half profit on SNDK position from 1366~ here at 1533." Remaining half of position still held by trader. Kyle's mirror position status: PENDING APPROVAL (original entry not yet mirrored on Kraken per Kyle's outstanding approval decision). Notification sent to Kyle informing of partial TP context + trader P&L.
-- **Last update**: 2026-07-21T13:43:28Z (partial TP executed: 50% at 1533, trader P&L +12.3%, informational alert sent to Kyle via x-trader-monitor real-time, fast-path-alerted=false, alerted=yes-informational)
+- **Summary confirmation** (2026-07-21T14:56:24Z): Crypto_Chase posted overall update including SNDK: "TP'd half SNDK position from 1366~ at 1533~. Keeping half open... S/L set to B/E". X post tweet_id=2079581261996101922 provides consolidated summary of TP execution originally announced at 13:43:28Z. No mirror executed (position was pending approval, never entered on Kyle's account). Informational notation only: trader remains in +12.2% cumulative P&L on original half position with 50% remainder held under original thesis. Cross-platform dedup: X post is reiteration with new detail (SNDK+MU summary) added to MU context from earlier Discord announcements.
+- **Last update**: 2026-07-21T14:56:24Z (overall TP summary X post tweet_id=2079581261996101922, x-trader-monitor real-time, informational-confirmation, fast-path-alerted=false-but-notified-via-consolidated-alert)
 
 ### MU (Micron Technology) — LONG (NEW ENTRY — DCA PLAN 2026-07-17)
 - **Entry**: 2026-07-17T13:48:06Z (X post, tweet_id=2078114525216157709)

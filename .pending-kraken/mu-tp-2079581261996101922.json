@@ -1,0 +1,10 @@
+{
+  "action": "close",
+  "ticker": "MU",
+  "amount_pct": 50,
+  "price": 935,
+  "order_type": "market",
+  "source_trader": "Crypto_Chase",
+  "source_url": "https://x.com/Crypto_Chase/status/2079581261996101922",
+  "timestamp": "2026-07-21T14:56:24Z"
+}

@@ -1,0 +1,200 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "badge_mirrored",
+        "heading_event",
+        "sep1",
+        "grid_positions",
+        "sep2",
+        "stack_status",
+        "link_tweet"
+      ]
+    },
+    "badge_mirrored": {
+      "type": "Badge",
+      "props": {
+        "text": "🔁 Mirrored",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "heading_event": {
+      "type": "Heading",
+      "props": {
+        "text": "Crypto_Chase TP'd 50% of both positions",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "grid_positions": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "pos_mu",
+        "pos_sndk"
+      ]
+    },
+    "pos_mu": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_mu",
+        "stat_mu_entry",
+        "stat_mu_tp",
+        "badge_mu_action"
+      ]
+    },
+    "heading_mu": {
+      "type": "Heading",
+      "props": {
+        "text": "MU",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "stat_mu_entry": {
+      "type": "Stat",
+      "props": {
+        "label": "Entry",
+        "value": "800"
+      },
+      "children": []
+    },
+    "stat_mu_tp": {
+      "type": "Stat",
+      "props": {
+        "label": "TP (50%)",
+        "value": "935",
+        "delta": "+16.9%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "badge_mu_action": {
+      "type": "Badge",
+      "props": {
+        "text": "Closed 50% on Kraken",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "pos_sndk": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_sndk",
+        "stat_sndk_entry",
+        "stat_sndk_tp",
+        "badge_sndk_status"
+      ]
+    },
+    "heading_sndk": {
+      "type": "Heading",
+      "props": {
+        "text": "SNDK",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "stat_sndk_entry": {
+      "type": "Stat",
+      "props": {
+        "label": "Entry",
+        "value": "1366"
+      },
+      "children": []
+    },
+    "stat_sndk_tp": {
+      "type": "Stat",
+      "props": {
+        "label": "TP (50%)",
+        "value": "1533",
+        "delta": "+12.2%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "badge_sndk_status": {
+      "type": "Badge",
+      "props": {
+        "text": "Pending approval — no mirror",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack_status": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_status",
+        "text_status_detail",
+        "badge_stops"
+      ]
+    },
+    "heading_status": {
+      "type": "Heading",
+      "props": {
+        "text": "Current Position",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text_status_detail": {
+      "type": "Text",
+      "props": {
+        "text": "Keeping 50% open on both positions",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "badge_stops": {
+      "type": "Badge",
+      "props": {
+        "text": "Stops at breakeven",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View original X post",
+        "href": "https://x.com/Crypto_Chase/status/2079581261996101922"
+      },
+      "children": []
+    }
+  }
+}
