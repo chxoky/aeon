@@ -1,0 +1,134 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "main-stack"
+      ]
+    },
+    "main-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "tweet-card",
+        "tweet-link",
+        "separator-1",
+        "analysis-stack"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Every 500k account posting 20M market cap shitters now though\n\nBeing aligned with these people is not really how I operate\n\nI think this just supports the thesis that we may get a short term pop but overall this space still needs one more cleansing"
+      },
+      "children": []
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2079402618665803806"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alignment-section",
+        "divergence-section"
+      ]
+    },
+    "alignment-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "alignment-label",
+        "alignment-text"
+      ]
+    },
+    "alignment-label": {
+      "type": "Text",
+      "props": {
+        "text": "Alignment",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "alignment-text": {
+      "type": "Text",
+      "props": {
+        "text": "HCH's ~40% short basket conviction + prior WildRandomness macro caution on vol regime change",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "divergence-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "divergence-label",
+        "divergence-positions"
+      ]
+    },
+    "divergence-label": {
+      "type": "Text",
+      "props": {
+        "text": "Diverges from structural bulls",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "divergence-positions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "killa-badge",
+        "t_in_crypto-badge"
+      ]
+    },
+    "killa-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Killa 2x @62.6K"
+      },
+      "children": []
+    },
+    "t_in_crypto-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "t_in_crypto x2 @62K conviction adds"
+      },
+      "children": []
+    }
+  }
+}
