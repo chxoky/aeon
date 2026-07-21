@@ -1,0 +1,47 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @swarmister"
+      },
+      "children": [
+        "event-desc",
+        "tweet",
+        "classification-q",
+        "link"
+      ]
+    },
+    "event-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @Trade17 (prior message context not visible)",
+        "variant": "caption"
+      }
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "@Trade17 Hype\n\nTao\n\nMaybe monero"
+      }
+    },
+    "classification-q": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — is this a personal position discussion, or market opinion? What's your read?",
+        "variant": "lead"
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/swarmister/status/2079494373494882316"
+      }
+    }
+  }
+}
