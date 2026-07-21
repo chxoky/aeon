@@ -1,0 +1,179 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "HCH positioning update",
+        "description": "discord-trader-monitor"
+      },
+      "children": [
+        "content-stack"
+      ]
+    },
+    "content-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "message-section",
+        "details-section"
+      ]
+    },
+    "message-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "message-label",
+        "message-text"
+      ]
+    },
+    "message-label": {
+      "type": "Text",
+      "props": {
+        "text": "Message",
+        "variant": "muted"
+      }
+    },
+    "message-text": {
+      "type": "Text",
+      "props": {
+        "text": "Technical analysis + 55% pf short confirmation around 65k",
+        "variant": "lead"
+      }
+    },
+    "details-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "separator1",
+        "details-grid"
+      ]
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "details-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "channel-block",
+        "status-block",
+        "classification-block",
+        "time-block"
+      ]
+    },
+    "channel-block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "channel-label",
+        "channel-value"
+      ]
+    },
+    "channel-label": {
+      "type": "Text",
+      "props": {
+        "text": "Channel",
+        "variant": "muted"
+      }
+    },
+    "channel-value": {
+      "type": "Text",
+      "props": {
+        "text": "HCH — Chat (supporting)"
+      }
+    },
+    "status-block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "status-label",
+        "status-value"
+      ]
+    },
+    "status-label": {
+      "type": "Text",
+      "props": {
+        "text": "Status",
+        "variant": "muted"
+      }
+    },
+    "status-value": {
+      "type": "Text",
+      "props": {
+        "text": "Fast-path alerted (Telegram sent by Worker)"
+      }
+    },
+    "classification-block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "classification-label",
+        "classification-badge"
+      ]
+    },
+    "classification-label": {
+      "type": "Text",
+      "props": {
+        "text": "Classification",
+        "variant": "muted"
+      }
+    },
+    "classification-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "informational (market analysis, no execution)",
+        "variant": "secondary"
+      }
+    },
+    "time-block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "time-label",
+        "time-value"
+      ]
+    },
+    "time-label": {
+      "type": "Text",
+      "props": {
+        "text": "Time",
+        "variant": "muted"
+      }
+    },
+    "time-value": {
+      "type": "Text",
+      "props": {
+        "text": "06:37:41 UTC"
+      }
+    }
+  }
+}
