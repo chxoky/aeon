@@ -1,4 +1,4 @@
-## Summary
+🔁 *Trader Update — @Crypto_Chase*
 
 I've successfully executed the **X Trader Monitor** skill for the real-time tweet event from swarmister.
 
@@ -24,3 +24,11 @@ This tweet is pure personal social interaction with no financial content, no tic
 - ✅ **No traders.md update** (non-financial skips don't get entries)
 
 The skill ran cleanly with no notifications or position changes needed.
+$MU Position Update:
+- Took 1/4th of position profit at ~$930 (entry ~$800)
+- Prior TP: 50% at ~$956 (Jul 21 13:30 UTC)
+- Remaining: ~25% continues per DCA plan
+
+Your MU position is still **pending approval** to mirror on Kraken. When ready, I can backfill the prior TP executions.
+
+[View post](https://x.com/Crypto_Chase/status/2079567804894785957)

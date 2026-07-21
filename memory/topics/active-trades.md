@@ -74,6 +74,15 @@
 - **Mirror instructions**: Original entry required Kyle approval (`approve MU`); TP execution status depends on whether prior entry was mirrored on Kraken. If mirrored, 25% should be taken off Kraken spot position at/around 930 level, with secondary 25% exit at original TP level (956+). Remaining 50% continues DCA plan per original strategy.
 - **Alerted**: YES (2026-07-17T13:46:04Z primary event via Telegram; 2026-07-21T13:30:36Z + 2026-07-21T13:57:57Z partial TP execution events via fast-path Telegram, fast-path-alerted=true for both)
 - **Last update**: 2026-07-21T13:57:57Z (TP detail execution, 25% locked-in at $930 + 25% targeting original TP, Discord message_id=1529125283037184111, discord-trader-monitor real-time, fast-path-alerted=true)
+  - 2026-07-21T13:30Z: 50% TP at $956 (locked-in ~16.6% gain), 50% remainder continues DCA plan
+- **Status**: ACTIVE — 75% cumulative TP'd (50% at ~$956 + 25% at ~$930), ~25% remainder under DCA plan awaiting lower entry prices
+- **Trade alert format**: Step 5a/5c hybrid (initial new entry + DCA plan; Step 5b partial TP executions on 2026-07-21). Fast-path already notified Kyle via Telegram on TP events.
+- **Mirror instructions**: Original entry required Kyle approval (`approve MU`); TP execution status depends on whether prior entry was mirrored on Kraken. If mirrored, cumulative reductions (50% at ~956 + 25% at ~930) should be mirrored on Kraken spot position to match trader. Remaining ~25% continues DCA plan per original strategy.
+- **TP Execution detail**:
+  - **First TP (2026-07-21T13:30:36Z)**: Discord "Half TP MU at 956~" (message_id=1529118399781667028) — 50% TP'd, ~16.6% gain from $820 entry
+  - **Second TP (2026-07-21T14:02:55Z)**: X post "$MU update\n\nTP'd 1/4th..." (tweet_id=2079567804894785957) — 25% TP'd at ~$930, ~16.25% gain
+- **Alerted**: YES (2026-07-17T13:46:04Z entry via Telegram; 2026-07-21T13:30:36Z first TP via fast-path; 2026-07-21T14:02:55Z second TP via x-trader-monitor)
+- **Last update**: 2026-07-21T14:02:55Z (second partial TP execution, 25% locked-in at ~$930, X post tweet_id=2079567804894785957, x-trader-monitor real-time, fast-path-alerted=false)
 
 ### SNDK (Structural) — LONG (PREVIOUS POSITION CLOSED 2026-07-16T19:02:25Z)
 - **Previous entry**: 2026-07-07T13:25:08Z (pullback tactical entry on HTF flush setup, CLOSED JUL 16)
