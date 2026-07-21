@@ -1,4 +1,4 @@
-🔍 *Calibration — @HeartCanHodl*
+🔍 *Calibration — @swarmister*
 
 Post: "@degenstefo 🔥🔥"
 ## Summary
@@ -44,3 +44,8 @@ Unable to classify — this appears to be a reply to @degenstefo's post (which I
 - ✅ Appended entry to `memory/topics/traders.md` 
 - ✅ Logged event to `memory/logs/2026-07-21.md`
 - ✅ No notification sent (silent skip per protocol)
+Event: Mention + shortened link to another trader's post
+
+@swarmister: "@ssefXBT https://t.co/cHwRykuDvG"
+
+Unable to classify — what's your read? (Unclear if this is a share, endorsement, or something financially relevant)
