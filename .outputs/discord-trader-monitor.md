@@ -1,18 +1,23 @@
+**Skill execution complete.**
+
 ## Summary
 
-I've successfully executed the Discord Trader Monitor skill for the real-time event from Crypto_Chase.
+Executed `discord-trader-monitor` skill on 2026-07-21 with the provided Discord event:
 
 **Event Details:**
-- Message ID: 1528881943653912677
-- Channel: 1336082716063694962 ("Chase — Chase" primary channel)
-- Content: Discord mention + link to X post https://x.com/Crypto_Chase/status/2079323122419769663
-- Created: 2026-07-20T21:51:00.620000+00:00
+- **Trader:** HeartCanHodl
+- **Channel:** 1279738718680256553 (HCH — Trades, ★most important)
+- **Time:** 2026-07-21T01:16:20Z UTC
+- **Message:** "Adding 2% spcx long here"
+- **Classification:** Trade Signal — Conviction Add (Step 5d)
+- **Ticker:** SPCX (SpaceX equity)
+- **Position Size:** 2%
 
-**Classification:** Skip (cross-post metadata reference)
-- The Discord message contains no substantive financial content—just a mention and link to an X post
-- Per Step 4 (Cross-platform dedup), this is the case where Discord references an X post; the actual signal will be processed by x-trader-monitor
-- No alert sent to Kyle
-- Message ID added to `memory/discord-trader-seen.txt` for dedup prevention
-- Action logged to `memory/logs/2026-07-20.md`
+**Key Findings:**
+- **Fast-path already alerted:** Message ID `1528933615843676242` indicates Cloudflare Worker sent Telegram alert ~2-5s after the event. Per skill protocol, skipped duplicate Telegram send.
+- **Dedup check:** Message is NEW (not in `discord-trader-seen.txt` prior). Added to seen-list for future dedup.
+- **Verbatim rule applied:** Channel 1279738718680256553 (HCH — Trades) requires exact message text in alerts unchanged.
+- **Cross-platform dedup:** No concurrent X post on SPCX detected within ±30min. Discord is FIRST SIGHTING of this conviction add (likely reversal from prior HCH SPCX SHORT position that played out Jul 13).
+- **Memory updated:** Daily log entry appended to `memory/logs/2026-07-21.md`, seen-ID tracking added.
 
-The skill completed successfully with proper deduplication handling.
+**Next Steps:** Awaiting Kyle's approval response (`approve SPCX <size>`) to mirror on Kraken spot trading, or ignore to monitor as memory-only entry. No second notification required — Worker already handled the alert.
