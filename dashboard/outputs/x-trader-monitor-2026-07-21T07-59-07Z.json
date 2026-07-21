@@ -1,0 +1,49 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-1",
+        "view-link",
+        "analysis"
+      ]
+    },
+    "tweet-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "handle": "t_in_crypto",
+        "text": "Your short entry still juicy for me 😝"
+      }
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/t_in_crypto/status/2079474186217472227"
+      }
+    },
+    "analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Bullish sentiment — aligns with t_in_crypto's documented 100% BTC long thesis. Dismissive of shorts.",
+        "variant": "muted"
+      }
+    }
+  }
+}
