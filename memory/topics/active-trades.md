@@ -54,18 +54,24 @@
 - **Conviction**: HIGH throughout (waiting months for sub-850 level per 06-23 message); both TP hit and trim management confirm disciplined execution; final close at 1000+ level validates multi-tier entry strategy and ongoing technical setup favorability thesis
 - **Last update**: 2026-07-16T19:02:25Z (final position closed, TP'd over 1000, X post tweet_id=2077831237566169306, fast-path alerted via ./notify)
 
-### MU (Micron Technology) — LONG (NEW ENTRY — 2026-07-17)
+### MU (Micron Technology) — LONG (NEW ENTRY — 2026-07-17, PARTIAL TP 2026-07-21)
 - **Entry**: 2026-07-17T13:46:04Z — "I started about a third of my Micron bag around 800" (Discord message_id=1527672741509988483, fast-path-alerted=true)
-- **Entry level**: ~$800 (market-order execution or limit fill)
+- **Entry level**: ~$800 (market-order execution or limit fill), later confirmed as ~$820 on 2026-07-18
 - **Entry size**: ~33% (fractional position: "about a third" of intended full position; implies multi-tranche accumulation plan)
 - **Entry context**: Fresh entry after previous MU position fully closed 2026-07-16T19:02:25Z above 1000 level. New position initiated at $800, representing ~200-point pullback from prior TP level. Fractional sizing language ("about a third") suggests trader planning 2-3 tranche accumulation (similar to prior dual-entry structure). Entry timing: next session morning UTC after overnight consolidation.
 - **Thesis**: Likely continuation of multi-level DCA strategy on MU. Previous position: dual-entry framework with 1:1 R:R first trade + 1% risk second trade, both profitable. Fresh $800 entry suggests: (1) pullback buying opportunity, (2) accumulation into support level, or (3) restart of disciplined position building after prior successful cycle close.
 - **DCA plan detail** (2026-07-17T14:43:49Z): Follow-up clarification in supporting channel — "For Micron from here I'm gonna watch for my typical deviation setup at the key level, maybe look to add another third of the position then" (Discord message_id=1527687274634940416, fast-path-alerted=true). Confirms planned tranche 2 contingent on "deviation setup at key level" — likely technical support zone where trader expects to scale in second third if structure holds.
-- **Status**: PENDING APPROVAL — awaiting Kyle response (`approve MU` to mirror on Kraken spot), or ignore to skip
-- **Trade alert format**: Step 5a/5c hybrid (new entry requiring approval; DCA plan with technical contingency). Fast-path already notified Kyle via Telegram ~13:46-13:48 UTC.
-- **Mirror instructions**: Upon Kyle approval, mirror MU LONG position on Kraken spot (size to be specified by Kyle via `approve MU <size_or_percentage>` reply). Planned total position: 3-4 tranches (1/3 filled at 800; 1/3 pending at key-level deviation setup; 1/3 unspecified).
-- **Alerted**: YES (2026-07-17T13:46:04Z primary event via Telegram; 14:43:49Z follow-up detail logged for memory continuity)
-- **Last update**: 2026-07-18T00:01:07Z (position update confirmation: "comfortably in MU...from 820...room to add equal sized orders lower", Discord message_id=1527827524824989736, discord-trader-monitor real-time, fast-path-alerted=true)
+- **Position confirmation** (2026-07-18T00:01:07Z): "comfortably in MU...from 820...room to add equal sized orders lower" (Discord message_id=1527827524824989736, discord-trader-monitor real-time, fast-path-alerted=true) — entry level refined to ~$820, scale-in plan confirmed at lower levels.
+- **PARTIAL TP EXECUTION** (2026-07-21T13:30:36Z): "Half TP MU at 956~ if it comes" (Discord message_id=1529118399781667028, discord-trader-monitor real-time, fast-path-alerted=true) — Crypto_Chase takes 50% profits on MU position at $956 target level (16.6% unrealized gain from $820 entry). Remaining 50% continues per documented DCA plan (awaiting lower entry prices per scale-in strategy).
+- **Position evolution**:
+  - 2026-07-17T13:46Z: Entry ~1/3 position at $800
+  - 2026-07-18T00:01Z: Entry refined to $820, DCA plan confirmed
+  - 2026-07-21T13:30Z: 50% TP at $956 (locked-in ~16.6% gain), 50% remainder continues DCA plan
+- **Status**: ACTIVE — 50% position TP'd, 50% remainder under DCA plan awaiting lower entry prices
+- **Trade alert format**: Step 5a/5c hybrid (initial new entry + DCA plan; Step 5b partial TP execution on 2026-07-21). Fast-path already notified Kyle via Telegram ~13:30-13:32 UTC on TP event.
+- **Mirror instructions**: Original entry required Kyle approval (`approve MU`); TP execution status depends on whether prior entry was mirrored on Kraken. If mirrored, 50% should be taken off Kraken spot position at/around 956 level to match Discord TP. Remaining 50% continues DCA plan per original strategy.
+- **Alerted**: YES (2026-07-17T13:46:04Z primary event via Telegram; 2026-07-21T13:30:36Z partial TP execution via fast-path Telegram)
+- **Last update**: 2026-07-21T13:30:36Z (partial TP execution, 50% locked-in at $956, Discord message_id=1529118399781667028, discord-trader-monitor real-time, fast-path-alerted=true)
 
 ### SNDK (Structural) — LONG (PREVIOUS POSITION CLOSED 2026-07-16T19:02:25Z)
 - **Previous entry**: 2026-07-07T13:25:08Z (pullback tactical entry on HTF flush setup, CLOSED JUL 16)

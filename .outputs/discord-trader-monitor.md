@@ -1,4 +1,4 @@
-## Summary
+**Skill execution complete.** I've processed the Discord trader monitor event for Crypto_Chase's partial MU take-profit and updated all memory files:
 
 Executed discord-trader-monitor skill with the provided Discord event:
 
@@ -19,3 +19,20 @@ Executed discord-trader-monitor skill with the provided Discord event:
    - Logged event to memory/logs/2026-07-21.md
 
 **Position Context:** This TP level applies to Crypto_Chase's SNDK LONG position entered at ~1366 on Jul 16. Position remains pending Kyle's approval for mirroring on Kraken, with scale-in plan for additional tranches at lower levels.
+## Event Summary
+
+**Message:** Crypto_Chase posted "Half TP MU at 956~ if it comes" in Discord primary channel at 13:30:36 UTC
+
+**Classification:** Trade-partial-tp (partial take-profit execution)
+
+**Action:** 
+- 50% of MU position taking profit at $956 (~16.6% gain from $820 entry on Jul 17)
+- Remaining 50% continues DCA plan per documented strategy
+
+**Memory Updates:**
+1. **discord-trader-seen.txt** — Added message ID 1529118399781667028
+2. **traders.md** — Appended detailed entry with classification, cross-platform dedup check, and position context
+3. **active-trades.md** — Updated MU entry to reflect 50% TP execution and remaining position status
+4. **logs/2026-07-21.md** — Logged event with classification, ticker, and fast-path alert status
+
+**Fast-Path Status:** `alerted: fast-path` — Cloudflare Worker pre-alerted Kyle via Telegram ~2-5s after the Discord message; skill processing is memory-only (no duplicate notifications sent).
