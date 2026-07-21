@@ -89,7 +89,8 @@
 - **Scale-in plan**: Confirmed 2026-07-18T00:01:07Z — "room to add equal sized orders lower" (implies multi-tranche accumulation similar to MU strategy; exact contingency levels unspecified but likely tied to technical support zones documented in prior messages)
 - **Mirror instructions**: Upon Kyle approval, mirror $SNDK LONG position on Kraken spot (size to be specified by Kyle via `approve SNDK <size_or_percentage>` reply)
 - **Alerted**: YES (2026-07-16T22:54:55Z, X-trader-monitor real-time event, fast-path-alerted via Telegram)
-- **Last update**: 2026-07-18T00:01:07Z (position update confirmation: "comfortably in SNDK...from 1366...room to add equal sized orders lower", Discord message_id=1527827524824989736, discord-trader-monitor real-time, fast-path-alerted=true)
+- **TP levels**: Conditional half TP target set at 1551~ (2026-07-21T13:29:00Z Discord message_id=1529117999510851585, discord-trader-monitor real-time, fast-path-alerted=true)
+- **Last update**: 2026-07-21T13:29:00Z (TP level definition: "Half TP SNDJ at 1551~ if it comes", Discord message_id=1529117999510851585, discord-trader-monitor real-time, fast-path-alerted=true)
 
 ### MU (Micron Technology) — LONG (NEW ENTRY — DCA PLAN 2026-07-17)
 - **Entry**: 2026-07-17T13:48:06Z (X post, tweet_id=2078114525216157709)
