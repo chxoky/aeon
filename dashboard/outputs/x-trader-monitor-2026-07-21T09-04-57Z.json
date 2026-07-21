@@ -1,0 +1,141 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @swarmister"
+      },
+      "children": [
+        "event_heading",
+        "sep1",
+        "event_section",
+        "sep2",
+        "classification_section",
+        "sep3",
+        "context_section",
+        "sep4",
+        "view_link"
+      ]
+    },
+    "event_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Event: Cryptic mention of two BTC traders with image link",
+        "level": "h3"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "event_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "image_link"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "@swarmister",
+        "handle": "swarmister",
+        "text": "@blancxbt @xbt2027 [image link]"
+      }
+    },
+    "image_link": {
+      "type": "Link",
+      "props": {
+        "label": "Image",
+        "href": "https://pbs.twimg.com/media/HNvWnnrXAAAAuPR.jpg"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "classification_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "classification_prompt",
+        "option_a",
+        "option_b",
+        "option_c"
+      ]
+    },
+    "classification_prompt": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read? Is this:",
+        "variant": "lead"
+      }
+    },
+    "option_a": {
+      "type": "Text",
+      "props": {
+        "text": "(a) chart-share on BTC price action (aligns with swarmister's bullish long entry 70.7K target)"
+      }
+    },
+    "option_b": {
+      "type": "Text",
+      "props": {
+        "text": "(b) analysis agreement with @blancxbt"
+      }
+    },
+    "option_c": {
+      "type": "Text",
+      "props": {
+        "text": "(c) signal coordination between traders"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context_heading",
+        "context_text"
+      ]
+    },
+    "context_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "swarmister has opened ~12 cryptic posts in 48h window (Jul 19-21) requiring calibration; image content inaccessible for automated interpretation."
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/swarmister/status/2079491637105811751"
+      }
+    }
+  }
+}
