@@ -1,0 +1,59 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration — @HeartCanHodl"
+      },
+      "children": [
+        "event_section",
+        "sep1",
+        "tweet_card",
+        "sep2",
+        "question"
+      ]
+    },
+    "event_section": {
+      "type": "Text",
+      "props": {
+        "text": "Event: HCH holds active SHORT on SPCX (big winner since Jul 13), but posts ambiguous message about longs",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "Enjoying some longs too :)\n\n$SPCX"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "question": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — are they enjoying longs elsewhere (non-SPCX), reversing the short, or being ironic? What's your read?",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
