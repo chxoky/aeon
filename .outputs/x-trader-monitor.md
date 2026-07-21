@@ -1,18 +1,21 @@
-🔍 *Calibration — @t_in_crypto*
+🐦 *[X] @trading_axe*
 
-Event: Reply to @bnshiv23
+A much needed chart update on TATEUSDT.P
 
-t_in_crypto: "Everything will be just like that, don't worry
-Wd won't see 80+ for a long time"
+I'd say that the "WORLD TOUR" was your last chance to get out of this social token stock and dump your heavy bags.
 
-Unable to classify — what's your read on "Wd 80+"? 
-- Does WD refer to a ticker or price level?
-- What's the financial context/conviction?
+Otherwise it appears to be an endless slow bleed to ZERO.
 
-[View post](https://x.com/t_in_crypto/status/2079709851509297321)
-Event: Reply to external traders @mrkh009 and @KryptoFynn
-@t_in_crypto: "Yep, we have same view"
+I know there are MANY "bagholders" who are relentlessly shilling the revival of TATEUSDT.P [that is a USDT paired perpetual contract],
 
-Unable to classify — what view are they aligning on? Is this a trade signal or social agreement?
+But unfortunately as a SUPERECASTER I see this ending with full blown capitulation and a SHARP WICK down to ZERO once the court hearings demonstrate no USA politicking was favourable for him.
 
-[View post](https://x.com/t_in_crypto/status/2079710538146160922)
+In terms of capitulation,
+
+I expect to see many people come out the woodworks and start fresh FUDing, given that they feel "safe" to do so.
+
+I'm looking to be a buyer when the sentencing is over as I don't believe they'll do the full time [of whatever amount they'll be given].
+
+~ Dr. Axius.
+
+[View tweet](https://x.com/trading_axe/status/2079714010283249945)

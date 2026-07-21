@@ -1,0 +1,39 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Chart update on TATEUSDT.P by Dr. Axius"
+      },
+      "children": [
+        "tweet-card",
+        "separator",
+        "view-link"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Dr. Axius",
+        "handle": "trading_axe",
+        "text": "A much needed chart update on TATEUSDT.P\n\nI'd say that the \"WORLD TOUR\" was your last chance to get out of this social token stock and dump your heavy bags.\n\nOtherwise it appears to be an endless slow bleed to ZERO.\n\nI know there are MANY \"bagholders\" who are relentlessly shilling the revival of TATEUSDT.P [that is a USDT paired perpetual contract],\n\nBut unfortunately as a SUPERECASTER I see this ending with full blown capitulation and a SHARP WICK down to ZERO once the court hearings demonstrate no USA politicking was favourable for him.\n\nIn terms of capitulation,\n\nI expect to see many people come out the woodworks and start fresh FUDing, given that they feel \"safe\" to do so.\n\nI'm looking to be a buyer when the sentencing is over as I don't believe they'll do the full time [of whatever amount they'll be given].\n\n~ Dr. Axius."
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/trading_axe/status/2079714010283249945"
+      }
+    }
+  }
+}
