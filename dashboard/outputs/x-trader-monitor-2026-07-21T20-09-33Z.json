@@ -1,0 +1,122 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "header-stack",
+        "separator-1",
+        "event-details",
+        "separator-2",
+        "analysis"
+      ]
+    },
+    "header-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-calibration",
+        "badge-event"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @abetrade",
+        "level": "h2"
+      }
+    },
+    "badge-event": {
+      "type": "Badge",
+      "props": {
+        "text": "Cryptic URL-only post",
+        "variant": "outline"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "event-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet",
+        "metadata"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "abetrade",
+        "handle": "abetrade",
+        "text": "https://t.co/0HkkSIc3OY"
+      }
+    },
+    "metadata": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "timestamp",
+        "tweet-link"
+      ]
+    },
+    "timestamp": {
+      "type": "Text",
+      "props": {
+        "text": "Created: Tue Jul 21 20:03:50 UTC 2026",
+        "variant": "caption"
+      }
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "Tweet",
+        "href": "https://x.com/abetrade/status/2079658633135100210"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "analysis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert-unusual",
+        "question"
+      ]
+    },
+    "alert-unusual": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Unable to classify",
+        "message": "abetrade's typical posts are substantive market-structure analysis. This URL-only format is uncharacteristic. Similar cryptic mention was posted Jul 20 16:15."
+      }
+    },
+    "question": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read on this?",
+        "variant": "lead"
+      }
+    }
+  }
+}
