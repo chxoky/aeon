@@ -1,0 +1,94 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading-calibration",
+        "sep-1",
+        "stack-content"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration — @swarmister",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "tweet-label",
+        "tweet-card",
+        "sep-2",
+        "question-text",
+        "sep-3",
+        "issue-alert"
+      ]
+    },
+    "tweet-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Text",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Unknown",
+        "text": "@TheIndexFi @RobinhoodCrypto Bro went all in 😭😭😭 https://t.co/nqliVwun1S"
+      },
+      "children": []
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "question-text": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "issue-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification Challenge",
+        "message": "Unclear if 'Bro' = swarmister or external commentary. Emoji (😭) ambiguous: exaggeration, sarcasm, or genuine concern? URL likely has context.",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}
