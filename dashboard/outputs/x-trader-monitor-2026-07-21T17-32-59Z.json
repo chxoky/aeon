@@ -1,0 +1,56 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "link_view",
+        "separator_1",
+        "analysis_alert"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "It really is simple.\n\nYou just have to buy $BTC below the 50D MA on the monthly.\n\nBut mfs will still fuck up by chasing lower. Cope."
+      }
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2079619371953975405"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_alert": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "Reinforces structural BTC buy thesis on longer timeframes. Aligns with group long bias at key support levels."
+      }
+    }
+  }
+}
