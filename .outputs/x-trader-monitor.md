@@ -1,9 +1,7 @@
-🔍 *Calibration — @Crypto_Chase*
+🐦 *[X] @Stoiiic*
 
-Event: Reply to external user @TamasKalman71
+also grant cardone posting btc charts with arrows should give some pause lol
 
-Crypto_Chase: "@TamasKalman71 too obvious"
+[View tweet](https://x.com/Stoiiic/status/2079608074692608210)
 
-Unable to classify — what's your read? (Setup dismissal? Market sentiment? Non-financial banter?)
-
-[View post](https://x.com/Crypto_Chase/status/2079607295462236447)
+↳ _Retail-money signal: Cardone's entry into BTC technical posting (beginner-level arrows charts) suggests near-term exhaustion/top indicator despite group's HTF bullish bias. Convergence with caution theme: possible distribution before major directional move._
