@@ -10,3 +10,9 @@ Unable to classify — what's your read on "Wd 80+"?
 - What's the financial context/conviction?
 
 [View post](https://x.com/t_in_crypto/status/2079709851509297321)
+Event: Reply to external traders @mrkh009 and @KryptoFynn
+@t_in_crypto: "Yep, we have same view"
+
+Unable to classify — what view are they aligning on? Is this a trade signal or social agreement?
+
+[View post](https://x.com/t_in_crypto/status/2079710538146160922)
