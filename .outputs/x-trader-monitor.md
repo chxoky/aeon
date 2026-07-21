@@ -57,3 +57,15 @@ Content: Congratulations post on Risex platform launch with invitation links and
 Reason: Personal social commentary + promotional content without personal trade action language
 Action: Silent log, no alert sent to Kyle
 **Result:** Silent skip with memory-only logging per protocol. No notification to Kyle. Position state (BTC LONG targeting 70.7K) unchanged.
+🔍 *Calibration — @swarmister*
+
+Event: Trader posting image-heavy message to @blancxbt
+
+swarmister: "@blancxbt https://t.co/gJoD91Cs4v"
+
+Context: Very short mention of external trader (@blancxbt) with shortened URL pointing to a photo attachment. swarmister is currently long BTC targeting 70.7K (entry Jul 17). Fourth consecutive cryptic post from swarmister within 3 hours (06:02, 08:26, 08:37, 08:50 UTC).
+
+Unable to classify — what's your read?
+- Is this a chart share with @blancxbt?
+- Is this a BTC-related technical update?
+- Or non-financial banter/external context?

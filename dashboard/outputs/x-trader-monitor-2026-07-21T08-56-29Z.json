@@ -1,0 +1,177 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor — Calibration",
+        "description": "Event classification analysis"
+      },
+      "children": [
+        "heading_event",
+        "event_type",
+        "separator_1",
+        "tweet_section",
+        "separator_2",
+        "context_section",
+        "separator_3",
+        "classification_section"
+      ]
+    },
+    "heading_event": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration Event",
+        "level": "h2"
+      }
+    },
+    "event_type": {
+      "type": "Text",
+      "props": {
+        "text": "Trader posting image-heavy message to @blancxbt"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_label",
+        "tweet_card"
+      ]
+    },
+    "tweet_label": {
+      "type": "Text",
+      "props": {
+        "text": "Tweet",
+        "variant": "lead"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "@swarmister",
+        "text": "@blancxbt https://t.co/gJoD91Cs4v"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_label",
+        "context_stack"
+      ]
+    },
+    "context_label": {
+      "type": "Text",
+      "props": {
+        "text": "Context",
+        "variant": "lead"
+      }
+    },
+    "context_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context_1",
+        "context_2",
+        "context_3"
+      ]
+    },
+    "context_1": {
+      "type": "Text",
+      "props": {
+        "text": "Very short mention of external trader (@blancxbt) with shortened URL pointing to a photo attachment."
+      }
+    },
+    "context_2": {
+      "type": "Text",
+      "props": {
+        "text": "swarmister is currently long BTC targeting 70.7K (entry Jul 17)."
+      }
+    },
+    "context_3": {
+      "type": "Text",
+      "props": {
+        "text": "Fourth consecutive cryptic post from swarmister within 3 hours (06:02, 08:26, 08:37, 08:50 UTC)."
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "classification_alert",
+        "options_stack"
+      ]
+    },
+    "classification_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read on this event?",
+        "type": "info"
+      }
+    },
+    "options_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "option_1",
+        "option_2",
+        "option_3"
+      ]
+    },
+    "option_1": {
+      "type": "Text",
+      "props": {
+        "text": "Is this a chart share with @blancxbt?"
+      }
+    },
+    "option_2": {
+      "type": "Text",
+      "props": {
+        "text": "Is this a BTC-related technical update?"
+      }
+    },
+    "option_3": {
+      "type": "Text",
+      "props": {
+        "text": "Or non-financial banter/external context?"
+      }
+    }
+  }
+}
