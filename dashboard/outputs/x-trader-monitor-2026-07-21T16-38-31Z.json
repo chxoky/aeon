@@ -1,0 +1,50 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X-Trader Monitor"
+      },
+      "children": [
+        "tweet-stoiiic",
+        "view-tweet-link",
+        "separator",
+        "commentary-text"
+      ]
+    },
+    "tweet-stoiiic": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "@Stoiiic",
+        "text": "The time to push aggressively for longs on BTC was down there.\n\nCurrently BTC is starting to tap the weekly trend.\n\nThis remains a counter trend rally in an HTF downtrend unless proven otherwise."
+      },
+      "children": []
+    },
+    "view-tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Stoiiic/status/2079605462085861453"
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "commentary-text": {
+      "type": "Text",
+      "props": {
+        "text": "Counter-trend thesis aligns with KillaXBT's HTF-bullish structural view but tempered by near-term chop—HCH bears still add context.",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
