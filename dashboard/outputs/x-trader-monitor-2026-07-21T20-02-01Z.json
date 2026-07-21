@@ -1,0 +1,39 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "message",
+        "status"
+      ]
+    },
+    "message": {
+      "type": "Text",
+      "props": {
+        "text": "swarmister non-financial banter (@TwonXBT)"
+      }
+    },
+    "status": {
+      "type": "Badge",
+      "props": {
+        "text": "skip, no alert",
+        "variant": "outline"
+      }
+    }
+  }
+}
