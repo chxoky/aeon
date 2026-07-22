@@ -1,0 +1,82 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "heading-calibration",
+        "text-context",
+        "quote-block",
+        "text-question",
+        "link-tweet"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h2"
+      }
+    },
+    "text-context": {
+      "type": "Text",
+      "props": {
+        "text": "Context: External reference to Gavin Baker tweets",
+        "variant": "muted"
+      }
+    },
+    "quote-block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-quote-author",
+        "text-quote-content"
+      ]
+    },
+    "text-quote-author": {
+      "type": "Text",
+      "props": {
+        "text": "Wild_Randomness:",
+        "variant": "lead"
+      }
+    },
+    "text-quote-content": {
+      "type": "Text",
+      "props": {
+        "text": "@Evan_ss6 Check Gavin Baker tweets",
+        "variant": "body"
+      }
+    },
+    "text-question": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read? (Is this a trade-signal reference, market sentiment indicator, or non-financial share?)",
+        "variant": "body"
+      }
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2079991008100769844"
+      }
+    }
+  }
+}

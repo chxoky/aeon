@@ -238,6 +238,7 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - PENDING: standing protocol for this trader's persistent cryptic/URL-minimal posts — keep flagging each individually or adopt a standing rule? [2078496857953857759]
 - Last seen: 2026-07-22 17:57:59 UTC
 - **Events (rolling):**
+  - Jul 22 18:04Z — ambiguous: external reference "Check Gavin Baker tweets" to @Evan_ss6, awaiting calibration [2079991008100769844]
   - Jul 22 17:57Z — ambiguous: HYPE "It's bad for hype, better for Lighter" reply to @GalleonCrypto, awaiting calibration [2079989349186199608]
   - Jul 22 18:01Z — informational: HYPE SPX special relationship market commentary, reply to @lBattleRhino [2079990110364528808]
   - Jul 22 17:50Z — informational: HYPE ETH Clarity Act regulatory catalyst reversal setup under $60 [2079987347832103168]
