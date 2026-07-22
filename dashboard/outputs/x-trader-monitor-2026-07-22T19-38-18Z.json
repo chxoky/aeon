@@ -1,0 +1,56 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @Wild_Randomness"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_event",
+        "tweet",
+        "text_classification",
+        "link_post"
+      ]
+    },
+    "badge_event": {
+      "type": "Badge",
+      "props": {
+        "text": "Jul 22 19:34 UTC | $GOOG $AVGO"
+      }
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "In all seriousness though:\n\n1. Avgo trading like Google is gonna raise capex\n2. Google trading like they gonna raise capex https://t.co/j7Ous6W5Ky"
+      }
+    },
+    "text_classification": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read? Bearish stress observation? Bullish expansion thesis? Valuation mismatch call?",
+        "variant": "lead"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2080013558763409607"
+      }
+    }
+  }
+}

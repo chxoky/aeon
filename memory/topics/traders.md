@@ -277,7 +277,9 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - Jul 22 02:18Z — ambiguous: CCJ "We have arrived…" monthly bear div played out, RSI reset — entry vs observation [2079752801383498120]
   - Jul 22 05:29Z — strategy: will "keep slapping" Sept-Oct puts, willing to eat drawdown [2079801011246633352]
   - Jul 22 19:10Z — conviction-add: HYPE spot re-add (partial, completing by EOW if price action confirms); Sept/Oct iBIT/etha puts scaling [2080007518856569141]
-- Last seen: 2026-07-22 19:10:11 UTC
+- **Events (rolling):**
+  - Jul 22 19:34Z — ambiguous: external reference "$GOOG $AVGO trading like raise capex", awaiting calibration [2080013558763409607]
+- Last seen: 2026-07-22 19:34:11 UTC
 
 ## t_in_crypto
 - Platforms: X
