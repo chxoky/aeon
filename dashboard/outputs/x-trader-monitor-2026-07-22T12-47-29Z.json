@@ -1,0 +1,57 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @swarmister"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event_badge",
+        "tweet_card",
+        "classification_alert",
+        "link_view"
+      ]
+    },
+    "event_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Reply to @Pickle_cRypto",
+        "variant": "outline"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "@Pickle_cRypto 0.55"
+      }
+    },
+    "classification_alert": {
+      "type": "Alert",
+      "props": {
+        "message": "Unable to classify — what's your read? (Is 0.55 a price level, ticker, or something else?)",
+        "type": "info"
+      }
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/swarmister/status/2079910306243834242"
+      }
+    }
+  }
+}
