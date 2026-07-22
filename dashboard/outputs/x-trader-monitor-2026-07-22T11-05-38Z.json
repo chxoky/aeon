@@ -1,0 +1,60 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "tweet_link",
+        "separator_1",
+        "analysis_text"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "Timing has always mattered more to me than patterns or fractals.\n\nSo let's see what wins this time around. The historical timing of the cycles, or the fractals.\n\nIf this pattern holds, $BTC would bottom 2–3 months earlier than any previous cycle. Which is unpredictable."
+      },
+      "children": []
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2079884358257656233"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "This cycle-timing insight reinforces structural-bull group lean (KillaXBT 2x HTF long 62.6K + t_in_crypto sole-long conviction). Earlier bottoming timeframe supports near-term patience thesis despite macro chop.",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
