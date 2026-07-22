@@ -1,0 +1,78 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_view",
+        "text_prediction",
+        "separator_1",
+        "stack_context"
+      ]
+    },
+    "heading_view": {
+      "type": "Heading",
+      "props": {
+        "text": "LIT Comparative View",
+        "level": "h3"
+      }
+    },
+    "text_prediction": {
+      "type": "Text",
+      "props": {
+        "text": "Wild_Randomness thinks LIT has better chance of 2H summer outperformance vs unnamed asset",
+        "variant": "lead"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_context": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_clarity",
+        "badge_cap",
+        "badge_trend"
+      ]
+    },
+    "badge_clarity": {
+      "type": "Badge",
+      "props": {
+        "text": "clarity act"
+      }
+    },
+    "badge_cap": {
+      "type": "Badge",
+      "props": {
+        "text": "smaller cap"
+      }
+    },
+    "badge_trend": {
+      "type": "Badge",
+      "props": {
+        "text": "daily trend"
+      }
+    }
+  }
+}
