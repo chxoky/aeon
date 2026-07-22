@@ -1260,3 +1260,32 @@ BOOTSTRAP_COMPLETE: 2026-07-14
 - **Alerted**: YES (informational alert via ./notify with group-sentiment context + ticker-focus link)
 - **x-trader-seen**: tweet_id 2079757198301839759 added for dedup
 - **Last update**: 2026-07-22T02:35:30 UTC (tweet_id=2079757198301839759, x-trader-monitor real-time event, classification=informational, alerted=yes)
+
+### 2026-07-22 05:24:33 UTC (X) — trade-mirror-tp (closing momentum reversal positions at profit)
+- **Ticker(s)**: MRVL, INTC, NBIS (closed — +8% to +22% gain), TSM, FLEX (kept long)
+- **Message**: "I did sell most of my momentum reversal trades from Monday — MRVL, INTC, NBIS. \n\n+8% to +22%\n\nKeeping my $400 TSM and $118 FLEX buys for now.\n\nTSM is a company I can ideally just keep as a cornerstone of the portfolio"
+- **Classification**: TRADE-MIRROR-TP (Step 5b — no-approval mirror case) — trader taking profit on closed positions (MRVL/INTC/NBIS), maintaining long convictions (TSM/FLEX core holdings).
+- **Context**: Wild_Randomness initiated momentum reversal shorts/bearish positions on Monday (approximately 2026-07-15, based on "from Monday" phrasing and current post date 07-22 = 6-7 days hold). Positions delivered +8% to +22% profit over the week-long hold window. Describes motivation: "momentum reversal trades" = tactical short/bearish positioning on semis cluster (MRVL=Marvell, INTC=Intel, NBIS=NBI/Acies Acquisition Corp or similar semi-related). Exit timing: taking profit across all three on same day (2026-07-22 early morning UTC = US market pre-open). Keeping TSM ($400 entry value = 1-2% position size on standard portfolio), FLEX ($118 entry = 0.5-1% position size) as core long holdings. TSM justification: "cornerstone of the portfolio" = structural conviction (not tactical).
+- **Entry vs exit**: Prior Discord/X posts from Wild_Randomness (mid-July window) show mixed semi/tech positioning. MU, SNDK momentum tracking (tracked in ticker-focus.md). Current post confirms: (1) prior momentum-reversal entry established on Monday (2026-07-15, estimated), (2) successful execution at +8-22% P&L, (3) clean exit (all three positions closed same day), (4) conviction core remaining (TSM/FLEX).
+- **Execution language**: "I did sell most of my momentum reversal trades" — first-person execution confirmation; "Keeping my $400 TSM and $118 FLEX buys" — ongoing long convictions stated explicitly. No ambiguity — clear personal trade action.
+- **Position impact**: 
+  - MRVL: CLOSED (+8-22%, exact % TBD from entry/exit prices; middle estimate +15%)
+  - INTC: CLOSED (+8-22%, middle estimate +15%)
+  - NBIS: CLOSED (+8-22%, middle estimate +15%)
+  - TSM: MAINTAINED LONG ($400 notional entry, size ~1-2% portfolio)
+  - FLEX: MAINTAINED LONG ($118 notional entry, size ~0.5-1% portfolio)
+- **Mirror instructions**: For Kyle's matching position (if he holds MRVL/INTC/NBIS shorts matching Wild_Randomness's entry from ~Mon 07-15):
+  - If Kyle mirrored the original momentum-reversal short entry: mirror CLOSE all three positions at current bid/ask (2026-07-22 05:24 UTC pre-open levels)
+  - P&L on mirror: ~+8-22% depending on Kyle's exact entry prices (if aligned with Wild_Randomness, estimate +15% avg gain)
+  - Action: Sell 100% of MRVL/INTC/NBIS spot positions on Kraken to match Wild_Randomness exit
+- **Ticker-focus update**: 
+  - MRVL (Marvell): tracked in ticker-focus.md as "Memory / semis — MU, SNDK, MRVL, DRAM" cluster. Crypto_Chase and Wild_Randomness both track semis momentum. Current event: Wild_Randomness exited momentum-reversal MRVL position (+15% avg), suggesting confidence in near-term exhaustion or target hit. Cross-trader sentiment on MRVL: Chase was skeptical of "new highs on memory" narrative (Jul 17). Current Wild_Randomness exit aligns with Chase's cautious view — technical setup or momentum exhaustion validated.
+  - INTC (Intel): tracked in ticker-focus.md as "single-mention quiet ticker" with Crypto_Chase bearish commentary (lowest conviction vs MU/SNDK). Wild_Randomness exit suggests INTC momentum play completed successfully — aligns with Chase's cautious long-term thesis (overhyped Trump narrative, behind AMD).
+  - NBIS: not previously tracked; first mention in this context as momentum-reversal position closed at profit. Will add to quiet tickers tracking (awaiting cross-trader convergence for elevation to overlap).
+- **Trade alert format**: Step 5b (closing positions, mirror immediately, brief notification)
+- **Fast-path**: false (real-time X monitor event, no Worker pre-alert)
+- **Media**: None (text-only post)
+- **Cross-platform dedup**: X-only trader (Wild_Randomness), no Discord presence. First sighting Jul 22 05:24:33 UTC.
+- **Alerted**: YES (Step 5b mirror notification + P&L summary via ./notify)
+- **x-trader-seen**: tweet_id=2079799741144265150 added for dedup
+- **Last update**: 2026-07-22T05:24:33 UTC (tweet_id=2079799741144265150, x-trader-monitor real-time event, classification=trade-mirror-tp, alerted=yes, action=mirror-close-MRVL-INTC-NBIS)

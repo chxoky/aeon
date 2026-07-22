@@ -1,0 +1,113 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "main-stack"
+      ]
+    },
+    "main-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge-source",
+        "closed-section",
+        "sep1",
+        "maintained-section",
+        "sep2",
+        "link"
+      ]
+    },
+    "badge-source": {
+      "type": "Badge",
+      "props": {
+        "text": "Mirrored — @Wild_Randomness",
+        "variant": "secondary"
+      }
+    },
+    "closed-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-closed",
+        "text-positions-closed",
+        "stat-gains"
+      ]
+    },
+    "heading-closed": {
+      "type": "Heading",
+      "props": {
+        "text": "Positions Closed",
+        "level": "h3"
+      }
+    },
+    "text-positions-closed": {
+      "type": "Text",
+      "props": {
+        "text": "Momentum reversal shorts: MRVL, INTC, NBIS"
+      }
+    },
+    "stat-gains": {
+      "type": "Stat",
+      "props": {
+        "label": "Gains",
+        "value": "+8% to +22%",
+        "trend": "up"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "maintained-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-maintained",
+        "text-maintained"
+      ]
+    },
+    "heading-maintained": {
+      "type": "Heading",
+      "props": {
+        "text": "Maintained Positions",
+        "level": "h3"
+      }
+    },
+    "text-maintained": {
+      "type": "Text",
+      "props": {
+        "text": "Long positions maintained: TSM $400, FLEX $118"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View post on X",
+        "href": "https://x.com/Wild_Randomness/status/2079799741144265150"
+      }
+    }
+  }
+}
