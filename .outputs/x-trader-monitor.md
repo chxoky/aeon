@@ -1,13 +1,19 @@
-Skill executed successfully. Classification summary:
+🔍 *Calibration — @swarmister*
 
-**Event:** Stoiiic (@Stoiiic, tweet_id: 2079808667281440860)
-- **Content:** Personal motivational quote on resilience/intrinsic motivation (Ross Edgley)
-- **Classification:** Non-financial / Skip (Step 4A)
-- **Action:** Silent log only — no alert sent
-- **Reason:** No ticker mention, no trade signal, no execution language, no market relevance
+Event: $SOL intraday technical setup, awaiting entry
 
-**Memory Updates:**
-- ✓ Tweet ID logged to `x-trader-seen.txt` (prevents reprocessing)
-- ✓ Event logged to `memory/logs/2026-07-22.md` with full classification details
+swarmister: "$SOL M15 / H1 long setup
 
-No alert was sent to Kyle. This is routine personal content that aligns with Stoiiic's occasional off-topic posts but carries no trading signal.
+I'm going to try a long position like this, based on volume
+
+Entry 77.2
+Sl 76.63
+78.9
+
+(I drew this about an hour ago, but for some reason I forgot to hit the send button loo)
+
+We're almost at the entry point now"
+
+Unable to classify — is this execution language (planning to place a limit order at 77.2), or just a technical setup they're sharing? How would you read it?
+
+[View post](https://x.com/swarmister/status/2079809666343698677)
