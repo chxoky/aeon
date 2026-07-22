@@ -200,6 +200,13 @@ If `media` is non-empty:
 
 Always, regardless of classification:
 - Append a one-line entry to `memory/topics/traders.md` under this trader's section: timestamp, classification (skip/informational/trade-new-entry/mirror/dca/conviction-add/ambiguous), one-line summary, ticker(s)
+
+**Size discipline for `traders.md` (hard rules — this file once hit 1.26MB and broke the Worker):**
+- Event entries are ONE physical line, ≤200 chars, format: `  - Jul 22 15:04Z — <classification>: <ticker(s)> <8-15 word gist> [<id>]`. All verbose analysis (interpretation, dedup notes, protocol steps, alert text) belongs ONLY in the daily log (`memory/logs/`), never in `traders.md`.
+- `skip`/non-financial events: do NOT add an event line at all — daily log only. (The trader's banter ratio lives in their Conviction notes.)
+- NEVER create a new `## <trader>` section if one exists — no `(continued)`, no "Additional Entry" headers. Append under the existing `**Events (rolling):**` list. Update the trader's `Current open positions` / `Recent thesis` / `Calibration` / `Last seen` fields in place instead of narrating changes in event lines.
+- After appending, if this trader has >25 event lines, delete the oldest lines down to 25 (they're preserved in the daily logs).
+- Tripwire: if `wc -c < memory/topics/traders.md` exceeds 150000, mention `TRADERS_MD_OVERSIZE` in your log entry and file/refresh a memory issue so trader-memory-compact or Kyle picks it up.
 - If a new ticker or overlap emerged, update `memory/topics/ticker-focus.md`
 - If this was a trade action (5a-5d), update `memory/topics/active-trades.md` accordingly
 - Append the tweet `id` to `memory/x-trader-seen.txt` to prevent reprocessing if the Worker ever redelivers:
