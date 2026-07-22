@@ -1,21 +1,20 @@
-🐦 *[X] @trading_axe*
+🔍 *Calibration — @trading_axe*
 
-A much needed chart update on TATEUSDT.P
+Event: Reply to @DextersRebirth discussing personal stock strategy / deadcat bounce timing
 
-I'd say that the "WORLD TOUR" was your last chance to get out of this social token stock and dump your heavy bags.
+trading_axe: "@DextersRebirth Gonna sell his personal stock into a deadcat bounce when people think he's going to get out.
 
-Otherwise it appears to be an endless slow bleed to ZERO.
+Sticking to the plan me matey.
 
-I know there are MANY "bagholders" who are relentlessly shilling the revival of TATEUSDT.P [that is a USDT paired perpetual contract],
+Buyer at ZERO, 10R trade.
 
-But unfortunately as a SUPERECASTER I see this ending with full blown capitulation and a SHARP WICK down to ZERO once the court hearings demonstrate no USA politicking was favourable for him.
+~ Dr. Axius."
 
-In terms of capitulation,
+Unable to classify — is this:
+(a) Personal trade entry announcement? ("Buyer at ZERO" = limit order / entry point, 10R = target)
+(b) Sarcastic commentary on trading strategy / entry discipline?  
+(c) Reference to a ZERO ticker or onchain asset?
 
-I expect to see many people come out the woodworks and start fresh FUDing, given that they feel "safe" to do so.
+What's your read?
 
-I'm looking to be a buyer when the sentencing is over as I don't believe they'll do the full time [of whatever amount they'll be given].
-
-~ Dr. Axius.
-
-[View tweet](https://x.com/trading_axe/status/2079714010283249945)
+https://x.com/trading_axe/status/2079716451229786419
