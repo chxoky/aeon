@@ -476,21 +476,24 @@ async function _answerFreeform(env, chatId, userMessage) {
 
   console.log(`answerFreeform: start, msg="${userMessage.slice(0,50)}"`);
 
-  // Fetch memory context in parallel — public repo, no auth needed
+  // Fetch memory context in parallel — public repo, no auth needed.
+  // trader-baseline-10d.md is the compressed per-trader reference (~11KB);
+  // never fetch traders.md here — it grows unbounded (1.2MB+ as of Jul 2026)
+  // and blows the 200K-token prompt limit.
   const [traders, activeTrades, tickerFocus, todayLog] = await Promise.allSettled([
-    fetchText(`${base}/memory/topics/traders.md`, controller.signal),
+    fetchText(`${base}/memory/topics/trader-baseline-10d.md`, controller.signal),
     fetchText(`${base}/memory/topics/active-trades.md`, controller.signal),
     fetchText(`${base}/memory/topics/ticker-focus.md`, controller.signal),
     fetchText(`${base}/memory/logs/${today}.md`, controller.signal),
   ]);
 
-  console.log(`answerFreeform: memory fetched — traders=${traders.status} activeTrades=${activeTrades.status} tickerFocus=${tickerFocus.status} log=${todayLog.status}`);
+  console.log(`answerFreeform: memory fetched — baseline=${traders.status} activeTrades=${activeTrades.status} tickerFocus=${tickerFocus.status} log=${todayLog.status}`);
 
   const sections = [
-    traders.status      === 'fulfilled' ? `## traders.md\n${traders.value}`           : '',
-    activeTrades.status === 'fulfilled' ? `## active-trades.md\n${activeTrades.value}` : '',
-    tickerFocus.status  === 'fulfilled' ? `## ticker-focus.md\n${tickerFocus.value}`   : '',
-    todayLog.status     === 'fulfilled' ? `## today's log (${today})\n${todayLog.value}` : '',
+    traders.status      === 'fulfilled' ? `## trader-baseline-10d.md\n${clampContext(traders.value)}`   : '',
+    activeTrades.status === 'fulfilled' ? `## active-trades.md\n${clampContext(activeTrades.value)}`     : '',
+    tickerFocus.status  === 'fulfilled' ? `## ticker-focus.md\n${clampContext(tickerFocus.value)}`       : '',
+    todayLog.status     === 'fulfilled' ? `## today's log (${today})\n${clampContext(todayLog.value)}`   : '',
   ].filter(Boolean).join('\n\n---\n\n');
 
   console.log(`answerFreeform: context built, ~${sections.length} chars — calling Claude`);
@@ -540,6 +543,16 @@ ${sections}`;
 
   await sendTelegram(env, chatId, reply);
   console.log('answerFreeform: done');
+}
+
+// Hard cap per context section so one runaway memory file can never push the
+// prompt past the API's 200K-token limit again. Keeps the TAIL — memory files
+// are append-only, so the newest entries are at the bottom.
+const CTX_SECTION_MAX_CHARS = 48000; // ≈12K tokens; 4 sections ≈ 50K tokens worst case
+
+function clampContext(text, max = CTX_SECTION_MAX_CHARS) {
+  if (text.length <= max) return text;
+  return `[…older content truncated (${text.length - max} chars)…]\n${text.slice(-max)}`;
 }
 
 async function fetchText(url, signal) {
