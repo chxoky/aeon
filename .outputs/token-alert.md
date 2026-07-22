@@ -1,25 +1,16 @@
-Skill executed. No anomalies detected — no notification sent, prices logged.
+Done. No alerts triggered.
 
 ## Summary
 
-Executed `skills/token-alert/SKILL.md` for 2026-07-21.
+**token-alert — 2026-07-22 — TOKEN_ALERT_OK**
 
-**What I did:**
-- Read tracked tokens from `memory/MEMORY.md` (BTC, ETH, SOL, HYPE — all 10% thresholds).
-- Fetched live prices from CoinGecko (curl succeeded, no fallback needed).
-- Checked last 2 days of logs for a prior price baseline — none in standardized form, so evaluated anomalies via the API's 24h change and volume.
-- Evaluated all trigger conditions:
+Fetched current prices via CoinGecko (WebFetch fallback, curl blocked in sandbox):
 
-| Token | Price | 24h Change | 24h Vol | Alert? |
-|-------|-------|-----------|---------|--------|
-| BTC | $66,356 | +2.61% | $30.38B | No |
-| ETH | $1,935.14 | +3.02% | $11.87B | No |
-| SOL | $78.34 | +2.02% | $1.84B | No |
-| HYPE | $62.65 | +2.74% | $333.8M | No |
+| Token | Price | 24h Change | Vol |
+|-------|-------|-----------|-----|
+| BTC | $65,815 | −0.90% | $32.6B |
+| ETH | $1,922.96 | −0.88% | $10.0B |
+| SOL | $77.31 | −1.38% | $1.47B |
+| HYPE | $58.37 | −6.91% | $414M |
 
-**Result:** No anomalies — all 24h moves are well under the 10% threshold (broad market modestly green, +2–3%), no volume spikes, no threshold crosses. Recorded `TOKEN_ALERT_OK`. No `./notify` sent (no trigger conditions met).
-
-**Files modified:**
-- `memory/logs/2026-07-21.md` — appended a `token-alert` entry with `TOKEN_ALERT_OK` and current prices (baseline for next comparison).
-
-**Follow-up:** None. Optionally, future runs would benefit from a consistent volume-average baseline in logs to enable the 3x volume-spike check (currently no historical average to compare against).
+No thresholds breached — all moves under ±10%, no custom thresholds set in MEMORY.md, no volume baseline available for 3x spike check. HYPE's −6.91% is the largest mover and matches the TRENDING+DOWN MAJOR pattern from today's token-movers runs, but stays below the alert cutoff. Prices logged to `memory/logs/2026-07-22.md`. No notification sent.
