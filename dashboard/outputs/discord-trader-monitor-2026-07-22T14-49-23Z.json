@@ -1,0 +1,48 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge-source",
+        "sep-main",
+        "alert-sec"
+      ]
+    },
+    "badge-source": {
+      "type": "Badge",
+      "props": {
+        "text": "💬 DC: HCH — Free",
+        "variant": "secondary"
+      }
+    },
+    "sep-main": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert-sec": {
+      "type": "Alert",
+      "props": {
+        "title": "SEC Statement on Onchain Lending and Vaults",
+        "message": "SEC7S PEIRCE ISSUES STATEMENT ON ONCHAIN LENDING AND VAULTS; WARNS CERTAIN ACTIVITY MAY BE SUBJECT TO SEC JURISDICTION AND URGES DISCUSSIONS WITH MARKET PARTICIPANTS: WEBSITE",
+        "type": "warning"
+      }
+    }
+  }
+}
