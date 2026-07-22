@@ -1,0 +1,70 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @Wild_Randomness"
+      },
+      "children": [
+        "event_info",
+        "sep1",
+        "message_section",
+        "sep2",
+        "analysis_info"
+      ]
+    },
+    "event_info": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Trading update/discussion with @based16z",
+        "variant": "caption"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "message_label",
+        "message_quote"
+      ]
+    },
+    "message_label": {
+      "type": "Text",
+      "props": {
+        "text": "Message:",
+        "variant": "caption"
+      }
+    },
+    "message_quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"Ah k here was the first average, added every day we traded in the purple box\n\nTP'd short term stuff on Friday but rebought Aug 21 into red arrow today\n\nIs there anything I can do to get you back in the chat?\"",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_info": {
+      "type": "Text",
+      "props": {
+        "text": "Chart references (purple box, red arrow) without media attached. Ticker and specific trade action unclear — what's your read?",
+        "variant": "muted"
+      }
+    }
+  }
+}
