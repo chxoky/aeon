@@ -1,0 +1,73 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading_calibration",
+        "separator_1",
+        "stack_content"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @HeartCanHodl",
+        "level": "h2"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_event",
+        "tweet_card",
+        "alert_assessment",
+        "link_source"
+      ]
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Internal scorecard/comparison, unclear reference",
+        "variant": "lead"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "Garrett 444, HCH 573\n\nMid term garrett winning 〽️"
+      }
+    },
+    "alert_assessment": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification unclear",
+        "message": "Unable to classify — what's your read?",
+        "type": "info"
+      }
+    },
+    "link_source": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/HeartCanHodl/status/2079820356307804384"
+      }
+    }
+  }
+}
