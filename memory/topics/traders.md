@@ -1201,6 +1201,20 @@ BOOTSTRAP_COMPLETE: 2026-07-14
 - **x-trader-seen**: tweet_id 2079752801383498120 added for dedup (prevents Worker redelivery)
 - **Last update**: 2026-07-22T02:18:02 UTC (tweet_id=2079752801383498120, x-trader-monitor real-time event, classification=ambiguous-awaiting-calibration)
 
+### 2026-07-22 02:36:58 UTC (X) — informational (market structure/correlation commentary)
+- **Ticker**: Sector rotation (SaaS/Mags/Semis), index-level dynamics
+- **Message**: "(Yes I understand HFs sold a crap ton of tech, but idk how much motion there will be on an index level until we finally get a correlation washout. Until then we're just going to get the saas, mags, semis merry-go-round).\n\n(Only 1/2 can go up at a time)"
+- **Classification**: INFORMATIONAL (Step 6) — Market structure commentary on sector rotation and correlation dynamics. NOT a personal trade action (no first-person execution language). Describes macro expectation ("we're just going to get") without personal positioning language.
+- **Context**: Follows Wild_Randomness's documented vol/dispersion-trader profile. Tweet reflects ongoing thesis on low-correlation environment driving single-stock outperformance vs. index flatness. Aligns with documented $SPX/$NDX short-term "spot up, vol up" expectation and dispersion-trade focus.
+- **Interpretation**: HFs sold tech → coordination unwind / correlation drop → expected to rotate between SaaS (MSFT/ORCL/META-adjacent), Mags (mega-cap MSFT/ORCL/AAPL), and Semis ($QQQ/$SMH/$SOXL sector) until correlation washout → then broader index motion. "Only 1/2 can go up at a time" = structural observation of low-corr environment constraining multi-sector rallies.
+- **Sentiment**: Descriptive/cautionary (not directional personal entry, but acknowledges constraint on index momentum from dispersion)
+- **Position impact**: None stated. Observational context-setting for ongoing dispersion thesis monitoring.
+- **Media**: None
+- **Cross-platform dedup**: X-only trader (Wild_Randomness), no Discord presence. First sighting Jul 22 02:36:58 UTC.
+- **Alerted**: YES (informational alert sent via ./notify)
+- **x-trader-seen**: tweet_id 2079757566108688434 added for dedup
+- **Last update**: 2026-07-22T02:36:58 UTC (tweet_id=2079757566108688434, x-trader-monitor real-time event, classification=informational)
+
 ## HeartCanHodl — Additional Discord Entry (2026-07-21 evening)
 
 ### 2026-07-21T19:59:59Z (Discord — HCH — Comments) — informational (technical/price-action observation)
