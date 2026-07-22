@@ -1,0 +1,153 @@
+{
+  "root": "market-card",
+  "state": {},
+  "elements": {
+    "market-card": {
+      "type": "Card",
+      "props": {
+        "title": "Market Context — 2026-07-22"
+      },
+      "children": [
+        "sentiment-row",
+        "prices-row",
+        "indicators-row",
+        "sep-1",
+        "narratives"
+      ]
+    },
+    "sentiment-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "risk-badge",
+        "conviction-text"
+      ]
+    },
+    "risk-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "risk-off",
+        "variant": "destructive"
+      }
+    },
+    "conviction-text": {
+      "type": "Text",
+      "props": {
+        "text": "conviction medium",
+        "variant": "muted"
+      }
+    },
+    "prices-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "btc-stat",
+        "eth-stat",
+        "fng-progress"
+      ]
+    },
+    "btc-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$65,582",
+        "delta": "-1.80%",
+        "trend": "down"
+      }
+    },
+    "eth-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$1,924",
+        "delta": "-0.51%",
+        "trend": "down"
+      }
+    },
+    "fng-progress": {
+      "type": "Progress",
+      "props": {
+        "value": 33,
+        "max": 100,
+        "label": "F&G (Fear)"
+      }
+    },
+    "indicators-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "breadth-progress",
+        "chains-text"
+      ]
+    },
+    "breadth-progress": {
+      "type": "Progress",
+      "props": {
+        "value": 6,
+        "max": 20,
+        "label": "breadth"
+      }
+    },
+    "chains-text": {
+      "type": "Text",
+      "props": {
+        "text": "chains flat",
+        "variant": "muted"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "narratives": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "fomc-heading",
+        "fomc-text",
+        "fed-heading",
+        "fed-text"
+      ]
+    },
+    "fomc-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top narrative",
+        "level": "h3"
+      }
+    },
+    "fomc-text": {
+      "type": "Text",
+      "props": {
+        "text": "FOMC hawkish repricing (no-change 86%→75%; +25bps doubled to 24%)"
+      }
+    },
+    "fed-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Hot market",
+        "level": "h3"
+      }
+    },
+    "fed-text": {
+      "type": "Text",
+      "props": {
+        "text": "Fed no change Jul 2026 YES 75.3% (was 86%)"
+      }
+    }
+  }
+}
