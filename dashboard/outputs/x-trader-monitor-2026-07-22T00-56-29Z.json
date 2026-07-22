@@ -1,0 +1,23 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "A-tier bear post, I admit…\n\nJust find it interesting how many things are similar to that time— namely the Yen and implied correlations…\n\n(Bonus is crypto relative strength here too)"
+      }
+    }
+  }
+}
