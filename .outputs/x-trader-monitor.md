@@ -2,8 +2,11 @@
 
 Event: Reply to @Evan_ss6 with cryptic language
 @Wild_Randomness: "Faded🤝 https://t.co/DqgWco6OOe"
+🐦 *[X] @Wild_Randomness*
 
-[View tweet](https://x.com/t_in_crypto/status/2080051696156188961)
+Aware of a lot of liq to take into 70k here, but anything past that (especially 80k) would require reconsidering some positions.
+
+[View tweet](https://x.com/Wild_Randomness/status/2080054005687050700)
 
 [View tweet](https://x.com/t_in_crypto/status/2080050450074628295)
 Event: Extremely cryptic reply to @zohaan1324/@bnshiv23, high volume of similar posts since Jul 17
@@ -19,3 +22,4 @@ Wild_Randomness: "Where were the signs?" https://t.co/0V3iUSeaXr
 
 Unable to classify — what's your read? (Cryptic self-commentary on a trade, market observation, or non-financial?)
 Unable to classify — what's your read? ('Faded' as trade gone wrong, position weakness, or banter?)
+↳ _Aligns with broader tactical bearish lean on near-term pullback into key support zones._

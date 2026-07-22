@@ -294,7 +294,8 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - Jul 22 19:34Z — ambiguous: external reference "$GOOG $AVGO trading like raise capex", awaiting calibration [2080013558763409607]
 - Last seen: 2026-07-22 19:34:11 UTC
   - Jul 22 19:34Z — ambiguous: market/capex sentiment on unspecified asset, investor expectations, ROIC thesis [2080013592271691887]
-- Last seen: 2026-07-22 22:08:33 UTC
+- Last seen: 2026-07-22 22:14:55 UTC
+  - Jul 22 22:14Z — informational: BTC bearish sentiment — aware of 70k liq, would reconsider above 80k [2080054005687050700]
   - Jul 22 22:08Z — ambiguous: "Where were the signs?" cryptic question with URL context missing, awaiting calibration [2080052404544745483]
   - Jul 22 22:12Z — ambiguous: reply to @Evan_ss6 "Faded" + URL, context unclear, awaiting calibration [2080053264406421935]
 - Last seen: 2026-07-22 22:11:58 UTC

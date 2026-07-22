@@ -1,0 +1,49 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "view-link",
+        "interpretation-text"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Aware of a lot of liq to take into 70k here, but anything past that (especially 80k) would require reconsidering some positions."
+      }
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2080054005687050700"
+      }
+    },
+    "interpretation-text": {
+      "type": "Text",
+      "props": {
+        "text": "Aligns with broader tactical bearish lean on near-term pullback into key support zones.",
+        "variant": "muted"
+      }
+    }
+  }
+}
