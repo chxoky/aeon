@@ -1,0 +1,352 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Market Context — 2026-07-22"
+      },
+      "children": [
+        "take-block",
+        "separator-1",
+        "price-and-sentiment-block",
+        "separator-2",
+        "breadth-block",
+        "separator-3",
+        "chain-block",
+        "separator-4",
+        "narrative-block",
+        "separator-5",
+        "market-odds-block"
+      ]
+    },
+    "take-block": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "take-label",
+        "take-badge",
+        "conviction-badge"
+      ]
+    },
+    "take-label": {
+      "type": "Text",
+      "props": {
+        "text": "Take:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "take-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "chop-to-risk-on",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "conviction-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "conviction: medium",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "price-and-sentiment-block": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "btc-stat",
+        "eth-stat",
+        "fear-greed-stat"
+      ]
+    },
+    "btc-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$66,390",
+        "delta": "+1.81%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "eth-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$1,932",
+        "delta": "+1.35%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "fear-greed-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Fear & Greed",
+        "value": "33",
+        "delta": "Fear"
+      },
+      "children": []
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "breadth-block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "breadth-heading",
+        "breadth-grid"
+      ]
+    },
+    "breadth-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Market Breadth",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "breadth-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "breadth-24h",
+        "breadth-7d-stack"
+      ]
+    },
+    "breadth-24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h Breadth",
+        "value": "17/20"
+      },
+      "children": []
+    },
+    "breadth-7d-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "breadth-7d-stat",
+        "breadth-7d-note"
+      ]
+    },
+    "breadth-7d-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "7d Breadth",
+        "value": "17/20"
+      },
+      "children": []
+    },
+    "breadth-7d-note": {
+      "type": "Text",
+      "props": {
+        "text": "7d up 4 from morning",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "chain-block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "chain-heading",
+        "chain-grid"
+      ]
+    },
+    "chain-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Chain Metrics",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "chain-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "tvl-stat",
+        "dex-vol-stat"
+      ]
+    },
+    "tvl-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH Chain TVL",
+        "value": "$42.03B",
+        "delta": "+1.6% vs AM",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "dex-vol-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "DEX Volume",
+        "value": "$6.32B"
+      },
+      "children": []
+    },
+    "separator-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "narrative-block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "narrative-heading",
+        "narrative-content"
+      ]
+    },
+    "narrative-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Narrative",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "narrative-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "narrative-ticker",
+        "narrative-status",
+        "narrative-delta"
+      ]
+    },
+    "narrative-ticker": {
+      "type": "Text",
+      "props": {
+        "text": "RWA/ONDO",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "narrative-status": {
+      "type": "Badge",
+      "props": {
+        "text": "Rising",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "narrative-delta": {
+      "type": "Text",
+      "props": {
+        "text": "day 3 +11.95%",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "separator-5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "market-odds-block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "market-odds-heading",
+        "fed-odds-stack"
+      ]
+    },
+    "market-odds-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Hot Market",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "fed-odds-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "fed-odds-label",
+        "fed-odds-progress"
+      ]
+    },
+    "fed-odds-label": {
+      "type": "Text",
+      "props": {
+        "text": "Fed no change Jul 2026: YES",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "fed-odds-progress": {
+      "type": "Progress",
+      "props": {
+        "value": 85.35,
+        "max": 100,
+        "label": "Odds"
+      },
+      "children": []
+    }
+  }
+}
