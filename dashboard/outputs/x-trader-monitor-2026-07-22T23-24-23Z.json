@@ -1,0 +1,116 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @t_in_crypto",
+        "description": "x-trader-monitor"
+      },
+      "children": [
+        "context-text",
+        "separator-1",
+        "tweets-stack",
+        "separator-2",
+        "analysis-stack",
+        "separator-3",
+        "story-link"
+      ]
+    },
+    "context-text": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to KillaXBT, who just reaffirmed extreme conviction on his 2x BTC swing long (Jul 22 22:53: 'would delete X account if stopped out')",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "tweets-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-killaxbt",
+        "tweet-tinctrypto"
+      ]
+    },
+    "tweet-killaxbt": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "would delete X account if stopped out"
+      },
+      "children": []
+    },
+    "tweet-tinctrypto": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "handle": "t_in_crypto",
+        "text": "@KillaXBT If you don't close it in the next 2 days... then yes, your long will return to the entry point"
+      },
+      "children": []
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "analysis-label",
+        "analysis-question"
+      ]
+    },
+    "analysis-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Analysis",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "analysis-question": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — is this ironic/testing conviction (Jul 14 precedent) or genuine 2-day retracement warning? What's your read?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "story-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View post",
+        "href": "https://x.com/t_in_crypto/status/2080069358798197174",
+        "source": "Twitter"
+      },
+      "children": []
+    }
+  }
+}
