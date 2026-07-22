@@ -18,7 +18,7 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - PENDING: Jul 15 14:44 X "$BTC ✅" + URL — execution confirmation vs thesis update? [2077403896775840078]
   - PENDING: Jul 15 17:13 X "your pivots don't work... hold my 🍺" + URL — chart evidence of scalp-short or general validation? [2077441531833725305]
   - PENDING: Jul 16 14:22 X "I'm just the messenger. 750-1000D mark... $BTC" — daily-chart level, point target, or external analysis reference? [2077760851990204576]
-- Last seen: 2026-07-22 15:36:48 UTC
+- Last seen: 2026-07-22 22:53:56 UTC
 - **Events (rolling):**
   - Jul 14 13:38Z — call: BTC conditional scalp-short idea ~65K on sweep of highs, 60K retest target, small size
   - Jul 14 15:34Z — ambiguous: BTC "Checkmate. Easy ✅" + URL, possible scalp-short execution confirm, awaiting calibration
@@ -37,6 +37,7 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - Jul 20 15:27Z — setup: BTC waiting for 65.6K breakout/sweep of external highs for additional scalp-short entry [2079226657785708581]
   - Jul 21 21:46Z — position-mgmt: BTC scalp-short limit cancelled; sticking with 2x swing long + spot only [2079684569310061028]
   - Jul 22 11:42Z — planned-entry: BTC conditional small short into Jul 28–30 pivot, zones 67.5K/69.2K, SL 72.5K [1529453651595936653]
+  - Jul 22 22:53Z — conviction-statement: BTC 2x swing long from 62.6K, extreme conviction (would delete X account if stopped out) [2080063826301424060]
 
 ## Crypto_Chase
 - Platforms: X + Discord (primary 1336082716063694962; TradFi supporting 1343971265962049597; Crypto supporting 1247927786681794601 — member Q&A)

@@ -1,0 +1,73 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_platform",
+        "badge_trader",
+        "heading_conviction",
+        "tweet_card",
+        "text_position_context",
+        "link_view_tweet"
+      ]
+    },
+    "badge_platform": {
+      "type": "Badge",
+      "props": {
+        "text": "[X]",
+        "variant": "secondary"
+      }
+    },
+    "badge_trader": {
+      "type": "Badge",
+      "props": {
+        "text": "@KillaXBT",
+        "variant": "default"
+      }
+    },
+    "heading_conviction": {
+      "type": "Heading",
+      "props": {
+        "text": "Conviction statement on existing BTC position",
+        "level": "h3"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "If my $BTC swing long from 62.6K gets stopped out, I'll delete my X account."
+      }
+    },
+    "text_position_context": {
+      "type": "Text",
+      "props": {
+        "text": "This reinforces extreme conviction on documented 2x swing long (established ~Jun 13). No new trade action, but notable commitment expression.",
+        "variant": "body"
+      }
+    },
+    "link_view_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2080063826301424060"
+      }
+    }
+  }
+}
