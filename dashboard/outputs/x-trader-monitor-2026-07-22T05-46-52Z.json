@@ -1,0 +1,109 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-all"
+      ]
+    },
+    "stack-all": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-calibration",
+        "stack-event",
+        "stack-tweet",
+        "text-question"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h2"
+      }
+    },
+    "stack-event": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-event-label",
+        "text-event-detail",
+        "text-timestamp"
+      ]
+    },
+    "text-event-label": {
+      "type": "Text",
+      "props": {
+        "text": "Event",
+        "variant": "muted"
+      }
+    },
+    "text-event-detail": {
+      "type": "Text",
+      "props": {
+        "text": "~15min after momentum reversal shorts close (NBIS +8-22%)",
+        "variant": "body"
+      }
+    },
+    "text-timestamp": {
+      "type": "Text",
+      "props": {
+        "text": "Closed: 2026-07-22T05:24:33Z",
+        "variant": "caption"
+      }
+    },
+    "stack-tweet": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-tweet-label",
+        "tweet-card",
+        "link-view"
+      ]
+    },
+    "text-tweet-label": {
+      "type": "Text",
+      "props": {
+        "text": "Tweet",
+        "variant": "muted"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "relevant"
+      }
+    },
+    "link-view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2079803562545037378"
+      }
+    },
+    "text-question": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read? Is this market observation, confirmation of closed position, or something else?",
+        "variant": "lead"
+      }
+    }
+  }
+}

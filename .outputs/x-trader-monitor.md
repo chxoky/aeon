@@ -23,3 +23,11 @@
 - `ticker-focus.md`: Added TOTAL3 to quiet tickers section
 - `x-trader-seen.txt`: Added tweet ID 2079803192926167096 for dedup
 - `memory/logs/2026-07-22.md`: Logged event with full classification context
+🔍 *Calibration — @Wild_Randomness*
+
+Event: ~15min after momentum reversal shorts close (NBIS +8-22%, closed 2026-07-22T05:24:33Z)
+Wild_Randomness: "relevant"
+
+Unable to classify — what's your read? Is this market observation, confirmation of closed position, or something else?
+
+[View tweet](https://x.com/Wild_Randomness/status/2079803562545037378)
