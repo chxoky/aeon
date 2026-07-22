@@ -280,6 +280,8 @@ BOOTSTRAP_COMPLETE: 2026-07-14
 - **Events (rolling):**
   - Jul 22 19:34Z — ambiguous: external reference "$GOOG $AVGO trading like raise capex", awaiting calibration [2080013558763409607]
 - Last seen: 2026-07-22 19:34:11 UTC
+  - Jul 22 19:34Z — ambiguous: market/capex sentiment on unspecified asset, investor expectations, ROIC thesis [2080013592271691887]
+- Last seen: 2026-07-22 19:34:19 UTC
 
 ## t_in_crypto
 - Platforms: X

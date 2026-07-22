@@ -10,3 +10,8 @@ Event: $GOOG $AVGO trading pattern observation (Jul 22 19:34 UTC)
 Unable to classify — what's your read? Bearish stress observation? Bullish expansion thesis? Valuation mismatch call?
 
 [View post](https://x.com/Wild_Randomness/status/2080013558763409607)
+Tweet: Jul 22 19:34Z
+
+"Think you just want to see positive discussions on ROIC, confidence in their capex spend, and market to play ball / not nuke them if they increase numbers"
+
+Unable to classify which asset/sector this references. Market commentary on investor sentiment and capital allocation, but ticker is unclear. Which stock is this about?
