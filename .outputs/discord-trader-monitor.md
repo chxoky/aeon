@@ -1,29 +1,28 @@
-Perfect! I've successfully executed the discord-trader-monitor skill for this event. Here's what I processed:
-
 ## Summary
 
-**Event Decoded**: Crypto_Chase position management update with specific TP targets for SNDK and MU positions
+I've processed the Discord message from Crypto_Chase on MU (Micron Technology) according to the discord-trader-monitor skill. Here's what happened:
 
-**Classification**: Informational (Step 7) — Position management clarification with tiered profit-taking targets
+**Message Details:**
+- Timestamp: 2026-07-22 00:31:00 UTC
+- Channel: 1336082716063694962 (Chase — Chase, primary)
+- Content: "MU 60% closed here now at 991, 40% left open"
+- Message ID: 1529284596284522496
 
-**Key Details**:
-- **SNDK**: Will close additional 10% when price hits 1654~ (cumulative total: 60% closed, 40% remainder running)
-- **MU**: Will close additional 10% when price hits 998~ (cumulative total: 60% closed, 40% remainder running)
-- **Context**: Incremental update to earlier 13:55:26Z technical explanation and 13:30-13:57Z TP execution announcements
-- **Chart images**: 2 attachments provided for visual reference on TP levels
+**Classification:**
+- Type: Trade execution confirmation (partial take-profit)
+- Ticker: MU
+- Action: 60% of position closed at $991; 40% remains open
+- Entry context: ~$800-820 (Jul 17), entry to $991 close = ~20-23% gain on closed portion
 
-**Execution**:
-- ✅ Added message_id (1529259965246607472) to discord-trader-seen.txt for dedup
-- ✅ Updated traders.md with full classification and position context
-- ✅ Updated active-trades.md with new TP guidance for both SNDK and MU
-- ✅ Logged event to memory/logs/2026-07-21.md with full details
-- ⏭️ **Skipped Telegram** (fast_path_alerted=true — Cloudflare Worker already notified Kyle)
+**Processing:**
+- ✅ Fast-path alert already sent (Telegram notified Kyle 2-5s after Worker received event)
+- ✅ No duplicate detected (message ID not previously recorded)
+- ✅ Cross-platform dedup checked (no matching X post within ±30min window)
+- ✅ Updated memory:
+  - Added message ID to `discord-trader-seen.txt`
+  - Appended execution detail to `traders.md` (Crypto_Chase events log)
+  - Updated `active-trades.md` MU section with 60% TP confirmation and consolidated execution timeline
+  - Logged event to `memory/logs/2026-07-22.md`
 
-**Status**: Complete. All memory systems updated, event deduped, no duplicate notification sent.
-🔍 *Calibration — [DC: Chase — Chase]*
-
-**Context**: Crypto_Chase has open positions on SNDK (half remaining, S/L at B/E from 1366 entry) and MU (half remaining under DCA, originally 800-820 entry).
-
-**Message**: 'Levels not hit yet.'
-
-Unable to classify — which position/levels is Chase referring to? Is this about (a) SNDK target exit levels, (b) MU DCA entry levels, or (c) something else entirely?
+**Position Summary:**
+The MU trade shows disciplined profit-taking with multiple execution phases (50% TP at $956, 25% TP at $930, consolidated at $991 close with 40% DCA remainder). This confirms Crypto_Chase's documented multi-level TP strategy on both new and existing positions.
