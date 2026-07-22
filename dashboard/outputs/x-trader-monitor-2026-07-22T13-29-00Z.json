@@ -1,0 +1,64 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_eth",
+        "tweet_ryzzqq",
+        "link_tweet",
+        "separator_main",
+        "note_heartcanhodl"
+      ]
+    },
+    "heading_eth": {
+      "type": "Heading",
+      "props": {
+        "text": "ETH — bearish outlook",
+        "level": "h2"
+      }
+    },
+    "tweet_ryzzqq": {
+      "type": "TweetCard",
+      "props": {
+        "author": "ryzzqq",
+        "handle": "ryzzqq",
+        "text": "@Supbads eth i will be looking for shorts over the next few days"
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/ryzzqq/status/2079920865047990357"
+      }
+    },
+    "separator_main": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "note_heartcanhodl": {
+      "type": "Text",
+      "props": {
+        "text": "This aligns with HeartCanHodl's active short basket position on ETH.",
+        "variant": "muted"
+      }
+    }
+  }
+}
