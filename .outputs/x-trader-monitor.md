@@ -1,14 +1,9 @@
-🔍 *Calibration — @Wild_Randomness*
+🐦 *[X] @Wild_Randomness*
 
-Event: Post celebrating past successful trade
+Yeah pretty sure 68-69k liqs need to be taken to discuss sustained move down
 
-Wild_Randomness: "And oh yeah that previous call was pretty good https://t.co/HAcDw8CDv3"
+Not really sure what the narrative is here so base assumption is this thing just floats to nearest liquidity all summer
 
-Context: Recent history shows NVDA July calls TP'd in profit, sidelined. This post likely references that or another recent successful trade.
+[View tweet](https://x.com/Wild_Randomness/status/2079754916646863214)
 
-Unable to classify — what does "previous call" refer to? NVDA July calls, or something else? Awaiting calibration.
-Context: Tracking uranium plays ($OKLO). New $CCJ (Cameco) post on related sector.
-Setup: Monthly bear div played out, RSI reset, now retesting trend.
-Ambiguous: "We have arrived…" — is this entry confirmation or structure observation?
-
-Kyle: how do you read this?
+↳ _Structural commentary on BTC levels. Aligns with group's current liquidity-level focus (66K bull trigger, 60-60.7K breakdown zone). Wild_Randomness reading: consolidation into nearest liquidity through summer._

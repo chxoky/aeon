@@ -1,0 +1,60 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "link_view",
+        "separator",
+        "commentary"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Yeah pretty sure 68-69k liqs need to be taken to discuss sustained move down\n\nNot really sure what the narrative is here so base assumption is this thing just floats to nearest liquidity all summer"
+      },
+      "children": []
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2079754916646863214"
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "commentary": {
+      "type": "Alert",
+      "props": {
+        "message": "Structural commentary on BTC levels. Aligns with group's current liquidity-level focus (66K bull trigger, 60-60.7K breakdown zone). Wild_Randomness reading: consolidation into nearest liquidity through summer.",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}
