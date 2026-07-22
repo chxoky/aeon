@@ -1,16 +1,9 @@
-## Summary
+🔍 *Calibration — @Wild_Randomness*
 
-**Event processed: Tweet by @Stoiiic (ID: 2079750169525174721)**
+Event: Post celebrating past successful trade
 
-**Classification:** Non-financial banter (Step 4A)
+Wild_Randomness: "And oh yeah that previous call was pretty good https://t.co/HAcDw8CDv3"
 
-**Action:** Silent skip — no alert sent to Kyle.
+Context: Recent history shows NVDA July calls TP'd in profit, sidelined. This post likely references that or another recent successful trade.
 
-**Details:**
-- Tweet text: "@TXMCtrades 🤝\n\np.s. you have a classic radio host voice lol"
-- This is pure social commentary with no financial substance, no tickers, no price levels, and no market signal
-- Correctly classified as category A (non-financial personal banter per HR-1 rules)
-- Tweet ID added to dedup list to prevent reprocessing on Worker retry
-- Log entry appended to `memory/logs/2026-07-22.md`
-
-No notification was generated — the event was filed to memory silently as specified by the skill rules.
+Unable to classify — what does "previous call" refer to? NVDA July calls, or something else? Awaiting calibration.
