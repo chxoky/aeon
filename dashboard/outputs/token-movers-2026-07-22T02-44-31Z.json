@@ -1,0 +1,386 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Token Movers — 2026-07-22"
+      },
+      "children": [
+        "text_intro",
+        "sep1",
+        "h_winners",
+        "table_winners",
+        "sep2",
+        "h_losers",
+        "table_losers",
+        "sep3",
+        "h_trending",
+        "table_trending",
+        "sep4",
+        "h_notable",
+        "stack_notable"
+      ]
+    },
+    "text_intro": {
+      "type": "Text",
+      "props": {
+        "text": "Green tape — ~79% of filtered top-100 positive, median top-50 +1.7%; DEXE (−84%, day-3 collapse) is the sole catastrophic outlier.",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "h_winners": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Winners (24h)",
+        "level": "h2"
+      }
+    },
+    "table_winners": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Volume/Rank",
+          "Status"
+        ],
+        "rows": [
+          [
+            "1. NIGHT (Midnight)",
+            "$0.02397",
+            "+29.5%",
+            "−16.5%",
+            "−1.8%",
+            "$102M / #115",
+            "FADE"
+          ],
+          [
+            "2. TALUS (US)",
+            "$0.04290",
+            "+12.6%",
+            "+58.2%",
+            "+1.7%",
+            "$6.4M / #226",
+            ""
+          ],
+          [
+            "3. ONDO (Ondo)",
+            "$0.4010",
+            "+11.8%",
+            "+25.9%",
+            "−0.3%",
+            "$223M / #41",
+            "TRENDING+UP"
+          ],
+          [
+            "4. GRAM (Toncoin)",
+            "$1.580",
+            "+10.0%",
+            "−2.3%",
+            "+2.8%",
+            "$70M / #24",
+            ""
+          ],
+          [
+            "5. RAIN (Rain)",
+            "$0.01548",
+            "+9.9%",
+            "+4.5%",
+            "+0.9%",
+            "$23M / #12",
+            ""
+          ],
+          [
+            "6. GENIUS (Genius)",
+            "$0.3552",
+            "+9.0%",
+            "+8.0%",
+            "−1.7%",
+            "$19M / #230",
+            ""
+          ],
+          [
+            "7. VVV (Venice Token)",
+            "$12.66",
+            "+8.2%",
+            "+15.1%",
+            "+0.6%",
+            "$36M / #92",
+            ""
+          ],
+          [
+            "8. AAVE (Aave)",
+            "$97.16",
+            "+7.6%",
+            "−2.1%",
+            "+1.0%",
+            "$216M / #51",
+            ""
+          ],
+          [
+            "9. 1INCH (1INCH)",
+            "$0.08168",
+            "+7.6%",
+            "+8.9%",
+            "−1.1%",
+            "$23M / #239",
+            ""
+          ],
+          [
+            "10. UB (Unibase)",
+            "$0.1053",
+            "+7.2%",
+            "+46.6%",
+            "+3.7%",
+            "$14M / #143",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "h_losers": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Losers (24h)",
+        "level": "h2"
+      }
+    },
+    "table_losers": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Volume/Rank",
+          "Status"
+        ],
+        "rows": [
+          [
+            "1. DEXE (DeXe)",
+            "$5.440",
+            "−84.1%",
+            "−86.6%",
+            "−11.1%",
+            "$251M / #145",
+            "TRENDING+DOWN, CAPITULATION"
+          ],
+          [
+            "2. TRAC (OriginTrail)",
+            "$0.3008",
+            "−9.2%",
+            "+16.9%",
+            "−1.1%",
+            "$15M / #217",
+            ""
+          ],
+          [
+            "3. BLIFE (BinanceLife)",
+            "$0.6062",
+            "−4.7%",
+            "−19.5%",
+            "+0.6%",
+            "$44M / #91",
+            ""
+          ],
+          [
+            "4. DRV (Derive)",
+            "$0.1189",
+            "−4.1%",
+            "−19.8%",
+            "−0.5%",
+            "$1.8M / #232",
+            ""
+          ],
+          [
+            "5. SYRUP (Maple Finance)",
+            "$0.1809",
+            "−3.2%",
+            "−5.1%",
+            "−0.6%",
+            "$8.2M / #164",
+            ""
+          ],
+          [
+            "6. BONK (Bonk)",
+            "$0.000003",
+            "−2.6%",
+            "−18.6%",
+            "+2.1%",
+            "$47M / #140",
+            ""
+          ],
+          [
+            "7. NEAR (NEAR Protocol)",
+            "$1.940",
+            "−2.6%",
+            "−3.6%",
+            "−0.0%",
+            "$212M / #36",
+            ""
+          ],
+          [
+            "8. HYPE (Hyperliquid)",
+            "$60.87",
+            "−2.5%",
+            "−6.3%",
+            "−0.1%",
+            "$366M / #10",
+            "MAJOR"
+          ],
+          [
+            "9. SUN (Sun Token)",
+            "$0.01845",
+            "−1.8%",
+            "+1.6%",
+            "+0.0%",
+            "$57M / #118",
+            ""
+          ],
+          [
+            "10. ZEC (Zcash)",
+            "$531.9",
+            "−1.6%",
+            "−4.3%",
+            "−0.0%",
+            "$311M / #15",
+            "MAJOR"
+          ]
+        ]
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "h_trending": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending",
+        "level": "h2"
+      }
+    },
+    "table_trending": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Rank",
+          "Price",
+          "24h",
+          "Status"
+        ],
+        "rows": [
+          [
+            "1. ERA (Caldera)",
+            "#955",
+            "$0.08707",
+            "−8.8%",
+            ""
+          ],
+          [
+            "2. BTC (Bitcoin)",
+            "#1",
+            "$66,379",
+            "+1.8%",
+            "MAJOR"
+          ],
+          [
+            "3. PONS (Pons)",
+            "#556",
+            "$0.04547",
+            "+54.6%",
+            "PUMP-RISK"
+          ],
+          [
+            "4. XRP (XRP)",
+            "#6",
+            "$1.140",
+            "+2.8%",
+            "MAJOR"
+          ],
+          [
+            "5. DEXE (DeXe)",
+            "#141",
+            "$5.621",
+            "−83.7%",
+            "TRENDING+DOWN"
+          ],
+          [
+            "6. PI (Pi Network)",
+            "#66",
+            "$0.09070",
+            "−1.4%",
+            ""
+          ],
+          [
+            "7. ANSEM (The Black Bull)",
+            "#290",
+            "$0.2041",
+            "−2.8%",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "h_notable": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h2"
+      }
+    },
+    "stack_notable": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "notable_1",
+        "notable_2",
+        "notable_3"
+      ]
+    },
+    "notable_1": {
+      "type": "Text",
+      "props": {
+        "text": "NIGHT: [CAPITULATION] −26% yesterday → [FADE] +29.5% today — 7d still −16.5%, dead-cat structure intact",
+        "variant": "body"
+      }
+    },
+    "notable_2": {
+      "type": "Text",
+      "props": {
+        "text": "ONDO: 3rd consecutive day [TRENDING+UP], +11.8% on $223M vol — RWA narrative with real sustained volume",
+        "variant": "body"
+      }
+    },
+    "notable_3": {
+      "type": "Text",
+      "props": {
+        "text": "TRAC (OriginTrail): new loser −9.2% after +16.9% 7d run — fading last week's rally",
+        "variant": "body"
+      }
+    }
+  }
+}
