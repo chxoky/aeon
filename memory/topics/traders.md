@@ -80,6 +80,7 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - Jul 21 22:53Z — tp-plan: contingent 10% closes at SNDK 1654~ and MU 998~ → 60% closed total, let 40% run [1529259965246607472]
   - Jul 22 00:19Z — ambiguous: "@breakoutprop killin it, need ES next" — ES commentary, PENDING calibration [2079723023737802988]
   - Jul 22 00:31Z — trade-TP: MU 60% closed at 991, 40% left open [1529284596284522496]
+  - Jul 22 19:58Z — informational: GOOG "earnings stink bid around 321" + chart, contingent bid observation, no active entry (fast-path-alerted) [1529578350618873897]
 
 # swarmister — compressed (merged from duplicate/"swarmiister"/continued sections; events attributed to other traders in these chunks excluded)
 
