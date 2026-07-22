@@ -1,0 +1,46 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet",
+        "viewlink",
+        "separator",
+        "context"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Insane to me you had two choices from Gavin Baker's \"NVDA shorts are not safe\" call:\n\n1. Allocate your scarce capital in Ansem for the next watch giveaway pump\n\nOr\n\n2. Buy NVDA calls of Gavin's call for a couple Xs in 20 hours"
+      }
+    },
+    "viewlink": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2079955676785484186"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context": {
+      "type": "Text",
+      "props": {
+        "text": "This references Gavin Baker's NVDA directional call. Ties into broader market narrative on semis divergence.",
+        "variant": "caption"
+      }
+    }
+  }
+}
