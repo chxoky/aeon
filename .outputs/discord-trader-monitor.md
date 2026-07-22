@@ -14,3 +14,10 @@ Executed discord-trader-monitor skill for the real-time Discord event from Crypt
 - `memory/logs/2026-07-22.md`: Detailed log entry with classification + context
 
 **No further action needed** — fast-path handled alerting; memory tracking complete.
+**discord-trader-monitor event processed: 2026-07-22T19:58:57Z**
+
+**Event:** Message from crypto_chase in primary channel (Chase — Chase) containing only a Discord role mention (`<@&1247940234558177521>`).
+
+**Classification:** Non-financial / skip — pure admin/notification with no trade content or market information.
+
+**Action:** No alert sent. Message logged and added to dedup list to prevent reprocessing.
