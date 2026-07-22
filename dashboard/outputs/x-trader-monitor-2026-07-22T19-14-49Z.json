@@ -1,0 +1,41 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Conviction Add"
+      },
+      "children": [
+        "tweet_wild",
+        "sep_1",
+        "link_view"
+      ]
+    },
+    "tweet_wild": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "➕ $HYPE conviction re-add (partial entry, completing by end of week). Also scaling Sept/Oct puts on iBIT/etha. Macro: tighter correlation with SPX justifying re-entry."
+      },
+      "children": []
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/Wild_Randomness/status/2080007518856569141"
+      },
+      "children": []
+    }
+  }
+}

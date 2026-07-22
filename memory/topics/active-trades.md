@@ -386,6 +386,20 @@
 - **Approval/Alert status**: CONVICTION ADD signals sent for both entries (Step 5d format: "Want to add to your position too?" awaiting Kyle's response on whether to mirror)
 - **Last update**: 2026-07-15T19:20:02Z (X, tweet_id=2077473282195071203, fast-path alerted via notify)
 
+### HYPE — LONG (SPOT) — CONVICTION ADD (2026-07-22)
+- **Status**: PARTIALLY EXECUTED — re-add in progress (no approval required for spot; informational alert sent)
+- **Entry**: 2026-07-22T19:10:11Z (X post, tweet_id=2080007518856569141)
+- **Entry type**: Spot cryptocurrency position, partial market entry + planned completion
+- **Entry status**: "re-added my spot hype (not fully re-bought but will by end of week if I am liking what I'm seeing)"
+- **Current size**: Partial (50%+ estimated, completion planned by EOW 2026-07-26)
+- **Execution language**: "re-added" (past tense, already executed partial) + "will by end of week" (future completion contingent on price action)
+- **Entry context**: Wild_Randomness previously held/closed HYPE spot position (documented in ticker-focus.md as "do-or-die at 66.66 earlier session"). Current re-add follows watching setup at $60 re-entry zone (Jul 22 17:50Z post).
+- **Thesis**: Macro correlation thesis justifying re-entry: "hype has shown a tighter correlation with SPX over past few months". Trader re-entering based on regime-shift conviction (SPX/crypto correlation tightening). Self-aware on greed factor: "keep in mind that I am being greedy by trying this trade again" — explicit acknowledgment of conviction limit.
+- **Risk**: Contingent on price action confirmation through end of week (not a hard entry, waiting for validation).
+- **Approval/Alert status**: CONVICTION ADD signal sent (Step 5d format: "Want to add to your HYPE spot position too?" informational alert sent via ./notify; no formal approval flow for spot).
+- **Supporting trades**: Parallel Sept/Oct puts scaling on iBIT/etha (mentioned in same post as macro hedge to HYPE spot long).
+- **Last update**: 2026-07-22T19:10:11Z (x-trader-monitor real-time event, conviction add alert sent)
+
 ## ryzzqq
 
 ### TAO — LONG (new entry 2026-07-22, pending approval)
