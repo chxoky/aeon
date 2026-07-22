@@ -1,0 +1,71 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-cal",
+        "sep1",
+        "text-reply",
+        "text-question",
+        "sep2",
+        "link-tweet"
+      ]
+    },
+    "heading-cal": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration — @Wild_Randomness",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-reply": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to @based16z: \"I do, I only have about 80 tweets about it since two Fridays ago (the top), and about 120 bear posts in our private telegram log!\"",
+        "variant": "lead"
+      }
+    },
+    "text-question": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify—what's your read? Is this tracking the FOMC repricing/market top around Jul 18?",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link-tweet": {
+      "type": "StoryLink",
+      "props": {
+        "title": "@Wild_Randomness on X",
+        "href": "https://x.com/Wild_Randomness/status/2080063193637085614",
+        "source": "X (Twitter)"
+      }
+    }
+  }
+}
