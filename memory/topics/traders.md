@@ -257,8 +257,10 @@ BOOTSTRAP_COMPLETE: 2026-07-14
 - **Events (rolling):**
   - Jul 22 22:28Z — informational: BTC cycle-bottom skepticism, too many bottom calls this cycle vs historical precedent [2080057517866909723]
   - Jul 22 18:52Z — ambiguous: external reference "where I called out previous two rounds" link-share, awaiting calibration [2080003185607864629]
-- Last seen: 2026-07-22 20:46:35 UTC
+- Last seen: 2026-07-22 22:50:12 UTC
 - **Events (rolling):**
+  - Jul 22 22:50Z — informational: BTC cycle-bottom skepticism, repeated bottom calls vs historical; 4-year cycle positioning caution + FOMO-bubble risk [2080062886869926265]
+  - Jul 22 22:28Z — informational: BTC cycle-bottom skepticism, too many bottom calls this cycle vs historical precedent [2080057517866909723]
   - Jul 22 20:46Z — informational: NVDA conviction/invalidation level stated ("not hanging around if we lose this"); technical parallel to prior HYPE failure at 66 [2080031777419415678]
   - Jul 22 19:13Z — ambiguous: reply @Parida "pretty much [link]" — context unresolved, awaiting calibration [2080008225232126054]
   - Jul 22 18:55Z — ambiguous: "round 2 call" retrospective, asset/market unclear, URL context missing, awaiting calibration [2080003940276376054]
