@@ -1,23 +1,27 @@
-*Morning Brief — 2026-07-22*
+Brief composed, queued for delivery, and logged. Here's what was produced:
 
-*Focus today*
-1. Chase SNDK/MU mirrors — BofA $1,550 Buy; window closing, delay thins opportunity
-2. Wild_Randomness ETH short — ETH $1,930 and rising; live vs closed still unresolved
-3. t_in_crypto calibration — 7 cryptic posts in 5 days; set default to cut alert noise
+---
 
-*Since yesterday*
-- [moved] BTC +1.3% to $66,265; tape green all day but cooled to 62% positive by evening (breadth compressing)
-- [moved] Chase TP'd MU 60% at $991 (entry $800, +24%) + SNDK half at 1533 (entry 1366, +12.3%); Kyle mirrors PENDING
-- [moved] ONDO day-3 TRENDING+UP (+11.5%); CLARITY Act Senate path cleared → RWA tailwind accelerating
-- [stuck] consume: bug in chain-runner — output hand-off has never worked; chains are sequencer-only
+**Morning Brief — 2026-07-22**
 
-*Watch*
-- CLARITY Act Senate vote path now open — direct amplifier for ONDO/RWA move in day 3
-- BofA raised MU to $1,550 Buy — ~55% upside from current; Kyle mirror still PENDING at $991
+**Focus today**
+1. **Risk-off tape + Iran catalyst** — first red tape of the day; WTI >$85 (first since Jun 12); macro backdrop shifted fast at 09:00 UTC
+2. **WR ETH short: live or closed?** — ETH now −1% and falling; if position is live, mirror window just opened
+3. **t_in_crypto calibration rule** — 8th cryptic post this morning; suppress rule was noted but not yet formalized
 
-*Running today*
-- morning-brief @ 07:00 UTC
-- token-alert + token-movers @ 12:00 UTC
-- market-context-refresh @ 13:00 UTC · narrative-tracker @ 13:30 UTC
-- heartbeat @ 08:00, 14:00, 20:00 UTC
-- skill-health @ 18:00 UTC
+**Since yesterday**
+- Chase SNDK/MU: mostly closed (MU 60% TP'd @991, SNDK 50% @1533) — Kyle's mirrors never approved, opportunity window gone
+- Tape pivot: 80% green all session → 6/20 breadth by morning; BTC/ETH/SOL all flipped red
+- HYPE: accelerated −2.9% → −6.7%, entered trending [MAJOR][TRENDING+DOWN]
+- WR: MRVL/INTC/NBIS shorts closed at +8–22% profit; TSM/FLEX longs held; ETH short still unresolved
+- ONDO: day-3 TRENDING+UP but decelerating (+12% → +2.5%) — narrative cooling
+
+**Watch**
+- Iran war / WTI >$85 — geopolitical risk sustaining risk-off; crypto selling pressure likely continues
+- HYPE −6.7% [MAJOR][TRENDING+DOWN] — watch-list item in acceleration
+
+**Running today** — token-alert + token-movers @ 12:00 UTC · market-context-refresh @ 13:00 UTC · narrative-tracker @ 13:30 UTC · skill-health @ 18:00 UTC
+
+---
+
+Brief queued in `.pending-notify/` for post-run channel delivery; log entry appended to `memory/logs/2026-07-22.md`. Email skipped (RESEND_API_KEY not configured, consistent with all prior runs today).
