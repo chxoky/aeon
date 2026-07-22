@@ -236,8 +236,9 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - PENDING: ETH "caught a pico top short for like $120" — open position to mirror or closed-trade reflection? [2079738276941119612]
   - PENDING: CCJ "We have arrived…" — entry confirmation or pure setup observation? [2079752801383498120]
   - PENDING: standing protocol for this trader's persistent cryptic/URL-minimal posts — keep flagging each individually or adopt a standing rule? [2078496857953857759]
-- Last seen: 2026-07-22 18:26:16 UTC
+- Last seen: 2026-07-22 18:52:58 UTC
 - **Events (rolling):**
+  - Jul 22 18:52Z — ambiguous: external reference "where I called out previous two rounds" link-share, awaiting calibration [2080003185607864629]
   - Jul 22 18:26Z — informational: macro commentary — rate of change > actual rate level, equities concern, "subdued… idk how short you want to be" [2079996463447216200]
   - Jul 22 18:14Z — informational: SPX TNX yields sentiment call "local top near", historical 2023 Treasury Tantrum reference [2079993531322749204]
   - Jul 22 18:04Z — ambiguous: external reference "Check Gavin Baker tweets" to @Evan_ss6, awaiting calibration [2079991008100769844]
