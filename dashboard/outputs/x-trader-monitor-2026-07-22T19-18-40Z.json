@@ -1,0 +1,95 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 x-trader-monitor — Calibration",
+        "description": "@Wild_Randomness"
+      },
+      "children": [
+        "event-text",
+        "tweet-card",
+        "separator-1",
+        "context-alert",
+        "questions-heading",
+        "questions-stack",
+        "separator-2",
+        "view-link"
+      ]
+    },
+    "event-text": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @Parida with brief affirmation",
+        "variant": "lead"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "@Parida pretty much https://t.co/kq49aRfhAB"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Context",
+        "message": "Link is shortened (t.co), cannot determine what Parida posted or what is being confirmed. Part of recurring pattern—15+ cryptic/URL-minimal replies in Jul 14–22.",
+        "type": "info"
+      }
+    },
+    "questions-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Questions",
+        "level": "h3"
+      }
+    },
+    "questions-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "question-1",
+        "question-2"
+      ]
+    },
+    "question-1": {
+      "type": "Text",
+      "props": {
+        "text": "(1) Your read on this reply?"
+      }
+    },
+    "question-2": {
+      "type": "Text",
+      "props": {
+        "text": "(2) Standing rule for these: flag individually or adopt a skip rule?"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2080008225232126054"
+      }
+    }
+  }
+}
