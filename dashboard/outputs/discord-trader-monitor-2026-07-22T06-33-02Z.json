@@ -1,0 +1,134 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Discord message calibration & classification"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "calibration-badge",
+        "sep-1",
+        "context-section",
+        "message-section",
+        "clarification-alert",
+        "sep-2",
+        "metadata-section"
+      ]
+    },
+    "calibration-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Calibration — DC: HCH — Chat",
+        "variant": "outline"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context-label",
+        "context-value"
+      ]
+    },
+    "context-label": {
+      "type": "Text",
+      "props": {
+        "text": "Previous context:",
+        "variant": "muted"
+      }
+    },
+    "context-value": {
+      "type": "Text",
+      "props": {
+        "text": "Comfy in shorts",
+        "variant": "body"
+      }
+    },
+    "message-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "message-label",
+        "message-value"
+      ]
+    },
+    "message-label": {
+      "type": "Text",
+      "props": {
+        "text": "Current message:",
+        "variant": "muted"
+      }
+    },
+    "message-value": {
+      "type": "Text",
+      "props": {
+        "text": "fc btc 5m",
+        "variant": "body"
+      }
+    },
+    "clarification-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read? Is this a request to forecast BTC with 5-minute candles, shorthand within your community, or something else?",
+        "type": "info"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "metadata-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "message-id",
+        "timestamp"
+      ]
+    },
+    "message-id": {
+      "type": "Text",
+      "props": {
+        "text": "Message ID: 1529374645445202031",
+        "variant": "caption"
+      }
+    },
+    "timestamp": {
+      "type": "Text",
+      "props": {
+        "text": "Time: 2026-07-22 06:28:49 UTC",
+        "variant": "caption"
+      }
+    }
+  }
+}
