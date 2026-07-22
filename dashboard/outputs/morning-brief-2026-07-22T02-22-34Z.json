@@ -1,0 +1,354 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-07-22"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "stack_focus",
+        "sep_1",
+        "stack_since",
+        "sep_2",
+        "stack_watch",
+        "sep_3",
+        "stack_running"
+      ]
+    },
+    "stack_focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_focus",
+        "focus_1",
+        "focus_2",
+        "focus_3"
+      ]
+    },
+    "heading_focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "focus_1": {
+      "type": "Text",
+      "props": {
+        "text": "1. Chase SNDK/MU mirrors — why now: memory sector up 7-9%; stops at BE, window is open",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "focus_2": {
+      "type": "Text",
+      "props": {
+        "text": "2. Wild_Randomness ETH short — why now: ETH at $1,931, BTC clearing $66K; may be live",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "focus_3": {
+      "type": "Text",
+      "props": {
+        "text": "3. t_in_crypto calibration rule — why now: 7 alerts in 5 days; one rule kills the noise",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack_since": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_since",
+        "since_1",
+        "since_2",
+        "since_3",
+        "since_4",
+        "since_5"
+      ]
+    },
+    "heading_since": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "since_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_moved_1",
+        "text_since_1"
+      ]
+    },
+    "badge_moved_1": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text_since_1": {
+      "type": "Text",
+      "props": {
+        "text": "Chase locked in ~20% on MU (60% closed @$991, entry $800); SNDK 50% TP @1533 (+12%) — Kyle mirror still PENDING on both",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "since_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_moved_2",
+        "text_since_2"
+      ]
+    },
+    "badge_moved_2": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text_since_2": {
+      "type": "Text",
+      "props": {
+        "text": "BTC broke $65K; bull stack: KillaXBT hedge zones 67.5K/69.2K, swarmister 67-72K minimum forecast, bull_genius 67K/68.2K/71.7K targets",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "since_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_stuck",
+        "text_since_3"
+      ]
+    },
+    "badge_stuck": {
+      "type": "Badge",
+      "props": {
+        "text": "stuck",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "text_since_3": {
+      "type": "Text",
+      "props": {
+        "text": "SNDK 'ADJUST HERE' cryptic — Chase posted ambiguous position action; awaiting Kyle calibration",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "since_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_moved_4",
+        "text_since_4"
+      ]
+    },
+    "badge_moved_4": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text_since_4": {
+      "type": "Text",
+      "props": {
+        "text": "KillaXBT: confirmed 'done with shorts this bear cycle'; core 2x HTF long @62.6K unchanged",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "since_5": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_moved_5",
+        "text_since_5"
+      ]
+    },
+    "badge_moved_5": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text_since_5": {
+      "type": "Text",
+      "props": {
+        "text": "DEXE day-2 collapse −84%; ONDO 2nd straight trending up",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack_watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_watch",
+        "watch_1",
+        "watch_2"
+      ]
+    },
+    "heading_watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "watch_1": {
+      "type": "Text",
+      "props": {
+        "text": "BTC $66K breakout on thin whale participation → fragile; timing matters for Focus #2 WR ETH short",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "watch_2": {
+      "type": "Text",
+      "props": {
+        "text": "SNDK +8%, MU +7% memory sector rebound confirmed → Chase called it right; Focus #1 urgency",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack_running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_running",
+        "running_1",
+        "running_2",
+        "running_3",
+        "running_4",
+        "running_5"
+      ]
+    },
+    "heading_running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "running_1": {
+      "type": "Text",
+      "props": {
+        "text": "token-alert + token-movers @ 12:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "running_2": {
+      "type": "Text",
+      "props": {
+        "text": "market-context-refresh @ 13:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "running_3": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "running_4": {
+      "type": "Text",
+      "props": {
+        "text": "skill-health @ 18:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "running_5": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 08:00, 14:00, 20:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
