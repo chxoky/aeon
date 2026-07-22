@@ -1,7 +1,15 @@
 🔍 *Calibration — @Wild_Randomness*
 
-Tweet: "How bad do you want it? https://t.co/kLl3rP8lYR"
+Event: Post reflecting on recent ETH short execution and weekly structure analysis
 
-Context: Wild_Randomness has active NVDA puts (Aug), VIX calls (Dec 2031), NVDA equity long position, and macro/vol thesis in play. Tweet is cryptic with shortened URL link.
+Wild_Randomness: "\$ETH
 
-Unable to classify — what's your read? Does this reference a specific position/setup, or is it sentiment/hype commentary?
+Back to the level …c
+
+Was a great spot as I was able to catch a pico top short for like \$120, however…c
+
+From a weekly perspective, it does indicate there is room to poke its head over 2K before we can discuss bearish trend retests, etc."
+
+Unable to classify — is this a **current short position** you should mirror, or a **past-closed trade** they're reflecting on? How would you read it?
+
+[View post](https://x.com/Wild_Randomness/status/2079738276941119612)

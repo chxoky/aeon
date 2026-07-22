@@ -1,0 +1,69 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading_calibration",
+        "text_event",
+        "separator1",
+        "tweet_post",
+        "separator2",
+        "alert_classify",
+        "link_view"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h2"
+      }
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Post reflecting on recent ETH short execution and weekly structure analysis"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet_post": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "$ETH\n\nBack to the level …c\n\nWas a great spot as I was able to catch a pico top short for like $120, however…c\n\nFrom a weekly perspective, it does indicate there is room to poke its head over 2K before we can discuss bearish trend retests, etc."
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_classify": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification Question",
+        "message": "Unable to classify — is this a **current short position** you should mirror, or a **past-closed trade** they're reflecting on? How would you read it?",
+        "type": "warning"
+      }
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2079738276941119612"
+      }
+    }
+  }
+}
