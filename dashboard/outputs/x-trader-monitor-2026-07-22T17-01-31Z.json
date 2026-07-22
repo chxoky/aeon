@@ -1,0 +1,59 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "marked_badge",
+        "tweet_card",
+        "view_tweet_link",
+        "separator1",
+        "interpretation"
+      ]
+    },
+    "marked_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "[X] Matched",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "$ETH $ETHA\n\nWas the correct call to make, and while we still may tap my target, I have begun considering what's on the other side of this reversion.\n\nAs price has grinded up alongside Clarity Act optimism I wonder what the narrative will be for the remainder of the summer.\n\nEven if (when) it passes, I think the rational decision would be to TP into the POC (I already TP'd in the 1930s last week)."
+      },
+      "children": []
+    },
+    "view_tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2079974534552387817"
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "interpretation": {
+      "type": "Text",
+      "props": {
+        "text": "Aligns with bearish lean on ETH — reversal commentary & TP strategy converge with ryzzqq/Crypto_Chase positioning.",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
