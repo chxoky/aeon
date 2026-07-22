@@ -1,11 +1,16 @@
 ## Summary
 
-**discord-trader-monitor skill completed** (2026-07-22T00:33:56Z)
+**discord-trader-monitor execution complete**
 
-**Event:** Message from crypto_chase in Discord channel "Chase — Chase" (primary)
+Processed Discord message from Crypto_Chase (channel 1336082716063694962 — Chase primary):
 
-**Classification:** Non-financial banter (Step 5 Category A) — skip and log only
+- **Message ID:** 1529285747411259462
+- **Content:** "<@&1247940234558177521> Overall updates above, see yall in AM"
+- **Classification:** Non-financial (admin/sign-off)
+- **Action:** Skip — no alert sent
 
-**Content:** "Enjoy the gains my friends, this was a good one." — celebratory message with no specific trade detail, ticker, or actionable information.
+The message was a role mention and farewell with no trade detail or market analysis. Per the skill's classification rules (Step 5.A), non-financial banter is logged but not alerted.
 
-**Action taken:** No notification sent. Message ID `1529285334339293284` added to `memory/discord-trader-seen.txt` and logged to `memory/logs/2026-07-22.md`.
+**Updates made:**
+- Message ID added to `memory/discord-trader-seen.txt` to prevent re-processing
+- Log entry appended to `memory/logs/2026-07-22.md` with classification and notes
