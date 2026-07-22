@@ -1,0 +1,150 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Calibration — DC: HCH — Chat"
+      },
+      "children": [
+        "heading_event",
+        "section_context",
+        "section_message",
+        "section_analysis"
+      ]
+    },
+    "heading_event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event: Supporting channel premium member chat",
+        "level": "h2"
+      }
+    },
+    "section_context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "label_context",
+        "text_context",
+        "context_detail"
+      ]
+    },
+    "label_context": {
+      "type": "Text",
+      "props": {
+        "text": "Context prior message 2 hours ago:",
+        "variant": "caption"
+      }
+    },
+    "text_context": {
+      "type": "Badge",
+      "props": {
+        "text": "Comfy in shorts",
+        "variant": "outline"
+      }
+    },
+    "context_detail": {
+      "type": "Text",
+      "props": {
+        "text": "Position confidence on BTC/ETH/SOL/HYPE/ZEC/UNI/VVV short basket",
+        "variant": "muted"
+      }
+    },
+    "section_message": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "sep_1",
+        "message_header",
+        "message_content"
+      ]
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "message_header": {
+      "type": "Text",
+      "props": {
+        "text": "heartcanhodl",
+        "variant": "lead"
+      }
+    },
+    "message_content": {
+      "type": "Text",
+      "props": {
+        "text": "There is only one way out <:emoji_13:1063533084038926377>"
+      }
+    },
+    "section_analysis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "sep_2",
+        "analysis_header",
+        "unable_classify",
+        "options_stack"
+      ]
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "analysis_header": {
+      "type": "Heading",
+      "props": {
+        "text": "Classification",
+        "level": "h3"
+      }
+    },
+    "unable_classify": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read?",
+        "type": "info"
+      }
+    },
+    "options_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "option_a",
+        "option_b",
+        "option_c"
+      ]
+    },
+    "option_a": {
+      "type": "Text",
+      "props": {
+        "text": "(a) Market structure — longs forced to liquidate/exit positions?"
+      }
+    },
+    "option_b": {
+      "type": "Text",
+      "props": {
+        "text": "(b) Conviction reinforcement on his short thesis"
+      }
+    },
+    "option_c": {
+      "type": "Text",
+      "props": {
+        "text": "(c) Off-topic/social statement"
+      }
+    }
+  }
+}
