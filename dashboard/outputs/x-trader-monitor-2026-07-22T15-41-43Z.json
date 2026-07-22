@@ -1,0 +1,172 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_section",
+        "sep1",
+        "analysis_section"
+      ]
+    },
+    "tweet_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "tweet_link"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "So, wait a minute...\n\n$BTC went from 59K to 83K, then all the way back to 57K... and people still didn't buy?"
+      },
+      "children": []
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2079953817227923745"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "sentiment_label",
+        "alignment_block",
+        "convergence_block",
+        "opposition_block",
+        "group_sentiment"
+      ]
+    },
+    "sentiment_label": {
+      "type": "Badge",
+      "props": {
+        "text": "Structural bull sentiment",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "alignment_block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "align_header",
+        "killa_position"
+      ]
+    },
+    "align_header": {
+      "type": "Text",
+      "props": {
+        "text": "Aligns with:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "killa_position": {
+      "type": "Text",
+      "props": {
+        "text": "Killa's core 2x HTF long (06-13 entry, partial TP 07-18 at 63.8K/62.6K)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "convergence_block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "converge_header",
+        "t_in_crypto_pos",
+        "swarmister_pos"
+      ]
+    },
+    "converge_header": {
+      "type": "Text",
+      "props": {
+        "text": "Converges with:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "t_in_crypto_pos": {
+      "type": "Text",
+      "props": {
+        "text": "t_in_crypto (x2 volume add @ 62K)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "swarmister_pos": {
+      "type": "Text",
+      "props": {
+        "text": "swarmister (opened long 07-17 targeting 70.7K)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "opposition_block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "oppose_header",
+        "bearish_stance"
+      ]
+    },
+    "oppose_header": {
+      "type": "Text",
+      "props": {
+        "text": "Cuts against:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "bearish_stance": {
+      "type": "Text",
+      "props": {
+        "text": "HCH/Wild_Randomness ongoing macro bearish stance",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "group_sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Group remains MIXED on BTC",
+        "variant": "outline"
+      },
+      "children": []
+    }
+  }
+}
