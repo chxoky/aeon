@@ -1,41 +1,42 @@
 *Token Movers — 2026-07-22*
 
-_Green tape — ~79% of filtered top-100 positive, median top-50 +1.7%; DEXE (−84%, day-3 collapse) is the sole catastrophic outlier._
+_Tape cooling — 62/100 top coins positive (down from ~80% all session), median top-50 +1.1%; leaders holding but breadth compressing into the evening. NIGHT +29.5% from the morning run has faded out of the top 10._
 
 *Top Winners (24h)*
-1. NIGHT (Midnight) — $0.02397  +29.5% / 7d −16.5% / 1h −1.8%  •  $102M / #115  [FADE]
-2. TALUS (US) — $0.04290  +12.6% / 7d +58.2% / 1h +1.7%  •  $6.4M / #226
-3. ONDO (Ondo) — $0.4010  +11.8% / 7d +25.9% / 1h −0.3%  •  $223M / #41  [TRENDING+UP]
-4. GRAM (Toncoin) — $1.580  +10.0% / 7d −2.3% / 1h +2.8%  •  $70M / #24
-5. RAIN (Rain) — $0.01548  +9.9% / 7d +4.5% / 1h +0.9%  •  $23M / #12
-6. GENIUS (Genius) — $0.3552  +9.0% / 7d +8.0% / 1h −1.7%  •  $19M / #230
-7. VVV (Venice Token) — $12.66  +8.2% / 7d +15.1% / 1h +0.6%  •  $36M / #92
-8. AAVE (Aave) — $97.16  +7.6% / 7d −2.1% / 1h +1.0%  •  $216M / #51
-9. 1INCH (1INCH) — $0.08168  +7.6% / 7d +8.9% / 1h −1.1%  •  $23M / #239
-10. UB (Unibase) — $0.1053  +7.2% / 7d +46.6% / 1h +3.7%  •  $14M / #143
+1. ONDO (Ondo) — $0.4011  +11.5% / 7d +26.2% / 1h +0.3%  •  $224M / #41  [TRENDING+UP]
+2. RAIN (Rain) — $0.01558  +10.4% / 7d +5.7% / 1h +1.0%  •  $23M / #12  [MAJOR]
+3. GRAM (Gram) — $1.58  +9.4% / 7d −2.1% / 1h +3.1%  •  $72M / #24  [TRENDING+UP]
+4. VVV (Venice Token) — $12.59  +7.3% / 7d +14.5% / 1h −0.3%  •  $43M / #92
+5. HBAR (Hedera) — $0.07038  +5.3% / 7d +4.9% / 1h +0.6%  •  $71M / #30
+6. FIL (Filecoin) — $0.7717  +4.9% / 7d −1.5% / 1h −0.3%  •  $77M / #90
+7. BEAT (Audiera) — $2.48  +4.9% / 7d −5.3% / 1h +0.5%  •  $12M / #83
+8. ENA (Ethena) — $0.0874  +4.5% / 7d +5.1% / 1h +0.2%  •  $118M / #75
+9. XMR (Monero) — $355  +4.1% / 7d +7.3% / 1h −0.6%  •  $122M / #17  [MAJOR]
+10. TAO (Bittensor) — $201  +3.6% / 7d +1.1% / 1h +0.5%  •  $113M / #42
 
 *Top Losers (24h)*
-1. DEXE (DeXe) — $5.440  −84.1% / 7d −86.6% / 1h −11.1%  •  $251M / #145  [TRENDING+DOWN][CAPITULATION]
-2. TRAC (OriginTrail) — $0.3008  −9.2% / 7d +16.9% / 1h −1.1%  •  $15M / #217
-3. BLIFE (BinanceLife) — $0.6062  −4.7% / 7d −19.5% / 1h +0.6%  •  $44M / #91
-4. DRV (Derive) — $0.1189  −4.1% / 7d −19.8% / 1h −0.5%  •  $1.8M / #232
-5. SYRUP (Maple Finance) — $0.1809  −3.2% / 7d −5.1% / 1h −0.6%  •  $8.2M / #164
-6. BONK (Bonk) — $0.000003  −2.6% / 7d −18.6% / 1h +2.1%  •  $47M / #140
-7. NEAR (NEAR Protocol) — $1.940  −2.6% / 7d −3.6% / 1h −0.0%  •  $212M / #36
-8. HYPE (Hyperliquid) — $60.87  −2.5% / 7d −6.3% / 1h −0.1%  •  $366M / #10  [MAJOR]
-9. SUN (Sun Token) — $0.01845  −1.8% / 7d +1.6% / 1h +0.0%  •  $57M / #118
-10. ZEC (Zcash) — $531.9  −1.6% / 7d −4.3% / 1h −0.0%  •  $311M / #15  [MAJOR]
+1. DEXE (DeXe) — $5.24  −84.7% / 7d n/a / 1h n/a  •  $92M / #145  [TRENDING+DOWN][CAPITULATION]
+2. BLIFE (BinanceLife) — $0.609  −5.4% / 7d −19.4% / 1h +0.4%  •  $44M / #91
+3. NEAR (NEAR Protocol) — $1.93  −3.5% / 7d −4.1% / 1h −0.7%  •  $210M / #37
+4. HYPE (Hyperliquid) — $60.76  −2.9% / 7d −8.2% / 1h −0.2%  •  $363M / #10  [TRENDING+DOWN][MAJOR]
+5. ZEC (Zcash) — $531  −2.7% / 7d −4.2% / 1h +0.1%  •  $344M / #15  [MAJOR]
+6. PEPE — $0.000002870  −2.1% / 7d +3.1% / 1h −0.2%  •  $143M / #60
+7. LTC (Litecoin) — $46.58  −1.6% / 7d +3.6% / 1h −0.4%  •  $220M / #27
+8. ARB (Arbitrum) — $0.08966  −0.9% / 7d −2.0% / 1h −0.3%  •  $43M / #93
+9. POL (ex-MATIC) — $0.07997  −0.6% / 7d −5.3% / 1h 0.0%  •  $30M / #72
+10. BELDEX — $0.08316  −0.5% / 7d −5.6% / 1h −1.1%  •  $14M / #88
 
 *Trending*
-1. ERA (Caldera) — #955, $0.08707, 24h −8.8%
-2. BTC (Bitcoin) — #1, $66,379, 24h +1.8%  [MAJOR]
-3. PONS (Pons) — #556, $0.04547, 24h +54.6%  [PUMP-RISK]
-4. XRP (XRP) — #6, $1.140, 24h +2.8%  [MAJOR]
-5. DEXE (DeXe) — #141, $5.621, 24h −83.7%  [TRENDING+DOWN]
-6. PI (Pi Network) — #66, $0.09070, 24h −1.4%
-7. ANSEM (The Black Bull) — #290, $0.2041, 24h −2.8%
+1. PENGU (Pudgy Penguins) — #115, $0.006326, 24h −0.4%
+2. PONS — #556, $0.04605, 24h +42.9%  [PUMP-RISK]
+3. ERA (Caldera) — #947, $0.08725, 24h −12.8%
+4. XRP — #6, $1.142, 24h +2.4%  [MAJOR]
+5. HYPE — #10, $60.77, 24h −2.6%  [TRENDING+DOWN][MAJOR]
+6. PI (Pi Network) — #66, $0.09019, 24h −1.4%
+7. BTC — #1, $66,284, 24h +1.5%  [MAJOR]
 
 *Notable*
-• NIGHT: [CAPITULATION] −26% yesterday → [FADE] +29.5% today — 7d still −16.5%, dead-cat structure intact
-• ONDO: 3rd consecutive day [TRENDING+UP], +11.8% on $223M vol — RWA narrative with real sustained volume
-• TRAC (OriginTrail): new loser −9.2% after +16.9% 7d run — fading last week's rally
+• DEXE: day-3 collapse — −84.7%, still [TRENDING+DOWN][CAPITULATION]; vol/mcap ratio well above 0.25; no sign of stabilization
+• PONS: rank #556, +42.9% and trending — [PUMP-RISK]; low-cap memecoin, manipulation likely
+• ONDO: third straight session as top winner [TRENDING+UP] — RWA narrative holding; 7d +26.2% confirms sustained move, not a flip
+• Breadth warning: 62% positive vs 80%+ all morning/afternoon — evening compression; NIGHT (+29.5% AM) and AAVE, 1INCH faded out of top 10
