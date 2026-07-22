@@ -11,3 +11,12 @@ Even if (when) it passes, I think the rational decision would be to TP into the 
 [View tweet](https://x.com/Wild_Randomness/status/2079974534552387817)
 
 ↳ _Aligns with bearish lean on ETH — reversal commentary & TP strategy converge with ryzzqq/Crypto_Chase positioning._
+📐 *DCA Plan — @Wild_Randomness*
+
+ETHA: August/September puts between 1950-2025 strike levels
+
+"Personally, I will be averaging into August/September ETHA puts between 1950-2025. Invalidation would be firm acceptance above the POC / weekly trend."
+
+[View post](https://x.com/Wild_Randomness/status/2079974972580372986)
+
+Want to set up your own DCA on this, or skip?

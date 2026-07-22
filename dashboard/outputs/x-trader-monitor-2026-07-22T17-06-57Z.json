@@ -1,0 +1,71 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "DCA Plan — @Wild_Randomness"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-etha",
+        "separator-1",
+        "tweetcard-plan",
+        "separator-2",
+        "link-post",
+        "text-call-to-action"
+      ]
+    },
+    "text-etha": {
+      "type": "Text",
+      "props": {
+        "text": "ETHA: August/September puts between 1950-2025 strike levels",
+        "variant": "lead"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweetcard-plan": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Personally, I will be averaging into August/September ETHA puts between 1950-2025. Invalidation would be firm acceptance above the POC / weekly trend."
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link-post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2079974972580372986"
+      }
+    },
+    "text-call-to-action": {
+      "type": "Text",
+      "props": {
+        "text": "Want to set up your own DCA on this, or skip?",
+        "variant": "caption"
+      }
+    }
+  }
+}
