@@ -1,0 +1,79 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration task for tweet classification"
+      },
+      "children": [
+        "badge_calibration",
+        "heading_operator",
+        "heading_event",
+        "text_context",
+        "tweet_post",
+        "separator_main",
+        "heading_question",
+        "text_classification"
+      ]
+    },
+    "badge_calibration": {
+      "type": "Badge",
+      "props": {
+        "text": "Calibration",
+        "variant": "secondary"
+      }
+    },
+    "heading_operator": {
+      "type": "Heading",
+      "props": {
+        "text": "@swarmister",
+        "level": "h4"
+      }
+    },
+    "heading_event": {
+      "type": "Heading",
+      "props": {
+        "text": "Reply to @Baskitchbrah @0xLionsTrade",
+        "level": "h3"
+      }
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "(context not visible)",
+        "variant": "muted"
+      }
+    },
+    "tweet_post": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "Looks gud"
+      }
+    },
+    "separator_main": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_question": {
+      "type": "Heading",
+      "props": {
+        "text": "Classification Request",
+        "level": "h4"
+      }
+    },
+    "text_classification": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read? Is this a technical agreement on BTC/ETH structure, or something else? Ticker not explicit.",
+        "variant": "lead"
+      }
+    }
+  }
+}
