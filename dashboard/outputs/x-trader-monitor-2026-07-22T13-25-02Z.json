@@ -1,0 +1,112 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Trade Signal — @ryzzqq"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "signal_info",
+        "text_quote",
+        "sep_1",
+        "heading_context",
+        "text_context",
+        "link_post",
+        "sep_2",
+        "text_action"
+      ]
+    },
+    "signal_info": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_token",
+        "badge_direction",
+        "badge_entry"
+      ]
+    },
+    "badge_token": {
+      "type": "Badge",
+      "props": {
+        "text": "TAO",
+        "variant": "default"
+      }
+    },
+    "badge_direction": {
+      "type": "Badge",
+      "props": {
+        "text": "LONG",
+        "variant": "default"
+      }
+    },
+    "badge_entry": {
+      "type": "Badge",
+      "props": {
+        "text": "Market entry (current price)",
+        "variant": "outline"
+      }
+    },
+    "text_quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"longed some tao here likely chops a bit first since it has no momentum. left room to add more on the chop.\"",
+        "variant": "lead"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_context": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "ryzzqq notes weakness in AI narrative (\"haven't seen those AI shills in a while,\" all previous leaders losing momentum), positioning for potential rotation over next few days. Planning to scale in on weakness.",
+        "variant": "body"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/ryzzqq/status/2079918768197943558"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_action": {
+      "type": "Text",
+      "props": {
+        "text": "Reply `approve TAO` to mirror this on Kraken (spot), or ignore to skip.",
+        "variant": "body"
+      }
+    }
+  }
+}

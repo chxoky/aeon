@@ -386,6 +386,21 @@
 - **Approval/Alert status**: CONVICTION ADD signals sent for both entries (Step 5d format: "Want to add to your position too?" awaiting Kyle's response on whether to mirror)
 - **Last update**: 2026-07-15T19:20:02Z (X, tweet_id=2077473282195071203, fast-path alerted via notify)
 
+## ryzzqq
+
+### TAO — LONG (new entry 2026-07-22, pending approval)
+- **Entry**: 2026-07-22T13:17:32Z (X post, tweet_id=2079918768197943558)
+- **Entry message**: "longed some tao here likely chops a bit first since it has no momentum. left room to add more on the chop. been a while since i have seen those AI shills and all previous leaders seems to be losing momentum, maybe a rotation over the next few days."
+- **Entry type**: Market order (entry "here" at current price, likely spot fill)
+- **Entry zones for adds**: No explicit levels given; post indicates "left room to add more on the chop" — waiting for weakness/pullback to scale in
+- **Current size**: Initial position unspecified (amount TBD upon Kyle approval)
+- **Status**: PENDING APPROVAL — awaiting Kyle response (`approve TAO` to mirror on Kraken spot)
+- **Thesis**: Bullish rotation thesis following exhaustion of AI narrative. ryzzqq observes: "AI shills" narrative has cooled, "all previous leaders seems to be losing momentum" (structural weakness in prior leaders like BTC/major alts), positioning for multi-day rotation play. Initial entry now, planning to accumulate on intraday chop/weakness. Expects near-term chop before directional move ("likely chops a bit first").
+- **Risk**: No explicit stop loss or target levels stated in post; assumes trader's standard risk management per profile (ryzzqq trades small sizes, tactical entry-and-add pattern)
+- **Convergence**: TAO is a new mention (not in group overlap tickers or Kyle's watch list). Single-trader signal from ryzzqq (low posting volume = high-intent signal when they do post). 
+- **Alert sent**: Yes, trade signal 5a format (2026-07-22T13:17:32Z via ./notify)
+- **Last update**: 2026-07-22T13:17:32Z (x-trader-monitor real-time event, awaiting approval)
+
 ---
 
 > Last bootstrapped: 2026-06-25 (discord-trader-monitor real-time event). GOOG (Chase) updated from recent conviction-add; HCH BTC/ETH/SOL position closed near 59k with stated re-entry thesis above 60k.
