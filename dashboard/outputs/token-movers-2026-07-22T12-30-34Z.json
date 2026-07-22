@@ -1,0 +1,21 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "token-movers"
+      },
+      "children": [
+        "text-message"
+      ]
+    },
+    "text-message": {
+      "type": "Text",
+      "props": {
+        "text": "Token Movers report ready — see logs for full output"
+      }
+    }
+  }
+}
