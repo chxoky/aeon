@@ -1,0 +1,58 @@
+{
+  "root": "card-1",
+  "state": {},
+  "elements": {
+    "card-1": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @HeartCanHodl"
+      },
+      "children": [
+        "stack-1"
+      ]
+    },
+    "stack-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-event",
+        "text-quote",
+        "text-analysis",
+        "link-1"
+      ]
+    },
+    "text-event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @hellojintao about market timing"
+      },
+      "children": []
+    },
+    "text-quote": {
+      "type": "Text",
+      "props": {
+        "text": "HeartCanHodl: \"Isn't ansem topped in the 1st week of July?\"",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text-analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read? (Is 'ansem' a ticker? Is this asking about a short opportunity that peaked?)"
+      },
+      "children": []
+    },
+    "link-1": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/HeartCanHodl/status/2080038785635729458"
+      },
+      "children": []
+    }
+  }
+}
