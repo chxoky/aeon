@@ -1,0 +1,52 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "link_view",
+        "text_interpretation"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "handle": "t_in_crypto",
+        "text": "Liquidations at $72.6 are growing exponentially. Short sellers still haven't learned their lesson $btc #btc"
+      },
+      "children": []
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/t_in_crypto/status/2079764083625083299"
+      },
+      "children": []
+    },
+    "text_interpretation": {
+      "type": "Text",
+      "props": {
+        "text": "Reinforces structural bull lean alongside KillaXBT & swarmister this week; hedges against HCH's continuing short conviction.",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
