@@ -173,13 +173,16 @@ async function handleTwitter(request, env, ctx) {
     // No raw forward to Telegram — x-trader-monitor is the sole gate on what
     // reaches Kyle. Pass the event through as base64-JSON via ${var}; the skill
     // decides whether (and how) to alert.
+    const media = extractTweetMedia(tweet);
+    logMediaDiagnostics(tweet, tweetId, username, text, media);
+
     const event = {
       id:         tweetId,
       username,
       text,
       created_at: tweet.createdAt ?? tweet.created_at ?? tweet?.tweet_created_at ?? '',
       url:        tweetUrl,
-      media:      extractTweetMedia(tweet),
+      media,
     };
 
     ctx.waitUntil((async () => {
@@ -191,6 +194,44 @@ async function handleTwitter(request, env, ctx) {
   }
 
   return new Response('OK');
+}
+
+// Diagnostic only — no effect on what gets dispatched.
+// Image-bearing posts have been reaching x-trader-monitor with an empty media[],
+// leaving the skill to improvise a fetch of the x.com status page (login-gated,
+// returns HTTP 402) instead of the public pbs.twimg.com CDN URL. Nothing recorded
+// the raw payload, so it was impossible to tell whether twitterapi.io omitted the
+// media or extractTweetMedia missed a shape variant. This logs the evidence.
+// Observability is on (wrangler.toml), so these persist in CF's log store.
+function logMediaDiagnostics(tweet, tweetId, username, text, media) {
+  if (media.length) {
+    console.log(`xmedia: id=${tweetId} @${username} extracted=${media.length} urls=${media.join(' ')}`);
+    return;
+  }
+
+  const counts = {
+    media:             Array.isArray(tweet?.media) ? tweet.media.length : null,
+    extended_entities: Array.isArray(tweet?.extended_entities?.media) ? tweet.extended_entities.media.length : null,
+    entities:          Array.isArray(tweet?.entities?.media) ? tweet.entities.media.length : null,
+  };
+  const firstEntry = tweet?.media?.[0] ?? tweet?.extended_entities?.media?.[0] ?? tweet?.entities?.media?.[0] ?? null;
+
+  // A bare/trailing t.co link is how X renders an attached image or quote-post,
+  // so it's the tell that this post was visual even when no media array arrived.
+  const looksVisual = /https:\/\/t\.co\//.test(text)
+    || Boolean(counts.media || counts.extended_entities || counts.entities);
+
+  console.log(
+    `xmedia: id=${tweetId} @${username} extracted=0 looks_visual=${looksVisual} ` +
+    `counts=${JSON.stringify(counts)} entry_keys=${JSON.stringify(firstEntry ? Object.keys(firstEntry) : [])} ` +
+    `tweet_keys=${JSON.stringify(Object.keys(tweet ?? {}))}`
+  );
+
+  // Full payload only for the cases we're actually hunting, capped so one fat
+  // tweet object can't flood the log store.
+  if (looksVisual) {
+    console.log(`xmedia-raw: id=${tweetId} ${JSON.stringify(tweet).slice(0, 4000)}`);
+  }
 }
 
 function extractTweetMedia(tweet) {
