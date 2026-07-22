@@ -1,9 +1,14 @@
-🐦 *[X] @ryzzqq*
+🔍 *Calibration — @ryzzqq*
 
-ETH — bearish outlook
+Event: Reply to @donnieearklano & @Supbads (cryptic)
 
-"@Supbads eth i will be looking for shorts over the next few days"
+@ryzzqq: "will wait for weakness"
 
-[View tweet](https://x.com/ryzzqq/status/2079920865047990357)
+Context from recent activity (same session):
+- TAO long entry (13:17:32Z, 26 min prior): "longed some tao here likely chops a bit first... left room to add more on the chop"
+- ETH bearish outlook (13:25Z, 18 min prior): "looking for shorts over the next few days"
 
-↳ _This aligns with HeartCanHodl's active short basket position on ETH._
+Unable to classify — what's your read? Waiting for weakness to:
+a) add to TAO position
+b) short ETH
+c) other thesis

@@ -1,0 +1,185 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @ryzzqq",
+        "description": "Event: Reply to @donnieearklano & @Supbads (cryptic)"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stack_quote",
+        "separator_1",
+        "heading_context",
+        "stack_activity",
+        "separator_2",
+        "heading_question",
+        "stack_options"
+      ]
+    },
+    "stack_quote": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_author",
+        "text_quote"
+      ]
+    },
+    "badge_author": {
+      "type": "Badge",
+      "props": {
+        "text": "@ryzzqq",
+        "variant": "outline"
+      }
+    },
+    "text_quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"will wait for weakness\"",
+        "variant": "body"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_context": {
+      "type": "Heading",
+      "props": {
+        "text": "Context from recent activity (same session)",
+        "level": "h3"
+      }
+    },
+    "stack_activity": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item_tao",
+        "item_eth"
+      ]
+    },
+    "item_tao": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "badge_tao_label",
+        "text_tao_quote"
+      ]
+    },
+    "badge_tao_label": {
+      "type": "Badge",
+      "props": {
+        "text": "TAO long entry · 13:17:32Z (26 min prior)",
+        "variant": "secondary"
+      }
+    },
+    "text_tao_quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"longed some tao here likely chops a bit first... left room to add more on the chop\"",
+        "variant": "caption"
+      }
+    },
+    "item_eth": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "badge_eth_label",
+        "text_eth_quote"
+      ]
+    },
+    "badge_eth_label": {
+      "type": "Badge",
+      "props": {
+        "text": "ETH bearish outlook · 13:25Z (18 min prior)",
+        "variant": "secondary"
+      }
+    },
+    "text_eth_quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"looking for shorts over the next few days\"",
+        "variant": "caption"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_question": {
+      "type": "Heading",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "level": "h3"
+      }
+    },
+    "stack_options": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_prompt",
+        "text_opt_a",
+        "text_opt_b",
+        "text_opt_c"
+      ]
+    },
+    "text_prompt": {
+      "type": "Text",
+      "props": {
+        "text": "Waiting for weakness to:",
+        "variant": "body"
+      }
+    },
+    "text_opt_a": {
+      "type": "Text",
+      "props": {
+        "text": "a) add to TAO position",
+        "variant": "body"
+      }
+    },
+    "text_opt_b": {
+      "type": "Text",
+      "props": {
+        "text": "b) short ETH",
+        "variant": "body"
+      }
+    },
+    "text_opt_c": {
+      "type": "Text",
+      "props": {
+        "text": "c) other thesis",
+        "variant": "body"
+      }
+    }
+  }
+}
