@@ -61,6 +61,7 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - Jul 15 13:57Z — market-call: SNDK generational bottom ~1350, worst case 1K, wants longer-hold re-entry [2077392182772662626]
   - Jul 15 14:48Z — market-call: INTC conditional long on relative-strength unwind sell-off, target ~120 [1526963744553308240]
   - Jul 15 18:17Z — ambiguous: "hopefully tho" / "patience pays" — referent unknown, PENDING calibration [1527012341152092311, 1527016238948286557]
+  - Jul 22 21:54Z — informational: Discord supporting-channel reply to member partnership inquiry: "If it's about breakout I'm already close with Mayne and all those guys" — not a market trade signal, context-clarification only [1529607709068886147]
   - Jul 15 22:54Z — ambiguous: "@blknoiz06 deviation?" + chart, likely SPX/ES deviation framework, PENDING calibration [2077527313961345423]
   - Jul 16 12:38Z — trade-exit: GOOG "took the high", final 25% closed, 24-day multi-TP trade complete [1527293303068819607]
   - Jul 16 13:10Z — ambiguous: "quick deviation, quick impulse, fair value gap" — no ticker, PENDING calibration [1527301365892907120]
