@@ -1,0 +1,39 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "view_tweet_link",
+        "analysis_text"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "Every cycle, $BTC has only formed 3 significant lows after the complacency high and final retest.\n\nThe third low has already formed this cycle."
+      }
+    },
+    "view_tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2079957962546684180"
+      }
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Aligns with documented capitulation-wick thesis + HTF-bullish group consensus on bottom-formation timing.",
+        "variant": "caption"
+      }
+    }
+  }
+}
