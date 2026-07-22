@@ -1,17 +1,12 @@
-🔍 *Calibration — @Wild_Randomness*
+## Summary
 
-Event: $GOOG $AVGO trading pattern observation (Jul 22 19:34 UTC)
+**Event processed:** @trading_axe tweet #2080016869554315618 (Jul 22 19:47:21 UTC)
 
-"In all seriousness though:
+**Classification: NON-FINANCIAL / SKIP**
+- Content: Personal/social banter about low-IQ behavior and recruitment scams
+- No financial signal, no ticker, no market opinion, no trade execution
+- No alert sent (per Step 4A rule)
+- Logged to daily activity log only
+- Added to dedup list to prevent reprocessing
 
-1. Avgo trading like Google is gonna raise capex
-2. Google trading like they gonna raise capex https://t.co/j7Ous6W5Ky"
-
-Unable to classify — what's your read? Bearish stress observation? Bullish expansion thesis? Valuation mismatch call?
-
-[View post](https://x.com/Wild_Randomness/status/2080013558763409607)
-Tweet: Jul 22 19:34Z
-
-"Think you just want to see positive discussions on ROIC, confidence in their capex spend, and market to play ball / not nuke them if they increase numbers"
-
-Unable to classify which asset/sector this references. Market commentary on investor sentiment and capital allocation, but ticker is unclear. Which stock is this about?
+This tweet matches trading_axe's documented pattern (~95% non-financial noise per traders.md). Per the skill's Step 4A rule, skip/non-financial events are not stored in traders.md—only logged to the daily log.
