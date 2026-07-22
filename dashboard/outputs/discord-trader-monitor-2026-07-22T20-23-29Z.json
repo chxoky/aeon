@@ -1,0 +1,98 @@
+{
+  "root": "card-monitor",
+  "state": {},
+  "elements": {
+    "card-monitor": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "quoted-msg",
+        "separator-msgs",
+        "response-msg"
+      ]
+    },
+    "quoted-msg": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "quote-indicator",
+        "quote-text"
+      ]
+    },
+    "quote-indicator": {
+      "type": "Text",
+      "props": {
+        "text": "↩️ Member",
+        "variant": "muted"
+      }
+    },
+    "quote-text": {
+      "type": "Text",
+      "props": {
+        "text": "any TSLA interest?"
+      }
+    },
+    "separator-msgs": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "response-msg": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "response-header",
+        "response-text"
+      ]
+    },
+    "response-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "chat-bubble",
+        "author-badge"
+      ]
+    },
+    "chat-bubble": {
+      "type": "Text",
+      "props": {
+        "text": "💬"
+      }
+    },
+    "author-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Chase — TradFi (DC)",
+        "variant": "secondary"
+      }
+    },
+    "response-text": {
+      "type": "Text",
+      "props": {
+        "text": "Ugly chart, no interest"
+      }
+    }
+  }
+}
