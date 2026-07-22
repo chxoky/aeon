@@ -1,0 +1,99 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @abetrade"
+      },
+      "children": [
+        "text_event",
+        "sep1",
+        "tweet_card",
+        "sep2",
+        "text_question",
+        "text_opt1",
+        "text_opt2",
+        "text_opt3",
+        "sep3",
+        "text_previous",
+        "link_post"
+      ]
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Third cryptic URL-only post in 3 days (Jul 20, 21, 22)",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "abetrade",
+        "text": "@maruushae https://t.co/aJiEimGE02"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_question": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read? Is this:",
+        "variant": "lead"
+      }
+    },
+    "text_opt1": {
+      "type": "Text",
+      "props": {
+        "text": "• Reference to market-structure analysis you're tracking?",
+        "variant": "body"
+      }
+    },
+    "text_opt2": {
+      "type": "Text",
+      "props": {
+        "text": "• Endorsement of @maruushae's position/thesis?",
+        "variant": "body"
+      }
+    },
+    "text_opt3": {
+      "type": "Text",
+      "props": {
+        "text": "• External content share?",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_previous": {
+      "type": "Text",
+      "props": {
+        "text": "Previous cryptic posts (Jul 20–21) awaiting same calibration.",
+        "variant": "caption"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/abetrade/status/2079864871001206910"
+      }
+    }
+  }
+}
