@@ -1,0 +1,206 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor: Calibration"
+      },
+      "children": [
+        "heading_calibration",
+        "sep_1",
+        "section_context",
+        "sep_2",
+        "tweet_card",
+        "sep_3",
+        "section_analysis"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section_context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_heading",
+        "badge_gold",
+        "text_watchlist",
+        "stat_meltup",
+        "text_no_red",
+        "text_crypto_chase"
+      ]
+    },
+    "context_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "badge_gold": {
+      "type": "Badge",
+      "props": {
+        "text": "$GOLD",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "text_watchlist": {
+      "type": "Text",
+      "props": {
+        "text": "$GOLD is on explicit watch list",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "stat_meltup": {
+      "type": "Stat",
+      "props": {
+        "label": "Bullish meltup noted Jul 20",
+        "value": "+60%",
+        "delta": "over 5 months"
+      },
+      "children": []
+    },
+    "text_no_red": {
+      "type": "Text",
+      "props": {
+        "text": "No red weeklies",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_crypto_chase": {
+      "type": "Text",
+      "props": {
+        "text": "Crypto_Chase interested at ~3,820 level",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "$GOLD\n\nDo you see it now? https://t.co/eMM0E4gECZ"
+      },
+      "children": []
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section_analysis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert_unable",
+        "classification_section",
+        "url_note",
+        "link_view_tweet"
+      ]
+    },
+    "alert_unable": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Current post is extremely terse with no execution language or clear intent. What's your read?",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "classification_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_options_heading",
+        "option_1",
+        "option_2",
+        "option_3",
+        "option_4"
+      ]
+    },
+    "text_options_heading": {
+      "type": "Text",
+      "props": {
+        "text": "Possible interpretations:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "option_1": {
+      "type": "Badge",
+      "props": {
+        "text": "(1) Bullish continuation on the meltup",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "option_2": {
+      "type": "Badge",
+      "props": {
+        "text": "(2) Bearish mean-reversion warning",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "option_3": {
+      "type": "Badge",
+      "props": {
+        "text": "(3) Technical chart-based observation requiring eyes-on-screen",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "option_4": {
+      "type": "Badge",
+      "props": {
+        "text": "(4) Something else entirely",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "url_note": {
+      "type": "Text",
+      "props": {
+        "text": "Note: URL content (image link) inaccessible in skill scope",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "link_view_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2079735750523035939"
+      },
+      "children": []
+    }
+  }
+}
