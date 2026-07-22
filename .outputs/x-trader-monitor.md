@@ -1,8 +1,8 @@
-🐦 *[X] @t_in_crypto*
+🔍 *Calibration — @HeartCanHodl*
 
-Liquidations at $72.6 are growing exponentially. Short sellers still haven't learned their lesson
-$btc #btc
+Event: Early morning post (03:59 UTC Jul 22)
+HeartCanHodl: "gm https://t.co/fWDypwWroe"
 
-[View tweet](https://x.com/t_in_crypto/status/2079764083625083299)
+Post has attached market chart image but zero context text. Cannot classify — is this market commentary or just a social greeting?
 
-↳ _Reinforces structural bull lean alongside KillaXBT & swarmister this week; hedges against HCH's continuing short conviction._
+Reply with context so I can calibrate.
