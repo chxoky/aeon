@@ -21,3 +21,6 @@
 - ✓ Message ID tracked (discord-trader-seen.txt)
 - ✓ Observation logged in traders.md (HCH section)
 - ✓ Event recorded in memory/logs/2026-07-22.md
+💬 *[DC: HCH — Chat]*
+
+Comfy in shorts
