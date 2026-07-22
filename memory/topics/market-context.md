@@ -52,6 +52,56 @@ Total: $318.5B (+$9.4B vs prior $309.06B — methodology may differ; track for c
 - LAB — #439, +19.40% 24h. Microcap pump; illiquid, avoid.
 - PI (Pi Network) — #65, +0.91% 24h. Persistent low-volume trending entry.
 - VVV (Venice Token) — #92, −1.15% 24h. AI narrative participant; mild negative.
+> **Take:** chop — BTC −0.43% 24h (barely negative; below the +2% risk-on trigger), median top-50 at −0.42%, F&G 33 (Fear) unchanged for a second snapshot. Conviction: medium-low (62/100 positive in top 100 and DeFi TVL still up 7d push back; mild red flip and flat DEX vol push in the other direction).
+
+## Signal Snapshot
+- BTC $65,931 (−0.43% 24h) · dominance 56.77% (+0.01pp 24h)
+- ETH $1,920 (−1.01% 24h) · ETH/BTC 0.02913
+- SOL $77.32 (−1.36% 24h)
+- Total mcap $2.33T (−0.54% 24h) · DEX vol $6.32B 24h
+- Breadth: ~62/100 green 24h · median top-50 −0.42%
+- Fear & Greed: 33 (Fear) — yesterday 25 (Extreme Fear)
+
+## What Changed Since Last Refresh
+- **BTC flipped negative (−0.43% 24h vs +1.29%)** — small move but direction changed; no longer a positive momentum day
+- **ETH and SOL both red** (ETH −1.01%, SOL −1.36%) — alt softness mirrors BTC flip; no outperformance
+- **GRAM momentum stalling** — day-3 gains now only +2.9% vs +10% yesterday; 7d now −6.6%; rebrand catalyst fading
+- **DEX volume flat at $6.32B** — no expansion or collapse; markets in wait-and-see mode ahead of FOMC (Jul 28-29)
+
+## Active Narratives
+- **RWA / tokenization (ONDO)** — phase: rising. Evidence: ONDO +2.46% 24h, day-3 consecutive positive, 7d +25.0%, still CoinGecko trending — momentum decelerating but confirmed.
+- **GRAM / TON rebrand** — phase: peak (downgrade from rising). Evidence: GRAM day-3 only +2.9% (vs +10% day-1/2), 7d now −6.6% — rebrand catalyst largely priced; watch for fade session.
+- **HYPE / Hyperliquid** — phase: fading (accelerating). Evidence: HYPE −6.68% 24h, −12.08% 7d, #10 mcap — ongoing distribution; no reversal signal.
+- **Altcoin L1 weakness** — phase: emerging bear. Evidence: NEAR −6.76%, ZEC −5.23%, BCH −6.32% 7d, LTC −2.74% — multiple large-cap L1s red across timeframes; breadth softening.
+- **Pre-FOMC consolidation** — phase: emerging. Evidence: BTC at $65.9K after 5-day rally from $62.6K; FOMC July 28-29 (6 days); no change 86% priced but WTI crude above $85 adds inflation risk.
+
+## Top DeFi Protocols (TVL, 7d change)
+- Lido: $17.75B (+2.86%)
+- Aave V3: $13.95B (+2.06%)
+- SSV Network: $9.33B (+1.92%)
+- Morpho Blue: $7.51B (+2.28%)
+- Binance Staked ETH: $7.11B (+2.04%)
+
+## Chain Flow (top 6 by TVL)
+- Ethereum: $41.87B
+- Solana: $4.95B (vs BSC $4.91B — Solana now #2 by TVL)
+- BSC: $4.91B
+- Tron: $4.85B
+- Base: $4.65B
+- Bitcoin: $4.32B
+*Capital flows flat across all major chains — no rotation signal.*
+
+## Stablecoins
+Total: ~$309B. USDT $184.07B · USDC $73.28B · USDS $6.68B · DAI $4.85B · USD1 $4.21B — ~14.1% of total crypto mcap. Flat — no fresh dry-powder signal.
+
+## Trending (CoinGecko)
+- BTC — #1, $65,933, −0.47%. Market attention on BTC holding $65K.
+- ETH — #2, $1,919, −1.07%. Trending on alt rotation/weakness watch.
+- HYPE — #10, $58.83, −6.62%. Trending on continued distribution.
+- ONDO — #41, $0.40, +2.66%. RWA narrative, day-3 confirmation.
+- TAO (Bittensor) — #42, $196.32, −1.22%. AI/compute narrative.
+- SOL — #7, $77.31, −1.39%. L1 tracking.
+- DEXE — #165, $4.41, −87.94%. Day-3 collapse; distress search traffic.
 
 ## Prediction Markets (Polymarket, top by 24h vol)
 | Market | YES% | 24h Vol | Liquidity |
@@ -71,10 +121,22 @@ Total: $318.5B (+$9.4B vs prior $309.06B — methodology may differ; track for c
 ## Implications for Downstream Skills
 - **token-pick:** Risk-off breadth (6/20) is not a buy environment — avoid new entries until breadth recovers to 12+/20 or FOMC catalyzes a regime flip. If forced: ONDO (watch day-4 for peak confirmation) and RAIN (momentum but no catalyst = elevated event risk). Hard avoids: HYPE (accelerating −12% 7d), GRAM (narrative closed), all L1 alts in the red.
 - **narrative-tracker:** ONDO day-4 is the next binary — <+1% 24h downgrades to peak/fading. RAIN needs catalyst identification; if no catalyst found by day-3, assign speculative-pump tag. Iran war / WTI is new variable to track into FOMC week.
+| Will Fed increase rates 25bps after July 2026 meeting? | 13.9% | $1.13M | $484K |
+| Will LeBron James play for Miami Heat 2026-27? | 50.7% | $825K | $92K |
+
+*FOMC no-change probability: ~86.1% (unchanged). LeBron/Miami is a 50/50 flip — crypto-irrelevant.*
+
+## Macro Catalysts (next 7 days)
+- **UK CPI data (today):** WTI crude above $85 raises odds of a hot print; would push FOMC +25bps probability higher (currently 14%).
+- **FOMC July 28-29 (primary):** No change 86% priced. BTC at $65.9K is key support into the print; hawkish surprise tests it.
+- **BTC ETF flows:** 5-day inflow streak totaling $727.3M through Jul 21; Jul 22 data pending. Momentum signal.
+
+## Implications for Downstream Skills
+- **token-pick:** Chop with mild red bias. Favor ONDO (RWA multi-day, 7d +25%) and HBAR (4.3% 7d, positive 24h). Avoid HYPE (−12% 7d), ZEC, NEAR, BCH (all red 7d). FOMC in 6 days — stay liquid.
+- **narrative-tracker:** Downgrade GRAM from rising to peak (day-3 deceleration, 7d flipped negative). ONDO is the sole confirmed rising narrative today. DEXE collapse entering resolution phase. Monitor BTC $65K support vs $62.6K next meaningful level.
 
 ## Token Picks Made
 | Date | Token | Price | Thesis |
-|------|-------|-------|--------|
 
 ---
 *Sources — btc/eth: CoinGecko · defi: DeFiLlama · sentiment: alternative.me · markets: Polymarket · catalysts: WebSearch*

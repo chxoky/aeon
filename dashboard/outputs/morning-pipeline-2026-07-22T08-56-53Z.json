@@ -1,0 +1,203 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-07-22"
+      },
+      "children": [
+        "heading-focus",
+        "focus-stack",
+        "sep1",
+        "heading-yesterday",
+        "yesterday-stack",
+        "sep2",
+        "heading-watch",
+        "watch-text",
+        "sep3",
+        "heading-running",
+        "running-table"
+      ]
+    },
+    "heading-focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "focus-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus-1",
+        "focus-2",
+        "focus-3"
+      ]
+    },
+    "focus-1": {
+      "type": "Text",
+      "props": {
+        "text": "1. Chase SNDK/MU mirrors — BofA raised MU to Buy/$1,550; Chase TP'd 75% of MU + 50% SNDK; remaining position with BE stops — decide now or the window closes."
+      },
+      "children": []
+    },
+    "focus-2": {
+      "type": "Text",
+      "props": {
+        "text": "2. Wild_Randomness ETH short — ETH at $1,920 and sliding today (−1.0%); WR said he caught a \"pico top short for $120\" but never confirmed closed — live vs. closed still unresolved; if open, it's in profit."
+      },
+      "children": []
+    },
+    "focus-3": {
+      "type": "Text",
+      "props": {
+        "text": "3. Pre-FOMC positioning — BTC flipped −0.43% today after a 5-day rally; chop regime, $65K is key support; FOMC in 6 days (Jul 28-29) with 14% odds of a 25bps hike vs yesterday's 14.5% — stay liquid."
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading-yesterday": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "yesterday-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "yest-1",
+        "yest-2",
+        "yest-3",
+        "yest-4",
+        "yest-5"
+      ]
+    },
+    "yest-1": {
+      "type": "Text",
+      "props": {
+        "text": "Chase closed 75% of MU (930/956/991) + 50% SNDK (1533); BE stops on remainder"
+      },
+      "children": []
+    },
+    "yest-2": {
+      "type": "Text",
+      "props": {
+        "text": "Wild_Randomness closed MRVL/INTC/NBIS momentum shorts +8–22%; TSM/FLEX long kept"
+      },
+      "children": []
+    },
+    "yest-3": {
+      "type": "Text",
+      "props": {
+        "text": "Market flipped mildly red today (BTC −0.43%, median large-cap −0.42% 24h)"
+      },
+      "children": []
+    },
+    "yest-4": {
+      "type": "Text",
+      "props": {
+        "text": "GRAM narrative downgraded from rising to peak (day-3 +2.9%, 7d −6.6%)"
+      },
+      "children": []
+    },
+    "yest-5": {
+      "type": "Text",
+      "props": {
+        "text": "t_in_crypto suppression rule active (7+ cryptic posts in 5 days; now silent by default)"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading-watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "watch-text": {
+      "type": "Text",
+      "props": {
+        "text": "UK CPI data today: WTI crude above $85 raises odds of a hot print → FOMC +25bps risk (14%) could widen"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading-running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "running-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Task",
+          "Time (UTC)"
+        ],
+        "rows": [
+          [
+            "token-alert",
+            "12:00"
+          ],
+          [
+            "token-movers",
+            "12:00"
+          ],
+          [
+            "market-context-refresh",
+            "13:00"
+          ],
+          [
+            "narrative-tracker",
+            "13:30"
+          ],
+          [
+            "heartbeat",
+            "08:00, 14:00, 20:00"
+          ],
+          [
+            "skill-health",
+            "18:00"
+          ]
+        ]
+      },
+      "children": []
+    }
+  }
+}
