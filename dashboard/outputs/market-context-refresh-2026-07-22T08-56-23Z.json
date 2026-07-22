@@ -1,0 +1,319 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Market Context — 2026-07-22"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "take-section",
+        "sep-1",
+        "prices-section",
+        "sep-2",
+        "breadth-section",
+        "sep-3",
+        "catalyst-section",
+        "sep-4",
+        "narrative-section",
+        "sep-5",
+        "hot-market-section"
+      ]
+    },
+    "take-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "take-label",
+        "conviction-label"
+      ]
+    },
+    "take-label": {
+      "type": "Badge",
+      "props": {
+        "text": "risk-off",
+        "variant": "secondary"
+      }
+    },
+    "conviction-label": {
+      "type": "Badge",
+      "props": {
+        "text": "conviction medium",
+        "variant": "outline"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "prices-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "price-heading",
+        "prices-grid"
+      ]
+    },
+    "price-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Prices & Sentiment",
+        "level": "h3"
+      }
+    },
+    "prices-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "btc-stat",
+        "eth-stat",
+        "fg-stat"
+      ]
+    },
+    "btc-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$65,927",
+        "delta": "−0.44%",
+        "trend": "down"
+      }
+    },
+    "eth-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$1,919",
+        "delta": "−1.02%",
+        "trend": "down"
+      }
+    },
+    "fg-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Fear & Greed",
+        "value": "33",
+        "delta": "Fear"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "breadth-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "breadth-heading",
+        "breadth-stack"
+      ]
+    },
+    "breadth-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Market Breadth",
+        "level": "h3"
+      }
+    },
+    "breadth-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "breadth-current",
+        "breadth-24h",
+        "breadth-7d"
+      ]
+    },
+    "breadth-current": {
+      "type": "Text",
+      "props": {
+        "text": "Breadth: 6/20"
+      }
+    },
+    "breadth-24h": {
+      "type": "Text",
+      "props": {
+        "text": "24h: Collapsed from 16/20"
+      }
+    },
+    "breadth-7d": {
+      "type": "Text",
+      "props": {
+        "text": "7d: 13/20 (stable)"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "catalyst-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "catalyst-heading",
+        "catalyst-list"
+      ]
+    },
+    "catalyst-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "New Catalysts",
+        "level": "h3"
+      }
+    },
+    "catalyst-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "catalyst-iran",
+        "catalyst-wti"
+      ]
+    },
+    "catalyst-iran": {
+      "type": "Text",
+      "props": {
+        "text": "Iran war"
+      }
+    },
+    "catalyst-wti": {
+      "type": "Text",
+      "props": {
+        "text": "WTI >$85 (first since Jun 12)"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "narrative-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "narrative-heading",
+        "narrative-list"
+      ]
+    },
+    "narrative-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Narratives",
+        "level": "h3"
+      }
+    },
+    "narrative-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "narrative-ondo",
+        "narrative-gram"
+      ]
+    },
+    "narrative-ondo": {
+      "type": "Text",
+      "props": {
+        "text": "ONDO day-3: +2.66% (decelerating)"
+      }
+    },
+    "narrative-gram": {
+      "type": "Text",
+      "props": {
+        "text": "GRAM: Peaked and exited trending"
+      }
+    },
+    "sep-5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "hot-market-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "hot-market-heading",
+        "hot-market-prob"
+      ]
+    },
+    "hot-market-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Hot Market",
+        "level": "h3"
+      }
+    },
+    "hot-market-prob": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "fed-prediction-text",
+        "fed-prediction-bar"
+      ]
+    },
+    "fed-prediction-text": {
+      "type": "Text",
+      "props": {
+        "text": "Fed no change Jul 2026: YES"
+      }
+    },
+    "fed-prediction-bar": {
+      "type": "Progress",
+      "props": {
+        "value": 86,
+        "max": 100,
+        "label": "86.0%"
+      }
+    }
+  }
+}

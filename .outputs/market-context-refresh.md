@@ -1,8 +1,8 @@
 market context — 2026-07-22
 
-take: chop (conviction medium)
-BTC $66,265 (+1.29%) / ETH $1,930 (+0.34%) · F&G 33 (Fear)
-breadth 16/20 · 7d breadth 13/20 (down from 17) · TVL top-5 all +2.5%+ 7d
-top narrative: ONDO rising (day-2, +11.78%) | GRAM rising (day-2, +10.16%)
-new catalyst: CLARITY Act Senate path cleared
-hot market: "FOMC no change Jul 2026?" YES 85.5%
+take: risk-off (conviction medium)
+BTC $65,927 (−0.44%) / ETH $1,919 (−1.02%) · F&G 33 (Fear)
+breadth 6/20 · 24h collapse from 16/20 · 7d 13/20 stable
+new catalyst: Iran war, WTI >$85 (first since Jun 12)
+top narrative: ONDO day-3 +2.66% (decelerating); GRAM peaked + exited trending
+hot market: "Fed no change Jul 2026" YES 86.0%
