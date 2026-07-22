@@ -1,0 +1,144 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @t_in_crypto"
+      },
+      "children": [
+        "event-text",
+        "tweet-card",
+        "context-section",
+        "classification-section",
+        "action-section"
+      ]
+    },
+    "event-text": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to @boneless_bones7 (external trader, context unknown)",
+        "variant": "body"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "handle": "@t_in_crypto",
+        "text": "Not sure 🤔"
+      }
+    },
+    "context-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context-heading",
+        "position-text",
+        "pattern-text"
+      ]
+    },
+    "context-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "position-text": {
+      "type": "Text",
+      "props": {
+        "text": "Structural BTC bull holding 100%+ LONG from 58.4K with conviction add x2 at 62K."
+      }
+    },
+    "pattern-text": {
+      "type": "Text",
+      "props": {
+        "text": "Recent pattern: escalating stream of cryptic one-liners (7+ posts since Jul 17, 8+ pending calibrations in traders.md)."
+      }
+    },
+    "classification-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "classification-heading",
+        "separator-1",
+        "options-list"
+      ]
+    },
+    "classification-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "level": "h3"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "options-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opt-1",
+        "opt-2",
+        "opt-3",
+        "opt-4"
+      ]
+    },
+    "opt-1": {
+      "type": "Text",
+      "props": {
+        "text": "Responding to a price prediction/level?"
+      }
+    },
+    "opt-2": {
+      "type": "Text",
+      "props": {
+        "text": "Uncertainty on a market setup?"
+      }
+    },
+    "opt-3": {
+      "type": "Text",
+      "props": {
+        "text": "Personal position question?"
+      }
+    },
+    "opt-4": {
+      "type": "Text",
+      "props": {
+        "text": "Banter/non-financial reply?"
+      }
+    },
+    "action-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "view-link"
+      ]
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/t_in_crypto/status/2080060665520103890"
+      }
+    }
+  }
+}
