@@ -1,0 +1,68 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading_calibration",
+        "separator1",
+        "text_event",
+        "tweetcard",
+        "text_analysis",
+        "separator2",
+        "link_post"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Stoiiic",
+        "level": "h2"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @BigTrout300 (context unknown)",
+        "variant": "muted"
+      }
+    },
+    "tweetcard": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "@Stoiiic",
+        "text": "squeeze"
+      }
+    },
+    "text_analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — is this a market structure observation, an agreement on a squeeze pattern, or banter? What's your read?"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Stoiiic/status/2080037843456434228"
+      }
+    }
+  }
+}
