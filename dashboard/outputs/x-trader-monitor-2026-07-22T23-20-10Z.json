@@ -1,0 +1,80 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_calibration",
+        "text_context",
+        "sep_1",
+        "tweet_quote",
+        "sep_2",
+        "alert_interpretation",
+        "link_view"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @t_in_crypto",
+        "level": "h2"
+      }
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "Context: Structural bull commentary in reply to @zohaan1324/@boneless_bones7, recent BTC consolidation around 63-65K",
+        "variant": "body"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet_quote": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "handle": "@t_in_crypto",
+        "text": "In general, structurally there is a big difference 🤓 returning to 64 from the current moment greatly changes the picture of movement"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_interpretation": {
+      "type": "Alert",
+      "props": {
+        "title": "Interpretation question",
+        "message": "Unable to classify — is this bullish-structure confirmation (BTC to 64K = continuation) or caution? How do you read this trader's coded language?",
+        "type": "info"
+      }
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/t_in_crypto/status/2080069061321318750"
+      }
+    }
+  }
+}
