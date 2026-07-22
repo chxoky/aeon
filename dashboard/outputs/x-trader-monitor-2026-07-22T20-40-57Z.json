@@ -1,0 +1,98 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Conviction Add — @Wild_Randomness"
+      },
+      "children": [
+        "content-stack"
+      ]
+    },
+    "content-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "announcement",
+        "quote-section",
+        "context-section",
+        "link",
+        "cta"
+      ]
+    },
+    "announcement": {
+      "type": "Text",
+      "props": {
+        "text": "Wild_Randomness just added to their August 21 SPX position.",
+        "variant": "lead"
+      }
+    },
+    "quote-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "quote-label",
+        "quote-text"
+      ]
+    },
+    "quote-label": {
+      "type": "Text",
+      "props": {
+        "text": "Quote:",
+        "variant": "caption"
+      }
+    },
+    "quote-text": {
+      "type": "Text",
+      "props": {
+        "text": "\"I have recently begun adding an August 21 position as we fill this gap. This would be more of a trade vs a hedge.\""
+      }
+    },
+    "context-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context-label",
+        "context-text"
+      ]
+    },
+    "context-label": {
+      "type": "Text",
+      "props": {
+        "text": "Context:",
+        "variant": "caption"
+      }
+    },
+    "context-text": {
+      "type": "Text",
+      "props": {
+        "text": "Already holding large OTM Oct 16/31 SPX put position (in profit). Describes market as 2% off ATH with cheap hedges remaining. This Aug 21 add is opportunistic on gap-fill structure."
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View original post",
+        "href": "https://x.com/Wild_Randomness/status/2080029565104332925"
+      }
+    },
+    "cta": {
+      "type": "Text",
+      "props": {
+        "text": "Want to add to your SPX options position too?",
+        "variant": "muted"
+      }
+    }
+  }
+}
