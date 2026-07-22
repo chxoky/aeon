@@ -348,8 +348,9 @@ BOOTSTRAP_COMPLETE: 2026-07-14
 - Last seen: 2026-07-22 23:14:44 UTC
 - **Events (rolling):**
   - Jul 22 23:14Z — ambiguous (calibration): BTC structure reply to @zohaan1324/@boneless_bones7 "returning to 64 from current moment changes movement picture" [2080069061321318750]
-- Last seen: 2026-07-22 23:15:55 UTC
+- Last seen: 2026-07-22 23:39:12 UTC
 - **Events (rolling):**
+  - Jul 22 23:39Z — informational: BTC challenges KillaXBT bottom-call thesis; argues 54% decline incompatible with bull market bottom [2080075218454765816]
   - Jul 22 23:15Z — ambiguous: "@KillaXBT If you don't close it in the next 2 days... then yes, your long will return to the entry point" — irony vs warning unclear, awaiting calibration [2080069358798197174]
   - Jul 22 23:13Z — informational: BTC "chopping in window, it's okay" + technical commentary on intra-range pivots; aligns bull thesis [2080068803937911149]
   - Jul 15 17:26Z — market call: BTC rules out 46K; MM either stops us at 48K or drops to 44K [2077444600818512009]
