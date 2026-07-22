@@ -1,0 +1,166 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor: Calibration"
+      },
+      "children": [
+        "heading_section",
+        "separator_1",
+        "tweet_section",
+        "separator_2",
+        "context_section",
+        "separator_3",
+        "classification_section"
+      ]
+    },
+    "heading_section": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "tweet_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_label",
+        "tweet_card"
+      ]
+    },
+    "tweet_label": {
+      "type": "Text",
+      "props": {
+        "text": "Tweet:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "How bad do you want it? https://t.co/kLl3rP8lYR"
+      },
+      "children": []
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_label",
+        "context_items"
+      ]
+    },
+    "context_label": {
+      "type": "Text",
+      "props": {
+        "text": "Context:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "context_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "position_1",
+        "position_2",
+        "position_3",
+        "position_4"
+      ]
+    },
+    "position_1": {
+      "type": "Badge",
+      "props": {
+        "text": "NVDA puts (Aug)"
+      },
+      "children": []
+    },
+    "position_2": {
+      "type": "Badge",
+      "props": {
+        "text": "VIX calls (Dec 2031)"
+      },
+      "children": []
+    },
+    "position_3": {
+      "type": "Badge",
+      "props": {
+        "text": "NVDA equity long"
+      },
+      "children": []
+    },
+    "position_4": {
+      "type": "Badge",
+      "props": {
+        "text": "Macro/vol thesis in play"
+      },
+      "children": []
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "classification_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "classification_alert",
+        "classification_detail"
+      ]
+    },
+    "classification_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read? Does this reference a specific position/setup, or is it sentiment/hype commentary?",
+        "type": "info"
+      },
+      "children": []
+    },
+    "classification_detail": {
+      "type": "Text",
+      "props": {
+        "text": "Tweet is cryptic with shortened URL link.",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
