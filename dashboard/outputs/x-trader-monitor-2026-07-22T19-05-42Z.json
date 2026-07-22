@@ -1,0 +1,110 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading",
+        "content_stack"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @swarmister",
+        "level": "h2"
+      }
+    },
+    "content_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event_section",
+        "separator1",
+        "analysis_section"
+      ]
+    },
+    "event_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event_label",
+        "tweet_card"
+      ]
+    },
+    "event_label": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @hellojintao",
+        "variant": "lead"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "Top"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "analysis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "classification_alert",
+        "pattern_info"
+      ]
+    },
+    "classification_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to Classify",
+        "message": "Is this a bearish top signal, affirmation of their analysis, or non-financial banter?",
+        "type": "warning"
+      }
+    },
+    "pattern_info": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pattern_note",
+        "previous_pending"
+      ]
+    },
+    "pattern_note": {
+      "type": "Text",
+      "props": {
+        "text": "This is the 2nd identical pattern (bare \"Top\" reply)",
+        "variant": "body"
+      }
+    },
+    "previous_pending": {
+      "type": "Alert",
+      "props": {
+        "title": "Earlier Unresolved Calibration",
+        "message": "PENDING calibration from Jul 21",
+        "type": "info"
+      }
+    }
+  }
+}
