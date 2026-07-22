@@ -194,38 +194,50 @@ jobs:
           echo "Error mode: $ON_ERROR"
 
           # Parse steps into an ordered array
-          # Each step is either:
-          #   - parallel: [a, b, c]
-          #   - skill: name [, var: "val"] [, consume: [a, b]]
+          # A step starts at a "- parallel:" or "- skill:" line. `var:` and
+          # `consume:` are YAML keys of the step mapping, so in valid YAML they
+          # sit on their own lines below the "- skill:" line — attach any such
+          # continuation line to the most recently started step. (Same-line
+          # matching is kept for backward compat, but the single-line form
+          # "- skill: name, consume: [...]" is not valid YAML — don't write it.)
           STEP_INDEX=0
+          CUR_STEP=""
           declare -A STEP_TYPE STEP_SKILLS STEP_VAR STEP_CONSUME
 
           while IFS= read -r line; do
-            # Skip empty lines and non-step lines
+            # Skip empty lines and comment lines
             [[ "$line" =~ ^[[:space:]]*$ ]] && continue
-            [[ "$line" =~ ^[[:space:]]*#  ]] && continue
+            [[ "$line" =~ ^[[:space:]]*# ]] && continue
 
-            if [[ "$line" =~ parallel:\ *\[([^\]]+)\] ]]; then
+            if [[ "$line" =~ -\ +parallel:\ *\[([^\]]+)\] ]]; then
               STEP_TYPE[$STEP_INDEX]="parallel"
               STEP_SKILLS[$STEP_INDEX]=$(echo "${BASH_REMATCH[1]}" | tr -d ' ')
+              CUR_STEP=$STEP_INDEX
               STEP_INDEX=$((STEP_INDEX + 1))
-            elif [[ "$line" =~ skill:\ *([a-zA-Z0-9_-]+) ]]; then
+            elif [[ "$line" =~ -\ +skill:\ *([a-zA-Z0-9_-]+) ]]; then
               STEP_TYPE[$STEP_INDEX]="single"
               STEP_SKILLS[$STEP_INDEX]="${BASH_REMATCH[1]}"
-              # Extract optional var
-              if [[ "$line" =~ var:\ *\"([^\"]+)\" ]]; then
-                STEP_VAR[$STEP_INDEX]="${BASH_REMATCH[1]}"
-              fi
-              # Extract optional consume
-              if [[ "$line" =~ consume:\ *\[([^\]]+)\] ]]; then
-                STEP_CONSUME[$STEP_INDEX]=$(echo "${BASH_REMATCH[1]}" | tr -d ' ')
-              fi
+              CUR_STEP=$STEP_INDEX
               STEP_INDEX=$((STEP_INDEX + 1))
+            fi
+
+            # var:/consume: may appear on the step's own line (legacy) or on a
+            # continuation line — either way they belong to the current step.
+            if [ -n "$CUR_STEP" ]; then
+              if [[ "$line" =~ var:\ *\"([^\"]+)\" ]]; then
+                STEP_VAR[$CUR_STEP]="${BASH_REMATCH[1]}"
+              fi
+              if [[ "$line" =~ consume:\ *\[([^\]]+)\] ]]; then
+                STEP_CONSUME[$CUR_STEP]=$(echo "${BASH_REMATCH[1]}" | tr -d ' ')
+              fi
             fi
           done <<< "$CHAIN_BLOCK"
 
           TOTAL_STEPS=$STEP_INDEX
           echo "Chain has $TOTAL_STEPS step(s)"
+          for ((i=0; i<TOTAL_STEPS; i++)); do
+            echo "  Step $((i+1)): ${STEP_TYPE[$i]} [${STEP_SKILLS[$i]}]${STEP_CONSUME[$i]:+ consume=[${STEP_CONSUME[$i]}]}${STEP_VAR[$i]:+ var=\"${STEP_VAR[$i]}\"}"
+          done
           CHAIN_FAILED=false
 
           # --- Execute steps sequentially ---
@@ -254,6 +266,13 @@ jobs:
               if [ -n "$CONSUME" ]; then
                 IFS=',' read -ra CONSUME_LIST <<< "$CONSUME"
                 CTX_FILE=$(build_context "$skill" "${CONSUME_LIST[@]}")
+                # Surface silent data-flow failures: a declared consume that
+                # yields no usable context must not pass without a trace.
+                if [ ! -s "$CTX_FILE" ]; then
+                  echo "::warning::Chain context for '$skill' is empty despite consume=[$CONSUME]"
+                elif grep -q '_Output not available._' "$CTX_FILE"; then
+                  echo "::warning::Chain context for '$skill' is missing one or more consumed outputs (consume=[$CONSUME])"
+                fi
                 # Commit and push context file so the skill run can access it
                 git add .outputs/ 2>/dev/null || true
                 if ! git diff --staged --quiet 2>/dev/null; then
