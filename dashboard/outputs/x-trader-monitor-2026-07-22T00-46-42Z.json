@@ -1,0 +1,75 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading",
+        "sep1",
+        "badge",
+        "tweetcard",
+        "sep2",
+        "context",
+        "sep3",
+        "question"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @t_in_crypto",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Event: Minimal tweet (reply + shortened URL)"
+      }
+    },
+    "tweetcard": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "handle": "t_in_crypto",
+        "text": "@VegetaCrypto1 https://t.co/jysmBsLZ7d"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context": {
+      "type": "Text",
+      "props": {
+        "text": "Context: t_in_crypto is structural bull on BTC (currently 2x conviction long from 62K). This tweet is a direct reply with no accompanying text. Unable to classify without knowing URL content — financial opinion, sharing content, or personal action?",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "question": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "lead"
+      }
+    }
+  }
+}
