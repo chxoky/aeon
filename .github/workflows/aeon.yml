@@ -289,7 +289,7 @@ jobs:
           elif [ -n "$SKILL_MODEL" ]; then
             MODEL="$SKILL_MODEL"
           else
-            MODEL="${CONFIG_MODEL:-claude-opus-4-8}"
+            MODEL="${CONFIG_MODEL:-claude-sonnet-4-6}"
           fi
           echo "Using model: $MODEL"
           echo "SKILL_MODEL=$MODEL" >> "$GITHUB_OUTPUT"
