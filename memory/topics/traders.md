@@ -243,8 +243,9 @@ BOOTSTRAP_COMPLETE: 2026-07-14
 - Last seen: 2026-07-22 18:52:58 UTC
 - **Events (rolling):**
   - Jul 22 18:52Z — ambiguous: external reference "where I called out previous two rounds" link-share, awaiting calibration [2080003185607864629]
-- Last seen: 2026-07-22 18:55:58 UTC
+- Last seen: 2026-07-22 20:46:35 UTC
 - **Events (rolling):**
+  - Jul 22 20:46Z — informational: NVDA conviction/invalidation level stated ("not hanging around if we lose this"); technical parallel to prior HYPE failure at 66 [2080031777419415678]
   - Jul 22 19:13Z — ambiguous: reply @Parida "pretty much [link]" — context unresolved, awaiting calibration [2080008225232126054]
   - Jul 22 18:55Z — ambiguous: "round 2 call" retrospective, asset/market unclear, URL context missing, awaiting calibration [2080003940276376054]
   - Jul 22 18:26Z — informational: macro commentary — rate of change > actual rate level, equities concern, "subdued… idk how short you want to be" [2079996463447216200]
