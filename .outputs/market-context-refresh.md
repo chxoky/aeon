@@ -1,8 +1,7 @@
-market context — 2026-07-21
+market context — 2026-07-22
 
-take: risk-on (conviction medium)
-BTC $66,654 (+3.6%) / ETH $1,931 (+3.6%) · F&G 25 (Extreme Fear)
-breadth 18/20 · TVL Lido +8.4% 7d
-top narrative: RWA/ONDO +18% (rising)
-new: ETF inflow streak 5 days ($727M total) · ADA +8.2% leads
-hot market: FOMC Jul 28-29 no-change 93% YES
+take: chop (conviction medium)
+BTC $66,380 (+1.64%) / ETH $1,931 (+1.13%) · F&G 33 (Fear, +8 pts)
+breadth 18/20 24h · DEX vol $6.27B (−18%) · FOMC no-change 85.1% ↓ (was 93%)
+top narrative: RWA/ONDO (rising, +11.56%)
+hot market: "Fed +25bps Jul 2026?" YES 14.6% (doubled overnight)

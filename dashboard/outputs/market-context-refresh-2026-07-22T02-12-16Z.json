@@ -1,0 +1,242 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "market context — 2026-07-22"
+      },
+      "children": [
+        "main_stack"
+      ]
+    },
+    "main_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "take_section",
+        "sep1",
+        "prices_section",
+        "sep2",
+        "sentiment_section",
+        "sep3",
+        "metrics_section",
+        "sep4",
+        "narrative_section",
+        "sep5",
+        "market_section"
+      ]
+    },
+    "take_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "take_label",
+        "chop_badge",
+        "conviction_badge"
+      ]
+    },
+    "take_label": {
+      "type": "Text",
+      "props": {
+        "text": "take:",
+        "variant": "muted"
+      }
+    },
+    "chop_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "chop",
+        "variant": "default"
+      }
+    },
+    "conviction_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "conviction medium",
+        "variant": "outline"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "prices_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "btc_stat",
+        "eth_stat"
+      ]
+    },
+    "btc_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$66,380",
+        "delta": "+1.64%",
+        "trend": "up"
+      }
+    },
+    "eth_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$1,931",
+        "delta": "+1.13%",
+        "trend": "up"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sentiment_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "fear_greed_progress",
+        "fear_change_text"
+      ]
+    },
+    "fear_greed_progress": {
+      "type": "Progress",
+      "props": {
+        "value": 33,
+        "max": 100,
+        "label": "Fear & Greed: 33"
+      }
+    },
+    "fear_change_text": {
+      "type": "Text",
+      "props": {
+        "text": "+8 pts",
+        "variant": "caption"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "metrics_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "breadth_stat",
+        "dex_vol_stat",
+        "fomc_stat"
+      ]
+    },
+    "breadth_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Breadth (24h)",
+        "value": "18/20"
+      }
+    },
+    "dex_vol_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "DEX volume",
+        "value": "$6.27B",
+        "delta": "−18%",
+        "trend": "down"
+      }
+    },
+    "fomc_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "FOMC no-change",
+        "value": "85.1%",
+        "delta": "−7.9% (was 93%)",
+        "trend": "down"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "narrative_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "narrative_label",
+        "narrative_badge"
+      ]
+    },
+    "narrative_label": {
+      "type": "Text",
+      "props": {
+        "text": "Top narrative:",
+        "variant": "muted"
+      }
+    },
+    "narrative_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RWA/ONDO (rising, +11.56%)",
+        "variant": "secondary"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "market_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "market_label",
+        "market_bet"
+      ]
+    },
+    "market_label": {
+      "type": "Text",
+      "props": {
+        "text": "Hot market:",
+        "variant": "muted"
+      }
+    },
+    "market_bet": {
+      "type": "Stat",
+      "props": {
+        "label": "Fed +25bps Jul 2026?",
+        "value": "14.6%",
+        "delta": "doubled overnight",
+        "trend": "up"
+      }
+    }
+  }
+}
