@@ -1,0 +1,56 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "content-stack"
+      ]
+    },
+    "content-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "post-link",
+        "separator-1",
+        "analysis-text"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "While tech-centric names are getting all the love and attention as of late, I do wonder if it's time for commodities here.\n\nLooks like a lot of bottomed out charts that may return some peaceful returns from here…\n\nThis is contrasted with an index that went up 35% in two months and is now in a 10% range knife fight."
+      }
+    },
+    "post-link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2079757198301839759"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Commodities (Gold/GC/XAUUSD/GLD) on your watch list; Wild_Randomness is betting on reversal setup while broader group stays cautious on macro. Tech pullback confirmation emerging.",
+        "variant": "body"
+      }
+    }
+  }
+}

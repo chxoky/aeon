@@ -1,9 +1,11 @@
 🐦 *[X] @Wild_Randomness*
 
-Yeah pretty sure 68-69k liqs need to be taken to discuss sustained move down
+While tech-centric names are getting all the love and attention as of late, I do wonder if it's time for commodities here.
 
-Not really sure what the narrative is here so base assumption is this thing just floats to nearest liquidity all summer
+Looks like a lot of bottomed out charts that may return some peaceful returns from here…
 
-[View tweet](https://x.com/Wild_Randomness/status/2079754916646863214)
+This is contrasted with an index that went up 35% in two months and is now in a 10% range knife fight.
 
-↳ _Structural commentary on BTC levels. Aligns with group's current liquidity-level focus (66K bull trigger, 60-60.7K breakdown zone). Wild_Randomness reading: consolidation into nearest liquidity through summer._
+[View post](https://x.com/Wild_Randomness/status/2079757198301839759)
+
+↳ _Commodities (Gold/GC/XAUUSD/GLD) on your watch list; Wild_Randomness is betting on reversal setup while broader group stays cautious on macro. Tech pullback confirmation emerging._
