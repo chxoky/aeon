@@ -1,0 +1,69 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-cal",
+        "text-event",
+        "tweet-main",
+        "sep-1",
+        "text-analysis"
+      ]
+    },
+    "heading-cal": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @swarmister",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text-event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Tweet asking three other traders (@OnlyZen_PK @avgcryptoguy @blancxbt) for confirmation/validation, but referencing something outside the tweet text (likely replying to external conversation or thread)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "tweet-main": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "@OnlyZen_PK @avgcryptoguy @blancxbt fr?"
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text-analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's the reference? Is swarmister asking about market structure, a specific trade idea, or something else? Worth tracking in memory?",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
