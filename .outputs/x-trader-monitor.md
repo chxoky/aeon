@@ -11,3 +11,9 @@ t_in_crypto: "@zohaan1324 @bnshiv23 July imo"
 
 Unable to classify — what's your read? (Is this a July pivot affirmation, sentiment, or banter?)
 ↳ _Bullish market-structure commentary, aligns with t_in_crypto's ongoing bull thesis + KillaXBT's structural bull lean._
+🔍 *Calibration — @Wild_Randomness*
+
+Event: Post after HYPE re-add activity (19:10 UTC same day)
+Wild_Randomness: "Where were the signs?" https://t.co/0V3iUSeaXr
+
+Unable to classify — what's your read? (Cryptic self-commentary on a trade, market observation, or non-financial?)
