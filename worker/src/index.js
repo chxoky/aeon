@@ -155,8 +155,23 @@ async function handleTwitter(request, env, ctx) {
     const text     = tweet.text ?? '';
     const tweetId  = tweet.id ?? '';
 
-    if (!text.trim()) continue;
-    if (!WATCHED_X_USERNAMES.has(username.toLowerCase())) continue;
+    const isWatched = WATCHED_X_USERNAMES.has(username.toLowerCase());
+
+    // A text-less post is dropped here, before the media diagnostics below ever
+    // run — so an image-only post that arrives with empty text would be invisible
+    // to the very instrumentation meant to catch it. Log the drop (watched
+    // accounts only, to keep the noise down) instead of losing it silently.
+    if (!text.trim()) {
+      if (isWatched) {
+        console.log(
+          `xmedia-drop: id=${tweetId} @${username} empty_text ` +
+          `media=${JSON.stringify(extractTweetMedia(tweet))} ` +
+          `tweet_keys=${JSON.stringify(Object.keys(tweet ?? {}))}`
+        );
+      }
+      continue;
+    }
+    if (!isWatched) continue;
 
     // twitterapi.io redelivers every tweet matched in its lookback window on
     // each 180s poll — dedup on tweet ID so each dispatches exactly once.
