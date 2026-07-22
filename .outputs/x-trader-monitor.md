@@ -1,23 +1,12 @@
-## Summary
+🐦 *[X] @abetrade*
 
-**Event processed:** X trader monitor real-time event (2026-07-22 10:31:39 UTC)
+Just watched some of the popular crypto podcasts clips from last week, and oh man…
 
-**Tweet details:**
-- **Trader:** @swarmister
-- **Tweet ID:** 2079877025804787880  
-- **Content:** "Another Day on the ATVs https://t.co/EVYmHS4hFA"
+Here is the friendly reminder that trading for a living is very hard, and if you want to do it, it is not some pastime activity you will learn from Youtube.
 
-**Classification:** **Skip (non-financial / personal banter)** — Step 4A per SKILL protocol
-- Text references ATVs (all-terrain vehicles) = recreational/lifestyle activity, not market-related
-- No ticker, price level, market opinion, or execution language detected
-- Consistent with swarmister's ~80% non-financial social-banter pattern (established baseline from Jul 20-22)
-- No cross-platform coordination (X-only trader)
+I generally think that people should take risks and get into markets, but for 99% of people, that should end with buying index funds.
 
-**Action taken:**
-- ✅ Tweet ID added to `memory/x-trader-seen.txt` (dedup list to prevent Worker redelivery reprocessing)
-- ✅ Memory updated: entry appended to `memory/topics/traders.md` under swarmister section with classification and pattern note
-- ✅ Daily log updated: entry appended to `memory/logs/2026-07-22.md` with timestamp, classification, and position state (BTC LONG 62.4K/61.2K targeting 70.7K — unchanged)
-- ✅ **No alert sent to Kyle** (HR-1 Category A non-financial — silent skip per protocol)
+Even the dumber take is that trading memecoins is going to translate well into trading index futures.
 
 Skill execution complete. No further action required.
 I've analyzed the real-time X/Twitter event from @swarmiester and classified it per the skill protocol:
@@ -38,3 +27,8 @@ I've analyzed the real-time X/Twitter event from @swarmiester and classified it 
 The skill classifies this as needing Kyle's direct input per HR-2: **"if you genuinely can't tell whether this is worth tracking, message Kyle directly and record his answer in traders.md so you don't have to ask about similar posts again."**
 
 Ready to send the calibration alert if you approve the notification.
+If you are making money trading these bottom-of-the-barrel shitters, you are exactly where you want to be, as your competition is very likely using mom's credit card to buy just one last SOL to try again.
+
+Crypto in general is still very inefficient, so your chances to make money are much higher than trading the most liquid and competitive futures market in the world, where you get adversely selected by someone who has more university degrees in math than your whole bloodline has ever seen.
+
+[View tweet](https://x.com/abetrade/status/2079877243686224050)

@@ -1,0 +1,31 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_content",
+        "view_link"
+      ]
+    },
+    "tweet_content": {
+      "type": "TweetCard",
+      "props": {
+        "author": "abetrade",
+        "handle": "abetrade",
+        "text": "Just watched some of the popular crypto podcasts clips from last week, and oh man…\n\nHere is the friendly reminder that trading for a living is very hard, and if you want to do it, it is not some pastime activity you will learn from Youtube.\n\nI generally think that people should take risks and get into markets, but for 99% of people, that should end with buying index funds.\n\nEven the dumber take is that trading memecoins is going to translate well into trading index futures.\n\nIf you are making money trading these bottom-of-the-barrel shitters, you are exactly where you want to be, as your competition is very likely using mom's credit card to buy just one last SOL to try again.\n\nCrypto in general is still very inefficient, so your chances to make money are much higher than trading the most liquid and competitive futures market in the world, where you get adversely selected by someone who has more university degrees in math than your whole bloodline has ever seen."
+      }
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/abetrade/status/2079877243686224050"
+      }
+    }
+  }
+}
