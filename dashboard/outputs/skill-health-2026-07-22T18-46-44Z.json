@@ -1,0 +1,183 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "Skill Health",
+        "description": "2026-07-22"
+      },
+      "children": [
+        "status-badge",
+        "sep1",
+        "no-data-section",
+        "sep2",
+        "healthy-section",
+        "sep3",
+        "issues-section"
+      ]
+    },
+    "status-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "HEALTH: OK",
+        "variant": "default"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "no-data-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "no-data-heading",
+        "no-data-item"
+      ]
+    },
+    "no-data-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "⚪ NO DATA (1)",
+        "level": "h3"
+      }
+    },
+    "no-data-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "no-data-name",
+        "no-data-details"
+      ]
+    },
+    "no-data-name": {
+      "type": "Text",
+      "props": {
+        "text": "trader-memory-compact",
+        "variant": "lead"
+      }
+    },
+    "no-data-details": {
+      "type": "Text",
+      "props": {
+        "text": "DISPATCH-SKILL (weekly Sun 20:00 UTC; skill added today via PR #19, first run 2026-07-27)",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "healthy-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "healthy-heading",
+        "healthy-list"
+      ]
+    },
+    "healthy-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🟢 HEALTHY: 7",
+        "level": "h3"
+      }
+    },
+    "healthy-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6",
+        "s7"
+      ]
+    },
+    "s1": {
+      "type": "Text",
+      "props": {
+        "text": "morning-brief"
+      }
+    },
+    "s2": {
+      "type": "Text",
+      "props": {
+        "text": "token-alert"
+      }
+    },
+    "s3": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers"
+      }
+    },
+    "s4": {
+      "type": "Text",
+      "props": {
+        "text": "market-context-refresh"
+      }
+    },
+    "s5": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker"
+      }
+    },
+    "s6": {
+      "type": "Text",
+      "props": {
+        "text": "skill-health"
+      }
+    },
+    "s7": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "issues-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "issues-text"
+      ]
+    },
+    "issues-text": {
+      "type": "Text",
+      "props": {
+        "text": "Open issues: 0 · Resolved this run: 0",
+        "variant": "muted"
+      }
+    }
+  }
+}
