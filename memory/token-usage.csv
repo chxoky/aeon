@@ -1378,3 +1378,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-07-22,token-movers,claude-sonnet-4-6,5973,39869,1477174,119890
 2026-07-22,morning-brief,claude-sonnet-4-6,11,7976,629558,69415
 2026-07-22,token-movers,claude-sonnet-4-6,28,32693,1813398,85591
+2026-07-22,morning-brief,claude-sonnet-4-6,11,7097,577405,57309

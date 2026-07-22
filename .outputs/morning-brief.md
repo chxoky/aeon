@@ -1,24 +1,23 @@
 *Morning Brief — 2026-07-22*
 
 *Focus today*
-1. Chase SNDK/MU mirrors — why now: BofA raised MU to $1,550; your entry still pending, window closing
-2. Wild_Randomness ETH short — why now: ETH +1.1% today; live vs. closed still unresolved
-3. t_in_crypto calibration rule — why now: 7 ambiguous alerts in 5 days; set a default to end noise
+1. Chase SNDK/MU mirrors — BofA $1,550 Buy; window closing, delay thins opportunity
+2. Wild_Randomness ETH short — ETH $1,930 and rising; live vs closed still unresolved
+3. t_in_crypto calibration — 7 cryptic posts in 5 days; set default to cut alert noise
 
 *Since yesterday*
-- Crypto_Chase: SNDK 50% TP @1533, MU 75% TP @930–956; both remainders stopped at BE; your mirror still PENDING
-- KillaXBT: Published cycle roadmap — $80K Q1'27, $110K Q4'27, $160–180K top Jun–Jul'28
-- swarmister: 67–72K BTC minimum floor posted; multi-month strategic write-up coming
-- Wild_Randomness: 8+ posts (GOLD, ETH pico-short, CCJ uranium, macro rotation); 6 calibration alerts sent
-- BTC $66,380 (+1.6%), F&G 33 (Fear); ONDO 3-day trend-up; DEXE day-2 collapse (−84%)
+- [moved] BTC +1.3% to $66,265; tape green all day but cooled to 62% positive by evening (breadth compressing)
+- [moved] Chase TP'd MU 60% at $991 (entry $800, +24%) + SNDK half at 1533 (entry 1366, +12.3%); Kyle mirrors PENDING
+- [moved] ONDO day-3 TRENDING+UP (+11.5%); CLARITY Act Senate path cleared → RWA tailwind accelerating
+- [stuck] consume: bug in chain-runner — output hand-off has never worked; chains are sequencer-only
 
 *Watch*
-- BofA raised MU target to $1,550 (Buy) citing AI HBM/NAND demand — Chase already TP'd near these levels; the decision on focus #1 is whether remaining upside justifies entering now at elevated prices
+- CLARITY Act Senate vote path now open — direct amplifier for ONDO/RWA move in day 3
+- BofA raised MU to $1,550 Buy — ~55% upside from current; Kyle mirror still PENDING at $991
 
 *Running today*
+- morning-brief @ 07:00 UTC
+- token-alert + token-movers @ 12:00 UTC
+- market-context-refresh @ 13:00 UTC · narrative-tracker @ 13:30 UTC
 - heartbeat @ 08:00, 14:00, 20:00 UTC
-- token-alert @ 12:00 UTC
-- token-movers @ 12:00 UTC
-- market-context-refresh @ 13:00 UTC
-- narrative-tracker @ 13:30 UTC
 - skill-health @ 18:00 UTC
