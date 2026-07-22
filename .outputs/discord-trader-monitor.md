@@ -1,6 +1,7 @@
-## Summary
+🔍 *Calibration — [DC: Chase — Crypto]*
 
-✅ **Discord Trader Monitor Skill Execution Complete**
+Member question referent unclear.
+Crypto_Chase: "Yeah I mean to be fair when I've thought about it previously I typically think about it as a stock not a coin"
 
 **Event Processed:**
 - **Trader:** crypto_chase  
@@ -28,3 +29,4 @@ Event: Last message context was GOOG trading in 320's (no prior context for curr
 Crypto_Chase: "Figured it was"
 
 Unable to classify — what's your read?
+Unable to classify — what asset is the discussion about?

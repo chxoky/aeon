@@ -89,6 +89,7 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - Jul 22 21:34Z — informational: GOOG "now trading in the 320's" — market observation, contingent on earlier 321 bid that didn't fill [2080043780795732333]
   - Jul 22 21:39Z — informational: TradFi supporting channel — "618 should play out in time" response to member bid question; low conviction ("not necessarily an A+ trade"), fundamental-move concern cited [1529603708562706494]
   - Jul 22 21:43Z — ambiguous: Crypto supporting channel "Figured it was" — cryptic 3-word fragment, awaiting calibration [1529604774100467932]
+  - Jul 22 21:48Z — ambiguous: Crypto supporting channel — "Yeah I mean to be fair when I've thought about it previously I typically think about it as a stock not a coin" — referent ("it") unclear, awaiting calibration [1529606181704831148]
 
 # swarmister — compressed (merged from duplicate/"swarmiister"/continued sections; events attributed to other traders in these chunks excluded)
 
