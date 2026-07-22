@@ -1,0 +1,192 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @swarmister",
+        "description": "x-trader-monitor"
+      },
+      "children": [
+        "event_section",
+        "separator1",
+        "context_section",
+        "separator2",
+        "classification_section"
+      ]
+    },
+    "event_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event_label",
+        "tweet",
+        "tweet_link"
+      ]
+    },
+    "event_label": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Cryptic reference to external tweet",
+        "variant": "lead"
+      }
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "text": "This is literally the embodiment of the holders"
+      }
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "https://t.co/IO3HpkqI0w",
+        "href": "https://t.co/IO3HpkqI0w"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_label",
+        "position_details",
+        "context_note"
+      ]
+    },
+    "context_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "position_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "position_line",
+        "position_badges"
+      ]
+    },
+    "position_line": {
+      "type": "Text",
+      "props": {
+        "text": "swarmister position: pending-approval BTC LONG",
+        "variant": "body"
+      }
+    },
+    "position_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "date_badge",
+        "target_badge"
+      ]
+    },
+    "date_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Entry: Jul 17 (partial)",
+        "variant": "secondary"
+      }
+    },
+    "target_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Target: 70.7K",
+        "variant": "secondary"
+      }
+    },
+    "context_note": {
+      "type": "Text",
+      "props": {
+        "text": "Post appears sentiment-related to holder psychology/narrative, but unclear without @blancxbt's original content.",
+        "variant": "body"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "classification_alert",
+        "classification_question",
+        "options"
+      ]
+    },
+    "classification_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "type": "warning"
+      }
+    },
+    "classification_question": {
+      "type": "Text",
+      "props": {
+        "text": "Is this (a) bullish sentiment on holders, (b) bearish commentary on holder behavior, (c) meme/non-financial? What's your read?"
+      }
+    },
+    "options": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "option_a",
+        "option_b",
+        "option_c"
+      ]
+    },
+    "option_a": {
+      "type": "Badge",
+      "props": {
+        "text": "(a) Bullish sentiment on holders",
+        "variant": "outline"
+      }
+    },
+    "option_b": {
+      "type": "Badge",
+      "props": {
+        "text": "(b) Bearish commentary on holder behavior",
+        "variant": "outline"
+      }
+    },
+    "option_c": {
+      "type": "Badge",
+      "props": {
+        "text": "(c) Meme/non-financial",
+        "variant": "outline"
+      }
+    }
+  }
+}
