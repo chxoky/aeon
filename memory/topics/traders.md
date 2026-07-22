@@ -81,6 +81,7 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - Jul 22 00:19Z — ambiguous: "@breakoutprop killin it, need ES next" — ES commentary, PENDING calibration [2079723023737802988]
   - Jul 22 00:31Z — trade-TP: MU 60% closed at 991, 40% left open [1529284596284522496]
   - Jul 22 19:58Z — informational: GOOG "earnings stink bid around 321" + chart, contingent bid observation, no active entry (fast-path-alerted) [1529578350618873897]
+  - Jul 22 20:17Z — informational: bid cancellation, "no dice for any sweeps unfortunately today" + chart, bid context unclear — likely prior GOOG/standing bids (MU/INTC/AMD) [1529583070322102413]
 
 # swarmister — compressed (merged from duplicate/"swarmiister"/continued sections; events attributed to other traders in these chunks excluded)
 
