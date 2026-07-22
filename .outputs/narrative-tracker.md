@@ -1,25 +1,28 @@
-*Narrative Tracker — 2026-07-21*
-(baseline run — no prior tracker log; transitions are directional from within-window evidence)
+*Narrative Tracker — 2026-07-22*
 
 TRANSITIONS
-• PROMOTED: Prediction Markets Rising→Peak — Kalshi $31B June vol (+70% MoM), $50B World Cup breakout, 58.9% share vs Polymarket 30.2% (falling); institutional desks entering
-• DEMOTED: DATs Peak→Fading — mNAV compressing MSTR 2x→1.2x, forecasts ~1.05x, forced consolidation
-• DEMOTED: Meme/ICO Launchpads Peak→Fading — memecap flat ~$33.7B, rotation into utility/yield
-• NEW (baseline): AI Agents, Privacy Crackdown, Stablecoins, RWA
+• NEW: Robinhood Chain Ecosystem — mainnet live Jul 1; INDEX +150%; memecoins captured the chain before RWA ($13M actual RWA). Fresh ecosystem play, tension unresolved — https://crypto.news/robinhood-chain-memecoins-tokenized-stocks/
+• NEW: Iran War Risk-Off — US strikes Jul 17-18; WTI >$85 (first since Jun 12); BTC −0.44%, breadth 6/20 (was 16/20 yesterday). Inflation revival fear layering into FOMC window — https://cointelegraph.com/news/btc-fragile-iran-fallout-dominate-markets-2026
+• DEMOTED: RWA Tokenization — Rising → Peak — ONDO day-4 +2.66% (days 1-2: +11.78%); >75% rate-of-gain collapse confirmed under risk-off
+• DEMOTED: AI Agents/Agentic — Rising → Peak — Grayscale cut TAO 43%→22.58%; @ryzzqq "AI shills fading, previous leaders losing momentum" (entered TAO today as rotation bet, not fresh-capital)
+• DEMOTED: Prediction Markets — Peak → Fading — World Cup vol cliff materializing; FOMC Jul 28 fills gap but resolves in 6 days; net vol trajectory down
+• DEAD: GRAM/TON Rebrand — absent from CoinGecko trending; peaked day-2, confirmed dead today
 
-REFLEXIVITY
-• DATs — memetic premium collapse self-reinforcing: share price leads the decline, compression forces more selling
-• Privacy coins — regulatory narrative alone knocked XMR $799→$331; liquidity fleeing exchanges→DEXs (ties to HCH's ZEC short)
-• AI Agents — projects rebranding "agentic"; velocity concentrated in $VIRTUAL/$FET on narrative capital, not fundamentals
+REFLEXIVITY ALERT
+• Robinhood Chain — built for RWA, captured by memecoins in 3 weeks; INDEX +150% on narrative alone; $121M token unlock approaching; projects rebranding "tokenized" to ride it
+• AI Agents internal rotation — Grayscale reallocation (TAO 43%→22.58%, NEAR 39.67%) is within-narrative rotation, not fresh capital. @ryzzqq TAO entry today confirms rotation thesis active
 
 POSITIONS
-• RIDE: Prediction Markets (5 ↑↑ Bull) — Kalshi/Polymarket/Coinbase — bear: 85% sports, post-World-Cup cliff
-• RIDE: AI Agents (4 ↑ Mixed) — $VIRTUAL/$FET, Ledger Agent Stack (Jul 15) — bear: $45M agent exploits H1; $2B→$200B hopium
-• FADE: DATs (3 ↓ Cope) — MSTR + ETH treasuries — reflexive premium collapse, no floor until ~NAV
-• WATCH: Privacy (3 ↑ Mixed) — Monero/Zcash — ZEC transparent layer = compliance edge over XMR
-• WATCH: Stablecoins (4 → Bull) — commoditized, no contrarian edge
+• FADE: Prediction Markets (5 ↓, Mixed) — WC cliff + FOMC resolves in 6 days = dual vol sink — @Kalshi @Polymarket — bear: one-time FOMC event does not replace WC vol
+• FADE: RWA Tokenization/ONDO (4 ↓, Bull→Cope) — day-4 decel; risk-off; day-5 < +1% = exit signal — bear: $13M actual RWA vs $2T projection hype
+• WATCH: Iran Risk-Off overlay (4 ↑↑, Bear) — macro gating; WTI >$85 + FOMC Jul 28 = dual headwinds — bear: Iran escalations historically fade 2-3 weeks
+• WATCH: AI Agents infra layer (4 →, Mixed) — TAO/Render > VIRTUAL/FET as capital destination; compute infra outperforming generic agents — bear: Grayscale already rebalanced
+• WATCH: Robinhood Chain Ecosystem (3 ↑↑, Mixed) — INDEX is early tell; $121M unlock headwind; RWA/memecoin tension unresolved — bear: sub-$20M actual adoption
+• WATCH: Pre-FOMC Consolidation (3 ↑, Mixed) — Jul 28-29; 86% no-change; Iran inflation tail risk — bear: already priced
+• FADE: DATs/Treasury Cos (2 ↓↓, Cope) — mNAV compression, no reversal catalyst
 
 MAP
-Rising: AI Agents, RWA
-Peak: Prediction Markets, Privacy, Stablecoins
-Fading: DATs, Meme/ICO Launchpads
+Emerging: Robinhood Chain Ecosystem, BTC ETF Recovery
+Rising: (none — AI Agents and RWA downgraded to Peak)
+Peak: AI Agents/Agentic, RWA Tokenization, Stablecoins, Privacy Crackdown
+Fading: Prediction Markets, DATs/Treasury Cos

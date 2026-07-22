@@ -1,0 +1,844 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-07-22",
+        "description": "Real-time narrative lifecycle mapping and position tracking"
+      },
+      "children": [
+        "section-transitions",
+        "sep-1",
+        "section-reflexivity",
+        "sep-2",
+        "section-positions",
+        "sep-3",
+        "section-map"
+      ]
+    },
+    "section-transitions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-transitions",
+        "trans-robinhood",
+        "trans-iran",
+        "trans-rwa",
+        "trans-ai-agents",
+        "trans-pred-markets",
+        "trans-gram"
+      ]
+    },
+    "heading-transitions": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      }
+    },
+    "trans-robinhood": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-new-1",
+        "text-robinhood-title",
+        "link-robinhood",
+        "text-robinhood-detail"
+      ]
+    },
+    "badge-new-1": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "secondary"
+      }
+    },
+    "text-robinhood-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Robinhood Chain Ecosystem",
+        "level": "h4"
+      }
+    },
+    "link-robinhood": {
+      "type": "Link",
+      "props": {
+        "label": "https://crypto.news/robinhood-chain-memecoins-tokenized-stocks/",
+        "href": "https://crypto.news/robinhood-chain-memecoins-tokenized-stocks/"
+      }
+    },
+    "text-robinhood-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Mainnet live Jul 1; INDEX +150%; memecoins captured the chain before RWA ($13M actual RWA). Fresh ecosystem play, tension unresolved",
+        "variant": "body"
+      }
+    },
+    "trans-iran": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-new-2",
+        "text-iran-title",
+        "link-iran",
+        "text-iran-detail"
+      ]
+    },
+    "badge-new-2": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "secondary"
+      }
+    },
+    "text-iran-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Iran War Risk-Off",
+        "level": "h4"
+      }
+    },
+    "link-iran": {
+      "type": "Link",
+      "props": {
+        "label": "https://cointelegraph.com/news/btc-fragile-iran-fallout-dominate-markets-2026",
+        "href": "https://cointelegraph.com/news/btc-fragile-iran-fallout-dominate-markets-2026"
+      }
+    },
+    "text-iran-detail": {
+      "type": "Text",
+      "props": {
+        "text": "US strikes Jul 17-18; WTI >$85 (first since Jun 12); BTC −0.44%, breadth 6/20 (was 16/20 yesterday). Inflation revival fear layering into FOMC window",
+        "variant": "body"
+      }
+    },
+    "trans-rwa": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-demoted-1",
+        "text-rwa-title",
+        "text-rwa-detail"
+      ]
+    },
+    "badge-demoted-1": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED",
+        "variant": "outline"
+      }
+    },
+    "text-rwa-title": {
+      "type": "Heading",
+      "props": {
+        "text": "RWA Tokenization",
+        "level": "h4"
+      }
+    },
+    "text-rwa-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Rising → Peak — ONDO day-4 +2.66% (days 1-2: +11.78%); >75% rate-of-gain collapse confirmed under risk-off",
+        "variant": "body"
+      }
+    },
+    "trans-ai-agents": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-demoted-2",
+        "text-ai-agents-title",
+        "text-ai-agents-detail"
+      ]
+    },
+    "badge-demoted-2": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED",
+        "variant": "outline"
+      }
+    },
+    "text-ai-agents-title": {
+      "type": "Heading",
+      "props": {
+        "text": "AI Agents/Agentic",
+        "level": "h4"
+      }
+    },
+    "text-ai-agents-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Rising → Peak — Grayscale cut TAO 43%→22.58%; @ryzzqq \"AI shills fading, previous leaders losing momentum\" (entered TAO today as rotation bet, not fresh-capital)",
+        "variant": "body"
+      }
+    },
+    "trans-pred-markets": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-demoted-3",
+        "text-pred-markets-title",
+        "text-pred-markets-detail"
+      ]
+    },
+    "badge-demoted-3": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED",
+        "variant": "outline"
+      }
+    },
+    "text-pred-markets-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Prediction Markets",
+        "level": "h4"
+      }
+    },
+    "text-pred-markets-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Peak → Fading — World Cup vol cliff materializing; FOMC Jul 28 fills gap but resolves in 6 days; net vol trajectory down",
+        "variant": "body"
+      }
+    },
+    "trans-gram": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-dead",
+        "text-gram-title",
+        "text-gram-detail"
+      ]
+    },
+    "badge-dead": {
+      "type": "Badge",
+      "props": {
+        "text": "DEAD",
+        "variant": "destructive"
+      }
+    },
+    "text-gram-title": {
+      "type": "Heading",
+      "props": {
+        "text": "GRAM/TON Rebrand",
+        "level": "h4"
+      }
+    },
+    "text-gram-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Absent from CoinGecko trending; peaked day-2, confirmed dead today",
+        "variant": "body"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-reflexivity": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-reflexivity",
+        "reflexivity-robinhood",
+        "reflexivity-ai-rotation"
+      ]
+    },
+    "heading-reflexivity": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      }
+    },
+    "reflexivity-robinhood": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-reflexivity-r-title",
+        "text-reflexivity-r-detail"
+      ]
+    },
+    "text-reflexivity-r-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Robinhood Chain",
+        "level": "h4"
+      }
+    },
+    "text-reflexivity-r-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Built for RWA, captured by memecoins in 3 weeks; INDEX +150% on narrative alone; $121M token unlock approaching; projects rebranding \"tokenized\" to ride it",
+        "variant": "body"
+      }
+    },
+    "reflexivity-ai-rotation": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-reflexivity-ai-title",
+        "text-reflexivity-ai-detail"
+      ]
+    },
+    "text-reflexivity-ai-title": {
+      "type": "Heading",
+      "props": {
+        "text": "AI Agents Internal Rotation",
+        "level": "h4"
+      }
+    },
+    "text-reflexivity-ai-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Grayscale reallocation (TAO 43%→22.58%, NEAR 39.67%) is within-narrative rotation, not fresh capital. @ryzzqq TAO entry today confirms rotation thesis active",
+        "variant": "body"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-positions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-positions",
+        "pos-pred-markets-fade",
+        "pos-rwa-fade",
+        "pos-iran-watch",
+        "pos-ai-infra-watch",
+        "pos-robinhood-watch",
+        "pos-fomc-watch",
+        "pos-dats-fade"
+      ]
+    },
+    "heading-positions": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      }
+    },
+    "pos-pred-markets-fade": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-fade-1",
+        "text-pos-pm-title",
+        "text-pos-pm-meta",
+        "text-pos-pm-links",
+        "text-pos-pm-bear"
+      ]
+    },
+    "badge-fade-1": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "destructive"
+      }
+    },
+    "text-pos-pm-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Prediction Markets",
+        "level": "h4"
+      }
+    },
+    "text-pos-pm-meta": {
+      "type": "Text",
+      "props": {
+        "text": "Rating: 5 ↓, Mixed — WC cliff + FOMC resolves in 6 days = dual vol sink",
+        "variant": "body"
+      }
+    },
+    "text-pos-pm-links": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "link-kalshi",
+        "link-polymarket"
+      ]
+    },
+    "link-kalshi": {
+      "type": "Link",
+      "props": {
+        "label": "@Kalshi",
+        "href": "https://twitter.com/Kalshi"
+      }
+    },
+    "link-polymarket": {
+      "type": "Link",
+      "props": {
+        "label": "@Polymarket",
+        "href": "https://twitter.com/Polymarket"
+      }
+    },
+    "text-pos-pm-bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear thesis: one-time FOMC event does not replace WC vol",
+        "variant": "caption"
+      }
+    },
+    "pos-rwa-fade": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-fade-2",
+        "text-pos-rwa-title",
+        "text-pos-rwa-meta",
+        "text-pos-rwa-detail",
+        "text-pos-rwa-bear"
+      ]
+    },
+    "badge-fade-2": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "destructive"
+      }
+    },
+    "text-pos-rwa-title": {
+      "type": "Heading",
+      "props": {
+        "text": "RWA Tokenization/ONDO",
+        "level": "h4"
+      }
+    },
+    "text-pos-rwa-meta": {
+      "type": "Text",
+      "props": {
+        "text": "Rating: 4 ↓, Bull→Cope",
+        "variant": "body"
+      }
+    },
+    "text-pos-rwa-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Day-4 decel; risk-off; day-5 < +1% = exit signal",
+        "variant": "body"
+      }
+    },
+    "text-pos-rwa-bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear thesis: $13M actual RWA vs $2T projection hype",
+        "variant": "caption"
+      }
+    },
+    "pos-iran-watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-watch-1",
+        "text-pos-iran-title",
+        "text-pos-iran-meta",
+        "text-pos-iran-detail",
+        "text-pos-iran-bear"
+      ]
+    },
+    "badge-watch-1": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "secondary"
+      }
+    },
+    "text-pos-iran-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Iran Risk-Off Overlay",
+        "level": "h4"
+      }
+    },
+    "text-pos-iran-meta": {
+      "type": "Text",
+      "props": {
+        "text": "Rating: 4 ↑↑, Bear — Macro gating",
+        "variant": "body"
+      }
+    },
+    "text-pos-iran-detail": {
+      "type": "Text",
+      "props": {
+        "text": "WTI >$85 + FOMC Jul 28 = dual headwinds",
+        "variant": "body"
+      }
+    },
+    "text-pos-iran-bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear thesis: Iran escalations historically fade 2-3 weeks",
+        "variant": "caption"
+      }
+    },
+    "pos-ai-infra-watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-watch-2",
+        "text-pos-ai-title",
+        "text-pos-ai-meta",
+        "text-pos-ai-detail",
+        "text-pos-ai-bear"
+      ]
+    },
+    "badge-watch-2": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "secondary"
+      }
+    },
+    "text-pos-ai-title": {
+      "type": "Heading",
+      "props": {
+        "text": "AI Agents Infra Layer",
+        "level": "h4"
+      }
+    },
+    "text-pos-ai-meta": {
+      "type": "Text",
+      "props": {
+        "text": "Rating: 4 →, Mixed",
+        "variant": "body"
+      }
+    },
+    "text-pos-ai-detail": {
+      "type": "Text",
+      "props": {
+        "text": "TAO/Render > VIRTUAL/FET as capital destination; compute infra outperforming generic agents",
+        "variant": "body"
+      }
+    },
+    "text-pos-ai-bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear thesis: Grayscale already rebalanced",
+        "variant": "caption"
+      }
+    },
+    "pos-robinhood-watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-watch-3",
+        "text-pos-rh-title",
+        "text-pos-rh-meta",
+        "text-pos-rh-detail",
+        "text-pos-rh-bear"
+      ]
+    },
+    "badge-watch-3": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "secondary"
+      }
+    },
+    "text-pos-rh-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Robinhood Chain Ecosystem",
+        "level": "h4"
+      }
+    },
+    "text-pos-rh-meta": {
+      "type": "Text",
+      "props": {
+        "text": "Rating: 3 ↑↑, Mixed",
+        "variant": "body"
+      }
+    },
+    "text-pos-rh-detail": {
+      "type": "Text",
+      "props": {
+        "text": "INDEX is early tell; $121M unlock headwind; RWA/memecoin tension unresolved",
+        "variant": "body"
+      }
+    },
+    "text-pos-rh-bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear thesis: sub-$20M actual adoption",
+        "variant": "caption"
+      }
+    },
+    "pos-fomc-watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-watch-4",
+        "text-pos-fomc-title",
+        "text-pos-fomc-meta",
+        "text-pos-fomc-detail",
+        "text-pos-fomc-bear"
+      ]
+    },
+    "badge-watch-4": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "secondary"
+      }
+    },
+    "text-pos-fomc-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Pre-FOMC Consolidation",
+        "level": "h4"
+      }
+    },
+    "text-pos-fomc-meta": {
+      "type": "Text",
+      "props": {
+        "text": "Rating: 3 ↑, Mixed",
+        "variant": "body"
+      }
+    },
+    "text-pos-fomc-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Jul 28-29; 86% no-change; Iran inflation tail risk",
+        "variant": "body"
+      }
+    },
+    "text-pos-fomc-bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear thesis: already priced",
+        "variant": "caption"
+      }
+    },
+    "pos-dats-fade": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-fade-3",
+        "text-pos-dats-title",
+        "text-pos-dats-meta",
+        "text-pos-dats-detail"
+      ]
+    },
+    "badge-fade-3": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "destructive"
+      }
+    },
+    "text-pos-dats-title": {
+      "type": "Heading",
+      "props": {
+        "text": "DATs/Treasury Cos",
+        "level": "h4"
+      }
+    },
+    "text-pos-dats-meta": {
+      "type": "Text",
+      "props": {
+        "text": "Rating: 2 ↓↓, Cope",
+        "variant": "body"
+      }
+    },
+    "text-pos-dats-detail": {
+      "type": "Text",
+      "props": {
+        "text": "mNAV compression, no reversal catalyst",
+        "variant": "body"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-map": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-map",
+        "map-emerging",
+        "map-rising",
+        "map-peak",
+        "map-fading"
+      ]
+    },
+    "heading-map": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h2"
+      }
+    },
+    "map-emerging": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-map-emerging-label",
+        "text-map-emerging-items"
+      ]
+    },
+    "text-map-emerging-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Emerging",
+        "level": "h4"
+      }
+    },
+    "text-map-emerging-items": {
+      "type": "Text",
+      "props": {
+        "text": "Robinhood Chain Ecosystem, BTC ETF Recovery",
+        "variant": "body"
+      }
+    },
+    "map-rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-map-rising-label",
+        "text-map-rising-items"
+      ]
+    },
+    "text-map-rising-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Rising",
+        "level": "h4"
+      }
+    },
+    "text-map-rising-items": {
+      "type": "Text",
+      "props": {
+        "text": "(none — AI Agents and RWA downgraded to Peak)",
+        "variant": "muted"
+      }
+    },
+    "map-peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-map-peak-label",
+        "text-map-peak-items"
+      ]
+    },
+    "text-map-peak-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Peak",
+        "level": "h4"
+      }
+    },
+    "text-map-peak-items": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agents/Agentic, RWA Tokenization, Stablecoins, Privacy Crackdown",
+        "variant": "body"
+      }
+    },
+    "map-fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-map-fading-label",
+        "text-map-fading-items"
+      ]
+    },
+    "text-map-fading-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Fading",
+        "level": "h4"
+      }
+    },
+    "text-map-fading-items": {
+      "type": "Text",
+      "props": {
+        "text": "Prediction Markets, DATs/Treasury Cos",
+        "variant": "body"
+      }
+    }
+  }
+}
