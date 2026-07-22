@@ -1,0 +1,147 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @KillaXBT"
+      },
+      "children": [
+        "event-description",
+        "tweet-wrapper",
+        "context-section",
+        "classification-section"
+      ]
+    },
+    "event-description": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Cryptic reply to @BillGatesOHell, no context on ticker or trade action",
+        "variant": "lead"
+      }
+    },
+    "tweet-wrapper": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-card",
+        "tweet-url"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "That is what they said last time."
+      }
+    },
+    "tweet-url": {
+      "type": "Link",
+      "props": {
+        "label": "https://t.co/l73dC6bT7v",
+        "href": "https://t.co/l73dC6bT7v"
+      }
+    },
+    "context-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context-header",
+        "context-text",
+        "context-note"
+      ]
+    },
+    "context-header": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "context-text": {
+      "type": "Text",
+      "props": {
+        "text": "Posted 8 min after extreme conviction statement on BTC 2x long @62.6K. Appears to be general banter/philosophy reply, but cryptic nature makes classification unclear."
+      }
+    },
+    "context-note": {
+      "type": "Text",
+      "props": {
+        "text": "Timestamp: Jul 22 23:02 UTC",
+        "variant": "caption"
+      }
+    },
+    "classification-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "classification-header",
+        "classification-intro",
+        "options-stack",
+        "your-read"
+      ]
+    },
+    "classification-header": {
+      "type": "Heading",
+      "props": {
+        "text": "Classification",
+        "level": "h3"
+      }
+    },
+    "classification-intro": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — is this:",
+        "variant": "lead"
+      }
+    },
+    "options-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "option-a",
+        "option-b",
+        "option-c"
+      ]
+    },
+    "option-a": {
+      "type": "Text",
+      "props": {
+        "text": "a) Banter (skip silently)?"
+      }
+    },
+    "option-b": {
+      "type": "Text",
+      "props": {
+        "text": "b) Market philosophy (informational)?"
+      }
+    },
+    "option-c": {
+      "type": "Text",
+      "props": {
+        "text": "c) External link commentary?"
+      }
+    },
+    "your-read": {
+      "type": "Text",
+      "props": {
+        "text": "Your read?",
+        "variant": "lead"
+      }
+    }
+  }
+}
