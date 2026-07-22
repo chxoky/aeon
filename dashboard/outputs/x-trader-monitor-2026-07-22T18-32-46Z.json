@@ -1,0 +1,87 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "sentiment-section",
+        "separator",
+        "context-section"
+      ]
+    },
+    "sentiment-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "sentiment-heading",
+        "tweet-card",
+        "view-link"
+      ]
+    },
+    "sentiment-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Macro Sentiment: Interest rates & equity concerns",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "The actual rate doesn't really matter — it's the rate of change that matters to equities. Right now it's subdued, but I'm not sure how short you want to be."
+      },
+      "children": []
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2079996463447216200"
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "context-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context-heading",
+        "context-text"
+      ]
+    },
+    "context-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "context-text": {
+      "type": "Text",
+      "props": {
+        "text": "This aligns with group uncertainty. Rate-of-change focus is more relevant for equity volatility dynamics than absolute yield levels. Macro commentary consistent with Wild_Randomness's documented vol/dispersion thesis."
+      },
+      "children": []
+    }
+  }
+}
