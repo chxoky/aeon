@@ -1,0 +1,31 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "view_link"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "@swarmister",
+        "text": "$ADA M15 / H1 Point of Interest in Long\n\nThis zone also looks interesting to me. Although they might not let us in fully anymore.\n\nI'm looking for an entry point in the 0.1685–0.17 range https://t.co/1YlmEfqevz"
+      }
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/swarmister/status/2079812453886570851"
+      }
+    }
+  }
+}
