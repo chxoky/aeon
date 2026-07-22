@@ -1,0 +1,61 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor",
+        "description": "Trading signals from X/Twitter"
+      },
+      "children": [
+        "tweet_card",
+        "context_stack"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "$HYPE $ETH\n\nIt's tempting to re-buy this under $60\n\nWith the Clarity Act (passing) approaching, I wonder if this snaps back the other way?"
+      },
+      "children": []
+    },
+    "context_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "separator",
+        "context_text",
+        "post_link"
+      ]
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "Setup context: Contrarian vs group bearish lean (HCH short, bull_genius shorts, Chase watching lows). Wild_Randomness flagging $60 re-entry with Clarity Act as potential reversal catalyst.",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "post_link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2079987347832103168"
+      },
+      "children": []
+    }
+  }
+}
