@@ -1,0 +1,122 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @Wild_Randomness"
+      },
+      "children": [
+        "section-context",
+        "sep-1",
+        "section-setup",
+        "sep-2",
+        "section-ambiguous",
+        "sep-3",
+        "section-question"
+      ]
+    },
+    "section-context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-context",
+        "text-context",
+        "tickers-group"
+      ]
+    },
+    "heading-context": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "text-context": {
+      "type": "Text",
+      "props": {
+        "text": "Tracking uranium plays ($OKLO). New $CCJ (Cameco) post on related sector."
+      }
+    },
+    "tickers-group": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-oklo",
+        "badge-ccj"
+      ]
+    },
+    "badge-oklo": {
+      "type": "Badge",
+      "props": {
+        "text": "$OKLO",
+        "variant": "outline"
+      }
+    },
+    "badge-ccj": {
+      "type": "Badge",
+      "props": {
+        "text": "$CCJ (Cameco)",
+        "variant": "outline"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section-setup": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-setup",
+        "text-setup"
+      ]
+    },
+    "heading-setup": {
+      "type": "Heading",
+      "props": {
+        "text": "Setup",
+        "level": "h3"
+      }
+    },
+    "text-setup": {
+      "type": "Text",
+      "props": {
+        "text": "Monthly bear div played out, RSI reset, now retesting trend."
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section-ambiguous": {
+      "type": "Alert",
+      "props": {
+        "title": "Ambiguous",
+        "message": "\"We have arrived…\" — is this entry confirmation or structure observation?",
+        "type": "warning"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section-question": {
+      "type": "Text",
+      "props": {
+        "text": "Kyle: how do you read this?",
+        "variant": "lead"
+      }
+    }
+  }
+}

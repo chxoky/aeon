@@ -1183,6 +1183,24 @@ BOOTSTRAP_COMPLETE: 2026-07-14
 
 ---
 
+## Wild_Randomness — Additional Entry (2026-07-22 early morning)
+
+### 2026-07-22 02:18:02 UTC (X) — ambiguous (cryptic technical setup confluence, awaiting Kyle calibration per HR-2)
+- **Ticker**: $CCJ (Cameco Corporation, uranium/nuclear)
+- **Message**: "$CCJ\n\nWe have arrived…\n\nMonthly bear div played out, RSI reset, now retesting trend. https://t.co/r6RtT4qnZ9"
+- **Classification**: AMBIGUOUS — HR-2 calibration required. "We have arrived…" + technical confluence could signal ENTRY CONFIRMATION (Step 5: personal action taking position at inflection) OR PURE OBSERVATION (Step 6: setup readiness observation). No explicit execution markers ("just longed", "filled my limit", "adding here" — absent).
+- **Context**: Wild_Randomness tracks uranium sector ($OKLO "run before Q3 index top"). Current $CCJ (related uranium/nuclear commodity ticker) post follows on thematic expansion. Entry language ambiguous; awaits Kyle interpretation for future classification framework.
+- **Pattern note**: Wild_Randomness is equities/vol/semis specialist with periodic commodity surveillance. OKLO + CCJ = emerging macro-commodity-thesis focus worth monitoring for cross-trader convergence.
+- **Ticker-focus update**: $CCJ (uranium sector, single-trader mention, tracked silently pending cross-trader momentum). OKLO already tracked; second uranium-thematic mention same trader = emerging sector focus.
+- **HR-2 alert sent**: YES — calibration message to Kyle requesting "entry confirmation or structure observation?" interpretation.
+- **Media**: [chart link, content inaccessible]
+- **Position state**: Unknown current CCJ holdings. OKLO tracking suggests potential conviction but entry status unconfirmed.
+- **Cross-platform dedup**: X-only trader, no Discord presence. First CCJ sighting Jul 22 02:18 UTC.
+- **Fast-path**: false (real-time X monitor, no Worker pre-alert on X posts)
+- **Alerted**: YES (calibration alert via ./notify)
+- **x-trader-seen**: tweet_id 2079752801383498120 added for dedup (prevents Worker redelivery)
+- **Last update**: 2026-07-22T02:18:02 UTC (tweet_id=2079752801383498120, x-trader-monitor real-time event, classification=ambiguous-awaiting-calibration)
+
 ## HeartCanHodl — Additional Discord Entry (2026-07-21 evening)
 
 ### 2026-07-21T19:59:59Z (Discord — HCH — Comments) — informational (technical/price-action observation)
