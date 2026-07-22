@@ -1,0 +1,101 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading_cal",
+        "text_event",
+        "sep1",
+        "tweet_card",
+        "sep2",
+        "text_question",
+        "stack_options",
+        "sep3",
+        "link_view"
+      ]
+    },
+    "heading_cal": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h3"
+      }
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Tweet at 2026-07-22 15:51:05 UTC",
+        "variant": "muted"
+      }
+    },
+    "sep1": {
+      "type": "Separator"
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Decent start https://t.co/JtVvysINfi"
+      }
+    },
+    "sep2": {
+      "type": "Separator"
+    },
+    "text_question": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read? Is this:",
+        "variant": "lead"
+      }
+    },
+    "stack_options": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "option1",
+        "option2",
+        "option3"
+      ]
+    },
+    "option1": {
+      "type": "Text",
+      "props": {
+        "text": "Market open sentiment (ES/indices \"decent start\")?",
+        "variant": "body"
+      }
+    },
+    "option2": {
+      "type": "Text",
+      "props": {
+        "text": "A specific position/trade starting well?",
+        "variant": "body"
+      }
+    },
+    "option3": {
+      "type": "Text",
+      "props": {
+        "text": "General market commentary?",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator"
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2079957412271051124"
+      }
+    }
+  }
+}
