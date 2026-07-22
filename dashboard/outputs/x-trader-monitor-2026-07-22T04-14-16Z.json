@@ -1,0 +1,46 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🐦 x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "tweet_link",
+        "separator_1",
+        "analysis_text"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "handle": "t_in_crypto",
+        "text": "I don't think we'll see 73k, but we have a chance to get closer to the upper levels. We'll see how high time allows us to go"
+      }
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/t_in_crypto/status/2079781293068329200"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Price-level opinion: bullish on upper levels but skeptical of 73k top (t_in_crypto is 100% BTC long from 58.4K, high-conviction holder through consolidation).",
+        "variant": "body"
+      }
+    }
+  }
+}
