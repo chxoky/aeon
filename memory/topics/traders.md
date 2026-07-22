@@ -236,8 +236,9 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - PENDING: ETH "caught a pico top short for like $120" — open position to mirror or closed-trade reflection? [2079738276941119612]
   - PENDING: CCJ "We have arrived…" — entry confirmation or pure setup observation? [2079752801383498120]
   - PENDING: standing protocol for this trader's persistent cryptic/URL-minimal posts — keep flagging each individually or adopt a standing rule? [2078496857953857759]
-- Last seen: 2026-07-22 17:50:02 UTC
+- Last seen: 2026-07-22 17:57:59 UTC
 - **Events (rolling):**
+  - Jul 22 17:57Z — ambiguous: HYPE "It's bad for hype, better for Lighter" reply to @GalleonCrypto, awaiting calibration [2079989349186199608]
   - Jul 22 17:50Z — informational: HYPE ETH Clarity Act regulatory catalyst reversal setup under $60 [2079987347832103168]
   - Jul 22 17:29Z — informational: LIT — opinion on 2H summer outperformance (clarity act, cap, trend) [2079982168562896997]
   - Jul 14 15:25Z — conviction-add: SPY "tapping my SPY box again", ~30k NQ notional context [2077051901804417406]

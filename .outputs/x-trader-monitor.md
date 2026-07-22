@@ -1,1 +1,7 @@
-🐦 *[X] @Wild_Randomness*\n\n$HYPE $ETH\n\nIt's tempting to re-buy this under $60\n\nWith the Clarity Act (passing) approaching, I wonder if this snaps back the other way?\n\nSetup context: Contrarian vs group bearish lean (HCH short, bull_genius shorts, Chase watching lows). Wild_Randomness flagging $60 re-entry with Clarity Act as potential reversal catalyst.\n\nhttps://x.com/Wild_Randomness/status/2079987347832103168
+🔍 *Calibration — @Wild_Randomness*
+
+Context: Reply to @GalleonCrypto on trading protocol sentiment
+
+Message: "It's bad for hype, better for Lighter"
+
+Unable to classify without the full thread — is this bearish sentiment on $HYPE narrative, or commentary on DEX protocol competition? Your read?

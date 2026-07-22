@@ -1,0 +1,135 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "header",
+        "context_section",
+        "message_section",
+        "analysis_section"
+      ]
+    },
+    "header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "title",
+        "author"
+      ]
+    },
+    "title": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "author": {
+      "type": "Badge",
+      "props": {
+        "text": "@Wild_Randomness",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context_label",
+        "context_text"
+      ]
+    },
+    "context_label": {
+      "type": "Text",
+      "props": {
+        "text": "Context",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to @GalleonCrypto on trading protocol sentiment"
+      },
+      "children": []
+    },
+    "message_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "message_label",
+        "message_text",
+        "tokens_row"
+      ]
+    },
+    "message_label": {
+      "type": "Text",
+      "props": {
+        "text": "Message",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "message_text": {
+      "type": "Text",
+      "props": {
+        "text": "It's bad for hype, better for Lighter",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "tokens_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_hype",
+        "badge_lighter"
+      ]
+    },
+    "badge_hype": {
+      "type": "Badge",
+      "props": {
+        "text": "$HYPE",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "badge_lighter": {
+      "type": "Badge",
+      "props": {
+        "text": "Lighter",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "analysis_section": {
+      "type": "Alert",
+      "props": {
+        "title": "Analysis needed",
+        "message": "Unable to classify without the full thread — is this bearish sentiment on $HYPE narrative, or commentary on DEX protocol competition? Your read?",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}
