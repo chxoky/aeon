@@ -55,7 +55,8 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - PENDING: "Huge deal coming Monday AM around 9:45 after 10-15 mins of opening panic" — which market/asset, personal entry trigger or observation? (msg 1527768821320913098)
   - PENDING: "@breakoutprop killin it, need ES next" — bullish sequence call on ES or structure watch? (tweet 2079723023737802988)
   - PENDING: "618 deviation perhaps" + chart — which ticker/timeframe, 0.618 Fib level or other? TradFi supporting channel (msg 1529598353413898350)
-- Last seen: 2026-07-22 21:17:46 UTC
+  - PENDING: "Figured it was" — 3-word cryptic fragment, no context for referent, Crypto supporting channel (msg 1529604774100467932)
+- Last seen: 2026-07-22 21:43:16 UTC
 - **Events (rolling):**
   - Jul 15 13:57Z — market-call: SNDK generational bottom ~1350, worst case 1K, wants longer-hold re-entry [2077392182772662626]
   - Jul 15 14:48Z — market-call: INTC conditional long on relative-strength unwind sell-off, target ~120 [1526963744553308240]
@@ -87,6 +88,7 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - Jul 22 21:17Z — ambiguous: "618 deviation perhaps" + chart — technical observation, ticker/context unclear, PENDING calibration [1529598353413898350]
   - Jul 22 21:34Z — informational: GOOG "now trading in the 320's" — market observation, contingent on earlier 321 bid that didn't fill [2080043780795732333]
   - Jul 22 21:39Z — informational: TradFi supporting channel — "618 should play out in time" response to member bid question; low conviction ("not necessarily an A+ trade"), fundamental-move concern cited [1529603708562706494]
+  - Jul 22 21:43Z — ambiguous: Crypto supporting channel "Figured it was" — cryptic 3-word fragment, awaiting calibration [1529604774100467932]
 
 # swarmister — compressed (merged from duplicate/"swarmiister"/continued sections; events attributed to other traders in these chunks excluded)
 

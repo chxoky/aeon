@@ -21,3 +21,10 @@
 3. ✅ Created detailed log entry in `memory/logs/2026-07-22.md`
 
 The skill has successfully classified and logged this real-time Discord event.
+🔍 *Calibration — [DC: Chase — Crypto]*
+
+Event: Last message context was GOOG trading in 320's (no prior context for current reply)
+
+Crypto_Chase: "Figured it was"
+
+Unable to classify — what's your read?
