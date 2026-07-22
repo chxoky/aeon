@@ -1,0 +1,39 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "tweet_link",
+        "interpretation_text"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "handle": "t_in_crypto",
+        "text": "I think the desire to reach 40k+ is holding them back. But that doesn't mean we can't reach higher levels first"
+      }
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/t_in_crypto/status/2080051696156188961"
+      }
+    },
+    "interpretation_text": {
+      "type": "Text",
+      "props": {
+        "text": "↳ Bullish market-structure commentary, aligns with t_in_crypto's ongoing bull thesis + KillaXBT's structural bull lean.",
+        "variant": "caption"
+      }
+    }
+  }
+}
