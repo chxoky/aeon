@@ -1,5 +1,11 @@
 🔍 *Calibration — [DC: HCH — Chat]*
 
-HCH: "Fc btc 15m"
+Context: HCH's active positions (as of 2026-07-22):
+- Short basket: BTC/ETH/SOL/HYPE (core holdings)
+- ZEC short 2-3% (last add 2026-07-15T11:22Z)
+- UNI short 2% (last add 2026-07-21T01:38Z)
+- VVV short 2% (added 2026-07-19T02:08Z)
 
-Unable to classify — what's your read? (Technical observation? Incomplete message? Test?)
+HCH message: "This is nothing compared to our expectations 👀"
+
+Unable to classify — dismissive of current price action? Conviction commentary? Awaiting your read.

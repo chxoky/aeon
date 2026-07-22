@@ -1,0 +1,151 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "heading_calibration",
+        "separator_1",
+        "positions_stack",
+        "separator_2",
+        "message_stack",
+        "separator_3",
+        "analysis_stack"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — DC: HCH — Chat",
+        "level": "h2"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "positions_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_context",
+        "positions_list"
+      ]
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "Context: HCH's active positions (as of 2026-07-22):",
+        "variant": "lead"
+      }
+    },
+    "positions_list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_basket",
+        "pos_zec",
+        "pos_uni",
+        "pos_vvv"
+      ]
+    },
+    "pos_basket": {
+      "type": "Text",
+      "props": {
+        "text": "Short basket: BTC/ETH/SOL/HYPE (core holdings)"
+      }
+    },
+    "pos_zec": {
+      "type": "Text",
+      "props": {
+        "text": "ZEC short 2-3% (last add 2026-07-15T11:22Z)"
+      }
+    },
+    "pos_uni": {
+      "type": "Text",
+      "props": {
+        "text": "UNI short 2% (last add 2026-07-21T01:38Z)"
+      }
+    },
+    "pos_vvv": {
+      "type": "Text",
+      "props": {
+        "text": "VVV short 2% (added 2026-07-19T02:08Z)"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_message",
+        "text_message"
+      ]
+    },
+    "heading_message": {
+      "type": "Heading",
+      "props": {
+        "text": "HCH Message",
+        "level": "h3"
+      }
+    },
+    "text_message": {
+      "type": "Text",
+      "props": {
+        "text": "\"This is nothing compared to our expectations 👀\"",
+        "variant": "body"
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_analysis",
+        "text_analysis"
+      ]
+    },
+    "heading_analysis": {
+      "type": "Heading",
+      "props": {
+        "text": "Analysis",
+        "level": "h3"
+      }
+    },
+    "text_analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — dismissive of current price action? Conviction commentary? Awaiting your read.",
+        "variant": "caption"
+      }
+    }
+  }
+}
