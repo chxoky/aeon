@@ -1,6 +1,7 @@
-🐦 *[X] @t_in_crypto*
+🔍 *Calibration — @Wild_Randomness*
 
-I think the desire to reach 40k+ is holding them back. But that doesn't mean we can't reach higher levels first
+Event: Reply to @Evan_ss6 with cryptic language
+@Wild_Randomness: "Faded🤝 https://t.co/DqgWco6OOe"
 
 [View tweet](https://x.com/t_in_crypto/status/2080051696156188961)
 
@@ -17,3 +18,4 @@ Event: Post after HYPE re-add activity (19:10 UTC same day)
 Wild_Randomness: "Where were the signs?" https://t.co/0V3iUSeaXr
 
 Unable to classify — what's your read? (Cryptic self-commentary on a trade, market observation, or non-financial?)
+Unable to classify — what's your read? ('Faded' as trade gone wrong, position weakness, or banter?)
