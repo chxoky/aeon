@@ -54,7 +54,8 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - PENDING: "@Louround_ yep, in." — entered what? which ticker did Louround_ suggest? (tweet 2078124888716358006)
   - PENDING: "Huge deal coming Monday AM around 9:45 after 10-15 mins of opening panic" — which market/asset, personal entry trigger or observation? (msg 1527768821320913098)
   - PENDING: "@breakoutprop killin it, need ES next" — bullish sequence call on ES or structure watch? (tweet 2079723023737802988)
-- Last seen: 2026-07-22 00:31:00 UTC
+  - PENDING: "618 deviation perhaps" + chart — which ticker/timeframe, 0.618 Fib level or other? TradFi supporting channel (msg 1529598353413898350)
+- Last seen: 2026-07-22 21:17:46 UTC
 - **Events (rolling):**
   - Jul 15 13:57Z — market-call: SNDK generational bottom ~1350, worst case 1K, wants longer-hold re-entry [2077392182772662626]
   - Jul 15 14:48Z — market-call: INTC conditional long on relative-strength unwind sell-off, target ~120 [1526963744553308240]
@@ -83,6 +84,7 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - Jul 22 19:58Z — informational: GOOG "earnings stink bid around 321" + chart, contingent bid observation, no active entry (fast-path-alerted) [1529578350618873897]
   - Jul 22 20:17Z — informational: bid cancellation, "no dice for any sweeps unfortunately today" + chart, bid context unclear — likely prior GOOG/standing bids (MU/INTC/AMD) [1529583070322102413]
   - Jul 22 20:20Z — informational: TSLA "ugly chart, no interest" — TradFi supporting channel reply dismissing member interest; no trade action [1529583932146712746]
+  - Jul 22 21:17Z — ambiguous: "618 deviation perhaps" + chart — technical observation, ticker/context unclear, PENDING calibration [1529598353413898350]
 
 # swarmister — compressed (merged from duplicate/"swarmiister"/continued sections; events attributed to other traders in these chunks excluded)
 
