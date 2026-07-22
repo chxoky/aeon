@@ -1,0 +1,76 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Yields sentiment call monitoring SPX/TNX correlation regime"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tags-stack",
+        "tweet-card",
+        "link-view",
+        "interpretation-text"
+      ]
+    },
+    "tags-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-spx",
+        "badge-tnx"
+      ]
+    },
+    "badge-spx": {
+      "type": "Badge",
+      "props": {
+        "text": "$SPX",
+        "variant": "outline"
+      }
+    },
+    "badge-tnx": {
+      "type": "Badge",
+      "props": {
+        "text": "$TNX",
+        "variant": "outline"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "I know the moment people start tweeting about yields is when they no longer matter (local top is near).\n\nBut should this hold into Friday, this will be the second highest close on the 10-year since the 2023 Treasury Tantrum (SPX moved down 10% over 3 months from July)"
+      }
+    },
+    "link-view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2079993531322749204"
+      }
+    },
+    "interpretation-text": {
+      "type": "Text",
+      "props": {
+        "text": "Yields sentiment call — watches SPX/TNX correlation regime. Macro top signal if sustained into Friday.",
+        "variant": "caption"
+      }
+    }
+  }
+}
