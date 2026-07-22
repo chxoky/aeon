@@ -1,25 +1,9 @@
-🔍 *Calibration — @Wild_Randomness*
-
-Event: Reply to @Evan_ss6 with cryptic language
-@Wild_Randomness: "Faded🤝 https://t.co/DqgWco6OOe"
 🐦 *[X] @Wild_Randomness*
 
-Aware of a lot of liq to take into 70k here, but anything past that (especially 80k) would require reconsidering some positions.
+Definitely long trades to be had along the way but I agree on the continued discussion of cycle bottom
 
-[View tweet](https://x.com/Wild_Randomness/status/2080054005687050700)
+See first two images (previous two cycle bottoms), was there for both and I don't recall the amount of bottom calls I'm seeing today
 
-[View tweet](https://x.com/t_in_crypto/status/2080050450074628295)
-Event: Extremely cryptic reply to @zohaan1324/@bnshiv23, high volume of similar posts since Jul 17
+There could always be a third drive too…
 
-t_in_crypto: "@zohaan1324 @bnshiv23 July imo"
-
-Unable to classify — what's your read? (Is this a July pivot affirmation, sentiment, or banter?)
-↳ _Bullish market-structure commentary, aligns with t_in_crypto's ongoing bull thesis + KillaXBT's structural bull lean._
-🔍 *Calibration — @Wild_Randomness*
-
-Event: Post after HYPE re-add activity (19:10 UTC same day)
-Wild_Randomness: "Where were the signs?" https://t.co/0V3iUSeaXr
-
-Unable to classify — what's your read? (Cryptic self-commentary on a trade, market observation, or non-financial?)
-Unable to classify — what's your read? ('Faded' as trade gone wrong, position weakness, or banter?)
-↳ _Aligns with broader tactical bearish lean on near-term pullback into key support zones._
+[View post](https://x.com/Wild_Randomness/status/2080057517866909723)

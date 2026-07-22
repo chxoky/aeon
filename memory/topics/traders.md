@@ -252,6 +252,7 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - PENDING: standing protocol for this trader's persistent cryptic/URL-minimal posts — keep flagging each individually or adopt a standing rule? [2078496857953857759]
 - Last seen: 2026-07-22 18:52:58 UTC
 - **Events (rolling):**
+  - Jul 22 22:28Z — informational: BTC cycle-bottom skepticism, too many bottom calls this cycle vs historical precedent [2080057517866909723]
   - Jul 22 18:52Z — ambiguous: external reference "where I called out previous two rounds" link-share, awaiting calibration [2080003185607864629]
 - Last seen: 2026-07-22 20:46:35 UTC
 - **Events (rolling):**
