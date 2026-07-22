@@ -239,6 +239,7 @@ BOOTSTRAP_COMPLETE: 2026-07-14
 - Last seen: 2026-07-22 17:57:59 UTC
 - **Events (rolling):**
   - Jul 22 17:57Z — ambiguous: HYPE "It's bad for hype, better for Lighter" reply to @GalleonCrypto, awaiting calibration [2079989349186199608]
+  - Jul 22 18:01Z — informational: HYPE SPX special relationship market commentary, reply to @lBattleRhino [2079990110364528808]
   - Jul 22 17:50Z — informational: HYPE ETH Clarity Act regulatory catalyst reversal setup under $60 [2079987347832103168]
   - Jul 22 17:29Z — informational: LIT — opinion on 2H summer outperformance (clarity act, cap, trend) [2079982168562896997]
   - Jul 14 15:25Z — conviction-add: SPY "tapping my SPY box again", ~30k NQ notional context [2077051901804417406]
