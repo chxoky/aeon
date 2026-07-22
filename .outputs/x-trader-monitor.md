@@ -1,8 +1,8 @@
 🐦 *[X] @KillaXBT*
 
-Every cycle, $BTC has only formed 3 significant lows after the complacency high and final retest.
+I didn't miss any. The counts and moves are measured from the extensions and the significant highs before lower.
 
-The third low has already formed this cycle.
+The most notable and important highs are more significant
 
 [View tweet](https://x.com/KillaXBT/status/2079957962546684180)
 
@@ -18,3 +18,4 @@ Unable to classify — what's your read? Is this:
 - General market commentary?
 
 [View post](https://x.com/Wild_Randomness/status/2079957412271051124)
+[View tweet](https://x.com/KillaXBT/status/2079960215672193294)
