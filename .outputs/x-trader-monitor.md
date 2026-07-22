@@ -7,3 +7,14 @@ $BTC went from 59K to 83K, then all the way back to 57K... and people still didn
 [View tweet](https://x.com/KillaXBT/status/2079953817227923745)
 
 ↳ _Structural bull sentiment — aligns with Killa's core 2x HTF long (06-13 entry, partial TP 07-18 at 63.8K/62.6K). Converges with t_in_crypto (x2 volume add @ 62K) and swarmister (opened long 07-17 targeting 70.7K). Cuts against HCH/Wild_Randomness ongoing macro bearish stance. Group remains MIXED on BTC._
+🔍 *Calibration — @Wild_Randomness*
+
+Event: Commodity sentiment setup (Wild_Randomness noted commodities bottomed/recovery potential 2h prior)
+
+Wild_Randomness: "$GOLD $GDXJ
+
+This time is (was) different."
+
+Unable to classify — entry confirmation or setup observation?
+
+[View post](https://x.com/Wild_Randomness/status/2079954257747325272)
