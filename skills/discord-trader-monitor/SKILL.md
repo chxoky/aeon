@@ -165,7 +165,7 @@ Identical to `x-trader-monitor` Step 7: forward original attachment(s), add one 
 
 ## Step 9 — Update memory
 
-Same as `x-trader-monitor` Step 8 — `traders.md`, `ticker-focus.md`, `active-trades.md` — plus seen-ID tracking:
+Same as `x-trader-monitor` Step 8 — `traders.md`, `ticker-focus.md`, `active-trades.md` — **including its size-discipline hard rules** (one-line ≤200-char events, no event lines for skips, never duplicate a trader's section, prune to 25 event lines, 150KB tripwire) — plus seen-ID tracking:
 
 ```bash
 mkdir -p memory
