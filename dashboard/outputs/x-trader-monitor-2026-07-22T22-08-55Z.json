@@ -1,0 +1,135 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration request from @t_in_crypto"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_calibration",
+        "alert_event",
+        "sep_1",
+        "tweet_card",
+        "sep_2",
+        "stack_classify"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @t_in_crypto",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "alert_event": {
+      "type": "Alert",
+      "props": {
+        "title": "Event",
+        "message": "Extremely cryptic reply to @zohaan1324/@bnshiv23, high volume of similar posts since Jul 17",
+        "type": "info"
+      },
+      "children": []
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "handle": "t_in_crypto",
+        "text": "@zohaan1324 @bnshiv23 July imo"
+      },
+      "children": []
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack_classify": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_classify",
+        "text_unable",
+        "stack_options"
+      ]
+    },
+    "heading_classify": {
+      "type": "Heading",
+      "props": {
+        "text": "Classification",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text_unable": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "stack_options": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_july_pivot",
+        "badge_sentiment",
+        "badge_banter"
+      ]
+    },
+    "badge_july_pivot": {
+      "type": "Badge",
+      "props": {
+        "text": "July pivot affirmation",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "badge_sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Sentiment",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "badge_banter": {
+      "type": "Badge",
+      "props": {
+        "text": "Banter",
+        "variant": "outline"
+      },
+      "children": []
+    }
+  }
+}
