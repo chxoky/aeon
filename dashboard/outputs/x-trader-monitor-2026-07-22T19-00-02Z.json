@@ -1,0 +1,190 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor: Calibration",
+        "description": "@Wild_Randomness retrospective post"
+      },
+      "children": [
+        "header",
+        "tweet_card",
+        "details_stack"
+      ]
+    },
+    "header": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Lol wait that's wrong\n\nI called round 2 here\n\nForgot how good of a call that was lmao https://t.co/BpYoPSuVP1"
+      },
+      "children": []
+    },
+    "details_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "event_section",
+        "classification_section",
+        "links_section"
+      ]
+    },
+    "event_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event_heading",
+        "event_text",
+        "sep1",
+        "focus_heading",
+        "markets_stack",
+        "sep2",
+        "context_note"
+      ]
+    },
+    "event_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "event_text": {
+      "type": "Text",
+      "props": {
+        "text": "Just posted retrospective on a previous \"round 2\" call",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "focus_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Recent Focus Markets",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "markets_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_hype",
+        "badge_eth",
+        "badge_macro",
+        "badge_lit"
+      ]
+    },
+    "badge_hype": {
+      "type": "Badge",
+      "props": {
+        "text": "HYPE (Clarity Act reversal <$60)",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge_eth": {
+      "type": "Badge",
+      "props": {
+        "text": "ETH structure",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge_macro": {
+      "type": "Badge",
+      "props": {
+        "text": "SPX/TNX macro levels",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge_lit": {
+      "type": "Badge",
+      "props": {
+        "text": "LIT summer outperformance",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "context_note": {
+      "type": "Text",
+      "props": {
+        "text": "No explicit market/asset mentioned in the post. URL may provide context but inaccessible.",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "classification_section": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Is this a signal on one of those markets, or just casual banter about past trade?",
+        "type": "info"
+      },
+      "children": []
+    },
+    "links_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "original_link",
+        "referenced_link"
+      ]
+    },
+    "original_link": {
+      "type": "Link",
+      "props": {
+        "label": "View original post on X",
+        "href": "https://x.com/Wild_Randomness/status/2080003940276376054"
+      },
+      "children": []
+    },
+    "referenced_link": {
+      "type": "Link",
+      "props": {
+        "label": "View referenced \"round 2\" call",
+        "href": "https://t.co/BpYoPSuVP1"
+      },
+      "children": []
+    }
+  }
+}
