@@ -1,5 +1,7 @@
-🔍 *Calibration — @swarmister*
+🐦 **[X] @swarmister — BTC Order Flow**
 
-Reply to @blancxbt: "…"
+$BTC (LTF) Observation: Yesterday, a seller's limit order for 2,700 BTC was filled on BTC. The battle around this zone has been going on for the second day in a row. The market is ranging, with neither side gaining the upper hand so far.
 
-Unable to classify — just a mention + ellipsis. This matches the terse cryptic pattern from 40+ prior posts. What's your read?
+**Charts show:** Large order-flow fill at ~62,500 support zone (Bitmex LTF) with consolidation range established across daily structure. Volume-profile confirms 62-62.5K as major activity level.
+
+[View post](https://x.com/swarmister/status/2080179610176614571)
