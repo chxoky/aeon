@@ -1,20 +1,11 @@
-🐦 *[X] @Wild_Randomness*
+🐦 *[X] @bull_genius*
 
-Ansem Holders… Enjoying the ride?
+update not much has changed, price keeps bleeding slowly, not great. currently at previous week poc.
 
-**Pattern:** ANSEM/Tether perpetual futures: spike 0.0469 → peak 0.4576 → decline to 0.1460–0.2366
+at 7d rvwap + prev week poc should form a higher low around here if we are to go higher
 
-**Chart shows:** 'Euthanasia rollercoaster' pattern with comment 'Next loop soon' — suggests repeat cycle ahead
+will cut and revisit if last week poc is lost - so right now its as close to inval as it gets - we pray
 
-**Context:** Continues Wild_Randomness Jul 15 bearish fractal call (-0.13 by end of Aug). Charts demonstrate crash is playing out as predicted.
+also watching hype here at 90d rvwap, its in a downtrend the whole july against the market. key zone with hefty move loading
 
-[View tweet](https://x.com/Wild_Randomness/status/2080357717336822222)
-🐦 *[X] @Stoiiic*
-
-Continuous binance and cb spot dumping this session on BTC with binance easing off a bit for about an hour.
-
-7d rolling + composite technical analysis.
-
-Interim decision point in market structure.
-
-[View tweet](https://x.com/Stoiiic/status/2080358174616334690)
+[View tweet](https://x.com/bull_genius/status/2080360522566812105)

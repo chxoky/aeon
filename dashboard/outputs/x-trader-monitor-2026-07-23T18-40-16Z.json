@@ -1,0 +1,42 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "stack_1"
+      ]
+    },
+    "stack_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweetcard_1",
+        "link_1"
+      ]
+    },
+    "tweetcard_1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "@bull_genius",
+        "text": "update not much has changed, price keeps bleeding slowly, not great. currently at previous week poc.\n\nat 7d rvwap + prev week poc should form a higher low around here if we are to go higher\n\nwill cut and revisit if last week poc is lost - so right now its as close to inval as it gets - we pray\n\nalso watching hype here at 90d rvwap, its in a downtrend the whole july against the market. key zone with hefty move loading"
+      }
+    },
+    "link_1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View tweet",
+        "href": "https://x.com/bull_genius/status/2080360522566812105",
+        "source": "X"
+      }
+    }
+  }
+}

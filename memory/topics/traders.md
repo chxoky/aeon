@@ -485,8 +485,9 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - PENDING: one-word "yes" to @maybe_cmeister — agreeing to what? [2078476335974887586]
   - PENDING: "realest shit ive read in a minute" — subject unknown [2078560776164360508]
   - PENDING: "@heart_ see @blancxbt man i told u they wont buy it" — which asset/level? [2079542718460518532]
-- Last seen: 2026-07-23 12:56:37 UTC
+- Last seen: 2026-07-23 18:32:54 UTC
 - **Events (rolling):**
+  - Jul 23 18:32Z — informational: BTC technical levels (7d RVWAP + prev week POC forming higher low), HYPE downtrend (90d RVWAP, key zone). Charts annotate full POC/VWAP ladder; risk: cut if summer POC lost [2080360522566812105]
   - Jul 23 12:56Z — trade-entry: BTC market entry ~65K (7d rvwap), targets 70K–71.6K (2026 avwap); charts show POC resistance test + reversal setup [2080275894405312699]
   - Jul 21 13:27Z — market call: BTC 70K target back on; 65K broken, targets 67K/68.2K/71.7K; still flat [2079558808083272104]
   - Jul 21 12:23Z — ambiguous (pending): "i told u they wont buy it" to @heart_/@blancxbt; asset/level unknown [2079542718460518532]
