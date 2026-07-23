@@ -1,0 +1,146 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration analysis"
+      },
+      "children": [
+        "heading_calibration",
+        "sep1",
+        "section_event",
+        "sep2",
+        "section_context",
+        "sep3",
+        "alert_question"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @HeartCanHodl",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section_event": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_event",
+        "discord_description",
+        "discord_quote",
+        "sep_inner1",
+        "hch_reply",
+        "hch_timing"
+      ]
+    },
+    "heading_event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "discord_description": {
+      "type": "Text",
+      "props": {
+        "text": "Earlier Discord post (12:34:51Z) in Comments channel:",
+        "variant": "caption"
+      }
+    },
+    "discord_quote": {
+      "type": "Text",
+      "props": {
+        "text": "'This liq. arrived'",
+        "variant": "body"
+      }
+    },
+    "sep_inner1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "hch_reply": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "@HeartCanHodl",
+        "text": "@airline77681117 Not yet :)"
+      }
+    },
+    "hch_timing": {
+      "type": "Text",
+      "props": {
+        "text": "X reply posted 8 minutes after liquidity-arrival Discord post",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section_context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_context",
+        "interpretation",
+        "caveat",
+        "classification_status"
+      ]
+    },
+    "heading_context": {
+      "type": "Heading",
+      "props": {
+        "text": "Context & Interpretation",
+        "level": "h3"
+      }
+    },
+    "interpretation": {
+      "type": "Text",
+      "props": {
+        "text": "Possible interpretation: HeartCanHodl is answering whether they have entered on the arrived liquidity. The response \"Not yet\" suggests they haven't taken a position yet.",
+        "variant": "body"
+      }
+    },
+    "caveat": {
+      "type": "Alert",
+      "props": {
+        "title": "Data limitation",
+        "message": "Without seeing @airline77681117's original message, cannot confirm what HeartCanHodl is actually responding to.",
+        "type": "warning"
+      }
+    },
+    "classification_status": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify from available context.",
+        "variant": "lead"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "alert_question": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification needed",
+        "message": "Is this a position/entry signal, or general conversation? What's your read?",
+        "type": "info"
+      }
+    }
+  }
+}
