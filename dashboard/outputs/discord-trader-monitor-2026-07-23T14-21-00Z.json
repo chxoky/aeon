@@ -1,0 +1,99 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "calibration_alert",
+        "separator1",
+        "message_section",
+        "separator2",
+        "context_section"
+      ]
+    },
+    "calibration_alert": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "🔍 Calibration Required",
+        "message": "DC: HCH — Chat"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "message_heading",
+        "message_text"
+      ]
+    },
+    "message_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Message",
+        "level": "h3"
+      }
+    },
+    "message_text": {
+      "type": "Text",
+      "props": {
+        "text": "Breaking those straight up and not reclaiming would end up increasing momentum to the downside and tank the whole market with them",
+        "variant": "lead"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context_heading",
+        "context_summary"
+      ]
+    },
+    "context_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "context_summary": {
+      "type": "Text",
+      "props": {
+        "text": "Cryptic without referenced message context. Is this a market-structure technical call or macro commentary requiring calibration?",
+        "variant": "body"
+      }
+    }
+  }
+}

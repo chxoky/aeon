@@ -1,6 +1,6 @@
-I'll write a summary since the event has been properly logged.
+🔍 *Calibration — [DC: HCH — Chat]*
 
-## Summary
+Message: "Breaking those straight up and not reclaiming would end up increasing momentum to the downside and tank the whole market with them"
 
 **Event Processed: Discord Message Link Share**
 - **Event:** Crypto_Chase shared their own X post (tweet URL) to Discord via role ping
@@ -21,3 +21,4 @@ Message: "So keeping an eye out"
 Context: Supporting channel real-time update. No ticker, price, or action specified. Could reference HCH's active short basket (BTC/ETH/SOL/HYPE/ZEC/UNI/VVV) or general market readiness.
 
 Unable to classify — what's your read?
+Context: Cryptic without referenced message context. Is this a market-structure technical call or macro commentary requiring calibration?
