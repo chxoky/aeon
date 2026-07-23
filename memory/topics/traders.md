@@ -246,6 +246,7 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - Jul 22 14:31:31Z — ambiguous: BTC "Fc btc 15m" in Chat channel, awaiting calibration [1529496120005234689]
   - Jul 22 14:42:14Z — ambiguous: Chat "This is nothing compared to our expectations 👀", awaiting calibration [1529498814808064151]
   - Jul 22 21:14Z — ambiguous: "@hellojintao Isn't ansem topped in the 1st week of July?" — ticker/context unclear, awaiting calibration [2080038785635729458]
+  - Jul 23 12:56:21Z — informational: BTC "Fc btc 1hr" form-confirmed 1-hour chart callout in Chat channel (supporting), reiteration of 12:34 Comments post [1529834558592254075]
   - Jul 23 12:34:15Z — informational: BTC "Fc btc 1hr" form-confirmed 1-hour chart callout in Comments channel [1529828995032547549]
   - Jul 23 12:34:51Z — ambiguous: Comments channel reply "This liq. arrived" — empty referenced message, context missing, calibration alert sent [1529829147810070558]
   - Jul 23 12:39:45Z — informational: BTC/ETH liquidation flows screenshot ("Bait" trap) supporting active short thesis [2080271647836381617]

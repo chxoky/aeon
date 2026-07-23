@@ -1,16 +1,22 @@
 ## Summary
 
-✅ **Discord Trader Monitor — Event Processed**
+**Discord-trader-monitor skill execution complete**
 
-**Event**: Crypto_Chase replied to a member's question about Google price levels with a chart image in the TradFi supporting channel.
+**Event processed:**
+- Message ID: 1529834558592254075
+- Trader: HeartCanHodl (username: heartcanhodl)
+- Channel: 1023638573313966212 (HCH — Chat, supporting)
+- Content: "Fc btc 1hr" (form-confirmed 1-hour BTC chart callout)
+- Timestamp: 2026-07-23T12:56:21Z
+- Fast-path alerted: false (processed fully)
 
-**Classification**: **Informational** — Supporting channel member Q&A, no trade action.
+**Classification:** Informational (technical observation, not trade execution)
 
-**Decision**: **No alert sent**. Per the skill protocol (Step 7), supporting-channel messages default to no alert unless they represent a real conviction shift or new market-significant information. This is a supporting-channel chart share to a member's inquiry.
+**Decision:** No standalone alert. This is a supporting-channel reiteration of the same "Fc btc 1hr" callout posted 22 minutes earlier in the Comments channel (primary). Per Step 7 protocol—when related primary-channel message exists, fold supporting-channel messages as footnote rather than duplicate alert.
 
-**Actions taken**:
-- ✅ Message ID added to `discord-trader-seen.txt` 
-- ✅ Event logged to `memory/logs/2026-07-23.md`
-- ✅ No telegram notification (supporting channel, contextual only)
+**Updates:**
+- ✅ Added message_id to `memory/discord-trader-seen.txt`
+- ✅ Updated `memory/topics/traders.md` with event (HCH events list)
+- ✅ Logged to `memory/logs/2026-07-23.md` with classification and cross-reference
 
-**Context**: Crypto_Chase's GOOG position closed on Jul 16, so this reply is just providing chart context to the member's question — not a new entry or conviction update.
+HCH remains structurally SHORT on BTC (38–42% portfolio allocation, targeting 60.8k/59.3k). This chart confirmation supports the existing thesis.
