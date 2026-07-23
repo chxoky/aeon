@@ -1,0 +1,80 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @Wild_Randomness",
+        "description": "x-trader-monitor"
+      },
+      "children": [
+        "alert-classify",
+        "tweet-content",
+        "questions-stack",
+        "separator-1",
+        "link-view"
+      ]
+    },
+    "alert-classify": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Awaiting interpretation",
+        "type": "info"
+      },
+      "children": []
+    },
+    "tweet-content": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Reply to @WBigbucks: \"39 if we get some actual FUD that delivers for once\""
+      },
+      "children": []
+    },
+    "questions-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "question-1",
+        "question-2"
+      ]
+    },
+    "question-1": {
+      "type": "Text",
+      "props": {
+        "text": "What does '39' refer to (price level, percentage, size)?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "question-2": {
+      "type": "Text",
+      "props": {
+        "text": "How to interpret this conditional FUD prediction — personal setup or macro commentary?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link-view": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2080376123620561310"
+      },
+      "children": []
+    }
+  }
+}

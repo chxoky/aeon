@@ -390,8 +390,9 @@ BOOTSTRAP_COMPLETE: 2026-07-14
 - **Events (rolling):**
   - Jul 23 18:41Z — ambiguous: reply to @pumpyanddumpy "But is it 0? They got filled" — cryptic minimal context (filled order on what asset? referent "it" unclear), calibration alert sent [2080362687306051909]
   - Jul 23 17:45Z — skip: QQQ technical charts (4x 15m snapshots Fri/Mon/Wed) + Mandelbrot intraday analysis; "Beware" URL-only post with no execution language; consistent with macro bearish stance (semis/AI broken, yields ripping) but matches baseline noise rule (Wild_Randomness URL-only = noise unless ticker+action+level present); silent skip [2080348470742044959]
-- Last seen: 2026-07-23 18:39:03 UTC
+- Last seen: 2026-07-23 19:34:54 UTC
 - **Events (rolling):**
+  - Jul 23 19:34Z — ambiguous: reply to @WBigbucks "39 if we get some actual FUD that delivers for once" — cryptic reference, "39" unclear (price level? percentage?), FUD context vague, calibration alert sent [2080376123620561310]
   - Jul 23 19:23Z — skip: BTC "Third Drive?" + charts; no action/conviction; matches noise rule [2080373129613091306]
   - Jul 23 18:39Z — ambiguous: poll-result sentiment reference "So a third of you would rather lose 50% than make 0%? [meme image]"; cryptic rhetorical question on risk preference behavior; no explicit market signal or personal trade action; awaiting calibration [2080362068415598794]
   - Jul 23 19:20Z — informational: SPX/SPY fractal hypothesis — July 2024 pattern repeating in July 2026; questions @Parida on "vixpiry fractal" + FOMC bounce scenario (bullish technical pattern observation); charts show identical 3-move sequence in both periods [2080372409245569301]
