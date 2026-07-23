@@ -1,0 +1,39 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "source_info",
+        "tweet",
+        "link"
+      ]
+    },
+    "source_info": {
+      "type": "Text",
+      "props": {
+        "text": "🐦 X — @Stoiiic",
+        "variant": "muted"
+      }
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "Stoiiic",
+        "text": "Continuous binance and cb spot dumping this session on BTC with binance easing off a bit for about an hour.\n\n7d rolling + composite technical analysis.\n\nInterim decision point in market structure."
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Stoiiic/status/2080358174616334690"
+      }
+    }
+  }
+}
