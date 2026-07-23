@@ -67,7 +67,7 @@ BOOTSTRAP_COMPLETE: 2026-07-14
 - Last seen: 2026-07-23 13:46:11 UTC
 - **Events (rolling):**
   - Jul 23 13:46Z — informational: "Our positions versus the rest of the market" educational/philosophy message on capital discipline + position concentration risk; teaching focus on identifying strongest assets + avoiding dispersion into weaker names; references Google dip (awaiting entry discipline) and memory stocks (positive outlook); primary channel (discord-trader-monitor real-time, image attached) [1529847096755093607]
-- Last seen: 2026-07-23 13:49:30 UTC
+- Last seen: 2026-07-23 13:59:53 UTC
 - **Events (rolling):**
   - Jul 23 13:49Z — trade-partial-tp: MU/SNDK conditional close guidance — "Will close another 10% on MU/SNDK if we get 1035~ MU / 1700~ SNDK today" (next tier exit targets) [1529847933913272401]
   - Jul 23 13:28Z — ambiguous: "could even flush the demand and sweep 309. Not fully sure, that's why there's not a trade at the moment" — technical level (309 = ES/SPX?), no ticker context, awaiting calibration [1529842748868526253]
