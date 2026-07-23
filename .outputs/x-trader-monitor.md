@@ -1,20 +1,11 @@
-🐦 *[X] @Crypto_Chase*
+🐦 *[X] @KillaXBT*
 
-Crazy how I publicly buy the pico lows of the best performers and simultaneously protect yall from the garbage.
+Just the $BTC messenger. Picasso. 2022 & 2026.
 
-We bought MU/SNDK crashes to big profits TWICE, sold GOOG 360's, and avoided all the lackluster, boring charts.
+Fakeout above the weekly downtrend, with the broken trendline never being retested.
 
-Insane run lately, enjoy 🤝
+But yeah, seems like 45% of the market still asking for lower. (Kalshi: "Will BTC hit $50k before $100k?")
 
-[View tweet](https://x.com/Crypto_Chase/status/2080294976013951133)
+Technical observation with charts comparing 2022 vs 2026 cycle structure.
 
-↳ _Portfolio snapshot shows MU +3.66% (994.58), SNDK +2.23% (1634.91) intraday; broader watchlist context on crypto/macro positioning._
-🔍 *Calibration — @swarmister*
-
-Event: Reply to @kingbtc @hellojintao
-
-@swarmister: "What"
-
-Unable to classify — single-word cryptic query. Is this a market signal or social banter?
-
-[View post](https://x.com/swarmister/status/2080295763129614624)
+[View tweet](https://x.com/KillaXBT/status/2080303859012878799)
