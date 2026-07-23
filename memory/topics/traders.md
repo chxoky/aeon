@@ -604,14 +604,16 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - PENDING: "Third point by far the most important" to @asparagoid — subject unknown [2079149731763167361]
   - PENDING: "Buyer at ZERO, 10R trade" — entry announcement, sarcasm, or a "ZERO" ticker? [2079716451229786419]
   - PENDING: "WE AIN'T SEEING TATESKI UNTIL MIN 2050" — bearish TATE sentiment or banter? [2079918486797664701]
-- Last seen: 2026-07-22 13:16:24 UTC
+- Last seen: 2026-07-23 22:40:33 UTC
 - **Events (rolling):**
-  - Jul 16 18:54Z — ambiguous (pending): SOL "They don't give a fuck about Solana"; bearish tell vs banter [2077829247347863946]
-  - Jul 17 21:40Z — ambiguous (pending): "Banger." affirmation to @griffisu; setup/execution/banter unknown [2078233397093155046]
-  - Jul 18 18:37Z — market call: SOL skepticism re claimed $1-to-ATH trade; reinforces group bearish SOL lean [2078549824765346155]
-  - Jul 20 10:21Z — ambiguous (pending): "Third point by far the most important"; referenced points unknown [2079149731763167361]
-  - Jul 21 23:43Z — market call: TATEUSDT.P bearish — slow bleed then capitulation wick to zero; buyer after sentencing [2079714010283249945]
+  - Jul 23 22:40Z — ambiguous: reply to @McBrideLawNYC '?' + inaccessible media, awaiting calibration [2080422847940292918]
+  - Jul 22 13:16Z — ambiguous (pending): TATE "WE AIN'T SEEING TATESKI UNTIL MIN 2050"; bearish TATE sentiment or banter [2079918486797664701]
   - Jul 21 23:53Z — ambiguous (pending): "Sticking to the plan... Buyer at ZERO, 10R trade"; entry vs sarcasm vs ticker [2079716451229786419]
+  - Jul 21 23:43Z — market call: TATEUSDT.P bearish — slow bleed then capitulation wick to zero; buyer after sentencing [2079714010283249945]
+  - Jul 20 10:21Z — ambiguous (pending): "Third point by far the most important"; referenced points unknown [2079149731763167361]
+  - Jul 18 18:37Z — market call: SOL skepticism re claimed $1-to-ATH trade; reinforces group bearish SOL lean [2078549824765346155]
+  - Jul 17 21:40Z — ambiguous (pending): "Banger." affirmation to @griffisu; setup/execution/banter unknown [2078233397093155046]
+  - Jul 16 18:54Z — ambiguous (pending): SOL "They don't give a fuck about Solana"; bearish tell vs banter [2077829247347863946]
   - Jul 22 13:16Z — ambiguous (pending): TATE/TATESKI "in da slumba... until min 2050"; bearish sentiment vs banter [2079918486797664701]
 
 ## Bitcoin_Astro

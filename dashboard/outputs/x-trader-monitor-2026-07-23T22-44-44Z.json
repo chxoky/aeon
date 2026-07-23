@@ -1,0 +1,80 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor: Calibration"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_status",
+        "text_event",
+        "separator_1",
+        "tweet_card",
+        "separator_2",
+        "alert_classification",
+        "link_view"
+      ]
+    },
+    "badge_status": {
+      "type": "Badge",
+      "props": {
+        "text": "Calibration",
+        "variant": "secondary"
+      }
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @McBrideLawNYC, context not visible",
+        "variant": "lead"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Dr. Axius",
+        "handle": "trading_axe",
+        "text": "?\n\n(inaccessible media link)"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Is this market sentiment, a crypto topic, or non-financial banter? What's your read?",
+        "type": "info"
+      }
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/trading_axe/status/2080422847940292918"
+      }
+    }
+  }
+}
