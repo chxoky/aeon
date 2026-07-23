@@ -437,7 +437,7 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - PENDING: "@Theeesis should be ok for a bit" — reassurance on whose position/what market? [2079599807350395203]
   - PENDING: "@wasmynme nah still think this can leg up again but 67+ - 70 area is prone for reversion" — which ticker (BTC likely)? [2079640575452512663]
   - PENDING: "@BigTrout300 squeeze" — market structure observation, agreement on squeeze pattern, or banter? [2080037843456434228]
-- Last seen: 2026-07-22 21:10:41 UTC
+- Last seen: 2026-07-23 03:38:28 UTC
 - **Events (rolling):**
   - Jul 14 16:43Z — ambiguous: BTC? cryptic "are we actually back?!" awaiting calibration [2077071558426677266]
   - Jul 14 22:31Z — ambiguous: cryptic "bumpy road but back in the mix" — chop read vs re-entry [2077159031005725148]
@@ -464,6 +464,8 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - Jul 21 18:52Z — ambiguous: BTC? "can leg up again but 67-70 prone for reversion" — ticker unconfirmed [2079640575452512663]
   - Jul 22 18:21Z — informational: market philosophy; different ways to express views, timeframes vary ms-decades [2079995192224936240]
   - Jul 22 21:10Z — ambiguous: "@BigTrout300 squeeze" cryptic reply, intent unknown, awaiting calibration [2080037843456434228]
+  - Jul 23 03:38Z — informational: BTC technical analysis; conditional rVWAP/90d rollover, squeeze, 67-70K reversion scenarios [2080135431484555742]
+- Last seen: 2026-07-23 03:38:28 UTC
 
 ## trading_axe (Dr. Axius)
 - Platforms: X
