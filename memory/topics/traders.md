@@ -67,8 +67,9 @@ BOOTSTRAP_COMPLETE: 2026-07-14
 - Last seen: 2026-07-23 13:46:11 UTC
 - **Events (rolling):**
   - Jul 23 13:46Z — informational: "Our positions versus the rest of the market" educational/philosophy message on capital discipline + position concentration risk; teaching focus on identifying strongest assets + avoiding dispersion into weaker names; references Google dip (awaiting entry discipline) and memory stocks (positive outlook); primary channel (discord-trader-monitor real-time, image attached) [1529847096755093607]
-- Last seen: 2026-07-23 14:12:26 UTC
+- Last seen: 2026-07-23 14:24:53 UTC
 - **Events (rolling):**
+  - Jul 23 14:24Z — ambiguous: Crypto supporting channel "That was like the obvious tell over the past year" — cryptic, no context (is_reply: false, referenced_message: null), awaiting calibration [1529856837330141385]
   - Jul 23 14:12Z — informational: X portfolio recap; "publicly buy pico lows of best performers, protect from garbage"; MU/SNDK crash profits TWICE, GOOG 360 exits, avoided lackluster charts; chart shows MU 994.58 (+3.66%), SNDK 1634.91 (+2.23%), watchlist context; X post adds real prices/context to Discord philosophy post (13:46Z, dedup with variation) [2080294976013951133]
   - Jul 23 13:49Z — trade-partial-tp: MU/SNDK conditional close guidance — "Will close another 10% on MU/SNDK if we get 1035~ MU / 1700~ SNDK today" (next tier exit targets) [1529847933913272401]
   - Jul 23 13:28Z — ambiguous: "could even flush the demand and sweep 309. Not fully sure, that's why there's not a trade at the moment" — technical level (309 = ES/SPX?), no ticker context, awaiting calibration [1529842748868526253]
