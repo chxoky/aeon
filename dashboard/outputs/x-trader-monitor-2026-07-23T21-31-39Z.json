@@ -1,0 +1,104 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @KillaXBT"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_event",
+        "separator1",
+        "text_quote",
+        "separator2",
+        "text_classification",
+        "stack_options",
+        "separator3",
+        "link_post"
+      ]
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Defensive/philosophical reply to @JAguer88 questioning analysis methodology",
+        "variant": "body"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_quote": {
+      "type": "Text",
+      "props": {
+        "text": "KillaXBT: \"Im literally speaking based on data.\"",
+        "variant": "lead"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_classification": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read? Is this:",
+        "variant": "body"
+      }
+    },
+    "stack_options": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_opt1",
+        "badge_opt2"
+      ]
+    },
+    "badge_opt1": {
+      "type": "Badge",
+      "props": {
+        "text": "Market sentiment/philosophy post (informational)?",
+        "variant": "outline"
+      }
+    },
+    "badge_opt2": {
+      "type": "Badge",
+      "props": {
+        "text": "Or something specific about an ongoing position?",
+        "variant": "outline"
+      }
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_post": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View post",
+        "href": "https://x.com/KillaXBT/status/2080403433161462090",
+        "source": "X"
+      }
+    }
+  }
+}
