@@ -416,6 +416,9 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - Jul 23 22:22Z — ambiguous: BTC heatmap liquidity analysis, "What if with this local OI pop? Can we attack these lower liqs yet?" — asking if conditions support upside through lower-liq zones or reversal trap; CoinGlass heatmap shows 59.9K base to current 65K with bands at 61.7K/63.7-65.6K/67.5-69.5K; skeptical funding ("could just be spot selling"); awaiting calibration [2080418358848012293]
   - Jul 23 21:22Z — ambiguous: INTC "Ok tempting fate" + 1m chart showing support breakdown; directional intent unclear (bullish reversal vs bearish weakness?) — awaiting calibration [2080403162754904368]
   - Jul 23 21:19Z — informational: INTC technical observation, 1m chart shows intraday rally faded (~99→113.7→104.91); questioning momentum reversal; no personal execution [2080402533701636132]
+- Last seen: 2026-07-23 22:26:14 UTC
+- **Events (rolling):**
+  - Jul 23 22:26Z — ambiguous: BTC "84-77-53?…\n\nI like 70" — references drawdown-pattern analysis from Jul 23 03:49Z (84%/77%/53% cycles); "I like 70" unclear (70% drawdown? price target? level reference?) — calibration alert sent [2080419244261462138]
 
 ## t_in_crypto
 - Platforms: X

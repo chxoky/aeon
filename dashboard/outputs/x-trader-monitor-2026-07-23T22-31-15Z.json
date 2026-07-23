@@ -1,0 +1,89 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "header_section",
+        "event_section",
+        "tweet_section",
+        "question_section",
+        "link_section"
+      ]
+    },
+    "header_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "calibration_badge",
+        "handle"
+      ]
+    },
+    "calibration_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Calibration",
+        "variant": "outline"
+      }
+    },
+    "handle": {
+      "type": "Text",
+      "props": {
+        "text": "@Wild_Randomness"
+      }
+    },
+    "event_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event_label",
+        "event_text"
+      ]
+    },
+    "event_label": {
+      "type": "Text",
+      "props": {
+        "text": "Event:",
+        "variant": "muted"
+      }
+    },
+    "event_text": {
+      "type": "Text",
+      "props": {
+        "text": "Earlier today (Jul 23 03:49Z) posted BTC cycle-bottom analysis with 84%/77%/53% drawdown patterns"
+      }
+    },
+    "tweet_section": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "Wild_Randomness",
+        "text": "84-77-53?…\n\nI like 70"
+      }
+    },
+    "question_section": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "Unable to classify — what's your read? Is this a 70% drawdown level, price target 70K, or something else?"
+      }
+    },
+    "link_section": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2080419244261462138"
+      }
+    }
+  }
+}
