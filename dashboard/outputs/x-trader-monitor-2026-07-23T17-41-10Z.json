@@ -1,0 +1,88 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-card",
+        "separator-1",
+        "context-text",
+        "stats-stack",
+        "separator-2",
+        "link-tweet"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "Every single time OIL nukes, $BTC ends up forming a macro bottom"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "context-text": {
+      "type": "Text",
+      "props": {
+        "text": "Performance since post:",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "stats-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-oil",
+        "stat-btc"
+      ]
+    },
+    "stat-oil": {
+      "type": "Stat",
+      "props": {
+        "label": "OIL",
+        "value": "+25%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat-btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "+11%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2080346124217401610"
+      },
+      "children": []
+    }
+  }
+}
