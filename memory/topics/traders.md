@@ -60,8 +60,9 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - PENDING: "@breakoutprop killin it, need ES next" — bullish sequence call on ES or structure watch? (tweet 2079723023737802988)
   - PENDING: "618 deviation perhaps" + chart — which ticker/timeframe, 0.618 Fib level or other? TradFi supporting channel (msg 1529598353413898350)
   - PENDING: "Figured it was" — 3-word cryptic fragment, no context for referent, Crypto supporting channel (msg 1529604774100467932)
-- Last seen: 2026-07-23 13:22:42 UTC
+- Last seen: 2026-07-23 13:26:24 UTC
 - **Events (rolling):**
+  - Jul 23 13:26Z — informational: TradFi supporting channel — reply clarifying "fundamental change in Google" as "They increased capex beyond what the market expected" (member Q&A context, folded into prior primary-channel 13:22Z alert) [1529842119706017814]
   - Jul 23 13:22Z — informational: GOOG fundamental-driven move analysis, no high-quality technical trade; buying 318 could bounce or stop out; unwilling to endlessly buy dips without clear invalidation (Discord primary, fast-path-alerted) [1529841187400454215]
   - Jul 15 13:57Z — market-call: SNDK generational bottom ~1350, worst case 1K, wants longer-hold re-entry [2077392182772662626]
   - Jul 15 14:48Z — market-call: INTC conditional long on relative-strength unwind sell-off, target ~120 [1526963744553308240]
