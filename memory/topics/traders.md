@@ -21,6 +21,9 @@ BOOTSTRAP_COMPLETE: 2026-07-14
 - Last seen: 2026-07-23 20:43:02 UTC
 - **Events (rolling):**
   - Jul 23 20:43Z — informational: BTC Fear & Greed Index at 5 (lowest since 2018/COVID); major capitulation done, now chop [2080393271151382812]
+- Last seen: 2026-07-23 20:45:00 UTC
+- **Events (rolling):**
+  - Jul 23 20:45Z — informational: market sentiment — hesitation as entry opportunity, capitulation psychology [2080393768214171851]
   - Jul 23 18:56Z — informational: trading philosophy — attention to traders with receipts/proof of action, broader market sentiment on conviction [2080366553598427614]
   - Jul 23 17:35Z — informational: BTC macro thesis — OIL-BTC correlation; historical pattern shows OIL crashes precede BTC macro bottoms; current: OIL +25%, BTC +11% since post [2080346124217401610]
   - Jul 23 15:48Z — informational: BTC market sentiment — whales/billionaires don't time bottoms, simply market buy; comparison to prior $19K cycle lows; chart shows current quantile positioning relative to historical bands [2080319062387605660]
