@@ -1,0 +1,104 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "🔍 Calibration — @Stoiiic"
+      },
+      "children": [
+        "text-event",
+        "separator-1",
+        "tweet-stoiiic",
+        "separator-2",
+        "stack-analysis"
+      ]
+    },
+    "text-event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @vladtenev about market situation",
+        "variant": "lead"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-stoiiic": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "Stoiiic",
+        "text": "lol hacked\n\nthe usual cycle, end of wave 1"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack-analysis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-context",
+        "text-background",
+        "text-hacked-analysis",
+        "text-wave-analysis",
+        "text-classification-q",
+        "link-original"
+      ]
+    },
+    "heading-context": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "text-background": {
+      "type": "Text",
+      "props": {
+        "text": "Stoiiic is an order-flow/market-structure analyst with heavy Elliott Wave + statistical language.",
+        "variant": "body"
+      }
+    },
+    "text-hacked-analysis": {
+      "type": "Text",
+      "props": {
+        "text": "The opening \"lol hacked\" is cryptic (security breach? market manipulation? general commentary?).",
+        "variant": "body"
+      }
+    },
+    "text-wave-analysis": {
+      "type": "Text",
+      "props": {
+        "text": "The follow-up \"end of wave 1\" suggests wave-count analysis but no explicit ticker or trade action indicated.",
+        "variant": "body"
+      }
+    },
+    "text-classification-q": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read? Is this BTC wave structure commentary, a setup signal, or social banter?",
+        "variant": "lead"
+      }
+    },
+    "link-original": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Stoiiic/status/2080347551643971682"
+      }
+    }
+  }
+}
