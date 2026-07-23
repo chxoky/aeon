@@ -1,0 +1,80 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack1"
+      ]
+    },
+    "stack1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading",
+        "event_label",
+        "sep1",
+        "tweet",
+        "analysis",
+        "sep2",
+        "link"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @swarmister",
+        "level": "h3"
+      }
+    },
+    "event_label": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @kingbtc @hellojintao",
+        "variant": "caption"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "@swarmister",
+        "handle": "swarmister",
+        "text": "What"
+      }
+    },
+    "analysis": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Single-word cryptic query. Is this a market signal or social banter?",
+        "type": "warning"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/swarmister/status/2080295763129614624"
+      }
+    }
+  }
+}
