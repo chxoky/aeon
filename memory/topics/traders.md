@@ -323,7 +323,8 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - Jul 22 05:29Z — strategy: will "keep slapping" Sept-Oct puts, willing to eat drawdown [2079801011246633352]
   - Jul 22 19:10Z — conviction-add: HYPE spot re-add (partial, completing by EOW if price action confirms); Sept/Oct iBIT/etha puts scaling [2080007518856569141]
   - Jul 23 03:49Z — informational: BTC cycle-bottom skepticism; analyzes draw-down patterns (84%/77%/53%) across cycles; cautions on insufficient capitulation vs historical precedent [2080138099313741825]
-- Last seen: 2026-07-23 03:49:04 UTC
+  - Jul 23 13:10Z — informational: HYPE positive price action signal, +0.52% while majors down; "Hey it's a start" bullish sentiment [2080279448268755089]
+- Last seen: 2026-07-23 13:10:44 UTC
 
 ## t_in_crypto
 - Platforms: X

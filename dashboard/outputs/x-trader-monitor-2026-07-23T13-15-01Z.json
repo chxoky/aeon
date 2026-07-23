@@ -1,0 +1,76 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet_card",
+        "separator",
+        "price_stats"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "HYPE is showing positive price action while major alts are down. (HYPE +0.52%, BTC -1.65%, ETH -1.84%, SOL -1.55% at snapshot). Bullish sentiment suggested by chart — \"Hey it's a start.\""
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "price_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_hype",
+        "stat_btc",
+        "stat_eth",
+        "stat_sol"
+      ]
+    },
+    "stat_hype": {
+      "type": "Stat",
+      "props": {
+        "label": "HYPE",
+        "value": "+0.52%",
+        "trend": "up"
+      }
+    },
+    "stat_btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "-1.65%",
+        "trend": "down"
+      }
+    },
+    "stat_eth": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "-1.84%",
+        "trend": "down"
+      }
+    },
+    "stat_sol": {
+      "type": "Stat",
+      "props": {
+        "label": "SOL",
+        "value": "-1.55%",
+        "trend": "down"
+      }
+    }
+  }
+}
