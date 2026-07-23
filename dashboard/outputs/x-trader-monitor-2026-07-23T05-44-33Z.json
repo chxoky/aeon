@@ -1,0 +1,149 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading-main",
+        "event-section",
+        "timestamp",
+        "quote-section",
+        "sep-1",
+        "ambiguity-section",
+        "sep-2",
+        "context-section",
+        "sep-3",
+        "question-section"
+      ]
+    },
+    "heading-main": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @t_in_crypto",
+        "level": "h2"
+      }
+    },
+    "event-section": {
+      "type": "Text",
+      "props": {
+        "text": "Event: BTC market structure observation"
+      }
+    },
+    "timestamp": {
+      "type": "Text",
+      "props": {
+        "text": "Jul 23 05:35Z",
+        "variant": "caption"
+      }
+    },
+    "quote-section": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "handle": "t_in_crypto",
+        "text": "We still in window for make new local top. Careful with shorts till 25"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "ambiguity-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ambiguity-heading",
+        "ambiguity-text"
+      ]
+    },
+    "ambiguity-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Ambiguity",
+        "level": "h3"
+      }
+    },
+    "ambiguity-text": {
+      "type": "Text",
+      "props": {
+        "text": "What does \"till 25\" mean? July 25 (pivot date in trader's moon-cycle framework)? Or a price level?"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context-heading",
+        "context-thesis",
+        "context-stream"
+      ]
+    },
+    "context-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "context-thesis": {
+      "type": "Text",
+      "props": {
+        "text": "Aligns with bull thesis (structurally bullish, diamond-hand long from 58.4K)"
+      }
+    },
+    "context-stream": {
+      "type": "Text",
+      "props": {
+        "text": "Part of recent stream of cryptic one-liners (30+ pending calibrations since Jul 17)"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "question-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "question-heading",
+        "question-text"
+      ]
+    },
+    "question-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Question",
+        "level": "h3"
+      }
+    },
+    "question-text": {
+      "type": "Text",
+      "props": {
+        "text": "Continue surfacing structural calls from this trader, or focus only on clear execution signals?"
+      }
+    }
+  }
+}

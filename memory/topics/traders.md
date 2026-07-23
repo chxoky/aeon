@@ -345,8 +345,9 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - Jul 23 02:38Z — ambiguous: caption-less URL mention to @Morecryptoonl; 8th+ consecutive cryptic URL post, pattern question remains active [2080120286683300271]
   - Jul 23 01:11Z — informational: BTC bullish sentiment, discusses confidence Bitcoin won't return to 62k [2080098501027885180]
   - Jul 22 23:14Z — ambiguous (calibration): BTC structure reply to @zohaan1324/@boneless_bones7 "returning to 64 from current moment changes movement picture" [2080069061321318750]
-- Last seen: 2026-07-23 05:34:25 UTC
+- Last seen: 2026-07-23 05:35:31 UTC
 - **Events (rolling):**
+  - Jul 23 05:35Z — ambiguous (calibration): BTC "@Stefan_B_Trades we still in window for make new local top. Careful with shorts till 25" — "till 25" unclear (July 25 pivot date or price level?), awaiting Kyle interpretation [2080164886894588268]
   - Jul 23 05:34Z — ambiguous: "@Morecryptoonl 2018" terse mention, matches persistent cryptic-post pattern, awaiting calibration [2080164608933875716]
   - Jul 23 03:12Z — ambiguous: "@synesius101 💯" emoji affirmation in BTC-levels thread; context missing, awaiting calibration [2080128939066798319]
   - Jul 22 23:39Z — informational: BTC challenges KillaXBT bottom-call thesis; argues 54% decline incompatible with bull market bottom [2080075218454765816]
