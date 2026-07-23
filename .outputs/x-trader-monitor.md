@@ -1,8 +1,9 @@
-🐦 *[X] @bull_genius*
+🔍 *Calibration — @Wild_Randomness*
 
-update not much has changed, price keeps bleeding slowly, not great. currently at previous week poc.
+Event: Reply to @pumpyanddumpy
+@Wild_Randomness: "But is it 0? They got filled"
 
-at 7d rvwap + prev week poc should form a higher low around here if we are to go higher
+Unable to classify — what's your read? (Filled order on what? What asset is "it"?)
 
 will cut and revisit if last week poc is lost - so right now its as close to inval as it gets - we pray
 
@@ -18,3 +19,4 @@ wild_randomness: "So a third of you would rather lose 50% than make 0%? [meme im
 Unable to classify — is this: (1) reference to a conducted poll result, (2) sarcastic commentary on current retail trader behavior, (3) market psychology lesson, or (4) unrelated meme/social post? What's your read on the sentiment/context?
 
 [View post](https://x.com/Wild_Randomness/status/2080362068415598794)
+[View post](https://x.com/Wild_Randomness/status/2080362687306051909)
