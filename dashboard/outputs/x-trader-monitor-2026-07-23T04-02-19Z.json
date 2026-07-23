@@ -1,0 +1,88 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading",
+        "event",
+        "sep1",
+        "tweet",
+        "sep2",
+        "classification",
+        "sep3",
+        "link"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Stoiiic",
+        "level": "h3"
+      }
+    },
+    "event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: 3-week rally momentum from ~58K lows to current ~65-66K range",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "Stoiiic",
+        "text": "3 weeks of this...great momentum"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification needed",
+        "message": "Unable to classify — Rally confirmation, trouble-zone warning, or other?",
+        "type": "info"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View original tweet",
+        "href": "https://x.com/Stoiiic/status/2080139211760427114",
+        "source": "Twitter/X"
+      }
+    }
+  }
+}

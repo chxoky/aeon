@@ -1,4 +1,4 @@
-🐦 [X] @Wild_Randomness
+🔍 *Calibration — @Stoiiic*
 
 Yes, that's a good point. Definitely harder to play for downside as the bear progresses. There hasn't been a bottoming event yet. Maybe we don't need one, but we're still 4 months early and have drawn down 53% from the highs (previous cycles were 77% and 84%). If we keep -84/-77/-53 pattern, -70 (2026) would imply high 30Ks.
 🔍 *Calibration — @swarmister*
@@ -58,3 +58,10 @@ Perfect! I've successfully executed the x-trader-monitor skill. Here's what happ
 Per skill protocol, non-financial events are skipped entirely with no notification sent to Kyle. Event is now registered and will not re-alert on future delivery.
 [View tweet](https://x.com/Wild_Randomness/status/2080138099313741825)
 [View post](https://x.com/swarmister/status/2080138957409378455)
+Event: 3-week rally momentum from ~58K lows to current ~65-66K range
+
+Stoiiic: "3 weeks of this...great momentum"
+
+Unable to classify — read? Rally confirmation, trouble-zone warning, or other?
+
+[View](https://x.com/Stoiiic/status/2080139211760427114)
