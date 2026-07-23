@@ -411,7 +411,7 @@ BOOTSTRAP_COMPLETE: 2026-07-14
 
 ## bull_genius (marmot)
 - Platforms: X
-- Current open positions: Mostly FLAT / patient — reconfirmed Jul 21 13:27Z ("havent bid big positions"; was watching World Cup + spent a night in ER). Small "nibble" entries Jul 17 07:12Z at BTC 62.8K and HYPE 59 (self-described knife-catch, opportunistic small size, not committed entries; invalidation: "any lower and it looks like full retrace"). Previously closed in profit: $MU + $SNDK memory longs (Jul 9, ~1000/1800) and an onchain cashcat 15x. No held size beyond nibbles.
+- Current open positions: **BTC — LONG (MARKET ENTRY JUL 23 12:56Z, awaiting Kyle mirror approval)** — entered at ~65K (7d rvwap), targets 70K–71.6K (2026 avwap); awaiting `approve BTC` per trade alert. Previous nibbles: Jul 17 07:12Z at BTC 62.8K and HYPE 59 (knife-catch sizing). Previously closed in profit: $MU + $SNDK memory longs (Jul 9, ~1000/1800) and an onchain cashcat 15x.
 - Recent thesis: Patient tactical — "letting the market come to me," won't chase the meatgrinder range; summer POC vs 7d rvwap ~61.4–61.6K remains the line in sand. As of Jul 21: bullish structure reaffirmed — 30d rvwap tested 3x, summer POC bid, higher lows, 65K broken; original "joyful july" 70K target back in play with resistance ladder 67K (yearly POC), 68.2K (90d rvwap), 71.7K (yearly AVWAP); tracking an unusual options trader betting 70-72K by EOM. Bear contingency: below ~62.8K / 30d rvwap-monthly VAL, expects full retrace of July (no hero leverage; use it to DCA spot). Bearish/cautious $HYPE near-term (7d/30d trend exhausted, weekly bear div, Robinhood + perp-DEX TGE headwinds Q3–Q4). Long-term accumulator: DCA shitcoin profits into majors spot over summer/fall; current phase = profit-maxi on perps, think in years for spot DCA. Dismisses BTC/NQ correlation as non-actionable — bond market is the real predictor. Thinks CLARITY Act unlikely this month.
 - Conviction notes: rvwap/POC volume-profile framing; disciplined, waits for others to "do the heavy lifting"; signs off "marmot." Terse technical replies to other traders; casual hedged language ("nibble", "imo", "dont let me sway you"). ~5-10% of posts are non-financial (World Cup, health, games, podcasts) — summer-maxing, posting cadence reduced.
 - Calibration: none yet (no answered Kyle calibrations found). Pending:
@@ -420,18 +420,19 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - PENDING: one-word "yes" to @maybe_cmeister — agreeing to what? [2078476335974887586]
   - PENDING: "realest shit ive read in a minute" — subject unknown [2078560776164360508]
   - PENDING: "@heart_ see @blancxbt man i told u they wont buy it" — which asset/level? [2079542718460518532]
-- Last seen: 2026-07-22 12:32:39 UTC
+- Last seen: 2026-07-23 12:56:37 UTC
 - **Events (rolling):**
-  - Jul 15 12:03Z — market call: BTC "wealthy chinese moon traders" vs breakout; 2026 POC + 90d rvwap the test [via alert, no id]
-  - Jul 16 14:27Z — market call: BTC 70K path 67-69-71K vs full-July-retrace bear case; "no clear setup rn", ltf scalps only [via alert, no id]
-  - Jul 16 14:56Z — ambiguous (pending): "quite weak low has been set as well"; ticker unclear [2077769368012820617]
-  - Jul 17 00:49Z — ambiguous (pending): "coinbase man token" luckisaskill.eth 12%/30x story; ticker identity unknown [2077918555782164669]
-  - Jul 17 07:12Z — trade nibble: BTC 62.8K + HYPE 59 small entries; "any lower looks like full retrace" [2078014900794761617]
-  - Jul 17 07:35Z — market call: HYPE downside continues; validates friend's short, own nibble = knife catch [2078020848196141522]
-  - Jul 18 13:45Z — ambiguous (pending): one-word "yes" reply to @maybe_cmeister; context unknown [2078476335974887586]
-  - Jul 18 19:21Z — ambiguous (pending): "realest shit ive read in a minute"; subject unknown [2078560776164360508]
-  - Jul 21 12:23Z — ambiguous (pending): "i told u they wont buy it" to @heart_/@blancxbt; asset/level unknown [2079542718460518532]
+  - Jul 23 12:56Z — trade-entry: BTC market entry ~65K (7d rvwap), targets 70K–71.6K (2026 avwap); charts show POC resistance test + reversal setup [2080275894405312699]
   - Jul 21 13:27Z — market call: BTC 70K target back on; 65K broken, targets 67K/68.2K/71.7K; still flat [2079558808083272104]
+  - Jul 21 12:23Z — ambiguous (pending): "i told u they wont buy it" to @heart_/@blancxbt; asset/level unknown [2079542718460518532]
+  - Jul 18 19:21Z — ambiguous (pending): "realest shit ive read in a minute"; subject unknown [2078560776164360508]
+  - Jul 18 13:45Z — ambiguous (pending): one-word "yes" reply to @maybe_cmeister; context unknown [2078476335974887586]
+  - Jul 17 07:35Z — market call: HYPE downside continues; validates friend's short, own nibble = knife catch [2078020848196141522]
+  - Jul 17 07:12Z — trade nibble: BTC 62.8K + HYPE 59 small entries; "any lower looks like full retrace" [2078014900794761617]
+  - Jul 17 00:49Z — ambiguous (pending): "coinbase man token" luckisaskill.eth 12%/30x story; ticker identity unknown [2077918555782164669]
+  - Jul 16 14:56Z — ambiguous (pending): "quite weak low has been set as well"; ticker unclear [2077769368012820617]
+  - Jul 16 14:27Z — market call: BTC 70K path 67-69-71K vs full-July-retrace bear case; "no clear setup rn", ltf scalps only [via alert, no id]
+  - Jul 15 12:03Z — market call: BTC "wealthy chinese moon traders" vs breakout; 2026 POC + 90d rvwap the test [via alert, no id]
 
 ## Stoiiic
 - Platforms: X

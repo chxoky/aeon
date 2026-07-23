@@ -1,0 +1,117 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Trade Signal — @bull_genius"
+      },
+      "children": [
+        "alert_signal",
+        "stack_details",
+        "text_quote",
+        "link_post",
+        "alert_action"
+      ]
+    },
+    "alert_signal": {
+      "type": "Alert",
+      "props": {
+        "title": "🚨 Trade Signal",
+        "type": "warning"
+      }
+    },
+    "stack_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badges_trade",
+        "grid_entry_targets"
+      ]
+    },
+    "badges_trade": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_btc",
+        "badge_long",
+        "badge_market"
+      ]
+    },
+    "badge_btc": {
+      "type": "Badge",
+      "props": {
+        "text": "BTC",
+        "variant": "default"
+      }
+    },
+    "badge_long": {
+      "type": "Badge",
+      "props": {
+        "text": "LONG",
+        "variant": "secondary"
+      }
+    },
+    "badge_market": {
+      "type": "Badge",
+      "props": {
+        "text": "market order",
+        "variant": "outline"
+      }
+    },
+    "grid_entry_targets": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat_entry",
+        "stat_targets"
+      ]
+    },
+    "stat_entry": {
+      "type": "Stat",
+      "props": {
+        "label": "Entry",
+        "value": "~65K (7d rvwap)"
+      }
+    },
+    "stat_targets": {
+      "type": "Stat",
+      "props": {
+        "label": "Targets",
+        "value": "70K–71.6K (2026 anchored vwap)"
+      }
+    },
+    "text_quote": {
+      "type": "Text",
+      "props": {
+        "text": "67k yearly poc as we said was big boy resistance and we are back to 7d rvwap after the rejection took a stab at longs here betting on continuation of recent up trend",
+        "variant": "body"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/bull_genius/status/2080275894405312699"
+      }
+    },
+    "alert_action": {
+      "type": "Alert",
+      "props": {
+        "title": "Action Required",
+        "message": "Reply `approve BTC` to mirror this on Kraken (spot), or ignore to skip.",
+        "type": "info"
+      }
+    }
+  }
+}
