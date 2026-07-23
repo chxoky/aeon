@@ -1,0 +1,24 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_1"
+      ]
+    },
+    "tweet_1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "QQQ: Bearish retest rejection setup on daily/30m timeframes. Positioning reset validates asymmetry for long entry after trading under SubPOC was a trap for shorts for a month. Technical recovery with conviction despite macro backdrop (Semis/AI lost trend, yields ripping)."
+      },
+      "children": []
+    }
+  }
+}

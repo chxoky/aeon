@@ -206,7 +206,9 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - Jul 23 07:13Z — ambiguous: @BitTexXBT "/fucking_bittex" + chart image, unable to read/decipher, calibration alert sent [20801895493097431640]
   - Jul 23 14:15Z — ambiguous: "@kingbtc @hellojintao What" single-word cryptic reply, similar to prior 12:50Z post, calibration alert sent [2080295763129614624]
   - Jul 23 12:50Z — ambiguous: "@kingbtc Jintao what" terse cryptic reply, referent unknown, calibration alert sent [2080274334044602522]
-- Last seen: 2026-07-23 14:15:34 UTC
+- Last seen: 2026-07-23 15:25:02 UTC
+- **Events (rolling):**
+  - Jul 23 15:25Z — informational: QQQ bearish-retest rejection setup on daily/30m timeframes; positioning reset validates asymmetry for long entry; macro backdrop (Semis/AI lost trend, yields ripping) but textbook technical rejection recovery; charts show consolidation with asymmetry in approach given positioning [2080313244414337099]
 
 ## HeartCanHodl
 - Platforms: X + Discord (Trades 1279738718680256553 = primary; Chat 1023638573313966212 = real-time updates; Comments 1393137051108507728 = macro analysis; Free 1472153627324842057 = public)
