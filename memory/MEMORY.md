@@ -25,6 +25,13 @@ Autonomous trading-signal agent running on GitHub Actions via Claude Code. Monit
 - **Models:** all automated paths sonnet/haiku since PR #16 (opus manual-only).
 - **Issues:** `memory/issues/` (ISS-NNN + INDEX.md). Cost watch: twitterapi.io ~7.2K credits/day (~100 days runway); chart-request disabled.
 
+## Tracked Tokens
+| Token | CoinGecko ID | Alert Threshold |
+|-------|-------------|-----------------|
+| BTC   | bitcoin     | 5%              |
+| ETH   | ethereum    | 8%              |
+| SOL   | solana      | 10%             |
+
 ## Recent Log Highlights
 - [2026-07-21](logs/2026-07-21.md) — Chase TP day (SNDK half @1533, MU half @930/938); KillaXBT hedge cancelled; first green chain; PRs #13/#16 merged; consume: bug found → fixed as ISS-003/PR #17
 - [2026-07-18](logs/2026-07-18.md) — prompt-injection attempt in @trading_axe tweet (discarded, logged); 3-trader structural-bull convergence note
