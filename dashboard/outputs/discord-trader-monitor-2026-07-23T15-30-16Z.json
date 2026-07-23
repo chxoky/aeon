@@ -1,0 +1,175 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "main-stack"
+      ]
+    },
+    "main-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "calibration-heading",
+        "channel-row",
+        "separator-1",
+        "message-section",
+        "context-section",
+        "question-section"
+      ]
+    },
+    "calibration-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — DC: Chase — TradFi",
+        "level": "h2"
+      }
+    },
+    "channel-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "channel-label",
+        "channel-badge"
+      ]
+    },
+    "channel-label": {
+      "type": "Text",
+      "props": {
+        "text": "Channel:",
+        "variant": "caption"
+      }
+    },
+    "channel-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Supporting channel",
+        "variant": "secondary"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "message-label",
+        "message-text",
+        "image-attached"
+      ]
+    },
+    "message-label": {
+      "type": "Text",
+      "props": {
+        "text": "Message from Chase:",
+        "variant": "caption"
+      }
+    },
+    "message-text": {
+      "type": "Text",
+      "props": {
+        "text": "\"I would prefer the flush first lol\"",
+        "variant": "lead"
+      }
+    },
+    "image-attached": {
+      "type": "Text",
+      "props": {
+        "text": "[Image attached]",
+        "variant": "muted"
+      }
+    },
+    "context-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context-label",
+        "ref-message-badge",
+        "cryptic-note"
+      ]
+    },
+    "context-label": {
+      "type": "Text",
+      "props": {
+        "text": "Context:",
+        "variant": "caption"
+      }
+    },
+    "ref-message-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "No referenced message",
+        "variant": "outline"
+      }
+    },
+    "cryptic-note": {
+      "type": "Text",
+      "props": {
+        "text": "Message is cryptic",
+        "variant": "muted"
+      }
+    },
+    "question-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "question-title",
+        "question-opt1",
+        "question-opt2",
+        "question-opt3"
+      ]
+    },
+    "question-title": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "caption"
+      }
+    },
+    "question-opt1": {
+      "type": "Text",
+      "props": {
+        "text": "• Flush to market lows before entry?",
+        "variant": "body"
+      }
+    },
+    "question-opt2": {
+      "type": "Text",
+      "props": {
+        "text": "• Exit timing signal?",
+        "variant": "body"
+      }
+    },
+    "question-opt3": {
+      "type": "Text",
+      "props": {
+        "text": "• Other?",
+        "variant": "body"
+      }
+    }
+  }
+}

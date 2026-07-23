@@ -1526,5 +1526,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-07-23,narrative-tracker,claude-sonnet-4-6,1810,21597,1874195,82389
 2026-07-23,x-trader-monitor,claude-haiku-4-5-20251001,129,9225,995256,69545
 2026-07-23,x-trader-monitor,claude-haiku-4-5-20251001,177,10670,1564581,92622
-2026-07-23,x-trader-monitor,claude-haiku-4-5-20251001,121,7871,793203,92265
-2026-07-23,x-trader-monitor,claude-haiku-4-5-20251001,121,5972,748856,58593
+2026-07-23,discord-trader-monitor,claude-haiku-4-5-20251001,177,19499,1251827,79065
