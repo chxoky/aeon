@@ -1,0 +1,47 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @Crypto_Chase"
+      },
+      "children": [
+        "event-desc",
+        "tweet",
+        "classification-note",
+        "link"
+      ]
+    },
+    "event-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @saylor, context not visible in standalone tweet",
+        "variant": "caption"
+      }
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Crypto_Chase",
+        "handle": "Crypto_Chase",
+        "text": "it's so over 🤣"
+      }
+    },
+    "classification-note": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — is this market sentiment, a position comment, or social banter?",
+        "variant": "muted"
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Crypto_Chase/status/2080385507763061050"
+      }
+    }
+  }
+}
