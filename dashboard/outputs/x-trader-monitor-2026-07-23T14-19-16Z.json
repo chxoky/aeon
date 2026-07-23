@@ -1,0 +1,102 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "separator_1",
+        "portfolio_section"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Crypto_Chase",
+        "handle": "@Crypto_Chase",
+        "text": "Crazy how I publicly buy the pico lows of the best performers and simultaneously protect yall from the garbage. We bought MU/SNDK crashes to big profits TWICE, sold GOOG 360's, and avoided all the lackluster, boring charts. Insane run lately, enjoy 🤝"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "portfolio_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "portfolio_title",
+        "portfolio_stats",
+        "tweet_link",
+        "context_text"
+      ]
+    },
+    "portfolio_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Portfolio Snapshot",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "portfolio_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat_mu",
+        "stat_sndk"
+      ]
+    },
+    "stat_mu": {
+      "type": "Stat",
+      "props": {
+        "label": "MU",
+        "value": "994.58",
+        "delta": "+3.66%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat_sndk": {
+      "type": "Stat",
+      "props": {
+        "label": "SNDK",
+        "value": "1634.91",
+        "delta": "+2.23%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "tweet_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View tweet",
+        "href": "https://x.com/Crypto_Chase/status/2080294976013951133",
+        "source": "X"
+      },
+      "children": []
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "Intraday performance. Broader watchlist context on crypto/macro positioning.",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}

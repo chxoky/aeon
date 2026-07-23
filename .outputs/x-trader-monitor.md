@@ -1,9 +1,11 @@
-🔍 *Calibration — @KillaXBT*
+🐦 *[X] @Crypto_Chase*
 
-Event: BitMEX event reference
+Crazy how I publicly buy the pico lows of the best performers and simultaneously protect yall from the garbage.
 
-KillaXBT: "So, the real question is. Was it @BitMEX that blew up during 10/10?"
+We bought MU/SNDK crashes to big profits TWICE, sold GOOG 360's, and avoided all the lackluster, boring charts.
 
-Unable to classify — what's your read? What does 10/10 refer to (date/event/score)?
+Insane run lately, enjoy 🤝
 
-[View post](https://x.com/KillaXBT/status/2080286985680240657)
+[View tweet](https://x.com/Crypto_Chase/status/2080294976013951133)
+
+↳ _Portfolio snapshot shows MU +3.66% (994.58), SNDK +2.23% (1634.91) intraday; broader watchlist context on crypto/macro positioning._
