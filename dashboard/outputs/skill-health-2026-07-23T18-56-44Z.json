@@ -1,0 +1,119 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Skill Health — 2026-07-23"
+      },
+      "children": [
+        "alert_status",
+        "separator_1",
+        "section_data",
+        "separator_2",
+        "section_issues"
+      ]
+    },
+    "alert_status": {
+      "type": "Alert",
+      "props": {
+        "message": "HEALTH: OK — 7 skills healthy",
+        "type": "success"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section_data": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_data",
+        "stack_skill"
+      ]
+    },
+    "heading_data": {
+      "type": "Heading",
+      "props": {
+        "text": "NO DATA",
+        "level": "h3"
+      }
+    },
+    "stack_skill": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_nodata",
+        "text_skill"
+      ]
+    },
+    "badge_nodata": {
+      "type": "Badge",
+      "props": {
+        "text": "NO DATA (1)",
+        "variant": "outline"
+      }
+    },
+    "text_skill": {
+      "type": "Text",
+      "props": {
+        "text": "trader-memory-compact — DISPATCH-SKILL"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section_issues": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_issues",
+        "grid_issues"
+      ]
+    },
+    "heading_issues": {
+      "type": "Heading",
+      "props": {
+        "text": "Issues",
+        "level": "h3"
+      }
+    },
+    "grid_issues": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat_open",
+        "stat_resolved"
+      ]
+    },
+    "stat_open": {
+      "type": "Stat",
+      "props": {
+        "label": "Open issues",
+        "value": "0"
+      }
+    },
+    "stat_resolved": {
+      "type": "Stat",
+      "props": {
+        "label": "Resolved this run",
+        "value": "0"
+      }
+    }
+  }
+}
