@@ -1,0 +1,113 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor — Calibration",
+        "description": "Cryptic message requiring interpretation"
+      },
+      "children": [
+        "stack_context"
+      ]
+    },
+    "stack_context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_intro",
+        "sep1",
+        "stack_message",
+        "sep2",
+        "alert_image",
+        "sep3",
+        "alert_question"
+      ]
+    },
+    "text_intro": {
+      "type": "Text",
+      "props": {
+        "text": "Context: Cryptic message from Crypto_Chase at 19:51Z",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_message": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_sender",
+        "text_timestamp",
+        "heading_content",
+        "text_message"
+      ]
+    },
+    "badge_sender": {
+      "type": "Badge",
+      "props": {
+        "text": "Crypto_Chase",
+        "variant": "secondary"
+      }
+    },
+    "text_timestamp": {
+      "type": "Text",
+      "props": {
+        "text": "19:51Z",
+        "variant": "caption"
+      }
+    },
+    "heading_content": {
+      "type": "Heading",
+      "props": {
+        "text": "Message",
+        "level": "h4"
+      }
+    },
+    "text_message": {
+      "type": "Text",
+      "props": {
+        "text": "<@371375547189690369> paid"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_image": {
+      "type": "Alert",
+      "props": {
+        "title": "Image Attachment",
+        "message": "Content unanalyzed",
+        "type": "info"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_question": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification Required",
+        "message": "Unable to classify — what's your read? Is this an order execution confirmation, price reference, or something else?",
+        "type": "warning"
+      }
+    }
+  }
+}
