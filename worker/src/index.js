@@ -226,15 +226,19 @@ function logMediaDiagnostics(tweet, tweetId, username, text, media) {
 
   const counts = {
     media:             Array.isArray(tweet?.media) ? tweet.media.length : null,
+    extendedEntities:  Array.isArray(tweet?.extendedEntities?.media) ? tweet.extendedEntities.media.length : null,
     extended_entities: Array.isArray(tweet?.extended_entities?.media) ? tweet.extended_entities.media.length : null,
     entities:          Array.isArray(tweet?.entities?.media) ? tweet.entities.media.length : null,
+    quoted:            tweet?.quoted_tweet ? extractTweetMedia(tweet.quoted_tweet).length : null,
+    retweeted:         tweet?.retweeted_tweet ? extractTweetMedia(tweet.retweeted_tweet).length : null,
   };
-  const firstEntry = tweet?.media?.[0] ?? tweet?.extended_entities?.media?.[0] ?? tweet?.entities?.media?.[0] ?? null;
+  const firstEntry = tweet?.media?.[0] ?? tweet?.extendedEntities?.media?.[0] ?? tweet?.extended_entities?.media?.[0] ?? tweet?.entities?.media?.[0] ?? null;
 
   // A bare/trailing t.co link is how X renders an attached image or quote-post,
   // so it's the tell that this post was visual even when no media array arrived.
   const looksVisual = /https:\/\/t\.co\//.test(text)
-    || Boolean(counts.media || counts.extended_entities || counts.entities);
+    || Boolean(counts.media || counts.extendedEntities || counts.extended_entities
+      || counts.entities || counts.quoted || counts.retweeted);
 
   console.log(
     `xmedia: id=${tweetId} @${username} extracted=0 looks_visual=${looksVisual} ` +
@@ -250,13 +254,33 @@ function logMediaDiagnostics(tweet, tweetId, username, text, media) {
 }
 
 function extractTweetMedia(tweet) {
-  // twitterapi.io live shape: top-level media[] with media_url_https (verified);
-  // extended_entities/entities kept as fallbacks for other formats.
-  const entities = tweet?.media ?? tweet?.extended_entities?.media ?? tweet?.entities?.media ?? [];
-  if (!Array.isArray(entities)) return [];
-  return entities
-    .map((m) => m?.media_url_https ?? m?.media_url ?? null)
-    .filter(Boolean);
+  if (!tweet || typeof tweet !== 'object') return [];
+  // twitterapi.io's live Tweet object is camelCase and carries an UNDOCUMENTED
+  // media array (the OpenAPI Tweet schema omits media entirely — `entities` there
+  // holds only hashtags/urls/user_mentions). The container has been seen as a
+  // top-level `media[]` (verified, ISS-002); we also check the camelCase
+  // `extendedEntities.media` and snake fallbacks since the live shape isn't
+  // contract-guaranteed. Items may be objects (media_url_https) or bare strings.
+  const entities =
+       tweet.media
+    ?? tweet.extendedEntities?.media
+    ?? tweet.extended_entities?.media
+    ?? tweet.entities?.media
+    ?? [];
+  const own = Array.isArray(entities)
+    ? entities
+        .map((m) => (typeof m === 'string' ? m : (m?.media_url_https ?? m?.media_url ?? null)))
+        .filter(Boolean)
+    : [];
+  // The Tweet schema nests full tweets under quoted_tweet / retweeted_tweet. A
+  // quote-post or RT of a chart carries the image on the INNER tweet, leaving the
+  // outer media[] empty — the "media empty but the post is visual" symptom. Recurse
+  // one object graph and merge, de-duped. (Bounded by finite JSON depth.)
+  const nested = [
+    ...extractTweetMedia(tweet.quoted_tweet),
+    ...extractTweetMedia(tweet.retweeted_tweet),
+  ];
+  return [...new Set([...own, ...nested])];
 }
 
 // ── Discord fast-path classifier ──────────────────────────────────────────────
