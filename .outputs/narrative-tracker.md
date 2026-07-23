@@ -1,28 +1,25 @@
-*Narrative Tracker — 2026-07-22*
+*Narrative Tracker — 2026-07-23*
 
 TRANSITIONS
-• NEW: Robinhood Chain Ecosystem — mainnet live Jul 1; INDEX +150%; memecoins captured the chain before RWA ($13M actual RWA). Fresh ecosystem play, tension unresolved — https://crypto.news/robinhood-chain-memecoins-tokenized-stocks/
-• NEW: Iran War Risk-Off — US strikes Jul 17-18; WTI >$85 (first since Jun 12); BTC −0.44%, breadth 6/20 (was 16/20 yesterday). Inflation revival fear layering into FOMC window — https://cointelegraph.com/news/btc-fragile-iran-fallout-dominate-markets-2026
-• DEMOTED: RWA Tokenization — Rising → Peak — ONDO day-4 +2.66% (days 1-2: +11.78%); >75% rate-of-gain collapse confirmed under risk-off
-• DEMOTED: AI Agents/Agentic — Rising → Peak — Grayscale cut TAO 43%→22.58%; @ryzzqq "AI shills fading, previous leaders losing momentum" (entered TAO today as rotation bet, not fresh-capital)
-• DEMOTED: Prediction Markets — Peak → Fading — World Cup vol cliff materializing; FOMC Jul 28 fills gap but resolves in 6 days; net vol trajectory down
-• DEAD: GRAM/TON Rebrand — absent from CoinGecko trending; peaked day-2, confirmed dead today
+• DEMOTED: Prediction Markets Peak → Fading — World Cup final July 19 (Spain 1-0 Argentina). Sports = 85% of Kalshi's volume; $31B June handle is now history. No anchor until NFL September. FOMC Jul 28 provides residual vol but doesn't replace it. InfoFi thesis intact; the seasonal business just ended.
+• PROMOTED: RWA Rising → Peak — $1B tokenized equities on RWA.xyz (Jul 2026), ONDO trending +14.6%, H2 institutional spotlight confirmed across multiple sources. Taking the mainstream slot vacated by prediction markets.
+• NEW (Fading): Robinhood Chain / Onchain Consumer Apps — TVL $17M→$312M peaked Jul 13; HCH flagged ARB/UNI/ANSEM/cashcat Jul 21. Now 10 days post-climax. Fast-in/fast-out liquidity = confirmed FADE.
 
 REFLEXIVITY ALERT
-• Robinhood Chain — built for RWA, captured by memecoins in 3 weeks; INDEX +150% on narrative alone; $121M token unlock approaching; projects rebranding "tokenized" to ride it
-• AI Agents internal rotation — Grayscale reallocation (TAO 43%→22.58%, NEAR 39.67%) is within-narrative rotation, not fresh capital. @ryzzqq TAO entry today confirms rotation thesis active
+• AI Agents — x402 agentic payments "parabolic growth" chart is the fundraising deck for next-gen protocol launches; narrative driving developer adoption before PMF exists. $2B mcap vs. $200B 2030 projection = reflexive premium risk.
+• RWA — ONDO +14.6% on narrative momentum; no specific fundamental trigger found. Institutional "adoption story" = self-validating right now.
+• Prediction Markets — Kalshi $1.27B WC final (Jul 17) was cited as proof of PMF. With that gone, the data inverts. Comps through July will be brutal.
 
 POSITIONS
-• FADE: Prediction Markets (5 ↓, Mixed) — WC cliff + FOMC resolves in 6 days = dual vol sink — @Kalshi @Polymarket — bear: one-time FOMC event does not replace WC vol
-• FADE: RWA Tokenization/ONDO (4 ↓, Bull→Cope) — day-4 decel; risk-off; day-5 < +1% = exit signal — bear: $13M actual RWA vs $2T projection hype
-• WATCH: Iran Risk-Off overlay (4 ↑↑, Bear) — macro gating; WTI >$85 + FOMC Jul 28 = dual headwinds — bear: Iran escalations historically fade 2-3 weeks
-• WATCH: AI Agents infra layer (4 →, Mixed) — TAO/Render > VIRTUAL/FET as capital destination; compute infra outperforming generic agents — bear: Grayscale already rebalanced
-• WATCH: Robinhood Chain Ecosystem (3 ↑↑, Mixed) — INDEX is early tell; $121M unlock headwind; RWA/memecoin tension unresolved — bear: sub-$20M actual adoption
-• WATCH: Pre-FOMC Consolidation (3 ↑, Mixed) — Jul 28-29; 86% no-change; Iran inflation tail risk — bear: already priced
-• FADE: DATs/Treasury Cos (2 ↓↓, Cope) — mNAV compression, no reversal catalyst
+• FRONT-RUN: AI Agents infra ($VIRTUAL, $FET) — mind 4 ↑↑ Rising Mixed — Ledger Agent Stack, BNB 100K TPS L1, Meta stablecoin commerce, x402 growth. Bear: $45M exploits H1; security unbuilt. Edge: infra not yet repriced vs. $25B AI sector mcap.
+• RIDE: RWA/ONDO — mind 4 ↑ Peak Bull — $1B tokenized equities. Bear: slow real adoption, commoditizing fast.
+• FADE: Prediction Markets — mind 4 ↓ Fading — sports cliff confirmed, no anchor until NFL.
+• WATCH: Privacy Crackdown (ZEC>XMR) — mind 3 → Peak Mixed — regulatory overhang steady; no new catalyst this week.
+• FADE: Robinhood Chain consumer apps — mind 3 ↓ Fading — peaked Jul 13, steady bleed.
+• FADE: DATs — mind 2 ↓ Fading Cope — mNAV ~1.05x, no recovery catalyst.
 
 MAP
-Emerging: Robinhood Chain Ecosystem, BTC ETF Recovery
-Rising: (none — AI Agents and RWA downgraded to Peak)
-Peak: AI Agents/Agentic, RWA Tokenization, Stablecoins, Privacy Crackdown
-Fading: Prediction Markets, DATs/Treasury Cos
+Emerging: Agentic Payments (x402 protocol)
+Rising: AI Agents / Agentic
+Peak: RWA tokenization, Stablecoins/Stablechains, Privacy Crackdown
+Fading: Prediction Markets, Robinhood Chain, DATs, Meme Launchpads

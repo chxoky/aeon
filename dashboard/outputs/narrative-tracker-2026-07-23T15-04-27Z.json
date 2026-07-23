@@ -1,0 +1,801 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-07-23"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section_transitions",
+        "separator_1",
+        "section_reflexivity",
+        "separator_2",
+        "section_positions",
+        "separator_3",
+        "section_map"
+      ]
+    },
+    "section_transitions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_transitions",
+        "transition_1",
+        "transition_2",
+        "transition_3"
+      ]
+    },
+    "heading_transitions": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      }
+    },
+    "transition_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans1_header",
+        "trans1_content"
+      ]
+    },
+    "trans1_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_demoted",
+        "text_trans1_title"
+      ]
+    },
+    "badge_demoted": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED",
+        "variant": "destructive"
+      }
+    },
+    "text_trans1_title": {
+      "type": "Text",
+      "props": {
+        "text": "Prediction Markets Peak → Fading"
+      }
+    },
+    "trans1_content": {
+      "type": "Text",
+      "props": {
+        "text": "World Cup final July 19 (Spain 1-0 Argentina). Sports = 85% of Kalshi's volume; $31B June handle is now history. No anchor until NFL September. FOMC Jul 28 provides residual vol but doesn't replace it. InfoFi thesis intact; the seasonal business just ended.",
+        "variant": "body"
+      }
+    },
+    "transition_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans2_header",
+        "trans2_content"
+      ]
+    },
+    "trans2_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_promoted",
+        "text_trans2_title"
+      ]
+    },
+    "badge_promoted": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED",
+        "variant": "outline"
+      }
+    },
+    "text_trans2_title": {
+      "type": "Text",
+      "props": {
+        "text": "RWA Rising → Peak"
+      }
+    },
+    "trans2_content": {
+      "type": "Text",
+      "props": {
+        "text": "$1B tokenized equities on RWA.xyz (Jul 2026), ONDO trending +14.6%, H2 institutional spotlight confirmed across multiple sources. Taking the mainstream slot vacated by prediction markets.",
+        "variant": "body"
+      }
+    },
+    "transition_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans3_header",
+        "trans3_content"
+      ]
+    },
+    "trans3_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_new_fading",
+        "text_trans3_title"
+      ]
+    },
+    "badge_new_fading": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW (Fading)",
+        "variant": "secondary"
+      }
+    },
+    "text_trans3_title": {
+      "type": "Text",
+      "props": {
+        "text": "Robinhood Chain / Onchain Consumer Apps"
+      }
+    },
+    "trans3_content": {
+      "type": "Text",
+      "props": {
+        "text": "TVL $17M→$312M peaked Jul 13; HCH flagged ARB/UNI/ANSEM/cashcat Jul 21. Now 10 days post-climax. Fast-in/fast-out liquidity = confirmed FADE.",
+        "variant": "body"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_reflexivity": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_reflexivity",
+        "alert_ai_agents",
+        "alert_rwa",
+        "alert_prediction"
+      ]
+    },
+    "heading_reflexivity": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      }
+    },
+    "alert_ai_agents": {
+      "type": "Alert",
+      "props": {
+        "title": "AI Agents",
+        "message": "x402 agentic payments \"parabolic growth\" chart is the fundraising deck for next-gen protocol launches; narrative driving developer adoption before PMF exists. $2B mcap vs. $200B 2030 projection = reflexive premium risk.",
+        "type": "warning"
+      }
+    },
+    "alert_rwa": {
+      "type": "Alert",
+      "props": {
+        "title": "RWA",
+        "message": "ONDO +14.6% on narrative momentum; no specific fundamental trigger found. Institutional \"adoption story\" = self-validating right now.",
+        "type": "warning"
+      }
+    },
+    "alert_prediction": {
+      "type": "Alert",
+      "props": {
+        "title": "Prediction Markets",
+        "message": "Kalshi $1.27B WC final (Jul 17) was cited as proof of PMF. With that gone, the data inverts. Comps through July will be brutal.",
+        "type": "warning"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_positions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_positions",
+        "position_1",
+        "position_2",
+        "position_3",
+        "position_4",
+        "position_5",
+        "position_6"
+      ]
+    },
+    "heading_positions": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      }
+    },
+    "position_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos1_header",
+        "pos1_sentiment",
+        "pos1_thesis"
+      ]
+    },
+    "pos1_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_frontrun",
+        "text_pos1_title"
+      ]
+    },
+    "badge_frontrun": {
+      "type": "Badge",
+      "props": {
+        "text": "FRONT-RUN",
+        "variant": "default"
+      }
+    },
+    "text_pos1_title": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agents infra ($VIRTUAL, $FET)"
+      }
+    },
+    "pos1_sentiment": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_mind4_up",
+        "badge_rising_mixed"
+      ]
+    },
+    "badge_mind4_up": {
+      "type": "Badge",
+      "props": {
+        "text": "mind 4 ↑↑",
+        "variant": "outline"
+      }
+    },
+    "badge_rising_mixed": {
+      "type": "Badge",
+      "props": {
+        "text": "Rising Mixed",
+        "variant": "secondary"
+      }
+    },
+    "pos1_thesis": {
+      "type": "Text",
+      "props": {
+        "text": "Ledger Agent Stack, BNB 100K TPS L1, Meta stablecoin commerce, x402 growth. Bear: $45M exploits H1; security unbuilt. Edge: infra not yet repriced vs. $25B AI sector mcap.",
+        "variant": "body"
+      }
+    },
+    "position_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos2_header",
+        "pos2_sentiment",
+        "pos2_thesis"
+      ]
+    },
+    "pos2_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_ride",
+        "text_pos2_title"
+      ]
+    },
+    "badge_ride": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "default"
+      }
+    },
+    "text_pos2_title": {
+      "type": "Text",
+      "props": {
+        "text": "RWA/ONDO"
+      }
+    },
+    "pos2_sentiment": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_mind4_single_up",
+        "badge_peak_bull"
+      ]
+    },
+    "badge_mind4_single_up": {
+      "type": "Badge",
+      "props": {
+        "text": "mind 4 ↑",
+        "variant": "outline"
+      }
+    },
+    "badge_peak_bull": {
+      "type": "Badge",
+      "props": {
+        "text": "Peak Bull",
+        "variant": "secondary"
+      }
+    },
+    "pos2_thesis": {
+      "type": "Text",
+      "props": {
+        "text": "$1B tokenized equities. Bear: slow real adoption, commoditizing fast.",
+        "variant": "body"
+      }
+    },
+    "position_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos3_header",
+        "pos3_sentiment",
+        "pos3_thesis"
+      ]
+    },
+    "pos3_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_fade_1",
+        "text_pos3_title"
+      ]
+    },
+    "badge_fade_1": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "destructive"
+      }
+    },
+    "text_pos3_title": {
+      "type": "Text",
+      "props": {
+        "text": "Prediction Markets"
+      }
+    },
+    "pos3_sentiment": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_mind4_down",
+        "badge_fading"
+      ]
+    },
+    "badge_mind4_down": {
+      "type": "Badge",
+      "props": {
+        "text": "mind 4 ↓",
+        "variant": "outline"
+      }
+    },
+    "badge_fading": {
+      "type": "Badge",
+      "props": {
+        "text": "Fading",
+        "variant": "secondary"
+      }
+    },
+    "pos3_thesis": {
+      "type": "Text",
+      "props": {
+        "text": "sports cliff confirmed, no anchor until NFL.",
+        "variant": "body"
+      }
+    },
+    "position_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos4_header",
+        "pos4_sentiment",
+        "pos4_thesis"
+      ]
+    },
+    "pos4_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_watch",
+        "text_pos4_title"
+      ]
+    },
+    "badge_watch": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "outline"
+      }
+    },
+    "text_pos4_title": {
+      "type": "Text",
+      "props": {
+        "text": "Privacy Crackdown (ZEC>XMR)"
+      }
+    },
+    "pos4_sentiment": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_mind3_neutral",
+        "badge_peak_mixed"
+      ]
+    },
+    "badge_mind3_neutral": {
+      "type": "Badge",
+      "props": {
+        "text": "mind 3 →",
+        "variant": "outline"
+      }
+    },
+    "badge_peak_mixed": {
+      "type": "Badge",
+      "props": {
+        "text": "Peak Mixed",
+        "variant": "secondary"
+      }
+    },
+    "pos4_thesis": {
+      "type": "Text",
+      "props": {
+        "text": "regulatory overhang steady; no new catalyst this week.",
+        "variant": "body"
+      }
+    },
+    "position_5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos5_header",
+        "pos5_sentiment",
+        "pos5_thesis"
+      ]
+    },
+    "pos5_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_fade_2",
+        "text_pos5_title"
+      ]
+    },
+    "badge_fade_2": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "destructive"
+      }
+    },
+    "text_pos5_title": {
+      "type": "Text",
+      "props": {
+        "text": "Robinhood Chain consumer apps"
+      }
+    },
+    "pos5_sentiment": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_mind3_down",
+        "badge_fading_2"
+      ]
+    },
+    "badge_mind3_down": {
+      "type": "Badge",
+      "props": {
+        "text": "mind 3 ↓",
+        "variant": "outline"
+      }
+    },
+    "badge_fading_2": {
+      "type": "Badge",
+      "props": {
+        "text": "Fading",
+        "variant": "secondary"
+      }
+    },
+    "pos5_thesis": {
+      "type": "Text",
+      "props": {
+        "text": "peaked Jul 13, steady bleed.",
+        "variant": "body"
+      }
+    },
+    "position_6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos6_header",
+        "pos6_sentiment",
+        "pos6_thesis"
+      ]
+    },
+    "pos6_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_fade_3",
+        "text_pos6_title"
+      ]
+    },
+    "badge_fade_3": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "destructive"
+      }
+    },
+    "text_pos6_title": {
+      "type": "Text",
+      "props": {
+        "text": "DATs"
+      }
+    },
+    "pos6_sentiment": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_mind2_down",
+        "badge_fading_cope"
+      ]
+    },
+    "badge_mind2_down": {
+      "type": "Badge",
+      "props": {
+        "text": "mind 2 ↓",
+        "variant": "outline"
+      }
+    },
+    "badge_fading_cope": {
+      "type": "Badge",
+      "props": {
+        "text": "Fading Cope",
+        "variant": "secondary"
+      }
+    },
+    "pos6_thesis": {
+      "type": "Text",
+      "props": {
+        "text": "mNAV ~1.05x, no recovery catalyst.",
+        "variant": "body"
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_map": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_map",
+        "grid_stages"
+      ]
+    },
+    "heading_map": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h2"
+      }
+    },
+    "grid_stages": {
+      "type": "Grid",
+      "props": {
+        "columns": 4,
+        "gap": "md"
+      },
+      "children": [
+        "stage_emerging",
+        "stage_rising",
+        "stage_peak",
+        "stage_fading"
+      ]
+    },
+    "stage_emerging": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_emerging",
+        "text_emerging"
+      ]
+    },
+    "heading_emerging": {
+      "type": "Heading",
+      "props": {
+        "text": "Emerging",
+        "level": "h4"
+      }
+    },
+    "text_emerging": {
+      "type": "Text",
+      "props": {
+        "text": "Agentic Payments (x402 protocol)",
+        "variant": "body"
+      }
+    },
+    "stage_rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_rising",
+        "text_rising"
+      ]
+    },
+    "heading_rising": {
+      "type": "Heading",
+      "props": {
+        "text": "Rising",
+        "level": "h4"
+      }
+    },
+    "text_rising": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agents / Agentic",
+        "variant": "body"
+      }
+    },
+    "stage_peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_peak",
+        "text_peak"
+      ]
+    },
+    "heading_peak": {
+      "type": "Heading",
+      "props": {
+        "text": "Peak",
+        "level": "h4"
+      }
+    },
+    "text_peak": {
+      "type": "Text",
+      "props": {
+        "text": "RWA tokenization, Stablecoins/Stablechains, Privacy Crackdown",
+        "variant": "body"
+      }
+    },
+    "stage_fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_fading",
+        "text_fading_map"
+      ]
+    },
+    "heading_fading": {
+      "type": "Heading",
+      "props": {
+        "text": "Fading",
+        "level": "h4"
+      }
+    },
+    "text_fading_map": {
+      "type": "Text",
+      "props": {
+        "text": "Prediction Markets, Robinhood Chain, DATs, Meme Launchpads",
+        "variant": "body"
+      }
+    }
+  }
+}
