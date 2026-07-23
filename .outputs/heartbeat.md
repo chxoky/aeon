@@ -1,2 +1,1 @@
-🟡 WATCH — 1 P3 flag
-🟡 MISSING: trader-memory-compact (enabled, Sun 20:00 UTC) has no entry in cron-state.json — never been dispatched by the scheduler. Check if the Sunday cron slot is wiring correctly.
+🔵 P3: trader-memory-compact has no entry in cron-state.json — never dispatched. Skill is enabled (schedule: Sundays 20:00 UTC). Next window: 2026-07-27T20:00 UTC. If recently enabled, first run will self-resolve; otherwise check the scheduler.
