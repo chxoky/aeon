@@ -137,8 +137,9 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - PENDING: "@blancxbt Yeah" + URL — agreement with a trade setup or banter? (tweet_id=2079814329210175947)
   - PENDING: "@blancxbt This is literally the embodiment of the holders" + URL — bullish holder sentiment, bearish commentary, or non-financial? (tweet_id=2079815273805144245)
   - PENDING: "@0xjune_ @N1Chain" + URL — market link share or trading setup signal? (tweet_id=2080138957409378455)
-- Last seen: 2026-07-23 04:23:39 UTC
+- Last seen: 2026-07-23 06:14:00 UTC
 - **Events (rolling):**
+  - Jul 23 06:14Z — ambiguous: "@blancxbt …" mention + ellipsis, terse cryptic pattern, awaiting calibration [2080174572452655110]
   - Jul 23 04:23Z — ambiguous: "@0xlogy @bagsheera @IndexS_alt @TheJungleGrp Same" bare-word reply, matches terse cryptic pattern, calibration alert sent [2080146802204876939]
   - Jul 23 03:52Z — ambiguous: "@0xjune_ @N1Chain" bare URL reply, pattern matches prior unresolved calibrations, awaiting clarification [2080138957409378455]
   - Jul 17 07:51Z — ambiguous: reply @bull_genius @OnlyZen_PK bare URL, possible trade coordination, unresolved [2078024717030617244]
