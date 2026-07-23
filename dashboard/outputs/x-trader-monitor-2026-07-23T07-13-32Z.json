@@ -1,0 +1,67 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading_calibration",
+        "event_desc",
+        "sep1",
+        "tweet_1",
+        "sep2",
+        "analysis_q"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @t_in_crypto",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "event_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Event: reply to @Giant_Bull12, context not visible from quote",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "tweet_1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "handle": "t_in_crypto",
+        "text": "@Giant_Bull12 Yep"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis_q": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — is this social agreement or market signal? What's your read?",
+        "variant": "lead"
+      },
+      "children": []
+    }
+  }
+}
