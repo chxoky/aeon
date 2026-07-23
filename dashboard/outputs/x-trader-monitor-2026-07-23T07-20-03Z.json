@@ -1,0 +1,136 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "calibration_heading",
+        "separator1",
+        "event_section",
+        "separator2",
+        "tweet_card",
+        "separator3",
+        "analysis_stack",
+        "separator4",
+        "question_alert",
+        "separator5",
+        "view_post_link"
+      ]
+    },
+    "calibration_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @swarmister",
+        "level": "h2"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "event_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event_label",
+        "event_description"
+      ]
+    },
+    "event_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "event_description": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to @BitTexXBT with cryptic reference '/fucking_bittex' + chart image",
+        "variant": "body"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "@swarmister",
+        "text": "@BitTexXBT /fucking_bittex https://t.co/xN8lggrsmSX"
+      }
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis_alert",
+        "prior_posts_stat"
+      ]
+    },
+    "analysis_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Cannot read or interpret",
+        "message": "Chart image failed to fetch, text is ambiguous.",
+        "type": "warning"
+      }
+    },
+    "prior_posts_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Prior cryptic posts awaiting calibration",
+        "value": "44+"
+      }
+    },
+    "separator4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "question_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "What's your read?",
+        "message": "Is this a chart-based signal, BitTex protocol reference, or banter?",
+        "type": "info"
+      }
+    },
+    "separator5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "view_post_link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/swarmister/status/20801895493097431640"
+      }
+    }
+  }
+}

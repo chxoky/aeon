@@ -10,3 +10,14 @@ The tweet from @swarmister to @avgcryptoguy saying "Gm" (good morning) is purely
 ✗ **Not added to traders.md** — skip/non-financial events don't warrant a separate event line
 
 This aligns with swarmister's documented profile (~80% non-financial banter ratio) and prevents alert noise for purely social posts.
+🔍 *Calibration — @swarmister*
+
+Event: Reply to @BitTexXBT with cryptic reference '/fucking_bittex' + chart image
+
+"@BitTexXBT /fucking_bittex https://t.co/xN8lggrsmSX"
+
+Cannot read or interpret — chart image failed to fetch, text is ambiguous. Matches 44+ prior cryptic posts from swarmister awaiting calibration.
+
+What's your read? Is this a chart-based signal, BitTex protocol reference, or banter?
+
+[View post](https://x.com/swarmister/status/20801895493097431640)
