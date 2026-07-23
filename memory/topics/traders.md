@@ -409,8 +409,9 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - Jul 23 19:23Z — skip: BTC "Third Drive?" + charts; no action/conviction; matches noise rule [2080373129613091306]
   - Jul 23 18:39Z — ambiguous: poll-result sentiment reference "So a third of you would rather lose 50% than make 0%? [meme image]"; cryptic rhetorical question on risk preference behavior; no explicit market signal or personal trade action; awaiting calibration [2080362068415598794]
   - Jul 23 19:20Z — informational: SPX/SPY fractal hypothesis — July 2024 pattern repeating in July 2026; questions @Parida on "vixpiry fractal" + FOMC bounce scenario (bullish technical pattern observation); charts show identical 3-move sequence in both periods [2080372409245569301]
-- Last seen: 2026-07-23 21:19:50 UTC
+- Last seen: 2026-07-23 21:22:20 UTC
 - **Events (rolling):**
+  - Jul 23 21:22Z — ambiguous: INTC "Ok tempting fate" + 1m chart showing support breakdown; directional intent unclear (bullish reversal vs bearish weakness?) — awaiting calibration [2080403162754904368]
   - Jul 23 21:19Z — informational: INTC technical observation, 1m chart shows intraday rally faded (~99→113.7→104.91); questioning momentum reversal; no personal execution [2080402533701636132]
 
 ## t_in_crypto

@@ -1,5 +1,11 @@
-🐦 *[X] @Wild_Randomness*
+🔍 *Calibration — @Wild_Randomness*
 
-INTC intraday fade observed — 1m chart shows rally from ~99 to 113.7 reversed sharply to 104.91
+Event: INTC 1-minute chart + cryptic setup language
 
-[View tweet](https://x.com/Wild_Randomness/status/2080402533701636132)
+Chart shows: peaked 113.7 (earlier), testing support at 104.0 with multiple support levels marked (111.2, 108.3, 103.5). Current: 104.56.
+
+@Wild_Randomness: "Ok tempting fate"
+
+Chart supports either bullish (reversal/support bounce) OR bearish (breakdown/weakness continuation) interpretation. Unable to classify without your read: is this trader tempted to SHORT the breakdown, or LONG the support test?
+
+[View post](https://x.com/Wild_Randomness/status/2080403162754904368)

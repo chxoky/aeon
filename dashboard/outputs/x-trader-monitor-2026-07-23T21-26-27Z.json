@@ -1,0 +1,148 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @Wild_Randomness"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_event",
+        "table_prices",
+        "sep1",
+        "tweetcard_quote",
+        "sep2",
+        "stack_interpretation",
+        "sep3",
+        "alert_question",
+        "link_post"
+      ]
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: INTC 1-minute chart + cryptic setup language"
+      }
+    },
+    "table_prices": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Metric",
+          "Price"
+        ],
+        "rows": [
+          [
+            "Peak (earlier)",
+            "113.7"
+          ],
+          [
+            "Current",
+            "104.56"
+          ],
+          [
+            "Support Level 1",
+            "111.2"
+          ],
+          [
+            "Support Level 2",
+            "108.3"
+          ],
+          [
+            "Support Level 3",
+            "103.5"
+          ],
+          [
+            "Support Test Level",
+            "104.0"
+          ]
+        ]
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweetcard_quote": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Ok tempting fate"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_interpretation": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_interp_label",
+        "badge_bullish",
+        "badge_bearish"
+      ]
+    },
+    "text_interp_label": {
+      "type": "Text",
+      "props": {
+        "text": "Possible interpretations:",
+        "variant": "muted"
+      }
+    },
+    "badge_bullish": {
+      "type": "Badge",
+      "props": {
+        "text": "Bullish (reversal/support bounce)",
+        "variant": "outline"
+      }
+    },
+    "badge_bearish": {
+      "type": "Badge",
+      "props": {
+        "text": "Bearish (breakdown/weakness continuation)",
+        "variant": "outline"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_question": {
+      "type": "Alert",
+      "props": {
+        "title": "Calibration needed",
+        "message": "Unable to classify without your read: is this trader tempted to SHORT the breakdown, or LONG the support test?",
+        "type": "info"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2080403162754904368"
+      }
+    }
+  }
+}
