@@ -1,78 +1,76 @@
-# Market Context (as of 2026-07-22)
+# Market Context (as of 2026-07-23)
 
-> **Take:** risk-off — BTC −1.80% 24h with FOMC no-change probability collapsing 11pp (86% → 75%) as hawkish repricing accelerates into the Jul 28-29 meeting. Conviction: medium (breadth 6/20 and BTC direction agree; F&G anchored at 33/Fear, not falling — limits to high conviction).
+> **Take:** risk-off — BTC −1.3% 24h with breadth at 4/20 green as FOMC hawkish repricing extends a second session (no-change 71.2%, −4pp). Conviction: medium (BTC +1.5% 7d, ETF 7-day inflow streak, and DeFi TVL +2-3% 7d are meaningful counter-signals that cap conviction at risk-off rather than capitulation).
 
 ## Signal Snapshot
-- BTC $65,582 (−1.80% 24h, +0.74% 7d) · dominance 56.58% (−0.22pp 24h)
-- ETH $1,924 (−0.51% 24h, +0.08% 7d) · ETH/BTC 0.02934
-- SOL $77.53 (−0.72% 24h, −0.52% 7d)
-- Total mcap $2.33T (−0.9% approx 24h) · DEX vol $6.32B 24h
-- Breadth: 6/20 green 24h · 11/20 green 7d
-- Fear & Greed: 33 (Fear) — yesterday 25 (Extreme Fear)
+- BTC $64,837 (−1.28% 24h, +1.5% 7d) · dominance 56.59% (+0.01pp 24h)
+- ETH $1,894 (−1.79% 24h, +1.5% 7d) · ETH/BTC 0.02921
+- SOL $76.39 (−1.68% 24h, +1.1% 7d)
+- Total mcap $2.30T (−1.07% 24h) · DEX vol $6.53B 24h
+- Breadth: 4/20 green 24h · 8/20 green 7d
+- Fear & Greed: 31 (Fear) — yesterday 33 (Fear)
 
 ## What Changed Since Last Refresh
-- **FOMC hawkish repricing: no-change 86% → 75.3%** — +25bps implied probability doubled from 14% to 24% on Polymarket in one session. Largest single-session policy reprice this cycle. PCE at 4.1% YoY is the likely trigger.
-- **BTC deepened: −0.44% → −1.80% 24h** — price slid $65,927 → $65,582 (−$345); holding above key $65K support but the cushion has thinned.
-- **ONDO exits trending** — day-4 confirmed peak/fading call from prior session; RWA narrative rotation complete.
-- **GRAM resurfaces: +5.80%, back in trending at #25** — prior "fading" call was premature; unexpected single-session reversal. Unconfirmed whether reversal or dead-cat bounce.
+- **Fed no-change dropped to 71.2% (−4.1pp from 75.3%)** — hawkish repricing entering second session; +25bps now at ~28.8%, up from 24.1% yesterday and 14% two sessions ago. Primary regime catalyst ahead of FOMC Jul 28-29.
+- **Breadth collapsed 6/20 → 4/20 green 24h** — broad-based selling (XRP −2.0%, DOGE −2.7%, XLM −3.3%, RAIN −3.5%); not isolated BTC weakness — regime-wide distribution.
+- **BTC extended lower to $64,837 (−$745 from $65,582)** — thinning cushion above $64K support; rangebound $64K–$66.8K per CoinDesk. KillaXBT (tracked) flagged 2022/2026 weekly structural parallel: fakeout above downtrend without retest, Kalshi at 45% BTC hits $50K before $100K.
+- **BTC ETF inflow streak confirmed at 7 days / $981M total** — BlackRock IBIT +$38.8M on Jul 22. Institutional bid holds despite FOMC headwind; last comparable streak was October 2025.
 
 ## Active Narratives
-- **FOMC hawkish uncertainty** — phase: rising (new dominant). Evidence: Polymarket no-change 86% → 75.3% in one session; +25bps at 24%, highest hawkish pricing this cycle. FOMC Jul 28-29 is now the primary near-term regime gate.
-- **HYPE / Hyperliquid** — phase: fading (accelerating). Evidence: −6.19% 24h, −14.69% 7d (#10 mcap); 4th consecutive distribution session deepening from prior −12.08% 7d.
-- **GRAM / TON rebrand** — phase: uncertain (reversal after fade). Evidence: +5.80% 24h, re-entered trending at #25 after missing yesterday's list. Prior "peak/fading" call needs session-2 data to resolve.
-- **BANK / Lorenzo Protocol (BTC staking)** — phase: emerging. Evidence: BANK #310, +11.26% 24h, entered CoinGecko trending today. Lorenzo is a BTC liquid restaking protocol — BTC-fi sub-narrative gaining early traction.
-- **BTC ETF institutional recovery** — phase: emerging (stalling risk). Evidence: 5-day inflow streak through Jul 21 totaling $727M; Jul 22 data pending. FOMC hawkish repricing is now a direct headwind for continuation.
+- **FOMC hawkish uncertainty** — phase: rising (dominant). Evidence: no-change 71.2% (−4.1pp session-2); +25bps at 28.8%, up +14.8pp from baseline two sessions ago. Jul 28-29 binary gate — BTC sub-$64K before FOMC opens $62-63K.
+- **BTC-fi / Lorenzo Protocol (BANK)** — phase: rising. Evidence: BANK +38.06% 24h, now #253 mcap (from #310 yesterday and #355 two days prior), second consecutive CoinGecko trending day. BTC liquid restaking narrative gaining velocity.
+- **AI/microcap basket (KAITO, ZAMA, STABLE)** — phase: emerging. Evidence: KAITO +10.85%, ZAMA +25.92%, STABLE +8.37% — 3 distinct trending tokens with no established sector mcap leader yet; AI-adjacent early accumulation.
+- **HYPE distribution** — phase: fading. Evidence: +1.3% single-day bounce but −9.6% 7d (#10 mcap); 5th+ consecutive net-distribution session. Single green day does not reverse the pattern.
+- **BTC ETF institutional bid** — phase: rising (counter-trend to macro). Evidence: 7-day inflow streak ($981M total, Jul 14-22); BlackRock IBIT leading. Structural bid persisting through hawkish repricing — not momentum-driven.
 
 ## Top DeFi Protocols (TVL, 7d change)
-- Lido: $17.76B (+2.66%)
-- Aave V3: $13.90B (+1.57%)
-- Morpho Blue: $7.5B (+2.28%)
-- WBTC: $7.5B (+1.45%)
-- Binance Staked ETH: $7.1B (+2.04%)
+- Lido: $17.71B (+2.64%)
+- Aave V3: $13.80B (+1.35%)
+- Morpho Blue: $7.5B (+2.28%) [carried from prior snapshot]
+- WBTC: $7.5B (+1.45%) [carried from prior snapshot]
+- Binance Staked ETH: $7.1B (+2.04%) [carried from prior snapshot]
 
 ## Chain Flow (top 6 by TVL, vs prior snapshot)
-- Ethereum: $41.87B (flat)
-- Solana: $4.94B (−0.2%)
-- BSC: $4.92B (+0.2%)
-- Tron: $4.85B (flat)
-- Base: $4.64B (−0.2%)
-- Bitcoin: $4.31B (−0.2%)
-*All chains approximately flat — no capital rotation; consistent with pre-FOMC wait-and-see positioning.*
+- Ethereum: $41.54B (−$0.33B, −0.8%)
+- Solana: $4.95B (flat)
+- BSC: $4.92B (flat)
+- Tron: $4.82B (flat)
+- Base: $4.59B (−$0.05B, −1.1%)
+- Bitcoin: $4.27B (−$0.04B, −0.9%)
+*All chains flat-to-slightly-lower — no capital rotation; consistent with pre-FOMC wait-and-see positioning.*
 
 ## Stablecoins
-Total: ~$283B (DeFiLlama). USDT $184.1B · USDC $73.4B · USDS $6.7B · DAI $4.8B · USD1 $4.2B · USDe $4.0B — flat vs prior, no fresh dry-powder signal.
+Total: ~$283B (flat). USDT $184.1B · USDC $74.1B (+$0.7B vs prior — minor accumulation signal) · USDS $6.6B · DAI $4.9B · USD1 $4.2B — combined share of total mcap ~12.3%.
 
 ## Trending (CoinGecko)
-- HYPE (Hyperliquid) — #10, $58.32, −6.19% 24h. Distributing; trending on continued sell-off.
-- DEXE (DeXe) — #154, $4.80, −56.26% 24h. Day-5+ catastrophic collapse; distress traffic, avoid.
-- PENGU (Pudgy Penguins) — #114, $0.0063, −0.82% 24h. NFT/gaming; mild negative.
-- ETH — #2, $1,924, −0.51% 24h. Trending on relative strength vs BTC.
-- BANK (Lorenzo Protocol) — #310, $0.18, +11.26% 24h. BTC liquid restaking; emerging narrative.
-- GRAM (Toncoin) — #25, $1.53, +5.80% 24h. Unexpected reversal after yesterday's fade exit.
-- TAO (Bittensor) — #42, $200.79, −0.16% 24h. AI/compute; persistent.
-- BTC — #1, $65,582, −1.80% 24h. Trending on $65K support watch.
-- LAB — #434, $0.155, +20.55% 24h. Microcap pump; illiquid, avoid.
-- CASHCAT — #392, $0.058, −22.14% 24h. Microcap noise; avoid.
-- VVV (Venice Token) — #91, $12.62, −2.08% 24h. AI narrative; mild red.
+- BANK (Lorenzo Protocol) — #253, $0.253, +38.06% 24h. BTC liquid restaking; day-2 trending, mcap rank climbing.
+- ZAMA — #235, $0.053, +25.92% 24h. AI/compute microcap; early accumulation.
+- PRL — #302, $0.327, +25.60% 24h. Small cap, illiquid; noise likely.
+- KAITO — #142, $1.10, +10.85% 24h. AI-native InfoFi; persistent.
+- STABLE — #68, $0.039, +8.37% 24h. Stablecoin-adjacent; new to trending.
+- ADI — #349, $7.22, +5.29% 24h. Microcap; early tracking.
+- ONDO — #41, $0.403, −1.93% 24h. RWA narrative; mild fade continues.
+- DEXE — #208, $3.08, −35.71% 24h. Day 6+ catastrophic collapse; distress traffic, avoid.
+- TAO — #43, $194.38, −2.07% 24h. AI/compute sector anchor; mild red.
+- BTC — #1, $64,838, −1.28% 24h. Trending on $64K support watch.
+- CASHCAT — #456, $0.047, −18.28% 24h. Microcap noise; avoid.
 
 ## Prediction Markets (Polymarket, top by 24h vol)
 | Market | YES% | 24h Vol | Liquidity |
 |--------|------|---------|-----------|
-| Fed no change after July 2026 meeting | 75.3% | $1.97M | $0.28M |
-| Will LeBron James play for Miami Heat 2026-27? | 49.1% | $0.93M | $0.07M |
-| Fed +25bps after July 2026 meeting | 24.1% | $0.84M | $0.12M |
-| Baltimore Orioles vs Boston Red Sox | 43.5% | $0.70M | $0.12M |
+| Fed no change after July 2026 meeting | 71.2% | $1.42M | $0.39M |
+| Sinners vs FUT Esports (BO3) | 21.5% | $0.67M | $0.11M |
+| Paula Badosa beats Udvardy | 86.0% | $0.61M | $0.26M |
 
-*FOMC: no-change probability dropped 10.7pp in one session (86% → 75.3%); +25bps repriced from 14% → 24%. Dominant macro signal.*
+*FOMC: no-change dropped 4.1pp in second consecutive session (75.3% → 71.2%); +25bps now at 28.8% — highest hawkish pricing this cycle. Dominant macro signal.*
 
-## Macro Catalysts (next 7 days)
-- **FOMC Jul 28-29 (primary, hawkish risk elevated):** No-change priced at 75.3% (down from 86%); +25bps at 24%. PCE 4.1% YoY is the forcing function. BTC $65K is support to watch; breach before FOMC opens $62-63K.
-- **BTC ETF flows (Jul 22, pending):** Prior 5-day inflow streak ($727M); FOMC repricing may reverse the trend. Watch for sign flip.
-- **CLARITY Act (ongoing):** Senate vote path open after White House ethics clearance. No price response yet; latent regulatory catalyst.
+## Macro Catalysts (next 6 days)
+- **FOMC Jul 28-29 (primary, hawkish risk elevated):** No-change at 71.2% (−4.1pp in 2 sessions); +25bps at 28.8%. BTC rangebound $64K–$66.8K ahead of meeting; breach of $64K before FOMC opens $62-63K path. Kalshi shows 45% probability BTC hits $50K before $100K (retail bearish lean).
+- **BTC ETF flows (watch for streak break):** 7-day streak at $981M (through Jul 22). FOMC hawkish pressure is rising headwind — a sign flip would be primary bearish confirmation.
 
 ## Implications for Downstream Skills
-- **token-pick:** Do not initiate new positions — risk-off with hawkish FOMC repricing added. FOMC Jul 28 is a binary gate. RAIN +2.89% is the only liquid top-20 outperformer but has no identified catalyst; GRAM reversal unconfirmed. Hard avoids: HYPE (−14.69% 7d, no floor signal), DEXE (catastrophic collapse ongoing).
-- **narrative-tracker:** FOMC hawkish uncertainty is now the primary tracking narrative — 24% +25bps pricing is the number to watch. GRAM needs session-2 data to distinguish reversal vs dead-cat. BANK/Lorenzo emerging BTC-fi narrative — monitor day-2 for confirmation.
+- **token-pick:** Do not initiate new positions — FOMC Jul 28-29 binary gate with +25bps at 28.8% and rising. BANK/BTC-fi (day-2 trending, +38%, #253 and climbing) is the only confirmed momentum narrative — watch day-3 for sizing entry. Avoid HYPE (−9.6% 7d), DEXE (crash ongoing), XLM/RAIN (momentum breakdown).
+- **narrative-tracker:** FOMC hawkish repricing is primary signal — watch +25bps probability at 35% threshold (implies pre-FOMC BTC $64K test). BANK/Lorenzo needs day-3 trending confirmation for emerging→rising phase lock. KAITO/ZAMA AI basket — monitor whether a sector mcap leader consolidates.
 
 ## Token Picks Made
 | Date | Token | Price | Thesis |
