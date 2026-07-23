@@ -1,0 +1,175 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "heading-calibration",
+        "message-section",
+        "context-section",
+        "assets-section",
+        "question-alert"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration — DC: HCH — Chat",
+        "level": "h2"
+      }
+    },
+    "message-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "message-label",
+        "message-text"
+      ]
+    },
+    "message-label": {
+      "type": "Text",
+      "props": {
+        "text": "Message:",
+        "variant": "lead"
+      }
+    },
+    "message-text": {
+      "type": "Text",
+      "props": {
+        "text": "\"So keeping an eye out\"",
+        "variant": "body"
+      }
+    },
+    "context-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context-label",
+        "context-line1",
+        "context-line2"
+      ]
+    },
+    "context-label": {
+      "type": "Text",
+      "props": {
+        "text": "Context:",
+        "variant": "lead"
+      }
+    },
+    "context-line1": {
+      "type": "Text",
+      "props": {
+        "text": "Supporting channel real-time update. No ticker, price, or action specified.",
+        "variant": "body"
+      }
+    },
+    "context-line2": {
+      "type": "Text",
+      "props": {
+        "text": "Could reference HCH's active short basket or general market readiness.",
+        "variant": "caption"
+      }
+    },
+    "assets-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "assets-label",
+        "assets-row"
+      ]
+    },
+    "assets-label": {
+      "type": "Text",
+      "props": {
+        "text": "Potential assets:",
+        "variant": "lead"
+      }
+    },
+    "assets-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-btc",
+        "badge-eth",
+        "badge-sol",
+        "badge-hype",
+        "badge-zec",
+        "badge-uni",
+        "badge-vvv"
+      ]
+    },
+    "badge-btc": {
+      "type": "Badge",
+      "props": {
+        "text": "BTC",
+        "variant": "outline"
+      }
+    },
+    "badge-eth": {
+      "type": "Badge",
+      "props": {
+        "text": "ETH",
+        "variant": "outline"
+      }
+    },
+    "badge-sol": {
+      "type": "Badge",
+      "props": {
+        "text": "SOL",
+        "variant": "outline"
+      }
+    },
+    "badge-hype": {
+      "type": "Badge",
+      "props": {
+        "text": "HYPE",
+        "variant": "outline"
+      }
+    },
+    "badge-zec": {
+      "type": "Badge",
+      "props": {
+        "text": "ZEC",
+        "variant": "outline"
+      }
+    },
+    "badge-uni": {
+      "type": "Badge",
+      "props": {
+        "text": "UNI",
+        "variant": "outline"
+      }
+    },
+    "badge-vvv": {
+      "type": "Badge",
+      "props": {
+        "text": "VVV",
+        "variant": "outline"
+      }
+    },
+    "question-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification needed",
+        "message": "Unable to classify — what's your read?",
+        "type": "info"
+      }
+    }
+  }
+}

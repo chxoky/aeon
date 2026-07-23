@@ -14,3 +14,10 @@ I'll write a summary since the event has been properly logged.
 - traders.md: Updated Crypto_Chase "Last seen" to 14:12:58 UTC
 
 **Status:** Complete. Event was non-actionable (link-share without content), so no alert was necessary. The actual X post content will be evaluated by `x-trader-monitor` when it processes that tweet separately.
+🔍 *Calibration — [DC: HCH — Chat]*
+
+Message: "So keeping an eye out"
+
+Context: Supporting channel real-time update. No ticker, price, or action specified. Could reference HCH's active short basket (BTC/ETH/SOL/HYPE/ZEC/UNI/VVV) or general market readiness.
+
+Unable to classify — what's your read?
