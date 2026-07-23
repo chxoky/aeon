@@ -1,0 +1,39 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-context",
+        "text-message"
+      ]
+    },
+    "text-context": {
+      "type": "Text",
+      "props": {
+        "text": "💬 [DC: HCH — Comments]",
+        "variant": "caption"
+      }
+    },
+    "text-message": {
+      "type": "Text",
+      "props": {
+        "text": "Fc btc 1hr"
+      }
+    }
+  }
+}
