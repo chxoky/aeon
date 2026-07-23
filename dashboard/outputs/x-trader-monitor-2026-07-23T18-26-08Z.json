@@ -1,0 +1,193 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "sep1",
+        "pattern_analysis",
+        "sep2",
+        "chart_analysis",
+        "sep3",
+        "context_info",
+        "link_view"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Ansem Holders… Enjoying the ride?"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "pattern_analysis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "pattern_heading",
+        "pattern_desc",
+        "prices_stack"
+      ]
+    },
+    "pattern_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Pattern",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "pattern_desc": {
+      "type": "Text",
+      "props": {
+        "text": "ANSEM/Tether perpetual futures"
+      },
+      "children": []
+    },
+    "prices_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_spike",
+        "stat_peak",
+        "stat_decline"
+      ]
+    },
+    "stat_spike": {
+      "type": "Stat",
+      "props": {
+        "label": "Spike",
+        "value": "0.0469"
+      },
+      "children": []
+    },
+    "stat_peak": {
+      "type": "Stat",
+      "props": {
+        "label": "Peak",
+        "value": "0.4576"
+      },
+      "children": []
+    },
+    "stat_decline": {
+      "type": "Stat",
+      "props": {
+        "label": "Decline",
+        "value": "0.1460–0.2366"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "chart_analysis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "chart_heading",
+        "chart_pattern_type",
+        "chart_comment",
+        "chart_implication"
+      ]
+    },
+    "chart_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart Analysis",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "chart_pattern_type": {
+      "type": "Text",
+      "props": {
+        "text": "Pattern Type: 'Euthanasia rollercoaster'"
+      },
+      "children": []
+    },
+    "chart_comment": {
+      "type": "Badge",
+      "props": {
+        "text": "Next loop soon",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "chart_implication": {
+      "type": "Text",
+      "props": {
+        "text": "Suggests repeat cycle ahead",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "context_info": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_heading",
+        "context_text"
+      ]
+    },
+    "context_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "Continues Wild_Randomness Jul 15 bearish fractal call (-0.13 by end of Aug). Charts demonstrate crash is playing out as predicted."
+      },
+      "children": []
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2080357717336822222"
+      },
+      "children": []
+    }
+  }
+}
