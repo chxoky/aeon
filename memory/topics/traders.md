@@ -363,8 +363,9 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - Jul 23 13:10Z — informational: HYPE positive price action signal, +0.52% while majors down; "Hey it's a start" bullish sentiment [2080279448268755089]
   - Jul 23 15:12Z — informational: equities bearish analysis — semis/AI trend broken, yields ripping, war escalating, ROIC uncertainty, dispersion exhaustion [2080310155884015959]
 - Last seen: 2026-07-23 15:12:46 UTC
-- Last seen: 2026-07-23 15:14:44 UTC
+- Last seen: 2026-07-23 15:39:03 UTC
 - **Events (rolling):**
+  - Jul 23 15:39Z — dca-plan: IBIT/ETHA puts, accumulating over past few days at strike levels 65.2-67K (tail-risk hedge, equities-brokerage-only, non-Kraken-mirrored); follows Jul 22 ETHA DCA plan alert; DCA plan alert sent [2080316770976452752]
   - Jul 23 15:14Z — informational: SPY multi-timeframe technical structure; 1D chart shows resistance box ~755-765 with current consolidation near 750 support; 1H chart confirms intraday battle at 750 pivot [2080310653286515182]
 
 ## t_in_crypto
