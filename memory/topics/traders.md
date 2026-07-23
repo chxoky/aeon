@@ -300,16 +300,8 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - Jul 22 02:18Z — ambiguous: CCJ "We have arrived…" monthly bear div played out, RSI reset — entry vs observation [2079752801383498120]
   - Jul 22 05:29Z — strategy: will "keep slapping" Sept-Oct puts, willing to eat drawdown [2079801011246633352]
   - Jul 22 19:10Z — conviction-add: HYPE spot re-add (partial, completing by EOW if price action confirms); Sept/Oct iBIT/etha puts scaling [2080007518856569141]
-  - Jul 22 22:51Z — ambiguous: reply to @based16z on post tracking, two-Fridays top, unclear referent, calibration alert [2080063193637085614]
-- **Events (rolling):**
-  - Jul 22 19:34Z — ambiguous: external reference "$GOOG $AVGO trading like raise capex", awaiting calibration [2080013558763409607]
-- Last seen: 2026-07-22 19:34:11 UTC
-  - Jul 22 19:34Z — ambiguous: market/capex sentiment on unspecified asset, investor expectations, ROIC thesis [2080013592271691887]
-- Last seen: 2026-07-22 22:14:55 UTC
-  - Jul 22 22:14Z — informational: BTC bearish sentiment — aware of 70k liq, would reconsider above 80k [2080054005687050700]
-  - Jul 22 22:08Z — ambiguous: "Where were the signs?" cryptic question with URL context missing, awaiting calibration [2080052404544745483]
-  - Jul 22 22:12Z — ambiguous: reply to @Evan_ss6 "Faded" + URL, context unclear, awaiting calibration [2080053264406421935]
-- Last seen: 2026-07-22 22:11:58 UTC
+  - Jul 23 03:49Z — informational: BTC cycle-bottom skepticism; analyzes draw-down patterns (84%/77%/53%) across cycles; cautions on insufficient capitulation vs historical precedent [2080138099313741825]
+- Last seen: 2026-07-23 03:49:04 UTC
 
 ## t_in_crypto
 - Platforms: X
