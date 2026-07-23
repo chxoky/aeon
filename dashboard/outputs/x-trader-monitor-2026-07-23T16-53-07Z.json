@@ -1,0 +1,123 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet",
+        "separator1",
+        "analysis-stack"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "HYPE pair trade setup — short BTC/ETH via puts, long HYPE spot; watching for bullish divergence formation on daily"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "chart-heading",
+        "chart-content-stack",
+        "separator2",
+        "strategy-stack",
+        "link-container"
+      ]
+    },
+    "chart-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart Analysis",
+        "level": "h3"
+      }
+    },
+    "chart-content-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "hype-stat",
+        "divergence-text"
+      ]
+    },
+    "hype-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "HYPE Support",
+        "value": "58.95"
+      }
+    },
+    "divergence-text": {
+      "type": "Text",
+      "props": {
+        "text": "RSI divergence pattern forming",
+        "variant": "body"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "strategy-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "strategy-heading",
+        "add-condition",
+        "failure-signal"
+      ]
+    },
+    "strategy-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Trading Setup",
+        "level": "h3"
+      }
+    },
+    "add-condition": {
+      "type": "Text",
+      "props": {
+        "text": "Trader willing to add if setup confirms",
+        "variant": "body"
+      }
+    },
+    "failure-signal": {
+      "type": "Text",
+      "props": {
+        "text": "Failure to form divergence = structural market shift signal",
+        "variant": "body"
+      }
+    },
+    "link-container": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2080334535099888042"
+      }
+    }
+  }
+}

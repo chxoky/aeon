@@ -377,6 +377,9 @@ BOOTSTRAP_COMPLETE: 2026-07-14
 - Last seen: 2026-07-23 16:14:33 UTC
 - **Events (rolling):**
   - Jul 23 16:14Z — informational: SPX/NDX 1M chart pattern comparison; July SPX candle spike/rejection mirrors Nov NDX structure; technical observation on index correlation/structure alignment [2080325707654373854]
+- Last seen: 2026-07-23 16:49:38 UTC
+- **Events (rolling):**
+  - Jul 23 16:49Z — informational: HYPE pair trade setup — short BTC/ETH via puts (tail-risk hedge), long HYPE spot; watching for bullish divergence on daily chart; willing to add if week develops; divergence failure signals structural market shift [2080334535099888042]
 
 ## t_in_crypto
 - Platforms: X
