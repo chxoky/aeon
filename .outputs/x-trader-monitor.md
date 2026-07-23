@@ -1,1 +1,10 @@
-🐦 *[X] @Wild_Randomness*\n\nLast months SPX candle looks like November's NDX candle\n\nChart shows July spike/rejection pattern similar to Nov's Nasdaq-100 structure on 1M timeframe.\n\n[View tweet](https://x.com/Wild_Randomness/status/20803257076543738544)
+🔍 *Calibration — @Crypto_Chase*
+
+Event: Reply to @fsuconrad on X
+
+crypto_chase: "It should work. If not here it is again"
+https://t.co/aG0JnV7m0R
+
+Unable to classify — is this a technical/personal message (non-financial) or cryptic financial discussion? The referent ("it") is unclear.
+
+[View post](https://x.com/Crypto_Chase/status/2080332586312720646)
