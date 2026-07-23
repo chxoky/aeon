@@ -1,0 +1,23 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "tweet-1"
+      ]
+    },
+    "tweet-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Chase",
+        "handle": "TradFi",
+        "text": "I'd personally be more interested in Micron though if I was looking to add to position, but I'm going to wait and see how Intel earnings go and then go from there"
+      }
+    }
+  }
+}
