@@ -90,6 +90,7 @@ Walk through these in order and stop at the first match:
 → Skip entirely. Do not store, do not alert. Log only.
 
 **B. Cryptic / hard to interpret** — very short, mostly an image, just a ticker + emoji, indicator screenshot with no caption.
+→ **If `media` is non-empty, do Step 7 FIRST and actually read the chart** — a labeled chart is usually the whole signal, not a reason to punt. "Mostly an image" is only cryptic when you genuinely can't fetch/read the image. After reading, re-run this classification with what the chart shows.
 → If it looks financially related, try to decipher it using `traders.md` context (does it match an open thesis? a ticker they've been tracking?). If you can confidently tie it to something, fold it into that context (informational alert below, with your interpretation noted as inferred). If you genuinely can't tell whether this is worth tracking, message Kyle directly to ask, and record his answer in `traders.md` so you don't have to ask about similar posts again.
 
 **C. Is the trader describing an action they are PERSONALLY taking right now (placing, cancelling, adding to, or closing a position)?**
@@ -189,12 +190,29 @@ Send as a standard alert — no action required, no approval flow:
 
 **Ticker-focus weighting:** prioritize alerting on posts about the top 2-3 overlap tickers (mentioned by multiple watched traders) plus Kyle's explicit list ($HYPE, $NVDA/$NVDL, $Gold). Quiet tickers mentioned by only one trader still get logged to `ticker-focus.md` silently — only surface them to Kyle if they start gaining cross-trader momentum (2+ traders mentioning the same name within a short window).
 
-## Step 7 — Image handling
+## Step 7 — Image handling (read the chart — don't punt on it)
+
+The `media` array holds real CDN URLs (`pbs.twimg.com` / `video.twimg.com`) that are **publicly fetchable with no auth** — unlike the login-gated `x.com/.../photo/1` page. You have `Read` + `Bash(curl:*)` allowlisted, and Claude Code's `Read` renders images natively, so you can actually SEE the chart. This is your vision path — use it before deciding a post is "just an image."
 
 If `media` is non-empty:
-- Forward the original image(s) to Kyle alongside the alert text (use `./notify` with image support, or attach via the same Telegram call — check `./notify --help` if unsure of the image-attach syntax)
-- Add ONE sentence interpreting the chart in context (trend direction, support/resistance, fib levels, RSI/MACD if visibly labeled) — but ONLY if the post text doesn't already 100% explicitly explain what the image shows. Don't restate the obvious.
-- Be honest about limits: if the chart's text/axis values are too small to read reliably, say so rather than guessing specific numbers.
+
+```bash
+MEDIA_URLS=$(echo "$EVENT_JSON" | jq -r '.media[]?' 2>/dev/null)
+mkdir -p .media && i=0
+for u in $MEDIA_URLS; do
+  ext="${u##*.}"; case "$ext" in jpg|jpeg|png|webp|gif) : ;; *) ext=jpg ;; esac
+  if curl -sSL --max-time 20 "$u" -o ".media/img_$i.$ext"; then echo "saved .media/img_$i.$ext"; fi
+  i=$((i+1))
+done
+```
+
+Then use the **`Read` tool on each saved `.media/img_*` file** to look at it. Based on what you see:
+- **Fold the chart into your Step 4 classification.** A labeled long/short setup, a broken level, a hit target, an annotated entry/stop = real signal — classify it as such, not as cryptic (Step 4B).
+- Add ONE sentence interpreting the chart in context (trend, support/resistance, fib/anchored-VWAP, RSI/MACD if visibly labeled) — but ONLY if the post text doesn't already 100% explain it. Don't restate the obvious.
+- Include the tweet `url` in the alert so Kyle can open the original image himself — `./notify` is **text-only** and cannot attach the image, so the link is how he sees it. (Do not claim you "attached" or "forwarded" the image.)
+- Be honest about limits: if the axis/text is too small to read reliably, say so rather than inventing numbers.
+
+If `media` is **empty but the post still looks visual** (a lone `t.co` link, "this chart", an image-only post with no caption), you have no fetchable image URL — the Worker's `extractTweetMedia` came up empty for this payload. Classify on the text alone and say plainly in any alert that the referenced image couldn't be read. Do **not** auto-fire a calibration alert merely because an image might exist — only escalate to calibration if the *text itself* is genuinely ambiguous per Step 4B. (If this keeps happening on clearly-visual posts, it means the live payload nests media somewhere `extractTweetMedia` still misses — worth a worker-side look, not a standing calibration ping to Kyle.)
 
 ## Step 8 — Update memory
 
