@@ -393,6 +393,7 @@ BOOTSTRAP_COMPLETE: 2026-07-14
 - Last seen: 2026-07-23 18:39:03 UTC
 - **Events (rolling):**
   - Jul 23 18:39Z — ambiguous: poll-result sentiment reference "So a third of you would rather lose 50% than make 0%? [meme image]"; cryptic rhetorical question on risk preference behavior; no explicit market signal or personal trade action; awaiting calibration [2080362068415598794]
+  - Jul 23 19:20Z — informational: SPX/SPY fractal hypothesis — July 2024 pattern repeating in July 2026; questions @Parida on "vixpiry fractal" + FOMC bounce scenario (bullish technical pattern observation); charts show identical 3-move sequence in both periods [2080372409245569301]
 
 ## t_in_crypto
 - Platforms: X
