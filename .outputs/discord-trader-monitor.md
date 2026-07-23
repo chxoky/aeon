@@ -1,13 +1,8 @@
-## Summary
+🔍 *Calibration — [DC: Chase — Crypto]*
 
-✅ **Discord Trader Monitor executed successfully**
+Event: Member Q&A supporting channel
 
-**Event processed:**
-- **Trader**: Crypto_Chase (crypto_chase)
-- **Channel**: Chase — Crypto (1247927786681794601, supporting)
-- **Message ID**: 1529856808171077632
-- **Content**: "I mean why do you guys think every single crypto exchange started listing stocks lol"
-- **Classification**: **SKIP** — Non-financial banter
+crypto_chase: "But my thought is if I'm going to be super technical then why not just focus on ES? And I can get much bigger moves typically out of individual stocks."
 
 **Actions taken:**
 1. ✅ Decoded base64 event from Cloudflare Worker
@@ -57,3 +52,4 @@ Unable to classify — what's your read? What does 'the obvious tell over the pa
 ```
 
 The `./notify` command requires approval before sending. Once Kyle provides context for this message, it can be added to the Calibration section in traders.md for future reference pattern-matching.
+Unable to classify — is Chase questioning his current strategy or reinforcing his preference for individual stocks over ES?
