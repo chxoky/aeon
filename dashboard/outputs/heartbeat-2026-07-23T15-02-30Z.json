@@ -1,0 +1,101 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "heartbeat",
+        "description": "Health and scheduler status"
+      },
+      "children": [
+        "status-stack"
+      ]
+    },
+    "status-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "main-alert",
+        "divider",
+        "details-section"
+      ]
+    },
+    "main-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "WATCH — 1 P3 flag",
+        "type": "warning"
+      }
+    },
+    "divider": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "details-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "issue-title",
+        "issue-content",
+        "action-alert"
+      ]
+    },
+    "issue-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Missing Scheduled Task",
+        "level": "h3"
+      }
+    },
+    "issue-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "issue-line1",
+        "issue-line2",
+        "issue-line3"
+      ]
+    },
+    "issue-line1": {
+      "type": "Text",
+      "props": {
+        "text": "Task: trader-memory-compact",
+        "variant": "body"
+      }
+    },
+    "issue-line2": {
+      "type": "Text",
+      "props": {
+        "text": "Configuration: enabled, Sunday 20:00 UTC",
+        "variant": "body"
+      }
+    },
+    "issue-line3": {
+      "type": "Text",
+      "props": {
+        "text": "Status: has no entry in cron-state.json — never been dispatched by the scheduler",
+        "variant": "body"
+      }
+    },
+    "action-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Action Required",
+        "message": "Check if the Sunday cron slot is wiring correctly.",
+        "type": "info"
+      }
+    }
+  }
+}
