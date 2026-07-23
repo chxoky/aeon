@@ -10,3 +10,10 @@ Done. Processed Discord message from crypto_chase at 2026-07-23 15:39:18 UTC.
   - Message ID 1529875565857865959 registered in `discord-trader-seen.txt` to prevent reprocessing
 
 Per skill protocol, supporting-channel reiterations without new info or conviction shifts are logged but not alerted.
+🔍 *Calibration — [DC: Chase — Crypto]*
+
+Context: recent Discord message in member Q&A channel
+
+crypto_chase: "It's more than just that one line. Just go back and read the whole thing and check out the charts and whatnot"
+
+Unable to classify — what's your read? Is this a response to a specific member question, or commentary on a prior position update? Which charts/message is he referencing?

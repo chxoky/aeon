@@ -1,0 +1,62 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Discord trader calibration review"
+      },
+      "children": [
+        "header",
+        "context-sep",
+        "context-label",
+        "quote",
+        "analysis-sep",
+        "analysis-text"
+      ]
+    },
+    "header": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: Chase — Crypto]",
+        "level": "h2"
+      }
+    },
+    "context-sep": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context-label": {
+      "type": "Text",
+      "props": {
+        "text": "Context: recent Discord message in member Q&A channel",
+        "variant": "muted"
+      }
+    },
+    "quote": {
+      "type": "TweetCard",
+      "props": {
+        "author": "crypto_chase",
+        "handle": "crypto_chase",
+        "text": "It's more than just that one line. Just go back and read the whole thing and check out the charts and whatnot"
+      }
+    },
+    "analysis-sep": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read? Is this a response to a specific member question, or commentary on a prior position update? Which charts/message is he referencing?",
+        "variant": "lead"
+      }
+    }
+  }
+}
