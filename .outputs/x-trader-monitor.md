@@ -1,12 +1,7 @@
-**Skill execution complete.**
+🐦 *[X] @HeartCanHodl*
 
-**Summary:**
-- **Event:** Birthday greeting from @swarmister to @GlitchCapital at 2026-07-23 20:19:32 UTC
-- **Classification:** Non-financial (Step 4A) — personal/social banter
-- **Alert sent:** No
-- **Memory updated:**
-  - ✅ Log entry added to `memory/logs/2026-07-23.md`
-  - ✅ Tweet ID 2080387359405727817 added to `memory/x-trader-seen.txt` (dedup list)
-  - ✅ No traders.md entry (silent skip per size-discipline rules)
+AAPL structural short thesis — external trader plan to gradually build short throughout H2 2026, citing structural margin dilution from AI-related capex/R&D (Apple allocating $90-100B annually for share buybacks while AI infrastructure costs rise). 
 
-This event was correctly identified as out-of-scope for Kyle's trading flow and silently archived to prevent reprocessing on Worker retry.
+1h technical chart: down trend, support breaks below 320.82 baseline. Previous cycle lows at 311.68.
+
+[View tweet](https://x.com/HeartCanHodl/status/2080387642215002230)
