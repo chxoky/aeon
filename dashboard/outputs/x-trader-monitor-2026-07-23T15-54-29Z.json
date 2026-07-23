@@ -1,0 +1,60 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_stack",
+        "separator",
+        "analysis_text"
+      ]
+    },
+    "tweet_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet",
+        "tweet_link"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "Buying $BTC now is like buying it at $19K last cycle.\n\nI can assure you, no billionaire or multi millionaire is trying to catch the peak bottom.\n\nThese fuckers simply market buy."
+      },
+      "children": []
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2080319062387605660"
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "↳ Reinforces bullish macro thesis from structural bull group (KillaXBT 2x swing long @62.6K, t_in_crypto 100%+ @58.4K) — argues entry levels offer favorable risk/reward vs past cycle equivalents.",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}

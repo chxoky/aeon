@@ -36,3 +36,14 @@ IBIT / ETHA — SHORT via **PUT OPTIONS** — accumulation over past few days
 
 Plan update: Follows ETHA DCA alert from Jul 22 (1950-2025 strike puts). This post clarifies recent accumulation window + IBIT addition (new ticker for this hedge pair).
 No notification sent — this is promotional banter, not a trade signal.
+🐦 *[X] @KillaXBT*
+
+Buying $BTC now is like buying it at $19K last cycle.
+
+I can assure you, no billionaire or multi millionaire is trying to catch the peak bottom. 
+
+These fuckers simply market buy.
+
+[View tweet](https://x.com/KillaXBT/status/2080319062387605660)
+
+↳ _Reinforces bullish macro thesis from structural bull group (KillaXBT 2x swing long @62.6K, t_in_crypto 100%+ @58.4K) — argues entry levels offer favorable risk/reward vs past cycle equivalents._
