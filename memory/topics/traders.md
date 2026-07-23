@@ -373,6 +373,9 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - Jul 23 15:59Z — ambiguous: reply @AkbuarColina "Disappointing asset, should have never returned to it after February" — asset/position unclear, awaiting calibration [2080321904540582296]
   - Jul 23 15:39Z — dca-plan: IBIT/ETHA puts, accumulating over past few days at strike levels 65.2-67K (tail-risk hedge, equities-brokerage-only, non-Kraken-mirrored); follows Jul 22 ETHA DCA plan alert; DCA plan alert sent [2080316770976452752]
   - Jul 23 15:14Z — informational: SPY multi-timeframe technical structure; 1D chart shows resistance box ~755-765 with current consolidation near 750 support; 1H chart confirms intraday battle at 750 pivot [2080310653286515182]
+- Last seen: 2026-07-23 16:14:33 UTC
+- **Events (rolling):**
+  - Jul 23 16:14Z — informational: SPX/NDX 1M chart pattern comparison; July SPX candle spike/rejection mirrors Nov NDX structure; technical observation on index correlation/structure alignment [2080325707654373854]
 
 ## t_in_crypto
 - Platforms: X
