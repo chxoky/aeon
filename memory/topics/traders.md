@@ -301,6 +301,7 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - Jul 23 12:34:15Z — informational: BTC "Fc btc 1hr" form-confirmed 1-hour chart callout in Comments channel [1529828995032547549]
   - Jul 23 12:34:51Z — ambiguous: Comments channel reply "This liq. arrived" — empty referenced message, context missing, calibration alert sent [1529829147810070558]
   - Jul 23 12:39:45Z — informational: BTC/ETH liquidation flows screenshot ("Bait" trap) supporting active short thesis [2080271647836381617]
+  - Jul 23 19:51Z — informational: BTC ETH ZEC liquidation cascade; gaps closing fast [2080380380398379105]
 
 ## Wild_Randomness
 - Platforms: X (X-only; no Discord)
