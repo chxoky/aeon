@@ -1,0 +1,43 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "container"
+      ]
+    },
+    "container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading",
+        "item"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "item": {
+      "type": "StoryLink",
+      "props": {
+        "title": "@swarmister: \"@BitMEX F\" — Too cryptic to classify. What's your read? (mark of respect? funding signal? dismissal?)",
+        "href": "https://x.com/swarmister/status/2080214442994765972",
+        "source": "X"
+      },
+      "children": []
+    }
+  }
+}
