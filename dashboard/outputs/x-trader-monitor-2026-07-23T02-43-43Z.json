@@ -1,0 +1,335 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @t_in_crypto",
+        "description": "X Trader Monitor pattern analysis"
+      },
+      "children": [
+        "event-section",
+        "sep1",
+        "post-section",
+        "sep2",
+        "pattern-section",
+        "sep3",
+        "interpretation-section",
+        "sep4",
+        "context-section"
+      ]
+    },
+    "event-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event-label",
+        "event-content"
+      ]
+    },
+    "event-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h4"
+      }
+    },
+    "event-content": {
+      "type": "Text",
+      "props": {
+        "text": "Mention to @Morecryptoonl",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "post-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "post-label",
+        "post-type",
+        "post-url"
+      ]
+    },
+    "post-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Post",
+        "level": "h4"
+      }
+    },
+    "post-type": {
+      "type": "Badge",
+      "props": {
+        "text": "Caption-less URL only",
+        "variant": "outline"
+      }
+    },
+    "post-url": {
+      "type": "Link",
+      "props": {
+        "label": "https://t.co/dXs7leOUdu",
+        "href": "https://t.co/dXs7leOUdu"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "pattern-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "pattern-label",
+        "pattern-intro",
+        "pattern-metrics",
+        "pattern-examples"
+      ]
+    },
+    "pattern-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Pattern Question",
+        "level": "h3"
+      }
+    },
+    "pattern-intro": {
+      "type": "Text",
+      "props": {
+        "text": "Over past 6 days, t_in_crypto has posted 8+ caption-less URL shares and single-word replies",
+        "variant": "body"
+      }
+    },
+    "pattern-metrics": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "metric1",
+        "metric2",
+        "metric3"
+      ]
+    },
+    "metric1": {
+      "type": "Stat",
+      "props": {
+        "value": "8+",
+        "label": "URL shares"
+      }
+    },
+    "metric2": {
+      "type": "Stat",
+      "props": {
+        "value": "Multiple",
+        "label": "Single-word replies"
+      }
+    },
+    "metric3": {
+      "type": "Stat",
+      "props": {
+        "value": "Multiple",
+        "label": "Emoji-only posts"
+      }
+    },
+    "pattern-examples": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ex-label",
+        "examples-grid"
+      ]
+    },
+    "ex-label": {
+      "type": "Text",
+      "props": {
+        "text": "Examples:",
+        "variant": "muted"
+      }
+    },
+    "examples-grid": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ex1",
+        "ex2",
+        "ex3"
+      ]
+    },
+    "ex1": {
+      "type": "Badge",
+      "props": {
+        "text": "Bare \"48\"",
+        "variant": "outline"
+      }
+    },
+    "ex2": {
+      "type": "Badge",
+      "props": {
+        "text": "\"Here we gooo\" + URL",
+        "variant": "outline"
+      }
+    },
+    "ex3": {
+      "type": "Badge",
+      "props": {
+        "text": "Emoji-only posts",
+        "variant": "outline"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "interpretation-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "interp-label",
+        "interp-options"
+      ]
+    },
+    "interp-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Are these:",
+        "level": "h3"
+      }
+    },
+    "interp-options": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "opt1",
+        "opt2",
+        "opt3"
+      ]
+    },
+    "opt1": {
+      "type": "Text",
+      "props": {
+        "text": "• Coded signals I should interpret as bullish/BTC-conviction affirmations?",
+        "variant": "body"
+      }
+    },
+    "opt2": {
+      "type": "Text",
+      "props": {
+        "text": "• Background banter / share-and-move-on (log only, no alert)?",
+        "variant": "body"
+      }
+    },
+    "opt3": {
+      "type": "Text",
+      "props": {
+        "text": "• Or case-by-case calibration required?",
+        "variant": "body"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context-label",
+        "context-position",
+        "context-status",
+        "context-request"
+      ]
+    },
+    "context-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "context-position": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "ctx-stat1",
+        "ctx-stat2",
+        "ctx-stat3"
+      ]
+    },
+    "ctx-stat1": {
+      "type": "Stat",
+      "props": {
+        "value": "100%+",
+        "label": "BTC LONG"
+      }
+    },
+    "ctx-stat2": {
+      "type": "Stat",
+      "props": {
+        "value": "58.4K",
+        "label": "Entry"
+      }
+    },
+    "ctx-stat3": {
+      "type": "Stat",
+      "props": {
+        "value": "62K",
+        "label": "Doubled at"
+      }
+    },
+    "context-status": {
+      "type": "Badge",
+      "props": {
+        "text": "7+ prior cryptic posts marked PENDING your read",
+        "variant": "default"
+      }
+    },
+    "context-request": {
+      "type": "Text",
+      "props": {
+        "text": "Help me decide the standing protocol for this pattern.",
+        "variant": "lead"
+      }
+    }
+  }
+}
