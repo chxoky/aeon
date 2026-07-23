@@ -1,4 +1,4 @@
-## Summary
+🔍 *Calibration — [DC: Chase — Chase]*
 
 **Skill completed: discord-trader-monitor (real-time event)**
 
@@ -18,3 +18,7 @@
   - Logged event to `memory/logs/2026-07-23.md`
 
 The message provides member Q&A context on Google's capex increase as the fundamental driver—valuable for understanding Chase's position but not a new trade signal or conviction shift.
+Event: Market observation on technical level
+Crypto_Chase: "could even flush the demand and sweep 309. Not fully sure, that's why there's not a trade at the moment"
+
+Unable to classify — what's your read? Which asset/level is "309" referring to (ES/SPX)?
