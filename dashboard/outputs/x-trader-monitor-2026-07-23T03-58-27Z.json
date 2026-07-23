@@ -1,0 +1,139 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration analysis for @swarmister"
+      },
+      "children": [
+        "heading_main",
+        "pattern_stack",
+        "separator1",
+        "post_stack",
+        "separator2",
+        "context_stack",
+        "separator3",
+        "alert_classification",
+        "link_view"
+      ]
+    },
+    "heading_main": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @swarmister",
+        "level": "h2"
+      }
+    },
+    "pattern_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_pattern",
+        "text_pattern"
+      ]
+    },
+    "heading_pattern": {
+      "type": "Heading",
+      "props": {
+        "text": "Pattern",
+        "level": "h3"
+      }
+    },
+    "text_pattern": {
+      "type": "Text",
+      "props": {
+        "text": "Bare URL share with trader mentions (@0xjune_, N1Chain)"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "post_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_post",
+        "tweet_card"
+      ]
+    },
+    "heading_post": {
+      "type": "Heading",
+      "props": {
+        "text": "Post",
+        "level": "h3"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "@swarmister",
+        "text": "@0xjune_ @N1Chain https://t.co/7IAZ3acxfO"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_context",
+        "text_context"
+      ]
+    },
+    "heading_context": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "@swarmister has 20+ pending calibration items on similar cryptic URL-shares. ~80% of posts are non-financial social banter. Real trades use explicit first-person language (\"I've opened a position\", \"I entered at...\").",
+        "variant": "body"
+      }
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification Uncertain",
+        "message": "Is this a trade/market signal or social/link share?",
+        "type": "warning"
+      }
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/swarmister/status/2080138957409378455"
+      }
+    }
+  }
+}

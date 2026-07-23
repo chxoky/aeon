@@ -136,8 +136,10 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - PENDING: "@ssefXBT" + URL — analysis/setup share aligned with BTC conviction? (tweet_id=2079573706016247998)
   - PENDING: "@blancxbt Yeah" + URL — agreement with a trade setup or banter? (tweet_id=2079814329210175947)
   - PENDING: "@blancxbt This is literally the embodiment of the holders" + URL — bullish holder sentiment, bearish commentary, or non-financial? (tweet_id=2079815273805144245)
-- Last seen: 2026-07-22 10:54:28 UTC
+  - PENDING: "@0xjune_ @N1Chain" + URL — market link share or trading setup signal? (tweet_id=2080138957409378455)
+- Last seen: 2026-07-23 03:52:29 UTC
 - **Events (rolling):**
+  - Jul 23 03:52Z — ambiguous: "@0xjune_ @N1Chain" bare URL reply, pattern matches prior unresolved calibrations, awaiting clarification [2080138957409378455]
   - Jul 17 07:51Z — ambiguous: reply @bull_genius @OnlyZen_PK bare URL, possible trade coordination, unresolved [2078024717030617244]
   - Jul 17 08:23Z — ambiguous: "@FalconyFalcon Pls" terse plea, intent unknown [2078032750859243578]
   - Jul 17 09:36Z — ambiguous: XPL "Xpl too, yeah" possible ticker signal, awaiting calibration [2078051137731596456]

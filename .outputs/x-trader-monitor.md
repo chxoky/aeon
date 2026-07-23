@@ -1,10 +1,14 @@
 🐦 [X] @Wild_Randomness
 
 Yes, that's a good point. Definitely harder to play for downside as the bear progresses. There hasn't been a bottoming event yet. Maybe we don't need one, but we're still 4 months early and have drawn down 53% from the highs (previous cycles were 77% and 84%). If we keep -84/-77/-53 pattern, -70 (2026) would imply high 30Ks.
+🔍 *Calibration — @swarmister*
 
-**Event:** @swarmister's greeting tweet (@f2aaaaaaaaaa Good afternoon 🫪)
+Pattern: Bare URL share with trader mentions (@0xjune_, N1Chain)
+Post: "@0xjune_ @N1Chain https://t.co/7IAZ3acxfO"
 
-**Classification:** **SKIP (Non-financial)** — Pure social banter/greeting with no financial content
+Context: @swarmister has 20+ pending calibration items on similar cryptic URL-shares. ~80% of posts are non-financial social banter. Real trades use explicit first-person language ("I've opened a position", "I entered at...").
+
+Unable to classify — is this a trade/market signal or social/link share?
 
 **Actions taken:**
 - ✅ Registered tweet ID (2080136238917366264) in `memory/x-trader-seen.txt` to prevent reprocessing
@@ -53,3 +57,4 @@ Perfect! I've successfully executed the x-trader-monitor skill. Here's what happ
 
 Per skill protocol, non-financial events are skipped entirely with no notification sent to Kyle. Event is now registered and will not re-alert on future delivery.
 [View tweet](https://x.com/Wild_Randomness/status/2080138099313741825)
+[View post](https://x.com/swarmister/status/2080138957409378455)
