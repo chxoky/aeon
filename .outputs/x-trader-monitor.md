@@ -1,6 +1,8 @@
-🔍 *Calibration — @t_in_crypto*
+🐦 *[X] @t_in_crypto*
 
-Event: Reply to @zohaan1324 and @KillaXBT (external thread context missing)
-t_in_crypto: "Yep"
+I'm not talking about his potential liquidation
+I talk about his confidence that Bitcoin will never return to 62k.
 
-Unable to classify — what's your read? Is this a trade agreement, thesis confirmation, or banter?
+[View tweet](https://x.com/t_in_crypto/status/2080098501027885180)
+
+↳ _Aligns with t_in_crypto's own bull conviction (100% long from 58.4K) and KillaXBT's HTF 2x swing long thesis._
