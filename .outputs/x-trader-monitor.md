@@ -1,21 +1,9 @@
 🔍 *Calibration — @Wild_Randomness*
 
-Event: INTC 1-minute chart + cryptic setup language
+Event: BTC heatmap analysis; current price 65K after 59.9K base with liquidity bands at 61.7K, 63.7-65.6K, 67.5K+
 
-Chart shows: peaked 113.7 (earlier), testing support at 104.0 with multiple support levels marked (111.2, 108.3, 103.5). Current: 104.56.
+Wild_Randomness: "What if with this local OI pop? Shorts or longs? (Funding decently green but could just be spot selling) Can we attack these lower liqs yet?"
 
-@Wild_Randomness: "Ok tempting fate"
+Unable to classify — bullish setup to attack through lower liq zones, or bearish trap/reversal? What's your read on the OI pop + funding supporting further upside?
 
-Chart supports either bullish (reversal/support bounce) OR bearish (breakdown/weakness continuation) interpretation. Unable to classify without your read: is this trader tempted to SHORT the breakdown, or LONG the support test?
-
-[View post](https://x.com/Wild_Randomness/status/2080403162754904368)
-🔍 *Calibration — @KillaXBT*
-
-Event: Defensive/philosophical reply to @JAguer88 questioning analysis methodology
-KillaXBT: "Im literally speaking based on data."
-
-Unable to classify — what's your read? Is this:
-- Market sentiment/philosophy post (informational)?
-- Or something specific about an ongoing position?
-
-[View post](https://x.com/KillaXBT/status/2080403433161462090)
+[View post](https://x.com/Wild_Randomness/status/2080418358848012293)
