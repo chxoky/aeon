@@ -1,0 +1,39 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "badge-btc",
+        "tweet-main",
+        "link-tweet"
+      ]
+    },
+    "badge-btc": {
+      "type": "Badge",
+      "props": {
+        "text": "$BTC",
+        "variant": "default"
+      }
+    },
+    "tweet-main": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "On February 12th, the BTC Fear & Greed Index dropped to 5.\n\nThat's lower than the COVID crash (8) and even lower than the 2018 bear market bottom (11).\n\nThe major capitulation has already taken place.\n\nFor now, we're just stuck in a boring, choppy range."
+      }
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2080393271151382812"
+      }
+    }
+  }
+}

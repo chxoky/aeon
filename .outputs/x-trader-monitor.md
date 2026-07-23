@@ -1,7 +1,13 @@
-🐦 *[X] @HeartCanHodl*
+🐦 *[X] @KillaXBT*
 
-AAPL structural short thesis — external trader plan to gradually build short throughout H2 2026, citing structural margin dilution from AI-related capex/R&D (Apple allocating $90-100B annually for share buybacks while AI infrastructure costs rise). 
+$BTC 
 
-1h technical chart: down trend, support breaks below 320.82 baseline. Previous cycle lows at 311.68.
+On February 12th, the BTC Fear & Greed Index dropped to 5.
 
-[View tweet](https://x.com/HeartCanHodl/status/2080387642215002230)
+That's lower than the COVID crash (8) and even lower than the 2018 bear market bottom (11).
+
+The major capitulation has already taken place. 
+
+For now, we're just stuck in a boring, choppy range.
+
+[View tweet](https://x.com/KillaXBT/status/2080393271151382812)
