@@ -1,5 +1,9 @@
-🐦 *[X] @KillaXBT*
+🔍 *Calibration — @KillaXBT*
 
-A full break of the 57K low to sub-50K. Then we likely enter a new range within the 40-50K region.
+Event: BitMEX event reference
 
-[View tweet](https://x.com/KillaXBT/status/2080281968449556833)
+KillaXBT: "So, the real question is. Was it @BitMEX that blew up during 10/10?"
+
+Unable to classify — what's your read? What does 10/10 refer to (date/event/score)?
+
+[View post](https://x.com/KillaXBT/status/2080286985680240657)
