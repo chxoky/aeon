@@ -1,0 +1,76 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "calibration_heading",
+        "event_text",
+        "tweet_card",
+        "separator1",
+        "context_text",
+        "separator2",
+        "question_alert"
+      ]
+    },
+    "calibration_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration — @t_in_crypto",
+        "level": "h2"
+      }
+    },
+    "event_text": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @guru2602 on fractal analysis",
+        "variant": "lead"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "handle": "t_in_crypto",
+        "text": "Nope. We are following 2018 but direct application of fractal is incorrect"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "Context: t_in_crypto holds 100%+ BTC long from 58.4K; his documented thesis says cycle-peak decline coefficients (declining since 2014) imply divergence from 1:1 fractal repeats. Is this post (1) defending fractal-skepticism as part of his bull thesis, or (2) disagreeing with something @guru2602 said about fractals?",
+        "variant": "body"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "question_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read?",
+        "type": "info"
+      }
+    }
+  }
+}

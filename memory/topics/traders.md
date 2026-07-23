@@ -312,6 +312,7 @@ BOOTSTRAP_COMPLETE: 2026-07-14
 - Recent thesis: Astro/moon-cycle structural bull on BTC, diamond-handing through protracted consolidation; expects a reversal "but not just yet" and preaches patience ("don't short strength and consolidation"). Rules out 46K near term — sees MM defending 48K or at worst 44K, with 67–71K as the upside "good zone." Doesn't trade intra-range dips/rips; waits for pivot dates ("sometimes a date isn't enough — there's also structure"). Long-term: cycle-peak decline coefficients (declining since 2014) imply divergence from 1:1 fractal repeats; shared cycle-bottom target and 2028–2029 peak forecast.
 - Conviction notes: Lunar/pivot-date framing (3D candles, moon phases, UTC+7 pivot times with ±4h variance). High-conviction, action-oriented diamond-hand long who adds at pivot-time tests. Since Jul 17 has posted an escalating stream of extremely cryptic one-liners, bare numbers, and caption-less URL shares to non-watched traders (7+ consecutive ambiguous posts, none self-clarified) — heavy calibration load. Roughly 5–10% of posts are non-financial banter/personal replies; also uses sarcasm/irony (once posted "Please shorted bitcoin" ironically while max-long).
 - Calibration: none yet (no answered Kyle calibrations found). Pending:
+  - **NEW (Jul 23 06:09Z)**: "@guru2602 Nope / We are following 2018 but direct application of fractal is incorrect" — is this supporting fractal-does-not-repeat thesis, or is @guru2602 making a fractal call he disagrees with? [2080173405370806314]
   - PENDING: "@Stefan_B_Trades when?" — referent unknown [2077090432194900464]
   - PENDING: follow-up defending the "when?" question, context still missing [2077104562645713338]
   - PENDING: caption-less URL to @SidequestTurtle [2077139887849927104]
@@ -345,8 +346,9 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - Jul 23 02:38Z — ambiguous: caption-less URL mention to @Morecryptoonl; 8th+ consecutive cryptic URL post, pattern question remains active [2080120286683300271]
   - Jul 23 01:11Z — informational: BTC bullish sentiment, discusses confidence Bitcoin won't return to 62k [2080098501027885180]
   - Jul 22 23:14Z — ambiguous (calibration): BTC structure reply to @zohaan1324/@boneless_bones7 "returning to 64 from current moment changes movement picture" [2080069061321318750]
-- Last seen: 2026-07-23 05:35:31 UTC
+- Last seen: 2026-07-23 06:09:22 UTC
 - **Events (rolling):**
+  - Jul 23 06:09Z — ambiguous (calibration): BTC reply to @guru2602 "Nope / We are following 2018 but direct application of fractal is incorrect" — fractal-vs-structure stance unclear, calibration alert sent [2080173405370806314]
   - Jul 23 05:35Z — ambiguous (calibration): BTC "@Stefan_B_Trades we still in window for make new local top. Careful with shorts till 25" — "till 25" unclear (July 25 pivot date or price level?), awaiting Kyle interpretation [2080164886894588268]
   - Jul 23 05:34Z — ambiguous: "@Morecryptoonl 2018" terse mention, matches persistent cryptic-post pattern, awaiting calibration [2080164608933875716]
   - Jul 23 03:12Z — ambiguous: "@synesius101 💯" emoji affirmation in BTC-levels thread; context missing, awaiting calibration [2080128939066798319]

@@ -1,17 +1,9 @@
-Perfect. I've executed the skill and completed the real-time trader monitoring flow:
+🔍 *Calibration — @t_in_crypto*
 
-## Summary
+Event: Reply to @guru2602 on fractal analysis
 
-**Tweet Classified: Non-Financial (SKIP)**
+t_in_crypto: "Nope. We are following 2018 but direct application of fractal is incorrect"
 
-- **Trader:** @Stoiiic
-- **Tweet ID:** 2080171048176132385  
-- **Classification:** A — Non-financial personal banter
-- **Content:** Complaint about someone reaching out in DMs with generic "great to connect with you" greeting
-- **Action:** Silent skip — no alert sent, no traders.md event line added
-- **Logging:** Event registered in daily log (`memory/logs/2026-07-23.md`)
-- **Deduplication:** Tweet ID added to `memory/x-trader-seen.txt` to prevent Worker reprocessing
+Context: t_in_crypto holds 100%+ BTC long from 58.4K; his documented thesis says cycle-peak decline coefficients (declining since 2014) imply divergence from 1:1 fractal repeats. Is this post (1) defending fractal-skepticism as part of his bull thesis, or (2) disagreeing with something @guru2602 said about fractals?
 
-Per the skill rules, non-financial posts (personal life, memes, banter) are logged silently without surfacing to Kyle. This aligns with Stoiiic's documented profile (roughly 50% non-financial content, analyst/educator type with no first-person trade execution).
-
-No further action required.
+Unable to classify — what's your read?
