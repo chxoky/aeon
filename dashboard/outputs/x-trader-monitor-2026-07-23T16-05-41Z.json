@@ -1,0 +1,58 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @Wild_Randomness",
+        "description": "x-trader-monitor"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge",
+        "tweet",
+        "analysis",
+        "link"
+      ]
+    },
+    "badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Event: Reply to @AkbuarColina",
+        "variant": "secondary"
+      }
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "wild_randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Disappointing asset, should have never returned to it after February"
+      }
+    },
+    "analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — which asset is he discussing? Is this his own position disappointment, or advice/commentary on something @AkbuarColina mentioned?",
+        "variant": "muted"
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2080321904540582296"
+      }
+    }
+  }
+}
