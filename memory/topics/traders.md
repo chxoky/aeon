@@ -134,8 +134,9 @@ BOOTSTRAP_COMPLETE: 2026-07-14
 - Last seen: 2026-07-23 16:52:13 UTC
 - **Events (rolling):**
   - Jul 23 16:52Z — trade-partial-tp: SNDK "Trim 10% SNDK 1675, got really close to 1700 but didn't hit , INTC earnings after close. Want a little more profit here." Execution ahead of earlier 1700 contingent target; managing risk into INTC earnings event. 10% closed at 1675 (5 pts below contingent target). Cumulative SNDK TP: 50% at 1533 (Jul 21) + 10% at 1675 (Jul 23) = 60% closed total, 40% remainder open. Discord primary channel (discord-trader-monitor real-time, fast-path-alerted) [1529893916420210831]
-- Last seen: 2026-07-23 16:52:24 UTC
+- Last seen: 2026-07-23 19:44:12 UTC
 - **Events (rolling):**
+  - Jul 23 19:44Z — informational: position confirmation recap — "Good TP on SNDK, back at 1600 now. MU remarkably resilient, leaving 40% open on it still." Reply to own 16:52Z trim execution; validates SNDK trim at 1675 and confirms MU/SNDK position status (60% SNDK closed, 40% MU remainder open). Discord primary channel (is_reply=true to 16:52Z message, fast-path-alerted=true) [1529937195656286218]
   - Jul 23 16:52Z — informational: Discord primary channel — position recap "70% closed in total", status update on cumulative portfolio closures (MU 60% + SNDK earlier phases, matches trading plan trajectory); fast-path-alerted by Worker [1529893960464465970]
   - Jul 23 16:41Z — ambiguous: X reply to @fsuconrad "It should work. If not here it is again" + t.co shortened URL (media unavailable), cryptic referent unknown, awaiting calibration [2080332586312720646]
   - Jul 23 16:15Z — skip: Discord primary channel — social banter/engagement complaint ("we can do better than 13 likes yall"), references past MU/SNDK bottoms retrospectively only, non-financial, silent skip [1529884549981405389]
