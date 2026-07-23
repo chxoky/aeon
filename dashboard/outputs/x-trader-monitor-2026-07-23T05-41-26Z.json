@@ -1,0 +1,106 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert-calibration",
+        "separator-1",
+        "stack-details"
+      ]
+    },
+    "alert-calibration": {
+      "type": "Alert",
+      "props": {
+        "title": "Calibration Alert",
+        "message": "Position-sentiment conflict requires clarification",
+        "type": "warning"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-trader",
+        "text-token",
+        "text-action",
+        "text-timing",
+        "text-status",
+        "text-conflict",
+        "text-required-action"
+      ]
+    },
+    "text-trader": {
+      "type": "Text",
+      "props": {
+        "text": "Trader: @ryzzqq",
+        "variant": "body"
+      }
+    },
+    "text-token": {
+      "type": "Text",
+      "props": {
+        "text": "Token: TAO",
+        "variant": "body"
+      }
+    },
+    "text-action": {
+      "type": "Text",
+      "props": {
+        "text": "Action: Entered Long (TAO reversal)",
+        "variant": "body"
+      }
+    },
+    "text-timing": {
+      "type": "Text",
+      "props": {
+        "text": "Entry Time: 16 hours ago",
+        "variant": "body"
+      }
+    },
+    "text-status": {
+      "type": "Text",
+      "props": {
+        "text": "Status: Pending Approval",
+        "variant": "body"
+      }
+    },
+    "text-conflict": {
+      "type": "Text",
+      "props": {
+        "text": "Conflict: Posted bearish TAO survival sentiment (contradicts long position)",
+        "variant": "body"
+      }
+    },
+    "text-required-action": {
+      "type": "Text",
+      "props": {
+        "text": "Required Action: Clarification needed before processing approval",
+        "variant": "lead"
+      }
+    }
+  }
+}

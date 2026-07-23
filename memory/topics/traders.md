@@ -522,22 +522,23 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - PENDING: "@0xbeyonder is it fixed now?" — platform bug, position, or non-trading? [2077954424379760942]
   - PENDING: "@sidereal118 maybe" — context unknown [2077957777851629586]
   - PENDING: "@donnieearklano @Supbads will wait for weakness" — add to TAO, ETH short entry, or unrelated? [2079925208136462545]
-- Last seen: 2026-07-22 13:43:31 UTC
+- Last seen: 2026-07-23 05:36:14 UTC
 - **Events (rolling):**
-  - Jul 14 06:38Z — informational: BTC 68K before 58K revisit, buying dips 48h, month lows in [no id]
-  - Jul 14 06:47Z — ambiguous: SPCX "looking to buy 120-130" — setup vs intent, contrarian to group [no id]
-  - Jul 14 16:57Z — ambiguous: "looking good [URL]" — BTC long or SPCX referent unknown [2077075054765244918]
-  - Jul 15 06:04Z — ambiguous: cashcat "but delayed [URL]" — scope unresolved [2077272995308204468]
-  - Jul 15 06:09Z — informational: cashcat — "don't think it has any more squeeze potential left" [2077274339452580246]
-  - Jul 15 06:12Z — ambiguous: "@SolBuysa you know what i mean" context-dependent [2077274999178895508]
-  - Jul 15 06:26Z — ambiguous: "@CoinflipApe let them larp" — target narrative unknown [2077278681001812078]
-  - Jul 15 06:54Z — ambiguous: "risk, rissk riiskkk... wasn't available" — context unknown [2077285601309815282]
-  - Jul 16 02:33Z — trade-TP: ELHFI take-profit at "decent spot", majors weakness cited as exit rationale [2077582288083464305]
-  - Jul 17 03:11Z — ambiguous: "@0xbeyonder is it fixed now?" — system vs position unclear [2077954424379760942]
-  - Jul 17 03:25Z — ambiguous: "@sidereal118 maybe" context-dependent [2077957777851629586]
-  - Jul 22 13:17Z — trade-entry: TAO market long, add-on-chop planned, AI-rotation thesis; awaiting Kyle approval [2079918768197943558]
-  - Jul 22 13:25Z — informational: ETH bearish — "will be looking for shorts over the next few days" [2079920865047990357]
+  - Jul 23 05:36Z — ambiguous: TAO bearish — "@Prof_Meowington i dont think tao is the kind of coin that survives yet another cycle" — contradicts pending LONG entry from 16h prior; unclear if position reversal, conviction downgrade, or separate sentiment; awaiting Kyle calibration [2080165068629504426]
   - Jul 22 13:43Z — ambiguous: "will wait for weakness" — TAO add vs ETH short vs unrelated [2079925208136462545]
+  - Jul 22 13:25Z — informational: ETH bearish — "will be looking for shorts over the next few days" [2079920865047990357]
+  - Jul 22 13:17Z — trade-entry: TAO market long, add-on-chop planned, AI-rotation thesis; awaiting Kyle approval [2079918768197943558]
+  - Jul 17 03:25Z — ambiguous: "@sidereal118 maybe" context-dependent [2077957777851629586]
+  - Jul 17 03:11Z — ambiguous: "@0xbeyonder is it fixed now?" — system vs position unclear [2077954424379760942]
+  - Jul 16 02:33Z — trade-TP: ELHFI take-profit at "decent spot", majors weakness cited as exit rationale [2077582288083464305]
+  - Jul 15 06:54Z — ambiguous: "risk, rissk riiskkk... wasn't available" — context unknown [2077285601309815282]
+  - Jul 15 06:26Z — ambiguous: "@CoinflipApe let them larp" — target narrative unknown [2077278681001812078]
+  - Jul 15 06:12Z — ambiguous: "@SolBuysa you know what i mean" context-dependent [2077274999178895508]
+  - Jul 15 06:09Z — informational: cashcat — "don't think it has any more squeeze potential left" [2077274339452580246]
+  - Jul 15 06:04Z — ambiguous: cashcat "but delayed [URL]" — scope unresolved [2077272995308204468]
+  - Jul 14 16:57Z — ambiguous: "looking good [URL]" — BTC long or SPCX referent unknown [2077075054765244918]
+  - Jul 14 06:47Z — ambiguous: SPCX "looking to buy 120-130" — setup vs intent, contrarian to group [no id]
+  - Jul 14 06:38Z — informational: BTC 68K before 58K revisit, buying dips 48h, month lows in [no id]
 
 ## abetrade
 - Platforms: X
