@@ -458,8 +458,9 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - Jul 23 15:56Z — informational: Correlation index fading (CBOE 1-month implied correlation 56→3.95); chart pattern observation on potential bottoming [2080321081345470912]
   - Jul 23 13:10Z — informational: HYPE positive price action signal, +0.52% while majors down; "Hey it's a start" bullish sentiment [2080279448268755089]
   - Jul 23 15:12Z — informational: equities bearish analysis — semis/AI trend broken, yields ripping, war escalating, ROIC uncertainty, dispersion exhaustion [2080310155884015959]
-- Last seen: 2026-07-24 18:19:51 UTC
+- Last seen: 2026-07-24 22:07:56 UTC
 - **Events (rolling):**
+  - Jul 24 22:08Z — informational: ZEC bearish market sentiment — critical opinion on ZEC holders after Chamath buyer revelation ("deeply unserious crypto trader if you hold ZEC"); market commentary, no personal trade action [2080777025460269149]
   - Jul 24 18:19Z — ambiguous: "Good decision lmao" terse one-word reply to unknown context; media: Bloom Energy (BE) daily chart readable ($232.77, -4.84%) but doesn't clarify whose decision or what action; awaiting calibration [2080719626774905326]
   - Jul 24 18:09Z — ambiguous: URL-only post, no caption; media image CDN URL expired/inaccessible; awaiting calibration [2080717066395676842]
   - Jul 24 17:58Z — informational: NVDA/INTC technical speculation on earnings scenarios (Feb 2025 vs Nov 2025 earnings candles); daily breakdown charts on INTC (96.32→low, post ~110.76); NVDA charts asking "what if" scenarios (208.76 current, 209.29 post). Charts show technical structure, no personal trade execution; market analysis/speculation [2080714331818475614]
