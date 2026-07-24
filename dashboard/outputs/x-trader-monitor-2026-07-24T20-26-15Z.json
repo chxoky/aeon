@@ -1,0 +1,117 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "2026-07-24 20:22 UTC"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "status-badge",
+        "separator-1",
+        "tweet-section",
+        "separator-2",
+        "classification-section"
+      ]
+    },
+    "status-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "✅ Completed",
+        "variant": "default"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-heading",
+        "tweet-card"
+      ]
+    },
+    "tweet-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Tweet Observation",
+        "level": "h2"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "@swarmister",
+        "text": "Emoji-only reply to @finalcycle324 (🙉🪦)"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "classification-heading",
+        "classification-alert",
+        "pattern-text",
+        "action-text"
+      ]
+    },
+    "classification-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Classification & Action",
+        "level": "h2"
+      }
+    },
+    "classification-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Skip",
+        "message": "Non-financial banter",
+        "type": "info"
+      }
+    },
+    "pattern-text": {
+      "type": "Text",
+      "props": {
+        "text": "Matches swarmister's established conviction pattern (~80% banter, \"one-word replies = near-zero value\")",
+        "variant": "caption"
+      }
+    },
+    "action-text": {
+      "type": "Text",
+      "props": {
+        "text": "Silent skip. No alert sent. Memory updated.",
+        "variant": "muted"
+      }
+    }
+  }
+}
