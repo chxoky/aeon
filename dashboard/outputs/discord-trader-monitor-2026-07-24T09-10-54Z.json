@@ -1,0 +1,165 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor"
+      },
+      "children": [
+        "heading_calibration",
+        "badge_calibration",
+        "separator_1",
+        "heading_event",
+        "text_author",
+        "text_quote",
+        "stack_metadata",
+        "separator_2",
+        "heading_context",
+        "text_context_desc",
+        "separator_3",
+        "heading_interpretations",
+        "stack_interpretations",
+        "separator_4",
+        "heading_classification",
+        "text_classification_question"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration",
+        "level": "h2"
+      }
+    },
+    "badge_calibration": {
+      "type": "Badge",
+      "props": {
+        "text": "DC: HCH — Free"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h2"
+      }
+    },
+    "text_author": {
+      "type": "Text",
+      "props": {
+        "text": "New market comment from HeartCanHodl"
+      }
+    },
+    "text_quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"Bringing out quality sucks big time with timings\"",
+        "variant": "lead"
+      }
+    },
+    "stack_metadata": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_channel",
+        "badge_timestamp"
+      ]
+    },
+    "badge_channel": {
+      "type": "Badge",
+      "props": {
+        "text": "Channel: Free (Public)"
+      }
+    },
+    "badge_timestamp": {
+      "type": "Badge",
+      "props": {
+        "text": "2026-07-24 09:07:37Z"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_context": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h2"
+      }
+    },
+    "text_context_desc": {
+      "type": "Text",
+      "props": {
+        "text": "No referenced context, not a reply, no attachments."
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_interpretations": {
+      "type": "Heading",
+      "props": {
+        "text": "Possible Interpretations",
+        "level": "h2"
+      }
+    },
+    "stack_interpretations": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_interp_1",
+        "text_interp_2",
+        "text_interp_3"
+      ]
+    },
+    "text_interp_1": {
+      "type": "Text",
+      "props": {
+        "text": "• Market frustration/sentiment on trade execution"
+      }
+    },
+    "text_interp_2": {
+      "type": "Text",
+      "props": {
+        "text": "• Cryptic macro comment on market structure/timing"
+      }
+    },
+    "text_interp_3": {
+      "type": "Text",
+      "props": {
+        "text": "• Reference to his short basket performance or exits"
+      }
+    },
+    "separator_4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_classification": {
+      "type": "Heading",
+      "props": {
+        "text": "Classification Request",
+        "level": "h2"
+      }
+    },
+    "text_classification_question": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?"
+      }
+    }
+  }
+}
