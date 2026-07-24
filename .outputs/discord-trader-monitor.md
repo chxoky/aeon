@@ -1,8 +1,9 @@
 Perfect! Skill execution complete. Here's what was processed:
 
 ## Summary
+**Summary** ✓
 
-I've successfully executed the discord-trader-monitor skill for the message from HeartCanHodl at 2026-07-24 13:41:39 UTC. Here's what was processed:
+**Skill execution complete.** Crypto_Chase's Discord message "It's in this chat somewhere" (channel 1343971265962049597, message_id 1530210390917779506, 13:49:47 UTC) classified as **ambiguous** and logged. No Telegram alert sent (cryptic/ambiguous, supporting channel, no execution language). Memory updated: message_id tracked, event added to traders.md with "awaiting calibration" tag, daily log entry recorded.
 
 **Event Details:**
 - **Trader:** HeartCanHodl (heartcanhodl)
@@ -45,3 +46,9 @@ No Telegram notification sent. The skill processed this as memory-only per suppo
 - ✅ memory/logs/2026-07-24.md: Logged full event with classification details
 
 **No alert sent** — supporting-channel conversational content does not warrant independent notification. Kyle's attention reserved for high-conviction signals and trade executions.
+- **Message ID:** 1530210390917779506 ✓ (added to discord-trader-seen.txt to prevent reprocessing)
+- **Classification:** Ambiguous (cryptic referent "It's in this chat somewhere")
+- **Channel:** 1343971265962049597 (Chase — TradFi supporting) ✓
+- **Alert status:** None (no fast-path alert, no calibration alert sent — message logged for Kyle backlog)
+- **Memory updates:** traders.md + daily log updated
+- **Fast-path outcome:** Registered (fast_path_alerted=false, full skill execution completed)
