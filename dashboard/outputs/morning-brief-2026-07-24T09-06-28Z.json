@@ -1,0 +1,413 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-07-24",
+        "description": "Focus today, updates since yesterday, and market watch"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_focus",
+        "stack_focus",
+        "sep1",
+        "heading_since",
+        "stack_since",
+        "sep2",
+        "heading_watch",
+        "stack_watch",
+        "sep3",
+        "heading_running",
+        "stack_running"
+      ]
+    },
+    "heading_focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack_focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus_item_1",
+        "focus_item_2",
+        "focus_item_3"
+      ]
+    },
+    "focus_item_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_hch",
+        "text_focus_1"
+      ]
+    },
+    "badge_hch": {
+      "type": "Badge",
+      "props": {
+        "text": "1. HCH $CL short",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "text_focus_1": {
+      "type": "Text",
+      "props": {
+        "text": "Why now: approve/ignore; entry live at 93.50 crude exhaustion peak",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "focus_item_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_chase_googl",
+        "text_focus_2"
+      ]
+    },
+    "badge_chase_googl": {
+      "type": "Badge",
+      "props": {
+        "text": "2. Chase GOOGL DCA",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "text_focus_2": {
+      "type": "Text",
+      "props": {
+        "text": "Why now: tariffs live today; 309.5 entry trigger could print",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "focus_item_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_bull",
+        "text_focus_3"
+      ]
+    },
+    "badge_bull": {
+      "type": "Badge",
+      "props": {
+        "text": "3. bull_genius BTC LONG",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "text_focus_3": {
+      "type": "Text",
+      "props": {
+        "text": "Why now: higher low + FOMC fear easing opens risk/reward",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_since": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack_since": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "since_item_1",
+        "since_item_2",
+        "since_item_3",
+        "since_item_4"
+      ]
+    },
+    "since_item_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_hch_update",
+        "text_since_1"
+      ]
+    },
+    "badge_hch_update": {
+      "type": "Badge",
+      "props": {
+        "text": "HCH",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text_since_1": {
+      "type": "Text",
+      "props": {
+        "text": "Added $CL crude short 2% (07:35Z today) — new ticker, 8th in basket; awaiting Kyle approval",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "since_item_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_chase_update",
+        "text_since_2"
+      ]
+    },
+    "badge_chase_update": {
+      "type": "Badge",
+      "props": {
+        "text": "Chase",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text_since_2": {
+      "type": "Text",
+      "props": {
+        "text": "MU/SNDK 40% open; INTC earnings AH yesterday — watch for memory-name follow-through",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "since_item_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_killa",
+        "text_since_3"
+      ]
+    },
+    "badge_killa": {
+      "type": "Badge",
+      "props": {
+        "text": "KillaXBT",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text_since_3": {
+      "type": "Text",
+      "props": {
+        "text": "F&G hit 5 (below COVID 8, 2018 bottom 11) — capitulation-done thesis reinforced",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "since_item_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_wild",
+        "text_since_4"
+      ]
+    },
+    "badge_wild": {
+      "type": "Badge",
+      "props": {
+        "text": "Wild_Randomness",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text_since_4": {
+      "type": "Text",
+      "props": {
+        "text": "10+ calibrations queued (INTC setup, BTC OI/liq); noise elevated, signal low",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack_watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "watch_item_1",
+        "watch_item_2"
+      ]
+    },
+    "watch_item_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_tariffs",
+        "text_watch_1"
+      ]
+    },
+    "badge_tariffs": {
+      "type": "Badge",
+      "props": {
+        "text": "Tariffs",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "text_watch_1": {
+      "type": "Text",
+      "props": {
+        "text": "Live now on 60+ partners — equities headwind; accelerates path to Chase's 309.5 GOOGL trigger (Focus #2)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "watch_item_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_clarity",
+        "text_watch_2"
+      ]
+    },
+    "badge_clarity": {
+      "type": "Badge",
+      "props": {
+        "text": "Clarity Act",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "text_watch_2": {
+      "type": "Text",
+      "props": {
+        "text": "'1-yard line' (Bessent) — regulatory tailwind for crypto, supports BTC long thesis (Focus #3)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack_running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "running_item_1",
+        "running_item_2",
+        "running_item_3",
+        "running_item_4"
+      ]
+    },
+    "running_item_1": {
+      "type": "Text",
+      "props": {
+        "text": "token-alert @ 12:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "running_item_2": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "running_item_3": {
+      "type": "Text",
+      "props": {
+        "text": "market-context-refresh @ 13:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "running_item_4": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
