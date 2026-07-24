@@ -1,0 +1,570 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker",
+        "description": "2026-07-24"
+      },
+      "children": [
+        "section_transitions",
+        "sep1",
+        "section_reflexivity",
+        "sep2",
+        "section_positions",
+        "sep3",
+        "section_map"
+      ]
+    },
+    "section_transitions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_transitions",
+        "item_rhchain",
+        "item_predmarkets"
+      ]
+    },
+    "heading_transitions": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "item_rhchain": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_new",
+        "text_rhchain1"
+      ]
+    },
+    "badge_new": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text_rhchain1": {
+      "type": "Text",
+      "props": {
+        "text": "Robinhood Chain Ecosystem — Chain launched Jul 1; CEO Vlad Tenev meme-endorsement Jul 8 drove CASHCAT +3,759% to $200M+, $878M DEX day. Paradox: built for tokenized stocks, owned by memes. RWA market cap on-chain $12.66M. Cooling post-peak; ARB fee-revenue story the structural keeper."
+      },
+      "children": []
+    },
+    "item_predmarkets": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_demoted",
+        "text_predmarkets1"
+      ]
+    },
+    "badge_demoted": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "text_predmarkets1": {
+      "type": "Text",
+      "props": {
+        "text": "Prediction Markets Peak → Fading — WC drove $44.8B combined June volume (Kalshi $30B, Polymarket record $10.8B). Seasonal cliff materializing as WC ends. Bloomberg insider trading arc Jul 20 = first regulatory crack. FOMC (Jul 28-29) next catalyst but sports vol won't sustain."
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_reflexivity": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_reflexivity",
+        "reflexivity_item1",
+        "reflexivity_item2"
+      ]
+    },
+    "heading_reflexivity": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "reflexivity_item1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_refl1"
+      ]
+    },
+    "text_refl1": {
+      "type": "Text",
+      "props": {
+        "text": "Robinhood Chain / CASHCAT — CEO reversed his own \"memes are a dead end\" stance live on-record Jul 8 → CASHCAT +3,759%. Tokenized stocks thesis empty ($12.66M RWA TVL vs $200M+ meme peak). Story moved price with zero PMF. Classic reflexivity unwind underway."
+      },
+      "children": []
+    },
+    "reflexivity_item2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_refl2"
+      ]
+    },
+    "text_refl2": {
+      "type": "Text",
+      "props": {
+        "text": "Prediction Markets — platforms designed to price information now subject to insider trading (Bloomberg Jul 20). Regulatory self-referential irony building."
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_positions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_positions",
+        "pos1",
+        "pos2",
+        "pos3",
+        "pos4",
+        "pos5"
+      ]
+    },
+    "heading_positions": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "pos1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos1_header",
+        "pos1_details"
+      ]
+    },
+    "pos1_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos1_title",
+        "badge_pos1_rating"
+      ]
+    },
+    "pos1_title": {
+      "type": "Text",
+      "props": {
+        "text": "RIDE: AI Agents / Agentic",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "badge_pos1_rating": {
+      "type": "Badge",
+      "props": {
+        "text": "4 ↑, Mixed",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "pos1_details": {
+      "type": "Text",
+      "props": {
+        "text": "BNB Chain AI layer announced (100K TPS, mainnet Q1 2027); Virtuals Protocol + ASA still leading; trader co-pilot adoption accelerating. Bear: $45M H1 exploits in autonomous agents."
+      },
+      "children": []
+    },
+    "pos2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos2_header",
+        "pos2_details"
+      ]
+    },
+    "pos2_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos2_title",
+        "badge_pos2_rating"
+      ]
+    },
+    "pos2_title": {
+      "type": "Text",
+      "props": {
+        "text": "FADE: Prediction Markets",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "badge_pos2_rating": {
+      "type": "Badge",
+      "props": {
+        "text": "5 ↓, Mixed",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "pos2_details": {
+      "type": "Text",
+      "props": {
+        "text": "WC seasonal cliff confirmed; insider trading scrutiny rising; next major catalyst 6+ months out (mid-terms)."
+      },
+      "children": []
+    },
+    "pos3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos3_header",
+        "pos3_details"
+      ]
+    },
+    "pos3_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos3_title",
+        "badge_pos3_rating"
+      ]
+    },
+    "pos3_title": {
+      "type": "Text",
+      "props": {
+        "text": "FADE: Robinhood Chain Ecosystem",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "badge_pos3_rating": {
+      "type": "Badge",
+      "props": {
+        "text": "4 ↓, Cope",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "pos3_details": {
+      "type": "Text",
+      "props": {
+        "text": "meme peak done; CEO narrative reversal non-repeatable; RWA thesis hollow."
+      },
+      "children": []
+    },
+    "pos4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos4_header",
+        "pos4_details"
+      ]
+    },
+    "pos4_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos4_title",
+        "badge_pos4_rating"
+      ]
+    },
+    "pos4_title": {
+      "type": "Text",
+      "props": {
+        "text": "WATCH: RWA Tokenization",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "badge_pos4_rating": {
+      "type": "Badge",
+      "props": {
+        "text": "3 →, Bull",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "pos4_details": {
+      "type": "Text",
+      "props": {
+        "text": "Robinhood Chain proves adoption gap is real ($12.66M vs $200M+ meme). ONDO institutional narrative intact but no new catalyst."
+      },
+      "children": []
+    },
+    "pos5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos5_header",
+        "pos5_details"
+      ]
+    },
+    "pos5_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos5_title",
+        "badge_pos5_rating"
+      ]
+    },
+    "pos5_title": {
+      "type": "Text",
+      "props": {
+        "text": "WATCH: Privacy Crackdown",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "badge_pos5_rating": {
+      "type": "Badge",
+      "props": {
+        "text": "3 →, Mixed",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "pos5_details": {
+      "type": "Text",
+      "props": {
+        "text": "ZEC/XMR regulatory pressure ongoing, no new signal this window."
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_map": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_map",
+        "map_emerging",
+        "map_rising",
+        "map_peak",
+        "map_fading",
+        "map_stable"
+      ]
+    },
+    "heading_map": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "map_emerging": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "text_emerging_label",
+        "text_emerging_value"
+      ]
+    },
+    "text_emerging_label": {
+      "type": "Text",
+      "props": {
+        "text": "Emerging:",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "text_emerging_value": {
+      "type": "Text",
+      "props": {
+        "text": "—"
+      },
+      "children": []
+    },
+    "map_rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "text_rising_label",
+        "text_rising_value"
+      ]
+    },
+    "text_rising_label": {
+      "type": "Text",
+      "props": {
+        "text": "Rising:",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "text_rising_value": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agents / Agentic"
+      },
+      "children": []
+    },
+    "map_peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "text_peak_label",
+        "text_peak_value"
+      ]
+    },
+    "text_peak_label": {
+      "type": "Text",
+      "props": {
+        "text": "Peak:",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "text_peak_value": {
+      "type": "Text",
+      "props": {
+        "text": "Stablecoins / Payment Rails, Privacy Crackdown"
+      },
+      "children": []
+    },
+    "map_fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "text_fading_label",
+        "text_fading_value"
+      ]
+    },
+    "text_fading_label": {
+      "type": "Text",
+      "props": {
+        "text": "Fading:",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "text_fading_value": {
+      "type": "Text",
+      "props": {
+        "text": "Prediction Markets, Robinhood Chain Ecosystem, DATs / Treasury Companies"
+      },
+      "children": []
+    },
+    "map_stable": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "text_stable_label",
+        "text_stable_value"
+      ]
+    },
+    "text_stable_label": {
+      "type": "Text",
+      "props": {
+        "text": "Stable:",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "text_stable_value": {
+      "type": "Text",
+      "props": {
+        "text": "RWA Tokenization"
+      },
+      "children": []
+    }
+  }
+}
