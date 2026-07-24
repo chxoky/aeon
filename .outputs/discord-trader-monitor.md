@@ -1,22 +1,27 @@
+Perfect! I've completed the full skill execution for the Discord trader monitor event. Here's the summary:
+
 ## Summary
 
-✅ **Discord Trader Monitor — Completed**
+**Event Processed:** HeartCanHodl's BTC/ETH short partial profit-taking at lower 64k zone
 
-**Event Processed:**
-- **Trader:** KillaXBT (killaxbt)
-- **Channel:** 1411492188315193416 (Primary "K")
-- **Message ID:** 1530192337849024703
-- **Time:** 2026-07-24T12:38:02Z
+**Classification:** `trade-partial-tp` (partial profit-taking on existing shorts)
 
-**Classification:** Informational (market structure analysis, not trade entry/exit)
+**Key Details:**
+- **Channel:** HCH — Trades (1279738718680256553, ★most important)
+- **Time:** 2026-07-24 13:09:13 UTC  
+- **Action:** Closing 5% BTC short + 2.5% ETH short at lower 64k
+- **Verbatim Message Preserved:** "Closing 5% btc short and 2.5% eth short here at lower 64k" (per hardcoded rule for this channel)
 
-Content describes scenario planning on BTC: HTF pivot, weekly open key level, support zones (63.6K scalp-long trigger if breached, 61.8K critical), August "fuckery period" timing, range manipulation preparation. Conditional structure only ("if unable to flip...then likely push down...where I would take scalp longs").
+**Execution Flow:**
+- ✅ **Fast-path already handled:** Cloudflare Worker sent Telegram alert ~2-5s after event
+- ✅ **Skipped redundant Telegram:** Per protocol, no duplicate alert sent
+- ✅ **Updated memory:**
+  - `traders.md`: Added event line to HeartCanHodl section
+  - `active-trades.md`: New section documenting BTC/ETH partial TP (portfolio allocation reduced from ~40-44% to ~35-40% short basket)
+  - `discord-trader-seen.txt`: Tracked message_id 1530200183093203044
+  - `memory/logs/2026-07-24.md`: Detailed event log with classification and analysis
 
-**Alert Status:** Fast-path already sent Telegram via Cloudflare Worker (~2-5s latency). Skill skipped duplicate send, processed for memory/logging.
-
-**Memory Updates:**
-- ✅ Added message ID to `memory/discord-trader-seen.txt`
-- ✅ Updated `memory/topics/traders.md` — KillaXBT last seen 12:38:02 UTC, new event logged
-- ✅ Appended daily log `memory/logs/2026-07-24.md` with full classification details
-
-**Cross-platform Note:** Elaborates on same-day 12:03Z X post (MM/algo patterns) with added weekly structure detail—related but distinct enough to note separately rather than suppress as pure reiteration.
+**Portfolio Impact:**
+- Reduces HCH's short exposure after apparent bounce/consolidation at the 64k level
+- Maintains core remainder positions for continued downside thesis participation
+- Consistent with documented pattern: "take profits on pumps, hold rest to targets"

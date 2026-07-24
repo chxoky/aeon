@@ -252,6 +252,16 @@
 - **Channel Evolution**: 11:13:44 (reply context, secondary account), 12:47:29 (reply + reiteration), 13:27:56 (main-channel standalone call)
 - **Last update**: 2026-07-14T13:27:56Z (discord-trader-monitor, fast-path alerted by Cloudflare Worker, PRIMARY TRADES CHANNEL CONVICTION ADD; message_id=1526581013701066873)
 
+### BTC/ETH SHORTS — PARTIAL TP (2026-07-24)
+- **Status**: ACTIVE — PARTIAL PROFIT-TAKING 2026-07-24T13:09:13Z — "Closing 5% btc short and 2.5% eth short here at lower 64k"
+- **Execution**: 2026-07-24T13:09:13Z on primary Trades channel (message_id=1530200183093203044, fast-path-alerted by Cloudflare Worker)
+- **Position reduction**:
+  - **BTC**: Closing 5% (estimated remaining: ~2-5% from recent conviction adds)
+  - **ETH**: Closing 2.5% (estimated remaining: ~4-6% from recent conviction adds)
+- **Price context**: "lower 64k" — market structure near 64K range; closing into weakness/technical level
+- **Rationale**: Disciplined profit-taking on bounce from overnight/early morning price action. Estimated portfolio allocation post-close: ~35-40% total short basket (down from ~40-44% pre-close). Maintains core remainder on BTC/ETH for continued downside participation per HCH's documented thesis pattern (take profits on pumps, hold rest to targets).
+- **Last update**: 2026-07-24T13:09:13Z (discord-trader-monitor, fast-path-alerted, PARTIAL TP; message_id=1530200183093203044)
+
 ### BTC/ETH/SOL Spot — LONGS (CLOSED)
 - **Status**: CLOSED at market 2026-07-02T10:25:13Z — "Close majors fully here"
 - **Final position sizes** (at close): BTC 0%, ETH 0%, SOL 0% (fully exited)
