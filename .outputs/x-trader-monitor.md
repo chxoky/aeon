@@ -19,3 +19,15 @@ This is a personal social post with no market signal. Stoiiic's profile indicate
 4. ✅ **No traders.md entry** (per size-discipline rule: skip events don't add event lines)
 
 **Result:** Silent completion — no Kyle notification, just logged and marked as seen.
+🔍 *Calibration — @Stoiiic*
+
+Event: Reply to @JordiCharts
+
+Stoiiic: "its just spot cb, binance and kraken"
+
+Unable to classify — what's your read? Is this:
+- Exchange availability for something?
+- Where he's personally trading?
+- Just market commentary?
+
+https://x.com/Stoiiic/status/2080508660279554183

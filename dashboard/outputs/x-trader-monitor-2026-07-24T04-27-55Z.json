@@ -1,0 +1,114 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration — @Stoiiic"
+      },
+      "children": [
+        "heading_event",
+        "separator1",
+        "tweet_card",
+        "separator2",
+        "classification_section"
+      ]
+    },
+    "heading_event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event: Reply to @JordiCharts",
+        "level": "h3"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "@Stoiiic",
+        "text": "its just spot cb, binance and kraken"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "classification_heading",
+        "classification_text",
+        "classification_options",
+        "tweet_url"
+      ]
+    },
+    "classification_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "level": "h3"
+      }
+    },
+    "classification_text": {
+      "type": "Text",
+      "props": {
+        "text": "Is this:",
+        "variant": "lead"
+      }
+    },
+    "classification_options": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "option1",
+        "option2",
+        "option3"
+      ]
+    },
+    "option1": {
+      "type": "Badge",
+      "props": {
+        "text": "Exchange availability for something?",
+        "variant": "outline"
+      }
+    },
+    "option2": {
+      "type": "Badge",
+      "props": {
+        "text": "Where he's personally trading?",
+        "variant": "outline"
+      }
+    },
+    "option3": {
+      "type": "Badge",
+      "props": {
+        "text": "Just market commentary?",
+        "variant": "outline"
+      }
+    },
+    "tweet_url": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/Stoiiic/status/2080508660279554183"
+      }
+    }
+  }
+}
