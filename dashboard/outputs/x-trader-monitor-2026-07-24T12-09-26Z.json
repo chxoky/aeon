@@ -1,0 +1,31 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet_card",
+        "link_view"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "Textbook setup on $BTC. Seen this occur numerous times.\n\n\"Binance plunge protection team is back. Usually, when large bids start trailing just below price, MMs and algos tend to front run them temporarily.\"\n\nChart shows support levels ~57,800–59,786; current price ~65,066. Aligns with his documented swing-long thesis (2x from 62.6K)."
+      }
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2080625017193156875"
+      }
+    }
+  }
+}

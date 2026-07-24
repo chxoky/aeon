@@ -1,10 +1,9 @@
-🚨 *Trade Signal — @HeartCanHodl*
+🐦 *[X] @KillaXBT*
 
-$CL (WTI Crude Oil) — SHORT — *Market order*
-2% portfolio short above $90
+Textbook setup on $BTC. Seen this occur numerous times.
 
-"Today on $CL starter short thesis"
+"Binance plunge protection team is back. Usually, when large bids start trailing just below price, MMs and algos tend to front run them temporarily."
 
-[View post](https://x.com/HeartCanHodl/status/2080585218063573401)
+Chart shows support levels ~57,800–59,786; current price ~65,066. Aligns with his documented swing-long thesis (2x from 62.6K).
 
-Reply `approve CL` to mirror this on Kraken (spot), or ignore to skip.
+[View tweet](https://x.com/KillaXBT/status/2080625017193156875)
