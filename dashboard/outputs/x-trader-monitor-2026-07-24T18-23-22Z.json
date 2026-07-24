@@ -1,0 +1,112 @@
+{
+  "root": "root",
+  "state": {},
+  "elements": {
+    "root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading",
+        "chart-context",
+        "sep1",
+        "quote",
+        "sep2",
+        "classification-alert",
+        "tweet-link"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h2"
+      }
+    },
+    "chart-context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "chart-desc",
+        "be-entry",
+        "be-peak",
+        "be-current",
+        "be-change"
+      ]
+    },
+    "chart-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Bloom Energy (BE) 1-week chart showing massive rally",
+        "variant": "body"
+      }
+    },
+    "be-entry": {
+      "type": "Stat",
+      "props": {
+        "label": "Entry",
+        "value": "$29.82"
+      }
+    },
+    "be-peak": {
+      "type": "Stat",
+      "props": {
+        "label": "Peak",
+        "value": "$351.28"
+      }
+    },
+    "be-current": {
+      "type": "Stat",
+      "props": {
+        "label": "Current",
+        "value": "$190.73"
+      }
+    },
+    "be-change": {
+      "type": "Stat",
+      "props": {
+        "label": "From peak",
+        "value": "-45.7%",
+        "trend": "down"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "quote": {
+      "type": "Text",
+      "props": {
+        "text": "@Wild_Randomness: \"Would Leopold lie?\"",
+        "variant": "lead"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read? (Who/what is Leopold? Failed analyst call? Personal reflection?)",
+        "type": "info"
+      }
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/20807193311604739381"
+      }
+    }
+  }
+}
