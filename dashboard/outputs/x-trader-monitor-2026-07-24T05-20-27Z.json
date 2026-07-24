@@ -1,0 +1,33 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet_card",
+        "view_link"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "The fund hit the lower boundary of the consolidation range yesterday. At the same time, there remains a very significant gap above. I expect an upward move when the U.S. market opens.\n\nOn futures, this will be a bounce.\n\nOn the index, the gap will be filled."
+      },
+      "children": []
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/swarmister/status/2080522473817182656"
+      },
+      "children": []
+    }
+  }
+}
