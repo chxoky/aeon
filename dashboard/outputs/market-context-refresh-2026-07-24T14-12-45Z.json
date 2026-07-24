@@ -1,0 +1,228 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "Market Context",
+        "description": "2026-07-24"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_take",
+        "badge_conviction",
+        "sep1",
+        "heading_prices",
+        "grid_prices",
+        "sep2",
+        "heading_indicators",
+        "stack_indicators",
+        "sep3",
+        "alert_etf",
+        "sep4",
+        "heading_narratives",
+        "stack_narratives",
+        "sep5",
+        "heading_fed",
+        "progress_fed"
+      ]
+    },
+    "heading_take": {
+      "type": "Heading",
+      "props": {
+        "text": "take: risk-off",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "badge_conviction": {
+      "type": "Badge",
+      "props": {
+        "text": "conviction high",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_prices": {
+      "type": "Heading",
+      "props": {
+        "text": "Price Action",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "grid_prices": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat_btc",
+        "stat_eth"
+      ]
+    },
+    "stat_btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$64K",
+        "delta": "−1.7%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "stat_eth": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$1,855",
+        "delta": "−2.6%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_indicators": {
+      "type": "Heading",
+      "props": {
+        "text": "Market Indicators",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "stack_indicators": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat_fg",
+        "stat_breadth"
+      ]
+    },
+    "stat_fg": {
+      "type": "Stat",
+      "props": {
+        "label": "Fear & Greed Index",
+        "value": "28",
+        "delta": "Fear"
+      },
+      "children": []
+    },
+    "stat_breadth": {
+      "type": "Stat",
+      "props": {
+        "label": "Market Breadth",
+        "value": "4/20"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert_etf": {
+      "type": "Alert",
+      "props": {
+        "title": "ETF Streak SNAPPED",
+        "message": "$225M outflows · IBIT −$202M",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_narratives": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Narratives",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "stack_narratives": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_tariff",
+        "badge_etf_floor"
+      ]
+    },
+    "badge_tariff": {
+      "type": "Badge",
+      "props": {
+        "text": "Tariff Overhang (rising)",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "badge_etf_floor": {
+      "type": "Badge",
+      "props": {
+        "text": "ETF Floor Broken",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_fed": {
+      "type": "Heading",
+      "props": {
+        "text": "Fed No Change (Jul 2026)",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "progress_fed": {
+      "type": "Progress",
+      "props": {
+        "value": 73.75,
+        "max": 100,
+        "label": "YES 73.75%"
+      },
+      "children": []
+    }
+  }
+}

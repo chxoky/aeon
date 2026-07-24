@@ -1,7 +1,7 @@
 market context — 2026-07-24
 
-take: risk-off (conviction low)
-BTC $65,394 (−0.3%) / ETH $1,891 (−1.76%) · F&G 28 (Fear)
-breadth 3/20 · tariffs live on 60+ partners today
-top narrative: tariff overhang (rising)
-hot market: "Fed no change Jul 2026" YES 74.85%
+take: risk-off (conviction high)
+BTC $64K (−1.7%) / ETH $1,855 (−2.6%) · F&G 28 (Fear)
+breadth 4/20 · ETF streak SNAPPED ($225M outflows, IBIT −$202M)
+top narrative: tariff overhang (rising) + ETF floor broken
+hot market: "Fed no change Jul 2026" YES 73.75%
