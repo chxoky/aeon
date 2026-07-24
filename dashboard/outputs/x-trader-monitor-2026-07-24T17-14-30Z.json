@@ -1,0 +1,50 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet_card",
+        "link_view",
+        "separator_1",
+        "analysis_text"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "Words genuinely cannot describe how excited I am for the next 2 years.\n\nSwing longs. Continuation longs. Range longs... $BTC\n\nAfter spending the last 9 months positioned as a bear, I'm more than ready for the other side of the cycle.\n\nAn asset can only fall 99.9%.\n\nWe're already seeing clear divergence in seller strength.\n\nSellers are gradually losing momentum. 2 months left."
+      },
+      "children": []
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2080701654865793027"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Chart shows capitulation (realized losses wick), validating thesis that bear cycle is finishing and conviction on 2yr+ upside rally.",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
