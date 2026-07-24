@@ -1,0 +1,33 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-1",
+        "link-1"
+      ]
+    },
+    "tweet-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "@swarmister",
+        "text": "Amid yesterday's stock market sell-off, $BTC did end up moving lower.\n\nIt reached the POC on the right side of the chart and is now seeing a reaction from there. Locally, after consolidating near the POC, it appears to be breaking out of it. If it tests this level, you could try jumping on the bounce."
+      },
+      "children": []
+    },
+    "link-1": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/swarmister/status/2080522001383383143"
+      },
+      "children": []
+    }
+  }
+}

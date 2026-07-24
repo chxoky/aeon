@@ -235,6 +235,9 @@ BOOTSTRAP_COMPLETE: 2026-07-14
 - Last seen: 2026-07-24 05:16:26 UTC
 - **Events (rolling):**
   - Jul 24 05:16Z — informational: ES/SPX consolidation bounce call — fund hit lower boundary of consolidation range, significant gap above; expects upward move when US market opens, bounce on futures, gap fill on index; 5-chart labeled setup [2080522473817182656]
+- Last seen: 2026-07-24 05:14:34 UTC
+- **Events (rolling):**
+  - Jul 24 05:14Z — informational: BTC technical structure — reached POC on right side of chart, consolidating near POC, appearing to break out; educational commentary on potential bounce entry if tests level; volume profile + intraday structure charts; no personal execution [2080522001383383143]
   - Jul 24 03:40Z — informational: INJ technical analysis success — bullish bounce from support level confirmed; market structure setup with marked reversals validated; victory lap on successful trade idea [2080498261308153867]
   - Jul 23 15:25Z — informational: QQQ bearish-retest rejection setup on daily/30m timeframes; positioning reset validates asymmetry for long entry; macro backdrop (Semis/AI lost trend, yields ripping) but textbook technical rejection recovery; charts show consolidation with asymmetry in approach given positioning [2080313244414337099]
 
