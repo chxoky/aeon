@@ -772,3 +772,14 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - Jul 21 19:59Z — ambiguous: bare URL, zero context, awaiting calibration [2079657627240280087]
   - Jul 21 20:03Z — ambiguous: second bare URL in same evening, awaiting calibration [2079658633135100210]
   - Jul 22 09:43Z — ambiguous: @maruushae + URL, 3rd cryptic post in 3 days, pattern escalation, awaiting calibration [2079864871001206910]
+
+## trading_axe
+- Platforms: X (X-only)
+- Current open positions: None documented.
+- Recent thesis: Not yet established (new trader, minimal observation window).
+- Conviction notes: First sighting Jul 24. Limited posting sample; terse cryptic reply format requires calibration to establish baseline pattern/signal quality.
+- Calibration: No answered calibrations yet.
+  - PENDING: Jul 24 19:45Z reply to @RyanJon06636091 "BTC / perp DEXs. ~ Dr. Axius." — unclear intent (setup ref, agreement, chart link?) awaiting Kyle calibration [2080741181298725312]
+- Last seen: 2026-07-24 19:45:30 UTC
+- **Events (rolling):**
+  - Jul 24 19:45Z — ambiguous: reply to @RyanJon06636091 "BTC / perp DEXs. ~ Dr. Axius." cryptic minimal context, awaiting calibration [2080741181298725312]
