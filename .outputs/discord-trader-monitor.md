@@ -15,3 +15,6 @@
 - ✅ Skip event logged to `memory/logs/2026-07-24.md`
 
 **Context:** HCH's CL 2% short entry was already captured earlier today (07:35Z). This 09:02Z message is just post-event frustration, not a new trade or conviction update.
+💬 *[DC: HCH — Free]*
+
+Fc cl 1m

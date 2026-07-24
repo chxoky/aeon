@@ -1,0 +1,45 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "content-stack"
+      ]
+    },
+    "content-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "emoji-line",
+        "metadata-line",
+        "signal-line"
+      ]
+    },
+    "emoji-line": {
+      "type": "Text",
+      "props": {
+        "text": "💬"
+      }
+    },
+    "metadata-line": {
+      "type": "Text",
+      "props": {
+        "text": "[DC: HCH — Free]"
+      }
+    },
+    "signal-line": {
+      "type": "Text",
+      "props": {
+        "text": "Fc cl 1m"
+      }
+    }
+  }
+}
