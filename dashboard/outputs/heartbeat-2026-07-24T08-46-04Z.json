@@ -1,0 +1,122 @@
+{
+  "root": "root-card",
+  "state": {},
+  "elements": {
+    "root-card": {
+      "type": "Card",
+      "props": {
+        "title": "Heartbeat"
+      },
+      "children": [
+        "alert-main",
+        "separator-1",
+        "stack-content"
+      ]
+    },
+    "alert-main": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "WATCH",
+        "message": "chain:morning-pipeline stalled"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-stalled",
+        "stat-last-success",
+        "text-morning-brief",
+        "separator-2",
+        "stack-underlying",
+        "separator-3",
+        "text-impact"
+      ]
+    },
+    "text-stalled": {
+      "type": "Text",
+      "props": {
+        "text": "Missed Jul 23 and Jul 24 07:00 UTC runs.",
+        "variant": "body"
+      }
+    },
+    "stat-last-success": {
+      "type": "Stat",
+      "props": {
+        "label": "Last success",
+        "value": "2026-07-22 09:04 UTC",
+        "delta": ">48h ago",
+        "trend": "down"
+      }
+    },
+    "text-morning-brief": {
+      "type": "Text",
+      "props": {
+        "text": "morning-brief digest not delivering.",
+        "variant": "body"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack-underlying": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-underlying",
+        "text-running",
+        "text-broken"
+      ]
+    },
+    "heading-underlying": {
+      "type": "Heading",
+      "props": {
+        "text": "Underlying skills",
+        "level": "h3"
+      }
+    },
+    "text-running": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers and market-context-refresh are running standalone on midday schedules.",
+        "variant": "body"
+      }
+    },
+    "text-broken": {
+      "type": "Text",
+      "props": {
+        "text": "Chain integration is broken.",
+        "variant": "body"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-impact": {
+      "type": "Text",
+      "props": {
+        "text": "Kyle has had no morning brief since Tuesday.",
+        "variant": "lead"
+      }
+    }
+  }
+}
