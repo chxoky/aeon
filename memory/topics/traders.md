@@ -493,6 +493,7 @@ BOOTSTRAP_COMPLETE: 2026-07-14
 - **Events (rolling):**
   - Jul 23 22:26Z — ambiguous: BTC "84-77-53?…\n\nI like 70" — references drawdown-pattern analysis from Jul 23 03:49Z (84%/77%/53% cycles); "I like 70" unclear (70% drawdown? price target? level reference?) — calibration alert sent [2080419244261462138]
   - Jul 24 14:05Z — ambiguous: reply @Evan_ss6 "@Evan_ss6 what if?" — no financial context, minimal cryptic text, awaiting calibration [2080655503873769964]
+  - Jul 24 18:46Z — informational: QQQ intraday vol pattern, London close window bounce; Mandelbrot timing + 15m support observation (Fri/Mon/Wed snapshots) [2080726223936999803]
 
 ## t_in_crypto
 - Platforms: X
