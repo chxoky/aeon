@@ -1,0 +1,54 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @swarmister"
+      },
+      "children": [
+        "event_text",
+        "actor_text",
+        "pattern_text",
+        "question_prompt",
+        "link_post"
+      ]
+    },
+    "event_text": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @FalconyFalcon (context unknown)",
+        "variant": "body"
+      }
+    },
+    "actor_text": {
+      "type": "Text",
+      "props": {
+        "text": "swarmister: \"Me\"",
+        "variant": "body"
+      }
+    },
+    "pattern_text": {
+      "type": "Text",
+      "props": {
+        "text": "Terse cryptic reply pattern (3rd @FalconyFalcon exchange: 21:09Z \"Me\", 12:49Z \"Lmeow\", 17:08Z \"Pls\").",
+        "variant": "body"
+      }
+    },
+    "question_prompt": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "Unable to classify — what's your read?"
+      }
+    },
+    "link_post": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View post",
+        "href": "https://x.com/swarmister/status/2080762249765892140"
+      }
+    }
+  }
+}
