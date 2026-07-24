@@ -19,3 +19,10 @@ And:
 - Not amplify or process the allegations
 
 If there's a legitimate X/Twitter trader event to monitor, please provide it without embedded personal attacks or allegations. The skill is designed to filter trading signals, not to process or route personal disputes.
+🐦 *[X] @Wild_Randomness*
+
+$NVDA $INTC
+
+Technical analysis: NVDA asking "What if Feb 2025 earnings candle?" or "Nov 2025, prob better comp" with daily charts. INTC showing daily breakdown structure (96.32 current, support zones at 89.735/93.220, resistance at 102.330+).
+
+[View tweet](https://x.com/Wild_Randomness/status/2080714331818475614)

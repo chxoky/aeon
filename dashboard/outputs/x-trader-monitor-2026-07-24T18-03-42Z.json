@@ -1,0 +1,163 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tickers_badges",
+        "tweet_card",
+        "separator",
+        "analysis_details",
+        "link"
+      ]
+    },
+    "tickers_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_nvda",
+        "badge_intc"
+      ]
+    },
+    "badge_nvda": {
+      "type": "Badge",
+      "props": {
+        "text": "$NVDA",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "badge_intc": {
+      "type": "Badge",
+      "props": {
+        "text": "$INTC",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Technical analysis: NVDA asking \"What if Feb 2025 earnings candle?\" or \"Nov 2025, prob better comp\" with daily charts. INTC showing daily breakdown structure (96.32 current, support zones at 89.735/93.220, resistance at 102.330+)."
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "nvda_analysis",
+        "intc_analysis"
+      ]
+    },
+    "nvda_analysis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h_nvda",
+        "t_nvda"
+      ]
+    },
+    "h_nvda": {
+      "type": "Heading",
+      "props": {
+        "text": "NVDA",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "t_nvda": {
+      "type": "Text",
+      "props": {
+        "text": "Asking \"What if Feb 2025 earnings candle?\" or \"Nov 2025, prob better comp\" — daily charts analysis",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "intc_analysis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h_intc",
+        "stat_intc",
+        "t_support",
+        "t_resistance"
+      ]
+    },
+    "h_intc": {
+      "type": "Heading",
+      "props": {
+        "text": "INTC",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "stat_intc": {
+      "type": "Stat",
+      "props": {
+        "label": "Current Price",
+        "value": "96.32"
+      },
+      "children": []
+    },
+    "t_support": {
+      "type": "Text",
+      "props": {
+        "text": "Support zones: 89.735 / 93.220",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "t_resistance": {
+      "type": "Text",
+      "props": {
+        "text": "Resistance: 102.330+",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2080714331818475614"
+      },
+      "children": []
+    }
+  }
+}
