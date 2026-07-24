@@ -1,9 +1,9 @@
-🔍 *Calibration — @Wild_Randomness*
+🐦 *[X] @KillaXBT*
 
-Context: Reply to @Evan_ss6
+They will say they are going to by sub 60K then they will lower their targets to 50s, 40s & 30s.
 
-@Wild_Randomness: "@Evan_ss6 what if?"
+Pussy mentality.
 
-Unable to classify — what's your read?
+[View tweet](https://x.com/KillaXBT/status/2080660632592920749)
 
-https://x.com/Wild_Randomness/status/2080655503873769964
+↳ _Mocking bearish capitulation targets as weak psychology; consistent with his 70K+ multi-year bullish thesis._

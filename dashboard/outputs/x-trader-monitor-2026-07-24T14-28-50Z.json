@@ -1,0 +1,49 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-1",
+        "link-view",
+        "context-note"
+      ]
+    },
+    "tweet-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "They will say they are going to by sub 60K then they will lower their targets to 50s, 40s & 30s.\n\nPussy mentality."
+      }
+    },
+    "link-view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2080660632592920749"
+      }
+    },
+    "context-note": {
+      "type": "Text",
+      "props": {
+        "text": "Mocking bearish capitulation targets as weak psychology; consistent with his 70K+ multi-year bullish thesis.",
+        "variant": "muted"
+      }
+    }
+  }
+}
