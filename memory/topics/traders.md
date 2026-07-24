@@ -516,8 +516,9 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - PENDING: one-word "yes" to @maybe_cmeister — agreeing to what? [2078476335974887586]
   - PENDING: "realest shit ive read in a minute" — subject unknown [2078560776164360508]
   - PENDING: "@heart_ see @blancxbt man i told u they wont buy it" — which asset/level? [2079542718460518532]
-- Last seen: 2026-07-23 19:42:07 UTC
+- Last seen: 2026-07-24 00:13:53 UTC
 - **Events (rolling):**
+  - Jul 24 00:14Z — informational: fwa game analysis — personal experience + stats on game economics (80% payout/fee ratio, 13% profitable players); non-financial product commentary, not trade action [2080446334943875384]
   - Jul 23 19:42Z — informational: BTC bear market bottom thesis; 50K range = "fire sale prices", bullish accumulation opportunity [2080377939892359171]
   - Jul 23 18:32Z — informational: BTC technical levels (7d RVWAP + prev week POC forming higher low), HYPE downtrend (90d RVWAP, key zone). Charts annotate full POC/VWAP ladder; risk: cut if summer POC lost [2080360522566812105]
   - Jul 23 12:56Z — trade-entry: BTC market entry ~65K (7d rvwap), targets 70K–71.6K (2026 avwap); charts show POC resistance test + reversal setup [2080275894405312699]
