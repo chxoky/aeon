@@ -1,0 +1,67 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert-skip",
+        "item-wild-randomness"
+      ]
+    },
+    "alert-skip": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "title": "Silent skip",
+        "message": "Non-financial content logged but not displayed"
+      }
+    },
+    "item-wild-randomness": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-entry",
+        "badge-type",
+        "text-details"
+      ]
+    },
+    "heading-entry": {
+      "type": "Heading",
+      "props": {
+        "text": "Wild_Randomness",
+        "level": "h3"
+      }
+    },
+    "badge-type": {
+      "type": "Badge",
+      "props": {
+        "text": "Meme post",
+        "variant": "secondary"
+      }
+    },
+    "text-details": {
+      "type": "Text",
+      "props": {
+        "text": "LOTR + political chart. Non-financial.",
+        "variant": "caption"
+      }
+    }
+  }
+}
