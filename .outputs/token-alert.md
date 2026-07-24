@@ -1,10 +1,14 @@
-Done. No notifications sent — all tokens within normal range.
+Log updated. Token-alert for 2026-07-24 is complete — TOKEN_ALERT_OK, no notifications sent.
 
 ## Summary
 
-**token-alert — 2026-07-23**
+**Skill:** token-alert | **Date:** 2026-07-24
 
-- Added `## Tracked Tokens` section to `memory/MEMORY.md` (BTC 5%, ETH 8%, SOL 10% thresholds — this was the first run so no prior section existed).
-- Fetched live prices from CoinGecko: BTC $65,107 (−0.86% 24h), ETH $1,899 (−1.05% 24h), SOL $76.70 (−0.61% 24h).
-- All three tokens are well inside their alert thresholds — no anomalies, no notification sent.
-- Logged current prices and volumes to `memory/logs/2026-07-23.md` to establish the volume baseline for future 3x spike detection.
+**Prices fetched (CoinGecko):**
+| Token | Price | 24h Change | Volume | Threshold | Alert? |
+|-------|-------|-----------|--------|-----------|--------|
+| BTC   | $64,976 | −0.79% | $26.59B | 5% | NO |
+| ETH   | $1,881 | −2.22% | $9.68B | 8% | NO |
+| SOL   | $75.07 | −3.25% | $1.60B | 10% | NO |
+
+No threshold breaches, no volume spikes (all tokens running at 0.82–0.88× their Jul 21 baseline volumes). No notification sent. Results logged to `memory/logs/2026-07-24.md`.
