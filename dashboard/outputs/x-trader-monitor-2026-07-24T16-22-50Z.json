@@ -1,0 +1,110 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-stack",
+        "separator",
+        "context-stack"
+      ]
+    },
+    "tweet-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet",
+        "tweet-link"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "@Stoiiic",
+        "text": "It's Grant's fault."
+      }
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/Stoiiic/status/2080689353634750957"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context-heading",
+        "sentiment-text",
+        "price-comparison",
+        "details-text"
+      ]
+    },
+    "context-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context: BTC Decline",
+        "level": "h3"
+      }
+    },
+    "sentiment-text": {
+      "type": "Text",
+      "props": {
+        "text": "Sarcastically blaming Grant Cardone for BTC's recent decline. Market observation and sentiment commentary, no personal trade signal.",
+        "variant": "body"
+      }
+    },
+    "price-comparison": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "btc-peak",
+        "btc-current"
+      ]
+    },
+    "btc-peak": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC Peak (Jul 21)",
+        "value": "$66.8K"
+      }
+    },
+    "btc-current": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC Current (Jul 24)",
+        "value": "$63–64K",
+        "delta": "-4.2%",
+        "trend": "down"
+      }
+    },
+    "details-text": {
+      "type": "Text",
+      "props": {
+        "text": "Grant Cardone screenshot shown with price action chart.",
+        "variant": "caption"
+      }
+    }
+  }
+}

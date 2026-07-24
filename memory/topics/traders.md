@@ -364,6 +364,15 @@ BOOTSTRAP_COMPLETE: 2026-07-14
 - **Events (rolling):**
   - Jul 24 14:29Z — ambiguous: Chat channel bare "Yes" — no referenced context, standalone cryptic affirmation, intent unclear; awaiting Kyle calibration [1530220378818085108]
 
+## Stoiiic
+- Platforms: X (X-only; no Discord presence)
+- Current open positions: None documented (trader shows primarily non-financial banter)
+- Recent thesis: Not documented (new trader to bootstrap)
+- Conviction notes: Minimal financial posting pattern observed. Jul 24 activity: sentiment commentary on BTC market structure (sarcastically blaming Grant Cardone for BTC decline). Further observation needed to calibrate conviction profile.
+- Last seen: 2026-07-24 16:19:33 UTC
+- **Events (rolling):**
+  - Jul 24 16:19Z — informational: BTC sentiment commentary, sarcastically blaming Grant Cardone for BTC price decline shown in chart (66.8K → 63-64K, Jul 21-24). Chart context: Grant Cardone screenshot with BTC trading view. Market observation, no personal trade action [2080689353634750957]
+
 ## Wild_Randomness
 - Platforms: X (X-only; no Discord)
 - Current open positions:
