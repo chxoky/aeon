@@ -1,7 +1,7 @@
-🐦 *[X] @HeartCanHodl*
+🐦 *[X] @Stoiiic*
 
-Well... the starter $CL shorts are off to a promising start
+sooo we're max lev longing every dip now?
 
-[View tweet](https://x.com/HeartCanHodl/status/2080692761993605275)
+PERP (leveraged) trending sharply up while SPOT/alternatives trending down — sarcastic observation on leveraged market behavior divergence.
 
-_Starter $CL short entry was 07:32Z this morning (2% pf above $90). Nasdaq chart shows intraday bounce recovery—ambiguous sentiment on whether shorts are winning or being tested by risk-on rally._
+[View tweet](https://x.com/Stoiiic/status/2080695243926565351)
