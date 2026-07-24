@@ -1,0 +1,163 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Trader signal detection and cross-platform tracking"
+      },
+      "children": [
+        "alert-success",
+        "separator-1",
+        "stack-event"
+      ]
+    },
+    "alert-success": {
+      "type": "Alert",
+      "props": {
+        "type": "success",
+        "title": "SUCCESS",
+        "message": "@HeartCanHodl • X post 13:37:53 UTC (tweet_id: 2080648668114276643)"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack-event": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "classification-badge",
+        "details-section",
+        "separator-2",
+        "memory-section",
+        "separator-3",
+        "status-badge"
+      ]
+    },
+    "classification-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "INFORMATIONAL — cross-platform reiteration",
+        "variant": "secondary"
+      }
+    },
+    "details-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-details",
+        "detail-1",
+        "detail-2",
+        "detail-3",
+        "detail-4"
+      ]
+    },
+    "heading-details": {
+      "type": "Heading",
+      "props": {
+        "text": "Details",
+        "level": "h3"
+      }
+    },
+    "detail-1": {
+      "type": "Text",
+      "props": {
+        "text": "Reiteration of 13:09Z Discord execution (5% BTC, 2.5% ETH partial TP at lower 64k)",
+        "variant": "body"
+      }
+    },
+    "detail-2": {
+      "type": "Text",
+      "props": {
+        "text": "Added meaningful variation: philosophical framing + technical chart validation",
+        "variant": "body"
+      }
+    },
+    "detail-3": {
+      "type": "Text",
+      "props": {
+        "text": "X post raises conviction weight (charts show BTC rejection 66,956→65,170 consolidation)",
+        "variant": "body"
+      }
+    },
+    "detail-4": {
+      "type": "Text",
+      "props": {
+        "text": "Dedup protocol: Silent log (no standalone alert; prior Discord execution already alerted Kyle)",
+        "variant": "body"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "memory-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-memory",
+        "memory-1",
+        "memory-2",
+        "memory-3"
+      ]
+    },
+    "heading-memory": {
+      "type": "Heading",
+      "props": {
+        "text": "Memory Updates",
+        "level": "h3"
+      }
+    },
+    "memory-1": {
+      "type": "Text",
+      "props": {
+        "text": "traders.md: HeartCanHodl entry updated (last seen 13:37:53 UTC)",
+        "variant": "body"
+      }
+    },
+    "memory-2": {
+      "type": "Text",
+      "props": {
+        "text": "memory/logs/2026-07-24.md: Event logged with full analysis",
+        "variant": "body"
+      }
+    },
+    "memory-3": {
+      "type": "Text",
+      "props": {
+        "text": "memory/x-trader-seen.txt: Tweet ID tracked (prevent reprocessing)",
+        "variant": "body"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "status-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "COMPLETE ✓",
+        "variant": "default"
+      }
+    }
+  }
+}
