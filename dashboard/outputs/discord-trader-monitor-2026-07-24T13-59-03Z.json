@@ -1,0 +1,192 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Calibration — DC: Chase — TradFi"
+      },
+      "children": [
+        "header-badge",
+        "sep1",
+        "event",
+        "sep2",
+        "message",
+        "sep3",
+        "context-stack",
+        "sep4",
+        "analysis",
+        "sep5",
+        "alert",
+        "questions",
+        "sep6",
+        "positions"
+      ]
+    },
+    "header-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "🔍 Calibration",
+        "variant": "default"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Member Q&A in TradFi supporting channel (13:54Z UTC)",
+        "variant": "lead"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message": {
+      "type": "TweetCard",
+      "props": {
+        "author": "crypto_chase",
+        "text": "If I thought the level was higher, I would have told you higher lol I was appeasing to your technicals but I just know where things are going usually"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context-heading",
+        "context-text"
+      ]
+    },
+    "context-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h4"
+      }
+    },
+    "context-text": {
+      "type": "Text",
+      "props": {
+        "text": "Supporting channel reply (is_reply=false, no referenced_message), but reads as response to unknown member's technical level/suggestion",
+        "variant": "body"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Chase expresses conviction (\"I just know where things are going usually\") but referent is cryptic",
+        "variant": "body"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read?",
+        "type": "warning"
+      }
+    },
+    "questions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "q1",
+        "q2",
+        "q3"
+      ]
+    },
+    "q1": {
+      "type": "Text",
+      "props": {
+        "text": "• What level/ticker is \"your technicals\" referring to?",
+        "variant": "body"
+      }
+    },
+    "q2": {
+      "type": "Text",
+      "props": {
+        "text": "• What asset/market is this conviction statement about?",
+        "variant": "body"
+      }
+    },
+    "q3": {
+      "type": "Text",
+      "props": {
+        "text": "• Is this related to active positions (MU 70% closed, SNDK 60% closed) or a new market view?",
+        "variant": "body"
+      }
+    },
+    "sep6": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "positions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-heading",
+        "mu",
+        "sndk"
+      ]
+    },
+    "pos-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Related Positions",
+        "level": "h4"
+      }
+    },
+    "mu": {
+      "type": "Text",
+      "props": {
+        "text": "MU: 70% closed",
+        "variant": "body"
+      }
+    },
+    "sndk": {
+      "type": "Text",
+      "props": {
+        "text": "SNDK: 60% closed",
+        "variant": "body"
+      }
+    }
+  }
+}
