@@ -92,6 +92,9 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - Jul 23 15:08Z — trade-new-entry: GOOGL DCA plan — "If Google goes straight to sub-309.5 liquidity, I'll start with 1/3 size. It's going to be a long-term position... If the whole entire market crashes, I'd add the rest of the position at like 250s." Rationale: "boring trade for those who want to build the position in the background", opportunistic dip buying on good company if crash continues, willing to take quick profits on bounce. Discord primary channel (fast-path-alerted). Multi-tranche DCA: 1/3 initial, add-on-crash at 250 [1529867920597975112]
   - Jul 23 14:51Z — informational: Crypto supporting channel — reply explaining capital rotation (Hyperliquid counterparty-risk avoidance, stocks trending "hot"), no personal trade action, silent skip [1529863547348058305]
   - Jul 23 14:47Z — link-share: Discord primary channel — role ping + URL to X post (status 2080303861948924319), non-financial link-share only, silent skip [1529862651864289331]
+- Last seen: 2026-07-24 15:07:48 UTC
+- **Events (rolling):**
+  - Jul 24 15:07Z — informational: Crypto supporting channel — reply to member's BTC lower liquidity question "It did flush the low though"; technical confirmation that lower liq level was swept; member context confirms Kyle's earlier lower liq research tracking [1530230026497425418]
 - Last seen: 2026-07-23 22:10:28 UTC
 - **Events (rolling):**
   - Jul 23 22:10Z — informational: Crypto supporting channel — HYPE market structure skepticism ('can't even market structure breaks to the upside', 'doesn't look good'); technical chart marked up; no personal trade action; fast-path-alerted [1529974005371506699]

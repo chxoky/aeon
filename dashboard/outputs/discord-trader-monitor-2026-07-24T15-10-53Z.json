@@ -1,0 +1,54 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_channel",
+        "text_member_msg",
+        "separator_main",
+        "text_response"
+      ]
+    },
+    "badge_channel": {
+      "type": "Badge",
+      "props": {
+        "text": "💬 Discord: Chase — Crypto"
+      }
+    },
+    "text_member_msg": {
+      "type": "Text",
+      "props": {
+        "text": "↩️ Member: \"saw your tweet on btc wondering since it didn't flush the lower liq you pointed out yet, in your opinion is it still be a valid\"",
+        "variant": "lead"
+      }
+    },
+    "separator_main": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_response": {
+      "type": "Text",
+      "props": {
+        "text": "It did flush the low though",
+        "variant": "body"
+      }
+    }
+  }
+}
