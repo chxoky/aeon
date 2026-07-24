@@ -1,0 +1,133 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Market Context — 2026-07-24"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stack-take",
+        "stack-prices-fg",
+        "stack-breadth-tariffs",
+        "text-narrative",
+        "progress-fed"
+      ]
+    },
+    "stack-take": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-risk",
+        "badge-conviction"
+      ]
+    },
+    "badge-risk": {
+      "type": "Badge",
+      "props": {
+        "text": "risk-off",
+        "variant": "destructive"
+      }
+    },
+    "badge-conviction": {
+      "type": "Badge",
+      "props": {
+        "text": "conviction low",
+        "variant": "outline"
+      }
+    },
+    "stack-prices-fg": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat-btc",
+        "stat-eth",
+        "progress-fg"
+      ]
+    },
+    "stat-btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$65,394",
+        "delta": "−0.3%",
+        "trend": "down"
+      }
+    },
+    "stat-eth": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$1,891",
+        "delta": "−1.76%",
+        "trend": "down"
+      }
+    },
+    "progress-fg": {
+      "type": "Progress",
+      "props": {
+        "value": 28,
+        "max": 100,
+        "label": "F&G (Fear)"
+      }
+    },
+    "stack-breadth-tariffs": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "progress-breadth",
+        "text-tariffs"
+      ]
+    },
+    "progress-breadth": {
+      "type": "Progress",
+      "props": {
+        "value": 3,
+        "max": 20,
+        "label": "Breadth"
+      }
+    },
+    "text-tariffs": {
+      "type": "Text",
+      "props": {
+        "text": "Tariffs live on 60+ partners today",
+        "variant": "body"
+      }
+    },
+    "text-narrative": {
+      "type": "Text",
+      "props": {
+        "text": "Top narrative: tariff overhang (rising)",
+        "variant": "lead"
+      }
+    },
+    "progress-fed": {
+      "type": "Progress",
+      "props": {
+        "value": 74.85,
+        "max": 100,
+        "label": "Fed no change Jul 2026"
+      }
+    }
+  }
+}
