@@ -1,0 +1,371 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-07-24"
+      },
+      "children": [
+        "focus-heading",
+        "focus-container",
+        "sep1",
+        "yesterday-heading",
+        "yesterday-container",
+        "sep2",
+        "watch-heading",
+        "watch-container",
+        "sep3",
+        "running-heading",
+        "running-table"
+      ]
+    },
+    "focus-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus Today",
+        "level": "h2"
+      }
+    },
+    "focus-container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus-item-1",
+        "focus-item-2",
+        "focus-item-3"
+      ]
+    },
+    "focus-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-1-title",
+        "focus-1-desc"
+      ]
+    },
+    "focus-1-title": {
+      "type": "Text",
+      "props": {
+        "text": "HCH $CL short (07:35Z this morning)",
+        "variant": "lead"
+      }
+    },
+    "focus-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Why now: crude momentum stalling at peak; window for entry thesis is live",
+        "variant": "body"
+      }
+    },
+    "focus-item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-2-title",
+        "focus-2-desc"
+      ]
+    },
+    "focus-2-title": {
+      "type": "Text",
+      "props": {
+        "text": "Chase GOOGL DCA (pending since Jul 23)",
+        "variant": "lead"
+      }
+    },
+    "focus-2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Why now: Google earnings risk is live; decide before the event",
+        "variant": "body"
+      }
+    },
+    "focus-item-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-3-title",
+        "focus-3-desc"
+      ]
+    },
+    "focus-3-title": {
+      "type": "Text",
+      "props": {
+        "text": "bull_genius BTC LONG (pending since Jul 23 ~65K)",
+        "variant": "lead"
+      }
+    },
+    "focus-3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Why now: FOMC no-change at 75% + higher low forming; entry window narrowing before Jul 28-29",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "yesterday-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Since Yesterday",
+        "level": "h2"
+      }
+    },
+    "yesterday-container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "yesterday-hch",
+        "yesterday-chase",
+        "yesterday-bull",
+        "yesterday-killa",
+        "yesterday-wild"
+      ]
+    },
+    "yesterday-hch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday-hch-label",
+        "yesterday-hch-text"
+      ]
+    },
+    "yesterday-hch-label": {
+      "type": "Badge",
+      "props": {
+        "text": "HCH"
+      }
+    },
+    "yesterday-hch-text": {
+      "type": "Text",
+      "props": {
+        "text": "Added $CL 2% short above $90 (new ticker; crude oil exhaustion thesis, Iran news not pushing price higher)",
+        "variant": "body"
+      }
+    },
+    "yesterday-chase": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday-chase-label",
+        "yesterday-chase-text"
+      ]
+    },
+    "yesterday-chase-label": {
+      "type": "Badge",
+      "props": {
+        "text": "Chase"
+      }
+    },
+    "yesterday-chase-text": {
+      "type": "Text",
+      "props": {
+        "text": "SNDK: trimmed 10% at 1675 (60% total closed); MU: 40% still open, watching 1035 target",
+        "variant": "body"
+      }
+    },
+    "yesterday-bull": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday-bull-label",
+        "yesterday-bull-text"
+      ]
+    },
+    "yesterday-bull-label": {
+      "type": "Badge",
+      "props": {
+        "text": "bull_genius"
+      }
+    },
+    "yesterday-bull-text": {
+      "type": "Text",
+      "props": {
+        "text": "BTC \"joyful july\" reaffirmation; 7d RVWAP + POC higher low forming at ~65K",
+        "variant": "body"
+      }
+    },
+    "yesterday-killa": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday-killa-label",
+        "yesterday-killa-text"
+      ]
+    },
+    "yesterday-killa-label": {
+      "type": "Badge",
+      "props": {
+        "text": "KillaXBT"
+      }
+    },
+    "yesterday-killa-text": {
+      "type": "Text",
+      "props": {
+        "text": "Conviction philosophy post (\"accounts with receipts\"); structural bull conviction unchanged",
+        "variant": "body"
+      }
+    },
+    "yesterday-wild": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday-wild-label",
+        "yesterday-wild-text"
+      ]
+    },
+    "yesterday-wild-label": {
+      "type": "Badge",
+      "props": {
+        "text": "Wild_Randomness"
+      }
+    },
+    "yesterday-wild-text": {
+      "type": "Text",
+      "props": {
+        "text": "SPY July-2024 fractal repeat hypothesis + HYPE spot re-added (partial)",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "watch-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "watch-container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "watch-tariffs",
+        "watch-clarity"
+      ]
+    },
+    "watch-tariffs": {
+      "type": "Alert",
+      "props": {
+        "title": "Tariffs live today",
+        "message": "10-12.5% on 60 partners — BTC macro headwind; has not caused cascade yet but FOMC risk compounds",
+        "type": "warning"
+      }
+    },
+    "watch-clarity": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "watch-clarity-title",
+        "watch-clarity-text"
+      ]
+    },
+    "watch-clarity-title": {
+      "type": "Text",
+      "props": {
+        "text": "Clarity Act: Bessent \"1-yard line\"",
+        "variant": "lead"
+      }
+    },
+    "watch-clarity-text": {
+      "type": "Text",
+      "props": {
+        "text": "First clean regulatory catalyst this cycle if it passes",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "running-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Running Today",
+        "level": "h2"
+      }
+    },
+    "running-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Task",
+          "Time"
+        ],
+        "rows": [
+          [
+            "token-alert",
+            "12:00 UTC"
+          ],
+          [
+            "token-movers",
+            "12:00 UTC"
+          ],
+          [
+            "market-context-refresh",
+            "13:00 UTC"
+          ],
+          [
+            "narrative-tracker",
+            "13:30 UTC"
+          ],
+          [
+            "heartbeat",
+            "08:00, 14:00, 20:00 UTC"
+          ],
+          [
+            "skill-health",
+            "18:00 UTC"
+          ]
+        ]
+      }
+    }
+  }
+}

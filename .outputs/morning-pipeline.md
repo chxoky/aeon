@@ -1,19 +1,20 @@
-*Morning Brief — 2026-07-22*
+*Morning Brief — 2026-07-24*
 
 *Focus today*
-1. Chase SNDK/MU mirrors — BofA raised MU to Buy/$1,550; Chase TP'd 75% of MU + 50% SNDK; remaining position with BE stops — decide now or the window closes.
-2. Wild_Randomness ETH short — ETH at $1,920 and sliding today (−1.0%); WR said he caught a "pico top short for $120" but never confirmed closed — live vs. closed still unresolved; if open, it's in profit.
-3. Pre-FOMC positioning — BTC flipped −0.43% today after a 5-day rally; chop regime, $65K is key support; FOMC in 6 days (Jul 28-29) with 14% odds of a 25bps hike vs yesterday's 14.5% — stay liquid.
+1. HCH $CL short (07:35Z this morning) — why now: crude momentum stalling at peak; window for entry thesis is live
+2. Chase GOOGL DCA (pending since Jul 23) — why now: Google earnings risk is live; decide before the event
+3. bull_genius BTC LONG (pending since Jul 23 ~65K) — why now: FOMC no-change at 75% + higher low forming; entry window narrowing before Jul 28-29
 
 *Since yesterday*
-- Chase closed 75% of MU (930/956/991) + 50% SNDK (1533); BE stops on remainder
-- Wild_Randomness closed MRVL/INTC/NBIS momentum shorts +8–22%; TSM/FLEX long kept
-- Market flipped mildly red today (BTC −0.43%, median large-cap −0.42% 24h)
-- GRAM narrative downgraded from rising to peak (day-3 +2.9%, 7d −6.6%)
-- t_in_crypto suppression rule active (7+ cryptic posts in 5 days; now silent by default)
+- HCH: added $CL 2% short above $90 (new ticker; crude oil exhaustion thesis, Iran news not pushing price higher)
+- Chase SNDK: trimmed 10% at 1675 (60% total closed); MU: 40% still open, watching 1035 target
+- bull_genius: BTC "joyful july" reaffirmation; 7d RVWAP + POC higher low forming at ~65K
+- KillaXBT: conviction philosophy post ("accounts with receipts"); structural bull conviction unchanged
+- Wild_Randomness: SPY July-2024 fractal repeat hypothesis + HYPE spot re-added (partial)
 
 *Watch*
-- UK CPI data today: WTI crude above $85 raises odds of a hot print → FOMC +25bps risk (14%) could widen
+- Tariffs live today (10-12.5% on 60 partners) — BTC macro headwind; has not caused cascade yet but FOMC risk compounds
+- Clarity Act: Bessent "1-yard line" — first clean regulatory catalyst this cycle if it passes
 
 *Running today*
 - token-alert @ 12:00 UTC

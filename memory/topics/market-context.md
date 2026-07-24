@@ -50,6 +50,58 @@ Total: ~$280B (flat). USDT $183.98B · USDC $73.92B · USDS $6.66B · DAI $4.86B
 - ZAMA — #236, $0.053, +7.58% 24h. AI microcap; decelerating from +25.92% yesterday.
 - BTC — #1, $65,405, −0.25% 24h. Trending on tariff/macro headline watch.
 - ETH — #2, $1,890, −1.66% 24h. Underperforming BTC on tariff day.
+> **Take:** chop — BTC near flat (−0.31% 24h, $65,394) with breadth at 34/100 green as new tariffs (Trump 10-12.5% on 60 partners) create macro headwind, partially offset by FOMC no-change odds recovering to 75% (+3.75pp from yesterday's low of 71.2%). Conviction: medium (FOMC repricing and ETF bid pulling up; tariffs and F&G at 28 pulling down — signals split).
+
+## Signal Snapshot
+- BTC $65,394 (−0.31% 24h, +4.0% 7d) · dominance 56.76% (+0.17pp 24h)
+- ETH $1,891 (−1.76% 24h, +3.3% 7d) · ETH/BTC 0.02891
+- SOL $75.84 (−1.97% 24h)
+- Total mcap $2.31T (−0.61% 24h) · DEX vol $6.63B 24h
+- Breadth: 34/100 green 24h · median top-50 −0.65%
+- Fear & Greed: 28 (Fear) — yesterday 31 (Fear)
+
+## What Changed Since Last Refresh
+- **FOMC no-change rebounded to 74.95% (+3.75pp)** — hawkish repricing partially reversed after two sessions of pressure (71.2% was yesterday's low); +25bps now at 24.4% (down from 28.8%). Dominant regime signal improved but FOMC Jul 28-29 remains binary gate.
+- **New tariffs took effect today (Trump 10-12.5% on 60 trading partners)** — risk-off macro headwind; BTC pulled from $64.8K low yesterday to $65.4K but 24h print still red.
+- **F&G deepened to 28 (−3 pts)** — fear increasing despite BTC price recovery; sentiment divergence from price = positioning uncertainty, not capitulation.
+- **BTC ETF inflow streak continues (~day 8, ~$1B+ total)** — institutional bid persisting through hawkish macro; most recent data confirms 7-day streak at $981M through Jul 22; today's print not yet confirmed.
+- **Clarity Act: Bessent "1-yard line"** — Treasury Secretary stated lawmakers near passing Clarity Act (Jul 22); potential bullish regulatory catalyst for crypto sector.
+- **BANK/Lorenzo Protocol absent from trending** — was day-2 trending (+38%) yesterday; not present today. BTC-fi narrative momentum stalled.
+
+## Active Narratives
+- **FOMC hawkish uncertainty** — phase: peak-then-repricing. Evidence: no-change bounced to 74.95% after dipping to 71.2%; +25bps at 24.4% (down 4.4pp session). FOMC Jul 28-29 still binary gate — sub-$64K before meeting opens $62-63K path.
+- **Clarity Act / crypto regulation** — phase: emerging. Evidence: Bessent "1-yard line" Jul 22 + OCC GENIUS Act comment period closed Jul 24; first session with confirmed legislative catalyst framing.
+- **DEXE capitulation** — phase: fading (terminal). Evidence: day 7 of collapse, −33.3% today (was −35.7% yesterday), still trending; distress search traffic driving volume, not accumulation.
+- **Low-cap pump rotation (PONS, AKE, CASHCAT)** — phase: emerging. Evidence: 3 new low-cap tokens (+24–44%) simultaneously trending with no common fundamental; typical late-cycle micro-rotation pattern.
+- **AI/compute basket (ZAMA)** — phase: rising (narrowing). Evidence: ZAMA still trending #3 (+7.6% today vs +25.9% yesterday); KAITO absent from today's trending — basket narrowing from 3 tokens to 1 lead.
+- **BTC ETF institutional bid** — phase: rising (counter-trend). Evidence: 7-day inflow streak at ~$981M total (through Jul 22); persisting against tariff and FOMC headwinds = structural buy not momentum.
+
+## Top DeFi Protocols (TVL, 7d change)
+- Lido: $17.72B (+5.65%)
+- Aave V3: $13.82B (+3.50%)
+- Morpho Blue: $7.5B (+2.28%) [carried from prior snapshot]
+- WBTC: $7.5B (+1.45%) [carried from prior snapshot]
+- Binance Staked ETH: $7.1B (+2.04%) [carried from prior snapshot]
+
+## Chain Flow (top 5 by TVL)
+- Ethereum: $41.54B (flat vs prior)
+- Solana: $4.90B (flat)
+- Tron: $4.85B (flat)
+- BSC: $4.84B (flat)
+- Base: $4.63B (flat)
+*All chains flat — consistent with pre-FOMC wait-and-see positioning.*
+
+## Stablecoins
+Total: ~$273.7B (flat). USDT $184.0B · USDC $73.9B · USDS $6.7B · DAI $4.9B · USD1 $4.2B — combined share of total mcap ~11.9%.
+
+## Trending (CoinGecko)
+- DEXE — #249, $2.31, −33.3% 24h. Day 7 capitulation; distress traffic, avoid.
+- PONS — #586, $0.041, +44.3% 24h. Low-cap pump, PUMP-RISK.
+- ZAMA — #236, $0.053, +7.6% 24h. AI/compute; narrowing leader.
+- BTC — #1, $65,405, −0.25% 24h. Trending on tariff/FOMC watch.
+- AKE (Akedo) — #404, $0.00236, +24.7% 24h. Low-cap pump, PUMP-RISK.
+- CASHCAT — #390, $0.058, +24.8% 24h. Low-cap pump, PUMP-RISK.
+- ETH — #2, $1,890, −1.7% 24h.
 
 ## Prediction Markets (Polymarket, top by 24h vol)
 | Market | YES% | 24h Vol | Liquidity |
@@ -68,6 +120,20 @@ Total: ~$280B (flat). USDT $183.98B · USDC $73.92B · USDS $6.66B · DAI $4.86B
 ## Implications for Downstream Skills
 - **token-pick:** Do not initiate new positions — tariffs live + FOMC Jul 28-29 double gate. Hold through only if BTC $65K holds intraday. CASHCAT (3 trader mentions, +24.77%) has cross-trader signal but pump characteristics; wait for a consolidation entry if narrative builds post-FOMC. DEXE, PONS, AKE = noise/avoid.
 - **narrative-tracker:** Tariff impact is primary new signal — watch BTC $65K vs daily close (holds = institutional floor confirmed; breaks = test of $62–63K risk-off path). Regulatory clarity (Clarity Act) is the sleeper catalyst — monitor Bessent/Congressional statements. FOMC no-change pricing reversal (74.85%) needs confirmation through weekend before calling hawkish risk resolved.
+| Fed no change after July 2026 meeting | 74.95% | $1.14M | $0.37M |
+| Fed +25bps after July 2026 meeting | 24.45% | $0.50M | $0.30M |
+| Israel x Iran ceasefire continues through July 25 | 77.5% | $0.38M | $0.05M |
+
+*FOMC: no-change recovered to 74.95% (+3.75pp), reversing two sessions of hawkish repricing. +25bps at 24.4% (peak was 28.8% yesterday). Geopolitical: Strait of Hormuz returns to normal by Jul 31 = 0.75% YES (effectively zero) — crude supply disruption priced in; relevant to HCH's $CL short thesis (price stalling at peak despite bearish news = exhaustion).*
+
+## Macro Catalysts (next 5 days)
+- **FOMC Jul 28-29 (primary):** No-change at 75% (recovered from 71.2%), +25bps at 24.4%. BTC rangebound $64K–$66K ahead of meeting. Breach below $64K before FOMC opens $62-63K path.
+- **Trump tariffs (live today):** 10-12.5% on 60 trading partners — macro risk-off headwind, dampening broader risk appetite but not yet triggering crypto cascade.
+- **Clarity Act (regulatory upside):** Bessent "1-yard line"; passage would be bullish catalyst for institutional crypto participation. Watch for Senate floor vote timing.
+
+## Implications for Downstream Skills
+- **token-pick:** Hold off new entries until FOMC resolves (Jul 29). BEAT [BREAKOUT] is the only clean momentum signal today but thin volume ($21.3M) limits sizing. Avoid DEXE, PONS/AKE/CASHCAT (PUMP-RISK or terminal crash).
+- **narrative-tracker:** FOMC repricing partially reversed — watch whether no-change holds above 75% (bullish stabilization) or resumes descent below 70% (resume risk-off). Clarity Act passage timeline is the new emerging signal to track.
 
 ## Token Picks Made
 | Date | Token | Price | Thesis |
