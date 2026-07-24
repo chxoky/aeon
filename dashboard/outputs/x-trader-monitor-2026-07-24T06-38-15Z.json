@@ -1,0 +1,192 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration — @swarmister"
+      },
+      "children": [
+        "event-info",
+        "separator-1",
+        "tweet-card",
+        "separator-2",
+        "context-section",
+        "separator-3",
+        "analysis-section"
+      ]
+    },
+    "event-info": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event-label",
+        "timestamp-label"
+      ]
+    },
+    "event-label": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to @damskotrades",
+        "variant": "body"
+      }
+    },
+    "timestamp-label": {
+      "type": "Text",
+      "props": {
+        "text": "2026-07-24 06:33:42 UTC",
+        "variant": "caption"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "@swarmister",
+        "text": "@damskotrades 2/3 summer…"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context-heading",
+        "context-details"
+      ]
+    },
+    "context-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Position Context",
+        "level": "h3"
+      }
+    },
+    "context-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context-1",
+        "context-2",
+        "context-3"
+      ]
+    },
+    "context-1": {
+      "type": "Text",
+      "props": {
+        "text": "swarmister entered BTC long at 2/3 of intended volume on Jul 17",
+        "variant": "body"
+      }
+    },
+    "context-2": {
+      "type": "Stat",
+      "props": {
+        "label": "Target price",
+        "value": "70.7K"
+      }
+    },
+    "context-3": {
+      "type": "Text",
+      "props": {
+        "text": "This post references \"2/3\" again",
+        "variant": "muted"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis-heading",
+        "analysis-question",
+        "interpretation-badges",
+        "status-alert"
+      ]
+    },
+    "analysis-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Interpretation",
+        "level": "h3"
+      }
+    },
+    "analysis-question": {
+      "type": "Text",
+      "props": {
+        "text": "Is this a reiteration of position sizing theme, market observation on summer seasonality, or personal banter?",
+        "variant": "body"
+      }
+    },
+    "interpretation-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-1",
+        "badge-2",
+        "badge-3"
+      ]
+    },
+    "badge-1": {
+      "type": "Badge",
+      "props": {
+        "text": "Reiteration of position sizing theme",
+        "variant": "outline"
+      }
+    },
+    "badge-2": {
+      "type": "Badge",
+      "props": {
+        "text": "Market observation on summer seasonality",
+        "variant": "outline"
+      }
+    },
+    "badge-3": {
+      "type": "Badge",
+      "props": {
+        "text": "Personal banter",
+        "variant": "outline"
+      }
+    },
+    "status-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification Status",
+        "message": "Unable to classify — awaiting your read",
+        "type": "info"
+      }
+    }
+  }
+}
