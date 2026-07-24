@@ -1,0 +1,127 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Skill Health"
+      },
+      "children": [
+        "date_heading",
+        "health_status",
+        "separator1",
+        "no_data_status",
+        "healthy_status",
+        "separator2",
+        "issues_row"
+      ]
+    },
+    "date_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "2026-07-24",
+        "level": "h3"
+      }
+    },
+    "health_status": {
+      "type": "Text",
+      "props": {
+        "text": "HEALTH: OK",
+        "variant": "lead"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "no_data_status": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "no_data_badge",
+        "no_data_count",
+        "no_data_text"
+      ]
+    },
+    "no_data_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "NO DATA",
+        "variant": "secondary"
+      }
+    },
+    "no_data_count": {
+      "type": "Text",
+      "props": {
+        "text": "(1)"
+      }
+    },
+    "no_data_text": {
+      "type": "Text",
+      "props": {
+        "text": "trader-memory-compact — DISPATCH-SKILL"
+      }
+    },
+    "healthy_status": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "healthy_badge",
+        "healthy_count"
+      ]
+    },
+    "healthy_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "HEALTHY",
+        "variant": "default"
+      }
+    },
+    "healthy_count": {
+      "type": "Text",
+      "props": {
+        "text": "7"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "issues_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "open_issues_stat",
+        "resolved_stat"
+      ]
+    },
+    "open_issues_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Open issues",
+        "value": "0"
+      }
+    },
+    "resolved_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Resolved this run",
+        "value": "0"
+      }
+    }
+  }
+}
