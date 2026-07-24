@@ -24,9 +24,9 @@ This is a personal social post with no market signal. Stoiiic's profile indicate
 **Result:** Silent completion — no Kyle notification, just logged and marked as seen.
 🔍 *Calibration — @Stoiiic*
 
-Event: Reply to @JordiCharts
+Event: Standalone post, no visible context
 
-Stoiiic: "its just spot cb, binance and kraken"
+@Stoiiic: "will report back on findings."
 
 Unable to classify — what's your read? Is this:
 - Exchange availability for something?
@@ -35,3 +35,4 @@ Unable to classify — what's your read? Is this:
 
 https://x.com/Stoiiic/status/2080508660279554183
 The tweet was processed and archived without any notification to Kyle, as per the skill's non-financial classification rules.
+Unable to classify — market-related research, or personal banter?

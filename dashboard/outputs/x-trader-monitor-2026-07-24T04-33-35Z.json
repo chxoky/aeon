@@ -1,0 +1,86 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-calib",
+        "sep1",
+        "event-badge",
+        "sep2",
+        "tweet",
+        "sep3",
+        "alert-classify"
+      ]
+    },
+    "heading-calib": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration — @Stoiiic",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "event-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Event: Standalone post, no visible context",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "Stoiiic",
+        "text": "will report back on findings."
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert-classify": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Market-related research, or personal banter?",
+        "type": "warning"
+      },
+      "children": []
+    }
+  }
+}
