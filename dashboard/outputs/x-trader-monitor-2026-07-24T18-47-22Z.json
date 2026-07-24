@@ -1,0 +1,65 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @Wild_Randomness"
+      },
+      "children": [
+        "eventBadge",
+        "sep1",
+        "tweetCard",
+        "sep2",
+        "readQuestion",
+        "clarifyQuestions",
+        "tweetLink"
+      ]
+    },
+    "eventBadge": {
+      "type": "Badge",
+      "props": {
+        "text": "Reply to @Evan_ss6",
+        "variant": "outline"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "tweetCard": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Faded? @Evan_ss6"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "readQuestion": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "lead"
+      }
+    },
+    "clarifyQuestions": {
+      "type": "Text",
+      "props": {
+        "text": "Did @Evan_ss6 fade in/out? Which ticker/trade?",
+        "variant": "body"
+      }
+    },
+    "tweetLink": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/Wild_Randomness/status/2080725249558298805"
+      }
+    }
+  }
+}
