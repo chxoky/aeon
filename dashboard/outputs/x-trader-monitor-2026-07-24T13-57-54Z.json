@@ -1,0 +1,41 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_update",
+        "link_details"
+      ]
+    },
+    "tweet_update": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Bull_genius",
+        "handle": "bull_genius",
+        "text": "BTC stopped at breakeven. Position awaiting approval never mirrored. Waiting for strength to reenter."
+      }
+    },
+    "link_details": {
+      "type": "Link",
+      "props": {
+        "label": "Full details",
+        "href": "https://x.com/bull_genius/status/2080652203056840909"
+      }
+    }
+  }
+}
