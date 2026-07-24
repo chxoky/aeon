@@ -1,0 +1,60 @@
+{
+  "root": "card_1",
+  "state": {},
+  "elements": {
+    "card_1": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_1"
+      ]
+    },
+    "stack_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_1",
+        "link_1",
+        "sep_1",
+        "text_1"
+      ]
+    },
+    "tweet_1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "Well... the starter $CL shorts are off to a promising start"
+      },
+      "children": []
+    },
+    "link_1": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/HeartCanHodl/status/2080692761993605275"
+      },
+      "children": []
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text_1": {
+      "type": "Text",
+      "props": {
+        "text": "Starter $CL short entry was 07:32Z this morning (2% pf above $90). Nasdaq chart shows intraday bounce recovery—ambiguous sentiment on whether shorts are winning or being tested by risk-on rally.",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
