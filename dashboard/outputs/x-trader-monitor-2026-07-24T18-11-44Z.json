@@ -1,0 +1,38 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet",
+        "separator",
+        "link"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "🔁 Position Closed\n\nClosed all Aug 21 crypto puts this morning.\n\nBTC structure analysis: Support 60-62k, resistance 68k, OI declining (liquidations), heatmap shows concentrated liquidity zones.\n\nTrader commentary: \"I wouldn't chase a pre-fomc grind up though, personally\""
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2080716681547337795"
+      }
+    }
+  }
+}
