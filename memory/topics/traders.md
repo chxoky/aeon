@@ -321,8 +321,9 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - Jul 23 12:39:45Z — informational: BTC/ETH liquidation flows screenshot ("Bait" trap) supporting active short thesis [2080271647836381617]
   - Jul 23 19:51Z — informational: BTC ETH ZEC liquidation cascade; gaps closing fast [2080380380398379105]
   - Jul 24 07:32Z — trade-new-entry: $CL Crude Oil short 2% portfolio at breakout region, new ticker for HCH short basket, primary Trades channel [1530115391878070292]
-- Last seen: 2026-07-24 07:35:07 UTC
+- Last seen: 2026-07-24 08:28:18 UTC
 - **Events (rolling):**
+  - Jul 24 08:28Z — informational: X post with 4h CL chart confirming bearish momentum exhaustion thesis; peak 93.50→90.45 pullback shows "uneasy upside" pattern validating CL short entry from 53min prior Discord message [2080570756363341955]
   - Jul 24 07:35Z — trade-new-entry: CL (Crude Oil) 2% pf short above $90; eighth ticker in documented short constellation [1530116103253135480]
 
 ## Wild_Randomness
