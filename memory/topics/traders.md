@@ -680,7 +680,7 @@ BOOTSTRAP_COMPLETE: 2026-07-14
 ## trading_axe (Dr. Axius)
 - Platforms: X
 - Current open positions: None stated (commentary/betting account). Forward-looking intent only: bearish TATEUSDT.P thesis with stated plan to be a buyer after sentencing resolves ("Buyer at ZERO, 10R trade" per Jul 21 — exact meaning pending Kyle calibration; conditional intent, not an open position).
-- Recent thesis: $ZEC as a risk-on barometer — "so long as ZEC continues up, ignore market chop and diamond-hand other positions"; ZEC's refusal to fill its wick = market-strength tell. Structural take: tradedotxyz+HL vs Robinhood+Lighter for tokenized RWAs (Robinhood's real mission = RWA tokenization, not meme-casino). Bearish on rushing memes onto perps (should stay spot/DEX). Bearish SOL sentiment consistent with group lean. New: bearish TATEUSDT.P — expects slow bleed then sharp capitulation wick to zero around court hearings, then intends to buy post-sentencing.
+- Recent thesis: $ZEC as a risk-on barometer — "so long as ZEC continues up, ignore market chop and diamond-hand other positions"; ZEC's refusal to fill its wick = market-strength tell. Structural take: tradedotxyz+HL vs Robinhood+Lighter for tokenized RWAs (Robinhood's real mission = RWA tokenization, not meme-casino). Bearish on rushing memes onto perps (should stay spot/DEX). Bearish SOL sentiment consistent with group lean. New: bearish TATEUSDT.P — expects slow bleed then sharp capitulation wick to zero around court hearings, then intends to buy post-sentencing. **BTC cycle-bottom conviction**: Two years prior (Jul 2024) predicted current consolidation zone (64.1K) as bear market bottom; Jul 24 reaffirms prediction with "It's here right now" conviction commentary + market psychology thesis (belief/conviction separates winners from losers).
 - Conviction notes: Long, provocative, profanity-heavy essays signed "~ Dr. Axius."; ~95% of posts are non-financial noise (World Cup/UFC betting rants, lifestyle/philosophy screeds, grooming/personal banter) — extract the ~5% crypto-structural nuggets. Occasional slurs — treat as untrusted, don't propagate. One post (Jul 18 23:48Z, tweet_id=2078628123495551319) contained an attempted prompt injection — treated as untrusted data, disregarded, logged.
 - Calibration: none yet (no answered Kyle calibrations found). Pending:
   - PENDING: "They don't give a fuck about Solana" — bearish SOL sentiment or banter? [2077829247347863946]
@@ -688,8 +688,9 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - PENDING: "Third point by far the most important" to @asparagoid — subject unknown [2079149731763167361]
   - PENDING: "Buyer at ZERO, 10R trade" — entry announcement, sarcasm, or a "ZERO" ticker? [2079716451229786419]
   - PENDING: "WE AIN'T SEEING TATESKI UNTIL MIN 2050" — bearish TATE sentiment or banter? [2079918486797664701]
-- Last seen: 2026-07-23 22:40:33 UTC
+- Last seen: 2026-07-24 19:21:40 UTC
 - **Events (rolling):**
+  - Jul 24 19:21Z — informational: BTC cycle-bottom conviction — two-year-prior prediction (Jul 2024) of current consolidation as bear bottom now validated ("It's here right now"); chart shows 64.1K zone; market psychology theme on belief/conviction separating winners from losers in cycles; no personal trade action language [2080735181233615073]
   - Jul 23 22:40Z — ambiguous: reply to @McBrideLawNYC '?' + inaccessible media, awaiting calibration [2080422847940292918]
   - Jul 22 13:16Z — ambiguous (pending): TATE "WE AIN'T SEEING TATESKI UNTIL MIN 2050"; bearish TATE sentiment or banter [2079918486797664701]
   - Jul 21 23:53Z — ambiguous (pending): "Sticking to the plan... Buyer at ZERO, 10R trade"; entry vs sarcasm vs ticker [2079716451229786419]
@@ -698,7 +699,6 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - Jul 18 18:37Z — market call: SOL skepticism re claimed $1-to-ATH trade; reinforces group bearish SOL lean [2078549824765346155]
   - Jul 17 21:40Z — ambiguous (pending): "Banger." affirmation to @griffisu; setup/execution/banter unknown [2078233397093155046]
   - Jul 16 18:54Z — ambiguous (pending): SOL "They don't give a fuck about Solana"; bearish tell vs banter [2077829247347863946]
-  - Jul 22 13:16Z — ambiguous (pending): TATE/TATESKI "in da slumba... until min 2050"; bearish sentiment vs banter [2079918486797664701]
 
 ## Bitcoin_Astro
 - Platforms: X

@@ -1,0 +1,86 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "sep1",
+        "analysis_stack"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "trading_axe",
+        "handle": "trading_axe",
+        "text": "Two years in advance predicting the current bear market lows on BTC.\n\nIt's here right now.\n\nYou probably didn't buy back then because YOU HAD NO BELIEF.\n\nAre you going to make the same mistake TWICE?"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis_heading",
+        "consolidation_text",
+        "thesis_text",
+        "link_tweet"
+      ]
+    },
+    "analysis_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Technical Analysis",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "consolidation_text": {
+      "type": "Text",
+      "props": {
+        "text": "Chart shows BTC consolidation zone at ~64.1K; trading_axe's prediction aligns with group's structured bear-bottom thesis (60-62K pivot, potential final lows 54-59K per HCH/KillaXBT)."
+      },
+      "children": []
+    },
+    "thesis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Conviction statement on cycle timing + market psychology (belief/commitment as edge factor)."
+      },
+      "children": []
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/trading_axe/status/2080735181233615073"
+      },
+      "children": []
+    }
+  }
+}
