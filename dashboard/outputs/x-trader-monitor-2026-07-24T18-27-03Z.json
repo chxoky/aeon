@@ -1,0 +1,129 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @Wild_Randomness",
+        "description": "x-trader-monitor"
+      },
+      "children": [
+        "content-stack"
+      ]
+    },
+    "content-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "context-section",
+        "tweet-section",
+        "chart-section",
+        "classification-section",
+        "link-section"
+      ]
+    },
+    "context-section": {
+      "type": "Text",
+      "props": {
+        "text": "Likely reply to external trader's BE call",
+        "variant": "muted"
+      }
+    },
+    "tweet-section": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Good decision lmao"
+      }
+    },
+    "chart-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "chart-label",
+        "chart-stats-container",
+        "chart-note"
+      ]
+    },
+    "chart-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Bloom Energy daily chart",
+        "level": "h3"
+      }
+    },
+    "chart-stats-container": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-price",
+        "stat-change"
+      ]
+    },
+    "stat-price": {
+      "type": "Stat",
+      "props": {
+        "label": "Current Price",
+        "value": "$232.77"
+      }
+    },
+    "stat-change": {
+      "type": "Stat",
+      "props": {
+        "label": "Change",
+        "value": "-4.84%",
+        "trend": "down"
+      }
+    },
+    "chart-note": {
+      "type": "Badge",
+      "props": {
+        "text": "Support/resistance marked",
+        "variant": "outline"
+      }
+    },
+    "classification-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "q-text-1",
+        "q-text-2"
+      ]
+    },
+    "q-text-1": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "body"
+      }
+    },
+    "q-text-2": {
+      "type": "Text",
+      "props": {
+        "text": "Validating which BE action/level?",
+        "variant": "body"
+      }
+    },
+    "link-section": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/Wild_Randomness/status/2080719626774905326"
+      }
+    }
+  }
+}
