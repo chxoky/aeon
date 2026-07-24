@@ -1,0 +1,68 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet-card",
+        "view-link",
+        "separator-1",
+        "analysis-section"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "Has everyone suddenly forgotten that $BTC made a new ATH before the halving last cycle?\n\nThe cycle has accelerated. $BTC will make a new ATH pre-halving this cycle as well.\n\nWhich means bottoms will form quicker & so will tops."
+      },
+      "children": []
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2080685139227500745"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis-heading",
+        "analysis-text"
+      ]
+    },
+    "analysis-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart Analysis",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "analysis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Historical comparison shows 833D (2012) → 735D (2016) → 476D (2024) from bottom to break new ATH. Current cycle reached ATH faster than the previous 2, validating the acceleration thesis."
+      },
+      "children": []
+    }
+  }
+}
