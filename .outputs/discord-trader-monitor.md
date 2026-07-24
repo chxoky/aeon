@@ -32,3 +32,30 @@ Perfect! I've successfully executed the discord-trader-monitor skill for the HCH
 - $CL is HCH's 8th documented short ticker (BTC, ETH, SOL, HYPE, ZEC, UNI, VVV + CL)
 - Execution language clear + portfolio-sized = HIGH CONVICTION entry
 - No calibration needed (ticker explicit, size explicit, channel context clear)
+Perfect! I've successfully processed the Discord trade event. Here's what was completed:
+
+## Summary
+
+**discord-trader-monitor Real-Time Event — 2026-07-24 07:35:07 UTC**
+
+| Field | Value |
+|-------|-------|
+| **Trader** | HeartCanHodl |
+| **Channel** | 1279738718680256553 (HCH — Trades, ★most important) |
+| **Message** | "1x CL 2% pf short above $90" |
+| **Classification** | TRADE-NEW-ENTRY (5a) |
+| **Ticker** | CL (Crude Oil) |
+| **Size** | 2% portfolio |
+| **Direction** | SHORT above $90 |
+| **Status** | FAST-PATH ALERTED (Cloudflare Worker sent Telegram ~2-5s post) |
+
+**Actions Completed:**
+
+1. ✅ **Decoded event** — Base64 JSON processed, all required fields validated
+2. ✅ **Resolved trader & channel** — HeartCanHodl / HCH — Trades (primary, verbatim rule applies)
+3. ✅ **Classified trade** — New CL short entry with explicit size & trigger level
+4. ✅ **Updated traders.md** — HCH section: Added CL 2% to open positions, raised basket allocation from ~38-42% → ~40-44%, added event line to rolling log
+5. ✅ **Tracked message ID** — 1530116103253135480 recorded in discord-trader-seen.txt
+6. ✅ **Logged event** — Full entry added to memory/logs/2026-07-24.md with processing details
+
+**Next Action:** Kyle confirmation needed on whether to mirror CL short on Kraken (`approve CL` or `ignore CL`). Trade signal is now the 8th ticker in HCH's documented short constellation (BTC/ETH/SOL/HYPE/ZEC/UNI/VVV/CL).
