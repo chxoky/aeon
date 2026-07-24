@@ -1,0 +1,77 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading-calibration",
+        "text-event",
+        "separator-1",
+        "tweet-post",
+        "alert-media",
+        "separator-2",
+        "text-classify",
+        "link-view"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration — @Wild_Randomness",
+        "level": "h2"
+      }
+    },
+    "text-event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: URL-only post, no caption"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-post": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "https://t.co/ypibM9SLY7"
+      }
+    },
+    "alert-media": {
+      "type": "Alert",
+      "props": {
+        "title": "Media Inaccessible",
+        "message": "CDN expired — unable to determine what this post refers to.",
+        "type": "warning"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-classify": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "lead"
+      }
+    },
+    "link-view": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2080717066395676842"
+      }
+    }
+  }
+}
