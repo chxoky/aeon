@@ -1,12 +1,8 @@
 HEARTBEAT_OK · STATUS_PAGE=WATCH
 
-## Summary
-
-**14:00 UTC heartbeat complete.** All checks passed:
-
-- **P0:** Fleet fully healthy — no failed, stuck, or degraded skills. X webhook WATCHED_TRADERS rule confirmed active (live monitor traffic at 13:58 UTC). Heartbeat self-check ok (~5.5h since last success).
-- **P1:** No open PRs, no urgent issues.
-- **P2:** No flagged memory items.
-- **P3:** `trader-memory-compact` still never dispatched — dedup applies (already notified Jul 23 20:00 UTC). `chain:morning-pipeline` **recovered** — ran successfully at 09:08 UTC today after the stall caught in this morning's run.
-
-**No notification sent** (all P3 items are within the 48h dedup window). `docs/status.md` regenerated as 🟡 WATCH, reflecting the trader-memory-compact never-dispatched condition and the recovered chain.
+**20:00 UTC run summary:**
+- **P0** — All clear. No failed/stuck/degraded skills. X webhook `WATCHED_TRADERS` confirmed active (`is_effect: 1`). Heartbeat self-check healthy (last success 14:11 UTC, 5.75h ago).
+- **P1** — No open PRs. Issues disabled on repo.
+- **P2** — Nothing flagged in memory.
+- **P3** — `trader-memory-compact` still never dispatched; dedup suppresses notification (last alerted Jul 23 20:00 UTC, 24h ago, still within 48h window).
+- **No notification sent.** `docs/status.md` regenerated with fresh timestamps (skill-health at 18:48, narrative-tracker at 14:16, market-context-refresh at 14:13 — all from today's runs). Status page remains 🟡 WATCH due to the pending `trader-memory-compact` condition.
