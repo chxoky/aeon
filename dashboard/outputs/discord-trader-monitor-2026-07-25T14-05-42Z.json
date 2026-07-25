@@ -1,0 +1,43 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "message_stack"
+      ]
+    },
+    "message_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "message_content",
+        "attachments_note"
+      ]
+    },
+    "message_content": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HCH — Free",
+        "handle": "DC",
+        "text": "Crypto up, oil down. Profits on both sides 🙂"
+      },
+      "children": []
+    },
+    "attachments_note": {
+      "type": "Text",
+      "props": {
+        "text": "📊 2 chart attachments",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
