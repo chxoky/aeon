@@ -22,8 +22,9 @@ BOOTSTRAP_COMPLETE: 2026-07-14
 - **Events (rolling):**
   - Jul 24 12:03Z — informational: BTC textbook setup — Binance plunge protection, MM/algo front-running pattern; charts show support 57.8K–59.8K, current 65.1K [2080625017193156875]
   - Jul 23 20:43Z — informational: BTC Fear & Greed Index at 5 (lowest since 2018/COVID); major capitulation done, now chop [2080393271151382812]
-- Last seen: 2026-07-24 21:14:53 UTC
+- Last seen: 2026-07-25 07:40:34 UTC
 - **Events (rolling):**
+  - Jul 25 07:40Z — informational: trading philosophy/conviction story — personal 7-year journey reflection; hardest lesson: attempted precision-timing the 2022 cycle bottom at 10-12k (got front-run at 37k on 76% drop); now refusing to repeat; conviction: stubbornly bullish, would add spot at 54K but won't time the "perfect" entry; humility + accepting imperfection is key; famous quote "wise man never knows all, only fools know everything" [2080921042600464621]
   - Jul 24 21:14Z — informational: token scam psychology — liquidity extraction via airdrops; education on how founders use airdrop distribution to wallets they control vs direct main-wallet sales; market criticism of people who fall for garbage token narratives (solana token down 60%, bearish alt thesis reaffirmation) [2080763676878111227]
   - Jul 24 19:12Z — informational: BTC cycle timing thesis — 1.5-month window for capitulation or exhaustion; if BTC doesn't reach 40-50K region by then, "pretty much say goodbye to those levels based on seasonality" [2080732868578549895]
   - Jul 24 17:08Z — informational: BTC bullish conviction statement — "excited for next 2 years", swing/continuation/range longs thesis, capitulation evidence (realized losses showing "sellers gradually losing momentum. 2 months left.") [2080701654865793027]

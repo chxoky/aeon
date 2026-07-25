@@ -1,11 +1,7 @@
-🔍 *Calibration — @abetrade*
+🐦 *[X] @KillaXBT*
 
-Event: Mention to @liquiditygoblin + single cryptic word
+Long personal story on trading philosophy and lessons learned over 7 years. Key themes: hard-learned humility from trying to time the 2022 bottom at exact 10-12k (only got 76% drop, front-ran at 37k); now applying that wisdom by refusing to time the 'perfect' entry. Currently stubbornly bullish — willing to add spot at 54K, but won't attempt precision timing like last cycle. Conviction: 2x swing long, major cycle low at 59K, bears have ~2 months left.
 
-abetrade: "yardbird"
+Quote: "A wise man never knows all, only fools know everything."
 
-Context: abetrade has shown a NEW PATTERN of cryptic URL/minimal posts over Jul 20–22 (all awaiting calibration). This fits the pattern — ultra-terse, unclear referent.
-
-Unable to classify — what's your read?
-
-[View tweet](https://x.com/abetrade/status/2080920447730758056)
+[View tweet](https://x.com/KillaXBT/status/2080921042600464621)

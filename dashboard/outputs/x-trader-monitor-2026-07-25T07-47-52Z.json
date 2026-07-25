@@ -1,0 +1,31 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "view_link"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "Long personal story on trading philosophy and lessons learned over 7 years. Key themes: hard-learned humility from trying to time the 2022 bottom at exact 10-12k (only got 76% drop, front-ran at 37k); now applying that wisdom by refusing to time the 'perfect' entry. Currently stubbornly bullish — willing to add spot at 54K, but won't attempt precision timing like last cycle. Conviction: 2x swing long, major cycle low at 59K, bears have ~2 months left.\n\nQuote: \"A wise man never knows all, only fools know everything.\""
+      }
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2080921042600464621"
+      }
+    }
+  }
+}
