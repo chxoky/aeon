@@ -1,0 +1,23 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "alert_calibration"
+      ]
+    },
+    "alert_calibration": {
+      "type": "Alert",
+      "props": {
+        "title": "Calibration Alert",
+        "message": "Calibration alert for Wild_Randomness on ALAB — see Discord/Telegram for details",
+        "type": "warning"
+      }
+    }
+  }
+}

@@ -35,3 +35,4 @@ Includes images: Discord debate on the tweet, Baker's Jul 16 & Mar 30 "risk/rewa
 Context: Trader reinforces earlier dispersion thesis (index underperformance, retail caught in correlations snapping)
 
 [View tweet](https://x.com/Wild_Randomness/status/2081014270012113241)
+Calibration alert for Wild_Randomness on ALAB — see Discord/Telegram for details
