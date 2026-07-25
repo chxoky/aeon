@@ -1,14 +1,6 @@
-**Execution complete.**
+**Skill execution complete.**
 
-**Summary:**
-- **Event:** HeartCanHodl message "Fc btc 30m" (form-confirmed BTC 30-minute chart callout)
-- **Channel:** 1393137051108507728 (HCH — Comments, primary)
-- **Classification:** INFORMATIONAL (technical notation, no execution language)
-- **Fast-path alert:** Already sent by Cloudflare Worker (~2-5s latency); skipped duplicate Telegram
-- **Memory updates:**
-  - ✓ Added message_id to discord-trader-seen.txt (line 61)
-  - ✓ Updated traders.md with event (last_seen timestamp + new entry)
-  - ✓ Logged to memory/logs/2026-07-25.md
+## Summary
 
 No Kyle notification needed (Telegram already delivered by Worker). This is a reiteration of HCH's ongoing "Fc btc" chart notation pattern (matching Jul 25 09:43Z "Fc btc 15m" entry earlier today).
 **discord-trader-monitor skill execution complete** for event 1530572810660089968 (2026-07-25T13:49:54Z UTC).
@@ -25,3 +17,16 @@ No Kyle notification needed (Telegram already delivered by Worker). This is a re
 **Updates:**
 - Message ID added to discord-trader-seen.txt (61 total seen)
 - Event logged to memory/logs/2026-07-25.md with full context
+Processed Discord message from **HeartCanHodl** (ID: 1530573679954624583) received at 2026-07-25T13:53:21Z in supporting channel (HCH — Chat, 1023638573313966212).
+
+**Classification: Skip (non-financial)**
+- Message: "Yeah, I forgot to mention that using an exchange that supports Hedge Mode would be ideal if you're planning to follow my trades"
+- This is meta-commentary about exchange infrastructure requirements, not a trade signal, conviction shift, or market observation
+- No execution language, no tickers, no trade action
+- Per protocol: non-financial administrative/educational content → silent skip, no alert
+
+**Actions taken:**
+1. ✅ Added message ID to `discord-trader-seen.txt` to prevent reprocessing
+2. ✅ Logged event to `memory/logs/2026-07-25.md` with classification and rationale
+3. ✅ No alert sent (not actionable for Kyle)
+4. ✅ No traders.md update (skip events don't warrant event lines per size-discipline rules)
