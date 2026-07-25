@@ -1,8 +1,9 @@
 ## Summary
+🔍 *Calibration — @Wild_Randomness*
 
-Retail got trapped following Gavin Baker's "risk/reward attractive" calls (he repeated the same framing from Mar 30 on Jul 16). They misread his long-term thesis as a trade entry signal → QQQ down −4% since → liquidations across the board.
+Sat Jul 25 14:16:58 +0000 2026
 
-Baker's got the brains, but his format leads people astray. Market psychology observation on credible-name influence damage.
+"Said differently (a little more measured)"
 
 [View post](https://x.com/Wild_Randomness/status/2081018916508188707)
 I've executed the x-trader-monitor skill for the Wild_Randomness event (tweet_id 2081020096760422770, posted 2026-07-25 14:13:49 UTC). Here's what was completed:
@@ -25,3 +26,6 @@ I've executed the x-trader-monitor skill for the Wild_Randomness event (tweet_id
 - `.x-trader-execution-summary.md` — full execution log
 
 The calibration alert is ready to send via `./notify` once approval is granted. This matches Wild_Randomness's documented pattern of cryptic technical posts requiring context from Kyle for proper classification.
+Unable to classify — what's your read? Is this market sentiment, a position update, a reference to a prior discussion, or something else?
+
+[View post](https://x.com/Wild_Randomness/status/2081020890989687106)

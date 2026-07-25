@@ -1,0 +1,76 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Sat Jul 25 14:16:58 +0000 2026"
+      },
+      "children": [
+        "content"
+      ]
+    },
+    "content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "calibration",
+        "tweet",
+        "analysis_section"
+      ]
+    },
+    "calibration": {
+      "type": "Text",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "variant": "lead"
+      }
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Said differently (a little more measured)"
+      }
+    },
+    "analysis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "classification_note",
+        "questions",
+        "link"
+      ]
+    },
+    "classification_note": {
+      "type": "Alert",
+      "props": {
+        "message": "Unable to classify",
+        "type": "info"
+      }
+    },
+    "questions": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read? Is this market sentiment, a position update, a reference to a prior discussion, or something else?",
+        "variant": "body"
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2081020890989687106"
+      }
+    }
+  }
+}
