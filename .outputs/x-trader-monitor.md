@@ -1,7 +1,7 @@
-## Summary
+🔍 *Calibration — @swarmister*
 
-**Skill execution complete** — x-trader-monitor processed real-time event from KillaXBT.
+Event: Trader @mention coordination (7 trader tags: @GlitchCapital @Stoiiic @ImTrizzy @TraderMotif @pierre_crypt0 @docXBT @JacobCanfield)
 
-**Result: SKIP (no alert)**
+swarmister: "Ye"
 
-The tweet `2080895256896197115` is promotional meta-commentary about posting future BTC video content — not a trade signal or financial information. Classified per **Step 4A** (Non-financial) and logged silently to `memory/logs/2026-07-25.md` with deduplication ID recorded in `memory/x-trader-seen.txt` to prevent reprocessing on Worker retry.
+Unable to classify — market reference? trade coordination? social agreement? What's your read?

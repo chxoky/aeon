@@ -1,0 +1,165 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 x-trader-monitor",
+        "description": "Calibration — @swarmister"
+      },
+      "children": [
+        "section_event",
+        "section_response",
+        "section_question"
+      ]
+    },
+    "section_event": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_event",
+        "text_event_desc",
+        "traders_stack"
+      ]
+    },
+    "heading_event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "text_event_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Trader @mention coordination (7 trader tags)"
+      }
+    },
+    "traders_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_trader1",
+        "badge_trader2",
+        "badge_trader3",
+        "badge_trader4",
+        "badge_trader5",
+        "badge_trader6",
+        "badge_trader7"
+      ]
+    },
+    "badge_trader1": {
+      "type": "Badge",
+      "props": {
+        "text": "@GlitchCapital",
+        "variant": "outline"
+      }
+    },
+    "badge_trader2": {
+      "type": "Badge",
+      "props": {
+        "text": "@Stoiiic",
+        "variant": "outline"
+      }
+    },
+    "badge_trader3": {
+      "type": "Badge",
+      "props": {
+        "text": "@ImTrizzy",
+        "variant": "outline"
+      }
+    },
+    "badge_trader4": {
+      "type": "Badge",
+      "props": {
+        "text": "@TraderMotif",
+        "variant": "outline"
+      }
+    },
+    "badge_trader5": {
+      "type": "Badge",
+      "props": {
+        "text": "@pierre_crypt0",
+        "variant": "outline"
+      }
+    },
+    "badge_trader6": {
+      "type": "Badge",
+      "props": {
+        "text": "@docXBT",
+        "variant": "outline"
+      }
+    },
+    "badge_trader7": {
+      "type": "Badge",
+      "props": {
+        "text": "@JacobCanfield",
+        "variant": "outline"
+      }
+    },
+    "section_response": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "sep1",
+        "heading_response",
+        "response_content"
+      ]
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_response": {
+      "type": "Heading",
+      "props": {
+        "text": "Response",
+        "level": "h3"
+      }
+    },
+    "response_content": {
+      "type": "Text",
+      "props": {
+        "text": "swarmister: \"Ye\"",
+        "variant": "lead"
+      }
+    },
+    "section_question": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "sep2",
+        "alert_calibration"
+      ]
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_calibration": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Market reference? Trade coordination? Social agreement? What's your read?",
+        "type": "info"
+      }
+    }
+  }
+}
