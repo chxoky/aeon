@@ -1,0 +1,89 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @abetrade"
+      },
+      "children": [
+        "event-text",
+        "sep-1",
+        "quote-stack",
+        "sep-2",
+        "context-text",
+        "sep-3",
+        "alert-question",
+        "sep-4",
+        "tweet-link"
+      ]
+    },
+    "event-text": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Mention to @liquiditygoblin + single cryptic word"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "quote-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "quote-text"
+      ]
+    },
+    "quote-text": {
+      "type": "Text",
+      "props": {
+        "text": "abetrade: \"yardbird\""
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context-text": {
+      "type": "Text",
+      "props": {
+        "text": "Context: abetrade has shown a NEW PATTERN of cryptic URL/minimal posts over Jul 20–22 (all awaiting calibration). This fits the pattern — ultra-terse, unclear referent."
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert-question": {
+      "type": "Alert",
+      "props": {
+        "message": "Unable to classify — what's your read?",
+        "type": "info"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/abetrade/status/2080920447730758056"
+      }
+    }
+  }
+}
