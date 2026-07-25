@@ -1,0 +1,42 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet_card",
+        "separator",
+        "link_view"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Kospi → US Momentum → US Indices — Market structure flow analysis reiteration. Risk-off cascade from Asia equities through momentum indices to broad US indices. Validates Korea/Hynix long exposure (EWY/KOSPI 6800–7100 bid zone) and macro risk-on/off tracking via ES/SPX."
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link_view": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2081006591516848452",
+        "source": "X"
+      },
+      "children": []
+    }
+  }
+}

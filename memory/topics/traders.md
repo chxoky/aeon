@@ -421,8 +421,9 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - PENDING: ETH "caught a pico top short for like $120" — open position to mirror or closed-trade reflection? [2079738276941119612]
   - PENDING: CCJ "We have arrived…" — entry confirmation or pure setup observation? [2079752801383498120]
   - PENDING: standing protocol for this trader's persistent cryptic/URL-minimal posts — keep flagging each individually or adopt a standing rule? [2078496857953857759]
-- Last seen: 2026-07-22 18:52:58 UTC
+- Last seen: 2026-07-25 13:20:09 UTC
 - **Events (rolling):**
+  - Jul 25 13:20Z — informational: shared market structure flow analysis (Kospi → US Momentum → US Indices) with "hmm" caption; reiteration of risk-off cascade from Asia equities through momentum to broad US indices; validates Korea/Hynix thesis exposure via EWY/KOSPI long position, aligns with macro risk-on/off barometer tracking; informational observation, no personal trade action [2081006591516848452]
   - Jul 22 22:28Z — informational: BTC cycle-bottom skepticism, too many bottom calls this cycle vs historical precedent [2080057517866909723]
   - Jul 22 18:52Z — ambiguous: external reference "where I called out previous two rounds" link-share, awaiting calibration [2080003185607864629]
 - Last seen: 2026-07-24 18:42:12 UTC
