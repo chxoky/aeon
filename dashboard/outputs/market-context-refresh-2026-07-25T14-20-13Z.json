@@ -1,0 +1,315 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Market Context 2026-07-25"
+      },
+      "children": [
+        "stance_stack",
+        "sep1",
+        "prices_section",
+        "sep2",
+        "metrics_section",
+        "sep3",
+        "alerts_section",
+        "sep4",
+        "assets_section"
+      ]
+    },
+    "stance_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "heading_stance",
+        "badge_conviction"
+      ]
+    },
+    "heading_stance": {
+      "type": "Heading",
+      "props": {
+        "text": "Risk-Off",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "badge_conviction": {
+      "type": "Badge",
+      "props": {
+        "text": "Medium Conviction",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "prices_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_prices",
+        "grid_prices"
+      ]
+    },
+    "heading_prices": {
+      "type": "Heading",
+      "props": {
+        "text": "Prices",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "grid_prices": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "stat_btc",
+        "stat_eth",
+        "stat_fg"
+      ]
+    },
+    "stat_btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$64,100",
+        "delta": "-0.9%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "stat_eth": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$1,865",
+        "delta": "-0.4%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "stat_fg": {
+      "type": "Stat",
+      "props": {
+        "label": "Fear & Greed",
+        "value": "27",
+        "delta": "Fear"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "metrics_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_metrics",
+        "grid_metrics"
+      ]
+    },
+    "heading_metrics": {
+      "type": "Heading",
+      "props": {
+        "text": "Market Metrics",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "grid_metrics": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat_breadth",
+        "stat_tvl"
+      ]
+    },
+    "stat_breadth": {
+      "type": "Stat",
+      "props": {
+        "label": "Breadth (DEX)",
+        "value": "4/20"
+      },
+      "children": []
+    },
+    "stat_tvl": {
+      "type": "Stat",
+      "props": {
+        "label": "TVL",
+        "value": "$6.60B",
+        "delta": "flat"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alerts_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_alerts",
+        "alert_fomc"
+      ]
+    },
+    "heading_alerts": {
+      "type": "Heading",
+      "props": {
+        "text": "Alerts",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "alert_fomc": {
+      "type": "Alert",
+      "props": {
+        "title": "FOMC T-2",
+        "message": "ETF outflow unresolved",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "assets_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "heading_assets",
+        "asset_xmr",
+        "asset_eul",
+        "asset_vvv"
+      ]
+    },
+    "heading_assets": {
+      "type": "Heading",
+      "props": {
+        "text": "Asset Movements",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "asset_xmr": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_xmr_symbol",
+        "text_xmr_data"
+      ]
+    },
+    "text_xmr_symbol": {
+      "type": "Text",
+      "props": {
+        "text": "XMR",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text_xmr_data": {
+      "type": "Text",
+      "props": {
+        "text": "Rising +3.9% (1d) / +11.1% (7d) — day-2 outperform",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "asset_eul": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_eul_symbol",
+        "text_eul_data"
+      ]
+    },
+    "text_eul_symbol": {
+      "type": "Text",
+      "props": {
+        "text": "EUL",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text_eul_data": {
+      "type": "Text",
+      "props": {
+        "text": "PUMP-RISK +73% day-2 / DEXE fading",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "asset_vvv": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_vvv_symbol",
+        "text_vvv_data"
+      ]
+    },
+    "text_vvv_symbol": {
+      "type": "Text",
+      "props": {
+        "text": "VVV",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text_vvv_data": {
+      "type": "Text",
+      "props": {
+        "text": "AI-privacy emerging +11%",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}

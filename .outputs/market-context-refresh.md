@@ -1,7 +1,1 @@
-market context — 2026-07-25
-
-take: risk-off (conviction high)
-BTC $63.9K (−2.2%) / ETH $1,854 (−1.9%) · F&G 27 (Fear)
-breadth 3/20 · TVL eth −$300M · chains flat
-top narrative: FOMC gate (T−3 days, no-change 73.3%)
-hot market: Fed
+market context 2026-07-25 | take: risk-off (medium conviction) | BTC 64.1K (-0.9%) ETH 1865 (-0.4%) F&G 27 Fear | breadth 4/20 DEX 6.60B TVL flat | FOMC T-2 ETF outflow unresolved | XMR rising +3.9%/+11.1% 7d day-2 outperform | EUL PUMP-RISK +73% day-2 DEXE fading | VVV AI-privacy emerging +11%
