@@ -384,6 +384,7 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - Jul 25 06:59Z — ambiguous: Comments channel "Fc zec 1hr" — cryptic chart notation (likely falling-channel on ZEC 1-hour timeframe), unable to classify without context; ZEC in active short basket (highest-conviction since Jun 15); calibration alert sent [1530469534958354624]
   - Jul 24 14:29Z — ambiguous: Chat channel bare "Yes" — no referenced context, standalone cryptic affirmation, intent unclear; awaiting Kyle calibration [1530220378818085108]
   - Jul 24 16:33Z — informational: $CL short follow-up "starter shorts are off to a promising start" with Nasdaq chart showing equity bounce; ambiguous sentiment (shorts performing or being tested by risk-on?); reiteration/update of 07:32Z CL entry [2080692761993605275]
+  - Jul 25 13:46Z — informational: Real-time liquidation data share — "Enjoy the weekend now ;)" + image showing Binance liquidations (CLs/BZs liquidated long) + Hyperdash flows (BTC/ETH shorts liquidated). Market liquidation commentary implying shorts winning, no personal trade action. HCH SHORT on CL (added Jul 24 07:35Z), liquidation data aligns with thesis. Casual weekend post, no action required [2081013216050839716]
 
 ## Stoiiic
 - Platforms: X (X-only; no Discord presence)
