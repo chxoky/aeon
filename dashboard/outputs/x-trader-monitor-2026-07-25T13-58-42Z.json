@@ -1,0 +1,218 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor — Gavin Baker Market Psychology",
+        "description": "Tweet analysis on bullish calls and retail trader impact"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "sep1",
+        "analysis-heading",
+        "analysis-text1",
+        "analysis-text2",
+        "analysis-text3",
+        "sep2",
+        "stat-qqq",
+        "sep3",
+        "content-heading",
+        "content-stack",
+        "sep4",
+        "themes-heading",
+        "themes-stack",
+        "sep5",
+        "link-tweet"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Market psychology commentary on trader Gavin Baker: argues his bullish 'risk/reward attractive' calls were misconstrued by retail as short-term trading signals, leading to liquidations. Includes analysis of trading patterns and retail investor dynamics."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Analysis",
+        "level": "h3"
+      }
+    },
+    "analysis-text1": {
+      "type": "Text",
+      "props": {
+        "text": "Baker's bullish 'risk/reward attractive' calls were misconstrued by retail investors as short-term trading signals, leading to liquidations.",
+        "variant": "body"
+      }
+    },
+    "analysis-text2": {
+      "type": "Text",
+      "props": {
+        "text": "The tweet format mirrors Baker's prior bottom call using a 'stone cold pattern' — a playbook that trader sees as being repeated.",
+        "variant": "body"
+      }
+    },
+    "analysis-text3": {
+      "type": "Text",
+      "props": {
+        "text": "Retail traders who follow prestige traders often get 'rinsed' on leverage/timing mismatches between the original thesis and short-term market movements.",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stat-qqq": {
+      "type": "Stat",
+      "props": {
+        "label": "QQQ Performance (6 days since call)",
+        "value": "-4%",
+        "trend": "down"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "content-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Content Referenced",
+        "level": "h3"
+      }
+    },
+    "content-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "content-item1",
+        "content-item2",
+        "content-item3",
+        "content-item4"
+      ]
+    },
+    "content-item1": {
+      "type": "Text",
+      "props": {
+        "text": "Discord debate on the tweet",
+        "variant": "muted"
+      }
+    },
+    "content-item2": {
+      "type": "Text",
+      "props": {
+        "text": "Baker's Jul 16 'risk/reward' post",
+        "variant": "muted"
+      }
+    },
+    "content-item3": {
+      "type": "Text",
+      "props": {
+        "text": "Baker's Mar 30 'risk/reward' post",
+        "variant": "muted"
+      }
+    },
+    "content-item4": {
+      "type": "Text",
+      "props": {
+        "text": "QQQ technical setup",
+        "variant": "muted"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "themes-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context & Themes",
+        "level": "h3"
+      }
+    },
+    "themes-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge1",
+        "badge2",
+        "badge3",
+        "badge4"
+      ]
+    },
+    "badge1": {
+      "type": "Badge",
+      "props": {
+        "text": "Dispersion Thesis",
+        "variant": "outline"
+      }
+    },
+    "badge2": {
+      "type": "Badge",
+      "props": {
+        "text": "Retail Liquidations",
+        "variant": "outline"
+      }
+    },
+    "badge3": {
+      "type": "Badge",
+      "props": {
+        "text": "Index Underperformance",
+        "variant": "outline"
+      }
+    },
+    "badge4": {
+      "type": "Badge",
+      "props": {
+        "text": "Correlation Snap",
+        "variant": "outline"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet on X",
+        "href": "https://x.com/Wild_Randomness/status/2081014270012113241"
+      }
+    }
+  }
+}

@@ -1,8 +1,8 @@
-🐦 *[X] @KillaXBT*
+🐦 *[X] @Wild_Randomness*
 
-There are only 2 places $BTC can be right now.
+Market psychology commentary on trader Gavin Baker: argues his bullish "risk/reward attractive" calls were misconstrued by retail as short-term trading signals, leading to liquidations. 
 
-Chart shows two scenarios: (1) we are either here (consolidation zone), or (2) we are here (current/recent range). Structural positioning analysis.
+QQQ down −4% in 6 days since the call. Baker's tweet format mirrors his prior bottom call (stone cold pattern), which trader sees as repeating a playbook that worked before. Points out that retail who follow prestige traders often get "rinsed" on leverage/timing mismatches.
 
 [View tweet](https://x.com/KillaXBT/status/2081012721223401832)
 Perfect! I've successfully executed the x-trader-monitor skill for the HeartCanHodl event. Here's what happened:
@@ -30,3 +30,8 @@ Perfect! I've successfully executed the x-trader-monitor skill for the HeartCanH
 - ✓ Updated `memory/topics/traders.md` with event line showing liquidation data observation
 
 **Alert Status:** No alert sent (market observation, not a trade signal requiring approval)
+Includes images: Discord debate on the tweet, Baker's Jul 16 & Mar 30 "risk/reward" posts, QQQ technical setup.
+
+Context: Trader reinforces earlier dispersion thesis (index underperformance, retail caught in correlations snapping)
+
+[View tweet](https://x.com/Wild_Randomness/status/2081014270012113241)
