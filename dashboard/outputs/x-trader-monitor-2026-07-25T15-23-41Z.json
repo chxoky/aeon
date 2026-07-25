@@ -1,0 +1,259 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration analysis with @Wild_Randomness"
+      },
+      "children": [
+        "header",
+        "sep1",
+        "event_section",
+        "sep2",
+        "quote_section",
+        "sep3",
+        "context_section",
+        "sep4",
+        "interpretation_section"
+      ]
+    },
+    "header": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "event_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event_title",
+        "event_description",
+        "event_badges"
+      ]
+    },
+    "event_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Event: Bounce in DRAM",
+        "level": "h3"
+      }
+    },
+    "event_description": {
+      "type": "Text",
+      "props": {
+        "text": "Roundhill Memory ETF — down 8.75% from highs, showing technical bounce with volume confirmation",
+        "variant": "body"
+      }
+    },
+    "event_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_ticker",
+        "badge_move"
+      ]
+    },
+    "badge_ticker": {
+      "type": "Badge",
+      "props": {
+        "text": "DRAM",
+        "variant": "default"
+      }
+    },
+    "badge_move": {
+      "type": "Badge",
+      "props": {
+        "text": "-8.75% from highs",
+        "variant": "secondary"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "quote_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "quote_heading",
+        "quote_card"
+      ]
+    },
+    "quote_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Input from @Wild_Randomness",
+        "level": "h3"
+      }
+    },
+    "quote_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "@50ptMAE Decent timing…\n\nWas that it? [5 chart/philosophy images]"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_heading",
+        "context_items"
+      ]
+    },
+    "context_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context References",
+        "level": "h3"
+      }
+    },
+    "context_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ctx_1",
+        "ctx_2",
+        "ctx_3",
+        "ctx_4"
+      ]
+    },
+    "ctx_1": {
+      "type": "Text",
+      "props": {
+        "text": "• DRAM technical chart",
+        "variant": "body"
+      }
+    },
+    "ctx_2": {
+      "type": "Text",
+      "props": {
+        "text": "• Gavin Baker 'cheap stocks' post",
+        "variant": "body"
+      }
+    },
+    "ctx_3": {
+      "type": "Text",
+      "props": {
+        "text": "• SuspendedCap philosophy on positioning",
+        "variant": "body"
+      }
+    },
+    "ctx_4": {
+      "type": "Text",
+      "props": {
+        "text": "• Discord momentum discussion",
+        "variant": "body"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "interpretation_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "interp_heading",
+        "uncertainty_alert",
+        "questions_list"
+      ]
+    },
+    "interp_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Interpretation Uncertainty",
+        "level": "h3"
+      }
+    },
+    "uncertainty_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify intent",
+        "message": "Multiple interpretations of this bounce",
+        "type": "info"
+      }
+    },
+    "questions_list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "q1",
+        "q2",
+        "q3",
+        "q_final"
+      ]
+    },
+    "q1": {
+      "type": "Text",
+      "props": {
+        "text": "• Is the bounce exhausted?",
+        "variant": "body"
+      }
+    },
+    "q2": {
+      "type": "Text",
+      "props": {
+        "text": "• Is memory-sector selloff bottom confirmed?",
+        "variant": "body"
+      }
+    },
+    "q3": {
+      "type": "Text",
+      "props": {
+        "text": "• Or broader sentiment check?",
+        "variant": "body"
+      }
+    },
+    "q_final": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "lead"
+      }
+    }
+  }
+}
