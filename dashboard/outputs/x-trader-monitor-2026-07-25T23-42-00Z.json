@@ -1,0 +1,31 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "alert_disclaimer",
+        "tweet_alab"
+      ]
+    },
+    "alert_disclaimer": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "Informational alert - not a personal trade signal"
+      }
+    },
+    "tweet_alab": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Discussing ALAB price action (500 to 290), market difficulty, and DCA strategy"
+      }
+    }
+  }
+}
