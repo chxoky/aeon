@@ -1,0 +1,243 @@
+{
+  "root": "card_morning_brief",
+  "state": {},
+  "elements": {
+    "card_morning_brief": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-07-25"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section_focus",
+        "sep_1",
+        "section_since",
+        "sep_2",
+        "section_watch",
+        "sep_3",
+        "section_running"
+      ]
+    },
+    "section_focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_focus",
+        "stack_focus_items"
+      ]
+    },
+    "heading_focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "stack_focus_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus_item_1",
+        "focus_item_2",
+        "focus_item_3"
+      ]
+    },
+    "focus_item_1": {
+      "type": "Text",
+      "props": {
+        "text": "1. FOMC T−3 days — why now: risk-off leg live; 3 days to the macro headline",
+        "variant": "body"
+      }
+    },
+    "focus_item_2": {
+      "type": "Text",
+      "props": {
+        "text": "2. KillaXBT Jul 28–30 pivot — why now: FOMC + pivot confluence in 3 days, plan defined",
+        "variant": "body"
+      }
+    },
+    "focus_item_3": {
+      "type": "Text",
+      "props": {
+        "text": "3. HCH $CL short — why now: entered 24h ago, no approve/pass yet",
+        "variant": "body"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_since": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_since",
+        "stack_since_items"
+      ]
+    },
+    "heading_since": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "stack_since_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "since_item_1",
+        "since_item_2",
+        "since_item_3",
+        "since_item_4"
+      ]
+    },
+    "since_item_1": {
+      "type": "Text",
+      "props": {
+        "text": "HCH: $CL short 2% added (Jul 24 07:32Z) — awaiting `approve CL`, no Kraken mirror yet",
+        "variant": "body"
+      }
+    },
+    "since_item_2": {
+      "type": "Text",
+      "props": {
+        "text": "Chase: MU/SNDK 70% TP done, 30% at BE stops — no action needed",
+        "variant": "body"
+      }
+    },
+    "since_item_3": {
+      "type": "Text",
+      "props": {
+        "text": "Wild_Randomness: bearish ZEC (Chamath buyer revealed) — alerted; 2/3 tracked traders now bearish",
+        "variant": "body"
+      }
+    },
+    "since_item_4": {
+      "type": "Text",
+      "props": {
+        "text": "swarmister: 3 @FalconyFalcon calibration items open — no reads from Kyle yet",
+        "variant": "body"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_watch",
+        "watch_item_1"
+      ]
+    },
+    "heading_watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "watch_item_1": {
+      "type": "Text",
+      "props": {
+        "text": "F&G 27, breadth 3/20: market already pricing FOMC; relief-bounce narratives suspect until Wed",
+        "variant": "body"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_running",
+        "stack_running_items"
+      ]
+    },
+    "heading_running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "stack_running_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "running_item_1",
+        "running_item_2",
+        "running_item_3",
+        "running_item_4"
+      ]
+    },
+    "running_item_1": {
+      "type": "Text",
+      "props": {
+        "text": "token-alert @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running_item_2": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running_item_3": {
+      "type": "Text",
+      "props": {
+        "text": "market-context-refresh @ 13:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running_item_4": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC",
+        "variant": "body"
+      }
+    }
+  }
+}

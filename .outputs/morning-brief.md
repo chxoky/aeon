@@ -1,19 +1,18 @@
-*Morning Brief — 2026-07-24*
+*Morning Brief — 2026-07-25*
 
 *Focus today*
-1. HCH $CL short — why now: approve/ignore; entry live at 93.50 crude exhaustion peak
-2. Chase GOOGL DCA — why now: tariffs live today; 309.5 entry trigger could print
-3. bull_genius BTC LONG — why now: higher low + FOMC fear easing opens risk/reward
+1. FOMC T−3 days — why now: risk-off leg live; 3 days to the macro headline
+2. KillaXBT Jul 28–30 pivot — why now: FOMC + pivot confluence in 3 days, plan defined
+3. HCH $CL short — why now: entered 24h ago, no approve/pass yet
 
 *Since yesterday*
-- HCH added $CL crude short 2% (07:35Z today) — new ticker, 8th in basket; awaiting Kyle approval
-- Chase MU/SNDK 40% open; INTC earnings AH yesterday — watch for memory-name follow-through
-- KillaXBT: F\&G hit 5 (below COVID 8, 2018 bottom 11) — capitulation-done thesis reinforced
-- Wild_Randomness: 10+ calibrations queued (INTC setup, BTC OI/liq); noise elevated, signal low
+- HCH: $CL short 2% added (Jul 24 07:32Z) — awaiting `approve CL`, no Kraken mirror yet
+- Chase: MU/SNDK 70% TP done, 30% at BE stops — no action needed
+- Wild_Randomness: bearish ZEC (Chamath buyer revealed) — alerted; 2/3 tracked traders now bearish
+- swarmister: 3 @FalconyFalcon calibration items open — no reads from Kyle yet
 
 *Watch*
-- Tariffs live now on 60+ partners — equities headwind; accelerates path to Chase's 309.5 GOOGL trigger (Focus #2)
-- Clarity Act '1-yard line' (Bessent) — regulatory tailwind for crypto, supports BTC long thesis (Focus #3)
+- F&G 27, breadth 3/20: market already pricing FOMC; relief-bounce narratives suspect until Wed
 
 *Running today*
 - token-alert @ 12:00 UTC
