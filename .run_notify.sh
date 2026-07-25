@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
-MSG=$(cat .notify_msg.txt)
+cd /home/runner/work/aeon/aeon
+MSG=$(cat .token_movers_msg.txt)
 ./notify "$MSG"
 
