@@ -1,7 +1,7 @@
-🐦 *[X] @Wild_Randomness*
+🐦 *[X] @KillaXBT*
 
-Whales are accumulating
+There are only 2 places $BTC can be right now.
 
-Chart: ProShares UltraPro Short QQQ (SQQQ) 1D — institutional buyers visible at key support zones (45.110 & 35.800). Downtrend from 90.715 → 40-45 range signals structured Nasdaq weakness. Correlations normalizing; dispersion trade coming to a head.
+Chart shows two scenarios: (1) we are either here (consolidation zone), or (2) we are here (current/recent range). Structural positioning analysis.
 
-[View tweet](https://x.com/Wild_Randomness/status/2081009528934711550)
+[View tweet](https://x.com/KillaXBT/status/2081012721223401832)
