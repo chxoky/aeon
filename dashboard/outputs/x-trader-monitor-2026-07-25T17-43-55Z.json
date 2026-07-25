@@ -1,0 +1,109 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "content-stack"
+      ]
+    },
+    "content-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "separator-1",
+        "execution-detail",
+        "separator-2",
+        "context-text",
+        "tweet-link"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Pattern Found: 6/6 intraday bounces ending in same 1-hour window\n\nExecution: Bought 0-DTE options (yesterday), took profits:\n• Half position: +180%\n• Other half: +650%"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "execution-detail": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "execution-heading",
+        "profits-grid"
+      ]
+    },
+    "execution-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Execution Results",
+        "level": "h3"
+      }
+    },
+    "profits-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "profit-half",
+        "profit-other"
+      ]
+    },
+    "profit-half": {
+      "type": "Stat",
+      "props": {
+        "label": "Half position",
+        "value": "+180%",
+        "trend": "up"
+      }
+    },
+    "profit-other": {
+      "type": "Stat",
+      "props": {
+        "label": "Other half",
+        "value": "+650%",
+        "trend": "up"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context-text": {
+      "type": "Text",
+      "props": {
+        "text": "Educational trade reflection on successful intraday pattern recognition + options execution. Trade already closed; no mirror action needed. Charts show the specific price action pattern they exploited.",
+        "variant": "muted"
+      }
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2081072251164921944"
+      }
+    }
+  }
+}
