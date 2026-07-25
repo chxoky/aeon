@@ -1,0 +1,108 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "sep1",
+        "game_data_section",
+        "link_tweet"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "FWA market sentiment — whole crypto twitter is talking about it. Jack Butcher released a product drop, and marmot got sidelined. Trader expresses FOMO about missing the move: 'should have continued ripping tho 😅'"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "game_data_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "game_data_heading",
+        "game_stats",
+        "game_context"
+      ]
+    },
+    "game_data_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Protocol Game Data",
+        "level": "h3"
+      }
+    },
+    "game_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_payout",
+        "stat_profitable",
+        "stat_players"
+      ]
+    },
+    "stat_payout": {
+      "type": "Stat",
+      "props": {
+        "label": "Payout/Fee Ratio",
+        "value": "80%"
+      }
+    },
+    "stat_profitable": {
+      "type": "Stat",
+      "props": {
+        "label": "Profitable Players",
+        "value": "13%"
+      }
+    },
+    "stat_players": {
+      "type": "Stat",
+      "props": {
+        "label": "Total Players",
+        "value": "975"
+      }
+    },
+    "game_context": {
+      "type": "Text",
+      "props": {
+        "text": "Single-trader mention but gaining broader market attention.",
+        "variant": "muted"
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/bull_genius/status/2080909493626352062"
+      }
+    }
+  }
+}

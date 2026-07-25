@@ -1,7 +1,7 @@
-🔍 *Calibration — @swarmister*
+🐦 *[X] @bull_genius*
 
-Event: Trader @mention coordination (7 trader tags: @GlitchCapital @Stoiiic @ImTrizzy @TraderMotif @pierre_crypt0 @docXBT @JacobCanfield)
+FWA market sentiment — whole crypto twitter is talking about it. Jack Butcher released a product drop, and marmot got sidelined. Trader expresses FOMO about missing the move: 'should have continued ripping tho 😅'
 
-swarmister: "Ye"
+Shared protocol game data: 80% payout/fee ratio, 13% profitable players out of 975. Single-trader mention but gaining broader market attention.
 
-Unable to classify — market reference? trade coordination? social agreement? What's your read?
+[View tweet](https://x.com/bull_genius/status/2080909493626352062)
