@@ -1,0 +1,427 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-07-25"
+      },
+      "children": [
+        "heading-transitions",
+        "sep1",
+        "transitions-stack",
+        "sep2",
+        "heading-reflexivity",
+        "reflexivity-stack",
+        "sep3",
+        "heading-positions",
+        "positions-table",
+        "sep4",
+        "heading-map",
+        "map-stack"
+      ]
+    },
+    "heading-transitions": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS (first run — baselines set today, all entries NEW)",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "transitions-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "trans-1",
+        "trans-2",
+        "trans-3",
+        "trans-4"
+      ]
+    },
+    "trans-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans-1-badge",
+        "trans-1-text"
+      ]
+    },
+    "trans-1-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "default"
+      }
+    },
+    "trans-1-text": {
+      "type": "Text",
+      "props": {
+        "text": "FOMC Gate — binary T−3 catalyst; no-change 73.3% Polymarket; 9/18 FOMC officials projecting a hike; market positioned for hold but hawkish surprise = sharp risk-off",
+        "variant": "body"
+      }
+    },
+    "trans-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans-2-badge",
+        "trans-2-text"
+      ]
+    },
+    "trans-2-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "default"
+      }
+    },
+    "trans-2-text": {
+      "type": "Text",
+      "props": {
+        "text": "ZEC / Privacy Fade — Chamath buyer reveal (Wild_Randomness Jul 24) cracked narrative; HCH 50% TP on shorts executed 06:58Z; ZEC −6% today",
+        "variant": "body"
+      }
+    },
+    "trans-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans-3-badge",
+        "trans-3-text"
+      ]
+    },
+    "trans-3-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "default"
+      }
+    },
+    "trans-3-text": {
+      "type": "Text",
+      "props": {
+        "text": "Robinhood Chain — TradFi-DeFi L2 mainnet launched July 2026; tokenized equities live on RWA.xyz (1B USD listed)",
+        "variant": "body"
+      }
+    },
+    "trans-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans-4-badge",
+        "trans-4-text"
+      ]
+    },
+    "trans-4-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "default"
+      }
+    },
+    "trans-4-text": {
+      "type": "Text",
+      "props": {
+        "text": "RWA Tokenization Rising — 33.5B USD on-chain, 4× early 2025; Ondo Finance, BlackRock BUIDL 2.5B USD, DTCC pilot expanding H2",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading-reflexivity": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      }
+    },
+    "reflexivity-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "reflex-1",
+        "reflex-2"
+      ]
+    },
+    "reflex-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "reflex-1-heading",
+        "reflex-1-text"
+      ]
+    },
+    "reflex-1-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "ZEC",
+        "level": "h3"
+      }
+    },
+    "reflex-1-text": {
+      "type": "Text",
+      "props": {
+        "text": "Wild_Randomness Jul 24: \"deeply unserious to hold ZEC after Chamath buyer reveal.\" Narrative-triggered −6% sell-off; HCH partial TP confirms thesis playing out. Story moved price, not fundamentals.",
+        "variant": "body"
+      }
+    },
+    "reflex-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "reflex-2-heading",
+        "reflex-2-text"
+      ]
+    },
+    "reflex-2-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "FOMC Gate",
+        "level": "h3"
+      }
+    },
+    "reflex-2-text": {
+      "type": "Text",
+      "props": {
+        "text": "Polymarket 73.3% no-change directly shaping positioning: HCH holding short basket into gate, KillaXBT stubbornly long with 54K contingent add. Market front-running the binary event.",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading-positions": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      }
+    },
+    "positions-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Position",
+          "Rating",
+          "Type",
+          "Thesis",
+          "Bear Case"
+        ],
+        "rows": [
+          [
+            "FRONT-RUN: Robinhood Chain",
+            "3 ↑",
+            "Bull",
+            "Robinhood L2 + tokenized stocks",
+            "operator-controlled chain, SEC regulatory risk on tokenized equities"
+          ],
+          [
+            "RIDE: RWA Tokenization",
+            "4 ↑",
+            "Bull",
+            "Ondo / BlackRock BUIDL / DTCC",
+            "equity tokenization = SEC overhang; 80% of flows still Treasury-only"
+          ],
+          [
+            "RIDE: AI Agents",
+            "4 ↑↑",
+            "Bull",
+            "Virtuals Protocol, ASI Alliance, BNB AI L1",
+            "2B USD agentic sector cap thin; enterprise utility still months away"
+          ],
+          [
+            "FADE: FOMC Gate",
+            "5 →",
+            "Mixed",
+            "peak saturation, binary risk; dovish hold = short squeeze risk",
+            ""
+          ],
+          [
+            "FADE: WLD / Worldcoin",
+            "3 ↓↓",
+            "Cope",
+            "exited trending today, −10.5%; no buyer conviction after orb-scan narrative peaked",
+            ""
+          ],
+          [
+            "FADE: ZEC",
+            "3 ↓",
+            "Bear",
+            "Chamath reveal + HCH active short + Wild_Randomness bearish",
+            ""
+          ],
+          [
+            "WATCH: DeFi Relative Strength / MORPHO+AAVE",
+            "3 ↑",
+            "Bull",
+            "outperforming in risk-off",
+            "PENDLE/ETHFI −8–10% same session = DeFi bid not broad"
+          ],
+          [
+            "WATCH: TAO/Bittensor",
+            "3 ↑",
+            "Bull",
+            "multi-day trending",
+            "AI infra valuation stretched"
+          ]
+        ]
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading-map": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h2"
+      }
+    },
+    "map-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "map-emerging",
+        "map-rising",
+        "map-peak",
+        "map-fading"
+      ]
+    },
+    "map-emerging": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-emerging-heading",
+        "map-emerging-text"
+      ]
+    },
+    "map-emerging-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Emerging",
+        "level": "h3"
+      }
+    },
+    "map-emerging-text": {
+      "type": "Text",
+      "props": {
+        "text": "Robinhood Chain, DePIN",
+        "variant": "body"
+      }
+    },
+    "map-rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-rising-heading",
+        "map-rising-text"
+      ]
+    },
+    "map-rising-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Rising",
+        "level": "h3"
+      }
+    },
+    "map-rising-text": {
+      "type": "Text",
+      "props": {
+        "text": "RWA Tokenization, AI Agents, MORPHO/DeFi selective",
+        "variant": "body"
+      }
+    },
+    "map-peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-peak-heading",
+        "map-peak-text"
+      ]
+    },
+    "map-peak-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Peak",
+        "level": "h3"
+      }
+    },
+    "map-peak-text": {
+      "type": "Text",
+      "props": {
+        "text": "FOMC Gate",
+        "variant": "body"
+      }
+    },
+    "map-fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-fading-heading",
+        "map-fading-text"
+      ]
+    },
+    "map-fading-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Fading",
+        "level": "h3"
+      }
+    },
+    "map-fading-text": {
+      "type": "Text",
+      "props": {
+        "text": "ZEC, WLD, Privacy Coins broadly",
+        "variant": "body"
+      }
+    }
+  }
+}
