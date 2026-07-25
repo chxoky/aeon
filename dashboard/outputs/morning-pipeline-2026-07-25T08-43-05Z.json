@@ -1,0 +1,595 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-07-25"
+      },
+      "children": [
+        "section_focus",
+        "sep1",
+        "section_yesterday",
+        "sep2",
+        "section_watch",
+        "sep3",
+        "section_running"
+      ]
+    },
+    "section_focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h_focus",
+        "focus_1",
+        "focus_2",
+        "focus_3"
+      ]
+    },
+    "h_focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "focus_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_1_title",
+        "focus_1_why"
+      ]
+    },
+    "focus_1_title": {
+      "type": "Text",
+      "props": {
+        "text": "HCH 50% TP on ZEC/HYPE/SOL shorts (07:00 UTC) — short book reduced, portfolio ~30-35%; re-add levels and CL short mirror still unresolved",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "focus_1_why": {
+      "type": "Text",
+      "props": {
+        "text": "Why now: short book reduced",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "focus_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_2_title",
+        "focus_2_why"
+      ]
+    },
+    "focus_2_title": {
+      "type": "Text",
+      "props": {
+        "text": "FOMC Jul 28-29 in 3 days — BTC $63.9K pre-gate; KillaXBT conditional short at 67.5-69.2K live; no-change odds slipping (73.3%)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "focus_2_why": {
+      "type": "Text",
+      "props": {
+        "text": "Why now: BTC $63.9K pre-gate and 73.3% no-change odds",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "focus_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_3_title",
+        "focus_3_why"
+      ]
+    },
+    "focus_3_title": {
+      "type": "Text",
+      "props": {
+        "text": "Calibration backlog + KillaXBT BTC video today — abetrade 4th cryptic post escalating; Stoiiic 'see you Sunday' ambiguous; video is likely thesis update",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "focus_3_why": {
+      "type": "Text",
+      "props": {
+        "text": "Why now: uncertainty resolution needed",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_yesterday": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h_yesterday",
+        "yesterday_hch",
+        "yesterday_chase",
+        "yesterday_wild",
+        "yesterday_market"
+      ]
+    },
+    "h_yesterday": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "yesterday_hch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday_hch_label",
+        "yesterday_hch_text"
+      ]
+    },
+    "yesterday_hch_label": {
+      "type": "Badge",
+      "props": {
+        "text": "HCH",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "yesterday_hch_text": {
+      "type": "Text",
+      "props": {
+        "text": "50% TP ZEC/HYPE/SOL this morning + $CL short added Jul 24 (2%, primary channel) — CL mirror awaiting Kyle approve signal",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "yesterday_chase": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday_chase_label",
+        "yesterday_chase_text"
+      ]
+    },
+    "yesterday_chase_label": {
+      "type": "Badge",
+      "props": {
+        "text": "Chase",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "yesterday_chase_text": {
+      "type": "Text",
+      "props": {
+        "text": "MU/SNDK 30% held post Jul 21 TP; Jul 24 commentary = no action, monitoring for higher-low",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "yesterday_wild": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday_wild_label",
+        "yesterday_wild_text"
+      ]
+    },
+    "yesterday_wild_label": {
+      "type": "Badge",
+      "props": {
+        "text": "Wild_Randomness",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "yesterday_wild_text": {
+      "type": "Text",
+      "props": {
+        "text": "ZEC bearish (\"$ZEC unserious to hold with Chamath buyer\") — cross-confirms HCH TP timing",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "yesterday_market": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday_market_label",
+        "yesterday_market_riskoff",
+        "yesterday_market_stats",
+        "yesterday_market_tokens"
+      ]
+    },
+    "yesterday_market_label": {
+      "type": "Badge",
+      "props": {
+        "text": "Market",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "yesterday_market_riskoff": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "message": "Risk-off day 2"
+      },
+      "children": []
+    },
+    "yesterday_market_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_btc",
+        "stat_fg",
+        "stat_dex"
+      ]
+    },
+    "stat_btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$63.9K",
+        "delta": "−2.3%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "stat_fg": {
+      "type": "Stat",
+      "props": {
+        "label": "Fear & Greed",
+        "value": "27"
+      },
+      "children": []
+    },
+    "stat_dex": {
+      "type": "Stat",
+      "props": {
+        "label": "DEX vol",
+        "value": "$6.53B"
+      },
+      "children": []
+    },
+    "yesterday_market_tokens": {
+      "type": "Text",
+      "props": {
+        "text": "DEXE +165% relief bounce (noise), GWEI/EUL PUMP-RISK",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h_watch",
+        "watch_xmr",
+        "watch_fomc"
+      ]
+    },
+    "h_watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "watch_xmr": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "watch_xmr_title",
+        "watch_xmr_stats",
+        "watch_xmr_note"
+      ]
+    },
+    "watch_xmr_title": {
+      "type": "Text",
+      "props": {
+        "text": "XMR",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "watch_xmr_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_xmr_24h",
+        "stat_xmr_7d"
+      ]
+    },
+    "stat_xmr_24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h",
+        "value": "+4.4%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat_xmr_7d": {
+      "type": "Stat",
+      "props": {
+        "label": "7d",
+        "value": "+13.1%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "watch_xmr_note": {
+      "type": "Text",
+      "props": {
+        "text": "Strongest major-cap gainer on risk-off day; watch for 2nd trader mention (emerging signal)",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "watch_fomc": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "watch_fomc_title",
+        "watch_fomc_stat",
+        "watch_fomc_alert"
+      ]
+    },
+    "watch_fomc_title": {
+      "type": "Text",
+      "props": {
+        "text": "FOMC no-change odds",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "watch_fomc_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Current",
+        "value": "73.3%",
+        "delta": "−0.45pp",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "watch_fomc_alert": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "message": "sub-70% = risk-off cascade"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h_running",
+        "task_1",
+        "task_2",
+        "task_3",
+        "task_4",
+        "task_5"
+      ]
+    },
+    "h_running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "task_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "task_1_time",
+        "task_1_name"
+      ]
+    },
+    "task_1_time": {
+      "type": "Badge",
+      "props": {
+        "text": "07:00 UTC",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "task_1_name": {
+      "type": "Text",
+      "props": {
+        "text": "morning-pipeline (complete)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "task_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "task_2_time",
+        "task_2_name"
+      ]
+    },
+    "task_2_time": {
+      "type": "Badge",
+      "props": {
+        "text": "08:00 / 14:00 / 20:00 UTC",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "task_2_name": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "task_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "task_3_time",
+        "task_3_name"
+      ]
+    },
+    "task_3_time": {
+      "type": "Badge",
+      "props": {
+        "text": "12:00 UTC",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "task_3_name": {
+      "type": "Text",
+      "props": {
+        "text": "token-alert + token-movers",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "task_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "task_4_time",
+        "task_4_name"
+      ]
+    },
+    "task_4_time": {
+      "type": "Badge",
+      "props": {
+        "text": "13:00–13:30 UTC",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "task_4_name": {
+      "type": "Text",
+      "props": {
+        "text": "market-context-refresh + narrative-tracker",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "task_5": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "task_5_time",
+        "task_5_name"
+      ]
+    },
+    "task_5_time": {
+      "type": "Badge",
+      "props": {
+        "text": "18:00 UTC",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "task_5_name": {
+      "type": "Text",
+      "props": {
+        "text": "skill-health",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}

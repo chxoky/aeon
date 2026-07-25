@@ -1,25 +1,23 @@
-*Morning Brief — 2026-07-24*
+*Morning Brief — 2026-07-25*
 
 *Focus today*
-1. HCH $CL short (07:35Z this morning) — why now: crude momentum stalling at peak; window for entry thesis is live
-2. Chase GOOGL DCA (pending since Jul 23) — why now: Google earnings risk is live; decide before the event
-3. bull_genius BTC LONG (pending since Jul 23 ~65K) — why now: FOMC no-change at 75% + higher low forming; entry window narrowing before Jul 28-29
+1. HCH 50% TP on ZEC/HYPE/SOL shorts (07:00 UTC) — why now: short book reduced, portfolio ~30-35%; re-add levels and CL short mirror still unresolved
+2. FOMC Jul 28-29 in 3 days — why now: BTC $63.9K pre-gate; KillaXBT conditional short at 67.5-69.2K live; no-change odds slipping (73.3%)
+3. Calibration backlog + KillaXBT BTC video today — why now: abetrade 4th cryptic post escalating; Stoiiic 'see you Sunday' ambiguous; video is likely thesis update
 
 *Since yesterday*
-- HCH: added $CL 2% short above $90 (new ticker; crude oil exhaustion thesis, Iran news not pushing price higher)
-- Chase SNDK: trimmed 10% at 1675 (60% total closed); MU: 40% still open, watching 1035 target
-- bull_genius: BTC "joyful july" reaffirmation; 7d RVWAP + POC higher low forming at ~65K
-- KillaXBT: conviction philosophy post ("accounts with receipts"); structural bull conviction unchanged
-- Wild_Randomness: SPY July-2024 fractal repeat hypothesis + HYPE spot re-added (partial)
+- HCH: 50% TP ZEC/HYPE/SOL this morning + $CL short added Jul 24 (2%, primary channel) — CL mirror awaiting Kyle approve signal
+- Chase: MU/SNDK 30% held post Jul 21 TP; Jul 24 commentary = no action, monitoring for higher-low
+- Wild_Randomness: ZEC bearish ("$ZEC unserious to hold with Chamath buyer") — cross-confirms HCH TP timing
+- Market: risk-off day 2 · BTC −2.3% $63.9K · F&G 27 · DEX vol $6.53B · DEXE +165% relief bounce (noise), GWEI/EUL PUMP-RISK
 
 *Watch*
-- Tariffs live today (10-12.5% on 60 partners) — BTC macro headwind; has not caused cascade yet but FOMC risk compounds
-- Clarity Act: Bessent "1-yard line" — first clean regulatory catalyst this cycle if it passes
+- XMR +4.4% 24h / +13.1% 7d — strongest major-cap gainer on risk-off day; watch for 2nd trader mention (emerging signal)
+- FOMC no-change odds 73.3% (−0.45pp) — sub-70% = risk-off cascade
 
 *Running today*
-- token-alert @ 12:00 UTC
-- token-movers @ 12:00 UTC
-- market-context-refresh @ 13:00 UTC
-- narrative-tracker @ 13:30 UTC
-- heartbeat @ 08:00, 14:00, 20:00 UTC
+- morning-pipeline @ 07:00 UTC (complete)
+- heartbeat @ 08:00 / 14:00 / 20:00 UTC
+- token-alert + token-movers @ 12:00 UTC
+- market-context-refresh + narrative-tracker @ 13:00–13:30 UTC
 - skill-health @ 18:00 UTC

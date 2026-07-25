@@ -47,6 +47,56 @@ Total: ~$278B (flat). USDT ~$184.0B · USDC ~$72.6B · USDS $6.66B · DAI $4.86B
 - EUL (Euler) — #582; lending protocol; speculative (prior hack association)
 - SOL — #7; size-driven search volume despite −2.8% 24h
 - TAO (Bittensor) — #42; AI/ML subnet; background accumulation signal
+> **Take:** risk-off — BTC −2.3% at $63.9K with breadth at 3/20 non-stable top assets green; F&G 27 (Fear) and declining. Conviction: high (BTC down, breadth systemic, F&G falling, DEX vol softening; only DeFi protocol TVL holds positive).
+
+## Signal Snapshot
+- BTC $63,944 (−2.3% 24h, −0.0% 7d) · dominance 56.53% (+0.01pp 24h)
+- ETH $1,854 (−1.9% 24h, +0.6% 7d) · ETH/BTC 0.02899
+- SOL $73.77 (−2.8% 24h, −1.5% 7d)
+- Total mcap $2.27T (−1.7% 24h) · DEX vol $6.53B 24h
+- Breadth: 3/20 green 24h · (7d: mixed, privacy and DeFi tokens positive)
+- Fear & Greed: 27 (Fear) — yesterday 28 (Fear)
+
+## What Changed Since Last Refresh
+- Quiet — BTC −0.1% from yesterday's snapshot ($64,000 → $63,944); regime unchanged (risk-off day 2); all majors within ±1% vs prior snapshot.
+- DEX 24h vol slipped to $6.53B (−2.0% from $6.66B) — minor softening consistent with pre-FOMC wait-and-see positioning.
+- Citi cut BTC and ETH targets, citing ETF flow weakness and legislative delays (per Jul 25 search) — institutional bearish signal; limited near-term market-moving but adds to sentiment overhang.
+- FOMC now 3 days out — no-change odds 73.3% (−0.45pp from 73.75%); PCE print noted by analysts as potentially validating hike case.
+
+## Active Narratives
+- **Tariff macro overhang** — phase: rising (dominant). Evidence: tariffs live on 60+ partners; 2nd consecutive risk-off session; BTC −2.3%, breadth 3/20 = systemic, not BTC-specific.
+- **FOMC hawkish uncertainty** — phase: peak (binary gate, 3 days). Evidence: no-change 73.3% (−0.45pp), PCE validating hike angle per analysts; BTC sub-$64K pre-meeting opens $62-63K path; KillaXBT conditional short planned 67.5-69.2K zones into this pivot.
+- **BTC ETF institutional bid** — phase: fading (outflow continuation). Evidence: Jul 24 $225M net outflow ended 5-day streak; Citi cut BTC/ETH targets; no fresh Jul 25 inflow data available.
+- **DeFi protocol resilience** — phase: emerging. Evidence: Lido +2.36% 7d TVL, SSV +2.06% 7d — DeFi TVL holding while spot prices fall; DEX vol $6.53B still solid.
+- **Privacy coin divergence (XMR)** — phase: emerging. Evidence: XMR +4.4% 24h, +13.1% 7d — strongest major-cap gainer on broad risk-off day; potential flight-to-privacy or supply-side story; single-trader signal, no cross-trader convergence yet.
+
+## Top DeFi Protocols (TVL, 7d change)
+- Lido: $17.34B (+2.36%)
+- Aave V3: $13.63B (+0.25%)
+- SSV Network: $9.13B (+2.06%)
+- Morpho Blue: ~$7.5B (+2.28%) [carried from prior snapshot]
+- WBTC: ~$7.5B (+1.45%) [carried from prior snapshot]
+
+## Chain Flow (top 6 by TVL, vs prior snapshot)
+- Ethereum: $41.13B (−$0.30B, −0.7%, flat)
+- BSC: $4.81B (−$0.02B, flat)
+- Tron: $4.80B (−$0.04B, flat)
+- Solana: $4.80B (−$0.09B, flat)
+- Base: $4.55B (−$0.05B, flat)
+- Bitcoin: $4.19B (−$0.07B, flat)
+*All chains flat — no capital rotation signal. Pre-FOMC wait-and-see confirmed.*
+
+## Stablecoins
+Total: ~$278B (flat). USDT $184.29B · USDC $73.62B · USDS $6.65B · DAI $4.86B · USDe $3.98B · USDG $3.24B — combined share of total mcap ~12.2%.
+
+## Trending (CoinGecko)
+- DEXE — #132, $6.16, +165.2% 24h. Massive single-day relief bounce after 8-day collapse; 7d deeply negative; [FADE].
+- WLD (Worldcoin) — #58, $0.343, −10.5% 24h. [TRENDING+DOWN] bad-news distribution.
+- MORPHO — #56, $2.03, +2.0% 24h. DeFi lending protocol.
+- GWEI (ETHGas) — #371, $0.030, +44.6%. [PUMP-RISK] low-cap.
+- EUL (Euler) — #582, $1.38, +36.7%. [PUMP-RISK] low-cap.
+- SOL — #7, $73.78, −2.7% 24h. Broad weakness.
+- TAO (Bittensor) — #42, $188.80, −2.5%.
 
 ## Prediction Markets (Polymarket, top by 24h vol)
 | Market | YES% | 24h Vol | Liquidity |
@@ -63,6 +113,19 @@ Total: ~$278B (flat). USDT ~$184.0B · USDC ~$72.6B · USDS $6.66B · DAI $4.86B
 ## Implications for Downstream Skills
 - **token-pick:** Hold off. Risk-off day 2, no catalyst, FOMC 3 days out. MORPHO/DeFi lending showing relative strength (TVL positive on a red day) — revisit post-FOMC if inflows resume. Avoid pump-rotation names; basket exhausted.
 - **narrative-tracker:** ETF flow data (Jul 25, post US close) is the pivotal signal. Second outflow day confirms trend; single reversal day insufficient. MORPHO emerging narrative worth flagging for next week. Stoiiic's "stop phase" cycle chart this morning is a soft regime read: CT thinks we're in trend interruption, not continuation.
+| Fed no change after July 2026 meeting | 73.3% | $1.12M | $307K |
+| Israel × Iran ceasefire continues Jul 25 | 96.25% | $660K | $101K |
+
+*FOMC: no-change 73.3% (−0.45pp from 73.75%); minor regression, still strong majority. Iran ceasefire market settling today.*
+
+## Macro Catalysts (next 4 days)
+- **FOMC Jul 28-29 (binary gate, 3 days):** No-change 73.3%, +25bps 26.7%. PCE print noted as potentially validating hike expectations. BTC sub-$64K; $62-63K path opens if hawkish repricing resumes. KillaXBT: conditional small short planned at 67.5-69.2K zones into this pivot (SL 72.5K).
+- **Tariffs (ongoing):** 10-12.5% on 60+ partners live; primary risk-off driver. Citi institutional target cuts add sentiment weight.
+- **KillaXBT BTC video (today):** Announced "important video" Jul 25; potential thesis update or position signal; monitor.
+
+## Implications for Downstream Skills
+- **token-pick:** No new entries — ETF outflows + tariffs + FOMC gate = triple headwind unchanged. BTC $64K key support; break below opens $62-63K. XMR divergence (+4.4% 24h, +13.1% 7d) is the only positive signal worth watching for cross-trader confirmation.
+- **narrative-tracker:** Monitor XMR divergence for phase transition (emerging → rising requires 2nd trader mention). FOMC no-change regression needs watching; sub-70% would restart risk-off cascade. DEXE bounce is noise (8-day collapse context) unless volume confirms reversal.
 
 ## Token Picks Made
 | Date | Token | Price | Thesis |
