@@ -1,22 +1,27 @@
-Perfect! I've completed the discord-trader-monitor skill execution. Here's what happened:
+Perfect! I've completed the skill execution. Here's what happened:
 
-**Event Summary:**
-- **Trader:** HeartCanHodl (username: heartcanhodl)
-- **Channel:** 1472153627324842057 (HCH — Free, primary)
-- **Message ID:** 1530467536271839303
-- **Content:** "FOR THE FIRST TIME AFTER 13 CONSECUTIVE NIGHTS, THE U.S. MILITARY DID NOT CARRY OUT STRIKES IN IRAN OVERNIGHT"
+## Summary
 
-**Classification:** **Skip — Non-financial**
+**Event processed:** HeartCanHodl's ZEC/HYPE/SOL partial take-profit on Discord primary channel (1279738718680256553 — "HCH — Trades")
 
-The message contains geopolitical commentary about Iran military strikes. It has no financial content, no trade signals, and no market impact analysis. Per the skill's Step 5A, non-financial content (banter, news commentary without trade relevance) should be skipped silently.
+**Classification:** `trade-partial-tp` (reducing half of active short positions)
 
-**Actions Taken:**
-1. ✅ Decoded base64 event
-2. ✅ Verified message ID (1530467536271839303) was new and added to seen list
-3. ✅ Resolved trader and channel correctly
-4. ✅ Classified as non-financial 
-5. ✅ No alerts sent (fast_path_alerted was false, but content doesn't warrant alerting)
-6. ✅ Updated `memory/discord-trader-seen.txt` with new message ID
-7. ✅ Logged event to `memory/logs/2026-07-25.md` with standard format
+**Key details:**
+- **Message:** "Close zec, hype, sol half size shorts here"
+- **Timestamp:** 2026-07-25T06:58:26Z
+- **Fast-path status:** Cloudflare Worker already alerted (no duplicate Telegram sent)
+- **Processing:** Memory and audit work only
 
-No notification was sent because this is non-financial content and doesn't require Kyle's attention.
+**Position changes:**
+- **ZEC:** ~50% reduction (estimated 2-3% → 1-1.5%)
+- **HYPE:** ~50% reduction (estimated 2% → 1%)
+- **SOL:** ~50% reduction (estimated 0.25% → 0.125%)
+- **Portfolio impact:** Total short basket reduced from ~40-44% to ~30-35%
+
+**Files updated:**
+1. `memory/discord-trader-seen.txt` — Added message ID to dedup tracking
+2. `memory/topics/traders.md` — Logged event in HeartCanHodl's event history
+3. `memory/topics/active-trades.md` — Updated ZEC/HYPE/SOL short positions with execution details
+4. `memory/logs/2026-07-25.md` — Appended comprehensive event log
+
+This follows HCH's documented pattern of disciplined profit-taking on bounces while maintaining core remainder positions for continued downside participation.

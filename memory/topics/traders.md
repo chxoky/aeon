@@ -373,6 +373,9 @@ BOOTSTRAP_COMPLETE: 2026-07-14
 - Last seen: 2026-07-24 16:33:06 UTC
 - **Events (rolling):**
   - Jul 24 16:33Z — informational: $CL short follow-up "starter shorts are off to a promising start" with Nasdaq chart showing equity bounce; ambiguous sentiment (shorts performing or being tested by risk-on?); reiteration/update of 07:32Z CL entry [2080692761993605275]
+- Last seen: 2026-07-25 06:58:26 UTC
+- **Events (rolling):**
+  - Jul 25 06:58Z — trade-partial-tp: ZEC/HYPE/SOL shorts — "Close zec, hype, sol half size shorts here" on primary Trades channel; reducing position sizes by 50% on core short basket holdings. Fast-path-alerted (Cloudflare Worker sent Telegram ~2-5s); discord-trader-monitor real-time event [1530469259086532648]
 
 ## Stoiiic
 - Platforms: X (X-only; no Discord presence)

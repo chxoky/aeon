@@ -262,7 +262,8 @@
   - **ETH**: Closing 2.5% (estimated remaining: ~4-6% from recent conviction adds)
 - **Price context**: "lower 64k" — market structure near 64K range; closing into weakness/technical level
 - **Rationale**: Disciplined profit-taking on bounce from overnight/early morning price action. Estimated portfolio allocation post-close: ~35-40% total short basket (down from ~40-44% pre-close). Maintains core remainder on BTC/ETH for continued downside participation per HCH's documented thesis pattern (take profits on pumps, hold rest to targets).
-- **Last update**: 2026-07-24T13:09:13Z (discord-trader-monitor, fast-path-alerted, PARTIAL TP; message_id=1530200183093203044)
+- **FOLLOW-UP TP EXECUTION** (2026-07-25T06:58:26Z): "Close zec, hype, sol half size shorts here" — Additional profit-taking on alt-short basket components. Reduced HYPE and SOL by approximately 50% each; HYPE estimated post-TP ~1% (down from 2%), SOL estimated post-TP ~0.125% (down from 0.25%). Coordinated multi-ticker reduction suggests continued disciplined scaling-out as market confirms structural bearish thesis on alts. Portfolio allocation post-TP: estimated 30-35% total short basket (down from ~35-40% pre-close).
+- **Last update**: 2026-07-25T06:58:26Z (discord-trader-monitor, fast-path-alerted, PARTIAL TP multi-ticker; message_id=1530469259086532648)
 
 ### BTC/ETH/SOL Spot — LONGS (CLOSED)
 - **Status**: CLOSED at market 2026-07-02T10:25:13Z — "Close majors fully here"
@@ -292,10 +293,11 @@
   - 2026-07-03T09:21:56Z: Conviction add — "Add 1% zec short too" (part of broader short-basket escalation morning session; message_id=1522532840686747658, fast-path alerted)
   - 2026-07-08T09:06:01Z: Profit-taking / scale-out — "Take 7.5%-3.5%-3.5%-1%-1% off from btc,eth,sol,hype,zec here" (reduced ZEC by 1%; message_id=1524340774735450112, fast-path alerted)
   - 2026-07-15T07:35:08Z: Conviction add — "Add 1% zec short" (re-escalation following prior profit-taking; message_id=1526854616547852298, fast-path alerted)
-- **Current size**: Estimated 2-3%+ (after reducing 1% on 07-08, re-added 1% on 07-15 @ 07:35, re-added +1% on 07-15 @ 11:22; base position predates tracked window with multiple adds/trims)
+  - 2026-07-25T06:58:26Z: Partial TP — "Close zec, hype, sol half size shorts here" (reducing ZEC by ~50% of current position; message_id=1530469259086532648, fast-path alerted)
+- **Current size**: Estimated 1-1.5%+ (after reducing ~half of position on 07-25; previous estimate was 2-3%+ as of 07-15)
 - **Entry levels**: Unknown (position predates tracked window; lows referenced around 400 level for TP management)
-- **Context**: ZEC remains HCH's highest-conviction short despite volatile market conditions. Pattern shows disciplined profit-taking (07-08 trim 1%) followed by immediate re-accumulation (07-15 morning add 1% + 07-15 late-morning add 1%), indicating sustained structural bearish thesis on ZEC. Dual adds within single session (07-35 + 11:22) suggest intraday conviction escalation — likely price weakness validating short thesis or acceleration of pre-planned accumulation. Multi-day escalation pattern (06-15 through 07-15) confirms ZEC as cornerstone of HCH's alt-short basket. Ticker-focus notes ZEC as "CONTESTED" (HCH short vs trading_axe treating strength as market-health tell), reinforcing need for close monitoring as sentiment signal.
-- **Last update**: 2026-07-15T11:22:31Z (discord-trader-monitor, fast-path alerted, CONVICTION ADD; message_id=1526911839001251870)
+- **Context**: ZEC remains HCH's highest-conviction short despite volatile market conditions. Pattern shows disciplined profit-taking waves: (07-08 trim 1%), immediate re-accumulation (07-15 morning add 1% + 07-15 late-morning add 1%), then half-position reduction (07-25). Dual adds within single session (07-35 + 11:22) suggest intraday conviction escalation — likely price weakness validating short thesis or acceleration of pre-planned accumulation. Multi-day escalation pattern (06-15 through 07-15) followed by measured profit-taking (07-25) confirms ZEC as cornerstone of HCH's alt-short basket with disciplined risk management. Ticker-focus notes ZEC as "CONTESTED" (HCH short vs trading_axe treating strength as market-health tell), reinforcing need for close monitoring as sentiment signal.
+- **Last update**: 2026-07-25T06:58:26Z (discord-trader-monitor, fast-path alerted, PARTIAL TP; message_id=1530469259086532648)
 
 ### UNI — SHORT (NEW ENTRY — CONVICTION ADD 2026-07-16, SCALING 2026-07-21)
 - **Status**: ACTIVE — trade-new-entry 2026-07-16T05:06:02Z, conviction add 2026-07-21T01:38:04Z
