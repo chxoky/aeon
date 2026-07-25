@@ -1,14 +1,16 @@
-Log updated. Token-alert for 2026-07-24 is complete — TOKEN_ALERT_OK, no notifications sent.
+TOKEN_ALERT_OK — no anomalies detected across all three tracked tokens.
+
+**Results:**
+| Token | Price | 24h Change | Threshold | Status |
+|-------|-------|-----------|-----------|--------|
+| BTC | $63,986 | −1.56% | 5% | OK |
+| ETH | $1,856.64 | −1.36% | 8% | OK |
+| SOL | $73.84 | −1.78% | 10% | OK |
+
+All 24h moves are well inside their alert thresholds. No volume baseline exists in memory for spike comparison. Current prices logged to `memory/logs/2026-07-25.md` for future reference.
 
 ## Summary
-
-**Skill:** token-alert | **Date:** 2026-07-24
-
-**Prices fetched (CoinGecko):**
-| Token | Price | 24h Change | Volume | Threshold | Alert? |
-|-------|-------|-----------|--------|-----------|--------|
-| BTC   | $64,976 | −0.79% | $26.59B | 5% | NO |
-| ETH   | $1,881 | −2.22% | $9.68B | 8% | NO |
-| SOL   | $75.07 | −3.25% | $1.60B | 10% | NO |
-
-No threshold breaches, no volume spikes (all tokens running at 0.82–0.88× their Jul 21 baseline volumes). No notification sent. Results logged to `memory/logs/2026-07-24.md`.
+- Fetched live prices via CoinGecko API (WebFetch fallback per sandbox protocol)
+- No alert conditions met: BTC −1.56% (threshold 5%), ETH −1.36% (threshold 8%), SOL −1.78% (threshold 10%)
+- Logged `TOKEN_ALERT_OK` with current prices to `memory/logs/2026-07-25.md`
+- No notification sent
