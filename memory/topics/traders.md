@@ -367,8 +367,9 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - Jul 24 14:31Z — trade-partial-tp: BTC/ETH shorts — "Closing 5% more btc short and 2.5% eth short here at higher 63k" on primary Trades channel; fast-path-alerted (Cloudflare Worker sent Telegram ~2-5s); second TP execution of the day, disciplined profit-taking on continued bounce [1530220779399151616]
   - Jul 24 13:41Z — informational: Chat channel macro context on oil — "second parabola on the oil run", bearish outlook ("not expecting much"), citing quarter-long bad-headline cycle + supply-chain shocks; reinforces CL 2% short conviction entered at 07:35Z; supporting-channel follow-up (not alerted to avoid double-notification) [1530208347616317551]
   - Jul 24 13:09Z — trade-partial-tp: BTC/ETH shorts — "Closing 5% btc short and 2.5% eth short here at lower 64k" on primary Trades channel; fast-path-alerted (Cloudflare Worker sent Telegram ~2-5s) [1530200183093203044]
-- Last seen: 2026-07-24 14:29:28 UTC
+- Last seen: 2026-07-25 06:59:31 UTC
 - **Events (rolling):**
+  - Jul 25 06:59Z — ambiguous: Comments channel "Fc zec 1hr" — cryptic chart notation (likely falling-channel on ZEC 1-hour timeframe), unable to classify without context; ZEC in active short basket (highest-conviction since Jun 15); calibration alert sent [1530469534958354624]
   - Jul 24 14:29Z — ambiguous: Chat channel bare "Yes" — no referenced context, standalone cryptic affirmation, intent unclear; awaiting Kyle calibration [1530220378818085108]
 - Last seen: 2026-07-24 16:33:06 UTC
 - **Events (rolling):**

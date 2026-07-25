@@ -1,0 +1,48 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "🔍 Calibration — [DC: HCH — Comments]"
+      },
+      "children": [
+        "tweet",
+        "separator",
+        "status",
+        "metadata"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "1393137051108507728",
+        "text": "Fc zec 1hr"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "status": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read?",
+        "type": "info"
+      }
+    },
+    "metadata": {
+      "type": "Text",
+      "props": {
+        "text": "message_id=1530469534958354624 | timestamp=2026-07-25T06:59:31Z",
+        "variant": "caption"
+      }
+    }
+  }
+}
