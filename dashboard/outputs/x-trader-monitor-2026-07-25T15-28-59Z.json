@@ -1,0 +1,140 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "heading",
+        "sep1",
+        "tweet-section",
+        "sep2",
+        "classification-section",
+        "sep3",
+        "link-url"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h3"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "reply-to",
+        "quote"
+      ]
+    },
+    "reply-to": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to @BenSheets69 @ContrarianCurse discussing analysis accuracy:",
+        "variant": "muted"
+      }
+    },
+    "quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"he absolutely nailed it, I wonder if he gets the next phase? (Bullish unlocks?)\"",
+        "variant": "lead"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert",
+        "options"
+      ]
+    },
+    "alert": {
+      "type": "Alert",
+      "props": {
+        "message": "No visible context for which asset/theme. Unable to classify — is this:",
+        "type": "info"
+      }
+    },
+    "options": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opt1",
+        "opt2",
+        "opt3"
+      ]
+    },
+    "opt1": {
+      "type": "Text",
+      "props": {
+        "text": "• Bullish conviction on a specific ticker theyre watching?",
+        "variant": "body"
+      }
+    },
+    "opt2": {
+      "type": "Text",
+      "props": {
+        "text": "• Commentary on another traders analysis accuracy (skip)?",
+        "variant": "body"
+      }
+    },
+    "opt3": {
+      "type": "Text",
+      "props": {
+        "text": "• Something else?",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link-url": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View on X",
+        "href": "https://x.com/Wild_Randomness/status/2081037952915038497",
+        "source": "X"
+      }
+    }
+  }
+}
