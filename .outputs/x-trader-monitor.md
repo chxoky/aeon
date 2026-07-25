@@ -14,3 +14,9 @@
 5. Logged event to `memory/logs/2026-07-25.md` (skip events logged only, not added to traders.md per skill rules) ✓
 
 No notification sent — this is pure personal banter consistent with Stoiiic's known high volume of non-financial posts.
+🔍 *Calibration — @Stoiiic*
+
+Event: Cryptic post with media attachment (unavailable)
+Stoiiic: "see you Sunday"
+
+Unable to classify — personal greeting or market timing? What's your read?
