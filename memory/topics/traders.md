@@ -405,6 +405,7 @@ BOOTSTRAP_COMPLETE: 2026-07-14
 - Current open positions:
   - **NVDA August puts** — entered Jul 14 21:55Z, small size, plan to add on pops; hard exit if NVDA weekly closes above $215. **Awaiting Kyle approval to mirror on Kraken since Jul 14** [2077150011847016918]. Jul 17 "bag hold these re-entered August puts" — whether "re-entered" = new add or original holding is unresolved [2078209471000551879].
   - **NVDA equity long** — doubled position at $213 at Jul 15 open [2077419864185323597], re-added at $211 Jul 15 19:20Z [2077473282195071203]. Invalidation: $215 weekly close. Layered/DCA entry strategy per "chart looks good today = chart looks bad tomorrow" playbook.
+  - **Aug 21 crypto puts — CLOSED Jul 25 15:31Z** ("closed all my Aug 21 crypto puts this AM"). Position closed ahead of BTC pattern recognition/technical setup.
   - **SPY** — averaging in ("tapping my SPY box again", ~30,000 NQ notional context, Jul 14); selected SPY over QQQ as cheapest hedge (dispersion/correlation-pickup thesis). Plus short-term right-tail/put positions.
   - **VIX calls, Dec 2031 expiry** — bought Jul 15 15:30Z, no size/exit stated; awaiting Kyle approval to mirror [2077415514746318933].
   - **EWY/KOSPI long** — Korea/Hynix bottom thesis, bid zone 6800–7100; +15% bounce within 24h; would look to TP 7800–8100 [2077238411522416952].
@@ -425,8 +426,9 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - PENDING: ETH "caught a pico top short for like $120" — open position to mirror or closed-trade reflection? [2079738276941119612]
   - PENDING: CCJ "We have arrived…" — entry confirmation or pure setup observation? [2079752801383498120]
   - PENDING: standing protocol for this trader's persistent cryptic/URL-minimal posts — keep flagging each individually or adopt a standing rule? [2078496857953857759]
-- Last seen: 2026-07-25 13:50:40 UTC
+- Last seen: 2026-07-25 15:31:15 UTC
 - **Events (rolling):**
+  - Jul 25 15:31Z — position-mgmt: BTC "closed all my Aug 21 crypto puts this AM"; technical pattern analysis sharing symmetric BTC daily chart (80K→57.5K downtrend mirrored by current reversal structure, multiple support levels 67.5K/65K/60K/57.5K marked); X post: "The symmetry… starting to see it?" with 3 chart images [2081039584583168342]
   - Jul 25 13:50Z — informational: market psychology commentary on trader Gavin Baker's "risk/reward attractive" calls; analyzes how retail misconstrued bullish long-term signal as short-term trading call, leading to liquidations; QQQ down −4% in 6 days since call; images: Discord debate on Baker's tweet format repeat, Baker's Jul 16/Mar 30 "risk/reward" tweets, QQQ technical chart. Trader analysis of credible-name influence on retail behavior drawdowns [2081014270012113241]
   - Jul 25 13:20Z — informational: shared market structure flow analysis (Kospi → US Momentum → US Indices) with "hmm" caption; reiteration of risk-off cascade from Asia equities through momentum to broad US indices; validates Korea/Hynix thesis exposure via EWY/KOSPI long position, aligns with macro risk-on/off barometer tracking; informational observation, no personal trade action [2081006591516848452]
   - Jul 22 22:28Z — informational: BTC cycle-bottom skepticism, too many bottom calls this cycle vs historical precedent [2080057517866909723]
