@@ -806,3 +806,13 @@ BOOTSTRAP_COMPLETE: 2026-07-14
 - Last seen: 2026-07-24 19:45:30 UTC
 - **Events (rolling):**
   - Jul 24 19:45Z — ambiguous: reply to @RyanJon06636091 "BTC / perp DEXs. ~ Dr. Axius." cryptic minimal context, awaiting calibration [2080741181298725312]
+
+## Bitcoin_Astro
+- Platforms: X (X-only)
+- Current open positions: None documented.
+- Recent thesis: Not yet established (marginal trader, minimal observation window).
+- Conviction notes: First sighting Jul 25. Limited posting sample; reply-format sentiment commentary; requires observation to establish pattern/signal quality.
+- Calibration: None yet.
+- Last seen: 2026-07-25 11:37:00 UTC
+- **Events (rolling):**
+  - Jul 25 11:37Z — informational: reply to @JohnSnow361474 bearish scenario sentiment "We better not go there, that would mean multy year bear market"; context-dependent on original post (what is 'there'?); macro bearish directional view, no personal trade action [2080980633162076381]
