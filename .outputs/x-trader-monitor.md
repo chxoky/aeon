@@ -1,5 +1,8 @@
-🐦 *[X] @ryzzqq*
+🔴 *Exit — @ryzzqq*
 
-**LIT** — Technical downtrend analysis. Chart shows 4-hour decline from 2.7549 to 1.9870 (-27%). Sentiment: "beta for a reason" — bearish commentary on lack of adoption/proven utility.
+TAO long closed at 191 for **-3% loss**.
 
-[View tweet](https://x.com/ryzzqq/status/2080835921184792600)
+Earlier entry (Jul 22 13:17Z): "longed some tao here... left room to add on the chop"
+(Approval never given — no mirror held)
+
+[View post](https://x.com/ryzzqq/status/2080840438265843816)

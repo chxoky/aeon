@@ -1,0 +1,57 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading_exit",
+        "stat_tao",
+        "text_entry",
+        "alert_approval",
+        "link_post"
+      ]
+    },
+    "heading_exit": {
+      "type": "Heading",
+      "props": {
+        "text": "🔴 Exit — @ryzzqq",
+        "level": "h2"
+      }
+    },
+    "stat_tao": {
+      "type": "Stat",
+      "props": {
+        "label": "TAO Long",
+        "value": "191",
+        "delta": "-3%",
+        "trend": "down"
+      }
+    },
+    "text_entry": {
+      "type": "Text",
+      "props": {
+        "text": "Earlier entry (Jul 22 13:17Z): \"longed some tao here... left room to add on the chop\"",
+        "variant": "caption"
+      }
+    },
+    "alert_approval": {
+      "type": "Alert",
+      "props": {
+        "title": "Note",
+        "message": "Approval never given — no mirror held",
+        "type": "warning"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/ryzzqq/status/2080840438265843816"
+      }
+    }
+  }
+}

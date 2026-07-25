@@ -728,7 +728,7 @@ BOOTSTRAP_COMPLETE: 2026-07-14
 
 ## ryzzqq
 - Platforms: X
-- Current open positions: (1) Long filled Jul 9 ("filled some longs here... left ammo for lower, one more leg left before it dies") — likely BTC/crypto, small, unconfirmed since. (2) ELHFI — took profit Jul 16 02:33Z at "decent spot" citing majors weakness (no price/size given); position presumed closed/reduced. (3) TAO — new LONG entered Jul 22 13:17Z at market ("longed some tao here"), expects chop first, left room to add on the chop; PENDING Kyle approval via `approve TAO` reply. Also expressed forward-looking intent (not yet executed): ETH shorts "over the next few days"; SPCX buy interest 120-130 (IPO was 135).
+- Current open positions: (1) Long filled Jul 9 ("filled some longs here... left ammo for lower, one more leg left before it dies") — likely BTC/crypto, small, unconfirmed since. (2) ELHFI — took profit Jul 16 02:33Z at "decent spot" citing majors weakness (no price/size given); position presumed closed/reduced. (3) TAO — CLOSED Jul 25 02:19Z for -3% loss at 191 entry. Also expressed forward-looking intent (not yet executed): ETH shorts "over the next few days"; SPCX buy interest 120-130 (IPO was 135).
 - Recent thesis: Bullish that July lows are in post-max-FUD; 68K before any 58K revisit, was buying dips. Now rotating: long TAO on AI-narrative rotation as previous leaders lose momentum, while turning tactically bearish ETH (looking for shorts next few days). SPCX contrarian buy interest 120-130 ("betting they crime it into unlocks") vs group bearish lean.
 - Conviction notes: Very low posting volume — low-signal account, so treat any post as relatively high-intent given rarity. Uses clear first-person execution language when acting ("longed some tao", "decent spot to tp"); much of the rest is terse context-dependent replies and personal banter/sports posts that carry no signal.
 - Calibration:
@@ -741,8 +741,9 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - PENDING: "@0xbeyonder is it fixed now?" — platform bug, position, or non-trading? [2077954424379760942]
   - PENDING: "@sidereal118 maybe" — context unknown [2077957777851629586]
   - PENDING: "@donnieearklano @Supbads will wait for weakness" — add to TAO, ETH short entry, or unrelated? [2079925208136462545]
-- Last seen: 2026-07-25 02:01:58 UTC
+- Last seen: 2026-07-25 02:19:55 UTC
 - **Events (rolling):**
+  - Jul 25 02:19Z — mirror-close: TAO long closed at 191 for -3% loss; no mirror position held by Kyle (approval never given); informational alert sent [2080840438265843816]
   - Jul 25 02:01Z — informational: LIT technical downtrend analysis, bearish sentiment "beta for a reason"; chart shows 4h decline from 2.7549→1.9870 (27% loss), market observation commentary, no personal trade action [2080835921184792600]
   - Jul 23 05:36Z — ambiguous: TAO bearish — "@Prof_Meowington i dont think tao is the kind of coin that survives yet another cycle" — contradicts pending LONG entry from 16h prior; unclear if position reversal, conviction downgrade, or separate sentiment; awaiting Kyle calibration [2080165068629504426]
   - Jul 22 13:43Z — ambiguous: "will wait for weakness" — TAO add vs ETH short vs unrelated [2079925208136462545]
