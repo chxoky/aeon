@@ -1,0 +1,105 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "sep1",
+        "key_levels",
+        "sep2",
+        "link_tweet"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Whales are accumulating\n\nChart: ProShares UltraPro Short QQQ (SQQQ) 1D — institutional buyers visible at key support zones (45.110 & 35.800). Downtrend from 90.715 → 40-45 range signals structured Nasdaq weakness. Correlations normalizing; dispersion trade coming to a head."
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "key_levels": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_peak",
+        "stat_support1",
+        "stat_support2",
+        "stat_range"
+      ]
+    },
+    "stat_peak": {
+      "type": "Stat",
+      "props": {
+        "label": "Peak",
+        "value": "90.715"
+      },
+      "children": []
+    },
+    "stat_support1": {
+      "type": "Stat",
+      "props": {
+        "label": "Support 1",
+        "value": "45.110"
+      },
+      "children": []
+    },
+    "stat_support2": {
+      "type": "Stat",
+      "props": {
+        "label": "Support 2",
+        "value": "35.800"
+      },
+      "children": []
+    },
+    "stat_range": {
+      "type": "Stat",
+      "props": {
+        "label": "Current Range",
+        "value": "40-45"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2081009528934711550"
+      },
+      "children": []
+    }
+  }
+}
