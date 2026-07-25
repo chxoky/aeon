@@ -1,0 +1,68 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Message calibration and classification"
+      },
+      "children": [
+        "heading_calibration",
+        "text_calibration_tag",
+        "sep1",
+        "text_message",
+        "sep2",
+        "alert_classify"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text_calibration_tag": {
+      "type": "Text",
+      "props": {
+        "text": "[DC: HCH — Free]",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text_message": {
+      "type": "Text",
+      "props": {
+        "text": "Message: \"Expected outcome\" + image attachment",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert_classify": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Is this referencing a prior chart/setup or position outcome?",
+        "type": "warning"
+      },
+      "children": []
+    }
+  }
+}
