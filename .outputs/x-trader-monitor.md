@@ -17,3 +17,8 @@ Perfect. Event processed successfully.
 - Logged event to daily memory (memory/logs/2026-07-25.md)
 
 **Action:** None (silently skipped per protocol). No notification sent.
+🐦 *[X] @Wild_Randomness*
+
+On trading styles: Discipline cuts drawdown but costs massive multibaggers (exits stopped out of winners). Regrets chart sales now worth 100x+. "In a secular bull market your strategy is clearly better" — acknowledges conviction holding beats risk management in this regime.
+
+[View tweet](https://x.com/Wild_Randomness/status/2081044541646508079)

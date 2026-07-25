@@ -1,0 +1,43 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "link_view"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "On trading styles: Discipline cuts drawdown but costs massive multibaggers (exits stopped out of winners). Regrets chart sales now worth 100x+. \"In a secular bull market your strategy is clearly better\" — acknowledges conviction holding beats risk management in this regime."
+      },
+      "children": []
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2081044541646508079"
+      },
+      "children": []
+    }
+  }
+}
