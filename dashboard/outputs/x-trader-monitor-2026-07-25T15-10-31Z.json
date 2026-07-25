@@ -1,0 +1,22 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "alert_empty"
+      ]
+    },
+    "alert_empty": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "No skill output content provided"
+      }
+    }
+  }
+}
