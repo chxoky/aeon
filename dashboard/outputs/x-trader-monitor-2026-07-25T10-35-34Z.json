@@ -1,0 +1,44 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-card",
+        "link-view",
+        "separator",
+        "analysis"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "$BTC\n\nIf we're being completely objective, if Bitcoin loses it's daily uptrend, there's a strong chance we revisit the 61.3K region and sweep the liquidity below the lows.\n\nIf we're going to take the 67–68K highs, you'd want to see this trend hold."
+      }
+    },
+    "link-view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2080963872450642157"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {}
+    },
+    "analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Reinforces structural bullish thesis (trend hold → 67-68K highs) with near-term downside caution (61.3K support break scenario).",
+        "variant": "caption"
+      }
+    }
+  }
+}
