@@ -1,0 +1,78 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge-calibration",
+        "text-attribution",
+        "separator-1",
+        "tweet-content",
+        "separator-2",
+        "alert-context",
+        "text-question"
+      ]
+    },
+    "badge-calibration": {
+      "type": "Badge",
+      "props": {
+        "text": "Calibration",
+        "variant": "default"
+      }
+    },
+    "text-attribution": {
+      "type": "Text",
+      "props": {
+        "text": "@Wild_Randomness",
+        "variant": "muted"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-content": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Unknown",
+        "text": "@PlutonicXBT @stoicsavage They must pay"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert-context": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "No visible market context or ticker mention."
+      }
+    },
+    "text-question": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "lead"
+      }
+    }
+  }
+}
