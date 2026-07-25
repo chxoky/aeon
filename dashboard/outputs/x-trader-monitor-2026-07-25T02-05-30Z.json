@@ -1,0 +1,63 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "analysis_section"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "ryzzqq",
+        "handle": "@ryzzqq",
+        "text": "LIT — Technical downtrend analysis. Chart shows 4-hour decline from 2.7549 to 1.9870 (-27%). Sentiment: \"beta for a reason\" — bearish commentary on lack of adoption/proven utility."
+      },
+      "children": []
+    },
+    "analysis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "price_stat",
+        "sentiment_badge",
+        "link_tweet"
+      ]
+    },
+    "price_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "LIT 4-hour decline",
+        "value": "1.9870",
+        "delta": "-27%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "sentiment_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "beta for a reason — bearish on adoption/utility",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/ryzzqq/status/2080835921184792600"
+      },
+      "children": []
+    }
+  }
+}

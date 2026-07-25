@@ -24,7 +24,7 @@
 - **$ORCL**: Wild_Randomness — bullish, short-squeeze thesis, "motion."
 - **$META**: Wild_Randomness — Pascal's-wager long idea, tight stop ~615.
 - **$EWY / $KOSPI**: Wild_Randomness — bid zone 6800–7100 (Korea/Hynix bottom). HeartCanHodl macro alert (Jul 16 03:36 UTC): 5 KOSPI circuit breakers triggered in 2 months (June-July 2026), representing nearly half of all such events since 2000 in this 2-month window — market-stress/instability signal reinforcing HCH's bearish macro thesis.
-- **$LIT**: Wild_Randomness — weekend momentum long (cup-and-handle above POC).
+- **$LIT**: Wild_Randomness — weekend momentum long (cup-and-handle above POC, status ambiguous as of Jul 15 "hard mode" comment). ryzzqq (Jul 25 02:01Z) — bearish technical sentiment "beta for a reason", 4h chart showing 27% decline 2.7549→1.9870; second-trader mention, tracking for momentum convergence.
 - **$BE** (Bloom): Wild_Randomness — sold rejection small loss, will rebuy a reclaim (~240).
 - **$OKLO**: Wild_Randomness — uranium, "run before a Q3 index top."
 - **$ALAB** (Astera): Wild_Randomness — bidding the 200DMA/prior-ATH retest ~September.
