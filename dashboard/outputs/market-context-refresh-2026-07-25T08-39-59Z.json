@@ -1,0 +1,295 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Market Context — 2026-07-25"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "sentiment-section",
+        "sep1",
+        "assets-section",
+        "sep2",
+        "indicators-section",
+        "sep3",
+        "narrative-section"
+      ]
+    },
+    "sentiment-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "label-take",
+        "badge-riskoff",
+        "badge-conviction"
+      ]
+    },
+    "label-take": {
+      "type": "Text",
+      "props": {
+        "text": "Take:",
+        "variant": "lead"
+      }
+    },
+    "badge-riskoff": {
+      "type": "Badge",
+      "props": {
+        "text": "risk-off",
+        "variant": "destructive"
+      }
+    },
+    "badge-conviction": {
+      "type": "Badge",
+      "props": {
+        "text": "conviction high",
+        "variant": "secondary"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "assets-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-assets",
+        "grid-prices",
+        "fg-line"
+      ]
+    },
+    "heading-assets": {
+      "type": "Heading",
+      "props": {
+        "text": "Assets",
+        "level": "h3"
+      }
+    },
+    "grid-prices": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat-btc",
+        "stat-eth"
+      ]
+    },
+    "stat-btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$63.9K",
+        "delta": "−2.2%",
+        "trend": "down"
+      }
+    },
+    "stat-eth": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$1,854",
+        "delta": "−1.9%",
+        "trend": "down"
+      }
+    },
+    "fg-line": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "text-fg",
+        "badge-fg"
+      ]
+    },
+    "text-fg": {
+      "type": "Text",
+      "props": {
+        "text": "Fear & Greed:",
+        "variant": "body"
+      }
+    },
+    "badge-fg": {
+      "type": "Badge",
+      "props": {
+        "text": "27 (Fear)",
+        "variant": "destructive"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "indicators-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-indicators",
+        "breadth-stack",
+        "tvl-stat",
+        "chains-stat"
+      ]
+    },
+    "heading-indicators": {
+      "type": "Heading",
+      "props": {
+        "text": "Market Indicators",
+        "level": "h3"
+      }
+    },
+    "breadth-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "breadth-label",
+        "breadth-prog"
+      ]
+    },
+    "breadth-label": {
+      "type": "Text",
+      "props": {
+        "text": "Breadth",
+        "variant": "caption"
+      }
+    },
+    "breadth-prog": {
+      "type": "Progress",
+      "props": {
+        "value": 15,
+        "max": 100,
+        "label": "3/20"
+      }
+    },
+    "tvl-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "TVL ETH",
+        "value": "−$300M",
+        "trend": "down"
+      }
+    },
+    "chains-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Chains",
+        "value": "flat",
+        "trend": "neutral"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "narrative-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-narrative",
+        "fomc-stack",
+        "hotmarket-stack"
+      ]
+    },
+    "heading-narrative": {
+      "type": "Heading",
+      "props": {
+        "text": "Market Narrative",
+        "level": "h3"
+      }
+    },
+    "fomc-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "label-fomc",
+        "fomc-text",
+        "nochange-prog"
+      ]
+    },
+    "label-fomc": {
+      "type": "Text",
+      "props": {
+        "text": "Top Narrative:",
+        "variant": "caption"
+      }
+    },
+    "fomc-text": {
+      "type": "Text",
+      "props": {
+        "text": "FOMC gate (T−3 days)",
+        "variant": "body"
+      }
+    },
+    "nochange-prog": {
+      "type": "Progress",
+      "props": {
+        "value": 73.3,
+        "max": 100,
+        "label": "No-change: 73.3%"
+      }
+    },
+    "hotmarket-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "label-hotmarket",
+        "badge-fed"
+      ]
+    },
+    "label-hotmarket": {
+      "type": "Text",
+      "props": {
+        "text": "Hot Market:",
+        "variant": "caption"
+      }
+    },
+    "badge-fed": {
+      "type": "Badge",
+      "props": {
+        "text": "Fed",
+        "variant": "secondary"
+      }
+    }
+  }
+}

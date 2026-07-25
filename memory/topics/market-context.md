@@ -1,78 +1,72 @@
-# Market Context (as of 2026-07-24)
+# Market Context (as of 2026-07-25)
 
-> **Take:** risk-off — BTC −1.7% to $64K as the 7-day ETF inflow streak snapped ($225M outflows, IBIT −$202M) and tariffs remain live; breadth 4/20 green. Conviction: high (BTC down, ETF flipped, breadth weak, F&G fear — TVL flat is the only dissent).
+> **Take:** risk-off — BTC −2.2% to $63.9K with breadth 3/20 (worst of the July risk-off period); no catalyst before FOMC Jul 28–29. Conviction: high.
 
 ## Signal Snapshot
-- BTC $64,000 (−1.7% 24h, +1.5% 7d) · dominance 56.52% (−0.26pp 24h)
-- ETH $1,855 (−2.6% 24h, +1.4% 7d) · ETH/BTC 0.02898
-- SOL $74.03 (−3.6% 24h, −0.3% 7d)
-- Total mcap $2.27T (−1.4% 24h) · DEX vol $6.66B 24h
-- Breadth: 4/20 green 24h · 10/20 green 7d
-- Fear & Greed: 28 (Fear) — yesterday 31 (Fear)
+- BTC $63,941 (−2.2% 24h, +0.1% 7d) · dominance 56.52% (flat vs prior)
+- ETH $1,854.51 (−1.9% 24h, +0.6% 7d) · ETH/BTC 0.02900
+- SOL $73.77 (−2.8% 24h, −1.5% 7d)
+- Total mcap $2.27T (−1.65% 24h) · DEX vol ~$6.66B 24h [carried from Jul 24]
+- Breadth: 3/20 green 24h · 6/20 green 7d
+- Fear & Greed: 27 (Fear) — yesterday 28
 
 ## What Changed Since Last Refresh
-- **BTC dropped $1,400 (−2.1%) from prior snapshot ($65,394 → $64,000)** — exceeds ±1% threshold; tariff pressure finally biting BTC after altcoins distributed earlier.
-- **BTC ETF 7-day inflow streak snapped — $225M net outflows Jul 24** (IBIT alone −$202M, Morgan Stanley MSBT only fund with inflows +$5M). Prior "institutional floor" counter-narrative is now broken; total week still +$274M but daily flow reversed.
-- **FOMC no-change ticked to 73.75% (−1.1pp from 74.85%)** — minor regression; +25bps at 26.25%. Directional move not yet material but consistent with renewed uncertainty as BTC slips and equities soften.
-- **Clarity Act odds falling (per Jul 23 reporting)** — Bessent's "1-yard line" framing not yet translated to scheduled vote; regulatory upside window narrowing pre-FOMC.
+Quiet — BTC snapshot-to-snapshot within ±1% ($64,000→$63,941); regime unchanged (risk-off, day 2). No material macro event; no ETF flow reversal. Two minor signals: breadth worsened to 3/20 (from 4/20), confirming pump rotation (PONS/AKE/CASHCAT) exhausted and gone from trending; F&G edged from 28 to 27. FOMC now T−3 days (Jul 28–29). Market in pre-meeting stasis.
 
 ## Active Narratives
-- **Tariff macro overhang** — phase: rising (dominant). Evidence: 10–12.5% tariffs on 60+ partners live Jul 24; BTC now −1.7% (broke below flat), ETF streak snapped with $225M outflows; breadth 4/20 = alts distributing through US market open.
-- **BTC ETF institutional bid** — phase: fading (reversal). Evidence: 7-day inflow streak ($1B+) ended Jul 24 with $225M net outflows; IBIT −$202M single-session exit. Prior regime signal (institutional floor) now invalid until inflows resume.
-- **FOMC hawkish uncertainty** — phase: peak (binary gate). Evidence: no-change 73.75% (stable majority), +25bps 26.25%; Jul 28-29 meeting in 5 days. BTC sub-$64K before meeting opens $62–63K test path.
-- **Regulatory clarity (Clarity Act / GENIUS Act)** — phase: fading. Evidence: Jul 23 odds falling per Motley Fool; OCC GENIUS Act comment period closed Jul 24 with no scheduled vote; Bessent "1-yard line" framing from Jul 22 losing momentum.
-- **Low-cap pump rotation (PONS, AKE, CASHCAT)** — phase: peak. Evidence: PONS +36.9%, AKE +26.7%, CASHCAT +11.75% (decelerated from +24.8% yesterday) — basket narrowing, pump exhaustion signal; classic late-cycle micro-rotation topping pattern.
+- **Tariff macro overhang** — phase: rising (dominant). Evidence: 10–12.5% tariffs on 60+ partners active; BTC −2.2% with breadth 3/20 and no offset catalyst materializing.
+- **FOMC gate** — phase: peak (binary, T−3 days). Evidence: Jul 28–29 meeting; Polymarket no-change 73.3% (regression from 73.75%); +25bps 26.7%. BTC sub-$64K heading into meeting; $62–63K test path open if selling continues.
+- **DeFi accumulation / Morpho** — phase: emerging. Evidence: MORPHO trending (#56 mcap rank Jul 25); Morpho Blue TVL +1.58% 7d on a down-market day; "Morpho Ecosystem" category $10.86B across 47 assets (CoinGecko).
+- **BTC ETF institutional bid** — phase: fading. Evidence: Jul 24 $225M outflow (IBIT −$202M) not reversed; no new inflow data as of Jul 25 session; 7-day inflow streak broken.
+- **Low-cap pump rotation** — phase: fading. Evidence: PONS/AKE/CASHCAT absent from trending (were top-3 Jul 24 at +36%/+27%/+12%); basket exhausted, no replacement identified.
 
 ## Top DeFi Protocols (TVL, 7d change)
-- Lido: $17.55B (+3.33%) [carried from prior snapshot]
-- Aave V3: $13.76B (+2.19%) [carried from prior snapshot]
-- SSV Network: $9.18B (+2.11%) [carried from prior snapshot]
-- Morpho Blue: ~$7.5B (+2.28%) [carried from prior snapshot]
-- WBTC: ~$7.5B (+1.45%) [carried from prior snapshot]
+- Lido: $17.3B (+2.36%)
+- Aave V3: $13.6B (+0.25%)
+- SSV Network: $9.1B (+2.06%)
+- Morpho Blue: $7.5B (+1.58%)
+- WBTC: ~$7.5B [carried from Jul 24]
 
-## Chain Flow (top 6 by TVL, vs prior snapshot)
-- Ethereum: $41.43B (−$0.03B, flat)
-- Solana: $4.89B (−$0.01B, flat)
-- Tron: $4.84B (−$0.01B, flat)
-- BSC: $4.83B (+$0.05B, +1.0%)
-- Base: $4.60B (−$0.01B, flat)
-- Bitcoin: $4.26B (−$0.02B, flat)
-*All chains essentially flat — no capital rotation signal. BSC minor uptick (+1%). Wait-and-see pre-FOMC positioning confirmed.*
+## Chain Flow (top 6 by TVL, vs Jul 24 snapshot)
+- Ethereum: $41.13B (−$300M, −0.7%)
+- BSC: $4.81B (−$20M, flat)
+- Solana: $4.80B (−$90M, −1.8%)
+- Tron: $4.80B (−$40M, flat)
+- Base: $4.55B (−$50M, −1.1%)
+- Bitcoin: $4.19B (−$70M, −1.6%)
+*Ethereum the main nominal drain (−$300M); broad outflow across chains consistent with pre-FOMC positioning.*
 
 ## Stablecoins
-Total: ~$278B (flat). USDT $184.12B · USDC $74.02B · USDS $6.66B · DAI $4.86B · USD1 $4.18B · USDe $3.99B — combined share of total mcap ~12.2%.
+Total: ~$278B (flat). USDT ~$184.0B · USDC ~$72.6B · USDS $6.66B · DAI $4.86B · USDe $3.99B — combined share of mcap ~12.2%.
 
 ## Trending (CoinGecko)
-- PONS — #607, $0.039, +36.9% 24h. Low-cap pump; decelerated from +44% yesterday, PUMP-RISK.
-- AKE (Akedo) — #377, $0.0026, +26.7% 24h. Low-cap pump, PUMP-RISK.
-- CASHCAT — #433, $0.050, +11.75% 24h. Sharply decelerated from +24.8% yesterday; pump fading.
-- GMX — #306, $7.27, +7.2% 24h. DEX token outperforming on risk-off day; DeFi rotation signal.
-- DEXE — #218, $2.72, −10.8% 24h. Day 8 collapse (was −33% yesterday, bouncing off panic lows); distress traffic still elevated.
-- LIT — #97, $2.11, −5.6% 24h. Mid-cap distribution.
-- BTC — #1, $64,058, −1.25% 24h. Trending on ETF outflow + tariff news.
-- ETH — #2, $1,855, −2.36% 24h. Underperforming BTC on tariff day (ETH/BTC declining).
+- DEXE — #132, still trending (was #218 Jul 24 at −10.8%); distress-bounce traffic elevated
+- ZAMA — #222; zero-knowledge ML privacy chain; infrastructure narrative
+- PENGU (Pudgy Penguins) — #114; NFT-linked token, floor activity (+53% Nakamigos 24h) driving interest
+- MORPHO — #56; DeFi lending; TVL +1.58% 7d, ecosystem $10.86B, relative outperformer
+- EUL (Euler) — #582; lending protocol; speculative (prior hack association)
+- SOL — #7; size-driven search volume despite −2.8% 24h
+- TAO (Bittensor) — #42; AI/ML subnet; background accumulation signal
 
 ## Prediction Markets (Polymarket, top by 24h vol)
 | Market | YES% | 24h Vol | Liquidity |
 |--------|------|---------|-----------|
-| Fed no change after July 2026 meeting | 73.75% | $1.10M | $0.33M |
-| Fed +25bps after July 2026 meeting | 26.25% | — | — |
-| Hamburg Open: Sherif to advance | 59.5% | $1.17M | $0.27M |
+| Fed no change after July 2026 meeting | 73.3% | $1.12M | $0.31M |
+| U.S. invades Iran before 2027 | 28.5% | $0.65M | $0.83M |
 
-*FOMC: no-change at 73.75% (−1.1pp from prior 74.85%); minor regression but still strong majority. +25bps at 26.25% (up from 24.45%). Geopolitical markets absent from top-volume list today.*
+*FOMC: no-change 73.3% (−0.45pp from 73.75%); +25bps 26.7%. Iran risk elevated in volume rankings but not the dominant positioning signal.*
 
-## Macro Catalysts (next 5 days)
-- **Tariffs live (ongoing):** 10–12.5% on 60+ partners active; primary risk-off pressure. BTC ETF outflows today suggest institutional players reducing exposure, not just passive hold-through.
-- **FOMC Jul 28-29 (binary gate, 5 days):** No-change 73.75%, +25bps 26.25%. BTC sub-$64K is now in play; $62-63K path opens if hawkish repricing resumes before meeting. Watch $64K hold into weekend.
-- **Clarity Act (stalling, timing uncertain):** Bessent "1-yard line" Jul 22 but Jul 23 odds falling. No scheduled vote. Not a near-term catalyst until Congressional calendar confirms floor time.
+## Macro Catalysts (next 48h)
+- **FOMC Jul 28–29 (T−3 days, binary gate):** No-change 73.3%, +25bps 26.7%. BTC at $63.9K; $64K support broken. $62–63K test path open into weekend. Pre-meeting positioning likely continues.
+- **BTC ETF Jul 25 flow data (post US close):** Second consecutive outflow day would confirm trend break; inflow reversal would be the primary sentiment signal to watch.
 
 ## Implications for Downstream Skills
-- **token-pick:** Do not initiate new positions — ETF outflows + tariffs + FOMC gate = triple headwind. BTC $64K is the key support; break below opens $62–63K retest. CASHCAT pump fading (−13pp deceleration), close or avoid. DEXE/PONS/AKE = noise. GMX +7.2% on a red day is the only DeFi standout but thin conviction pre-FOMC.
-- **narrative-tracker:** ETF outflow is the session's primary new signal — monitor whether Jul 25 data reverses (one-day event) or confirms trend break. FOMC no-change regression to 73.75% needs watching; sub-70% would restart risk-off cascade. Clarity Act narrative needs a scheduled vote date to revive.
+- **token-pick:** Hold off. Risk-off day 2, no catalyst, FOMC 3 days out. MORPHO/DeFi lending showing relative strength (TVL positive on a red day) — revisit post-FOMC if inflows resume. Avoid pump-rotation names; basket exhausted.
+- **narrative-tracker:** ETF flow data (Jul 25, post US close) is the pivotal signal. Second outflow day confirms trend; single reversal day insufficient. MORPHO emerging narrative worth flagging for next week. Stoiiic's "stop phase" cycle chart this morning is a soft regime read: CT thinks we're in trend interruption, not continuation.
 
 ## Token Picks Made
 | Date | Token | Price | Thesis |
 
 ---
 *Sources — btc/eth: CoinGecko · defi: DeFiLlama · sentiment: alternative.me · markets: Polymarket · catalysts: WebSearch*
-*Source status: coingecko=ok defillama=ok fng=ok polymarket=ok websearch=ok*
+*Source status: coingecko=ok defillama=ok fng=ok polymarket=ok websearch=ok dex-vol=carried*

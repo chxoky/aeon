@@ -1,7 +1,7 @@
-market context — 2026-07-24
+market context — 2026-07-25
 
 take: risk-off (conviction high)
-BTC $64K (−1.7%) / ETH $1,855 (−2.6%) · F&G 28 (Fear)
-breadth 4/20 · ETF streak SNAPPED ($225M outflows, IBIT −$202M)
-top narrative: tariff overhang (rising) + ETF floor broken
-hot market: "Fed no change Jul 2026" YES 73.75%
+BTC $63.9K (−2.2%) / ETH $1,854 (−1.9%) · F&G 27 (Fear)
+breadth 3/20 · TVL eth −$300M · chains flat
+top narrative: FOMC gate (T−3 days, no-change 73.3%)
+hot market: Fed
