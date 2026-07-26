@@ -1,0 +1,129 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-card",
+        "separator-1",
+        "technical-section"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "ANSEM — Daily technical analysis chart showing resistance structure (0.35K, 0.30K, 0.20K zones), current price 0.2014 (+10.11%), RSI indicator tracking. Humorous \"Ansem Express\" post."
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "technical-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tech-heading",
+        "price-stat",
+        "change-stat",
+        "zones-heading",
+        "zones-stack",
+        "rsi-badge",
+        "link-to-tweet"
+      ]
+    },
+    "tech-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Technical Analysis",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "price-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Current Price",
+        "value": "0.2014"
+      },
+      "children": []
+    },
+    "change-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "24h Change",
+        "value": "+10.11%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "zones-heading": {
+      "type": "Text",
+      "props": {
+        "text": "Resistance Zones",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "zones-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "zone-1",
+        "zone-2",
+        "zone-3"
+      ]
+    },
+    "zone-1": {
+      "type": "Badge",
+      "props": {
+        "text": "0.35K"
+      },
+      "children": []
+    },
+    "zone-2": {
+      "type": "Badge",
+      "props": {
+        "text": "0.30K"
+      },
+      "children": []
+    },
+    "zone-3": {
+      "type": "Badge",
+      "props": {
+        "text": "0.20K"
+      },
+      "children": []
+    },
+    "rsi-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RSI Tracking",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "link-to-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2081434907427864769"
+      },
+      "children": []
+    }
+  }
+}
