@@ -1,0 +1,743 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-07-26",
+        "description": "First run baseline — all narratives marked NEW"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "heading_transitions",
+        "transitions_stack",
+        "sep_1",
+        "heading_reflexivity",
+        "reflexivity_stack",
+        "sep_2",
+        "heading_positions",
+        "positions_stack",
+        "sep_3",
+        "heading_map",
+        "map_stack"
+      ]
+    },
+    "heading_transitions": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      }
+    },
+    "transitions_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "trans_1",
+        "trans_2",
+        "trans_3",
+        "trans_4",
+        "trans_5",
+        "trans_6"
+      ]
+    },
+    "trans_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_new_1",
+        "text_trans_1"
+      ]
+    },
+    "badge_new_1": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "secondary"
+      }
+    },
+    "text_trans_1": {
+      "type": "Text",
+      "props": {
+        "text": "FOMC Gate — binary catalyst T−2d; ETF outflows $465M/2d; Polymarket 73.3% no-change; entire risk-asset complex gated on outcome"
+      }
+    },
+    "trans_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_new_2",
+        "text_trans_2"
+      ]
+    },
+    "badge_new_2": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "secondary"
+      }
+    },
+    "text_trans_2": {
+      "type": "Text",
+      "props": {
+        "text": "Meme Rotation — SHIB +38% 2-day breakout now compressing (+28%); PEPE/DOGE along for the ride; FOMC gate headwind"
+      }
+    },
+    "trans_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_new_3",
+        "text_trans_3"
+      ]
+    },
+    "badge_new_3": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "secondary"
+      }
+    },
+    "text_trans_3": {
+      "type": "Text",
+      "props": {
+        "text": "BTC Cycle Bottom — KillaXBT copy-trade poll framing bull cycle 2-3x longs; bull_genius 50K 'fire sale'; F&G 26; capitulation-done thesis gaining cross-trader weight"
+      }
+    },
+    "trans_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_new_4",
+        "text_trans_4"
+      ]
+    },
+    "badge_new_4": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "secondary"
+      }
+    },
+    "text_trans_4": {
+      "type": "Text",
+      "props": {
+        "text": "RWA Tokenization — Robinhood L2 mainnet launched Jul 2026; Santiment: highest RWA discussion of the week; institutional adoption accelerating"
+      }
+    },
+    "trans_5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_new_5",
+        "text_trans_5"
+      ]
+    },
+    "badge_new_5": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "secondary"
+      }
+    },
+    "text_trans_5": {
+      "type": "Text",
+      "props": {
+        "text": "MORPHO / DeFi Relative Strength — emerging as risk-off outperformer; single-ticker signal but directionally significant in 15/20 red tape"
+      }
+    },
+    "trans_6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_new_6",
+        "text_trans_6"
+      ]
+    },
+    "badge_new_6": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "secondary"
+      }
+    },
+    "text_trans_6": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agents + Crypto Infrastructure — x402 protocol 165M txns, $50M vol, 69K agents; Google/Visa/AWS/Anthropic in x402 Foundation; a16z coverage"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_reflexivity": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      }
+    },
+    "reflexivity_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert_1",
+        "alert_2"
+      ]
+    },
+    "alert_1": {
+      "type": "Alert",
+      "props": {
+        "title": "Meme Rotation",
+        "message": "SHIB/PEPE +38%/+12% is narrative-only (zero fundamental shift); social momentum alone driving; unwind risk sharp if FOMC disappoints risk appetite",
+        "type": "warning"
+      }
+    },
+    "alert_2": {
+      "type": "Alert",
+      "props": {
+        "title": "BTC Cycle Bottom",
+        "message": "KillaXBT running copy-trade service poll while amplifying bull-cycle framing (2-3x longs, Bitunix); narrative benefits his subscriber acquisition regardless of outcome",
+        "type": "warning"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_positions": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      }
+    },
+    "positions_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "pos_1",
+        "pos_2",
+        "pos_3",
+        "pos_4",
+        "pos_5",
+        "pos_6"
+      ]
+    },
+    "pos_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_1_header",
+        "pos_1_mindshare",
+        "pos_1_context",
+        "pos_1_bear"
+      ]
+    },
+    "pos_1_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_frontrun",
+        "text_pos_1"
+      ]
+    },
+    "badge_frontrun": {
+      "type": "Badge",
+      "props": {
+        "text": "FRONT-RUN",
+        "variant": "default"
+      }
+    },
+    "text_pos_1": {
+      "type": "Text",
+      "props": {
+        "text": "MORPHO / DeFi Relative Strength"
+      }
+    },
+    "pos_1_mindshare": {
+      "type": "Text",
+      "props": {
+        "text": "Mindshare: 2 ↑ | Bull",
+        "variant": "caption"
+      }
+    },
+    "pos_1_context": {
+      "type": "Text",
+      "props": {
+        "text": "@HeartCanHodl market-context flag; risk-off relative outperformer pattern",
+        "variant": "body"
+      }
+    },
+    "pos_1_bear": {
+      "type": "Alert",
+      "props": {
+        "title": "Bear case",
+        "message": "Single-name DeFi plays lose edge when risk-on rotation resumes post-FOMC",
+        "type": "info"
+      }
+    },
+    "pos_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_2_header",
+        "pos_2_mindshare",
+        "pos_2_context",
+        "pos_2_bear"
+      ]
+    },
+    "pos_2_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_ride",
+        "text_pos_2"
+      ]
+    },
+    "badge_ride": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "default"
+      }
+    },
+    "text_pos_2": {
+      "type": "Text",
+      "props": {
+        "text": "BTC Cycle Bottom"
+      }
+    },
+    "pos_2_mindshare": {
+      "type": "Text",
+      "props": {
+        "text": "Mindshare: 3 ↑ | Bull",
+        "variant": "caption"
+      }
+    },
+    "pos_2_context": {
+      "type": "Text",
+      "props": {
+        "text": "@KillaXBT + @bull_genius + F&G 26 cross-trader convergence",
+        "variant": "body"
+      }
+    },
+    "pos_2_bear": {
+      "type": "Alert",
+      "props": {
+        "title": "Bear case",
+        "message": "KillaXBT's own cycle chart shows distribution at 64-65K; 'crystal clear plan from start of year' = already front-run",
+        "type": "info"
+      }
+    },
+    "pos_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_3_header",
+        "pos_3_mindshare",
+        "pos_3_context",
+        "pos_3_bear"
+      ]
+    },
+    "pos_3_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_ride_2",
+        "text_pos_3"
+      ]
+    },
+    "badge_ride_2": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "default"
+      }
+    },
+    "text_pos_3": {
+      "type": "Text",
+      "props": {
+        "text": "RWA Tokenization"
+      }
+    },
+    "pos_3_mindshare": {
+      "type": "Text",
+      "props": {
+        "text": "Mindshare: 3 ↑ | Bull",
+        "variant": "caption"
+      }
+    },
+    "pos_3_context": {
+      "type": "Text",
+      "props": {
+        "text": "Robinhood L2 launch + Santiment peak-discussion week",
+        "variant": "body"
+      }
+    },
+    "pos_3_bear": {
+      "type": "Alert",
+      "props": {
+        "title": "Bear case",
+        "message": "Robinhood L2 may be adoption-lite; regulatory clarity still pending",
+        "type": "info"
+      }
+    },
+    "pos_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_4_header",
+        "pos_4_mindshare",
+        "pos_4_context",
+        "pos_4_bear"
+      ]
+    },
+    "pos_4_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_fade",
+        "text_pos_4"
+      ]
+    },
+    "badge_fade": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "destructive"
+      }
+    },
+    "text_pos_4": {
+      "type": "Text",
+      "props": {
+        "text": "FOMC Gate"
+      }
+    },
+    "pos_4_mindshare": {
+      "type": "Text",
+      "props": {
+        "text": "Mindshare: 4 ↑↑ | Bear",
+        "variant": "caption"
+      }
+    },
+    "pos_4_context": {
+      "type": "Text",
+      "props": {
+        "text": "Narrative dies post-event T−2d regardless of outcome; ETF outflows are lagging indicator",
+        "variant": "body"
+      }
+    },
+    "pos_4_bear": {
+      "type": "Text",
+      "props": {
+        "text": "",
+        "variant": "caption"
+      }
+    },
+    "pos_5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_5_header",
+        "pos_5_mindshare",
+        "pos_5_context",
+        "pos_5_bear"
+      ]
+    },
+    "pos_5_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_fade_2",
+        "text_pos_5"
+      ]
+    },
+    "badge_fade_2": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "destructive"
+      }
+    },
+    "text_pos_5": {
+      "type": "Text",
+      "props": {
+        "text": "Meme Rotation"
+      }
+    },
+    "pos_5_mindshare": {
+      "type": "Text",
+      "props": {
+        "text": "Mindshare: 3 ↓ | Mixed",
+        "variant": "caption"
+      }
+    },
+    "pos_5_context": {
+      "type": "Text",
+      "props": {
+        "text": "Day-2 compression in progress; FOMC gate eliminates sustained speculative bid; reflexivity unwind imminent",
+        "variant": "body"
+      }
+    },
+    "pos_5_bear": {
+      "type": "Text",
+      "props": {
+        "text": "",
+        "variant": "caption"
+      }
+    },
+    "pos_6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_6_header",
+        "pos_6_mindshare",
+        "pos_6_context",
+        "pos_6_note"
+      ]
+    },
+    "pos_6_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_watch",
+        "text_pos_6"
+      ]
+    },
+    "badge_watch": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "outline"
+      }
+    },
+    "text_pos_6": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agents/Crypto"
+      }
+    },
+    "pos_6_mindshare": {
+      "type": "Text",
+      "props": {
+        "text": "Mindshare: 3 → | Bull",
+        "variant": "caption"
+      }
+    },
+    "pos_6_context": {
+      "type": "Text",
+      "props": {
+        "text": "Long-duration theme, no near-term catalyst; returns to RIDE post-FOMC",
+        "variant": "body"
+      }
+    },
+    "pos_6_note": {
+      "type": "Text",
+      "props": {
+        "text": "",
+        "variant": "caption"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_map": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h2"
+      }
+    },
+    "map_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "map_emerging",
+        "map_rising",
+        "map_peak",
+        "map_fading"
+      ]
+    },
+    "map_emerging": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "map_emerging_label",
+        "map_emerging_value"
+      ]
+    },
+    "map_emerging_label": {
+      "type": "Text",
+      "props": {
+        "text": "Emerging:",
+        "variant": "lead"
+      }
+    },
+    "map_emerging_value": {
+      "type": "Text",
+      "props": {
+        "text": "MORPHO / DeFi Relative Strength"
+      }
+    },
+    "map_rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "map_rising_label",
+        "map_rising_value"
+      ]
+    },
+    "map_rising_label": {
+      "type": "Text",
+      "props": {
+        "text": "Rising:",
+        "variant": "lead"
+      }
+    },
+    "map_rising_value": {
+      "type": "Text",
+      "props": {
+        "text": "BTC Cycle Bottom, RWA Tokenization, AI Agents + Crypto Infrastructure"
+      }
+    },
+    "map_peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "map_peak_label",
+        "map_peak_value"
+      ]
+    },
+    "map_peak_label": {
+      "type": "Text",
+      "props": {
+        "text": "Peak:",
+        "variant": "lead"
+      }
+    },
+    "map_peak_value": {
+      "type": "Text",
+      "props": {
+        "text": "FOMC Gate, Meme Rotation (compressing)"
+      }
+    },
+    "map_fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "map_fading_label",
+        "map_fading_value"
+      ]
+    },
+    "map_fading_label": {
+      "type": "Text",
+      "props": {
+        "text": "Fading:",
+        "variant": "lead"
+      }
+    },
+    "map_fading_value": {
+      "type": "Text",
+      "props": {
+        "text": "Pump-Risk Basket (EUL/PONS/DEXE — distribution phase, IGNORE)"
+      }
+    }
+  }
+}
