@@ -1,0 +1,79 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Skill Health",
+        "description": "2026-07-26"
+      },
+      "children": [
+        "badge_status",
+        "stat_healthy",
+        "separator_1",
+        "heading_nodata",
+        "text_nodata_item",
+        "separator_2",
+        "stack_issues"
+      ]
+    },
+    "badge_status": {
+      "type": "Badge",
+      "props": {
+        "text": "HEALTH: OK"
+      }
+    },
+    "stat_healthy": {
+      "type": "Stat",
+      "props": {
+        "label": "Skills healthy",
+        "value": "7"
+      }
+    },
+    "separator_1": {
+      "type": "Separator"
+    },
+    "heading_nodata": {
+      "type": "Heading",
+      "props": {
+        "text": "NO DATA (1)",
+        "level": "h4"
+      }
+    },
+    "text_nodata_item": {
+      "type": "Text",
+      "props": {
+        "text": "⚪ trader-memory-compact — DISPATCH-SKILL (Sunday-only; no cron-state entry yet)"
+      }
+    },
+    "separator_2": {
+      "type": "Separator"
+    },
+    "stack_issues": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat_open_issues",
+        "stat_resolved"
+      ]
+    },
+    "stat_open_issues": {
+      "type": "Stat",
+      "props": {
+        "label": "Open issues",
+        "value": "0"
+      }
+    },
+    "stat_resolved": {
+      "type": "Stat",
+      "props": {
+        "label": "Resolved this run",
+        "value": "0"
+      }
+    }
+  }
+}
