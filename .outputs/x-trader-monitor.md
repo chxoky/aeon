@@ -1,7 +1,7 @@
-🔍 *Calibration — @swarmister*
+🐦 *[X] @HeartCanHodl*
 
-Event: Reply to @janxbt @garbycan
+Oil shorts already up 5%
 
-Swarmister: "Yes I'm nig"
+[View tweet](https://x.com/HeartCanHodl/status/2081458988030562791)
 
-Text appears truncated/incomplete (ends mid-word). Unable to classify — is this financial or personal banter?
+↳ _CL short entry validated — breakout above $90 on Jul 24 already showing +5% gains; thesis momentum confirmed on downtrend from $93.47→$85.89 per Discord chart update same day._
