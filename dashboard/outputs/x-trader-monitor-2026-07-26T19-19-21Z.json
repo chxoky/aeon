@@ -1,0 +1,77 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration monitoring"
+      },
+      "children": [
+        "heading-calibration",
+        "separator-1",
+        "text-event",
+        "separator-2",
+        "tweet-swarmister",
+        "separator-3",
+        "alert-analysis"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @swarmister",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text-event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @janxbt @garbycan",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "tweet-swarmister": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Swarmister",
+        "handle": "swarmister",
+        "text": "Yes I'm nig"
+      },
+      "children": []
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert-analysis": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Analysis Note",
+        "message": "Text appears truncated/incomplete (ends mid-word). Unable to classify — is this financial or personal banter?"
+      },
+      "children": []
+    }
+  }
+}

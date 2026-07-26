@@ -198,6 +198,9 @@ BOOTSTRAP_COMPLETE: 2026-07-14
 - Conviction notes: ~80% of posts are non-financial social banter (Moscow-based; gym, food, lifestyle, memes) — heavy stream of terse cryptic replies and bare URL-shares to external traders (@blancxbt, @Trade17, @DipWheeler, @bull_genius etc.) that repeatedly require calibration. When a real trade happens, execution language is explicit and first-person ("I've now opened a partial position", "I entered at 2/3 of the volume"). Monitors external paid-call services (@blancxbt thread) — unresolved whether he trades off those signals. Signal weighting: technical posts with ticker + level are high-value; one-word replies are near-zero value.
 - Calibration: No answered calibration rules yet — all items below are still awaiting Kyle's read.
   - PENDING: "@blancxbt A paid call has been detected" — is he tracking paid-call services as a strategy input? (tweet_id=2077722216125301158)
+  - PENDING: Jul 26 19:15Z reply "@janxbt @garbycan Yes I'm nig" — text truncated/incomplete, awaiting calibration [2081458303570161705]
+- **Events (rolling):**
+  - Jul 26 19:15Z — ambiguous: reply to @janxbt/@garbycan "Yes I'm nig" — truncated text, unable to classify [2081458303570161705]
   - PENDING: "Ahhh, anyway, this is for you" + URL — market link or personal share? (tweet_id=2077731242359791690)
   - PENDING: "@blancxbt True (not fake)" — actively trading off external signals, or commentary? (tweet_id=2077734352922804254)
   - PENDING: "@LSDinmycoffee Also" + URL — chart/signal or link share? (tweet_id=2077766169709171185)
