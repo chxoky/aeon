@@ -1,4 +1,4 @@
-🔍 *Calibration — [DC: HCH — Chat]*
+💬 *[DC: HCH — Free]*
 
 Message: "Fc btc 1hr" (2026-07-26T19:00Z, Chat channel)
 
@@ -36,3 +36,4 @@ Perfect! I've successfully executed the discord-trader-monitor skill for the Hea
 No alerts were sent (handled by fast-path), and all memory has been properly updated.
 Is "Fc btc 1hr" a form-confirmed chart observation, a filled confirmation, or something else?
 The message contains no financial signal, no trade execution language, and no market opinion — it's pure social reaction. Per the skill's hardcoded rules, non-financial content is silently skipped without notification.
+CL (Crude Oil) 1h validating short thesis from ~$90 entry yesterday; current 85.89 with key support levels 85.00, 87.38, 87.75

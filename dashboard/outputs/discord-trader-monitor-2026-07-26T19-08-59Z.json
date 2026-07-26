@@ -1,0 +1,90 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading",
+        "badges",
+        "stat-price",
+        "support-text"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "CL (Crude Oil)",
+        "level": "h3"
+      }
+    },
+    "badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-timeframe",
+        "badge-thesis",
+        "badge-source",
+        "badge-free"
+      ]
+    },
+    "badge-timeframe": {
+      "type": "Badge",
+      "props": {
+        "text": "1h"
+      }
+    },
+    "badge-thesis": {
+      "type": "Badge",
+      "props": {
+        "text": "Short",
+        "variant": "destructive"
+      }
+    },
+    "badge-source": {
+      "type": "Badge",
+      "props": {
+        "text": "DC: HCH",
+        "variant": "secondary"
+      }
+    },
+    "badge-free": {
+      "type": "Badge",
+      "props": {
+        "text": "Free"
+      }
+    },
+    "stat-price": {
+      "type": "Stat",
+      "props": {
+        "label": "Price (Entry ~$90)",
+        "value": "85.89",
+        "delta": "-4.11",
+        "trend": "down"
+      }
+    },
+    "support-text": {
+      "type": "Text",
+      "props": {
+        "text": "Support levels: 85.00, 87.38, 87.75",
+        "variant": "caption"
+      }
+    }
+  }
+}
