@@ -1,0 +1,203 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "header",
+        "intro",
+        "proposal",
+        "sep1",
+        "details-section",
+        "sep2",
+        "concerns-section",
+        "sep3",
+        "cta-section"
+      ]
+    },
+    "header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "emoji-badge",
+        "handle-badge"
+      ]
+    },
+    "emoji-badge": {
+      "type": "Text",
+      "props": {
+        "text": "💬"
+      }
+    },
+    "handle-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DC: K",
+        "variant": "outline"
+      }
+    },
+    "intro": {
+      "type": "Text",
+      "props": {
+        "text": "Just out of complete curiosity,",
+        "variant": "lead"
+      }
+    },
+    "proposal": {
+      "type": "Text",
+      "props": {
+        "text": "Thinking of setting up a copy trade for the bull cycle focused only on 2-3x leverage longs on bitunix (no high leverage because of slippage and copy-trade mechanics), mainly trading big HTF swings, compounding longs, and range shorts, how many of you would actually be interested in following?"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "details-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "details-heading",
+        "details-grid"
+      ]
+    },
+    "details-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Strategy Details",
+        "level": "h3"
+      }
+    },
+    "details-grid": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "detail-1",
+        "detail-2",
+        "detail-3",
+        "detail-4"
+      ]
+    },
+    "detail-1": {
+      "type": "Badge",
+      "props": {
+        "text": "2-3x leverage longs on Bitunix"
+      }
+    },
+    "detail-2": {
+      "type": "Badge",
+      "props": {
+        "text": "Big HTF swings"
+      }
+    },
+    "detail-3": {
+      "type": "Badge",
+      "props": {
+        "text": "Compounding longs"
+      }
+    },
+    "detail-4": {
+      "type": "Badge",
+      "props": {
+        "text": "Range shorts"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "concerns-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "concerns-heading",
+        "concerns-list"
+      ]
+    },
+    "concerns-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Key Concerns",
+        "level": "h3"
+      }
+    },
+    "concerns-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "concern-1",
+        "concern-2",
+        "concern-3"
+      ]
+    },
+    "concern-1": {
+      "type": "Text",
+      "props": {
+        "text": "People following need patience and trust the process",
+        "variant": "body"
+      }
+    },
+    "concern-2": {
+      "type": "Text",
+      "props": {
+        "text": "Most positions held for many months to compound",
+        "variant": "body"
+      }
+    },
+    "concern-3": {
+      "type": "Text",
+      "props": {
+        "text": "Sometimes temporary drawdown before positions play out",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "cta-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cta-main",
+        "cta-note"
+      ]
+    },
+    "cta-main": {
+      "type": "Text",
+      "props": {
+        "text": "So it would mainly be something you leave & forget.",
+        "variant": "lead"
+      }
+    },
+    "cta-note": {
+      "type": "Text",
+      "props": {
+        "text": "[Asking for emoji reaction poll]",
+        "variant": "caption"
+      }
+    }
+  }
+}
