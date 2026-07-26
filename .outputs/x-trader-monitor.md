@@ -36,3 +36,10 @@ The skill executed as designed for out-of-scope personal content.
 6. ✅ Logged event to `memory/logs/2026-07-26.md`
 
 **No alert sent** — per skill protocol, skipped non-financial posts get logged only, no notification to Kyle.
+🔍 *Calibration — @Stoiiic*
+
+Event: Morning-brief flagged 'first market post expected' on Sunday (today); Stoiiic posted 'see you Sunday' earlier this week
+
+Stoiiic: "hello, BTC update to start off the week?"
+
+Unable to classify — is this a setup for incoming analysis, a question seeking input, or opening a thread? How would you read it?
