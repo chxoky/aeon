@@ -1,0 +1,47 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor",
+        "description": "Bitcoin market structure analysis from @KillaXBT"
+      },
+      "children": [
+        "tweet_card",
+        "separator1",
+        "analysis_text",
+        "tweet_link"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "$BTC — We have our next key date: the 29th.\n\n6/7 times, we've seen a negative reaction following this period, so it's worth paying close attention to.\n\nObserve the structure & narrative as we approach it.\n\nEither we see a sweep of the highs or a dump to 61-62K."
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Chart analysis shows historical pattern of pivot dates with mostly bearish outcomes (red zones) vs single bullish exception (green zone). Reinforces KillaXBT's structural bear-grind thesis from prior posts.",
+        "variant": "caption"
+      }
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2081386338683650126"
+      }
+    }
+  }
+}
