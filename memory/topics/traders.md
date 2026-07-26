@@ -839,8 +839,9 @@ BOOTSTRAP_COMPLETE: 2026-07-14
 - Conviction notes: First sighting Jul 24. Limited posting sample; terse cryptic reply format requires calibration to establish baseline pattern/signal quality.
 - Calibration: No answered calibrations yet.
   - PENDING: Jul 24 19:45Z reply to @RyanJon06636091 "BTC / perp DEXs. ~ Dr. Axius." — unclear intent (setup ref, agreement, chart link?) awaiting Kyle calibration [2080741181298725312]
-- Last seen: 2026-07-24 19:45:30 UTC
+- Last seen: 2026-07-26 06:27:27 UTC
 - **Events (rolling):**
+  - Jul 26 06:27Z — informational: BTC/alts commentary — "Bitcoin to altcoins every time it flinches even -1%" + media (video). Market observation on inverse altcoin volatility relative to BTC; sarcastic/critical tone; no personal execution language [2081265120911524320]
   - Jul 24 19:45Z — ambiguous: reply to @RyanJon06636091 "BTC / perp DEXs. ~ Dr. Axius." cryptic minimal context, awaiting calibration [2080741181298725312]
 
 ## Bitcoin_Astro
