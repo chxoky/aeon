@@ -1,4 +1,4 @@
-## Summary
+🐦 *[X] @KillaXBT*
 
 **Event processed:** @swarmister tweet (id: 2081419880486584516, 16:42Z Jul 26)
 
@@ -13,3 +13,10 @@
 3. ✅ No event line added to traders.md (per protocol: skips get daily log only, no memory line)
 
 **Next:** Awaiting next trader event from real-time Worker webhook.
+$BTC miners are capitulating.
+
+It's worse than 2014, 2018 & 2022.
+
+This cycle so far has been the worst in history for miners.
+
+[View tweet](https://x.com/KillaXBT/status/2081420944279494777)
