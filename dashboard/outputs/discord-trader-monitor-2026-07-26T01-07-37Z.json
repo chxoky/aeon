@@ -1,0 +1,84 @@
+{
+  "root": "main",
+  "state": {},
+  "elements": {
+    "main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor",
+        "description": "Chase — TradFi Channel"
+      },
+      "children": [
+        "header",
+        "sep1",
+        "member_msg",
+        "sep2",
+        "analysis_note"
+      ]
+    },
+    "header": {
+      "type": "Text",
+      "props": {
+        "text": "💬 [DC: Chase — TradFi]",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "member_msg": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "msg_label",
+        "msg_content"
+      ]
+    },
+    "msg_label": {
+      "type": "Text",
+      "props": {
+        "text": "↩️ Member",
+        "variant": "muted"
+      }
+    },
+    "msg_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "question_text",
+        "ticker_badge"
+      ]
+    },
+    "question_text": {
+      "type": "Text",
+      "props": {
+        "text": "Hey Chase can you look at $ORCL? (For any long setup)"
+      }
+    },
+    "ticker_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "ORCL — Long Setup",
+        "variant": "outline"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "analysis_note": {
+      "type": "Text",
+      "props": {
+        "text": "Chart analysis provided.",
+        "variant": "body"
+      }
+    }
+  }
+}

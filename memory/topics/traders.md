@@ -177,6 +177,9 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - Jul 23 16:52Z — informational: Discord primary channel — position recap "70% closed in total", status update on cumulative portfolio closures (MU 60% + SNDK earlier phases, matches trading plan trajectory); fast-path-alerted by Worker [1529893960464465970]
   - Jul 23 16:41Z — ambiguous: X reply to @fsuconrad "It should work. If not here it is again" + t.co shortened URL (media unavailable), cryptic referent unknown, awaiting calibration [2080332586312720646]
   - Jul 23 16:15Z — skip: Discord primary channel — social banter/engagement complaint ("we can do better than 13 likes yall"), references past MU/SNDK bottoms retrospectively only, non-financial, silent skip [1529884549981405389]
+- Last seen: 2026-07-26 01:02:34 UTC
+- **Events (rolling):**
+  - Jul 26 01:02Z — informational: TradFi supporting channel — reply to member question on $ORCL long setup with chart analysis; supporting-channel member Q&A on new ticker (no related primary-channel ORCL post), alerted to Kyle [1530742090542350462]
 
 # swarmister — compressed (merged from duplicate/"swarmiister"/continued sections; events attributed to other traders in these chunks excluded)
 
