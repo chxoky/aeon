@@ -1,0 +1,110 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration — @swarmister"
+      },
+      "children": [
+        "reply-to-header",
+        "separator-1",
+        "message-container",
+        "separator-2",
+        "prior-context-section",
+        "separator-3",
+        "analysis-section"
+      ]
+    },
+    "reply-to-header": {
+      "type": "Heading",
+      "props": {
+        "text": "Reply to: @0xProfessor_",
+        "level": "h3"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message-container": {
+      "type": "TweetCard",
+      "props": {
+        "author": "0xProfessor_",
+        "handle": "@0xProfessor_",
+        "text": "Here we go…"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "prior-context-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "prior-context-heading",
+        "prior-context-text"
+      ]
+    },
+    "prior-context-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Prior Message Context",
+        "level": "h4"
+      }
+    },
+    "prior-context-text": {
+      "type": "Text",
+      "props": {
+        "text": "Prior message to @0xProfessor_ (Jul 20 13:22Z) also pending calibration (\"15s tf..\" — scalp setup?)."
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis-heading",
+        "interpretation-text",
+        "classification-text"
+      ]
+    },
+    "analysis-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Interpretation",
+        "level": "h4"
+      }
+    },
+    "interpretation-text": {
+      "type": "Text",
+      "props": {
+        "text": "Current message is execution-adjacent but cryptic — could signal entry into discussed setup, or just social agreement/reaction."
+      }
+    },
+    "classification-text": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?"
+      }
+    }
+  }
+}
