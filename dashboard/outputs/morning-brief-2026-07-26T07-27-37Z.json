@@ -1,0 +1,219 @@
+{
+  "root": "card_brief",
+  "state": {},
+  "elements": {
+    "card_brief": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-07-26"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section_focus",
+        "separator_1",
+        "section_since"
+      ]
+    },
+    "section_focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_focus",
+        "item_fomc",
+        "item_hch",
+        "item_killaxbt"
+      ]
+    },
+    "heading_focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "item_fomc": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_fomc",
+        "stat_fomc_outflows",
+        "text_fomc_risk"
+      ]
+    },
+    "badge_fomc": {
+      "type": "Badge",
+      "props": {
+        "text": "FOMC T−2",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "stat_fomc_outflows": {
+      "type": "Stat",
+      "props": {
+        "label": "ETF outflows (2 days)",
+        "value": "$465M"
+      },
+      "children": []
+    },
+    "text_fomc_risk": {
+      "type": "Text",
+      "props": {
+        "text": "Risk window opens tomorrow",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "item_hch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_hch",
+        "text_hch_details"
+      ]
+    },
+    "badge_hch": {
+      "type": "Badge",
+      "props": {
+        "text": "HCH CL short mirror",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "text_hch_details": {
+      "type": "Text",
+      "props": {
+        "text": "no approve/reject; oil volatile pre-FOMC; decide before Monday open",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "item_killaxbt": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_killaxbt",
+        "text_killaxbt_details"
+      ]
+    },
+    "badge_killaxbt": {
+      "type": "Badge",
+      "props": {
+        "text": "KillaXBT copy-trade poll",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "text_killaxbt_details": {
+      "type": "Text",
+      "props": {
+        "text": "bull-cycle framing (2-3x longs, Bitunix); conviction escalation with no hedge caveat",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_since": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_since",
+        "item_killaxbt_update",
+        "item_hch_update"
+      ]
+    },
+    "heading_since": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "item_killaxbt_update": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_killaxbt_update",
+        "text_killaxbt_update"
+      ]
+    },
+    "badge_killaxbt_update": {
+      "type": "Badge",
+      "props": {
+        "text": "KillaXBT",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text_killaxbt_update": {
+      "type": "Text",
+      "props": {
+        "text": "distribution-phase BTC chart + 69-48K buy zone visualization; Discord poll on copy-trade service (bull cycle) — thesis escalation beyond prior swing-long posture",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "item_hch_update": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_hch_update",
+        "text_hch_update"
+      ]
+    },
+    "badge_hch_update": {
+      "type": "Badge",
+      "props": {
+        "text": "HCH",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text_hch_update": {
+      "type": "Text",
+      "props": {
+        "text": "Fc",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
