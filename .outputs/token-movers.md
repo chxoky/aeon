@@ -1,40 +1,31 @@
 *Token Movers — 2026-07-26*
 
-_62% of top-100 non-stables green, median +0.9%; BTC flat at $64.4K, FOMC T−2 days; meme rotation (SHIB +38%) drives winners, few notable losers outside DEXE's FADE completion._
+_Recovery holding — 68% of top-100 non-stables green, median +0.85%; BTC +0.7% at $64.5K, SHIB-led meme rotation persisting pre-FOMC (T−2)._
 
 *Top Winners (24h)*
-1. SHIB (Shiba Inu) — $0.000005710  +37.5% / 7d +38.7% / 1h +1.2%  •  $584M / #28  [TRENDING+UP][BREAKOUT]
-2. BEAT (Audiera) — $3.630  +19.4% / 7d +54.6% / 1h +5.8%  •  $14M / #62  [BREAKOUT]
-3. VVV (Venice Token) — $14.24  +13.4% / 7d +21.2% / 1h +0.6%  •  $34M / #86
-4. PEPE (Pepe) — $0.000003000  +11.7% / 7d +8.8% / 1h +2.2%  •  $235M / #57  [TRENDING+UP]
-5. BANK (Lorenzo Protocol) — $0.3452  +9.0% / 7d n/a / 1h n/a  •  $n/a / #197  [TRENDING+UP]
-6. AVAX (Avalanche) — $6.800  +8.3% / 7d +3.4% / 1h +0.1%  •  $292M / #32
-7. PENGU (Pudgy Penguins) — $0.006420  +7.6% / 7d −0.5% / 1h 0.0%  •  $66M / #109  [TRENDING+UP]
-8. DOGE (Dogecoin) — $0.07384  +6.0% / 7d +1.6% / 1h +0.1%  •  $738M / #11  [MAJOR]
-9. ETC (Ethereum Classic) — $6.950  +5.2% / 7d −1.1% / 1h −0.1%  •  $33M / #64
-10. TAO (Bittensor) — $197.8  +3.9% / 7d +0.9% / 1h −0.5%  •  $74M / #41
+1. SHIB (Shiba Inu) — $0.000005403  +27.5% / 7d +29.6% / 1h −1.1%  •  $624M / #29  [TRENDING+UP][BREAKOUT]
+2. M (MemeCore) — $1.31  +10.3% / 7d +6.8% / 1h +1.0%  •  $11.0M / #46
+3. BEAT (Audiera) — $3.53  +4.7% / 7d +52.0% / 1h +1.5%  •  $16.8M / #64
+4. ZEC (Zcash) — $493  +3.3% / 7d −11.8% / 1h +0.1%  •  $128M / #15  [MAJOR]
 
 *Top Losers (24h)*
-1. DEXE (DeXe) — $3.390  −34.7% / 7d n/a / 1h n/a  •  $n/a / #198  [TRENDING+DOWN]
-2. HASH (Provenance) — $0.008466  −8.4% / 7d −5.3% / 1h +0.1%  •  $12M / #103
-3. INJ (Injective) — $4.930  −8.0% / 7d −3.8% / 1h −2.9%  •  $44M / #100
-4. TALUS — $0.04547  −2.8% / 7d +23.2% / 1h +2.3%  •  $6M / #217
-5. PI (Pi Network) — $0.08111  −2.3% / 7d −4.7% / 1h −0.3%  •  $10M / #71
-6. WLD (Worldcoin) — $0.3364  −1.9% / 7d −10.9% / 1h +0.3%  •  $121M / #58
-7. BDX (Beldex) — $0.08250  −1.5% / 7d 0.0% / 1h −0.1%  •  $13M / #87
-8. RAIN — $0.01387  −1.3% / 7d −5.2% / 1h −0.1%  •  $30M / #13
+1. INJ (Injective) — $4.92  −5.7% / 7d −3.0% / 1h +0.5%  •  $55.5M / #101  [TRENDING+DOWN]
+2. MORPHO — $1.91  −4.1% / 7d −4.5% / 1h +0.2%  •  $34.1M / #59
+3. WLFI (World Liberty Fin) — $0.0551  −2.5% / 7d −3.3% / 1h −0.2%  •  $23.4M / #45
+4. WLD (Worldcoin) — $0.334  −2.4% / 7d −10.8% / 1h −0.1%  •  $119M / #58
+5. ENA (Ethena) — $0.0850  −1.3% / 7d +5.3% / 1h +0.2%  •  $64.2M / #77
 
-*Trending*
-1. SHIB (Shiba Inu) — #28, $0.000005710, 24h +36.2%  [TRENDING+UP]
-2. PENGU (Pudgy Penguins) — #109, $0.006410, 24h +7.3%  [TRENDING+UP]
-3. EUL (Euler) — #368, $2.509, 24h +69.7%  [PUMP-RISK]
-4. ANSEM (The Black Bull) — #291, $0.1993, 24h +21.5%
-5. PONS — #529, $0.04898, 24h +24.7%  [MICROCAP]
-6. HYPE (Hyperliquid) — #10, $58.62, 24h +2.5%  [MAJOR]
-7. BMX (BitMart) — #666, $0.08063, 24h −57.4%  [TRENDING+DOWN]
+*Trending (top 7)*
+1. BMX (BitMart) — #753, $0.0655, 24h −59.8%  [TRENDING+DOWN]
+2. PENGU (Pudgy Penguins) — #111, $0.00636, 24h +6.2%  [TRENDING+UP]
+3. SHIB (Shiba Inu) — #29, $0.0000054, 24h +27.8%  [TRENDING+UP][BREAKOUT]
+4. PI (Pi Network) — #70, $0.0825, 24h +2.5%
+5. DEXE — #179, $3.74, 24h −1.1%
+6. ANSEM (The Black Bull) — #291, $0.195, 24h +16.8%
+7. PONS — #476, $0.0550, 24h +47.8%  [PUMP-RISK]
 
 *Notable*
-• SHIB: trending + 7d +38.7% confirms breakout, not a one-day pump — sustained accumulation
-• DEXE: FADE called Jul 25 at +165% — now −35% still on trending; distribution confirmed complete
-• EUL: +69.7% rank #368 — PUMP-RISK escalating; third consecutive trending appearance, no vol-justified basis
-• BMX: −57.4% on trending — extreme single-session collapse; avoid
+• SHIB: day-2 breakout compressing +38% → +28%; 1h −1.1% signals momentum fade — watch for continuation vs reversal
+• EUL (#367): +54.4% [PUMP-RISK] — 4th+ day in trending; elevated, distribution phase likely
+• PONS (#476): +47.8% [PUMP-RISK] — fresh low-cap spike in trending, avoid
+• INJ: trending while red — bearish divergence, watch #101 support

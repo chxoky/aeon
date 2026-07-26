@@ -1,0 +1,366 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Token Movers — 2026-07-26",
+        "description": "Recovery holding — 68% of top-100 non-stables green, median +0.85%; BTC +0.7% at $64.5K, SHIB-led meme rotation persisting pre-FOMC (T−2)."
+      },
+      "children": [
+        "header-stats",
+        "sep1",
+        "winners-section",
+        "sep2",
+        "losers-section",
+        "sep3",
+        "trending-section",
+        "sep4",
+        "notable-section"
+      ]
+    },
+    "header-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-green",
+        "stat-median",
+        "stat-btc"
+      ]
+    },
+    "stat-green": {
+      "type": "Stat",
+      "props": {
+        "label": "Top-100 non-stables green",
+        "value": "68%"
+      }
+    },
+    "stat-median": {
+      "type": "Stat",
+      "props": {
+        "label": "Median 24h change",
+        "value": "+0.85%"
+      }
+    },
+    "stat-btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$64.5K",
+        "delta": "+0.7%",
+        "trend": "up"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "winners-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "winners-heading",
+        "winners-table"
+      ]
+    },
+    "winners-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Winners (24h)",
+        "level": "h2"
+      }
+    },
+    "winners-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Market Cap / Rank",
+          "Status"
+        ],
+        "rows": [
+          [
+            "SHIB (Shiba Inu)",
+            "$0.000005403",
+            "+27.5%",
+            "+29.6%",
+            "−1.1%",
+            "$624M / #29",
+            "TRENDING+UP BREAKOUT"
+          ],
+          [
+            "M (MemeCore)",
+            "$1.31",
+            "+10.3%",
+            "+6.8%",
+            "+1.0%",
+            "$11.0M / #46",
+            ""
+          ],
+          [
+            "BEAT (Audiera)",
+            "$3.53",
+            "+4.7%",
+            "+52.0%",
+            "+1.5%",
+            "$16.8M / #64",
+            ""
+          ],
+          [
+            "ZEC (Zcash)",
+            "$493",
+            "+3.3%",
+            "−11.8%",
+            "+0.1%",
+            "$128M / #15",
+            "MAJOR"
+          ]
+        ]
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "losers-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "losers-heading",
+        "losers-table"
+      ]
+    },
+    "losers-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Losers (24h)",
+        "level": "h2"
+      }
+    },
+    "losers-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Market Cap / Rank",
+          "Status"
+        ],
+        "rows": [
+          [
+            "INJ (Injective)",
+            "$4.92",
+            "−5.7%",
+            "−3.0%",
+            "+0.5%",
+            "$55.5M / #101",
+            "TRENDING+DOWN"
+          ],
+          [
+            "MORPHO",
+            "$1.91",
+            "−4.1%",
+            "−4.5%",
+            "+0.2%",
+            "$34.1M / #59",
+            ""
+          ],
+          [
+            "WLFI (World Liberty Fin)",
+            "$0.0551",
+            "−2.5%",
+            "−3.3%",
+            "−0.2%",
+            "$23.4M / #45",
+            ""
+          ],
+          [
+            "WLD (Worldcoin)",
+            "$0.334",
+            "−2.4%",
+            "−10.8%",
+            "−0.1%",
+            "$119M / #58",
+            ""
+          ],
+          [
+            "ENA (Ethena)",
+            "$0.0850",
+            "−1.3%",
+            "+5.3%",
+            "+0.2%",
+            "$64.2M / #77",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "trending-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "trending-heading",
+        "trending-table"
+      ]
+    },
+    "trending-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending (top 7)",
+        "level": "h2"
+      }
+    },
+    "trending-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Rank",
+          "Price",
+          "24h",
+          "Status"
+        ],
+        "rows": [
+          [
+            "BMX (BitMart)",
+            "#753",
+            "$0.0655",
+            "−59.8%",
+            "TRENDING+DOWN"
+          ],
+          [
+            "PENGU (Pudgy Penguins)",
+            "#111",
+            "$0.00636",
+            "+6.2%",
+            "TRENDING+UP"
+          ],
+          [
+            "SHIB (Shiba Inu)",
+            "#29",
+            "$0.0000054",
+            "+27.8%",
+            "TRENDING+UP BREAKOUT"
+          ],
+          [
+            "PI (Pi Network)",
+            "#70",
+            "$0.0825",
+            "+2.5%",
+            ""
+          ],
+          [
+            "DEXE",
+            "#179",
+            "$3.74",
+            "−1.1%",
+            ""
+          ],
+          [
+            "ANSEM (The Black Bull)",
+            "#291",
+            "$0.195",
+            "+16.8%",
+            ""
+          ],
+          [
+            "PONS",
+            "#476",
+            "$0.0550",
+            "+47.8%",
+            "PUMP-RISK"
+          ]
+        ]
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "notable-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "notable-heading",
+        "notable-item1",
+        "notable-item2",
+        "notable-item3",
+        "notable-item4"
+      ]
+    },
+    "notable-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h2"
+      }
+    },
+    "notable-item1": {
+      "type": "Alert",
+      "props": {
+        "title": "SHIB: day-2 breakout compressing +38% → +28%",
+        "message": "1h −1.1% signals momentum fade — watch for continuation vs reversal",
+        "type": "warning"
+      }
+    },
+    "notable-item2": {
+      "type": "Alert",
+      "props": {
+        "title": "EUL (#367): +54.4% [PUMP-RISK]",
+        "message": "4th+ day in trending; elevated, distribution phase likely",
+        "type": "warning"
+      }
+    },
+    "notable-item3": {
+      "type": "Alert",
+      "props": {
+        "title": "PONS (#476): +47.8% [PUMP-RISK]",
+        "message": "fresh low-cap spike in trending, avoid",
+        "type": "error"
+      }
+    },
+    "notable-item4": {
+      "type": "Alert",
+      "props": {
+        "title": "INJ: trending while red",
+        "message": "bearish divergence, watch #101 support",
+        "type": "warning"
+      }
+    }
+  }
+}
