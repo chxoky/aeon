@@ -514,8 +514,9 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - Jul 23 15:56Z — informational: Correlation index fading (CBOE 1-month implied correlation 56→3.95); chart pattern observation on potential bottoming [2080321081345470912]
   - Jul 23 13:10Z — informational: HYPE positive price action signal, +0.52% while majors down; "Hey it's a start" bullish sentiment [2080279448268755089]
   - Jul 23 15:12Z — informational: equities bearish analysis — semis/AI trend broken, yields ripping, war escalating, ROIC uncertainty, dispersion exhaustion [2080310155884015959]
-- Last seen: 2026-07-24 22:07:56 UTC
+- Last seen: 2026-07-26 15:41:38 UTC
 - **Events (rolling):**
+  - Jul 26 15:41Z — informational: BTC technical progression update with 2 chart images; "$BTC Progressing" + media; follows documented cryptic chart-minimal pattern; appears to be updating market analysis on BTC structure/levels; no personal trade execution language detected; matches baseline URL-minimal-caption taxonomy (Standing protocol: HR-2 calibration alert for image-only posts) [20814045864688149110]
   - Jul 24 22:08Z — informational: ZEC bearish market sentiment — critical opinion on ZEC holders after Chamath buyer revelation ("deeply unserious crypto trader if you hold ZEC"); market commentary, no personal trade action [2080777025460269149]
   - Jul 24 18:19Z — ambiguous: "Good decision lmao" terse one-word reply to unknown context; media: Bloom Energy (BE) daily chart readable ($232.77, -4.84%) but doesn't clarify whose decision or what action; awaiting calibration [2080719626774905326]
   - Jul 24 18:09Z — ambiguous: URL-only post, no caption; media image CDN URL expired/inaccessible; awaiting calibration [2080717066395676842]
