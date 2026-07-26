@@ -1,4 +1,4 @@
-## Summary
+Skill execution complete. 
 
 **Skill execution complete:** `discord-trader-monitor` processed a real-time Discord event for Crypto_Chase.
 
@@ -37,3 +37,12 @@ Executed the Discord Trader Monitor skill with the provided event.
 3. ✅ No notification sent (alert not warranted for non-financial content)
 4. ✅ No `traders.md` event entry created (per convention, skip events are not logged)
 No notification sent. Memory updated.
+**Message Classification: SKIP — Non-financial banter**
+
+The Discord message from Crypto_Chase in the TradFi supporting channel is personal health commentary about needing to read reviews for routine blood draws. This matches **Hardcoded Rule A** (non-financial banter), so it receives:
+
+- ✅ Message ID tracked in `discord-trader-seen.txt`
+- ✅ Event logged to `memory/logs/2026-07-26.md`
+- ✅ No alert sent (no financial signal)
+
+The message stays in memory but requires no action or notification.
