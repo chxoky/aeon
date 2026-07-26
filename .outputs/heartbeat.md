@@ -1,10 +1,10 @@
 HEARTBEAT_OK · STATUS_PAGE=WATCH
 
-**20:00 UTC heartbeat summary:**
+All checks complete:
 
-- **P0:** All clear. No failed, stuck, or degraded skills. X webhook `WATCHED_TRADERS` active (`is_effect: 1`). Heartbeat self-check OK (~10.5h since last success).
-- **P1:** No open PRs. Issues disabled.
+- **P0:** Clean — no failed/stuck skills, no API degradation. X webhook `WATCHED_TRADERS` active (`is_effect: 1`). Heartbeat self-check ~5h since last success, well within 36h window.
+- **P1:** No open PRs. Issues disabled on repo.
 - **P2:** No flagged memory items.
-- **P3:** `trader-memory-compact` has never been dispatched — tonight (2026-07-26 20:00 UTC Sunday) is its first scheduled window. Dedup active (logged at 14:00 UTC today, within 48h window). No notification sent.
+- **P3:** `trader-memory-compact` still has no cron-state entry, but today (Sunday Jul 26) is its first ever scheduled window (20:00 UTC) — it should be running concurrently right now. Prior heartbeats logged this within the 48h dedup window; no notification sent.
 
-`docs/status.md` regenerated (🟡 WATCH, all enabled skills healthy, next run: morning-brief 2026-07-27 07:00 UTC).
+`docs/status.md` regenerated with updated skill-health timestamp (18:45 UTC today) and correct sort order. Log appended to `memory/logs/2026-07-26.md`.
