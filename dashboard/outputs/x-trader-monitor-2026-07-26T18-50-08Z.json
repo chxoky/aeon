@@ -1,0 +1,73 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @Wild_Randomness",
+        "description": "x-trader-monitor event analysis"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_event",
+        "sep1",
+        "tweet_wild",
+        "sep2",
+        "alert_question",
+        "link_post"
+      ]
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: geopolitical risk cycle (war → -5%, ceasefire → +0.5% recovery)",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet_wild": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Without a doubt this is THE Bear Case [meme chart]"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_question": {
+      "type": "Alert",
+      "props": {
+        "title": "Analysis Question",
+        "message": "Is this market sentiment only (skip), or a bearish setup you're trading? How should I weigh this pattern against active positions?",
+        "type": "info"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2081450019601690909"
+      }
+    }
+  }
+}
