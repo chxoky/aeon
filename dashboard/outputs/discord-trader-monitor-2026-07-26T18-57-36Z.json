@@ -1,0 +1,92 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-calibration",
+        "text-event",
+        "separator-1",
+        "heading-current",
+        "badge-message",
+        "separator-2",
+        "alert-classify",
+        "separator-3",
+        "text-context",
+        "text-question"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration — [DC: HCH — Free]",
+        "level": "h3"
+      }
+    },
+    "text-event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: HCH has posted this cryptic abbreviation twice now (prior: Jul 6 'Fc btc 1hr', now: 'Fc btc 15m')"
+      }
+    },
+    "separator-1": {
+      "type": "Separator"
+    },
+    "heading-current": {
+      "type": "Heading",
+      "props": {
+        "text": "Current Message",
+        "level": "h4"
+      }
+    },
+    "badge-message": {
+      "type": "Badge",
+      "props": {
+        "text": "Fc btc 15m",
+        "variant": "outline"
+      }
+    },
+    "separator-2": {
+      "type": "Separator"
+    },
+    "alert-classify": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to Classify",
+        "message": "'Fc' could mean: force-close, filled confirmation, chart check, or other action",
+        "type": "warning"
+      }
+    },
+    "separator-3": {
+      "type": "Separator"
+    },
+    "text-context": {
+      "type": "Text",
+      "props": {
+        "text": "Same pattern as Jul 6 message which was never clarified.",
+        "variant": "muted"
+      }
+    },
+    "text-question": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "lead"
+      }
+    }
+  }
+}
