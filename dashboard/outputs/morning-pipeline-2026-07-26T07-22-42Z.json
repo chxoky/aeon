@@ -1,0 +1,211 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-07-26"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "heading_focus",
+        "stack_focus_items",
+        "sep_1",
+        "heading_since",
+        "stack_since_items"
+      ]
+    },
+    "heading_focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "stack_focus_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item_focus_1",
+        "item_focus_2",
+        "item_focus_3"
+      ]
+    },
+    "item_focus_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_focus_1",
+        "text_focus_1"
+      ]
+    },
+    "badge_focus_1": {
+      "type": "Badge",
+      "props": {
+        "text": "1. FOMC deliberations start Monday (T−2)"
+      }
+    },
+    "text_focus_1": {
+      "type": "Text",
+      "props": {
+        "text": "ETF outflows $465M/2 days; KillaXBT conditional short 67.5–69.2K not triggered; pre-weekend stasis confirmed"
+      }
+    },
+    "item_focus_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_focus_2",
+        "text_focus_2"
+      ]
+    },
+    "badge_focus_2": {
+      "type": "Badge",
+      "props": {
+        "text": "2. Stoiiic \"see you Sunday\""
+      }
+    },
+    "text_focus_2": {
+      "type": "Text",
+      "props": {
+        "text": "today IS Sunday; watch for first market post; no documented positions, any financial signal is notable"
+      }
+    },
+    "item_focus_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_focus_3",
+        "text_focus_3"
+      ]
+    },
+    "badge_focus_3": {
+      "type": "Badge",
+      "props": {
+        "text": "3. HCH CL short mirror unresolved"
+      }
+    },
+    "text_focus_3": {
+      "type": "Text",
+      "props": {
+        "text": "CL 2% entered Jul 24, no Kyle approve; HCH net ~30–35% short confirmed this morning (Fc btc 15m wide + Fc btc 30m at 06:55Z)"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_since": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "stack_since_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item_since_1",
+        "item_since_2",
+        "item_since_3"
+      ]
+    },
+    "item_since_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_since_1",
+        "text_since_1"
+      ]
+    },
+    "badge_since_1": {
+      "type": "Badge",
+      "props": {
+        "text": "KillaXBT"
+      }
+    },
+    "text_since_1": {
+      "type": "Text",
+      "props": {
+        "text": "BTC distribution-cycle chart (04:16Z) + copy-trade service poll (04:22Z) — HTF-bullish thesis unchanged"
+      }
+    },
+    "item_since_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_since_2",
+        "text_since_2"
+      ]
+    },
+    "badge_since_2": {
+      "type": "Badge",
+      "props": {
+        "text": "HCH"
+      }
+    },
+    "text_since_2": {
+      "type": "Text",
+      "props": {
+        "text": "bearish technicals confirmed this morning (Fc 15m wide + 30m) — weekend chop per Jul 25 call"
+      }
+    },
+    "item_since_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_since_3",
+        "text_since_3"
+      ]
+    },
+    "badge_since_3": {
+      "type": "Badge",
+      "props": {
+        "text": "Chase"
+      }
+    },
+    "text_since_3": {
+      "type": "Text",
+      "props": {
+        "text": "why"
+      }
+    }
+  }
+}
