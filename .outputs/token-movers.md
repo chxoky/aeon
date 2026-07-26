@@ -1,31 +1,40 @@
-*Token Movers — 2026-07-25*
+*Token Movers — 2026-07-26*
 
-_Risk-off moderating — 15/76 top-100 alts green, median −0.2%; BTC trimmed to −1.4% at $64K ahead of FOMC gate (T−3 days)._
+_62% of top-100 non-stables green, median +0.9%; BTC flat at $64.4K, FOMC T−2 days; meme rotation (SHIB +38%) drives winners, few notable losers outside DEXE's FADE completion._
 
 *Top Winners (24h)*
-1. DEXE (DeXe) — $4.11  +47.8% / 7d −88.4% / 1h −20.9%  •  $772M / #170  [FADE][PUMP-RISK]
-2. BEAT (Audiera) — $3.36  +12.7% / 7d +46.0% / 1h +2.0%  •  $22M / #64
-3. BANK (Lorenzo Protocol) — $0.329  +9.0% / 7d +358.5% / 1h −1.3%  •  $95M / #209
-4. H (Humanity) — $0.0645  +8.3% / 7d +7.9% / 1h +1.2%  •  $3M / #219
-5. Q (Quack AI) — $0.0203  +4.7% / 7d +1.8% / 1h +0.7%  •  $3M / #291
+1. SHIB (Shiba Inu) — $0.000005710  +37.5% / 7d +38.7% / 1h +1.2%  •  $584M / #28  [TRENDING+UP][BREAKOUT]
+2. BEAT (Audiera) — $3.630  +19.4% / 7d +54.6% / 1h +5.8%  •  $14M / #62  [BREAKOUT]
+3. VVV (Venice Token) — $14.24  +13.4% / 7d +21.2% / 1h +0.6%  •  $34M / #86
+4. PEPE (Pepe) — $0.000003000  +11.7% / 7d +8.8% / 1h +2.2%  •  $235M / #57  [TRENDING+UP]
+5. BANK (Lorenzo Protocol) — $0.3452  +9.0% / 7d n/a / 1h n/a  •  $n/a / #197  [TRENDING+UP]
+6. AVAX (Avalanche) — $6.800  +8.3% / 7d +3.4% / 1h +0.1%  •  $292M / #32
+7. PENGU (Pudgy Penguins) — $0.006420  +7.6% / 7d −0.5% / 1h 0.0%  •  $66M / #109  [TRENDING+UP]
+8. DOGE (Dogecoin) — $0.07384  +6.0% / 7d +1.6% / 1h +0.1%  •  $738M / #11  [MAJOR]
+9. ETC (Ethereum Classic) — $6.950  +5.2% / 7d −1.1% / 1h −0.1%  •  $33M / #64
+10. TAO (Bittensor) — $197.8  +3.9% / 7d +0.9% / 1h −0.5%  •  $74M / #41
 
 *Top Losers (24h)*
-1. US (Talus) — $0.0437  −14.6% / 7d −8.3% / 1h −1.3%  •  $6M / #220
-2. WLD (Worldcoin) — $0.344  −8.5% / 7d −9.0% / 1h −0.1%  •  $178M / #58
-3. KAITO — $0.960  −8.4% / 7d +14.4% / 1h −1.0%  •  $70M / #146
-4. AKT (Akash Network) — $0.4765  −7.6% / 7d −10.8% / 1h −1.3%  •  $4M / #211
-5. APR (aPriori) — $0.199  −6.7% / 7d −7.9% / 1h −0.4%  •  $4M / #432
+1. DEXE (DeXe) — $3.390  −34.7% / 7d n/a / 1h n/a  •  $n/a / #198  [TRENDING+DOWN]
+2. HASH (Provenance) — $0.008466  −8.4% / 7d −5.3% / 1h +0.1%  •  $12M / #103
+3. INJ (Injective) — $4.930  −8.0% / 7d −3.8% / 1h −2.9%  •  $44M / #100
+4. TALUS — $0.04547  −2.8% / 7d +23.2% / 1h +2.3%  •  $6M / #217
+5. PI (Pi Network) — $0.08111  −2.3% / 7d −4.7% / 1h −0.3%  •  $10M / #71
+6. WLD (Worldcoin) — $0.3364  −1.9% / 7d −10.9% / 1h +0.3%  •  $121M / #58
+7. BDX (Beldex) — $0.08250  −1.5% / 7d 0.0% / 1h −0.1%  •  $13M / #87
+8. RAIN — $0.01387  −1.3% / 7d −5.2% / 1h −0.1%  •  $30M / #13
 
 *Trending*
-1. DEXE (DeXe) — #170, $4.11, 24h +47.8%  [TRENDING+UP]
-2. EUL (Euler) — #495, $1.68, 24h +68.8%  [PUMP-RISK]
-3. MON (Monad) — #144, $0.021, 24h −5.2%
-4. ADI — #339, $7.36, 24h −0.0%
-5. PENGU (Pudgy Penguins) — #114, $0.006, 24h −1.1%
-6. PONS — #644, $0.0373, 24h −7.0%
-7. AAVE — #52, $90.72, 24h −4.9%
+1. SHIB (Shiba Inu) — #28, $0.000005710, 24h +36.2%  [TRENDING+UP]
+2. PENGU (Pudgy Penguins) — #109, $0.006410, 24h +7.3%  [TRENDING+UP]
+3. EUL (Euler) — #368, $2.509, 24h +69.7%  [PUMP-RISK]
+4. ANSEM (The Black Bull) — #291, $0.1993, 24h +21.5%
+5. PONS — #529, $0.04898, 24h +24.7%  [MICROCAP]
+6. HYPE (Hyperliquid) — #10, $58.62, 24h +2.5%  [MAJOR]
+7. BMX (BitMart) — #666, $0.08063, 24h −57.4%  [TRENDING+DOWN]
 
 *Notable*
-• DEXE: spike compressing fast — +165% at morning open → +47.8% now; 1h −20.9%, vol still 1.95× mcap; distribution in progress [FADE][PUMP-RISK]
-• EUL: trending [PUMP-RISK] accelerating — +36.7% at 07:00 UTC → +68.8% now; rank #495, extreme low-cap vol event
-• WLD: exited trending list — was [TRENDING+DOWN] at −10.5% this morning; now −8.5%, selling pressure easing but no recovery catalyst visible
+• SHIB: trending + 7d +38.7% confirms breakout, not a one-day pump — sustained accumulation
+• DEXE: FADE called Jul 25 at +165% — now −35% still on trending; distribution confirmed complete
+• EUL: +69.7% rank #368 — PUMP-RISK escalating; third consecutive trending appearance, no vol-justified basis
+• BMX: −57.4% on trending — extreme single-session collapse; avoid
