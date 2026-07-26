@@ -1,16 +1,7 @@
-## Summary
+🐦 *[X] @KillaXBT*
 
-**Skill: X Trader Monitor** — Execution complete ✓
+My $BTC Plan, crystal clear from the start of the year.
 
-**Event processed:**
-- **Trader:** @KillaXBT (tweet ID: 2081268619376214115)
-- **Type:** Personal meta-commentary / rant
-- **Classification:** **SKIP** (Category A: Non-financial)
-- **Alert sent:** No
+Sell me all your BTC at 69-48K. Chart shows his documented HTF buy zone with key levels marked.
 
-**Rationale:**
-The tweet is a personal rant directed at followers who misunderstand nuanced trading positions. It contains no trade signals, no ticker mentions, no execution language, and no market analysis—just philosophy on the nature of trading. Per Step 4 (classification), this is non-financial personal commentary and was silently logged without alerting Kyle.
-
-**Memory updated:**
-- Added skip entry to `/memory/logs/2026-07-26.md`
-- Did NOT add to `traders.md` (per Step 8: skip/non-financial events are logged only, not stored as event lines)
+[View tweet](https://x.com/KillaXBT/status/2081272862669692931)
