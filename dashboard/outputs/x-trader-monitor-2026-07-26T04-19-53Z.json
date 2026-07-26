@@ -1,0 +1,132 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "tweet-card",
+        "sep-1",
+        "breakdown-section"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "BTC market cycle analysis: currently in distribution phase (~64-65K). Chart progression shows: re-distribution → distribution → manipulation (current) → accumulation → re-accumulation target (~80-112K).\n\n\"I hope you are enjoying the shitty $BTC PA while it lasts\" — sarcastic on current chop, bullish conviction on upcoming re-accumulation leg."
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "breakdown-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-prices",
+        "stack-prices",
+        "heading-phases",
+        "text-phase-progression",
+        "badge-current-phase",
+        "heading-sentiment",
+        "text-sentiment",
+        "link-post"
+      ]
+    },
+    "heading-prices": {
+      "type": "Heading",
+      "props": {
+        "text": "Price Levels",
+        "level": "h3"
+      }
+    },
+    "stack-prices": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-current",
+        "stat-target"
+      ]
+    },
+    "stat-current": {
+      "type": "Stat",
+      "props": {
+        "label": "Current Range",
+        "value": "$64-65K"
+      }
+    },
+    "stat-target": {
+      "type": "Stat",
+      "props": {
+        "label": "Re-accumulation Target",
+        "value": "$80-112K"
+      }
+    },
+    "heading-phases": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart Progression Phases",
+        "level": "h3"
+      }
+    },
+    "text-phase-progression": {
+      "type": "Text",
+      "props": {
+        "text": "Re-distribution → Distribution → Manipulation → Accumulation → Re-accumulation",
+        "variant": "caption"
+      }
+    },
+    "badge-current-phase": {
+      "type": "Badge",
+      "props": {
+        "text": "Currently in: Manipulation",
+        "variant": "destructive"
+      }
+    },
+    "heading-sentiment": {
+      "type": "Heading",
+      "props": {
+        "text": "Sentiment & Conviction",
+        "level": "h3"
+      }
+    },
+    "text-sentiment": {
+      "type": "Text",
+      "props": {
+        "text": "Sarcastic on current chop (price action), but bullish conviction on upcoming re-accumulation leg.",
+        "variant": "body"
+      }
+    },
+    "link-post": {
+      "type": "Link",
+      "props": {
+        "label": "View post on X",
+        "href": "https://x.com/KillaXBT/status/2081232218236531199"
+      }
+    }
+  }
+}
