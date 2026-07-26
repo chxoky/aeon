@@ -1,135 +1,75 @@
 # Market Context (as of 2026-07-26)
 
-> **Take:** rotation — BTC +0.6% 24h flat at $64.4K while 15/20 top-cap majors green, led by meme coins (DOGE +6.0%, SHIB +36.2%); BTC dominance slips −0.12 pp as memes rotate. Conviction: low.
+> **Take:** chop — BTC +0.7% 24h at $64.5K while F&G holds 26 (Fear) for a second day; FOMC T−2 suppressing range. Conviction: medium.
 
 ## Signal Snapshot
-- BTC $64,354 (+0.60% 24h, −0.5% 7d) · dominance 56.41% (−0.12 pp 24h)
-- ETH $1,883 (+1.44% 24h, +0.9% 7d) · ETH/BTC 0.02926
-- SOL $74.95 (+1.44% 24h, −1.2% 7d)
-- Total mcap $2.29T (+0.88% 24h) · DEX vol $4.69B 24h
-- Breadth: 15/20 green 24h · 9/20 green 7d
+- BTC $64,495 (+0.7% 24h, 0.0% 7d) · dominance 56.48% (+0.07 pp 24h)
+- ETH $1,886 (+1.5% 24h, +0.9% 7d) · ETH/BTC 0.02924
+- SOL $74.88 (+1.3% 24h, −1.5% 7d)
+- Total mcap $2.29T (+0.62% 24h) · DEX vol $4.58B 24h (−30% 1d, −26% vs 7d avg $6.18B)
+- Breadth: 16/20 green 24h · 8/20 green 7d
 - Fear & Greed: 26 (Fear) — yesterday 27
 
 ## What Changed Since Last Refresh
-- Breadth surged 4/20 → 15/20: meme rotation (DOGE +6.0%, SHIB +36.2%, PEPE +11.9%, ANSEM +21.5%) drove an 11-coin breadth swing; prior session was red across majors; breadth is meme-driven, not structural demand.
-- DEX vol collapsed −29%: $6.60B → $4.69B; breadth improvement did not translate to DeFi participation; spot rotation is meme-only.
-- BTC ETF outflows confirmed 2-day streak: Jul 25 −$240M follows Jul 24 −$225M ($465M cumulative); prior 7-session inflow streak now definitively broken; week closed +$33.79M net (marginal positive, trend is outflow).
-- Regime shift risk-off → rotation: BTC flat, memes leading, dominance slipping; FOMC T−2 and CLARITY Act uncertainty cap upside.
-- XMR outperformance thesis ended: −0.9% today reverses prior 2-session streak (+3.9%, +11.1%); privacy narrative fading without follow-through.
+- Quiet — BTC +0.2% vs prior intraday snapshot, F&G 26 (unchanged), DEX vol $4.69B→$4.58B (−2.4%); regime unchanged.
+- Meme rotation cooling: SHIB pulled back from +36.2% to +20.1% intraday; PEPE +9.6% vs prior +11.9%; EUL dropped out of trending entirely.
+- ONDO (RWA/tokenization, rank 42) appeared in CoinGecko trending for the first time this cycle; potential narrative rotation signal.
 
 ## Active Narratives
-- **Meme rotation** — phase: rising. Evidence: DOGE +6.0%, SHIB +36.2%, PEPE +11.9%, ANSEM +21.5% — 4 meme/low-cap tokens in top movers on a day BTC +0.6%; breadth 15/20 meme-driven with DEX vol down −29%; runs fast, fades fast.
-- **FOMC binary gate** — phase: peak. Evidence: Jul 28-29 meeting T−2; BTC range-bound $63.7K–$64.5K; ETF outflows $465M/2 days; CLARITY Act odds falling per Jul 23 reporting; no-change consensus keeps BTC pinned through weekend.
-- **EUL (Euler lending) persistence pump** — phase: peak. Evidence: EUL +69.7% second consecutive session; $2.51 now from ~$1.48 24h prior; rank #368, low-cap; high dump-risk once momentum stalls.
-- **BTC ETF outflow headwind** — phase: rising. Evidence: $465M cumulative 2-day outflows (IBIT −$202.5M Jul 24, Jul 25 ~$240M); ended prior 7-session/$1B inflow streak; week net barely positive at $33.79M masking daily deterioration.
+- **Meme rotation** — phase: fading. Evidence: SHIB cooled from +36.2% to +20.1% within the session; PEPE +9.6% (was +11.9%); EUL exited trending; DOGE +5.5% but no meme cohort follow-through.
+- **FOMC binary gate** — phase: peak. Evidence: Meeting starts Jul 28 (T−2); no-change consensus 73.3%; BTC range-bound $64.1K–$64.6K for 3+ sessions; ETF outflows $465M Jul 24-25; CLARITY Act odds at 34% (Polymarket) complicating regulatory read.
+- **BTC ETF outflow headwind** — phase: rising. Evidence: $465M cumulative Jul 24-25 (IBIT−led); prior 7-session/$1B inflow streak definitively broken; week net +$33.79M masks daily deterioration; third consecutive outflow day (Jul 26) would confirm structural reversal.
+- **RWA/tokenization** — phase: emerging. Evidence: ONDO (rank 42, +0.86%) first trending appearance this cycle alongside FIGR_HELOC at market cap rank 9 (+2.9% 24h); no sector-wide breadth yet.
 
 ## Top DeFi Protocols (TVL, 7d change)
-- Lido: $17.6B (+2.33%)
-- Aave V3: $13.8B (+0.34%)
-- SSV Network: $9.3B (+1.98%)
-- Morpho Blue: ~$7.5B [carried from prior]
+- Lido: $17.61B (+2.14%)
+- Aave V3: $13.79B (+0.32%)
+- SSV Network: $9.28B (+1.79%)
+- Morpho Blue: $7.53B (+1.02%)
 - WBTC: ~$7.5B [carried from prior]
 
-## Chain Flow (top 5 by TVL, vs prior snapshot)
-- Ethereum: $41.44B (+$0.24B, +0.6%)
-- Solana: $4.84B (+$0.04B, +0.8%)
-- Tron: $4.84B (+$0.02B, +0.4%)
-- Base: $4.60B (+$0.05B, +1.1%)
-- Bitcoin: $4.22B (new in top 5 — BSC displaced)
-*All chains up marginally; Bitcoin chain entering top 5 (BSC dropped); Ethereum +$240M is the largest absolute gain. No directional rotation signal — chains moving in unison with spot price.*
+## Chain Flow (top 5 by TVL)
+- Ethereum: $41.45B (flat vs prior)
+- Tron: $4.86B (flat)
+- Solana: $4.85B (flat)
+- BSC: $4.84B (flat)
+- Base: $4.57B (−$0.03B vs prior)
+*All chains flat; Tron edged past Solana/BSC by rounding. No rotation signal. Pre-FOMC stasis.*
 
 ## Stablecoins
-Total: ~$273.5B (flat vs prior ~$273.6B, −0.04%). USDT $184.27B · USDC $73.55B · USDS $6.65B · DAI $4.85B · USD1 $4.15B — combined share of mcap ~11.9%.
+Total: ~$273.6B (flat vs prior ~$273.5B). USDT $184.0B · USDC $72.5B · USDS $6.7B · DAI $4.9B · USD1 $4.1B — combined share of mcap ~11.9%.
 
 ## Trending (CoinGecko)
-- SHIB (Shiba Inu) — #28, $0.0000057, +36.20% 24h. Meme surge; leading meme rotation alongside DOGE [MEME-RUN]
-- EUL (Euler) — #368, $2.51, +69.67% 24h. Lending protocol; second consecutive session pump; low-cap, high dump-risk [PUMP-RISK]
-- ANSEM (The Black Bull) — #291, $0.1993, +21.54% 24h. Social/meme token; meme wave rider [MEME-RUN]
-- PEPE — #59, $0.0000030, +11.88% 24h. Meme; part of DOGE/SHIB cluster [MEME-RUN]
-- PENGU (Pudgy Penguins) — #109, $0.0064, +7.34% 24h. NFT-linked; recovering from prior -0.4% [BOUNCE]
-- DEXE (DeXe) — #198, $3.39, −34.69% 24h. Prior bounce ($6.16 peak) now in full collapse [FADE]
-- HYPE (Hyperliquid) — #10, $58.62, +2.46% 24h. Steady; part of broad 15/20 breadth [BASELINE]
-> **Take:** chop — BTC +0.6% 24h at $64.4K while F&G slides 27→26 (Fear); sentiment and price diverging pre-FOMC. Conviction: medium.
-
-## Signal Snapshot
-- BTC $64,354 (+0.60% 24h, −0.1% 7d) · dominance 56.43% (−0.10 pp 24h)
-- ETH $1,883 (+1.45% 24h, +1.1% 7d) · ETH/BTC 0.02924
-- SOL $74.95 (+1.44% 24h, −1.4% 7d)
-- Total mcap $2.29T (+0.83% 24h) · DEX vol $4.69B 24h
-- Breadth: ~14/20 green 24h · 7/20 green 7d
-- Fear & Greed: 26 (Fear) — yesterday 27
-
-## What Changed Since Last Refresh
-- **F&G declined 27→26 despite BTC/ETH/SOL all rising** — sentiment and price diverging; pre-FOMC anxiety deepening into the weekend.
-- **BTC ETF outflow streak confirmed 2 days** — $465M total over Jul 24–25 per websearch; 7-session/$1B inflow streak definitively broken.
-- **Meme rotation emerged** — SHIB +36.2%, PEPE +12% trending and leading gains; unusual signal on a pre-FOMC weekend with Fear sentiment.
-- **DEX vol weekend-compressed** — $4.69B vs $6.60B yesterday (−29%); not a signal, pattern.
-
-## Active Narratives
-- **FOMC gate** — phase: peak (binary, T−2 days). Evidence: Meeting starts Mon Jul 28; no-change 73.3% (carried); oil surging and 10Y yields rising adds macro headwind; BTC pre-weekend at $64.4K.
-- **BTC ETF outflow streak** — phase: rising. Evidence: $465M over Jul 24–25 confirmed; institutional pull-back going into FOMC deliberations.
-- **Meme rotation** — phase: emerging. Evidence: SHIB +36.2% [TRENDING+UP], PEPE +11.9% [TRENDING+UP] day 1; weekend-specific phenomenon; no cross-trader confirmation yet.
-- **Geopolitical macro overhang** — phase: rising (persistent). Evidence: Oil prices surging + 10Y yields up per websearch; Iran ceasefire (Polymarket YES 84.5%) holding but adjacent invasion risk (23.5%).
-- **EUL pump/distribution** — phase: peak→fading. Evidence: EUL day-3 +69.7% (from +36.7% Jul 24 → +73.1% Jul 25 → +69.7% now); rank #368; classic extended-run distribution signature.
-
-## Top DeFi Protocols (TVL, 7d change)
-- Lido: $17.57B (+2.33%)
-- Aave V3: $13.78B (+0.34%)
-- SSV Network: $9.26B (+1.98%)
-- Morpho Blue: ~$7.5B [carried]
-- WBTC: ~$7.5B [carried]
-
-## Chain Flow (top 5 by TVL, vs prior snapshot)
-- Ethereum: $41.46B (+$0.26B, +0.6%)
-- BSC: $4.85B (flat)
-- Solana: $4.84B (flat)
-- Tron: $4.83B (flat)
-- Base: $4.60B (flat)
-*Ethereum +$260M from prior; all other chains flat. No cross-chain rotation. Pre-FOMC weekend stasis.*
-
-## Stablecoins
-Total: ~$273B (flat). USDT $184.28B · USDC $73.56B · USDS $6.65B · DAI $4.85B · USD1 $4.15B (World Liberty Financial) — combined share of mcap ~11.9%.
-
-## Trending (CoinGecko)
-- BTC — #1, $64,354, +0.60% 24h. Broad search volume [MAJOR]
-- ETH — #2, $1,883, +1.45% 24h. Broad search volume [MAJOR]
-- SHIB (Shiba Inu) — #28, $0.0000057, +36.2% 24h. Meme leader [TRENDING+UP]
-- PEPE — #59, $0.000003, +11.9% 24h. Meme rotation [TRENDING+UP]
-- EUL (Euler) — #368, $2.51, +69.7% 24h. Lending protocol day-3 pump [PUMP-RISK]
-- HYPE (Hyperliquid) — #10, $58.62, +2.46% 24h [MAJOR]
-- PENGU (Pudgy Penguins) — #109, $0.0064, +7.3% 24h. NFT-linked recovery
+- SHIB (Shiba Inu) — #30, $0.000005, +20.1% 24h. Meme rotation, cooling from earlier +36.2% [FADING]
+- PEPE — #58, $0.000003, +9.6% 24h. Meme; losing momentum vs earlier session [FADING]
+- ONDO — #42, $0.39, +0.9% 24h. RWA/tokenization; first trending appearance this cycle [EMERGING]
+- PENGU (Pudgy Penguins) — #111, $0.0063, +5.2% 24h. NFT-linked; steady [BASELINE]
+- ETH — #2, $1,886, +1.1% 24h. Broad search volume [MAJOR]
+- XRP — #6, $1.10, +0.5% 24h. Broad search volume [MAJOR]
+- PI (Pi Network) — #70, $0.08, +1.7% 24h [BASELINE]
 
 ## Prediction Markets (Polymarket, top by 24h vol)
 | Market | YES% | 24h Vol | Liquidity |
 |--------|------|---------|-----------|
-| Israel × Iran ceasefire continues through Jul 31? | 84.5% | $480K | $45K |
-| Will U.S. invade Iran before 2027? | 23.5% | $554K | $710K |
+| Will U.S. invade Iran before 2027? | 19.5% | $0.97M | $0.76M |
+| Strait of Hormuz traffic normal by Aug 31? | 15.5% | $0.69M | $0.32M |
 | Fed no change after July 2026 meeting | 73.3% | [carried] | [carried] |
+| CLARITY Act passes in 2026 | 34.0% | [carried] | [carried] |
 
-*Top-volume Polymarket markets today all fell outside 3-97% filter (Israel ceasefire 99.85% resolving; Fed 50+ bps cuts/hikes all <1%). FOMC no-change data carried from prior — market likely still active but not in today's top-volume ranking.*
-
-## Macro Catalysts (next 48h)
-- **FOMC Jul 28-29 (binary gate, T−2):** No-change consensus; BTC capped at $64.4K; ETF outflows + CLARITY Act uncertainty compound pre-decision stasis. Weekend likely quiet.
-- **BTC ETF Jul 26 flows (post US close):** Third consecutive outflow would confirm structural reversal; any inflow bounce is the near-term sentiment catalyst. $465M over 2 days already confirmed trend break.
-- **CLARITY Act uncertainty:** Odds of passage fell per Jul 23 reporting; Trump crypto earnings creating political complications; regulatory overhang now layered with FOMC gate.
-
-## Implications for Downstream Skills
-- **token-pick:** Hold — FOMC T−2, ETF outflow streak, DEX vol −29%, F&G 26 = four headwinds. Post-FOMC (Jul 29-30) reassess; if no-change confirmed, breadth read becomes more reliable. Avoid meme exposure (EUL, SHIB) — pump-risk not investable.
-- **narrative-tracker:** Meme rotation (DOGE/SHIB/PEPE) needs 2nd session confirmation to solidify as rising; watch DOGE 7d (currently +1.6%) for follow-through. EUL second session — track for dump-risk exit signal. XMR outperformance thesis closed (−0.9% today). FOMC (Jul 28-29) is the binary regime gate.
-*FOMC market not in top vol this weekend; data carried from prior. Israel × Iran Jul 25 market resolved, excluded.*
+*FOMC and CLARITY Act markets not in top vol today; data carried from prior/WebSearch. Geopolitical markets (Iran ceasefire) largely settled (>97%); excluded.*
 
 ## Macro Catalysts (next 48h)
-- **FOMC Jul 28–29 (binary gate, T−2):** Deliberations begin Monday. No-change 73.3%, hike 26.7%. PCE data may validate hawkish read per websearch. BTC at $64.4K; ETF outflows $465M over 2 days heading into meeting.
-- **Oil surge / 10Y yield rise:** Macro headwind per websearch; adds inflation narrative ahead of FOMC; constrains risk-on potential regardless of FOMC outcome.
+- **FOMC Jul 28-29 (binary gate, T−2):** No-change consensus 73.3%; BTC capped at $64.5K; ETF outflows + CLARITY Act at 34% compound pre-decision stasis. Weekend likely quiet.
+- **BTC ETF Jul 26 flows:** $465M cumulative over 2 days already confirmed; third consecutive outflow would signal structural reversal. Any inflow bounce is the near-term sentiment catalyst.
+- **Oil surge + 10Y yield rise:** Macro headwind per current reporting; adds inflation narrative ahead of FOMC; constrains risk-on potential regardless of outcome.
 
 ## Implications for Downstream Skills
-- **token-pick:** Hold off — ETF outflows (2-day streak), F&G declining despite recovery, FOMC binary gate Mon = triple headwind. Post-FOMC, if no-change: revisit XMR (rising phase, day-3 divergence) and meme rotation (SHIB/PEPE for a quick risk-on trade).
-- **narrative-tracker:** Meme rotation (SHIB/PEPE) is new; watch for day-2 confirmation and/or cross-trader mention Sunday. FOMC binary gate is the master switch — all narrative phases contingent on Monday outcome.
+- **token-pick:** Hold — FOMC T−2, ETF outflow streak, DEX vol −26% vs 7d avg, F&G 26 = four headwinds. Meme rotation fading; RWA (ONDO) emerging but no entry signal yet. Post-FOMC (Jul 29-30) reassess if no-change confirmed.
+- **narrative-tracker:** Meme rotation (DOGE/SHIB/PEPE) is fading; monitor for full reversal vs partial consolidation before next session. ONDO trending = watch for RWA sector breadth. FOMC Jul 28-29 is the master regime gate.
 
 ## Token Picks Made
 | Date | Token | Price | Thesis |
 
 ---
 *Sources — btc/eth: CoinGecko · defi: DeFiLlama · sentiment: alternative.me · markets: Polymarket · catalysts: WebSearch*
-*Source status: coingecko=ok defillama=partial (chain TVL ok; protocols bottom 2 carried from prior) fng=ok polymarket=partial (top-vol outside 3-97% range; FOMC data carried) websearch=ok*
-*Source status: coingecko=ok defillama=ok fng=ok polymarket=partial (FOMC market not in top vol, carried) websearch=ok*
+*Source status: coingecko=ok defillama=ok fng=ok polymarket=partial (top-vol geopolitical-only; FOMC/CLARITY carried) websearch=ok*
