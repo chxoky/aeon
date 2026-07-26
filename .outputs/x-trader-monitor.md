@@ -1,11 +1,10 @@
 🐦 *[X] @Wild_Randomness*
 
-*Market Structure Analysis — Volatility Asymmetry*
+One key differentiator this time is market leadership.
 
-I don't believe it to be the case fwiw, there are simply too many passive flows + algos/HFTs that will auto-bid these headlines... But the obvious left tail scenario staring everyone in the face is they are no longer successful in controlling vol. 
+Without a doubt semis / momentum (general AI ex-MAG7) were most resilient during Q1 drawdown, now they are leading towards the downside…
 
-[View post](https://x.com/Wild_Randomness/status/2081450019601690909)
-## Summary
+In Q3's version of the Iran War the most resilient names are Apple and the Dow Jones.
 
 **x-trader-monitor execution complete.**
 
@@ -31,3 +30,6 @@ So while there is a low likelihood for this coming to fruition, the payoff for o
 - ✓ Logged event to `memory/logs/2026-07-26.md` with full context
 
 **No notification sent** (skip events do not alert Kyle).
+[View tweet](https://x.com/Wild_Randomness/status/2081454168699527407)
+
+↳ _Reinforces established Apple skepticism (2-trader convergence); adds Dow as tactical leadership in geopolitical-risk regime._
