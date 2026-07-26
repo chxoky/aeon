@@ -1,0 +1,41 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_1",
+        "link_view"
+      ]
+    },
+    "tweet_1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "Everyone's out here suddenly preaching that CEXes are dead and DEXes are the future.\n\nJust cause @BitMEX & @BitMartExchange are shutting operations.\n\nJust remember what actually went down on @HyperliquidX during the 10/10 cascade.\n\nRoughly $16 billion got liquidated across the whole market that day. About $9 billion of it was on Hyperliquid alone.\n\nHyperliquid isn't bigger than Bybit or Binance. Yet it produced liquidations roughly double the size of both of them combined.\n\nBinance had around $1B liquidated. Hyperliquid? $9.2B.\n\nPrice wicked hard into levels that had never even been tested on other platforms. $BTC literally de-pegged then re-pegged so quickly that nobody could reach/notice.\n\nPositions got auto-deleveraged left and right so the platform itself didn't eat the losses and go under. The traders did. So much for decentralisation & protecting the users.\n\nPeople got wiped out on levels that, in any normal liquid market, never should have been tested.\n\nAnd the people who shilled hyperliquid?\n\nDead silence. Almost zero discussion on the topic, like the whole thing never happened.\n\nThese DEXes don't just facilitate trades. A big chunk of the business model is the liquidation engine itself, extracting value the second people get forced out.\n\nSo spare me the cult narrative that DEXes are the inevitable next big thing.\n\nCause I can assure you, there's not a chance in hell I'll ever trade on a platform like that.\n\nI'd rather trade on a CEX with deep order books and strong liquidity than risk dealing with failures when volatility hits."
+      }
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2081505588022788225"
+      }
+    }
+  }
+}

@@ -23,6 +23,7 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - Jul 23 20:43Z — informational: BTC Fear & Greed Index at 5 (lowest since 2018/COVID); major capitulation done, now chop [2080393271151382812]
 - Last seen: 2026-07-26 20:43:49 UTC
 - **Events (rolling):**
+  - Jul 26 22:23Z — informational: DEX/CEX platform risk — Hyperliquid cascade critique, liquidation engine extraction [2081505588022788225]
   - Jul 26 20:43Z — informational (silent-dedup): BTC 2x long elaboration — mechanical repeat of 20:36Z conviction post [2081480630882144535]
   - Jul 26 20:36Z — informational: BTC 2x long conviction reinforcement — X reiteration of 19:03Z Discord reaffirmation. Patience narrative (structure shift could take months), historical activation zones + managed short-exit charts; no new entry, waiting for bullish structure [2081478827851538471]
   - Jul 26 19:03Z — informational: BTC position reinforcement — reply to @msszett confirming ongoing accumulation in current price region, reaffirming 2x long position [2081455305800515755]
