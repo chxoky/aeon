@@ -1,1 +1,7 @@
-market context 2026-07-25 | take: risk-off (medium conviction) | BTC 64.1K (-0.9%) ETH 1865 (-0.4%) F&G 27 Fear | breadth 4/20 DEX 6.60B TVL flat | FOMC T-2 ETF outflow unresolved | XMR rising +3.9%/+11.1% 7d day-2 outperform | EUL PUMP-RISK +73% day-2 DEXE fading | VVV AI-privacy emerging +11%
+market context — 2026-07-26
+
+take: rotation (conviction low)
+BTC $64,354 (+0.6%) / ETH $1,883 (+1.4%) · F&G 26 (Fear)
+breadth 15/20 · DEX vol $4.69B (−29%)
+top narrative: meme rotation (rising) — DOGE +6%, SHIB +36%
+FOMC T−2: no-change consensus; ETF outflows $465M/2-day streak confirmed

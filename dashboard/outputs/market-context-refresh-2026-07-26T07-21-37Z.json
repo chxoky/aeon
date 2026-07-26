@@ -1,0 +1,201 @@
+{
+  "root": "card_market",
+  "state": {},
+  "elements": {
+    "card_market": {
+      "type": "Card",
+      "props": {
+        "title": "market context — 2026-07-26"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_take",
+        "prices_stack",
+        "breadth_dex_stack",
+        "separator_1",
+        "narrative_section",
+        "separator_2",
+        "fomc_section"
+      ]
+    },
+    "badge_take": {
+      "type": "Badge",
+      "props": {
+        "text": "rotation (conviction low)",
+        "variant": "outline"
+      }
+    },
+    "prices_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_btc",
+        "stat_eth",
+        "stat_fg"
+      ]
+    },
+    "stat_btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$64,354",
+        "delta": "+0.6%",
+        "trend": "up"
+      }
+    },
+    "stat_eth": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$1,883",
+        "delta": "+1.4%",
+        "trend": "up"
+      }
+    },
+    "stat_fg": {
+      "type": "Stat",
+      "props": {
+        "label": "F&G",
+        "value": "26",
+        "delta": "Fear"
+      }
+    },
+    "breadth_dex_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "progress_breadth",
+        "stat_dex"
+      ]
+    },
+    "progress_breadth": {
+      "type": "Progress",
+      "props": {
+        "value": 15,
+        "max": 20,
+        "label": "breadth"
+      }
+    },
+    "stat_dex": {
+      "type": "Stat",
+      "props": {
+        "label": "DEX vol",
+        "value": "$4.69B",
+        "delta": "-29%",
+        "trend": "down"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "narrative_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_narrative",
+        "badge_meme",
+        "narrative_stats_stack"
+      ]
+    },
+    "heading_narrative": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Narrative",
+        "level": "h3"
+      }
+    },
+    "badge_meme": {
+      "type": "Badge",
+      "props": {
+        "text": "meme rotation (rising)",
+        "variant": "secondary"
+      }
+    },
+    "narrative_stats_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_doge",
+        "stat_shib"
+      ]
+    },
+    "stat_doge": {
+      "type": "Stat",
+      "props": {
+        "label": "DOGE",
+        "value": "+6%",
+        "trend": "up"
+      }
+    },
+    "stat_shib": {
+      "type": "Stat",
+      "props": {
+        "label": "SHIB",
+        "value": "+36%",
+        "trend": "up"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "fomc_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_fomc",
+        "badge_fomc",
+        "text_fomc"
+      ]
+    },
+    "heading_fomc": {
+      "type": "Heading",
+      "props": {
+        "text": "FOMC",
+        "level": "h3"
+      }
+    },
+    "badge_fomc": {
+      "type": "Badge",
+      "props": {
+        "text": "T−2",
+        "variant": "secondary"
+      }
+    },
+    "text_fomc": {
+      "type": "Text",
+      "props": {
+        "text": "no-change consensus; ETF outflows $465M/2-day streak confirmed"
+      }
+    }
+  }
+}

@@ -1,70 +1,74 @@
-# Market Context (as of 2026-07-25)
+# Market Context (as of 2026-07-26)
 
-> **Take:** risk-off — BTC −0.9% 24h at $64.1K with breadth 4/20 and F&G 27 (Fear); FOMC T−2 days and Jul 24 $225M ETF outflow unresolved. Conviction: medium.
+> **Take:** rotation — BTC +0.6% 24h flat at $64.4K while 15/20 top-cap majors green, led by meme coins (DOGE +6.0%, SHIB +36.2%); BTC dominance slips −0.12 pp as memes rotate. Conviction: low.
 
 ## Signal Snapshot
-- BTC $64,109 (−0.9% 24h, −0.1% 7d) · dominance 56.53% (flat)
-- ETH $1,865 (−0.4% 24h, +1.1% 7d) · ETH/BTC 0.02909
-- SOL $73.78 (−1.1% 24h, −1.4% 7d)
-- Total mcap $2.27T (~flat 24h) · DEX vol $6.60B 24h
-- Breadth: 4/20 green 24h · 7/20 green 7d
-- Fear & Greed: 27 (Fear) — yesterday 28
+- BTC $64,354 (+0.60% 24h, −0.5% 7d) · dominance 56.41% (−0.12 pp 24h)
+- ETH $1,883 (+1.44% 24h, +0.9% 7d) · ETH/BTC 0.02926
+- SOL $74.95 (+1.44% 24h, −1.2% 7d)
+- Total mcap $2.29T (+0.88% 24h) · DEX vol $4.69B 24h
+- Breadth: 15/20 green 24h · 9/20 green 7d
+- Fear & Greed: 26 (Fear) — yesterday 27
 
 ## What Changed Since Last Refresh
-Quiet — BTC +0.25% from prior snapshot ($63,941 → $64,109); regime unchanged (risk-off, day 3). F&G flat at 27; DEX vol +1% to $6.60B (not material). BTC loss moderating (−0.9% vs −2.2% yesterday), breadth improved marginally to 4/20 from 3/20 — no regime shift, just consolidation. Notable: DEXE bounce fading fast ($6.16→$4.57, +165%→+63.8%); EUL second-day escalation (+36.7%→+73.1%, low-cap pump risk); VVV (Venice Token, AI-privacy) new trending entrant +11% 24h. USD1 (World Liberty Financial USD, $4.15B) entered stablecoin top 5, displacing USDe. XMR second consecutive outperformance (+3.9% 24h, +11.1% 7d) on a broadly red day.
+- Breadth surged 4/20 → 15/20: meme rotation (DOGE +6.0%, SHIB +36.2%, PEPE +11.9%, ANSEM +21.5%) drove an 11-coin breadth swing; prior session was red across majors; breadth is meme-driven, not structural demand.
+- DEX vol collapsed −29%: $6.60B → $4.69B; breadth improvement did not translate to DeFi participation; spot rotation is meme-only.
+- BTC ETF outflows confirmed 2-day streak: Jul 25 −$240M follows Jul 24 −$225M ($465M cumulative); prior 7-session inflow streak now definitively broken; week closed +$33.79M net (marginal positive, trend is outflow).
+- Regime shift risk-off → rotation: BTC flat, memes leading, dominance slipping; FOMC T−2 and CLARITY Act uncertainty cap upside.
+- XMR outperformance thesis ended: −0.9% today reverses prior 2-session streak (+3.9%, +11.1%); privacy narrative fading without follow-through.
 
 ## Active Narratives
-- **FOMC gate** — phase: peak (binary, T−2 days). Evidence: Jul 28–29 meeting; no-change 73.3% (prior data); BTC at $64.1K; Nasdaq futures −0.3% and DXY flat — pre-decision stasis holding.
-- **BTC ETF outflow reversal watch** — phase: fading. Evidence: Jul 24 −$225M net outflow (IBIT −$202.5M) ended 7-session/$1B inflow streak; Jul 25 flow data not yet available; second consecutive day would confirm trend break.
-- **Tariff macro overhang** — phase: rising (persistent). Evidence: Nasdaq/S&P futures both −0.3% with DXY flat; crypto in holding pattern with no macro tailwind; breadth 4/20 systemic across top-cap names.
-- **XMR privacy divergence** — phase: rising. Evidence: XMR +3.9% 24h, +11.1% 7d — sole consistent large-cap outperformer for second consecutive session; gains while BNB/DOGE/LEO are the only other green names (utility/meme rotation, not structural).
-- **AI-privacy infrastructure (VVV)** — phase: emerging. Evidence: VVV (Venice Token, #89, Base chain) new trending entrant +11.01% 24h; privacy-focused generative AI; no cross-trader confirmation yet.
+- **Meme rotation** — phase: rising. Evidence: DOGE +6.0%, SHIB +36.2%, PEPE +11.9%, ANSEM +21.5% — 4 meme/low-cap tokens in top movers on a day BTC +0.6%; breadth 15/20 meme-driven with DEX vol down −29%; runs fast, fades fast.
+- **FOMC binary gate** — phase: peak. Evidence: Jul 28-29 meeting T−2; BTC range-bound $63.7K–$64.5K; ETF outflows $465M/2 days; CLARITY Act odds falling per Jul 23 reporting; no-change consensus keeps BTC pinned through weekend.
+- **EUL (Euler lending) persistence pump** — phase: peak. Evidence: EUL +69.7% second consecutive session; $2.51 now from ~$1.48 24h prior; rank #368, low-cap; high dump-risk once momentum stalls.
+- **BTC ETF outflow headwind** — phase: rising. Evidence: $465M cumulative 2-day outflows (IBIT −$202.5M Jul 24, Jul 25 ~$240M); ended prior 7-session/$1B inflow streak; week net barely positive at $33.79M masking daily deterioration.
 
 ## Top DeFi Protocols (TVL, 7d change)
-- Lido: $17.37B (+2.29%)
-- Aave V3: $13.66B (+0.48%)
-- SSV Network: ~$9.1B [carried]
-- Morpho Blue: ~$7.5B (+2.28%) [carried]
-- WBTC: ~$7.5B (+1.45%) [carried]
+- Lido: $17.6B (+2.33%)
+- Aave V3: $13.8B (+0.34%)
+- SSV Network: $9.3B (+1.98%)
+- Morpho Blue: ~$7.5B [carried from prior]
+- WBTC: ~$7.5B [carried from prior]
 
 ## Chain Flow (top 5 by TVL, vs prior snapshot)
-- Ethereum: $41.20B (+$0.07B, +0.2%)
-- BSC: $4.82B (+$0.01B, flat)
-- Tron: $4.82B (+$0.02B, flat)
-- Solana: $4.80B (flat)
-- Base: $4.55B (flat)
-*Ethereum micro-uptick (+$70M); all other chains flat. No cross-chain rotation signal. Pre-FOMC stasis confirmed.*
+- Ethereum: $41.44B (+$0.24B, +0.6%)
+- Solana: $4.84B (+$0.04B, +0.8%)
+- Tron: $4.84B (+$0.02B, +0.4%)
+- Base: $4.60B (+$0.05B, +1.1%)
+- Bitcoin: $4.22B (new in top 5 — BSC displaced)
+*All chains up marginally; Bitcoin chain entering top 5 (BSC dropped); Ethereum +$240M is the largest absolute gain. No directional rotation signal — chains moving in unison with spot price.*
 
 ## Stablecoins
-Total: ~$278B (flat). USDT $184.28B · USDC $73.63B · USDS $6.64B · DAI $4.86B · USD1 $4.15B (World Liberty Financial, new top-5 entrant) — combined share of mcap ~12.2%.
+Total: ~$273.5B (flat vs prior ~$273.6B, −0.04%). USDT $184.27B · USDC $73.55B · USDS $6.65B · DAI $4.85B · USD1 $4.15B — combined share of mcap ~11.9%.
 
 ## Trending (CoinGecko)
-- VVV (Venice Token) — #89, $13.23, +11.01% 24h. AI-privacy generative chain on Base; new entrant [EMERGING]
-- DEXE (DeXe) — #157, $4.57, +63.8% 24h. Bounce fading: +165% yesterday at $6.16, now compressing [FADE]
-- PENGU (Pudgy Penguins) — #114, $0.006, −0.40% 24h. NFT-linked; losing momentum [FADE]
-- EUL (Euler) — #496, $1.70, +73.09% 24h. Lending protocol; second-day high-% run; low-cap pump risk [PUMP-RISK]
-- ONDO — #41, $0.38, −2.08% 24h. RWA tokenization; background weakness [BACKGROUND]
-- MON (Monad) — #144, $0.021, −4.20% 24h. L1; weak [NOISE]
-- ETH — #2, $1,865, +0.53% 24h. Size-driven search volume; slight recovery [BASELINE]
+- SHIB (Shiba Inu) — #28, $0.0000057, +36.20% 24h. Meme surge; leading meme rotation alongside DOGE [MEME-RUN]
+- EUL (Euler) — #368, $2.51, +69.67% 24h. Lending protocol; second consecutive session pump; low-cap, high dump-risk [PUMP-RISK]
+- ANSEM (The Black Bull) — #291, $0.1993, +21.54% 24h. Social/meme token; meme wave rider [MEME-RUN]
+- PEPE — #59, $0.0000030, +11.88% 24h. Meme; part of DOGE/SHIB cluster [MEME-RUN]
+- PENGU (Pudgy Penguins) — #109, $0.0064, +7.34% 24h. NFT-linked; recovering from prior -0.4% [BOUNCE]
+- DEXE (DeXe) — #198, $3.39, −34.69% 24h. Prior bounce ($6.16 peak) now in full collapse [FADE]
+- HYPE (Hyperliquid) — #10, $58.62, +2.46% 24h. Steady; part of broad 15/20 breadth [BASELINE]
 
 ## Prediction Markets (Polymarket, top by 24h vol)
 | Market | YES% | 24h Vol | Liquidity |
 |--------|------|---------|-----------|
 | Fed no change after July 2026 meeting | 73.3% | $1.12M [prior] | $0.31M [prior] |
 
-*FOMC market not surfaced in today's top-by-volume ranking (sports/entertainment dominated top 10); data carried from prior. Israel × Iran ceasefire Jul 25 market resolving today — excluded.*
+*Top-volume Polymarket markets today all fell outside 3-97% filter (Israel ceasefire 99.85% resolving; Fed 50+ bps cuts/hikes all <1%). FOMC no-change data carried from prior — market likely still active but not in today's top-volume ranking.*
 
 ## Macro Catalysts (next 48h)
-- **FOMC Jul 28–29 (binary gate, T−2):** No-change 73.3%, +25bps 26.7%. BTC at $64.1K; Jul 24 range $63.7K–$65.4K. Pre-meeting stasis likely continues through weekend.
-- **BTC ETF Jul 25 flow data (post US close):** Second consecutive outflow would confirm trend break; inflow reversal is the near-term sentiment catalyst to watch. Nasdaq/S&P futures −0.3% today provide no relief.
+- **FOMC Jul 28-29 (binary gate, T−2):** No-change consensus; BTC capped at $64.4K; ETF outflows + CLARITY Act uncertainty compound pre-decision stasis. Weekend likely quiet.
+- **BTC ETF Jul 26 flows (post US close):** Third consecutive outflow would confirm structural reversal; any inflow bounce is the near-term sentiment catalyst. $465M over 2 days already confirmed trend break.
+- **CLARITY Act uncertainty:** Odds of passage fell per Jul 23 reporting; Trump crypto earnings creating political complications; regulatory overhang now layered with FOMC gate.
 
 ## Implications for Downstream Skills
-- **token-pick:** Hold off — ETF outflows + FOMC gate + breadth 4/20 = triple headwind unchanged. Post-FOMC if no-change confirmed, revisit XMR (rising phase, two-session divergence) and DeFi lending (Lido/Aave TVL holding while spot falls).
-- **narrative-tracker:** XMR now day 2 outperformance — escalate to rising phase; needs cross-trader mention to confirm. FOMC (Jul 28–29) is the binary regime gate. ETF Jul 25 flow data (post US close today) is the near-term signal. VVV/AI-privacy emerging — watch for second trending day to confirm.
+- **token-pick:** Hold — FOMC T−2, ETF outflow streak, DEX vol −29%, F&G 26 = four headwinds. Post-FOMC (Jul 29-30) reassess; if no-change confirmed, breadth read becomes more reliable. Avoid meme exposure (EUL, SHIB) — pump-risk not investable.
+- **narrative-tracker:** Meme rotation (DOGE/SHIB/PEPE) needs 2nd session confirmation to solidify as rising; watch DOGE 7d (currently +1.6%) for follow-through. EUL second session — track for dump-risk exit signal. XMR outperformance thesis closed (−0.9% today). FOMC (Jul 28-29) is the binary regime gate.
 
 ## Token Picks Made
 | Date | Token | Price | Thesis |
 
 ---
 *Sources — btc/eth: CoinGecko · defi: DeFiLlama · sentiment: alternative.me · markets: Polymarket · catalysts: WebSearch*
-*Source status: coingecko=ok defillama=ok fng=ok polymarket=partial (top-vol returned sports; FOMC data carried) websearch=ok*
+*Source status: coingecko=ok defillama=partial (chain TVL ok; protocols bottom 2 carried from prior) fng=ok polymarket=partial (top-vol outside 3-97% range; FOMC data carried) websearch=ok*
