@@ -1,11 +1,13 @@
-🐦 *[X] @Wild_Randomness*
+🐦 *[X] @KillaXBT*
 
-Sharing thread on S&P 500 short squeeze potential + bullish equity sentiment
-- Endless Capital: "EVERYTHING IS GOING TO EXPLODE HIGHER"
-- First Squawk: Short interest in SPX at 15-year high  
-- Rick J: "Another meltup... S&P 8000 is in the cards"
-- Thomas James: "Generational Short Squeeze" setup
+**BTC — 2x long conviction reinforcement**
 
-[View tweet](https://x.com/Wild_Randomness/status/2081476866557305132)
+I rarely take 2-3x swing positions. The last time I did was right before a major -50% correction at 123K.
 
-↳ External commentary thread, not Wild_Randomness's personal action. Sentiment aligns with Crypto_Chase's SPX bullish bias but offers bearish counter-narrative from broader equities caution.
+Now, I'm in a 2x long again. I am currently holding a low leverage long and waiting for structure to shift bullish before looking for continuation longs. This could take a few more months.
+
+The moment structure shifts, we'll long our longs and compound straight up to new ATHs.
+
+[View post](https://x.com/KillaXBT/status/2081478827851538471)
+
+↳ _Charts show historical activation zones and his managed short-exit pattern; conviction framed around structural turn timing (timebased, not level-dependent)._

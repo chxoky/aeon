@@ -1,0 +1,47 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Alert",
+        "description": "BTC Trading Position from @KillaXBT"
+      },
+      "children": [
+        "tweet",
+        "separator",
+        "link",
+        "note"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "BTC — 2x long conviction reinforcement\n\nI rarely take 2-3x swing positions. The last time I did was right before a major -50% correction at 123K.\n\nNow, I'm in a 2x long again. I am currently holding a low leverage long and waiting for structure to shift bullish before looking for continuation longs. This could take a few more months.\n\nThe moment structure shifts, we'll long our longs and compound straight up to new ATHs."
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/KillaXBT/status/2081478827851538471"
+      }
+    },
+    "note": {
+      "type": "Text",
+      "props": {
+        "text": "Charts show historical activation zones and his managed short-exit pattern; conviction framed around structural turn timing (timebased, not level-dependent).",
+        "variant": "muted"
+      }
+    }
+  }
+}
