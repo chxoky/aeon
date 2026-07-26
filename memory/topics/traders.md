@@ -3,16 +3,15 @@
 
 **Regime at bootstrap:** BTC range-bound / "meatgrinder" low-to-mid 60Ks, down ~53% from cycle high; Jul 13 (Mon) dropped ~3% leaving a lower high (~64.7K). Structural bulls (Killa, t_in_crypto) vs tactical bears (HCH short basket); consensus = choppy bear grind, HTF bottom "close" (Killa: ~90% done). Equities: AI/semis corrected then NVDA/memory (MU, SNDK) bounced hard; SPX pressing toward new ATHs. CPI Wed Jul 15 flagged as the week's volatility event.
 
-
 BOOTSTRAP_COMPLETE: 2026-07-14
 
-*Compacted 2026-07-22 by trader memory consolidation (was 1.26MB). Full event history: memory/logs/. Format + rolling caps: see skills/trader-memory-compact/SKILL.md.*
+*Compacted 2026-07-26 by trader-memory-compact (was 147KB). Full event history: memory/logs/. Format + rolling caps: see skills/trader-memory-compact/SKILL.md.*
 
 ## KillaXBT
 - Platforms: X + Discord (primary 1411492188315193416)
-- Current open positions: **BTC — 2x swing LONG from 62.6K** (core HTF conviction, 1.5–2yr hold, established ~Jun 13, reaffirmed continuously incl. Jul 19 funding-rate defense: ~8-10%/yr funding ≈ 20% over 2yrs vs 300% upside at 2x). **Spot BTC** — majority of portfolio, ~11 BTC at avg ~65,897 ("spot average $65K"), DCA plan targeting ~20 BTC total over 3–4 months on dips; add spot at 54K if it comes; willing to liquidate ISA holdings sub-50K; plans to buy $IBIT in August. **Scalp-short hedge: CLOSED/CANCELLED** — ladder SHORT entered Jul 14 at 64.8–65.8K (~30% hedge of BTC holdings, invalidation 66.5–66.8K), both entries filled, SL moved to EP Jul 16, 25% TP at 2% move (Jul 16, secured 63.8K), 25% TP at ~4% move (Jul 17, secured 62.6K), remaining 50% held till sub-60K or BE; Jul 21 21:46 he cancelled the scalp-short limit and committed to swing long + spot only. Forward-looking (not entered): scalp-long search 60.6–60.8K on pullback (Jul 17); NEW conditional small short timed to Jul 28–30 pivot — build zones 67.5K/69.2K, SL 72.5K, entry IF bullish narrative into pivot → expects 4–5% correction (Jul 22 Discord, planned only).
-- Recent thesis: HTF-bullish BTC maxi. Major cycle low established: 97K→59K was the final impulsive correction (textbook 5-wave decline, 2022 analog); 59K = base low, wicks below likely absorbed/manipulation, low-50Ks still possible. Capitulation wick at 60K observed; "bears have 2 months left"; timebased capitulation phase, bottom possibly 2–3 months earlier than any prior cycle. 60K = swing-low decision level (break → 54–52K test; hold → 70s possible); Aug–Sept flagged as volatile "fuckery period". SOL never sees ATH again (token inflation, VC/insider concentration); ~99% of alts go to zero — only BTC matters. "Dumb bull > smart bear."
-- Conviction notes: Frames everything around dated "pivots" (the 14th played out with a 4.3% drop; next key date Jul 28 — 8 of last 9 pivot approaches resolved bearishly) and 2–4% moves; probabilistic, scales in early ("execution over perfection", sold last cycle 108–120K vs 126K top). Publicly logs every major position and own errors. Tactical detail goes to Discord ("I don't post every scalp on X"), philosophy/sentiment to X. Frequent cryptic checkmark/URL posts (✅ "Checkmate") that read as execution/validation confirmations but lack execution language. Heavy KillaLabs/Discord promo; combative banter with critics.
+- Current open positions: **BTC — 2x swing LONG from 62.6K** (core HTF conviction, 1.5–2yr hold, established ~Jun 13, reaffirmed continuously). **Spot BTC** — majority of portfolio, ~11 BTC at avg ~65,897, DCA plan targeting ~20 BTC total over 3–4 months on dips; add spot at 54K if it comes; willing to liquidate ISA holdings sub-50K; plans to buy $IBIT in August. **Scalp-short hedge: CLOSED/CANCELLED** — ladder SHORT entered Jul 14 at 64.8–65.8K (~30% hedge), both entries filled, partial TPs Jul 16–17 (50%), remaining cancelled Jul 21 21:46Z. **Forward-looking (not entered):** NEW conditional small short timed to Jul 28–30 pivot — build zones 67.5K/69.2K, SL 72.5K, entry IF bullish narrative into pivot (Jul 22 Discord, planned only).
+- Recent thesis: HTF-bullish BTC maxi. Major cycle low established: 97K→59K = final 5-wave correction (2022 analog); 59K = base low; "bears have 2 months left." 60K = swing-low decision level (break → 54–52K; hold → 70s). Aug–Sept flagged as volatile "fuckery period." Jul 28 = key pivot date (8 of 9 prior pivots resolved bearishly). SOL never sees ATH again. ~99% of alts go to zero. Miner capitulation worst in multi-cycle history. BTC accumulation ongoing into current price region (Jul 26 confirmation).
+- Conviction notes: Frames everything around dated "pivots" (14th played out 4.3%; next key Jul 28). Publicly logs every major position and own errors. Tactical detail goes to Discord, philosophy/sentiment to X. Frequent cryptic checkmark/URL posts (✅ "Checkmate") that read as execution/validation confirmations but lack execution language. Heavy KillaLabs/Discord promo.
 - Calibration: none yet.
   - PENDING: Jul 14 15:34 X "$BTC Checkmate. Easy ✅" + URL — execution confirmation of scalp-short plan or general sentiment? (calibration alert sent, no id logged)
   - PENDING: Jul 15 14:44 X "$BTC ✅" + URL — execution confirmation vs thesis update? [2077403896775840078]
@@ -70,835 +69,530 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - Jul 21 21:46Z — position-mgmt: BTC scalp-short limit cancelled; sticking with 2x swing long + spot only [2079684569310061028]
   - Jul 22 11:42Z — planned-entry: BTC conditional small short into Jul 28–30 pivot, zones 67.5K/69.2K, SL 72.5K [1529453651595936653]
   - Jul 22 22:53Z — conviction-statement: BTC 2x swing long from 62.6K, extreme conviction (would delete X account if stopped out) [2080063826301424060]
+  - PENDING: Jul 14 15:34 "$BTC Checkmate. Easy ✅" + URL — execution confirmation of scalp-short plan or general sentiment? (calibration alert sent, no id logged)
+  - PENDING: Jul 15 14:44 "$BTC ✅" + URL — execution confirmation vs thesis update? [2077403896775840078]
+  - PENDING: Jul 15 17:13 "your pivots don't work... hold my 🍺" + URL — chart evidence of scalp-short or general validation? [2077441531833725305]
+  - PENDING: Jul 16 14:22 "I'm just the messenger. 750-1000D mark... $BTC" — daily-chart level, point target, or external analysis reference? [2077760851990204576]
+- Last seen: 2026-07-26 19:03:11 UTC
+- **Events (rolling):**
+  - Jul 23 13:40Z — ambiguous: BitMEX "10/10" reference, unclear context [2080286985680240657]
+  - Jul 23 14:47Z — informational: BTC weekly fakeout above downtrend; 45% Kalshi expects $50K before $100K [2080303859012878799]
+  - Jul 23 15:48Z — informational: BTC market sentiment — whales/billionaires simply market buy; current quantile vs historical bands [2080319062387605660]
+  - Jul 23 17:35Z — informational: BTC macro thesis — OIL-BTC correlation; oil crashes precede BTC macro bottoms; current oil +25%/BTC +11% [2080346124217401610]
+  - Jul 23 18:56Z — informational: trading philosophy — attention to traders with receipts [2080366553598427614]
+  - Jul 23 20:43Z — informational: BTC Fear & Greed Index at 5 (lowest since 2018/COVID); major capitulation done [2080393271151382812]
+  - Jul 23 20:45Z — informational: market sentiment — hesitation as entry opportunity [2080393768214171851]
+  - Jul 23 21:23Z — ambiguous: reply to @JAguer88 "Im literally speaking based on data" — defensive methodology, context missing [2080403433161462090]
+  - Jul 24 12:03Z — informational: BTC textbook setup — Binance plunge protection/MM pattern; support 57.8K–59.8K, current 65.1K [2080625017193156875]
+  - Jul 24 12:38Z — informational: BTC market structure — pivot HTF, weekly open, support 63.6K/61.8K; monthly close + Aug fuckery timing [1530192337849024703]
+  - Jul 24 14:25Z — informational: market psychology — bears lowering targets (60s→50s→40s→30s) reflects weak capitulation [2080660632592920749]
+  - Jul 24 16:02Z — informational: BTC cycle acceleration — ATH pre-halving each cycle faster (833D→735D→476D); predicts ATH pre-halving this cycle [2080685139227500745]
+  - Jul 24 17:08Z — informational: BTC bullish conviction — "excited for next 2 years"; capitulation evidence ("sellers gradually losing momentum. 2 months left.") [2080701654865793027]
+  - Jul 24 19:12Z — informational: BTC cycle timing — 1.5-month window for capitulation; if not 40–50K by then, "goodbye to those levels per seasonality" [2080732868578549895]
+  - Jul 24 21:14Z — informational: token scam psychology — airdrop liquidity extraction; bearish alt thesis reaffirmation [2080763676878111227]
+  - Jul 25 07:40Z — informational: trading philosophy — 7-year journey; hardest lesson: attempted precision-timing 2022 bottom (front-run at 37K on 76% drop); refusing to repeat; "stubbornly bullish" [2080921042600464621]
+  - Jul 25 10:30Z — informational: BTC daily uptrend — if trend holds → 67–68K; if lost → 61.3K support revisit + liquidity sweep [2080963872450642157]
+  - Jul 25 15:35Z — informational: BTC bear market macro thesis + labeled chart; 2x swing long from 62.6K entry, distribution targets 80K → 110K bull thesis [2081040665937375660]
+  - Jul 25 15:36Z — informational: BTC thoughts YouTube upload announcement; no execution language [1530599721788379216]
+  - Jul 25 19:39Z — informational: BTC market structure — timebased capitalization volume profile; "market relatively slow", watching liquidity sweep below next week [2081102108078616643]
+  - Jul 26 04:16Z — informational: BTC distribution phase chart (re-distribution→distribution→manipulation→accumulation); sarcastic on "shitty PA" validating HTF-bullish conviction [2081232218236531199]
+  - Jul 26 04:22Z — informational: community engagement poll — copy-trade service for bull cycle (2–3x leverage longs, multi-month holds); service inquiry only, no personal execution [1530792409426952203]
+  - Jul 26 14:29Z — informational: BTC key pivot date (the 29th); 6/7 prior pivot dates resolved bearishly; scenario: sweep highs OR dump to 61–62K [2081386338683650126]
+  - Jul 26 16:46Z — informational: BTC miner capitulation — worst cycle in history vs 2014/2018/2022; multi-cycle chart with difficulty overlay [2081420944279494777]
+  - Jul 26 19:03Z — informational: BTC position reinforcement — reply to @msszett confirming ongoing accumulation, reaffirming 2x long position [2081455305800515755]
 
 ## Crypto_Chase
 - Platforms: X + Discord (primary 1336082716063694962; TradFi supporting 1343971265962049597; Crypto supporting 1247927786681794601 — member Q&A)
-- Current open positions: **$MU LONG (ACTIVE)**: DCA entry ~$800-820 (2026-07-17), room to add equal-sized orders lower (high-700s bid); rebalance add Jul 17 23:33 from SNDK trim (equally weighted MU/SNDK); TP phases Jul 21 (50% at ~956, 25% at ~930 per Discord recap), reconciled by newest state Jul 22 00:31: **60% closed at $991, 40% left open**; stop near B/E; contingent further 10% close guidance at 998~. **$SNDK LONG (PENDING APPROVAL — Kyle has not mirrored)**: entry ~$1366 filled 2026-07-16 22:54 (planned bid 1366.97); small trim slightly below B/E Jul 17 (capital moved into MU); 50% TP at 1533 on Jul 21 (~+12.3% on closed half); stop near B/E (~1360 support); contingent 10% more close at 1654~, "let last 40% run"; possible one more add lower if necessary. **$ES LONG (ACTIVE per newest Jul 22 context)**: entered 2026-06-21; last technical update Jul 9 ("tightening/trapped"); earlier summary had SPX/ES on hold — newest info treats it as active. Residual: tiny neglected **$LPTH** long. Standing limit bids, subject to change: **INTC mid-80s, AMD 430s**. No open crypto position — watching HYPE for a flush of the lows and BTC (66K key, loss of 58K = "ugly").
-- Recent thesis: Bullish memory-stocks bottom thesis: believes SNDK/MU have bottomed or are near it (worst-case SNDK ~1,100, MU 600s), MU strongest/most resilient in the sector, SNDK weakest/highest-beta; playing multi-day-to-multi-week holds with tiered TPs rather than same-day profits. SNDK entry rationale: -42% in a month into 0.5-0.618 fib = "good area to take a risk on." Constructive on SPX/ES — expects new ATHs, would buy S&P spot on a major crash; BTC view (Jul 21): trap euphoric breakout bulls, flush them, then the real move up. INTC is a lower-conviction conditional long on a relative-strength unwind (target ~120, aiming lower after its lackluster bounce); still interested in gold ~3,820 and a HYPE flush bid. Dismissive of fundamental-event risk (e.g. Trump speech) — keeps risk sized, lets conviction trades ride, would treat a tank as lower entries on MU/S&P.
-- Conviction notes: Serious calls live in the Discord primary channel with exact entries/trims, stops, and portfolio-risk framing; he scales into overdone downside, takes "medium wins" per the chart, and manages rather than holds losers ("you've seen me do it year after year"). Supporting-channel posts are frequently cryptic one-to-five-word fragments ("hopefully tho", "86~ me thinks") that need Kyle calibration; X mixes sports betting and banter (a large minority of posts non-financial) with occasional clean execution confirms. Repeated profitable cycles (GOOG 24-day multi-TP, prior MU 18-day hold, SNDK 1700-1855 TPs) validate the disciplined tiered-exit pattern.
+- Current open positions: **$MU LONG (ACTIVE)**: DCA entry ~$800–820 (Jul 17); 70% closed cumulative ($991 Jul 22 60%, $960 Jul 24 10%); stop near B/E; 30% remainder open. **$SNDK LONG (ACTIVE — Kyle never mirrored)**: entry ~$1366 (Jul 16); 60% closed (1533 Jul 21 50%, 1675 Jul 23 10%); stop near B/E (~1360); 40% remainder open; "let last 40% run." **$ES LONG (ACTIVE)**: entered Jun 21; last update Jul 9 "tightening/trapped." **$GOOGL — DCA plan (NOT YET ENTERED)**: 1/3 at sub-309.5, rest at 250s on crash (Jul 23 intent). **Standing watch**: XAU 3900~ flush before 4400+; HYPE flush; ORCL long setup raised in member Q&A (Jul 26). Residual **$LPTH** long. Limit bids standing: **INTC mid-80s, AMD 430s**.
+- Recent thesis: Bullish memory-stocks bottom thesis: MU strongest/most resilient, SNDK weakest/highest-beta; playing multi-day-to-multi-week holds with tiered TPs. Managed 70% cumulative close on both MU/SNDK as prices rose — disciplined. Remaining 30/40% on MU/SNDK at B/E stops per DCA plan. GOOGL watching for DCA opportunity sub-309.5 after fundamental move (capex surprise). HYPE: "lackluster from liquidity", prefers MU/SNDK. Constructive on SPX/ES new ATHs. Dismissive of fundamental-event risk; sizes risk, lets conviction ride.
+- Conviction notes: Primary Discord = actionable calls with entries/trims/stops and portfolio-risk framing; supporting channels = cryptic fragments requiring Kyle calibration. Repeated multi-TP profitable cycles (GOOG 24-day, prior MU 18-day, SNDK 1700–1855) validate disciplined tiered-exit pattern. Large PENDING backlog on terse fragments.
 - Calibration: No answered Kyle calibrations yet.
-  - PENDING: "hopefully tho" / "yeah hopefully patience pays" — which position/watchlist item? (msg 1527012341152092311, 1527016238948286557)
-  - PENDING: "@blknoiz06 deviation?" + chart — SPX/ES deviation confirmation or question to blknoiz06? (tweet 2077527313961345423)
-  - PENDING: "Quick deviation, quick impulse, fair value gap etc" — market observation, teaching, or actionable setup? (msg 1527301365892907120)
-  - PENDING: "is it as simple as just remaining patient" + chart — which watchlist item (SPX/HYPE/BTC/MU)? (msg 1527308030348103751)
-  - PENDING: "Can probably long that with a stop below the 0.5 to 0.618 bids…" — what asset is "that"? (msg 1527308547291873351)
-  - PENDING: "86~ me thinks" — what does 86 refer to (INTC mid-80s bid level?)? (msg 1527363099261140992)
-  - PENDING: "update" + image, reply to own 🤣 — position update, market observation, or social? (msg 1527414843064193136)
-  - PENDING: "@Louround_ yep, in." — entered what? which ticker did Louround_ suggest? (tweet 2078124888716358006)
-  - PENDING: "Huge deal coming Monday AM around 9:45 after 10-15 mins of opening panic" — which market/asset, personal entry trigger or observation? (msg 1527768821320913098)
-  - PENDING: "@breakoutprop killin it, need ES next" — bullish sequence call on ES or structure watch? (tweet 2079723023737802988)
-  - PENDING: "618 deviation perhaps" + chart — which ticker/timeframe, 0.618 Fib level or other? TradFi supporting channel (msg 1529598353413898350)
-  - PENDING: "Figured it was" — 3-word cryptic fragment, no context for referent, Crypto supporting channel (msg 1529604774100467932)
-- Last seen: 2026-07-23 13:26:24 UTC
-- **Events (rolling):**
-  - Jul 23 13:26Z — informational: TradFi supporting channel — reply clarifying "fundamental change in Google" as "They increased capex beyond what the market expected" (member Q&A context, folded into prior primary-channel 13:22Z alert) [1529842119706017814]
-- Last seen: 2026-07-23 13:46:11 UTC
-- **Events (rolling):**
-  - Jul 23 13:46Z — informational: "Our positions versus the rest of the market" educational/philosophy message on capital discipline + position concentration risk; teaching focus on identifying strongest assets + avoiding dispersion into weaker names; references Google dip (awaiting entry discipline) and memory stocks (positive outlook); primary channel (discord-trader-monitor real-time, image attached) [1529847096755093607]
-- Last seen: 2026-07-23 14:24:53 UTC
-- **Events (rolling):**
-  - Jul 23 14:24Z — ambiguous: Crypto supporting channel "That was like the obvious tell over the past year" — cryptic, no context (is_reply: false, referenced_message: null), awaiting calibration [1529856837330141385]
-- Last seen: 2026-07-23 15:39:18 UTC
-- **Events (rolling):**
-  - Jul 23 15:39Z — informational: Crypto supporting channel — reiteration/member clarification on HYPE dismissal (references own Jul 22 22:27Z message: "lackluster response from liquidity, prefer MU/SNDK"), no new conviction or action, silent skip [1529875565857865959]
-- Last seen: 2026-07-23 15:39:39 UTC
-- **Events (rolling):**
-  - Jul 23 15:39Z — ambiguous: Crypto supporting channel "It's more than just that one line. Just go back and read the whole thing and check out the charts and whatnot" — cryptic, no context or attachments despite mentioning charts, is_reply=false but reads as reply-context to unknown referent, awaiting calibration [1529875654462673050]
-  - Jul 23 15:24Z — ambiguous: TradFi supporting channel "I would prefer the flush first lol" + image attachment — cryptic market/position reference, no explicit context, awaiting calibration [1529871808952532992]
-  - Jul 23 15:08Z — trade-new-entry: GOOGL DCA plan — "If Google goes straight to sub-309.5 liquidity, I'll start with 1/3 size. It's going to be a long-term position... If the whole entire market crashes, I'd add the rest of the position at like 250s." Rationale: "boring trade for those who want to build the position in the background", opportunistic dip buying on good company if crash continues, willing to take quick profits on bounce. Discord primary channel (fast-path-alerted). Multi-tranche DCA: 1/3 initial, add-on-crash at 250 [1529867920597975112]
-  - Jul 23 14:51Z — informational: Crypto supporting channel — reply explaining capital rotation (Hyperliquid counterparty-risk avoidance, stocks trending "hot"), no personal trade action, silent skip [1529863547348058305]
-  - Jul 23 14:47Z — link-share: Discord primary channel — role ping + URL to X post (status 2080303861948924319), non-financial link-share only, silent skip [1529862651864289331]
-- Last seen: 2026-07-24 15:07:48 UTC
-- **Events (rolling):**
-  - Jul 24 15:07Z — informational: Crypto supporting channel — reply to member's BTC lower liquidity question "It did flush the low though"; technical confirmation that lower liq level was swept; member context confirms Kyle's earlier lower liq research tracking [1530230026497425418]
-- Last seen: 2026-07-23 22:10:28 UTC
-- **Events (rolling):**
-  - Jul 23 22:10Z — informational: Crypto supporting channel — HYPE market structure skepticism ('can't even market structure breaks to the upside', 'doesn't look good'); technical chart marked up; no personal trade action; fast-path-alerted [1529974005371506699]
-  - Jul 23 20:20Z — informational: AAPL short thesis — shared external trader's structural short plan for H2 2026 + 1h technical chart showing support breaks, implied agreement with bearish setup [2080387642215002230]
-  - Jul 23 20:12Z — ambiguous: reply to @saylor "it's so over 🤣", cryptic context (original post not visible), unclear if market sentiment, position comment, or banter, awaiting calibration [2080385507763061050]
-  - Jul 23 14:47Z — informational: $XAU $GC $GLD — interested in gold sweep to 3900~ before big move to 4400+; technical setup on chart shows peak 5200+ → current 3900 lows, watching for final sweep; Kyle's watch-list ticker [2080303861948924319]
-  - Jul 23 14:41Z — ambiguous: Crypto supporting channel "Just the way it is" — cryptic 4-word fragment, no market reference or context, awaiting calibration; appears disconnected from prior conversation [1529861007546122300]
-  - Jul 23 14:28Z — ambiguous: Crypto supporting channel — "But my thought is if I'm going to be super technical then why not just focus on ES? And I can get much bigger moves typically out of individual stocks." Strategy/conviction statement, unclear if questioning current approach or reinforcing preference for individual stocks, awaiting calibration [1529857689939607602]
-  - Jul 23 14:12Z — informational: X portfolio recap; "publicly buy pico lows of best performers, protect from garbage"; MU/SNDK crash profits TWICE, GOOG 360 exits, avoided lackluster charts; chart shows MU 994.58 (+3.66%), SNDK 1634.91 (+2.23%), watchlist context; X post adds real prices/context to Discord philosophy post (13:46Z, dedup with variation) [2080294976013951133]
-  - Jul 23 13:49Z — trade-partial-tp: MU/SNDK conditional close guidance — "Will close another 10% on MU/SNDK if we get 1035~ MU / 1700~ SNDK today" (next tier exit targets) [1529847933913272401]
-  - Jul 23 13:28Z — ambiguous: "could even flush the demand and sweep 309. Not fully sure, that's why there's not a trade at the moment" — technical level (309 = ES/SPX?), no ticker context, awaiting calibration [1529842748868526253]
-  - Jul 23 13:26Z — informational: TradFi supporting channel — reply clarifying "fundamental change in Google" as "They increased capex beyond what the market expected" (member Q&A context, folded into prior primary-channel 13:22Z alert) [1529842119706017814]
-  - Jul 23 13:22Z — informational: GOOG fundamental-driven move analysis, no high-quality technical trade; buying 318 could bounce or stop out; unwilling to endlessly buy dips without clear invalidation (Discord primary, fast-path-alerted) [1529841187400454215]
-  - Jul 15 13:57Z — market-call: SNDK generational bottom ~1350, worst case 1K, wants longer-hold re-entry [2077392182772662626]
-  - Jul 15 14:48Z — market-call: INTC conditional long on relative-strength unwind sell-off, target ~120 [1526963744553308240]
-  - Jul 15 18:17Z — ambiguous: "hopefully tho" / "patience pays" — referent unknown, PENDING calibration [1527012341152092311, 1527016238948286557]
-  - Jul 22 21:54Z — informational: Discord supporting-channel reply to member partnership inquiry: "If it's about breakout I'm already close with Mayne and all those guys" — not a market trade signal, context-clarification only [1529607709068886147]
-  - Jul 15 22:54Z — ambiguous: "@blknoiz06 deviation?" + chart, likely SPX/ES deviation framework, PENDING calibration [2077527313961345423]
-  - Jul 16 12:38Z — trade-exit: GOOG "took the high", final 25% closed, 24-day multi-TP trade complete [1527293303068819607]
-  - Jul 16 13:10Z — ambiguous: "quick deviation, quick impulse, fair value gap" — no ticker, PENDING calibration [1527301365892907120]
-  - Jul 16 13:36Z — ambiguous: "is it as simple as just remaining patient" + chart, PENDING calibration [1527308030348103751]
-  - Jul 16 13:38Z — ambiguous: "can probably long that, stop below 0.5-0.618 bids" — asset unknown, PENDING calibration [1527308547291873351]
-  - Jul 16 13:51Z — trade-setup: MU dual-entry plan — wait for 0.5-0.618 fib, or long 850-sweep/0.382 reclaim [2077752948294098992]
-  - Jul 16 17:15Z — ambiguous: "86~ me thinks" — level referent unknown, PENDING calibration [1527363099261140992]
-  - Jul 16 18:43Z — trade-entry-plan: SNDK conditional bid at 1366.97 if market offers [1527385092303884439]
-  - Jul 16 18:48Z — trade-setup: limit bids MU high-700s, INTC mid-80s, AMD 430s; SNDK order preferred first [1527386534968557690]
-  - Jul 16 20:41Z — ambiguous: "update" + image, reply to own emoji, PENDING calibration [1527414843064193136]
-  - Jul 16 22:54Z — trade-entry: SNDK bought ~1366, overnight fill of planned bid; Kyle mirror pending approval [2077889748111159491]
-  - Jul 17 13:48Z — dca-entry: MU started bag ~800, room to add lower if necessary [2078114525216157709]
-  - Jul 17 14:29Z — ambiguous: "@Louround_ yep, in." — asset/ticker unknown, PENDING calibration [2078124888716358006]
-  - Jul 17 20:07Z — ambiguous: "huge deal coming Monday AM ~9:45 after opening panic" — target unknown, PENDING calibration [1527768821320913098]
-  - Jul 17 23:33Z — rebalance: trimmed SNDK slightly below B/E into MU, now equally weighted, room to add both lower [1527820459083829341]
-  - Jul 21 13:43Z — trade-TP: SNDK took half profit at 1533 from ~1366 entry (~+12.3% on half) [2079562910213316621]
-  - Jul 21 13:55Z — position-mgmt: SNDK/MU stops set near B/E; supports 1360 SNDK, 800 MU [1529124652490686485]
-  - Jul 21 15:23Z — market-call: BTC — trap euphoric breakout bulls, flush them, then the real move [2079587960630968814]
-  - Jul 21 22:53Z — tp-plan: contingent 10% closes at SNDK 1654~ and MU 998~ → 60% closed total, let 40% run [1529259965246607472]
-  - Jul 22 00:19Z — ambiguous: "@breakoutprop killin it, need ES next" — ES commentary, PENDING calibration [2079723023737802988]
-  - Jul 22 00:31Z — trade-TP: MU 60% closed at 991, 40% left open [1529284596284522496]
-  - Jul 22 19:58Z — informational: GOOG "earnings stink bid around 321" + chart, contingent bid observation, no active entry (fast-path-alerted) [1529578350618873897]
-  - Jul 22 20:17Z — informational: bid cancellation, "no dice for any sweeps unfortunately today" + chart, bid context unclear — likely prior GOOG/standing bids (MU/INTC/AMD) [1529583070322102413]
-  - Jul 22 20:20Z — informational: TSLA "ugly chart, no interest" — TradFi supporting channel reply dismissing member interest; no trade action [1529583932146712746]
-  - Jul 22 21:17Z — ambiguous: "618 deviation perhaps" + chart — technical observation, ticker/context unclear, PENDING calibration [1529598353413898350]
-  - Jul 22 21:34Z — informational: GOOG "now trading in the 320's" — market observation, contingent on earlier 321 bid that didn't fill [2080043780795732333]
-  - Jul 22 21:39Z — informational: TradFi supporting channel — "618 should play out in time" response to member bid question; low conviction ("not necessarily an A+ trade"), fundamental-move concern cited [1529603708562706494]
-  - Jul 22 21:43Z — ambiguous: Crypto supporting channel "Figured it was" — cryptic 3-word fragment, awaiting calibration [1529604774100467932]
-  - Jul 22 21:48Z — ambiguous: Crypto supporting channel — "Yeah I mean to be fair when I've thought about it previously I typically think about it as a stock not a coin" — referent ("it") unclear, awaiting calibration [1529606181704831148]
-  - Jul 22 22:27Z — informational: Crypto supporting channel reply to member query about old X post — "It could still work out... just lackluster from liquidity. More interested in SanDisk and Micron positions" — conviction update on existing MU/SNDK holdings; member context folded into trailing record [1529615788581851308]
-  - Jul 22 22:30Z — informational: Crypto supporting channel — "Also, more front running of lows etc. there's nothing special about this chart at the moment" + chart — dismissive market observation, no trade action [1529616710204915874]
-  - Jul 22 22:31Z — informational: Crypto supporting channel elaboration — "Most of the time when I don't follow up on something, it's just cuz the chart didn't do what I wanted it to do. When you look at SanDisk and Micron, they gave these huge flushes of liquidity, instant responses, the best-performing assets out of everything on the watch list" — trading philosophy reaffirms MU/SNDK conviction over broader watchlist; member context continuation [1529616928241356941]
-  - Jul 22 22:39Z — informational: Crypto supporting channel elaboration on HYPE — Links X post, reinforces earlier HYPE critique: "not goal-oriented price action... lackluster, boring, shitty... people don't care... price typically just goes down. That's why I have a hard time finding interest" — reiteration of HYPE dismissal, no trade action; continued strength in MU/SNDK preference [1529618813631336590]
-- Last seen: 2026-07-24 13:54:58 UTC
-- **Events (rolling):**
-  - Jul 24 13:54Z — ambiguous: TradFi supporting channel — cryptic response to unknown member's technical level/suggestion ("appeasing to your technicals"); conviction statement but referent unknown ("I just know where things are going usually" — conviction on what asset?); calibration alert sent [1530211696730312855]
-  - Jul 24 13:42Z — informational: TradFi supporting channel — market sentiment/weakness thesis explaining earnings pop → sell-off pattern; conversational member context, no new trade action; silent skip [1530208544992006145]
-- Last seen: 2026-07-26 01:01:40 UTC
-- **Events (rolling):**
-  - Jul 26 01:01Z — informational: TradFi supporting channel — reply to member "What do you guys reckon" expressing rhetorical skepticism: "why long the weakest asset in all of TradFi"; market opinion on avoiding long exposure to weak TradFi assets, no personal trade action (fast-path-alerted) [1530741866872438886]
-  - Jul 24 14:55Z — informational: BTC price-action analysis with chart framework (The Trap ~67K, The Flush ~63-64K, The Actual Move) explaining why no short setup triggered; "dumped without sweeping highs or setting The Trap"; non goal-oriented price action, educational observation, no personal trade action [2080668233753919848]
-  - Jul 24 14:39Z — informational: Discord primary channel — narrative/position-management commentary on memory-sector TP execution. Message provides strategy framework on remaining 30% position after 70% cumulative close: "Seeing large retracements across the memory sector today, we did a good job taking 70% profits on both positions as prices were rising. From here we'll see if the assets can put in a higher low and if not then we will take the eventual stopouts at break even." Contextualizes earlier Jul 24 13:35Z MU trim at $960 + Jul 23 16:52Z SNDK trim at $1675 executions; states conviction thesis on letting remainder run per original DCA plan. Fast-path-alerted=true: Cloudflare Worker pre-alerted on Jul 24 13:35Z MU execution; this 14:39Z follow-up is skill memory-only, no duplicate Telegram sent. No new execution from 13:35Z state. [1530222792417476638]
-- Last seen: 2026-07-24 13:56:27 UTC
-- **Events (rolling):**
-  - Jul 24 13:56Z — informational: TradFi supporting channel — technical analysis on MU bounce setup; message: "Micron should bounce here. Otherwise it's going to get ugly" + chart attachment. Fast-path-alerted by Worker (Telegram sent, skill memory-only). Active position context: 30% MU remainder open (after 70% TP'd at $960 Jul 24 13:35Z). Supporting-channel technical commentary guiding near-term exit/bounce thesis. No new execution or position change. [1530212071105495182]
-  - Jul 24 13:49Z — ambiguous: TradFi supporting channel "It's in this chat somewhere" — cryptic referent, no context or explicit reply link, awaiting calibration [1530210390917779506]
-  - Jul 24 13:35Z — trade-partial-tp: MU "Trim 10% MU here 960, 70% closed" Discord primary channel (discord-trader-monitor real-time, fast-path-alerted). Closes additional 10% at $960 (following 60% TP at $991 on Jul 22). Cumulative MU TP: 60% at $991 (Jul 22) + 10% at $960 (Jul 24) = 70% cumulative closed, 30% remainder open. Execution confirms prior conditional guidance (Jul 23 target was "1035~" but took profit at $960 instead, likely responding to intraday price action validation). [1530206914842202202]
-  - Jul 23 16:52Z — trade-partial-tp: SNDK "Trim 10% SNDK 1675, got really close to 1700 but didn't hit , INTC earnings after close. Want a little more profit here." Execution ahead of earlier 1700 contingent target; managing risk into INTC earnings event. 10% closed at 1675 (5 pts below contingent target). Cumulative SNDK TP: 50% at 1533 (Jul 21) + 10% at 1675 (Jul 23) = 60% closed total, 40% remainder open. Discord primary channel (discord-trader-monitor real-time, fast-path-alerted) [1529893916420210831]
-- Last seen: 2026-07-23 19:55:56 UTC
-- **Events (rolling):**
-  - Jul 23 19:55Z — informational: TradFi supporting channel — conviction outlook on Micron preference pending Intel earnings event; stated waiting posture with interest in adding MU on dip [1529940149398671391]
-  - Jul 23 19:51Z — ambiguous: Discord primary channel "<@371375547189690369> paid" + image attachment — cryptic single-word reference with Discord mention ID, no explicit context; image may contain clarification but unanalyzed; unable to classify without Kyle calibration (is_reply=false, fast-path-alerted=false) [1529938985122660475]
-  - Jul 23 19:44Z — informational: position confirmation recap — "Good TP on SNDK, back at 1600 now. MU remarkably resilient, leaving 40% open on it still." Reply to own 16:52Z trim execution; validates SNDK trim at 1675 and confirms MU/SNDK position status (60% SNDK closed, 40% MU remainder open). Discord primary channel (is_reply=true to 16:52Z message, fast-path-alerted=true) [1529937195656286218]
-  - Jul 23 16:52Z — informational: Discord primary channel — position recap "70% closed in total", status update on cumulative portfolio closures (MU 60% + SNDK earlier phases, matches trading plan trajectory); fast-path-alerted by Worker [1529893960464465970]
-  - Jul 23 16:41Z — ambiguous: X reply to @fsuconrad "It should work. If not here it is again" + t.co shortened URL (media unavailable), cryptic referent unknown, awaiting calibration [2080332586312720646]
-  - Jul 23 16:15Z — skip: Discord primary channel — social banter/engagement complaint ("we can do better than 13 likes yall"), references past MU/SNDK bottoms retrospectively only, non-financial, silent skip [1529884549981405389]
+  - PENDING: "hopefully tho" / "patience pays" — which position/watchlist item? [1527012341152092311, 1527016238948286557]
+  - PENDING: "@blknoiz06 deviation?" + chart — SPX/ES deviation confirmation? [2077527313961345423]
+  - PENDING: "Quick deviation, quick impulse, fair value gap" — market obs, teaching, or actionable? [1527301365892907120]
+  - PENDING: "is it as simple as just remaining patient" + chart — which watchlist item? [1527308030348103751]
+  - PENDING: "Can probably long that with stop below 0.5-0.618 bids" — what asset? [1527308547291873351]
+  - PENDING: "86~ me thinks" — what does 86 refer to? [1527363099261140992]
+  - PENDING: "update" + image, reply to own 🤣 [1527414843064193136]
+  - PENDING: "@Louround_ yep, in." — entered what ticker? [2078124888716358006]
+  - PENDING: "Huge deal coming Monday AM ~9:45 after 10-15 mins of opening panic" [1527768821320913098]
+  - PENDING: "@breakoutprop killin it, need ES next" — bullish sequence call on ES? [2079723023737802988]
+  - PENDING: "618 deviation perhaps" + chart — which ticker/timeframe? [1529598353413898350]
+  - PENDING: "Figured it was" — cryptic 3-word fragment [1529604774100467932]
+  - PENDING: "I would prefer the flush first" + image — which ticker? [1529871808952532992]
+  - PENDING: "go back and read the whole thing" — referent unclear [1529875654462673050]
+  - PENDING: "@fsuconrad It should work. If not here it is again" + t.co — content unknown [2080332586312720646]
+  - PENDING: reply @saylor "it's so over 🤣" — context missing [2080385507763061050]
+  - PENDING: "<@371375547189690369> paid" + image — unclear what was paid [1529938985122660475]
+  - PENDING: "Just the way it is" — 4-word cryptic [1529861007546122300]
+  - PENDING: "if I'm going to be super technical why not just focus on ES?" — questioning current approach or reinforcing? [1529857689939607602]
+  - PENDING: "That was like the obvious tell over the past year" — tell about what? [1529856837330141385]
+  - PENDING: "could even flush demand and sweep 309. Not fully sure" — 309 = ES/SPX? [1529842748868526253]
+  - PENDING: "appeasing to your technicals" — conviction on what asset? [1530211696730312855]
+  - PENDING: "It's in this chat somewhere" — referent unknown [1530210390917779506]
 - Last seen: 2026-07-26 01:02:34 UTC
 - **Events (rolling):**
-  - Jul 26 01:02Z — informational: TradFi supporting channel — reply to member question on $ORCL long setup with chart analysis; supporting-channel member Q&A on new ticker (no related primary-channel ORCL post), alerted to Kyle [1530742090542350462]
-
-# swarmister — compressed (merged from duplicate/"swarmiister"/continued sections; events attributed to other traders in these chunks excluded)
+  - Jul 21 13:43Z — trade-partial-tp: SNDK took 50% profit at 1533 from ~1366 entry (+12.3% on half) [2079562910213316621]
+  - Jul 22 00:31Z — trade-TP: MU 60% closed at $991, 40% open [1529284596284522496]
+  - Jul 23 13:22Z — informational: GOOG analysis, no high-quality trade; buying 318 could bounce or stop out [1529841187400454215]
+  - Jul 23 13:49Z — trade-partial-tp guidance: MU 1035~/SNDK 1700~ conditional close targets [1529847933913272401]
+  - Jul 23 14:47Z — informational: XAU/GC/GLD sweep 3900~ before big move to 4400+ [2080303861948924319]
+  - Jul 23 15:08Z — trade-new-entry: GOOGL DCA plan — 1/3 at sub-309.5, rest at 250s on crash; long-term position [1529867920597975112]
+  - Jul 23 16:52Z — trade-partial-tp: SNDK trim 10% at 1675 ahead of INTC earnings; 60% cumulative [1529893916420210831]
+  - Jul 23 19:44Z — informational: "Good TP on SNDK, back at 1600 now. MU remarkably resilient, 40% open still." [1529937195656286218]
+  - Jul 23 19:55Z — informational: MU preference on dip pending INTC earnings; adding interest [1529940149398671391]
+  - Jul 23 20:12Z — ambiguous: reply @saylor "it's so over 🤣" [2080385507763061050]
+  - Jul 23 20:20Z — informational: AAPL structural short thesis share (external); implied agreement [2080387642215002230]
+  - Jul 23 22:10Z — informational: HYPE "can't market structure break to the upside, doesn't look good" [1529974005371506699]
+  - Jul 24 13:35Z — trade-partial-tp: MU trim 10% at $960; 70% cumulative closed, 30% remainder [1530206914842202202]
+  - Jul 24 13:42Z — informational: market weakness thesis on earnings pop→sell-off pattern [1530208544992006145]
+  - Jul 24 13:56Z — informational: "Micron should bounce here. Otherwise it's going to get ugly" + chart [1530212071105495182]
+  - Jul 24 14:39Z — informational: memory sector strategy — "saw large retracements, did good job taking 70% profits. Will see if higher low; if not, stopouts at B/E." [1530222792417476638]
+  - Jul 24 14:55Z — informational: BTC The Trap structure analysis — no short triggered, non-goal-oriented PA [2080668233753919848]
+  - Jul 24 15:07Z — informational: BTC lower liq swept confirmation (member Q&A reply) [1530230026497425418]
+  - Jul 26 01:01Z — informational: "why long the weakest asset in all of TradFi" — rhetorical skepticism, no trade action [1530741866872438886]
+  - Jul 26 01:02Z — informational: ORCL long setup analysis for member (supporting channel Q&A) [1530742090542350462]
 
 ## swarmister
 - Platforms: X (primary; X-only, no Discord presence)
-- Current open positions:
-  - **BTC — LONG (PENDING APPROVAL — awaiting Kyle confirmation via `approve BTC`)**. Entry 2026-07-17T06:09:26Z (tweet_id=2077999097949102104): "$BTC D1 + H4 timeframes... I've now opened a partial position and am ready to add to my long position with a final target of 70.7k per Bitcoin." Partial position opened (price TBD; per Jul 17 12:30Z post, entered at 2/3 of intended volume and "may add at 61.5 if the opportunity arises"). Scale-in add zones: 62.4K, 61.2K. Final target: 70.7K. Alerted: YES (trade signal 5a format via Telegram). Position unchanged through Jul 22 (no new execution language detected).
-  - **ADA — no position; prospective long.** Jul 22 06:15Z: M15/H1 "Point of Interest in Long", looking for entry in 0.1685–0.17 range (intent only, not executed; new single-trader ticker).
-  - **ETH — no sized position.** Bullish 6h structure view (Jul 21); earlier marked ETH "ABSOLUTE bottom" with near-term $2,000 upside target.
-- Recent thesis: Intraday BTC long with swing overlay: BTC at upper boundary of local range with repeated false breakouts (distribution read); expects a dip into the 62.4K/61.2K liquidity zones to add, then continuation to 70.7K. ETH called an "ABSOLUTE bottom" with near-term bounce target ~$2,000, but longer-term expects the final top when retail FOMO piles in at the 3–4K level (bullish near-term, bearish on the ultimate top). Jul 21 6h MTF read: ETH breaking structure bullishly, "a rally is just around the corner. Just like the rest of the market." New ADA long interest at 0.1685–0.17. Trades intraday around volume clusters/liquidity with D1/H4/H1 structure analysis.
-- Conviction notes: ~80% of posts are non-financial social banter (Moscow-based; gym, food, lifestyle, memes) — heavy stream of terse cryptic replies and bare URL-shares to external traders (@blancxbt, @Trade17, @DipWheeler, @bull_genius etc.) that repeatedly require calibration. When a real trade happens, execution language is explicit and first-person ("I've now opened a partial position", "I entered at 2/3 of the volume"). Monitors external paid-call services (@blancxbt thread) — unresolved whether he trades off those signals. Signal weighting: technical posts with ticker + level are high-value; one-word replies are near-zero value.
-- Calibration: No answered calibration rules yet — all items below are still awaiting Kyle's read.
-  - PENDING: "@blancxbt A paid call has been detected" — is he tracking paid-call services as a strategy input? (tweet_id=2077722216125301158)
-  - PENDING: Jul 26 19:15Z reply "@janxbt @garbycan Yes I'm nig" — text truncated/incomplete, awaiting calibration [2081458303570161705]
+- Current open positions: **BTC — LONG (PENDING APPROVAL — awaiting Kyle `approve BTC`)**. Entry Jul 17 06:09Z at 2/3 intended volume (tweet_id=2077999097949102104); final target 70.7K; scale-in adds planned at 62.4K/61.2K. Position unchanged through Jul 26. **ADA** — prospective long intent 0.1685–0.17 (Jul 22, not entered). **ETH** — bullish 6h structure view (Jul 21), no sized position.
+- Recent thesis: Intraday BTC long with swing overlay at upper boundary of local range; expects dip to 62.4K/61.2K add zones then continuation to 70.7K. ETH "ABSOLUTE bottom" near-term ~$2,000, but longer-term bearish on ultimate top. New ADA long interest 0.1685–0.17. Trades intraday around volume clusters/liquidity with D1/H4/H1 structure. QQQ/ES bearish-retest setup noted Jul 23. Also sharing UNI/ENA and INJ technical analysis.
+- Conviction notes: ~80% of posts are non-financial social banter (Moscow-based). When a real trade happens, execution language is explicit first-person ("I've now opened a partial position"). URL-only/terse cryptic replies account for most PENDING load — external paid-call tracking (@blancxbt, @Trade17, @DipWheeler, @bull_genius) unresolved. Signal weighting: technical posts with ticker+level = high-value; one-word replies = near-zero.
+- Calibration: No answered calibration rules yet.
+  - PENDING: "@blancxbt A paid call has been detected" — tracking paid-call services as strategy input? [2077722216125301158]
+  - PENDING: "Ahhh, anyway, this is for you" + URL [2077731242359791690]
+  - PENDING: "@blancxbt True (not fake)" [2077734352922804254]
+  - PENDING: "@LSDinmycoffee Also" + URL [2077766169709171185]
+  - PENDING: "@0xSyfer G\nM" + URL [2078008966064308384]
+  - PENDING: "@bull_genius @OnlyZen_PK" + URL [2078024717030617244]
+  - PENDING: "@FalconyFalcon Pls" [2078032750859243578]
+  - PENDING: "@avgcryptoguy @0xMerp Xpl too, yeah" — XPL ticker signal or banter? [2078051137731596456]
+  - PENDING: "@bull_genius" + URL [2078158149517779324]
+  - PENDING: "@docXBT Doc?" [2078189833449619711]
+  - PENDING: "@jimtalbot @btc_charlie" + photo link [2078772347679494540]
+  - PENDING: "@NewsInSmol Yeah" + URL [2078772535450120469]
+  - PENDING: "@NewsInSmol" + URL (2nd rapid reply) [2078774898244075695]
+  - PENDING: "@blancxbt Almost 24 fml" — price level, time, or personal? [2079188269661663640]
+  - PENDING: "@mainachad I'm in btw!!" — new entry or social? [2079195167634927701]
+  - PENDING: "@0xProfessor_ 15s tf.." — scalp setup? [2079195353916543307]
+  - PENDING: "@Trade17 Hyperliquid." [2079278932424065198]
+  - PENDING: "@DipWheeler Massive weak." [2079306483905290746]
+  - PENDING: "@blknoiz06 @XMoney can't see it" [2079312122845032649]
+  - PENDING: "Bro went all in 😭😭😭" + URL — own action or third-party? [2079418038001045864]
+  - PENDING: "@DipWheeler 014." [2079447013385474553]
+  - PENDING: "@finalcycle324 Top" — top call or affirmation? [2079483057455722781]
+  - PENDING: "@Trade17 Hype / Tao / Maybe monero" — ticker list signal or banter? [2079494373494882316]
+  - PENDING: "@TraderMercury (Buy more)" [2079552590312829076]
+  - PENDING: "@ssefXBT" + URL [2079573706016247998]
+  - PENDING: "@blancxbt Yeah" + URL [2079814329210175947]
+  - PENDING: "@blancxbt embodiment of the holders" + URL [2079815273805144245]
+  - PENDING: "@0xjune_ @N1Chain" + URL [2080138957409378455]
+  - PENDING: "@0xProfessor_ Here we go…" — execution entry or banter? [2081441542233784830]
+  - PENDING: Jul 26 19:15Z reply "@janxbt @garbycan Yes I'm nig" — text truncated [2081458303570161705]
+- Last seen: 2026-07-26 19:15:48 UTC
 - **Events (rolling):**
-  - Jul 26 19:15Z — ambiguous: reply to @janxbt/@garbycan "Yes I'm nig" — truncated text, unable to classify [2081458303570161705]
-  - PENDING: "Ahhh, anyway, this is for you" + URL — market link or personal share? (tweet_id=2077731242359791690)
-  - PENDING: "@blancxbt True (not fake)" — actively trading off external signals, or commentary? (tweet_id=2077734352922804254)
-  - PENDING: "@LSDinmycoffee Also" + URL — chart/signal or link share? (tweet_id=2077766169709171185)
-  - PENDING: "@0xSyfer G\nM" + URL — trade signal or banter? (tweet_id=2078008966064308384)
-  - PENDING: "@bull_genius @OnlyZen_PK" + URL — trade coordination or banter? (tweet_id=2078024717030617244)
-  - PENDING: "@FalconyFalcon Pls" — intent unknown (tweet_id=2078032750859243578)
-  - PENDING: "@avgcryptoguy @0xMerp Xpl too, yeah" — XPL ticker signal or banter? (tweet_id=2078051137731596456)
-  - PENDING: "@bull_genius" + URL — chart/signal share? (tweet_id=2078158149517779324)
-  - PENDING: "@docXBT Doc?" — signal coordination or banter? (tweet_id=2078189833449619711)
-  - PENDING: "@jimtalbot @btc_charlie" + photo link, no caption — trading-related? (tweet_id=2078772347679494540)
-  - PENDING: "@NewsInSmol Yeah" + URL — agreement on market structure/direction? (tweet_id=2078772535450120469)
-  - PENDING: "@NewsInSmol" + URL (2nd rapid reply within 10 min) — same thread, signal or banter? (tweet_id=2078774898244075695)
-  - PENDING: "@blancxbt Almost 24 fml" — price level (24K?), time reference, or personal? (tweet_id=2079188269661663640)
-  - PENDING: "@mainachad I'm in btw!!" — new entry confirmation, BTC-long reaffirmation, or social agreement? (tweet_id=2079195167634927701)
-  - PENDING: "@0xProfessor_ 15s tf.." — who is @0xProfessor_; scalp setup confirmation? (tweet_id=2079195353916543307)
-  - PENDING: "@Trade17 Hyperliquid." — HYPE view agreement, signal, or banter? (tweet_id=2079278932424065198)
-  - PENDING: "@DipWheeler Massive weak." — bearish sentiment or banter? (tweet_id=2079306483905290746)
-  - PENDING: "@blknoiz06 @XMoney For some reason, I can't see it" — chart/tech issue or market observation? (tweet_id=2079312122845032649)
-  - PENDING: "Bro went all in 😭😭😭" + URL — his own action or third-party observation? (tweet_id=2079418038001045864)
-  - PENDING: "@DipWheeler 014." — price code, trade marker, or banter? (tweet_id=2079447013385474553)
-  - PENDING: "@finalcycle324 Top" — top call (bearish signal) or affirmation? (tweet_id=2079483057455722781)
-  - PENDING: "@Trade17 Hype / Tao / Maybe monero" — HYPE/TAO/XMR ticker list: signal or banter? (tweet_id=2079494373494882316)
-  - PENDING: "@TraderMercury (Buy more)" — own conviction, quote, or commentary? (tweet_id=2079552590312829076)
-  - PENDING: "@ssefXBT" + URL — analysis/setup share aligned with BTC conviction? (tweet_id=2079573706016247998)
-  - PENDING: "@blancxbt Yeah" + URL — agreement with a trade setup or banter? (tweet_id=2079814329210175947)
-  - PENDING: "@blancxbt This is literally the embodiment of the holders" + URL — bullish holder sentiment, bearish commentary, or non-financial? (tweet_id=2079815273805144245)
-  - PENDING: "@0xjune_ @N1Chain" + URL — market link share or trading setup signal? (tweet_id=2080138957409378455)
-  - PENDING: "@0xProfessor_ Here we go…" — execution entry signal or social banter reaction? (tweet_id=2081441542233784830)
-- Last seen: 2026-07-26 19:06:18 UTC
-- **Events (rolling):**
-  - Jul 26 19:06Z — informational: (general trading psychology) Discipline and execution consistency as account grows; educational thread [2081456092832317700]
-  - Jul 26 18:53Z — skip: @xbt2027 "Lmeow" bare one-word terse reply, matches established cryptic-banter pattern (80% non-financial posts, one-word replies ≈ zero value); silent skip [2081452913784734183]
-  - Jul 26 18:08Z — ambiguous: @0xProfessor_ "Here we go…" terse cryptic reply with ellipsis, execution-adjacent but unclear if entry or social agreement, calibration alert sent [2081441542233784830]
-  - Jul 26 15:20Z — skip: @FalconyFalcon @blknoiz06 "??" bare terse banter reply, matches established non-financial cryptic-banter pattern (80% of posts); one-word replies = near-zero value per conviction notes [2081399143897952316]
-  - Jul 23 06:49Z — ambiguous: @hypevillager "Bids/asks" terse cryptic reply, no context, calibration alert sent [2080183555510940134]
-  - Jul 23 06:38Z — informational: INJ H1/M15 technical setup, looking for entry points in zone of interest, bullish structure observation [20801808511747318877]
-  - Jul 23 06:34Z — informational: BTC 2,700 BTC seller limit order filled, market ranging w/ neither side in control; key support test [2080179610176614571]
-- Last seen: 2026-07-23 08:52:26 UTC
-- **Events (rolling):**
-  - Jul 23 08:52Z — ambiguous: @BitMEX F single-character cryptic reply, awaiting calibration [2080214442994765972]
-  - Jul 23 06:34Z — ambiguous: $0xelevenquit bare ticker + eye emojis, context unknown, calibration alert sent [2080179630880875374]
-  - Jul 23 06:14Z — ambiguous: "@blancxbt …" mention + ellipsis, terse cryptic pattern, awaiting calibration [2080174572452655110]
-  - Jul 23 04:23Z — ambiguous: "@0xlogy @bagsheera @IndexS_alt @TheJungleGrp Same" bare-word reply, matches terse cryptic pattern, calibration alert sent [2080146802204876939]
-  - Jul 23 03:52Z — ambiguous: "@0xjune_ @N1Chain" bare URL reply, pattern matches prior unresolved calibrations, awaiting clarification [2080138957409378455]
-  - Jul 17 07:51Z — ambiguous: reply @bull_genius @OnlyZen_PK bare URL, possible trade coordination, unresolved [2078024717030617244]
-  - Jul 17 08:23Z — ambiguous: "@FalconyFalcon Pls" terse plea, intent unknown [2078032750859243578]
-  - Jul 17 09:36Z — ambiguous: XPL "Xpl too, yeah" possible ticker signal, awaiting calibration [2078051137731596456]
-  - Jul 17 12:30Z — informational: BTC entered 2/3 volume at range upper boundary, may add 61.5K, distribution/false-breakout read [2078095087003713559]
-  - Jul 17 16:41Z — ambiguous: reply @bull_genius bare URL, chart or signal share unknown [2078158149517779324]
-  - Jul 17 18:47Z — ambiguous: "@docXBT Doc?" cryptic query, unresolved [2078189833449619711]
-  - Jul 19 09:22Z — ambiguous: photo-link reply to @jimtalbot @btc_charlie, possibly trading-related [2078772347679494540]
-  - Jul 19 09:22Z — ambiguous: "@NewsInSmol Yeah" + URL, market-structure agreement unclear [2078772535450120469]
-  - Jul 19 09:32Z — ambiguous: second rapid URL reply to @NewsInSmol within 10 min [2078774898244075695]
-  - Jul 20 12:54Z — ambiguous: "@blancxbt Almost 24 fml", price/time reference unclear [2079188269661663640]
-  - Jul 20 13:22Z — ambiguous: "@mainachad I'm in btw!!" execution-adjacent, entry vs banter unclear [2079195167634927701]
-  - Jul 20 13:22Z — ambiguous: "@0xProfessor_ 15s tf.." scalp-timeframe reference, context missing [2079195353916543307]
-  - Jul 20 18:55Z — ambiguous: HYPE "@Trade17 Hyperliquid." single-word reply, unresolved [2079278932424065198]
-  - Jul 20 20:44Z — ambiguous: "@DipWheeler Massive weak." possible bearish sentiment [2079306483905290746]
-  - Jul 20 21:06Z — ambiguous: "@blknoiz06 @XMoney can't see it", referent unknown [2079312122845032649]
-  - Jul 21 04:07Z — ambiguous: "Bro went all in 😭" + URL, own action vs third-party unclear [2079418038001045864]
-  - Jul 21 06:02Z — ambiguous: "@DipWheeler 014." cryptic code/number [2079447013385474553]
-  - Jul 21 08:26Z — ambiguous: "@finalcycle324 Top" possible top call vs banter [2079483057455722781]
-  - Jul 21 09:11Z — ambiguous: HYPE TAO XMR ticker list to @Trade17, signal vs banter [2079494373494882316]
-  - Jul 21 13:02Z — ambiguous: "@TraderMercury (Buy more)" conviction or quote unclear [2079552590312829076]
-  - Jul 21 14:26Z — ambiguous: "@ssefXBT" bare URL share, unresolved [2079573706016247998]
   - Jul 21 21:01Z — informational: ETH 6h MTF bullish structure breakout, rally expected soon [2079673052938559739]
   - Jul 22 06:15Z — informational: ADA M15/H1 long POI, seeking entry 0.1685–0.17 [2079812453886570851]
-  - Jul 22 06:22Z — ambiguous: "@blancxbt Yeah" + URL, agreement target unknown [2079814329210175947]
-  - Jul 22 06:26Z — ambiguous: "@blancxbt embodiment of the holders" + URL, holder-sentiment intent unclear [2079815273805144245]
-  - Jul 22 19:00Z — ambiguous: "@hellojintao Top" bare word reply, identical pattern to prior pending ("@finalcycle324 Top"), awaiting calibration [2080005104447480270]
-  - Jul 23 08:52Z — ambiguous: @BitMEX F single-character cryptic reply, awaiting calibration [2080214442994765972]
-  - Jul 23 07:13Z — ambiguous: @BitTexXBT "/fucking_bittex" + chart image, unable to read/decipher, calibration alert sent [20801895493097431640]
-  - Jul 23 14:15Z — ambiguous: "@kingbtc @hellojintao What" single-word cryptic reply, similar to prior 12:50Z post, calibration alert sent [2080295763129614624]
-  - Jul 23 12:50Z — ambiguous: "@kingbtc Jintao what" terse cryptic reply, referent unknown, calibration alert sent [2080274334044602522]
-- Last seen: 2026-07-25 06:07:54 UTC
-- **Events (rolling):**
-  - Jul 25 06:07Z — ambiguous: @GlitchCapital @Stoiiic @ImTrizzy @TraderMotif @pierre_crypt0 @docXBT @JacobCanfield "Ye" — trader @mention coordination, single-word cryptic reply, ambiguous intent; calibration alert sent [2080897811541872808]
-  - Jul 24 22:15Z — ambiguous: reply to @zackvoell "It's too true for the algos to let it go mainstream." cryptic context, no market reference visible; calibration alert sent [2080778805895971062]
-  - Jul 24 21:09Z — ambiguous: "@FalconyFalcon Me" cryptic reply matching prior pattern (Jul 24 12:49Z "Lmeow", Jul 17 08:23Z "Pls"), single-word response, awaiting calibration [2080762249765892140]
-  - Jul 24 16:00Z — ambiguous: "@garbycan Almost" terse cryptic reply to unknown context, single-word response, awaiting calibration [2080684438493528450]
-  - Jul 24 12:49Z — ambiguous: "@FalconyFalcon Lmeow" terse one-word reply, matches prior @FalconyFalcon pattern requiring calibration, calibration alert sent [2080625703758786663]
-  - Jul 24 05:57Z — informational: $UNI $ENA — technical analysis on consolidation patterns with marked support/resistance zones, discussing potential retests; charts show UNI/ENA 1D structure with level framework; no personal execution language; market observation/chart analysis share [2080532786012639642]
-- Last seen: 2026-07-24 05:16:26 UTC
-- **Events (rolling):**
-  - Jul 24 05:16Z — informational: ES/SPX consolidation bounce call — fund hit lower boundary of consolidation range, significant gap above; expects upward move when US market opens, bounce on futures, gap fill on index; 5-chart labeled setup [2080522473817182656]
-- Last seen: 2026-07-24 05:14:34 UTC
-- **Events (rolling):**
-  - Jul 24 05:14Z — informational: BTC technical structure — reached POC on right side of chart, consolidating near POC, appearing to break out; educational commentary on potential bounce entry if tests level; volume profile + intraday structure charts; no personal execution [2080522001383383143]
-  - Jul 24 03:40Z — informational: INJ technical analysis success — bullish bounce from support level confirmed; market structure setup with marked reversals validated; victory lap on successful trade idea [2080498261308153867]
-  - Jul 25 06:07Z — ambiguous: @GlitchCapital @Stoiiic @ImTrizzy @TraderMotif @pierre_crypt0 @docXBT @JacobCanfield "Ye" — trader @mention coordination, single-word cryptic reply, ambiguous intent; calibration alert sent [2080897811541872808]
-  - Jul 23 15:25Z — informational: QQQ bearish-retest rejection setup on daily/30m timeframes; positioning reset validates asymmetry for long entry; macro backdrop (Semis/AI lost trend, yields ripping) but textbook technical rejection recovery; charts show consolidation with asymmetry in approach given positioning [2080313244414337099]
+  - Jul 22 06:22Z — ambiguous: "@blancxbt Yeah" + URL [2079814329210175947]
+  - Jul 22 06:26Z — ambiguous: "embodiment of the holders" + URL [2079815273805144245]
+  - Jul 22 19:00Z — ambiguous: "@hellojintao Top" bare-word reply [2080005104447480270]
+  - Jul 23 06:14Z — ambiguous: "@blancxbt …" ellipsis mention [2080174572452655110]
+  - Jul 23 06:34Z — informational: BTC 2700 BTC seller limit order filled; range with neither side in control [2080179610176614571]
+  - Jul 23 06:34Z — ambiguous: $0xelevenquit ticker + eye emojis [2080179630880875374]
+  - Jul 23 06:38Z — informational: INJ H1/M15 technical setup, looking for entry in zone of interest [20801808511747318877]
+  - Jul 23 06:49Z — ambiguous: "@hypevillager Bids/asks" terse cryptic reply [2080183555510940134]
+  - Jul 23 08:52Z — ambiguous: @BitMEX F single-char reply [2080214442994765972]
+  - Jul 23 12:50Z — ambiguous: "@kingbtc Jintao what" terse cryptic [2080274334044602522]
+  - Jul 23 14:15Z — ambiguous: "@kingbtc @hellojintao What" single-word [2080295763129614624]
+  - Jul 24 03:40Z — informational: INJ bullish bounce from support validated; victory lap [2080498261308153867]
+  - Jul 24 05:14Z — informational: BTC POC right side, consolidating near POC, appearing to break out [2080522001383383143]
+  - Jul 24 05:16Z — informational: ES/SPX bounce call — fund hit lower consolidation boundary, gap above; expects upward when US opens [2080522473817182656]
+  - Jul 24 05:57Z — informational: UNI ENA consolidation patterns, support/resistance zones on 1D structure [2080532786012639642]
+  - Jul 24 12:49Z — ambiguous: "@FalconyFalcon Lmeow" [2080625703758786663]
+  - Jul 24 16:00Z — ambiguous: "@garbycan Almost" [2080684438493528450]
+  - Jul 24 21:09Z — ambiguous: "@FalconyFalcon Me" [2080762249765892140]
+  - Jul 24 22:15Z — ambiguous: reply @zackvoell "too true for algos to let go mainstream" [2080778805895971062]
+  - Jul 25 06:07Z — ambiguous: @GlitchCapital @Stoiiic @ImTrizzy et al. "Ye" single-word coordination [2080897811541872808]
+  - Jul 26 18:08Z — ambiguous: "@0xProfessor_ Here we go…" terse cryptic with ellipsis [2081441542233784830]
+  - Jul 26 19:06Z — informational: trading psychology — discipline and execution consistency as account grows [2081456092832317700]
+  - Jul 26 19:15Z — ambiguous: reply "@janxbt @garbycan Yes I'm nig" — truncated text [2081458303570161705]
 
 ## HeartCanHodl
-- Platforms: X + Discord (Trades 1279738718680256553 = primary; Chat 1023638573313966212 = real-time updates; Comments 1393137051108507728 = macro analysis; Free 1472153627324842057 = public)
-- Current open positions: Net **SHORT basket, ~40-44% portfolio allocation** (35% milestone hit Jul 15 07:49:35Z "It was high risk but the plan is the same. We get to size as well 35% pf"; NEW add Jul 24). Core shorts: **BTC** (+3% add Jul 14 15:33:25Z; targets 60.8k then 59.3k per Jul 15 12:22:49Z chart), **ETH** (+2% add Jul 14 13:27:56Z on primary, plus +2%+2% secondary-account adds Jul 14 11:13:44Z/12:47:29Z; ~6-8% total accumulated since Jul 3-4 entry), **SOL** (+2% Jul 14 secondary + +2% Jul 15 12:36:50Z), **HYPE** (+2% Jul 15 12:36:50Z), **ZEC 2-3%** (highest-conviction short since 06-15; TP'd -1% Jul 8, re-added +1% Jul 15 07:35:08Z and +1% Jul 15 11:22:31Z), **UNI 2%** (+1% Jul 16 05:06:02Z new-ticker entry, +1% Jul 21 01:38:04Z last add, message_id 1528939087354921080), **VVV 2%** (added Jul 19 02:08Z), **CL 2%** (added Jul 24 07:32:17Z — new ticker, Crude Oil short at breakout region). **$SPCX short** — big winner, printed all-time low Jul 13 (called the top, still riding), but Jul 21 "Enjoying some longs too :)" $SPCX post is unresolved (see PENDING). Closed for large profit: **"$LAB" short** (~-82% move, fully out Jul 9).
-- Current open positions: Net **SHORT basket, ~40-44% portfolio allocation** (35% milestone hit Jul 15 07:49:35Z "It was high risk but the plan is the same. We get to size as well 35% pf"). Core shorts: **BTC** (+3% add Jul 14 15:33:25Z; targets 60.8k then 59.3k per Jul 15 12:22:49Z chart), **ETH** (+2% add Jul 14 13:27:56Z on primary, plus +2%+2% secondary-account adds Jul 14 11:13:44Z/12:47:29Z; ~6-8% total accumulated since Jul 3-4 entry), **SOL** (+2% Jul 14 secondary + +2% Jul 15 12:36:50Z), **HYPE** (+2% Jul 15 12:36:50Z), **ZEC 2-3%** (highest-conviction short since 06-15; TP'd -1% Jul 8, re-added +1% Jul 15 07:35:08Z and +1% Jul 15 11:22:31Z), **UNI 2%** (+1% Jul 16 05:06:02Z new-ticker entry, +1% Jul 21 01:38:04Z last add, message_id 1528939087354921080), **VVV 2%** (added Jul 19 02:08Z), **CL 2%** (added Jul 24 07:35:07Z, Crude Oil short above $90, message_id 1530116103253135480). **$SPCX short** — big winner, printed all-time low Jul 13 (called the top, still riding), but Jul 21 "Enjoying some longs too :)" $SPCX post is unresolved (see PENDING). Closed for large profit: **"$LAB" short** (~-82% move, fully out Jul 9).
-- Recent thesis: Firmly, structurally bearish and "Comfy in shorts" (Jul 22). BTC can't hold above 62.8K, keeps rejecting ~61K; 59-60K is the critical support test — targets 60.8k/59.3k, then 54-57k zone if 59k breaks. "Big on gains now 62k reached" (Jul 17) but "not done with the market fall — weakness still persists." SOL his weakest-major short; skeptical of memory-stocks-new-highs narrative (tracking SKHynix fresh lows/EMA50 breakdown); macro fixation on MSTR/STRC↔BTC reflexive-loop fragility, DXY weekly support as short tailwind. Exit discipline: sells into pumps ("this pump is also an exit chance"), covers when "everybody start lowering their bottom targets."
-- Conviction notes: Terse, mirror-able execution calls with explicit %-of-portfolio sizing and exact prices ("Add 3% btc short", "Add 1% zec short") on the Trades channel; low-leverage framing; longer macro reasoning in Comments. "Fc {ticker} {tf}" = form-confirmed chart callouts. Codified short playbook: short fear → add when it holds → add on EMA rejection → size down-trend → cover on capitulation. High volume of cryptic X one-liners, emoji posts, and URL-only shares that need calibration (large PENDING backlog); actual trade signal density is concentrated in the Trades channel.
-- Calibration: (no answered calibrations yet — all pending)
-  - PENDING: "down/chop" + chart, sentiment read unclear (Jul 14) [2077022211181793492]
-  - PENDING: "@WatcherGuru" bare URL share, intent unknown (Jul 14) [2077026793488543976]
-  - PENDING: "@Polymarket" URL share — bearish prediction-market ref or unrelated? (Jul 14) [2077137226652418502]
-  - PENDING: "@BullTheoryio It has to come to this sooner or later" — what is "this"? (Jul 15) [2077304564886507762]
-  - PENDING: "Let's see how it goes" Free-channel reply, intent unclear (Jul 15) [1526912219663700041]
-  - PENDING: "@yasu0x1 Sloppy down road ahead.." — chop+downside read? (Jul 15) [20773631407744656969]
-  - PENDING: "This might be the riskiest possible time to post this 🗿" (Jul 15) [2077375209741353443]
-  - PENDING: "20 minutes into market open 🎻" + URL (Jul 15) [2077390716406264244]
-  - PENDING: "Non-stop" + URL (Jul 15) [2077399411731333248]
-  - PENDING: "SK lownix" + URL — SKHynix wordplay? (Jul 16) [2077592932253896910]
-  - PENDING: "@heiss_7 Next to follov it 📉👀🤞🏻" + URL (Jul 16) [2077606213634916643]
-  - PENDING: "@Quanterty Down 60% a week later" — what asset/call? (Jul 16) [2077607252778000763]
-  - PENDING: "@lookonchain Instructions are clear. Short maxxing 🤜🏻" — new data or sentiment? (Jul 16) [2077608314905698388]
-  - PENDING: "@5morewhooppers Considering taking a bit of $ZEC off the table?" — own TP signal or question to them? (Jul 16) [2077625620729864557]
-  - PENDING: "One of the good ones ;)" (Jul 16) [2077658979497599456]
-  - PENDING: "told ya" + URL — which prediction referenced? (Jul 16) [2077670137730408938]
-  - PENDING: URL-only post, content unknown (Jul 16) [2077681924651573421]
-  - PENDING: "@DeItaone BMS after SOH" — acronym meanings? (Jul 16) [2077725665613476143]
-  - PENDING: "@rng149 2024!" (Jul 16) [2077802466893320570]
-  - PENDING: "It's real. Some of you might know him 😉" + X link, Free channel — who/what? (Jul 17) [1527618033063825448]
-  - PENDING: "We can do some changes immediately that don't require much technical difficulties" (Jul 17 12:08Z, no id recorded)
-  - PENDING: "Fc btcdom 5m" — notation or intraday call? (Jul 17) [1527666900392480879]
-  - PENDING: "@BullTheoryio ." period-only reply (Jul 18) [2078425997414981820]
-  - PENDING: "Weekend dome" + URL — bearish dome pattern on which ticker? (Jul 19) [2078823376546930710]
-  - PENDING: "EBITDA ❌ / Every Bounce Is Trump's Doing, Apparently ✔️" — bearish equity thesis or pure skepticism? (Jul 21) [2079385919233446070]
-  - PENDING: "Enjoying some longs too :) $SPCX" — longs elsewhere, SPCX flip, or sarcasm vs active SPCX short? (Jul 21) [2079569206828556745]
-  - PENDING: "gm" + chart image, image uninterpreted — market-relevant? (Jul 22) [2079778394292805722]
-  - PENDING: "There is only one way out" in Chat (Jul 22) [1529374752773243051]
-  - PENDING: "Fc btc 15m" in Chat — observation, incomplete, or test? (Jul 22) [1529496120005234689]
-  - PENDING: "This is nothing compared to our expectations 👀" in Chat (Jul 22) [1529498814808064151]
-  - PENDING: "This liq. arrived" in Comments — reply context empty, liquidity arrived where/when?, ambiguous observation (Jul 23) [1529829147810070558]
-- Last seen: 2026-07-23 14:14:40 UTC
-- **Events (rolling):**
-  - Jul 23 14:14Z — ambiguous: Chat "So keeping an eye out" cryptic fragment, supporting channel, no ticker/context, calibration alert sent [1529854267572224000]
-- Last seen: 2026-07-23 14:15:45 UTC
-- **Events (rolling):**
-  - Jul 23 14:15Z — ambiguous: Discord Chat channel "Breaking those straight up..." market-structure commentary, referent unclear ("those"), cryptic without context, calibration alert sent [1529854539329572915]
-  - Jul 23 12:42Z — ambiguous: X reply to @airline77681117 "Not yet :)" cryptic minimal context, awaiting calibration [2080272282266829293]
-  - Jul 15 12:36:50Z — trade-add: HYPE SOL "Enter 2% hype short and 2% sol short" on primary Trades channel [1526930541822218401]
-  - Jul 15 12:50:20Z — ambiguous: "This might be the riskiest possible time to post this 🗿", awaiting calibration [2077375209741353443]
-  - Jul 15 13:51:57Z — ambiguous: "20 minutes into market open 🎻" + URL, intent unclear, awaiting calibration [2077390716406264244]
-  - Jul 15 14:26:30Z — ambiguous: "Non-stop" + URL, direction reference unclear, awaiting calibration [2077399411731333248]
-  - Jul 16 03:15:29Z — ambiguous: SKHynix "SK lownix" + URL, cryptic follow-up to EMA50 posts, awaiting calibration [2077592932253896910]
-  - Jul 16 04:08:16Z — ambiguous: "@heiss_7 Next to follov it 📉👀🤞🏻" bearish-emoji reply, awaiting calibration [2077606213634916643]
-  - Jul 16 04:12:23Z — ambiguous: "@Quanterty Down 60% a week later", context unknown, awaiting calibration [2077607252778000763]
-  - Jul 16 04:16:37Z — ambiguous: "@lookonchain Instructions are clear. Short maxxing 🤜🏻", awaiting calibration [2077608314905698388]
-  - Jul 16 05:06:02Z — trade-add: UNI "Add 1% to uni short" — new sixth ticker in short basket [1527179482090311790]
-  - Jul 16 05:25:23Z — ambiguous: ZEC "@5morewhooppers Considering taking a bit of $ZEC off the table?" possible TP tell, awaiting calibration [2077625620729864557]
-  - Jul 16 07:37:56Z — ambiguous: "One of the good ones ;)", no context, awaiting calibration [2077658979497599456]
-  - Jul 16 08:22:16Z — ambiguous: "told ya" + URL, referenced prediction unknown, awaiting calibration [2077670137730408938]
-  - Jul 16 09:09:06Z — ambiguous: URL-only post, content unknown, awaiting calibration [2077681924651573421]
-  - Jul 16 12:02:55Z — ambiguous: "@DeItaone BMS after SOH", acronyms undefined, awaiting calibration [2077725665613476143]
-  - Jul 16 17:08:06Z — ambiguous: "@rng149 2024!", cryptic, awaiting calibration [2077802466893320570]
-  - Jul 17 10:08:40Z — ambiguous: Free-channel X-link share "It's real. Some of you might know him 😉", awaiting calibration [1527618033063825448]
-  - Jul 17 13:22:51Z — ambiguous: BTCDOM "Fc btcdom 5m" cryptic shorthand, awaiting calibration [1527666900392480879]
-  - Jul 18 10:25:47Z — ambiguous: "@BullTheoryio ." period-only reply, awaiting calibration [2078425997414981820]
-  - Jul 19 12:44:50Z — ambiguous: "Weekend dome" + URL, likely bearish reversal-pattern chart, awaiting calibration [2078823376546930710]
-  - Jul 21 02:00:10Z — ambiguous: equities "EBITDA ❌ / Every Bounce Is Trump's Doing ✔️" macro skepticism, awaiting calibration [2079385919233446070]
-  - Jul 21 14:08:30Z — ambiguous: SPCX "Enjoying some longs too :)" contradicts active SPCX short, awaiting calibration [2079569206828556745]
-  - Jul 22 03:59:44Z — ambiguous: "gm" + chart image, image uninterpreted, awaiting calibration [2079778394292805722]
-  - Jul 22 06:29:15Z — ambiguous: Chat "There is only one way out", awaiting calibration [1529374752773243051]
-  - Jul 22 14:31:31Z — ambiguous: BTC "Fc btc 15m" in Chat channel, awaiting calibration [1529496120005234689]
-  - Jul 22 14:42:14Z — ambiguous: Chat "This is nothing compared to our expectations 👀", awaiting calibration [1529498814808064151]
-  - Jul 22 21:14Z — ambiguous: "@hellojintao Isn't ansem topped in the 1st week of July?" — ticker/context unclear, awaiting calibration [2080038785635729458]
-  - Jul 23 12:56:21Z — informational: BTC "Fc btc 1hr" form-confirmed 1-hour chart callout in Chat channel (supporting), reiteration of 12:34 Comments post [1529834558592254075]
-  - Jul 23 12:34:15Z — informational: BTC "Fc btc 1hr" form-confirmed 1-hour chart callout in Comments channel [1529828995032547549]
-  - Jul 23 12:34:51Z — ambiguous: Comments channel reply "This liq. arrived" — empty referenced message, context missing, calibration alert sent [1529829147810070558]
-  - Jul 23 12:39:45Z — informational: BTC/ETH liquidation flows screenshot ("Bait" trap) supporting active short thesis [2080271647836381617]
-  - Jul 23 19:51Z — informational: BTC ETH ZEC liquidation cascade; gaps closing fast [2080380380398379105]
-  - Jul 24 07:32Z — trade-new-entry: $CL Crude Oil short 2% portfolio at breakout region, new ticker for HCH short basket, primary Trades channel [1530115391878070292]
-- Last seen: 2026-07-24 08:28:18 UTC
-- **Events (rolling):**
-  - Jul 24 08:28Z — informational: X post with 4h CL chart confirming bearish momentum exhaustion thesis; peak 93.50→90.45 pullback shows "uneasy upside" pattern validating CL short entry from 53min prior Discord message [2080570756363341955]
-  - Jul 24 07:35Z — trade-new-entry: CL (Crude Oil) 2% pf short above $90; eighth ticker in documented short constellation [1530116103253135480]
-- Last seen: 2026-07-24 13:10:40 UTC
-- **Events (rolling):**
-  - Jul 24 13:10Z — informational: position-conviction: Comments channel "Still have 50%+ net short positioning" — maintained basket reaffirmation (40-44% pf), conviction unchanged; references prior Chat discussion; fast-path-alerted by Worker [1530200550329679973]
-  - Jul 24 08:41Z — ambiguous: Chat channel "Fc btc 15m" form-confirmed notation, reply to own prior message about "emas & mid range line in 64k range"; matches unresolved Jul 22 pattern (same cryptic shorthand), awaiting Kyle calibration [1530132868700049498]
-  - Jul 24 09:03Z — informational: Free channel "Fc cl 1m" form-confirmed CL (Crude Oil) 1-minute chart callout; technical validation of CL 2% short position entered 27min prior at 07:35Z [1530138221374214214]
-  - Jul 24 09:07Z — ambiguous: Free channel "Bringing out quality sucks big time with timings" — cryptic market sentiment or execution reference; no context/action language; calibration alert sent [1530139384744247336]
-  - Jul 24 09:25Z — informational: X post "starter short thesis" on $CL with 6 technical charts; public educational post rationalizing earlier 07:35Z Discord execution; peak 93.50→90.45 chart analysis validates CL short conviction [2080585218063573401]
-- Last seen: 2026-07-24 13:37:53 UTC
-- **Events (rolling):**
-  - Jul 24 13:37Z — informational: X post reiteration with philosophical framing — "Taking some short exposure off the table around 64k"; adds conviction reasoning ("fine line between conviction and greed"); charts show BTC rejection 66,956→consolidation 65,170 validating structured downside thesis. Dedup reiteration of 13:09Z Discord execution; X post raises conviction weight [2080648668114276643]
-- Last seen: 2026-07-24 14:31:03 UTC
-- **Events (rolling):**
-  - Jul 24 14:31Z — trade-partial-tp: BTC/ETH shorts — "Closing 5% more btc short and 2.5% eth short here at higher 63k" on primary Trades channel; fast-path-alerted (Cloudflare Worker sent Telegram ~2-5s); second TP execution of the day, disciplined profit-taking on continued bounce [1530220779399151616]
-  - Jul 24 13:41Z — informational: Chat channel macro context on oil — "second parabola on the oil run", bearish outlook ("not expecting much"), citing quarter-long bad-headline cycle + supply-chain shocks; reinforces CL 2% short conviction entered at 07:35Z; supporting-channel follow-up (not alerted to avoid double-notification) [1530208347616317551]
-  - Jul 24 13:09Z — trade-partial-tp: BTC/ETH shorts — "Closing 5% btc short and 2.5% eth short here at lower 64k" on primary Trades channel; fast-path-alerted (Cloudflare Worker sent Telegram ~2-5s) [1530200183093203044]
-- Last seen: 2026-07-25 08:43:24 UTC
-- **Events (rolling):**
-  - Jul 25 08:43Z — informational: Chat channel (supporting) "Good. This might be the level to see: 63k btc range, 1800 eth and oil headlines" — technical level identification (BTC 63K support, ETH 1800 reference, oil macro headline context); no personal trade action; standalone observation on key technical levels (supporting-channel solo post, no related primary-channel message to fold into); discord-trader-monitor real-time, fast-path-alerted [1530495674783764500]
-- Last seen: 2026-07-26 06:55:43 UTC
-- **Events (rolling):**
-  - Jul 26 06:55Z — informational: Comments channel "Fc btc 30m" — form-confirmed BTC 30-minute chart callout; technical notation continuation of established Fc pattern (Jul 25 instances, Jul 22/24 prior references). No execution language, no position change. Fast-path-alerted by Cloudflare Worker (Telegram already sent ~2-5s latency); skill memory-only processing, no duplicate send [1530830965503430766]
-  - Jul 25 14:02Z — informational: Free channel market sentiment "Crypto up, oil down. Profits on both sides 🙂" with 2 chart attachments; celebratory tone, likely profit-taking context given recent TP executions (Jul 25 06:58Z ZEC/HYPE/SOL half closes, Jul 24 14:31Z/13:09Z BTC/ETH partial TPs); message lacks explicit execution language or position change intent; public channel (not Trades), no action alerted. Telegram forwarded for Kyle context. [1530575972884287759]
-  - Jul 25 13:47Z — informational: Comments channel "Fc btc 30m" — form-confirmed BTC 30-minute chart callout; technical notation continuation of Fc pattern established Jul 25 09:43Z (earlier Fc btc 15m same date). No execution language, no position change. Fast-path-alerted (Cloudflare Worker pre-notified 2-5s); memory/audit processing only [1530572152267341909]
-  - Jul 25 09:43Z — informational: Comments channel "Fc btc 15m" — form-confirmed BTC 15-minute chart callout; technical notation matching pattern previously flagged as ambiguous (Jul 22, Jul 24 instances). Comments channel context suggests reference to chart previously shared in trader discussion; no execution language, no position change. Fast-path-alerted (Cloudflare Worker pre-notified 2-5s); memory/audit processing only [1530510774315913349]
-  - Jul 25 08:45Z — informational: Chat channel technical analysis — "Technically we are prepared for a breakdown of the channel I've shared with you all"; supporting technical confirmation on existing short basket conviction; references unspecified price channel (likely BTC, ETH, or major crypto); fast-path-alerted [1530496165282316308]
-  - Jul 25 08:17Z — ambiguous: X reply to @5morewhooppers "Conviction, man 🎯🪖" — terse one-liner with no explicit ticker/action; 80 min after 06:58Z ZEC/HYPE/SOL TP execution; likely affirming short thesis but context-dependent on original @5morewhooppers message; calibration alert sent [2080930425879576749]
-  - Jul 25 07:04Z — cross-platform-reiteration-tp: X post reiteration of 06:58Z Discord TP event; adds market narrative ("heavy hit"), ZEC emphasis ("biggest short, behind BTC/ETH"), technical charts (4 images: conviction entry + ZEC 1h downtrend). Per Step 3 protocol: Discord posted first, X post raises conviction weight. No duplicate alert (Kyle already notified 06:58Z). Conviction-reinforcing X post logged; cross-platform confirmation only [2080912111983563079]
-  - Jul 25 06:58Z — trade-partial-tp: ZEC/HYPE/SOL shorts — "Close zec, hype, sol half size shorts here" on primary Trades channel; fast-path-alerted (Cloudflare Worker sent Telegram ~2-5s); reducing half of active short positions: ZEC ~50%, HYPE ~50%, SOL ~50%. Portfolio short allocation post-TP estimated 30-35% (down from 35-40%). Disciplined profit-taking following Jul 24 BTC/ETH partial TPs [1530469259086532648]
-  - Jul 25 09:43Z — informational: Comments channel (primary) market outlook and technical pattern observation — "Not betting on extreme targets over the weekend and think we could see some sort of chop. A 'Kindergarten kid drawing W on chart' pattern with unequal legs"; macro sentiment (expecting weekend chop) + technical pattern observation (W formation with unequal legs indicating consolidation/indecision structure); no personal trade action; discord-trader-monitor real-time, fast-path-alerted [1530510755269578782]
-  - Jul 25 06:59Z — ambiguous: Comments channel "Fc zec 1hr" — cryptic chart notation (likely falling-channel on ZEC 1-hour timeframe), unable to classify without context; ZEC in active short basket (highest-conviction since Jun 15); calibration alert sent [1530469534958354624]
-  - Jul 24 14:29Z — ambiguous: Chat channel bare "Yes" — no referenced context, standalone cryptic affirmation, intent unclear; awaiting Kyle calibration [1530220378818085108]
-  - Jul 24 16:33Z — informational: $CL short follow-up "starter shorts are off to a promising start" with Nasdaq chart showing equity bounce; ambiguous sentiment (shorts performing or being tested by risk-on?); reiteration/update of 07:32Z CL entry [2080692761993605275]
-  - Jul 25 13:46Z — informational: Real-time liquidation data share — "Enjoy the weekend now ;)" + image showing Binance liquidations (CLs/BZs liquidated long) + Hyperdash flows (BTC/ETH shorts liquidated). Market liquidation commentary implying shorts winning, no personal trade action. HCH SHORT on CL (added Jul 24 07:35Z), liquidation data aligns with thesis. Casual weekend post, no action required [2081013216050839716]
-  - Jul 25 14:04Z — ambiguous: Free channel "Expected outcome" + image attachment — cryptic caption with image context unavailable; unable to classify without Kyle context (is_reply=false, no referenced message). Calibration alert sent [1530576396399939596]
-- Last seen: 2026-07-26 18:56:30 UTC
-- **Events (rolling):**
-  - Jul 26 18:56Z — informational: Comments channel (primary) "We have that leg up" — reply to own Jul 25 09:43Z W-pattern observation ("Kindergarten kid drawing W on chart" with unequal legs); confirming technical structure playing out as expected (first leg of W established); no execution language or position change; discord-trader-monitor real-time, fast-path-alerted [1531012357298589767]
-- Last seen: 2026-07-26 19:00:07 UTC
-- **Events (rolling):**
-  - Jul 26 19:00Z — ambiguous: Chat channel (supporting) "Fc btc 1hr" — cryptic chart notation, exact meaning unclear (may indicate form-confirmed 1h chart, filled confirmation, or other); matching historical pattern from Jul 6 14:21:43Z marked ambiguous; calibration alert sent [1531013265075736657]
-  - Jul 26 06:55Z — informational: Comments channel (primary) "Fc btc 15m wide" — form-confirmed BTC 15-minute chart callout; reply to own Jul 25 09:43Z message about W-pattern and weekend chop; technical notation reinforcing market outlook, no position change or execution language; discord-trader-monitor real-time, fast-path-alerted [1530830899321765999]
-  - Jul 26 18:54Z — ambiguous: Free channel (primary) "Fc btc 15m" — cryptic abbreviation matching unexplained prior pattern (Jul 6 14:21:43Z: "Fc btc 1hr" marked ambiguous, never clarified); unclear if force-close, filled confirmation, chart check, or other action on BTC 15m timeframe; awaiting calibration [1531011932797276231]
+- Platforms: X + Discord (Trades 1279738718680256553 = primary; Chat 1023638573313966212 = real-time; Comments 1393137051108507728 = macro; Free 1472153627324842057 = public)
+- Current open positions: Net **SHORT basket, ~30–35% portfolio allocation** (after Jul 24–25 partial TPs). Core shorts: **BTC** (targets 60.8K then 59.3K; partial TPs Jul 24: 5%+5% at 64K/63K), **ETH** (partial TPs Jul 24: 2.5%+2.5%), **SOL** (50% reduced Jul 25 06:58Z), **HYPE** (50% reduced Jul 25 06:58Z), **ZEC 1–1.5%** (highest-conviction since Jun 15; 50% reduced Jul 25 06:58Z), **UNI 2%** (last add Jul 21 01:38Z), **VVV 2%** (added Jul 19), **CL 2%** (Crude Oil short added Jul 24 07:35Z at ~$90, currently showing +5% gain per Jul 26 19:05Z chart: peak 93.47→85.89). **$SPCX short** — big winner printed all-time low Jul 13; Jul 21 "longs" comment unresolved (PENDING). Closed for large profit: **$LAB** short (~-82% Jul 9); **$BTC/$ETH scalp Jul 8** (profit-taken).
+- Recent thesis: Firmly, structurally bearish — "Comfy in shorts" (Jul 22). BTC can't hold 62.8K; 59–60K critical support; targets 60.8K/59.3K then 54–57K if 59K breaks. "Big on gains now 62K reached" (Jul 17) — not done yet, "weakness still persists." CL bearish — oil on second parabola, expects headlines-driven weakness. W-pattern (unequal legs) expected for weekend chop (Jul 25 thesis, leg-up confirmed Jul 26). "50%+ net short positioning" maintained (Jul 24 13:10Z). Macro: MSTR/STRC↔BTC reflexive-loop fragility; DXY weekly support tailwind.
+- Conviction notes: Terse, mirror-able execution calls with explicit %-of-portfolio sizing on Trades channel. "Fc {ticker} {tf}" = form-confirmed chart callouts (pattern now known — abbreviation meaning still PENDING explicit confirmation). Short playbook: short fear → add when holds → add on EMA rejection → cover on capitulation. Large PENDING backlog on cryptic X one-liners.
+- Calibration: No answered calibrations yet.
+  - PENDING: "down/chop" + chart [2077022211181793492]
+  - PENDING: "@WatcherGuru" bare URL [2077026793488543976]
+  - PENDING: "@Polymarket" URL share [2077137226652418502]
+  - PENDING: "@BullTheoryio It has to come to this sooner or later" [2077304564886507762]
+  - PENDING: "Let's see how it goes" [1526912219663700041]
+  - PENDING: "@yasu0x1 Sloppy down road ahead.." [20773631407744656969]
+  - PENDING: "This might be the riskiest possible time to post this 🗿" [2077375209741353443]
+  - PENDING: "20 minutes into market open 🎻" + URL [2077390716406264244]
+  - PENDING: "Non-stop" + URL [2077399411731333248]
+  - PENDING: "SK lownix" + URL — SKHynix wordplay? [2077592932253896910]
+  - PENDING: "@heiss_7 Next to follov it 📉👀🤞🏻" [2077606213634916643]
+  - PENDING: "@Quanterty Down 60% a week later" [2077607252778000763]
+  - PENDING: "@lookonchain Instructions are clear. Short maxxing 🤜🏻" [2077608314905698388]
+  - PENDING: "@5morewhooppers Considering taking a bit of $ZEC off?" [2077625620729864557]
+  - PENDING: "One of the good ones ;)" [2077658979497599456]
+  - PENDING: "told ya" + URL [2077670137730408938]
+  - PENDING: URL-only post [2077681924651573421]
+  - PENDING: "@DeItaone BMS after SOH" — acronyms? [2077725665613476143]
+  - PENDING: "@rng149 2024!" [2077802466893320570]
+  - PENDING: "It's real. Some of you might know him 😉" [1527618033063825448]
+  - PENDING: "Fc btcdom 5m" — notation or intraday call? [1527666900392480879]
+  - PENDING: "@BullTheoryio ." period-only reply [2078425997414981820]
+  - PENDING: "Weekend dome" + URL — bearish dome on which ticker? [2078823376546930710]
+  - PENDING: "EBITDA ❌ / Every Bounce Is Trump's Doing ✔️" [2079385919233446070]
+  - PENDING: "Enjoying some longs too :) $SPCX" — SPCX flip, longs elsewhere, or sarcasm vs active short? [2079569206828556745]
+  - PENDING: "gm" + chart image [2079778394292805722]
+  - PENDING: "There is only one way out" Chat [1529374752773243051]
+  - PENDING: "Fc btc 15m" Chat Jul 22 [1529496120005234689]
+  - PENDING: "This is nothing compared to our expectations 👀" [1529498814808064151]
+  - PENDING: "This liq. arrived" Comments reply context empty [1529829147810070558]
+  - PENDING: "So keeping an eye out" cryptic Chat [1529854267572224000]
+  - PENDING: "Breaking those straight up..." referent unclear [1529854539329572915]
+  - PENDING: "Not yet :)" reply @airline77681117 [2080272282266829293]
+  - PENDING: "Yes" bare Chat [1530220378818085108]
+  - PENDING: "Fc btc 15m" emas/mid-range Jul 24 Chat [1530132868700049498]
+  - PENDING: "Bringing out quality sucks big time with timings" [1530139384744247336]
+  - PENDING: "Expected outcome" + image Free channel [1530576396399939596]
+  - PENDING: "Conviction, man 🎯🪖" — terse reply @5morewhooppers [2080930425879576749]
+  - PENDING: "Fc btc 15m" Free channel Jul 26 [1531011932797276231]
+  - PENDING: "Fc btc 1hr" Chat Jul 26 [1531013265075736657]
 - Last seen: 2026-07-26 19:05:48 UTC
 - **Events (rolling):**
-  - Jul 26 19:05Z — informational: Free channel (primary) — CL (Crude Oil) 1h chart attachment showing downtrend from 93.47 peak to current 85.89 close, validating short entry from Jul 24 07:32Z (~$90); key support levels marked: 85.83, 85.00. Image-only message with no caption; chart context reinforces existing short thesis [1531014696231112784]
-
-## Stoiiic
-- Platforms: X (X-only; no Discord presence)
-- Current open positions: None documented (trader shows primarily non-financial banter)
-- Recent thesis: Not documented (new trader to bootstrap)
-- Conviction notes: Minimal financial posting pattern observed. Jul 24 activity: sarcastic market sentiment/structure commentary on BTC leverage behavior. Pattern: sarcastic questioning of market behavior rather than personal trade action. Further observation needed to calibrate conviction profile.
-- Last seen: 2026-07-26 17:00:15 UTC
-- **Events (rolling):**
-  - Jul 26 17:00Z — skip: "@Evan_ss6 @lBattleRhino hey now" personal greeting, non-financial [2081424370807775705]
-  - Jul 25 08:26Z — informational: educational market psychology chart on buy-the-dip cycles (Trend→Stop→Sideways phases), no personal trade action [2080932718326780104]
-  - Jul 25 03:07Z — ambiguous: cryptic post "see you Sunday" + media (unavailable), intent unclear (personal or market timing?), calibration alert sent [2080852429189296390]
-  - Jul 24 16:42Z — informational: BTC market sentiment, sarcastic commentary on PERP vs SPOT divergence ("sooo we're max lev longing every dip now?"). Chart shows leverage (PERP) uptrend vs spot downtrend. Market structure observation, no personal trade action [2080695243926565351]
-  - Jul 24 16:19Z — informational: BTC sentiment commentary, sarcastically blaming Grant Cardone for BTC price decline shown in chart (66.8K → 63-64K, Jul 21-24). Chart context: Grant Cardone screenshot with BTC trading view. Market observation, no personal trade action [2080689353634750957]
+  - Jul 24 07:32Z — trade-new-entry: CL Crude Oil 2% pf short at breakout region; new ticker [1530115391878070292]
+  - Jul 24 07:35Z — trade-new-entry: CL 2% pf short above $90 (Trades channel); eighth ticker in short basket [1530116103253135480]
+  - Jul 24 08:28Z — informational: CL 4h chart confirming bearish momentum exhaustion (peak 93.50→90.45) [2080570756363341955]
+  - Jul 24 09:03Z — informational: "Fc cl 1m" — CL 1-minute form-confirmed callout; technical validation of 07:35Z entry [1530138221374214214]
+  - Jul 24 09:25Z — informational: CL starter short thesis — 6 technical charts public post; peak 93.47→90.45 chart analysis [2080585218063573401]
+  - Jul 24 13:09Z — trade-partial-tp: BTC 5% + ETH 2.5% at lower 64K [1530200183093203044]
+  - Jul 24 13:10Z — informational: "Still have 50%+ net short positioning" — basket reaffirmation [1530200550329679973]
+  - Jul 24 13:37Z — informational: "Taking some short exposure off around 64K"; conviction vs greed framing [2080648668114276643]
+  - Jul 24 14:31Z — trade-partial-tp: BTC 5% + ETH 2.5% at higher 63K (second TP execution same day) [1530220779399151616]
+  - Jul 24 16:33Z — informational: CL "starter shorts are off to a promising start" [2080692761993605275]
+  - Jul 25 06:58Z — trade-partial-tp: ZEC/HYPE/SOL close half size; portfolio ~30–35% short post-TP [1530469259086532648]
+  - Jul 25 08:17Z — ambiguous: "Conviction, man 🎯🪖" reply @5morewhooppers; 80 min after 06:58Z TP [2080930425879576749]
+  - Jul 25 08:43Z — informational: "63k BTC range, 1800 ETH and oil headlines" — key technical levels Chat [1530495674783764500]
+  - Jul 25 08:45Z — informational: "Technically prepared for a breakdown of the channel" — bearish short-basket conviction [1530496165282316308]
+  - Jul 25 09:43Z — informational: weekend chop expected; "Kindergarten kid drawing W on chart" unequal legs pattern [1530510774315913349]
+  - Jul 25 13:46Z — informational: liquidation data — Binance longs liquidated, Hyperdash BTC/ETH shorts liquidated; "shorts winning" [2081013216050839716]
+  - Jul 25 13:47Z — informational: Fc btc 30m Comments channel [1530572152267341909]
+  - Jul 25 14:02Z — informational: "Crypto up, oil down. Profits on both sides 🙂" — celebratory after TP executions [1530575972884287759]
+  - Jul 25 14:04Z — ambiguous: "Expected outcome" + image Free channel [1530576396399939596]
+  - Jul 26 06:55Z — informational: Fc btc 15m wide + Fc btc 30m (Comments); reply to Jul 25 W-pattern, no position change [1530830899321765999]
+  - Jul 26 18:54Z — ambiguous: "Fc btc 15m" Free channel [1531011932797276231]
+  - Jul 26 18:56Z — informational: "We have that leg up" — confirms W-pattern first leg played out; no execution [1531012357298589767]
+  - Jul 26 19:00Z — ambiguous: "Fc btc 1hr" Chat channel [1531013265075736657]
+  - Jul 26 19:05Z — informational: CL 1h chart — downtrend from 93.47 peak to 85.89; key supports 85.83/85.00 marked; validates Jul 24 short [1531014696231112784]
 
 ## Wild_Randomness
 - Platforms: X (X-only; no Discord)
-- Current open positions:
-  - **NVDA August puts** — entered Jul 14 21:55Z, small size, plan to add on pops; hard exit if NVDA weekly closes above $215. **Awaiting Kyle approval to mirror on Kraken since Jul 14** [2077150011847016918]. Jul 17 "bag hold these re-entered August puts" — whether "re-entered" = new add or original holding is unresolved [2078209471000551879].
-  - **NVDA equity long** — doubled position at $213 at Jul 15 open [2077419864185323597], re-added at $211 Jul 15 19:20Z [2077473282195071203]. Invalidation: $215 weekly close. Layered/DCA entry strategy per "chart looks good today = chart looks bad tomorrow" playbook.
-  - **Aug 21 crypto puts — CLOSED Jul 25 15:31Z** ("closed all my Aug 21 crypto puts this AM"). Position closed ahead of BTC pattern recognition/technical setup.
-  - **SPY** — averaging in ("tapping my SPY box again", ~30,000 NQ notional context, Jul 14); selected SPY over QQQ as cheapest hedge (dispersion/correlation-pickup thesis). Plus short-term right-tail/put positions.
-  - **VIX calls, Dec 2031 expiry** — bought Jul 15 15:30Z, no size/exit stated; awaiting Kyle approval to mirror [2077415514746318933].
-  - **EWY/KOSPI long** — Korea/Hynix bottom thesis, bid zone 6800–7100; +15% bounce within 24h; would look to TP 7800–8100 [2077238411522416952].
-  - **LIT** — weekend momentum long (cup-and-handle above POC); Jul 15 bearish "evolved into hard mode" comment puts status in doubt (calibration pending) [2077536503727530420].
-  - **ETH short (status unclear)** — Jul 22: "caught a pico top short for like $120"; open-vs-closed unresolved, calibration pending [2079738276941119612].
-  - Closed/realized: July 31 puts closed +55% "in 206s" Jul 16 [2077779190234104228]; July puts from 390–392 closed Jul 17 [2078158791443673152]; NVDA July calls TP'd (sidelined pre-Jul-14); QQQ calls sold week of Jul 7; $BE sold for small loss (would rebuy a reclaim); SOXL $163s sold at a loss Jul 16, "back for a day trade".
-  - Pending plans (not yet mirrored/approved): DCA into mid-August index puts [2077779190234104228]; slow add October put expiries [2078158791443673152]; "keep slapping" Sept–Oct put cycle, willing to eat drawdown (Jul 22) [2079801011246633352].
-- Recent thesis: Macro/vol-focused options mean-reversion plus directional equity trading. Core view: record single-stock vol vs record-low index correlation (dispersion trade) is unsustainable — expects near-term "spot up, vol up," then a broader top once correlation snaps back; owns the cheapest index hedges (SPY/SPX over QQQ/NDX, where vol/skew is rich). Calls July the worst momentum month since the GFC; on NVDA runs the "chart looks good today = chart looks bad tomorrow" mean-reversion framework. Rolling monthly put cycles (July → August → Sept–Oct), arguing options are historically cheap (DVOL ~2nd percentile) so "both sides probably win" — August calls then Sept–Oct puts. Would cover index shorts 1–3% above previous ATHs. Side theses: Korea/Hynix bottom (EWY/KOSPI), gold meltup bullish, BTC SFP cycle-top caution, uranium (OKLO, now CCJ) emerging.
-- Conviction notes: Multi-timeframe technical trader with heavy options/vol/correlation vocabulary (COR1M, DVOL, dispersion, skew, POC). Chart-and-one-liner posting style; trade executions are explicit and first-person, but a large share of output is cryptic URL-minimal-caption posts and context-less replies — 15+ ambiguous posts requiring calibration across Jul 14–22 — plus ~5–10% non-financial banter (silently skipped). Disciplined exits: states hard invalidation levels ($215 NVDA weekly close) and layers entries (DCA on dips). Sells/buys puts on monthly option cycles; take-profit targets stated in advance.
+- Current open positions: **NVDA August puts** — small, entered Jul 14 21:55Z, add on pops, hard exit if NVDA weekly close >$215; "bag hold these re-entered Aug puts" Jul 17 (add vs hold status unresolved). **NVDA equity long** — doubled at $213 Jul 15 open, re-added at $211; invalidation $215 weekly close. **Aug 21 crypto puts — CLOSED Jul 25 15:31Z** ("closed all my Aug 21 crypto puts this AM"). **SPY** — averaging in (~30K NQ notional context). **VIX Dec-2031 calls** — bought Jul 15 15:30Z; awaiting Kyle mirror approval. **EWY/KOSPI long** — Korea/Hynix bottom thesis, bid 6800–7100; +15% bounce; TP 7800–8100. **HYPE spot** — partial re-add Jul 22, planned to complete by EOW Jul 26 if PA confirms. **IBIT/ETHA puts** — DCA accumulating at strike 65.2–67K (tail-risk hedge, Jul 23). Closed: July 31 puts +55% (Jul 16); July puts +profit (Jul 17); SOXL $163s at a loss (Jul 16).
+- Recent thesis: Macro/vol-focused options mean-reversion + directional equity. Core view: record single-stock vol vs record-low index correlation (dispersion trade) unsustainable; owns cheapest index hedges (SPY over QQQ). Calls July worst momentum month since GFC. Rolling monthly put cycles (July→August→Sept–Oct); DVOL ~2nd percentile so "both sides probably win." Left-tail structural call: passive flows/algos control bidding, lack of discretionary capital; asymmetric payoff owning 2–3mo vol into "Jump the Shark" moment (Jul 26). Market leadership now rotating: AAPL/DIA most resilient in Iran-war scenario; semis/momentum leading downside. Contrasts BTC cycle-bottom skepticism with Killa/t_in_crypto. Bearish AAPL (convergence with HCH Jul 23). ALAB watching for entry ~200–250 (Sep target). HOOD bearish $70 target.
+- Conviction notes: Multi-timeframe technical trader with heavy options/vol vocab (COR1M, DVOL, dispersion, skew). Large share of output is cryptic URL-minimal posts — 15+ PENDING items. States hard invalidation levels and layers entries. Standing rule: Wild_Randomness URL-only = noise unless ticker+action+level present. Confirmed standing: persistent cryptic posts flagged individually per HR-2 protocol.
 - Calibration:
   - PENDING: IBIT "39-40 if this level breaks... I'm personally TP'd" — TP'd on which position? [2077098463914049932]
-  - PENDING: NVDA "I am in the arena now at $213" — new entry at $213 or description of existing position? [2077420713372475393]
-  - PENDING: July 31 puts entry ("opened up a small batch... to feel something") — which underlying (likely SPX)? [2077495822921720051]
-  - PENDING: LIT "evolved into hard mode" — market opinion only, or reconsidering the existing long? [2077536503727530420]
-  - PENDING: ZEC "Check back in 4 weeks, shall we?" — directional call or observation? First ZEC mention [2077742220229189917]
-  - PENDING: "bag hold these re-entered August puts" — new add to NVDA Aug puts or just holding the Jul 14 position? [2078209471000551879]
-  - PENDING: GOLD "Do you see it now?" — bullish continuation of the 60% meltup view or reversal warning? (watch-list ticker) [2079735750523035939]
-  - PENDING: ETH "caught a pico top short for like $120" — open position to mirror or closed-trade reflection? [2079738276941119612]
-  - PENDING: CCJ "We have arrived…" — entry confirmation or pure setup observation? [2079752801383498120]
-  - PENDING: standing protocol for this trader's persistent cryptic/URL-minimal posts — keep flagging each individually or adopt a standing rule? [2078496857953857759]
-- Last seen: 2026-07-26 17:42:07 UTC
+  - PENDING: NVDA "I am in the arena now at $213" — new entry or position description? [2077420713372475393]
+  - PENDING: July 31 puts ("opened up a small batch... to feel something") — which underlying? [2077495822921720051]
+  - PENDING: LIT "evolved into hard mode" — market opinion or reconsidering existing long? [2077536503727530420]
+  - PENDING: ZEC "Check back in 4 weeks, shall we?" — directional call or observation? [2077742220229189917]
+  - PENDING: "bag hold these re-entered August puts" — new add to NVDA Aug puts or just holding? [2078209471000551879]
+  - PENDING: GOLD "Do you see it now?" — bullish continuation or reversal warning? [2079735750523035939]
+  - PENDING: ETH "caught a pico top short for like $120" — open to mirror or closed-trade reflection? [2079738276941119612]
+  - PENDING: CCJ "We have arrived…" — entry confirmation or setup observation? [2079752801383498120]
+  - PENDING: standing protocol for persistent cryptic/URL-minimal posts [2078496857953857759]
+  - PENDING: "round 2 call" retrospective — asset/market unclear [2080003940276376054]
+  - PENDING: "pretty much [link]" reply @Parida [2080008225232126054]
+  - PENDING: "Check Gavin Baker tweets" to @Evan_ss6 [2079991008100769844]
+  - PENDING: HYPE "It's bad for hype, better for Lighter" [2079989349186199608]
+  - PENDING: "Was that it?" reply @50ptMAE on DRAM [2081036093416476899]
+  - PENDING: ALAB "Faded?" to @Evan_ss6 et al. [2081016102314725446]
+  - PENDING: image-only post (t.co + CDN) no caption [2081020096760422770]
+  - PENDING: "Said differently (a little more measured)" — context/referent unknown [2081020890989687106]
+  - PENDING: "They must pay" @PlutonicXBT @stoicsavage [20810687902265430726]
+  - PENDING: "Good decision lmao" + BE chart — whose decision? [2080719626774905326]
+  - PENDING: "Would Leopold lie?" + BE chart — who/what is Leopold? [20807193311604739381]
+  - PENDING: "What if with this local OI pop?" BTC heatmap [2080418358848012293]
+  - PENDING: "84-77-53?…\n\nI like 70" — 70% drawdown, price, or level? [2080419244261462138]
+  - PENDING: "Ok tempting fate" INTC 1m chart [2080403162754904368]
+  - PENDING: "@Evan_ss6 what if?" — no financial context [2080655503873769964]
+  - PENDING: "The War of Worry" meme chart — market sentiment or personal trade setup? [2081450019601690909]
+- Last seen: 2026-07-26 20:28:37 UTC
 - **Events (rolling):**
-  - Jul 26 17:42Z — informational: ANSEM crypto technical analysis — "Ansem Express" humorous post with daily chart showing 0.2014 price (+10.11%), resistance levels (~0.35K, ~0.30K, ~0.20K), RSI ~50-60, volume analysis. Reiteration of prior Jul 15 bearish technical setup; chart-based market observation on support/resistance structure, no personal trade action [2081434907427864769]
-  - Jul 25 15:31Z — position-mgmt: BTC "closed all my Aug 21 crypto puts this AM"; technical pattern analysis sharing symmetric BTC daily chart (80K→57.5K downtrend mirrored by current reversal structure, multiple support levels 67.5K/65K/60K/57.5K marked); X post: "The symmetry… starting to see it?" with 3 chart images [2081039584583168342]
-  - Jul 25 13:50Z — informational: market psychology commentary on trader Gavin Baker's "risk/reward attractive" calls; analyzes how retail misconstrued bullish long-term signal as short-term trading call, leading to liquidations; QQQ down −4% in 6 days since call; images: Discord debate on Baker's tweet format repeat, Baker's Jul 16/Mar 30 "risk/reward" tweets, QQQ technical chart. Trader analysis of credible-name influence on retail behavior drawdowns [2081014270012113241]
-  - Jul 25 13:20Z — informational: shared market structure flow analysis (Kospi → US Momentum → US Indices) with "hmm" caption; reiteration of risk-off cascade from Asia equities through momentum to broad US indices; validates Korea/Hynix thesis exposure via EWY/KOSPI long position, aligns with macro risk-on/off barometer tracking; informational observation, no personal trade action [2081006591516848452]
-  - Jul 22 22:28Z — informational: BTC cycle-bottom skepticism, too many bottom calls this cycle vs historical precedent [2080057517866909723]
-  - Jul 22 18:52Z — ambiguous: external reference "where I called out previous two rounds" link-share, awaiting calibration [2080003185607864629]
-- Last seen: 2026-07-25 14:16:58 UTC
-- **Events (rolling):**
-  - Jul 25 14:16Z — ambiguous: "Said differently (a little more measured)" cryptic minimal text, unclear context/referent, appears to be response/reiteration of something; unable to classify without context, calibration alert sent [2081020890989687106]
-  - Jul 25 14:09Z — informational: market psychology/retail-trader-damage analysis on Gavin Baker "risk/reward attractive" calls (repeated Jul 16 + Mar 30 similar framing); shows how credible trader signals mislead retail into forced liquidations; QQQ -4% since call; images: Discord group chat analysis, Baker's repeated tweet format, QQQ daily chart breakdown. Follow-up to 13:50Z Gavin Baker commentary with supporting price action evidence [2081018916508188707]
-- Last seen: 2026-07-25 15:14:41 UTC
-- **Events (rolling):**
-  - Jul 25 15:14Z — informational: reply to @chumbawamba22 on Gavin Baker "cheap stocks/durable competitive advantages" bullish call; critiques -4% drawdown in 6 days post-call; analyzes retail/leveraged trader losses on "value buy" attempts; culture commentary on 2026 market-participant composition on X [2081035416598401097]
-- Last seen: 2026-07-25 17:27:18 UTC
-- **Events (rolling):**
-  - Jul 25 17:27Z — ambiguous: @PlutonicXBT @stoicsavage "They must pay" cryptic trader mention, no market context visible [20810687902265430726]
-  - Jul 25 15:56Z — informational: reply to @chumbawamba22 challenging trader to predict nasdaq movement over final 34 minutes of trading day (±20 cents); shared 3 TradingView chart images (QQQ 5m timeframe, volume, RSI); message "Missed the close by 20 cents" indicates prediction accuracy within stated range. Market commentary/technical analysis banter, no personal trade execution. Trader demonstrating technical analysis capability via intraday QQQ call [2081045958394081624]
-  - Jul 25 15:50Z — informational: reply to @chumbawamba22 on trading styles comparison; discusses risk management philosophy: cuts off left-tail drawdown potential (disciplined approach) but this costs getting stopped out of massive multibaggers, regrets past chart sales; acknowledges in secular bull market, the other person's conviction holding strategy is "clearly better"; market-regime bullish comment (secular bull) implies conviction strategies favor hodlers over risk managers in current cycle [2081044541646508079]
-  - Jul 25 15:17Z — ambiguous: reply to @50ptMAE on DRAM (Roundhill Memory ETF) bounce; text "Was that it?" cryptic (asking if bounce exhausted? if sector-selloff bottom?); images: DRAM chart (-8.75%), Gavin Baker "cheap stocks" post, SuspendedCap market-positioning philosophy, Discord momentum-trade discussion; intent unclear, calibration alert sent [2081036093416476899]
-  - Jul 25 14:13Z — ambiguous: image-only post (t.co link + 2 CDN media URLs) with no caption or financial context; minimal text = pure chart imagery, visual-only signal; unable to fetch media due to sandbox restrictions; matches Wild_Randomness' documented cryptic posting pattern (15+ ambiguous URL-minimal posts); potential follow-up to earlier ALAB "Faded?" signal from 13:57Z or macro technical analysis; calibration alert sent (HR-2 protocol for image-only posts) [2081020096760422770]
-  - Jul 25 13:57Z — ambiguous: ALAB "Faded?" cryptic question to @Evan_ss6/@chumbawamba22/@GavinSBaker on sharp daily decline from 400→291.58 (-10.82%); asking other traders if bounce has ended; calibration alert sent [2081016102314725446]
-  - Jul 25 13:31Z — informational: whale accumulation signal — ProShares UltraPro Short QQQ (SQQQ) 1D chart showing institutional buyers accumulating at key support levels (45.110 & 35.800 zones); chart-based technical analysis on bearish QQQ setup; macro thesis reinforces dispersion-trade / near-term tech weakness view [2081009528934711550]
-  - Jul 25 21:56Z — skip: PUMP/TetherUS pump-and-dump chart + skeptical meme; educational warning about market manipulation, no personal trade action [2081136479779086847]
-  - Jul 25 23:36Z — informational: ALAB market commentary; chart analysis of $500→$290 decline (currently $354); discussion of market difficulty ("solid names marked down, daily violent bounces"), suggests DCA strategy into red candles rather than chasing green; traders @patsmit, @Evan_ss6, @chumbawamba22, @GavinSBaker mentioned; no personal execution language (opinion-based, not "I'm buying"). Chart shows ALAB 1D technical setup with support zones ~200-250 level. Aligns with documented strategy: long-term ALAB bidding thesis (200DMA/prior-ATH retest ~September per Jul 22 note); this post reinforces multi-week patience view, not immediate entry [2081161782157340801]
-  - Jul 25 18:35Z — informational: sarcastic political/macro commentary — "@kevinwarsh raise the rates" paired with SHIBUSD 1-hour chart showing parabolic pump (0.0000409→0.0000512 spike, then pullback to 0.0000498) + political figure headshot; satirizes loose monetary policy driving shitcoin speculation; chart-only post without execution language; informational observation [2081085978605957300]
-  - Jul 25 13:20Z — informational: bearish market-cycle commentary on valuation patterns paired with SPCX daily chart (-4.72%); "will rip, fade weeks, then -30% down MSM calls overvalued, then consensus long"; macro view on cycle psychology, no personal trade action [2081006751261061463]
-  - Jul 24 18:42Z — ambiguous: reply @Evan_ss6 "Faded?" — cryptic one-word question, no context or ticker, unclear if asking about position entry/exit or pure banter; awaiting calibration [2080725249558298805]
-  - Jul 24 18:18Z — ambiguous: "Would Leopold lie?" + BE (Bloom Energy) chart showing massive rally peak 351.28 → crash to 190.73; cryptic referent unclear (who/what is Leopold? failed analyst call on rally?); awaiting calibration [20807193311604739381]
-  - Jul 24 18:08Z — mirror-full-tp: crypto puts (Aug 21 expiry) fully closed "this morning" per X post + chat confirmation; chart analysis (BTC 1D support/resistance, OI decline, heatmap) provided context for position exit. Trade-alert Step 5b classification (full position closure, no approval required). P&L unspecified. [2080716681547337795]
-  - Jul 22 22:58Z — ambiguous: reply to @based16z trading update; refs "TP'd short term stuff Friday, rebought Aug 21 into red arrow today"; chart-visual refs without media, ticker/action unclear, awaiting calibration [2080065077374579134]
-  - Jul 22 22:50Z — informational: BTC cycle-bottom skepticism, repeated bottom calls vs historical; 4-year cycle positioning caution + FOMO-bubble risk [2080062886869926265]
-  - Jul 22 22:28Z — informational: BTC cycle-bottom skepticism, too many bottom calls this cycle vs historical precedent [2080057517866909723]
-  - Jul 22 20:46Z — informational: NVDA conviction/invalidation level stated ("not hanging around if we lose this"); technical parallel to prior HYPE failure at 66 [2080031777419415678]
-  - Jul 22 19:13Z — ambiguous: reply @Parida "pretty much [link]" — context unresolved, awaiting calibration [2080008225232126054]
-  - Jul 22 18:55Z — ambiguous: "round 2 call" retrospective, asset/market unclear, URL context missing, awaiting calibration [2080003940276376054]
-  - Jul 22 18:26Z — informational: macro commentary — rate of change > actual rate level, equities concern, "subdued… idk how short you want to be" [2079996463447216200]
-  - Jul 22 18:14Z — informational: SPX TNX yields sentiment call "local top near", historical 2023 Treasury Tantrum reference [2079993531322749204]
-  - Jul 22 18:04Z — ambiguous: external reference "Check Gavin Baker tweets" to @Evan_ss6, awaiting calibration [2079991008100769844]
-  - Jul 22 17:57Z — ambiguous: HYPE "It's bad for hype, better for Lighter" reply to @GalleonCrypto, awaiting calibration [2079989349186199608]
-  - Jul 22 18:01Z — informational: HYPE SPX special relationship market commentary, reply to @lBattleRhino [2079990110364528808]
-  - Jul 22 17:50Z — informational: HYPE ETH Clarity Act regulatory catalyst reversal setup under $60 [2079987347832103168]
-  - Jul 22 17:29Z — informational: LIT — opinion on 2H summer outperformance (clarity act, cap, trend) [2079982168562896997]
-  - Jul 14 15:25Z — conviction-add: SPY "tapping my SPY box again", ~30k NQ notional context [2077051901804417406]
-  - Jul 14 18:30Z — ambiguous: IBIT expects 39-40 if level breaks; "personally TP'd" on unclear position [2077098463914049932]
-  - Jul 14 21:55Z — new-entry: NVDA Aug puts, small, add on pops, exit if weekly close >215; pending Kyle approval [2077150011847016918]
-  - Jul 15 03:46Z — tp-target: EWY/KOSPI +15% bounce in 24h, would TP 7800-8100 [2077238411522416952]
-  - Jul 15 15:30Z — new-entry: VIX Dec-2031 calls bought; pending Kyle mirror approval [2077415514746318933]
-  - Jul 15 15:47Z — conviction-add: NVDA doubled at $213 open; invalidation $215 weekly close [2077419864185323597]
-  - Jul 15 15:51Z — ambiguous: NVDA "in the arena now at $213" — new entry vs position description [2077420713372475393]
-  - Jul 15 15:59Z — exit-disclosure: QQQ calls sold last week; now only watching POC interplay [2077422886348787884]
-  - Jul 15 19:20Z — conviction-add: NVDA re-added at $211, hoping for red close [2077473282195071203]
-  - Jul 15 20:49Z — ambiguous-entry: opened small July 31 puts, underlying unstated (likely SPX) [2077495822921720051]
-  - Jul 15 23:31Z — ambiguous: LIT bearish "hard mode" comment vs documented long — reconsidering? [2077536503727530420]
-  - Jul 15 23:37Z — market-call: ANSEM fractal target -0.13 by end of August; $CRS paired mention [2077538088256155986]
-  - Jul 16 13:08Z — ambiguous: ZEC "check back in 4 weeks" — first ZEC mention, direction unclear [2077742220229189917]
-  - Jul 16 15:35Z — close+plan: closed July 31 puts +55% in 206s; plans mid-Aug puts DCA, pending Kyle [2077779190234104228]
-  - Jul 16 16:25Z — market-call: QQQ "long in the tooth"; expects trend to end into opex/vixpiry [2077791713868075371]
-  - Jul 16 21:37Z — position-change: SOXL sold $163s at a loss; back for a day trade, wants momentum up [2077872854234996748]
-  - Jul 17 16:44Z — close+plan: out of July puts from 390-392; will slow add October expiries [2078158791443673152]
-  - Jul 17 20:05Z — ambiguous: will "bag hold these re-entered August puts" — add vs holding status (NVDA?) [2078209471000551879]
-  - Jul 18 15:19Z — market-call: would cover index shorts 1-3% above previous ATHs on all indices [2078499833854214191]
-  - Jul 20 15:10Z — market-call: Gold 60% meltup bullish; BTC "nastiest SFP" cycle-top caution [2079222492925968481]
-  - Jul 21 02:55Z — market-call: options too cheap, DVOL ~2nd percentile; Aug calls then Sept-Oct puts both win [2079399889503715601]
-  - Jul 22 01:10Z — ambiguous: GOLD "Do you see it now?" chart post on watch-list ticker [2079735750523035939]
-  - Jul 22 01:20Z — ambiguous: ETH "caught a pico top short for like $120"; sees room over 2K on weekly [2079738276941119612]
-  - Jul 22 02:18Z — ambiguous: CCJ "We have arrived…" monthly bear div played out, RSI reset — entry vs observation [2079752801383498120]
-  - Jul 22 05:29Z — strategy: will "keep slapping" Sept-Oct puts, willing to eat drawdown [2079801011246633352]
-  - Jul 22 19:10Z — conviction-add: HYPE spot re-add (partial, completing by EOW if price action confirms); Sept/Oct iBIT/etha puts scaling [2080007518856569141]
-  - Jul 23 03:49Z — informational: BTC cycle-bottom skepticism; analyzes draw-down patterns (84%/77%/53%) across cycles; cautions on insufficient capitulation vs historical precedent [2080138099313741825]
-  - Jul 23 15:56Z — informational: Correlation index fading (CBOE 1-month implied correlation 56→3.95); chart pattern observation on potential bottoming [2080321081345470912]
-  - Jul 23 13:10Z — informational: HYPE positive price action signal, +0.52% while majors down; "Hey it's a start" bullish sentiment [2080279448268755089]
-  - Jul 23 15:12Z — informational: equities bearish analysis — semis/AI trend broken, yields ripping, war escalating, ROIC uncertainty, dispersion exhaustion [2080310155884015959]
-- Last seen: 2026-07-26 18:58:40 UTC
-- **Events (rolling):**
-  - Jul 26 18:58Z — informational: market leadership rotation AAPL/DIA — semis/momentum were Q1-resilient, now leading downside; in Q3 Iran-War scenario most resilient = Apple + Dow Jones; macro regime observation reinforces cross-trader bearish AAPL convergence (HCH Jul 23 + WR Jul 25) with tactical DIA hedge consideration [2081454168699527407]
-  - Jul 26 18:51Z — informational: volatility — market mechanics analysis: passive flows/algos control bidding, lack of discretionary capital, base case = continued chop; **left-tail structural call = loss of vol control, asymmetric payoff for owning 2-3mo vol** into "Jump the Shark" moment; SP500/XYZ100 1h consolidation charts [20814524772377399711]
-  - Jul 26 18:42Z — ambiguous: meme chart "The War of Worry" (geopolitical cycle: war -5% → ceasefire +0.5%); market sentiment or personal bearish trade setup? calibration alert sent [2081450019601690909]
-  - Jul 26 20:28Z — informational: S&P 500 short squeeze thesis share; screenshot thread of external bullish-equities commentary (Endless Capital "everything going to explode higher", First Squawk short-interest 15-year high, Rick J S&P 8000 meltup target, Thomas James "generational short squeeze"); shared to @leveraged_cat as query "wagmi?" (we're all gonna make it?); external commentary thread, no personal trade action. Aligns with Crypto_Chase SPX new-ATH conviction but contrasts broader bearish equities caution on yield pressure/momentum breakdown [2081476866557305132]
-  - Jul 26 17:43Z — informational: ANSEM technical pattern observation — "4th loop on the euthanasia rollercoaster" metaphor for repetitive price bounces within consolidation zone; chart shows ANSEM/USDT 1D with multiple bounce levels (0.3500, 0.2900, 0.2000, 0.1900 zones marked), volume profile, momentum indicators; labels "4th loop incoming" (timestamp 13:25 on chart = internal post reference); reply from @chumba "Fading?" suggests other traders following pattern. Follow-up to prior Jul 15 ANSEM fractal bearish call (-0.13 target by EOMonth); this post reinforces technical patience/cycle observation, no personal execution language [2081435288035807390]
-- **Events (rolling):**
-  - Jul 26 15:41Z — informational: BTC technical progression update with 2 chart images; "$BTC Progressing" + media; follows documented cryptic chart-minimal pattern; appears to be updating market analysis on BTC structure/levels; no personal trade execution language detected; matches baseline URL-minimal-caption taxonomy (Standing protocol: HR-2 calibration alert for image-only posts) [20814045864688149110]
-  - Jul 24 22:08Z — informational: ZEC bearish market sentiment — critical opinion on ZEC holders after Chamath buyer revelation ("deeply unserious crypto trader if you hold ZEC"); market commentary, no personal trade action [2080777025460269149]
-  - Jul 24 18:19Z — ambiguous: "Good decision lmao" terse one-word reply to unknown context; media: Bloom Energy (BE) daily chart readable ($232.77, -4.84%) but doesn't clarify whose decision or what action; awaiting calibration [2080719626774905326]
-  - Jul 24 18:09Z — ambiguous: URL-only post, no caption; media image CDN URL expired/inaccessible; awaiting calibration [2080717066395676842]
-  - Jul 24 17:58Z — informational: NVDA/INTC technical speculation on earnings scenarios (Feb 2025 vs Nov 2025 earnings candles); daily breakdown charts on INTC (96.32→low, post ~110.76); NVDA charts asking "what if" scenarios (208.76 current, 209.29 post). Charts show technical structure, no personal trade execution; market analysis/speculation [2080714331818475614]
-  - Jul 25 04:12Z — informational: HOOD bearish price target $70 by September; reply affirming earnings quality not S-tier; media chart shows daily structure 63.5K→96.6K→110K+; market opinion on retail broker sector weakness + IBKR competition; single-trader quiet ticker (second mention, first was Jul 18) [2080868864477511836]
-- **Events (rolling):**
-  - Jul 23 16:09Z — informational: paid-group validation — reference to external trading group's Jul 13 call on Kospi→US Momentum→US Indices correlation sequence, 'working its way down the risk curve'; aligns with documented KOSPI bottom thesis [2080324327606808583]
-  - Jul 23 15:59Z — ambiguous: reply @AkbuarColina "Disappointing asset, should have never returned to it after February" — asset/position unclear, awaiting calibration [2080321904540582296]
-  - Jul 23 15:39Z — dca-plan: IBIT/ETHA puts, accumulating over past few days at strike levels 65.2-67K (tail-risk hedge, equities-brokerage-only, non-Kraken-mirrored); follows Jul 22 ETHA DCA plan alert; DCA plan alert sent [2080316770976452752]
-  - Jul 23 15:14Z — informational: SPY multi-timeframe technical structure; 1D chart shows resistance box ~755-765 with current consolidation near 750 support; 1H chart confirms intraday battle at 750 pivot [2080310653286515182]
-- Last seen: 2026-07-23 16:14:33 UTC
-- **Events (rolling):**
-  - Jul 23 16:14Z — informational: SPX/NDX 1M chart pattern comparison; July SPX candle spike/rejection mirrors Nov NDX structure; technical observation on index correlation/structure alignment [2080325707654373854]
-- Last seen: 2026-07-23 16:49:38 UTC
-- **Events (rolling):**
-  - Jul 23 16:49Z — informational: HYPE pair trade setup — short BTC/ETH via puts (tail-risk hedge), long HYPE spot; watching for bullish divergence on daily chart; willing to add if week develops; divergence failure signals structural market shift [2080334535099888042]
-- Last seen: 2026-07-23 18:41:30 UTC
-- **Events (rolling):**
-  - Jul 23 18:41Z — ambiguous: reply to @pumpyanddumpy "But is it 0? They got filled" — cryptic minimal context (filled order on what asset? referent "it" unclear), calibration alert sent [2080362687306051909]
-  - Jul 23 17:45Z — skip: QQQ technical charts (4x 15m snapshots Fri/Mon/Wed) + Mandelbrot intraday analysis; "Beware" URL-only post with no execution language; consistent with macro bearish stance (semis/AI broken, yields ripping) but matches baseline noise rule (Wild_Randomness URL-only = noise unless ticker+action+level present); silent skip [2080348470742044959]
-- Last seen: 2026-07-23 19:34:54 UTC
-- **Events (rolling):**
-  - Jul 23 19:34Z — ambiguous: reply to @WBigbucks "39 if we get some actual FUD that delivers for once" — cryptic reference, "39" unclear (price level? percentage?), FUD context vague, calibration alert sent [2080376123620561310]
-- Last seen: 2026-07-23 19:36:01 UTC
-- **Events (rolling):**
-  - Jul 23 19:36Z — informational: Memory ETF (CBOE) technical breakdown — peaked 81.34, currently 57.95, broken below MA support, testing toward 48.63 low; sector weakness observation on Kyle's open MU/SNDK positions (40%+ remain); chart reply to @0xSolarcurve [2080376406790598890]
-  - Jul 23 19:23Z — skip: BTC "Third Drive?" + charts; no action/conviction; matches noise rule [2080373129613091306]
-  - Jul 23 18:39Z — ambiguous: poll-result sentiment reference "So a third of you would rather lose 50% than make 0%? [meme image]"; cryptic rhetorical question on risk preference behavior; no explicit market signal or personal trade action; awaiting calibration [2080362068415598794]
-  - Jul 23 19:20Z — informational: SPX/SPY fractal hypothesis — July 2024 pattern repeating in July 2026; questions @Parida on "vixpiry fractal" + FOMC bounce scenario (bullish technical pattern observation); charts show identical 3-move sequence in both periods [2080372409245569301]
-- Last seen: 2026-07-23 22:22:43 UTC
-- **Events (rolling):**
-  - Jul 23 22:22Z — ambiguous: BTC heatmap liquidity analysis, "What if with this local OI pop? Can we attack these lower liqs yet?" — asking if conditions support upside through lower-liq zones or reversal trap; CoinGlass heatmap shows 59.9K base to current 65K with bands at 61.7K/63.7-65.6K/67.5-69.5K; skeptical funding ("could just be spot selling"); awaiting calibration [2080418358848012293]
-  - Jul 23 21:22Z — ambiguous: INTC "Ok tempting fate" + 1m chart showing support breakdown; directional intent unclear (bullish reversal vs bearish weakness?) — awaiting calibration [2080403162754904368]
-  - Jul 23 21:19Z — informational: INTC technical observation, 1m chart shows intraday rally faded (~99→113.7→104.91); questioning momentum reversal; no personal execution [2080402533701636132]
-- Last seen: 2026-07-23 22:26:14 UTC
-- **Events (rolling):**
-  - Jul 23 22:26Z — ambiguous: BTC "84-77-53?…\n\nI like 70" — references drawdown-pattern analysis from Jul 23 03:49Z (84%/77%/53% cycles); "I like 70" unclear (70% drawdown? price target? level reference?) — calibration alert sent [2080419244261462138]
-  - Jul 24 14:05Z — ambiguous: reply @Evan_ss6 "@Evan_ss6 what if?" — no financial context, minimal cryptic text, awaiting calibration [2080655503873769964]
-  - Jul 24 18:46Z — informational: QQQ intraday vol pattern, London close window bounce; Mandelbrot timing + 15m support observation (Fri/Mon/Wed snapshots) [2080726223936999803]
+  - Jul 24 18:42Z — ambiguous: "@Evan_ss6 Faded?" — cryptic one-word question, no ticker [2080725249558298805]
+  - Jul 24 22:08Z — informational: ZEC bearish commentary — "deeply unserious crypto trader if you hold ZEC" (Chamath buyer) [2080777025460269149]
+  - Jul 25 13:20Z — informational: SPCX bearish cycle psychology — "rip, fade weeks, then -30% down MSM calls overvalued" [2081006751261061463]
+  - Jul 25 13:20Z — informational: KOSPI→US Momentum→US Indices flow analysis; validates EWY/KOSPI long thesis [2081006591516848452]
+  - Jul 25 13:31Z — informational: SQQQ institutional accumulation at key support zones; macro bearish QQQ thesis [2081009528934711550]
+  - Jul 25 13:50Z — informational: Gavin Baker "risk/reward attractive" analysis — retail damage from credible-name signal misconstrual; QQQ -4% in 6 days [2081014270012113241]
+  - Jul 25 13:57Z — ambiguous: ALAB "Faded?" to @Evan_ss6 et al. after -10.82% daily decline [2081016102314725446]
+  - Jul 25 14:09Z — informational: Gavin Baker damage analysis follow-up; forced liquidations on "value buy" attempts [2081018916508188707]
+  - Jul 25 14:13Z — ambiguous: image-only post, no caption, media CDN inaccessible [2081020096760422770]
+  - Jul 25 14:16Z — ambiguous: "Said differently (a little more measured)" — unclear context [2081020890989687106]
+  - Jul 25 15:14Z — informational: reply @chumbawamba22 — critiques Gavin Baker -4% drawdown; retail losses on "value buy" [2081035416598401097]
+  - Jul 25 15:31Z — position-mgmt: "closed all my Aug 21 crypto puts this AM"; BTC symmetry chart (80K→57.5K mirrored) [2081039584583168342]
+  - Jul 25 15:50Z — informational: trading styles — "secular bull market" makes conviction holding "clearly better" than risk management [2081044541646508079]
+  - Jul 25 15:56Z — informational: intraday QQQ call banter — predicted close to within 20 cents [2081045958394081624]
+  - Jul 25 17:27Z — ambiguous: "They must pay" @PlutonicXBT @stoicsavage [20810687902265430726]
+  - Jul 25 18:35Z — informational: sarcastic macro "raise the rates" + SHIBUSD parabolic pump chart [2081085978605957300]
+  - Jul 25 23:36Z — informational: ALAB commentary — $500→$290→$354 bounce; DCA into red candles thesis; 200DMA/prior-ATH ~Sep long-term target [2081161782157340801]
+  - Jul 26 17:42Z — informational: ANSEM daily chart observation (0.2014, +10.11%); resistance levels [2081434907427864769]
+  - Jul 26 17:43Z — informational: ANSEM "4th loop on euthanasia rollercoaster" — repetitive bounce pattern; follow-up to Jul 15 fractal call [2081435288035807390]
+  - Jul 26 18:42Z — ambiguous: "The War of Worry" meme chart (geopolitical cycle); market sentiment or trade setup? [2081450019601690909]
+  - Jul 26 18:51Z — informational: volatility mechanics — passive flows/algos control bids; **left-tail structural call: asymmetric payoff owning 2–3mo vol into "Jump the Shark" moment** [20814524772377399711]
+  - Jul 26 18:58Z — informational: market leadership rotation — AAPL/DIA most resilient in Iran-war scenario; semis/momentum leading downside [2081454168699527407]
+  - Jul 26 20:28Z — informational: S&P 500 short squeeze thread share ("everything going to explode higher", first squawk short-interest 15-yr high); queried @leveraged_cat "wagmi?"; external commentary, no personal action [2081476866557305132]
 
 ## t_in_crypto
 - Platforms: X
-- Current open positions: BTC — 100%+ LONG from 58.4K; conviction add x2 volume at 62K on Jul 14 16:15Z pivot-time ("The market favors the patient"). Exit plan stated Jul 17: "I bought 58k and will sell at X price — everything in between doesn't bother me"; no stop documented. Referenced (Jul 20 15:27Z context) a waiting setup condition: scalp-short on 65.6K breakout — unconfirmed as an actual order. Position unchanged through Jul 22.
-- Recent thesis: Astro/moon-cycle structural bull on BTC, diamond-handing through protracted consolidation; expects a reversal "but not just yet" and preaches patience ("don't short strength and consolidation"). Rules out 46K near term — sees MM defending 48K or at worst 44K, with 67–71K as the upside "good zone." Doesn't trade intra-range dips/rips; waits for pivot dates ("sometimes a date isn't enough — there's also structure"). Long-term: cycle-peak decline coefficients (declining since 2014) imply divergence from 1:1 fractal repeats; shared cycle-bottom target and 2028–2029 peak forecast.
-- Conviction notes: Lunar/pivot-date framing (3D candles, moon phases, UTC+7 pivot times with ±4h variance). High-conviction, action-oriented diamond-hand long who adds at pivot-time tests. Since Jul 17 has posted an escalating stream of extremely cryptic one-liners, bare numbers, and caption-less URL shares to non-watched traders (7+ consecutive ambiguous posts, none self-clarified) — heavy calibration load. Roughly 5–10% of posts are non-financial banter/personal replies; also uses sarcasm/irony (once posted "Please shorted bitcoin" ironically while max-long).
-- Calibration: none yet (no answered Kyle calibrations found). Pending:
-  - **NEW (Jul 23 06:09Z)**: "@guru2602 Nope / We are following 2018 but direct application of fractal is incorrect" — is this supporting fractal-does-not-repeat thesis, or is @guru2602 making a fractal call he disagrees with? [2080173405370806314]
-  - PENDING: "@Stefan_B_Trades when?" — referent unknown [2077090432194900464]
-  - PENDING: follow-up defending the "when?" question, context still missing [2077104562645713338]
+- Current open positions: BTC — 100%+ LONG from 58.4K; conviction add x2 volume at 62K on Jul 14 16:15Z pivot-time ("The market favors the patient"). Exit plan stated Jul 17: "I bought 58K and will sell at X price — everything in between doesn't bother me." No stop documented. Position unchanged through Jul 23.
+- Recent thesis: Astro/moon-cycle structural bull on BTC, diamond-handing through protracted consolidation; expects reversal "but not just yet," preaches patience. Rules out 46K near term — MM defends 48K or drops to 44K; 67–71K the upside "good zone." Jul 23: "July 24th is the line in the sand." Jul 14–24 window active per pivot calendar. BTC won't return to 62K per Jul 23 statement. Challenges KillaXBT's 54% decline bottom-call as "incompatible with bull market bottom." Following 2018 analog but "direct application of fractal is incorrect" (Jul 23).
+- Conviction notes: Lunar/pivot-date framing (3D candles, moon phases, UTC+7 ±4h variance). High-conviction diamond-hand long who adds at pivot-time tests. Escalating stream of cryptic one-liners, bare numbers, caption-less URL shares (7+ consecutive, Jul 17–23) — heavy calibration load. ~5–10% non-financial banter. Uses sarcasm/irony (once posted "Please shorted bitcoin" ironically while max-long) — calibrate irony default ON.
+- Calibration: None answered (no Kyle calibrations found). Pending:
+  - PENDING: "@guru2602 Nope / We are following 2018 but direct application of fractal is incorrect" — supporting fractal-does-not-repeat or disagreeing with @guru2602? [2080173405370806314]
+  - PENDING: "@Stefan_B_Trades when?" [2077090432194900464]
   - PENDING: caption-less URL to @SidequestTurtle [2077139887849927104]
-  - PENDING: "At this moment yes" — thesis affirmation? [2077255609708147014]
+  - PENDING: "At this moment yes" [2077255609708147014]
   - PENDING: "Time first" [2077356897007468693]
-  - PENDING: "Only 15k? 😅" — price vs size unknown [2077357957696598271]
+  - PENDING: "Only 15k? 😅" — price vs size? [2077357957696598271]
   - PENDING: "Stop…WHAT?" to @vero_pg_ [2077418558850523229]
   - PENDING: caption-less URL to @zohaan1324/@tiger_khan9 [2077793421322830265]
   - PENDING: caption-less URL to @trader_koala [2077843121501528307]
-  - PENDING: "Follow me or play against me" $btc + link — banter vs signal [2078143166834684246]
+  - PENDING: "Follow me or play against me" $btc [2078143166834684246]
   - PENDING: "it's still early" in BTC-levels thread [2078157359000535427]
   - PENDING: garbled "I haven't weekend pivots on technical chart" [2078179310783856871]
   - PENDING: caption-less URL to @LP_NXT [2078180778148520038]
-  - PENDING: "values and dates are in plain sight" hint to @Trives_ [2078189721327436194]
-  - PENDING: bare "48" reply — price level vs other [2078621632755634438]
-  - PENDING: "Look at this and shut up" + URL at @DrProfitCrypto [2078942733079589263]
-  - PENDING: "Still 0:0 🥲" — chop commentary vs banter [2078948439665127440]
-  - PENDING: "because he bought it and wants to make money quickly" re @KryptoFynn/@KillaXBT [2078976280125391282]
+  - PENDING: "values and dates are in plain sight" to @Trives_ [2078189721327436194]
+  - PENDING: bare "48" reply [2078621632755634438]
+  - PENDING: "Look at this and shut up" + URL [2078942733079589263]
+  - PENDING: "Still 0:0 🥲" [2078948439665127440]
+  - PENDING: "because he bought it and wants to make money quickly" re @KillaXBT [2078976280125391282]
   - PENDING: caption-less URL to @TrollFootball [2078998023460266411]
   - PENDING: "2026 or never ever" — bull-cycle timeframe? [2079225760162742415]
-  - PENDING: "@LP_NXT Soon" — unknown entity, possible non-BTC signal [2079235632954511765]
-  - PENDING: "Here we gooo" $btc + URL — new add vs sentiment [2079250089403396569]
+  - PENDING: "@LP_NXT Soon" [2079235632954511765]
+  - PENDING: "Here we gooo" $btc + URL [2079250089403396569]
   - PENDING: "All my feed in this" to @VegetaCrypto1 [2079251195978211532]
-  - PENDING: "❗️❗️❗️ $btc" emoji-only — warning vs bull alert [2079270409262817389]
-  - PENDING: "And from 2024 too" — referent unknown [2079281156512530781]
-  - PENDING: "7.7-7.8" to @VegetaCrypto1 — asset unknown (not BTC-scale) [2079242005075443992]
-  - PENDING: "Yep, we have same view" to @mrkh009/@KryptoFynn — topic unknown [2079710538146160922]
-  - PENDING: caption-less URL reply to @VegetaCrypto1 + meta-question: treat cryptic-post pattern as coded signals or banter? [2079728836703355093]
-- Last seen: 2026-07-23 01:10:15 UTC
+  - PENDING: "❗️❗️❗️ $btc" emoji-only [2079270409262817389]
+  - PENDING: "And from 2024 too" [2079281156512530781]
+  - PENDING: "Yep, we have same view" to @mrkh009/@KryptoFynn [2079710538146160922]
+  - PENDING: caption-less URL to @VegetaCrypto1 (7th+ consecutive cryptic post) [2079728836703355093]
+- Last seen: 2026-07-23 08:51:15 UTC
 - **Events (rolling):**
-  - Jul 23 02:38Z — ambiguous: caption-less URL mention to @Morecryptoonl; 8th+ consecutive cryptic URL post, pattern question remains active [2080120286683300271]
-  - Jul 23 01:11Z — informational: BTC bullish sentiment, discusses confidence Bitcoin won't return to 62k [2080098501027885180]
-  - Jul 22 23:14Z — ambiguous (calibration): BTC structure reply to @zohaan1324/@boneless_bones7 "returning to 64 from current moment changes movement picture" [2080069061321318750]
-- Last seen: 2026-07-23 06:09:22 UTC
-- **Events (rolling):**
-  - Jul 23 06:09Z — ambiguous (calibration): BTC reply to @guru2602 "Nope / We are following 2018 but direct application of fractal is incorrect" — fractal-vs-structure stance unclear, calibration alert sent [2080173405370806314]
-  - Jul 23 05:35Z — ambiguous (calibration): BTC "@Stefan_B_Trades we still in window for make new local top. Careful with shorts till 25" — "till 25" unclear (July 25 pivot date or price level?), awaiting Kyle interpretation [2080164886894588268]
-  - Jul 23 05:34Z — ambiguous: "@Morecryptoonl 2018" terse mention, matches persistent cryptic-post pattern, awaiting calibration [2080164608933875716]
-  - Jul 23 03:12Z — ambiguous: "@synesius101 💯" emoji affirmation in BTC-levels thread; context missing, awaiting calibration [2080128939066798319]
-  - Jul 22 23:39Z — informational: BTC challenges KillaXBT bottom-call thesis; argues 54% decline incompatible with bull market bottom [2080075218454765816]
-  - Jul 22 23:15Z — ambiguous: "@KillaXBT If you don't close it in the next 2 days... then yes, your long will return to the entry point" — irony vs warning unclear, awaiting calibration [2080069358798197174]
-  - Jul 22 23:13Z — informational: BTC "chopping in window, it's okay" + technical commentary on intra-range pivots; aligns bull thesis [2080068803937911149]
-  - Jul 15 17:26Z — market call: BTC rules out 46K; MM either stops us at 48K or drops to 44K [2077444600818512009]
-  - Jul 15 18:19Z — market call: BTC channel-structure minimum target; fast squeeze toward 49K possible [2077458128807817426]
-  - Jul 16 16:04Z — market call: BTC 67-71K "good zone"; upside depends how high MM lifts [2077786469914009899]
-  - Jul 16 16:32Z — ambiguous (pending): caption-less URL to @zohaan1324/@tiger_khan9; relevance unknown [2077793421322830265]
-  - Jul 16 19:49Z — ambiguous (pending): caption-less URL share to @trader_koala [2077843121501528307]
-  - Jul 17 15:41Z — ambiguous (pending): BTC "Follow me or play against me" + link; banter vs signal [2078143166834684246]
-  - Jul 17 16:38Z — ambiguous (pending): BTC "it's still early" reply in 44/46/48K levels thread [2078157359000535427]
-  - Jul 17 18:05Z — ambiguous (pending): garbled "I haven't weekend pivots on technical chart" [2078179310783856871]
-  - Jul 17 18:11Z — ambiguous (pending): caption-less URL share to @LP_NXT [2078180778148520038]
-  - Jul 17 18:21Z — market call: BTC cycle-bottom target + 2028-2029 peak forecast shared [2078183203735478725]
-  - Jul 17 18:46Z — ambiguous (pending): "values and dates are in plain sight" hint to @Trives_ [2078189721327436194]
-  - Jul 18 23:23Z — ambiguous (pending): bare "48" reply to @zohaan1324/@LP_NXT; level vs other [2078621632755634438]
-  - Jul 19 20:39Z — ambiguous (pending): "Look at this and shut up" + URL at @DrProfitCrypto [2078942733079589263]
-  - Jul 19 21:01Z — ambiguous (pending): "Still 0:0 🥲"; chop commentary vs banter [2078948439665127440]
-  - Jul 19 22:52Z — ambiguous (pending): "because he bought it and wants to make money quickly" re @KillaXBT thread [2078976280125391282]
-  - Jul 20 00:18Z — ambiguous (pending): caption-less URL share to @TrollFootball [2078998023460266411]
-  - Jul 20 15:23Z — ambiguous (pending): "2026 or never ever"; likely bull-cycle timeframe, unconfirmed [2079225760162742415]
-  - Jul 20 16:02Z — ambiguous (pending): "@LP_NXT Soon"; unknown entity, possible non-BTC signal [2079235632954511765]
-  - Jul 20 17:00Z — ambiguous (pending): BTC "Here we gooo" + URL; new add vs sentiment [2079250089403396569]
-  - Jul 20 17:04Z — ambiguous (pending): "All my feed in this" to @VegetaCrypto1 [2079251195978211532]
-  - Jul 20 18:21Z — ambiguous (pending): BTC "❗️❗️❗️" emoji-only; warning vs bull alert unknown [2079270409262817389]
-  - Jul 20 19:03Z — ambiguous (pending): "And from 2024 too" to @Morecryptoonl; referent unknown [2079281156512530781]
-  - Jul 20 26:28Z (sic) — ambiguous (pending): "7.7-7.8" to @VegetaCrypto1; asset unknown, not BTC-scale [2079242005075443992]
-  - Jul 21 23:30Z — ambiguous (pending): "Yep, we have same view" to @mrkh009/@KryptoFynn; topic unknown [2079710538146160922]
-  - Jul 22 00:42Z — ambiguous (pending): caption-less URL reply to @VegetaCrypto1; 7th+ consecutive cryptic post, pattern read requested [2079728836703355093]
-  - Jul 22 22:00Z — ambiguous: "@boneless_bones7 Bul…." terse bull sentiment reply to trader, awaiting calibration [2080050450074628295]
-  - Jul 22 22:02Z — ambiguous: "@zohaan1324 @bnshiv23 July imo" cryptic mention-only reply, awaiting calibration [2080050922323869870]
-  - Jul 22 22:05Z — informational: "@zohaan1324 market structure commentary" bullish on higher levels before 40k consolidation, aligns BTC bull thesis [2080051696156188961]
-  - Jul 22 22:41Z — ambiguous (pending): "@boneless_bones7 Not sure 🤔" cryptic reply, awaiting calibration [2080060665520103890]
-  - Jul 23 01:10Z — ambiguous (calibration): reply to @zohaan1324/@KillaXBT "Yep" — context/referent unknown, calibration alert sent [2080098131702677750]
-  - Jul 23 02:36Z — informational: BTC conviction reaffirmation, "July 24th is the line in the sand. The levels are in" — pivot-date framing, patience/timing reinforcement, aligns existing 100%+ long thesis [2080119741000077701]
-  - Jul 23 07:08Z — ambiguous: reply to @Giant_Bull12 "@Giant_Bull12 Yep", context not visible, calibration alert sent [2080188272471335289]
-- Last seen: 2026-07-23 07:08:26 UTC
-- **Events (rolling):**
-  - Jul 23 08:51Z — ambiguous: reply to @Learnernoearner "Yep 🪤" — trap emoji context unknown, awaiting calibration [2080214311427797469]
+  - Jul 20 15:23Z — ambiguous: "2026 or never ever" — bull-cycle timeframe unconfirmed [2079225760162742415]
+  - Jul 20 16:02Z — ambiguous: "@LP_NXT Soon" [2079235632954511765]
+  - Jul 20 17:00Z — ambiguous: "Here we gooo $btc" + URL [2079250089403396569]
+  - Jul 20 17:04Z — ambiguous: "All my feed in this" to @VegetaCrypto1 [2079251195978211532]
+  - Jul 20 18:21Z — ambiguous: "❗️❗️❗️ $btc" emoji-only warning or bull alert [2079270409262817389]
+  - Jul 20 19:03Z — ambiguous: "And from 2024 too" to @Morecryptoonl [2079281156512530781]
+  - Jul 21 23:30Z — ambiguous: "Yep, we have same view" to @mrkh009/@KryptoFynn [2079710538146160922]
+  - Jul 22 00:42Z — ambiguous: caption-less URL to @VegetaCrypto1 (7th+ consecutive) [2079728836703355093]
+  - Jul 22 22:00Z — ambiguous: "@boneless_bones7 Bul…." terse bull reply [2080050450074628295]
+  - Jul 22 22:02Z — ambiguous: "@zohaan1324 July imo" cryptic [2080050922323869870]
+  - Jul 22 22:05Z — informational: "@zohaan1324 market structure commentary" — bullish higher levels before 40K consolidation [2080051696156188961]
+  - Jul 22 22:41Z — ambiguous: "@boneless_bones7 Not sure 🤔" [2080060665520103890]
+  - Jul 22 23:13Z — informational: BTC "chopping in window, it's okay" + intra-range pivot commentary [2080068803937911149]
+  - Jul 22 23:15Z — ambiguous: "@KillaXBT if you don't close in next 2 days... your long returns to entry" — irony vs warning unclear [2080069358798197174]
+  - Jul 22 23:39Z — informational: challenges KillaXBT bottom thesis — 54% decline incompatible with bull market bottom [2080075218454765816]
+  - Jul 23 01:10Z — ambiguous: reply to @zohaan1324/@KillaXBT "Yep" [2080098131702677750]
+  - Jul 23 01:11Z — informational: BTC bullish sentiment — confident Bitcoin won't return to 62K [2080098501027885180]
+  - Jul 23 02:36Z — informational: "July 24th is the line in the sand. The levels are in" — pivot-date framing [2080119741000077701]
+  - Jul 23 02:38Z — ambiguous: caption-less URL to @Morecryptoonl (8th+ consecutive) [2080120286683300271]
+  - Jul 23 03:12Z — ambiguous: "@synesius101 💯" emoji affirmation [2080128939066798319]
+  - Jul 23 05:34Z — ambiguous: "@Morecryptoonl 2018" terse mention [2080164608933875716]
+  - Jul 23 05:35Z — ambiguous: "still in window for new local top. Careful with shorts till 25" — "25" = Jul 25 or price? [2080164886894588268]
+  - Jul 23 06:09Z — ambiguous: "Nope / following 2018 but direct application of fractal is incorrect" [2080173405370806314]
+  - Jul 23 07:08Z — ambiguous: "@Giant_Bull12 Yep" [2080188272471335289]
+  - Jul 23 08:51Z — ambiguous: "Yep 🪤" trap emoji reply to @Learnernoearner [2080214311427797469]
 
 ## bull_genius (marmot)
 - Platforms: X
-- Current open positions: **BTC — STOPPED OUT AT B/E (JUL 24 13:51Z)** — original entry at ~65K (Jul 23 12:56Z) got stopped out at break-even after taking partial profit earlier. Was awaiting Kyle mirror approval (never executed). Patient tactical: waiting for strength to re-enter. Previous nibbles: Jul 17 07:12Z at BTC 62.8K and HYPE 59 (knife-catch sizing). Previously closed in profit: $MU + $SNDK memory longs (Jul 9, ~1000/1800) and an onchain cashcat 15x.
-- Recent thesis: Patient tactical — "letting the market come to me," won't chase the meatgrinder range; summer POC vs 7d rvwap ~61.4–61.6K remains the line in sand. As of Jul 21: bullish structure reaffirmed — 30d rvwap tested 3x, summer POC bid, higher lows, 65K broken; original "joyful july" 70K target back in play with resistance ladder 67K (yearly POC), 68.2K (90d rvwap), 71.7K (yearly AVWAP); tracking an unusual options trader betting 70-72K by EOM. Bear contingency: below ~62.8K / 30d rvwap-monthly VAL, expects full retrace of July (no hero leverage; use it to DCA spot). Bearish/cautious $HYPE near-term (7d/30d trend exhausted, weekly bear div, Robinhood + perp-DEX TGE headwinds Q3–Q4). Long-term accumulator: DCA shitcoin profits into majors spot over summer/fall; current phase = profit-maxi on perps, think in years for spot DCA. Dismisses BTC/NQ correlation as non-actionable — bond market is the real predictor. Thinks CLARITY Act unlikely this month.
-- Conviction notes: rvwap/POC volume-profile framing; disciplined, waits for others to "do the heavy lifting"; signs off "marmot." Terse technical replies to other traders; casual hedged language ("nibble", "imo", "dont let me sway you"). ~5-10% of posts are non-financial (World Cup, health, games, podcasts) — summer-maxing, posting cadence reduced.
-- Calibration: none yet (no answered Kyle calibrations found). Pending:
+- Current open positions: **BTC — STOPPED OUT AT B/E (Jul 24 13:51Z)** — original entry ~65K (Jul 23 12:56Z), stopped out at B/E after partial TP; awaiting re-entry on strength. Was pending Kyle mirror approval (never executed). Previously closed in profit: $MU + $SNDK memory longs (Jul 9, ~1000/1800) and onchain cashcat 15x.
+- Recent thesis: Patient tactical — "letting the market come to me." Summer POC vs 7d rvwap ~61.4–61.6K the line in sand. Post-stopout: waiting for "pa stronger than thought" signal before re-entry. Joyful July 70K target referenced. Bearish/cautious HYPE near-term (7d/30d trend exhausted, weekly bear div, Robinhood + perp-DEX TGE Q3–Q4 headwinds). DCA shitcoin profits into majors spot over summer/fall; current = profit-maxi on perps, think in years for spot. Bond market > NQ/BTC correlation for actual signal.
+- Conviction notes: rvwap/POC volume-profile framing; disciplined, waits for others to "do the heavy lifting." Terse technical replies. ~5–10% non-financial (World Cup, health, games) — summer cadence. Signs off "marmot."
+- Calibration: None answered. Pending:
   - PENDING: "where a quite weak low has been set as well" — which ticker/level? [2077769368012820617]
-  - PENDING: "coinbase man token" 30x story — which token, who is brian, track it? [2077918555782164669]
-  - PENDING: one-word "yes" to @maybe_cmeister — agreeing to what? [2078476335974887586]
-  - PENDING: "realest shit ive read in a minute" — subject unknown [2078560776164360508]
+  - PENDING: "coinbase man token" 30x story — which token, who is brian? [2077918555782164669]
+  - PENDING: one-word "yes" to @maybe_cmeister [2078476335974887586]
+  - PENDING: "realest shit ive read in a minute" [2078560776164360508]
   - PENDING: "@heart_ see @blancxbt man i told u they wont buy it" — which asset/level? [2079542718460518532]
 - Last seen: 2026-07-25 06:54:19 UTC
 - **Events (rolling):**
-  - Jul 25 06:54Z — informational: FWA market sentiment — "whole ct is talking about" FWA, Jack Butcher product drop catalyst, regret/FOMO on missed upside ("should have continued ripping tho"). Protocol game data shown (80% payout/13% profitable players, Basegame-like stats); marmot meme. Single-trader mention, tracked as emerging ticker [2080909493626352062]
-  - Jul 24 13:51Z — mirror-stop-out: BTC long stopped at b/e after partial TP taken earlier; remainder closed by stop loss. Patient positioning: "chill here and wait it out, pa weaker than thought", re-entry on strength signal. Charts confirm weakness vs 7d/30d RVWAP levels [2080652203056840909]
-  - Jul 24 08:30Z — informational: position confidence on BTC entry ("positions entered well, comfort watching it play out"), macro view (chart-focused, ignores geopolitical noise), strategy: take profits on rallies, ride rest to targets [2080571311349231803]
-  - Jul 24 07:25Z — informational: BTC 7d RVWAP + prev week POC forming higher low, price holding well, market sentiment update ("joyful july"); platform promo (risex). Follow-up technical comment on Jul 23 12:56Z entry, no new personal execution [2080555008496468390]
-  - Jul 24 00:19Z — informational: fwa game analysis (follow-up) — continued breakdown on gacha edge, token upside compensation thesis; same product commentary [2080447856859578719]
-  - Jul 24 00:14Z — informational: fwa game analysis — personal experience + stats on game economics (80% payout/fee ratio, 13% profitable players); non-financial product commentary, not trade action [2080446334943875384]
-  - Jul 23 19:42Z — informational: BTC bear market bottom thesis; 50K range = "fire sale prices", bullish accumulation opportunity [2080377939892359171]
-  - Jul 23 18:32Z — informational: BTC technical levels (7d RVWAP + prev week POC forming higher low), HYPE downtrend (90d RVWAP, key zone). Charts annotate full POC/VWAP ladder; risk: cut if summer POC lost [2080360522566812105]
-  - Jul 23 12:56Z — trade-entry: BTC market entry ~65K (7d rvwap), targets 70K–71.6K (2026 avwap); charts show POC resistance test + reversal setup [2080275894405312699]
-  - Jul 21 13:27Z — market call: BTC 70K target back on; 65K broken, targets 67K/68.2K/71.7K; still flat [2079558808083272104]
-  - Jul 21 12:23Z — ambiguous (pending): "i told u they wont buy it" to @heart_/@blancxbt; asset/level unknown [2079542718460518532]
-  - Jul 18 19:21Z — ambiguous (pending): "realest shit ive read in a minute"; subject unknown [2078560776164360508]
-  - Jul 18 13:45Z — ambiguous (pending): one-word "yes" reply to @maybe_cmeister; context unknown [2078476335974887586]
-  - Jul 17 07:35Z — market call: HYPE downside continues; validates friend's short, own nibble = knife catch [2078020848196141522]
-  - Jul 17 07:12Z — trade nibble: BTC 62.8K + HYPE 59 small entries; "any lower looks like full retrace" [2078014900794761617]
-  - Jul 17 00:49Z — ambiguous (pending): "coinbase man token" luckisaskill.eth 12%/30x story; ticker identity unknown [2077918555782164669]
-  - Jul 16 14:56Z — ambiguous (pending): "quite weak low has been set as well"; ticker unclear [2077769368012820617]
-  - Jul 23 19:42Z — informational: BTC bear market bottom thesis; 50K range = "fire sale prices", bullish accumulation opportunity [2080377939892359171]
-  - Jul 16 14:27Z — market call: BTC 70K path 67-69-71K vs full-July-retrace bear case; "no clear setup rn", ltf scalps only [via alert, no id]
-  - Jul 15 12:03Z — market call: BTC "wealthy chinese moon traders" vs breakout; 2026 POC + 90d rvwap the test [via alert, no id]
+  - Jul 16 14:27Z — market-call: BTC 70K path 67–69–71K vs full-July-retrace bear case; "no clear setup rn" [no id]
+  - Jul 17 07:12Z — trade-nibble: BTC 62.8K + HYPE 59 small entries; "any lower looks like full retrace" [2078014900794761617]
+  - Jul 17 07:35Z — market-call: HYPE downside continues; validates friend's short, own nibble = knife catch [2078020848196141522]
+  - Jul 17 00:49Z — ambiguous: "coinbase man token" luckisaskill.eth 12%/30x story; ticker unknown [2077918555782164669]
+  - Jul 18 13:45Z — ambiguous: one-word "yes" to @maybe_cmeister [2078476335974887586]
+  - Jul 18 19:21Z — ambiguous: "realest shit ive read in a minute" [2078560776164360508]
+  - Jul 21 12:23Z — ambiguous: "i told u they wont buy it" to @heart_/@blancxbt [2079542718460518532]
+  - Jul 21 13:27Z — market-call: BTC 70K target back on; 65K broken, targets 67K/68.2K/71.7K; still flat [2079558808083272104]
+  - Jul 23 12:56Z — trade-entry: BTC market entry ~65K (7d rvwap), targets 70K–71.6K (2026 AVWAP) [2080275894405312699]
+  - Jul 23 18:32Z — informational: BTC technical levels — 7d rvwap + prev week POC forming higher low; HYPE 90d rvwap key zone [2080360522566812105]
+  - Jul 23 19:42Z — informational: BTC bear market bottom thesis; 50K range = "fire sale prices" [2080377939892359171]
+  - Jul 24 00:14Z — informational: fwa game analysis — 80% payout/13% profitable players; non-financial product commentary [2080446334943875384]
+  - Jul 24 07:25Z — informational: BTC 7d rvwap + prev week POC forming higher low; "joyful july" platform promo [2080555008496468390]
+  - Jul 24 08:30Z — informational: position confidence on BTC entry; macro view chart-focused [2080571311349231803]
+  - Jul 24 13:51Z — mirror-stop-out: BTC long stopped at B/E after partial TP; "chill here and wait it out, pa weaker than thought" [2080652203056840909]
+  - Jul 25 06:54Z — informational: FWA market sentiment — whole CT talking about it; Jack Butcher product drop catalyst [2080909493626352062]
 
 ## Stoiiic
-- Platforms: X
-- Current open positions: None explicit / not disclosed — order-flow/market-structure analyst; neutral positioning around the 60-62K BTC weekly pivot. No execution language observed in this window.
-- Recent thesis: Counter-trend rally thesis from the 58K lows with potential extension into mid-to-high 60s (~65.5 statistical high target; 98% of bearish months have high in by now, sample=43); 65-70K is a "trouble" zone prone to trend reversion — plans to reduce long exposure as price develops higher and then trade the opposite direction. 60-62K remains the crucial weekly pivot; 80% of the time a bullish week's low is in by ~2d11h after the weekly open. BTC DVOL compressed at yearly lows with positive call skew — conditions ripe for a vol expansion, but Adam's negative spot-vol correlation observation means the spike could accompany breakdown rather than upside; Stoiiic "optimistically cautious". ETH pressing into heavy 2100s resistance confluence (90d rolling, prior month high, prior consolidation value). Retail-money signals (Grant Cardone posting BTC charts) warrant near-term pause despite HTF-bullish structure. Exploring price-insensitive strategies.
-- Conviction notes: Heavy spot CVD/TPO/AMT/VWAP structural language; probabilistic + statistical; downplays fractals unless backed by flow confluence. Communication oscillates between long-form educational methodology posts (AMT, anchored VWAP, poor highs/lows squeeze dynamics) and extremely terse cryptic replies that repeatedly require calibration. High share of non-financial content: mindset/philosophy, UFC, promo codes, personal banter — roughly half of posts carry no market signal. No first-person execution language observed; treat him as analyst/educator, not an execution signal source.
+- Platforms: X (X-only; no Discord)
+- Current open positions: None confirmed via first-person execution language. Possible $CL short reference Jul 26 (ambiguous tweet_id=2081458988030562791 — may reference HCH's trade or own; not mirrored). Treats position as analyst/educator only.
+- Recent thesis: Counter-trend rally thesis from 58K lows with extension possible to ~65.5 (statistical: 98% of bearish months have high in by now, sample=43). 65–70K = "trouble" zone prone to trend reversion — plans to reduce long exposure and trade opposite direction. 60–62K = crucial weekly pivot; 80% of the time a bullish week's low is in by ~2d11h after weekly open. BTC DVOL compressed at yearly lows, positive call skew — vol expansion ripe but Adam's negative spot-vol correlation means spike could accompany breakdown. Retail-money signals (Grant Cardone BTC charts) warrant near-term pause despite HTF-bullish structure. Weekend chop expected Jul 25 ("W on chart"); monitoring for BTC/ETH breakdown of shared channel Jul 25. Jul 26: "hello, BTC update to start off the week?" — first market post expected/delivered.
+- Conviction notes: Heavy spot CVD/TPO/AMT/VWAP structural language; probabilistic + statistical; downplays fractals unless backed by flow confluence. Communication oscillates between long-form educational methodology posts (AMT, anchored VWAP, poor highs/lows squeeze dynamics) and terse cryptic replies requiring calibration. ~Half of posts non-financial (UFC, promo codes, mindset, personal banter). No first-person execution language observed — treat as analyst/educator, not execution source.
 - Calibration:
-  - PENDING: "are we actually back?!" — cryptic sentiment call, meaning unresolved [2077071558426677266]
-  - PENDING: "bumpy road but back in the mix" — chop confirmation vs personal re-entry signal? [2077159031005725148]
-  - PENDING: "@BigTrout300 the truth" — context-dependent terse reply [2077219937593253919]
-  - PENDING: "Statistical data combined w/ contextual real-time behavior is where it's at" — methodology comment vs subtle signal? [2077421950155002218]
-  - PENDING: "@dogboii yes" — single-word affirmation, context unknown [2077533526128570721]
-  - PENDING: "@KobeissiLetter You had 3 days window" — what window does this reference? [2077740149648286146]
-  - PENDING: "initial reaction from composite ✅" — what composite signal (momentum-scanner project?)? [2077784067093742039]
-  - PENDING: "@stoicscalper truth" — cryptic mention [2078019207061774338]
-  - PENDING: "umm brian? [URL]" — recipient/link unknown [2078206265847648582]
-  - PENDING: "\"EVERYONE\" is talking about this so it can't possibly happen right?!?" — contrarian comment, referent unknown [2078229771658424691]
-  - PENDING: "bitcoin:native avwap framework [URL]" — educational link vs setup signal? [2078551415543288190]
-  - PENDING: "@Crypto_tIdr 🙏" — cryptic mention [2078670753252167709]
-  - PENDING: "if you're not trading this beautiful illiquidity..." — personal trade vs commentary vs philosophy? [2079075875421626693]
-  - PENDING: "tldr targeting these within +/- a few sessions... residual psychology left behind" — which targets/tickers? [2079301102915260799]
-  - PENDING: "@risextrade a few more: 14I3JBNN / 2SJD49B7 / 3RQVKVTX" — promo codes (likely, per two prior code posts) or something else? [2079597980479295624]
-  - PENDING: "@Morning_Star55 MMT" — acronym meaning unknown [2079599670288945188]
-  - PENDING: "@Theeesis should be ok for a bit" — reassurance on whose position/what market? [2079599807350395203]
-  - PENDING: "@wasmynme nah still think this can leg up again but 67+ - 70 area is prone for reversion" — which ticker (BTC likely)? [2079640575452512663]
-  - PENDING: "@BigTrout300 squeeze" — market structure observation, agreement on squeeze pattern, or banter? [2080037843456434228]
-  - PENDING: "3 weeks of this...great momentum" — 3-week rally continuation confirmation or trouble-zone warning? [2080139211760427114]
-  - PENDING: "@vladtenev lol hacked" opener + "end of wave 1" — cryptic reply, context/referent/meaning unresolved [2080347551643971682]
-- Last seen: 2026-07-24 15:23:12 UTC
+  - PENDING: "are we actually back?!" [2077071558426677266]
+  - PENDING: "bumpy road but back in the mix" [2077159031005725148]
+  - PENDING: "@BigTrout300 the truth" [2077219937593253919]
+  - PENDING: "Statistical data combined w/ contextual real-time behavior is where it's at" [2077421950155002218]
+  - PENDING: "@dogboii yes" [2077533526128570721]
+  - PENDING: "@KobeissiLetter You had 3 days window" [2077740149648286146]
+  - PENDING: "initial reaction from composite ✅" — what composite signal? [2077784067093742039]
+  - PENDING: "@stoicscalper truth" [2078019207061774338]
+  - PENDING: "umm brian? [URL]" [2078206265847648582]
+  - PENDING: "\"EVERYONE\" is talking about this so it can't possibly happen right?!?" [2078229771658424691]
+  - PENDING: "bitcoin:native avwap framework [URL]" — educational or setup signal? [2078551415543288190]
+  - PENDING: "@Crypto_tIdr 🙏" [2078670753252167709]
+  - PENDING: "if you're not trading this beautiful illiquidity..." [2079075875421626693]
+  - PENDING: "tldr targeting these within +/- a few sessions... residual psychology left behind" — which targets? [2079301102915260799]
+  - PENDING: "@risextrade a few more: 14I3JBNN / 2SJD49B7 / 3RQVKVTX" — promo codes or other? [2079597980479295624]
+  - PENDING: "@Morning_Star55 MMT" — acronym unknown [2079599670288945188]
+  - PENDING: "@Theeesis should be ok for a bit" [2079599807350395203]
+  - PENDING: "@wasmynme nah still think this can leg up again but 67+ - 70 area is prone for reversion" [2079640575452512663]
+  - PENDING: "@BigTrout300 squeeze" [2080037843456434228]
+  - PENDING: "3 weeks of this...great momentum" [2080139211760427114]
+  - PENDING: "@vladtenev lol hacked \n\nend of wave 1" [2080347551643971682]
+  - PENDING: "will report back on findings." standalone cryptic [2080509950342615183]
+  - PENDING: "@JordiCharts its just spot cb, binance and kraken" — exchange venue reference [2080508660279554183]
+  - PENDING: "hello, BTC update to start off the week?" — setup for analysis, question, or thread opening? [2081425993089069139]
+- Last seen: 2026-07-26 19:17:49 UTC
 - **Events (rolling):**
-  - Jul 24 15:23Z — skip: fitness/exercise banter (@ParadiseXBT_, @sicbytz, pendulum squat form advice, non-financial) [2080675172282880810]
-  - Jul 24 04:26Z — ambiguous: "will report back on findings." standalone cryptic post, no context/ticker, awaiting calibration, calibration alert sent [2080509950342615183]
-  - Jul 24 04:21Z — ambiguous: reply to @JordiCharts "its just spot cb, binance and kraken" — venue/exchange reference cryptic, original question missing, awaiting calibration [2080508660279554183]
-  - Jul 23 18:23Z — informational: BTC market flow/structure observation — continuous binance and cb spot dumping from major spot exchanges, 7d rolling + composite technical analysis, interim decision point [2080358174616334690]
-  - Jul 23 17:41Z — ambiguous: BTC? reply @vladtenev "lol hacked \n\nthe usual cycle, end of wave 1" — cryptic opener + wave-analysis continuation; context/referent unclear, calibration alert sent [2080347551643971682]
-  - Jul 14 16:43Z — ambiguous: BTC? cryptic "are we actually back?!" awaiting calibration [2077071558426677266]
-  - Jul 14 22:31Z — ambiguous: cryptic "bumpy road but back in the mix" — chop read vs re-entry [2077159031005725148]
-  - Jul 15 02:33Z — ambiguous: terse "@BigTrout300 the truth" context-dependent [2077219937593253919]
-  - Jul 15 15:56Z — ambiguous: "Statistical data + contextual real-time behavior" methodology vs signal [2077421950155002218]
+  - Jul 14 16:43Z — ambiguous: "are we actually back?!" [2077071558426677266]
+  - Jul 14 22:31Z — ambiguous: "bumpy road but back in the mix" [2077159031005725148]
   - Jul 15 22:04Z — informational: ETH pressing heavy 2100s resistance confluence (90d rolling, prior month high) [2077514744924446994]
-  - Jul 15 23:19Z — ambiguous: "@dogboii yes" single-word reply awaiting calibration [2077533526128570721]
-  - Jul 16 13:00Z — ambiguous: "@KobeissiLetter You had 3 days window" referent unknown [2077740149648286146]
-  - Jul 16 15:54Z — ambiguous: "initial reaction from composite ✅" — composite signal unknown [2077784067093742039]
-  - Jul 17 07:29Z — ambiguous: "@stoicscalper truth" cryptic mention [2078019207061774338]
-  - Jul 17 19:25Z — informational: BTC monthly stats — lows unlikely retested, ~65.5 high target, reversion from 65-70 [2078199470164951404]
-  - Jul 17 19:28Z — informational: BTC 65-70 "trouble area prone to shift in trend, exercise caution" [2078200229711565215]
-  - Jul 17 19:52Z — ambiguous: "umm brian? [URL]" recipient/link unknown [2078206265847648582]
-  - Jul 17 21:26Z — ambiguous: contrarian "'EVERYONE' is talking about this so it can't happen right?!" referent unknown [2078229771658424691]
-  - Jul 18 18:44Z — ambiguous: "bitcoin:native avwap framework [URL]" — education vs setup signal [2078551415543288190]
-  - Jul 19 02:38Z — ambiguous: "@Crypto_tIdr 🙏" cryptic mention [2078670753252167709]
-  - Jul 20 05:28Z — ambiguous: "trading this beautiful illiquidity" — personal trade vs commentary [2079075875421626693]
+  - Jul 17 19:27Z — informational: BTC monthly stats — lows unlikely retested; ~65.5 high target; reversion from 65–70 [2078199470164951404]
+  - Jul 17 19:28Z — informational: BTC 65–70 "trouble area prone to shift in trend, exercise caution" [2078200229711565215]
   - Jul 20 17:09Z — informational: BTC DVOL compressed at yearly lows, positive call skew, vol expansion ripe [207925241168882091]
-  - Jul 20 20:23Z — ambiguous: "tldr targeting these within +/- a few sessions... residual psychology" [2079301102915260799]
   - Jul 20 23:55Z — informational: BTC counter-trend rally 58K→~70K thesis; vol spike up-or-down question open [2079354596527345775]
-  - Jul 21 16:02Z — ambiguous: "@risextrade a few more" alphanumeric codes, likely promo, awaiting confirm [2079597980479295624]
-  - Jul 21 16:09Z — ambiguous: "@Morning_Star55 MMT" acronym unknown [2079599670288945188]
-  - Jul 21 16:10Z — ambiguous: "@Theeesis should be ok for a bit" — market/position reassurance unclear [2079599807350395203]
-  - Jul 21 18:52Z — ambiguous: BTC? "can leg up again but 67-70 prone for reversion" — ticker unconfirmed [2079640575452512663]
-  - Jul 22 18:21Z — informational: market philosophy; different ways to express views, timeframes vary ms-decades [2079995192224936240]
-  - Jul 22 21:10Z — ambiguous: "@BigTrout300 squeeze" cryptic reply, intent unknown, awaiting calibration [2080037843456434228]
-  - Jul 23 03:38Z — informational: BTC technical analysis; conditional rVWAP/90d rollover, squeeze, 67-70K reversion scenarios [2080135431484555742]
-  - Jul 23 03:53Z — ambiguous: "3 weeks of this...great momentum" — 3-week rally continuation vs trouble-zone warning, PENDING calibration [2080139211760427114]
-- Last seen: 2026-07-23 03:53:29 UTC
+  - Jul 22 21:10Z — ambiguous: "@BigTrout300 squeeze" cryptic reply [2080037843456434228]
+  - Jul 23 03:38Z — informational: BTC technical — conditional rVWAP/90d rollover, squeeze, 67–70K reversion scenarios [2080135431484555742]
+  - Jul 23 03:53Z — ambiguous: "3 weeks of this...great momentum" [2080139211760427114]
+  - Jul 23 17:41Z — ambiguous: BTC "@vladtenev lol hacked / end of wave 1" [2080347551643971682]
+  - Jul 23 18:23Z — informational: BTC market flow — continuous Binance/CB spot dumping; interim decision point [2080358174616334690]
+  - Jul 24 04:21Z — ambiguous: "@JordiCharts its just spot cb, binance and kraken" [2080508660279554183]
+  - Jul 24 04:26Z — ambiguous: "will report back on findings." standalone [2080509950342615183]
+  - Jul 24 16:19Z — informational: BTC sentiment — sarcastic on Grant Cardone/BTC chart; PERP vs SPOT divergence [2080689353634750957]
+  - Jul 24 16:42Z — informational: BTC PERP vs SPOT — sarcastic "sooo we're max lev longing every dip now?" + divergence chart [2080695243926565351]
+  - Jul 25 03:07Z — ambiguous: "see you Sunday" + media (unavailable); personal or market timing? [2080852429189296390]
+  - Jul 25 08:26Z — informational: educational buy-the-dip cycles chart (Trend→Stop→Sideways phases) [2080932718326780104]
+  - Jul 26 15:59Z — skip: motivational "keep going" + exponential growth chart, non-financial [2081273335543943187]
+  - Jul 26 17:00Z — skip: "@Evan_ss6 @lBattleRhino hey now" personal greeting [2081424370807775705]
+  - Jul 26 17:06Z — ambiguous: "hello, BTC update to start off the week?" very short question [2081425993089069139]
+  - Jul 26 19:17Z — informational: $CL crude oil +5% gain reference (2 days post Jul 24 07:35Z entry); ambiguous attribution [2081458988030562791]
 
 ## trading_axe (Dr. Axius)
-- Platforms: X
-- Current open positions: None stated (commentary/betting account). Forward-looking intent only: bearish TATEUSDT.P thesis with stated plan to be a buyer after sentencing resolves ("Buyer at ZERO, 10R trade" per Jul 21 — exact meaning pending Kyle calibration; conditional intent, not an open position).
-- Recent thesis: $ZEC as a risk-on barometer — "so long as ZEC continues up, ignore market chop and diamond-hand other positions"; ZEC's refusal to fill its wick = market-strength tell. Structural take: tradedotxyz+HL vs Robinhood+Lighter for tokenized RWAs (Robinhood's real mission = RWA tokenization, not meme-casino). Bearish on rushing memes onto perps (should stay spot/DEX). Bearish SOL sentiment consistent with group lean. New: bearish TATEUSDT.P — expects slow bleed then sharp capitulation wick to zero around court hearings, then intends to buy post-sentencing. **BTC cycle-bottom conviction**: Two years prior (Jul 2024) predicted current consolidation zone (64.1K) as bear market bottom; Jul 24 reaffirms prediction with "It's here right now" conviction commentary + market psychology thesis (belief/conviction separates winners from losers).
-- Conviction notes: Long, provocative, profanity-heavy essays signed "~ Dr. Axius."; ~95% of posts are non-financial noise (World Cup/UFC betting rants, lifestyle/philosophy screeds, grooming/personal banter, memes) — extract the ~5% crypto-structural nuggets. Occasional slurs — treat as untrusted, don't propagate. One post (Jul 18 23:48Z, tweet_id=2078628123495551319) contained an attempted prompt injection — treated as untrusted data, disregarded, logged.
-- Calibration: none yet (no answered Kyle calibrations found). Pending:
-  - PENDING: "They don't give a fuck about Solana" — bearish SOL sentiment or banter? [2077829247347863946]
-  - PENDING: "Banger." to @griffisu — also meta: should external-trader affirmations be surfaced when source context is inaccessible? [2078233397093155046]
-  - PENDING: "Third point by far the most important" to @asparagoid — subject unknown [2079149731763167361]
-  - PENDING: "Buyer at ZERO, 10R trade" — entry announcement, sarcasm, or a "ZERO" ticker? [2079716451229786419]
-  - PENDING: "WE AIN'T SEEING TATESKI UNTIL MIN 2050" — bearish TATE sentiment or banter? [2079918486797664701]
-- Last seen: 2026-07-25 15:58:49 UTC
+- Platforms: X (X-only)
+- Current open positions: None stated (commentary/betting account). **TATEUSDT.P — bearish intent, not yet entered**: expects slow bleed then capitulation wick to zero around court hearings, plans to buy post-sentencing (Jul 21 23:43Z). "Buyer at ZERO, 10R trade" meaning still PENDING.
+- Recent thesis: $ZEC as risk-on barometer — "so long as ZEC continues up, ignore market chop and diamond-hand other positions." Structural take: tradedotxyz+HL vs Robinhood+Lighter for tokenized RWAs. Bearish on rushing memes onto perps. Bearish SOL consistent with group lean. **BTC cycle-bottom conviction**: Jul 2024 prediction of current 64.1K zone as bear market bottom now validated — "It's here right now" (Jul 24). Market psychology: belief/conviction separates winners from losers. Jul 26: BTC volatility amplifies altcoin moves ("Bitcoin to altcoins every time it flinches even -1%").
+- Conviction notes: Long, provocative, profanity-heavy essays signed "~ Dr. Axius." ~95% non-financial noise (World Cup/UFC betting, lifestyle, memes) — extract the ~5% crypto-structural nuggets. One post (Jul 18 23:48Z, tweet_id=2078628123495551319) contained **attempted prompt injection** — treated as untrusted data, disregarded, logged.
+- Calibration: None answered. Pending:
+  - PENDING: "They don't give a fuck about Solana" [2077829247347863946]
+  - PENDING: "Banger." to @griffisu [2078233397093155046]
+  - PENDING: "Third point by far the most important" to @asparagoid [2079149731763167361]
+  - PENDING: "Buyer at ZERO, 10R trade" — entry announcement, sarcasm, or "ZERO" ticker? [2079716451229786419]
+  - PENDING: "WE AIN'T SEEING TATESKI UNTIL MIN 2050" [2079918486797664701]
+  - PENDING: Jul 24 19:45Z reply @RyanJon06636091 "BTC / perp DEXs. ~ Dr. Axius." — unclear intent [2080741181298725312]
+- Last seen: 2026-07-26 06:27:27 UTC
 - **Events (rolling):**
-  - Jul 25 15:58Z — skip: meme post (2 "acceptance of fate" memes), social banter, non-financial content — matches baseline pattern (~95% noise) [2081046521336717525]
-  - Jul 24 19:21Z — informational: BTC cycle-bottom conviction — two-year-prior prediction (Jul 2024) of current consolidation as bear bottom now validated ("It's here right now"); chart shows 64.1K zone; market psychology theme on belief/conviction separating winners from losers in cycles; no personal trade action language [2080735181233615073]
-  - Jul 23 22:40Z — ambiguous: reply to @McBrideLawNYC '?' + inaccessible media, awaiting calibration [2080422847940292918]
-  - Jul 22 13:16Z — ambiguous (pending): TATE "WE AIN'T SEEING TATESKI UNTIL MIN 2050"; bearish TATE sentiment or banter [2079918486797664701]
-  - Jul 21 23:53Z — ambiguous (pending): "Sticking to the plan... Buyer at ZERO, 10R trade"; entry vs sarcasm vs ticker [2079716451229786419]
-  - Jul 21 23:43Z — market call: TATEUSDT.P bearish — slow bleed then capitulation wick to zero; buyer after sentencing [2079714010283249945]
-  - Jul 20 10:21Z — ambiguous (pending): "Third point by far the most important"; referenced points unknown [2079149731763167361]
-  - Jul 18 18:37Z — market call: SOL skepticism re claimed $1-to-ATH trade; reinforces group bearish SOL lean [2078549824765346155]
-  - Jul 17 21:40Z — ambiguous (pending): "Banger." affirmation to @griffisu; setup/execution/banter unknown [2078233397093155046]
-  - Jul 16 18:54Z — ambiguous (pending): SOL "They don't give a fuck about Solana"; bearish tell vs banter [2077829247347863946]
+  - Jul 16 18:54Z — ambiguous: SOL "They don't give a fuck about Solana" [2077829247347863946]
+  - Jul 17 21:40Z — ambiguous: "Banger." to @griffisu [2078233397093155046]
+  - Jul 18 13:23Z — market-call: SOL skepticism re $1-to-ATH trade; reinforces group bearish SOL lean [2078549824765346155]
+  - Jul 20 10:21Z — ambiguous: "Third point by far the most important" [2079149731763167361]
+  - Jul 21 23:43Z — market-call: TATEUSDT.P bearish — slow bleed then capitulation wick to zero; buyer after sentencing [2079714010283249945]
+  - Jul 21 23:53Z — ambiguous: "Sticking to the plan... Buyer at ZERO, 10R trade" [2079716451229786419]
+  - Jul 22 13:16Z — ambiguous: "WE AIN'T SEEING TATESKI UNTIL MIN 2050" [2079918486797664701]
+  - Jul 23 22:40Z — ambiguous: reply @McBrideLawNYC '?' + inaccessible media [2080422847940292918]
+  - Jul 24 19:21Z — informational: BTC cycle-bottom conviction — Jul 2024 prediction validated at 64.1K; belief/conviction theme [2080735181233615073]
+  - Jul 24 19:45Z — ambiguous: reply @RyanJon06636091 "BTC / perp DEXs. ~ Dr. Axius." [2080741181298725312]
+  - Jul 25 15:58Z — skip: 2 acceptance-of-fate memes, social banter, non-financial [2081046521336717525]
+  - Jul 26 06:27Z — informational: "Bitcoin to altcoins every time it flinches even -1%" + video; sarcastic/critical [2081265120911524320]
 
 ## Bitcoin_Astro
-- Platforms: X
+- Platforms: X (X-only; no Discord)
 - Current open positions: None (astro/cycle TA only, no personal positions stated).
-- Recent thesis: Cycle-low watcher, bearish/neutral while awaiting the low. Key pivot dates: 10/11 July turning point played out; **23–30 September** is the major "price meets time" window for a trend change. Yellow trend line = historic strong resistance. Sharing explicit cycle-low price targets (Jul 18 + Jul 20 updates); ran a poll on the cycle-low price. Noted Saturn turns retrograde Jul 26.
-- Conviction notes: Planetary/Gann-style date forecasting (Gann angles as core support/resistance tool). Use his dates as a "watch calendar," not directional signals. Frequent cryptic one-liners and image-only posts ("Soon", "Red lines") that need calibration; meaningful posts name their topic explicitly ("Cycle Low Targets"). Moderate promo for Patreon/Telegram (exact dates reserved for paying members); rest is social banter and admin chatter.
-- Calibration: none yet.
-  - PENDING: Jul 14 08:04 "Soon" — trend-change timing reference right after the 10/11 July pivot? (no id logged)
-  - PENDING: Jul 14 13:04 "Pivots play exact as always" + URL — observational or trend signal? (no id logged)
-  - PENDING: Jul 18 14:47 "Red lines" + chart image — notable trend-shift signal or routine TA? [2078491935967228164]
-  - PENDING: Jul 19 10:37 "@nsquaredvalue This is completely wrong!" — what BTC claim is he disputing? [2078791295221346619]
-  - PENDING: Jul 19 14:25 "@VinVinPewPew Yes, exactly" — confirming what (level, date, TA, or banter)? [2078848697656578449]
-- Last seen: 2026-07-23 15:08:00 UTC
+- Recent thesis: Cycle-low watcher, bearish/neutral while awaiting the low. Key pivot dates: 10/11 July turning point played out; **23–30 September** is the major "price meets time" window for a trend change. Yellow trend line = historic strong resistance. Explicit cycle-low price targets shared Jul 18 + Jul 20 updates. Saturn turns retrograde Jul 26. Jul 25: "We better not go there, that would mean multy year bear market" — bearish scenario sentiment.
+- Conviction notes: Planetary/Gann-style date forecasting (Gann angles as core support/resistance). Use his dates as a "watch calendar," not directional signals. Frequent cryptic one-liners and image-only posts ("Soon", "Red lines") that need calibration; meaningful posts name topic explicitly ("Cycle Low Targets"). Moderate promo for Patreon/Telegram (exact dates reserved for paying members).
+- Calibration: None answered. Pending:
+  - PENDING: Jul 14 08:04 "Soon" — trend-change timing reference right after 10/11 Jul pivot? [no id]
+  - PENDING: Jul 14 13:04 "Pivots play exact as always" + URL [no id]
+  - PENDING: Jul 18 14:47 "Red lines" + chart image [2078491935967228164]
+  - PENDING: Jul 19 10:37 "@nsquaredvalue This is completely wrong!" — what BTC claim? [2078791295221346619]
+  - PENDING: Jul 19 14:25 "@VinVinPewPew Yes, exactly" — confirming what? [2078848697656578449]
+- Last seen: 2026-07-25 11:37:00 UTC
 - **Events (rolling):**
-  - Jul 23 15:08Z — informational: BTC retweet of Bitcoin Astrology's Sept 23-30 "price meets time" window; calendar + cycle analysis share, no personal action [2080308955884970320]
-  - Jul 20 14:12Z — call: BTC "Cycle Low Update 20 July" analysis link, cycle-low tracking continues [2079207757568176160]
-  - Jul 19 14:25Z — ambiguous: reply "Yes, exactly", scope unknown, awaiting calibration [2078848697656578449]
-  - Jul 19 10:37Z — ambiguous: BTC argumentative reply "completely wrong", disputed claim unknown, awaiting calibration [2078791295221346619]
-  - Jul 18 14:58Z — call: BTC cycle-low price targets shared, consistent with 23–30 Sept window thesis [2078494534049144895]
-  - Jul 18 14:47Z — ambiguous: BTC "Red lines" + chart image, trend-line signal unclear, awaiting calibration [2078491935967228164]
-  - Jul 14 13:04Z — ambiguous: BTC "Pivots play exact as always" + URL, observational vs signal, awaiting calibration
-  - Jul 14 08:04Z — ambiguous: BTC "Soon" right after 10/11 Jul pivot dates, awaiting calibration
+  - Jul 14 08:04Z — ambiguous: "Soon" right after 10/11 Jul pivot dates [no id]
+  - Jul 14 13:04Z — ambiguous: "Pivots play exact as always" + URL [no id]
+  - Jul 18 14:47Z — ambiguous: "Red lines" + chart image [2078491935967228164]
+  - Jul 18 14:58Z — call: BTC cycle-low price targets shared; consistent with 23–30 Sep window [2078494534049144895]
+  - Jul 19 10:37Z — ambiguous: argumentative reply "completely wrong" — disputed claim unknown [2078791295221346619]
+  - Jul 19 14:25Z — ambiguous: "Yes, exactly" — scope unknown [2078848697656578449]
+  - Jul 20 14:12Z — call: BTC "Cycle Low Update 20 July" link; cycle-low tracking continues [2079207757568176160]
+  - Jul 23 15:08Z — informational: BTC retweet of Bitcoin Astrology's Sept 23–30 "price meets time" window [2080308955884970320]
+  - Jul 25 11:37Z — informational: reply @JohnSnow361474 "We better not go there, that would mean multy year bear market"; macro bearish scenario [2080980633162076381]
 
 ## ryzzqq
 - Platforms: X
-- Current open positions: (1) Long filled Jul 9 ("filled some longs here... left ammo for lower, one more leg left before it dies") — likely BTC/crypto, small, unconfirmed since. (2) ELHFI — took profit Jul 16 02:33Z at "decent spot" citing majors weakness (no price/size given); position presumed closed/reduced. (3) TAO — CLOSED Jul 25 02:19Z for -3% loss at 191 entry. Also expressed forward-looking intent (not yet executed): ETH shorts "over the next few days"; SPCX buy interest 120-130 (IPO was 135).
-- Recent thesis: Bullish that July lows are in post-max-FUD; 68K before any 58K revisit, was buying dips. Now rotating: long TAO on AI-narrative rotation as previous leaders lose momentum, while turning tactically bearish ETH (looking for shorts next few days). SPCX contrarian buy interest 120-130 ("betting they crime it into unlocks") vs group bearish lean.
-- Conviction notes: Very low posting volume — low-signal account, so treat any post as relatively high-intent given rarity. Uses clear first-person execution language when acting ("longed some tao", "decent spot to tp"); much of the rest is terse context-dependent replies and personal banter/sports posts that carry no signal.
+- Current open positions: (1) Long filled Jul 9 (likely BTC/crypto, small, unconfirmed). (2) ELHFI — took profit Jul 16 02:33Z; position presumed closed. (3) **TAO — CLOSED Jul 25 02:19Z** for -3% loss at 191 entry. Forward-looking intent (not executed): ETH shorts "over the next few days" (Jul 22); SPCX buy interest 120–130.
+- Recent thesis: Bullish July lows are in post-max-FUD; 68K before 58K revisit. Now rotating: TAO on AI-narrative rotation (closed at loss Jul 25). Tactically bearish ETH short interest next few days. SPCX contrarian buy interest 120–130 vs group bearish lean. LIT bearish — "beta for a reason," 4h downtrend -27% confirmed Jul 25.
+- Conviction notes: Very low posting volume — treat any post as relatively high-intent given rarity. Clear first-person execution language when acting. Rest = terse context-dependent replies and personal banter/sports posts with no signal.
 - Calibration:
-  - PENDING: SPCX "looking to buy 120-130... betting they crime it into unlocks" — is "looking to buy" setup or intent-to-execute? (Jul 14 06:47Z, no id captured)
-  - PENDING: "looking good [URL]" — BTC long performance or SPCX update? [2077075054765244918]
-  - PENDING: "cashcat but delayed [URL]" — onchain commentary vs position reference? [2077272995308204468]
-  - PENDING: "@SolBuysa you know what i mean" — context unknown [2077274999178895508]
-  - PENDING: "@CoinflipApe let them larp" — dismissive of what asset/narrative? [2077278681001812078]
-  - PENDING: "@0120NMiami @megastuffs yes coz risk, rissk riiskkk or any of these wasn't available" — context unknown [2077285601309815282]
-  - PENDING: "@0xbeyonder is it fixed now?" — platform bug, position, or non-trading? [2077954424379760942]
-  - PENDING: "@sidereal118 maybe" — context unknown [2077957777851629586]
-  - PENDING: "@donnieearklano @Supbads will wait for weakness" — add to TAO, ETH short entry, or unrelated? [2079925208136462545]
+  - PENDING: SPCX "looking to buy 120-130... betting they crime it into unlocks" — setup or intent-to-execute? [no id]
+  - PENDING: "looking good [URL]" — BTC long or SPCX update? [2077075054765244918]
+  - PENDING: "cashcat but delayed [URL]" [2077272995308204468]
+  - PENDING: "@SolBuysa you know what i mean" [2077274999178895508]
+  - PENDING: "@CoinflipApe let them larp" [2077278681001812078]
+  - PENDING: "@0120NMiami @megastuffs yes coz risk, rissk riiskkk..." [2077285601309815282]
+  - PENDING: "@0xbeyonder is it fixed now?" [2077954424379760942]
+  - PENDING: "@sidereal118 maybe" [2077957777851629586]
+  - PENDING: "@donnieearklano @Supbads will wait for weakness" — TAO add, ETH short, or unrelated? [2079925208136462545]
 - Last seen: 2026-07-25 02:19:55 UTC
 - **Events (rolling):**
-  - Jul 25 02:19Z — mirror-close: TAO long closed at 191 for -3% loss; no mirror position held by Kyle (approval never given); informational alert sent [2080840438265843816]
-  - Jul 25 02:01Z — informational: LIT technical downtrend analysis, bearish sentiment "beta for a reason"; chart shows 4h decline from 2.7549→1.9870 (27% loss), market observation commentary, no personal trade action [2080835921184792600]
-  - Jul 23 05:36Z — ambiguous: TAO bearish — "@Prof_Meowington i dont think tao is the kind of coin that survives yet another cycle" — contradicts pending LONG entry from 16h prior; unclear if position reversal, conviction downgrade, or separate sentiment; awaiting Kyle calibration [2080165068629504426]
-  - Jul 22 13:43Z — ambiguous: "will wait for weakness" — TAO add vs ETH short vs unrelated [2079925208136462545]
-  - Jul 22 13:25Z — informational: ETH bearish — "will be looking for shorts over the next few days" [2079920865047990357]
-  - Jul 22 13:17Z — trade-entry: TAO market long, add-on-chop planned, AI-rotation thesis; awaiting Kyle approval [2079918768197943558]
-  - Jul 17 03:25Z — ambiguous: "@sidereal118 maybe" context-dependent [2077957777851629586]
-  - Jul 17 03:11Z — ambiguous: "@0xbeyonder is it fixed now?" — system vs position unclear [2077954424379760942]
-  - Jul 16 02:33Z — trade-TP: ELHFI take-profit at "decent spot", majors weakness cited as exit rationale [2077582288083464305]
-  - Jul 15 06:54Z — ambiguous: "risk, rissk riiskkk... wasn't available" — context unknown [2077285601309815282]
-  - Jul 15 06:26Z — ambiguous: "@CoinflipApe let them larp" — target narrative unknown [2077278681001812078]
-  - Jul 15 06:12Z — ambiguous: "@SolBuysa you know what i mean" context-dependent [2077274999178895508]
+  - Jul 14 06:38Z — informational: BTC 68K before 58K revisit, buying dips, month lows in [no id]
+  - Jul 14 16:57Z — ambiguous: "looking good [URL]" — BTC long or SPCX? [2077075054765244918]
+  - Jul 15 06:04Z — ambiguous: "cashcat but delayed [URL]" [2077272995308204468]
   - Jul 15 06:09Z — informational: cashcat — "don't think it has any more squeeze potential left" [2077274339452580246]
-  - Jul 15 06:04Z — ambiguous: cashcat "but delayed [URL]" — scope unresolved [2077272995308204468]
-  - Jul 14 16:57Z — ambiguous: "looking good [URL]" — BTC long or SPCX referent unknown [2077075054765244918]
-  - Jul 14 06:47Z — ambiguous: SPCX "looking to buy 120-130" — setup vs intent, contrarian to group [no id]
-  - Jul 14 06:38Z — informational: BTC 68K before 58K revisit, buying dips 48h, month lows in [no id]
+  - Jul 15 06:26Z — ambiguous: "@CoinflipApe let them larp" [2077278681001812078]
+  - Jul 16 02:33Z — trade-TP: ELHFI take-profit at "decent spot"; majors weakness cited as exit [2077582288083464305]
+  - Jul 17 03:11Z — ambiguous: "@0xbeyonder is it fixed now?" [2077954424379760942]
+  - Jul 17 03:25Z — ambiguous: "@sidereal118 maybe" [2077957777851629586]
+  - Jul 22 13:17Z — trade-entry: TAO market long, add-on-chop planned, AI-rotation thesis; Kyle approval never given [2079918768197943558]
+  - Jul 22 13:25Z — informational: ETH bearish — "will be looking for shorts over the next few days" [2079920865047990357]
+  - Jul 22 13:43Z — ambiguous: "will wait for weakness" — TAO add, ETH short, or unrelated [2079925208136462545]
+  - Jul 23 05:36Z — ambiguous: TAO "don't think tao is the kind of coin that survives yet another cycle" — contradicts Jul 22 long entry [2080165068629504426]
+  - Jul 25 02:01Z — informational: LIT technical downtrend 4h -27%; "beta for a reason" [2080835921184792600]
+  - Jul 25 02:19Z — mirror-close: TAO long closed at 191 for -3% loss; Kyle never mirrored [2080840438265843816]
 
 ## abetrade
 - Platforms: X
 - Current open positions: None stated.
-- Recent thesis: Near-silent, educational/system-design focus — trading frequency, signal speed, market diversity, rebalancing cadence (weekly equities, monthly futures, daily crypto). Views crypto as still very inefficient (better retail edge than the most liquid futures markets); notes tradfi perps' success with CME single-stock futures and spot-quoted futures converging toward perp structure. Believes 99% of people should just buy index funds.
-- Conviction notes: Educational/structural, low posting frequency; when he posts it's usually substantive market-structure or system-design analysis, rarely positional. NEW PATTERN (Jul 20–22): three cryptic URL-only/minimal-context posts in 3 days — uncharacteristic escalation, possibly coded signals or external-content shares; all pending Kyle calibration.
-- Calibration: none yet.
-  - PENDING: Jul 20 16:15 "@breakoutprop" + URL — endorsement, chart reaction, or attention-direct? [2079238682008072510]
-  - PENDING: Jul 21 19:59 bare URL, zero context — financial significance unknown [2079657627240280087]
-  - PENDING: Jul 21 20:03 second bare URL — intent/linked content unknown [2079658633135100210]
-  - PENDING: Jul 22 09:43 "@maruushae" + URL — 3rd cryptic post in 3 days; is the pattern an intentional coded-signal strategy, and what rule for future abetrade cryptic URL posts? [2079864871001206910]
-- Last seen: 2026-07-25 07:37:51 UTC
+- Recent thesis: Near-silent, educational/system-design focus — trading frequency, signal speed, market diversity, rebalancing cadence. Views crypto as still inefficient (better retail edge than most liquid futures). Jul 26: free trading education course (market microstructure, derivatives, options, futures, crypto, risk, statistics, strategies, AI) — comprehensive curriculum share.
+- Conviction notes: Educational/structural, very low posting frequency; when posting it's substantive market-structure analysis, rarely positional. NEW PATTERN Jul 20–22: four cryptic URL-only/minimal-context posts in 5 days (uncharacteristic escalation, possibly coded signals or external content shares; all PENDING Kyle calibration). "yardbird" Jul 25 continues the pattern.
+- Calibration: None answered.
+  - PENDING: Jul 20 16:15 "@breakoutprop" + URL [2079238682008072510]
+  - PENDING: Jul 21 19:59 bare URL [2079657627240280087]
+  - PENDING: Jul 21 20:03 second bare URL [2079658633135100210]
+  - PENDING: Jul 22 09:43 "@maruushae" + URL — 3rd cryptic in 3 days; intentional coded-signal strategy? [2079864871001206910]
+  - PENDING: Jul 25 07:37 "@liquiditygoblin yardbird" — 4th cryptic post [2080920447730758056]
+- Last seen: 2026-07-26 15:52:07 UTC
 - **Events (rolling):**
-  - Jul 26 15:52Z — informational: free trading education course curriculum (market microstructure, derivatives, options, futures, crypto, risk, statistics, strategies, AI); comprehensive educational resource, no personal trade action [2081407289873822086]
-  - Jul 25 07:37Z — ambiguous: @liquiditygoblin "yardbird" single cryptic word, terse mention reply, 4th cryptic post in rolling pattern, calibration alert sent [2080920447730758056]
-  - Jul 20 16:15Z — ambiguous: cryptic @breakoutprop mention + URL, no context, awaiting calibration [2079238682008072510]
+  - Jul 20 16:15Z — ambiguous: @breakoutprop + URL, no context [2079238682008072510]
   - Jul 20 17:22Z — commentary: BTC spot-vol correlation is negative — vol spikes on moves down, not up [2079255516451123529]
-  - Jul 21 19:59Z — ambiguous: bare URL, zero context, awaiting calibration [2079657627240280087]
-  - Jul 21 20:03Z — ambiguous: second bare URL in same evening, awaiting calibration [2079658633135100210]
-  - Jul 22 09:43Z — ambiguous: @maruushae + URL, 3rd cryptic post in 3 days, pattern escalation, awaiting calibration [2079864871001206910]
-
-## trading_axe
-- Platforms: X (X-only)
-- Current open positions: None documented.
-- Recent thesis: Not yet established (new trader, minimal observation window).
-- Conviction notes: First sighting Jul 24. Limited posting sample; terse cryptic reply format requires calibration to establish baseline pattern/signal quality.
-- Calibration: No answered calibrations yet.
-  - PENDING: Jul 24 19:45Z reply to @RyanJon06636091 "BTC / perp DEXs. ~ Dr. Axius." — unclear intent (setup ref, agreement, chart link?) awaiting Kyle calibration [2080741181298725312]
-- Last seen: 2026-07-26 06:27:27 UTC
-- **Events (rolling):**
-  - Jul 26 06:27Z — informational: BTC/alts commentary — "Bitcoin to altcoins every time it flinches even -1%" + media (video). Market observation on inverse altcoin volatility relative to BTC; sarcastic/critical tone; no personal execution language [2081265120911524320]
-  - Jul 24 19:45Z — ambiguous: reply to @RyanJon06636091 "BTC / perp DEXs. ~ Dr. Axius." cryptic minimal context, awaiting calibration [2080741181298725312]
-
-## Bitcoin_Astro
-- Platforms: X (X-only)
-- Current open positions: None documented.
-- Recent thesis: Not yet established (marginal trader, minimal observation window).
-- Conviction notes: First sighting Jul 25. Limited posting sample; reply-format sentiment commentary; requires observation to establish pattern/signal quality.
-- Calibration: None yet.
-- Last seen: 2026-07-25 11:37:00 UTC
-- **Events (rolling):**
-  - Jul 25 11:37Z — informational: reply to @JohnSnow361474 bearish scenario sentiment "We better not go there, that would mean multy year bear market"; context-dependent on original post (what is 'there'?); macro bearish directional view, no personal trade action [2080980633162076381]
-
-## Stoiiic
-- Platforms: X (X-only)
-- Current open positions: None documented.
-- Recent thesis: Not yet established (new tracker, first market post expected Jul 26).
-- Conviction notes: First sighting Jul 26. Mixed content (non-financial banter + motivational posts + cryptic market commentary). Watched for Sunday market activity per morning-brief flag "Stoiiic 'see you Sunday' — today IS Sunday; first market post expected; any financial signal notable". Requires observation to establish baseline pattern/signal quality.
-- Calibration: None yet.
-  - PENDING: Jul 26 17:06 "hello, BTC update to start off the week?" — setup for incoming analysis, question seeking input, or thread opening? Ambiguous, calibration alert sent [2081425993089069139]
-- Last seen: 2026-07-26 19:17:49 UTC
-- **Events (rolling):**
-  - Jul 26 19:17Z — informational: $CL crude oil short position +5% gain (2 days post-entry on Jul 24 07:35Z), validating bearish breakout thesis; position update commentary, no action [2081458988030562791]
-  - Jul 26 17:06Z — ambiguous: "hello, BTC update to start off the week?" very short cryptic question, no execution language or position description, awaiting calibration [2081425993089069139]
-  - Jul 26 16:31Z — skip: personal greeting reply "@Evan_ss6 @lBattleRhino hey now", non-financial platform banter [2081424370807775705]
-  - Jul 26 15:59Z — skip: non-financial motivational content "keep going" + exponential growth persistence chart, personal/inspirational message [2081273335543943187]
+  - Jul 21 19:59Z — ambiguous: bare URL, zero context [2079657627240280087]
+  - Jul 21 20:03Z — ambiguous: second bare URL same evening [2079658633135100210]
+  - Jul 22 09:43Z — ambiguous: @maruushae + URL, 3rd cryptic in 3 days [2079864871001206910]
+  - Jul 25 07:37Z — ambiguous: "@liquiditygoblin yardbird" single-word cryptic; 4th in pattern [2080920447730758056]
+  - Jul 26 15:52Z — informational: free trading education course curriculum; no personal trade action [2081407289873822086]
