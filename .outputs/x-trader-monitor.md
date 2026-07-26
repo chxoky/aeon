@@ -31,3 +31,10 @@ Cause I can assure you, there's not a chance in hell I'll ever trade on a platfo
 I'd rather trade on a CEX with deep order books and strong liquidity than risk dealing with failures when volatility hits.
 
 [View tweet](https://x.com/KillaXBT/status/2081505588022788225)
+Just remember what actually went down on Hyperliquid during the 10/10 cascade. Roughly $16 billion got liquidated across the whole market that day. About $9 billion of it was on Hyperliquid alone.
+
+Hyperliquid isn't bigger than Bybit or Binance. Yet it produced liquidations roughly double the size of both of them combined. Binance had around $1B liquidated. Hyperliquid? $9.2B.
+
+These DEXes don't just facilitate trades. A big chunk of the business model is the liquidation engine itself, extracting value the second people get forced out.
+
+[View tweet](https://x.com/KillaXBT/status/2081506471636849060)

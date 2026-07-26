@@ -74,7 +74,7 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - PENDING: Jul 15 14:44 "$BTC ✅" + URL — execution confirmation vs thesis update? [2077403896775840078]
   - PENDING: Jul 15 17:13 "your pivots don't work... hold my 🍺" + URL — chart evidence of scalp-short or general validation? [2077441531833725305]
   - PENDING: Jul 16 14:22 "I'm just the messenger. 750-1000D mark... $BTC" — daily-chart level, point target, or external analysis reference? [2077760851990204576]
-- Last seen: 2026-07-26 19:03:11 UTC
+- Last seen: 2026-07-26 22:26:30 UTC
 - **Events (rolling):**
   - Jul 23 13:40Z — ambiguous: BitMEX "10/10" reference, unclear context [2080286985680240657]
   - Jul 23 14:47Z — informational: BTC weekly fakeout above downtrend; 45% Kalshi expects $50K before $100K [2080303859012878799]
@@ -101,6 +101,7 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - Jul 26 14:29Z — informational: BTC key pivot date (the 29th); 6/7 prior pivot dates resolved bearishly; scenario: sweep highs OR dump to 61–62K [2081386338683650126]
   - Jul 26 16:46Z — informational: BTC miner capitulation — worst cycle in history vs 2014/2018/2022; multi-cycle chart with difficulty overlay [2081420944279494777]
   - Jul 26 19:03Z — informational: BTC position reinforcement — reply to @msszett confirming ongoing accumulation, reaffirming 2x long position [2081455305800515755]
+  - Jul 26 22:26Z — informational: DEX/exchange risk commentary — critical analysis of DEXes (Hyperliquid focus) based on 10/10 liquidation cascade; protocol liquidation-engine business model critique [2081506471636849060]
 
 ## Crypto_Chase
 - Platforms: X + Discord (primary 1336082716063694962; TradFi supporting 1343971265962049597; Crypto supporting 1247927786681794601 — member Q&A)
