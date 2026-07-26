@@ -1,0 +1,31 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet_card",
+        "link_tweet"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "abetrade",
+        "handle": "@abetrade",
+        "text": "There are a ton of trading courses out there, unfortunately for the most part the space is full of low-quality grift, where the vast majority of education is only about technical analysis with no explanation of the underlying mechanics or why certain systems actually make money.\n\nI've spent quite a bit of time putting together something hopefully different, breaking down market microstructure, the major asset classes, options, futures, and other derivatives into a proper framework, followed by an in-depth chapters about risk, statistics, and how returns are actually generated in markets.\n\nSeveral low-frequency strategies that harvest long-documented risk premiums, each with an exact, systematic process that leaves very little to discretion and are tradable across equities, futures or crypto.\n\nThe whole thing is completely free without sign-ups, or opt-ins, link in next post"
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/abetrade/status/2081407289873822086"
+      }
+    }
+  }
+}

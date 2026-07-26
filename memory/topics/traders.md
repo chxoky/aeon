@@ -832,6 +832,7 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - PENDING: Jul 22 09:43 "@maruushae" + URL — 3rd cryptic post in 3 days; is the pattern an intentional coded-signal strategy, and what rule for future abetrade cryptic URL posts? [2079864871001206910]
 - Last seen: 2026-07-25 07:37:51 UTC
 - **Events (rolling):**
+  - Jul 26 15:52Z — informational: free trading education course curriculum (market microstructure, derivatives, options, futures, crypto, risk, statistics, strategies, AI); comprehensive educational resource, no personal trade action [2081407289873822086]
   - Jul 25 07:37Z — ambiguous: @liquiditygoblin "yardbird" single cryptic word, terse mention reply, 4th cryptic post in rolling pattern, calibration alert sent [2080920447730758056]
   - Jul 20 16:15Z — ambiguous: cryptic @breakoutprop mention + URL, no context, awaiting calibration [2079238682008072510]
   - Jul 20 17:22Z — commentary: BTC spot-vol correlation is negative — vol spikes on moves down, not up [2079255516451123529]
