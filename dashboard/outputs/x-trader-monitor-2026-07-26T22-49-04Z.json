@@ -1,0 +1,71 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading-calibration",
+        "stack-content"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Stoiiic",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-event",
+        "tweet-stoiiic",
+        "alert-classify",
+        "link-view"
+      ]
+    },
+    "text-event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Trader's recent context — 22:07Z BTC squeeze into 7d rolling vwap, market consolidation",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "tweet-stoiiic": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "Stoiiic",
+        "text": "short squeezing hour"
+      },
+      "children": []
+    },
+    "alert-classify": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification",
+        "message": "Unable to classify — is this current market observation, technical setup alert, or prediction? What's your read?",
+        "type": "info"
+      },
+      "children": []
+    },
+    "link-view": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Stoiiic/status/2081509946399629480"
+      },
+      "children": []
+    }
+  }
+}

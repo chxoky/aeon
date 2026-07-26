@@ -16,3 +16,11 @@ Perfect! I've successfully executed the x-trader-monitor skill for the Stoiiic e
 5. ✅ Event logged to memory/logs/2026-07-26.md for audit trail
 
 **Result:** No notification sent. Per the skill, non-financial personal commentary on health/fitness is logged silently—Kyle receives only actionable financial signals, trade actions, and ambiguous content requiring calibration.
+🔍 *Calibration — @Stoiiic*
+
+Event: Trader's recent context — 22:07Z BTC squeeze into 7d rolling vwap, market consolidation
+Stoiiic: "short squeezing hour"
+
+Unable to classify — is this current market observation, technical setup alert, or prediction? What's your read?
+
+[View post](https://x.com/Stoiiic/status/2081509946399629480)
