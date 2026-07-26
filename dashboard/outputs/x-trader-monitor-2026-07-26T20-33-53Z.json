@@ -1,0 +1,116 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweetcard_wild",
+        "link_tweet",
+        "sep1",
+        "heading_perspectives",
+        "stack_quotes",
+        "sep2",
+        "heading_context",
+        "text_analysis"
+      ]
+    },
+    "tweetcard_wild": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Sharing thread on S&P 500 short squeeze potential + bullish equity sentiment"
+      },
+      "children": []
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2081476866557305132"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_perspectives": {
+      "type": "Heading",
+      "props": {
+        "text": "Perspectives"
+      },
+      "children": []
+    },
+    "stack_quotes": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_endless",
+        "text_squawk",
+        "text_rick",
+        "text_thomas"
+      ]
+    },
+    "text_endless": {
+      "type": "Text",
+      "props": {
+        "text": "Endless Capital: \"EVERYTHING IS GOING TO EXPLODE HIGHER\""
+      },
+      "children": []
+    },
+    "text_squawk": {
+      "type": "Text",
+      "props": {
+        "text": "First Squawk: Short interest in SPX at 15-year high"
+      },
+      "children": []
+    },
+    "text_rick": {
+      "type": "Text",
+      "props": {
+        "text": "Rick J: \"Another meltup... S&P 8000 is in the cards\""
+      },
+      "children": []
+    },
+    "text_thomas": {
+      "type": "Text",
+      "props": {
+        "text": "Thomas James: \"Generational Short Squeeze\" setup"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_context": {
+      "type": "Heading",
+      "props": {
+        "text": "Context"
+      },
+      "children": []
+    },
+    "text_analysis": {
+      "type": "Text",
+      "props": {
+        "text": "External commentary thread, not Wild_Randomness's personal action. Sentiment aligns with Crypto_Chase's SPX bullish bias but offers bearish counter-narrative from broader equities caution.",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
