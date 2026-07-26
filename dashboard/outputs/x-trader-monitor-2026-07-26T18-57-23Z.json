@@ -1,0 +1,60 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "separator_1",
+        "link_section"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "@Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Market Structure Analysis — Volatility Asymmetry\n\nI don't believe it to be the case fwiw, there are simply too many passive flows + algos/HFTs that will auto-bid these headlines... But the obvious left tail scenario staring everyone in the face is they are no longer successful in controlling vol.\n\nSo while there is a low likelihood for this coming to fruition, the payoff for owning some 2-3 month vol into this Jump the Shark moment is incredibly asymmetric."
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "view_tweet_link",
+        "analysis_note"
+      ]
+    },
+    "view_tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2081452477237399711"
+      },
+      "children": []
+    },
+    "analysis_note": {
+      "type": "Text",
+      "props": {
+        "text": "Reinforces volatility asymmetry thesis (DVOL 2nd percentile thesis from Jul 21). SP500/majors showing consolidation structure.",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
