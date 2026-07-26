@@ -1,0 +1,232 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor: Calibration"
+      },
+      "children": [
+        "heading_subtitle",
+        "separator_1",
+        "message_section",
+        "separator_2",
+        "context_section",
+        "separator_3",
+        "question_alert"
+      ]
+    },
+    "heading_subtitle": {
+      "type": "Heading",
+      "props": {
+        "text": "DC: HCH — Chat",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "message_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "message_label",
+        "message_content"
+      ]
+    },
+    "message_label": {
+      "type": "Text",
+      "props": {
+        "text": "Message:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "message_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "message_text",
+        "message_meta"
+      ]
+    },
+    "message_text": {
+      "type": "Text",
+      "props": {
+        "text": "\"Fc btc 1hr\""
+      },
+      "children": []
+    },
+    "message_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "meta_timestamp",
+        "meta_channel"
+      ]
+    },
+    "meta_timestamp": {
+      "type": "Badge",
+      "props": {
+        "text": "2026-07-26T19:00Z",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "meta_channel": {
+      "type": "Badge",
+      "props": {
+        "text": "Chat channel",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_label",
+        "context_items"
+      ]
+    },
+    "context_label": {
+      "type": "Text",
+      "props": {
+        "text": "Historical context:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "context_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_item_1",
+        "context_item_2",
+        "context_item_3"
+      ]
+    },
+    "context_item_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context_1_date",
+        "context_1_text"
+      ]
+    },
+    "context_1_date": {
+      "type": "Badge",
+      "props": {
+        "text": "Jul 25-26",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "context_1_text": {
+      "type": "Text",
+      "props": {
+        "text": "Similar messages classified as \"form-confirmed\" (Fc) chart callouts"
+      },
+      "children": []
+    },
+    "context_item_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context_2_date",
+        "context_2_text"
+      ]
+    },
+    "context_2_date": {
+      "type": "Badge",
+      "props": {
+        "text": "Jul 6 14:21:43Z",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "context_2_text": {
+      "type": "Text",
+      "props": {
+        "text": "Identical pattern marked ambiguous and never clarified"
+      },
+      "children": []
+    },
+    "context_item_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context_3_label",
+        "context_3_text"
+      ]
+    },
+    "context_3_label": {
+      "type": "Badge",
+      "props": {
+        "text": "Recent messages",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "context_3_text": {
+      "type": "Text",
+      "props": {
+        "text": "\"Fc btc 30m\", \"Fc btc 15m\" treated as informational"
+      },
+      "children": []
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "question_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Clarification needed",
+        "message": "Is \"Fc btc 1hr\" a form-confirmed chart observation, a filled confirmation, or something else?",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}

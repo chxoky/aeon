@@ -406,6 +406,9 @@ BOOTSTRAP_COMPLETE: 2026-07-14
 - Last seen: 2026-07-26 18:56:30 UTC
 - **Events (rolling):**
   - Jul 26 18:56Z — informational: Comments channel (primary) "We have that leg up" — reply to own Jul 25 09:43Z W-pattern observation ("Kindergarten kid drawing W on chart" with unequal legs); confirming technical structure playing out as expected (first leg of W established); no execution language or position change; discord-trader-monitor real-time, fast-path-alerted [1531012357298589767]
+- Last seen: 2026-07-26 19:00:07 UTC
+- **Events (rolling):**
+  - Jul 26 19:00Z — ambiguous: Chat channel (supporting) "Fc btc 1hr" — cryptic chart notation, exact meaning unclear (may indicate form-confirmed 1h chart, filled confirmation, or other); matching historical pattern from Jul 6 14:21:43Z marked ambiguous; calibration alert sent [1531013265075736657]
   - Jul 26 06:55Z — informational: Comments channel (primary) "Fc btc 15m wide" — form-confirmed BTC 15-minute chart callout; reply to own Jul 25 09:43Z message about W-pattern and weekend chop; technical notation reinforcing market outlook, no position change or execution language; discord-trader-monitor real-time, fast-path-alerted [1530830899321765999]
   - Jul 26 18:54Z — ambiguous: Free channel (primary) "Fc btc 15m" — cryptic abbreviation matching unexplained prior pattern (Jul 6 14:21:43Z: "Fc btc 1hr" marked ambiguous, never clarified); unclear if force-close, filled confirmation, chart check, or other action on BTC 15m timeframe; awaiting calibration [1531011932797276231]
 

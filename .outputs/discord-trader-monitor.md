@@ -1,8 +1,11 @@
-🔍 *Calibration — [DC: HCH — Free]*
+🔍 *Calibration — [DC: HCH — Chat]*
 
-Event: HCH has posted this cryptic abbreviation twice now (prior: Jul 6 'Fc btc 1hr', now: 'Fc btc 15m')
+Message: "Fc btc 1hr" (2026-07-26T19:00Z, Chat channel)
 
-HCH: "Fc btc 15m"
+This appears to be a chart notation. Historical context:
+- Jul 25-26: Similar messages classified as "form-confirmed" (Fc) chart callouts
+- Jul 6 14:21:43Z: Identical pattern marked ambiguous and never clarified
+- Recent messages: "Fc btc 30m", "Fc btc 15m" treated as informational
 
 Unable to classify — 'Fc' could mean force-close, filled confirmation, chart check, or other action. Same pattern as Jul 6 message which was never clarified. What's your read?
 Perfect! I've successfully executed the discord-trader-monitor skill for the HeartCanHodl message. Here's what happened:
@@ -28,3 +31,4 @@ Perfect! I've successfully executed the discord-trader-monitor skill for the Hea
 3. ✅ Logged to memory/logs/2026-07-26.md with full event context
 
 No alerts were sent (handled by fast-path), and all memory has been properly updated.
+Is "Fc btc 1hr" a form-confirmed chart observation, a filled confirmation, or something else?
