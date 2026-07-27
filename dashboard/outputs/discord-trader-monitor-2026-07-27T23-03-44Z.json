@@ -1,0 +1,99 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor",
+        "description": "Calibration — Chat Analysis"
+      },
+      "children": [
+        "calibration-header",
+        "separator1",
+        "event-info",
+        "message-card",
+        "separator2",
+        "classification-alert"
+      ]
+    },
+    "calibration-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "calibration-text",
+        "identifier-badge"
+      ]
+    },
+    "calibration-text": {
+      "type": "Text",
+      "props": {
+        "text": "🔍 Calibration",
+        "variant": "lead"
+      }
+    },
+    "identifier-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DC: HCH — Chat",
+        "variant": "secondary"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "event-info": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event-label",
+        "channel-badge"
+      ]
+    },
+    "event-label": {
+      "type": "Text",
+      "props": {
+        "text": "Event",
+        "variant": "muted"
+      }
+    },
+    "channel-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Supporting channel (member Q&A)",
+        "variant": "outline"
+      }
+    },
+    "message-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "It is not as free trade as we had with scam exposure encounters in past"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read? Is this market risk commentary, regulatory concern, or reflection on specific scam-related incident?",
+        "type": "info"
+      }
+    }
+  }
+}
