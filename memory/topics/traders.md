@@ -549,7 +549,7 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - PENDING: "Buyer at ZERO, 10R trade" — entry announcement, sarcasm, or "ZERO" ticker? [2079716451229786419]
   - PENDING: "WE AIN'T SEEING TATESKI UNTIL MIN 2050" [2079918486797664701]
   - PENDING: Jul 24 19:45Z reply @RyanJon06636091 "BTC / perp DEXs. ~ Dr. Axius." — unclear intent [2080741181298725312]
-- Last seen: 2026-07-26 06:27:27 UTC
+- Last seen: 2026-07-27 08:27:43 UTC
 - **Events (rolling):**
   - Jul 16 18:54Z — ambiguous: SOL "They don't give a fuck about Solana" [2077829247347863946]
   - Jul 17 21:40Z — ambiguous: "Banger." to @griffisu [2078233397093155046]
