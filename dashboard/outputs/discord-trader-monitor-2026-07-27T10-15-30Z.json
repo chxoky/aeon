@@ -1,0 +1,160 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Calibration — DC: HCH — Chat"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-pattern",
+        "text-discovered",
+        "badge-pattern",
+        "text-timeline",
+        "sep-1",
+        "heading-questions",
+        "stack-questions",
+        "sep-2",
+        "alert-classification"
+      ]
+    },
+    "heading-pattern": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Pattern Investigation",
+        "level": "h2"
+      }
+    },
+    "text-discovered": {
+      "type": "Text",
+      "props": {
+        "text": "Pattern format detected:",
+        "variant": "lead"
+      }
+    },
+    "badge-pattern": {
+      "type": "Badge",
+      "props": {
+        "text": "Fc {ticker} {tf}",
+        "variant": "outline"
+      }
+    },
+    "text-timeline": {
+      "type": "Text",
+      "props": {
+        "text": "Appeared multiple times: Jul 26–27",
+        "variant": "caption"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-questions": {
+      "type": "Heading",
+      "props": {
+        "text": "Classification Questions",
+        "level": "h3"
+      }
+    },
+    "stack-questions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "q1-group",
+        "q2-group",
+        "q3-group"
+      ]
+    },
+    "q1-group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-example",
+        "text-q1"
+      ]
+    },
+    "badge-example": {
+      "type": "Badge",
+      "props": {
+        "text": "Example: Fc bank 15m",
+        "variant": "secondary"
+      }
+    },
+    "text-q1": {
+      "type": "Text",
+      "props": {
+        "text": "Is this a form-confirmed chart callout or just technical observation?",
+        "variant": "body"
+      }
+    },
+    "q2-group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-q2"
+      ]
+    },
+    "text-q2": {
+      "type": "Text",
+      "props": {
+        "text": "What is the \"bank\" ticker? (banking sector, token, or something else?)",
+        "variant": "body"
+      }
+    },
+    "q3-group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-q3"
+      ]
+    },
+    "text-q3": {
+      "type": "Text",
+      "props": {
+        "text": "Pattern meaning still unconfirmed — awaiting classification.",
+        "variant": "body"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert-classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read?",
+        "type": "info"
+      }
+    }
+  }
+}
