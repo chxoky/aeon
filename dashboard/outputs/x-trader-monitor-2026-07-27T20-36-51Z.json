@@ -1,0 +1,125 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet-stack",
+        "separator",
+        "position-section"
+      ]
+    },
+    "tweet-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet",
+        "tweet-link"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "Time and time again.\n\nThe market keeps proving the same lessons to those willing to pay attention.\n\nCome trade $CL alongside me in Discord: https://t.co/dQjfMMBVNF https://t.co/12RuJSDia9"
+      }
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/HeartCanHodl/status/2081839706460008553"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "position-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "position-title",
+        "position-details",
+        "pnl-stat",
+        "action-info"
+      ]
+    },
+    "position-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Position Details",
+        "level": "h3"
+      }
+    },
+    "position-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "instrument-badge",
+        "direction-badge",
+        "size-badge",
+        "entry-text"
+      ]
+    },
+    "instrument-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "$CL",
+        "variant": "default"
+      }
+    },
+    "direction-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Short",
+        "variant": "secondary"
+      }
+    },
+    "size-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "2% Portfolio",
+        "variant": "outline"
+      }
+    },
+    "entry-text": {
+      "type": "Text",
+      "props": {
+        "text": "Entered Jul 24 @ ~$90",
+        "variant": "caption"
+      }
+    },
+    "pnl-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Unrealized P&L",
+        "value": "+5%",
+        "trend": "up"
+      }
+    },
+    "action-info": {
+      "type": "Text",
+      "props": {
+        "text": "Conviction reinforcement + Discord community recruitment. No new position action.",
+        "variant": "muted"
+      }
+    }
+  }
+}
