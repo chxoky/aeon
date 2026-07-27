@@ -1,0 +1,171 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "heading-calibration",
+        "channel-section",
+        "separator-1",
+        "message-section",
+        "separator-2",
+        "analysis-section"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: HCH — Chat]",
+        "level": "h2"
+      }
+    },
+    "channel-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "channel-label",
+        "channel-text"
+      ]
+    },
+    "channel-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Channel Context",
+        "level": "h3"
+      }
+    },
+    "channel-text": {
+      "type": "Text",
+      "props": {
+        "text": "Supporting member Q&A (real-time conviction shifts)",
+        "variant": "lead"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "message-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "message-label",
+        "message-content"
+      ]
+    },
+    "message-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Message",
+        "level": "h3"
+      }
+    },
+    "message-content": {
+      "type": "Alert",
+      "props": {
+        "message": "Assuming they won't squeeze high lev users beyond 14-15%",
+        "type": "info"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "analysis-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis-label",
+        "trigger-text",
+        "separator-3",
+        "classification-label",
+        "classification-stack",
+        "separator-4",
+        "question-alert"
+      ]
+    },
+    "analysis-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Interpretation Challenge",
+        "level": "h3"
+      }
+    },
+    "trigger-text": {
+      "type": "Text",
+      "props": {
+        "text": "Trigger: Vague observation about liquidation/squeeze mechanics — who is \"they\"? Is this:",
+        "variant": "lead"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "classification-label": {
+      "type": "Text",
+      "props": {
+        "text": "Possible Classifications:",
+        "variant": "body"
+      }
+    },
+    "classification-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "class-1",
+        "class-2",
+        "class-3"
+      ]
+    },
+    "class-1": {
+      "type": "Badge",
+      "props": {
+        "text": "Commentary on exchange behavior (Binance/Hyperliquid mechanics)",
+        "variant": "outline"
+      }
+    },
+    "class-2": {
+      "type": "Badge",
+      "props": {
+        "text": "Market/whale squeeze observation",
+        "variant": "outline"
+      }
+    },
+    "class-3": {
+      "type": "Badge",
+      "props": {
+        "text": "Conviction statement on position viability",
+        "variant": "outline"
+      }
+    },
+    "separator-4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "question-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to Classify",
+        "message": "What's your read?",
+        "type": "warning"
+      }
+    }
+  }
+}
