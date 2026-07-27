@@ -1,0 +1,232 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "X-Trader Monitor",
+        "description": "Calibration analysis of @HeartCanHodl activity"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_title",
+        "heading_event",
+        "text_event_intro",
+        "tweetcard_main",
+        "separator1",
+        "heading_context",
+        "text_portfolio",
+        "stack_tokens",
+        "text_recent",
+        "separator2",
+        "heading_analysis",
+        "text_unable",
+        "stack_options",
+        "text_question",
+        "separator3",
+        "link_tweet"
+      ]
+    },
+    "heading_title": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @HeartCanHodl",
+        "level": "h2"
+      }
+    },
+    "heading_event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "text_event_intro": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to @panicselling"
+      }
+    },
+    "tweetcard_main": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "@panicselling Panic sell"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_context": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "text_portfolio": {
+      "type": "Text",
+      "props": {
+        "text": "Currently holding ~30-35% portfolio short"
+      }
+    },
+    "stack_tokens": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_btc",
+        "badge_eth",
+        "badge_sol",
+        "badge_hype",
+        "badge_zec",
+        "badge_uni",
+        "badge_vvv",
+        "badge_cl"
+      ]
+    },
+    "badge_btc": {
+      "type": "Badge",
+      "props": {
+        "text": "BTC"
+      }
+    },
+    "badge_eth": {
+      "type": "Badge",
+      "props": {
+        "text": "ETH"
+      }
+    },
+    "badge_sol": {
+      "type": "Badge",
+      "props": {
+        "text": "SOL"
+      }
+    },
+    "badge_hype": {
+      "type": "Badge",
+      "props": {
+        "text": "HYPE"
+      }
+    },
+    "badge_zec": {
+      "type": "Badge",
+      "props": {
+        "text": "ZEC"
+      }
+    },
+    "badge_uni": {
+      "type": "Badge",
+      "props": {
+        "text": "UNI"
+      }
+    },
+    "badge_vvv": {
+      "type": "Badge",
+      "props": {
+        "text": "VVV"
+      }
+    },
+    "badge_cl": {
+      "type": "Badge",
+      "props": {
+        "text": "CL"
+      }
+    },
+    "text_recent": {
+      "type": "Text",
+      "props": {
+        "text": "Recent posts show active short adds (kaito, ETH, ZEC) in past 2 hours"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_analysis": {
+      "type": "Heading",
+      "props": {
+        "text": "Classification",
+        "level": "h3"
+      }
+    },
+    "text_unable": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — this is either:",
+        "variant": "body"
+      }
+    },
+    "stack_options": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_option_a",
+        "text_option_b",
+        "text_option_c"
+      ]
+    },
+    "text_option_a": {
+      "type": "Text",
+      "props": {
+        "text": "(a) Market sentiment observation",
+        "variant": "body"
+      }
+    },
+    "text_option_b": {
+      "type": "Text",
+      "props": {
+        "text": "(b) Endorsement of panic-selling market behavior (bullish for his short thesis)",
+        "variant": "body"
+      }
+    },
+    "text_option_c": {
+      "type": "Text",
+      "props": {
+        "text": "(c) Cryptic reference to something specific",
+        "variant": "body"
+      }
+    },
+    "text_question": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "lead"
+      }
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/HeartCanHodl/status/2081679243671736680"
+      }
+    }
+  }
+}
