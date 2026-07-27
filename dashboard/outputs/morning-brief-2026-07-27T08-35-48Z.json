@@ -1,0 +1,341 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-07-27"
+      },
+      "children": [
+        "section_focus",
+        "sep1",
+        "section_since",
+        "sep2",
+        "section_watch",
+        "sep3",
+        "section_running"
+      ]
+    },
+    "section_focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_focus",
+        "focus_kaito",
+        "focus_fomc",
+        "focus_uni"
+      ]
+    },
+    "heading_focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "focus_kaito": {
+      "type": "Alert",
+      "props": {
+        "title": "HCH KAITO short",
+        "message": "PENDING APPROVAL — 2% entry ~$1.1867, 07:41Z. Reply `approve KAITO` or skip",
+        "type": "warning"
+      }
+    },
+    "focus_fomc": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_fomc_title",
+        "stat_eth_fomc",
+        "text_fomc_defi"
+      ]
+    },
+    "text_fomc_title": {
+      "type": "Text",
+      "props": {
+        "text": "FOMC T-1 + Killa Jul 28 pivot",
+        "variant": "lead"
+      }
+    },
+    "stat_eth_fomc": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "+4.5%",
+        "trend": "up"
+      }
+    },
+    "text_fomc_defi": {
+      "type": "Text",
+      "props": {
+        "text": "DeFi green; positioning window closes tonight"
+      }
+    },
+    "focus_uni": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_uni_title",
+        "stat_uni_focus",
+        "text_uni_context"
+      ]
+    },
+    "text_uni_title": {
+      "type": "Text",
+      "props": {
+        "text": "HCH UNI short vs UNI movement",
+        "variant": "lead"
+      }
+    },
+    "stat_uni_focus": {
+      "type": "Stat",
+      "props": {
+        "label": "UNI",
+        "value": "+6.5%",
+        "trend": "up"
+      }
+    },
+    "text_uni_context": {
+      "type": "Text",
+      "props": {
+        "text": "Live adverse move on 2% active short; watch for basket trim"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_since": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_since",
+        "since_item_kaito",
+        "since_item_chase",
+        "since_item_eth",
+        "since_item_shib"
+      ]
+    },
+    "heading_since": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "since_item_kaito": {
+      "type": "Text",
+      "props": {
+        "text": "HCH: KAITO short entered 07:41Z (2% allocation, target 0.82–0.86, −30%); fast-path alerted"
+      }
+    },
+    "since_item_chase": {
+      "type": "Text",
+      "props": {
+        "text": "Chase: MU/SNDK hit 80% cumulative TPs today (MU @941, SNDK @1480); 20% remains, stops at BE"
+      }
+    },
+    "since_item_eth": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_eth_title",
+        "stats_eth_moves",
+        "text_defi_green"
+      ]
+    },
+    "text_eth_title": {
+      "type": "Text",
+      "props": {
+        "text": "ETH rotation live",
+        "variant": "lead"
+      }
+    },
+    "stats_eth_moves": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat_eth_24h_since",
+        "stat_ethbtc_24h"
+      ]
+    },
+    "stat_eth_24h_since": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "+4.5%",
+        "trend": "up"
+      }
+    },
+    "stat_ethbtc_24h": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH/BTC",
+        "value": "+3.1%",
+        "trend": "up"
+      }
+    },
+    "text_defi_green": {
+      "type": "Text",
+      "props": {
+        "text": "AAVE/UNI/ONDO all 6–9% green"
+      }
+    },
+    "since_item_shib": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_shib_header",
+        "stat_shib",
+        "text_shib_context"
+      ]
+    },
+    "text_shib_header": {
+      "type": "Text",
+      "props": {
+        "text": "SHIB −8.5% reversal confirmed",
+        "variant": "lead"
+      }
+    },
+    "stat_shib": {
+      "type": "Stat",
+      "props": {
+        "label": "SHIB",
+        "value": "−8.5%",
+        "trend": "down"
+      }
+    },
+    "text_shib_context": {
+      "type": "Text",
+      "props": {
+        "text": "Distribution after +36% spike yesterday"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_watch",
+        "watch_fomc_alert",
+        "watch_uni_alert"
+      ]
+    },
+    "heading_watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "watch_fomc_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "FOMC tomorrow — Jul 28 pivot",
+        "message": "KillaXBT's documented pivot date; ETH pop may be pre-FOMC distribution — hawkish surprise hits DeFi fast",
+        "type": "info"
+      }
+    },
+    "watch_uni_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "UNI adverse position",
+        "message": "UNI +6.5% today vs HCH's 2% UNI short active; extended move likely triggers a basket-level response",
+        "type": "warning"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_running",
+        "running_tasks"
+      ]
+    },
+    "heading_running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "running_tasks": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "run_token_alert",
+        "run_token_movers",
+        "run_x_trader",
+        "run_discord_trader"
+      ]
+    },
+    "run_token_alert": {
+      "type": "Text",
+      "props": {
+        "text": "token-alert @ 12:00 UTC"
+      }
+    },
+    "run_token_movers": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC"
+      }
+    },
+    "run_x_trader": {
+      "type": "Text",
+      "props": {
+        "text": "x-trader-monitor: continuous"
+      }
+    },
+    "run_discord_trader": {
+      "type": "Text",
+      "props": {
+        "text": "discord-trader-monitor: continuous (1-min cron)"
+      }
+    }
+  }
+}
