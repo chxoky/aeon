@@ -1,0 +1,233 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading-calibration",
+        "stack-main"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h2"
+      }
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-event",
+        "stack-chart-info",
+        "separator-1",
+        "alert-classification",
+        "separator-2",
+        "heading-context",
+        "stack-context-details",
+        "link-tweet"
+      ]
+    },
+    "heading-event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event: $LIT price progression through consolidation zone",
+        "level": "h3"
+      }
+    },
+    "stack-chart-info": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-trader",
+        "text-chart-title",
+        "text-snapshot-count",
+        "table-prices",
+        "text-consolidation-info"
+      ]
+    },
+    "badge-trader": {
+      "type": "Badge",
+      "props": {
+        "text": "@Wild_Randomness",
+        "variant": "outline"
+      }
+    },
+    "text-chart-title": {
+      "type": "Heading",
+      "props": {
+        "text": "$LIT In & Out",
+        "level": "h4"
+      }
+    },
+    "text-snapshot-count": {
+      "type": "Text",
+      "props": {
+        "text": "4 × 1D chart snapshots",
+        "variant": "caption"
+      }
+    },
+    "table-prices": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Snapshot",
+          "Price"
+        ],
+        "rows": [
+          [
+            "1",
+            "$2.007"
+          ],
+          [
+            "2",
+            "$2.253"
+          ],
+          [
+            "3",
+            "$2.459"
+          ],
+          [
+            "4",
+            "(empty)"
+          ]
+        ]
+      }
+    },
+    "text-consolidation-info": {
+      "type": "Text",
+      "props": {
+        "text": "Consolidation range 2.0–2.5 with support/resistance levels marked.",
+        "variant": "body"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "alert-classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read?",
+        "type": "info"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading-context": {
+      "type": "Heading",
+      "props": {
+        "text": "Cross-trader context",
+        "level": "h3"
+      }
+    },
+    "stack-context-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stack-hch-conviction",
+        "stack-wr-history",
+        "stack-questions"
+      ]
+    },
+    "stack-hch-conviction": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-hch",
+        "text-hch-position",
+        "text-hch-meta"
+      ]
+    },
+    "badge-hch": {
+      "type": "Badge",
+      "props": {
+        "text": "HeartCanHodl",
+        "variant": "secondary"
+      }
+    },
+    "text-hch-position": {
+      "type": "Text",
+      "props": {
+        "text": "Strong SHORT conviction on LIT",
+        "variant": "lead"
+      }
+    },
+    "text-hch-meta": {
+      "type": "Text",
+      "props": {
+        "text": "Jul 27 10:46Z — \"2nd best trade\"",
+        "variant": "caption"
+      }
+    },
+    "stack-wr-history": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-wr-history"
+      ]
+    },
+    "text-wr-history": {
+      "type": "Text",
+      "props": {
+        "text": "Wild_Randomness: previously long-biased on LIT",
+        "variant": "body"
+      }
+    },
+    "stack-questions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-q1",
+        "text-q2"
+      ]
+    },
+    "text-q1": {
+      "type": "Text",
+      "props": {
+        "text": "Is this a position confirmation, market observation, or teaching moment?",
+        "variant": "muted"
+      }
+    },
+    "text-q2": {
+      "type": "Text",
+      "props": {
+        "text": "Does WR's apparent long bias here warrant escalation given HCH's short thesis?",
+        "variant": "muted"
+      }
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2081752271432659306"
+      }
+    }
+  }
+}
