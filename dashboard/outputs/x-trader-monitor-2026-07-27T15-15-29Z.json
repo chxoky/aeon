@@ -1,0 +1,223 @@
+{
+  "root": "root_card",
+  "state": {},
+  "elements": {
+    "root_card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "skill_title",
+        "sep1",
+        "chart_section",
+        "sep2",
+        "tweet_section",
+        "sep3",
+        "analysis_section",
+        "sep4",
+        "interpretation_section",
+        "sep5",
+        "view_link"
+      ]
+    },
+    "skill_title": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator"
+    },
+    "chart_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "chart_title",
+        "chart_description",
+        "metrics_grid"
+      ]
+    },
+    "chart_title": {
+      "type": "Heading",
+      "props": {
+        "text": "ETH/USDT 1D Chart",
+        "level": "h3"
+      }
+    },
+    "chart_description": {
+      "type": "Text",
+      "props": {
+        "text": "Triple bearish divergence with key support at 2,000–1,900"
+      }
+    },
+    "metrics_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "stat_current",
+        "stat_support",
+        "stat_resistance"
+      ]
+    },
+    "stat_current": {
+      "type": "Stat",
+      "props": {
+        "label": "Current Price",
+        "value": "1,976 USDT"
+      }
+    },
+    "stat_support": {
+      "type": "Stat",
+      "props": {
+        "label": "Support",
+        "value": "2,000–1,900"
+      }
+    },
+    "stat_resistance": {
+      "type": "Stat",
+      "props": {
+        "label": "Resistance",
+        "value": "2,200"
+      }
+    },
+    "sep2": {
+      "type": "Separator"
+    },
+    "tweet_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_heading",
+        "tweet_card"
+      ]
+    },
+    "tweet_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Post",
+        "level": "h3"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "$ETH\n\nTriple bear div into 2k? [chart images]"
+      }
+    },
+    "sep3": {
+      "type": "Separator"
+    },
+    "analysis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis_heading",
+        "analysis_text"
+      ]
+    },
+    "analysis_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Technical Analysis",
+        "level": "h3"
+      }
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Three descending divergence lines at resistance, consolidation near 2,000 support, resistance at 2,200. Clear technical setup visible.",
+        "variant": "body"
+      }
+    },
+    "sep4": {
+      "type": "Separator"
+    },
+    "interpretation_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "interpretation_heading",
+        "interpretation_note",
+        "options_stack"
+      ]
+    },
+    "interpretation_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "level": "h3"
+      }
+    },
+    "interpretation_note": {
+      "type": "Text",
+      "props": {
+        "text": "Select the interpretation that best captures this setup:",
+        "variant": "muted"
+      }
+    },
+    "options_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "option_1",
+        "option_2",
+        "option_3"
+      ]
+    },
+    "option_1": {
+      "type": "Badge",
+      "props": {
+        "text": "Warning to avoid longs into this resistance?",
+        "variant": "outline"
+      }
+    },
+    "option_2": {
+      "type": "Badge",
+      "props": {
+        "text": "Setup observation Kyle should monitor closely?",
+        "variant": "outline"
+      }
+    },
+    "option_3": {
+      "type": "Badge",
+      "props": {
+        "text": "Implicit bearish question on likelihood of breakdown?",
+        "variant": "outline"
+      }
+    },
+    "sep5": {
+      "type": "Separator"
+    },
+    "view_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View post on X",
+        "href": "https://x.com/Wild_Randomness/status/2081759236103795040",
+        "source": "X (Twitter)"
+      }
+    }
+  }
+}
