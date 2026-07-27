@@ -1,0 +1,145 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration — @HeartCanHodl"
+      },
+      "children": [
+        "section_context",
+        "separator_1",
+        "section_tweet",
+        "separator_2",
+        "section_interpretation"
+      ]
+    },
+    "section_context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_context",
+        "text_context",
+        "tags_context"
+      ]
+    },
+    "heading_context": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "Just finished escalating several short positions (pump short add 14:16Z, conviction statements 14:22-14:31Z). Then posted:",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "tags_context": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_short",
+        "badge_escalating",
+        "badge_conviction"
+      ]
+    },
+    "badge_short": {
+      "type": "Badge",
+      "props": {
+        "text": "Short Positions",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge_escalating": {
+      "type": "Badge",
+      "props": {
+        "text": "Escalating",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "badge_conviction": {
+      "type": "Badge",
+      "props": {
+        "text": "Conviction Statements",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_tweet": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_main",
+        "link_post"
+      ]
+    },
+    "tweet_main": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "@notthreadguy Maybe you are not short on the right tickers 😁"
+      },
+      "children": []
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/HeartCanHodl/status/2081749687380619678"
+      },
+      "children": []
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_interpretation": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert_question"
+      ]
+    },
+    "alert_question": {
+      "type": "Alert",
+      "props": {
+        "title": "Interpretation Question",
+        "message": "Cryptic conversational reply — implies conviction but lacks execution language. How should I handle HCH's terse cryptic posts like this? Sentiment signal or skip as banter?",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}
