@@ -1,0 +1,416 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "Token Movers",
+        "description": "2026-07-27"
+      },
+      "children": [
+        "summary-text",
+        "separator-1",
+        "section-winners",
+        "separator-2",
+        "section-losers",
+        "separator-3",
+        "section-trending",
+        "separator-4",
+        "section-notable"
+      ]
+    },
+    "summary-text": {
+      "type": "Text",
+      "props": {
+        "text": "Mild DeFi rotation — 46/74 top-100 alts green, median +0.5%; AAVE/ONDO/UNI leading while SHIB reverses yesterday's +36% spike.",
+        "variant": "lead"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section-winners": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-winners",
+        "table-winners"
+      ]
+    },
+    "heading-winners": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Winners (24h)",
+        "level": "h2"
+      }
+    },
+    "table-winners": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Price",
+          "24h %",
+          "7d %",
+          "1h %",
+          "Volume/Rank",
+          "Status"
+        ],
+        "rows": [
+          [
+            "GEOD (Geodnet)",
+            "$0.3065",
+            "+42.8%",
+            "N/A",
+            "N/A",
+            "$10.3M / #214",
+            "TRENDING+UP, PUMP-RISK"
+          ],
+          [
+            "PUMP (Pump.fun)",
+            "$0.002034",
+            "+12.8%",
+            "+2.8%",
+            "0.0%",
+            "$88.9M / #78",
+            ""
+          ],
+          [
+            "LIT (Lighter)",
+            "$2.27",
+            "+9.9%",
+            "+5.1%",
+            "0.0%",
+            "$35.0M / #93",
+            ""
+          ],
+          [
+            "AAVE (Aave)",
+            "$101.41",
+            "+9.0%",
+            "+13.4%",
+            "-0.6%",
+            "$296.5M / #50",
+            ""
+          ],
+          [
+            "ONDO (Ondo)",
+            "$0.4132",
+            "+6.6%",
+            "+20.8%",
+            "0.0%",
+            "$118.1M / #41",
+            "TRENDING+UP"
+          ],
+          [
+            "UNI (Uniswap)",
+            "$3.90",
+            "+6.5%",
+            "+14.2%",
+            "+0.5%",
+            "$196.8M / #38",
+            ""
+          ],
+          [
+            "ENA (Ethena)",
+            "$0.0905",
+            "+6.0%",
+            "+14.1%",
+            "-0.3%",
+            "$113.0M / #74",
+            ""
+          ],
+          [
+            "LINK (Chainlink)",
+            "$8.80",
+            "+4.7%",
+            "+5.4%",
+            "-0.4%",
+            "$206.4M / #17",
+            "MAJOR"
+          ],
+          [
+            "ETH (Ethereum)",
+            "$1,964",
+            "+4.5%",
+            "+5.5%",
+            "-0.2%",
+            "$8,697M / #2",
+            "MAJOR"
+          ],
+          [
+            "WLD (Worldcoin)",
+            "$0.3485",
+            "+3.5%",
+            "-2.4%",
+            "-1.0%",
+            "$127.5M / #57",
+            ""
+          ]
+        ]
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section-losers": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-losers",
+        "table-losers"
+      ]
+    },
+    "heading-losers": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Losers (24h)",
+        "level": "h2"
+      }
+    },
+    "table-losers": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Price",
+          "24h %",
+          "7d %",
+          "1h %",
+          "Volume/Rank",
+          "Status"
+        ],
+        "rows": [
+          [
+            "SHIB (Shiba Inu)",
+            "$0.00000515",
+            "-8.5%",
+            "+23.5%",
+            "+0.5%",
+            "$359.3M / #30",
+            ""
+          ],
+          [
+            "M (MemeCore)",
+            "$1.23",
+            "-5.7%",
+            "-1.1%",
+            "+1.0%",
+            "$12.5M / #48",
+            ""
+          ],
+          [
+            "XMR (Monero)",
+            "$349.73",
+            "-3.0%",
+            "+5.2%",
+            "+0.1%",
+            "$79.7M / #18",
+            "MAJOR"
+          ],
+          [
+            "VVV (Venice Token)",
+            "$13.76",
+            "-2.6%",
+            "+20.0%",
+            "-0.4%",
+            "$27.0M / #87",
+            ""
+          ],
+          [
+            "DOT (Polkadot)",
+            "$0.8099",
+            "-1.7%",
+            "+0.4%",
+            "-0.9%",
+            "$53.4M / #53",
+            ""
+          ],
+          [
+            "WLFI (World Liberty Financial)",
+            "$0.0547",
+            "-1.4%",
+            "-3.9%",
+            "+0.3%",
+            "$21.9M / #45",
+            ""
+          ],
+          [
+            "AVAX (Avalanche)",
+            "$6.67",
+            "-1.4%",
+            "+3.2%",
+            "-0.4%",
+            "$113.3M / #33",
+            ""
+          ],
+          [
+            "ALGO (Algorand)",
+            "$0.0838",
+            "-1.1%",
+            "+2.4%",
+            "-0.4%",
+            "$13.6M / #81",
+            ""
+          ],
+          [
+            "FIL (Filecoin)",
+            "$0.7400",
+            "-1.0%",
+            "+4.8%",
+            "-0.4%",
+            "$47.4M / #92",
+            ""
+          ],
+          [
+            "DOGE (Dogecoin)",
+            "$0.0725",
+            "-1.0%",
+            "+1.1%",
+            "-0.6%",
+            "$435.2M / #11",
+            ""
+          ]
+        ]
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section-trending": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-trending",
+        "table-trending"
+      ]
+    },
+    "heading-trending": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending",
+        "level": "h2"
+      }
+    },
+    "table-trending": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Rank",
+          "Price",
+          "24h %",
+          "Status"
+        ],
+        "rows": [
+          [
+            "BANK (Lorenzo Protocol)",
+            "#183",
+            "$0.3855",
+            "+5.9%",
+            ""
+          ],
+          [
+            "CSPR (Casper Network)",
+            "#704",
+            "$0.001545",
+            "-1.8%",
+            ""
+          ],
+          [
+            "GEOD (Geodnet)",
+            "#214",
+            "$0.3065",
+            "+42.8%",
+            "TRENDING+UP, PUMP-RISK"
+          ],
+          [
+            "PONS",
+            "#451",
+            "$0.0585",
+            "+23.7%",
+            ""
+          ],
+          [
+            "PENGU (Pudgy Penguins)",
+            "#111",
+            "$0.006387",
+            "-0.5%",
+            ""
+          ],
+          [
+            "ONDO (Ondo)",
+            "#41",
+            "$0.4137",
+            "+6.9%",
+            "TRENDING+UP"
+          ],
+          [
+            "TAO (Bittensor)",
+            "#42",
+            "$196.82",
+            "-0.4%",
+            ""
+          ]
+        ]
+      }
+    },
+    "separator-4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section-notable": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-notable",
+        "notable-geod",
+        "notable-ondo",
+        "notable-shib"
+      ]
+    },
+    "heading-notable": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h2"
+      }
+    },
+    "notable-geod": {
+      "type": "Alert",
+      "props": {
+        "title": "GEOD [TRENDING+UP] [PUMP-RISK]",
+        "message": "rank-214 cap up 42.8% and trending #3 — high manipulation probability; low liquidity ($10.3M vol)",
+        "type": "warning"
+      }
+    },
+    "notable-ondo": {
+      "type": "Text",
+      "props": {
+        "text": "ONDO [TRENDING+UP]: +6.6% 24h / +20.8% 7d, trending #6 — RWA/DeFi narrative holding across two sessions"
+      }
+    },
+    "notable-shib": {
+      "type": "Text",
+      "props": {
+        "text": "SHIB: yesterday's top winner (+36.2%), now -8.5% reversal — distribution likely underway; dropped from trending"
+      }
+    }
+  }
+}
