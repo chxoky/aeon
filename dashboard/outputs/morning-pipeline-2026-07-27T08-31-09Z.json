@@ -1,0 +1,593 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-07-27"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_focus",
+        "focus_stack",
+        "sep_1",
+        "heading_since",
+        "since_stack",
+        "sep_2",
+        "heading_watch",
+        "watch_stack",
+        "sep_3",
+        "heading_running",
+        "running_stack"
+      ]
+    },
+    "heading_focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "focus_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus_1",
+        "focus_2",
+        "focus_3"
+      ]
+    },
+    "focus_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_1_title",
+        "focus_1_text",
+        "focus_1_stats",
+        "focus_1_why"
+      ]
+    },
+    "focus_1_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Zcash NU6.3 Ironwood upgrade",
+        "level": "h3"
+      }
+    },
+    "focus_1_text": {
+      "type": "Text",
+      "props": {
+        "text": "Activates tomorrow. HCH added 3% ZEC short today; upgrade introduces new shielded pool + potential exchange disruptions.",
+        "variant": "body"
+      }
+    },
+    "focus_1_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_zec_short_added",
+        "stat_zec_pf_current"
+      ]
+    },
+    "stat_zec_short_added": {
+      "type": "Stat",
+      "props": {
+        "label": "Short added",
+        "value": "3%"
+      }
+    },
+    "stat_zec_pf_current": {
+      "type": "Stat",
+      "props": {
+        "label": "Portfolio position",
+        "value": "4–4.5%"
+      }
+    },
+    "focus_1_why": {
+      "type": "Text",
+      "props": {
+        "text": "Why now: ZEC volatility event 24h out; position active",
+        "variant": "caption"
+      }
+    },
+    "focus_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_2_title",
+        "focus_2_text",
+        "focus_2_details",
+        "focus_2_why"
+      ]
+    },
+    "focus_2_title": {
+      "type": "Heading",
+      "props": {
+        "text": "FOMC decision",
+        "level": "h3"
+      }
+    },
+    "focus_2_text": {
+      "type": "Text",
+      "props": {
+        "text": "Tomorrow (Jul 29 2pm ET). Hold at 3.50–3.75% priced 80.2%; Chair Warsh tone only unknown; BTC capped $65.2K below Killa's 67.5K hedge zone.",
+        "variant": "body"
+      }
+    },
+    "focus_2_details": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "sm"
+      },
+      "children": [
+        "stat_fomc_odds",
+        "stat_btc_cap",
+        "stat_btc_hedge_zone"
+      ]
+    },
+    "stat_fomc_odds": {
+      "type": "Stat",
+      "props": {
+        "label": "Hold priced",
+        "value": "80.2%"
+      }
+    },
+    "stat_btc_cap": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC cap",
+        "value": "$65.2K"
+      }
+    },
+    "stat_btc_hedge_zone": {
+      "type": "Stat",
+      "props": {
+        "label": "Hedge zone",
+        "value": "$67.5K"
+      }
+    },
+    "focus_2_why": {
+      "type": "Text",
+      "props": {
+        "text": "Why now: binary resolution 36h away",
+        "variant": "caption"
+      }
+    },
+    "focus_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_3_title",
+        "focus_3_actions",
+        "focus_3_calibrations",
+        "focus_3_why"
+      ]
+    },
+    "focus_3_title": {
+      "type": "Heading",
+      "props": {
+        "text": "HCH short escalation",
+        "level": "h3"
+      }
+    },
+    "focus_3_actions": {
+      "type": "Text",
+      "props": {
+        "text": "Removed long hedges. Positions added:",
+        "variant": "body"
+      }
+    },
+    "focus_3_calibrations": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_eth_short",
+        "badge_kaito_short",
+        "badge_zec_short",
+        "text_pending_calibrations"
+      ]
+    },
+    "badge_eth_short": {
+      "type": "Badge",
+      "props": {
+        "text": "ETH +5% short",
+        "variant": "default"
+      }
+    },
+    "badge_kaito_short": {
+      "type": "Badge",
+      "props": {
+        "text": "KAITO 2% short (target −30%)",
+        "variant": "default"
+      }
+    },
+    "badge_zec_short": {
+      "type": "Badge",
+      "props": {
+        "text": "ZEC +3% short",
+        "variant": "default"
+      }
+    },
+    "text_pending_calibrations": {
+      "type": "Text",
+      "props": {
+        "text": "Pending calibrations: \"Fc bank 15m\" (BANK trending #1), \"We are yet to pull to trigger\", \"Not that i would position for this but just a heads-up\"",
+        "variant": "caption"
+      }
+    },
+    "focus_3_why": {
+      "type": "Text",
+      "props": {
+        "text": "Why now: KAITO mirror decision pending; ZEC upgrade tomorrow",
+        "variant": "caption"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_since": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "since_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "since_1",
+        "since_2",
+        "since_3",
+        "since_4"
+      ]
+    },
+    "since_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since_1_text"
+      ]
+    },
+    "since_1_text": {
+      "type": "Text",
+      "props": {
+        "text": "Chase MU/SNDK both 80% cumulative closed at $941/$1,480; stops at breakeven; 20% remainder open on both",
+        "variant": "body"
+      }
+    },
+    "since_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since_2_text",
+        "since_2_stat"
+      ]
+    },
+    "since_2_text": {
+      "type": "Text",
+      "props": {
+        "text": "ETH surged; HCH's ETH short add from today's session is slightly underwater intraday",
+        "variant": "body"
+      }
+    },
+    "since_2_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH movement",
+        "value": "$1,886 → $1,964",
+        "delta": "+4.5%",
+        "trend": "up"
+      }
+    },
+    "since_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since_3_text",
+        "since_3_stat"
+      ]
+    },
+    "since_3_text": {
+      "type": "Text",
+      "props": {
+        "text": "FOMC no-change odds jumped on Polymarket",
+        "variant": "body"
+      }
+    },
+    "since_3_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Odds movement",
+        "value": "73.3% → 80.2%",
+        "delta": "+6.9pp",
+        "trend": "up"
+      }
+    },
+    "since_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since_4_text"
+      ]
+    },
+    "since_4_text": {
+      "type": "Text",
+      "props": {
+        "text": "Wild_Randomness: 3 ambiguous BTC posts (\"What if?\", May-top short comparison, liq-cluster chart). Calibrations pending, no action taken.",
+        "variant": "body"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "watch_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "watch_1",
+        "watch_2"
+      ]
+    },
+    "watch_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "watch_1_title",
+        "watch_1_text"
+      ]
+    },
+    "watch_1_title": {
+      "type": "Heading",
+      "props": {
+        "text": "ZEC: Ironwood NU6.3 upgrade",
+        "level": "h3"
+      }
+    },
+    "watch_1_text": {
+      "type": "Text",
+      "props": {
+        "text": "Jul 28 midday UTC introduces new shielded pool with potential exchange disruptions and price spike. HCH short active at 4–4.5% pf. Timing conflicts with FOMC wait.",
+        "variant": "body"
+      }
+    },
+    "watch_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "watch_2_title",
+        "watch_2_text",
+        "watch_2_badges",
+        "watch_2_note"
+      ]
+    },
+    "watch_2_title": {
+      "type": "Heading",
+      "props": {
+        "text": "DeFi rotation signal",
+        "level": "h3"
+      }
+    },
+    "watch_2_text": {
+      "type": "Text",
+      "props": {
+        "text": "Today's moves:",
+        "variant": "body"
+      }
+    },
+    "watch_2_badges": {
+      "type": "Grid",
+      "props": {
+        "columns": 4,
+        "gap": "sm"
+      },
+      "children": [
+        "badge_aave_9",
+        "badge_uni_6p5",
+        "badge_ondo_6p6",
+        "badge_bank_trending"
+      ]
+    },
+    "badge_aave_9": {
+      "type": "Badge",
+      "props": {
+        "text": "AAVE +9%",
+        "variant": "default"
+      }
+    },
+    "badge_uni_6p5": {
+      "type": "Badge",
+      "props": {
+        "text": "UNI +6.5%",
+        "variant": "default"
+      }
+    },
+    "badge_ondo_6p6": {
+      "type": "Badge",
+      "props": {
+        "text": "ONDO +6.6%",
+        "variant": "default"
+      }
+    },
+    "badge_bank_trending": {
+      "type": "Badge",
+      "props": {
+        "text": "BANK #1 CoinGecko",
+        "variant": "default"
+      }
+    },
+    "watch_2_note": {
+      "type": "Text",
+      "props": {
+        "text": "BANK (Lorenzo Protocol, rank 183) is trending. HCH's \"Fc bank 15m\" at 07:37Z likely referencing this token.",
+        "variant": "caption"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "running_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "running_1",
+        "running_2",
+        "running_3"
+      ]
+    },
+    "running_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_narrative",
+        "text_narrative_time"
+      ]
+    },
+    "badge_narrative": {
+      "type": "Badge",
+      "props": {
+        "text": "narrative-tracker",
+        "variant": "secondary"
+      }
+    },
+    "text_narrative_time": {
+      "type": "Text",
+      "props": {
+        "text": "13:30 UTC",
+        "variant": "caption"
+      }
+    },
+    "running_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_health",
+        "text_health_time"
+      ]
+    },
+    "badge_health": {
+      "type": "Badge",
+      "props": {
+        "text": "skill-health",
+        "variant": "secondary"
+      }
+    },
+    "text_health_time": {
+      "type": "Text",
+      "props": {
+        "text": "18:00 UTC",
+        "variant": "caption"
+      }
+    },
+    "running_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_heartbeat",
+        "text_heartbeat_time"
+      ]
+    },
+    "badge_heartbeat": {
+      "type": "Badge",
+      "props": {
+        "text": "heartbeat",
+        "variant": "secondary"
+      }
+    },
+    "text_heartbeat_time": {
+      "type": "Text",
+      "props": {
+        "text": "08:00, 14:00, 20:00 UTC",
+        "variant": "caption"
+      }
+    }
+  }
+}
