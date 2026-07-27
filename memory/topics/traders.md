@@ -272,8 +272,9 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - PENDING: "Fc btc 15m" Free channel Jul 26 [1531011932797276231]
   - PENDING: "Fc btc 1hr" Chat Jul 26 [1531013265075736657]
   - PENDING: "If we go by textbookish interpretation" Chat Jul 27 — cryptic terse fragment [1531130870419947671]
-- Last seen: 2026-07-27 07:56:43 UTC
+- Last seen: 2026-07-27 08:08:40 UTC
 - **Events (rolling):**
+  - Jul 27 08:08Z — informational: tier-2 alts looking awful; market sentiment validation [2081652979204288907]
   - Jul 24 07:32Z — trade-new-entry: CL Crude Oil 2% pf short at breakout region; new ticker [1530115391878070292]
   - Jul 24 07:35Z — trade-new-entry: CL 2% pf short above $90 (Trades channel); eighth ticker in short basket [1530116103253135480]
   - Jul 24 08:28Z — informational: CL 4h chart confirming bearish momentum exhaustion (peak 93.50→90.45) [2080570756363341955]

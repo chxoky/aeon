@@ -1,0 +1,50 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet_1",
+        "link_view",
+        "sep_1",
+        "analysis"
+      ]
+    },
+    "tweet_1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "Some of these tier-2 alt majors are looking awful. Hopefully, you're not positioned in one of them into awful August"
+      },
+      "children": []
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/HeartCanHodl/status/2081652979204288907"
+      },
+      "children": []
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Lines up with HCH's bearish alt positioning (short basket: UNI/VVV/KAITO).",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
