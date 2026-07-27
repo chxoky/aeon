@@ -1,0 +1,51 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — [DC: HCH — Chat]"
+      },
+      "children": [
+        "message-section",
+        "context-alert"
+      ]
+    },
+    "message-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "message-author",
+        "message-text"
+      ]
+    },
+    "message-author": {
+      "type": "Text",
+      "props": {
+        "text": "HeartCanHodl (Jul 27 20:06Z)",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "message-text": {
+      "type": "Text",
+      "props": {
+        "text": "Yes"
+      },
+      "children": []
+    },
+    "context-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification Issue",
+        "message": "Supporting channel (member Q&A), no referenced message. Unable to classify — what's your read?",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}
