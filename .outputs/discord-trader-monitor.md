@@ -18,3 +18,10 @@ I've successfully executed the Discord Trader Monitor skill with the provided va
 5. **Step 10:** Logged event to `memory/logs/2026-07-27.md` with full context
 
 **Key note:** The "Fc {ticker} {tf}" pattern has appeared multiple times in HCH's recent messages but remains unconfirmed in meaning. This new "Fc bank 15m" variant introduces an unknown ticker reference ("bank") that requires Kyle's input on what asset it refers to and whether it signals an actionable trade setup or just technical observation.
+🔍 *Calibration — [DC: HCH — Comments]*
+
+Event: Context missing — HeartCanHodl is giving a "heads-up" but the subject ("this") is unclear.
+
+HeartCanHodl: "Not that i would position for this but just a heads-up"
+
+Unable to classify — what's he alerting about?
