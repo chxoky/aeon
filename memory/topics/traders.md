@@ -297,12 +297,15 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - Jul 26 18:56Z — informational: "We have that leg up" — confirms W-pattern first leg played out; no execution [1531012357298589767]
   - Jul 26 19:00Z — ambiguous: "Fc btc 1hr" Chat channel [1531013265075736657]
   - Jul 26 19:05Z — informational: CL 1h chart — downtrend from 93.47 peak to 85.89; key supports 85.83/85.00 marked; validates Jul 24 short [1531014696231112784]
+  - Jul 27 06:06Z — ambiguous: "We are yet to pull to trigger" Chat channel; cryptic technical jargon awaiting calibration on trigger reference (add to shorts? new entry?) [1531181054981968022]
+  - Jul 27 05:59Z — ambiguous: "No. We will take the short exposure" Chat channel reply; awaiting context on confirmation vs new decision [1531179316157616218]
+  - Jul 27 02:45Z — ambiguous: "Fc btc 1w" Chat channel; "Fc {ticker} {tf}" pattern still PENDING explicit calibration (same pattern as Jul 26 "Fc btc 1hr", "Fc btc 15m"); unclear if form-confirmed chart callout requires action [1531130322731667616]
   - Jul 27 01:00Z — informational: terse price check — BTC 65k, ETH 1940+ (Comments channel) [1531103860821594113]
   - Jul 27 00:57Z — informational: CL +6.36% short equity; SOL/HYPE 1h technical charts + macro leverage-ETF-flows chart; asks Kyle input on hedges/re-entry [2081544563064488106]
-  - Jul 27 02:45Z — ambiguous: "Fc btc 1w" Chat channel; "Fc {ticker} {tf}" pattern still PENDING explicit calibration (same pattern as Jul 26 "Fc btc 1hr", "Fc btc 15m"); unclear if form-confirmed chart callout requires action [1531130322731667616]
-- Last seen: 2026-07-27 05:59:56 UTC
+- Last seen: 2026-07-27 06:06:51 UTC
 - **PENDING: Jul 27 02:45Z — "Fc btc 1w"** — Calibration alert sent. Is "Fc" = form-confirmed? Technical observation only or conviction signal? [1531130322731667616]
 - **PENDING: Jul 27 05:59Z — "No. We will take the short exposure"** — Calibration alert sent. No referenced message context (Chat channel reply). Confirming existing short basket or new decision? [1531179316157616218]
+- **PENDING: Jul 27 06:06Z — "We are yet to pull to trigger"** — Calibration alert sent. Chat channel follow-up to 05:59Z. Awaiting pullback to trigger: new entry? Add to shorts? Cover condition? [1531181054981968022]
 
 ## Wild_Randomness
 - Platforms: X (X-only; no Discord)

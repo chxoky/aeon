@@ -1,0 +1,106 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — DC: HCH Chat"
+      },
+      "children": [
+        "heading_intro",
+        "tweet_dc",
+        "tweet_hch",
+        "sep1",
+        "text_question",
+        "stack_options"
+      ]
+    },
+    "heading_intro": {
+      "type": "Text",
+      "props": {
+        "text": "🔍 Earlier context:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "tweet_dc": {
+      "type": "TweetCard",
+      "props": {
+        "author": "DC",
+        "handle": "05:59Z",
+        "text": "No. We will take the short exposure"
+      },
+      "children": []
+    },
+    "tweet_hch": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HCH",
+        "handle": "06:06Z",
+        "text": "We are yet to pull to trigger"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text_question": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read? Does \"trigger\" refer to:",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "stack_options": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opt1",
+        "opt2",
+        "opt3",
+        "opt4"
+      ]
+    },
+    "opt1": {
+      "type": "Text",
+      "props": {
+        "text": "• Waiting for pullback to add to short basket?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "opt2": {
+      "type": "Text",
+      "props": {
+        "text": "• New entry setup pending price action?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "opt3": {
+      "type": "Text",
+      "props": {
+        "text": "• Cover/close condition?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "opt4": {
+      "type": "Text",
+      "props": {
+        "text": "• Market observation only?",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
