@@ -1,0 +1,1083 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-07-27"
+      },
+      "children": [
+        "transitions_section",
+        "sep1",
+        "reflexivity_section",
+        "sep2",
+        "positions_section",
+        "sep3",
+        "map_section"
+      ]
+    },
+    "transitions_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "t_heading",
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ]
+    },
+    "t_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      }
+    },
+    "t1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t1_title",
+        "t1_detail"
+      ]
+    },
+    "t1_title": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "t1_badge",
+        "t1_text"
+      ]
+    },
+    "t1_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED",
+        "variant": "secondary"
+      }
+    },
+    "t1_text": {
+      "type": "Text",
+      "props": {
+        "text": "DeFi Renaissance — Emerging→Rising",
+        "variant": "lead"
+      }
+    },
+    "t1_detail": {
+      "type": "Text",
+      "props": {
+        "text": "AAVE +9%, UNI +6.5%, ONDO +6.6%, ETH +4.5% in one session; ETH/BTC ratio +3.1% to 0.0302; first coordinated DeFi move since Q1",
+        "variant": "body"
+      }
+    },
+    "t2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t2_title",
+        "t2_detail"
+      ]
+    },
+    "t2_title": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "t2_badge",
+        "t2_text"
+      ]
+    },
+    "t2_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED",
+        "variant": "secondary"
+      }
+    },
+    "t2_text": {
+      "type": "Text",
+      "props": {
+        "text": "RWA Tokenization — Emerging→Rising",
+        "variant": "lead"
+      }
+    },
+    "t2_detail": {
+      "type": "Text",
+      "props": {
+        "text": "Santiment flags more discussion than at any other point this week; ONDO +20.8% 7d and trending",
+        "variant": "body"
+      }
+    },
+    "t3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t3_title",
+        "t3_detail"
+      ]
+    },
+    "t3_title": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "t3_badge",
+        "t3_text"
+      ]
+    },
+    "t3_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "outline"
+      }
+    },
+    "t3_text": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Wallets",
+        "variant": "lead"
+      }
+    },
+    "t3_detail": {
+      "type": "Text",
+      "props": {
+        "text": "MetaMask/Coinbase/OKX/BNB all shipped agent payment rails in 4 weeks; Ledger open-source agent stack Jul 15; a16z published thesis",
+        "variant": "body"
+      }
+    },
+    "t4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t4_title",
+        "t4_detail"
+      ]
+    },
+    "t4_title": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "t4_badge",
+        "t4_text"
+      ]
+    },
+    "t4_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "outline"
+      }
+    },
+    "t4_text": {
+      "type": "Text",
+      "props": {
+        "text": "Altcoin Fatigue / Tier-2 Washout",
+        "variant": "lead"
+      }
+    },
+    "t4_detail": {
+      "type": "Text",
+      "props": {
+        "text": "HCH/Chase/Killa cross-trader convergence this week; LIT = HCH 2nd best short, VVV = 3rd",
+        "variant": "body"
+      }
+    },
+    "t5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t5_title",
+        "t5_detail"
+      ]
+    },
+    "t5_title": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "t5_badge",
+        "t5_text"
+      ]
+    },
+    "t5_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED",
+        "variant": "destructive"
+      }
+    },
+    "t5_text": {
+      "type": "Text",
+      "props": {
+        "text": "FOMC Gate — Peak→Fading",
+        "variant": "lead"
+      }
+    },
+    "t5_detail": {
+      "type": "Text",
+      "props": {
+        "text": "Binary gate resolves tomorrow Jul 29 2pm ET; 80.2% no-change priced",
+        "variant": "body"
+      }
+    },
+    "t6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t6_title",
+        "t6_detail"
+      ]
+    },
+    "t6_title": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "t6_badge",
+        "t6_text"
+      ]
+    },
+    "t6_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED",
+        "variant": "destructive"
+      }
+    },
+    "t6_text": {
+      "type": "Text",
+      "props": {
+        "text": "Meme Rotation — Rising→Fading",
+        "variant": "lead"
+      }
+    },
+    "t6_detail": {
+      "type": "Text",
+      "props": {
+        "text": "SHIB +36.2% Jul 26 to −8.5% today; cycle complete <24h",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "reflexivity_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "r_heading",
+        "r1",
+        "r2"
+      ]
+    },
+    "r_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      }
+    },
+    "r1": {
+      "type": "Alert",
+      "props": {
+        "title": "ETH/BTC Ratio",
+        "message": "@swarmister predicts shorts targeting ETH 2K will be wiped out (liquidity trap chart confirmed); squeeze self-accelerates if believed",
+        "type": "warning"
+      }
+    },
+    "r2": {
+      "type": "Alert",
+      "props": {
+        "title": "BTC 90D RVWAP Break",
+        "message": "HCH 13:37Z chart shows BTC above 90D RVWAP at 67.6K; HCH net short watching rejection — if holds, bear thesis structurally compromised",
+        "type": "warning"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "positions_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "p_heading",
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5",
+        "p6",
+        "p7",
+        "p8",
+        "p9"
+      ]
+    },
+    "p_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      }
+    },
+    "p1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p1_top",
+        "p1_mindshare",
+        "p1_bear"
+      ]
+    },
+    "p1_top": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "p1_type",
+        "p1_name",
+        "p1_sentiment"
+      ]
+    },
+    "p1_type": {
+      "type": "Badge",
+      "props": {
+        "text": "FRONT-RUN",
+        "variant": "secondary"
+      }
+    },
+    "p1_name": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Wallets",
+        "variant": "lead"
+      }
+    },
+    "p1_sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "secondary"
+      }
+    },
+    "p1_mindshare": {
+      "type": "Text",
+      "props": {
+        "text": "Mindshare 3 ↑↑ | @a16zcrypto, MetaMask/Ledger/OKX/BNB",
+        "variant": "caption"
+      }
+    },
+    "p1_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: infra without killer app; BNB mainnet 2027",
+        "variant": "muted"
+      }
+    },
+    "p2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p2_top",
+        "p2_mindshare",
+        "p2_bear"
+      ]
+    },
+    "p2_top": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "p2_type",
+        "p2_name",
+        "p2_sentiment"
+      ]
+    },
+    "p2_type": {
+      "type": "Badge",
+      "props": {
+        "text": "FRONT-RUN",
+        "variant": "secondary"
+      }
+    },
+    "p2_name": {
+      "type": "Text",
+      "props": {
+        "text": "ETH/BTC Ratio Recovery",
+        "variant": "lead"
+      }
+    },
+    "p2_sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "secondary"
+      }
+    },
+    "p2_mindshare": {
+      "type": "Text",
+      "props": {
+        "text": "Mindshare 3 ↑↑ | @swarmister squeeze thesis",
+        "variant": "caption"
+      }
+    },
+    "p2_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: FOMC kills risk-on tomorrow",
+        "variant": "muted"
+      }
+    },
+    "p3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p3_top",
+        "p3_mindshare",
+        "p3_bear"
+      ]
+    },
+    "p3_top": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "p3_type",
+        "p3_name",
+        "p3_sentiment"
+      ]
+    },
+    "p3_type": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "secondary"
+      }
+    },
+    "p3_name": {
+      "type": "Text",
+      "props": {
+        "text": "DeFi Renaissance",
+        "variant": "lead"
+      }
+    },
+    "p3_sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "secondary"
+      }
+    },
+    "p3_mindshare": {
+      "type": "Text",
+      "props": {
+        "text": "Mindshare 4 ↑↑ | AAVE/UNI/ONDO",
+        "variant": "caption"
+      }
+    },
+    "p3_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: FOMC hawkish tone flushes DeFi liquidity",
+        "variant": "muted"
+      }
+    },
+    "p4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p4_top",
+        "p4_mindshare",
+        "p4_bear"
+      ]
+    },
+    "p4_top": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "p4_type",
+        "p4_name",
+        "p4_sentiment"
+      ]
+    },
+    "p4_type": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "secondary"
+      }
+    },
+    "p4_name": {
+      "type": "Text",
+      "props": {
+        "text": "RWA Tokenization",
+        "variant": "lead"
+      }
+    },
+    "p4_sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "secondary"
+      }
+    },
+    "p4_mindshare": {
+      "type": "Text",
+      "props": {
+        "text": "Mindshare 4 ↑ | @ondofinance",
+        "variant": "caption"
+      }
+    },
+    "p4_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: yield arb shrinks in rate-hold",
+        "variant": "muted"
+      }
+    },
+    "p5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p5_top",
+        "p5_mindshare",
+        "p5_bear"
+      ]
+    },
+    "p5_top": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "p5_type",
+        "p5_name",
+        "p5_sentiment"
+      ]
+    },
+    "p5_type": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "secondary"
+      }
+    },
+    "p5_name": {
+      "type": "Text",
+      "props": {
+        "text": "Altcoin Fatigue Short",
+        "variant": "lead"
+      }
+    },
+    "p5_sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Bear",
+        "variant": "secondary"
+      }
+    },
+    "p5_mindshare": {
+      "type": "Text",
+      "props": {
+        "text": "Mindshare 4 ↑ | @HeartCanHodl (LIT/VVV/KAITO/ZEC basket), @KillaXBT, @Crypto_Chase",
+        "variant": "caption"
+      }
+    },
+    "p5_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: DeFi rotation shows alts not uniformly dead",
+        "variant": "muted"
+      }
+    },
+    "p6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p6_top",
+        "p6_mindshare",
+        "p6_detail"
+      ]
+    },
+    "p6_top": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "p6_type",
+        "p6_name",
+        "p6_sentiment"
+      ]
+    },
+    "p6_type": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "outline"
+      }
+    },
+    "p6_name": {
+      "type": "Text",
+      "props": {
+        "text": "BTC Structure",
+        "variant": "lead"
+      }
+    },
+    "p6_sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Mixed",
+        "variant": "secondary"
+      }
+    },
+    "p6_mindshare": {
+      "type": "Text",
+      "props": {
+        "text": "Mindshare 5 ↑ | 90D RVWAP break live",
+        "variant": "caption"
+      }
+    },
+    "p6_detail": {
+      "type": "Text",
+      "props": {
+        "text": "@KillaXBT 63.7K→61.8K on failure; @bull_genius 71.5K on continuation",
+        "variant": "body"
+      }
+    },
+    "p7": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p7_top",
+        "p7_mindshare",
+        "p7_detail"
+      ]
+    },
+    "p7_top": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "p7_type",
+        "p7_name",
+        "p7_sentiment"
+      ]
+    },
+    "p7_type": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "outline"
+      }
+    },
+    "p7_name": {
+      "type": "Text",
+      "props": {
+        "text": "FOMC Gate",
+        "variant": "lead"
+      }
+    },
+    "p7_sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Mixed",
+        "variant": "secondary"
+      }
+    },
+    "p7_mindshare": {
+      "type": "Text",
+      "props": {
+        "text": "Mindshare 5 → | Resolves tomorrow",
+        "variant": "caption"
+      }
+    },
+    "p7_detail": {
+      "type": "Text",
+      "props": {
+        "text": "Tail risk = Warsh hawkish tone",
+        "variant": "body"
+      }
+    },
+    "p8": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p8_top",
+        "p8_mindshare",
+        "p8_detail"
+      ]
+    },
+    "p8_top": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "p8_type",
+        "p8_name",
+        "p8_sentiment"
+      ]
+    },
+    "p8_type": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "outline"
+      }
+    },
+    "p8_name": {
+      "type": "Text",
+      "props": {
+        "text": "ZEC Ironwood NU6.3",
+        "variant": "lead"
+      }
+    },
+    "p8_sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Mixed",
+        "variant": "secondary"
+      }
+    },
+    "p8_mindshare": {
+      "type": "Text",
+      "props": {
+        "text": "Mindshare 3 ↑ | Upgrade Jul 28 midday UTC",
+        "variant": "caption"
+      }
+    },
+    "p8_detail": {
+      "type": "Text",
+      "props": {
+        "text": "Exchange disruptions possible; HCH short 4-4.5% pf; double-sided",
+        "variant": "body"
+      }
+    },
+    "p9": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p9_top",
+        "p9_mindshare",
+        "p9_detail"
+      ]
+    },
+    "p9_top": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "p9_type",
+        "p9_name",
+        "p9_sentiment"
+      ]
+    },
+    "p9_type": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "destructive"
+      }
+    },
+    "p9_name": {
+      "type": "Text",
+      "props": {
+        "text": "Meme Rotation",
+        "variant": "lead"
+      }
+    },
+    "p9_sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Cope",
+        "variant": "secondary"
+      }
+    },
+    "p9_mindshare": {
+      "type": "Text",
+      "props": {
+        "text": "Mindshare 3 ↓↓ | SHIB/PEPE",
+        "variant": "caption"
+      }
+    },
+    "p9_detail": {
+      "type": "Text",
+      "props": {
+        "text": "Weekend pump fully reverting",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "map_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "map_heading",
+        "map_grid"
+      ]
+    },
+    "map_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h2"
+      }
+    },
+    "map_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 4,
+        "gap": "md"
+      },
+      "children": [
+        "map_emerging",
+        "map_rising",
+        "map_peak",
+        "map_fading"
+      ]
+    },
+    "map_emerging": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_emerging_h",
+        "map_e1",
+        "map_e2",
+        "map_e3"
+      ]
+    },
+    "map_emerging_h": {
+      "type": "Heading",
+      "props": {
+        "text": "Emerging",
+        "level": "h4"
+      }
+    },
+    "map_e1": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Wallets",
+        "variant": "body"
+      }
+    },
+    "map_e2": {
+      "type": "Text",
+      "props": {
+        "text": "ETH/BTC Ratio Recovery",
+        "variant": "body"
+      }
+    },
+    "map_e3": {
+      "type": "Text",
+      "props": {
+        "text": "DEX Reliability Debate",
+        "variant": "body"
+      }
+    },
+    "map_rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_rising_h",
+        "map_r1",
+        "map_r2",
+        "map_r3"
+      ]
+    },
+    "map_rising_h": {
+      "type": "Heading",
+      "props": {
+        "text": "Rising",
+        "level": "h4"
+      }
+    },
+    "map_r1": {
+      "type": "Text",
+      "props": {
+        "text": "DeFi Renaissance",
+        "variant": "body"
+      }
+    },
+    "map_r2": {
+      "type": "Text",
+      "props": {
+        "text": "RWA Tokenization",
+        "variant": "body"
+      }
+    },
+    "map_r3": {
+      "type": "Text",
+      "props": {
+        "text": "Altcoin Fatigue",
+        "variant": "body"
+      }
+    },
+    "map_peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_peak_h",
+        "map_p1",
+        "map_p2"
+      ]
+    },
+    "map_peak_h": {
+      "type": "Heading",
+      "props": {
+        "text": "Peak",
+        "level": "h4"
+      }
+    },
+    "map_p1": {
+      "type": "Text",
+      "props": {
+        "text": "FOMC Gate (resolves Jul 29)",
+        "variant": "body"
+      }
+    },
+    "map_p2": {
+      "type": "Text",
+      "props": {
+        "text": "BTC 90D RVWAP Retest",
+        "variant": "body"
+      }
+    },
+    "map_fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_fading_h",
+        "map_f1"
+      ]
+    },
+    "map_fading_h": {
+      "type": "Heading",
+      "props": {
+        "text": "Fading",
+        "level": "h4"
+      }
+    },
+    "map_f1": {
+      "type": "Text",
+      "props": {
+        "text": "Meme Rotation (SHIB/PEPE)",
+        "variant": "body"
+      }
+    }
+  }
+}
