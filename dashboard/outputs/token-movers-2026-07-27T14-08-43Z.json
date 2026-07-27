@@ -1,0 +1,372 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "Token Movers — 2026-07-27"
+      },
+      "children": [
+        "summary_text",
+        "sep1",
+        "winners_heading",
+        "winners_table",
+        "sep2",
+        "losers_heading",
+        "losers_table",
+        "sep3",
+        "trending_heading",
+        "trending_table",
+        "sep4",
+        "notable_heading",
+        "notable_pump",
+        "notable_beat",
+        "notable_bank"
+      ]
+    },
+    "summary_text": {
+      "type": "Text",
+      "props": {
+        "text": "Mixed-positive tape, median ~+0.9% — DeFi rotation holds from morning; BEAT emerges as [BREAKOUT] while BANK reverses from trending #1 to −14%.",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator"
+    },
+    "winners_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Winners (24h)",
+        "level": "h2"
+      }
+    },
+    "winners_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Volume / Rank",
+          "Status"
+        ],
+        "rows": [
+          [
+            "PUMP (Pump.fun)",
+            "$0.002146",
+            "+18.7%",
+            "+10.9%",
+            "+0.7%",
+            "$132M / #75",
+            "TRENDING+UP"
+          ],
+          [
+            "BEAT (Audiera)",
+            "$4.35",
+            "+18.3%",
+            "+72.4%",
+            "+1.6%",
+            "$23.6M / #56",
+            "BREAKOUT"
+          ],
+          [
+            "AERO (Aerodrome)",
+            "$0.4564",
+            "+8.2%",
+            "−2.4%",
+            "+1.2%",
+            "$106M / #105",
+            "TRENDING+UP"
+          ],
+          [
+            "ETH (Ethereum)",
+            "$1,959",
+            "+3.7%",
+            "+3.4%",
+            "−0.2%",
+            "$10.3B / #2",
+            "MAJOR · TRENDING+UP"
+          ],
+          [
+            "BCH (Bitcoin Cash)",
+            "$218.3",
+            "+3.8%",
+            "+1.9%",
+            "+0.1%",
+            "$105M / #23",
+            ""
+          ],
+          [
+            "MORPHO",
+            "$1.95",
+            "+3.3%",
+            "−2.2%",
+            "+0.4%",
+            "$16.5M / #59",
+            ""
+          ],
+          [
+            "NEAR (NEAR Protocol)",
+            "$1.82",
+            "+2.1%",
+            "−6.4%",
+            "+0.3%",
+            "$104M / #39",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep2": {
+      "type": "Separator"
+    },
+    "losers_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Losers (24h)",
+        "level": "h2"
+      }
+    },
+    "losers_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Volume / Rank",
+          "Status"
+        ],
+        "rows": [
+          [
+            "BANK (Lorenzo Protocol)",
+            "~$0.329",
+            "−14.0%",
+            "",
+            "",
+            "#206",
+            "TRENDING+DOWN"
+          ],
+          [
+            "M (MemeCore)",
+            "$1.21",
+            "−7.3%",
+            "−1.1%",
+            "−1.1%",
+            "$13.1M / #48",
+            ""
+          ],
+          [
+            "VVV (Venice Token)",
+            "$13.22",
+            "−4.5%",
+            "+16.9%",
+            "−0.1%",
+            "$23M / #89",
+            ""
+          ],
+          [
+            "XMR (Monero)",
+            "$348.9",
+            "−3.8%",
+            "+3.7%",
+            "−0.9%",
+            "$88M / #18",
+            "MAJOR"
+          ],
+          [
+            "ALGO (Algorand)",
+            "$0.08285",
+            "−2.7%",
+            "+0.2%",
+            "−0.4%",
+            "$14.5M / #81",
+            ""
+          ],
+          [
+            "ARB (Arbitrum)",
+            "$0.08165",
+            "−1.5%",
+            "−7.8%",
+            "−0.2%",
+            "$32.5M / #97",
+            ""
+          ],
+          [
+            "ATOM (Cosmos Hub)",
+            "$1.38",
+            "−1.4%",
+            "−7.1%",
+            "−0.1%",
+            "$18.6M / #83",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep3": {
+      "type": "Separator"
+    },
+    "trending_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending",
+        "level": "h2"
+      }
+    },
+    "trending_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Rank",
+          "Price",
+          "24h",
+          "Status"
+        ],
+        "rows": [
+          [
+            "CSPR (Casper)",
+            "#688",
+            "$0.001590",
+            "+2.2%",
+            "MICROCAP"
+          ],
+          [
+            "PONS",
+            "#424",
+            "$0.06364",
+            "+22.7%",
+            "MICROCAP"
+          ],
+          [
+            "AEON",
+            "#925",
+            "$0.08348",
+            "−54.6%",
+            "MICROCAP"
+          ],
+          [
+            "GEOD (Geodnet)",
+            "#220",
+            "$0.2775",
+            "+27.8%",
+            ""
+          ],
+          [
+            "ZAMA",
+            "#219",
+            "$0.05897",
+            "+16.9%",
+            "MICROCAP"
+          ],
+          [
+            "PENGU (Pudgy Penguins)",
+            "#110",
+            "$0.006441",
+            "+2.2%",
+            ""
+          ],
+          [
+            "PUMP (Pump.fun)",
+            "#75",
+            "$0.002143",
+            "+17.7%",
+            "TRENDING+UP"
+          ]
+        ]
+      }
+    },
+    "sep4": {
+      "type": "Separator"
+    },
+    "notable_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h2"
+      }
+    },
+    "notable_pump": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "notable_pump_title",
+        "notable_pump_text"
+      ]
+    },
+    "notable_pump_title": {
+      "type": "Heading",
+      "props": {
+        "text": "PUMP [TRENDING+UP]",
+        "level": "h4"
+      }
+    },
+    "notable_pump_text": {
+      "type": "Text",
+      "props": {
+        "text": "Trending + up 18.7% on $132M vol — strong positive signal",
+        "variant": "body"
+      }
+    },
+    "notable_beat": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "notable_beat_title",
+        "notable_beat_text"
+      ]
+    },
+    "notable_beat_title": {
+      "type": "Heading",
+      "props": {
+        "text": "BEAT [BREAKOUT]",
+        "level": "h4"
+      }
+    },
+    "notable_beat_text": {
+      "type": "Text",
+      "props": {
+        "text": "Audiera +18.3% / 7d +72.4% — sustained move, rank #56 mid-cap",
+        "variant": "body"
+      }
+    },
+    "notable_bank": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "notable_bank_title",
+        "notable_bank_text"
+      ]
+    },
+    "notable_bank_title": {
+      "type": "Heading",
+      "props": {
+        "text": "BANK [TRENDING+DOWN]",
+        "level": "h4"
+      }
+    },
+    "notable_bank_text": {
+      "type": "Text",
+      "props": {
+        "text": "Was today's trending #1 at morning open; now −14.0% — sharp session reversal",
+        "variant": "body"
+      }
+    }
+  }
+}
