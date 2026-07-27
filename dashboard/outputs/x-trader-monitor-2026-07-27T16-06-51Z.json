@@ -1,0 +1,108 @@
+{
+  "root": "x-trader-monitor",
+  "state": {},
+  "elements": {
+    "x-trader-monitor": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-section",
+        "separator-1",
+        "analysis-section"
+      ]
+    },
+    "tweet-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "tweet-link"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "I'll admit that Apple TV is throwing heat, and the buybacks keep flowing"
+      },
+      "children": []
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2081771120597102674"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis-tags",
+        "analysis-alert"
+      ]
+    },
+    "analysis-tags": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "tag-bullish",
+        "tag-aapl",
+        "tag-meanreversion"
+      ]
+    },
+    "tag-bullish": {
+      "type": "Badge",
+      "props": {
+        "text": "Bullish",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "tag-aapl": {
+      "type": "Badge",
+      "props": {
+        "text": "AAPL",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "tag-meanreversion": {
+      "type": "Badge",
+      "props": {
+        "text": "Tactical Mean-Reversion",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "analysis-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Context",
+        "message": "Bullish product/capital-allocation sentiment on AAPL. Note: earlier today (15:26Z) WR had ambiguous entry signal, then entered bearish Oct puts at 15:29Z—this positive commentary may reflect tactical mean-reversion stance.",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}

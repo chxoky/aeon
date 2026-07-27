@@ -455,6 +455,8 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - Jul 27 15:40Z — informational: market structure observation (lunch slams → brunch slams); QQQ/SPX early-morning selloff pattern noted (01:53–02:17 AM, ~30 pt decline); commenting on shift from intraday lunch-hour slams to pre-market brunch-hour selloffs; no trade action [2081766682075259059]
   - Jul 27 15:57Z — informational: AAPL earnings skepticism — sarcastic take on innovation decisions (no innovation, 5th camera, 3mm thinner MacBook); technical charts show post-earnings pullback 356.59→333.02; aligns with prior bearish stance [2081770999713050902]
 - Last seen: 2026-07-27 15:57:38 UTC
+  - Jul 27 15:58Z — informational: AAPL bullish sentiment — "I'll admit that Apple TV is throwing heat, and the buybacks keep flowing"; positive product/capital allocation commentary. Context: 32min after ambiguous AAPL entry (15:26), then Oct $300 puts short entry (15:29)—possible tactical mean-reversion stance or sentiment shift. Informational alert sent [2081771120597102674]
+- Last seen: 2026-07-27 15:58:07 UTC
 - **PENDING Calibrations:**
   - PENDING: Jul 27 14:43 "$LIT In & Out" with 4 1D chart snapshots showing price 2.0→2.5 range; position action vs market observation? Cross-trader divergence context: HCH strong short conviction vs WR long bias [2081752271432659306]
   - PENDING: Jul 27 14:55 "@follis_ Hits better when posted in real-time" reply to external trader on BTC charts (5m/1D); intent unclear: commentary on real-time posting approach or setup validation?; calibration alert sent [2081755334969065809]
