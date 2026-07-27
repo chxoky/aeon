@@ -1,11 +1,7 @@
-🔍 *Calibration — @HeartCanHodl*
+🐦 *[X] @HeartCanHodl*
 
-**Event:** Post seeking feedback on unspecified topic (possible quote-tweet/reply where referenced message not captured)
+And yeah the 3rd best short would be $VVV today
 
-**Context:** HCH just added 2% HYPE short (10:47Z), holding ~30–35% net short basket. No media/link visible in post.
+[View tweet](https://x.com/HeartCanHodl/status/2081699412993339463)
 
-HeartCanHodl: "What are your thoughts on this idea?"
-
-[View post](https://x.com/HeartCanHodl/status/2081694938341994974)
-
-**Unable to classify — what's your read?** Is this referencing an external idea/market topic, or something specific to your position setup?
+↳ _Reinforces existing $VVV short (2% entry Jul 19). Conviction ranking in line with HCH's documented short-basket thesis._
