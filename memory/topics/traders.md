@@ -157,6 +157,7 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - Jul 26 21:54Z — informational: altcoin sentiment — commentary on "dead altcoins" and people wasting time charting flat narratives; reinforces bearish alt thesis [2081498525301461076]
   - Jul 27 00:48Z — ambiguous: "I will trim another 10% of MV at 951~ liquidity if offered"; conditional TP order with chart image; MV ticker unclear (possibly MU?), awaiting calibration [1531100853488975943]
   - Jul 27 00:52Z — informational: SNDK conditional TP guidance — "1527~* for SNDK, both will be closed 80% if those TPs hit"; updates multi-position TP targets (MU+SNDK both aiming for 80% cumulative close) [15311010124139137144]
+  - Jul 27 00:57Z — trade-partial-tp: MU/SNDK combined execution — "Trimmed another 10% of MU/SNDK here at 941/1480. 80% closed on both, SL's B/E" (confirmed both positions now 80% closed cumulatively per earlier guidance; MU trim at $941 ≈+14.8% from $820 entry; SNDK trim at $1480 ≈+8.3% from $1366 entry; remaining 20% on both under DCA/hold thesis with stops at breakeven) [1531103202328711188]
 
 ## swarmister
 - Platforms: X (primary; X-only, no Discord presence)

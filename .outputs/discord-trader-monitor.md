@@ -1,21 +1,28 @@
-Perfect! I've completed the skill execution. Here's the summary:
-
 ## Summary
 
-**Event processed:** Discord message from Crypto_Chase at 2026-07-27T00:52:01Z
+I've executed the **Discord Trader Monitor** skill for the 2026-07-27 Discord event from Crypto_Chase. Here's what happened:
 
-**Classification:** INFORMATIONAL (conditional TP guidance update)
+**Event Decoded:**
+- **Trader**: Crypto_Chase (verified username match)
+- **Channel**: 1336082716063694962 (Chase — Chase, primary)
+- **Message**: "Trimmed another 10% of MU/SNDK here at 941/1480. 80% closed on both, SL's B/E, gn."
+- **Time**: 2026-07-27T00:57:29.957Z
 
-**Key details:**
-- **Message:** "1527~* for SNDK, both will be closed 80% if those TPs hit"
-- **Ticker:** SNDK (multi-position guidance including MU)
-- **Fast-path status:** ✓ Already alerted (Telegram sent by Cloudflare Worker ~2-5s after message)
-- **Action taken:** Memory-only processing (no duplicate notification)
+**Fast-Path Status:**
+✓ Alert already sent by Cloudflare Worker (~2-5s after event)
+✓ Skipped duplicate Telegram notification per Step 2 protocol
 
-**Updates made:**
-1. ✅ Message ID added to `memory/discord-trader-seen.txt` (row 75)
-2. ✅ Event logged to `memory/topics/traders.md` (Crypto_Chase section)
-3. ✅ Daily log entry created in `memory/logs/2026-07-27.md`
+**Classification:**
+- **Type**: `trade-partial-tp` (partial take-profit execution)
+- **MU Trim**: $941 (≈+14.8% gain from $820 entry)
+- **SNDK Trim**: $1480 (≈+8.3% gain from $1366 entry)
+- **Status**: Both positions now **80% closed**, 20% remainder at breakeven stops
 
-**Interpretation:**
-The message updates Crypto_Chase's position management strategy for SNDK (and related MU position). Currently holding 60% cumulative close on SNDK, with guidance to reach 80% total close if price targets hit around 1527. This is consistent with documented tiered TP strategy (50% at 1533, 10% at 1675 prior). Informational only—no Kyle action required.
+**Memory Updated:**
+- ✓ Added message ID to `discord-trader-seen.txt` (dedup tracking)
+- ✓ Updated `traders.md` with execution classification
+- ✓ Updated `active-trades.md` with tiered-exit progression and position state
+- ✓ Logged event to `memory/logs/2026-07-27.md`
+
+**Position Summary:**
+Crypto_Chase executed the final tier of the 80% close targets announced 5 minutes earlier (00:52Z). This confirms disciplined tiered-exit management across both positions with remaining 20% held under DCA thesis and stops at breakeven.
