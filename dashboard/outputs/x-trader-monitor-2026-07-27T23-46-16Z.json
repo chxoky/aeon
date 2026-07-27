@@ -1,0 +1,197 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "BTC Cycle Repeat Analysis",
+        "description": "x-trader-monitor | Technical Pattern by @Wild_Randomness"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "pattern_info",
+        "separator1",
+        "stats_section",
+        "separator2",
+        "decision_alert",
+        "separator3",
+        "context_section"
+      ]
+    },
+    "pattern_info": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_cycle",
+        "text_cycle_detail"
+      ]
+    },
+    "heading_cycle": {
+      "type": "Heading",
+      "props": {
+        "text": "Identical Pattern Detected",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text_cycle_detail": {
+      "type": "Text",
+      "props": {
+        "text": "July 27, 2024 → July 27, 2026 (exact 2-year cycle)"
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stats_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_daily",
+        "stats_grid"
+      ]
+    },
+    "heading_daily": {
+      "type": "Heading",
+      "props": {
+        "text": "Both Daily Charts Show:",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "stats_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat_peak",
+        "stat_support",
+        "stat_downside",
+        "stat_target"
+      ]
+    },
+    "stat_peak": {
+      "type": "Stat",
+      "props": {
+        "label": "Peak Rejection",
+        "value": "69.3–69.4K"
+      },
+      "children": []
+    },
+    "stat_support": {
+      "type": "Stat",
+      "props": {
+        "label": "Support Test (Current)",
+        "value": "63.7–63.8K"
+      },
+      "children": []
+    },
+    "stat_downside": {
+      "type": "Stat",
+      "props": {
+        "label": "Downside if Breakdown",
+        "value": "-29.39% / -29.59%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "stat_target": {
+      "type": "Stat",
+      "props": {
+        "label": "Target Zone",
+        "value": "$44–45K"
+      },
+      "children": []
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "decision_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Pattern Decision Point (NOW)",
+        "message": "Hold support → 70K+ bounce, or break → extended move to 44K",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_analysis",
+        "text_pivot",
+        "text_validation",
+        "link_source"
+      ]
+    },
+    "text_analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Technical setup validates near-term caution despite HTF bullish structure thesis."
+      },
+      "children": []
+    },
+    "text_pivot": {
+      "type": "Text",
+      "props": {
+        "text": "Aligns with documented Jul 28–29 pivot dates (6 of 7 prior resolved bearishly per KillaXBT analysis).",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "text_validation": {
+      "type": "Text",
+      "props": {
+        "text": "🔍 Technical Pattern",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "link_source": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2081887554304082429"
+      },
+      "children": []
+    }
+  }
+}
