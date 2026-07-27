@@ -1,0 +1,172 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "calibration_badge",
+        "event_section",
+        "sep1",
+        "message_section",
+        "sep2",
+        "context_section",
+        "classification_alert"
+      ]
+    },
+    "calibration_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "🔍 Calibration — DC: HCH — Free",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "event_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event_label",
+        "channel_text",
+        "timestamp_text"
+      ]
+    },
+    "event_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "channel_text": {
+      "type": "Text",
+      "props": {
+        "text": "Discord #Free channel (public/primary)"
+      },
+      "children": []
+    },
+    "timestamp_text": {
+      "type": "Text",
+      "props": {
+        "text": "Timestamp: 2026-07-27 13:36:20 UTC",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "message_section": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "text": "Another one 📉"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_heading",
+        "context_text",
+        "interpretations_heading",
+        "interpretations_stack"
+      ]
+    },
+    "context_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "No ticker/price/execution language. Possible interpretations:"
+      },
+      "children": []
+    },
+    "interpretations_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Possible Interpretations",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "interpretations_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "interp1",
+        "interp2",
+        "interp3",
+        "interp4"
+      ]
+    },
+    "interp1": {
+      "type": "Text",
+      "props": {
+        "text": "Another short position added (but no ticker specified)?"
+      },
+      "children": []
+    },
+    "interp2": {
+      "type": "Text",
+      "props": {
+        "text": "Market observation on downtrend movement?"
+      },
+      "children": []
+    },
+    "interp3": {
+      "type": "Text",
+      "props": {
+        "text": "Confirmation of filled trade?"
+      },
+      "children": []
+    },
+    "interp4": {
+      "type": "Text",
+      "props": {
+        "text": "General bearish sentiment?"
+      },
+      "children": []
+    },
+    "classification_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read?",
+        "type": "warning"
+      },
+      "children": []
+    }
+  }
+}

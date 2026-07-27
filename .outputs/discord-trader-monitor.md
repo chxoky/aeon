@@ -10,3 +10,14 @@ The Discord message "Fc vvv 5m" with a Twitter link is a 2h22m reiteration of He
 → **Action:** Silent dedup — message ID recorded in discord-trader-seen.txt, no duplicate alert sent, no new event line added to traders.md
 
 The "Fc {ticker} {tf}" pattern remains PENDING calibration (form-confirmed chart observation, exact meaning unconfirmed), but is tracked separately under traders.md PENDING backlog.
+Event: Discord #Free channel (public/primary)
+Timestamp: 2026-07-27 13:36:20 UTC
+HeartCanHodl: "Another one 📉"
+
+Context: No ticker/price/execution language. Possible interpretations:
+- Another short position added (but no ticker specified)?
+- Market observation on downtrend movement?
+- Confirmation of filled trade?
+- General bearish sentiment?
+
+Unable to classify — what's your read?
