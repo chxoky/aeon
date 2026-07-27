@@ -164,6 +164,7 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - Jul 27 13:40Z — informational: supporting-channel member Q&A reply; commentary on member's Google 317→327 trade; offering perspective "let the trade speak for itself" (Discord, TradFi channel, is_reply to parcels.funk) [1531295160883875850]
   - Jul 27 14:06Z — trade-partial-tp: SNDK final 20% closed at break-even (100% closed total, 1366 entry, "very content with this trade"); MU final 20% still open at SL BE; market outlook commentary: gold sweep 3900~→4400+, GOOGL 309 sweep watch, intraday ES trading focus; conviction narrative on memory-sector volatility and bounce patterns (primary channel, fast-path alerted by Worker) [1531301734314541177]
   - Jul 27 14:14Z — informational: macro catalyst commentary — FOMC on Wednesday plus Microsoft earnings should get market direction; no personal trade action (supporting channel) [1531303686427381941]
+  - Jul 27 15:48Z — informational: ltf bearish signal commentary — "Pumping* remains one of the most bearish ltf signals in crypto" (reply to @follis_); technical market sentiment [2081768615527784572]
 
 ## swarmister
 - Platforms: X (primary; X-only, no Discord presence)
