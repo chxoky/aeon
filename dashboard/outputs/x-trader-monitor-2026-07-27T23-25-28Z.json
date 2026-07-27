@@ -1,0 +1,53 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @Wild_Randomness"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-event",
+        "text-quote",
+        "text-question",
+        "link-post"
+      ]
+    },
+    "text-event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Meme chart on patience/opportunity cost (1000 days steady gains → sharp cliff drop; implies 'something' imminent)"
+      }
+    },
+    "text-quote": {
+      "type": "Text",
+      "props": {
+        "text": "@Wild_Randomness: \"Trump already gave his blessing fwiw\""
+      }
+    },
+    "text-question": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read? Is this market sentiment (bullish political narrative?), bearish/cynical commentary (patient holders about to get wrecked?), or noise?"
+      }
+    },
+    "link-post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2081881743964151994"
+      }
+    }
+  }
+}
