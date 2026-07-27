@@ -1,6 +1,10 @@
-🔍 Calibration — @Wild_Randomness
+## Summary
 
-AAPL second entry $339.15 on 1D chart support zone.
+Processed X/Twitter event from @trading_axe (Dr. Axius):
+- **Tweet:** "@wapital3 True story 🥀🥀🥀 ~ Dr. Axius"
+- **Classification:** A. Non-financial (skip) — pure social banter with no financial content
+- **Action:** Added tweet ID to dedup list, logged to daily activity log, no alert sent
+- **Memory updated:** memory/x-trader-seen.txt + memory/logs/2026-07-27.md
 
 Prior (Jul 25): Bearish — 'AAPL won't lead next bull leg' + support levels 288.70/260/240/220, resistance 356.59.
 
@@ -30,3 +34,4 @@ I've successfully executed the x-trader-monitor skill for the incoming tweet fro
 - Trade signal 5a alert queued for dispatch via `./notify`
 - Kyle should reply `approve <underlying> <size>` to mirror on Kraken spot, or `ignore`/`skip` to reject
 - Chart context available via original X post link for Kyle to confirm underlying before approval
+This matches trading_axe's profile (~95% non-financial noise). No Kyle notification needed.
