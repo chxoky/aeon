@@ -304,10 +304,11 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - Jul 27 01:00Z — informational: terse price check — BTC 65k, ETH 1940+ (Comments channel) [1531103860821594113]
   - Jul 27 00:57Z — informational: CL +6.36% short equity; SOL/HYPE 1h technical charts + macro leverage-ETF-flows chart; asks Kyle input on hedges/re-entry [2081544563064488106]
   - Jul 27 06:15Z — trade-conviction-add: ETH 5% pf short (Trades channel, primary; reply-context: closing 2.5% eth short earlier) [1531183125965705287]
-- Last seen: 2026-07-27 06:15:05 UTC
+- Last seen: 2026-07-27 07:36:54 UTC
 - **PENDING: Jul 27 02:45Z — "Fc btc 1w"** — Calibration alert sent. Is "Fc" = form-confirmed? Technical observation only or conviction signal? [1531130322731667616]
 - **PENDING: Jul 27 05:59Z — "No. We will take the short exposure"** — Calibration alert sent. No referenced message context (Chat channel reply). Confirming existing short basket or new decision? [1531179316157616218]
 - **PENDING: Jul 27 06:06Z — "We are yet to pull to trigger"** — Calibration alert sent. Chat channel follow-up to 05:59Z. Awaiting pullback to trigger: new entry? Add to shorts? Cover condition? [1531181054981968022]
+- **PENDING: Jul 27 07:36Z — "Fc bank 15m"** — Comments channel. "Fc {ticker} {tf}" pattern still PENDING explicit calibration. "bank" ticker unclear (banking sector asset? token?). Form-confirmed observation or chart-pattern callout requiring action? [1531203718572146789]
 
 ## Wild_Randomness
 - Platforms: X (X-only; no Discord)
