@@ -1,0 +1,127 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @Wild_Randomness"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat_entry",
+        "sep1",
+        "prior_section",
+        "sep2",
+        "analysis_section",
+        "sep3",
+        "link_chart"
+      ]
+    },
+    "stat_entry": {
+      "type": "Stat",
+      "props": {
+        "label": "AAPL Entry (2nd) — 1D Support Zone",
+        "value": "$339.15"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "prior_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_prior",
+        "text_prior_sentiment",
+        "text_prior_levels"
+      ]
+    },
+    "heading_prior": {
+      "type": "Heading",
+      "props": {
+        "text": "Prior Analysis (Jul 25)",
+        "level": "h3"
+      }
+    },
+    "text_prior_sentiment": {
+      "type": "Text",
+      "props": {
+        "text": "Bearish — 'AAPL won't lead next bull leg'"
+      }
+    },
+    "text_prior_levels": {
+      "type": "Text",
+      "props": {
+        "text": "Support: 288.70 / 260 / 240 / 220 | Resistance: 356.59",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_analysis",
+        "text_analysis_position",
+        "text_analysis_question"
+      ]
+    },
+    "heading_analysis": {
+      "type": "Heading",
+      "props": {
+        "text": "Current Analysis (Jul 27)",
+        "level": "h3"
+      }
+    },
+    "text_analysis_position": {
+      "type": "Text",
+      "props": {
+        "text": "Long second entry $339.15 near support"
+      }
+    },
+    "text_analysis_question": {
+      "type": "Text",
+      "props": {
+        "text": "Tactical mean-reversion bounce vs conviction flip on AAPL structure?",
+        "variant": "lead"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_chart": {
+      "type": "Link",
+      "props": {
+        "label": "View Chart on X",
+        "href": "https://x.com/Wild_Randomness/status/2081763174190346556"
+      }
+    }
+  }
+}

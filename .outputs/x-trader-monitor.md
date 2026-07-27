@@ -1,16 +1,9 @@
-🔍 *Calibration — @Wild_Randomness*
+🔍 Calibration — @Wild_Randomness
 
-Chart: ETH/USDT 1D showing triple bearish divergence, current 1,976 with key support at 2,000–1,900.
+AAPL second entry $339.15 on 1D chart support zone.
 
-@Wild_Randomness: "$ETH
+Prior (Jul 25): Bearish — 'AAPL won't lead next bull leg' + support levels 288.70/260/240/220, resistance 356.59.
 
-Triple bear div into 2k? [chart images]"
+Now (Jul 27): Long second entry $339.15 near support.
 
-Chart shows: Three descending divergence lines at resistance, consolidation near 2,000 support, resistance at 2,200. Clear technical setup visible.
-
-Unable to classify — what's your read?
-• Warning to avoid longs into this resistance?
-• Setup observation Kyle should monitor closely?
-• Implicit bearish question on likelihood of breakdown?
-
-[View post](https://x.com/Wild_Randomness/status/2081759236103795040)
+Tactical mean-reversion bounce vs conviction flip on AAPL structure? Chart: https://x.com/Wild_Randomness/status/2081763174190346556
