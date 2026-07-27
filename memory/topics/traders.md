@@ -222,6 +222,7 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - Jul 26 18:08Z — ambiguous: "@0xProfessor_ Here we go…" terse cryptic with ellipsis [2081441542233784830]
   - Jul 26 19:06Z — informational: trading psychology — discipline and execution consistency as account grows [2081456092832317700]
   - Jul 26 19:15Z — ambiguous: reply "@janxbt @garbycan Yes I'm nig" — truncated text [2081458303570161705]
+  - Jul 27 05:00Z — ambiguous: terse cryptic reply "@garbycan 2in1"; one-word pattern, no ticker/level [2081605684785811517]
 
 ## HeartCanHodl
 - Platforms: X + Discord (Trades 1279738718680256553 = primary; Chat 1023638573313966212 = real-time; Comments 1393137051108507728 = macro; Free 1472153627324842057 = public)
