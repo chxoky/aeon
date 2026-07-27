@@ -1,0 +1,154 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor"
+      },
+      "children": [
+        "header-badges",
+        "messages-stack",
+        "classification-alert"
+      ]
+    },
+    "header-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-calib",
+        "badge-channel"
+      ]
+    },
+    "badge-calib": {
+      "type": "Badge",
+      "props": {
+        "text": "Calibration",
+        "variant": "outline"
+      }
+    },
+    "badge-channel": {
+      "type": "Badge",
+      "props": {
+        "text": "DC: HCH — Free",
+        "variant": "default"
+      }
+    },
+    "messages-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "msg1",
+        "msg2"
+      ]
+    },
+    "msg1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "msg1-meta",
+        "msg1-text",
+        "msg1-stat"
+      ]
+    },
+    "msg1-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "msg1-time",
+        "msg1-author"
+      ]
+    },
+    "msg1-time": {
+      "type": "Text",
+      "props": {
+        "text": "Jul 27 10:16Z",
+        "variant": "caption"
+      }
+    },
+    "msg1-author": {
+      "type": "Badge",
+      "props": {
+        "text": "DC: HCH — Free",
+        "variant": "secondary"
+      }
+    },
+    "msg1-text": {
+      "type": "Text",
+      "props": {
+        "text": "Already down 6%. Missing these updates comes with a hefty opportunity cost."
+      }
+    },
+    "msg1-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Loss",
+        "value": "-6%",
+        "trend": "down"
+      }
+    },
+    "msg2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "msg2-meta",
+        "msg2-text"
+      ]
+    },
+    "msg2-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "msg2-time",
+        "msg2-author"
+      ]
+    },
+    "msg2-time": {
+      "type": "Text",
+      "props": {
+        "text": "Jul 27 14:42Z",
+        "variant": "caption"
+      }
+    },
+    "msg2-author": {
+      "type": "Badge",
+      "props": {
+        "text": "HCH reply",
+        "variant": "secondary"
+      }
+    },
+    "msg2-text": {
+      "type": "Text",
+      "props": {
+        "text": "Hitting 3/3 😁"
+      }
+    },
+    "classification-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to Classify",
+        "message": "What's the 3-target setup? Is this hitting 3 profit targets, or confirming a plan with 3 entry/exit legs? What does the 6% loss reference?",
+        "type": "warning"
+      }
+    }
+  }
+}

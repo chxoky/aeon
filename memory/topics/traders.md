@@ -370,6 +370,7 @@ BOOTSTRAP_COMPLETE: 2026-07-14
 - Last seen: 2026-07-27 13:40:00 UTC
   - Jul 27 14:16Z — trade-conviction-add: Add 2% pump short (Trades channel, primary; Discord message_id=1531304326423773296, is_reply=false, no referenced_message, no attachments; verbatim rule enforced — exact message must be "Add 2% pump short" in any alert; fast-path-alerted=true so fast-path Worker sent Telegram ~2-5s prior to skill invocation; skill does memory-only processing per Step 1 fast-path protocol). Ticker not explicitly specified in message; contextual interpretation suggests conviction add to active short basket escalation (recent related entries: KAITO 2% pf short 07:41Z, ETH +5% pf short 07:15Z, ZEC +3% pf short 07:51Z, HYPE 2% pf short 07:47Z all on same date within 2.5-hour window 07:15-10:47Z; "pump" language suggests adding on intraday price strength). Classification: trade-conviction-add. [1531304326423773296]
 - Last seen: 2026-07-27 14:16:41 UTC
+- **PENDING: Jul 27 14:42Z (Discord Free) — "Hitting 3/3 😁"** — Reply to self (Jul 27 10:16Z message "Already down 6%. Missing these updates comes with a hefty opportunity cost."). Ambiguous: hitting 3 profit targets? 3-part setup completion? 3x leverage-related? Earlier message marked PENDING (referent of 6% loss unclear). Calibration alert sent. [1531310877029040178]
 
 ## Wild_Randomness
 - Platforms: X (X-only; no Discord)
