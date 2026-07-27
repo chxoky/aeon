@@ -1,0 +1,162 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration Alert"
+      },
+      "children": [
+        "alert-header",
+        "sep1",
+        "event-section",
+        "quote-text",
+        "sep2",
+        "chart-section",
+        "sep3",
+        "classification-section",
+        "sep4",
+        "tweet-link"
+      ]
+    },
+    "alert-header": {
+      "type": "Text",
+      "props": {
+        "text": "🚨 Calibration Alert — @HeartCanHodl",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "event-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event-label",
+        "event-value"
+      ]
+    },
+    "event-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h4"
+      }
+    },
+    "event-value": {
+      "type": "Text",
+      "props": {
+        "text": "Bearish BTC breakdown thesis (recent July shorts ongoing)",
+        "variant": "body"
+      }
+    },
+    "quote-text": {
+      "type": "Text",
+      "props": {
+        "text": "HeartCanHodl: \"Nothing can stop it. It's next\"",
+        "variant": "lead"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "chart-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "chart-heading",
+        "chart-desc",
+        "chart-stats"
+      ]
+    },
+    "chart-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart Analysis: BTC/USDT 4h Binance Perpetual",
+        "level": "h4"
+      }
+    },
+    "chart-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Showing key support zones. Chart reinforces bearish conviction on short basket.",
+        "variant": "body"
+      }
+    },
+    "chart-stats": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat-rvwap",
+        "stat-july",
+        "stat-2026",
+        "stat-price"
+      ]
+    },
+    "stat-rvwap": {
+      "type": "Stat",
+      "props": {
+        "label": "30d rvwap",
+        "value": "62,974K"
+      }
+    },
+    "stat-july": {
+      "type": "Stat",
+      "props": {
+        "label": "July val",
+        "value": "61,800K"
+      }
+    },
+    "stat-2026": {
+      "type": "Stat",
+      "props": {
+        "label": "2026 low",
+        "value": "58,400K"
+      }
+    },
+    "stat-price": {
+      "type": "Stat",
+      "props": {
+        "label": "Current price (resistance)",
+        "value": "67,657K"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "classification-section": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Is this: (1) Conviction reinforcement of existing short basket (informational)? (2) Specific new short entry signal? (3) General bearish sentiment observation?",
+        "type": "info"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "tweet-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View post",
+        "href": "https://x.com/HeartCanHodl/status/2081736361653010527",
+        "source": "X"
+      }
+    }
+  }
+}
