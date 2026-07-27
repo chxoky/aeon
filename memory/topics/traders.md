@@ -327,6 +327,7 @@ BOOTSTRAP_COMPLETE: 2026-07-14
 - **PENDING: Jul 27 06:06Z — "We are yet to pull to trigger"** — Calibration alert sent. Chat channel follow-up to 05:59Z. Awaiting pullback to trigger: new entry? Add to shorts? Cover condition? [1531181054981968022]
 - **PENDING: Jul 27 07:37Z — "Not that i would position for this but just a heads-up"** — Calibration alert sent. Comments channel message; context missing on what "this" refers to. [1531203928811896912]
 - **PENDING: Jul 27 09:32Z — "We did"** — Calibration alert sent. Chat channel; cryptic affirmation after kaito/ETH/ZEC shorts executed in prior hour (07:41–07:54Z). Context missing — confirmation of execution, TP hit, or reference to something specific? [1531232868695674932]
+- **PENDING: Jul 27 09:37Z — "It's done as per me on that wick but yeah risky to short, a bit late"** — Calibration alert sent. Chat channel (supporting). Cryptic reference to completed wick pattern, warning that shorting is risky/late. Market observation only? Position management signal? Execution confirmation? [1531234019537326170]
 
 ## Wild_Randomness
 - Platforms: X (X-only; no Discord)

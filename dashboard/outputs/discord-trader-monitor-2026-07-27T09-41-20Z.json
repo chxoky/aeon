@@ -1,0 +1,199 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Discord Chat Channel Calibration — HeartCanHodl Market Analysis"
+      },
+      "children": [
+        "calibration-heading",
+        "sep1",
+        "quote-card",
+        "sep2",
+        "context-section",
+        "sep3",
+        "escalation-section",
+        "sep4",
+        "analysis-section"
+      ]
+    },
+    "calibration-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: HCH — Chat]",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "quote-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "It's done as per me on that wick but yeah risky to short, a bit late"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context-heading",
+        "context-items"
+      ]
+    },
+    "context-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "context-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "channel-info",
+        "timestamp-info",
+        "wick-reference",
+        "risk-assessment"
+      ]
+    },
+    "channel-info": {
+      "type": "Text",
+      "props": {
+        "text": "Channel: Discord Chat (supporting)",
+        "variant": "body"
+      }
+    },
+    "timestamp-info": {
+      "type": "Text",
+      "props": {
+        "text": "Timestamp: Jul 27 09:37Z",
+        "variant": "body"
+      }
+    },
+    "wick-reference": {
+      "type": "Text",
+      "props": {
+        "text": "Cryptic reference to 'that wick' (completed price action?)",
+        "variant": "body"
+      }
+    },
+    "risk-assessment": {
+      "type": "Badge",
+      "props": {
+        "text": "Warning: Risky to short, late entry",
+        "variant": "destructive"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "escalation-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "escalation-heading",
+        "escalation-items"
+      ]
+    },
+    "escalation-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Recent Short Basket Escalation",
+        "level": "h3"
+      }
+    },
+    "escalation-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "eth-add",
+        "zec-add",
+        "kaito-entry"
+      ]
+    },
+    "eth-add": {
+      "type": "Badge",
+      "props": {
+        "text": "ETH +5%",
+        "variant": "default"
+      }
+    },
+    "zec-add": {
+      "type": "Badge",
+      "props": {
+        "text": "ZEC +3%",
+        "variant": "default"
+      }
+    },
+    "kaito-entry": {
+      "type": "Badge",
+      "props": {
+        "text": "Kaito Entry",
+        "variant": "default"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis-heading",
+        "classification-options"
+      ]
+    },
+    "analysis-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Classification Analysis",
+        "level": "h3"
+      }
+    },
+    "classification-options": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Unable to Classify",
+        "message": "Possible interpretations: (1) Market observation only (no action); (2) Confirmation of position management (closing/scaling); (3) Conviction statement on current market regime; (4) Reference to failed entry opportunity"
+      }
+    }
+  }
+}

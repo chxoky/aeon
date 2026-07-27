@@ -1,13 +1,8 @@
-Perfect! I've successfully executed the Discord Trader Monitor skill with the provided event. Here's the summary:
+🔍 *Calibration — [DC: HCH — Chat]*
 
-## Summary
+HeartCanHodl: "It's done as per me on that wick but yeah risky to short, a bit late"
 
-**Event Processed:**
-- Message ID: `1531232847350726736`
-- Trader: HeartCanHodl (heartcanhodl)
-- Channel: `1023638573313966212` ("HCH — Chat", supporting channel)
-- Content: `"the **"` (incomplete/malformed markdown)
-- Created: 2026-07-27 09:32:39 UTC
+Context: Discord Chat channel (supporting) — Jul 27 09:37Z. Message follows recent short basket escalation (ETH 5% add, ZEC 3% add, kaito entry). Cryptic reference to "that wick" (completed price action?). Warning comment: risky to short, late.
 
 **Classification:** SKIP (test/malformed message) — HR-1 rule applied
 
@@ -28,3 +23,8 @@ Event: Just executed multiple alt shorts (kaito 2%, ETH +5%, ZEC +3%) in prior m
 HeartCanHodl: "We did"
 
 Unable to classify — what's your read? Did he confirm execution, hit a target, or reference something specific?
+Unable to classify — is this:
+- Market observation only (no action)?
+- Confirmation of position management (closing/scaling)?
+- Conviction statement on current market regime?
+- Reference to failed entry opportunity?
