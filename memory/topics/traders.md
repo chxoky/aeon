@@ -620,8 +620,9 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - PENDING: Jul 18 14:47 "Red lines" + chart image [2078491935967228164]
   - PENDING: Jul 19 10:37 "@nsquaredvalue This is completely wrong!" — what BTC claim? [2078791295221346619]
   - PENDING: Jul 19 14:25 "@VinVinPewPew Yes, exactly" — confirming what? [2078848697656578449]
-- Last seen: 2026-07-25 11:37:00 UTC
+- Last seen: 2026-07-27 14:09:58 UTC
 - **Events (rolling):**
+  - Jul 27 14:09Z — skip: promotional archive announcement; no market signal [2081743904731254928]
   - Jul 14 08:04Z — ambiguous: "Soon" right after 10/11 Jul pivot dates [no id]
   - Jul 14 13:04Z — ambiguous: "Pivots play exact as always" + URL [no id]
   - Jul 18 14:47Z — ambiguous: "Red lines" + chart image [2078491935967228164]
