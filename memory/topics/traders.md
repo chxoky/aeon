@@ -425,7 +425,7 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - Jul 27 02:17Z — ambiguous: BTC daily chart with support/resistance levels (60K, 66-67.5K), price 64.7K recovery pattern; cryptic "$BTC\n\nWhat if?" caption; direction/intent ambiguous, awaiting calibration [2081564568552165402]
   - Jul 27 02:23Z — ambiguous: BTC May-top short comparison (85K region, "biggest crypto short I ever put on"), current 68K liq cluster; cryptic "took out some local liq of futures open, now some staring at us from below" language; unclear if personal position action, partial TP, or market observation, awaiting calibration [2081566112920072328]
   - Jul 27 02:40Z — ambiguous: reply to @killerpainda on "left tail scenario that could really move the needle"; no ticker/level, asymmetric outcome language; calibration sent [2081570509221724419]
-- Last seen: 2026-07-27 02:40:57 UTC
+- Last seen: 2026-07-27 14:22:43 UTC
   - Jul 27 02:41Z — ambiguous: reply to @killerpainda "Just like how this was highly asymmetric…" with BTCUSD 1D chart (consolidation→rally to 85K, support line); no execution language, intent unconfirmed (bullish setup? comparison? educational?) [2081570737953862068]
   - Jul 27 13:56Z — informational: BTC technical observation — 5m pump at NY Open (65.6K) with daily chart showing key support/resistance zones (60K/66–67.5K); cryptic caption "Pumping on NY Open is?…" shares intraday structure analysis [2081740519282012668]
   - Jul 27 14:15Z — informational: QQQ/NDX market sentiment — "The Nasdaq is red"; minimal observation with image reference (chart inaccessible); macro direction commentary [2081745386562343083]
