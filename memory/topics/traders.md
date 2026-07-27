@@ -450,7 +450,8 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - Jul 27 15:26Z — ambiguous: AAPL "Second entry$ 339.15" (1D chart, entry near support 288.70 zone). CONTRADICTS prior Jul 25 bearish stance ("AAPL won't lead next bull leg despite current strength"). Tactical mean-reversion entry vs conviction flip unclear; calibration alert sent [2081763174190346556]
 - Last seen: 2026-07-27 15:26:32 UTC
   - Jul 27 15:29Z — trade-new-entry: October $300 puts (MTF swing trade); comparing to July 2023 setup; expresses concern about vol crush from earnings this week; states "straight up gamble" on shorter-term moves but sees better risk/reward on medium-term swing setup [2081764031858450743]
-- Last seen: 2026-07-27 15:29:57 UTC
+  - Jul 27 15:40Z — informational: market structure observation (lunch slams → brunch slams); QQQ/SPX early-morning selloff pattern noted (01:53–02:17 AM, ~30 pt decline); commenting on shift from intraday lunch-hour slams to pre-market brunch-hour selloffs; no trade action [2081766682075259059]
+- Last seen: 2026-07-27 15:40:29 UTC
 - **PENDING Calibrations:**
   - PENDING: Jul 27 14:43 "$LIT In & Out" with 4 1D chart snapshots showing price 2.0→2.5 range; position action vs market observation? Cross-trader divergence context: HCH strong short conviction vs WR long bias [2081752271432659306]
   - PENDING: Jul 27 14:55 "@follis_ Hits better when posted in real-time" reply to external trader on BTC charts (5m/1D); intent unclear: commentary on real-time posting approach or setup validation?; calibration alert sent [2081755334969065809]

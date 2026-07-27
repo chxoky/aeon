@@ -1,0 +1,41 @@
+{
+  "root": "card_1",
+  "state": {},
+  "elements": {
+    "card_1": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_1",
+        "separator_1",
+        "link_1"
+      ]
+    },
+    "tweet_1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Market structure shift observed: was aiming for 7/7 lunch slams, but pattern evolved to brunch slams. QQQ/SPX showing early-morning selloffs (1:53–2:17 AM brunch-time hits).\n\nCharts show ~30pt QQQ decline from 708 to 680.68 (01:53Z), continued decline to 677.32 (02:17Z), and recurring SPX intraday volatility with marked sell-off zones."
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link_1": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2081766682075259059"
+      },
+      "children": []
+    }
+  }
+}
