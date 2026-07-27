@@ -1,15 +1,17 @@
-Done. No notification needed — all tokens within thresholds.
+No alerts triggered. All three tracked tokens are within their thresholds:
+
+| Token | Price | 24h Change | Threshold | Status |
+|-------|-------|------------|-----------|--------|
+| BTC | $65,171 | +1.09% | 5% | OK |
+| ETH | $1,957.79 | +3.88% | 8% | OK |
+| SOL | $76.79 | +2.58% | 10% | OK |
+
+Logged `TOKEN_ALERT_OK` to `memory/logs/2026-07-27.md`. No notification sent.
 
 ## Summary
 
-**token-alert — 2026-07-26**
-
-Fetched live prices from CoinGecko for all three tracked tokens:
-
-| Token | Price | 24h Change | Threshold | Status |
-|-------|-------|-----------|-----------|--------|
-| BTC | $64,462 | +0.71% | 5% | Clear |
-| ETH | $1,884.53 | +1.47% | 8% | Clear |
-| SOL | $74.89 | +1.38% | 10% | Clear |
-
-No thresholds triggered, no volume spikes (volumes compressed vs Jul 25 baseline). No notification sent. Results logged to `memory/logs/2026-07-26.md`.
+- Fetched live prices from CoinGecko for BTC, ETH, SOL
+- Compared 24h changes against MEMORY.md thresholds — none breached
+- No volume spike baseline existed to check 3x condition
+- No alerts triggered, no `./notify` call made
+- Appended log entry to `memory/logs/2026-07-27.md`
