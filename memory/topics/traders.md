@@ -490,7 +490,7 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - PENDING: one-word "yes" to @maybe_cmeister [2078476335974887586]
   - PENDING: "realest shit ive read in a minute" [2078560776164360508]
   - PENDING: "@heart_ see @blancxbt man i told u they wont buy it" — which asset/level? [2079542718460518532]
-- Last seen: 2026-07-25 06:54:19 UTC
+- Last seen: 2026-07-27 11:25:18 UTC
 - **Events (rolling):**
   - Jul 16 14:27Z — market-call: BTC 70K path 67–69–71K vs full-July-retrace bear case; "no clear setup rn" [no id]
   - Jul 17 07:12Z — trade-nibble: BTC 62.8K + HYPE 59 small entries; "any lower looks like full retrace" [2078014900794761617]
