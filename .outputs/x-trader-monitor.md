@@ -1,12 +1,9 @@
 🔍 *Calibration — @Wild_Randomness*
 
-Event: May top short + current BTC setup
-Wild_Randomness: "I'll be honest— little bit of Deja vu from the May top (biggest crypto short I ever put on)
+Event: Reply to @killerpainda on "a left tail scenario"
 
-Took out some local liq of futures open, now some staring at us from below
+@Wild_Randomness: "Yeah it seems like a left tail scenario that could really move the needle imo. I mean it's over 1/3 priced in I don't know why people think it can't happen. (Again, probably won't, but if it happens, the outcome is highly asymmetric)"
 
-Not really the same setup as there is a big liq cluster at 68k, still pretty balanced, but rhymes in some ways https://t.co/5n16aBwYPb"
+Unable to classify — what's your read? Is this commentary on one of your existing positions (NVDA puts / VIX calls / options thesis), or a new setup he's discussing?
 
-Unable to classify — Is this: (a) market observation, (b) partial closure/TP of position, (c) setup interest, or (d) pure technical analysis? Your read?
-
-[View post](https://x.com/Wild_Randomness/status/2081566112920072328)
+[View post](https://x.com/Wild_Randomness/status/2081570509221724419)

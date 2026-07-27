@@ -358,6 +358,8 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - Jul 27 01:29Z — informational (silent): Fed/macro commentary on Warsh independence; CME FedWatch chart shows 375–400bp dominant; discusses if Trump influences dovish pivot or Warsh maintains hawkish stance; bearish oil/yields implications. Per WR calibration: macro context only, no ticker+action+level → logged silently [2081552566157193240]
   - Jul 27 02:17Z — ambiguous: BTC daily chart with support/resistance levels (60K, 66-67.5K), price 64.7K recovery pattern; cryptic "$BTC\n\nWhat if?" caption; direction/intent ambiguous, awaiting calibration [2081564568552165402]
   - Jul 27 02:23Z — ambiguous: BTC May-top short comparison (85K region, "biggest crypto short I ever put on"), current 68K liq cluster; cryptic "took out some local liq of futures open, now some staring at us from below" language; unclear if personal position action, partial TP, or market observation, awaiting calibration [2081566112920072328]
+  - Jul 27 02:40Z — ambiguous: reply to @killerpainda on "left tail scenario that could really move the needle"; no ticker/level, asymmetric outcome language; calibration sent [2081570509221724419]
+- Last seen: 2026-07-27 02:40:57 UTC
 
 ## t_in_crypto
 - Platforms: X

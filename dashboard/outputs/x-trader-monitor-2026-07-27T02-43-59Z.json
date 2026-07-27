@@ -1,0 +1,69 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading_calib",
+        "event_desc",
+        "tweet_card",
+        "separator1",
+        "analysis_question",
+        "link_post"
+      ]
+    },
+    "heading_calib": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "event_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @killerpainda on \"a left tail scenario\"",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Yeah it seems like a left tail scenario that could really move the needle imo. I mean it's over 1/3 priced in I don't know why people think it can't happen. (Again, probably won't, but if it happens, the outcome is highly asymmetric)"
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis_question": {
+      "type": "Alert",
+      "props": {
+        "title": "Analysis needed",
+        "message": "Unable to classify — what's your read? Is this commentary on one of your existing positions (NVDA puts / VIX calls / options thesis), or a new setup he's discussing?",
+        "type": "info"
+      },
+      "children": []
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2081570509221724419"
+      },
+      "children": []
+    }
+  }
+}
