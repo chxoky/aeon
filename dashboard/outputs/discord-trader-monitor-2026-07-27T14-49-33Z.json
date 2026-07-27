@@ -1,0 +1,122 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — [DC: Chase — Crypto]"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_event",
+        "text_event_desc",
+        "sep1",
+        "text_shared",
+        "link_url",
+        "alert_unable",
+        "stack_questions",
+        "sep2",
+        "text_message_id"
+      ]
+    },
+    "heading_event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "text_event_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Bare URL link posted in supporting channel (member Q&A)",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_shared": {
+      "type": "Text",
+      "props": {
+        "text": "Crypto_Chase shared:",
+        "variant": "body"
+      }
+    },
+    "link_url": {
+      "type": "StoryLink",
+      "props": {
+        "title": "X Post by Crypto_Chase",
+        "href": "https://x.com/Crypto_Chase/status/2081752856999125455",
+        "source": "X"
+      }
+    },
+    "alert_unable": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to access post content",
+        "message": "Requesting interpretation",
+        "type": "info"
+      }
+    },
+    "stack_questions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "q1",
+        "q2",
+        "q3"
+      ]
+    },
+    "q1": {
+      "type": "Text",
+      "props": {
+        "text": "What is the X post subject/content?",
+        "variant": "body"
+      }
+    },
+    "q2": {
+      "type": "Text",
+      "props": {
+        "text": "Does it signal trade idea, position update, or info share?",
+        "variant": "body"
+      }
+    },
+    "q3": {
+      "type": "Text",
+      "props": {
+        "text": "Should bare-URL Discord shares from Crypto_Chase be treated as actionable or logged-pending?",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_message_id": {
+      "type": "Text",
+      "props": {
+        "text": "Message ID: 1531311668691337368",
+        "variant": "caption"
+      }
+    }
+  }
+}
