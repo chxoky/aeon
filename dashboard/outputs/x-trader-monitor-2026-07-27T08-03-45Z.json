@@ -1,0 +1,76 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-1",
+        "text-1",
+        "tweet-card",
+        "link-1",
+        "sep-1",
+        "text-2"
+      ]
+    },
+    "heading-1": {
+      "type": "Heading",
+      "props": {
+        "text": "➕ Conviction Shift — @HeartCanHodl",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text-1": {
+      "type": "Text",
+      "props": {
+        "text": "HeartCanHodl removed long hedges and added to altcoin short positions."
+      },
+      "children": []
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "I've removed my long hedges and added to some new and old altcoin short positions. :)"
+      },
+      "children": []
+    },
+    "link-1": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/HeartCanHodl/status/2081649974115528872"
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text-2": {
+      "type": "Text",
+      "props": {
+        "text": "Escalation on short basket thesis confirmed."
+      },
+      "children": []
+    }
+  }
+}

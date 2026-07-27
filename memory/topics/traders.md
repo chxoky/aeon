@@ -272,7 +272,7 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - PENDING: "Fc btc 15m" Free channel Jul 26 [1531011932797276231]
   - PENDING: "Fc btc 1hr" Chat Jul 26 [1531013265075736657]
   - PENDING: "If we go by textbookish interpretation" Chat Jul 27 — cryptic terse fragment [1531130870419947671]
-- Last seen: 2026-07-27 02:47:26 UTC
+- Last seen: 2026-07-27 07:56:43 UTC
 - **Events (rolling):**
   - Jul 24 07:32Z — trade-new-entry: CL Crude Oil 2% pf short at breakout region; new ticker [1530115391878070292]
   - Jul 24 07:35Z — trade-new-entry: CL 2% pf short above $90 (Trades channel); eighth ticker in short basket [1530116103253135480]
@@ -298,6 +298,7 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - Jul 26 18:56Z — informational: "We have that leg up" — confirms W-pattern first leg played out; no execution [1531012357298589767]
   - Jul 26 19:00Z — ambiguous: "Fc btc 1hr" Chat channel [1531013265075736657]
   - Jul 26 19:05Z — informational: CL 1h chart — downtrend from 93.47 peak to 85.89; key supports 85.83/85.00 marked; validates Jul 24 short [1531014696231112784]
+  - Jul 27 07:56Z — conviction-add: Removed long hedges, added to new/old altcoin short positions; escalation of short basket thesis [2081649974115528872]
   - Jul 27 06:06Z — ambiguous: "We are yet to pull to trigger" Chat channel; cryptic technical jargon awaiting calibration on trigger reference (add to shorts? new entry?) [1531181054981968022]
   - Jul 27 05:59Z — ambiguous: "No. We will take the short exposure" Chat channel reply; awaiting context on confirmation vs new decision [1531179316157616218]
   - Jul 27 02:45Z — ambiguous: "Fc btc 1w" Chat channel; "Fc {ticker} {tf}" pattern still PENDING explicit calibration (same pattern as Jul 26 "Fc btc 1hr", "Fc btc 15m"); unclear if form-confirmed chart callout requires action [1531130322731667616]

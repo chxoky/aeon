@@ -30,3 +30,12 @@ This tweet contains no financial content, tickers, prices, or execution language
 **Status:** Silent memory-only processing per Step 8 protocol (informational posts without ticker mention or actionable detail are logged but not escalated).
 
 This completes the real-time monitoring workflow for this X event.
+➕ *Conviction Shift — @HeartCanHodl*
+
+HeartCanHodl removed long hedges and added to altcoin short positions.
+
+"I've removed my long hedges and added to some new and old altcoin short positions. :)"
+
+[View post](https://x.com/HeartCanHodl/status/2081649974115528872)
+
+Escalation on short basket thesis confirmed.
