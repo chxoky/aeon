@@ -490,8 +490,9 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - PENDING: one-word "yes" to @maybe_cmeister [2078476335974887586]
   - PENDING: "realest shit ive read in a minute" [2078560776164360508]
   - PENDING: "@heart_ see @blancxbt man i told u they wont buy it" — which asset/level? [2079542718460518532]
-- Last seen: 2026-07-27 12:14:58 UTC
+- Last seen: 2026-07-27 12:48:10 UTC
 - **Events (rolling):**
+  - Jul 27 12:48Z — informational: BTC technical recap & analysis; 7d rvwap support (65.2K), 90d resistance (67.9K), 2026 yearly avwap (71K); onchain cycle transition; past long closed Sunday w/ profit [2081723318554538332]
   - Jul 27 12:14Z — informational: BTC/STRC/MSTR macro — cash reserves sufficient, BTC untouched, STRC likely stablecoin below par, MSTR shareholders "short end"; positioning as external 'them' problem [2081714964796981561]
   - Jul 16 14:27Z — market-call: BTC 70K path 67–69–71K vs full-July-retrace bear case; "no clear setup rn" [no id]
   - Jul 17 07:12Z — trade-nibble: BTC 62.8K + HYPE 59 small entries; "any lower looks like full retrace" [2078014900794761617]

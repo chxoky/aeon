@@ -1,19 +1,14 @@
-## Summary
+🐦 *[X] @bull_genius*
 
-Successfully executed the x-trader-monitor skill for the incoming event from @swarmister.
+recap post weekend, we said:
+>should take a stab at the 7d rvwap at least
 
-**Event Processed:**
-- **Tweet ID**: 2081721381725577285
-- **Trader**: @swarmister (@Trade17 Nnnoooooo)
-- **Time**: Mon Jul 27 12:40:28 UTC 2026
-- **Classification**: Non-financial (skip)
+as discussed it was indeed a good spot to bet on a countermove. monthly poc level has held and some shorts got carried out on futs open. price hit 7d rvwap. asia stalled at 7d rvwap/july vah and we now sell off a bit into US open
 
-**Actions Taken:**
-1. ✅ Decoded the base64 event JSON
-2. ✅ Verified tweet ID not in dedup list (added it now)
-3. ✅ Classified as personal social banter (consistent with swarmister's ~80% non-financial posting profile)
-4. ✅ Skipped alert per Step 4A protocol (non-financial posts → no notification)
-5. ✅ Logged event to memory/logs/2026-07-27.md (audit trail only)
-6. ✅ Did NOT add event line to traders.md (per size discipline: skip events don't get event lines)
+i had some long open on sunday eve it was late-ish but paid out a bit. tbh more focused on onchain these days. i feel like onchain is slowly transitioning into new cycle already, as always first. its been worth to pay attention
 
-**No action required** — this is pure casual reaction/banter with no financial signal.
+for btc overall imo good odds for continuation up but also above the 90d till 71.5k yearly avwap is somewhere id think we stall. its not that far away
+
+[View tweet](https://x.com/bull_genius/status/2081723318554538332)
+
+↳ _Charts show BTC consolidating around 65–66K with 7d rvwap support at 65.2K; resistances at 90d rvwap (67.9K) → 2026 yearly avwap (71K). Technical levels align with group's near-term scenario framework._
