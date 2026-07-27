@@ -1,8 +1,8 @@
-market context — 2026-07-26
+market context — 2026-07-27
 
-take: chop (conviction medium)
-BTC $64,495 (+0.7%) / ETH $1,886 (+1.5%) · F&G 26 (Fear)
-breadth 16/20 · DEX vol $4.58B (−30% 1d)
-top narrative: FOMC gate (peak, T−2 days)
-meme rotation fading (SHIB +20%, was +36%)
-hot market: "CLARITY Act 2026" YES 34%
+take: chop (ETH rotation signal) · conviction medium
+BTC $65,189 (+1.2%) / ETH $1,965 (+4.2%) · F&G 30 (Fear)
+breadth 13/20 · DEX vol $5.40B (+18% vs yesterday)
+ETH/BTC 0.0302 (+3.1% in 24h) · Lido TVL +7.56% 7d
+top narrative: ETH-ecosystem rotation (rising)
+hot market: Fed

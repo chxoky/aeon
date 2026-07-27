@@ -1,0 +1,246 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Market Context",
+        "description": "2026-07-27"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section_take",
+        "sep1",
+        "section_prices",
+        "sep2",
+        "section_breadth",
+        "sep3",
+        "section_ratios",
+        "sep4",
+        "section_narrative"
+      ]
+    },
+    "section_take": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "text_take_label",
+        "badge_signal",
+        "badge_conviction"
+      ]
+    },
+    "text_take_label": {
+      "type": "Text",
+      "props": {
+        "text": "Take:",
+        "variant": "lead"
+      }
+    },
+    "badge_signal": {
+      "type": "Badge",
+      "props": {
+        "text": "chop (ETH rotation signal)",
+        "variant": "default"
+      }
+    },
+    "badge_conviction": {
+      "type": "Badge",
+      "props": {
+        "text": "conviction: medium",
+        "variant": "secondary"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_prices": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat_btc",
+        "stat_eth",
+        "stat_fg"
+      ]
+    },
+    "stat_btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$65,189",
+        "delta": "+1.2%",
+        "trend": "up"
+      }
+    },
+    "stat_eth": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$1,965",
+        "delta": "+4.2%",
+        "trend": "up"
+      }
+    },
+    "stat_fg": {
+      "type": "Stat",
+      "props": {
+        "label": "Fear & Greed",
+        "value": "30",
+        "delta": "Fear"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_breadth": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "progress_breadth",
+        "stat_dex_vol"
+      ]
+    },
+    "progress_breadth": {
+      "type": "Progress",
+      "props": {
+        "value": 13,
+        "max": 20,
+        "label": "Breadth"
+      }
+    },
+    "stat_dex_vol": {
+      "type": "Stat",
+      "props": {
+        "label": "DEX Volume",
+        "value": "$5.40B",
+        "delta": "+18% vs yesterday",
+        "trend": "up"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_ratios": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat_eth_btc",
+        "stat_lido_tvl"
+      ]
+    },
+    "stat_eth_btc": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH/BTC",
+        "value": "0.0302",
+        "delta": "+3.1% in 24h",
+        "trend": "up"
+      }
+    },
+    "stat_lido_tvl": {
+      "type": "Stat",
+      "props": {
+        "label": "Lido TVL (7d)",
+        "value": "+7.56%",
+        "trend": "up"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_narrative": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "row_narrative",
+        "row_hot_market"
+      ]
+    },
+    "row_narrative": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "text_narrative_label",
+        "badge_narrative"
+      ]
+    },
+    "text_narrative_label": {
+      "type": "Text",
+      "props": {
+        "text": "Top Narrative:",
+        "variant": "muted"
+      }
+    },
+    "badge_narrative": {
+      "type": "Badge",
+      "props": {
+        "text": "ETH-ecosystem rotation (rising)",
+        "variant": "default"
+      }
+    },
+    "row_hot_market": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "text_hot_market_label",
+        "badge_hot_market"
+      ]
+    },
+    "text_hot_market_label": {
+      "type": "Text",
+      "props": {
+        "text": "Hot Market:",
+        "variant": "muted"
+      }
+    },
+    "badge_hot_market": {
+      "type": "Badge",
+      "props": {
+        "text": "Fed",
+        "variant": "outline"
+      }
+    }
+  }
+}
