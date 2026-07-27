@@ -9,3 +9,8 @@ Unable to classify — the Fc pattern is still PENDING explicit calibration.
 - Context: Bitcoin Dominance on 1hr timeframe, reply to own prior warning
 
 Multiple similar PENDING items (Jul 26–27). What's your read?
+HeartCanHodl: "Cause they are shitting beds"
+
+Unable to classify — who are 'they'? What asset? Is this conviction support (market comment) or warning of reversal? 
+
+Discord Jul 27, 23:18Z

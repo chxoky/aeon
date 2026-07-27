@@ -1,0 +1,61 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor"
+      },
+      "children": [
+        "calibration_label",
+        "sep1",
+        "message_card",
+        "sep2",
+        "analysis_text",
+        "sep3",
+        "source_text"
+      ]
+    },
+    "calibration_label": {
+      "type": "Text",
+      "props": {
+        "text": "🔍 Calibration — [DC: HCH — Free]",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "message_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "text": "Cause they are shitting beds"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — who are 'they'? What asset? Is this conviction support (market comment) or warning of reversal?",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "source_text": {
+      "type": "Text",
+      "props": {
+        "text": "Discord · Jul 27, 23:18Z",
+        "variant": "caption"
+      }
+    }
+  }
+}
