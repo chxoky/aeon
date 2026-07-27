@@ -396,6 +396,9 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - Jul 27 22:46Z — ambiguous: "Assuming they won't squeeze high lev users beyond 14-15%"; supporting channel (Chat); cryptic comment on liquidation/squeeze mechanics — unclear who "they" refers to or market context for statement; calibration alert sent [1531432684356763739]
   - Jul 27 22:50Z — informational-silent: supporting channel social sharing ("If you are wondering who is victor..."); external reference link; supporting channel member chat, non-trade context; no standalone alert per supporting-channel quiet protocol [1531433692277506189]
 - Last seen: 2026-07-27 23:04:01 UTC
+- Last seen: 2026-07-27 22:50:44 UTC
+  - Jul 27 23:00Z — informational: BTC liquidation chart evidence; caption "Data doesn't lie"; 5m chart from Binance Futures showing short liquidations cascade (red bar on right) validating bearish thesis on targets 60.8K→59.3K→54–57K [2081877452717265221]
+- Last seen: 2026-07-27 23:00:38 UTC
 - **PENDING: Jul 27 11:15Z (Discord Free) — bare Twitter link** — No Discord explanation provided; tweet link only: https://x.com/i/status/2081699412993339463. Posted during active conviction phase (recent kaito/ETH/ZEC shorts, "targeting much lower"). Bare-URL pattern matching numerous PENDING calibrations. Interpretation: conviction reinforcement, new market observation, or skip? Calibration alert sent. [1531258616093474946]
   - Jul 27 13:37Z — informational: BTC breakout above 90D RVWAP to 67,657 on 4h chart; technical resistance-test observation within short thesis targeting 60.8K/59.3K [2081735815395467696]
 - Last seen: 2026-07-27 13:37:49 UTC

@@ -21,3 +21,12 @@ Perfect! The tweet ID has been successfully added to the dedup list. Let me prov
 - **Alert:** None sent (non-financial → no ./notify)
 
 **Result:** Event processed successfully. Non-financial personal banter correctly classified and skipped silently. No false positive alert. Dedup tracking updated. Skill execution complete.
+🐦 *[X] @HeartCanHodl*
+
+Data doesn't lie
+
+BTC liquidation chart (5m Binance Futures) shows significant long liquidations on the right side — validating bearish short thesis. Chart: aggregated liquidation data with major red bar (short liquidations = longs destroyed).
+
+HCH's read: downside evidence accumulating. Current BTC targets 60.8K → 59.3K → 54–57K per existing short-basket conviction.
+
+[View tweet](https://x.com/HeartCanHodl/status/2081877452717265221)
