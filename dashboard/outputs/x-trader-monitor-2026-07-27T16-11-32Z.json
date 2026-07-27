@@ -1,0 +1,168 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "🔍 Calibration — @Wild_Randomness"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event_section",
+        "sep_1",
+        "quote_section",
+        "sep_2",
+        "chart_section",
+        "sep_3",
+        "alert_classification",
+        "link_post"
+      ]
+    },
+    "event_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_event",
+        "badges_row"
+      ]
+    },
+    "heading_event": {
+      "type": "Heading",
+      "props": {
+        "text": "ALAB target hit 50 days early",
+        "level": "h3"
+      }
+    },
+    "badges_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_zone",
+        "badge_timing"
+      ]
+    },
+    "badge_zone": {
+      "type": "Badge",
+      "props": {
+        "text": "$200–250 support zone",
+        "variant": "outline"
+      }
+    },
+    "badge_timing": {
+      "type": "Badge",
+      "props": {
+        "text": "July (vs planned September)",
+        "variant": "secondary"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "quote_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_attribution",
+        "text_quote",
+        "text_context"
+      ]
+    },
+    "text_attribution": {
+      "type": "Text",
+      "props": {
+        "text": "@Wild_Randomness:",
+        "variant": "lead"
+      }
+    },
+    "text_quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"Hmm ok target hit, but about 50 days early… What do we do? @GavinSBaker\"",
+        "variant": "body"
+      }
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "No execution language in post.",
+        "variant": "caption"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "chart_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_chart",
+        "text_chart_data"
+      ]
+    },
+    "heading_chart": {
+      "type": "Heading",
+      "props": {
+        "text": "Charts show",
+        "level": "h4"
+      }
+    },
+    "text_chart_data": {
+      "type": "Text",
+      "props": {
+        "text": "Parabolic crash from $440 peak → current $272 approaching $200–250 target zone. Support structure marked.",
+        "variant": "body"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Entry signal, or wait-for-confirmation observation?",
+        "type": "info"
+      }
+    },
+    "link_post": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2081773456404955389",
+        "source": "X"
+      }
+    }
+  }
+}
