@@ -1,0 +1,112 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_tweet",
+        "heading_btc",
+        "stack_5m",
+        "stack_daily",
+        "text_disclaimer",
+        "link_tweet"
+      ]
+    },
+    "heading_tweet": {
+      "type": "Heading",
+      "props": {
+        "text": "🐦 [X] @Wild_Randomness",
+        "level": "h4"
+      }
+    },
+    "heading_btc": {
+      "type": "Heading",
+      "props": {
+        "text": "$BTC technical observation",
+        "level": "h3"
+      }
+    },
+    "stack_5m": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_5m",
+        "text_5m_analysis"
+      ]
+    },
+    "stat_5m": {
+      "type": "Stat",
+      "props": {
+        "label": "5-minute",
+        "value": "64,734",
+        "delta": "-1.00%",
+        "trend": "down"
+      }
+    },
+    "text_5m_analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Recent wick down from 65,600 support zone, recovery attempt",
+        "variant": "body"
+      }
+    },
+    "stack_daily": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_daily",
+        "text_daily_analysis"
+      ]
+    },
+    "stat_daily": {
+      "type": "Stat",
+      "props": {
+        "label": "Daily",
+        "value": "65,650",
+        "delta": "+0.38%",
+        "trend": "up"
+      }
+    },
+    "text_daily_analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Key support zones marked at 60K and 57.5K with declining highs pattern (structural levels show ready for breakdown if support breaks)",
+        "variant": "body"
+      }
+    },
+    "text_disclaimer": {
+      "type": "Text",
+      "props": {
+        "text": "No action signal — market analysis sharing.",
+        "variant": "muted"
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2081750966752485787"
+      }
+    }
+  }
+}

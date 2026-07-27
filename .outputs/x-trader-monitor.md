@@ -3,9 +3,14 @@
 Context: Just finished escalating several short positions (pump short add 14:16Z, conviction statements 14:22-14:31Z). Then posted:
 
 @HeartCanHodl: "@notthreadguy Maybe you are not short on the right tickers 😁"
+🐦 [X] @Wild_Randomness
 
-Unable to classify — what's your read? (Top call? Agreement? Paid-call tracking? Banter?)
-## Summary
+$BTC technical observation
+
+5-minute: 64,734 (-1.00%) — recent wick down from 65,600 support zone, recovery attempt
+Daily: 65,650 (+0.38%) — key support zones marked at 60K and 57.5K with declining highs pattern (structural levels show ready for breakdown if support breaks)
+
+No action signal — market analysis sharing.
 
 **Event processed:** @swarmister's cryptic reply "@Trade17 Nnnoooooooooo" (Jul 27 14:30:09 UTC)
 
@@ -34,3 +39,4 @@ Sentiment validation of HCH's HIGH conviction LIT short (entered 10:46Z today, t
 Cryptic conversational reply — implies conviction but lacks execution language. How should I handle HCH's terse cryptic posts like this? Sentiment signal or skip as banter?
 
 [View post](https://x.com/HeartCanHodl/status/2081749687380619678)
+[View tweet](https://x.com/Wild_Randomness/status/2081750966752485787)
