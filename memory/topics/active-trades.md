@@ -258,28 +258,37 @@
 - **Channel Evolution**: 11:13:44 (reply context, secondary account), 12:47:29 (reply + reiteration), 13:27:56 (main-channel standalone call)
 - **Last update**: 2026-07-14T13:27:56Z (discord-trader-monitor, fast-path alerted by Cloudflare Worker, PRIMARY TRADES CHANNEL CONVICTION ADD; message_id=1526581013701066873)
 
-### KAITO — SHORT (NEW ENTRY — 2026-07-27)
+### KAITO — SHORT (CONVICTION ADD — 2026-07-27)
 - **Status**: PENDING APPROVAL — awaiting Kyle `approve KAITO` signal to mirror on Kraken spot
-- **Entry**: 2026-07-27T07:41:00Z (Discord Trades channel) + public X post confirmation 2026-07-27T07:48:13Z
-- **Entry message (Discord)**: "Add 2% kaito short" (direct execution call, primary channel)
+- **Initial Entry**: 2026-07-27T07:41:00Z (Discord Trades channel) + public X post confirmation 2026-07-27T07:48:13Z
+- **Initial Entry message (Discord)**: "Add 2% kaito short" (direct execution call, primary channel)
+- **Conviction Add Entry**: 2026-07-27T20:31:54Z (Discord Trades channel)
+- **Conviction Add message (Discord)**: "Add 2% kaito short" (identical format, different timestamp — 13-hour intraday escalation)
 - **Entry message (X)**: Chart analysis with price targets: "I believe this is likely to hit your alerts entries and then extend immediately another 30% lower. It's one of the positions in my short basket."
-- **Entry type**: Market order (just entered based on timing)
-- **Portfolio allocation**: 2%
-- **Entry level**: ~1.1867 (1h consolidation zone per chart, exact entry price in Discord not specified)
+- **Entry type**: Market orders (both entries executed at current price per timing)
+- **Portfolio allocation**: 
+  - Initial: 2%
+  - After conviction add: 4% (2% from 07:41 + 2% from 20:31)
+- **Entry levels**: ~1.1867 (1h consolidation zone per chart, exact entry price in Discord not specified for either entry)
 - **Technical setup**:
   - **Alert entries**: ~1.2334 (recent peak, now rejected)
   - **Target**: ~0.82–0.86 (30% down from alert peak level)
   - **Structure**: 1h chart shows KAITO/USDT rally to 1.2334, pullback to consolidation 1.1867, intermediate support 1.1516
   - **Breakdown thesis**: HCH positioned for move below consolidation to extended downside (0.82-0.86 target zone)
-- **Rationale**: Expansion of HCH's structural bearish crypto thesis into alternative altcoin narrative. KAITO is 8th ticker in documented short basket (after BTC/ETH/SOL/HYPE/ZEC/UNI/VVV/CL).
-- **Conviction**: HIGH — terse execution format on ★most-important primary channel + immediate public confirmation with detailed chart analysis
+- **Rationale**: Expansion of HCH's structural bearish crypto thesis into alternative altcoin narrative. KAITO is 9th ticker in documented short basket (after BTC/ETH/SOL/HYPE/ZEC/UNI/VVV/CL). Second entry (conviction add 20:31Z) validates intraday bearish conviction as KAITO trades through key structure levels.
+- **Conviction**: EXTREMELY HIGH — dual entries same calendar day (morning + evening) on ★most-important primary channel = escalating conviction rather than maintenance hold. Morning entry + X confirmation + 13-hour follow-up add = tripled conviction signal.
 - **Approval/Alert status**: 
-  - Discord: Fast-path alerted by Cloudflare Worker (~2-5s post); Telegram sent ~07:41-07:43Z
-  - X post: Trade-new-entry (5a) alert sent via ./notify asking Kyle for approval; awaiting `approve KAITO` decision or skip signal
-  - Mirror status: PENDING — awaiting Kyle approval to mirror 2% short on Kraken spot
-- **Cross-platform note**: First mention of KAITO across all tracked platforms (X + Discord). No Discord post from other traders within prior 30-min window; no dedup conflict.
-- **Alerted**: YES (double alert: Worker fast-path 07:41Z + skill trade-signal 07:48Z)
-- **Last update**: 2026-07-27T07:48:13Z (X post confirmation with charts, tweet_id=2081647834957562056)
+  - Discord: Fast-path alerted by Cloudflare Worker (~2-5s post) for both 07:41Z and 20:31Z events; Telegram sent for both
+  - X post: Trade-new-entry (5a) alert sent via ./notify at 07:48Z asking Kyle for approval on initial 2% entry; await Kyle `approve KAITO` decision or skip signal
+  - Conviction add (20:31Z): Fast-path alerted via Worker (Kyle notified via Telegram ~2-5s); skill performs memory-only logging per fast-path protocol
+  - Mirror status: PENDING — awaiting Kyle approval to mirror combined 4% short on Kraken spot (or partial mirror if Kyle approved only first tranche)
+- **Cross-platform note**: First mention of KAITO across all tracked platforms (X + Discord) at 07:41Z. Second mention (conviction add) at 20:31Z same day. No other traders posting KAITO concurrently; no dedup conflicts.
+- **Alerted**: YES (triple alerts: Worker fast-path 07:41Z + skill trade-signal 07:48Z + Worker fast-path 20:31Z)
+- **Position evolution**:
+  - 2026-07-27T07:41:00Z: Initial 2% entry on primary Trades channel
+  - 2026-07-27T07:48:13Z: X post confirmation with technical setup/targets
+  - 2026-07-27T20:31:54Z: Conviction add 2% on primary Trades channel (total now 4%)
+- **Last update**: 2026-07-27T20:31:54Z (discord-trader-monitor, fast-path-alerted, TRADE-CONVICTION-ADD; message_id=1531398753074811011)
 
 ### BTC/ETH SHORTS — PARTIAL TP (2026-07-24)
 - **Status**: ACTIVE — PARTIAL PROFIT-TAKING 2026-07-24T13:09:13Z — "Closing 5% btc short and 2.5% eth short here at lower 64k"
