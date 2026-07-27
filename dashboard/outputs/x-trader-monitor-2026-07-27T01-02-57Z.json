@@ -1,0 +1,172 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor",
+        "description": "Trading signal and market analysis from @HeartCanHodl"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "sep1",
+        "position_table",
+        "sep2",
+        "markets_section",
+        "sep3",
+        "macro_section",
+        "sep4",
+        "tactic_section",
+        "sep5",
+        "link_section"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "Will we be closing our hedges here and entering the short size again? — tactical positioning check"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "position_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Asset",
+          "Position",
+          "Gain",
+          "Entry",
+          "Mark"
+        ],
+        "rows": [
+          [
+            "CL",
+            "short live",
+            "+6.36%",
+            "90.25",
+            "84.50"
+          ]
+        ]
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "markets_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sol_text",
+        "hype_text"
+      ]
+    },
+    "sol_text": {
+      "type": "Text",
+      "props": {
+        "text": "SOL 1h: Bearish downtrend 78.88→73.44, currently 74.02 — testing support",
+        "variant": "body"
+      }
+    },
+    "hype_text": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE 1h: Strong downtrend 63.4→56.5, currently 57.3 — key support level",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "macro_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "macro_text"
+      ]
+    },
+    "macro_text": {
+      "type": "Text",
+      "props": {
+        "text": "Macro: Leveraged-ETF single-stock flows spiking (Jul 2026) — retail leverage building",
+        "variant": "body"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tactic_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tactic_text"
+      ]
+    },
+    "tactic_text": {
+      "type": "Text",
+      "props": {
+        "text": "Tactic: Validate existing short-basket conviction; macro chart flags potential setup.",
+        "variant": "body"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet_link"
+      ]
+    },
+    "tweet_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View original post",
+        "href": "https://x.com/HeartCanHodl/status/2081544563064488106",
+        "source": "X"
+      }
+    }
+  }
+}
