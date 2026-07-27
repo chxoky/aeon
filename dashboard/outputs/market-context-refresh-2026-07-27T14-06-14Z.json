@@ -1,0 +1,241 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Market Context — 2026-07-27"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-take",
+        "stack-take",
+        "sep-1",
+        "heading-prices",
+        "grid-prices",
+        "sep-2",
+        "grid-fg-breadth",
+        "sep-3",
+        "heading-vol",
+        "stat-dex-vol",
+        "text-narrative",
+        "sep-4",
+        "heading-fomc",
+        "stack-fomc"
+      ]
+    },
+    "heading-take": {
+      "type": "Heading",
+      "props": {
+        "text": "Take",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack-take": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-chop",
+        "text-conviction"
+      ]
+    },
+    "badge-chop": {
+      "type": "Badge",
+      "props": {
+        "text": "chop",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "text-conviction": {
+      "type": "Text",
+      "props": {
+        "text": "conviction medium",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading-prices": {
+      "type": "Heading",
+      "props": {
+        "text": "Prices",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "grid-prices": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat-btc",
+        "stat-eth"
+      ]
+    },
+    "stat-btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$65.2K",
+        "delta": "+0.8%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat-eth": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$1,958",
+        "delta": "+3.7%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "grid-fg-breadth": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat-fg",
+        "stat-breadth"
+      ]
+    },
+    "stat-fg": {
+      "type": "Stat",
+      "props": {
+        "label": "Fear & Greed",
+        "value": "30 (Fear)",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "stat-breadth": {
+      "type": "Stat",
+      "props": {
+        "label": "Breadth",
+        "value": "12/20"
+      },
+      "children": []
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading-vol": {
+      "type": "Heading",
+      "props": {
+        "text": "Volume & Narrative",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stat-dex-vol": {
+      "type": "Stat",
+      "props": {
+        "label": "DEX Volume",
+        "value": "$5.47B",
+        "delta": "+1.3% vs earlier",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "text-narrative": {
+      "type": "Text",
+      "props": {
+        "text": "Top narrative: ETH-ecosystem rotation (decelerating)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading-fomc": {
+      "type": "Heading",
+      "props": {
+        "text": "FOMC & Markets",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack-fomc": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-fomc-odds",
+        "text-fomc-timing",
+        "stat-market-odds"
+      ]
+    },
+    "stat-fomc-odds": {
+      "type": "Stat",
+      "props": {
+        "label": "FOMC Hike Odds",
+        "value": "22%",
+        "delta": "+2.5pp today",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "text-fomc-timing": {
+      "type": "Text",
+      "props": {
+        "text": "Decision tomorrow Jul 29 2pm ET",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "stat-market-odds": {
+      "type": "Stat",
+      "props": {
+        "label": "Fed +25bps after July 2026",
+        "value": "YES 22.1%",
+        "trend": "neutral"
+      },
+      "children": []
+    }
+  }
+}
