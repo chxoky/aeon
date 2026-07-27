@@ -1,0 +1,45 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "quote",
+        "source",
+        "description",
+        "image"
+      ]
+    },
+    "quote": {
+      "type": "Text",
+      "props": {
+        "text": "↩️ HCH: \"I hope you are not all into tickers starting with 'a, v, u, x, p, s, l'\"",
+        "variant": "muted"
+      }
+    },
+    "source": {
+      "type": "Text",
+      "props": {
+        "text": "💬 Discord: HCH — Free",
+        "variant": "caption"
+      }
+    },
+    "description": {
+      "type": "Text",
+      "props": {
+        "text": "Supporting chart analysis (1h structure on altcoin weakness pattern; visual evidence for prior warning)"
+      }
+    },
+    "image": {
+      "type": "Link",
+      "props": {
+        "label": "View chart image",
+        "href": "https://cdn.discordapp.com/attachments/1472153627324842057/1531313370035261482/cover6.jpg"
+      }
+    }
+  }
+}
