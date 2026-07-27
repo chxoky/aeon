@@ -1,0 +1,228 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Calibration — DC: HCH — Free"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-event",
+        "link-twitter",
+        "stack-context",
+        "sep-1",
+        "heading-recent",
+        "stack-recent-items",
+        "sep-2",
+        "heading-statements",
+        "stack-statements",
+        "sep-3",
+        "text-pending",
+        "alert-question"
+      ]
+    },
+    "heading-event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event: HeartCanHodl bare Twitter link (no Discord explanation)",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "link-twitter": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View on X/Twitter",
+        "href": "https://x.com/i/status/2081699412993339463",
+        "source": "X/Twitter"
+      },
+      "children": []
+    },
+    "stack-context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-hch",
+        "text-context-info"
+      ]
+    },
+    "badge-hch": {
+      "type": "Badge",
+      "props": {
+        "text": "HCH - Active Conviction Phase",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "text-context-info": {
+      "type": "Text",
+      "props": {
+        "text": "Jul 27 10:15 AM UTC",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading-recent": {
+      "type": "Heading",
+      "props": {
+        "text": "Recent Activity",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "stack-recent-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stack-prices",
+        "badge-shorts"
+      ]
+    },
+    "stack-prices": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-kaito",
+        "stat-eth",
+        "stat-zec"
+      ]
+    },
+    "stat-kaito": {
+      "type": "Stat",
+      "props": {
+        "label": "kaito",
+        "value": "2%"
+      },
+      "children": []
+    },
+    "stat-eth": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "+5%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat-zec": {
+      "type": "Stat",
+      "props": {
+        "label": "ZEC",
+        "value": "+3%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "badge-shorts": {
+      "type": "Badge",
+      "props": {
+        "text": "Shorts Entered",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading-statements": {
+      "type": "Heading",
+      "props": {
+        "text": "Statements",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "stack-statements": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-stmt-1",
+        "text-stmt-2",
+        "text-stmt-3"
+      ]
+    },
+    "text-stmt-1": {
+      "type": "Text",
+      "props": {
+        "text": "'We are targeting much lower' — 10:29 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-stmt-2": {
+      "type": "Text",
+      "props": {
+        "text": "'Lit breakout is a great fade in making' — 10:35 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-stmt-3": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE 2% short add — 10:47 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text-pending": {
+      "type": "Text",
+      "props": {
+        "text": "Bare-URL post pattern — numerous PENDING calibrations awaiting your read.",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "alert-question": {
+      "type": "Alert",
+      "props": {
+        "title": "Analysis Required",
+        "message": "Is this conviction reinforcement, new market observation, or skip?",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}
