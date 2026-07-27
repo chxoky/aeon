@@ -1,0 +1,56 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "separator",
+        "convergence_stack"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "Not particularly bullish PA to start the week.\n\nWe formed a LH and respected below the range. I think a sweep of the 63.6K low is quite likely, especially with FOMC.\n\nGiven we typically see a negative reaction after FOMC, if PA remains bearish we likely correct lower.\n\nNothing has changed, we are still in a range."
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "convergence_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "view_link",
+        "convergence_text"
+      ]
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2081776361987768796"
+      }
+    },
+    "convergence_text": {
+      "type": "Text",
+      "props": {
+        "text": "Converges with near-term caution from HCH/Wild_Randomness on 60-60.7K breakdown risk; FOMC (Jul 28?) flagged as key catalyst for volatility/weakness.",
+        "variant": "caption"
+      }
+    }
+  }
+}
