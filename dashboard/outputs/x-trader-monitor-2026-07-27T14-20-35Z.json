@@ -1,0 +1,53 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "link_view",
+        "alert_image"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "The Nasdaq is red"
+      },
+      "children": []
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2081745386562343083"
+      },
+      "children": []
+    },
+    "alert_image": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "title": "Referenced image unavailable",
+        "message": "Indicates technical chart analysis on QQQ/NDX structure — per Wild_Randomness baseline, chart-only observations logged; no personal trade action detected"
+      },
+      "children": []
+    }
+  }
+}
