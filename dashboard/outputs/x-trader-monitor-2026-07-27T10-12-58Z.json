@@ -1,0 +1,56 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "main",
+        "classification",
+        "result",
+        "audit"
+      ]
+    },
+    "main": {
+      "type": "Text",
+      "props": {
+        "text": "✓ @HeartCanHodl reply",
+        "variant": "lead"
+      }
+    },
+    "classification": {
+      "type": "Badge",
+      "props": {
+        "text": "non-financial (personal banter)",
+        "variant": "secondary"
+      }
+    },
+    "result": {
+      "type": "Badge",
+      "props": {
+        "text": "No alert",
+        "variant": "default"
+      }
+    },
+    "audit": {
+      "type": "Text",
+      "props": {
+        "text": "Logged for audit",
+        "variant": "caption"
+      }
+    }
+  }
+}
