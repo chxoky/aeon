@@ -1,0 +1,82 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "HYPE 15m Breakdown"
+      },
+      "children": [
+        "tweet-card",
+        "sep1",
+        "price-stats",
+        "sep2",
+        "link-view"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Heart Can Hodl",
+        "handle": "@HeartCanHodl",
+        "text": "HYPE 15m breakdown — intraday collapse from 60.40 to 57.175 (key support holding). Chart validation of existing short-basket thesis (recent HYPE short adds Jul 27 14:47Z/10:47Z).\n\nSupport test at 57.0 after volume spike lower. Aligns with HCH bearish stance on tier-1 alts."
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "price-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-high",
+        "stat-low",
+        "stat-support"
+      ]
+    },
+    "stat-high": {
+      "type": "Stat",
+      "props": {
+        "label": "Intraday High",
+        "value": "60.40"
+      },
+      "children": []
+    },
+    "stat-low": {
+      "type": "Stat",
+      "props": {
+        "label": "Intraday Low",
+        "value": "57.175"
+      },
+      "children": []
+    },
+    "stat-support": {
+      "type": "Stat",
+      "props": {
+        "label": "Key Support",
+        "value": "57.0"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "link-view": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/HeartCanHodl/status/2081848616550027718"
+      },
+      "children": []
+    }
+  }
+}
