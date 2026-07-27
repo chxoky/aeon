@@ -1,0 +1,108 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Entity classification and processing result"
+      },
+      "children": [
+        "status-badges",
+        "entity-info",
+        "separator-1",
+        "classification-details"
+      ]
+    },
+    "status-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-processed",
+        "badge-nonfinancial"
+      ]
+    },
+    "badge-processed": {
+      "type": "Badge",
+      "props": {
+        "text": "✓ Processed",
+        "variant": "default"
+      }
+    },
+    "badge-nonfinancial": {
+      "type": "Badge",
+      "props": {
+        "text": "Non-financial",
+        "variant": "secondary"
+      }
+    },
+    "entity-info": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-entity",
+        "text-entity-id"
+      ]
+    },
+    "heading-entity": {
+      "type": "Heading",
+      "props": {
+        "text": "HeartCanHodl",
+        "level": "h3"
+      }
+    },
+    "text-entity-id": {
+      "type": "Text",
+      "props": {
+        "text": "ID: 2081870710281302252",
+        "variant": "caption"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-category",
+        "text-action",
+        "text-dedup"
+      ]
+    },
+    "text-category": {
+      "type": "Text",
+      "props": {
+        "text": "Category: Community/Group Management",
+        "variant": "body"
+      }
+    },
+    "text-action": {
+      "type": "Text",
+      "props": {
+        "text": "Action: Silent skip applied per Step 4A protocol",
+        "variant": "body"
+      }
+    },
+    "text-dedup": {
+      "type": "Text",
+      "props": {
+        "text": "Dedup updated",
+        "variant": "caption"
+      }
+    }
+  }
+}
