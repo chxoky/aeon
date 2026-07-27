@@ -1,15 +1,7 @@
-🐦 *[X] @Crypto_Chase*
+🐦 *[X] @Wild_Randomness*
 
-@follis_ Pumping* remains one of the most bearish ltf signals in crypto
+Sarcastic take on Apple's earnings announcements — criticizing lack of innovation strategy (5th camera on iPhone, MacBook 3mm thinner, etc.). Charts show post-earnings pullback from 356.59 to current 333.02; technical support at 288.70.
 
-lol
+Aligns with prior bearish AAPL stance (converged with @HeartCanHodl Jul 23).
 
-[View tweet](https://x.com/Crypto_Chase/status/2081768615527784572)
-🔍 *Calibration — @swarmister*
-
-Event: Reply to @TraderMagus (context missing)
-swarmister: "Honestly, it's the best choice"
-
-Unable to classify — what's your read?
-
-[View post](https://x.com/swarmister/status/2081769379662815413)
+[View tweet](https://x.com/Wild_Randomness/status/2081770999713050902)

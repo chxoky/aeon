@@ -453,7 +453,8 @@ BOOTSTRAP_COMPLETE: 2026-07-14
 - Last seen: 2026-07-27 15:26:32 UTC
   - Jul 27 15:29Z — trade-new-entry: October $300 puts (MTF swing trade); comparing to July 2023 setup; expresses concern about vol crush from earnings this week; states "straight up gamble" on shorter-term moves but sees better risk/reward on medium-term swing setup [2081764031858450743]
   - Jul 27 15:40Z — informational: market structure observation (lunch slams → brunch slams); QQQ/SPX early-morning selloff pattern noted (01:53–02:17 AM, ~30 pt decline); commenting on shift from intraday lunch-hour slams to pre-market brunch-hour selloffs; no trade action [2081766682075259059]
-- Last seen: 2026-07-27 15:40:29 UTC
+  - Jul 27 15:57Z — informational: AAPL earnings skepticism — sarcastic take on innovation decisions (no innovation, 5th camera, 3mm thinner MacBook); technical charts show post-earnings pullback 356.59→333.02; aligns with prior bearish stance [2081770999713050902]
+- Last seen: 2026-07-27 15:57:38 UTC
 - **PENDING Calibrations:**
   - PENDING: Jul 27 14:43 "$LIT In & Out" with 4 1D chart snapshots showing price 2.0→2.5 range; position action vs market observation? Cross-trader divergence context: HCH strong short conviction vs WR long bias [2081752271432659306]
   - PENDING: Jul 27 14:55 "@follis_ Hits better when posted in real-time" reply to external trader on BTC charts (5m/1D); intent unclear: commentary on real-time posting approach or setup validation?; calibration alert sent [2081755334969065809]

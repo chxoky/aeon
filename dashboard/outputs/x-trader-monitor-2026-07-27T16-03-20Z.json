@@ -1,0 +1,125 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor — AAPL Bearish Stance"
+      },
+      "children": [
+        "tweet",
+        "sep1",
+        "priceSection",
+        "sep2",
+        "alignmentSection",
+        "tweetLink"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Sarcastic take on Apple's earnings announcements — criticizing lack of innovation strategy (5th camera on iPhone, MacBook 3mm thinner, etc.)."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "priceSection": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "priceHeading",
+        "priceStats"
+      ]
+    },
+    "priceHeading": {
+      "type": "Heading",
+      "props": {
+        "text": "Post-Earnings Price Action",
+        "level": "h3"
+      }
+    },
+    "priceStats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "priceStart",
+        "priceCurrent",
+        "priceSupport"
+      ]
+    },
+    "priceStart": {
+      "type": "Stat",
+      "props": {
+        "label": "Starting",
+        "value": "$356.59"
+      }
+    },
+    "priceCurrent": {
+      "type": "Stat",
+      "props": {
+        "label": "Current",
+        "value": "$333.02",
+        "delta": "-6.6%",
+        "trend": "down"
+      }
+    },
+    "priceSupport": {
+      "type": "Stat",
+      "props": {
+        "label": "Technical Support",
+        "value": "$288.70"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alignmentSection": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "alignmentHeading",
+        "alignmentText"
+      ]
+    },
+    "alignmentHeading": {
+      "type": "Heading",
+      "props": {
+        "text": "Sentiment Alignment",
+        "level": "h3"
+      }
+    },
+    "alignmentText": {
+      "type": "Text",
+      "props": {
+        "text": "Aligns with prior bearish AAPL stance (converged with @HeartCanHodl Jul 23)"
+      }
+    },
+    "tweetLink": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View Tweet",
+        "href": "https://x.com/Wild_Randomness/status/2081770999713050902",
+        "source": "X"
+      }
+    }
+  }
+}
