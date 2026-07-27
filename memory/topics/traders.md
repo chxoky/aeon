@@ -309,12 +309,13 @@ BOOTSTRAP_COMPLETE: 2026-07-14
 - Last seen: 2026-07-27 07:51:33 UTC
   - Jul 27 07:48Z — trade-new-entry-confirmation: kaito 1h chart + 30% downside target (peak 1.2334→target 0.82-0.86); X post public explanation w/ technical setup; chart shows rally-to-peak-then-rejection structure ready for breakdown [2081647834957562056]
 - Last seen: 2026-07-27 07:48:13 UTC
+  - Jul 27 07:54Z — informational: "entering a few major alts short" — conviction statement in Comments channel, directing to Trades channel for details; fast-path alerted [1531208125741400087]
+- Last seen: 2026-07-27 07:54:25 UTC
 - **PENDING: Jul 27 02:45Z — "Fc btc 1w"** — Calibration alert sent. Is "Fc" = form-confirmed? Technical observation only or conviction signal? [1531130322731667616]
 - **PENDING: Jul 27 05:59Z — "No. We will take the short exposure"** — Calibration alert sent. No referenced message context (Chat channel reply). Confirming existing short basket or new decision? [1531179316157616218]
 - **PENDING: Jul 27 06:06Z — "We are yet to pull to trigger"** — Calibration alert sent. Chat channel follow-up to 05:59Z. Awaiting pullback to trigger: new entry? Add to shorts? Cover condition? [1531181054981968022]
 - **PENDING: Jul 27 07:36Z — "Fc bank 15m"** — Comments channel. "Fc {ticker} {tf}" pattern still PENDING explicit calibration. "bank" ticker unclear (banking sector asset? token?). Form-confirmed observation or chart-pattern callout requiring action? [1531203718572146789]
   - Jul 27 07:37Z — ambiguous: "Not that i would position for this but just a heads-up" (Comments channel); context missing — what is "this"? calibration alert sent [1531203928811896912]
-- Last seen: 2026-07-27 07:37:45 UTC
 - **PENDING: Jul 27 02:45Z — "Fc btc 1w"** — Calibration alert sent. Is "Fc" = form-confirmed? Technical observation only or conviction signal? [1531130322731667616]
 - **PENDING: Jul 27 05:59Z — "No. We will take the short exposure"** — Calibration alert sent. No referenced message context (Chat channel reply). Confirming existing short basket or new decision? [1531179316157616218]
 - **PENDING: Jul 27 06:06Z — "We are yet to pull to trigger"** — Calibration alert sent. Chat channel follow-up to 05:59Z. Awaiting pullback to trigger: new entry? Add to shorts? Cover condition? [1531181054981968022]
