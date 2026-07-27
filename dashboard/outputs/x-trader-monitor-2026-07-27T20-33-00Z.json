@@ -1,0 +1,124 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-stack",
+        "separator-1",
+        "context-section"
+      ]
+    },
+    "tweet-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-card",
+        "tweet-link"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "@HeartCanHodl",
+        "text": "Markets will continue to create opportunities and now everyone can trade all spheres too (cryptos, stocks, commodities). So now your job is to preserve capital through sound risk management so your statistical edge has enough time and enough trades to play out."
+      },
+      "children": []
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/HeartCanHodl/status/2081838374034506210"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "context-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context-heading",
+        "philosophy-text",
+        "positions-intro",
+        "positions-table",
+        "signals-text"
+      ]
+    },
+    "context-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "philosophy-text": {
+      "type": "Text",
+      "props": {
+        "text": "Trading philosophy reinforcing risk-discipline on active short basket thesis"
+      },
+      "children": []
+    },
+    "positions-intro": {
+      "type": "Text",
+      "props": {
+        "text": "Recent conviction adds:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "positions-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Position",
+          "Change"
+        ],
+        "rows": [
+          [
+            "kaito",
+            "2%"
+          ],
+          [
+            "ETH",
+            "+5%"
+          ],
+          [
+            "ZEC",
+            "+3%"
+          ],
+          [
+            "HYPE",
+            "2%"
+          ]
+        ]
+      },
+      "children": []
+    },
+    "signals-text": {
+      "type": "Text",
+      "props": {
+        "text": "No new position signals."
+      },
+      "children": []
+    }
+  }
+}

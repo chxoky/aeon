@@ -24,3 +24,10 @@ The tweet is a personal/conversational reply to @HeiroCapital with:
 4. ✅ **No memory mutation:** No event line added to traders.md (non-financial entries are logged silently, not stored)
 
 **Skill Status:** ✓ Successful execution — event correctly classified and processed according to protocol.
+🐦 *[X] @HeartCanHodl*
+
+Markets will continue to create opportunities and now everyone can trade all spheres too (cryptos, stocks, commodities). So now your job is to preserve capital through sound risk management so your statistical edge has enough time and enough trades to play out.
+
+[View tweet](https://x.com/HeartCanHodl/status/2081838374034506210)
+
+↳ *Context:* Trading philosophy reinforcing risk-discipline on active short basket thesis (recent conviction adds: kaito 2%, ETH +5%, ZEC +3%, HYPE 2% today). No new position signals.
