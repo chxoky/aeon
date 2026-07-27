@@ -1,0 +1,149 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Tweet monitoring and event classification"
+      },
+      "children": [
+        "status-stack",
+        "sep1",
+        "event-section",
+        "sep2",
+        "analysis-section",
+        "sep3",
+        "context-section"
+      ]
+    },
+    "status-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "success-badge"
+      ]
+    },
+    "success-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "✅ Success",
+        "variant": "default"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "event-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event-label",
+        "tweet"
+      ]
+    },
+    "event-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "@WBigbucks It should"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis-label",
+        "classification",
+        "analysis-text"
+      ]
+    },
+    "analysis-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Classification",
+        "level": "h3"
+      }
+    },
+    "classification": {
+      "type": "Badge",
+      "props": {
+        "text": "skip (generic banter)",
+        "variant": "secondary"
+      }
+    },
+    "analysis-text": {
+      "type": "Text",
+      "props": {
+        "text": "3-word reply with no ticker, action, or financial signal. Fits Standing Rule for Wild_Randomness cryptic posts (no ticker+action+level = noise).",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context-label",
+        "logged-item",
+        "dedup-item"
+      ]
+    },
+    "context-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h4"
+      }
+    },
+    "logged-item": {
+      "type": "Text",
+      "props": {
+        "text": "Logged to memory/logs/2026-07-27.md",
+        "variant": "caption"
+      }
+    },
+    "dedup-item": {
+      "type": "Text",
+      "props": {
+        "text": "Dedup added to x-trader-seen.txt",
+        "variant": "caption"
+      }
+    }
+  }
+}
