@@ -1,0 +1,126 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading_calibration",
+        "badge_author",
+        "sep_1",
+        "text_event",
+        "text_chart",
+        "sep_2",
+        "tweet_card",
+        "sep_3",
+        "alert_classify",
+        "stack_options",
+        "sep_4",
+        "link_tweet"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration",
+        "level": "h2"
+      }
+    },
+    "badge_author": {
+      "type": "Badge",
+      "props": {
+        "text": "@Wild_Randomness",
+        "variant": "outline"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @killerpainda on asymmetric BTC setup",
+        "variant": "body"
+      }
+    },
+    "text_chart": {
+      "type": "Text",
+      "props": {
+        "text": "Chart: BTCUSD 1D showing consolidation (Apr-May) → significant rally to 85K region with current pullback to 83.3K. Support line drawn from lower base.",
+        "variant": "body"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Just like how this was highly asymmetric…"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "alert_classify": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read?",
+        "type": "info"
+      }
+    },
+    "stack_options": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "option_1",
+        "option_2",
+        "option_3"
+      ]
+    },
+    "option_1": {
+      "type": "Badge",
+      "props": {
+        "text": "Bullish setup confirmation (asymmetric risk/reward)?",
+        "variant": "secondary"
+      }
+    },
+    "option_2": {
+      "type": "Badge",
+      "props": {
+        "text": "Comparing two chart patterns (vol play)?",
+        "variant": "secondary"
+      }
+    },
+    "option_3": {
+      "type": "Badge",
+      "props": {
+        "text": "Educational observation only?",
+        "variant": "secondary"
+      }
+    },
+    "sep_4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/Wild_Randomness/status/2081570737953862068"
+      }
+    }
+  }
+}

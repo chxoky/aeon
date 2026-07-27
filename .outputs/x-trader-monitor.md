@@ -1,4 +1,4 @@
-🔍 *Calibration — @Wild_Randomness*
+🔍 **Calibration — @Wild_Randomness**
 
 Event: Reply to @killerpainda on "a left tail scenario"
 
@@ -7,3 +7,15 @@ Event: Reply to @killerpainda on "a left tail scenario"
 Unable to classify — what's your read? Is this commentary on one of your existing positions (NVDA puts / VIX calls / options thesis), or a new setup he's discussing?
 
 [View post](https://x.com/Wild_Randomness/status/2081570509221724419)
+Event: Reply to @killerpainda on asymmetric BTC setup
+
+Chart: BTCUSD 1D showing consolidation (Apr-May) → significant rally to 85K region with current pullback to 83.3K. Support line drawn from lower base.
+
+Post: "Just like how this was highly asymmetric…"
+
+Unable to classify — what's your read?
+- Bullish setup confirmation (asymmetric risk/reward)?
+- Comparing two chart patterns (vol play)?
+- Educational observation only?
+
+Link: https://x.com/Wild_Randomness/status/2081570737953862068
