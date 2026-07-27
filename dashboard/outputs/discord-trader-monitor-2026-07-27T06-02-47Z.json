@@ -1,0 +1,104 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Discord Trader Monitor",
+        "description": "Calibration — [DC: HCH — Chat]"
+      },
+      "children": [
+        "heading_message",
+        "tweet_card",
+        "badge_timestamp",
+        "separator_1",
+        "heading_context",
+        "text_context",
+        "alert_unclassified",
+        "separator_2",
+        "heading_questions",
+        "text_questions",
+        "separator_3",
+        "text_final_prompt"
+      ]
+    },
+    "heading_message": {
+      "type": "Heading",
+      "props": {
+        "text": "Message",
+        "level": "h2"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Trader",
+        "handle": "dc-hch-chat",
+        "text": "No. We will take the short exposure"
+      }
+    },
+    "badge_timestamp": {
+      "type": "Badge",
+      "props": {
+        "text": "Jul 27 05:59Z",
+        "variant": "secondary"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_context": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h2"
+      }
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "Supporting channel reply, no referenced message. Appears to affirm/confirm short positioning, but lacks specificity on which tickers/sizes/context.",
+        "variant": "body"
+      }
+    },
+    "alert_unclassified": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify without context",
+        "message": "Additional context needed to determine exact meaning and trading intent",
+        "type": "warning"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_questions": {
+      "type": "Heading",
+      "props": {
+        "text": "Possible Interpretations",
+        "level": "h2"
+      }
+    },
+    "text_questions": {
+      "type": "Text",
+      "props": {
+        "text": "• Maintaining existing short basket (BTC/ETH/SOL/HYPE/ZEC/UNI/VVV/CL)?\n• New entry decision?\n• Response to member's hedge/risk question?",
+        "variant": "body"
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "text_final_prompt": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "lead"
+      }
+    }
+  }
+}
