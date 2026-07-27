@@ -1,0 +1,60 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor",
+        "description": "Calibration — [DC: HCH — Chat]"
+      },
+      "children": [
+        "content_stack"
+      ]
+    },
+    "content_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_section",
+        "separator1",
+        "message_section",
+        "separator2",
+        "analysis_section"
+      ]
+    },
+    "heading_section": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration",
+        "level": "h3"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "message_section": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "text": "If we go by textbookish interpretation"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "analysis_section": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification Status",
+        "message": "Unable to classify — what's your read? Context: supporting channel, no reply ref, terse fragment.",
+        "type": "warning"
+      }
+    }
+  }
+}
