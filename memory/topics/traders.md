@@ -445,9 +445,11 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - Jul 27 14:38Z — informational: BTC technical structure sharing (5m + 1d charts); support zones 60K/57.5K marked; minimal caption "$BTC" + meme, no action signal [2081750966752485787]
 - Last seen: 2026-07-27 14:38:02 UTC
   - Jul 27 14:43Z — ambiguous: LIT 4-chart price progression consolidation zone; "In & Out" action ambiguous; cross-trader divergence (HCH short vs WR long) [2081752271432659306]
-- Last seen: 2026-07-27 14:43:13 UTC
+  - Jul 27 14:55Z — ambiguous: reply to @follis_ "Hits better when posted in real-time" + BTC 5m/1d charts (65.6K recovery, 65.65K resistance); unclear if commentary on approach or setup validation; calibration alert sent [2081755334969065809]
+- Last seen: 2026-07-27 14:55:23 UTC
 - **PENDING Calibrations:**
   - PENDING: Jul 27 14:43 "$LIT In & Out" with 4 1D chart snapshots showing price 2.0→2.5 range; position action vs market observation? Cross-trader divergence context: HCH strong short conviction vs WR long bias [2081752271432659306]
+  - PENDING: Jul 27 14:55 "@follis_ Hits better when posted in real-time" reply to external trader on BTC charts (5m/1D); intent unclear: commentary on real-time posting approach or setup validation?; calibration alert sent [2081755334969065809]
 
 ## t_in_crypto
 - Platforms: X

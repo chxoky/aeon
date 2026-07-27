@@ -1,0 +1,88 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor",
+        "description": "Calibration event requiring interpretation"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_calibration",
+        "text_event",
+        "separator1",
+        "tweet_card",
+        "text_charts",
+        "separator2",
+        "text_question",
+        "link_view"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h2"
+      }
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @follis_ on BTC chart analysis",
+        "variant": "lead"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "@follis_ Hits better when posted in real-time"
+      }
+    },
+    "text_charts": {
+      "type": "Text",
+      "props": {
+        "text": "Charts: BTC 5m (bounce from 64.9K to 65.6K), BTC 1D (consolidation at 65.65K resistance)",
+        "variant": "body"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_question": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read? Is this commentary on @follis_'s approach, or validation of a specific setup?",
+        "variant": "body"
+      }
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2081755334969065809"
+      }
+    }
+  }
+}
