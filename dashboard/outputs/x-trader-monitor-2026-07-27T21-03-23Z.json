@@ -1,0 +1,83 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading",
+        "eventLine",
+        "tweetCard",
+        "analysis",
+        "viewLink"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Stoiiic",
+        "level": "h3"
+      }
+    },
+    "eventLine": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "eventLabel",
+        "eventBadge"
+      ]
+    },
+    "eventLabel": {
+      "type": "Text",
+      "props": {
+        "text": "Event:",
+        "variant": "muted"
+      }
+    },
+    "eventBadge": {
+      "type": "Badge",
+      "props": {
+        "text": "Retraction of prior statement",
+        "variant": "outline"
+      }
+    },
+    "tweetCard": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "Stoiiic",
+        "text": "nvm forget I even said anything."
+      }
+    },
+    "analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what was the original statement and does this represent a stance change?",
+        "variant": "body"
+      }
+    },
+    "viewLink": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Stoiiic/status/2081846947275497655"
+      }
+    }
+  }
+}
