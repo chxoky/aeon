@@ -106,7 +106,7 @@ BOOTSTRAP_COMPLETE: 2026-07-14
 
 ## Crypto_Chase
 - Platforms: X + Discord (primary 1336082716063694962; TradFi supporting 1343971265962049597; Crypto supporting 1247927786681794601 — member Q&A)
-- Current open positions: **$MU LONG (ACTIVE)**: DCA entry ~$800–820 (Jul 17); 70% closed cumulative ($991 Jul 22 60%, $960 Jul 24 10%); stop near B/E; 30% remainder open. **$SNDK LONG (ACTIVE — Kyle never mirrored)**: entry ~$1366 (Jul 16); 60% closed (1533 Jul 21 50%, 1675 Jul 23 10%); stop near B/E (~1360); 40% remainder open; "let last 40% run." **$ES LONG (ACTIVE)**: entered Jun 21; last update Jul 9 "tightening/trapped." **$GOOGL — DCA plan (NOT YET ENTERED)**: 1/3 at sub-309.5, rest at 250s on crash (Jul 23 intent). **Standing watch**: XAU 3900~ flush before 4400+; HYPE flush; ORCL long setup raised in member Q&A (Jul 26). Residual **$LPTH** long. Limit bids standing: **INTC mid-80s, AMD 430s**.
+- Current open positions: **$MU LONG (ACTIVE)**: DCA entry ~$800–820 (Jul 17); 80% closed cumulative ($991 Jul 22 60%, $960 Jul 24 10%, $941 Jul 27 10%); stop near B/E; 20% remainder open. **$SNDK LONG (CLOSED)**: entry ~$1366 (Jul 16); 100% closed (1533 Jul 21 50%, 1675 Jul 23 10%, break-even Jul 27 final 20%); closed at B/E as planned. **$ES LONG (ACTIVE)**: entered Jun 21; last update Jul 9 "tightening/trapped." **$GOOGL — DCA plan (NOT YET ENTERED)**: 1/3 at sub-309.5, rest at 250s on crash (Jul 23 intent). **Standing watch**: XAU 3900~ flush before 4400+; HYPE flush; ORCL long setup raised in member Q&A (Jul 26). Residual **$LPTH** long. Limit bids standing: **INTC mid-80s, AMD 430s**.
 - Recent thesis: Bullish memory-stocks bottom thesis: MU strongest/most resilient, SNDK weakest/highest-beta; playing multi-day-to-multi-week holds with tiered TPs. Managed 70% cumulative close on both MU/SNDK as prices rose — disciplined. Remaining 30/40% on MU/SNDK at B/E stops per DCA plan. GOOGL watching for DCA opportunity sub-309.5 after fundamental move (capex surprise). HYPE: "lackluster from liquidity", prefers MU/SNDK. Constructive on SPX/ES new ATHs. Dismissive of fundamental-event risk; sizes risk, lets conviction ride.
 - Conviction notes: Primary Discord = actionable calls with entries/trims/stops and portfolio-risk framing; supporting channels = cryptic fragments requiring Kyle calibration. Repeated multi-TP profitable cycles (GOOG 24-day, prior MU 18-day, SNDK 1700–1855) validate disciplined tiered-exit pattern. Large PENDING backlog on terse fragments.
 - Calibration: No answered Kyle calibrations yet.
@@ -133,7 +133,7 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - PENDING: "could even flush demand and sweep 309. Not fully sure" — 309 = ES/SPX? [1529842748868526253]
   - PENDING: "appeasing to your technicals" — conviction on what asset? [1530211696730312855]
   - PENDING: "It's in this chat somewhere" — referent unknown [1530210390917779506]
-- Last seen: 2026-07-26 01:02:34 UTC
+- Last seen: 2026-07-27 14:06:23 UTC
 - **Events (rolling):**
   - Jul 21 13:43Z — trade-partial-tp: SNDK took 50% profit at 1533 from ~1366 entry (+12.3% on half) [2079562910213316621]
   - Jul 22 00:31Z — trade-TP: MU 60% closed at $991, 40% open [1529284596284522496]
@@ -160,6 +160,7 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - Jul 27 00:52Z — informational: SNDK conditional TP guidance — "1527~* for SNDK, both will be closed 80% if those TPs hit"; updates multi-position TP targets (MU+SNDK both aiming for 80% cumulative close) [15311010124139137144]
   - Jul 27 00:57Z — trade-partial-tp: MU/SNDK combined execution — "Trimmed another 10% of MU/SNDK here at 941/1480. 80% closed on both, SL's B/E" (confirmed both positions now 80% closed cumulatively per earlier guidance; MU trim at $941 ≈+14.8% from $820 entry; SNDK trim at $1480 ≈+8.3% from $1366 entry; remaining 20% on both under DCA/hold thesis with stops at breakeven) [1531103202328711188]
   - Jul 27 13:40Z — informational: supporting-channel member Q&A reply; commentary on member's Google 317→327 trade; offering perspective "let the trade speak for itself" (Discord, TradFi channel, is_reply to parcels.funk) [1531295160883875850]
+  - Jul 27 14:06Z — trade-partial-tp: SNDK final 20% closed at break-even (100% closed total, 1366 entry, "very content with this trade"); MU final 20% still open at SL BE; market outlook commentary: gold sweep 3900~→4400+, GOOGL 309 sweep watch, intraday ES trading focus; conviction narrative on memory-sector volatility and bounce patterns (primary channel, fast-path alerted by Worker) [1531301734314541177]
 
 ## swarmister
 - Platforms: X (primary; X-only, no Discord presence)
