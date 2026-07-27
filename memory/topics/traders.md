@@ -327,9 +327,9 @@ BOOTSTRAP_COMPLETE: 2026-07-14
 - **PENDING: Jul 27 07:36Z — "Fc bank 15m"** — Comments channel. "Fc {ticker} {tf}" pattern still PENDING explicit calibration. "bank" ticker unclear (banking sector asset? token?). Form-confirmed observation or chart-pattern callout requiring action? [1531203718572146789]
   - Jul 27 07:37Z — ambiguous: "Not that i would position for this but just a heads-up" (Comments channel); context missing — what is "this"? calibration alert sent [1531203928811896912]
 - **PENDING: Jul 27 09:53Z — "@panicselling Panic sell"** — Cryptic reply to external handle; context missing — market sentiment, endorsement of panic selling, or conviction signal? Calibration alert sent [2081679243671736680]
-- Last seen: 2026-07-27 09:53:02 UTC
+- **PENDING: Jul 27 10:10Z (Discord Chat) — "That will make this an interesting trade for you"** — Cryptic statement, no referenced_message, supporting channel context missing. Interpretation: confirmation of recent short entries? Commentary on market setup? Calibration alert sent [1531242258320326758]
+- Last seen: 2026-07-27 10:10:03 UTC
   - Jul 27 09:53Z — ambiguous: "State of market" chart post; caption cryptic; image unreadable (CDN fetch failed); context: post follows 50min after multi-ticker alt short escalation (ETH +5%, ZEC +3%, KAITO +2% entries 07:15-07:54Z). Unknown if obs/teaching/warning signal. Calibration alert sent [2081679406708232532]
-- Last seen: 2026-07-27 09:53:40 UTC
 - **PENDING: Jul 27 02:45Z — "Fc btc 1w"** — Calibration alert sent. Is "Fc" = form-confirmed? Technical observation only or conviction signal? [1531130322731667616]
 - **PENDING: Jul 27 05:59Z — "No. We will take the short exposure"** — Calibration alert sent. No referenced message context (Chat channel reply). Confirming existing short basket or new decision? [1531179316157616218]
 - **PENDING: Jul 27 06:06Z — "We are yet to pull to trigger"** — Calibration alert sent. Chat channel follow-up to 05:59Z. Awaiting pullback to trigger: new entry? Add to shorts? Cover condition? [1531181054981968022]

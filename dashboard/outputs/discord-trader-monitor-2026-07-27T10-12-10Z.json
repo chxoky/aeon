@@ -1,0 +1,85 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "heading-calibration",
+        "alert-context",
+        "separator-1",
+        "text-message",
+        "separator-2",
+        "section-questions"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: HCH — Chat]",
+        "level": "h2"
+      }
+    },
+    "alert-context": {
+      "type": "Alert",
+      "props": {
+        "title": "Context Missing",
+        "message": "No referenced message captured, supporting channel (premium member chat)",
+        "type": "warning"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-message": {
+      "type": "Text",
+      "props": {
+        "text": "That will make this an interesting trade for you",
+        "variant": "lead"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-questions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-questions",
+        "text-q1",
+        "text-q2"
+      ]
+    },
+    "heading-questions": {
+      "type": "Heading",
+      "props": {
+        "text": "Open Questions",
+        "level": "h3"
+      }
+    },
+    "text-q1": {
+      "type": "Text",
+      "props": {
+        "text": "Is this responding to a prior trade discussion?"
+      }
+    },
+    "text-q2": {
+      "type": "Text",
+      "props": {
+        "text": "What trade setup are you discussing?"
+      }
+    }
+  }
+}

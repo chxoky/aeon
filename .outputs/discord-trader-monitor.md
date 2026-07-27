@@ -1,5 +1,5 @@
-💬 *[DC: HCH — Free]*
+🔍 *Calibration — [DC: HCH — Chat]*
 
-H- and Z-named tickers aren't part of this list, they're already consensus tier-1 picks. That said, they're just as worthy of the "sell" label.
+Message: "That will make this an interesting trade for you"
 
-_via Discord — HCH comment reply to @kaleemisst_
+Context missing — No referenced message captured, supporting channel (premium member chat). Is this responding to a prior trade discussion? What trade setup are you discussing?
