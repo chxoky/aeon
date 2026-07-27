@@ -1,0 +1,151 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration monitoring and position analysis"
+      },
+      "children": [
+        "heading-calibration",
+        "separator1",
+        "section-event",
+        "separator2",
+        "section-context",
+        "separator3",
+        "tweet-card",
+        "separator4",
+        "link-post",
+        "separator5",
+        "alert-question"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration — @HeartCanHodl",
+        "level": "h2"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-event": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "label-event",
+        "text-event"
+      ]
+    },
+    "label-event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "text-event": {
+      "type": "Text",
+      "props": {
+        "text": "Post seeking feedback on unspecified topic (possible quote-tweet/reply where referenced message not captured)"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "label-context",
+        "text-context",
+        "stat-hype",
+        "stat-basket"
+      ]
+    },
+    "label-context": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "text-context": {
+      "type": "Text",
+      "props": {
+        "text": "HCH just added 2% HYPE short (10:47Z). No media/link visible in post."
+      }
+    },
+    "stat-hype": {
+      "type": "Stat",
+      "props": {
+        "label": "HYPE Short Position Added",
+        "value": "2%",
+        "trend": "down"
+      }
+    },
+    "stat-basket": {
+      "type": "Stat",
+      "props": {
+        "label": "Net Short Basket",
+        "value": "30–35%"
+      }
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "What are your thoughts on this idea?"
+      }
+    },
+    "separator4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link-post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/HeartCanHodl/status/2081694938341994974"
+      }
+    },
+    "separator5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert-question": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify — what's your read?",
+        "message": "Is this referencing an external idea/market topic, or something specific to your position setup?",
+        "type": "info"
+      }
+    }
+  }
+}

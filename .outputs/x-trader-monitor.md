@@ -1,7 +1,11 @@
-🐦 *[X] @HeartCanHodl*
+🔍 *Calibration — @HeartCanHodl*
 
-I still believe the 2nd best trade in the market is short $LIT
+**Event:** Post seeking feedback on unspecified topic (possible quote-tweet/reply where referenced message not captured)
 
-GL, HF. [View tweet](https://x.com/HeartCanHodl/status/2081692704019468380)
+**Context:** HCH just added 2% HYPE short (10:47Z), holding ~30–35% net short basket. No media/link visible in post.
 
-↳ _Converges with ryzzqq bearish technical (beta risk, -27% decline prior); LIT +9.9% today. Cross-trader short thesis emerging._
+HeartCanHodl: "What are your thoughts on this idea?"
+
+[View post](https://x.com/HeartCanHodl/status/2081694938341994974)
+
+**Unable to classify — what's your read?** Is this referencing an external idea/market topic, or something specific to your position setup?
