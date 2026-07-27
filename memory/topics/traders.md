@@ -202,8 +202,10 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - PENDING: "@0xProfessor_ Here we go…" — execution entry or banter? [2081441542233784830]
   - PENDING: Jul 26 19:15Z reply "@janxbt @garbycan Yes I'm nig" — text truncated [2081458303570161705]
   - PENDING: "@blknoiz06 Top" — top call or affirmation? [2081748539999130003]
-- Last seen: 2026-07-27 14:28:23 UTC
+  - PENDING: Jul 27 14:52Z "I got an SL on both" — which two positions hit stop loss? [2081754498591051895]
+- Last seen: 2026-07-27 14:52:04 UTC
 - **Events (rolling):**
+  - Jul 27 14:52Z — ambiguous: stop loss hit; "both" positions unclear; calibration pending [2081754498591051895]
   - Jul 27 14:28Z — ambiguous: "@blknoiz06 Top" bare-word reply; calibration pending [2081748539999130003]
   - Jul 27 09:11Z — informational: ETH liquidity trap, shorts wiped out on false washout breakout [2081668689942737210]
   - Jul 27 08:51Z — informational: ETH resistance breakout attempt with volume analysis, bullish structure [2081663797702299786]
