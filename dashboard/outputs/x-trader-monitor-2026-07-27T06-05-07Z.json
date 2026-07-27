@@ -1,0 +1,41 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet_card",
+        "separator",
+        "link_tweet"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "Stoiiic",
+        "text": "🐦 TLDR on BTC:\n\nLTF — ~65 interim pivot w/ confluence to take out previous week high and leg up or roll-over. Monday NY session important.\n\nMedium-term: BTC remains in counter-trend rally (HTF downtrend, LTF reversion lacking decisive momentum)\n\nHTF — Conventional cycle: another few months of bear. Optimistic case: sideways chop for a while."
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Stoiiic/status/2081620709118185569"
+      },
+      "children": []
+    }
+  }
+}
