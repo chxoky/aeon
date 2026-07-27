@@ -1,0 +1,124 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "2026-07-27 22:50Z"
+      },
+      "children": [
+        "heading_event",
+        "stack_details",
+        "separator_1",
+        "stack_actions",
+        "separator_2",
+        "status_box"
+      ]
+    },
+    "heading_event": {
+      "type": "Heading",
+      "props": {
+        "text": "HeartCanHodl supporting channel message processed",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "stack_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_event_id",
+        "badge_classification"
+      ]
+    },
+    "text_event_id": {
+      "type": "Text",
+      "props": {
+        "text": "Event ID: 1531433692277506189",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "badge_classification": {
+      "type": "Badge",
+      "props": {
+        "text": "Informational — supporting channel social sharing, no trade signal",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack_actions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_actions_label",
+        "text_action_1",
+        "text_action_2",
+        "text_action_3"
+      ]
+    },
+    "text_actions_label": {
+      "type": "Text",
+      "props": {
+        "text": "Actions taken:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text_action_1": {
+      "type": "Text",
+      "props": {
+        "text": "• Silent logging applied per supporting-channel protocol",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_action_2": {
+      "type": "Text",
+      "props": {
+        "text": "• Dedup tracking updated",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_action_3": {
+      "type": "Text",
+      "props": {
+        "text": "• Memory synchronized",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "status_box": {
+      "type": "Alert",
+      "props": {
+        "title": "Execution Status",
+        "message": "Skill execution successful ✓",
+        "type": "success"
+      },
+      "children": []
+    }
+  }
+}
