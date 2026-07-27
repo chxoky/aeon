@@ -1789,5 +1789,5 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-07-27,morning-brief,claude-sonnet-4-6,14,6752,650138,49449
 2026-07-27,x-trader-monitor,claude-haiku-4-5-20251001,169,9154,1461946,69207
 2026-07-27,x-trader-monitor,claude-haiku-4-5-20251001,153,6356,902937,51527
-2026-07-27,x-trader-monitor,claude-haiku-4-5-20251001,153,9488,771252,30318
-2026-07-27,x-trader-monitor,claude-haiku-4-5-20251001,105,10078,642197,55285
+2026-07-27,x-trader-monitor,claude-haiku-4-5-20251001,241,13569,1469892,48607
+2026-07-27,x-trader-monitor,claude-haiku-4-5-20251001,177,7961,930467,41138
