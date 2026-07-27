@@ -1,0 +1,46 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @Wild_Randomness"
+      },
+      "children": [
+        "tweet_card",
+        "separator",
+        "classification_note",
+        "view_link"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "May be pushing it with this one lmao\n\n(This is an extreme left tail scenario, we'd need Warsh + Ueda hike + some FUD)"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification_note": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read? Is \"this one\" referring to a specific position/trade you're considering, or macro market commentary on extreme scenarios?",
+        "variant": "body"
+      }
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2081887902305579508"
+      }
+    }
+  }
+}
