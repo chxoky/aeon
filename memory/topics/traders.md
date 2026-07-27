@@ -381,6 +381,7 @@ BOOTSTRAP_COMPLETE: 2026-07-14
 - Last seen: 2026-07-27 20:25:21 UTC
 - Last seen: 2026-07-27 22:19:07 UTC
 - **Events (rolling):**
+  - Jul 27 22:24Z — informational: Oil ($CL) as direct economic proxy; reply context (@bc1_KIN7 @Evan_ss6); chart shows CUSDT 93.37→81.84 (-13.4%), validating active 2% short entered Jul 24 at ~$90; macro market commentary on information filtering [2081868362024693781]
   - Jul 27 22:19Z — ambiguous: reply @blancxbt @Evan_ss6 "Parabolas turned into a dot on x-axis"; cryptic technical metaphor (bearish chart pattern reading implied); no ticker/timeframe; no execution language; calibration alert sent [2081867004508811711]
   - Jul 27 21:18Z — ambiguous: reply to @gambjeet "That one isn't inspiring much confidence either"; cryptic, referent unclear; calibration alert sent [2081851711677993083]
   - Jul 27 21:06Z — informational: HYPE 15m chart — intraday collapse from 60.40 to 57.175 support; validates existing HYPE short-basket conviction (recent adds 14:47Z/10:47Z) [2081848616550027718]
