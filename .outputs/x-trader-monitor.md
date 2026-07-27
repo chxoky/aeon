@@ -1,14 +1,12 @@
 🔍 *Calibration — @Wild_Randomness*
 
-Event: BTC daily chart — labeled support (60K) / resistance (66-67.5K) zones, price recovering from 59K lows to 64.7K current.
+Event: May top short + current BTC setup
+Wild_Randomness: "I'll be honest— little bit of Deja vu from the May top (biggest crypto short I ever put on)
 
-Wild_Randomness: "$BTC\n\nWhat if?"
+Took out some local liq of futures open, now some staring at us from below
 
-Chart shows clear technical structure, but the direction and intent are ambiguous. Are you:
-- Wondering if BTC breaks above resistance (bullish)?
-- Setting up a retest of support as risk (bearish)?
-- Just sharing technical observation with no action?
+Not really the same setup as there is a big liq cluster at 68k, still pretty balanced, but rhymes in some ways https://t.co/5n16aBwYPb"
 
-Your read?
+Unable to classify — Is this: (a) market observation, (b) partial closure/TP of position, (c) setup interest, or (d) pure technical analysis? Your read?
 
-[View post](https://x.com/Wild_Randomness/status/2081564568552165402)
+[View post](https://x.com/Wild_Randomness/status/2081566112920072328)
