@@ -356,6 +356,7 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - Jul 26 18:58Z — informational: market leadership rotation — AAPL/DIA most resilient in Iran-war scenario; semis/momentum leading downside [2081454168699527407]
   - Jul 26 20:28Z — informational: S&P 500 short squeeze thread share ("everything going to explode higher", first squawk short-interest 15-yr high); queried @leveraged_cat "wagmi?"; external commentary, no personal action [2081476866557305132]
   - Jul 27 01:29Z — informational (silent): Fed/macro commentary on Warsh independence; CME FedWatch chart shows 375–400bp dominant; discusses if Trump influences dovish pivot or Warsh maintains hawkish stance; bearish oil/yields implications. Per WR calibration: macro context only, no ticker+action+level → logged silently [2081552566157193240]
+  - Jul 27 02:17Z — ambiguous: BTC daily chart with support/resistance levels (60K, 66-67.5K), price 64.7K recovery pattern; cryptic "$BTC\n\nWhat if?" caption; direction/intent ambiguous, awaiting calibration [2081564568552165402]
 
 ## t_in_crypto
 - Platforms: X

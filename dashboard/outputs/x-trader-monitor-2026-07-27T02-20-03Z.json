@@ -1,0 +1,118 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor: BTC Technical Calibration"
+      },
+      "children": [
+        "heading_main",
+        "sep1",
+        "text_event",
+        "stack_levels",
+        "sep2",
+        "tweet_wild",
+        "sep3",
+        "text_analysis",
+        "link_post"
+      ]
+    },
+    "heading_main": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "BTC daily chart with labeled support and resistance zones, price recovering from daily low",
+        "variant": "lead"
+      }
+    },
+    "stack_levels": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_low",
+        "stat_support",
+        "stat_current",
+        "stat_resistance"
+      ]
+    },
+    "stat_low": {
+      "type": "Stat",
+      "props": {
+        "label": "Daily Low",
+        "value": "$59K"
+      }
+    },
+    "stat_support": {
+      "type": "Stat",
+      "props": {
+        "label": "Support",
+        "value": "$60K"
+      }
+    },
+    "stat_current": {
+      "type": "Stat",
+      "props": {
+        "label": "Current Price",
+        "value": "$64.7K"
+      }
+    },
+    "stat_resistance": {
+      "type": "Stat",
+      "props": {
+        "label": "Resistance",
+        "value": "$66–67.5K"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet_wild": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "$BTC\n\nWhat if?"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Chart shows clear technical structure, but the direction and intent are ambiguous. Are you:\n- Wondering if BTC breaks above resistance (bullish)?\n- Setting up a retest of support as risk (bearish)?\n- Just sharing technical observation with no action?\n\nYour read?",
+        "variant": "body"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2081564568552165402"
+      }
+    }
+  }
+}
