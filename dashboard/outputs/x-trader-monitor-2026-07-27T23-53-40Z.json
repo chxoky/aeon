@@ -1,0 +1,215 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor: BTC Consolidation Calibration"
+      },
+      "children": [
+        "heading_event",
+        "separator1",
+        "stack_content"
+      ]
+    },
+    "heading_event": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event_section",
+        "separator2",
+        "quote_section",
+        "separator3",
+        "chart_section",
+        "separator4",
+        "questions_section"
+      ]
+    },
+    "event_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_event",
+        "stat_price",
+        "badge_status"
+      ]
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: BTC consolidation setup (chart visible, current 64,457 after decline to 59K lows)",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "stat_price": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC Current Price",
+        "value": "64,457"
+      },
+      "children": []
+    },
+    "badge_status": {
+      "type": "Badge",
+      "props": {
+        "text": "Recent Decline to 59K Lows",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "quote_section": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Been patient on this one trading around 3% moves… time for a 30% move?"
+      },
+      "children": []
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "chart_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_chart",
+        "text_chart_range",
+        "text_chart_trendlines"
+      ]
+    },
+    "heading_chart": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart Analysis",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text_chart_range": {
+      "type": "Text",
+      "props": {
+        "text": "Consolidation range: 59K – 66K",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_chart_trendlines": {
+      "type": "Text",
+      "props": {
+        "text": "Trendlines visible on chart",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "questions_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_ambiguous",
+        "stack_questions",
+        "alert_classify"
+      ]
+    },
+    "heading_ambiguous": {
+      "type": "Heading",
+      "props": {
+        "text": "Ambiguous Elements",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "stack_questions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "question1",
+        "question2",
+        "question3"
+      ]
+    },
+    "question1": {
+      "type": "Text",
+      "props": {
+        "text": "1. Is this a personal position (long/short/flat)?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "question2": {
+      "type": "Text",
+      "props": {
+        "text": "2. Bullish breakout above 66K or bearish breakdown below 62K expected?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "question3": {
+      "type": "Text",
+      "props": {
+        "text": "3. Just chart observation or actionable setup?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "alert_classify": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification Needed",
+        "message": "Unable to classify — what's your read?",
+        "type": "warning"
+      },
+      "children": []
+    }
+  }
+}
