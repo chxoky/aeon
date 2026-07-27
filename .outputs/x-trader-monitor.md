@@ -1,14 +1,19 @@
-🐦 *[X] @bull_genius*
+Perfect! The skill has been successfully executed. Here's the summary:
 
-recap post weekend, we said:
->should take a stab at the 7d rvwap at least
+## Summary
 
-as discussed it was indeed a good spot to bet on a countermove. monthly poc level has held and some shorts got carried out on futs open. price hit 7d rvwap. asia stalled at 7d rvwap/july vah and we now sell off a bit into US open
+**Event:** Real-time X post from @bull_genius (ID: 2081725121664803327, 12:55:20 UTC)
 
-i had some long open on sunday eve it was late-ish but paid out a bit. tbh more focused on onchain these days. i feel like onchain is slowly transitioning into new cycle already, as always first. its been worth to pay attention
+**Post Content:** Reply to @rottenAzoth333 discussing 7-day timeframe take-profit strategy
 
-for btc overall imo good odds for continuation up but also above the 90d till 71.5k yearly avwap is somewhere id think we stall. its not that far away
+**Classification:** Informational (generic trading advice, no ticker/level)
 
-[View tweet](https://x.com/bull_genius/status/2081723318554538332)
+**Actions Taken:**
+- ✓ Classified post as generic TP strategy advice
+- ✓ Determined low-signal value (no ticker, no price level, advice to third party)
+- ✓ **Did NOT alert Kyle** — generic framework advice lacks actionable ticker/level
+- ✓ Added event line to traders.md under bull_genius (Last seen updated to 12:55:20 UTC)
+- ✓ Added tweet ID to x-trader-seen.txt to prevent Worker redelivery
+- ✓ Logged full event details to memory/logs/2026-07-27.md
 
-↳ _Charts show BTC consolidating around 65–66K with 7d rvwap support at 65.2K; resistances at 90d rvwap (67.9K) → 2026 yearly avwap (71K). Technical levels align with group's near-term scenario framework._
+**Reasoning:** Per skill Step 6 protocol, this post is informational but falls under "quiet ticker" guidance — posts mentioning no specific ticker or price level get logged silently unless gaining cross-trader momentum. No calibration needed.
