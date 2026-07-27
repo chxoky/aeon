@@ -1,9 +1,5 @@
-🔍 *Calibration — @Wild_Randomness*
+🐦 *[X] @Wild_Randomness*
 
-Event: Ongoing conversation with @Evan_ss6 (context missing)
+Trump came out and yapped up the market just for this trend to hit for the 7th time lol
 
-Wild_Randomness: "I definitely would be"
-
-Unable to classify — what's your read?
-
-[View post](https://x.com/Wild_Randomness/status/2081783466769965373)
+[View post](https://x.com/Wild_Randomness/status/20817891664429960608)
