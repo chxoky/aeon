@@ -224,6 +224,8 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - Jul 26 19:15Z — ambiguous: reply "@janxbt @garbycan Yes I'm nig" — truncated text [2081458303570161705]
   - Jul 27 05:00Z — ambiguous: terse cryptic reply "@garbycan 2in1"; one-word pattern, no ticker/level [2081605684785811517]
   - Jul 27 06:46Z — ambiguous: reply "@FalconyFalcon 200x lev." — unclear context (own entry? comment on FalconyFalcon's position? coordination?); calibration alert sent [2081632259262579083]
+  - Jul 27 08:42Z — ambiguous: "@DeItaone @hellojintao top?" — asking external traders for read on price top; BTC ~$65.2K (between entry 62.4K and target 70.7K); calibration alert sent [2081661401504829501]
+- Last seen: 2026-07-27 08:42:08 UTC
 
 ## HeartCanHodl
 - Platforms: X + Discord (Trades 1279738718680256553 = primary; Chat 1023638573313966212 = real-time; Comments 1393137051108507728 = macro; Free 1472153627324842057 = public)

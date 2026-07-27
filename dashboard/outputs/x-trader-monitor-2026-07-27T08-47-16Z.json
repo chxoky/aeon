@@ -1,0 +1,126 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Signal calibration from intraday BTC trader"
+      },
+      "children": [
+        "heading-calibration",
+        "text-event",
+        "sep-1",
+        "tweet-main",
+        "sep-2",
+        "heading-classify",
+        "text-classify-intro",
+        "stack-interpretations",
+        "sep-3",
+        "heading-context",
+        "text-context-detail",
+        "sep-4",
+        "heading-question"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @swarmister",
+        "level": "h2"
+      }
+    },
+    "text-event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Intraday BTC trader mid-session Asia hours",
+        "variant": "lead"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "tweet-main": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "@DeItaone @hellojintao top?"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading-classify": {
+      "type": "Heading",
+      "props": {
+        "text": "Unable to classify",
+        "level": "h3"
+      }
+    },
+    "text-classify-intro": {
+      "type": "Text",
+      "props": {
+        "text": "Asking for your read:",
+        "variant": "body"
+      }
+    },
+    "stack-interpretations": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "interp-1",
+        "interp-2"
+      ]
+    },
+    "interp-1": {
+      "type": "Text",
+      "props": {
+        "text": "Is he asking about a BTC price top / peak formation?",
+        "variant": "body"
+      }
+    },
+    "interp-2": {
+      "type": "Text",
+      "props": {
+        "text": "Or seeking technical perspective from those two analysts?",
+        "variant": "body"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading-context": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "text-context-detail": {
+      "type": "Text",
+      "props": {
+        "text": "swarmister opened BTC long 62.4K (target 70.7K) on Jul 17. This query sent Jul 27 08:42Z when BTC ~$65.2K. Pattern: 80% social banter, but technical questions get attention.",
+        "variant": "body"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading-question": {
+      "type": "Heading",
+      "props": {
+        "text": "What's your read on what he's asking?",
+        "level": "h3"
+      }
+    }
+  }
+}
