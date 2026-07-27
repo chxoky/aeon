@@ -1,9 +1,11 @@
 **Skill execution complete.**
 
 ## Summary
+🔍 Calibration — [DC: HCH — Free]
 
-Context missing — No referenced message captured, supporting channel (premium member chat). Is this responding to a prior trade discussion? What trade setup are you discussing?
-HCH: "Fc bank 15m"
+HCH: Already down 6%. Missing these updates comes with a hefty opportunity cost.
+
+Context: HCH just entered kaito 2% short (~1.23), ZEC +3%, ETH +5% in past 2-3 hours.
 
 This uses the "Fc {ticker} {tf}" pattern that appeared multiple times (Jul 26-27). Pattern meaning still unconfirmed — is this a form-confirmed chart callout or just technical observation? And what's the "bank" ticker? (banking sector, token, or something else?)
 
@@ -21,3 +23,4 @@ Unable to classify — what's your read?
 - Event logged to daily activity log with full context
 
 The kaito short setup was already alerted on the X platform when HCH published the detailed technical breakdown at 07:48Z. This Discord message is simply a link-back to that same post on the public Free channel.
+Unable to classify — what's the referent of 6% decline? Which position?

@@ -1,0 +1,91 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — [DC: HCH — Free]"
+      },
+      "children": [
+        "alert_status",
+        "sep1",
+        "context_heading",
+        "stats_stack",
+        "sep2",
+        "alert_classify"
+      ]
+    },
+    "alert_status": {
+      "type": "Alert",
+      "props": {
+        "title": "HCH Status",
+        "message": "Already down 6%. Missing these updates comes with a hefty opportunity cost.",
+        "type": "warning"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Market Context — Past 2–3 Hours",
+        "level": "h3"
+      }
+    },
+    "stats_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat_hch",
+        "stat_zec",
+        "stat_eth"
+      ]
+    },
+    "stat_hch": {
+      "type": "Stat",
+      "props": {
+        "label": "HCH (entered kaito 2% short ~1.23)",
+        "value": "-6%",
+        "trend": "down"
+      }
+    },
+    "stat_zec": {
+      "type": "Stat",
+      "props": {
+        "label": "ZEC",
+        "value": "+3%",
+        "trend": "up"
+      }
+    },
+    "stat_eth": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "+5%",
+        "trend": "up"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_classify": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's the referent of 6% decline? Which position?",
+        "type": "info"
+      }
+    }
+  }
+}
