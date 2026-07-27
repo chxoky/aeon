@@ -1,13 +1,18 @@
 ## Summary
 
-I've successfully executed the Discord Trader Monitor skill with the provided variable override.
+I've successfully executed the Discord Trader Monitor skill for the HeartCanHodl kaito short entry. Here's what was processed:
 
-**Event processed:**
-- **Message:** "Fc bank 15m" from HeartCanHodl in "HCH — Comments" channel
-- **Classification:** Ambiguous (PENDING calibration)
-- **Fast-path status:** Already alerted by Cloudflare Worker (~2-5s latency) — skipped Telegram alert, processed memory updates only
+**Event:** HeartCanHodl posted "Add 2% kaito short" on 2026-07-27T07:41:53Z in the HCH — Trades channel (★most important primary).
 
-**Actions taken:**
+**Processing:**
+- ✅ **Decoded & validated** the Discord event (message ID: 1531204972090494977)
+- ✅ **Verified trader identity** — heartcanhodl username matches HeartCanHodl account
+- ✅ **Classified as TRADE-NEW-ENTRY** — direct execution language "Add", new ticker (kaito not in prior short basket)
+- ✅ **Skipped Telegram send** — fast-path already alerted (Cloudflare Worker sent notification ~2-5s after message)
+- ✅ **Updated memory files:**
+  - Added message ID to discord-trader-seen.txt (prevents re-alerting)
+  - Updated traders.md with new kaito short entry and timestamp
+  - Logged comprehensive event to memory/logs/2026-07-27.md
 
 1. **Step 1:** Decoded base64 event
 2. **Step 2:** Resolved to HeartCanHodl, primary channel (HCH — Comments)
@@ -25,3 +30,7 @@ Event: Context missing — HeartCanHodl is giving a "heads-up" but the subject (
 HeartCanHodl: "Not that i would position for this but just a heads-up"
 
 Unable to classify — what's he alerting about?
+**Current Status:**
+- Kaito 2% portfolio short is now tracked in HeartCanHodl's active short basket
+- Estimated total short allocation: ~32-37% (up from ~30-35% baseline)
+- Awaiting Kyle's signal: approve kaito for mirror on Kraken, or monitor memory-only
