@@ -1,0 +1,161 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor Calibration",
+        "description": "Tweet signal monitoring and classification"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_main",
+        "sep_1",
+        "heading_event",
+        "text_event",
+        "sep_2",
+        "heading_post",
+        "tweetcard_main",
+        "sep_3",
+        "heading_context",
+        "text_context",
+        "sep_4",
+        "heading_interpretation",
+        "stack_interpretation",
+        "sep_5",
+        "heading_classification",
+        "text_classification",
+        "link_view"
+      ]
+    },
+    "heading_main": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @HeartCanHodl",
+        "level": "h2"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to @blancxbt @Evan_ss6 on chart context"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_post": {
+      "type": "Heading",
+      "props": {
+        "text": "Post",
+        "level": "h3"
+      }
+    },
+    "tweetcard_main": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "Parabolas turned into a dot on x-axis"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_context": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "Cryptic technical metaphor (parabolic price move collapsed); no explicit ticker/timeframe; @blancxbt/@Evan_ss6 original chart context not captured by Worker payload."
+      }
+    },
+    "sep_4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_interpretation": {
+      "type": "Heading",
+      "props": {
+        "text": "Interpretation",
+        "level": "h3"
+      }
+    },
+    "stack_interpretation": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_bearish",
+        "text_interpretation"
+      ]
+    },
+    "badge_bearish": {
+      "type": "Badge",
+      "props": {
+        "text": "Bearish",
+        "variant": "destructive"
+      }
+    },
+    "text_interpretation": {
+      "type": "Text",
+      "props": {
+        "text": "Bearish chart-pattern observation (parabolic collapse = capitulation signal?), aligns with HCH's active short-basket conviction. Asset/timeframe/entry level unknown."
+      }
+    },
+    "sep_5": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_classification": {
+      "type": "Heading",
+      "props": {
+        "text": "Classification",
+        "level": "h3"
+      }
+    },
+    "text_classification": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify action — what's your read? Is this tracking for existing short basket, or new signal?"
+      }
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/HeartCanHodl/status/2081867004508811711"
+      }
+    }
+  }
+}
