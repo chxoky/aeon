@@ -1,0 +1,82 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor",
+        "description": "HCH — Free Tier"
+      },
+      "children": [
+        "content"
+      ]
+    },
+    "content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "metadata",
+        "separator",
+        "message",
+        "footer"
+      ]
+    },
+    "metadata": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "source_badge",
+        "tier_badge",
+        "author_text"
+      ]
+    },
+    "source_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "💬 Discord",
+        "variant": "default"
+      }
+    },
+    "tier_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Free",
+        "variant": "secondary"
+      }
+    },
+    "author_text": {
+      "type": "Text",
+      "props": {
+        "text": "HCH",
+        "variant": "lead"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message": {
+      "type": "Text",
+      "props": {
+        "text": "H- and Z-named tickers aren't part of this list, they're already consensus tier-1 picks. That said, they're just as worthy of the \"sell\" label.",
+        "variant": "body"
+      }
+    },
+    "footer": {
+      "type": "Text",
+      "props": {
+        "text": "in reply to @kaleemisst",
+        "variant": "caption"
+      }
+    }
+  }
+}
