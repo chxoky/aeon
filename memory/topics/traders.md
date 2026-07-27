@@ -195,8 +195,9 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - PENDING: "@0xjune_ @N1Chain" + URL [2080138957409378455]
   - PENDING: "@0xProfessor_ Here we go…" — execution entry or banter? [2081441542233784830]
   - PENDING: Jul 26 19:15Z reply "@janxbt @garbycan Yes I'm nig" — text truncated [2081458303570161705]
-- Last seen: 2026-07-27 08:51:39 UTC
+- Last seen: 2026-07-27 09:11:05 UTC
 - **Events (rolling):**
+  - Jul 27 09:11Z — informational: ETH liquidity trap, shorts wiped out on false washout breakout [2081668689942737210]
   - Jul 27 08:51Z — informational: ETH resistance breakout attempt with volume analysis, bullish structure [2081663797702299786]
   - Jul 21 21:01Z — informational: ETH 6h MTF bullish structure breakout, rally expected soon [2079673052938559739]
   - Jul 22 06:15Z — informational: ADA M15/H1 long POI, seeking entry 0.1685–0.17 [2079812453886570851]
