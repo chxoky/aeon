@@ -1,0 +1,105 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "alert_status",
+        "separator_1",
+        "text_headline",
+        "story_tweet",
+        "stack_details",
+        "separator_2",
+        "text_result"
+      ]
+    },
+    "alert_status": {
+      "type": "Alert",
+      "props": {
+        "type": "success",
+        "message": "Tweet classified and skipped per HR-1"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_headline": {
+      "type": "Text",
+      "props": {
+        "text": "Processed tweet:",
+        "variant": "lead"
+      }
+    },
+    "story_tweet": {
+      "type": "StoryLink",
+      "props": {
+        "title": "@Wild_Randomness",
+        "href": "https://x.com/i/web/status/2081553061001171083",
+        "source": "Tweet ID: 2081553061001171083"
+      }
+    },
+    "stack_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_classification",
+        "stack_badges"
+      ]
+    },
+    "text_classification": {
+      "type": "Text",
+      "props": {
+        "text": "Classification: Non-financial (Fed policy commentary)",
+        "variant": "body"
+      }
+    },
+    "stack_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_type",
+        "badge_rule"
+      ]
+    },
+    "badge_type": {
+      "type": "Badge",
+      "props": {
+        "text": "Non-financial",
+        "variant": "secondary"
+      }
+    },
+    "badge_rule": {
+      "type": "Badge",
+      "props": {
+        "text": "HR-1 Rule",
+        "variant": "outline"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_result": {
+      "type": "Text",
+      "props": {
+        "text": "Skipped silently. No action required.",
+        "variant": "muted"
+      }
+    }
+  }
+}
