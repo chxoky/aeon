@@ -1,0 +1,108 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "header",
+        "event-stack",
+        "separator1",
+        "status-alert",
+        "questions-stack",
+        "separator2",
+        "closing"
+      ]
+    },
+    "header": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: HCH — Free]",
+        "level": "h2"
+      }
+    },
+    "event-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event-text",
+        "reply-text"
+      ]
+    },
+    "event-text": {
+      "type": "Text",
+      "props": {
+        "text": "Event: HCH warning about tickers starting with certain letters"
+      }
+    },
+    "reply-text": {
+      "type": "Text",
+      "props": {
+        "text": "HCH reply: Fc btcdom 1hr"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "status-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "The Fc pattern is still PENDING explicit calibration",
+        "type": "warning"
+      }
+    },
+    "questions-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "q1",
+        "q2",
+        "context-note"
+      ]
+    },
+    "q1": {
+      "type": "Text",
+      "props": {
+        "text": "Does Fc = form-confirmed chart pattern?"
+      }
+    },
+    "q2": {
+      "type": "Text",
+      "props": {
+        "text": "Is this technical observation only, or signals conviction/action?"
+      }
+    },
+    "context-note": {
+      "type": "Text",
+      "props": {
+        "text": "Context: Bitcoin Dominance on 1hr timeframe, reply to own prior warning"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "closing": {
+      "type": "Text",
+      "props": {
+        "text": "Multiple similar PENDING items (Jul 26–27). What's your read?",
+        "variant": "lead"
+      }
+    }
+  }
+}
