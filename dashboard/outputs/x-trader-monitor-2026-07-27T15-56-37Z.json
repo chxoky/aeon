@@ -1,0 +1,58 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @swarmister"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_event",
+        "tweet_card",
+        "alert_classify",
+        "link_post"
+      ]
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @TraderMagus (context missing)",
+        "variant": "body"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "Honestly, it's the best choice"
+      }
+    },
+    "alert_classify": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "what's your read?",
+        "type": "info"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/swarmister/status/2081769379662815413"
+      }
+    }
+  }
+}
