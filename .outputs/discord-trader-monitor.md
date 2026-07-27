@@ -21,3 +21,10 @@ Perfect! I've successfully executed the Discord Trader Monitor skill with the pr
 7. ✓ Logged event to `memory/logs/2026-07-27.md` for audit trail
 
 **Status:** Complete — Skill processed the Discord event per protocol with no action required.
+🔍 *Calibration — [DC: HCH — Chat]*
+
+Event: Just executed multiple alt shorts (kaito 2%, ETH +5%, ZEC +3%) in prior messages (Jul 27 07:41–07:54Z)
+
+HeartCanHodl: "We did"
+
+Unable to classify — what's your read? Did he confirm execution, hit a target, or reference something specific?

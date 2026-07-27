@@ -1,0 +1,155 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor"
+      },
+      "children": [
+        "content-stack"
+      ]
+    },
+    "content-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "calibration-badge",
+        "separator-1",
+        "event-section",
+        "separator-2",
+        "response-section",
+        "separator-3",
+        "interpretation-alert"
+      ]
+    },
+    "calibration-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "🔍 Calibration — [DC: HCH — Chat]",
+        "variant": "outline"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "event-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event-heading",
+        "event-description",
+        "timestamp-text",
+        "positions-stack"
+      ]
+    },
+    "event-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Event: Multiple Alt Shorts Executed",
+        "level": "h3"
+      }
+    },
+    "event-description": {
+      "type": "Text",
+      "props": {
+        "text": "Just executed multiple alt shorts in prior messages"
+      }
+    },
+    "timestamp-text": {
+      "type": "Text",
+      "props": {
+        "text": "Jul 27 07:41–07:54Z",
+        "variant": "caption"
+      }
+    },
+    "positions-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-kaito",
+        "pos-eth",
+        "pos-zec"
+      ]
+    },
+    "pos-kaito": {
+      "type": "Badge",
+      "props": {
+        "text": "Kaito +2%",
+        "variant": "default"
+      }
+    },
+    "pos-eth": {
+      "type": "Badge",
+      "props": {
+        "text": "ETH +5%",
+        "variant": "default"
+      }
+    },
+    "pos-zec": {
+      "type": "Badge",
+      "props": {
+        "text": "ZEC +3%",
+        "variant": "default"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "response-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "response-speaker",
+        "response-quote"
+      ]
+    },
+    "response-speaker": {
+      "type": "Text",
+      "props": {
+        "text": "HeartCanHodl:",
+        "variant": "caption"
+      }
+    },
+    "response-quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"We did\"",
+        "variant": "lead"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "interpretation-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to Classify",
+        "message": "What's your read? Did he confirm execution, hit a target, or reference something specific?",
+        "type": "info"
+      }
+    }
+  }
+}
