@@ -205,8 +205,10 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - PENDING: Jul 26 19:15Z reply "@janxbt @garbycan Yes I'm nig" — text truncated [2081458303570161705]
   - PENDING: "@blknoiz06 Top" — top call or affirmation? [2081748539999130003]
   - PENDING: Jul 27 14:52Z "I got an SL on both" — which two positions hit stop loss? [2081754498591051895]
-- Last seen: 2026-07-27 14:52:04 UTC
+  - PENDING: Jul 27 18:13Z "@Ehn_7H 100%" — affirmation/agreement on what topic? (reply context missing) [2081805111727145162]
+- Last seen: 2026-07-27 18:13:11 UTC
 - **Events (rolling):**
+  - Jul 27 18:13Z — ambiguous: "@Ehn_7H 100%"; cryptic reply, context missing; calibration pending [2081805111727145162]
   - Jul 27 14:52Z — ambiguous: stop loss hit; "both" positions unclear; calibration pending [2081754498591051895]
   - Jul 27 14:28Z — ambiguous: "@blknoiz06 Top" bare-word reply; calibration pending [2081748539999130003]
   - Jul 27 09:11Z — informational: ETH liquidity trap, shorts wiped out on false washout breakout [2081668689942737210]
