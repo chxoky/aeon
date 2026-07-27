@@ -1,0 +1,136 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "$HYPE — Technical caution on resistance failures"
+      },
+      "children": [
+        "main_stack"
+      ]
+    },
+    "main_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "tweet_link",
+        "sep1",
+        "technical_alert",
+        "analysis_stack",
+        "summary_text"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "$HYPE — Technical caution on resistance failures\n\nFirst caution sign was this div failing. Hype is attached to the indices hip."
+      }
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2081809204365390188"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "technical_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Technical Downtrend",
+        "message": "Daily chart shows clear resistance failures across 76/72/68/60 levels; price broken below 60 support at 56.77 (-4.80%), technical downtrend ongoing.",
+        "type": "warning"
+      }
+    },
+    "analysis_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "levels_label",
+        "levels_row",
+        "price_stat"
+      ]
+    },
+    "levels_label": {
+      "type": "Text",
+      "props": {
+        "text": "Failed Resistance Levels:",
+        "variant": "caption"
+      }
+    },
+    "levels_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "level_76",
+        "level_72",
+        "level_68",
+        "level_60"
+      ]
+    },
+    "level_76": {
+      "type": "Badge",
+      "props": {
+        "text": "76",
+        "variant": "outline"
+      }
+    },
+    "level_72": {
+      "type": "Badge",
+      "props": {
+        "text": "72",
+        "variant": "outline"
+      }
+    },
+    "level_68": {
+      "type": "Badge",
+      "props": {
+        "text": "68",
+        "variant": "outline"
+      }
+    },
+    "level_60": {
+      "type": "Badge",
+      "props": {
+        "text": "60",
+        "variant": "destructive"
+      }
+    },
+    "price_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Price at Break",
+        "value": "56.77",
+        "delta": "-4.80%",
+        "trend": "down"
+      }
+    },
+    "summary_text": {
+      "type": "Text",
+      "props": {
+        "text": "Aligns with group bearish lean (HCH short conviction + Chase caution; Q3-Q4 headwinds). WR holds HYPE spot — this signals technical concern on own position.",
+        "variant": "body"
+      }
+    }
+  }
+}
