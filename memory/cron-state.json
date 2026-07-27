@@ -47,8 +47,8 @@
     "last_quality_score": 4
   },
   "market-context-refresh": {
-    "last_dispatch": "2026-07-26T13:46:18Z",
-    "last_status": "success",
+    "last_dispatch": "2026-07-27T13:59:36Z",
+    "last_status": "dispatched",
     "last_success": "2026-07-27T08:31:53Z",
     "total_runs": 22,
     "total_successes": 22,
@@ -58,8 +58,8 @@
     "last_quality_score": 4
   },
   "narrative-tracker": {
-    "last_dispatch": "2026-07-26T13:46:18Z",
-    "last_status": "success",
+    "last_dispatch": "2026-07-27T13:59:36Z",
+    "last_status": "dispatched",
     "last_success": "2026-07-26T13:52:31Z",
     "total_runs": 14,
     "total_successes": 14,
@@ -97,8 +97,8 @@
     "last_dispatch": "2026-07-14T04:51:21Z"
   },
   "token-alert": {
-    "last_dispatch": "2026-07-26T12:01:05Z",
-    "last_status": "success",
+    "last_dispatch": "2026-07-27T13:59:36Z",
+    "last_status": "dispatched",
     "last_success": "2026-07-26T12:02:58Z",
     "total_runs": 13,
     "total_successes": 13,
@@ -107,8 +107,8 @@
     "success_rate": 1
   },
   "token-movers": {
-    "last_dispatch": "2026-07-26T12:01:05Z",
-    "last_status": "success",
+    "last_dispatch": "2026-07-27T13:59:36Z",
+    "last_status": "dispatched",
     "last_success": "2026-07-27T08:31:24Z",
     "total_runs": 27,
     "total_successes": 27,
