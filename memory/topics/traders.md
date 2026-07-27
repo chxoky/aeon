@@ -307,6 +307,8 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - Jul 27 07:41Z — trade-new-entry: kaito 2% pf short (Trades channel, primary; new ticker entry) [1531204972090494977]
   - Jul 27 07:51Z — trade-conviction-add: ZEC 3% pf short add (Trades channel, primary; reply-context: prior 07-25 "Close zec...half size shorts") [1531207401808728285]
 - Last seen: 2026-07-27 07:51:33 UTC
+  - Jul 27 07:48Z — trade-new-entry-confirmation: kaito 1h chart + 30% downside target (peak 1.2334→target 0.82-0.86); X post public explanation w/ technical setup; chart shows rally-to-peak-then-rejection structure ready for breakdown [2081647834957562056]
+- Last seen: 2026-07-27 07:48:13 UTC
 - **PENDING: Jul 27 02:45Z — "Fc btc 1w"** — Calibration alert sent. Is "Fc" = form-confirmed? Technical observation only or conviction signal? [1531130322731667616]
 - **PENDING: Jul 27 05:59Z — "No. We will take the short exposure"** — Calibration alert sent. No referenced message context (Chat channel reply). Confirming existing short basket or new decision? [1531179316157616218]
 - **PENDING: Jul 27 06:06Z — "We are yet to pull to trigger"** — Calibration alert sent. Chat channel follow-up to 05:59Z. Awaiting pullback to trigger: new entry? Add to shorts? Cover condition? [1531181054981968022]

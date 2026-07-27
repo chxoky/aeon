@@ -1,0 +1,200 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "🚨 Trade Signal — @HeartCanHodl"
+      },
+      "children": [
+        "ticker-section",
+        "sep-1",
+        "levels-table",
+        "sep-2",
+        "analysis-section",
+        "sep-3",
+        "quote-section",
+        "sep-4",
+        "action-section"
+      ]
+    },
+    "ticker-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "kaito-badge",
+        "short-badge",
+        "order-badge"
+      ]
+    },
+    "kaito-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "$KAITO",
+        "variant": "default"
+      }
+    },
+    "short-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "SHORT",
+        "variant": "destructive"
+      }
+    },
+    "order-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Market Order, New Entry",
+        "variant": "secondary"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "levels-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Level",
+          "Price",
+          "Note"
+        ],
+        "rows": [
+          [
+            "Entry",
+            "~1.1867",
+            "1h timeframe"
+          ],
+          [
+            "Alert Entries",
+            "~1.2334",
+            "Expected to hit before target"
+          ],
+          [
+            "Target",
+            "~0.82–0.86",
+            "30% lower after hitting alerts"
+          ]
+        ]
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis-heading",
+        "chart-text"
+      ]
+    },
+    "analysis-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart Analysis",
+        "level": "h3"
+      }
+    },
+    "chart-text": {
+      "type": "Text",
+      "props": {
+        "text": "1h shows rally-to-peak-then-rejection setup. HCH positioned for breakdown below consolidation.",
+        "variant": "body"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "quote-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "quote-heading",
+        "quote-text"
+      ]
+    },
+    "quote-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Trader's Assessment",
+        "level": "h4"
+      }
+    },
+    "quote-text": {
+      "type": "Text",
+      "props": {
+        "text": "\"I believe this is likely to hit your alerts entries and then extend immediately another 30% lower.\"",
+        "variant": "lead"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "action-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "action-text",
+        "controls-row"
+      ]
+    },
+    "action-text": {
+      "type": "Text",
+      "props": {
+        "text": "Reply approve KAITO to mirror 2% short on Kraken, or ignore to skip.",
+        "variant": "muted"
+      }
+    },
+    "controls-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "approve-button",
+        "view-link"
+      ]
+    },
+    "approve-button": {
+      "type": "Button",
+      "props": {
+        "label": "approve KAITO",
+        "variant": "danger"
+      }
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View",
+        "href": "https://x.com/HeartCanHodl/status/2081647834957562056"
+      }
+    }
+  }
+}
