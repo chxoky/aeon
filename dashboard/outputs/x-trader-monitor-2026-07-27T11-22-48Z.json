@@ -1,0 +1,48 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_success",
+        "text_event",
+        "text_skip_reason"
+      ]
+    },
+    "badge_success": {
+      "type": "Badge",
+      "props": {
+        "text": "Success",
+        "variant": "success"
+      }
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Bitcoin_Astro event processed",
+        "variant": "body"
+      }
+    },
+    "text_skip_reason": {
+      "type": "Text",
+      "props": {
+        "text": "Non-financial skip, no alert needed",
+        "variant": "caption"
+      }
+    }
+  }
+}
