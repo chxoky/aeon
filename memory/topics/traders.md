@@ -156,6 +156,7 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - Jul 26 01:02Z — informational: ORCL long setup analysis for member (supporting channel Q&A) [1530742090542350462]
   - Jul 26 21:54Z — informational: altcoin sentiment — commentary on "dead altcoins" and people wasting time charting flat narratives; reinforces bearish alt thesis [2081498525301461076]
   - Jul 27 00:48Z — ambiguous: "I will trim another 10% of MV at 951~ liquidity if offered"; conditional TP order with chart image; MV ticker unclear (possibly MU?), awaiting calibration [1531100853488975943]
+  - Jul 27 00:52Z — informational: SNDK conditional TP guidance — "1527~* for SNDK, both will be closed 80% if those TPs hit"; updates multi-position TP targets (MU+SNDK both aiming for 80% cumulative close) [15311010124139137144]
 
 ## swarmister
 - Platforms: X (primary; X-only, no Discord presence)
