@@ -19,3 +19,12 @@ This post uses "short" humorously about a merchandise collaboration, not as a re
 5. ✓ Did NOT add event line to traders.md (skip events don't consume rolling event slots per size discipline)
 
 **Skill execution complete** — non-financial meme processed silently per protocol. No calibration needed.
+🐦 *[X] @HeartCanHodl*
+
+Starting the week with a 3/3 streak.
+
+[LIT charts showing 15m/1h structure: peak 2.2852→pullback to 2.2044 on 15m; 1h shows move 1.97→2.28 current 2.276]
+
+Sentiment validation of HCH's HIGH conviction LIT short (entered 10:46Z today, thesis: '2nd best trade in market'). Charts depict bullish structure followed by pullback—consistent with bearish alt-basket thesis. Reinforces conviction across 8-ticker short constellation (BTC/ETH/SOL/HYPE/ZEC/UNI/VVV/CL/KAITO).
+
+[View tweet](https://x.com/HeartCanHodl/status/2081747813235609871)
