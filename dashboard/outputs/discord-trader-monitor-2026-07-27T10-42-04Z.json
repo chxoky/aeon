@@ -1,0 +1,72 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor",
+        "description": "Chat calibration from market participants"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_calibration",
+        "text_event",
+        "sep1",
+        "tweet_heartcanhodl",
+        "sep2",
+        "text_analysis_prompt"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — Discord Chat",
+        "level": "h2"
+      }
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: 10 min after conviction reinforcement (\"We are targeting much lower\")",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet_heartcanhodl": {
+      "type": "TweetCard",
+      "props": {
+        "author": "heartcanhodl",
+        "handle": "HCH",
+        "text": "Repeated history of disappointment"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_analysis_prompt": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — market sentiment chatter? False bounces frustrating shorts? Historical cycle observation? Your read?",
+        "variant": "body"
+      }
+    }
+  }
+}
