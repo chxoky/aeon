@@ -297,6 +297,9 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - Jul 26 19:05Z — informational: CL 1h chart — downtrend from 93.47 peak to 85.89; key supports 85.83/85.00 marked; validates Jul 24 short [1531014696231112784]
   - Jul 27 01:00Z — informational: terse price check — BTC 65k, ETH 1940+ (Comments channel) [1531103860821594113]
   - Jul 27 00:57Z — informational: CL +6.36% short equity; SOL/HYPE 1h technical charts + macro leverage-ETF-flows chart; asks Kyle input on hedges/re-entry [2081544563064488106]
+  - Jul 27 02:45Z — ambiguous: "Fc btc 1w" Chat channel; "Fc {ticker} {tf}" pattern still PENDING explicit calibration (same pattern as Jul 26 "Fc btc 1hr", "Fc btc 15m"); unclear if form-confirmed chart callout requires action [1531130322731667616]
+- Last seen: 2026-07-27 02:45:15 UTC
+- **PENDING: Jul 27 02:45Z — "Fc btc 1w"** — Calibration alert sent. Is "Fc" = form-confirmed? Technical observation only or conviction signal? [1531130322731667616]
 
 ## Wild_Randomness
 - Platforms: X (X-only; no Discord)
