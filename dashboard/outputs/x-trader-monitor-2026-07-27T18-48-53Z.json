@@ -1,0 +1,49 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet",
+        "link",
+        "followup"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "$BTC — Reiterating pivot-date pattern: if 6/7 prior Jul 29 occurrences hold, minimum 4–5% drop expected after the 29th. However, pivots will shift once broader structure moves; pattern may produce different reaction."
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2081812754424316253"
+      }
+    },
+    "followup": {
+      "type": "Text",
+      "props": {
+        "text": "Follow-up to Jul 26 analysis, now with historical chart evidence of pattern outcomes. Reinforces HTF bullish structure thesis with near-term tactical caution into key pivot date.",
+        "variant": "muted"
+      }
+    }
+  }
+}
