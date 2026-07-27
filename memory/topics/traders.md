@@ -320,6 +320,7 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - Jul 27 09:43Z — informational: tier-1 stock skepticism — reply @kaleemisst on H-/Z-named stocks being "already consensus tier-1 picks" but "just as worthy of the sell label" [2081676778993602788]
 - Last seen: 2026-07-27 09:44:44 UTC
 - **Events (rolling):**
+  - Jul 27 10:46Z — informational: short $LIT conviction; "I still believe the 2nd best trade in the market is short $LIT" + chart image [2081692704019468380]
   - Jul 27 09:44Z — informational: alt sentiment commentary — H/Z-named tickers (HYPE/ZEC) "sell" worthy despite consensus tier-1 status; reply to @kaleemisst (Free channel, X link share) [1531235888296759459]
 - **PENDING: Jul 27 02:45Z — "Fc btc 1w"** — Calibration alert sent. Is "Fc" = form-confirmed? Technical observation only or conviction signal? [1531130322731667616]
 - **PENDING: Jul 27 05:59Z — "No. We will take the short exposure"** — Calibration alert sent. No referenced message context (Chat channel reply). Confirming existing short basket or new decision? [1531179316157616218]

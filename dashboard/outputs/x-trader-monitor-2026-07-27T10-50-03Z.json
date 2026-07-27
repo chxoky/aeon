@@ -1,0 +1,106 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet_card",
+        "separator_1",
+        "meta_section"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Heart Can Hodl",
+        "handle": "@HeartCanHodl",
+        "text": "I still believe the 2nd best trade in the market is short $LIT\n\nGL, HF."
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "meta_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_link",
+        "context_text",
+        "indicators_stack"
+      ]
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/HeartCanHodl/status/2081692704019468380"
+      },
+      "children": []
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "Converges with ryzzqq bearish technical (beta risk, -27% decline prior); LIT +9.9% today. Cross-trader short thesis emerging.",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "indicators_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_short",
+        "badge_lit_move",
+        "badge_ryzzqq",
+        "badge_beta"
+      ]
+    },
+    "badge_short": {
+      "type": "Badge",
+      "props": {
+        "text": "Short $LIT",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "badge_lit_move": {
+      "type": "Badge",
+      "props": {
+        "text": "LIT +9.9% today",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "badge_ryzzqq": {
+      "type": "Badge",
+      "props": {
+        "text": "ryzzqq agrees",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "badge_beta": {
+      "type": "Badge",
+      "props": {
+        "text": "Beta Risk -27%",
+        "variant": "outline"
+      },
+      "children": []
+    }
+  }
+}
