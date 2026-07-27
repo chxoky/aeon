@@ -1,0 +1,62 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-card",
+        "separator1",
+        "chart-section",
+        "link"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "$BTC\n\nPumping on NY Open is?…"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "chart-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "chart-heading",
+        "chart-text"
+      ]
+    },
+    "chart-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart Context",
+        "level": "h4"
+      }
+    },
+    "chart-text": {
+      "type": "Text",
+      "props": {
+        "text": "5m intraday pump to 65.6K during NY market open, embedded in broader daily consolidation (support 60K, resistance 66–67.5K). Technical setup shows key levels awaiting directional breakout.",
+        "variant": "body"
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2081740519282012668"
+      }
+    }
+  }
+}
