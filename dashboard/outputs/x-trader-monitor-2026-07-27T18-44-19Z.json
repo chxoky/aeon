@@ -1,0 +1,266 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Post calibration analysis"
+      },
+      "children": [
+        "header",
+        "sep1",
+        "message-section",
+        "sep2",
+        "context-section",
+        "sep3",
+        "analysis-section",
+        "sep4",
+        "conclusion-section"
+      ]
+    },
+    "header": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Stoiiic",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator"
+    },
+    "message-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "msg-heading",
+        "tweet-card"
+      ]
+    },
+    "msg-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Post Under Review",
+        "level": "h3"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "text": "@CookBookSauce COOK"
+      }
+    },
+    "sep2": {
+      "type": "Separator"
+    },
+    "context-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context-heading",
+        "context-body"
+      ]
+    },
+    "context-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Author Context",
+        "level": "h3"
+      }
+    },
+    "context-body": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context-1",
+        "context-2"
+      ]
+    },
+    "context-1": {
+      "type": "Text",
+      "props": {
+        "text": "Stoiiic: Analyst/educator with no confirmed positions",
+        "variant": "body"
+      }
+    },
+    "context-2": {
+      "type": "Text",
+      "props": {
+        "text": "Known for statistical and technical posts on BTC and crypto structure",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator"
+    },
+    "analysis-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis-heading",
+        "characteristics",
+        "interp-heading",
+        "interpretations"
+      ]
+    },
+    "analysis-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Signal Assessment",
+        "level": "h3"
+      }
+    },
+    "characteristics": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "char-1",
+        "char-2",
+        "char-3"
+      ]
+    },
+    "char-1": {
+      "type": "Badge",
+      "props": {
+        "text": "Cryptic — no execution language",
+        "variant": "secondary"
+      }
+    },
+    "char-2": {
+      "type": "Badge",
+      "props": {
+        "text": "No ticker context",
+        "variant": "secondary"
+      }
+    },
+    "char-3": {
+      "type": "Badge",
+      "props": {
+        "text": "No action level",
+        "variant": "secondary"
+      }
+    },
+    "interp-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Possible Interpretations",
+        "level": "h4"
+      }
+    },
+    "interpretations": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "interp-1",
+        "interp-2",
+        "interp-3"
+      ]
+    },
+    "interp-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-slang",
+        "text-slang"
+      ]
+    },
+    "badge-slang": {
+      "type": "Badge",
+      "props": {
+        "text": "Slang",
+        "variant": "outline"
+      }
+    },
+    "text-slang": {
+      "type": "Text",
+      "props": {
+        "text": "Cooking = performing well, momentum building",
+        "variant": "body"
+      }
+    },
+    "interp-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-token",
+        "text-token"
+      ]
+    },
+    "badge-token": {
+      "type": "Badge",
+      "props": {
+        "text": "Token Ref",
+        "variant": "outline"
+      }
+    },
+    "text-token": {
+      "type": "Text",
+      "props": {
+        "text": "Direct reference to a COOK token",
+        "variant": "body"
+      }
+    },
+    "interp-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-social",
+        "text-social"
+      ]
+    },
+    "badge-social": {
+      "type": "Badge",
+      "props": {
+        "text": "Social",
+        "variant": "outline"
+      }
+    },
+    "text-social": {
+      "type": "Text",
+      "props": {
+        "text": "Reply or banter exchange with another account",
+        "variant": "body"
+      }
+    },
+    "sep4": {
+      "type": "Separator"
+    },
+    "conclusion-section": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification: Unable",
+        "message": "Post cannot be confidently classified. Awaiting manual interpretation: what's your read on this?",
+        "type": "warning"
+      }
+    }
+  }
+}

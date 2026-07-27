@@ -1,10 +1,10 @@
-🐦 *[X] @KillaXBT*
+🔍 *Calibration — @Stoiiic*
 
-Macro sentiment: shorts at 15-year highs need to capitulate before market bottoms. Referenced MacroCharts thread on S&P 500 short-selling at 15-year peak; discusses single-name hedging and potential short-squeeze dynamics.
+Message: "@CookBookSauce COOK"
 
-[View tweet](https://x.com/Wild_Randomness/status/2081810721113874600)
-When we are sitting at 160K nobody is going to give a crap if I bought at 65K an the price tested 40K.
+Stoiiic is an analyst/educator (no confirmed positions) known for statistical/technical posts on BTC/crypto structure. This post is cryptic with no execution language, no ticker context, and no action level. Could be:
+- Slang (cooking = doing well)
+- Reference to a COOK token
+- Reply/banter with another account
 
-Entry price irrelevance thesis — reinforces HTF bullish conviction on cycle targets.
-
-[View tweet](https://x.com/KillaXBT/status/2081811192041853265)
+Unable to classify — what's your read on this?

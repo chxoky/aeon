@@ -590,6 +590,7 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - PENDING: "@dogboii yes" [2077533526128570721]
   - PENDING: "@KobeissiLetter You had 3 days window" [2077740149648286146]
   - PENDING: "initial reaction from composite ✅" — what composite signal? [2077784067093742039]
+  - PENDING: Jul 27 18:38Z "@CookBookSauce COOK" — cryptic reply, no ticker/action/level context [2081811525677854794]
   - PENDING: "@stoicscalper truth" [2078019207061774338]
   - PENDING: "umm brian? [URL]" [2078206265847648582]
   - PENDING: "\"EVERYONE\" is talking about this so it can't possibly happen right?!?" [2078229771658424691]
@@ -635,6 +636,7 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - Jul 26 22:29Z — informational: Velo project sentiment — very terse "@velo_xyz cooked" (positive technical observation) [2081507344182067371]
   - Jul 26 22:40Z — ambiguous: "short squeezing hour" — cryptic 3-word, no ticker/action/level, awaiting calibration [2081509946399629480]
   - Jul 27 06:00Z — informational: BTC LTF ~65 interim pivot w/ confluence for week-high breakout or rollover; Monday NY session critical; HTF downtrend w/ LTF reversion lacking conviction; conventional cycle bearish (months), optimistic case sideways chop [2081620709118185569]
+  - Jul 27 18:38Z — ambiguous: "@CookBookSauce COOK" cryptic reply; no ticker/action/level; calibration pending [2081811525677854794]
 
 ## trading_axe (Dr. Axius)
 - Platforms: X (X-only)
