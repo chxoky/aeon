@@ -1,0 +1,126 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "🔍 Calibration — DC: HCH — Chat"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event-header",
+        "event-meta",
+        "separator1",
+        "message-content",
+        "unable-classify-alert",
+        "classification-options"
+      ]
+    },
+    "event-header": {
+      "type": "Heading",
+      "props": {
+        "text": "Event: HeartCanHodl support-channel message",
+        "level": "h3"
+      }
+    },
+    "event-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "timestamp-badge",
+        "messageid-badge"
+      ]
+    },
+    "timestamp-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Jul 27 06:00:22 UTC",
+        "variant": "secondary"
+      }
+    },
+    "messageid-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "message_id 1531179421971513355",
+        "variant": "secondary"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message-content": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HCH",
+        "text": "It was just the right candle interpretation"
+      }
+    },
+    "unable-classify-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read? Which ticker/timeframe/thesis does this refer to?",
+        "type": "info"
+      }
+    },
+    "classification-options": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "classify-intro",
+        "option-a",
+        "option-b",
+        "option-c"
+      ]
+    },
+    "classify-intro": {
+      "type": "Text",
+      "props": {
+        "text": "Is this:",
+        "variant": "lead"
+      }
+    },
+    "option-a": {
+      "type": "Text",
+      "props": {
+        "text": "(a) supportive of existing short basket conviction",
+        "variant": "body"
+      }
+    },
+    "option-b": {
+      "type": "Text",
+      "props": {
+        "text": "(b) new technical observation",
+        "variant": "body"
+      }
+    },
+    "option-c": {
+      "type": "Text",
+      "props": {
+        "text": "(c) commentary on recent market structure",
+        "variant": "body"
+      }
+    }
+  }
+}
