@@ -644,7 +644,8 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - PENDING: "@JordiCharts its just spot cb, binance and kraken" — exchange venue reference [2080508660279554183]
   - PENDING: "hello, BTC update to start off the week?" — setup for analysis, question, or thread opening? [2081425993089069139]
   - PENDING: Jul 27 20:55Z "@cornd0gman I had a feeling this wasn't going to end well." — cryptic reply to trader, undefined context [2081845837164917015]
-- Last seen: 2026-07-27 20:55:01 UTC
+  - PENDING: Jul 27 23:23Z "@BigTrout300 longed for some reversion or ready to get hurt" — reply/commentary or own execution? [2081883103832801298]
+- Last seen: 2026-07-27 23:23:06 UTC
 - **Events (rolling):**
   - Jul 14 16:43Z — ambiguous: "are we actually back?!" [2077071558426677266]
   - Jul 14 22:31Z — ambiguous: "bumpy road but back in the mix" [2077159031005725148]
@@ -677,6 +678,7 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - Jul 27 20:59Z — ambiguous: "nvm forget I even said anything." retraction/disavowal of prior statement; context missing; calibration alert sent [2081846947275497655]
   - Jul 27 22:52Z — informational: BTC resistance breakout above 65K level; technical chart observation [2081875524574396736]
   - Jul 27 23:07Z — informational: BTC technical structure chart (rolling VWAP 90d/7d/30d, key levels marked, price action confluence); analyst education share [2081879246947901641]
+  - Jul 27 23:23Z — ambiguous: "@BigTrout300 longed for some reversion or ready to get hurt" cryptic reply; unclear if own execution or commentary [2081883103832801298]
 
 ## trading_axe (Dr. Axius)
 - Platforms: X (X-only)
