@@ -1,0 +1,156 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 x-trader-monitor — Calibration"
+      },
+      "children": [
+        "stack_header",
+        "separator1",
+        "stack_context",
+        "separator2",
+        "stack_data",
+        "separator3",
+        "alert_analysis",
+        "separator4",
+        "link_tweet"
+      ]
+    },
+    "stack_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_source",
+        "text_timestamp"
+      ]
+    },
+    "badge_source": {
+      "type": "Badge",
+      "props": {
+        "text": "@HeartCanHodl",
+        "variant": "secondary"
+      }
+    },
+    "text_timestamp": {
+      "type": "Text",
+      "props": {
+        "text": "Jul 27 09:53Z",
+        "variant": "caption"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_description",
+        "text_context",
+        "text_note"
+      ]
+    },
+    "text_description": {
+      "type": "Text",
+      "props": {
+        "text": "'State of market' chart post.",
+        "variant": "body"
+      }
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "Context: HCH posted 50min after escalating alt shorts.",
+        "variant": "body"
+      }
+    },
+    "text_note": {
+      "type": "Text",
+      "props": {
+        "text": "Can't read chart image.",
+        "variant": "muted"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_data": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_eth",
+        "stat_zec",
+        "stat_kaito"
+      ]
+    },
+    "stat_eth": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "+5%",
+        "trend": "up"
+      }
+    },
+    "stat_zec": {
+      "type": "Stat",
+      "props": {
+        "label": "ZEC",
+        "value": "+3%",
+        "trend": "up"
+      }
+    },
+    "stat_kaito": {
+      "type": "Stat",
+      "props": {
+        "label": "KAITO",
+        "value": "+2%",
+        "trend": "up"
+      }
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_analysis": {
+      "type": "Alert",
+      "props": {
+        "title": "Analysis Question",
+        "message": "Is this structural market obs (informational) or warning signal?",
+        "type": "info"
+      }
+    },
+    "separator4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "Tweet ID: 2081679406708232532",
+        "href": "https://twitter.com/i/web/status/2081679406708232532"
+      }
+    }
+  }
+}

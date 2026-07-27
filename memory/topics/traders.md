@@ -328,6 +328,11 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - Jul 27 07:37Z — ambiguous: "Not that i would position for this but just a heads-up" (Comments channel); context missing — what is "this"? calibration alert sent [1531203928811896912]
 - **PENDING: Jul 27 09:53Z — "@panicselling Panic sell"** — Cryptic reply to external handle; context missing — market sentiment, endorsement of panic selling, or conviction signal? Calibration alert sent [2081679243671736680]
 - Last seen: 2026-07-27 09:53:02 UTC
+  - Jul 27 09:53Z — ambiguous: "State of market" chart post; caption cryptic; image unreadable (CDN fetch failed); context: post follows 50min after multi-ticker alt short escalation (ETH +5%, ZEC +3%, KAITO +2% entries 07:15-07:54Z). Unknown if obs/teaching/warning signal. Calibration alert sent [2081679406708232532]
+- Last seen: 2026-07-27 09:53:40 UTC
+- **PENDING: Jul 27 02:45Z — "Fc btc 1w"** — Calibration alert sent. Is "Fc" = form-confirmed? Technical observation only or conviction signal? [1531130322731667616]
+- **PENDING: Jul 27 05:59Z — "No. We will take the short exposure"** — Calibration alert sent. No referenced message context (Chat channel reply). Confirming existing short basket or new decision? [1531179316157616218]
+- **PENDING: Jul 27 06:06Z — "We are yet to pull to trigger"** — Calibration alert sent. Chat channel follow-up to 05:59Z. Awaiting pullback to trigger: new entry? Add to shorts? Cover condition? [1531181054981968022]
 - **PENDING: Jul 27 07:37Z — "Not that i would position for this but just a heads-up"** — Calibration alert sent. Comments channel message; context missing on what "this" refers to. [1531203928811896912]
 - **PENDING: Jul 27 09:32Z — "We did"** — Calibration alert sent. Chat channel; cryptic affirmation after kaito/ETH/ZEC shorts executed in prior hour (07:41–07:54Z). Context missing — confirmation of execution, TP hit, or reference to something specific? [1531232868695674932]
 - **PENDING: Jul 27 09:37Z — "It's done as per me on that wick but yeah risky to short, a bit late"** — Calibration alert sent. Chat channel (supporting). Cryptic reference to completed wick pattern, warning that shorting is risky/late. Market observation only? Position management signal? Execution confirmation? [1531234019537326170]
