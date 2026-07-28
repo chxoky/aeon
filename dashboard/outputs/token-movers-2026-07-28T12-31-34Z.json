@@ -1,0 +1,493 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Token Movers — 2026-07-28"
+      },
+      "children": [
+        "summary_stack",
+        "sep1",
+        "winners_section",
+        "sep2",
+        "losers_section",
+        "sep3",
+        "trending_section",
+        "sep4",
+        "notable_section"
+      ]
+    },
+    "summary_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "summary_text",
+        "summary_badges"
+      ]
+    },
+    "summary_text": {
+      "type": "Text",
+      "props": {
+        "text": "Risk-off sweep — 3/77 top-100 coins green, median −3.5%; near-zero winners across all cap tiers.",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "summary_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_risk"
+      ]
+    },
+    "badge_risk": {
+      "type": "Badge",
+      "props": {
+        "text": "Risk-off",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "winners_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "winners_heading",
+        "winners_table"
+      ]
+    },
+    "winners_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Winners (24h)",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "winners_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Name",
+          "Price",
+          "24h%",
+          "7d%",
+          "1h%",
+          "Market Cap",
+          "Rank",
+          "Notes"
+        ],
+        "rows": [
+          [
+            "DEXE (DeXe)",
+            "$3.180",
+            "+22.6%",
+            "−84.8%",
+            "−2.1%",
+            "$201M",
+            "#196",
+            "FADE"
+          ],
+          [
+            "CARDS (Collector Crypt)",
+            "$0.1313",
+            "+16.4%",
+            "−19.3%",
+            "+2.0%",
+            "$3.8M",
+            "#578",
+            ""
+          ],
+          [
+            "ZAMA (Zama)",
+            "$0.06111",
+            "+6.9%",
+            "+59.9%",
+            "−0.4%",
+            "$67.5M",
+            "#210",
+            ""
+          ],
+          [
+            "TRAC (OriginTrail)",
+            "$0.2964",
+            "+4.0%",
+            "−7.9%",
+            "−1.0%",
+            "$9.3M",
+            "#222",
+            ""
+          ],
+          [
+            "FF (Falcon Finance)",
+            "$0.06322",
+            "+3.4%",
+            "+5.2%",
+            "−0.2%",
+            "$13.1M",
+            "#167",
+            ""
+          ],
+          [
+            "Q (Quack AI)",
+            "$0.02227",
+            "+3.3%",
+            "+12.8%",
+            "+0.2%",
+            "$4.3M",
+            "#271",
+            ""
+          ],
+          [
+            "TWT (Trust Wallet)",
+            "$0.3593",
+            "+2.9%",
+            "+5.9%",
+            "+0.5%",
+            "$6.7M",
+            "#192",
+            ""
+          ],
+          [
+            "H (Humanity)",
+            "$0.06206",
+            "+2.9%",
+            "+4.5%",
+            "−0.6%",
+            "$2.9M",
+            "#225",
+            ""
+          ],
+          [
+            "RUNE (THORChain)",
+            "$0.4402",
+            "+2.2%",
+            "−2.3%",
+            "0.0%",
+            "$10.8M",
+            "#194",
+            ""
+          ],
+          [
+            "BinanceLife",
+            "$0.6441",
+            "+2.0%",
+            "+1.7%",
+            "−0.2%",
+            "$9.7M",
+            "#87",
+            ""
+          ]
+        ]
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "losers_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "losers_heading",
+        "losers_table"
+      ]
+    },
+    "losers_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Losers (24h)",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "losers_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Name",
+          "Price",
+          "24h%",
+          "7d%",
+          "1h%",
+          "Market Cap",
+          "Rank",
+          "Notes"
+        ],
+        "rows": [
+          [
+            "BTW (Bitway)",
+            "$0.07799",
+            "−29.1%",
+            "+13.8%",
+            "+0.1%",
+            "$21.5M",
+            "#176",
+            ""
+          ],
+          [
+            "BEAT (Audiera)",
+            "$3.110",
+            "−22.1%",
+            "+34.6%",
+            "+4.7%",
+            "$67.2M",
+            "#66",
+            ""
+          ],
+          [
+            "B (BUILDon)",
+            "$0.1679",
+            "−12.7%",
+            "−32.1%",
+            "−1.1%",
+            "$5.9M",
+            "#178",
+            ""
+          ],
+          [
+            "JTO (Jito)",
+            "$0.5497",
+            "−12.3%",
+            "−9.1%",
+            "−1.4%",
+            "$24.6M",
+            "#134",
+            ""
+          ],
+          [
+            "KAIA (Kaia)",
+            "$0.02600",
+            "−10.2%",
+            "−20.8%",
+            "0.0%",
+            "$8.1M",
+            "#188",
+            ""
+          ],
+          [
+            "HYPE (Hyperliquid)",
+            "$54.42",
+            "−9.8%",
+            "−13.2%",
+            "−0.6%",
+            "$480M",
+            "#10",
+            "MAJOR TRENDING+DOWN"
+          ],
+          [
+            "NEAR (NEAR Protocol)",
+            "$1.660",
+            "−9.6%",
+            "−16.7%",
+            "−0.9%",
+            "$168M",
+            "#39",
+            ""
+          ],
+          [
+            "FET (ASI Alliance)",
+            "$0.1402",
+            "−9.5%",
+            "−11.3%",
+            "−0.1%",
+            "$78.3M",
+            "#122",
+            ""
+          ],
+          [
+            "PIEVERSE",
+            "$0.6526",
+            "−9.3%",
+            "−0.8%",
+            "+0.3%",
+            "$8.3M",
+            "#171",
+            ""
+          ],
+          [
+            "IOTA",
+            "$0.03173",
+            "−9.2%",
+            "−14.3%",
+            "−0.2%",
+            "$6.8M",
+            "#200",
+            ""
+          ]
+        ]
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "trending_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "trending_heading",
+        "trending_table"
+      ]
+    },
+    "trending_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "trending_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Name",
+          "Rank",
+          "Price",
+          "24h%",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "Hyperliquid (HYPE)",
+            "#10",
+            "$54.40",
+            "−9.2%",
+            "MAJOR TRENDING+DOWN"
+          ],
+          [
+            "COTI (COTI)",
+            "#549",
+            "$0.01225",
+            "+58.6%",
+            "PUMP-RISK"
+          ],
+          [
+            "Pi Network (PI)",
+            "#74",
+            "$0.07598",
+            "−6.9%",
+            ""
+          ],
+          [
+            "Bitcoin (BTC)",
+            "#1",
+            "$63,380",
+            "−2.6%",
+            "MAJOR"
+          ],
+          [
+            "Solana (SOL)",
+            "#7",
+            "$73.13",
+            "−4.4%",
+            "MAJOR"
+          ],
+          [
+            "Pudgy Penguins (PENGU)",
+            "#111",
+            "$0.005911",
+            "−7.5%",
+            ""
+          ],
+          [
+            "Pons (PONS)",
+            "#531",
+            "$0.04788",
+            "−21.7%",
+            ""
+          ]
+        ]
+      },
+      "children": []
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "notable_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "notable_heading",
+        "alert1",
+        "alert2",
+        "alert3"
+      ]
+    },
+    "notable_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "alert1": {
+      "type": "Alert",
+      "props": {
+        "title": "HYPE: Largest-cap name under active selling pressure",
+        "message": "#1 trending + −9.8% on $480M volume — largest-cap name under active selling pressure [TRENDING+DOWN]",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "alert2": {
+      "type": "Alert",
+      "props": {
+        "title": "DEXE: Dead-cat bounce in structural collapse",
+        "message": "+22.6% bounce today but −84.8% over 7d on $201M volume — dead-cat in structural collapse [FADE]",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "alert3": {
+      "type": "Alert",
+      "props": {
+        "title": "COTI: High manipulation risk",
+        "message": "Trending #2 at +58.6%, rank #549 — manipulation risk high, no liquidity floor [PUMP-RISK]",
+        "type": "error"
+      },
+      "children": []
+    }
+  }
+}
