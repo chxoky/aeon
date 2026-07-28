@@ -1,17 +1,13 @@
-No alerts triggered. All three tracked tokens are within their thresholds:
-
-| Token | Price | 24h Change | Threshold | Status |
-|-------|-------|------------|-----------|--------|
-| BTC | $65,171 | +1.09% | 5% | OK |
-| ETH | $1,957.79 | +3.88% | 8% | OK |
-| SOL | $76.79 | +2.58% | 10% | OK |
-
-Logged `TOKEN_ALERT_OK` to `memory/logs/2026-07-27.md`. No notification sent.
+Token alert check complete. Here's the summary:
 
 ## Summary
 
-- Fetched live prices from CoinGecko for BTC, ETH, SOL
-- Compared 24h changes against MEMORY.md thresholds — none breached
-- No volume spike baseline existed to check 3x condition
-- No alerts triggered, no `./notify` call made
-- Appended log entry to `memory/logs/2026-07-27.md`
+**TOKEN_ALERT_OK** — no anomalies across tracked tokens.
+
+| Token | Price | 24h Change | Volume | Threshold | Status |
+|-------|-------|-----------|--------|-----------|--------|
+| BTC | $63,390 | −2.48% | $25.4B | 5% | ✓ No trigger |
+| ETH | $1,876.19 | −3.71% | $11.0B | 8% | ✓ No trigger |
+| SOL | $73.15 | −4.28% | $1.90B | 10% | ✓ No trigger |
+
+Volume comparison vs the Jul 25 baseline (last logged prices): BTC 1.09x, ETH 1.64x, SOL 1.40x — all well under the 3x spike threshold. Context: FOMC meeting underway (Jul 28–29), broad risk-off tone across the board. No notification sent. Results logged to `memory/logs/2026-07-28.md`.
