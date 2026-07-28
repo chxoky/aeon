@@ -1,14 +1,9 @@
 HEARTBEAT_OK · STATUS_PAGE=OK
 
-All checks passed on the 20:00 UTC run:
+All checks passed:
+- **P0**: No failed/stuck skills. X webhook WATCHED_TRADERS (`is_effect: 1`) — healthy. Heartbeat self-check ~17h (under 36h limit).
+- **P1**: No open PRs, no open issues.
+- **P2**: No flagged memory items.
+- **P3**: All 8 enabled skills present in cron-state; none overdue.
 
-- **P0:** No failed, stuck, or degraded skills. X webhook confirmed live via x-trader-monitor's 20:53Z success. Heartbeat self-check within bounds.
-- **P1/P2/P3:** No open PRs, no urgent issues, no flagged memory items, all enabled skills on schedule.
-- **`docs/status.md`** regenerated with updated timestamps reflecting today's runs (skill-health 18:03 UTC, trading monitors active through 20:53 UTC).
-
-## Summary
-
-- Read `skills/heartbeat/SKILL.md`, `memory/MEMORY.md`, `memory/cron-state.json`, `memory/issues/INDEX.md`, `aeon.yml`, and the last 2 days of logs.
-- All P0/P1/P2/P3 checks passed — fleet is healthy.
-- Wrote updated `docs/status.md` with current run data.
-- Appended log entry to `memory/logs/2026-07-27.md`.
+`docs/status.md` regenerated with 🟢 OK overall. No notification sent (nothing to report).
