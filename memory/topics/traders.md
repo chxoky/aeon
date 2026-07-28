@@ -339,9 +339,10 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - Jul 27 00:57Z — informational: CL +6.36% short equity; SOL/HYPE 1h technical charts + macro leverage-ETF-flows chart; asks Kyle input on hedges/re-entry [2081544563064488106]
   - Jul 27 06:15Z — trade-conviction-add: ETH 5% pf short (Trades channel, primary; reply-context: closing 2.5% eth short earlier) [1531183125965705287]
   - Jul 27 07:41Z — trade-new-entry: kaito 2% pf short (Trades channel, primary; new ticker entry) [1531204972090494977]
-  - Jul 27 07:51Z — trade-conviction-add: ZEC 3% pf short add (Trades channel, primary; reply-context: prior 07-25 "Close zec...half size shorts") [1531207401808728285]
-- Last seen: 2026-07-27 07:51:33 UTC
   - Jul 27 07:48Z — trade-new-entry-confirmation: kaito 1h chart + 30% downside target (peak 1.2334→target 0.82-0.86); X post public explanation w/ technical setup; chart shows rally-to-peak-then-rejection structure ready for breakdown [2081647834957562056]
+  - Jul 27 07:51Z — trade-conviction-add: ZEC 3% pf short add (Trades channel, primary; reply-context: prior 07-25 "Close zec...half size shorts") [1531207401808728285]
+  - Jul 28 09:24Z — supporting-channel-reinforcement: "Yes haha" (HCH — Chat supporting channel, reply to member "kaito avg looks good"); conviction affirmation on KAITO short, no new position action; folded into primary-channel context [1531593131747971144]
+- Last seen: 2026-07-27 07:51:33 UTC
 - Last seen: 2026-07-27 07:48:13 UTC
   - Jul 27 07:54Z — informational: "entering a few major alts short" — conviction statement in Comments channel, directing to Trades channel for details; fast-path alerted [1531208125741400087]
 - Last seen: 2026-07-27 09:43:14 UTC
@@ -403,9 +404,9 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - Jul 27 23:18Z — ambiguous: "Fc btcdom 1hr"; reply to self (prior warning about tickers starting with 'a, v, u, x, p, s, l'); Free channel (primary). Same "Fc {ticker} {tf}" pattern PENDING explicit calibration (matches Jul 27 02:45Z "Fc btc 1w", Jul 26 18:54Z "Fc btc 15m", Jul 26 19:00Z "Fc btc 1hr"). Is "Fc" = form-confirmed? Technical observation only or conviction signal? Calibration alert sent [1531440582205898926]
   - Jul 27 22:50Z — informational-silent: supporting channel social sharing ("If you are wondering who is victor..."); external reference link; supporting channel member chat, non-trade context; no standalone alert per supporting-channel quiet protocol [1531433692277506189]
 - Last seen: 2026-07-27 23:04:01 UTC
-- Last seen: 2026-07-28 05:33:19 UTC
+- Last seen: 2026-07-28 09:24:18 UTC
+  - Jul 28 09:24Z — supporting-channel-reinforcement: "Yes haha" (HCH — Chat supporting channel, reply to member "kaito avg looks good"); conviction affirmation on KAITO short, no new position action; folded into primary-channel context [1531593131747971144]
   - Jul 27 23:00Z — informational: BTC liquidation chart evidence; caption "Data doesn't lie"; 5m chart from Binance Futures showing short liquidations cascade (red bar on right) validating bearish thesis on targets 60.8K→59.3K→54–57K [2081877452717265221]
-- Last seen: 2026-07-27 23:00:38 UTC
   - Jul 27 23:07Z — informational-silent: supporting channel conviction philosophy — "Yeah. Most coins are not 2 cycle coins"; generic market belief statement (most alts fail to survive multiple full cycles); no execution language, no ticker/position action; supporting channel (Chat) member chat; routine conviction reinforcement aligned with existing bearish alt thesis; silent-log per supporting-channel quiet protocol (no related primary-channel anchor, non-actionable belief) [1531437915047985314]
 - Last seen: 2026-07-27 23:07:31 UTC
   - Jul 27 23:14Z — informational: BTCDOM 1h support/resistance levels; chart setup aligns with bearish thesis [2081881018299187697]
