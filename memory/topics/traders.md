@@ -544,7 +544,8 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - Jul 27 16:07Z — ambiguous: ALAB target hit early; "Hmm ok target hit, but about 50 days early…\n\nWhat do we do? @GavinSBaker"; 2 charts show parabolic crash from $440 to $272, target zone $200-250 reached (planned Sept entry now in July). No execution language; asking for tactical guidance. Calibration alert sent [2081773456404955389]
   - Jul 28 05:06Z — informational: QQQ regime-shift validation — reflects on successful technical call: spent month buying dips under POC (~710 level), predicted regime shift "to the day" (now confirmed). Charts show Jun consolidation 710-740 range → current structure validates breakout thesis. No trade action; track record documentation + market structure confirmation (Kyle watch list ticker) [2081969479148536210]
   - Jul 28 15:09Z — trade-new-entry: AAPL scaled short (third entry $341, fourth entry $342) + October $300 puts; bearish reversal setup near resistance 349-356 (daily charts), watching earnings/FOMC/BOJ catalysts; cross-trader convergence with HCH structural short thesis; awaiting Kyle approval [2082121221957669062]
-- Last seen: 2026-07-28 05:06:19 UTC
+- Last seen: 2026-07-28 21:35:00 UTC
+  - Jul 28 21:35Z — informational: 0DTE options +110% aggregate trade report; "8/8" trading day recap with 5 QQQ 5m charts showing entries/exits/results; market sentiment forward: FOMC tomorrow, expects trend to end [2082218290898939990]
   - Jul 27 17:09Z — informational: Trump market reaction sentiment — "Trump came out and yapped up the market just for this trend to hit for the 7th time lol"; macro pattern observation, sarcastic tone on trend repetition; no ticker/action/level [20817891664429960608]
   - Jul 27 17:16Z — informational: futures session criticism; "No different than that scam futures session / Really no volume compared to cash session"; market structure/sentiment commentary (reply to @Oscar69969) [2081790807498002468]
 - Last seen: 2026-07-27 18:29:27 UTC
