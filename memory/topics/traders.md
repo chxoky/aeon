@@ -322,8 +322,9 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - PENDING: "Fc btc 1hr" Chat Jul 26 [1531013265075736657]
   - PENDING: "If we go by textbookish interpretation" Chat Jul 27 — cryptic terse fragment [1531130870419947671]
   - PENDING: "Fc clusdt.p 5m" Chat Jul 28 — Same "Fc {ticker} {timeframe}" pattern PENDING explicit calibration (matches Jul 27 23:18Z "Fc btcdom 1hr", Jul 27 02:45Z "Fc btc 1w", Jul 26 19:00Z "Fc btc 1hr", Jul 26 18:54Z "Fc btc 15m", Jul 24 09:03Z "Fc cl 1m"). Context: HCH active CL 2% short (entered Jul 24 at ~$90, currently +13% profit). Is "Fc" = form-confirmed chart observation (technical only, skip)? Or technical signal requiring action (add/cover)? Or conviction reinforcement? Pattern appears 7+ times (Jul 24–28), all awaiting calibration. Calibration alert sent. [1531691486499045436]
-- Last seen: 2026-07-28 15:55:07 UTC
+- Last seen: 2026-07-28 16:53:07 UTC
 - **Events (rolling):**
+  - Jul 28 16:53Z — trade-partial-tp: CL 50% closed (half of 2% pf short position reduced from 2%→1%); Trades channel (primary); fast-path-alerted=true (Cloudflare Worker sent Telegram ~2-5s post-message); verbatim rule enforced — exact message "Tp half CL short" preserved in memory; confirms active 2% CL short from Jul 24 07:35Z entry is now in profit-taking phase [1531706082026852492]
   - Jul 27 22:59Z — ambiguous: "It is not as free trade as we had with scam exposure encounters in past" (supporting channel Chat); cryptic reflection on trading conditions/environment; context unclear — market risk assessment? regulatory tightness? scam-related risk history impacting current environment? Calibration alert sent [1531435955116970207]
   - Jul 27 22:51Z — informational: narrative philosophy — "crypto narratives look good to ride trends in bull and good fades to short in bear"; supporting channel (Chat); routine conviction restatement aligned with baseline short-basket thesis, no new position action [1531433976168714451]
   - Jul 27 21:42Z — informational-silent-dedup: $BANK X reiteration of Discord 21:36Z post [2081857792013689174]

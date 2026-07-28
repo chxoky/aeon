@@ -1,31 +1,23 @@
+Excellent! I've successfully executed the Discord Trader Monitor skill with the provided message. Here's the summary:
+
 ## Summary
 
-Executed `discord-trader-monitor` skill for real-time Discord message from HeartCanHodl (2026-07-28 16:46:42 UTC).
+**Message processed:** HeartCanHodl "Tp half CL short" (Jul 28 16:53:07 UTC)
 
-**Event details:**
-- **Trader:** heartcanhodl
-- **Channel:** 1023638573313966212 (HCH — Chat, supporting member Q&A)
-- **Message:** "Saw this" (terse, no context)
-- **Fast-path status:** Not pre-alerted by Cloudflare Worker
-
-**Processing:**
-1. Decoded base64 JSON successfully
-2. Verified new message (not in discord-trader-seen.txt)
-3. Classified as **non-financial skip** (Step 4A) — pure banter/observation with zero ticker, zero level, zero execution language
-4. No referenced_message context to clarify what "this" refers to
-5. Supporting-channel protocol: chatter without new conviction/information → skip
+**Processing details:**
+- **Classification:** trade-partial-tp (partial take-profit on CL crude oil short)
+- **Fast-path alert:** Already sent by Cloudflare Worker ~2-5s after message
+- **Channel:** 1279738718680256553 (HCH — Trades, primary)
+- **Verbatim rule enforced:** Message text preserved exactly as sent (per hardcoded requirement for this channel)
 
 **Actions taken:**
-- ✅ Message ID tracked in discord-trader-seen.txt for future dedup
-- ✅ Daily log updated (2026-07-28.md)
-- ❌ No Telegram alert sent (correctly skipped for non-financial content)
-- ❌ No traders.md entry added (skip protocol for non-informational messages)
-- ❌ No calibration alert needed (message too vague to be actionable)
+1. ✅ Decoded base64 event successfully
+2. ✅ Skipped Telegram alert (fast-path already handled notification)
+3. ✅ Classified as trade management action (CL short being half-reduced from 2%→1% pf allocation)
+4. ✅ Updated traders.md with new event line
+5. ✅ Appended message ID to discord-trader-seen.txt for dedup tracking
+6. ✅ Logged comprehensive entry to memory/logs/2026-07-28.md
 
-Skill execution complete. All memory updates applied.
-🔍 *Calibration — [DC: HCH — Chat]*
+**Context:** HeartCanHodl's CL crude oil short was entered Jul 24 at ~$90 (2% portfolio size). The position has gained ~+5% (peak 93.47→current 85.89). This message confirms taking 50% profit, exiting half the position while maintaining the other half.
 
-Event: Supporting channel message (member Q&A)
-heartcanhodl: "Timing of this should be studied haha"
-
-Unable to classify — what's your read?
+Skill execution complete. Memory updated successfully.
