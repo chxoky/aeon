@@ -1,0 +1,64 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @swarmister"
+      },
+      "children": [
+        "event_type",
+        "tweet",
+        "separator",
+        "classification_section"
+      ]
+    },
+    "event_type": {
+      "type": "Badge",
+      "props": {
+        "text": "Reply to @wasserpest",
+        "variant": "secondary"
+      }
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "@wasserpest Drift?"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "classification_text",
+        "view_link"
+      ]
+    },
+    "classification_text": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read? (Is this asking about market drift, technical concept, personal banter, or something else?)",
+        "variant": "body"
+      }
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/swarmister/status/2082037635221012790"
+      }
+    }
+  }
+}
