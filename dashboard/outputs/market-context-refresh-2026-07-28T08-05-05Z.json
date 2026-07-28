@@ -1,0 +1,175 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Market Context — 2026-07-28"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "section-sentiment",
+        "sep-1",
+        "section-prices",
+        "sep-2",
+        "section-metrics",
+        "sep-3",
+        "section-narratives"
+      ]
+    },
+    "section-sentiment": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-risk-off",
+        "text-conviction"
+      ]
+    },
+    "badge-risk-off": {
+      "type": "Badge",
+      "props": {
+        "text": "risk-off",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "text-conviction": {
+      "type": "Text",
+      "props": {
+        "text": "conviction high",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-prices": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat-btc",
+        "stat-eth"
+      ]
+    },
+    "stat-btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$63,446",
+        "delta": "−3.0%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "stat-eth": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$1,882",
+        "delta": "−4.3%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-metrics": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat-fg",
+        "stat-breadth",
+        "stat-ratio"
+      ]
+    },
+    "stat-fg": {
+      "type": "Stat",
+      "props": {
+        "label": "Fear & Greed Index",
+        "value": "29",
+        "delta": "Fear"
+      },
+      "children": []
+    },
+    "stat-breadth": {
+      "type": "Stat",
+      "props": {
+        "label": "Breadth",
+        "value": "2/20"
+      },
+      "children": []
+    },
+    "stat-ratio": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH/BTC",
+        "value": "0.02966",
+        "delta": "broke 0.0300"
+      },
+      "children": []
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-narratives": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-narrative",
+        "text-hotmarket"
+      ]
+    },
+    "text-narrative": {
+      "type": "Text",
+      "props": {
+        "text": "Top narrative: pre-FOMC deleveraging (peak)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-hotmarket": {
+      "type": "Text",
+      "props": {
+        "text": "Hot market: Fed",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}

@@ -1,8 +1,7 @@
-market context — 2026-07-27
+market context — 2026-07-28
 
-take: chop (conviction medium)
-BTC $65.2K (+0.8%) / ETH $1,958 (+3.7%) · F&G 30 (Fear)
-breadth ~12/20 · DEX vol $5.47B (+1.3% vs earlier)
-top narrative: ETH-ecosystem rotation (decelerating)
-FOMC hike odds: 22% (+2.5pp today); decision tomorrow Jul 29 2pm ET
-hot market: "Fed +25bps after July 2026" YES 22.1%
+take: risk-off (conviction high)
+BTC $63,446 (−3.0%) / ETH $1,882 (−4.3%) · F&G 29 (Fear)
+breadth 2/20 · ETH/BTC 0.02966 (broke 0.0300)
+top narrative: pre-FOMC deleveraging (peak)
+hot market: Fed
