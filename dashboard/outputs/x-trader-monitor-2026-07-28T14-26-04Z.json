@@ -1,0 +1,80 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "2026-07-28 14:20Z"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "sep_1",
+        "stack_details"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "@swarmister",
+        "text": "@xbt2027 As always"
+      },
+      "children": []
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_class",
+        "text_reason",
+        "text_action"
+      ]
+    },
+    "badge_class": {
+      "type": "Badge",
+      "props": {
+        "text": "skip/non-financial",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text_reason": {
+      "type": "Text",
+      "props": {
+        "text": "Reason: terse social reply, zero signal value",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "text_action": {
+      "type": "Text",
+      "props": {
+        "text": "Action: No alert sent",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
