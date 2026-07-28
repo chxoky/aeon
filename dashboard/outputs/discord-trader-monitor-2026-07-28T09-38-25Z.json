@@ -1,0 +1,221 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "heading_calibration",
+        "sep1",
+        "message_section",
+        "sep2",
+        "context_section",
+        "sep3",
+        "interpretations_section"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: HCH — Chat]",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "message_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_message_label",
+        "text_message_quote",
+        "text_timestamp"
+      ]
+    },
+    "text_message_label": {
+      "type": "Text",
+      "props": {
+        "text": "Message:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text_message_quote": {
+      "type": "Text",
+      "props": {
+        "text": "But opening shorts yesterday was better than opening shorts today",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_timestamp": {
+      "type": "Text",
+      "props": {
+        "text": "Posted at 07:34Z",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_context",
+        "text_context_1",
+        "text_context_2",
+        "text_context_3",
+        "text_context_4",
+        "text_context_5"
+      ]
+    },
+    "heading_context": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text_context_1": {
+      "type": "Text",
+      "props": {
+        "text": "Posted in supporting channel (member Q&A)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_context_2": {
+      "type": "Text",
+      "props": {
+        "text": "4 hours after KOSPI crash (-10.59%) posts",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_context_3": {
+      "type": "Text",
+      "props": {
+        "text": "13 hours after KAITO short entries (2% Jul 27 07:41Z + 2% 20:31Z)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_context_4": {
+      "type": "Text",
+      "props": {
+        "text": "No is_reply flag, no referenced context",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_context_5": {
+      "type": "Text",
+      "props": {
+        "text": "No ticker/level/position language",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "interpretations_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_interpretations",
+        "text_interp_a",
+        "text_interp_b",
+        "text_interp_c",
+        "text_interp_d",
+        "text_interp_e",
+        "text_question"
+      ]
+    },
+    "heading_interpretations": {
+      "type": "Heading",
+      "props": {
+        "text": "Possible interpretations",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text_interp_a": {
+      "type": "Text",
+      "props": {
+        "text": "A) Yesterday's entries (Jul 27) more profitable due to today's market weakness",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_interp_b": {
+      "type": "Text",
+      "props": {
+        "text": "B) Regret that more shorts weren't opened yesterday (better prices)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_interp_c": {
+      "type": "Text",
+      "props": {
+        "text": "C) Market observation on yesterday's short positioning being better-timed",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_interp_d": {
+      "type": "Text",
+      "props": {
+        "text": "D) Member Q&A response (implied context missing)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_interp_e": {
+      "type": "Text",
+      "props": {
+        "text": "E) Philosophical commentary on entry timing (no new action)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_question": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "lead"
+      },
+      "children": []
+    }
+  }
+}

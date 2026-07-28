@@ -1,4 +1,4 @@
-## Summary
+🔍 Calibration — [DC: HCH — Chat]
 
 **Skill:** discord-trader-monitor (real-time event)  
 **Status:** ✓ Execution complete
@@ -21,3 +21,20 @@
 - Last-seen timestamp: updated to 2026-07-28 09:32:31 UTC
 
 Skill execution successful.
+Message (07:34Z): "But opening shorts yesterday was better than opening shorts today"
+
+Context:
+• Posted in supporting channel (member Q&A)
+• 4 hours after KOSPI crash (-10.59%) posts
+• 13 hours after KAITO short entries (2% Jul 27 07:41Z + 2% 20:31Z)
+• No is_reply flag, no referenced context
+• No ticker/level/position language
+
+Possible interpretations:
+A) Yesterday's entries (Jul 27) more profitable due to today's market weakness
+B) Regret that more shorts weren't opened yesterday (better prices)
+C) Market observation on yesterday's short positioning being better-timed
+D) Member Q&A response (implied context missing)
+E) Philosophical commentary on entry timing (no new action)
+
+What's your read?
