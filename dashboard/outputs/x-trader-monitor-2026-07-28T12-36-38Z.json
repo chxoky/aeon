@@ -1,0 +1,140 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "$BTC — Textbook weekly retest confirming LTF trend shift"
+      },
+      "children": [
+        "tweet-card",
+        "separator-1",
+        "levels-section",
+        "separator-2",
+        "context-section",
+        "link-section"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "@KillaXBT",
+        "handle": "KillaXBT",
+        "text": "We were unable to flip the weekly open (65.4K), which resulted in testing 63.7K. After this post, BTC retested the weekly open during NY & respected below. This was a textbook retest, confirming a LTF trend shift.\n\nIf we fail to hold 63.6K or reclaim it as support, a move toward 61.8K is the most likely scenario, and it could happen relatively quickly."
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "levels-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "levels-heading",
+        "levels-grid"
+      ]
+    },
+    "levels-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Price Levels",
+        "level": "h3"
+      }
+    },
+    "levels-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "level-weekly-open",
+        "level-critical-support",
+        "level-target",
+        "level-upside"
+      ]
+    },
+    "level-weekly-open": {
+      "type": "Stat",
+      "props": {
+        "label": "Weekly Open",
+        "value": "65.4K"
+      }
+    },
+    "level-critical-support": {
+      "type": "Stat",
+      "props": {
+        "label": "Critical Support",
+        "value": "63.6K"
+      }
+    },
+    "level-target": {
+      "type": "Stat",
+      "props": {
+        "label": "Target if breaks",
+        "value": "61.8K"
+      }
+    },
+    "level-upside": {
+      "type": "Stat",
+      "props": {
+        "label": "Upside Deviation",
+        "value": "67.3K"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context-heading",
+        "context-text"
+      ]
+    },
+    "context-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart Context",
+        "level": "h3"
+      }
+    },
+    "context-text": {
+      "type": "Text",
+      "props": {
+        "text": "Annotated structure shows weekly retest validation, FOMC test zone 63.8K, scenario contingency mapped (61.8K structural level if support fails). Reinforces HTF-bullish conviction framework with near-term downside risk clarity."
+      }
+    },
+    "link-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-item"
+      ]
+    },
+    "link-item": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2082081565526380918"
+      }
+    }
+  }
+}
