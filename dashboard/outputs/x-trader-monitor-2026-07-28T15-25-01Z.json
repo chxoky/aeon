@@ -1,0 +1,216 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Trade Signal — @Wild_Randomness"
+      },
+      "children": [
+        "heading_signal",
+        "signal_stack",
+        "sep1",
+        "quote_section",
+        "sep2",
+        "alert_warning",
+        "sep3",
+        "action_section"
+      ]
+    },
+    "heading_signal": {
+      "type": "Heading",
+      "props": {
+        "text": "ALAB + SOXX — LONG",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "signal_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badges_row",
+        "entry_info"
+      ]
+    },
+    "badges_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_alab",
+        "badge_soxx",
+        "badge_long",
+        "badge_market"
+      ]
+    },
+    "badge_alab": {
+      "type": "Badge",
+      "props": {
+        "text": "ALAB",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge_soxx": {
+      "type": "Badge",
+      "props": {
+        "text": "SOXX",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge_long": {
+      "type": "Badge",
+      "props": {
+        "text": "LONG",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "badge_market": {
+      "type": "Badge",
+      "props": {
+        "text": "market entries",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "entry_info": {
+      "type": "Text",
+      "props": {
+        "text": "Filled between 480–484 this morning",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "quote_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "quote_label",
+        "quote_text",
+        "post_link"
+      ]
+    },
+    "quote_label": {
+      "type": "Text",
+      "props": {
+        "text": "Trader comment:",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "quote_text": {
+      "type": "Text",
+      "props": {
+        "text": "\"I picked up ALAB and a bunch of SOXX... But little conviction on either direction\"",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "post_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View post on X",
+        "href": "https://x.com/Wild_Randomness/status/2082123124791792073",
+        "source": "X"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert_warning": {
+      "type": "Alert",
+      "props": {
+        "title": "Low conviction signal",
+        "message": "Trader explicitly states low conviction on direction. Also closed short this morning; watching for potential re-entry around lunch.",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "action_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "action_prompt",
+        "action_buttons"
+      ]
+    },
+    "action_prompt": {
+      "type": "Text",
+      "props": {
+        "text": "Mirror on Kraken spot:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "action_buttons": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "btn_approve_alab",
+        "btn_approve_soxx",
+        "btn_ignore"
+      ]
+    },
+    "btn_approve_alab": {
+      "type": "Button",
+      "props": {
+        "label": "approve ALAB",
+        "variant": "primary"
+      },
+      "children": []
+    },
+    "btn_approve_soxx": {
+      "type": "Button",
+      "props": {
+        "label": "approve SOXX",
+        "variant": "primary"
+      },
+      "children": []
+    },
+    "btn_ignore": {
+      "type": "Button",
+      "props": {
+        "label": "ignore",
+        "variant": "secondary"
+      },
+      "children": []
+    }
+  }
+}
