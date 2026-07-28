@@ -212,8 +212,10 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - PENDING: Jul 27 18:13Z "@Ehn_7H 100%" — affirmation/agreement on what topic? (reply context missing) [2081805111727145162]
   - PENDING: Jul 28 09:37Z "@wasserpest Drift?" — cryptic one-word question; context missing (market drift? thesis drift? personal banter?); calibration alert sent [2082037635221012790]
   - PENDING: Jul 28 12:08Z "@CryptoPoseidonn @bagsheera 800" — cryptic fragment (mentions + number), no ticker/level/execution language; calibration alert sent [2082075661355687971]
-- Last seen: 2026-07-28 12:08:15 UTC
+  - PENDING: Jul 28 13:01:53Z "@blancxbt Bottom" — cryptic mention reply (external trader reference); context missing. swarmister frequently tracks @blancxbt signals (15+ prior PENDING calibrations). Interpretation: affirmation of market-bottom call? social coordination? paid-call tracking? calibration alert sent [2082089156906250405]
+- Last seen: 2026-07-28 13:01:53 UTC
 - **Events (rolling):**
+  - Jul 28 13:01Z — ambiguous: "@blancxbt Bottom"; cryptic mention reply; context missing; calibration alert sent [2082089156906250405]
   - Jul 28 12:08Z — ambiguous: reply "@CryptoPoseidonn @bagsheera 800"; cryptic fragment, no ticker/level/context; calibration alert sent [2082075661355687971]
   - Jul 28 07:30Z — ambiguous: "@apeisstronk 4 hours (H4)" cryptic reply, no ticker/level/context; calibration pending [2082005871895146934]
   - Jul 28 07:17Z — informational: $NEAR forced out at breakeven, watching for 1.52 drop risk [2082002382527844556]

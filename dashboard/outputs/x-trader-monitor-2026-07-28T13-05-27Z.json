@@ -1,0 +1,121 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration case requiring classification"
+      },
+      "children": [
+        "heading-cal",
+        "context-stack",
+        "sep1",
+        "mention-stack",
+        "sep2",
+        "question-alert"
+      ]
+    },
+    "heading-cal": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @swarmister",
+        "level": "h2"
+      }
+    },
+    "context-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event-label",
+        "event-text",
+        "separator-small",
+        "history-label",
+        "history-text"
+      ]
+    },
+    "event-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "event-text": {
+      "type": "Text",
+      "props": {
+        "text": "External trader mention",
+        "variant": "body"
+      }
+    },
+    "separator-small": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "history-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "history-text": {
+      "type": "Text",
+      "props": {
+        "text": "@swarmister frequently tracks @blancxbt signals (15+ prior PENDING calibrations on @blancxbt references)",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "mention-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "mention-label",
+        "tweet-card"
+      ]
+    },
+    "mention-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Mention",
+        "level": "h3"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "text": "@blancxbt Bottom"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "question-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification Question",
+        "message": "Unable to classify — social coordination? paid-call tracking? market-bottom affirmation? What's your read?",
+        "type": "info"
+      }
+    }
+  }
+}
