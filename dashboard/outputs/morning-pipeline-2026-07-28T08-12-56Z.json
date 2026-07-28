@@ -1,0 +1,94 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-07-28"
+      },
+      "children": [
+        "heading-focus",
+        "stack-items"
+      ]
+    },
+    "heading-focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "stack-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item-1",
+        "item-2"
+      ]
+    },
+    "item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item-1-title",
+        "item-1-why",
+        "item-1-stats"
+      ]
+    },
+    "item-1-title": {
+      "type": "Heading",
+      "props": {
+        "text": "1. FOMC Jul 29 2pm ET",
+        "level": "h3"
+      }
+    },
+    "item-1-why": {
+      "type": "Text",
+      "props": {
+        "text": "Why now:",
+        "variant": "caption"
+      }
+    },
+    "item-1-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-hike-risk",
+        "stat-btc"
+      ]
+    },
+    "stat-hike-risk": {
+      "type": "Stat",
+      "props": {
+        "label": "Hike risk",
+        "value": "28%"
+      }
+    },
+    "stat-btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC pre-derisked",
+        "value": "$63.4K",
+        "delta": "−3%",
+        "trend": "down"
+      }
+    },
+    "item-2": {
+      "type": "Badge",
+      "props": {
+        "text": "2. Wild_Randomness flipped",
+        "variant": "secondary"
+      }
+    }
+  }
+}
