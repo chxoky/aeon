@@ -1,20 +1,20 @@
-💬 *[DC: HCH — Chat]*
+## Summary
 
-Not clearly a buy sign but I think it would be unwise to look for shorts around here
-Successfully executed the **Discord Trader Monitor** skill for HeartCanHodl's real-time Discord event.
+✅ **discord-trader-monitor skill completed successfully**
 
-**Event Processed:**
-- **Message ID:** 1531683444030181416
-- **Channel:** HCH — Chat (supporting, member Q&A)
-- **Created:** 2026-07-28 15:23:10 UTC
-- **Classification:** Skip (non-financial — Discord link/permalink)
-- **Alert sent:** No
+**Event processed:** Crypto_Chase supporting-channel reply on SNDK/Micron profit-taking rationale (Jul 28 15:27:31 UTC)
 
-**Processing:**
-1. ✅ Decoded base64 event JSON
-2. ✅ Verified trader identity and channel mapping
-3. ✅ Classified as administrative link content (no financial signal)
-4. ✅ Updated discord-trader-seen.txt with message ID for dedup tracking
-5. ✅ Logged event to memory/logs/2026-07-28.md per protocol
+**Classification:** Informational-supporting (member Q&A context to primary-channel message from 10min earlier)
 
-The message contained only a Discord permalink to another message in the Comments channel (no inline text or signal), so it was classified as a non-financial admin/link and silently skipped per Step 5A and Step 8 size-discipline rules. Message ID is tracked to prevent duplicate alerts on Worker redelivery.
+**Key findings:**
+- Message ID: 1531684540349681685
+- Channel: 1343971265962049597 (Chase — TradFi, supporting)
+- Fast-path: Already alerted by Worker (~2-5s prior); Telegram sends skipped per protocol
+- Content: Chase explaining why 1050 SNDK level wasn't high-conviction enough to hold full position, validating profit-taking strategy on both SNDK (100% closed Jul 27) and MU (80% closed Jul 27)
+
+**Memory updates:**
+- ✅ discord-trader-seen.txt: Message ID logged for dedup tracking
+- ✅ traders.md: Event line added to Crypto_Chase Events section (supporting-channel context entry)
+- ✅ memory/logs/2026-07-28.md: Full event log with classification + rationale
+
+**Processing:** Memory-only (no additional Telegram sent — fast-path Worker already notified Kyle ~2-5s after message creation)
