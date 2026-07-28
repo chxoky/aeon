@@ -1,0 +1,148 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading_sub",
+        "badge_event",
+        "separator1",
+        "tweet_section",
+        "separator2",
+        "analysis_section"
+      ]
+    },
+    "heading_sub": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @swarmister",
+        "level": "h2"
+      }
+    },
+    "badge_event": {
+      "type": "Badge",
+      "props": {
+        "text": "Cryptic post",
+        "variant": "outline"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "alert_media"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "state of things wtf"
+      }
+    },
+    "alert_media": {
+      "type": "Alert",
+      "props": {
+        "title": "Media inaccessible",
+        "message": "t.co link + 2× 404 CDN URLs",
+        "type": "warning"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_analysis",
+        "text_question",
+        "options_list",
+        "link_view"
+      ]
+    },
+    "heading_analysis": {
+      "type": "Heading",
+      "props": {
+        "text": "Unable to classify — interpretation options",
+        "level": "h3"
+      }
+    },
+    "text_question": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read? Is this:",
+        "variant": "lead"
+      }
+    },
+    "options_list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opt1",
+        "opt2",
+        "opt3",
+        "opt4"
+      ]
+    },
+    "opt1": {
+      "type": "Text",
+      "props": {
+        "text": "Market sentiment commentary?",
+        "variant": "body"
+      }
+    },
+    "opt2": {
+      "type": "Text",
+      "props": {
+        "text": "Reference to external news/event?",
+        "variant": "body"
+      }
+    },
+    "opt3": {
+      "type": "Text",
+      "props": {
+        "text": "Personal banter (non-financial)?",
+        "variant": "body"
+      }
+    },
+    "opt4": {
+      "type": "Text",
+      "props": {
+        "text": "Technical analysis that the images would clarify?",
+        "variant": "body"
+      }
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/swarmister/status/2082101717278101914"
+      }
+    }
+  }
+}
