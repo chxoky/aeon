@@ -1,0 +1,70 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "calibration-heading",
+        "context-note",
+        "separator-1",
+        "ryzzqq-tweet",
+        "separator-2",
+        "clarification-alert",
+        "view-post-link"
+      ]
+    },
+    "calibration-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @ryzzqq",
+        "level": "h2"
+      }
+    },
+    "context-note": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @crypto_geg (context: @crypto_geg's post not captured)",
+        "variant": "muted"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "ryzzqq-tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "ryzzqq",
+        "handle": "ryzzqq",
+        "text": "going with a scalp in mind but will move stops to b/e if in profit and then let it swing"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "clarification-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read? Which asset is the scalp? Entered already or planning?",
+        "type": "info"
+      }
+    },
+    "view-post-link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/ryzzqq/status/2082143128149229966"
+      }
+    }
+  }
+}
