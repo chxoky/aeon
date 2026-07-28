@@ -1,0 +1,23 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "message"
+      ]
+    },
+    "message": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Chase",
+        "handle": "TradFi",
+        "text": "Nothing at the moment , we caught both flash crashes that gave big gains. I'm not sure what happens from here"
+      }
+    }
+  }
+}
