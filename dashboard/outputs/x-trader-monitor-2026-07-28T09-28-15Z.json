@@ -1,0 +1,70 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @HeartCanHodl"
+      },
+      "children": [
+        "event-context",
+        "sep1",
+        "tweet-card",
+        "sep2",
+        "problem-alert",
+        "sep3",
+        "post-link"
+      ]
+    },
+    "event-context": {
+      "type": "Text",
+      "props": {
+        "text": "Event: ~2.5 hours earlier, HCH posted to Discord about a $80M SKHX liquidation cascade on Hyperliquid (market event observation, already classified as informational).",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "@MarketsAlpha Hyperliquid"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "problem-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Is this a response/mention to @MarketsAlpha about their Hyperliquid trading? A mechanical repeat of the earlier liquidation event? Or a new Hyperliquid-related signal or observation? How would you read this?",
+        "type": "info"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "post-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View post",
+        "href": "https://x.com/HeartCanHodl/status/2082033095210119489",
+        "source": "X"
+      }
+    }
+  }
+}
