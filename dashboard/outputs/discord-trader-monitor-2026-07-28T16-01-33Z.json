@@ -1,0 +1,130 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Calibration Request"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_calibration",
+        "stack_context",
+        "separator_1",
+        "heading_question",
+        "stack_options"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration — [DC: HCH — Chat]",
+        "level": "h2"
+      }
+    },
+    "stack_context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_prior_label",
+        "text_prior_value",
+        "text_current_label",
+        "text_current_value"
+      ]
+    },
+    "text_prior_label": {
+      "type": "Text",
+      "props": {
+        "text": "Context: HCH's own prior message:"
+      }
+    },
+    "text_prior_value": {
+      "type": "Text",
+      "props": {
+        "text": "vLtf momentum",
+        "variant": "lead"
+      }
+    },
+    "text_current_label": {
+      "type": "Text",
+      "props": {
+        "text": "Current:"
+      }
+    },
+    "text_current_value": {
+      "type": "Text",
+      "props": {
+        "text": "Temporary bullishness",
+        "variant": "lead"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_question": {
+      "type": "Heading",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "level": "h3"
+      }
+    },
+    "stack_options": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_opt1",
+        "badge_opt2",
+        "badge_opt3",
+        "badge_opt4"
+      ]
+    },
+    "badge_opt1": {
+      "type": "Badge",
+      "props": {
+        "text": "Market observation only?",
+        "variant": "outline"
+      }
+    },
+    "badge_opt2": {
+      "type": "Badge",
+      "props": {
+        "text": "Conviction shift (adding/reducing shorts)?",
+        "variant": "outline"
+      }
+    },
+    "badge_opt3": {
+      "type": "Badge",
+      "props": {
+        "text": "Setup for action?",
+        "variant": "outline"
+      }
+    },
+    "badge_opt4": {
+      "type": "Badge",
+      "props": {
+        "text": "Other?",
+        "variant": "outline"
+      }
+    }
+  }
+}
