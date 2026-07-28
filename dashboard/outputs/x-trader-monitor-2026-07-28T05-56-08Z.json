@@ -1,0 +1,87 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor - Altcoin Market Structure"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "stats-stack",
+        "analysis-text",
+        "note-text",
+        "view-link"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Altcoin Market Structure: $TOTAL3 at 653.41B (-0.35%) consolidating in 800B–1.2T range, testing critical support zones. $OTHERS at 161.79B (-0.18%) approaching key support test at 180–200B zone. What is the plan?"
+      }
+    },
+    "stats-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-total3",
+        "stat-others"
+      ]
+    },
+    "stat-total3": {
+      "type": "Stat",
+      "props": {
+        "label": "$TOTAL3",
+        "value": "653.41B",
+        "delta": "-0.35%",
+        "trend": "down"
+      }
+    },
+    "stat-others": {
+      "type": "Stat",
+      "props": {
+        "label": "$OTHERS",
+        "value": "161.79B",
+        "delta": "-0.18%",
+        "trend": "down"
+      }
+    },
+    "analysis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Chart analysis shows altcoin breadth at inflection point: either bounce from support or breakdown to extended downside. Rhetorical question 'What is the plan?' reflects uncertainty on market structure validation.",
+        "variant": "body"
+      }
+    },
+    "note-text": {
+      "type": "Text",
+      "props": {
+        "text": "Cross-ticker note: TOTAL3/OTHERS as market-cap breadth sentiment barometers — watch for confirmation of altcoin cycle direction.",
+        "variant": "caption"
+      }
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2081981290702889247"
+      }
+    }
+  }
+}
