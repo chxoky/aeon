@@ -1,0 +1,110 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor — KOSPI Macro Alert"
+      },
+      "children": [
+        "heading-1",
+        "sep-1",
+        "tweet-1",
+        "sep-2",
+        "stat-grid",
+        "sep-3",
+        "text-1",
+        "sep-4",
+        "link-1"
+      ]
+    },
+    "heading-1": {
+      "type": "Heading",
+      "props": {
+        "text": "KOSPI Macro Alert",
+        "level": "h2"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "When you combine ignorance and leverage, you get some pretty interesting results"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stat-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "stat-1",
+        "stat-2",
+        "stat-3"
+      ]
+    },
+    "stat-1": {
+      "type": "Stat",
+      "props": {
+        "label": "KOSPI Change",
+        "value": "-9.99%",
+        "trend": "down"
+      }
+    },
+    "stat-2": {
+      "type": "Stat",
+      "props": {
+        "label": "Points Lost",
+        "value": "-910.72"
+      }
+    },
+    "stat-3": {
+      "type": "Stat",
+      "props": {
+        "label": "Current Price",
+        "value": "8,203.84 KRW"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-1": {
+      "type": "Text",
+      "props": {
+        "text": "Leverage cascade/liquidation event detected. Aligns with prior Jul 16 macro alert (5 circuit breakers in 2 months = market-stress signal). Supports bearish structural thesis.",
+        "variant": "body"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link-1": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/HeartCanHodl/status/2081976272121675860"
+      }
+    }
+  }
+}
