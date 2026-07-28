@@ -1,0 +1,245 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor: Calibration",
+        "description": "@swarmister classification request"
+      },
+      "children": [
+        "main_stack"
+      ]
+    },
+    "main_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "calibration_heading",
+        "event_section",
+        "classification_alert",
+        "options_section",
+        "separator1",
+        "context_section",
+        "baseline_stats",
+        "separator2",
+        "link_to_post"
+      ]
+    },
+    "calibration_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration — @swarmister",
+        "level": "h2"
+      }
+    },
+    "event_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event_label",
+        "mentions_stack",
+        "text_display"
+      ]
+    },
+    "event_label": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply",
+        "variant": "body"
+      }
+    },
+    "mentions_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "mention_badge_1",
+        "mention_badge_2"
+      ]
+    },
+    "mention_badge_1": {
+      "type": "Badge",
+      "props": {
+        "text": "@CryptoPoseidonn",
+        "variant": "secondary"
+      }
+    },
+    "mention_badge_2": {
+      "type": "Badge",
+      "props": {
+        "text": "@bagsheera",
+        "variant": "secondary"
+      }
+    },
+    "text_display": {
+      "type": "Text",
+      "props": {
+        "text": "Post text: \"800\"",
+        "variant": "lead"
+      }
+    },
+    "classification_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read on this post?",
+        "type": "warning"
+      }
+    },
+    "options_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "options_label",
+        "options_badges"
+      ]
+    },
+    "options_label": {
+      "type": "Text",
+      "props": {
+        "text": "Possible interpretations:",
+        "variant": "body"
+      }
+    },
+    "options_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "option_banter",
+        "option_price",
+        "option_size",
+        "option_other"
+      ]
+    },
+    "option_banter": {
+      "type": "Badge",
+      "props": {
+        "text": "Banter",
+        "variant": "outline"
+      }
+    },
+    "option_price": {
+      "type": "Badge",
+      "props": {
+        "text": "Price level",
+        "variant": "outline"
+      }
+    },
+    "option_size": {
+      "type": "Badge",
+      "props": {
+        "text": "Position size",
+        "variant": "outline"
+      }
+    },
+    "option_other": {
+      "type": "Badge",
+      "props": {
+        "text": "Something else",
+        "variant": "outline"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context_heading",
+        "baseline_note",
+        "real_trades_note",
+        "signal_note"
+      ]
+    },
+    "context_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "baseline_note": {
+      "type": "Text",
+      "props": {
+        "text": "swarmister is ~80% banter per baseline.",
+        "variant": "body"
+      }
+    },
+    "real_trades_note": {
+      "type": "Text",
+      "props": {
+        "text": "Real trades use explicit first-person execution language.",
+        "variant": "body"
+      }
+    },
+    "signal_note": {
+      "type": "Text",
+      "props": {
+        "text": "This post lacks ticker, action verb, or clear financial signal.",
+        "variant": "body"
+      }
+    },
+    "baseline_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "banter_stat",
+        "missing_elements"
+      ]
+    },
+    "banter_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Banter baseline",
+        "value": "~80%",
+        "trend": "neutral"
+      }
+    },
+    "missing_elements": {
+      "type": "Badge",
+      "props": {
+        "text": "Missing: ticker · action verb · financial signal",
+        "variant": "destructive"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_to_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/swarmister/status/2082075661355687971"
+      }
+    }
+  }
+}
