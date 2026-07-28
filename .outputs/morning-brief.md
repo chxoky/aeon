@@ -1,22 +1,23 @@
-*Morning Brief — 2026-07-27*
+*Morning Brief — 2026-07-28*
 
 *Focus today*
-1. HCH KAITO short — PENDING APPROVAL — 2% entry ~$1.1867, 07:41Z; reply `approve KAITO` or skip
-2. FOMC T-1 + Killa Jul 28 pivot — ETH +4.5%, DeFi green; positioning window closes tonight
-3. HCH UNI short vs UNI +6.5% — live adverse move on 2% active short; watch for basket trim
+1. FOMC decision tomorrow — BTC at last support ($63K) before liquidity gap; hike prob rising to 38%
+2. Wild_Randomness calibration: clarify Warsh scenario + SQQQ short — both now time-critical pre-FOMC
+3. HCH short basket validating — KOSPI −10%, $80M SKHX Hyperliquid cascade; BTC targets 60.8K→54K active
 
 *Since yesterday*
-- HCH: KAITO short entered 07:41Z (2% allocation, target 0.82–0.86, −30%); fast-path alerted
-- Chase: MU/SNDK hit 80% cumulative TPs today (MU @941, SNDK @1480); 20% remains, stops at BE
-- ETH rotation live: ETH +4.5%, ETH/BTC +3.1% 24h, AAVE/UNI/ONDO all 6–9% green
-- SHIB −8.5% reversal confirmed (distribution after +36% spike yesterday)
+- Wild_Randomness: QQQ regime shift validated; SQQQ 'flipped short' (05:07Z) pending calibration
+- bull_genius: reversal scalp idea at BTC 63K cluster; hike prob at 38% (rising from 30% Jun 26)
+- HCH: KOSPI −10% commentary + Hyperliquid SKHX $80M cascade — bearish macro thesis active
+- swarmister: NEAR closed at breakeven; BTC spot/futures divergence resolved
+- No open mirrors; no pending approvals
 
 *Watch*
-- FOMC tomorrow = KillaXBT's documented "Jul 28" pivot date; ETH pop may be pre-FOMC distribution — hawkish surprise hits DeFi fast
-- UNI +6.5% today vs HCH's 2% UNI short active; extended move likely triggers a basket-level response
+- Wild_Randomness 'Warsh + Ueda hike' scenario (Jul 27 23:42Z) — Polymarket now 28%, rising; not extreme left tail anymore
+- Binance Android pulled from Google Play in EU/Spain (MiCA) — CEX liquidity risk if spreads
 
 *Running today*
 - token-alert @ 12:00 UTC
 - token-movers @ 12:00 UTC
-- x-trader-monitor: continuous
-- discord-trader-monitor: continuous (1-min cron)
+- market-context-refresh @ 13:00 UTC
+- narrative-tracker @ 13:30 UTC
