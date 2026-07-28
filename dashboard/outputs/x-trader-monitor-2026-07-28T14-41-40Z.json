@@ -1,0 +1,57 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack1"
+      ]
+    },
+    "stack1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading1",
+        "eventBadge",
+        "tweet",
+        "classification"
+      ]
+    },
+    "heading1": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @swarmister",
+        "level": "h2"
+      }
+    },
+    "eventBadge": {
+      "type": "Badge",
+      "props": {
+        "text": "Reply to @zackvoell",
+        "variant": "outline"
+      }
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "Market sentiment"
+      }
+    },
+    "classification": {
+      "type": "Alert",
+      "props": {
+        "message": "Unable to classify — what's your read? Market sentiment observation, or coordinated banter?",
+        "type": "info"
+      }
+    }
+  }
+}

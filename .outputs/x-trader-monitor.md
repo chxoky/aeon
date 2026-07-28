@@ -1,1 +1,6 @@
-✅ x-trader-monitor (2026-07-28 14:20Z) — @swarmister `@xbt2027 As always` classified as skip/non-financial (terse social reply, zero signal value). No alert sent.
+🔍 *Calibration — @swarmister*
+
+Event: Reply to @zackvoell
+@swarmister: "Market sentiment"
+
+Unable to classify — what's your read? Market sentiment observation, or coordinated banter?
