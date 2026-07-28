@@ -1,0 +1,82 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_calibration",
+        "text_channel_type",
+        "separator1",
+        "stack_message",
+        "separator2",
+        "alert_classification"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: HCH — Chat]",
+        "level": "h3"
+      }
+    },
+    "text_channel_type": {
+      "type": "Text",
+      "props": {
+        "text": "Supporting channel message (no reply context)",
+        "variant": "muted"
+      }
+    },
+    "separator1": {
+      "type": "Separator"
+    },
+    "stack_message": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_user",
+        "text_message"
+      ]
+    },
+    "badge_user": {
+      "type": "Badge",
+      "props": {
+        "text": "heartcanhodl"
+      }
+    },
+    "text_message": {
+      "type": "Text",
+      "props": {
+        "text": "\"Skhynix of crypto\"",
+        "variant": "body"
+      }
+    },
+    "separator2": {
+      "type": "Separator"
+    },
+    "alert_classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Is this market commentary? Cryptic reference? What's your read?",
+        "type": "info"
+      }
+    }
+  }
+}
