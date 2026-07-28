@@ -1,0 +1,72 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_platform",
+        "badge_ticker",
+        "tweet_card",
+        "link_post",
+        "separator_1",
+        "text_followup"
+      ]
+    },
+    "text_platform": {
+      "type": "Text",
+      "props": {
+        "text": "🐦 [X] @Wild_Randomness",
+        "variant": "caption"
+      }
+    },
+    "badge_ticker": {
+      "type": "Badge",
+      "props": {
+        "text": "$QQQ",
+        "variant": "default"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Spent a month publicly buying dips under the POC for reversions, then called out the regime shift, to the day."
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2081969479148536210"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_followup": {
+      "type": "Text",
+      "props": {
+        "text": "Track record validation on QQQ technical structure (Kyle watch list). Charts show Jun consolidation 710-740 → regime shift breakout thesis now playing out.",
+        "variant": "caption"
+      }
+    }
+  }
+}

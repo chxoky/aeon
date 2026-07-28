@@ -1,5 +1,9 @@
-🐦 *[X] @Stoiiic*
+🐦 [X] @Wild_Randomness
 
-lol — Chart analysis showing spot vs perpetual divergence on BTC/HOSE structure. Technical educational observation on flow convergence; no personal position.
+$QQQ
 
-[View tweet](https://x.com/Stoiiic/status/2081935125458145738)
+Spent a month publicly buying dips under the POC for reversions, then called out the regime shift, to the day.
+
+[View post](https://x.com/Wild_Randomness/status/2081969479148536210)
+
+↳ _Track record validation on QQQ technical structure (Kyle watch list). Charts show Jun consolidation 710-740 → regime shift breakout thesis now playing out._
