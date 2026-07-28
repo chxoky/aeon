@@ -602,8 +602,9 @@ BOOTSTRAP_COMPLETE: 2026-07-14
 - Last seen: 2026-07-27 12:55:20 UTC
 - **Events (rolling):**
   - Jul 27 12:55Z — informational: reply @rottenAzoth333 generic 7d TP strategy advice (no ticker/level) [2081725121664803327]
-- Last seen: 2026-07-27 19:07:23 UTC
+- Last seen: 2026-07-28 06:37:12 UTC
 - **Events (rolling):**
+  - Jul 28 06:37Z — informational: BTC technical FOMC analysis; derisk into announcement, reversal scalp idea, 7d rvwap rejection could signal lower high; charts show support cluster before bigger drawdown [2081992351992746494]
   - Jul 27 19:07Z — informational: RN token macro analysis — ethereum:0xa0df17b5ac76ababa36e1450e2cbcd18a620c845 on track -60% correction; emissions ending, players churning; bullish on protocol recovery; volume profile support identified; "good idea regain exposure" (opinion/analysis, no execution) [2081818751222124869]
   - Jul 27 12:57Z — informational: BTC recap with volume profile; 7d rvwap (65.2K) holding, 90d rvwap (67.6K) near, 2026 avwap (71K) target; onchain entering new cycle; scalper TP taking at support; past long Sunday closed w/profit [2081725731097256415]
   - Jul 27 12:48Z — informational: BTC technical recap & analysis; 7d rvwap support (65.2K), 90d resistance (67.9K), 2026 yearly avwap (71K); onchain cycle transition; past long closed Sunday w/ profit [2081723318554538332]

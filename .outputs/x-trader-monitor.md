@@ -1,11 +1,7 @@
-🐦 *[X] @Wild_Randomness*
+🐦 *[X] @bull_genius*
 
-$BTC $USDT $USDC
+Derisk into FOMC, eyeing reversals on BTC near last support cluster before the big hole. 7d rvwap rejection could signal a lower high / potential downtrend into the 50s — but too early to call. Suggests intraday reversal scalp if price holds support here.
 
-Was certainly a timely lesson…
+[View tweet](https://x.com/bull_genius/status/2081992351992746494)
 
-For now, stablecoin supply keeps on contracting… incredible how it parallels last cycle.
-
-Chart: USDT+USDC at 256.35B (current), -57.7M (-0.02%), down from cycle peak ~275B. Pattern markers show prior coins top → stables top → coins bottom cycle structure repeating.
-
-[View tweet](https://x.com/Wild_Randomness/status/2081986835090448599)
+Chart: BTC 4h perpetual (90d rvwap: 67.6K, 7d rvwap: 65K, 30d rvwap: 63K); support cluster highlighted pre-FOMC.
