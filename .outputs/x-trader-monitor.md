@@ -1,12 +1,11 @@
-🔍 *Calibration — @Wild_Randomness*
+## Summary
 
-Context: Reply to @LunaticxOsmo on Jul 28 18:12Z
+✓ **Tweet processed and classified as non-financial**
 
-@Wild_Randomness: "They're about 7% of my options book now. Will take it to 10% post-earnings if I think I should. But let's be real, it's Apple, if it doesn't feel right I won't dig my feet in."
+- **Tweet**: Wild_Randomness reply to @LunaticxOsmo: "Hmm about 1/4-1/5 of tradfi accounts"
+- **Classification**: A. Non-financial (personal banter/commentary about tradfi accounts)
+- **Action taken**: Logged only, no alert sent
+- **Dedup tracking**: Tweet ID 2082173171684503717 added to memory/x-trader-seen.txt (line 296)
+- **Memory log**: Entry added to memory/logs/2026-07-28.md documenting skip classification
 
-Missing reply context — unclear which position/structure they're discussing (Apple calls, puts, or other). What's your read?
-🔁 *Mirrored — @Wild_Randomness*
-
-Wild_Randomness just partially TP'd on QQQ short. 2/3 out with +120% aggregate profit on charts showing ~682-686 entry zone. Hoping for one more spike down to exit final 1/3.
-
-https://x.com/Wild_Randomness/status/2082171471087182287
+Per the skill's Step 4A protocol: non-financial posts with no ticker, level, or execution language are skipped entirely and logged only. No calibration alert needed.
