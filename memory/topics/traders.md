@@ -792,7 +792,7 @@ BOOTSTRAP_COMPLETE: 2026-07-14
 
 ## ryzzqq
 - Platforms: X
-- Current open positions: (1) Long filled Jul 9 (likely BTC/crypto, small, unconfirmed). (2) ELHFI — took profit Jul 16 02:33Z; position presumed closed. (3) **TAO — CLOSED Jul 25 02:19Z** for -3% loss at 191 entry. Forward-looking intent (not executed): ETH shorts "over the next few days" (Jul 22); SPCX buy interest 120–130.
+- Current open positions: (1) **SNDK/DRAM/MU/SKHY — LONG (MULTI-TICKER DCA PLAN 2026-07-28)**: Filled 50% at current beaten-down levels (SNDK 1095 -14.3%, DRAM 48 -8.2%, MU 819 -9%, SKHY 132 -8%), planning to add remainder on any intraday wicks. Awaiting Kyle decision on own DCA structure or skip. (2) Forward-looking intent (not executed): ETH shorts "over the next few days" (Jul 22, expired); SPCX buy interest 120–130.
 - Recent thesis: Bullish July lows are in post-max-FUD; 68K before 58K revisit. Now rotating: TAO on AI-narrative rotation (closed at loss Jul 25). Tactically bearish ETH short interest next few days. SPCX contrarian buy interest 120–130 vs group bearish lean. LIT bearish — "beta for a reason," 4h downtrend -27% confirmed Jul 25.
 - Conviction notes: Very low posting volume — treat any post as relatively high-intent given rarity. Clear first-person execution language when acting. Rest = terse context-dependent replies and personal banter/sports posts with no signal.
 - Calibration:
@@ -821,6 +821,7 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - Jul 23 05:36Z — ambiguous: TAO "don't think tao is the kind of coin that survives yet another cycle" — contradicts Jul 22 long entry [2080165068629504426]
   - Jul 25 02:01Z — informational: LIT technical downtrend 4h -27%; "beta for a reason" [2080835921184792600]
   - Jul 25 02:19Z — mirror-close: TAO long closed at 191 for -3% loss; Kyle never mirrored [2080840438265843816]
+  - Jul 28 16:30Z — trade-new-entry (DCA plan): 50% filled LONG on multi-ticker memory/semis basket (SNDK 1095 -14.3%, DRAM 48 -8.2%, MU 819 -9%, SKHY 132 -8%); planning to add remainder on weakness (any wicks); watchlist chart confirms sector beaten-down entry opportunity [2082141758356598966]
 
 ## abetrade
 - Platforms: X

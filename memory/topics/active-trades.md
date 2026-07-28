@@ -484,6 +484,26 @@
 - **Alert sent**: Yes, trade signal 5a format (2026-07-22T13:17:32Z via ./notify)
 - **Last update**: 2026-07-22T13:17:32Z (x-trader-monitor real-time event, awaiting approval)
 
+### SNDK, DRAM, MU, SKHY — LONG (new multi-ticker DCA entry 2026-07-28)
+- **Entry**: 2026-07-28T16:30:54Z (X post, tweet_id=2082141758356598966)
+- **Entry message**: "filled 50% longs on sndk dram mu skhy left some room to add the rest on any wicks"
+- **Entry type**: Market fills at current beaten-down prices (50% of planned position)
+- **Current prices** (at entry):
+  - **SNDK**: 1095 (-14.35%)
+  - **DRAM**: 48.13 (-8.20%)
+  - **MU**: 819.25 (-8.99%)
+  - **SKHY**: 131.59 (-7.99%)
+- **Entry levels**: Current market prices (exact entry price per ticker not specified, inferred from watchlist display at entry time)
+- **Position size**: 50% filled across all four tickers (total size unspecified; Kyle to decide own DCA structure)
+- **Status**: AWAITING KYLE DECISION — no approval flow (DCA plan, Kyle designs own scaling structure or skips)
+- **DCA plan**: "left some room to add the rest on any wicks" = planning to add remaining 50% on intraday pullbacks/weakness
+- **Thesis**: Memory/semis sector mean-reversion play. ryzzqq observes all four beaten-down 7–14% same day on macro equities weakness. Entry timed after Crypto_Chase completed 80% profit-taking on same sector (MU/SNDK closed Jul 27). Convergence signal: Chase exiting highs → ryzzqq entering lows same day. Adding on weakness suggests tactical DCA confidence into support zone.
+- **Chart context**: Shared watchlist showing all four tickers in red, validating entry timing on sector weakness. No technical setup chart provided (watchlist performance tracker only).
+- **Conviction**: MEDIUM-HIGH — multi-ticker entry with disciplined DCA scaling plan; very low posting volume from ryzzqq makes any trade execution relatively high-signal
+- **Approval/Alert status**: INFORMATIONAL ALERT SENT (Step 5c DCA Plan format, no formal approval flow; Kyle decides own scaling structure or passes)
+- **Cross-trader convergence**: SNDK/MU overlap with Crypto_Chase (two-trader same-sector mean-reversion signal, opposite trade cycles same day)
+- **Last update**: 2026-07-28T16:30:54Z (x-trader-monitor real-time event, awaiting Kyle decision on DCA structure)
+
 ---
 
 > Last bootstrapped: 2026-06-25 (discord-trader-monitor real-time event). GOOG (Chase) updated from recent conviction-add; HCH BTC/ETH/SOL position closed near 59k with stated re-entry thesis above 60k.

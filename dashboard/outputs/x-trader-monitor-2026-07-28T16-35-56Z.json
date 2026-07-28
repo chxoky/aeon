@@ -1,0 +1,141 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "DCA Plan — @ryzzqq"
+      },
+      "children": [
+        "stack-position",
+        "separator-1",
+        "heading-levels",
+        "grid-levels",
+        "separator-2",
+        "quote",
+        "link-post",
+        "text-cta"
+      ]
+    },
+    "stack-position": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-sector",
+        "badge-long",
+        "text-status"
+      ]
+    },
+    "text-sector": {
+      "type": "Text",
+      "props": {
+        "text": "Memory/Semis (SNDK, DRAM, MU, SKHY)",
+        "variant": "lead"
+      }
+    },
+    "badge-long": {
+      "type": "Badge",
+      "props": {
+        "text": "LONG"
+      }
+    },
+    "text-status": {
+      "type": "Text",
+      "props": {
+        "text": "Filled 50%, plans to add on weakness"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-levels": {
+      "type": "Heading",
+      "props": {
+        "text": "Current levels",
+        "level": "h3"
+      }
+    },
+    "grid-levels": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat-sndk",
+        "stat-dram",
+        "stat-mu",
+        "stat-skhy"
+      ]
+    },
+    "stat-sndk": {
+      "type": "Stat",
+      "props": {
+        "label": "SNDK",
+        "value": "1095",
+        "delta": "-14.3%",
+        "trend": "down"
+      }
+    },
+    "stat-dram": {
+      "type": "Stat",
+      "props": {
+        "label": "DRAM",
+        "value": "48",
+        "delta": "-8.2%",
+        "trend": "down"
+      }
+    },
+    "stat-mu": {
+      "type": "Stat",
+      "props": {
+        "label": "MU",
+        "value": "819",
+        "delta": "-9%",
+        "trend": "down"
+      }
+    },
+    "stat-skhy": {
+      "type": "Stat",
+      "props": {
+        "label": "SKHY",
+        "value": "132",
+        "delta": "-8%",
+        "trend": "down"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"filled 50% longs on sndk dram mu skhy, left some room to add the rest on any wicks\"",
+        "variant": "muted"
+      }
+    },
+    "link-post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/ryzzqq/status/2082141758356598966"
+      }
+    },
+    "text-cta": {
+      "type": "Text",
+      "props": {
+        "text": "Want to set up your own DCA on memory/semis, or skip?"
+      }
+    }
+  }
+}
