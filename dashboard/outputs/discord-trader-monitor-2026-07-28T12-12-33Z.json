@@ -1,0 +1,85 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "content-stack"
+      ]
+    },
+    "content-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "header",
+        "message-block",
+        "issue-section"
+      ]
+    },
+    "header": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [Discord: HeartCanHodl — Chat]",
+        "level": "h2"
+      }
+    },
+    "message-block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "channel-info",
+        "message-text"
+      ]
+    },
+    "channel-info": {
+      "type": "Text",
+      "props": {
+        "text": "HeartCanHodl (supporting channel, member Q&A)",
+        "variant": "caption"
+      }
+    },
+    "message-text": {
+      "type": "Text",
+      "props": {
+        "text": "\"It is natural\"",
+        "variant": "lead"
+      }
+    },
+    "issue-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert",
+        "question"
+      ]
+    },
+    "alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to Interpret",
+        "message": "Cryptic single-line fragment — no execution language, no ticker/level, no referenced message context. Unable to classify as: trade signal, informational, or conviction update.",
+        "type": "warning"
+      }
+    },
+    "question": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to interpret — what's your read?",
+        "variant": "body"
+      }
+    }
+  }
+}
