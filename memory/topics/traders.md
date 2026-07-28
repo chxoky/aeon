@@ -112,7 +112,7 @@ BOOTSTRAP_COMPLETE: 2026-07-14
 
 ## Crypto_Chase
 - Platforms: X + Discord (primary 1336082716063694962; TradFi supporting 1343971265962049597; Crypto supporting 1247927786681794601 — member Q&A)
-- Current open positions: **$MU LONG (ACTIVE)**: DCA entry ~$800–820 (Jul 17); 80% closed cumulative ($991 Jul 22 60%, $960 Jul 24 10%, $941 Jul 27 10%); stop near B/E; 20% remainder open. **$SNDK LONG (CLOSED)**: entry ~$1366 (Jul 16); 100% closed (1533 Jul 21 50%, 1675 Jul 23 10%, break-even Jul 27 final 20%); closed at B/E as planned. **$ES LONG (ACTIVE)**: entered Jun 21; last update Jul 9 "tightening/trapped." **$GOOGL — DCA plan (NOT YET ENTERED)**: 1/3 at sub-309.5, rest at 250s on crash (Jul 23 intent). **Standing watch**: XAU 3900~ flush before 4400+; HYPE flush; ORCL long setup raised in member Q&A (Jul 26). Residual **$LPTH** long. Limit bids standing: **INTC mid-80s, AMD 430s**.
+- Current open positions: **$MU LONG (ACTIVE)**: DCA entry ~$800–820 (Jul 17); 80% closed cumulative ($991 Jul 22 60%, $960 Jul 24 10%, $941 Jul 27 10%); stop near B/E; 20% remainder open. **$SNDK LONG (CLOSED)**: entry ~$1366 (Jul 16); 100% closed (1533 Jul 21 50%, 1675 Jul 23 10%, break-even Jul 27 final 20%); closed at B/E as planned. **$ES LONG (ACTIVE)**: entered Jun 21; last update Jul 9 "tightening/trapped." **$GOOGL — DCA plan (NOT YET ENTERED)**: 1/3 at sub-309.5, rest at 250s on crash (Jul 23 intent). **Standing watch**: XAU 3900~ flush before 4400+; HYPE flush; ORCL long setup raised in member Q&A (Jul 26). Residual **$LPTH** long. Limit bids standing: **AMD 430s** (INTC removed — conviction changed Jul 28).
 - Recent thesis: Bullish memory-stocks bottom thesis: MU strongest/most resilient, SNDK weakest/highest-beta; playing multi-day-to-multi-week holds with tiered TPs. Managed 70% cumulative close on both MU/SNDK as prices rose — disciplined. Remaining 30/40% on MU/SNDK at B/E stops per DCA plan. GOOGL watching for DCA opportunity sub-309.5 after fundamental move (capex surprise). HYPE: "lackluster from liquidity", prefers MU/SNDK. Constructive on SPX/ES new ATHs. Dismissive of fundamental-event risk; sizes risk, lets conviction ride.
 - Conviction notes: Primary Discord = actionable calls with entries/trims/stops and portfolio-risk framing; supporting channels = cryptic fragments requiring Kyle calibration. Repeated multi-TP profitable cycles (GOOG 24-day, prior MU 18-day, SNDK 1700–1855) validate disciplined tiered-exit pattern. Large PENDING backlog on terse fragments.
 - Calibration: No answered Kyle calibrations yet.
@@ -139,9 +139,9 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - PENDING: "could even flush demand and sweep 309. Not fully sure" — 309 = ES/SPX? [1529842748868526253]
   - PENDING: "appeasing to your technicals" — conviction on what asset? [1530211696730312855]
   - PENDING: "It's in this chat somewhere" — referent unknown [1530210390917779506]
-- Last seen: 2026-07-27 14:45:52 UTC
-- Last seen: 2026-07-27 14:45:32 UTC
+- Last seen: 2026-07-28 14:39:23 UTC
 - **Events (rolling):**
+  - Jul 28 14:39Z — informational: supporting-channel reply to binskk asking about INTC mid-80s; Crypto_Chase clarifies "no longer interested in Intel a while ago"; conviction shift/clarification — declining the level despite it being hit; first seen on Discord [1531672426692481125]
   - Jul 27 14:45Z — ambiguous: bare URL link to X post (https://x.com/Crypto_Chase/status/2081752856999125455); no explanation text; supporting channel (member Q&A); X content inaccessible; calibration alert sent [1531311668691337368]
   - Jul 21 13:43Z — trade-partial-tp: SNDK took 50% profit at 1533 from ~1366 entry (+12.3% on half) [2079562910213316621]
   - Jul 22 00:31Z — trade-TP: MU 60% closed at $991, 40% open [1529284596284522496]
