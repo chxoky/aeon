@@ -23,3 +23,9 @@ Executed `discord-trader-monitor` skill for real-time Discord message from Heart
 - ❌ No calibration alert needed (message too vague to be actionable)
 
 Skill execution complete. All memory updates applied.
+🔍 *Calibration — [DC: HCH — Chat]*
+
+Event: Supporting channel message (member Q&A)
+heartcanhodl: "Timing of this should be studied haha"
+
+Unable to classify — what's your read?
