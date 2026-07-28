@@ -685,6 +685,7 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - Jul 27 22:52Z — informational: BTC resistance breakout above 65K level; technical chart observation [2081875524574396736]
   - Jul 27 23:07Z — informational: BTC technical structure chart (rolling VWAP 90d/7d/30d, key levels marked, price action confluence); analyst education share [2081879246947901641]
   - Jul 27 23:23Z — ambiguous: "@BigTrout300 longed for some reversion or ready to get hurt" cryptic reply; unclear if own execution or commentary [2081883103832801298]
+  - Jul 28 02:49Z — informational: SPOT/PERPS divergence technical analysis; Delta Spot and Delta Perps flow convergence observation; analyst education, no personal position [2081935125458145738]
 
 ## trading_axe (Dr. Axius)
 - Platforms: X (X-only)

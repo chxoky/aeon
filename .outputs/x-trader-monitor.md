@@ -1,1 +1,5 @@
-🔍 Calibration from @trading_axe: Reply to @rainbetcom - "Never doubting this man again." Unable to classify. Context unclear — endorsement of rainbetcom trading or personal comment? https://x.com/trading_axe/status/2081929554864562349
+🐦 *[X] @Stoiiic*
+
+lol — Chart analysis showing spot vs perpetual divergence on BTC/HOSE structure. Technical educational observation on flow convergence; no personal position.
+
+[View tweet](https://x.com/Stoiiic/status/2081935125458145738)
