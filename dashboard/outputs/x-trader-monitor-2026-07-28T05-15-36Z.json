@@ -1,0 +1,193 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @Wild_Randomness"
+      },
+      "children": [
+        "content_stack"
+      ]
+    },
+    "content_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event_section",
+        "quote_section",
+        "chart_section",
+        "questions_section",
+        "separator",
+        "unable_classify"
+      ]
+    },
+    "event_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event_heading",
+        "badge_group",
+        "event_details"
+      ]
+    },
+    "event_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Event: SQQQ chart collapse (90.7K→40K)"
+      }
+    },
+    "badge_group": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_collapse",
+        "badge_cryptic"
+      ]
+    },
+    "badge_collapse": {
+      "type": "Badge",
+      "props": {
+        "text": "Chart Collapse",
+        "variant": "destructive"
+      }
+    },
+    "badge_cryptic": {
+      "type": "Badge",
+      "props": {
+        "text": "Cryptic Tweet Reference",
+        "variant": "secondary"
+      }
+    },
+    "event_details": {
+      "type": "Text",
+      "props": {
+        "text": "Trader posts cryptic reference coinciding with position entry"
+      }
+    },
+    "quote_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "quote_label",
+        "quote_text"
+      ]
+    },
+    "quote_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Trader Statement"
+      }
+    },
+    "quote_text": {
+      "type": "Text",
+      "props": {
+        "text": "@Wild_Randomness: \"And yes, I do find it quite funny that it coincided with this tweet (when I also flipped short).\"",
+        "variant": "lead"
+      }
+    },
+    "chart_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "chart_heading",
+        "chart_description"
+      ]
+    },
+    "chart_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart Analysis"
+      }
+    },
+    "chart_description": {
+      "type": "Text",
+      "props": {
+        "text": "Chart shows ProShares UltraPro Short QQQ (3x inverse Nasdaq) in severe downtrend."
+      }
+    },
+    "questions_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "questions_heading",
+        "questions_stack"
+      ]
+    },
+    "questions_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Open Questions"
+      }
+    },
+    "questions_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "question_1",
+        "question_2",
+        "question_3",
+        "question_4"
+      ]
+    },
+    "question_1": {
+      "type": "Text",
+      "props": {
+        "text": "1. What specifically did you short? (SQQQ directly, or QQQ/Nasdaq via another vehicle?)"
+      }
+    },
+    "question_2": {
+      "type": "Text",
+      "props": {
+        "text": "2. When did you enter the short? (Is this recent?)"
+      }
+    },
+    "question_3": {
+      "type": "Text",
+      "props": {
+        "text": "3. What size? (Sizing for potential Kyle mirror?)"
+      }
+    },
+    "question_4": {
+      "type": "Text",
+      "props": {
+        "text": "4. What's your invalidation/target?"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "unable_classify": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "Unable to classify — need your read on this one."
+      }
+    }
+  }
+}
