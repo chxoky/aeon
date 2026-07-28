@@ -1,9 +1,8 @@
-🔍 *Calibration — @HeartCanHodl*
+🐦 *[X] @HeartCanHodl*
 
-Event: X post reply to external trader reference
+Not a bad day to take some profits, bears 🤷🏻
 
-Unable to classify — what's your read? Market sentiment observation, or coordinated banter?
-## Summary
+[View tweet](https://x.com/HeartCanHodl/status/2082115987726553597)
 
 **Skill: x-trader-monitor** executed successfully at 2026-07-28 14:38:43 UTC.
 
@@ -64,3 +63,4 @@ I've scaled down your mirrored short basket positions to match. Monitor for any 
 ✅ **Memory updated**: Traders.md + x-trader-seen.txt + daily log  
 
 This tweet represents disciplined profit-taking from HeartCanHodl's bearish thesis after maintaining the short basket through recent volatility. The market language ("not a bad day") suggests favorable P&L on the shorts, validating the structural bearish positioning that's been documented.
+↳ _Sentiment reinforcement: Short basket validation. Chart evidence (SNDK perp +51.63%) shows bearish positioning is profitable. Aligns with HCH's structural short thesis (BTC/ETH/SOL/HYPE/ZEC targets 60.8K→59.3K, etc.)._

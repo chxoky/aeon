@@ -1,0 +1,107 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "link-view",
+        "separator-1",
+        "heading-analysis",
+        "stack-analysis"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "Not a bad day to take some profits, bears 🤷🏻"
+      },
+      "children": []
+    },
+    "link-view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/HeartCanHodl/status/2082115987726553597"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading-analysis": {
+      "type": "Heading",
+      "props": {
+        "text": "Sentiment Analysis",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "stack-analysis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-reinforcement",
+        "stat-sndk",
+        "text-bearish",
+        "text-targets"
+      ]
+    },
+    "text-reinforcement": {
+      "type": "Text",
+      "props": {
+        "text": "Sentiment reinforcement: Short basket validation.",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "stat-sndk": {
+      "type": "Stat",
+      "props": {
+        "label": "SNDK perp",
+        "value": "+51.63%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "text-bearish": {
+      "type": "Text",
+      "props": {
+        "text": "Chart evidence shows bearish positioning is profitable.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-targets": {
+      "type": "Text",
+      "props": {
+        "text": "Aligns with HCH's structural short thesis: BTC/ETH/SOL/HYPE/ZEC targets 60.8K→59.3K, etc.",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
