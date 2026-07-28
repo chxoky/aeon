@@ -712,6 +712,7 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - Jul 24 19:45Z — ambiguous: reply @RyanJon06636091 "BTC / perp DEXs. ~ Dr. Axius." [2080741181298725312]
   - Jul 25 15:58Z — skip: 2 acceptance-of-fate memes, social banter, non-financial [2081046521336717525]
   - Jul 26 06:27Z — informational: "Bitcoin to altcoins every time it flinches even -1%" + video; sarcastic/critical [2081265120911524320]
+  - Jul 28 02:27Z — ambiguous: reply @rainbetcom "Never doubting this man again"; cryptic, external account [2081929554864562349]
 
 ## Bitcoin_Astro
 - Platforms: X (X-only; no Discord)
