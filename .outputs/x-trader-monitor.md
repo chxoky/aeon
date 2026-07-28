@@ -1,11 +1,17 @@
 ## Summary
 
-✓ **Tweet processed and classified as non-financial**
+Skill execution complete. 
 
-- **Tweet**: Wild_Randomness reply to @LunaticxOsmo: "Hmm about 1/4-1/5 of tradfi accounts"
-- **Classification**: A. Non-financial (personal banter/commentary about tradfi accounts)
-- **Action taken**: Logged only, no alert sent
-- **Dedup tracking**: Tweet ID 2082173171684503717 added to memory/x-trader-seen.txt (line 296)
-- **Memory log**: Entry added to memory/logs/2026-07-28.md documenting skip classification
+**Event processed:** @Stoiiic tweet (ID: 2082175028737802288) at 2026-07-28 18:43:06 UTC
 
-Per the skill's Step 4A protocol: non-financial posts with no ticker, level, or execution language are skipped entirely and logged only. No calibration alert needed.
+**Classification:** Non-financial (Step 4A) — Personal fitness discussion about BJJ training, grappling injuries, and shoulder mobility concerns. Zero financial content, zero trading signals.
+
+**Actions taken:**
+- ✅ Decoded base64 event successfully
+- ✅ Classified as non-financial skip (consistent with Stoiiic's documented ~50% non-financial post pattern)
+- ✅ Added tweet ID to dedup list (`memory/x-trader-seen.txt`)
+- ✅ Logged comprehensive entry to daily log (`memory/logs/2026-07-28.md`)
+- ✅ Did NOT notify Kyle (no actionable signal)
+- ✅ Did NOT update traders.md (skip protocol)
+
+**No follow-up required.** Pattern: Stoiiic continues fitness/martial-arts discussion thread (prior posts same date: dead-hangs, Systema martial arts, shoulder-tear concerns).
