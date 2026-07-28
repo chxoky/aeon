@@ -1,0 +1,23 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "$BTC — Market Structure Update\n\nWe have a significant buildup of low leverage longs below us.\n\nWith Monday's high now established and BTC trading below the weekly open, there's a strong possibility this liquidity gets tested if the bearish market structure remains intact.\n\nChart: Low-leverage long concentration zones 62K–63.5K; key resistance 66.9K (Mon high).\n\nView: https://x.com/KillaXBT/status/2082102776931189015"
+      }
+    }
+  }
+}

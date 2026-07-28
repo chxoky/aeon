@@ -21,8 +21,9 @@ BOOTSTRAP_COMPLETE: 2026-07-14
 - **Events (rolling):**
   - Jul 24 12:03Z — informational: BTC textbook setup — Binance plunge protection, MM/algo front-running pattern; charts show support 57.8K–59.8K, current 65.1K [2080625017193156875]
   - Jul 23 20:43Z — informational: BTC Fear & Greed Index at 5 (lowest since 2018/COVID); major capitulation done, now chop [2080393271151382812]
-- Last seen: 2026-07-28 12:31:43 UTC
+- Last seen: 2026-07-28 13:56:00 UTC
 - **Events (rolling):**
+  - Jul 28 13:56Z — informational: BTC liquidity map; low-leverage longs 62K–63.5K; Mon high 66.924K established; potential downside testing scenario [2082102776931189015]
   - Jul 28 12:31Z — informational: BTC textbook weekly retest confirming LTF trend shift; support hierarchy 63.6K critical (break → 61.8K target); FOMC test zone 63.8K; upside deviation 67.3K; scenario framework aligns HTF-bullish conviction (holding 2x long 62.6K) with near-term downside risk contingency [2082081565526380918]
   - Jul 27 22:43Z — informational: trading philosophy - market doesn't care what you want; "Trade the market for what it is, not what you want it to be... $BTC is king"; routine conviction restatement, no new position/level action [2081873130620928386]
   - Jul 27 18:43Z — informational: BTC pivot-date reiteration with charts; 6/7 prior Jul 29 pivots resolved bearishly; predicts min 4–5% drop after 29th; caveats pattern may shift with broader structure change [2081812754424316253]
