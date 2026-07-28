@@ -1,0 +1,326 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Token Movers",
+        "description": "2026-07-28"
+      },
+      "children": [
+        "alert_risk_off",
+        "heading_winners",
+        "table_winners",
+        "sep1",
+        "heading_losers",
+        "table_losers",
+        "sep2",
+        "heading_trending",
+        "table_trending",
+        "sep3",
+        "heading_notable",
+        "stack_notable"
+      ]
+    },
+    "alert_risk_off": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "message": "Broad risk-off — 97%+ of top-100 non-stablecoin assets in the red, median ≈−3.8%; uniform selling across L1s, DeFi, memes, and AI tokens."
+      }
+    },
+    "heading_winners": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Winners (24h)",
+        "level": "h3"
+      }
+    },
+    "table_winners": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Volume / Rank"
+        ],
+        "rows": [
+          [
+            "PUMP (Pump.fun)",
+            "$0.002083",
+            "+4.1%",
+            "+2.3%",
+            "+3.2%",
+            "$155M / #74"
+          ],
+          [
+            "币安人生 (BinanceLife)",
+            "$0.6411",
+            "+1.5%",
+            "+0.4%",
+            "−0.8%",
+            "$14.6M / #88"
+          ],
+          [
+            "AERO (Aerodrome Finance)",
+            "$0.4402",
+            "+0.5%",
+            "n/a",
+            "+0.7%",
+            "$267M / #106"
+          ],
+          [
+            "OKB (OKB)",
+            "$86.30",
+            "+0.3%",
+            "+5.9%",
+            "+0.4%",
+            "$21.7M / #42"
+          ]
+        ]
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_losers": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Losers (24h)",
+        "level": "h3"
+      }
+    },
+    "table_losers": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Volume / Rank",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "BEAT (Audiera)",
+            "$2.75",
+            "−24.2%",
+            "+14.4%",
+            "−10.9%",
+            "$53M / #72",
+            ""
+          ],
+          [
+            "NEAR (NEAR Protocol)",
+            "$1.68",
+            "−9.8%",
+            "−18.0%",
+            "+0.9%",
+            "$161M / #39",
+            ""
+          ],
+          [
+            "SHIB (Shiba Inu)",
+            "$0.00000465",
+            "−9.1%",
+            "+8.7%",
+            "0.0%",
+            "$183M / #33",
+            ""
+          ],
+          [
+            "PI (Pi Network)",
+            "$0.07472",
+            "−9.0%",
+            "−18.0%",
+            "−1.5%",
+            "$12.3M / #76",
+            ""
+          ],
+          [
+            "WLD (Worldcoin)",
+            "$0.3214",
+            "−8.9%",
+            "−16.8%",
+            "−0.1%",
+            "$118M / #58",
+            ""
+          ],
+          [
+            "VVV (Venice Token)",
+            "$12.59",
+            "−8.3%",
+            "+2.3%",
+            "+1.0%",
+            "$21M / #91",
+            ""
+          ],
+          [
+            "HYPE (Hyperliquid)",
+            "$55.33",
+            "−7.7%",
+            "−11.9%",
+            "+0.4%",
+            "$461M / #10",
+            "TRENDING+DOWN MAJOR"
+          ],
+          [
+            "PEPE (Pepe)",
+            "$0.00000281",
+            "−6.9%",
+            "−3.1%",
+            "+0.5%",
+            "$189M / #59",
+            ""
+          ],
+          [
+            "FIL (Filecoin)",
+            "$0.6933",
+            "−6.8%",
+            "−6.1%",
+            "+0.1%",
+            "$66M / #92",
+            ""
+          ],
+          [
+            "DOT (Polkadot)",
+            "$0.7582",
+            "−6.2%",
+            "−9.5%",
+            "−0.7%",
+            "$117M / #56",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_trending": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending",
+        "level": "h3"
+      }
+    },
+    "table_trending": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Rank",
+          "Price",
+          "24h",
+          "Notes"
+        ],
+        "rows": [
+          [
+            "CSPR (Casper Network)",
+            "#668",
+            "$0.001653",
+            "+6.8%",
+            ""
+          ],
+          [
+            "HYPE (Hyperliquid)",
+            "#10",
+            "$55.06",
+            "−8.2%",
+            "TRENDING+DOWN"
+          ],
+          [
+            "ETH (Ethereum)",
+            "#2",
+            "$1,880",
+            "−4.4%",
+            ""
+          ],
+          [
+            "BTC (Bitcoin)",
+            "#1",
+            "$63,406",
+            "−2.8%",
+            ""
+          ],
+          [
+            "AEON",
+            "#871",
+            "$0.09117",
+            "0.0%",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_notable": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h3"
+      }
+    },
+    "stack_notable": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "notable_hype",
+        "notable_beat",
+        "notable_near_pi_wld",
+        "notable_trending_list"
+      ]
+    },
+    "notable_hype": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "HYPE",
+        "message": "Trending + down −7.7% on $461M vol — structural break in cap; matches HCH active short basket"
+      }
+    },
+    "notable_beat": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "BEAT",
+        "message": "−24.2% on the day after 7d +14.4% — pump reversal; extreme drop even for risk-off tape"
+      }
+    },
+    "notable_near_pi_wld": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "title": "NEAR / PI / WLD",
+        "message": "Down 9–10% each; 7d at −16% to −18%; no bounce pattern, structural sellers"
+      }
+    },
+    "notable_trending_list": {
+      "type": "Text",
+      "props": {
+        "text": "Trending list is BTC+ETH+HYPE all negative — search interest concentrated in falling assets",
+        "variant": "muted"
+      }
+    }
+  }
+}

@@ -1,35 +1,34 @@
-*Token Movers — 2026-07-27*
+*Token Movers — 2026-07-28*
 
-_Mixed-positive tape, median ~+0.9% — DeFi rotation holds from morning; BEAT emerges as [BREAKOUT] while BANK reverses from trending #1 to −14%._
+_Broad risk-off — 97%+ of top-100 non-stablecoin assets in the red, median ≈−3.8%; uniform selling across L1s, DeFi, memes, and AI tokens._
 
-*Top Winners (24h)*
-1. PUMP (Pump.fun) — $0.002146  +18.7% / 7d +10.9% / 1h +0.7%  •  $132M / #75  [TRENDING+UP]
-2. BEAT (Audiera) — $4.35  +18.3% / 7d +72.4% / 1h +1.6%  •  $23.6M / #56  [BREAKOUT]
-3. AERO (Aerodrome) — $0.4564  +8.2% / 7d −2.4% / 1h +1.2%  •  $106M / #105  [TRENDING+UP]
-4. ETH (Ethereum) — $1,959  +3.7% / 7d +3.4% / 1h −0.2%  •  $10.3B / #2  [MAJOR][TRENDING+UP]
-5. BCH (Bitcoin Cash) — $218.3  +3.8% / 7d +1.9% / 1h +0.1%  •  $105M / #23
-6. MORPHO — $1.95  +3.3% / 7d −2.2% / 1h +0.4%  •  $16.5M / #59
-7. NEAR (NEAR Protocol) — $1.82  +2.1% / 7d −6.4% / 1h +0.3%  •  $104M / #39
+*Top Winners (24h)* _(only 4 positive in top-250 after filters)_
+1. PUMP (Pump.fun) — $0.002083  +4.1% / 7d +2.3% / 1h +3.2%  •  $155M / #74
+2. 币安人生 (BinanceLife) — $0.6411  +1.5% / 7d +0.4% / 1h −0.8%  •  $14.6M / #88
+3. AERO (Aerodrome Finance) — $0.4402  +0.5% / 7d n/a / 1h +0.7%  •  $267M / #106
+4. OKB (OKB) — $86.30  +0.3% / 7d +5.9% / 1h +0.4%  •  $21.7M / #42
 
 *Top Losers (24h)*
-1. BANK (Lorenzo Protocol) — ~$0.329  −14.0%  •  #206  [TRENDING+DOWN]
-2. M (MemeCore) — $1.21  −7.3% / 7d −1.1% / 1h −1.1%  •  $13.1M / #48
-3. VVV (Venice Token) — $13.22  −4.5% / 7d +16.9% / 1h −0.1%  •  $23M / #89
-4. XMR (Monero) — $348.9  −3.8% / 7d +3.7% / 1h −0.9%  •  $88M / #18  [MAJOR]
-5. ALGO (Algorand) — $0.08285  −2.7% / 7d +0.2% / 1h −0.4%  •  $14.5M / #81
-6. ARB (Arbitrum) — $0.08165  −1.5% / 7d −7.8% / 1h −0.2%  •  $32.5M / #97
-7. ATOM (Cosmos Hub) — $1.38  −1.4% / 7d −7.1% / 1h −0.1%  •  $18.6M / #83
+1. BEAT (Audiera) — $2.75  −24.2% / 7d +14.4% / 1h −10.9%  •  $53M / #72
+2. NEAR (NEAR Protocol) — $1.68  −9.8% / 7d −18.0% / 1h +0.9%  •  $161M / #39
+3. SHIB (Shiba Inu) — $0.00000465  −9.1% / 7d +8.7% / 1h 0.0%  •  $183M / #33
+4. PI (Pi Network) — $0.07472  −9.0% / 7d −18.0% / 1h −1.5%  •  $12.3M / #76
+5. WLD (Worldcoin) — $0.3214  −8.9% / 7d −16.8% / 1h −0.1%  •  $118M / #58
+6. VVV (Venice Token) — $12.59  −8.3% / 7d +2.3% / 1h +1.0%  •  $21M / #91
+7. HYPE (Hyperliquid) — $55.33  −7.7% / 7d −11.9% / 1h +0.4%  •  $461M / #10  [TRENDING+DOWN] [MAJOR]
+8. PEPE (Pepe) — $0.00000281  −6.9% / 7d −3.1% / 1h +0.5%  •  $189M / #59
+9. FIL (Filecoin) — $0.6933  −6.8% / 7d −6.1% / 1h +0.1%  •  $66M / #92
+10. DOT (Polkadot) — $0.7582  −6.2% / 7d −9.5% / 1h −0.7%  •  $117M / #56
 
 *Trending*
-1. CSPR (Casper) — #688, $0.001590, 24h +2.2%  [MICROCAP]
-2. PONS — #424, $0.06364, 24h +22.7%  [MICROCAP]
-3. AEON — #925, $0.08348, 24h −54.6%  [MICROCAP]
-4. GEOD (Geodnet) — #220, $0.2775, 24h +27.8%
-5. ZAMA — #219, $0.05897, 24h +16.9%  [MICROCAP]
-6. PENGU (Pudgy Penguins) — #110, $0.006441, 24h +2.2%
-7. PUMP (Pump.fun) — #75, $0.002143, 24h +17.7%  [TRENDING+UP]
+1. CSPR (Casper Network) — #668, $0.001653, 24h +6.8%
+2. HYPE (Hyperliquid) — #10, $55.06, 24h −8.2%  [TRENDING+DOWN]
+3. ETH (Ethereum) — #2, $1,880, 24h −4.4%
+4. BTC (Bitcoin) — #1, $63,406, 24h −2.8%
+5. AEON — #871, $0.09117, 24h 0.0%
 
 *Notable*
-• PUMP [TRENDING+UP]: trending + up 18.7% on $132M vol — strong positive signal
-• BEAT [BREAKOUT]: Audiera +18.3% / 7d +72.4% — sustained move, rank #56 mid-cap
-• BANK [TRENDING+DOWN]: was today's trending #1 at morning open; now −14.0% — sharp session reversal
+• HYPE: trending + down −7.7% on $461M vol — [MAJOR] cap structural break; matches HCH active short basket
+• BEAT: −24.2% on the day after 7d +14.4% — pump reversal; extreme drop even for risk-off tape
+• NEAR / PI / WLD: down 9–10% each; 7d at −16% to −18%; no bounce pattern, structural sellers
+• Trending list is BTC+ETH+HYPE all negative — search interest concentrated in falling assets
