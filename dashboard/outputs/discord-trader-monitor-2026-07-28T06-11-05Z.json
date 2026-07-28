@@ -1,0 +1,102 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "heading_calibration",
+        "sep_1",
+        "heading_event",
+        "text_location",
+        "text_no_text",
+        "text_screenshot",
+        "sep_2",
+        "heading_source",
+        "text_source_user",
+        "text_source_content",
+        "sep_3",
+        "alert_classify"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: HCH — Chat]",
+        "level": "h2"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "text_location": {
+      "type": "Text",
+      "props": {
+        "text": "Image-only message in supporting channel (member Q&A).",
+        "variant": "body"
+      }
+    },
+    "text_no_text": {
+      "type": "Text",
+      "props": {
+        "text": "No text content, no caption.",
+        "variant": "body"
+      }
+    },
+    "text_screenshot": {
+      "type": "Text",
+      "props": {
+        "text": "Just a screenshot.",
+        "variant": "body"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_source": {
+      "type": "Heading",
+      "props": {
+        "text": "Source",
+        "level": "h3"
+      }
+    },
+    "text_source_user": {
+      "type": "Text",
+      "props": {
+        "text": "HeartCanHodl",
+        "variant": "lead"
+      }
+    },
+    "text_source_content": {
+      "type": "Text",
+      "props": {
+        "text": "[no text — image only]",
+        "variant": "muted"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "alert_classify": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to Classify",
+        "message": "What's in the chart? Is this a conviction signal, technical observation, or unrelated?",
+        "type": "warning"
+      }
+    }
+  }
+}
