@@ -1,0 +1,119 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading-calibration",
+        "event-description",
+        "tweet-content",
+        "analysis-section"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @swarmister",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "event-description": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Mention of external trader @apeisstronk with timeframe reference",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "tweet-content": {
+      "type": "TweetCard",
+      "props": {
+        "author": "@swarmister",
+        "text": "@apeisstronk 4 hours (H4)"
+      },
+      "children": []
+    },
+    "analysis-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis-intro",
+        "questions-list",
+        "closing-question",
+        "view-post-link"
+      ]
+    },
+    "analysis-intro": {
+      "type": "Text",
+      "props": {
+        "text": "This is a cryptic terse reply to another trader with no ticker, level, or context. Unable to classify — is this:"
+      },
+      "children": []
+    },
+    "questions-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "question-1",
+        "question-2",
+        "question-3",
+        "question-4"
+      ]
+    },
+    "question-1": {
+      "type": "Text",
+      "props": {
+        "text": "• A question about timeframe structure analysis?"
+      },
+      "children": []
+    },
+    "question-2": {
+      "type": "Text",
+      "props": {
+        "text": "• Confirmation of @apeisstronk's setup?"
+      },
+      "children": []
+    },
+    "question-3": {
+      "type": "Text",
+      "props": {
+        "text": "• Coordination/discussion on a specific chart?"
+      },
+      "children": []
+    },
+    "question-4": {
+      "type": "Text",
+      "props": {
+        "text": "• Social banter?"
+      },
+      "children": []
+    },
+    "closing-question": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "view-post-link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/swarmister/status/2082005871895146934"
+      },
+      "children": []
+    }
+  }
+}
