@@ -81,8 +81,9 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - PENDING: Jul 15 14:44 "$BTC ✅" + URL — execution confirmation vs thesis update? [2077403896775840078]
   - PENDING: Jul 15 17:13 "your pivots don't work... hold my 🍺" + URL — chart evidence of scalp-short or general validation? [2077441531833725305]
   - PENDING: Jul 16 14:22 "I'm just the messenger. 750-1000D mark... $BTC" — daily-chart level, point target, or external analysis reference? [2077760851990204576]
-- Last seen: 2026-07-26 22:26:30 UTC
+- Last seen: 2026-07-28 16:06:29 UTC
 - **Events (rolling):**
+  - Jul 28 16:06Z — trade-new-entry: BTC scalp short at market price with SSL (stop-sell-limit) for now; watching for longs at 61.5K-61K zone; Discord primary channel, image attachment [1531694347207311591]
   - Jul 23 13:40Z — ambiguous: BitMEX "10/10" reference, unclear context [2080286985680240657]
   - Jul 23 14:47Z — informational: BTC weekly fakeout above downtrend; 45% Kalshi expects $50K before $100K [2080303859012878799]
   - Jul 23 15:48Z — informational: BTC market sentiment — whales/billionaires simply market buy; current quantile vs historical bands [2080319062387605660]
