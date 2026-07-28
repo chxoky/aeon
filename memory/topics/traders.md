@@ -139,8 +139,9 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - PENDING: "could even flush demand and sweep 309. Not fully sure" — 309 = ES/SPX? [1529842748868526253]
   - PENDING: "appeasing to your technicals" — conviction on what asset? [1530211696730312855]
   - PENDING: "It's in this chat somewhere" — referent unknown [1530210390917779506]
-- Last seen: 2026-07-28 14:39:23 UTC
+- Last seen: 2026-07-28 15:29:35 UTC
 - **Events (rolling):**
+  - Jul 28 15:29Z — informational: supporting-channel macro sentiment — "I won't be surprised if everything gets saved by something like Microsoft earnings tom"; reinforcement of primary-channel FOMC/MSFT earnings theme from 15:17Z (same hour); commentary on existing position satisfaction ("already had my two good trades on these assets") + conditional entry logic ("need to see lower for another entry"); first-seen Discord (no X cross-reference found); no new action, market observation folded into primary-channel context [1531685059105390702]
   - Jul 28 14:39Z — informational: supporting-channel reply to binskk asking about INTC mid-80s; Crypto_Chase clarifies "no longer interested in Intel a while ago"; conviction shift/clarification — declining the level despite it being hit; first seen on Discord [1531672426692481125]
   - Jul 27 14:45Z — ambiguous: bare URL link to X post (https://x.com/Crypto_Chase/status/2081752856999125455); no explanation text; supporting channel (member Q&A); X content inaccessible; calibration alert sent [1531311668691337368]
   - Jul 21 13:43Z — trade-partial-tp: SNDK took 50% profit at 1533 from ~1366 entry (+12.3% on half) [2079562910213316621]
