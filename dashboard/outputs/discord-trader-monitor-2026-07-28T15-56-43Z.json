@@ -1,0 +1,118 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — [DC: HCH — Chat]"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_section",
+        "sep1",
+        "question_section"
+      ]
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_prior",
+        "text_current"
+      ]
+    },
+    "text_prior": {
+      "type": "Text",
+      "props": {
+        "text": "Context: HCH's own prior message: \"vLtf momentum\"",
+        "variant": "body"
+      }
+    },
+    "text_current": {
+      "type": "Text",
+      "props": {
+        "text": "Current: \"Temporary bullishness\"",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "question_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert_classify",
+        "options_stack"
+      ]
+    },
+    "alert_classify": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read?",
+        "type": "info"
+      }
+    },
+    "options_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ]
+    },
+    "option1": {
+      "type": "Text",
+      "props": {
+        "text": "Market observation only?",
+        "variant": "body"
+      }
+    },
+    "option2": {
+      "type": "Text",
+      "props": {
+        "text": "Conviction shift (adding/reducing shorts)?",
+        "variant": "body"
+      }
+    },
+    "option3": {
+      "type": "Text",
+      "props": {
+        "text": "Setup for action?",
+        "variant": "body"
+      }
+    },
+    "option4": {
+      "type": "Text",
+      "props": {
+        "text": "Other?",
+        "variant": "body"
+      }
+    }
+  }
+}
