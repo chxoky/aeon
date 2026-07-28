@@ -270,8 +270,9 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - Jul 28 07:02Z — informational: BTC technical observation — spot/futures divergence resolved; explains divergence likely drove recent price action; chart analysis showing pattern closure [2081998712197329108]
   - Jul 28 07:30Z — ambiguous: "@apeisstronk 4 hours (H4)" cryptic reply, no ticker/level/context; calibration pending [2082005871895146934]
   - Jul 28 07:09Z — informational: $NEAR update + D1 analysis; forced out of trade at breakeven; watching for possible drop to 1.52; no active position [2082000509519495220]
-- Last seen: 2026-07-28 16:04:47 UTC
+- Last seen: 2026-07-28 20:39:56 UTC
 - **Events (rolling):**
+  - Jul 28 20:39Z — skip: "@garbycan Retarf*"; cryptic social banter, no financial signal [2082204430145892680]
   - Jul 28 16:04Z — trade-new-entry: $AVAX dual limit orders at imbalance zone + pivot point; long-term position [2082135188562235481]
   - Jul 28 14:36Z — ambiguous: "@zackvoell Market sentiment"; cryptic reply; context missing; calibration alert sent [2082113084252938493]
   - Jul 28 13:51Z — ambiguous: "state of things wtf" + t.co link; media inaccessible (404); no execution language; calibration alert sent [2082101717278101914]
