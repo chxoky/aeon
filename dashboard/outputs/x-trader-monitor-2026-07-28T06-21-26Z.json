@@ -1,0 +1,106 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "badges_stack",
+        "tweet_card",
+        "stats_section",
+        "pattern_text",
+        "view_link"
+      ]
+    },
+    "badges_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_btc",
+        "badge_usdt",
+        "badge_usdc"
+      ]
+    },
+    "badge_btc": {
+      "type": "Badge",
+      "props": {
+        "text": "$BTC"
+      },
+      "children": []
+    },
+    "badge_usdt": {
+      "type": "Badge",
+      "props": {
+        "text": "$USDT"
+      },
+      "children": []
+    },
+    "badge_usdc": {
+      "type": "Badge",
+      "props": {
+        "text": "$USDC"
+      },
+      "children": []
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Was certainly a timely lesson… For now, stablecoin supply keeps on contracting… incredible how it parallels last cycle."
+      },
+      "children": []
+    },
+    "stats_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat_supply",
+        "text_peak"
+      ]
+    },
+    "stat_supply": {
+      "type": "Stat",
+      "props": {
+        "label": "USDT + USDC Supply",
+        "value": "256.35B",
+        "delta": "-57.7M (-0.02%)",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "text_peak": {
+      "type": "Text",
+      "props": {
+        "text": "Down from cycle peak of ~275B",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "pattern_text": {
+      "type": "Text",
+      "props": {
+        "text": "Pattern markers show prior coins top → stables top → coins bottom cycle structure repeating.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2081986835090448599"
+      },
+      "children": []
+    }
+  }
+}

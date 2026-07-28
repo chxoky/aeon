@@ -1,10 +1,11 @@
-🐦 *[X] @Wild_Randomness — Altcoin Market Structure*
+🐦 *[X] @Wild_Randomness*
 
-$TOTAL3: 653.41B (-0.35%) — consolidating in 800B–1.2T range; testing critical support zones
-$OTHERS: 161.79B (-0.18%) — approaching key support test at 180–200B zone
+$BTC $USDT $USDC
 
-Chart analysis shows altcoin breadth at inflection point: either bounce from support or breakdown to extended downside. Rhetorical question 'What is the plan?' reflects uncertainty on market structure validation.
+Was certainly a timely lesson…
 
-Cross-ticker note: TOTAL3/OTHERS as market-cap breadth sentiment barometers — watch for confirmation of altcoin cycle direction.
+For now, stablecoin supply keeps on contracting… incredible how it parallels last cycle.
 
-[View tweet](https://x.com/Wild_Randomness/status/2081981290702889247)
+Chart: USDT+USDC at 256.35B (current), -57.7M (-0.02%), down from cycle peak ~275B. Pattern markers show prior coins top → stables top → coins bottom cycle structure repeating.
+
+[View tweet](https://x.com/Wild_Randomness/status/2081986835090448599)
