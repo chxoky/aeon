@@ -1,30 +1,27 @@
-*Narrative Tracker — 2026-07-27*
+*Narrative Tracker — 2026-07-28*
 
-TRANSITIONS
-• PROMOTED: DeFi Renaissance — Emerging→Rising: AAVE +9%, UNI +6.5%, ONDO +6.6%, ETH +4.5% in one session; ETH/BTC ratio +3.1% to 0.0302; first coordinated DeFi move since Q1
-• PROMOTED: RWA Tokenization — Emerging→Rising: Santiment flags more discussion than at any other point this week; ONDO +20.8% 7d and trending
-• NEW: AI Agent Wallets — MetaMask/Coinbase/OKX/BNB all shipped agent payment rails in 4 weeks; Ledger open-source agent stack Jul 15; a16z published thesis
-• NEW: Altcoin Fatigue / Tier-2 Washout — HCH/Chase/Killa cross-trader convergence this week; LIT = HCH 2nd best short, VVV = 3rd
-• DEMOTED: FOMC Gate — Peak→Fading: binary gate resolves tomorrow Jul 29 2pm ET; 80.2% no-change priced
-• DEMOTED: Meme Rotation — Rising→Fading: SHIB +36.2% Jul 26 to −8.5% today; cycle complete <24h
+TRANSITIONS (first run — no prior baseline)
+• NEW/RESOLVING: FOMC Gate — decision TODAY; BTC -5.9% from $67K peak to $63K, F&G 29; hold at 3.50–3.75% expected, but Warsh hawkish tone = tail risk
+• NEW/DEAD: Meme Rotation — SHIB +36% Sun → -12.45% Tue; 2-day distribution confirmed bust; reflexive pump fully reversed
+• NEW/EMERGING: BTC 2-Year Cycle Pattern — @Wild_Randomness Jul 27: -29.59% setup from $69.4K mirrors Jul 27 2024 exactly; targets ~44K zone
+• NEW/EMERGING: ETH Pectra + Lido Migration — Lido migrating 8M staked ETH post-upgrade; ETH -3.5% today (macro overriding thesis)
+• NEW/ANOMALY: KAITO +11.96% to $1.32 vs market -1.6%; @HeartCanHodl holds 4% portfolio short at current levels — divergence unresolved
 
 REFLEXIVITY ALERT
-• ETH/BTC Ratio: @swarmister predicts shorts targeting ETH 2K will be wiped out (liquidity trap chart confirmed); squeeze self-accelerates if believed
-• BTC 90D RVWAP Break: HCH 13:37Z chart shows BTC above 90D RVWAP at 67.6K; HCH net short watching rejection — if holds, bear thesis structurally compromised
+• FOMC Gate — BTC dropped $67K→$63K on hawkish narrative alone, before any decision. Fear is priced. Post-hold relief rally = asymmetric upside on resolution
+• Meme Rotation — SHIB +36% in one day was pure attention-driven reflexivity; price reversal -12.45% on same narrative shows the cycle. Classic: attention → price → more attention → collapse
 
 POSITIONS
-• FRONT-RUN: AI Agent Wallets (mindshare 3 ↑↑, Bull) — @a16zcrypto, MetaMask/Ledger/OKX/BNB — bear: infra without killer app; BNB mainnet 2027
-• FRONT-RUN: ETH/BTC Ratio Recovery (mindshare 3 ↑↑, Bull) — @swarmister squeeze thesis — bear: FOMC kills risk-on tomorrow
-• RIDE: DeFi Renaissance (mindshare 4 ↑↑, Bull) — AAVE/UNI/ONDO — bear: FOMC hawkish tone flushes DeFi liquidity
-• RIDE: RWA Tokenization (mindshare 4 ↑, Bull) — @ondofinance — bear: yield arb shrinks in rate-hold
-• RIDE: Altcoin Fatigue Short (mindshare 4 ↑, Bear) — @HeartCanHodl (LIT/VVV/KAITO/ZEC basket), @KillaXBT, @Crypto_Chase — bear: DeFi rotation shows alts not uniformly dead
-• WATCH: BTC Structure (mindshare 5 ↑, Mixed) — 90D RVWAP break live; @KillaXBT 63.7K→61.8K on failure; @bull_genius 71.5K on continuation
-• WATCH: FOMC Gate (mindshare 5 →, Mixed) — resolves tomorrow; tail risk = Warsh hawkish tone
-• WATCH: ZEC Ironwood NU6.3 (mindshare 3 ↑, Mixed) — upgrade Jul 28 midday UTC; exchange disruptions possible; HCH short 4-4.5% pf; double-sided
-• FADE: Meme Rotation (mindshare 3 ↓↓, Cope) — SHIB/PEPE; weekend pump fully reverting
+• FRONT-RUN: Volatility/Left-Tail (mindshare 2 ↑↑, Mixed) — @Wild_Randomness SQQQ accumulation + VIX Dec-2031 calls + Warsh+Ueda hike scenario; FOMC binary window open NOW. Bear case: left-tail scenarios rarely time right
+• FADE: Meme Rotation (mindshare 1 ↓↓, Cope) — SHIB -12.45% confirmed distribution. @Crypto_Chase: 'charting dead altcoins for two years'
+• FADE: AI Agent Tokens near-term (mindshare 4 ↓, Mixed) — FET -11.81%, AI-stock contagion; structural bull intact, fade the relief bounce. Bear case: narrative oversold short-term
+• RIDE: BTC HTF Bull (mindshare 3 →, Bull) — @KillaXBT 2x long 62.6K; LTH supply at FTX-comparable loss levels; $62.5–63K = hard support. Bear case: @Wild_Randomness 2-year cycle -29% to 44K threatens thesis
+• WATCH: KAITO — price +11.96% vs HCH 4% short; one must break
+• WATCH: BTC 2-Year Pattern — confirm only on break below 62.5K
+• WATCH: ETH Pectra/Lido — structural; revisit post-FOMC
 
 MAP
-Emerging: AI Agent Wallets, ETH/BTC Ratio Recovery, DEX Reliability Debate
-Rising: DeFi Renaissance, RWA Tokenization, Altcoin Fatigue
-Peak: FOMC Gate (resolves Jul 29), BTC 90D RVWAP Retest
-Fading: Meme Rotation (SHIB/PEPE)
+Emerging: BTC 2-Year Cycle Pattern, ETH Pectra/Lido, CLARITY Act Regulatory
+Rising: BTC HTF Bull, Stablecoin/AI Infrastructure, Vol/Left-Tail
+Peak: FOMC Gate (resolving TODAY)
+Fading: AI Agent Tokens (tactical), Meme Rotation (dead)
