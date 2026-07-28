@@ -172,6 +172,7 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - Jul 27 14:14Z — informational: macro catalyst commentary — FOMC on Wednesday plus Microsoft earnings should get market direction; no personal trade action (supporting channel) [1531303686427381941]
   - Jul 27 15:48Z — informational: ltf bearish signal commentary — "Pumping* remains one of the most bearish ltf signals in crypto" (reply to @follis_); technical market sentiment [2081768615527784572]
   - Jul 28 14:42Z — informational: TradFi supporting channel sentiment shift — "caught both flash crashes that gave big gains; not sure what happens from here" (uncertainty about direction after recent wins) [1531673224960544869]
+  - Jul 28 15:17Z — informational: primary-channel market analysis — SNDK at 930 "looks interesting if it just keeps crashing"; macro context: semis pulling back hard, S&P no real correction yet, FOMC/MSFT earnings tomorrow risk; conviction philosophy: "can't take really high-confidence position unless discount is extreme" (teaching moment on risk sizing, no personal trade action, no position held) + chart attachment [1531681993711157379]
 
 ## swarmister
 - Platforms: X (primary; X-only, no Discord presence)
