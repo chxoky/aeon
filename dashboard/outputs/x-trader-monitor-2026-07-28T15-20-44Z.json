@@ -1,0 +1,57 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor: Market Sentiment & Apple Valuation",
+        "description": "Analysis from @Wild_Randomness on Apple ATH, VIX, and dispersion trade dynamics"
+      },
+      "children": [
+        "tweet_card",
+        "separator_1",
+        "analysis_section"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Not sure how to declare there is much fear in the market when Apple is making new ATH's everyday, VIX is 19, etc. for now it still remains a momentum factor correction and dispersion trade cranked to 11\n\nBut at this point I'm not sure how much juice Apple has here, we either go:\n\n1. Risk on after this week's events (ok time to sell 41 multiple Apple / Dow Jones & rotate to beaten down high beta plays).\n\n2. Risk off (not this dispersion low index vol nonsense) after this week's events and hiding out in 41 multiple Apple doesn't work as correlations rise, and these options re-rate."
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_link",
+        "analysis_text"
+      ]
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2082122455372407034"
+      }
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "This reinforces the bearish AAPL thesis Wild_Randomness shared earlier (convergence with HeartCanHodl, Jul 23). Scenarios reflect core dispersion-trade thesis on unsustainable single-stock vol vs index correlation dynamics.",
+        "variant": "body"
+      }
+    }
+  }
+}
