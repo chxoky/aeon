@@ -1,0 +1,166 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Trade Signal",
+        "description": "x-trader-monitor"
+      },
+      "children": [
+        "alert-signal",
+        "sep1",
+        "stack-trade-details",
+        "sep2",
+        "link-tweet",
+        "sep3",
+        "text-action"
+      ]
+    },
+    "alert-signal": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "🚨 Trade Signal — @Wild_Randomness"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "stack-trade-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badges-row",
+        "entries-section",
+        "options-section",
+        "context-section",
+        "convergence-section"
+      ]
+    },
+    "badges-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-aapl",
+        "badge-short",
+        "badge-strategy"
+      ]
+    },
+    "badge-aapl": {
+      "type": "Badge",
+      "props": {
+        "text": "$AAPL",
+        "variant": "default"
+      }
+    },
+    "badge-short": {
+      "type": "Badge",
+      "props": {
+        "text": "SHORT",
+        "variant": "destructive"
+      }
+    },
+    "badge-strategy": {
+      "type": "Badge",
+      "props": {
+        "text": "equity scalp + options hedge",
+        "variant": "secondary"
+      }
+    },
+    "entries-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-entries-label",
+        "stack-entries"
+      ]
+    },
+    "text-entries-label": {
+      "type": "Text",
+      "props": {
+        "text": "Entries:",
+        "variant": "lead"
+      }
+    },
+    "stack-entries": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-entry3",
+        "stat-entry4"
+      ]
+    },
+    "stat-entry3": {
+      "type": "Stat",
+      "props": {
+        "label": "Third entry",
+        "value": "$341"
+      }
+    },
+    "stat-entry4": {
+      "type": "Stat",
+      "props": {
+        "label": "Fourth entry",
+        "value": "$342"
+      }
+    },
+    "options-section": {
+      "type": "Text",
+      "props": {
+        "text": "Options: October $300 puts",
+        "variant": "body"
+      }
+    },
+    "context-section": {
+      "type": "Text",
+      "props": {
+        "text": "Trading into resistance 349-356, watching earnings/FOMC/BOJ catalysts.",
+        "variant": "body"
+      }
+    },
+    "convergence-section": {
+      "type": "Text",
+      "props": {
+        "text": "Cross-trader convergence: HeartCanHodl also shorting AAPL.",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View",
+        "href": "https://x.com/Wild_Randomness/status/2082121221957669062"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "text-action": {
+      "type": "Text",
+      "props": {
+        "text": "Reply 'approve AAPL' to mirror, or ignore to skip.",
+        "variant": "caption"
+      }
+    }
+  }
+}
