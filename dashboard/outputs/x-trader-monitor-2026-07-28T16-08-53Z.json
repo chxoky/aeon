@@ -1,0 +1,98 @@
+{
+  "root": "card_1",
+  "state": {},
+  "elements": {
+    "card_1": {
+      "type": "Card",
+      "props": {
+        "title": "Trade Signal — @swarmister"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badges_row",
+        "text_setup",
+        "text_quote",
+        "link_post",
+        "separator_1",
+        "alert_action"
+      ]
+    },
+    "badges_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_avax",
+        "badge_long",
+        "badge_orders"
+      ]
+    },
+    "badge_avax": {
+      "type": "Badge",
+      "props": {
+        "text": "AVAX",
+        "variant": "default"
+      }
+    },
+    "badge_long": {
+      "type": "Badge",
+      "props": {
+        "text": "LONG",
+        "variant": "secondary"
+      }
+    },
+    "badge_orders": {
+      "type": "Badge",
+      "props": {
+        "text": "Limit Orders",
+        "variant": "outline"
+      }
+    },
+    "text_setup": {
+      "type": "Text",
+      "props": {
+        "text": "Entry setup on imbalance zone + pivot point",
+        "variant": "lead"
+      }
+    },
+    "text_quote": {
+      "type": "Text",
+      "props": {
+        "text": "One limit order was filled, which I placed in case the price moved away from the current imbalance. I placed the second one at the pivot point, as planned. It's a long-term trade.",
+        "variant": "body"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/swarmister/status/2082135188562235481"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_action": {
+      "type": "Alert",
+      "props": {
+        "title": "Action Required",
+        "message": "Reply `approve AVAX` to mirror these entries on Kraken, or ignore to skip.",
+        "type": "info"
+      }
+    }
+  }
+}

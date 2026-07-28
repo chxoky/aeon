@@ -1,11 +1,10 @@
-## Summary
+🚨 *Trade Signal — @swarmister*
 
-Processed HeartCanHodl X post (tweet ID 2082133887556473145, posted 15:59:37 UTC) announcing a Discord community invite campaign.
+AVAX — LONG — *Limit Orders*
+Entry setup on imbalance zone + pivot point
 
-**Classification:** Non-financial (Step 4A) — platform meta-commentary, server invitation, zero trading/market signal.
+"One limit order was filled, which I placed in case the price moved away from the current imbalance. I placed the second one at the pivot point, as planned. It's a long-term trade."
 
-**Action:** Silent skip per protocol (no alert, no traders.md entry). Event logged to daily memory and tweet ID added to dedup tracker.
+[View post](https://x.com/swarmister/status/2082135188562235481)
 
-**Cross-platform context:** Discord announcement (message ID 1531690060787875841) posted 10 minutes earlier at 15:49Z; X post is delayed public restatement of same admin content.
-
-Skill execution successful — memory updated.
+Reply `approve AVAX` to mirror these entries on Kraken, or ignore to skip.

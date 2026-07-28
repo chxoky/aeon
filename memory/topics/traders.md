@@ -180,7 +180,7 @@ BOOTSTRAP_COMPLETE: 2026-07-14
 
 ## swarmister
 - Platforms: X (primary; X-only, no Discord presence)
-- Current open positions: **BTC — LONG (PENDING APPROVAL — awaiting Kyle `approve BTC`)**. Entry Jul 17 06:09Z at 2/3 intended volume (tweet_id=2077999097949102104); final target 70.7K; scale-in adds planned at 62.4K/61.2K. Position unchanged through Jul 26. **ADA** — prospective long intent 0.1685–0.17 (Jul 22, not entered). **ETH** — bullish 6h structure view (Jul 21), no sized position.
+- Current open positions: **BTC — LONG (PENDING APPROVAL — awaiting Kyle `approve BTC`)**. Entry Jul 17 06:09Z at 2/3 intended volume (tweet_id=2077999097949102104); final target 70.7K; scale-in adds planned at 62.4K/61.2K. Position unchanged through Jul 26. **AVAX — LONG (PENDING APPROVAL — awaiting Kyle `approve AVAX`)**. Entry Jul 28 16:04Z with dual limit orders: first filled at imbalance zone, second placed at pivot point (tweet_id=2082135188562235481); long-term position thesis. **ADA** — prospective long intent 0.1685–0.17 (Jul 22, not entered). **ETH** — bullish 6h structure view (Jul 21), no sized position.
 - Recent thesis: Intraday BTC long with swing overlay at upper boundary of local range; expects dip to 62.4K/61.2K add zones then continuation to 70.7K. ETH "ABSOLUTE bottom" near-term ~$2,000, but longer-term bearish on ultimate top. New ADA long interest 0.1685–0.17. Trades intraday around volume clusters/liquidity with D1/H4/H1 structure. QQQ/ES bearish-retest setup noted Jul 23. Also sharing UNI/ENA and INJ technical analysis.
 - Conviction notes: ~80% of posts are non-financial social banter (Moscow-based). When a real trade happens, execution language is explicit first-person ("I've now opened a partial position"). URL-only/terse cryptic replies account for most PENDING load — external paid-call tracking (@blancxbt, @Trade17, @DipWheeler, @bull_genius) unresolved. Signal weighting: technical posts with ticker+level = high-value; one-word replies = near-zero.
 - Calibration: No answered calibration rules yet.
@@ -268,7 +268,11 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - Jul 28 07:02Z — informational: BTC technical observation — spot/futures divergence resolved; explains divergence likely drove recent price action; chart analysis showing pattern closure [2081998712197329108]
   - Jul 28 07:30Z — ambiguous: "@apeisstronk 4 hours (H4)" cryptic reply, no ticker/level/context; calibration pending [2082005871895146934]
   - Jul 28 07:09Z — informational: $NEAR update + D1 analysis; forced out of trade at breakeven; watching for possible drop to 1.52; no active position [2082000509519495220]
-- Last seen: 2026-07-28 07:30:56 UTC
+- Last seen: 2026-07-28 16:04:47 UTC
+- **Events (rolling):**
+  - Jul 28 16:04Z — trade-new-entry: $AVAX dual limit orders at imbalance zone + pivot point; long-term position [2082135188562235481]
+  - Jul 28 14:36Z — ambiguous: "@zackvoell Market sentiment"; cryptic reply; context missing; calibration alert sent [2082113084252938493]
+  - Jul 28 13:51Z — ambiguous: "state of things wtf" + t.co link; media inaccessible (404); no execution language; calibration alert sent [2082101717278101914]
 
 ## HeartCanHodl
 - Platforms: X + Discord (Trades 1279738718680256553 = primary; Chat 1023638573313966212 = real-time; Comments 1393137051108507728 = macro; Free 1472153627324842057 = public)

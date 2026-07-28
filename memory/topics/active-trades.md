@@ -394,6 +394,21 @@
 
 ## swarmister
 
+### AVAX — LONG (new entry 2026-07-28, PENDING APPROVAL)
+- **Entry**: 2026-07-28T16:04:47Z (X post, tweet_id=2082135188562235481)
+- **Entry message**: "$AVAX One limit order was filled, which I placed in case the price moved away from the current imbalance. I placed the second one at the pivot point, as planned. It's a long-term trade, clearly not an intraday one."
+- **Entry type**: Dual limit orders (first filled at imbalance zone, second placed at pivot point)
+- **Entry levels**: Specific prices unspecified in tweet; chart shows 15M timeframe with volume profile and liquidity analysis
+- **Position size**: Unspecified (awaiting Kyle approval)
+- **Status**: PENDING APPROVAL — awaiting Kyle response (`approve AVAX` to mirror on Kraken spot)
+- **Thesis**: Bullish AVAX structure on 15M timeframe. Entry placed to capture movement away from current imbalance zone (first order filled), with secondary entry at pivot point marking technical support/key level. Long-term hold thesis with no intraday trading intent.
+- **Chart analysis**: 15-minute chart with volume profile showing liquidity zones, imbalance gap, and pivot point marked
+- **Risk**: No explicit stop loss or target levels stated in tweet
+- **Trade alert format**: Step 5a (new entry requiring approval)
+- **Approval status**: AWAITING KYLE APPROVAL (trade signal 5a alert sent via ./notify; awaiting "approve AVAX <size>" confirmation before mirror on Kraken spot)
+- **Alerted**: YES (2026-07-28T16:04:47Z, x-trader-monitor real-time event, fast-path-alerted via ./notify)
+- **Last update**: 2026-07-28T16:04:47Z (new entry, X post tweet_id=2082135188562235481, x-trader-monitor real-time)
+
 ### BTC — LONG (new entry 2026-07-17, partial position opened)
 - **Entry**: 2026-07-17T06:09:26Z (X post, tweet_id=2077999097949102104)
 - **Entry message**: "$BTC D1 + H4 timeframes. Analysis results + update... I've now opened a partial position and am ready to add to my long position with a final target of 70.7k per Bitcoin."
