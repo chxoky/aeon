@@ -209,8 +209,9 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - PENDING: "@blknoiz06 Top" — top call or affirmation? [2081748539999130003]
   - PENDING: Jul 27 14:52Z "I got an SL on both" — which two positions hit stop loss? [2081754498591051895]
   - PENDING: Jul 27 18:13Z "@Ehn_7H 100%" — affirmation/agreement on what topic? (reply context missing) [2081805111727145162]
-- Last seen: 2026-07-28 07:06:11 UTC
+- Last seen: 2026-07-28 07:17:04 UTC
 - **Events (rolling):**
+  - Jul 28 07:17Z — informational: $NEAR forced out at breakeven, watching for 1.52 drop risk [2082002382527844556]
   - Jul 28 07:06Z — informational: $AVAX H4 breakout with cleared liquidity on both sides, expecting uptrend [2081999645245358333]
   - Jul 27 18:13Z — ambiguous: "@Ehn_7H 100%"; cryptic reply, context missing; calibration pending [2081805111727145162]
   - Jul 27 14:52Z — ambiguous: stop loss hit; "both" positions unclear; calibration pending [2081754498591051895]
