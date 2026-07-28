@@ -403,7 +403,8 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - Jul 27 23:07Z — informational-silent: supporting channel conviction philosophy — "Yeah. Most coins are not 2 cycle coins"; generic market belief statement (most alts fail to survive multiple full cycles); no execution language, no ticker/position action; supporting channel (Chat) member chat; routine conviction reinforcement aligned with existing bearish alt thesis; silent-log per supporting-channel quiet protocol (no related primary-channel anchor, non-actionable belief) [1531437915047985314]
 - Last seen: 2026-07-27 23:07:31 UTC
   - Jul 27 23:14Z — informational: BTCDOM 1h support/resistance levels; chart setup aligns with bearish thesis [2081881018299187697]
-- Last seen: 2026-07-27 23:14:48 UTC
+  - Jul 28 05:31Z — informational: KOSPI macro equities breakdown — Korea Composite Index down -10.59% today (-715 pts), -14.34% past 5 days; sarcastic "Losing 10% a day instead?" framing; validates broader bearish stance on legacy markets alongside crypto shorts [2081975876946907610]
+- Last seen: 2026-07-28 05:31:44 UTC
 - **PENDING: Jul 27 11:15Z (Discord Free) — bare Twitter link** — No Discord explanation provided; tweet link only: https://x.com/i/status/2081699412993339463. Posted during active conviction phase (recent kaito/ETH/ZEC shorts, "targeting much lower"). Bare-URL pattern matching numerous PENDING calibrations. Interpretation: conviction reinforcement, new market observation, or skip? Calibration alert sent. [1531258616093474946]
   - Jul 27 13:37Z — informational: BTC breakout above 90D RVWAP to 67,657 on 4h chart; technical resistance-test observation within short thesis targeting 60.8K/59.3K [2081735815395467696]
 - Last seen: 2026-07-27 13:37:49 UTC

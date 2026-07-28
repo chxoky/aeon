@@ -1,0 +1,78 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "separator_1",
+        "stats_group",
+        "link_tweet"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "KOSPI (Korea Composite Index) down -10.59% today (-715 pts) | -14.34% past 5 days (6,040.47 KRW). Macro equities weakness validates bearish positioning."
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stats_group": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat_today",
+        "stat_5days"
+      ]
+    },
+    "stat_today": {
+      "type": "Stat",
+      "props": {
+        "label": "Today",
+        "value": "-10.59%",
+        "delta": "-715 pts",
+        "trend": "down"
+      }
+    },
+    "stat_5days": {
+      "type": "Stat",
+      "props": {
+        "label": "Past 5 days",
+        "value": "-14.34%",
+        "delta": "6,040.47 KRW",
+        "trend": "down"
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/HeartCanHodl/status/2081975876946907610"
+      }
+    }
+  }
+}
