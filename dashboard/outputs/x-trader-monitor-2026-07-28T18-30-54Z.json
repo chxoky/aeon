@@ -1,0 +1,58 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading_main",
+        "context_text",
+        "separator_1",
+        "tweet_card",
+        "separator_2",
+        "analysis_alert"
+      ]
+    },
+    "heading_main": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h2"
+      }
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to @LunaticxOsmo on Jul 28 18:12Z",
+        "variant": "caption"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "They're about 7% of my options book now. Will take it to 10% post-earnings if I think I should. But let's be real, it's Apple, if it doesn't feel right I won't dig my feet in."
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "analysis_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Missing reply context",
+        "message": "Unclear which position/structure they're discussing (Apple calls, puts, or other). What's your read?",
+        "type": "info"
+      }
+    }
+  }
+}

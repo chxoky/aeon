@@ -559,6 +559,7 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - Jul 28 05:53Z — informational: TOTAL3/OTHERS altcoin indices support test; chart analysis on breadth structure at key levels [2081981290702889247]
   - Jul 28 06:15Z — informational: BTC/USDT/USDC stablecoin supply cycle — 256.35B (-57.7M), contraction parallels prior cycle patterns [2081986835090448599]
   - Jul 28 15:14Z — informational: AAPL, VIX; dispersion trade scenarios (risk on vs risk off after this week's events); Apple 41x multiple juice questioned, two-scenario framework on Vol/correlation regime [2082122455372407034]
+  - Jul 28 18:12Z — ambiguous: AAPL reply to @LunaticxOsmo; 7% options book, scale to 10% post-earnings; context missing [2082167215714185687]
 - Last seen: 2026-07-28 15:14:00 UTC
 - **PENDING Calibrations:**
   - PENDING: Jul 27 23:42 "May be pushing it with this one lmao (This is an extreme left tail scenario, we'd need Warsh + Ueda hike + some FUD)". Cryptic reference to unspecified scenario. Questions: (1) what is "this one" referring to — a trade position, market scenario, or macro thesis? (2) is "pushing it" a self-directed concern about risk exposure or market observation? (3) what is the timeframe/context for this extreme scenario? Calibration alert sent [2081887902305579508]
