@@ -109,9 +109,9 @@
   "token-movers": {
     "last_dispatch": "2026-07-27T13:59:36Z",
     "last_status": "success",
-    "last_success": "2026-07-27T14:10:27Z",
-    "total_runs": 28,
-    "total_successes": 28,
+    "last_success": "2026-07-28T08:08:35Z",
+    "total_runs": 29,
+    "total_successes": 29,
     "total_failures": 0,
     "consecutive_failures": 0,
     "success_rate": 1
