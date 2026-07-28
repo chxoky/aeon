@@ -1,0 +1,128 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — X Trader Monitor"
+      },
+      "children": [
+        "badge_calibration",
+        "sep_1",
+        "event_section",
+        "sep_2",
+        "post_card",
+        "sep_3",
+        "analysis_section",
+        "sep_4",
+        "link_view"
+      ]
+    },
+    "badge_calibration": {
+      "type": "Badge",
+      "props": {
+        "text": "@HeartCanHodl",
+        "variant": "outline"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "event_section": {
+      "type": "Heading",
+      "props": {
+        "text": "Event: X post reply to external trader reference",
+        "level": "h3"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "post_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "@CL207 Solunavax was the pico top"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert_classification",
+        "notes_stack"
+      ]
+    },
+    "alert_classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read?",
+        "type": "warning"
+      }
+    },
+    "notes_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "note_unknown_ticker",
+        "note_cl207",
+        "note_no_context"
+      ]
+    },
+    "note_unknown_ticker": {
+      "type": "Text",
+      "props": {
+        "text": "Unknown ticker reference (Solunavax unrecognized)",
+        "variant": "body"
+      }
+    },
+    "note_cl207": {
+      "type": "Text",
+      "props": {
+        "text": "Possible CL207 reference to Crude Oil futures",
+        "variant": "body"
+      }
+    },
+    "note_no_context": {
+      "type": "Text",
+      "props": {
+        "text": "External market observation — No execution language or financial context detected",
+        "variant": "body"
+      }
+    },
+    "sep_4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/HeartCanHodl/status/2082114963636986016"
+      }
+    }
+  }
+}
