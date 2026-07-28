@@ -1,0 +1,14 @@
+#!/usr/bin/env python3
+import json
+import base64
+import sys
+
+encoded = "eyJpZCI6IjIwODIwMDA1MDk1MTk0OTUyMjAiLCJ1c2VybmFtZSI6InN3YXJtaXN0ZXIiLCJ0ZXh0IjoiJE5FQVIgdXBkYXRlICsgRDEgYW5hbHlzaXMuIFxuXG5JIHJlYWxseSBsaWtlZCBpdCBvbiB0aGUgTVRGIHllc3RlcmRheSwgYnV0IGFzIHlvdSBjYW4gc2VlLCB0aGUgc2l0dWF0aW9uIGhhcyBjaGFuZ2VkLCBhbmQgSSB0aGluayBpdOKAmXMgY2xlYXIgdGhhdCBJIHdhcyBmb3JjZWQgb3V0IG9mIHRoZSB0cmFkZSBhdCBicmVha2V2ZW4uXG5cblRoZXJl4oCZcyBhIHJpc2sgaXQgY291bGQgZHJvcCB0byAxLjUyLCBzbyBJ4oCZbGwganVzdCBiZSB3YXRjaGluZyBmb3Igbm93LiBcblxuRnVjayB5b3UgYmxhbmMiLCJjcmVhdGVkX2F0IjoiVHVlIEp1bCAyOCAwNzowOTozNyArMDAwMCAyMDI2IiwidXJsIjoiaHR0cHM6Ly94LmNvbS9zd2FybWlzdGVyL3N0YXR1cy8yMDgyMDAwNTA5NTE5NDk1MjIwIiwibWVkaWEiOlsiaHR0cHM6Ly9wYnMudHdpbWcuY29tL21lZGlhL0hPTlRiTE5XUUFBSTdnWi5qcGciLCJodHRwczovL3Bicy50d2ltZy5jb20vbWVkaWEvSE9OVGJMV1c4QUFZNHA0LmpwZyJdfQ=="
+
+try:
+    decoded = base64.b64decode(encoded).decode('utf-8')
+    event = json.loads(decoded)
+    print(json.dumps(event, indent=2))
+except Exception as e:
+    print(f"Error: {e}", file=sys.stderr)
+    sys.exit(1)
