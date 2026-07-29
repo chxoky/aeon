@@ -11,3 +11,10 @@ Skill execution complete. Crypto_Chase's Discord message (ID: 153209816858453617
 - **Memory update:** Message ID logged to `discord-trader-seen.txt` for dedup tracking; event logged to daily log; no traders.md entry added (skip protocol)
 
 The message contains zero financial signal, zero execution language, and zero market analysis — it's a reflective comment on his trading psychology/process, not a trade action or market observation.
+🔍 *Calibration — [DC: Chase — Chase]*
+
+Event: Recent market context
+
+Crypto_Chase: "I'm not a fan that it left behind major liquidity on the daily , I'd like for it to come back and clean that up"
+
+Unable to classify — what asset is this about? (MU? SNDK? ES? BTC? Another?)
