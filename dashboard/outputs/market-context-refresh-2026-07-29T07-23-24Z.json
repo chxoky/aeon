@@ -1,0 +1,143 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "market context",
+        "description": "2026-07-29"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_take",
+        "stack_line2",
+        "stack_line3",
+        "text_fomc_header",
+        "stat_fomc",
+        "alert_hch",
+        "text_hot_market"
+      ]
+    },
+    "badge_take": {
+      "type": "Badge",
+      "props": {
+        "text": "chop (medium conviction)",
+        "variant": "default"
+      }
+    },
+    "stack_line2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stack_prices",
+        "badge_fg"
+      ]
+    },
+    "stack_prices": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_btc",
+        "stat_eth"
+      ]
+    },
+    "stat_btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$64,406",
+        "delta": "+1.43%",
+        "trend": "up"
+      }
+    },
+    "stat_eth": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$1,917.95",
+        "delta": "+1.76%",
+        "trend": "up"
+      }
+    },
+    "badge_fg": {
+      "type": "Badge",
+      "props": {
+        "text": "F&G 29 (Fear)",
+        "variant": "secondary"
+      }
+    },
+    "stack_line3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "progress_breadth",
+        "text_kospi"
+      ]
+    },
+    "progress_breadth": {
+      "type": "Progress",
+      "props": {
+        "label": "Breadth",
+        "value": 14,
+        "max": 20
+      }
+    },
+    "text_kospi": {
+      "type": "Text",
+      "props": {
+        "text": "KOSPI -10% absorbed",
+        "variant": "body"
+      }
+    },
+    "text_fomc_header": {
+      "type": "Text",
+      "props": {
+        "text": "FOMC 2pm ET",
+        "variant": "lead"
+      }
+    },
+    "stat_fomc": {
+      "type": "Stat",
+      "props": {
+        "label": "no-change",
+        "value": "78.85%",
+        "delta": "+1.75pp",
+        "trend": "up"
+      }
+    },
+    "alert_hch": {
+      "type": "Alert",
+      "props": {
+        "title": "HCH counter-short TAO",
+        "message": "06:54 UTC",
+        "type": "warning"
+      }
+    },
+    "text_hot_market": {
+      "type": "Text",
+      "props": {
+        "text": "Hot market: \"Fed no change July\" 78.85%",
+        "variant": "lead"
+      }
+    }
+  }
+}

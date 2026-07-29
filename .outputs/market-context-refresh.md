@@ -1,8 +1,8 @@
-market context — 2026-07-28
+market context — 2026-07-29
 
-take: risk-off (conviction high)
-BTC $63,423 (−3.1%) / ETH $1,889 (−4.4%) · F&G 29 Fear
-breadth 3/77 · DEX $7.43B (+20% vs 7d avg)
-Fed +25bps dropped to 23% (was 28%) · FOMC tomorrow 2pm ET
-top narrative: pre-FOMC gate (peak)
-hot market: "Fed no change Jul 2026" YES 77.1%
+take: chop (conviction medium)
+BTC $64,406 (+1.43%) / ETH $1,917.95 (+1.76%) · F&G 29 (Fear)
+breadth 14/20 · KOSPI -10% absorbed
+FOMC 2pm ET: no-change 78.85% (+1.75pp)
+⚠ HCH counter-short TAO 06:54 UTC
+hot market: "Fed no change July" 78.85%
