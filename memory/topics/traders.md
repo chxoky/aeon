@@ -735,6 +735,7 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - Jul 24 13:51Z — mirror-stop-out: BTC long stopped at B/E after partial TP; "chill here and wait it out, pa weaker than thought" [2080652203056840909]
   - Jul 25 06:54Z — informational: FWA market sentiment — whole CT talking about it; Jack Butcher product drop catalyst [2080909493626352062]
   - Jul 29 07:44Z — informational: BTC FOMC pre-market technical analysis; watching 7d rvwap (64.4K), 30d rvwap (63.3K), 90d rvwap (67.5K); poly sees 21% hike prob, bull_genius thinks 0%; if no FOMC change expects 90d rvwap/yearly poc test and 70K quick if BTC breaks res; today chilling, waiting for bargains on risex acc [2082371752449978425]
+  - Jul 29 11:25Z — informational: monthly performance summary; disciplined exits, selective perp, avoiding daily trading [2082427179913072743]
 
 ## Stoiiic
 - Platforms: X (X-only; no Discord)
