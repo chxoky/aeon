@@ -1,0 +1,170 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @HeartCanHodl"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_context",
+        "sep_1",
+        "heading_basket",
+        "stack_positions",
+        "text_conviction",
+        "text_profitable",
+        "sep_2",
+        "tweet_reaction",
+        "alert_unclear"
+      ]
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "Context: Structural bearish short basket (BTC/ETH/SOL/HYPE/ZEC/UNI/VVV/KAITO/CL); recent UNI conviction adds (Jul 29 06:54Z, 14:14Z); multiple positions likely profitable as of 22:06 UTC.",
+        "variant": "body"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_basket": {
+      "type": "Heading",
+      "props": {
+        "text": "Structural Bearish Short Basket",
+        "level": "h3"
+      }
+    },
+    "stack_positions": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_btc",
+        "badge_eth",
+        "badge_sol",
+        "badge_hype",
+        "badge_zec",
+        "badge_uni",
+        "badge_vvv",
+        "badge_kaito",
+        "badge_cl"
+      ]
+    },
+    "badge_btc": {
+      "type": "Badge",
+      "props": {
+        "text": "BTC",
+        "variant": "default"
+      }
+    },
+    "badge_eth": {
+      "type": "Badge",
+      "props": {
+        "text": "ETH",
+        "variant": "default"
+      }
+    },
+    "badge_sol": {
+      "type": "Badge",
+      "props": {
+        "text": "SOL",
+        "variant": "default"
+      }
+    },
+    "badge_hype": {
+      "type": "Badge",
+      "props": {
+        "text": "HYPE",
+        "variant": "default"
+      }
+    },
+    "badge_zec": {
+      "type": "Badge",
+      "props": {
+        "text": "ZEC",
+        "variant": "default"
+      }
+    },
+    "badge_uni": {
+      "type": "Badge",
+      "props": {
+        "text": "UNI",
+        "variant": "secondary"
+      }
+    },
+    "badge_vvv": {
+      "type": "Badge",
+      "props": {
+        "text": "VVV",
+        "variant": "default"
+      }
+    },
+    "badge_kaito": {
+      "type": "Badge",
+      "props": {
+        "text": "KAITO",
+        "variant": "default"
+      }
+    },
+    "badge_cl": {
+      "type": "Badge",
+      "props": {
+        "text": "CL",
+        "variant": "default"
+      }
+    },
+    "text_conviction": {
+      "type": "Text",
+      "props": {
+        "text": "Recent UNI conviction adds: Jul 29 06:54Z, 14:14Z",
+        "variant": "body"
+      }
+    },
+    "text_profitable": {
+      "type": "Text",
+      "props": {
+        "text": "Multiple positions likely profitable as of 22:06 UTC",
+        "variant": "lead"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet_reaction": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "Seeing it live :)"
+      }
+    },
+    "alert_unclear": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Which position is this reacting to? Price level? What's your read?",
+        "type": "warning"
+      }
+    }
+  }
+}

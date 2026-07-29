@@ -376,7 +376,8 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - PENDING: "If we go by textbookish interpretation" Chat Jul 27 — cryptic terse fragment [1531130870419947671]
   - PENDING: "Fc clusdt.p 5m" Chat Jul 28 — Same "Fc {ticker} {timeframe}" pattern PENDING explicit calibration (matches Jul 27 23:18Z "Fc btcdom 1hr", Jul 27 02:45Z "Fc btc 1w", Jul 26 19:00Z "Fc btc 1hr", Jul 26 18:54Z "Fc btc 15m", Jul 24 09:03Z "Fc cl 1m"). Context: HCH active CL 2% short (entered Jul 24 at ~$90, currently +13% profit). Is "Fc" = form-confirmed chart observation (technical only, skip)? Or technical signal requiring action (add/cover)? Or conviction reinforcement? Pattern appears 7+ times (Jul 24–28), all awaiting calibration. Calibration alert sent. [1531691486499045436]
   - PENDING: Jul 29 21:49Z Discord Free channel bare URL "https://x.com/i/status/2082583488578850861" — self-share (own post), external signal, or test? No text context provided. Calibration alert sent. [1532142988870811708]
-- Last seen: 2026-07-29 19:51:47 UTC
+  - PENDING: Jul 29 22:06Z X "Seeing it live :)" — cryptic one-liner, likely reaction to market action validating one of short positions (BTC/ETH/SOL/HYPE/ZEC/UNI/VVV/KAITO/CL basket); no ticker/level/execution language; context missing; awaiting calibration. [2082588489061933164]
+- Last seen: 2026-07-29 22:06:03 UTC
 - Last seen: 2026-07-29 15:03:39 UTC
 - **Events (rolling):**
   - Jul 29 19:58Z — trade-partial-tp: BTC 20% pf short covered in 63k range (Comments channel, primary; fast-path-alerted=true); explicit closing language "Covered 20%" confirms position reduction on existing BTC short basket; conditional re-add plan if bounce to 65k; profit-taking discipline on BTC shorts [1532115138306375690]
