@@ -1,0 +1,153 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "market context — 2026-07-29"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_take",
+        "stack_prices",
+        "badge_fg",
+        "stat_breadth",
+        "stat_tvl",
+        "separator_1",
+        "heading_narratives",
+        "stack_fomc",
+        "separator_2",
+        "heading_hotmarket",
+        "progress_fed"
+      ]
+    },
+    "badge_take": {
+      "type": "Badge",
+      "props": {
+        "text": "chop • medium conviction",
+        "variant": "outline"
+      }
+    },
+    "stack_prices": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat_btc",
+        "stat_eth"
+      ]
+    },
+    "stat_btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$64,241",
+        "delta": "+1.4%",
+        "trend": "up"
+      }
+    },
+    "stat_eth": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$1,896.63",
+        "delta": "+0.6%",
+        "trend": "up"
+      }
+    },
+    "badge_fg": {
+      "type": "Badge",
+      "props": {
+        "text": "F&G 29 (Fear)",
+        "variant": "destructive"
+      }
+    },
+    "stat_breadth": {
+      "type": "Stat",
+      "props": {
+        "label": "Breadth",
+        "value": "12/20"
+      }
+    },
+    "stat_tvl": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH TVL",
+        "value": "$41.37B"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_narratives": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Narrative",
+        "level": "h3"
+      }
+    },
+    "stack_fomc": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_fomc",
+        "stat_hike"
+      ]
+    },
+    "text_fomc": {
+      "type": "Text",
+      "props": {
+        "text": "FOMC gate (peak)",
+        "variant": "lead"
+      }
+    },
+    "stat_hike": {
+      "type": "Stat",
+      "props": {
+        "label": "Hike odds",
+        "value": "24.95%",
+        "delta": "+3.8pp",
+        "trend": "up"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_hotmarket": {
+      "type": "Heading",
+      "props": {
+        "text": "Hot Market",
+        "level": "h3"
+      }
+    },
+    "progress_fed": {
+      "type": "Progress",
+      "props": {
+        "value": 75.25,
+        "max": 100,
+        "label": "Fed no change July 2026 — YES"
+      }
+    }
+  }
+}
