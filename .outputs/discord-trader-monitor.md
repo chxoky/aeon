@@ -1,20 +1,18 @@
 ## Summary
 
-Skill execution complete. Crypto_Chase's Discord message (ID: 1532098168584536170, 18:51:08 UTC) was classified as **SKIP (non-financial)**.
+**discord-trader-monitor** skill execution complete.
 
-**Event details:**
-- **Trader:** Crypto_Chase  
-- **Channel:** 1336082716063694962 (primary)  
-- **Content:** "don't know how I choose the winner. I just do." — personal philosophy/methodology reflection on trading decision-making
-- **Classification:** Non-financial banter (Step 5A)  
-- **Alert:** No Telegram sent  
-- **Memory update:** Message ID logged to `discord-trader-seen.txt` for dedup tracking; event logged to daily log; no traders.md entry added (skip protocol)
+**Event processed:** HeartCanHodl ADA short entry (1% allocation) at 2026-07-29T18:56:57Z
 
-The message contains zero financial signal, zero execution language, and zero market analysis — it's a reflective comment on his trading psychology/process, not a trade action or market observation.
-🔍 *Calibration — [DC: Chase — Chase]*
+**Classification:** trade-new-entry (new ticker in short basket)
 
-Event: Recent market context
+**Channel:** 1279738718680256553 (HCH — Trades, ★ primary)
 
-Crypto_Chase: "I'm not a fan that it left behind major liquidity on the daily , I'd like for it to come back and clean that up"
+**Status:** Fast-path alerted=true (Telegram already sent by Cloudflare Worker ~2-5s pre-skill). Skill skipped Telegram, processed classification + memory updates only per protocol.
 
-Unable to classify — what asset is this about? (MU? SNDK? ES? BTC? Another?)
+**Memory updates:**
+- discord-trader-seen.txt: message ID 1532099633806049420 added (dedup tracking)
+- traders.md: event logged to HeartCanHodl rolling events (Jul 29 18:56Z trade-new-entry)
+- memory/logs/2026-07-29.md: full event details logged with classification reasoning
+
+**Key context:** ADA is the 11th ticker in HCH's documented short basket (after BTC/ETH/SOL/HYPE/ZEC/UNI/VVV/KAITO/CL/TAO). Execution continues pattern of tier-1 conviction adds on primary channel with direct terse format.
