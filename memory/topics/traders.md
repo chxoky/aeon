@@ -358,6 +358,7 @@ BOOTSTRAP_COMPLETE: 2026-07-14
 - Last seen: 2026-07-29 19:30:41 UTC
 - Last seen: 2026-07-29 15:03:39 UTC
 - **Events (rolling):**
+  - Jul 29 19:39Z — trade-partial-tp: ETH 2% pf short closed (Trades channel, primary; fast-path-alerted=true); verbatim rule enforced — exact message "Cover 2% eth short" preserved in memory; explicit closing language confirms position reduction on existing ETH short basket; profit-taking on ETH shorts [1532110371727343748]
   - Jul 29 19:30Z — ambiguous: technical price-level prediction without ticker context; "It might be better if it hits a bit higher 1940-1960 before the eventual fall" (Chat supporting channel); no explicit ticker/asset specified, price levels unclear against known positions; awaiting calibration on referent asset and prediction scope; fast-path-alerted by Worker (alert sent ~2-5s prior) [1532108120044736653]
   - Jul 29 15:03Z — informational-silent-dedup: $BANK X reiteration of Discord Jul 28 13:06Z post "Fc bank 15m"; mechanical repeat with same technical observation; no new information; cross-platform dedup per HR-3 (Discord posted first, X post today is repeat) [2082482192148750805]
   - Jul 29 14:59Z — informational-supporting: "Showing weakness" + URL link to Comments-channel prior post; supporting channel (Chat); conviction reinforcement/market observation tag on earlier technical work (Jul 29 13:41Z "Already trading under blue ema"); no new position action; supporting-channel context folded into primary-channel activity; fast-path-alerted=false [1532039920892383333]

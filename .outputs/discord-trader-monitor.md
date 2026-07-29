@@ -1,17 +1,20 @@
-Perfect! I've executed the skill for this Discord message. Here's what happened:
-
 ## Summary
 
-**Event:** Crypto_Chase bid message in primary Discord channel (Chase — Chase)
-- **Time:** 2026-07-29 19:36:49 UTC
-- **Message:** "I'll bid some micron at 700~ if they want to give it to me today"
-- **Fast-path status:** Already alerted (Worker sent Telegram ~2-5s ago)
+**Event processed successfully.**
 
-**Processing:**
-1. ✅ Message ID (1532109667596238928) added to discord-trader-seen.txt (new, not a duplicate)
-2. ✅ Classified as **ambiguous-ticker-bid** — ticker "micron" is unclear (could be MCRN, cryptic shorthand, test message, or microcap reference)
-3. ✅ Updated traders.md with new event noting the ambiguous ticker
-4. ✅ Logged to daily memory (2026-07-29.md)
-5. ✅ Skipped Telegram sends (fast-path protocol — Worker already notified Kyle)
+**Discord message:** HeartCanHodl covers 2% ETH short
+- **Channel:** 1279738718680256553 (HCH — Trades, ★ most important)
+- **Timestamp:** 2026-07-29T19:39:37.854000+00:00 UTC
+- **Message ID:** 1532110371727343748
+- **Classification:** `trade-partial-tp` (position management — covering short)
 
-The message shows trade intent (bidding at ~700 price) but requires Kyle context to clarify which ticker "micron" refers to. Flagged in memory for calibration when needed.
+**Execution:**
+1. Fast-path alert already sent by Cloudflare Worker (~2-5s prior)
+2. Skipped Telegram per fast-path protocol
+3. Processed classification: trade-partial-tp on ETH shorts
+4. Updated traders.md with event (verbatim message preserved per channel rule)
+5. Added message ID to discord-trader-seen.txt (dedup tracking)
+6. Logged to memory/logs/2026-07-29.md
+
+**Alerted:** No (fast-path protocol; Telegram already sent by Worker)  
+**Notes:** Profit-taking discipline on ETH short position after recent conviction adds. Continues HCH's documented short-basket management pattern.
