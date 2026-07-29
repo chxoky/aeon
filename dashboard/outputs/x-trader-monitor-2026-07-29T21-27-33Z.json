@@ -1,0 +1,160 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "separator_1",
+        "details_section",
+        "separator_2",
+        "source_link"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "SPY technical analysis — developing structure with key levels marked (755.52 resistance, 700/780 zones). Multi-timeframe chart shared with @lord_fed.\n\nAligns with your watch list (SPX/ES/NDX group). WR averaging in SPY via options/macro vol thesis."
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "details_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "tech_section",
+        "strategy_section"
+      ]
+    },
+    "tech_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tech_heading",
+        "tech_details"
+      ]
+    },
+    "tech_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Technical Analysis",
+        "level": "h3"
+      }
+    },
+    "tech_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "resistance_text",
+        "zones_text",
+        "chart_text"
+      ]
+    },
+    "resistance_text": {
+      "type": "Text",
+      "props": {
+        "text": "Resistance Level: 755.52"
+      }
+    },
+    "zones_text": {
+      "type": "Text",
+      "props": {
+        "text": "Key Zones: 700 / 780"
+      }
+    },
+    "chart_text": {
+      "type": "Text",
+      "props": {
+        "text": "Multi-timeframe chart analysis"
+      }
+    },
+    "strategy_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "strategy_heading",
+        "watchlist_stack",
+        "thesis_text"
+      ]
+    },
+    "strategy_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch List & Strategy",
+        "level": "h3"
+      }
+    },
+    "watchlist_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_spx",
+        "badge_es",
+        "badge_ndx"
+      ]
+    },
+    "badge_spx": {
+      "type": "Badge",
+      "props": {
+        "text": "SPX"
+      }
+    },
+    "badge_es": {
+      "type": "Badge",
+      "props": {
+        "text": "ES"
+      }
+    },
+    "badge_ndx": {
+      "type": "Badge",
+      "props": {
+        "text": "NDX"
+      }
+    },
+    "thesis_text": {
+      "type": "Text",
+      "props": {
+        "text": "WR averaging in SPY via options/macro vol thesis"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "source_link": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/Wild_Randomness/status/2082577027862040976"
+      }
+    }
+  }
+}
