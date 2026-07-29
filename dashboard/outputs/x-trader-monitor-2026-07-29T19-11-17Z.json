@@ -1,0 +1,24 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "Wild_Randomness",
+        "text": "FOMC Playbook 101 — Post-Fed decision QQQ structure: initial capitulation (to ~665 on 5m), fakeout bounce attempt, then structural recovery. Charts show multi-timeframe pattern across 1m/5m/15m/30m with major volume spike at announcement, now recovering toward 678+ (reversing from 666 lows)."
+      },
+      "children": []
+    }
+  }
+}
