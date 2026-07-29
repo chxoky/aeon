@@ -172,8 +172,9 @@ BOOTSTRAP_COMPLETE: 2026-07-14
 - Last seen: 2026-07-29 15:09:12 UTC
 - **Events (rolling):**
   - Jul 29 15:09Z — informational: SNDK/MU buy-level setup; SNDK stops below 1000 (980 target), MU 770–660 range both "good buy" candidates; market context "highest-risk scenario" (potential surprise rate hike surprise), unavailable later (physical therapy); Discord primary; image attachment (charts); fast-path-alerted by Worker [1532042316015992873]
-- Last seen: 2026-07-29 19:36:49 UTC
+- Last seen: 2026-07-29 21:05:09 UTC
 - **Events (rolling):**
+  - Jul 29 21:05Z — informational-supporting: member Q&A reply on SNDK sweep scenario below 980; confirmation of primary-channel 15:09Z technical setup; Crypto_Chase message: "Yeah with all this dicking around we're doing, it's seeming more likely" (agreeing with member optiontrader5325 on demand flush/sweep bid below 980); Discord TradFi supporting channel, is_reply=true, no new entry; folded into Jul 29 15:09Z context as memory-only (no standalone alert); fast-path-alerted=false, full processing applied [1532131897285677148]
   - Jul 29 19:36Z — ambiguous-ticker-bid: "I'll bid some micron at 700~ if they want to give it to me today"; ticker "micron" unclear (MCRN? test? cryptic shorthand?); price target ~700; Discord primary channel; fast-path-alerted by Worker; awaiting calibration [1532109667596238928]
   - Jul 29 18:53Z — ambiguous: technical observation on unspecified asset's liquidity structure; "I'm not a fan that it left behind major liquidity on the daily , I'd like for it to come back and clean that up"; Discord primary; no ticker/execution language; awaiting calibration [1532098678548860990]
   - Jul 29 16:56Z — informational-silent-dedup: X reiteration of Discord 15:09Z post "SNDK/MU buy-level setup"; mechanical repeat (990 level ≈ 1000 zone target), no new detail; cross-platform dedup per HR-3; silent log-only [2082510569353953371]
