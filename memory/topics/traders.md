@@ -7,6 +7,22 @@ BOOTSTRAP_COMPLETE: 2026-07-14
 
 *Compacted 2026-07-26 by trader-memory-compact (was 147KB). Full event history: memory/logs/. Format + rolling caps: see skills/trader-memory-compact/SKILL.md.*
 
+## Crypto_Chase
+- Platforms: X + Discord (primary 1336082716063694962)
+- Current open positions: **MU — 20% LONG** (DCA plan from 800–820, cumulative 80% TP'd through Jul 27 at tiered exits 930–991–1480 levels; 20% core remainder held per original thesis). **SNDK — 20% LONG** (cumulative 80% TP'd through Jul 27 at tiered exits 1533–1675–1480 levels; 20% core remainder held). Recent TP pattern: disciplined quarter-by-quarter exits with tight stops at BE on remainder. **ES (S&P 500 e-mini) — ACTIVE LONG** (dream conviction entry Jun 21, monitoring structure through Jul).
+- Recent thesis: Caution on AI trade mean-reversion bounce speed (Jul 29 20:41Z). Market participants expect Fed direction change; Chase skeptical of "flash crash + very quick bounce" pattern. Long-term targets identified: **SNDK 900s/800s longer than usual** (14-16% downside from 1000+ levels), **MU 600s possible** (27% downside from recent avg). **Personal conviction:** Conservative sizing, bidding in "sorta in the middle" (risk parameters tight), gut feeling "something's just a little bit off" — framework suggests waiting for better/lower entries into broader AI sector weakness. Structured for long-term accumulation (not intraday/scalp).
+- Conviction notes: Disciplined tiered-TP trader — takes profits at technical resistance, holds remainder to core thesis targets. Multi-tranche accumulation strategy on dips (MU/SNDK pattern: buy weakness, TP on pops). Low-emotional volatility — "as always I just want to give you guys my gut thoughts" = routine conviction-sharing without panic. Frames trades around Fibonacci/technical structure (0.5–0.618 retracement zones documented, generational-bottom language on SNDK). Most recent update (Jul 29) shows patience/caution stance despite past successful TP cycle (80% MU/SNDK closed in profit through Jul 27).
+- Calibration: none yet.
+- Last seen: 2026-07-29 20:41:00 UTC
+- **Events (rolling):**
+  - Jul 29 20:41Z — informational: Market caution on AI trade (conservative bidding plan, long-term sector weakness conviction, SNDK 900s/800s + MU 600s targets); gut feeling on bounce speed + sizing discipline (Discord primary, fast-path-alerted) [1532125815821566074]
+  - Jul 27 00:57:29Z — trade-position-mgmt: SNDK 80% cumulative TP at $1480 (MU also 80% at $941); remaining 20% core held with SL B/E (Discord primary, fast-path-alerted) [1531103202328711188]
+  - Jul 24 13:35:58Z — trade-position-mgmt: MU trim 10% at $960 (70% cumulative TP); SNDK trim 10% at $1675 (60% cumulative TP) (Discord primary, fast-path-alerted) [1530206914842202202]
+  - Jul 23 16:52:13Z — trade-position-mgmt: SNDK trim 10% ahead of target at $1675 due to INTC earnings risk; (60% cumulative TP) (Discord primary, fast-path-alerted) [1529893916420210831]
+  - Jul 23 13:49:30Z — call: Conditional TP guidance — MU 1035 + SNDK 1700 (if both hit today, close 10% more each) (Discord primary, fast-path-alerted) [1529847933913272401]
+  - Jul 21 22:53:07Z — call: Additional TP tier — 60% cumulative close (50% at 1533 + 10% contingent at 1654 = 60% closed, 40% remainder runs) (Discord primary, fast-path-alerted) [1529259965246607472]
+  - Jul 21 14:56:24Z — trade-partial-tp: TP summary — MU 50% at ~$935 + SNDK 50% at ~$1533; remainder under DCA plan (X + Discord, fast-path-alerted) [2079581261996101922 / 1529125283037184111]
+
 ## KillaXBT
 - Platforms: X + Discord (primary 1411492188315193416)
 - Current open positions: **BTC — 2x swing LONG from 62.6K** (core HTF conviction, 1.5–2yr hold, established ~Jun 13, reaffirmed continuously). **Spot BTC** — majority of portfolio, ~11 BTC at avg ~65,897, DCA plan targeting ~20 BTC total over 3–4 months on dips; add spot at 54K if it comes; willing to liquidate ISA holdings sub-50K; plans to buy $IBIT in August. **Scalp-short hedge: CLOSED/CANCELLED** — ladder SHORT entered Jul 14 at 64.8–65.8K (~30% hedge), both entries filled, partial TPs Jul 16–17 (50%), remaining cancelled Jul 21 21:46Z. **Forward-looking (not entered):** NEW conditional small short timed to Jul 28–30 pivot — build zones 67.5K/69.2K, SL 72.5K, entry IF bullish narrative into pivot (Jul 22 Discord, planned only).
