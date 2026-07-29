@@ -1,15 +1,11 @@
-🐦 *[X] @KillaXBT*
+🐦 *[X] @trading_axe*
 
-Is anyone really surprised we're seeing exchanges shut down and FUD spreading again?
+So easy to ignite FOMO in a bear market.
 
-$BTC follows the same pattern every cycle. 
+Takes nothing but semi-competence to standout onchain and everyone chases the "runner" as a result.
 
-The only thing that changes is the headlines.
+Cabal paradise.
 
-At this point, it's becoming painfully obvious. The media and fear narratives manipulate the masses into making emotional decisions, proving just how easily people can be influenced by the news.
+~ Dr. Axius.
 
-News is a tool to give people a cognitive bias & distort perception. 
-
-Do yourself a favour & ignore the headlines. Your results will improve when you're not influenced.
-
-[View post](https://x.com/KillaXBT/status/2082265297235407058)
+[View tweet](https://x.com/trading_axe/status/2082283663102808375)

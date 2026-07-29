@@ -1,0 +1,31 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet",
+        "link"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Dr. Axius",
+        "handle": "trading_axe",
+        "text": "So easy to ignite FOMO in a bear market.\n\nTakes nothing but semi-competence to standout onchain and everyone chases the \"runner\" as a result.\n\nCabal paradise.\n\n~ Dr. Axius."
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/trading_axe/status/2082283663102808375"
+      }
+    }
+  }
+}
