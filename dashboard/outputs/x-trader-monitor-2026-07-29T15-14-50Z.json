@@ -1,0 +1,205 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor: Calibration",
+        "description": "Post analysis from @Wild_Randomness on AAPL"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_event",
+        "sep1",
+        "text_position_header",
+        "stack_position",
+        "sep2",
+        "heading_post",
+        "tweet_card",
+        "text_post_note",
+        "sep3",
+        "heading_analysis",
+        "stack_analysis",
+        "sep4",
+        "link_view_post"
+      ]
+    },
+    "heading_event": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_position_header": {
+      "type": "Text",
+      "props": {
+        "text": "Position Details",
+        "variant": "lead"
+      }
+    },
+    "stack_position": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_instrument",
+        "text_position_details",
+        "text_strike",
+        "text_entries"
+      ]
+    },
+    "text_instrument": {
+      "type": "Text",
+      "props": {
+        "text": "Instrument: AAPL (Apple Inc.)"
+      }
+    },
+    "text_position_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "text_position_label",
+        "badge_short"
+      ]
+    },
+    "text_position_label": {
+      "type": "Text",
+      "props": {
+        "text": "Position:"
+      }
+    },
+    "badge_short": {
+      "type": "Badge",
+      "props": {
+        "text": "SHORT",
+        "variant": "destructive"
+      }
+    },
+    "text_strike": {
+      "type": "Text",
+      "props": {
+        "text": "Options: October $300 puts"
+      }
+    },
+    "text_entries": {
+      "type": "Text",
+      "props": {
+        "text": "Entry Range: $341–$342 (as of Jul 28)"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_post": {
+      "type": "Heading",
+      "props": {
+        "text": "Post Content",
+        "level": "h3"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "wild_randomness",
+        "handle": "Wild_Randomness",
+        "text": "Apple -10bps\n\n[Attached: sports meme image with text 'ANYTHING IS POSSIBLE']"
+      }
+    },
+    "text_post_note": {
+      "type": "Text",
+      "props": {
+        "text": "Cryptic ticker + metric reference paired with non-financial meme image",
+        "variant": "muted"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_analysis": {
+      "type": "Heading",
+      "props": {
+        "text": "Classification Question",
+        "level": "h3"
+      }
+    },
+    "stack_analysis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_analysis_intro",
+        "text_option_a",
+        "text_option_b",
+        "text_option_c"
+      ]
+    },
+    "text_analysis_intro": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?"
+      }
+    },
+    "text_option_a": {
+      "type": "Text",
+      "props": {
+        "text": "(a) Sarcasm on AAPL recovery chances"
+      }
+    },
+    "text_option_b": {
+      "type": "Text",
+      "props": {
+        "text": "(b) Technical setup observation"
+      }
+    },
+    "text_option_c": {
+      "type": "Text",
+      "props": {
+        "text": "(c) Market sentiment comment"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_view_post": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View post on X",
+        "href": "https://x.com/Wild_Randomness/status/2082482854332903917",
+        "source": "X (formerly Twitter)"
+      }
+    }
+  }
+}

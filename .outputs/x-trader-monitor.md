@@ -42,3 +42,12 @@ Per the skill's cross-platform dedup protocol (Step 3), this is a mechanical rep
 - `memory/logs/2026-07-29.md` — full event log entry added
 
 No notifications sent (silent dedup per protocol).
+🔍 *Calibration — @Wild_Randomness*
+
+Event: Post on AAPL (trader holding SHORT position, Oct $300 puts, entries $341–$342 as of Jul 28)
+
+wild_randomness: "Apple -10bps" {sports meme image: ANYTHING IS POSSIBLE}
+
+Cryptic ticker + metric reference with non-financial meme image. Unable to classify — what's your read? Is this: (a) sarcasm on AAPL recovery chances, (b) technical setup observation, (c) market sentiment comment?
+
+[View post](https://x.com/Wild_Randomness/status/2082482854332903917)
