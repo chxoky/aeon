@@ -1,0 +1,117 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "heading",
+        "channel",
+        "separator1",
+        "message",
+        "separator2",
+        "tickers-label",
+        "tickers"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "💬 Trading Signal",
+        "level": "h2"
+      }
+    },
+    "channel": {
+      "type": "Text",
+      "props": {
+        "text": "Channel: DC: HCH — Trades",
+        "variant": "caption"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message": {
+      "type": "Text",
+      "props": {
+        "text": "You can bid your favorite AI stock play with a 5% allocation as a cushion hedge long (dram/sndk/mu/nbis/orcl/meta/your favourite)"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tickers-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Example Tickers",
+        "level": "h4"
+      }
+    },
+    "tickers": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "dram",
+        "sndk",
+        "mu",
+        "nbis",
+        "orcl",
+        "meta"
+      ]
+    },
+    "dram": {
+      "type": "Badge",
+      "props": {
+        "text": "DRAM",
+        "variant": "outline"
+      }
+    },
+    "sndk": {
+      "type": "Badge",
+      "props": {
+        "text": "SNDK",
+        "variant": "outline"
+      }
+    },
+    "mu": {
+      "type": "Badge",
+      "props": {
+        "text": "MU",
+        "variant": "outline"
+      }
+    },
+    "nbis": {
+      "type": "Badge",
+      "props": {
+        "text": "NBIS",
+        "variant": "outline"
+      }
+    },
+    "orcl": {
+      "type": "Badge",
+      "props": {
+        "text": "ORCL",
+        "variant": "outline"
+      }
+    },
+    "meta": {
+      "type": "Badge",
+      "props": {
+        "text": "META",
+        "variant": "outline"
+      }
+    }
+  }
+}
