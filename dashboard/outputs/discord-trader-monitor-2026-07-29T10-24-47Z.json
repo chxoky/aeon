@@ -1,0 +1,74 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_calibration",
+        "alert_unclassified",
+        "tweet_message",
+        "stack_analysis"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: HCH — Chat]",
+        "level": "h3"
+      }
+    },
+    "alert_unclassified": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to Classify",
+        "message": "Message classification could not be determined automatically",
+        "type": "warning"
+      }
+    },
+    "tweet_message": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "text": "Expecting one update like that hmmm..."
+      }
+    },
+    "stack_analysis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "separator",
+        "text_prompt"
+      ]
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_prompt": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read? Waiting for market update? Sentiment observation? Trade-related?",
+        "variant": "muted"
+      }
+    }
+  }
+}
