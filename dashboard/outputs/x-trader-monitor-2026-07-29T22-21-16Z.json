@@ -1,0 +1,229 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @Crypto_Chase"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section_event",
+        "section_quote",
+        "section_chart",
+        "section_analysis",
+        "section_context",
+        "section_question"
+      ]
+    },
+    "section_event": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_event",
+        "text_event"
+      ]
+    },
+    "heading_event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "X reply to @blknoiz06 with chart link (~1h after Discord DCA plan on MU/SNDK lower levels)"
+      }
+    },
+    "section_quote": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_quote",
+        "tweet_quote"
+      ]
+    },
+    "heading_quote": {
+      "type": "Heading",
+      "props": {
+        "text": "Quote",
+        "level": "h3"
+      }
+    },
+    "tweet_quote": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Crypto_Chase",
+        "handle": "Crypto_Chase",
+        "text": "bottom near though i think, hopefully running this trade for the 3rd time in a row"
+      }
+    },
+    "section_chart": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_chart",
+        "text_chart"
+      ]
+    },
+    "heading_chart": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart Reference",
+        "level": "h3"
+      }
+    },
+    "text_chart": {
+      "type": "Text",
+      "props": {
+        "text": "t.co link, media unavailable — likely holds setup context",
+        "variant": "muted"
+      }
+    },
+    "section_analysis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_analysis",
+        "alert_context",
+        "text_interpretations_label",
+        "stack_badges"
+      ]
+    },
+    "heading_analysis": {
+      "type": "Heading",
+      "props": {
+        "text": "Analysis",
+        "level": "h3"
+      }
+    },
+    "alert_context": {
+      "type": "Alert",
+      "props": {
+        "title": "Unclear which asset/market bottom is referenced",
+        "message": "Setup context depends on chart visibility.",
+        "type": "warning"
+      }
+    },
+    "text_interpretations_label": {
+      "type": "Text",
+      "props": {
+        "text": "Possible interpretations:",
+        "variant": "lead"
+      }
+    },
+    "stack_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_a",
+        "badge_b",
+        "badge_c"
+      ]
+    },
+    "badge_a": {
+      "type": "Badge",
+      "props": {
+        "text": "(a) Sentiment on MU/SNDK bounce setup",
+        "variant": "outline"
+      }
+    },
+    "badge_b": {
+      "type": "Badge",
+      "props": {
+        "text": "(b) Broader market bottom call",
+        "variant": "outline"
+      }
+    },
+    "badge_c": {
+      "type": "Badge",
+      "props": {
+        "text": "(c) Specific entry/execution signal",
+        "variant": "outline"
+      }
+    },
+    "section_context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_context",
+        "badge_discord",
+        "text_plan"
+      ]
+    },
+    "heading_context": {
+      "type": "Heading",
+      "props": {
+        "text": "Prior Context",
+        "level": "h3"
+      }
+    },
+    "badge_discord": {
+      "type": "Badge",
+      "props": {
+        "text": "Discord · Jul 29 21:06Z",
+        "variant": "secondary"
+      }
+    },
+    "text_plan": {
+      "type": "Text",
+      "props": {
+        "text": "DCA plan: MU 700→600, SNDK 980→800s with conservative sizing"
+      }
+    },
+    "section_question": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_question",
+        "text_question"
+      ]
+    },
+    "heading_question": {
+      "type": "Heading",
+      "props": {
+        "text": "Question",
+        "level": "h3"
+      }
+    },
+    "text_question": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?"
+      }
+    }
+  }
+}

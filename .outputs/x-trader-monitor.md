@@ -1,7 +1,10 @@
-🔍 *Calibration — @HeartCanHodl*
+🔍 *Calibration — @Crypto_Chase*
 
-Context: Structural bearish short basket (BTC/ETH/SOL/HYPE/ZEC/UNI/VVV/KAITO/CL); recent UNI conviction adds (Jul 29 06:54Z, 14:14Z); multiple positions likely profitable as of 22:06 UTC.
+Event: X reply to @blknoiz06 with chart link (~1h after Discord DCA plan on MU/SNDK lower levels)
+Crypto_Chase: "bottom near though i think, hopefully running this trade for the 3rd time in a row"
 
-HeartCanHodl: "Seeing it live :)"
+The referenced chart (t.co link, media unavailable) likely holds setup context. Unclear which asset/market bottom is referenced. Is this: (a) sentiment on MU/SNDK bounce setup, (b) broader market bottom call, (c) specific entry/execution signal? 
 
-Unable to classify — which position is this reacting to? Price level? What's your read?
+Prior context (Jul 29 21:06Z Discord): DCA plan MU 700→600, SNDK 980→800s with conservative sizing.
+
+What's your read?
