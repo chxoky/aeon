@@ -1,0 +1,144 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "separator1",
+        "data_section"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Major BTC/IBIT capitulation wick — liquidation cascade at ~64.1K then recovery to 64.66K (+1.17% 5m). Charts show volume spike across IBIT spot and BTC futures with corresponding RSI/indicator breakdown and recovery.\n\nMarket testing critical liquidity zones; aligns with HCH/Killa anticipated dump-to-dip scenario (Jul 28–29 pivot watch)."
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "data_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "prices_grid",
+        "technical_details",
+        "market_context",
+        "link_area"
+      ]
+    },
+    "prices_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat_cascade",
+        "stat_recovery"
+      ]
+    },
+    "stat_cascade": {
+      "type": "Stat",
+      "props": {
+        "label": "Liquidation Cascade Level",
+        "value": "$64.1K"
+      }
+    },
+    "stat_recovery": {
+      "type": "Stat",
+      "props": {
+        "label": "Recovery Level",
+        "value": "$64.66K",
+        "delta": "+1.17%",
+        "trend": "up"
+      }
+    },
+    "technical_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tech_heading",
+        "tech_item1",
+        "tech_item2"
+      ]
+    },
+    "tech_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Technical Activity",
+        "level": "h4"
+      }
+    },
+    "tech_item1": {
+      "type": "Text",
+      "props": {
+        "text": "Volume spike across IBIT spot and BTC futures",
+        "variant": "body"
+      }
+    },
+    "tech_item2": {
+      "type": "Text",
+      "props": {
+        "text": "RSI/indicator breakdown and recovery",
+        "variant": "body"
+      }
+    },
+    "market_context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context_heading",
+        "context_item1",
+        "context_item2"
+      ]
+    },
+    "context_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Market Context",
+        "level": "h4"
+      }
+    },
+    "context_item1": {
+      "type": "Text",
+      "props": {
+        "text": "Market testing critical liquidity zones",
+        "variant": "body"
+      }
+    },
+    "context_item2": {
+      "type": "Text",
+      "props": {
+        "text": "Aligns with HCH/Killa anticipated dump-to-dip scenario (Jul 28–29 pivot watch)",
+        "variant": "body"
+      }
+    },
+    "link_area": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2082507079659741358"
+      }
+    }
+  }
+}
