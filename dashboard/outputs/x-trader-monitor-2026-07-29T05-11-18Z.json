@@ -1,0 +1,149 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @HeartCanHodl"
+      },
+      "children": [
+        "event-section",
+        "sep1",
+        "quote",
+        "sep2",
+        "context-section",
+        "sep3",
+        "classification-section",
+        "sep4",
+        "link"
+      ]
+    },
+    "event-section": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Portfolio/market liquidation cascade",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "quote": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "We are going to see loosing it all screenshots now.\n0xcf67e4da9e9cd38c0afd26338d0fbddb3036eb24"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "context-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context-intro",
+        "context-portfolio"
+      ]
+    },
+    "context-intro": {
+      "type": "Text",
+      "props": {
+        "text": "Context: Wallet address reference suggests onchain observation (liquidation tracking?). Posted after 31min of CL crude oil downtrend commentary.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "context-portfolio": {
+      "type": "Text",
+      "props": {
+        "text": "HCH currently holds ~30-35% net short basket (BTC/ETH/SOL/HYPE/ZEC/UNI/VVV/CL/KAITO).",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "classification-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "classification-intro",
+        "q1",
+        "q2",
+        "q3"
+      ]
+    },
+    "classification-intro": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read? Is this:",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "q1": {
+      "type": "Text",
+      "props": {
+        "text": "Market sentiment validation (liquidation cascade confirms bearish thesis)?",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "q2": {
+      "type": "Text",
+      "props": {
+        "text": "Specific asset/ticker alert (which one)?",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "q3": {
+      "type": "Text",
+      "props": {
+        "text": "External whale/fund watch (actionable monitoring)?",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View post",
+        "href": "https://x.com/HeartCanHodl/status/2082332201052696788",
+        "source": "X/Twitter"
+      },
+      "children": []
+    }
+  }
+}
