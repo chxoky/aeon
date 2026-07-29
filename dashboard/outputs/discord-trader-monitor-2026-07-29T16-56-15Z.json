@@ -1,0 +1,139 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor Calibration",
+        "description": "Classification needed for recurring Discord pattern"
+      },
+      "children": [
+        "main-stack"
+      ]
+    },
+    "main-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "pattern-header",
+        "pattern-text",
+        "frequency-badge",
+        "sep1",
+        "example-header",
+        "tweet-card",
+        "sep2",
+        "unclear-header",
+        "option1",
+        "option2",
+        "option3",
+        "sep3",
+        "question-alert"
+      ]
+    },
+    "pattern-header": {
+      "type": "Heading",
+      "props": {
+        "text": "Pattern Detected",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "pattern-text": {
+      "type": "Text",
+      "props": {
+        "text": "Fc {ticker} {timeframe}",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "frequency-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "7+ occurrences (Jul 24–28)",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "example-header": {
+      "type": "Heading",
+      "props": {
+        "text": "Example Message",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "text": "Fc eth 15m"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "unclear-header": {
+      "type": "Heading",
+      "props": {
+        "text": "Interpretation Unclear",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "option1": {
+      "type": "Text",
+      "props": {
+        "text": "• Form-confirmed chart observation (technical only, skip)?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "option2": {
+      "type": "Text",
+      "props": {
+        "text": "• Technical signal requiring action (add/cover)?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "option3": {
+      "type": "Text",
+      "props": {
+        "text": "• Conviction reinforcement/status update?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "question-alert": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "What's your read on this pattern?"
+      },
+      "children": []
+    }
+  }
+}
