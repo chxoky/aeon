@@ -584,8 +584,9 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - PENDING: Jul 27 15:26 "$AAPL Second entry \$339.15" — AAPL long entry contradicts Jul 25 bearish stance ("won't lead next bull leg"). Tactical mean-reversion vs conviction flip on AAPL structure? [2081763174190346556]
   - PENDING: Jul 27 15:29 "October $300 puts" — underlying asset not explicitly stated in tweet text; chart image clarifies underlying; trade signal 5a alert sent awaiting Kyle approval or skip [2081764031858450743]
   - PENDING: Jul 27 16:07 "target hit, but about 50 days early" (ALAB) — no execution language, asking tactical question ("What do we do?"). Target zone ($200-250) hit early (Jul vs planned Sep). Entry signal or wait-for-confirmation observation? Calibration alert sent [2081773456404955389]
-- Last seen: 2026-07-29 03:38:32 UTC
+- Last seen: 2026-07-29 04:01:37 UTC
 - **Events (rolling):**
+  - Jul 29 04:01Z — informational: BTC daily technical pattern observation — marked support/resistance levels (68K, 64K, 60K, 57.5K) with annotated bounces showing price action playing out exactly as expected; "to a T" precision terminology confirms technical level accuracy; current consolidation 64.1K; chart references Jun-Aug timeframe with 1D timeframe; also visible Discord chat mentioning closed Aug 21 crypto puts (closed Jul 25 per traders.md, tail-risk hedge IBIT/ETHA puts ongoing); context: technical structure validation, no new entry signals or position changes [2082315585657110958]
   - Jul 29 03:38Z — ambiguous: Hyperliquid MU 5m chart (837.92→772 spike→855.64 bounce→788.24); reply to @Parida with "hmm" — market observation, broken level warning, or setup intent unclear [2082309775828959620]
 
 ## t_in_crypto
