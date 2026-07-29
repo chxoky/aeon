@@ -1,0 +1,90 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Tweet monitoring and classification"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_status",
+        "separator_main",
+        "section_details"
+      ]
+    },
+    "badge_status": {
+      "type": "Badge",
+      "props": {
+        "text": "✅ Completed",
+        "variant": "default"
+      }
+    },
+    "separator_main": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "line_author",
+        "line_id",
+        "line_classification",
+        "line_action",
+        "line_log"
+      ]
+    },
+    "line_author": {
+      "type": "Text",
+      "props": {
+        "text": "Tweet author: @swarmister",
+        "variant": "body"
+      }
+    },
+    "line_id": {
+      "type": "Text",
+      "props": {
+        "text": "Tweet ID: 2082313427201015850",
+        "variant": "body"
+      }
+    },
+    "line_classification": {
+      "type": "Badge",
+      "props": {
+        "text": "Non-financial banter",
+        "variant": "secondary"
+      }
+    },
+    "line_action": {
+      "type": "Text",
+      "props": {
+        "text": "Action: Skipped silently",
+        "variant": "body"
+      }
+    },
+    "line_log": {
+      "type": "Text",
+      "props": {
+        "text": "Logged to: 2026-07-29.md",
+        "variant": "caption"
+      }
+    }
+  }
+}
