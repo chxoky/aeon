@@ -403,8 +403,9 @@ BOOTSTRAP_COMPLETE: 2026-07-14
 - Last seen: 2026-07-29 05:42:25 UTC
 - Jul 29 05:44Z — trade-conviction-add: HYPE 1% pf short add (Trades channel, primary; fast-path-alerted=true so Cloudflare Worker sent Telegram ~2-5s prior to skill; memory-only processing per fast-path protocol); verbatim rule enforced — exact message "Add 1% lit short" preserved in memory; confirms sustained HYPE short conviction (second consecutive 1% add after Jul 28 17:30Z). Estimated current HYPE short allocation: ~2% pf (1% from Jul 28 17:30 + 1% from Jul 29 05:44, depending on intermediate TP/rebalancing since Jul 25). [1531900164363522138]
 - Jul 29 06:00Z — informational: crypto relative strength narrative skepticism — macro sentiment/opinion on trend narrative, not personal action [2082345471113392180]
-- Last seen: 2026-07-29 06:16:54 UTC
+- Last seen: 2026-07-29 06:42:43 UTC
 - **Events (rolling):**
+  - Jul 29 06:42Z — informational: BTC technical analysis — "next fall would break the channel and leads to 60k"; TA conviction on channel-range support thesis; reply context (crypto relative strength weakness) validates structural bearish positioning; Comments channel (macro sentiment focus); market observation on technical structure not personal trade action [1531914858218389584]
   - Jul 29 06:16Z — ambiguous: @WatcherGuru mention with eye emoji; cryptic pattern matches prior PENDING [2082349630256501100]
 - Jul 29 06:16Z — informational: SKHY market catalyst — SK Hynix chairman's record divorce settlement ("divorce of the century"), 944B won court ruling; news commentary on structural bearish SKHY thesis; validates conviction on existing short-basket positioning [2082349439805763849]
 - Last seen: 2026-07-29 06:16:09 UTC
