@@ -84,7 +84,7 @@ BOOTSTRAP_COMPLETE: 2026-07-14
 - Last seen: 2026-07-29 17:16:18 UTC
 - **Events (rolling):**
   - Jul 29 17:16Z — trade-position-mgmt: BTC scalp-short CLOSE; closing position slightly below entry, waiting for monthly close for better setup; market characterized as "too messy"; reply-context: to Jul 29 09:51Z stop-level message (66k SL); Discord primary, fast-path-alerted [1532074303691030620]
-- Last seen: 2026-07-29 17:24:56 UTC
+- Last seen: 2026-07-29 20:21:09 UTC
 - **Events (rolling):**
   - Jul 29 17:24Z — informational: BTC macro cycle prediction; -10%+ correction in Legacy marks HTF bottom; 50K test depends on relative strength vs Legacy; bears have 1.5mo window; "if not at 50K by then kiss that level goodbye"; charts: historical SPX/BTC correlation + Kalshi 50% odds; aligns HTF-bullish + interim-bearish scenario [2082517744310788565]
   - Jul 29 17:16Z — informational: position-management conviction; waiting for better setup into monthly close + 5th pivot to avoid scam wicks; Discord reply-context to scalp-short closed below entry, patience thesis reinforcement [1532074396993192096]
@@ -92,6 +92,7 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - Jul 29 12:48Z — ambiguous: BTC structural prediction; "cross over next few months", patience restatement (reply to @Crypto_techh) [2082448090380779530]
   - Jul 29 12:30Z — informational: BTC golden cross technical thesis — historical pattern analysis showing golden crosses mark major trend shifts; educational post with 50MA/200MA chart from 2011-2026; conditional framework ("Once 50MA crosses above 200MA...") not personal action [2082443623992328259]
   - Jul 29 09:51Z — trade-position-mgmt: BTC scalp-short stop management; setting stops at 66k; market scenario — if Monday high in & correction after FOMC, should flip the high rather create lower high into it; reply-context: to Jul 28 16:06Z scalp-short entry; Discord primary, fast-path-alerted [1531962362234404964]
+  - Jul 29 20:21Z — informational: BTC pump-into-news pattern validation; textbook FOMC pump followed by -2% reversal, validating "first move is the false move" thesis from earlier 14:07Z post; chart evidence of pattern; conviction reinforcement [2082562091219669224]
   - Jul 29 00:41Z — informational: market cycle philosophy — $BTC follows same pattern every cycle; media/fear narratives manipulate masses into emotional decisions; advice to ignore headlines, focus on consistent results rather than news influence; reinforces HTF-bullish cycle-pattern conviction [2082265297235407058]
   - Jul 28 20:03Z — informational: $HYPE conditional long setup at 51.54 (chart-marked); current ~55.47; waiting for dip [2082195297480986638]
   - Jul 28 16:06Z — trade-new-entry: BTC scalp short at market price with SSL (stop-sell-limit) for now; watching for longs at 61.5K-61K zone; Discord primary channel, image attachment [1531694347207311591]

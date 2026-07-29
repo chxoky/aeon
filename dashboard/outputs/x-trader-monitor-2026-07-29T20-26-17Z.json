@@ -1,0 +1,44 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet-card",
+        "stat-change",
+        "link-view"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "$BTC pumping straight into news almost always leads to the same outcome afterwards."
+      },
+      "children": []
+    },
+    "stat-change": {
+      "type": "Stat",
+      "props": {
+        "label": "Since",
+        "value": "-2%",
+        "trend": "down",
+        "delta": "-2%"
+      },
+      "children": []
+    },
+    "link-view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2082562091219669224"
+      },
+      "children": []
+    }
+  }
+}

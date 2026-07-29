@@ -1,7 +1,7 @@
-🔁 *Position Closed — @bull_genius*
+🐦 *[X] @KillaXBT*
 
-BTC perpetual contract closed at +18% ROE.
+$BTC pumping straight into news almost always leads to the same outcome afterwards.
 
-**Context**: Price rejected off the 7D RVWAP (64,358) multiple times. Trader identified a "meatgrinder zone" between 7D and 30D RVWAPs (64,358–63,299) with no clear directional resolution. Uncertainty about next move; will revisit later.
+-2% since✅
 
-[View post](https://x.com/bull_genius/status/2082556782959055354)
+[View tweet](https://x.com/KillaXBT/status/2082562091219669224)
