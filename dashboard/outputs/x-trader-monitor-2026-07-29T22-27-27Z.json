@@ -1,0 +1,135 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @Wild_Randomness"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_event",
+        "sep1",
+        "heading_context",
+        "text_context",
+        "sep2",
+        "heading_wild",
+        "text_wild",
+        "sep3",
+        "heading_classify",
+        "text_classify_intro",
+        "stack_options",
+        "sep4",
+        "link_post"
+      ]
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: BTC technical chart analysis with red-arrow bounce/consolidation zones"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_context": {
+      "type": "Heading",
+      "props": {
+        "text": "External context",
+        "level": "h3"
+      }
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "@BigDickBull69 shared: \"BTC up 20% vs Nasdaq this month\""
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_wild": {
+      "type": "Heading",
+      "props": {
+        "text": "Wild_Randomness",
+        "level": "h3"
+      }
+    },
+    "text_wild": {
+      "type": "Text",
+      "props": {
+        "text": "\"Type of stuff you read at the red arrows [chart with red arrows marking support/bounce zones]\""
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_classify": {
+      "type": "Heading",
+      "props": {
+        "text": "Classification question",
+        "level": "h3"
+      }
+    },
+    "text_classify_intro": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read? Is this:"
+      }
+    },
+    "stack_options": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_opt_a",
+        "text_opt_b",
+        "text_opt_c"
+      ]
+    },
+    "text_opt_a": {
+      "type": "Text",
+      "props": {
+        "text": "(a) Technical education/chart-sharing (skip informational)?"
+      }
+    },
+    "text_opt_b": {
+      "type": "Text",
+      "props": {
+        "text": "(b) Personal directional bias signal (fold into informational with interpretation)?"
+      }
+    },
+    "text_opt_c": {
+      "type": "Text",
+      "props": {
+        "text": "(c) Position validation/entry confirmation (different handling)?"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2082592943253389694"
+      }
+    }
+  }
+}

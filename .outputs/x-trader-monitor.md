@@ -1,10 +1,14 @@
-🔍 *Calibration — @Crypto_Chase*
+🔍 *Calibration — @Wild_Randomness*
 
-Event: X reply to @blknoiz06 with chart link (~1h after Discord DCA plan on MU/SNDK lower levels)
-Crypto_Chase: "bottom near though i think, hopefully running this trade for the 3rd time in a row"
+Event: BTC technical chart analysis with red-arrow bounce/consolidation zones
 
-The referenced chart (t.co link, media unavailable) likely holds setup context. Unclear which asset/market bottom is referenced. Is this: (a) sentiment on MU/SNDK bounce setup, (b) broader market bottom call, (c) specific entry/execution signal? 
+External context: @BigDickBull69 shared "BTC up 20% vs Nasdaq this month" 
 
-Prior context (Jul 29 21:06Z Discord): DCA plan MU 700→600, SNDK 980→800s with conservative sizing.
+Wild_Randomness: "Type of stuff you read at the red arrows [chart with red arrows marking support/bounce zones]"
 
-What's your read?
+Unable to classify — what's your read? Is this:
+(a) Technical education/chart-sharing (skip informational)?
+(b) Personal directional bias signal (fold into informational with interpretation)?
+(c) Position validation/entry confirmation (different handling)?
+
+[View post](https://x.com/Wild_Randomness/status/2082592943253389694)
