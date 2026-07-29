@@ -1,0 +1,141 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_context",
+        "sep1",
+        "event_section",
+        "sep2",
+        "unclear_alert",
+        "meanings_stack"
+      ]
+    },
+    "heading_context": {
+      "type": "Text",
+      "props": {
+        "text": "🔍 Calibration — [DC: HCH — Chat]",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "event_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event_label",
+        "author_msg"
+      ]
+    },
+    "event_label": {
+      "type": "Text",
+      "props": {
+        "text": "Event: supporting-channel message, context unclear",
+        "variant": "body"
+      }
+    },
+    "author_msg": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "author_name",
+        "quote_text"
+      ]
+    },
+    "author_name": {
+      "type": "Text",
+      "props": {
+        "text": "heartcanhodl:",
+        "variant": "caption"
+      }
+    },
+    "quote_text": {
+      "type": "Text",
+      "props": {
+        "text": "\"Pre plot, maybe\"",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "unclear_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read?",
+        "type": "info"
+      }
+    },
+    "meanings_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "meaning_label",
+        "meaning1",
+        "meaning2",
+        "meaning3"
+      ]
+    },
+    "meaning_label": {
+      "type": "Text",
+      "props": {
+        "text": "Possible meanings:",
+        "variant": "caption"
+      }
+    },
+    "meaning1": {
+      "type": "Text",
+      "props": {
+        "text": "pre-positioning for chart pattern?",
+        "variant": "body"
+      }
+    },
+    "meaning2": {
+      "type": "Text",
+      "props": {
+        "text": "preliminary analysis?",
+        "variant": "body"
+      }
+    },
+    "meaning3": {
+      "type": "Text",
+      "props": {
+        "text": "pre-charting before trade?",
+        "variant": "body"
+      }
+    }
+  }
+}
