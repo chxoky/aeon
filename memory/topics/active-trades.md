@@ -143,6 +143,38 @@
 - **Alerted**: YES (2026-07-17T13:48:06Z, x-trader-monitor real-time event, DCA plan alert sent)
 - **Last update**: 2026-07-17T13:48:06Z (new DCA plan entry, X post tweet_id=2078114525216157709, x-trader-monitor real-time)
 
+### MU (Micron Technology) — LONG (FRESH DCA PLAN 2026-07-29)
+- **Entry**: 2026-07-29T21:06:29Z (X post, tweet_id=2082573501102178638)
+- **Entry message**: "Starting $MU here near 700~, leaving room to add towards 600. I don't think these trades will play out as quickly as the previous two and I've sized them conservatively so I have room to average down."
+- **Initial entry level**: Near $700 (market order or near-market fill)
+- **DCA structure**: 
+  - Initial entry: ~$700 (execution on X post)
+  - Planned adds: Towards $600 (lower support zone)
+  - Conservative sizing with explicit room to average down
+- **Status**: PENDING KYLE APPROVAL (DCA plan alert sent, awaiting Kyle decision on own DCA structure or skip)
+- **Trade alert format**: Step 5c (DCA plan — no auto-mirror, Kyle designs his own scaling structure)
+- **Thesis**: Fresh accumulation cycle on Micron following successful 80% TP close of prior position (Jul 27 at $941). Entry near 700 aligns with longer-term targets (600s identified as possible per Jul 29 20:41Z conviction message). Conservative sizing suggests multi-day/week play, not quick scalp.
+- **Conviction**: MEDIUM-HIGH (fresh entry following profitable close, conservative sizing language, explicit DCA intent)
+- **Context**: First realization of DCA plans discussed in Jul 29 20:41Z informational post (MU targets to 600s). Complements prior Jul 17 DCA entry (~$800) which delivered 80% TP + 20% core remainder held.
+- **Alerted**: YES (2026-07-29T21:06:29Z, x-trader-monitor real-time event, Step 5c DCA plan alert sent)
+- **Last update**: 2026-07-29T21:06:29Z (new DCA plan entry, X post tweet_id=2082573501102178638, x-trader-monitor real-time)
+
+### SNDK (SanDisk) — LONG (FRESH DCA PLAN 2026-07-29)
+- **Entry**: 2026-07-29T21:06:29Z (X post, tweet_id=2082573501102178638)
+- **Entry message**: "Starting $SNDK here at 980~, leaving room to add towards high 800's. I don't think these trades will play out as quickly as the previous two and I've sized them conservatively so I have room to average down."
+- **Initial entry level**: ~$980 (market order or near-market fill)
+- **DCA structure**: 
+  - Initial entry: ~$980 (execution on X post)
+  - Planned adds: Towards high 800s (~850-900 zone, lower support)
+  - Conservative sizing with explicit room to average down
+- **Status**: PENDING KYLE APPROVAL (DCA plan alert sent, awaiting Kyle decision on own DCA structure or skip)
+- **Trade alert format**: Step 5c (DCA plan — no auto-mirror, Kyle designs his own scaling structure)
+- **Thesis**: Fresh accumulation cycle on SanDisk following successful 80% TP close of prior position (Jul 27 at $1480). Entry near 980 aligns with longer-term technical support zone (900s/800s identified as possible per Jul 29 20:41Z conviction message). Conservative sizing suggests multi-day/week play, not quick scalp.
+- **Conviction**: MEDIUM-HIGH (fresh entry following profitable close, conservative sizing language, explicit DCA intent)
+- **Context**: First realization of DCA plans discussed in Jul 29 20:41Z informational post (SNDK targets to 900s/800s). Complements prior Jul 16 DCA entry (~$1366) which delivered 80% TP + 20% core remainder held.
+- **Alerted**: YES (2026-07-29T21:06:29Z, x-trader-monitor real-time event, Step 5c DCA plan alert sent)
+- **Last update**: 2026-07-29T21:06:29Z (new DCA plan entry, X post tweet_id=2082573501102178638, x-trader-monitor real-time)
+
 ## ES (S&P 500 E-mini Futures) — LONG
 - **Entry**: 2026-06-21T23:23Z (dream/gut feeling conviction entry)
 - **Size/Targets**: Not explicitly disclosed

@@ -1,10 +1,10 @@
-🚨 Trade Signal — @Wild_Randomness
-🔍 *Calibration — @Wild_Randomness*
+📐 *DCA Plan — @Crypto_Chase*
 
-Event: No clear external context visible
+$MU: Starting near 700~, planning adds towards 600 (conservative sizing, room to average down)
+$SNDK: Starting near 980~, planning adds towards high 800's (conservative sizing, room to average down)
 
-Wild_Randomness: "Fifty? Fifth..."
+"I don't think these trades will play out as quickly as the previous two and I've sized them conservatively so I have room to average down."
 
-Unable to classify — looks like a cryptic fragment with no ticker/level/execution language. Could be referring to a price level (50?), Elliott wave (5th wave?), or something else entirely. What's your read?
+[View post](https://x.com/Crypto_Chase/status/2082573501102178638)
 
-[View post](https://x.com/Wild_Randomness/status/2082569713088172359)
+Want to set up your own DCA on these, or skip?

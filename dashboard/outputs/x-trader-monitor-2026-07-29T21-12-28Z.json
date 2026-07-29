@@ -1,0 +1,130 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading_main",
+        "stack_trades",
+        "separator_1",
+        "text_quote",
+        "link_post",
+        "separator_2",
+        "text_cta"
+      ]
+    },
+    "heading_main": {
+      "type": "Heading",
+      "props": {
+        "text": "DCA Plan — @Crypto_Chase",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack_trades": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "trade_mu",
+        "trade_sndk"
+      ]
+    },
+    "trade_mu": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_mu",
+        "text_mu_details"
+      ]
+    },
+    "badge_mu": {
+      "type": "Badge",
+      "props": {
+        "text": "$MU"
+      },
+      "children": []
+    },
+    "text_mu_details": {
+      "type": "Text",
+      "props": {
+        "text": "Starting near 700~, planning adds towards 600 (conservative sizing, room to average down)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "trade_sndk": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_sndk",
+        "text_sndk_details"
+      ]
+    },
+    "badge_sndk": {
+      "type": "Badge",
+      "props": {
+        "text": "$SNDK"
+      },
+      "children": []
+    },
+    "text_sndk_details": {
+      "type": "Text",
+      "props": {
+        "text": "Starting near 980~, planning adds towards high 800's (conservative sizing, room to average down)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text_quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"I don't think these trades will play out as quickly as the previous two and I've sized them conservatively so I have room to average down.\"",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Crypto_Chase/status/2082573501102178638"
+      },
+      "children": []
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text_cta": {
+      "type": "Text",
+      "props": {
+        "text": "Want to set up your own DCA on these, or skip?",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
