@@ -708,8 +708,9 @@ BOOTSTRAP_COMPLETE: 2026-07-14
 - Last seen: 2026-07-27 12:55:20 UTC
 - **Events (rolling):**
   - Jul 27 12:55Z — informational: reply @rottenAzoth333 generic 7d TP strategy advice (no ticker/level) [2081725121664803327]
-- Last seen: 2026-07-29 07:44:49 UTC
+- Last seen: 2026-07-29 11:24:50 UTC
 - **Events (rolling):**
+  - Jul 29 11:24Z — informational: monthly performance recap; trading discipline reinforcement (selective perp trading, keep losses limited, no daily trading); monthly P&L chart shows early-month drawdown reversed by end-of-month recovery [2082427124388950291]
   - Jul 29 07:44Z — informational: BTC FOMC pre-market technical analysis; watching 7d rvwap (64.4K), 30d rvwap (63.3K), 90d rvwap (67.5K); poly sees 21% hike prob, bull_genius thinks 0%; if no FOMC change expects 90d rvwap/yearly poc test and 70K quick if BTC breaks res; today chilling, waiting for bargains on risex acc [2082371752449978425]
   - Jul 28 06:53Z — ambiguous: reply to @xbt2027 "100% it was done in marmot sleep" + marmot image; cryptic, no ticker/level, requires original context to interpret; possible reference to smooth/easy execution (trading sardonic joke?) or agreement on market move; calibration alert sent [2081996418210734093]
   - Jul 28 06:46Z — informational: BTC FOMC continuation — derisk thesis reaffirmed; Fed rate expectations chart (CME FedWatch Jul 24: 38% hike prob, rising); reversal scalp setup + RVWAP rejection analysis; macro bias "no hike" [2081994733396631945]
