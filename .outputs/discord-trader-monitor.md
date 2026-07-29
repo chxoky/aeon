@@ -1,29 +1,31 @@
-Perfect! I've successfully executed the discord-trader-monitor skill for the HeartCanHodl message. Here's what I did:
+## Summary
 
-## Skill Execution Summary
+**Discord-Trader-Monitor Skill Execution Complete**
 
-**Event Processed:**
-- **Trader:** HeartCanHodl (@heartcanhodl)
-- **Channel:** 1472153627324842057 (HCH — Free, primary public channel)
-- **Message ID:** 1532113431568711780
-- **Timestamp:** 2026-07-29 19:51:47 UTC
-- **Content:** Image-only post (screenshot, content inaccessible)
+✅ **Event Processed:**
+- **Trader:** HeartCanHodl
+- **Channel:** 1393137051108507728 (HCH — Comments)
+- **Message ID:** 1532115138306375690
+- **Timestamp:** 2026-07-29T19:58:34.295Z
 
-**Classification:** Informational-Image-Only
+**Classification:** trade-partial-tp (BTC short partial take-profit)
 
-**Actions Completed:**
-1. ✅ Decoded base64 Discord event successfully
-2. ✅ Verified message is new (not in discord-trader-seen.txt)
-3. ✅ Resolved channel to HCH — Free (primary channel)
-4. ✅ Verified username matches trader profile
-5. ✅ Checked fast-path status (false → full processing)
-6. ✅ Loaded trader context and memory
-7. ✅ Performed cross-platform dedup (no matching X post)
-8. ✅ Added message ID to `discord-trader-seen.txt` for dedup tracking
-9. ✅ Updated `traders.md` with rolling event entry
-10. ✅ Logged to `memory/logs/2026-07-29.md` with full classification details
+**Content Analysis:**
+- **Action:** Covered 20% of BTC short position at 63k range
+- **Future Plan:** Conditional re-add if bounce to 65k range
+- **Status:** Profit-taking discipline on existing short basket
 
-**Status:** Event logged successfully. Image content is inaccessible (CDN expired), matching the pattern of Jul 29 18:37Z "Observing this.." event. Classification pending Kyle's visual review of cached image source. No Telegram alert sent (no text content to alert on; image unavailable prevents meaningful alert).
+**Execution:**
+✅ Step 1 — Event decoded (base64)  
+✅ Step 2 — Channel resolved (Comments channel, primary)  
+✅ Step 2 — Username verified (heartcanhodl)  
+✅ Step 4 — Cross-platform dedup (Discord primary, no X match)  
+✅ Step 5 — Classified as trade signal (explicit execution language "Covered 20%")  
+✅ Fast-path check — Cloudflare Worker pre-alerted (skip Telegram, memory-only)  
+✅ Step 8/9 — Updated:
+  - `discord-trader-seen.txt` — Added message ID (1532115138306375690)
+  - `traders.md` — Added event entry to HeartCanHodl rolling events
+  - `memory/logs/2026-07-29.md` — Added timestamped log entry
 
 The skill completed successfully with all memory updates in place.
 **Discord Trader Monitor — HeartCanHodl VVV Short Cover (2026-07-29 19:54:56 UTC)**
@@ -47,3 +49,4 @@ The skill completed successfully with all memory updates in place.
 - `memory/logs/2026-07-29.md`: Log entry created with full classification + notes
 
 **Verbatim rule enforced** on ★ most important channel — exact message "Cover vvv shorts" preserved in memory without modification.
+**Result:** No Telegram duplicate (fast-path already sent). Memory and logs updated successfully.

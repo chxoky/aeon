@@ -358,6 +358,7 @@ BOOTSTRAP_COMPLETE: 2026-07-14
 - Last seen: 2026-07-29 19:51:47 UTC
 - Last seen: 2026-07-29 15:03:39 UTC
 - **Events (rolling):**
+  - Jul 29 19:58Z — trade-partial-tp: BTC 20% pf short covered in 63k range (Comments channel, primary; fast-path-alerted=true); explicit closing language "Covered 20%" confirms position reduction on existing BTC short basket; conditional re-add plan if bounce to 65k; profit-taking discipline on BTC shorts [1532115138306375690]
   - Jul 29 19:51Z — informational-image-only: Screenshot attachment to Free channel (1472153627324842057, primary public distribution); image unavailable for inspection (CDN 404); similar pattern to Jul 29 18:37Z "Observing this.."; awaiting Kyle visual review for classification [1532113431568711780]
 - Last seen: 2026-07-29 19:54:56 UTC
 - **Events (rolling):**
