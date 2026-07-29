@@ -383,6 +383,9 @@ BOOTSTRAP_COMPLETE: 2026-07-14
 - Last seen: 2026-07-29 21:34:33 UTC
 - **Events (rolling):**
   - Jul 29 21:34Z — informational: $META/$MU liquidation-wick bidding opportunity; market commentary on setup attractiveness after down 2h move (Discord Comments channel primary; fast-path-alerted=true; no personal execution language) [1532139292401471648]
+- Last seen: 2026-07-29 21:45:20 UTC
+- **Events (rolling):**
+  - Jul 29 21:45Z — ambiguous-technical: "Fc kospi 1d" + X link (content inaccessible); cryptic notation matching prior "Fc {ticker} {timeframe}" pattern (8+ prior instances all PENDING explicit calibration, including Jul 28 "Fc clusdt.p 5m", Jul 27 "Fc btcdom 1hr", Jul 26 "Fc btc 15m/1hr", Jul 24 "Fc cl 1m"); no execution language; Free channel (primary public distribution, 1472153627324842057); fast-path-alerted=true (Telegram already sent by Worker); memory/logging only; awaiting Kyle calibration on "Fc" meaning and KOSPI macro thesis context [1532142007156342965]
 - Last seen: 2026-07-29 21:36:35 UTC
 - **Events (rolling):**
   - Jul 29 21:36Z — informational: META and MU price action commentary; "Insane price action today over meta and mu charts"; reply context member discussing de-risking/shorting at highs; Discord primary (HCH — Free, 1472153627324842057), is_reply=true, fast-path-alerted=false [1532139805570240714]
