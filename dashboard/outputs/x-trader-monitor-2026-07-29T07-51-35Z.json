@@ -1,0 +1,146 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor",
+        "description": "FOMC Pre-Market BTC Technicals"
+      },
+      "children": [
+        "heading-tweet",
+        "tweetcard-1",
+        "separator-1",
+        "heading-levels",
+        "grid-levels",
+        "separator-2",
+        "heading-fomc",
+        "stack-fomc",
+        "separator-3",
+        "link-tweet"
+      ]
+    },
+    "heading-tweet": {
+      "type": "Heading",
+      "props": {
+        "text": "@bull_genius — FOMC Pre-Market BTC Technicals",
+        "level": "h2"
+      }
+    },
+    "tweetcard-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "gm buying the fear @ 30d rvwap / monthly val zone pre-fomc has worked out nicely - we are back at the 7d rvwap already with some decent spot bid came in yesterday. Still fomc day with uncertain outcome. Poly sees 21% chance for hike, bull_genius thinks 0% tonight.\n\nIf reprices higher, expect shaking until then so may want to close high lev scalps. Ultimately if no change today thinks we see 90d rvwap/yearly poc and 70k quickly if btc breaks that res. Today chilling, waiting for bargains on risex acc."
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-levels": {
+      "type": "Heading",
+      "props": {
+        "text": "Technical Levels",
+        "level": "h3"
+      }
+    },
+    "grid-levels": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "stat-7d",
+        "stat-30d",
+        "stat-90d"
+      ]
+    },
+    "stat-7d": {
+      "type": "Stat",
+      "props": {
+        "label": "7d rvwap",
+        "value": "64.4K"
+      }
+    },
+    "stat-30d": {
+      "type": "Stat",
+      "props": {
+        "label": "30d rvwap",
+        "value": "63.3K"
+      }
+    },
+    "stat-90d": {
+      "type": "Stat",
+      "props": {
+        "label": "90d rvwap",
+        "value": "67.5K"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-fomc": {
+      "type": "Heading",
+      "props": {
+        "text": "FOMC Context & Predictions",
+        "level": "h3"
+      }
+    },
+    "stack-fomc": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "progress-cme",
+        "badge-poly",
+        "badge-bull"
+      ]
+    },
+    "progress-cme": {
+      "type": "Progress",
+      "props": {
+        "value": 20,
+        "max": 100,
+        "label": "CME FedWatch: Hike Probability"
+      }
+    },
+    "badge-poly": {
+      "type": "Badge",
+      "props": {
+        "text": "Poly: 21% hike chance",
+        "variant": "secondary"
+      }
+    },
+    "badge-bull": {
+      "type": "Badge",
+      "props": {
+        "text": "bull_genius: 0% hike chance tonight",
+        "variant": "outline"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/bull_genius/status/2082371752449978425"
+      }
+    }
+  }
+}

@@ -697,8 +697,9 @@ BOOTSTRAP_COMPLETE: 2026-07-14
 - Last seen: 2026-07-27 12:55:20 UTC
 - **Events (rolling):**
   - Jul 27 12:55Z — informational: reply @rottenAzoth333 generic 7d TP strategy advice (no ticker/level) [2081725121664803327]
-- Last seen: 2026-07-28 06:53:40 UTC
+- Last seen: 2026-07-29 07:44:49 UTC
 - **Events (rolling):**
+  - Jul 29 07:44Z — informational: BTC FOMC pre-market technical analysis; watching 7d rvwap (64.4K), 30d rvwap (63.3K), 90d rvwap (67.5K); poly sees 21% hike prob, bull_genius thinks 0%; if no FOMC change expects 90d rvwap/yearly poc test and 70K quick if BTC breaks res; today chilling, waiting for bargains on risex acc [2082371752449978425]
   - Jul 28 06:53Z — ambiguous: reply to @xbt2027 "100% it was done in marmot sleep" + marmot image; cryptic, no ticker/level, requires original context to interpret; possible reference to smooth/easy execution (trading sardonic joke?) or agreement on market move; calibration alert sent [2081996418210734093]
   - Jul 28 06:46Z — informational: BTC FOMC continuation — derisk thesis reaffirmed; Fed rate expectations chart (CME FedWatch Jul 24: 38% hike prob, rising); reversal scalp setup + RVWAP rejection analysis; macro bias "no hike" [2081994733396631945]
   - Jul 28 06:37Z — informational: BTC technical FOMC analysis; derisk into announcement, reversal scalp idea, 7d rvwap rejection could signal lower high; charts show support cluster before bigger drawdown [2081992351992746494]
@@ -722,6 +723,7 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - Jul 24 08:30Z — informational: position confidence on BTC entry; macro view chart-focused [2080571311349231803]
   - Jul 24 13:51Z — mirror-stop-out: BTC long stopped at B/E after partial TP; "chill here and wait it out, pa weaker than thought" [2080652203056840909]
   - Jul 25 06:54Z — informational: FWA market sentiment — whole CT talking about it; Jack Butcher product drop catalyst [2080909493626352062]
+  - Jul 29 07:44Z — informational: BTC FOMC pre-market technical analysis; watching 7d rvwap (64.4K), 30d rvwap (63.3K), 90d rvwap (67.5K); poly sees 21% hike prob, bull_genius thinks 0%; if no FOMC change expects 90d rvwap/yearly poc test and 70K quick if BTC breaks res; today chilling, waiting for bargains on risex acc [2082371752449978425]
 
 ## Stoiiic
 - Platforms: X (X-only; no Discord)
