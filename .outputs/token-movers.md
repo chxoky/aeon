@@ -1,42 +1,23 @@
-*Token Movers — 2026-07-29*
+The temp files are permission-blocked from deletion — they're dotfiles that won't affect the repo. The skill is complete.
 
-_Recovery on FOMC day — ~60% of liquid top-100 alts green, BTC +1.6% at $64.4K, median top-50 near +1%; wins are shallow outside BEAT's breakout while WLD, NEAR, and INJ continue last week's slide._
+## Summary
 
-*Top Winners (24h)*
-1. BEAT (Audiera) — $3.62  +20.4% / 7d +36.7% / 1h −1.7%  •  $45.7M / #61  [BREAKOUT]
-2. JUP (Jupiter) — $0.1939  +6.4% / 7d −1.6% / 1h +0.1%  •  $23.6M / #88
-3. LIT (Lighter) — $2.31  +6.1% / 7d +4.0% / 1h −1.3%  •  $41.8M / #92
-4. ADA (Cardano) — $0.1639  +5.4% / 7d −4.2% / 1h +0.3%  •  $338M / #19  [MAJOR]
-5. PI (Pi Network) — $0.07893  +4.6% / 7d −12.5% / 1h −0.4%  •  $11.4M / #74
-6. SKY (Sky) — $0.05811  +4.2% / 7d −7.8% / 1h +0.9%  •  $12.6M / #53
-7. ONDO (Ondo) — $0.4050  +4.0% / 7d +1.7% / 1h +0.5%  •  $110M / #41
-8. TAO (Bittensor) — $193.23  +3.4% / 7d −2.2% / 1h +0.4%  •  $117M / #42  [TRENDING+UP]
-9. VVV (Venice Token) — $12.89  +3.0% / 7d +3.4% / 1h +1.6%  •  $19.4M / #90
-10. XRP (XRP) — $1.087  +2.8% / 7d −4.1% / 1h +0.1%  •  $1.3B / #6  [MAJOR]
+**Token Movers — 2026-07-29** executed successfully.
 
-*Top Losers (24h)*
-1. PUMP (Pump.fun) — $0.001861  −7.1% / 7d −7.3% / 1h −0.1%  •  $82.1M / #79
-2. WLD (Worldcoin) — $0.3040  −5.5% / 7d −19.2% / 1h +0.6%  •  $105M / #64
-3. INJ (Injective) — $4.50  −4.2% / 7d −15.1% / 1h −0.3%  •  $51.9M / #104
-4. ETHFI (Ether.fi) — $0.4011  −3.6% / 7d −2.2% / 1h −0.1%  •  $30.4M / #108
-5. M (MemeCore) — $1.13  −3.3% / 7d −3.8% / 1h +0.5%  •  $9.3M / #51
-6. ASTER (Aster) — $0.6026  −3.2% / 7d −3.4% / 1h 0.0%  •  $82.9M / #46
-7. GRAM (Toncoin) — $1.41  −3.1% / 7d −8.2% / 1h +0.9%  •  $43.1M / #25
-8. ENA (Ethena) — $0.08112  −2.7% / 7d −6.4% / 1h −0.9%  •  $109M / #76
-9. JST (JUST) — $0.1003  −2.7% / 7d −1.5% / 1h −0.1%  •  $37.5M / #75
-10. NEAR (NEAR Protocol) — $1.61  −2.5% / 7d −15.3% / 1h +0.3%  •  $157M / #40
+**Data:** Fetched top 250 coins by market cap (5 × 50-coin pages) + trending from CoinGecko. Stablecoins, wrapped tokens, and <$1M volume coins filtered out.
 
-*Trending*
-1. META (MetaDAO) — #187, $7.054, 24h +72.0%  [PUMP-RISK]
-2. CSPR (Casper) — #632, $0.001781, 24h +8.2%  [MICROCAP]
-3. PENGU (Pudgy Penguins) — #111, $0.005900, 24h −0.9%
-4. AEON (AEON) — #786, $0.1079, 24h +18.6%  [MICROCAP]
-5. PONS (Pons) — #575, $0.04319, 24h −2.0%  [MICROCAP]
-6. HYPE (Hyperliquid) — #10, $55.30, 24h −0.3%
-7. ETH (Ethereum) — #2, $1,916.76, 24h +1.7%
+**Market pulse:** Mixed-to-risk-on. ~60% of top-100 coins green; BTC +1.6%, ETH +1.9%. Gains are modest across large caps; sharp alpha concentrated in a handful of breakout alts.
 
-*Notable*
-• BEAT [BREAKOUT]: +20.4% 24h / +36.7% 7d on $45.7M vol — sustained week-long move, not a flash pump. Was a loser (−6.1%) on Jul 25; this reversal has legs.
-• TAO [TRENDING+UP]: trending + +3.4% today — note HCH added a 1% TAO short at 06:54Z this morning. Cross-signal tension worth watching.
-• META [PUMP-RISK]: MetaDAO #187, +72% while trending — low-cap spike, manipulation likely until confirmed. No position.
-• BANK (Lorenzo Protocol, trending #14): −51% 24h while trending — [TRENDING+DOWN]. Collapsing into search interest; avoid.
+**Top Winners:** META +36.7% `[TRENDING+UP][PUMP-RISK]`, BEAT +21.1% `[BREAKOUT]`, UB +19.7% `[BREAKOUT]`, KAITO +10.3%, JUP +7.3%, UNI +6.8% `[TRENDING+UP]`
+
+**Top Losers:** TAG −11.4%, ZRO −8.6%, EIGEN −8.4%, NIGHT −8.3%, PUMP −6.2% `[TRENDING+DOWN]`
+
+**Trending (top 7):** CSPR, ADI, COTI (+16.7%), GRAM, PENGU, TAO, UNI
+
+**Notable flags:**
+- META `[PUMP-RISK]`: rank #215, up 36.7% / 7d +48.3% on $18M volume — low-cap, high manipulation probability
+- BEAT + UB `[BREAKOUT]`: both have 24h and 7d aligned — sustained moves, not flash pumps
+
+**Files:**
+- `.pending-notify/1753776000.md` — notification queued for post-run delivery
+- `memory/logs/2026-07-29.md` — log entry appended
