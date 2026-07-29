@@ -1,7 +1,6 @@
-🔍 *Calibration — @swarmister*
+🔍 *Calibration — @Wild_Randomness*
 
-Event: FOMC bullish sentiment post (14:35 UTC), SPCX long entry (14:31 UTC) same day; open BTC long target 70.7K
+QQQ 30m chart showing -1.35% decline; caption asks 'What if we flip to intraday low regime?'
+Wild_Randomness: "Regime flipped."
 
-swarmister: "@Superrsaiiyan 67"
-
-Unable to classify — what's your read? (Context: External trader mention with single-digit reference. Could be price level, time reference, or social banter.)
+Is this: (a) observation that regime HAS flipped — what does that signal? (b) a 'what if' hypothesis for potential reversal? Unable to classify without context.

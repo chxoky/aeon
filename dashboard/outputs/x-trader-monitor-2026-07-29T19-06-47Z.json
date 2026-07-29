@@ -1,0 +1,102 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading",
+        "chart-section",
+        "separator1",
+        "quote-section",
+        "separator2",
+        "classification"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h2"
+      }
+    },
+    "chart-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "chart-title",
+        "chart-stat",
+        "regime-question"
+      ]
+    },
+    "chart-title": {
+      "type": "Heading",
+      "props": {
+        "text": "QQQ 30m chart",
+        "level": "h3"
+      }
+    },
+    "chart-stat": {
+      "type": "Stat",
+      "props": {
+        "value": "-1.35%",
+        "label": "Decline",
+        "trend": "down"
+      }
+    },
+    "regime-question": {
+      "type": "Text",
+      "props": {
+        "text": "Caption asks: 'What if we flip to intraday low regime?'",
+        "variant": "body"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "quote-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "quote-attribution",
+        "quote-text"
+      ]
+    },
+    "quote-attribution": {
+      "type": "Text",
+      "props": {
+        "text": "Wild_Randomness:",
+        "variant": "body"
+      }
+    },
+    "quote-text": {
+      "type": "Text",
+      "props": {
+        "text": "\"Regime flipped.\"",
+        "variant": "lead"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification Uncertainty",
+        "message": "Is this: (a) observation that regime HAS flipped — what does that signal? (b) a 'what if' hypothesis for potential reversal? Unable to classify without context.",
+        "type": "info"
+      }
+    }
+  }
+}

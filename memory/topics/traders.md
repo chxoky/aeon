@@ -601,8 +601,9 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - Jul 27 02:23Z — ambiguous: BTC May-top short comparison (85K region, "biggest crypto short I ever put on"), current 68K liq cluster; cryptic "took out some local liq of futures open, now some staring at us from below" language; unclear if personal position action, partial TP, or market observation, awaiting calibration [2081566112920072328]
   - Jul 27 02:40Z — ambiguous: reply to @killerpainda on "left tail scenario that could really move the needle"; no ticker/level, asymmetric outcome language; calibration sent [2081570509221724419]
 - Last seen: 2026-07-27 14:22:43 UTC
-- Last seen: 2026-07-29 16:31:11 UTC
+- Last seen: 2026-07-29 19:01:08 UTC
 - **Events (rolling):**
+  - Jul 29 19:01Z — ambiguous: QQQ regime observation; "Regime flipped" text vs image caption "What if we flip to intraday low regime?" — mismatch between definitive statement and conditional hypothesis; awaiting calibration on whether regime flip has occurred or speculative [2082541953594667246]
   - Jul 29 16:31Z — informational: QQQ 5m timing-pattern warning; "8/8 days, intraday high is this next hour window" technical analysis; Discord conversation snippet with Mandelbrot reference; chat shows market timing observation with labeled candle charts (QQQ 668.00–690.00 range Jul 27–29); no personal trade action language (analysis/chart share only); caveat: "Warning given a day in advance…" suggests pattern prediction validated in real-time; chart shows vol expansion, RSI setups, volume profile alignment [2082504220629217418]
   - Jul 27 02:41Z — ambiguous: reply to @killerpainda "Just like how this was highly asymmetric…" with BTCUSD 1D chart (consolidation→rally to 85K, support line); no execution language, intent unconfirmed (bullish setup? comparison? educational?) [2081570737953862068]
   - Jul 27 13:56Z — informational: BTC technical observation — 5m pump at NY Open (65.6K) with daily chart showing key support/resistance zones (60K/66–67.5K); cryptic caption "Pumping on NY Open is?…" shares intraday structure analysis [2081740519282012668]
