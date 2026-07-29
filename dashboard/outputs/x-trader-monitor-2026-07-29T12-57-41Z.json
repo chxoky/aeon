@@ -1,0 +1,94 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @KillaXBT"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_event",
+        "sep_1",
+        "tweet_killaxbt",
+        "sep_2",
+        "heading_calibration",
+        "q1",
+        "q2",
+        "sep_3",
+        "link_view"
+      ]
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @Crypto_techh on BTC structure/timing",
+        "variant": "lead"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet_killaxbt": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "We likely get a cross over the next few months. We still in a range & we have some time."
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration Questions",
+        "level": "h3"
+      }
+    },
+    "q1": {
+      "type": "Text",
+      "props": {
+        "text": "What does 'cross' refer to — technical cross (moving average cross)? Price-level breakthrough? Market-structure cross?",
+        "variant": "body"
+      }
+    },
+    "q2": {
+      "type": "Text",
+      "props": {
+        "text": "Is this timeline commentary on your earlier golden-cross post (12:30Z), or a separate prediction?",
+        "variant": "body"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/KillaXBT/status/2082448090380779530"
+      }
+    }
+  }
+}
