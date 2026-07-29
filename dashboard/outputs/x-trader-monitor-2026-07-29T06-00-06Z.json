@@ -1,0 +1,52 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "view-tweet-link",
+        "interpretation-text"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "Thanks to Jim Cramer, the earnings miss, and pre-FOMC de-risking for the mega sell-off. Couldn't have asked for a better day to cover more shorts."
+      },
+      "children": []
+    },
+    "view-tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/HeartCanHodl/status/20823440342161699944"
+      },
+      "children": []
+    },
+    "interpretation-text": {
+      "type": "Text",
+      "props": {
+        "text": "Market sentiment on sell-off providing ideal conditions for covering shorts. Consistent with HCH's short-basket thesis.",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
