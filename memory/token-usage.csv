@@ -2003,4 +2003,7 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-07-29,x-trader-monitor,claude-haiku-4-5-20251001,185,9120,1009843,49273
 2026-07-29,x-trader-monitor,claude-haiku-4-5-20251001,193,8680,1285446,63468
 2026-07-29,x-trader-monitor,claude-haiku-4-5-20251001,145,8371,1156465,70411
-2026-07-29,token-movers,claude-sonnet-4-6,4108,71678,2556374,94675
+2026-07-29,token-alert,claude-sonnet-4-6,12,4547,465435,61307
+2026-07-29,discord-trader-monitor,claude-haiku-4-5-20251001,185,11183,1185947,67098
+2026-07-29,x-trader-monitor,claude-haiku-4-5-20251001,129,6833,726516,55676
+2026-07-29,x-trader-monitor,claude-haiku-4-5-20251001,1111,10980,1699776,80418
