@@ -1,0 +1,49 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_swarmister",
+        "link_view",
+        "text_commentary"
+      ]
+    },
+    "tweet_swarmister": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "@swarmister",
+        "text": "I also have a feeling that the market will be in the green after the FOMC meeting. I'm building up some careful long positions."
+      }
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/swarmister/status/2082474996220211322"
+      }
+    },
+    "text_commentary": {
+      "type": "Text",
+      "props": {
+        "text": "Aligns with KillaXBT's HTF-bullish stance, though Killa warns near-term caution on FOMC pump false-move risk.",
+        "variant": "muted"
+      }
+    }
+  }
+}
