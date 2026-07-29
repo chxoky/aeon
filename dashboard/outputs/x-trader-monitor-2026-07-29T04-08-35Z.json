@@ -1,0 +1,204 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "separator_1",
+        "stat_btc_price",
+        "grid_technical_data",
+        "stat_funding_rate",
+        "stack_positions",
+        "link_view"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Technical analysis — BTC daily chart with support/resistance levels, volume heatmap showing key liquidity zones at 61.77K/59.88K, and funding rates (bullish 0.0093). Commentary confirms bullish short-term technical structure, supporting structural bulls (KillaXBT 2x @62.6K, t_in_crypto x2 @62K) vs near-term tactical bears (HCH shorts).\n\nBTC currently holding 63.7K with support hierarchy at 65K, 60K, 57.5K."
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stat_btc_price": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC Current Price",
+        "value": "$63,700"
+      }
+    },
+    "grid_technical_data": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stack_support_levels",
+        "stack_liquidity_zones"
+      ]
+    },
+    "stack_support_levels": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_support",
+        "text_support_65k",
+        "text_support_60k",
+        "text_support_57_5k"
+      ]
+    },
+    "heading_support": {
+      "type": "Heading",
+      "props": {
+        "text": "Support Hierarchy",
+        "level": "h4"
+      }
+    },
+    "text_support_65k": {
+      "type": "Text",
+      "props": {
+        "text": "$65,000"
+      }
+    },
+    "text_support_60k": {
+      "type": "Text",
+      "props": {
+        "text": "$60,000"
+      }
+    },
+    "text_support_57_5k": {
+      "type": "Text",
+      "props": {
+        "text": "$57,500"
+      }
+    },
+    "stack_liquidity_zones": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_liquidity",
+        "text_liquidity_61_77k",
+        "text_liquidity_59_88k"
+      ]
+    },
+    "heading_liquidity": {
+      "type": "Heading",
+      "props": {
+        "text": "Key Liquidity Zones",
+        "level": "h4"
+      }
+    },
+    "text_liquidity_61_77k": {
+      "type": "Text",
+      "props": {
+        "text": "$61,770"
+      }
+    },
+    "text_liquidity_59_88k": {
+      "type": "Text",
+      "props": {
+        "text": "$59,880"
+      }
+    },
+    "stat_funding_rate": {
+      "type": "Stat",
+      "props": {
+        "label": "Funding Rate",
+        "value": "0.0093",
+        "trend": "up"
+      }
+    },
+    "stack_positions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_positions",
+        "stack_structural_bulls",
+        "stack_tactical_bears"
+      ]
+    },
+    "heading_positions": {
+      "type": "Heading",
+      "props": {
+        "text": "Trader Positions",
+        "level": "h3"
+      }
+    },
+    "stack_structural_bulls": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_structural_bulls",
+        "text_structural_bulls"
+      ]
+    },
+    "badge_structural_bulls": {
+      "type": "Badge",
+      "props": {
+        "text": "Structural Bulls",
+        "variant": "secondary"
+      }
+    },
+    "text_structural_bulls": {
+      "type": "Text",
+      "props": {
+        "text": "KillaXBT 2x @$62.6K, t_in_crypto x2 @$62K"
+      }
+    },
+    "stack_tactical_bears": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_tactical_bears",
+        "text_tactical_bears"
+      ]
+    },
+    "badge_tactical_bears": {
+      "type": "Badge",
+      "props": {
+        "text": "Tactical Bears",
+        "variant": "destructive"
+      }
+    },
+    "text_tactical_bears": {
+      "type": "Text",
+      "props": {
+        "text": "HCH shorts"
+      }
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2082315322972127502"
+      }
+    }
+  }
+}

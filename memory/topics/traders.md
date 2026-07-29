@@ -587,6 +587,7 @@ BOOTSTRAP_COMPLETE: 2026-07-14
 - Last seen: 2026-07-29 04:01:37 UTC
 - **Events (rolling):**
   - Jul 29 04:01Z — informational: BTC daily technical pattern observation — marked support/resistance levels (68K, 64K, 60K, 57.5K) with annotated bounces showing price action playing out exactly as expected; "to a T" precision terminology confirms technical level accuracy; current consolidation 64.1K; chart references Jun-Aug timeframe with 1D timeframe; also visible Discord chat mentioning closed Aug 21 crypto puts (closed Jul 25 per traders.md, tail-risk hedge IBIT/ETHA puts ongoing); context: technical structure validation, no new entry signals or position changes [2082315585657110958]
+  - Jul 29 04:00Z — informational: Technical analysis — BTC daily chart w/ support/resistance levels, volume heatmap (key liquidity zones 61.77K, 59.88K), funding rate chart (bullish 0.0093). Commentary "BTC is holding up great" = bullish technical structure view. Supports structural bull thesis (KillaXBT 2x long @62.6K, t_in_crypto x2 @62K) vs near-term tactical bears (HCH shorts). No personal execution — educational/analytical share. Charts show support hierarchy: 65K, 60K, 57.5K; current 63.7K holding. Group sentiment update on BTC construction. [2082315322972127502]
   - Jul 29 03:38Z — ambiguous: Hyperliquid MU 5m chart (837.92→772 spike→855.64 bounce→788.24); reply to @Parida with "hmm" — market observation, broken level warning, or setup intent unclear [2082309775828959620]
 
 ## t_in_crypto
