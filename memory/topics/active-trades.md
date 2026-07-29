@@ -486,6 +486,20 @@
 - **Supporting trades**: Parallel Sept/Oct puts scaling on iBIT/etha (mentioned in same post as macro hedge to HYPE spot long).
 - **Last update**: 2026-07-22T19:10:11Z (x-trader-monitor real-time event, conviction add alert sent)
 
+### AAPL — LONG (new entry 2026-07-29, pending approval)
+- **Entry**: 2026-07-29T20:50:15Z (X post, tweet_id=2082569414927675767)
+- **Entry message**: "$AAPL\n\nFifty entry — $344"
+- **Entry type**: Limit order at $344 (current market price ~$343.74, very near market)
+- **Entry size**: 50 units (scaled entry, "Fifty" terminology suggests continuation of multi-phase scaling)
+- **Entry context**: Continuation of prior AAPL entries documented in traders.md (Jul 27: second entry $339.15; Jul 28: third entry $341, fourth entry $342). This represents fifth entry in escalating AAPL position. Multiple daily chart images (img_0/1/2) show support zone 288.70, resistance 349.53-354.70. Current price 343.74 sits mid-range between support and resistance, suggesting accumulation at technical level.
+- **Status**: PENDING APPROVAL — awaiting Kyle response (`approve AAPL` to mirror on Kraken spot)
+- **Trade alert format**: Step 5a (new entry requiring approval)
+- **Thesis**: Multi-phase scaled accumulation on AAPL. Wild_Randomness previously bearish on AAPL (Jul 27 15:26Z post noted conviction flip from bearish stance). Now executing tactical mean-reversion long entries with multiple daily scaling approach (five entries across three consecutive days suggests DCA plan conviction). Chart shows technical structure favoring bounce (support at 288.70 holding, current 343.74 = +18.9% above support).
+- **Risk**: Chart shows extended upside resistance 349.53-354.70 (potential profit-taking zone); no explicit stop loss stated
+- **Conviction**: MEDIUM-HIGH — scaled entry #5 indicates sustained conviction despite prior bearish thesis; terse execution ("Fifty entry") + chart support = disciplined timing
+- **Approval/Alert status**: ALERT SENT (trade signal 5a, awaiting `approve AAPL` confirmation via Worker)
+- **Last update**: 2026-07-29T20:50:15Z (x-trader-monitor real-time event, pending approval)
+
 ## ryzzqq
 
 ### TAO — LONG (new entry 2026-07-22, pending approval)

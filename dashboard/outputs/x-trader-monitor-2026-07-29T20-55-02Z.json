@@ -1,0 +1,23 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "alert_signal"
+      ]
+    },
+    "alert_signal": {
+      "type": "Alert",
+      "props": {
+        "title": "Trade Signal",
+        "message": "@Wild_Randomness",
+        "type": "warning"
+      }
+    }
+  }
+}
