@@ -1,4 +1,4 @@
-💬 *[DC: HCH — Trades]*
+## Summary
 
 You can bid your favorite AI stock play with a 5% allocation as a cushion hedge long (dram/sndk/mu/nbis/orcl/meta/your favourite)
 Perfect! I've successfully processed the Discord event. Here's the summary:
@@ -30,3 +30,14 @@ Perfect! I've successfully processed the Discord event. Here's the summary:
 - **No Telegram alert sent** (skip classification)
 
 The skill completed successfully with no alert needed.
+Executed the discord-trader-monitor skill with the provided Discord event. The message from HeartCanHodl (emoji-only: `<:emoji_11:1063532964950052955>`) in the supporting channel (HCH — Chat) was classified as **non-financial** and properly handled per skill protocol:
+
+**Processing Results:**
+- ✅ Event decoded and verified (new message ID: 1532147843370844250)
+- ✅ Channel resolved: 1023638573313966212 (HCH — Chat, supporting)
+- ✅ Classification: SKIP (non-financial emoji reaction, zero trade signal)
+- ✅ Memory updated: discord-trader-seen.txt + log entry added
+- ✅ No Telegram alert sent (supporting channel protocol)
+- ✅ No traders.md event line (skip protocol prevents bloat)
+
+**Skill health:** OK — Discord real-time monitoring processing complete.
