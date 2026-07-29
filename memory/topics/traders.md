@@ -488,6 +488,8 @@ BOOTSTRAP_COMPLETE: 2026-07-14
 - Last seen: 2026-07-29 05:54:40 UTC
   - Jul 29 06:43Z — informational: BTC price action technical commentary — "Check the june start PA before the eventual break of bigger channel" (technical setup observation referencing June starting price action and anticipated channel break); no execution language, no new position action; Comments channel (primary); fast-path-alerted=true (Cloudflare Worker sent Telegram ~2-5s prior; memory-only processing) [1531915153900044359]
 - Last seen: 2026-07-29 06:43:54 UTC
+  - Jul 29 08:08Z — trade-new-entry: XRP 1% pf short entry (Trades channel, primary ★most important); fast-path-alerted=true so Cloudflare Worker sent Telegram ~2-5s prior to skill; memory-only processing per fast-path protocol; verbatim rule enforced — exact message "Add 1% xrp short" preserved in memory; NEW TICKER XRP (10th unique ticker) enters short basket after KAITO/TAO/UNI/VVV/CL/ZEC/SOL/ETH/BTC. Estimated current short basket allocation ~31-36% pf (prior 30-35% baseline + 1% XRP add). [1531936392714784768]
+- Last seen: 2026-07-29 08:08:18 UTC
 
 ## Wild_Randomness
 - Platforms: X (X-only; no Discord)
