@@ -1,0 +1,48 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — [DC: HCH — Free]"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_user",
+        "link_tweet",
+        "text_question"
+      ]
+    },
+    "text_user": {
+      "type": "Text",
+      "props": {
+        "text": "HeartCanHodl posted URL-only message:",
+        "variant": "lead"
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/i/status/2082583488578850861",
+        "href": "https://x.com/i/status/2082583488578850861"
+      }
+    },
+    "text_question": {
+      "type": "Text",
+      "props": {
+        "text": "No text context — self-share (own post), external signal, or test? What's your read?",
+        "variant": "muted"
+      }
+    }
+  }
+}
