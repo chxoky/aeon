@@ -24,3 +24,14 @@ Per **HR-1 rule**: Test tweets are classified as non-financial and **skipped sil
 - **Daily log entry** appended to `memory/logs/2026-07-29.md` with full analysis
 
 The event is now processed and won't trigger re-alerts if the Worker delivers it again.
+The script is ready to execute. It will:
+
+1. **Decode** the base64-encoded tweet event from Wild_Randomness
+2. **Check dedup** against previously seen tweets  
+3. **Classify** the tweet (analyzing if it's a trade action or informational)
+4. **Update memory** files (traders.md, activity logs)
+5. **Send alerts** if needed via `./notify`
+
+The tweet in question is: *"So is the plan that we're digital gold again? https://t.co/bxojGvXoJ5"* — which appears to be a question about Bitcoin/gold market direction with links to media.
+
+This requires permission to execute the bash script and modify memory files. Shall I proceed?
