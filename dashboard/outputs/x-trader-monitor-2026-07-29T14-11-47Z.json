@@ -1,0 +1,41 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet",
+        "interpretation"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "$BTC pumping into FOMC. This should be interesting.... More often than not, the first move is the false move. Priced in."
+      }
+    },
+    "interpretation": {
+      "type": "Text",
+      "props": {
+        "text": "↳ Near-term caution on current pump; trader maintains HTF-bullish stance but skeptical of false moves into macro events.",
+        "variant": "caption"
+      }
+    }
+  }
+}
