@@ -225,7 +225,7 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - PENDING: Jul 28 13:01:53Z "@blancxbt Bottom" — cryptic mention reply (external trader reference); context missing. swarmister frequently tracks @blancxbt signals (15+ prior PENDING calibrations). Interpretation: affirmation of market-bottom call? social coordination? paid-call tracking? calibration alert sent [2082089156906250405]
   - PENDING: Jul 28 14:36:57Z "@zackvoell Market sentiment" — cryptic two-word reply to external trader @zackvoell. No ticker, level, or execution language. Possible interpretations: (a) affirmation/agreement with @zackvoell's market-sentiment read, (b) casual observation/banter, (c) coordinated response to external trader discussion. Consistent with swarmister's 80% non-financial social banter baseline and recurring PENDING backlog pattern (20+ prior entries awaiting calibration). No standalone signal without context. Calibration alert sent [2082113084252938493]
   - PENDING: Jul 29 05:46Z "@notfrydoteth https://t.co/rXG5SHJfFt" — bare mention + shortened link, media image inaccessible; no ticker/level/execution language; context missing; calibration alert sent [2082341851286171719]
-- Last seen: 2026-07-29 08:33:51 UTC
+- Last seen: 2026-07-29 09:41:35 UTC
 - **Events (rolling):**
   - Jul 29 08:33Z — informational: BTC consolidation within range; sellers at resistance, buyers at support; neutral/range-bound view [2082384094697025996]
   - Jul 29 05:46Z — ambiguous: "@notfrydoteth {t.co link}"; bare mention + inaccessible media; context missing; calibration alert sent [2082341851286171719]
