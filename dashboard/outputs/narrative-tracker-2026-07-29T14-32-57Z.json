@@ -1,0 +1,753 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-07-29"
+      },
+      "children": [
+        "section_transitions",
+        "sep1",
+        "section_reflexivity",
+        "sep2",
+        "section_positions",
+        "sep3",
+        "section_map"
+      ]
+    },
+    "section_transitions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_transitions",
+        "stack_transitions_items"
+      ]
+    },
+    "heading_transitions": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS (first run — no prior baseline; all narratives NEW)",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack_transitions_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "transition_rwa_group",
+        "transition_ai_group",
+        "transition_fomc_group"
+      ]
+    },
+    "transition_rwa_group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "transition_rwa",
+        "source_rwa"
+      ]
+    },
+    "transition_rwa": {
+      "type": "Alert",
+      "props": {
+        "title": "NEW → Rising: RWA/Tokenized Stocks",
+        "message": "Robinhood Chain surpassed ETH+SOL as #1 RWA holder network in under 30 days (328K holders, $70M TVL, 5× in 2 weeks). Tokenized NVDA/SpaceX/GameStop clearing $500K+ daily.",
+        "type": "info"
+      },
+      "children": []
+    },
+    "source_rwa": {
+      "type": "Text",
+      "props": {
+        "text": "Source: CryptoTimes Jul 27",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "transition_ai_group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "transition_ai"
+      ]
+    },
+    "transition_ai": {
+      "type": "Alert",
+      "props": {
+        "title": "NEW → Peak: AI Agents",
+        "message": "infra layer complete (MetaMask, Coinbase, OKX, BNB shipped agent wallets in Jul); TAO trending #11 ($117M vol, +2.7%) while HCH added TAO to short basket today → entering reflexivity territory",
+        "type": "info"
+      },
+      "children": []
+    },
+    "transition_fomc_group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "transition_fomc"
+      ]
+    },
+    "transition_fomc": {
+      "type": "Alert",
+      "props": {
+        "title": "IMMINENT FLIP: FOMC",
+        "message": "Resolves today 14:00 ET — no-change 78.85%; pre-decision $100M liquidations; first move likely false (KillaXBT); post-resolution direction sets the next regime",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_reflexivity": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_reflexivity",
+        "stack_reflexivity_items"
+      ]
+    },
+    "heading_reflexivity": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack_reflexivity_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "reflexivity_ai_agents",
+        "reflexivity_rwa"
+      ]
+    },
+    "reflexivity_ai_agents": {
+      "type": "Alert",
+      "props": {
+        "title": "AI Agents / TAO",
+        "message": "HCH shorted TAO (1% pf, 06:54Z today) while TAO trends on agentic-wallet narrative with no direct revenue signal. Counter-short from most active short trader = real-time reflexivity read",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "reflexivity_rwa": {
+      "type": "Alert",
+      "props": {
+        "title": "RWA / Robinhood Chain",
+        "message": "$70M TVL 5× in 2 weeks driven by holder count + media, not trading volume ($500K/day is thin). Story moving allocations faster than fundamentals",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_positions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_positions",
+        "stack_positions_items"
+      ]
+    },
+    "heading_positions": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack_positions_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "position_ride",
+        "position_fade",
+        "position_fomc",
+        "position_stablecoins",
+        "position_depin",
+        "position_privacy"
+      ]
+    },
+    "position_ride": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_ride_header",
+        "pos_ride_mindshare",
+        "pos_ride_desc",
+        "pos_ride_bear"
+      ]
+    },
+    "pos_ride_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_ride_name",
+        "badge_ride_trend",
+        "badge_ride_view"
+      ]
+    },
+    "pos_ride_name": {
+      "type": "Heading",
+      "props": {
+        "text": "RIDE: RWA / Tokenized Stocks",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "badge_ride_trend": {
+      "type": "Badge",
+      "props": {
+        "text": "↑↑",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "badge_ride_view": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "pos_ride_mindshare": {
+      "type": "Stat",
+      "props": {
+        "label": "Mindshare",
+        "value": "4"
+      },
+      "children": []
+    },
+    "pos_ride_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Robinhood Chain #1 RWA network; 7× growth since Jul 1 launch",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "pos_ride_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear case: $70M TVL tiny, $500K daily volume thin, narrative ahead of fundamentals",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "position_fade": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_fade_header",
+        "pos_fade_mindshare",
+        "pos_fade_desc",
+        "pos_fade_bear"
+      ]
+    },
+    "pos_fade_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_fade_name",
+        "badge_fade_trend",
+        "badge_fade_view"
+      ]
+    },
+    "pos_fade_name": {
+      "type": "Heading",
+      "props": {
+        "text": "FADE: AI Agent Tokens / TAO",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "badge_fade_trend": {
+      "type": "Badge",
+      "props": {
+        "text": "→",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "badge_fade_view": {
+      "type": "Badge",
+      "props": {
+        "text": "Mixed",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "pos_fade_mindshare": {
+      "type": "Stat",
+      "props": {
+        "label": "Mindshare",
+        "value": "4"
+      },
+      "children": []
+    },
+    "pos_fade_desc": {
+      "type": "Text",
+      "props": {
+        "text": "infra shipped, sector $25B+, HCH shorting TAO + UNI today; reflexivity flag live",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "pos_fade_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear case: monetization unclear, priced for 2030",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "position_fomc": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_fomc_header",
+        "pos_fomc_mindshare",
+        "pos_fomc_desc"
+      ]
+    },
+    "pos_fomc_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_fomc_name",
+        "badge_fomc_trend",
+        "badge_fomc_view"
+      ]
+    },
+    "pos_fomc_name": {
+      "type": "Heading",
+      "props": {
+        "text": "WATCH: FOMC Gate",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "badge_fomc_trend": {
+      "type": "Badge",
+      "props": {
+        "text": "↓↓",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "badge_fomc_view": {
+      "type": "Badge",
+      "props": {
+        "text": "resolving today",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "pos_fomc_mindshare": {
+      "type": "Stat",
+      "props": {
+        "label": "Mindshare",
+        "value": "5"
+      },
+      "children": []
+    },
+    "pos_fomc_desc": {
+      "type": "Text",
+      "props": {
+        "text": "no-change likely; BTC needs 65.4K reclaim post-decision; hawkish surprise targets 60K",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "position_stablecoins": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_stablecoins_header",
+        "pos_stablecoins_mindshare",
+        "pos_stablecoins_desc"
+      ]
+    },
+    "pos_stablecoins_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_stablecoins_name",
+        "badge_stablecoins_trend",
+        "badge_stablecoins_view"
+      ]
+    },
+    "pos_stablecoins_name": {
+      "type": "Heading",
+      "props": {
+        "text": "WATCH: Stablecoins / Payment Rails",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "badge_stablecoins_trend": {
+      "type": "Badge",
+      "props": {
+        "text": "→",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "badge_stablecoins_view": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "pos_stablecoins_mindshare": {
+      "type": "Stat",
+      "props": {
+        "label": "Mindshare",
+        "value": "3"
+      },
+      "children": []
+    },
+    "pos_stablecoins_desc": {
+      "type": "Text",
+      "props": {
+        "text": "dominant H2 2026 narrative per analysts; Crypto Clarity Act dropped = regulatory drag; no this-week catalyst",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "position_depin": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_depin_header",
+        "pos_depin_mindshare",
+        "pos_depin_desc"
+      ]
+    },
+    "pos_depin_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_depin_name",
+        "badge_depin_trend",
+        "badge_depin_view"
+      ]
+    },
+    "pos_depin_name": {
+      "type": "Heading",
+      "props": {
+        "text": "WATCH: DePIN × AI",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "badge_depin_trend": {
+      "type": "Badge",
+      "props": {
+        "text": "↑",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "badge_depin_view": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "pos_depin_mindshare": {
+      "type": "Stat",
+      "props": {
+        "label": "Mindshare",
+        "value": "2"
+      },
+      "children": []
+    },
+    "pos_depin_desc": {
+      "type": "Text",
+      "props": {
+        "text": "a16z naming strongest 2026 combo; no specific catalyst this week",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "position_privacy": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_privacy_header",
+        "pos_privacy_mindshare",
+        "pos_privacy_desc"
+      ]
+    },
+    "pos_privacy_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_privacy_name",
+        "badge_privacy_trend",
+        "badge_privacy_view"
+      ]
+    },
+    "pos_privacy_name": {
+      "type": "Heading",
+      "props": {
+        "text": "IGNORE: Privacy Tokens",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "badge_privacy_trend": {
+      "type": "Badge",
+      "props": {
+        "text": "↓",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "badge_privacy_view": {
+      "type": "Badge",
+      "props": {
+        "text": "Bear",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "pos_privacy_mindshare": {
+      "type": "Stat",
+      "props": {
+        "label": "Mindshare",
+        "value": "2"
+      },
+      "children": []
+    },
+    "pos_privacy_desc": {
+      "type": "Text",
+      "props": {
+        "text": "ZEC/XMR declining; regulatory crackdown; HCH profitable short",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_map": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_map",
+        "map_emerging",
+        "map_rising",
+        "map_peak",
+        "map_fading"
+      ]
+    },
+    "heading_map": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "map_emerging": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_emerging_label",
+        "map_emerging_items"
+      ]
+    },
+    "map_emerging_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Emerging",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "map_emerging_items": {
+      "type": "Text",
+      "props": {
+        "text": "Post-Flush Alt Recovery · Stablecoins/Payment Rails · DePIN × AI",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "map_rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_rising_label",
+        "map_rising_items"
+      ]
+    },
+    "map_rising_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Rising",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "map_rising_items": {
+      "type": "Text",
+      "props": {
+        "text": "RWA / Tokenized Stocks (Robinhood Chain)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "map_peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_peak_label",
+        "map_peak_items"
+      ]
+    },
+    "map_peak_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Peak",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "map_peak_items": {
+      "type": "Text",
+      "props": {
+        "text": "FOMC Gate (resolving today) · AI Agents / TAO",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "map_fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_fading_label",
+        "map_fading_items"
+      ]
+    },
+    "map_fading_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Fading",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "map_fading_items": {
+      "type": "Text",
+      "props": {
+        "text": "Privacy Tokens",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}

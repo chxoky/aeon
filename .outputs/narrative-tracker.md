@@ -1,27 +1,24 @@
-*Narrative Tracker — 2026-07-28*
+*Narrative Tracker — 2026-07-29*
 
-TRANSITIONS (first run — no prior baseline)
-• NEW/RESOLVING: FOMC Gate — decision TODAY; BTC -5.9% from $67K peak to $63K, F&G 29; hold at 3.50–3.75% expected, but Warsh hawkish tone = tail risk
-• NEW/DEAD: Meme Rotation — SHIB +36% Sun → -12.45% Tue; 2-day distribution confirmed bust; reflexive pump fully reversed
-• NEW/EMERGING: BTC 2-Year Cycle Pattern — @Wild_Randomness Jul 27: -29.59% setup from $69.4K mirrors Jul 27 2024 exactly; targets ~44K zone
-• NEW/EMERGING: ETH Pectra + Lido Migration — Lido migrating 8M staked ETH post-upgrade; ETH -3.5% today (macro overriding thesis)
-• NEW/ANOMALY: KAITO +11.96% to $1.32 vs market -1.6%; @HeartCanHodl holds 4% portfolio short at current levels — divergence unresolved
+TRANSITIONS (first run — no prior baseline; all narratives NEW)
+• NEW → Rising: RWA/Tokenized Stocks — Robinhood Chain surpassed ETH+SOL as #1 RWA holder network in under 30 days (328K holders, $70M TVL, 5× in 2 weeks). Tokenized NVDA/SpaceX/GameStop clearing $500K+ daily. Source: CryptoTimes Jul 27
+• NEW → Peak: AI Agents — infra layer complete (MetaMask, Coinbase, OKX, BNB shipped agent wallets in Jul); TAO trending #11 ($117M vol, +2.7%) while HCH added TAO to short basket today → entering reflexivity territory
+• IMMINENT FLIP: FOMC resolves today 14:00 ET — no-change 78.85%; pre-decision $100M liquidations; first move likely false (KillaXBT); post-resolution direction sets the next regime
 
 REFLEXIVITY ALERT
-• FOMC Gate — BTC dropped $67K→$63K on hawkish narrative alone, before any decision. Fear is priced. Post-hold relief rally = asymmetric upside on resolution
-• Meme Rotation — SHIB +36% in one day was pure attention-driven reflexivity; price reversal -12.45% on same narrative shows the cycle. Classic: attention → price → more attention → collapse
+• AI Agents / TAO — HCH shorted TAO (1% pf, 06:54Z today) while TAO trends on agentic-wallet narrative with no direct revenue signal. Counter-short from most active short trader = real-time reflexivity read
+• RWA / Robinhood Chain — $70M TVL 5× in 2 weeks driven by holder count + media, not trading volume ($500K/day is thin). Story moving allocations faster than fundamentals
 
 POSITIONS
-• FRONT-RUN: Volatility/Left-Tail (mindshare 2 ↑↑, Mixed) — @Wild_Randomness SQQQ accumulation + VIX Dec-2031 calls + Warsh+Ueda hike scenario; FOMC binary window open NOW. Bear case: left-tail scenarios rarely time right
-• FADE: Meme Rotation (mindshare 1 ↓↓, Cope) — SHIB -12.45% confirmed distribution. @Crypto_Chase: 'charting dead altcoins for two years'
-• FADE: AI Agent Tokens near-term (mindshare 4 ↓, Mixed) — FET -11.81%, AI-stock contagion; structural bull intact, fade the relief bounce. Bear case: narrative oversold short-term
-• RIDE: BTC HTF Bull (mindshare 3 →, Bull) — @KillaXBT 2x long 62.6K; LTH supply at FTX-comparable loss levels; $62.5–63K = hard support. Bear case: @Wild_Randomness 2-year cycle -29% to 44K threatens thesis
-• WATCH: KAITO — price +11.96% vs HCH 4% short; one must break
-• WATCH: BTC 2-Year Pattern — confirm only on break below 62.5K
-• WATCH: ETH Pectra/Lido — structural; revisit post-FOMC
+• RIDE: RWA / Tokenized Stocks (mindshare 4, ↑↑, Bull) — Robinhood Chain #1 RWA network; 7× growth since Jul 1 launch; bear case: $70M TVL tiny, $500K daily volume thin, narrative ahead of fundamentals
+• FADE: AI Agent Tokens / TAO (mindshare 4, →, Mixed) — infra shipped, sector $25B+, HCH shorting TAO + UNI today; reflexivity flag live; bear case: monetization unclear, priced for 2030
+• WATCH: FOMC Gate (mindshare 5, ↓↓, resolving today) — no-change likely; BTC needs 65.4K reclaim post-decision; hawkish surprise targets 60K
+• WATCH: Stablecoins / Payment Rails (mindshare 3, →, Bull) — dominant H2 2026 narrative per analysts; Crypto Clarity Act dropped = regulatory drag; no this-week catalyst
+• WATCH: DePIN × AI (mindshare 2, ↑, Bull) — a16z naming strongest 2026 combo; no specific catalyst this week
+• IGNORE: Privacy Tokens (mindshare 2, ↓, Bear) — ZEC/XMR declining; regulatory crackdown; HCH profitable short
 
 MAP
-Emerging: BTC 2-Year Cycle Pattern, ETH Pectra/Lido, CLARITY Act Regulatory
-Rising: BTC HTF Bull, Stablecoin/AI Infrastructure, Vol/Left-Tail
-Peak: FOMC Gate (resolving TODAY)
-Fading: AI Agent Tokens (tactical), Meme Rotation (dead)
+Emerging: Post-Flush Alt Recovery · Stablecoins/Payment Rails · DePIN × AI
+Rising: RWA / Tokenized Stocks (Robinhood Chain)
+Peak: FOMC Gate (resolving today) · AI Agents / TAO
+Fading: Privacy Tokens
