@@ -1,9 +1,8 @@
 🔍 *Calibration — @Wild_Randomness*
 
-Event: Hyperliquid MU 5m chart (major volatility: 837.92→772.00 spike→855.64 bounce→788.24 current); reply to @Parida with no context visible
+Event: Brief reply to @ozzy_livin on X
+Wild_Randomness: "@ozzy_livin ȷ's a prophecy"
 
-Wild_Randomness: "hmm"
+Unable to classify — appears to be validating someone's market prediction, but no ticker/level/execution language. Context missing on what prophecy is being referenced.
 
-Unable to classify — is this a broken level warning, a setup observation, or just sharing PA? Need your read.
-
-[View post](https://x.com/Wild_Randomness/status/2082309775828959620)
+Unable to classify — what's your read?
