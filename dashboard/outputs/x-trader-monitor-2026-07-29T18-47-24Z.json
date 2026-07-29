@@ -1,0 +1,92 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading_calib",
+        "event_stack",
+        "separator1",
+        "tweet_section",
+        "separator2",
+        "analysis_stack"
+      ]
+    },
+    "heading_calib": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @swarmister",
+        "level": "h2"
+      }
+    },
+    "event_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event_label",
+        "event_details"
+      ]
+    },
+    "event_label": {
+      "type": "Text",
+      "props": {
+        "text": "Event:",
+        "variant": "body"
+      }
+    },
+    "event_details": {
+      "type": "Text",
+      "props": {
+        "text": "FOMC bullish sentiment post (14:35 UTC), SPCX long entry (14:31 UTC) same day; open BTC long target 70.7K",
+        "variant": "body"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "tweet_section": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "text": "@Superrsaiiyan 67"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "analysis_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "analysis_q",
+        "analysis_context"
+      ]
+    },
+    "analysis_q": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "body"
+      }
+    },
+    "analysis_context": {
+      "type": "Text",
+      "props": {
+        "text": "Context: External trader mention with single-digit reference. Could be price level, time reference, or social banter.",
+        "variant": "caption"
+      }
+    }
+  }
+}
