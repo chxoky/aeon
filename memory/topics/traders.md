@@ -380,8 +380,9 @@ BOOTSTRAP_COMPLETE: 2026-07-14
 - **Events (rolling):**
   - Jul 29 19:58Z — trade-partial-tp: BTC 20% pf short covered in 63k range (Comments channel, primary; fast-path-alerted=true); explicit closing language "Covered 20%" confirms position reduction on existing BTC short basket; conditional re-add plan if bounce to 65k; profit-taking discipline on BTC shorts [1532115138306375690]
   - Jul 29 19:51Z — informational-image-only: Screenshot attachment to Free channel (1472153627324842057, primary public distribution); image unavailable for inspection (CDN 404); similar pattern to Jul 29 18:37Z "Observing this.."; awaiting Kyle visual review for classification [1532113431568711780]
-- Last seen: 2026-07-29 19:54:56 UTC
+- Last seen: 2026-07-29 21:34:33 UTC
 - **Events (rolling):**
+  - Jul 29 21:34Z — informational: $META/$MU liquidation-wick bidding opportunity; market commentary on setup attractiveness after down 2h move (Discord Comments channel primary; fast-path-alerted=true; no personal execution language) [1532139292401471648]
   - Jul 29 20:58Z — trade-partial-tp: TAO 1% pf short covered (Trades channel, primary; fast-path-alerted=true); verbatim rule enforced — exact message "Cover 1% tao short" preserved in memory; explicit closing language confirms position reduction on existing TAO 1% short (entered Jul 29 13:08Z); profit-taking on TAO short [1532130216993099896]
   - Jul 29 20:05Z — trade-partial-tp: ZEC short covered 2% (Trades channel, primary; fast-path-alerted=true); verbatim rule enforced — exact message "Cover 2% zec shorts" preserved in memory; explicit closing language confirms position reduction on existing ZEC short basket (highest-conviction since Jun 15; 50% reduced Jul 25); profit-taking discipline [1532116787460837467]
   - Jul 29 19:54Z — trade-partial-tp: VVV short closed (Trades channel, primary; fast-path-alerted=true); verbatim rule enforced — exact message "Cover vvv shorts" preserved in memory; explicit closing language ("cover") confirms position reduction on existing VVV 2% short (entered Jul 19 02:08Z); profit-taking on VVV short basket [1532114225424502825]
