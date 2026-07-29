@@ -1,0 +1,162 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor — Calibration"
+      },
+      "children": [
+        "heading_calibration",
+        "separator_1",
+        "stack_source",
+        "separator_2",
+        "stack_message",
+        "separator_3",
+        "heading_options",
+        "stack_options",
+        "separator_4",
+        "stack_question"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — DC: HCH — Chat",
+        "level": "h2"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "stack_source": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_channel",
+        "text_timestamp"
+      ]
+    },
+    "text_channel": {
+      "type": "Text",
+      "props": {
+        "text": "Discord supporting channel (member Q&A) — HeartCanHodl",
+        "variant": "body"
+      }
+    },
+    "text_timestamp": {
+      "type": "Text",
+      "props": {
+        "text": "05:08Z",
+        "variant": "caption"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "stack_message": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_message_label",
+        "text_message_content"
+      ]
+    },
+    "text_message_label": {
+      "type": "Text",
+      "props": {
+        "text": "Message:",
+        "variant": "muted"
+      }
+    },
+    "text_message_content": {
+      "type": "Text",
+      "props": {
+        "text": "Patience game",
+        "variant": "lead"
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_options": {
+      "type": "Heading",
+      "props": {
+        "text": "Unable to classify — is this:",
+        "level": "h3"
+      }
+    },
+    "stack_options": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "option_1",
+        "option_2",
+        "option_3",
+        "option_4"
+      ]
+    },
+    "option_1": {
+      "type": "Text",
+      "props": {
+        "text": "(1) Conviction statement on short-basket thesis (patience needed for shorts to play out)?",
+        "variant": "body"
+      }
+    },
+    "option_2": {
+      "type": "Text",
+      "props": {
+        "text": "(2) Market observation (consolidation/waiting phase)?",
+        "variant": "body"
+      }
+    },
+    "option_3": {
+      "type": "Text",
+      "props": {
+        "text": "(3) Non-financial motivational saying?",
+        "variant": "body"
+      }
+    },
+    "option_4": {
+      "type": "Text",
+      "props": {
+        "text": "(4) Something else?",
+        "variant": "body"
+      }
+    },
+    "separator_4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "stack_question": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_question"
+      ]
+    },
+    "text_question": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "lead"
+      }
+    }
+  }
+}
