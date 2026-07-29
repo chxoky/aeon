@@ -1,0 +1,118 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — DC: HCH (Chat)"
+      },
+      "children": [
+        "text-context",
+        "sep-1",
+        "text-speaker",
+        "tweet-message",
+        "sep-2",
+        "alert-unable",
+        "stack-questions",
+        "sep-3",
+        "text-final"
+      ]
+    },
+    "text-context": {
+      "type": "Text",
+      "props": {
+        "text": "Context: Real-time member/trader chat, no referenced context.",
+        "variant": "muted"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-speaker": {
+      "type": "Text",
+      "props": {
+        "text": "HCH statement:",
+        "variant": "caption"
+      }
+    },
+    "tweet-message": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HCH",
+        "text": "It might be better if it hits a bit higher 1940-1960 before the eventual fall"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert-unable": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "No ticker specified, price levels unclear.",
+        "type": "warning"
+      }
+    },
+    "stack-questions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-q-intro",
+        "text-q1",
+        "text-q2",
+        "text-q3"
+      ]
+    },
+    "text-q-intro": {
+      "type": "Text",
+      "props": {
+        "text": "Is this:",
+        "variant": "body"
+      }
+    },
+    "text-q1": {
+      "type": "Text",
+      "props": {
+        "text": "• Technical level prediction (which asset?)",
+        "variant": "body"
+      }
+    },
+    "text-q2": {
+      "type": "Text",
+      "props": {
+        "text": "• Conviction shift on active position?",
+        "variant": "body"
+      }
+    },
+    "text-q3": {
+      "type": "Text",
+      "props": {
+        "text": "• Technical analysis waiting on chart context?",
+        "variant": "body"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-final": {
+      "type": "Text",
+      "props": {
+        "text": "Your read?",
+        "variant": "lead"
+      }
+    }
+  }
+}

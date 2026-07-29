@@ -354,9 +354,10 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - PENDING: "Fc btc 1hr" Chat Jul 26 [1531013265075736657]
   - PENDING: "If we go by textbookish interpretation" Chat Jul 27 — cryptic terse fragment [1531130870419947671]
   - PENDING: "Fc clusdt.p 5m" Chat Jul 28 — Same "Fc {ticker} {timeframe}" pattern PENDING explicit calibration (matches Jul 27 23:18Z "Fc btcdom 1hr", Jul 27 02:45Z "Fc btc 1w", Jul 26 19:00Z "Fc btc 1hr", Jul 26 18:54Z "Fc btc 15m", Jul 24 09:03Z "Fc cl 1m"). Context: HCH active CL 2% short (entered Jul 24 at ~$90, currently +13% profit). Is "Fc" = form-confirmed chart observation (technical only, skip)? Or technical signal requiring action (add/cover)? Or conviction reinforcement? Pattern appears 7+ times (Jul 24–28), all awaiting calibration. Calibration alert sent. [1531691486499045436]
-- Last seen: 2026-07-29 15:00:02 UTC
+- Last seen: 2026-07-29 19:30:41 UTC
 - Last seen: 2026-07-29 15:03:39 UTC
 - **Events (rolling):**
+  - Jul 29 19:30Z — ambiguous: technical price-level prediction without ticker context; "It might be better if it hits a bit higher 1940-1960 before the eventual fall" (Chat supporting channel); no explicit ticker/asset specified, price levels unclear against known positions; awaiting calibration on referent asset and prediction scope; fast-path-alerted by Worker (alert sent ~2-5s prior) [1532108120044736653]
   - Jul 29 15:03Z — informational-silent-dedup: $BANK X reiteration of Discord Jul 28 13:06Z post "Fc bank 15m"; mechanical repeat with same technical observation; no new information; cross-platform dedup per HR-3 (Discord posted first, X post today is repeat) [2082482192148750805]
   - Jul 29 14:59Z — informational-supporting: "Showing weakness" + URL link to Comments-channel prior post; supporting channel (Chat); conviction reinforcement/market observation tag on earlier technical work (Jul 29 13:41Z "Already trading under blue ema"); no new position action; supporting-channel context folded into primary-channel activity; fast-path-alerted=false [1532039920892383333]
   - Jul 29 15:00Z — informational: supporting-channel market observation; "Break of that will lead alts to free fall" + Discord link to Comments channel TA; conviction restatement on altcoin bearish thesis; no new entry signal; fast-path-alerted by Worker [1532040010872914152]
