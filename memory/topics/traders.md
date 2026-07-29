@@ -236,6 +236,9 @@ BOOTSTRAP_COMPLETE: 2026-07-14
 - **Events (rolling):**
   - Jul 29 12:55Z — ambiguous: reply "@DeItaone And, as is typically the case, the market will react in the opposite direction"; cryptic reply to external trader; context missing (DeItaone's message unknown); calibration alert sent [2082449814940238258]
   - Jul 29 08:33Z — informational: BTC consolidation within range; sellers at resistance, buyers at support; neutral/range-bound view [2082384094697025996]
+  - Jul 29 14:31Z — trade-new-entry: $SPCX BUY/LONG market order at ~$194.84 (2/3 of intended position); capitulation entry after massive crash from $225.75 → $194.84; post states "wiped out everyone who bought at top. Maybe this is the bottom"; explicit first-person execution language "I bought 2/3 of large position on the spot"; chart shows liquidation cascade bottom signal; awaiting Kyle `approve SPCX` to mirror on Kraken spot [2082474174895804542]
+  - Jul 29 12:55Z — ambiguous: reply "@DeItaone And, as is typically the case, the market will react in the opposite direction"; cryptic reply to external trader; context missing (DeItaone's message unknown); calibration alert sent [2082449814940238258]
+  - Jul 29 08:33Z — informational: BTC consolidation within range; sellers at resistance, buyers at support; neutral/range-bound view [2082384094697025996]
   - Jul 29 05:46Z — ambiguous: "@notfrydoteth {t.co link}"; bare mention + inaccessible media; context missing; calibration alert sent [2082341851286171719]
   - Jul 28 14:36Z — ambiguous: "@zackvoell Market sentiment"; cryptic reply to external trader; context missing; calibration alert sent [2082113084252938493]
   - Jul 28 13:51Z — ambiguous: "state of things wtf" + t.co link; media inaccessible (404); no ticker/level/execution; calibration alert sent [2082101717278101914]

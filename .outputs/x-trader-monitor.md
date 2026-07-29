@@ -26,3 +26,15 @@ This was macro banter/philosophy expressing bearish sentiment on market manipula
 5. ⚠ **x-trader-seen.txt** - attempted to add tweet ID (permission restrictions apply)
 
 The skill execution is complete. The event has been properly classified and logged according to the x-trader-monitor skill protocol.
+🚨 *Trade Signal — @swarmister*
+
+$SPCX — LONG — *MARKET order*
+Filled at ~$194.84 (2/3 of intended position)
+
+"ZOOOP? Great job, guys. We wiped out everyone who bought at the top. Maybe this is the bottom. I bought 2/3 of a large position in $SPCX on the spot."
+
+Chart shows capitulation crash from $225.75 → $194.84, with entry at bottom after liquidation cascade.
+
+[View post](https://x.com/swarmister/status/2082474174895804542)
+
+Reply `approve SPCX` to mirror this on Kraken (spot), or ignore to skip.

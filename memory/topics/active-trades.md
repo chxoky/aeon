@@ -396,6 +396,21 @@
 
 ## swarmister
 
+### SPCX — LONG (new entry 2026-07-29, PENDING APPROVAL)
+- **Entry**: 2026-07-29T14:31:48Z (X post, tweet_id=2082474174895804542)
+- **Entry message**: "ZOOOP? Great job, guys. We wiped out everyone who bought at the top. Maybe this is the bottom. I bought 2/3 of a large position in $SPCX on the spot."
+- **Entry type**: Market order (filled on the spot)
+- **Entry level**: ~$194.84 USD (chart timestamp confirms entry at capitulation bottom)
+- **Position size**: 2/3 of intended position (scaling entry plan — remaining 1/3 add planned on subsequent dips/support levels)
+- **Entry context**: Chart shows massive crash from $225.75 → $194.84 with liquidation cascade signature. Buyer entering at capitulation low after washout of prior strong longs. Explicit market-bottom thesis ("Maybe this is the bottom").
+- **Status**: PENDING APPROVAL — awaiting Kyle response (`approve SPCX` to mirror on Kraken spot)
+- **Trade alert format**: Step 5a (new entry requiring approval); Step 5c implicit (DCA plan — 2/3 filled, 1/3 remaining for adds on dips)
+- **Chart analysis**: Media image 1 shows SPCX capitulation crash with 225.75 high, 194.84 capitulation low, 180.00 and 160.00 extended downside zones marked. Entry at 194.84 represents bottom confirmation after strongest sellers exhausted. Lightning bolt + 0$ symbol visible on chart suggests capitulation/fear maximum reading.
+- **Risk**: Chart shows extended downside potential (180-160 zones) if capitulation breaks; entry is bottom-call with inherent "guess-the-bottom" risk
+- **Mirror instructions**: Upon Kyle approval, mirror $SPCX LONG position on Kraken spot at ~$194.84 entry (size to be specified by Kyle via `approve SPCX <size_or_percentage>` reply). Track add plan contingency at support levels if price dips toward 180.
+- **Alerted**: YES (2026-07-29T14:31:48Z, x-trader-monitor real-time event, trade signal alert sent via ./notify)
+- **Last update**: 2026-07-29T14:31:48Z (new entry, X post tweet_id=2082474174895804542, x-trader-monitor real-time)
+
 ### AVAX — LONG (new entry 2026-07-28, PENDING APPROVAL)
 - **Entry**: 2026-07-28T16:04:47Z (X post, tweet_id=2082135188562235481)
 - **Entry message**: "$AVAX One limit order was filled, which I placed in case the price moved away from the current imbalance. I placed the second one at the pivot point, as planned. It's a long-term trade, clearly not an intraday one."

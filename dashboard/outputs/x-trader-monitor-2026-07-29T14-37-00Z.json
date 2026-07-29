@@ -1,0 +1,122 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Trade Signal — @swarmister"
+      },
+      "children": [
+        "signal_heading",
+        "trade_details",
+        "sep1",
+        "tweet_card",
+        "chart_context",
+        "post_link",
+        "action_alert"
+      ]
+    },
+    "signal_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🚨 Trade Signal",
+        "level": "h3"
+      }
+    },
+    "trade_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "trade_badges",
+        "fill_info",
+        "position_info"
+      ]
+    },
+    "trade_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_spcx",
+        "badge_long",
+        "badge_market"
+      ]
+    },
+    "badge_spcx": {
+      "type": "Badge",
+      "props": {
+        "text": "$SPCX",
+        "variant": "default"
+      }
+    },
+    "badge_long": {
+      "type": "Badge",
+      "props": {
+        "text": "LONG",
+        "variant": "default"
+      }
+    },
+    "badge_market": {
+      "type": "Badge",
+      "props": {
+        "text": "MARKET order",
+        "variant": "default"
+      }
+    },
+    "fill_info": {
+      "type": "Stat",
+      "props": {
+        "label": "Filled at",
+        "value": "~$194.84"
+      }
+    },
+    "position_info": {
+      "type": "Text",
+      "props": {
+        "text": "Position: 2/3 of intended position"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "@swarmister",
+        "text": "ZOOOP? Great job, guys. We wiped out everyone who bought at the top. Maybe this is the bottom. I bought 2/3 of a large position in $SPCX on the spot."
+      }
+    },
+    "chart_context": {
+      "type": "Text",
+      "props": {
+        "text": "Chart shows capitulation crash from $225.75 → $194.84, with entry at bottom after liquidation cascade.",
+        "variant": "caption"
+      }
+    },
+    "post_link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/swarmister/status/2082474174895804542"
+      }
+    },
+    "action_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Action Required",
+        "message": "Reply `approve SPCX` to mirror this on Kraken (spot), or ignore to skip.",
+        "type": "info"
+      }
+    }
+  }
+}
