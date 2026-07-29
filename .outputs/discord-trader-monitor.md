@@ -32,3 +32,8 @@ Perfect! I've successfully executed the discord-trader-monitor skill for this ev
 - **Structure**: 1h consolidation breakdown thesis
 
 No Kyle approval required (fast-path handled by Worker; informational memory updates completed per protocol).
+🔍 *Calibration — [DC: Chase — TradFi]*
+
+Message: "I need that shit to be flushed very soon"
+
+Unable to classify — what's your read? (Position liquidation? Market sentiment? Specific trade exit?)

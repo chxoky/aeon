@@ -1,0 +1,105 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "heading-calibration",
+        "separator-1",
+        "source-badge",
+        "message-section",
+        "separator-2",
+        "classification-section"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "source-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DC: Chase — TradFi",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "message-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "message-label",
+        "message-content"
+      ]
+    },
+    "message-label": {
+      "type": "Text",
+      "props": {
+        "text": "Message:",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "message-content": {
+      "type": "Alert",
+      "props": {
+        "message": "I need that shit to be flushed very soon",
+        "type": "info"
+      },
+      "children": []
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "classification-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "unable-classify-alert",
+        "options-text"
+      ]
+    },
+    "unable-classify-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read?",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "options-text": {
+      "type": "Text",
+      "props": {
+        "text": "Position liquidation? Market sentiment? Specific trade exit?",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}

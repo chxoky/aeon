@@ -151,6 +151,7 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - PENDING: "could even flush demand and sweep 309. Not fully sure" — 309 = ES/SPX? [1529842748868526253]
   - PENDING: "appeasing to your technicals" — conviction on what asset? [1530211696730312855]
   - PENDING: "It's in this chat somewhere" — referent unknown [1530210390917779506]
+  - PENDING: Jul 29 20:15Z Discord TradFi supporting channel: "I need that shit to be flushed very soon" — position liquidation? market sentiment? specific ticker? [1532119302768034065]
 - Last seen: 2026-07-29 15:09:12 UTC
 - **Events (rolling):**
   - Jul 29 15:09Z — informational: SNDK/MU buy-level setup; SNDK stops below 1000 (980 target), MU 770–660 range both "good buy" candidates; market context "highest-risk scenario" (potential surprise rate hike surprise), unavailable later (physical therapy); Discord primary; image attachment (charts); fast-path-alerted by Worker [1532042316015992873]
