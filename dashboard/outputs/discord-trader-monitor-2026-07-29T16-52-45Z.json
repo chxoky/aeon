@@ -1,0 +1,199 @@
+{
+  "root": "card-monitor",
+  "state": {},
+  "elements": {
+    "card-monitor": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor"
+      },
+      "children": [
+        "heading-calibration",
+        "pattern-section",
+        "separator1",
+        "findings-section",
+        "separator2",
+        "questions-section",
+        "separator3",
+        "context-section",
+        "callout"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration — DC: HCH — Chat",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "pattern-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pattern-label",
+        "pattern-value"
+      ]
+    },
+    "pattern-label": {
+      "type": "Text",
+      "props": {
+        "text": "Pattern:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "pattern-value": {
+      "type": "Text",
+      "props": {
+        "text": "'Fc btc 15m' (supporting channel, real-time)"
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "findings-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "finding1",
+        "finding2"
+      ]
+    },
+    "finding1": {
+      "type": "Text",
+      "props": {
+        "text": "HCH has posted this exact 'Fc {ticker} {timeframe}' pattern 7+ times (Jul 24–29)"
+      },
+      "children": []
+    },
+    "finding2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "status-label",
+        "status-badge"
+      ]
+    },
+    "status-label": {
+      "type": "Text",
+      "props": {
+        "text": "Status:"
+      },
+      "children": []
+    },
+    "status-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "PENDING explicit calibration",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "questions-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "questions-title",
+        "q1",
+        "q2"
+      ]
+    },
+    "questions-title": {
+      "type": "Text",
+      "props": {
+        "text": "Questions for calibration:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "q1": {
+      "type": "Text",
+      "props": {
+        "text": "What does 'Fc' stand for?"
+      },
+      "children": []
+    },
+    "q2": {
+      "type": "Text",
+      "props": {
+        "text": "Form-confirmed? Technical observation only? Signal to add/cover?"
+      },
+      "children": []
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "context-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context-title",
+        "context1",
+        "context2"
+      ]
+    },
+    "context-title": {
+      "type": "Text",
+      "props": {
+        "text": "Current known context:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "context1": {
+      "type": "Text",
+      "props": {
+        "text": "HCH's short basket is active"
+      },
+      "children": []
+    },
+    "context2": {
+      "type": "Text",
+      "props": {
+        "text": "BTC structure volatile into FOMC"
+      },
+      "children": []
+    },
+    "callout": {
+      "type": "Alert",
+      "props": {
+        "title": "Awaiting calibration",
+        "message": "Awaiting your read on whether this is actionable or educational-only.",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}
