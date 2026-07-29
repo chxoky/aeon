@@ -328,8 +328,9 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - PENDING: "Fc btc 1hr" Chat Jul 26 [1531013265075736657]
   - PENDING: "If we go by textbookish interpretation" Chat Jul 27 — cryptic terse fragment [1531130870419947671]
   - PENDING: "Fc clusdt.p 5m" Chat Jul 28 — Same "Fc {ticker} {timeframe}" pattern PENDING explicit calibration (matches Jul 27 23:18Z "Fc btcdom 1hr", Jul 27 02:45Z "Fc btc 1w", Jul 26 19:00Z "Fc btc 1hr", Jul 26 18:54Z "Fc btc 15m", Jul 24 09:03Z "Fc cl 1m"). Context: HCH active CL 2% short (entered Jul 24 at ~$90, currently +13% profit). Is "Fc" = form-confirmed chart observation (technical only, skip)? Or technical signal requiring action (add/cover)? Or conviction reinforcement? Pattern appears 7+ times (Jul 24–28), all awaiting calibration. Calibration alert sent. [1531691486499045436]
-- Last seen: 2026-07-29 05:28:45 UTC
+- Last seen: 2026-07-29 06:02:49 UTC
 - **Events (rolling):**
+  - Jul 29 06:02Z — informational: BTC/equities — support level identified after market crash; "downside is capped for some time frame"; suggests shorts can cover on recent capitulation [2082346087126638677]
   - Jul 29 05:28Z — informational: KOSPI Index crash -10.03% (5419.48); Korea stock exchange market observation validating short-basket thesis [2082337510936707104]
   - Jul 29 05:14Z — informational-supporting: URL link to X post (https://x.com/i/status/2082324172462583991) in reply to member @tkglitch369's "No bids for hype until the chart finishes painting" (Chat supporting channel); URL-only context-providing message on HYPE chart setup; no standalone alert (supporting channel, member-initiated); folded into HYPE short-basket conviction tracking [1531892606727094272]
   - Jul 29 05:07Z — ambiguous: "We are going to see loosing it all screenshots now" + wallet address (0xcf67e4da9e9cd38c0afd26338d0fbddb3036eb24); cryptic market observation with external onchain reference; unclear if personal action vs external liquidation tracking; calibration alert sent [2082332201052696788]

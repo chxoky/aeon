@@ -1,0 +1,41 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "sep1",
+        "tech_obs"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "@HeartCanHodl",
+        "text": "Well..now the downside is capped for some time frame if anyone looking for cushion / can take off shorts"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "tech_obs": {
+      "type": "Text",
+      "props": {
+        "text": "Technical observation: Market found support after KOSPI crash (-10%), validating HCH's bearish thesis. Suggests shorts can cover on recent capitulation.",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}

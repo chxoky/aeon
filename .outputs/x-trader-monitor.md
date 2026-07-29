@@ -24,3 +24,8 @@ Perfect! I've completed the x-trader-monitor skill execution. Here's the summary
 
 **Decision:** Per skill Step 8 size-discipline rules, skip/non-financial events do NOT add event lines to traders.md (prevents file bloat). This prevents the 1.26MB+ memory file issue that occurred previously.
 [View tweet](https://x.com/HeartCanHodl/status/2082345471113392180)
+@0xRiver8 Well..now the downside is capped for some time frame if anyone looking for cushion / can take off shorts
+
+[View tweet](https://x.com/HeartCanHodl/status/2082346087126638677)
+
+↳ _Technical observation: market found support after KOSPI crash (-10%), validating HCH's bearish thesis. Suggests shorts can cover on recent capitulation._
