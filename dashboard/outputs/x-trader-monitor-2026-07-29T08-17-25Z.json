@@ -1,0 +1,47 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @swarmister"
+      },
+      "children": [
+        "text_event",
+        "tweetcard_1",
+        "text_analysis",
+        "link_view"
+      ]
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Cryptic mention + time reference",
+        "variant": "lead"
+      }
+    },
+    "tweetcard_1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "@swarmister",
+        "text": "@xbt2027 @deltaxbt 2-3h"
+      }
+    },
+    "text_analysis": {
+      "type": "Text",
+      "props": {
+        "text": "No ticker/level/execution language. Unable to classify — what's your read?",
+        "variant": "body"
+      }
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/swarmister/status/2082379223860224368"
+      }
+    }
+  }
+}
