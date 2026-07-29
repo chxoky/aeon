@@ -359,6 +359,9 @@ BOOTSTRAP_COMPLETE: 2026-07-14
 - Last seen: 2026-07-29 15:03:39 UTC
 - **Events (rolling):**
   - Jul 29 19:51Z — informational-image-only: Screenshot attachment to Free channel (1472153627324842057, primary public distribution); image unavailable for inspection (CDN 404); similar pattern to Jul 29 18:37Z "Observing this.."; awaiting Kyle visual review for classification [1532113431568711780]
+- Last seen: 2026-07-29 19:54:56 UTC
+- **Events (rolling):**
+  - Jul 29 19:54Z — trade-partial-tp: VVV short closed (Trades channel, primary; fast-path-alerted=true); verbatim rule enforced — exact message "Cover vvv shorts" preserved in memory; explicit closing language ("cover") confirms position reduction on existing VVV 2% short (entered Jul 19 02:08Z); profit-taking on VVV short basket [1532114225424502825]
   - Jul 29 19:39Z — trade-partial-tp: ETH 2% pf short closed (Trades channel, primary; fast-path-alerted=true); verbatim rule enforced — exact message "Cover 2% eth short" preserved in memory; explicit closing language confirms position reduction on existing ETH short basket; profit-taking on ETH shorts [1532110371727343748]
   - Jul 29 19:39Z — informational: macro bearish sentiment; "hope pump before cliff" (LTF bounce relief move then structural breakdown); reinforces HTF short-basket conviction; aligns group consensus chop→weakness [2082551544260833641]
   - Jul 29 19:30Z — ambiguous: technical price-level prediction without ticker context; "It might be better if it hits a bit higher 1940-1960 before the eventual fall" (Chat supporting channel); no explicit ticker/asset specified, price levels unclear against known positions; awaiting calibration on referent asset and prediction scope; fast-path-alerted by Worker (alert sent ~2-5s prior) [1532108120044736653]
