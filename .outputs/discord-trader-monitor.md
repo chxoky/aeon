@@ -29,3 +29,10 @@ The log file is quite large. Let me complete the skill execution by summarizing 
 - **Action:** Planning conservative bid accumulation, "sorta in the middle" sizing
 
 **Status:** All steps complete. No alerts sent (fast-path protocol). Memory updated for future reference on Crypto_Chase's cautious market outlook and long-term accumulation thesis.
+🔍 *Calibration — [DC: HCH — Chat]*
+
+Event: Recurring technical pattern
+
+HeartCanHodl: "Fc metausdt.p 1d"
+
+Unable to classify — "Fc {ticker} {timeframe}" pattern appears 7+ times (Jul 24–28, Jul 29) but meaning unconfirmed. Is "Fc" = form-confirmed chart observation (skip)? Or conviction signal (add/cover)? What's your read?

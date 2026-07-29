@@ -1,0 +1,157 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — [DC: HCH — Chat]"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event_type",
+        "source_info",
+        "sep1",
+        "quote_section",
+        "sep2",
+        "analysis_section"
+      ]
+    },
+    "event_type": {
+      "type": "Badge",
+      "props": {
+        "text": "Recurring technical pattern",
+        "variant": "secondary"
+      }
+    },
+    "source_info": {
+      "type": "Text",
+      "props": {
+        "text": "Source: HeartCanHodl",
+        "variant": "muted"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "quote_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "quote_label",
+        "quote_text"
+      ]
+    },
+    "quote_label": {
+      "type": "Text",
+      "props": {
+        "text": "Observed message:",
+        "variant": "caption"
+      }
+    },
+    "quote_text": {
+      "type": "Badge",
+      "props": {
+        "text": "Fc metausdt.p 1d",
+        "variant": "outline"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis_heading",
+        "pattern_detail",
+        "classification_alert",
+        "hypotheses"
+      ]
+    },
+    "analysis_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Classification Issue",
+        "level": "h3"
+      }
+    },
+    "pattern_detail": {
+      "type": "Text",
+      "props": {
+        "text": "Pattern \"Fc {ticker} {timeframe}\" appears 7+ times (Jul 24–28, Jul 29) but meaning unconfirmed.",
+        "variant": "body"
+      }
+    },
+    "classification_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Uncertain interpretation of \"Fc\" abbreviation",
+        "type": "warning"
+      }
+    },
+    "hypotheses": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "hyp_label",
+        "hyp_option_1",
+        "hyp_option_2",
+        "question_text"
+      ]
+    },
+    "hyp_label": {
+      "type": "Text",
+      "props": {
+        "text": "Possible interpretations:",
+        "variant": "lead"
+      }
+    },
+    "hyp_option_1": {
+      "type": "Text",
+      "props": {
+        "text": "Is \"Fc\" = form-confirmed chart observation (skip)?",
+        "variant": "body"
+      }
+    },
+    "hyp_option_2": {
+      "type": "Text",
+      "props": {
+        "text": "Or conviction signal (add/cover)?",
+        "variant": "body"
+      }
+    },
+    "question_text": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "lead"
+      }
+    }
+  }
+}
