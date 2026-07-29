@@ -84,8 +84,9 @@ BOOTSTRAP_COMPLETE: 2026-07-14
 - Last seen: 2026-07-29 17:16:18 UTC
 - **Events (rolling):**
   - Jul 29 17:16Z — trade-position-mgmt: BTC scalp-short CLOSE; closing position slightly below entry, waiting for monthly close for better setup; market characterized as "too messy"; reply-context: to Jul 29 09:51Z stop-level message (66k SL); Discord primary, fast-path-alerted [1532074303691030620]
-- Last seen: 2026-07-29 17:16:40 UTC
+- Last seen: 2026-07-29 17:24:56 UTC
 - **Events (rolling):**
+  - Jul 29 17:24Z — informational: BTC macro cycle prediction; -10%+ correction in Legacy marks HTF bottom; 50K test depends on relative strength vs Legacy; bears have 1.5mo window; "if not at 50K by then kiss that level goodbye"; charts: historical SPX/BTC correlation + Kalshi 50% odds; aligns HTF-bullish + interim-bearish scenario [2082517744310788565]
   - Jul 29 17:16Z — informational: position-management conviction; waiting for better setup into monthly close + 5th pivot to avoid scam wicks; Discord reply-context to scalp-short closed below entry, patience thesis reinforcement [1532074396993192096]
   - Jul 29 14:07Z — informational: BTC caution on pump into FOMC; "first move is the false move"; skeptical near-term view despite HTF-bullish core conviction [2082468182149792216]
   - Jul 29 12:48Z — ambiguous: BTC structural prediction; "cross over next few months", patience restatement (reply to @Crypto_techh) [2082448090380779530]

@@ -1,0 +1,79 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "separator1",
+        "context_stack"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "If I'm being perfectly reasonable, unbiased, and objective,\n\nA -10%+ correction in Legacy from the highs this year will likely mark the HTF macro bottom for $BTC.\n\nWhether we actually test 50K depends on if BTC shows weakness with Legacy, because there have been many times in the past where crypto displayed relative strength instead.\n\nBears have about 1.5 months to push BTC as low as they can.\n\nIf we're not at 50K by then… you can kiss that level goodbye."
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_heading",
+        "chart_text",
+        "odds_progress",
+        "alignment_text",
+        "link_post"
+      ]
+    },
+    "context_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "chart_text": {
+      "type": "Text",
+      "props": {
+        "text": "Post includes historical SPX/BTC cycle correlation chart (multiple bear-market cycle bottoms)."
+      }
+    },
+    "odds_progress": {
+      "type": "Progress",
+      "props": {
+        "value": 50,
+        "max": 100,
+        "label": "Kalshi: Probability of $50K before $100K"
+      }
+    },
+    "alignment_text": {
+      "type": "Text",
+      "props": {
+        "text": "Aligns with HTF-bullish cycle-bottom conviction, interim bearish near-term scenario framework."
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/KillaXBT/status/2082517744310788565"
+      }
+    }
+  }
+}
