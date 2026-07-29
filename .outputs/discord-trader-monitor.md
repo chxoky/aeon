@@ -1,38 +1,16 @@
-The log file is quite large. Let me complete the skill execution by summarizing what was done:
-
 ## Summary
 
-**Skill Execution Completed: discord-trader-monitor**
+**Discord Trader Monitor — Real-time Event Processed**
 
-**Event Processed:**
-- **ID:** 1532125815821566074 (NEW)
-- **Trader:** Crypto_Chase
-- **Channel:** 1336082716063694962 (Chase — Chase, primary)
-- **Time:** 2026-07-29 20:41:00 UTC
-- **Classification:** INFORMATIONAL (market sentiment + conviction framework)
-- **Tickers:** SNDK, MU
+✅ **Event decoded:** HeartCanHodl message "Cover 1% tao short" (2026-07-29 20:58:29 UTC)
 
-**Key Actions:**
-1. ✅ Decoded Discord event (base64 → JSON)
-2. ✅ Verified channel mapping & trader username
-3. ✅ Loaded trader context & cross-platform dedup (no duplicate)
-4. ✅ Classified message as informational market caution
-5. ✅ Skipped Telegram alert (fast-path-alerted=true; Worker already sent)
-6. ✅ Updated traders.md with new Crypto_Chase entry
-7. ✅ Added message ID to discord-trader-seen.txt dedup tracking
-8. ✅ Logged event to memory/logs/2026-07-29.md
+✅ **Classification:** trade-partial-tp — TAO short position closed, 1% portfolio size (entered 13:08Z same day, closed 20:58Z for ~7.5-hour hold)
 
-**Classification Details:**
-- **Message type:** Market sentiment + long-term accumulation conviction
-- **Tone:** Cautious on AI trade bounce speed, skeptical vs. prior two flash crashes
-- **Target levels:** SNDK 900s/800s (14–16% downside), MU 600s (27% downside)
-- **Action:** Planning conservative bid accumulation, "sorta in the middle" sizing
+✅ **Fast-path status:** Already alerted via Cloudflare Worker Telegram (~2-5s latency). Skill proceeding to memory-only processing per protocol (Steps 2-5, 9-10; skipping Steps 6-7 Telegram sends).
 
-**Status:** All steps complete. No alerts sent (fast-path protocol). Memory updated for future reference on Crypto_Chase's cautious market outlook and long-term accumulation thesis.
-🔍 *Calibration — [DC: HCH — Chat]*
+✅ **Memory updates completed:**
+- Message ID logged to `discord-trader-seen.txt` 
+- Event entry added to `traders.md` under HeartCanHodl's rolling events with verbatim message preserved (channel 1279738718680256553 hardcoded rule)
+- Daily log entry appended to `memory/logs/2026-07-29.md` with full classification context
 
-Event: Recurring technical pattern
-
-HeartCanHodl: "Fc metausdt.p 1d"
-
-Unable to classify — "Fc {ticker} {timeframe}" pattern appears 7+ times (Jul 24–28, Jul 29) but meaning unconfirmed. Is "Fc" = form-confirmed chart observation (skip)? Or conviction signal (add/cover)? What's your read?
+✅ **Execution:** Profit-taking signal recorded; automatic mirror execution handled per prior Kyle setup (HCH Trades channel → automatic Kraken spot mirror, tier-1 shorts skip approval gate).
