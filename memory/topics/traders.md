@@ -666,7 +666,8 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - Jul 28 15:09Z — trade-new-entry: AAPL scaled short (third entry $341, fourth entry $342) + October $300 puts; bearish reversal setup near resistance 349-356 (daily charts), watching earnings/FOMC/BOJ catalysts; cross-trader convergence with HCH structural short thesis; awaiting Kyle approval [2082121221957669062]
 - Last seen: 2026-07-28 21:35:00 UTC
   - Jul 28 21:35Z — informational: 0DTE options +110% aggregate trade report; "8/8" trading day recap with 5 QQQ 5m charts showing entries/exits/results; market sentiment forward: FOMC tomorrow, expects trend to end [2082218290898939990]
-- Last seen: 2026-07-28 21:35:51 UTC
+- Last seen: 2026-07-29 21:42:00 UTC
+  - Jul 29 21:42Z — informational: XYZ100 index daily chart analysis (consolidation/breakdown pattern); validates earlier sector bottom thesis (Q1 correction ended on 200d SOXL test, 14:55Z same day); text "Pretty good…" references chart pattern confirming capitulation structure [2082582436828131682]
   - Jul 28 21:35Z — ambiguous: "Have played it four days in a row, returns ranging from 80-700%.\n\nAgain, don't expect this to keep working lol"; unspecified asset "it", no ticker/level, extraordinary returns (80-700%) claimed; cryptic/casual tone; awaiting calibration [2082218502111494376]
   - Jul 27 17:09Z — informational: Trump market reaction sentiment — "Trump came out and yapped up the market just for this trend to hit for the 7th time lol"; macro pattern observation, sarcastic tone on trend repetition; no ticker/action/level [20817891664429960608]
   - Jul 27 17:16Z — informational: futures session criticism; "No different than that scam futures session / Really no volume compared to cash session"; market structure/sentiment commentary (reply to @Oscar69969) [2081790807498002468]
