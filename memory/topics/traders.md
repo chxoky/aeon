@@ -355,9 +355,10 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - PENDING: "Fc btc 1hr" Chat Jul 26 [1531013265075736657]
   - PENDING: "If we go by textbookish interpretation" Chat Jul 27 — cryptic terse fragment [1531130870419947671]
   - PENDING: "Fc clusdt.p 5m" Chat Jul 28 — Same "Fc {ticker} {timeframe}" pattern PENDING explicit calibration (matches Jul 27 23:18Z "Fc btcdom 1hr", Jul 27 02:45Z "Fc btc 1w", Jul 26 19:00Z "Fc btc 1hr", Jul 26 18:54Z "Fc btc 15m", Jul 24 09:03Z "Fc cl 1m"). Context: HCH active CL 2% short (entered Jul 24 at ~$90, currently +13% profit). Is "Fc" = form-confirmed chart observation (technical only, skip)? Or technical signal requiring action (add/cover)? Or conviction reinforcement? Pattern appears 7+ times (Jul 24–28), all awaiting calibration. Calibration alert sent. [1531691486499045436]
-- Last seen: 2026-07-29 19:39:14 UTC
+- Last seen: 2026-07-29 19:51:47 UTC
 - Last seen: 2026-07-29 15:03:39 UTC
 - **Events (rolling):**
+  - Jul 29 19:51Z — informational-image-only: Screenshot attachment to Free channel (1472153627324842057, primary public distribution); image unavailable for inspection (CDN 404); similar pattern to Jul 29 18:37Z "Observing this.."; awaiting Kyle visual review for classification [1532113431568711780]
   - Jul 29 19:39Z — trade-partial-tp: ETH 2% pf short closed (Trades channel, primary; fast-path-alerted=true); verbatim rule enforced — exact message "Cover 2% eth short" preserved in memory; explicit closing language confirms position reduction on existing ETH short basket; profit-taking on ETH shorts [1532110371727343748]
   - Jul 29 19:39Z — informational: macro bearish sentiment; "hope pump before cliff" (LTF bounce relief move then structural breakdown); reinforces HTF short-basket conviction; aligns group consensus chop→weakness [2082551544260833641]
   - Jul 29 19:30Z — ambiguous: technical price-level prediction without ticker context; "It might be better if it hits a bit higher 1940-1960 before the eventual fall" (Chat supporting channel); no explicit ticker/asset specified, price levels unclear against known positions; awaiting calibration on referent asset and prediction scope; fast-path-alerted by Worker (alert sent ~2-5s prior) [1532108120044736653]
