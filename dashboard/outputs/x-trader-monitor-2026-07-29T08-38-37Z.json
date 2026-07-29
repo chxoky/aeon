@@ -1,0 +1,68 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor",
+        "description": "Trading analysis from X/Twitter"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge-btc",
+        "tweet-swarmister",
+        "stack-meta"
+      ]
+    },
+    "badge-btc": {
+      "type": "Badge",
+      "props": {
+        "text": "$BTC",
+        "variant": "default"
+      }
+    },
+    "tweet-swarmister": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Swarmister",
+        "handle": "swarmister",
+        "text": "It's a bit of a toss-up right now, as we've reached a test of the sellers' resistance, with buyers at the bottom and sellers reappearing at the top. It looks like we're being kept within a range. https://t.co/ZCOafLmg41"
+      }
+    },
+    "stack-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-view-tweet",
+        "text-interpretation"
+      ]
+    },
+    "link-view-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/swarmister/status/2082384094697025996"
+      }
+    },
+    "text-interpretation": {
+      "type": "Text",
+      "props": {
+        "text": "Neutral range view contrasts with prior long-lean bias; aligns with group consensus of HTF-bullish but near-term chop expected.",
+        "variant": "caption"
+      }
+    }
+  }
+}

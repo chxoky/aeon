@@ -1,9 +1,9 @@
-🔍 *Calibration — @swarmister*
+🐦 *[X] @swarmister*
 
-Event: Cryptic mention + time reference
+$BTC 
 
-@xbt2027 @deltaxbt 2-3h
+It's a bit of a toss-up right now, as we've reached a test of the sellers' resistance, with buyers at the bottom and sellers reappearing at the top. It looks like we're being kept within a range. https://t.co/ZCOafLmg41
 
-No ticker/level/execution language. Unable to classify — what's your read?
+[View tweet](https://x.com/swarmister/status/2082384094697025996)
 
-[View post](https://x.com/swarmister/status/2082379223860224368)
+↳ _Neutral range view contrasts with prior long-lean bias; aligns with group consensus of HTF-bullish but near-term chop expected._
