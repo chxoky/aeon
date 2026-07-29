@@ -149,8 +149,9 @@ BOOTSTRAP_COMPLETE: 2026-07-14
 - Last seen: 2026-07-29 15:09:12 UTC
 - **Events (rolling):**
   - Jul 29 15:09Z — informational: SNDK/MU buy-level setup; SNDK stops below 1000 (980 target), MU 770–660 range both "good buy" candidates; market context "highest-risk scenario" (potential surprise rate hike surprise), unavailable later (physical therapy); Discord primary; image attachment (charts); fast-path-alerted by Worker [1532042316015992873]
-- Last seen: 2026-07-29 15:09:51 UTC
+- Last seen: 2026-07-29 16:56:25 UTC
 - **Events (rolling):**
+  - Jul 29 16:56Z — informational-silent-dedup: X reiteration of Discord 15:09Z post "SNDK/MU buy-level setup"; mechanical repeat (990 level ≈ 1000 zone target), no new detail; cross-platform dedup per HR-3; silent log-only [2082510569353953371]
   - Jul 29 15:09Z — informational: primary-channel market analysis; "AMD level if there is a rate hike" + chart image; conditional technical level commentary on AMD's price behavior in rate-hike scenario; educational market observation, no trade entry/exit signal; Discord primary channel; fast-path-alerted by Worker [1532042482521473126]
   - Jul 29 14:01Z — informational: supporting-channel technical confirmation; reply to member quagmire0305 asking about 980-850 SNDK bounce zone; Chase: "This is my area too. It's a tougher trade than the previous ones but this is the area. Otherwise it's really going to get ugly" — validates member's technical observation on SNDK support zone; no new entry (SNDK closed Jul 27 at $1480, 80% cumulative closed); Discord TradFi supporting channel; fast-path-alerted by Worker [1532025363905908857]
   - Jul 29 13:57Z — ambiguous: image-only message in primary Discord channel, no text description; unable to classify without visual content inspection; calibration alert sent [1532024167363383426]
