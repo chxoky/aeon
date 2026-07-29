@@ -1,19 +1,21 @@
-## Summary
+Skill execution complete. Here's the summary:
 
-**Discord Trader Monitor — Execution Complete**
+## Event Processing Summary
 
-Processed real-time event from **HeartCanHodl** (Discord message ID: 1531959354066997431, timestamp 2026-07-29T09:39:32Z).
+**Event:** KillaXBT Discord message (primary channel), Jul 29 09:51:29 UTC
 
-**Classification:** INFORMATIONAL (supporting channel conviction restatement)
-- **Channel:** HCH — Chat (supporting/member Q&A)
-- **Content:** Reply to tkglitch369 asking about market rebound expectations — HCH: "Shorts. Might add on any further weakness"
-- **Type:** Conviction affirmation + conditional scale-in plan (not immediate execution)
-- **Alert Status:** Fast-path alert already sent by Cloudflare Worker ~2-5s post-message (~09:39:35 UTC); skill performed memory-only processing per fast-path protocol (no duplicate Telegram)
+**Classification:** `trade-position-mgmt` — Stop-loss placement on existing BTC scalp-short
 
-**Memory Updates:**
-- ✅ Message ID added to discord-trader-seen.txt (dedup tracking)
-- ✅ Event line added to traders.md under HeartCanHodl rolling events (Jul 29 09:39Z entry)
-- ✅ "Last seen" timestamp updated to 2026-07-29 09:39:32 UTC
-- ✅ Detailed log entry appended to memory/logs/2026-07-29.md with full processing notes
+**Key Details:**
+- **Message:** "Setting stops at 66k. If Monday high is in & we are gonna see a correction after Fomc we should flip the high rather create a Lower high into it."
+- **Context:** Reply to Jul 28 16:06Z scalp-short entry (market price SSL entry, watching for longs at 61.5K-61K zone)
+- **Action:** Setting stop orders at 66K level; discussing market structure & FOMC contingency scenario
+- **Status:** Fast-path alerted ✓ (Cloudflare Worker pre-sent Telegram ~2-5s prior; skill processes memory-only)
 
-**Outcome:** No mirror execution required (informational only, no personal immediate trade action). Aligns with HCH's documented structural bearish crypto thesis. Fast-path alert delivered to Kyle via Telegram; skill validation + memory update completed.
+**Updates Applied:**
+- ✅ traders.md — Added event to KillaXBT rolling events, updated "Last seen" to 09:51:29 UTC
+- ✅ discord-trader-seen.txt — Logged message_id 1531962362234404964 (dedup tracking)
+- ✅ 2026-07-29.md — Detailed log entry with full classification rationale
+- ✅ active-trades.md — BTC scalp-short position amended with stop-placement entry
+
+**Routing:** No Telegram (fast-path already sent). Memory updated for Kyle's manual review via traders.md context.
