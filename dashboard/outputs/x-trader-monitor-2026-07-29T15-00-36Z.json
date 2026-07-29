@@ -1,0 +1,57 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge-soxl",
+        "tweet-wild",
+        "link-tweet",
+        "text-validation"
+      ]
+    },
+    "badge-soxl": {
+      "type": "Badge",
+      "props": {
+        "text": "$SOXL",
+        "variant": "outline"
+      }
+    },
+    "tweet-wild": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Q1 correction ended on the 200d SOXL test"
+      }
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2082480111220384099"
+      }
+    },
+    "text-validation": {
+      "type": "Text",
+      "props": {
+        "text": "Validates ryzzqq's SNDK/MU/DRAM mean-reversion buy (Jul 28 50% long entry) and Crypto_Chase's sector profit-takes (Jul 27 TP'd 80%) — third data point on semis bottom structure.",
+        "variant": "muted"
+      }
+    }
+  }
+}
