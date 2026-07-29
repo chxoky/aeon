@@ -1,0 +1,67 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "source_badge",
+        "comment_text",
+        "link_section"
+      ]
+    },
+    "source_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DC: HCH — Comments",
+        "variant": "outline"
+      }
+    },
+    "comment_text": {
+      "type": "Text",
+      "props": {
+        "text": "I liked the silence over the timeline esp. from the stock bros today",
+        "variant": "body"
+      }
+    },
+    "link_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_ref",
+        "link"
+      ]
+    },
+    "link_ref": {
+      "type": "Text",
+      "props": {
+        "text": "+ this",
+        "variant": "muted"
+      }
+    },
+    "link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "X post",
+        "href": "https://x.com/i/status/2082334039600496808",
+        "source": "X"
+      }
+    }
+  }
+}
