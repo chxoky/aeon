@@ -1,0 +1,66 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "header",
+        "content",
+        "footer"
+      ]
+    },
+    "header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-format",
+        "badge-channel"
+      ]
+    },
+    "badge-format": {
+      "type": "Badge",
+      "props": {
+        "text": "💬 Chat",
+        "variant": "secondary"
+      }
+    },
+    "badge-channel": {
+      "type": "Badge",
+      "props": {
+        "text": "HCH",
+        "variant": "default"
+      }
+    },
+    "content": {
+      "type": "Text",
+      "props": {
+        "text": "QCP capital made their 2nd pm trade after their trump presidential election \"yes\" bet",
+        "variant": "body"
+      }
+    },
+    "footer": {
+      "type": "Text",
+      "props": {
+        "text": "via Discord",
+        "variant": "caption"
+      }
+    }
+  }
+}
