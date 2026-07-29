@@ -1,23 +1,20 @@
-*Morning Brief — 2026-07-28*
+*Morning Brief — 2026-07-29*
 
 *Focus today*
-1. FOMC decision tomorrow — BTC at last support ($63K) before liquidity gap; hike prob rising to 38%
-2. Wild_Randomness calibration: clarify Warsh scenario + SQQQ short — both now time-critical pre-FOMC
-3. HCH short basket validating — KOSPI −10%, $80M SKHX Hyperliquid cascade; BTC targets 60.8K→54K active
+1. FOMC 2pm ET — Fed decision unblocks all live position decisions today
+2. HCH TAO short vs. TAO +3.4% — counter-signal live; position entered 06:54Z
+3. ryzzqq memory sector longs — FOMC outcome triggers add-or-cut decision tonight
 
 *Since yesterday*
-- Wild_Randomness: QQQ regime shift validated; SQQQ 'flipped short' (05:07Z) pending calibration
-- bull_genius: reversal scalp idea at BTC 63K cluster; hike prob at 38% (rising from 30% Jun 26)
-- HCH: KOSPI −10% commentary + Hyperliquid SKHX $80M cascade — bearish macro thesis active
-- swarmister: NEAR closed at breakeven; BTC spot/futures divergence resolved
-- No open mirrors; no pending approvals
-
-*Watch*
-- Wild_Randomness 'Warsh + Ueda hike' scenario (Jul 27 23:42Z) — Polymarket now 28%, rising; not extreme left tail anymore
-- Binance Android pulled from Google Play in EU/Spain (MiCA) — CEX liquidity risk if spreads
+- HCH short basket expanded: HYPE 2nd add (05:44Z), TAO new entry (06:54Z), UNI 3rd add (06:54Z) — est. ~31–36% portfolio short
+- KOSPI −10% intraday (2-day record); BTC absorbed without breakdown; HCH calls "downside capped for timeframe" but targets 60K on channel break
+- Wild_Randomness: 0DTE QQQ +110% aggregate recap (8/8 session); BTC 64K support → 60K flagged as next fall; SKHY wick validated — 3-trader convergence confirmed (HCH + WR + ryzzqq)
+- swarmister AVAX long pending Kyle approval since Jul 28 16:04Z
 
 *Running today*
 - token-alert @ 12:00 UTC
 - token-movers @ 12:00 UTC
 - market-context-refresh @ 13:00 UTC
 - narrative-tracker @ 13:30 UTC
+- heartbeat @ 14:00 UTC
+- skill-health @ 18:00 UTC
