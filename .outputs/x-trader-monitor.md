@@ -1,8 +1,8 @@
 🐦 *[X] @HeartCanHodl*
 
-Thanks to Jim Cramer, the earnings miss, and pre-FOMC de-risking for the mega sell-off. Couldn't have asked for a better day to cover more shorts.
+Before anyone assumes I'm talking about crypto shorts, I'm not.
 
-[View tweet](https://x.com/HeartCanHodl/status/20823440342161699944)
+I'm just not convinced by the latest "crypto relative strength" narrative making the rounds 🤷🏻
 
 ↳ _Market sentiment on sell-off providing ideal conditions for covering shorts. Consistent with HCH's short-basket thesis._
 Perfect! I've completed the x-trader-monitor skill execution. Here's the summary:
@@ -23,3 +23,4 @@ Perfect! I've completed the x-trader-monitor skill execution. Here's the summary
 4. ✅ **NO notification sent** (skip classification per Step 4A protocol)
 
 **Decision:** Per skill Step 8 size-discipline rules, skip/non-financial events do NOT add event lines to traders.md (prevents file bloat). This prevents the 1.26MB+ memory file issue that occurred previously.
+[View tweet](https://x.com/HeartCanHodl/status/2082345471113392180)
