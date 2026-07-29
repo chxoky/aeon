@@ -1,0 +1,346 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-07-29"
+      },
+      "children": [
+        "focus_section",
+        "sep1",
+        "yesterday_section",
+        "sep2",
+        "watch_section",
+        "sep3",
+        "running_section"
+      ]
+    },
+    "focus_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus_h",
+        "focus_item_1",
+        "focus_item_2",
+        "focus_item_3"
+      ]
+    },
+    "focus_h": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "focus_item_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "f1_title",
+        "f1_odds_stack",
+        "f1_btc",
+        "f1_time"
+      ]
+    },
+    "f1_title": {
+      "type": "Text",
+      "props": {
+        "text": "1. FOMC decision 2pm ET",
+        "variant": "lead"
+      }
+    },
+    "f1_odds_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "f1_nochange",
+        "f1_hike"
+      ]
+    },
+    "f1_nochange": {
+      "type": "Progress",
+      "props": {
+        "value": 78.85,
+        "max": 100,
+        "label": "No-change"
+      }
+    },
+    "f1_hike": {
+      "type": "Progress",
+      "props": {
+        "value": 21.15,
+        "max": 100,
+        "label": "Hike"
+      }
+    },
+    "f1_btc": {
+      "type": "Text",
+      "props": {
+        "text": "BTC +1.4% bounce into decision"
+      }
+    },
+    "f1_time": {
+      "type": "Text",
+      "props": {
+        "text": "Outcome in ~7h",
+        "variant": "muted"
+      }
+    },
+    "focus_item_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "f2_title",
+        "f2_content",
+        "f2_target"
+      ]
+    },
+    "f2_title": {
+      "type": "Text",
+      "props": {
+        "text": "2. HCH expanded short basket overnight",
+        "variant": "lead"
+      }
+    },
+    "f2_content": {
+      "type": "Text",
+      "props": {
+        "text": "Added HYPE (3rd day), TAO (NEW ticker), UNI (3rd add, 3% total)"
+      }
+    },
+    "f2_target": {
+      "type": "Badge",
+      "props": {
+        "text": "BTC target: 60K if channel breaks",
+        "variant": "secondary"
+      }
+    },
+    "focus_item_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "f3_title",
+        "f3_content",
+        "f3_note"
+      ]
+    },
+    "f3_title": {
+      "type": "Text",
+      "props": {
+        "text": "3. Pending approvals unresolved",
+        "variant": "lead"
+      }
+    },
+    "f3_content": {
+      "type": "Text",
+      "props": {
+        "text": "swarmister AVAX + BTC, ryzzqq semis DCA (SNDK/DRAM/MU/SKHY), WR NVDA puts"
+      }
+    },
+    "f3_note": {
+      "type": "Text",
+      "props": {
+        "text": "FOMC may trigger entry levels",
+        "variant": "muted"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "yesterday_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "yesterday_h",
+        "stats_grid",
+        "yesterday_alerts"
+      ]
+    },
+    "yesterday_h": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "stats_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "stat_btc",
+        "stat_eth",
+        "stat_mcap"
+      ]
+    },
+    "stat_btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$64,406",
+        "delta": "+$983 (+1.55%)",
+        "trend": "up"
+      }
+    },
+    "stat_eth": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "+$29",
+        "trend": "up"
+      }
+    },
+    "stat_mcap": {
+      "type": "Stat",
+      "props": {
+        "label": "Total mcap",
+        "value": "+$25B",
+        "trend": "up"
+      }
+    },
+    "yesterday_alerts": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "kospi_alert",
+        "wr_calib",
+        "stack_status"
+      ]
+    },
+    "kospi_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "KOSPI −10%",
+        "message": "South Korea largest 2-day decline in history — HCH flagged as bearish macro catalyst; HCH: 'now downside is capped for some timeframe'",
+        "type": "warning"
+      }
+    },
+    "wr_calib": {
+      "type": "Alert",
+      "props": {
+        "title": "WR calibrations pending",
+        "message": "MU chart 'hmm', 'Crypto strength (until it's not)', 'Thau's spicy' — still unresolved, Kyle's read needed",
+        "type": "info"
+      }
+    },
+    "stack_status": {
+      "type": "Text",
+      "props": {
+        "text": "Stack: all skills green, no failures; chain:morning-pipeline running now",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "watch_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "watch_h",
+        "watch_content"
+      ]
+    },
+    "watch_h": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "watch_content": {
+      "type": "Text",
+      "props": {
+        "text": "KOSPI −10%: potential equity contagion signal into FOMC hike scenario; HCH and WR both flagged; BTC 60K becomes key if no-change fails to trigger bounce",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "running_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "running_h",
+        "running_table"
+      ]
+    },
+    "running_h": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "running_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Skill",
+          "Schedule"
+        ],
+        "rows": [
+          [
+            "x/discord-trader-monitor",
+            "every 15min (continuous)"
+          ],
+          [
+            "heartbeat",
+            "08:00, 14:00, 20:00 UTC"
+          ],
+          [
+            "token-alert + token-movers",
+            "12:00 UTC"
+          ],
+          [
+            "market-context-refresh",
+            "13:00 UTC"
+          ],
+          [
+            "narrative-tracker",
+            "13:30 UTC"
+          ],
+          [
+            "skill-health",
+            "18:00 UTC"
+          ]
+        ]
+      }
+    }
+  }
+}
