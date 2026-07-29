@@ -1,8 +1,8 @@
-🐦 *[Market Structure] @Wild_Randomness*
+🐦 *[X] @Wild_Randomness*
 
-Correlation cascade thesis: KOSPI → US Momentum → US Indices
+Market sentiment observation: Several major traders posting -18-19% daily equity curve drawdowns on social media without capitulating or reconsidering their positions. @strictrope Fidelity down -$893K (-18.85%), @irrational_analysis down -$240K (-19.48%). Commentary: "Are they selling yet? Have they rethought the thesis at all? No? Ok."
 
-S&P 500 & Russell 2000 both showing V-shaped recovery patterns (April crisis lows → June highs → current consolidation), mirroring crypto cycle structure. V-pattern suggests: (1) capitulation bottom identified, (2) recovery underway, (3) current consolidation = risk-curve management before next leg.
+↳ _Implication: Cross-trader drawdown pattern without forced selling may signal either (a) strong conviction in imminent bottom, or (b) market needs to go lower before genuine capitulation._
 
 Key levels — SPX: 7629 (recent high), 7427 (current), 7236 (support); IWM: 3068 (peak), 2955 (current). KOSPI flagged as leading indicator for momentum flow into US indices.
 
@@ -14,3 +14,4 @@ $SKHX — wick filled (1h chart validates downside support structure at ~911-927
 [View post](https://x.com/Wild_Randomness/status/2082319272433603044)
 
 Cross-trader convergence: SKHX tracked by HeartCanHodl (Jul 15-17); Wild_Randomness now validating 1h wick structure. Memory-sector alignment with ryzzqq SKHY entry (Jul 28).
+[View tweet](https://x.com/Wild_Randomness/status/2082319999222583375)

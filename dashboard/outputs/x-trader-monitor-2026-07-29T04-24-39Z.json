@@ -1,0 +1,118 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor: Major Traders Holding Through Drawdowns"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "separator-1",
+        "heading-traders",
+        "grid-stats",
+        "separator-2",
+        "heading-analysis",
+        "text-implication",
+        "link-tweet"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Market sentiment observation: Several major traders posting -18-19% daily equity curve drawdowns on social media without capitulating or reconsidering their positions. @strictrope Fidelity down -$893K (-18.85%), @irrational_analysis down -$240K (-19.48%). Commentary: \"Are they selling yet? Have they rethought the thesis at all? No? Ok.\""
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading-traders": {
+      "type": "Heading",
+      "props": {
+        "text": "Trader Drawdowns",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "grid-stats": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat-strictrope",
+        "stat-irrational"
+      ]
+    },
+    "stat-strictrope": {
+      "type": "Stat",
+      "props": {
+        "label": "@strictrope (Fidelity)",
+        "value": "-$893K",
+        "delta": "-18.85%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "stat-irrational": {
+      "type": "Stat",
+      "props": {
+        "label": "@irrational_analysis",
+        "value": "-$240K",
+        "delta": "-19.48%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading-analysis": {
+      "type": "Heading",
+      "props": {
+        "text": "Analysis",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text-implication": {
+      "type": "Text",
+      "props": {
+        "text": "Cross-trader drawdown pattern without forced selling may signal either (a) strong conviction in imminent bottom, or (b) market needs to go lower before genuine capitulation.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View original tweet",
+        "href": "https://x.com/Wild_Randomness/status/2082319999222583375"
+      },
+      "children": []
+    }
+  }
+}
