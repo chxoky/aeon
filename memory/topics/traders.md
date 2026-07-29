@@ -851,6 +851,17 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - Jul 25 02:19Z — mirror-close: TAO long closed at 191 for -3% loss; Kyle never mirrored [2080840438265843816]
   - Jul 28 16:30Z — trade-new-entry (DCA plan): 50% filled LONG on multi-ticker memory/semis basket (SNDK 1095 -14.3%, DRAM 48 -8.2%, MU 819 -9%, SKHY 132 -8%); planning to add remainder on weakness (any wicks); watchlist chart confirms sector beaten-down entry opportunity [2082141758356598966]
 
+## Wild_Randomness
+- Platforms: X (primary; vol/equities specialist)
+- Current open positions: **NVDA puts (AUGUST)** — entered Jul 14 21:55, small size, hard exit if weekly closes above 215; mean-reversion vol play. **VIX calls (DEC 2031)** — entered Jul 15, awaiting approval. **NVDA equity longs** — dual conviction adds Jul 15 (213 pop + 211 dip), awaiting approval mirror. **HYPE spot (partial)** — re-added Jul 22, planning to complete by EOW 26 (pending price action). Sept/Oct puts on iBIT/ETHA (macro hedges to HYPE).
+- Recent thesis: Vol trader + equities specialist. Mean-reversion conviction on NVDA (pattern: "chart looks good today = chart looks bad tomorrow"). Macro thesis: SPX/crypto correlation tightening. Dispersion-trade focus (low-corr pairs benefiting as sectors diverge). Watching KOSPI → US momentum → US indices cascade as cross-asset correlation signal. Jul 29: macro structure observation on V-shaped recovery patterns in equities (SPX, IWM) mirroring crypto cycle structure.
+- Conviction notes: Prolific poster, technical + macro + vol focus. Heavy on equity/semis/SPX/IWM analysis. Occasional crypto commentary when correlation-relevant (HYPE, AI narratives, altcoin sentiment). Dual-timeframe entry strategy (pop + dip accumulation) evident in NVDA equity trades. Spot position (HYPE) contingent on price action validation (greedy trades per own assessment). Chart-heavy posts with technical structures, multiple annotated images.
+- Calibration: None answered yet.
+  - PENDING: Jul 29 04:13 "Imagine if you can apply crypto logic to the equity market?" — charts show KOSPI→momentum cascade + V-shape recovery pattern; educational observation or actionable signal? (awaiting clarity on correlation-cascade trading intent) [2082318447166513589]
+- Last seen: 2026-07-29 04:13:00 UTC
+- **Events (rolling):**
+  - Jul 29 04:13Z — informational: macro market structure thesis; KOSPI → US momentum → US indices correlation cascade + V-shaped recovery patterns (SPX 6318→7629 recovery, IWM similar pattern) as cross-asset signal; technical analysis with 3 charts (15m chart with SPX/VIX, 1D SPX recovery chart, 1D IWM futures chart); no personal execution language, educational/market observation; awaiting calibration on actionability [2082318447166513589]
+
 ## abetrade
 - Platforms: X
 - Current open positions: None stated.

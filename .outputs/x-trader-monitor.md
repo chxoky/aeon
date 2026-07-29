@@ -1,11 +1,9 @@
-🐦 *[X] @ryzzqq*
+🐦 *[Market Structure] @Wild_Randomness*
 
-SNDK/DRAM/MU/SKHY — not adding rest of 50%, waiting till FOMC+24hrs for bounce. Will take L if they don't bounce. (Regret on knife catching these)
+Correlation cascade thesis: KOSPI → US Momentum → US Indices
 
-[View post](https://x.com/Wild_Randomness/status/2082315585657110958)
-Technical analysis — BTC daily chart with support/resistance levels, volume heatmap showing key liquidity zones at 61.77K/59.88K, and funding rates (bullish 0.0093). Commentary confirms bullish short-term technical structure, supporting structural bulls (KillaXBT 2x @62.6K, t_in_crypto x2 @62K) vs near-term tactical bears (HCH shorts).
+S&P 500 & Russell 2000 both showing V-shaped recovery patterns (April crisis lows → June highs → current consolidation), mirroring crypto cycle structure. V-pattern suggests: (1) capitulation bottom identified, (2) recovery underway, (3) current consolidation = risk-curve management before next leg.
 
-BTC currently holding 63.7K with support hierarchy at 65K, 60K, 57.5K.
+Key levels — SPX: 7629 (recent high), 7427 (current), 7236 (support); IWM: 3068 (peak), 2955 (current). KOSPI flagged as leading indicator for momentum flow into US indices.
 
-[View tweet](https://x.com/Wild_Randomness/status/2082315322972127502)
-[View post](https://x.com/ryzzqq/status/2082316879067332771)
+[View post](https://x.com/Wild_Randomness/status/2082318447166513589)
