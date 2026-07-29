@@ -1,0 +1,49 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "view-link",
+        "qqq-context"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "@HeartCanHodl",
+        "text": "Most of it could be prevented.."
+      }
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/HeartCanHodl/status/2082584452715479461"
+      }
+    },
+    "qqq-context": {
+      "type": "Text",
+      "props": {
+        "text": "QQQ monthly returns: July 2026 shows -10.14% (red) — HCH commenting on how market volatility could have been managed through better risk discipline.",
+        "variant": "body"
+      }
+    }
+  }
+}
