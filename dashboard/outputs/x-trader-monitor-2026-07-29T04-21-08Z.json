@@ -1,0 +1,100 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "X-Trader Monitor"
+      },
+      "children": [
+        "tweet_section",
+        "separator1",
+        "convergence_section"
+      ]
+    },
+    "tweet_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "tweet_link"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "$SKHX — wick filled (1h chart validates downside support structure at ~911-927 level tested and bounced)"
+      }
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2082319272433603044"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "convergence_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "convergence_heading",
+        "convergence_stack"
+      ]
+    },
+    "convergence_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Cross-Trader Convergence",
+        "level": "h3"
+      }
+    },
+    "convergence_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "convergence_item1",
+        "convergence_item2",
+        "convergence_item3"
+      ]
+    },
+    "convergence_item1": {
+      "type": "Text",
+      "props": {
+        "text": "SKHX tracked by HeartCanHodl (Jul 15-17)",
+        "variant": "body"
+      }
+    },
+    "convergence_item2": {
+      "type": "Text",
+      "props": {
+        "text": "Wild_Randomness now validating 1h wick structure",
+        "variant": "body"
+      }
+    },
+    "convergence_item3": {
+      "type": "Text",
+      "props": {
+        "text": "Memory-sector alignment with ryzzqq SKHY entry (Jul 28)",
+        "variant": "body"
+      }
+    }
+  }
+}
