@@ -1,0 +1,142 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "main-stack"
+      ]
+    },
+    "main-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "summary-text",
+        "divider",
+        "metrics-grid"
+      ]
+    },
+    "summary-text": {
+      "type": "Text",
+      "props": {
+        "text": "CL downtrend 93.37 to 78.66 validates HCH short thesis",
+        "variant": "lead"
+      }
+    },
+    "divider": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "metrics-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "ticker-col",
+        "price-col",
+        "pattern-col"
+      ]
+    },
+    "ticker-col": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ticker-label",
+        "ticker-badge"
+      ]
+    },
+    "ticker-label": {
+      "type": "Text",
+      "props": {
+        "text": "Asset",
+        "variant": "caption"
+      }
+    },
+    "ticker-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "CL"
+      }
+    },
+    "price-col": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "price-label",
+        "price-range",
+        "price-stat"
+      ]
+    },
+    "price-label": {
+      "type": "Text",
+      "props": {
+        "text": "Price Movement",
+        "variant": "caption"
+      }
+    },
+    "price-range": {
+      "type": "Text",
+      "props": {
+        "text": "93.37 → 78.66",
+        "variant": "body"
+      }
+    },
+    "price-stat": {
+      "type": "Stat",
+      "props": {
+        "value": "78.66",
+        "delta": "-14.71",
+        "trend": "down"
+      }
+    },
+    "pattern-col": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pattern-label",
+        "pattern-badge",
+        "thesis-text"
+      ]
+    },
+    "pattern-label": {
+      "type": "Text",
+      "props": {
+        "text": "Pattern",
+        "variant": "caption"
+      }
+    },
+    "pattern-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "HCH"
+      }
+    },
+    "thesis-text": {
+      "type": "Text",
+      "props": {
+        "text": "validates short thesis",
+        "variant": "caption"
+      }
+    }
+  }
+}
