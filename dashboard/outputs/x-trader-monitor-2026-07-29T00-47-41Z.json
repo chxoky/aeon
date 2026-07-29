@@ -1,0 +1,33 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-card",
+        "link-view"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "Is anyone really surprised we're seeing exchanges shut down and FUD spreading again?\n\n$BTC follows the same pattern every cycle.\n\nThe only thing that changes is the headlines.\n\nAt this point, it's becoming painfully obvious. The media and fear narratives manipulate the masses into making emotional decisions, proving just how easily people can be influenced by the news.\n\nNews is a tool to give people a cognitive bias & distort perception.\n\nDo yourself a favour & ignore the headlines. Your results will improve when you're not influenced."
+      },
+      "children": []
+    },
+    "link-view": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/KillaXBT/status/2082265297235407058"
+      },
+      "children": []
+    }
+  }
+}
