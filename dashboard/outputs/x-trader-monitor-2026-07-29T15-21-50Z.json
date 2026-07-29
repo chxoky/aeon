@@ -1,0 +1,106 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "badge",
+        "author",
+        "main_text",
+        "sep1",
+        "grid_stats",
+        "sep2",
+        "validation_text",
+        "convergence_text",
+        "tweet_link"
+      ]
+    },
+    "badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Semis",
+        "variant": "secondary"
+      }
+    },
+    "author": {
+      "type": "Heading",
+      "props": {
+        "text": "@Wild_Randomness",
+        "level": "h3"
+      }
+    },
+    "main_text": {
+      "type": "Text",
+      "props": {
+        "text": "TQQQ + SOXL both testing 200-day moving averages — follow-up to 'Q1 correction ended on 200d test' call.",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "grid_stats": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat_tqqq",
+        "stat_soxl"
+      ]
+    },
+    "stat_tqqq": {
+      "type": "Stat",
+      "props": {
+        "label": "TQQQ",
+        "value": "$59.28",
+        "delta": "-3.75%",
+        "trend": "down"
+      }
+    },
+    "stat_soxl": {
+      "type": "Stat",
+      "props": {
+        "label": "SOXL",
+        "value": "$95.99",
+        "delta": "-12.39%",
+        "trend": "down"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "validation_text": {
+      "type": "Text",
+      "props": {
+        "text": "Price testing MA, charts show clear support structure. Broader semiconductor sector reversal. Cross-ticker validation on the sector bottom structure.",
+        "variant": "body"
+      }
+    },
+    "convergence_text": {
+      "type": "Text",
+      "props": {
+        "text": "Convergence with ryzzqq SNDK/DRAM/MU mean-reversion entries (Jul 28) + Crypto_Chase profit-taking highs (Jul 27).",
+        "variant": "caption"
+      }
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2082485196495241356"
+      }
+    }
+  }
+}

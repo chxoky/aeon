@@ -1,6 +1,7 @@
 Perfect! I've successfully executed the X Trader Monitor skill for this event. Here's the summary:
+🐦 *[Semis] @Wild_Randomness*
 
-## Summary
+TQQQ + SOXL both testing 200-day moving averages — follow-up to 'Q1 correction ended on 200d test' call.
 
 **Event:** Tweet from @bull_genius at 2026-07-29T15:11:53 UTC
 ```
@@ -61,3 +62,9 @@ Cryptic ticker + metric reference with non-financial meme image. Unable to class
 
 [View post](https://x.com/Wild_Randomness/status/2082482854332903917)
 The skill completed successfully with no alerts required.
+TQQQ trading around 59.28 (-3.75%) — price testing MA, charts show clear support structure
+SOXL around 95.99 (-12.39%) — broader semiconductor sector reversal
+
+Cross-ticker validation on the sector bottom structure. Convergence with ryzzqq SNDK/DRAM/MU mean-reversion entries (Jul 28) + Crypto_Chase profit-taking highs (Jul 27).
+
+[View tweet](https://x.com/Wild_Randomness/status/2082485196495241356)
