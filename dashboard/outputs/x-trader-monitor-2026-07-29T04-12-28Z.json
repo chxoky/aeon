@@ -1,0 +1,41 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet",
+        "link"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "ryzzqq",
+        "handle": "ryzzqq",
+        "text": "SNDK/DRAM/MU/SKHY — not adding rest of 50%, waiting till FOMC+24hrs for bounce. Will take L if they don't bounce. (Regret on knife catching these)"
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/ryzzqq/status/2082316879067332771"
+      }
+    }
+  }
+}

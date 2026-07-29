@@ -830,8 +830,9 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - PENDING: "@sidereal118 maybe" [2077957777851629586]
   - PENDING: "@donnieearklano @Supbads will wait for weakness" — TAO add, ETH short, or unrelated? [2079925208136462545]
 - Last seen: 2026-07-25 02:19:55 UTC
-- Last seen: 2026-07-28 16:49:31 UTC
+- Last seen: 2026-07-29 04:06:46 UTC
 - **Events (rolling):**
+  - Jul 29 04:06Z — informational: position-management update on SNDK/DRAM/MU/SKHY DCA — "won't add rest of 50%, waiting till fomc+24hrs for bounce, will take L if no bounce"; cautious hold with regret on entry [2082316879067332771]
   - Jul 28 16:49Z — informational: trading management philosophy on SNDK/DRAM/MU/SKHY entry — "won't chase will just let the initials run"; reply to @Burberry_aug describing buy-and-hold discipline on recent 50% entry [2082146444082032987]
   - Jul 28 16:36Z — ambiguous: "@crypto_geg going with a scalp in mind but will move stops to b/e if in profit and then let it swing"; cryptic reply, no ticker/entry/level; awaiting calibration [2082143128149229966]
   - Jul 14 06:38Z — informational: BTC 68K before 58K revisit, buying dips, month lows in [no id]
