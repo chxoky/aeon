@@ -1,0 +1,55 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "header",
+        "message",
+        "separator",
+        "interpretation"
+      ]
+    },
+    "header": {
+      "type": "Text",
+      "props": {
+        "text": "💬 DC: HCH — Free",
+        "variant": "muted"
+      }
+    },
+    "message": {
+      "type": "Text",
+      "props": {
+        "text": "All of that could be avoided and instead put to better use like shorting from time to time or simply de-risking at highs",
+        "variant": "body"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "interpretation": {
+      "type": "Text",
+      "props": {
+        "text": "Risk management philosophy reinforcement; aligns with existing short-basket conviction",
+        "variant": "caption"
+      }
+    }
+  }
+}
