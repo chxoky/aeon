@@ -1,0 +1,41 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-1"
+      ]
+    },
+    "stack-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-1",
+        "link-1"
+      ]
+    },
+    "tweet-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "@HeartCanHodl",
+        "text": "Market divorce week 💔\n\nSK Hynix chairman's record 944B won divorce settlement (\"divorce of the century\"). Court ruling validates structural bearish thesis on SKHY sector weakness."
+      }
+    },
+    "link-1": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/HeartCanHodl/status/2082349439805763849"
+      }
+    }
+  }
+}

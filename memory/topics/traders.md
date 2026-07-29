@@ -406,6 +406,8 @@ BOOTSTRAP_COMPLETE: 2026-07-14
 - Last seen: 2026-07-29 06:16:54 UTC
 - **Events (rolling):**
   - Jul 29 06:16Z — ambiguous: @WatcherGuru mention with eye emoji; cryptic pattern matches prior PENDING [2082349630256501100]
+- Jul 29 06:16Z — informational: SKHY market catalyst — SK Hynix chairman's record divorce settlement ("divorce of the century"), 944B won court ruling; news commentary on structural bearish SKHY thesis; validates conviction on existing short-basket positioning [2082349439805763849]
+- Last seen: 2026-07-29 06:16:09 UTC
 - **PENDING: Jul 27 10:16Z (Discord Free) — "Already down 6%. Missing these updates comes with a hefty opportunity cost."** — Cryptic reference to market movement or position; terse context-dependent statement. Referent of "6%" ambiguous (kaito short down from peak? broader basket commentary?). Calibration alert sent [1531243891427119104]
   - Jul 27 20:31Z — trade-conviction-add: KAITO 2% pf short add (Trades channel, primary; message_id=1531398753074811011, is_reply=false, no referenced_message; verbatim rule enforced — exact message "Add 2% kaito short" preserved; fast-path-alerted=true so Telegram sent ~2-5s prior to skill; memory-only processing). Conviction escalation on KAITO: second message same day after 07:41Z morning entry (13-hour intraday reinforcement). Estimated current KAITO short allocation: 4% pf (2% from 07:41 initial entry + 2% from this 20:31 add). [1531398753074811011]
   - Jul 27 09:53Z — ambiguous: "State of market" chart post; caption cryptic; image unreadable (CDN fetch failed); context: post follows 50min after multi-ticker alt short escalation (ETH +5%, ZEC +3%, KAITO +2% entries 07:15-07:54Z). Unknown if obs/teaching/warning signal. Calibration alert sent [2081679406708232532]
