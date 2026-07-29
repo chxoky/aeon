@@ -1,0 +1,80 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "channel_indicator",
+        "separator1",
+        "member_quote_block",
+        "separator2",
+        "price_action"
+      ]
+    },
+    "channel_indicator": {
+      "type": "Text",
+      "props": {
+        "text": "💬 DC: HCH — Free",
+        "variant": "caption"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "member_quote_block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "member_header",
+        "member_quote"
+      ]
+    },
+    "member_header": {
+      "type": "Text",
+      "props": {
+        "text": "↩️ Member:",
+        "variant": "muted"
+      }
+    },
+    "member_quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"All of that could be avoided and instead put to better use like shorting from time to time or simply de-risking at highs\"",
+        "variant": "body"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "price_action": {
+      "type": "Text",
+      "props": {
+        "text": "Insane price action today over meta and mu charts 👌🏻",
+        "variant": "lead"
+      }
+    }
+  }
+}
