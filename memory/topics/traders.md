@@ -236,8 +236,9 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - PENDING: Jul 28 13:01:53Z "@blancxbt Bottom" — cryptic mention reply (external trader reference); context missing. swarmister frequently tracks @blancxbt signals (15+ prior PENDING calibrations). Interpretation: affirmation of market-bottom call? social coordination? paid-call tracking? calibration alert sent [2082089156906250405]
   - PENDING: Jul 28 14:36:57Z "@zackvoell Market sentiment" — cryptic two-word reply to external trader @zackvoell. No ticker, level, or execution language. Possible interpretations: (a) affirmation/agreement with @zackvoell's market-sentiment read, (b) casual observation/banter, (c) coordinated response to external trader discussion. Consistent with swarmister's 80% non-financial social banter baseline and recurring PENDING backlog pattern (20+ prior entries awaiting calibration). No standalone signal without context. Calibration alert sent [2082113084252938493]
   - PENDING: Jul 29 05:46Z "@notfrydoteth https://t.co/rXG5SHJfFt" — bare mention + shortened link, media image inaccessible; no ticker/level/execution language; context missing; calibration alert sent [2082341851286171719]
-- Last seen: 2026-07-29 15:21:13 UTC
+- Last seen: 2026-07-29 15:44:34 UTC
 - **Events (rolling):**
+  - Jul 29 15:44Z — non-financial: truncated/cryptic reply "@based16z Based16z on today's*"; text ends with asterisk (incomplete); no ticker/level/execution language; 80% baseline banter [2082492486480519371]
   - Jul 29 15:21Z — ambiguous: @toplonging reply "1) What"; context missing; awaiting calibration [2082486611468558820]
   - Jul 29 14:35Z — informational: FOMC bullish sentiment; building careful longs; aligns HTF-bullish, timing risk [2082474996220211322]
   - Jul 29 12:55Z — ambiguous: reply "@DeItaone And, as is typically the case, the market will react in the opposite direction"; cryptic reply to external trader; context missing (DeItaone's message unknown); calibration alert sent [2082449814940238258]
