@@ -2,13 +2,13 @@
   "x-trader-monitor": {
     "last_status": "success",
     "last_failed": "2026-07-27T07:15:55Z",
-    "total_runs": 1781,
-    "total_successes": 1775,
+    "total_runs": 1782,
+    "total_successes": 1776,
     "total_failures": 6,
     "consecutive_failures": 0,
     "success_rate": 1,
     "last_error": "8,\"webSearchRequests\":0,\"costUSD\":0.0936169,\"contextWindow\":200000,\"maxOutputTokens\":32000,\"canonicalModel\":\"claude-haiku-4-5\",\"provider\":\"firstParty\"}},\"permission_denials\":[],\"terminal_reason\":\"api_",
-    "last_success": "2026-07-29T01:59:44Z",
+    "last_success": "2026-07-29T02:14:33Z",
     "last_dispatch": "2026-06-08T01:47:08Z",
     "last_quality_score": 4
   },
