@@ -225,7 +225,7 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - PENDING: Jul 28 13:01:53Z "@blancxbt Bottom" — cryptic mention reply (external trader reference); context missing. swarmister frequently tracks @blancxbt signals (15+ prior PENDING calibrations). Interpretation: affirmation of market-bottom call? social coordination? paid-call tracking? calibration alert sent [2082089156906250405]
   - PENDING: Jul 28 14:36:57Z "@zackvoell Market sentiment" — cryptic two-word reply to external trader @zackvoell. No ticker, level, or execution language. Possible interpretations: (a) affirmation/agreement with @zackvoell's market-sentiment read, (b) casual observation/banter, (c) coordinated response to external trader discussion. Consistent with swarmister's 80% non-financial social banter baseline and recurring PENDING backlog pattern (20+ prior entries awaiting calibration). No standalone signal without context. Calibration alert sent [2082113084252938493]
   - PENDING: Jul 29 05:46Z "@notfrydoteth https://t.co/rXG5SHJfFt" — bare mention + shortened link, media image inaccessible; no ticker/level/execution language; context missing; calibration alert sent [2082341851286171719]
-- Last seen: 2026-07-29 05:46:00 UTC
+- Last seen: 2026-07-29 07:55:30 UTC
 - **Events (rolling):**
   - Jul 29 05:46Z — ambiguous: "@notfrydoteth {t.co link}"; bare mention + inaccessible media; context missing; calibration alert sent [2082341851286171719]
   - Jul 28 14:36Z — ambiguous: "@zackvoell Market sentiment"; cryptic reply to external trader; context missing; calibration alert sent [2082113084252938493]
@@ -273,8 +273,7 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - Jul 28 07:02Z — informational: BTC technical observation — spot/futures divergence resolved; explains divergence likely drove recent price action; chart analysis showing pattern closure [2081998712197329108]
   - Jul 28 07:30Z — ambiguous: "@apeisstronk 4 hours (H4)" cryptic reply, no ticker/level/context; calibration pending [2082005871895146934]
   - Jul 28 07:09Z — informational: $NEAR update + D1 analysis; forced out of trade at breakeven; watching for possible drop to 1.52; no active position [2082000509519495220]
-- Last seen: 2026-07-29 05:59:01 UTC
-- **Events (rolling):**
+  - Jul 29 07:55Z — skip: "@loli_roller Gm roller"; social greeting, no financial signal [2082374441103720692]
   - Jul 28 20:39Z — skip: "@garbycan Retarf*"; cryptic social banter, no financial signal [2082204430145892680]
   - Jul 28 16:04Z — trade-new-entry: $AVAX dual limit orders at imbalance zone + pivot point; long-term position [2082135188562235481]
   - Jul 28 14:36Z — ambiguous: "@zackvoell Market sentiment"; cryptic reply; context missing; calibration alert sent [2082113084252938493]
