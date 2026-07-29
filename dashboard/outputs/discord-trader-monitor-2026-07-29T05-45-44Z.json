@@ -1,0 +1,112 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "heading_calibration",
+        "badge_channel",
+        "separator_1",
+        "section_message",
+        "separator_2",
+        "section_context",
+        "separator_3",
+        "section_issue"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration",
+        "level": "h2"
+      }
+    },
+    "badge_channel": {
+      "type": "Badge",
+      "props": {
+        "text": "DC: HCH — Chat",
+        "variant": "outline"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_message": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_message",
+        "text_message_content"
+      ]
+    },
+    "heading_message": {
+      "type": "Heading",
+      "props": {
+        "text": "Message",
+        "level": "h3"
+      }
+    },
+    "text_message_content": {
+      "type": "Text",
+      "props": {
+        "text": "\"It will likely tops around this lff sweep\"",
+        "variant": "lead"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_context",
+        "text_context_content"
+      ]
+    },
+    "heading_context": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "text_context_content": {
+      "type": "Text",
+      "props": {
+        "text": "Supporting channel (member Q&A), no prior message context",
+        "variant": "body"
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_issue": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification Uncertainty",
+        "message": "Unable to classify — what does \"lff sweep\" refer to? (LTF flush? typo? other technical term?)",
+        "type": "warning"
+      }
+    }
+  }
+}
