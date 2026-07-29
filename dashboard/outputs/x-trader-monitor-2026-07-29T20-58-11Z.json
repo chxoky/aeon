@@ -1,0 +1,113 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "🔍 Calibration — @Wild_Randomness"
+      },
+      "children": [
+        "event-status",
+        "sep1",
+        "quote-section",
+        "sep2",
+        "analysis-container",
+        "sep3",
+        "post-link"
+      ]
+    },
+    "event-status": {
+      "type": "Text",
+      "props": {
+        "text": "Event: No clear external context visible",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "quote-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "quote-author",
+        "quote-text"
+      ]
+    },
+    "quote-author": {
+      "type": "Text",
+      "props": {
+        "text": "Wild_Randomness",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "quote-text": {
+      "type": "Text",
+      "props": {
+        "text": "\"Fifty? Fifth...\"",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis-container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis-text",
+        "analysis-details"
+      ]
+    },
+    "analysis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — looks like a cryptic fragment with no ticker/level/execution language.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "analysis-details": {
+      "type": "Text",
+      "props": {
+        "text": "Could be referring to a price level (50?), Elliott wave (5th wave?), or something else entirely. What's your read?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "post-link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2082569713088172359"
+      },
+      "children": []
+    }
+  }
+}
