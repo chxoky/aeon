@@ -29,6 +29,7 @@
 
 ## HeartCanHodl
 
-- **Last seen**: 2026-07-30T22:08:38Z (Discord Trades channel TP execution)
+- **Last seen**: 2026-07-30T22:17:17Z (Discord Comments channel technical observation)
 - **Events (recent):**
+  - Jul 30 22:17Z — informational: "Fc SNDK ema50 4hr wide" (technical EMA50 comment on SNDK 4-hour structure, Discord primary Comments channel); fast-path alerted (Worker sent Telegram); alerted=fast-path [1532512436173668384]
   - Jul 30 22:08Z — trade-partial-tp: "TP 1/4th more here in afterhours" (25% position reduction, Discord primary Trades channel); fast-path alerted (Worker sent Telegram); ticker/position clarified via chart attachment [1532510259766362143]
