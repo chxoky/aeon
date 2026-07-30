@@ -1,0 +1,220 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "$MU Trade Update — Partial TP",
+        "description": "Mirrored from @Crypto_Chase"
+      },
+      "children": [
+        "status_badge",
+        "action_section",
+        "position_details",
+        "history_section",
+        "link_section",
+        "mirror_section"
+      ]
+    },
+    "status_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "🔁 Mirrored from @Crypto_Chase",
+        "variant": "outline"
+      }
+    },
+    "action_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_action",
+        "text_action"
+      ]
+    },
+    "heading_action": {
+      "type": "Heading",
+      "props": {
+        "text": "TP'd half of core remainder at 865",
+        "level": "h2"
+      }
+    },
+    "text_action": {
+      "type": "Text",
+      "props": {
+        "text": "Crypto_Chase took profit on 50% of the remaining 20% core position (~10% total) at 865. Remaining 10% core continues with SL at B/E.",
+        "variant": "body"
+      }
+    },
+    "position_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_position",
+        "stats_grid"
+      ]
+    },
+    "heading_position": {
+      "type": "Heading",
+      "props": {
+        "text": "Position Details",
+        "level": "h3"
+      }
+    },
+    "stats_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "stat_tp_price",
+        "stat_tp_size",
+        "stat_remaining"
+      ]
+    },
+    "stat_tp_price": {
+      "type": "Stat",
+      "props": {
+        "label": "TP Price",
+        "value": "865"
+      }
+    },
+    "stat_tp_size": {
+      "type": "Stat",
+      "props": {
+        "label": "TP Amount",
+        "value": "50% of remainder (~10% total)"
+      }
+    },
+    "stat_remaining": {
+      "type": "Stat",
+      "props": {
+        "label": "Remaining Position",
+        "value": "10% core @ BE SL"
+      }
+    },
+    "history_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_history",
+        "text_history",
+        "history_breakdown"
+      ]
+    },
+    "heading_history": {
+      "type": "Heading",
+      "props": {
+        "text": "Previous Cycle (Jul 21-27)",
+        "level": "h3"
+      }
+    },
+    "text_history": {
+      "type": "Text",
+      "props": {
+        "text": "80% cumulative profit taken across three levels. 20% held per thesis. This partial TP on remainder represents disciplined risk management into continued strength.",
+        "variant": "body"
+      }
+    },
+    "history_breakdown": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_935",
+        "badge_960",
+        "badge_941"
+      ]
+    },
+    "badge_935": {
+      "type": "Badge",
+      "props": {
+        "text": "TP @ 935",
+        "variant": "secondary"
+      }
+    },
+    "badge_960": {
+      "type": "Badge",
+      "props": {
+        "text": "TP @ 960",
+        "variant": "secondary"
+      }
+    },
+    "badge_941": {
+      "type": "Badge",
+      "props": {
+        "text": "TP @ 941",
+        "variant": "secondary"
+      }
+    },
+    "link_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "separator_1",
+        "link_post"
+      ]
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_post": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View original post",
+        "href": "https://x.com/Crypto_Chase/status/2082837388468838878",
+        "source": "X (Twitter)"
+      }
+    },
+    "mirror_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "separator_2",
+        "heading_mirror",
+        "text_mirror"
+      ]
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_mirror": {
+      "type": "Heading",
+      "props": {
+        "text": "Mirror Action",
+        "level": "h3"
+      }
+    },
+    "text_mirror": {
+      "type": "Text",
+      "props": {
+        "text": "Mirrored by selling 50% of open position. Remaining 50% keeps SL at BE.",
+        "variant": "body"
+      }
+    }
+  }
+}

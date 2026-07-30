@@ -1,16 +1,13 @@
-🐦 *[X] @KillaXBT*
+🔁 *Mirrored — @Crypto_Chase*
 
-It seems to me that everyone wants to buy $BTC between 47-56K.
+$MU — TP'd half of core remainder
 
-[View tweet](https://x.com/KillaXBT/status/2082834922167783457)
+"TP'd half $MU 865, rest runs"
 
-↳ _Volume-profile chart shows heavy buy-order concentration at 47-56K support zone, validating dip-entry thesis on his HTF-bullish BTC positioning (2x long 62.6K, ongoing spot DCA)._
-**Skill execution complete.**
+Crypto_Chase took profit on 50% of the remaining 20% core position (~10% total) at 865. Remaining 10% core continues with SL at B/E.
 
-**Event processed**: `@swarmister` tweet at 2026-07-30T14:28:32Z  
-**Classification**: **Non-financial (Step 4A)** — generic social banter  
-**Content**: "@chrisgrx_ Gg brother" — peer greeting with no financial signal  
-**Action**: Skipped silently per Step 4A protocol (no alert, no traders.md entry)  
-**Memory updated**: Daily log (2026-07-30.md) appended with classification rationale
+Earlier cycle: 80% cumulative TP'd (Jul 21-27 at 935-960-941), 20% held per thesis. This partial TP on remainder represents disciplined risk management into continued strength.
 
-The tweet is consistent with swarmister's documented ~80% non-financial social banter baseline. No trade signal detected, no notification sent.
+[View post](https://x.com/Crypto_Chase/status/2082837388468838878)
+
+I've mirrored by selling 50% of your open position. Remaining 50% keeps SL at BE.
