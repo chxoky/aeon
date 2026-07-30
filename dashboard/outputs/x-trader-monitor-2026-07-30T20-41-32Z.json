@@ -1,0 +1,146 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "sep_1",
+        "rallies_section",
+        "sep_2",
+        "analysis_section"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "The exodus has begun"
+      },
+      "children": []
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "rallies_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "rallies_heading",
+        "rallies_grid"
+      ]
+    },
+    "rallies_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Key Memory Sector Rallies",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "rallies_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 4,
+        "gap": "md"
+      },
+      "children": [
+        "stat_sndk",
+        "stat_mu",
+        "stat_nbis",
+        "stat_dram"
+      ]
+    },
+    "stat_sndk": {
+      "type": "Stat",
+      "props": {
+        "label": "SNDK",
+        "value": "+25.99%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat_mu": {
+      "type": "Stat",
+      "props": {
+        "label": "MU",
+        "value": "+18.36%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat_nbis": {
+      "type": "Stat",
+      "props": {
+        "label": "NBIS",
+        "value": "+27.13%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat_dram": {
+      "type": "Stat",
+      "props": {
+        "label": "DRAM",
+        "value": "+16.7%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis_heading",
+        "analysis_text",
+        "view_link"
+      ]
+    },
+    "analysis_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Analysis",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Sector momentum validates Jul 28-29 convergence signal (Chase TP, ryzzqq mean-reversion buys, Wild_Randomness bottom confirm). HCH observing significant strength — 'exodus' suggests traders exiting bearish positions or testing macro thesis.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/HeartCanHodl/status/2082928210585731324"
+      },
+      "children": []
+    }
+  }
+}

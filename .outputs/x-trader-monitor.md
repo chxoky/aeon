@@ -1,7 +1,9 @@
 🐦 *[X] @HeartCanHodl*
 
-I am not seeing $AAPL there! 👂🏻
+The exodus has begun
 
-[View tweet](https://x.com/HeartCanHodl/status/2082926742617129380)
+[Key memory sector rallies visible: SNDK +25.99%, MU +18.36%, NBIS +27.13%, DRAM +16.7%]
 
-↳ _Market heatmap shows AAPL conspicuously absent from top performers (NVDA, MSFT, AMZN leading higher). Validates structural weakness in Magnificent 7 — AAPL lagging despite broader market strength. Aligns with HCH's Jul 30 10:33Z post on AAPL 'next in line' for a pulldown._
+[View tweet](https://x.com/HeartCanHodl/status/2082928210585731324)
+
+↳ Sector momentum validates Jul 28-29 convergence signal (Chase TP, ryzzqq mean-reversion buys, Wild_Randomness bottom confirm). HCH observing significant strength — 'exodus' suggests traders exiting bearish positions or testing macro thesis.
