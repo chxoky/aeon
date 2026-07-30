@@ -1,0 +1,33 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet_card",
+        "view_link"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Destination was preordained no matter which way you slice it after the kind of run-up it had\n\nChart shows AAPL daily bounce from ~280 support → 349 resistance (Jul 28), mean-reversion setup validates existing Jul 28 short entries (@341-342, Oct $300 puts)."
+      },
+      "children": []
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2082931428921372826"
+      },
+      "children": []
+    }
+  }
+}

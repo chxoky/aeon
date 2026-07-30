@@ -11,3 +11,10 @@ Semis rally strong — SNDK +26%, MU +18%, NBIS +27%, DRAM +17% daily (+ extende
 
 Validates HCH's AI hedge thesis; aligns with Chase/Killa conviction on mean-reversion off lows.
 [View tweet](https://x.com/Wild_Randomness/status/2082930072722530741)
+🐦 [X] @Wild_Randomness
+
+Destination was preordained no matter which way you slice it after the kind of run-up it had
+
+Chart shows AAPL daily bounce from ~280 support → 349 resistance (Jul 28), mean-reversion setup validates existing Jul 28 short entries (@341-342, Oct $300 puts).
+
+[View tweet](https://x.com/Wild_Randomness/status/2082931428921372826)
