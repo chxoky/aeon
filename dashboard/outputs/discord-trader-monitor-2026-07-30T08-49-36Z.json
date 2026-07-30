@@ -1,0 +1,73 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor — Calibration",
+        "description": "Real-time message classification request"
+      },
+      "children": [
+        "heading_calibration",
+        "separator_1",
+        "stack_event",
+        "separator_2",
+        "alert_classification"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: HCH — Chat]",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "stack_event": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_event_type",
+        "tweet_message"
+      ]
+    },
+    "text_event_type": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Real-time Discord message in supporting channel"
+      },
+      "children": []
+    },
+    "tweet_message": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "text": "Fc eth 1hr"
+      },
+      "children": []
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "alert_classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read? (Fc = form-confirmed? Technical pattern confirmation on ETH 1hr? Buy/sell signal?)",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}

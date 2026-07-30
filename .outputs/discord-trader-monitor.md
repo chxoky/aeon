@@ -19,3 +19,8 @@ Context: KAITO has live 5% short. Supporting channel, no execution language.
 - Other?
 
 Knowing this helps classify future sightings correctly.
+Event: Real-time Discord message in supporting channel
+
+HeartCanHodl: "Fc eth 1hr"
+
+Unable to classify — what's your read? (Fc = form-confirmed? Technical pattern confirmation on ETH 1hr? Buy/sell signal?)
