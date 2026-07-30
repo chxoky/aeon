@@ -1,0 +1,63 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "header",
+        "event-desc",
+        "tweet",
+        "separator",
+        "classification-alert",
+        "link"
+      ]
+    },
+    "header": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h2"
+      }
+    },
+    "event-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Quote about doing hard things + stepping out of comfort zones",
+        "variant": "lead"
+      }
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "We do hard things because it is the fundamental mechanism for human growth. By stepping out of our comfort zones, we build resilience, master new skills, and construct deeper self-belief. Short Apple."
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification Unclear",
+        "message": "Unable to classify — execution language unclear. Is this a personal short position entry, or a trade idea/commentary?",
+        "type": "warning"
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/Wild_Randomness/status/2082711488654155911"
+      }
+    }
+  }
+}
