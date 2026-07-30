@@ -1094,12 +1094,13 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - PENDING: Jul 21 20:03 second bare URL [2079658633135100210]
   - PENDING: Jul 22 09:43 "@maruushae" + URL — 3rd cryptic in 3 days; intentional coded-signal strategy? [2079864871001206910]
   - PENDING: Jul 25 07:37 "@liquiditygoblin yardbird" — 4th cryptic post [2080920447730758056]
-- Last seen: 2026-07-26 15:52:07 UTC
+- Last seen: 2026-07-30 16:39:34 UTC
 - **Events (rolling):**
-  - Jul 20 16:15Z — ambiguous: @breakoutprop + URL, no context [2079238682008072510]
-  - Jul 20 17:22Z — commentary: BTC spot-vol correlation is negative — vol spikes on moves down, not up [2079255516451123529]
-  - Jul 21 19:59Z — ambiguous: bare URL, zero context [2079657627240280087]
-  - Jul 21 20:03Z — ambiguous: second bare URL same evening [2079658633135100210]
-  - Jul 22 09:43Z — ambiguous: @maruushae + URL, 3rd cryptic in 3 days [2079864871001206910]
-  - Jul 25 07:37Z — ambiguous: "@liquiditygoblin yardbird" single-word cryptic; 4th in pattern [2080920447730758056]
+  - Jul 30 16:39Z — ambiguous: reply to @Sokio8D "deFi summer gas but prices are down 99% from what they used to be"; cryptic ref, unclear what asset is down 99%, calibration pending [20828687176842078500]
   - Jul 26 15:52Z — informational: free trading education course curriculum; no personal trade action [2081407289873822086]
+  - Jul 25 07:37Z — ambiguous: "@liquiditygoblin yardbird" single-word cryptic; 4th in pattern [2080920447730758056]
+  - Jul 22 09:43Z — ambiguous: @maruushae + URL, 3rd cryptic in 3 days [2079864871001206910]
+  - Jul 21 20:03Z — ambiguous: second bare URL same evening [2079658633135100210]
+  - Jul 21 19:59Z — ambiguous: bare URL, zero context [2079657627240280087]
+  - Jul 20 17:22Z — commentary: BTC spot-vol correlation is negative — vol spikes on moves down, not up [2079255516451123529]
+  - Jul 20 16:15Z — ambiguous: @breakoutprop + URL, no context [2079238682008072510]
