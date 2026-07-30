@@ -1,0 +1,162 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor: Market Sentiment"
+      },
+      "children": [
+        "tweet_card",
+        "sep1",
+        "evidence_section",
+        "sep2",
+        "narrative_section",
+        "sep3",
+        "context_section"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Ok so did any of the AI bulls actually sell?"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "evidence_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "evidence_heading",
+        "evidence_text1",
+        "evidence_stats",
+        "evidence_text2"
+      ]
+    },
+    "evidence_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Evidence",
+        "level": "h3"
+      }
+    },
+    "evidence_text1": {
+      "type": "Text",
+      "props": {
+        "text": "Hedge fund raising capital after AI rout"
+      }
+    },
+    "evidence_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat_fidelity",
+        "stat_daily_pl"
+      ]
+    },
+    "stat_fidelity": {
+      "type": "Stat",
+      "props": {
+        "label": "Fidelity",
+        "value": "-18.85%",
+        "trend": "down"
+      }
+    },
+    "stat_daily_pl": {
+      "type": "Stat",
+      "props": {
+        "label": "Day P&L",
+        "value": "-19.48%",
+        "trend": "down"
+      }
+    },
+    "evidence_text2": {
+      "type": "Text",
+      "props": {
+        "text": "Trader accounts showing massive losses; commentary indicates losses aren't being closed — traders \"just making fun of themselves\""
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "narrative_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "narrative_heading",
+        "narrative_text"
+      ]
+    },
+    "narrative_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Market Narrative",
+        "level": "h3"
+      }
+    },
+    "narrative_text": {
+      "type": "Text",
+      "props": {
+        "text": "AI bull conviction cracking as realization sets in that positions may not hold."
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_heading",
+        "context_text",
+        "tweet_link"
+      ]
+    },
+    "context_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Related Context",
+        "level": "h3"
+      }
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "Fits broader group bearish lean on AI sector overvaluation; relates to memory/semis convergence from Jul 28–29 (Chase TP'd, ryzzqq mean-rev longs, WR bottom call)."
+      }
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2082672308771233799"
+      }
+    }
+  }
+}
