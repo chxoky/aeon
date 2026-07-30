@@ -16,6 +16,13 @@
 - Last seen: 2026-07-30 22:10:06 UTC
 - **Events (rolling):**
   - Jul 30 22:10Z — ambiguous: "$ALAB / They'll do @GavinnSBaker https://t.co/C7CIUyOWr2" (3 images inaccessible); cryptic follow-up to existing ALAB Sep thesis + GavinSBaker technical analysis; calibration pending Kyle interpretation [2082951896063762495]
+- Current open positions: Tracking SOXL sector reversal (informational follow-up to Jul 29 technical call)
+- Recent thesis: Semis sector reversal; "Q1 correction ended on 200d SOXL test" (Jul 29 14:55Z); dispersion trading; equities/vol specialist
+- Conviction notes: High-conviction technical analyst. Multi-timeframe chart reader. Jul 29 bottom call + Jul 30 visual confirmation charts show disciplined technical approach. Cross-trader convergence (ryzzqq entries, Chase profit-taking, HCH hedge recommendation).
+- Calibration: None currently pending.
+- Last seen: 2026-07-30 22:14:45 UTC
+- **Events (rolling):**
+  - Jul 30 22:14Z — informational: SOXL charts ($SOXL); 4 images showing daily reversal pattern, 200d MA test, volume confirmation; visual confirmation of Jul 29 bottom call "Q1 correction ended"; cross-trader semis convergence alert [2082953066597568641]
 
 ## trading_axe
 - Platforms: X (primary; X-only, no Discord presence)

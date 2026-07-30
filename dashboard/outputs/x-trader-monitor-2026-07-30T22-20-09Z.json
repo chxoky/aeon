@@ -1,0 +1,170 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "SOXL Technical Reversal — Semis Sector Bottom"
+      },
+      "children": [
+        "tweet_card",
+        "sep1",
+        "section_traders",
+        "sep2",
+        "section_technical",
+        "sep3",
+        "link_section"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Charts show daily reversal from 200d MA test (Jul 29 bottom call validated). 4-trader convergence in semis sector."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_traders": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "traders_heading",
+        "traders_table"
+      ]
+    },
+    "traders_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "4-Trader Convergence",
+        "level": "h3"
+      }
+    },
+    "traders_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Trader",
+          "Action",
+          "Date"
+        ],
+        "rows": [
+          [
+            "Chase",
+            "TP'd MU/SNDK at highs",
+            "Jul 27"
+          ],
+          [
+            "ryzzqq",
+            "SNDK/DRAM/MU long entries",
+            "Jul 28"
+          ],
+          [
+            "HCH",
+            "Recommends hedge allocation in semis/mega-cap AI",
+            "Jul 29"
+          ],
+          [
+            "WR",
+            "Technical bottom confirmation with volume",
+            "Jul 30"
+          ]
+        ]
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_technical": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tech_heading",
+        "tech_details",
+        "price_stat",
+        "volume_stat",
+        "reversal_badge"
+      ]
+    },
+    "tech_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Daily Chart Analysis",
+        "level": "h3"
+      }
+    },
+    "tech_details": {
+      "type": "Text",
+      "props": {
+        "text": "Daily reversal from 200d MA test validated (Jul 29 bottom call). Bounce from ~95-100 area → 114.72 close with 2-bar reversal pattern."
+      }
+    },
+    "price_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Close Price",
+        "value": "114.72"
+      }
+    },
+    "volume_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume",
+        "value": "257M"
+      }
+    },
+    "reversal_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "2-Bar Reversal",
+        "variant": "secondary"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "info_text",
+        "link_post"
+      ]
+    },
+    "info_text": {
+      "type": "Text",
+      "props": {
+        "text": "Status: Informational — Sector mean-reversion setup in progress",
+        "variant": "muted"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post on X",
+        "href": "https://x.com/Wild_Randomness/status/2082953066597568641"
+      }
+    }
+  }
+}
