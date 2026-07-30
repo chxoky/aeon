@@ -1,0 +1,108 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — [DC: HCH — Chat]",
+        "description": "Discord trader monitor - message analysis"
+      },
+      "children": [
+        "context_alert",
+        "separator1",
+        "quote_section",
+        "separator2",
+        "analysis_section"
+      ]
+    },
+    "context_alert": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "title": "Reply context",
+        "message": "Missing referenced message content"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "quote_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "quote_attribution",
+        "quote_text"
+      ]
+    },
+    "quote_attribution": {
+      "type": "Text",
+      "props": {
+        "text": "HCH:",
+        "variant": "caption"
+      }
+    },
+    "quote_text": {
+      "type": "Text",
+      "props": {
+        "text": "\"One more push will break above it\"",
+        "variant": "lead"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "classification_heading",
+        "questions_list"
+      ]
+    },
+    "classification_heading": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "body"
+      }
+    },
+    "questions_list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "q_asset",
+        "q_conviction"
+      ]
+    },
+    "q_asset": {
+      "type": "Badge",
+      "props": {
+        "text": "Which asset/level?",
+        "variant": "outline"
+      }
+    },
+    "q_conviction": {
+      "type": "Badge",
+      "props": {
+        "text": "Personal conviction or observation?",
+        "variant": "outline"
+      }
+    }
+  }
+}
