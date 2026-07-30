@@ -1,3 +1,12 @@
+## Crypto_Chase
+
+- Platforms: Discord (primary: 1336082716063694962; supporting: 1343971265962049597, 1247927786681794601)
+- Current open positions: SNDK (partial TP 7/30 afterhours), MU (position active, partial agreement on direction)
+- Recent thesis: Semis breakout play (SNDK, MU); high conviction on execution quality; sector momentum driven
+- Conviction notes: Disciplined profit-taking (TP'd quarter position 7/30 22:08Z on SNDK); respects execution quality ("SNDK traded borderline perfectly")
+- Last seen: 2026-07-30T23:55:05Z (Discord supporting channel commentary)
+- **Events (rolling):**
+  - Jul 30 23:55Z — informational-supporting: "SNDK traded borderline perfectly , I can agree with you on MU a bit" (commentary on past SNDK execution quality + partial agreement on MU direction; supporting channel, no alert; follow-up to primary Jul 30 22:08Z TP) [1532537046823080167]
   - Jul 30 16:39Z — ambiguous: reply to @Sokio8D "deFi summer gas but prices are down 99% from what they used to be"; cryptic ref, unclear what asset is down 99%, calibration pending [20828687176842078500]
   - Jul 26 15:52Z — informational: free trading education course curriculum; no personal trade action [2081407289873822086]
   - Jul 25 07:37Z — ambiguous: "@liquiditygoblin yardbird" single-word cryptic; 4th in pattern [2080920447730758056]
