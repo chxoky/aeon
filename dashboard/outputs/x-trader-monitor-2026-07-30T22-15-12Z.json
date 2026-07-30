@@ -1,0 +1,113 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @Wild_Randomness"
+      },
+      "children": [
+        "event-info",
+        "divider-1",
+        "message-content",
+        "divider-2",
+        "classification-issue"
+      ]
+    },
+    "event-info": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event-label",
+        "event-detail"
+      ]
+    },
+    "event-label": {
+      "type": "Text",
+      "props": {
+        "text": "Event:",
+        "variant": "lead"
+      }
+    },
+    "event-detail": {
+      "type": "Text",
+      "props": {
+        "text": "$ALAB context (existing Sep bid thesis)"
+      }
+    },
+    "divider-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "author-badge",
+        "tweet-stack"
+      ]
+    },
+    "author-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "WR (@Wild_Randomness)",
+        "variant": "outline"
+      }
+    },
+    "tweet-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-text",
+        "tweet-link",
+        "tweet-images"
+      ]
+    },
+    "tweet-text": {
+      "type": "Text",
+      "props": {
+        "text": "They'll do @GavinnSBaker"
+      }
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "https://t.co/C7CIUyOWr2",
+        "href": "https://t.co/C7CIUyOWr2"
+      }
+    },
+    "tweet-images": {
+      "type": "Text",
+      "props": {
+        "text": "3 images",
+        "variant": "caption"
+      }
+    },
+    "divider-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification-issue": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Unable to classify",
+        "message": "What's your read? (Images inaccessible; URL hidden; action ambiguous)"
+      }
+    }
+  }
+}

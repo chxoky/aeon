@@ -7,6 +7,16 @@
   - Jul 20 17:22Z — commentary: BTC spot-vol correlation is negative — vol spikes on moves down, not up [2079255516451123529]
   - Jul 20 16:15Z — ambiguous: @breakoutprop + URL, no context [2079238682008072510]
 
+## Wild_Randomness
+- Platforms: X (primary; X-only, no Discord presence)
+- Current open positions: ALAB Sep bid/accumulation (targeting 200DMA/prior-ATH retest ~September 2026); NVDA positions (puts + equity); SPY; VIX calls; EWY/KOSPI; IBIT/ETHA puts (per baseline Jul 26).
+- Recent thesis: Macro bear, dispersion trade framework; owns cheapest index hedges; left-tail vol play into "Jump the Shark" moment; market leadership rotation to AAPL/DIA in Iran-war scenario per baseline. ALAB technical analysis following GavinSBaker insights (Jul 15: right shoulder $440 target; Jul 25: DCA strategy patience).
+- Conviction notes: URL-only posts = noise unless ticker+action+level all present per baseline calibration rule. Highest noise volume among tracked traders; core positions are options/vol structures, not directional equity. Jul 30 22:10Z post cryptic ("They'll do @GavinnSBaker") pending Kyle calibration on ALAB continuation thesis.
+- Calibration: PENDING Jul 30 22:10Z post interpretation (hidden URL + 3 inaccessible images; "They'll do" action ambiguous — awaiting Kyle's read).
+- Last seen: 2026-07-30 22:10:06 UTC
+- **Events (rolling):**
+  - Jul 30 22:10Z — ambiguous: "$ALAB / They'll do @GavinnSBaker https://t.co/C7CIUyOWr2" (3 images inaccessible); cryptic follow-up to existing ALAB Sep thesis + GavinSBaker technical analysis; calibration pending Kyle interpretation [2082951896063762495]
+
 ## trading_axe
 - Platforms: X (primary; X-only, no Discord presence)
 - Current open positions: None stated.
