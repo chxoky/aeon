@@ -1,0 +1,43 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X-Trader Monitor",
+        "description": "Market sentiment analysis from trader feeds"
+      },
+      "children": [
+        "tweet-1",
+        "link-view-tweet",
+        "analysis-text"
+      ]
+    },
+    "tweet-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "@HeartCanHodl",
+        "text": "I am not seeing $AAPL there! 👁️"
+      },
+      "children": []
+    },
+    "link-view-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/HeartCanHodl/status/2082926742617129380"
+      },
+      "children": []
+    },
+    "analysis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Market heatmap shows AAPL conspicuously absent from top performers (NVDA, MSFT, AMZN leading higher). Validates structural weakness in Magnificent 7 — AAPL lagging despite broader market strength. Aligns with HCH's Jul 30 10:33Z post on AAPL 'next in line' for a pulldown.",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
