@@ -1,0 +1,112 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "heading",
+        "event-text",
+        "url-link",
+        "separator-1",
+        "unable-text",
+        "options-section",
+        "separator-2",
+        "closing-question"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: HCH — Comments]",
+        "level": "h2"
+      }
+    },
+    "event-text": {
+      "type": "Text",
+      "props": {
+        "text": "Event: URL-only message to X post",
+        "variant": "body"
+      }
+    },
+    "url-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "X post",
+        "href": "https://x.com/i/status/2082776467688288452",
+        "source": "X"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "unable-text": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Unable to classify without seeing referenced X post content.",
+        "type": "info"
+      }
+    },
+    "options-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "options-heading",
+        "option-1",
+        "option-2",
+        "option-3"
+      ]
+    },
+    "options-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Is this:",
+        "level": "h3"
+      }
+    },
+    "option-1": {
+      "type": "Text",
+      "props": {
+        "text": "1. Self-reference to own X post?",
+        "variant": "body"
+      }
+    },
+    "option-2": {
+      "type": "Text",
+      "props": {
+        "text": "2. External article/chart share?",
+        "variant": "body"
+      }
+    },
+    "option-3": {
+      "type": "Text",
+      "props": {
+        "text": "3. Critical signal requiring Kyle's context?",
+        "variant": "body"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "closing-question": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "lead"
+      }
+    }
+  }
+}
