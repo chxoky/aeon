@@ -1,0 +1,49 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "Skill Health — 2026-07-30"
+      },
+      "children": [
+        "alert-health",
+        "stats-container"
+      ]
+    },
+    "alert-health": {
+      "type": "Alert",
+      "props": {
+        "type": "success",
+        "title": "HEALTH",
+        "message": "OK — 8 skills healthy"
+      }
+    },
+    "stats-container": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-open-issues",
+        "stat-resolved"
+      ]
+    },
+    "stat-open-issues": {
+      "type": "Stat",
+      "props": {
+        "label": "Open issues",
+        "value": "0"
+      }
+    },
+    "stat-resolved": {
+      "type": "Stat",
+      "props": {
+        "label": "Resolved this run",
+        "value": "0"
+      }
+    }
+  }
+}
