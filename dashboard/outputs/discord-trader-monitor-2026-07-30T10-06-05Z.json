@@ -1,0 +1,116 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "calibration_section",
+        "separator_1",
+        "message_section",
+        "separator_2",
+        "note_section"
+      ]
+    },
+    "calibration_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "calibration_icon",
+        "badge_dc",
+        "badge_hch",
+        "badge_free"
+      ]
+    },
+    "calibration_icon": {
+      "type": "Text",
+      "props": {
+        "text": "🔍 Calibration",
+        "variant": "muted"
+      }
+    },
+    "badge_dc": {
+      "type": "Badge",
+      "props": {
+        "text": "DC",
+        "variant": "outline"
+      }
+    },
+    "badge_hch": {
+      "type": "Badge",
+      "props": {
+        "text": "HCH",
+        "variant": "outline"
+      }
+    },
+    "badge_free": {
+      "type": "Badge",
+      "props": {
+        "text": "Free",
+        "variant": "outline"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "message_text",
+        "story_link"
+      ]
+    },
+    "message_text": {
+      "type": "Text",
+      "props": {
+        "text": "Money where the mouth is ..",
+        "variant": "body"
+      }
+    },
+    "story_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "X Post",
+        "href": "https://x.com/i/status/2082767431341117870",
+        "source": "X"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "note_section": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification Pending",
+        "message": "Unable to classify without seeing X post content — what's your read?",
+        "type": "info"
+      }
+    }
+  }
+}
