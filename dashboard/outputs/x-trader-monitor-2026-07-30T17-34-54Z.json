@@ -1,0 +1,80 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading",
+        "sep1",
+        "context",
+        "sep2",
+        "tweet",
+        "sep3",
+        "classification"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @ryzzqq",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "context": {
+      "type": "Text",
+      "props": {
+        "text": "Context: Reply to @infinitybanyan, 2026-07-30 17:31:31 UTC",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "ryzzqq",
+        "handle": "@ryzzqq",
+        "text": "ye finally it was pretty rough past couple of hrs"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "classification": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "query",
+        "options"
+      ]
+    },
+    "query": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "lead"
+      }
+    },
+    "options": {
+      "type": "Text",
+      "props": {
+        "text": "(Refers to a specific position, market conditions, or unrelated commentary?)",
+        "variant": "body"
+      }
+    }
+  }
+}
