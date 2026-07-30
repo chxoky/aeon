@@ -1,0 +1,175 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-calibration",
+        "text-calibration-context",
+        "separator-1",
+        "heading-event",
+        "text-timestamp",
+        "text-message-id",
+        "separator-2",
+        "heading-speaker",
+        "text-quote",
+        "separator-3",
+        "heading-classification",
+        "text-question",
+        "stack-options"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text-calibration-context": {
+      "type": "Text",
+      "props": {
+        "text": "DC: Chase — Chase",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading-event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text-timestamp": {
+      "type": "Text",
+      "props": {
+        "text": "2026-07-30T13:56:50Z",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-message-id": {
+      "type": "Text",
+      "props": {
+        "text": "Message ID: 1532386411477602556",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading-speaker": {
+      "type": "Heading",
+      "props": {
+        "text": "Crypto_Chase",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text-quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"if market offers, these prices haven't hit yet\"",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading-classification": {
+      "type": "Heading",
+      "props": {
+        "text": "Unable to classify",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text-question": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read? Is this:",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "stack-options": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-option-1",
+        "badge-option-2",
+        "badge-option-3",
+        "badge-option-4"
+      ]
+    },
+    "badge-option-1": {
+      "type": "Badge",
+      "props": {
+        "text": "Bid level(s) waiting to be filled?",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "badge-option-2": {
+      "type": "Badge",
+      "props": {
+        "text": "Technical target(s) he's monitoring?",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "badge-option-3": {
+      "type": "Badge",
+      "props": {
+        "text": "Market observation/commentary?",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "badge-option-4": {
+      "type": "Badge",
+      "props": {
+        "text": "Related to prior MU/SNDK/other positions?",
+        "variant": "outline"
+      },
+      "children": []
+    }
+  }
+}
