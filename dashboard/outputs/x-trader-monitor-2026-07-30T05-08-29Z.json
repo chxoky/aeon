@@ -1,0 +1,41 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-1",
+        "link-1"
+      ]
+    },
+    "tweet-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Correlation regime inflection—key technical milestone reached. Vol dynamics data confirms dispersion trade inflection point. BTC rallied ~22% over 3 weeks post-correlation bottom; index correlation picking back up aligns with thesis that record single-stock vol vs record-low index correlation unsustainable.\n\nContext: Posting CBOE 1-Mo Implied vol charts + Discord discussion on year-3rd-lowest close, SPX-NDX divergence, and market mechanics (shorters BTFO before mechanics happened)."
+      }
+    },
+    "link-1": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2082694029624623267"
+      }
+    }
+  }
+}
