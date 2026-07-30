@@ -1,0 +1,136 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @ryzzqq",
+        "description": "Conflicting portfolio signals and sarcastic commentary"
+      },
+      "children": [
+        "heading_event",
+        "text_event_desc",
+        "separator_1",
+        "heading_scenarios",
+        "table_portfolio",
+        "separator_2",
+        "heading_commentary",
+        "tweet_quote",
+        "separator_3",
+        "alert_classification",
+        "link_post"
+      ]
+    },
+    "heading_event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "text_event_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Two conflicting portfolio screenshots (green gains vs red losses) + sarcastic text"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_scenarios": {
+      "type": "Heading",
+      "props": {
+        "text": "Portfolio Scenarios",
+        "level": "h3"
+      }
+    },
+    "table_portfolio": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Stock",
+          "Green (+)",
+          "Red (−)"
+        ],
+        "rows": [
+          [
+            "SNDK",
+            "+24.12%",
+            "−14.35%"
+          ],
+          [
+            "DRAM",
+            "+15.01%",
+            "−8.20%"
+          ],
+          [
+            "MU",
+            "+17.52%",
+            "−8.99%"
+          ],
+          [
+            "SKHY",
+            "+16.98%",
+            "−7.99%"
+          ],
+          [
+            "INTC",
+            "+12.82%",
+            "−5.86%"
+          ],
+          [
+            "CBRS",
+            "+18.57%",
+            "−3.01%"
+          ]
+        ]
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_commentary": {
+      "type": "Heading",
+      "props": {
+        "text": "@ryzzqq's Commentary",
+        "level": "h3"
+      }
+    },
+    "tweet_quote": {
+      "type": "TweetCard",
+      "props": {
+        "author": "ryzzqq",
+        "handle": "@ryzzqq",
+        "text": "why on earth would someone even bother trading crypto, tping these here idc if that was the gen entry on memory"
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to Classify Signal",
+        "message": "(a) Sarcastically celebrating TP gains on memory sector long (entry Jul 28)?\n(b) Expressing frustration with sector volatility?\n(c) Warning of potential downside?\n(d) Something else?",
+        "type": "warning"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/ryzzqq/status/2082878038409417154"
+      }
+    }
+  }
+}
