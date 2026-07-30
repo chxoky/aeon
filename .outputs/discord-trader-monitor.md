@@ -1,9 +1,5 @@
-🔍 *Calibration — [DC: HCH — Comments]*
+🔍 *Calibration — [DC: Chase — TradFi]*
 
-Event: HeartCanHodl posted stock picks update
+Crypto_Chase on supporting channel (TradFi): "3 in a row"
 
-HeartCanHodl: "Our stock picks up ~10%"
-
-Unable to classify — which stocks are referenced ('our stock picks')?  
-Are these MU/SNDK from prior Crypto_Chase activity, or a separate group portfolio? 
-Awaiting clarification.
+Unable to classify — three consecutive wins? Technical pattern? Market observation? What's your read?

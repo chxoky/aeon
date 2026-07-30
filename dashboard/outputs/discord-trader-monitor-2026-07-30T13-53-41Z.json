@@ -1,0 +1,104 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "header",
+        "sep1",
+        "source",
+        "message",
+        "sep2",
+        "analysis"
+      ]
+    },
+    "header": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: Chase — TradFi]",
+        "level": "h3"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "source": {
+      "type": "Text",
+      "props": {
+        "text": "Crypto_Chase on supporting channel (TradFi)",
+        "variant": "caption"
+      }
+    },
+    "message": {
+      "type": "Text",
+      "props": {
+        "text": "\"3 in a row\"",
+        "variant": "lead"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "unable",
+        "q1",
+        "q2",
+        "q3"
+      ]
+    },
+    "unable": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify",
+        "variant": "muted"
+      }
+    },
+    "q1": {
+      "type": "Text",
+      "props": {
+        "text": "Three consecutive wins?",
+        "variant": "body"
+      }
+    },
+    "q2": {
+      "type": "Text",
+      "props": {
+        "text": "Technical pattern?",
+        "variant": "body"
+      }
+    },
+    "q3": {
+      "type": "Text",
+      "props": {
+        "text": "Market observation? What's your read?",
+        "variant": "body"
+      }
+    }
+  }
+}
