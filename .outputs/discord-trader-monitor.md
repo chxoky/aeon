@@ -1,19 +1,21 @@
-Skill execution complete. I've processed the Discord trader monitor event from HeartCanHodl:
+🔍 *Calibration — [DC: HCH — Chat]*
 
-**Event Summary:**
-- **Trader:** HeartCanHodl
-- **Channel:** 1279738718680256553 (HCH — Trades, primary)
-- **Message:** "Samsung too" (reply to own AI stock hedge framework)
-- **Classification:** Informational-conviction-reinforcement
-- **Message ID:** 1532305416988852860
-- **Timestamp:** 2026-07-30 08:34:40 UTC
+**Message:** "Fc kaito 5m"
 
-**Processing:**
-- ✓ Event decoded and validated
-- ✓ Fast-path check: `true` (Cloudflare Worker pre-alerted Telegram ~2-5s ago)
-- ✓ Channel resolved: Primary Trades channel, username matches HeartCanHodl
-- ✓ Dedup check: New message ID added to `memory/discord-trader-seen.txt`
-- ✓ Memory updated: Added event to `memory/topics/traders.md` (last seen updated to 2026-07-30 08:34:40 UTC)
-- ✓ Log created: Entry added to `memory/logs/2026-07-30.md`
+This pattern has appeared 9+ times (Jul 24-30) across your channels:
+- Fc btc 15m (3+ times)
+- Fc btcdom (multiple timeframes)
+- Fc cl 1m / Fc clusdt.p 5m
+- Fc kospi 1d
+- Now: Fc kaito 5m
 
-**Interpretation:** HeartCanHodl is explicitly confirming that Samsung (SNDK) is part of their 5% tactical hedge-long allocation in AI/memory stocks (DRAM, SNDK, MU, NBIS, ORCL, META) to balance against their structural short basket. This reaffirms conviction on the semiconductor-hedge thesis first posted Jul 29 22:03Z.
+Context: KAITO has live 5% short. Supporting channel, no execution language.
+
+**What does "Fc" mean?**
+- Form Confirmed? (skip alert)
+- False Confirmation? (log only)
+- Chart Check? (skip alert)
+- Chart Callout? (log only)
+- Other?
+
+Knowing this helps classify future sightings correctly.

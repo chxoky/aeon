@@ -1,0 +1,218 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor — Calibration",
+        "description": "Pattern analysis: Fc kaito 5m"
+      },
+      "children": [
+        "channel_badge",
+        "sep1",
+        "message_block",
+        "frequency_text",
+        "sep2",
+        "examples_title",
+        "examples_stack",
+        "sep3",
+        "kaito_alert",
+        "sep4",
+        "question_title",
+        "options_stack",
+        "note_text"
+      ]
+    },
+    "channel_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DC: HCH — Chat",
+        "variant": "secondary"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message_block": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "msg_label",
+        "msg_badge"
+      ]
+    },
+    "msg_label": {
+      "type": "Text",
+      "props": {
+        "text": "Message:",
+        "variant": "lead"
+      }
+    },
+    "msg_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Fc kaito 5m",
+        "variant": "default"
+      }
+    },
+    "frequency_text": {
+      "type": "Text",
+      "props": {
+        "text": "This pattern has appeared 9+ times (Jul 24-30) across your channels",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "examples_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Historical Examples",
+        "level": "h3"
+      }
+    },
+    "examples_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ex1",
+        "ex2",
+        "ex3",
+        "ex4",
+        "ex5"
+      ]
+    },
+    "ex1": {
+      "type": "Badge",
+      "props": {
+        "text": "Fc btc 15m (3+ times)",
+        "variant": "secondary"
+      }
+    },
+    "ex2": {
+      "type": "Badge",
+      "props": {
+        "text": "Fc btcdom (multiple timeframes)",
+        "variant": "secondary"
+      }
+    },
+    "ex3": {
+      "type": "Badge",
+      "props": {
+        "text": "Fc cl 1m / Fc clusdt.p 5m",
+        "variant": "secondary"
+      }
+    },
+    "ex4": {
+      "type": "Badge",
+      "props": {
+        "text": "Fc kospi 1d",
+        "variant": "secondary"
+      }
+    },
+    "ex5": {
+      "type": "Badge",
+      "props": {
+        "text": "Now: Fc kaito 5m",
+        "variant": "secondary"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "kaito_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "KAITO Context",
+        "message": "KAITO has live 5% short. Supporting channel, no execution language.",
+        "type": "info"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "question_title": {
+      "type": "Heading",
+      "props": {
+        "text": "What does \"Fc\" mean?",
+        "level": "h3"
+      }
+    },
+    "options_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opt1",
+        "opt2",
+        "opt3",
+        "opt4",
+        "opt5"
+      ]
+    },
+    "opt1": {
+      "type": "Badge",
+      "props": {
+        "text": "Form Confirmed? (skip alert)",
+        "variant": "outline"
+      }
+    },
+    "opt2": {
+      "type": "Badge",
+      "props": {
+        "text": "False Confirmation? (log only)",
+        "variant": "outline"
+      }
+    },
+    "opt3": {
+      "type": "Badge",
+      "props": {
+        "text": "Chart Check? (skip alert)",
+        "variant": "outline"
+      }
+    },
+    "opt4": {
+      "type": "Badge",
+      "props": {
+        "text": "Chart Callout? (log only)",
+        "variant": "outline"
+      }
+    },
+    "opt5": {
+      "type": "Badge",
+      "props": {
+        "text": "Other?",
+        "variant": "outline"
+      }
+    },
+    "note_text": {
+      "type": "Text",
+      "props": {
+        "text": "Knowing this helps classify future sightings correctly.",
+        "variant": "caption"
+      }
+    }
+  }
+}
