@@ -1,0 +1,70 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🐦 X Trader Monitor"
+      },
+      "children": [
+        "main_stack"
+      ]
+    },
+    "main_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "validation_section",
+        "link_section"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "Wild_Randomness",
+        "text": "$ALAB technical analysis: daily/weekly structure showing +20% daily gain to 299.69. Charts display multi-timeframe moving averages, volume confirmation, and support/resistance levels."
+      },
+      "children": []
+    },
+    "validation_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "validation_label",
+        "validation_detail"
+      ]
+    },
+    "validation_label": {
+      "type": "Text",
+      "props": {
+        "text": "Validated:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "validation_detail": {
+      "type": "Text",
+      "props": {
+        "text": "Gavin Baker (respected technical analyst) liked this post, confirming technical setup credibility."
+      },
+      "children": []
+    },
+    "link_section": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2082965987339690465"
+      },
+      "children": []
+    }
+  }
+}

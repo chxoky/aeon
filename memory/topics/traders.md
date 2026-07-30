@@ -10,12 +10,13 @@
 ## Wild_Randomness
 - Platforms: X (primary; X-only, no Discord presence)
 - Current open positions: ALAB Sep bid/accumulation (targeting 200DMA/prior-ATH retest ~September 2026); NVDA positions (puts + equity); SPY; VIX calls; EWY/KOSPI; IBIT/ETHA puts (per baseline Jul 26).
-- Recent thesis: Macro bear, dispersion trade framework; owns cheapest index hedges; left-tail vol play into "Jump the Shark" moment; market leadership rotation to AAPL/DIA in Iran-war scenario per baseline. ALAB technical analysis following GavinSBaker insights (Jul 15: right shoulder $440 target; Jul 25: DCA strategy patience).
-- Conviction notes: URL-only posts = noise unless ticker+action+level all present per baseline calibration rule. Highest noise volume among tracked traders; core positions are options/vol structures, not directional equity. Jul 30 22:10Z post cryptic ("They'll do @GavinnSBaker") pending Kyle calibration on ALAB continuation thesis.
-- Calibration: PENDING Jul 30 22:10Z post interpretation (hidden URL + 3 inaccessible images; "They'll do" action ambiguous — awaiting Kyle's read).
-- Last seen: 2026-07-30 22:10:06 UTC
+- Recent thesis: Macro bear, dispersion trade framework; owns cheapest index hedges; left-tail vol play into "Jump the Shark" moment; market leadership rotation to AAPL/DIA in Iran-war scenario per baseline. ALAB technical analysis following GavinSBaker insights (Jul 15: right shoulder $440 target; Jul 25: DCA strategy patience). Jul 30 23:06Z post confirms ALAB daily/weekly structure: +20% gain to $299.69, Gavin Baker validation (liked post), multi-timeframe technical confirmation.
+- Conviction notes: URL-only posts = noise unless ticker+action+level all present per baseline calibration rule. Highest noise volume among tracked traders; core positions are options/vol structures, not directional equity. Jul 30 22:10Z post cryptic ("They'll do @GavinnSBaker") was ambiguous reference to this follow-up technical chart post (23:06Z) with GavinSBaker's validation.
+- Calibration: RESOLVED Jul 30 23:06Z — earlier ambiguous post (22:10Z) clarified by chart images: daily/weekly ALAB technical structure with +20% daily gain + Gavin Baker's like validating analysis (not action ambiguity, technical confirmation).
+- Last seen: 2026-07-30 23:06:05 UTC
 - **Events (rolling):**
-  - Jul 30 22:10Z — ambiguous: "$ALAB / They'll do @GavinnSBaker https://t.co/C7CIUyOWr2" (3 images inaccessible); cryptic follow-up to existing ALAB Sep thesis + GavinSBaker technical analysis; calibration pending Kyle interpretation [2082951896063762495]
+  - Jul 30 23:06Z — informational: ALAB charts (daily/weekly structure, +20% to $299.69); Gavin Baker validation (liked post); technical multi-timeframe confirmation on existing Sep thesis [2082965987339690465]
+  - Jul 30 22:10Z — informational: ALAB technical follow-up reference to GavinnSBaker analysis (resolved by Jul 30 23:06Z chart post with GavinSBaker's like confirmation) [2082951896063762495]
 - Current open positions: Tracking SOXL sector reversal (informational follow-up to Jul 29 technical call)
 - Recent thesis: Semis sector reversal; "Q1 correction ended on 200d SOXL test" (Jul 29 14:55Z); dispersion trading; equities/vol specialist
 - Conviction notes: High-conviction technical analyst. Multi-timeframe chart reader. Jul 29 bottom call + Jul 30 visual confirmation charts show disciplined technical approach. Cross-trader convergence (ryzzqq entries, Chase profit-taking, HCH hedge recommendation).
