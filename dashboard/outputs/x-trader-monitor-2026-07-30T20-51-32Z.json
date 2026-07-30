@@ -1,0 +1,181 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-card",
+        "separator-1",
+        "analysis-section",
+        "separator-2",
+        "position-section"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "$AAPL — Earnings beat and market down? Charts show technical pullback from 354.70 resistance to 333.43 (-1.41%), then recovery to 343.74 (+1.09%). Sarcastic take on breakdown despite positive earnings — market structure weakness despite fundamental beat."
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis-heading",
+        "price-grid"
+      ]
+    },
+    "analysis-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Price Action",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "price-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "stat-resistance",
+        "stat-pullback",
+        "stat-recovery"
+      ]
+    },
+    "stat-resistance": {
+      "type": "Stat",
+      "props": {
+        "label": "Resistance",
+        "value": "$354.70"
+      },
+      "children": []
+    },
+    "stat-pullback": {
+      "type": "Stat",
+      "props": {
+        "label": "Pullback",
+        "value": "$333.43",
+        "delta": "-1.41%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "stat-recovery": {
+      "type": "Stat",
+      "props": {
+        "label": "Recovery",
+        "value": "$343.74",
+        "delta": "+1.09%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "position-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "pos-heading",
+        "pos-type-badge",
+        "pos-details-stack",
+        "pos-conviction",
+        "tweet-link"
+      ]
+    },
+    "pos-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Position",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "pos-type-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Active SHORT",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "pos-details-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-instrument",
+        "pos-entry-date",
+        "pos-target"
+      ]
+    },
+    "pos-instrument": {
+      "type": "Text",
+      "props": {
+        "text": "October $300 puts"
+      },
+      "children": []
+    },
+    "pos-entry-date": {
+      "type": "Text",
+      "props": {
+        "text": "Entered Jul 28 at $341–342 levels"
+      },
+      "children": []
+    },
+    "pos-target": {
+      "type": "Stat",
+      "props": {
+        "label": "Downside Target",
+        "value": "9%"
+      },
+      "children": []
+    },
+    "pos-conviction": {
+      "type": "Text",
+      "props": {
+        "text": "This reinforces bearish technical conviction.",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2082930072722530741"
+      },
+      "children": []
+    }
+  }
+}
