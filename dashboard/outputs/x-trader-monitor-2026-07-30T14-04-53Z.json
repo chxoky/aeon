@@ -1,0 +1,93 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "main-stack"
+      ]
+    },
+    "main-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet",
+        "sep1",
+        "positions-heading",
+        "positions-grid",
+        "sep2",
+        "view-link"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Heart Can Hodl",
+        "handle": "HeartCanHodl",
+        "text": "Doubled 10 minutes later haha\n\nRecent 3X long positions on memory sector showing strong gains:\n- SNDKUSDT Perp: +58.84% (Entry: 1,018.62 → Mark: 1,218.42)\n- MUUSDT Perp: +48.78% (Entry: 717.55 → Mark: 834.22)\n\nValidates cross-trader convergence on semis mean-reversion setup (recent context: ryzzqq entry Jul 28, WR technical Jul 29, HCH sector-trend recognition Jul 30)."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "positions-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Position Performance",
+        "level": "h3"
+      }
+    },
+    "positions-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat-sndk",
+        "stat-mu"
+      ]
+    },
+    "stat-sndk": {
+      "type": "Stat",
+      "props": {
+        "label": "SNDKUSDT Perp",
+        "value": "+58.84%",
+        "delta": "Entry: 1,018.62 → Mark: 1,218.42",
+        "trend": "up"
+      }
+    },
+    "stat-mu": {
+      "type": "Stat",
+      "props": {
+        "label": "MUUSDT Perp",
+        "value": "+48.78%",
+        "delta": "Entry: 717.55 → Mark: 834.22",
+        "trend": "up"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/HeartCanHodl/status/2082827752714150214"
+      }
+    }
+  }
+}
