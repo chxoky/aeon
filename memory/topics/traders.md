@@ -14,8 +14,9 @@ BOOTSTRAP_COMPLETE: 2026-07-14
 - Conviction notes: Disciplined tiered-TP trader — takes profits at technical resistance, holds remainder to core thesis targets. Multi-tranche accumulation strategy on dips (MU/SNDK pattern: buy weakness, TP on pops). Low-emotional volatility — "as always I just want to give you guys my gut thoughts" = routine conviction-sharing without panic. Frames trades around Fibonacci/technical structure (0.5–0.618 retracement zones documented, generational-bottom language on SNDK). Most recent update (Jul 29) shows patience/caution stance despite past successful TP cycle (80% MU/SNDK closed in profit through Jul 27).
 - Calibration: 
   - PENDING: Jul 30 13:59Z Discord — "That's where the interest is and will continue to be until otherwise seen" (supporting channel, cryptic, awaiting context interpretation) [1532387096281485382]
-- Last seen: 2026-07-30 13:59:14 UTC
+- Last seen: 2026-07-30 14:36:13 UTC
 - **Events (rolling):**
+  - Jul 30 14:36Z — trade-position-mgmt: 50% of remaining 20% core closed on both MU & SNDK, enjoy (Discord primary, fast-path-alerted) [1532396403878395915]
   - Jul 30 13:59Z — ambiguous: "That's where the interest is and will continue to be until otherwise seen" (supporting channel, no referenced message, awaiting calibration) [1532387096281485382]
   - Jul 29 21:06Z — dca-plan: MU 700→600, SNDK 980→800s, conservative sizing, room to average down [2082573501102178638]
   - Jul 29 20:41Z — informational: Market caution on AI trade (conservative bidding plan, long-term sector weakness conviction, SNDK 900s/800s + MU 600s targets); gut feeling on bounce speed + sizing discipline (Discord primary, fast-path-alerted) [1532125815821566074]
