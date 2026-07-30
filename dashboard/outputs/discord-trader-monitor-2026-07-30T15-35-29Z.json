@@ -1,0 +1,98 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "heading-cal",
+        "sep1",
+        "stack-context",
+        "sep2",
+        "stack-message",
+        "sep3",
+        "alert-classify"
+      ]
+    },
+    "heading-cal": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: Chase — TradFi]",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "stack-context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-context",
+        "text-context"
+      ]
+    },
+    "heading-context": {
+      "type": "Heading",
+      "props": {
+        "text": "Recent context",
+        "level": "h3"
+      }
+    },
+    "text-context": {
+      "type": "Text",
+      "props": {
+        "text": "Chase just adjusted SL to BE on MU/SNDK cores (14:41Z), took profits 50% of remainder (14:36Z), TP'd 10% more at $865 (14:35Z).",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "stack-message": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-message",
+        "text-message"
+      ]
+    },
+    "heading-message": {
+      "type": "Heading",
+      "props": {
+        "text": "Message",
+        "level": "h3"
+      }
+    },
+    "text-message": {
+      "type": "Text",
+      "props": {
+        "text": "\"Alternate reality they all dump even further so why have risk on the shittiest asset?\"",
+        "variant": "lead"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "alert-classify": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Rhetorical risk-management sentiment, no ticker/level. Is he reflecting on the recent profit-taking actions, or is there a specific position he's reconsidering? What's your read?",
+        "type": "info"
+      }
+    }
+  }
+}

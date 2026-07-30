@@ -10,3 +10,8 @@ Context: Supporting channel member Q&A; no new ticker/level/execution language. 
 • General market commentary
 
 Unable to classify — what's your read?
+Recent context: Chase just adjusted SL to BE on MU/SNDK cores (14:41Z), took profits 50% of remainder (14:36Z), TP'd 10% more at $865 (14:35Z).
+
+Message: "Alternate reality they all dump even further so why have risk on the shittiest asset?"
+
+Unable to classify — rhetorical risk-management sentiment, no ticker/level. Is he reflecting on the recent profit-taking actions, or is there a specific position he's reconsidering? What's your read?
