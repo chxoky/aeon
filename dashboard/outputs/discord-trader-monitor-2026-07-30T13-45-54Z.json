@@ -1,0 +1,112 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "heading_title",
+        "badge_context",
+        "heading_event",
+        "stack_quote",
+        "sep_1",
+        "stack_issue"
+      ]
+    },
+    "heading_title": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration",
+        "level": "h2"
+      }
+    },
+    "badge_context": {
+      "type": "Badge",
+      "props": {
+        "text": "DC: HCH — Comments",
+        "variant": "secondary"
+      }
+    },
+    "heading_event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event: HeartCanHodl posted stock picks update",
+        "level": "h3"
+      }
+    },
+    "stack_quote": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_speaker",
+        "text_quote"
+      ]
+    },
+    "text_speaker": {
+      "type": "Text",
+      "props": {
+        "text": "HeartCanHodl",
+        "variant": "lead"
+      }
+    },
+    "text_quote": {
+      "type": "Text",
+      "props": {
+        "text": "Our stock picks up ~10%"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_issue": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_unable",
+        "text_q1",
+        "text_q2"
+      ]
+    },
+    "text_unable": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — which stocks are referenced ('our stock picks')?"
+      }
+    },
+    "text_q1": {
+      "type": "Text",
+      "props": {
+        "text": "Are these MU/SNDK from prior Crypto_Chase activity, or a separate group portfolio?"
+      }
+    },
+    "text_q2": {
+      "type": "Text",
+      "props": {
+        "text": "Awaiting clarification.",
+        "variant": "muted"
+      }
+    }
+  }
+}
