@@ -1,18 +1,11 @@
-## Summary
+🐦 *[X] @HeartCanHodl*
 
-**Skill execution complete:** x-trader-monitor processed the incoming X event from @trading_axe.
+You can make money on both the long and short side at the same time.
 
-**Event details:**
-- **Trader:** @trading_axe (Dr. Axius)
-- **Tweet ID:** 2082944106376859665
-- **Time:** 2026-07-30 21:39:08 UTC
-- **Classification:** Skip (non-financial)
+AAPL short 📈, SNDK long 📈
 
-**Processing:**
-1. ✅ Decoded base64 event successfully
-2. ✅ Classified as **Step 4.A (Non-financial)** — personal lifestyle/genetics commentary, no trading signal
-3. ✅ No alert sent (belongs in trading_axe's known 95% non-financial noise baseline)
-4. ✅ Tweet ID added to `memory/x-trader-seen.txt` (dedup protection)
-5. ✅ Event logged to `memory/logs/2026-07-30.md`
+Evidence: Binance liquidations show AAPL longs being wiped while SNDK shorts capitulating. HCH's 3X longs on SNDK/MU/NBIS still massively profitable (+48-58%).
 
-**Action:** Silent skip per protocol — no notification, no memory update beyond dedup logging. Post adds zero market context or trading signal.
+[View tweet](https://x.com/HeartCanHodl/status/2082945352408400202)
+
+↳ _Market structure play: liquidation flows validate existing conviction (short Mag 7 weakness / long semis strength)_
