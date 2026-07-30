@@ -1,23 +1,16 @@
-The temp files are permission-blocked from deletion — they're dotfiles that won't affect the repo. The skill is complete.
+The run is complete. Here's the summary:
 
 ## Summary
 
-**Token Movers — 2026-07-29** executed successfully.
+**Data fetched:** CoinGecko `/coins/markets` (250 coins, 1h/24h/7d) + `/search/trending` (15 trending coins). Sandbox blocked Python/bash-script execution, so analysis was done via WebFetch fallback on the same URL.
 
-**Data:** Fetched top 250 coins by market cap (5 × 50-coin pages) + trending from CoinGecko. Stablecoins, wrapped tokens, and <$1M volume coins filtered out.
+**Market pulse (2026-07-30, ~13:00 UTC):** Mixed and mildly green — 62/100 top coins positive, median 24h +0.4%. Privacy coins (ZEC +3.9%, XMR +3.7%) and DeFi (UNI +2.9%, ONDO +4.6%, AAVE) are rotating up. Meme-adjacent tokens taking the biggest hits.
 
-**Market pulse:** Mixed-to-risk-on. ~60% of top-100 coins green; BTC +1.6%, ETH +1.9%. Gains are modest across large caps; sharp alpha concentrated in a handful of breakout alts.
+**Key signals:**
+- **[TRENDING+UP]** ONDO (+4.6%, 7d +4.2%) and PI (+4.9%) — both trending and gaining, coordinated DeFi/RWA + L1 rotation
+- **[TRENDING+DOWN]** HYPE (−3.0%, 7d −10.1%) — persistent perp DEX selling
+- **BANK (Lorenzo Protocol)** — trending #6 while down −51.3% with 4× vol/mcap; likely exit event or exploit, flagged in Notable
+- **M (MemeCore)** — down −18.3% matching 7d −17.8%; structural downtrend, not capitulation
 
-**Top Winners:** META +36.7% `[TRENDING+UP][PUMP-RISK]`, BEAT +21.1% `[BREAKOUT]`, UB +19.7% `[BREAKOUT]`, KAITO +10.3%, JUP +7.3%, UNI +6.8% `[TRENDING+UP]`
-
-**Top Losers:** TAG −11.4%, ZRO −8.6%, EIGEN −8.4%, NIGHT −8.3%, PUMP −6.2% `[TRENDING+DOWN]`
-
-**Trending (top 7):** CSPR, ADI, COTI (+16.7%), GRAM, PENGU, TAO, UNI
-
-**Notable flags:**
-- META `[PUMP-RISK]`: rank #215, up 36.7% / 7d +48.3% on $18M volume — low-cap, high manipulation probability
-- BEAT + UB `[BREAKOUT]`: both have 24h and 7d aligned — sustained moves, not flash pumps
-
-**Files:**
-- `.pending-notify/1753776000.md` — notification queued for post-run delivery
-- `memory/logs/2026-07-29.md` — log entry appended
+**Notification:** Queued in `.pending-notify/1753878400.md` for post-run delivery to Telegram/Discord/Slack.  
+**Log:** Appended to `memory/logs/2026-07-30.md`.
