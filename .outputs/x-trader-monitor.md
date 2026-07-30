@@ -1,13 +1,11 @@
 🔍 *Calibration — @ryzzqq*
 
-Event: Two conflicting portfolio screenshots (green gains vs red losses) + sarcastic text
+Event: Brief reply to @ShibWeb3, terse with embedded link
 
-Images: 
-- Green: SNDK +24.12%, DRAM +15.01%, MU +17.52%, SKHY +16.98%, INTC +12.82%, CBRS +18.57%
-- Red: SNDK −14.35%, DRAM −8.20%, MU −8.99%, SKHY −7.99%, INTC −5.86%, CBRS −3.01%
+@ryzzqq: "already out of it"
 
-@ryzzqq: "why on earth would someone even bother trading crypto, tping these here idc if that was the gen entry on memory"
+Unable to classify — what's your read?
 
-Unable to classify — is this: (a) Sarcastically celebrating TP gains on memory sector long (entry Jul 28)? (b) Expressing frustration with sector volatility? (c) Warning of potential downside? (d) Something else?
+[View post](https://x.com/ryzzqq/status/2082879107277426921)
 
-[View post](https://x.com/ryzzqq/status/2082878038409417154)
+Context: ryzzqq entered SNDK/DRAM/MU/SKHY longs on Jul 28 mean-reversion. Sector recovered strongly Jul 30 (trades profitable). Ambiguous whether this is: (a) confirming exit from one of those positions, (b) social reply/banter, or (c) something else.

@@ -1,0 +1,107 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @ryzzqq"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_event",
+        "tweet_card",
+        "alert_classify",
+        "link_view_post",
+        "sep_main",
+        "stack_context"
+      ]
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Brief reply to @ShibWeb3, terse with embedded link",
+        "variant": "body"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "ryzzqq",
+        "handle": "@ryzzqq",
+        "text": "already out of it"
+      }
+    },
+    "alert_classify": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read?",
+        "type": "info"
+      }
+    },
+    "link_view_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/ryzzqq/status/2082879107277426921"
+      }
+    },
+    "sep_main": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_ctx",
+        "text_positions",
+        "text_sector",
+        "text_ambiguity"
+      ]
+    },
+    "heading_ctx": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "text_positions": {
+      "type": "Text",
+      "props": {
+        "text": "ryzzqq entered SNDK/DRAM/MU/SKHY longs on Jul 28 mean-reversion",
+        "variant": "body"
+      }
+    },
+    "text_sector": {
+      "type": "Text",
+      "props": {
+        "text": "Sector recovered strongly Jul 30 (trades profitable)",
+        "variant": "body"
+      }
+    },
+    "text_ambiguity": {
+      "type": "Text",
+      "props": {
+        "text": "Ambiguous whether this is: (a) confirming exit from one of those positions, (b) social reply/banter, or (c) something else",
+        "variant": "body"
+      }
+    }
+  }
+}
