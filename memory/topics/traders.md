@@ -39,6 +39,9 @@
 - **Last seen**: 2026-07-30T22:31:08Z (Discord supporting channel ambiguous message)
 - **Events (recent):**
   - Jul 30 22:31Z — ambiguous: reply to own message "One more push will break above it" with "Fc btc 1m"; cryptic abbreviation "Fc" unclear (similar to Jul 6 14:21:43Z pattern); self-referential reply context, appears to be chart/structure check but meaning unclear; calibration pending [1532515920830922912]
+- **Last seen**: 2026-07-30T22:28:40Z (X post cryptic @Barchart mention, calibration pending)
+- **Events (recent):**
+  - Jul 30 22:28Z — ambiguous: "@Barchart ." cryptic mention post-semis technical series; no media/context; calibration alert sent [2082956570972070252]
   - Jul 30 22:19Z — cross-platform-dedup (X reiteration): "The easy leg is behind us" (8 Blofin perp screenshots: SNDK +99.93%, MU +78.47%, NBIS +71.23%, DRAM +28.46%, showing unrealized gains on 3X long semis/memory basket); reiteration of Jul 22:08Z TP with added position detail; silent/no alert (dedup vs Discord TP already alerted); alerted=no [2082954380748476605]
   - Jul 30 22:17Z — informational: "Fc SNDK ema50 4hr wide" (technical EMA50 comment on SNDK 4-hour structure, Discord primary Comments channel); fast-path alerted (Worker sent Telegram); alerted=fast-path [1532512436173668384]
 - **Last seen**: 2026-07-30T22:17:46Z (Discord Comments channel — semis tactical commentary)

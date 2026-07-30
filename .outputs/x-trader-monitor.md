@@ -1,4 +1,4 @@
-## Summary
+🔍 *Calibration — @HeartCanHodl*
 
 I've executed the **x-trader-monitor** skill for the provided tweet event from HeartCanHodl on Jul 30 22:19:58Z.
 🐦 *[X] @HeartCanHodl*
@@ -37,3 +37,7 @@ Informational — sector mean-reversion setup in progress.
 
 The skill processed all 8 media images successfully, resolved the "easy leg is behind us" commentary as profit-taking conviction affirmation, and applied correct cross-platform dedup logic to avoid duplicate alerts.
 [View tweet](https://x.com/HeartCanHodl/status/2082954731211895104)
+Event: Just posted about semis reduction/hedge (22:08-22:19Z series on semis technical analysis and position reduces), now posts cryptic X mention.
+HeartCanHodl: "@Barchart ."
+
+Unable to classify — what's your read? (Barchart tool shout-out, reference to a chart, accidental tag, or something else?)
