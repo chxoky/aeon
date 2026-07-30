@@ -1,0 +1,78 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration",
+        "description": "Discord Trader Monitor"
+      },
+      "children": [
+        "context_text",
+        "sep1",
+        "event_section",
+        "sep2",
+        "classification_alert"
+      ]
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "DC: HCH — Chat",
+        "variant": "caption"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "event_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event_heading",
+        "member_exchange",
+        "hch_response"
+      ]
+    },
+    "event_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h4"
+      }
+    },
+    "member_exchange": {
+      "type": "Text",
+      "props": {
+        "text": "Member asks \"already puking\""
+      }
+    },
+    "hch_response": {
+      "type": "Text",
+      "props": {
+        "text": "HCH: \"Fc aaplusdt.p 1hr\""
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read?",
+        "type": "info"
+      }
+    }
+  }
+}
