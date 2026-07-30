@@ -1,38 +1,23 @@
 ## Summary
 
-✅ **Discord Trader Monitor skill executed successfully**
+I've successfully executed the **Discord Trader Monitor** skill for the provided event. Here's what was processed:
 
-**Event processed:**
-- **Trader**: heartcanhodl (verified username match)
-- **Channel**: 1393137051108507728 (HCH — Comments, primary)
-- **Message**: "Fc SNDK ema50 4hr wide"
-- **Time**: 2026-07-30T22:17:17Z
-- **Classification**: Informational (technical EMA50 observation on SNDK 4-hour structure)
-- **Status**: Fast-path alerted (Telegram already sent by Cloudflare Worker 2-5s after event)
+**Event Details:**
+- **Trader:** HeartCanHodl (heartcanhodl)
+- **Channel:** 1023638573313966212 (HCH — Chat, supporting)
+- **Message:** "Fc btc 1m" (reply to "One more push will break above it")
+- **Time:** 2026-07-30T22:31:08Z
+- **Fast-path alerted:** ✅ (Telegram already sent by Cloudflare Worker)
 
-**Actions completed:**
-1. ✓ Decoded base64 event (valid JSON structure)
-2. ✓ Verified channel + trader identity
-3. ✓ Classified as informational technical observation (no personal trade action)
-4. ✓ Skipped Telegram (fast-path already alerted)
-5. ✓ Added message ID to `discord-trader-seen.txt` (dedup protection)
-6. ✓ Updated `traders.md` with new event entry
-7. ✓ Logged to `memory/logs/2026-07-30.md`
+**Processing:**
+1. ✅ Decoded event from base64
+2. ✅ Resolved channel/trader (HeartCanHodl, supporting channel verified)
+3. ✅ Fast-path check: `true` → Skipped redundant Telegram send
+4. ✅ Classification: **AMBIGUOUS** — "Fc btc 1m" is cryptic abbreviation with unclear meaning. Matches a recurring pattern from Jul 6 ("Fc btc 1hr"). Self-referential context doesn't fully resolve interpretation.
+5. ✅ Cross-platform dedup: No matching X post in 30min window
+6. ✅ Memory updated:
+   - Added message_id to `discord-trader-seen.txt`
+   - Updated `traders.md` with calibration note and pattern flag
+7. ✅ Log entry recorded to `memory/logs/2026-07-30.md`
 
-**Context**: Message reflects ongoing technical monitoring of HCH's profitable 3X SNDK long position (+58.84% at time of 21:44Z validation). Comment aligns with documented terse pattern for intraday structure tracking (prior examples: "Fc btc 1hr", "Fc bank 15m").
-**discord-trader-monitor skill execution complete — 2026-07-30T22:17:46Z**
-
-**Event processed:**
-- **Trader**: HeartCanHodl (heartcanhodl)
-- **Channel**: HCH — Comments (1393137051108507728, primary)
-- **Message**: "Reduced size on mechanical bounce/loss recovery rally on semis"
-- **Classification**: INFORMATIONAL (tactical hedge position scaling commentary)
-- **Status**: Fast-path alerted (Telegram already sent by Cloudflare Worker)
-
-**Action taken:**
-- ✅ Skipped duplicate Telegram notification per fast-path protocol
-- ✅ Updated traders.md with event entry and timestamp
-- ✅ Tracked message ID in discord-trader-seen.txt (dedup protection)
-- ✅ Logged to memory/logs/2026-07-30.md with full classification notes
-
-**Context**: HCH is scaling down the tactical semis hedge allocation (SNDK/MU/NBIS/DRAM 3X longs, all showing +16-27% daily gains) into the mechanical bounce/loss-recovery rally. This aligns with documented discipline of taking profits on the hedge thesis while maintaining structural short basket. No Kyle action required — logged for position management tracking.
+**Classification Decision:** Since this is cryptic per HR-2 protocol and fast-path already alerted Kyle via Telegram, the message is logged as **AMBIGUOUS/PENDING CALIBRATION**. Kyle can review the fast-path notification plus the new traders.md entry noting the recurring "Fc [ticker] [timeframe]" pattern for context on what abbreviation might mean.
