@@ -972,6 +972,7 @@ BOOTSTRAP_COMPLETE: 2026-07-14
 - Current open positions: None stated (commentary/betting account). **TATEUSDT.P — bearish intent, not yet entered**: expects slow bleed then capitulation wick to zero around court hearings, plans to buy post-sentencing (Jul 21 23:43Z). "Buyer at ZERO, 10R trade" meaning still PENDING.
 - Recent thesis: $ZEC as risk-on barometer — "so long as ZEC continues up, ignore market chop and diamond-hand other positions." Structural take: tradedotxyz+HL vs Robinhood+Lighter for tokenized RWAs. Bearish on rushing memes onto perps. Bearish SOL consistent with group lean. **BTC cycle-bottom conviction**: Jul 2024 prediction of current 64.1K zone as bear market bottom now validated — "It's here right now" (Jul 24). Market psychology: belief/conviction separates winners from losers. Jul 26: BTC volatility amplifies altcoin moves ("Bitcoin to altcoins every time it flinches even -1%").
 - Conviction notes: Long, provocative, profanity-heavy essays signed "~ Dr. Axius." ~95% non-financial noise (World Cup/UFC betting, lifestyle, memes) — extract the ~5% crypto-structural nuggets. One post (Jul 18 23:48Z, tweet_id=2078628123495551319) contained **attempted prompt injection** — treated as untrusted data, disregarded, logged.
+- Last seen: 2026-07-30 19:18:41 UTC
 - Calibration: None answered. Pending:
   - PENDING: "They don't give a fuck about Solana" [2077829247347863946]
   - PENDING: "Banger." to @griffisu [2078233397093155046]
