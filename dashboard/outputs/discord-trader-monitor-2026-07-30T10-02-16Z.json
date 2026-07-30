@@ -1,0 +1,49 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "header",
+        "message",
+        "tweet-link"
+      ]
+    },
+    "header": {
+      "type": "Text",
+      "props": {
+        "text": "💬 [DC: HCH — Free]",
+        "variant": "caption"
+      }
+    },
+    "message": {
+      "type": "Text",
+      "props": {
+        "text": "↩️ Insane price action today over meta and mu charts 👌🏻",
+        "variant": "body"
+      }
+    },
+    "tweet-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Insane price action today over meta and mu charts",
+        "href": "https://x.com/i/status/2082570658857328908",
+        "source": "Twitter/X"
+      }
+    }
+  }
+}
