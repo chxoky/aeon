@@ -16,3 +16,9 @@
 - Last seen: 2026-07-30 22:05:37 UTC
 - **Events (rolling):**
   - Jul 30 22:05Z — skip: philosophical/personal commentary "When you finally lose it all and are FREE..." (no financial signal, no trade action, non-financial); podcast screenshot image (not market chart) [2082950771201466789]
+
+## HeartCanHodl
+
+- **Last seen**: 2026-07-30T22:08:38Z (Discord Trades channel TP execution)
+- **Events (recent):**
+  - Jul 30 22:08Z — trade-partial-tp: "TP 1/4th more here in afterhours" (25% position reduction, Discord primary Trades channel); fast-path alerted (Worker sent Telegram); ticker/position clarified via chart attachment [1532510259766362143]
