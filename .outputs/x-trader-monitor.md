@@ -5,3 +5,4 @@ Ironically, the best place to cover shorts is often where the market feels the w
 [View tweet](https://x.com/HeartCanHodl/status/2082783511380148591)
 
 ↳ _Market psychology thesis reinforcing HCH's short-basket conviction (BTC targets 60.8K/59.3K); validates cover-at-capitulation approach._
+@notify
