@@ -1,0 +1,133 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-post",
+        "separator1",
+        "heading-positions",
+        "grid-positions",
+        "text-dates",
+        "separator2",
+        "heading-context",
+        "text-context",
+        "link-post"
+      ]
+    },
+    "tweet-post": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "Memory sector shorts (perp futures) — +8–10% gains (Jul 2)\n\nBloFin screenshot share: MU short +8.17%, MRVL short +8.00%, SNDK short +10.10% (entries from Jul 2, shown today Jul 30).\n\nCross-trader context: HCH holding structural short basket (bearish macro). Same tickers (MU/SNDK) where Crypto_Chase was running successful LONG positions Jul 2–27 (80% TP'd at higher levels). Convergence zone: memory sector remains high-conviction cross-trader divergence play with opposing convictions validating through realized gains on both sides."
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading-positions": {
+      "type": "Heading",
+      "props": {
+        "text": "Position Performance",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "grid-positions": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "stat-mu",
+        "stat-mrvl",
+        "stat-sndk"
+      ]
+    },
+    "stat-mu": {
+      "type": "Stat",
+      "props": {
+        "label": "MU Short",
+        "value": "+8.17%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat-mrvl": {
+      "type": "Stat",
+      "props": {
+        "label": "MRVL Short",
+        "value": "+8.00%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat-sndk": {
+      "type": "Stat",
+      "props": {
+        "label": "SNDK Short",
+        "value": "+10.10%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "text-dates": {
+      "type": "Text",
+      "props": {
+        "text": "Entries from Jul 2, shown today Jul 30"
+      },
+      "children": []
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading-context": {
+      "type": "Heading",
+      "props": {
+        "text": "Cross-trader Context",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text-context": {
+      "type": "Text",
+      "props": {
+        "text": "HCH holding structural short basket (bearish macro). Same tickers (MU/SNDK) where Crypto_Chase was running successful LONG positions Jul 2–27 (80% TP'd at higher levels). Convergence zone: memory sector remains high-conviction cross-trader divergence play with opposing convictions validating through realized gains on both sides."
+      },
+      "children": []
+    },
+    "link-post": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/HeartCanHodl/status/2082767431341117870"
+      },
+      "children": []
+    }
+  }
+}
