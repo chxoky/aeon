@@ -1,0 +1,159 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Tactical Hedge Suggestion — @HeartCanHodl"
+      },
+      "children": [
+        "heading_recommendation",
+        "text_quote",
+        "stack_long_tickers",
+        "separator_1",
+        "heading_rationale",
+        "text_rationale",
+        "stack_short_tickers"
+      ]
+    },
+    "heading_recommendation": {
+      "type": "Heading",
+      "props": {
+        "text": "Recommended Long Allocation",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text_quote": {
+      "type": "Text",
+      "props": {
+        "text": "You can bid your favorite AI stock play with a 5% allocation as a cushion hedge long (dram/sndk/mu/nbis/orcl/meta/your favourite)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "stack_long_tickers": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_dram",
+        "badge_sndk",
+        "badge_mu",
+        "badge_nbis",
+        "badge_orcl",
+        "badge_meta"
+      ]
+    },
+    "badge_dram": {
+      "type": "Badge",
+      "props": {
+        "text": "DRAM",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "badge_sndk": {
+      "type": "Badge",
+      "props": {
+        "text": "SNDK",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "badge_mu": {
+      "type": "Badge",
+      "props": {
+        "text": "MU",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "badge_nbis": {
+      "type": "Badge",
+      "props": {
+        "text": "NBIS",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "badge_orcl": {
+      "type": "Badge",
+      "props": {
+        "text": "ORCL",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "badge_meta": {
+      "type": "Badge",
+      "props": {
+        "text": "META",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_rationale": {
+      "type": "Heading",
+      "props": {
+        "text": "Rationale",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text_rationale": {
+      "type": "Text",
+      "props": {
+        "text": "HCH recommending contrarian long allocation in memory/semis + mega-cap AI tickers as portfolio cushion against structural short basket conviction (BTC/ETH/SOL/etc). Tactical diversification, not aggressive long conviction.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "stack_short_tickers": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_short_btc",
+        "badge_short_eth",
+        "badge_short_sol"
+      ]
+    },
+    "badge_short_btc": {
+      "type": "Badge",
+      "props": {
+        "text": "BTC",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "badge_short_eth": {
+      "type": "Badge",
+      "props": {
+        "text": "ETH",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "badge_short_sol": {
+      "type": "Badge",
+      "props": {
+        "text": "SOL",
+        "variant": "destructive"
+      },
+      "children": []
+    }
+  }
+}
