@@ -1,0 +1,61 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "$BTC"
+      },
+      "children": [
+        "stack-tweet",
+        "separator-1",
+        "analysis-text"
+      ]
+    },
+    "stack-tweet": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-card",
+        "link-tweet"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "The bull market begins when nobody expects it to begin.\n\nThe funny thing is, we have been in a bull market for 17 years."
+      },
+      "children": []
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2082948653807718628"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Reinforces documented HTF-bullish thesis; chart shows 17-year uptrend with cycle stages. Contrasts structural-bull minority (Killa, t_in_crypto) against active short baskets (HCH, Wild_Randomness).",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
