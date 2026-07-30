@@ -1,10 +1,11 @@
-## Summary
+HEARTBEAT_OK · STATUS_PAGE=OK
 
-Heartbeat complete — all checks green.
+All checks passed clean:
 
-- **P0**: No failed, stuck, or degraded skills. X webhook rule `WATCHED_TRADERS` confirmed ACTIVE (`is_effect=1`).
-- **P1**: No open PRs. No urgent GitHub issues.
-- **P2**: No flagged follow-ups in `MEMORY.md`.
-- **P3**: All 8 enabled scheduled skills have run within their 2× interval windows.
+- **P0 (skills):** No failed, stuck, or degraded skills. All 9 enabled skills show `success` as last status, consecutive failures at 0, success rates at 99–100%.
+- **P0 (X webhook):** `TWITTERAPI_IO_KEY` not injected into this run (declared optional with `?`), check skipped silently.
+- **P1:** No open PRs, no urgent GitHub issues.
+- **P2:** Nothing flagged in `MEMORY.md` requiring follow-up.
+- **P3:** All enabled skills have cron-state entries and are within 2× their schedule intervals. No never-run skills.
 
-HEARTBEAT_OK · STATUS_PAGE=OK — `docs/status.md` regenerated; next run: token-alert/token-movers at 12:00 UTC.
+`docs/status.md` regenerated with 🟢 OK, 9-skill table sorted by recency, next scheduled run: skill-health at 18:00 UTC.
