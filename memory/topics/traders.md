@@ -731,7 +731,8 @@ BOOTSTRAP_COMPLETE: 2026-07-14
   - Jul 29 22:32Z — informational: BTC volatility regime low (37.53, multi-year lows); "stuck in the mud" chop setup; aligns with market caution narrative on bounce sustainability vs structural weakness [2082595111830261823]
 - Last seen: 2026-07-29 22:32:22 UTC
   - Jul 28 21:35Z — informational: 0DTE options +110% aggregate trade report; "8/8" trading day recap with 5 QQQ 5m charts showing entries/exits/results; market sentiment forward: FOMC tomorrow, expects trend to end [2082218290898939990]
-- Last seen: 2026-07-30 03:39:07 UTC
+- Last seen: 2026-07-30 20:56:00 UTC
+  - Jul 30 20:56Z — informational: AAPL 1m crash chart ($339→$318, ~-6% in ~15min), validates Jul 28 short position thesis ($341/$342 entries + Oct $300 puts); three media images (chart + sentiment reaction) [2082933249677185299]
   - Jul 29 21:42Z — informational: XYZ100 index daily chart analysis (consolidation/breakdown pattern); validates earlier sector bottom thesis (Q1 correction ended on 200d SOXL test, 14:55Z same day); text "Pretty good…" references chart pattern confirming capitulation structure [2082582436828131682]
   - Jul 28 21:35Z — ambiguous: "Have played it four days in a row, returns ranging from 80-700%.\n\nAgain, don't expect this to keep working lol"; unspecified asset "it", no ticker/level, extraordinary returns (80-700%) claimed; cryptic/casual tone; awaiting calibration [2082218502111494376]
   - Jul 27 17:09Z — informational: Trump market reaction sentiment — "Trump came out and yapped up the market just for this trend to hit for the 7th time lol"; macro pattern observation, sarcastic tone on trend repetition; no ticker/action/level [20817891664429960608]
