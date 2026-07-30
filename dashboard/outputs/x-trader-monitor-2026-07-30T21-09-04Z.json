@@ -1,0 +1,197 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Memory/Semis sector rally performance update (Jul 30 21:02 UTC)"
+      },
+      "children": [
+        "tweet_card",
+        "sep1",
+        "perf_section",
+        "sep2",
+        "liquidation_alert",
+        "sep3",
+        "alignment_section",
+        "sep4",
+        "link_section"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "Memory/Semis sector rally performance update (Jul 30 21:02 UTC)"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "perf_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "perf_heading",
+        "perf_grid"
+      ]
+    },
+    "perf_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Sector Performance",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "perf_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat_sndk",
+        "stat_mu",
+        "stat_nbis",
+        "stat_dram",
+        "stat_aapl"
+      ]
+    },
+    "stat_sndk": {
+      "type": "Stat",
+      "props": {
+        "label": "SNDK",
+        "value": "$1,279.96",
+        "delta": "+25.99% (+$264.07)",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat_mu": {
+      "type": "Stat",
+      "props": {
+        "label": "MU",
+        "value": "$874.66",
+        "delta": "+18.36% (+$135.66)",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat_nbis": {
+      "type": "Stat",
+      "props": {
+        "label": "NBIS",
+        "value": "+$40.21",
+        "delta": "+27.13%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat_dram": {
+      "type": "Stat",
+      "props": {
+        "label": "DRAM",
+        "value": "+$7.49",
+        "delta": "+16.7%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat_aapl": {
+      "type": "Stat",
+      "props": {
+        "label": "AAPL",
+        "value": "-$4.76",
+        "delta": "-1.41%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "liquidation_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "AAPL Liquidation Cascade",
+        "message": "$75.07k @ $317.16 on Hyperliquid",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alignment_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alignment_heading",
+        "alignment_text"
+      ]
+    },
+    "alignment_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Cross-Trader Alignment",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "alignment_text": {
+      "type": "Text",
+      "props": {
+        "text": "Validates memory sector convergence signal (Chase TP'd 80% Jul 27 → ryzzqq mean-reversion entries Jul 28 → WR technical confirm Jul 29 → sector rally realized Jul 30). HCH's Jul 29 tactical hedge recommendation (5% allocation on SNDK/MU/NBIS/DRAM/ORCL/META) now showing realized gains.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal"
+      },
+      "children": [
+        "tweet_link"
+      ]
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/HeartCanHodl/status/2082934960168837132"
+      },
+      "children": []
+    }
+  }
+}
