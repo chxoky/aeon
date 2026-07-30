@@ -41,6 +41,9 @@
   - Jul 30 22:19Z — cross-platform-dedup (X reiteration): "The easy leg is behind us" (8 Blofin perp screenshots: SNDK +99.93%, MU +78.47%, NBIS +71.23%, DRAM +28.46%, showing unrealized gains on 3X long semis/memory basket); reiteration of Jul 22:08Z TP with added position detail; silent/no alert (dedup vs Discord TP already alerted); alerted=no [2082954380748476605]
   - Jul 30 22:17Z — informational: "Fc SNDK ema50 4hr wide" (technical EMA50 comment on SNDK 4-hour structure, Discord primary Comments channel); fast-path alerted (Worker sent Telegram); alerted=fast-path [1532512436173668384]
 - **Last seen**: 2026-07-30T22:17:46Z (Discord Comments channel — semis tactical commentary)
+- **Last seen**: 2026-07-30T22:21:22Z (X post — market commentary)
 - **Events (recent):**
+  - Jul 30 22:21Z — informational: BTC/SNDK speed comparison (meme humor: "Bitcoin taking forever to reach 65k vs SNDK speed today"); validates sector convergence signal + momentum observation; X platform [2082954731211895104]
   - Jul 30 22:17Z — informational: "Reduced size on mechanical bounce/loss recovery rally on semis" (tactical hedge positioning comment on semis sector, Discord primary Comments channel); fast-path alerted by Worker; no specific ticker/size clarified [1532512559255785583]
+  - Jul 30 22:17Z — informational: "Fc SNDK ema50 4hr wide" (technical EMA50 comment on SNDK 4-hour structure, Discord primary Comments channel); fast-path alerted (Worker sent Telegram); alerted=fast-path [1532512436173668384]
   - Jul 30 22:08Z — trade-partial-tp: "TP 1/4th more here in afterhours" (25% position reduction, Discord primary Trades channel); fast-path alerted (Worker sent Telegram); ticker/position clarified via chart attachment [1532510259766362143]
