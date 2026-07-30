@@ -1,0 +1,41 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "link_post"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "A lot of people didn't expect $BTC to bounce after that major rejection from 83K down to 59K. No true wave 5 corrective extension—just a low sweep and bounce. That screams seller exhaustion. Clear divergence right in front of us. It bounced from the level almost no one expected.\n\nDaily chart shows rejection from ~116K, decline to ~59K base, recovery to ~63.3K support"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/KillaXBT/status/2082882282613071888"
+      }
+    }
+  }
+}
