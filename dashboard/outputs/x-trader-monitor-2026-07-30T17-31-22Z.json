@@ -1,0 +1,60 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "badge-calibration",
+        "event-text",
+        "tweet-card",
+        "assessment-alert",
+        "tweet-link"
+      ]
+    },
+    "badge-calibration": {
+      "type": "Badge",
+      "props": {
+        "text": "Calibration — @trading_axe"
+      },
+      "children": []
+    },
+    "event-text": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @blknoiz06",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "trading_axe",
+        "handle": "@trading_axe",
+        "text": "Study. ~ Dr. Axius."
+      },
+      "children": []
+    },
+    "assessment-alert": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Classification Assessment",
+        "message": "Unable to classify — appears cryptic/personal. Is this a financial signal, or noise? Context missing on what @blknoiz06 said before it."
+      },
+      "children": []
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View Tweet",
+        "href": "https://x.com/trading_axe/status/2082880163071570008"
+      },
+      "children": []
+    }
+  }
+}
