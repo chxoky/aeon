@@ -1,0 +1,130 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-card",
+        "separator-1",
+        "heading-performance",
+        "stats-grid",
+        "separator-2",
+        "thesis-section"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "Semis rally strong — SNDK +26%, MU +18%, NBIS +27%, DRAM +17% daily (+ extended gains). AAPL weakness -1.41%. Portfolio tracker share"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading-performance": {
+      "type": "Heading",
+      "props": {
+        "text": "Daily Performance",
+        "level": "h3"
+      }
+    },
+    "stats-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 5,
+        "gap": "md"
+      },
+      "children": [
+        "stat-sndk",
+        "stat-mu",
+        "stat-nbis",
+        "stat-dram",
+        "stat-aapl"
+      ]
+    },
+    "stat-sndk": {
+      "type": "Stat",
+      "props": {
+        "label": "SNDK",
+        "value": "+26%",
+        "trend": "up"
+      }
+    },
+    "stat-mu": {
+      "type": "Stat",
+      "props": {
+        "label": "MU",
+        "value": "+18%",
+        "trend": "up"
+      }
+    },
+    "stat-nbis": {
+      "type": "Stat",
+      "props": {
+        "label": "NBIS",
+        "value": "+27%",
+        "trend": "up"
+      }
+    },
+    "stat-dram": {
+      "type": "Stat",
+      "props": {
+        "label": "DRAM",
+        "value": "+17%",
+        "trend": "up"
+      }
+    },
+    "stat-aapl": {
+      "type": "Stat",
+      "props": {
+        "label": "AAPL",
+        "value": "-1.41%",
+        "trend": "down"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "thesis-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "thesis-heading",
+        "thesis-text",
+        "tracker-link"
+      ]
+    },
+    "thesis-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "AI Hedge Thesis",
+        "level": "h3"
+      }
+    },
+    "thesis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Validates HCH's AI hedge thesis; aligns with Chase/Killa conviction on mean-reversion off lows."
+      }
+    },
+    "tracker-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Portfolio Tracker",
+        "href": "https://x.com/HeartCanHodl/status/2082928973525447009",
+        "source": "X"
+      }
+    }
+  }
+}
