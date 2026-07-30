@@ -1,0 +1,69 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading",
+        "event-details",
+        "separator",
+        "logging-note"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Wild_Randomness Event Processed",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "event-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event-id",
+        "sentiment-badge"
+      ]
+    },
+    "event-id": {
+      "type": "Text",
+      "props": {
+        "text": "Event ID: 2082704786143564264",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sentiment-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Fed policy macro sentiment",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "logging-note": {
+      "type": "Alert",
+      "props": {
+        "title": "Logging Status",
+        "message": "Logged silently per standing rule (no ticker+action+level)",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}
