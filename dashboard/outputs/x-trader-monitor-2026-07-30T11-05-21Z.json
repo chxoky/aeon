@@ -1,0 +1,52 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "link-view",
+        "analysis-text"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "Ironically, the best place to cover shorts is often where the market feels the worst. When gloom is universal, portfolios have been round-tripped, and frustration has turned into anger, the fuel for further downside is often depleted. Bears should rather thank the market for such clear short-covering zone signs."
+      },
+      "children": []
+    },
+    "link-view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/HeartCanHodl/status/2082783511380148591"
+      },
+      "children": []
+    },
+    "analysis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Market psychology thesis reinforcing HCH's short-basket conviction (BTC targets 60.8K/59.3K); validates cover-at-capitulation approach.",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
