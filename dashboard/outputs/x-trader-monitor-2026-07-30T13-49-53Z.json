@@ -1,0 +1,41 @@
+{
+  "root": "card-x-trader",
+  "state": {},
+  "elements": {
+    "card-x-trader": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "link-tweet"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "Top 4 stocks trending on BloFin (SNDK +45%, MU +35%, NBIS +33%, DRAM +28% perp longs). Sector momentum validates semis convergence (Chase TP → ryzzqq entry → WR confirm → community trend). Also updated: covered 2% ETH, 5% BTC, 2% HYPE/ZEC/TAO shorts; added 1% KAITO short."
+      }
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/HeartCanHodl/status/2082824621318103366"
+      }
+    }
+  }
+}
