@@ -1,21 +1,10 @@
-Perfect. I've completed the x-trader-monitor skill execution:
+🚨 *Trade Signal — @bull_genius*
 
-## Summary
+BTC — LONG — *Market entry*
+~$64.1k (tiny chaser position)
 
-**Event:** Tweet from @swarmister  
-**Text:** "@FalconyFalcon 😔"  
-**Tweet ID:** 2082761087808651274  
+"gm, 30d rvwap defended, back above monthly/yearly poc, back above the 7d. thats a solid picture"
 
-**Classification:** Skip — Non-financial social banter
+[View post](https://x.com/bull_genius/status/2082761413144014865)
 
-**Actions Taken:**
-- ✅ Decoded event JSON successfully
-- ✅ Verified tweet ID was new (not in seen list)
-- ✅ Classified as personal social banter per Step 4A (non-financial)
-- ✅ No alert sent to Kyle
-- ✅ Recorded tweet ID in memory/x-trader-seen.txt
-- ✅ Appended log entry to memory/logs/2026-07-30.md
-
-**Rationale:** This is a mention of another X account (@FalconyFalcon) with a sad emoji. No ticker, no price level, no execution language, and no trade signal. Consistent with swarmister's ~80% non-financial social banter baseline. Per skill rule Step 4A, non-financial posts are logged silently with no alert.
-
-Skill run complete.
+Reply `approve BTC` to mirror this on Kraken, or ignore to skip.

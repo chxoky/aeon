@@ -1,0 +1,88 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Trade Signal — @bull_genius"
+      },
+      "children": [
+        "badge-btc",
+        "badge-long",
+        "text-entry",
+        "stat-price",
+        "text-position",
+        "sep1",
+        "tweetcard",
+        "sep2",
+        "link-post",
+        "sep3",
+        "alert-action"
+      ]
+    },
+    "badge-btc": {
+      "type": "Badge",
+      "props": {
+        "text": "BTC"
+      }
+    },
+    "badge-long": {
+      "type": "Badge",
+      "props": {
+        "text": "LONG"
+      }
+    },
+    "text-entry": {
+      "type": "Text",
+      "props": {
+        "text": "Market entry"
+      }
+    },
+    "stat-price": {
+      "type": "Stat",
+      "props": {
+        "label": "Entry Price",
+        "value": "~$64.1k"
+      }
+    },
+    "text-position": {
+      "type": "Text",
+      "props": {
+        "text": "Position: tiny chaser",
+        "variant": "caption"
+      }
+    },
+    "sep1": {
+      "type": "Separator"
+    },
+    "tweetcard": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "gm, 30d rvwap defended, back above monthly/yearly poc, back above the 7d. thats a solid picture"
+      }
+    },
+    "sep2": {
+      "type": "Separator"
+    },
+    "link-post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/bull_genius/status/2082761413144014865"
+      }
+    },
+    "sep3": {
+      "type": "Separator"
+    },
+    "alert-action": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "Reply `approve BTC` to mirror this on Kraken, or ignore to skip."
+      }
+    }
+  }
+}

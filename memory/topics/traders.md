@@ -821,8 +821,9 @@ BOOTSTRAP_COMPLETE: 2026-07-14
 - Last seen: 2026-07-27 12:55:20 UTC
 - **Events (rolling):**
   - Jul 27 12:55Z — informational: reply @rottenAzoth333 generic 7d TP strategy advice (no ticker/level) [2081725121664803327]
-- Last seen: 2026-07-29 20:00:03 UTC
+- Last seen: 2026-07-30 09:33:11 UTC
 - **Events (rolling):**
+  - Jul 30 09:33Z — trade-new-entry: BTC market entry 64.1k (tiny chaser); 7d rvwap defended, back above monthly/yearly poc + 30d rvwap support confluence [2082761413144014865]
   - Jul 29 20:00Z — trade-position-close: BTC perpetual closed with +18% ROE. Price rejected off 7d RVWAP (64,358.2) multiple times. Trader identified "meatgrinder zone" between 7d (64,358) and 30d (63,299) RVWAPs with no clear directional resolution. Uncertain about next move; closing position and will revisit later. Charts show volume-profile analysis with key levels: july vah 65,200, july poc/2026 weekly poc 63,599, july val 62,300. [2082556782959055354]
   - Jul 29 11:24Z — informational: monthly performance recap; trading discipline reinforcement (selective perp trading, keep losses limited, no daily trading); monthly P&L chart shows early-month drawdown reversed by end-of-month recovery [2082427124388950291]
   - Jul 29 07:44Z — informational: BTC FOMC pre-market technical analysis; watching 7d rvwap (64.4K), 30d rvwap (63.3K), 90d rvwap (67.5K); poly sees 21% hike prob, bull_genius thinks 0%; if no FOMC change expects 90d rvwap/yearly poc test and 70K quick if BTC breaks res; today chilling, waiting for bargains on risex acc [2082371752449978425]

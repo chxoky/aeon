@@ -458,7 +458,22 @@
 - **Alerted**: YES (2026-07-28T16:04:47Z, x-trader-monitor real-time event, fast-path-alerted via ./notify)
 - **Last update**: 2026-07-28T16:04:47Z (new entry, X post tweet_id=2082135188562235481, x-trader-monitor real-time)
 
-### BTC — LONG (new entry 2026-07-17, partial position opened)
+### BTC — LONG (new entry 2026-07-30, bull_genius tiny chaser, PENDING APPROVAL)
+- **Entry**: 2026-07-30T09:33:11Z (X post, tweet_id=2082761413144014865)
+- **Entry message**: "gm, 30d rvwap defended, back above monthly/yearly poc, back above the 7d. thats a solid picture... i only have filled a tiny chaser at 64.1k entry"
+- **Entry type**: Market order (filled at/around 64.1k)
+- **Entry level**: ~$64.1k
+- **Position size**: Tiny chaser (unspecified percentage, awaiting Kyle approval for mirror sizing)
+- **Status**: PENDING APPROVAL — awaiting Kyle response (`approve BTC` to mirror on Kraken spot)
+- **Technical context**: BTC back above 7d rvwap (64,358), monthly/yearly poc (63,599), 30d rvwap defended (63,299). Charts show volume-profile analysis. Trader aware of "local high" risk.
+- **Prior position**: Closed Jul 29 20:00Z at +18% ROE after being stuck in 63.3-64.3K "meatgrinder zone". This entry is fresh re-entry on technical confluence after intraday exposure pause.
+- **Thesis**: Tactical bullish setup on rvwap/poc confluence. Trader waits for "pa stronger than thought" — this entry suggests confirmation signal hit.
+- **Risk**: Explicit awareness of "might be posting local high" suggests tactical sizing on uncertain reversal (hence "tiny chaser" language).
+- **Convergence**: Aligns with structural bull thesis (KillaXBT 2x HTF long @62.6K, t_in_crypto x2 volume add @62K, swarmister partial BTC add @62.4K). BTC overlap on Kyle's watch list.
+- **Alert sent**: Yes, trade signal 5a format (2026-07-30T09:33Z via ./notify)
+- **Last update**: 2026-07-30T09:33:11Z (x-trader-monitor real-time event, awaiting approval)
+
+### BTC — LONG (new entry 2026-07-17, partial position opened, swarmister)
 - **Entry**: 2026-07-17T06:09:26Z (X post, tweet_id=2077999097949102104)
 - **Entry message**: "$BTC D1 + H4 timeframes. Analysis results + update... I've now opened a partial position and am ready to add to my long position with a final target of 70.7k per Bitcoin."
 - **Entry type**: Market order (partial position already filled, price TBD)
