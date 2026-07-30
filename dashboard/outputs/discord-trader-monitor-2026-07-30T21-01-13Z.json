@@ -1,0 +1,143 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor",
+        "description": "Calibration — Real-time Message Classification"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "calibration-header",
+        "badges-stack",
+        "sep1",
+        "event-section",
+        "sep2",
+        "message-section",
+        "sep3",
+        "question-alert"
+      ]
+    },
+    "calibration-header": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration Request",
+        "level": "h2"
+      }
+    },
+    "badges-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-calibration",
+        "badge-dc",
+        "badge-free"
+      ]
+    },
+    "badge-calibration": {
+      "type": "Badge",
+      "props": {
+        "text": "Calibration",
+        "variant": "secondary"
+      }
+    },
+    "badge-dc": {
+      "type": "Badge",
+      "props": {
+        "text": "DC: HCH",
+        "variant": "outline"
+      }
+    },
+    "badge-free": {
+      "type": "Badge",
+      "props": {
+        "text": "Free",
+        "variant": "default"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "event-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event-label",
+        "event-text"
+      ]
+    },
+    "event-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "event-text": {
+      "type": "Text",
+      "props": {
+        "text": "Real-time Discord message from HeartCanHodl",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "message-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "message-label",
+        "message-text"
+      ]
+    },
+    "message-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Message",
+        "level": "h3"
+      }
+    },
+    "message-text": {
+      "type": "Text",
+      "props": {
+        "text": "Fc aapl 15m",
+        "variant": "lead"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "question-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Is this a trade setup on AAPL (15m timeframe)? What does \"Fc\" mean? Your read?",
+        "type": "warning"
+      }
+    }
+  }
+}
