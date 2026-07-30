@@ -1,15 +1,13 @@
-Done. All three tracked tokens are within their alert thresholds — no anomalies to report.
+Done. No anomalies detected — all three tokens are in quiet 24h consolidation well under their alert thresholds.
 
 ## Summary
 
-**token-alert — 2026-07-29**
+**token-alert — 2026-07-30**
 
-Fetched live prices from CoinGecko free API:
+| Token | Price | 24h Change | Threshold | Vol (24h) | Vol vs Baseline | Status |
+|-------|-------|-----------|-----------|-----------|-----------------|--------|
+| BTC | $64,845 | +0.93% | 5% | $31.26B | 1.34x | OK |
+| ETH | $1,923.60 | +0.99% | 8% | $9.80B | 1.46x | OK |
+| SOL | $74.33 | +1.14% | 10% | $1.74B | 1.28x | OK |
 
-| Token | Price | 24h Change | Threshold | Status |
-|-------|-------|-----------|-----------|--------|
-| BTC | $64,439 | +1.65% | 5% | ✓ OK |
-| ETH | $1,913.21 | +2.06% | 8% | ✓ OK |
-| SOL | $73.88 | +1.06% | 10% | ✓ OK |
-
-No alerts triggered. Volume spike check skipped (no historical daily-volume average in prior logs — first run establishing a baseline). Prices logged to `memory/logs/2026-07-29.md` for future comparison.
+**TOKEN_ALERT_OK** — no price or volume anomalies. No notifications sent. Prices appended to `memory/logs/2026-07-30.md` for next comparison.
