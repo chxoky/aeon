@@ -1,0 +1,101 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "link_post",
+        "sep1",
+        "heading_context",
+        "stack_stats"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "@HeartCanHodl",
+        "text": "AAPL is next in line.\n\nThe rough short thesis draft will be out soon enough. Until then, start looking for the exits.\n\nThe latest S&P #1 premium is living on borrowed time. Once the S&P 500 itself enters the hostile territory, that premium won't hold either."
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/HeartCanHodl/status/2082776467688288452"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_context": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart Context",
+        "level": "h3"
+      }
+    },
+    "stack_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat_mag7",
+        "stat_sp500",
+        "stat_aapl",
+        "text_others"
+      ]
+    },
+    "stat_mag7": {
+      "type": "Stat",
+      "props": {
+        "label": "Magnificent 7 Portfolio YTD",
+        "value": "-4.71%",
+        "trend": "down"
+      }
+    },
+    "stat_sp500": {
+      "type": "Stat",
+      "props": {
+        "label": "S&P 500 YTD",
+        "value": "+6.88%",
+        "trend": "up"
+      }
+    },
+    "stat_aapl": {
+      "type": "Stat",
+      "props": {
+        "label": "AAPL YTD",
+        "value": "+60.71%",
+        "trend": "up"
+      }
+    },
+    "text_others": {
+      "type": "Text",
+      "props": {
+        "text": "MSFT, TSLA, META: all negative YTD",
+        "variant": "caption"
+      }
+    }
+  }
+}

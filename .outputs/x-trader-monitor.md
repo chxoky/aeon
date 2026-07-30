@@ -1,9 +1,11 @@
-🐦 *[X] @HeartCanHodl*
+🐦 [X] @HeartCanHodl
 
-**Memory sector shorts (perp futures) — +8–10% gains (Jul 2)**
+AAPL is next in line.
 
-BloFin screenshot share: MU short +8.17%, MRVL short +8.00%, SNDK short +10.10% (entries from Jul 2, shown today Jul 30).
+The rough short thesis draft will be out soon enough. Until then, start looking for the exits.
 
-Cross-trader context: HCH holding structural short basket (bearish macro). Same tickers (MU/SNDK) where Crypto_Chase was running successful LONG positions Jul 2–27 (80% TP'd at higher levels). Convergence zone: memory sector remains high-conviction cross-trader divergence play with opposing convictions validating through realized gains on both sides.
+The latest S&P #1 premium is living on borrowed time. Once the S&P 500 itself enters the hostile territory, that premium won't hold either.
 
-[https://x.com/HeartCanHodl/status/2082767431341117870]
+[View post](https://x.com/HeartCanHodl/status/2082776467688288452)
+
+**Chart context:** Magnificent 7 portfolio down -4.71% YTD vs S&P 500 +6.88%, with AAPL massively overweighting the group at +60.71% YTD while MSFT/TSLA/META all negative.
