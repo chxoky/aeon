@@ -1,11 +1,9 @@
-🐦 *[X] @HeartCanHodl*
+🐦 *[X] @Wild_Randomness*
 
-You can make money on both the long and short side at the same time.
+$AAPL
 
-AAPL short 📈, SNDK long 📈
+Newton discovers gravity
 
-Evidence: Binance liquidations show AAPL longs being wiped while SNDK shorts capitulating. HCH's 3X longs on SNDK/MU/NBIS still massively profitable (+48-58%).
+[View tweet](https://x.com/Wild_Randomness/status/2082948073706373179)
 
-[View tweet](https://x.com/HeartCanHodl/status/2082945352408400202)
-
-↳ _Market structure play: liquidation flows validate existing conviction (short Mag 7 weakness / long semis strength)_
+↳ _Reinforces 2-trader SHORT convergence thesis (Wild_Randomness + HeartCanHodl). AAPL 1m chart shows -7.8% intraday crash from $339→$305; daily structure validates resistance 349-356 break with support 288-320 zones tested._
