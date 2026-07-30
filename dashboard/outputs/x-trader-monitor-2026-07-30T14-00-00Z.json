@@ -1,0 +1,128 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "content-stack"
+      ]
+    },
+    "content-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "header-stack",
+        "sep1",
+        "ticker-badge",
+        "sep2",
+        "price-stat",
+        "main-text",
+        "sep3",
+        "convergence-heading",
+        "convergence-text",
+        "sep4",
+        "tweet-link"
+      ]
+    },
+    "header-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "platform-badge",
+        "handle-badge"
+      ]
+    },
+    "platform-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "X",
+        "variant": "secondary"
+      }
+    },
+    "handle-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "@Wild_Randomness",
+        "variant": "outline"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "ticker-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "$SOXL",
+        "variant": "default"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "price-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "SOXL Price",
+        "value": "112.98",
+        "delta": "+20.99 (+22.82%)",
+        "trend": "up"
+      }
+    },
+    "main-text": {
+      "type": "Text",
+      "props": {
+        "text": "Deja Vu — SOXL at 112.98, +20.99 (+22.82%), bouncing from the sector bottom hit on Jul 29. Charts show the classic reversal pattern (from ~96 consolidation to current recovery).",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "convergence-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Three-Trader Semis Convergence",
+        "level": "h3"
+      }
+    },
+    "convergence-text": {
+      "type": "Text",
+      "props": {
+        "text": "Validates three-trader semis convergence: Chase profit-taking highs (Jul 27) → ryzzqq mean-reversion longs (Jul 28) → Wild_Randomness technical bottom confirmation (Jul 29) + follow-up reversal validation (Jul 30). High-conviction sector recovery signal.",
+        "variant": "body"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2082827285493944477"
+      }
+    }
+  }
+}
