@@ -1,0 +1,179 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading_calibration",
+        "content_stack"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @HeartCanHodl",
+        "level": "h2"
+      }
+    },
+    "content_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event_section",
+        "separator1",
+        "post_details",
+        "separator2",
+        "analysis"
+      ]
+    },
+    "event_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event_label",
+        "event_text"
+      ]
+    },
+    "event_label": {
+      "type": "Text",
+      "props": {
+        "text": "Event:",
+        "variant": "lead"
+      }
+    },
+    "event_text": {
+      "type": "Text",
+      "props": {
+        "text": "Vague post teasing future short trigger signals"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "post_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "quote_section",
+        "media_section",
+        "link_section"
+      ]
+    },
+    "quote_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "quote_label",
+        "tweet_card"
+      ]
+    },
+    "quote_label": {
+      "type": "Text",
+      "props": {
+        "text": "Post:",
+        "variant": "lead"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "@HeartCanHodl",
+        "text": "Short triggers will be posted in the main group ;)"
+      }
+    },
+    "media_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "media_label",
+        "media_details"
+      ]
+    },
+    "media_label": {
+      "type": "Text",
+      "props": {
+        "text": "Media:",
+        "variant": "lead"
+      }
+    },
+    "media_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "btc_stat",
+        "eth_stat",
+        "exchange_badge"
+      ]
+    },
+    "btc_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC 8x long",
+        "value": "+14.78%",
+        "trend": "up"
+      }
+    },
+    "eth_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH 12x long",
+        "value": "+20.20%",
+        "trend": "up"
+      }
+    },
+    "exchange_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "BloFin (leverage trading examples)",
+        "variant": "secondary"
+      }
+    },
+    "link_section": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/HeartCanHodl/status/2082759273176760720"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification unclear",
+        "message": "Unable to classify — promotional meta-commentary, informational heads-up about coming Discord alerts, or something else? What's your read?",
+        "type": "info"
+      }
+    }
+  }
+}

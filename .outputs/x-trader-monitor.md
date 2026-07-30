@@ -1,9 +1,11 @@
-🐦 *[X] @swarmister*
+🔍 *Calibration — @HeartCanHodl*
 
-I'm holding these long positions in $BTC and $ETH
+Event: Vague post teasing future short trigger signals
 
-To be honest, these two trades have really messed with my head
+HeartCanHodl: "Short triggers will be posted in the main group ;)"
 
-Sl to b/e
+Media shows: BTC 8x long +14.78%, ETH 12x long +20.20% on BloFin (leverage trading examples).
 
-[View tweet](https://x.com/swarmister/status/2082753556256280754)
+Unable to classify — promotional meta-commentary, informational heads-up about coming Discord alerts, or something else? What's your read?
+
+[View post](https://x.com/HeartCanHodl/status/2082759273176760720)
