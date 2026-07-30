@@ -1,0 +1,88 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "sep1",
+        "stocks_stack",
+        "sep2",
+        "validation_text",
+        "view_link"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Crypto_Chase",
+        "handle": "@Crypto_Chase",
+        "text": "SNDK +13.98% / MU +7.87% — memory sector rallying hard today."
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stocks_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_sndk",
+        "stat_mu"
+      ]
+    },
+    "stat_sndk": {
+      "type": "Stat",
+      "props": {
+        "label": "SNDK",
+        "value": "+13.98%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat_mu": {
+      "type": "Stat",
+      "props": {
+        "label": "MU",
+        "value": "+7.87%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "validation_text": {
+      "type": "Text",
+      "props": {
+        "text": "Validates mean-reversion setup from Jul 28-29 convergence:\n• Jul 27: Chase took profits\n• Jul 28: ryzzqq entered longs\n• Jul 29: Wild_Randomness confirmed sector bottom\n\nContinuing strength.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Crypto_Chase/status/2082821808810586521"
+      },
+      "children": []
+    }
+  }
+}
