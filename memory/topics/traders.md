@@ -52,8 +52,9 @@
 
 ## HeartCanHodl
 
-- **Last seen**: 2026-07-31T05:09:54Z (X reply to @MusicConnect10 re: TP area, ambiguous context)
+- **Last seen**: 2026-07-31T07:49:20Z (Discord supporting Chat channel, third "Fc" pattern)
 - **Events (recent):**
+  - Jul 31 07:49Z — ambiguous: "Fc btc 5m" (supporting channel "HCH — Chat"; third occurrence of "Fc" pattern (also Jul 31 03:13Z, Jul 30 22:31Z); cryptic technical abbreviation likely false-close/structure check; calibration alert sent) [1532656396426940456]
   - Jul 31 05:09Z — ambiguous: reply to @MusicConnect10 "Good area to tp some or more for a great scalp" (cryptic reply without visible context; ticker/position unclear; calibration alert sent) [2083057544575262967]
   - Jul 31 04:06Z — informational: AAPL 1h technical chart (downside structure 344.56→312.30, support 335.60); responds to @jukan05; converges with Wild_Randomness AAPL short thesis [2083041490864058429]
   - Jul 31 03:33Z — ambiguous: "👇🏻" (emoji-only cryptic post on X, calibration alert sent; unable to determine context without clarification) [2083033362432966709]
