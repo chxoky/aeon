@@ -1,13 +1,18 @@
-Done. No anomalies detected — all three tokens are in quiet 24h consolidation well under their alert thresholds.
+Done. No notifications sent.
 
 ## Summary
 
-**token-alert — 2026-07-30**
+**Token Alert — 2026-07-31**
 
-| Token | Price | 24h Change | Threshold | Vol (24h) | Vol vs Baseline | Status |
-|-------|-------|-----------|-----------|-----------|-----------------|--------|
-| BTC | $64,845 | +0.93% | 5% | $31.26B | 1.34x | OK |
-| ETH | $1,923.60 | +0.99% | 8% | $9.80B | 1.46x | OK |
-| SOL | $74.33 | +1.14% | 10% | $1.74B | 1.28x | OK |
+Checked all 3 tracked tokens against MEMORY.md thresholds using CoinGecko:
 
-**TOKEN_ALERT_OK** — no price or volume anomalies. No notifications sent. Prices appended to `memory/logs/2026-07-30.md` for next comparison.
+| Token | Price | 24h Change | Threshold | Vol | Status |
+|-------|-------|-----------|-----------|-----|--------|
+| BTC | $63,670 | −1.91% | 5% | $26.0B | OK |
+| ETH | $1,875.82 | −2.52% | 8% | $7.6B | OK |
+| SOL | $73.40 | −1.13% | 10% | $1.5B | OK |
+
+- No 24h price moves exceed thresholds
+- Volumes ~1.1× the Jul 25 baseline — well below the 3× spike trigger
+- Prices logged to `memory/logs/2026-07-31.md` for next-run comparison
+- No alert sent
