@@ -87,11 +87,9 @@
 - Current open positions: None (SOL entry awaiting approval not executed on Kraken; trader closed position)
 - Recent thesis: Multi-ticker discretionary trader; semis reversal longs (prior SNDK/DRAM/MU/SKHY positions), BTC small longs, ETH bearish shorts bias (looking for shorts), TAO longs (closed -3% Jul 25), LIT bearish technical
 - Conviction notes: Tactical trader with intraday/swing focus; active position management across crypto + semis. Prior DCA entries on semis (Jul 28 50% filled), conservative sizing on reversals. Disciplined trade cycle: entered SOL at 01:09Z, exited at 02:19Z for -1% loss after observing "weird flow on btc"; holding on consolidated trading range.
-- Last seen: 2026-07-31T02:19:30Z (SOL close position)
+- Last seen: 2026-07-31T02:38:40Z (psychology elaboration post)
 - **Events (rolling):**
-  - Jul 31 02:19Z — informational-close: "mb closing here at 74.2 for -1%, we still in the middle...noticed some weird flow on btc" (position close at 74.2 for -1% loss, likely SOL from 01:09Z entry; market observation on range consolidation + BTC flow anomaly; no mirror on Kraken — entry never approved) [2083014661935620319]
-- Conviction notes: Tactical trader with intraday/swing focus; active position management across crypto + semis. Prior DCA entries on semis (Jul 28 50% filled), conservative sizing on reversals. **Psychology note (Jul 31 02:23Z):** acknowledges pattern of entering trades out of boredom when not fully convinced, using tight SLs as discipline that backfires — relevant to pending SOL approval context.
-- Last seen: 2026-07-31T02:23:11Z (psychology calibration post)
-- **Events (rolling):**
+  - Jul 31 02:38Z — skip: psychology elaboration "boredom is the most expensive emotion in trading...real edge is doing nothin when there's nothing to do" (personal philosophy/discipline commentary, reinforces 02:23Z calibration; no trade action/signal) [2083019485452067135]
   - Jul 31 02:23Z — calibration: trading psychology meta-commentary ("tight SLs get hit when I'm not convinced, boredom-driven entry" pattern); context for pending SOL trade [2083015588960714914]
+  - Jul 31 02:19Z — informational-close: "mb closing here at 74.2 for -1%, we still in the middle...noticed some weird flow on btc" (position close at 74.2 for -1% loss, likely SOL from 01:09Z entry; market observation on range consolidation + BTC flow anomaly; no mirror on Kraken — entry never approved) [2083014661935620319]
   - Jul 31 01:09Z — trade-new-entry: SOL long with SL 72, awaiting Kyle approval [2082997133121368363]
