@@ -1,0 +1,38 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge-header",
+        "text-message"
+      ]
+    },
+    "badge-header": {
+      "type": "Badge",
+      "props": {
+        "text": "💬 DC: HCH — Free"
+      }
+    },
+    "text-message": {
+      "type": "Text",
+      "props": {
+        "text": "You see that alert? We tagged it to the tick this morning and reversed immediately"
+      }
+    }
+  }
+}
