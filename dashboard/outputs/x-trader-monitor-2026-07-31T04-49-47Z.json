@@ -1,0 +1,125 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor — ZEC Technical Analysis"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "separator_1",
+        "analysis_content"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "$ZEC technical level: support at 486.61 breached"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis_text",
+        "levels_section",
+        "price_text",
+        "commentary_text",
+        "tweet_link"
+      ]
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "ZEC 1d chart shows multiple key levels with price action breaking below support.",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "levels_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_643_690",
+        "badge_544_28",
+        "badge_486_61"
+      ]
+    },
+    "badge_643_690": {
+      "type": "Badge",
+      "props": {
+        "text": "643→690 reversal",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge_544_28": {
+      "type": "Badge",
+      "props": {
+        "text": "544.28 retest",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge_486_61": {
+      "type": "Badge",
+      "props": {
+        "text": "486.61 support broken",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "price_text": {
+      "type": "Text",
+      "props": {
+        "text": "Current price range: 458-489",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "commentary_text": {
+      "type": "Text",
+      "props": {
+        "text": "Trader commentary: \"that is below my line\" — indicating price action breaking below support level.",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2083051682859217275"
+      },
+      "children": []
+    }
+  }
+}
