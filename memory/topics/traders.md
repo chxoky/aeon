@@ -171,3 +171,14 @@
   - Jul 31 06:19Z — skip: reply to @blancxbt personal life commentary; no financial content [2083075021161775342]
   - Jul 31 06:16Z — ambiguous: reply to @blancxbt "I have an idea…" (cryptic, incomplete thought; no visible thread context; no ticker/financial signal; calibration alert sent) [2083074249791508642]
   - Jul 31 06:11Z — skip: personal greeting + meme ("Good morning family, switching to Prime Era, let's have coffee"); non-financial [2083073161424175455]
+
+## bull_genius
+
+- Platforms: X (primary; X-only, no Discord presence)
+- Current open positions: Unknown (waiting for exceptional deal before committing)
+- Recent thesis: BTC structural analysis; lowest-confidence zone identification; HTF-bullish long-term with near-term caution; mean-reversion and DCA strategy waiting for deeper capitulation before entries
+- Conviction notes: Multi-timeframe technical analysis (daily + hourly) with annotated price zones. Explicit thesis: August historically weak, 57k weak-low likely to be tested, exceptional deal should be ahead before buyers get "amazing discounts." Contrarian patience stance (letting perps chill, exploring onchain v4 hooks/RWA). Personal conviction on BTC near-term: "not super invested in btc ltf price action, not betting much" — indicates strategic patience, not aggressive short-term positioning.
+- Calibration: None pending.
+- Last seen: 2026-07-31T09:08:15Z (X post detailed BTC analysis)
+- **Events (rolling):**
+  - Jul 31 09:08Z — informational: BTC market analysis (daily + hourly charts); lowest-confidence zone identification; price levels (75k shorts zone, 57k weak-low, 90d rvwap, 75k yearly VAH); August historical weakness + exceptional deal patience; multi-timeframe technical structure; strategy (let perps chill, explore onchain); sentiment (personally not betting much on BTC LTF) [2083117525907243428]

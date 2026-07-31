@@ -1,0 +1,38 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor - BTC Analysis"
+      },
+      "children": [
+        "tweet-card",
+        "separator-1",
+        "link-post"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "@bull_genius",
+        "text": "🐦 BTC market analysis: lowest-confidence zone at current levels. Price glued to yearly + monthly POC. Long-term trendlines still down-sloping against 30d uptrend (rolled over in July).\n\nCurrent levels represent:\n- Significantly below yearly average price paid\n- Prices that many already accumulated at today\n\nAugust historically weak in midterm/bear years following strong July. Weak low at 57k likely to get run. **Exceptional deal should still be ahead.**\n\nStrategy: Let perps chill, explore onchain (v4 hooks, RWA/tokenized assets) where bottom occurred and first inning of new cycle already underway. For tactical longs: can extend 30d rvwap/monthly poc tap, but bull_genius personally not betting much on BTC LTF.\n\n📊 Daily chart: perps battleground 63.9-64.2k, responsible sellers 67.2-71.5k, considering shorts 75k zone. Hourly shows consolidation with Bell curves at support zones."
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link-post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/bull_genius/status/2083117525907243428"
+      }
+    }
+  }
+}
