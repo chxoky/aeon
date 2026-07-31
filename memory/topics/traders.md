@@ -73,8 +73,9 @@
 
 ## HeartCanHodl
 
-- **Last seen**: 2026-07-31T15:07:38Z (Discord primary Trades channel SOL long conviction add)
+- **Last seen**: 2026-07-31T15:23:13Z (Discord primary Trades channel TAO short cover)
 - **Events (recent):**
+  - Jul 31 15:23Z — trade-partial-close: "Cover tao shorts" (primary Trades channel; closing short position on TAO from prior 02:21Z + 08:06Z conviction adds [~2% combined]; de-risking from bearish alt-thesis micro-cap position; timing 16min after SOL long add suggests coordinated rebalancing toward net-long setup; fast-path alerted by Worker, no duplicate Telegram) [1532770622684532756]
   - Jul 31 15:07Z — trade-conviction-add: "Add 5% sol long" (primary Trades channel; SOL long conviction add as part of emerging net-long positioning shift following BTC/ETH short cover at 14:27Z and position flip confirmation at 14:35Z; execution timing 32min after major-pair long position confirmation suggests escalating bullish thesis on alts; fast-path alerted by Worker, no duplicate Telegram) [1532766697231224995]
   - Jul 31 14:58Z — informational: "$AAPL is down bad" (SPX E-mini futures chart -0.43%; market sentiment observation using hearsay; not personal action; converges with WR AAPL short thesis; image shows broader market weakness) [2083205565095063607]
   - Jul 31 14:46Z — informational: "Most volatile market week in a while?" (X post with volatility charts SNDK/MU/NBIS/DRAM indices + portfolio +23.58% PnL vs BTC -1.25%; market observation with outperformance signal; no personal trade action; alerted) [2083202635335872679]
