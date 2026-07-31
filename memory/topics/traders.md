@@ -66,8 +66,9 @@
 
 ## HeartCanHodl
 
-- **Last seen**: 2026-07-31T14:30:59Z (Discord primary Free channel commentary on timing/execution)
+- **Last seen**: 2026-07-31T14:35:56Z (Discord primary Comments channel position shift confirmation)
 - **Events (recent):**
+  - Jul 31 14:35Z — informational: "Now we are net long major as we reached close to 62k" (confirms execution of planned long entry at 62k support level after BTC/ETH short cover at 14:27Z; position shift from net-short to net-long-major on BTC/ETH pair; reply to own message "Going partial major long close to this and 62k range"; primary Comments channel; fast-path alerted by Worker, no duplicate Telegram) [1532758722261024890]
   - Jul 31 14:30Z — informational: "We covered 75% before the dump" + X post reference (2083057544575262967); Discord Free channel commentary on successful trade execution timing with chart evidence; reiteration/confirmation of position management accuracy on BTC/ETH shorts (references earlier 05:09Z X post context); non-alert informational for memory [1532757474179026976]
   - Jul 31 14:27Z — trade-partial-close: "Cover whole btc and eth shorts" (primary Trades channel; closing BTC and ETH short positions from active basket; exact sizes not specified but represents major de-risking event; fast-path alerted by Worker, no duplicate Telegram) [1532756599263985664]
   - Jul 31 13:48Z — informational-philosophy: "Usually 60% is good enough to go with, 40% liquid keeps us cool & relaxed" (supporting channel Chat; reinforces sizing framework from 12:54Z message; position allocation philosophy — 60% deployed, 40% liquid buffer; no trade action; supporting channel, no alert sent) [1532746898648076439]
