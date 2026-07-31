@@ -1,20 +1,23 @@
-*Morning Brief — 2026-07-29*
+*Morning Brief — 2026-07-31*
 
 *Focus today*
-1. FOMC 2pm ET — Fed decision unblocks all live position decisions today
-2. HCH TAO short vs. TAO +3.4% — counter-signal live; position entered 06:54Z
-3. ryzzqq memory sector longs — FOMC outcome triggers add-or-cut decision tonight
+1. HCH short basket at ~50% allocation — why now: overnight adds uncovered; ADA mirror decision pending
+2. UNI +13.7% trending into HCH's 6% short — why now: contested position under active pressure right now
+3. 7 pending calibrations from HCH, WR, new traders — why now: ambiguous signals stacking without your read
 
 *Since yesterday*
-- HCH short basket expanded: HYPE 2nd add (05:44Z), TAO new entry (06:54Z), UNI 3rd add (06:54Z) — est. ~31–36% portfolio short
-- KOSPI −10% intraday (2-day record); BTC absorbed without breakdown; HCH calls "downside capped for timeframe" but targets 60K on channel break
-- Wild_Randomness: 0DTE QQQ +110% aggregate recap (8/8 session); BTC 64K support → 60K flagged as next fall; SKHY wick validated — 3-trader convergence confirmed (HCH + WR + ryzzqq)
-- swarmister AVAX long pending Kyle approval since Jul 28 16:04Z
+- [moved] Chase: MU/SNDK TP at 920/1380 — 65% closed, 35% core running
+- [moved] HCH: BTC/ETH/UNI/TAO/ADA shorts added across 96-min Asia session (01:50–03:29Z)
+- [moved] WR: SOXL 4-chart reversal confirmed; AAPL -7.8% intraday crash validated; ZEC broke 486 support
+- [moved] ryzzqq: SOL long stopped out at 74.2 (-1%); no Kraken mirror was live
+- [new] bull_genius: new tracked trader — contrarian HYPE/BTC long-term bullish; DCA target sub-50k BTC
+
+*Watch*
+- Sep FOMC +25bps YES 52.5% on Polymarket ($426K vol) — macro tailwind for HCH's short basket thesis
 
 *Running today*
-- token-alert @ 12:00 UTC
-- token-movers @ 12:00 UTC
+- heartbeat @ 08:00 UTC
+- token-alert, token-movers @ 12:00 UTC
 - market-context-refresh @ 13:00 UTC
 - narrative-tracker @ 13:30 UTC
-- heartbeat @ 14:00 UTC
 - skill-health @ 18:00 UTC

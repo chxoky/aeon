@@ -1,0 +1,380 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief"
+      },
+      "children": [
+        "text-date",
+        "heading-focus",
+        "stack-focus",
+        "sep-1",
+        "heading-yesterday",
+        "stack-yesterday",
+        "sep-2",
+        "heading-watch",
+        "stack-watch",
+        "sep-3",
+        "heading-running",
+        "stack-running"
+      ]
+    },
+    "text-date": {
+      "type": "Text",
+      "props": {
+        "text": "2026-07-31",
+        "variant": "muted"
+      }
+    },
+    "heading-focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "stack-focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus-1",
+        "focus-2",
+        "focus-3"
+      ]
+    },
+    "focus-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-1-title",
+        "focus-1-desc"
+      ]
+    },
+    "focus-1-title": {
+      "type": "Text",
+      "props": {
+        "text": "HCH short basket at ~50% allocation",
+        "variant": "lead"
+      }
+    },
+    "focus-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Why now: overnight adds uncovered; ADA mirror decision pending",
+        "variant": "body"
+      }
+    },
+    "focus-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-2-title",
+        "focus-2-desc"
+      ]
+    },
+    "focus-2-title": {
+      "type": "Text",
+      "props": {
+        "text": "UNI +13.7% trending into HCH's 6% short",
+        "variant": "lead"
+      }
+    },
+    "focus-2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Why now: contested position under active pressure right now",
+        "variant": "body"
+      }
+    },
+    "focus-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-3-title",
+        "focus-3-desc"
+      ]
+    },
+    "focus-3-title": {
+      "type": "Text",
+      "props": {
+        "text": "7 pending calibrations from HCH, WR, new traders",
+        "variant": "lead"
+      }
+    },
+    "focus-3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Why now: ambiguous signals stacking without your read",
+        "variant": "body"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-yesterday": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "stack-yesterday": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "yesterday-1",
+        "yesterday-2",
+        "yesterday-3",
+        "yesterday-4",
+        "yesterday-5"
+      ]
+    },
+    "yesterday-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday-1-badge",
+        "yesterday-1-text"
+      ]
+    },
+    "yesterday-1-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "yesterday-1-text": {
+      "type": "Text",
+      "props": {
+        "text": "Chase: MU/SNDK TP at 920/1380 — 65% closed, 35% core running",
+        "variant": "body"
+      }
+    },
+    "yesterday-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday-2-badge",
+        "yesterday-2-text"
+      ]
+    },
+    "yesterday-2-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "yesterday-2-text": {
+      "type": "Text",
+      "props": {
+        "text": "HCH: BTC/ETH/UNI/TAO/ADA shorts added across 96-min Asia session (01:50–03:29Z)",
+        "variant": "body"
+      }
+    },
+    "yesterday-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday-3-badge",
+        "yesterday-3-text"
+      ]
+    },
+    "yesterday-3-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "yesterday-3-text": {
+      "type": "Text",
+      "props": {
+        "text": "WR: SOXL 4-chart reversal confirmed; AAPL -7.8% intraday crash validated; ZEC broke 486 support",
+        "variant": "body"
+      }
+    },
+    "yesterday-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday-4-badge",
+        "yesterday-4-text"
+      ]
+    },
+    "yesterday-4-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "yesterday-4-text": {
+      "type": "Text",
+      "props": {
+        "text": "ryzzqq: SOL long stopped out at 74.2 (-1%); no Kraken mirror was live",
+        "variant": "body"
+      }
+    },
+    "yesterday-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday-5-badge",
+        "yesterday-5-text"
+      ]
+    },
+    "yesterday-5-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "new",
+        "variant": "outline"
+      }
+    },
+    "yesterday-5-text": {
+      "type": "Text",
+      "props": {
+        "text": "bull_genius: new tracked trader — contrarian HYPE/BTC long-term bullish; DCA target sub-50k BTC",
+        "variant": "body"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "stack-watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-fomc",
+        "fomc-context"
+      ]
+    },
+    "stat-fomc": {
+      "type": "Stat",
+      "props": {
+        "label": "Sep FOMC +25bps YES (Polymarket)",
+        "value": "52.5%",
+        "delta": "$426K vol"
+      }
+    },
+    "fomc-context": {
+      "type": "Text",
+      "props": {
+        "text": "Macro tailwind for HCH's short basket thesis",
+        "variant": "caption"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "stack-running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "running-1",
+        "running-2",
+        "running-3",
+        "running-4",
+        "running-5"
+      ]
+    },
+    "running-1": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 08:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running-2": {
+      "type": "Text",
+      "props": {
+        "text": "token-alert, token-movers @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running-3": {
+      "type": "Text",
+      "props": {
+        "text": "market-context-refresh @ 13:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running-4": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC",
+        "variant": "body"
+      }
+    },
+    "running-5": {
+      "type": "Text",
+      "props": {
+        "text": "skill-health @ 18:00 UTC",
+        "variant": "body"
+      }
+    }
+  }
+}
