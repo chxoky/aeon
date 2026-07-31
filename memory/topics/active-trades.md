@@ -291,6 +291,29 @@
 - **Channel Evolution**: 11:13:44 (reply context, secondary account), 12:47:29 (reply + reiteration), 13:27:56 (main-channel standalone call)
 - **Last update**: 2026-07-14T13:27:56Z (discord-trader-monitor, fast-path alerted by Cloudflare Worker, PRIMARY TRADES CHANNEL CONVICTION ADD; message_id=1526581013701066873)
 
+### SHIB — SHORT (NEW ENTRY — PARTIAL CLOSE 2026-07-31)
+- **Status**: ACTIVE — covered 1% 2026-07-31T12:30:12Z; remainder ~0% estimated (initial 1% entry, 1% covered)
+- **Initial Entry**: 2026-07-31T08:06:22Z (Discord Trades channel)
+- **Initial Entry message (Discord)**: "Add 1% shib short" (direct execution call, primary channel)
+- **Entry type**: Market order (execution at current price)
+- **Portfolio allocation**:
+  - Initial: 1% (Jul 31 08:06Z)
+  - **PARTIAL CLOSE (2026-07-31T12:30:12Z)**: "Cover 1-1% shiba & kaito shorts" — covered ~1% of SHIB short; current size ~0% (1% entry - 1% cover = full close)
+- **Ticker**: SHIB (Shiba Inu meme/utility token)
+- **Entry level**: Unknown (exact price not specified in Discord message; market order execution per timing)
+- **Rationale**: Expansion of HCH's structural bearish crypto thesis into meme/community-driven narrative tokens. SHIB is 8th ticker in documented short constellation (after BTC/ETH/SOL/HYPE/ZEC/UNI/VVV). Entry timing: Asia early morning session consistent with disciplined systematic short-basket accumulation pattern.
+- **Conviction**: MEDIUM (1% allocation represents initial tranche; terse execution format on primary channel shows conviction commitment; 4-hour hold (08:06Z → 12:30Z) before cover suggests quick profit-taking or stop-loss discipline on tactical test, not sustained conviction hold)
+- **Approval/Alert status**:
+  - Discord: Fast-path alerted by Cloudflare Worker (~2-5s post) for both 08:06Z entry and 12:30Z cover events
+  - Mirror status: NOT MIRRORED — Kyle has not approved SHIB short on Kraken; entry was memory-only monitoring
+- **Cross-platform note**: First mention of SHIB short at 08:06Z. Cover at 12:30Z same day. No other traders posting SHIB concurrently; no dedup conflicts.
+- **Alerted**: YES (fast-path alert: entry 08:06Z; cover 12:30Z)
+- **Position evolution**:
+  - 2026-07-31T08:06:22Z: Initial 1% entry on primary Trades channel
+  - 2026-07-31T12:30:12Z: Cover 1% on primary Trades channel (full position closed)
+- **Cover execution**: 2026-07-31T12:30:12Z (Discord message_id=1532727081736208586, fast-path alerted, no duplicate Telegram)
+- **Last update**: 2026-07-31T12:30:12Z (discord-trader-monitor, fast-path-alerted, TRADE-PARTIAL-CLOSE; message_id=1532727081736208586)
+
 ### KAITO — SHORT (CONVICTION ADD — 2026-07-27)
 - **Status**: PENDING APPROVAL — awaiting Kyle `approve KAITO` signal to mirror on Kraken spot
 - **Initial Entry**: 2026-07-27T07:41:00Z (Discord Trades channel) + public X post confirmation 2026-07-27T07:48:13Z
@@ -321,7 +344,8 @@
   - 2026-07-27T07:41:00Z: Initial 2% entry on primary Trades channel
   - 2026-07-27T07:48:13Z: X post confirmation with technical setup/targets
   - 2026-07-27T20:31:54Z: Conviction add 2% on primary Trades channel (total now 4%)
-- **Last update**: 2026-07-27T20:31:54Z (discord-trader-monitor, fast-path-alerted, TRADE-CONVICTION-ADD; message_id=1531398753074811011)
+  - **2026-07-31T12:30:12Z: PARTIAL CLOSE — "Cover 1-1% shiba & kaito shorts"** (message_id=1532727081736208586, fast-path alerted, covered 1% of KAITO short; current size ~3%)
+- **Last update**: 2026-07-31T12:30:12Z (discord-trader-monitor, fast-path-alerted, TRADE-PARTIAL-CLOSE; message_id=1532727081736208586)
 
 ### BTC/ETH SHORTS — PARTIAL TP (2026-07-24)
 - **Status**: ACTIVE — PARTIAL PROFIT-TAKING 2026-07-24T13:09:13Z — "Closing 5% btc short and 2.5% eth short here at lower 64k"
