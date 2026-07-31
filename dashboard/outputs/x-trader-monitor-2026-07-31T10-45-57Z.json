@@ -1,0 +1,33 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "link_view"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "The scene is just as dry as it was when we were at 16K last cycle.\n\nBored beyond disbelief & I know you all feel the same.\n\nWe are close, $BTC"
+      },
+      "children": []
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/KillaXBT/status/2083140608625955139"
+      },
+      "children": []
+    }
+  }
+}

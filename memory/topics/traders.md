@@ -189,3 +189,14 @@
 - **Events (rolling):**
   - Jul 31 09:16Z — informational: BTC market structure observation; 1h chart showing choppy/ranging behavior with volume profile + liquidity zones; commentary on scalper advantage in chop vs retail hold philosophy; general advice: hold spot + watch onchain > try to scalp technical chop; sentiment: choppy environment validates patience (await exceptional deal) [2083119643611267409]
   - Jul 31 09:08Z — informational: BTC market analysis (daily + hourly charts); lowest-confidence zone identification; price levels (75k shorts zone, 57k weak-low, 90d rvwap, 75k yearly VAH); August historical weakness + exceptional deal patience; multi-timeframe technical structure; strategy (let perps chill, explore onchain); sentiment (personally not betting much on BTC LTF) [2083117525907243428]
+
+## KillaXBT
+
+- Platforms: X (primary; dual-platform, Discord presence documented in discord-channels.json primary channel 1411492188315193416 labeled "K", currently X-monitored only)
+- Current open positions: Unknown (first tracked event, no position data)
+- Recent thesis: BTC macro sentiment; market condition commentary (volatility/cycle phase observation)
+- Conviction notes: Early-stage tracking. Jul 31 10:39Z post reflects macro sentiment on current market dryness ("dry as 16K cycle") + expectation of imminent move ("we are close"). Suggests bullish bias expecting relief rally or volatility breakout after consolidation/choppy period. X-primary posting pattern (no Discord activity detected in memory yet).
+- Calibration: None pending.
+- Last seen: 2026-07-31T10:39:58Z (X post BTC macro sentiment)
+- **Events (rolling):**
+  - Jul 31 10:39Z — informational: BTC macro sentiment post; market dryness commentary ("as dry as it was when we were at 16K last cycle", "bored beyond disbelief"); expectation of imminent move ("we are close, $BTC"); sentiment reflects macro bullish bias on cycle stage + upcoming volatility/relief expectation [2083140608625955139]
