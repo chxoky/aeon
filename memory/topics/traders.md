@@ -57,9 +57,12 @@
   - Jul 31 08:31Z — informational: "You see that alert? We tagged it to the tick this morning and reversed immediately" (Discord primary Free channel; commentary on completed trade reversal executed this morning; reply to own message; fast-path did not alert) [1532667023048314910]
   - Jul 31 08:12Z — ambiguous: "House of heart has no emotion" + t.co link (cryptic philosophical/poetic text; no financial signal in text alone; URL not fetchable in real-time context; calibration alert sent) [2083103387948880073]
 - **Last seen**: 2026-07-31T08:13:59Z (X post cryptic personal statement)
+- **Last seen**: 2026-07-31T08:31:02Z (X post with execution proof — 6 images validating 20% BTC cover + technical accuracy; silent dedup vs Discord 01:52Z alert)
 - **Events (recent):**
+  - Jul 31 08:31Z — cross-platform-dedup (X reiteration): "Did exactly what I said I was going to do" (6 images showing Discord cover conversation 01:52Z, BTC/SNDK 5m technical precision, Blofin ETH +14.78%, BTC +20.2% proof; execution validation; no alert sent — already alerted Discord path 01:52Z; conviction weight +1) [2083108162534871150]
   - Jul 31 08:13Z — skip: "@0xPonzito House of heart has no emotion" (reply to @0xPonzito, personal statement, non-financial) [2083103868494471435]
-  - Jul 31 08:06Z — trade-conviction-add: "Add 1% tao short" (TAO expansion; fast-path alerted by Worker, no duplicate Telegram) [1532660642639515750]
+  - Jul 31 08:12Z — ambiguous: "House of heart has no emotion" + t.co link (cryptic philosophical/poetic text; calibration alert sent) [2083103387948880073]
+  - Jul 31 08:06Z — trade-conviction-add: "Add 1% tao short" (TAO expansion; fast-path alerted by Worker) [1532660642639515750]
 - **Last seen**: 2026-07-31T08:06:22Z (Discord primary Trades channel, SHIB short conviction add)
 - **Events (recent):**
   - Jul 31 08:06Z — trade-conviction-add: "Add 1% shib short" (SHIB expansion of bearish crypto thesis; new ticker for HCH short constellation; fast-path alerted by Worker, no duplicate Telegram) [1532660682921611274]
