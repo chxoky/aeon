@@ -1,0 +1,56 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-card",
+        "separator",
+        "alignment-section"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "Would be peak irony if the people who ignored the 4 year cycle at the top end up using it to call the bottom, only for it to stop working. Then again, it'd be just as ironic if I ignore it and we end up putting in the major low in Q4. 😅\n\nSooner or later, we're all gonna find out, fellas.\n\nAll that matters is you have exposure to $BTC at these levels 1-2 years from now."
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alignment-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alignment-text",
+        "view-tweet-link"
+      ]
+    },
+    "alignment-text": {
+      "type": "Text",
+      "props": {
+        "text": "Aligns with KillaXBT's documented HTF bullish thesis (bear cycle ~80% complete) and group structural bullish lean (bull_genius DCA, Bitcoin_Astro confluence validation).",
+        "variant": "body"
+      }
+    },
+    "view-tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2083265184647266624"
+      }
+    }
+  }
+}
