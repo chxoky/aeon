@@ -1,0 +1,23 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "post"
+      ]
+    },
+    "post": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Chase",
+        "handle": "DC: Chase",
+        "text": "💬 Today's winner, DM me"
+      }
+    }
+  }
+}
