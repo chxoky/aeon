@@ -1,13 +1,8 @@
-## Summary
+🔍 *Calibration — [DC: HCH — Chat]*
 
-**Discord Trader Monitor — Real-Time Event Processed**
+Event: Supporting channel premium member chat context — prior message at 12:44Z: "Lately having both L&S is part of risk management"
 
-**Message Details:**
-- **Trader:** HeartCanHodl
-- **Channel:** HCH — Chat (supporting/premium member channel)
-- **Message:** "Lately having both L&S is part of risk management"
-- **Timestamp:** 2026-07-31T12:44:53.397Z
-- **Message ID:** 1532730774481277048
+HeartCanHodl: "We hedge"
 
 **Classification:** Informational (supporting-channel explanatory context)
 
@@ -25,3 +20,4 @@ Supporting channel context: HCH message without explicit trade action.
 HCH: "Sizing low helps there"
 
 Unable to classify — what's your read? (Sizing strategy? Technical level reference? Context-dependent phrase?)
+Unable to classify — what's your read?
