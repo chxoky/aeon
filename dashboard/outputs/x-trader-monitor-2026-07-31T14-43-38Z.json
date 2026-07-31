@@ -1,0 +1,145 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X-Trader Monitor: BTC Options/Perps Setup"
+      },
+      "children": [
+        "badge-calibration",
+        "event-type",
+        "separator-1",
+        "trader-message",
+        "separator-2",
+        "metrics-section",
+        "separator-3",
+        "prediction-section",
+        "separator-4",
+        "alert-clarification"
+      ]
+    },
+    "badge-calibration": {
+      "type": "Badge",
+      "props": {
+        "text": "Calibration @KillaXBT",
+        "variant": "outline"
+      }
+    },
+    "event-type": {
+      "type": "Heading",
+      "props": {
+        "text": "New monthly BTC options/perps setup announced",
+        "level": "h3"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "trader-message": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "$BTC — Come get me, my invalidation sits at 31K. Looks like everyone's gambling on prices 15% away. I'll post the outcome either way, PnL at 160K, or loss at 30K. No deleting. Let the games begin. New monthly open + August approaching."
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "metrics-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-pnl",
+        "stat-loss",
+        "stat-invalidation",
+        "stat-price-range"
+      ]
+    },
+    "stat-pnl": {
+      "type": "Stat",
+      "props": {
+        "label": "Target PnL",
+        "value": "$160K"
+      }
+    },
+    "stat-loss": {
+      "type": "Stat",
+      "props": {
+        "label": "Loss at",
+        "value": "$30K"
+      }
+    },
+    "stat-invalidation": {
+      "type": "Stat",
+      "props": {
+        "label": "Invalidation",
+        "value": "$31K"
+      }
+    },
+    "stat-price-range": {
+      "type": "Stat",
+      "props": {
+        "label": "Price Range Target",
+        "value": "+15%"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "prediction-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "prediction-heading",
+        "kalshi-prediction"
+      ]
+    },
+    "prediction-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Kalshi Prediction",
+        "level": "h4"
+      }
+    },
+    "kalshi-prediction": {
+      "type": "Progress",
+      "props": {
+        "value": 60,
+        "max": 100,
+        "label": "BTC hits $50K before $100K"
+      }
+    },
+    "separator-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert-clarification": {
+      "type": "Alert",
+      "props": {
+        "title": "Position Classification Needed",
+        "message": "Unable to classify exact position — is this a short or long? Options or perps? Please clarify whether to mirror and at what size.",
+        "type": "warning"
+      }
+    }
+  }
+}
