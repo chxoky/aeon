@@ -1,0 +1,132 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_attrib",
+        "sep1",
+        "alert_main",
+        "stats_grid",
+        "sep2",
+        "story_link"
+      ]
+    },
+    "tweet_attrib": {
+      "type": "Text",
+      "props": {
+        "text": "🐦 X @Wild_Randomness",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert_main": {
+      "type": "Alert",
+      "props": {
+        "title": "Market Structure Alert",
+        "message": "Large-cap indices rallying while small-caps rolling over.",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "stats_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat_spy",
+        "stat_dia",
+        "stat_qqq",
+        "stat_iwm_stack"
+      ]
+    },
+    "stat_spy": {
+      "type": "Stat",
+      "props": {
+        "label": "SPY",
+        "value": "746.77",
+        "delta": "+0.68%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat_dia": {
+      "type": "Stat",
+      "props": {
+        "label": "DIA",
+        "value": "524.26",
+        "delta": "+0.53%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat_qqq": {
+      "type": "Stat",
+      "props": {
+        "label": "QQQ",
+        "value": "687.93",
+        "delta": "+0.64%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat_iwm_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_iwm",
+        "note_divergence"
+      ]
+    },
+    "stat_iwm": {
+      "type": "Stat",
+      "props": {
+        "label": "IWM",
+        "value": "291.17",
+        "delta": "-0.49%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "note_divergence": {
+      "type": "Text",
+      "props": {
+        "text": "← breadth divergence",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "story_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2083296830738272549",
+        "source": "X / @Wild_Randomness"
+      },
+      "children": []
+    }
+  }
+}

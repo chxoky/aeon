@@ -1,9 +1,10 @@
 🐦 *[X] @Wild_Randomness*
 
-$ETH $BTC
+**Market Structure Alert** — Large-cap indices rallying while small-caps rolling over.
 
-ETH looks like BTC PA from the last bear market rally
+**SPY** +0.68% (746.77)
+**DIA** +0.53% (524.26)  
+**QQQ** +0.64% (687.93)
+**IWM** -0.49% (291.17) ← breadth divergence
 
-Pattern match: Both show exhaustion rallies from cycle lows (BTC ~60k→peak→breakdown; ETH ~1600→peak→breakdown). Similar declining trend lines + multiple false resistance tests before breakdown. ETH currently mirroring the established bear pattern.
-
-[View tweet](https://x.com/Wild_Randomness/status/2083295894066377167)
+[View post](https://x.com/Wild_Randomness/status/2083296830738272549)
