@@ -1,11 +1,12 @@
 ## Crypto_Chase
 
 - Platforms: Discord (primary: 1336082716063694962; supporting: 1343971265962049597, 1247927786681794601)
-- Current open positions: SNDK (partial TP 7/30 afterhours), MU (position active, partial agreement on direction)
-- Recent thesis: Semis breakout play (SNDK, MU); high conviction on execution quality; sector momentum driven
-- Conviction notes: Disciplined profit-taking (TP'd quarter position 7/30 22:08Z on SNDK); respects execution quality ("SNDK traded borderline perfectly")
-- Last seen: 2026-07-30T23:55:05Z (Discord supporting channel commentary)
+- Current open positions: SNDK (65% closed as of 7/31 01:04Z), MU (65% closed as of 7/31 01:04Z)
+- Recent thesis: Semis breakout play (SNDK, MU); high conviction on execution quality; tiered profit-taking discipline
+- Conviction notes: Disciplined tiered profit-taking across both positions; trim executions at technical price levels (MU 920, SNDK 1380); 65% cumulative close on both signals capital preservation + core remainder run
+- Last seen: 2026-07-31T01:04:40Z (Discord primary channel trim execution)
 - **Events (rolling):**
+  - Jul 31 01:04Z — trade-partial-tp: "Trim MU here at 920, SNDK here at 1380, 65% closed on both" (partial TP execution on both semis positions; cumulative 65% closed on each, core 35% held to run; fast-path alerted by Worker, no duplicate Telegram) [1532554559694831758]
   - Jul 30 23:55Z — informational-supporting: "SNDK traded borderline perfectly , I can agree with you on MU a bit" (commentary on past SNDK execution quality + partial agreement on MU direction; supporting channel, no alert; follow-up to primary Jul 30 22:08Z TP) [1532537046823080167]
   - Jul 30 16:39Z — ambiguous: reply to @Sokio8D "deFi summer gas but prices are down 99% from what they used to be"; cryptic ref, unclear what asset is down 99%, calibration pending [20828687176842078500]
   - Jul 26 15:52Z — informational: free trading education course curriculum; no personal trade action [2081407289873822086]
