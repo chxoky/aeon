@@ -1,0 +1,57 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge",
+        "link",
+        "stat",
+        "chart_note"
+      ]
+    },
+    "badge": {
+      "type": "Badge",
+      "props": {
+        "text": "💬 DC: HCH — Free",
+        "variant": "default"
+      }
+    },
+    "link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "X Post",
+        "href": "https://x.com/i/status/2083057544575262967",
+        "source": "X"
+      }
+    },
+    "stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Coverage before dump",
+        "value": "75%"
+      }
+    },
+    "chart_note": {
+      "type": "Text",
+      "props": {
+        "text": "Chart: BTC entry validation + market dump proof",
+        "variant": "caption"
+      }
+    }
+  }
+}
