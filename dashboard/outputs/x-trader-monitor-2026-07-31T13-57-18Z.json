@@ -1,0 +1,52 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweetcard",
+        "link",
+        "followup"
+      ]
+    },
+    "tweetcard": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "And the vol market is asleep (Just like it was at 82k)"
+      },
+      "children": []
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2083189263789871193"
+      },
+      "children": []
+    },
+    "followup": {
+      "type": "Text",
+      "props": {
+        "text": "Vol consolidation confirmed in DVOL charts (34.89, -1.86%); aligns with Stoiiic's 07:00Z observation—compression phase noted by multiple traders.",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
