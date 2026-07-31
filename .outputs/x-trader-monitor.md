@@ -7,3 +7,4 @@ _Entry at 01:09Z was pending approval for Kraken mirror — no position to close
 Market observation: trader notes range consolidation + 'weird flow on btc'
 
 [View post](https://x.com/ryzzqq/status/2083014661935620319)
+🔍 *Calibration — @ryzzqq* — Context for pending SOL trade — See attached

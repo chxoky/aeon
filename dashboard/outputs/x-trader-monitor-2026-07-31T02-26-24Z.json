@@ -1,0 +1,22 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "text-content"
+      ]
+    },
+    "text-content": {
+      "type": "Text",
+      "props": {
+        "text": "🔍 *Calibration — @ryzzqq* — Context for pending SOL trade — See attached",
+        "variant": "body"
+      }
+    }
+  }
+}
