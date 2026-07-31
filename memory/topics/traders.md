@@ -53,8 +53,10 @@
 
 ## HeartCanHodl
 
-- **Last seen**: 2026-07-31T12:29:43Z (Discord primary Trades channel partial short close)
+- **Last seen**: 2026-07-31T12:47:09Z (Discord supporting Chat channel ambiguous message)
 - **Events (recent):**
+  - Jul 31 12:47Z — ambiguous: "Sizing low helps there" (supporting channel message, cryptic reference; no explicit ticker/position/level stated; calibration alert sent) [1532731346588405931]
+  - Jul 31 12:30Z — trade-partial-close: "Cover 1-1% shiba & kaito shorts" (closing 1-1% of SHIB short position from Jul 31 08:06Z entry + 1-1% of KAITO short from Jul 27 07:41Z/20:31Z builds; partial profit-taking across both positions; fast-path alerted, no duplicate Telegram by skill) [1532727081736208586]
   - Jul 31 12:29Z — trade-partial-tp: "Cover 2-2-2% hype-sol-zec shorts" (partial close: HYPE -2%, SOL -2%, ZEC -2%; disciplined profit-taking on alt short positions; fast-path alerted by Worker, no duplicate Telegram) [1532726959908327526]
 - **Last seen**: 2026-07-31T12:30:12Z (Discord primary Trades channel SHIB/KAITO short cover)
 - **Events (recent):**

@@ -1,0 +1,87 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor — Calibration"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading",
+        "context_label",
+        "context_note",
+        "sep1",
+        "message_card",
+        "sep2",
+        "classification_alert",
+        "interpretation_options"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — DC: HCH — Chat",
+        "level": "h3"
+      }
+    },
+    "context_label": {
+      "type": "Text",
+      "props": {
+        "text": "Supporting channel context:",
+        "variant": "lead"
+      }
+    },
+    "context_note": {
+      "type": "Text",
+      "props": {
+        "text": "HCH message without explicit trade action.",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HCH",
+        "text": "Sizing low helps there"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to Classify",
+        "message": "What's your read?",
+        "type": "info"
+      }
+    },
+    "interpretation_options": {
+      "type": "Text",
+      "props": {
+        "text": "Sizing strategy? Technical level reference? Context-dependent phrase?",
+        "variant": "caption"
+      }
+    }
+  }
+}

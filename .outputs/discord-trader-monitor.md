@@ -18,3 +18,10 @@
 - **Daily log entry** created at 2026-07-31.md documenting classification, protocol, and context
 
 **Rationale:** This is a supporting-channel (premium member chat) message explaining HCH's risk management philosophy in response to recent short cover trades (12:29Z, 12:30Z). Per SKILL protocol: supporting-channel messages do NOT receive standalone alerts. Instead, when there's a related primary-channel message on the same topic (the covers), context is folded in as explanatory footnote rather than as duplicate event. No trade signal, no actionable intelligence — just HCH clarifying his strategy.
+🔍 *Calibration — [DC: HCH — Chat]*
+
+Supporting channel context: HCH message without explicit trade action.
+
+HCH: "Sizing low helps there"
+
+Unable to classify — what's your read? (Sizing strategy? Technical level reference? Context-dependent phrase?)
