@@ -1,0 +1,118 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "separator_1",
+        "metrics_section",
+        "separator_2",
+        "link_section"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "@HeartCanHodl",
+        "text": "Engagement was up noticeably this week compared to last. The group keeps growing and the discussions are getting a lot sharper. It's just another sign that the dynamic is shifting. Crypto-native traders aren't just reacting to macro headlines anymore; they're actually participating with volumes on tokenised stocks, driving the broader market conversation & narratives.\n\nMarkets evolves, yes! and so do the people trading them. Still early."
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "metrics_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "metrics_heading",
+        "metrics_grid"
+      ]
+    },
+    "metrics_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Supporting metrics",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "metrics_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat_impressions",
+        "stat_engagements",
+        "stat_profile_visits",
+        "stat_bookmarks"
+      ]
+    },
+    "stat_impressions": {
+      "type": "Stat",
+      "props": {
+        "label": "Impressions",
+        "value": "↑153%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat_engagements": {
+      "type": "Stat",
+      "props": {
+        "label": "Engagements",
+        "value": "↑188%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat_profile_visits": {
+      "type": "Stat",
+      "props": {
+        "label": "Profile visits",
+        "value": "↑281%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat_bookmarks": {
+      "type": "Stat",
+      "props": {
+        "label": "Bookmarks",
+        "value": "↑800%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link_section": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/HeartCanHodl/status/2083146383654330603"
+      },
+      "children": []
+    }
+  }
+}
