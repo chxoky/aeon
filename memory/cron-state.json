@@ -47,8 +47,8 @@
     "last_quality_score": 4
   },
   "market-context-refresh": {
-    "last_dispatch": "2026-07-29T14:26:51Z",
-    "last_status": "success",
+    "last_dispatch": "2026-07-31T14:37:04Z",
+    "last_status": "dispatched",
     "last_success": "2026-07-31T07:45:23Z",
     "total_runs": 28,
     "total_successes": 28,
@@ -58,8 +58,8 @@
     "last_quality_score": 4
   },
   "narrative-tracker": {
-    "last_dispatch": "2026-07-29T14:26:51Z",
-    "last_status": "success",
+    "last_dispatch": "2026-07-31T14:37:04Z",
+    "last_status": "dispatched",
     "last_success": "2026-07-29T14:35:36Z",
     "total_runs": 17,
     "total_successes": 17,
@@ -68,8 +68,8 @@
     "success_rate": 1
   },
   "heartbeat": {
-    "last_dispatch": "2026-07-30T20:46:56Z",
-    "last_status": "success",
+    "last_dispatch": "2026-07-31T14:37:04Z",
+    "last_status": "dispatched",
     "last_success": "2026-07-30T20:51:13Z",
     "total_runs": 53,
     "total_successes": 53,
