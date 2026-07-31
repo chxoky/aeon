@@ -1,0 +1,123 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 x-trader-monitor",
+        "description": "Market monitoring and social sentiment analysis"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_calibration",
+        "text_event",
+        "sep1",
+        "heading_quote",
+        "tweetcard_main",
+        "sep2",
+        "heading_media",
+        "text_media_item1",
+        "text_media_item2",
+        "sep3",
+        "alert_clarification"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration — @Wild_Randomness",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Market commentary on yields and weekly breakout (context unclear)",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_quote": {
+      "type": "Heading",
+      "props": {
+        "text": "Commentary",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "tweetcard_main": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Who was bidding those yields to tamp down that weekly breakout?"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_media": {
+      "type": "Heading",
+      "props": {
+        "text": "Media (2 items)",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text_media_item1": {
+      "type": "Text",
+      "props": {
+        "text": "1. Meme — unable to parse",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_media_item2": {
+      "type": "Text",
+      "props": {
+        "text": "2. 404'd — unable to parse",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert_clarification": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification Unclear",
+        "message": "Unable to classify — what's your read? Is this a directional view, a technical observation, or a setup/levels post?",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}
