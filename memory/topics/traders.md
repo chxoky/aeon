@@ -77,6 +77,9 @@
 - **Events (recent):**
   - Jul 31 15:46Z — ambiguous: "Oh. Wow" (supporting channel "HCH — Chat"; cryptic two-word exclamation with no context; no personal action stated; no ticker/position referenced; calibration alert sent) [1532776482789654568]
   - Jul 31 15:24Z — trade-partial-close: "Cover half kaito shorts" (primary Trades channel; closing 50% of active KAITO short position from prior Jul 27 entries; estimated ~1.5% of portfolio reduction; continued disciplined profit-taking on alt-short basket following recent session TP events; fast-path alerted by Worker, no duplicate Telegram) [1532770981272354986]
+- **Last seen**: 2026-07-31T15:45:58Z (X post cross-platform commentary on position closures)
+- **Events (recent):**
+  - Jul 31 15:45Z — cross-platform-dedup (X commentary): "A lot of you on CT with influence have forced my hand to close some crypto positions" (vague X post explaining rationale for positions already closed on Discord 14:27Z/15:23Z/15:24Z; no new ticker/price/action detail; mechanical repeat; silent log, no alert) [2083217615594602567]
   - Jul 31 15:23Z — trade-partial-close: "Cover tao shorts" (primary Trades channel; closing short position on TAO from prior 02:21Z + 08:06Z conviction adds [~2% combined]; de-risking from bearish alt-thesis micro-cap position; timing 16min after SOL long add suggests coordinated rebalancing toward net-long setup; fast-path alerted by Worker, no duplicate Telegram) [1532770622684532756]
 - **Last seen**: 2026-07-31T15:24:39Z (Discord primary Trades channel KAITO short cover)
 - **Events (recent):**
