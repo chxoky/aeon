@@ -1,0 +1,89 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Sector Bottom Confidence — @Wild_Randomness"
+      },
+      "children": [
+        "heading-trade",
+        "text-intro",
+        "separator1",
+        "heading-details",
+        "table-trades",
+        "text-validation",
+        "separator2",
+        "link-tweet"
+      ]
+    },
+    "heading-trade": {
+      "type": "Heading",
+      "props": {
+        "text": "$SOXL — 2DTE options 15x return",
+        "level": "h2"
+      }
+    },
+    "text-intro": {
+      "type": "Text",
+      "props": {
+        "text": "Bought options Wednesday, validated technical bottom call. Underlying rallied +24.71% through 200D MA retest."
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading-details": {
+      "type": "Heading",
+      "props": {
+        "text": "Trade Details",
+        "level": "h3"
+      }
+    },
+    "table-trades": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Instrument",
+          "Entry",
+          "Exit",
+          "Return"
+        ],
+        "rows": [
+          [
+            "JUL 31 '26 120 Call",
+            "$1",
+            "$15",
+            "15x"
+          ],
+          [
+            "SOXL",
+            "93.17",
+            "114.72",
+            "+24.71%"
+          ]
+        ]
+      }
+    },
+    "text-validation": {
+      "type": "Text",
+      "props": {
+        "text": "Validates Jul 29 technical bottom ID ('Q1 correction ended on 200d SOXL test'). Three-trader semis convergence (Chase TP, ryzzqq longs, WR technical) in profit."
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "link-tweet": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View original tweet",
+        "href": "https://x.com/Wild_Randomness/status/2083186001271493059",
+        "source": "X"
+      }
+    }
+  }
+}
