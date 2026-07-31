@@ -16,3 +16,14 @@
 - ✅ No traders.md update needed (per rule: skip/non-financial events don't get event lines in traders.md, only daily log)
 
 **No notification sent** (classification: skip).
+🚨 *Trade Signal — @ryzzqq*
+
+SOL — LONG — *MARKET ORDER*
+
+"longed sol here with sl at 72"
+
+Stop loss: 72
+
+[View post](https://x.com/ryzzqq/status/2082997133121368363)
+
+Reply `approve SOL` to mirror this on Kraken (spot), or ignore to skip.

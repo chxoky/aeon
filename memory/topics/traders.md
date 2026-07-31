@@ -73,3 +73,13 @@
 - **Events (rolling):**
   - Jul 31 01:05Z — ambiguous: reply to @BigTrout300 "accelerate" cryptic (9m after order book post); meaning unclear [2082995997811356083]
   - Jul 31 00:56Z — informational: BTC Binance spot order book depth chart; highlighting unusual volume concentration at 64,000 and 63,900 levels with "reveal yourself" metaphor for hidden/emerging order blocks; market structure observation (no personal action) [2082993813115605364]
+
+## ryzzqq
+
+- Platforms: X (primary; X-only, no Discord presence)
+- Current open positions: SOL (long, SL 72, awaiting Kyle approval 2026-07-31T01:09:51Z)
+- Recent thesis: Multi-ticker discretionary trader; semis reversal longs (prior SNDK/DRAM/MU/SKHY positions), BTC small longs, ETH bearish shorts bias (looking for shorts), TAO longs (closed -3% Jul 25), LIT bearish technical
+- Conviction notes: Tactical trader with intraday/swing focus; active position management across crypto + semis. Prior DCA entries on semis (Jul 28 50% filled), conservative sizing on reversals.
+- Last seen: 2026-07-31T01:09:51Z (SOL long entry)
+- **Events (rolling):**
+  - Jul 31 01:09Z — trade-new-entry: SOL long with SL 72, awaiting Kyle approval [2082997133121368363]

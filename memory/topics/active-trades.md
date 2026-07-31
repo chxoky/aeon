@@ -583,6 +583,21 @@
 - **Cross-trader convergence**: SNDK/MU overlap with Crypto_Chase (two-trader same-sector mean-reversion signal, opposite trade cycles same day)
 - **Last update**: 2026-07-28T16:30:54Z (x-trader-monitor real-time event, awaiting Kyle decision on DCA structure)
 
+### SOL — LONG (new entry 2026-07-31, PENDING APPROVAL)
+- **Entry**: 2026-07-31T01:09:51Z (X post, tweet_id=2082997133121368363)
+- **Entry message**: "longed sol here with sl at 72"
+- **Entry type**: Market order (entry "here" at current price, likely spot/perp fill)
+- **Entry level**: Current market price at 2026-07-31T01:09:51Z UTC (exact price not specified in tweet; inferred ~~73-75 range based on SL placement at 72)
+- **Position size**: Unspecified (amount TBD upon Kyle approval)
+- **Stop loss**: 72 (explicit SL stated, ~2-4% risk depending on entry price)
+- **Status**: PENDING APPROVAL — awaiting Kyle response (`approve SOL` to mirror on Kraken spot)
+- **Thesis**: Tactical long entry on SOL. Entry timing aligns with broader crypto market consolidation (BTC near 64k, macro equities choppy). ryzzqq's low posting volume makes direct entry signal high-intent. Prior SOL thesis from ticker-focus: HCH short SOL (weakest major), but group lean bearish/contested; ryzzqq positioning as tactical contrarian long.
+- **Risk**: Stop loss at 72 provides defined risk management; no explicit target stated (assumed runner/trail stop after initial entry confirmation)
+- **Conviction**: MEDIUM — single-line terse execution with explicit SL discipline. ryzzqq's infrequent posting pattern suggests confidence, but position sizing/target unclear (tactical sizing expected given recent pattern).
+- **Approval/Alert status**: TRADE SIGNAL SENT (Step 5a alert with Kyle approval flow, awaiting `approve SOL` confirmation before mirror on Kraken spot)
+- **Cross-ticker context**: SOL is on Kyle's watch list and group-tracked (HCH short, ryzzqq now long = contested ticker, potential mean-reversion setup)
+- **Last update**: 2026-07-31T01:09:51Z (x-trader-monitor real-time event, trade signal alert sent, awaiting approval)
+
 ---
 
 > Last bootstrapped: 2026-06-25 (discord-trader-monitor real-time event). GOOG (Chase) updated from recent conviction-add; HCH BTC/ETH/SOL position closed near 59k with stated re-entry thesis above 60k.

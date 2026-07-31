@@ -1,0 +1,90 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Trade Signal — @ryzzqq"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stack_badges",
+        "text_asset",
+        "text_quote",
+        "stat_stoploss",
+        "link_post",
+        "alert_action"
+      ]
+    },
+    "stack_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_long",
+        "badge_market"
+      ]
+    },
+    "badge_long": {
+      "type": "Badge",
+      "props": {
+        "text": "LONG",
+        "variant": "default"
+      }
+    },
+    "badge_market": {
+      "type": "Badge",
+      "props": {
+        "text": "MARKET ORDER",
+        "variant": "secondary"
+      }
+    },
+    "text_asset": {
+      "type": "Text",
+      "props": {
+        "text": "SOL",
+        "variant": "lead"
+      }
+    },
+    "text_quote": {
+      "type": "Text",
+      "props": {
+        "text": "longed sol here with sl at 72",
+        "variant": "body"
+      }
+    },
+    "stat_stoploss": {
+      "type": "Stat",
+      "props": {
+        "label": "Stop Loss",
+        "value": "72"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/ryzzqq/status/2082997133121368363"
+      }
+    },
+    "alert_action": {
+      "type": "Alert",
+      "props": {
+        "message": "Reply `approve SOL` to mirror this on Kraken (spot), or ignore to skip.",
+        "type": "info"
+      }
+    }
+  }
+}
