@@ -385,6 +385,20 @@
 - **Approval/Alert status**: FAST-PATH ALERTED (Telegram already sent by Worker for all five events Jul 16/21/29 06:54Z/29 14:14Z/31 02:17Z); no duplicate sends by skill. Await Kyle signal on whether to mirror UNI short on Kraken (cumulative 6% allocation) or monitor as memory-only entry.
 - **Last update**: 2026-07-31T02:17:40Z (discord-trader-monitor, fast-path alerted, TRADE-CONVICTION-ADD; message_id=1532572928795869335, magnitude escalation to 2%)
 
+### ADA — SHORT (NEW ENTRY — CONVICTION ADD 2026-07-31)
+- **Status**: ACTIVE — trade-conviction-add 2026-07-31T03:29:13Z
+- **Entry**: 2026-07-31T03:29:13Z — "Add 1% ada short"
+- **Ticker**: ADA (Cardano protocol token)
+- **Position size**: 1% portfolio allocation
+- **Entry type**: Direct execution call on primary Trades channel
+- **Channel**: 1279738718680256553 (HCH — Trades, ★most important)
+- **Context**: NEW TICKER for HCH's active short basket (first documented HCH mention on 2026-07-31). Entry continues macro crypto bearish positioning expansion. ADA represents Proof-of-Stake L1 blockchain token within broader bearish thesis. Terse execution format consistent with documented conviction-add pattern ("Add 1% ada short" matches prior protocol calls). **FAST-PATH ALERTED** by Cloudflare Worker ~2-5s after event (2026-07-31T03:29:13Z); per skill Step 2 fast-path protocol, Telegram already sent to Kyle, memory-only processing applied (no duplicate notification).
+- **Cross-platform context**: swarmister mentioned ADA technical setup Jul 22 (long zone interest at 0.1685–0.17, informational). HCH's short entry represents CROSS-DIRECTION DIVERGENCE (swarmister structural long interest vs. HCH bearish conviction short). First HCH personal action on ADA ticker; tracked as new short constellation expansion rather than dedup.
+- **Thesis**: Continuation of structural bearish crypto thesis into layer-1 blockchain protocol tokens. ADA enters as ninth ticker in HCH's documented short constellation (after BTC/ETH/SOL/HYPE/ZEC/UNI/VVV/KAITO). Entry timing: early Asia session (03:29 UTC = Asian market overlap), suggesting overnight price action validation or pre-planned systematic accumulation pattern continuation. Portfolio allocation trajectory: HCH previously achieved ~45-50% short-basket milestone (Jul 31 02:17Z post-UNI 2% add), now adding ADA as incremental 1% allocation → estimated current total ~46-51% short-basket allocation.
+- **Conviction**: MEDIUM (1% allocation represents smaller tier-3 conviction vs. tier-1 tickers ETH/SOL/UNI at 2%+ and tier-2 tickers VVV/KAITO at 2%. However, timing pattern (post-UNI add by ~1.5 hrs) and early-Asia execution suggest disciplined systematic short-basket expansion into new trading week rather than reactive entry. Direct primary channel execution shows conviction commitment; 1% sizing suggests either (a) initial tranche with planned conviction adds pending price validation, or (b) lower-conviction peripheral token within broader bearish framework).
+- **Approval/Alert status**: FAST-PATH ALERTED (Telegram already sent by Cloudflare Worker); no duplicate send by skill. Await Kyle signal on whether to mirror ADA short on Kraken or monitor as memory-only entry.
+- **Last update**: 2026-07-31T03:29:13Z (discord-trader-monitor, fast-path alerted, TRADE-CONVICTION-ADD; message_id=1532590935144141001)
+
 ### VVV — SHORT (NEW ENTRY — CONVICTION ADD 2026-07-19)
 - **Status**: ACTIVE — trade-conviction-add 2026-07-19T02:08:23Z
 - **Entry**: 2026-07-19T02:08:23Z — "Add 2% vvv short"
