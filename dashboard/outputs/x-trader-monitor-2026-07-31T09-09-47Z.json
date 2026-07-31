@@ -1,0 +1,54 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @HeartCanHodl"
+      },
+      "children": [
+        "event_text",
+        "separator_1",
+        "tweet_card",
+        "separator_2",
+        "analysis_alert"
+      ]
+    },
+    "event_text": {
+      "type": "Text",
+      "props": {
+        "text": "Event: ~28 min after HCH's last X post (08:44Z execution proof on semis perp gains), during active short-basket scaling session (added SHIB/ADA/TAO shorts Jul 31 03:29Z–08:06Z)",
+        "variant": "body"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "@iam4x Ouch"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_alert": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "title": "Unable to classify",
+        "message": "Single-word reply, cryptic context. Market reaction on shorts validating thesis, or social comment on @iam4x's position? What's your read?"
+      }
+    }
+  }
+}
