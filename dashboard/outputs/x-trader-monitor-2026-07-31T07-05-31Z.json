@@ -1,0 +1,33 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet_card",
+        "tweet_link"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "Stoiiic",
+        "text": "$BTC H4 technical breakdown: 7D & 30D VWAP compressing (volatility on horizon). 65k reclaim as interim pivot for upside; watch for unravel into ~60 if loses 30D + previous week low. Order book note: 1.3k BTC buy wall at 64 flat on Binance spot."
+      },
+      "children": []
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Stoiiic/status/2083085256932884484"
+      },
+      "children": []
+    }
+  }
+}
