@@ -1,0 +1,106 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "AAPL technical reinforcement and short position status"
+      },
+      "children": [
+        "tweet-card",
+        "separator-1",
+        "trade-details",
+        "separator-2",
+        "post-link"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "(He doesn't know that the stock is topped out)\n\nAAPL technical reinforcement: meme-format conviction expression on existing short position (Jul 28 entry $341–$342 w/ Oct $300 puts). Intraday momentum validates: -7.8% crash from $339 → $305 on Jul 30. Tim Cook image (skeptical expression) frames sarcastic certainty on top being in. Existing cross-trader AAPL convergence: HCH structural short thesis + WR personal short execution. No new trade action required."
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "trade-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "details-heading",
+        "entry-stat",
+        "current-stat",
+        "crash-stat",
+        "exit-stat",
+        "date-text"
+      ]
+    },
+    "details-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Trade Details",
+        "level": "h3"
+      }
+    },
+    "entry-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Entry Price",
+        "value": "$341–$342"
+      }
+    },
+    "current-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Current Price (Jul 30)",
+        "value": "$305"
+      }
+    },
+    "crash-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Intraday Crash",
+        "value": "-7.8%",
+        "trend": "down"
+      }
+    },
+    "exit-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "October Put Target",
+        "value": "$300"
+      }
+    },
+    "date-text": {
+      "type": "Text",
+      "props": {
+        "text": "Entry: Jul 28 | Crash realized: Jul 30",
+        "variant": "caption"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "post-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2083178090893889835",
+        "source": "X"
+      }
+    }
+  }
+}
