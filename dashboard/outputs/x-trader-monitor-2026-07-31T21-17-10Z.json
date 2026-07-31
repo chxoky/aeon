@@ -1,0 +1,158 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "QQQ Technical Analysis"
+      },
+      "children": [
+        "tweet",
+        "sep1",
+        "tech-section",
+        "sep2",
+        "context-section",
+        "link"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "QQQ: Trying for a higher low and we'll take it from there"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tech-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tech-heading",
+        "current-stat",
+        "resistance-stat",
+        "support-row",
+        "structure-text",
+        "implication-text"
+      ]
+    },
+    "tech-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Technical Setup (4H/1D)",
+        "level": "h3"
+      }
+    },
+    "current-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "QQQ Current",
+        "value": "690.81",
+        "delta": "+1.06%",
+        "trend": "up"
+      }
+    },
+    "resistance-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Key Resistance",
+        "value": "702.14"
+      }
+    },
+    "support-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "support-stat",
+        "support-note"
+      ]
+    },
+    "support-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Key Support",
+        "value": "670.30"
+      }
+    },
+    "support-note": {
+      "type": "Badge",
+      "props": {
+        "text": "lower high test",
+        "variant": "outline"
+      }
+    },
+    "structure-text": {
+      "type": "Text",
+      "props": {
+        "text": "Structure: Consolidation bounce after monthly collapse (750→665→690)",
+        "variant": "body"
+      }
+    },
+    "implication-text": {
+      "type": "Text",
+      "props": {
+        "text": "Implication: Higher low establishment required for bullish continuation above 702.14",
+        "variant": "lead"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context-heading",
+        "context-text",
+        "pivot-text"
+      ]
+    },
+    "context-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Market Context",
+        "level": "h3"
+      }
+    },
+    "context-text": {
+      "type": "Text",
+      "props": {
+        "text": "Follows 21:00Z post on SPY/DIA/QQQ rally vs IWM weakness.",
+        "variant": "body"
+      }
+    },
+    "pivot-text": {
+      "type": "Text",
+      "props": {
+        "text": "670.30 is critical pivot for risk-off confirmation.",
+        "variant": "body"
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2083299125475549486"
+      }
+    }
+  }
+}

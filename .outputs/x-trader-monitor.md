@@ -1,11 +1,13 @@
 ## Summary
 
-**Market Structure Alert** — Large-cap indices rallying while small-caps rolling over.
+QQQ: Trying for a higher low and we'll take it from there
 
-**SPY** +0.68% (746.77)
-**DIA** +0.53% (524.26)  
-**QQQ** +0.64% (687.93)
-**IWM** -0.49% (291.17) ← breadth divergence
+Technical setup (4H/1D charts):
+- Current: 690.81 (+1.06%)
+- Key resistance: 702.14
+- Key support: 670.30 (lower high test)
+- Structure: Consolidation bounce after monthly collapse (750→665→690)
+- Implication: Higher low establishment required for bullish continuation above 702.14
 
 [View post](https://x.com/Wild_Randomness/status/2083296830738272549)
 **x-trader-monitor skill execution completed for Wild_Randomness tweet #2083297887640002660**
@@ -24,3 +26,6 @@
 **Action**: No alert sent (informational context only, not a trade signal). Updated traders.md event entry and registered tweet ID in dedup list to prevent reprocessing.
 
 **Conviction**: Macro seasonal framework adds strategic context to current session weakness in tech indices. Aligns with group macro caution on growth tickers entering August phase of midterm election year cycle.
+Market context: Follows 21:00Z post on SPY/DIA/QQQ rally vs IWM weakness. 670.30 is critical pivot for risk-off confirmation.
+
+[View tweet](https://x.com/Wild_Randomness/status/2083299125475549486)
