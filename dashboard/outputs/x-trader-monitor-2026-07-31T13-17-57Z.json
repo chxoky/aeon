@@ -1,0 +1,103 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "badge_ticker",
+        "badge_source",
+        "heading_analysis",
+        "separator_1",
+        "grid_stats",
+        "separator_2",
+        "text_thesis"
+      ]
+    },
+    "badge_ticker": {
+      "type": "Badge",
+      "props": {
+        "text": "AAPL",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "badge_source": {
+      "type": "Badge",
+      "props": {
+        "text": "Wild_Randomness",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "heading_analysis": {
+      "type": "Heading",
+      "props": {
+        "text": "Technical Chart Post Validation",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "grid_stats": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "stat_price",
+        "stat_resistance",
+        "stat_support"
+      ]
+    },
+    "stat_price": {
+      "type": "Stat",
+      "props": {
+        "label": "Current Price",
+        "value": "$249.48"
+      },
+      "children": []
+    },
+    "stat_resistance": {
+      "type": "Stat",
+      "props": {
+        "label": "Resistance",
+        "value": "$256.12"
+      },
+      "children": []
+    },
+    "stat_support": {
+      "type": "Stat",
+      "props": {
+        "label": "Support",
+        "value": "$225.41"
+      },
+      "children": []
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text_thesis": {
+      "type": "Text",
+      "props": {
+        "text": "Validates Jul 28 short thesis",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}

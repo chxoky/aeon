@@ -5,3 +5,4 @@
 _AAPL technical reinforcement: meme-format conviction expression on existing short position (Jul 28 entry $341–$342 w/ Oct $300 puts). Intraday momentum validates: -7.8% crash from $339 → $305 on Jul 30. Tim Cook image (skeptical expression) frames sarcastic certainty on top being in. Existing cross-trader AAPL convergence: HCH structural short thesis + WR personal short execution. No new trade action required._
 
 [View post](https://x.com/Wild_Randomness/status/2083178090893889835)
+Wild_Randomness AAPL technical chart post validation. Price 249.48, resistance 256.12, support 225.41. Validates Jul 28 short thesis.

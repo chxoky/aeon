@@ -28,6 +28,7 @@
 - Last seen: 2026-07-31 13:08:55 UTC
 - **Events (rolling):**
   - Jul 31 13:08Z — informational: Tim Cook meme (image: CEO portrait with sunglasses, skeptical expression) + text "(He doesn't know that the stock is topped out)" = sarcastic bearish sentiment reinforcement on AAPL short thesis; existing short position (Jul 28 $341–$342 entry, Oct $300 puts) validates intraday momentum (Jul 30 -7.8% crash $339→$305); meme-format conviction expression, not new trade action [2083178090893889835]
+  - Jul 31 13:11Z — informational: AAPL 4H technical structure chart post; price 249.48 with resistance/support levels marked (256.12 upper, 225.41 lower); validation of existing Jul 28 short thesis; vague text "special eye for Apple" but chart shows technical structure supporting bearish conviction [2083178744119021788]
   - Jul 31 06:06Z — informational: Four-year cycle lore macro commentary; 40% drawdown from current levels within reason; positioning advice (be buyer not seller at those levels); macro sentiment aligned with existing bear thesis [2083071698228912463]
   - Jul 31 05:19Z — ambiguous: Text says "$SPX $NDX Textbook" but 4 images show XYZ100 crypto perpetual technical patterns; mismatch between text tickers and image content [2083059907544545286]
   - Jul 31 04:50Z — skip: reply to @chimpcap1tal "How'd those work out" (social inquiry/banter; asking about someone else's trades, no personal action or market signal) [2083052597389492483]
