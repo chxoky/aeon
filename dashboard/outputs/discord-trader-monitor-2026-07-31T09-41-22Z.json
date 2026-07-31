@@ -1,0 +1,98 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Discord message capture"
+      },
+      "children": [
+        "header_stack",
+        "separator1",
+        "alert_chart",
+        "context_text",
+        "separator2",
+        "metadata_stack"
+      ]
+    },
+    "header_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "message_indicator",
+        "channel_badge"
+      ]
+    },
+    "message_indicator": {
+      "type": "Badge",
+      "props": {
+        "text": "💬",
+        "variant": "default"
+      }
+    },
+    "channel_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DC: HCH — Comments",
+        "variant": "outline"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_chart": {
+      "type": "Alert",
+      "props": {
+        "title": "Chart attachment",
+        "message": "Unable to interpret chart details",
+        "type": "warning"
+      }
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "Likely tactical trade analysis or technical structure commentary from HCH comments channel.",
+        "variant": "body"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "metadata_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "timestamp_text",
+        "id_text"
+      ]
+    },
+    "timestamp_text": {
+      "type": "Text",
+      "props": {
+        "text": "Sent: 2026-07-31T09:38:21Z",
+        "variant": "caption"
+      }
+    },
+    "id_text": {
+      "type": "Text",
+      "props": {
+        "text": "ID: 1532683833026154536",
+        "variant": "caption"
+      }
+    }
+  }
+}
