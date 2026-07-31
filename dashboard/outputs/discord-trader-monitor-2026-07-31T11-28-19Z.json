@@ -1,0 +1,51 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_calibration",
+        "text_hch",
+        "alert_classify"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — DC: HCH — Chat",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text_hch": {
+      "type": "Text",
+      "props": {
+        "text": "HeartCanHodl: \"True\"",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "alert_classify": {
+      "type": "Alert",
+      "props": {
+        "message": "Unable to classify — single word with no context. What's your read?",
+        "type": "warning"
+      },
+      "children": []
+    }
+  }
+}
