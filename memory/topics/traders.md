@@ -267,13 +267,14 @@
 
 ## KillaXBT
 
-- Platforms: X (primary; X-only per current tracking)
+- Platforms: X (primary) + Discord (1411492188315193416 primary "K")
 - Current open positions: BTC (HTF 2x long swing from 62.6K, 25% TP at 63.8K/62.6K Jul 18, SL at BE on remainder; spot accumulation targeting ~20 BTC over 3-4 months; small scalp short hedge 64.8K-65.8K ladder; NEW monthly options/perps setup announced Jul 31 14:39Z — awaiting clarification)
 - Recent thesis: Structural bullish BTC; bear cycle ~80% complete; accumulation range 57K-59K; already swept significant low, unlikely extended leg to 36-48K; multi-timeframe HTF long conviction with tactical hedges
 - Conviction notes: HIGH conviction on BTC structure. Multiple bear cycles show 3 significant lows; already swept current cycle low; 57K validates accumulation range base. Jul 31 12:59Z reiteration of months-old plan emphasizes patience on cycle structure. HTF 2x long + DCA scaling into weakness validates long-term bullish stance. Hedged with small scalp shorts for tactical risk management. Disciplined tiered profit-taking approach (25% TP on first bounce, remainder running).
 - Calibration: PENDING (Jul 31 14:39Z) — monthly options/perps position announced with invalidation 31K, P&L targets 160K/+30K, exact position type (long/short/calls/puts/perps) unclear; awaiting Kyle clarification for mirror decision
-- Last seen: 2026-07-31T21:48:22Z (X post technical BTC support/resistance analysis)
+- Last seen: 2026-07-31T22:25:14Z (Discord primary "K" — BTC structure observation)
 - **Events (rolling):**
+  - Jul 31 22:25Z — informational: BTC structure observation (Discord primary); searching for long into 1st/monthly open; ideally bounce into 5th pivot then push down; conditional re-entry if "nuke into 5th"; chart structure analysis; setup anticipation, no confirmed entry yet [1532876823489155253]
   - Jul 31 21:48Z — informational: BTC key support level 61-61.5K; liquidation clusters of low leverage longs below; conditional 54-56K test if local low breaks [2083308816334983317]
   - Jul 31 18:54Z — informational: BTC 4-year cycle uncertainty; macro positioning advice (maintain exposure 1-2yr horizon); aligns with HTF bullish [2083265184647266624]
   - Jul 31 17:22Z — informational: FOMC historical pattern analysis; BTC 60-61K test risk, 60K sweep scenario; 6/7 cases 4-5% drops [2083241800831992240]
