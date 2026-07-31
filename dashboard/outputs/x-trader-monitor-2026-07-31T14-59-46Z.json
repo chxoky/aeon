@@ -1,0 +1,112 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading_calib",
+        "event_line",
+        "sep1",
+        "tweet_card",
+        "sep2",
+        "analysis_stack"
+      ]
+    },
+    "heading_calib": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h2"
+      }
+    },
+    "event_line": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @nthngtosmth in market-structure posting context",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Slow burn to 260"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "classify_issue",
+        "alab_hypothesis",
+        "alab_price",
+        "alternate_asset",
+        "no_trade_action",
+        "read_question"
+      ]
+    },
+    "classify_issue": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification Issue",
+        "message": "Unable to classify — ticker/asset unclear.",
+        "type": "warning"
+      }
+    },
+    "alab_hypothesis": {
+      "type": "Text",
+      "props": {
+        "text": "Could reference ALAB with recent 200-day/ATH thesis.",
+        "variant": "body"
+      }
+    },
+    "alab_price": {
+      "type": "Stat",
+      "props": {
+        "label": "ALAB",
+        "value": "$299.69"
+      }
+    },
+    "alternate_asset": {
+      "type": "Text",
+      "props": {
+        "text": "Or different asset?",
+        "variant": "body"
+      }
+    },
+    "no_trade_action": {
+      "type": "Text",
+      "props": {
+        "text": "No personal trade action visible.",
+        "variant": "muted"
+      }
+    },
+    "read_question": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "lead"
+      }
+    }
+  }
+}
