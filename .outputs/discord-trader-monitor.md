@@ -1,39 +1,23 @@
-🔍 *Calibration — [DC: HCH — Chat]*
-
-HeartCanHodl: "True"
-
-**Actions Taken:**
-1. ✅ Decoded and validated event
-2. ✅ Resolved channel mapping (HCH — Comments, primary)
-3. ✅ Verified trader username match
-4. ✅ Classified as informational market structure commentary (not a trade action)
-5. ✅ Updated memory:
-   - Added message ID to discord-trader-seen.txt for dedup tracking
-   - Updated traders.md with event and Last Seen timestamp (11:21:42Z)
-   - Logged detailed event to memory/logs/2026-07-31.md
-
-No Telegram alert sent (Worker pre-notified Kyle via fast-path). Message processing complete per skill protocol.
 ## Summary
 
-**Skill: discord-trader-monitor executed successfully**
+**Skill: discord-trader-monitor (real-time event)**
 
-**Event Details:**
-- **Message ID:** 1532710363588722861
-- **Trader:** HeartCanHodl (heartcanhodl)
-- **Channel:** 1023638573313966212 (HCH — Chat, supporting)
-- **Timestamp:** 2026-07-31T11:23:47Z
-- **Content:** "We always have something to position upon"
+**Event processed:**
+- **Trader:** HeartCanHodl
+- **Channel:** 1472153627324842057 (HCH — Free, primary)
+- **Message ID:** 1532725384230207580
+- **Timestamp:** 2026-07-31T12:23:28Z
+- **Classification:** **Cross-platform-dedup (silent)**
 
-**Classification:** **SKIP** (motivational/philosophical fluff with no trade detail)
+**Analysis:**
+1. ✅ Message decoded successfully (base64 JSON valid)
+2. ✅ Confirmed trader/channel match (heartcanhodl on primary channel)
+3. ✅ Fast-path: false (no redundant alert blocking)
+4. ✅ Dedup check: This message links to X post 2083162394499612746 already classified at 12:06Z as BTC technical "62k-63k is the range of interest"
+5. ✅ Message adds only promotional framing ("Premium members know why", "upgrade to premium now") with no new market signal
 
-**Processing:**
-✓ Event decoded from base64  
-✓ Message ID checked (not previously seen)  
-✓ Channel resolved (supporting channel per discord-channels.json)  
-✓ Trader verified (heartcanhodl matches channel owner)  
-✓ Message classified as non-financial (no actionable trade signal)  
-✓ Message ID added to discord-trader-seen.txt  
-✓ Event logged to memory/logs/2026-07-31.md  
+**Result:** No alert sent. Event logged silently to memory as cross-platform reiteration.
 
-**Action Taken:** None (no alert sent; logged for context only per Step 5-A protocol)
-Unable to classify — single word with no context. What's your read?
+**Memory updated:**
+- Added message ID to `memory/discord-trader-seen.txt` (154 total tracked messages)
+- Logged classification to `memory/logs/2026-07-31.md`
