@@ -1,0 +1,103 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_main",
+        "sep1",
+        "stack_stats",
+        "sep2",
+        "text_pattern",
+        "sep3",
+        "link_post"
+      ]
+    },
+    "tweet_main": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "After joyful July (+11.6% to 64.7k), August historically turns red (avg −13.6%). But bull_genius projects upside momentum: \"run it to 70k in the first days... ensure all sides take part in the fun.\""
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "stack_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_july",
+        "stat_august",
+        "stat_projection"
+      ]
+    },
+    "stat_july": {
+      "type": "Stat",
+      "props": {
+        "label": "July Gain",
+        "value": "64.7k",
+        "delta": "+11.6%",
+        "trend": "up"
+      }
+    },
+    "stat_august": {
+      "type": "Stat",
+      "props": {
+        "label": "August Historical Average",
+        "value": "−13.6%",
+        "trend": "down"
+      }
+    },
+    "stat_projection": {
+      "type": "Stat",
+      "props": {
+        "label": "Projection Target",
+        "value": "70k",
+        "delta": "+8.5%",
+        "trend": "up"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "text_pattern": {
+      "type": "Text",
+      "props": {
+        "text": "Historical pattern (2014/2018/2022): July green → August red. 2026 fits the rally template so far.",
+        "variant": "muted"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/bull_genius/status/2083105012759044514"
+      }
+    }
+  }
+}
