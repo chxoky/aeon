@@ -205,3 +205,14 @@
 - Last seen: 2026-07-31T10:39:58Z (X post BTC macro sentiment)
 - **Events (rolling):**
   - Jul 31 10:39Z — informational: BTC macro sentiment post; market dryness commentary ("as dry as it was when we were at 16K last cycle", "bored beyond disbelief"); expectation of imminent move ("we are close, $BTC"); sentiment reflects macro bullish bias on cycle stage + upcoming volatility/relief expectation [2083140608625955139]
+
+## Bitcoin_Astro
+
+- Platforms: X (primary; X-only, no Discord presence)
+- Current open positions: Unknown (analyst/observer, no personal trade actions detected)
+- Recent thesis: BTC technical structure analyst; multi-timeframe confluence analysis identifying price ceilings and cycle structure; bullish near-term (expects final high in second half of July at 67k-68k ceiling), bearish longer-term (expects major leg lower toward cycle low post-high)
+- Conviction notes: Chart-driven technical analyst; uses multiple independent technical methods for confluence validation; Jul 20 baseline post predicted 67k-68k ceiling with current price ~64k; Jul 31 update validates thesis (high did come on 21st at 67k, matching prediction)
+- Calibration: None pending.
+- Last seen: 2026-07-31T12:18:19Z (X post BTC technical thesis validation)
+- **Events (rolling):**
+  - Jul 31 12:18Z — informational: "Bitcoin update 20 Aug / High came on 21st at 67k"; thesis validation post (predicted 67k-68k ceiling on Jul 20, high materialized on 21st at predicted level; multi-timeframe technical confluence validation; image chart shows analysis detail) [2083165358479868314]

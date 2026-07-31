@@ -1,0 +1,33 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet",
+        "link"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Bitcoin_Astro",
+        "handle": "@Bitcoin_Astro",
+        "text": "Bitcoin update 20 Aug — High came on 21st at 67k\n\nMulti-timeframe technical confluence analysis validated: predicted 67k–68k ceiling materialized on Jul 21. Charts continue pointing to major leg lower after this high toward cycle low."
+      },
+      "children": []
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Bitcoin_Astro/status/2083165358479868314"
+      },
+      "children": []
+    }
+  }
+}

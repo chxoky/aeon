@@ -1,8 +1,8 @@
-## Summary
+🐦 *[X] @Bitcoin_Astro*
 
-Executed x-trader-monitor skill for HeartCanHodl's X post (12:06Z, Jul 31). Event classification:
+Bitcoin update 20 Aug — High came on 21st at 67k
 
-**Event**: HeartCanHodl X post with 4 technical charts validating BTC 62k-63k support range across ltf & mtf timeframes
+Multi-timeframe technical confluence analysis validated: predicted 67k–68k ceiling materialized on Jul 21. Charts continue pointing to major leg lower after this high toward cycle low.
 
 **Classification**: Cross-platform dedup (meaningful variation) — **NO alert sent**
 
@@ -25,3 +25,4 @@ Event: Reply to @0xTrenchor's post
 https://x.com/swarmister/status/2083163517104914800
 
 Unable to classify — what's your read? (Potential pattern: frustration/loss/missed opportunity indicator, but needs context)
+[View post](https://x.com/Bitcoin_Astro/status/2083165358479868314)
