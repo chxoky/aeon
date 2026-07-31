@@ -1,8 +1,11 @@
 🐦 *[X] @Wild_Randomness*
 
-(He doesn't know that the stock is topped out)
+**SOXL chart confirmation: +24.71% recovery from bottom**
 
-_AAPL technical reinforcement: meme-format conviction expression on existing short position (Jul 28 entry $341–$342 w/ Oct $300 puts). Intraday momentum validates: -7.8% crash from $339 → $305 on Jul 30. Tim Cook image (skeptical expression) frames sarcastic certainty on top being in. Existing cross-trader AAPL convergence: HCH structural short thesis + WR personal short execution. No new trade action required._
+Four-image daily chart series showing the semiconductor reversal. SOXL bounced from 93.17 low to 114.72 close — validating the Jul 29 'Q1 correction ended on 200d SOXL test' bottom call.
 
 [View post](https://x.com/Wild_Randomness/status/2083178090893889835)
 Wild_Randomness AAPL technical chart post validation. Price 249.48, resistance 256.12, support 225.41. Validates Jul 28 short thesis.
+↳ Cross-trader semis convergence: Chase TP'd at highs (Jul 27) → ryzzqq DCA longs (Jul 28) → WR bottom ID (Jul 29) → HCH hedge setup (Jul 29) → This confirmation (Jul 31). High-conviction three-trader sector reversal setup with +24.71% post-recovery validation.
+
+[View post](https://x.com/Wild_Randomness/status/2083180161802047795)

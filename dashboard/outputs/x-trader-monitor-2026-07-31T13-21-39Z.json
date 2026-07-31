@@ -1,0 +1,111 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "SOXL Chart Confirmation",
+        "description": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "stat_recovery",
+        "text_chart_desc",
+        "separator1",
+        "heading_convergence",
+        "table_traders",
+        "text_conviction",
+        "separator2",
+        "link_post"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "SOXL chart confirmation: +24.71% recovery from bottom. Four-image daily chart series showing the semiconductor reversal. SOXL bounced from 93.17 low to 114.72 close — validating the Jul 29 'Q1 correction ended on 200d SOXL test' bottom call."
+      }
+    },
+    "stat_recovery": {
+      "type": "Stat",
+      "props": {
+        "label": "Recovery from Bottom",
+        "value": "+24.71%",
+        "trend": "up"
+      }
+    },
+    "text_chart_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Four-image daily chart series showing the semiconductor reversal. SOXL bounced from 93.17 low to 114.72 close — validating the Jul 29 'Q1 correction ended on 200d SOXL test' bottom call.",
+        "variant": "body"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_convergence": {
+      "type": "Heading",
+      "props": {
+        "text": "Cross-Trader Semis Convergence",
+        "level": "h3"
+      }
+    },
+    "table_traders": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Trader/Event",
+          "Date"
+        ],
+        "rows": [
+          [
+            "Chase TP'd at highs",
+            "Jul 27"
+          ],
+          [
+            "ryzzqq DCA longs",
+            "Jul 28"
+          ],
+          [
+            "WR bottom ID",
+            "Jul 29"
+          ],
+          [
+            "HCH hedge setup",
+            "Jul 29"
+          ],
+          [
+            "This confirmation",
+            "Jul 31"
+          ]
+        ]
+      }
+    },
+    "text_conviction": {
+      "type": "Text",
+      "props": {
+        "text": "High-conviction three-trader sector reversal setup with +24.71% post-recovery validation.",
+        "variant": "lead"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post on X",
+        "href": "https://x.com/Wild_Randomness/status/2083180161802047795"
+      }
+    }
+  }
+}
