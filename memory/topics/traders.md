@@ -59,8 +59,9 @@
 - **Last seen**: 2026-07-31T08:13:59Z (X post cryptic personal statement)
 - **Last seen**: 2026-07-31T08:31:02Z (X post with execution proof — 6 images validating 20% BTC cover + technical accuracy; silent dedup vs Discord 01:52Z alert)
 - **Events (recent):**
+  - Jul 31 08:44Z — cross-platform-dedup (X reiteration 2): "@ren_stocks Doing the needful ren" (4 Blofin perp position screenshots: SNDK +99.93%, MU +78.47%, NBIS +71.23% on 3X leverage + SNDK 4h chart; execution proof reiteration of semis long positions already documented in Discord 08:31Z; no alert sent — already alerted prior; conviction weight +1) [2083111509513936942]
   - Jul 31 08:31Z — cross-platform-dedup (X reiteration): "Did exactly what I said I was going to do" (6 images showing Discord cover conversation 01:52Z, BTC/SNDK 5m technical precision, Blofin ETH +14.78%, BTC +20.2% proof; execution validation; no alert sent — already alerted Discord path 01:52Z; conviction weight +1) [2083108162534871150]
-- **Last seen**: 2026-07-31T08:32:03Z (Discord primary Free channel, chart-only attachment)
+- **Last seen**: 2026-07-31T08:44:20Z (X post execution proof — semis perp positions with massive gains)
 - **Events (recent):**
   - Jul 31 08:32Z — informational: chart-only post (empty text, chart attachment only; unable to interpret chart details; skill sent to Kyle for manual review) [1532667147380064378]
   - Jul 31 08:13Z — skip: "@0xPonzito House of heart has no emotion" (reply to @0xPonzito, personal statement, non-financial) [2083103868494471435]
