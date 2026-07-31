@@ -97,6 +97,17 @@
   - Jul 31 01:05Z — ambiguous: reply to @BigTrout300 "accelerate" cryptic (9m after order book post); meaning unclear [2082995997811356083]
   - Jul 31 00:56Z — informational: BTC Binance spot order book depth chart; highlighting unusual volume concentration at 64,000 and 63,900 levels with "reveal yourself" metaphor for hidden/emerging order blocks; market structure observation (no personal action) [2082993813115605364]
 
+## bull_genius
+
+- Platforms: X (primary; X-only, no Discord presence)
+- Current open positions: Spot BTC DCA planning (considering entries sub-50 low-50s range)
+- Recent thesis: Structural bullish on BTC long-term; bullish on HYPE exhaustion recovery (multi-timeframe exhaustion pattern, generational buy prices approaching per Jul 31 05:55Z chart analysis); bottom identification focus on major cryptos
+- Conviction notes: Long-term bullish structural bias; identifies exhaustion/reversal patterns; DCA-focused accumulation strategy on weakness
+- Calibration: None pending
+- Last seen: 2026-07-31T07:03:41Z (X post on BTC DCA strategy)
+- **Events (rolling):**
+  - Jul 31 07:03Z — informational: BTC price levels and DCA strategy (sub-50 target, low-50s entry zone for spot DCA); sentiment: 90% conviction on BTC bottom; tentative on timing ("might start buying too early"); strategic accumulation discussion [2083086178237009942]
+
 ## ryzzqq
 
 - Platforms: X (primary; X-only, no Discord presence)

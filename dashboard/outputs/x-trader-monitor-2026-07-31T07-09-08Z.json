@@ -1,0 +1,127 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor",
+        "description": "BTC price action and DCA strategy insights"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "sep1",
+        "stack_analysis"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "@bull_genius",
+        "text": "i'd say it depends on how august goes a lot of friends still see it in the high 40s\n\nboth huge hype corrections to 10 and 20 were quite tricky to buy but as soon it goes, it goes\n\nsub 50 would be a really great price i think low 50s are good already to start the spot DCA\n\nim in btc bottom is 90% in camp so i might start buying too early!"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack_analysis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "link_tweet",
+        "heading_theme",
+        "text_thesis",
+        "stack_strategy"
+      ]
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/bull_genius/status/2083086178237009942"
+      },
+      "children": []
+    },
+    "heading_theme": {
+      "type": "Heading",
+      "props": {
+        "text": "BTC DCA strategy alignment",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text_thesis": {
+      "type": "Text",
+      "props": {
+        "text": "bull_genius contrarian long-term bullish thesis (90% bottom conviction); complements HYPE exhaustion-recovery call from same trader (Jul 31 05:55Z).",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "stack_strategy": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_zone",
+        "stack_targets"
+      ]
+    },
+    "text_zone": {
+      "type": "Text",
+      "props": {
+        "text": "Spot accumulation zone identification:",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "stack_targets": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_target",
+        "badge_entry"
+      ]
+    },
+    "badge_target": {
+      "type": "Badge",
+      "props": {
+        "text": "Sub-50 target",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "badge_entry": {
+      "type": "Badge",
+      "props": {
+        "text": "Low-50s entry",
+        "variant": "outline"
+      },
+      "children": []
+    }
+  }
+}
