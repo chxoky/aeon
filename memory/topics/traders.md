@@ -7,6 +7,9 @@
 - Last seen: 2026-07-31T15:11:41Z (Discord post personal commentary with image attachment)
 - **Events (rolling):**
   - Jul 31 15:11Z — skip: "mental illness" (personal commentary/reaction, non-financial, supporting channel; image attachment present but message text non-substantive; no trade signal or ticker reference) [1532767717130768555]
+- Last seen: 2026-07-31T15:12:07Z (Discord supporting channel price-action commentary)
+- **Events (rolling):**
+  - Jul 31 15:12Z — skip: "But no sweep , never goal-oriented price action" (supporting channel price-action commentary; technical market analysis on consolidation behavior, no personal trade action; no alert sent) [1532767826119754020]
   - Jul 31 14:17Z — informational: Tiered profit-taking methodology explanation; "70% profit then let 30% run" discipline on SNDK/MU; won't update further on this trade; conditional final TP or breakeven SL (educational commentary, no new action; aligns with 13:35Z 70% TP execution already alerted); Discord primary channel [1532754135592730675]
   - Jul 31 14:07Z — informational: BTC bearish sarcasm ("Finally an asset that found a way to enjoy all the downside of stocks with absolutely none of the upside"); sentiment divergence vs group bullish structural consensus (KillaXBT 12:59Z, bull_genius structural bias) [2083192958770201040]
   - Jul 31 13:35Z — trade-partial-tp: "<@&1247940234558177521> 70% closed on both" (SNDK/MU escalation from 65% → 70% cumulative close; expanded profit-taking on same positions; continues disciplined tiered approach; fast-path alerted by Worker, no duplicate Telegram) [1532743414708441099]
