@@ -1,0 +1,60 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_stoiiic",
+        "tweet_link",
+        "separator_1",
+        "analysis_text"
+      ]
+    },
+    "tweet_stoiiic": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "Stoiiic",
+        "text": "this is the part where BTC lulls you to sleep in the next month or two."
+      },
+      "children": []
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Stoiiic/status/2083236570794963291"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Aligns with Stoiiic's own recent BTC consolidation thesis (07:00Z VWAP compression + 07:13Z 'no mans lands' commentary). Consolidation view converges with KillaXBT structural bottom thesis (already swept lows) but differs from Crypto_Chase's bearish sarcasm — mixed group sentiment on BTC direction.",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
