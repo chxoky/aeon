@@ -1,0 +1,52 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "content"
+      ]
+    },
+    "content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet",
+        "link",
+        "note"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "Macro analysis on BTC bottoming: historically the rest of the year weak. Volatility dampening + rate hikes priced out → would target mid-low 50s for absolute lows."
+      },
+      "children": []
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/bull_genius/status/2083191954477572319"
+      },
+      "children": []
+    },
+    "note": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "Referenced chart image couldn't be fetched from CDN."
+      },
+      "children": []
+    }
+  }
+}
