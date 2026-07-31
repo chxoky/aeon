@@ -73,8 +73,9 @@
 
 ## HeartCanHodl
 
-- **Last seen**: 2026-07-31T15:46:31Z (Discord supporting Chat channel cryptic message)
+- **Last seen**: 2026-07-31T16:09:48Z (Discord primary Trades channel ADA short partial close)
 - **Events (recent):**
+  - Jul 31 16:09Z — trade-partial-close: "Can half Ada shorts" (primary Trades channel; closing 50% of ADA short position from Jul 31 03:29Z entry; estimated ~0.5% of portfolio reduction; disciplined profit-taking after ~12.5-hour hold on newly-added position; fast-path alerted by Worker, no duplicate Telegram) [1532782342635131072]
   - Jul 31 15:46Z — ambiguous: "Oh. Wow" (supporting channel "HCH — Chat"; cryptic two-word exclamation with no context; no personal action stated; no ticker/position referenced; calibration alert sent) [1532776482789654568]
   - Jul 31 15:24Z — trade-partial-close: "Cover half kaito shorts" (primary Trades channel; closing 50% of active KAITO short position from prior Jul 27 entries; estimated ~1.5% of portfolio reduction; continued disciplined profit-taking on alt-short basket following recent session TP events; fast-path alerted by Worker, no duplicate Telegram) [1532770981272354986]
 - **Last seen**: 2026-07-31T15:45:58Z (X post cross-platform commentary on position closures)
