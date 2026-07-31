@@ -53,8 +53,9 @@
 
 ## HeartCanHodl
 
-- **Last seen**: 2026-07-31T12:47:09Z (Discord supporting Chat channel ambiguous message)
+- **Last seen**: 2026-07-31T12:54:28Z (Discord supporting Chat channel self-resolved sizing framework)
 - **Events (recent):**
+  - Jul 31 12:54Z — self-resolved: "Diversification among plays...25% initial entry, 35% next planned, 40% final allocation" (RESOLVES Jul 31 12:47Z ambiguous "Sizing low helps there"; position sizing framework explanation — multi-tiered conviction approach to scaling into positions; informational, no trade action; supporting channel; alert sent) [1532733187099459705]
   - Jul 31 12:47Z — ambiguous: "Sizing low helps there" (supporting channel message, cryptic reference; no explicit ticker/position/level stated; calibration alert sent) [1532731346588405931]
   - Jul 31 12:30Z — trade-partial-close: "Cover 1-1% shiba & kaito shorts" (closing 1-1% of SHIB short position from Jul 31 08:06Z entry + 1-1% of KAITO short from Jul 27 07:41Z/20:31Z builds; partial profit-taking across both positions; fast-path alerted, no duplicate Telegram by skill) [1532727081736208586]
   - Jul 31 12:29Z — trade-partial-tp: "Cover 2-2-2% hype-sol-zec shorts" (partial close: HYPE -2%, SOL -2%, ZEC -2%; disciplined profit-taking on alt short positions; fast-path alerted by Worker, no duplicate Telegram) [1532726959908327526]

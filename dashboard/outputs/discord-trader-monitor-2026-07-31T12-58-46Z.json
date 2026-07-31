@@ -1,0 +1,161 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "status-row",
+        "separator-1",
+        "earlier-group",
+        "separator-2",
+        "resolved-group"
+      ]
+    },
+    "status-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "status-badge",
+        "context-info"
+      ]
+    },
+    "status-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "✅ Self-resolved",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "context-info": {
+      "type": "Text",
+      "props": {
+        "text": "[DC: HCH — Chat]",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "earlier-group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "earlier-label",
+        "earlier-text"
+      ]
+    },
+    "earlier-label": {
+      "type": "Text",
+      "props": {
+        "text": "Earlier:",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "earlier-text": {
+      "type": "Text",
+      "props": {
+        "text": "Sizing low helps there",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "resolved-group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "resolved-label",
+        "framework-stack"
+      ]
+    },
+    "resolved-label": {
+      "type": "Text",
+      "props": {
+        "text": "Resolved:",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "framework-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "framework-title",
+        "allocations-stack"
+      ]
+    },
+    "framework-title": {
+      "type": "Text",
+      "props": {
+        "text": "Position Sizing Framework",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "allocations-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-initial",
+        "stat-planned",
+        "stat-final"
+      ]
+    },
+    "stat-initial": {
+      "type": "Stat",
+      "props": {
+        "label": "Initial Allocation",
+        "value": "25%"
+      },
+      "children": []
+    },
+    "stat-planned": {
+      "type": "Stat",
+      "props": {
+        "label": "Planned Allocation",
+        "value": "35%"
+      },
+      "children": []
+    },
+    "stat-final": {
+      "type": "Stat",
+      "props": {
+        "label": "Final Allocation",
+        "value": "40%"
+      },
+      "children": []
+    }
+  }
+}

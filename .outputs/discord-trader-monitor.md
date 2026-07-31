@@ -21,3 +21,4 @@ HCH: "Sizing low helps there"
 
 Unable to classify — what's your read? (Sizing strategy? Technical level reference? Context-dependent phrase?)
 Unable to classify — what's your read?
+✅ Self-resolved — [DC: HCH — Chat]\n\nEarlier: Sizing low helps there\n\nResolved: Position sizing framework (25% initial, 35% planned, 40% final allocation)
