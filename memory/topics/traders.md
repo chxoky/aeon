@@ -127,10 +127,11 @@
 - Platforms: X (primary; X-only, no Discord presence)
 - Current open positions: FOMO long (ticker unclear, hit 7d rvwap, overnight entry); watching $HYPE for long-term accumulation
 - Recent thesis: Multi-asset trader with focus on stocks/semis and crypto; meme/casual posting style; engagement with community traders ("marmot", "leopold"). Technical analyst on multi-timeframe structures (7d rvwap, 90D/365D moving averages).
-- Conviction notes: First entries in tracking window (Jul 31 05:46Z ambiguous FOMO long, 05:55Z HYPE structural analysis). FOMO long described as "shameful" entry that hit 7d rvwap overnight. HYPE post shows multi-timeframe technical analysis (4-hour chart, 90D/365D MAs) identifying structural exhaustion bottom with "generational" buy opportunity. Casual/humorous tone mixed with technical awareness. References SNDK technical levels and Bitcoin structure.
+- Conviction notes: HYPE contrarian bullish thesis validates across multiple posts (05:55Z technical, 07:34Z sentiment reiteration). FOMO long described as "shameful" entry that hit 7d rvwap overnight. HYPE structural analysis (4h exhaustion, 90D/365D MAs) identifies bottom with "generational" opportunity. Jul 31 07:34Z follow-up reinforces conviction: market rotation into "bottoming stuff", fundamentals improving, positioning for "next run".
 - Calibration: PENDING (Jul 31 05:46Z) — author took personal FOMO long but exact ticker not explicitly stated; requires Kyle clarification on ticker and whether to mirror.
-- Last seen: 2026-07-31T05:55:37Z (X post — HYPE structural technical analysis)
+- Last seen: 2026-07-31T07:34:08Z (X post — HYPE market sentiment/rotation)
 - **Events (rolling):**
+  - Jul 31 07:34Z — informational: Market sentiment on $HYPE; "money rotates into bottoming stuff"; "fundamentals only got better, buys us some time while reloading for next run"; macro bullish commentary reinforcing prior 05:55Z HYPE technical thesis; follow-up conviction reiteration, not personal trade action [2083093841784029578]
   - Jul 31 05:55Z — informational: Hyperliquid/Tether 4h exhaustion candles + multi-month uptrend structure; "interesting long term buy prices approaching on hype, generational"; multi-timeframe technical analysis on $HYPE; no personal trade execution stated [2083069050209345917]
   - Jul 31 05:46Z — ambiguous: "stonks, marmot chased +15%, leopold liquidation", personal "shameful fomo long hit 7d rvwap overnight", SNDK technical level mention, BTC commentary; exact ticker of FOMO long unclear; calibration pending [2083066853488726278]
 

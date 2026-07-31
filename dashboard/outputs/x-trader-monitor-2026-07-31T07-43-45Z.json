@@ -1,0 +1,60 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "main_stack"
+      ]
+    },
+    "main_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "link_element",
+        "separator",
+        "followup_text"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "@bull_genius",
+        "text": "hype still has a super strong year while everything died so just normal it takes a step back while money rotates into bottoming stuff and on chain\n\nfundamentals only got better, buys us some time while reloading for the next run"
+      },
+      "children": []
+    },
+    "link_element": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/bull_genius/status/2083093841784029578"
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "followup_text": {
+      "type": "Text",
+      "props": {
+        "text": "Follow-up to earlier 05:55Z HYPE structural exhaustion analysis (generational buy prices approaching). This reinforces bull_genius's contrarian long-term bullish conviction on $HYPE, cutting against the more bearish lean from HCH/KillaXBT short positions.",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
