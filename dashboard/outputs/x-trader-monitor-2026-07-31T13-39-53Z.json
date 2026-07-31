@@ -1,0 +1,165 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "AAPL intraday crash validation"
+      },
+      "children": [
+        "tweet_card",
+        "sep_1",
+        "technical_stack",
+        "sep_2",
+        "analysis_stack"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "AAPL intraday crash validation. Technical structure supporting continued bearish setup."
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "technical_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tech_heading",
+        "tech_grid"
+      ]
+    },
+    "tech_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Daily Reversal Zone",
+        "level": "h3"
+      }
+    },
+    "tech_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat_resistance",
+        "stat_support",
+        "stat_current",
+        "stat_change",
+        "stat_baseline",
+        "stat_timestamp"
+      ]
+    },
+    "stat_resistance": {
+      "type": "Stat",
+      "props": {
+        "label": "Resistance",
+        "value": "356.59"
+      }
+    },
+    "stat_support": {
+      "type": "Stat",
+      "props": {
+        "label": "Support",
+        "value": "288.70"
+      }
+    },
+    "stat_current": {
+      "type": "Stat",
+      "props": {
+        "label": "Current Intraday",
+        "value": "302.00"
+      }
+    },
+    "stat_change": {
+      "type": "Stat",
+      "props": {
+        "label": "Intraday Change",
+        "value": "-9.47%",
+        "trend": "down"
+      }
+    },
+    "stat_baseline": {
+      "type": "Stat",
+      "props": {
+        "label": "Baseline",
+        "value": "333.00"
+      }
+    },
+    "stat_timestamp": {
+      "type": "Stat",
+      "props": {
+        "label": "Timestamp",
+        "value": "06:27:13"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis_heading",
+        "thesis_text",
+        "chart_text",
+        "convergence_text",
+        "link_section"
+      ]
+    },
+    "analysis_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Analysis",
+        "level": "h3"
+      }
+    },
+    "thesis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Reinforces existing Oct $300 short thesis.",
+        "variant": "body"
+      }
+    },
+    "chart_text": {
+      "type": "Text",
+      "props": {
+        "text": "Chart shows multi-timeframe structure supporting continued bearish setup.",
+        "variant": "body"
+      }
+    },
+    "convergence_text": {
+      "type": "Text",
+      "props": {
+        "text": "Convergence with HeartCanHodl AAPL short thesis.",
+        "variant": "lead"
+      }
+    },
+    "link_section": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2083184679168213206"
+      }
+    }
+  }
+}
