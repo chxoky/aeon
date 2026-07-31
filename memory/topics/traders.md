@@ -120,3 +120,14 @@
 - **Events (rolling):**
   - Jul 31 05:55Z — informational: Hyperliquid/Tether 4h exhaustion candles + multi-month uptrend structure; "interesting long term buy prices approaching on hype, generational"; multi-timeframe technical analysis on $HYPE; no personal trade execution stated [2083069050209345917]
   - Jul 31 05:46Z — ambiguous: "stonks, marmot chased +15%, leopold liquidation", personal "shameful fomo long hit 7d rvwap overnight", SNDK technical level mention, BTC commentary; exact ticker of FOMO long unclear; calibration pending [2083066853488726278]
+
+## swarmister
+
+- Platforms: X (primary; X-only, no Discord presence)
+- Current open positions: Unknown
+- Recent thesis: Unknown — insufficient data (single cryptic reply in tracking window)
+- Conviction notes: First sighting. Cryptic reply pattern suggests possible connection to broader discussion with @blancxbt, but context not visible. Calibration pending to determine if trader is active or educational/commentary account.
+- Calibration: PENDING (Jul 31 06:16Z) — ambiguous cryptic reply, no visible context; need Kyle confirmation on whether swarmister is watched trader and interpretation of post
+- Last seen: 2026-07-31T06:16:17Z (X reply to @blancxbt)
+- **Events (rolling):**
+  - Jul 31 06:16Z — ambiguous: reply to @blancxbt "I have an idea…" (cryptic, incomplete thought; no visible thread context; no ticker/financial signal; calibration alert sent) [2083074249791508642]

@@ -1,0 +1,71 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_calibration",
+        "event_description",
+        "tweet_card",
+        "separator_sections",
+        "classification_alert",
+        "questions_section"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @swarmister",
+        "level": "h2"
+      }
+    },
+    "event_description": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @blancxbt with no visible thread context",
+        "variant": "lead"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "@swarmister",
+        "text": "I have an idea…"
+      }
+    },
+    "separator_sections": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "type": "warning"
+      }
+    },
+    "questions_section": {
+      "type": "Text",
+      "props": {
+        "text": "Is swarmister a watched trader? What's your read on this post?"
+      }
+    }
+  }
+}
