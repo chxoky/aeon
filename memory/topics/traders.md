@@ -50,6 +50,9 @@
 - **Last seen**: 2026-07-31T01:50:25Z (Discord primary channel conviction add: BTC/ETH shorts)
 - **Events (recent):**
   - Jul 31 01:50Z — trade-conviction-add: "Add 5-5% btc & eth short" (BTC +5%, ETH +5% conviction add to active short basket; continued aggressive scaling into downside thesis; fast-path alerted by Cloudflare Worker, no duplicate Telegram from skill) [1532566072891281418]
+- **Last seen**: 2026-07-31T01:52:53Z (Discord primary Comments channel trade action acknowledgment)
+- **Events (recent):**
+  - Jul 31 01:52Z — trade-partial-close: "Covered 20% around short size here in 63k range, if we can get bounce to 65k or so range then can think of adding them back" (short position reduction ~20% around 63k, conditional re-entry target 65k on bounce; fast-path alerted by Worker, no duplicate Telegram) [1532566692176072765]
   - Jul 30 22:31Z — ambiguous: reply to own message "One more push will break above it" with "Fc btc 1m"; cryptic abbreviation "Fc" unclear (similar to Jul 6 14:21:43Z pattern); self-referential reply context, appears to be chart/structure check but meaning unclear; calibration pending [1532515920830922912]
 - **Last seen**: 2026-07-30T22:28:40Z (X post cryptic @Barchart mention, calibration pending)
 - **Events (recent):**
