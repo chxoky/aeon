@@ -1,0 +1,77 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "stats_grid",
+        "link_tweet",
+        "insight_text"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Heart Can Hodl",
+        "handle": "HeartCanHodl",
+        "text": "Most volatile market week in a while? Evidence: Indices showing 10%+ intraday swings; HCH portfolio +23.58% despite BTC -1.25%"
+      }
+    },
+    "stats_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat_portfolio",
+        "stat_btc"
+      ]
+    },
+    "stat_portfolio": {
+      "type": "Stat",
+      "props": {
+        "label": "HCH Portfolio",
+        "value": "+23.58%",
+        "trend": "up"
+      }
+    },
+    "stat_btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "-1.25%",
+        "trend": "down"
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/HeartCanHodl/status/2083202635335872679"
+      }
+    },
+    "insight_text": {
+      "type": "Text",
+      "props": {
+        "text": "Portfolio outperformance amid heightened volatility — positions weathering the week well.",
+        "variant": "muted"
+      }
+    }
+  }
+}
