@@ -1,0 +1,95 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading_main",
+        "sep1",
+        "section_observations",
+        "sep2",
+        "section_analysis",
+        "sep3",
+        "section_link"
+      ]
+    },
+    "heading_main": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @swarmister (follow-up)",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section_observations": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "line_earlier",
+        "line_now"
+      ]
+    },
+    "line_earlier": {
+      "type": "Text",
+      "props": {
+        "text": "Earlier ambiguous: \"I have an idea…\" (06:16Z reply to @blancxbt)"
+      }
+    },
+    "line_now": {
+      "type": "Text",
+      "props": {
+        "text": "Now: \"@chrisgrx_ Bottom\" (06:37Z, cryptic one-word reply)"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section_analysis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_pattern",
+        "alert_questions"
+      ]
+    },
+    "text_pattern": {
+      "type": "Text",
+      "props": {
+        "text": "Pattern suggests possible trading discussion, but context not visible in tweets."
+      }
+    },
+    "alert_questions": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "Is swarmister a watched trader? How to interpret these posts?"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View post",
+        "href": "https://x.com/swarmister/status/2083079645184798813",
+        "source": "@swarmister"
+      }
+    }
+  }
+}
