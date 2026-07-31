@@ -61,3 +61,13 @@
   - Jul 30 22:17Z — informational: "Reduced size on mechanical bounce/loss recovery rally on semis" (tactical hedge positioning comment on semis sector, Discord primary Comments channel); fast-path alerted by Worker; no specific ticker/size clarified [1532512559255785583]
   - Jul 30 22:17Z — informational: "Fc SNDK ema50 4hr wide" (technical EMA50 comment on SNDK 4-hour structure, Discord primary Comments channel); fast-path alerted (Worker sent Telegram); alerted=fast-path [1532512436173668384]
   - Jul 30 22:08Z — trade-partial-tp: "TP 1/4th more here in afterhours" (25% position reduction, Discord primary Trades channel); fast-path alerted (Worker sent Telegram); ticker/position clarified via chart attachment [1532510259766362143]
+
+## Stoiiic
+
+- Platforms: X (primary; X-only, no Discord presence)
+- Current open positions: Unknown (no trade action signals detected yet)
+- Recent thesis: Technical market structure analyst; focuses on order book depth / volume concentration analysis on Binance spot
+- Conviction notes: Chart-driven technical observations; limited data sample (one event)
+- Last seen: 2026-07-31T00:56:39Z (X post technical order book analysis)
+- **Events (rolling):**
+  - Jul 31 00:56Z — informational: BTC Binance spot order book depth chart; highlighting unusual volume concentration at 64,000 and 63,900 levels with "reveal yourself" metaphor for hidden/emerging order blocks; market structure observation (no personal action) [2082993813115605364]
