@@ -1,0 +1,117 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "heading",
+        "tweet_card",
+        "sep1",
+        "odds_stack",
+        "sep2",
+        "sentiment_stack"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Clarity Act Signing Odds Collapse",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "Clarity Act signing odds collapse: 22% chance (down from 43% on Polymarket). Sarcastic post: 'have a positive surprise for sure.'"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "odds_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "odds_stat",
+        "odds_progress"
+      ]
+    },
+    "odds_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Clarity Act Signing Odds",
+        "value": "22%",
+        "delta": "-21pp",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "odds_progress": {
+      "type": "Progress",
+      "props": {
+        "value": 22,
+        "max": 100,
+        "label": "Current probability"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "sentiment_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "sentiment_badge",
+        "sentiment_text",
+        "link"
+      ]
+    },
+    "sentiment_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Regulatory bearish sentiment",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "sentiment_text": {
+      "type": "Text",
+      "props": {
+        "text": "Aligns with prior CLARITY exploration focus (Jul 16); declining odds suggest policy uncertainty in near-term timeline.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View post on X",
+        "href": "https://x.com/bull_genius/status/2083212261900886187"
+      },
+      "children": []
+    }
+  }
+}
