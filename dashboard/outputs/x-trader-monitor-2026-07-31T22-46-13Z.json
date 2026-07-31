@@ -1,0 +1,55 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "Azure Cross-Chain Liquidity Teleport"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_intro",
+        "separator_1",
+        "tweet_card",
+        "link_tweet"
+      ]
+    },
+    "text_intro": {
+      "type": "Text",
+      "props": {
+        "text": "For the first time in CRYPTO HISTORY, Azure can teleport liquidity across chains in <1s."
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Dr. Axius",
+        "handle": "trading_axe",
+        "text": "It took FUCKING AGES to perfect the secret formula but it's finally here... Any other product right now - bridge or wallet or otherwise takes 5-10+ seconds to move money across networks... This changes everything for onchain trading."
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/trading_axe/status/2083322003415826507"
+      }
+    }
+  }
+}
