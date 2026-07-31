@@ -1,0 +1,147 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor",
+        "description": "Month-end technical snapshot"
+      },
+      "children": [
+        "main-stack"
+      ]
+    },
+    "main-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tickers-stack",
+        "sep1",
+        "tweet-card",
+        "sep2",
+        "metrics-stack",
+        "sep3",
+        "context-text",
+        "sep4",
+        "link"
+      ]
+    },
+    "tickers-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-btc",
+        "badge-ibit",
+        "badge-dvol"
+      ]
+    },
+    "badge-btc": {
+      "type": "Badge",
+      "props": {
+        "text": "$BTC"
+      }
+    },
+    "badge-ibit": {
+      "type": "Badge",
+      "props": {
+        "text": "$IBIT"
+      }
+    },
+    "badge-dvol": {
+      "type": "Badge",
+      "props": {
+        "text": "$DVOL"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "$BTC $IBIT $DVOL — Month-end technical snapshot:\n\n1. **Lowest Monthly DVOL close in history** (35.06, -1.38%)\n2. **Monthly rejection of lifetime IBIT POC** (35.68, -2.81%)\n3. Heading into August with BTC consolidation (64.3k-67k range)\n\nCharts show DVOL at historic lows (vol market asleep), IBIT rejecting key technical level, BTC daily structure marking potential breakout triggers."
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "metrics-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat-dvol",
+        "stat-ibit",
+        "stat-btc"
+      ]
+    },
+    "stat-dvol": {
+      "type": "Stat",
+      "props": {
+        "label": "Lowest Monthly DVOL Close (Historic Low)",
+        "value": "35.06",
+        "delta": "-1.38%",
+        "trend": "down"
+      }
+    },
+    "stat-ibit": {
+      "type": "Stat",
+      "props": {
+        "label": "Monthly IBIT Rejection of Lifetime POC",
+        "value": "35.68",
+        "delta": "-2.81%",
+        "trend": "down"
+      }
+    },
+    "stat-btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC Consolidation Range",
+        "value": "64.3k - 67k"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context-text": {
+      "type": "Text",
+      "props": {
+        "text": "Charts show DVOL at historic lows (vol market asleep), IBIT rejecting key technical level, BTC daily structure marking potential breakout triggers.",
+        "variant": "body"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2083268024434643008"
+      }
+    }
+  }
+}
