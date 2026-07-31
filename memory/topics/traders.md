@@ -176,10 +176,11 @@
 ## bull_genius
 
 - Platforms: X (primary; X-only, no Discord presence)
-- Current open positions: Unknown (waiting for exceptional deal before committing)
-- Recent thesis: BTC structural analysis; lowest-confidence zone identification; HTF-bullish long-term with near-term caution; mean-reversion and DCA strategy waiting for deeper capitulation before entries
-- Conviction notes: Multi-timeframe technical analysis (daily + hourly) with annotated price zones. Explicit thesis: August historically weak, 57k weak-low likely to be tested, exceptional deal should be ahead before buyers get "amazing discounts." Contrarian patience stance (letting perps chill, exploring onchain v4 hooks/RWA). Personal conviction on BTC near-term: "not super invested in btc ltf price action, not betting much" — indicates strategic patience, not aggressive short-term positioning.
+- Current open positions: Unknown (waiting for exceptional deal before committing; accumulation via spot DCA on weakness)
+- Recent thesis: BTC structural analysis; multi-timeframe patience strategy; HTF-bullish long-term with near-term caution; advocate for spot accumulation + onchain analysis over scalping chop
+- Conviction notes: Contrarian patient accumulator (DCA into weakness, 60-62k zone + sub-54k "mortgage ur house" entry zone). HTF-bullish bias on structural recovery; calls for "exceptional deal" before aggressive accumulation. Dismissive of scalping/short-term chop (Adderall scalper commentary). Reinforces hold-and-accumulate philosophy across posts (09:08Z structural analysis + 09:16Z chop observation). Philosophy: long-term holders with onchain discipline outperform short-term technical scalping in choppy ranges.
 - Calibration: None pending.
-- Last seen: 2026-07-31T09:08:15Z (X post detailed BTC analysis)
+- Last seen: 2026-07-31T09:16:40Z (X post market structure + philosophy)
 - **Events (rolling):**
+  - Jul 31 09:16Z — informational: BTC market structure observation; 1h chart showing choppy/ranging behavior with volume profile + liquidity zones; commentary on scalper advantage in chop vs retail hold philosophy; general advice: hold spot + watch onchain > try to scalp technical chop; sentiment: choppy environment validates patience (await exceptional deal) [2083119643611267409]
   - Jul 31 09:08Z — informational: BTC market analysis (daily + hourly charts); lowest-confidence zone identification; price levels (75k shorts zone, 57k weak-low, 90d rvwap, 75k yearly VAH); August historical weakness + exceptional deal patience; multi-timeframe technical structure; strategy (let perps chill, explore onchain); sentiment (personally not betting much on BTC LTF) [2083117525907243428]

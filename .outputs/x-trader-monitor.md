@@ -12,11 +12,9 @@ htf rough battle plan for btc in coming months. price glued to yearly + monthly 
 Unable to classify — single-word reply, cryptic context. Market reaction on shorts validating thesis, or social comment on @iam4x's position? What's your read?
 🐦 *[X] @bull_genius*
 
-BTC market analysis: lowest-confidence zone at current levels. Price glued to yearly + monthly POC. Long-term trendlines still down-sloping against 30d uptrend (rolled over in July).
+cut ltf chat from the original post for better viewability. really choppy behavior. the adderal scalper is thriving but everyone else is better off just holding spot and growing stack by paying attention on chain
 
-Current levels represent:
-- Significantly below yearly average price paid
-- Prices that many already accumulated at today
+Chart: BTC 1h perpetual showing choppy/ranging action with volume profile + liquidity zones marked. Strategy: hold spot + watch onchain > scalp the chop.
 
 August historically weak in midterm/bear years following strong July. Weak low at 57k likely to get run. **Exceptional deal should still be ahead.**
 
@@ -28,3 +26,4 @@ Strategy: Let perps chill, explore onchain (v4 hooks, RWA/tokenized assets) wher
 strategy: let perps trades chill, explore onchain where bottom has occurred + first inning of new cycle. if playing ltf, consider 30d rvwap/monthly PoC tap but mu might be better risk/reward. weak low at 57k still likely to get run; exceptional deal should be still ahead.
 
 [View tweet](https://x.com/bull_genius/status/2083118883083366735)
+[View tweet](https://x.com/bull_genius/status/2083119643611267409)

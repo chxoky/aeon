@@ -1,0 +1,105 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-card",
+        "separator-1",
+        "chart-section",
+        "strategy-section",
+        "separator-2",
+        "link-section"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "@bull_genius",
+        "text": "cut ltf chat from the original post for better viewability. really choppy behavior. the adderal scalper is thriving but everyone else is better off just holding spot and growing stack by paying attention on chain"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "chart-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "chart-label",
+        "chart-text"
+      ]
+    },
+    "chart-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart",
+        "level": "h4"
+      }
+    },
+    "chart-text": {
+      "type": "Text",
+      "props": {
+        "text": "BTC 1h perpetual showing choppy/ranging action with volume profile + liquidity zones marked."
+      }
+    },
+    "strategy-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "strategy-label",
+        "strategy-text"
+      ]
+    },
+    "strategy-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Strategy",
+        "level": "h4"
+      }
+    },
+    "strategy-text": {
+      "type": "Text",
+      "props": {
+        "text": "hold spot + watch onchain > scalp the chop"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "view-tweet-link"
+      ]
+    },
+    "view-tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/bull_genius/status/2083119643611267409"
+      }
+    }
+  }
+}
