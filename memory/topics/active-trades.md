@@ -332,7 +332,8 @@
 - **Price context**: "lower 64k" — market structure near 64K range; closing into weakness/technical level
 - **Rationale**: Disciplined profit-taking on bounce from overnight/early morning price action. Estimated portfolio allocation post-close: ~35-40% total short basket (down from ~40-44% pre-close). Maintains core remainder on BTC/ETH for continued downside participation per HCH's documented thesis pattern (take profits on pumps, hold rest to targets).
 - **FOLLOW-UP TP EXECUTION** (2026-07-25T06:58:26Z): "Close zec, hype, sol half size shorts here" — Additional profit-taking on alt-short basket components. Reduced HYPE and SOL by approximately 50% each; HYPE estimated post-TP ~1% (down from 2%), SOL estimated post-TP ~0.125% (down from 0.25%). Coordinated multi-ticker reduction suggests continued disciplined scaling-out as market confirms structural bearish thesis on alts. Portfolio allocation post-TP: estimated 30-35% total short basket (down from ~35-40% pre-close).
-- **Last update**: 2026-07-25T06:58:26Z (discord-trader-monitor, fast-path-alerted, PARTIAL TP multi-ticker; message_id=1530469259086532648)
+- **TIER 3 TP EXECUTION** (2026-07-31T12:29:43Z): "Cover 2-2-2% hype-sol-zec shorts" — Continued disciplined profit-taking on alt short-basket. Closing 2% HYPE (estimated remaining: ~0%, fully closed), 2% SOL (estimated remaining: ~0%, fully closed), 2% ZEC (estimated remaining: reduced further). Portfolio allocation post-TP: estimated 25-30% total short basket (down from ~30-35% pre-close). Execution timing: morning Asian session on Thu 07-31, consistent with HCH's intraday profit-taking discipline pattern.
+- **Last update**: 2026-07-31T12:29:43Z (discord-trader-monitor, fast-path-alerted, PARTIAL TP multi-ticker; message_id=1532726959908327526)
 
 ### BTC/ETH/SOL Spot — LONGS (CLOSED)
 - **Status**: CLOSED at market 2026-07-02T10:25:13Z — "Close majors fully here"
