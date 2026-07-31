@@ -1,15 +1,11 @@
-🐦 *[X] @KillaXBT*
+🔍 *Calibration — @trading_axe*
 
-No surprise so far…
+Event: Reply to @hamptonism's post (context not visible)
 
-$BTC is down 2.8% since FOMC.  
+@trading_axe: "Why did they sneak GCR into this?
 
-In 6 of the last 7 cases, we saw average drops of 4-5%. 
+LMFAOOOO
 
-If this reaction mimics the past, we could test the low 60-61K area. 
+~ Dr. Axius."
 
-Overall, you wouldn't want to see us lose 60K otherwise we will end up sweeping the lows.
-
-[View tweet](https://x.com/KillaXBT/status/2083241800831992240)
-
-↳ _Historical FOMC pattern analysis: KillaXBT overlaying past 7 FOMC reactions, testing critical 60-61K zone that could trigger extended 54K sweep if broken._
+Unable to classify — what's your read? (GCR reference unclear; appears market-related but insufficient context)

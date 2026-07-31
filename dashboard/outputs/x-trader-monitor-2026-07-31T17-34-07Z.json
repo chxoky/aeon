@@ -1,0 +1,68 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading_calibration",
+        "event_type",
+        "sep_1",
+        "tweet_axe",
+        "sep_2",
+        "alert_classify"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Text",
+      "props": {
+        "text": "🔍 Calibration — @trading_axe",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "event_type": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @hamptonism's post (context not visible)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "tweet_axe": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Dr. Axius",
+        "handle": "trading_axe",
+        "text": "Why did they sneak GCR into this?\n\nLMFAOOOO"
+      },
+      "children": []
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert_classify": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "GCR reference unclear; appears market-related but insufficient context. What's your read?",
+        "type": "warning"
+      },
+      "children": []
+    }
+  }
+}
