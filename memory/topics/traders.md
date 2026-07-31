@@ -256,8 +256,9 @@
 - Recent thesis: Structural bullish BTC; bear cycle ~80% complete; accumulation range 57K-59K; already swept significant low, unlikely extended leg to 36-48K; multi-timeframe HTF long conviction with tactical hedges
 - Conviction notes: HIGH conviction on BTC structure. Multiple bear cycles show 3 significant lows; already swept current cycle low; 57K validates accumulation range base. Jul 31 12:59Z reiteration of months-old plan emphasizes patience on cycle structure. HTF 2x long + DCA scaling into weakness validates long-term bullish stance. Hedged with small scalp shorts for tactical risk management. Disciplined tiered profit-taking approach (25% TP on first bounce, remainder running).
 - Calibration: PENDING (Jul 31 14:39Z) — monthly options/perps position announced with invalidation 31K, P&L targets 160K/+30K, exact position type (long/short/calls/puts/perps) unclear; awaiting Kyle clarification for mirror decision
-- Last seen: 2026-07-31T14:39:00Z (X post ambiguous monthly position setup)
+- Last seen: 2026-07-31T17:22:00Z (X post FOMC historical pattern analysis)
 - **Events (rolling):**
+  - Jul 31 17:22Z — informational: FOMC historical pattern analysis; BTC 60-61K test risk, 60K sweep scenario; 6/7 cases 4-5% drops [2083241800831992240]
   - Jul 31 14:39Z — ambiguous: BTC monthly options/perps setup, invalidation 31K, P&L targets 160K profit/30K loss, "come get me" language, Kalshi chart (60% BTC->$50k), new monthly open; position type/direction unclear [2083200763229011982]
   - Jul 31 12:59Z — informational: BTC bear cycle structure thesis; final 2 lows historically most important; swept 59K level with mild bullish divergence + failed breakdown; 57K base low carries weight; unlikely extended leg to 36-48K (unlikely cap-wick); history supports already-swept low thesis [2083175767672828115]
   - Jul 31 10:39Z — informational: BTC macro sentiment post; market dryness commentary ("as dry as it was when we were at 16K last cycle", "bored beyond disbelief"); expectation of imminent move ("we are close, $BTC"); sentiment reflects macro bullish bias on cycle stage + upcoming volatility/relief expectation [2083140608625955139]

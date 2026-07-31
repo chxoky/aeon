@@ -1,0 +1,53 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-card",
+        "separator-1",
+        "link-tweet",
+        "separator-2",
+        "text-analysis"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "No surprise so far…\n\n$BTC is down 2.8% since FOMC.\n\nIn 6 of the last 7 cases, we saw average drops of 4-5%.\n\nIf this reaction mimics the past, we could test the low 60-61K area.\n\nOverall, you wouldn't want to see us lose 60K otherwise we will end up sweeping the lows."
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2083241800831992240"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Historical FOMC pattern analysis: KillaXBT overlaying past 7 FOMC reactions, testing critical 60-61K zone that could trigger extended 54K sweep if broken.",
+        "variant": "caption"
+      }
+    }
+  }
+}
