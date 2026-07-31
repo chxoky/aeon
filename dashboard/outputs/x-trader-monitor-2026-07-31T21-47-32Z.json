@@ -1,0 +1,184 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor: Calibration"
+      },
+      "children": [
+        "heading_main",
+        "section_trader",
+        "section_event",
+        "section_charts",
+        "separator_1",
+        "section_status",
+        "section_action"
+      ]
+    },
+    "heading_main": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h2"
+      }
+    },
+    "section_trader": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_trader",
+        "text_post_target"
+      ]
+    },
+    "badge_trader": {
+      "type": "Badge",
+      "props": {
+        "text": "@Wild_Randomness",
+        "variant": "secondary"
+      }
+    },
+    "text_post_target": {
+      "type": "Text",
+      "props": {
+        "text": "→ @50ptMAE",
+        "variant": "caption"
+      }
+    },
+    "section_event": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_event",
+        "text_event"
+      ]
+    },
+    "heading_event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Follow-up to earlier ambiguous SOXL post from same trader to @50ptMAE (20:30Z: 'This is my biggest concern / Selling the rip...')",
+        "variant": "body"
+      }
+    },
+    "section_charts": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_charts",
+        "text_chart_info",
+        "link_chart_1",
+        "link_chart_2"
+      ]
+    },
+    "heading_charts": {
+      "type": "Heading",
+      "props": {
+        "text": "Charts Shared",
+        "level": "h3"
+      }
+    },
+    "text_chart_info": {
+      "type": "Text",
+      "props": {
+        "text": "5 chart images (2 URLs captured):",
+        "variant": "caption"
+      }
+    },
+    "link_chart_1": {
+      "type": "Link",
+      "props": {
+        "label": "https://t.co/QIVIdADdLY",
+        "href": "https://t.co/QIVIdADdLY"
+      }
+    },
+    "link_chart_2": {
+      "type": "Link",
+      "props": {
+        "label": "https://t.co/FVReb0wh9M",
+        "href": "https://t.co/FVReb0wh9M"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_status": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "alert_status",
+        "text_status_detail"
+      ]
+    },
+    "alert_status": {
+      "type": "Alert",
+      "props": {
+        "title": "Chart Images Failed to Fetch",
+        "type": "warning"
+      }
+    },
+    "text_status_detail": {
+      "type": "Text",
+      "props": {
+        "text": "Post appears to be sharing technical analysis/charts in response to the earlier SOXL discussion, but content cannot be read to classify as trade action or informational.",
+        "variant": "body"
+      }
+    },
+    "section_action": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_action",
+        "text_action",
+        "link_original_post"
+      ]
+    },
+    "heading_action": {
+      "type": "Heading",
+      "props": {
+        "text": "Action Needed",
+        "level": "h3"
+      }
+    },
+    "text_action": {
+      "type": "Text",
+      "props": {
+        "text": "Can you check the original post on X? If this clarifies the earlier ambiguous message, it may self-resolve.",
+        "variant": "body"
+      }
+    },
+    "link_original_post": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View post on X",
+        "href": "https://x.com/Wild_Randomness/status/2083306962863944122",
+        "source": "X"
+      }
+    }
+  }
+}
