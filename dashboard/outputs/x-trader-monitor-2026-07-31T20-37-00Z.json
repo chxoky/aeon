@@ -1,0 +1,167 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading-calibration",
+        "event-section",
+        "sep-1",
+        "tweet-section",
+        "sep-2",
+        "classification-section",
+        "sep-3",
+        "context-section"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h2"
+      }
+    },
+    "event-section": {
+      "type": "Text",
+      "props": {
+        "text": "Event: SOXL (iShares Semiconductor Sector Index) testing support at 510.29 after 214% rally (April $307 → June $656 peak). Recent semis bottom call validated Jul 29-30."
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet",
+        "strategy-note",
+        "post-link"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "@50ptMAE This is my biggest concern"
+      }
+    },
+    "strategy-note": {
+      "type": "Text",
+      "props": {
+        "text": "Selling the rip into this has worked for a month",
+        "variant": "caption"
+      }
+    },
+    "post-link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2083289324825755676"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "classification-heading",
+        "classification-question",
+        "options-list"
+      ]
+    },
+    "classification-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Classification",
+        "level": "h3"
+      }
+    },
+    "classification-question": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read? Is WR currently:",
+        "variant": "lead"
+      }
+    },
+    "options-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "option-shorts",
+        "option-insight",
+        "option-concern"
+      ]
+    },
+    "option-shorts": {
+      "type": "Text",
+      "props": {
+        "text": "• Executing shorts on SOXL bounces (personal action)"
+      }
+    },
+    "option-insight": {
+      "type": "Text",
+      "props": {
+        "text": "• Sharing general strategy insight (informational)"
+      }
+    },
+    "option-concern": {
+      "type": "Text",
+      "props": {
+        "text": "• Expressing concern about semis reversal thesis breaking (bearish commentary)"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context-heading",
+        "context-text"
+      ]
+    },
+    "context-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "context-text": {
+      "type": "Text",
+      "props": {
+        "text": "WR identified semis bottom Jul 29, confirmed charts Jul 30. Cross-trader convergence: Crypto_Chase profitably closed SNDK/MU (Jul 27 80% TP), ryzzqq mean-reversion longs (Jul 28)."
+      }
+    }
+  }
+}
