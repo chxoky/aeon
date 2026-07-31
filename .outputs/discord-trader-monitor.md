@@ -1,14 +1,24 @@
-🔍 *Calibration — [DC: HCH — Comments]*
+Perfect! All memory updates are complete. Let me create a summary:
 
-↩️ _HeartCanHodl: "Got that"_
+## Summary
 
-heartcanhodl: "Fc btc 5m"
+**Skill: discord-trader-monitor**
+**Event processed: 2026-07-31T08:06:12Z**
 
-Unable to classify — what's your read? "Fc" pattern unclear; previous instances show technical structure checks (Fc btc 1m, Fc bank 1hr, Fc SNDK ema50 4hr) but actionability and specific intent unknown. 5m timeframe suggests intraday tactical check.
-🔍 *Calibration — [DC: HCH — Chat]*
+### Event Details
+- **Trader**: HeartCanHodl
+- **Channel**: 1279738718680256553 (HCH — Trades, ★most important)
+- **Message**: "Add 1% tao short"
+- **Classification**: trade-conviction-add (TAO short escalation)
+- **Fast-path**: Yes — Cloudflare Worker already sent Telegram alert; skill performed memory-only processing
 
-Third pattern occurrence: "Fc btc 5m" (also saw Jul 31 03:13Z "Fc bank 1hr", Jul 30 22:31Z "Fc btc 1m"). Context suggests technical analysis (prior: "Too risky but I think it topped there", "One more push will break above it").
+### Processing Results
+1. **Dedup check**: Message ID 1532660642639515750 not previously seen ✓
+2. **Memory updates**:
+   - Added message ID to `discord-trader-seen.txt`
+   - Updated `traders.md` with new TAO conviction add event (08:06Z entry)
+   - Logged event to `memory/logs/2026-07-31.md` with full context
+3. **Context**: This is the second TAO short add for HCH (prior add at 02:21Z +1%), bringing TAO short allocation to ~2% portfolio
+4. **Pattern**: Sixth major conviction event in overnight session; continued aggressive short basket escalation (BTC/ETH/UNI/TAO/ADA adds spanning 01:50Z–08:06Z)
 
-heartcanhodl: "Fc btc 5m"
-
-Unable to classify — what's your read?
+**No Telegram notification sent** (fast-path protocol prevents duplicate alerts).
