@@ -1,0 +1,62 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-calibration",
+        "text-event",
+        "tweet-card",
+        "alert-context"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @HeartCanHodl",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text-event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @MusicConnect10 on X",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "@HeartCanHodl",
+        "text": "Good area to tp some or more for a great scalp"
+      },
+      "children": []
+    },
+    "alert-context": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Need context on what @MusicConnect10 posted. Is HCH recommending a TP area to someone else, or describing their own TP opportunity? Which ticker/position?",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}
