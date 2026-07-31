@@ -55,7 +55,9 @@
 - **Last seen**: 2026-07-31T08:06:12Z (Discord primary Trades channel, TAO short conviction add)
 - **Events (recent):**
   - Jul 31 08:06Z — trade-conviction-add: "Add 1% tao short" (TAO expansion; fast-path alerted by Worker, no duplicate Telegram) [1532660642639515750]
+- **Last seen**: 2026-07-31T08:06:22Z (Discord primary Trades channel, SHIB short conviction add)
 - **Events (recent):**
+  - Jul 31 08:06Z — trade-conviction-add: "Add 1% shib short" (SHIB expansion of bearish crypto thesis; new ticker for HCH short constellation; fast-path alerted by Worker, no duplicate Telegram) [1532660682921611274]
   - Jul 31 07:49Z — ambiguous: "Fc btc 5m" (supporting channel "HCH — Chat"; third occurrence of "Fc" pattern (also Jul 31 03:13Z, Jul 30 22:31Z); cryptic technical abbreviation likely false-close/structure check; calibration alert sent) [1532656396426940456]
   - Jul 31 05:09Z — ambiguous: reply to @MusicConnect10 "Good area to tp some or more for a great scalp" (cryptic reply without visible context; ticker/position unclear; calibration alert sent) [2083057544575262967]
   - Jul 31 04:06Z — informational: AAPL 1h technical chart (downside structure 344.56→312.30, support 335.60); responds to @jukan05; converges with Wild_Randomness AAPL short thesis [2083041490864058429]
