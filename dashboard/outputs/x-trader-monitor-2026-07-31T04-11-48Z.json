@@ -1,0 +1,24 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-1"
+      ]
+    },
+    "tweet-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "@HeartCanHodl",
+        "text": "AAPL 1h chart downside structure 344.56 to 312.30 with support 335.60. Converges with WR SHORT (Oct puts). https://x.com/HeartCanHodl/status/2083041490864058429"
+      },
+      "children": []
+    }
+  }
+}
