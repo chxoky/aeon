@@ -1,0 +1,166 @@
+{
+  "root": "root_card",
+  "state": {},
+  "elements": {
+    "root_card": {
+      "type": "Card",
+      "props": {
+        "title": "Skill Health — 2026-07-31",
+        "description": "HEALTH: OK — 8 skills healthy"
+      },
+      "children": [
+        "main_stack"
+      ]
+    },
+    "main_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "header_stack",
+        "skills_heading",
+        "skills_stack",
+        "divider",
+        "stats_stack"
+      ]
+    },
+    "header_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "status_badge",
+        "healthy_count_stat"
+      ]
+    },
+    "status_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "OK",
+        "variant": "default"
+      }
+    },
+    "healthy_count_stat": {
+      "type": "Stat",
+      "props": {
+        "value": "8",
+        "label": "Skills Healthy"
+      }
+    },
+    "skills_heading": {
+      "type": "Text",
+      "props": {
+        "text": "Healthy Skills",
+        "variant": "lead"
+      }
+    },
+    "skills_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "skill_morning_brief",
+        "skill_token_alert",
+        "skill_token_movers",
+        "skill_market_context",
+        "skill_narrative_tracker",
+        "skill_health",
+        "skill_trader_memory",
+        "skill_heartbeat"
+      ]
+    },
+    "skill_morning_brief": {
+      "type": "Badge",
+      "props": {
+        "text": "morning-brief",
+        "variant": "secondary"
+      }
+    },
+    "skill_token_alert": {
+      "type": "Badge",
+      "props": {
+        "text": "token-alert",
+        "variant": "secondary"
+      }
+    },
+    "skill_token_movers": {
+      "type": "Badge",
+      "props": {
+        "text": "token-movers",
+        "variant": "secondary"
+      }
+    },
+    "skill_market_context": {
+      "type": "Badge",
+      "props": {
+        "text": "market-context-refresh",
+        "variant": "secondary"
+      }
+    },
+    "skill_narrative_tracker": {
+      "type": "Badge",
+      "props": {
+        "text": "narrative-tracker",
+        "variant": "secondary"
+      }
+    },
+    "skill_health": {
+      "type": "Badge",
+      "props": {
+        "text": "skill-health",
+        "variant": "secondary"
+      }
+    },
+    "skill_trader_memory": {
+      "type": "Badge",
+      "props": {
+        "text": "trader-memory-compact",
+        "variant": "secondary"
+      }
+    },
+    "skill_heartbeat": {
+      "type": "Badge",
+      "props": {
+        "text": "heartbeat",
+        "variant": "secondary"
+      }
+    },
+    "divider": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stats_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "open_issues_stat",
+        "resolved_stat"
+      ]
+    },
+    "open_issues_stat": {
+      "type": "Stat",
+      "props": {
+        "value": "0",
+        "label": "Open Issues"
+      }
+    },
+    "resolved_stat": {
+      "type": "Stat",
+      "props": {
+        "value": "0",
+        "label": "Resolved This Run"
+      }
+    }
+  }
+}
