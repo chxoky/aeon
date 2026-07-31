@@ -1,0 +1,219 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "market context — 2026-07-31"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "take_section",
+        "sep1",
+        "prices_grid",
+        "sep2",
+        "breadth_section",
+        "sep3",
+        "narrative_section"
+      ]
+    },
+    "take_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "take_label",
+        "risk_badge",
+        "conviction_badge"
+      ]
+    },
+    "take_label": {
+      "type": "Text",
+      "props": {
+        "text": "Take:",
+        "variant": "caption"
+      }
+    },
+    "risk_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "risk-off",
+        "variant": "destructive"
+      }
+    },
+    "conviction_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "conviction high",
+        "variant": "outline"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "prices_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "btc_stat",
+        "eth_stat",
+        "fg_stat"
+      ]
+    },
+    "btc_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$62,706",
+        "delta": "−2.5%",
+        "trend": "down"
+      }
+    },
+    "eth_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$1,864",
+        "delta": "−3.1%",
+        "trend": "down"
+      }
+    },
+    "fg_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Fear & Greed",
+        "value": "25",
+        "delta": "Extreme Fear"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "breadth_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "breadth_progress",
+        "tvl_stat"
+      ]
+    },
+    "breadth_progress": {
+      "type": "Progress",
+      "props": {
+        "value": 4,
+        "max": 20,
+        "label": "Breadth"
+      }
+    },
+    "tvl_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "TVL",
+        "value": "$60.1B",
+        "delta": "flat 7d"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "narrative_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "decoupling_stack",
+        "fed_stat"
+      ]
+    },
+    "decoupling_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "decoupling_heading",
+        "decoupling_comparison"
+      ]
+    },
+    "decoupling_heading": {
+      "type": "Text",
+      "props": {
+        "text": "Top narrative: crypto-equity decoupling",
+        "variant": "lead"
+      }
+    },
+    "decoupling_comparison": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "rising_badge",
+        "nasdaq_stat",
+        "crypto_stat"
+      ]
+    },
+    "rising_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "rising",
+        "variant": "secondary"
+      }
+    },
+    "nasdaq_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Nasdaq",
+        "value": "+1.23%",
+        "trend": "up"
+      }
+    },
+    "crypto_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Crypto",
+        "value": "−3%",
+        "trend": "down"
+      }
+    },
+    "fed_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Fed cut Sep 2026",
+        "value": "YES 2.4%",
+        "delta": "(polymarket esports-dominated today)"
+      }
+    }
+  }
+}
