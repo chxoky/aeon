@@ -4,8 +4,9 @@
 - Current open positions: SNDK (70% closed as of 7/31 13:35Z), MU (70% closed as of 7/31 13:35Z)
 - Recent thesis: Semis breakout play (SNDK, MU); high conviction on execution quality; tiered profit-taking discipline
 - Conviction notes: Disciplined tiered profit-taking across both positions; aggressive profit-taking: MU 920 SNDK 1380 initial trim (65%), expanded to 70% close by 13:35Z; escalating trim strategy suggests conviction in core 30% run
-- Last seen: 2026-07-31T13:35:07Z (Discord primary channel 70% close expansion on MU/SNDK)
+- Last seen: 2026-07-31T14:07:59Z (X post bearish BTC sentiment diverging from group bullish structural bias)
 - **Events (rolling):**
+  - Jul 31 14:07Z — informational: BTC bearish sarcasm ("Finally an asset that found a way to enjoy all the downside of stocks with absolutely none of the upside"); sentiment divergence vs group bullish structural consensus (KillaXBT 12:59Z, bull_genius structural bias) [2083192958770201040]
   - Jul 31 13:35Z — trade-partial-tp: "<@&1247940234558177521> 70% closed on both" (SNDK/MU escalation from 65% → 70% cumulative close; expanded profit-taking on same positions; continues disciplined tiered approach; fast-path alerted by Worker, no duplicate Telegram) [1532743414708441099]
   - Jul 31 12:57Z — skip: engagement request on X post ("show some love/rt's, ty"); non-financial banter [1532734064514175006]
   - Jul 31 12:47Z — skip: reply to @mulamula7599921 "took profit on those, i'm 6 for 6 on SNDK and MU; man you're a brainlet lmao"; social banter/bragging on past trading performance, not current action; no financial signal [2083172640143921160]

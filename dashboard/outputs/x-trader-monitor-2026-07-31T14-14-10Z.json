@@ -1,0 +1,57 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "link-view",
+        "separator-1",
+        "context-alert"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Crypto_Chase",
+        "handle": "Crypto_Chase",
+        "text": "$BTC is so innovative\n\nFinally an asset that found a way to enjoy all the downside of stocks with absolutely none of the upside 🤣"
+      }
+    },
+    "link-view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Crypto_Chase/status/2083192958770201040"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Context",
+        "message": "This cuts against the structural-bullish lean from KillaXBT (bear cycle 12:59Z) + bull_genius (Aug continuation thesis). Bearish sentiment outlier from semis-focused trader.",
+        "type": "info"
+      }
+    }
+  }
+}
