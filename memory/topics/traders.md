@@ -123,11 +123,12 @@
 
 - Platforms: X (primary; X-only, no Discord presence)
 - Current open positions: Spot BTC DCA planning (considering entries sub-50 low-50s range)
-- Recent thesis: Structural bullish on BTC long-term; bullish on HYPE exhaustion recovery (multi-timeframe exhaustion pattern, generational buy prices approaching per Jul 31 05:55Z chart analysis); bottom identification focus on major cryptos; July→August continuation thesis (historical pattern analysis showing 70k likely in early August)
-- Conviction notes: Long-term bullish structural bias; identifies exhaustion/reversal patterns; DCA-focused accumulation strategy on weakness; leverages historical July/August patterns for continuation conviction
+- Recent thesis: Structural bullish on BTC long-term; bullish on HYPE exhaustion recovery (multi-timeframe exhaustion pattern, generational buy prices approaching per Jul 31 05:55Z chart analysis); bottom identification focus on major cryptos; July→August continuation thesis (historical pattern analysis showing 70k likely in early August); near-term tactical structure analysis (90D/30D rvwap levels, perps battleground 64.2k)
+- Conviction notes: Long-term bullish structural bias; identifies exhaustion/reversal patterns; DCA-focused accumulation strategy on weakness; leverages historical July/August patterns for continuation conviction; tactical-level precision on entry/short zones for Kyle's strategy
 - Calibration: None pending
-- Last seen: 2026-07-31T08:18:31Z (X post on BTC August outlook)
+- Last seen: 2026-07-31T09:13:38Z (X post on BTC battle plan structure)
 - **Events (rolling):**
+  - Jul 31 09:13Z — informational: Rough BTC battle plan; multi-timeframe structure analysis (yearly/monthly PoC glue, 90D/30D rvwap levels, perps battleground 64.2k-63.9k, responsible sellers 67.2k, short-consideration zone 71.5k, long-term DCA target 60k); historical August bear-market pattern (weak low 57k likely run in coming months); chart image (1D BTC/USDT perpetual with annotated levels); Kyle strategic advice (let perps chill, explore onchain, consider 30d rvwap/monthly PoC tap for timing); personal stance: minimal LTF conviction ("not betting much"); market assessment: decent deal now but exceptional deal likely ahead [2083118883083366735]
   - Jul 31 08:18Z — informational: Historical BTC July/August pattern analysis; 70k August continuation thesis; chart shows 2014-2022 pattern ("joyful July → anal August" reversal) + 2026 YTD data (+11.6% July → 64.7k); projects sustained momentum early August [2083105012759044514]
   - Jul 31 07:34Z — informational: Market sentiment on $HYPE; "money rotates into bottoming stuff"; "fundamentals only got better, buys us some time while reloading for the next run"; macro bullish commentary reinforcing prior 05:55Z HYPE technical thesis; follow-up conviction reiteration, not personal trade action [2083093841784029578]
   - Jul 31 07:03Z — informational: BTC price levels and DCA strategy (sub-50 target, low-50s entry zone for spot DCA); sentiment: 90% conviction on BTC bottom; tentative on timing ("might start buying too early"); strategic accumulation discussion [2083086178237009942]

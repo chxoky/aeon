@@ -1,0 +1,114 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor: @bull_genius"
+      },
+      "children": [
+        "tweet_card",
+        "sep1",
+        "tactical_heading",
+        "tactical_levels",
+        "sep2",
+        "strategy_heading",
+        "strategy_text",
+        "sep3",
+        "view_link"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "@bull_genius",
+        "text": "htf rough battle plan for btc in coming months. price glued to yearly + monthly PoC; long-term trendlines still down-sloping against short-term uptrend. current price: decent deal longer-term but not exceptional; august historically bad month in midterm years + bear market years following july."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tactical_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Tactical Levels",
+        "level": "h3"
+      }
+    },
+    "tactical_levels": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Level",
+          "Price",
+          "Notes"
+        ],
+        "rows": [
+          [
+            "Shorts consideration",
+            "$71.5k",
+            "90D"
+          ],
+          [
+            "Responsible sellers",
+            "$67.2k",
+            ""
+          ],
+          [
+            "Perps battleground",
+            "$64.2-63.9k",
+            "30D rvwap"
+          ],
+          [
+            "Long-term nibbler DCA",
+            "$60k",
+            ""
+          ],
+          [
+            "Mortgage-ur-house bottom",
+            "$53-54.6k",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "strategy_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Strategy",
+        "level": "h3"
+      }
+    },
+    "strategy_text": {
+      "type": "Text",
+      "props": {
+        "text": "Let perps trades chill, explore onchain where bottom has occurred + first inning of new cycle. If playing ltf, consider 30d rvwap/monthly PoC tap but mu might be better risk/reward. Weak low at 57k still likely to get run; exceptional deal should be still ahead.",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/bull_genius/status/2083118883083366735"
+      }
+    }
+  }
+}
