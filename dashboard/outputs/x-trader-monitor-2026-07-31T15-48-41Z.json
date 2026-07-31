@@ -1,0 +1,70 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-calibration",
+        "separator-1",
+        "text-event",
+        "separator-2",
+        "text-classification",
+        "link-view"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @swarmister",
+        "level": "h3"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Prior post 12:11Z \"ZEROOOOOO😭😭\" to @0xTrenchor suggests frustration; now: \"Turn this light green\" to @0xTrenchor, @FalconyFalcon, @grok",
+        "variant": "body"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-classification": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — trading commentary or trader banter?",
+        "variant": "lead"
+      }
+    },
+    "link-view": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/swarmister/status/2083217217521361291"
+      }
+    }
+  }
+}
