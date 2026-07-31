@@ -1,0 +1,31 @@
+{
+  "root": "card-1",
+  "state": {},
+  "elements": {
+    "card-1": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet-1",
+        "link-1"
+      ]
+    },
+    "tweet-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "Stoiiic",
+        "text": "BTC — educational breakdown of TPO, VWAP, and composite analysis methodology. Two images showing key levels for pivotal highs/lows/opens and how to identify structural areas of interest through volume confluence.\n\nUsing context, TPO, VWAPs & key areas (found this in the archives, check out the price axis, good times. still relevant) more of these breakdowns (real-time examples)?"
+      }
+    },
+    "link-1": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Stoiiic/status/2083070520619090388"
+      }
+    }
+  }
+}

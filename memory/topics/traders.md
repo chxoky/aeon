@@ -87,10 +87,11 @@
 
 - Platforms: X (primary; X-only, no Discord presence)
 - Current open positions: Unknown (no trade action signals detected yet)
-- Recent thesis: Technical market structure analyst; focuses on order book depth / volume concentration analysis on Binance spot
-- Conviction notes: Chart-driven technical observations; limited data sample
-- Last seen: 2026-07-31T01:05:20Z (X post cryptic reply, calibration pending)
+- Recent thesis: Technical market structure analyst; focuses on order book depth / volume concentration analysis; educational technical breakdown (TPO, VWAP, composites)
+- Conviction notes: Chart-driven technical observations; educational focus; shares methodology for reading markets; limited personal trade-action data
+- Last seen: 2026-07-31T06:01:28Z (X post — educational BTC TPO/VWAP breakdown)
 - **Events (rolling):**
+  - Jul 31 06:01Z — informational: BTC H4 educational breakdown of TPO (single-print imbalances), VWAP (structural areas), composite rotation analysis; 2 images showing labeled technical methodology on 4h + H1 real-time example; asking for more real-time breakdowns [2083070520619090388]
   - Jul 31 01:05Z — ambiguous: reply to @BigTrout300 "accelerate" cryptic (9m after order book post); meaning unclear [2082995997811356083]
   - Jul 31 00:56Z — informational: BTC Binance spot order book depth chart; highlighting unusual volume concentration at 64,000 and 63,900 levels with "reveal yourself" metaphor for hidden/emerging order blocks; market structure observation (no personal action) [2082993813115605364]
 

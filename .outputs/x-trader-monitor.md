@@ -1,9 +1,7 @@
-🐦 *[X] @bull_genius*
+🐦 *[X] @Stoiiic*
 
-Hyperliquid/Tether showing structural exhaustion candles on 4h (circled tired wicks) but multi-month uptrend structure intact. "Interesting long term buy prices approaching on hype, some might even say, generational."
+BTC — educational breakdown of TPO, VWAP, and composite analysis methodology. Two images showing key levels for pivotal highs/lows/opens and how to identify structural areas of interest through volume confluence.
 
-Chart: multi-timeframe MAs (90D/365D) showing price at structural support zone after multi-week crash. Vol profile confirms historical buying zone.
+"Using context, TPO, VWAPs & key areas (found this in the archives, check out the price axis, good times. still relevant) more of these breakdowns (real-time examples)?"
 
-↳ Contrarian long-term bullish take on $HYPE vs current group short bias (HCH 2% short); watches structural reversion play
-
-[View post](https://x.com/bull_genius/status/2083069050209345917)
+[View tweet](https://x.com/Stoiiic/status/2083070520619090388)
