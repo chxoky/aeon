@@ -1,0 +1,71 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_source",
+        "sep1",
+        "text_metadata",
+        "link_chart",
+        "sep2",
+        "alert_analysis"
+      ]
+    },
+    "badge_source": {
+      "type": "Badge",
+      "props": {
+        "text": "💬 Discord — HCH (Free)",
+        "variant": "secondary"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_metadata": {
+      "type": "Text",
+      "props": {
+        "text": "Chart attachment posted by HeartCanHodl at 2026-07-31 08:32:03Z",
+        "variant": "caption"
+      }
+    },
+    "link_chart": {
+      "type": "Link",
+      "props": {
+        "label": "View Chart (chart-991.png)",
+        "href": "https://cdn.discordapp.com/attachments/1472153627324842057/1532667147178872832/chart-991.png?ex=6a6daf03&is=6a6c5d83&hm=abc1490996a394591ea80bd167495c0bea7a85235de5de9c6d649a5e7e5bba0b&"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_analysis": {
+      "type": "Alert",
+      "props": {
+        "title": "Chart Analysis",
+        "message": "Empty message text; chart only. Unable to interpret chart details in real-time — what's HCH analyzing here?",
+        "type": "info"
+      }
+    }
+  }
+}
