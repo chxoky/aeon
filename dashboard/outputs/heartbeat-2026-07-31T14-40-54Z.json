@@ -1,0 +1,81 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Heartbeat"
+      },
+      "children": [
+        "status-badge",
+        "sep1",
+        "issues-section",
+        "sep2",
+        "health-section"
+      ]
+    },
+    "status-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "🟡 WATCH",
+        "variant": "secondary"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "issues-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "issue-p3"
+      ]
+    },
+    "issue-p3": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "🔵 P3: narrative-tracker stalled ~48h",
+        "message": "Last success 2026-07-29 14:35 UTC — 2 consecutive daily runs missed at 13:30 UTC on Jul 30 and Jul 31; threshold: 48h. Check cron-state.json for dispatch anomaly."
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "health-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "other-skills",
+        "webhook"
+      ]
+    },
+    "other-skills": {
+      "type": "Text",
+      "props": {
+        "text": "All other skills healthy",
+        "variant": "body"
+      }
+    },
+    "webhook": {
+      "type": "Text",
+      "props": {
+        "text": "X webhook WATCHED_TRADERS active",
+        "variant": "body"
+      }
+    }
+  }
+}
