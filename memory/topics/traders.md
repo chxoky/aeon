@@ -57,7 +57,7 @@
   - Jul 31 12:29Z — trade-partial-tp: "Cover 2-2-2% hype-sol-zec shorts" (partial close: HYPE -2%, SOL -2%, ZEC -2%; disciplined profit-taking on alt short positions; fast-path alerted by Worker, no duplicate Telegram) [1532726959908327526]
 - **Last seen**: 2026-07-31T12:30:12Z (Discord primary Trades channel SHIB/KAITO short cover)
 - **Events (recent):**
-  - Jul 31 12:30Z — trade-partial-close: "Cover 1-1% shiba & kaito shorts" (closing 1-1% of SHIB short position from Jul 31 08:06Z entry + 1-1% of KAITO short from Jul 27 07:41Z/20:31Z builds; partial profit-taking across both positions; fast-path alerted, no duplicate Telegram by skill) [1532727081736208586]
+  - Jul 31 12:30Z — trade-partial-close: "Cover 1-1% shiba & kaito shorts" (closing 1-1% of SHIB short position from Jul 31 08:06Z entry + 1-1% of KAITO short from Jul 27 07:41Z/20:31Z builds; partial profit-taking across both positions; fast-path alerted, no duplicate Telegram by skill) [1532727081736208586]; **Context (12:44Z supporting channel):** "Lately having both L&S is part of risk management" — explains philosophy behind active dual long+short position management
   - Jul 31 12:24Z — skip: "It's gonna be exciting PA ahead of us" (sentiment follow-up reiteration to X post Jul 31 12:06Z on 62k-63k range; no new information or trade action) [1532725740632805507]
   - Jul 31 12:06Z — cross-platform-dedup (X reiteration): "62k-63k is the range of interest, isn't it?" (BTC technical 62k-63k range validation w/ ltf & mtf charts; 45min after Discord 11:21Z; adds chart images + timeframe confirmation; conviction weight +1) [2083162394499612746]
   - Jul 31 11:25Z — ambiguous: "True" (supporting channel "HCH — Chat"; single word with no context; calibration alert sent) [1532710706338725978]
