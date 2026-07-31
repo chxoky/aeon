@@ -439,6 +439,20 @@
 - **Approval/Alert status**: FAST-PATH ALERTED (Telegram already sent by Cloudflare Worker); no duplicate send by skill. Await Kyle signal on whether to mirror VVV short on Kraken or monitor as memory-only entry.
 - **Last update**: 2026-07-19T02:08:23Z (discord-trader-monitor, fast-path alerted, TRADE-CONVICTION-ADD; message_id=1528221938521079908)
 
+### SOL — LONG (CONVICTION ADD — 2026-07-31)
+- **Status**: ACTIVE — trade-conviction-add 2026-07-31T15:07:38Z
+- **Entry**: 2026-07-31T15:07:38Z (Discord Trades channel)
+- **Entry message**: "Add 5% sol long" (direct execution call, primary Trades channel)
+- **Entry type**: Market order (execution at current price)
+- **Portfolio allocation**: 5% initial allocation
+- **Entry level**: Unknown (exact price not specified in Discord message; market order execution per timing)
+- **Entry context**: HCH transitioned from net-short basket (BTC/ETH shorts closed 14:27Z) to net-long-major thesis (14:35Z confirmation on BTC/ETH at 62k support). SOL long entry at 15:07Z (32min later) represents tactical long-tier expansion following macro pair capitalization. Execution timing: Friday afternoon UTC approaching Asia PM session; suggests deliberate position building aligned with major-pair long pivot.
+- **Rationale**: Continuation of HCH's emerging BULLISH long thesis on crypto majors + alts. SOL represents alt-tier conviction long within broader net-long regime shift from prior bearish short basket (Jul 03–31 heavily-short positioning). Entry timing coincides with major-pair long confirmation, structural support testing (BTC 62k validated), and broader group bullish momentum (t_in_crypto BTC add 14:15Z, bull_genius structural bull narrative, KillaXBT HTF 2x swing long conviction).
+- **Conviction**: HIGH (direct execution call on ★most-important primary channel; 5% allocation represents tier-1 conviction sizing matching documented short-basket tier tiers; execution within 32min of major-pair pivot represents cascading conviction escalation, not delayed re-entry. Language "Add 5% sol long" assumes existing SOL baseline or emerging position from net-long rebalancing; likely fresh entry as primary initiation into emerging long thesis tier).
+- **Cross-platform note**: First mention of HCH SOL long across all tracked platforms (X + Discord) at 15:07:38Z. No prior SOL long documented in active-trades.md recent updates (only shorts from Jul 14 secondary account, all covered by Jul 31 morning TP executions). Discord message is FIRST SIGHTING of SOL long entry.
+- **Approval/Alert status**: FAST-PATH ALERTED (Telegram already sent by Cloudflare Worker ~2-5s post-message); no duplicate send by skill. Await Kyle signal on whether to mirror SOL long on Kraken or monitor as memory-only entry.
+- **Last update**: 2026-07-31T15:07:38Z (discord-trader-monitor, fast-path-alerted, TRADE-CONVICTION-ADD; message_id=1532766697231224995)
+
 ## Wild_Randomness
 
 ### NVDA — SHORT (PUT) — ACTIVE (entry 2026-07-14)

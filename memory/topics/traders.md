@@ -68,11 +68,9 @@
 
 ## HeartCanHodl
 
-- **Last seen**: 2026-07-31T14:35:56Z (Discord primary Comments channel position shift confirmation)
+- **Last seen**: 2026-07-31T15:07:38Z (Discord primary Trades channel SOL long conviction add)
 - **Events (recent):**
-  - Jul 31 14:35Z — informational: "Now we are net long major as we reached close to 62k" (confirms execution of planned long entry at 62k support level after BTC/ETH short cover at 14:27Z; position shift from net-short to net-long-major on BTC/ETH pair; reply to own message "Going partial major long close to this and 62k range"; primary Comments channel; fast-path alerted by Worker, no duplicate Telegram) [1532758722261024890]
-- **Last seen**: 2026-07-31T14:58:05Z (X post market sentiment on AAPL/SPX weakness)
-- **Events (recent):**
+  - Jul 31 15:07Z — trade-conviction-add: "Add 5% sol long" (primary Trades channel; SOL long conviction add as part of emerging net-long positioning shift following BTC/ETH short cover at 14:27Z and position flip confirmation at 14:35Z; execution timing 32min after major-pair long position confirmation suggests escalating bullish thesis on alts; fast-path alerted by Worker, no duplicate Telegram) [1532766697231224995]
   - Jul 31 14:58Z — informational: "$AAPL is down bad" (SPX E-mini futures chart -0.43%; market sentiment observation using hearsay; not personal action; converges with WR AAPL short thesis; image shows broader market weakness) [2083205565095063607]
   - Jul 31 14:46Z — informational: "Most volatile market week in a while?" (X post with volatility charts SNDK/MU/NBIS/DRAM indices + portfolio +23.58% PnL vs BTC -1.25%; market observation with outperformance signal; no personal trade action; alerted) [2083202635335872679]
   - Jul 31 14:36Z — informational: "It would be great if the market swings towards 65k+ btc & 1.9k+ eth" (HCH Comments channel; market technical level aspiration on BTC/ETH targets; no personal action stated; fast-path alerted by Worker, no duplicate Telegram by skill) [1532758982408798338]
