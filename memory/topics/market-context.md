@@ -1,26 +1,25 @@
-# Market Context (as of 2026-07-29)
+# Market Context (as of 2026-07-31)
 
-> **Take:** chop — ETH −1.1% and breadth cooling 16/20→12/20 green as market retraces into FOMC at 2pm ET; F&G flat at 29 (Fear); Polymarket hike odds up +3.8pp to 24.95% in final pre-decision hours. Conviction: medium.
+> **Take:** chop — BTC flat at +0.4% 24h with breadth cooling to 9/20 green and F&G slipping into Extreme Fear (25); September hike odds hit 52.5% post-FOMC hold, no bounce materialized. Conviction: medium.
 
 ## Signal Snapshot
-- BTC $64,241 (+1.4% 24h, −1.8% 7d) · dominance 56.65% (flat vs prior)
-- ETH $1,896.63 (+0.6% 24h, −0.8% 7d) · ETH/BTC 0.02953 (prior 0.02978, ETH underperforming)
-- SOL $73.35 (+0.2% 24h, −4.8% 7d)
-- Total mcap $2.275T (+0.85% 24h) · DEX vol $7.26B 24h (flat vs prior)
-- Breadth: 12/20 green 24h · 2/20 green 7d
-- Fear & Greed: 29 (Fear) — yesterday 29 (unchanged)
+- BTC $63,950 (+0.4% 24h, −1.6% 7d) · dominance 56.47% (−0.18pp 24h)
+- ETH $1,886 (0.0% 24h, +1.2% 7d) · ETH/BTC 0.02949 (prior 0.02953, marginal ETH underperformance)
+- SOL $73.61 (+0.6% 24h, −2.2% 7d)
+- Total mcap $2.271T (+0.1% 24h) · DEX vol $7.04B 24h (−3.0% vs prior $7.26B)
+- Breadth: 9/20 green 24h · 5/20 green 7d
+- Fear & Greed: 25 (Extreme Fear) — yesterday 28 (Fear)
 
 ## What Changed Since Last Refresh
-- Pre-FOMC pullback: ETH −$21 (−1.1%) and BTC −$165 (−0.3%) since morning refresh; breadth cooled 16/20 → 12/20 green — market retracing into the Fed decision
-- Polymarket hawkish repricing: Fed no-change 78.85% → 75.25% (−3.6pp); hike odds 21.15% → 24.95% (+3.8pp) on $5.66M combined 24h vol — sharpest pre-decision repositioning of the session
-- BTC ETF outflows 4th consecutive day ($49.75M Jul 28; IBIT −3,511 BTC weekly); Morgan Stanley ETH Trust launched Jul 28 = first clean institutional BTC→ETH rotation signal in weeks
+- September FOMC hawkish repricing: +25bps hike odds now 52.5% on Polymarket ($426K 24h vol) — market looked through July's confirmed hold (rates held 3.50–3.75%) and is now pricing a majority-probability September hike; most material macro shift since FOMC resolution
+- UNI +10.69% today (trending #4, $426M vol) while HCH escalated to 5th UNI short add (allocation now 6%, largest single add 2%); retail breakout vs. highest-conviction smart-money short in direct conflict
+- F&G crossed into Extreme Fear: 28 (Fear) → 25 (Extreme Fear); post-FOMC sentiment failed to recover, no bounce confirmation
 
 ## Active Narratives
-- **FOMC decision gate (resolves 2pm ET today)** — phase: peak. Evidence: Polymarket no-change 75.25% (was 78.85% at morning refresh); +25bps 24.95%; $5.66M 24h combined vol. No-change → relief bounce to 65.4K; hike → flush toward 61.8K–60K.
-- **AI/attention layer (KAITO, TAO)** — phase: rising. Evidence: KAITO +11.6% 24h trending #2 ($65M vol = 21% of $305M mcap daily turnover); TAO +3.6% 24h trending #15 ($116M vol). Two AI-adjacent tokens leading trending with high relative volume in a flat market.
-- **Altcoin 7d contraction** — phase: fading. Evidence: 7d breadth just 2/20 (XMR +0.8%, LEO +0.7% only green weekly); XRP −5.6% 7d, SOL −4.8% 7d, ADA −4.6% 7d despite today's 24h bounce — bounce is a retest, not a reversal.
-- **Institutional ETH rotation** — phase: emerging. Evidence: Morgan Stanley ETH Trust launched Jul 28; BTC ETF 4-day outflow streak; ETH ETFs posting third straight weekly inflow. First sustained institutional preference shift toward ETH this cycle.
-- **UNI tension (contested)** — phase: emerging. Evidence: UNI +4.0% 24h trending #5 ($278M vol); HCH 4th short conviction add today (14:14Z, 4th add in 13 days, ultra-high allocation) — retail momentum vs. highest-conviction short-basket trader in direct conflict.
+- **September FOMC hawkish repricing** — phase: rising. Evidence: September +25bps YES 52.5% on Polymarket ($426K 24h vol) vs no-change 44.5% — market pricing hike majority for next meeting, first time this cycle.
+- **UNI breakout (contested)** — phase: rising. Evidence: UNI +10.69% 24h trending #4, $426M vol, rank 34; simultaneously, HCH added 5th UNI short today (now 6% portfolio, 2% single-add largest to date) — retail breakout meets maximum-conviction short.
+- **Perp DEX / infra (HYPE, GRVT)** — phase: rising. Evidence: HYPE +3.30% rank-10 trending ($410M vol); GRVT trending #3 ($243M vol at rank 664 = extreme vol-to-mcap ratio on Deribit expiry day); 2 perp/infra tokens in top-5 trending.
+- **BTC ETF demand anemia** — phase: fading. Evidence: July 2026 ETF total inflows just $205M — smallest monthly on record; institutional demand story eroding even post-FOMC no-change.
 
 ## Top DeFi Protocols (TVL, 7d change)
 - Lido: $17.83B (−0.40% 7d) [carried]
@@ -30,38 +29,39 @@
 - WBTC: $7.24B (−3.24% 7d) [carried]
 
 ## Chain Flow (top 5 by TVL, vs prior refresh)
-- Ethereum: $41.37B (+$70M vs prior)
-- Tron: $4.83B (flat)
-- BSC: $4.81B (flat)
-- Solana: $4.79B (+$20M vs prior)
-- Base: $4.59B (+$30M vs prior)
+- Ethereum: $41.30B (−$70M vs prior)
+- BSC: $4.89B (+$80M vs prior)
+- Tron: $4.88B (+$50M vs prior)
+- Solana: $4.79B (flat)
+- Base: $4.63B (+$40M vs prior)
 
 ## Stablecoins
-Total: ~$271.5B (top 5). USDT $183.84B · USDC $72.30B · USDS $6.56B · DAI $4.79B · USD1 $4.05B — combined share of mcap ~11.9%.
+Total: ~$270.9B (top 5). USDT $183.60B · USDC $71.94B · USDS $6.55B · DAI $4.80B · USD1 $4.01B — combined share of mcap ~11.9%.
 
 ## Trending (CoinGecko)
-- KAITO — rank #122, $1.27, +11.6% 24h [AI/attention leading; high relative vol 21% of mcap]
-- META (MetaDAO) — rank #217, $5.56, +31.4% 24h [standalone spike; only $18.9M vol on $126M mcap — unconfirmed]
-- CASHCAT — rank #546, $0.0358, +7.1% 24h [meme momentum, small cap]
-- UNI (Uniswap) — rank #37, $4.04, +4.0% 24h [trending #5; ⚠ HCH 4th short add today — contested]
-- TAO (Bittensor) — rank #42, $193.64, +3.6% 24h [AI/compute persistent; ⚠ HCH short active]
-- CSPR (Casper Network) — rank #629, $0.00179, +6.3% 24h [low-cap momentum; low vol]
+- UNI (Uniswap) — rank #34, $4.39, +10.69% 24h [Deribit-expiry breakout; $426M vol; ⚠ HCH 5th short add today, now 6% allocation — contested]
+- GIGGLE — rank #512, $39.28, +55.59% 24h [small-cap meme spike; $46M vol, low conviction]
+- HYPE (Hyperliquid) — rank #10, $55.46, +3.30% 24h [perp infra trending; $410M vol; bull_genius watching structural bottom — counter-thesis emerging vs group short]
+- GRVT — rank #664, $0.237, 0% 24h [trending #3 with $243M vol; vol-to-mcap anomaly; new perp/infra narrative signal]
+- PENGU (Pudgy Penguins) — rank #112, $0.006, +3.37% 24h [NFT/gaming momentum; $114M vol]
+- TAO (Bittensor) — rank #42, $194.33, +1.61% 24h [AI/compute persistent; ⚠ HCH added 1% short today — escalating]
 
 ## Prediction Markets (Polymarket, top by 24h vol)
 | Market | YES% | 24h Vol | Liquidity |
 |--------|------|---------|-----------|
-| Fed no change July 2026 | 75.25% | $3.54M | $183.65K |
-| Fed +25 bps July 2026 | 24.95% | $2.12M | $192.25K |
+| Will U.S. invade Iran before 2027? | 24.5% | $670K | $1.13M |
+| Fed no change September 2026 | 44.5% | $615.7K | $387.2K |
+| Fed +25 bps September 2026 | 52.5% | $426.5K | $526.6K |
+| Clarity Act (H.R.3633) signed in 2026? | 31% | $362.5K | $35K |
 
 ## Macro Catalysts (next 48h)
-- **FOMC 2pm ET today (decision imminent):** No-change 75.25% / +25bps 24.95%; hawkish repricing −3.6pp since morning. If hike: BTC targets 61.8K–60K flush; if no-change: relief bounce to 65.4K (weekly open) then 66.5K. Forward guidance on rate-cut path matters more than the yes/no.
-- **BTC ETF outflows (4th consecutive day):** IBIT −3,511 BTC weekly, $49.75M outflow Jul 28. Morgan Stanley ETH Trust launch Jul 28 = institutional rotation signal; if ETH ETF inflows persist a 5th day it becomes a trend.
-- **Coinbase + Strategy earnings Jul 30:** Post-FOMC sentiment amplifier; MSTR BTC accumulation data moves institutional narrative fast.
-- **Deribit BTC options expiry Jul 31:** $66K pin; volatility amplifier post-FOMC decision.
+- **Deribit monthly BTC/ETH expiry today (Jul 31):** $66K max pain pin; sharp short-term volatility expected as positions close. Don't read today's alt breakouts (UNI +10.69%, ADA +4%) as clean directional signals until expiry settles (late UTC afternoon).
+- **September FOMC hawkish repricing in progress:** +25bps at 52.5% — sustained hike odds above 55% would be a structural BTC headwind targeting $60K–$61.8K. NFP (Aug 7) is the next major catalyst; a hot print pushes hike odds higher.
+- **BTC ETF July close (today):** On track for smallest monthly inflows ever ($205M); final daily flow data post-FOMC sets institutional demand narrative for August.
 
 ## Implications for Downstream Skills
-- **token-pick:** Hold until FOMC resolves (2pm ET today). If no-change confirmed: gate is BTC hold above $64K + breadth >14/20. KAITO is the strongest momentum candidate (top trending, high relative vol). UNI ⚠ contested — avoid longs while HCH short is active. TAO ⚠ HCH short active — do not add long exposure.
-- **narrative-tracker:** FOMC gate resolves today — key phase transition moment. KAITO/TAO AI-attention cluster both trending with substance (high relative vol); candidate for rising→peak upgrade if breadth recovers post-FOMC. Institutional ETH rotation warrants upgrade to rising if ETF outflow streak hits day 5. UNI divergence is highest-priority monitoring signal for a phase flip.
+- **token-pick:** Hold off new longs until Deribit expiry resolves. UNI ⚠ — do not enter long despite +10.69%; HCH 5th short add today (6% allocation) is the highest smart-money conviction signal vs. retail in the basket. TAO ⚠ HCH added 1% short today, escalating. Cleanest momentum without active short overlay: ADA +4.0% and BNB +3.5%. HYPE structurally interesting (bull_genius bottom watch) but group short bias active.
+- **narrative-tracker:** September FOMC hawkish repricing is new primary macro theme — flag if hike odds breach 60%. UNI tension upgraded to rising (5th short add + 10.69% breakout = confirmed phase). GRVT vol anomaly worth one-day watch for perp infra narrative confirmation. HYPE structural bottom thesis (bull_genius) vs HCH short = emerging counter-narrative to monitor.
 
 ## Token Picks Made
 | Date | Token | Price | Thesis |
