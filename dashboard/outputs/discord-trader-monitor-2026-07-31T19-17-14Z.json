@@ -1,0 +1,84 @@
+{
+  "root": "main",
+  "state": {},
+  "elements": {
+    "main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "header",
+        "message_content"
+      ]
+    },
+    "header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "source_badge",
+        "channel_badge",
+        "category_badge"
+      ]
+    },
+    "source_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Discord",
+        "variant": "outline"
+      }
+    },
+    "channel_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Chase",
+        "variant": "default"
+      }
+    },
+    "category_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "TradFi",
+        "variant": "secondary"
+      }
+    },
+    "message_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "asset_heading",
+        "analysis_text"
+      ]
+    },
+    "asset_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "GCD/2026",
+        "level": "h3"
+      }
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Technical chart shared — bottom consolidation with bullish recovery setup; current price in breakout zone",
+        "variant": "body"
+      }
+    }
+  }
+}
