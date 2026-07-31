@@ -1,0 +1,176 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration analysis — bull_genius FOMO entry"
+      },
+      "children": [
+        "heading_calib",
+        "sep1",
+        "event_section",
+        "sep2",
+        "tweet_card",
+        "sep3",
+        "analysis_section",
+        "sep4",
+        "question_alert",
+        "sep5",
+        "link_section"
+      ]
+    },
+    "heading_calib": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration — @bull_genius",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "event_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event_label",
+        "event_text"
+      ]
+    },
+    "event_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "event_text": {
+      "type": "Text",
+      "props": {
+        "text": "Personal FOMO long entry described as 'shameful' that hit 7d rvwap overnight"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "stonks, marmot literally just chased after +15% and still profited shekels. big rebound after leopold supposed liquidation. hit 7d rvwap and bit higher overnight. havent posted cos it was so late it was a shameful fomo long. not much money but cmon we take it"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "analysis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis_heading",
+        "analysis_text",
+        "tickers_heading",
+        "tickers_group",
+        "clarity_alert"
+      ]
+    },
+    "analysis_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Analysis",
+        "level": "h3"
+      }
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Mentioned tickers: SNDK (technical level observation), Bitcoin (upcoming interest). The exact ticker of the FOMO long entry is unclear from the post."
+      }
+    },
+    "tickers_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Mentioned Tickers",
+        "level": "h4"
+      }
+    },
+    "tickers_group": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_sndk",
+        "badge_bitcoin"
+      ]
+    },
+    "badge_sndk": {
+      "type": "Badge",
+      "props": {
+        "text": "SNDK",
+        "variant": "outline"
+      }
+    },
+    "badge_bitcoin": {
+      "type": "Badge",
+      "props": {
+        "text": "Bitcoin",
+        "variant": "outline"
+      }
+    },
+    "clarity_alert": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "The exact ticker of the FOMO long entry is unclear from the post."
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "question_alert": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "title": "Classification Request",
+        "message": "Unable to classify — what's your read? Is this a mirror-able setup, and which ticker?"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {}
+    },
+    "link_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_post"
+      ]
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/bull_genius/status/2083066853488726278"
+      }
+    }
+  }
+}
