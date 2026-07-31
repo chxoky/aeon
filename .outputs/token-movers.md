@@ -1,16 +1,15 @@
-The run is complete. Here's the summary:
+Done. Here's what happened:
 
-## Summary
+**Token Movers — 2026-07-31**
 
-**Data fetched:** CoinGecko `/coins/markets` (250 coins, 1h/24h/7d) + `/search/trending` (15 trending coins). Sandbox blocked Python/bash-script execution, so analysis was done via WebFetch fallback on the same URL.
+**Market pulse:** Mild alt rotation — 65/100 top coins green, median +0.4%. BTC flat at $63,961. No broad trend, just selective moves.
 
-**Market pulse (2026-07-30, ~13:00 UTC):** Mixed and mildly green — 62/100 top coins positive, median 24h +0.4%. Privacy coins (ZEC +3.9%, XMR +3.7%) and DeFi (UNI +2.9%, ONDO +4.6%, AAVE) are rotating up. Meme-adjacent tokens taking the biggest hits.
+**Key findings:**
 
-**Key signals:**
-- **[TRENDING+UP]** ONDO (+4.6%, 7d +4.2%) and PI (+4.9%) — both trending and gaining, coordinated DeFi/RWA + L1 rotation
-- **[TRENDING+DOWN]** HYPE (−3.0%, 7d −10.1%) — persistent perp DEX selling
-- **BANK (Lorenzo Protocol)** — trending #6 while down −51.3% with 4× vol/mcap; likely exit event or exploit, flagged in Notable
-- **M (MemeCore)** — down −18.3% matching 7d −17.8%; structural downtrend, not capitulation
+- **UNI is the standout** — +13.7% on $427M volume while also trending #4. DeFi rotation, strongest signal of the day. Tagged [TRENDING+UP].
+- **Winners are broadly shallow** — everything else is sub-6%, mostly relief bounces in downtrends (ENA +4.3% / 7d −9.2%, INJ +4.0% / 7d −9.1% = [FADE] patterns).
+- **Losers are thin** — consistent with the positive tape. MEME at −8.5% is the worst, ZEC at −3.4% continues its multi-week slide (relevant to HCH's short basket).
+- **GIGGLE [PUMP-RISK]** — rank #512 coin up +55.6% and trending #5. Classic low-cap pump, flagged prominently.
+- **BANK (Lorenzo Protocol) [TRENDING+DOWN]** — trending #7 at −50.9%. Catastrophic crash on a rank-624 token; possible rug or bad news event.
 
-**Notification:** Queued in `.pending-notify/1753878400.md` for post-run delivery to Telegram/Discord/Slack.  
-**Log:** Appended to `memory/logs/2026-07-30.md`.
+Notification queued to `.pending-notify/1753954800.md` for post-run Telegram delivery. Log appended to `memory/logs/2026-07-31.md`.
