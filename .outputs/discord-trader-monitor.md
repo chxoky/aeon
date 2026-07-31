@@ -1,27 +1,26 @@
-Perfect! I've successfully processed the Discord trader monitor event. Here's what was done:
+Perfect! The skill has been executed successfully. Here's the summary:
 
 ## Summary
 
-**Event Processed:** HeartCanHodl's UNI short conviction add on 2026-07-31T02:17:40Z
+**Discord Trader Monitor — HCH TAO Short Conviction Add**
 
-**Classification:** `trade-conviction-add`
+**Event Processed:**
+- Message: "Add 1% tao short"
+- Trader: HeartCanHodl (heartcanhodl)
+- Channel: 1279738718680256553 (HCH — Trades, PRIMARY ★)
+- Time: 2026-07-31T02:21:03Z
+- Message ID: 1532573781044756511
 
-**Key Details:**
-- **Ticker:** UNI (Uniswap)
-- **Action:** "Add 2% uni short"
-- **Position Evolution:** 4% → 6% (magnitude escalation to 2x prior tier size)
-- **Channel:** 1279738718680256553 (HCH — Trades, most important channel)
-- **Message ID:** 1532572928795869335
+**Classification:** `trade-conviction-add` on TAO (Bittensor)
 
-**Alert Status:**
-- ✅ Fast-path alerted by Cloudflare Worker (Telegram already sent ~2-5s after event)
-- No duplicate Telegram sent per protocol
-- Memory-only processing applied
+**Processing Status:**
+- **Fast-path alert:** ✓ Already sent by Cloudflare Worker (~2-5s latency)
+- **Skill role:** Memory & audit only (skipped redundant Telegram send)
+- **Dedup check:** New message ID, no duplicate in seen list
 
 **Memory Updates:**
-1. **discord-trader-seen.txt** — added message ID to prevent reprocessing
-2. **traders.md** — added new event entry; updated last-seen timestamp to 02:17:40Z
-3. **active-trades.md** — updated UNI short from 4% to 6%; noted magnitude escalation and ultra-high conviction (fifth add across 15-day window)
-4. **logs/2026-07-31.md** — detailed event log with portfolio context
+1. ✅ `discord-trader-seen.txt` — Added message ID (145 total)
+2. ✅ `traders.md` (HeartCanHodl section) — Logged conviction add; updated last-seen timestamp to 02:21:03Z
+3. ✅ `memory/logs/2026-07-31.md` — Full event log with context
 
-**Conviction Assessment:** MAXIMUM — Fifth conviction add with 2x magnitude escalation; coordinated portfolio rebalancing (BTC/ETH adds at 01:50Z, partial close at 01:52Z, then UNI 2% add at 02:17Z). Current short basket estimated at 45-50% allocation with UNI now representing 12-14% of total.
+**Context:** Fourth crypto short escalation in 35 minutes (BTC +5%, ETH +5%, UNI +2%, TAO +1%), reflecting aggressive portfolio rebalancing into bearish thesis. No X cross-post found; Discord-first sourcing. Verbatim message text preserved per channel hardcoding rule.

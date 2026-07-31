@@ -47,8 +47,9 @@
 
 ## HeartCanHodl
 
-- **Last seen**: 2026-07-31T02:17:40Z (Discord primary Trades channel conviction add)
+- **Last seen**: 2026-07-31T02:21:03Z (Discord primary Trades channel conviction add)
 - **Events (recent):**
+  - Jul 31 02:21Z — trade-conviction-add: "Add 1% tao short" (TAO escalation; bearish crypto thesis; fast-path alerted) [1532573781044756511]
   - Jul 31 02:17Z — trade-conviction-add: "Add 2% uni short" (UNI short escalation from 4% → 6% portfolio allocation; continued aggressive scaling into bearish crypto thesis; fast-path alerted by Cloudflare Worker, no duplicate Telegram from skill) [1532572928795869335]
   - Jul 31 01:53Z — ambiguous: "I thought it will give us time" (cryptic supporting-channel message in premium member chat, 3min after BTC/ETH +5% conviction add; possibly referring to time for shorts to develop, but meaning unclear without broader context; supporting channel message, no alert sent; may relate to conviction add at 01:50Z) [1532566877111320759]
   - Jul 31 01:50Z — trade-conviction-add: "Add 5-5% btc & eth short" (BTC +5%, ETH +5% conviction add to active short basket; continued aggressive scaling into downside thesis; fast-path alerted by Cloudflare Worker, no duplicate Telegram from skill) [1532566072891281418]
