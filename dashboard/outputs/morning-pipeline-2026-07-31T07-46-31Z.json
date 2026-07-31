@@ -1,0 +1,425 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-07-31"
+      },
+      "children": [
+        "stack_root"
+      ]
+    },
+    "stack_root": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h_focus",
+        "stack_focus",
+        "sep1",
+        "h_since",
+        "stack_since",
+        "sep2",
+        "h_watch",
+        "stack_watch",
+        "sep3",
+        "h_running",
+        "stack_running"
+      ]
+    },
+    "h_focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "stack_focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus_1_stack",
+        "focus_2_stack",
+        "focus_3_stack"
+      ]
+    },
+    "focus_1_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "f1_title",
+        "f1_reason"
+      ]
+    },
+    "f1_title": {
+      "type": "Text",
+      "props": {
+        "text": "Deribit $9.57B BTC options expiry (max pain $64K)",
+        "variant": "lead"
+      }
+    },
+    "f1_reason": {
+      "type": "Text",
+      "props": {
+        "text": "Expiry clears today; direction pivot likely post-noon UTC",
+        "variant": "body"
+      }
+    },
+    "focus_2_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "f2_title",
+        "f2_reason"
+      ]
+    },
+    "f2_title": {
+      "type": "Text",
+      "props": {
+        "text": "HCH 50%+ short basket",
+        "variant": "lead"
+      }
+    },
+    "f2_reason": {
+      "type": "Text",
+      "props": {
+        "text": "6 conviction adds in 96min overnight (BTC/ETH +5%, UNI +2%, TAO +1%, ADA +1%, BTC/ETH +2.5%); sharpest single-session escalation on record",
+        "variant": "body"
+      }
+    },
+    "focus_3_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "f3_title",
+        "f3_reason"
+      ]
+    },
+    "f3_title": {
+      "type": "Text",
+      "props": {
+        "text": "UNI +10.8% into HCH's 6% short",
+        "variant": "lead"
+      }
+    },
+    "f3_reason": {
+      "type": "Text",
+      "props": {
+        "text": "DEX surge creates maximum tension with highest-conviction single-name short in the basket",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "h_since": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "stack_since": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "s_hch_stack",
+        "s_chase_stack",
+        "s_aapl_stack",
+        "s_semis_stack",
+        "s_pipeline_stack"
+      ]
+    },
+    "s_hch_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "s_hch_title",
+        "s_hch_detail"
+      ]
+    },
+    "s_hch_title": {
+      "type": "Text",
+      "props": {
+        "text": "HCH",
+        "variant": "lead"
+      }
+    },
+    "s_hch_detail": {
+      "type": "Text",
+      "props": {
+        "text": "Short basket expanded aggressively overnight — BTC ~9-14%, ETH ~11-16%, UNI 6%, TAO, ADA all added; 20% BTC cover at 63K with conditional re-add at 65K",
+        "variant": "body"
+      }
+    },
+    "s_chase_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "s_chase_title",
+        "s_chase_detail"
+      ]
+    },
+    "s_chase_title": {
+      "type": "Text",
+      "props": {
+        "text": "Chase",
+        "variant": "lead"
+      }
+    },
+    "s_chase_detail": {
+      "type": "Text",
+      "props": {
+        "text": "TP'd MU @920 + SNDK @1380 (65% cumulative closed on both); core 35% remains",
+        "variant": "body"
+      }
+    },
+    "s_aapl_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "s_aapl_title",
+        "s_aapl_detail"
+      ]
+    },
+    "s_aapl_title": {
+      "type": "Text",
+      "props": {
+        "text": "AAPL",
+        "variant": "lead"
+      }
+    },
+    "s_aapl_detail": {
+      "type": "Text",
+      "props": {
+        "text": "Intraday −7.8% Jul 30 validated HCH + Wild_Randomness short thesis; active positions remain open",
+        "variant": "body"
+      }
+    },
+    "s_semis_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "s_semis_title",
+        "s_semis_detail"
+      ]
+    },
+    "s_semis_title": {
+      "type": "Text",
+      "props": {
+        "text": "Semis/SOXL",
+        "variant": "lead"
+      }
+    },
+    "s_semis_detail": {
+      "type": "Text",
+      "props": {
+        "text": "4-trader bottom convergence (Chase TP → ryzzqq entry → WR tech confirm → HCH hedge TP @ +58%); \"easy leg is behind us\"",
+        "variant": "body"
+      }
+    },
+    "s_pipeline_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "s_pipeline_title",
+        "s_pipeline_detail"
+      ]
+    },
+    "s_pipeline_title": {
+      "type": "Text",
+      "props": {
+        "text": "Morning-pipeline",
+        "variant": "lead"
+      }
+    },
+    "s_pipeline_detail": {
+      "type": "Text",
+      "props": {
+        "text": "Missed Jul 30 — delivered now",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "h_watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "stack_watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "w_uni_stack",
+        "w_fomc_stack"
+      ]
+    },
+    "w_uni_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "w_uni_title",
+        "w_uni_badge",
+        "w_uni_detail"
+      ]
+    },
+    "w_uni_title": {
+      "type": "Text",
+      "props": {
+        "text": "UNI: surging +10.8%",
+        "variant": "lead"
+      }
+    },
+    "w_uni_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+UP",
+        "variant": "secondary"
+      }
+    },
+    "w_uni_detail": {
+      "type": "Text",
+      "props": {
+        "text": "While HCH is at maximum conviction short — track for reversal or squeeze",
+        "variant": "body"
+      }
+    },
+    "w_fomc_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "w_fomc_title",
+        "w_fomc_detail"
+      ]
+    },
+    "w_fomc_title": {
+      "type": "Text",
+      "props": {
+        "text": "September FOMC",
+        "variant": "lead"
+      }
+    },
+    "w_fomc_detail": {
+      "type": "Text",
+      "props": {
+        "text": "Post-July hold, Sep +25bps now 52.5% on Polymarket; rate uncertainty headwind",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "h_running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "stack_running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "r_1",
+        "r_2",
+        "r_3",
+        "r_4",
+        "r_5"
+      ]
+    },
+    "r_1": {
+      "type": "Text",
+      "props": {
+        "text": "token-alert @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "r_2": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "r_3": {
+      "type": "Text",
+      "props": {
+        "text": "market-context-refresh @ 13:00 UTC",
+        "variant": "body"
+      }
+    },
+    "r_4": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC",
+        "variant": "body"
+      }
+    },
+    "r_5": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 14:00, 20:00 UTC",
+        "variant": "body"
+      }
+    }
+  }
+}

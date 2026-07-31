@@ -1,23 +1,24 @@
-*Morning Brief — 2026-07-29*
+*Morning Brief — 2026-07-31*
 
 *Focus today*
-1. FOMC decision 2pm ET — no-change 78.85%, hike 21.15%; BTC +1.4% bounce into decision; outcome in ~7h
-2. HCH expanded short basket overnight — added HYPE (3rd day), TAO (NEW ticker), UNI (3rd add, 3% total); BTC target: 60K if channel breaks
-3. Pending approvals unresolved — swarmister AVAX + BTC, ryzzqq semis DCA (SNDK/DRAM/MU/SKHY), WR NVDA puts; FOMC may trigger entry levels
+1. Deribit $9.57B BTC options expiry (max pain $64K) — why now: expiry clears today; direction pivot likely post-noon UTC
+2. HCH 50%+ short basket — why now: 6 conviction adds in 96min overnight (BTC/ETH +5%, UNI +2%, TAO +1%, ADA +1%, BTC/ETH +2.5%); sharpest single-session escalation on record
+3. UNI +10.8% into HCH's 6% short — why now: DEX surge creates maximum tension with highest-conviction single-name short in the basket
 
 *Since yesterday*
-- Moved: BTC $63,423 → $64,406 (+$983, +1.55%); ETH +$29; total mcap +$25B
-- KOSPI −10% intraday crash (South Korea largest 2-day decline in history — HCH flagged as bearish macro catalyst; HCH: 'now downside is capped for some timeframe')
-- WR calibrations pending: MU chart 'hmm', 'Crypto strength (until it's not)', 'Thau's spicy' — still unresolved, Kyle's read needed
-- Stack: all skills green, no failures; chain:morning-pipeline running now
+- HCH: short basket expanded aggressively overnight — BTC ~9-14%, ETH ~11-16%, UNI 6%, TAO, ADA all added; 20% BTC cover at 63K with conditional re-add at 65K
+- Chase: TP'd MU @920 + SNDK @1380 (65% cumulative closed on both); core 35% remains
+- AAPL: intraday −7.8% Jul 30 validated HCH + Wild_Randomness short thesis; active positions remain open
+- Semis/SOXL: 4-trader bottom convergence (Chase TP → ryzzqq entry → WR tech confirm → HCH hedge TP @ +58%); "easy leg is behind us"
+- Morning-pipeline missed Jul 30 — delivered now
 
 *Watch*
-- KOSPI −10%: potential equity contagion signal into FOMC hike scenario; HCH and WR both flagged; BTC 60K becomes key if no-change fails to trigger bounce
+- UNI: surging +10.8% (TRENDING+UP) while HCH is at maximum conviction short — track for reversal or squeeze
+- September FOMC: post-July hold, Sep +25bps now 52.5% on Polymarket; rate uncertainty headwind
 
 *Running today*
-- x/discord-trader-monitor @ every 15min (continuous)
-- heartbeat @ 08:00, 14:00, 20:00 UTC
-- token-alert + token-movers @ 12:00 UTC
+- token-alert @ 12:00 UTC
+- token-movers @ 12:00 UTC
 - market-context-refresh @ 13:00 UTC
 - narrative-tracker @ 13:30 UTC
-- skill-health @ 18:00 UTC
+- heartbeat @ 14:00, 20:00 UTC
