@@ -1,0 +1,40 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "container"
+      ]
+    },
+    "container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "status_badge",
+        "message_text"
+      ]
+    },
+    "status_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "success",
+        "variant": "default"
+      }
+    },
+    "message_text": {
+      "type": "Text",
+      "props": {
+        "text": "HCH bare URL link share (non-financial skip)",
+        "variant": "body"
+      }
+    }
+  }
+}

@@ -46,3 +46,4 @@ HCH's short basket allocation expanded ~1% (estimated current ~46-51% total shor
 
 **Next Action:**
 Await Kyle's decision on whether to mirror ADA short on Kraken or track as memory-only entry per Step 6 approval protocol.
+discord-trader-monitor success — HCH bare URL link share (non-financial skip)
