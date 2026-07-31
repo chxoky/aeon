@@ -1,0 +1,33 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "view_link"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "$ETH $BTC\n\nETH looks like BTC PA from the last bear market rally\n\nPattern match: Both show exhaustion rallies from cycle lows (BTC ~60k→peak→breakdown; ETH ~1600→peak→breakdown). Similar declining trend lines + multiple false resistance tests before breakdown. ETH currently mirroring the established bear pattern."
+      },
+      "children": []
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2083295894066377167"
+      },
+      "children": []
+    }
+  }
+}
