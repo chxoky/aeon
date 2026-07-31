@@ -1,0 +1,67 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "view_tweet_link",
+        "separator_1",
+        "context_heading",
+        "context_text",
+        "put_call_ratio"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Ken stays winning…\n\n1. FUDs a rate hike to put the final nail in Leopold's coffin, and scoops discounted assets\n\n2. You monkeys are loading calls at every local high, and puts at every local low"
+      },
+      "children": []
+    },
+    "view_tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2083306578288275734"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "context_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "Commentary on Ken Griffin's purported market positioning relative to Fed's Jul 29 rate hold decision (3.5-3.75%); observation on retail trader behavior (reverse psychology: calls at highs/puts at lows). Put/Call ratios currently 0.69-1.05 range showing mixed sentiment."
+      },
+      "children": []
+    },
+    "put_call_ratio": {
+      "type": "Stat",
+      "props": {
+        "label": "Put/Call Ratio Range",
+        "value": "0.69–1.05"
+      },
+      "children": []
+    }
+  }
+}

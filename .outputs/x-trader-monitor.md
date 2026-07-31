@@ -1,7 +1,11 @@
-🐦 *[X] @Wild_Randomness*
+🐦 [X] @Wild_Randomness
 
-Patience https://t.co/yMD0y47VIz
+Ken stays winning…
 
-_BTC rally consolidation signal: +9.12% YTD July, but ATM vol at moderate-lower range + volume historically weak = low-conviction pump into higher levels. Market-structure commentary on patience thesis with bearish positioning._
+1. FUDs a rate hike to put the final nail in Leopold's coffin, and scoops discounted assets
 
-[View tweet](https://x.com/Wild_Randomness/status/2083302308025413901)
+2. You monkeys are loading calls at every local high, and puts at every local low
+
+[View tweet](https://x.com/Wild_Randomness/status/2083306578288275734)
+
+**Context:** Commentary on Ken Griffin's purported market positioning relative to Fed's Jul 29 rate hold decision (3.5-3.75%); observation on retail trader behavior (reverse psychology: calls at highs/puts at lows). Put/Call ratios currently 0.69-1.05 range showing mixed sentiment.
