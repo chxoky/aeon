@@ -1,11 +1,12 @@
 ## Crypto_Chase
 
 - Platforms: Discord (primary: 1336082716063694962; supporting: 1343971265962049597, 1247927786681794601)
-- Current open positions: SNDK (65% closed as of 7/31 01:04Z), MU (65% closed as of 7/31 01:04Z)
+- Current open positions: SNDK (70% closed as of 7/31 13:35Z), MU (70% closed as of 7/31 13:35Z)
 - Recent thesis: Semis breakout play (SNDK, MU); high conviction on execution quality; tiered profit-taking discipline
-- Conviction notes: Disciplined tiered profit-taking across both positions; trim executions at technical price levels (MU 920, SNDK 1380); 65% cumulative close on both signals capital preservation + core remainder run
-- Last seen: 2026-07-31T12:57:57Z (Discord primary channel engagement request)
+- Conviction notes: Disciplined tiered profit-taking across both positions; aggressive profit-taking: MU 920 SNDK 1380 initial trim (65%), expanded to 70% close by 13:35Z; escalating trim strategy suggests conviction in core 30% run
+- Last seen: 2026-07-31T13:35:07Z (Discord primary channel 70% close expansion on MU/SNDK)
 - **Events (rolling):**
+  - Jul 31 13:35Z — trade-partial-tp: "<@&1247940234558177521> 70% closed on both" (SNDK/MU escalation from 65% → 70% cumulative close; expanded profit-taking on same positions; continues disciplined tiered approach; fast-path alerted by Worker, no duplicate Telegram) [1532743414708441099]
   - Jul 31 12:57Z — skip: engagement request on X post ("show some love/rt's, ty"); non-financial banter [1532734064514175006]
   - Jul 31 12:47Z — skip: reply to @mulamula7599921 "took profit on those, i'm 6 for 6 on SNDK and MU; man you're a brainlet lmao"; social banter/bragging on past trading performance, not current action; no financial signal [2083172640143921160]
   - Jul 31 01:04Z — trade-partial-tp: "Trim MU here at 920, SNDK here at 1380, 65% closed on both" (partial TP execution on both semis positions; cumulative 65% closed on each, core 35% held to run; fast-path alerted by Worker, no duplicate Telegram) [1532554559694831758]
