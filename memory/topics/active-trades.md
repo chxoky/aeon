@@ -345,7 +345,8 @@
   - 2026-07-27T07:48:13Z: X post confirmation with technical setup/targets
   - 2026-07-27T20:31:54Z: Conviction add 2% on primary Trades channel (total now 4%)
   - **2026-07-31T12:30:12Z: PARTIAL CLOSE — "Cover 1-1% shiba & kaito shorts"** (message_id=1532727081736208586, fast-path alerted, covered 1% of KAITO short; current size ~3%)
-- **Last update**: 2026-07-31T12:30:12Z (discord-trader-monitor, fast-path-alerted, TRADE-PARTIAL-CLOSE; message_id=1532727081736208586)
+  - **2026-07-31T15:24:39Z: PARTIAL CLOSE — "Cover half kaito shorts"** (message_id=1532770981272354986, fast-path alerted, covered 50% of remaining KAITO short ~1.5%; current size ~1.5%)
+- **Last update**: 2026-07-31T15:24:39Z (discord-trader-monitor, fast-path-alerted, TRADE-PARTIAL-CLOSE; message_id=1532770981272354986)
 
 ### BTC/ETH SHORTS — PARTIAL TP (2026-07-24)
 - **Status**: ACTIVE — PARTIAL PROFIT-TAKING 2026-07-24T13:09:13Z — "Closing 5% btc short and 2.5% eth short here at lower 64k"
