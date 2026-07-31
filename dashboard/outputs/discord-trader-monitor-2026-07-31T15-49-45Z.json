@@ -1,0 +1,47 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Calibration — HeartCanHodl activity context"
+      },
+      "children": [
+        "header-section",
+        "event-section",
+        "message-section",
+        "classification-alert"
+      ]
+    },
+    "header-section": {
+      "type": "Text",
+      "props": {
+        "text": "🔍 Calibration — [DC: HCH — Chat]",
+        "variant": "muted"
+      }
+    },
+    "event-section": {
+      "type": "Text",
+      "props": {
+        "text": "Event: HeartCanHodl's recent activity context",
+        "variant": "caption"
+      }
+    },
+    "message-section": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "text": "Oh. Wow"
+      }
+    },
+    "classification-alert": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "Unable to classify — what's your read?"
+      }
+    }
+  }
+}

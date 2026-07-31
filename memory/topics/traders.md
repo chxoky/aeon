@@ -73,8 +73,10 @@
 
 ## HeartCanHodl
 
-- **Last seen**: 2026-07-31T15:23:13Z (Discord primary Trades channel TAO short cover)
+- **Last seen**: 2026-07-31T15:46:31Z (Discord supporting Chat channel cryptic message)
 - **Events (recent):**
+  - Jul 31 15:46Z — ambiguous: "Oh. Wow" (supporting channel "HCH — Chat"; cryptic two-word exclamation with no context; no personal action stated; no ticker/position referenced; calibration alert sent) [1532776482789654568]
+  - Jul 31 15:24Z — trade-partial-close: "Cover half kaito shorts" (primary Trades channel; closing 50% of active KAITO short position from prior Jul 27 entries; estimated ~1.5% of portfolio reduction; continued disciplined profit-taking on alt-short basket following recent session TP events; fast-path alerted by Worker, no duplicate Telegram) [1532770981272354986]
   - Jul 31 15:23Z — trade-partial-close: "Cover tao shorts" (primary Trades channel; closing short position on TAO from prior 02:21Z + 08:06Z conviction adds [~2% combined]; de-risking from bearish alt-thesis micro-cap position; timing 16min after SOL long add suggests coordinated rebalancing toward net-long setup; fast-path alerted by Worker, no duplicate Telegram) [1532770622684532756]
 - **Last seen**: 2026-07-31T15:24:39Z (Discord primary Trades channel KAITO short cover)
 - **Events (recent):**
