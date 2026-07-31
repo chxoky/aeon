@@ -1,0 +1,41 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "link_post"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "Hyperliquid/Tether showing structural exhaustion candles on 4h (circled tired wicks) but multi-month uptrend structure intact. \"Interesting long term buy prices approaching on hype, some might even say, generational.\"\n\nChart: multi-timeframe MAs (90D/365D) showing price at structural support zone after multi-week crash. Vol profile confirms historical buying zone.\n\nContrarian long-term bullish take on $HYPE vs current group short bias (HCH 2% short); watches structural reversion play"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/bull_genius/status/2083069050209345917"
+      }
+    }
+  }
+}

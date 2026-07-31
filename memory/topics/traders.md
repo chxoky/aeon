@@ -110,10 +110,11 @@
 ## bull_genius
 
 - Platforms: X (primary; X-only, no Discord presence)
-- Current open positions: FOMO long (ticker unclear, hit 7d rvwap, overnight entry)
-- Recent thesis: Multi-asset trader with focus on stocks/semis and crypto; meme/casual posting style; engagement with community traders ("marmot", "leopold")
-- Conviction notes: First entry in tracking window (Jul 31 05:46Z). Took FOMO long described as "shameful" entry that hit 7d rvwap overnight with small position size. Casual/humorous tone ("stonks", "shekels", "cmon we take it") suggests entertainment-oriented trading mixed with technical awareness (7d rvwap, technical levels). Commentary on other traders' actions (marmot, leopold) indicates engagement with trading community. References SNDK technical levels and Bitcoin structure.
-- Calibration: PENDING — author took personal FOMO long but exact ticker not explicitly stated in post; requires Kyle clarification on ticker and whether to mirror.
-- Last seen: 2026-07-31T05:46:54Z (X post — ambiguous FOMO long entry)
+- Current open positions: FOMO long (ticker unclear, hit 7d rvwap, overnight entry); watching $HYPE for long-term accumulation
+- Recent thesis: Multi-asset trader with focus on stocks/semis and crypto; meme/casual posting style; engagement with community traders ("marmot", "leopold"). Technical analyst on multi-timeframe structures (7d rvwap, 90D/365D moving averages).
+- Conviction notes: First entries in tracking window (Jul 31 05:46Z ambiguous FOMO long, 05:55Z HYPE structural analysis). FOMO long described as "shameful" entry that hit 7d rvwap overnight. HYPE post shows multi-timeframe technical analysis (4-hour chart, 90D/365D MAs) identifying structural exhaustion bottom with "generational" buy opportunity. Casual/humorous tone mixed with technical awareness. References SNDK technical levels and Bitcoin structure.
+- Calibration: PENDING (Jul 31 05:46Z) — author took personal FOMO long but exact ticker not explicitly stated; requires Kyle clarification on ticker and whether to mirror.
+- Last seen: 2026-07-31T05:55:37Z (X post — HYPE structural technical analysis)
 - **Events (rolling):**
+  - Jul 31 05:55Z — informational: Hyperliquid/Tether 4h exhaustion candles + multi-month uptrend structure; "interesting long term buy prices approaching on hype, generational"; multi-timeframe technical analysis on $HYPE; no personal trade execution stated [2083069050209345917]
   - Jul 31 05:46Z — ambiguous: "stonks, marmot chased +15%, leopold liquidation", personal "shameful fomo long hit 7d rvwap overnight", SNDK technical level mention, BTC commentary; exact ticker of FOMO long unclear; calibration pending [2083066853488726278]
