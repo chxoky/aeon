@@ -1,0 +1,98 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "🔍 Calibration — @HeartCanHodl"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event_block",
+        "sep1",
+        "post_block",
+        "sep2",
+        "question_block"
+      ]
+    },
+    "event_block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event_label",
+        "event_text"
+      ]
+    },
+    "event_label": {
+      "type": "Text",
+      "props": {
+        "text": "Event",
+        "variant": "lead"
+      }
+    },
+    "event_text": {
+      "type": "Text",
+      "props": {
+        "text": "Just added 2.5-2.5% BTC/ETH shorts + 1% ADA short (conviction adds, 03:27–03:29Z Discord)"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "post_block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "post_label",
+        "post_content"
+      ]
+    },
+    "post_label": {
+      "type": "Text",
+      "props": {
+        "text": "X post (03:33Z)",
+        "variant": "lead"
+      }
+    },
+    "post_content": {
+      "type": "Text",
+      "props": {
+        "text": "👇🏻"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "question_block": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "title": "Classification Unknown",
+        "message": "Unable to classify — what's your read? (Arrow pointing down? Market direction signal? Image reference that didn't load?)"
+      }
+    }
+  }
+}

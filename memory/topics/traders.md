@@ -47,8 +47,10 @@
 
 ## HeartCanHodl
 
-- **Last seen**: 2026-07-31T03:27:46Z (Discord primary Trades channel conviction add BTC/ETH shorts)
+- **Last seen**: 2026-07-31T03:33:49Z (X post cryptic arrow emoji)
 - **Events (recent):**
+  - Jul 31 03:33Z — ambiguous: "👇🏻" (emoji-only cryptic post on X, calibration alert sent; unable to determine context without clarification) [2083033362432966709]
+  - Jul 31 03:29Z — trade-conviction-add: "Add 1 % ada short" (ADA expansion of bearish crypto thesis; new ticker for HCH short constellation; fast-path alerted by Worker, no duplicate Telegram) [1532590935144141001]
   - Jul 31 03:27Z — trade-conviction-add: "Add 2.5-2.5% btc & eth shorts" (BTC +2.5%, ETH +2.5% conviction add to active short basket; continued aggressive scaling into bearish crypto thesis; fast-path alerted by Worker, no duplicate Telegram from skill) [1532590571615424552]
 - **Last seen**: 2026-07-31T03:29:13Z (Discord primary Trades channel conviction add)
 - **Events (recent):**
