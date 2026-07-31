@@ -1,6 +1,10 @@
-🔍 *Calibration — @HeartCanHodl*
+🔍 *Calibration — @Wild_Randomness*
 
-Event: Reply to @MusicConnect10 on X
-HeartCanHodl: "Good area to tp some or more for a great scalp"
+Text: "$SPX $NDX Textbook [link]"
+Images: 4 technical charts, all showing XYZ100 (crypto perpetuals) not SPX/NDX
 
-Unable to classify — need context on what @MusicConnect10 posted. Is HCH recommending a TP area to someone else, or describing their own TP opportunity? Which ticker/position?
+Cannot classify — mismatch between text ticker mentions (equity indices) and image content (crypto perpetual contract patterns). Is this: (a) generic textbook pattern examples? (b) error/wrong images? (c) SPX/NDX actually showing same pattern? (d) something else?
+
+Tweet: https://x.com/Wild_Randomness/status/2083059907544545286
+
+What's your read?

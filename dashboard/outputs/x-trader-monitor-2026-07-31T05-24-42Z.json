@@ -1,0 +1,90 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration analysis from @Wild_Randomness"
+      },
+      "children": [
+        "heading_main",
+        "section_content"
+      ]
+    },
+    "heading_main": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h2"
+      }
+    },
+    "section_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_textcontent",
+        "text_imagecontent",
+        "separator_1",
+        "alert_issue",
+        "text_question_options",
+        "separator_2",
+        "link_tweet",
+        "text_closing"
+      ]
+    },
+    "text_textcontent": {
+      "type": "Text",
+      "props": {
+        "text": "Text: $SPX $NDX Textbook [link]"
+      }
+    },
+    "text_imagecontent": {
+      "type": "Text",
+      "props": {
+        "text": "Images: 4 technical charts, all showing XYZ100 (crypto perpetuals) not SPX/NDX"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "alert_issue": {
+      "type": "Alert",
+      "props": {
+        "title": "Cannot classify",
+        "message": "Mismatch between text ticker mentions (equity indices) and image content (crypto perpetual contract patterns)",
+        "type": "warning"
+      }
+    },
+    "text_question_options": {
+      "type": "Text",
+      "props": {
+        "text": "Is this:\n(a) generic textbook pattern examples?\n(b) error/wrong images?\n(c) SPX/NDX actually showing same pattern?\n(d) something else?"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "link_tweet": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Original tweet by @Wild_Randomness",
+        "href": "https://x.com/Wild_Randomness/status/2083059907544545286",
+        "source": "Twitter"
+      }
+    },
+    "text_closing": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "lead"
+      }
+    }
+  }
+}

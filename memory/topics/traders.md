@@ -23,8 +23,9 @@
 - Recent thesis: Macro bear, dispersion trade framework; owns cheapest index hedges; left-tail vol play into "Jump the Shark" moment; market leadership rotation to AAPL/DIA in Iran-war scenario per baseline. ALAB technical analysis following GavinSBaker insights (Jul 15: right shoulder $440 target; Jul 25: DCA strategy patience). Jul 30 23:06Z post confirms ALAB daily/weekly structure: +20% gain to $299.69, Gavin Baker validation (liked post), multi-timeframe technical confirmation.
 - Conviction notes: URL-only posts = noise unless ticker+action+level all present per baseline calibration rule. Highest noise volume among tracked traders; core positions are options/vol structures, not directional equity. Jul 30 22:10Z post cryptic ("They'll do @GavinnSBaker") was ambiguous reference to this follow-up technical chart post (23:06Z) with GavinSBaker's validation.
 - Calibration: RESOLVED Jul 30 23:06Z — earlier ambiguous post (22:10Z) clarified by chart images: daily/weekly ALAB technical structure with +20% daily gain + Gavin Baker's like validating analysis (not action ambiguity, technical confirmation).
-- Last seen: 2026-07-31 04:50:15 UTC
+- Last seen: 2026-07-31 05:19:17 UTC
 - **Events (rolling):**
+  - Jul 31 05:19Z — ambiguous: Text says "$SPX $NDX Textbook" but 4 images show XYZ100 crypto perpetual technical patterns; mismatch between text tickers and image content [2083059907544545286]
   - Jul 31 04:50Z — skip: reply to @chimpcap1tal "How'd those work out" (social inquiry/banter; asking about someone else's trades, no personal action or market signal) [2083052597389492483]
   - Jul 31 04:46Z — informational: ZEC technical level 486.61 support breach; 1d chart analysis with meme commentary [2083051682859217275]
   - Jul 30 23:06Z — informational: ALAB charts (daily/weekly structure, +20% to $299.69); Gavin Baker validation (liked post); technical multi-timeframe confirmation on existing Sep thesis [2082965987339690465]
