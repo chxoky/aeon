@@ -1,0 +1,60 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_aapl",
+        "link_view_post",
+        "separator_1",
+        "note_alignment"
+      ]
+    },
+    "tweet_aapl": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Unprecedented? AAPL technical + historical analysis:\n- Daily structure shows reversal setup (Jul 29 @343.74)\n- Statistical: 330 consecutive days without 7%+ selloff (historical record 1241d in 2018–19)\n- If after-hours decline holds, historical streak resets — bearish mean-reversion signal"
+      },
+      "children": []
+    },
+    "link_view_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2083180583786791282"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "note_alignment": {
+      "type": "Text",
+      "props": {
+        "text": "Aligns with your existing Oct $300 short from Jul 28 (@$341–$342 entry). Cross-trader AAPL bearish convergence with HCH.",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
