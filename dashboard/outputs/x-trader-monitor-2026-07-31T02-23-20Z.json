@@ -1,0 +1,58 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Close Note — @ryzzqq"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat_sol",
+        "text_entry_note",
+        "text_market_obs",
+        "link_post"
+      ]
+    },
+    "stat_sol": {
+      "type": "Stat",
+      "props": {
+        "label": "SOL position closed",
+        "value": "74.2",
+        "delta": "-1%",
+        "trend": "down"
+      }
+    },
+    "text_entry_note": {
+      "type": "Text",
+      "props": {
+        "text": "Entry at 01:09Z was pending approval for Kraken mirror — no position to close on your account.",
+        "variant": "muted"
+      }
+    },
+    "text_market_obs": {
+      "type": "Text",
+      "props": {
+        "text": "Market observation: trader notes range consolidation + 'weird flow on btc'",
+        "variant": "body"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/ryzzqq/status/2083014661935620319"
+      }
+    }
+  }
+}

@@ -84,9 +84,10 @@
 ## ryzzqq
 
 - Platforms: X (primary; X-only, no Discord presence)
-- Current open positions: SOL (long, SL 72, awaiting Kyle approval 2026-07-31T01:09:51Z)
+- Current open positions: None (SOL entry awaiting approval not executed on Kraken; trader closed position)
 - Recent thesis: Multi-ticker discretionary trader; semis reversal longs (prior SNDK/DRAM/MU/SKHY positions), BTC small longs, ETH bearish shorts bias (looking for shorts), TAO longs (closed -3% Jul 25), LIT bearish technical
-- Conviction notes: Tactical trader with intraday/swing focus; active position management across crypto + semis. Prior DCA entries on semis (Jul 28 50% filled), conservative sizing on reversals.
-- Last seen: 2026-07-31T01:09:51Z (SOL long entry)
+- Conviction notes: Tactical trader with intraday/swing focus; active position management across crypto + semis. Prior DCA entries on semis (Jul 28 50% filled), conservative sizing on reversals. Disciplined trade cycle: entered SOL at 01:09Z, exited at 02:19Z for -1% loss after observing "weird flow on btc"; holding on consolidated trading range.
+- Last seen: 2026-07-31T02:19:30Z (SOL close position)
 - **Events (rolling):**
+  - Jul 31 02:19Z — informational-close: "mb closing here at 74.2 for -1%, we still in the middle...noticed some weird flow on btc" (position close at 74.2 for -1% loss, likely SOL from 01:09Z entry; market observation on range consolidation + BTC flow anomaly; no mirror on Kraken — entry never approved) [2083014661935620319]
   - Jul 31 01:09Z — trade-new-entry: SOL long with SL 72, awaiting Kyle approval [2082997133121368363]
