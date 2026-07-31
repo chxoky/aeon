@@ -1,5 +1,6 @@
-🐦 *[X] @Stoiiic*
+🔍 *Calibration — @Stoiiic*
 
-BTC Binance spot order book showing unusual volume concentration at key levels (64,000 and 63,900 zones). Chart shows hidden/large visible order blocks.
+Event: ~9 min after their BTC order book analysis (01:05Z)
+Stoiiic: "@BigTrout300 accelerate"
 
-[View tweet](https://x.com/Stoiiic/status/2082993813115605364)
+Unable to classify — what's your read? (Reply to confirm understanding)
