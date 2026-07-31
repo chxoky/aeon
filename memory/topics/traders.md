@@ -210,13 +210,14 @@
 
 ## KillaXBT
 
-- Platforms: X (primary; dual-platform, Discord presence documented in discord-channels.json primary channel 1411492188315193416 labeled "K", currently X-monitored only)
-- Current open positions: Unknown (first tracked event, no position data)
-- Recent thesis: BTC macro sentiment; market condition commentary (volatility/cycle phase observation)
-- Conviction notes: Early-stage tracking. Jul 31 10:39Z post reflects macro sentiment on current market dryness ("dry as 16K cycle") + expectation of imminent move ("we are close"). Suggests bullish bias expecting relief rally or volatility breakout after consolidation/choppy period. X-primary posting pattern (no Discord activity detected in memory yet).
+- Platforms: X (primary; X-only per current tracking)
+- Current open positions: BTC (HTF 2x long swing from 62.6K, 25% TP at 63.8K/62.6K Jul 18, SL at BE on remainder; spot accumulation targeting ~20 BTC over 3-4 months; small scalp short hedge 64.8K-65.8K ladder)
+- Recent thesis: Structural bullish BTC; bear cycle ~80% complete; accumulation range 57K-59K; already swept significant low, unlikely extended leg to 36-48K; multi-timeframe HTF long conviction with tactical hedges
+- Conviction notes: HIGH conviction on BTC structure. Multiple bear cycles show 3 significant lows; already swept current cycle low; 57K validates accumulation range base. Jul 31 12:59Z reiteration of months-old plan emphasizes patience on cycle structure. HTF 2x long + DCA scaling into weakness validates long-term bullish stance. Hedged with small scalp shorts for tactical risk management. Disciplined tiered profit-taking approach (25% TP on first bounce, remainder running).
 - Calibration: None pending.
-- Last seen: 2026-07-31T10:39:58Z (X post BTC macro sentiment)
+- Last seen: 2026-07-31T12:59:41Z (X post BTC bear cycle structure analysis)
 - **Events (rolling):**
+  - Jul 31 12:59Z — informational: BTC bear cycle structure thesis; final 2 lows historically most important; swept 59K level with mild bullish divergence + failed breakdown; 57K base low carries weight; unlikely extended leg to 36-48K (unlikely cap-wick); history supports already-swept low thesis [2083175767672828115]
   - Jul 31 10:39Z — informational: BTC macro sentiment post; market dryness commentary ("as dry as it was when we were at 16K last cycle", "bored beyond disbelief"); expectation of imminent move ("we are close, $BTC"); sentiment reflects macro bullish bias on cycle stage + upcoming volatility/relief expectation [2083140608625955139]
 
 ## Bitcoin_Astro

@@ -1,0 +1,31 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet_1",
+        "link_view"
+      ]
+    },
+    "tweet_1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "This was my plan from months ago… $BTC\n\nThe big capitalization wick everyone is hunting for is unlikely to extend us significantly lower (36-48K). In every bear cycle we form 3 significant lows. The final 2 are usually the most important.\n\nBTC swept the 59K level, printed mild bullish divergence, and failed to break lower with any real force. If we were truly headed for a leg down to 40K, it should have happened already.\n\nI believe we are firmly inside the accumulation range, with 57K acting as the overall base low, a level that carries a lot of weight.\n\nThat doesn't mean we can't trade below it. It simply means I don't expect another extended leg down into the extreme lows most people are targeting.\n\nHistory supports this view. We have already swept the significant low, just as we've done in every previous cycle.\n\nThat fact is more important than most realize."
+      }
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/KillaXBT/status/2083175767672828115"
+      }
+    }
+  }
+}
