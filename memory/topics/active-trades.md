@@ -455,6 +455,20 @@
 - **Approval/Alert status**: FAST-PATH ALERTED (Telegram already sent by Cloudflare Worker ~2-5s post-message); no duplicate send by skill. Await Kyle signal on whether to mirror SOL long on Kraken or monitor as memory-only entry.
 - **Last update**: 2026-07-31T15:07:38Z (discord-trader-monitor, fast-path-alerted, TRADE-CONVICTION-ADD; message_id=1532766697231224995)
 
+### ZEC — LONG (NEW ENTRY — CONVICTION ADD 2026-08-01)
+- **Status**: ACTIVE — trade-conviction-add 2026-08-01T12:00:11Z
+- **Entry**: 2026-08-01T12:00:11Z (Discord Trades channel)
+- **Entry message**: "Add 2.5% zec long" (direct execution call, primary Trades channel)
+- **Entry type**: Market order (execution at current price)
+- **Portfolio allocation**: 2.5% initial allocation
+- **Entry level**: Unknown (exact price not specified in Discord message; market order execution per timing)
+- **Entry context**: HCH transitioned from multi-month ZEC short conviction to ZEC long conviction following completion of extensive short-basket liquidation (BTC/ETH/SOL/HYPE/ZEC all shorts closed by 05:08Z early morning Aug 01). ZEC long entry at 12:00Z represents shift from structural bearish thesis on altcoins to EMERGING BULLISH thesis on mid-tier established coins. Position timing aligns with: (1) PENGU long conviction 11:16Z Aug 01 (willingness to 1%), (2) macro bullish regime shift evidenced by major-pair long adds Jul 31 (SOL +5%, HYPE +5%), (3) cross-trader convergence with bull_genius structural-bottom thesis on HYPE/alts (Jul 31 05:55Z exhaustion bottom analysis).
+- **Rationale**: ZEC longs represent portfolio diversification from major-pair BTC/ETH longs into mid-tier altcoin recovery play. Prior months' ZEC short conviction (high-conviction short basket tracking through Jul 31) exhausted via disciplined profit-taking waves. Inversion to long thesis suggests: (a) technical structure confirmation on ZEC charts (supportive of prior Wild_Randomness technical level monitoring Jul 31 04:46Z), (b) capitulation of prior short thesis and capitalization of reversal momentum, or (c) pre-planned rebalancing into altcoin long cycle following macro short-basket cover discipline. Entry timing: early market afternoon UTC consistent with Asia afternoon session; suggests price-action validation or scheduled portfolio rebalancing execution.
+- **Conviction**: MEDIUM-HIGH (direct execution call on ★most-important primary channel; 2.5% allocation represents tier-2 conviction sizing within net-long regime shift; immediate booking after shorts closed 05:08Z + PENGU willingness 11:16Z suggests systematic long accumulation into emerging bullish week).
+- **Cross-platform note**: First mention of HCH ZEC long across all tracked platforms (X + Discord) at 12:00Z. No prior ZEC long documented in active-trades.md (only ZEC shorts closed 05:08Z). Discord message is FIRST SIGHTING of ZEC long entry.
+- **Approval/Alert status**: FAST-PATH ALERTED (Telegram already sent by Cloudflare Worker ~2-5s post-message); no duplicate send by skill. Await Kyle signal on whether to mirror ZEC long on Kraken or monitor as memory-only entry.
+- **Last update**: 2026-08-01T12:00:11Z (discord-trader-monitor, fast-path-alerted, TRADE-CONVICTION-ADD; message_id=1533081912036294769)
+
 ## Wild_Randomness
 
 ### NVDA — SHORT (PUT) — ACTIVE (entry 2026-07-14)
