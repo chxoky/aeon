@@ -1,0 +1,24 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X-Trader-Monitor"
+      },
+      "children": [
+        "tweet_1"
+      ]
+    },
+    "tweet_1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "SPY volume structure analysis — rally from 660→750 occurred on dramatically low volume, suggesting weak conviction. Parallel NQ pattern shows distribution. Validates market structure weakness disguised as strength.\n\nYeah"
+      },
+      "children": []
+    }
+  }
+}
