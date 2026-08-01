@@ -1,9 +1,7 @@
-🐦 *[X] @KillaXBT*
+🐦 *[X] @Wild_Randomness*
 
-Monday has not been pretty for $BTC recently. 
+Why is Ethereum here
 
-11/12 weeks, Monday set the high, followed by a 3–5% drop. 
+[View tweet](https://x.com/Wild_Randomness/status/2083546082798440773)
 
-Lets see what next week will bring... Monday high or a Monday low? Pay attention to the structure, sessions, and killzones.
-
-[View post](https://x.com/KillaXBT/status/2083534966852305270)
+↳ _Chart shows ETH recovering within Fundstrat AI downstream-plays sector rotation (vs correcting semis SMH/DRAM). Multi-ticker technical observation on sector mean-reversion thesis._

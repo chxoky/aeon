@@ -1,0 +1,52 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "tweet_link",
+        "explanation_text"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Why is Ethereum here"
+      },
+      "children": []
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2083546082798440773"
+      },
+      "children": []
+    },
+    "explanation_text": {
+      "type": "Text",
+      "props": {
+        "text": "Chart shows ETH recovering within Fundstrat AI downstream-plays sector rotation (vs correcting semis SMH/DRAM). Multi-ticker technical observation on sector mean-reversion thesis.",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
