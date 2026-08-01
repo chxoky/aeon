@@ -1,0 +1,64 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet",
+        "separator",
+        "details"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "BTC technical structure validation on 1D chart. Support held at ~$82,303 with RSI oversold (40-50 zone) suggesting bounce potential. WR's commentary: \"Sometimes these simple, objective observations work out\" — markets validating technical levels."
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat-support",
+        "stat-rsi",
+        "link"
+      ]
+    },
+    "stat-support": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC Support (1D)",
+        "value": "$82,303"
+      }
+    },
+    "stat-rsi": {
+      "type": "Stat",
+      "props": {
+        "label": "RSI Zone",
+        "value": "40-50 (Oversold)"
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2083574628119978194"
+      }
+    }
+  }
+}
