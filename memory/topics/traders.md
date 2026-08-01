@@ -317,6 +317,7 @@
 - Calibration: None pending.
 - Last seen: 2026-07-31T15:24:42Z (X post Clarity Act regulatory sentiment)
 - **Events (rolling):**
+  - Aug 01 13:46Z — skip: reply to @123skely on casino loyalty programs & EV mechanics; generic philosophy on yield/collateral risk structures, not financial market signal; non-financial personal commentary [2083549899425984889]
   - Jul 31 15:24Z — informational: Clarity Act Polymarket odds bearish drift 43%→22%; regulatory environment sentiment [2083212261900886187]
   - Jul 31 14:04Z — informational: Macro BTC analysis replying to @mel_8686; historical pattern (rest of year weak), volatility dampening + rate-hike repricing → BTC absolute lows mid-low 50s range; referenced chart image (CDN fetch failed); analysis-driven commentary, no personal trade action [2083191954477572319]
   - Jul 31 09:16Z — informational: BTC market structure observation; 1h chart showing choppy/ranging behavior with volume profile + liquidity zones; commentary on scalper advantage in chop vs retail hold philosophy; general advice: hold spot + watch onchain > try to scalp technical chop; sentiment: choppy environment validates patience (await exceptional deal) [2083119643611267409]
