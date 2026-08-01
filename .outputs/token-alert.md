@@ -1,18 +1,11 @@
-Done. No notifications sent.
-
 ## Summary
 
-**Token Alert — 2026-07-31**
+**TOKEN_ALERT_OK** — no alerts triggered.
 
-Checked all 3 tracked tokens against MEMORY.md thresholds using CoinGecko:
+| Token | Price | 24h Change | Threshold | Status |
+|-------|-------|-----------|-----------|--------|
+| BTC | $63,043 | −0.86% | 5% | Clear |
+| ETH | $1,866.48 | −0.46% | 8% | Clear |
+| SOL | $72.85 | −0.72% | 10% | Clear |
 
-| Token | Price | 24h Change | Threshold | Vol | Status |
-|-------|-------|-----------|-----------|-----|--------|
-| BTC | $63,670 | −1.91% | 5% | $26.0B | OK |
-| ETH | $1,875.82 | −2.52% | 8% | $7.6B | OK |
-| SOL | $73.40 | −1.13% | 10% | $1.5B | OK |
-
-- No 24h price moves exceed thresholds
-- Volumes ~1.1× the Jul 25 baseline — well below the 3× spike trigger
-- Prices logged to `memory/logs/2026-07-31.md` for next-run comparison
-- No alert sent
+All three tracked tokens are moving well within their alert thresholds. The risk-off regime continues (F&G 27, Sep FOMC hike priced ~82%), but no single-token anomaly rises to notification level. Prices and volumes logged to `memory/logs/2026-08-01.md` for tomorrow's comparison baseline.
