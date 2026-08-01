@@ -1,0 +1,94 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @HeartCanHodl"
+      },
+      "children": [
+        "event_section",
+        "sep1",
+        "tweet_section",
+        "sep2",
+        "image_question"
+      ]
+    },
+    "event_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event_label",
+        "event_text"
+      ]
+    },
+    "event_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "event_text": {
+      "type": "Text",
+      "props": {
+        "text": "Just covered half of remaining crypto shorts 4 min prior (Discord 18:38Z)"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "tweet_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "tweet_link"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "@HeartCanHodl",
+        "text": "👀👀\n\nGeneric business/strategy slide (CoinDesk watermark, StrategyB text)"
+      },
+      "children": []
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/HeartCanHodl/status/2083624418061017343"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "image_question": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read on the image?"
+      },
+      "children": []
+    }
+  }
+}
