@@ -1,0 +1,98 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "separator_1",
+        "tweet_link",
+        "analysis_section"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Discussing position sizing discipline on shorter-term option plays (4-8x on 0.1-0.2% NAV). References existing AAPL positioning: \"I sized Apple pretty hard — anything with a multi month view the size changes, but the idea of scaling in slowly doesn't.\" Methodology commentary on scaling discipline, no new action stated."
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2083646358129709307"
+      },
+      "children": []
+    },
+    "analysis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "analysis_badges",
+        "analysis_text"
+      ]
+    },
+    "analysis_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_aapl",
+        "badge_position"
+      ]
+    },
+    "badge_aapl": {
+      "type": "Badge",
+      "props": {
+        "text": "AAPL",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge_position": {
+      "type": "Badge",
+      "props": {
+        "text": "Jul 28 Oct $300 puts",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Reinforces existing AAPL short thesis; sizing methodology aligns with multi-timeframe conviction framework.",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
