@@ -18,3 +18,9 @@ Perfect! I've completed the skill execution. Here's what happened:
 - ✅ No event line added to `traders.md` (per size-discipline rule: skip/non-financial events logged only to daily log, not stored in traders.md)
 
 **Status:** Silent skip completed. Skill ran successfully with no notifications sent.
+🔍 *Calibration — @swarmister*
+
+Event: Reply to @MacroCRG trading discussion
+@swarmister: "65-70 nice entry imo (to 116+-)"
+
+Unable to classify — No ticker specified, price levels only (65-70 with target 116+-). Unclear if BTC, altcoin, or equity. What's your read?
