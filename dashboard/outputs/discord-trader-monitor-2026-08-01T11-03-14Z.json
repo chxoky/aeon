@@ -1,0 +1,167 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor — Screenshot Event"
+      },
+      "children": [
+        "stack-root"
+      ]
+    },
+    "stack-root": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-event",
+        "separator-1",
+        "stack-metadata",
+        "separator-2",
+        "heading-context",
+        "text-context",
+        "separator-3",
+        "heading-attachment",
+        "link-screenshot",
+        "separator-4",
+        "heading-interpretation",
+        "text-interpretation",
+        "separator-5",
+        "stack-ids"
+      ]
+    },
+    "heading-event": {
+      "type": "Heading",
+      "props": {
+        "text": "Screenshot-Only Message",
+        "level": "h2"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack-metadata": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-author",
+        "text-timestamp",
+        "text-channel"
+      ]
+    },
+    "text-author": {
+      "type": "Text",
+      "props": {
+        "text": "Author: HeartCanHodl",
+        "variant": "body"
+      }
+    },
+    "text-timestamp": {
+      "type": "Text",
+      "props": {
+        "text": "Timestamp: 10:59:24Z",
+        "variant": "body"
+      }
+    },
+    "text-channel": {
+      "type": "Text",
+      "props": {
+        "text": "Channel: Premium member chat (no accompanying text)",
+        "variant": "body"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-context": {
+      "type": "Heading",
+      "props": {
+        "text": "Discussion Context",
+        "level": "h3"
+      }
+    },
+    "text-context": {
+      "type": "Text",
+      "props": {
+        "text": "Recent channel messages centered on sizing philosophy, including majors thesis and experience framework.",
+        "variant": "body"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-attachment": {
+      "type": "Heading",
+      "props": {
+        "text": "Screenshot",
+        "level": "h3"
+      }
+    },
+    "link-screenshot": {
+      "type": "Link",
+      "props": {
+        "label": "View Screenshot (2026-08-01 16:25:06Z)",
+        "href": "https://cdn.discordapp.com/attachments/1023638573313966212/1533066614948495490/Screenshot_2026-08-01-16-25-06-20_948cd9899890cbd5c2798760b2b95377.jpg"
+      }
+    },
+    "separator-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-interpretation": {
+      "type": "Heading",
+      "props": {
+        "text": "Interpretation Challenge",
+        "level": "h3"
+      }
+    },
+    "text-interpretation": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to interpret image contents. Unclear whether this is market analysis chart, personal reference, or supporting evidence for sizing discourse.",
+        "variant": "body"
+      }
+    },
+    "separator-5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack-ids": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-message-id"
+      ]
+    },
+    "text-message-id": {
+      "type": "Text",
+      "props": {
+        "text": "Message ID: 1533066615263072327",
+        "variant": "caption"
+      }
+    }
+  }
+}
