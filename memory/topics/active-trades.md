@@ -233,6 +233,21 @@
 - **Next action**: "Will search for a higher entry!" — plans to re-enter short at better technical level
 - **Last update**: 2026-07-06T16:47:59Z (position fully closed, message_id=1523732256555012227, fast-path alerted)
 
+### HYPE — LONG (NEW ENTRY — MARKET ORDER FILLED 2026-08-01)
+- **Status**: PENDING APPROVAL — awaiting Kyle `approve HYPE` signal to mirror on Kraken spot
+- **Entry**: 2026-08-01T14:54:40Z (X post with 2 chart images)
+- **Entry message**: "Filled on $HYPE at 51.55. Searching for 55-57. Structure is still corrective so playing the bearish retest."
+- **Entry level**: $51.55 (market order, filled)
+- **Entry type**: Market order (execution completed)
+- **Portfolio allocation**: UNKNOWN (size not specified in post; awaiting Kyle approval decision)
+- **Chart context**: Chart 1: detailed price action showing fill at 51.550 with TP/SL labels. Chart 2: higher timeframe showing corrective V-shape, prior highs ~72-74, support at 51.54-51.55 (current fill), resistance at 55.47
+- **Technical setup**: Corrective structure with retest target 55-57. KillaXBT playing for recovery/retest rally from 51.55 support into 55-57 zone
+- **Rationale**: Tactical entry into support zone on corrective pullback. Aligns with group bullish regime shift (HCH SOL/ZEC longs Jul 31-Aug 01, bull_genius structural bottom thesis, broader crypto recovery)
+- **Conviction**: MEDIUM (tactical scalp-to-retest entry on corrective support; not conviction-scale accumulation)
+- **Approval/Alert status**: TRADE ALERT SENT (Step 5a new entry). Telegram notification sent requesting Kyle `approve HYPE` to mirror on Kraken spot, or ignore to skip
+- **Alerted**: YES (2026-08-01T14:54:40Z, x-trader-monitor real-time, trade-new-entry; tweet_id=2083567091823603993)
+- **Last update**: 2026-08-01T14:54:40Z (x-trader-monitor real-time, trade-new-entry)
+
 ## HeartCanHodl
 
 ### BTC/ETH/SOL — SHORTS (ACTIVE — PARTIAL PROFIT-TAKING 2026-07-08)

@@ -1,0 +1,106 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_signal",
+        "stack_badges",
+        "stat_filled",
+        "text_details",
+        "link_post",
+        "separator_1",
+        "alert_action"
+      ]
+    },
+    "heading_signal": {
+      "type": "Heading",
+      "props": {
+        "text": "🚨 Trade Signal — @KillaXBT",
+        "level": "h3"
+      }
+    },
+    "stack_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_hype",
+        "badge_long",
+        "badge_market"
+      ]
+    },
+    "badge_hype": {
+      "type": "Badge",
+      "props": {
+        "text": "$HYPE",
+        "variant": "default"
+      }
+    },
+    "badge_long": {
+      "type": "Badge",
+      "props": {
+        "text": "LONG",
+        "variant": "default"
+      }
+    },
+    "badge_market": {
+      "type": "Badge",
+      "props": {
+        "text": "MARKET ORDER",
+        "variant": "default"
+      }
+    },
+    "stat_filled": {
+      "type": "Stat",
+      "props": {
+        "label": "Filled at",
+        "value": "$51.55"
+      }
+    },
+    "text_details": {
+      "type": "Text",
+      "props": {
+        "text": "Filled on $HYPE at 51.55.\n\nSearching for 55-57.\n\nStructure is still corrective so playing the bearish retest.",
+        "variant": "body"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/KillaXBT/status/2083567091823603993"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_action": {
+      "type": "Alert",
+      "props": {
+        "title": "Action Required",
+        "message": "Reply `approve HYPE` to mirror this on Kraken (spot), or ignore to skip.",
+        "type": "info"
+      }
+    }
+  }
+}

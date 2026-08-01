@@ -338,12 +338,13 @@
 ## KillaXBT
 
 - Platforms: X (primary) + Discord (1411492188315193416 primary "K")
-- Current open positions: BTC (HTF 2x long swing from 62.6K, 25% TP at 63.8K/62.6K Jul 18, SL at BE on remainder; spot accumulation targeting ~20 BTC over 3-4 months; small scalp short hedge 64.8K-65.8K ladder; NEW monthly options/perps setup announced Jul 31 14:39Z — awaiting clarification)
+- Current open positions: BTC (HTF 2x long swing from 62.6K, 25% TP at 63.8K/62.6K Jul 18, SL at BE on remainder; spot accumulation targeting ~20 BTC over 3-4 months; small scalp short hedge 64.8K-65.8K ladder; NEW monthly options/perps setup announced Jul 31 14:39Z — awaiting clarification); HYPE (long entry 51.55, awaiting Kyle approval for mirror)
 - Recent thesis: Structural bullish BTC; bear cycle ~80% complete; accumulation range 57K-59K; already swept significant low, unlikely extended leg to 36-48K; multi-timeframe HTF long conviction with tactical hedges
 - Conviction notes: HIGH conviction on BTC structure. Multiple bear cycles show 3 significant lows; already swept current cycle low; 57K validates accumulation range base. Jul 31 12:59Z reiteration of months-old plan emphasizes patience on cycle structure. HTF 2x long + DCA scaling into weakness validates long-term bullish stance. Hedged with small scalp shorts for tactical risk management. Disciplined tiered profit-taking approach (25% TP on first bounce, remainder running).
 - Calibration: PENDING (Jul 31 14:39Z) — monthly options/perps position announced with invalidation 31K, P&L targets 160K/+30K, exact position type (long/short/calls/puts/perps) unclear; awaiting Kyle clarification for mirror decision
-- Last seen: 2026-08-01T12:47:00Z (X post BTC Monday pattern technical analysis)
+- Last seen: 2026-08-01T14:54:40Z (X post $HYPE long entry)
 - **Events (rolling):**
+  - Aug 01 14:54Z — trade-new-entry: $HYPE market order filled at 51.55, targeting 55-57 retest (corrective bear structure setup); awaiting Kyle approval for Kraken mirror; chart shows V-shaped recovery consolidation [2083567091823603993]
   - Aug 01 12:47Z — informational: BTC Monday pattern technical analysis; chart-driven observation on weekly Monday highs (11/12 weeks Monday set high → 3-5% drop follow-through); asking if next week brings Monday high or low; market structure/technical pattern commentary; no personal trade action; educational technical share [2083534966852305270]
   - Jul 31 22:25Z — informational: BTC structure observation (Discord primary); searching for long into 1st/monthly open; ideally bounce into 5th pivot then push down; conditional re-entry if "nuke into 5th"; chart structure analysis; setup anticipation, no confirmed entry yet [1532876823489155253]
   - Jul 31 21:48Z — informational: BTC key support level 61-61.5K; liquidation clusters of low leverage longs below; conditional 54-56K test if local low breaks [2083308816334983317]
