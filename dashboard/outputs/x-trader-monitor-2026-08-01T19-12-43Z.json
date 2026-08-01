@@ -1,0 +1,208 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @swarmister",
+        "description": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event_text",
+        "traders_badges",
+        "separator1",
+        "technical_section",
+        "separator2",
+        "response_section",
+        "separator3",
+        "uncertainty_alert",
+        "link_post"
+      ]
+    },
+    "event_text": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to @xbt2027 with ETH/USDT 1h chart (Binance)",
+        "variant": "lead"
+      }
+    },
+    "traders_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_swarmister",
+        "badge_xbt2027"
+      ]
+    },
+    "badge_swarmister": {
+      "type": "Badge",
+      "props": {
+        "text": "@swarmister",
+        "variant": "default"
+      }
+    },
+    "badge_xbt2027": {
+      "type": "Badge",
+      "props": {
+        "text": "@xbt2027",
+        "variant": "outline"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "technical_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tech_heading",
+        "price_grid",
+        "support_heading",
+        "support_zones"
+      ]
+    },
+    "tech_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Technical Levels",
+        "level": "h3"
+      }
+    },
+    "price_grid": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat_peak",
+        "stat_current"
+      ]
+    },
+    "stat_peak": {
+      "type": "Stat",
+      "props": {
+        "label": "Peak (Jul 30-31)",
+        "value": "1936.99"
+      }
+    },
+    "stat_current": {
+      "type": "Stat",
+      "props": {
+        "label": "Current",
+        "value": "1838.01"
+      }
+    },
+    "support_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Support Zones",
+        "level": "h4"
+      }
+    },
+    "support_zones": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "support_1",
+        "support_2",
+        "support_3"
+      ]
+    },
+    "support_1": {
+      "type": "Text",
+      "props": {
+        "text": "1848.70"
+      }
+    },
+    "support_2": {
+      "type": "Text",
+      "props": {
+        "text": "1872.00"
+      }
+    },
+    "support_3": {
+      "type": "Text",
+      "props": {
+        "text": "1884.51"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "response_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "response_heading",
+        "tweet_card"
+      ]
+    },
+    "response_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Response",
+        "level": "h3"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "@swarmister",
+        "text": "Yes."
+      }
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "uncertainty_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification Uncertain",
+        "message": "Unable to classify — what was @xbt2027 suggesting on ETH structure? Confirming a bottom, entry level, or resistance breakdown?",
+        "type": "warning"
+      }
+    },
+    "link_post": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View post on X",
+        "href": "https://x.com/swarmister/status/2083630549294305775",
+        "source": "X"
+      }
+    }
+  }
+}
