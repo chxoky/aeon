@@ -155,8 +155,9 @@
   - Jul 31 03:33Z — ambiguous: "👇🏻" (emoji-only cryptic post on X, calibration alert sent; unable to determine context without clarification) [2083033362432966709]
   - Jul 31 03:29Z — trade-conviction-add: "Add 1 % ada short" (ADA expansion of bearish crypto thesis; new ticker for HCH short constellation; fast-path alerted by Worker, no duplicate Telegram) [1532590935144141001]
   - Jul 31 03:27Z — trade-conviction-add: "Add 2.5-2.5% btc & eth shorts" (BTC +2.5%, ETH +2.5% conviction add to active short basket; continued aggressive scaling into bearish crypto thesis; fast-path alerted by Worker, no duplicate Telegram from skill) [1532590571615424552]
-- **Last seen**: 2026-07-31T07:49:08Z (Discord primary Comments channel ambiguous technical notation)
+- **Last seen**: 2026-08-01T02:49:02Z (Discord supporting Chat channel ambiguous technical notation)
 - **Events (recent):**
+  - Aug 01 02:49Z — ambiguous: "Fc btc 1hr" (supporting channel "HCH — Chat"; fourth occurrence of "Fc [ticker] [timeframe]" pattern; cryptic notation likely false-close/chart-check; supporting channel + no trade action language = pattern continuation, silent log) [1532943211201560766]
   - Jul 31 07:49Z — ambiguous: "Fc btc 5m" (cryptic technical notation; self-reply to "Got that"; unclear actionability; similar pattern to Fc bank 1hr, Fc btc 1m; primary Comments channel; calibration alert sent) [1532656346590085141]
   - Jul 31 03:29Z — trade-conviction-add: "Add 1 % ada short" (ADA expansion of bearish crypto thesis; new ticker for HCH short constellation; fast-path alerted by Worker, no duplicate Telegram) [1532590935144141001]
   - Jul 31 03:13Z — ambiguous: "Fc bank 1hr" (reply to own message "Too risky but I think it topped there"; cryptic "Fc" abbreviation unclear; similar pattern to Jul 30 22:31Z "Fc btc 1m"; primary Comments channel; calibration pending; fast-path alerted by Worker) [1532586944998150236]
