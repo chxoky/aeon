@@ -1,0 +1,636 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-08-01"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "sec-transitions",
+        "sep1",
+        "sec-reflexivity",
+        "sep2",
+        "sec-positions",
+        "sep3",
+        "sec-map"
+      ]
+    },
+    "sec-transitions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-transitions",
+        "trans-1",
+        "trans-2",
+        "trans-3",
+        "trans-4",
+        "trans-5",
+        "trans-6",
+        "trans-7"
+      ]
+    },
+    "h-transitions": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      }
+    },
+    "trans-1": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "title": "NEW: FOMC Rate-Hike Macro",
+        "message": "Sep FOMC hike YES 59.5% prediction-market odds; unprecedented this cycle; driving today's risk-off (BTC −2%, DeFi −8–9%)"
+      }
+    },
+    "trans-2": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "title": "NEW: Robinhood Chain / Tokenized Stocks",
+        "message": "VIRTUAL live on Robinhood Chain; Binance stock token launch 99% Polymarket odds; retail tokenization access layer forming"
+      }
+    },
+    "trans-3": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "title": "NEW: DeFi Consolidation",
+        "message": "UNI burn governance vote (Jul 26), Aave deprecating 50 markets/6 chains + V4 routing 100% revenue to DAO buybacks; structurally positive, price-negative near-term"
+      }
+    },
+    "trans-4": {
+      "type": "Text",
+      "props": {
+        "text": "✓ PROMOTED: RWA Tokenization Rising→Peak — $33B+ on-chain; 589% growth since 2025; Ondo >$1B TVL; Polymarket 75% bet hits $50B by Dec 31",
+        "variant": "body"
+      }
+    },
+    "trans-5": {
+      "type": "Text",
+      "props": {
+        "text": "✗ DEMOTED: AI Agents Rising→Peak — 7/8 tracked tokens in descending channels (Jul 29); VIRTUAL/TAO infra expanding but price narrative stalled",
+        "variant": "body"
+      }
+    },
+    "trans-6": {
+      "type": "Text",
+      "props": {
+        "text": "✗ DEMOTED: Prediction Markets Peak→Fading — World Cup volume cliff confirmed; Kalshi/Polymarket pivoting to RWA bets and macro",
+        "variant": "body"
+      }
+    },
+    "trans-7": {
+      "type": "Text",
+      "props": {
+        "text": "✗ DEMOTED: Privacy/ZK Peak→Fading — regulatory pricing complete; ZANO +10.8% today = tail rotation, not revival",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sec-reflexivity": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-reflexivity",
+        "alert-rwa",
+        "alert-robinhood"
+      ]
+    },
+    "h-reflexivity": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      }
+    },
+    "alert-rwa": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "RWA — Polymarket self-reinforcement",
+        "message": "Polymarket 75% bet on $50B self-reinforces media loops (betting the bet). Binance 99% stock token odds = coordinated pre-announcement positioning."
+      }
+    },
+    "alert-robinhood": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Robinhood Chain — Coordinated narrative",
+        "message": "VIRTUAL launch + Binance 99% stock token odds appearing simultaneously; coordinated narrative construction signal."
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sec-positions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-positions",
+        "pos-1",
+        "pos-2",
+        "pos-3",
+        "pos-4",
+        "pos-5",
+        "pos-6",
+        "pos-7",
+        "pos-8"
+      ]
+    },
+    "h-positions": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      }
+    },
+    "pos-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-1-title",
+        "pos-1-badge",
+        "pos-1-actors",
+        "pos-1-risk",
+        "pos-1-catalyst"
+      ]
+    },
+    "pos-1-title": {
+      "type": "Heading",
+      "props": {
+        "text": "FRONT-RUN: Robinhood Chain/Tokenized Stocks",
+        "level": "h3"
+      }
+    },
+    "pos-1-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "mindshare 3 ↑↑ — Bull",
+        "variant": "default"
+      }
+    },
+    "pos-1-actors": {
+      "type": "Text",
+      "props": {
+        "text": "Players: @VirtualsProtocol, Robinhood, Binance",
+        "variant": "caption"
+      }
+    },
+    "pos-1-risk": {
+      "type": "Alert",
+      "props": {
+        "type": "error",
+        "message": "Bear: SEC halts stock tokens"
+      }
+    },
+    "pos-1-catalyst": {
+      "type": "Text",
+      "props": {
+        "text": "Catalyst: Binance announcement",
+        "variant": "caption"
+      }
+    },
+    "pos-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-2-title",
+        "pos-2-badge",
+        "pos-2-actors",
+        "pos-2-risk",
+        "pos-2-action"
+      ]
+    },
+    "pos-2-title": {
+      "type": "Heading",
+      "props": {
+        "text": "FRONT-RUN: FOMC Hike defensive",
+        "level": "h3"
+      }
+    },
+    "pos-2-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "macro 4 ↑↑ — Bear",
+        "variant": "default"
+      }
+    },
+    "pos-2-actors": {
+      "type": "Text",
+      "props": {
+        "text": "Players: Fed futures desks",
+        "variant": "caption"
+      }
+    },
+    "pos-2-risk": {
+      "type": "Alert",
+      "props": {
+        "type": "error",
+        "message": "Bear: CPI softens, hike bets collapse"
+      }
+    },
+    "pos-2-action": {
+      "type": "Text",
+      "props": {
+        "text": "Action: trim longs, consider vol",
+        "variant": "caption"
+      }
+    },
+    "pos-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-3-title",
+        "pos-3-badge",
+        "pos-3-actors",
+        "pos-3-risk"
+      ]
+    },
+    "pos-3-title": {
+      "type": "Heading",
+      "props": {
+        "text": "RIDE: RWA Tokenization",
+        "level": "h3"
+      }
+    },
+    "pos-3-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "4 ↑ — Bull",
+        "variant": "default"
+      }
+    },
+    "pos-3-actors": {
+      "type": "Text",
+      "props": {
+        "text": "Players: Ondo, BlackRock BUIDL, Polymarket",
+        "variant": "caption"
+      }
+    },
+    "pos-3-risk": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: tokenized stocks <$2B vs $100T+ equity market; still tiny",
+        "variant": "muted"
+      }
+    },
+    "pos-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-4-title",
+        "pos-4-badge",
+        "pos-4-detail"
+      ]
+    },
+    "pos-4-title": {
+      "type": "Heading",
+      "props": {
+        "text": "FADE: Prediction Markets",
+        "level": "h3"
+      }
+    },
+    "pos-4-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "4 ↓ — Mixed",
+        "variant": "secondary"
+      }
+    },
+    "pos-4-detail": {
+      "type": "Text",
+      "props": {
+        "text": "World Cup cliff; Kaito Attention Markets adds reflexivity layer",
+        "variant": "muted"
+      }
+    },
+    "pos-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-5-title",
+        "pos-5-badge",
+        "pos-5-detail"
+      ]
+    },
+    "pos-5-title": {
+      "type": "Heading",
+      "props": {
+        "text": "FADE: Privacy/ZK",
+        "level": "h3"
+      }
+    },
+    "pos-5-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "3 ↓ — Bear",
+        "variant": "secondary"
+      }
+    },
+    "pos-5-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Regulatory pricing done, DEX migration complete, no new catalyst",
+        "variant": "muted"
+      }
+    },
+    "pos-6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-6-title",
+        "pos-6-badge",
+        "pos-6-detail"
+      ]
+    },
+    "pos-6-title": {
+      "type": "Heading",
+      "props": {
+        "text": "FADE: DeFi/UNI/AAVE",
+        "level": "h3"
+      }
+    },
+    "pos-6-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "3 ↓ — Cope",
+        "variant": "secondary"
+      }
+    },
+    "pos-6-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Structural upgrades priced years out; risk-off regime amplifies sell pressure",
+        "variant": "muted"
+      }
+    },
+    "pos-7": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-7-title",
+        "pos-7-badge",
+        "pos-7-detail"
+      ]
+    },
+    "pos-7-title": {
+      "type": "Heading",
+      "props": {
+        "text": "WATCH: AI Agents",
+        "level": "h3"
+      }
+    },
+    "pos-7-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "4 → — Mixed",
+        "variant": "outline"
+      }
+    },
+    "pos-7-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Infra expanding, price rolling; wait for re-entry catalyst",
+        "variant": "muted"
+      }
+    },
+    "pos-8": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-8-title",
+        "pos-8-badge",
+        "pos-8-detail"
+      ]
+    },
+    "pos-8-title": {
+      "type": "Heading",
+      "props": {
+        "text": "WATCH: Stablecoins",
+        "level": "h3"
+      }
+    },
+    "pos-8-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "4 → — Bull",
+        "variant": "outline"
+      }
+    },
+    "pos-8-detail": {
+      "type": "Text",
+      "props": {
+        "text": "CLARITY Act pending; hold until legislative signal",
+        "variant": "muted"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sec-map": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-map",
+        "map-emerging",
+        "map-rising",
+        "map-peak",
+        "map-fading",
+        "map-dead"
+      ]
+    },
+    "h-map": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h2"
+      }
+    },
+    "map-emerging": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-emerging",
+        "text-emerging"
+      ]
+    },
+    "badge-emerging": {
+      "type": "Badge",
+      "props": {
+        "text": "Emerging",
+        "variant": "default"
+      }
+    },
+    "text-emerging": {
+      "type": "Text",
+      "props": {
+        "text": "Robinhood Chain/Tokenized Stocks",
+        "variant": "body"
+      }
+    },
+    "map-rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-rising",
+        "text-rising"
+      ]
+    },
+    "badge-rising": {
+      "type": "Badge",
+      "props": {
+        "text": "Rising",
+        "variant": "default"
+      }
+    },
+    "text-rising": {
+      "type": "Text",
+      "props": {
+        "text": "FOMC Hike Macro",
+        "variant": "body"
+      }
+    },
+    "map-peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-peak",
+        "text-peak"
+      ]
+    },
+    "badge-peak": {
+      "type": "Badge",
+      "props": {
+        "text": "Peak",
+        "variant": "default"
+      }
+    },
+    "text-peak": {
+      "type": "Text",
+      "props": {
+        "text": "RWA Tokenization, AI Agents, Stablecoins",
+        "variant": "body"
+      }
+    },
+    "map-fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-fading",
+        "text-fading"
+      ]
+    },
+    "badge-fading": {
+      "type": "Badge",
+      "props": {
+        "text": "Fading",
+        "variant": "secondary"
+      }
+    },
+    "text-fading": {
+      "type": "Text",
+      "props": {
+        "text": "Prediction Markets, Privacy/ZK, DeFi Blue Chips",
+        "variant": "body"
+      }
+    },
+    "map-dead": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-dead",
+        "text-dead"
+      ]
+    },
+    "badge-dead": {
+      "type": "Badge",
+      "props": {
+        "text": "Dead",
+        "variant": "destructive"
+      }
+    },
+    "text-dead": {
+      "type": "Text",
+      "props": {
+        "text": "Meme/ICO Launchpads",
+        "variant": "body"
+      }
+    }
+  }
+}
