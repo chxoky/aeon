@@ -1,0 +1,24 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_1"
+      ]
+    },
+    "tweet_1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "🐦 [X] Reinforcing trading psychology via Trading in the ZONE (Mark Douglas). Focus on discipline + emotional control amid drawdowns — re-reading to sharpen up. Thesis reinforcement: emotional discipline framework prioritized over tactical entries. https://x.com/Wild_Randomness/status/2083635748776063311"
+      },
+      "children": []
+    }
+  }
+}
