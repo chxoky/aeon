@@ -1,0 +1,93 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_calibration",
+        "sep_1",
+        "h_event",
+        "text_event_desc",
+        "sep_2",
+        "tweet_1",
+        "sep_3",
+        "alert_context"
+      ]
+    },
+    "text_calibration": {
+      "type": "Text",
+      "props": {
+        "text": "🔍 Calibration — @trading_axe",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "h_event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text_event_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to @seyong's thread (241 replies discussing unknown topic)"
+      },
+      "children": []
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "tweet_1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "trading_axe",
+        "text": "The answer is simple. It's a fucking PONZI."
+      },
+      "children": []
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert_context": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to interpret without context",
+        "message": "What's trading_axe referring to? Is this a market signal worth tracking or just social commentary?",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}
