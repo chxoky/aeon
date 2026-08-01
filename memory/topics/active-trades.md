@@ -576,6 +576,25 @@
 
 ## Wild_Randomness
 
+### AAPL — SHORT (Oct $300 puts) — CLOSED 2026-08-01 20:34Z, NEW Sep $285 puts
+- **Entry**: 2026-07-28T~14:00Z (X posts, entries $341–$342, Oct $300 puts) 
+- **Status**: CLOSED (Oct $300) — ACTIVE NEW (Sep $285 puts, 20-25% size)
+- **Position history**:
+  - 2026-07-28: Oct $300 puts entered at $341-$342 strike (bullish bearish reversal setup on tech exhaustion)
+  - 2026-07-30: AAPL intraday crash validated thesis (-7.8% intraday)
+  - 2026-07-31 13:08Z: Conviction post (meme: "He doesn't know the stock is topped out")
+  - 2026-07-31 13:18Z: Technical validation post (statistical chart on consecutive days without 7%+ selloff)
+  - 2026-08-01 14:17Z–20:28Z: Multiple technical updates validating bearish breakdown pattern
+  - 2026-08-01 20:28Z: Final conviction post (gym reflection, chart breakdown 356.59→288.70, philosophical note on conviction over earnings analysis)
+  - 2026-08-01 20:34Z: FULLY CLOSED Oct $300 short (~$30-50K profit, $341-342 entry → $301 close, ~$40-41 profit per share)
+  - 2026-08-01 20:34Z: NEW ENTRY — Sep $285 puts (20-25% of original Oct $300 short size), conditional add to 35-40% if AAPL drifts higher
+- **Closed entry P&L**: ~$30-50K profit (2-3x return on position)
+- **New entry thesis**: Further downside continuation play; Sep $285 puts targeting lower support levels; conditional adds if AAPL rallies into $320-330 zone (shows weakness/rejection at higher levels)
+- **Chart context**: AAPL at $308.91 (-7.35%), broke through key resistance $318.82, support levels 289.77-287.70-280.00 marked; Sep $285 puts align with intermediate support re-test thesis
+- **Conviction**: EXTREMELY HIGH — closed profitable short at multi-day high (technical discipline on takedown), immediately re-engaged with smaller position + conditional upside for adds (shows confidence in further downside but risk-managed sizing discipline)
+- **Approval/Alert status**: MIRRORED (Step 5b no-approval mirror case; closed position + new conviction add immediately executed and alerted to Kyle via ./notify)
+- **Last update**: 2026-08-01T20:34:45Z (x-trader-monitor real-time event, mirror alert sent)
+
 ### VIX calls — LONG (new entry 2026-07-15)
 - **Status**: AWAITING_APPROVAL — trade signal 5a alert sent, awaiting "approve VIX" confirmation
 - **Entry**: 2026-07-15T15:30:29Z

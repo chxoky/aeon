@@ -1,0 +1,121 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "heading_mirror",
+        "stack_closed",
+        "stack_new",
+        "sep1",
+        "text_action",
+        "link_post"
+      ]
+    },
+    "heading_mirror": {
+      "type": "Heading",
+      "props": {
+        "text": "🔁 Mirrored — @Wild_Randomness",
+        "level": "h2"
+      }
+    },
+    "stack_closed": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_closed",
+        "text_closed_title",
+        "text_closed_details"
+      ]
+    },
+    "badge_closed": {
+      "type": "Badge",
+      "props": {
+        "text": "CLOSED",
+        "variant": "destructive"
+      }
+    },
+    "text_closed_title": {
+      "type": "Text",
+      "props": {
+        "text": "Oct $300 AAPL Short",
+        "variant": "lead"
+      }
+    },
+    "text_closed_details": {
+      "type": "Text",
+      "props": {
+        "text": "Profit: ~$30-50K | Price movement: $341-342 → $301 close"
+      }
+    },
+    "stack_new": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_opened",
+        "text_new_title",
+        "text_new_details"
+      ]
+    },
+    "badge_opened": {
+      "type": "Badge",
+      "props": {
+        "text": "OPENED",
+        "variant": "secondary"
+      }
+    },
+    "text_new_title": {
+      "type": "Text",
+      "props": {
+        "text": "Sep $285 Puts",
+        "variant": "lead"
+      }
+    },
+    "text_new_details": {
+      "type": "Text",
+      "props": {
+        "text": "Initial: 20-25% size | Conditional add to 35-40% if price drifts higher"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_action": {
+      "type": "Text",
+      "props": {
+        "text": "I closed your AAPL short to match + started the Sep $285 puts position.",
+        "variant": "body"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2083652676676678009"
+      }
+    }
+  }
+}
