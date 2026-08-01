@@ -1,0 +1,162 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration Event"
+      },
+      "children": [
+        "header_stack",
+        "sep1",
+        "tweet_section",
+        "sep2",
+        "chart_section",
+        "sep3",
+        "analysis_section"
+      ]
+    },
+    "header_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "heading_calibration",
+        "badge_author"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "badge_author": {
+      "type": "Badge",
+      "props": {
+        "text": "@Wild_Randomness",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "tweet_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_reply_context",
+        "tweet_reply"
+      ]
+    },
+    "text_reply_context": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to @mildlyhedged",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "tweet_reply": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "I agree, I was actually buying leaps on this thing with @ezcontra back at $10 a few years ago. Eventually their aggregate customer losing money will come back and bite them, hence why they are trying these additional revenue avenues."
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "chart_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_chart",
+        "text_chart_desc"
+      ]
+    },
+    "heading_chart": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart Context",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text_chart_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Collection of failed retail plays: SpaceX, quantum stocks, rare earths, commodities — with text 'charts of the most favored retail plays look like altcoin charts.'",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_analysis",
+        "alert_classification",
+        "text_question"
+      ]
+    },
+    "heading_analysis": {
+      "type": "Heading",
+      "props": {
+        "text": "Classification Issue",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "alert_classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Reply-dependent context prevents ticker identification. Post text doesn't explicitly name the asset ('this thing'). Chart is comparative context showing multiple underperformers.",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "text_question": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read? Which ticker/company is being discussed here?",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
