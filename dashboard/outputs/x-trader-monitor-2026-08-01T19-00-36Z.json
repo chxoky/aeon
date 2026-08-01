@@ -1,0 +1,58 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 x-trader-monitor",
+        "description": "Calibration — @Wild_Randomness"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-event",
+        "tweet-card",
+        "text-unable-classify",
+        "link-tweet"
+      ]
+    },
+    "text-event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @Evan_ss6 @lBattleRhino about options selection strategies",
+        "variant": "lead"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "ArtisanalSelectionOfPuts-Lined? @chumbawamba22"
+      }
+    },
+    "text-unable-classify": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — reply-dependent context. What's your read?",
+        "variant": "muted"
+      }
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/Wild_Randomness/status/2083627755619660051"
+      }
+    }
+  }
+}
