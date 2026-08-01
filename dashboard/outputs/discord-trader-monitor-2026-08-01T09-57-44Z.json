@@ -1,0 +1,80 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Discord Trader Monitor — Calibration"
+      },
+      "children": [
+        "metadata",
+        "sep1",
+        "image_section",
+        "sep2",
+        "classification"
+      ]
+    },
+    "metadata": {
+      "type": "Badge",
+      "props": {
+        "text": "DC: HCH — Free",
+        "variant": "outline"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "image_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "image_alert",
+        "poster",
+        "channel"
+      ]
+    },
+    "image_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Image-only message",
+        "message": "Kenneth C. Griffin photo — no text caption or context",
+        "type": "info"
+      }
+    },
+    "poster": {
+      "type": "Text",
+      "props": {
+        "text": "Posted by: HeartCanHodl",
+        "variant": "body"
+      }
+    },
+    "channel": {
+      "type": "Badge",
+      "props": {
+        "text": "Primary Trades channel",
+        "variant": "secondary"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read?",
+        "type": "warning"
+      }
+    }
+  }
+}
