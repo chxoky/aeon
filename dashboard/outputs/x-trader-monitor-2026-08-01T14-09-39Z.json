@@ -1,0 +1,57 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet",
+        "separator",
+        "stats"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Market commentary: retail capitulation (fastest selling since COVID), Leopold/funds cleansed. Base case = dead cat bounce with overhead supply. Assets still 100th percentile PEs despite drawdown. Charts: retail net flow -$243M (Jul 28), AMAT PE 67.89. https://x.com/Wild_Randomness/status/2083554760687272172"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat1",
+        "stat2"
+      ]
+    },
+    "stat1": {
+      "type": "Stat",
+      "props": {
+        "label": "Retail Net Flow (Jul 28)",
+        "value": "-$243M",
+        "trend": "down"
+      }
+    },
+    "stat2": {
+      "type": "Stat",
+      "props": {
+        "label": "AMAT PE",
+        "value": "67.89"
+      }
+    }
+  }
+}
