@@ -1,5 +1,7 @@
-🔍 *Calibration — [DC: HCH — Free]*
+🔍 *Calibration — [DC: HCH — Chat]*
 
-Image-only message (Kenneth C. Griffin photo) with no text caption or context. HeartCanHodl posted this without any accompanying message in primary Trades channel.
+Context: Alt-short closeouts this morning (ZEC 05:08Z, LIT 05:04Z, conviction long add HYPE 05:06Z)
 
-Unable to classify — what's your read?
+HCH: "Only alt short we haven't covered half or full"
+
+Unable to classify — which alt shorts remain uncovered? (half close vs full close status?)

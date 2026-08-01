@@ -1,0 +1,100 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration"
+      },
+      "children": [
+        "meta_text",
+        "sep1",
+        "context_heading",
+        "closeouts_stack",
+        "sep2",
+        "hch_alert",
+        "sep3",
+        "classify_alert"
+      ]
+    },
+    "meta_text": {
+      "type": "Text",
+      "props": {
+        "text": "DC: HCH — Chat",
+        "variant": "muted"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Alt-short closeouts this morning",
+        "level": "h3"
+      }
+    },
+    "closeouts_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "zec",
+        "lit",
+        "hype"
+      ]
+    },
+    "zec": {
+      "type": "Text",
+      "props": {
+        "text": "ZEC — 05:08Z"
+      }
+    },
+    "lit": {
+      "type": "Text",
+      "props": {
+        "text": "LIT — 05:04Z"
+      }
+    },
+    "hype": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE — conviction long add 05:06Z"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "hch_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "HCH",
+        "message": "Only alt short we haven't covered half or full",
+        "type": "info"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classify_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Which alt shorts remain uncovered? (half close vs full close status?)",
+        "type": "warning"
+      }
+    }
+  }
+}
