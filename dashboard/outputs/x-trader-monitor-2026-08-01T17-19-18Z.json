@@ -1,0 +1,52 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "link",
+        "commentary"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "New monthly open for $BTC.\n\nWe've formed quite a bearish narrative going into this new monthly candle. Because of that, there's a good chance we see a bullish reaction at the start of the month.\n\nAs seen in previous examples, whenever BTC heads into these periods with a bearish narrative, we usually see an inverse move. The only times we don't are when we're on the verge of a major trend shift, like in November, February, and June.\n\nGiven we're still ranging and close to the bear market lows, I think there are two scenarios: 1) one final leg down below $57K, or 2) we start pushing higher this month and continue the range.\n\nPersonally, I think a 2–4% move up at the start of the month makes the most sense even if we head lower."
+      },
+      "children": []
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2083601455362052147"
+      },
+      "children": []
+    },
+    "commentary": {
+      "type": "Text",
+      "props": {
+        "text": "↳ Monthly structure analysis aligns with group consensus on near-term chop/downside risk; acknowledges potential mean-reversion bullish reaction. Multi-scenario framing shows technical clarity on consolidation risk/reward.",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
