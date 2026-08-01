@@ -1,0 +1,88 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_cal",
+        "sep_1",
+        "text_event",
+        "badge_status",
+        "sep_2",
+        "tweet",
+        "sep_3",
+        "alert_classify",
+        "link_view"
+      ]
+    },
+    "heading_cal": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @swarmister",
+        "level": "h2"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @sodnjk with minimal context"
+      }
+    },
+    "badge_status": {
+      "type": "Badge",
+      "props": {
+        "text": "Unable to classify",
+        "variant": "outline"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "@swarmister",
+        "text": "@sodnjk (True)"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "alert_classify": {
+      "type": "Alert",
+      "props": {
+        "title": "Needs Classification",
+        "message": "Unable to classify — what's your read?",
+        "type": "info"
+      }
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/swarmister/status/2083643179253792851"
+      }
+    }
+  }
+}

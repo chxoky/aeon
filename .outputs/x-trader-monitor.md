@@ -18,3 +18,12 @@ The tweet is a reply to @xbt2027, @WatcherGuru, and @i_pally discussing geopolit
 4. ✅ Did NOT add traders.md event line (skip entries not stored to memory, log-only)
 
 **Result:** No notification sent. Event logged silently as non-financial. The skill completed successfully per protocol.
+🔍 *Calibration — @swarmister*
+
+Event: Reply to @sodnjk with minimal context
+
+Message: "@sodnjk (True)"
+
+Unable to classify — what's your read?
+
+[View post](https://x.com/swarmister/status/2083643179253792851)
