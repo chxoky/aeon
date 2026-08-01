@@ -127,8 +127,9 @@
 
 ## HeartCanHodl
 
-- **Last seen**: 2026-08-01T18:16:39Z (Discord primary Trades channel, BTC/ETH major-pair long conviction add)
+- **Last seen**: 2026-08-01T18:38:28Z (Discord primary Trades channel, partial cover of remaining crypto shorts)
 - **Events (recent):**
+  - Aug 01 18:38:28Z — trade-partial-close: "Cover half of remaining crypto shorts" (secondary wave of short-position de-risking following 10:21Z complete close of crypto shorts; HCH continuing net-long portfolio rebalancing initiated 07-31 14:27Z with successive long adds across majors + alts throughout Aug 01; fast-path alerted by Worker, skill memory-only processing) [1533182143294078996]
   - Aug 01 18:16:39Z — trade-conviction-add: "Add 5-5% btc,eth long" (BTC +5%, ETH +5% conviction add on primary Trades channel; major-pair long escalation following SOL +2.5% add 17:05Z same day; continuing net-long regime shift from major-pair short cover 14:27Z and successive long builds (BTC/ETH 12:47Z, HYPE/ZEC 13:07Z); portfolio concentration into major-pair capital; fast-path alerted by Worker, skill memory-only processing) [1533176653679952104]
 - **Last seen**: 2026-08-01T18:16:53Z (Discord primary Comments channel allocation positioning)
 - **Events (recent):**
