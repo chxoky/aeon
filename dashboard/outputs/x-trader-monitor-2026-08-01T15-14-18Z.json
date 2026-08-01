@@ -1,0 +1,99 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor: SOXL Technical Weakness Sentiment",
+        "description": "Cross-trader convergence on bearish semis sector consensus"
+      },
+      "children": [
+        "tweet-stack",
+        "sep-1",
+        "price-stats",
+        "sep-2",
+        "convergence"
+      ]
+    },
+    "tweet-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "tweet-link"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Sentiment alignment on SOXL technical weakness - Reply to @PurpleDrink_LLC on SOXL weekly structure. Agrees with bearish blowoff/crash thesis shown in attached charts. SOXL current: 114.72, prior extreme rally to ~320, long-term downtrend structure 70→16.17"
+      }
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2083570606398960024"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "price-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat-current",
+        "stat-prior",
+        "stat-downtrend"
+      ]
+    },
+    "stat-current": {
+      "type": "Stat",
+      "props": {
+        "label": "SOXL Current Price",
+        "value": "$114.72"
+      }
+    },
+    "stat-prior": {
+      "type": "Stat",
+      "props": {
+        "label": "Prior Extreme Rally",
+        "value": "~$320"
+      }
+    },
+    "stat-downtrend": {
+      "type": "Stat",
+      "props": {
+        "label": "Long-term Downtrend Structure",
+        "value": "$70 → $16.17"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "convergence": {
+      "type": "Alert",
+      "props": {
+        "title": "Cross-Trader Convergence",
+        "message": "Wild_Randomness, HCH, Crypto_Chase all tracking semis weakness (SOXL focus ticker); reinforces bearish technical consensus on sector reversal completion.",
+        "type": "info"
+      }
+    }
+  }
+}
