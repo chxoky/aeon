@@ -1,0 +1,58 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @HeartCanHodl"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_event",
+        "tweet_response",
+        "text_analysis",
+        "link_view"
+      ]
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @DonaldDucck market commentary",
+        "variant": "body"
+      }
+    },
+    "tweet_response": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "@HeartCanHodl",
+        "text": "@DonaldDucck Don't short it here today"
+      }
+    },
+    "text_analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read? (Asset unclear; likely BTC/HYPE/ZEC/ETH given recent long builds; context-dependent on DonaldDucck's original message)",
+        "variant": "body"
+      }
+    },
+    "link_view": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View post",
+        "href": "https://x.com/HeartCanHodl/status/20835477798381727499",
+        "source": "X"
+      }
+    }
+  }
+}

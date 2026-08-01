@@ -1,7 +1,9 @@
-🐦 *[X] @Wild_Randomness*
+🔍 *Calibration — @HeartCanHodl*
 
-Why is Ethereum here
+Event: Reply to @DonaldDucck market commentary
 
-[View tweet](https://x.com/Wild_Randomness/status/2083546082798440773)
+@HeartCanHodl: "@DonaldDucck Don't short it here today"
 
-↳ _Chart shows ETH recovering within Fundstrat AI downstream-plays sector rotation (vs correcting semis SMH/DRAM). Multi-ticker technical observation on sector mean-reversion thesis._
+Unable to classify — what's your read? (Asset unclear; likely BTC/HYPE/ZEC/ETH given recent long builds; context-dependent on DonaldDucck's original message)
+
+[View post](https://x.com/HeartCanHodl/status/20835477798381727499)
