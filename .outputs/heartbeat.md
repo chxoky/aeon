@@ -1,11 +1,17 @@
-HEARTBEAT_OK · STATUS_PAGE=OK
+All checks passed. Here's the full heartbeat summary:
 
-All checks clean:
+---
 
-- **P0 skills:** All enabled skills healthy — no failures, stuck, or degraded skills. 9 skills, all `✅ success`.
-- **P0 X webhook:** `WATCHED_TRADERS` rule active (`is_effect: 1`). No ISS-002 recurrence.
-- **P1:** No open PRs. No open issues.
-- **P2:** No flagged memory items.
-- **P3:** All enabled scheduled skills within 2× their interval. `narrative-tracker` (flagged stale at the 14:00 run) resolved — ran at 14:45 UTC today.
+**HEARTBEAT_OK · STATUS_PAGE=OK**
 
-`docs/status.md` regenerated as 🟢 OK (previous page was 🟡 WATCH due to the now-resolved narrative-tracker gap).
+**P0 — Failed/stuck skills:** All 9 enabled skills healthy. Zero consecutive failures across the fleet.
+
+**P0 — X webhook (ISS-002 guard):** WATCHED_TRADERS rule is active (`is_effect: 1`, rule_id `35f3c57caf934741a13daf03a64c987b`). No action needed.
+
+**P1 — PRs / urgent issues:** No open PRs, no urgent issues.
+
+**P2 — Flagged memory items:** Nothing pending follow-up.
+
+**P3 — Scheduled skills:** All within their intervals. narrative-tracker (last 14:45 UTC Jul 31) and token-alert (last 12:17 UTC Jul 31) haven't re-run today yet, but both are well under their 48h threshold.
+
+**Status page:** `docs/status.md` regenerated → 🟢 OK. Next run: token-alert/token-movers at 12:00 UTC.
