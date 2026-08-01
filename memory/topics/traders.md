@@ -326,8 +326,9 @@
 - Recent thesis: Structural bullish BTC; bear cycle ~80% complete; accumulation range 57K-59K; already swept significant low, unlikely extended leg to 36-48K; multi-timeframe HTF long conviction with tactical hedges
 - Conviction notes: HIGH conviction on BTC structure. Multiple bear cycles show 3 significant lows; already swept current cycle low; 57K validates accumulation range base. Jul 31 12:59Z reiteration of months-old plan emphasizes patience on cycle structure. HTF 2x long + DCA scaling into weakness validates long-term bullish stance. Hedged with small scalp shorts for tactical risk management. Disciplined tiered profit-taking approach (25% TP on first bounce, remainder running).
 - Calibration: PENDING (Jul 31 14:39Z) — monthly options/perps position announced with invalidation 31K, P&L targets 160K/+30K, exact position type (long/short/calls/puts/perps) unclear; awaiting Kyle clarification for mirror decision
-- Last seen: 2026-07-31T22:25:14Z (Discord primary "K" — BTC structure observation)
+- Last seen: 2026-08-01T12:47:00Z (X post BTC Monday pattern technical analysis)
 - **Events (rolling):**
+  - Aug 01 12:47Z — informational: BTC Monday pattern technical analysis; chart-driven observation on weekly Monday highs (11/12 weeks Monday set high → 3-5% drop follow-through); asking if next week brings Monday high or low; market structure/technical pattern commentary; no personal trade action; educational technical share [2083534966852305270]
   - Jul 31 22:25Z — informational: BTC structure observation (Discord primary); searching for long into 1st/monthly open; ideally bounce into 5th pivot then push down; conditional re-entry if "nuke into 5th"; chart structure analysis; setup anticipation, no confirmed entry yet [1532876823489155253]
   - Jul 31 21:48Z — informational: BTC key support level 61-61.5K; liquidation clusters of low leverage longs below; conditional 54-56K test if local low breaks [2083308816334983317]
   - Jul 31 18:54Z — informational: BTC 4-year cycle uncertainty; macro positioning advice (maintain exposure 1-2yr horizon); aligns with HTF bullish [2083265184647266624]
