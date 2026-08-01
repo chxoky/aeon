@@ -1,0 +1,69 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "X-Trader Monitor: BTC Fractal Analysis"
+      },
+      "children": [
+        "tweet-card",
+        "separator-1",
+        "analysis-stack"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "BTC Fractal Analysis — 57K structural support\n\nTime to fuck around and find out.\n\nIf bitcoin:native ends up mirroring the 2022 price action, it would imply that BTC never trades below 57K again.\n\nThat's a BIG if, of course. This is simply a fractal comparison, not a prediction.\n\nKeep that in mind, a fractal, not a prediction."
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "convergence-heading",
+        "convergence-text",
+        "tweet-link"
+      ]
+    },
+    "convergence-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Convergence",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "convergence-text": {
+      "type": "Text",
+      "props": {
+        "text": "Validates group structural bullish thesis (KillaXBT HTF 2x long, HCH net-long shift, Wild_Randomness 57K structural level). Chart shows multi-cycle fractal comparison (2022 vs 2018 bear cycle lows).",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2083639784270934131"
+      },
+      "children": []
+    }
+  }
+}
