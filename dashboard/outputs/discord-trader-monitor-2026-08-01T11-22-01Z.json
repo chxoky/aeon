@@ -1,0 +1,70 @@
+{
+  "root": "root_card",
+  "state": {},
+  "elements": {
+    "root_card": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor",
+        "description": "Calibration check for trader signals"
+      },
+      "children": [
+        "heading",
+        "sep1",
+        "event_text",
+        "sep2",
+        "message_card",
+        "sep3",
+        "alert"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration — [DC: HCH — Chat]",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "event_text": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Supporting channel message posted after recent position rotation (closed BTC/ETH shorts 07-31, added SOL+HYPE longs 08-01 AM)",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "heartcanhodl",
+        "handle": "heartcanhodl",
+        "text": "I was seeing the bullish wave coming to it"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What asset is \"it\"? Is this retrospective observation or conviction signal?",
+        "type": "warning"
+      }
+    }
+  }
+}
