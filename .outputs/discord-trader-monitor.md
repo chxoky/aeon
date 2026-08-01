@@ -27,3 +27,10 @@ HCH (supporting channel): "Never happens with btc, eth or even sol for example"
 
 **Result**: Message logged and tracked. No alerts sent — this is general market commentary that doesn't require Kyle's immediate attention.
 Unable to classify — what's your read? Cryptic reference to market behavior, risk/volatility pattern, or something else?
+🔍 *Calibration — [DC: HCH — Chat]*
+
+Supporting channel message (member chat):
+heartcanhodl: "It's something that I've also pieced together over years of experience"
+
+Context: Supporting channel; reply to unseen member discussion; no explicit ticker/level/action; no financial signal clarity.
+Unable to classify — what's your read?

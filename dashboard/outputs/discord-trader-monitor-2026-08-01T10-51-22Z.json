@@ -1,0 +1,151 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor",
+        "description": "Calibration & Classification Query"
+      },
+      "children": [
+        "section_calibration",
+        "sep1",
+        "section_message",
+        "sep2",
+        "section_context",
+        "sep3",
+        "section_classification"
+      ]
+    },
+    "section_calibration": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "calibration_label"
+      ]
+    },
+    "calibration_label": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: HCH — Chat]",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section_message": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "message_channel_type",
+        "message_quote",
+        "message_author"
+      ]
+    },
+    "message_channel_type": {
+      "type": "Text",
+      "props": {
+        "text": "Supporting channel message (member chat):",
+        "variant": "caption"
+      }
+    },
+    "message_quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"It's something that I've also pieced together over years of experience\"",
+        "variant": "lead"
+      }
+    },
+    "message_author": {
+      "type": "Text",
+      "props": {
+        "text": "— heartcanhodl",
+        "variant": "muted"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section_context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_intro",
+        "context_list"
+      ]
+    },
+    "context_intro": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "context_list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ctx_channel",
+        "ctx_discussion",
+        "ctx_ticker",
+        "ctx_signal"
+      ]
+    },
+    "ctx_channel": {
+      "type": "Text",
+      "props": {
+        "text": "• Supporting channel",
+        "variant": "body"
+      }
+    },
+    "ctx_discussion": {
+      "type": "Text",
+      "props": {
+        "text": "• Reply to unseen member discussion",
+        "variant": "body"
+      }
+    },
+    "ctx_ticker": {
+      "type": "Text",
+      "props": {
+        "text": "• No explicit ticker/level/action",
+        "variant": "body"
+      }
+    },
+    "ctx_signal": {
+      "type": "Text",
+      "props": {
+        "text": "• No financial signal clarity",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section_classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to Classify",
+        "message": "What's your read?",
+        "type": "warning"
+      }
+    }
+  }
+}
