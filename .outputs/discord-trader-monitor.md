@@ -1,16 +1,13 @@
-Perfect. I've completed the Discord Trader Monitor skill execution. Here's what happened:
 🔍 *Calibration — [DC: HCH — Chat]*
 
-HCH (supporting channel): "Never happens with btc, eth or even sol for example"
+Event: Member discussion on tail market moves in supporting channel
 
-**Event Processed:**
-- **ID**: 1533062326071328768
-- **Trader**: HeartCanHodl  
-- **Channel**: 1023638573313966212 (HCH — Chat, supporting)
-- **Content**: "Size wise majors esp. btc & eth, hardly ever disappoint. Liquid. Less prone to manipulation. Project related news don't change the prices overnight"
-- **Timestamp**: 2026-08-01T10:42:21Z
+HCH: "Not participating in the tail moves,  help"
 
-**Classification**: **Informational-supporting** (no trade signal)
+Unable to classify — what's your read? Is HCH:
+- Looking for strategy/advice on end-of-move price action?
+- Saying he's avoiding chasing final legs of moves?
+- Referring to portfolio positioning/hedging?
 
 **Reasoning:**
 - Supporting channel message (member chat, not primary Trades channel)
@@ -34,3 +31,4 @@ heartcanhodl: "It's something that I've also pieced together over years of exper
 
 Context: Supporting channel; reply to unseen member discussion; no explicit ticker/level/action; no financial signal clarity.
 Unable to classify — what's your read?
+Supporting channel commentary lacks primary-channel context. Awaiting interpretation.

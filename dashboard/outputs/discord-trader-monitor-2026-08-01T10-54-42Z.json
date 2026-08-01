@@ -1,0 +1,111 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor",
+        "description": "Calibration event from HCH discussion"
+      },
+      "children": [
+        "heading-calibration",
+        "text-event",
+        "sep1",
+        "message-quote",
+        "sep2",
+        "heading-analysis",
+        "stack-interpretations",
+        "sep3",
+        "text-context"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: HCH — Chat]",
+        "level": "h2"
+      }
+    },
+    "text-event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Member discussion on tail market moves in supporting channel",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message-quote": {
+      "type": "Alert",
+      "props": {
+        "title": "Member Message",
+        "message": "Not participating in the tail moves, help",
+        "type": "info"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-analysis": {
+      "type": "Heading",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "level": "h3"
+      }
+    },
+    "stack-interpretations": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "interpretation-1",
+        "interpretation-2",
+        "interpretation-3"
+      ]
+    },
+    "interpretation-1": {
+      "type": "Text",
+      "props": {
+        "text": "Looking for strategy/advice on end-of-move price action?",
+        "variant": "body"
+      }
+    },
+    "interpretation-2": {
+      "type": "Text",
+      "props": {
+        "text": "Saying he's avoiding chasing final legs of moves?",
+        "variant": "body"
+      }
+    },
+    "interpretation-3": {
+      "type": "Text",
+      "props": {
+        "text": "Referring to portfolio positioning/hedging?",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-context": {
+      "type": "Text",
+      "props": {
+        "text": "Supporting channel commentary lacks primary-channel context. Awaiting interpretation.",
+        "variant": "muted"
+      }
+    }
+  }
+}
