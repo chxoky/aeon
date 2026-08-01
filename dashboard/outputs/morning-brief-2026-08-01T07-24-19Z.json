@@ -1,0 +1,133 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-08-01"
+      },
+      "children": [
+        "section-focus",
+        "separator-1",
+        "section-activity"
+      ]
+    },
+    "section-focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-focus",
+        "focus-item-1",
+        "focus-item-2",
+        "focus-item-3"
+      ]
+    },
+    "heading-focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "focus-item-1": {
+      "type": "Text",
+      "props": {
+        "text": "1. HCH net-long pivot — mirror decision window open; no Kraken positions live",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "focus-item-2": {
+      "type": "Text",
+      "props": {
+        "text": "2. Trader divergence (HCH long vs. axe/Bitcoin_Astro bearish) — calibration alerts pending reply",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "focus-item-3": {
+      "type": "Text",
+      "props": {
+        "text": "3. BTC at $63K seasonal support — August historically worst month; $60K break = systemic",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-activity": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-activity",
+        "activity-item-1",
+        "activity-item-2",
+        "activity-item-3"
+      ]
+    },
+    "heading-activity": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "activity-item-1": {
+      "type": "Text",
+      "props": {
+        "text": "HCH closed full short basket: BTC/ETH (Jul 31 14:27Z) + UNI/TAO/SHIB/KAITO/ADA/VVV/ZEC (Aug 01 05:04Z) → net-long",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "activity-item-2": {
+      "type": "Text",
+      "props": {
+        "text": "HCH added HYPE 5% long (2-entry, 05:06Z); Fc false-close checks on HYPE following",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "activity-item-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "activity-label",
+        "badge-status"
+      ]
+    },
+    "activity-label": {
+      "type": "Text",
+      "props": {
+        "text": "trading_axe:",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "badge-status": {
+      "type": "Badge",
+      "props": {
+        "text": "FULL",
+        "variant": "secondary"
+      },
+      "children": []
+    }
+  }
+}
