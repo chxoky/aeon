@@ -1,0 +1,85 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "AAPL Trading Pattern Analysis"
+      },
+      "children": [
+        "tweet-card",
+        "separator-1",
+        "price-section",
+        "separator-2",
+        "analysis-text",
+        "separator-3",
+        "link-post"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Tale as old as time — AAPL recurring topout pattern validation"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "price-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-chart1",
+        "stat-chart2"
+      ]
+    },
+    "stat-chart1": {
+      "type": "Stat",
+      "props": {
+        "label": "Chart 1 - Recovery bounce",
+        "value": "$333.02",
+        "delta": "+3.53%",
+        "trend": "up"
+      }
+    },
+    "stat-chart2": {
+      "type": "Stat",
+      "props": {
+        "label": "Chart 2 - Intraday crash (06:27:13)",
+        "value": "$302.00",
+        "delta": "-9.47%",
+        "trend": "down"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "analysis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Same rejection pattern repeating: AAPL hits resistance, bounces intraday +3-4%, then crashes back down -9%+ same day. Validates existing Oct $300 short thesis (opened Jul 28, validated Jul 30 crash, conviction reaffirmed Jul 31).",
+        "variant": "body"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "link-post": {
+      "type": "Link",
+      "props": {
+        "label": "View post on X",
+        "href": "https://x.com/Wild_Randomness/status/2083626427015152054"
+      }
+    }
+  }
+}
