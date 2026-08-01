@@ -1,0 +1,119 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor Calibration",
+        "description": "@swarmister"
+      },
+      "children": [
+        "metadata",
+        "separator1",
+        "tweet",
+        "separator2",
+        "question-section"
+      ]
+    },
+    "metadata": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to @FalconyFalcon (context unavailable)",
+        "variant": "caption"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "@swarmister",
+        "text": "I'm lucky to lose money ?"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "question-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert",
+        "q-text",
+        "options-label",
+        "options",
+        "url"
+      ]
+    },
+    "alert": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "title": "Unable to classify",
+        "message": "What's your read on this tweet?"
+      }
+    },
+    "q-text": {
+      "type": "Text",
+      "props": {
+        "text": "Is this sarcasm on personal trading, market sentiment, or reference to a specific trade?",
+        "variant": "body"
+      }
+    },
+    "options-label": {
+      "type": "Text",
+      "props": {
+        "text": "Classification options:",
+        "variant": "caption"
+      }
+    },
+    "options": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opt1",
+        "opt2",
+        "opt3"
+      ]
+    },
+    "opt1": {
+      "type": "Badge",
+      "props": {
+        "text": "Sarcasm on personal trading",
+        "variant": "outline"
+      }
+    },
+    "opt2": {
+      "type": "Badge",
+      "props": {
+        "text": "Market sentiment",
+        "variant": "outline"
+      }
+    },
+    "opt3": {
+      "type": "Badge",
+      "props": {
+        "text": "Reference to specific trade",
+        "variant": "outline"
+      }
+    },
+    "url": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/swarmister/status/2083605211902362096"
+      }
+    }
+  }
+}
