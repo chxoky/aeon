@@ -1,8 +1,8 @@
-🐦 *[X] @KillaXBT*
+🐦 *[X] @swarmister*
 
-**BTC Fractal Analysis — 57K structural support**
+I paid $100,000 for early access to Truth Social posts. A minute ago, they posted private photos of Ivanka Trump and deleted them immediately. Maybe it's worth looking into short positions.
 
-Time to fuck around and find out.
+Holy shit
 
 If bitcoin:native ends up mirroring the 2022 price action, it would imply that BTC never trades below 57K again.
 
@@ -20,3 +20,4 @@ Keep that in mind, a fractal, not a prediction.
 BTC aggregate long/short account positioning has shifted significantly from Q2 lows (~1.142 ratio) to current highs (~1.248). Charts show shorts being covered and trader sentiment moving more bullish — derivative market regime shift from defensive to net-long positioning.
 
 [View tweet](https://x.com/Wild_Randomness/status/2083640988581625960)
+[View post](https://x.com/swarmister/status/2083641846643781694)
