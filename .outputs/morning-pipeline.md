@@ -1,24 +1,22 @@
-*Morning Brief — 2026-07-31*
+*Morning Brief — 2026-08-01*
 
 *Focus today*
-1. Deribit $9.57B BTC options expiry (max pain $64K) — why now: expiry clears today; direction pivot likely post-noon UTC
-2. HCH 50%+ short basket — why now: 6 conviction adds in 96min overnight (BTC/ETH +5%, UNI +2%, TAO +1%, ADA +1%, BTC/ETH +2.5%); sharpest single-session escalation on record
-3. UNI +10.8% into HCH's 6% short — why now: DEX surge creates maximum tension with highest-conviction single-name short in the basket
+1. HCH went full long overnight — why now: first net-long regime since Jul 3; confirms bearish arc ended
+2. NFP Aug 7 + Fed hike priced 59.5% — why now: 6 days to binary macro event; no new crypto longs until clarity
+3. trading_axe vs HCH divergence — why now: axe says clean-out imminent, HCH buying the dip; weekend move starts today
 
 *Since yesterday*
-- HCH: short basket expanded aggressively overnight — BTC ~9-14%, ETH ~11-16%, UNI 6%, TAO, ADA all added; 20% BTC cover at 63K with conditional re-add at 65K
-- Chase: TP'd MU @920 + SNDK @1380 (65% cumulative closed on both); core 35% remains
-- AAPL: intraday −7.8% Jul 30 validated HCH + Wild_Randomness short thesis; active positions remain open
-- Semis/SOXL: 4-trader bottom convergence (Chase TP → ryzzqq entry → WR tech confirm → HCH hedge TP @ +58%); "easy leg is behind us"
-- Morning-pipeline missed Jul 30 — delivered now
+- HCH closed ALL leveraged shorts (ZEC, UNI, TAO, SHIB, KAITO, ADA, VVV) + added 5% HYPE long — full bear→bull pivot
+- trading_axe: `FULL BLOWN CLEAN OUT very soon` on alts; recommends watching BTC/ETH only
+- Wild_Randomness: SPY/NQ low-volume rally = distribution risk; macro bear thesis intact
+- Stoiiic: calibration alert sent (ambiguous `wrong train` quote); awaiting your read
+- GRVT reversed: −11.7% yesterday → +28.6% today, trending #2; yesterday's `narrative reversing` call was premature
 
 *Watch*
-- UNI: surging +10.8% (TRENDING+UP) while HCH is at maximum conviction short — track for reversal or squeeze
-- September FOMC: post-July hold, Sep +25bps now 52.5% on Polymarket; rate uncertainty headwind
+- BTC ETF H1 2026: $5.4B net outflows (first negative half-year since launch) — structural demand collapse; implication for focus #2: rate headwind is compounding with institutional retreat
 
 *Running today*
-- token-alert @ 12:00 UTC
-- token-movers @ 12:00 UTC
-- market-context-refresh @ 13:00 UTC
-- narrative-tracker @ 13:30 UTC
-- heartbeat @ 14:00, 20:00 UTC
+- discord-trader-monitor @ continuous (1 min)
+- x-trader-monitor @ real-time webhook
+- market-context-refresh @ 10:00 UTC
+- heartbeat @ ~20:38 UTC

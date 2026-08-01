@@ -1,0 +1,238 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-08-01"
+      },
+      "children": [
+        "focus-section",
+        "sep-1",
+        "since-section",
+        "sep-2",
+        "watch-section",
+        "sep-3",
+        "running-section"
+      ]
+    },
+    "focus-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus-title",
+        "focus-items"
+      ]
+    },
+    "focus-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h3"
+      }
+    },
+    "focus-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-item-1",
+        "focus-item-2",
+        "focus-item-3"
+      ]
+    },
+    "focus-item-1": {
+      "type": "Text",
+      "props": {
+        "text": "1. HCH went full long overnight — why now: first net-long regime since Jul 3; confirms bearish arc ended"
+      }
+    },
+    "focus-item-2": {
+      "type": "Text",
+      "props": {
+        "text": "2. NFP Aug 7 + Fed hike priced 59.5% — why now: 6 days to binary macro event; no new crypto longs until clarity"
+      }
+    },
+    "focus-item-3": {
+      "type": "Text",
+      "props": {
+        "text": "3. trading_axe vs HCH divergence — why now: axe says clean-out imminent, HCH buying the dip; weekend move starts today"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "since-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "since-title",
+        "since-items"
+      ]
+    },
+    "since-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h3"
+      }
+    },
+    "since-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since-item-1",
+        "since-item-2",
+        "since-item-3",
+        "since-item-4",
+        "since-item-5"
+      ]
+    },
+    "since-item-1": {
+      "type": "Text",
+      "props": {
+        "text": "HCH closed ALL leveraged shorts (ZEC, UNI, TAO, SHIB, KAITO, ADA, VVV) + added 5% HYPE long — full bear→bull pivot"
+      }
+    },
+    "since-item-2": {
+      "type": "Text",
+      "props": {
+        "text": "trading_axe: `FULL BLOWN CLEAN OUT very soon` on alts; recommends watching BTC/ETH only"
+      }
+    },
+    "since-item-3": {
+      "type": "Text",
+      "props": {
+        "text": "Wild_Randomness: SPY/NQ low-volume rally = distribution risk; macro bear thesis intact"
+      }
+    },
+    "since-item-4": {
+      "type": "Text",
+      "props": {
+        "text": "Stoiiic: calibration alert sent (ambiguous `wrong train` quote); awaiting your read"
+      }
+    },
+    "since-item-5": {
+      "type": "Text",
+      "props": {
+        "text": "GRVT reversed: −11.7% yesterday → +28.6% today, trending #2; yesterday's `narrative reversing` call was premature"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "watch-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "watch-title",
+        "watch-items"
+      ]
+    },
+    "watch-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h3"
+      }
+    },
+    "watch-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "watch-item-1"
+      ]
+    },
+    "watch-item-1": {
+      "type": "Text",
+      "props": {
+        "text": "BTC ETF H1 2026: $5.4B net outflows (first negative half-year since launch) — structural demand collapse; implication for focus #2: rate headwind is compounding with institutional retreat"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "running-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "running-title",
+        "running-items"
+      ]
+    },
+    "running-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h3"
+      }
+    },
+    "running-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "running-item-1",
+        "running-item-2",
+        "running-item-3",
+        "running-item-4"
+      ]
+    },
+    "running-item-1": {
+      "type": "Text",
+      "props": {
+        "text": "discord-trader-monitor @ continuous (1 min)"
+      }
+    },
+    "running-item-2": {
+      "type": "Text",
+      "props": {
+        "text": "x-trader-monitor @ real-time webhook"
+      }
+    },
+    "running-item-3": {
+      "type": "Text",
+      "props": {
+        "text": "market-context-refresh @ 10:00 UTC"
+      }
+    },
+    "running-item-4": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ ~20:38 UTC"
+      }
+    }
+  }
+}
