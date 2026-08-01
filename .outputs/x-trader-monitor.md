@@ -1,5 +1,5 @@
 🐦 *[X] @HeartCanHodl*
 
-LGW (Looking Good Weekly) — ZEC technical analysis on weekly downtrend structure (589.18→478.40 on 4h, strong bearish momentum with volume confirmation). Charts show post-close analysis after HCH fully exited ZEC short position at 05:08Z today.
+Technical chart review across portfolio: ZEC 4h downtrend (validated closed shorts at 05:08Z), LIT 4h downtrend (ongoing short thesis), HYPE 4h structure at consolidation support (validates 5% long entry at 05:06Z). 5-image post showing technical alignment across recent position actions; portfolio commentary, no new execution signals.
 
-[View tweet](https://x.com/HeartCanHodl/status/2083485824394653889)
+[View post](https://x.com/HeartCanHodl/status/2083490171857846469)

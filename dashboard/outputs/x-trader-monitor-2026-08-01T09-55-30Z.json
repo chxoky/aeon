@@ -1,0 +1,24 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet_card"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "@HeartCanHodl",
+        "text": "Technical chart review across portfolio: ZEC 4h downtrend (validated closed shorts at 05:08Z), LIT 4h downtrend (ongoing short thesis), HYPE 4h structure at consolidation support (validates 5% long entry at 05:06Z). 5-image post showing technical alignment across recent position actions; portfolio commentary, no new execution signals.\n\nView post: https://x.com/HeartCanHodl/status/2083490171857846469"
+      },
+      "children": []
+    }
+  }
+}
