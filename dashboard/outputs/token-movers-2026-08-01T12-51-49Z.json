@@ -1,0 +1,415 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "Token Movers — Aug 1, 2026",
+        "description": "Mixed recovery — ~49% of tracked non-stables green vs 25% at morning open; median 24h move −0.6%; breadth improving but BTC, ETH, and HYPE remain red."
+      },
+      "children": [
+        "heading_winners",
+        "table_winners",
+        "sep_1",
+        "heading_losers",
+        "table_losers",
+        "sep_2",
+        "heading_trending",
+        "table_trending",
+        "sep_3",
+        "heading_notable",
+        "stack_notable"
+      ]
+    },
+    "heading_winners": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Winners (24h)",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "table_winners": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Price",
+          "24h %",
+          "7d %",
+          "1h %",
+          "Market Cap",
+          "Rank",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "BEAT (Audiera)",
+            "$4.71",
+            "+15.7%",
+            "+41.0%",
+            "+2.5%",
+            "$20.5M",
+            "#50",
+            "TRENDING+UP BREAKOUT"
+          ],
+          [
+            "SHIB (Shiba Inu)",
+            "$0.00000495",
+            "+6.7%",
+            "+17.2%",
+            "+1.4%",
+            "$165.5M",
+            "#31",
+            ""
+          ],
+          [
+            "PI (Pi Network)",
+            "$0.0868",
+            "+6.6%",
+            "+7.0%",
+            "+1.0%",
+            "$8.3M",
+            "#67",
+            ""
+          ],
+          [
+            "PUMP (Pump.fun)",
+            "$0.002125",
+            "+6.5%",
+            "+20.9%",
+            "−0.3%",
+            "$102.4M",
+            "#76",
+            "TRENDING+UP"
+          ],
+          [
+            "M (MemeCore)",
+            "$1.089",
+            "+5.2%",
+            "−8.6%",
+            "−0.4%",
+            "$9.3M",
+            "#51",
+            ""
+          ],
+          [
+            "QNT (Quant)",
+            "$62.23",
+            "+4.8%",
+            "−0.4%",
+            "+1.2%",
+            "$6.2M",
+            "#70",
+            ""
+          ],
+          [
+            "HBAR (Hedera)",
+            "$0.0696",
+            "+2.6%",
+            "−0.2%",
+            "+0.2%",
+            "$41.1M",
+            "#29",
+            ""
+          ],
+          [
+            "ADA (Cardano)",
+            "$0.1732",
+            "+1.9%",
+            "+6.8%",
+            "+0.6%",
+            "$298.3M",
+            "#18",
+            "MAJOR"
+          ],
+          [
+            "OKB",
+            "$85.99",
+            "+0.9%",
+            "+4.4%",
+            "−0.1%",
+            "$12.4M",
+            "#43",
+            ""
+          ],
+          [
+            "NEAR (NEAR Protocol)",
+            "$1.66",
+            "+0.9%",
+            "−6.9%",
+            "+0.4%",
+            "$161.6M",
+            "#39",
+            ""
+          ]
+        ]
+      },
+      "children": []
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_losers": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Losers (24h)",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "table_losers": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Price",
+          "24h %",
+          "7d %",
+          "1h %",
+          "Market Cap",
+          "Rank",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "UNI (Uniswap)",
+            "$4.06",
+            "−6.8%",
+            "+11.2%",
+            "0.0%",
+            "$265.9M",
+            "#37",
+            "TRENDING+DOWN"
+          ],
+          [
+            "AAVE",
+            "$91.10",
+            "−6.6%",
+            "+0.4%",
+            "+0.2%",
+            "$293.4M",
+            "#53",
+            ""
+          ],
+          [
+            "LIT (Lighter)",
+            "$2.04",
+            "−6.0%",
+            "+0.8%",
+            "+0.6%",
+            "$24.9M",
+            "#98",
+            ""
+          ],
+          [
+            "ONDO",
+            "$0.3883",
+            "−5.1%",
+            "+0.7%",
+            "−0.4%",
+            "$102.5M",
+            "#41",
+            ""
+          ],
+          [
+            "HYPE (Hyperliquid)",
+            "$52.17",
+            "−5.0%",
+            "−9.6%",
+            "−0.1%",
+            "$334.3M",
+            "#10",
+            "MAJOR TRENDING+DOWN"
+          ],
+          [
+            "BNB",
+            "$578.77",
+            "−2.2%",
+            "+2.6%",
+            "0.0%",
+            "$615.5M",
+            "#4",
+            "MAJOR"
+          ],
+          [
+            "LTC (Litecoin)",
+            "$44.27",
+            "−1.7%",
+            "−3.5%",
+            "0.0%",
+            "$169.1M",
+            "#27",
+            ""
+          ],
+          [
+            "BTC (Bitcoin)",
+            "$63,042",
+            "−1.4%",
+            "−1.5%",
+            "0.0%",
+            "$22.3B",
+            "#1",
+            "MAJOR"
+          ],
+          [
+            "ETH (Ethereum)",
+            "$1,866",
+            "−1.2%",
+            "+0.4%",
+            "0.0%",
+            "$6.36B",
+            "#2",
+            "MAJOR"
+          ],
+          [
+            "XRP",
+            "$1.063",
+            "−1.0%",
+            "−2.5%",
+            "+0.1%",
+            "$872.9M",
+            "#6",
+            "MAJOR"
+          ]
+        ]
+      },
+      "children": []
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_trending": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "table_trending": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Rank",
+          "Price",
+          "24h %",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "GRVT (GRVT Token)",
+            "#611",
+            "$0.270",
+            "+5.2%",
+            ""
+          ],
+          [
+            "PENGU (Pudgy Penguins)",
+            "#112",
+            "$0.00597",
+            "−1.1%",
+            ""
+          ],
+          [
+            "POL (ex-MATIC)",
+            "#77",
+            "$0.0727",
+            "+1.6%",
+            ""
+          ],
+          [
+            "KOMA (Koma Inu)",
+            "#970",
+            "$0.0234",
+            "−5.1%",
+            ""
+          ],
+          [
+            "BTC (Bitcoin)",
+            "#1",
+            "$63,036",
+            "−0.9%",
+            ""
+          ],
+          [
+            "UNI (Uniswap)",
+            "#37",
+            "$4.059",
+            "−6.3%",
+            "TRENDING+DOWN"
+          ],
+          [
+            "GIGGLE (Giggle Fund)",
+            "#459",
+            "$42.68",
+            "+14.5%",
+            ""
+          ]
+        ]
+      },
+      "children": []
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_notable": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack_notable": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_notable_1",
+        "text_notable_2",
+        "text_notable_3"
+      ]
+    },
+    "text_notable_1": {
+      "type": "Text",
+      "props": {
+        "text": "BEAT: trending + breakout — +15.7% 24h / +41% 7d on sustained volume; crosses [BREAKOUT] threshold today (was +14.3% this morning without the tag); strongest dual-confirmation signal of the day",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_notable_2": {
+      "type": "Text",
+      "props": {
+        "text": "PUMP: newly entered trending while gaining +6.5% / 7d +20.9% — Pump.fun token drawing search interest alongside price momentum [TRENDING+UP]",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_notable_3": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE: rank #10 now appearing in trending while down −5.0% 24h / −9.6% 7d — people are searching a major-cap coin that's falling; [TRENDING+DOWN] is new since morning run",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
