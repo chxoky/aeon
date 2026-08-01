@@ -1,0 +1,79 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet",
+        "separator1",
+        "price_stat",
+        "separator2",
+        "details_stack"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "ETH massive crash: $4,800 peak → $1,869 current (60% decline)\n\nChart shows 2024-2026 boom-bust cycle with heavy distribution."
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "price_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH Price Decline",
+        "value": "$1,869",
+        "delta": "-60%",
+        "trend": "down"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "details_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context",
+        "analysis",
+        "link"
+      ]
+    },
+    "context": {
+      "type": "Text",
+      "props": {
+        "text": "Follows Wild_Randomness' prior macro bearish sentiment thread with @lBattleRhino: 'The Big One hasn't even happened yet'"
+      }
+    },
+    "analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Sentiment alignment: Extends documented Jump-the-Shark bear thesis + crypto dispersion-trade positioning"
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2083611000478314674"
+      }
+    }
+  }
+}
