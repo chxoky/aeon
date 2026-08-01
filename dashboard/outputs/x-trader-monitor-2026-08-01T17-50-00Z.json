@@ -1,0 +1,127 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Leopold Fund Portfolio Monitor"
+      },
+      "children": [
+        "heading_performance",
+        "stack_funds",
+        "separator_1",
+        "heading_analysis",
+        "text_analysis",
+        "separator_2",
+        "heading_social",
+        "tweet_commentary",
+        "link_tweet"
+      ]
+    },
+    "heading_performance": {
+      "type": "Heading",
+      "props": {
+        "text": "Fund Performance",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack_funds": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat_be",
+        "stat_lite",
+        "stat_crwv"
+      ]
+    },
+    "stat_be": {
+      "type": "Stat",
+      "props": {
+        "label": "BE",
+        "value": "-15.47%",
+        "delta": "-15.47%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "stat_lite": {
+      "type": "Stat",
+      "props": {
+        "label": "LITE",
+        "value": "-14.19%",
+        "delta": "-14.19%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "stat_crwv": {
+      "type": "Stat",
+      "props": {
+        "label": "CRWV",
+        "value": "-2.45%",
+        "delta": "-2.45%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_analysis": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart Analysis",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text_analysis": {
+      "type": "Text",
+      "props": {
+        "text": "13F Holdings Summary shows recent stock crashes"
+      },
+      "children": []
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_social": {
+      "type": "Heading",
+      "props": {
+        "text": "Social Commentary",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "tweet_commentary": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Bull Market Genius"
+      },
+      "children": []
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/Wild_Randomness/status/2083609942066663570"
+      },
+      "children": []
+    }
+  }
+}
