@@ -1,0 +1,140 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration — @HeartCanHodl"
+      },
+      "children": [
+        "stack_header",
+        "sep1",
+        "stack_event",
+        "tweet_post",
+        "sep2",
+        "stack_analysis",
+        "sep3",
+        "alert_question"
+      ]
+    },
+    "stack_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "emoji_text",
+        "badge_author"
+      ]
+    },
+    "emoji_text": {
+      "type": "Text",
+      "props": {
+        "text": "🔍 Calibration",
+        "variant": "lead"
+      }
+    },
+    "badge_author": {
+      "type": "Badge",
+      "props": {
+        "text": "@HeartCanHodl",
+        "variant": "secondary"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_event": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_event",
+        "text_event"
+      ]
+    },
+    "heading_event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h4"
+      }
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Cryptic vague post with no ticker/level context",
+        "variant": "body"
+      }
+    },
+    "tweet_post": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "@HeartCanHodl",
+        "text": "@cz_binance I bought a lot"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_analysis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_analysis",
+        "text_analysis",
+        "text_context"
+      ]
+    },
+    "heading_analysis": {
+      "type": "Heading",
+      "props": {
+        "text": "Analysis",
+        "level": "h4"
+      }
+    },
+    "text_analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — no ticker, price, or size specified. First-person action language suggests execution, but asset unclear.",
+        "variant": "body"
+      }
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "Posted 23min after PENGU Discord discussion, possibly related but not explicit.",
+        "variant": "muted"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_question": {
+      "type": "Alert",
+      "props": {
+        "title": "Pending interpretation",
+        "message": "What's your read?",
+        "type": "info"
+      }
+    }
+  }
+}

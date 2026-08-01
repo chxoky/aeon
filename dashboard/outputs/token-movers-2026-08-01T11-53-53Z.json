@@ -1,0 +1,23 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "token-movers"
+      },
+      "children": [
+        "empty"
+      ]
+    },
+    "empty": {
+      "type": "Text",
+      "props": {
+        "text": "No content",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
