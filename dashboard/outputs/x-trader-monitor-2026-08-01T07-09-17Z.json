@@ -1,0 +1,125 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading_calibration",
+        "stack_content"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Bitcoin_Astro",
+        "level": "h2"
+      }
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_event",
+        "text_event",
+        "sep1",
+        "tweet",
+        "sep2",
+        "heading_question",
+        "text_unclear",
+        "stack_options",
+        "link_post"
+      ]
+    },
+    "heading_event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Post-prediction follow-up (BTC hit their predicted 67k ceiling on Jul 21; now moving into bearish longer-term phase they outlined)"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Bitcoin_Astro",
+        "handle": "@Bitcoin_Astro",
+        "text": "#Bitcoin ⬇️⬇️⬇️"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_question": {
+      "type": "Heading",
+      "props": {
+        "text": "Classification Question",
+        "level": "h3"
+      }
+    },
+    "text_unclear": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — How do you read this?",
+        "variant": "lead"
+      }
+    },
+    "stack_options": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "option_a",
+        "option_b",
+        "option_c"
+      ]
+    },
+    "option_a": {
+      "type": "Text",
+      "props": {
+        "text": "a) Expression of their existing bearish longer-term thesis (expected move)"
+      }
+    },
+    "option_b": {
+      "type": "Text",
+      "props": {
+        "text": "b) Technical breakdown signal (new development)"
+      }
+    },
+    "option_c": {
+      "type": "Text",
+      "props": {
+        "text": "c) Just ambient sentiment/venting"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Bitcoin_Astro/status/2083448877366022454"
+      }
+    }
+  }
+}
