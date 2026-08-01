@@ -1,7 +1,8 @@
 market context — 2026-08-01
 
-take: risk-off (conviction medium)
-BTC $63,024 (−2.0%) / ETH $1,868.60 (−1.8%) · F&G 27 (Fear ↑)
-breadth 5/20 · TVL Eth $40.85B (−$0.14B)
-top narrative: Sep FOMC hike (rising) — Polymarket YES 59.5%
-hot market: "Fed 25 bps hike Sep 2026" YES 59.5%
+take: chop (conviction medium)
+BTC $63,027 (−1.1% 24h) / ETH $1,868 (−0.8%) · F&G 27 (Fear)
+breadth 7/20 · TVL Lido $17.56B (+1.1% 7d) · DEX vol $7.15B
+top narrative: Sep FOMC hike (rising) — fed futures ~72%
+trending: SHIB +7.5% / PI +8.7% / PUMP +7.8% — meme rotation day 4
+hot market: Israel-Iran ceasefire through Aug 2 YES 73.5%
