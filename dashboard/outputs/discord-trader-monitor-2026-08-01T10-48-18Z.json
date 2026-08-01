@@ -1,0 +1,87 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_badge",
+        "sep1",
+        "hch_section",
+        "sep2",
+        "classification_question"
+      ]
+    },
+    "context_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "[DC: HCH — Chat]",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "hch_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "hch_label",
+        "hch_quote"
+      ]
+    },
+    "hch_label": {
+      "type": "Text",
+      "props": {
+        "text": "HCH (supporting channel):",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "hch_quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"Never happens with btc, eth or even sol for example\"",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "classification_question": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read? Cryptic reference to market behavior, risk/volatility pattern, or something else?",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}
