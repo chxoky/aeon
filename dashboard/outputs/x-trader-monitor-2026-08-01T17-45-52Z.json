@@ -1,0 +1,216 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Trader sentiment and market analysis"
+      },
+      "children": [
+        "tweet-card",
+        "sep-1",
+        "price-section",
+        "sep-2",
+        "analysis-section"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "The Big One hasn't even happened yet"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "price-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "price-heading",
+        "btc-stat",
+        "eth-stat"
+      ]
+    },
+    "price-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Price Action",
+        "level": "h3"
+      }
+    },
+    "btc-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "62.8k",
+        "delta": "from ~120k peak",
+        "trend": "down"
+      }
+    },
+    "eth-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "1.9k",
+        "delta": "from ~4.8k peak",
+        "trend": "down"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "seasonality-group",
+        "thesis-group",
+        "sentiment-group",
+        "alignment-group",
+        "link-group"
+      ]
+    },
+    "seasonality-group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "seasonality-label",
+        "seasonality-text"
+      ]
+    },
+    "seasonality-label": {
+      "type": "Text",
+      "props": {
+        "text": "Historical August Seasonality",
+        "variant": "muted"
+      }
+    },
+    "seasonality-text": {
+      "type": "Text",
+      "props": {
+        "text": "Weak (+1.12% avg)",
+        "variant": "body"
+      }
+    },
+    "thesis-group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "thesis-label",
+        "thesis-badge"
+      ]
+    },
+    "thesis-label": {
+      "type": "Text",
+      "props": {
+        "text": "Thesis",
+        "variant": "muted"
+      }
+    },
+    "thesis-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Jump-the-Shark Market Top",
+        "variant": "destructive"
+      }
+    },
+    "sentiment-group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sentiment-badge",
+        "downside-text"
+      ]
+    },
+    "sentiment-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Bearish Sentiment",
+        "variant": "destructive"
+      }
+    },
+    "downside-text": {
+      "type": "Text",
+      "props": {
+        "text": "Further major downside ahead per WR's macro bear framework",
+        "variant": "body"
+      }
+    },
+    "alignment-group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "alignment-label",
+        "alignment-text",
+        "contrast-text"
+      ]
+    },
+    "alignment-label": {
+      "type": "Text",
+      "props": {
+        "text": "Market Positioning",
+        "variant": "muted"
+      }
+    },
+    "alignment-text": {
+      "type": "Text",
+      "props": {
+        "text": "Aligns with broader group bearish lean on macro structure",
+        "variant": "body"
+      }
+    },
+    "contrast-text": {
+      "type": "Text",
+      "props": {
+        "text": "Contrasts with HCH/bull_genius recent net-long builds from tactical bottom call",
+        "variant": "caption"
+      }
+    },
+    "link-group": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-link"
+      ]
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2083608774288576755"
+      }
+    }
+  }
+}
