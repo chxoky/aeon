@@ -1,35 +1,18 @@
 ## Summary
 
-Skill execution complete. Processed Discord trader-monitor event for **crypto_chase** at 2026-08-01 23:26:27Z.
+**Discord Trader Monitor — Execution Complete**
 
-**Result:** **SKIP** — Non-financial personal explanation
-- Message: crypto_chase replies to fuwow explaining time constraints (recent heavy trading + physical limitation requiring twice as long for tasks) and prioritization of personal trades
-- Classification: Non-financial banter per Step 5A
-- Action: No alert sent (no trade signal, no market commentary, no ticker)
-- Memory updated: Event logged, message ID added to discord-trader-seen.txt, traders.md updated with last-seen timestamp
-- Log entry: Appended to memory/logs/2026-08-01.md with full details
+Event processed: Crypto_Chase message in Chase — TradFi supporting channel (1343971265962049597)
 
-No Telegram notification was sent.
-**Discord Trader Monitor - Event Processed**
+**Classification:** Non-financial personal banter (Step 5A)
+- Message: "Yeah and that's just time on the computer right? Still got IRL to deal with haha"
+- No trade signal, no ticker, no action language
+- Supporting channel engagement
 
-✅ **Event:** Message from `crypto_chase` in the "Chase — TradFi" supporting Discord channel (ID: 1343971265962049597)
+**Actions taken:**
+- ✅ Event logged to `memory/logs/2026-08-01.md` with classification and notes
+- ✅ Message ID `1533255715316306181` added to `memory/discord-trader-seen.txt` to prevent reprocessing
+- ✅ **No Telegram alert sent** (per non-financial skip protocol)
+- ✅ Fast-path was false; full skill processing completed
 
-✅ **Classification:** SKIP (non-financial banter)
-
-✅ **Details:**
-- Message ID: `1533254680656871535`
-- Content: "If you have a summary of your thoughts though, I'm happy to look"
-- Type: Conversational request asking for input/summary
-- No trade signal, no market analysis, no financial action language
-- Supporting channel engagement only
-
-✅ **Actions completed:**
-1. Decoded and validated event structure
-2. Resolved trader and channel from discord-channels.json
-3. Loaded context from memory (traders.md)
-4. Applied classification rules (Step 5: non-financial per Step 4A)
-5. Updated memory/logs/2026-08-01.md with event log
-6. Added message ID to discord-trader-seen.txt to prevent re-processing
-7. No Telegram alert sent (skip classification)
-
-Fast-path alert status: `false` (full skill processing required and completed)
+The seen-list is now at 61 entries (well below the 5000-line pruning threshold).
