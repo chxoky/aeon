@@ -1,0 +1,98 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-header",
+        "separator-1",
+        "text-event",
+        "tweet-main",
+        "separator-2",
+        "stack-analysis"
+      ]
+    },
+    "text-header": {
+      "type": "Text",
+      "props": {
+        "text": "🔍 Calibration — @swarmister",
+        "variant": "lead"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @Basketchbrah",
+        "variant": "body"
+      }
+    },
+    "tweet-main": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "Ge 👽em"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack-analysis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "alert-classification",
+        "text-pattern",
+        "text-context"
+      ]
+    },
+    "alert-classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read?",
+        "type": "warning"
+      }
+    },
+    "text-pattern": {
+      "type": "Text",
+      "props": {
+        "text": "Resembles prior ambiguous pattern from Jul 31 06:16Z–15:44Z and Aug 01 08:43Z.",
+        "variant": "caption"
+      }
+    },
+    "text-context": {
+      "type": "Text",
+      "props": {
+        "text": "Cryptic trading-adjacent community engagement, but unclear whether market commentary or pure social banter.",
+        "variant": "body"
+      }
+    }
+  }
+}
