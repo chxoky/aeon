@@ -1,0 +1,108 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Closing Crypto Shorts After Recent Drawdown"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_mirrored",
+        "text_hch_signal",
+        "sep_1",
+        "stack_stats",
+        "text_context",
+        "sep_2",
+        "alert_action",
+        "link_post"
+      ]
+    },
+    "badge_mirrored": {
+      "type": "Badge",
+      "props": {
+        "text": "🔁 Mirrored — @HeartCanHodl",
+        "variant": "secondary"
+      }
+    },
+    "text_hch_signal": {
+      "type": "Text",
+      "props": {
+        "text": "HCH signaling closure of positions following significant intraday crashes across crypto and semis.",
+        "variant": "lead"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat_btc",
+        "stat_sndk"
+      ]
+    },
+    "stat_btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "63.9k",
+        "delta": "-2.3%",
+        "trend": "down"
+      }
+    },
+    "stat_sndk": {
+      "type": "Stat",
+      "props": {
+        "label": "SNDK",
+        "value": "1309",
+        "delta": "-6.1%",
+        "trend": "down"
+      }
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "Charts show significant intraday crashes across crypto and semis.",
+        "variant": "caption"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_action": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "If you hold HCH-following crypto shorts on Kraken, consider mirroring this close."
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/HeartCanHodl/status/2083498459177590823"
+      }
+    }
+  }
+}

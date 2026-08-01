@@ -96,8 +96,9 @@
 
 ## HeartCanHodl
 
-- **Last seen**: 2026-08-01T09:51:36Z (Discord reply "I am their worst counterparty")
+- **Last seen**: 2026-08-01T10:21:56Z (X post "Gotta close da crypto shorts" with price-action charts)
 - **Events (recent):**
+  - Aug 01 10:21Z — trade-mirror-close: "Gotta close da crypto shorts" (X post with 4 chart images: SNDK 4h semis technical, Discord BTC context messages, BTC/USDT 5m showing 65.4k→63.9k drawdown, SNDK/USDT.P 5m showing 1394→1309 crash; first-person execution-oriented language "gotta close" on crypto shorts following significant intraday price drops across major pairs and semis; no-approval mirror case—closing existing short positions; validation charts show urgency/technical invalidation of bearish thesis; mirror alert sent to Kyle, no approval flow required for position closure; Telegram notified) [2083498459177590823]
   - Aug 01 09:51Z — ambiguous: "I am their worst counterparty" (primary Free channel; reply to FixTweet bot link to tweet; cryptic personal/philosophical commentary; no explicit ticker/level/action stated; no financial signal clarity without broader context; calibration alert sent) [1533049553291575348]
 - **Last seen**: 2026-08-01T09:49:01Z (X post technical chart review on bearish/bullish theses)
 - **Events (recent):**
