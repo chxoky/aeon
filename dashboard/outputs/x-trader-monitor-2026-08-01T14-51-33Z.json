@@ -1,0 +1,43 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet-card",
+        "sep1",
+        "tweet-link",
+        "analysis-text"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "BTC/NQ is topped"
+      }
+    },
+    "sep1": {
+      "type": "Separator"
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2083565483295740251"
+      }
+    },
+    "analysis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Bearish reversal call: 1D chart shows downtrend from 5.0 to 2.22 with multiple breakdown levels marked, support at 2.0. Converges with Bitcoin_Astro's longer-term bearish thesis (expected weakness post-67k July high), but diverges from KillaXBT/bull_genius structural bullish longer-term positioning.",
+        "variant": "body"
+      }
+    }
+  }
+}
