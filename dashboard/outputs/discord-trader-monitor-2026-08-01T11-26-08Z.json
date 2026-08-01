@@ -1,0 +1,23 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "tweet-1"
+      ]
+    },
+    "tweet-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Discord Chat",
+        "handle": "HCH",
+        "text": "I'm holding for AT LEAST A 60% rerate and targeting a 2.5x lol don't sell the next pump but I guess it's quite attractive to range trade this. I am working on a list of all the unlocks recipients so far looking quite promising most really are just keeping their vesting and not touching"
+      }
+    }
+  }
+}
