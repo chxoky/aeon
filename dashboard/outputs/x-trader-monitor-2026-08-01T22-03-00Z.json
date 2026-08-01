@@ -1,0 +1,68 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_platform",
+        "tweet_main",
+        "link_post",
+        "separator_1",
+        "text_editorial"
+      ]
+    },
+    "badge_platform": {
+      "type": "Badge",
+      "props": {
+        "text": "X"
+      },
+      "children": []
+    },
+    "tweet_main": {
+      "type": "TweetCard",
+      "props": {
+        "author": "trading_axe",
+        "handle": "@trading_axe",
+        "text": "When the SP500 would nuke and crypto would show outlier resilience, the laggard effect kicks in — crypto catches up to the drop ~98% of the time. Same applies to onchain. When majors are bleeding/weak but onchain shows relative strength, it's usually laggard effect playing out.\n\nSomething something first out the door aren't panicking."
+      },
+      "children": []
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/trading_axe/status/2083673615287919017"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text_editorial": {
+      "type": "Text",
+      "props": {
+        "text": "Macro framework on crypto-equity decoupling dynamics; relates to active \"crypto-equity decoupling\" narrative phase (institutional allocation shifts). Educational note rather than signal.",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}

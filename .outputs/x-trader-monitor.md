@@ -1,20 +1,9 @@
-## Summary
+🐦 *[X] @trading_axe*
 
-**Event Classification: SKIP — Non-financial Personal Banter**
+When the SP500 would nuke and crypto would show outlier resilience, the laggard effect kicks in — crypto catches up to the drop ~98% of the time. Same applies to onchain. When majors are bleeding/weak but onchain shows relative strength, it's usually laggard effect playing out.
 
-**Tweet Details:**
-- **Trader:** @trading_axe
-- **Tweet ID:** 2083671019416436985
-- **Time:** Sat Aug 01 21:47:38 +0000 2026
-- **Text:** Reply to @blknoiz06 with "A Bible, Ansem. How about that? A Bible. ~ Dr. Axius."
+Something something first out the door aren't panicking.
 
-**Analysis:**
-This is a personal/philosophical reply with no financial signal, no trade action language, no ticker mention, and no market relevance. Classified as **Category A: Non-financial** per Step 4 of the skill protocol.
+[View post](https://x.com/trading_axe/status/2083673615287919017)
 
-**Action Taken:**
-- ✅ Registered tweet ID in memory/x-trader-seen.txt (prevents reprocessing on Worker redelivery)
-- ✅ Logged event to memory/logs/2026-08-01.md with classification and timestamp
-- ✅ No alert sent (skip per protocol)
-- ✅ No traders.md event entry added (skip events not tracked in main memory)
-
-**Pattern Note:** Reinforces trading_axe's documented baseline of cryptic commentary and infrastructure announcements with high banter ratio — consistent with profile (IX-only, no measurable personal trade actions tracked).
+↳ _Macro framework on crypto-equity decoupling dynamics; relates to active "crypto-equity decoupling" narrative phase (institutional allocation shifts). Educational note rather than signal._
