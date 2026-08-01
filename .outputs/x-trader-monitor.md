@@ -1,5 +1,7 @@
-🐦 *[X] @trading_axe*
+🔍 *Calibration — @Stoiiic*
 
-With all the spam onchain gloating for the last month, we're definitely getting a FULL BLOWN CLEAN OUT very soon. Have fun holding your little memecoins to ZERO. A real rapist will FSH everything pre-emptively and monitor ONLY BTC [and perhaps ETH] to determine how things are to shape up from here. And sadly, 90%+ of July winners will give back ALL their gains.
+Event: Trader context — Stoiiic is a technical market structure analyst; recent posts focused on BTC consolidation patterns and order book analysis.
 
-[View tweet](https://x.com/trading_axe/status/2083420652304814421)
+Stoiiic: "the longer you stay on the wrong train, the more expensive it is to get home."
+
+Unable to classify — what's your read? Philosophical statement or metaphorical market commentary on being in wrong thesis?
