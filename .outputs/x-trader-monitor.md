@@ -18,3 +18,4 @@
 - traders.md: Event appended to Wild_Randomness rolling events
 - x-trader-seen.txt: Tweet ID added to prevent reprocessing on Worker retry
 - 2026-08-01.md: Daily activity log entry added with full context
+🐦 *[X] @Wild_Randomness* — Leopold liquidation mechanics + Citadel hypothesis. Retail poured money into tech while institutions dumped + liquidated Leopold before closing shorts. QQQ 5% bounce in 48h validates intensity. Bear rally or dip-buyer victory? Market is nuanced — watch price action closely. https://x.com/Wild_Randomness/status/2083591508461297923
