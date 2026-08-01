@@ -1,23 +1,23 @@
-Perfect! I've successfully executed the discord-trader-monitor skill for the HeartCanHodl SOL long conviction add event. Here's what was completed:
+## Summary
 
-**Event Summary:**
-- **Trader**: HeartCanHodl
-- **Channel**: 1279738718680256553 (HCH — Trades, ★most important)
-- **Message**: "Add 2.5% sol long" (17:05:47 UTC)
-- **Classification**: trade-conviction-add
-- **Fast-path**: Yes (Cloudflare Worker already sent Telegram alert)
+**Discord event processed successfully:**
 
-**Processing Steps Completed:**
+✅ **Event decoded** — HeartCanHodl in channel 1279738718680256553 (HCH — Trades, ★most important) at 2026-08-01T18:16:39.282000Z
+- Message: "Add 5-5% btc,eth long"
+- Message ID: 1533176653679952104 (new, not duplicate)
 
-1. ✅ **Decoded event** — Valid Discord message
-2. ✅ **Fast-path check** — Skipped Telegram (already sent)
-3. ✅ **Channel resolution** — Primary Trades channel, verified trader match
-4. ✅ **Context loaded** — Read all memory topics
-5. ✅ **Cross-platform dedup** — No X reiteration detected
-6. ✅ **Classification** — Trade-conviction-add (SOL long addition to Jul 31 entry)
-7. ✅ **Memory updates**:
-   - Updated `memory/topics/traders.md` with event
-   - Added message ID to `memory/discord-trader-seen.txt`
-   - Appended detailed log to `memory/logs/2026-08-01.md`
+✅ **Fast-path check** — fast_path_alerted=true
+- Cloudflare Worker already sent Telegram notification
+- Skill processes memory-only (no duplicate send)
 
-**Context**: This represents HCH's continued net-long regime shift following the major-pair short cover at 14:27Z and successive long additions (BTC/ETH +5% at 12:47Z, HYPE/ZEC at 13:07Z). The 2.5% SOL add escalates conviction on emerging bullish positioning.
+✅ **Classification** — trade-conviction-add
+- **BTC +5%**, **ETH +5%** conviction add on primary Trades channel
+- Major-pair long escalation continuing from short cover (14:27Z) → successive long builds (12:47Z, 13:07Z, 15:07Z, 17:05Z)
+- Portfolio concentration into major-pair capital as HCH escalates bullish regime
+
+✅ **Memory updated**
+- traders.md: Added event with full context
+- discord-trader-seen.txt: Message ID logged (prevents reprocessing)
+- memory/logs/2026-08-01.md: Full event log entry appended
+
+**Signal:** HCH is in active escalation mode on BTC/ETH longs, building conviction over the past 6+ hours with no reversal signals. This marks the 5th major-pair or alt-long add since morning short covers, suggesting high conviction bullish positioning heading into Asia evening session.
