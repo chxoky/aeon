@@ -1,0 +1,63 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet_card",
+        "price_stats",
+        "link_tweet"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Gold will be a winner when all the dust settles, but first needs an event: rate/equity vol blowout + real yields spike.\n\nChart shows downtrend from Feb peak (5602) to current (4045) — watching for the catalyst."
+      },
+      "children": []
+    },
+    "price_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_peak",
+        "stat_current"
+      ]
+    },
+    "stat_peak": {
+      "type": "Stat",
+      "props": {
+        "label": "Feb Peak",
+        "value": "5602"
+      },
+      "children": []
+    },
+    "stat_current": {
+      "type": "Stat",
+      "props": {
+        "label": "Current",
+        "value": "4045",
+        "delta": "-27.8%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2083572112254767308"
+      },
+      "children": []
+    }
+  }
+}
