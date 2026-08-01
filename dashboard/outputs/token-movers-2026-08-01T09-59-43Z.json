@@ -1,0 +1,24 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "token-movers",
+        "description": "Skill output"
+      },
+      "children": [
+        "alert_empty"
+      ]
+    },
+    "alert_empty": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "title": "No output",
+        "message": "The skill produced no output or content."
+      }
+    }
+  }
+}
