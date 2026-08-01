@@ -1,135 +1,74 @@
 # Market Context (as of 2026-08-01)
 
-> **Take:** risk-off — BTC −2.0% to $63K with only 5/20 top-cap majors green while Fed September 2026 hike probability sits at 59.5%. Conviction: medium.
+> **Take:** chop — BTC −1.1% 24h at $63K with 7/20 top-cap majors green and F&G flat at 27 (Fear); no signal clearly dominates. Conviction: medium.
 
 ## Signal Snapshot
-- BTC $63,024 (−2.0% 24h, −1.5% 7d) · dominance 56.23% (+0.14pp 24h)
-- ETH $1,868.60 (−1.8% 24h, +0.6% 7d) · ETH/BTC 0.02965
-- SOL $72.95 (−1.7% 24h, −1.4% 7d)
-- Total mcap $2.249T (−0.98% 24h) · DEX vol $7.14B 24h (7d avg $6.73B, +6.1% above avg)
-- Breadth: 5/20 green 24h · 5/20 green 7d
+- BTC $63,027 (−1.1% 24h, −1.6% 7d) · dominance 56.26% (+0.03pp 24h)
+- ETH $1,868.28 (−0.8% 24h, +0.4% 7d) · ETH/BTC 0.02964
+- SOL $72.84 (−0.9% 24h, −1.3% 7d)
+- Total mcap $2.248T (+0.41% 24h) · DEX vol $7.15B 24h
+- Breadth: 7/20 green 24h · 6/20 green 7d
 - Fear & Greed: 27 (Fear) — yesterday 25 (Extreme Fear)
 
 ## What Changed Since Last Refresh
-- **Fed hike re-pricing:** Polymarket "Fed 25 bps increase Sep 2026" YES 59.5% ($509K liq) — markets flipped to majority-probability hike ahead of Aug 7 NFP; direct and persistent BTC headwind for next 60 days
-- **HYPE reversal:** Prior session +2.06% relative-strength signal → −6.1% today (−9.3% 7d); structural-long thesis challenged; prior "outlier in red tape" read broken in one session
-- **Sell-off decelerating at margin:** BTC $62.7K → $63.0K (+0.5%), F&G 25 (Extreme Fear) → 27 (Fear); breadth 4/20 → 5/20 — regime unchanged but stabilizing slightly
-- **UNI deepening:** −7.41% 24h (vs +0.16% yesterday) with $314M trending vol; HCH 6% short accelerating
+- **Regime label: risk-off → chop** — BTC 24h% improved from −2.0% to −1.1% (intraday recovery); breadth recovered 5/20 → 7/20; total mcap 24h flipped from −0.98% to +0.41%. Stabilization without reversal.
+- **Meme sector broadening:** New trending entries are mid-tier (SHIB +7.48% rank #31, PI +8.67% rank #67, PUMP +7.83% rank #74) vs yesterday's micro-cap GIGGLE (rank #408) — fourth consecutive session of meme relative outperformance, now extending into larger names.
+- **HYPE divergence deepening:** −5.7% 24h, −9.3% 7d despite HCH 5% long add this morning — smart-money vs price split extends to Day 2; still above $48–50 support at $52.18.
+- **Israel-Iran ceasefire:** Polymarket YES fell 79.5% → 73.5% ahead of Aug 2 expiry; not directly crypto-relevant.
 
 ## Active Narratives
-- **September FOMC Rate Hike** — phase: rising. Evidence: Polymarket "Fed 25 bps increase Sep 2026" YES 59.5% ($317K 24h vol, $509K liq); NFP Aug 7 is the next binary — strong payrolls confirm hike path, direct BTC headwind.
-- **Meme/micro-cap rotation** — phase: rising. Evidence: GIGGLE +46.82% ($178M vol, rank #408), GRVT +28.58% ($357M vol, rank #544), PUMP +8.97% ($100M vol, rank #74) all trending green while 15/20 top-cap assets are red; third consecutive trending session of micro-cap outperformance in a risk-off tape.
-- **HYPE underperformance** — phase: fading. Evidence: HYPE −6.1% 24h, −9.3% 7d — worst performer among rank-10 assets; one-session reversal from outlier-strength to top-20 laggard.
-- **UNI bear / DEX narrative exhaustion** — phase: fading. Evidence: UNI −7.41% 24h with high trending volume ($314M) — momentum purely to downside; HCH 6% short gaining; Deribit bounce fully reversed.
-> **Take:** risk-off — BTC −2.0% 24h to $63.0K with 5/20 top-cap majors green while hawkish FOMC repricing accelerates (Fed hike Sep 2026 now 59.5% YES on Polymarket). Conviction: high.
-
-## Signal Snapshot
-- BTC $63,025 (−2.0% 24h, −1.5% 7d) · dominance 56.23% (+0.14pp 24h)
-- ETH $1,868.64 (−1.8% 24h, +0.6% 7d) · ETH/BTC 0.02965 (prior 0.02975, ETH marginally weaker vs BTC)
-- SOL $72.95 (−1.7% 24h, −1.4% 7d)
-- Total mcap $2.249T (−0.98% 24h) · DEX vol $7.14B 24h (7d avg ~$6.73B, +6% above avg)
-- Breadth: 5/20 green 24h · 42/100 green 24h · top-50 median −0.6%
-- Fear & Greed: 27 (Fear) — yesterday 25 (Extreme Fear)
-
-## What Changed Since Last Refresh
-- BTC marginally recovered from Jul 31 $62.7K low to $63.0K (+0.5% vs prior close), but 24h window still shows −2.0% — overnight bleed partially retraced before session open
-- F&G ticked up 2pts to 27: first uptick in 3 sessions; still Fear, not a reversal signal
-- HCH closed ENTIRE leveraged short basket overnight (ZEC, UNI, TAO, SHIB, KAITO, ADA, VVV + prior BTC/ETH) and added 5% HYPE long — largest positional regime shift from tracked traders since July 3 short entries
-- GRVT dramatic reversal: −11.7% yesterday → +28.6% today, trending #2 on CoinGecko; yesterday's "perp expiry narrative reversing" call was premature — reclassify to rising
-- Polymarket shift: Fed rate HIKE Sep 2026 now 59.5% YES ($317K 24h vol); context from yesterday was rate CUT at 2.4% (different contract) — these together paint ~97.7% no-cut + 59.5% hike = hawkish macro consensus building
-- BTC ETF structural signal: H1 2026 = $5.4B net outflows (first negative half-year since ETF launch Jan 2024); June was worst month ($4.5B outflows); July Jul-30 spike ($233M) was anomaly, not trend reversal
-
-## Active Narratives
-- **September FOMC hawkish repricing** — phase: rising. Evidence: Polymarket "Fed hike Sep 2026" YES=59.5% ($317K vol); CPI 3.5% June; BTC ETF H1 $5.4B net outflows; BTC −2.0% while Nasdaq/equities hold — rate policy is the primary crypto headwind.
-- **Crypto-equity decoupling** — phase: rising. Evidence: BTC −2.0%, total mcap −0.98% as global equity markets remain constructive; second consecutive session where crypto sells off without macro catalyst — sector-specific deleveraging.
-- **Meme/launchpad micro-cap rotation** — phase: rising. Evidence: BTW +41.5% ($16.3M vol, rank #136) [BREAKOUT]; BEAT +14.3% ($19.6M vol, rank #53); PUMP +8.8% ($102.6M vol, rank #74); GIGGLE +46.8% trending #3 [PUMP-RISK, rank #408]; persistent relative strength across meme/launchpad in risk-off tape.
-- **HYPE positioning divergence** — phase: emerging. Evidence: HYPE −6.1% 24h (−9.3% 7d) while HCH added 5% long this morning and bull_genius holds structural long — price action bearish but smart-money adding; watch $48–$50 support for confirmation.
+- **September FOMC hawkish repricing** — phase: rising. Evidence: Fed funds futures ~72% Sep hike probability; prior Polymarket contract at 59.5% YES ($317K vol); NFP Aug 7 next binary trigger; BTC ETF H1 2026 net −$5.4B outflows (first negative half-year since ETF launch) confirm institutional caution.
+- **Meme/alt rotation** — phase: rising. Evidence: SHIB +7.48% (rank #31) + PUMP +7.83% (rank #74) + PI +8.67% (rank #67) all trending green while 13/20 large-caps are red; fourth consecutive session of outperformance; sector broadening from micro-cap to mid-tier names is a phase-escalation signal.
+- **HYPE structural squeeze** — phase: emerging. Evidence: HYPE −5.7% 24h, −9.3% 7d at $52.18 while HCH holds 5% long; $48–50 support intact but unconfirmed; breakout or breakdown from this divergence is the next high-signal event.
+- **Crypto-equity decoupling** — phase: rising. Evidence: BTC −1.1% 24h into constructive global equities; H1 ETF net −$5.4B vs record inflows in 2024–2025 — institutional allocation selectively reducing crypto, not a broad risk-off move.
 
 ## Top DeFi Protocols (TVL, 7d change)
-- Lido: $17.57B (+1.21% 7d)
-- Aave V3: $13.70B (+0.41% 7d)
-- SSV Network: ~$9.4B (prior refresh — 7d n/a)
-- Morpho Blue: ~$7.7B (prior refresh — 7d n/a)
-- Sky Lending: ~$5.4B (prior refresh — 7d n/a)
+- Lido: $17.56B (+1.12% 7d)
+- Aave V3: $13.78B (+0.86% 7d)
+- SSV Network: $9.23B (+0.88% 7d) [prior refresh]
+- Morpho Blue: $7.60B (+1.89% 7d) [prior refresh]
+- Sky Lending: $5.64B (−5.30% 7d) [prior refresh]
 
 ## Chain Flow (top 5 by TVL, vs prior refresh)
-- Ethereum: $40.85B (−$0.14B vs prior)
-- BSC: $4.89B (flat)
-- Tron: $4.85B (+$0.01B vs prior)
-- Solana: $4.74B (−$0.03B vs prior)
-- Base: $4.52B (−$0.07B vs prior)
+- Ethereum: $40.76B (−$0.09B vs prior)
+- Tron: $4.88B (+$0.03B vs prior)
+- BSC: $4.84B (−$0.05B vs prior)
+- Solana: $4.73B (−$0.01B vs prior)
+- Base: $4.52B (flat vs prior)
 
 ## Stablecoins
-Total: $270.6B (top 5). USDT $183.21B · USDC $72.01B · USDS $6.56B · DAI $4.80B · USD1 $4.01B — combined share of mcap ~12.0%.
+Total: $270.6B (top 5). USDT $183.22B · USDC $72.01B · USDS $6.57B · DAI $4.79B · USD1 $4.01B — combined share of mcap ~12.0%.
 
 ## Trending (CoinGecko)
-- GRVT Token — rank #544, +28.58% 24h [$357M vol; vol-to-mcap anomaly reversed from −11.71% yesterday; volatile, not signal]
-- GIGGLE (Giggle Fund) — rank #408, +46.82% 24h [$178M vol; micro-cap meme spike in risk-off tape]
-- PUMP (Pump.fun) — rank #74, +8.97% 24h [$100M vol; launchpad sector green for third consecutive trending session]
-- UNI (Uniswap) — rank #37, −7.41% 24h [$314M vol; ⚠ HCH short accelerating; DEX narrative in hard fade]
-- PEPE — rank #59, +2.18% 24h [$143M vol; meme sector supporting alongside PUMP/GIGGLE]
-- ENA (Ethena) — rank #77, −0.08% 24h [$88M vol; stablecoin protocol near-flat in sell-off]
-- BNB — rank #4, −0.08% 24h [$660M vol; only large-cap effectively flat; +4.6% 7d holds]
-- MORPHO — rank #56, +0.83% 24h [$12M vol; lending protocol resilient]
-- SSV Network: $9.23B (+0.88% 7d)
-- Morpho Blue: $7.60B (+1.89% 7d)
-- Sky Lending: $5.64B (−5.30% 7d)
-
-## Chain Flow (top 5 by TVL)
-- Ethereum: $40.8B
-- BSC: $4.9B
-- Tron: $4.8B
-- Solana: $4.7B
-- Base: $4.5B
-
-## Stablecoins
-Total: $270.6B (top 5). USDT $183.2B · USDC $72.0B · USDS $6.6B · DAI $4.8B · USD1 $4.0B — combined share of mcap ~12.0%.
-
-## Trending (CoinGecko, 2026-08-01)
-- ENA (Ethena) — rank #77, $0.0808, −0.1% 24h [stablecoin-protocol, flat; liquidity narrative steady]
-- GRVT (GRVT Token) — rank #544, $0.3137, +28.6% 24h [⚠ full reversal from −11.7% yesterday; watch for PUMP-RISK at thin liquidity]
-- GIGGLE (Giggle Fund) — rank #408, $51.75, +46.8% 24h [PUMP-RISK: rank >150, >30% spike, low liquidity]
-- UNI (Uniswap) — rank #37, $4.11, −7.4% 24h [HCH covered short, but price continues falling]
-- PENGU (Pudgy Penguins) — rank #112, $0.0060, −1.0% 24h
-- VVV (Venice Token) — rank #92, $11.79, −3.2% 24h
-- BNB — rank #4, $590.78, −0.1% 24h
+- SHIB (Shiba Inu) — rank #31, +7.48% 24h [meme sector leading; fourth consecutive session green alongside PUMP]
+- PI (Pi Network) — rank #67, +8.67% 24h [notable gainer in risk-off tape; watch for sustainability]
+- PUMP (Pump.fun) — rank #74, +7.83% 24h [launchpad sector; fourth consecutive trending session with green print]
+- TAO (Bittensor) — rank #42, +1.44% 24h [AI narrative holding modest green]
+- UNI (Uniswap) — rank #37, −4.28% 24h [fade decelerating from −7.41% yesterday; HCH cover in; still falling]
+- PONS — rank #793, −22.34% 24h [micro-cap dump; noise]
+- COTI — rank #440, −11.77% 24h [small-cap selling; no narrative signal]
 
 ## Prediction Markets (Polymarket, macro-relevant)
 | Market | YES% | 24h Vol | Liquidity |
 |--------|------|---------|-----------|
-| Fed 25 bps hike (September 2026) | 59.5% | $317K | $509K |
-| US invade Iran before 2027 | 24.5% | $620K | $1.33M |
-| Hamas disarm by Dec 31 2026 | 61.0% | $671K | $73K |
-| Israel-Iran ceasefire through Aug 2 | 79.5% | $563K | $54K |
-| US-Iran ceasefire by Jul 31 | 9.5% | $718K | $116K |
+| Israel-Iran ceasefire through Aug 2 | 73.5% | $717K | $51K |
+| Fed increase rates 25 bps (Sep 2026) | 59.5%* | n/a | n/a |
 
-*Fed hike at 59.5% YES is the dominant macro signal — majority-probability tightening priced into September. Geopolitical markets active but not directly crypto-relevant.*
+*Fed hike Polymarket contract carried from prior snapshot — not in today's top-volume markets (sports dominated). Fed funds futures show ~72%. Use as range: 59–72% hike probability.
+*Top Polymarket markets by 24h volume today were CS2/esports/sports betting — no macro signal in top 10.*
 
 ## Macro Catalysts (next 48h)
-- **NFP Aug 7 (critical):** Payrolls determine whether hike pricing (59.5% Sep YES) accelerates or reverses. Strong jobs = hike confirmation = sustained BTC headwind. Miss = hike odds fade = potential relief rally.
-- **BTC ETF August open (Aug 4):** July closed as worst ETF month on record ($205M total; June alone saw $4.5B outflows, H1 2026 net −$5.4B). First August daily flow reading sets the institutional demand narrative for the month.
-- **Jackson Hole Aug 27–29:** Pre-positioning window begins now; any hawkish Fed signal = incremental BTC pressure heading into September.
+- **NFP August 7 (6 days):** Primary binary for September FOMC path. Strong payrolls → hike probability (already ~60–72%) accelerates, BTC headwind intensifies. Miss → relief rally window. Much of the hawkish scenario is already priced.
+- **BTC ETF August week 1 (Mon–Tue open):** First August daily flow data after record-low July. A $400M+ single-day inflow would be the first meaningful counter to the H1 −$5.4B narrative. Sub-$300M confirms continuation.
+- **Jackson Hole Aug 27–29:** 26 days out, but any hawkish Fed commentary before NFP amplifies positioning shifts. Pre-positioning window begins now.
 
 ## Implications for Downstream Skills
-- **token-pick:** Risk-off confirmed — no new longs until breadth recovers above 10/20. Avoid HYPE (structural thesis broken), UNI (HCH short winning). Micro-cap meme rotation (PUMP, GIGGLE) is the only risk-on pocket but carry is high. BNB (+4.6% 7d) and ADA (+4.2% 7d) are the only large-caps with positive 7d momentum; neither is a clear entry in this tape.
-- **narrative-tracker:** Elevate "September FOMC hike" to #1 watch — NFP Aug 7 is the catalyst. Monitor HYPE for further breakdown vs prior structural-long thesis. Flag PUMP/GIGGLE meme rotation for phase-emerging signal if it holds a fourth session.
-| Fed increase rates 25 bps (September 2026) | 59.5% | $317K | n/a |
-
-*Note: Top markets by volume today are geopolitical/sports. Only the September FOMC hike question carries macro signal (prior snapshot tracked the cut contract at 2.4% — these are separate contracts; combined read: ~38% no-change, 59.5% hike, 2.4% cut).*
-
-## Macro Catalysts (next 48h)
-- **NFP August 7 (6 days):** Primary binary event for rate narrative. If payrolls strong → hike probability rises further, BTC headwind accelerates. If weak → hike odds may compress, potential relief rally. 59.5% hike pricing bakes in labor market strength.
-- **BTC ETF August open (Aug 3–4, Mon–Tue):** First August daily flows after record-low July total ($205M). A second consecutive sub-$300M day confirms institutional demand collapse; any $400M+ day would be a meaningful counter-signal.
-- **Jackson Hole (Aug 27–29):** Not immediate, but Fed commentary this week from regional presidents could shift rate path pricing before NFP.
-
-## Implications for Downstream Skills
-- **token-pick:** Risk-off maintained — breadth 5/20, no new large-cap longs. HYPE is the single high-conviction contrarian candidate (HCH + bull_genius accumulating at −9.3% 7d; wait for $48–50 hold or next 1h confirmation). Meme/micro-cap (PUMP, BEAT) showing resilience but not actionable without volatility management. Avoid UNI (falling through HCH cover), LDO (−9.4%), DEXE (−50.8% 7d).
-- **narrative-tracker:** Upgrade September FOMC hawkish repricing to primary narrative — NFP Aug 7 is the trigger event. GRVT requires re-classification from "fading" to "rising" (full reversal confirmed). HYPE phase is "emerging" — monitor for $48 support confirmation vs breakdown. Crypto-equity decoupling continues into second session; if it holds through Monday open, upgrade to "rising with structural conviction."
+- **token-pick:** Chop regime — no new large-cap longs until breadth recovers above 10/20. HYPE is the contrarian watch (HCH + smart-money long, $48 support; wait for $48 hold or 1h confirmation). ADA +7.4% 7d is the lone constructive large-cap setup. SHIB/PUMP meme rotation active but carry is high in risk-off macro. Avoid HYPE breakdown below $48, UNI (still falling), BNB −2.4% 24h.
+- **narrative-tracker:** September FOMC repricing remains #1 — track Fed futures daily into NFP Aug 7. Meme/alt rotation should be upgraded to "rising with broadening" if SHIB/PI hold through weekend. HYPE "emerging" — $48 support is the confirmation level; failure = phase moves to "fading."
 
 ## Token Picks Made
 | Date | Token | Price | Thesis |
 
 ---
 *Sources — btc/eth: CoinGecko · defi: DeFiLlama · sentiment: alternative.me · markets: Polymarket · catalysts: WebSearch*
-*Source status: coingecko=ok defillama=ok(protocols+chains+dex+stables; chains 7d delta n/a from API) fng=ok polymarket=ok(macro filtered) websearch=ok*
-*Source status: coingecko=ok defillama=ok(protocols+chains+dex+stables) fng=ok polymarket=ok(macro-filtered) websearch=ok*
+*Source status: coingecko=ok defillama=ok(protocols+chains+dex+stables; chain 7d delta n/a) fng=ok polymarket=ok(limited — top-vol markets were sports; ceasefire captured; Fed hike contract carried from prior snapshot) websearch=ok*
