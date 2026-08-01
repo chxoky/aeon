@@ -1,0 +1,48 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "💬 DC: Chase — Crypto"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "member-query",
+        "sep",
+        "analysis"
+      ]
+    },
+    "member-query": {
+      "type": "Text",
+      "props": {
+        "text": "↩️ Member: \"Could we get some update on $HYPE 🙏🏽\"",
+        "variant": "lead"
+      }
+    },
+    "sep": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis": {
+      "type": "Text",
+      "props": {
+        "text": "There's not much to look at. The truth is crypto is fading into irrelevancy and unless you have good edge in the market, like truly technical setups that you can spot repeatedly, there's very little reason to look at any of these charts.",
+        "variant": "body"
+      }
+    }
+  }
+}
