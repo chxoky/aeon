@@ -54,3 +54,12 @@ Perfect! I have successfully executed the x-trader-monitor skill for the incomin
 
 The skill has been fully executed per CLAUDE.md protocol with all memory files updated and tweet ID tracked.
 No notification sent. Logged silently to traders.md under rolling events.
+🐦 *[X] @Wild_Randomness*
+
+SOXL — looking for a higher low to be put in, ideally above $100. Otherwise it gets very hard to parallel today with Q1 2026.
+
+If we see sustained weakness, you can chalk up that there were several large entities in the know about Leopold's situation beforehand (there were), they pressed him (they did), bought the liquidations (Kenny G, etc.), and spent the whole day liquidating from Friday open.
+
+2 chart images: SOXL downtrend 260→114.61 + recovery structure (40→183.17 prior cycle)
+
+[View post](https://x.com/Wild_Randomness/status/2083552291953487878)
