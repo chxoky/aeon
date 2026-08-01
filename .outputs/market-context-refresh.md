@@ -1,7 +1,7 @@
-market context — 2026-07-31
+market context — 2026-08-01
 
-take: risk-off (conviction high)
-BTC $62,706 (−2.5%) / ETH $1,864 (−3.1%) · F&G 25 (Extreme Fear)
-breadth 4/20 · TVL $60.1B (flat 7d)
-top narrative: crypto-equity decoupling (rising) — Nasdaq +1.23% while crypto −3%
-hot macro: Fed cut Sep 2026 YES 2.4% (polymarket esports-dominated today)
+take: risk-off (conviction medium)
+BTC $63,024 (−2.0%) / ETH $1,868.60 (−1.8%) · F&G 27 (Fear ↑)
+breadth 5/20 · TVL Eth $40.85B (−$0.14B)
+top narrative: Sep FOMC hike (rising) — Polymarket YES 59.5%
+hot market: "Fed 25 bps hike Sep 2026" YES 59.5%

@@ -1,0 +1,238 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "market-context-refresh",
+        "description": "2026-08-01"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge-posture",
+        "sep-1",
+        "heading-prices",
+        "grid-prices",
+        "sep-2",
+        "heading-sentiment",
+        "stack-sentiment",
+        "sep-3",
+        "heading-tvl",
+        "stat-tvl",
+        "sep-4",
+        "heading-narratives",
+        "stack-narratives"
+      ]
+    },
+    "badge-posture": {
+      "type": "Badge",
+      "props": {
+        "text": "risk-off (conviction medium)",
+        "variant": "warning"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-prices": {
+      "type": "Heading",
+      "props": {
+        "text": "Prices",
+        "level": "h2"
+      }
+    },
+    "grid-prices": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat-btc",
+        "stat-eth"
+      ]
+    },
+    "stat-btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$63,024",
+        "delta": "−2.0%",
+        "trend": "down"
+      }
+    },
+    "stat-eth": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$1,868.60",
+        "delta": "−1.8%",
+        "trend": "down"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-sentiment": {
+      "type": "Heading",
+      "props": {
+        "text": "Sentiment & Breadth",
+        "level": "h2"
+      }
+    },
+    "stack-sentiment": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat-fear-greed",
+        "stat-breadth"
+      ]
+    },
+    "stat-fear-greed": {
+      "type": "Stat",
+      "props": {
+        "label": "Fear & Greed",
+        "value": "27",
+        "delta": "Fear ↑",
+        "trend": "up"
+      }
+    },
+    "stat-breadth": {
+      "type": "Stat",
+      "props": {
+        "label": "Breadth",
+        "value": "5/20"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-tvl": {
+      "type": "Heading",
+      "props": {
+        "text": "TVL",
+        "level": "h2"
+      }
+    },
+    "stat-tvl": {
+      "type": "Stat",
+      "props": {
+        "label": "Ethereum",
+        "value": "$40.85B",
+        "delta": "−$0.14B",
+        "trend": "down"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-narratives": {
+      "type": "Heading",
+      "props": {
+        "text": "Market Narratives",
+        "level": "h2"
+      }
+    },
+    "stack-narratives": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item-fomc",
+        "item-fed-hike"
+      ]
+    },
+    "item-fomc": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "text-fomc",
+        "badge-yes-1",
+        "stat-fomc-prob"
+      ]
+    },
+    "text-fomc": {
+      "type": "Text",
+      "props": {
+        "text": "Sep FOMC hike (rising)",
+        "variant": "body"
+      }
+    },
+    "badge-yes-1": {
+      "type": "Badge",
+      "props": {
+        "text": "YES",
+        "variant": "default"
+      }
+    },
+    "stat-fomc-prob": {
+      "type": "Stat",
+      "props": {
+        "label": "Polymarket",
+        "value": "59.5%"
+      }
+    },
+    "item-fed-hike": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "text-fed",
+        "badge-yes-2",
+        "stat-fed-prob"
+      ]
+    },
+    "text-fed": {
+      "type": "Text",
+      "props": {
+        "text": "Fed 25 bps hike Sep 2026",
+        "variant": "body"
+      }
+    },
+    "badge-yes-2": {
+      "type": "Badge",
+      "props": {
+        "text": "YES",
+        "variant": "default"
+      }
+    },
+    "stat-fed-prob": {
+      "type": "Stat",
+      "props": {
+        "value": "59.5%"
+      }
+    }
+  }
+}
