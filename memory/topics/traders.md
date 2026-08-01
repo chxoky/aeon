@@ -95,8 +95,9 @@
 
 ## HeartCanHodl
 
-- **Last seen**: 2026-08-01T05:04:05Z (Discord primary Trades channel full margin shorts close)
+- **Last seen**: 2026-08-01T05:08:06Z (Discord primary Trades channel ZEC full short close)
 - **Events (recent):**
+  - Aug 01 05:08Z — trade-partial-close: "Close full zec shorts" (primary Trades channel; complete closure of remaining ZEC short position from multi-month accumulation (Jun 15 start → Aug 01 final close). Final de-risking event following broader alt-short basket closeout at 05:04Z. ZEC held as highest-conviction short for 48+ days with disciplined multi-phase profit-taking (07-08: trim 1%, 07-15: add 1%, 07-25: close 50%, 08-01 05:08: full close). Portfolio impact: ~1-1.5% final reduction on ZEC allocation; completes full rotation from bearish alt-basket to net-long crypto regime (major-pair shorts closed 07-31 14:27Z, SOL +5% long 07-31 15:07Z, alt-basket shorts cleared 08-01 AM). Fast-path alerted by Worker, skill processes classification+memory only. Fast-path=true; no duplicate Telegram.) [1532978210034155560]
   - Aug 01 05:04Z — trade-partial-close: "Close full lit shorts" (primary Trades channel; closing entire margin/leveraged short positions across active basket [UNI ~6%, TAO, SHIB, KAITO ~1.5%, ADA ~0.5%, VVV ~2%, ZEC ~1-1.5%]; major de-risking event following BTC/ETH full close Jul 31 14:27Z; estimated ~15-20% total portfolio reduction on remaining leveraged short allocations; fast-path alerted by Worker, no duplicate Telegram) [1532977197373980754]
 - **Last seen**: 2026-08-01T05:06:39Z (Discord primary Trades channel HYPE long conviction add)
 - **Events (recent):**
