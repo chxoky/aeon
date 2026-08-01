@@ -1,9 +1,11 @@
 🔍 *Calibration — @HeartCanHodl*
 
-Event: Cryptic vague post with no ticker/level context
+Event: 13 min after ZEC long conviction add (12:00:11Z); reply to @0nemorecomma
 
-HeartCanHodl: "@cz_binance I bought a lot"
+@0nemorecomma: I am not..
 
-Unable to classify — no ticker, price, or size specified. First-person action language suggests execution, but asset unclear. Posted 23min after PENGU Discord discussion, possibly related but not explicit.
+it's about time cramer say something about it (although it's not the popular thing among fintwit)
 
-What's your read?
+Unable to classify — missing context from original @0nemorecomma message. What's your read? Is this related to BTC position (11:50Z "I bought a lot") or broader market philosophy?
+
+[View post](https://x.com/HeartCanHodl/status/2083526632191779304)
