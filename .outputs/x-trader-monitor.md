@@ -11,3 +11,9 @@
 - ✓ No alert sent (silent skip per Step 4A)
 
 This was a straightforward non-financial event from a tracked trader. No market action required.
+🔍 *Calibration — @swarmister*
+
+Event: Reply to @xbt2027 and @Baskitchbrah
+@swarmister: "Fake"
+
+Unable to classify — what's your read? (Market sentiment? Dismissing a claim? Specific trade context?)
