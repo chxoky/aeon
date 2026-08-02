@@ -1,0 +1,98 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor",
+        "description": "Calibration Analysis"
+      },
+      "children": [
+        "section_calibration"
+      ]
+    },
+    "section_calibration": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_calibration",
+        "separator_1",
+        "message_section",
+        "separator_2",
+        "alert_unclassified"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: HCH — Chat]",
+        "level": "h2"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_message_type",
+        "text_author_label",
+        "text_content",
+        "link_tweet"
+      ]
+    },
+    "text_message_type": {
+      "type": "Text",
+      "props": {
+        "text": "Message: Minimal context response",
+        "variant": "lead"
+      }
+    },
+    "text_author_label": {
+      "type": "Text",
+      "props": {
+        "text": "heartcanhodl:",
+        "variant": "body"
+      }
+    },
+    "text_content": {
+      "type": "Text",
+      "props": {
+        "text": "\"No.\"",
+        "variant": "body"
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/i/status/2083878658008056312",
+        "href": "https://x.com/i/status/2083878658008056312"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_unclassified": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to Classify",
+        "message": "What's your read? (supporting Chat channel, no trade action language, context unclear)",
+        "type": "info"
+      }
+    }
+  }
+}
