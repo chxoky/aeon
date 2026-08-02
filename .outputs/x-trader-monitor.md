@@ -1,19 +1,9 @@
-## Summary
 
-**Event processed: @HeartCanHodl X post (Tweet ID: 2083771497286701462)**
+🐦 *[X] @HeartCanHodl*
 
-**Classification**: **SKIP** — Non-financial / Platform meta-commentary
+Portfolio allocation framework: Deploy 25% + 35% into directional trades & hedges, keep 40% liquid reserves. Leverage swings 1-4x for sustainability & peace of mind.
 
-**What happened**:
-- HeartCanHodl posted promotional content about track record and $66/month Discord membership offer
-- Image showed performance metrics (8.74% PnL, pricing on varying portfolio sizes)
-- **No trade signal, no market insight, no actionable information**
-- Classified as non-financial platform meta-commentary per Step 4A (promotional banter)
+[View post](https://x.com/HeartCanHodl/status/2083780316477411346)
 
-**Result**:
-- ✅ **No alert sent to Kyle** (not actionable)
-- ✅ Event logged to `memory/logs/2026-08-02.md`
-- ✅ Updated `memory/topics/traders.md` with entry
-- ✅ Added tweet ID to `memory/x-trader-seen.txt` (dedup prevention)
+**Track record context:** 8.74% portfolio PnL (Jul 27–Aug 02) vs BTC flat performance—framework validating outperformance discipline.
 
-HeartCanHodl continues net-long positioning from Aug 01 regime shift. Next substantive signal will be logged if it's an actual trade action or market insight.

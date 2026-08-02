@@ -1,0 +1,60 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "tweet_link",
+        "separator1",
+        "performance_label",
+        "performance_stat",
+        "performance_context"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "@HeartCanHodl",
+        "text": "Portfolio allocation framework: Deploy 25% + 35% into directional trades & hedges, keep 40% liquid reserves. Leverage swings 1-4x for sustainability & peace of mind."
+      }
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/HeartCanHodl/status/2083780316477411346"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "performance_label": {
+      "type": "Text",
+      "props": {
+        "text": "Track record context:",
+        "variant": "lead"
+      }
+    },
+    "performance_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Portfolio PnL (Jul 27–Aug 02)",
+        "value": "8.74%"
+      }
+    },
+    "performance_context": {
+      "type": "Text",
+      "props": {
+        "text": "vs BTC flat performance—framework validating outperformance discipline.",
+        "variant": "muted"
+      }
+    }
+  }
+}
