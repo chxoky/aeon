@@ -169,8 +169,9 @@
 
 ## HeartCanHodl
 
-- **Last seen**: 2026-08-02T16:51:12Z (X post — cryptic Loracle reference)
+- **Last seen**: 2026-08-02T17:19:52Z (Discord primary Trades — SPCX spot conviction add)
 - **Events (recent):**
+  - Aug 02 17:19Z — trade-conviction-add: "Add 2% spcx spot here" (primary ★Trades channel; 2% SPCX spot position addition; represents position flip or diversification into long side of previously shorted ticker (HCH was SHORT on SPCX from Jul 13 ATL, big winner per prior notes); spot entry (not derivatives) suggests tactical bottom-fishing on mean-reversion after massive crash; execution timing: late afternoon UTC (17:19Z); aligns with emerging net-long regime shift across portfolio (prior entries Aug 01-02: BTC +5%, ETH +5%, SOL +2.5%, HYPE +5% spot, ZEC +2.5% spot, ALT basket +5% spot on AAVE/NEAR/XMR/ASTER/FORM); SPCX represents tactical long-side diversification into previously-shorted high-volatility asset; fast-path alerted by Worker, skill memory-only processing) [1533524754546425896]
   - Aug 02 16:51Z — ambiguous: "Loracle https://t.co/HePLzccA31" (X post; cryptic single-word reference with image attachment; media failed to fetch from CDN; text alone ambiguous—unclear what 'Loracle' refers to (ticker, project, concept, person); no personal trade action language; per HR-2 calibration protocol, calibration alert sent requesting Kyle interpretation; URL: https://x.com/HeartCanHodl/status/2083958809261937061) [2083958809261937061]
 - **Last seen**: 2026-08-02T16:50:41Z (Discord supporting Chat channel — false-close technical check on HYPE 1hr)
 - **Events (recent):**
