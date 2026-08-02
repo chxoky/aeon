@@ -1,9 +1,9 @@
-🐦 *[X] @Wild_Randomness*
+🐦 *[X] @KillaXBT*
 
-The end of last week.— in two days QQQ ripped over 5% while SOXX went up over 13%, while uhh BTC went down 2%?
+$BTC
 
-"Just crazy displays of goldfish memory on here"
+The only problem you're gonna have is that you didn't buy more.
 
-[View tweet](https://x.com/Wild_Randomness/status/2084005487721546085)
+[View tweet](https://x.com/KillaXBT/status/2084009903165689896)
 
-↳ _Sentiment: Market divergence commentary — tech equities rallying while crypto flat/down; sarcasm on short-term trader memory._
+Chart shows: At $63K he's alone. At $144K, the crowd has all the gains. Bullish sentiment on BTC accumulation regret thesis.

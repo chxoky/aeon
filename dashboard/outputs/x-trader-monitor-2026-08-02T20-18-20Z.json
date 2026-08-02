@@ -1,0 +1,58 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Trading sentiment from X"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge",
+        "tweet",
+        "link",
+        "chart_text"
+      ]
+    },
+    "badge": {
+      "type": "Badge",
+      "props": {
+        "text": "$BTC",
+        "variant": "default"
+      }
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "The only problem you're gonna have is that you didn't buy more."
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2084009903165689896"
+      }
+    },
+    "chart_text": {
+      "type": "Text",
+      "props": {
+        "text": "Chart shows: At $63K he's alone. At $144K, the crowd has all the gains. Bullish sentiment on BTC accumulation regret thesis.",
+        "variant": "body"
+      }
+    }
+  }
+}
