@@ -1,10 +1,17 @@
-Skill execution complete. Event processed:
+## Summary
 
-**Summary:**
-- **Event:** Crypto_Chase Discord message (primary channel)
-- **Classification:** Informational (URL share to X post: "crypto deep dive")
-- **Fast-path status:** Telegram already sent by Cloudflare Worker
-- **Action taken:** Skipped duplicate Telegram send (per Step 2 protocol), updated memory tracking (traders.md, discord-trader-seen.txt), and logged event to daily log
-- **Result:** Message logged and deduped; no further alerts needed
+**Discord Trader Monitor executed successfully.**
 
-Memory updated with new entry timestamp 2026-08-02T14:46:50Z. Ready for next event.
+**Event processed:**
+- **Trader:** Crypto_Chase (username: `crypto_chase`)
+- **Channel:** 1247927786681794601 → "Chase — Crypto" (supporting channel)
+- **Message:** URL share to https://x.com/Crypto_Chase/status/2083927409380774156
+- **Classification:** Informational (URL-only, no trade action)
+
+**Action taken:**
+- **No Telegram alert sent** — Supporting channel + same URL already fast-path alerted in primary channel 8 minutes earlier (14:46Z). Per Step 7 protocol, no standalone alert for supporting-channel re-shares.
+- **Memory updated:** Added message ID `1533488049680551936` to `discord-trader-seen.txt` for dedup tracking
+- **Traders.md updated:** Brief note of supporting-channel re-share for continuity
+- **Logged** to `memory/logs/2026-08-02.md`
+
+All steps completed per SKILL.md protocol with no duplicate alerting.
