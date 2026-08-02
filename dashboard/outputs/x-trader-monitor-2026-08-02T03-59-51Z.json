@@ -1,0 +1,99 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "status-section",
+        "separator-1",
+        "details-section"
+      ]
+    },
+    "status-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "status-badge"
+      ]
+    },
+    "status-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "✅ Success",
+        "variant": "default"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "details-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "data-table",
+        "interpretation-stack"
+      ]
+    },
+    "data-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Field",
+          "Value"
+        ],
+        "rows": [
+          [
+            "Event ID",
+            "2083764112727965850"
+          ],
+          [
+            "Trader",
+            "@HeartCanHodl"
+          ],
+          [
+            "Classification",
+            "skip — non-financial banter"
+          ]
+        ]
+      }
+    },
+    "interpretation-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "details-text",
+        "no-alert-note"
+      ]
+    },
+    "details-text": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to @airline77681117 — personal interaction with no market signal.",
+        "variant": "body"
+      }
+    },
+    "no-alert-note": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "No alert sent."
+      }
+    }
+  }
+}
