@@ -1,0 +1,161 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "BTC cycle analysis and sentiment"
+      },
+      "children": [
+        "badge_sentiment",
+        "tweet_card",
+        "separator_1",
+        "heading_drawdowns",
+        "grid_drawdowns",
+        "separator_2",
+        "text_runway",
+        "separator_3",
+        "text_callout",
+        "separator_4",
+        "text_sources",
+        "link_tweet",
+        "separator_5",
+        "alert_contrast"
+      ]
+    },
+    "badge_sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Sentiment",
+        "variant": "default"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "Historical BTC cycles show 60% drawdowns are normal (−91%, −85%, −83%, −76%, −53% per chart). 50K test = plausible within cycle framework, 1.5mo runway.\n\nBut key point: Stop obsessing over perfect entry. Execution beats perfectionism hesitation."
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_drawdowns": {
+      "type": "Heading",
+      "props": {
+        "text": "Historical Drawdowns",
+        "level": "h3"
+      }
+    },
+    "grid_drawdowns": {
+      "type": "Grid",
+      "props": {
+        "columns": 5,
+        "gap": "md"
+      },
+      "children": [
+        "stat_d1",
+        "stat_d2",
+        "stat_d3",
+        "stat_d4",
+        "stat_d5"
+      ]
+    },
+    "stat_d1": {
+      "type": "Stat",
+      "props": {
+        "value": "−91%"
+      }
+    },
+    "stat_d2": {
+      "type": "Stat",
+      "props": {
+        "value": "−85%"
+      }
+    },
+    "stat_d3": {
+      "type": "Stat",
+      "props": {
+        "value": "−83%"
+      }
+    },
+    "stat_d4": {
+      "type": "Stat",
+      "props": {
+        "value": "−76%"
+      }
+    },
+    "stat_d5": {
+      "type": "Stat",
+      "props": {
+        "value": "−53%"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_runway": {
+      "type": "Text",
+      "props": {
+        "text": "50K test = plausible within cycle framework, 1.5mo runway",
+        "variant": "lead"
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_callout": {
+      "type": "Text",
+      "props": {
+        "text": "Stop obsessing over perfect entry. Execution beats perfectionism hesitation.",
+        "variant": "lead"
+      }
+    },
+    "separator_4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_sources": {
+      "type": "Text",
+      "props": {
+        "text": "Charts: BitBO historical drawdowns + Kalshi 50K forecast market",
+        "variant": "caption"
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2083955237459534261"
+      }
+    },
+    "separator_5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_contrast": {
+      "type": "Alert",
+      "props": {
+        "title": "Mixed Sentiment",
+        "message": "Contrasts with KillaXBT's 15:01Z bearish capitulation post (shorts/despair). Mixed tactical positioning on BTC today.",
+        "type": "warning"
+      }
+    }
+  }
+}
