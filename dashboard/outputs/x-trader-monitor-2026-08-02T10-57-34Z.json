@@ -1,0 +1,70 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading",
+        "separator1",
+        "event_desc",
+        "tweet",
+        "separator2",
+        "analysis",
+        "separator3",
+        "question"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration — @swarmister",
+        "level": "h2"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "event_desc": {
+      "type": "Heading",
+      "props": {
+        "text": "Event: Cryptic commentary on insider trading regulation in crypto",
+        "level": "h3"
+      }
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Swarmister",
+        "handle": "swarmister",
+        "text": "Why would they raise money if it benefits everyone who wants to trade on insider information? I even know one family whose last name starts with a 'T.' everyone knows exactly who I'm talking about, lol. Am I right? That's one of the reasons to be bullish on this ecosystem, imo"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Untracked trader. No explicit ticker/level/action. Text references unnamed family + ideological stance on crypto regulatory landscape. Political/conspiratorial tone."
+      }
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "question": {
+      "type": "Alert",
+      "props": {
+        "title": "Decision Required",
+        "message": "Is this worth tracking or skip future posts from this account?",
+        "type": "info"
+      }
+    }
+  }
+}
