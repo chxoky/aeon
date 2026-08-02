@@ -1,0 +1,87 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor: Calibration"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_title",
+        "text_event_context",
+        "separator_1",
+        "tweet_card",
+        "separator_2",
+        "alert_unable_classify",
+        "link_view_post"
+      ]
+    },
+    "heading_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration — @Wild_Randomness",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text_event_context": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to unknown context (unable to fetch original message)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "No he doesn't"
+      },
+      "children": []
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert_unable_classify": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "No ticker/level/action visible. What's your read?",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "link_view_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2084004422674440462"
+      },
+      "children": []
+    }
+  }
+}
