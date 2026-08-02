@@ -1,9 +1,11 @@
 🔍 *Calibration — [DC: HCH — Comments]*
 
 Message: "(Optional, if you don't mind)"
+🔍 **Calibration — [DC: HCH — Chat]**
 
-Context: Supporting channel real-time conviction shift on alt diversification strategy implementation (follows Aug 02 05:01Z portfolio allocation framework: 25% directed + 35% directional trades + 40% liquid reserves)
-**Discord Trader Monitor — HeartCanHodl Spot Entry Event**
+Context: Supporting channel message 4min after primary Trades spot buys (AAVE/NEAR/XMR/ASTER/FORM @1% each)
+
+HCH: "A few concentrated bets <:emoji_13:1063533084038926377>"
 
 Processed real-time Discord event from HeartCanHodl on primary ★Trades channel (2026-08-02T05:38:07Z):
 
@@ -28,3 +30,4 @@ Awaiting Kyle signal on whether to mirror positions on Kraken spot or monitor as
 Cryptic standalone message with no context. No ticker/level/asset clarity. Appears to be response to unseen member discussion.
 
 Unable to classify — what's your read?
+Unable to classify — is this confirming the recent entries, or referencing different positions? What's the asset context?
