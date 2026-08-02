@@ -484,6 +484,63 @@
 - **Approval/Alert status**: FAST-PATH ALERTED (Telegram already sent by Cloudflare Worker ~2-5s post-message); no duplicate send by skill. Await Kyle signal on whether to mirror ZEC long on Kraken or monitor as memory-only entry.
 - **Last update**: 2026-08-01T12:00:11Z (discord-trader-monitor, fast-path-alerted, TRADE-CONVICTION-ADD; message_id=1533081912036294769)
 
+### AAVE — LONG (NEW ENTRY — 2026-08-02)
+- **Status**: ACTIVE — trade-new-entry 2026-08-02T05:38:07Z
+- **Entry**: 2026-08-02T05:38:07Z (Discord Trades channel)
+- **Entry message**: "Spot buy 1% each on aave, near, xmr, aster, form" (direct execution call, primary Trades channel)
+- **Entry type**: Market order (spot execution at current price)
+- **Portfolio allocation**: 1% initial allocation (part of 5-ticker 5% total new deployment)
+- **Entry level**: Unknown (exact price not specified; market order execution per timing)
+- **Entry context**: First mention of AAVE long for HCH across all tracked platforms. Entry occurs immediately after Aug 01 23:46Z portfolio allocation discussion ("50-60% target") with fresh execution in early Asian morning (05:38 UTC). Represents continuation of net-long regime shift initiated Jul 31 with major-pair short covers + multi-tier long accumulation through Aug 01 (BTC/ETH/SOL/HYPE/ZEC). Spot entry (not leverage) indicates steady accumulation phase into emerging altcoin recovery narrative.
+- **Rationale**: AAVE (Aave lending protocol governance token) represents DeFi/lending-layer diversification within HCH's emerging bullish altcoin basket. Prior short conviction (AAVE was likely part of alt-short basket Jun-Jul per HCH's documented bearish crypto thesis through 07-31) now inverted to long conviction following major regime shift. Entry sizing 1% suggests systematic tier-3 conviction allocation (smaller than SOL/HYPE +5% but larger than single-ticker sub-1% allocations).
+- **Conviction**: MEDIUM-HIGH (direct execution call on ★most-important primary channel; 1% allocation represents tier-3 conviction sizing within systematic alt-basket diversification; parallel 5-ticker entry suggests pre-planned accumulation list rather than reactive single-ticket entry).
+- **Approval/Alert status**: FAST-PATH ALERTED (Telegram already sent by Cloudflare Worker ~2-5s post-message); no duplicate send by skill. Await Kyle signal on whether to mirror AAVE long on Kraken or monitor as memory-only entry.
+- **Last update**: 2026-08-02T05:38:07Z (discord-trader-monitor, fast-path-alerted, TRADE-NEW-ENTRY; message_id=1533348152441176235)
+
+### NEAR — LONG (NEW ENTRY — 2026-08-02)
+- **Status**: ACTIVE — trade-new-entry 2026-08-02T05:38:07Z
+- **Entry**: 2026-08-02T05:38:07Z (Discord Trades channel)
+- **Entry message**: "Spot buy 1% each on aave, near, xmr, aster, form" (part of 5-ticker parallel entry)
+- **Entry type**: Market order (spot execution at current price)
+- **Portfolio allocation**: 1% initial allocation (part of 5-ticker 5% total new deployment)
+- **Entry level**: Unknown (exact price not specified; market order execution per timing)
+- **Rationale**: NEAR (NEAR Protocol L1 blockchain) represents scaling/infrastructure diversification within HCH's emerging bullish altcoin basket. First tracked entry for HCH on NEAR.
+- **Conviction**: MEDIUM-HIGH (parallel 5-ticker entry with AAVE/XMR/ASTER/FORM suggests pre-planned accumulation list)
+- **Last update**: 2026-08-02T05:38:07Z (discord-trader-monitor, fast-path-alerted, TRADE-NEW-ENTRY; message_id=1533348152441176235)
+
+### XMR — LONG (NEW ENTRY — 2026-08-02)
+- **Status**: ACTIVE — trade-new-entry 2026-08-02T05:38:07Z
+- **Entry**: 2026-08-02T05:38:07Z (Discord Trades channel)
+- **Entry message**: "Spot buy 1% each on aave, near, xmr, aster, form" (part of 5-ticker parallel entry)
+- **Entry type**: Market order (spot execution at current price)
+- **Portfolio allocation**: 1% initial allocation (part of 5-ticker 5% total new deployment)
+- **Entry level**: Unknown (exact price not specified; market order execution per timing)
+- **Rationale**: XMR (Monero privacy coin) represents privacy/alternative-narrative diversification within HCH's emerging bullish altcoin basket. Entry timing aligns with previous XMR tracking by HCH (prior short conviction likely included XMR within bearish privacy-coin thesis through Jul).
+- **Conviction**: MEDIUM-HIGH (parallel 5-ticker entry with systematic sizing)
+- **Last update**: 2026-08-02T05:38:07Z (discord-trader-monitor, fast-path-alerted, TRADE-NEW-ENTRY; message_id=1533348152441176235)
+
+### ASTER — LONG (NEW ENTRY — 2026-08-02)
+- **Status**: ACTIVE — trade-new-entry 2026-08-02T05:38:07Z
+- **Entry**: 2026-08-02T05:38:07Z (Discord Trades channel)
+- **Entry message**: "Spot buy 1% each on aave, near, xmr, aster, form" (part of 5-ticker parallel entry)
+- **Entry type**: Market order (spot execution at current price)
+- **Portfolio allocation**: 1% initial allocation (part of 5-ticker 5% total new deployment)
+- **Entry level**: Unknown (exact price not specified; market order execution per timing)
+- **Rationale**: ASTER (Aster Protocol or similar emerging alt asset) represents emerging/infrastructure diversification within HCH's bullish altcoin basket. First tracked entry for HCH on ASTER.
+- **Conviction**: MEDIUM-HIGH (parallel 5-ticker entry with systematic sizing)
+- **Last update**: 2026-08-02T05:38:07Z (discord-trader-monitor, fast-path-alerted, TRADE-NEW-ENTRY; message_id=1533348152441176235)
+
+### FORM — LONG (NEW ENTRY — 2026-08-02)
+- **Status**: ACTIVE — trade-new-entry 2026-08-02T05:38:07Z
+- **Entry**: 2026-08-02T05:38:07Z (Discord Trades channel)
+- **Entry message**: "Spot buy 1% each on aave, near, xmr, aster, form" (part of 5-ticker parallel entry)
+- **Entry type**: Market order (spot execution at current price)
+- **Portfolio allocation**: 1% initial allocation (part of 5-ticker 5% total new deployment)
+- **Entry level**: Unknown (exact price not specified; market order execution per timing)
+- **Rationale**: FORM (Form infrastructure/protocol or similar emerging alt) represents emerging ecosystem diversification within HCH's bullish altcoin basket. First tracked entry for HCH on FORM.
+- **Conviction**: MEDIUM-HIGH (parallel 5-ticker entry with systematic sizing)
+- **Last update**: 2026-08-02T05:38:07Z (discord-trader-monitor, fast-path-alerted, TRADE-NEW-ENTRY; message_id=1533348152441176235)
+
 ## Wild_Randomness
 
 ### NVDA — SHORT (PUT) — ACTIVE (entry 2026-07-14)
