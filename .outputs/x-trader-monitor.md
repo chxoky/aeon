@@ -1,17 +1,9 @@
-🐦 *[X] @Crypto_Chase — Crypto Market Sentiment*
+🐦 *[X] @KillaXBT*
 
-**The State of Crypto (August 2 2026)**
+$BTC bear cycle market state: positions more net negative than any previous bear, volume collapsed, sentiment at peak despair.
 
-Reflective thread on crypto's current market conditions: niche sector now (like forex), attention shifted to AI stocks, golden years behind. Requires high skill/edge vs past cycles.
+Chart validates positioning extremes; most traders capitulated.
 
-Key points:
-• BTC less volatile than S&P 500, majors slowly bleeding
-• Crypto exchanges implementing equities; Tether investing in gold
-• Saylor down $10B+ while markets tripled
-• Regulatory pressure (KYC) stifled $HYPE bull run
-• Trading skills transferable to other markets
-• "All good things wind down" — never what they once were
+[View tweet](https://x.com/KillaXBT/status/2083931312147071404)
 
-Sentiment: Bearish near-term, wistful. Still hopes lower prices ($50K BTC for 2x target). Equity trades dominating over crypto activity now.
-
-[View: https://x.com/Crypto_Chase/status/2083927409380774156]
+↳ _Diverges from group's bullish lean (HCH/bull_genius long-positioned Aug 01-02)_

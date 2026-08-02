@@ -1,0 +1,42 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-card",
+        "view-link",
+        "divergence-alert"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "$BTC bear cycle market state: positions more net negative than any previous bear, volume collapsed, sentiment at peak despair.\n\nChart validates positioning extremes; most traders capitulated."
+      },
+      "children": []
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2083931312147071404"
+      },
+      "children": []
+    },
+    "divergence-alert": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "Diverges from group's bullish lean (HCH/bull_genius long-positioned Aug 01-02)"
+      },
+      "children": []
+    }
+  }
+}
