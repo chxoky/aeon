@@ -1,0 +1,33 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-card",
+        "view-link"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "Most followers obsess over precision—trying to time every move, overcomplicating simple things in pursuit of max gains. That's just greed.\n\nReality check: People with actual wealth don't work that way. They don't nitpick entries or try to time everything perfectly. They do more of what successful people do, and far less of what unsuccessful people do."
+      },
+      "children": []
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2083960460995404255"
+      },
+      "children": []
+    }
+  }
+}
