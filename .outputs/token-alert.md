@@ -1,11 +1,10 @@
 ## Summary
 
-**TOKEN_ALERT_OK** — no alerts triggered.
+Ran `token-alert` for 2026-08-02.
 
-| Token | Price | 24h Change | Threshold | Status |
-|-------|-------|-----------|-----------|--------|
-| BTC | $63,043 | −0.86% | 5% | Clear |
-| ETH | $1,866.48 | −0.46% | 8% | Clear |
-| SOL | $72.85 | −0.72% | 10% | Clear |
+**Prices fetched (CoinGecko):**
+- BTC: $63,091 (+0.08% 24h) — threshold 5% — **no alert**
+- ETH: $1,856.14 (−0.53% 24h) — threshold 8% — **no alert**
+- SOL: $72.99 (+0.23% 24h) — threshold 10% — **no alert**
 
-All three tracked tokens are moving well within their alert thresholds. The risk-off regime continues (F&G 27, Sep FOMC hike priced ~82%), but no single-token anomaly rises to notification level. Prices and volumes logged to `memory/logs/2026-08-01.md` for tomorrow's comparison baseline.
+No anomalies detected. `TOKEN_ALERT_OK` logged to `memory/logs/2026-08-02.md`. No notification sent.
