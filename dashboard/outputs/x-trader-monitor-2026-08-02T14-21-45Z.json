@@ -1,0 +1,23 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "alert"
+      ]
+    },
+    "alert": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Calibration Alert",
+        "message": "@swarmister · Aug 02 14:18Z\n\nAmbiguous post to @blancxbt: \"dollar sign 125k is programmed\"\n\nUnable to classify — unclear which asset or what programmed means.\n\nSent to Kyle for interpretation."
+      }
+    }
+  }
+}
