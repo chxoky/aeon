@@ -1,0 +1,87 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_event",
+        "separator1",
+        "text_event_type",
+        "tweet_card",
+        "separator2",
+        "alert_image_issue",
+        "text_ambiguity",
+        "link_post"
+      ]
+    },
+    "heading_event": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @HeartCanHodl",
+        "level": "h2"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_event_type": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Cryptic single-word post with image reference",
+        "variant": "lead"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "Loracle https://t.co/HePLzccA31"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_image_issue": {
+      "type": "Alert",
+      "props": {
+        "title": "Image failed to fetch from CDN",
+        "type": "warning"
+      }
+    },
+    "text_ambiguity": {
+      "type": "Text",
+      "props": {
+        "text": "Text alone is ambiguous — unclear what 'Loracle' refers to (ticker, project, concept). Unable to classify — what's your read?",
+        "variant": "body"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/HeartCanHodl/status/2083958809261937061"
+      }
+    }
+  }
+}

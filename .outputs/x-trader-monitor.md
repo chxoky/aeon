@@ -1,11 +1,9 @@
-🐦 *[Sentiment] @KillaXBT*
+🔍 *Calibration — @HeartCanHodl*
 
-Historical BTC cycles show 60% drawdowns are normal (−91%, −85%, −83%, −76%, −53% per chart). 50K test = plausible within cycle framework, 1.5mo runway.
+Event: Cryptic single-word post with image reference
 
-But key point: **Stop obsessing over perfect entry**. Execution beats perfectionism hesitation.
+HeartCanHodl: "Loracle https://t.co/HePLzccA31"
 
-_Charts: BitBO historical drawdowns + Kalshi 50K forecast market_
+Image failed to fetch from CDN. Text alone is ambiguous — unclear what 'Loracle' refers to (ticker, project, concept). Unable to classify — what's your read?
 
-[View tweet](https://x.com/KillaXBT/status/2083955237459534261)
-
-⚠️ Note: Contrasts with KillaXBT's 15:01Z bearish capitulation post (shorts/despair). Mixed tactical positioning on BTC today.
+[View post](https://x.com/HeartCanHodl/status/2083958809261937061)
