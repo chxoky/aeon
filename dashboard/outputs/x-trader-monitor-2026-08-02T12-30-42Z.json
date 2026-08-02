@@ -1,0 +1,120 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_header",
+        "separator1",
+        "text_event",
+        "separator2",
+        "tweet_quote",
+        "separator3",
+        "stack_question"
+      ]
+    },
+    "text_header": {
+      "type": "Text",
+      "props": {
+        "text": "🔍 Calibration — @bull_genius",
+        "variant": "lead"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @3eleth"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet_quote": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "multiple >1 eth pulls, 700+ rolls here. theyre just rare"
+      }
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_question": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_question",
+        "stack_unclear_items"
+      ]
+    },
+    "text_question": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?"
+      }
+    },
+    "stack_unclear_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_unclear1",
+        "text_unclear2",
+        "text_unclear3"
+      ]
+    },
+    "text_unclear1": {
+      "type": "Text",
+      "props": {
+        "text": "eth pulls = ?",
+        "variant": "muted"
+      }
+    },
+    "text_unclear2": {
+      "type": "Text",
+      "props": {
+        "text": "700+ rolls = ?",
+        "variant": "muted"
+      }
+    },
+    "text_unclear3": {
+      "type": "Text",
+      "props": {
+        "text": "rare context unclear",
+        "variant": "muted"
+      }
+    }
+  }
+}

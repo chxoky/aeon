@@ -1,15 +1,7 @@
-## Summary
+🔍 *Calibration — @bull_genius*
 
-Executed **x-trader-monitor** skill on real-time event.
+Event: Reply to @3eleth
 
-**Classification: Skip (Non-financial)**
+@bull_genius: "multiple >1 eth pulls, 700+ rolls here. theyre just rare"
 
-- **Trader:** @HeartCanHodl (tweet ID `2083881836938252589`)
-- **Text:** "Iran should launch its own 100k/mo news channel"
-- **Result:** Geopolitical commentary, not a financial or trading signal. Per Step 4A classification rule, silently skipped with no alert to Kyle.
-
-**Memory updates:**
-- ✅ Added tweet ID to `memory/x-trader-seen.txt` (now 83 seen tweets)
-- ✅ Logged event to `memory/logs/2026-08-02.md` with classification metadata
-
-No notification sent — this is a non-financial personal/political opinion unrelated to crypto/stocks or market activity.
+Unable to classify — what's your read? (eth pulls = ?, 700+ rolls = ?, rare context unclear)
