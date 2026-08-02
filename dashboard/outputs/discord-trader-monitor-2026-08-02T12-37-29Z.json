@@ -1,0 +1,82 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor",
+        "description": "Calibration — [DC: HCH — Chat]"
+      },
+      "children": [
+        "context_section",
+        "separator1",
+        "message_section"
+      ]
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_heading",
+        "context_text"
+      ]
+    },
+    "context_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "HeartCanHodl built ZEC long positions on Aug 01 (2.5% conviction add at 12:00Z)"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "message_heading",
+        "message_content",
+        "question_content"
+      ]
+    },
+    "message_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Message Received",
+        "level": "h3"
+      }
+    },
+    "message_content": {
+      "type": "Text",
+      "props": {
+        "text": "Fc zec 1hr",
+        "variant": "lead"
+      }
+    },
+    "question_content": {
+      "type": "Alert",
+      "props": {
+        "title": "Interpretation Needed",
+        "message": "Unable to interpret \"Fc\" abbreviation or full intent — what's your read?",
+        "type": "warning"
+      }
+    }
+  }
+}

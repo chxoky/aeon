@@ -18,3 +18,10 @@ Perfect. Execution complete:
 - Daily log: Event entry added to `/memory/logs/2026-08-02.md` with full classification context
 
 **Verification:** Not a duplicate (new message ID), hardcoded verbatim rule applied for channel 1279738718680256553, fast-path alert already delivered by Worker.
+🔍 *Calibration — [DC: HCH — Chat]*
+
+Context: HeartCanHodl built ZEC long positions on Aug 01 (2.5% conviction add at 12:00Z)
+
+Message: "Fc zec 1hr"
+
+Unable to interpret "Fc" abbreviation or full intent — what's your read?
