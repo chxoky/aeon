@@ -1,9 +1,9 @@
-🐦 *[X] @KillaXBT*
+🔍 *Calibration — @swarmister*
 
-$BTC bear cycle market state: positions more net negative than any previous bear, volume collapsed, sentiment at peak despair.
+Event: Reply to @FalconyFalcon
 
-Chart validates positioning extremes; most traders capitulated.
+swarmister: "Quant"
 
-[View tweet](https://x.com/KillaXBT/status/2083931312147071404)
+Unable to classify — what's your read? (Asset/thesis/market signal unclear without @FalconyFalcon's original context)
 
-↳ _Diverges from group's bullish lean (HCH/bull_genius long-positioned Aug 01-02)_
+[View post](https://x.com/swarmister/status/2083936539122209210)
