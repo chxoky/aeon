@@ -1,0 +1,173 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor",
+        "description": "Crypto Market Sentiment Analysis"
+      },
+      "children": [
+        "tweet-card",
+        "sep-1",
+        "stack-analysis"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Crypto_Chase",
+        "handle": "@Crypto_Chase",
+        "text": "The State of Crypto (August 2 2026)\n\nReflective thread on crypto's current market conditions: niche sector now (like forex), attention shifted to AI stocks, golden years behind. Requires high skill/edge vs past cycles."
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack-analysis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "heading-key-points",
+        "stack-points",
+        "sep-2",
+        "heading-sentiment",
+        "badges-sentiment",
+        "text-sentiment-detail",
+        "sep-3",
+        "link-tweet"
+      ]
+    },
+    "heading-key-points": {
+      "type": "Heading",
+      "props": {
+        "text": "Key Points",
+        "level": "h3"
+      }
+    },
+    "stack-points": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-pt1",
+        "text-pt2",
+        "text-pt3",
+        "text-pt4",
+        "text-pt5",
+        "text-pt6"
+      ]
+    },
+    "text-pt1": {
+      "type": "Text",
+      "props": {
+        "text": "BTC less volatile than S&P 500, majors slowly bleeding"
+      }
+    },
+    "text-pt2": {
+      "type": "Text",
+      "props": {
+        "text": "Crypto exchanges implementing equities; Tether investing in gold"
+      }
+    },
+    "text-pt3": {
+      "type": "Text",
+      "props": {
+        "text": "Saylor down $10B+ while markets tripled"
+      }
+    },
+    "text-pt4": {
+      "type": "Text",
+      "props": {
+        "text": "Regulatory pressure (KYC) stifled $HYPE bull run"
+      }
+    },
+    "text-pt5": {
+      "type": "Text",
+      "props": {
+        "text": "Trading skills transferable to other markets"
+      }
+    },
+    "text-pt6": {
+      "type": "Text",
+      "props": {
+        "text": "\"All good things wind down\" — never what they once were"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-sentiment": {
+      "type": "Heading",
+      "props": {
+        "text": "Market Sentiment & Outlook",
+        "level": "h3"
+      }
+    },
+    "badges-sentiment": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-bearish",
+        "badge-wistful",
+        "badge-target"
+      ]
+    },
+    "badge-bearish": {
+      "type": "Badge",
+      "props": {
+        "text": "Bearish (near-term)",
+        "variant": "destructive"
+      }
+    },
+    "badge-wistful": {
+      "type": "Badge",
+      "props": {
+        "text": "Wistful tone",
+        "variant": "secondary"
+      }
+    },
+    "badge-target": {
+      "type": "Badge",
+      "props": {
+        "text": "$50K BTC target (2x potential)",
+        "variant": "outline"
+      }
+    },
+    "text-sentiment-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Still hopes lower prices ($50K BTC for 2x target). Equity trades dominating over crypto activity now.",
+        "variant": "body"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View original tweet",
+        "href": "https://x.com/Crypto_Chase/status/2083927409380774156"
+      }
+    }
+  }
+}
