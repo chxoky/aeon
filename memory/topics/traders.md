@@ -154,8 +154,9 @@
 
 ## HeartCanHodl
 
-- **Last seen**: 2026-08-02T04:10:04Z (Discord primary Free channel market psychology observation on 62k-63k support zone)
+- **Last seen**: 2026-08-02T04:26:54Z (X post — promotional/track-record boasting)
 - **Events (recent):**
+  - Aug 02 04:26Z — skip: Promotional/track-record boasting post; "$66/month Discord offer with 32% performance track record" (screenshot images show portfolio PnL 8.74%, performance metrics on varying portfolio sizes); no personal trade action, no ticker/level/market insight; non-financial platform meta-commentary per Step 4A; silent skip [2083771497286701462]
   - Aug 02 04:10Z — informational: "Too many people lost themselves in 62k-63k?" (Discord primary Free channel; reply to FixTweet archive; market psychology observation/skepticism on over-leverage at key support zone; no personal trade action language; observation on market participant behavior at critical technical support level; HCH has tracked 62k-63k as major support (prior Jul 31 11:21Z "last band of support", 12:06Z cross-platform reiteration); informational alert sent to Kyle via Telegram) [1533325991345262762]
   - Aug 02 03:53Z — informational: "a lot." (X post; cryptic reference to 50-60% allocation deployment announced Aug 01 23:46Z Discord message; 2 images: (1) Discord allocation statement "Going towards 50-60% allocation", (2) BTC 15m chart showing 62275→63480 bounce with false-close doji pattern near 63350 resistance; chart-driven conviction validation of portfolio rebalancing into net-long regime; no new trade execution action stated; cross-platform allocation confirmation alert sent to Kyle) [2083763012205482099]
   - Aug 01 18:42Z — ambiguous: Eye emoji post pointing to generic business strategy image (CoinDesk StrategyB slide); cryptic/no financial signal; calibration alert sent per HR-2 protocol [2083624418061017343]
