@@ -1,0 +1,664 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Token Movers — 2026-08-02"
+      },
+      "children": [
+        "summary_text",
+        "sep_1",
+        "winners_heading",
+        "winners_stack",
+        "sep_2",
+        "losers_heading",
+        "losers_stack",
+        "sep_3",
+        "trending_heading",
+        "trending_stack",
+        "sep_4",
+        "notable_heading",
+        "notable_stack"
+      ]
+    },
+    "summary_text": {
+      "type": "Text",
+      "props": {
+        "text": "Cautious recovery — 59/100 large-caps positive, median top-50 +0.7%; ADA and ENA co-lead majors at +9.6% while mid-tier alts absorb the day's steepest drops.",
+        "variant": "lead"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "winners_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Winners (24h)",
+        "level": "h3"
+      }
+    },
+    "winners_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "winner_1",
+        "winner_2",
+        "winner_3",
+        "winner_4",
+        "winner_5",
+        "winner_6",
+        "winner_7",
+        "winner_8",
+        "winner_9",
+        "winner_10"
+      ]
+    },
+    "winner_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "winner_1_text",
+        "winner_1_badges"
+      ]
+    },
+    "winner_1_text": {
+      "type": "Text",
+      "props": {
+        "text": "1. UAI (UnifAI Network) — $0.533  +39.1% / 7d +62.1% / 1h +2.3%  •  $18M / #217"
+      }
+    },
+    "winner_1_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_w1_pump",
+        "badge_w1_breakout"
+      ]
+    },
+    "badge_w1_pump": {
+      "type": "Badge",
+      "props": {
+        "text": "PUMP-RISK",
+        "variant": "destructive"
+      }
+    },
+    "badge_w1_breakout": {
+      "type": "Badge",
+      "props": {
+        "text": "BREAKOUT",
+        "variant": "secondary"
+      }
+    },
+    "winner_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "winner_2_text",
+        "winner_2_badges"
+      ]
+    },
+    "winner_2_text": {
+      "type": "Text",
+      "props": {
+        "text": "2. META (MetaDAO) — $6.18  +17.7% / 7d +45.7% / 1h −4.3%  •  $68M / #205"
+      }
+    },
+    "winner_2_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_w2_breakout"
+      ]
+    },
+    "badge_w2_breakout": {
+      "type": "Badge",
+      "props": {
+        "text": "BREAKOUT",
+        "variant": "secondary"
+      }
+    },
+    "winner_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "winner_3_text",
+        "winner_3_badges"
+      ]
+    },
+    "winner_3_text": {
+      "type": "Text",
+      "props": {
+        "text": "3. ADA (Cardano) — $0.185  +9.6% / 7d +12.8% / 1h +0.7%  •  $483M / #16"
+      }
+    },
+    "winner_3_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_w3_trending",
+        "badge_w3_major"
+      ]
+    },
+    "badge_w3_trending": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+UP",
+        "variant": "secondary"
+      }
+    },
+    "badge_w3_major": {
+      "type": "Badge",
+      "props": {
+        "text": "MAJOR",
+        "variant": "outline"
+      }
+    },
+    "winner_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "winner_4_text"
+      ]
+    },
+    "winner_4_text": {
+      "type": "Text",
+      "props": {
+        "text": "4. ENA (Ethena) — $0.0889  +9.6% / 7d +3.0% / 1h +0.9%  •  $147M / #76"
+      }
+    },
+    "winner_5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "winner_5_text"
+      ]
+    },
+    "winner_5_text": {
+      "type": "Text",
+      "props": {
+        "text": "5. BTSE (BTSE Token) — $0.956  +8.8% / 7d +5.6% / 1h +0.1%  •  $2.6M / #192"
+      }
+    },
+    "winner_6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "winner_6_text"
+      ]
+    },
+    "winner_6_text": {
+      "type": "Text",
+      "props": {
+        "text": "6. TAG (TAGGER) — $0.00141  +8.2% / 7d +36.2% / 1h +1.8%  •  $5.5M / #193"
+      }
+    },
+    "winner_7": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "winner_7_text"
+      ]
+    },
+    "winner_7_text": {
+      "type": "Text",
+      "props": {
+        "text": "7. UB (Unibase) — $0.171  +7.9% / 7d +34.7% / 1h −0.4%  •  $7.5M / #106"
+      }
+    },
+    "winner_8": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "winner_8_text"
+      ]
+    },
+    "winner_8_text": {
+      "type": "Text",
+      "props": {
+        "text": "8. PIEVERSE — $0.731  +6.2% / 7d −11.9% / 1h −0.1%  •  $6.4M / #160"
+      }
+    },
+    "winner_9": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "winner_9_text"
+      ]
+    },
+    "winner_9_text": {
+      "type": "Text",
+      "props": {
+        "text": "9. ZANO — $9.50  +6.1% / 7d +4.7% / 1h +4.8%  •  $1.4M / #198"
+      }
+    },
+    "winner_10": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "winner_10_text"
+      ]
+    },
+    "winner_10_text": {
+      "type": "Text",
+      "props": {
+        "text": "10. NIGHT (Midnight) — $0.01952  +6.0% / 7d −0.3% / 1h +1.9%  •  $10M / #118"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "losers_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Losers (24h)",
+        "level": "h3"
+      }
+    },
+    "losers_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "loser_1",
+        "loser_2",
+        "loser_3",
+        "loser_4",
+        "loser_5",
+        "loser_6",
+        "loser_7",
+        "loser_8",
+        "loser_9",
+        "loser_10"
+      ]
+    },
+    "loser_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "loser_1_text"
+      ]
+    },
+    "loser_1_text": {
+      "type": "Text",
+      "props": {
+        "text": "1. BTW (Bitway) — $0.0857  −23.4% / 7d +19.0% / 1h +2.4%  •  $19M / #167"
+      }
+    },
+    "loser_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "loser_2_text"
+      ]
+    },
+    "loser_2_text": {
+      "type": "Text",
+      "props": {
+        "text": "2. BEAT (Audiera) — $3.92  −10.5% / 7d +12.2% / 1h +7.6%  •  $48M / #59"
+      }
+    },
+    "loser_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "loser_3_text"
+      ]
+    },
+    "loser_3_text": {
+      "type": "Text",
+      "props": {
+        "text": "3. DEXE (DeXe) — $2.32  −6.0% / 7d −28.7% / 1h −0.5%  •  $33M / #246"
+      }
+    },
+    "loser_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "loser_4_text"
+      ]
+    },
+    "loser_4_text": {
+      "type": "Text",
+      "props": {
+        "text": "4. AERO (Aerodrome) — $0.398  −4.8% / 7d −4.7% / 1h −0.8%  •  $13M / #110"
+      }
+    },
+    "loser_5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "loser_5_text"
+      ]
+    },
+    "loser_5_text": {
+      "type": "Text",
+      "props": {
+        "text": "5. STRK (Starknet) — $0.0245  −4.3% / 7d −18.7% / 1h −0.5%  •  $9.1M / #177"
+      }
+    },
+    "loser_6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "loser_6_text"
+      ]
+    },
+    "loser_6_text": {
+      "type": "Text",
+      "props": {
+        "text": "6. ZRO (LayerZero) — $0.721  −4.2% / 7d −14.5% / 1h +0.1%  •  $15M / #137"
+      }
+    },
+    "loser_7": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "loser_7_text"
+      ]
+    },
+    "loser_7_text": {
+      "type": "Text",
+      "props": {
+        "text": "7. WIF (dogwifhat) — $0.140  −3.9% / 7d −12.8% / 1h +0.1%  •  $27M / #203"
+      }
+    },
+    "loser_8": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "loser_8_text"
+      ]
+    },
+    "loser_8_text": {
+      "type": "Text",
+      "props": {
+        "text": "8. LDO (Lido DAO) — $0.326  −2.9% / 7d −12.6% / 1h −2.0%  •  $25M / #131"
+      }
+    },
+    "loser_9": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "loser_9_text"
+      ]
+    },
+    "loser_9_text": {
+      "type": "Text",
+      "props": {
+        "text": "9. APE (ApeCoin) — $0.130  −2.5% / 7d −11.0% / 1h −0.4%  •  $9.2M / #213"
+      }
+    },
+    "loser_10": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "loser_10_text"
+      ]
+    },
+    "loser_10_text": {
+      "type": "Text",
+      "props": {
+        "text": "10. SAND (The Sandbox) — $0.0418  −2.2% / 7d −7.5% / 1h −0.5%  •  $6.9M / #242"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "trending_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending",
+        "level": "h3"
+      }
+    },
+    "trending_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "trend_1",
+        "trend_2",
+        "trend_3",
+        "trend_4",
+        "trend_5",
+        "trend_6",
+        "trend_7"
+      ]
+    },
+    "trend_1": {
+      "type": "Text",
+      "props": {
+        "text": "1. CATE (Catecoin) — #861, $0.0180, 24h +126.7%"
+      }
+    },
+    "trend_2": {
+      "type": "Text",
+      "props": {
+        "text": "2. ANSEM (The Black Bull) — #274, $0.216, 24h +20.3%"
+      }
+    },
+    "trend_3": {
+      "type": "Text",
+      "props": {
+        "text": "3. ONDO (Ondo) — #41, $0.392, 24h +1.6%"
+      }
+    },
+    "trend_4": {
+      "type": "Text",
+      "props": {
+        "text": "4. PENGU (Pudgy Penguins) — #111, $0.00606, 24h +1.7%"
+      }
+    },
+    "trend_5": {
+      "type": "Text",
+      "props": {
+        "text": "5. PUMP (Pump.fun) — #74, $0.00218, 24h −0.1%"
+      }
+    },
+    "trend_6": {
+      "type": "Text",
+      "props": {
+        "text": "6. PI (Pi Network) — #67, $0.0864, 24h −0.1%"
+      }
+    },
+    "trend_7": {
+      "type": "Text",
+      "props": {
+        "text": "7. BTC (Bitcoin) — #1, $63,433, 24h +0.6%"
+      }
+    },
+    "sep_4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "notable_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h3"
+      }
+    },
+    "notable_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "notable_1",
+        "notable_2",
+        "notable_3",
+        "notable_4",
+        "notable_5"
+      ]
+    },
+    "notable_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "notable_1_text",
+        "notable_1_badges"
+      ]
+    },
+    "notable_1_text": {
+      "type": "Text",
+      "props": {
+        "text": "UAI: #217 up 39% / 7d +62% — mid-cap continuation with high manipulation probability"
+      }
+    },
+    "notable_1_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_notable_1"
+      ]
+    },
+    "badge_notable_1": {
+      "type": "Badge",
+      "props": {
+        "text": "PUMP-RISK",
+        "variant": "destructive"
+      }
+    },
+    "notable_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "notable_2_text",
+        "notable_2_badges"
+      ]
+    },
+    "notable_2_text": {
+      "type": "Text",
+      "props": {
+        "text": "META: #205 up 17.7% / 7d +45.7% — confirmed, two-day sustained momentum"
+      }
+    },
+    "notable_2_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_notable_2"
+      ]
+    },
+    "badge_notable_2": {
+      "type": "Badge",
+      "props": {
+        "text": "BREAKOUT",
+        "variant": "secondary"
+      }
+    },
+    "notable_3": {
+      "type": "Text",
+      "props": {
+        "text": "BTW: #167 down 23.4% after 7d +19% — prior pump reversing hard"
+      }
+    },
+    "notable_4": {
+      "type": "Text",
+      "props": {
+        "text": "BEAT: yesterday's top winner (+15.7% [BREAKOUT]) fully reversed to −10.5% — fast-pump fade"
+      }
+    },
+    "notable_5": {
+      "type": "Text",
+      "props": {
+        "text": "CATE: trending #1 at +126.7% (rank #861, outside top-250 scope) — pump-risk in trending feed"
+      }
+    }
+  }
+}

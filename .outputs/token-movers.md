@@ -1,41 +1,43 @@
-*Token Movers — Aug 1, 2026*
+*Token Movers — 2026-08-02*
 
-_Mixed recovery — \~49% of tracked non-stables green vs 25% at morning open; median 24h move −0.6%; breadth improving but BTC, ETH, and HYPE remain red._
+_Cautious recovery — 59/100 large-caps positive, median top-50 +0.7%; ADA and ENA co-lead majors at +9.6% while mid-tier alts absorb the day's steepest drops._
 
 *Top Winners (24h)*
-1. BEAT (Audiera) — $4.71  +15.7% / 7d +41.0% / 1h +2.5%  •  $20.5M / #50  [TRENDING+UP][BREAKOUT]
-2. SHIB (Shiba Inu) — $0.00000495  +6.7% / 7d +17.2% / 1h +1.4%  •  $165.5M / #31
-3. PI (Pi Network) — $0.0868  +6.6% / 7d +7.0% / 1h +1.0%  •  $8.3M / #67
-4. PUMP (Pump.fun) — $0.002125  +6.5% / 7d +20.9% / 1h −0.3%  •  $102.4M / #76  [TRENDING+UP]
-5. M (MemeCore) — $1.089  +5.2% / 7d −8.6% / 1h −0.4%  •  $9.3M / #51
-6. QNT (Quant) — $62.23  +4.8% / 7d −0.4% / 1h +1.2%  •  $6.2M / #70
-7. HBAR (Hedera) — $0.0696  +2.6% / 7d −0.2% / 1h +0.2%  •  $41.1M / #29
-8. ADA (Cardano) — $0.1732  +1.9% / 7d +6.8% / 1h +0.6%  •  $298.3M / #18  [MAJOR]
-9. OKB — $85.99  +0.9% / 7d +4.4% / 1h −0.1%  •  $12.4M / #43
-10. NEAR (NEAR Protocol) — $1.66  +0.9% / 7d −6.9% / 1h +0.4%  •  $161.6M / #39
+1. UAI (UnifAI Network) — $0.533  +39.1% / 7d +62.1% / 1h +2.3%  •  $18M / #217  [PUMP-RISK][BREAKOUT]
+2. META (MetaDAO) — $6.18  +17.7% / 7d +45.7% / 1h −4.3%  •  $68M / #205  [BREAKOUT]
+3. ADA (Cardano) — $0.185  +9.6% / 7d +12.8% / 1h +0.7%  •  $483M / #16  [TRENDING+UP][MAJOR]
+4. ENA (Ethena) — $0.0889  +9.6% / 7d +3.0% / 1h +0.9%  •  $147M / #76
+5. BTSE (BTSE Token) — $0.956  +8.8% / 7d +5.6% / 1h +0.1%  •  $2.6M / #192
+6. TAG (TAGGER) — $0.00141  +8.2% / 7d +36.2% / 1h +1.8%  •  $5.5M / #193
+7. UB (Unibase) — $0.171  +7.9% / 7d +34.7% / 1h −0.4%  •  $7.5M / #106
+8. PIEVERSE — $0.731  +6.2% / 7d −11.9% / 1h −0.1%  •  $6.4M / #160
+9. ZANO — $9.50  +6.1% / 7d +4.7% / 1h +4.8%  •  $1.4M / #198
+10. NIGHT (Midnight) — $0.01952  +6.0% / 7d −0.3% / 1h +1.9%  •  $10M / #118
 
 *Top Losers (24h)*
-1. UNI (Uniswap) — $4.06  −6.8% / 7d +11.2% / 1h 0.0%  •  $265.9M / #37  [TRENDING+DOWN]
-2. AAVE — $91.10  −6.6% / 7d +0.4% / 1h +0.2%  •  $293.4M / #53
-3. LIT (Lighter) — $2.04  −6.0% / 7d +0.8% / 1h +0.6%  •  $24.9M / #98
-4. ONDO — $0.3883  −5.1% / 7d +0.7% / 1h −0.4%  •  $102.5M / #41
-5. HYPE (Hyperliquid) — $52.17  −5.0% / 7d −9.6% / 1h −0.1%  •  $334.3M / #10  [MAJOR][TRENDING+DOWN]
-6. BNB — $578.77  −2.2% / 7d +2.6% / 1h 0.0%  •  $615.5M / #4  [MAJOR]
-7. LTC (Litecoin) — $44.27  −1.7% / 7d −3.5% / 1h 0.0%  •  $169.1M / #27
-8. BTC (Bitcoin) — $63,042  −1.4% / 7d −1.5% / 1h 0.0%  •  $22.3B / #1  [MAJOR]
-9. ETH (Ethereum) — $1,866  −1.2% / 7d +0.4% / 1h 0.0%  •  $6.36B / #2  [MAJOR]
-10. XRP — $1.063  −1.0% / 7d −2.5% / 1h +0.1%  •  $872.9M / #6  [MAJOR]
+1. BTW (Bitway) — $0.0857  −23.4% / 7d +19.0% / 1h +2.4%  •  $19M / #167
+2. BEAT (Audiera) — $3.92  −10.5% / 7d +12.2% / 1h +7.6%  •  $48M / #59
+3. DEXE (DeXe) — $2.32  −6.0% / 7d −28.7% / 1h −0.5%  •  $33M / #246
+4. AERO (Aerodrome) — $0.398  −4.8% / 7d −4.7% / 1h −0.8%  •  $13M / #110
+5. STRK (Starknet) — $0.0245  −4.3% / 7d −18.7% / 1h −0.5%  •  $9.1M / #177
+6. ZRO (LayerZero) — $0.721  −4.2% / 7d −14.5% / 1h +0.1%  •  $15M / #137
+7. WIF (dogwifhat) — $0.140  −3.9% / 7d −12.8% / 1h +0.1%  •  $27M / #203
+8. LDO (Lido DAO) — $0.326  −2.9% / 7d −12.6% / 1h −2.0%  •  $25M / #131
+9. APE (ApeCoin) — $0.130  −2.5% / 7d −11.0% / 1h −0.4%  •  $9.2M / #213
+10. SAND (The Sandbox) — $0.0418  −2.2% / 7d −7.5% / 1h −0.5%  •  $6.9M / #242
 
 *Trending*
-1. GRVT (GRVT Token) — #611, $0.270, 24h +5.2%
-2. PENGU (Pudgy Penguins) — #112, $0.00597, 24h −1.1%
-3. POL (ex-MATIC) — #77, $0.0727, 24h +1.6%
-4. KOMA (Koma Inu) — #970, $0.0234, 24h −5.1%
-5. BTC (Bitcoin) — #1, $63,036, 24h −0.9%
-6. UNI (Uniswap) — #37, $4.059, 24h −6.3%  [TRENDING+DOWN]
-7. GIGGLE (Giggle Fund) — #459, $42.68, 24h +14.5%
+1. CATE (Catecoin) — #861, $0.0180, 24h +126.7%
+2. ANSEM (The Black Bull) — #274, $0.216, 24h +20.3%
+3. ONDO (Ondo) — #41, $0.392, 24h +1.6%
+4. PENGU (Pudgy Penguins) — #111, $0.00606, 24h +1.7%
+5. PUMP (Pump.fun) — #74, $0.00218, 24h −0.1%
+6. PI (Pi Network) — #67, $0.0864, 24h −0.1%
+7. BTC (Bitcoin) — #1, $63,433, 24h +0.6%
 
 *Notable*
-• BEAT: trending + breakout — +15.7% 24h / +41% 7d on sustained volume; crosses [BREAKOUT] threshold today (was +14.3% this morning without the tag); strongest dual-confirmation signal of the day
-• PUMP: newly entered trending while gaining +6.5% / 7d +20.9% — Pump.fun token drawing search interest alongside price momentum [TRENDING+UP]
-• HYPE: rank #10 now appearing in trending while down −5.0% 24h / −9.6% 7d — people are searching a major-cap coin that's falling; [TRENDING+DOWN] is new since morning run
+• UAI: #217 up 39% / 7d +62% — [PUMP-RISK], mid-cap continuation with high manipulation probability
+• META: #205 up 17.7% / 7d +45.7% — confirmed [BREAKOUT], two-day sustained momentum
+• BTW: #167 down 23.4% after 7d +19% — prior pump reversing hard
+• BEAT: yesterday's top winner (+15.7% [BREAKOUT]) fully reversed to −10.5% — fast-pump fade
+• CATE: trending #1 at +126.7% (rank #861, outside top-250 scope) — pump-risk in trending feed
