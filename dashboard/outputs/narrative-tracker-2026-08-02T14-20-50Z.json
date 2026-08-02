@@ -1,0 +1,712 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-08-02",
+        "description": "Initial run — no prior narrative-tracker entries. Establishing baseline for tomorrow's diff."
+      },
+      "children": [
+        "transitions_section",
+        "transitions_sep",
+        "reflexivity_section",
+        "reflexivity_sep",
+        "positions_section",
+        "positions_sep",
+        "map_section"
+      ]
+    },
+    "transitions_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "transitions_heading",
+        "privacy_zk_item",
+        "ai_agent_item",
+        "ada_l1_item"
+      ]
+    },
+    "transitions_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      }
+    },
+    "privacy_zk_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "privacy_zk_title",
+        "privacy_zk_desc"
+      ]
+    },
+    "privacy_zk_title": {
+      "type": "Text",
+      "props": {
+        "text": "NEW: Privacy/ZK (ZEC)",
+        "variant": "lead"
+      }
+    },
+    "privacy_zk_desc": {
+      "type": "Text",
+      "props": {
+        "text": "ZEC entered trending #6 CoinGecko; HCH opened conviction ZEC long Aug 1; retail blind spot while AI absorbs mindshare. Contrarian setup.",
+        "variant": "body"
+      }
+    },
+    "ai_agent_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ai_agent_title",
+        "ai_agent_desc"
+      ]
+    },
+    "ai_agent_title": {
+      "type": "Text",
+      "props": {
+        "text": "NEW: AI Agent Tokens",
+        "variant": "lead"
+      }
+    },
+    "ai_agent_desc": {
+      "type": "Text",
+      "props": {
+        "text": "$22.6B sector at infrastructure phase; 919 projects surviving; branded tokens dying while infra-backed projects hold. Narrative peaked as broad pump driver.",
+        "variant": "body"
+      }
+    },
+    "ada_l1_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ada_l1_title",
+        "ada_l1_desc"
+      ]
+    },
+    "ada_l1_title": {
+      "type": "Text",
+      "props": {
+        "text": "NEW: ADA/L1 Accumulation",
+        "variant": "lead"
+      }
+    },
+    "ada_l1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "3rd consecutive session leading large-caps (+9.3% 24h); sole 7d outperformer; HCH NEAR/AAVE/ASTER/FORM basket already positioned Aug 2.",
+        "variant": "body"
+      }
+    },
+    "transitions_sep": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "reflexivity_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "reflexivity_heading",
+        "meme_rotation_alert",
+        "rwa_ondo_alert"
+      ]
+    },
+    "reflexivity_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      }
+    },
+    "meme_rotation_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Meme rotation",
+        "message": "BEAT +15.7% Aug 1 → −10.5% Aug 2: narrative moved price, fundamentals didn't follow. 24h pump-fade at Fear (F&G 27) confirms retail-only bid. Next meme spike is a short setup.",
+        "type": "warning"
+      }
+    },
+    "rwa_ondo_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "RWA/ONDO",
+        "message": "+1.3% in a flat/red tape with no new catalyst: narrative sustaining price without a fundamental trigger.",
+        "type": "warning"
+      }
+    },
+    "reflexivity_sep": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "positions_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "positions_heading",
+        "privacy_zk_pos",
+        "ada_l1_pos",
+        "rwa_ondo_pos",
+        "meme_fade_pos",
+        "ai_agent_fade_pos",
+        "fomc_watch_pos",
+        "hype_watch_pos"
+      ]
+    },
+    "positions_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      }
+    },
+    "privacy_zk_pos": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "privacy_zk_pos_header",
+        "privacy_zk_pos_conviction",
+        "privacy_zk_pos_thesis",
+        "privacy_zk_pos_bear"
+      ]
+    },
+    "privacy_zk_pos_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "privacy_zk_pos_label",
+        "privacy_zk_pos_badge"
+      ]
+    },
+    "privacy_zk_pos_label": {
+      "type": "Text",
+      "props": {
+        "text": "Privacy/ZK",
+        "variant": "lead"
+      }
+    },
+    "privacy_zk_pos_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "FRONT-RUN",
+        "variant": "secondary"
+      }
+    },
+    "privacy_zk_pos_conviction": {
+      "type": "Text",
+      "props": {
+        "text": "mindshare 2 ↑, Bull",
+        "variant": "caption"
+      }
+    },
+    "privacy_zk_pos_thesis": {
+      "type": "Text",
+      "props": {
+        "text": "ZEC trending #6, HCH conviction long, retail not here",
+        "variant": "body"
+      }
+    },
+    "privacy_zk_pos_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: regulatory blacklist risk (Tornado Cash precedent)",
+        "variant": "muted"
+      }
+    },
+    "ada_l1_pos": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ada_l1_pos_header",
+        "ada_l1_pos_conviction",
+        "ada_l1_pos_thesis",
+        "ada_l1_pos_bear"
+      ]
+    },
+    "ada_l1_pos_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "ada_l1_pos_label",
+        "ada_l1_pos_badge"
+      ]
+    },
+    "ada_l1_pos_label": {
+      "type": "Text",
+      "props": {
+        "text": "ADA/L1 accumulation",
+        "variant": "lead"
+      }
+    },
+    "ada_l1_pos_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "FRONT-RUN",
+        "variant": "secondary"
+      }
+    },
+    "ada_l1_pos_conviction": {
+      "type": "Text",
+      "props": {
+        "text": "mindshare 2 ↑↑, Bull",
+        "variant": "caption"
+      }
+    },
+    "ada_l1_pos_thesis": {
+      "type": "Text",
+      "props": {
+        "text": "3rd session large-cap leadership; smart money already positioned",
+        "variant": "body"
+      }
+    },
+    "ada_l1_pos_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: no Cardano fundamental catalyst, pure rotation momentum",
+        "variant": "muted"
+      }
+    },
+    "rwa_ondo_pos": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "rwa_ondo_pos_header",
+        "rwa_ondo_pos_conviction",
+        "rwa_ondo_pos_thesis",
+        "rwa_ondo_pos_bear"
+      ]
+    },
+    "rwa_ondo_pos_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "rwa_ondo_pos_label",
+        "rwa_ondo_pos_badge"
+      ]
+    },
+    "rwa_ondo_pos_label": {
+      "type": "Text",
+      "props": {
+        "text": "RWA/ONDO",
+        "variant": "lead"
+      }
+    },
+    "rwa_ondo_pos_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "outline"
+      }
+    },
+    "rwa_ondo_pos_conviction": {
+      "type": "Text",
+      "props": {
+        "text": "mindshare 4 →, Bull",
+        "variant": "caption"
+      }
+    },
+    "rwa_ondo_pos_thesis": {
+      "type": "Text",
+      "props": {
+        "text": "ONDO +1.3% in flat tape; institutional narrative intact",
+        "variant": "body"
+      }
+    },
+    "rwa_ondo_pos_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: permissioned walled gardens, not real DeFi",
+        "variant": "muted"
+      }
+    },
+    "meme_fade_pos": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "meme_fade_pos_header",
+        "meme_fade_pos_conviction",
+        "meme_fade_pos_thesis",
+        "meme_fade_pos_note"
+      ]
+    },
+    "meme_fade_pos_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "meme_fade_pos_label",
+        "meme_fade_pos_badge"
+      ]
+    },
+    "meme_fade_pos_label": {
+      "type": "Text",
+      "props": {
+        "text": "Meme rotation",
+        "variant": "lead"
+      }
+    },
+    "meme_fade_pos_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "destructive"
+      }
+    },
+    "meme_fade_pos_conviction": {
+      "type": "Text",
+      "props": {
+        "text": "mindshare 3 →, Cope",
+        "variant": "caption"
+      }
+    },
+    "meme_fade_pos_thesis": {
+      "type": "Text",
+      "props": {
+        "text": "BEAT reversal confirmed; PEPE/SHIB 5th consecutive session with no new names; reflexivity trap confirmed",
+        "variant": "body"
+      }
+    },
+    "meme_fade_pos_note": {
+      "type": "Text",
+      "props": {
+        "text": "Next meme spike is a short setup",
+        "variant": "muted"
+      }
+    },
+    "ai_agent_fade_pos": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ai_agent_fade_pos_header",
+        "ai_agent_fade_pos_conviction",
+        "ai_agent_fade_pos_thesis",
+        "ai_agent_fade_pos_note"
+      ]
+    },
+    "ai_agent_fade_pos_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "ai_agent_fade_pos_label",
+        "ai_agent_fade_pos_badge"
+      ]
+    },
+    "ai_agent_fade_pos_label": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent branded tokens",
+        "variant": "lead"
+      }
+    },
+    "ai_agent_fade_pos_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "destructive"
+      }
+    },
+    "ai_agent_fade_pos_conviction": {
+      "type": "Text",
+      "props": {
+        "text": "mindshare 4 →, Mixed",
+        "variant": "caption"
+      }
+    },
+    "ai_agent_fade_pos_thesis": {
+      "type": "Text",
+      "props": {
+        "text": "Peak narrative; zero-revenue tokens dying; only infra-backed survivors hold value",
+        "variant": "body"
+      }
+    },
+    "ai_agent_fade_pos_note": {
+      "type": "Text",
+      "props": {
+        "text": "FADE the token bucket, not the tech",
+        "variant": "muted"
+      }
+    },
+    "fomc_watch_pos": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "fomc_watch_pos_header",
+        "fomc_watch_pos_conviction",
+        "fomc_watch_pos_thesis"
+      ]
+    },
+    "fomc_watch_pos_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "fomc_watch_pos_label",
+        "fomc_watch_pos_badge"
+      ]
+    },
+    "fomc_watch_pos_label": {
+      "type": "Text",
+      "props": {
+        "text": "Sep FOMC repricing",
+        "variant": "lead"
+      }
+    },
+    "fomc_watch_pos_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "secondary"
+      }
+    },
+    "fomc_watch_pos_conviction": {
+      "type": "Text",
+      "props": {
+        "text": "mindshare 3 ↑",
+        "variant": "caption"
+      }
+    },
+    "fomc_watch_pos_thesis": {
+      "type": "Text",
+      "props": {
+        "text": "72% hike priced; NFP Aug 7 is the binary; weak payrolls = fast reversal into FADE-to-FRONT-RUN flip",
+        "variant": "body"
+      }
+    },
+    "hype_watch_pos": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "hype_watch_pos_header",
+        "hype_watch_pos_conviction",
+        "hype_watch_pos_thesis"
+      ]
+    },
+    "hype_watch_pos_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "hype_watch_pos_label",
+        "hype_watch_pos_badge"
+      ]
+    },
+    "hype_watch_pos_label": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE squeeze",
+        "variant": "lead"
+      }
+    },
+    "hype_watch_pos_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "secondary"
+      }
+    },
+    "hype_watch_pos_conviction": {
+      "type": "Text",
+      "props": {
+        "text": "mindshare 2 →",
+        "variant": "caption"
+      }
+    },
+    "hype_watch_pos_thesis": {
+      "type": "Text",
+      "props": {
+        "text": "HCH 10% cumulative long vs −11.1% 7d; $48–50 = binary level",
+        "variant": "body"
+      }
+    },
+    "positions_sep": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "map_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "map_heading",
+        "emerging_stack",
+        "rising_stack",
+        "peak_stack",
+        "fading_stack"
+      ]
+    },
+    "map_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h2"
+      }
+    },
+    "emerging_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "emerging_label",
+        "emerging_items"
+      ]
+    },
+    "emerging_label": {
+      "type": "Text",
+      "props": {
+        "text": "Emerging",
+        "variant": "lead"
+      }
+    },
+    "emerging_items": {
+      "type": "Text",
+      "props": {
+        "text": "Privacy/ZK, ADA/L1 accumulation, Geopolitical risk (Iran), HYPE squeeze, Crypto-equity decoupling",
+        "variant": "body"
+      }
+    },
+    "rising_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "rising_label",
+        "rising_items"
+      ]
+    },
+    "rising_label": {
+      "type": "Text",
+      "props": {
+        "text": "Rising",
+        "variant": "lead"
+      }
+    },
+    "rising_items": {
+      "type": "Text",
+      "props": {
+        "text": "RWA tokenization, Sep FOMC repricing",
+        "variant": "body"
+      }
+    },
+    "peak_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "peak_label",
+        "peak_items"
+      ]
+    },
+    "peak_label": {
+      "type": "Text",
+      "props": {
+        "text": "Peak",
+        "variant": "lead"
+      }
+    },
+    "peak_items": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent tokens, Meme rotation",
+        "variant": "body"
+      }
+    },
+    "fading_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "fading_label",
+        "fading_items"
+      ]
+    },
+    "fading_label": {
+      "type": "Text",
+      "props": {
+        "text": "Fading",
+        "variant": "lead"
+      }
+    },
+    "fading_items": {
+      "type": "Text",
+      "props": {
+        "text": "—",
+        "variant": "body"
+      }
+    }
+  }
+}
