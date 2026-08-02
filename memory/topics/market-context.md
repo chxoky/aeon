@@ -1,74 +1,72 @@
-# Market Context (as of 2026-08-01)
+# Market Context (as of 2026-08-02)
 
-> **Take:** chop — BTC −1.1% 24h at $63K with 7/20 top-cap majors green and F&G flat at 27 (Fear); no signal clearly dominates. Conviction: medium.
+> **Take:** chop — BTC +0.6% 24h at $63.4K with breadth doubling to 14/20 green intraday, but DEX volume collapsed −30% to $5.0B and only 3/20 green on 7d. Conviction: medium.
 
 ## Signal Snapshot
-- BTC $63,027 (−1.1% 24h, −1.6% 7d) · dominance 56.26% (+0.03pp 24h)
-- ETH $1,868.28 (−0.8% 24h, +0.4% 7d) · ETH/BTC 0.02964
-- SOL $72.84 (−0.9% 24h, −1.3% 7d)
-- Total mcap $2.248T (+0.41% 24h) · DEX vol $7.15B 24h
-- Breadth: 7/20 green 24h · 6/20 green 7d
-- Fear & Greed: 27 (Fear) — yesterday 25 (Extreme Fear)
+- BTC $63,429 (+0.6% 24h, −1.4% 7d) · dominance 56.31% (+0.05pp 24h)
+- ETH $1,876.39 (+0.4% 24h, −0.4% 7d) · ETH/BTC 0.02958
+- SOL $73.37 (+0.5% 24h, −2.1% 7d)
+- Total mcap $2.26T (+0.5% 24h) · DEX vol $5.00B 24h
+- Breadth: 14/20 green 24h · 3/20 green 7d
+- Fear & Greed: 27 (Fear) — yesterday 27 (Fear)
 
 ## What Changed Since Last Refresh
-- **Regime label: risk-off → chop** — BTC 24h% improved from −2.0% to −1.1% (intraday recovery); breadth recovered 5/20 → 7/20; total mcap 24h flipped from −0.98% to +0.41%. Stabilization without reversal.
-- **Meme sector broadening:** New trending entries are mid-tier (SHIB +7.48% rank #31, PI +8.67% rank #67, PUMP +7.83% rank #74) vs yesterday's micro-cap GIGGLE (rank #408) — fourth consecutive session of meme relative outperformance, now extending into larger names.
-- **HYPE divergence deepening:** −5.7% 24h, −9.3% 7d despite HCH 5% long add this morning — smart-money vs price split extends to Day 2; still above $48–50 support at $52.18.
-- **Israel-Iran ceasefire:** Polymarket YES fell 79.5% → 73.5% ahead of Aug 2 expiry; not directly crypto-relevant.
+- **Breadth surge: 7/20 → 14/20 green 24h** — intraday recovery led by ADA +9.6%, ZEC +2.1%, LINK +2.3%, XLM +3.4%; regime label unchanged (chop) but first material breadth improvement in 5 sessions.
+- **DEX volume collapse: $7.15B → $5.00B (−30%)** — price lifted without volume is the key contradiction; weakest DEX day in the current window; argues against calling this a sustained recovery.
+- **BTC ETF Aug 1 outflow −$265M confirmed** — follows July's record-low $205M net inflow month; H1 −$5.4B narrative extended with no floor signal yet.
 
 ## Active Narratives
-- **September FOMC hawkish repricing** — phase: rising. Evidence: Fed funds futures ~72% Sep hike probability; prior Polymarket contract at 59.5% YES ($317K vol); NFP Aug 7 next binary trigger; BTC ETF H1 2026 net −$5.4B outflows (first negative half-year since ETF launch) confirm institutional caution.
-- **Meme/alt rotation** — phase: rising. Evidence: SHIB +7.48% (rank #31) + PUMP +7.83% (rank #74) + PI +8.67% (rank #67) all trending green while 13/20 large-caps are red; fourth consecutive session of outperformance; sector broadening from micro-cap to mid-tier names is a phase-escalation signal.
-- **HYPE structural squeeze** — phase: emerging. Evidence: HYPE −5.7% 24h, −9.3% 7d at $52.18 while HCH holds 5% long; $48–50 support intact but unconfirmed; breakout or breakdown from this divergence is the next high-signal event.
-- **Crypto-equity decoupling** — phase: rising. Evidence: BTC −1.1% 24h into constructive global equities; H1 ETF net −$5.4B vs record inflows in 2024–2025 — institutional allocation selectively reducing crypto, not a broad risk-off move.
+- **September FOMC hawkish repricing** — phase: rising. Evidence: Fed funds futures ~72% Sep hike probability; ETF Aug 1 −$265M outflow followed rate-unchanged Fed decision + yield spike; ISM Manufacturing (consensus 54.0 vs prior 53.3) releases today as next data point.
+- **ADA breakout / L1 spot accumulation** — phase: emerging. Evidence: ADA +9.6% 24h (+12.8% 7d, rank #16) — sole large-cap positive on weekly basis; trending on CoinGecko; smart money (HCH) entered 1% spot positions across AAVE/NEAR/XMR/ASTER/FORM today, corroborating broad L1 dip-buying thesis.
+- **Meme/mid-cap rotation** — phase: rising. Evidence: CATE +126.68% (rank #861), ANSEM +20.31% (rank #274), PEPE +4.74% (rank #58), SHIB +2.30% (rank #31) — 4 meme entries trending across micro-to-mid tier; fifth consecutive session of meme relative outperformance vs large-caps.
+- **Geopolitical risk premium — Iran/Hormuz** — phase: emerging. Evidence: "US invade Iran before 2027" YES 19.5% ($2.69M 24h vol — largest macro Polymarket market today); "Strait of Hormuz normal by Aug 31" YES 11.5%; oil >$100/bbl cited as inflation driver; routes through yields/dollar → crypto headwind channel.
+- **HYPE structural squeeze** — phase: emerging (unchanged). Evidence: HYPE +1.0% 24h at $52.17, −11.1% 7d; $48–50 support intact; HCH maintains net-long through 5% position vs price decline. Breakout/breakdown from this divergence remains next high-signal event.
 
 ## Top DeFi Protocols (TVL, 7d change)
-- Lido: $17.56B (+1.12% 7d)
-- Aave V3: $13.78B (+0.86% 7d)
-- SSV Network: $9.23B (+0.88% 7d) [prior refresh]
-- Morpho Blue: $7.60B (+1.89% 7d) [prior refresh]
-- Sky Lending: $5.64B (−5.30% 7d) [prior refresh]
+- Lido: $17.67B (+0.56% 7d)
+- Aave V3: $13.90B (+0.75% 7d)
+- SSV Network: $9.30B (+0.29% 7d)
+- Morpho Blue: $7.58B (+0.82% 7d)
+- WBTC: $7.23B (−1.75% 7d)
 
-## Chain Flow (top 5 by TVL, vs prior refresh)
-- Ethereum: $40.76B (−$0.09B vs prior)
-- Tron: $4.88B (+$0.03B vs prior)
-- BSC: $4.84B (−$0.05B vs prior)
-- Solana: $4.73B (−$0.01B vs prior)
-- Base: $4.52B (flat vs prior)
+## Chain Flow (top 3 by TVL, vs prior refresh)
+- Ethereum: $40.92B (+$0.16B vs prior)
+- Tron: $4.87B (flat vs prior)
+- BSC: $4.86B (+$0.02B vs prior)
 
 ## Stablecoins
-Total: $270.6B (top 5). USDT $183.22B · USDC $72.01B · USDS $6.57B · DAI $4.79B · USD1 $4.01B — combined share of mcap ~12.0%.
+Total: $270.65B (top 5). USDT $183.21B · USDC $72.06B · USDS $6.57B · DAI $4.80B · USD1 $4.01B — combined share of mcap ~12.0%.
 
 ## Trending (CoinGecko)
-- SHIB (Shiba Inu) — rank #31, +7.48% 24h [meme sector leading; fourth consecutive session green alongside PUMP]
-- PI (Pi Network) — rank #67, +8.67% 24h [notable gainer in risk-off tape; watch for sustainability]
-- PUMP (Pump.fun) — rank #74, +7.83% 24h [launchpad sector; fourth consecutive trending session with green print]
-- TAO (Bittensor) — rank #42, +1.44% 24h [AI narrative holding modest green]
-- UNI (Uniswap) — rank #37, −4.28% 24h [fade decelerating from −7.41% yesterday; HCH cover in; still falling]
-- PONS — rank #793, −22.34% 24h [micro-cap dump; noise]
-- COTI — rank #440, −11.77% 24h [small-cap selling; no narrative signal]
+- ADA (Cardano) — rank #16, +9.31% 24h [sole large-cap 7d outperformer; accumulation signal]
+- PEPE — rank #58, +4.74% 24h [meme rotation active; fifth session]
+- SHIB (Shiba Inu) — rank #31, +2.30% 24h [meme breadth holding into mid-tier]
+- ZEC (Zcash) — rank #15, +1.96% 24h [privacy coin new to trending; watch for sustainability]
+- ONDO — rank #41, +1.33% 24h [RWA narrative holding modest green]
+- ANSEM (The Black Bull) — rank #274, +20.31% 24h [meme/momentum spike; noise-adjacent]
+- CATE (Catecoin) — rank #861, +126.68% 24h [micro-cap spike; noise]
 
-## Prediction Markets (Polymarket, macro-relevant)
+## Prediction Markets (Polymarket, top by 24h vol — macro signal)
 | Market | YES% | 24h Vol | Liquidity |
 |--------|------|---------|-----------|
-| Israel-Iran ceasefire through Aug 2 | 73.5% | $717K | $51K |
-| Fed increase rates 25 bps (Sep 2026) | 59.5%* | n/a | n/a |
+| Will the U.S. invade Iran before 2027? | 19.5% | $2.69M | $1.32M |
+| US×Iran Effective Ceasefire by Jul 31? | 56.5% | $1.05M | $86.9K |
+| Strait of Hormuz traffic returns to normal by Aug 31? | 11.5% | $670K | $586K |
 
-*Fed hike Polymarket contract carried from prior snapshot — not in today's top-volume markets (sports dominated). Fed funds futures show ~72%. Use as range: 59–72% hike probability.
-*Top Polymarket markets by 24h volume today were CS2/esports/sports betting — no macro signal in top 10.*
+*Top Polymarket markets by 24h vol are Iran/geopolitical today; no Sep FOMC contract in top volume.*
 
 ## Macro Catalysts (next 48h)
-- **NFP August 7 (6 days):** Primary binary for September FOMC path. Strong payrolls → hike probability (already ~60–72%) accelerates, BTC headwind intensifies. Miss → relief rally window. Much of the hawkish scenario is already priced.
-- **BTC ETF August week 1 (Mon–Tue open):** First August daily flow data after record-low July. A $400M+ single-day inflow would be the first meaningful counter to the H1 −$5.4B narrative. Sub-$300M confirms continuation.
-- **Jackson Hole Aug 27–29:** 26 days out, but any hawkish Fed commentary before NFP amplifies positioning shifts. Pre-positioning window begins now.
+- **ISM Manufacturing Aug 2 (today):** Consensus 54.0 vs prior 53.3. Beat = dollar/yields higher → crypto headwind; miss = relief-rally window opens.
+- **BTC ETF week 1 August flows (Mon open):** First August daily data after −$265M Aug 1 outflow. $400M+ single-day inflow would be first counter-signal to H1 −$5.4B narrative; sub-$300M confirms continuation.
+- **NFP Aug 7 (5 days):** Primary binary for Sep FOMC path. Strong payrolls accelerate ~72% hike probability already priced.
 
 ## Implications for Downstream Skills
-- **token-pick:** Chop regime — no new large-cap longs until breadth recovers above 10/20. HYPE is the contrarian watch (HCH + smart-money long, $48 support; wait for $48 hold or 1h confirmation). ADA +7.4% 7d is the lone constructive large-cap setup. SHIB/PUMP meme rotation active but carry is high in risk-off macro. Avoid HYPE breakdown below $48, UNI (still falling), BNB −2.4% 24h.
-- **narrative-tracker:** September FOMC repricing remains #1 — track Fed futures daily into NFP Aug 7. Meme/alt rotation should be upgraded to "rising with broadening" if SHIB/PI hold through weekend. HYPE "emerging" — $48 support is the confirmation level; failure = phase moves to "fading."
+- **token-pick:** Chop regime — no new large-cap longs until breadth holds above 14/20 into US session and DEX vol recovers. ADA (+12.8% 7d) and ZEC (+2.1% 24h) are cleanest technicals. HCH entered AAVE/NEAR/XMR/ASTER/FORM at 1% spot today — await Kyle approval signals before mirroring. HYPE: hold above $48 is the confirmation level. Avoid names with 7d red >5% (HYPE, DOGE, BNB, RAIN, SOL).
+- **narrative-tracker:** ADA breakout is the new emerging narrative to track. Upgrade meme/alt rotation to "peak" signal if SHIB/PEPE hold through US session without fresh volume. Monitor ISM print today for FOMC repricing acceleration. Iran/Hormuz geopolitical risk is emerging — track oil price vs $100 level as the proxy.
 
 ## Token Picks Made
 | Date | Token | Price | Thesis |
 
 ---
 *Sources — btc/eth: CoinGecko · defi: DeFiLlama · sentiment: alternative.me · markets: Polymarket · catalysts: WebSearch*
-*Source status: coingecko=ok defillama=ok(protocols+chains+dex+stables; chain 7d delta n/a) fng=ok polymarket=ok(limited — top-vol markets were sports; ceasefire captured; Fed hike contract carried from prior snapshot) websearch=ok*
+*Source status: coingecko=ok defillama=ok(protocols+chains; chain 7d delta n/a — daily delta vs prior refresh used) fng=ok polymarket=ok(geopolitical markets dominated top vol; Sep FOMC contract not in top 10) websearch=ok*
