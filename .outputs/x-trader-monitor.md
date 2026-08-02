@@ -1,7 +1,7 @@
-🐦 *[X] @KillaXBT*
+🔍 *Calibration — @swarmister*
 
-Most followers obsess over precision—trying to time every move, overcomplicating simple things in pursuit of max gains. That's just greed.
+Event: Reply to @stoicsavage at 17:48Z Aug 02
 
-Reality check: People with actual wealth don't work that way. They don't nitpick entries or try to time everything perfectly. They do more of what successful people do, and far less of what unsuccessful people do.
+@swarmister: "Just don't tell me you marked it top"
 
-[View tweet](https://x.com/KillaXBT/status/2083960460995404255)
+Unable to classify — what's your read? Which asset/market? Is this banter or a real signal?

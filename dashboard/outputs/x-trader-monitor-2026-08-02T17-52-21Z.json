@@ -1,0 +1,47 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading_calibration",
+        "text_event",
+        "tweet_message",
+        "alert_classify"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @swarmister",
+        "level": "h2"
+      }
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @stoicsavage at 17:48Z Aug 02",
+        "variant": "muted"
+      }
+    },
+    "tweet_message": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "text": "Just don't tell me you marked it top"
+      }
+    },
+    "alert_classify": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read? Which asset/market? Is this banter or a real signal?",
+        "type": "info"
+      }
+    }
+  }
+}
