@@ -1,0 +1,398 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-08-02"
+      },
+      "children": [
+        "heading_focus",
+        "focus_stack",
+        "sep1",
+        "heading_since",
+        "since_stack",
+        "sep2",
+        "heading_watch",
+        "watch_stack",
+        "sep3",
+        "heading_running",
+        "running_stack"
+      ]
+    },
+    "heading_focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "focus_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus_1",
+        "focus_2",
+        "focus_3"
+      ]
+    },
+    "focus_1": {
+      "type": "Text",
+      "props": {
+        "text": "HCH calibration pending — 2 ambiguous messages need your read before mirroring",
+        "variant": "body"
+      }
+    },
+    "focus_2": {
+      "type": "Text",
+      "props": {
+        "text": "WR AAPL rotated — full TP on Oct $300, new Sep $285 puts live; Kraken mirror status unresolved",
+        "variant": "body"
+      }
+    },
+    "focus_3": {
+      "type": "Text",
+      "props": {
+        "text": "HCH 5 spot longs entered — AAVE/NEAR/XMR/ASTER/FORM 1% each; approval window open",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_since": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "since_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "since_1",
+        "since_2",
+        "since_3",
+        "since_4",
+        "since_5"
+      ]
+    },
+    "since_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_escalating",
+        "text_escalating"
+      ]
+    },
+    "badge_escalating": {
+      "type": "Badge",
+      "props": {
+        "text": "escalating",
+        "variant": "secondary"
+      }
+    },
+    "text_escalating": {
+      "type": "Text",
+      "props": {
+        "text": "HCH net-long regime: BTC/ETH/HYPE/ZEC adds through Aug 01, then 5-ticker spot spread this morning; 50-60% allocation target stated publicly",
+        "variant": "body"
+      }
+    },
+    "since_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_reversed",
+        "text_beat_flip",
+        "beat_grid",
+        "text_beat_pattern"
+      ]
+    },
+    "badge_reversed": {
+      "type": "Badge",
+      "props": {
+        "text": "reversed",
+        "variant": "destructive"
+      }
+    },
+    "text_beat_flip": {
+      "type": "Text",
+      "props": {
+        "text": "BEAT flipped from yesterday #1 winner to today",
+        "variant": "body"
+      }
+    },
+    "beat_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "beat_yesterday",
+        "beat_today"
+      ]
+    },
+    "beat_yesterday": {
+      "type": "Stat",
+      "props": {
+        "label": "BEAT yesterday",
+        "value": "+15.7%",
+        "trend": "up"
+      }
+    },
+    "beat_today": {
+      "type": "Stat",
+      "props": {
+        "label": "BEAT today",
+        "value": "-10.5%",
+        "trend": "down"
+      }
+    },
+    "text_beat_pattern": {
+      "type": "Text",
+      "props": {
+        "text": "fast-pump fade; BTW same pattern (7d +19% → -23.4% today)",
+        "variant": "body"
+      }
+    },
+    "since_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_moved",
+        "text_aapl_close",
+        "aapl_profit",
+        "text_aapl_scaled"
+      ]
+    },
+    "badge_moved": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "text_aapl_close": {
+      "type": "Text",
+      "props": {
+        "text": "WR closed Oct $300 AAPL short at $301 full TP",
+        "variant": "body"
+      }
+    },
+    "aapl_profit": {
+      "type": "Stat",
+      "props": {
+        "label": "Realized profit",
+        "value": "~$30-40K"
+      }
+    },
+    "text_aapl_scaled": {
+      "type": "Text",
+      "props": {
+        "text": "Scaled to Sep $285 puts 20-25% size",
+        "variant": "body"
+      }
+    },
+    "since_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_stuck",
+        "text_stuck"
+      ]
+    },
+    "badge_stuck": {
+      "type": "Badge",
+      "props": {
+        "text": "stuck",
+        "variant": "outline"
+      }
+    },
+    "text_stuck": {
+      "type": "Text",
+      "props": {
+        "text": "HCH sent \"(Optional, if you don't mind)\" + \"A few concentrated bets\" — context ambiguous, waiting on your interpretation",
+        "variant": "body"
+      }
+    },
+    "since_5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_regime",
+        "regime_grid",
+        "text_regime_skepticism"
+      ]
+    },
+    "badge_regime": {
+      "type": "Badge",
+      "props": {
+        "text": "regime",
+        "variant": "secondary"
+      }
+    },
+    "regime_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "btc_stat",
+        "fg_stat"
+      ]
+    },
+    "btc_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$63,429",
+        "delta": "+0.6%",
+        "trend": "up"
+      }
+    },
+    "fg_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Fear & Greed Index",
+        "value": "27 (Fear)"
+      }
+    },
+    "text_regime_skepticism": {
+      "type": "Text",
+      "props": {
+        "text": "HCH skeptical on leverage at 62k-63k support",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "watch_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ada_stat",
+        "text_watch"
+      ]
+    },
+    "ada_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "ADA",
+        "value": "+9.6%",
+        "trend": "up"
+      }
+    },
+    "text_watch": {
+      "type": "Text",
+      "props": {
+        "text": "leading majors while market fear persists — L1 accumulation narrative forming; aligns with HCH buying NEAR/AAVE this morning",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "running_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "running_1",
+        "running_2",
+        "running_3",
+        "running_4",
+        "running_5"
+      ]
+    },
+    "running_1": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers + token-alert @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running_2": {
+      "type": "Text",
+      "props": {
+        "text": "market-context-refresh @ 13:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running_3": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC",
+        "variant": "body"
+      }
+    },
+    "running_4": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 08:00 / 14:00 / 20:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running_5": {
+      "type": "Text",
+      "props": {
+        "text": "skill-health @ 18:00 UTC",
+        "variant": "body"
+      }
+    }
+  }
+}
