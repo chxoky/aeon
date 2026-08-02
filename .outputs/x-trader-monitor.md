@@ -1,9 +1,7 @@
-🔍 *Calibration — @swarmister*
+🐦 *[X] @HeartCanHodl*
 
-Event: Cryptic commentary on insider trading regulation in crypto
+august is just august. the seasonality post only works for me when the market is already sitting at the top of the range
 
-Swarmister: "Why would they raise money if it benefits everyone who wants to trade on insider information? I even know one family whose last name starts with a 'T.' everyone knows exactly who I'm talking about, lol. Am I right? That's one of the reasons to be bullish on this ecosystem, imo"
+[View tweet](https://x.com/HeartCanHodl/status/2083874189476524077)
 
-Untracked trader. No explicit ticker/level/action. Text references unnamed family + ideological stance on crypto regulatory landscape. Political/conspiratorial tone.
-
-Is this worth tracking or skip future posts from this account?
+↳ _Market sentiment on range structure. Dismisses generic August seasonality patterns, conditions observed only when market already at peak._
