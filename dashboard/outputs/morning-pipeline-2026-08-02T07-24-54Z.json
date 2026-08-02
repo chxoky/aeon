@@ -1,0 +1,474 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-08-02"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "sep-1",
+        "heading-focus",
+        "stack-focus",
+        "sep-2",
+        "heading-since",
+        "stack-since",
+        "sep-3",
+        "heading-watch",
+        "text-watch",
+        "sep-4",
+        "heading-running",
+        "stack-running"
+      ]
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "heading-focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack-focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus-item-1",
+        "focus-item-2",
+        "focus-item-3"
+      ]
+    },
+    "focus-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-1-main",
+        "focus-1-detail"
+      ]
+    },
+    "focus-1-main": {
+      "type": "Text",
+      "props": {
+        "text": "1. Approve/skip HCH's AAVE/NEAR/XMR/ASTER/FORM (1% each)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "focus-1-detail": {
+      "type": "Text",
+      "props": {
+        "text": "opened 05:38Z, ~1.5hrs old, market moving",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "focus-item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-2-main",
+        "focus-2-detail"
+      ]
+    },
+    "focus-2-main": {
+      "type": "Text",
+      "props": {
+        "text": "2. UNI short (HCH 6%) being squeezed",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "focus-2-detail": {
+      "type": "Text",
+      "props": {
+        "text": "+13.8% 7d with 68/100 alts green; cover risk rising",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "focus-item-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-3-main",
+        "focus-3-detail"
+      ]
+    },
+    "focus-3-main": {
+      "type": "Text",
+      "props": {
+        "text": "3. NFP Aug 7 binary (5 days)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "focus-3-detail": {
+      "type": "Text",
+      "props": {
+        "text": "ETF Week 1 flows Mon-Tue decide if July bounce is durable",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "heading-since": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack-since": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "since-item-1",
+        "since-item-2",
+        "since-item-3",
+        "since-item-4",
+        "since-item-5"
+      ]
+    },
+    "since-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since-1-head",
+        "since-1-body"
+      ]
+    },
+    "since-1-head": {
+      "type": "Text",
+      "props": {
+        "text": "Wild_Randomness",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "since-1-body": {
+      "type": "Text",
+      "props": {
+        "text": "AAPL Oct $300 short fully TP'd (~$30-50K profit); new Sep $285 puts opened at $301 (20-25% size)",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "since-item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since-2-head",
+        "since-2-body"
+      ]
+    },
+    "since-2-head": {
+      "type": "Text",
+      "props": {
+        "text": "HCH",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "since-2-body": {
+      "type": "Text",
+      "props": {
+        "text": "complete net-short → net-long flip — AAVE/NEAR/XMR/ASTER/FORM 1% each entered this morning (05:38Z, fast-path alerted)",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "since-item-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since-3-head",
+        "since-3-body",
+        "since-3-badge"
+      ]
+    },
+    "since-3-head": {
+      "type": "Text",
+      "props": {
+        "text": "KillaXBT",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "since-3-body": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE long at $51.55 pending your approval; +1.2% in-the-money ($52.17 current)",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "since-3-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "PENDING APPROVAL",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "since-item-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since-4-head",
+        "since-4-alts-stat",
+        "since-4-ada-section",
+        "since-4-rest"
+      ]
+    },
+    "since-4-head": {
+      "type": "Text",
+      "props": {
+        "text": "Market: rotation",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "since-4-alts-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Alts green",
+        "value": "68/100"
+      },
+      "children": []
+    },
+    "since-4-ada-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since-4-ada-stat",
+        "since-4-ada-badges"
+      ]
+    },
+    "since-4-ada-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "ADA",
+        "value": "+9.6%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "since-4-ada-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "since-4-badge-trending",
+        "since-4-badge-major"
+      ]
+    },
+    "since-4-badge-trending": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+UP"
+      },
+      "children": []
+    },
+    "since-4-badge-major": {
+      "type": "Badge",
+      "props": {
+        "text": "MAJOR"
+      },
+      "children": []
+    },
+    "since-4-rest": {
+      "type": "Text",
+      "props": {
+        "text": "BTC +0.7%; F&G flat at 27 (Fear)",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "since-item-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since-5-head",
+        "since-5-body",
+        "since-5-badges"
+      ]
+    },
+    "since-5-head": {
+      "type": "Text",
+      "props": {
+        "text": "BEAT",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "since-5-body": {
+      "type": "Text",
+      "props": {
+        "text": "yesterday's +15.7% reversed −10.5% today — pump faded within 24h",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "since-5-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "since-5-badge-breakout",
+        "since-5-badge-reversed"
+      ]
+    },
+    "since-5-badge-breakout": {
+      "type": "Badge",
+      "props": {
+        "text": "BREAKOUT"
+      },
+      "children": []
+    },
+    "since-5-badge-reversed": {
+      "type": "Badge",
+      "props": {
+        "text": "REVERSED",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "heading-watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text-watch": {
+      "type": "Text",
+      "props": {
+        "text": "ETF flows Mon-Tue (first August data): 54% of 2026 sessions net negative; a single strong inflow print would be the first counter to the H1 −$5.4B narrative — directly tests NFP thesis",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "heading-running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack-running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "running-1",
+        "running-2",
+        "running-3",
+        "running-4"
+      ]
+    },
+    "running-1": {
+      "type": "Text",
+      "props": {
+        "text": "morning-pipeline @ 07:00 UTC (this run)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "running-2": {
+      "type": "Text",
+      "props": {
+        "text": "market-context-refresh @ 10:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "running-3": {
+      "type": "Text",
+      "props": {
+        "text": "discord-trader-monitor: continuous",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "running-4": {
+      "type": "Text",
+      "props": {
+        "text": "x-trader-monitor: webhook-driven",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
