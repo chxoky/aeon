@@ -1,0 +1,62 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "source_badge",
+        "tweet_message",
+        "separator",
+        "context_section"
+      ]
+    },
+    "source_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DC: HCH — Chat",
+        "variant": "secondary"
+      }
+    },
+    "tweet_message": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HCH",
+        "text": "I was wondering if we want to 1-1-1-1-1% on some alts for diversification"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_heading",
+        "context_text"
+      ]
+    },
+    "context_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "Supporting channel real-time conviction shift on alt diversification strategy implementation (follows Aug 02 05:01Z portfolio allocation framework: 25% directed + 35% directional trades + 40% liquid reserves)"
+      }
+    }
+  }
+}
