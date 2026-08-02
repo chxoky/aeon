@@ -1,0 +1,60 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "tweet_link",
+        "separator_1",
+        "sentiment_text"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "The end of last week.— in two days QQQ ripped over 5% while SOXX went up over 13%, while uhh BTC went down 2%?\n\n\"Just crazy displays of goldfish memory on here\""
+      },
+      "children": []
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2084005487721546085"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "sentiment_text": {
+      "type": "Text",
+      "props": {
+        "text": "↳ Sentiment: Market divergence commentary — tech equities rallying while crypto flat/down; sarcasm on short-term trader memory.",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
