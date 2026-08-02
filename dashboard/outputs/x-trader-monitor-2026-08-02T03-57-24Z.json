@@ -1,0 +1,53 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet-card",
+        "separator-1",
+        "link-element",
+        "separator-2",
+        "context-text"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "@HeartCanHodl",
+        "text": "Going towards 50-60% allocation — validating with BTC 15m technical structure.\n\nChart shows recent bounce from 62,275 to 63,480 zone with false-close pattern (doji near 63,350 resistance)."
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link-element": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/HeartCanHodl/status/2083763012205482099"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context-text": {
+      "type": "Text",
+      "props": {
+        "text": "Informational confirmation of portfolio rebalancing into net-long regime (shorts closed Aug 01 14:27Z, successive long adds throughout Aug 01-02).",
+        "variant": "caption"
+      }
+    }
+  }
+}

@@ -154,8 +154,9 @@
 
 ## HeartCanHodl
 
-- **Last seen**: 2026-08-01T18:42:27Z (X post with eye emojis + generic business image)
+- **Last seen**: 2026-08-02T03:53:11Z (X post validating allocation deployment with BTC technical chart)
 - **Events (recent):**
+  - Aug 02 03:53Z — informational: "a lot." (X post; cryptic reference to 50-60% allocation deployment announced Aug 01 23:46Z Discord message; 2 images: (1) Discord allocation statement "Going towards 50-60% allocation", (2) BTC 15m chart showing 62275→63480 bounce with false-close doji pattern near 63350 resistance; chart-driven conviction validation of portfolio rebalancing into net-long regime; no new trade execution action stated; cross-platform allocation confirmation alert sent to Kyle) [2083763012205482099]
   - Aug 01 18:42Z — ambiguous: Eye emoji post pointing to generic business strategy image (CoinDesk StrategyB slide); cryptic/no financial signal; calibration alert sent per HR-2 protocol [2083624418061017343]
   - Aug 01 18:38:28Z — trade-partial-close: "Cover half of remaining crypto shorts" (secondary wave of short-position de-risking following 10:21Z complete close of crypto shorts; HCH continuing net-long portfolio rebalancing initiated 07-31 14:27Z with successive long adds across majors + alts throughout Aug 01; fast-path alerted by Worker, skill memory-only processing) [1533182143294078996]
   - Aug 01 18:16:39Z — trade-conviction-add: "Add 5-5% btc,eth long" (BTC +5%, ETH +5% conviction add on primary Trades channel; major-pair long escalation following SOL +2.5% add 17:05Z same day; continuing net-long regime shift from major-pair short cover 14:27Z and successive long builds (BTC/ETH 12:47Z, HYPE/ZEC 13:07Z); portfolio concentration into major-pair capital; fast-path alerted by Worker, skill memory-only processing) [1533176653679952104]
