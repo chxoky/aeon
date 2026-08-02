@@ -1,9 +1,7 @@
-Log entry appended. All steps complete.
-
 ## Summary
 
-- **traders.md**: 147,359 → 64,074 bytes (56% reduction). Merged duplicates: Bitcoin_Astro (3→1), Stoiiic (3→1), trading_axe/Dr. Axius (2→1). Single canonical block per trader, ≤25 events newest-last.
-- **trader-baseline-10d.md**: Regenerated for Jul 16–26 window (11,752 bytes).
-- **Commit**: `31b3d2f` — `chore(trader-memory-compact): 147359→64074 bytes traders.md, baseline regenerated`
-- **Activity log**: Entry appended to `memory/logs/2026-07-26.md`.
-- **Issues**: No open TRADERS_MD_OVERSIZE issue to close.
+**traders.md:** 118,755 → 25,763 bytes (4.6x reduction). Merged duplicate `KillaXBT` and `bull_genius` sections, collapsed HeartCanHodl's 30+ fragmented Event/Last-seen blocks into one canonical section with 24 events, trimmed all traders to ≤25 rolling events. Dropped skips, per-run machinery, and resolved dead-ends throughout.
+
+**trader-baseline-10d.md:** Regenerated for Jul 23–Aug 02. Key pivots captured: HCH fully rotated to net-long (~50% deployed, diversification complete Aug 02); WR rolled AAPL Oct→Sep puts after +$30–50K close; KillaXBT HYPE $51.55 long entry. Group convergence: 4-trader net-long cluster (HCH/KillaXBT/bull_genius/t_in_crypto) vs WR/Stoiiic/Bitcoin_Astro cautious/bearish on near-term structure.
+
+No open `TRADERS_MD_OVERSIZE` issue found in the issues index — none to close. Committed as `bc1cb3c`.
