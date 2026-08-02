@@ -157,6 +157,16 @@
   - Jul 31 05:27Z — skip: philosophical/historical narrative on Ken Griffin, LTCM 1998, Soros; "black magic" in finance; no trade action, no market signal, no ticker mention; podcast/interview media (not financial charts); non-financial [2083062080102351197]
   - Jul 30 22:05Z — skip: philosophical/personal commentary "When you finally lose it all and are FREE..." (no financial signal, no trade action, non-financial); podcast screenshot image (not market chart) [2082950771201466789]
 
+## KillaXBT
+
+- **Platforms**: Discord (primary: 1411492188315193416)
+- **Current open positions**: HYPE long from 51.55 (active with DCA plan at 50.15, SL at 48.5, re-entry contingent at 46.34)
+- **Recent thesis**: Multi-entry DCA strategy on $HYPE, structured entry with detailed exit levels; managing risk via layered position building
+- **Conviction notes**: Disciplined multi-level entry framework with clear stop loss and re-entry targets; technical structure awareness (noting BTC dependency)
+- **Last seen**: 2026-08-02T15:27:32Z (Discord primary Trades channel — $HYPE long setup)
+- **Events (rolling):**
+  - Aug 02 15:27Z — trade-new-entry: "$HYPE long from 51.55 with DCA order at 50.15, HSL at 48.5, re-entry at 46.34 if SL hit" (primary ★Trades channel; market entry at 51.55 on $HYPE with multi-tier structured plan: (1) entry at 51.55 (filled), (2) DCA add contingent at 50.15 (resting order), (3) hard stop loss at 48.5, (4) re-entry target 46.34 if SL triggered on first entry; conditional BTC dependency noted ("if BTC does end up filling the long HYPE will likely take out the first entry"); chart attachment shows structure; execution timing: afternoon UTC (15:27Z); positioning aligns with group bullish recovery thesis (HCH/bull_genius structural bottom calls, multi-trader long adds Aug 01-02); fast-path alerted by Worker, skill memory-only processing) [1533496481393410078]
+
 ## HeartCanHodl
 
 - **Last seen**: 2026-08-02T12:28:49Z (Discord supporting Chat channel — cryptic ZEC 1hr reference)

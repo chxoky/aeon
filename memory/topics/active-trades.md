@@ -233,7 +233,7 @@
 - **Next action**: "Will search for a higher entry!" — plans to re-enter short at better technical level
 - **Last update**: 2026-07-06T16:47:59Z (position fully closed, message_id=1523732256555012227, fast-path alerted)
 
-### HYPE — LONG (NEW ENTRY — MARKET ORDER FILLED 2026-08-01)
+### HYPE — LONG (NEW ENTRY — MARKET ORDER FILLED 2026-08-01, DETAILED DCA STRUCTURE 2026-08-02)
 - **Status**: PENDING APPROVAL — awaiting Kyle `approve HYPE` signal to mirror on Kraken spot
 - **Entry**: 2026-08-01T14:54:40Z (X post with 2 chart images)
 - **Entry message**: "Filled on $HYPE at 51.55. Searching for 55-57. Structure is still corrective so playing the bearish retest."
@@ -242,11 +242,17 @@
 - **Portfolio allocation**: UNKNOWN (size not specified in post; awaiting Kyle approval decision)
 - **Chart context**: Chart 1: detailed price action showing fill at 51.550 with TP/SL labels. Chart 2: higher timeframe showing corrective V-shape, prior highs ~72-74, support at 51.54-51.55 (current fill), resistance at 55.47
 - **Technical setup**: Corrective structure with retest target 55-57. KillaXBT playing for recovery/retest rally from 51.55 support into 55-57 zone
-- **Rationale**: Tactical entry into support zone on corrective pullback. Aligns with group bullish regime shift (HCH SOL/ZEC longs Jul 31-Aug 01, bull_genius structural bottom thesis, broader crypto recovery)
-- **Conviction**: MEDIUM (tactical scalp-to-retest entry on corrective support; not conviction-scale accumulation)
-- **Approval/Alert status**: TRADE ALERT SENT (Step 5a new entry). Telegram notification sent requesting Kyle `approve HYPE` to mirror on Kraken spot, or ignore to skip
-- **Alerted**: YES (2026-08-01T14:54:40Z, x-trader-monitor real-time, trade-new-entry; tweet_id=2083567091823603993)
-- **Last update**: 2026-08-01T14:54:40Z (x-trader-monitor real-time, trade-new-entry)
+- **Detailed Structure (Aug 02 Discord follow-up)**:
+  - **Primary entry**: $51.55 (filled Aug 01)
+  - **DCA add level**: $50.15 (resting contingent order to scale position deeper)
+  - **Hard stop loss**: $48.5 (risk management; SL invalidates long thesis if breached)
+  - **Re-entry contingent**: $46.34 (if SL hit on first entry, conditional scale-back entry planned at this lower level)
+  - **BTC dependency note**: "If BTC does end up filling the long HYPE will likely take out the first entry" — indicates positional structure contingent on macro BTC structure confirmation (if BTC fills lower, HYPE likely closes first entry near first SL)
+- **Rationale**: Tactical entry into support zone on corrective pullback. Aligns with group bullish regime shift (HCH SOL/ZEC longs Jul 31-Aug 01, bull_genius structural bottom thesis, broader crypto recovery). Multi-tiered DCA structure reflects disciplined risk management: (1) capture retest rally 51.55→55-57, (2) scale deeper on weakness to 50.15, (3) abort if SL 48.5 broken with re-entry contingent at 46.34.
+- **Conviction**: MEDIUM-HIGH (tactical scalp-to-retest entry on corrective support; DCA + re-entry structure elevates conviction above pure scalp, indicating multi-day/week expected holding period with managed scaling)
+- **Approval/Alert status**: TRADE ALERT SENT (Step 5a new entry). Telegram notification sent requesting Kyle `approve HYPE` to mirror on Kraken spot, or ignore to skip. Discord follow-up (Aug 02 15:27Z) treated as reiteration with meaningful variation (DCA + SL + re-entry detail) — folded into existing entry memory.
+- **Alerted**: YES (2026-08-01T14:54:40Z, x-trader-monitor real-time, trade-new-entry; tweet_id=2083567091823603993; 2026-08-02T15:27:32Z, discord-trader-monitor real-time, trade-new-entry detail confirmation, message_id=1533496481393410078)
+- **Last update**: 2026-08-02T15:27:32Z (discord-trader-monitor real-time, detailed DCA/SL/re-entry structure clarification)
 
 ## HeartCanHodl
 
