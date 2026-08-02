@@ -1,43 +1,42 @@
 *Token Movers — 2026-08-02*
 
-_Cautious recovery — 59/100 large-caps positive, median top-50 +0.7%; ADA and ENA co-lead majors at +9.6% while mid-tier alts absorb the day's steepest drops._
+_Mild alt rotation in a mostly flat tape — 52/100 large-caps green, BTC holding $63.1K; median top-50 move +0.2%._
 
 *Top Winners (24h)*
-1. UAI (UnifAI Network) — $0.533  +39.1% / 7d +62.1% / 1h +2.3%  •  $18M / #217  [PUMP-RISK][BREAKOUT]
-2. META (MetaDAO) — $6.18  +17.7% / 7d +45.7% / 1h −4.3%  •  $68M / #205  [BREAKOUT]
-3. ADA (Cardano) — $0.185  +9.6% / 7d +12.8% / 1h +0.7%  •  $483M / #16  [TRENDING+UP][MAJOR]
-4. ENA (Ethena) — $0.0889  +9.6% / 7d +3.0% / 1h +0.9%  •  $147M / #76
-5. BTSE (BTSE Token) — $0.956  +8.8% / 7d +5.6% / 1h +0.1%  •  $2.6M / #192
-6. TAG (TAGGER) — $0.00141  +8.2% / 7d +36.2% / 1h +1.8%  •  $5.5M / #193
-7. UB (Unibase) — $0.171  +7.9% / 7d +34.7% / 1h −0.4%  •  $7.5M / #106
-8. PIEVERSE — $0.731  +6.2% / 7d −11.9% / 1h −0.1%  •  $6.4M / #160
-9. ZANO — $9.50  +6.1% / 7d +4.7% / 1h +4.8%  •  $1.4M / #198
-10. NIGHT (Midnight) — $0.01952  +6.0% / 7d −0.3% / 1h +1.9%  •  $10M / #118
+1. ADA (Cardano) — $0.1892  +9.3% / 7d +14.2% / 1h +1.0%  •  $576M / #16  [TRENDING+UP][MAJOR]
+2. ENA (Ethena) — $0.0885  +8.1% / 7d +3.2% / 1h −1.7%  •  $165M / #76
+3. PEPE (Pepe) — $0.0000029  +5.4% / 7d −1.9% / 1h −0.1%  •  $165M / #59  [TRENDING+UP]
+4. ARB (Arbitrum) — $0.0816  +4.4% / 7d −1.6% / 1h −0.2%  •  $39M / #95
+5. AVAX (Avalanche) — $6.57  +4.0% / 7d −1.9% / 1h +0.1%  •  $257M / #32
+6. DOT (Polkadot) — $0.7943  +4.0% / 7d −3.8% / 1h −0.3%  •  $95M / #53
+7. WLFI (World Liberty Financial) — $0.0560  +3.4% / 7d +1.5% / 1h +0.2%  •  $24M / #45
+8. UNI (Uniswap) — $4.19  +2.8% / 7d +11.3% / 1h −0.9%  •  $201M / #36
+9. NEAR (NEAR Protocol) — $1.70  +2.6% / 7d −5.6% / 1h −0.7%  •  $142M / #39
+10. XLM (Stellar) — $0.1741  +2.1% / 7d −2.2% / 1h −0.2%  •  $100M / #20  [MAJOR]
 
 *Top Losers (24h)*
-1. BTW (Bitway) — $0.0857  −23.4% / 7d +19.0% / 1h +2.4%  •  $19M / #167
-2. BEAT (Audiera) — $3.92  −10.5% / 7d +12.2% / 1h +7.6%  •  $48M / #59
-3. DEXE (DeXe) — $2.32  −6.0% / 7d −28.7% / 1h −0.5%  •  $33M / #246
-4. AERO (Aerodrome) — $0.398  −4.8% / 7d −4.7% / 1h −0.8%  •  $13M / #110
-5. STRK (Starknet) — $0.0245  −4.3% / 7d −18.7% / 1h −0.5%  •  $9.1M / #177
-6. ZRO (LayerZero) — $0.721  −4.2% / 7d −14.5% / 1h +0.1%  •  $15M / #137
-7. WIF (dogwifhat) — $0.140  −3.9% / 7d −12.8% / 1h +0.1%  •  $27M / #203
-8. LDO (Lido DAO) — $0.326  −2.9% / 7d −12.6% / 1h −2.0%  •  $25M / #131
-9. APE (ApeCoin) — $0.130  −2.5% / 7d −11.0% / 1h −0.4%  •  $9.2M / #213
-10. SAND (The Sandbox) — $0.0418  −2.2% / 7d −7.5% / 1h −0.5%  •  $6.9M / #242
+1. BEAT (Audiera) — $4.13  −10.5% / 7d +17.2% / 1h −0.8%  •  $55M / #57
+2. STABLE (Stable) — $0.0315  −6.1% / 7d −17.3% / 1h −0.5%  •  $7.9M / #77
+3. QNT (Quant) — $60.78  −2.7% / 7d −3.8% / 1h −0.1%  •  $6.3M / #72
+4. KAS (Kaspa) — $0.02671  −1.5% / 7d −7.3% / 1h −0.5%  •  $6.0M / #80
+5. BDX (Beldex) — $0.0822  −1.4% / 7d −0.7% / 1h +0.1%  •  $14M / #87
+6. CC (Canton) — $0.1162  −1.3% / 7d −5.6% / 1h −0.2%  •  $6.1M / #22
+7. HYPE (Hyperliquid) — $51.49  −1.2% / 7d −12.8% / 1h −0.4%  •  $239M / #10  [TRENDING+DOWN][MAJOR]
+8. VVV (Venice Token) — $11.60  −1.2% / 7d −19.6% / 1h −0.4%  •  $8.6M / #93
+9. TAO (Bittensor) — $192.51  −1.1% / 7d −2.0% / 1h −0.2%  •  $75M / #42
+10. MORPHO (Morpho) — $1.94  −1.1% / 7d +1.9% / 1h −0.2%  •  $11M / #58
 
 *Trending*
-1. CATE (Catecoin) — #861, $0.0180, 24h +126.7%
-2. ANSEM (The Black Bull) — #274, $0.216, 24h +20.3%
-3. ONDO (Ondo) — #41, $0.392, 24h +1.6%
-4. PENGU (Pudgy Penguins) — #111, $0.00606, 24h +1.7%
-5. PUMP (Pump.fun) — #74, $0.00218, 24h −0.1%
-6. PI (Pi Network) — #67, $0.0864, 24h −0.1%
-7. BTC (Bitcoin) — #1, $63,433, 24h +0.6%
+1. CATE (Catecoin) — #800, $0.0199, +105.9%  [MICROCAP]
+2. BTC (Bitcoin) — #1, $63,151, +0.2%
+3. SLX (Solstice) — #785, $0.0831, −0.8%  [MICROCAP]
+4. PEPE (Pepe) — #59, $0.0000029, +5.1%  [TRENDING+UP]
+5. ADA (Cardano) — #16, $0.1892, +9.2%  [TRENDING+UP]
+6. PI (Pi Network) — #67, $0.0860, −0.8%
+7. HYPE (Hyperliquid) — #10, $51.33, −1.7%  [TRENDING+DOWN]
 
 *Notable*
-• UAI: #217 up 39% / 7d +62% — [PUMP-RISK], mid-cap continuation with high manipulation probability
-• META: #205 up 17.7% / 7d +45.7% — confirmed [BREAKOUT], two-day sustained momentum
-• BTW: #167 down 23.4% after 7d +19% — prior pump reversing hard
-• BEAT: yesterday's top winner (+15.7% [BREAKOUT]) fully reversed to −10.5% — fast-pump fade
-• CATE: trending #1 at +126.7% (rank #861, outside top-250 scope) — pump-risk in trending feed
+• ADA [TRENDING+UP][MAJOR]: sustaining L1 breakout — third session of gains with 7d +14.2%; structural move, not a one-day bounce.
+• PEPE [TRENDING+UP]: meme rotation continues; 7d still −1.9% so strength is 24h-only — watch for follow-through.
+• HYPE [TRENDING+DOWN][MAJOR]: #10 coin at −12.8% 7d while search interest holds — distribution-into-trending-searches pattern.
+• BEAT: pump-fade complete — reversed from yesterday +15.7% to −10.5% today; 7d still +17.2% but momentum is gone.
