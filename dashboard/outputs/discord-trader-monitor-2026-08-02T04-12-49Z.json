@@ -1,0 +1,46 @@
+{
+  "root": "card_1",
+  "state": {},
+  "elements": {
+    "card_1": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "badge_1",
+        "tweet_1",
+        "sep_1",
+        "context_1"
+      ]
+    },
+    "badge_1": {
+      "type": "Badge",
+      "props": {
+        "text": "DC: HCH — Free",
+        "variant": "outline"
+      }
+    },
+    "tweet_1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HCH",
+        "handle": "DC",
+        "text": "Too many people lost themselves in 62k-63k?"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_1": {
+      "type": "Text",
+      "props": {
+        "text": "Market psychology observation on 62k-63k support zone — skepticism about over-leverage at key support level. FixTweet context referenced.",
+        "variant": "muted"
+      }
+    }
+  }
+}
