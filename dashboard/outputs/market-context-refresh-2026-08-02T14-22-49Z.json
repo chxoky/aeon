@@ -1,0 +1,209 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "market context — 2026-08-02 (refresh 3)"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "take-section",
+        "prices-section",
+        "metrics-section",
+        "narratives-section",
+        "hot-market-section"
+      ]
+    },
+    "take-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "label-take",
+        "badge-chop",
+        "badge-conviction"
+      ]
+    },
+    "label-take": {
+      "type": "Text",
+      "props": {
+        "text": "take:",
+        "variant": "muted"
+      }
+    },
+    "badge-chop": {
+      "type": "Badge",
+      "props": {
+        "text": "chop"
+      }
+    },
+    "badge-conviction": {
+      "type": "Badge",
+      "props": {
+        "text": "conviction low",
+        "variant": "secondary"
+      }
+    },
+    "prices-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "btc-stat",
+        "eth-stat"
+      ]
+    },
+    "btc-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$63,031",
+        "delta": "+0.01%",
+        "trend": "up"
+      }
+    },
+    "eth-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$1,854",
+        "delta": "−0.78%",
+        "trend": "down"
+      }
+    },
+    "metrics-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "fg-stat",
+        "breadth-progress",
+        "dex-vol"
+      ]
+    },
+    "fg-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "F&G",
+        "value": "27",
+        "delta": "Fear"
+      }
+    },
+    "breadth-progress": {
+      "type": "Progress",
+      "props": {
+        "value": 10,
+        "max": 20,
+        "label": "Breadth"
+      }
+    },
+    "dex-vol": {
+      "type": "Stat",
+      "props": {
+        "label": "DEX volume",
+        "value": "$4.7B",
+        "delta": "−34% vs Aug 1 peak",
+        "trend": "down"
+      }
+    },
+    "narratives-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "narratives-label",
+        "narratives-badges"
+      ]
+    },
+    "narratives-label": {
+      "type": "Text",
+      "props": {
+        "text": "top narrative:",
+        "variant": "muted"
+      }
+    },
+    "narratives-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-ada",
+        "badge-rising",
+        "badge-defi"
+      ]
+    },
+    "badge-ada": {
+      "type": "Badge",
+      "props": {
+        "text": "ADA breakout"
+      }
+    },
+    "badge-rising": {
+      "type": "Badge",
+      "props": {
+        "text": "rising",
+        "variant": "secondary"
+      }
+    },
+    "badge-defi": {
+      "type": "Badge",
+      "props": {
+        "text": "DeFi rotation emerging"
+      }
+    },
+    "hot-market-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "hot-market-label",
+        "hot-market-question",
+        "odds-progress"
+      ]
+    },
+    "hot-market-label": {
+      "type": "Text",
+      "props": {
+        "text": "hot market:",
+        "variant": "muted"
+      }
+    },
+    "hot-market-question": {
+      "type": "Text",
+      "props": {
+        "text": "US×Iran ceasefire by Jul 31?"
+      }
+    },
+    "odds-progress": {
+      "type": "Progress",
+      "props": {
+        "value": 51,
+        "max": 100,
+        "label": "YES 51%"
+      }
+    }
+  }
+}
