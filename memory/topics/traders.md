@@ -1,3 +1,13 @@
+## abetrade
+- Platforms: X (primary; X-only, no Discord presence)
+- Current open positions: None announced yet (first event)
+- Recent thesis: Options structure analysis on SPCX. IV overpricing relative to realized volatility. Term structure backwardation thesis. Calendar spread strategy (long forward vol) = tactical neutral positioning exploiting vol term premium decay.
+- Conviction notes: First appearance; sophisticated options trader with detailed vol/term structure analysis. Sharing trade ideas/setups rather than personal execution announcements. Chart-heavy analysis (4 images: term curve, forward factors, daily price action, P&L diagram).
+- Calibration: None yet
+- Last seen: 2026-08-03T17:28:55Z
+- **Events (rolling):**
+  - Aug 03 17:28Z — informational: SPCX options structure analysis; IV ~110% vs realized ~50%; term structure backwardated (favorable for short forward vol); trade idea: long calendar (sell Sep straddle, buy Oct straddle at same strike); max profit $1726, max loss -$548, breakeven $88/$145; profitable in ~20% range over 1mo; short gamma into first earnings, long vega back month; wants SPCX stable to Sep expiration. 4 charts: term structure curve, forward factors, daily price action ($225→$109 crash from IPO top), P&L payoff diagram. NOT announcing personal execution; sharing analysis/trade setup. Alerted Kyle. [$SPCX] [2084330687797100627]
+
 ## Crypto_Chase
 - Platforms: Discord (primary: 1336082716063694962; supporting: 1343971265962049597, 1247927786681794601) + X
 - Current open positions: SNDK DCA ~$980 (Jul 29; pending Kyle approval, adding toward high 800s). MU DCA ~$700 (Jul 29; pending Kyle approval, adding toward $600). 10% MU core from prior position (SL B/E, ~$820 entry). LPTH 50% lottery ticket (held since Jun 30). ES LONG active since Jun 21.
