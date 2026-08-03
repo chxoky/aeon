@@ -1,0 +1,68 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-card",
+        "separator-1",
+        "eth-stat",
+        "analysis-text",
+        "separator-2",
+        "view-link"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "@HeartCanHodl",
+        "text": "Spike in flows ⏳\n\nBitcoin Spot ETF: Weekly net inflows spike visible (as of Jul 31)\nEthereum Spot ETF: Weekly net inflows +$27.42M"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "eth-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Ethereum Spot ETF Weekly Inflows",
+        "value": "+$27.42M",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "analysis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Structural bullish signal: Major institutional flows entering BTC/ETH aligning with HCH's net-long regime shift (Aug 01-02). Validates group bullish conviction on crypto recovery.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/HeartCanHodl/status/2084275123998298529"
+      },
+      "children": []
+    }
+  }
+}

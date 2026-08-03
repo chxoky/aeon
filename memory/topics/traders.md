@@ -186,7 +186,7 @@
 - Calibration: PENDING Aug 02 16:51Z ("Loracle" image X post — asset unclear). RESOLVED: "Fc" pattern = false-close TA check, not trade signal. RESOLVED: SPCX "enjoying some longs" = confirmed position flip Aug 02.
 - Last seen: 2026-08-03T11:42:01Z (X post — ZEC chart + "LGW", calibration alert sent)
 - Calibration: PENDING Aug 03 11:43Z (X link-only post + 2 unfetchable images — asset/topic unclear). PENDING Aug 02 16:51Z ("Loracle" image X post — asset unclear). RESOLVED: "Fc" pattern = false-close TA check, not trade signal. RESOLVED: SPCX "enjoying some longs" = confirmed position flip Aug 02.
-- Last seen: 2026-08-03T12:09:05Z (Discord Chat — risk management philosophy)
+- Last seen: 2026-08-03T13:48:08Z (X post — BTC/ETH ETF inflow spike)
 - **Events (rolling):**
   - Jul 31 12:29Z — trade-partial-tp: HYPE/SOL/ZEC -2% each short cover [1532726959908327526]
   - Jul 31 12:30Z — trade-partial-tp: SHIB/KAITO -1% each short cover [1532727081736208586]
@@ -235,6 +235,7 @@
   - Aug 03 11:59Z — ambiguous: X reply to @24_gutta "All i can say is that this area is worth having your favourite entries ;)" — cryptic price-area reference, no ticker/level specified; reply-dependent context; calibration alert sent to Kyle per HR-2 protocol [2084247784354681131]
   - Aug 03 12:09Z — informational: Discord Chat supporting channel; risk management philosophy "Don't go all in one clip high leverage"; generic wisdom/guidance, not personal position update; silent log per supporting-channel protocol [1533808927916163082]
   - Aug 03 13:20Z — skip: "Fc btc 4hr" — 9th Fc pattern (false-close chart check, 4-hour timeframe); established calibration per Step 5B protocol; silent log, no alert [1533826920817492152]
+  - Aug 03 13:48Z — informational: BTC/ETH ETF inflows spike; validates bullish regime shift (HCH +5-7.5% longs Aug 01-03); structural flows support group conviction [2084275123998298529]
 
 ## Stoiiic
 - Platforms: X (primary; X-only, no Discord presence)

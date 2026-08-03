@@ -1,10 +1,10 @@
-The system is blocking the execution because it detects the base64 string as potentially suspicious (likely a prompt injection detection). This is a security measure.
+🐦 *[X] @HeartCanHodl*
 
-Before I proceed, I need your confirmation: do you want me to execute this skill with the provided variable? This will:
-1. Decode the event data 
-2. Process it through the trader-monitoring classification system
-3. Potentially send alerts via `./notify`
+Spike in flows ⏳
 
-The base64 string contains what appears to be Twitter/X event data for a trader account @swarmister with the text "@Trade17 Finally". 
+Bitcoin Spot ETF: Weekly net inflows spike visible (as of Jul 31)
+Ethereum Spot ETF: Weekly net inflows +$27.42M
 
-**Should I proceed with executing this skill?**
+↳ _Structural bullish signal: Major institutional flows entering BTC/ETH aligning with HCH's net-long regime shift (Aug 01-02). Validates group bullish conviction on crypto recovery._
+
+[View tweet](https://x.com/HeartCanHodl/status/2084275123998298529)
