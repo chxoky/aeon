@@ -1,42 +1,40 @@
-*Token Movers — Aug 3, 2026*
+*Token Movers — 2026-08-03*
 
-_Broad risk-off — 21/100 top coins green, median 24h −1.2%; deep losses in mid-caps, majors flat to down._
+_Risk-off — majority of top-100 coins red; BTC/ETH flat-to-down ~0.5% while scattered mid-caps post isolated gains._
 
 *Top Winners (24h)*
-1. H (Humanity) — $0.07665  +11.4% / 7d +27.0% / 1h +2.4%  •  $8.1M / #192
-2. PIEVERSE (Pieverse) — $0.802  +11.1% / 7d +15.1% / 1h +0.2%  •  $17.8M / #148
-3. M (MemeCore) — $1.21  +10.0% / 7d +0.2% / 1h +0.3%  •  $9.4M / #48
-4. HOLO (Holoworld) — $0.06959  +9.3% / 7d −1.8% / 1h +1.0%  •  $6.5M / #409
-5. BTW (Bitway) — $0.08955  +5.9% / 7d −4.1% / 1h +0.6%  •  $15.9M / #161
-6. XCN (Onyxcoin) — $0.003175  +5.6% / 7d −10.0% / 1h −0.7%  •  $9.5M / #219
-7. US (Talus) — $0.04903  +5.4% / 7d +1.4% / 1h −2.0%  •  $7.4M / #199
-8. ALGO (Algorand) — $0.08414  +5.0% / 7d 0.0% / 1h +0.2%  •  $36.8M / #79
-9. B (BUILDon) — $0.1631  +3.0% / 7d −15.4% / 1h −2.0%  •  $4.2M / #179
-10. ULTIMA (Ultima) — $2467  +2.5% / 7d +8.7% / 1h +0.1%  •  $3.6M / #155
+1. UB (Unibase) — $0.1833  +31.9% / 7d +37.7% / 1h +1.1%  •  $17.6M / #104  [BREAKOUT]
+2. US (Talus) — $0.0545  +6.7% / 7d +20.0% / 1h -0.1%  •  $7.3M / #185
+3. ALGO (Algorand) — $0.0867  +5.4% / 7d +4.8% / 1h -0.4%  •  $40.3M / #79
+4. ENA (Ethena) — $0.0928  +4.8% / 7d +2.8% / 1h +1.9%  •  $136M / #72  [TRENDING+UP]
+5. HYPE (Hyperliquid) — $53.55  +4.0% / 7d -10.3% / 1h +1.4%  •  $254M / #10  [TRENDING+UP] [MAJOR]
+6. ZEC (Zcash) — $493  +4.0% / 7d -1.7% / 1h +2.0%  •  $213M / #15  [MAJOR]
+7. DOT (Polkadot) — $0.8264  +4.0% / 7d +2.4% / 1h +1.9%  •  $81.2M / #53
+8. NEXO (Nexo) — $0.7363  +3.2% / 7d +0.9% / 1h +0.4%  •  $3.2M / #80
+9. ATOM (Cosmos Hub) — $1.29  +2.9% / 7d -6.2% / 1h +1.2%  •  $23.3M / #85
+10. LIT (Lighter) — $2.12  +2.8% / 7d -6.8% / 1h +1.8%  •  $20.3M / #96
 
 *Top Losers (24h)*
-1. KAITO (KAITO) — $0.990  −16.3% / 7d −16.8% / 1h +1.3%  •  $64.6M / #144  [CAPITULATION]
-2. BEAT (Audiera) — $3.29  −16.0% / 7d −8.2% / 1h −8.4%  •  $40.9M / #65
-3. META (MetaDAO) — $5.21  −13.7% / 7d +24.5% / 1h −0.4%  •  $7.7M / #229
-4. 币安人生 (BinanceLife) — $0.545  −11.8% / 7d −14.3% / 1h −1.6%  •  $11.9M / #94
-5. APR (aPriori) — $0.2093  −8.3% / 7d +0.9% / 1h +0.9%  •  $2.4M / #375
-6. BTSE (BTSE Token) — $0.8938  −5.6% / 7d +3.9% / 1h 0.0%  •  $2.7M / #198
-7. ONDO (Ondo) — $0.3700  −5.5% / 7d −9.8% / 1h +0.9%  •  $99.8M / #43  [TRENDING+DOWN]
-8. GRASS (Grass) — $0.3117  −5.1% / 7d −10.6% / 1h −0.7%  •  $9.0M / #158
-9. CARDS (Collector Crypt) — $0.1388  −4.7% / 7d +21.5% / 1h −1.5%  •  $1.1M / #542
-10. CFX (Conflux) — $0.04079  −4.6% / 7d −8.2% / 1h −0.3%  •  $4.9M / #152
+1. BEAT (Audiera) — $3.15  -21.1% / 7d -25.2% / 1h -2.9%  •  $9.2M / #65
+2. BLIFE (BinanceLife) — $0.5409  -9.3% / 7d -13.7% / 1h +0.3%  •  $12.8M / #94
+3. PI (Pi Network) — $0.0830  -3.6% / 7d +1.9% / 1h +0.6%  •  $5.9M / #69
+4. BGT (Bitget Token) — $1.58  -3.0% / 7d -6.6% / 1h +0.1%  •  $8.6M / #62
+5. WLFI (World Liberty Financial) — $0.0545  -2.9% / 7d -0.5% / 1h +0.1%  •  $20.1M / #45
+6. M (MemeCore) — $1.15  -2.8% / 7d -5.7% / 1h -0.6%  •  $8.1M / #49
+7. SHIB (Shiba Inu) — $0.000005  -2.2% / 7d -1.9% / 1h +1.0%  •  $83.8M / #31
+8. ONDO (Ondo Finance) — $0.3767  -2.1% / 7d -8.2% / 1h +0.9%  •  $103M / #41
+9. KAS (Kaspa) — $0.02616  -2.0% / 7d -10.3% / 1h +0.1%  •  $8.4M / #81
 
 *Trending*
-1. BLESS (Bless) — #572, $0.01794, +30.9%  [PUMP-RISK]
-2. PENGU (Pudgy Penguins) — #111, $0.006051, −0.7%
-3. GRVT (GRVT Token) — #584, $0.2824, +9.0%
-4. BANK (Lorenzo Protocol) — #826, $0.04301, −12.3%  [TRENDING+DOWN]
-5. ANSEM (The Black Bull) — #283, $0.1995, −8.1%  [TRENDING+DOWN]
-6. ONDO (Ondo) — #42, $0.3706, −5.4%  [TRENDING+DOWN]
-7. PONS (Pons) — #761, $0.02770, +1.6%
+1. HYPE (Hyperliquid) — #10, $53.55, +3.4%  [TRENDING+UP]
+2. GRVT (GRVT Token) — #633, $0.2595, +5.7%  [TRENDING+UP]
+3. PENGU (Pudgy Penguins) — #109, $0.00614, -0.8%  [TRENDING+DOWN]
+4. ETH (Ethereum) — #2, $1,850, -0.2%  [TRENDING+DOWN]
+5. BTC (Bitcoin) — #1, $63,022, -0.1%  [TRENDING+DOWN]
+6. TAO (Bittensor) — #43, $188.7, -2.2%  [TRENDING+DOWN]
+7. CASHCAT (Cash Cat) — #425, $0.04844, +18.9%  [TRENDING+UP] [MICROCAP]
 
 *Notable*
-• BLESS: rank #572 trending at +30.9% — [PUMP-RISK], low-cap spike with no top-250 presence
-• KAITO: #144 down 16.3% on vol/mcap ratio 0.27 — [CAPITULATION] signal confirmed
-• BEAT (Audiera): yesterday's top winner (+15.7% [BREAKOUT]) now −16.0% — full single-session reversal
-• ONDO: 2nd consecutive red day, now [TRENDING+DOWN] while attention rises — divergence watch
+• UB: rank-104 coin +31.9% with 7d +37.7% on $17.6M volume — [BREAKOUT], lone outlier in a flat tape
+• HYPE + ENA: both trending and up 4% in a red market — search interest aligning with price; watch for continuation
+• CASHCAT: trending + up 18.9%, rank 425, mcap $48M — microcap speculative move, no structural signal
