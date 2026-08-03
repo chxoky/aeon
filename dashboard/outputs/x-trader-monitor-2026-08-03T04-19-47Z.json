@@ -1,0 +1,96 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @Wild_Randomness",
+        "description": "Technical analysis on supply/price structure"
+      },
+      "children": [
+        "event-desc",
+        "sep1",
+        "tweet-card",
+        "sep2",
+        "links-stack",
+        "sep3",
+        "alert-classification"
+      ]
+    },
+    "event-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Technical analysis on supply/price structure",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Will be waiting for the first impulsive green candle on supply— could be a clue…"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "links-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "chart-label",
+        "chart-link",
+        "tweet-link"
+      ]
+    },
+    "chart-label": {
+      "type": "Text",
+      "props": {
+        "text": "Chart image:",
+        "variant": "caption"
+      }
+    },
+    "chart-link": {
+      "type": "Link",
+      "props": {
+        "label": "https://pbs.twimg.com/media/HOxR5dOaUAATrg2.jpg",
+        "href": "https://pbs.twimg.com/media/HOxR5dOaUAATrg2.jpg"
+      }
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/Wild_Randomness/status/2084130778964004916"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert-classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification Failed",
+        "message": "Unable to classify — no ticker/asset specified in text. Image fetch failed on server. What's your read on this setup?",
+        "type": "warning"
+      }
+    }
+  }
+}
