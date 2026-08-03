@@ -1,0 +1,69 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X-Trader Monitor"
+      },
+      "children": [
+        "tweet-card",
+        "view-link",
+        "separator-1",
+        "sentiment-section"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "@bull_genius",
+        "text": "@Shishir42069 @swarmister swarmiks is in full anal august mode he is shorting the shit out of bitcoin rn. it could work ngl"
+      },
+      "children": []
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/bull_genius/status/2084304414152503376"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "sentiment-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sentiment-badge",
+        "sentiment-text"
+      ]
+    },
+    "sentiment-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Cross-trader sentiment",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "sentiment-text": {
+      "type": "Text",
+      "props": {
+        "text": "bull_genius observing swarmiter's heavy BTC short positioning. Divergence from group bullish consensus on 62K support hold + institutional inflows. swarmiter's short thesis acknowledged as valid (\"could work\") but contrarian within emerging bullish group.",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
