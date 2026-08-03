@@ -1,0 +1,74 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet",
+        "sep",
+        "stats",
+        "context",
+        "link"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Gold/Bitcoin ratio hit multi-year lows at 63.964 (down -0.67% 29d 4h). Ratio crashed from ~240 (2020) → 63.964 current, showing sustained BTC structural outperformance vs gold across the cycle."
+      }
+    },
+    "sep": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stats": {
+      "type": "Stat",
+      "props": {
+        "label": "Gold/Bitcoin Ratio",
+        "value": "63.964",
+        "delta": "-0.67%",
+        "trend": "down"
+      }
+    },
+    "context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ctx_period",
+        "ctx_history"
+      ]
+    },
+    "ctx_period": {
+      "type": "Text",
+      "props": {
+        "text": "Change measured over 29 days 4 hours",
+        "variant": "caption"
+      }
+    },
+    "ctx_history": {
+      "type": "Text",
+      "props": {
+        "text": "Historical: crashed from ~240 (2020) to 63.964 (current), indicating sustained BTC structural outperformance vs gold across the cycle",
+        "variant": "body"
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2084144546691309878"
+      }
+    }
+  }
+}
