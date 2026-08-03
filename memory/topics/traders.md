@@ -184,6 +184,8 @@
 - Conviction notes: Disciplined portfolio architect. %-of-portfolio sizing literal and trackable. "Fc {ticker} {tf}" = false-close chart check (8th occurrence Aug 02 16:50Z Fc hype 1hr); established calibration, no alert needed. SPCX spot long represents bottom-fishing after prior strong short (big winner). Primary Trades channel = high conviction; supporting Chat = context/philosophy.
 - Calibration: PENDING Aug 02 16:51Z ("Loracle" image X post — asset unclear). RESOLVED: "Fc" pattern = false-close TA check, not trade signal. RESOLVED: SPCX "enjoying some longs" = confirmed position flip Aug 02.
 - Last seen: 2026-08-03T11:42:01Z (X post — ZEC chart + "LGW", calibration alert sent)
+- Calibration: PENDING Aug 03 11:43Z (X link-only post + 2 unfetchable images — asset/topic unclear). PENDING Aug 02 16:51Z ("Loracle" image X post — asset unclear). RESOLVED: "Fc" pattern = false-close TA check, not trade signal. RESOLVED: SPCX "enjoying some longs" = confirmed position flip Aug 02.
+- Last seen: 2026-08-03T11:43:18Z (X link-only + image post — calibration pending)
 - **Events (rolling):**
   - Jul 31 12:29Z — trade-partial-tp: HYPE/SOL/ZEC -2% each short cover [1532726959908327526]
   - Jul 31 12:30Z — trade-partial-tp: SHIB/KAITO -1% each short cover [1532727081736208586]
@@ -227,6 +229,7 @@
   - Aug 03 10:43Z — informational: BTC 62k support holding as positive signal; TA/seasonality bearish + multiple FUDs (Saylor selling, cold card exploit, quantum fears) = perfect setup for "scam PA to the upside"; macro sentiment analysis on contrarian technical structure; fast-path alerted [1533787297944961114]
   - Aug 03 10:48Z — skip: URL-only X link share (https://x.com/i/status/2084229304049959421) in HCH-Free primary channel; no financial content; silent log per protocol [1533788593108029441]
   - Aug 03 11:42Z — ambiguous: ZEC chart + "LGW" (cryptic abbreviation); 1h BINANCE consolidation 482-496 w/ support 479.50/470.74, timestamp marker at 482.48; chart-readable but action unclear (confirmation vs new long?); cross-platform dedup: matching Discord image-only post 11:06Z (topic unknown, 36min prior); calibration alert sent per HR-2 [2084243388346552640]
+  - Aug 03 11:43Z — ambiguous: X post link-only "https://t.co/aIqxBMYeDZ" + 2 images (media fetch failed); unable to determine topic/asset; calibration alert sent [2084243710695653859]
 
 ## Stoiiic
 - Platforms: X (primary; X-only, no Discord presence)

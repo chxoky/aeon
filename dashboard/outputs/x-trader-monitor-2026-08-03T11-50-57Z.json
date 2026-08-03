@@ -1,0 +1,87 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading",
+        "event_text",
+        "sep1",
+        "post_content",
+        "sep2",
+        "question",
+        "view_link"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @HeartCanHodl",
+        "level": "h2"
+      }
+    },
+    "event_text": {
+      "type": "Text",
+      "props": {
+        "text": "Event: X post with 2 images (media failed to fetch), text is only a shortened link",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "post_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "post_author",
+        "post_text"
+      ]
+    },
+    "post_author": {
+      "type": "Text",
+      "props": {
+        "text": "HeartCanHodl",
+        "variant": "muted"
+      }
+    },
+    "post_text": {
+      "type": "Link",
+      "props": {
+        "label": "https://t.co/aIqxBMYeDZ",
+        "href": "https://t.co/aIqxBMYeDZ"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "question": {
+      "type": "Alert",
+      "props": {
+        "message": "Unable to classify — what's your read?",
+        "type": "info"
+      }
+    },
+    "view_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View post",
+        "href": "https://x.com/HeartCanHodl/status/2084243710695653859",
+        "source": "X"
+      }
+    }
+  }
+}
