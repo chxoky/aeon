@@ -1,0 +1,97 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "alert_calibration",
+        "sep1",
+        "tweet_msg",
+        "sep2",
+        "context_unclear"
+      ]
+    },
+    "alert_calibration": {
+      "type": "Alert",
+      "props": {
+        "title": "🔍 Calibration",
+        "message": "Discord: HCH Chat Channel",
+        "type": "info"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet_msg": {
+      "type": "TweetCard",
+      "props": {
+        "author": "heartcanhodl",
+        "text": "but covered in this dip and flipped"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_unclear": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_context",
+        "questions"
+      ]
+    },
+    "heading_context": {
+      "type": "Heading",
+      "props": {
+        "text": "Context unclear — action needed",
+        "level": "h3"
+      }
+    },
+    "questions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "q1",
+        "q2",
+        "q3"
+      ]
+    },
+    "q1": {
+      "type": "Text",
+      "props": {
+        "text": "What was covered and flipped?",
+        "variant": "muted"
+      }
+    },
+    "q2": {
+      "type": "Text",
+      "props": {
+        "text": "Which asset/ticker?",
+        "variant": "muted"
+      }
+    },
+    "q3": {
+      "type": "Text",
+      "props": {
+        "text": "Action needed?",
+        "variant": "muted"
+      }
+    }
+  }
+}

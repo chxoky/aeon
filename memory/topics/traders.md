@@ -185,8 +185,8 @@
 - Conviction notes: Disciplined portfolio architect. %-of-portfolio sizing literal and trackable. "Fc {ticker} {tf}" = false-close chart check (8th occurrence Aug 02 16:50Z Fc hype 1hr); established calibration, no alert needed. SPCX spot long represents bottom-fishing after prior strong short (big winner). Primary Trades channel = high conviction; supporting Chat = context/philosophy.
 - Calibration: PENDING Aug 02 16:51Z ("Loracle" image X post — asset unclear). RESOLVED: "Fc" pattern = false-close TA check, not trade signal. RESOLVED: SPCX "enjoying some longs" = confirmed position flip Aug 02.
 - Last seen: 2026-08-03T11:42:01Z (X post — ZEC chart + "LGW", calibration alert sent)
-- Calibration: PENDING Aug 03 11:43Z (X link-only post + 2 unfetchable images — asset/topic unclear). PENDING Aug 02 16:51Z ("Loracle" image X post — asset unclear). RESOLVED: "Fc" pattern = false-close TA check, not trade signal. RESOLVED: SPCX "enjoying some longs" = confirmed position flip Aug 02.
-- Last seen: 2026-08-03T13:48:08Z (X post — BTC/ETH ETF inflow spike)
+- Calibration: PENDING Aug 03 14:20Z (Discord Chat "but covered in this dip and flipped" — cryptic fragment, asset unclear, action ambiguous). PENDING Aug 03 11:43Z (X link-only post + 2 unfetchable images — asset/topic unclear). PENDING Aug 02 16:51Z ("Loracle" image X post — asset unclear). RESOLVED: "Fc" pattern = false-close TA check, not trade signal. RESOLVED: SPCX "enjoying some longs" = confirmed position flip Aug 02.
+- Last seen: 2026-08-03T14:20:34Z (Discord Chat — cryptic "covered in this dip and flipped" fragment)
 - **Events (rolling):**
   - Jul 31 12:29Z — trade-partial-tp: HYPE/SOL/ZEC -2% each short cover [1532726959908327526]
   - Jul 31 12:30Z — trade-partial-tp: SHIB/KAITO -1% each short cover [1532727081736208586]
@@ -238,6 +238,7 @@
   - Aug 03 13:48Z — informational: BTC/ETH ETF inflows spike; validates bullish regime shift (HCH +5-7.5% longs Aug 01-03); structural flows support group conviction [2084275123998298529]
   - Aug 03 14:00Z — informational-conviction: "3 dip-buying opportunities since ~august start" all taken; BTC 1h chart (Binance) showing support zones 63150/62275/62300; retrospective summary validating disciplined Aug 1-3 accumulation thesis [2084278272536568248]
   - Aug 03 14:09Z — informational: ZEC chart + "LGW" share to @5morewhooppers; mechanical repeat of 11:42Z analysis; no new detail [2084280605207134222]
+  - Aug 03 14:20Z — ambiguous: Discord Chat supporting channel "but covered in this dip and flipped" — cryptic fragment, asset/action unclear; calibration alert sent to Kyle [1533842018810462268]
 
 ## Stoiiic
 - Platforms: X (primary; X-only, no Discord presence)
