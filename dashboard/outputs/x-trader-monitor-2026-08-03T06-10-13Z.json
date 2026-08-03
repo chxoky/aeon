@@ -1,0 +1,44 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "BTC Cycle Analysis",
+        "description": "Educational framework on drawdown stages and buying windows"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet",
+        "link"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "Stoiiic",
+        "text": "BTC Cycle Analysis — Educational framework on drawdown stages and buying windows. Current -50% mid-cycle. Historical lows -77%-84%. Thesis: buying zone within 30-50% of eventual low stays open for months. Reinforces \"further downside likely\" macro lean. No personal trade action."
+      },
+      "children": []
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View original post",
+        "href": "https://x.com/Stoiiic/status/2084157402748682326"
+      },
+      "children": []
+    }
+  }
+}

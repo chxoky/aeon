@@ -233,6 +233,18 @@
   - Jul 31 17:01Z — informational: "BTC will lull you to sleep next month or two"; choppy range-bound thesis [2083236570794963291]
   - Aug 01 07:00Z — informational: "longer you stay on wrong train" — market philosophy; resolved as non-trade-signal [2083447725706887179]
   - Aug 03 06:00Z — informational: crypto asset maturation framework; BTC 1.5x-10x (muted-historical); alts 2x-50x; selection critical for outperformance; window narrowing on multi-x opportunities [2084157426962407446]
+- Recent thesis: BTC H4 technical structure — 7D/30D VWAP compressing (volatility horizon), 65K reclaim = interim pivot for upside, 60K unravels if 30D + prev week low breaks. "BTC will lull you to sleep in the next 1-2 months" — choppy/boring range-bound action expected.
+- Conviction notes: Heavy CVD/TPO/AMT/VWAP language. Chart-driven technical observations; educational focus; BTC order book analysis (1.3K BTC buy wall at 64K flat Jul 31). About half of posts non-financial.
+- Calibration: PENDING Aug 01 07:00Z — "longer you stay on wrong train, more expensive to get home" — metaphorical market commentary or personal philosophy?
+- Last seen: 2026-08-03T06:00:21Z (BTC cycle analysis framework)
+- **Events (rolling):**
+  - Aug 03 06:00Z — informational: BTC cycle analysis framework — current -50% drawdown (mid-cycle), historical cycle lows -77%-84%, buying window within 30-50% of eventual low stays open months. Reinforces "further downside likely" macro narrative; aligns with group bear thesis. Educational chart-driven content, no personal action [2084157402748682326]
+  - Aug 01 07:00Z — ambiguous: "longer you stay on wrong train, more expensive to get home" — calibration pending [2083447725706887179]
+  - Jul 31 17:01Z — informational: "BTC will lull you to sleep next month or two"; choppy range-bound thesis [2083236570794963291]
+  - Jul 31 07:13Z — informational: "agreed in no mans lands for now" — neutral zone, no directional bias [2083088750100504985]
+  - Jul 31 07:00Z — informational: BTC H4 — 7D/30D VWAP compressing; 65K reclaim pivot; 60K breakdown risk [2083085256932884484]
+  - Jul 31 06:01Z — informational: BTC H4 educational; TPO/VWAP/composite methodology; real-time breakdown [2083070520619090388]
+  - Jul 31 00:56Z — informational: BTC order book; unusual volume at 64,000/63,900; "reveal yourself" metaphor [2082993813115605364]
 
 ## bull_genius
 - Platforms: X (primary; X-only, no Discord presence)
