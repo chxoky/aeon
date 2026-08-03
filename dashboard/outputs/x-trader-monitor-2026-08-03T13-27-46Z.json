@@ -1,0 +1,71 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "sep1",
+        "disclosure_text",
+        "sep2",
+        "cross_ref_text",
+        "link_tweet"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "@bull_genius",
+        "text": "FWA protocol sentiment: v4 hook meta momentum momentum may not hold long-term (14-day window). Stonkbroker comparison shows FWA's 'token gacha' positioning is narrower vs larger product suite."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "disclosure_text": {
+      "type": "Text",
+      "props": {
+        "text": "Trader disclosure: holding FWA from prior entry ('spun fair part'), cautiously optimistic.",
+        "variant": "muted"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "cross_ref_text": {
+      "type": "Text",
+      "props": {
+        "text": "Cross-reference: Aug 03 08:32Z deeper FWA protocol economics analysis (LP mechanics, rake strategy)",
+        "variant": "caption"
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/bull_genius/status/2084268859255562375"
+      }
+    }
+  }
+}
