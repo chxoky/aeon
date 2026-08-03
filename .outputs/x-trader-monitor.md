@@ -25,3 +25,10 @@ I also believe that 61k will be the bottom, and I'll be looking for long positio
 ---
 
 Chart shows orange POI zone at ~63k, downside targets at 61.5k/61.3k/61k with structure recovery potential to 65k noted.
+🔍 *Calibration — @swarmister*
+
+Event: Reply to @JFP_XBT discussing "an idea" + "corrections"
+
+@swarmister: "I like that idea, but I think we'll make some corrections first."
+
+Unable to classify — what's your read? (Reply-dependent context; original @JFP_XBT post not visible)
