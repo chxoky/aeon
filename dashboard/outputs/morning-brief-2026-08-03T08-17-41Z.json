@@ -1,0 +1,344 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — Aug 3, 2026"
+      },
+      "children": [
+        "section-focus",
+        "sep1",
+        "section-since",
+        "sep2",
+        "section-watch",
+        "sep3",
+        "section-running"
+      ]
+    },
+    "section-focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus-heading",
+        "focus-item-1",
+        "focus-item-2",
+        "focus-item-3"
+      ]
+    },
+    "focus-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "focus-item-1": {
+      "type": "Text",
+      "props": {
+        "text": "1. HCH +8% deployed into longs this AM (02:02–06:45 UTC) — why now: mirror window open; risk-off day narrows entry timing",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "focus-item-2": {
+      "type": "Text",
+      "props": {
+        "text": "2. 3-bear macro convergence vs HCH net-long regime — why now: CLARITY Act vote Aug 5–7 may resolve which thesis wins",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "focus-item-3": {
+      "type": "Text",
+      "props": {
+        "text": "3. Calibration backlog: WR \"supply candle\" (04:14) + swarmister \"Fake\" (Aug 2) — why now: 2+ days stale, baseline drift risk grows",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-since": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "since-heading",
+        "since-item-1",
+        "since-item-2",
+        "since-item-3",
+        "since-item-4",
+        "since-item-5"
+      ]
+    },
+    "since-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "since-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-moved-1",
+        "text-since-1"
+      ]
+    },
+    "badge-moved-1": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text-since-1": {
+      "type": "Text",
+      "props": {
+        "text": "HCH systematic accumulation: TAO/STABLE/ASTS (02:02), LIT/PUMP (02:18), ETH+SOL +5% (06:45) — ~52% portfolio deployed long",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "since-item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-moved-2",
+        "text-since-2"
+      ]
+    },
+    "badge-moved-2": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text-since-2": {
+      "type": "Text",
+      "props": {
+        "text": "Wild_Randomness: 5 macro bear posts in 12h — DVOL extremes, stablecoin bleed ~$1B/wk, Jump-the-Shark thesis consistent and escalating",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "since-item-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-moved-3",
+        "text-since-3"
+      ]
+    },
+    "badge-moved-3": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text-since-3": {
+      "type": "Text",
+      "props": {
+        "text": "Stoiiic + Bitcoin_Astro convergence: BTC -50% from ATH, historical lows -77–84%; Aug 12 solar eclipse flagged as timing catalyst",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "since-item-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-moved-4",
+        "text-since-4"
+      ]
+    },
+    "badge-moved-4": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text-since-4": {
+      "type": "Text",
+      "props": {
+        "text": "trader-memory-compact ran (bc1cb3c) — baseline rebuilt Jul 23–Aug 2; traders.md compressed 4.6x",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "since-item-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-stuck",
+        "text-since-5"
+      ]
+    },
+    "badge-stuck": {
+      "type": "Badge",
+      "props": {
+        "text": "stuck",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "text-since-5": {
+      "type": "Text",
+      "props": {
+        "text": "swarmister signal pattern: \"Fake,\" \"Fak noctu\" Aug 2–3 — calibration responses outstanding; low signal-to-noise persists",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "watch-heading",
+        "watch-item-1",
+        "watch-item-2"
+      ]
+    },
+    "watch-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "watch-item-1": {
+      "type": "Text",
+      "props": {
+        "text": "CLARITY Act vote Aug 5–7 + NFP Aug 7 — two macro catalysts in 4 days; could break BTC out of consolidation range in either direction",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "watch-item-2": {
+      "type": "Text",
+      "props": {
+        "text": "Bitcoin_Astro: Aug 12 solar eclipse as key timing window — 9 days; historical precedent for turning points weeks around eclipse date",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "running-heading",
+        "running-item-1",
+        "running-item-2",
+        "running-item-3",
+        "running-item-4",
+        "running-item-5"
+      ]
+    },
+    "running-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "running-item-1": {
+      "type": "Text",
+      "props": {
+        "text": "token-alert @ 12:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "running-item-2": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "running-item-3": {
+      "type": "Text",
+      "props": {
+        "text": "market-context-refresh @ 13:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "running-item-4": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "running-item-5": {
+      "type": "Text",
+      "props": {
+        "text": "x-trader-monitor / discord-trader-monitor (continuous)",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
