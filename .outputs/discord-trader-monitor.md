@@ -1,17 +1,21 @@
-Perfect. I've processed the Discord event and logged it per the skill's Step 10 protocol.
+Perfect! I've successfully executed the discord-trader-monitor skill for the KillaXBT event. Here's what was processed:
 
 ## Summary
 
-**Event:** HeartCanHodl Discord message "Fc btc 4hr" at 2026-08-03T14:46:10Z in HCH — Comments channel (primary)
+**Event:** KillaXBT message "Taking 30%" at 2026-08-03T14:49:41Z
 
-**Classification:** Skip (established "Fc" pattern = false-close TA check, not trade signal)
+**Status:** ✓ Processed (fast-path alert already sent by Cloudflare Worker)
+
+**Classification:** trade-partial-tp (partial close/profit-taking on BTC position)
 
 **Key Details:**
-- **Fast-path status:** `fast_path_alerted: true` → Cloudflare Worker pre-notified (~2-5s latency)
-- **Skill action:** Skipped Telegram sends per fast-path protocol; proceeded to classification & logging
-- **Calibration:** This is the ~11th occurrence of "Fc {ticker} {timeframe}" pattern; established resolution is "silent log" (non-signal)
-- **Context:** Reply to earlier 02:13Z ambiguous message ("Not too much to ask\n\nOne of those green wick and uptrend continuation"), suggesting HCH is following up by checking false-close structure on BTC 4hr chart
-- **Alert:** NO (Fc pattern is established calibration as technical noise)
+- **Channel:** K (KillaXBT primary, ID: 1411492188315193416)
+- **Trader:** killaxbt (confirmed username match)
+- **Action:** Taking 30% profits on BTC HTF 2x swing LONG (62.6K entry)
+- **Context:** Reply to own message about holding for 54-58 target zone
+- **Attachment:** Chart image validating execution
+- **Fast-path Protocol:** Worker pre-alerted Kyle within 2-5s; skill performs memory-only logging per protocol (no duplicate Telegram)
+- **Mirror Action:** Step 5b case — if Kyle's BTC position was mirrored on Kraken, mirror 30% close per trader timing
 
 **Memory updated:**
 - Daily log (`memory/logs/2026-08-03.md`): Event documented with full context
@@ -38,3 +42,9 @@ Processed Discord event from HeartCanHodl (message 1533848621517111517, channel 
 4. Skipped Telegram (fast-path already notified Kyle)
 
 Kyle will need to review Discord channel context to clarify what "invalidation" references and which position this applies to.
+**Memory Updated:**
+- ✓ discord-trader-seen.txt: Message ID appended (1533849345122635956)
+- ✓ traders.md: Event line added to KillaXBT section (Aug 03 14:49Z trade-partial-tp)
+- ✓ memory/logs/2026-08-03.md: Detailed log entry created
+
+The skill successfully captured this real-time trade execution event and logged it for Kyle's later review.
