@@ -178,7 +178,7 @@
 - Recent thesis: Full net-long regime shift Jul 31→Aug 02. Completed diversification Aug 02 17:27Z: BTC/ETH/SOL/ZEC/HYPE majors + 8 spot alt positions. Portfolio framework: 25%+35%+40% (tiered conviction + liquid reserve). LIT notable: flipped from strong short (Jul 27) to spot long (Aug 02) — major conviction reversal.
 - Conviction notes: Disciplined portfolio architect. %-of-portfolio sizing literal and trackable. "Fc {ticker} {tf}" = false-close chart check (8th occurrence Aug 02 16:50Z Fc hype 1hr); established calibration, no alert needed. SPCX spot long represents bottom-fishing after prior strong short (big winner). Primary Trades channel = high conviction; supporting Chat = context/philosophy.
 - Calibration: PENDING Aug 02 16:51Z ("Loracle" image X post — asset unclear). RESOLVED: "Fc" pattern = false-close TA check, not trade signal. RESOLVED: SPCX "enjoying some longs" = confirmed position flip Aug 02.
-- Last seen: 2026-08-03T01:56:14Z (X reply — macro thesis alignment on commodities)
+- Last seen: 2026-08-03T02:35:16Z (Discord URL-only link share, non-financial)
 - **Events (rolling):**
   - Jul 31 12:29Z — trade-partial-tp: HYPE/SOL/ZEC -2% each short cover [1532726959908327526]
   - Jul 31 12:30Z — trade-partial-tp: SHIB/KAITO -1% each short cover [1532727081736208586]
@@ -210,6 +210,7 @@
   - Aug 03 02:13Z — ambiguous: "Not too much to ask\n\nOne of those green wick and uptrend continuation" (cryptic; no ticker specified; technical language suggests market observation on uptrend structure; calibration alert sent to Kyle re: asset reference; no alert until clarified) [1533659130609533068]
   - Aug 03 02:18Z — trade-conviction-add: LIT/PUMP +1% each spot (reply to prior 1% each entry; strengthening position on Aug 02 major flip + emerging tech bet) [1533660396148490331]
   - Aug 03 02:25Z — ambiguous: X reply "@BullTheoryio 👀" (very short; eyes emoji only; unclear context or financial signal; no ticker/level/action; reply-dependent interpretation required; possibly watching another trader/post but content unknown; calibration alert sent to Kyle per HR-2 protocol; URL: https://x.com/HeartCanHodl/status/2084103379564081479) [2084103379564081479]
+  - Aug 03 02:35Z — skip: URL-only Discord link share (https://x.com/i/status/2084099323772690719) in HCH-Free primary channel; non-financial content; silent log per protocol [1533664524983341217]
 
 ## Stoiiic
 - Platforms: X (primary; X-only, no Discord presence)
