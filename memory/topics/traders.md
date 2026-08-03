@@ -177,11 +177,11 @@
 
 ## HeartCanHodl
 - Platforms: Discord (primary: 1279738718680256553 ★Trades; Comments: 1393137051108507728; Chat: 1023638573313966212; Free: 1472153627324842057) + X
-- Current open positions: NET LONG regime (fully rotated from ~45% short basket). BTC LONG ~10% (two 5% adds Aug 01). ETH LONG ~10% (two 5% adds Aug 01). SOL LONG ~7.5% (5% Jul 31 + 2.5% Aug 01). HYPE LONG ~7.5% (5% Aug 01 05:06Z + 2.5% Aug 01 13:07Z). ZEC LONG ~5% (2.5% Aug 01 12:00Z + 2.5% Aug 01 13:07Z). Spot alt basket: AAVE/NEAR/XMR/ASTER/FORM 1% each (Aug 02 05:38Z). PENDLE/LIT/PUMP 1% each (Aug 02 17:25Z). SPCX 2% spot (Aug 02 17:19Z — position flip from prior strong short). All crypto shorts closed Aug 01 05:04-08Z. Total ~50% deployed (target 50-60%); stocks managed separately.
+- Current open positions: NET LONG regime (fully rotated from ~45% short basket). BTC LONG ~10% (two 5% adds Aug 01). ETH LONG ~12.5% (two 5% adds Aug 01 + 2.5% Aug 03 06:45Z). SOL LONG ~10% (5% Jul 31 + 2.5% Aug 01 + 2.5% Aug 03 06:45Z). HYPE LONG ~7.5% (5% Aug 01 05:06Z + 2.5% Aug 01 13:07Z). ZEC LONG ~5% (2.5% Aug 01 12:00Z + 2.5% Aug 01 13:07Z). Spot alt basket: AAVE/NEAR/XMR/ASTER/FORM 1% each (Aug 02 05:38Z). TAO/STABLE/ASTS 1% each (Aug 03 02:02Z). PENDLE/LIT/PUMP 1% each (Aug 02 17:25Z → +1% each Aug 03 02:18Z). SPCX 2% spot (Aug 02 17:19Z). All crypto shorts closed Aug 01 05:04-08Z. Total ~52.5% deployed (target 50-60%); stocks managed separately.
 - Recent thesis: Full net-long regime shift Jul 31→Aug 02. Completed diversification Aug 02 17:27Z: BTC/ETH/SOL/ZEC/HYPE majors + 8 spot alt positions. Portfolio framework: 25%+35%+40% (tiered conviction + liquid reserve). LIT notable: flipped from strong short (Jul 27) to spot long (Aug 02) — major conviction reversal.
 - Conviction notes: Disciplined portfolio architect. %-of-portfolio sizing literal and trackable. "Fc {ticker} {tf}" = false-close chart check (8th occurrence Aug 02 16:50Z Fc hype 1hr); established calibration, no alert needed. SPCX spot long represents bottom-fishing after prior strong short (big winner). Primary Trades channel = high conviction; supporting Chat = context/philosophy.
 - Calibration: PENDING Aug 02 16:51Z ("Loracle" image X post — asset unclear). RESOLVED: "Fc" pattern = false-close TA check, not trade signal. RESOLVED: SPCX "enjoying some longs" = confirmed position flip Aug 02.
-- Last seen: 2026-08-03T02:35:16Z (Discord URL-only link share, non-financial)
+- Last seen: 2026-08-03T06:45:37Z (Discord Trades channel — ETH+SOL conviction add)
 - **Events (rolling):**
   - Jul 31 12:29Z — trade-partial-tp: HYPE/SOL/ZEC -2% each short cover [1532726959908327526]
   - Jul 31 12:30Z — trade-partial-tp: SHIB/KAITO -1% each short cover [1532727081736208586]
@@ -217,6 +217,7 @@
   - Aug 03 03:51Z — ambiguous: "Preparing for that wick" (Discord Chat supporting channel; cryptic reference to earlier 02:13Z ambiguous post "green wick and uptrend continuation"; links to 1533659130609533068; no ticker/asset/action clarified; awaiting Kyle calibration; unclear if TA observation or entry setup; calibration alert sent per HR-2 protocol) [1533683604872364115]
   - Aug 03 02:34Z — informational: Bitcoin monthly seasonality heatmap (2013-2026 returns); 2026 YTD Jan-Jun red, recovery Jul +7%, Aug +1% to date; historical August trend mixed; market analysis only [2084105722430906747]
   - Aug 03 02:37Z — informational: BTC monthly seasonality analysis (2013-2026 Coinglass data); August median -7.49% (context for bullish regime); shared educational data [2084106234249007189]
+  - Aug 03 06:45Z — trade-conviction-add: ETH+SOL +2.5% each LONG (via Discord Trades); continues allocation build toward 50-60% target [1533727526973739058]
 
 ## Stoiiic
 - Platforms: X (primary; X-only, no Discord presence)
