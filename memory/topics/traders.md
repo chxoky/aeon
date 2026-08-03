@@ -321,8 +321,9 @@
 - Recent thesis: BTC structural analysis; multi-timeframe patience strategy; HTF-bullish long-term with near-term caution; advocate for spot accumulation + onchain analysis over scalping chop
 - Conviction notes: Contrarian patient accumulator (DCA into weakness, 60-62k zone + sub-54k "mortgage ur house" entry zone). HTF-bullish bias on structural recovery; calls for "exceptional deal" before aggressive accumulation. Dismissive of scalping/short-term chop (Adderall scalper commentary). Reinforces hold-and-accumulate philosophy across posts (09:08Z structural analysis + 09:16Z chop observation). Philosophy: long-term holders with onchain discipline outperform short-term technical scalping in choppy ranges.
 - Calibration: PENDING (Aug 02 12:26Z) — cryptic reply "@3eleth multiple >1 eth pulls, 700+ rolls here. theyre just rare"; terms unclear, requires Kyle clarification
-- Last seen: 2026-08-02T12:26:14Z (X reply to @3eleth with cryptic terminology)
+- Last seen: 2026-08-03T08:35:05Z (X post on FWA protocol design & rake strategy)
 - **Events (rolling):**
+  - Aug 03 08:35Z — informational: FWA protocol design & tokenomics strategy; settlement outcome chart validating thesis to keep 15% rake + incentivize LPs/spinners via engaging mechanics over rake-cuts (51.7% users opt ETH, 44.1% converted to FWA); long opinionated commentary on balancing LP returns vs user retention [2084196344609009734]
   - Aug 02 12:26Z — ambiguous: reply to @3eleth "@3eleth multiple >1 eth pulls, 700+ rolls here. theyre just rare." Cryptic terminology (eth pulls/700+ rolls) without visible context. No trade action language, no level/ticker clarity. Calibration alert sent to Kyle per HR-2. [2083892127692443650]
   - Aug 01 13:46Z — skip: reply to @123skely on casino loyalty programs & EV mechanics; generic philosophy on yield/collateral risk structures, not financial market signal; non-financial personal commentary [2083549899425984889]
   - Jul 31 15:24Z — informational: Clarity Act Polymarket odds bearish drift 43%→22%; regulatory environment sentiment [2083212261900886187]
