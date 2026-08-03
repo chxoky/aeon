@@ -1,0 +1,53 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "separator_1",
+        "tweet_link",
+        "chart_heading",
+        "chart_text"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Ideal for this setup would be a Monday weekly high into mid 64s\n\nLots of conflicting signals, Cramer dooming, BTC sturdy on news of Saylor selling, but the amounts are still dust"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2084363268567810555"
+      }
+    },
+    "chart_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart Analysis",
+        "level": "h3"
+      }
+    },
+    "chart_text": {
+      "type": "Text",
+      "props": {
+        "text": "Coinglass BTC liquidation heatmap (48h) shows major clustering at 64.5K level, secondary at 62.6K. Tactically respecting liquidation zones into resistance despite macro bear thesis (Big One still pending)."
+      }
+    }
+  }
+}
