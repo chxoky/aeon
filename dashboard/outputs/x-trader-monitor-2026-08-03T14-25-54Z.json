@@ -1,0 +1,142 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_section",
+        "separator_1",
+        "technical_details_section",
+        "separator_2",
+        "follow_up_section"
+      ]
+    },
+    "tweet_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "tweet_link"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "SOXL — Technical reversal setup after crash\n\n\"If there was ever a time to show up…\""
+      },
+      "children": []
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2084283156279230731"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "technical_details_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tech_title",
+        "tech_item_1",
+        "tech_item_2",
+        "tech_item_3"
+      ]
+    },
+    "tech_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Technical Analysis",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "tech_item_1": {
+      "type": "Text",
+      "props": {
+        "text": "Charts show: 114.61 support with multiple technical zones (60/75/100/120/140/160)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "tech_item_2": {
+      "type": "Text",
+      "props": {
+        "text": "4H recovery from ~40 lows to 183 peak, now consolidating at key support",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "tech_item_3": {
+      "type": "Text",
+      "props": {
+        "text": "Green arrow zones marking potential reversal points",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "follow_up_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "follow_up_title",
+        "sentiment_shift_text",
+        "cross_ticker_text"
+      ]
+    },
+    "follow_up_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Sentiment & Cross-Ticker Update",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "sentiment_shift_text": {
+      "type": "Text",
+      "props": {
+        "text": "Shift in tenor: Aug 01 bearish on quarterly weakness now showing tactical bounce setup",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "cross_ticker_text": {
+      "type": "Text",
+      "props": {
+        "text": "Cross-ticker SOXL semis convergence (HCH, Chase also tracking)",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
