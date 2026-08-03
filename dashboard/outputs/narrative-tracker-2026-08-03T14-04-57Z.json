@@ -1,0 +1,533 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-08-03"
+      },
+      "children": [
+        "section_transitions",
+        "sep1",
+        "section_reflexivity",
+        "sep2",
+        "section_positions",
+        "sep3",
+        "section_map"
+      ]
+    },
+    "section_transitions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h_transitions",
+        "trans_btc",
+        "trans_datcos",
+        "trans_eth",
+        "trans_macro"
+      ]
+    },
+    "h_transitions": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      }
+    },
+    "trans_btc": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "badge_new_1",
+        "text_trans_btc"
+      ]
+    },
+    "badge_new_1": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "secondary"
+      }
+    },
+    "text_trans_btc": {
+      "type": "Text",
+      "props": {
+        "text": "BTC Spot ETF Inflow Spike — Jul 31 data shows sharp inflow re-entry; ETH ETF +$27.42M weekly. HCH flagged with charts at $62K support. Institutional demand entering risk-off tape."
+      }
+    },
+    "trans_datcos": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "badge_new_2",
+        "text_trans_datcos"
+      ]
+    },
+    "badge_new_2": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "secondary"
+      }
+    },
+    "text_trans_datcos": {
+      "type": "Text",
+      "props": {
+        "text": "DATcos Structural Break — Strategy authorized $1.25B BTC sales; dividend obligations tripled. The \"never sell\" narrative is now forcing the sell. 142 copycat companies exposed."
+      }
+    },
+    "trans_eth": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "badge_new_3",
+        "text_trans_eth"
+      ]
+    },
+    "badge_new_3": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "secondary"
+      }
+    },
+    "text_trans_eth": {
+      "type": "Text",
+      "props": {
+        "text": "ETH Glamsterdam Delay — Aug → mid-Sep upgrade slip; Q4 slip possible. ETH/BTC 0.030 (April high) = resistance at a delay narrative."
+      }
+    },
+    "trans_macro": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "badge_new_4",
+        "text_trans_macro"
+      ]
+    },
+    "badge_new_4": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "secondary"
+      }
+    },
+    "text_trans_macro": {
+      "type": "Text",
+      "props": {
+        "text": "Macro Bear Setup Building — DVOL 37.53 ATL, F&G 28 Fear, breadth 5/20. NFP Aug 7 binary. FOMC hike ~72%. SOXX +13%/QQQ +5% while BTC -2% last week — laggard effect or rotation signal?"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_reflexivity": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h_reflexivity",
+        "alert_datcos",
+        "alert_solana"
+      ]
+    },
+    "h_reflexivity": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      }
+    },
+    "alert_datcos": {
+      "type": "Alert",
+      "props": {
+        "title": "DATcos",
+        "message": "Strategy $1.25B BTC sale authorized: \"never sell\" thesis collapsing under dividend obligations it created. The reflexivity loop that built the narrative is now unwinding it.",
+        "type": "warning"
+      }
+    },
+    "alert_solana": {
+      "type": "Alert",
+      "props": {
+        "title": "Solana RWA",
+        "message": "$8.68B/30d tokenized equity volume (2x MoM) is real. But projects are rebranding to \"RWA\" without real deals. Separate on-chain volume from press releases.",
+        "type": "info"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_positions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "h_positions",
+        "pos_frontrun_group",
+        "pos_ride_group",
+        "pos_fade_group",
+        "pos_watch_group"
+      ]
+    },
+    "h_positions": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      }
+    },
+    "pos_frontrun_group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h_frontrun",
+        "pos_alpenglow"
+      ]
+    },
+    "h_frontrun": {
+      "type": "Heading",
+      "props": {
+        "text": "FRONT-RUN",
+        "level": "h3"
+      }
+    },
+    "pos_alpenglow": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "badge_alpenglow",
+        "text_alpenglow"
+      ]
+    },
+    "badge_alpenglow": {
+      "type": "Badge",
+      "props": {
+        "text": "Solana Alpenglow (mindshare 3 ↑, Bull)",
+        "variant": "default"
+      }
+    },
+    "text_alpenglow": {
+      "type": "Text",
+      "props": {
+        "text": "Solana core / RWA ecosystem — 12.8s→150ms finality, Aug-Oct window — bear: upgrade may be priced in",
+        "variant": "caption"
+      }
+    },
+    "pos_ride_group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h_ride",
+        "pos_rwa",
+        "pos_ai_payments",
+        "pos_btc_etf"
+      ]
+    },
+    "h_ride": {
+      "type": "Heading",
+      "props": {
+        "text": "RIDE",
+        "level": "h3"
+      }
+    },
+    "pos_rwa": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "badge_rwa",
+        "text_rwa"
+      ]
+    },
+    "badge_rwa": {
+      "type": "Badge",
+      "props": {
+        "text": "RWA Tokenization (5 ↑↑, Bull)",
+        "variant": "default"
+      }
+    },
+    "text_rwa": {
+      "type": "Text",
+      "props": {
+        "text": "BlackRock BUIDL / Circle USYC / DTCC — $34B TVL, $8.68B 30d Solana vol — bear: 95-97% Solana concentration",
+        "variant": "caption"
+      }
+    },
+    "pos_ai_payments": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "badge_ai_payments",
+        "text_ai_payments"
+      ]
+    },
+    "badge_ai_payments": {
+      "type": "Badge",
+      "props": {
+        "text": "AI × Agentic Payments (4 ↑, Bull)",
+        "variant": "default"
+      }
+    },
+    "text_ai_payments": {
+      "type": "Text",
+      "props": {
+        "text": "Coinbase x402 / Google AP2 / Stripe MPP — 176M txns settled — bear: $73M settled = trivial vs total vol",
+        "variant": "caption"
+      }
+    },
+    "pos_btc_etf": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "badge_btc_etf",
+        "text_btc_etf"
+      ]
+    },
+    "badge_btc_etf": {
+      "type": "Badge",
+      "props": {
+        "text": "BTC ETF Inflows (3 ↑, Bull)",
+        "variant": "default"
+      }
+    },
+    "text_btc_etf": {
+      "type": "Text",
+      "props": {
+        "text": "institutional flows / HCH charts — $76.29B AUM, spike at $62K — bear: lagging indicator, F&G 28",
+        "variant": "caption"
+      }
+    },
+    "pos_fade_group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h_fade",
+        "pos_datcos_fade",
+        "pos_perp_dex",
+        "pos_prediction_markets"
+      ]
+    },
+    "h_fade": {
+      "type": "Heading",
+      "props": {
+        "text": "FADE",
+        "level": "h3"
+      }
+    },
+    "pos_datcos_fade": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "badge_datcos_fade",
+        "text_datcos_fade"
+      ]
+    },
+    "badge_datcos_fade": {
+      "type": "Badge",
+      "props": {
+        "text": "DATcos (3 ↓↓, Cope)",
+        "variant": "destructive"
+      }
+    },
+    "text_datcos_fade": {
+      "type": "Text",
+      "props": {
+        "text": "Strategy / 142 copycats — reflexivity collapsing; forced selling structurally baked in",
+        "variant": "caption"
+      }
+    },
+    "pos_perp_dex": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "badge_perp_dex",
+        "text_perp_dex"
+      ]
+    },
+    "badge_perp_dex": {
+      "type": "Badge",
+      "props": {
+        "text": "Perp DEXs / HYPE (4 ↓, Mixed)",
+        "variant": "destructive"
+      }
+    },
+    "text_perp_dex": {
+      "type": "Text",
+      "props": {
+        "text": "Hyperliquid dominant but HYPE -5% today / -9.6% 7d — narrative exhaustion vs strong fundamentals = exit signal",
+        "variant": "caption"
+      }
+    },
+    "pos_prediction_markets": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "badge_prediction",
+        "text_prediction"
+      ]
+    },
+    "badge_prediction": {
+      "type": "Badge",
+      "props": {
+        "text": "Prediction Markets (4 →, Mixed)",
+        "variant": "outline"
+      }
+    },
+    "text_prediction": {
+      "type": "Text",
+      "props": {
+        "text": "Kalshi / Polymarket — $40B June target missed; CLARITY Act <30% passage odds",
+        "variant": "caption"
+      }
+    },
+    "pos_watch_group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h_watch",
+        "pos_macro_dvol"
+      ]
+    },
+    "h_watch": {
+      "type": "Heading",
+      "props": {
+        "text": "WATCH",
+        "level": "h3"
+      }
+    },
+    "pos_macro_dvol": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "badge_macro_dvol",
+        "text_macro_dvol"
+      ]
+    },
+    "badge_macro_dvol": {
+      "type": "Badge",
+      "props": {
+        "text": "Macro Bear / DVOL (3 ↑, Bear)",
+        "variant": "destructive"
+      }
+    },
+    "text_macro_dvol": {
+      "type": "Text",
+      "props": {
+        "text": "@Wild_Randomness / macro bears — NFP Aug 7 binary; crowded short = squeeze risk if soft print",
+        "variant": "caption"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_map": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h_map",
+        "map_emerging",
+        "map_rising",
+        "map_peak",
+        "map_fading"
+      ]
+    },
+    "h_map": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h2"
+      }
+    },
+    "map_emerging": {
+      "type": "Text",
+      "props": {
+        "text": "Emerging: Solana Alpenglow, Cardano ADA ETF"
+      }
+    },
+    "map_rising": {
+      "type": "Text",
+      "props": {
+        "text": "Rising: RWA Tokenization, AI × Agentic Payments, BTC ETF Inflows, AI × DePIN"
+      }
+    },
+    "map_peak": {
+      "type": "Text",
+      "props": {
+        "text": "Peak: Stablecoins & Stablechains, Prediction Markets, Privacy/ZK"
+      }
+    },
+    "map_fading": {
+      "type": "Text",
+      "props": {
+        "text": "Fading: DATcos, Perp DEXs/HYPE, ETH Glamsterdam, Meme Tokens"
+      }
+    }
+  }
+}
