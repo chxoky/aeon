@@ -1,0 +1,80 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration exercise"
+      },
+      "children": [
+        "main-stack"
+      ]
+    },
+    "main-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading",
+        "author-badge",
+        "event-text",
+        "divider",
+        "reply-section",
+        "question-text",
+        "view-link"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration",
+        "level": "h2"
+      }
+    },
+    "author-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "@swarmister",
+        "variant": "secondary"
+      }
+    },
+    "event-text": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @heart_ with brief exclamation",
+        "variant": "body"
+      }
+    },
+    "divider": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "reply-section": {
+      "type": "Text",
+      "props": {
+        "text": "@heart_ Woah",
+        "variant": "lead"
+      }
+    },
+    "question-text": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read? Is this a market signal, sentiment reflection, or social banter?",
+        "variant": "body"
+      }
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/swarmister/status/2084205760557257072"
+      }
+    }
+  }
+}
