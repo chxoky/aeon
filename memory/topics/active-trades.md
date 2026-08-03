@@ -766,6 +766,41 @@
 - **Cross-ticker context**: SOL is on Kyle's watch list and group-tracked (HCH short, ryzzqq now long = contested ticker, potential mean-reversion setup)
 - **Last update**: 2026-07-31T01:09:51Z (x-trader-monitor real-time event, trade signal alert sent, awaiting approval)
 
+### TAO — LONG (NEW ENTRY — 2026-08-03)
+- **Status**: ACTIVE — trade-new-entry 2026-08-03T02:02:46Z
+- **Entry**: 2026-08-03T02:02:46Z (Discord Trades channel)
+- **Entry message**: "Spot buy 1% each tao, stable & stock name asts" (direct execution call, primary Trades channel)
+- **Entry type**: Market order (spot execution at current price)
+- **Portfolio allocation**: 1% initial allocation (part of 3-ticker 3% new deployment)
+- **Entry level**: Unknown (exact price not specified; market order execution per timing)
+- **Entry context**: Post-regime-shift accumulation continuing Aug 03 early morning. HCH transitioned to net-long Aug 01-02 (closed all shorts, added major-pair longs, diversified into alt-basket). TAO represents return to prior watched ticker (HCH covered TAO short Jul 31 15:23Z) with fresh long conviction. Entry timing: early Asia session (02:02 UTC), consistent with systematic accumulation pattern.
+- **Prior TAO activity**: HCH held TAO short in basket (covered Jul 31 15:23Z). Now re-entering LONG at new price after macro pivot. Cross-trader: ryzzqq also tracked TAO LONG (Jul 22 entry pending Kyle approval).
+- **Conviction**: MEDIUM-HIGH (direct execution call on ★most-important primary channel; 1% allocation represents tier-3 conviction sizing; timing aligns with coordinated 3-ticker deployment suggesting pre-planned accumulation list)
+- **Approval/Alert status**: FAST-PATH ALERTED (Telegram already sent by Cloudflare Worker ~2-5s post-message); no duplicate send by skill. Await Kyle signal on whether to mirror TAO long on Kraken or monitor as memory-only entry.
+- **Last update**: 2026-08-03T02:02:46Z (discord-trader-monitor real-time, fast-path-alerted, TRADE-NEW-ENTRY; message_id=1533656343196598373)
+
+### STABLE — LONG (NEW ENTRY — 2026-08-03)
+- **Status**: ACTIVE — trade-new-entry 2026-08-03T02:02:46Z
+- **Entry**: 2026-08-03T02:02:46Z (Discord Trades channel)
+- **Entry message**: "Spot buy 1% each tao, stable & stock name asts" (part of 3-ticker parallel entry)
+- **Entry type**: Market order (spot execution at current price)
+- **Portfolio allocation**: 1% initial allocation (part of 3-ticker 3% new deployment)
+- **Entry level**: Unknown (exact price not specified; market order execution per timing)
+- **Entry context**: NEW TICKER for HCH's tracked activity (first mention Aug 03 02:02Z). "stable" likely refers to stablecoin protocol or similar emerging alt asset. Entry as part of systematic 3-ticker diversification morning deployment.
+- **Conviction**: MEDIUM (new ticker with 1% allocation sizing; parallel entry with TAO/ASTS suggests pre-planned list accumulation rather than reactive single-ticker conviction)
+- **Last update**: 2026-08-03T02:02:46Z (discord-trader-monitor real-time, fast-path-alerted, TRADE-NEW-ENTRY; message_id=1533656343196598373)
+
+### ASTS — LONG (NEW ENTRY — 2026-08-03)
+- **Status**: ACTIVE — trade-new-entry 2026-08-03T02:02:46Z
+- **Entry**: 2026-08-03T02:02:46Z (Discord Trades channel)
+- **Entry message**: "Spot buy 1% each tao, stable & stock name asts" (part of 3-ticker parallel entry)
+- **Entry type**: Market order (spot execution at current price)
+- **Portfolio allocation**: 1% initial allocation (part of 3-ticker 3% new deployment)
+- **Entry level**: Unknown (exact price not specified; market order execution per timing)
+- **Entry context**: NEW TICKER for HCH's tracked activity (first mention Aug 03 02:02Z). "asts" likely refers to AST Protocol or similar emerging altcoin asset. Entry as part of systematic 3-ticker diversification morning deployment.
+- **Conviction**: MEDIUM (new ticker with 1% allocation sizing; parallel entry with TAO/STABLE suggests pre-planned list accumulation rather than reactive single-ticker conviction)
+- **Last update**: 2026-08-03T02:02:46Z (discord-trader-monitor real-time, fast-path-alerted, TRADE-NEW-ENTRY; message_id=1533656343196598373)
+
 ---
 
 > Last bootstrapped: 2026-06-25 (discord-trader-monitor real-time event). GOOG (Chase) updated from recent conviction-add; HCH BTC/ETH/SOL position closed near 59k with stated re-entry thesis above 60k.
