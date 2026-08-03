@@ -1,0 +1,294 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Pipeline — 2026-08-03"
+      },
+      "children": [
+        "heading-focus",
+        "stack-focus",
+        "separator-1",
+        "heading-yesterday",
+        "stack-yesterday",
+        "separator-2",
+        "heading-watch",
+        "stack-watch",
+        "separator-3",
+        "heading-running",
+        "stack-running"
+      ]
+    },
+    "heading-focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "stack-focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus-item-1",
+        "focus-item-2",
+        "focus-item-3"
+      ]
+    },
+    "focus-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-1-title",
+        "focus-1-reason"
+      ]
+    },
+    "focus-1-title": {
+      "type": "Heading",
+      "props": {
+        "text": "HCH alt deployment — approve/decline Kraken mirrors",
+        "level": "h3"
+      }
+    },
+    "focus-1-reason": {
+      "type": "Text",
+      "props": {
+        "text": "Why now: 10%+ new positions opened Asia session (TAO/STABLE/ASTS/LIT/PUMP/ETH/SOL), some pending Kyle approval",
+        "variant": "body"
+      }
+    },
+    "focus-item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-2-title",
+        "focus-2-reason"
+      ]
+    },
+    "focus-2-title": {
+      "type": "Heading",
+      "props": {
+        "text": "NFP August 7 (4 days) — Sep FOMC binary",
+        "level": "h3"
+      }
+    },
+    "focus-2-reason": {
+      "type": "Text",
+      "props": {
+        "text": "Why now: strong payrolls = hike probability rises from 72%; July ETF flows record-weak; positioning window closing",
+        "variant": "body"
+      }
+    },
+    "focus-item-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-3-title",
+        "focus-3-reason"
+      ]
+    },
+    "focus-3-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Aug 12 Solar Eclipse watch window",
+        "level": "h3"
+      }
+    },
+    "focus-3-reason": {
+      "type": "Text",
+      "props": {
+        "text": "Why now: Bitcoin_Astro + Wild_Randomness + Stoiiic independently flagged near-term directional break catalyst; 9 days out",
+        "variant": "body"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-yesterday": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "stack-yesterday": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "yesterday-hch",
+        "yesterday-wild",
+        "yesterday-stoiiic",
+        "yesterday-astro",
+        "yesterday-market"
+      ]
+    },
+    "yesterday-hch": {
+      "type": "Text",
+      "props": {
+        "text": "HCH: 10%+ deployed across 7 tickers (TAO/STABLE/ASTS/LIT/PUMP +1% each, ETH/SOL +2.5% each) — largest single-session alt deployment observed",
+        "variant": "body"
+      }
+    },
+    "yesterday-wild": {
+      "type": "Text",
+      "props": {
+        "text": "Wild_Randomness: stablecoin bleed -1B/week charts + Gold/BTC ratio at multi-year lows — macro bear reinforced",
+        "variant": "body"
+      }
+    },
+    "yesterday-stoiiic": {
+      "type": "Text",
+      "props": {
+        "text": "Stoiiic: cycle framework — BTC -50% from ATH, historical cycle lows -77-84%, further downside thesis",
+        "variant": "body"
+      }
+    },
+    "yesterday-astro": {
+      "type": "Text",
+      "props": {
+        "text": "Bitcoin_Astro: Aug 12 Solar Eclipse as significant market-timing turning-point candidate",
+        "variant": "body"
+      }
+    },
+    "yesterday-market": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday-market-text",
+        "yesterday-market-stat"
+      ]
+    },
+    "yesterday-market-text": {
+      "type": "Text",
+      "props": {
+        "text": "Market: risk-off deepened, breadth 5/20 green",
+        "variant": "body"
+      }
+    },
+    "yesterday-market-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$62,543",
+        "delta": "-1.4%",
+        "trend": "down"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "stack-watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "watch-text",
+        "watch-stat"
+      ]
+    },
+    "watch-text": {
+      "type": "Text",
+      "props": {
+        "text": "BTC ETF flows: 4-day inflow streak post-July (weakest month on record). First institutional buying signal in weeks — if it continues through NFP, bear thesis needs recalibration.",
+        "variant": "body"
+      }
+    },
+    "watch-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Post-July Inflows / July Total",
+        "value": "$132M / $205M",
+        "trend": "up"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "stack-running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "running-1",
+        "running-2",
+        "running-3",
+        "running-4"
+      ]
+    },
+    "running-1": {
+      "type": "Text",
+      "props": {
+        "text": "x-trader-monitor @ continuous",
+        "variant": "body"
+      }
+    },
+    "running-2": {
+      "type": "Text",
+      "props": {
+        "text": "discord-trader-monitor @ every 1 min",
+        "variant": "body"
+      }
+    },
+    "running-3": {
+      "type": "Text",
+      "props": {
+        "text": "market-context-refresh @ 10:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running-4": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ ~08:xx UTC",
+        "variant": "body"
+      }
+    }
+  }
+}

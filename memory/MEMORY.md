@@ -15,7 +15,7 @@ Autonomous trading-signal agent running on GitHub Actions via Claude Code. Monit
 ## Active Topics
 - [Trader State](topics/traders.md) — live per-trader positions, last-seen. (Rebuilt 2026-07-14 by trader-bootstrap; entries since flow via monitors + traders_update.txt.)
 - [Ticker Focus](topics/ticker-focus.md) — overlap/contested tickers, Kyle's watch list. Rebuilt 2026-07-14.
-- [Market Context](topics/market-context.md) — latest regime snapshot (Aug 1: BTC $63K, risk-off, F&G 27, Sep FOMC hike YES 59.5%).
+- [Market Context](topics/market-context.md) — latest regime snapshot (Aug 3: BTC $62,543, risk-off, F&G 28 Fear, breadth 5/20, DEX vol $5.07B, Sep FOMC hike ~72%).
 - [Active Trades](topics/active-trades.md) — Kyle's mirror decisions. As of Jul 22: NO open Kraken mirrors; Chase SNDK/MU approvals never given (Chase has since TP'd most).
 
 ## Live Stack (verified 2026-07-21)
@@ -33,6 +33,6 @@ Autonomous trading-signal agent running on GitHub Actions via Claude Code. Monit
 | SOL   | solana      | 10%             |
 
 ## Recent Log Highlights
-- [2026-07-21](logs/2026-07-21.md) — Chase TP day (SNDK half @1533, MU half @930/938); KillaXBT hedge cancelled; first green chain; PRs #13/#16 merged; consume: bug found → fixed as ISS-003/PR #17
-- [2026-07-18](logs/2026-07-18.md) — prompt-injection attempt in @trading_axe tweet (discarded, logged); 3-trader structural-bull convergence note
-- [2026-07-14](logs/2026-07-14.md) — ISS-002 resolved (Worker payload fix); trader-bootstrap force rebuild; cron fleet recovered after ~36 days dormant
+- [2026-08-03](logs/2026-08-03.md) — morning-pipeline: risk-off tape (BTC $62,543, breadth 5/20, F&G 28); HCH 10%+ alt deployment Asia session; 3 macro bears aligned on Aug 12 eclipse window; NFP Aug 7 primary binary
+- [2026-08-02](logs/2026-08-02.md) — HCH closed all shorts, added major-pair longs; Wild_Randomness DVOL ATL + AAPL puts; market chop regime
+- [2026-07-21](logs/2026-07-21.md) — Chase TP day (SNDK half @1533, MU half @930/938); KillaXBT hedge cancelled; PRs #13/#16 merged; ISS-003/PR #17
