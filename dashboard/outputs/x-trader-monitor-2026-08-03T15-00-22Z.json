@@ -1,0 +1,245 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "SOXL Technical Bounce Validation",
+        "description": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-card",
+        "separator",
+        "metrics-section",
+        "traders-section",
+        "link-section"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "SOXL technical bounce validation — smooth recovery after crash\n\nSupport zones holding (200/180/160/140/120/100/80/70/60); intraday bounce 102.72→115.31 confirms technical setup from 14:20Z post. 4-chart validation shows V-shaped recovery structure + historical context (40→183 boom-bust cycle).\n\nShift from Aug 01 bearish quarterly weakness thesis to tactical bounce series.\n\nCross-trader SOXL convergence: Chase (DCA longs Jul 29), ryzzqq (mean-reversion), WR (technical validation)."
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "metrics-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "bounce-stat",
+        "support-zones",
+        "recovery-validation",
+        "historical-context",
+        "thesis-shift"
+      ]
+    },
+    "bounce-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Intraday bounce",
+        "value": "102.72 → 115.31"
+      },
+      "children": []
+    },
+    "support-zones": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "support-label",
+        "zones-row"
+      ]
+    },
+    "support-label": {
+      "type": "Text",
+      "props": {
+        "text": "Support zones holding",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "zones-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "zone-200",
+        "zone-180",
+        "zone-160",
+        "zone-140",
+        "zone-120",
+        "zone-100",
+        "zone-80",
+        "zone-70",
+        "zone-60"
+      ]
+    },
+    "zone-200": {
+      "type": "Badge",
+      "props": {
+        "text": "200",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "zone-180": {
+      "type": "Badge",
+      "props": {
+        "text": "180",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "zone-160": {
+      "type": "Badge",
+      "props": {
+        "text": "160",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "zone-140": {
+      "type": "Badge",
+      "props": {
+        "text": "140",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "zone-120": {
+      "type": "Badge",
+      "props": {
+        "text": "120",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "zone-100": {
+      "type": "Badge",
+      "props": {
+        "text": "100",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "zone-80": {
+      "type": "Badge",
+      "props": {
+        "text": "80",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "zone-70": {
+      "type": "Badge",
+      "props": {
+        "text": "70",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "zone-60": {
+      "type": "Badge",
+      "props": {
+        "text": "60",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "recovery-validation": {
+      "type": "Text",
+      "props": {
+        "text": "4-chart validation shows V-shaped recovery structure; technical setup from 14:20Z post confirmed",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "historical-context": {
+      "type": "Stat",
+      "props": {
+        "label": "Historical context",
+        "value": "40 → 183 boom-bust cycle"
+      },
+      "children": []
+    },
+    "thesis-shift": {
+      "type": "Alert",
+      "props": {
+        "title": "Thesis shift",
+        "message": "Aug 01 bearish quarterly weakness thesis → tactical bounce series",
+        "type": "info"
+      },
+      "children": []
+    },
+    "traders-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "traders-title",
+        "chase-badge",
+        "ryzzqq-badge",
+        "wr-badge"
+      ]
+    },
+    "traders-title": {
+      "type": "Text",
+      "props": {
+        "text": "Cross-trader SOXL convergence",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "chase-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Chase: DCA longs Jul 29",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "ryzzqq-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "ryzzqq: mean-reversion",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "wr-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "WR: technical validation",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "link-section": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2084291418361823740"
+      },
+      "children": []
+    }
+  }
+}
