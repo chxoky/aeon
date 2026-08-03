@@ -470,3 +470,13 @@
   - Aug 01 07:04Z — informational: "#Bitcoin ⬇️⬇️⬇️" — bearish thesis reiteration; aligned with documented longer-term forecast [2083448877366022454]
   - Aug 03 07:53Z — informational: BTC astrological timing framework — Total Solar Eclipse Aug 12 among most important timing events historically coinciding with turning points; after 2-month tight range, expects much larger BTC move approaching [2084185923407823269]
   - Aug 03 12:36Z — informational: reply methodology — "@Ben1148x2 Yes, most of my pivots are determined by them"; pivot-determination technical discussion; aligned with documented astro/Gann framework thesis [2084257151900364921]
+
+## Stoiiic
+- Platforms: X (primary; X-only, no Discord presence)
+- Current open positions: Unknown (no personal trade execution documented yet)
+- Recent thesis: Relative strength rotation thesis on ETH/SOL next cycle; noted SNDK bounce (semis convergence tracking)
+- Conviction notes: Emerging trader, minimal tracked history; thesis-focused commentary rather than frequent execution signals
+- Calibration: None yet
+- Last seen: 2026-08-03T16:41:39Z (X ETH/SOL relative strength thesis)
+- **Events (rolling):**
+  - Aug 03 16:41Z — informational: $ETH/$SOL relative strength thesis — "one thesis I'm leaning towards is $ETH and $SOL playing reverse roles next cycle in terms of relative strength (not multiples)"; chart-driven technical observation, no personal trade action stated; alerts Kyle on convergence with broader semis/crypto thesis tracking [2084318792998383866]

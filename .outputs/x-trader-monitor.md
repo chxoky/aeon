@@ -1,9 +1,7 @@
-🔍 *Calibration — @trading_axe*
+🐦 *[X] @Stoiiic*
 
-Reply to: @zoomerfied
+keeping an eye on this but one thesis I'm leaning towards is $ETH and $SOL playing reverse roles next cycle in terms of relative strength. (not multiples)
 
-Message: "He thinks we think there's a difference.
+[View tweet](https://x.com/Stoiiic/status/2084318792998383866)
 
-~ Dr. Axius."
-
-Context: Unable to interpret financial signal from reply without seeing original @zoomerfied message. Matches trader's recent baseline (~95% non-financial noise). Is this market commentary or personal banter?
+↳ _Touches ETH and SOL pair — both major tickers tracked in crypto thesis monitoring._
