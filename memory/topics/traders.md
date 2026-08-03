@@ -191,8 +191,9 @@
 - Recent thesis: Structural bull BTC. Bear cycle ~80% complete; 57K base low unlikely to be breached. 59K already swept = unlikely extended 36-48K leg. Accumulation ongoing. Aug 02 post: "net negative than any previous bear" — positioning pessimism as contrary buy signal. Historical Q4 FUD catalyst expected but positioning already at extremes.
 - Conviction notes: HIGH BTC structural conviction. Multi-level DCA + tactical hedge discipline. Aug 02 divergence: macro bearish historical commentary (crisis precedents) vs maintained HTF long + HYPE entry = structural bull, hedging tail risks. "The only problem is you didn't buy more" Aug 02 meme.
 - Calibration: PENDING Jul 31 14:39Z — BTC monthly options/perps direction unclear (long/short/calls/puts?). ✅/checkmark posts are plausible execution confirmations per baseline.
-- Last seen: 2026-08-03T14:49:41Z (Discord reply — Taking 30% TP on BTC position)
+- Last seen: 2026-08-03T20:23:35Z (Discord reply — Set SL BE on remaining 75% after 25% TP)
 - **Events (rolling):**
+  - Aug 03 20:23Z — trade-position-update: Discord "Set SL BE" (confirm SL at breakeven on remaining 75% after 25% TP at 63.8K/62.6K); follow-up to X 14:49Z 30% TP announcement; fast-path alerted [1533933372576104690]
   - Aug 03 17:16Z — informational: BTC short squeeze signal; leverage liquidated, funding declining, textbook reversal [2084327547005735133]
   - Aug 03 14:49Z — trade-partial-tp: Taking 30% (partial close/profit-taking on BTC position); reply to own earlier message about holding for 54-58; chart image attached; fast-path alerted [1533849345122635956]
   - Aug 03 12:13Z — informational: BTC bullish TA restatement; "hoping we can get a wick into this price region for a long"; reply to own analysis on 1st monthly open/5th pivot sweep zones (60-61K observe, 57K sweep if breaks) [15338099337480110388]
