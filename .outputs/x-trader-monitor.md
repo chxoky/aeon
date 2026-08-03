@@ -1,8 +1,7 @@
-🔍 *Calibration — @swarmister*
+🐦 *[X] @HeartCanHodl*
 
-Reply to: @rottenAzoth333
-Post: "@rottenAzoth333 Smol lower"
+Volatility is good. You will like it more on bitcoin next!
 
-Unable to classify — what's your read?
+_Chart: Korean Stocks 30-day Kospi Volatility at record ~100% (2026 peak) — bullish reading on vol extending to crypto/BTC._
 
-[View post](https://x.com/swarmister/status/2084225168503722440)
+[View tweet](https://x.com/HeartCanHodl/status/2084229304049959421)
