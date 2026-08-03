@@ -1,17 +1,11 @@
-All checks done. Here's the summary:
+HEARTBEAT_OK · STATUS_PAGE=OK
 
-## Summary
+All checks clean:
 
-**HEARTBEAT_OK · STATUS_PAGE=OK**
+- **P0 skills**: No failed, stuck, or degraded skills across all 9 enabled skills (heartbeat, morning-brief, token-alert/movers, market-context-refresh, narrative-tracker, skill-health, trader-memory-compact, morning-pipeline chain).
+- **P0 X webhook**: WATCHED_TRADERS rule `35f3c57c...` is `is_effect: 1` — 12 traders active, healthy.
+- **P1**: 0 open PRs, no urgent issues.
+- **P2**: No flagged follow-ups in MEMORY.md.
+- **P3**: All enabled skills within schedule interval — most ran today.
 
-All P0–P3 checks came back clean:
-
-- **P0 Skills:** All 16 entries in `cron-state.json` show `last_status: success`, `consecutive_failures: 0`. No failed, stuck, or chronically failing skills.
-- **P0 X Webhook:** `WATCHED_TRADERS` rule (`35f3c57c…`) confirmed active — `is_effect: 1`, all 12 accounts in the filter.
-- **P1:** 0 open PRs, 0 urgent issues.
-- **P2:** No flagged follow-up items in memory.
-- **P3:** All enabled skills within 2× their schedule interval.
-
-**Files updated:**
-- `docs/status.md` — regenerated (🟢 OK, next run: token-alert 12:00 UTC, trader-memory-compact updated to 2026-08-02 21:00 reflecting last night's compact run)
-- `memory/logs/2026-08-03.md` — heartbeat entry appended
+`docs/status.md` regenerated (overall 🟢 OK, next scheduled run: morning-pipeline 07:00 UTC 2026-08-04). Log entry appended to `memory/logs/2026-08-03.md`.
