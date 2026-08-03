@@ -1,0 +1,156 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor: $BTC 4H Short Setup"
+      },
+      "children": [
+        "tweet-card",
+        "link-tweet",
+        "separator-1",
+        "poi-stack",
+        "targets-stack",
+        "chart-stack"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "@swarmister",
+        "text": "$BTC 4H Short Setup\n\nWithin the current trading range, I expect a corrective move toward the designated area of interest (POI, ~62.5k-63k zone).\n\nA test of this area will most likely serve as a catalyst for the resumption of downward order flow and create optimal conditions for opening a short position.\n\nFurther targets are marked on the chart: 61.5k, 61.3k, 61k zones.\n\nI also believe that 61k will be the bottom, and I'll be looking for long positions there."
+      }
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/swarmister/status/2084213400586920337"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "poi-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "poi-heading",
+        "poi-badge",
+        "poi-text"
+      ]
+    },
+    "poi-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Primary POI",
+        "level": "h3"
+      }
+    },
+    "poi-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "62.5k - 63k",
+        "variant": "default"
+      }
+    },
+    "poi-text": {
+      "type": "Text",
+      "props": {
+        "text": "Expected corrective move and catalyst for downward order flow; optimal conditions for short position entry"
+      }
+    },
+    "targets-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "targets-heading",
+        "targets-badges",
+        "bottom-badge"
+      ]
+    },
+    "targets-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Further Targets",
+        "level": "h3"
+      }
+    },
+    "targets-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "target-1",
+        "target-2",
+        "target-3"
+      ]
+    },
+    "target-1": {
+      "type": "Badge",
+      "props": {
+        "text": "61.5k",
+        "variant": "secondary"
+      }
+    },
+    "target-2": {
+      "type": "Badge",
+      "props": {
+        "text": "61.3k",
+        "variant": "secondary"
+      }
+    },
+    "target-3": {
+      "type": "Badge",
+      "props": {
+        "text": "61k",
+        "variant": "secondary"
+      }
+    },
+    "bottom-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Expected bottom: 61k — Long position setup",
+        "variant": "outline"
+      }
+    },
+    "chart-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "chart-heading",
+        "chart-text"
+      ]
+    },
+    "chart-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart Analysis",
+        "level": "h3"
+      }
+    },
+    "chart-text": {
+      "type": "Text",
+      "props": {
+        "text": "Chart shows orange POI zone at ~63k, downside targets at 61.5k/61.3k/61k with structure recovery potential to 65k noted."
+      }
+    }
+  }
+}
