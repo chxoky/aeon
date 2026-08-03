@@ -45,3 +45,12 @@ Is this: (a) non-financial banter, (b) bullish sentiment on Tom's position, (c) 
 
 [View post](https://x.com/Stoiiic/status/2084310361310646461)
 [View post](https://x.com/HeartCanHodl/status/2084311396960113095)
+➕ *Conviction Add — @Wild_Randomness*
+
+$AAPL: added to Sep $285 puts at 309 this morning. Conditional room to add once more if drifts higher.
+
+Charts show clear breakdown from 354.70 highs → current 304-309 range heading toward 289.77 support. Technical validation on existing short thesis.
+
+[View post](https://x.com/Wild_Randomness/status/2084312375881273681)
+
+Want to add to your position too?

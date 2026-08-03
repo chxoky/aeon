@@ -1,0 +1,49 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "➕ Conviction Add — @Wild_Randomness"
+      },
+      "children": [
+        "content_stack"
+      ]
+    },
+    "content_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "link_element",
+        "cta_text"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "$AAPL: added to Sep $285 puts at 309 this morning. Conditional room to add once more if drifts higher.\n\nCharts show clear breakdown from 354.70 highs → current 304-309 range heading toward 289.77 support. Technical validation on existing short thesis."
+      }
+    },
+    "link_element": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2084312375881273681"
+      }
+    },
+    "cta_text": {
+      "type": "Text",
+      "props": {
+        "text": "Want to add to your position too?",
+        "variant": "lead"
+      }
+    }
+  }
+}
