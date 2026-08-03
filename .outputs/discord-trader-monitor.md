@@ -31,3 +31,12 @@
 ### Result
 
 **No alerts sent** — Silent log entry only. The "Fc btc 4hr" message is a technical analysis check, not a trade decision. Kyle is not notified.
+🔍 *Calibration — [DC: HCH — Comments]*
+
+Context: HCH just completed heavy net-long regime shift (Aug 01-02: BTC/ETH/SOL/HYPE/ZEC longs + 8-ticker spot alt basket).
+
+HCH: "Not too much to ask
+
+One of those green wick and uptrend continuation"
+
+Unable to classify — which asset? (BTC structure, ETH, SOL, or general uptrend on your longs?)

@@ -1,0 +1,69 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_calibration",
+        "separator_1",
+        "text_context",
+        "separator_2",
+        "tweet_hch",
+        "separator_3",
+        "alert_classification"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: HCH — Comments]",
+        "level": "h2"
+      }
+    },
+    "separator_1": {
+      "type": "Separator"
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "Context: HCH just completed heavy net-long regime shift (Aug 01-02: BTC/ETH/SOL/HYPE/ZEC longs + 8-ticker spot alt basket).",
+        "variant": "body"
+      }
+    },
+    "separator_2": {
+      "type": "Separator"
+    },
+    "tweet_hch": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HCH",
+        "text": "Not too much to ask\n\nOne of those green wick and uptrend continuation"
+      }
+    },
+    "separator_3": {
+      "type": "Separator"
+    },
+    "alert_classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to Classify",
+        "message": "Which asset? (BTC structure, ETH, SOL, or general uptrend on your longs?)",
+        "type": "warning"
+      }
+    }
+  }
+}
