@@ -1,0 +1,151 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "BTC & Alt Projections — Crypto Market Maturation",
+        "description": "Analysis on asset maturation reducing asymmetric returns"
+      },
+      "children": [
+        "tweet_card",
+        "separator_1",
+        "projections_section",
+        "separator_2",
+        "chart_section",
+        "separator_3",
+        "link_tweet"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "Stoiiic",
+        "text": "Asset maturation reduces asymmetric returns. BTC projections from lows: 1.5x-10x (muted-historical). Alts 2x-50x depending on selection. My own two cents is this window continues to dwindle down in terms of the number of alts that will provide the opportunity for multiple x's on return."
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "projections_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "projections_heading",
+        "projections_grid"
+      ]
+    },
+    "projections_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Return Projections from Lows",
+        "level": "h3"
+      }
+    },
+    "projections_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat_btc",
+        "stat_alts"
+      ]
+    },
+    "stat_btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC (muted-historical)",
+        "value": "1.5x – 10x"
+      }
+    },
+    "stat_alts": {
+      "type": "Stat",
+      "props": {
+        "label": "Altcoins (selection dependent)",
+        "value": "2x – 50x"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "chart_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "chart_heading",
+        "chart_description",
+        "chart_context_grid"
+      ]
+    },
+    "chart_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "3-Scenario Projection Framework",
+        "level": "h3"
+      }
+    },
+    "chart_description": {
+      "type": "Text",
+      "props": {
+        "text": "Detailed projection bands across muted, base, and historical scenarios with post-halving underperformance context",
+        "variant": "body"
+      }
+    },
+    "chart_context_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat_current",
+        "stat_historical"
+      ]
+    },
+    "stat_current": {
+      "type": "Stat",
+      "props": {
+        "label": "Post-halving (current)",
+        "value": "+31%",
+        "trend": "up"
+      }
+    },
+    "stat_historical": {
+      "type": "Stat",
+      "props": {
+        "label": "Post-halving (historical)",
+        "value": ">7000%",
+        "trend": "up"
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet on X",
+        "href": "https://x.com/Stoiiic/status/2084157426962407446"
+      }
+    }
+  }
+}

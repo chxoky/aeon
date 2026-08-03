@@ -221,17 +221,18 @@
 ## Stoiiic
 - Platforms: X (primary; X-only, no Discord presence)
 - Current open positions: None confirmed. Analyst/educator — no first-person execution language observed.
-- Recent thesis: BTC H4 technical structure — 7D/30D VWAP compressing (volatility horizon), 65K reclaim = interim pivot for upside, 60K unravels if 30D + prev week low breaks. "BTC will lull you to sleep in the next 1-2 months" — choppy/boring range-bound action expected.
-- Conviction notes: Heavy CVD/TPO/AMT/VWAP language. Chart-driven technical observations; educational focus; BTC order book analysis (1.3K BTC buy wall at 64K flat Jul 31). About half of posts non-financial.
-- Calibration: PENDING Aug 01 07:00Z — "longer you stay on wrong train, more expensive to get home" — metaphorical market commentary or personal philosophy?
-- Last seen: 2026-08-01T07:00:21Z (X philosophical quote)
+- Recent thesis: BTC/crypto asset maturation cycle analysis. Mature assets (ETF-era compression) show asymmetric return compression; projections: BTC 1.5x-10x range (muted-historical), alts 2x-50x range; selection key driver for outperformance. Window narrowing for multi-x alt opportunities.
+- Conviction notes: Cycle/maturation analyst. Heavy quantitative framework (projection ranges, historical parallels). Educational content, chart-driven analysis. Aug 03 post provides comprehensive two-scenario framework (muted vs base case vs historical cycles). About half of posts non-financial.
+- Calibration: RESOLVED Aug 01 07:00Z — metaphorical "train" language interpreted as market philosophical observation, not trade signal. Aug 03 03:00Z post on cycle maturation non-ambiguous.
+- Last seen: 2026-08-03T06:00:27Z (X macro cycle analysis with chart)
 - **Events (rolling):**
   - Jul 31 00:56Z — informational: BTC order book; unusual volume at 64,000/63,900; "reveal yourself" metaphor [2082993813115605364]
   - Jul 31 06:01Z — informational: BTC H4 educational; TPO/VWAP/composite methodology; real-time breakdown [2083070520619090388]
   - Jul 31 07:00Z — informational: BTC H4 — 7D/30D VWAP compressing; 65K reclaim pivot; 60K breakdown risk [2083085256932884484]
   - Jul 31 07:13Z — informational: "agreed in no mans lands for now" — neutral zone, no directional bias [2083088750100504985]
   - Jul 31 17:01Z — informational: "BTC will lull you to sleep next month or two"; choppy range-bound thesis [2083236570794963291]
-  - Aug 01 07:00Z — ambiguous: "longer you stay on wrong train, more expensive to get home" — calibration pending [2083447725706887179]
+  - Aug 01 07:00Z — informational: "longer you stay on wrong train" — market philosophy; resolved as non-trade-signal [2083447725706887179]
+  - Aug 03 06:00Z — informational: crypto asset maturation framework; BTC 1.5x-10x (muted-historical); alts 2x-50x; selection critical for outperformance; window narrowing on multi-x opportunities [2084157426962407446]
 
 ## bull_genius
 - Platforms: X (primary; X-only, no Discord presence)

@@ -1,5 +1,7 @@
-🐦 *[X] @Wild_Randomness*
+🐦 *[X] @Stoiiic*
 
-Gold/Bitcoin ratio hit multi-year lows at 63.964 (down -0.67% 29d 4h). Ratio crashed from ~240 (2020) → 63.964 current, showing sustained BTC structural outperformance vs gold across the cycle.
+Asset maturation reduces asymmetric returns. BTC projections from lows: 1.5x-10x (muted-historical). Alts 2x-50x depending on selection. Post: 'My own two cents is this window continues to dwindle down in terms of the number of alts that will provide the opportunity for multiple x's on return.'
 
-[View tweet](https://x.com/Wild_Randomness/status/2084144546691309878)
+Chart: 3-scenario framework (muted/base/historical) with detailed projection bands + post-halving underperformance context (+31% vs >7000% historical).
+
+[View tweet](https://x.com/Stoiiic/status/2084157426962407446)
