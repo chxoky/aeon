@@ -1,0 +1,70 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @swarmister",
+        "description": "Reply to @Baskitchbrah (context of original post not visible)"
+      },
+      "children": [
+        "tweet_card",
+        "separator1",
+        "classification_section"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "@Baskitchbrah Based"
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "classification_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "q_unable",
+        "q_main",
+        "link_post"
+      ]
+    },
+    "q_unable": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "q_main": {
+      "type": "Text",
+      "props": {
+        "text": "Is this agreement on a market call, position, or just social banter?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/swarmister/status/2084253915067871496"
+      },
+      "children": []
+    }
+  }
+}
