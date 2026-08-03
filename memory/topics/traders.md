@@ -255,7 +255,7 @@
 - Recent thesis: BTC structural bull long-term. 90% conviction on bottom; tentative on timing ("might start buying too early"). Sub-50K = "mortgage your house" tier. 60-62K = decent deal. Exceptional deal likely still ahead. August historically weak; mid-low 50s absolute lows likely. HYPE: "generational buy prices approaching" — 4h exhaustion pattern, multi-month uptrend bottom. "Let perps chill, explore onchain > scalp chop."
 - Conviction notes: Patient contrarian accumulator (DCA into weakness). Dismissive of scalping chop. BTC joyful July → weak August historical pattern. Jul 31 09:13Z rough battle plan: 64.2k-63.9k battleground, 60K DCA target, 57K weak-low, 90D/30D rvwap discipline. "Not betting much on BTC LTF."
 - Calibration: PENDING Aug 02 12:26Z — "700+ rolls, >1 eth pulls, rare" re @3eleth — gaming/casino reference or ETH terminology? Kyle interpretation needed. PENDING Jul 31 05:46Z — FOMO long ticker unstated.
-- Last seen: 2026-08-02T12:26:14Z (X reply to @3eleth cryptic)
+- Last seen: 2026-08-03T08:32:43Z (X protocol analysis post)
 - **Events (rolling):**
   - Jul 31 05:46Z — ambiguous: personal "shameful fomo long hit 7d rvwap overnight"; SNDK mention; BTC commentary; ticker unclear [2083066853488726278]
   - Jul 31 05:55Z — informational: HYPE 4h exhaustion candles; "generational buy prices approaching"; multi-TF long-term thesis [2083069050209345917]
@@ -268,6 +268,7 @@
   - Jul 31 14:04Z — informational: BTC macro/historical; mid-low 50s absolute lows likely; rate-hike repricing → lows [2083191954477572319]
   - Jul 31 15:24Z — informational: Clarity Act Polymarket odds bearish drift 43%→22% [2083212261900886187]
   - Aug 02 12:26Z — ambiguous: "@3eleth multiple >1 eth pulls, 700+ rolls, just rare" — cryptic; calibration sent [2083892127692443650]
+  - Aug 03 08:32Z — informational: FWA protocol economics analysis; gamification mechanics, LP incentives, rake strategy [2084195746891301299]
 
 ## ryzzqq
 - Platforms: X (primary; X-only, no Discord presence)

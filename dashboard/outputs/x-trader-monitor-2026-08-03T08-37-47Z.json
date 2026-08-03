@@ -1,0 +1,31 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet",
+        "link"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "fwa success post emissions depends on whether or not they can make the spinning fun while keeping LPs happy\n\nif you want to build a successful slot machine, you need to use their tricks\n\n- free spins, bonus spins\n- bonuses for milestones\n- special events\n- daily + weekly jackpots that build up as ppl play\n- loyalty and vip tiers for high rollers with lesser rake to keep them doing volume\n- community spins\n\nfor LPs its cold hard math, ROI and risk but gamblers are irrational people their brains respond to different stimuli\n\nadding pokemon cards as expected did nothing to volume and price because a floor pull is a floor pull. i lost money, i hate it. even if its a pikachu\n\nlowering the rake will just rob the protocol of opportunity to give back in more engaging ways that give more buck for the bang imo"
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/bull_genius/status/2084195746891301299"
+      }
+    }
+  }
+}
