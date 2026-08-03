@@ -1,0 +1,113 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading_calibration",
+        "text_event",
+        "tweetcard_stoiiic",
+        "sep1",
+        "heading_classify",
+        "text_question",
+        "stack_options",
+        "sep2",
+        "link_post"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Stoiiic",
+        "level": "h2"
+      }
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @Tom__Capital with encouragement emojis"
+      }
+    },
+    "tweetcard_stoiiic": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "Stoiiic",
+        "text": "@Tom__Capital 🚀📈"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_classify": {
+      "type": "Heading",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "level": "h3"
+      }
+    },
+    "text_question": {
+      "type": "Text",
+      "props": {
+        "text": "Is this:"
+      }
+    },
+    "stack_options": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opt_a",
+        "opt_b",
+        "opt_c",
+        "opt_d"
+      ]
+    },
+    "opt_a": {
+      "type": "Text",
+      "props": {
+        "text": "(a) non-financial banter"
+      }
+    },
+    "opt_b": {
+      "type": "Text",
+      "props": {
+        "text": "(b) bullish sentiment on Tom's position"
+      }
+    },
+    "opt_c": {
+      "type": "Text",
+      "props": {
+        "text": "(c) endorsement of a specific trade"
+      }
+    },
+    "opt_d": {
+      "type": "Text",
+      "props": {
+        "text": "(d) something else"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Stoiiic/status/2084310361310646461"
+      }
+    }
+  }
+}
