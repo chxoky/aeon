@@ -1,0 +1,80 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor — Calibration",
+        "description": "Operator: @HeartCanHodl"
+      },
+      "children": [
+        "stack_event",
+        "separator_1",
+        "tweet_card",
+        "separator_2",
+        "alert_status",
+        "text_question"
+      ]
+    },
+    "stack_event": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_event_label",
+        "text_event_desc"
+      ]
+    },
+    "text_event_label": {
+      "type": "Text",
+      "props": {
+        "text": "Event",
+        "variant": "lead"
+      }
+    },
+    "text_event_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Cryptic X mention with no context",
+        "variant": "body"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "@HeartCanHodl",
+        "text": "@BullTheoryio 👀"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_status": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "type": "info"
+      }
+    },
+    "text_question": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read? Watching another trader's post, or social banter?",
+        "variant": "body"
+      }
+    }
+  }
+}
