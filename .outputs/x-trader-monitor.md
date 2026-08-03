@@ -1,11 +1,10 @@
-🔍 *Calibration — @swarmister*
-🔍 *Calibration — @bull_genius*
+🔍 SOXL Update — @Wild_Randomness
 
-Event: Reply to @swarmister/@Shishir42069 post about a short setup
+Wild_Randomness just 75% TP'd SOXL at 118.29.
 
-bull_genius: "@swarmister @Shishir42069 you posted a short setup today so i thought youres gonna short this"
+Will close remaining 25% if price reaches 128 (blue trend line).
 
-Context missing: bull_genius is replying to a short setup posted by swarmister/Shishir42069. The reference to "this" is unclear without the original context. No ticker or level mentioned.
+Sentiment: Selling rips on bounce after multi-day bearish thesis. Matches group semis weakness view.
 
 No notification sent — this was correctly classified as non-financial personal communication and handled per protocol.
 Event: Reply to @bull_genius @Shishir42069, numbered list format
@@ -40,3 +39,4 @@ Perfect. I've completed the skill execution.
 6. ✅ Did NOT alert Kyle (non-financial skip per protocol)
 
 The tweet is clearly about workout equipment ("versa grip pros" = exercise handles), not a financial signal. Matches @Stoiiic's established baseline where ~50% of posts are non-financial cycle commentary and personal banter.
+[View post](https://x.com/Wild_Randomness/status/2084343526511587456)

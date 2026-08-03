@@ -1,0 +1,75 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "SOXL Update — @Wild_Randomness"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "stack-metrics",
+        "text-sentiment",
+        "link-post"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "75% TP'd SOXL at 118.29. Will close remaining 25% if price reaches 128 (blue trend line)."
+      }
+    },
+    "stack-metrics": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-tp1",
+        "stat-tp2"
+      ]
+    },
+    "stat-tp1": {
+      "type": "Stat",
+      "props": {
+        "label": "Position 75% (Executed)",
+        "value": "118.29"
+      }
+    },
+    "stat-tp2": {
+      "type": "Stat",
+      "props": {
+        "label": "Position 25% (Target)",
+        "value": "128.00"
+      }
+    },
+    "text-sentiment": {
+      "type": "Text",
+      "props": {
+        "text": "Sentiment: Selling rips on bounce after multi-day bearish thesis. Matches group semis weakness view.",
+        "variant": "body"
+      }
+    },
+    "link-post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2084343526511587456"
+      }
+    }
+  }
+}
