@@ -1,0 +1,387 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Token Movers — Aug 3, 2026"
+      },
+      "children": [
+        "text_headline",
+        "separator_1",
+        "heading_winners",
+        "table_winners",
+        "separator_2",
+        "heading_losers",
+        "table_losers",
+        "separator_3",
+        "heading_trending",
+        "table_trending",
+        "separator_4",
+        "heading_notable",
+        "stack_notable"
+      ]
+    },
+    "text_headline": {
+      "type": "Text",
+      "props": {
+        "text": "Broad risk-off — 21/100 top coins green, median 24h −1.2%; deep losses in mid-caps, majors flat to down.",
+        "variant": "lead"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_winners": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Winners (24h)",
+        "level": "h2"
+      }
+    },
+    "table_winners": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Price",
+          "24h %",
+          "7d %",
+          "1h %",
+          "Volume/Rank"
+        ],
+        "rows": [
+          [
+            "H (Humanity)",
+            "$0.07665",
+            "+11.4%",
+            "+27.0%",
+            "+2.4%",
+            "$8.1M / #192"
+          ],
+          [
+            "PIEVERSE (Pieverse)",
+            "$0.802",
+            "+11.1%",
+            "+15.1%",
+            "+0.2%",
+            "$17.8M / #148"
+          ],
+          [
+            "M (MemeCore)",
+            "$1.21",
+            "+10.0%",
+            "+0.2%",
+            "+0.3%",
+            "$9.4M / #48"
+          ],
+          [
+            "HOLO (Holoworld)",
+            "$0.06959",
+            "+9.3%",
+            "−1.8%",
+            "+1.0%",
+            "$6.5M / #409"
+          ],
+          [
+            "BTW (Bitway)",
+            "$0.08955",
+            "+5.9%",
+            "−4.1%",
+            "+0.6%",
+            "$15.9M / #161"
+          ],
+          [
+            "XCN (Onyxcoin)",
+            "$0.003175",
+            "+5.6%",
+            "−10.0%",
+            "−0.7%",
+            "$9.5M / #219"
+          ],
+          [
+            "US (Talus)",
+            "$0.04903",
+            "+5.4%",
+            "+1.4%",
+            "−2.0%",
+            "$7.4M / #199"
+          ],
+          [
+            "ALGO (Algorand)",
+            "$0.08414",
+            "+5.0%",
+            "0.0%",
+            "+0.2%",
+            "$36.8M / #79"
+          ],
+          [
+            "B (BUILDon)",
+            "$0.1631",
+            "+3.0%",
+            "−15.4%",
+            "−2.0%",
+            "$4.2M / #179"
+          ],
+          [
+            "ULTIMA (Ultima)",
+            "$2467",
+            "+2.5%",
+            "+8.7%",
+            "+0.1%",
+            "$3.6M / #155"
+          ]
+        ]
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_losers": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Losers (24h)",
+        "level": "h2"
+      }
+    },
+    "table_losers": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Price",
+          "24h %",
+          "7d %",
+          "1h %",
+          "Volume/Rank",
+          "Flag"
+        ],
+        "rows": [
+          [
+            "KAITO (KAITO)",
+            "$0.990",
+            "−16.3%",
+            "−16.8%",
+            "+1.3%",
+            "$64.6M / #144",
+            "[CAPITULATION]"
+          ],
+          [
+            "BEAT (Audiera)",
+            "$3.29",
+            "−16.0%",
+            "−8.2%",
+            "−8.4%",
+            "$40.9M / #65",
+            ""
+          ],
+          [
+            "META (MetaDAO)",
+            "$5.21",
+            "−13.7%",
+            "+24.5%",
+            "−0.4%",
+            "$7.7M / #229",
+            ""
+          ],
+          [
+            "币安人生 (BinanceLife)",
+            "$0.545",
+            "−11.8%",
+            "−14.3%",
+            "−1.6%",
+            "$11.9M / #94",
+            ""
+          ],
+          [
+            "APR (aPriori)",
+            "$0.2093",
+            "−8.3%",
+            "+0.9%",
+            "+0.9%",
+            "$2.4M / #375",
+            ""
+          ],
+          [
+            "BTSE (BTSE Token)",
+            "$0.8938",
+            "−5.6%",
+            "+3.9%",
+            "0.0%",
+            "$2.7M / #198",
+            ""
+          ],
+          [
+            "ONDO (Ondo)",
+            "$0.3700",
+            "−5.5%",
+            "−9.8%",
+            "+0.9%",
+            "$99.8M / #43",
+            "[TRENDING+DOWN]"
+          ],
+          [
+            "GRASS (Grass)",
+            "$0.3117",
+            "−5.1%",
+            "−10.6%",
+            "−0.7%",
+            "$9.0M / #158",
+            ""
+          ],
+          [
+            "CARDS (Collector Crypt)",
+            "$0.1388",
+            "−4.7%",
+            "+21.5%",
+            "−1.5%",
+            "$1.1M / #542",
+            ""
+          ],
+          [
+            "CFX (Conflux)",
+            "$0.04079",
+            "−4.6%",
+            "−8.2%",
+            "−0.3%",
+            "$4.9M / #152",
+            ""
+          ]
+        ]
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_trending": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending",
+        "level": "h2"
+      }
+    },
+    "table_trending": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Rank",
+          "Price",
+          "24h %",
+          "Flag"
+        ],
+        "rows": [
+          [
+            "BLESS (Bless)",
+            "#572",
+            "$0.01794",
+            "+30.9%",
+            "[PUMP-RISK]"
+          ],
+          [
+            "PENGU (Pudgy Penguins)",
+            "#111",
+            "$0.006051",
+            "−0.7%",
+            ""
+          ],
+          [
+            "GRVT (GRVT Token)",
+            "#584",
+            "$0.2824",
+            "+9.0%",
+            ""
+          ],
+          [
+            "BANK (Lorenzo Protocol)",
+            "#826",
+            "$0.04301",
+            "−12.3%",
+            "[TRENDING+DOWN]"
+          ],
+          [
+            "ANSEM (The Black Bull)",
+            "#283",
+            "$0.1995",
+            "−8.1%",
+            "[TRENDING+DOWN]"
+          ],
+          [
+            "ONDO (Ondo)",
+            "#42",
+            "$0.3706",
+            "−5.4%",
+            "[TRENDING+DOWN]"
+          ],
+          [
+            "PONS (Pons)",
+            "#761",
+            "$0.02770",
+            "+1.6%",
+            ""
+          ]
+        ]
+      }
+    },
+    "separator_4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_notable": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h2"
+      }
+    },
+    "stack_notable": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert_bless",
+        "alert_kaito",
+        "alert_beat",
+        "alert_ondo"
+      ]
+    },
+    "alert_bless": {
+      "type": "Alert",
+      "props": {
+        "title": "BLESS: Pump Risk",
+        "message": "Rank #572 trending at +30.9% — [PUMP-RISK], low-cap spike with no top-250 presence",
+        "type": "warning"
+      }
+    },
+    "alert_kaito": {
+      "type": "Alert",
+      "props": {
+        "title": "KAITO: Capitulation Signal",
+        "message": "#144 down 16.3% on vol/mcap ratio 0.27 — [CAPITULATION] signal confirmed",
+        "type": "error"
+      }
+    },
+    "alert_beat": {
+      "type": "Alert",
+      "props": {
+        "title": "BEAT (Audiera): Single-Session Reversal",
+        "message": "Yesterday's top winner (+15.7% [BREAKOUT]) now −16.0% — full single-session reversal",
+        "type": "warning"
+      }
+    },
+    "alert_ondo": {
+      "type": "Alert",
+      "props": {
+        "title": "ONDO: Divergence Watch",
+        "message": "2nd consecutive red day, now [TRENDING+DOWN] while attention rises — divergence watch",
+        "type": "warning"
+      }
+    }
+  }
+}

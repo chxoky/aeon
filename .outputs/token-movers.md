@@ -1,42 +1,42 @@
-*Token Movers — 2026-08-02*
+*Token Movers — Aug 3, 2026*
 
-_Mild alt rotation in a mostly flat tape — 52/100 large-caps green, BTC holding $63.1K; median top-50 move +0.2%._
+_Broad risk-off — 21/100 top coins green, median 24h −1.2%; deep losses in mid-caps, majors flat to down._
 
 *Top Winners (24h)*
-1. ADA (Cardano) — $0.1892  +9.3% / 7d +14.2% / 1h +1.0%  •  $576M / #16  [TRENDING+UP][MAJOR]
-2. ENA (Ethena) — $0.0885  +8.1% / 7d +3.2% / 1h −1.7%  •  $165M / #76
-3. PEPE (Pepe) — $0.0000029  +5.4% / 7d −1.9% / 1h −0.1%  •  $165M / #59  [TRENDING+UP]
-4. ARB (Arbitrum) — $0.0816  +4.4% / 7d −1.6% / 1h −0.2%  •  $39M / #95
-5. AVAX (Avalanche) — $6.57  +4.0% / 7d −1.9% / 1h +0.1%  •  $257M / #32
-6. DOT (Polkadot) — $0.7943  +4.0% / 7d −3.8% / 1h −0.3%  •  $95M / #53
-7. WLFI (World Liberty Financial) — $0.0560  +3.4% / 7d +1.5% / 1h +0.2%  •  $24M / #45
-8. UNI (Uniswap) — $4.19  +2.8% / 7d +11.3% / 1h −0.9%  •  $201M / #36
-9. NEAR (NEAR Protocol) — $1.70  +2.6% / 7d −5.6% / 1h −0.7%  •  $142M / #39
-10. XLM (Stellar) — $0.1741  +2.1% / 7d −2.2% / 1h −0.2%  •  $100M / #20  [MAJOR]
+1. H (Humanity) — $0.07665  +11.4% / 7d +27.0% / 1h +2.4%  •  $8.1M / #192
+2. PIEVERSE (Pieverse) — $0.802  +11.1% / 7d +15.1% / 1h +0.2%  •  $17.8M / #148
+3. M (MemeCore) — $1.21  +10.0% / 7d +0.2% / 1h +0.3%  •  $9.4M / #48
+4. HOLO (Holoworld) — $0.06959  +9.3% / 7d −1.8% / 1h +1.0%  •  $6.5M / #409
+5. BTW (Bitway) — $0.08955  +5.9% / 7d −4.1% / 1h +0.6%  •  $15.9M / #161
+6. XCN (Onyxcoin) — $0.003175  +5.6% / 7d −10.0% / 1h −0.7%  •  $9.5M / #219
+7. US (Talus) — $0.04903  +5.4% / 7d +1.4% / 1h −2.0%  •  $7.4M / #199
+8. ALGO (Algorand) — $0.08414  +5.0% / 7d 0.0% / 1h +0.2%  •  $36.8M / #79
+9. B (BUILDon) — $0.1631  +3.0% / 7d −15.4% / 1h −2.0%  •  $4.2M / #179
+10. ULTIMA (Ultima) — $2467  +2.5% / 7d +8.7% / 1h +0.1%  •  $3.6M / #155
 
 *Top Losers (24h)*
-1. BEAT (Audiera) — $4.13  −10.5% / 7d +17.2% / 1h −0.8%  •  $55M / #57
-2. STABLE (Stable) — $0.0315  −6.1% / 7d −17.3% / 1h −0.5%  •  $7.9M / #77
-3. QNT (Quant) — $60.78  −2.7% / 7d −3.8% / 1h −0.1%  •  $6.3M / #72
-4. KAS (Kaspa) — $0.02671  −1.5% / 7d −7.3% / 1h −0.5%  •  $6.0M / #80
-5. BDX (Beldex) — $0.0822  −1.4% / 7d −0.7% / 1h +0.1%  •  $14M / #87
-6. CC (Canton) — $0.1162  −1.3% / 7d −5.6% / 1h −0.2%  •  $6.1M / #22
-7. HYPE (Hyperliquid) — $51.49  −1.2% / 7d −12.8% / 1h −0.4%  •  $239M / #10  [TRENDING+DOWN][MAJOR]
-8. VVV (Venice Token) — $11.60  −1.2% / 7d −19.6% / 1h −0.4%  •  $8.6M / #93
-9. TAO (Bittensor) — $192.51  −1.1% / 7d −2.0% / 1h −0.2%  •  $75M / #42
-10. MORPHO (Morpho) — $1.94  −1.1% / 7d +1.9% / 1h −0.2%  •  $11M / #58
+1. KAITO (KAITO) — $0.990  −16.3% / 7d −16.8% / 1h +1.3%  •  $64.6M / #144  [CAPITULATION]
+2. BEAT (Audiera) — $3.29  −16.0% / 7d −8.2% / 1h −8.4%  •  $40.9M / #65
+3. META (MetaDAO) — $5.21  −13.7% / 7d +24.5% / 1h −0.4%  •  $7.7M / #229
+4. 币安人生 (BinanceLife) — $0.545  −11.8% / 7d −14.3% / 1h −1.6%  •  $11.9M / #94
+5. APR (aPriori) — $0.2093  −8.3% / 7d +0.9% / 1h +0.9%  •  $2.4M / #375
+6. BTSE (BTSE Token) — $0.8938  −5.6% / 7d +3.9% / 1h 0.0%  •  $2.7M / #198
+7. ONDO (Ondo) — $0.3700  −5.5% / 7d −9.8% / 1h +0.9%  •  $99.8M / #43  [TRENDING+DOWN]
+8. GRASS (Grass) — $0.3117  −5.1% / 7d −10.6% / 1h −0.7%  •  $9.0M / #158
+9. CARDS (Collector Crypt) — $0.1388  −4.7% / 7d +21.5% / 1h −1.5%  •  $1.1M / #542
+10. CFX (Conflux) — $0.04079  −4.6% / 7d −8.2% / 1h −0.3%  •  $4.9M / #152
 
 *Trending*
-1. CATE (Catecoin) — #800, $0.0199, +105.9%  [MICROCAP]
-2. BTC (Bitcoin) — #1, $63,151, +0.2%
-3. SLX (Solstice) — #785, $0.0831, −0.8%  [MICROCAP]
-4. PEPE (Pepe) — #59, $0.0000029, +5.1%  [TRENDING+UP]
-5. ADA (Cardano) — #16, $0.1892, +9.2%  [TRENDING+UP]
-6. PI (Pi Network) — #67, $0.0860, −0.8%
-7. HYPE (Hyperliquid) — #10, $51.33, −1.7%  [TRENDING+DOWN]
+1. BLESS (Bless) — #572, $0.01794, +30.9%  [PUMP-RISK]
+2. PENGU (Pudgy Penguins) — #111, $0.006051, −0.7%
+3. GRVT (GRVT Token) — #584, $0.2824, +9.0%
+4. BANK (Lorenzo Protocol) — #826, $0.04301, −12.3%  [TRENDING+DOWN]
+5. ANSEM (The Black Bull) — #283, $0.1995, −8.1%  [TRENDING+DOWN]
+6. ONDO (Ondo) — #42, $0.3706, −5.4%  [TRENDING+DOWN]
+7. PONS (Pons) — #761, $0.02770, +1.6%
 
 *Notable*
-• ADA [TRENDING+UP][MAJOR]: sustaining L1 breakout — third session of gains with 7d +14.2%; structural move, not a one-day bounce.
-• PEPE [TRENDING+UP]: meme rotation continues; 7d still −1.9% so strength is 24h-only — watch for follow-through.
-• HYPE [TRENDING+DOWN][MAJOR]: #10 coin at −12.8% 7d while search interest holds — distribution-into-trending-searches pattern.
-• BEAT: pump-fade complete — reversed from yesterday +15.7% to −10.5% today; 7d still +17.2% but momentum is gone.
+• BLESS: rank #572 trending at +30.9% — [PUMP-RISK], low-cap spike with no top-250 presence
+• KAITO: #144 down 16.3% on vol/mcap ratio 0.27 — [CAPITULATION] signal confirmed
+• BEAT (Audiera): yesterday's top winner (+15.7% [BREAKOUT]) now −16.0% — full single-session reversal
+• ONDO: 2nd consecutive red day, now [TRENDING+DOWN] while attention rises — divergence watch
