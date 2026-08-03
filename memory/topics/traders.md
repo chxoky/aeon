@@ -151,7 +151,7 @@
 - Recent thesis: "FULL BLOWN CLEAN OUT" on alts/memecoins very soon (Aug 01); BTC/ETH only worth monitoring for market shape. Crypto-equity laggard effect framework. ~95% non-financial noise.
 - Conviction notes: Insufficient personal trade action to assess conviction. Mix of philosophical commentary, cryptic sarcasm ("PONZI" calls), and Azura product announcements. Dr. Axius = builder identity, not active trader.
 - Calibration: PENDING Aug 01 16:45Z ("fucking PONZI" reply to @seyong — asset unclear). PENDING Jul 31 17:28Z (GCR reference context unclear).
-- Last seen: 2026-08-03T15:37:57Z (X macro analysis; 2020 DeFi comparison; Uniswap structure thesis)
+- Last seen: 2026-08-03T16:02:29Z (X birthday post, personal banter; skip/non-financial)
 - **Events (rolling):**
   - Jul 31 17:28Z — ambiguous: "@hamptonism Why did they sneak GCR into this? LMFAOOO" — GCR reference unclear [2083243302900441333]
   - Jul 31 22:25Z — informational: Azura cross-chain liquidity <1s teleport; infrastructure product announcement [2083318206618607998]
