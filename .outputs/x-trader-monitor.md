@@ -1,7 +1,11 @@
-🐦 *[X] @Wild_Randomness*
+🐦 *[X] @bull_genius*
 
-SOXL: "Need to keep selling rips until this clears though"
+BTC 4h repair work on the chart after Saylor's sell announcement had no follow-through down. Price bounced off monthly val (62.5k) right back into resistance.
 
-Chart shows SOXL 1d downtrend from 655.95 peak → 504-520 current consolidation. Bearish bounce-selling strategy; specific breakout level unclear from image. Aligns with WR's Jul 29 quarterly weakness thesis + SOXL blowoff pattern forecast. Cross-trader convergence: Crypto_Chase/ryzzqq/KillaXBT tracked semis reversal mid-week; WR tactical selling rips into resistance zone.
+High-level scalp TP zone IMO. If we manage to stabilize here: target 65.5k (July VAH) and 90d rvwap 66.5k. If not, another lower-high and rejection likely sends us below the val next.
 
-[View post](https://x.com/Wild_Randomness/status/2084297650632114265)
+_Bull_genius is observing only ("didn't have any position worth mentioning and wouldn't want to open one right now, will give it a few hours")._
+
+↳ _Charts show BTC consolidating around monthly support zones (62.5k val) with RVWAP levels marked (90d: 66.5k, 30d: 63.9k, 7d: 63.6k). Aligns with KillaXBT/HeartCanHodl emerging bullish thesis at structural support._
+
+[View post](https://x.com/bull_genius/status/2084300822905553351)
