@@ -1,0 +1,149 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration",
+        "description": "Discord Trader Monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_tag",
+        "event_section",
+        "sep1",
+        "quote_section",
+        "sep2",
+        "context_section",
+        "sep3",
+        "analysis_section"
+      ]
+    },
+    "badge_tag": {
+      "type": "Badge",
+      "props": {
+        "text": "DC: HCH — Free",
+        "variant": "secondary"
+      }
+    },
+    "event_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_event",
+        "text_event"
+      ]
+    },
+    "heading_event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "HeartCanHodl replied to FixTweet X post links (Tweet + FxTwitter)",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "quote_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_quote",
+        "text_quote"
+      ]
+    },
+    "heading_quote": {
+      "type": "Heading",
+      "props": {
+        "text": "HeartCanHodl",
+        "level": "h3"
+      }
+    },
+    "text_quote": {
+      "type": "Text",
+      "props": {
+        "text": "Memo was clear enough 🎬",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_context",
+        "text_context",
+        "link_xpost"
+      ]
+    },
+    "heading_context": {
+      "type": "Heading",
+      "props": {
+        "text": "Context required",
+        "level": "h3"
+      }
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "Referenced X post at",
+        "variant": "caption"
+      }
+    },
+    "link_xpost": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/i/status/2083500453753741777",
+        "href": "https://x.com/i/status/2083500453753741777"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_section": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read? What \"memo\" is being acknowledged? Is this a financial signal or non-financial content?",
+        "type": "warning"
+      }
+    }
+  }
+}
