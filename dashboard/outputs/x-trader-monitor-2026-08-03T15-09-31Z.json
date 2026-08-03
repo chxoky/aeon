@@ -1,0 +1,156 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor",
+        "description": "Market liquidation alert from @HeartCanHodl"
+      },
+      "children": [
+        "tweet",
+        "sep1",
+        "heatmap_heading",
+        "btc_row",
+        "eth_row",
+        "sndk_row",
+        "remainder",
+        "sep2",
+        "total_stat",
+        "macro_text",
+        "view_link"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "@HeartCanHodl",
+        "text": "Volatility is good"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heatmap_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Liquidation Heatmap (1h)",
+        "level": "h3"
+      }
+    },
+    "btc_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "btc_badge",
+        "btc_stat"
+      ]
+    },
+    "btc_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RED",
+        "variant": "destructive"
+      }
+    },
+    "btc_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC (long liquidations)",
+        "value": "$41.52M"
+      }
+    },
+    "eth_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "eth_badge",
+        "eth_stat"
+      ]
+    },
+    "eth_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RED",
+        "variant": "destructive"
+      }
+    },
+    "eth_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH (long liquidations)",
+        "value": "$33.16M"
+      }
+    },
+    "sndk_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "sndk_badge",
+        "sndk_stat"
+      ]
+    },
+    "sndk_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RED",
+        "variant": "destructive"
+      }
+    },
+    "sndk_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "SNDK (shorts)",
+        "value": "$7.60M"
+      }
+    },
+    "remainder": {
+      "type": "Badge",
+      "props": {
+        "text": "Remainder: GREEN (mixed)",
+        "variant": "secondary"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "total_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Total major-pair long liquidations",
+        "value": "$74.64M"
+      }
+    },
+    "macro_text": {
+      "type": "Text",
+      "props": {
+        "text": "Macro market observation on liquidation cascade/capitalization signal. HCH views volatility positively (trading opportunities). Aligns with group bullish thesis (liquidations = cleanup event).",
+        "variant": "body"
+      }
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View post on X",
+        "href": "https://x.com/HeartCanHodl/status/2084294446355714181"
+      }
+    }
+  }
+}
