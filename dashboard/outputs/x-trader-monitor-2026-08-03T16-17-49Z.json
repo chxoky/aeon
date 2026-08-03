@@ -1,0 +1,155 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @HeartCanHodl",
+        "description": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event_section",
+        "sep1",
+        "quote_section",
+        "sep2",
+        "classification_section",
+        "sep3",
+        "position_section",
+        "sep4",
+        "link_section"
+      ]
+    },
+    "event_section": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Cryptic conditional on SOL with meme image (Cramer selling BTC due to quantum threat → 'WE ARE SOO BACK' bullish rally sentiment + IBM CEO crypto news)",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "quote_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "quote_author",
+        "quote_text"
+      ]
+    },
+    "quote_author": {
+      "type": "Text",
+      "props": {
+        "text": "HeartCanHodl:",
+        "variant": "lead"
+      }
+    },
+    "quote_text": {
+      "type": "Text",
+      "props": {
+        "text": "If not $sol.. [image]",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "status_badge",
+        "read_prompt",
+        "interpretation_q"
+      ]
+    },
+    "status_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Unable to classify",
+        "variant": "outline"
+      }
+    },
+    "read_prompt": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "body"
+      }
+    },
+    "interpretation_q": {
+      "type": "Text",
+      "props": {
+        "text": "Is this expressing bearish SOL concern, hypothetical macro scenario, or sentiment commentary?",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "position_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "position_label",
+        "position_badge"
+      ]
+    },
+    "position_label": {
+      "type": "Text",
+      "props": {
+        "text": "Your SOL position:",
+        "variant": "caption"
+      }
+    },
+    "position_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "LONG ~10% (Aug 01-03 adds)",
+        "variant": "secondary"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_section": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/HeartCanHodl/status/2084311396960113095"
+      }
+    }
+  }
+}
