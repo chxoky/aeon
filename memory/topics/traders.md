@@ -160,6 +160,7 @@
   - Aug 01 16:45Z — ambiguous: "@seyong 241 replies and not a single nigga said it right. It's a fucking PONZI." — asset unclear; calibration sent [2083595013808668673]
   - Aug 01 21:57Z — informational: crypto-equity laggard effect framework; if majors bleed + onchain shows strength = laggard catching down [2083673615287919017]
   - Aug 03 15:37Z — informational: macro analysis 2020 DeFi summer parallels; Uniswap positioning + founder recovery thesis; bullish on DeFi/alt recovery cycle; "potential is there" [2084307711546544341]
+  - Aug 03 16:32Z — skip: product speculation reply; Uniswap/Frong meme integration hypothesis commentary (non-financial banter) [2084316469337141423]
 
 ## KillaXBT
 - Platforms: X (primary) + Discord (1411492188315193416 primary "K")
