@@ -1,0 +1,102 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_calibration",
+        "badge_tag",
+        "sep1",
+        "text_fixtweet_line1",
+        "text_fixtweet_line2",
+        "sep2",
+        "text_heartcanhodl",
+        "sep3",
+        "alert_unable"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "badge_tag": {
+      "type": "Badge",
+      "props": {
+        "text": "DC: HCH — Free"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text_fixtweet_line1": {
+      "type": "Text",
+      "props": {
+        "text": "FixTweet shared X post link",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_fixtweet_line2": {
+      "type": "Text",
+      "props": {
+        "text": "↩️ FixTweet: \"[Tweet]…[FxTwitter]\"",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text_heartcanhodl": {
+      "type": "Text",
+      "props": {
+        "text": "heartcanhodl: (Image-only reply, no text)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert_unable": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Image not readable. What's the chart showing?",
+        "type": "warning"
+      },
+      "children": []
+    }
+  }
+}
