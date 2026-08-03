@@ -1,0 +1,95 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading_main",
+        "text_event",
+        "separator_1",
+        "tweetcard_1",
+        "separator_2",
+        "stack_metadata"
+      ]
+    },
+    "heading_main": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Professional headshot image (business executive)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "tweetcard_1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Would Ken lie? https://t.co/mlt9cIDT1i"
+      },
+      "children": []
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack_metadata": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_timestamp",
+        "link_tweet",
+        "text_analysis"
+      ]
+    },
+    "text_timestamp": {
+      "type": "Text",
+      "props": {
+        "text": "Timestamp: Mon Aug 03 18:28:33 +0000 2026",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/Wild_Randomness/status/2084345694631202990"
+      },
+      "children": []
+    },
+    "text_analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify without context — which Ken is this referencing, and what's the financial signal (if any)? Personal conviction/thesis shift, or banter?",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}

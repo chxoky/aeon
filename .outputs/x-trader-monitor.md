@@ -1,9 +1,9 @@
-🔍 *Calibration — @HeartCanHodl*
+🔍 *Calibration — @Wild_Randomness*
 
-Event: Reply-dependent message without visible context from original @tradfi post
+Event: Professional headshot image (business executive)
+Wild_Randomness: "Would Ken lie? https://t.co/mlt9cIDT1i"
 
-HeartCanHodl: "@tradfi I confirmed in advance"
+Timestamp: Mon Aug 03 18:28:33 +0000 2026
+Tweet: https://x.com/Wild_Randomness/status/2084345694631202990
 
-Unable to classify — what's your read? Is this trade confirmation, personal plan confirmation, or banter?
-
-[View post](https://x.com/HeartCanHodl/status/2084345079444201587)
+Unable to classify without context — which Ken is this referencing, and what's the financial signal (if any)? Personal conviction/thesis shift, or banter?
