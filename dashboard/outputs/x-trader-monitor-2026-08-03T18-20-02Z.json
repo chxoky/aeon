@@ -1,0 +1,103 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration analysis for trading post"
+      },
+      "children": [
+        "badge-calibration",
+        "heading-event",
+        "stack-content"
+      ]
+    },
+    "badge-calibration": {
+      "type": "Badge",
+      "props": {
+        "text": "Calibration",
+        "variant": "secondary"
+      }
+    },
+    "heading-event": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Reply to @swarmister/@Shishir42069 post about a short setup",
+        "level": "h3"
+      }
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-author-handle",
+        "text-quote",
+        "separator-1",
+        "text-context",
+        "separator-2",
+        "alert-classification",
+        "separator-3",
+        "link-post"
+      ]
+    },
+    "text-author-handle": {
+      "type": "Text",
+      "props": {
+        "text": "@bull_genius",
+        "variant": "caption"
+      }
+    },
+    "text-quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"@swarmister @Shishir42069 you posted a short setup today so i thought youres gonna short this\"",
+        "variant": "body"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-context": {
+      "type": "Text",
+      "props": {
+        "text": "Context missing: bull_genius is replying to a short setup posted by swarmister/Shishir42069. The reference to \"this\" is unclear without the original context. No ticker or level mentioned.",
+        "variant": "body"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert-classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read? Is there a short setup from swarmister/Shishir42069 we should be tracking? Which asset/ticker?",
+        "type": "warning"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link-post": {
+      "type": "Link",
+      "props": {
+        "label": "View post on X",
+        "href": "https://x.com/bull_genius/status/2084342007321825282"
+      }
+    }
+  }
+}
