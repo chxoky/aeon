@@ -1,10 +1,7 @@
 ## Summary
 
-Ran `token-alert` for 2026-08-02.
-
-**Prices fetched (CoinGecko):**
-- BTC: $63,091 (+0.08% 24h) — threshold 5% — **no alert**
-- ETH: $1,856.14 (−0.53% 24h) — threshold 8% — **no alert**
-- SOL: $72.99 (+0.23% 24h) — threshold 10% — **no alert**
-
-No anomalies detected. `TOKEN_ALERT_OK` logged to `memory/logs/2026-08-02.md`. No notification sent.
+- Fetched live prices for all 3 tracked tokens from CoinGecko.
+- No alert conditions triggered: BTC +0.22% (threshold 5%), ETH +0.05% (threshold 8%), SOL +0.23% (threshold 10%) — all well within bounds.
+- Prices recovered slightly from this morning's market-context snapshot (BTC $62,543 → $63,200; ETH $1,841 → $1,854; SOL $72.43 → $73.07).
+- Logged `TOKEN_ALERT_OK` with current prices to `memory/logs/2026-08-03.md`.
+- No notification sent.
