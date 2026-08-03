@@ -1,0 +1,58 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @swarmister"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_event",
+        "tweet_card",
+        "analysis_alert",
+        "link_post"
+      ]
+    },
+    "badge_event": {
+      "type": "Badge",
+      "props": {
+        "text": "Reply to @RunnerXBT (original message not visible)",
+        "variant": "outline"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "@swarmister",
+        "text": "@RunnerXBT Yes pls"
+      }
+    },
+    "analysis_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read? Similar pattern to earlier ambiguous yes/no replies (Aug 03 09:31Z @johnjjj1997 Yes).",
+        "type": "warning"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/swarmister/status/2084296198937030759"
+      }
+    }
+  }
+}
