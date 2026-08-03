@@ -1,0 +1,97 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading_calibration",
+        "text_event",
+        "separator_1",
+        "text_marker",
+        "text_signal",
+        "text_consolidation",
+        "text_support",
+        "separator_2",
+        "alert_ambiguity",
+        "separator_3",
+        "storylink_tweet"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration — @HeartCanHodl",
+        "level": "h2"
+      }
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: ZEC technical setup on 1h Binance — timestamp marker at 482.48 level",
+        "variant": "lead"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_marker": {
+      "type": "Text",
+      "props": {
+        "text": "Marker level: 482.48"
+      }
+    },
+    "text_signal": {
+      "type": "Text",
+      "props": {
+        "text": "Signal: LGW"
+      }
+    },
+    "text_consolidation": {
+      "type": "Text",
+      "props": {
+        "text": "Consolidation: 482–496"
+      }
+    },
+    "text_support": {
+      "type": "Text",
+      "props": {
+        "text": "Support levels: 479.50, 470.74"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_ambiguity": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Chart-driven but action ambiguous. Is this chart confirmation of existing position, or taking a new long?",
+        "type": "warning"
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "storylink_tweet": {
+      "type": "StoryLink",
+      "props": {
+        "title": "ZEC Technical Setup — @HeartCanHodl",
+        "href": "https://x.com/HeartCanHodl/status/2084243388346552640",
+        "source": "X"
+      }
+    }
+  }
+}
