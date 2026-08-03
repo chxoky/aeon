@@ -272,6 +272,7 @@
   - Aug 03 14:20Z — ambiguous: Discord Chat supporting channel "but covered in this dip and flipped" — cryptic fragment, asset/action unclear; calibration alert sent to Kyle [1533842018810462268]
   - Aug 03 14:30Z — skip: "Fc btc 5m" — 10th Fc pattern (false-close chart check, 5-minute timeframe); established calibration per Step 5B protocol; fast-path worker alerted but should be silent per calibration [1533844568209096775]
   - Aug 03 14:34Z — ambiguous: Discord Free primary channel (1472153627324842057); reply to FixTweet linking X posts; "Memo was clear enough <emoji>" — acknowledgment/agreement of prior X content, no ticker/level/action language; context requires viewing referenced X tweet content; HR-2 calibration alert sent to Kyle per protocol [1533845489307615384]
+  - Aug 03 14:46Z — ambiguous: Discord Comments channel (1393137051108507728, primary); "That's invalidation. Keep alerts but no SL" — cryptic instruction referencing technical invalidation or position status; appears to be reply without visible referenced_message context; implies modification to alert settings + stop loss removal; reply-dependent interpretation required; HR-2 calibration alert sent to Kyle per protocol; fast-path worker alerted but skill processes memory-only per fast-path protocol [1533848621517111517]
 
 ## Stoiiic
 - Platforms: X (primary; X-only, no Discord presence)
