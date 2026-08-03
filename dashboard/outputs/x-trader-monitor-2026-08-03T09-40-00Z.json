@@ -1,0 +1,70 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @swarmister"
+      },
+      "children": [
+        "content-stack"
+      ]
+    },
+    "content-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event-text",
+        "sep1",
+        "quote-text",
+        "tweet-link",
+        "sep2",
+        "question-text"
+      ]
+    },
+    "event-text": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @johnjjj1997",
+        "variant": "muted"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "quote-text": {
+      "type": "Text",
+      "props": {
+        "text": "swarmister: \"Yes\"",
+        "variant": "lead"
+      }
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/swarmister/status/2084210524678422823"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "question-text": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read? Does this relate to a financial position/thesis, or just social banter?",
+        "variant": "body"
+      }
+    }
+  }
+}
