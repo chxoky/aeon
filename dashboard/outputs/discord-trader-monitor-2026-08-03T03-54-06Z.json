@@ -1,0 +1,111 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "heading_calibration",
+        "separator_1",
+        "stack_messages",
+        "separator_2",
+        "alert_classify"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: HCH — Chat]",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "stack_messages": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "message_earlier",
+        "message_now"
+      ]
+    },
+    "message_earlier": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "time_earlier",
+        "text_earlier"
+      ]
+    },
+    "time_earlier": {
+      "type": "Text",
+      "props": {
+        "text": "Earlier (Aug 03 02:13Z):",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "text_earlier": {
+      "type": "Text",
+      "props": {
+        "text": "\"Not too much to ask, one of those green wick and uptrend continuation\"",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "message_now": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "time_now",
+        "text_now"
+      ]
+    },
+    "time_now": {
+      "type": "Text",
+      "props": {
+        "text": "Now (Aug 03 03:51Z):",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "text_now": {
+      "type": "Text",
+      "props": {
+        "text": "\"Preparing for that wick\"",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "alert_classify": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What asset/timeframe? Is this TA observation or entry setup?",
+        "type": "warning"
+      },
+      "children": []
+    }
+  }
+}
