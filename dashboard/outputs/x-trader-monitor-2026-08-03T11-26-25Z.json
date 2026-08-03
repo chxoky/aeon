@@ -1,0 +1,150 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "platform_badge",
+        "tweet_card",
+        "separator_1",
+        "key_levels_section",
+        "separator_2",
+        "convergence_section",
+        "link_tweet"
+      ]
+    },
+    "platform_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "[X]",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "BTC Monday Pattern + Support Zones\n\nCharts show recurring Monday-high pattern across past months. Today (Mon Aug 3) already formed high in Asian session.\n\n⚠️ Key levels:\n• 60-61K = critical support zone (observe closely)\n• If broken → potential 57K liquidation sweep\n• Aligns with prior 61-61.5K support level thesis"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "key_levels_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "key_levels_heading",
+        "level_60_61k",
+        "level_57k",
+        "level_61_61_5k"
+      ]
+    },
+    "key_levels_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Key Levels",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "level_60_61k": {
+      "type": "Text",
+      "props": {
+        "text": "60-61K = critical support zone (observe closely)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "level_57k": {
+      "type": "Text",
+      "props": {
+        "text": "If broken → potential 57K liquidation sweep",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "level_61_61_5k": {
+      "type": "Text",
+      "props": {
+        "text": "Aligns with prior 61-61.5K support level thesis",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "convergence_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "convergence_heading",
+        "swarmister_data",
+        "bull_genius_data",
+        "consensus_note"
+      ]
+    },
+    "convergence_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Cross-Trader Convergence",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "swarmister_data": {
+      "type": "Text",
+      "props": {
+        "text": "swarmister 09:42Z BTC 4H setup also targets 61.5k-61k zone",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "bull_genius_data": {
+      "type": "Text",
+      "props": {
+        "text": "bull_genius DCA zone 60-62K",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "consensus_note": {
+      "type": "Text",
+      "props": {
+        "text": "Group consensus on support level",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2084238047025967475"
+      },
+      "children": []
+    }
+  }
+}

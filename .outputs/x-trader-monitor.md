@@ -22,3 +22,17 @@ Per Step 4A of the skill protocol:
 - ✅ **No notification sent** (silent log only)
 
 The event was correctly classified as non-financial and requires no further action or alerting.
+🐦 *[X] @KillaXBT*
+
+**BTC Monday Pattern + Support Zones**
+
+Charts show recurring Monday-high pattern across past months. Today (Mon Aug 3) already formed high in Asian session.
+
+⚠️ **Key levels:**
+• 60-61K = critical support zone (observe closely)
+• If broken → potential 57K liquidation sweep
+• Aligns with prior 61-61.5K support level thesis
+
+[View tweet](https://x.com/KillaXBT/status/2084238047025967475)
+
+↳ *Cross-trader convergence: swarmister 09:42Z BTC 4H setup also targets 61.5k-61k zone; bull_genius DCA zone 60-62K. Group consensus on support level.*
