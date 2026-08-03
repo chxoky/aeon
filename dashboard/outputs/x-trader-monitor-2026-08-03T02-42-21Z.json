@@ -1,0 +1,101 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Bitcoin Seasonality Context"
+      },
+      "children": [
+        "tweet_card",
+        "sep1",
+        "returns_heading",
+        "returns_table",
+        "sep2",
+        "context_text",
+        "charts_link"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "this was the last better of all seasonality analysis"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "returns_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "August Historical Returns (2013-2026)",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "returns_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Period",
+          "Return",
+          "Notes"
+        ],
+        "rows": [
+          [
+            "Median",
+            "-7.49%",
+            "Predominantly red"
+          ],
+          [
+            "2017",
+            "+65.32%",
+            "Notable exception"
+          ],
+          [
+            "2021",
+            "+13.8%",
+            "Notable exception"
+          ],
+          [
+            "Current YTD Aug",
+            "-6.49%",
+            ""
+          ]
+        ]
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "Shared as portfolio context.",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "charts_link": {
+      "type": "Link",
+      "props": {
+        "label": "Full charts",
+        "href": "https://x.com/HeartCanHodl/status/2084106234249007189"
+      },
+      "children": []
+    }
+  }
+}
