@@ -272,8 +272,9 @@
 - Recent thesis: BTC structural bull long-term. 90% conviction on bottom; tentative on timing ("might start buying too early"). Sub-50K = "mortgage your house" tier. 60-62K = decent deal. Exceptional deal likely still ahead. August historically weak; mid-low 50s absolute lows likely. HYPE: "generational buy prices approaching" — 4h exhaustion pattern, multi-month uptrend bottom. "Let perps chill, explore onchain > scalp chop."
 - Conviction notes: Patient contrarian accumulator (DCA into weakness). Dismissive of scalping chop. BTC joyful July → weak August historical pattern. Jul 31 09:13Z rough battle plan: 64.2k-63.9k battleground, 60K DCA target, 57K weak-low, 90D/30D rvwap discipline. "Not betting much on BTC LTF."
 - Calibration: PENDING Aug 02 12:26Z — "700+ rolls, >1 eth pulls, rare" re @3eleth — gaming/casino reference or ETH terminology? Kyle interpretation needed. PENDING Jul 31 05:46Z — FOMO long ticker unstated.
-- Last seen: 2026-08-03T08:32:43Z (X protocol analysis post)
+- Last seen: 2026-08-03T14:00:28Z (X wisdom/sentiment post)
 - **Events (rolling):**
+  - Aug 03 14:00Z — informational: "@Baskitchbrah buy when others are pearful" (Buffett-style contrarian wisdom on weakness buying); aligns with structural bull thesis; posted to fellow trader; sentiment reinforcement [2084278228819104215]
   - Jul 31 05:46Z — ambiguous: personal "shameful fomo long hit 7d rvwap overnight"; SNDK mention; BTC commentary; ticker unclear [2083066853488726278]
   - Jul 31 05:55Z — informational: HYPE 4h exhaustion candles; "generational buy prices approaching"; multi-TF long-term thesis [2083069050209345917]
   - Jul 31 07:03Z — informational: BTC DCA sub-50/low-50s; 90% conviction on bottom; "might start buying too early" [2083086178237009942]
