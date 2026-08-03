@@ -171,6 +171,7 @@
 - Calibration: PENDING Jul 31 14:39Z — BTC monthly options/perps direction unclear (long/short/calls/puts?). ✅/checkmark posts are plausible execution confirmations per baseline.
 - Last seen: 2026-08-03T14:49:41Z (Discord reply — Taking 30% TP on BTC position)
 - **Events (rolling):**
+  - Aug 03 17:16Z — informational: BTC short squeeze signal; leverage liquidated, funding declining, textbook reversal [2084327547005735133]
   - Aug 03 14:49Z — trade-partial-tp: Taking 30% (partial close/profit-taking on BTC position); reply to own earlier message about holding for 54-58; chart image attached; fast-path alerted [1533849345122635956]
   - Aug 03 12:13Z — informational: BTC bullish TA restatement; "hoping we can get a wick into this price region for a long"; reply to own analysis on 1st monthly open/5th pivot sweep zones (60-61K observe, 57K sweep if breaks) [15338099337480110388]
   - Aug 03 11:28Z — informational-conviction: HYPE holding for 54-58; reaffirming position; reply to Aug 01 entry; chart attached [1533798794137702652]

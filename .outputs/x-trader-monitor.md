@@ -1,7 +1,11 @@
-🐦 *[X] @Stoiiic*
+🐦 *[BTC] @KillaXBT*
 
-keeping an eye on this but one thesis I'm leaning towards is $ETH and $SOL playing reverse roles next cycle in terms of relative strength. (not multiples)
+Pretty textbook short squeeze.
 
-[View tweet](https://x.com/Stoiiic/status/2084318792998383866)
+Leverage has been completely flushed out, while funding remains low.
 
-↳ _Touches ETH and SOL pair — both major tickers tracked in crypto thesis monitoring._
+Looks like a lot of people got caught on the wrong side of this LTF move higher.
+
+[View tweet](https://x.com/KillaXBT/status/2084327547005735133)
+
+↳ _Short liquidation signal aligns with documented HTF-bullish structural bias. Diverges from near-term chop/downside expectations — suggests acceleration of squeeze narrative. Charts validate: shorts railed (massive OI collapse), funding collapsing post-move._
