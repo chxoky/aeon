@@ -151,13 +151,14 @@
 - Recent thesis: "FULL BLOWN CLEAN OUT" on alts/memecoins very soon (Aug 01); BTC/ETH only worth monitoring for market shape. Crypto-equity laggard effect framework. ~95% non-financial noise.
 - Conviction notes: Insufficient personal trade action to assess conviction. Mix of philosophical commentary, cryptic sarcasm ("PONZI" calls), and Azura product announcements. Dr. Axius = builder identity, not active trader.
 - Calibration: PENDING Aug 01 16:45Z ("fucking PONZI" reply to @seyong — asset unclear). PENDING Jul 31 17:28Z (GCR reference context unclear).
-- Last seen: 2026-08-02T19:21:59Z (X reply bearish banter on onchain shitcoins)
+- Last seen: 2026-08-03T15:37:57Z (X macro analysis; 2020 DeFi comparison; Uniswap structure thesis)
 - **Events (rolling):**
   - Jul 31 17:28Z — ambiguous: "@hamptonism Why did they sneak GCR into this? LMFAOOO" — GCR reference unclear [2083243302900441333]
   - Jul 31 22:25Z — informational: Azura cross-chain liquidity <1s teleport; infrastructure product announcement [2083318206618607998]
   - Aug 01 05:12Z — informational: "FULL BLOWN CLEAN OUT very soon" on alts/memecoins; BTC/ETH only; 90%+ July winners will give back gains [2083420652304814421]
   - Aug 01 16:45Z — ambiguous: "@seyong 241 replies and not a single nigga said it right. It's a fucking PONZI." — asset unclear; calibration sent [2083595013808668673]
   - Aug 01 21:57Z — informational: crypto-equity laggard effect framework; if majors bleed + onchain shows strength = laggard catching down [2083673615287919017]
+  - Aug 03 15:37Z — informational: macro analysis 2020 DeFi summer parallels; Uniswap positioning + founder recovery thesis; bullish on DeFi/alt recovery cycle; "potential is there" [2084307711546544341]
 
 ## KillaXBT
 - Platforms: X (primary) + Discord (1411492188315193416 primary "K")

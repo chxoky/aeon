@@ -1,0 +1,56 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "separator",
+        "analysis_section"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "trading_axe",
+        "handle": "trading_axe",
+        "text": "2020 DeFi Summer parallels: OG founders returning, Uniswap integrating 'easter egg' into launch pad, entertaining both extremes of onchain spectrum. Structural environment parallels 2020. Hayden benefits from expanding Uniswap in lacklustre market. 2020 crypto was meh but DeFi popped off (YFI beat BTC).\n\nPotential is there."
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "view_link",
+        "analysis_text"
+      ]
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/trading_axe/status/2084307711546544341"
+      }
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Macro bullish sentiment on DeFi cycle recovery aligns with group net-long regime shift. Divergence from Aug 01 bearish \"cleanout\" call shows longer-term constructive positioning.",
+        "variant": "body"
+      }
+    }
+  }
+}
