@@ -1,0 +1,114 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Calibration — Discord trading activity review"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_calibration",
+        "badge_channel",
+        "sep1",
+        "heading_event",
+        "stack_details",
+        "sep2",
+        "alert_classify",
+        "text_metadata"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration",
+        "level": "h2"
+      }
+    },
+    "badge_channel": {
+      "type": "Badge",
+      "props": {
+        "text": "DC: HCH — Chat",
+        "variant": "secondary"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "stack_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_description",
+        "text_user",
+        "text_content"
+      ]
+    },
+    "text_description": {
+      "type": "Text",
+      "props": {
+        "text": "Image-only message in supporting channel",
+        "variant": "body"
+      }
+    },
+    "text_user": {
+      "type": "Text",
+      "props": {
+        "text": "User: HeartCanHodl",
+        "variant": "body"
+      }
+    },
+    "text_content": {
+      "type": "Text",
+      "props": {
+        "text": "Content: [chart attachment, no text context]",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_classify": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to Classify",
+        "message": "What's your read?",
+        "type": "info"
+      }
+    },
+    "text_metadata": {
+      "type": "Text",
+      "props": {
+        "text": "Message ID: 1533793085610528850 | Timestamp: 2026-08-03T11:06:08Z",
+        "variant": "caption"
+      }
+    }
+  }
+}
