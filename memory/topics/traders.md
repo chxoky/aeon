@@ -189,8 +189,32 @@
 - Calibration: PENDING Aug 02 16:51Z ("Loracle" image X post — asset unclear). RESOLVED: "Fc" pattern = false-close TA check, not trade signal. RESOLVED: SPCX "enjoying some longs" = confirmed position flip Aug 02.
 - Last seen: 2026-08-03T11:42:01Z (X post — ZEC chart + "LGW", calibration alert sent)
 - Calibration: PENDING Aug 03 14:20Z (Discord Chat "but covered in this dip and flipped" — cryptic fragment, asset unclear, action ambiguous). PENDING Aug 03 11:43Z (X link-only post + 2 unfetchable images — asset/topic unclear). PENDING Aug 02 16:51Z ("Loracle" image X post — asset unclear). RESOLVED: "Fc" pattern = false-close TA check, not trade signal. RESOLVED: SPCX "enjoying some longs" = confirmed position flip Aug 02.
-- Last seen: 2026-08-03T14:20:34Z (Discord Chat — cryptic "covered in this dip and flipped" fragment)
+- Last seen: 2026-08-03T14:32:11Z (X post — ETH long confirmation with @xyzhahe)
 - **Events (rolling):**
+  - Aug 03 14:32Z — informational: ETH long confirmation with @xyzhahe; priority ticker alignment [2084286211150270878]
+  - Aug 03 14:30Z — skip: "Fc btc 5m" — 10th Fc pattern (false-close chart check, 5-minute timeframe); established calibration per Step 5B protocol; fast-path worker alerted but should be silent per calibration [1533844568209096775]
+  - Aug 03 14:20Z — ambiguous: Discord Chat supporting channel "but covered in this dip and flipped" — cryptic fragment, asset/action unclear; calibration alert sent to Kyle [1533842018810462268]
+  - Aug 03 14:09Z — informational: ZEC chart + "LGW" share to @5morewhooppers; mechanical repeat of 11:42Z analysis; no new detail [2084280605207134222]
+  - Aug 03 14:00Z — informational-conviction: "3 dip-buying opportunities since ~august start" all taken; BTC 1h chart (Binance) showing support zones 63150/62275/62300; retrospective summary validating disciplined Aug 1-3 accumulation thesis [2084278272536568248]
+  - Aug 03 13:48Z — informational: BTC/ETH ETF inflows spike; validates bullish regime shift (HCH +5-7.5% longs Aug 01-03); structural flows support group conviction [2084275123998298529]
+  - Aug 03 13:20Z — skip: "Fc btc 4hr" — 9th Fc pattern (false-close chart check, 4-hour timeframe); established calibration per Step 5B protocol; silent log, no alert [1533826920817492152]
+  - Aug 03 12:09Z — informational: Discord Chat supporting channel; risk management philosophy "Don't go all in one clip high leverage"; generic wisdom/guidance, not personal position update; silent log per supporting-channel protocol [1533808927916163082]
+  - Aug 03 11:59Z — ambiguous: X reply to @24_gutta "All i can say is that this area is worth having your favourite entries ;)" — cryptic price-area reference, no ticker/level specified; reply-dependent context; calibration alert sent to Kyle per HR-2 protocol [2084247784354681131]
+  - Aug 03 11:58Z — informational: URL-only X post share (TreeNewsFeed: MicroStrategy sold 1,637 BTC, reducing holdings to 842,138 BTC); macro MSTR sentiment tracking; no personal trade action; silent log [1533806258484805792]
+  - Aug 03 11:43Z — ambiguous: X post link-only "https://t.co/aIqxBMYeDZ" + 2 images (media fetch failed); unable to determine topic/asset; calibration alert sent [2084243710695653859]
+  - Aug 03 11:42Z — ambiguous: ZEC chart + "LGW" (cryptic abbreviation); 1h BINANCE consolidation 482-496 w/ support 479.50/470.74, timestamp marker at 482.48; chart-readable but action unclear (confirmation vs new long?); cross-platform dedup: matching Discord image-only post 11:06Z (topic unknown, 36min prior); calibration alert sent per HR-2 [2084243388346552640]
+  - Aug 03 10:48Z — skip: URL-only X link share (https://x.com/i/status/2084229304049959421) in HCH-Free primary channel; no financial content; silent log per protocol [1533788593108029441]
+  - Aug 03 10:43Z — informational: BTC 62k support holding as positive signal; TA/seasonality bearish + multiple FUDs (Saylor selling, cold card exploit, quantum fears) = perfect setup for "scam PA to the upside"; macro sentiment analysis on contrarian technical structure; fast-path alerted [1533787297944961114]
+  - Aug 03 08:27Z — ambiguous: "Slow bait 🪤" (Discord Chat supporting channel; cryptic observation with trap emoji; no ticker/asset/market structure specified; could indicate price trap setup, market manipulation bait, or waiting for slow market moves; reply-dependent or context-missing interpretation required; calibration alert sent to Kyle per HR-2 protocol; URL: discord message_id=1533753204104364082) [1533753204104364082]
+  - Aug 03 08:25Z — trade-partial-close: ALL crypto shorts closed (reply to earlier 01 18:38Z "cover half" message; completing exit from all crypto shorts) [1533752575788926977]
+  - Aug 03 06:45Z — trade-conviction-add: ETH+SOL +2.5% each LONG (via Discord Trades); continues allocation build toward 50-60% target [1533727526973739058]
+  - Aug 03 02:37Z — informational: BTC monthly seasonality analysis (2013-2026 Coinglass data); August median -7.49% (context for bullish regime); shared educational data [2084106234249007189]
+  - Aug 03 02:34Z — informational: Bitcoin monthly seasonality heatmap (2013-2026 returns); 2026 YTD Jan-Jun red, recovery Jul +7%, Aug +1% to date; historical August trend mixed; market analysis only [2084105722430906747]
+  - Aug 03 02:25Z — ambiguous: X reply "@BullTheoryio 👀" (very short; eyes emoji only; unclear context or financial signal; no ticker/level/action; reply-dependent interpretation required; possibly watching another trader/post but content unknown; calibration alert sent to Kyle per HR-2 protocol; URL: https://x.com/HeartCanHodl/status/2084103379564081479) [2084103379564081479]
+  - Aug 03 02:18Z — trade-conviction-add: LIT/PUMP +1% each spot (reply to prior 1% each entry; strengthening position on Aug 02 major flip + emerging tech bet) [1533660396148490331]
+  - Aug 03 02:13Z — ambiguous: "Not too much to ask\n\nOne of those green wick and uptrend continuation" (cryptic; no ticker specified; technical language suggests market observation on uptrend structure; calibration alert sent to Kyle re: asset reference; no alert until clarified) [1533659130609533068]
+  - Aug 03 02:02Z — trade-new-entry: TAO/STABLE/ASTS spot longs +1% each (post-regime-shift accumulation) [1533656343196598373]
+  - Aug 01 05:06Z — trade-conviction-add: HYPE +5% LONG via Hyperliquid 2-entry scale [1532977842806194207]
   - Jul 31 12:29Z — trade-partial-tp: HYPE/SOL/ZEC -2% each short cover [1532726959908327526]
   - Jul 31 12:30Z — trade-partial-tp: SHIB/KAITO -1% each short cover [1532727081736208586]
   - Jul 31 14:27Z — trade-partial-close: BTC+ETH shorts FULLY closed [1532756599263985664]
