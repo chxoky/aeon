@@ -204,6 +204,7 @@
   - Aug 02 17:19Z — trade-conviction-add: SPCX +2% spot long (position flip from prior short) [1533524754546425896]
   - Aug 02 17:25Z — trade-new-entry: PENDLE/LIT/PUMP +1% each spot (LIT=major flip from strong short) [1533526154693054506]
   - Aug 02 17:27Z — informational: "Done with diversification" — BTC/ETH/SOL/ZEC/HYPE majors + 8 alts + stocks separate [1533526775181737994]
+  - Aug 03 01:57Z — skip: URL-only X post link (https://x.com/i/status/2084095968874831893) in HCH-Free channel; no financial content; silent log per protocol [1533655134402379967]
 
 ## Stoiiic
 - Platforms: X (primary; X-only, no Discord presence)
