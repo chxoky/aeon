@@ -1,0 +1,42 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "tweet_link",
+        "summary_text"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "@bull_genius",
+        "text": "stuff looks like its hit resistance and now rolling over with 7d rvwap became resistance, yearly and monthly poc became resistance and now 30d joins in as we are trading below that as well\n\nbtc at july val, still time to repair but im really cautious rn not to give back july gains here. if we reclaim, great, ill be back but this looks like downtrend\n\nhappy anal august guys"
+      },
+      "children": []
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/bull_genius/status/2084178479814263274"
+      },
+      "children": []
+    },
+    "summary_text": {
+      "type": "Text",
+      "props": {
+        "text": "Multi-timeframe resistance confluence showing bearish technical structure. Bull_genius maintains HTF-bullish conviction but tactically cautious on near-term downtrend risk.",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
