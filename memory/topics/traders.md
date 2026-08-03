@@ -218,6 +218,7 @@
   - Aug 03 02:34Z — informational: Bitcoin monthly seasonality heatmap (2013-2026 returns); 2026 YTD Jan-Jun red, recovery Jul +7%, Aug +1% to date; historical August trend mixed; market analysis only [2084105722430906747]
   - Aug 03 02:37Z — informational: BTC monthly seasonality analysis (2013-2026 Coinglass data); August median -7.49% (context for bullish regime); shared educational data [2084106234249007189]
   - Aug 03 06:45Z — trade-conviction-add: ETH+SOL +2.5% each LONG (via Discord Trades); continues allocation build toward 50-60% target [1533727526973739058]
+  - Aug 03 08:25Z — trade-partial-close: ALL crypto shorts closed (reply to earlier 01 18:38Z "cover half" message; completing exit from all crypto shorts) [1533752575788926977]
 
 ## Stoiiic
 - Platforms: X (primary; X-only, no Discord presence)
