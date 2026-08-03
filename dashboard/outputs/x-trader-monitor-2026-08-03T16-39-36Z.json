@@ -1,0 +1,77 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "text_calibration",
+        "separator1",
+        "stack_tweet",
+        "separator2",
+        "text_context"
+      ]
+    },
+    "text_calibration": {
+      "type": "Text",
+      "props": {
+        "text": "🔍 Calibration — @trading_axe",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack_tweet": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_reply_to",
+        "tweet_card"
+      ]
+    },
+    "text_reply_to": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to: @zoomerfied",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "trading_axe",
+        "handle": "trading_axe",
+        "text": "He thinks we think there's a difference.\n\n~ Dr. Axius"
+      },
+      "children": []
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "Context: Unable to interpret financial signal from reply without seeing original @zoomerfied message. Matches trader's recent baseline (~95% non-financial noise). Is this market commentary or personal banter?",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
