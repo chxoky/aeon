@@ -1,1 +1,11 @@
-🐦 *[X] @bull_genius*\n\nstuff looks like its hit resistance and now rolling over with 7d rvwap became resistance, yearly and monthly poc became resistance and now 30d joins in as we are trading below that as well\n\nbtc at july val, still time to repair but im really cautious rn not to give back july gains here. if we reclaim, great, ill be back but this looks like downtrend\n\nhappy anal august guys\n\n[View tweet](https://x.com/bull_genius/status/2084178479814263274)\n\n_Multi-timeframe resistance confluence showing bearish technical structure. Bull_genius maintains HTF-bullish conviction but tactically cautious on near-term downtrend risk._
+🐦 *[X] @Bitcoin_Astro*
+
+Total Solar Eclipse 12 August — astrological timing framework for market forecasting.
+
+Bitcoin_Astro notes that solar eclipses are among the most important timing events he uses when forecasting markets. Historically they have often coincided with significant turning points, sometimes occurring on the eclipse itself, but often within weeks before or after.
+
+His view: Bitcoin spent the last two months trading in a relatively tight range; he continues to believe a much larger move is approaching.
+
+[View tweet](https://x.com/Bitcoin_Astro/status/2084185923407823269)
+
+↳ _Aug 12 Solar Eclipse marks a potential turning point window per his astrological framework. Aligns with group consensus on imminent directional break after consolidation._

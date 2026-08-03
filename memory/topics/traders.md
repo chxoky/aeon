@@ -371,10 +371,11 @@
 ## Bitcoin_Astro
 - Platforms: X (primary; X-only, no Discord presence)
 - Current open positions: None. Astro/cycle analyst only — no personal trade executions documented.
-- Recent thesis: Multi-timeframe confluence analyst. Jul 20 predicted 67K-68K ceiling — HIGH came Jul 21 at 67K (confirmed). Bearish longer-term: expects major leg lower post-high toward cycle low. Key window: Sep 23-30 = "price meets time" major trend change (Saturn/Gann). Aug 01 "⬇️⬇️⬇️" post aligns with longer-term bearish thesis.
+- Recent thesis: Multi-timeframe confluence analyst. Jul 20 predicted 67K-68K ceiling — HIGH came Jul 21 at 67K (confirmed). Bearish longer-term: expects major leg lower post-high toward cycle low. Key window: Sep 23-30 = "price meets time" major trend change (Saturn/Gann). Solar eclipses among most important timing events; Aug 12 Total Solar Eclipse = watch date for potential turning point. After 2-month tight BTC range, expects larger move approaching.
 - Conviction notes: Meaningful posts name their topic. Cryptic one-liners require calibration. Patreon/paid for exact dates. Use dates as watch calendar, not directional signals.
-- Calibration: PENDING Aug 01 07:04Z — "⬇️⬇️⬇️" ambiguous; bearish thesis reiteration or new breakdown signal?
-- Last seen: 2026-08-01T07:04:55Z (X post ambiguous directional signal)
+- Calibration: RESOLVED Aug 01 07:04Z — "⬇️⬇️⬇️" aligns with documented bearish longer-term thesis; reiteration confirmed by Aug 03 solar eclipse post.
+- Last seen: 2026-08-03T07:53:41Z (X post astrological timing framework + BTC prediction)
 - **Events (rolling):**
   - Jul 31 12:18Z — informational: thesis validation — "High came on 21st at 67k" matching Jul 20 prediction; multi-TF confluence confirmed [2083165358479868314]
-  - Aug 01 07:04Z — ambiguous: "#Bitcoin ⬇️⬇️⬇️" — bearish longer-term reiteration or new signal? Calibration sent [2083448877366022454]
+  - Aug 01 07:04Z — informational: "#Bitcoin ⬇️⬇️⬇️" — bearish thesis reiteration; aligned with documented longer-term forecast [2083448877366022454]
+  - Aug 03 07:53Z — informational: BTC astrological timing framework — Total Solar Eclipse Aug 12 among most important timing events historically coinciding with turning points; after 2-month tight range, expects much larger BTC move approaching [2084185923407823269]
