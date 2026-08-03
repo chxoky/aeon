@@ -1,0 +1,220 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "market context"
+      },
+      "children": [
+        "date_heading",
+        "sentiment_badge",
+        "prices_section",
+        "sep1",
+        "metrics_section",
+        "sep2",
+        "narrative_section",
+        "sep3",
+        "macro_section",
+        "sep4",
+        "watch_section"
+      ]
+    },
+    "date_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "2026-08-03",
+        "level": "h3"
+      }
+    },
+    "sentiment_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "risk-off (conviction medium)",
+        "variant": "secondary"
+      }
+    },
+    "prices_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "btc_stat",
+        "eth_stat",
+        "fear_stat"
+      ]
+    },
+    "btc_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$62,532",
+        "delta": "−1.4%",
+        "trend": "down"
+      }
+    },
+    "eth_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$1,841",
+        "delta": "−1.8%",
+        "trend": "down"
+      }
+    },
+    "fear_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "F&G",
+        "value": "28",
+        "delta": "Fear"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "metrics_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "breadth_text",
+        "dex_vol_stat"
+      ]
+    },
+    "breadth_text": {
+      "type": "Text",
+      "props": {
+        "text": "Breadth: 4/20",
+        "variant": "body"
+      }
+    },
+    "dex_vol_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "DEX volume",
+        "value": "$5.07B",
+        "delta": "+8% vs prior, −29% from Aug 1 peak"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "narrative_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "narrative_label",
+        "narrative_text"
+      ]
+    },
+    "narrative_label": {
+      "type": "Text",
+      "props": {
+        "text": "Top narrative:",
+        "variant": "lead"
+      }
+    },
+    "narrative_text": {
+      "type": "Text",
+      "props": {
+        "text": "BTC cycle drawdown rising (Stoiiic/bull_genius/Bitcoin_Astro convergence)",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "macro_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "macro_label",
+        "hormuz_progress",
+        "iran_progress"
+      ]
+    },
+    "macro_label": {
+      "type": "Text",
+      "props": {
+        "text": "Hot macro:",
+        "variant": "lead"
+      }
+    },
+    "hormuz_progress": {
+      "type": "Progress",
+      "props": {
+        "label": "Hormuz normal Aug 31 YES",
+        "value": 11.5,
+        "max": 100
+      }
+    },
+    "iran_progress": {
+      "type": "Progress",
+      "props": {
+        "label": "Iran invasion YES",
+        "value": 19.5,
+        "max": 100
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "watch_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "watch_label",
+        "watch_nfp",
+        "watch_clarity"
+      ]
+    },
+    "watch_label": {
+      "type": "Text",
+      "props": {
+        "text": "Watch:",
+        "variant": "lead"
+      }
+    },
+    "watch_nfp": {
+      "type": "Text",
+      "props": {
+        "text": "NFP Aug 7",
+        "variant": "body"
+      }
+    },
+    "watch_clarity": {
+      "type": "Text",
+      "props": {
+        "text": "CLARITY Act vote Aug 5–7",
+        "variant": "body"
+      }
+    }
+  }
+}

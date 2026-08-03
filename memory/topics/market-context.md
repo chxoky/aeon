@@ -1,72 +1,76 @@
-# Market Context (as of 2026-08-02)
+# Market Context (as of 2026-08-03)
 
-> **Take:** chop — BTC flat at $63K while breadth pulled back to 10/20 green and DEX vol slid to $4.7B, third consecutive session lower. Conviction: low.
+> **Take:** risk-off — BTC −1.4% 24h as breadth collapsed to 4/20 green, lowest reading since the Aug 1 ETF outflow shock; 16/20 top-cap assets closed red. Conviction: medium.
 
 ## Signal Snapshot
-- BTC $63,031 (+0.01% 24h, −2.1% 7d) · dominance 56.27% (−0.04pp 24h)
-- ETH $1,853.58 (−0.78% 24h, −1.6% 7d) · ETH/BTC 0.02940
-- SOL $73.01 (+0.27% 24h, −2.5% 7d)
-- Total mcap $2.25T (−0.04% 24h) · DEX vol $4.7B 24h
-- Breadth: 10/20 green 24h · 4/20 green 7d
-- Fear & Greed: 27 (Fear) — yesterday 27 (Fear)
+- BTC $62,532 (−1.4% 24h, −4.4% 7d) · dominance 56.19% (−0.08 pp 24h)
+- ETH $1,841 (−1.8% 24h, −6.4% 7d) · ETH/BTC 0.02944
+- SOL $72.42 (−1.4% 24h, −5.5% 7d)
+- Total mcap $2.23T (−1.2% 24h) · DEX vol $5.07B 24h
+- Breadth: 4/20 green 24h · 4/20 green 7d
+- Fear & Greed: 28 (Fear) — yesterday 27
 
 ## What Changed Since Last Refresh
-- **Breadth retreated: 14/20 → 10/20 green 24h** — intraday momentum from the morning run failed to hold; regime label unchanged (chop) but recovery narrative eroding.
-- **ETH slipped −1.2% from prior snapshot** ($1,876 → $1,854) — only major with a material intraday move; ETH weekly ETF flows went net positive (+$27M) vs BTC ETFs net negative (−$61M) for the week, showing institutional preference diverging.
-- **DEX vol declined further: $5.0B → $4.7B** — now 34% below Aug 1 peak ($7.15B); third consecutive session lower; price-without-volume contradiction deepening.
+- **Breadth cratered: 10/20 → 4/20 green 24h** — material deterioration; regime flips from chop to risk-off; only HYPE (+0.2%), RAIN (+0.3%), and flat stablecoins avoided losses across the top-20.
+- **BTC slipped −1.4% to $62,532** — 7d drawdown deepens to −4.4%; ETH worse at −6.4% 7d, SOL −5.5% 7d; divergence between HCH's net-long conviction and the macro tape is widening.
+- **DEX vol reversed: $4.7B → $5.07B (+8%)** — single-session uptick breaks the 3-session declining streak, but volume still 29% below Aug 1 peak ($7.15B); insufficient to counter the breadth signal.
 
 ## Active Narratives
-- **September FOMC hawkish repricing** — phase: rising. Evidence: BTC ETF −$265M Aug 1 outflow; July ended net +$172M but with outflow acceleration into August; Sep hike probability ~72%; NFP Aug 7 is the next forcing function.
-- **ADA breakout / L1 accumulation** — phase: rising. Evidence: ADA +7.4% 24h / +13.7% 7d — three-session sustained breakout, sole large-cap with positive 7d; HCH added AAVE/NEAR/XMR/ASTER/FORM longs Aug 2 corroborating broad L1 dip-buy thesis.
-- **DeFi blue-chip rotation** — phase: emerging. Evidence: LINK +2.3% 24h now in CoinGecko trending (rank #19); AAVE also on trending list despite slight red; Aave V3 TVL stable at $13.81B (+0.13% 7d); HCH added AAVE/NEAR to long book today.
-- **HYPE structural squeeze** — phase: emerging. Evidence: HYPE −1.34% trending, −11.9% 7d while HCH added 2.5% (Aug 2 12:29Z) for 10% cumulative long at $51.52; approaching $48–50 support; conviction vs. price divergence unresolved.
-- **Geopolitical risk premium — Iran/Hormuz** — phase: emerging. Evidence: Polymarket "US×Iran Ceasefire by Jul 31" YES 51% ($1.09M 24h vol — top macro market by volume); Hormuz disruption ongoing; oil/yields/dollar channel active crypto headwind.
+- **Bitcoin cycle drawdown** — phase: rising. Evidence: BTC −4.4% 7d, −50% from $126K ATH; three independent macro-bear analysts converged Aug 03 (Stoiiic mid-cycle drawdown framework with historical −77% to −84% precedent; bull_genius 7D/30D/90D RVWAP resistance convergence on ETH chart; Bitcoin_Astro flagging Aug 12 Solar Eclipse as timing watch date).
+- **September FOMC hawkish repricing** — phase: rising. Evidence: Jul 27–31 BTC ETF net outflow $61.53M (snapping 3-week inflow streak); Aug 1 single-day outflow $265M; CLARITY Act uncertain (cloture may be filed Aug 5, procedural vote possibly Aug 7 before recess); NFP Aug 7 is the forcing function.
+- **ADA / privacy-L1 rotation** — phase: rising. Evidence: ADA +10.1% 7d, XMR +3.8% 7d — the only two non-stable top-20 assets with positive 7d returns; HCH added XMR long Aug 02; select L1 accumulation diverging from broad-market weakness.
+- **Micro-cap alt accumulation** — phase: emerging. Evidence: HCH deployed 5% across TAO/STABLE/ASTS/LIT/PUMP in Asia session Aug 03 (02:02–02:18 UTC); CoinGecko trending confirms BLESS +30.85%, ICNT +56.99%, CASHCAT +11.89% 24h — small-cap momentum diverging sharply from large-cap tape.
+- **Geopolitical risk premium** — phase: rising. Evidence: "US invade Iran before 2027" YES 19.5% ($536K 24h Polymarket vol, top macro market by liquidity); "Hormuz normal by Aug 31" YES 11.5% ($626K vol); ongoing Hormuz disruption feeds oil/dollar/yields headwind channel.
 
 ## Top DeFi Protocols (TVL, 7d change)
-- Lido: $17.48B (−0.77% 7d)
-- Aave V3: $13.81B (+0.13% 7d)
-- SSV Network: $9.21B (−0.81% 7d)
-- Morpho Blue: $7.55B (+0.31% 7d)
-- WBTC: $7.20B (−2.20% 7d)
+- Lido: $17.50B (−3.90% 7d)
+- Aave V3: $13.80B (−2.14% 7d)
+- SSV Network: $9.19B (−5.15% 7d)
+- Morpho Blue: $7.51B (−1.69% 7d)
+- WBTC: $7.16B (−3.86% 7d)
 
 ## Chain Flow (top 5 by TVL)
-- Ethereum: $40.70B
+- Ethereum: $40.66B
 - BSC: $4.84B
 - Tron: $4.84B
-- Solana: $4.74B
-- Base: $4.53B
+- Solana: $4.73B
+- Base: $4.52B
 (7d delta unavailable — DeFiLlama chains endpoint returned TVL only)
 
 ## Stablecoins
-Total: $263.0B. USDT $183.2B · USDC $72.0B · USDS $6.6B · DAI $4.8B · USD1 $4.0B — combined share of mcap ~11.7%.
+Total: ~$270.6B (7d: ~−0.9%). USDT $183.1B (−0.4% 7d) · USDC $72.0B (−1.9% 7d) · USDS $6.6B · DAI $4.8B · USD1 $4.0B — combined share of mcap ~12.1%. Wild_Randomness Aug 03: stablecoin supply bleeding ~$1B/week, consistent with reduced leverage and liquidity withdrawal.
 
 ## Trending (CoinGecko)
-- BTC (Bitcoin) — rank #1, $63,031, +0.01% 24h [high institutional trending signal; flat tape]
-- HYPE (Hyperliquid) — rank #10, $51.52, −1.34% 24h [trending despite weakness; HCH 10% long live]
-- SOL (Solana) — rank #7, $73.01, −0.03% 24h [flat; DeFi TVL $4.74B]
-- TAO (Bittensor) — rank #42, −0.49% 24h [AI narrative holding attention]
-- AAVE (Aave) — rank #52, −0.75% 24h [DeFi rotation signal; trending despite red; HCH new long]
-- LINK (Chainlink) — rank #19, $8.26, +2.12% 24h [strongest trending green; oracle rotation]
-- SUI (Sui) — rank #33, +0.37% 24h [L1 alt on watch]
+- ICNT (Impossible Cloud Network) — rank #397, $0.198, +57.0% 24h [top trending gainer; AI infrastructure narrative]
+- BLESS — rank #572, $0.018, +30.85% 24h [micro-cap meme; HCH-adjacent accumulation thesis]
+- CASHCAT — rank #444, $0.046, +11.89% 24h [cat meme, micro-cap momentum]
+- GRVT — rank #584, $0.282, +8.97% 24h [derivatives DEX, emerging]
+- ONDO — rank #42, $0.371, −5.37% 24h [RWA narrative; fading on current tape]
+- ETH — rank #2, $1,842, −1.72% 24h [large-cap; trending likely on HCH 2.5% long add Aug 03]
+- SOL — rank #7, $72.44, −1.31% 24h [large-cap; HCH also added 2.5% Aug 03]
 
 ## Prediction Markets (Polymarket, top by 24h vol)
 | Market | YES% | 24h Vol | Liquidity |
 |--------|------|---------|-----------|
-| US×Iran Effective Ceasefire by Jul 31? | 51% | $1.09M | $0.08M |
+| Jessica Pegula vs Alexandra Eala (tennis) | 80.5% | $1.67M | $0.19M |
+| Strait of Hormuz normal by Aug 31? | 11.5% | $0.63M | $0.63M |
+| Canadian Open: Kovacevic vs Borges (tennis) | 25.5% | $0.61M | $0.09M |
+| US invade Iran before 2027? | 19.5% | $0.54M | $1.49M |
+| DC Open: Fritz vs Jodar (tennis) | 61.5% | $0.47M | $0.26M |
 
-*No crypto/Fed contracts in top volume (geopolitical dominated). Sep FOMC hike probability: ~72% (Fed funds futures, carried from prior snapshot).*
+*Volume dominated by sports (tennis/esports). Top macro markets: Hormuz (11.5%, $0.63M) and Iran invasion (19.5%, $0.54M). No crypto/Fed contracts in top 10 by 24h vol.*
 
 ## Macro Catalysts (next 48h)
-- **BTC ETF Aug 2–3 flows (Mon–Tue open):** First post-Aug-1 daily data. −$265M Aug 1 outflow after July net +$172M; August week 1 sets the narrative direction for institutional flows.
-- **NFP August 7 (5 days):** Primary binary for Sep FOMC path. Strong payrolls accelerate ~72% hike probability and deepen the ETF outflow trend; miss opens relief-rally window.
+- **CLARITY Act Senate vote (Aug 5–7):** Cloture possibly filed Aug 5; procedural vote may occur Aug 7 before recess. If passed, removes regulatory uncertainty overhang for crypto. Delay or failure adds near-term headwinds alongside the macro tape.
+- **NFP August 7:** Primary binary for Sep FOMC path. Strong payrolls = hike probability accelerates, deepens ETF outflow trend; miss = relief-rally window. Aug 2–3 BTC ETF flow data will set the positioning narrative heading into the print.
 
 ## Implications for Downstream Skills
-- **token-pick:** Chop — no new large-cap longs until breadth recovers above 12/20 and DEX vol reverses. ADA (+13.7% 7d) and LINK (+2.1% trending) are cleanest setups. HYPE: $48–50 support is the confirmation level — hold = add opportunity; break = reassess HCH mirror exposure. Await Kyle approval on HCH's AAVE/NEAR/XMR/ASTER/FORM entries before mirroring.
-- **narrative-tracker:** ADA breakout upgraded to rising phase. DeFi blue-chip rotation (LINK/AAVE trending) is new emerging narrative to monitor for confirmation. Meme rotation dropped off trending (PEPE/SHIB/CATE absent vs prior run) — watch for resumption or confirm as fade. Sep FOMC repricing is #1 macro; NFP Aug 7 is the forcing function.
+- **token-pick:** Risk-off at 4/20 breadth — no new large-cap longs until breadth recovers above 10/20. ADA (+10.1% 7d) and XMR (+3.8% 7d) are the sole top-20 non-stable green signals on 7d; only consider if already in position. Micro-cap momentum (BLESS, ICNT, CASHCAT) is HCH-led and unconfirmed by cross-traders — hold for convergence before mirroring. HCH ETH/SOL adds (+2.5% each Aug 03 06:45Z) not yet approved by Kyle.
+- **narrative-tracker:** Bitcoin cycle drawdown upgraded to rising phase (3-analyst convergence Aug 03). Micro-cap accumulation is the new emerging narrative — watch BLESS/ICNT volume persistence for emerging→rising transition. CLARITY Act Aug 7 is the crypto-specific catalyst to monitor alongside NFP. Aug 12 Solar Eclipse (Bitcoin_Astro) is a soft timing watch date — not a trade signal, but a convergence marker.
 
 ## Token Picks Made
 | Date | Token | Price | Thesis |
 
 ---
 *Sources — btc/eth: CoinGecko · defi: DeFiLlama · sentiment: alternative.me · markets: Polymarket · catalysts: WebSearch*
-*Source status: coingecko=ok defillama=ok(protocols+chains; chain 7d delta unavailable) fng=ok polymarket=ok(geopolitical dominated; no crypto/Fed contracts in top vol) websearch=ok*
+*Source status: coingecko=ok defillama=ok(protocols+chains; chain 7d delta unavailable) fng=ok polymarket=ok(sports-dominated; top macro: Hormuz 11.5%/Iran 19.5%) websearch=ok*
