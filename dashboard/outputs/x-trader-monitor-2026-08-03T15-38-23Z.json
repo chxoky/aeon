@@ -1,0 +1,92 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @swarmister",
+        "description": "Event: Reply to @bull_genius on shorting"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-message",
+        "alert-issue",
+        "text-interpretation-header",
+        "stack-options"
+      ]
+    },
+    "tweet-message": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "text": "Shoooort???"
+      }
+    },
+    "alert-issue": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Reply-dependent context unclear",
+        "type": "info"
+      }
+    },
+    "text-interpretation-header": {
+      "type": "Text",
+      "props": {
+        "text": "Possible interpretations:",
+        "variant": "body"
+      }
+    },
+    "stack-options": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "option-1",
+        "option-2",
+        "option-3",
+        "text-closing-question"
+      ]
+    },
+    "option-1": {
+      "type": "Badge",
+      "props": {
+        "text": "Sarcasm on bull_genius's bullish stance",
+        "variant": "outline"
+      }
+    },
+    "option-2": {
+      "type": "Badge",
+      "props": {
+        "text": "Genuine question about a short setup",
+        "variant": "outline"
+      }
+    },
+    "option-3": {
+      "type": "Badge",
+      "props": {
+        "text": "Banter",
+        "variant": "outline"
+      }
+    },
+    "text-closing-question": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "lead"
+      }
+    }
+  }
+}
