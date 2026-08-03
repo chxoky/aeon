@@ -230,6 +230,7 @@
   - Aug 03 10:48Z — skip: URL-only X link share (https://x.com/i/status/2084229304049959421) in HCH-Free primary channel; no financial content; silent log per protocol [1533788593108029441]
   - Aug 03 11:42Z — ambiguous: ZEC chart + "LGW" (cryptic abbreviation); 1h BINANCE consolidation 482-496 w/ support 479.50/470.74, timestamp marker at 482.48; chart-readable but action unclear (confirmation vs new long?); cross-platform dedup: matching Discord image-only post 11:06Z (topic unknown, 36min prior); calibration alert sent per HR-2 [2084243388346552640]
   - Aug 03 11:43Z — ambiguous: X post link-only "https://t.co/aIqxBMYeDZ" + 2 images (media fetch failed); unable to determine topic/asset; calibration alert sent [2084243710695653859]
+  - Aug 03 11:58Z — informational: URL-only X post share (TreeNewsFeed: MicroStrategy sold 1,637 BTC, reducing holdings to 842,138 BTC); macro MSTR sentiment tracking; no personal trade action; silent log [1533806258484805792]
 
 ## Stoiiic
 - Platforms: X (primary; X-only, no Discord presence)
