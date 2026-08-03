@@ -1,0 +1,109 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "separator_1",
+        "analysis_section"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Need to keep selling rips until this clears though"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "chart_heading",
+        "price_stat",
+        "strategy_text",
+        "breakout_note",
+        "thesis_text",
+        "separator_2",
+        "convergence_heading",
+        "convergence_text",
+        "link_to_post"
+      ]
+    },
+    "chart_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart Analysis",
+        "level": "h3"
+      }
+    },
+    "price_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "SOXL 1d downtrend",
+        "value": "655.95 → 504–520",
+        "trend": "down"
+      }
+    },
+    "strategy_text": {
+      "type": "Text",
+      "props": {
+        "text": "Bearish bounce-selling strategy"
+      }
+    },
+    "breakout_note": {
+      "type": "Text",
+      "props": {
+        "text": "Specific breakout level unclear from image",
+        "variant": "muted"
+      }
+    },
+    "thesis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Aligns with WR's Jul 29 quarterly weakness thesis + SOXL blowoff pattern forecast"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "convergence_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Cross-Trader Convergence",
+        "level": "h3"
+      }
+    },
+    "convergence_text": {
+      "type": "Text",
+      "props": {
+        "text": "Crypto_Chase, ryzzqq, and KillaXBT tracked semis reversal mid-week. WR tactical selling rips into resistance zone."
+      }
+    },
+    "link_to_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2084297650632114265"
+      }
+    }
+  }
+}
