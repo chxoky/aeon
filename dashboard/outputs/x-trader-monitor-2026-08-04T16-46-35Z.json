@@ -1,0 +1,123 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "KillaXBT: August 14th BTC Watch"
+      },
+      "children": [
+        "tweet_card",
+        "sep1",
+        "metrics",
+        "sep2",
+        "additional_info",
+        "sep3",
+        "analysis"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "Next key date to watch for $BTC is the 14th of August. We're heading into a window that has produced meaningful directional shifts. Around this date BTC has printed a negative reaction 8/10 times. The most recent outlier pumped roughly 6% off it.\n\nObserving the narrative (bearish vs bullish) is key going into this period. If dumping → look for longs; if pumping → look for shorts. Inverse the narrative.\n\nTest of $60K not unlikely. Quite likely..."
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "metrics": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "metric_date",
+        "metric_pattern",
+        "metric_outlier"
+      ]
+    },
+    "metric_date": {
+      "type": "Stat",
+      "props": {
+        "label": "Key Date Watch",
+        "value": "August 14"
+      },
+      "children": []
+    },
+    "metric_pattern": {
+      "type": "Stat",
+      "props": {
+        "label": "Negative Reactions",
+        "value": "8/10 times"
+      },
+      "children": []
+    },
+    "metric_outlier": {
+      "type": "Stat",
+      "props": {
+        "label": "Recent Outlier Pump",
+        "value": "+6%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "additional_info": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "kalshi",
+        "tweet_link"
+      ]
+    },
+    "kalshi": {
+      "type": "Badge",
+      "props": {
+        "text": "Kalshi: 60K August low forecast",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2084680340505845806"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Reinforces KillaXBT's structural bull conviction. 60K downside test aligns with group macro thesis (60-61K support zones). Key date marker for tactical pivots.",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}

@@ -23,3 +23,18 @@ Perfect! The skill execution is complete. Here's what was processed:
 - Hold period: 3 days (entered during weakness, closed during risk-on strength)
 - Trading discipline: References @fejau_inc on "timeouts after big wins" = tactical profit-taking
 - No Kyle mirror impact (position was Wild_Randomness solo trade, not copy-traded)
+🐦 *[X] @KillaXBT*
+
+Next key date to watch for $BTC is the 14th of August.
+
+We're heading into a window that has produced meaningful directional shifts. Around this date BTC has printed a negative reaction 8/10 times. The most recent outlier pumped roughly 6% off it.
+
+Observing the narrative (bearish vs bullish) is key going into this period. If dumping → look for longs; if pumping → look for shorts. Inverse the narrative.
+
+Test of $60K not unlikely. Quite likely...
+
+[Kalshi: 60K August low forecast]
+
+[View tweet](https://x.com/KillaXBT/status/2084680340505845806)
+
+↳ Reinforces KillaXBT's structural bull conviction. 60K downside test aligns with group macro thesis (60-61K support zones). Key date marker for tactical pivots.
