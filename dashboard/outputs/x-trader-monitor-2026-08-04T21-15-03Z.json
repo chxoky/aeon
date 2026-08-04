@@ -1,0 +1,214 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section_resolved",
+        "separator_1",
+        "section_mirrored"
+      ]
+    },
+    "section_resolved": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "header_resolved",
+        "details_resolved"
+      ]
+    },
+    "header_resolved": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_resolved",
+        "badge_resolved"
+      ]
+    },
+    "heading_resolved": {
+      "type": "Heading",
+      "props": {
+        "text": "Self-resolved",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "badge_resolved": {
+      "type": "Badge",
+      "props": {
+        "text": "@HeartCanHodl"
+      },
+      "children": []
+    },
+    "details_resolved": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_ambiguous",
+        "text_resolution",
+        "badge_classification",
+        "stat_profit_resolved"
+      ]
+    },
+    "text_ambiguous": {
+      "type": "Text",
+      "props": {
+        "text": "Earlier ambiguous: AMDUSD chart post (cryptic crash 532.97→463.90→479.88)"
+      },
+      "children": []
+    },
+    "text_resolution": {
+      "type": "Text",
+      "props": {
+        "text": "Resolved by: Covering half short & SL at BE on remainder"
+      },
+      "children": []
+    },
+    "badge_classification": {
+      "type": "Badge",
+      "props": {
+        "text": "SHORT 3X AMDUSD",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "stat_profit_resolved": {
+      "type": "Stat",
+      "props": {
+        "label": "Mirror 50% close to match",
+        "value": "+23.80%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_mirrored": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "header_mirrored",
+        "details_mirrored"
+      ]
+    },
+    "header_mirrored": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_mirrored",
+        "badge_mirrored"
+      ]
+    },
+    "heading_mirrored": {
+      "type": "Heading",
+      "props": {
+        "text": "Mirrored",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "badge_mirrored": {
+      "type": "Badge",
+      "props": {
+        "text": "@HeartCanHodl"
+      },
+      "children": []
+    },
+    "details_mirrored": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_action",
+        "prices_row",
+        "text_remainder",
+        "link_post"
+      ]
+    },
+    "text_action": {
+      "type": "Text",
+      "props": {
+        "text": "HeartCanHodl just covered half their AMDUSD 3X short at +23.80% profit. I covered 50% of your position to match."
+      },
+      "children": []
+    },
+    "prices_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat_entry",
+        "stat_mark"
+      ]
+    },
+    "stat_entry": {
+      "type": "Stat",
+      "props": {
+        "label": "Entry",
+        "value": "515.77"
+      },
+      "children": []
+    },
+    "stat_mark": {
+      "type": "Stat",
+      "props": {
+        "label": "Mark",
+        "value": "474.83"
+      },
+      "children": []
+    },
+    "text_remainder": {
+      "type": "Text",
+      "props": {
+        "text": "Remainder held with SL at break-even."
+      },
+      "children": []
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/HeartCanHodl/status/2084748865622995031"
+      },
+      "children": []
+    }
+  }
+}

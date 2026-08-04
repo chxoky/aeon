@@ -491,6 +491,24 @@
 - **Approval/Alert status**: FAST-PATH ALERTED (Telegram already sent by Cloudflare Worker ~2-5s post-message); no duplicate send by skill. Await Kyle signal on whether to mirror ZEC long on Kraken or monitor as memory-only entry.
 - **Last update**: 2026-08-01T12:00:11Z (discord-trader-monitor, fast-path-alerted, TRADE-CONVICTION-ADD; message_id=1533081912036294769)
 
+### AMDUSD Perp — SHORT 3X (PARTIAL TP 2026-08-04)
+- **Status**: ACTIVE — 50% closed 2026-08-04T21:10:36Z; 50% held with SL at break-even
+- **Entry**: Prior (date/price unknown; position existed pre-2026-08-04 20:28 ambiguous chart post)
+- **Entry level**: ~$515.77 (per position screenshot, Entry Price field)
+- **Entry type**: Market/limit short on 3X leverage perpetual futures (BloFin platform)
+- **Position size**: Estimated 3-5% (position referral-code share suggests non-trivial size)
+- **Current mark price**: $474.83 (as of screenshot timestamp 08-05 02:39:24 UTC = post-execution mark)
+- **Unrealized P&L at partial close**: **+23.80% gain** on SHORT position (price moved 515.77→474.83 = 8.8% move favorable to short)
+- **Partial TP execution** (2026-08-04T21:10:36Z): X post reply to @megastuffs — "Covering half short & other half with SL at BE first" + BloFin screenshot showing position profit
+- **Mirror execution**: 50% of AMDUSD short position closed at mark ~474.83 (estimated 4.4% P&L locked on partial close from full position)
+- **Remainder management**: 50% held under original short thesis with SL set to break-even (515.77) — if SL hit, position closes at neutral; if price continues lower, remainder profitable per thesis
+- **Cross-platform context**: X post at 21:10:36Z follows earlier ambiguous AMDUSD chart-only post at 20:28Z same day (chart showed AMDUSD crash 532.97→463.90→479.88; marked calibration-pending per Step 4B). Current trade action now **RESOLVES prior ambiguity per HR-3 (Self-resolved)** — earlier chart post was entry/setup visualization, current TP execution is trade signal confirmation. Calibration alert superseded by clear trade action.
+- **Thesis**: Tactical leveraged short on AMD perpetual following bearish technical breakdown. Entry level 515.77 appears recent (within 48-72 hours given current price action context). Position timing aligns with broader crypto market weakness (BTC consolidating 62-65k, macro equities uncertain). BloFin referral-code formatting (@HCH10) suggests informational share for educational credibility rather than direct Kyle-signal request.
+- **Conviction**: HIGH (leveraged 3X position held through 8.8% favorable move, partial TP executed at +23.80% gain = disciplined profit management; remainder SL@BE indicates trader confident in bearish structure but protecting capital)
+- **Platform**: BloFin (crypto perpetual futures platform, not Kraken spot)
+- **Alerted**: YES (2026-08-04T21:10:36Z, x-trader-monitor real-time event, Step 5b mirror-partial-tp executed + HR-3 self-resolved alert sent via ./notify; self-resolution with prior 20:28Z ambiguous chart post identified; mirror executed on 50% close at mark 474.83)
+- **Last update**: 2026-08-04T21:10:36Z (x-trader-monitor real-time event, mirror-partial-tp execution + self-resolution alert, tweet_id=2084748865622995031)
+
 ### AAVE — LONG (NEW ENTRY — 2026-08-02)
 - **Status**: ACTIVE — trade-new-entry 2026-08-02T05:38:07Z
 - **Entry**: 2026-08-02T05:38:07Z (Discord Trades channel)

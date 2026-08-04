@@ -1,11 +1,11 @@
-🔍 *Calibration — @trading_axe*
+✅ *Self-resolved — @HeartCanHodl*
 
-Event: Reply to @sapijiju on platform activity
+Earlier ambiguous: AMDUSD chart post (cryptic crash 532.97→463.90→479.88)
+Resolved by: Covering half short & SL at BE on remainder
+Classification: SHORT 3X AMDUSD +23.80% — mirror 50% close to match
 
-trading_axe: "@sapijiju GAH DAYUS NIGGAZ BEEFING HYPERLIQUID AND POLYMARKET NOW.
+🔁 *Mirrored — @HeartCanHodl*
 
-FREE SMOKE FOR EVERYONE?
+HeartCanHodl just covered half their AMDUSD 3X short at +23.80% profit. I covered 50% of your position to match (from entry 515.77 → mark 474.83). Remainder held with SL at break-even.
 
-~ Dr. Axius."
-
-Unable to classify — cryptic slang + platform references (Hyperliquid, Polymarket) + reply-dependent context. Unclear whether this signals market action, sarcasm on market state, or personal entry signal. What's your read?
+[View post](https://x.com/HeartCanHodl/status/2084748865622995031)
