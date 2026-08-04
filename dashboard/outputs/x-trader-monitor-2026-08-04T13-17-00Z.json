@@ -1,0 +1,31 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor — NASDAQ Analysis"
+      },
+      "children": [
+        "tweet-card",
+        "tweet-url"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "Wild_Randomness",
+        "text": "NASDAQ (XYZ100/NQ) consolidation at POC (~29,100)\n\nRisk: reject POC → search for higher low\nAlternative: break above → invalidation with high r:r to new ATHs\n\n2 charts showing triangle consolidation setup and support zones."
+      }
+    },
+    "tweet-url": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2084628584149529052"
+      }
+    }
+  }
+}
