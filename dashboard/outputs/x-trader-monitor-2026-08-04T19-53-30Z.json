@@ -1,0 +1,169 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading_main",
+        "sep1",
+        "event_section",
+        "sep2",
+        "context_section",
+        "sep3",
+        "question_section"
+      ]
+    },
+    "heading_main": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @trading_axe",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "event_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event_label",
+        "event_content"
+      ]
+    },
+    "event_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "event_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event_reply",
+        "event_quote"
+      ]
+    },
+    "event_reply": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to @KobeissiLetter"
+      }
+    },
+    "event_quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"The market bottomed when SPCX bottomed.\"",
+        "variant": "lead"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context_label",
+        "context_content"
+      ]
+    },
+    "context_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "context_content": {
+      "type": "Text",
+      "props": {
+        "text": "trading_axe uses sarcastic/cryptic 'Dr. Axius' framing. Original @KobeissiLetter message not visible."
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "question_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "question_label",
+        "classification_list",
+        "question_read"
+      ]
+    },
+    "question_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Unable to classify",
+        "level": "h3"
+      }
+    },
+    "classification_list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "intro_text",
+        "option_1",
+        "option_2",
+        "option_3"
+      ]
+    },
+    "intro_text": {
+      "type": "Text",
+      "props": {
+        "text": "Is this:"
+      }
+    },
+    "option_1": {
+      "type": "Text",
+      "props": {
+        "text": "• Earnest technical observation (SPCX as market bottom indicator)?"
+      }
+    },
+    "option_2": {
+      "type": "Text",
+      "props": {
+        "text": "• Sarcastic contradiction to original message?"
+      }
+    },
+    "option_3": {
+      "type": "Text",
+      "props": {
+        "text": "• Personal market sentiment commentary?"
+      }
+    },
+    "question_read": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "lead"
+      }
+    }
+  }
+}
