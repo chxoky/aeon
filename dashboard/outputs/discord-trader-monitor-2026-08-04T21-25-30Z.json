@@ -1,0 +1,76 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "heading-calibration",
+        "separator-1",
+        "event-stack"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: HCH — Free]",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "event-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event-label",
+        "reply-info",
+        "image-link",
+        "question-text"
+      ]
+    },
+    "event-label": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Self-reply to 'I am their worst counterparty'",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "reply-info": {
+      "type": "Text",
+      "props": {
+        "text": "HeartCanHodl: [image-only reply]",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "image-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Discord Image Attachment",
+        "href": "https://cdn.discordapp.com/attachments/1472153627324842057/1534310334339219657/IMG_20260805_025114.jpg",
+        "source": "Discord"
+      },
+      "children": []
+    },
+    "question-text": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
