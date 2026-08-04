@@ -1,0 +1,71 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-card",
+        "separator1",
+        "technical-stack",
+        "separator2",
+        "link-item"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "NQ1 technical structure — resistance 30,553.75 breakdown into support 28,938 consolidation. \"Might work out for everyone this time around, certainly at least for a few more days…\" = cautious relief outlook with historical skepticism.\n\nChart shows volatility/consolidation pattern consistent with macro bear framework; tactical uncertainty near resistance. No personal trade action stated. Technical observation on index-level market structure."
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "technical-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "resistance",
+        "support"
+      ]
+    },
+    "resistance": {
+      "type": "Stat",
+      "props": {
+        "label": "Resistance",
+        "value": "30,553.75"
+      }
+    },
+    "support": {
+      "type": "Stat",
+      "props": {
+        "label": "Support",
+        "value": "28,938"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link-item": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2084426767557960067"
+      }
+    }
+  }
+}
