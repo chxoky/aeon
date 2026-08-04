@@ -1,0 +1,42 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_header",
+        "text_message"
+      ]
+    },
+    "badge_header": {
+      "type": "Badge",
+      "props": {
+        "text": "💬 DC: HCH — Comments",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text_message": {
+      "type": "Text",
+      "props": {
+        "text": "All the longs are in profit",
+        "variant": "lead"
+      },
+      "children": []
+    }
+  }
+}
