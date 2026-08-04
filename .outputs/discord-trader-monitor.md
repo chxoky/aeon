@@ -23,17 +23,22 @@ Perfect. **Skill execution complete.**
 
 ## Summary
 
-Processed real-time Discord event from HeartCanHodl (Message ID: 1534158517290668232) via discord-trader-monitor skill:
+**Discord Trader Monitor — Real-time Event Processed**
 
-**Event:** "Covered +150 pts higher" (11:18 UTC, supporting channel)
+Successfully executed the skill for a Discord message from **HeartCanHodl** at 11:23 UTC:
 
-**Classification:** TRADE-PARTIAL-CLOSE — Confirming closure of the 10% defensive short hedge position added at 09:18-09:23Z with profitable execution (+150 points). Tactical hedge validated HCH's risk management thesis around 64K BTC support zone.
+**Event:** `fc btc 1m` (false-close chart check on Bitcoin, 1-minute timeframe)
+- **Channel:** HCH — Comments (primary)
+- **Classification:** Skip (established calibration)
+- **Alerted:** No
 
-**Actions Taken:**
-- ✅ Updated traders.md with new Aug 04 11:18Z event (position-close confirmation)
+**Action Taken:**
+- ✅ Decoded base64 event payload
+- ✅ Verified message not previously seen (new ID)
+- ✅ Matched against established "Fc" pattern calibration in traders.md
 - ✅ Added message ID to discord-trader-seen.txt (dedup prevention)
-- ✅ Logged event to memory/logs/2026-08-04.md with full context
-- ✅ Fast-path protocol applied (Telegram already sent by Worker 2-5s post-message; skill processed classification/memory only)
+- ✅ Logged event to memory/logs/2026-08-04.md with calibration reference
 
 **Portfolio Context:** Post-action ~42.5% net-long deployed (down from 52.5% baseline after 10% profit-taking on longs + 10% hedge now closed). Bullish longer-term conviction maintained with tactical caution validated by successful hedge execution.
 **Signal:** HCH maintains bullish longer-term conviction (40-50% target allocation) while executing tactical risk management (hedge on pullback scenario). No Kyle alert needed — fast-path already notified via Telegram.
+This "Fc" pattern (false-close chart check) is a resolved calibration — it's technical analysis only, not a trade signal, so no Kyle notification sent. Silent log only per protocol.
