@@ -1,0 +1,24 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-card"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "SOXX/SOXL semis consolidation with key support zones flagged. Early trading bounce but daily close important. Charts show SOXX 540 support, SOXL 4H at 116-117. Cross-trader semis convergence continues. https://x.com/Wild_Randomness/status/2084638876761817489"
+      },
+      "children": []
+    }
+  }
+}
