@@ -1,3 +1,13 @@
+## trading_axe
+- Platforms: X (primary; X-only, no Discord presence)
+- Current open positions: None announced
+- Recent thesis: None yet (first event)
+- Conviction notes: First appearance. Single non-financial event (personal banter about leaving trading community).
+- Calibration: None yet
+- Last seen: 2026-08-04T02:02:02Z
+- **Events (rolling):**
+  - Aug 04 02:02Z — skip: personal banter reply to @khromthree; commentary on leaving trading venue; "professional molestors" reference to community members; no financial signal, no ticker, no position. Non-financial per Step 4A. [2084459819138949482]
+
 ## abetrade
 - Platforms: X (primary; X-only, no Discord presence)
 - Current open positions: None announced yet (first event)
