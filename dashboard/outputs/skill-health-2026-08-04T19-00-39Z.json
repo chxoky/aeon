@@ -1,0 +1,91 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Skill Health"
+      },
+      "children": [
+        "main_stack"
+      ]
+    },
+    "main_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "date_text",
+        "status_group",
+        "sep",
+        "metrics_group"
+      ]
+    },
+    "date_text": {
+      "type": "Text",
+      "props": {
+        "text": "2026-08-04",
+        "variant": "muted"
+      }
+    },
+    "status_group": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_ok",
+        "skills_text"
+      ]
+    },
+    "badge_ok": {
+      "type": "Badge",
+      "props": {
+        "text": "OK",
+        "variant": "default"
+      }
+    },
+    "skills_text": {
+      "type": "Text",
+      "props": {
+        "text": "8 skills healthy",
+        "variant": "lead"
+      }
+    },
+    "sep": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "metrics_group": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "open_issues_stat",
+        "resolved_stat"
+      ]
+    },
+    "open_issues_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Open issues",
+        "value": "0"
+      }
+    },
+    "resolved_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Resolved this run",
+        "value": "0"
+      }
+    }
+  }
+}
