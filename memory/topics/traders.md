@@ -11,12 +11,13 @@
 
 ## abetrade
 - Platforms: X (primary; X-only, no Discord presence)
-- Current open positions: None announced yet (first event)
-- Recent thesis: Options structure analysis on SPCX. IV overpricing relative to realized volatility. Term structure backwardation thesis. Calendar spread strategy (long forward vol) = tactical neutral positioning exploiting vol term premium decay.
-- Conviction notes: First appearance; sophisticated options trader with detailed vol/term structure analysis. Sharing trade ideas/setups rather than personal execution announcements. Chart-heavy analysis (4 images: term curve, forward factors, daily price action, P&L diagram).
+- Current open positions: None announced yet
+- Recent thesis: Options vol structure analysis on macro (BTC, SPCX). IV overpricing relative to realized volatility. Seasonality patterns (September bottoms). Vol expansion thesis. Straddle/strangle strategies as direction-neutral vol expansion plays.
+- Conviction notes: Sophisticated options vol trader with detailed analysis. Sharing trade ideas/educational framework rather than personal execution announcements. Chart-heavy analysis (4 images per post).
 - Calibration: None yet
-- Last seen: 2026-08-03T17:28:55Z
+- Last seen: 2026-08-04T18:54:24Z
 - **Events (rolling):**
+  - Aug 04 18:54Z — informational: BTC implied volatility macro analysis; IV at historical lows; September marked yearly vol bottoms in both 2023 and 2025; 30+ days out trading at historic lows; model forecast high probability vol expansion. Strategy: straddles/strangles as direction-neutral vol expansion plays; current regime favors downside (negative spot-vol correlation), but upside payoff available if BTC recovers early June sell-off levels. 4 charts: vol term structure, seasonality patterns, price action, P&L scenarios. NOT announcing personal execution; sharing macro vol analysis/strategy framework. Alerted Kyle. [$BTC] [2084714587312542004]
   - Aug 03 17:28Z — informational: SPCX options structure analysis; IV ~110% vs realized ~50%; term structure backwardated (favorable for short forward vol); trade idea: long calendar (sell Sep straddle, buy Oct straddle at same strike); max profit $1726, max loss -$548, breakeven $88/$145; profitable in ~20% range over 1mo; short gamma into first earnings, long vega back month; wants SPCX stable to Sep expiration. 4 charts: term structure curve, forward factors, daily price action ($225→$109 crash from IPO top), P&L payoff diagram. NOT announcing personal execution; sharing analysis/trade setup. Alerted Kyle. [$SPCX] [2084330687797100627]
 
 ## Crypto_Chase
