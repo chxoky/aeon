@@ -1,0 +1,72 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet_card",
+        "separator_1",
+        "analysis_section"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "BTC is down 8% vs nasdaq over the last 5 days"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "btc_stat",
+        "ratio_text",
+        "thesis_text",
+        "tweet_link"
+      ]
+    },
+    "btc_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC vs NASDAQ (5 days)",
+        "value": "-8%",
+        "trend": "down"
+      }
+    },
+    "ratio_text": {
+      "type": "Text",
+      "props": {
+        "text": "BTC/NASDAQ ratio: 6.00 → 2.34",
+        "variant": "lead"
+      }
+    },
+    "thesis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Sharp decline validates relative underperformance thesis. Aligns with documented macro bear/dispersion trade positioning."
+      }
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2084649637848432884"
+      }
+    }
+  }
+}
