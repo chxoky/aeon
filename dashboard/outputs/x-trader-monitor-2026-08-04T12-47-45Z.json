@@ -1,0 +1,46 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet_card",
+        "view_link",
+        "separator_1",
+        "analysis_text"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "And the rest is history...\n\nDon't shoot the messenger.\n\nSoon, its up only for $BTC"
+      }
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2084621087644463132"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Sarcastic bullish conviction expression. Charts show bearish recent structure, but post defends structural bull thesis. Aligns with KillaXBT's HTF long positioning + group emerging bullish lean (KillaXBT HTF bull, HCH net-long rotation, bull_genius structural bottom thesis).",
+        "variant": "muted"
+      }
+    }
+  }
+}
