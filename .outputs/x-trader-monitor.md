@@ -1,7 +1,13 @@
-🐦 *[X] @Wild_Randomness*
+🐦 *[X] @HeartCanHodl*
 
-BTC/NASDAQ ratio technical breakdown: sharp 5-day decline from 2.90 → 2.16 with consolidation structure, volume confirmation, and momentum indicators. Chart-driven market structure showing continued crypto underperformance vs equities.
+Why I'm leaning slight bearish on $MSFT up here around $500–$520:
 
-[View tweet](https://x.com/Wild_Randomness/status/2084665853270982806)
+The market has become obsessed with AI spending. It has become far less obsessed with AI returns. Those are not the same thing!
 
-↳ *Detailed follow-up to 14:36Z ratio deterioration — now showing 5-day candle structure + technical confirmation.*
+Capital expenditures are compounding way faster than actual returns. Quarterly capex is up around 70% year-o-year, with almost two-thirds of that going straight into short-lived GPU and CPU setups that need constant, expensive upgrades. 
+
+As AI agents start automating tasks, companies need fewer total seats across Microsoft 365, Office, and Teams. That caps seat expansion and kills long-term pricing power.
+
+My base case is a valuation reset toward $430. If we see a broader de-rating across mega-cap tech, I don't think $360 is an unrealistic downside scenario.
+
+[View post](https://x.com/HeartCanHodl/status/2084668908863434883)

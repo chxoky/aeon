@@ -1,0 +1,41 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_heartcanhodl",
+        "link_viewpost"
+      ]
+    },
+    "tweet_heartcanhodl": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "@HeartCanHodl",
+        "text": "Why I'm leaning slight bearish on $MSFT up here around $500–$520:\n\nThe market has become obsessed with AI spending. It has become far less obsessed with AI returns. Those are not the same thing!\n\nCapital expenditures are compounding way faster than actual returns. Quarterly capex is up around 70% year-o-year, with almost two-thirds of that going straight into short-lived GPU and CPU setups that need constant, expensive upgrades.\n\nAs AI agents start automating tasks, companies need fewer total seats across Microsoft 365, Office, and Teams. That caps seat expansion and kills long-term pricing power.\n\nMy base case is a valuation reset toward $430. If we see a broader de-rating across mega-cap tech, I don't think $360 is an unrealistic downside scenario."
+      }
+    },
+    "link_viewpost": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/HeartCanHodl/status/2084668908863434883"
+      }
+    }
+  }
+}
