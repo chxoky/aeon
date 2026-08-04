@@ -1,0 +1,60 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "link-view",
+        "separator-1",
+        "text-analysis"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "I'm going to buy $BTC bottom in Q4\n\nPeople are cutting it a bit close, aren't they?\n\nHopefully this puts things into perspective as to why I'd rather be bullish now than wait for the \"perfect\" entry."
+      },
+      "children": []
+    },
+    "link-view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2084732545761952004"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text-analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Reinforces structural bull conviction. Chart illustrates: waiting for absolute Q4 bottom = missing recovery gains. Validates current HTF long + spot DCA positioning.",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
