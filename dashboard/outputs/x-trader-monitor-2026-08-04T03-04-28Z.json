@@ -1,0 +1,68 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @Stoiiiic"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-reply-to",
+        "text-replied-tweet",
+        "sep-1",
+        "text-issue",
+        "sep-2",
+        "link-view"
+      ]
+    },
+    "text-reply-to": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to @lazyvillager1:"
+      }
+    },
+    "text-replied-tweet": {
+      "type": "Text",
+      "props": {
+        "text": "\"alright quick...up or down?\"",
+        "variant": "lead"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-issue": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — no ticker/asset specified. What's your read? Is this about BTC/ETH/a specific chart, or general sentiment call?"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link-view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Stoiiiic/status/2084474544652255395"
+      }
+    }
+  }
+}
