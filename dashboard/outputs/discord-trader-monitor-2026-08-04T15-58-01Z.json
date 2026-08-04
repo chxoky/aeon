@@ -1,0 +1,40 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge-channel",
+        "text-message"
+      ]
+    },
+    "badge-channel": {
+      "type": "Badge",
+      "props": {
+        "text": "Chase — TradFi",
+        "variant": "outline"
+      }
+    },
+    "text-message": {
+      "type": "Text",
+      "props": {
+        "text": "Better to just focus on what's in front of us and find the trades when they come",
+        "variant": "lead"
+      }
+    }
+  }
+}

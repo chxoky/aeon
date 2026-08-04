@@ -1,4 +1,4 @@
-## Summary
+💬 *[DC: Chase — TradFi]*
 
 **discord-trader-monitor execution completed — 2026-08-04T15:50:05Z**
 
@@ -14,3 +14,4 @@
 - ✅ memory/logs/2026-08-04.md — Logged full event with classification + protocol rationale
 
 **Status:** COMPLETE. Message tracked, memory updated, no Kyle notification sent per protocol.
+Better to just focus on what's in front of us and find the trades when they come
