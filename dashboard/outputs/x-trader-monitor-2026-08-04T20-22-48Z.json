@@ -1,0 +1,86 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "@HeartCanHodl: Profitable LONG perp positions"
+      },
+      "children": [
+        "tweet_card",
+        "sep1",
+        "positions_table",
+        "sep2",
+        "context_text",
+        "tweet_link"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "Showing profitable LONG perp positions:\n• SPCXUSDT 3X: Entry 108.75 → Mark 116.88 (+22.44%)\n• ASTUSDT 3X: Entry 58.83 → Mark 66.50 (+39.11%)\n\nLiquidation feed shows shorts getting squeezed on both. Aligns with documented Aug 02 pivot to net LONG."
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "positions_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Asset",
+          "Entry",
+          "Mark",
+          "Gain"
+        ],
+        "rows": [
+          [
+            "SPCXUSDT 3X",
+            "108.75",
+            "116.88",
+            "+22.44%"
+          ],
+          [
+            "ASTUSDT 3X",
+            "58.83",
+            "66.50",
+            "+39.11%"
+          ]
+        ]
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "Liquidation feed shows shorts getting squeezed on both. Aligns with documented Aug 02 pivot to net LONG.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View original tweet",
+        "href": "https://x.com/HeartCanHodl/status/2084734670403785062"
+      },
+      "children": []
+    }
+  }
+}
