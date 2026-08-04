@@ -1,0 +1,69 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet_card",
+        "tweet_link",
+        "separator_1",
+        "technical_section"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "SOXL — Fully TP'd into trend at 116.76 level\n\nThat's two moves > +30% caught in less than a week\n\nStill holding individual semis (\"single the names\")"
+      },
+      "children": []
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2084625580486754674"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "technical_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tech_heading",
+        "tech_text"
+      ]
+    },
+    "tech_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Technical Analysis",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "tech_text": {
+      "type": "Text",
+      "props": {
+        "text": "4H charts show quarterly weakness thesis completion. Prior 75% TP'd Aug 03 at 118.29; remainder closed at 116.76 (conditional 128 full-close target not hit). No Kyle mirror position.",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
