@@ -1,0 +1,93 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "content_stack"
+      ]
+    },
+    "content_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "divider",
+        "tickers_stack",
+        "link_component"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "$SPX $NDX — two scenarios outlined on NQ: either consolidates and searches for a higher low, or straight shot to ATHs. Charts (4 images) show BTC futures (XYZ100) daily consolidation triangle with support/resistance structure marked. Technical analysis aligned with macro framework."
+      },
+      "children": []
+    },
+    "divider": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "tickers_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_spx",
+        "badge_ndx",
+        "badge_nq",
+        "badge_btc"
+      ]
+    },
+    "badge_spx": {
+      "type": "Badge",
+      "props": {
+        "text": "$SPX"
+      },
+      "children": []
+    },
+    "badge_ndx": {
+      "type": "Badge",
+      "props": {
+        "text": "$NDX"
+      },
+      "children": []
+    },
+    "badge_nq": {
+      "type": "Badge",
+      "props": {
+        "text": "NQ"
+      },
+      "children": []
+    },
+    "badge_btc": {
+      "type": "Badge",
+      "props": {
+        "text": "BTC"
+      },
+      "children": []
+    },
+    "link_component": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2084526426154516854"
+      },
+      "children": []
+    }
+  }
+}
