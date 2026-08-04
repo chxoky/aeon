@@ -1,0 +1,54 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor — Calibration"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-calibration",
+        "text-event",
+        "text-response",
+        "text-question"
+      ]
+    },
+    "text-calibration": {
+      "type": "Text",
+      "props": {
+        "text": "🔍 Calibration — @swarmister",
+        "variant": "lead"
+      }
+    },
+    "text-event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Emoji-only response to @fomocapdao"
+      }
+    },
+    "text-response": {
+      "type": "Text",
+      "props": {
+        "text": "😭😭",
+        "variant": "lead"
+      }
+    },
+    "text-question": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — is this market frustration with a FOMO/DAO project, or personal banter? What's your read?"
+      }
+    }
+  }
+}
