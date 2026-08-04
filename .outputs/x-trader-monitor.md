@@ -1,9 +1,9 @@
 🔍 *Calibration — @Wild_Randomness*
 
-Event: ETH 15m technical breakdown below 1,860-1,870 support zone
+Event: Reply to @0xbigmikey about Binance
 
-@Wild_Randomness: "lol" (reply to @0xbigmikey)
+Wild_Randomness: "@0xbigmikey Binance"
 
-Chart shows: ETH/USDT 1,857.01 -0.19%, breakdown through marked support levels on 15m timeframe.
+Unable to classify — what's your read?
 
-Unable to classify — is this bearish sentiment on ETH weakness, or are you signaling something else? [View post](https://x.com/Wild_Randomness/status/2084530164252529022)
+[View post](https://x.com/Wild_Randomness/status/2084531893207470475)

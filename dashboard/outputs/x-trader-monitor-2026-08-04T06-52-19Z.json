@@ -1,0 +1,47 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @Wild_Randomness"
+      },
+      "children": [
+        "event_type",
+        "tweet_card",
+        "status_text",
+        "link_section"
+      ]
+    },
+    "event_type": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @0xbigmikey about Binance",
+        "variant": "body"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "@0xbigmikey Binance"
+      }
+    },
+    "status_text": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "muted"
+      }
+    },
+    "link_section": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2084531893207470475"
+      }
+    }
+  }
+}
