@@ -1,0 +1,48 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge",
+        "message",
+        "attribution"
+      ]
+    },
+    "badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DC: HCH — Free",
+        "variant": "default"
+      }
+    },
+    "message": {
+      "type": "Text",
+      "props": {
+        "text": "Stick to sell stock highs over H2",
+        "variant": "lead"
+      }
+    },
+    "attribution": {
+      "type": "Text",
+      "props": {
+        "text": "via Discord — HCH — Free",
+        "variant": "caption"
+      }
+    }
+  }
+}
