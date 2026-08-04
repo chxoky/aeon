@@ -1,0 +1,99 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet_card",
+        "sep1",
+        "chart_section",
+        "sep2",
+        "sentiment_section"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "ETH/BTC technical structure: 4-year downtrend from 2022 PoS transition, never breaking generational trendline."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "chart_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "chart_text",
+        "price_stat",
+        "post_link"
+      ]
+    },
+    "chart_text": {
+      "type": "Text",
+      "props": {
+        "text": "Chart: ETH/BTC 1M showing support rejections, sustained weakness vs Bitcoin.",
+        "variant": "body"
+      }
+    },
+    "price_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH/BTC",
+        "value": "0.029736",
+        "delta": "-0.45%",
+        "trend": "down"
+      }
+    },
+    "post_link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2084532232660939216"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sentiment_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "sentiment_text",
+        "thesis_badge"
+      ]
+    },
+    "sentiment_text": {
+      "type": "Text",
+      "props": {
+        "text": "Aligns with group bearish sentiment on Ethereum structural weakness vs. Bitcoin",
+        "variant": "muted"
+      }
+    },
+    "thesis_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Wild_Randomness macro bear / dispersion thesis",
+        "variant": "secondary"
+      }
+    }
+  }
+}
