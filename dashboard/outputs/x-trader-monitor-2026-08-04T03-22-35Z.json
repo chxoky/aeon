@@ -1,0 +1,117 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @Wild_Randomness"
+      },
+      "children": [
+        "reply_section",
+        "images_section",
+        "sep1",
+        "analysis_section",
+        "question",
+        "link"
+      ]
+    },
+    "reply_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "reply_label",
+        "reply_content"
+      ]
+    },
+    "reply_label": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to @cactusDAT:",
+        "variant": "muted"
+      }
+    },
+    "reply_content": {
+      "type": "Text",
+      "props": {
+        "text": "\"This ongoing thread\""
+      }
+    },
+    "images_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "images_heading",
+        "image1_desc",
+        "image2_desc"
+      ]
+    },
+    "images_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Images",
+        "level": "h4"
+      }
+    },
+    "image1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "(1) Crude bullish BTC meme from Jul 30 saying \"how bullish I am if I saw a female cow I would literally fuck it $BTC\""
+      }
+    },
+    "image2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "(2) Bearish NQ1/BTCUSDT daily chart (downtrend ~5.00→2.22, RSI, support zones)"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "analysis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "signal_conflict_badge",
+        "conflict_text"
+      ]
+    },
+    "signal_conflict_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Signal conflict",
+        "variant": "warning"
+      }
+    },
+    "conflict_text": {
+      "type": "Text",
+      "props": {
+        "text": "Bullish meme text vs bearish technical chart. Unable to determine stance without @cactusDAT's original message context."
+      }
+    },
+    "question": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "lead"
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2084478753347174766"
+      }
+    }
+  }
+}
