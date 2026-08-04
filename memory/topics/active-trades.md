@@ -562,6 +562,22 @@
 - **Approval status**: AWAITING KYLE APPROVAL (trade signal 5a alert sent, awaiting "approve NVDA" confirmation before mirror on Kraken)
 - **Last update**: 2026-07-14T21:55:29Z (X, tweet_id=2077150011847016918, fast-path alerted, awaiting approval)
 
+### SOXL — LONG — ACTIVE (entry 2026-08-04, PENDING APPROVAL)
+- **Entry**: 2026-08-04T13:02:55Z (X post, tweet_id=2084626133639999913)
+- **Entry message**: "Got what we were looking for and executed" + 2 technical charts
+- **Entry type**: Market order (executed on technical reversal setup, exact fill price unclear from post)
+- **Entry level**: Support zone 114.61 (current price at post time; reversal at major support)
+- **Position size**: Unspecified (awaiting Kyle approval for mirror sizing)
+- **Entry context**: Chart 1 shows SOXL daily downtrend from ~260 to ~114.61 with major support levels marked (220, 200, 160, 140, 120, 100). Teal arrow marks bullish reversal entry at support zone. Chart 2 shows longer-term recovery from ~50 (absolute bottom) to current 114.61 with target zone 183.17+ marked. Clear uptrend recovery structure with multiple technical resistance levels validating target thesis.
+- **Status**: PENDING APPROVAL — awaiting Kyle response (`approve SOXL` to mirror on Kraken spot)
+- **Thesis**: Technical reversal at support on SOXL daily chart. Aligns with Wild_Randomness documented "SOXL blowoff quarterly weakness thesis" (Jul 29, 13:47Z) but tactical shift from longer-term bearish quarterly weakness forecast to short-term bullish bounce play. Entry validates support hold after crash from ~320 to ~100; recovery structure shows 183+ target on uptrend. Semis sector overlap (cross-trader convergence with HCH/Chase/ryzzqq on SOXL Jun-Jul tracking).
+- **Target structure**: Multiple resistance zones marked (120, 140, 160, 180, 183.17). Chart annotates 183.17 as key resistance/potential TP target after recovery continuation.
+- **Risk**: Entry after major crash; depends on support hold. Extended downside risk if 100 support fails (marked support zones 75, 60 visible on chart 1).
+- **Trade alert format**: Step 5a (new entry requiring approval); charts fetched and analyzed per Step 7 protocol
+- **Approval status**: AWAITING KYLE APPROVAL (trade signal 5a alert sent via ./notify; awaiting "approve SOXL <size>" confirmation before mirror on Kraken spot)
+- **Alerted**: YES (2026-08-04T13:02:55Z, x-trader-monitor real-time event, trade signal 5a alert sent via ./notify)
+- **Last update**: 2026-08-04T13:02:55Z (new entry, X post tweet_id=2084626133639999913, x-trader-monitor real-time)
+
 ## t_in_crypto
 
 ### BTC — LONG (conviction add 2026-07-14)

@@ -1,0 +1,13 @@
+#!/bin/bash
+cd /home/runner/work/aeon/aeon
+./notify "🚨 *Trade Signal — @Wild_Randomness*
+
+\$SOXL — *LONG entry* — reversal at technical support
+
+\"Got what we were looking for and executed\"
+
+Charts show: Major support tested/bounced (114.61 current), uptrend established with target zone 183.17+. Clear reversal setup with multiple resistance levels. Aligned with documented SOXL \"blowoff quarterly weakness\" thesis.
+
+[View post](https://x.com/Wild_Randomness/status/2084626133639999913)
+
+Reply \`approve SOXL\` to mirror this on Kraken (spot), or ignore to skip."
