@@ -1,15 +1,11 @@
-🐦 *[X] @HeartCanHodl*
+🔍 *Calibration — @HeartCanHodl*
 
-$AMD watching crash action — 1m chart shows AMDUSDT (perpetual) dumping from ~530 down to ~474 current (massive selloff, -55 points intraday). Multiple support levels tested: 534→529→510→467. Chart time: Aug 04 20:17 UTC.
+Event: Chart-only X post to @pikachu_crypto. AMDUSD 1D chart showing crash 532.97 high → 463.90 low, recovery to 479.88.
 
-[View post](https://x.com/Wild_Randomness/status/2084733996420984846)
-🐦 *[X] @HeartCanHodl*
+Chart is readable (clear price action), but no caption text explaining HCH's financial intent.
 
-Showing profitable LONG perp positions:
-• SPCXUSDT 3X: Entry 108.75 → Mark 116.88 **(+22.44%)**
-• ASTUSDT 3X: Entry 58.83 → Mark 66.50 **(+39.11%)**
+Unable to determine: buying opportunity after -13% dump? bearish warning? technical observation? entry setup?
 
-Liquidation feed shows shorts getting squeezed on both. Aligns with documented Aug 02 pivot to net LONG.
+AMDUSD not in your watch list or HCH's active portfolio (crypto perpetual on legacy stock asset).
 
-https://x.com/HeartCanHodl/status/2084734670403785062
-[View tweet](https://x.com/HeartCanHodl/status/2084735525957837293)
+What's your read on this chart share?

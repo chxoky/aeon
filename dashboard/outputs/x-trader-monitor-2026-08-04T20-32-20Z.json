@@ -1,0 +1,230 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X-Trader Monitor — Calibration"
+      },
+      "children": [
+        "content_stack"
+      ]
+    },
+    "content_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "header",
+        "event_subsection",
+        "chart_subsection",
+        "assessment_subsection",
+        "context_subsection"
+      ]
+    },
+    "header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_calibration",
+        "badge_author"
+      ]
+    },
+    "badge_calibration": {
+      "type": "Badge",
+      "props": {
+        "text": "Calibration",
+        "variant": "secondary"
+      }
+    },
+    "badge_author": {
+      "type": "Badge",
+      "props": {
+        "text": "@HeartCanHodl",
+        "variant": "secondary"
+      }
+    },
+    "event_subsection": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event_heading",
+        "event_text"
+      ]
+    },
+    "event_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "event_text": {
+      "type": "Text",
+      "props": {
+        "text": "Chart-only X post to @pikachu_crypto. AMDUSD 1D chart showing crash 532.97 high → 463.90 low, recovery to 479.88."
+      }
+    },
+    "chart_subsection": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "chart_heading",
+        "asset_badges",
+        "price_section"
+      ]
+    },
+    "chart_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart Details",
+        "level": "h3"
+      }
+    },
+    "asset_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_asset",
+        "badge_timeframe"
+      ]
+    },
+    "badge_asset": {
+      "type": "Badge",
+      "props": {
+        "text": "AMDUSD",
+        "variant": "default"
+      }
+    },
+    "badge_timeframe": {
+      "type": "Badge",
+      "props": {
+        "text": "1D",
+        "variant": "outline"
+      }
+    },
+    "price_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_high",
+        "stat_low",
+        "stat_recovery"
+      ]
+    },
+    "stat_high": {
+      "type": "Stat",
+      "props": {
+        "label": "High",
+        "value": "$532.97"
+      }
+    },
+    "stat_low": {
+      "type": "Stat",
+      "props": {
+        "label": "Low (Crash)",
+        "value": "$463.90",
+        "delta": "-13%",
+        "trend": "down"
+      }
+    },
+    "stat_recovery": {
+      "type": "Stat",
+      "props": {
+        "label": "Recovery",
+        "value": "$479.88"
+      }
+    },
+    "assessment_subsection": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "assessment_heading",
+        "assessment_text",
+        "questions_alert"
+      ]
+    },
+    "assessment_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Assessment",
+        "level": "h3"
+      }
+    },
+    "assessment_text": {
+      "type": "Text",
+      "props": {
+        "text": "Chart is readable (clear price action), but no caption text explaining HCH's financial intent."
+      }
+    },
+    "questions_alert": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Unable to Determine",
+        "message": "Buying opportunity after -13% dump? Bearish warning? Technical observation? Entry setup?"
+      }
+    },
+    "context_subsection": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_heading",
+        "context_text",
+        "separator",
+        "cta_text"
+      ]
+    },
+    "context_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "AMDUSD not in your watch list or HCH's active portfolio (crypto perpetual on legacy stock asset).",
+        "variant": "caption"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "cta_text": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read on this chart share?",
+        "variant": "lead"
+      }
+    }
+  }
+}
