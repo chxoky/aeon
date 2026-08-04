@@ -526,3 +526,13 @@
 - **Events (rolling):**
   - Aug 04 03:00Z — ambiguous: reply to @lazyvillager1 "alright quick...up or down?" — cryptic market direction call with no ticker/asset specified; unable to classify target; calibration alert sent to Kyle per HR-2 [2084474544652255395]
   - Aug 03 16:41Z — informational: $ETH/$SOL relative strength thesis — "one thesis I'm leaning towards is $ETH and $SOL playing reverse roles next cycle in terms of relative strength (not multiples)"; chart-driven technical observation, no personal trade action stated; alerts Kyle on convergence with broader semis/crypto thesis tracking [2084318792998383866]
+
+## Stoiiic
+- Platforms: X (primary; X-only, no Discord presence)
+- Current open positions: None announced
+- Recent thesis: None yet (first event)
+- Conviction notes: First appearance. Single non-financial event (personal banter about camping).
+- Calibration: None yet
+- Last seen: 2026-08-04T03:02:25Z
+- **Events (rolling):**
+  - Aug 04 03:02Z — skip: personal banter reply to @lazyvillager1/@real_y22; "bro was just camping out at chipotle for a few months"; no financial signal, no ticker, no position. Non-financial per Step 4A. [2084475015290823036]
