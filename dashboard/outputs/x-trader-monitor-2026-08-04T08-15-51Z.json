@@ -1,0 +1,24 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "alert_bad_event"
+      ]
+    },
+    "alert_bad_event": {
+      "type": "Alert",
+      "props": {
+        "title": "X_TRADER_BAD_EVENT",
+        "message": "Base64 payload corrupted or truncated. Partial decode shows tweet from @swarmister about stop-losses, but event JSON is malformed. Skipping.",
+        "type": "error"
+      },
+      "children": []
+    }
+  }
+}
