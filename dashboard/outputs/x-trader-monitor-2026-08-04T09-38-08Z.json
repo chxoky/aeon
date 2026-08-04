@@ -1,0 +1,83 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Trade Signal — @swarmister"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "alert_signal",
+        "stack_details",
+        "text_quote",
+        "link_post",
+        "alert_action"
+      ]
+    },
+    "alert_signal": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "BTC SHORT",
+        "message": "DCA plan (equal lots on daily)"
+      }
+    },
+    "stack_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_12h",
+        "badge_15m"
+      ]
+    },
+    "badge_12h": {
+      "type": "Badge",
+      "props": {
+        "text": "12-hour imbalance",
+        "variant": "outline"
+      }
+    },
+    "badge_15m": {
+      "type": "Badge",
+      "props": {
+        "text": "15-minute confirmation",
+        "variant": "outline"
+      }
+    },
+    "text_quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"Second attempt to short $BTC\n\nOn the 12-hour imbalance chart, we got a 15-minute confirmation for a short position (HTF → LTF)\n\nI'm targeting equal lots on 1D\"",
+        "variant": "lead"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post on X",
+        "href": "https://x.com/swarmister/status/2084573260012769368"
+      }
+    },
+    "alert_action": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "Reply `approve BTC` to mirror this setup on Kraken (spot DCA), or ignore to skip."
+      }
+    }
+  }
+}
