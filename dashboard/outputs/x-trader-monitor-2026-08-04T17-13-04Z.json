@@ -1,0 +1,33 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet_stoiiic",
+        "link_view"
+      ]
+    },
+    "tweet_stoiiic": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "Stoiiic",
+        "text": "My thought process is that BTC is in the final phase of the HTF downtrend.\n\nBelieve this is the last bit where most will take their eyes off the ball.\n\nJust a matter of time based bottoming structure from here on out.\n\nIf there happens to be forced selling to break into a new low, good.\n\nIf it's just time based chop and the low doesn't get crushed, good.\n\nThere will continue to be opportunities in the future.\n\nPay attention the next few months.\n\nA little more patience."
+      },
+      "children": []
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Stoiiic/status/2084687419069325535"
+      },
+      "children": []
+    }
+  }
+}
