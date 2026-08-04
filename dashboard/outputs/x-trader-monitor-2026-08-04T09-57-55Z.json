@@ -1,0 +1,69 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @swarmister"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-event",
+        "sep-1",
+        "tweetcard",
+        "sep-2",
+        "text-analysis",
+        "link-view"
+      ]
+    },
+    "text-event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @mainachad about trading triggers and stop loss"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweetcard": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "There were a lot of triggers yesterday, too, but I got a Sl :("
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read? Is this referring to a past trade, or does it relate to the BTC SHORT signal posted 20min prior (09:32Z)? Reply-dependent context needed."
+      }
+    },
+    "link-view": {
+      "type": "Link",
+      "props": {
+        "label": "View original tweet",
+        "href": "https://x.com/swarmister/status/2084578198348517656"
+      }
+    }
+  }
+}

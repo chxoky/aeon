@@ -18,3 +18,12 @@ Perfect! I've successfully executed the skill for the provided event. Here's the
 6. ✅ Logged event to memory/logs/2026-08-04.md
 
 **Result:** Silent processing — event logged but no notification sent to Kyle. Per CLAUDE.md protocol, non-financial posts are skipped entirely (no trader.md event line added, no alert triggered).
+🔍 *Calibration — @swarmister*
+
+Event: Reply to @mainachad about trading triggers and stop loss
+
+@swarmister: "There were a lot of triggers yesterday, too, but I got a Sl :("
+
+Unable to classify — what's your read? Is this referring to a past trade, or does it relate to the BTC SHORT signal posted 20min prior (09:32Z)? Reply-dependent context needed.
+
+View: https://x.com/swarmister/status/2084578198348517656
