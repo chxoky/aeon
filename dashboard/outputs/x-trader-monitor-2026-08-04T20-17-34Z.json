@@ -1,0 +1,44 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "text-mirror",
+        "badge-alab",
+        "text-status",
+        "link-post"
+      ]
+    },
+    "text-mirror": {
+      "type": "Text",
+      "props": {
+        "text": "🔁 Mirrored — @Wild_Randomness",
+        "variant": "muted"
+      }
+    },
+    "badge-alab": {
+      "type": "Badge",
+      "props": {
+        "text": "ALAB"
+      }
+    },
+    "text-status": {
+      "type": "Text",
+      "props": {
+        "text": "Closed position. Recovered from support; exited Sep accumulation thesis."
+      }
+    },
+    "link-post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2084733996420984846"
+      }
+    }
+  }
+}
