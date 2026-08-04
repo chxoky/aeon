@@ -1,0 +1,23 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "alert_status"
+      ]
+    },
+    "alert_status": {
+      "type": "Alert",
+      "props": {
+        "type": "success",
+        "message": "Event 2084719105131589960 (@swarmister personal banter) classified as non-financial, skipped, dedup ID recorded."
+      },
+      "children": []
+    }
+  }
+}
