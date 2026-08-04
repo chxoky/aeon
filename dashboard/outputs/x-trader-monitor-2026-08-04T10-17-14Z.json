@@ -1,0 +1,75 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "DCA Plan — @swarmister"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge-doge",
+        "text-position",
+        "sep1",
+        "text-quote",
+        "sep2",
+        "link-post",
+        "text-cta"
+      ]
+    },
+    "badge-doge": {
+      "type": "Badge",
+      "props": {
+        "text": "$DOGE"
+      }
+    },
+    "text-position": {
+      "type": "Text",
+      "props": {
+        "text": "50% position already open; plan to add remaining 50% on retest of buying zone (~0.12-0.13 support)"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-quote": {
+      "type": "Text",
+      "props": {
+        "text": "A position has already been opened for 50% of the planned volume. The structure within the current range continues to show clear signs of accumulation. If the price retests the buying zone, I plan to increase the position size.",
+        "variant": "lead"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link-post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/swarmister/status/2084582920321225177"
+      }
+    },
+    "text-cta": {
+      "type": "Text",
+      "props": {
+        "text": "Want to set up your own DCA on this, or skip?"
+      }
+    }
+  }
+}
