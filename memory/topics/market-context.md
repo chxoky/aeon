@@ -1,33 +1,35 @@
-# Market Context (as of 2026-08-03)
+# Market Context (as of 2026-08-04)
 
-> **Take:** chop — BTC flat at +0.13% 24h ($63,143); Iran de-escalation failed to spark altcoin follow-through with breadth holding at 5/20 green. Conviction: medium.
+> **Take:** risk-on — BTC +2.2% 24h with breadth surging from 5/20 to 16/20 green in one session; DEX vol $6.47B (+27% vs Aug 3 snapshot). Conviction: medium — price, breadth, and DEX vol confirm; F&G at 25 (Extreme Fear, -3 pts vs yesterday) and CLARITY Act delay disagree.
 
 ## Signal Snapshot
-- BTC $63,143 (+0.13% 24h, −3.8% 7d) · dominance 56.30% (+0.11 pp 24h)
-- ETH $1,853 (−0.02% 24h, −6.1% 7d) · ETH/BTC 0.02935
-- SOL $73.07 (+0.23% 24h, −5.5% 7d)
-- Total mcap $2.25T (+0.11% 24h) · DEX vol $5.09B 24h
-- Breadth: 5/20 green 24h · 5/20 green 7d
-- Fear & Greed: 28 (Fear) — yesterday 27
+- BTC $63,810 (+2.2% 24h, +0.8% 7d) · dominance 56.44% (+0.14 pp 24h)
+- ETH $1,869 (+2.0% 24h, 0.0% 7d) · ETH/BTC 0.02930
+- SOL $73.70 (+1.9% 24h, +1.0% 7d)
+- Total mcap $2.27T (+0.9% 24h) · DEX vol $6.47B 24h
+- Breadth: 16/20 green 24h · 15/20 green 7d
+- Fear & Greed: 25 (Extreme Fear) — yesterday 28
 
 ## What Changed Since Last Refresh
-- **Regime softened: risk-off → chop** — BTC recovered $611 to $63,143 (+0.98% vs prior snapshot), snapping the −1.4% 24h session; Iran de-escalation (Trump paused airstrikes Sun Aug 2) was absorbed without altcoin follow-through; breadth only improved 4/20 → 5/20.
-- **ETH recovered modestly: $1,841 → $1,853 (+0.7%)** — still −6.1% 7d; ETH/BTC 0.02935 vs prior 0.02944, alts continuing to underperform BTC on relative basis.
-- **DEX vol flat: $5.07B → $5.09B (+0.4%)** — no volume follow-through on the price recovery; market in wait-and-see mode ahead of CLARITY Act (Aug 5) and NFP (Aug 7).
+- **Breadth surged 5/20 → 16/20 (24h)** — single-session flip from near-full risk-off to near-full risk-on; 7d breadth improved 5/20 → 15/20; largest one-day breadth improvement in the current drawdown, signaling regime change.
+- **DEX vol jumped $5.09B → $6.47B (+27%)** — first material volume follow-through in the drawdown; liquidity is backing the price recovery.
+- **BTC 7d turned positive: −3.8% → +0.8%** — weekly trend flipped; ETH/BTC holding 0.02930 (essentially flat vs 0.02935 prior).
+- **F&G dropped 28 → 25 into Extreme Fear** despite rising prices — price/sentiment divergence; retail hasn't rotated in.
+- **CLARITY Act delayed by Senate** — expected Aug 5 procedural vote postponed; removes the near-term regulatory catalyst and adds institutional uncertainty heading into NFP week.
 
 ## Active Narratives
-- **September FOMC hawkish repricing** — phase: rising. Evidence: BTC ETF YTD net outflows ~$5.4B; Aug 1 single-day outflow $265.4M; NFP Aug 7 is the primary binary for the Sep FOMC path; CLARITY Act procedural vote may occur Aug 7 before recess.
-- **Bitcoin cycle drawdown** — phase: rising. Evidence: BTC −3.8% 7d, −50% from $126K ATH; ETH −6.1% 7d, SOL −5.5% 7d; three macro-bear analyst convergence from prior session intact (Stoiiic mid-cycle framework, Wild_Randomness stablecoin supply bleed, Bitcoin_Astro Aug 12 Solar Eclipse watch date).
-- **ADA / L1 rotation** — phase: rising. Evidence: ADA +14.7% 7d, top trending on CoinGecko (rank 16); XMR +2.4% 7d; sole top-20 assets with meaningful positive 7d returns alongside stablecoins — divergence from broad-market weakness persists for a second session.
-- **HYPE / perps DEX momentum** — phase: emerging. Evidence: HYPE +2.9% 24h while 17/20 top-cap assets flat or red; trending on CoinGecko (rank 10, $53.55); −11.8% 7d means this is a 24h bounce, not a trend — needs follow-through to confirm.
-- **Geopolitical risk premium** — phase: rising. Evidence: Iran invasion YES 20.5% ($1.02M 24h vol, up from 19.5% pre-de-escalation); Hormuz YES 12.5% ($0.60M vol, up from 11.5%) — markets repricing higher despite Trump airstrikes pause, suggesting de-escalation credibility remains low.
+- **Broad market recovery** — phase: emerging. Evidence: BTC 7d flipped +0.8% (from −3.8%); 15/20 top-cap assets green 7d vs 5/20 prior session; ADA +23.9% 7d leading; BNB +4.4% 7d, XMR +6.5% 7d, ZEC +4.8% 7d.
+- **ADA / L1 rotation** — phase: rising. Evidence: ADA +4.5% 24h, +23.9% 7d — second consecutive session as top-20 outperformer with no fade; sole asset with double-digit 7d gains in top-20.
+- **HYPE / perps DEX momentum** — phase: rising. Evidence: HYPE +5.6% 24h (follow-through from +2.9% prior session), +2.4% 7d; CoinGecko trending rank #10 at $55.50 — confirmed emerging → rising transition.
+- **Micro-cap / meme speculation** — phase: emerging. Evidence: CYS +68.6%, HOME +77.2%, CASHCAT +58.1%, PUMP +6.6% in 24h; froth in sub-$100M tokens while large-caps remain in Extreme Fear — early-cycle risk-on rotation pattern.
+- **FOMC uncertainty / geopolitical risk premium** — phase: rising. Evidence: Hormuz Aug 31 YES 15.5% ($0.68M vol), Hormuz Aug 15 YES 3.4% ($1.12M vol) — market pricing <4% chance of strait reopening by Aug 15; CLARITY Act delayed; futures OI at 2-month high; Hashdex first U.S. spot BTC ETF closure ($14.7M AUM).
 
 ## Top DeFi Protocols (TVL, 7d change)
-- Lido: $17.35B (−5.25% 7d)
-- Aave V3: $13.73B (−3.03% 7d)
-- SSV Network: $9.14B (−5.41% 7d)
-- Morpho Blue: $7.48B (−2.36% 7d)
-- WBTC: $7.14B (−4.19% 7d)
+- Lido: $17.65B (+0.49%)
+- Aave V3: $14.01B (+2.01%)
+- SSV Network: $9.30B (+0.21%)
+- Morpho Blue: $7.64B (+2.06%)
+- WBTC: $7.28B (+0.64%)
 
 ## Chain Flow (top 3 by TVL, 7d)
 - Ethereum: $40.47B (7d delta unavailable — DeFiLlama chains endpoint)
@@ -35,35 +37,35 @@
 - Tron: $4.83B (7d delta unavailable)
 
 ## Stablecoins
-Total: ~$270.5B (≈unchanged vs prior $270.6B). USDT $183.12B · USDC $71.98B · USDS $6.56B · DAI $4.81B · USD1 $4.01B — combined share of mcap ~12.0%.
+Total: ~$274.5B (≈+$4B vs prior ~$270.5B). USDT $183.02B · USDC $72.19B · USDS $6.57B · DAI $4.80B · USD1 $4.00B · USDe $3.87B — combined share of mcap ~12.1%.
 
 ## Trending (CoinGecko)
-- HYPE (Hyperliquid) — rank #10, $53.55, +2.9% 24h [top 24h gainer in top-20; perps DEX, bounce on -11.8% weekly]
-- ADA (Cardano) — rank #16, $0.193, +0.0% 24h [top 7d performer in top-20 at +14.7%; L1 rotation thesis]
-- ZEC (Zcash) — $493.02, +2.8% 24h [privacy-L1, second-best 24h in top-20; XMR +2.4% 7d companion]
-- XRP — rank #6, $1.074, −1.3% 24h [large-cap; trending on CLARITY Act regulatory news]
+- HYPE (Hyperliquid) — rank #10, $55.50, +4.96% 24h [perps DEX follow-through; narrative promoted to rising]
+- PUMP (Pump.fun) — rank #71, $0.0022, +6.63% 24h [meme launchpad; fringe risk-on signal]
+- CYS (Cysic) — rank #293, $0.49, +68.57% 24h [ZK/compute micro-cap; speculative burst]
+- AAVE — rank #52, $91.77, −0.40% 24h [DeFi blue-chip trending; Aave V3 TVL +2.01% 7d supports thesis]
+- HOME — rank #427, $0.0114, +77.19% 24h [hyper-speculative micro-cap; no fundamental anchor]
 
 ## Prediction Markets (Polymarket, top by 24h vol)
 | Market | YES% | 24h Vol | Liquidity |
 |--------|------|---------|-----------|
-| Jessica Pegula vs A. Eala (tennis) | 80.5% | $1.68M | $0.15M |
-| US invade Iran before 2027? | 20.5% | $1.02M | $1.17M |
-| Strait of Hormuz normal by Aug 31? | 12.5% | $0.60M | $0.61M |
-| Kovacevic vs Borges (tennis) | 25.5% | $0.59M | $0.02M |
+| Strait of Hormuz normal by Aug 15? | 3.4% | $1.12M | $0.28M |
+| US x Iran ceasefire by Jul 31? | 63.5% | $0.83M | $0.07M |
+| Strait of Hormuz normal by Aug 31? | 15.5% | $0.68M | $0.35M |
 
-*Top macro markets: Iran invasion (20.5%, rising vs 19.5% pre-de-escalation) and Hormuz (12.5%, rising vs 11.5%) — geopolitical credibility gap persists despite Trump airstrikes pause. Sports-dominated by volume.*
+*Geopolitical read: market pricing <4% chance Hormuz reopens by Aug 15 and only 15.5% by Aug 31 — strait risk remains structurally elevated despite Iran ceasefire narrative.*
 
 ## Macro Catalysts (next 48h)
-- **CLARITY Act cloture (Aug 5):** Filing potentially today; procedural Senate vote Aug 7 before recess. Passage removes regulatory overhang for crypto; delay or failure adds near-term headwinds.
-- **NFP August 7 (4 days):** Primary binary for Sep FOMC path. Hot print accelerates hike probability → extends ETF outflow trend; soft print opens relief-rally window. Watch Aug 3–4 ETF flow data (available Aug 4–5) for pre-NFP positioning read.
+- **NFP August 7 (3 days):** Primary binary for Sep FOMC path. Fed at 3.50-3.75% "higher for longer." Hot print = hike acceleration → extends ETF outflow trend; soft print = relief window. Futures OI at 2-month high ahead of data — volatility setup for Aug 7.
+- **CLARITY Act delayed:** Senate postponed the Aug 5 cloture vote. Removes the near-term regulatory catalyst; watch for rescheduling language after recess.
 
 ## Implications for Downstream Skills
-- **token-pick:** Chop regime — no new large-cap longs while breadth ≤7/20. ADA and XMR are the only top-20 assets with meaningful 7d gains; hold for NFP clarity (Aug 7) before new entries. Binary catalysts (CLARITY Act + NFP) argue for flat/minimal exposure this week.
-- **narrative-tracker:** Regime softened from risk-off to chop (Iran de-escalation absorbed, no trend change). Add HYPE/perps momentum to watch list — 24h +2.9% and CoinGecko trending, but needs 7d confirmation before rising classification. Sep FOMC repricing remains primary narrative through Aug 7 NFP.
+- **token-pick:** Breadth flip to 16/20 opens a window — ADA (L1 rotation, +23.9% 7d) and HYPE (perps DEX, +5.6% 24h, confirmed rising) are the leading narratives. Hold sizing decision until NFP (Aug 7) resolves — futures OI at 2-month high means the next move is violent either way. F&G extreme fear divergence argues for small entries, not conviction sizing.
+- **narrative-tracker:** Regime shifted chop → risk-on (nascent). Promote HYPE emerging → rising (confirmed follow-through). ADA rising — watch for peak signals (two sessions of top-mover status, crowded). Add micro-cap/meme speculation as emerging. CLARITY Act delay extends FOMC uncertainty narrative through recess.
 
 ## Token Picks Made
 | Date | Token | Price | Thesis |
 
 ---
 *Sources — btc/eth: CoinGecko · defi: DeFiLlama · sentiment: alternative.me · markets: Polymarket · catalysts: WebSearch*
-*Source status: coingecko=ok defillama=ok(protocols ok; chain 7d delta unavailable) fng=ok polymarket=ok(geopolitical/sports dominated; Iran 20.5%/Hormuz 12.5%) websearch=ok*
+*Source status: coingecko=ok defillama=ok(protocols ok; chain 7d delta unavailable) fng=ok polymarket=ok(geopolitical dominated; Hormuz Aug15 3.4%/Aug31 15.5%) websearch=ok*
