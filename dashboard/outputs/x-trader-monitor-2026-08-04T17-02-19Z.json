@@ -1,0 +1,31 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "link_view_post"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Much needed follow-up to the pinned tweet / playbook incoming this week\n\n📊 Framework preview shows: options sentiment extremes (calls/puts ratio spike), implied vol at record highs (CBOE 1M), fund allocation at record equity overweight (BofA May '26), SPX down 9.71% over 20d with support/resistance structure mapped.\n\nEducational content teaser signaling detailed macro/technical/sentiment analysis framework publishing this week."
+      }
+    },
+    "link_view_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2084684783129673821"
+      }
+    }
+  }
+}
