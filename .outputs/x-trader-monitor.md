@@ -1,11 +1,9 @@
-🔍 **Calibration — @Wild_Randomness**
+🐦 *[X] @Stoiiic*
 
-Reply to @cactusDAT: "This ongoing thread"
+is it me or has Asia session tape on BTC had a shift as of recent? (Last 4/5 sessions)
 
-Images: (1) Crude bullish BTC meme from Jul 30 saying "how bullish I am if I saw a female cow I would literally fuck it $BTC"; (2) Bearish NQ1/BTCUSDT daily chart (downtrend ~5.00→2.22, RSI, support zones).
+different type of behavior.
 
-**Signal conflict:** Bullish meme text vs bearish technical chart. Unable to determine stance without @cactusDAT's original message context.
+interesting.
 
-What's your read?
-
-[View post](https://x.com/Wild_Randomness/status/2084478753347174766)
+[View tweet](https://x.com/Stoiiic/status/2084503121666142441)
