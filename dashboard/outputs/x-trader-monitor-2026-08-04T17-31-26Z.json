@@ -1,0 +1,120 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "header",
+        "separator1",
+        "context",
+        "separator2",
+        "message",
+        "separator3",
+        "analysis"
+      ]
+    },
+    "header": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h2"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_title",
+        "activity1",
+        "activity2",
+        "activity3"
+      ]
+    },
+    "context_title": {
+      "type": "Text",
+      "props": {
+        "text": "Recent Activity",
+        "variant": "lead"
+      }
+    },
+    "activity1": {
+      "type": "Text",
+      "props": {
+        "text": "16:48Z: QQQ trade failure — 'was a dumb trade, stop hit'",
+        "variant": "body"
+      }
+    },
+    "activity2": {
+      "type": "Text",
+      "props": {
+        "text": "16:55Z: Playbook framework preview",
+        "variant": "body"
+      }
+    },
+    "activity3": {
+      "type": "Text",
+      "props": {
+        "text": "17:11Z: AAPL chart observation",
+        "variant": "body"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "message_label",
+        "message_text"
+      ]
+    },
+    "message_label": {
+      "type": "Text",
+      "props": {
+        "text": "Message:",
+        "variant": "lead"
+      }
+    },
+    "message_text": {
+      "type": "Text",
+      "props": {
+        "text": "(It was wishful thinking)",
+        "variant": "body"
+      }
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Which prior position/thesis is being reflected on here? QQQ trade? Playbook concept? Market prediction?",
+        "type": "info"
+      }
+    }
+  }
+}
