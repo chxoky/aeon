@@ -1,0 +1,56 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @Wild_Randomness"
+      },
+      "children": [
+        "text_event",
+        "tweet_card",
+        "stat_eth",
+        "text_question",
+        "link_view"
+      ]
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: ETH 15m technical breakdown below 1,860-1,870 support zone"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "lol (reply to @0xbigmikey)"
+      }
+    },
+    "stat_eth": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH/USDT",
+        "value": "1,857.01",
+        "delta": "-0.19%",
+        "trend": "down"
+      }
+    },
+    "text_question": {
+      "type": "Text",
+      "props": {
+        "text": "Chart shows breakdown through marked support levels on 15m timeframe. Unable to classify — is this bearish sentiment on ETH weakness, or are you signaling something else?",
+        "variant": "muted"
+      }
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2084530164252529022"
+      }
+    }
+  }
+}
