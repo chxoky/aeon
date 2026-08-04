@@ -1,0 +1,78 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-calibration",
+        "sep-1",
+        "badge-event",
+        "tweet-card",
+        "text-status",
+        "link-post"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "badge-event": {
+      "type": "Badge",
+      "props": {
+        "text": "ETH technical observation",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "@0xbigmikey 'Let's see' + ETH/USDT 15m chart (1,864.82 consolidation)"
+      },
+      "children": []
+    },
+    "text-status": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read? Reply-dependent context unclear.",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "link-post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2084476142132826399"
+      },
+      "children": []
+    }
+  }
+}
