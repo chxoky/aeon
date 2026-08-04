@@ -1,0 +1,213 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor",
+        "description": "HeartCanHodl - SPCX Mean-Reversion Setup"
+      },
+      "children": [
+        "tweet-card",
+        "separator-1",
+        "context-stack"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "@HeartCanHodl",
+        "text": "I'd say we just got lucky with the timing on both👌🏻"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "context-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "setup-section",
+        "separator-2",
+        "ticker-section",
+        "separator-3",
+        "catalyst-section",
+        "separator-4",
+        "trade-section",
+        "separator-5",
+        "link-post"
+      ]
+    },
+    "setup-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "setup-heading",
+        "setup-text"
+      ]
+    },
+    "setup-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Setup",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "setup-text": {
+      "type": "Text",
+      "props": {
+        "text": "Dual-ticker convergence on mean-reversion setup. Gali's post frames as 'insane opportunity in retrospect.'"
+      },
+      "children": []
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "ticker-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ticker-heading",
+        "ticker-stats"
+      ]
+    },
+    "ticker-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "SPCX Performance",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "ticker-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-ytd",
+        "stat-price"
+      ]
+    },
+    "stat-ytd": {
+      "type": "Stat",
+      "props": {
+        "label": "YTD Performance",
+        "value": "-52.58%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "stat-price": {
+      "type": "Stat",
+      "props": {
+        "label": "Current Price",
+        "value": "$108.37"
+      },
+      "children": []
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "catalyst-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "catalyst-heading",
+        "catalyst-text"
+      ]
+    },
+    "catalyst-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Catalyst Context",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "catalyst-text": {
+      "type": "Text",
+      "props": {
+        "text": "AST SpaceMobile at Meta building WhatsApp satellite connectivity integration (emerging catalyst). AST represents emerging satellite-connectivity narrative gaining institutional momentum."
+      },
+      "children": []
+    },
+    "separator-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "trade-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trade-heading",
+        "trade-text"
+      ]
+    },
+    "trade-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Trade Activity",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "trade-text": {
+      "type": "Text",
+      "props": {
+        "text": "HeartCanHodl recently flipped SPCX from profitable short to 2% spot long on August 02, expressing conviction on timing."
+      },
+      "children": []
+    },
+    "separator-5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link-post": {
+      "type": "Link",
+      "props": {
+        "label": "View post on X",
+        "href": "https://x.com/HeartCanHodl/status/2084562128602812439"
+      },
+      "children": []
+    }
+  }
+}

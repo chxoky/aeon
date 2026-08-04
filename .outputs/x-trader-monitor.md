@@ -11,3 +11,10 @@ Confirms bullish conviction on both tickers executing profitably within 24-30 ho
 No new trade action needed.
 
 [View post](https://x.com/HeartCanHodl/status/2084561126025506888)
+I'd say we just got lucky with the timing on both👌🏻
+
+**Context**: Dual-ticker convergence on mean-reversion setup. SPCX crashed -52.58% YTD (chart shows $108.37 current). Gali's post frames as "insane opportunity in retrospect." LinkedIn context: AST SpaceMobile at Meta building WhatsApp satellite connectivity integration (emerging catalyst).
+
+↳ _HCH recently flipped SPCX from profitable short to 2% spot long (Aug 02), now expressing conviction on timing. AST represents emerging satellite-connectivity narrative gaining institutional momentum._
+
+[View post](https://x.com/HeartCanHodl/status/2084562128602812439)
