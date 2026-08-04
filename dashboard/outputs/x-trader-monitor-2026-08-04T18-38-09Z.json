@@ -1,0 +1,38 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet_card",
+        "separator",
+        "view_link"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Post-mortem on recent medium-term trading: Cleaned out all MTF positions Friday on daily trend reclaims (SPY/IWM). Medium-term closes yielded minimal profit. Shorter-term plays worked; also closed flat NQ short from earlier week. Attempted QQQ higher-low play yesterday and got burned. Trader reflection: \"good analysis but ended up being a waste of time.\" Sentiment signals frustration and tactical uncertainty—macro bear thesis challenged by underperformance on medium-term strategy."
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2084708211580690518"
+      }
+    }
+  }
+}
