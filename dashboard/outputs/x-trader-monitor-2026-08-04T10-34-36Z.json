@@ -1,0 +1,102 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading",
+        "event-context",
+        "sep1",
+        "tweet",
+        "sep2",
+        "analysis-stack",
+        "sep3",
+        "alert",
+        "sep4",
+        "view-link"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration — @swarmister",
+        "level": "h2"
+      }
+    },
+    "event-context": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @EX3NOT (original message context not visible from X payload)",
+        "variant": "caption"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "@EX3NOT Ye"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "analysis-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis-para1",
+        "analysis-para2"
+      ]
+    },
+    "analysis-para1": {
+      "type": "Text",
+      "props": {
+        "text": "One-word affirmation/continuation with no visible context — unable to determine if financial signal, personal banter, or position-related.",
+        "variant": "body"
+      }
+    },
+    "analysis-para2": {
+      "type": "Text",
+      "props": {
+        "text": "Similar pattern to Aug 03 ambiguous posts (11 calibrations sent that day on cryptic replies).",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read?",
+        "type": "warning"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/swarmister/status/2084587394225836134"
+      }
+    }
+  }
+}
