@@ -28,3 +28,10 @@ Since `fast_path_alerted: true`, the Cloudflare Worker already sent a Telegram a
 - `memory/logs/2026-08-04.md` — Appended event log with full context
 
 Skill execution complete. ✓
+🔍 *Calibration — [DC: Chase — TradFi]*
+
+Message: But it might not be fast
+
+Unable to classify — no context, no ticker/level mentioned, no trade action language. Supporting channel fragment possibly missing reply context.
+
+What's your read?

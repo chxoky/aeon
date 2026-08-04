@@ -1,0 +1,75 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "calibration-heading",
+        "message-section",
+        "classification-alert",
+        "question-text"
+      ]
+    },
+    "calibration-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration — [DC: Chase — TradFi]",
+        "level": "h2"
+      }
+    },
+    "message-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "message-label",
+        "message-text"
+      ]
+    },
+    "message-label": {
+      "type": "Text",
+      "props": {
+        "text": "Message:",
+        "variant": "muted"
+      }
+    },
+    "message-text": {
+      "type": "Text",
+      "props": {
+        "text": "But it might not be fast",
+        "variant": "body"
+      }
+    },
+    "classification-alert": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Classification Status",
+        "message": "Unable to classify — no context, no ticker/level mentioned, no trade action language. Supporting channel fragment possibly missing reply context."
+      }
+    },
+    "question-text": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "lead"
+      }
+    }
+  }
+}
