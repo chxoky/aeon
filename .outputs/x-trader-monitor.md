@@ -11,3 +11,14 @@ As AI agents start automating tasks, companies need fewer total seats across Mic
 My base case is a valuation reset toward $430. If we see a broader de-rating across mega-cap tech, I don't think $360 is an unrealistic downside scenario.
 
 [View post](https://x.com/HeartCanHodl/status/2084668908863434883)
+$SOXL (It showed up)
+
+**Chart validation of Aug 04 13:02Z pending entry (114.61 support):**
+- 4H bounce: 102.72 → 138.83 (+18.97% recovery)
+- Daily: Support hold validating reversal setup  
+- Monthly: Recovery emerging from multi-month bottom
+- Thesis: Quarterly weakness bounce recovery validated
+
+[View post](https://x.com/Wild_Randomness/status/2084668982221816098)
+
+STATUS: Awaiting approval on earlier 13:02Z SOXL entry
