@@ -27,7 +27,7 @@
 - Calibration: PENDING supporting-channel cryptic fragments (yardbird pattern Jul 20-25 unresolved). Chase entries never approved on Kraken.
 - Last seen: 2026-08-04T14:34:39Z (Discord primary "S&P trend lines" observation + SNDK/MU position status)
 - **Events (rolling):**
-  - Aug 04 14:34Z — informational: S&P high timeframe trend lines effectiveness observation; Iran deal market commentary; position status: still holding 30% of SNDK/MU (DCA'd Jul 29 at ~$980/$700), patiently waiting for reentry opportunity fitting personal criteria; no trade action. [$SNDK $MU] [1534207951613591562]
+  - Aug 04 14:34Z — informational: S&P high timeframe trend lines effectiveness observation; Iran deal market commentary; supporting channel elaboration (14:37Z Discord TradFi): "could be above all-time highs for maybe even a month, like a longer-term deviation"; position status: still holding 30% of SNDK/MU (DCA'd Jul 29 at ~$980/$700), patiently waiting for reentry opportunity fitting personal criteria; no trade action. [$SNDK $MU $SPX] [1534207951613591562 → 1534208559074513118 supporting-channel note]
   - Aug 03 17:54Z — ambiguous: reply to @RektProof "@RektProof too easy for RP"; cryptic one-liner with no visible context from original message; reply-dependent interpretation required; no ticker/level/action language; unclear whether personal banter or financial signal; calibration alert sent per HR-2 protocol [2084337006390268295]
   - Aug 03 14:28Z — skip: promotional engagement request; X post link + engagement beg ("any likes/comments on the game appreciated") [1533843917055721614]
   - Jul 29 21:06Z — trade-new-entry: SNDK ~$980 DCA (adding toward high 800s) + MU ~$700 DCA (adding toward $600); conservative, multi-week [2082573501102178638]
