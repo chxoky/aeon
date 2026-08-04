@@ -1,8 +1,8 @@
 🐦 *[X] @Wild_Randomness*
+🔍 *Calibration — @Bitcoin_Astro*
 
-Event: Reply to @0xbigmikey about Binance
-
-Wild_Randomness: "@0xbigmikey Binance"
+Event: Reply to @hx250294 @TimeCycleMarket
+Bitcoin_Astro: "Fixed what? Please share your thoughts"
 
 Unable to classify — what's your read?
 
@@ -14,3 +14,4 @@ Chart: ETH/BTC 1M showing support rejections, sustained weakness vs Bitcoin. Cur
 ↳ _Aligns with group bearish sentiment on Ethereum structural weakness vs. Bitcoin (Wild_Randomness macro bear / dispersion thesis)._
 
 [View post](https://x.com/Wild_Randomness/status/2084532232660939216)
+[View post](https://x.com/Bitcoin_Astro/status/2084533352703389719)
