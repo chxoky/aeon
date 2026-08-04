@@ -1,9 +1,7 @@
-🐦 *[X] @KillaXBT*
+🐦 *[X] @HeartCanHodl*
 
-$BTC ... soon 🔼
+Thou who holdest no crypto shorts shall win
 
-Going to be funny watching people try to catch the peak bottom.
+Bullish crypto macro sentiment validating net-long regime shift. Converges with 3-trader bottom thesis (HCH pivot Aug 01-04, KillaXBT structural bull, bull_genius exhaustion bottom Jul 31).
 
-[View tweet](https://x.com/KillaXBT/status/2084609298726822249)
-
-↳ _Structural bull thesis reinforcement. Converges with emerging group bullish lean (HCH net-long shift Aug 01-04, bull_genius structural bottom thesis, KillaXBT sustained HTF conviction)._
+[View tweet](https://x.com/HeartCanHodl/status/2084613736946659523)
