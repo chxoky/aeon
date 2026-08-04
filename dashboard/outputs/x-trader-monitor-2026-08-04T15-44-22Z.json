@@ -1,0 +1,56 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "link-view-tweet",
+        "sep-1",
+        "note-follow-up"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "BTC/NASDAQ ratio technical breakdown: sharp 5-day decline from 2.90 → 2.16 with consolidation structure, volume confirmation, and momentum indicators. Chart-driven market structure showing continued crypto underperformance vs equities."
+      }
+    },
+    "link-view-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2084665853270982806"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "note-follow-up": {
+      "type": "Text",
+      "props": {
+        "text": "Detailed follow-up to 14:36Z ratio deterioration — now showing 5-day candle structure + technical confirmation.",
+        "variant": "caption"
+      }
+    }
+  }
+}
