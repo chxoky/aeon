@@ -1,5 +1,7 @@
 🐦 *[X] @Wild_Randomness*
 
-$SPX $NDX — two scenarios outlined on NQ: either consolidates and searches for a higher low, or straight shot to ATHs. Charts (4 images) show BTC futures (XYZ100) daily consolidation triangle with support/resistance structure marked. Technical analysis aligned with macro framework.
+Tuesday candle wicked Monday's back then in the May analog too
 
-[View tweet](https://x.com/Wild_Randomness/status/2084526426154516854)
+Technical candlestick structure comparison across multiple timeframes. Analyzing current market patterns against historical analogs from May. No personal trade action indicated.
+
+[View tweet](https://x.com/Wild_Randomness/status/2084527945159487861)
