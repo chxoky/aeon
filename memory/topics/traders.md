@@ -646,9 +646,9 @@
 ## Stoiiic
 - Platforms: X (primary; X-only, no Discord presence)
 - Current open positions: None announced
-- Recent thesis: None yet (first event)
-- Conviction notes: First appearance. Single non-financial event (personal banter about camping).
-- Calibration: None yet
-- Last seen: 2026-08-04T03:02:25Z
+- Recent thesis: None yet (personal commentary only)
+- Conviction notes: X-only, non-trading account. All events non-financial (personal banter, no financial signal). Banter ratio: 100% (2/2 events skipped).
+- Calibration: None needed
+- Last seen: 2026-08-04T23:20:01Z
 - **Events (rolling):**
   - Aug 04 03:02Z — skip: personal banter reply to @lazyvillager1/@real_y22; "bro was just camping out at chipotle for a few months"; no financial signal, no ticker, no position. Non-financial per Step 4A. [2084475015290823036]
