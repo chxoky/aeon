@@ -2,10 +2,11 @@
 - Platforms: X (primary; X-only, no Discord presence)
 - Current open positions: None announced
 - Recent thesis: None yet (ongoing personal commentary only)
-- Conviction notes: X-only, non-trading account. Only personal banter/sarcasm observed. 2/2 events skipped (non-financial).
+- Conviction notes: X-only, non-trading account. Only personal banter/sarcasm observed. 3/3 events skipped (non-financial).
 - Calibration: None needed
-- Last seen: 2026-08-04T05:22:27Z
+- Last seen: 2026-08-04T22:51:07Z
 - **Events (rolling):**
+  - Aug 04 22:51Z — skip: poker table group photo + long essay on Rasmir's poker psychology/positioning during game; body language & psychological bluffing narrative; no financial signal, no trading position, no ticker. Non-financial per Step 4A. [2084774160350269833]
   - Aug 04 05:22Z — skip: reply to @beeboopx; sarcasm about crypto deployment timing & trench-community behavior; no financial signal, no position, no ticker. Non-financial per Step 4A. [2084510255921148247]
   - Aug 04 02:02Z — skip: personal banter reply to @khromthree; commentary on leaving trading venue; "professional molestors" reference to community members; no financial signal, no ticker, no position. Non-financial per Step 4A. [2084459819138949482]
 
