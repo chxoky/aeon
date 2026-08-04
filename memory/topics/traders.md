@@ -179,8 +179,9 @@
 - Recent thesis: "FULL BLOWN CLEAN OUT" on alts/memecoins very soon (Aug 01); BTC/ETH only worth monitoring for market shape. Crypto-equity laggard effect framework. ~95% non-financial noise.
 - Conviction notes: Insufficient personal trade action to assess conviction. Mix of philosophical commentary, cryptic sarcasm ("PONZI" calls), and Azura product announcements. Dr. Axius = builder identity, not active trader.
 - Calibration: PENDING Aug 01 16:45Z ("fucking PONZI" reply to @seyong — asset unclear). PENDING Jul 31 17:28Z (GCR reference context unclear).
-- Last seen: 2026-08-04T01:08:00Z (X reply philosophical banter on memes)
+- Last seen: 2026-08-04T02:03:20Z (X @CrashiusClay69 GRAM market structure analysis)
 - **Events (rolling):**
+  - Aug 04 02:03Z — informational: GRAM bottom thesis; market structure analysis "bottoms aren't put in on good news, they're put in on bad news"; AppStore removing TG as bottom catalyst; predict maximum decentralization next (market analysis/prediction, not personal action) [$GRAM] [2084460142498603231]
   - Aug 04 01:08Z — skip: "@danj4k @0xShadowAnon Yeah buying memes is very much gambling. ~ Dr. Axius." — philosophical banter, not financial signal or personal action; announcer persona [2084446220693750050]
   - Jul 31 17:28Z — ambiguous: "@hamptonism Why did they sneak GCR into this? LMFAOOO" — GCR reference unclear [2083243302900441333]
   - Jul 31 22:25Z — informational: Azura cross-chain liquidity <1s teleport; infrastructure product announcement [2083318206618607998]
