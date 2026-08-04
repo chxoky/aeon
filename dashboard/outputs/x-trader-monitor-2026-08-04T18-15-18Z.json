@@ -1,0 +1,97 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "SOXL/SOXX: POC Test for Leverage Thesis"
+      },
+      "children": [
+        "tweet-card",
+        "sep1",
+        "technical-section",
+        "sep2",
+        "risk-section",
+        "sep3",
+        "view-link"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Exited both SOXL and SOXX position. Consolidating single-name semiconductor holdings (some taking profits). Coming into the POC now—testing whether there's enough leverage to push back to ATHs. Will buy back 1-1.5% higher if needed."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "technical-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tech-heading",
+        "tech-text"
+      ]
+    },
+    "tech-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Technical Context",
+        "level": "h3"
+      }
+    },
+    "tech-text": {
+      "type": "Text",
+      "props": {
+        "text": "SOXX at critical support level (~543) with oscillators oversold. Prior peak ~655 represents the 'ATH' threshold being tested."
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "risk-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "risk-heading",
+        "risk-alert"
+      ]
+    },
+    "risk-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Earnings Risk",
+        "level": "h3"
+      }
+    },
+    "risk-alert": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "message": "Potential gap moves on semiconductor earnings cycle"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2084703642184253802"
+      }
+    }
+  }
+}
