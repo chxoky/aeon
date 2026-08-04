@@ -1,0 +1,118 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "SNDK Trade Update",
+        "description": "Mirrored trading update from @HeartCanHodl"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "mirror_badge",
+        "ticker_action_stack",
+        "details_text",
+        "stats_row",
+        "separator1",
+        "post_link"
+      ]
+    },
+    "mirror_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "🔁 Mirrored — @HeartCanHodl",
+        "variant": "secondary"
+      }
+    },
+    "ticker_action_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "ticker_badge",
+        "action_heading"
+      ]
+    },
+    "ticker_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "SNDK",
+        "variant": "default"
+      }
+    },
+    "action_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Partial close remaining position",
+        "level": "h3"
+      }
+    },
+    "details_text": {
+      "type": "Text",
+      "props": {
+        "text": "HeartCanHodl taking profits on the rest of the remaining ~20% SNDK long position (entry ~$980 on Jul 29; 80% already closed Aug 04 15:55Z). Portfolio progression Aug 04: +19.44% → +23.58% P&L.",
+        "variant": "body"
+      }
+    },
+    "stats_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_entry",
+        "stat_remaining",
+        "stat_pnl"
+      ]
+    },
+    "stat_entry": {
+      "type": "Stat",
+      "props": {
+        "label": "Entry (Jul 29)",
+        "value": "~$980"
+      }
+    },
+    "stat_remaining": {
+      "type": "Stat",
+      "props": {
+        "label": "Position Remaining",
+        "value": "~20%"
+      }
+    },
+    "stat_pnl": {
+      "type": "Stat",
+      "props": {
+        "label": "Portfolio P&L",
+        "value": "+23.58%",
+        "delta": "+4.14%",
+        "trend": "up"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "post_link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/HeartCanHodl/status/2084750743597469867"
+      }
+    }
+  }
+}
