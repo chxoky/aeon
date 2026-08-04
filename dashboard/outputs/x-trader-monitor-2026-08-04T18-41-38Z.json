@@ -1,0 +1,132 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "separator_1",
+        "stack_data",
+        "separator_2",
+        "link_post"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Higher high on daily, like 65.8k close and it's tough to be positioned too bearishly imo. These are all very small moves, but we should see expansion one way or another fairly soon.\n\n📊 Chart: BTC/USD 1D consolidating 62-66K range, +1.30% to 64,290. Support 60-62K, resistance ~68K."
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_data": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_data",
+        "grid_stats"
+      ]
+    },
+    "heading_data": {
+      "type": "Heading",
+      "props": {
+        "text": "BTC/USD Technical Analysis",
+        "level": "h3"
+      }
+    },
+    "grid_stats": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat_price",
+        "stat_change",
+        "stat_range",
+        "stat_support",
+        "stat_resistance",
+        "badge_timeframe"
+      ]
+    },
+    "stat_price": {
+      "type": "Stat",
+      "props": {
+        "label": "Current Price",
+        "value": "64,290"
+      }
+    },
+    "stat_change": {
+      "type": "Stat",
+      "props": {
+        "label": "Daily Change",
+        "value": "+1.30%",
+        "trend": "up"
+      }
+    },
+    "stat_range": {
+      "type": "Stat",
+      "props": {
+        "label": "Consolidation Range",
+        "value": "62-66K"
+      }
+    },
+    "stat_support": {
+      "type": "Stat",
+      "props": {
+        "label": "Support Level",
+        "value": "60-62K"
+      }
+    },
+    "stat_resistance": {
+      "type": "Stat",
+      "props": {
+        "label": "Resistance Level",
+        "value": "~68K"
+      }
+    },
+    "badge_timeframe": {
+      "type": "Badge",
+      "props": {
+        "text": "Daily (1D)",
+        "variant": "outline"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2084709277730849092"
+      }
+    }
+  }
+}
