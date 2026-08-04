@@ -9,3 +9,17 @@ Unable to determine: buying opportunity after -13% dump? bearish warning? techni
 AMDUSD not in your watch list or HCH's active portfolio (crypto perpetual on legacy stock asset).
 
 What's your read on this chart share?
+🔍 **Calibration — @KillaXBT**
+
+Event: Recent BTC market timing post (20:05Z); tactical position updates (18:25Z scalp short, 18:26Z HYPE close)
+
+@KillaXBT: "@LokiLouke 85% of my entire net worth."
+
+**Unable to classify** — what's your read? 
+- Position sizing (85% allocated to BTC/HYPE)?  
+- Reply to @LokiLouke question?
+- Conviction on major position?
+
+Reply-dependent context unclear. No ticker/level/action language.
+
+[https://x.com/KillaXBT/status/2084738434044748015](View post)

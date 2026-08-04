@@ -1,0 +1,93 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading-main",
+        "text-event",
+        "tweet-quote",
+        "text-unable",
+        "stack-questions",
+        "text-context",
+        "link-post"
+      ]
+    },
+    "heading-main": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration — @KillaXBT",
+        "level": "h2"
+      }
+    },
+    "text-event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Recent BTC market timing post (20:05Z); tactical position updates (18:25Z scalp short, 18:26Z HYPE close)"
+      }
+    },
+    "tweet-quote": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "@LokiLouke 85% of my entire net worth."
+      }
+    },
+    "text-unable": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "lead"
+      }
+    },
+    "stack-questions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "q1",
+        "q2",
+        "q3"
+      ]
+    },
+    "q1": {
+      "type": "Text",
+      "props": {
+        "text": "Position sizing (85% allocated to BTC/HYPE)?"
+      }
+    },
+    "q2": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to @LokiLouke question?"
+      }
+    },
+    "q3": {
+      "type": "Text",
+      "props": {
+        "text": "Conviction on major position?"
+      }
+    },
+    "text-context": {
+      "type": "Text",
+      "props": {
+        "text": "Reply-dependent context unclear. No ticker/level/action language.",
+        "variant": "muted"
+      }
+    },
+    "link-post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/KillaXBT/status/2084738434044748015"
+      }
+    }
+  }
+}
