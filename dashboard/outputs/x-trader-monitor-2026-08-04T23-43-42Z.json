@@ -1,0 +1,60 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "content_stack"
+      ]
+    },
+    "content_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet",
+        "tweet_link",
+        "separator1",
+        "analysis"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "$BTC — The moment we reclaim 67.4K and start trading in the mid-70Ks, holding above the STH cost basis, the bottom is in.\n\nYou can already see the price compression developing below. Textbook.\n\nDon't lose sight of the bigger picture chasing LTF crap."
+      },
+      "children": []
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2084786112497586592"
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis": {
+      "type": "Text",
+      "props": {
+        "text": "STH MVRV chart validates price compression pattern + macro-bull technical bottom framework aligns with your existing HTF long + tactical scalp short hedge thesis.",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
