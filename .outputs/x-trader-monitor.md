@@ -1,7 +1,11 @@
-🐦 *[X] @Wild_Randomness*
+🔍 *Calibration — @trading_axe*
 
-Flat on this and will watch the market digest earnings
+Event: Reply to @sapijiju on platform activity
 
-Was a great 5 day run from 250-260 to 390s
+trading_axe: "@sapijiju GAH DAYUS NIGGAZ BEEFING HYPERLIQUID AND POLYMARKET NOW.
 
-[View tweet](https://x.com/Wild_Randomness/status/2084740599740268563)
+FREE SMOKE FOR EVERYONE?
+
+~ Dr. Axius."
+
+Unable to classify — cryptic slang + platform references (Hyperliquid, Polymarket) + reply-dependent context. Unclear whether this signals market action, sarcasm on market state, or personal entry signal. What's your read?

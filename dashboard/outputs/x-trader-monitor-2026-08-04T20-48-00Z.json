@@ -1,0 +1,86 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading",
+        "event_section",
+        "separator1",
+        "tweet",
+        "separator2",
+        "analysis"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @trading_axe",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "event_section": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @sapijiju on platform activity",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "trading_axe",
+        "handle": "trading_axe",
+        "text": "@sapijiju GAH DAYUS NIGGAZ BEEFING HYPERLIQUID AND POLYMARKET NOW.\n\nFREE SMOKE FOR EVERYONE?\n\n~ Dr. Axius."
+      },
+      "children": []
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis_label",
+        "analysis_text"
+      ]
+    },
+    "analysis_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Classification",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "analysis_text": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "Unable to classify — cryptic slang + platform references (Hyperliquid, Polymarket) + reply-dependent context. Unclear whether this signals market action, sarcasm on market state, or personal entry signal. What's your read?"
+      },
+      "children": []
+    }
+  }
+}
