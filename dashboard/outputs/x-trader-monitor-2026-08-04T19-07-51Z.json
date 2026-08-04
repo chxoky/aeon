@@ -1,0 +1,41 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet",
+        "link"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "Stoiiic",
+        "text": "BTC technical setup: shorts to get cleaned up if acceptance above 64. CB + Binance spot buying this session.\n\nStructure: PDH + range POC + 30d rolling vwap + 7d rolling vwap all converging around 63.6-64 (interim pivot, tight invalid). Early dip on week + compression under 64."
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Stoiiic/status/2084717054373011647"
+      }
+    }
+  }
+}
