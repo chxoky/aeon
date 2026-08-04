@@ -21,12 +21,13 @@
 
 ## Crypto_Chase
 - Platforms: Discord (primary: 1336082716063694962; supporting: 1343971265962049597, 1247927786681794601) + X
-- Current open positions: SNDK DCA ~$980 (Jul 29; pending Kyle approval, adding toward high 800s). MU DCA ~$700 (Jul 29; pending Kyle approval, adding toward $600). 10% MU core from prior position (SL B/E, ~$820 entry). LPTH 50% lottery ticket (held since Jun 30). ES LONG active since Jun 21.
+- Current open positions: SNDK 20% held (80% closed at unknown levels, ongoing DCA from Jul 29 at ~$980). MU 20% core held (80%+ closed Jul 27 at $941). 10% MU lottery core (SL B/E, ~$820 entry). LPTH 50% lottery ticket (held since Jun 30). ES LONG active since Jun 21.
 - Recent thesis: Semis mean-reversion buyer (SNDK/MU fresh DCA Jul 29 at lower levels after 80-90% TP on prior positions). Crypto skepticism building — last 10 trades all equities; near-term bearish on crypto. "70% profit then let 30% run" discipline.
-- Conviction notes: Disciplined tiered TP across prior SNDK/MU cycle: MU 50%@935→60%@991→70%@960→80%@941→90%@865. SNDK 50%@1533→60%@1675→80%@1480. Jul 29 fresh DCA conservatively sized, multi-week hold intent. SNDK/MU entries never mirrored by Kyle.
+- Conviction notes: Disciplined tiered TP across SNDK/MU: MU 50%@935→60%@991→70%@960→80%@941→90%@865. SNDK 50%@1533→60%@1675→80%@1480→80%+ cumulative (Aug 04). Jul 29 fresh DCA conservatively sized, multi-week hold intent. SNDK/MU entries never mirrored by Kyle. 80% close rate consistent with documented discipline pattern.
 - Calibration: PENDING supporting-channel cryptic fragments (yardbird pattern Jul 20-25 unresolved). Chase entries never approved on Kraken.
-- Last seen: 2026-08-04T15:50:05Z (Discord supporting "SPX base case" philosophy, waiting thesis)
+- Last seen: 2026-08-04T15:55:32Z (Discord primary "80% closed on SNDK" — full-tier TP execution)
 - **Events (rolling):**
+  - Aug 04 15:55Z — trade-partial-tp: SNDK 80% closed on cumulative position (follows prior 50%@1533 Jul 21→60%@1675 Jul 23→80%@1480 Jul 27→80%+ Aug 04); consistent tiered-exit discipline. "80% closed on SNDK" announced primary channel. Remaining 20% held under original DCA thesis; no action on MU noted same message. Alerted: NO (fast-path=true, Telegram sent by Worker, memory-only logging). [$SNDK] [1534228303072985360]
   - Aug 04 15:50Z — informational-philosophy: Supporting channel reply to @taegon27 on SPX base-case thesis: "My base case is never a big dump, SPX goes up over time, I just buy the crashes. but we could probably see some weakness going into midterms. That's what historically happens. I'm just going to wait and see what it gives me." Elaborates on 14:34Z SPX trend-line commentary; confirms patient/disciplined waiting posture + seasonal weakness pattern recognition (midterm cycles); no trade action or entry signal. Folded as supporting-channel context to 14:34Z primary message (same topic, same session). [$SPX] [1534226931715670137]
 - Last seen: 2026-08-04T15:51:33Z (Discord supporting "trading discipline" conviction statement)
 - **Events (rolling):**
