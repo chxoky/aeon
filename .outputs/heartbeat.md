@@ -1,12 +1,9 @@
-All checks complete. No notification needed (nothing to report).
+HEARTBEAT_OK · STATUS_PAGE=OK
 
-## Summary
+All checks clean:
+- **P0**: No failed or stuck skills. X webhook rule `WATCHED_TRADERS` is active (`is_effect: 1`). ISS-002 stays resolved.
+- **P1**: 0 open PRs, no urgent issues.
+- **P2**: No flagged memory items needing follow-up.
+- **P3**: All enabled skills within 2× their schedule interval.
 
-**HEARTBEAT_OK · STATUS_PAGE=OK**
-
-- **P0:** No failed, stuck, or degraded skills. X webhook check skipped silently (secretcurl blocked in interactive mode; last confirmed healthy Aug 3 20:00 UTC).
-- **P1:** 0 open PRs. Issues disabled on this repo.
-- **P2:** No flagged items in MEMORY.md.
-- **P3:** All enabled skills within 2× schedule interval. morning-pipeline last success ~25h ago (< 48h threshold, no flag).
-
-**docs/status.md** regenerated with 🟢 OK status, next scheduled run: token-alert at 12:00 UTC. Log entry appended to `memory/logs/2026-08-04.md`.
+`docs/status.md` regenerated with updated timestamps and skill table reflecting today's successful runs (token-movers/market-context-refresh/token-alert all ran this afternoon at 13:22–13:40 UTC).
