@@ -23,3 +23,12 @@ The current message affirms that this same disciplined, measured entry approach 
 - ✅ HeartCanHodl last-seen timestamp updated to 19:37:57 UTC
 
 No duplicate alerting. Event fully processed per skill protocol.
+🔍 *Calibration — [DC: HCH — Chat]*
+
+Event: HCH posted cryptic fragment "1/4th size" in supporting member-chat channel
+
+Supporting-channel context: HCH uses literal %-of-portfolio sizing discipline. The fragment likely refers to position sizing or order response, but without member context or external reference, unable to determine asset/action/intent.
+
+Unable to classify — what's your read?
+
+Event: 1534284311706992760 | 2026-08-04T19:38:05Z
