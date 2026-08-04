@@ -1,0 +1,141 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor — @HeartCanHodl",
+        "description": "Victory lap sharing SPCX/ASTS perp P&L"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "sep-1",
+        "heading-positions",
+        "grid-positions",
+        "sep-2",
+        "text-quote",
+        "sep-3",
+        "text-timing",
+        "text-technical",
+        "text-traders",
+        "text-action",
+        "link-view"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "Victory lap sharing SPCX/ASTS perp P&L:\n• SPCXUSDT 3X: entry 108.75 → mark 116.88 = +22.44% unrealized\n• ASTSUSDT 3X: entry 58.83 → mark 66.50 = +39.11% unrealized"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-positions": {
+      "type": "Heading",
+      "props": {
+        "text": "Trade Positions",
+        "level": "h3"
+      }
+    },
+    "grid-positions": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat-spcx",
+        "stat-asts"
+      ]
+    },
+    "stat-spcx": {
+      "type": "Stat",
+      "props": {
+        "label": "SPCXUSDT 3X",
+        "value": "+22.44%",
+        "delta": "108.75 → 116.88",
+        "trend": "up"
+      }
+    },
+    "stat-asts": {
+      "type": "Stat",
+      "props": {
+        "label": "ASTSUSDT 3X",
+        "value": "+39.11%",
+        "delta": "58.83 → 66.50",
+        "trend": "up"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"The exact two names we added on the dip? haha\"",
+        "variant": "lead"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-timing": {
+      "type": "Text",
+      "props": {
+        "text": "Confirms bullish conviction on both tickers executing profitably within 24-30 hours of spot entries (Aug 02-03).",
+        "variant": "body"
+      }
+    },
+    "text-technical": {
+      "type": "Text",
+      "props": {
+        "text": "Charts show 1h technical false-close pattern checks from Discord.",
+        "variant": "body"
+      }
+    },
+    "text-traders": {
+      "type": "Text",
+      "props": {
+        "text": "SPCX: 3-trader bullish (HCH + swarmister + ryzzqq watching). ASTS: tracking for cross-trader momentum.",
+        "variant": "body"
+      }
+    },
+    "text-action": {
+      "type": "Text",
+      "props": {
+        "text": "No new trade action needed.",
+        "variant": "muted"
+      }
+    },
+    "link-view": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/HeartCanHodl/status/2084561126025506888"
+      }
+    }
+  }
+}
