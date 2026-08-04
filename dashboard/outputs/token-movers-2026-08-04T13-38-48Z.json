@@ -1,0 +1,352 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Token Movers"
+      },
+      "children": [
+        "heading_main",
+        "text_summary",
+        "sep1",
+        "heading_winners",
+        "table_winners",
+        "sep2",
+        "heading_losers",
+        "table_losers",
+        "sep3",
+        "heading_trending",
+        "table_trending",
+        "sep4",
+        "heading_notable",
+        "stack_notable"
+      ]
+    },
+    "heading_main": {
+      "type": "Heading",
+      "props": {
+        "text": "Token Movers — 2026-08-04",
+        "level": "h1"
+      }
+    },
+    "text_summary": {
+      "type": "Text",
+      "props": {
+        "text": "Alt recovery day — ~65% of top-100 green, median ~+1.8%; BTC +2.2% to $63.8K leading broad rotation off Aug 3 risk-off lows.",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_winners": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Winners (24h)",
+        "level": "h2"
+      }
+    },
+    "table_winners": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "24h",
+          "7d",
+          "1h",
+          "Volume / Rank",
+          "Status"
+        ],
+        "rows": [
+          [
+            "UB (Unibase)",
+            "+10.4%",
+            "+55.2%",
+            "+0.2%",
+            "$4.7M / #101",
+            ""
+          ],
+          [
+            "ATOM (Cosmos) ~$2.47",
+            "+6.9%",
+            "+5.0%",
+            "-0.7%",
+            "$56M / #82",
+            ""
+          ],
+          [
+            "PUMP (Pump.fun) $0.002225",
+            "+6.3%",
+            "+11.9%",
+            "-0.5%",
+            "$94M / #71",
+            "TRENDING+UP"
+          ],
+          [
+            "AVAX (Avalanche) ~$7.05",
+            "+5.7%",
+            "+5.3%",
+            "-0.3%",
+            "$277M / #32",
+            ""
+          ],
+          [
+            "HYPE (Hyperliquid) $55.53",
+            "+5.6%",
+            "+2.4%",
+            "+0.3%",
+            "$319M / #10",
+            "TRENDING+UP MAJOR"
+          ],
+          [
+            "AERO (Aerodrome)",
+            "+5.6%",
+            "-6.0%",
+            "-0.8%",
+            "$18.8M / #108",
+            ""
+          ],
+          [
+            "WLD (Worldcoin)",
+            "+4.8%",
+            "+0.9%",
+            "-0.9%",
+            "$123M / #60",
+            ""
+          ],
+          [
+            "ADA (Cardano) $0.1946",
+            "+4.5%",
+            "+23.9%",
+            "+0.1%",
+            "$656M / #16",
+            "MAJOR"
+          ],
+          [
+            "ALGO (Algorand) ~$0.102",
+            "+4.1%",
+            "+11.7%",
+            "-1.0%",
+            "$45M / #76",
+            ""
+          ],
+          [
+            "SHIB (Shiba Inu) $0.000005",
+            "+3.3%",
+            "+8.2%",
+            "-0.4%",
+            "$96M / #31",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_losers": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Losers (24h)",
+        "level": "h2"
+      }
+    },
+    "table_losers": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "24h",
+          "7d",
+          "1h",
+          "Volume / Rank",
+          "Status"
+        ],
+        "rows": [
+          [
+            "BEAT (Audiera)",
+            "-24.9%",
+            "-17.1%",
+            "-7.2%",
+            "$25.7M / #78",
+            ""
+          ],
+          [
+            "CC (Canton) $0.1078",
+            "-5.9%",
+            "-8.4%",
+            "-1.4%",
+            "$14.8M / #23",
+            ""
+          ],
+          [
+            "UNI (Uniswap) $3.84",
+            "-5.2%",
+            "+0.8%",
+            "-0.6%",
+            "$240M / #38",
+            ""
+          ],
+          [
+            "NEXO (NEXO)",
+            "-2.3%",
+            "-0.4%",
+            "+0.7%",
+            "$6.1M / #81",
+            ""
+          ],
+          [
+            "FLR (Flare)",
+            "-2.2%",
+            "-1.5%",
+            "+0.6%",
+            "$2.5M / #95",
+            ""
+          ],
+          [
+            "RAIN (Rain) $0.01248",
+            "-2.0%",
+            "-10.1%",
+            "-0.7%",
+            "$20M / #14",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_trending": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending",
+        "level": "h2"
+      }
+    },
+    "table_trending": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Coin",
+          "Rank",
+          "Price",
+          "Change",
+          "Status"
+        ],
+        "rows": [
+          [
+            "Ergo (ERG)",
+            "#833",
+            "$0.2211",
+            "+5.1%",
+            ""
+          ],
+          [
+            "Pudgy Penguins (PENGU)",
+            "#110",
+            "$0.006097",
+            "-0.03%",
+            ""
+          ],
+          [
+            "Cash Cat (CASHCAT)",
+            "#323",
+            "$0.07276",
+            "+58.1%",
+            "PUMP-RISK"
+          ],
+          [
+            "HOME (HOME)",
+            "#427",
+            "$0.01145",
+            "+77.2%",
+            "PUMP-RISK"
+          ],
+          [
+            "Cysic (CYS)",
+            "#293",
+            "$0.4893",
+            "+68.6%",
+            "PUMP-RISK"
+          ],
+          [
+            "Hyperliquid (HYPE)",
+            "#10",
+            "$55.50",
+            "+5.0%",
+            "TRENDING+UP MAJOR"
+          ],
+          [
+            "Pump.fun (PUMP)",
+            "#71",
+            "$0.002225",
+            "+6.6%",
+            "TRENDING+UP"
+          ]
+        ]
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_notable": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h2"
+      }
+    },
+    "stack_notable": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "note1",
+        "note2",
+        "note3",
+        "note4"
+      ]
+    },
+    "note1": {
+      "type": "Text",
+      "props": {
+        "text": "• HYPE: trending + #10 rank, +5.6% on $319M volume — major-cap signal, not a meme move"
+      }
+    },
+    "note2": {
+      "type": "Text",
+      "props": {
+        "text": "• PUMP: trending + +6.3% 24h — dual confirmation, watch for continuation"
+      }
+    },
+    "note3": {
+      "type": "Text",
+      "props": {
+        "text": "• CASHCAT / HOME / CYS: three trending coins +58–77% each, all rank >150 — high PUMP-RISK, manipulation likely"
+      }
+    },
+    "note4": {
+      "type": "Text",
+      "props": {
+        "text": "• BEAT (Audiera): #78 rank down -24.9% on $25.7M volume — significant crash, no prior signal in last 2 days"
+      }
+    }
+  }
+}

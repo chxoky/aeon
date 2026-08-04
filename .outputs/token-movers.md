@@ -1,40 +1,38 @@
-*Token Movers — 2026-08-03*
+*Token Movers — 2026-08-04*
 
-_Risk-off — majority of top-100 coins red; BTC/ETH flat-to-down ~0.5% while scattered mid-caps post isolated gains._
+_Alt recovery day — ~65% of top-100 green, median ~+1.8%; BTC +2.2% to $63.8K leading broad rotation off Aug 3 risk-off lows._
 
 *Top Winners (24h)*
-1. UB (Unibase) — $0.1833  +31.9% / 7d +37.7% / 1h +1.1%  •  $17.6M / #104  [BREAKOUT]
-2. US (Talus) — $0.0545  +6.7% / 7d +20.0% / 1h -0.1%  •  $7.3M / #185
-3. ALGO (Algorand) — $0.0867  +5.4% / 7d +4.8% / 1h -0.4%  •  $40.3M / #79
-4. ENA (Ethena) — $0.0928  +4.8% / 7d +2.8% / 1h +1.9%  •  $136M / #72  [TRENDING+UP]
-5. HYPE (Hyperliquid) — $53.55  +4.0% / 7d -10.3% / 1h +1.4%  •  $254M / #10  [TRENDING+UP] [MAJOR]
-6. ZEC (Zcash) — $493  +4.0% / 7d -1.7% / 1h +2.0%  •  $213M / #15  [MAJOR]
-7. DOT (Polkadot) — $0.8264  +4.0% / 7d +2.4% / 1h +1.9%  •  $81.2M / #53
-8. NEXO (Nexo) — $0.7363  +3.2% / 7d +0.9% / 1h +0.4%  •  $3.2M / #80
-9. ATOM (Cosmos Hub) — $1.29  +2.9% / 7d -6.2% / 1h +1.2%  •  $23.3M / #85
-10. LIT (Lighter) — $2.12  +2.8% / 7d -6.8% / 1h +1.8%  •  $20.3M / #96
+1. UB (Unibase) — +10.4% / 7d +55.2% / 1h +0.2%  •  $4.7M / #101
+2. ATOM (Cosmos) — ~$2.47  +6.9% / 7d +5.0% / 1h -0.7%  •  $56M / #82
+3. PUMP (Pump.fun) — $0.002225  +6.3% / 7d +11.9% / 1h -0.5%  •  $94M / #71  [TRENDING+UP]
+4. AVAX (Avalanche) — ~$7.05  +5.7% / 7d +5.3% / 1h -0.3%  •  $277M / #32
+5. HYPE (Hyperliquid) — $55.53  +5.6% / 7d +2.4% / 1h +0.3%  •  $319M / #10  [TRENDING+UP] [MAJOR]
+6. AERO (Aerodrome) — +5.6% / 7d -6.0% / 1h -0.8%  •  $18.8M / #108
+7. WLD (Worldcoin) — +4.8% / 7d +0.9% / 1h -0.9%  •  $123M / #60
+8. ADA (Cardano) — $0.1946  +4.5% / 7d +23.9% / 1h +0.1%  •  $656M / #16  [MAJOR]
+9. ALGO (Algorand) — ~$0.102  +4.1% / 7d +11.7% / 1h -1.0%  •  $45M / #76
+10. SHIB (Shiba Inu) — $0.000005  +3.3% / 7d +8.2% / 1h -0.4%  •  $96M / #31
 
 *Top Losers (24h)*
-1. BEAT (Audiera) — $3.15  -21.1% / 7d -25.2% / 1h -2.9%  •  $9.2M / #65
-2. BLIFE (BinanceLife) — $0.5409  -9.3% / 7d -13.7% / 1h +0.3%  •  $12.8M / #94
-3. PI (Pi Network) — $0.0830  -3.6% / 7d +1.9% / 1h +0.6%  •  $5.9M / #69
-4. BGT (Bitget Token) — $1.58  -3.0% / 7d -6.6% / 1h +0.1%  •  $8.6M / #62
-5. WLFI (World Liberty Financial) — $0.0545  -2.9% / 7d -0.5% / 1h +0.1%  •  $20.1M / #45
-6. M (MemeCore) — $1.15  -2.8% / 7d -5.7% / 1h -0.6%  •  $8.1M / #49
-7. SHIB (Shiba Inu) — $0.000005  -2.2% / 7d -1.9% / 1h +1.0%  •  $83.8M / #31
-8. ONDO (Ondo Finance) — $0.3767  -2.1% / 7d -8.2% / 1h +0.9%  •  $103M / #41
-9. KAS (Kaspa) — $0.02616  -2.0% / 7d -10.3% / 1h +0.1%  •  $8.4M / #81
+1. BEAT (Audiera) — -24.9% / 7d -17.1% / 1h -7.2%  •  $25.7M / #78
+2. CC (Canton) — $0.1078  -5.9% / 7d -8.4% / 1h -1.4%  •  $14.8M / #23
+3. UNI (Uniswap) — $3.84  -5.2% / 7d +0.8% / 1h -0.6%  •  $240M / #38
+4. NEXO (NEXO) — -2.3% / 7d -0.4% / 1h +0.7%  •  $6.1M / #81
+5. FLR (Flare) — -2.2% / 7d -1.5% / 1h +0.6%  •  $2.5M / #95
+6. RAIN (Rain) — $0.01248  -2.0% / 7d -10.1% / 1h -0.7%  •  $20M / #14
 
 *Trending*
-1. HYPE (Hyperliquid) — #10, $53.55, +3.4%  [TRENDING+UP]
-2. GRVT (GRVT Token) — #633, $0.2595, +5.7%  [TRENDING+UP]
-3. PENGU (Pudgy Penguins) — #109, $0.00614, -0.8%  [TRENDING+DOWN]
-4. ETH (Ethereum) — #2, $1,850, -0.2%  [TRENDING+DOWN]
-5. BTC (Bitcoin) — #1, $63,022, -0.1%  [TRENDING+DOWN]
-6. TAO (Bittensor) — #43, $188.7, -2.2%  [TRENDING+DOWN]
-7. CASHCAT (Cash Cat) — #425, $0.04844, +18.9%  [TRENDING+UP] [MICROCAP]
+1. Ergo (ERG) — #833, $0.2211, +5.1%
+2. Pudgy Penguins (PENGU) — #110, $0.006097, -0.03%
+3. Cash Cat (CASHCAT) — #323, $0.07276, +58.1%  [PUMP-RISK]
+4. HOME (HOME) — #427, $0.01145, +77.2%  [PUMP-RISK]
+5. Cysic (CYS) — #293, $0.4893, +68.6%  [PUMP-RISK]
+6. Hyperliquid (HYPE) — #10, $55.50, +5.0%  [TRENDING+UP] [MAJOR]
+7. Pump.fun (PUMP) — #71, $0.002225, +6.6%  [TRENDING+UP]
 
 *Notable*
-• UB: rank-104 coin +31.9% with 7d +37.7% on $17.6M volume — [BREAKOUT], lone outlier in a flat tape
-• HYPE + ENA: both trending and up 4% in a red market — search interest aligning with price; watch for continuation
-• CASHCAT: trending + up 18.9%, rank 425, mcap $48M — microcap speculative move, no structural signal
+• HYPE: trending + #10 rank, +5.6% on $319M volume — major-cap signal, not a meme move
+• PUMP: trending + +6.3% 24h — dual confirmation, watch for continuation
+• CASHCAT / HOME / CYS: three trending coins +58–77% each, all rank >150 — high PUMP-RISK, manipulation likely
+• BEAT (Audiera): #78 rank down -24.9% on $25.7M volume — significant crash, no prior signal in last 2 days
