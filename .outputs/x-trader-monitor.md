@@ -1,8 +1,9 @@
 🐦 *[X] @Wild_Randomness*
 
-NQ1 technical structure — resistance 30,553.75 breakdown into support 28,938 consolidation. "Might work out for everyone this time around, certainly at least for a few more days…" = cautious relief outlook with historical skepticism.
+KOSPI Composite Index — Technical structure progression
 
-Chart shows volatility/consolidation pattern consistent with macro bear framework; tactical uncertainty near resistance. No personal trade action stated. Technical observation on index-level market structure.
+Chart shows extended downtrend from ~9,000 → current 6,361.87 (+1.67% today). Price consolidating near support zones (7,000, 6,500–6,361 cluster). Recent 4H bounce with green candles validates technical floor.
 
-[View post](https://x.com/Wild_Randomness/status/2084426767557960067)
-🔍 Calibration — @Wild_Randomness: Ken meme setup + Trump headline + QQQ technical bounce. Cannot determine exact instrument/direction/entry from post. What position did you take?
+This validates documented EWY/KOSPI bid zone (6800–7100). Korea market near capitulation-support structure with recovery potential.
+
+[View tweet](https://x.com/Wild_Randomness/status/2084443575270727903)

@@ -1,0 +1,78 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-card",
+        "sep1",
+        "metrics-grid",
+        "sep2",
+        "link-tweet"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "KOSPI Composite Index — Technical structure progression\n\nChart shows extended downtrend from ~9,000 → current 6,361.87 (+1.67% today). Price consolidating near support zones (7,000, 6,500–6,361 cluster). Recent 4H bounce with green candles validates technical floor.\n\nThis validates documented EWY/KOSPI bid zone (6800–7100). Korea market near capitulation-support structure with recovery potential."
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "metrics-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat-index",
+        "stat-gain"
+      ]
+    },
+    "stat-index": {
+      "type": "Stat",
+      "props": {
+        "label": "KOSPI Index",
+        "value": "6,361.87"
+      },
+      "children": []
+    },
+    "stat-gain": {
+      "type": "Stat",
+      "props": {
+        "label": "Today",
+        "value": "+1.67%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View original tweet",
+        "href": "https://x.com/Wild_Randomness/status/2084443575270727903"
+      },
+      "children": []
+    }
+  }
+}
