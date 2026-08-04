@@ -1,0 +1,164 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Mag7 Weakness Signal — @HeartCanHodl"
+      },
+      "children": [
+        "market-stack",
+        "sep1",
+        "chart-text",
+        "sep2",
+        "tweet-card",
+        "sep3",
+        "mag7-text",
+        "badges-stack",
+        "sep4",
+        "link"
+      ]
+    },
+    "market-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-spx",
+        "stat-dji"
+      ]
+    },
+    "stat-spx": {
+      "type": "Stat",
+      "props": {
+        "label": "SPX",
+        "value": "7,638.24",
+        "delta": "+0.50%",
+        "trend": "up"
+      }
+    },
+    "stat-dji": {
+      "type": "Stat",
+      "props": {
+        "label": "DJI",
+        "value": "53,953.40",
+        "delta": "+1.45%",
+        "trend": "up"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "chart-text": {
+      "type": "Text",
+      "props": {
+        "text": "Chart: Strong impulse up on 1m bars → rejection doji candles at highs (exhaustion pattern). Broad index rejection despite intraday gains.",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "@HeartCanHodl",
+        "text": "I am bit concerned about a few mag7 names.."
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "mag7-text": {
+      "type": "Text",
+      "props": {
+        "text": "Mag7 (AAPL/MSFT/NVDA/GOOGL/AMZN/META/TSLA) at technical risk if index rejection invalidates recent rally.",
+        "variant": "body"
+      }
+    },
+    "badges-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-aapl",
+        "badge-msft",
+        "badge-nvda",
+        "badge-googl",
+        "badge-amzn",
+        "badge-meta",
+        "badge-tsla"
+      ]
+    },
+    "badge-aapl": {
+      "type": "Badge",
+      "props": {
+        "text": "AAPL"
+      }
+    },
+    "badge-msft": {
+      "type": "Badge",
+      "props": {
+        "text": "MSFT"
+      }
+    },
+    "badge-nvda": {
+      "type": "Badge",
+      "props": {
+        "text": "NVDA"
+      }
+    },
+    "badge-googl": {
+      "type": "Badge",
+      "props": {
+        "text": "GOOGL"
+      }
+    },
+    "badge-amzn": {
+      "type": "Badge",
+      "props": {
+        "text": "AMZN"
+      }
+    },
+    "badge-meta": {
+      "type": "Badge",
+      "props": {
+        "text": "META"
+      }
+    },
+    "badge-tsla": {
+      "type": "Badge",
+      "props": {
+        "text": "TSLA"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/HeartCanHodl/status/2084645958890201556"
+      }
+    }
+  }
+}
