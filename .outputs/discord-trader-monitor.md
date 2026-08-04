@@ -1,50 +1,20 @@
-💬 *[DC: Chase — TradFi]*
-Perfect! I've successfully executed the Discord Trader Monitor skill. Here's what was completed:
-
-## Execution Summary
-
-**Event Processed:**
-- **Message ID:** 1534228303072985360
-- **Trader:** Crypto_Chase
-- **Channel:** 1336082716063694962 (Chase — Chase, PRIMARY)
-- **Time:** 2026-08-04T15:55:32Z
-- **Message:** "80% closed on SNDK"
-- **Classification:** trade-partial-tp (position reduction)
-
-**Key Processing Steps:**
-
-1. ✅ **Decoded** the base64-encoded Discord event JSON
-2. ✅ **Fast-path Check:** `fast_path_alerted=true` — Telegram already sent by Cloudflare Worker (~2-5s latency), skipped duplicate alert, processed memory-only per protocol
-3. ✅ **Resolved Channel:** Primary channel "Chase — Chase" (1336082716063694962), trader verified
-4. ✅ **Cross-platform Dedup:** Confirmed this is fresh sighting (prior X post Jul 29 entry at $980; current Discord Aug 04 close = 6-day hold on distinct entry cycle)
-5. ✅ **Classified:** Personal trade action (first-person execution language "80% closed") — trade-partial-tp (Step 5b no-approval mirror case)
-6. ✅ **Memory Updated:**
-   - **discord-trader-seen.txt:** Added ID 1534228303072985360 (line 38)
-   - **traders.md:** Updated Crypto_Chase section with new event; current positions revised to "SNDK 20% held"; last-seen updated to 15:55:32Z
-   - **active-trades.md:** Updated SNDK Jul 29 DCA entry with TP execution detail (80% closed, 20% remainder held under thesis)
-   - **logs/2026-08-04.md:** Appended full event entry with classification, context, and memory updates
-
-**Memory updates completed:**
-- ✅ traders.md — Updated Crypto_Chase events with new entry + enhanced 14:34Z message with supporting-channel note
-- ✅ discord-trader-seen.txt — Added message_id 1534226931715670137 for dedup prevention
-- ✅ memory/logs/2026-08-04.md — Logged full event with classification + protocol rationale
-
-**Status:** COMPLETE. Message tracked, memory updated, no Kyle notification sent per protocol.
-Better to just focus on what's in front of us and find the trades when they come
-**Result:** Skill execution complete. 80% close on SNDK recorded as disciplined tiered-exit consistent with Crypto_Chase's documented pattern (50%→60%→80% progression across position holds). Remainder 20% continues under DCA plan targeting 800s support if weakness materializes.
-Perfect! Skill execution complete. Here's the summary:
-
 ## Summary
 
-**Discord Trader Monitor — Emoji-only message from HeartCanHodl**
+✅ **Skill execution complete:** Discord trader-monitor real-time event processed.
 
-- **Event ID:** 1534229305427759226
-- **Channel:** 1393137051108507728 (HCH — Comments)
-- **Content:** Single animated emoji `<a:emoji_69:1423736447676190844>` with zero text
-- **Classification:** **SKIP** (non-financial per Step 5A)
-- **Alert sent:** No
-- **Memory updates:** Seen-ID tracked only; daily log updated
+**Event:** KillaXBT BTC short scalp setup (64.4-64.6 range)
+- **Channel:** 1411492188315193416 (K — primary)
+- **Classification:** TRADE-NEW-ENTRY (5a)
+- **Fast-path:** Alerted ✓ (Cloudflare Worker sent Telegram 2-5s prior)
+- **Tickers:** BTC (scalp short), HYPE (existing long reference)
 
-**Reasoning:** The message is purely an emoji reaction with no financial context, no ticker, no position language, no trade signal. Per HR-1 and Step 5A hardcoded rules, non-financial fluff is skipped silently. No Kyle notification, no traders.md update beyond basic tracking.
+**Processing:**
+1. ✅ Decoded Discord message event
+2. ✅ Fast-path protocol: skipped duplicate Telegram, processed memory only
+3. ✅ Channel/trader verified (KillaXBT, username match confirmed)
+4. ✅ Cross-platform dedup: first sighting on Discord
+5. ✅ Classification: personal short scalp action on 64.4-64.6 BTC range
+6. ✅ Memory updated: traders.md (new event + position update), discord-trader-seen.txt (ID appended), active-trades.md (new short entry), daily log
+7. ✅ Awaiting Kyle signal: `approve BTC-short-scalp` for Kraken mirror, or skip
 
-**Status:** ✅ Complete — Event logged and filed.
+Context: KillaXBT maintains structural bull conviction (HTF 2x long + spot DCA), positioning this as disciplined tactical hedge ("very small shorts") + micro-scalp opportunity near macro bottom.
