@@ -1,0 +1,31 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet-card",
+        "link-view"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "$BTC\n\nAnd just like that... we're up 4% since the start of the month.\n\n\"Personally, I think a 2-4% move higher at the start of the month makes the most sense, even if we ultimately head lower.\" - My exact words.\n\nThis is how I trade, paying attention to psychological dates and time periods.\n\nSomething different. 🪄"
+      }
+    },
+    "link-view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2085055791346655526"
+      }
+    }
+  }
+}
