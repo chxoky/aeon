@@ -1,0 +1,84 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor - ALAB Divergence",
+        "description": "Trading alert"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "sep1",
+        "stack_stats",
+        "sep2",
+        "link_tweet"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "Wild_Randomness",
+        "text": "15-minute divergence chart on ALAB (existing long entry 14:56Z at sub-$325, pending approval)\n\nCurrent: 321.77 USD (-11.04% intraday)\n\nChart shows 15m technical structure with potential divergence pattern supporting entry thesis post-earnings bounce."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat_price",
+        "stat_change"
+      ]
+    },
+    "stat_price": {
+      "type": "Stat",
+      "props": {
+        "label": "ALAB Current Price",
+        "value": "321.77 USD"
+      }
+    },
+    "stat_change": {
+      "type": "Stat",
+      "props": {
+        "label": "Intraday Change",
+        "value": "-11.04%",
+        "delta": "-11.04%",
+        "trend": "down"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2085059901550973083"
+      }
+    }
+  }
+}
