@@ -1,0 +1,177 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor - Equity Exit Victory Lap"
+      },
+      "children": [
+        "tweet",
+        "sep1",
+        "market_heading",
+        "market_grid",
+        "sep2",
+        "portfolio_heading",
+        "portfolio_stack",
+        "sep3",
+        "position_heading",
+        "position_stack",
+        "sep4",
+        "link"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "Exited all stock longs at 19:33Z ('Cover all stock longs and buys!').\n\nPortfolio thesis validated through SPCX/ASTS leveraged perps (+22%, +39% unrealized), while technical timing on semis exit appears precise.\n\nExecution-confirmation post showing historical context (Jul 31 SNDK mgmt), exit order, and market reaction."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "market_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Market Reaction (1 minute post-exit)",
+        "level": "h3"
+      }
+    },
+    "market_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "sndk_stat",
+        "mu_stat",
+        "nbis_stat",
+        "dram_stat"
+      ]
+    },
+    "sndk_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "SNDK",
+        "value": "-7.1%",
+        "trend": "down"
+      }
+    },
+    "mu_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "MU",
+        "value": "-4.0%",
+        "trend": "down"
+      }
+    },
+    "nbis_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "NBIS",
+        "value": "-5.1%",
+        "trend": "down"
+      }
+    },
+    "dram_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "DRAM",
+        "value": "-3.1%",
+        "trend": "down"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "portfolio_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Portfolio Performance (through Aug 04)",
+        "level": "h3"
+      }
+    },
+    "portfolio_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "pnl_stat",
+        "btc_stat"
+      ]
+    },
+    "pnl_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Total P&L (Equity)",
+        "value": "+19.44%",
+        "trend": "up"
+      }
+    },
+    "btc_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "+0.6%",
+        "trend": "up"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "position_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Leveraged Perps Performance",
+        "level": "h3"
+      }
+    },
+    "position_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "spcx_stat",
+        "asts_stat"
+      ]
+    },
+    "spcx_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "SPCX",
+        "value": "+22%",
+        "trend": "up"
+      }
+    },
+    "asts_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "ASTS",
+        "value": "+39% (unrealized)",
+        "trend": "up"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View post on X",
+        "href": "https://x.com/HeartCanHodl/status/2085096292724912423"
+      }
+    }
+  }
+}
