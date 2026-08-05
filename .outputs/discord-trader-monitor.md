@@ -1,20 +1,18 @@
 ## Summary
 
-✅ **Discord Trader Monitor executed** — Event decoded and processed.
+**Discord Trader Monitor — HeartCanHodl (Real-time Event)**
 
-**Event Details:**
-- **Trader:** heartcanhodl
-- **Channel:** 1023638573313966212 (HCH — Chat, supporting)
-- **Message:** "Gm" (good morning)
-- **Created:** 2026-08-05T12:50:40 UTC
-- **Classification:** Skip (non-financial banter)
+Event processed successfully from Discord Trades channel (1279738718680256553):
 
-**Actions Taken:**
-1. ✅ Decoded base64-encoded Discord event
-2. ✅ Verified channel & trader mapping via `memory/discord-channels.json`
-3. ✅ Classified message as Step 5A: Non-financial (greeting/casual banter)
-4. ✅ Tracked message ID in `memory/discord-trader-seen.txt` to prevent re-alerting
-5. ✅ Logged activity in `memory/logs/2026-08-05.md`
-6. ✅ No alert sent (correctly categorized as non-actionable)
+**Message:** "Out of 50-60% liquid portfolio add 10% to eth, btc spot 20%"  
+**Classification:** trade-conviction-add  
+**Tickers:** ETH (+10%), BTC (+20%)  
+**Status:** Fast-path alerted (Worker sent Telegram 2-5s prior at 13:39:02 UTC)
 
-The message contains no financial signal, trade intent, or ticker-related content — just a casual morning greeting. No notification needed.
+**Actions completed:**
+- Added message ID to discord-trader-seen.txt
+- Updated traders.md with event details and new portfolio allocations
+- Logged event to memory/logs/2026-08-05.md
+- Portfolio now at ~77.5% deployed (prior 52.5%); BTC weighting 2:1 vs ETH reflects continued macro bullish conviction
+
+Fast-path protocol applied: Telegram alert sent by Cloudflare Worker; skill processes classification and memory updates only. No additional notifications needed.
