@@ -1,0 +1,88 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor",
+        "description": "SPCX × NVDA partnership headlines + commentary"
+      },
+      "children": [
+        "source-badge",
+        "heading",
+        "position-stat",
+        "leverage-badge",
+        "separator-1",
+        "position-context",
+        "sources-note",
+        "catalyst-text",
+        "contributor-badge"
+      ]
+    },
+    "source-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Discord Chat (HCH)",
+        "variant": "outline"
+      }
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "SPCX × NVDA Partnership Headlines",
+        "level": "h2"
+      }
+    },
+    "position-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "HCH Long SPCX 3X Perp",
+        "value": "+22.44%",
+        "trend": "up",
+        "delta": "+22.44%"
+      }
+    },
+    "leverage-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "3X Leverage Perp",
+        "variant": "secondary"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "position-context": {
+      "type": "Text",
+      "props": {
+        "text": "Position snapshot as of Aug 04 08:44Z (per Aug 04 victory lap).",
+        "variant": "body"
+      }
+    },
+    "sources-note": {
+      "type": "Text",
+      "props": {
+        "text": "Multiple sources covering SPCX × NVDA partnership headlines with trading commentary.",
+        "variant": "body"
+      }
+    },
+    "catalyst-text": {
+      "type": "Text",
+      "props": {
+        "text": "New partnership catalyst reinforces recovery thesis.",
+        "variant": "lead"
+      }
+    },
+    "contributor-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Multiple sources, Jim included",
+        "variant": "secondary"
+      }
+    }
+  }
+}
