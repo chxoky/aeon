@@ -1,0 +1,130 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor Calibration",
+        "description": "Trade signal classification issue"
+      },
+      "children": [
+        "alert",
+        "sep1",
+        "signal_section",
+        "sep2",
+        "context_section",
+        "sep3",
+        "question_section"
+      ]
+    },
+    "alert": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Missing Context",
+        "message": "Single-word message with no asset/level context"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "signal_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "signal_heading",
+        "signal_text"
+      ]
+    },
+    "signal_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Trade Signal",
+        "level": "h3"
+      }
+    },
+    "signal_text": {
+      "type": "Text",
+      "props": {
+        "text": "HCH: \"Higher.\"",
+        "variant": "lead"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context_heading",
+        "context_text",
+        "timestamp"
+      ]
+    },
+    "context_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Recent Context",
+        "level": "h3"
+      }
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "HCH discussing Gold technical structure + market-cycle philosophy"
+      }
+    },
+    "timestamp": {
+      "type": "Text",
+      "props": {
+        "text": "Aug 05 14:47–15:29Z",
+        "variant": "caption"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "question_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "question_heading",
+        "question_text"
+      ]
+    },
+    "question_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Classification Challenge",
+        "level": "h3"
+      }
+    },
+    "question_text": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify asset/direction/timeframe — what's your read?",
+        "variant": "body"
+      }
+    }
+  }
+}

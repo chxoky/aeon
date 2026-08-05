@@ -19,3 +19,10 @@ Perfect! I've completed the skill execution. Here's the summary:
 3. ✅ Event recorded in memory/topics/traders.md under HeartCanHodl section
 
 The message was a reply to a member's wishful market-level comment. HCH's "Fc eth 1hr" indicates a technical false-close validation on the 1-hour timeframe — an established pattern that does not require alerts per the documented calibration rule.
+🔍 *Calibration — [DC: HCH — Comments]*
+
+Context missing: Single-word message with no asset/level context
+HCH: "Higher."
+
+Recent context: HCH discussing Gold technical structure + market-cycle philosophy (Aug 05 14:47-15:29Z)
+Unable to classify asset/direction/timeframe — what's your read?
