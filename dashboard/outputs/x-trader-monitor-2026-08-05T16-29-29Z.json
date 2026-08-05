@@ -1,0 +1,101 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ticker_heading",
+        "separator_1",
+        "stack_prices",
+        "tweet_card",
+        "text_analysis",
+        "badge_watchlist"
+      ]
+    },
+    "ticker_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "$AMZN",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack_prices": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat_current",
+        "stat_recent"
+      ]
+    },
+    "stat_current": {
+      "type": "Stat",
+      "props": {
+        "label": "1D Price",
+        "value": "272.32",
+        "delta": "-1.84%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "stat_recent": {
+      "type": "Stat",
+      "props": {
+        "label": "Recent Daily Close",
+        "value": "284.02",
+        "delta": "+4.58%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "He's cooking the chart lol\n\nTurn the TWAP off, Jeff"
+      },
+      "children": []
+    },
+    "text_analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Chart analysis: AMZN consolidation within 230-280 range with multiple moving averages. 1W shows broader accumulation base 180-190 from 2025. Recent consolidation breakout above midpoint. Technical commentary on chart setup.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "badge_watchlist": {
+      "type": "Badge",
+      "props": {
+        "text": "Kyle watch-list",
+        "variant": "outline"
+      },
+      "children": []
+    }
+  }
+}
