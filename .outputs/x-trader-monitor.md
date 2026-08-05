@@ -1,11 +1,13 @@
-🐦 *[X] @KillaXBT*
 
-$BTC — The moment we reclaim 67.4K and start trading in the mid-70Ks, holding above the STH cost basis, the bottom is in.
+➕ **Conviction Add — @Wild_Randomness**
 
-You can already see the price compression developing below. Textbook.
+$SOXL $SOXX — Re-added to position off AMD/ALAB earnings flop, trying to flip daily trend during overnight trading
 
-Don't lose sight of the bigger picture chasing LTF crap.
+Technical: POC tested & rejected on daily, but weekly structure remains strong with consensus lower high setup providing asymmetric opportunity.
 
-[View tweet](https://x.com/KillaXBT/status/2084786112497586592)
+*Charts show consolidation support ~520-540 zone with weekly uptrend intact.*
 
-↳ _STH MVRV chart validates price compression pattern + macro-bull technical bottom framework aligns with your existing HTF long + tactical scalp short hedge thesis._
+[View post](https://x.com/Wild_Randomness/status/2084795329837486105)
+
+**Action:** Informational. Shows Wild_Randomness conviction add despite tactical overnight overtrading risk acknowledgment.
+
