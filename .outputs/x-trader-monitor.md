@@ -1,8 +1,11 @@
-The script execution requires your approval since it's a shell script. This is a security measure. The skill will:
+🐦 *[X] @Wild_Randomness*
 
-1. Decode the base64-encoded tweet event
-2. Parse the tweet from @Stoiiic (just a cat emoji 😻)
-3. Classify it as non-financial personal banter
-4. Log the event to memory without sending an alert
+Put/Call ratio at 0.58 extremes (historically low, -27.50%) — QQQ rejected at 738 resistance.
 
-Approve the bash command to proceed with executing the skill.
+"Something tells me there will be lots of call options going straight to the graveyard"
+
+Analysis: Extreme put/call lows = minimal hedges, all-in calls. QQQ structure shows resistance failure. Market pullback from these positioning extremes would wipe out call buyers. Aligned with documented bearish "Jump the Shark" thesis on complacency.
+
+[$QQQ Put/Call positioning extremes]
+
+https://x.com/Wild_Randomness/status/2085100633003270443
