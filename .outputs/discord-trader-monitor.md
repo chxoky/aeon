@@ -1,4 +1,4 @@
-## Summary
+🔍 *Calibration — [DC: HCH — Chat]*
 
 **Skill execution complete:** `discord-trader-monitor` processed event 1534587997528391752
 
@@ -22,3 +22,7 @@
 9. ✓ Logged: added entry to memory/logs/2026-08-05.md
 
 **Context:** The message refers to HCH's existing 6% UNI short position (accumulated Jul 16-31 with maximum conviction 02:17Z). This is routine technical notation observing price action without new trade entry/exit. Per Step 7 protocol for supporting channels, no standalone alert sent—logged for memory only.
+Event: HeartCanHodl message in supporting channel (premium member chat)
+heartcanhodl: "Fc uni 4hr ema 50"
+
+Unable to classify — what's your read? Is this a technical setup observation (UNI chart structure), a question, or something else?

@@ -1,0 +1,122 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "heading",
+        "sep1",
+        "event_stack",
+        "sep2",
+        "message_stack",
+        "sep3",
+        "classification_alert"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration [DC: HCH — Chat]",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "event_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event_text",
+        "member_badge",
+        "channel_badge"
+      ]
+    },
+    "event_text": {
+      "type": "Text",
+      "props": {
+        "text": "Event: HeartCanHodl message in supporting channel (premium member chat)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "member_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "heartcanhodl",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "channel_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DC: HCH — Chat",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "message_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "message_label",
+        "message_content"
+      ]
+    },
+    "message_label": {
+      "type": "Text",
+      "props": {
+        "text": "Message Content",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "message_content": {
+      "type": "Text",
+      "props": {
+        "text": "Fc uni 4hr ema 50",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "classification_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification Needed",
+        "message": "Unable to classify — what's your read? Is this a technical setup observation (UNI chart structure), a question, or something else?",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}
