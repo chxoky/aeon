@@ -1,0 +1,48 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration",
+        "description": "Discord Trader Monitor — DC: HCH — Chat"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-hch",
+        "separator-1",
+        "alert-classify"
+      ]
+    },
+    "tweet-hch": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HCH",
+        "text": "fce 1h 200ema"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert-classify": {
+      "type": "Alert",
+      "props": {
+        "message": "Unable to classify — what's your read?",
+        "type": "info"
+      }
+    }
+  }
+}
