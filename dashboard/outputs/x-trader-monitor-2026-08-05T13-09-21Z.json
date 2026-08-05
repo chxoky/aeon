@@ -1,0 +1,71 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet",
+        "separator",
+        "metrics"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Vertical accumulation, or a trap?\n\nCharts: BTC OI consolidation (21.679B); L/S ratio spike Jul 30 (0.865→1.013, more longs building). Tech question on positioning divergence."
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "metrics": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "btc_oi",
+        "ls_ratio",
+        "link"
+      ]
+    },
+    "btc_oi": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC OI Consolidation",
+        "value": "$21.679B"
+      },
+      "children": []
+    },
+    "ls_ratio": {
+      "type": "Stat",
+      "props": {
+        "label": "L/S Ratio (Jul 30)",
+        "value": "1.013",
+        "delta": "+0.148",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2084988675205820758"
+      },
+      "children": []
+    }
+  }
+}
