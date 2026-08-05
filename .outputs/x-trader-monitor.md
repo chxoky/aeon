@@ -1,12 +1,12 @@
-🔍 *Calibration — @HeartCanHodl*
+🐦 *[X] @trading_axe*
 
-Context: Reply to @BullTheoryio post
+Makes me laugh how much CT places emphasis on "influencers" to get behind a coin so they can "trust it" [Elon as an example].
 
-HeartCanHodl: "@BullTheoryio ."
+Or an independent third party - in most cases - celebrities who are clueless, or "LinkedIn" devs with credentials who are paid by serial deployers to launch coins.
 
-Prior context (Aug 05 15:29Z): Market-cycle philosophy — "It can be super hot for a bit then it can be calm for a bit"
+But when NATIVE CRYPTO DeFI founders launch something themselves and become the face of it...
 
-Unable to classify — what's your read?
+If you can trust retarded celebrities, you can trust Uniswap to create and maintain momentum, no?
 
 The skill completed normally with no alerts needed for this event.
 🐦 *[X] @Wild_Randomness*
@@ -45,3 +45,4 @@ Processed **x-trader-monitor** skill run for `@swarmister` tweet 208504102848291
 - ✅ No traders.md event line added (size discipline: skip/non-financial events log-only)
 
 **Rationale:** Tweet is personal content aligned with swarmister's documented "off-duty vibe" on Aug 05 (birthday celebration, 60%+ banter ratio). No trade action, no ticker/level signal, no market commentary. Silent skip per Step 4A protocol.
+[View post](https://x.com/trading_axe/status/2085041855813628225)

@@ -2,7 +2,7 @@
 set -e
 
 # Decode and process the event
-VAR='eyJpZCI6IjIwNzg5NTMwNTMzNDkzNjM5NzAiLCJ1c2VybmFtZSI6IldpbGRfUmFuZG9tbmVzcyIsInRleHQiOiJCZWVuIGRvaW5nIHN0dWZmIGFyb3VuZCB0aGUgaG91c2UgYWxsIG1hdGNoIFxuXG5IYXZlbuKAmXQgZXZlbiB0dXJuZWQgdGhlIFRWIG9uXG5cbllvdSBqdXN0IGtub3cgaG93IHRoaXMgaXMgZ29pbmcgdG8gZW5kLCBzbyB3aHkgd2F0Y2g/IGh0dHBzOi8vdC5jby9KWFN5UFJzMUZpIiwiY3JlYXRlZF9hdCI6IlN1biBKdWwgMTkgMjE6MjA6MDcgKzAwMDAgMjAyNiIsInVybCI6Imh0dHBzOi8veC5jb20vV2lsZF9SYW5kb21uZXNzL3N0YXR1cy8yMDc4OTUzMDUzMzQ5MzYzOTcwIiwibWVkaWEiOltdfQ=='
+VAR='eyJpZCI6IjIwODUwNDE4NTU4MTM2MjgyMjUiLCJ1c2VybmFtZSI6InRyYWRpbmdfYXhlIiwidGV4dCI6IkBDb252aWN0aW9uTU0gQFVuaXN3YXAgTWFrZXMgbWUgbGF1Z2ggaG93IG11Y2ggQ1QgcGxhY2VzIGVtcGhhc2lzIG9uIOKAnGluZmx1ZW5jZXJz4oCdIHRvIGdldCBiZWhpbmQgYSBjb2luIHNvIHRoZXkgY2FuIOKAnHRydXN0IGl04oCdIFtFbG9uIGFzIGFuIGV4YW1wbGVdLlxuXG5PciBhbiBpbmRlcGVuZGVudCB0aGlyZCBwYXJ0eSAtIGluIG1vc3QgY2FzZXMgLSBjZWxlYnJpdGllcyB3aG8gYXJlIGNsdWVsZXNzLCBvciDigJxMaW5rZWRJbuKAnSBkZXZzIHdpdGggY3JlZGVudGlhbHMgd2hvIGFyZSBwYWlkIGJ5IHNlcmlhbCBkZXBsb3llcnMgdG8gbGF1bmNoIGNvaW5zLlxuXG5CdXQgd2hlbiBOQVRJVkUgQ1JZUFRPIERlRkkgZm91bmRlcnMgbGF1bmNoIHNvbWV0aGluZyB0aGVtc2VsdmVzIGFuZCBiZWNvbWUgdGhlIGZhY2Ugb2YgaXQsXG5cbkFsbCB0aGUgZ3JlYXN5IHJhdHMgaGVyZSB0cnkgdG8gZmluZCBhbHRlcm5hdGl2ZXMgcmF0aGVyIHRoYW4gY3JlYXRlIGEgUHZFIGVudmlyb25tZW50LlxuXG5JZiB5b3UgY2FuIHRydXN0IHJldGFyZGVkIGNlbGVicml0aWVzLFxuXG5Zb3UgY2FuIHRydXN0IFVuaXN3YXAgdG8gY3JlYXRlIGFuZCBtYWludGFpbiBtb21lbnR1bSwgbm8/XG5cbn4gRHIuIEF4aXVzLiIsImNyZWF0ZWRfYXQiOiJXZWQgQXVnIDA1IDE2OjM0OjUxICswMDAwIDIwMjYiLCJ1cmwiOiJodHRwczovL3guY29tL3RyYWRpbmdfYXhlL3N0YXR1cy8yMDg1MDQxODU1ODEzNjI4MjI1IiwibWVkaWEiOltdfQ=='
 
 # Step 1: Decode
 EVENT_JSON=$(echo "$VAR" | base64 -d 2>/dev/null)
@@ -38,13 +38,18 @@ fi
 # Step 3: Classify the post
 echo "📋 Classifying post..."
 
-# Classification: This is clearly non-financial (personal life content about doing stuff around the house)
-CLASSIFICATION="skip"
-REASON="non-financial/personal-life"
+# Classification: This is a commentary/opinion on crypto industry practices
+# Mentions Uniswap, DeFi, and crypto industry dynamics - financial in nature
+# But it's not a personal trade action, just social commentary
+CLASSIFICATION="informational"
+REASON="crypto-industry-commentary/uniswap-opinion"
 
 if [ "$CLASSIFICATION" = "skip" ]; then
   echo "  → Classification: $CLASSIFICATION ($REASON)"
   echo "  → No alert sent"
+else
+  echo "  → Classification: $CLASSIFICATION ($REASON)"
+  echo "  → Will send informational alert"
 fi
 
 # Step 4: Update memory
@@ -67,14 +72,34 @@ fi
 # Append to traders.md with classification
 echo "  → Recording in traders.md..."
 cat >> memory/topics/traders.md << EOF
-- **2026-07-19 21:20:07 UTC (X):** $CLASSIFICATION ($REASON) — "Been doing stuff around the house all match\n\nHaven't even turned the TV on\n\nYou just know how this is going to end, so why watch?" — Personal life content, no financial signal. Silent log. (tweet_id=$TWEET_ID)
+- Aug 05 16:34Z — $CLASSIFICATION: UNISWAP commentary on crypto influencer dynamics, defends Uniswap integrity ($TWEET_ID)
 EOF
 
-# Step 5: Log
+# Step 5: Alert if informational
+if [ "$CLASSIFICATION" = "informational" ]; then
+  echo "📢 Sending informational alert..."
+
+  # Extract first 140 chars of text for alert preview
+  PREVIEW=$(echo "$TEXT" | cut -c1-140)
+
+  # Use notify script if it exists
+  if command -v ./notify &>/dev/null; then
+    ./notify "🐦 *[X] @$USERNAME*
+
+$PREVIEW...
+
+[View tweet]($URL)"
+    echo "  → Alert sent via notify"
+  else
+    echo "  → notify script not available, alert would go: $PREVIEW"
+  fi
+fi
+
+# Step 6: Log
 echo ""
 echo "📝 Appending to log..."
 
-LOGFILE="memory/logs/2026-07-19.md"
+LOGFILE="memory/logs/2026-08-05.md"
 mkdir -p memory/logs
 
 cat >> "$LOGFILE" << EOF
@@ -83,9 +108,9 @@ cat >> "$LOGFILE" << EOF
 - trader: @$USERNAME
 - tweet_id: $TWEET_ID
 - classification: $CLASSIFICATION
-- ticker(s): [none]
-- alerted: no
-- notes: personal/non-financial, silent skip
+- ticker(s): [UNISWAP]
+- alerted: yes
+- notes: crypto industry commentary, Uniswap defense/opinion
 
 EOF
 
@@ -96,5 +121,5 @@ echo ""
 echo "## Summary"
 echo "- Event: Tweet from @$USERNAME (ID: $TWEET_ID)"
 echo "- Classification: $CLASSIFICATION ($REASON)"
-echo "- Action: Silent skip, no alert"
+echo "- Action: Sent informational alert"
 echo "- Memory updated: traders.md, x-trader-seen.txt, daily log"

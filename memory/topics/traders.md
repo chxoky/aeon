@@ -12,11 +12,12 @@
 ## trading_axe
 - Platforms: X (primary; X-only, no Discord presence)
 - Current open positions: None announced
-- Recent thesis: None yet (ongoing personal commentary only)
-- Conviction notes: X-only, non-trading account. Only personal banter/sarcasm observed. 4/4 events skipped (non-financial).
+- Recent thesis: Crypto industry commentary — skeptical of influencer-dependent token launches, defending Uniswap founder-led model integrity
+- Conviction notes: X-only. Mix of personal banter (60%) and crypto industry commentary (40%). Sarcastic/acerbic tone. DeFi platform credibility opinions vs personal trade actions.
 - Calibration: None needed
-- Last seen: 2026-08-05T06:52:27Z
+- Last seen: 2026-08-05T16:34:51Z
 - **Events (rolling):**
+  - Aug 05 16:34Z — informational: Uniswap/crypto industry commentary. Defends Uniswap's founder-led model credibility vs influencer-dependent celebrity tokens. Comparing DeFi founding team trust model to reliance on paid celebrities/LinkedIn devs. Strong opinion on platform integrity dynamics. Not personal trade action; industry philosophy/sentiment. Alerted Kyle. [$UNISWAP] [2085041855813628225]
   - Aug 05 06:52Z — skip: reply/reference to @eveningxbt with Dr. Axius mention + VICE News/WH.GOV political image (infrared news footage); no financial signal, no trading position, no ticker. Non-financial per Step 4A. [2084895291526832607]
   - Aug 04 22:51Z — skip: poker table group photo + long essay on Rasmir's poker psychology/positioning during game; body language & psychological bluffing narrative; no financial signal, no trading position, no ticker. Non-financial per Step 4A. [2084774160350269833]
   - Aug 04 05:22Z — skip: reply to @beeboopx; sarcasm about crypto deployment timing & trench-community behavior; no financial signal, no position, no ticker. Non-financial per Step 4A. [2084510255921148247]
