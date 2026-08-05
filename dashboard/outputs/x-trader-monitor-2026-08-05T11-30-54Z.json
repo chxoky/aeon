@@ -1,0 +1,166 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-header",
+        "separator-1",
+        "stack-details",
+        "separator-2",
+        "text-analysis",
+        "separator-3",
+        "link-post",
+        "alert-note"
+      ]
+    },
+    "stack-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-main",
+        "stack-badges"
+      ]
+    },
+    "heading-main": {
+      "type": "Heading",
+      "props": {
+        "text": "KillaXBT just fully closed their HYPE position",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-mirror",
+        "badge-position"
+      ]
+    },
+    "badge-mirror": {
+      "type": "Badge",
+      "props": {
+        "text": "🔁 Mirrored — @KillaXBT",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "badge-position": {
+      "type": "Badge",
+      "props": {
+        "text": "HYPE",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "table-trade",
+        "stat-gain",
+        "text-type"
+      ]
+    },
+    "table-trade": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Event",
+          "Date",
+          "Price"
+        ],
+        "rows": [
+          [
+            "Entry",
+            "Aug 01",
+            "$51.55"
+          ],
+          [
+            "Exit",
+            "Aug 05",
+            "~$57.84"
+          ]
+        ]
+      },
+      "children": []
+    },
+    "stat-gain": {
+      "type": "Stat",
+      "props": {
+        "label": "Gain",
+        "value": "+12.12%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "text-type": {
+      "type": "Text",
+      "props": {
+        "text": "Corrective retest scalp (4-day hold)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text-analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Charts show V-shaped recovery from support, retest of resistance invalidated upside continuation.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link-post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/KillaXBT/status/2084963565845328005"
+      },
+      "children": []
+    },
+    "alert-note": {
+      "type": "Alert",
+      "props": {
+        "title": "Execution Note",
+        "message": "Initial Aug 01 entry was pending your approval — this is trader-only execution (not mirrored on Kraken).",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}
