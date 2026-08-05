@@ -1,0 +1,133 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-card",
+        "sentiment-badge",
+        "sep-1",
+        "metrics-heading",
+        "metrics-stack",
+        "divergence-alert",
+        "sep-2",
+        "link-tweet"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Options market sentiment extremes detected:\n• Put/Call Ratio: 0.58 (-27.50% red flag)\n• Call Skew: 98.80% (extremely bullish)\n• Put Skew: 11.55% (no hedging)\n• SPX/VIX Divergence: SPX +1.79% / VIX +0.64 (breaks normal inverse correlation)\n\nSarcastic bear sentiment on market contradictions—positioning extremes & broken technicals."
+      }
+    },
+    "sentiment-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Sarcastic Bear Sentiment",
+        "variant": "secondary"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "metrics-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Market Metrics",
+        "level": "h3"
+      }
+    },
+    "metrics-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat-putcall",
+        "stat-callskew",
+        "stat-putskew",
+        "spxvix-row"
+      ]
+    },
+    "stat-putcall": {
+      "type": "Stat",
+      "props": {
+        "label": "Put/Call Ratio",
+        "value": "0.58",
+        "delta": "-27.50%",
+        "trend": "down"
+      }
+    },
+    "stat-callskew": {
+      "type": "Stat",
+      "props": {
+        "label": "Call Skew",
+        "value": "98.80%"
+      }
+    },
+    "stat-putskew": {
+      "type": "Stat",
+      "props": {
+        "label": "Put Skew",
+        "value": "11.55%"
+      }
+    },
+    "spxvix-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-spx",
+        "stat-vix"
+      ]
+    },
+    "stat-spx": {
+      "type": "Stat",
+      "props": {
+        "label": "SPX",
+        "value": "+1.79%",
+        "trend": "up"
+      }
+    },
+    "stat-vix": {
+      "type": "Stat",
+      "props": {
+        "label": "VIX",
+        "value": "+0.64%"
+      }
+    },
+    "divergence-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "SPX/VIX Divergence",
+        "message": "Breaks normal inverse correlation",
+        "type": "warning"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2085003055544885634"
+      }
+    }
+  }
+}

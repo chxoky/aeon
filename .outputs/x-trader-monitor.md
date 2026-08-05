@@ -1,8 +1,12 @@
-🔁 *Conviction Hold — @HeartCanHodl*
+🐦 *[X] @Wild_Randomness*
 
-$AAPL short position: entry 339.78 → mark 307.80 = **+9.41%** unrealized
+Options market sentiment extremes detected:
+• Put/Call Ratio: **0.58** (⬇️ -27.50% red flag)
+• Call Skew: **98.80%** (extremely bullish)
+• Put Skew: **11.55%** (no hedging)
+• SPX/VIX Divergence: SPX +1.79% / VIX +0.64 (breaks normal inverse correlation)
 
-Reply to @MusicConnect10: "Not yet :)" — holding conviction despite substantial gain. Awaiting larger move before closing.
+_Sarcastic bear sentiment on market contradictions—positioning extremes & broken technicals._
 
 **3-trader bearish convergence ESCALATED:**
 • HeartCanHodl — short from prior regime (maintained through net-long rotation)
@@ -27,3 +31,4 @@ The similarities are hard to ignore.
 [View tweet](https://x.com/KillaXBT/status/2085001757428433117)
 
 ↳ _Chart shows 2022 bottom pattern mirroring current daily structure with bullish divergence (higher lows in RSI/momentum vs. recent price weakness). Aligns with group consensus on BTC consolidation end — validates technical support levels and convergence thesis._
+[View tweet](https://x.com/Wild_Randomness/status/2085003055544885634)
