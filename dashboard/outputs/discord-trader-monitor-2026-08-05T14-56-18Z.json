@@ -1,0 +1,180 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Message Calibration"
+      },
+      "children": [
+        "main_stack"
+      ]
+    },
+    "main_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "header_stack",
+        "sep1",
+        "event_section",
+        "sep2",
+        "message_tweet",
+        "sep3",
+        "analysis_section"
+      ]
+    },
+    "header_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "calibration_heading",
+        "context_badge"
+      ]
+    },
+    "calibration_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration",
+        "level": "h2"
+      }
+    },
+    "context_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Discord Chat (HCH)",
+        "variant": "secondary"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "event_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "event_label",
+        "event_value"
+      ]
+    },
+    "event_label": {
+      "type": "Text",
+      "props": {
+        "text": "Event:",
+        "variant": "lead"
+      }
+    },
+    "event_value": {
+      "type": "Text",
+      "props": {
+        "text": "Supporting channel message from HeartCanHodl"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message_tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HCH",
+        "text": "Fc xaut 1d"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis_title",
+        "unable_alert",
+        "interpretation_section",
+        "question_text"
+      ]
+    },
+    "analysis_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Analysis",
+        "level": "h3"
+      }
+    },
+    "unable_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to Classify",
+        "message": "The message is cryptic with no clear direction, action, or context.",
+        "type": "warning"
+      }
+    },
+    "interpretation_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "interp_title",
+        "interp_fc",
+        "interp_xaut",
+        "interp_1d"
+      ]
+    },
+    "interp_title": {
+      "type": "Text",
+      "props": {
+        "text": "Possible interpretations:",
+        "variant": "lead"
+      }
+    },
+    "interp_fc": {
+      "type": "Text",
+      "props": {
+        "text": "'Fc' could mean 'Force close'"
+      }
+    },
+    "interp_xaut": {
+      "type": "Text",
+      "props": {
+        "text": "'XAUT' is gold"
+      }
+    },
+    "interp_1d": {
+      "type": "Text",
+      "props": {
+        "text": "'1d' likely means 1-day chart"
+      }
+    },
+    "question_text": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "muted"
+      }
+    }
+  }
+}
