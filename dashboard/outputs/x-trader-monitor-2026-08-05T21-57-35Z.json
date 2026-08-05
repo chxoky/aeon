@@ -1,0 +1,149 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @Wild_Randomness",
+        "description": "X-Trader Monitor Analysis"
+      },
+      "children": [
+        "section_event",
+        "sep1",
+        "section_tweet",
+        "sep2",
+        "section_context",
+        "sep3",
+        "section_uncertainty"
+      ]
+    },
+    "section_event": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h_event",
+        "t_event",
+        "stat_dvol"
+      ]
+    },
+    "h_event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "t_event": {
+      "type": "Text",
+      "props": {
+        "text": "DVOL 15-day cycle; trader comparing to prior reference"
+      },
+      "children": []
+    },
+    "stat_dvol": {
+      "type": "Stat",
+      "props": {
+        "label": "DVOL Low",
+        "value": "34.15"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_tweet": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h_quote",
+        "tweet_wr"
+      ]
+    },
+    "h_quote": {
+      "type": "Heading",
+      "props": {
+        "text": "Quote from @Wild_Randomness",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "tweet_wr": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Wonder if this will be like your 200d tweet at 81k"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h_context",
+        "t_context1",
+        "t_context2"
+      ]
+    },
+    "h_context": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "t_context1": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to @PurpleDrink_LLC with chart showing BTC Volatility Index marked with cycle patterns."
+      },
+      "children": []
+    },
+    "t_context2": {
+      "type": "Text",
+      "props": {
+        "text": "\"81k\" likely BTC price level. \"200d\" reference unclear."
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_uncertainty": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to Classify",
+        "message": "What was the prior @PurpleDrink_LLC tweet? Is WR comparing cycle patterns, price targets, or timing? No personal trade action stated — appears technical observation/question. What's your read?",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}
