@@ -32,3 +32,14 @@ The similarities are hard to ignore.
 
 ↳ _Chart shows 2022 bottom pattern mirroring current daily structure with bullish divergence (higher lows in RSI/momentum vs. recent price weakness). Aligns with group consensus on BTC consolidation end — validates technical support levels and convergence thesis._
 [View tweet](https://x.com/Wild_Randomness/status/2085003055544885634)
+🔍 *Risky Setup — @HeartCanHodl querying @SalsaTekilà*
+
+Hyperdash Account: 0xff84...8f1d
+🔴 Margin: 99.76% (CRITICAL)
+⚡ Leverage: 39.9X
+📊 Position: $102.6M Short (100% bias), BTC 40x
+💰 Current P&L: +$171,040 (but on the knife's edge)
+
+HCH asking: "This?" — concern about extreme leverage on massive short position. Account value $2.57M showing recent volatility spike into drawdown then recovery. This looks like either a liquidation warning or position-validation query.
+
+[View post](https://x.com/HeartCanHodl/status/2085003513726480698)

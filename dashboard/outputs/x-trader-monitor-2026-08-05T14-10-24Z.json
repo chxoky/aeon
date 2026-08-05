@@ -1,0 +1,150 @@
+{
+  "root": "root_card",
+  "state": {},
+  "elements": {
+    "root_card": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Risky Setup — @HeartCanHodl querying @SalsaTekilà"
+      },
+      "children": [
+        "alert_critical",
+        "separator1",
+        "account_section",
+        "separator2",
+        "analysis_section",
+        "separator3",
+        "post_link"
+      ]
+    },
+    "alert_critical": {
+      "type": "Alert",
+      "props": {
+        "title": "CRITICAL MARGIN WARNING",
+        "message": "Margin at 99.76% with 39.9X leverage on $102.6M short position. Liquidation risk extremely high.",
+        "type": "error"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "account_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "account_heading",
+        "account_address",
+        "account_grid"
+      ]
+    },
+    "account_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Account Details",
+        "level": "h3"
+      }
+    },
+    "account_address": {
+      "type": "Text",
+      "props": {
+        "text": "Hyperdash Account: 0xff84...8f1d",
+        "variant": "body"
+      }
+    },
+    "account_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "margin_stat",
+        "leverage_stat",
+        "pnl_stat"
+      ]
+    },
+    "margin_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Margin",
+        "value": "99.76%",
+        "trend": "down"
+      }
+    },
+    "leverage_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Leverage",
+        "value": "39.9X"
+      }
+    },
+    "pnl_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Current P&L",
+        "value": "+$171,040"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "analysis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis_heading",
+        "position_text",
+        "account_value_text",
+        "concern_text"
+      ]
+    },
+    "analysis_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Position & Risk Analysis",
+        "level": "h3"
+      }
+    },
+    "position_text": {
+      "type": "Text",
+      "props": {
+        "text": "Position: $102.6M Short (100% bias), BTC 40x",
+        "variant": "lead"
+      }
+    },
+    "account_value_text": {
+      "type": "Text",
+      "props": {
+        "text": "Account value $2.57M showing recent volatility spike into drawdown then recovery",
+        "variant": "body"
+      }
+    },
+    "concern_text": {
+      "type": "Text",
+      "props": {
+        "text": "@HeartCanHodl expressing concern with \"This?\" — questioning extreme leverage on massive short position. Appears to be either a liquidation warning or position-validation query.",
+        "variant": "body"
+      }
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "post_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View Original Post",
+        "href": "https://x.com/HeartCanHodl/status/2085003513726480698",
+        "source": "X"
+      }
+    }
+  }
+}
