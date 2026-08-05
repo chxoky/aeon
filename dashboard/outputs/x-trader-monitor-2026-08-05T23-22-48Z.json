@@ -1,0 +1,24 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_1"
+      ]
+    },
+    "tweet_1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "This should be taken as sarcasm.\n\nIt's just funny witnessing countless nukes during today's earnings reports, but all indices are green after hours\n\n(This has to do with hyperscalers reacting positively to poor memory earnings, it makes sense)"
+      },
+      "children": []
+    }
+  }
+}
