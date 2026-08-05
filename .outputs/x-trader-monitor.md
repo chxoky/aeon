@@ -1,9 +1,9 @@
-🐦 *[X] @trading_axe*
+🔍 *Calibration — @Wild_Randomness*
 
-Uni vs Sushi wars coming back and the frog is in the middle of it.
+Event: Aug 05 22:48 UTC — Kalshi prediction market odds question
 
-~ Dr. Axius.
+Wild_Randomness: "So Kalshi trader's think a +55% rally is equally as likely as a -22% decline from here?"
 
-[View tweet](https://x.com/trading_axe/status/2085129682710601906)
+Unable to classify — what's your read? Is this bearish sentiment (odds are mispriced/irrational) or observational (noting market consensus)?
 
-↳ _Continuation of trading_axe's founder-credibility thesis — frames FRONG as positioned beneficiary in DeFi protocol competition, consistent with Aug 05 21:28Z mascot-mechanics essay (founder-led model durability vs influencer-dependent launches)._
+[View post](https://x.com/Wild_Randomness/status/2085136005527753202)

@@ -1,0 +1,46 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @Wild_Randomness"
+      },
+      "children": [
+        "timestamp",
+        "tweet_card",
+        "analysis_text",
+        "link_view"
+      ]
+    },
+    "timestamp": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Aug 05 22:48 UTC — Kalshi prediction market odds question",
+        "variant": "muted"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "So Kalshi trader's think a +55% rally is equally as likely as a -22% decline from here?"
+      }
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read? Is this bearish sentiment (odds are mispriced/irrational) or observational (noting market consensus)?"
+      }
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2085136005527753202"
+      }
+    }
+  }
+}
