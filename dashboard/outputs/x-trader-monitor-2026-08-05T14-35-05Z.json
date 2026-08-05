@@ -1,0 +1,88 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "🚨 Trade Signal — @Wild_Randomness"
+      },
+      "children": [
+        "position-badges",
+        "position-desc",
+        "quote",
+        "context",
+        "link",
+        "cta"
+      ]
+    },
+    "position-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-qqq",
+        "badge-puts",
+        "badge-personal"
+      ]
+    },
+    "badge-qqq": {
+      "type": "Badge",
+      "props": {
+        "text": "QQQ",
+        "variant": "default"
+      }
+    },
+    "badge-puts": {
+      "type": "Badge",
+      "props": {
+        "text": "PUT OPTIONS",
+        "variant": "destructive"
+      }
+    },
+    "badge-personal": {
+      "type": "Badge",
+      "props": {
+        "text": "Personal position",
+        "variant": "secondary"
+      }
+    },
+    "position-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Buying put options on QQQ/equities consolidation setup",
+        "variant": "lead"
+      }
+    },
+    "quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"Not that I want to make buying put options my entire personality, but I am playing this\"",
+        "variant": "body"
+      }
+    },
+    "context": {
+      "type": "Text",
+      "props": {
+        "text": "Context: QQQ 1H showing consolidation 700-738, 1D showing daily rejection at highs. Put/call ratios at lowest since May (0.46 equity, 0.77 index) — extreme bearish hedge setup with technical structure validation.",
+        "variant": "body"
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2085010608911728969"
+      }
+    },
+    "cta": {
+      "type": "Text",
+      "props": {
+        "text": "Reply 'approve QQQ_PUTS' if you want to mirror this position, or ignore to skip.",
+        "variant": "caption"
+      }
+    }
+  }
+}
