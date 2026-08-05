@@ -1,0 +1,41 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "X-Trader Monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "link_post"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "🐦 Artisanal selection of bull charts — HYPE technical setup\n\nHYPEUSD showing consolidation at support (56.1-58 zone) with oversold RSI and early recovery signals. 5-chart multi-timeframe analysis:\n- 1D: Declining trend 76→56, consolidation at support floor\n- Weekly: HYPE/TOTAL ratio with volume confirmation, support/resistance structure\n- Setup: Consolidation with bullish structural markers\n\nCharts validate support zone integrity with potential recovery setup on oversold RSI conditions. Chart-driven technical observation (no personal entry stated)."
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2084860520105197594"
+      }
+    }
+  }
+}
