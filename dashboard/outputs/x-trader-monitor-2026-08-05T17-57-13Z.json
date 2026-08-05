@@ -1,0 +1,90 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @Wild_Randomness",
+        "description": "Morning pop into close; personal action ambiguous"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "tweetcard",
+        "sep1",
+        "stack_issue",
+        "sep2",
+        "link_post"
+      ]
+    },
+    "tweetcard": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "yeah I'm out, taking my own advice\n\n+0.55% entry on morning pop into -0.45%\n\nThat's all I can ask for here lol, not expecting a vix spike in the short term, just that it will be hard for fresh calls to get paid\n\nMight continue down and I give up S-tier entry but August options expiry is probably where long TPs and potential swing shorts make more sense"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_issue": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert_classify",
+        "text_entries",
+        "text_note"
+      ]
+    },
+    "alert_classify": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Which position exited?",
+        "type": "warning"
+      }
+    },
+    "text_entries": {
+      "type": "Text",
+      "props": {
+        "text": "Recent entries: ALAB long (14:56Z), QQQ puts (14:30Z), SOXL re-add (00:15Z), or other day trade?"
+      }
+    },
+    "text_note": {
+      "type": "Text",
+      "props": {
+        "text": "Post language suggests personal action but no ticker specified.",
+        "variant": "muted"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2085061277089759291"
+      }
+    }
+  }
+}

@@ -1,9 +1,15 @@
-🐦 *[X] @Wild_Randomness*
+🔍 *Calibration — @Wild_Randomness*
 
-15-minute divergence chart on ALAB (existing long entry 14:56Z at sub-$325, pending approval)
+Event: Morning pop into close; personal action ambiguous
 
-Current: 321.77 USD (-11.04% intraday)
+Wild_Randomness: "yeah I'm out, taking my own advice
 
-Chart shows 15m technical structure with potential divergence pattern supporting entry thesis post-earnings bounce.
++0.55% entry on morning pop into -0.45%
 
-[View tweet](https://x.com/Wild_Randomness/status/2085059901550973083)
+That's all I can ask for here lol, not expecting a vix spike in the short term, just that it will be hard for fresh calls to get paid
+
+Might continue down and I give up S-tier entry but August options expiry is probably where long TPs and potential swing shorts make more sense"
+
+**Unable to classify** — which position exited? Recent entries: ALAB long (14:56Z), QQQ puts (14:30Z), SOXL re-add (00:15Z), or other day trade? Post language suggests personal action but no ticker specified.
+
+[View post](https://x.com/Wild_Randomness/status/2085061277089759291)
