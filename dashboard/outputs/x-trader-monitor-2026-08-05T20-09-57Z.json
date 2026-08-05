@@ -1,0 +1,76 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet_card",
+        "separator_1",
+        "details_stack"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "$BTC\n\nDetailed cycle structure analysis: currently in bottoming formation phase (dark green). Once complete, next target is the purple dot above 80K.\n\nPost compares identical wave patterns across 2014, 2018, 2022, and current 2026 bull-bear cycles — historical parallels suggest range capitulation before expansion."
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "details_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "charts_heading",
+        "chart1_item",
+        "chart2_item",
+        "tweet_link"
+      ]
+    },
+    "charts_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Charts",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "chart1_item": {
+      "type": "Text",
+      "props": {
+        "text": "Chart 1: Single cycle breakdown (phases labeled from top through bottom formation to pending target)"
+      },
+      "children": []
+    },
+    "chart2_item": {
+      "type": "Text",
+      "props": {
+        "text": "Chart 2: Multi-year overlay (4 historical cycles with matching phase patterns)"
+      },
+      "children": []
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2085095004033135003"
+      },
+      "children": []
+    }
+  }
+}
