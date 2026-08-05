@@ -1,0 +1,24 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-card"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Was wise to reign back on the puts\n\nWe got the IBIT gap fill this morning\n\nSet-up is very clear to me now:\n\n- Target is that lower gap fill\n(Aligns with that massive liq cluster)\n\n- Inval would be a daily close above IBIT's lifetime POC"
+      },
+      "children": []
+    }
+  }
+}
