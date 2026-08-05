@@ -1,11 +1,9 @@
-🐦 *[X] @Wild_Randomness*
+🔁 *Profit-Taking Update — @Wild_Randomness*
 
-Put/Call ratio at 0.58 extremes (historically low, -27.50%) — QQQ rejected at 738 resistance.
+Position continues disciplined scaling: took additional profit on spike-down structure.
 
-"Something tells me there will be lots of call options going straight to the graveyard"
+Down to the last 30% of original position (70% cumulative closed).
 
-Analysis: Extreme put/call lows = minimal hedges, all-in calls. QQQ structure shows resistance failure. Market pullback from these positioning extremes would wipe out call buyers. Aligned with documented bearish "Jump the Shark" thesis on complacency.
+Context: QQQ puts entry Aug 05 14:30Z (pending approval) — first TP 19:57Z, second TP now 20:36Z. High conviction execution pattern on tactical micro-reversal thesis.
 
-[$QQQ Put/Call positioning extremes]
-
-https://x.com/Wild_Randomness/status/2085100633003270443
+[View post](https://x.com/Wild_Randomness/status/2085102655282835672)

@@ -1,0 +1,67 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Profit-Taking Update — @Wild_Randomness"
+      },
+      "children": [
+        "text-main",
+        "sep1",
+        "text-position",
+        "sep2",
+        "text-context",
+        "sep3",
+        "link-post"
+      ]
+    },
+    "text-main": {
+      "type": "Text",
+      "props": {
+        "text": "Position continues disciplined scaling: took additional profit on spike-down structure.",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-position": {
+      "type": "Text",
+      "props": {
+        "text": "Down to the last 30% of original position (70% cumulative closed).",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-context": {
+      "type": "Text",
+      "props": {
+        "text": "Context: QQQ puts entry Aug 05 14:30Z (pending approval) — first TP 19:57Z, second TP now 20:36Z. High conviction execution pattern on tactical micro-reversal thesis.",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link-post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2085102655282835672"
+      }
+    }
+  }
+}
