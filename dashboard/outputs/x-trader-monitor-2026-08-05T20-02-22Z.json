@@ -1,0 +1,58 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_mirrored",
+        "tweet_card",
+        "alert_action",
+        "link_post"
+      ]
+    },
+    "badge_mirrored": {
+      "type": "Badge",
+      "props": {
+        "text": "Mirrored",
+        "variant": "secondary"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Just took profit on QQQ position (puts, entered Aug 05 14:30Z). Current QQQ: 718.90 (-0.68%), showing rejection at resistance after intraday pullback. Earnings cycle risk management."
+      }
+    },
+    "alert_action": {
+      "type": "Alert",
+      "props": {
+        "title": "Action Item",
+        "message": "If you have a mirrored QQQ position on Kraken, consider taking partial profits to match.",
+        "type": "info"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2085092822127083539"
+      }
+    }
+  }
+}
