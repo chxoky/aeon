@@ -1,0 +1,59 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-channel",
+        "text-commentary",
+        "separator-1",
+        "text-note"
+      ]
+    },
+    "heading-channel": {
+      "type": "Heading",
+      "props": {
+        "text": "[DC: HCH — Chat]",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text-commentary": {
+      "type": "Text",
+      "props": {
+        "text": "Channel breakout looks lucrative",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text-note": {
+      "type": "Text",
+      "props": {
+        "text": "Supporting channel sentiment observation — vague market commentary, no ticker specified.",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
