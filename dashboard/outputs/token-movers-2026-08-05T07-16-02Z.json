@@ -1,0 +1,440 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Token Movers — 2026-08-05",
+        "description": "Choppy tape, slim red lean — 57/100 top names down 24h, median of top-50 −0.1%; individual catalysts driving isolated moves rather than a broad directional sweep."
+      },
+      "children": [
+        "sep-1",
+        "heading-winners",
+        "table-winners",
+        "sep-2",
+        "heading-losers",
+        "table-losers",
+        "sep-3",
+        "heading-trending",
+        "table-trending",
+        "sep-4",
+        "heading-notable",
+        "stack-notable"
+      ]
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading-winners": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Winners (24h)",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "table-winners": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Rank",
+          "Token",
+          "ID",
+          "24h",
+          "7d",
+          "1h",
+          "Vol / Rank",
+          "Status"
+        ],
+        "rows": [
+          [
+            "1",
+            "PUMP (Pump.fun)",
+            "/bin/sh.002463",
+            "+10.4%",
+            "+32.0%",
+            "−0.6%",
+            "55M / #66",
+            "TRENDING+UP"
+          ],
+          [
+            "2",
+            "SHFL (Shuffle)",
+            "/bin/sh.3070",
+            "+10.1%",
+            "+8.7%",
+            "+0.0%",
+            "M / #213",
+            ""
+          ],
+          [
+            "3",
+            "BTW (Bitway)",
+            "/bin/sh.1288",
+            "+8.9%",
+            "+21.2%",
+            "−3.5%",
+            "6M / #126",
+            ""
+          ],
+          [
+            "4",
+            "VELVET (Velvet)",
+            "/bin/sh.4675",
+            "+8.2%",
+            "+14.1%",
+            "−0.6%",
+            "M / #163",
+            ""
+          ],
+          [
+            "5",
+            "ZEC (Zcash)",
+            "19",
+            "+6.3%",
+            "+11.8%",
+            "+0.2%",
+            "26M / #14",
+            "MAJOR"
+          ],
+          [
+            "6",
+            "LIT (Lighter)",
+            ".14",
+            "+5.9%",
+            "−8.9%",
+            "+0.3%",
+            "2M / #93",
+            ""
+          ],
+          [
+            "7",
+            "ZRO (LayerZero)",
+            "/bin/sh.7925",
+            "+5.9%",
+            "−0.3%",
+            "+0.9%",
+            "0M / #129",
+            ""
+          ],
+          [
+            "8",
+            "FET (ASI Alliance)",
+            "/bin/sh.1524",
+            "+5.6%",
+            "+13.4%",
+            "+0.9%",
+            "4M / #117",
+            ""
+          ],
+          [
+            "9",
+            "US (Talus)",
+            "/bin/sh.0535",
+            "+5.5%",
+            "+22.5%",
+            "+0.2%",
+            "M / #189",
+            ""
+          ],
+          [
+            "10",
+            "CVX (Convex Finance)",
+            ".40",
+            "+5.5%",
+            "+3.7%",
+            "−0.6%",
+            "M / #215",
+            ""
+          ]
+        ]
+      },
+      "children": []
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading-losers": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Losers (24h)",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "table-losers": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Rank",
+          "Token",
+          "ID",
+          "24h",
+          "7d",
+          "1h",
+          "Vol / Rank",
+          "Status"
+        ],
+        "rows": [
+          [
+            "1",
+            "UB (Unibase)",
+            "/bin/sh.1188",
+            "−39.1%",
+            "−15.0%",
+            "−7.9%",
+            "3M / #125",
+            ""
+          ],
+          [
+            "2",
+            "BEAT (Audiera)",
+            ".53",
+            "−18.4%",
+            "−31.1%",
+            "+0.5%",
+            "9M / #79",
+            ""
+          ],
+          [
+            "3",
+            "META (MetaDAO)",
+            ".52",
+            "−13.3%",
+            "−13.6%",
+            "+0.7%",
+            "3M / #220",
+            ""
+          ],
+          [
+            "4",
+            "LDO (Lido DAO)",
+            "/bin/sh.2901",
+            "−12.9%",
+            "−20.6%",
+            "+0.5%",
+            "2M / #143",
+            "CAPITULATION"
+          ],
+          [
+            "5",
+            "BinanceLife",
+            "/bin/sh.5033",
+            "−8.4%",
+            "−21.0%",
+            "−4.0%",
+            "M / #98",
+            ""
+          ],
+          [
+            "6",
+            "ETHFI (Ether.fi)",
+            "/bin/sh.3663",
+            "−6.9%",
+            "−8.5%",
+            "+0.4%",
+            "9M / #113",
+            ""
+          ],
+          [
+            "7",
+            "VVV (Venice Token)",
+            "1.62",
+            "−4.6%",
+            "−8.9%",
+            "−0.7%",
+            "0M / #92",
+            ""
+          ],
+          [
+            "8",
+            "TRAC (OriginTrail)",
+            "/bin/sh.2738",
+            "−4.2%",
+            "−1.8%",
+            "−0.1%",
+            "M / #224",
+            ""
+          ],
+          [
+            "9",
+            "CC (Canton)",
+            "/bin/sh.1096",
+            "−4.0%",
+            "−8.0%",
+            "+0.7%",
+            "7M / #22",
+            ""
+          ],
+          [
+            "10",
+            "XCN (Onyxcoin)",
+            "/bin/sh.003094",
+            "−3.3%",
+            "−7.0%",
+            "+0.8%",
+            "M / #225",
+            ""
+          ]
+        ]
+      },
+      "children": []
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading-trending": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "table-trending": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Rank",
+          "Name (Symbol)",
+          "ID",
+          "Rank #",
+          "24h",
+          "Status"
+        ],
+        "rows": [
+          [
+            "1",
+            "GRVT Token (GRVT)",
+            "/bin/sh.3199",
+            "#555",
+            "+21.9%",
+            ""
+          ],
+          [
+            "2",
+            "Pudgy Penguins (PENGU)",
+            "/bin/sh.006060",
+            "#107",
+            "−1.4%",
+            ""
+          ],
+          [
+            "3",
+            "Squid (QUID)",
+            "/bin/sh.1080",
+            "#918",
+            "0.0%",
+            ""
+          ],
+          [
+            "4",
+            "OVERTAKE (TAKE)",
+            "/bin/sh.0443",
+            "#936",
+            "+26.8%",
+            ""
+          ],
+          [
+            "5",
+            "Solana (SOL)",
+            "3.91",
+            "#7",
+            "+0.7%",
+            ""
+          ],
+          [
+            "6",
+            "Pi Network (PI)",
+            "/bin/sh.0854",
+            "#67",
+            "+3.1%",
+            ""
+          ],
+          [
+            "7",
+            "Pump.fun (PUMP)",
+            "/bin/sh.002463",
+            "#64",
+            "+10.1%",
+            "TRENDING+UP"
+          ]
+        ]
+      },
+      "children": []
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading-notable": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack-notable": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "notable-1",
+        "notable-2",
+        "notable-3",
+        "notable-4"
+      ]
+    },
+    "notable-1": {
+      "type": "Text",
+      "props": {
+        "text": "PUMP: trending + up 10.4% on 55M vol — 7d +32% confirms sustained momentum, not a flash pump",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "notable-2": {
+      "type": "Text",
+      "props": {
+        "text": "UB (Unibase): rank #125 down −39.1% in 24h, still bleeding −7.9% on 1h — event-driven drop; check for exploit or unlock",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "notable-3": {
+      "type": "Text",
+      "props": {
+        "text": "LDO (Lido): −12.9% on 2M vol (34% of mcap) — [CAPITULATION] signal; staking yield narrative under pressure",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "notable-4": {
+      "type": "Text",
+      "props": {
+        "text": "BEAT (Audiera): −18.4% / 7d −31.1% — sustained downtrend accelerating, no bounce",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
