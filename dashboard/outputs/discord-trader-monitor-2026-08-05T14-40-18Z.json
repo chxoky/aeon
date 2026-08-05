@@ -1,0 +1,25 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor",
+        "description": "Chase — Crypto"
+      },
+      "children": [
+        "tweet_1"
+      ]
+    },
+    "tweet_1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Chase",
+        "handle": "DC",
+        "text": "Coming into daily trend, daily resistance , Trend has been lower highs"
+      },
+      "children": []
+    }
+  }
+}
