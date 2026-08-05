@@ -1,10 +1,5 @@
-HEARTBEAT_OK · STATUS_PAGE=OK
+🟡 WATCH
 
-## Summary
+🔵 P3: narrative-tracker — last success 2026-08-03 14:06 UTC (~50h ago, past 2× daily interval). Expected daily runs on Aug 4 and Aug 5 at 13:30 UTC are absent from cron-state. No consecutive_failures recorded; skill may be silently skipping dispatch. Investigate scheduler or re-enable if disabled.
 
-- **P0:** All clear. X webhook WATCHED_TRADERS rule live (`is_effect: 1`). No failed, stuck, or chronically-failing skills. Heartbeat self-check healthy (13.5h since last success, well under 36h threshold).
-- **P1:** `gh` CLI errored in sandbox — could not verify PRs/issues. No known open PRs.
-- **P2:** No MEMORY.md flags. ISS-004 (traders.md oversize at 171KB, medium/optimization) is a new open issue since last heartbeat — notification suppressed by dedup (filed earlier today at 03:04 UTC). Next auto-fix: trader-memory-compact Sunday Aug 10.
-- **P3:** narrative-tracker at ~43.5h since last success — within the 48h 2× threshold, no flag.
-- **`docs/status.md`** regenerated with ISS-004 in the open issues section; overall status 🟢 OK.
-- **Log entry** appended to `memory/logs/2026-08-05.md`.
+🔵 ISSUE: ISS-004 open (medium) — traders.md oversize at 171KB (limit 150KB), duplicate trader entries detected. trader-memory-compact scheduled Sunday Aug 9 20:00 UTC will compact. No immediate action needed unless monitors slow down.
