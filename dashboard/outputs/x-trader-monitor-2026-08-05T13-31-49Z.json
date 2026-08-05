@@ -1,0 +1,116 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet",
+        "sep1",
+        "analysis_section"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "$BTC $GOLD\n\nChoose wisely"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "analysis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis_heading",
+        "gold_stat",
+        "btc_stat",
+        "ratio_stat",
+        "analysis_text",
+        "sep2",
+        "view_link",
+        "sep3",
+        "class_badge",
+        "class_text"
+      ]
+    },
+    "analysis_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart Analysis",
+        "level": "h3"
+      }
+    },
+    "gold_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Gold (15m XAUUSD)",
+        "value": "4213",
+        "delta": "+63 from 4150",
+        "trend": "up"
+      }
+    },
+    "btc_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC Consolidation Range",
+        "value": "64.1K - 64.5K"
+      }
+    },
+    "ratio_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Gold/Bitcoin Ratio (Long-term)",
+        "value": "64.5",
+        "delta": "160→64.5 since 2022-23",
+        "trend": "down"
+      }
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Gold bouncing short-term (15m XAUUSD 4150→4213), BTC range consolidating (64.1K-64.5K). Long-term Gold/Bitcoin ratio reveals gold massively underperformed (160→64.5 since 2022-23) with recent recovery setup emerging. Suggests gold as opportune play vs BTC consolidation.",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2084994381699043776"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "class_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Informational",
+        "variant": "secondary"
+      }
+    },
+    "class_text": {
+      "type": "Text",
+      "props": {
+        "text": "Macro BTC vs GOLD analysis, not personal trade action. Kyle watch-list tickers.",
+        "variant": "caption"
+      }
+    }
+  }
+}
