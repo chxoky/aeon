@@ -1,0 +1,84 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "header-section",
+        "tweet-card",
+        "alert-missing-context",
+        "link-tweet"
+      ]
+    },
+    "header-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-calib",
+        "text-author-time",
+        "text-context"
+      ]
+    },
+    "badge-calib": {
+      "type": "Badge",
+      "props": {
+        "text": "🔍 Calibration",
+        "variant": "default"
+      }
+    },
+    "text-author-time": {
+      "type": "Text",
+      "props": {
+        "text": "@Wild_Randomness — Aug 05 21:49Z",
+        "variant": "caption"
+      }
+    },
+    "text-context": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to @OreumOreum on catalyst philosophy",
+        "variant": "muted"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "I don't think it needs a catalyst... It'll go when it wants to go... That's why it's useful to simply trade the chart"
+      }
+    },
+    "alert-missing-context": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Unable to classify",
+        "message": "What asset/setup is this about? Missing context from @OreumOreum's original question."
+      }
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/Wild_Randomness/status/2085121024019124341"
+      }
+    }
+  }
+}
