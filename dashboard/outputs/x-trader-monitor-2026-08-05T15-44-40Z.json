@@ -1,0 +1,290 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X-Trader Monitor: BTC Structure Analysis",
+        "description": "Analysis from @KillaXBT on Bitcoin dual scenarios and price levels"
+      },
+      "children": [
+        "tweet_card",
+        "sep_1",
+        "analysis_stack",
+        "sep_2",
+        "levels_stack",
+        "sep_3",
+        "chart_stack",
+        "sep_4",
+        "interpretation_stack",
+        "sep_5",
+        "link_post"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "BTC Structure Analysis — Dual Scenarios\n\nIf $BTC doesn't break 60K in the next month or so, you can kiss 50K goodbye.\n\nI did mention the MO pivot & that we could see upside at the start of August.\n\nSo you better believe we're forming a LH here. Otherwise, the longer we stay above 60K, the higher the chance we don't test lower."
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h_analysis",
+        "text_pivot",
+        "text_lh",
+        "text_duration"
+      ]
+    },
+    "h_analysis": {
+      "type": "Heading",
+      "props": {
+        "text": "Key Analysis Points",
+        "level": "h3"
+      }
+    },
+    "text_pivot": {
+      "type": "Text",
+      "props": {
+        "text": "MO pivot mentioned with potential upside at the start of August",
+        "variant": "body"
+      }
+    },
+    "text_lh": {
+      "type": "Text",
+      "props": {
+        "text": "Formation of a Lower High (LH) pattern is expected",
+        "variant": "body"
+      }
+    },
+    "text_duration": {
+      "type": "Text",
+      "props": {
+        "text": "The longer BTC stays above 60K, the higher the chance we don't test lower levels",
+        "variant": "body"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "levels_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h_levels",
+        "stat_60k",
+        "stat_50k",
+        "stat_67k",
+        "stat_70k"
+      ]
+    },
+    "h_levels": {
+      "type": "Heading",
+      "props": {
+        "text": "Critical Price Levels",
+        "level": "h3"
+      }
+    },
+    "stat_60k": {
+      "type": "Stat",
+      "props": {
+        "label": "Key Resistance Level",
+        "value": "$60,000"
+      }
+    },
+    "stat_50k": {
+      "type": "Stat",
+      "props": {
+        "label": "Target on Bearish Scenario",
+        "value": "$50,000"
+      }
+    },
+    "stat_67k": {
+      "type": "Stat",
+      "props": {
+        "label": "STH MVRV Bottom Thesis (sustained)",
+        "value": "$67,400+"
+      }
+    },
+    "stat_70k": {
+      "type": "Stat",
+      "props": {
+        "label": "Mid-70K Hold Above STH Cost Basis",
+        "value": "$70,000"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "chart_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h_chart",
+        "text_fractal",
+        "text_kalshi_detail",
+        "kalshi_progress"
+      ]
+    },
+    "h_chart": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart Context",
+        "level": "h3"
+      }
+    },
+    "text_fractal": {
+      "type": "Text",
+      "props": {
+        "text": "Fractal bear-cycle analysis using previous cycle patterns and LH pivot markers",
+        "variant": "body"
+      }
+    },
+    "text_kalshi_detail": {
+      "type": "Text",
+      "props": {
+        "text": "Kalshi prediction market validates risk scenario",
+        "variant": "body"
+      }
+    },
+    "kalshi_progress": {
+      "type": "Progress",
+      "props": {
+        "label": "Probability: BTC hits $50K before $100K",
+        "value": 50,
+        "max": 100
+      }
+    },
+    "sep_4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "interpretation_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h_interp",
+        "scenarios_grid",
+        "text_thesis"
+      ]
+    },
+    "h_interp": {
+      "type": "Heading",
+      "props": {
+        "text": "Interpretation: Dual Scenarios",
+        "level": "h3"
+      }
+    },
+    "scenarios_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "scenario_bullish",
+        "scenario_bearish"
+      ]
+    },
+    "scenario_bullish": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_bull",
+        "text_bull_outcome"
+      ]
+    },
+    "badge_bull": {
+      "type": "Badge",
+      "props": {
+        "text": "BULLISH",
+        "variant": "secondary"
+      }
+    },
+    "text_bull_outcome": {
+      "type": "Text",
+      "props": {
+        "text": "Bullish break above 60K → 50K won't test",
+        "variant": "body"
+      }
+    },
+    "scenario_bearish": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_bear",
+        "text_bear_outcome"
+      ]
+    },
+    "badge_bear": {
+      "type": "Badge",
+      "props": {
+        "text": "BEARISH",
+        "variant": "destructive"
+      }
+    },
+    "text_bear_outcome": {
+      "type": "Text",
+      "props": {
+        "text": "Bearish fail below 60K → 50K likely tested",
+        "variant": "body"
+      }
+    },
+    "text_thesis": {
+      "type": "Text",
+      "props": {
+        "text": "Aligns with prior Aug 04 STH MVRV thesis: bottom = sustained 67.4K+ with mid-70K hold above STH cost basis",
+        "variant": "caption"
+      }
+    },
+    "sep_5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post on X",
+        "href": "https://x.com/KillaXBT/status/2085027585231049140"
+      }
+    }
+  }
+}
