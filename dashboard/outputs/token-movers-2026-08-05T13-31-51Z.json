@@ -1,0 +1,392 @@
+{
+  "root": "card-token-movers",
+  "state": {},
+  "elements": {
+    "card-token-movers": {
+      "type": "Card",
+      "props": {
+        "title": "Token Movers",
+        "description": "2026-08-05"
+      },
+      "children": [
+        "text-summary",
+        "sep-1",
+        "section-winners",
+        "sep-2",
+        "section-losers",
+        "sep-3",
+        "section-trending",
+        "sep-4",
+        "section-notable"
+      ]
+    },
+    "text-summary": {
+      "type": "Text",
+      "props": {
+        "text": "Quiet, slightly green — 58/100 top coins positive, median 24h +0.3%; BTC reclaims $64K but breadth is thin and volume muted ahead of Friday NFP.",
+        "variant": "lead"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-winners": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-winners",
+        "table-winners"
+      ]
+    },
+    "heading-winners": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Winners (24h)",
+        "level": "h2"
+      }
+    },
+    "table-winners": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Volume",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "PUMP (Pump.fun)",
+            "$0.002532",
+            "+13.4%",
+            "+35.2%",
+            "+0.3%",
+            "$168M / #66",
+            "TRENDING+UP"
+          ],
+          [
+            "ZEC (Zcash)",
+            "$521.40",
+            "+7.3%",
+            "+13.8%",
+            "+1.2%",
+            "$253M / #14",
+            "TRENDING+UP, MAJOR"
+          ],
+          [
+            "UNI (Uniswap)",
+            "$4.00",
+            "+3.2%",
+            "−1.2%",
+            "+0.3%",
+            "$222M / #38",
+            "TRENDING+UP"
+          ],
+          [
+            "HYPE (Hyperliquid)",
+            "$56.97",
+            "+3.0%",
+            "+4.0%",
+            "+0.2%",
+            "$389M / #10",
+            "TRENDING+UP, MAJOR"
+          ],
+          [
+            "LIT (Lighter)",
+            "$2.10",
+            "+3.0%",
+            "−3.3%",
+            "+0.5%",
+            "$31M / #96",
+            ""
+          ],
+          [
+            "TAO (Bittensor)",
+            "$195.61",
+            "+2.7%",
+            "+1.2%",
+            "−0.1%",
+            "$112M / #41",
+            ""
+          ],
+          [
+            "ONDO (Ondo Finance)",
+            "$0.3810",
+            "+2.6%",
+            "−5.0%",
+            "−0.4%",
+            "$114M / #42",
+            "TRENDING+UP"
+          ],
+          [
+            "SKY",
+            "$0.05660",
+            "+2.0%",
+            "−2.6%",
+            "+0.3%",
+            "$9.2M / #56",
+            ""
+          ],
+          [
+            "MNT (Mantle)",
+            "$0.4020",
+            "+1.5%",
+            "−0.1%",
+            "0.0%",
+            "$20.5M / #55",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-losers": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-losers",
+        "table-losers"
+      ]
+    },
+    "heading-losers": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Losers (24h)",
+        "level": "h2"
+      }
+    },
+    "table-losers": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Volume",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "BEAT (Audiera)",
+            "$2.42",
+            "−9.0%",
+            "−36.3%",
+            "−1.3%",
+            "$28M / #80",
+            ""
+          ],
+          [
+            "VVV (Venice Token)",
+            "$11.28",
+            "−6.3%",
+            "−12.1%",
+            "+0.8%",
+            "$11.4M / #93",
+            ""
+          ],
+          [
+            "XMR (Monero)",
+            "$353.95",
+            "−2.4%",
+            "+1.6%",
+            "+0.4%",
+            "$86.2M / #17",
+            "MAJOR"
+          ],
+          [
+            "HBAR (Hedera)",
+            "$0.06960",
+            "−2.0%",
+            "+1.6%",
+            "+0.4%",
+            "$43.8M / #29",
+            ""
+          ],
+          [
+            "KAS (Kaspa)",
+            "$0.02610",
+            "−1.5%",
+            "−6.2%",
+            "+0.4%",
+            "$6.3M / #81",
+            ""
+          ],
+          [
+            "XRP",
+            "$1.061",
+            "−1.4%",
+            "−1.8%",
+            "+0.3%",
+            "$957M / #6",
+            "TRENDING+DOWN, MAJOR"
+          ]
+        ]
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-trending": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-trending",
+        "table-trending"
+      ]
+    },
+    "heading-trending": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending",
+        "level": "h2"
+      }
+    },
+    "table-trending": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Rank",
+          "Price",
+          "24h",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "CASHCAT (Cash Cat)",
+            "#273",
+            "$0.0907",
+            "+24.2%",
+            ""
+          ],
+          [
+            "PENGU (Pudgy Penguins)",
+            "#110",
+            "$0.006034",
+            "−1.1%",
+            ""
+          ],
+          [
+            "QUID (Squid)",
+            "#915",
+            "$0.1086",
+            "+10.4%",
+            ""
+          ],
+          [
+            "GRVT (GRVT Token)",
+            "#530",
+            "$0.3294",
+            "+24.5%",
+            ""
+          ],
+          [
+            "UNI (Uniswap)",
+            "#38",
+            "$3.99",
+            "+3.8%",
+            "TRENDING+UP"
+          ],
+          [
+            "PUMP (Pump.fun)",
+            "#66",
+            "$0.002532",
+            "+13.8%",
+            "TRENDING+UP"
+          ],
+          [
+            "HYPE (Hyperliquid)",
+            "#10",
+            "$56.85",
+            "+2.4%",
+            "TRENDING+UP, MAJOR"
+          ]
+        ]
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-notable": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-notable",
+        "notable-1",
+        "notable-2",
+        "notable-3",
+        "notable-4"
+      ]
+    },
+    "heading-notable": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h2"
+      }
+    },
+    "notable-1": {
+      "type": "Alert",
+      "props": {
+        "title": "PUMP: trending + top winner",
+        "message": "+13.4% 24h on top of +35.2% 7d run, sustained across both timeframes",
+        "type": "info"
+      }
+    },
+    "notable-2": {
+      "type": "Alert",
+      "props": {
+        "title": "HFT (Hashflow): trending #8 by search, rank #879, +95.1% 24h",
+        "message": "[PUMP-RISK], sub-$50M cap spike, extreme manipulation probability",
+        "type": "warning"
+      }
+    },
+    "notable-3": {
+      "type": "Alert",
+      "props": {
+        "title": "CYS (Cysic): trending #11 by search, rank #228, +53.5% 24h",
+        "message": "[PUMP-RISK], low-cap burst, low signal confidence",
+        "type": "warning"
+      }
+    },
+    "notable-4": {
+      "type": "Alert",
+      "props": {
+        "title": "XRP: trending + down 1.4%",
+        "message": "[TRENDING+DOWN]; search interest rising as price slips, watch for acceleration",
+        "type": "info"
+      }
+    }
+  }
+}

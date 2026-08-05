@@ -1,1 +1,37 @@
-*Token Movers — 2026-08-05*\n\n_Choppy tape, slim red lean — 57/100 top names down 24h, median of top-50 −0.1%; individual catalysts driving isolated moves rather than a broad directional sweep._\n\n*Top Winners (24h)*\n1. PUMP (Pump.fun) — /bin/sh.002463  +10.4% / 7d +32.0% / 1h −0.6%  •  55M / #66  [TRENDING+UP]\n2. SHFL (Shuffle) — /bin/sh.3070  +10.1% / 7d +8.7% / 1h +0.0%  •  M / #213\n3. BTW (Bitway) — /bin/sh.1288  +8.9% / 7d +21.2% / 1h −3.5%  •  6M / #126\n4. VELVET (Velvet) — /bin/sh.4675  +8.2% / 7d +14.1% / 1h −0.6%  •  M / #163\n5. ZEC (Zcash) — 19  +6.3% / 7d +11.8% / 1h +0.2%  •  26M / #14  [MAJOR]\n6. LIT (Lighter) — .14  +5.9% / 7d −8.9% / 1h +0.3%  •  2M / #93\n7. ZRO (LayerZero) — /bin/sh.7925  +5.9% / 7d −0.3% / 1h +0.9%  •  0M / #129\n8. FET (ASI Alliance) — /bin/sh.1524  +5.6% / 7d +13.4% / 1h +0.9%  •  4M / #117\n9. US (Talus) — /bin/sh.0535  +5.5% / 7d +22.5% / 1h +0.2%  •  M / #189\n10. CVX (Convex Finance) — .40  +5.5% / 7d +3.7% / 1h −0.6%  •  M / #215\n\n*Top Losers (24h)*\n1. UB (Unibase) — /bin/sh.1188  −39.1% / 7d −15.0% / 1h −7.9%  •  3M / #125\n2. BEAT (Audiera) — .53  −18.4% / 7d −31.1% / 1h +0.5%  •  9M / #79\n3. META (MetaDAO) — .52  −13.3% / 7d −13.6% / 1h +0.7%  •  3M / #220\n4. LDO (Lido DAO) — /bin/sh.2901  −12.9% / 7d −20.6% / 1h +0.5%  •  2M / #143  [CAPITULATION]\n5. BinanceLife — /bin/sh.5033  −8.4% / 7d −21.0% / 1h −4.0%  •  M / #98\n6. ETHFI (Ether.fi) — /bin/sh.3663  −6.9% / 7d −8.5% / 1h +0.4%  •  9M / #113\n7. VVV (Venice Token) — 1.62  −4.6% / 7d −8.9% / 1h −0.7%  •  0M / #92\n8. TRAC (OriginTrail) — /bin/sh.2738  −4.2% / 7d −1.8% / 1h −0.1%  •  M / #224\n9. CC (Canton) — /bin/sh.1096  −4.0% / 7d −8.0% / 1h +0.7%  •  7M / #22\n10. XCN (Onyxcoin) — /bin/sh.003094  −3.3% / 7d −7.0% / 1h +0.8%  •  M / #225\n\n*Trending*\n1. GRVT Token (GRVT) — #555, /bin/sh.3199, 24h +21.9%\n2. Pudgy Penguins (PENGU) — #107, /bin/sh.006060, 24h −1.4%\n3. Squid (QUID) — #918, /bin/sh.1080, 24h 0.0%\n4. OVERTAKE (TAKE) — #936, /bin/sh.0443, 24h +26.8%\n5. Solana (SOL) — #7, 3.91, 24h +0.7%\n6. Pi Network (PI) — #67, /bin/sh.0854, 24h +3.1%\n7. Pump.fun (PUMP) — #64, /bin/sh.002463, 24h +10.1%  [TRENDING+UP]\n\n*Notable*\n• PUMP: trending + up 10.4% on 55M vol — 7d +32% confirms sustained momentum, not a flash pump\n• UB (Unibase): rank #125 down −39.1% in 24h, still bleeding −7.9% on 1h — event-driven drop; check for exploit or unlock\n• LDO (Lido): −12.9% on 2M vol (34% of mcap) — [CAPITULATION] signal; staking yield narrative under pressure\n• BEAT (Audiera): −18.4% / 7d −31.1% — sustained downtrend accelerating, no bounce\n
+*Token Movers — 2026-08-05*
+
+_Quiet, slightly green — 58/100 top coins positive, median 24h +0.3%; BTC reclaims $64K but breadth is thin and volume muted ahead of Friday NFP._
+
+*Top Winners (24h)*
+1. PUMP (Pump.fun) — $0.002532  +13.4% / 7d +35.2% / 1h +0.3%  •  $168M / #66  [TRENDING+UP]
+2. ZEC (Zcash) — $521.40  +7.3% / 7d +13.8% / 1h +1.2%  •  $253M / #14  [TRENDING+UP] [MAJOR]
+3. UNI (Uniswap) — $4.00  +3.2% / 7d −1.2% / 1h +0.3%  •  $222M / #38  [TRENDING+UP]
+4. HYPE (Hyperliquid) — $56.97  +3.0% / 7d +4.0% / 1h +0.2%  •  $389M / #10  [TRENDING+UP] [MAJOR]
+5. LIT (Lighter) — $2.10  +3.0% / 7d −3.3% / 1h +0.5%  •  $31M / #96
+6. TAO (Bittensor) — $195.61  +2.7% / 7d +1.2% / 1h −0.1%  •  $112M / #41
+7. ONDO (Ondo Finance) — $0.3810  +2.6% / 7d −5.0% / 1h −0.4%  •  $114M / #42  [TRENDING+UP]
+8. SKY — $0.05660  +2.0% / 7d −2.6% / 1h +0.3%  •  $9.2M / #56
+9. MNT (Mantle) — $0.4020  +1.5% / 7d −0.1% / 1h  0.0%  •  $20.5M / #55
+
+*Top Losers (24h)*
+1. BEAT (Audiera) — $2.42  −9.0% / 7d −36.3% / 1h −1.3%  •  $28M / #80
+2. VVV (Venice Token) — $11.28  −6.3% / 7d −12.1% / 1h +0.8%  •  $11.4M / #93
+3. XMR (Monero) — $353.95  −2.4% / 7d +1.6% / 1h +0.4%  •  $86.2M / #17  [MAJOR]
+4. HBAR (Hedera) — $0.06960  −2.0% / 7d +1.6% / 1h +0.4%  •  $43.8M / #29
+5. KAS (Kaspa) — $0.02610  −1.5% / 7d −6.2% / 1h +0.4%  •  $6.3M / #81
+6. XRP — $1.061  −1.4% / 7d −1.8% / 1h +0.3%  •  $957M / #6  [TRENDING+DOWN] [MAJOR]
+
+*Trending*
+1. CASHCAT (Cash Cat) — #273, $0.0907, +24.2%
+2. PENGU (Pudgy Penguins) — #110, $0.006034, −1.1%
+3. QUID (Squid) — #915, $0.1086, +10.4%
+4. GRVT (GRVT Token) — #530, $0.3294, +24.5%
+5. UNI (Uniswap) — #38, $3.99, +3.8%  [TRENDING+UP]
+6. PUMP (Pump.fun) — #66, $0.002532, +13.8%  [TRENDING+UP]
+7. HYPE (Hyperliquid) — #10, $56.85, +2.4%  [TRENDING+UP] [MAJOR]
+
+*Notable*
+• PUMP: trending + top winner — +13.4% 24h on top of +35.2% 7d run, sustained across both timeframes
+• HFT (Hashflow): trending #8 by search, rank #879, +95.1% 24h — [PUMP-RISK], sub-$50M cap spike, extreme manipulation probability
+• CYS (Cysic): trending #11 by search, rank #228, +53.5% 24h — [PUMP-RISK], low-cap burst, low signal confidence
+• XRP: trending + down 1.4% — [TRENDING+DOWN]; search interest rising as price slips, watch for acceleration
