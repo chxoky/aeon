@@ -1,0 +1,140 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @HeartCanHodl",
+        "description": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_post",
+        "sep_1",
+        "text_ticker",
+        "text_context",
+        "sep_2",
+        "stack_analysis",
+        "sep_3",
+        "link_view"
+      ]
+    },
+    "tweet_post": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "You cooked with this one, big dawg!"
+      },
+      "children": []
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text_ticker": {
+      "type": "Text",
+      "props": {
+        "text": "Ticker: $HYPE",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "HCH entered $HYPE long at $51.55 on Aug 01 targeting 55-57 zone (status: awaiting approval). Images unavailable for reading (sandbox limit).",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack_analysis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_unable",
+        "text_opt1",
+        "text_opt2",
+        "text_opt3",
+        "text_opt4",
+        "text_question"
+      ]
+    },
+    "text_unable": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — is this:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text_opt1": {
+      "type": "Text",
+      "props": {
+        "text": "• HCH celebrating their own successful entry/move?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_opt2": {
+      "type": "Text",
+      "props": {
+        "text": "• Reply to someone else's trade?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_opt3": {
+      "type": "Text",
+      "props": {
+        "text": "• Taking profit signal?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_opt4": {
+      "type": "Text",
+      "props": {
+        "text": "• Conviction sentiment only?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_question": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/HeartCanHodl/status/2084925981802778946"
+      },
+      "children": []
+    }
+  }
+}
