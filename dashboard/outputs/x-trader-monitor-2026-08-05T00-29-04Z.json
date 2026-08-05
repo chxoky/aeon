@@ -1,0 +1,31 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "Silver Technical Analysis"
+      },
+      "children": [
+        "tweet-card",
+        "link-tweet"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "🐦 [X] @Wild_Randomness\n\n$SLV / $XAG\n\nSilver consolidating at major support zone (59.49–58.81–55.59) after sharp downtrend from 100+. RSI showing extreme compression (oversold conditions). Daily + weekly charts confirm tight range + technical setup.\n\nRhetorical questions: \"Surely we can get some motion through August on silver? Little iHNS into weekly trend? Surely all this consolidation wasn't for nothing.\"\n\nChart-driven technical observation on potential breakout setup into August. Kyle watch-list ticker."
+      }
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2084797715469545703"
+      }
+    }
+  }
+}
