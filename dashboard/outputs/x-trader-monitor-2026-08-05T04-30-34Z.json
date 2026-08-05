@@ -1,0 +1,161 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Gold/Silver/Yields Technical Setup: Consolidation with Capitulation Signals"
+      },
+      "children": [
+        "tweet-card",
+        "separator-1",
+        "heading-setup",
+        "assets-stack",
+        "separator-2",
+        "heading-thesis",
+        "thesis-text",
+        "link-tweet",
+        "badge-watchlist"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Surely this is building up energy for a move. Helps that rates look toppy"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading-setup": {
+      "type": "Heading",
+      "props": {
+        "text": "Setup Analysis",
+        "level": "h3"
+      }
+    },
+    "assets-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "gold-item",
+        "silver-item",
+        "yields-item"
+      ]
+    },
+    "gold-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "gold-stat",
+        "gold-text"
+      ]
+    },
+    "gold-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Gold (XAUUSD)",
+        "value": "4,128"
+      }
+    },
+    "gold-text": {
+      "type": "Text",
+      "props": {
+        "text": "Multi-month low with extreme oversold RSI, consolidating at support after 5,400→4,128 downtrend",
+        "variant": "body"
+      }
+    },
+    "silver-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "silver-stat",
+        "silver-text"
+      ]
+    },
+    "silver-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Silver (XAGUSD)",
+        "value": "59.49"
+      }
+    },
+    "silver-text": {
+      "type": "Text",
+      "props": {
+        "text": "Capitulation zone after 90-point crash, volume spike into lows",
+        "variant": "body"
+      }
+    },
+    "yields-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yields-stat",
+        "yields-text"
+      ]
+    },
+    "yields-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "US 10Y Yields",
+        "value": "4.603%"
+      }
+    },
+    "yields-text": {
+      "type": "Text",
+      "props": {
+        "text": "Consolidating at toppy resistance (4.6-4.7%), overbought RSI showing reversal signs",
+        "variant": "body"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading-thesis": {
+      "type": "Heading",
+      "props": {
+        "text": "Thesis",
+        "level": "h3"
+      }
+    },
+    "thesis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Inverse relationship setup. If yields peak/reverse lower, precious metals typically rally as real yields decline. Charts show classic capitulation structure with RSI extremes and volume exhaustion — often precedes reversals.",
+        "variant": "body"
+      }
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2084857737125716407"
+      }
+    },
+    "badge-watchlist": {
+      "type": "Badge",
+      "props": {
+        "text": "Watch-list ticker 🎯",
+        "variant": "outline"
+      }
+    }
+  }
+}
