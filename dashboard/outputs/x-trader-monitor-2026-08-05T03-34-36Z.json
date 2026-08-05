@@ -1,0 +1,40 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Success"
+      },
+      "children": [
+        "content-stack"
+      ]
+    },
+    "content-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "main-text",
+        "classification"
+      ]
+    },
+    "main-text": {
+      "type": "Text",
+      "props": {
+        "text": "@Stoiiic emotional BTC chop reaction logged"
+      }
+    },
+    "classification": {
+      "type": "Badge",
+      "props": {
+        "text": "Informational - No new signal",
+        "variant": "outline"
+      }
+    }
+  }
+}
