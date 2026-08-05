@@ -1,0 +1,91 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration review"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-calibration",
+        "tweet-card",
+        "separator-1",
+        "status-stack"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration — @Wild_Randomness",
+        "level": "h2"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Been a slow burn but definitely textbook Bootsie look to it\n\n(reply to @killerpainda)"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "status-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-status",
+        "badge-unable",
+        "text-reason",
+        "link-view"
+      ]
+    },
+    "heading-status": {
+      "type": "Heading",
+      "props": {
+        "text": "Classification Status",
+        "level": "h3"
+      }
+    },
+    "badge-unable": {
+      "type": "Badge",
+      "props": {
+        "text": "Unable to classify",
+        "variant": "outline"
+      }
+    },
+    "text-reason": {
+      "type": "Text",
+      "props": {
+        "text": "No visible context from @killerpainda's original message. Phrase 'textbook Bootsie look' unclear.",
+        "variant": "body"
+      }
+    },
+    "link-view": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2084991487742542052"
+      }
+    }
+  }
+}
