@@ -1,0 +1,258 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "header_stack",
+        "sep1",
+        "message_section",
+        "sep2",
+        "tickers_section",
+        "sep3",
+        "context_section",
+        "sep4",
+        "questions_section"
+      ]
+    },
+    "header_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_calibration"
+      ]
+    },
+    "badge_calibration": {
+      "type": "Badge",
+      "props": {
+        "text": "Calibration — [DC: HCH — Chat]",
+        "variant": "secondary"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "message_header",
+        "message_content",
+        "message_link"
+      ]
+    },
+    "message_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "author_text",
+        "timestamp_text"
+      ]
+    },
+    "author_text": {
+      "type": "Text",
+      "props": {
+        "text": "Message from heartcanhodl",
+        "variant": "lead"
+      }
+    },
+    "timestamp_text": {
+      "type": "Text",
+      "props": {
+        "text": "2026-08-05 20:09:29 UTC",
+        "variant": "caption"
+      }
+    },
+    "message_content": {
+      "type": "Text",
+      "props": {
+        "text": "Fc SNDL, mu, nbis, dram 1m",
+        "variant": "body"
+      }
+    },
+    "message_link": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_label",
+        "link_element"
+      ]
+    },
+    "link_label": {
+      "type": "Text",
+      "props": {
+        "text": "Discord Message Link:",
+        "variant": "caption"
+      }
+    },
+    "link_element": {
+      "type": "Link",
+      "props": {
+        "label": "https://discord.com/channels/1023571940922888272/1279738718680256553/1534645547431100599",
+        "href": "https://discord.com/channels/1023571940922888272/1279738718680256553/1534645547431100599"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tickers_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tickers_heading",
+        "tickers_badges"
+      ]
+    },
+    "tickers_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Tickers in Active Watch List",
+        "level": "h3"
+      }
+    },
+    "tickers_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_sndl",
+        "badge_mu",
+        "badge_nbis",
+        "badge_dram"
+      ]
+    },
+    "badge_sndl": {
+      "type": "Badge",
+      "props": {
+        "text": "SNDL",
+        "variant": "outline"
+      }
+    },
+    "badge_mu": {
+      "type": "Badge",
+      "props": {
+        "text": "MU",
+        "variant": "outline"
+      }
+    },
+    "badge_nbis": {
+      "type": "Badge",
+      "props": {
+        "text": "NBIS",
+        "variant": "outline"
+      }
+    },
+    "badge_dram": {
+      "type": "Badge",
+      "props": {
+        "text": "DRAM",
+        "variant": "outline"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_heading",
+        "context_text"
+      ]
+    },
+    "context_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "Supporting channel message referencing primary-channel Trades discussion. Cryptic abbreviation \"Fc\" and 1m timeframe indicator unclear without context from referenced message. Tickers (SNDL, MU, NBIS, DRAM) are all in active watch list. Unable to classify.",
+        "variant": "body"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "questions_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "questions_heading",
+        "question_1",
+        "question_2",
+        "question_3"
+      ]
+    },
+    "questions_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Interpretation Questions",
+        "level": "h3"
+      }
+    },
+    "question_1": {
+      "type": "Text",
+      "props": {
+        "text": "Is this a technical observation?",
+        "variant": "body"
+      }
+    },
+    "question_2": {
+      "type": "Text",
+      "props": {
+        "text": "Is this a watchlist reference?",
+        "variant": "body"
+      }
+    },
+    "question_3": {
+      "type": "Text",
+      "props": {
+        "text": "Is this a trade signal?",
+        "variant": "body"
+      }
+    }
+  }
+}
