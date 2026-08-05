@@ -1,17 +1,9 @@
-🐦 *[X] @KillaXBT*
+🔍 *Calibration — @Wild_Randomness*
 
-**BTC Structure Analysis — Dual Scenarios**
+Event: Post-ALAB earning volatility; BTC consolidation 63-66K range
 
-If $BTC doesn't break 60K in the next month or so, you can kiss 50K goodbye.
+Wild_Randomness: "Is this the 'jerk up'?…\n\nInval is 65.8"
 
-I did mention the MO pivot & that we could see upside at the start of August.
+Unable to classify — 4 chart images reference cryptic. What's your read?
 
-So you better believe we're forming a LH here. Otherwise, the longer we stay above 60K, the higher the chance we don't test lower.
-
-**Chart context:**
-- Fractal bear-cycle analysis (previous cycle patterns + LH pivot markers)
-- Kalshi prediction market: 50% odds BTC hits $50K before $100K (validates risk scenario)
-
-**Interpretation:** Bullish break above 60K → 50K won't test. Bearish fail → 50K likely. Aligns with prior Aug 04 STH MVRV thesis (bottom = sustained 67.4K+ + mid-70K hold above STH cost basis).
-
-[View post](https://x.com/KillaXBT/status/2085027585231049140)
+[View post](https://x.com/Wild_Randomness/status/2085032667750498528)
