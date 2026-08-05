@@ -1,0 +1,121 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "heartbeat"
+      },
+      "children": [
+        "alert_watch",
+        "section_stalled",
+        "separator",
+        "section_issue"
+      ]
+    },
+    "alert_watch": {
+      "type": "Alert",
+      "props": {
+        "title": "🟡 WATCH",
+        "type": "warning"
+      }
+    },
+    "section_stalled": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_p3",
+        "heading_stalled",
+        "stat_lastrun",
+        "text_missed_windows",
+        "text_action"
+      ]
+    },
+    "badge_p3": {
+      "type": "Badge",
+      "props": {
+        "text": "P3",
+        "variant": "secondary"
+      }
+    },
+    "heading_stalled": {
+      "type": "Heading",
+      "props": {
+        "text": "STALLED SKILL: narrative-tracker",
+        "level": "h3"
+      }
+    },
+    "stat_lastrun": {
+      "type": "Stat",
+      "props": {
+        "label": "Last ran",
+        "value": "2026-08-03 14:06 UTC",
+        "delta": "~54h ago",
+        "trend": "down"
+      }
+    },
+    "text_missed_windows": {
+      "type": "Text",
+      "props": {
+        "text": "Missed Aug 4 and Aug 5 dispatch windows (daily at 13:30 UTC)"
+      }
+    },
+    "text_action": {
+      "type": "Text",
+      "props": {
+        "text": "Scheduler may not be firing it — check aeon.yml or dispatch manually",
+        "variant": "lead"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_issue": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_issue",
+        "badge_issueid",
+        "text_traders_size",
+        "text_fix_action"
+      ]
+    },
+    "heading_issue": {
+      "type": "Heading",
+      "props": {
+        "text": "📋 Open Issue",
+        "level": "h3"
+      }
+    },
+    "badge_issueid": {
+      "type": "Badge",
+      "props": {
+        "text": "ISS-004 (medium)",
+        "variant": "outline"
+      }
+    },
+    "text_traders_size": {
+      "type": "Text",
+      "props": {
+        "text": "traders.md oversize: 171KB"
+      }
+    },
+    "text_fix_action": {
+      "type": "Text",
+      "props": {
+        "text": "Run trader-memory-compact to fix",
+        "variant": "lead"
+      }
+    }
+  }
+}

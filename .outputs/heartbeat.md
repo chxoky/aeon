@@ -1,5 +1,5 @@
 🟡 WATCH
 
-🔵 P3: narrative-tracker — last success 2026-08-03 14:06 UTC (~50h ago, past 2× daily interval). Expected daily runs on Aug 4 and Aug 5 at 13:30 UTC are absent from cron-state. No consecutive_failures recorded; skill may be silently skipping dispatch. Investigate scheduler or re-enable if disabled.
+🔵 P3 — STALLED SKILL: narrative-tracker last ran 2026-08-03 14:06 UTC (~54h ago). Missed Aug 4 and Aug 5 dispatch windows (daily at 13:30 UTC). Scheduler may not be firing it — check aeon.yml or dispatch manually.
 
-🔵 ISSUE: ISS-004 open (medium) — traders.md oversize at 171KB (limit 150KB), duplicate trader entries detected. trader-memory-compact scheduled Sunday Aug 9 20:00 UTC will compact. No immediate action needed unless monitors slow down.
+📋 Open: ISS-004 (medium) — traders.md oversize (171KB). Run trader-memory-compact to fix.
