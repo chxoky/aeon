@@ -1,0 +1,114 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @HeartCanHodl",
+        "description": "x-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-context",
+        "sep1",
+        "tweet-heartcanhodl",
+        "sep2",
+        "stack-prior-context",
+        "sep3",
+        "text-unclear",
+        "link-post"
+      ]
+    },
+    "text-context": {
+      "type": "Text",
+      "props": {
+        "text": "Context: Reply to @BullTheoryio post",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "tweet-heartcanhodl": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "@BullTheoryio ."
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack-prior-context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-prior-header",
+        "text-philosophy"
+      ]
+    },
+    "text-prior-header": {
+      "type": "Text",
+      "props": {
+        "text": "Prior context (Aug 05 15:29Z): Market-cycle philosophy",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "text-philosophy": {
+      "type": "Text",
+      "props": {
+        "text": "\"It can be super hot for a bit then it can be calm for a bit\"",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text-unclear": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "link-post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/HeartCanHodl/status/2085039853620924787"
+      },
+      "children": []
+    }
+  }
+}
