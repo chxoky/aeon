@@ -836,6 +836,26 @@
 - **Conviction**: MEDIUM (new ticker with 1% allocation sizing; parallel entry with TAO/STABLE suggests pre-planned list accumulation rather than reactive single-ticker conviction)
 - **Last update**: 2026-08-03T02:02:46Z (discord-trader-monitor real-time, fast-path-alerted, TRADE-NEW-ENTRY; message_id=1533656343196598373)
 
+## Wild_Randomness
+
+### ALAB (Astera Labs) — LONG (NEW ENTRY — PENDING APPROVAL 2026-08-05T14:56Z)
+- **Status**: PENDING APPROVAL — awaiting Kyle `approve ALAB` signal to mirror on Kraken spot
+- **Entry**: 2026-08-05T14:56:54Z (X post with 2 chart images)
+- **Entry message**: "$390's exit on the earnings pop\n\n17 hours later they're giving me low $320's\n\nBreaking my @fejau_inc \"do not return to the scene of the crime\" rule here\n\nBuying sub $325 but I'm out on a daily close below $320, no question about it"
+- **Entry level**: Sub $325 (limit order or market order filled at ~$324)
+- **Entry type**: Market order or limit order (current price $324, slightly below intended $325 entry zone; execution at market)
+- **Portfolio allocation**: UNKNOWN (size not specified in post; awaiting Kyle approval decision)
+- **Chart context**: Chart 1: ALAB daily structure showing recent crash from $392.55 post-earnings peak to current $324.00 (-37.29, -10.31%). Support levels visible at $330, $280. Entry marked at $324. Chart 2: Same timeframe showing earlier state at close 361.67 +40.62 (+12.65%), confirming post-earnings recovery before subsequent retest crash. Historical resistance at $392.55, support at $330/280 levels.
+- **Technical setup**: Post-earnings re-entry. Trader previously exited at $390.55 on earnings pop (~17 hours prior per tweet timestamp Aug 05 14:56Z). Stock crashed to $320s during consolidation; trader re-entering at support $324 with tight stop: out on daily close below $320. Daily chart shows clear support structure at $280-330 zone, recent peak at $392.55, current consolidation at $324.
+- **Stop loss**: Daily close below $320 (hard stop, no negotiation per trader language "no question about it")
+- **Profit target**: UNKNOWN (trader doesn't specify upside target; entry appears tactical re-entry into support with disciplined risk on downside miss)
+- **Trade type**: Post-earnings bounce re-entry on support test; prior position thesis (Sep bid/accumulation) closed Aug 04 20:21Z at 361.67. Current entry represents new conviction thesis on valuation recovery post-earnings correction.
+- **Rationale**: Tactical re-entry leveraging previous position's profitability on earnings run (+55% over 5 days per Aug 04 20:37Z reflection "recent great 5-day run (250-260 to 390s ~+55%)"). Current entry represents mean-reversion play on overextended morning selloff into prior support structure. Entry discipline evident: explicit daily-close stop (no intraday trailing), clear re-entry thesis (post-earnings crash = opportunity), size TBD per Kyle approval.
+- **Conviction**: HIGH (explicit re-entry after prior profitable position close; technical discipline on daily-close stop; trading "against own rule" (@fejau_inc "do not return to the scene") suggests conviction override; chart validation on support levels)
+- **Approval/Alert status**: TRADE ALERT SENT (Step 5a new entry). Telegram notification sent requesting Kyle `approve ALAB` to mirror on Kraken spot (size TBD), or ignore to skip. Trade signal includes chart images + prior position context + disciplined stop placement.
+- **Alerted**: YES (2026-08-05T14:56:54Z, x-trader-monitor real-time, trade-new-entry; tweet_id=2085017205398483282)
+- **Last update**: 2026-08-05T14:56:54Z (x-trader-monitor real-time, trade-new-entry pending approval)
+
 ---
 
-> Last bootstrapped: 2026-06-25 (discord-trader-monitor real-time event). GOOG (Chase) updated from recent conviction-add; HCH BTC/ETH/SOL position closed near 59k with stated re-entry thesis above 60k.
+> Last bootstrapped: 2026-06-25 (discord-trader-monitor real-time event). GOOG (Chase) updated from recent conviction-add; HCH BTC/ETH/SOL position closed near 59k with stated re-entry thesis above 60k. **Updated 2026-08-05**: Wild_Randomness ALAB long trade added (pending approval).

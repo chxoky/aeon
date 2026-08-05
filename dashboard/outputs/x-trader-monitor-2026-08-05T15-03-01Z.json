@@ -1,0 +1,108 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Trade Signal: $ALAB (LONG)"
+      },
+      "children": [
+        "content_stack"
+      ]
+    },
+    "content_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "header_stack",
+        "price_metrics",
+        "separator1",
+        "action_alert"
+      ]
+    },
+    "header_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "trader_text",
+        "signal_badge"
+      ]
+    },
+    "trader_text": {
+      "type": "Text",
+      "props": {
+        "text": "Trade Signal from @Wild_Randomness on $ALAB",
+        "variant": "lead"
+      }
+    },
+    "signal_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "LONG",
+        "variant": "secondary"
+      }
+    },
+    "price_metrics": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat_current",
+        "stat_entry",
+        "stat_stop",
+        "stat_previous"
+      ]
+    },
+    "stat_current": {
+      "type": "Stat",
+      "props": {
+        "label": "Current",
+        "value": "$324"
+      }
+    },
+    "stat_entry": {
+      "type": "Stat",
+      "props": {
+        "label": "Entry",
+        "value": "sub $325"
+      }
+    },
+    "stat_stop": {
+      "type": "Stat",
+      "props": {
+        "label": "Stop Loss",
+        "value": "daily close below $320"
+      }
+    },
+    "stat_previous": {
+      "type": "Stat",
+      "props": {
+        "label": "Previous Exit",
+        "value": "$390 post-earnings"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "action_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Action Required",
+        "message": "Reply 'approve ALAB' to mirror on Kraken",
+        "type": "info"
+      }
+    }
+  }
+}
