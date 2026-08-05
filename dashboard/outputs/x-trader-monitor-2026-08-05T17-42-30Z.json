@@ -1,0 +1,198 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "ALAB Trading Monitor",
+        "description": "Critical stop loss level alert from @Wild_Randomness"
+      },
+      "children": [
+        "tweet",
+        "separator1",
+        "priceSection",
+        "separator2",
+        "entrySection",
+        "separator3",
+        "scenariosSection",
+        "separator4",
+        "tweetLink"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "ALAB chart at critical SL level. Entry 14:56Z (sub $325, SL $320). Current price: $320.09\n\nChart shows two scenarios:\n1. Gap fill + daily trend test = support holds at 320, reverses up\n2. Alternative: Right shoulder = breaks below SL, head-and-shoulders pattern confirms\n\nPrice is testing the exact SL level right now. Chart is 15m timeframe."
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "priceSection": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "currentPrice",
+        "slLevel"
+      ]
+    },
+    "currentPrice": {
+      "type": "Stat",
+      "props": {
+        "label": "Current Price",
+        "value": "$320.09"
+      }
+    },
+    "slLevel": {
+      "type": "Stat",
+      "props": {
+        "label": "Stop Loss Level",
+        "value": "$320.00"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "entrySection": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "entryHeading",
+        "entryTime",
+        "entryPrice",
+        "timeframe"
+      ]
+    },
+    "entryHeading": {
+      "type": "Heading",
+      "props": {
+        "text": "Entry Details",
+        "level": "h3"
+      }
+    },
+    "entryTime": {
+      "type": "Text",
+      "props": {
+        "text": "Entry Time: 14:56Z",
+        "variant": "body"
+      }
+    },
+    "entryPrice": {
+      "type": "Text",
+      "props": {
+        "text": "Entry Price: Sub $325",
+        "variant": "body"
+      }
+    },
+    "timeframe": {
+      "type": "Badge",
+      "props": {
+        "text": "15m Timeframe",
+        "variant": "secondary"
+      }
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "scenariosSection": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "scenariosHeading",
+        "scenario1",
+        "scenario2"
+      ]
+    },
+    "scenariosHeading": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart Scenarios",
+        "level": "h3"
+      }
+    },
+    "scenario1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "s1Label",
+        "s1Desc"
+      ]
+    },
+    "s1Label": {
+      "type": "Heading",
+      "props": {
+        "text": "Scenario 1: Gap Fill + Daily Trend Test",
+        "level": "h4"
+      }
+    },
+    "s1Desc": {
+      "type": "Text",
+      "props": {
+        "text": "Support holds at $320, reverses up",
+        "variant": "body"
+      }
+    },
+    "scenario2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "s2Label",
+        "s2Desc"
+      ]
+    },
+    "s2Label": {
+      "type": "Heading",
+      "props": {
+        "text": "Scenario 2: Right Shoulder",
+        "level": "h4"
+      }
+    },
+    "s2Desc": {
+      "type": "Text",
+      "props": {
+        "text": "Breaks below SL ($320), head-and-shoulders pattern confirms",
+        "variant": "body"
+      }
+    },
+    "separator4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweetLink": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2085057244891394277"
+      }
+    }
+  }
+}
