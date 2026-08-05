@@ -1,0 +1,224 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @Wild_Randomness"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stack_event",
+        "sep1",
+        "stack_post",
+        "sep2",
+        "stack_context",
+        "sep3",
+        "stack_analysis",
+        "sep4",
+        "stack_reference"
+      ]
+    },
+    "stack_event": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_event",
+        "text_event",
+        "stat_ethdvc"
+      ]
+    },
+    "heading_event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "ETH Volatility Index chart (ETHDVC 1W: 48.16 near extreme lows)",
+        "variant": "body"
+      }
+    },
+    "stat_ethdvc": {
+      "type": "Stat",
+      "props": {
+        "label": "ETHDVC 1W",
+        "value": "48.16",
+        "delta": "near extreme lows"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_post": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_post",
+        "text_post"
+      ]
+    },
+    "heading_post": {
+      "type": "Heading",
+      "props": {
+        "text": "Post",
+        "level": "h3"
+      }
+    },
+    "text_post": {
+      "type": "Text",
+      "props": {
+        "text": "@0xbigmikey Please [chart link]",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_context",
+        "text_vol_collapse",
+        "text_thesis_statement",
+        "badge_thesis",
+        "text_timestamp"
+      ]
+    },
+    "heading_context": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart Context",
+        "level": "h3"
+      }
+    },
+    "text_vol_collapse": {
+      "type": "Text",
+      "props": {
+        "text": "Vol collapsed from 100+ → 48.16",
+        "variant": "body"
+      }
+    },
+    "text_thesis_statement": {
+      "type": "Text",
+      "props": {
+        "text": "Fits WR's thesis:",
+        "variant": "body"
+      }
+    },
+    "badge_thesis": {
+      "type": "Badge",
+      "props": {
+        "text": "15-day volatility cycle completion",
+        "variant": "default"
+      }
+    },
+    "text_timestamp": {
+      "type": "Text",
+      "props": {
+        "text": "Posted Aug 05 04:49Z",
+        "variant": "caption"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_analysis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_analysis",
+        "alert_classification",
+        "text_possibilities"
+      ]
+    },
+    "heading_analysis": {
+      "type": "Heading",
+      "props": {
+        "text": "Intent Classification",
+        "level": "h3"
+      }
+    },
+    "alert_classification": {
+      "type": "Alert",
+      "props": {
+        "message": "Cannot classify intent without @0xbigmikey's original message",
+        "type": "warning"
+      }
+    },
+    "text_possibilities": {
+      "type": "Text",
+      "props": {
+        "text": "Possible: confirming vol-bottom thesis, questioning structure, or sarcastic take on extremes",
+        "variant": "muted"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_reference": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_reference",
+        "storylink_tweet"
+      ]
+    },
+    "heading_reference": {
+      "type": "Heading",
+      "props": {
+        "text": "Reference",
+        "level": "h3"
+      }
+    },
+    "storylink_tweet": {
+      "type": "StoryLink",
+      "props": {
+        "title": "@Wild_Randomness Tweet - ETHDVC Analysis",
+        "href": "https://x.com/Wild_Randomness/status/2084876189706092800",
+        "source": "X (Twitter)"
+      }
+    }
+  }
+}
