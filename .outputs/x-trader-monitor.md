@@ -27,3 +27,14 @@ Divergence between BTC (declining vol, consolidating price) and GOLD (rising vol
 - ✓ Alert prepared for Kyle via notification channels (BTC/GOLD watch-list tickers)
 
 **Status:** Processing complete. Event classified as informational macro observation on Kyle's watch-list tickers ($BTC, $GOLD).
+🐦 *[X] @Wild_Randomness*
+
+Ie 
+
+Gold up, gold vol up (good)
+
+BTC up, btc vol down (lame)
+
+[View tweet](https://x.com/Wild_Randomness/status/2085083131531665429)
+
+↳ Volatility divergence observation: Gold's expanding volatility seen as bullish conviction signal. BTC's declining volatility despite price strength = lack of aggressive buyer interest. Sentiment aligns with group caution on BTC (mixed lean, near-term chop expected).
