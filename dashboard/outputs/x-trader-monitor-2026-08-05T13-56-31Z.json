@@ -1,0 +1,154 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor — Conviction Hold"
+      },
+      "children": [
+        "tweet_main",
+        "stat_unrealized",
+        "separator_1",
+        "stack_convergence",
+        "separator_2",
+        "alert_critical",
+        "link_post"
+      ]
+    },
+    "tweet_main": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "$AAPL short position: entry 339.78 → mark 307.80 = +9.41% unrealized. Reply to @MusicConnect10: \"Not yet :)\" — holding conviction despite substantial gain. Awaiting larger move before closing."
+      }
+    },
+    "stat_unrealized": {
+      "type": "Stat",
+      "props": {
+        "label": "Unrealized Gain",
+        "value": "+9.41%",
+        "delta": "+9.41%",
+        "trend": "up"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_convergence": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_convergence",
+        "item_trader_1",
+        "item_trader_2",
+        "item_trader_3"
+      ]
+    },
+    "heading_convergence": {
+      "type": "Heading",
+      "props": {
+        "text": "3-Trader Bearish Convergence Escalated",
+        "level": "h3"
+      }
+    },
+    "item_trader_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_trader_1",
+        "text_trader_1"
+      ]
+    },
+    "badge_trader_1": {
+      "type": "Badge",
+      "props": {
+        "text": "HeartCanHodl"
+      }
+    },
+    "text_trader_1": {
+      "type": "Text",
+      "props": {
+        "text": "short from prior regime (maintained through net-long rotation)"
+      }
+    },
+    "item_trader_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_trader_2",
+        "text_trader_2"
+      ]
+    },
+    "badge_trader_2": {
+      "type": "Badge",
+      "props": {
+        "text": "Wild_Randomness"
+      }
+    },
+    "text_trader_2": {
+      "type": "Text",
+      "props": {
+        "text": "active Oct $300 puts (Jul 28)"
+      }
+    },
+    "item_trader_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_trader_3",
+        "text_trader_3"
+      ]
+    },
+    "badge_trader_3": {
+      "type": "Badge",
+      "props": {
+        "text": "KillaXBT"
+      }
+    },
+    "text_trader_3": {
+      "type": "Text",
+      "props": {
+        "text": "short conviction"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_critical": {
+      "type": "Alert",
+      "props": {
+        "title": "Critical Insight",
+        "message": "HCH net-long crypto (+77.5%) yet SHORT AAPL = tactical/thematic conviction spread on AI capex-vs-returns headwind.",
+        "type": "info"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/HeartCanHodl/status/2085000724895912124"
+      }
+    }
+  }
+}
