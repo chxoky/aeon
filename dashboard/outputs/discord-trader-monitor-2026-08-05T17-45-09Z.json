@@ -1,0 +1,159 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor: Calibration",
+        "description": "Discord channel analysis"
+      },
+      "children": [
+        "heading_calibration",
+        "text_event_time",
+        "text_message",
+        "text_attachment",
+        "sep1",
+        "heading_context",
+        "stat_deployment",
+        "text_rotation_date",
+        "text_channel_type",
+        "heading_allocation",
+        "table_allocation",
+        "sep2",
+        "alert_classification"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: HCH — Chat]",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text_event_time": {
+      "type": "Text",
+      "props": {
+        "text": "Supporting channel message from HeartCanHodl (17:42Z)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_message": {
+      "type": "Text",
+      "props": {
+        "text": "Message: \"We go 🎣\"",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text_attachment": {
+      "type": "Text",
+      "props": {
+        "text": "Attachment: 1 screenshot (Discord CDN)",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_context": {
+      "type": "Heading",
+      "props": {
+        "text": "Position Context",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "stat_deployment": {
+      "type": "Stat",
+      "props": {
+        "label": "Currently Deployed",
+        "value": "77.5%"
+      },
+      "children": []
+    },
+    "text_rotation_date": {
+      "type": "Text",
+      "props": {
+        "text": "Rotated net-long: Aug 02",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_channel_type": {
+      "type": "Text",
+      "props": {
+        "text": "Channel type: philosophy/conviction territory (per baseline)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "heading_allocation": {
+      "type": "Heading",
+      "props": {
+        "text": "Portfolio Allocation",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "table_allocation": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Asset",
+          "Allocation"
+        ],
+        "rows": [
+          [
+            "BTC",
+            "~30%"
+          ],
+          [
+            "ETH",
+            "~22.5%"
+          ],
+          [
+            "SOL",
+            "~10%"
+          ],
+          [
+            "HYPE",
+            "~7.5%"
+          ],
+          [
+            "ZEC",
+            "~5%"
+          ],
+          [
+            "Alts",
+            "~7.5%"
+          ]
+        ]
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert_classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Awaiting Classification",
+        "message": "Unable to classify — is this an entry signal, chart setup observation, or community banter? What's your read?",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}
