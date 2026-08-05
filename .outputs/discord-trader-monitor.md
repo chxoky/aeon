@@ -10,3 +10,6 @@ Context: HCH rotated net-long Aug 02; currently 77.5% deployed (BTC ~30%, ETH ~2
 Unable to classify — is this an entry signal, chart setup observation, or community banter?
 
 What's your read?
+💬 *[DC: HCH — Chat]*
+
+It's just our assumption that having money = access to quality information

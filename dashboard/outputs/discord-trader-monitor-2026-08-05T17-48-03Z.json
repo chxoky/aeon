@@ -1,0 +1,40 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge-source",
+        "text-message"
+      ]
+    },
+    "badge-source": {
+      "type": "Badge",
+      "props": {
+        "text": "HCH — Discord Chat",
+        "variant": "secondary"
+      }
+    },
+    "text-message": {
+      "type": "Text",
+      "props": {
+        "text": "💬 It's just our assumption that having money = access to quality information",
+        "variant": "body"
+      }
+    }
+  }
+}
