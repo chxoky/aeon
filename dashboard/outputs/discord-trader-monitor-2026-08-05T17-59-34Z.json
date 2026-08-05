@@ -1,0 +1,214 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor",
+        "description": "Message Classification Report"
+      },
+      "children": [
+        "trader_name",
+        "sep1",
+        "info_section",
+        "sep2",
+        "message_section",
+        "sep3",
+        "alert_status",
+        "sep4",
+        "context_section"
+      ]
+    },
+    "trader_name": {
+      "type": "Heading",
+      "props": {
+        "text": "HeartCanHodl",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "info_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "channel_label",
+        "channel_badge",
+        "time_label",
+        "time_text"
+      ]
+    },
+    "channel_label": {
+      "type": "Text",
+      "props": {
+        "text": "Channel",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "channel_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Supporting (premium member chat)",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "time_label": {
+      "type": "Text",
+      "props": {
+        "text": "Time",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "time_text": {
+      "type": "Text",
+      "props": {
+        "text": "2026-08-05T17:56:42Z",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "message_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "message_label",
+        "message_content"
+      ]
+    },
+    "message_label": {
+      "type": "Text",
+      "props": {
+        "text": "Message",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "message_content": {
+      "type": "Heading",
+      "props": {
+        "text": "Fc eth 5m",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert_status": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to Classify",
+        "message": "Awaiting manual classification or clarification",
+        "type": "info"
+      },
+      "children": []
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_heading",
+        "context_text",
+        "interpretation_label",
+        "interpretations_row"
+      ]
+    },
+    "context_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context Analysis",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "Very short cryptic message. \"Fc\" unclear (First Contact? Abbreviation?). \"eth 5m\" = Ethereum 5-minute timeframe. No explicit trade action language. Could be technical observation, setup question, or market commentary. No reply context.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "interpretation_label": {
+      "type": "Text",
+      "props": {
+        "text": "Possible Interpretations",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "interpretations_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_observation",
+        "badge_question",
+        "badge_commentary"
+      ]
+    },
+    "badge_observation": {
+      "type": "Badge",
+      "props": {
+        "text": "Technical observation",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "badge_question": {
+      "type": "Badge",
+      "props": {
+        "text": "Setup question",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "badge_commentary": {
+      "type": "Badge",
+      "props": {
+        "text": "Market commentary",
+        "variant": "outline"
+      },
+      "children": []
+    }
+  }
+}
