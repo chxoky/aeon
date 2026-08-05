@@ -1,0 +1,157 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — [DC: HCH — Chat]",
+        "description": "Discord trader technical observation requiring interpretation"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event",
+        "sep1",
+        "message-section",
+        "sep2",
+        "question"
+      ]
+    },
+    "event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event: HeartCanHodl technical observation in supporting channel",
+        "level": "h3"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "msg-label",
+        "msg-text",
+        "alert",
+        "analysis",
+        "context"
+      ]
+    },
+    "msg-label": {
+      "type": "Text",
+      "props": {
+        "text": "Message quoted:",
+        "variant": "caption"
+      }
+    },
+    "msg-text": {
+      "type": "Text",
+      "props": {
+        "text": "Fc AMZN 5m"
+      }
+    },
+    "alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Cryptic abbreviation 'Fc' unclear (Forming Consolidation? Fill Confirmation? Forming Chart? Chart formation?). AMZN 5-minute timeframe reference clear, but trader's intent ambiguous.",
+        "type": "warning"
+      }
+    },
+    "analysis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "analysis-label",
+        "badge-stack"
+      ]
+    },
+    "analysis-label": {
+      "type": "Text",
+      "props": {
+        "text": "Possible meanings of 'Fc':",
+        "variant": "caption"
+      }
+    },
+    "badge-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge1",
+        "badge2",
+        "badge3",
+        "badge4"
+      ]
+    },
+    "badge1": {
+      "type": "Badge",
+      "props": {
+        "text": "Forming Consolidation",
+        "variant": "outline"
+      }
+    },
+    "badge2": {
+      "type": "Badge",
+      "props": {
+        "text": "Fill Confirmation",
+        "variant": "outline"
+      }
+    },
+    "badge3": {
+      "type": "Badge",
+      "props": {
+        "text": "Forming Chart",
+        "variant": "outline"
+      }
+    },
+    "badge4": {
+      "type": "Badge",
+      "props": {
+        "text": "Chart formation",
+        "variant": "outline"
+      }
+    },
+    "context": {
+      "type": "Text",
+      "props": {
+        "text": "Supporting channel context suggests technical commentary rather than trade signal, but need clarification on 'Fc' notation + whether this requires alert or is informational observation only.",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "question": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "lead"
+      }
+    }
+  }
+}
