@@ -1,0 +1,121 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @Wild_Randomness"
+      },
+      "children": [
+        "text_status",
+        "sep1",
+        "tweet_wild",
+        "sep2",
+        "text_analysis",
+        "stack_interp",
+        "sep3",
+        "link_tweet",
+        "text_question"
+      ]
+    },
+    "text_status": {
+      "type": "Text",
+      "props": {
+        "text": "No visible external event/context",
+        "variant": "muted"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "tweet_wild": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Only 3.65B to go"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "text_analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Cryptic message with zero context — unable to classify. Could mean:",
+        "variant": "body"
+      }
+    },
+    "stack_interp": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_vol",
+        "badge_mc",
+        "badge_ob",
+        "badge_port",
+        "badge_nf"
+      ]
+    },
+    "badge_vol": {
+      "type": "Badge",
+      "props": {
+        "text": "volume goal",
+        "variant": "outline"
+      }
+    },
+    "badge_mc": {
+      "type": "Badge",
+      "props": {
+        "text": "market cap reference",
+        "variant": "outline"
+      }
+    },
+    "badge_ob": {
+      "type": "Badge",
+      "props": {
+        "text": "order-book data point",
+        "variant": "outline"
+      }
+    },
+    "badge_port": {
+      "type": "Badge",
+      "props": {
+        "text": "portfolio target",
+        "variant": "outline"
+      }
+    },
+    "badge_nf": {
+      "type": "Badge",
+      "props": {
+        "text": "non-financial commentary",
+        "variant": "outline"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "link_tweet": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View on X",
+        "href": "https://x.com/Wild_Randomness/status/2085111061431423022",
+        "source": "X"
+      }
+    },
+    "text_question": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "lead"
+      }
+    }
+  }
+}

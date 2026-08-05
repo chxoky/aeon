@@ -1,9 +1,11 @@
-🐦 *[X] @Wild_Randomness*
+🔍 *Calibration — @Wild_Randomness*
 
-$IBIT $BTC
+No visible external event/context
 
-Pretty lifeless grind up today—just feels like the nearest liq is a magnet and that's all there really is to the asset
+Wild_Randomness: "Only 3.65B to go"
 
-That can always change, but has been the status quo for some time
+Cryptic message with zero context — unable to classify. Could mean: volume goal • market cap reference • order-book data point • portfolio target • or non-financial commentary.
 
-[View tweet](https://x.com/Wild_Randomness/status/2085108411369414684)
+URL: https://x.com/Wild_Randomness/status/2085111061431423022
+
+What's your read?
