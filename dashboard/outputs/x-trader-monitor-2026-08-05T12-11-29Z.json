@@ -1,0 +1,23 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-1"
+      ]
+    },
+    "tweet-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "@swarmister",
+        "text": "Macro thesis on crypto weakness vs SPY ATH. Asymmetric risk concern (crypto weak/stocks strong). Aligns with pending BTC short conviction."
+      }
+    }
+  }
+}
