@@ -1,14 +1,16 @@
-Done. TOKEN_ALERT_OK — no alerts triggered.
+TOKEN_ALERT_OK. No anomalies on any tracked token:
+
+| Token | Price | 24h Change | Threshold | Status |
+|-------|-------|------------|-----------|--------|
+| BTC | $64,144 | +0.41% | 5% | CLEAR |
+| ETH | $1,869.82 | -0.01% | 8% | CLEAR |
+| SOL | $73.82 | +0.11% | 10% | CLEAR |
+
+No alerts were triggered — all tokens are flat on the day. Prices logged to `memory/logs/2026-08-05.md` for future comparison. BTC has recovered ~$1,600 from the Aug 3 snapshot ($62,543→$64,144, +2.6%) but remains below the 5% alert threshold.
 
 ## Summary
-
-**Tokens checked:** BTC (5% threshold), ETH (8%), SOL (10%)
-
-**Current prices (CoinGecko, Aug 04):**
-- BTC: $63,862 (+1.61% 24h) — within 5% threshold
-- ETH: $1,871 (+1.21% 24h) — within 8% threshold
-- SOL: $73.75 (+1.54% 24h) — within 10% threshold
-
-**Day-over-day vs Aug 03 baseline:** BTC +1.1%, ETH +1.0%, SOL +0.9% — all well within range. No volume anomalies detected. No notifications sent.
-
-Prices logged to `memory/logs/2026-08-04.md` for tomorrow's comparison.
+- Fetched live prices for BTC, ETH, SOL from CoinGecko
+- Compared 24h changes against MEMORY.md thresholds — none breached
+- No volume spikes detected (volumes within normal ranges)
+- Logged `TOKEN_ALERT_OK` + prices to `memory/logs/2026-08-05.md`
+- No notifications sent
