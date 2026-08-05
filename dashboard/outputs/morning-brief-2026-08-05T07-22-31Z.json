@@ -1,0 +1,581 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-08-05"
+      },
+      "children": [
+        "heading_focus",
+        "sep1",
+        "stack_focus",
+        "sep2",
+        "heading_yesterday",
+        "stack_yesterday",
+        "sep3",
+        "heading_watch",
+        "stack_watch",
+        "sep4",
+        "heading_running",
+        "stack_running"
+      ]
+    },
+    "heading_focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack_focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus_1",
+        "focus_2",
+        "focus_3"
+      ]
+    },
+    "focus_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_1_title",
+        "focus_1_status",
+        "focus_1_reason"
+      ]
+    },
+    "focus_1_title": {
+      "type": "Text",
+      "props": {
+        "text": "swarmister: BTC SHORT + DOGE LONG",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "focus_1_status": {
+      "type": "Badge",
+      "props": {
+        "text": "approvals pending",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "focus_1_reason": {
+      "type": "Text",
+      "props": {
+        "text": "why now: BTC at entry zone, aging setups waste edge",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "focus_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_2_title",
+        "focus_2_price",
+        "focus_2_sl",
+        "focus_2_reason"
+      ]
+    },
+    "focus_2_title": {
+      "type": "Text",
+      "props": {
+        "text": "KillaXBT BTC short live",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "focus_2_price": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC Price",
+        "value": "$64,179",
+        "delta": "$79 from stop",
+        "trend": "neutral"
+      },
+      "children": []
+    },
+    "focus_2_sl": {
+      "type": "Stat",
+      "props": {
+        "label": "Stop Loss",
+        "value": "65.250"
+      },
+      "children": []
+    },
+    "focus_2_reason": {
+      "type": "Text",
+      "props": {
+        "text": "why now: $79 from stop, ETF bid pushing against it",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "focus_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_3_title",
+        "focus_3_reason"
+      ]
+    },
+    "focus_3_title": {
+      "type": "Text",
+      "props": {
+        "text": "NFP Aug 7 in 2 days",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "focus_3_reason": {
+      "type": "Text",
+      "props": {
+        "text": "why now: macro binary blocks all new entries until Friday",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_yesterday": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack_yesterday": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "yesterday_sndk",
+        "yesterday_amdusd",
+        "yesterday_asts",
+        "yesterday_killaxbt",
+        "yesterday_breadth",
+        "yesterday_fg",
+        "yesterday_regime",
+        "yesterday_swarmister"
+      ]
+    },
+    "yesterday_sndk": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sndk_title",
+        "sndk_status"
+      ]
+    },
+    "sndk_title": {
+      "type": "Text",
+      "props": {
+        "text": "HCH SNDK",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "sndk_status": {
+      "type": "Badge",
+      "props": {
+        "text": "100% closed (80% AM + 20% PM exit)",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "yesterday_amdusd": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "amdusd_title",
+        "amdusd_pnl",
+        "amdusd_status"
+      ]
+    },
+    "amdusd_title": {
+      "type": "Text",
+      "props": {
+        "text": "AMDUSD 3X short",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "amdusd_pnl": {
+      "type": "Stat",
+      "props": {
+        "label": "50% TP'd",
+        "value": "+23.80%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "amdusd_status": {
+      "type": "Text",
+      "props": {
+        "text": "SL@BE on remainder",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "yesterday_asts": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "asts_title",
+        "asts_pnl",
+        "asts_entry"
+      ]
+    },
+    "asts_title": {
+      "type": "Text",
+      "props": {
+        "text": "HCH ASTS 3X long",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "asts_pnl": {
+      "type": "Stat",
+      "props": {
+        "value": "+39.11% unrealized",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "asts_entry": {
+      "type": "Text",
+      "props": {
+        "text": "entry 58.83, mark ~66.50+, still open",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "yesterday_killaxbt": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "killaxbt_title",
+        "killaxbt_entry",
+        "killaxbt_thesis"
+      ]
+    },
+    "killaxbt_title": {
+      "type": "Text",
+      "props": {
+        "text": "KillaXBT",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "killaxbt_entry": {
+      "type": "Text",
+      "props": {
+        "text": "BTC short filled 64.4–64.6, SL@65.250",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "killaxbt_thesis": {
+      "type": "Text",
+      "props": {
+        "text": "STH MVRV thesis: reclaim 67.4K = bottom in",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "yesterday_breadth": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "breadth_title",
+        "breadth_stat"
+      ]
+    },
+    "breadth_title": {
+      "type": "Text",
+      "props": {
+        "text": "Breadth",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "breadth_stat": {
+      "type": "Text",
+      "props": {
+        "text": "collapsed 16/20→7/20 in one session",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "yesterday_fg": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "fg_title",
+        "fg_stat"
+      ]
+    },
+    "fg_title": {
+      "type": "Text",
+      "props": {
+        "text": "Fear & Greed",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "fg_stat": {
+      "type": "Stat",
+      "props": {
+        "value": "27",
+        "label": "Fear"
+      },
+      "children": []
+    },
+    "yesterday_regime": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "regime_title",
+        "regime_status"
+      ]
+    },
+    "regime_title": {
+      "type": "Text",
+      "props": {
+        "text": "Regime",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "regime_status": {
+      "type": "Badge",
+      "props": {
+        "text": "chop",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "yesterday_swarmister": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "swarmister_title",
+        "swarmister_status"
+      ]
+    },
+    "swarmister_title": {
+      "type": "Text",
+      "props": {
+        "text": "swarmister",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "swarmister_status": {
+      "type": "Badge",
+      "props": {
+        "text": "BTC SHORT + DOGE LONG DCA plans awaiting Kyle approval since Aug 04",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack_watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "watch_btc_etf",
+        "watch_hormuz"
+      ]
+    },
+    "watch_btc_etf": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "etf_title",
+        "etf_inflows",
+        "etf_desc"
+      ]
+    },
+    "etf_title": {
+      "type": "Text",
+      "props": {
+        "text": "Spot BTC ETF",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "etf_inflows": {
+      "type": "Stat",
+      "props": {
+        "label": "Aug 4 inflows",
+        "value": "$170M",
+        "delta": "IBIT $111M"
+      },
+      "children": []
+    },
+    "etf_desc": {
+      "type": "Text",
+      "props": {
+        "text": "institutional bid is headwind for short setups",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "watch_hormuz": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "hormuz_title",
+        "hormuz_desc",
+        "hormuz_market"
+      ]
+    },
+    "hormuz_title": {
+      "type": "Text",
+      "props": {
+        "text": "Hormuz ceasefire",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "hormuz_desc": {
+      "type": "Text",
+      "props": {
+        "text": "US/Qatar progress reported",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "hormuz_market": {
+      "type": "Stat",
+      "props": {
+        "label": "Polymarket YES",
+        "value": "16.5%",
+        "delta": "unpriced risk asset catalyst if confirmed"
+      },
+      "children": []
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack_running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "run_token_alert",
+        "run_token_movers"
+      ]
+    },
+    "run_token_alert": {
+      "type": "Text",
+      "props": {
+        "text": "token-alert @ 12:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "run_token_movers": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}

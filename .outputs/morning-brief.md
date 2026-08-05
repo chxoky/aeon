@@ -1,24 +1,21 @@
-*Morning Brief — Aug 3, 2026*
+*Morning Brief — 2026-08-05*
 
 *Focus today*
-1. HCH +8% deployed into longs this AM (02:02–06:45 UTC) — why now: mirror window open; risk-off day narrows entry timing
-2. 3-bear macro convergence vs HCH net-long regime — why now: CLARITY Act vote Aug 5–7 may resolve which thesis wins
-3. Calibration backlog: WR "supply candle" (04:14) + swarmister "Fake" (Aug 2) — why now: 2+ days stale, baseline drift risk grows
+1. swarmister: BTC SHORT + DOGE LONG approvals pending — why now: BTC at entry zone, aging setups waste edge
+2. KillaXBT BTC short live, SL@65.250, BTC $64,179 — why now: $79 from stop, ETF bid pushing against it
+3. NFP Aug 7 in 2 days — why now: macro binary blocks all new entries until Friday
 
 *Since yesterday*
-- [moved] HCH systematic accumulation: TAO/STABLE/ASTS (02:02), LIT/PUMP (02:18), ETH+SOL +5% (06:45) — ~52% portfolio deployed long
-- [moved] Wild_Randomness: 5 macro bear posts in 12h — DVOL extremes, stablecoin bleed ~$1B/wk, Jump-the-Shark thesis consistent and escalating
-- [moved] Stoiiic + Bitcoin_Astro convergence: BTC -50% from ATH, historical lows -77–84%; Aug 12 solar eclipse flagged as timing catalyst
-- [moved] trader-memory-compact ran (bc1cb3c) — baseline rebuilt Jul 23–Aug 2; traders.md compressed 4.6x
-- [stuck] swarmister signal pattern: "Fake," "Fak noctu" Aug 2–3 — calibration responses outstanding; low signal-to-noise persists
+- [moved] HCH SNDK: 100% closed (80% AM + 20% PM exit); AMDUSD 3X short 50% TP'd +23.80%, SL@BE on remainder
+- [moved] HCH ASTS: 3X long +39.11% unrealized (entry 58.83, mark ~66.50+), still open
+- [moved] KillaXBT: BTC short filled 64.4–64.6, SL@65.250; STH MVRV thesis: reclaim 67.4K = bottom in
+- [moved] Breadth collapsed 16/20→7/20 in one session; F&G 27 Fear; regime = chop
+- [stuck] swarmister: BTC SHORT + DOGE LONG DCA plans awaiting Kyle approval since Aug 04
 
 *Watch*
-- CLARITY Act vote Aug 5–7 + NFP Aug 7 — two macro catalysts in 4 days; could break BTC out of consolidation range in either direction
-- Bitcoin_Astro: Aug 12 solar eclipse as key timing window — 9 days; historical precedent for turning points weeks around eclipse date
+- Spot BTC ETF: $170M inflows Aug 4 (IBIT $111M) — institutional bid is headwind for short setups
+- Hormuz ceasefire: US/Qatar progress reported; Polymarket YES still 16.5% — unpriced risk asset catalyst if confirmed
 
 *Running today*
 - token-alert @ 12:00 UTC
 - token-movers @ 12:00 UTC
-- market-context-refresh @ 13:00 UTC
-- narrative-tracker @ 13:30 UTC
-- x-trader-monitor / discord-trader-monitor (continuous)
