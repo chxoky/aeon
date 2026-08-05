@@ -1,0 +1,248 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Calibration — [DC: HCH — Chat]"
+      },
+      "children": [
+        "heading-event",
+        "text-event-type",
+        "separator-1",
+        "heading-message",
+        "text-message",
+        "separator-2",
+        "alert-classification",
+        "separator-3",
+        "heading-issues",
+        "text-issue-1",
+        "text-issue-2",
+        "text-issue-3",
+        "separator-4",
+        "heading-tickers",
+        "stack-tickers",
+        "separator-5",
+        "heading-timeframe",
+        "text-timeframe",
+        "separator-6",
+        "heading-interpretation",
+        "stack-interpretations",
+        "separator-7",
+        "text-question"
+      ]
+    },
+    "heading-event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h2"
+      }
+    },
+    "text-event-type": {
+      "type": "Text",
+      "props": {
+        "text": "Supporting channel cryptic ticker mention"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-message": {
+      "type": "Heading",
+      "props": {
+        "text": "Message",
+        "level": "h3"
+      }
+    },
+    "text-message": {
+      "type": "Text",
+      "props": {
+        "text": "Fc SNDK, mu, nbis, dram 1m",
+        "variant": "lead"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert-classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to Classify",
+        "message": "No execution language ('adding', 'shorting', 'watching') detected. No visible context or referenced message. Supporting channel context present.",
+        "type": "warning"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-issues": {
+      "type": "Heading",
+      "props": {
+        "text": "Classification Issues",
+        "level": "h3"
+      }
+    },
+    "text-issue-1": {
+      "type": "Text",
+      "props": {
+        "text": "• No execution language ('adding', 'shorting', 'watching')"
+      }
+    },
+    "text-issue-2": {
+      "type": "Text",
+      "props": {
+        "text": "• No visible context or referenced message"
+      }
+    },
+    "text-issue-3": {
+      "type": "Text",
+      "props": {
+        "text": "• Supporting channel context suggests technical watchlist or price action observation, but intent/direction unclear"
+      }
+    },
+    "separator-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-tickers": {
+      "type": "Heading",
+      "props": {
+        "text": "Tickers Mentioned",
+        "level": "h3"
+      }
+    },
+    "stack-tickers": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-sndk",
+        "badge-mu",
+        "badge-nbis",
+        "badge-dram"
+      ]
+    },
+    "badge-sndk": {
+      "type": "Badge",
+      "props": {
+        "text": "SNDK"
+      }
+    },
+    "badge-mu": {
+      "type": "Badge",
+      "props": {
+        "text": "MU"
+      }
+    },
+    "badge-nbis": {
+      "type": "Badge",
+      "props": {
+        "text": "NBIS"
+      }
+    },
+    "badge-dram": {
+      "type": "Badge",
+      "props": {
+        "text": "DRAM"
+      }
+    },
+    "separator-5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-timeframe": {
+      "type": "Heading",
+      "props": {
+        "text": "Timeframe",
+        "level": "h3"
+      }
+    },
+    "text-timeframe": {
+      "type": "Text",
+      "props": {
+        "text": "1 minute (1m)"
+      }
+    },
+    "separator-6": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-interpretation": {
+      "type": "Heading",
+      "props": {
+        "text": "Possible Interpretations",
+        "level": "h3"
+      }
+    },
+    "stack-interpretations": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-interp-a",
+        "text-interp-b",
+        "text-interp-c",
+        "text-interp-d"
+      ]
+    },
+    "text-interp-a": {
+      "type": "Text",
+      "props": {
+        "text": "(a) Watchlist note"
+      }
+    },
+    "text-interp-b": {
+      "type": "Text",
+      "props": {
+        "text": "(b) Short setup observation"
+      }
+    },
+    "text-interp-c": {
+      "type": "Text",
+      "props": {
+        "text": "(c) Chart pattern reference"
+      }
+    },
+    "text-interp-d": {
+      "type": "Text",
+      "props": {
+        "text": "(d) Reply-dependent context"
+      }
+    },
+    "separator-7": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-question": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "lead"
+      }
+    }
+  }
+}
