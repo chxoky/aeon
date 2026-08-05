@@ -1,0 +1,123 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "market-context-refresh",
+        "description": "2026-08-05"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_take",
+        "stack_prices",
+        "stat_fng",
+        "text_breadth",
+        "stat_dex",
+        "text_narrative",
+        "progress_hormuz",
+        "alert_nfp"
+      ]
+    },
+    "badge_take": {
+      "type": "Badge",
+      "props": {
+        "text": "chop (conviction low)",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "stack_prices": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_btc",
+        "stat_eth"
+      ]
+    },
+    "stat_btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$64,179",
+        "delta": "+0.9%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat_eth": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$1,867",
+        "delta": "+0.6%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat_fng": {
+      "type": "Stat",
+      "props": {
+        "label": "Fear & Greed Index",
+        "value": "27",
+        "delta": "Fear"
+      },
+      "children": []
+    },
+    "text_breadth": {
+      "type": "Text",
+      "props": {
+        "text": "Breadth 7/20 · collapsed from 16/20 prior session",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "stat_dex": {
+      "type": "Stat",
+      "props": {
+        "label": "DEX Volume",
+        "value": "$6.80B"
+      },
+      "children": []
+    },
+    "text_narrative": {
+      "type": "Text",
+      "props": {
+        "text": "Top narrative: HYPE/perps DEX (rising); ADA peak signal; ZEC emerging",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "progress_hormuz": {
+      "type": "Progress",
+      "props": {
+        "value": 16.5,
+        "max": 100,
+        "label": "Strait of Hormuz normal by Aug 31? YES"
+      },
+      "children": []
+    },
+    "alert_nfp": {
+      "type": "Alert",
+      "props": {
+        "title": "NFP Aug 7",
+        "message": "in 2 days — hold entries",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}
