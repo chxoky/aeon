@@ -1,0 +1,91 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_calibration",
+        "event_section",
+        "post_section",
+        "uncertainty_alert"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @HeartCanHodl",
+        "level": "h2"
+      }
+    },
+    "event_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event_heading",
+        "event_text"
+      ]
+    },
+    "event_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "event_text": {
+      "type": "Text",
+      "props": {
+        "text": "HCH identified a 40x BTC short (at 99.76% margin usage) and said \"Going to hunt this\""
+      }
+    },
+    "post_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "post_heading",
+        "post_text"
+      ]
+    },
+    "post_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Post",
+        "level": "h3"
+      }
+    },
+    "post_text": {
+      "type": "Text",
+      "props": {
+        "text": "\"Caught the fish 🎣\" with screenshots of the liquidation-risk position"
+      }
+    },
+    "uncertainty_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification Uncertainty",
+        "message": "Unable to classify — did HCH personally execute a position to hunt/liquidate, or is this observational? What's your read?",
+        "type": "info"
+      }
+    }
+  }
+}

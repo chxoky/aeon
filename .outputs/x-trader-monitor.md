@@ -1,11 +1,7 @@
-🐦 [X] @Wild_Randomness
+🔍 *Calibration — @HeartCanHodl*
 
-$IBIT $ETHA
+Event: HCH identified a 40x BTC short (at 99.76% margin usage) and said "Going to hunt this"
 
-Big outperformance from ETH today (+2.30% vs +0.63%)
+Post: "Caught the fish 🎣" with screenshots of the liquidation-risk position
 
-Funny that it just gets them to the exact same spot though — both crypto ETFs recovering to same technical resistance level despite divergent intraday performance. ETHA 14.49, IBIT 36.64.
-
-Charts show 15m technical structure with shared resistance zones (dotted lines).
-
-[View tweet](https://x.com/Wild_Randomness/status/2085071331608195375)
+Unable to classify — did HCH personally execute a position to hunt/liquidate, or is this observational? What's your read?
