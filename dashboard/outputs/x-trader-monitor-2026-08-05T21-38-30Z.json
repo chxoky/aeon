@@ -1,0 +1,41 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet-stack"
+      ]
+    },
+    "tweet-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "tweet-link"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "AAPL technical breakdown from 354.70 resistance. 1D chart shows recent melt-up into key resistance zone, followed by sharp rejection. Current 306.45 consolidating in support band 289.77-308.35. RSI oversold on daily — validates capitulation structure.\n\nAligns with documented bearish AAPL thesis. Chart shows technical exhaustion pattern."
+      }
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2085116620419326196"
+      }
+    }
+  }
+}
