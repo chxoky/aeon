@@ -1,0 +1,51 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "separator_1",
+        "link_tweet"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "@swarmister",
+        "text": "$HBAR 45m\n\nThe asset continues to demonstrate relative strength. Signs of accumulation are visible within the current range.\n\nA corrective move into the designated Point of Interest (POI) is highly likely to act as a catalyst for the continuation of the upward Order Flow and create optimal conditions for opening a long position.\n\nI'm taking the day off today, so I won't be able to fully monitor the trade. The setup was marked yesterday, and I received confirmation via notifications. Please keep this in mind."
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/swarmister/status/2084987016517726496"
+      },
+      "children": []
+    }
+  }
+}

@@ -1,3 +1,13 @@
+## swarmister
+- Platforms: X (primary; X-only, no Discord presence)
+- Current open positions: HBAR setup marked yesterday (Aug 04) with confirmation received via notifications. Taking day off Aug 05, won't monitor actively.
+- Recent thesis: HBAR 45m accumulation in POI (Point of Interest) zone; corrective move into POI as catalyst for upward Order Flow continuation; optimal conditions for long position entry at support levels.
+- Conviction notes: Technical analysis focus with clear chart-based setups. Uses order-flow/POI concepts. Conservative positioning style (marking setup day before execution, allowing day off despite active trade opportunity suggests disciplined capital allocation).
+- Calibration: None needed
+- Last seen: 2026-08-05T12:56:56Z
+- **Events (rolling):**
+  - Aug 05 12:56Z — informational: HBAR 45m setup sharing; marked yesterday with confirmation; POI zone consolidation at 0.06818-0.06847; resistance targets 0.07028/0.07048/0.07160. Chart shows accumulation pattern and corrective dip into support. Not personally entering now (taking day off); sharing analysis/setup idea. [2084987016517726496]
+
 ## trading_axe
 - Platforms: X (primary; X-only, no Discord presence)
 - Current open positions: None announced
