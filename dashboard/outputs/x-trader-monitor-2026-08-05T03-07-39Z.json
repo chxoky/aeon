@@ -1,0 +1,97 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_event",
+        "storylink_tweet",
+        "text_timestamp",
+        "badge_classification",
+        "separator_1",
+        "heading_alert",
+        "alert_system",
+        "text_issue"
+      ]
+    },
+    "heading_event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event Processed",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "storylink_tweet": {
+      "type": "StoryLink",
+      "props": {
+        "title": "@Stoiiic personal banter event",
+        "href": "https://twitter.com/Stoiiic/status/2084838001746792487",
+        "source": "Twitter"
+      },
+      "children": []
+    },
+    "text_timestamp": {
+      "type": "Text",
+      "props": {
+        "text": "03:04Z",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "badge_classification": {
+      "type": "Badge",
+      "props": {
+        "text": "skip (non-financial)",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_alert": {
+      "type": "Heading",
+      "props": {
+        "text": "System Alert",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "alert_system": {
+      "type": "Alert",
+      "props": {
+        "title": "File Size Exceeded",
+        "message": "traders.md exceeded 150KB limit (171.5KB) with duplicate entries",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "text_issue": {
+      "type": "Text",
+      "props": {
+        "text": "Issue ISS-004 filed for compaction",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
