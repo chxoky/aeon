@@ -2728,4 +2728,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-08-05,discord-trader-monitor,claude-haiku-4-5-20251001,177,10112,2252357,116254
 2026-08-05,x-trader-monitor,claude-haiku-4-5-20251001,145,10540,1587747,107888
 2026-08-05,skill-health,claude-sonnet-4-6,2789,10462,604533,75996
-2026-08-05,x-trader-monitor,claude-haiku-4-5-20251001,233,10373,1287812,49254
+2026-08-05,discord-trader-monitor,claude-haiku-4-5-20251001,177,17962,994122,50863
