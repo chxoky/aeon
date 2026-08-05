@@ -1,0 +1,90 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor — Calibration"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-cal",
+        "text-handle",
+        "text-timestamp",
+        "text-reply",
+        "sep-1",
+        "tweet-card",
+        "alert-class",
+        "link-tweet"
+      ]
+    },
+    "heading-cal": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration",
+        "level": "h2"
+      }
+    },
+    "text-handle": {
+      "type": "Text",
+      "props": {
+        "text": "@Wild_Randomness",
+        "variant": "lead"
+      }
+    },
+    "text-timestamp": {
+      "type": "Text",
+      "props": {
+        "text": "Aug 05 23:11Z",
+        "variant": "caption"
+      }
+    },
+    "text-reply": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to @mr52pickup and @Evan_ss6",
+        "variant": "caption"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Hmm Evan implying that GCR believes the bottom comes within the next 4 months\n\nAligned"
+      }
+    },
+    "alert-class": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Unable to classify",
+        "message": "What asset/market bottom are they discussing? Missing context from @Evan_ss6's original message."
+      }
+    },
+    "link-tweet": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View on X",
+        "href": "https://x.com/Wild_Randomness/status/2085141608308293784",
+        "source": "X"
+      }
+    }
+  }
+}
