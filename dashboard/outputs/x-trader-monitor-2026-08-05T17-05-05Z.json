@@ -1,0 +1,69 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading",
+        "timestamp",
+        "separator1",
+        "tweet_card",
+        "separator2",
+        "analysis_text",
+        "link_to_post"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @HeartCanHodl",
+        "level": "h3"
+      }
+    },
+    "timestamp": {
+      "type": "Text",
+      "props": {
+        "text": "Time: 2026-08-05 17:00:36 UTC (just posted)",
+        "variant": "caption"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "fc < random crypto > 1hr\n\nWe win."
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — no clear ticker/action/level. Context: recent net-long regime (HYPE/TAO/ASTS longs active). Is this tied to one of your existing positions, or a new entry signal? What's your read?",
+        "variant": "body"
+      }
+    },
+    "link_to_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/HeartCanHodl/status/2085048338160959725"
+      }
+    }
+  }
+}
