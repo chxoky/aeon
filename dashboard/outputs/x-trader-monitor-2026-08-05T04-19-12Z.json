@@ -1,0 +1,65 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "🔍 Calibration — @Wild_Randomness"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_event",
+        "separator_1",
+        "tweetcard_1",
+        "separator_2",
+        "alert_context"
+      ]
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to another trader asking about market conditions",
+        "variant": "body"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweetcard_1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "@Going2Disappear how are we looking gtd"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_context": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Need context from @Going2Disappear's original message. What's your read?",
+        "type": "info"
+      }
+    }
+  }
+}
