@@ -1,0 +1,164 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Crypto ETF trading analysis"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "sep_1",
+        "stack_tickers",
+        "sep_2",
+        "stack_performance",
+        "stack_prices",
+        "sep_3",
+        "text_technical",
+        "link_tweet"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Big outperformance from ETH today (+2.30% vs +0.63%)\n\nFunny that it just gets them to the exact same spot though — both crypto ETFs recovering to same technical resistance level despite divergent intraday performance. ETHA 14.49, IBIT 36.64.\n\nCharts show 15m technical structure with shared resistance zones (dotted lines)."
+      },
+      "children": []
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack_tickers": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_ibit",
+        "badge_etha"
+      ]
+    },
+    "badge_ibit": {
+      "type": "Badge",
+      "props": {
+        "text": "$IBIT",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge_etha": {
+      "type": "Badge",
+      "props": {
+        "text": "$ETHA",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack_performance": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_etha_perf",
+        "stat_ibit_perf"
+      ]
+    },
+    "stat_etha_perf": {
+      "type": "Stat",
+      "props": {
+        "label": "ETHA Performance",
+        "value": "+2.30%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat_ibit_perf": {
+      "type": "Stat",
+      "props": {
+        "label": "IBIT Performance",
+        "value": "+0.63%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stack_prices": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_etha_price",
+        "stat_ibit_price"
+      ]
+    },
+    "stat_etha_price": {
+      "type": "Stat",
+      "props": {
+        "label": "ETHA Price",
+        "value": "14.49"
+      },
+      "children": []
+    },
+    "stat_ibit_price": {
+      "type": "Stat",
+      "props": {
+        "label": "IBIT Price",
+        "value": "36.64"
+      },
+      "children": []
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text_technical": {
+      "type": "Text",
+      "props": {
+        "text": "Both crypto ETFs recovering to same technical resistance level despite divergent intraday performance. Charts show 15m technical structure with shared resistance zones (dotted lines).",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "link_tweet": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View tweet from @Wild_Randomness",
+        "href": "https://x.com/Wild_Randomness/status/2085071331608195375",
+        "source": "X (Twitter)"
+      },
+      "children": []
+    }
+  }
+}
