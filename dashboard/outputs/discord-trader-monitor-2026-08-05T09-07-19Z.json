@@ -1,0 +1,174 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Calibration — DC: HCH — Chat"
+      },
+      "children": [
+        "alert_classify",
+        "sep_1",
+        "message_stack",
+        "sep_2",
+        "context_stack"
+      ]
+    },
+    "alert_classify": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "message": "Unable to classify — what's your read?"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "msg_heading",
+        "msg_source",
+        "discord_card"
+      ]
+    },
+    "msg_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Discord Message",
+        "level": "h3"
+      }
+    },
+    "msg_source": {
+      "type": "Text",
+      "props": {
+        "text": "Supporting channel message from HeartCanHodl"
+      }
+    },
+    "discord_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "text": "Fc hype 1hr"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ctx_heading",
+        "ctx_summary",
+        "possible_hype",
+        "sep_3",
+        "ambiguities"
+      ]
+    },
+    "ctx_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context & Analysis",
+        "level": "h3"
+      }
+    },
+    "ctx_summary": {
+      "type": "Text",
+      "props": {
+        "text": "Cryptic abbreviations with no ticker/level/action specified."
+      }
+    },
+    "possible_hype": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "hype_heading",
+        "hype_text_1",
+        "hype_stat",
+        "hype_text_2"
+      ]
+    },
+    "hype_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Possible HYPE Reference",
+        "level": "h4"
+      }
+    },
+    "hype_text_1": {
+      "type": "Text",
+      "props": {
+        "text": "HCH added HYPE long on Aug 01 with entry price:"
+      }
+    },
+    "hype_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Entry Price",
+        "value": "$51.55"
+      }
+    },
+    "hype_text_2": {
+      "type": "Text",
+      "props": {
+        "text": "X post moments before 08:54Z on same ticker."
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "ambiguities": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "amb_heading",
+        "amb_fc",
+        "amb_1hr"
+      ]
+    },
+    "amb_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Unresolved Ambiguities",
+        "level": "h4"
+      }
+    },
+    "amb_fc": {
+      "type": "Text",
+      "props": {
+        "text": "Ticker \"Fc\" unclear — could be separate asset or abbreviation."
+      }
+    },
+    "amb_1hr": {
+      "type": "Text",
+      "props": {
+        "text": "Time reference \"1hr\" ambiguous — sentiment/prediction/chart reference?"
+      }
+    }
+  }
+}
