@@ -1,0 +1,60 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "BTC Daily Bullish Divergence"
+      },
+      "children": [
+        "tweet_card",
+        "separator1",
+        "stack_details"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "$BTC Daily — Bullish Divergence\n\nWe're seeing the exact same bullish divergence on the daily that we saw back in 2022.\n\nAlmost every major confluence is suggesting the bottom could already be in.\n\nThe only thing making people hesitate is that we're not in Q4. Other than that, BTC is 100% in the manipulation phase, identical to what we saw back in 2022.\n\nThe similarities are hard to ignore."
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "link_tweet",
+        "analysis_text"
+      ]
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2085001757428433117"
+      },
+      "children": []
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Chart shows 2022 bottom pattern mirroring current daily structure with bullish divergence (higher lows in RSI/momentum vs. recent price weakness). Aligns with group consensus on BTC consolidation end — validates technical support levels and convergence thesis.",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
