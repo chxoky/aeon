@@ -1,4 +1,4 @@
-## Summary
+🔍 *Calibration — @swarmister*
 
 **Skill:** X Trader Monitor  
 **Event:** Tweet from @swarmister  
@@ -20,3 +20,10 @@
 6. ✅ No notification sent to Kyle
 
 **Status:** Complete ✅
+Event: Reply to @RaizeThatsQ containing Cyrillic-embedded text (encoding corruption signal)
+
+@swarmister: "@RaizeThatsQ 0КГ0В9С00YГ0Г1С00Ь4Ь"
+
+https://x.com/swarmister/status/2084903257420210632
+
+Unable to classify — text appears corrupted or reply-dependent. What's your read?
