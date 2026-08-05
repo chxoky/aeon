@@ -1,0 +1,43 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_wild_randomness",
+        "link_view_tweet"
+      ]
+    },
+    "tweet_wild_randomness": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "AMZN 1D consolidation pattern showing continued weakness. Current: 272.65 (-1.72%). Chart displays support/resistance zones (240/270/280) with repeated consolidation tests.\n\nSarcastic commentary: \"So 8 more rounds of this? /s\""
+      },
+      "children": []
+    },
+    "link_view_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2085111424578445408"
+      },
+      "children": []
+    }
+  }
+}
