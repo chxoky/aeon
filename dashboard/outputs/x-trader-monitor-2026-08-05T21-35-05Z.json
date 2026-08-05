@@ -1,0 +1,31 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-card",
+        "view-post-link"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "trading_axe",
+        "handle": "@trading_axe",
+        "text": "Crypto mascot thesis: defense of Uniswap founder-model integrity vs influencer-dependent token launches. Bullish narrative framing on FRONG as comparison play — \"Take a damn fucking chance\" on meme tokens led by credible founders. Long-form commentary on industry mechanics."
+      }
+    },
+    "view-post-link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/trading_axe/status/2085115736159084944"
+      }
+    }
+  }
+}
