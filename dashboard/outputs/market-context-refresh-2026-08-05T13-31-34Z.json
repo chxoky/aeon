@@ -1,0 +1,365 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Market Context — 2026-08-05"
+      },
+      "children": [
+        "sentiment-section",
+        "sep1",
+        "prices-section",
+        "sep2",
+        "metrics-section",
+        "sep3",
+        "narratives-section",
+        "sep4",
+        "etf-section",
+        "sep5",
+        "polymarket-section"
+      ]
+    },
+    "sentiment-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "sentiment-heading",
+        "sentiment-content"
+      ]
+    },
+    "sentiment-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Market Sentiment",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "sentiment-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "take-badge",
+        "conviction-badge",
+        "fng-stat"
+      ]
+    },
+    "take-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "chop",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "conviction-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Low conviction",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "fng-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Fear & Greed",
+        "value": "27"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "prices-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "prices-heading",
+        "prices-grid"
+      ]
+    },
+    "prices-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Prices",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "prices-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "btc-stat",
+        "eth-stat"
+      ]
+    },
+    "btc-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$64,144",
+        "delta": "+0.8%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "eth-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$1,870",
+        "delta": "+0.3%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "metrics-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "metrics-heading",
+        "metrics-grid"
+      ]
+    },
+    "metrics-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Market Metrics",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "metrics-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "breadth-progress",
+        "dex-vol-stat",
+        "dom-progress"
+      ]
+    },
+    "breadth-progress": {
+      "type": "Progress",
+      "props": {
+        "value": 7,
+        "max": 20,
+        "label": "Breadth"
+      },
+      "children": []
+    },
+    "dex-vol-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "DEX Volume",
+        "value": "$6.87B"
+      },
+      "children": []
+    },
+    "dom-progress": {
+      "type": "Progress",
+      "props": {
+        "value": 56.56,
+        "max": 100,
+        "label": "Dominance"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "narratives-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "narratives-heading",
+        "narratives-stack"
+      ]
+    },
+    "narratives-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Narratives",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "narratives-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "zec-stat",
+        "hype-stat",
+        "rwa-badge"
+      ]
+    },
+    "zec-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "ZEC rising",
+        "value": "+7.3%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "hype-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "HYPE rising",
+        "value": "+3.0%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "rwa-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RWA emerging",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "etf-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "etf-heading",
+        "etf-grid"
+      ]
+    },
+    "etf-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "ETF Activity",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "etf-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "etf-aug4",
+        "etf-ibit",
+        "etf-jul31"
+      ]
+    },
+    "etf-aug4": {
+      "type": "Stat",
+      "props": {
+        "label": "Aug 4 inflows",
+        "value": "+$170M",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "etf-ibit": {
+      "type": "Stat",
+      "props": {
+        "label": "IBIT",
+        "value": "+$111M",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "etf-jul31": {
+      "type": "Stat",
+      "props": {
+        "label": "Jul 31 (reversal)",
+        "value": "−$265M",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "polymarket-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "polymarket-heading",
+        "polymarket-progress"
+      ]
+    },
+    "polymarket-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Polymarket",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "polymarket-progress": {
+      "type": "Progress",
+      "props": {
+        "value": 15.5,
+        "max": 100,
+        "label": "Iran invasion 2027? YES"
+      },
+      "children": []
+    }
+  }
+}
