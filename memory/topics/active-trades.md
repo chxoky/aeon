@@ -482,6 +482,23 @@
 - **Approval/Alert status**: FAST-PATH ALERTED (Telegram already sent by Cloudflare Worker); no duplicate send by skill. Await Kyle signal on whether to mirror VVV short on Kraken or monitor as memory-only entry.
 - **Last update**: 2026-07-19T02:08:23Z (discord-trader-monitor, fast-path alerted, TRADE-CONVICTION-ADD; message_id=1528221938521079908)
 
+### CASHCAT — SHORT (NEW ENTRY — 2026-08-06)
+- **Status**: ACTIVE — trade-new-entry 2026-08-06T13:03:33Z
+- **Entry**: 2026-08-06T13:03:33Z (Discord Trades channel)
+- **Entry message**: "1% 1x short cashcat" (direct execution call, primary Trades channel)
+- **Entry type**: Market order (execution at current price)
+- **Portfolio allocation**: 1% initial allocation
+- **Entry level**: Unknown (exact price not specified in Discord message; market order execution per timing)
+- **Channel**: 1279738718680256553 (HCH — Trades, ★most important) — **VERBATIM RULE APPLIED**: Alert body uses exact message text unchanged
+- **Ticker**: CASHCAT (meme/community token within broader crypto ecosystem)
+- **Entry context**: New meme/alt token entry adding to HCH's documented multi-ticker short constellation. Entry represents 11th unique ticker in HCH's active short basket (BTC/ETH/SOL/HYPE/ZEC/UNI/VVV/KAITO/ADA/SHIB + CASHCAT). Execution timing: afternoon UTC (13:03 UTC = Asia evening session), consistent with documented systematic short-accumulation pattern.
+- **Position sizing**: 1% portfolio allocation represents tier-3 conviction entry (smaller than 2-5% major-pair tier-1 allocations, similar to other micro-cap alt entries like SHIB 1%, KAITO initial 1%).
+- **Rationale**: Expansion of HCH's structural bearish crypto thesis into emerging/meme-token narrative layer. CASHCAT likely represents community/social token within broader bearish environment thesis on riskier retail-driven assets. Entry reflects systematic conviction accumulation across meme/emerging alt spectrum.
+- **Conviction**: MEDIUM (1% initial sizing indicates tactical tier-3 entry; terse execution format on primary channel + no visible surrounding context suggests situational opportunity or systematic accumulation step rather than high-conviction standalone thesis).
+- **Cross-platform note**: First mention of CASHCAT short across all tracked platforms (X + Discord) at 13:03:33Z. No concurrent X post identified. Discord message is FIRST SIGHTING of CASHCAT short entry.
+- **Approval/Alert status**: FAST-PATH ALERTED (Telegram already sent by Cloudflare Worker ~2-5s post-message); no duplicate send by skill. Await Kyle signal on whether to mirror CASHCAT short on Kraken or monitor as memory-only entry.
+- **Last update**: 2026-08-06T13:03:33Z (discord-trader-monitor, fast-path-alerted, TRADE-NEW-ENTRY; message_id=1534909797684482119)
+
 ### SOL — LONG (CONVICTION ADD — 2026-07-31)
 - **Status**: ACTIVE — trade-conviction-add 2026-07-31T15:07:38Z
 - **Entry**: 2026-07-31T15:07:38Z (Discord Trades channel)
