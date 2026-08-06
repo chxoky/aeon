@@ -1,11 +1,12 @@
 🐦 *[X] @HeartCanHodl*
 
-Of course I've been slightly going towards net short exposure. That's why I'm talking about taking partials and keeping hedges on
+Some snippets from discord. was busy refining hedges. and yes, i'm up at 5 am
 
-I'd rather protect capital today than spend days trying to recover avoidable drawdowns
+**Position Update:**
+- BTC long: Entry 64,781.6 → Mark 64,195.3 (-0.9%)
+- ETH long: Entry 1,915.11 → Mark 1,899.26 (-0.8%)
 
-And recommend you should be doing the same things from time to time if you want to semi-retire off this cycle
+**Hedge Strategy (from Discord):**
+~40% long, ~40% short — planning 1:1 hedge into 65k. Educational note on volatility management: price dumps trigger hedges to pay, allowing fresh accumulation for compound growth instead of just recovering roundtrip.
 
-*BTC 15m context:* Support 64,200 tested, recent highs 65,025 rejected, current structure showing protective thesis validation.
-
-[View post](https://x.com/HeartCanHodl/status/2085504138545377604)
+[View tweet](https://x.com/HeartCanHodl/status/2085514180946468872)

@@ -1,0 +1,124 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor",
+        "description": "Trading position updates from @HeartCanHodl"
+      },
+      "children": [
+        "header",
+        "busy_note",
+        "sep1",
+        "positions_section",
+        "sep2",
+        "hedge_section",
+        "sep3",
+        "tweet_link"
+      ]
+    },
+    "header": {
+      "type": "Heading",
+      "props": {
+        "text": "🐦 @HeartCanHodl",
+        "level": "h2"
+      }
+    },
+    "busy_note": {
+      "type": "Text",
+      "props": {
+        "text": "Some snippets from discord. was busy refining hedges. and yes, i'm up at 5 am",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "positions_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "positions_heading",
+        "btc_position",
+        "eth_position"
+      ]
+    },
+    "positions_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Position Update",
+        "level": "h3"
+      }
+    },
+    "btc_position": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC long (Entry: 64,781.6)",
+        "value": "64,195.3",
+        "delta": "-0.9%",
+        "trend": "down"
+      }
+    },
+    "eth_position": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH long (Entry: 1,915.11)",
+        "value": "1,899.26",
+        "delta": "-0.8%",
+        "trend": "down"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "hedge_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "hedge_heading",
+        "hedge_text"
+      ]
+    },
+    "hedge_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Hedge Strategy",
+        "level": "h3"
+      }
+    },
+    "hedge_text": {
+      "type": "Text",
+      "props": {
+        "text": "~40% long, ~40% short — planning 1:1 hedge into 65k. Educational note on volatility management: price dumps trigger hedges to pay, allowing fresh accumulation for compound growth instead of just recovering roundtrip.",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/HeartCanHodl/status/2085514180946468872"
+      }
+    }
+  }
+}
