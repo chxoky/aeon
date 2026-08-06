@@ -1,24 +1,16 @@
-**Skill execution complete.**
-
 ## Summary
 
-Processed Discord real-time event from HeartCanHodl (message_id: 1534916109571194921) at 2026-08-06T13:28:37Z:
+Discord trader monitor event processed for HeartCanHodl at 2026-08-06 14:05:40 UTC.
 
-**Event Details:**
-- **Channel**: 1472153627324842057 (HCH — Free, primary)
-- **Content**: X post link (https://x.com/i/status/2085354116310786434)
-- **Format**: Reply to own message about "Semis weren't the only sector that warranted positioning adjustments last night..."
-- **Fast-path status**: `true` (Telegram alert already sent by Cloudflare Worker ~2-5s after message)
+**Event:** Message "Close 5% eth short" on primary Trades channel (1279738718680256553)
 
-**Classification**: INFORMATIONAL (cross-platform share/reinforcement)
-- Discord-second sighting (after X recap at 09:46Z same day on same equity-positioning theme)
-- No new trade signal; position covers already executed Aug 05 at 20:11Z
-- No Kyle approval needed
+**Classification:** TRADE-POSITION-CLOSE — HCH closed 5% of a 10% ETH short hedge position entered across three tranches earlier this morning (08:40Z re-entry 2.5% + 08:58:53Z 2.5% mode hedge + 11:24:15Z conviction add 5%). Remaining position: 5% ETH short.
 
 **Actions taken:**
-1. ✅ Added message_id to seen-tracker (duplicate prevention)
-2. ✅ Logged event to daily log with cross-platform dedup context
-3. ✅ No additional Telegram sent (fast-path protocol applied)
-4. ✅ Memory updated (traders.md reference tracked)
+- ✅ Verified message ID 1534925430975365150 is new (not previously seen)
+- ✅ Honored fast-path protocol — Cloudflare Worker sent Telegram alert ~2-5s after posting; skipped duplicate alert
+- ✅ Updated traders.md with position state change (ETH short hedge now 5% vs 10%)
+- ✅ Added message ID to discord-trader-seen.txt tracking
+- ✅ Logged event to memory/logs/2026-08-06.md with full context
 
-The skill completed normally with no alerts sent (fast-path handled notification).
+**Verbatim rule applied:** Channel 1279738718680256553 requires exact message text ("Close 5% eth short") in memory — preserved as-is, no rephrase.
