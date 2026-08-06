@@ -1,5 +1,11 @@
-🐦 *[Context] @HeartCanHodl*
+🐦 *[X] @HeartCanHodl*
 
-$LIT holders, I'd be slowly trimming here. https://x.com/HeartCanHodlstatus/2085497754923721148
+Of course I've been slightly going towards net short exposure. That's why I'm talking about taking partials and keeping hedges on
 
-↳ HCH just added 1% LIT short 17min prior (22:29Z). Now suggesting trim at 2.3149 resistance after strong 4h move. No mirror position to close — informational context on winning short thesis. Prior conviction: 'second best trade in the market is short $LIT' (Jul 27).
+I'd rather protect capital today than spend days trying to recover avoidable drawdowns
+
+And recommend you should be doing the same things from time to time if you want to semi-retire off this cycle
+
+*BTC 15m context:* Support 64,200 tested, recent highs 65,025 rejected, current structure showing protective thesis validation.
+
+[View post](https://x.com/HeartCanHodl/status/2085504138545377604)

@@ -1,0 +1,33 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweetcard",
+        "link"
+      ]
+    },
+    "tweetcard": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "Of course I've been slightly going towards net short exposure. That's why I'm talking about taking partials and keeping hedges on\n\nI'd rather protect capital today than spend days trying to recover avoidable drawdowns\n\nAnd recommend you should be doing the same things from time to time if you want to semi-retire off this cycle\n\nBTC 15m context: Support 64,200 tested, recent highs 65,025 rejected, current structure showing protective thesis validation."
+      },
+      "children": []
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/HeartCanHodl/status/2085504138545377604"
+      },
+      "children": []
+    }
+  }
+}
