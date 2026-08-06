@@ -1,22 +1,22 @@
-## Summary
+**Discord Trader Monitor skill executed successfully.**
 
-✅ **discord-trader-monitor skill executed successfully at 2026-08-06 11:24:15 UTC**
+The event was processed as follows:
 
-**Event processed:**
-- **Trader**: HeartCanHodl
-- **Channel**: 1279738718680256553 (HCH — Trades, ★most-important)
-- **Message ID**: 1534884809946435747
-- **Content**: "Add 5% more eth short hedge"
-- **Classification**: trade-conviction-add
+**Event Details:**
+- **Trader:** HeartCanHodl
+- **Channel:** 1023638573313966212 (HCH — Chat, supporting)
+- **Message ID:** 1534885994132803699
+- **Content:** Custom Discord emoji reaction
+- **Classification:** Skip (non-financial banter per Step 5A)
 
-**Execution steps completed:**
-1. Decoded base64 Discord event JSON ✓
-2. Dedup check passed (new message) ✓
-3. Channel resolved as HCH's primary Trades channel ✓
-4. Trader username verified (heartcanhodl) ✓
-5. Message classified as conviction add on existing ETH short hedge ✓
-6. Fast-path protocol applied (Telegram already sent by Worker ~2-5s post) ✓
-7. Memory updated: message ID added to discord-trader-seen.txt ✓
-8. Event logged to 2026-08-06.md with full context ✓
+**Actions Taken:**
+1. Decoded base64 event ✓
+2. Verified trader username matches known HeartCanHodl Discord account ✓
+3. Resolved channel type (supporting channel) ✓
+4. Fast-path check: Not alerted by Worker (false), so processed for memory ✓
+5. Classified as non-financial per Step 5A (emoji reaction/banter) ✓
+6. No Telegram alert sent (skip classification) ✓
+7. Tracked message ID in `discord-trader-seen.txt` ✓
+8. Logged event to `memory/logs/2026-08-06.md` ✓
 
-**Status**: Complete. Cloudflare Worker pre-alerted Kyle via Telegram within 2-5 seconds of the message. Skill processing handled memory indexing and logging per Step 2 fast-path protocol.
+**Result:** Event logged silently as expected for non-financial Discord reactions. No action required.
