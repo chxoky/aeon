@@ -1,0 +1,43 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "link_tweet"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Bitcoin_Astro",
+        "handle": "@Bitcoin_Astro",
+        "text": "Bitcoin's currently facing three key resistance levels calculated using mathematics and geometry:\n• 64,800 — first resistance\n• 65,014 — major mathematical level\n• 65,789 — currently the strongest resistance I'm watching\n\n5th-6th are also pivot dates. Let's see which of these levels the market reaches and whether they produce the expected reaction.\n\nWhen time and price meet at an important mathematical level, that's where reversal probability increases."
+      },
+      "children": []
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Bitcoin_Astro/status/2085378876436320471"
+      },
+      "children": []
+    }
+  }
+}

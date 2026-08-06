@@ -1,24 +1,12 @@
-🐦 *[X] @trading_axe*
+🐦 *[X] @Bitcoin_Astro*
 
-@price_disco @rasmr_eth Idt it's dead but people will obviously take profit aggressively on a clear sell the news event. 
+Bitcoin's currently facing three key resistance levels calculated using mathematics and geometry:
+• 64,800 — first resistance
+• 65,014 — major mathematical level  
+• 65,789 — currently the strongest resistance I'm watching
 
-The overall trade [the "next PEPE" for retail] probably takes months to play out, leading into next bull.
+5th-6th are also pivot dates. Let's see which of these levels the market reaches and whether they produce the expected reaction.
 
-And by then, who knows what other coins will be out, what RH will have listed etc.
+When time and price meet at an important mathematical level, that's where reversal probability increases.
 
-~ Dr. Axius.
-
-[View tweet](https://x.com/trading_axe/status/2085376856673353943)
-
-_Market commentary on profit-taking dynamics & longer-term retail altcoin theme (Robinhood chain focus)._
-🐦 *[X] @KillaXBT*
-
-And that's exactly why you don't scalp LTF moves on $BTC while it's in the process of forming a HTF macro bottom.
-
-Doesn't matter how good you are, this range is designed to chop everyone up. Messy internal structure exists to take liquidity from both sides.
-
-That's why I primarily focus on HTF swing positions instead of chasing LTF noise.
-
-_Reinforces documented HTF swing conviction + tactical scalp hedge discipline._
-
-[View tweet](https://x.com/KillaXBT/status/2085377132616720802)
+[View tweet](https://x.com/Bitcoin_Astro/status/2085378876436320471)
