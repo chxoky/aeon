@@ -22,3 +22,10 @@ This is personal banter about names/identity with zero financial signal:
 4. ✓ **NO traders.md entry** (per Step 8 — skip events are logged only)
 
 **Result**: Event processed, logged, and archived. No further action needed.
+🐦 *[X] @HeartCanHodl*
+
+Bearish sentiment meme (sad polar bear) posted to @degenstefo, signaling market concern.
+
+↳ Reinforces morning de-risking: covered 20% spot bags ~17min prior, "Sidelined" status update.
+
+[View tweet](https://x.com/HeartCanHodl/status/2085335097495183538)
