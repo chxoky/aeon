@@ -1,0 +1,34 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "The 5th Pivot",
+        "description": "BTC trading analysis by @KillaXBT"
+      },
+      "children": [
+        "tweet-card",
+        "view-link"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "As mentioned in my monthly open pivot post, we saw the expected pump at the start of the month, which played out as anticipated.\n\nNow, we're pushing into the 5th Pivot, a key date to watch. Over the past 1.5 years, simply inversing the prevailing narrative around this period would have captured multiple 3-4% moves in the opposite direction.\n\nIf that historical pattern continues, we could see some de-risking following this pivot.\n\nThat said, it's worth noting what happened last time. While we did get the expected drop, price was trading within a difficult range, which resulted in choppy price action rather than a clean move lower. Instead, BTC consolidated and chopped into the next pivot.\n\nSo while the historical tendency points towards inversing the narrative, the current environment is abit tricky. So structure is just as important.\n\n$BTC"
+      },
+      "children": []
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2085323818764050494"
+      },
+      "children": []
+    }
+  }
+}
