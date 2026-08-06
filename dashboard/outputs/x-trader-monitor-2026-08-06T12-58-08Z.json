@@ -1,0 +1,105 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading-1",
+        "separator-1",
+        "tweet-1",
+        "separator-2",
+        "analysis-section",
+        "separator-3",
+        "question-section"
+      ]
+    },
+    "heading-1": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @abetrade",
+        "level": "h2"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "tweet-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "abetrade",
+        "text": "Reply to @jimtalbot @btc_charlie: \"looks like someone already ate that\""
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "analysis-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-explanation",
+        "interpretations-stack"
+      ]
+    },
+    "text-explanation": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify without external context (referenced traders' messages not visible). Could be: (1) options/derivatives fill confirmation, (2) price-level commentary, (3) personal banter. Unclear if financial signal vs observation.",
+        "variant": "body"
+      }
+    },
+    "interpretations-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-1",
+        "badge-2",
+        "badge-3"
+      ]
+    },
+    "badge-1": {
+      "type": "Badge",
+      "props": {
+        "text": "(1) Options/derivatives fill confirmation",
+        "variant": "outline"
+      }
+    },
+    "badge-2": {
+      "type": "Badge",
+      "props": {
+        "text": "(2) Price-level commentary",
+        "variant": "outline"
+      }
+    },
+    "badge-3": {
+      "type": "Badge",
+      "props": {
+        "text": "(3) Personal banter",
+        "variant": "outline"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "question-section": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "lead"
+      }
+    }
+  }
+}
