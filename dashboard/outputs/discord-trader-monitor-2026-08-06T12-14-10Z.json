@@ -1,0 +1,24 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "message_tweet"
+      ]
+    },
+    "message_tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HCH",
+        "handle": "DC",
+        "text": "The beauty of a hedge?\n\nPrice dumps → hedge pays → you buying the same size, again for cheaper\n\nInstead of spending the next rally just recovering roundtrip, you're compounding from newly printed capital. Twice the benefit \n\nThat's how we turn volatility into an edge from time to time ☝🏻"
+      },
+      "children": []
+    }
+  }
+}
