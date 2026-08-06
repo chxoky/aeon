@@ -1,0 +1,185 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor — Calibration"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_main",
+        "sep1",
+        "section_event",
+        "sep2",
+        "section_response",
+        "sep3",
+        "section_analysis",
+        "sep4",
+        "alert_questions"
+      ]
+    },
+    "heading_main": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: HCH Chat]",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "section_event": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_event",
+        "badge_member",
+        "text_quote"
+      ]
+    },
+    "heading_event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "badge_member": {
+      "type": "Badge",
+      "props": {
+        "text": "@tkglitch369"
+      },
+      "children": []
+    },
+    "text_quote": {
+      "type": "Text",
+      "props": {
+        "text": "Member asked about timing: \"the timing u have is insane lmao\"",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "section_response": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_response",
+        "badge_heartcanhodl",
+        "text_command"
+      ]
+    },
+    "heading_response": {
+      "type": "Heading",
+      "props": {
+        "text": "Response",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "badge_heartcanhodl": {
+      "type": "Badge",
+      "props": {
+        "text": "HeartCanHodl"
+      },
+      "children": []
+    },
+    "text_command": {
+      "type": "Text",
+      "props": {
+        "text": "Fc eth 15m",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "section_analysis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_analysis",
+        "text_classification_issue",
+        "text_pattern_detail",
+        "text_timestamp_note"
+      ]
+    },
+    "heading_analysis": {
+      "type": "Heading",
+      "props": {
+        "text": "Classification Issue",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text_classification_issue": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_pattern_detail": {
+      "type": "Text",
+      "props": {
+        "text": "Recurring \"Fc\" pattern detected",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_timestamp_note": {
+      "type": "Text",
+      "props": {
+        "text": "14:44Z same day also marked ambiguous",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "alert_questions": {
+      "type": "Alert",
+      "props": {
+        "title": "Open Questions",
+        "message": "What does \"Fc\" mean? What's the intent on \"15m\"? Timeframe observation or 1.5% position allocation?",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}
