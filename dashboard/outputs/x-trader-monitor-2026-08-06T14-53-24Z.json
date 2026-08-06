@@ -1,0 +1,56 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet-card",
+        "separator",
+        "stack-footer"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "And that's exactly why you don't scalp LTF moves on $BTC while it's in the process of forming a HTF macro bottom.\n\nDoesn't matter how good you are, this range is designed to chop everyone up. Messy internal structure exists to take liquidity from both sides.\n\nThat's why I primarily focus on HTF swing positions instead of chasing LTF noise."
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack-footer": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "note-text",
+        "link-tweet"
+      ]
+    },
+    "note-text": {
+      "type": "Text",
+      "props": {
+        "text": "Reinforces documented HTF swing conviction + tactical scalp hedge discipline.",
+        "variant": "caption"
+      }
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2085377132616720802"
+      }
+    }
+  }
+}
