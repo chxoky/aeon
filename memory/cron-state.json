@@ -98,10 +98,10 @@
   },
   "token-alert": {
     "last_dispatch": "2026-08-06T13:22:18Z",
-    "last_status": "dispatched",
-    "last_success": "2026-08-05T13:25:51Z",
-    "total_runs": 23,
-    "total_successes": 23,
+    "last_status": "success",
+    "last_success": "2026-08-06T13:24:47Z",
+    "total_runs": 24,
+    "total_successes": 24,
     "total_failures": 0,
     "consecutive_failures": 0,
     "success_rate": 1
