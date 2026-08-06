@@ -1,0 +1,205 @@
+{
+  "root": "mainCard",
+  "state": {},
+  "elements": {
+    "mainCard": {
+      "type": "Card",
+      "props": {
+        "title": "Trade Signal — @Wild_Randomness"
+      },
+      "children": [
+        "headerStack",
+        "quoteSection",
+        "sep1",
+        "chartSection",
+        "actionSection"
+      ]
+    },
+    "headerStack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "signalStack",
+        "entryStack"
+      ]
+    },
+    "signalStack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "assetBadge",
+        "longBadge",
+        "orderBadge"
+      ]
+    },
+    "assetBadge": {
+      "type": "Badge",
+      "props": {
+        "text": "$HYPE",
+        "variant": "default"
+      }
+    },
+    "longBadge": {
+      "type": "Badge",
+      "props": {
+        "text": "LONG",
+        "variant": "secondary"
+      }
+    },
+    "orderBadge": {
+      "type": "Badge",
+      "props": {
+        "text": "MARKET order",
+        "variant": "outline"
+      }
+    },
+    "entryStack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "priceStat",
+        "entryText"
+      ]
+    },
+    "priceStat": {
+      "type": "Stat",
+      "props": {
+        "label": "Entry Price (Bounce)",
+        "value": "57.205",
+        "delta": "+3.88%",
+        "trend": "up"
+      }
+    },
+    "entryText": {
+      "type": "Text",
+      "props": {
+        "text": "Entry: ~55-56 support consolidation, current bounce to 57.205 on 1D",
+        "variant": "body"
+      }
+    },
+    "quoteSection": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "quoteText"
+      ]
+    },
+    "quoteText": {
+      "type": "Text",
+      "props": {
+        "text": "\"Back in the trading acct on this flip\"",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "chartSection": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "chartHeading",
+        "analysisStack"
+      ]
+    },
+    "chartHeading": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart Analysis",
+        "level": "h3"
+      }
+    },
+    "analysisStack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item1d",
+        "item1h",
+        "setupText",
+        "resistanceText"
+      ]
+    },
+    "item1d": {
+      "type": "Text",
+      "props": {
+        "text": "1D: Major peak 77 → support consolidation 50-55 → current recovery bounce 57.205",
+        "variant": "body"
+      }
+    },
+    "item1h": {
+      "type": "Text",
+      "props": {
+        "text": "1H: Consolidation support 54-55 with recent bounce structure",
+        "variant": "body"
+      }
+    },
+    "setupText": {
+      "type": "Text",
+      "props": {
+        "text": "Setup: Technical bounce off recognized support with multi-timeframe confirmation",
+        "variant": "body"
+      }
+    },
+    "resistanceText": {
+      "type": "Text",
+      "props": {
+        "text": "Resistance: Prior consolidation highs 75-77 zone",
+        "variant": "body"
+      }
+    },
+    "actionSection": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "postLink",
+        "sep2",
+        "actionAlert"
+      ]
+    },
+    "postLink": {
+      "type": "Link",
+      "props": {
+        "label": "View post on X",
+        "href": "https://x.com/Wild_Randomness/status/2085370925613187477"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "actionAlert": {
+      "type": "Alert",
+      "props": {
+        "title": "Mirror this trade?",
+        "message": "Reply `approve $HYPE` to mirror on Kraken (spot), or ignore to skip.",
+        "type": "info"
+      }
+    }
+  }
+}

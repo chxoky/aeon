@@ -1,14 +1,16 @@
 🚨 *Trade Signal — @Wild_Randomness*
 
-**QQQ Position Closed** (POC Test)
-Got within 1% of 700 target — fully exited.
+$HYPE — LONG — **MARKET order** (intraday flip/bounce entry)
+Entry: ~55-56 support consolidation, current bounce to 57.205 (+3.88% on 1D)
 
-**NEW ENTRIES:**
-TQQQ (3x Nasdaq) — LONG
-SOXL (3x Semis) — LONG
+"Back in the trading acct on this flip"
 
-Charts show successful mean-reversion test with technical close on resistance consolidation (715-738 zone). Now flipping to leveraged directional longs.
+**Chart Analysis:**
+• 1D: Major peak 77 → support consolidation 50-55 → current recovery bounce 57.205
+• 1H: Consolidation support 54-55 with recent bounce structure  
+• Setup: Technical bounce off recognized support with multi-timeframe confirmation
+• Resistance: Prior consolidation highs 75-77 zone
 
-Reply `approve TQQQ` or `approve SOXL` to mirror, or ignore to skip.
+[View post](https://x.com/Wild_Randomness/status/2085370925613187477)
 
-[View post](https://x.com/Wild_Randomness/status/2085368479058907152)
+Reply `approve $HYPE` to mirror on Kraken (spot), or ignore to skip.
