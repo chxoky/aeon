@@ -209,11 +209,30 @@
 - **Status**: ACTIVE — LADDER ENTRY INITIATED 2026-07-14T15:38:48Z
 - **Entry range**: 64.8K–65.8K (laddering gradual, small-position entry)
 - **Position size**: Small (~30% hedge of total BTC holdings on separate account)
-- **Entry signal**: Execution on conditional scalp-short plan from Discord 14:08:41 UTC message ("Hoping we get a sweep above the highs so I can start laddering into some scalp shorts")
+- **Entry signal**: Execution on conditional scalp-short plan from Discord 14:08:41 UTC message ("Hoping we get a sweep above the highs so I can start ladering into some scalp shorts")
 - **Invalidation**: 66.5–66.8K
 - **Thesis**: Tactical hedge against HTF 2x long conviction (same message: "Remember I am still swing long on the HTF. So this current short serves as somewhat of a hedge against my holdings"). NOT a standalone bearish conviction; rather, a portfolio hedge to cap drawdown risk on core long if market stalls into 65–66K zone.
 - **Context**: Execution reply following earlier conditional plan setup and "Checkmate" X post at 15:34Z. Chart attachment support execution structure. Message_id: 1526613949217509600, fast-path alerted by Cloudflare Worker (Telegram already sent 2-5s after message).
 - **Last update**: 2026-07-14T15:38:48Z (discord-trader-monitor real-time, trade-new-entry; message_id=1526613949217509600)
+
+### BTC — SHORT (NEW ENTRY — 2026-08-06T11:17:10Z)
+- **Status**: PENDING APPROVAL — awaiting Kyle `approve BTC-SHORT-KILLAXBT` signal to mirror on Kraken spot
+- **Entry**: 2026-08-06T11:17:10Z (Discord primary channel, message_id=1534883027300122726)
+- **Entry message**: "Took a small short on **BTC** at CMP according to the 5th pivot. \n\nPutting SL at 65.215"
+- **Entry level**: CMP (current market price at time of execution, ~11:17 UTC Aug 06)
+- **Entry type**: Market order (execution at current price)
+- **Portfolio allocation**: UNKNOWN (size described as "small short"; exact percentage not specified in post; awaiting Kyle approval decision)
+- **Stop Loss**: 65.215 (disciplined risk management, specific level discipline evident)
+- **Technical setup**: 5th pivot structure analysis — KillaXBT searching for correction setup at key pivot level; structure validation required before larger short
+- **Entry context**: Reply to own prior GM message about closing 64.4K short due to deteriorating structure. Current re-entry represents improved structure confirmation (5th pivot validation). Timing: Asian morning session (11:17 UTC = London overlap); aligns with documented disciplined entry patterns.
+- **Rationale**: Tactical correction setup at technical 5th pivot. Maintains HTF 2x long conviction while using micro-short as tactical scalp opportunity. Size discipline ("small short") reinforces macro-bottom-proximity conviction (bear cycle ~80% complete per prior analysis). Not directional bearish conviction; structured hedge/scalp within broader bull framework.
+- **Conviction**: MEDIUM (small size indicates tactical hedge, not core bearish thesis; entry on technical pivot validation suggests situational opportunity rather than high-conviction directional short)
+- **Approval/Alert status**: 
+  - Discord: Fast-path alerted by Cloudflare Worker (~2-5s post-message)
+  - Mirror status: PENDING — awaiting Kyle approval to mirror "small short" on Kraken spot (or skip to monitor as memory-only entry)
+- **Cross-platform note**: First mention of Aug 06 BTC short across all tracked platforms (Discord primary sighting); no prior X post on same trade detected.
+- **Chart**: Image attachment provided showing 5th pivot structure and entry/SL levels.
+- **Last update**: 2026-08-06T11:17:10Z (discord-trader-monitor real-time, fast-path alerted, message_id=1534883027300122726)
 
 ### BTC — SHORT (tactical position, fully closed with small profits — PRIOR ENTRY)
 - **Status**: CLOSED — SHORT POSITION FULLY EXITED 2026-07-06T13:30:11Z → 2026-07-06T16:47:59Z
