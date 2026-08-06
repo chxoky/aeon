@@ -1,0 +1,846 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Token Movers — 2026-08-06"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "summary",
+        "heading_winners",
+        "stack_winners",
+        "sep1",
+        "heading_losers",
+        "stack_losers",
+        "sep2",
+        "heading_trending",
+        "stack_trending",
+        "sep3",
+        "heading_notable",
+        "stack_notable"
+      ]
+    },
+    "summary": {
+      "type": "Text",
+      "props": {
+        "text": "BTC flat (+0.5%), ETH modest (+1.6%), but ~65% of the non-stablecoin top 100 are red; ZEC, CC, ONDO, ARB, and XLM each down 4–7%.",
+        "variant": "lead"
+      }
+    },
+    "heading_winners": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Winners (24h)",
+        "level": "h2"
+      }
+    },
+    "stack_winners": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "w1",
+        "w2",
+        "w3",
+        "w4",
+        "w5",
+        "w6",
+        "w7",
+        "w8",
+        "w9",
+        "w10"
+      ]
+    },
+    "w1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "w1_header",
+        "w1_detail"
+      ]
+    },
+    "w1_header": {
+      "type": "Text",
+      "props": {
+        "text": "1. BinanceLife — $0.5270"
+      }
+    },
+    "w1_detail": {
+      "type": "Text",
+      "props": {
+        "text": "+7.1% (24h) | −17.8% (7d) | −0.4% (1h) • $11.1M | #95",
+        "variant": "caption"
+      }
+    },
+    "w2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "w2_header",
+        "w2_detail",
+        "w2_badge"
+      ]
+    },
+    "w2_header": {
+      "type": "Text",
+      "props": {
+        "text": "2. PI (Pi Network) — $0.0925"
+      }
+    },
+    "w2_detail": {
+      "type": "Text",
+      "props": {
+        "text": "+4.9% (24h) | +12.4% (7d) | +0.8% (1h) • $14.4M | #64",
+        "variant": "caption"
+      }
+    },
+    "w2_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+UP",
+        "variant": "secondary"
+      }
+    },
+    "w3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "w3_header",
+        "w3_detail"
+      ]
+    },
+    "w3_header": {
+      "type": "Text",
+      "props": {
+        "text": "3. LIT (Lighter) — $2.18"
+      }
+    },
+    "w3_detail": {
+      "type": "Text",
+      "props": {
+        "text": "+4.3% (24h) | −1.1% (7d) | −0.6% (1h) • $30.0M | #92",
+        "variant": "caption"
+      }
+    },
+    "w4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "w4_header",
+        "w4_detail"
+      ]
+    },
+    "w4_header": {
+      "type": "Text",
+      "props": {
+        "text": "4. GT (Gate) — $6.65"
+      }
+    },
+    "w4_detail": {
+      "type": "Text",
+      "props": {
+        "text": "+3.1% (24h) | +1.0% (7d) | +0.2% (1h) • $2.0M | #80",
+        "variant": "caption"
+      }
+    },
+    "w5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "w5_header",
+        "w5_detail",
+        "w5_badge"
+      ]
+    },
+    "w5_header": {
+      "type": "Text",
+      "props": {
+        "text": "5. XMR (Monero) — $363.70"
+      }
+    },
+    "w5_detail": {
+      "type": "Text",
+      "props": {
+        "text": "+3.0% (24h) | +0.9% (7d) | +0.5% (1h) • $89.0M | #17",
+        "variant": "caption"
+      }
+    },
+    "w5_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "MAJOR",
+        "variant": "default"
+      }
+    },
+    "w6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "w6_header",
+        "w6_detail"
+      ]
+    },
+    "w6_header": {
+      "type": "Text",
+      "props": {
+        "text": "6. VVV (Venice Token) — $11.39"
+      }
+    },
+    "w6_detail": {
+      "type": "Text",
+      "props": {
+        "text": "+2.8% (24h) | −5.7% (7d) | +0.4% (1h) • $10.3M | #93",
+        "variant": "caption"
+      }
+    },
+    "w7": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "w7_header",
+        "w7_detail"
+      ]
+    },
+    "w7_header": {
+      "type": "Text",
+      "props": {
+        "text": "7. BDX (Beldex) — $0.08670"
+      }
+    },
+    "w7_detail": {
+      "type": "Text",
+      "props": {
+        "text": "+2.2% (24h) | +3.4% (7d) | +0.1% (1h) • $11.8M | #86",
+        "variant": "caption"
+      }
+    },
+    "w8": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "w8_header",
+        "w8_detail",
+        "w8_badge"
+      ]
+    },
+    "w8_header": {
+      "type": "Text",
+      "props": {
+        "text": "8. ETH (Ethereum) — $1,895"
+      }
+    },
+    "w8_detail": {
+      "type": "Text",
+      "props": {
+        "text": "+1.6% (24h) | −1.3% (7d) | −0.4% (1h) • $8.5B | #2",
+        "variant": "caption"
+      }
+    },
+    "w8_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "MAJOR",
+        "variant": "default"
+      }
+    },
+    "w9": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "w9_header",
+        "w9_detail"
+      ]
+    },
+    "w9_header": {
+      "type": "Text",
+      "props": {
+        "text": "9. UNI (Uniswap) — $3.98"
+      }
+    },
+    "w9_detail": {
+      "type": "Text",
+      "props": {
+        "text": "+1.4% (24h) | −2.8% (7d) | −0.6% (1h) • $245M | #38",
+        "variant": "caption"
+      }
+    },
+    "w10": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "w10_header",
+        "w10_detail"
+      ]
+    },
+    "w10_header": {
+      "type": "Text",
+      "props": {
+        "text": "10. LTC (Litecoin) — $45.14"
+      }
+    },
+    "w10_detail": {
+      "type": "Text",
+      "props": {
+        "text": "+1.1% (24h) | −0.4% (7d) | +0.6% (1h) • $158M | #27",
+        "variant": "caption"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_losers": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Losers (24h)",
+        "level": "h2"
+      }
+    },
+    "stack_losers": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "l1",
+        "l2",
+        "l3",
+        "l4",
+        "l5",
+        "l6",
+        "l7",
+        "l8",
+        "l9",
+        "l10"
+      ]
+    },
+    "l1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "l1_header",
+        "l1_detail"
+      ]
+    },
+    "l1_header": {
+      "type": "Text",
+      "props": {
+        "text": "1. BEAT (Audiera) — $2.11"
+      }
+    },
+    "l1_detail": {
+      "type": "Text",
+      "props": {
+        "text": "−15.4% (24h) | −46.4% (7d) | +16.6% (1h) • $38.5M | #88",
+        "variant": "caption"
+      }
+    },
+    "l2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "l2_header",
+        "l2_detail"
+      ]
+    },
+    "l2_header": {
+      "type": "Text",
+      "props": {
+        "text": "2. PUMP (Pump.fun) — $0.002330"
+      }
+    },
+    "l2_detail": {
+      "type": "Text",
+      "props": {
+        "text": "−7.2% (24h) | +21.3% (7d) | +0.5% (1h) • $80.3M | #69",
+        "variant": "caption"
+      }
+    },
+    "l3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "l3_header",
+        "l3_detail",
+        "l3_badge"
+      ]
+    },
+    "l3_header": {
+      "type": "Text",
+      "props": {
+        "text": "3. CC (Canton) — $0.1011"
+      }
+    },
+    "l3_detail": {
+      "type": "Text",
+      "props": {
+        "text": "−6.8% (24h) | −16.9% (7d) | +0.3% (1h) • $13.8M | #24",
+        "variant": "caption"
+      }
+    },
+    "l3_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+DOWN",
+        "variant": "destructive"
+      }
+    },
+    "l4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "l4_header",
+        "l4_detail"
+      ]
+    },
+    "l4_header": {
+      "type": "Text",
+      "props": {
+        "text": "4. WLD (Worldcoin) — $0.3029"
+      }
+    },
+    "l4_detail": {
+      "type": "Text",
+      "props": {
+        "text": "−5.1% (24h) | −1.1% (7d) | −0.9% (1h) • $104M | #63",
+        "variant": "caption"
+      }
+    },
+    "l5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "l5_header",
+        "l5_detail"
+      ]
+    },
+    "l5_header": {
+      "type": "Text",
+      "props": {
+        "text": "5. ZEC (Zcash) — $489.24"
+      }
+    },
+    "l5_detail": {
+      "type": "Text",
+      "props": {
+        "text": "−4.9% (24h) | +2.9% (7d) | −0.6% (1h) • $176M | #15",
+        "variant": "caption"
+      }
+    },
+    "l6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "l6_header",
+        "l6_detail"
+      ]
+    },
+    "l6_header": {
+      "type": "Text",
+      "props": {
+        "text": "6. ONDO (Ondo) — $0.3666"
+      }
+    },
+    "l6_detail": {
+      "type": "Text",
+      "props": {
+        "text": "−4.5% (24h) | −13.0% (7d) | −1.3% (1h) • $88.6M | #44",
+        "variant": "caption"
+      }
+    },
+    "l7": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "l7_header",
+        "l7_detail"
+      ]
+    },
+    "l7_header": {
+      "type": "Text",
+      "props": {
+        "text": "7. ARB (Arbitrum) — $0.07757"
+      }
+    },
+    "l7_detail": {
+      "type": "Text",
+      "props": {
+        "text": "−4.4% (24h) | −0.9% (7d) | −0.5% (1h) • $33.3M | #97",
+        "variant": "caption"
+      }
+    },
+    "l8": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "l8_header",
+        "l8_detail"
+      ]
+    },
+    "l8_header": {
+      "type": "Text",
+      "props": {
+        "text": "8. XLM (Stellar) — $0.1599"
+      }
+    },
+    "l8_detail": {
+      "type": "Text",
+      "props": {
+        "text": "−4.1% (24h) | −7.5% (7d) | −0.6% (1h) • $137M | #20",
+        "variant": "caption"
+      }
+    },
+    "l9": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "l9_header",
+        "l9_detail"
+      ]
+    },
+    "l9_header": {
+      "type": "Text",
+      "props": {
+        "text": "9. AVAX (Avalanche) — $6.40"
+      }
+    },
+    "l9_detail": {
+      "type": "Text",
+      "props": {
+        "text": "−3.6% (24h) | −1.2% (7d) | −0.3% (1h) • $208M | #32",
+        "variant": "caption"
+      }
+    },
+    "l10": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "l10_header",
+        "l10_detail"
+      ]
+    },
+    "l10_header": {
+      "type": "Text",
+      "props": {
+        "text": "10. SHIB (Shiba Inu) — $0.0000047"
+      }
+    },
+    "l10_detail": {
+      "type": "Text",
+      "props": {
+        "text": "−3.6% (24h) | +1.5% (7d) | −0.6% (1h) • $68.6M | #31",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_trending": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending",
+        "level": "h2"
+      }
+    },
+    "stack_trending": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7"
+      ]
+    },
+    "t1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t1_header",
+        "t1_badge"
+      ]
+    },
+    "t1_header": {
+      "type": "Text",
+      "props": {
+        "text": "1. CASHCAT (Cash Cat) — #211, $0.1476, +62.6%"
+      }
+    },
+    "t1_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "PUMP-RISK",
+        "variant": "destructive"
+      }
+    },
+    "t2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t2_header"
+      ]
+    },
+    "t2_header": {
+      "type": "Text",
+      "props": {
+        "text": "2. PENGU (Pudgy Penguins) — #108, $0.006092, +1.0%"
+      }
+    },
+    "t3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t3_header",
+        "t3_badge"
+      ]
+    },
+    "t3_header": {
+      "type": "Text",
+      "props": {
+        "text": "3. CC (Canton) — #24, $0.1013, −6.3%"
+      }
+    },
+    "t3_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+DOWN",
+        "variant": "destructive"
+      }
+    },
+    "t4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t4_header",
+        "t4_badge"
+      ]
+    },
+    "t4_header": {
+      "type": "Text",
+      "props": {
+        "text": "4. HYPE (Hyperliquid) — #10, $54.76, −3.7%"
+      }
+    },
+    "t4_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+DOWN",
+        "variant": "destructive"
+      }
+    },
+    "t5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t5_header",
+        "t5_badge"
+      ]
+    },
+    "t5_header": {
+      "type": "Text",
+      "props": {
+        "text": "5. TAKE (OVERTAKE) — #772, $0.06373, +40.5%"
+      }
+    },
+    "t5_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "PUMP-RISK",
+        "variant": "destructive"
+      }
+    },
+    "t6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t6_header",
+        "t6_badge"
+      ]
+    },
+    "t6_header": {
+      "type": "Text",
+      "props": {
+        "text": "6. HEI (Heima) — #773, $0.2636, +32.3%"
+      }
+    },
+    "t6_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "PUMP-RISK",
+        "variant": "destructive"
+      }
+    },
+    "t7": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t7_header"
+      ]
+    },
+    "t7_header": {
+      "type": "Text",
+      "props": {
+        "text": "7. BLESS — #476, $0.02392, +20.6%"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_notable": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h2"
+      }
+    },
+    "stack_notable": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "n1",
+        "n2",
+        "n3",
+        "n4"
+      ]
+    },
+    "n1": {
+      "type": "Alert",
+      "props": {
+        "title": "PI — Sustained momentum",
+        "message": "Trending + up +4.9% (24h) on +12.4% (7d) — sustained move, not a single-day spike.",
+        "type": "info"
+      }
+    },
+    "n2": {
+      "type": "Alert",
+      "props": {
+        "title": "CASHCAT — Pump alert",
+        "message": "Rank 211, +62.6% today — PUMP-RISK flagged; HCH already entered 1% short at 13:03 UTC (fast-path alerted).",
+        "type": "warning"
+      }
+    },
+    "n3": {
+      "type": "Alert",
+      "props": {
+        "title": "TAKE / HEI — Micro-cap spikes",
+        "message": "Ranks 772/773, up 40%/32% — both PUMP-RISK, micro-cap spikes in trending.",
+        "type": "warning"
+      }
+    },
+    "n4": {
+      "type": "Alert",
+      "props": {
+        "title": "CC — Trending not helping",
+        "message": "Trending but falling −6.8% (24h) / −16.9% (7d) — search interest not stopping the bleed.",
+        "type": "warning"
+      }
+    }
+  }
+}
