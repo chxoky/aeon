@@ -1,0 +1,55 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "badge-calibration",
+        "event-text",
+        "tweet-reply",
+        "separator-1",
+        "alert-classification"
+      ]
+    },
+    "badge-calibration": {
+      "type": "Badge",
+      "props": {
+        "text": "Calibration — @swarmister",
+        "variant": "outline"
+      }
+    },
+    "event-text": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @0xbags — original post not visible",
+        "variant": "lead"
+      }
+    },
+    "tweet-reply": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "@0xbags Banger"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert-classification": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Unable to classify",
+        "message": "\"Banger\" could mean trade affirmation (great setup) or general banter. Need to see original @0xbags post to determine if this is financial signal or personal reply. Whats your read?"
+      }
+    }
+  }
+}
