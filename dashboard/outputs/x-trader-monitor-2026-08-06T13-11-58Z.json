@@ -1,0 +1,71 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @HeartCanHodl"
+      },
+      "children": [
+        "text_reply",
+        "tweet_card",
+        "sep1",
+        "heading_analysis",
+        "text_analysis",
+        "sep2",
+        "link_view"
+      ]
+    },
+    "text_reply": {
+      "type": "Text",
+      "props": {
+        "text": "Replying to @zoomerfied",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "We know what goes behind"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "heading_analysis": {
+      "type": "Heading",
+      "props": {
+        "text": "Analysis",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text_analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — too cryptic/ambiguous, no ticker or action indicated. Is this market commentary, a setup for a later signal, or non-financial banter? Your read?"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/HeartCanHodl/status/2085351859829801296"
+      },
+      "children": []
+    }
+  }
+}
