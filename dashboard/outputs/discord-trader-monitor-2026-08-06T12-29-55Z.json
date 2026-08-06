@@ -1,0 +1,80 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Calibration — [DC: HCH — Chat]"
+      },
+      "children": [
+        "tweet_section",
+        "separator_1",
+        "classification_section"
+      ]
+    },
+    "tweet_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "cryptic_heading",
+        "tweet_card"
+      ]
+    },
+    "cryptic_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Cryptic message",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "heartcanhodl",
+        "text": "Fc hype 15m"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "classification_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "classification_heading",
+        "classification_alert"
+      ]
+    },
+    "classification_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Classification",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "classification_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read? Is this a filled confirmation, chart check, or something else?",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}
