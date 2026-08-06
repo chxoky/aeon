@@ -1,0 +1,140 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "heading_calibration",
+        "event_section",
+        "sep1",
+        "message_section",
+        "sep2",
+        "context_section"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: HCH — Chat]",
+        "level": "h2"
+      }
+    },
+    "event_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event_label",
+        "event_text"
+      ]
+    },
+    "event_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "event_text": {
+      "type": "Text",
+      "props": {
+        "text": "Recent ETH short hedge close (14:06Z reduced 5% → 2.5%)"
+      }
+    },
+    "sep1": {
+      "type": "Separator"
+    },
+    "message_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "message_label",
+        "message_card",
+        "classification_alert",
+        "fc_explanation",
+        "one_m_explanation"
+      ]
+    },
+    "message_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Discord Message",
+        "level": "h3"
+      }
+    },
+    "message_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "heartcanhodl",
+        "text": "Fc eth 1m"
+      }
+    },
+    "classification_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read?",
+        "type": "info"
+      }
+    },
+    "fc_explanation": {
+      "type": "Text",
+      "props": {
+        "text": "Fc = Force Close / Futures Close / Filled Crypto / First Chart / other?",
+        "variant": "caption"
+      }
+    },
+    "one_m_explanation": {
+      "type": "Text",
+      "props": {
+        "text": "1m = 1% allocation or 1-minute chart?",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator"
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_label",
+        "context_detail",
+        "message_id"
+      ]
+    },
+    "context_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "context_detail": {
+      "type": "Text",
+      "props": {
+        "text": "Prior \"Fc\" messages Aug 05-06 also ambiguous.",
+        "variant": "body"
+      }
+    },
+    "message_id": {
+      "type": "Badge",
+      "props": {
+        "text": "Message ID: 1534935164105392210",
+        "variant": "outline"
+      }
+    }
+  }
+}
