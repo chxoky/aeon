@@ -1,0 +1,136 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_status",
+        "sep1",
+        "timeline_section",
+        "sep2",
+        "classification_section",
+        "sep3",
+        "description_section",
+        "sep4",
+        "link_section"
+      ]
+    },
+    "heading_status": {
+      "type": "Heading",
+      "props": {
+        "text": "✅ Self-resolved — @HeartCanHodl",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "timeline_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_earlier",
+        "text_resolved"
+      ]
+    },
+    "text_earlier": {
+      "type": "Text",
+      "props": {
+        "text": "Earlier ambiguous: \"Caught the fish 🎣\" (Aug 05 19:07Z)",
+        "variant": "body"
+      }
+    },
+    "text_resolved": {
+      "type": "Text",
+      "props": {
+        "text": "Resolved by: \"Partial\" (Aug 06 11:09Z)",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_classification_label",
+        "badge_trade",
+        "text_classification_detail"
+      ]
+    },
+    "text_classification_label": {
+      "type": "Text",
+      "props": {
+        "text": "Classification:",
+        "variant": "muted"
+      }
+    },
+    "badge_trade": {
+      "type": "Badge",
+      "props": {
+        "text": "trade-new-entry"
+      }
+    },
+    "text_classification_detail": {
+      "type": "Text",
+      "props": {
+        "text": "with partial fill on BTC liquidation hunt",
+        "variant": "caption"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "description_section": {
+      "type": "Text",
+      "props": {
+        "text": "HCH executed a position to liquidate a 40x BTC short trader and caught a partial fill.",
+        "variant": "body"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_section": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View post",
+        "href": "https://x.com/HeartCanHodl/status/2085322390112755923",
+        "source": "X"
+      }
+    }
+  }
+}

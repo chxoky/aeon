@@ -1,0 +1,8 @@
+✅ *Self-resolved — @HeartCanHodl*
+
+Earlier ambiguous: "Caught the fish 🎣" (Aug 05 19:07Z)
+Resolved by: "Partial" (Aug 06 11:09Z)
+
+Classification: **trade-new-entry** with partial fill on BTC liquidation hunt. HCH executed a position to liquidate a 40x BTC short trader (Hyperdash 0xff84...8f1d at 99.76% margin) and caught a partial fill — market may not have moved enough to fully liquidate the target position.
+
+[View post](https://x.com/HeartCanHodl/status/2085322390112755923)
