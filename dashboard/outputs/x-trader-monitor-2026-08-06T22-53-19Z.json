@@ -1,0 +1,92 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_source",
+        "storylink_tweet",
+        "sep1",
+        "heading_action",
+        "text_short_position",
+        "text_resistance",
+        "text_no_mirror",
+        "sep2",
+        "heading_context",
+        "text_conviction"
+      ]
+    },
+    "badge_source": {
+      "type": "Badge",
+      "props": {
+        "text": "🐦 [Context] @HeartCanHodl"
+      }
+    },
+    "storylink_tweet": {
+      "type": "StoryLink",
+      "props": {
+        "title": "$LIT holders, I'd be slowly trimming here.",
+        "href": "https://x.com/HeartCanHodlstatus/2085497754923721148",
+        "source": "@HeartCanHodl"
+      }
+    },
+    "sep1": {
+      "type": "Separator"
+    },
+    "heading_action": {
+      "type": "Heading",
+      "props": {
+        "text": "Position Details",
+        "level": "h3"
+      }
+    },
+    "text_short_position": {
+      "type": "Text",
+      "props": {
+        "text": "Added 1% LIT short 17 minutes prior (22:29Z)"
+      }
+    },
+    "text_resistance": {
+      "type": "Text",
+      "props": {
+        "text": "Suggesting trim at 2.3149 resistance after strong 4h move"
+      }
+    },
+    "text_no_mirror": {
+      "type": "Text",
+      "props": {
+        "text": "No mirror position to close — informational context on winning short thesis"
+      }
+    },
+    "sep2": {
+      "type": "Separator"
+    },
+    "heading_context": {
+      "type": "Heading",
+      "props": {
+        "text": "Historical Context",
+        "level": "h3"
+      }
+    },
+    "text_conviction": {
+      "type": "Text",
+      "props": {
+        "text": "Prior conviction (Jul 27): 'second best trade in the market is short $LIT'"
+      }
+    }
+  }
+}
