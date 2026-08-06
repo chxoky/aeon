@@ -1,0 +1,77 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading_calibration",
+        "separator_1",
+        "alert_context",
+        "tweet_post",
+        "text_analysis",
+        "separator_2",
+        "text_question",
+        "link_view_post"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @swarmister",
+        "level": "h2"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_context": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "message": "Unable to see original @LSDinmycoffee post context."
+      }
+    },
+    "tweet_post": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "@LSDinmycoffee 📞📲 FBI"
+      }
+    },
+    "text_analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Cryptic emoji-only reply (phone + FBI emojis) with no visible financial language, ticker, level, or action. Unable to determine if this is financial signal or personal banter without seeing the referenced message context.",
+        "variant": "body"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_question": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read on this? Is this a financial signal or personal interaction?",
+        "variant": "lead"
+      }
+    },
+    "link_view_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/swarmister/status/2085387959306514740"
+      }
+    }
+  }
+}
