@@ -14,3 +14,8 @@ Discord trader monitor event processed for HeartCanHodl at 2026-08-06 14:05:40 U
 - ✅ Logged event to memory/logs/2026-08-06.md with full context
 
 **Verbatim rule applied:** Channel 1279738718680256553 requires exact message text ("Close 5% eth short") in memory — preserved as-is, no rephrase.
+🚨 *Trade Signal — [DC: HCH — Trades]*
+
+Close 5% btc short
+
+_via Discord — HCH — Trades_

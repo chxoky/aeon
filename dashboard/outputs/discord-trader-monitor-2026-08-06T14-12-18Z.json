@@ -1,0 +1,31 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "alert_signal",
+        "text_source"
+      ]
+    },
+    "alert_signal": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Trade Signal — DC: HCH — Trades",
+        "message": "Close 5% btc short"
+      }
+    },
+    "text_source": {
+      "type": "Text",
+      "props": {
+        "text": "via Discord — HCH — Trades",
+        "variant": "caption"
+      }
+    }
+  }
+}
