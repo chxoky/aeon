@@ -19,3 +19,9 @@ Perfect! I've successfully executed the discord-trader-monitor skill with the pr
 **No Telegram Alert Sent** — Fast-path handled alerting; skill focused on memory updates and audit logging per Step 2 protocol.
 
 The skill completed successfully with no actions required from Kyle (all processing was memory/classification-only due to fast-path flag).
+🔍 *Calibration — [DC: HCH — Chat]*
+
+Event: Supporting member chat, cryptic market statement
+heartcanhodl: "+9% immediately"
+
+Unable to classify — what's your read?

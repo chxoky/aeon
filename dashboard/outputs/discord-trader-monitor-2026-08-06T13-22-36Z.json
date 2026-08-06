@@ -1,0 +1,95 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor — Calibration"
+      },
+      "children": [
+        "text_context",
+        "heading_event",
+        "badges_stack",
+        "sep1",
+        "tweet_message",
+        "sep2",
+        "alert_classify"
+      ]
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "DC: HCH — Chat",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "heading_event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "badges_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_supporting",
+        "badge_cryptic"
+      ]
+    },
+    "badge_supporting": {
+      "type": "Badge",
+      "props": {
+        "text": "Supporting member chat",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "badge_cryptic": {
+      "type": "Badge",
+      "props": {
+        "text": "cryptic market statement",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "tweet_message": {
+      "type": "TweetCard",
+      "props": {
+        "author": "heartcanhodl",
+        "text": "+9% immediately"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert_classify": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification needed",
+        "message": "Unable to classify — what's your read?",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}
