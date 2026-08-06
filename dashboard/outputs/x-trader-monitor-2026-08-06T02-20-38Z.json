@@ -1,0 +1,94 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Trade Signal — @Wild_Randomness"
+      },
+      "children": [
+        "heading_strategy",
+        "separator_1",
+        "text_positions",
+        "tweet_card",
+        "link_post",
+        "separator_2",
+        "alert_thesis",
+        "separator_3",
+        "text_actions"
+      ]
+    },
+    "heading_strategy": {
+      "type": "Heading",
+      "props": {
+        "text": "$GOLD + $IBIT PUTS — Barbell Strategy",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text_positions": {
+      "type": "Text",
+      "props": {
+        "text": "LONG gold / SHORT Bitcoin via decaying put options",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "@Parida Join me in gold longs + decaying iBIT put options barbell"
+      },
+      "children": []
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2085188153909064030"
+      },
+      "children": []
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert_thesis": {
+      "type": "Alert",
+      "props": {
+        "title": "Thesis",
+        "message": "Gold/BTC ratio divergence play. Gold rallying on volatility expansion; Bitcoin consolidating. Barbell combines bullish gold with bearish BTC via options decay.",
+        "type": "info"
+      },
+      "children": []
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text_actions": {
+      "type": "Text",
+      "props": {
+        "text": "Reply `approve GOLD` + `approve IBIT_PUTS` to mirror (or ignore to skip).",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
