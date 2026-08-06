@@ -28,3 +28,19 @@ Perfect! I've successfully executed the Discord trader monitor skill for the Hea
 - **Next Step**: Awaiting Kyle's decision on whether to mirror position on Kraken spot or monitor memory-only
 
 The skill correctly skipped duplicate Telegram sends per fast-path protocol—Kyle was already notified within seconds of the message posting. Memory and logging complete.
+Perfect. Skill execution complete. Here's the summary:
+
+## Summary
+
+**Event processed:** Discord message from HeartCanHodl  
+**Channel:** HCH — Chat (supporting)  
+**Classification:** INFORMATIONAL (supporting-channel sentiment)  
+**Action:** Logged only, no alert sent  
+
+The message "No edge, just partial gut itch" is supporting-channel chatter expressing ambivalence about a potential trade setup — lacking clear technical edge but with minor conviction interest. Per the skill protocol for supporting channels, this doesn't warrant a standalone Telegram alert; it's logged for memory tracking of HCH's real-time conviction patterns and patience discipline.
+
+**Files updated:**
+- `memory/discord-trader-seen.txt` — added message ID to prevent re-processing
+- `memory/logs/2026-08-06.md` — logged event with classification and notes
+
+**Fast-path status:** false (processed fully through all steps, no duplicate alert suppression needed)
