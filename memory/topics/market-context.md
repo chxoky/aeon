@@ -1,72 +1,76 @@
-# Market Context (as of 2026-08-05)
+# Market Context (as of 2026-08-06)
 
-> **Take:** chop — BTC +0.8% 24h, breadth flat at 7/20, F&G 27 Fear unchanged; no directional break with NFP 48h out. Conviction: low — Aug 4 ETF inflows recovered (+$170M) and F&G improving from 25→27, but BTC 7d turned negative and breadth unmoved.
+> **Take:** risk-off — breadth 6/20 green and F&G 25 Extreme Fear (falling from 27); BTC's +0.5% is pre-NFP thin-volume noise, not a genuine bid. Conviction: low — 6-day ETF inflow streak ($626M in 3 days) and ETH's +1.6% outperformance are genuine positives; breadth and sentiment oppose.
 
 ## Signal Snapshot
-- BTC $64,144 (+0.8% 24h, −0.2% 7d) · dominance 56.56% (−0.02 pp 24h)
-- ETH $1,870 (+0.3% 24h, −1.9% 7d) · ETH/BTC 0.02915
-- SOL $73.82 (+0.4% 24h, +0.3% 7d)
-- Total mcap $2.28T (+0.59% 24h) · DEX vol $6.87B 24h
-- Breadth: 7/20 green 24h · 8/20 green 7d
-- Fear & Greed: 27 (Fear) — yesterday 25 (Extreme Fear)
+- BTC $64,190 (+0.5% 24h, −0.6% 7d) · dominance 56.60% (+0.04 pp 24h)
+- ETH $1,895 (+1.6% 24h, −1.3% 7d) · ETH/BTC 0.02952
+- SOL $72.87 (−0.8% 24h, −1.5% 7d)
+- Total mcap $2.27T (−0.26% 24h) · DEX vol $7.33B 24h
+- Breadth: 6/20 green 24h · 7/20 green 7d
+- Fear & Greed: 25 (Extreme Fear) — yesterday 27 (Fear)
 
 ## What Changed Since Last Refresh
-- **ETF inflows reversed: Aug 4 +$170M** (BlackRock IBIT +$111M) — first strong single-day inflow in weeks; reverses Jul 31's −$265M outflow; structural headwind paused but not cleared.
-- **ZEC narrative upgraded emerging → rising:** +7.3% 24h, +13.8% 7d, now rank #14 and CoinGecko trending — second consecutive session of large-cap outperformance; privacy coin momentum confirmed.
-- **UNI/ONDO entered trending:** UNI +3.75% 24h, ONDO +2.43% 24h — both absent from prior trending session; RWA/DeFi blue chip rotation emerging quietly.
-- **BTC 7d crossed zero:** +0.3% → −0.2% — first weekly-red close this week; daily range holds but the 7d arc has flipped negative.
+- **Regime downgraded chop → risk-off:** breadth slipped 7/20 → 6/20 and F&G reversed 27→25, crossing into Extreme Fear; prior chop reading rested on stable breadth that no longer holds.
+- **ZEC reversal: −4.9% 24h** ($521 → $489); exited CoinGecko trending after two-session run; privacy coin narrative downgraded rising → fading.
+- **HYPE reversal: −3.5% 24h** (from +3.0% yesterday); largest single-session decline in the multi-day rising run; perps DEX narrative downgraded rising → fading.
+- **Micro-cap meme speculation breakout:** CASHCAT +62.6%, OVERTAKE +40.5%, HEI +32.3%, BLESS +20.6%, BTW +17.9% — five micro-caps in CoinGecko trending simultaneously while 11/17 top-cap non-stables are red; new narrative, new risk surface.
+- **DEX vol improved: $7.33B** (from $6.87B, +6.7%) — constructive against the weak breadth reading.
 
 ## Active Narratives
-- **ZEC / privacy coins** — phase: rising. Evidence: ZEC +7.3% 24h, +13.8% 7d, rank #14, second consecutive top-performer session and now CoinGecko trending; XMR −2.4% 24h but +1.6% 7d (single-session pullback within intact 7d trend).
-- **HYPE / perps DEX** — phase: rising. Evidence: HYPE +3.0% 24h, +4.0% 7d, second consecutive CoinGecko trending day; only large-cap sustaining multi-session momentum in a flat-to-red top-20.
-- **RWA / DeFi blue chips** — phase: emerging. Evidence: UNI +3.75% 24h and ONDO +2.43% 24h both entered CoinGecko trending today; neither appeared in prior session; mid-cap DeFi quietly bid against flat large-caps.
-- **ADA / L1 rotation** — phase: fading. Evidence: ADA −0.1% 24h after two sessions leading with +23.9% 7d gain (now trimmed to +18.5%); no follow-through on the Aug 4 recovery; profit-taking pattern holds.
-- **BTC benchmark bid** — phase: emerging. Evidence: BTC itself ranks #1 in CoinGecko trending (not just mcap rank) — speculative interest concentrating in the benchmark ahead of the NFP binary; consistent with defensive pre-event positioning.
+- **Micro-cap meme speculation** — phase: rising. Evidence: 5 tokens under $500M mcap in CoinGecko trending with +17–62% gains (CASHCAT +62.6%, OVERTAKE +40.5%, HEI +32.3%) while 11/17 top-cap non-stables are red; speculative tail-risk concentrating at market's far end.
+- **GOLD/BTC divergence** — phase: emerging. Evidence: GOLD/BTCUSD ratio at 64.5 (+1.3% on the day), recovering in 60–70 support zone after 160→64.5 crash; tracked trader entered GOLD LONG + iBIT PUT barbell today (Wild_Randomness Aug 06 02:16Z).
+- **ETH catch-up bid** — phase: emerging. Evidence: ETH +1.6% 24h vs BTC +0.5%; ETH/BTC ratio 0.02952 (from 0.02915 prior); two consecutive sessions of ETH outperformance; needs NFP resolution to confirm or fade.
+- **ZEC/privacy coins** — phase: fading. Evidence: ZEC −4.9% 24h ($489 from $521 yesterday), exited CoinGecko trending; two-session run exhausted without follow-through; XMR +3.0% holds but single-asset breadth is thin.
+- **HYPE/perps DEX** — phase: fading. Evidence: HYPE −3.5% 24h ($54.76); largest single-session loss in the tracked rising run; still +3.3% 7d but momentum decelerating; still in trending but no longer leading.
 
 ## Top DeFi Protocols (TVL, 7d change)
-- Lido: $17.61B (−1.47%)
-- Aave V3: $13.97B (+0.31%)
-- SSV Network: $9.26B (−2.00%)
-- Morpho Blue: $7.74B (+1.14%)
-- WBTC: ~$7.28B (7d delta n/a — prior snapshot)
+- Lido: $17.93B (−0.27%)
+- Aave V3: $14.13B (+1.05%)
+- SSV Network: ~$9.26B (7d delta n/a — prior snapshot Aug 5)
+- Morpho Blue: ~$7.74B (+1.14% — prior snapshot Aug 5)
+- WBTC: ~$7.28B (7d delta n/a — prior snapshot Aug 5)
 
 ## Chain Flow (top 3 by TVL, 7d)
-- Ethereum: $41.01B (flat vs Aug 4 $40.99B; 7d delta n/a from chains API)
-- BSC: $4.89B (7d delta n/a)
-- Tron: $4.83B (7d delta n/a — reclaimed #3 ahead of Solana $4.79B)
+- Ethereum: $41.54B (+1.3% from prior $41.01B)
+- BSC: $4.89B (flat)
+- Solana: $4.76B (reclaimed #3 from Tron $4.83B prior)
 
 ## Stablecoins
-Total: ~$286B (est., stable vs prior). USDT $183.13B · USDC $72.06B · USDS $9.84B · DAI ~$4.81B · USD1 ~$4.00B — combined share of mcap ~12.6%.
+Total: $266.82B. USDT $183.49B · USDC $71.84B · USDS $6.68B (⚠ was $9.84B prior — −32%; possibly Sky redemption event or data artifact) · DAI $4.81B — combined share of mcap ~11.7%.
 
 ## Trending (CoinGecko)
-- BTC (Bitcoin) — rank #1, $64,081, +0.29% 24h [benchmark trending = pre-NFP defensive focus]
-- HYPE (Hyperliquid) — rank #10, $56.85, +2.45% 24h [perps DEX momentum, 2nd consecutive day]
-- ZEC (Zcash) — rank #14, $521.15, +7.04% 24h [privacy coin run continuing]
-- XRP (XRP) — rank #6, $1.06, −1.41% 24h [large-cap giving back recent gains]
-- UNI (Uniswap) — rank #38, $3.99, +3.75% 24h [DeFi blue chip newly bid]
-- ONDO (Ondo) — rank #42, $0.38, +2.43% 24h [RWA quiet accumulation]
-- PUMP (Pump.fun) — rank #66, $0.0025, +13.81% 24h [meme launchpad; 2nd consecutive trending]
+- BTC (Bitcoin) — rank #1, $64,165, +0.13% 24h [benchmark trending = pre-NFP defensive concentration]
+- ETH (Ethereum) — rank #2, $1,893, +1.38% 24h [outperforming BTC for second consecutive session]
+- CASHCAT — rank #211, $0.15, +62.59% 24h [meme micro-cap spike; tracked trader HCH already 1% short as of 13:03 UTC]
+- OVERTAKE (TAKE) — rank #772, $0.06, +40.45% 24h [micro-cap meme speculation wave]
+- Heima (HEI) — rank #773, $0.26, +32.27% 24h [micro-cap meme speculation wave]
+- BLESS — rank #476, $0.02, +20.61% 24h [micro-cap meme speculation wave]
+- BTW (Bitway) — rank #110, $0.17, +17.90% 24h [micro-cap speculation]
+- HYPE (Hyperliquid) — rank #10, $54.76, −3.71% 24h [perps DEX; multi-session rising run reversing]
+- Canton (CC) — rank #24, $0.10, −6.29% 24h [institutional blockchain; declining despite trending]
 
 ## Prediction Markets (Polymarket, top by 24h vol)
 | Market | YES% | 24h Vol | Liquidity |
 |--------|------|---------|-----------|
-| LoL: Hanwha vs Gen.G (BO3) - LCK Legend Group | 40.5% | $1.40m | $0.20m |
-| Will the U.S. invade Iran before 2027? | 15.5% | $1.00m | $0.78m |
+| Strait of Hormuz traffic returns to normal by Aug 31? | 17.5% | $0.96m | $0.52m |
+| US announces end of Iranian blockade by Aug 7? | 37.0% | $0.61m | $0.06m |
+| No Fed rate change at Sep 2026 meeting? | 50.5% | $0.51m | $0.30m |
 
-*Top 8 markets by 24h vol are esports (LoL, Dota) and political. No crypto-specific markets active in top 10. Iran invasion steady at 15.5% (unchanged from prior). Hormuz market absent from today's top 10.*
+*Top 8 markets by 24h vol are esports (LoL). Filtered above to non-trivial macro markets (3%–97% YES range only).*
 
 ## Macro Catalysts (next 48h)
-- **NFP August 7 (2 days):** Primary binary for the Sep FOMC path. Consensus expects ~175K jobs. Hot print accelerates Fed hike risk; soft print opens a brief risk-on window. BTC 63% correlated with S&P; futures OI elevated into the number.
-- **ETF inflow momentum test:** Aug 4 +$170M was the strongest single-day inflow in 2+ weeks. Whether this continues into NFP determines if the Jul 31 outflow peak was a capitulation or head-fake.
-- **CLARITY Act delay overhang:** Senate postponed cloture vote; no new date set. Removes near-term regulatory catalyst. Hashdex ETF closing Aug 17 ($14.7M AUM) — continued concentration of flows into IBIT/FBTC.
+- **NFP August 7 (tomorrow):** Primary binary for the Sep FOMC path. Fed September meeting 50/50 on hold vs change (Polymarket 50.5% YES no-change). Hot print closes the rate-cut window; soft print opens a brief risk-on window. BTC ~63% correlated with S&P into this number; tracked traders (HCH, KillaXBT) both positioned with hedges/shorts into the event.
+- **Hormuz/Iran blockade:** US announces end of Iranian blockade by Aug 7 at 37% YES — above-consensus probability of near-term resolution. If blockade extends (63% probability), oil shock risk persists. Hormuz traffic normal by Aug 31: only 17.5% YES — extended disruption priced through month-end.
+- **ETF inflow streak:** 6 consecutive days of net BTC ETF inflows ($626M cumulative in 3 days, IBIT +$197M on Aug 5); longest streak since March. Structural positive, but continuation through NFP is the test.
 
 ## Implications for Downstream Skills
-- **token-pick:** Chop regime, NFP in 48h — no new entries. ZEC (rising) and HYPE (rising) are the only confirmed momentum names; wait for NFP resolution before sizing anything new. ETF inflow reversal is promising but needs a second day to confirm.
-- **narrative-tracker:** Update ZEC from emerging → rising (confirmed). Add RWA/DeFi blue chips (UNI/ONDO) as new emerging. ADA: confirm peak. BTC benchmark bid: new emerging. HYPE: sustained rising.
+- **token-pick:** Risk-off pre-NFP — no new entries. Micro-cap memes running hot but HCH already short CASHCAT (fastest-growing short in his basket at 13:03Z); tail risk is live on that narrative. ETH/BTC catch-up is the only confirmed constructive signal; wait for NFP resolution before sizing. Avoid HYPE and ZEC (both reversing).
+- **narrative-tracker:** Downgrade ZEC rising → fading; HYPE rising → fading. Add micro-cap meme speculation as rising (5-name simultaneous breakout). Add GOLD/BTC divergence as emerging (Wild_Randomness barbell confirmed). Add ETH catch-up bid as emerging. Add Hormuz/Iran as macro overlay.
 
 ## Token Picks Made
 | Date | Token | Price | Thesis |
 
 ---
 *Sources — btc/eth: CoinGecko · defi: DeFiLlama · sentiment: alternative.me · markets: Polymarket · catalysts: WebSearch*
-*Source status: coingecko=ok defillama=ok(chain 7d delta unavailable from API) fng=ok polymarket=ok(esports/political dominated; no high-vol crypto markets) websearch=ok*
+*Source status: coingecko=ok defillama=ok(SSV/Morpho/WBTC 7d deltas carried from Aug 5 snapshot; chains API top-3 only) fng=ok polymarket=ok(esports dominated top 8; filtered to 3 macro markets above threshold) websearch=ok*

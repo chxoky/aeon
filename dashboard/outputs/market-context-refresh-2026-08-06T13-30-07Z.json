@@ -1,0 +1,261 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "market context — 2026-08-06"
+      },
+      "children": [
+        "stance-badge",
+        "sep1",
+        "prices-section",
+        "sep2",
+        "metrics-section",
+        "sep3",
+        "narrative-section",
+        "sep4",
+        "odds-section",
+        "sep5",
+        "event-alert"
+      ]
+    },
+    "stance-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "risk-off • conviction low",
+        "variant": "secondary"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "prices-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "btc-stat",
+        "eth-stat"
+      ]
+    },
+    "btc-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$64,190",
+        "delta": "+0.5%",
+        "trend": "up"
+      }
+    },
+    "eth-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$1,895",
+        "delta": "+1.6%",
+        "trend": "up"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "metrics-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "fg-progress",
+        "breadth-progress",
+        "dex-stat"
+      ]
+    },
+    "fg-progress": {
+      "type": "Progress",
+      "props": {
+        "value": 25,
+        "max": 100,
+        "label": "F&G 25 (Extreme Fear)"
+      }
+    },
+    "breadth-progress": {
+      "type": "Progress",
+      "props": {
+        "value": 6,
+        "max": 20,
+        "label": "Breadth 6/20"
+      }
+    },
+    "dex-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "DEX Volume",
+        "value": "$7.33B",
+        "delta": "+7%",
+        "trend": "up"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "narrative-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "narrative-heading",
+        "narrative-items-stack"
+      ]
+    },
+    "narrative-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top narrative: micro-cap meme speculation (rising)",
+        "level": "h3"
+      }
+    },
+    "narrative-items-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "cashcat-stat",
+        "overtake-stat"
+      ]
+    },
+    "cashcat-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "CASHCAT",
+        "value": "+62.6%",
+        "trend": "up"
+      }
+    },
+    "overtake-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "OVERTAKE",
+        "value": "+40.5%",
+        "trend": "up"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "odds-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "odds-heading",
+        "odds-items-stack"
+      ]
+    },
+    "odds-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Market odds",
+        "level": "h3"
+      }
+    },
+    "odds-items-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "fed-odds",
+        "hormuz-odds"
+      ]
+    },
+    "fed-odds": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "fed-label",
+        "fed-progress"
+      ]
+    },
+    "fed-label": {
+      "type": "Text",
+      "props": {
+        "text": "Fed no change Sep 2026?",
+        "variant": "caption"
+      }
+    },
+    "fed-progress": {
+      "type": "Progress",
+      "props": {
+        "value": 50.5,
+        "max": 100,
+        "label": "YES 50.5%"
+      }
+    },
+    "hormuz-odds": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "hormuz-label",
+        "hormuz-progress"
+      ]
+    },
+    "hormuz-label": {
+      "type": "Text",
+      "props": {
+        "text": "Hormuz normal Aug 31",
+        "variant": "caption"
+      }
+    },
+    "hormuz-progress": {
+      "type": "Progress",
+      "props": {
+        "value": 17.5,
+        "max": 100,
+        "label": "17.5%"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "event-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "NFP binary tomorrow (Aug 7)",
+        "type": "info"
+      }
+    }
+  }
+}
