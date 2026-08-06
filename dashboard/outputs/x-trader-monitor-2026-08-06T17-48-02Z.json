@@ -1,0 +1,258 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "sep1",
+        "analysis-section",
+        "sep2",
+        "charts-section",
+        "sep3",
+        "traders-section",
+        "sep4",
+        "catalysts-section",
+        "sep5",
+        "link-section"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "$SPCX unlock catalyst + technical support structure."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "analysis-heading",
+        "analysis-text"
+      ]
+    },
+    "analysis-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Trader Analysis",
+        "level": "h3"
+      }
+    },
+    "analysis-text": {
+      "type": "Text",
+      "props": {
+        "text": "\"It was not… max fckery instead. I'm hoping a range is establishing here into the unlocks (hopefully the bullish kind). You gotta think Elon's ego won't allow this thing to trade under 100 bucks, no?\"",
+        "variant": "lead"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "charts-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "charts-heading",
+        "chart-list"
+      ]
+    },
+    "charts-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Technical Data (3 Charts)",
+        "level": "h3"
+      }
+    },
+    "chart-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "chart1",
+        "chart2",
+        "chart3"
+      ]
+    },
+    "chart1": {
+      "type": "Text",
+      "props": {
+        "text": "Daily consolidation at $110.44 from IPO peak $214",
+        "variant": "body"
+      }
+    },
+    "chart2": {
+      "type": "Text",
+      "props": {
+        "text": "SpaceX share unlock timeline—Musk's 46.1% stake eligible Day 366, aggressive early-release Aug-Sep 2026 phases",
+        "variant": "body"
+      }
+    },
+    "chart3": {
+      "type": "Text",
+      "props": {
+        "text": "Daily structure validation",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "traders-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "traders-heading",
+        "traders-list"
+      ]
+    },
+    "traders-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "4-Trader Bullish Convergence",
+        "level": "h3"
+      }
+    },
+    "traders-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trader1",
+        "trader2",
+        "trader3"
+      ]
+    },
+    "trader1": {
+      "type": "Badge",
+      "props": {
+        "text": "HCH: 2% long +22%",
+        "variant": "secondary"
+      }
+    },
+    "trader2": {
+      "type": "Badge",
+      "props": {
+        "text": "swarmister: long since Jul 29",
+        "variant": "secondary"
+      }
+    },
+    "trader3": {
+      "type": "Badge",
+      "props": {
+        "text": "ryzzqq: long interest",
+        "variant": "secondary"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "catalysts-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "catalysts-heading",
+        "catalysts-list"
+      ]
+    },
+    "catalysts-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Catalysts Accelerating",
+        "level": "h3"
+      }
+    },
+    "catalysts-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "catalyst1",
+        "catalyst2",
+        "catalyst3"
+      ]
+    },
+    "catalyst1": {
+      "type": "Badge",
+      "props": {
+        "text": "AST satellite partnership — Aug 04",
+        "variant": "outline"
+      }
+    },
+    "catalyst2": {
+      "type": "Badge",
+      "props": {
+        "text": "NVDA headlines — Aug 05",
+        "variant": "outline"
+      }
+    },
+    "catalyst3": {
+      "type": "Badge",
+      "props": {
+        "text": "unlock timeline + technical — Aug 06",
+        "variant": "outline"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link-section": {
+      "type": "Link",
+      "props": {
+        "label": "View original tweet",
+        "href": "https://x.com/Wild_Randomness/status/2085418030981636228"
+      }
+    }
+  }
+}
