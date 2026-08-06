@@ -1,0 +1,60 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "separator",
+        "footer_section"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "This range is showing the same level of choppiness we saw back in 2022.\n\nIf you look back at that period, BTC stayed in that range for about 2 months before the trend finally shifted.\n\nThis $BTC range has now been going on for 2 months as well. https://t.co/hjGm9JOqiZ"
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "footer_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "view_link",
+        "analysis_text"
+      ]
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2085443860981825863"
+      },
+      "children": []
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Historical pattern validation (2022 fractal; supports KillaXBT's 5th pivot short entry from this morning + messy structure observation). Chart shows consolidation matching described range.",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
