@@ -1,0 +1,149 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "gold-stat",
+        "sep1",
+        "tweet-card",
+        "sep2",
+        "technical-stack",
+        "sep3",
+        "charts-stack",
+        "sep4",
+        "thesis-stack",
+        "sep5",
+        "link-tweet"
+      ]
+    },
+    "gold-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "GOLD",
+        "value": "4,283"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Consolidating into weekly trend. Trader still holding spot silver, gold, and miners (leverage off)."
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "technical-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tech-heading",
+        "tech-text"
+      ]
+    },
+    "tech-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Technical Setup",
+        "level": "h3"
+      }
+    },
+    "tech-text": {
+      "type": "Text",
+      "props": {
+        "text": "Weekly uptrend intact; daily consolidation around 4,100-4,300 support zone. Above 4,370 (consolidation resistance) = breakout confirmation, simple long entry opportunity."
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "charts-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "charts-heading",
+        "charts-text"
+      ]
+    },
+    "charts-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Charts",
+        "level": "h3"
+      }
+    },
+    "charts-text": {
+      "type": "Text",
+      "props": {
+        "text": "(1) Weekly uptrend structure solid, (2) Daily consolidation at support, (3) US10Y yields 4.603% showing relief from highs."
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "thesis-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "thesis-heading",
+        "thesis-text"
+      ]
+    },
+    "thesis-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Thesis",
+        "level": "h3"
+      }
+    },
+    "thesis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Thesis aligns with GOLD LONG + IBIT PUT OPTIONS barbell entry from 02:16Z (awaiting Kyle approval)."
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2085196971053289575"
+      }
+    }
+  }
+}
