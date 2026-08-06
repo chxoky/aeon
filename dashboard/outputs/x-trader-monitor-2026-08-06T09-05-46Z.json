@@ -1,0 +1,119 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "ETH Order Flow Analysis"
+      },
+      "children": [
+        "tweet",
+        "sep1",
+        "orders",
+        "sep2",
+        "observation",
+        "link"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "@HeartCanHodl",
+        "text": "ETH order flow: Hyperdash Flows showing large TWAP orders executing — Sell $100.22M, Buy $100.20M, Sell $88.50M over 5m windows ($20M/min pace)."
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "orders": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_orders",
+        "order1",
+        "order2",
+        "order3",
+        "window",
+        "pace"
+      ]
+    },
+    "heading_orders": {
+      "type": "Heading",
+      "props": {
+        "text": "Large TWAP Orders",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "order1": {
+      "type": "Stat",
+      "props": {
+        "label": "Sell",
+        "value": "$100.22M"
+      },
+      "children": []
+    },
+    "order2": {
+      "type": "Stat",
+      "props": {
+        "label": "Buy",
+        "value": "$100.20M"
+      },
+      "children": []
+    },
+    "order3": {
+      "type": "Stat",
+      "props": {
+        "label": "Sell",
+        "value": "$88.50M"
+      },
+      "children": []
+    },
+    "window": {
+      "type": "Text",
+      "props": {
+        "text": "5-minute windows",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "pace": {
+      "type": "Text",
+      "props": {
+        "text": "$20M/min execution pace",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "observation": {
+      "type": "Text",
+      "props": {
+        "text": "Market structure observation on active ETH trading activity.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/HeartCanHodl/status/2085290045519638993"
+      },
+      "children": []
+    }
+  }
+}
