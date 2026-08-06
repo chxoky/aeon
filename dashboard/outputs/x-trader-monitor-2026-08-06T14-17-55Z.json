@@ -1,0 +1,138 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "🚨 Trade Signal — @Wild_Randomness"
+      },
+      "children": [
+        "alert-signal",
+        "sep-1",
+        "stack-closed-position",
+        "sep-2",
+        "stack-new-entries",
+        "sep-3",
+        "text-analysis",
+        "sep-4",
+        "text-call-to-action",
+        "sep-5",
+        "link-view-post"
+      ]
+    },
+    "alert-signal": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "message": "New leveraged directional positions identified"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack-closed-position": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-closed",
+        "text-closed-detail"
+      ]
+    },
+    "heading-closed": {
+      "type": "Heading",
+      "props": {
+        "text": "QQQ Position Closed (POC Test)",
+        "level": "h3"
+      }
+    },
+    "text-closed-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Got within 1% of 700 target — fully exited."
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack-new-entries": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-new-entries",
+        "badge-tqqq",
+        "badge-soxl"
+      ]
+    },
+    "heading-new-entries": {
+      "type": "Heading",
+      "props": {
+        "text": "NEW ENTRIES",
+        "level": "h3"
+      }
+    },
+    "badge-tqqq": {
+      "type": "Badge",
+      "props": {
+        "text": "TQQQ (3x Nasdaq) — LONG"
+      }
+    },
+    "badge-soxl": {
+      "type": "Badge",
+      "props": {
+        "text": "SOXL (3x Semis) — LONG"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Charts show successful mean-reversion test with technical close on resistance consolidation (715-738 zone). Now flipping to leveraged directional longs.",
+        "variant": "body"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-call-to-action": {
+      "type": "Text",
+      "props": {
+        "text": "Reply `approve TQQQ` or `approve SOXL` to mirror, or ignore to skip.",
+        "variant": "lead"
+      }
+    },
+    "sep-5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link-view-post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2085368479058907152"
+      }
+    }
+  }
+}
