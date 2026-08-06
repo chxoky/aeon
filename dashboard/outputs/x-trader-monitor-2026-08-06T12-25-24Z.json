@@ -1,0 +1,122 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Trader Monitor - $SOL"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badges",
+        "tweet_card",
+        "link_view",
+        "separator_1",
+        "context_stack"
+      ]
+    },
+    "badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_sol",
+        "badge_15m",
+        "badge_short"
+      ]
+    },
+    "badge_sol": {
+      "type": "Badge",
+      "props": {
+        "text": "$SOL",
+        "variant": "default"
+      }
+    },
+    "badge_15m": {
+      "type": "Badge",
+      "props": {
+        "text": "15m",
+        "variant": "secondary"
+      }
+    },
+    "badge_short": {
+      "type": "Badge",
+      "props": {
+        "text": "Short",
+        "variant": "destructive"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "$SOL 15m — The asset is showing local signs of relative weakness. Within the current price range, a corrective move toward the Point of Interest (POI) is expected.\n\nIts subsequent rebalancing will most likely act as a catalyst for the further development of downward Order Flow and create optimal conditions for opening a short position."
+      }
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/swarmister/status/2085338917063069888"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_consensus",
+        "text_consensus",
+        "text_chart",
+        "text_timing"
+      ]
+    },
+    "heading_consensus": {
+      "type": "Heading",
+      "props": {
+        "text": "Trader Consensus & Analysis",
+        "level": "h3"
+      }
+    },
+    "text_consensus": {
+      "type": "Text",
+      "props": {
+        "text": "Adds to the 3–4 trader bearish consensus on $SOL. HCH short, Killa/Chase/Axe watching downside vs ryzzqq long retest play."
+      }
+    },
+    "text_chart": {
+      "type": "Text",
+      "props": {
+        "text": "Chart shows POI consolidation zone with corrective arrow pointing to lower support structure."
+      }
+    },
+    "text_timing": {
+      "type": "Text",
+      "props": {
+        "text": "Timing: swarmister just returned from day off (Aug 05), signaling active market monitoring resumption.",
+        "variant": "caption"
+      }
+    }
+  }
+}
