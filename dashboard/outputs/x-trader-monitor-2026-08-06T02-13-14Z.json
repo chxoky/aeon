@@ -1,0 +1,52 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor",
+        "description": "🐦 Tweet from @Wild_Randomness on X (Twitter)"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "stat_ratio",
+        "link_tweet"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "$BTC $GOLD\n\nQuick movement out of the gate! Ratio at 64.5 (+1.3-1.4%) — sharp 2D volatility on Gold/Bitcoin consolidation structure. Charts show early recovery leg forming after long underperformance vs Bitcoin."
+      }
+    },
+    "stat_ratio": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC/GOLD Ratio",
+        "value": "64.5",
+        "delta": "+1.3-1.4%",
+        "trend": "up"
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2085185987957956791"
+      }
+    }
+  }
+}
