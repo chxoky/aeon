@@ -37,3 +37,6 @@ Perfect! All memory updates have been successfully applied. Let me provide a sum
 **Classification Summary**: Tactical rebalancing cycle on ETH short hedge within net-long regime. Position discipline maintained (BTC 10% + ETH 2.5% short hedges supporting 67.5% crypto longs + alt shorts).
 
 **Alerted**: fast-path (no duplicate Kyle notification sent — Cloudflare Worker already provided real-time Telegram ~08:40-08:42 UTC)
+💬 *[DC: HCH — Comments]*
+
+We have entered short term turbulence so hedge is the only expression to not worry about it or else portfolio swings in ltf are inevitable

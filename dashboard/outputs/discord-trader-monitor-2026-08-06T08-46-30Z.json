@@ -1,0 +1,41 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_channel",
+        "text_message"
+      ]
+    },
+    "badge_channel": {
+      "type": "Badge",
+      "props": {
+        "text": "💬 [DC: HCH — Comments]"
+      },
+      "children": []
+    },
+    "text_message": {
+      "type": "Text",
+      "props": {
+        "text": "We have entered short term turbulence so hedge is the only expression to not worry about it or else portfolio swings in ltf are inevitable",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
