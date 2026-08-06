@@ -1,24 +1,10 @@
-🐦 *[X] @KillaXBT*
+🔍 *Calibration — @HeartCanHodl*
 
-$BTC
+Event: Reply to @degenstefo, Aug 06 11:32:33 UTC
+HeartCanHodl: "@degenstefo No"
 
-The 5th Pivot
+Context: HCH posted this ~8 minutes after adding 5% more to their ETH short hedge on Discord (11:24:15 UTC), but the "No" response is cryptic alone without knowing what @degenstefo originally asked.
 
-[View post](https://x.com/HeartCanHodl/status/2085322390112755923)
-🔍 *Calibration — @swarmister*
+Unable to classify — what's your read? Financial signal or personal banter?
 
-Event: Reply to @CryptoVikings07 on cryptic topic
-swarmister: "Who is it"
-
-Unable to classify — what's your read? This is a reply-dependent message with no visible context, ticker, level, or action specified. Unable to determine if financial signal or personal interaction.
-As mentioned in my monthly open pivot post, we saw the expected pump at the start of the month, which played out as anticipated.
-
-Now, we're pushing into the 5th Pivot, a key date to watch. Over the past 1.5 years, simply inversing the prevailing narrative around this period would have captured multiple 3-4% moves in the opposite direction.
-
-If that historical pattern continues, we could see some de-risking following this pivot.
-
-That said, it's worth noting what happened last time. While we did get the expected drop, price was trading within a difficult range, which resulted in choppy price action rather than a clean move lower. Instead, BTC consolidated and chopped into the next pivot.
-
-So while the historical tendency points towards inversing the narrative, the current environment is abit tricky. So structure is just as important.
-
-[View tweet](https://x.com/KillaXBT/status/2085323818764050494)
+[View post](https://x.com/HeartCanHodl/status/2085328168521773465)

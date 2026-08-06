@@ -1,0 +1,125 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @HeartCanHodl"
+      },
+      "children": [
+        "event-section",
+        "sep-1",
+        "tweet-card",
+        "sep-2",
+        "context-section",
+        "sep-3",
+        "analysis-section",
+        "sep-4",
+        "link-section"
+      ]
+    },
+    "event-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event-label",
+        "event-time"
+      ]
+    },
+    "event-label": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @degenstefo",
+        "variant": "lead"
+      }
+    },
+    "event-time": {
+      "type": "Text",
+      "props": {
+        "text": "Aug 06 11:32:33 UTC",
+        "variant": "caption"
+      }
+    },
+    "sep-1": {
+      "type": "Separator"
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "@degenstefo No"
+      }
+    },
+    "sep-2": {
+      "type": "Separator"
+    },
+    "context-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context-heading",
+        "context-text"
+      ]
+    },
+    "context-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h4"
+      }
+    },
+    "context-text": {
+      "type": "Text",
+      "props": {
+        "text": "HCH posted this ~8 minutes after adding 5% more to their ETH short hedge on Discord (11:24:15 UTC), but the \"No\" response is cryptic alone without knowing what @degenstefo originally asked. Unable to classify — what's your read?",
+        "variant": "body"
+      }
+    },
+    "sep-3": {
+      "type": "Separator"
+    },
+    "analysis-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis-label",
+        "signal-badge"
+      ]
+    },
+    "analysis-label": {
+      "type": "Text",
+      "props": {
+        "text": "Interpretation requested:",
+        "variant": "lead"
+      }
+    },
+    "signal-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Financial signal or personal banter?",
+        "variant": "outline"
+      }
+    },
+    "sep-4": {
+      "type": "Separator"
+    },
+    "link-section": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/HeartCanHodl/status/2085328168521773465"
+      }
+    }
+  }
+}
