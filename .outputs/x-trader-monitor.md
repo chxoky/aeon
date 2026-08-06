@@ -1,9 +1,13 @@
-🔍 *Calibration — @trading_axe*
+🐦 *[X] @trading_axe*
 
-Reply to @rasmr_eth discussing post-selloff recovery chart pattern (24/48hr fresh buys after brutal selloff, analyzing whether momentum chasers vs large buyers acting on news).
+@price_disco @rasmr_eth Idt it's dead but people will obviously take profit aggressively on a clear sell the news event. 
 
-Unable to determine: Which asset/chart is referenced? (no ticker mention, no media attached, reply-dependent context)
+The overall trade [the "next PEPE" for retail] probably takes months to play out, leading into next bull.
 
-Classification: ambiguous — market structure analysis or personal conviction on specific asset?
+And by then, who knows what other coins will be out, what RH will have listed etc.
 
-Read original chart?
+~ Dr. Axius.
+
+[View tweet](https://x.com/trading_axe/status/2085376856673353943)
+
+_Market commentary on profit-taking dynamics & longer-term retail altcoin theme (Robinhood chain focus)._

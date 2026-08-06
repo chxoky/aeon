@@ -1,0 +1,60 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet",
+        "separator",
+        "commentary",
+        "link"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Dr. Axius",
+        "handle": "trading_axe",
+        "text": "@price_disco @rasmr_eth Idt it's dead but people will obviously take profit aggressively on a clear sell the news event.\n\nThe overall trade [the \"next PEPE\" for retail] probably takes months to play out, leading into next bull.\n\nAnd by then, who knows what other coins will be out, what RH will have listed etc."
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "commentary": {
+      "type": "Text",
+      "props": {
+        "text": "Market commentary on profit-taking dynamics & longer-term retail altcoin theme (Robinhood chain focus).",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/trading_axe/status/2085376856673353943"
+      },
+      "children": []
+    }
+  }
+}
