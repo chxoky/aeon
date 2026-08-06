@@ -1,0 +1,86 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading-calibration",
+        "stack-content"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @trading_axe",
+        "level": "h2"
+      }
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-reply",
+        "separator-1",
+        "text-analysis",
+        "separator-2",
+        "alert-unable",
+        "text-classification",
+        "text-question"
+      ]
+    },
+    "text-reply": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to @rasmr_eth discussing post-selloff recovery chart pattern",
+        "variant": "lead"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-analysis": {
+      "type": "Text",
+      "props": {
+        "text": "24/48hr fresh buys after brutal selloff, analyzing whether momentum chasers vs large buyers acting on news"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert-unable": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to determine",
+        "message": "Which asset/chart is referenced? (no ticker mention, no media attached, reply-dependent context)",
+        "type": "warning"
+      }
+    },
+    "text-classification": {
+      "type": "Text",
+      "props": {
+        "text": "Classification: ambiguous — market structure analysis or personal conviction on specific asset?",
+        "variant": "muted"
+      }
+    },
+    "text-question": {
+      "type": "Text",
+      "props": {
+        "text": "Read original chart?",
+        "variant": "caption"
+      }
+    }
+  }
+}

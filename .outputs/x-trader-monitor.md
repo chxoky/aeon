@@ -1,16 +1,9 @@
-🚨 *Trade Signal — @Wild_Randomness*
+🔍 *Calibration — @trading_axe*
 
-$HYPE — LONG — **MARKET order** (intraday flip/bounce entry)
-Entry: ~55-56 support consolidation, current bounce to 57.205 (+3.88% on 1D)
+Reply to @rasmr_eth discussing post-selloff recovery chart pattern (24/48hr fresh buys after brutal selloff, analyzing whether momentum chasers vs large buyers acting on news).
 
-"Back in the trading acct on this flip"
+Unable to determine: Which asset/chart is referenced? (no ticker mention, no media attached, reply-dependent context)
 
-**Chart Analysis:**
-• 1D: Major peak 77 → support consolidation 50-55 → current recovery bounce 57.205
-• 1H: Consolidation support 54-55 with recent bounce structure  
-• Setup: Technical bounce off recognized support with multi-timeframe confirmation
-• Resistance: Prior consolidation highs 75-77 zone
+Classification: ambiguous — market structure analysis or personal conviction on specific asset?
 
-[View post](https://x.com/Wild_Randomness/status/2085370925613187477)
-
-Reply `approve $HYPE` to mirror on Kraken (spot), or ignore to skip.
+Read original chart?
