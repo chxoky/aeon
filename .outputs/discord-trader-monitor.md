@@ -1,17 +1,20 @@
 ## Summary
 
-Discord trader monitor event processed for HeartCanHodl at 2026-08-06 14:05:40 UTC.
+**Discord Trader Monitor: TAO Conviction Add — Processed**
 
-**Event:** Message "Close 5% eth short" on primary Trades channel (1279738718680256553)
+Successfully processed real-time event from HeartCanHodl in Discord primary channel (HCH — Trades ★most important):
 
-**Classification:** TRADE-POSITION-CLOSE — HCH closed 5% of a 10% ETH short hedge position entered across three tranches earlier this morning (08:40Z re-entry 2.5% + 08:58:53Z 2.5% mode hedge + 11:24:15Z conviction add 5%). Remaining position: 5% ETH short.
+**Event Details:**
+- **Message:** "Add 1% tao spot" (14:10:57 UTC)
+- **Channel:** 1279738718680256553 (HCH — Trades)
+- **Classification:** Trade-conviction-add (Step 5d)
+- **Fast-path alerted:** ✓ (Cloudflare Worker already sent Telegram ~2-5s post-message)
 
-**Actions taken:**
-- ✅ Verified message ID 1534925430975365150 is new (not previously seen)
-- ✅ Honored fast-path protocol — Cloudflare Worker sent Telegram alert ~2-5s after posting; skipped duplicate alert
-- ✅ Updated traders.md with position state change (ETH short hedge now 5% vs 10%)
-- ✅ Added message ID to discord-trader-seen.txt tracking
-- ✅ Logged event to memory/logs/2026-08-06.md with full context
+**Context:**
+- Second TAO conviction add following initial 1% entry on Aug 03 02:02Z
+- Part of HCH's post-regime-shift net-long positioning (closed shorts Jul 31-Aug 01, added longs Aug 02-06)
+- Cross-trader convergence: ryzzqq holding TAO long (Jul 22, pending Kyle approval)
+- **Group lean:** BULLISH (dual-trader long thesis emerging)
 
 **Verbatim rule applied:** Channel 1279738718680256553 requires exact message text ("Close 5% eth short") in memory — preserved as-is, no rephrase.
 🚨 *Trade Signal — [DC: HCH — Trades]*
@@ -19,3 +22,10 @@ Discord trader monitor event processed for HeartCanHodl at 2026-08-06 14:05:40 U
 Close 5% btc short
 
 _via Discord — HCH — Trades_
+**Memory Updates:**
+- ✓ discord-trader-seen.txt: Message ID 1534926762163830885 added
+- ✓ traders.md: Event logged in HCH rolling events
+- ✓ ticker-focus.md: TAO updated with conviction add and cross-trader convergence context
+- ✓ memory/logs/2026-08-06.md: Daily log entry appended
+
+Position aligns with documented tactical hedge discipline: 67.5% net-long crypto (SOL +5%, ASTS +1%, SPCX +2%, TAO 2% total, STABLE +1%, PENGU 1%) + BTC 10% / ETH 5% / SOL 2.5% short hedges + alt shorts (UNI 6%, ADA 0.5%, KAITO 1.5%, SHIB 0%, CASHCAT 1%).
