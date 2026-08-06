@@ -1,12 +1,9 @@
-🚨 *Trade Signal — @Wild_Randomness*
+🐦 *[X] @Wild_Randomness*
 
-$GOLD + $IBIT PUTS — *Barbell Strategy* 
-LONG gold / SHORT Bitcoin via decaying put options
+$SOXX consolidation update: Two rejections of POC around 550 level. Daily trend reset but still failing to establish higher close. "Pretty semi-lined as of right now" — trader notes tight consolidation structure with massive green light above 550 but hesitant to scale here.
 
-"@Parida Join me in gold longs + decaying iBIT put options barbell"
+Personal holdings: INTC, NVDA, TSM spot (longer-term thesis).
 
-[View post](https://x.com/Wild_Randomness/status/2085188153909064030)
+Chart analysis shows 1D POC rejection setup, 2D recovery to 542 (+6.80%), 1W structure intact with bullish MA alignment.
 
-Thesis: Gold/BTC ratio divergence play. Gold rallying on volatility expansion; Bitcoin consolidating. Barbell combines bullish gold with bearish BTC via options decay.
-
-Reply `approve GOLD` + `approve IBIT_PUTS` to mirror (or ignore to skip).
+[View post](https://x.com/Wild_Randomness/status/2085192044172185971)

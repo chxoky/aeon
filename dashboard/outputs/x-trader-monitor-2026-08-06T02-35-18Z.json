@@ -1,0 +1,150 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor: Wild_Randomness"
+      },
+      "children": [
+        "tweet-card",
+        "separator-1",
+        "holdings-section",
+        "separator-2",
+        "chart-section"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "$SOXX consolidation update: Two rejections of POC around 550 level. Daily trend reset but still failing to establish higher close. \"Pretty semi-lined as of right now\" — trader notes tight consolidation structure with massive green light above 550 but hesitant to scale here."
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "holdings-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "holdings-heading",
+        "holdings-badges"
+      ]
+    },
+    "holdings-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Personal Holdings",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "holdings-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-intc",
+        "badge-nvda",
+        "badge-tsm"
+      ]
+    },
+    "badge-intc": {
+      "type": "Badge",
+      "props": {
+        "text": "INTC"
+      },
+      "children": []
+    },
+    "badge-nvda": {
+      "type": "Badge",
+      "props": {
+        "text": "NVDA"
+      },
+      "children": []
+    },
+    "badge-tsm": {
+      "type": "Badge",
+      "props": {
+        "text": "TSM spot (longer-term thesis)"
+      },
+      "children": []
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "chart-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "chart-heading",
+        "stat-recovery",
+        "text-1d",
+        "text-1w",
+        "link-post"
+      ]
+    },
+    "chart-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart Analysis",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "stat-recovery": {
+      "type": "Stat",
+      "props": {
+        "label": "2D Recovery",
+        "value": "542",
+        "delta": "+6.80%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "text-1d": {
+      "type": "Text",
+      "props": {
+        "text": "1D POC rejection setup",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-1w": {
+      "type": "Text",
+      "props": {
+        "text": "1W structure intact with bullish MA alignment",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "link-post": {
+      "type": "Link",
+      "props": {
+        "label": "View original post",
+        "href": "https://x.com/Wild_Randomness/status/2085192044172185971"
+      },
+      "children": []
+    }
+  }
+}
