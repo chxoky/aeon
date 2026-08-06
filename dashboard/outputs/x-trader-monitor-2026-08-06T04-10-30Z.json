@@ -1,0 +1,158 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor: Calibration Event",
+        "description": "Sarcastic market commentary or liquidation event?"
+      },
+      "children": [
+        "event-section",
+        "separator-1",
+        "analysis-section",
+        "separator-2",
+        "context-section"
+      ]
+    },
+    "event-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event-badge",
+        "tweet-card"
+      ]
+    },
+    "event-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Calibration — @trading_axe",
+        "variant": "secondary"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Dr. Axius",
+        "handle": "@trading_axe",
+        "text": "They raped me out the trenches again."
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis-heading",
+        "analysis-text",
+        "interpretations-heading",
+        "interpretations-list"
+      ]
+    },
+    "analysis-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Classification Analysis",
+        "level": "h3"
+      }
+    },
+    "analysis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — this uses trading slang (\"raped out the trenches\" = liquidated from position levels) but lacks ticker/level/direction/asset detail. Could be: (1) unreported liquidation, (2) market sentiment sarcasm, (3) personal banter.",
+        "variant": "body"
+      }
+    },
+    "interpretations-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Possible Interpretations",
+        "level": "h4"
+      }
+    },
+    "interpretations-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "interp-1",
+        "interp-2",
+        "interp-3"
+      ]
+    },
+    "interp-1": {
+      "type": "Badge",
+      "props": {
+        "text": "Unreported liquidation",
+        "variant": "outline"
+      }
+    },
+    "interp-2": {
+      "type": "Badge",
+      "props": {
+        "text": "Market sentiment sarcasm",
+        "variant": "outline"
+      }
+    },
+    "interp-3": {
+      "type": "Badge",
+      "props": {
+        "text": "Personal banter",
+        "variant": "outline"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context-heading",
+        "context-text",
+        "link-element"
+      ]
+    },
+    "context-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context (Past 7 Days)",
+        "level": "h3"
+      }
+    },
+    "context-text": {
+      "type": "Text",
+      "props": {
+        "text": "trading_axe mainly posts DeFi/meme-token commentary with no recent position entries announced.",
+        "variant": "body"
+      }
+    },
+    "link-element": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/trading_axe/status/2085215542890115521"
+      }
+    }
+  }
+}
