@@ -1,36 +1,26 @@
-Perfect. The skill has completed execution:
+## Skill Execution Summary
 
-## Summary
+**Discord Trader Monitor — HeartCanHodl Position Adjustment**
 
-**Event:** HeartCanHodl Discord message "Fc btc ema50 1hr" (2026-08-07T02:22:11Z, channel 1393137051108507728 HCH — Comments)
+✅ **Event Processed:** Real-time Discord message from HeartCanHodl at 08:47 UTC
 
-**Classification:** Technical observation (silent log) — message matches standing calibration lesson #3: `"Fc {ticker} {tf}" from HCH = false-close TA chart check, NOT a trade signal`. Pattern established with 8+ occurrences. No trade signal, no Kyle action required.
+**Classification: TRADE-PARTIAL-TP** (Profit-taking on long positions)
 
-**Fast-path handling:** `fast_path_alerted=true` — Cloudflare Worker pre-sent Telegram alert ~2-5s post-message. Skill performs memory-only processing per protocol (no duplicate alert).
+**Message:** "Cover 2.5% btc long, 1% each sol and eth long"
+- **Channel:** 1279738718680256553 (HCH — Trades, primary)
+- **Assets:** BTC (−2.5%), ETH (−1%), SOL (−1%)
+- **Action:** Closing/reducing long positions across major pairs
 
-**Updates completed:**
-- Added message ID (1535110780897337355) to `discord-trader-seen.txt` for duplicate detection
-- Logged event to `memory/logs/2026-08-07.md` with classification details
-- Appended event record to `memory/topics/traders.md` (HCH's rolling events) noting pattern match
-- Updated HCH's current position summary reflecting net-short regime shift initiated 2026-08-07 00:28Z
+**Key Details:**
+- **Fast-path:** Cloudflare Worker already sent Telegram alert ~2-5s after message (fast_path_alerted=true)
+- **Verbatim rule applied:** Channel 1279738718680256553 requires exact message text (preserved)
+- **No duplicate alert sent by skill** (per fast-path protocol)
+- **Execution language:** "Cover" confirms personal trade action
+- **Context:** Tactical profit-taking following Aug 07 00:28Z regime-shift announcement (net-short) and subsequent equity hedge adds (TSLA/PLTR/SPCX shorts 02:11-02:17Z)
 
-**Result:** Pattern recognized, memory updated, no further action. Kyle has already received any fast-path notification for this message.
-## Summary
+**Memory Updates:**
+- ✅ Message ID added to `discord-trader-seen.txt`
+- ✅ Event logged to `traders.md` (HeartCanHodl section)
+- ✅ Daily log updated `memory/logs/2026-08-07.md`
 
-✅ **Skill executed successfully**
-
-The discord-trader-monitor skill processed an emoji-only Discord message from HeartCanHodl at 02:23 UTC on 2026-08-07:
-
-**Event Details:**
-- Message: Just an emoji reaction `<a:emoji_69:1423736447676190844>` (affirmation to own prior message "Right decision in every sense")
-- Channel: 1472153627324842057 (HCH — Free, primary channel)
-- Classification: **Skip (non-financial banter/reaction)**
-
-**Actions Taken:**
-1. Decoded base64 event JSON successfully
-2. Verified message ID not previously seen
-3. Classified as Step 5A: non-financial (reactions/banter) → no alert
-4. Recorded message ID in `memory/discord-trader-seen.txt`
-5. Appended log entry to `memory/logs/2026-08-07.md`
-
-**Result:** No Telegram notification sent. Message logged for audit purposes only, consistent with skill protocol for non-financial sentiment reactions.
+**Portfolio Impact:** Reduces major-pair long exposure as part of disciplined profit-taking cycle within net-short regime transition.
