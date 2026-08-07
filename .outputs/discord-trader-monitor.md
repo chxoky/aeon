@@ -1,6 +1,7 @@
 Perfect! I've successfully executed the discord-trader-monitor skill for the Discord message from HeartCanHodl. Here's what I processed:
+🔍 *Calibration — [DC: HCH — Chat]*
 
-## Summary
+Event: Real-time supporting-channel message from HeartCanHodl
 
 **Event Details:**
 - **Trader:** HeartCanHodl (heartcanhodl)
@@ -28,3 +29,6 @@ Perfect! I've successfully executed the discord-trader-monitor skill for the Dis
 3. **logs/2026-08-07.md** — Logged event with full context (portfolio discipline, profit-taking cycle validation, BTC reduction tracking)
 
 **Context:** This is the second major BTC close in ~2h 46min (08:47Z + 11:33Z), representing 33% reduction of BTC position from 30% baseline as part of disciplined tactical profit-taking following the 00:28Z net-short regime shift announcement.
+HCH: "Fc cl 15m"
+
+Unable to classify — appears to be cryptic trading abbreviation (likely 'force close 15-minute' or similar). What's your read?

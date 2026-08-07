@@ -1,0 +1,68 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor — Calibration Event"
+      },
+      "children": [
+        "badge-type",
+        "text-event-header",
+        "separator-1",
+        "tweet-message",
+        "separator-2",
+        "alert-analysis"
+      ]
+    },
+    "badge-type": {
+      "type": "Badge",
+      "props": {
+        "text": "Calibration",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "text-event-header": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Real-time supporting-channel message from HeartCanHodl (DC: HCH — Chat)",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "tweet-message": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HCH",
+        "text": "Fc cl 15m"
+      },
+      "children": []
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert-analysis": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "title": "Unable to classify",
+        "message": "Appears to be cryptic trading abbreviation (likely 'force close 15-minute' or similar). What's your read?"
+      },
+      "children": []
+    }
+  }
+}
