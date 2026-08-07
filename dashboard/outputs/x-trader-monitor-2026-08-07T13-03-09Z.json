@@ -1,0 +1,58 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "badge-aapl",
+        "tweet-card",
+        "link-tweet",
+        "sep-1",
+        "heading-context",
+        "text-thesis"
+      ]
+    },
+    "badge-aapl": {
+      "type": "Badge",
+      "props": {
+        "text": "$AAPL"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Good to see, flight to safety acting right on a risk on morning\n\nCan literally see the buybacks flowing in the chart lol\n\nJust 30 degree ramps up post gap-down, over and over"
+      }
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2085712037301391764"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading-context": {
+      "type": "Heading",
+      "props": {
+        "text": "Thesis Context",
+        "level": "h3"
+      }
+    },
+    "text-thesis": {
+      "type": "Text",
+      "props": {
+        "text": "Continuation of 3-trader AAPL short thesis (HCH +9.41% short, WR prior Oct $300 closed). Current observation: intraday gap-down recovery with buyback support + 30° ramp patterns — tactical bullish structure within broader bearish thesis frame."
+      }
+    }
+  }
+}
