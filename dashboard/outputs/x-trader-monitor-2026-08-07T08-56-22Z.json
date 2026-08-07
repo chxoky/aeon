@@ -1,0 +1,41 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "view_link"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "The best trades always require the most patience.\n\nUnfortunately, 95% of people don't have the patience to hold a position for more than a few days because they're constantly chasing adrenaline.\n\nThe market doesn't reward the most active trader. It rewards the most patient one.\n\nProper trading is boring. It's not supposed to be fun. If you're constantly entertained by the market, you're probably trading your emotions."
+      }
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2085650063884255388"
+      }
+    }
+  }
+}
