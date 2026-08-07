@@ -1,0 +1,108 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Bitcoin price levels and bear sentiment tracking"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "separator_1",
+        "heading_chart",
+        "table_levels",
+        "separator_2",
+        "link_tweet",
+        "text_context"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "@HeartCanHodl",
+        "text": "Calling all bears. Where are your downside targets? 👇🏻"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_chart": {
+      "type": "Heading",
+      "props": {
+        "text": "BTC Chart Key Levels",
+        "level": "h3"
+      }
+    },
+    "table_levels": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Level Type",
+          "Price"
+        ],
+        "rows": [
+          [
+            "Support",
+            "62300"
+          ],
+          [
+            "Key Level",
+            "63880"
+          ],
+          [
+            "Key Level",
+            "64172"
+          ],
+          [
+            "Current",
+            "~64348"
+          ],
+          [
+            "Resistance",
+            "64549.16"
+          ],
+          [
+            "High",
+            "65025.22"
+          ]
+        ]
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet on X",
+        "href": "https://x.com/HeartCanHodl/status/2085554517748449660"
+      }
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "Aligns with HCH's net-short regime shift from 00:28 UTC; sentiment poll on macro bearish thesis.",
+        "variant": "caption"
+      }
+    }
+  }
+}
