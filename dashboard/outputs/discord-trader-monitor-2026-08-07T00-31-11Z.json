@@ -1,0 +1,38 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Trade Signal — HCH — Free"
+      },
+      "children": [
+        "alert_signal",
+        "separator_1",
+        "text_source"
+      ]
+    },
+    "alert_signal": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "🚨 Trade Signal Alert",
+        "message": "@degenstefo What's neutral? This forced my hand to go net short ☝🏻"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_source": {
+      "type": "Text",
+      "props": {
+        "text": "via Discord — HCH — Free",
+        "variant": "caption"
+      }
+    }
+  }
+}
