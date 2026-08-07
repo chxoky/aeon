@@ -1,0 +1,76 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Market volatility snapshot from X"
+      },
+      "children": [
+        "tweet",
+        "separator1",
+        "metrics",
+        "separator2",
+        "view_link"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "S&P 500 & NASDAQ 100 volatility at historically compressed levels. VIX 14.97, CBOE NDX vol 22.94 (down from recent highs 31.65 & 34.37). Market regime: \"All Quiet on the Western Front.\""
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "metrics": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat_vix",
+        "stat_ndx"
+      ]
+    },
+    "stat_vix": {
+      "type": "Stat",
+      "props": {
+        "label": "VIX",
+        "value": "14.97",
+        "delta": "-52.7%",
+        "trend": "down"
+      }
+    },
+    "stat_ndx": {
+      "type": "Stat",
+      "props": {
+        "label": "CBOE NDX vol",
+        "value": "22.94",
+        "delta": "-33.2%",
+        "trend": "down"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2085780745382207968"
+      }
+    }
+  }
+}
