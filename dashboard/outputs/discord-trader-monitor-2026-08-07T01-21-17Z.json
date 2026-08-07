@@ -1,0 +1,90 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "header",
+        "body"
+      ]
+    },
+    "header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "status_badge",
+        "source"
+      ]
+    },
+    "status_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Success",
+        "variant": "default"
+      }
+    },
+    "source": {
+      "type": "Text",
+      "props": {
+        "text": "HeartCanHodl",
+        "variant": "lead"
+      }
+    },
+    "body": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "action",
+        "btc_position",
+        "eth_position",
+        "sol_position",
+        "timestamp"
+      ]
+    },
+    "action": {
+      "type": "Text",
+      "props": {
+        "text": "Cover",
+        "variant": "body"
+      }
+    },
+    "btc_position": {
+      "type": "Text",
+      "props": {
+        "text": "5% BTC",
+        "variant": "body"
+      }
+    },
+    "eth_position": {
+      "type": "Text",
+      "props": {
+        "text": "2.5% ETH long",
+        "variant": "body"
+      }
+    },
+    "sol_position": {
+      "type": "Text",
+      "props": {
+        "text": "2.5% SOL long",
+        "variant": "body"
+      }
+    },
+    "timestamp": {
+      "type": "Text",
+      "props": {
+        "text": "01:18 UTC",
+        "variant": "caption"
+      }
+    }
+  }
+}
