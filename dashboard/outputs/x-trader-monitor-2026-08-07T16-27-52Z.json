@@ -1,0 +1,81 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "sep1",
+        "chart_section",
+        "sep2",
+        "analysis_text"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "Buy the blood... $BTC\n\nI've been publicly short this entire 50% drop… and only now, after many months I am finally long. Don't confuse me for a perma bull or a perma bear. I simply switch sides when the market tells me to."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "chart_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "chart_text",
+        "post_link"
+      ]
+    },
+    "chart_text": {
+      "type": "Text",
+      "props": {
+        "text": "Chart: Logarithmic BTC price history showing multi-year bull structure with current consolidation (60–65K) as accumulation zone.",
+        "variant": "body"
+      }
+    },
+    "post_link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/KillaXBT/status/2085762625149763698"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Conviction reaffirmation post-NFP (risk-on regime). Aligns with documented HTF 2x long (62.6K) + spot DCA accumulation thesis.",
+        "variant": "muted"
+      }
+    }
+  }
+}
