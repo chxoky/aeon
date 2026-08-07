@@ -1,0 +1,662 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-08-07"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section_transitions",
+        "separator_1",
+        "section_reflexivity",
+        "separator_2",
+        "section_positions",
+        "separator_3",
+        "section_map"
+      ]
+    },
+    "section_transitions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_transitions",
+        "trans_new_ada",
+        "trans_new_gold",
+        "trans_prom_rwa",
+        "trans_prom_ai",
+        "trans_dem_pred",
+        "trans_dem_privacy",
+        "trans_dead_dats",
+        "trans_dead_meme"
+      ]
+    },
+    "heading_transitions": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      }
+    },
+    "trans_new_ada": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_new_1",
+        "text_ada_trans"
+      ]
+    },
+    "badge_new_1": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "default"
+      }
+    },
+    "text_ada_trans": {
+      "type": "Text",
+      "props": {
+        "text": "ADA Catch-Up (Rising) — Dijkstra upgrade + Aug 9 spot ETF eligibility + 240M whale accumulation + 380% derivatives vol; +19.3% 7d while BTC dominance elevated at 56%",
+        "variant": "body"
+      }
+    },
+    "trans_new_gold": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_new_2",
+        "text_gold_trans"
+      ]
+    },
+    "badge_new_2": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "default"
+      }
+    },
+    "text_gold_trans": {
+      "type": "Text",
+      "props": {
+        "text": "Gold vs Equities (Emerging) — @Wild_Randomness XAUUSD/SPX ratio breakout charts; \"Since 2021?\" framing on ES at multi-year resistance; barbell GOLD long + SPAXU live",
+        "variant": "body"
+      }
+    },
+    "trans_prom_rwa": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_prom_1",
+        "text_rwa_trans"
+      ]
+    },
+    "badge_prom_1": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED",
+        "variant": "secondary"
+      }
+    },
+    "text_rwa_trans": {
+      "type": "Text",
+      "props": {
+        "text": "RWA Tokenization Rising → Peak — led July 2026 returns (+10.7% median, $32.2B on-chain); ONDO leader; BUIDL >$500M",
+        "variant": "body"
+      }
+    },
+    "trans_prom_ai": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_prom_2",
+        "text_ai_trans"
+      ]
+    },
+    "badge_prom_2": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED",
+        "variant": "secondary"
+      }
+    },
+    "text_ai_trans": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agents Rising → Peak — infrastructure maturation (identity/credentials now the bottleneck); HCH shorting PLTR/TSLA/NVDA = AI capex expectations compression in play",
+        "variant": "body"
+      }
+    },
+    "trans_dem_pred": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_dem_1",
+        "text_pred_trans"
+      ]
+    },
+    "badge_dem_1": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED",
+        "variant": "outline"
+      }
+    },
+    "text_pred_trans": {
+      "type": "Text",
+      "props": {
+        "text": "Prediction Markets Peak → Fading — Kaito Yaps sunset Jan 2026; WC seasonal cliff passed; KAITO in HCH short basket (1.5%)",
+        "variant": "body"
+      }
+    },
+    "trans_dem_privacy": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_dem_2",
+        "text_privacy_trans"
+      ]
+    },
+    "badge_dem_2": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED",
+        "variant": "outline"
+      }
+    },
+    "text_privacy_trans": {
+      "type": "Text",
+      "props": {
+        "text": "Privacy/ZEC Peak → Fading — HCH short ZEC 2–2.5%; Jul 21 WATCH call expired wrong; 70+ delistings still digesting",
+        "variant": "body"
+      }
+    },
+    "trans_dead_dats": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_dead_1",
+        "text_dats_trans"
+      ]
+    },
+    "badge_dead_1": {
+      "type": "Badge",
+      "props": {
+        "text": "DEAD",
+        "variant": "destructive"
+      }
+    },
+    "text_dats_trans": {
+      "type": "Text",
+      "props": {
+        "text": "DATs/Treasury Cos — mNAV compression below noise floor at BTC 64K",
+        "variant": "body"
+      }
+    },
+    "trans_dead_meme": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_dead_2",
+        "text_meme_trans"
+      ]
+    },
+    "badge_dead_2": {
+      "type": "Badge",
+      "props": {
+        "text": "DEAD",
+        "variant": "destructive"
+      }
+    },
+    "text_meme_trans": {
+      "type": "Text",
+      "props": {
+        "text": "Meme/ICO Launchpads — CASHCAT exit-scam pattern (−7.8% after +62.6%); confirmed fade",
+        "variant": "body"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_reflexivity": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_reflexivity",
+        "alert_ada_reflex",
+        "alert_rwa_reflex",
+        "alert_nfp_reflex"
+      ]
+    },
+    "heading_reflexivity": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      }
+    },
+    "alert_ada_reflex": {
+      "type": "Alert",
+      "props": {
+        "title": "ADA",
+        "message": "380% derivatives vol spike pre Aug 9 ETF eligibility; price leading SEC Oct 23 decision by 3 months; catch-up bids in risk-off are reflexive until they aren't",
+        "type": "warning"
+      }
+    },
+    "alert_rwa_reflex": {
+      "type": "Alert",
+      "props": {
+        "title": "RWA",
+        "message": "headline $32.2B vs 910 tokenized assets with zero weekly transfers; BCG $16T projections used as marketing copy",
+        "type": "warning"
+      }
+    },
+    "alert_nfp_reflex": {
+      "type": "Alert",
+      "props": {
+        "title": "NFP/BTC",
+        "message": "Jul govt jobs −53K → cut hopes → post-NFP risk-on; BTC $64,991; reflexive rally contingent on 67.4K breakout confirmation",
+        "type": "warning"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_positions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_positions",
+        "pos_gold",
+        "pos_ada",
+        "pos_rwa",
+        "pos_pred",
+        "pos_privacy",
+        "pos_btc"
+      ]
+    },
+    "heading_positions": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      }
+    },
+    "pos_gold": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_front_run",
+        "text_gold_pos_main",
+        "text_gold_pos_bear"
+      ]
+    },
+    "badge_front_run": {
+      "type": "Badge",
+      "props": {
+        "text": "FRONT-RUN",
+        "variant": "default"
+      }
+    },
+    "text_gold_pos_main": {
+      "type": "Text",
+      "props": {
+        "text": "Gold vs Equities (mindshare 2 ↑, Bull) — @Wild_Randomness XAUUSD/SPX breakout live",
+        "variant": "body"
+      }
+    },
+    "text_gold_pos_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: seasonal fade post-Jackson Hole; SPAXU 3x = painful if wrong",
+        "variant": "caption"
+      }
+    },
+    "pos_ada": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_ride_1",
+        "text_ada_pos_main",
+        "text_ada_pos_bear"
+      ]
+    },
+    "badge_ride_1": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "default"
+      }
+    },
+    "text_ada_pos_main": {
+      "type": "Text",
+      "props": {
+        "text": "ADA Catch-Up (mindshare 3 ↑↑, Bull) — whale wallets + ETF calendar",
+        "variant": "body"
+      }
+    },
+    "text_ada_pos_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: 56% BTC dominance = narrow rotation window",
+        "variant": "caption"
+      }
+    },
+    "pos_rwa": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_ride_2",
+        "text_rwa_pos_main",
+        "text_rwa_pos_bear"
+      ]
+    },
+    "badge_ride_2": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "default"
+      }
+    },
+    "text_rwa_pos_main": {
+      "type": "Text",
+      "props": {
+        "text": "RWA Tokenization (mindshare 4 ↑, Bull) — ONDO/BUIDL/modular infra",
+        "variant": "body"
+      }
+    },
+    "text_rwa_pos_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: headline vs zero-transfer usage gap = reflexivity risk",
+        "variant": "caption"
+      }
+    },
+    "pos_pred": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_fade_1",
+        "text_pred_pos_main"
+      ]
+    },
+    "badge_fade_1": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "outline"
+      }
+    },
+    "text_pred_pos_main": {
+      "type": "Text",
+      "props": {
+        "text": "Prediction Markets/Kaito (mindshare 4 ↓, Mixed) — Yaps dead, WC cliff; KAITO short in HCH basket",
+        "variant": "body"
+      }
+    },
+    "pos_privacy": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_fade_2",
+        "text_privacy_pos_main"
+      ]
+    },
+    "badge_fade_2": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "outline"
+      }
+    },
+    "text_privacy_pos_main": {
+      "type": "Text",
+      "props": {
+        "text": "Privacy/ZEC (mindshare 2 ↓, Bear) — HCH 2–2.5% ZEC short active; Jul 21 WATCH call expired wrong",
+        "variant": "body"
+      }
+    },
+    "pos_btc": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_watch",
+        "text_btc_pos_main"
+      ]
+    },
+    "badge_watch": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "outline"
+      }
+    },
+    "text_btc_pos_main": {
+      "type": "Text",
+      "props": {
+        "text": "BTC Bottom Hunt (mindshare 4 →, Mixed) — KillaXBT 160K/2.5yr HTF long vs HCH ~40% short basket; 67.4K = trend-shift confirmation per STH MVRV thesis",
+        "variant": "body"
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_map": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_map",
+        "map_emerging",
+        "map_rising",
+        "map_peak",
+        "map_fading",
+        "map_dead"
+      ]
+    },
+    "heading_map": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h2"
+      }
+    },
+    "map_emerging": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_map_emerging",
+        "text_map_emerging"
+      ]
+    },
+    "badge_map_emerging": {
+      "type": "Badge",
+      "props": {
+        "text": "Emerging",
+        "variant": "default"
+      }
+    },
+    "text_map_emerging": {
+      "type": "Text",
+      "props": {
+        "text": "Gold vs Equities",
+        "variant": "body"
+      }
+    },
+    "map_rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_map_rising",
+        "text_map_rising"
+      ]
+    },
+    "badge_map_rising": {
+      "type": "Badge",
+      "props": {
+        "text": "Rising",
+        "variant": "default"
+      }
+    },
+    "text_map_rising": {
+      "type": "Text",
+      "props": {
+        "text": "ADA Catch-Up",
+        "variant": "body"
+      }
+    },
+    "map_peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_map_peak",
+        "text_map_peak"
+      ]
+    },
+    "badge_map_peak": {
+      "type": "Badge",
+      "props": {
+        "text": "Peak",
+        "variant": "secondary"
+      }
+    },
+    "text_map_peak": {
+      "type": "Text",
+      "props": {
+        "text": "RWA Tokenization, AI Agents, BTC Bottom Hunt, Stablecoins",
+        "variant": "body"
+      }
+    },
+    "map_fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_map_fading",
+        "text_map_fading"
+      ]
+    },
+    "badge_map_fading": {
+      "type": "Badge",
+      "props": {
+        "text": "Fading",
+        "variant": "outline"
+      }
+    },
+    "text_map_fading": {
+      "type": "Text",
+      "props": {
+        "text": "Prediction Markets/Kaito, Privacy/ZEC, DePIN",
+        "variant": "body"
+      }
+    },
+    "map_dead": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_map_dead",
+        "text_map_dead"
+      ]
+    },
+    "badge_map_dead": {
+      "type": "Badge",
+      "props": {
+        "text": "Dead",
+        "variant": "destructive"
+      }
+    },
+    "text_map_dead": {
+      "type": "Text",
+      "props": {
+        "text": "DATs/Treasury Cos, Meme Launchpads",
+        "variant": "body"
+      }
+    }
+  }
+}

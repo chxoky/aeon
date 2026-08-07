@@ -1,27 +1,31 @@
-*Narrative Tracker — 2026-08-03*
+*Narrative Tracker — 2026-08-07*
 
-TRANSITIONS (first run — baseline established today; all NEW)
-• NEW: BTC Spot ETF Inflow Spike — Jul 31 data shows sharp inflow re-entry; ETH ETF +$27.42M weekly. HCH flagged with charts at $62K support. Institutional demand entering risk-off tape.
-• NEW: DATcos Structural Break — Strategy authorized $1.25B BTC sales; dividend obligations tripled. The "never sell" narrative is now forcing the sell. 142 copycat companies exposed.
-• NEW: ETH Glamsterdam Delay — Aug → mid-Sep upgrade slip; Q4 slip possible. ETH/BTC 0.030 (April high) = resistance at a delay narrative.
-• NEW: Macro Bear Setup Building — DVOL 37.53 ATL, F\&G 28 Fear, breadth 5/20. NFP Aug 7 binary. FOMC hike ~72%. SOXX +13%/QQQ +5% while BTC -2% last week — laggard effect or rotation signal?
+TRANSITIONS
+• NEW: ADA Catch-Up (Rising) — Dijkstra upgrade + Aug 9 spot ETF eligibility + 240M whale accumulation + 380% derivatives vol; +19.3% 7d while BTC dominance elevated at 56%
+• NEW: Gold vs Equities (Emerging) — @Wild_Randomness XAUUSD/SPX ratio breakout charts; "Since 2021?" framing on ES at multi-year resistance; barbell GOLD long + SPAXU live
+• PROMOTED: RWA Tokenization Rising → Peak — led July 2026 returns (+10.7% median, $32.2B on-chain); ONDO leader; BUIDL >$500M
+• PROMOTED: AI Agents Rising → Peak — infrastructure maturation (identity/credentials now the bottleneck); HCH shorting PLTR/TSLA/NVDA = AI capex expectations compression in play
+• DEMOTED: Prediction Markets Peak → Fading — Kaito Yaps sunset Jan 2026; WC seasonal cliff passed; KAITO in HCH short basket (1.5%)
+• DEMOTED: Privacy/ZEC Peak → Fading — HCH short ZEC 2–2.5%; Jul 21 WATCH call expired wrong; 70+ delistings still digesting
+• DEAD: DATs/Treasury Cos — mNAV compression below noise floor at BTC 64K
+• DEAD: Meme/ICO Launchpads — CASHCAT exit-scam pattern (−7.8% after +62.6%); confirmed fade
 
 REFLEXIVITY ALERT
-• DATcos — Strategy $1.25B BTC sale authorized: "never sell" thesis collapsing under dividend obligations it created. The reflexivity loop that built the narrative is now unwinding it.
-• Solana RWA — $8.68B/30d tokenized equity volume (2x MoM) is real. But projects are rebranding to "RWA" without real deals. Separate on-chain volume from press releases.
+• ADA — 380% derivatives vol spike pre Aug 9 ETF eligibility; price leading SEC Oct 23 decision by 3 months; catch-up bids in risk-off are reflexive until they aren't
+• RWA — headline $32.2B vs 910 tokenized assets with zero weekly transfers; BCG $16T projections used as marketing copy
+• NFP/BTC — Jul govt jobs −53K → cut hopes → post-NFP risk-on; BTC $64,991; reflexive rally contingent on 67.4K breakout confirmation
 
 POSITIONS
-• FRONT-RUN: Solana Alpenglow (mindshare 3 ↑, Bull) — Solana core / RWA ecosystem — 12.8s→150ms finality, Aug-Oct window — bear: upgrade may be priced in
-• RIDE: RWA Tokenization (5 ↑↑, Bull) — BlackRock BUIDL / Circle USYC / DTCC — $34B TVL, $8.68B 30d Solana vol — bear: 95-97% Solana concentration
-• RIDE: AI × Agentic Payments (4 ↑, Bull) — Coinbase x402 / Google AP2 / Stripe MPP — 176M txns settled — bear: $73M settled = trivial vs total vol
-• RIDE: BTC ETF Inflows (3 ↑, Bull) — institutional flows / HCH charts — $76.29B AUM, spike at $62K — bear: lagging indicator, F\&G 28
-• FADE: DATcos (3 ↓↓, Cope) — Strategy / 142 copycats — reflexivity collapsing; forced selling structurally baked in
-• FADE: Perp DEXs / HYPE (4 ↓, Mixed) — Hyperliquid dominant but HYPE -5% today / -9.6% 7d — narrative exhaustion vs strong fundamentals = exit signal
-• FADE: Prediction Markets (4 →, Mixed) — Kalshi / Polymarket — $40B June target missed; CLARITY Act <30% passage odds
-• WATCH: Macro Bear / DVOL (3 ↑, Bear) — @Wild_Randomness / macro bears — NFP Aug 7 binary; crowded short = squeeze risk if soft print
+• FRONT-RUN: Gold vs Equities (mindshare 2 ↑, Bull) — @Wild_Randomness XAUUSD/SPX breakout live — bear: seasonal fade post-Jackson Hole; SPAXU 3x = painful if wrong
+• RIDE: ADA Catch-Up (mindshare 3 ↑↑, Bull) — whale wallets + ETF calendar — bear: 56% BTC dominance = narrow rotation window
+• RIDE: RWA Tokenization (mindshare 4 ↑, Bull) — ONDO/BUIDL/modular infra — bear: headline vs zero-transfer usage gap = reflexivity risk
+• FADE: Prediction Markets/Kaito (mindshare 4 ↓, Mixed) — Yaps dead, WC cliff; KAITO short in HCH basket
+• FADE: Privacy/ZEC (mindshare 2 ↓, Bear) — HCH 2–2.5% ZEC short active; Jul 21 WATCH call expired wrong
+• WATCH: BTC Bottom Hunt (mindshare 4 →, Mixed) — KillaXBT 160K/2.5yr HTF long vs HCH ~40% short basket; 67.4K = trend-shift confirmation per STH MVRV thesis
 
 MAP
-Emerging: Solana Alpenglow, Cardano ADA ETF
-Rising: RWA Tokenization, AI × Agentic Payments, BTC ETF Inflows, AI × DePIN
-Peak: Stablecoins \& Stablechains, Prediction Markets, Privacy/ZK
-Fading: DATcos, Perp DEXs/HYPE, ETH Glamsterdam, Meme Tokens
+Emerging: Gold vs Equities
+Rising: ADA Catch-Up
+Peak: RWA Tokenization, AI Agents, BTC Bottom Hunt, Stablecoins
+Fading: Prediction Markets/Kaito, Privacy/ZEC, DePIN
+Dead: DATs/Treasury Cos, Meme Launchpads
