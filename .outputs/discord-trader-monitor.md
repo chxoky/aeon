@@ -1,18 +1,29 @@
-Perfect! I've completed the skill execution for this Discord trader monitor event. Here's what I did:
+Perfect! I've successfully processed the Discord trader monitor event. Here's the summary:
 
-## Summary
+## Execution Summary
 
-**Event:** HeartCanHodl posted "Cover 1% hype long" in Discord Trades channel (1279738718680256553) at 2026-08-07T12:02:44Z
+**Message Processed:**
+- **ID:** 1535259373226696706
+- **Trader:** HeartCanHodl (@heartcanhodl)
+- **Channel:** 1279738718680256553 (HCH — Trades, primary ★most important)
+- **Time:** 2026-08-07T12:12:38Z
+- **Content:** "Add 5% eth short hedge"
 
-**Classification:** `trade-partial-tp` (taking profit on HYPE long position)
+**Classification:** Trade-new-entry (5a) — ETH short position
 
-**Processing:**
-- ✅ Message ID verified (first-time sighting: 1535256880757215233)
-- ✅ Fast-path check: `fast_path_alerted=true` → Cloudflare Worker already sent Telegram alert; skipped duplicate notification
-- ✅ Proceeded with classification for memory purposes only
-- ✅ Updated memory files:
-  - **discord-trader-seen.txt:** Added message ID to dedup tracking
-  - **traders.md:** Updated "Last seen" timestamp and added detailed event entry with full context (HYPE position management, tactical profit-taking within net-short regime shift, portfolio discipline noted)
-  - **logs/2026-08-07.md:** Added comprehensive log entry with classification, ticker, and portfolio context
+**Key Details:**
+- **Direct execution:** "Add" language + quantified 5% allocation = market order filled
+- **Hedge positioning:** 5% ETH short layered on top of ~17% ETH long residual = 12% net long with 5% tactical short overlay
+- **Context:** Follows sustained morning session of major-pair profit-taking (5 tranches, 01:18Z–11:33Z) and alt-short conviction adds (SOL/SPCX). Represents sophisticated hedge divergence strategy within broader net-short regime shift (00:28Z announcement).
+- **Portfolio impact:** Short basket now ~33-34% allocation (up from ~28-29% pre-add)
 
-**Context:** This is a disciplined profit-taking action on HYPE long holdings as part of HCH's systematic portfolio rebalancing throughout the morning (10% BTC closes, 5.5% ETH closes, 4.5% SOL closes between 01:18Z-11:33Z, plus tactical short additions on SOL/SPCX). HCH's net-short regime shift (announced 00:28Z) continues with reduced long core exposure and heightened tactical positioning.
+**Processing Steps:**
+✅ Decoded base64 message  
+✅ Verified message ID not in seen list (fresh message)  
+✅ Confirmed channel + trader mapping (HCH primary channel)  
+✅ Classified as trade-new-entry with hedge framing  
+✅ Fast-path verified (Cloudflare Worker already sent Telegram ~2-5s post-message)  
+✅ Updated discord-trader-seen.txt with message ID  
+✅ Logged full event to memory/logs/2026-08-07.md with portfolio context  
+
+**No duplicate alert sent** — Cloudflare Worker's fast-path delivery already notified Kyle via Telegram. Skill performs memory-only processing per fast-path protocol to avoid duplicate notifications.
