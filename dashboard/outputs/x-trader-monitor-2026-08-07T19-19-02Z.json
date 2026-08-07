@@ -1,0 +1,72 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_message",
+        "separator_1",
+        "stack_metadata"
+      ]
+    },
+    "text_message": {
+      "type": "Text",
+      "props": {
+        "text": "Stoiiic personal banter (skip) — @MalepoCrypto casual catch-up message."
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_metadata": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_skip",
+        "badge_classification",
+        "badge_no_alert"
+      ]
+    },
+    "badge_skip": {
+      "type": "Badge",
+      "props": {
+        "text": "skip",
+        "variant": "outline"
+      }
+    },
+    "badge_classification": {
+      "type": "Badge",
+      "props": {
+        "text": "non-financial",
+        "variant": "secondary"
+      }
+    },
+    "badge_no_alert": {
+      "type": "Badge",
+      "props": {
+        "text": "No alert",
+        "variant": "outline"
+      }
+    }
+  }
+}
