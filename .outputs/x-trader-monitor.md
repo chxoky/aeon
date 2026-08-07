@@ -1,12 +1,11 @@
-🐦 X - Wild_Randomness: Thinking about slow buying October Ps from ES. Set-up conditional on stalling and wick fill into opex/Jackson Hole. Macro bear short idea. https://x.com/Wild_Randomness/status/2085754491710971942
-➕ *Conviction Add — @Wild_Randomness*
+🔍 *Calibration — @Wild_Randomness*
 
-Wild_Randomness just added to their AAPL short position.
+Event: Reply to @_tolks discussing Treasury/options structure
 
-"Added a tranche in visit of box. Think I'll just do that every day we visit the box, provided we don't break and close above it"
+"Yeah still not seeing how calls from here have a high + EV path
 
-[View post](https://x.com/Wild_Randomness/status/2085755066208989524)
+10yr being very stubborn yeah"
 
-**Context:** Adds to existing AAPL short entries ($341/$342 with Oct $300 puts from Jul 28). 3-trader short convergence (HCH +9.41% unrealized, KillaXBT thesis). Technical setup: price revisiting consolidation 'box' at 312–315 on intraday structure.
+Context: Tweet includes 2 chart images (unable to fetch without approval). Text suggests market opinion on options EV and Treasury consolidation, but no personal trade action detected. Possible interpretations: (a) informational market commentary on options structure, (b) personal trade consideration on Treasuries/calls, or (c) macro setup analysis tied to ongoing dispersion-trade thesis.
 
-Want to add to yours too?
+Unable to classify with certainty — what's your read?

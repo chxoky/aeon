@@ -1,0 +1,222 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section_calibration",
+        "section_event",
+        "section_tweet",
+        "section_context",
+        "section_interpretations",
+        "section_uncertainty"
+      ]
+    },
+    "section_calibration": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_calibration",
+        "text_handle"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text_handle": {
+      "type": "Text",
+      "props": {
+        "text": "@Wild_Randomness",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "section_event": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_event",
+        "text_event_desc"
+      ]
+    },
+    "heading_event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text_event_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to @_tolks discussing Treasury/options structure",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "section_tweet": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_tweet",
+        "tweet_card"
+      ]
+    },
+    "heading_tweet": {
+      "type": "Heading",
+      "props": {
+        "text": "Tweet",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Yeah still not seeing how calls from here have a high + EV path\n\n10yr being very stubborn yeah"
+      },
+      "children": []
+    },
+    "section_context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_context",
+        "alert_images",
+        "text_suggestions"
+      ]
+    },
+    "heading_context": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "alert_images": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "Tweet includes 2 chart images (unable to fetch without approval)"
+      },
+      "children": []
+    },
+    "text_suggestions": {
+      "type": "Text",
+      "props": {
+        "text": "Text suggests market opinion on options EV and Treasury consolidation, but no personal trade action detected.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "section_interpretations": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_interpretations",
+        "stack_interp_list"
+      ]
+    },
+    "heading_interpretations": {
+      "type": "Heading",
+      "props": {
+        "text": "Possible Interpretations",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "stack_interp_list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "interp_a",
+        "interp_b",
+        "interp_c"
+      ]
+    },
+    "interp_a": {
+      "type": "Text",
+      "props": {
+        "text": "(a) Informational market commentary on options structure",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "interp_b": {
+      "type": "Text",
+      "props": {
+        "text": "(b) Personal trade consideration on Treasuries/calls",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "interp_c": {
+      "type": "Text",
+      "props": {
+        "text": "(c) Macro setup analysis tied to ongoing dispersion-trade thesis",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "section_uncertainty": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "alert_uncertainty"
+      ]
+    },
+    "alert_uncertainty": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "title": "Classification",
+        "message": "Unable to classify with certainty — what's your read?"
+      },
+      "children": []
+    }
+  }
+}
