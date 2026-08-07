@@ -1,0 +1,38 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Chase — TradFi"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-question",
+        "text-response"
+      ]
+    },
+    "text-question": {
+      "type": "Text",
+      "props": {
+        "text": "↩️ Member: \"eyeing anything?\""
+      }
+    },
+    "text-response": {
+      "type": "Text",
+      "props": {
+        "text": "💬 weird place for everything and gold local bottomed without giving me my entry trigger. Nothing really standing out to me atm"
+      }
+    }
+  }
+}
