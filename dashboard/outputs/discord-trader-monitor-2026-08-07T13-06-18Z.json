@@ -1,0 +1,188 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor"
+      },
+      "children": [
+        "heading",
+        "separator_1",
+        "trader_section",
+        "message_section",
+        "separator_2",
+        "meta_section",
+        "separator_3",
+        "classification_section"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: HCH — Chat]",
+        "level": "h3"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "trader_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "trader_label",
+        "trader_name"
+      ]
+    },
+    "trader_label": {
+      "type": "Text",
+      "props": {
+        "text": "Trader:",
+        "variant": "muted"
+      }
+    },
+    "trader_name": {
+      "type": "Badge",
+      "props": {
+        "text": "heartcanhodl"
+      }
+    },
+    "message_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "message_label",
+        "message_text"
+      ]
+    },
+    "message_label": {
+      "type": "Text",
+      "props": {
+        "text": "Message:",
+        "variant": "muted"
+      }
+    },
+    "message_text": {
+      "type": "Text",
+      "props": {
+        "text": "\"fc lit 1D wide\"",
+        "variant": "lead"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "meta_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "channel_text",
+        "timestamp_text"
+      ]
+    },
+    "channel_text": {
+      "type": "Text",
+      "props": {
+        "text": "Channel: Supporting (member chat)",
+        "variant": "body"
+      }
+    },
+    "timestamp_text": {
+      "type": "Text",
+      "props": {
+        "text": "Timestamp: 2026-08-07T13:03:40Z",
+        "variant": "caption"
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "unable_alert",
+        "question_text",
+        "options_stack",
+        "calibration_text"
+      ]
+    },
+    "unable_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "type": "info"
+      }
+    },
+    "question_text": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read on this? Is this:",
+        "variant": "lead"
+      }
+    },
+    "options_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "option_1",
+        "option_2",
+        "option_3"
+      ]
+    },
+    "option_1": {
+      "type": "Text",
+      "props": {
+        "text": "• A technical chart observation?",
+        "variant": "body"
+      }
+    },
+    "option_2": {
+      "type": "Text",
+      "props": {
+        "text": "• An entry signal?",
+        "variant": "body"
+      }
+    },
+    "option_3": {
+      "type": "Text",
+      "props": {
+        "text": "• Market commentary?",
+        "variant": "body"
+      }
+    },
+    "calibration_text": {
+      "type": "Text",
+      "props": {
+        "text": "Let me know how to calibrate this pattern.",
+        "variant": "muted"
+      }
+    }
+  }
+}

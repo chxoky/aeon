@@ -25,3 +25,16 @@ I've successfully executed the Discord Trader Monitor skill with the provided ev
 4. ✓ No Telegram notification sent (per Step 7 supporting-channel protocol)
 
 The skill processing is complete. This message will be tracked in memory but not escalated to Kyle, consistent with the supporting-channel handling rules in the skill definition.
+🔍 *Calibration — [DC: HCH — Chat]*
+
+Trader: heartcanhodl
+Message: "fc lit 1D wide"
+Channel: Supporting (member chat)
+Timestamp: 2026-08-07T13:03:40Z
+
+Unable to classify — what's your read on this? Is this:
+- A technical chart observation?
+- An entry signal?
+- Market commentary?
+
+Let me know how to calibrate this pattern.
