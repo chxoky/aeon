@@ -4,7 +4,7 @@
 
 | ID | Title | Severity | Category | Detected | Affected Skills |
 |----|-------|----------|----------|----------|-----------------|
-| [004](ISS-004.md) | traders.md exceeds size limit (171KB) — duplicate entries | medium | optimization | 2026-08-05 | x-trader-monitor, discord-trader-monitor |
+| [004](ISS-004.md) | traders.md exceeds size limit (333KB as of 2026-08-07) — growing daily | high | optimization | 2026-08-05 | x-trader-monitor, discord-trader-monitor |
 
 ## Resolved
 
