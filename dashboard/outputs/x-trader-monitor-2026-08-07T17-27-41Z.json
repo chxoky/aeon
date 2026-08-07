@@ -1,0 +1,141 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Trade Signal — @Wild_Randomness",
+        "description": "SHORT position on IBIT/BTC September puts"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badges_row",
+        "thesis_text",
+        "sep1",
+        "chart_heading",
+        "chart_details",
+        "link_post",
+        "alert_cta"
+      ]
+    },
+    "badges_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_short",
+        "badge_ibit",
+        "badge_btc",
+        "badge_puts"
+      ]
+    },
+    "badge_short": {
+      "type": "Badge",
+      "props": {
+        "text": "SHORT",
+        "variant": "destructive"
+      }
+    },
+    "badge_ibit": {
+      "type": "Badge",
+      "props": {
+        "text": "$IBIT",
+        "variant": "default"
+      }
+    },
+    "badge_btc": {
+      "type": "Badge",
+      "props": {
+        "text": "$BTC",
+        "variant": "default"
+      }
+    },
+    "badge_puts": {
+      "type": "Badge",
+      "props": {
+        "text": "SEPTEMBER PUTS",
+        "variant": "secondary"
+      }
+    },
+    "thesis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Picked up September puts once it rejected lifetime POC and diverged from equities. Can you just go fill that gap already? (Still think liqs into 66k are vulnerable this weekend)",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "chart_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart Context",
+        "level": "h3"
+      }
+    },
+    "chart_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "chart_line1",
+        "chart_line2",
+        "chart_line3"
+      ]
+    },
+    "chart_line1": {
+      "type": "Text",
+      "props": {
+        "text": "• IBIT rejected 42 resistance (box structure)",
+        "variant": "body"
+      }
+    },
+    "chart_line2": {
+      "type": "Text",
+      "props": {
+        "text": "• BTC rejected 67k resistance on 4h, consolidating at 65,290",
+        "variant": "body"
+      }
+    },
+    "chart_line3": {
+      "type": "Text",
+      "props": {
+        "text": "• Divergence: BTC diverged from equities (indicator confirms)",
+        "variant": "body"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2085778069110095900"
+      }
+    },
+    "alert_cta": {
+      "type": "Alert",
+      "props": {
+        "title": "Action Required",
+        "message": "Reply `approve WR-BTC-PUTS` to mirror Sep puts on derivatives, or ignore to skip.",
+        "type": "info"
+      }
+    }
+  }
+}
