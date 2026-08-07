@@ -25,3 +25,8 @@ Perfect! I've successfully executed the discord-trader-monitor skill. Here's wha
 **Fast-Path Status:** `false` — performed full skill processing; no Cloudflare Worker pre-alert was sent.
 
 Skill execution complete. ✅
+🔍 *Calibration — [DC: HCH — Chat]*
+
+HeartCanHodl: "Zero this 🎯"
+
+Unable to classify — what's your read? ("Zero out" = close position? New ticker focus? Context unclear.)

@@ -1,0 +1,87 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor"
+      },
+      "children": [
+        "calibration_section",
+        "separator_1",
+        "message_section",
+        "separator_2",
+        "unclear_section"
+      ]
+    },
+    "calibration_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "calibration_heading",
+        "metadata_badge"
+      ]
+    },
+    "calibration_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration",
+        "level": "h3"
+      }
+    },
+    "metadata_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DC: HCH — Chat"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "author_display",
+        "quote_display"
+      ]
+    },
+    "author_display": {
+      "type": "Text",
+      "props": {
+        "text": "HeartCanHodl",
+        "variant": "lead"
+      }
+    },
+    "quote_display": {
+      "type": "Text",
+      "props": {
+        "text": "Zero this 🎯"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "unclear_section": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "title": "Unable to classify",
+        "message": "What's your read? (\"Zero out\" = close position? New ticker focus? Context unclear.)"
+      }
+    }
+  }
+}
