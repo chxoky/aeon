@@ -1,0 +1,100 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X-Trader Monitor"
+      },
+      "children": [
+        "story-link",
+        "separator-1",
+        "analysis-stack"
+      ]
+    },
+    "story-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "rocket landing $SPCX 📉",
+        "href": "https://x.com/HeartCanHodl/status/2085706533829292413",
+        "source": "HeartCanHodl"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge-spcx",
+        "chart-info",
+        "position-info"
+      ]
+    },
+    "badge-spcx": {
+      "type": "Badge",
+      "props": {
+        "text": "$SPCX",
+        "variant": "default"
+      }
+    },
+    "chart-info": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "chart-heading",
+        "chart-details"
+      ]
+    },
+    "chart-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "5m Chart",
+        "level": "h3"
+      }
+    },
+    "chart-details": {
+      "type": "Text",
+      "props": {
+        "text": "Peak at 117.980 → descent to 114.470 (reversal signal)",
+        "variant": "body"
+      }
+    },
+    "position-info": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "position-heading",
+        "position-content"
+      ]
+    },
+    "position-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Position",
+        "level": "h3"
+      }
+    },
+    "position-content": {
+      "type": "Text",
+      "props": {
+        "text": "HCH holds SPCX hedged: 2% spot LONG + 2% SHORT from earlier positioning",
+        "variant": "body"
+      }
+    }
+  }
+}
