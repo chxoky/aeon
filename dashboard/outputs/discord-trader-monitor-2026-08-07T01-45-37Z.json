@@ -1,0 +1,250 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor — Calibration",
+        "description": "Analyzing trading signal from DC: HCH — Chat"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "section_context",
+        "sep1",
+        "section_current",
+        "sep2",
+        "section_pattern",
+        "sep3",
+        "section_issue"
+      ]
+    },
+    "section_context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_context",
+        "text_context"
+      ]
+    },
+    "heading_context": {
+      "type": "Heading",
+      "props": {
+        "text": "Related Context",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "Cover 5% BTC & 2.5–2.5% each ETH & SOL longs"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_current": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_current",
+        "text_current_msg"
+      ]
+    },
+    "heading_current": {
+      "type": "Heading",
+      "props": {
+        "text": "Current Message",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text_current_msg": {
+      "type": "Text",
+      "props": {
+        "text": "Fc eth 1m"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_pattern": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_pattern",
+        "text_pattern_intro",
+        "pattern_items_stack"
+      ]
+    },
+    "heading_pattern": {
+      "type": "Heading",
+      "props": {
+        "text": "Pattern: 3 Messages in 2 Days",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text_pattern_intro": {
+      "type": "Text",
+      "props": {
+        "text": "All follow 'Fc [ticker] [timeframe]' format:"
+      },
+      "children": []
+    },
+    "pattern_items_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pattern_item1",
+        "pattern_item2",
+        "pattern_item3"
+      ]
+    },
+    "pattern_item1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_date1",
+        "text_msg1"
+      ]
+    },
+    "badge_date1": {
+      "type": "Badge",
+      "props": {
+        "text": "Aug 05 20:09Z",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text_msg1": {
+      "type": "Text",
+      "props": {
+        "text": "Fc SNDL, mu, nbis, dram 1m"
+      },
+      "children": []
+    },
+    "pattern_item2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_date2",
+        "text_msg2"
+      ]
+    },
+    "badge_date2": {
+      "type": "Badge",
+      "props": {
+        "text": "Aug 06 11:12Z • Pending",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text_msg2": {
+      "type": "Text",
+      "props": {
+        "text": "Fc SNDK, mu, nbis, dram 15m"
+      },
+      "children": []
+    },
+    "pattern_item3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_date3",
+        "text_msg3"
+      ]
+    },
+    "badge_date3": {
+      "type": "Badge",
+      "props": {
+        "text": "Aug 07 (current)",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text_msg3": {
+      "type": "Text",
+      "props": {
+        "text": "Fc eth 1m"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_issue": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_issue",
+        "alert_unclear"
+      ]
+    },
+    "heading_issue": {
+      "type": "Heading",
+      "props": {
+        "text": "Classification Issue",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "alert_unclear": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Unable to Classify 'Fc' Abbreviation",
+        "message": "Possible meanings: Filled Crypto? First Chart? Other? Is this message standalone or a confirmation/chart reference to the profit-taking cover?"
+      },
+      "children": []
+    }
+  }
+}
