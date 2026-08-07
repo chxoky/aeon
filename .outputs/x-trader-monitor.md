@@ -1,7 +1,6 @@
-🐦 *[X] @swarmister*
+🐦 *[X] @Bitcoin_Astro*
 
-How does it feel to wake up in the morning when, after two boring days, you make an extra profit from the dumbest short positions:
+#Bitcoin - Sun trine Saturn today
+A harmonious aspect between the Sun and Saturn, and so far we're seeing some positive price action in BTC.
 
-Good morning, family ☕️🍋
-
-[View tweet](https://x.com/swarmister/status/2085665303443165207)
+[View tweet](https://x.com/Bitcoin_Astro/status/2085667483596292598)
