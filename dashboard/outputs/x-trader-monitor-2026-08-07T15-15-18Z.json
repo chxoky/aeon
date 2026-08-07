@@ -1,0 +1,187 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "sep1",
+        "position_mgmt",
+        "sep2",
+        "trade_context",
+        "sep3",
+        "catalyst",
+        "sep4",
+        "sentiment",
+        "sep5",
+        "link"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "SPCX — Partial TP + Re-entry Plan\n\nAbout 40% TP'd into range high. Would re-add at mid."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "position_mgmt": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "pos_heading",
+        "tp_stat",
+        "reentry_text"
+      ]
+    },
+    "pos_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Position Management",
+        "level": "h3"
+      }
+    },
+    "tp_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Partial Take Profit",
+        "value": "40%",
+        "trend": "up"
+      }
+    },
+    "reentry_text": {
+      "type": "Text",
+      "props": {
+        "text": "Would re-add at mid."
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "trade_context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ctx_heading",
+        "ctx_range",
+        "ctx_profit",
+        "ctx_reentry"
+      ]
+    },
+    "ctx_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Trade Context",
+        "level": "h3"
+      }
+    },
+    "ctx_range": {
+      "type": "Text",
+      "props": {
+        "text": "SPCX consolidating 108–127 range"
+      }
+    },
+    "ctx_profit": {
+      "type": "Text",
+      "props": {
+        "text": "Took 40% profit into 125–130 resistance"
+      }
+    },
+    "ctx_reentry": {
+      "type": "Text",
+      "props": {
+        "text": "Plans scaled re-entry at ~110–115 support"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "catalyst": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "cat_heading",
+        "cat_text"
+      ]
+    },
+    "cat_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Unlock Catalyst",
+        "level": "h3"
+      }
+    },
+    "cat_text": {
+      "type": "Text",
+      "props": {
+        "text": "SpaceX share unlock Aug-Sep 2026 — volatility driver"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "sentiment": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "sent_heading",
+        "traders",
+        "group_badge"
+      ]
+    },
+    "sent_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Cross-Trader Sentiment",
+        "level": "h3"
+      }
+    },
+    "traders": {
+      "type": "Text",
+      "props": {
+        "text": "SPCX contested: HCH (long), Crypto_Chase (short), swarmister (long)"
+      }
+    },
+    "group_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Group: BULLISH",
+        "variant": "default"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {}
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/Wild_Randomness/status/2085745216376746438"
+      }
+    }
+  }
+}

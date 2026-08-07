@@ -1,20 +1,13 @@
-🔁 *Mirrored — @Wild_Randomness*
-
-Wild_Randomness closed SOXL long position at trend line break (~139-150 support).
-I closed your position to match. "Very binary level" = key support now at critical test.
-
-Charts show 3-month SOXL downtrend from 300→140; trend support established at current level.
-Trend break below 139 would invalidate structural support; hold above 149 = consolidation continues.
-
-[View post](https://x.com/Wild_Randomness/status/2085739487716638887)
 🐦 *[X] @Wild_Randomness*
 
-$GOLD $SILVER
+**SPCX — Partial TP + Re-entry Plan**
 
-@ Largest resistance on each chart
+About 40% TP'd into range high. Would re-add at mid.
 
-**Gold (XAUUSD)**: 4,347.725 — consolidating at key resistance zone (~4,347 level on weekly). Multi-timeframe resistance visible.
+Context: SPCX consolidating 108-127 range. Took 40% profit into 125-130 resistance; plans scaled re-entry at ~110-115 support.
 
-**Silver (XAGUSUSD)**: 63.77 — resistance at 65.42; inverse bond-yield correlation (US10Y: 4.603%) pressuring metals.
+Unlock catalyst: SpaceX share unlock Aug-Sep 2026 — volatility driver.
 
-[View tweet](https://x.com/Wild_Randomness/status/2085738970084970750)
+Cross-trader: SPCX contested (HCH long, Crypto_Chase short, swarmister long). Group: BULLISH.
+
+https://x.com/Wild_Randomness/status/2085745216376746438
