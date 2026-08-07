@@ -1,29 +1,22 @@
-Perfect! I've successfully processed the Discord trader monitor event. Here's the summary:
+Perfect! I've successfully processed the Discord trader monitor event. Here's what was executed:
 
-## Execution Summary
+## Summary
 
-**Message Processed:**
-- **ID:** 1535259373226696706
-- **Trader:** HeartCanHodl (@heartcanhodl)
+**Event processed:** HeartCanHodl Discord message at 12:15:07 UTC (Message ID: 1535259996936347670)
+
+**Details:**
 - **Channel:** 1279738718680256553 (HCH — Trades, primary ★most important)
-- **Time:** 2026-08-07T12:12:38Z
-- **Content:** "Add 5% eth short hedge"
+- **Message:** "Add 5% btc short hedge"
+- **Classification:** TRADE-CONVICTION-ADD
+- **Ticker:** BTC
+- **Fast-path status:** Already alerted (fast_path_alerted=true)
 
-**Classification:** Trade-new-entry (5a) — ETH short position
+**Actions taken:**
+1. ✅ Decoded and validated the base64 event
+2. ✅ Confirmed message ID not previously seen (added to discord-trader-seen.txt)
+3. ✅ Classified as conviction add to existing BTC short position
+4. ✅ Updated traders.md with event entry (line 70) showing escalation from 5% baseline BTC short to ~10% combined
+5. ✅ Logged detailed activity entry to memory/logs/2026-08-07.md
+6. ✅ Skipped duplicate Telegram notification (fast-path Worker already sent ~2-5s post-message)
 
-**Key Details:**
-- **Direct execution:** "Add" language + quantified 5% allocation = market order filled
-- **Hedge positioning:** 5% ETH short layered on top of ~17% ETH long residual = 12% net long with 5% tactical short overlay
-- **Context:** Follows sustained morning session of major-pair profit-taking (5 tranches, 01:18Z–11:33Z) and alt-short conviction adds (SOL/SPCX). Represents sophisticated hedge divergence strategy within broader net-short regime shift (00:28Z announcement).
-- **Portfolio impact:** Short basket now ~33-34% allocation (up from ~28-29% pre-add)
-
-**Processing Steps:**
-✅ Decoded base64 message  
-✅ Verified message ID not in seen list (fresh message)  
-✅ Confirmed channel + trader mapping (HCH primary channel)  
-✅ Classified as trade-new-entry with hedge framing  
-✅ Fast-path verified (Cloudflare Worker already sent Telegram ~2-5s post-message)  
-✅ Updated discord-trader-seen.txt with message ID  
-✅ Logged full event to memory/logs/2026-08-07.md with portfolio context  
-
-**No duplicate alert sent** — Cloudflare Worker's fast-path delivery already notified Kyle via Telegram. Skill performs memory-only processing per fast-path protocol to avoid duplicate notifications.
+**Portfolio context:** HCH is actively scaling short positions within net-short regime shift (initiated 00:28Z). BTC short now at ~10% allocation (5% entry 00:06Z + 5% conviction add 12:15Z) with sustained profit-taking on major-pair longs and tactical hedge additions across equities/alts. Diverges from KillaXBT's documented HTF 2x long conviction.
