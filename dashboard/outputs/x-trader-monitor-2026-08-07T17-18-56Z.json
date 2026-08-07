@@ -1,0 +1,55 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet",
+        "sep",
+        "content"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Confirms NDX/SPX correlation breakdown — 'it used to be a mirror of ndx/spx but it hasn't been for a 10-15 days'"
+      }
+    },
+    "sep": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis",
+        "link"
+      ]
+    },
+    "analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Aligns with documented macro divergence thesis (GOLD/BTC ratio breakout, index dispersion)."
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/Wild_Randomness/status/2085775808829042894"
+      }
+    }
+  }
+}

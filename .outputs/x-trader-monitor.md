@@ -17,3 +17,10 @@ This is personal meta-commentary about the trader's writing process, not a finan
 ✅ **Duplicate prevention** — recorded tweet ID in `memory/x-trader-seen.txt` to prevent Worker redelivery duplicates
 
 **Portfolio Impact**: None — no action required, no trade signal detected.
+🐦 [X] @Wild_Randomness
+
+Confirms NDX/SPX correlation breakdown — 'it used to be a mirror of ndx/spx but it hasn't been for a 10-15 days'
+
+Aligns with documented macro divergence thesis (GOLD/BTC ratio breakout, index dispersion).
+
+https://x.com/Wild_Randomness/status/2085775808829042894
