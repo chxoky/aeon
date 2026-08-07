@@ -1,0 +1,177 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor — Image Classification"
+      },
+      "children": [
+        "heading_calibration",
+        "sep1",
+        "message_meta",
+        "sep2",
+        "classification_issue"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: HCH — Chat]",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "message_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_header",
+        "grid_details"
+      ]
+    },
+    "text_header": {
+      "type": "Text",
+      "props": {
+        "text": "Image-only message received (supporting channel, 09:34 UTC)",
+        "variant": "lead"
+      }
+    },
+    "grid_details": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "detail_user",
+        "detail_timestamp",
+        "detail_size",
+        "detail_format"
+      ]
+    },
+    "detail_user": {
+      "type": "Text",
+      "props": {
+        "text": "User: HeartCanHodl",
+        "variant": "body"
+      }
+    },
+    "detail_timestamp": {
+      "type": "Text",
+      "props": {
+        "text": "Posted: 2026-08-06 17:29:41",
+        "variant": "body"
+      }
+    },
+    "detail_size": {
+      "type": "Text",
+      "props": {
+        "text": "Size: 39KB",
+        "variant": "body"
+      }
+    },
+    "detail_format": {
+      "type": "Text",
+      "props": {
+        "text": "Format: JPEG",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "classification_issue": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert_classification",
+        "text_context",
+        "categories_header",
+        "categories_stack"
+      ]
+    },
+    "alert_classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to Classify",
+        "message": "No text context or reply reference provided. Manual review required.",
+        "type": "warning"
+      }
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "What's the image showing?",
+        "variant": "body"
+      }
+    },
+    "categories_header": {
+      "type": "Text",
+      "props": {
+        "text": "Possible categories:",
+        "variant": "caption"
+      }
+    },
+    "categories_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_chart",
+        "badge_position",
+        "badge_setup",
+        "badge_analysis",
+        "badge_other"
+      ]
+    },
+    "badge_chart": {
+      "type": "Badge",
+      "props": {
+        "text": "Technical Chart",
+        "variant": "outline"
+      }
+    },
+    "badge_position": {
+      "type": "Badge",
+      "props": {
+        "text": "Position Validation",
+        "variant": "outline"
+      }
+    },
+    "badge_setup": {
+      "type": "Badge",
+      "props": {
+        "text": "Trade Setup",
+        "variant": "outline"
+      }
+    },
+    "badge_analysis": {
+      "type": "Badge",
+      "props": {
+        "text": "Market Analysis",
+        "variant": "outline"
+      }
+    },
+    "badge_other": {
+      "type": "Badge",
+      "props": {
+        "text": "Other",
+        "variant": "outline"
+      }
+    }
+  }
+}
