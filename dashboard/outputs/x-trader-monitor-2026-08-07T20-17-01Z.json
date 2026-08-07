@@ -1,0 +1,135 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet",
+        "tweet_link",
+        "sep1",
+        "stat_price",
+        "sep2",
+        "details_stack",
+        "sep3",
+        "footer_stack"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "$SPCX showing strong intraday momentum: +15.83% daily close at 133.11\n\nCharts show breakout from consolidation with price-action Three Tap Setup pattern. Aligns with 3-trader bullish convergence (HCH/swarmister/WR technical analysis) + multiple catalysts (AST satellite, NVDA partnership, unlock timeline)."
+      }
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2085821759371321787"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stat_price": {
+      "type": "Stat",
+      "props": {
+        "label": "$SPCX Daily Close",
+        "value": "133.11",
+        "delta": "+15.83%",
+        "trend": "up"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "details_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_analysis",
+        "text_pattern",
+        "text_convergence",
+        "heading_catalysts",
+        "text_catalysts"
+      ]
+    },
+    "heading_analysis": {
+      "type": "Heading",
+      "props": {
+        "text": "Technical Analysis",
+        "level": "h3"
+      }
+    },
+    "text_pattern": {
+      "type": "Text",
+      "props": {
+        "text": "Three Tap Setup pattern with breakout from consolidation"
+      }
+    },
+    "text_convergence": {
+      "type": "Text",
+      "props": {
+        "text": "3-trader bullish convergence: HCH / swarmister / WR"
+      }
+    },
+    "heading_catalysts": {
+      "type": "Heading",
+      "props": {
+        "text": "Catalysts",
+        "level": "h3"
+      }
+    },
+    "text_catalysts": {
+      "type": "Text",
+      "props": {
+        "text": "AST satellite, NVDA partnership, unlock timeline"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "footer_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_classification",
+        "text_portfolio_impact"
+      ]
+    },
+    "badge_classification": {
+      "type": "Badge",
+      "props": {
+        "text": "Informational",
+        "variant": "outline"
+      }
+    },
+    "text_portfolio_impact": {
+      "type": "Text",
+      "props": {
+        "text": "Portfolio impact: Momentum validation for pending SPCX long approvals",
+        "variant": "caption"
+      }
+    }
+  }
+}
