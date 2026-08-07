@@ -1,0 +1,205 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @Wild_Randomness (X)",
+        "description": "x-trader-monitor event monitoring"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event_label",
+        "sep1",
+        "tweet_card",
+        "sep2",
+        "issue_section"
+      ]
+    },
+    "event_label": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Conditional re-entry strategy posted",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "I will literally just rebuy on a reclaim of trend though, may miss out on 2.5% oh well"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "issue_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "issue_heading",
+        "issue_text",
+        "ambiguity_section",
+        "classification_text",
+        "refinement_alert",
+        "metadata_stack"
+      ]
+    },
+    "issue_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Issue",
+        "level": "h3"
+      }
+    },
+    "issue_text": {
+      "type": "Text",
+      "props": {
+        "text": "Specific ticker/asset reference unclear — could be any of your monitored positions:"
+      }
+    },
+    "ambiguity_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "aapl_badge",
+        "btc_badge",
+        "gold_badge",
+        "spcx_badge",
+        "qqq_badge",
+        "soxl_badge",
+        "alab_badge",
+        "hype_badge",
+        "nvda_badge"
+      ]
+    },
+    "aapl_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "AAPL",
+        "variant": "secondary"
+      }
+    },
+    "btc_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "BTC",
+        "variant": "secondary"
+      }
+    },
+    "gold_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "GOLD",
+        "variant": "secondary"
+      }
+    },
+    "spcx_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "SPCX",
+        "variant": "secondary"
+      }
+    },
+    "qqq_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "QQQ",
+        "variant": "secondary"
+      }
+    },
+    "soxl_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "SOXL",
+        "variant": "secondary"
+      }
+    },
+    "alab_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "ALAB",
+        "variant": "secondary"
+      }
+    },
+    "hype_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "HYPE",
+        "variant": "secondary"
+      }
+    },
+    "nvda_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "NVDA",
+        "variant": "secondary"
+      }
+    },
+    "classification_text": {
+      "type": "Text",
+      "props": {
+        "text": "Step 4C→6 classification: informational conditional plan-sharing, not immediate trade action."
+      }
+    },
+    "refinement_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Refinement Needed",
+        "message": "If you can identify which asset/trend is being referenced, let me know for classification refinement.",
+        "type": "info"
+      }
+    },
+    "metadata_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet_id_badge",
+        "timestamp_badge"
+      ]
+    },
+    "tweet_id_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Tweet: 2085773911594291333",
+        "variant": "outline"
+      }
+    },
+    "timestamp_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "2026-08-07 17:03:46 UTC",
+        "variant": "outline"
+      }
+    }
+  }
+}
