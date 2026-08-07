@@ -1,0 +1,205 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section_header",
+        "sep1",
+        "section_message",
+        "sep2",
+        "section_context",
+        "sep3",
+        "section_historical",
+        "sep4",
+        "section_classification"
+      ]
+    },
+    "section_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_calibration_marker",
+        "text_timestamp_metadata"
+      ]
+    },
+    "text_calibration_marker": {
+      "type": "Text",
+      "props": {
+        "text": "🔍 Calibration — [DC: HCH — Chat]",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text_timestamp_metadata": {
+      "type": "Text",
+      "props": {
+        "text": "Discord timestamp: 2026-08-07T15:06:57Z",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_message": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_message",
+        "text_message_content"
+      ]
+    },
+    "heading_message": {
+      "type": "Heading",
+      "props": {
+        "text": "Discord Message",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text_message_content": {
+      "type": "Text",
+      "props": {
+        "text": "Fc cl 5m",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_context",
+        "text_context_line1",
+        "text_context_line2"
+      ]
+    },
+    "heading_context": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text_context_line1": {
+      "type": "Text",
+      "props": {
+        "text": "Supporting channel message; cryptic abbreviation; no reply context.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_context_line2": {
+      "type": "Text",
+      "props": {
+        "text": "HCH channel context",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_historical": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_historical",
+        "text_historical_reference",
+        "text_earlier_message",
+        "text_earlier_clarification"
+      ]
+    },
+    "heading_historical": {
+      "type": "Heading",
+      "props": {
+        "text": "Historical Pattern",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text_historical_reference": {
+      "type": "Text",
+      "props": {
+        "text": "Similar pattern to earlier 14:01Z calibration",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_earlier_message": {
+      "type": "Text",
+      "props": {
+        "text": "Earlier message: \"Fc btc 5m\"",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_earlier_clarification": {
+      "type": "Text",
+      "props": {
+        "text": "Later clarified as false-close technical check via X follow-up \"Nosedive\"",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to Classify",
+        "message": "Is this a technical observation, position update, or personal signal? Your read?",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}

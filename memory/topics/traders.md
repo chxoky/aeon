@@ -919,7 +919,15 @@
   - Aug 04 03:02Z — skip: personal banter reply to @lazyvillager1/@real_y22; "bro was just camping out at chipotle for a few months"; no financial signal, no ticker, no position. Non-financial per Step 4A. [2084475015290823036]
 
 ## HeartCanHodl — Discord Calibration Pending (Aug 07)
-- **Aug 07T14:01:27Z — Ambiguous/Calibration Alert Sent**
+- **Aug 07T15:06:57Z — Ambiguous/Calibration Alert Sent**
+- Discord Chat (supporting channel 1023638573313966212)
+- Message: "Fc cl 5m"
+- Context: No reply context (referenced_message: null); cryptic abbreviation similar to earlier 14:01Z message; "Fc cl" = possible false-close confirmation/check; "5m" = 5-minute timeframe reference; 65 minutes after prior "Fc btc 5m" event
+- Classification: AMBIGUOUS per Step 5B (cryptic, hard to interpret)
+- Action: Calibration alert sent to Kyle requesting clarification
+- Status: PENDING — Similar pattern to 14:01Z calibration, monitoring for X follow-up
+- Context notes: HCH remains net-short regime (BTC short entry Aug 06). Message timing (15:06 UTC = afternoon Asia) consistent with intraday chart monitoring. Technical jargon ("Fc" = false-close, "cl" = close) suggests chart observation rather than trade execution, but lacking explicit position language. [1535303243536666705]
+- **Aug 07T14:01:27Z — Ambiguous/Calibration Alert Sent** (Prior event — CROSS-PLATFORM CLARIFIED)
 - Discord Trades Chat (supporting channel 1023638573313966212)
 - Message: "Fc btc 5m"
 - Context: No reply context (referenced_message: null); cryptic abbreviation "Fc" (false-close technical check, established pattern); "btc 5m" = Bitcoin 5-minute timeframe reference
