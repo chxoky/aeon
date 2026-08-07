@@ -1,0 +1,70 @@
+{
+  "root": "card1",
+  "state": {},
+  "elements": {
+    "card1": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration — @swarmister"
+      },
+      "children": [
+        "text1",
+        "sep1",
+        "tweet1",
+        "sep2",
+        "text2",
+        "text3",
+        "link1"
+      ]
+    },
+    "text1": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Tweet reference to @Valerie_Onchain (context not visible in payload)",
+        "variant": "caption"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "@Valerie_Onchain Woman is talking 🔇🔕"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text2": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "body"
+      }
+    },
+    "text3": {
+      "type": "Text",
+      "props": {
+        "text": "Is this dismissing something Valerie posted, social banter, or a market signal?",
+        "variant": "body"
+      }
+    },
+    "link1": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/swarmister/status/2085676101947281435"
+      }
+    }
+  }
+}
