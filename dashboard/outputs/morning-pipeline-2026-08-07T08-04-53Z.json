@@ -1,0 +1,229 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-08-07"
+      },
+      "children": [
+        "stack-root"
+      ]
+    },
+    "stack-root": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "section-focus",
+        "sep-1",
+        "section-since",
+        "sep-2",
+        "section-watch",
+        "sep-3",
+        "section-running"
+      ]
+    },
+    "section-focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-focus",
+        "focus-1",
+        "focus-2",
+        "focus-3"
+      ]
+    },
+    "heading-focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "focus-1": {
+      "type": "Text",
+      "props": {
+        "text": "1. HCH net-short — why now: BTC rejected 65,025 twice, broke 64,172; flipped to ~22% short 00:28Z across crypto+equities. KillaXBT remains HTF long. Mirror alignment call needed.",
+        "variant": "body"
+      }
+    },
+    "focus-2": {
+      "type": "Text",
+      "props": {
+        "text": "2. NFP (8:30 AM ET today) — why now: June was 57K vs 110K consensus; Sep FOMC 50/50 on hold; BTC is a ±3-5% binary catalyst on the print.",
+        "variant": "body"
+      }
+    },
+    "focus-3": {
+      "type": "Text",
+      "props": {
+        "text": "3. PUMP-RISK watch: ACE +103%, HFT +46% trending — why now: new micro-cap pump wave; CASHCAT already −7.8% on the fade; no entry but risk surface is live.",
+        "variant": "body"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-since": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-since",
+        "since-1",
+        "since-2",
+        "since-3",
+        "since-4",
+        "since-5",
+        "since-6"
+      ]
+    },
+    "heading-since": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "since-1": {
+      "type": "Text",
+      "props": {
+        "text": "HCH: flipped net-short 00:28Z (BTC 5% / ZEC 2.5% / HYPE 1% / LIT 1% / TSLA 1% / PLTR 1% / SPCX 1%); partial TP BTC/ETH/SOL longs 01:18Z",
+        "variant": "body"
+      }
+    },
+    "since-2": {
+      "type": "Text",
+      "props": {
+        "text": "Iranian blockade by Aug 7: 37%→12.25% YES (priced out)",
+        "variant": "body"
+      }
+    },
+    "since-3": {
+      "type": "Text",
+      "props": {
+        "text": "F&G: 25→29 (Extreme Fear→Fear; first positive delta in 3 sessions)",
+        "variant": "body"
+      }
+    },
+    "since-4": {
+      "type": "Text",
+      "props": {
+        "text": "ADA: +7.1% / 7d +19.3% — only major-cap coin green by a meaningful margin",
+        "variant": "body"
+      }
+    },
+    "since-5": {
+      "type": "Text",
+      "props": {
+        "text": "CASHCAT [FADE]: −7.8% after +62.6% yesterday; meme cluster reversing",
+        "variant": "body"
+      }
+    },
+    "since-6": {
+      "type": "Text",
+      "props": {
+        "text": "2 pending calibrations: HCH \"New drop\" (02:09Z) + trading_axe \"Bigger market than ENS\" (04:33Z)",
+        "variant": "body"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-watch",
+        "watch-1",
+        "watch-2"
+      ]
+    },
+    "heading-watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "watch-1": {
+      "type": "Text",
+      "props": {
+        "text": "NFP July 2026 today (BLS 8:30 AM ET) — June 57K vs 110K consensus; soft print reopens rate-cut path; implication for focus #2 and HCH's new short thesis",
+        "variant": "body"
+      }
+    },
+    "watch-2": {
+      "type": "Text",
+      "props": {
+        "text": "Hashdex closing first US spot BTC ETF (CoinDesk, Aug 4) — IBIT inflow oligopoly forming; structural shift in BTC demand footprint",
+        "variant": "body"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-running",
+        "running-1",
+        "running-2",
+        "running-3"
+      ]
+    },
+    "heading-running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "running-1": {
+      "type": "Text",
+      "props": {
+        "text": "morning-pipeline @ 07:00 UTC (this run)",
+        "variant": "body"
+      }
+    },
+    "running-2": {
+      "type": "Text",
+      "props": {
+        "text": "x-trader-monitor — real-time (last success 06:33 UTC)",
+        "variant": "body"
+      }
+    },
+    "running-3": {
+      "type": "Text",
+      "props": {
+        "text": "discord-trader-monitor — 1-min cron (healthy)",
+        "variant": "body"
+      }
+    }
+  }
+}

@@ -1,22 +1,23 @@
-*Morning Brief — 2026-08-03*
+*Morning Brief — 2026-08-07*
 
 *Focus today*
-1. HCH alt deployment — approve/decline Kraken mirrors: why now: 10%+ new positions opened Asia session (TAO/STABLE/ASTS/LIT/PUMP/ETH/SOL), some pending Kyle approval
-2. NFP August 7 (4 days) — Sep FOMC binary: why now: strong payrolls = hike probability rises from 72%; July ETF flows record-weak; positioning window closing
-3. Aug 12 Solar Eclipse watch window: why now: Bitcoin_Astro + Wild_Randomness + Stoiiic independently flagged near-term directional break catalyst; 9 days out
+1. HCH net-short — why now: BTC rejected 65,025 twice, broke 64,172; flipped to ~22% short 00:28Z across crypto+equities. KillaXBT remains HTF long. Mirror alignment call needed.
+2. NFP (8:30 AM ET today) — why now: June was 57K vs 110K consensus; Sep FOMC 50/50 on hold; BTC is a ±3-5% binary catalyst on the print.
+3. PUMP-RISK watch: ACE +103%, HFT +46% trending — why now: new micro-cap pump wave; CASHCAT already −7.8% on the fade; no entry but risk surface is live.
 
 *Since yesterday*
-- HCH: 10%+ deployed across 7 tickers (TAO/STABLE/ASTS/LIT/PUMP +1% each, ETH/SOL +2.5% each) — largest single-session alt deployment observed
-- Wild_Randomness: stablecoin bleed -1B/week charts + Gold/BTC ratio at multi-year lows — macro bear reinforced
-- Stoiiic: cycle framework — BTC -50% from ATH, historical cycle lows -77-84%, further downside thesis
-- Bitcoin_Astro: Aug 12 Solar Eclipse as significant market-timing turning-point candidate
-- Market: risk-off deepened, breadth 5/20 green, BTC -1.4% to $62,543
+- HCH: flipped net-short 00:28Z (BTC 5% / ZEC 2.5% / HYPE 1% / LIT 1% / TSLA 1% / PLTR 1% / SPCX 1%); partial TP BTC/ETH/SOL longs 01:18Z
+- Iranian blockade by Aug 7: 37%→12.25% YES (priced out)
+- F&G: 25→29 (Extreme Fear→Fear; first positive delta in 3 sessions)
+- ADA: +7.1% / 7d +19.3% — only major-cap coin green by a meaningful margin
+- CASHCAT [FADE]: −7.8% after +62.6% yesterday; meme cluster reversing
+- 2 pending calibrations: HCH "New drop" (02:09Z) + trading_axe "Bigger market than ENS" (04:33Z)
 
 *Watch*
-- BTC ETF flows: 4-day inflow streak $132M post-July (weakest month on record, $205M). First institutional buying signal in weeks — if it continues through NFP, bear thesis needs recalibration.
+- NFP July 2026 today (BLS 8:30 AM ET) — June 57K vs 110K consensus; soft print reopens rate-cut path; implication for focus #2 and HCH's new short thesis
+- Hashdex closing first US spot BTC ETF (CoinDesk, Aug 4) — IBIT inflow oligopoly forming; structural shift in BTC demand footprint
 
 *Running today*
-- x-trader-monitor @ continuous
-- discord-trader-monitor @ every 1 min
-- market-context-refresh @ 10:00 UTC
-- heartbeat @ ~08:xx UTC
+- morning-pipeline @ 07:00 UTC (this run)
+- x-trader-monitor — real-time (last success 06:33 UTC)
+- discord-trader-monitor — 1-min cron (healthy)
