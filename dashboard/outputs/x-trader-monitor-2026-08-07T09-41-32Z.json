@@ -1,0 +1,107 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet_card",
+        "separator1",
+        "price_stats",
+        "separator2",
+        "warning_alert",
+        "sentiment_text",
+        "tweet_link"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "Closed 2x leveraged position on CASHCAT at profit.\n\nChart: CASHCAT pumped from 0.0618 → 0.1931 (peak), then dumped -44.82% to 0.1020."
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "price_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_entry",
+        "stat_peak",
+        "stat_current"
+      ]
+    },
+    "stat_entry": {
+      "type": "Stat",
+      "props": {
+        "label": "Entry",
+        "value": "$0.0618"
+      },
+      "children": []
+    },
+    "stat_peak": {
+      "type": "Stat",
+      "props": {
+        "label": "Peak",
+        "value": "$0.1931"
+      },
+      "children": []
+    },
+    "stat_current": {
+      "type": "Stat",
+      "props": {
+        "label": "Current",
+        "value": "$0.1020",
+        "delta": "-44.82%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "warning_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Exit Scam Risk",
+        "message": "If something that's been dead starts surging on news of a listing, it's most likely an exit scam.",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "sentiment_text": {
+      "type": "Text",
+      "props": {
+        "text": "Sentiment: Anti-scam risk warning on new-listing pump-and-dumps. Crypto near bottom per trader commentary.",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/swarmister/status/2085661434625544496"
+      },
+      "children": []
+    }
+  }
+}

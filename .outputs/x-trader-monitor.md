@@ -1,11 +1,11 @@
-🐦 *[X] @KillaXBT*
+🐦 *[X] @swarmister*
 
-The best trades always require the most patience.
+Closed 2x leveraged position on CASHCAT at profit. 
 
-Unfortunately, 95% of people don't have the patience to hold a position for more than a few days because they're constantly chasing adrenaline.
+Chart: CASHCAT pumped from 0.0618 → 0.1931 (peak), then dumped -44.82% to 0.1020. 
 
-The market doesn't reward the most active trader. It rewards the most patient one.
+⚠️ Warning: "If something that's been dead starts surging on news of a listing, it's most likely an exit scam."
 
-Proper trading is boring. It's not supposed to be fun. If you're constantly entertained by the market, you're probably trading your emotions.
+Sentiment: Anti-scam risk warning on new-listing pump-and-dumps. Crypto near bottom per trader commentary.
 
-[View tweet](https://x.com/KillaXBT/status/2085650063884255388)
+[View tweet](https://x.com/swarmister/status/2085661434625544496)
