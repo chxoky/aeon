@@ -1,0 +1,238 @@
+{
+  "root": "market-card",
+  "state": {},
+  "elements": {
+    "market-card": {
+      "type": "Card",
+      "props": {
+        "title": "Market Context",
+        "description": "2026-08-07"
+      },
+      "children": [
+        "sentiment-row",
+        "sep1",
+        "prices-section",
+        "sep2",
+        "indicators-section",
+        "sep3",
+        "narrative-section",
+        "sep4",
+        "fed-section",
+        "sep5",
+        "nfp-alert"
+      ]
+    },
+    "sentiment-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "sentiment-badge",
+        "conviction-text"
+      ]
+    },
+    "sentiment-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "risk-off",
+        "variant": "secondary"
+      }
+    },
+    "conviction-text": {
+      "type": "Text",
+      "props": {
+        "text": "conviction low",
+        "variant": "muted"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "prices-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "prices-label",
+        "btc-stat",
+        "eth-stat"
+      ]
+    },
+    "prices-label": {
+      "type": "Text",
+      "props": {
+        "text": "Asset Prices",
+        "variant": "lead"
+      }
+    },
+    "btc-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$64,322",
+        "delta": "−0.8%",
+        "trend": "down"
+      }
+    },
+    "eth-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$1,901",
+        "delta": "−0.4%",
+        "trend": "down"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "indicators-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "indicators-label",
+        "fear-greed-stat",
+        "breadth-stat",
+        "dex-volume-stat"
+      ]
+    },
+    "indicators-label": {
+      "type": "Text",
+      "props": {
+        "text": "Market Indicators",
+        "variant": "lead"
+      }
+    },
+    "fear-greed-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Fear & Greed Index",
+        "value": "29 Fear",
+        "delta": "↑ from 25 Ext. Fear",
+        "trend": "up"
+      }
+    },
+    "breadth-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Breadth",
+        "value": "4/20"
+      }
+    },
+    "dex-volume-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "DEX Volume",
+        "value": "$7.18B"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "narrative-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "narrative-label",
+        "ada-narrative"
+      ]
+    },
+    "narrative-label": {
+      "type": "Text",
+      "props": {
+        "text": "Top Narrative",
+        "variant": "lead"
+      }
+    },
+    "ada-narrative": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "ada-badge",
+        "ada-text"
+      ]
+    },
+    "ada-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "ADA catch-up",
+        "variant": "default"
+      }
+    },
+    "ada-text": {
+      "type": "Text",
+      "props": {
+        "text": "+7.1% / +19.3% 7d (rising)",
+        "variant": "body"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "fed-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "fed-label",
+        "fed-odds"
+      ]
+    },
+    "fed-label": {
+      "type": "Text",
+      "props": {
+        "text": "Hot Market",
+        "variant": "lead"
+      }
+    },
+    "fed-odds": {
+      "type": "Stat",
+      "props": {
+        "label": "No Fed change Sep 2026",
+        "value": "48.5%",
+        "trend": "neutral"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "nfp-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "NFP Today",
+        "message": "rate-cut binary live",
+        "type": "info"
+      }
+    }
+  }
+}

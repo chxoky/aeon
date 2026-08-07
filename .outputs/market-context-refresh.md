@@ -1,8 +1,8 @@
-market context — 2026-08-06
+market context — 2026-08-07
 
 take: risk-off (conviction low)
-BTC $64,190 (+0.5%) / ETH $1,895 (+1.6%) · F&G 25 Extreme Fear
-breadth 6/20 · DEX vol $7.33B (+7% vs prior)
-top narrative: micro-cap meme speculation (rising) — CASHCAT +62.6%, OVERTAKE +40.5%
-hot market: "Fed no change Sep 2026?" YES 50.5% · Hormuz normal Aug 31: 17.5%
-NFP binary tomorrow (Aug 7)
+BTC $64,322 (−0.8%) / ETH $1,901 (−0.4%) · F&G 29 Fear (↑ from 25 Ext. Fear)
+breadth 4/20 · DEX vol $7.18B
+top narrative: ADA catch-up (rising, +7.1% / +19.3% 7d)
+hot market: "No Fed change Sep 2026" YES 48.5%
+NFP today: rate-cut binary live
