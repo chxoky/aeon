@@ -1,12 +1,15 @@
-🔍 *Calibration — [DC: HCH — Chat]*
+🔍 *Calibration — [DC: HCH — Free]*
 
-Event: Recent HYPE activity context (5% long Aug 01 + 1% short Aug 07)
+Event: HeartCanHodl's latest message in public Discord channel
 
-heartcanhodl: "Fc hype 5m"
+HeartCanHodl: "More pain"
 
-Unable to classify — what's your read? Is this a market observation on 5m chart, filled confirmation, or new trade signal?
-💬 *[DC: HCH — Free]*
+Context: HCH flipped to net-short regime 12h+ ago (00:28Z), active multi-tranche TP closures throughout Aug 07, currently monitoring BTC/ETH/SOL technicals via "Fc" checks (false-close pattern monitoring). "More pain" posted at 17:32Z after 3 minutes of inactivity.
 
-↩️ _HeartCanHodl: "Don't check the prices.."_
+Unable to classify — what's your read?
+- Bearish market commentary (pain = further downside, aligns with short regime)?
+- Emotional observation on volatility/chop?
+- Cryptic technical signal (chart observation, no ticker)?
+- Something else?
 
-_4 charts shared — technical analysis without accompanying text. Click to view: [chart-814](https://cdn.discordapp.com/attachments/1472153627324842057/1535334114712887418/chart-814.png?ex=6a7762d2&is=6a761152&hm=68e9fbedf7700c37652e5d26e1b9242d0a003613e37544e1a29699191a970c25&), [chart-1862](https://cdn.discordapp.com/attachments/1472153627324842057/1535334115287633961/chart-1862.png?ex=6a7762d2&is=6a761152&hm=7143902de0bdbd6b62fce86ce6b034a1a9303d4bf8c48de3b38ee12562b1a9a1&), [chart-1249](https://cdn.discordapp.com/attachments/1472153627324842057/1535334115816247316/chart-1249.png?ex=6a7762d2&is=6a761152&hm=17950441287dbcd24aca684897ea9021001a113fb7bd9aa074d207bf000f779fe5&), [chart-2395](https://cdn.discordapp.com/attachments/1472153627324842057/1535334116365443163/chart-2395.png?ex=6a7762d2&is=6a761152&hm=9055ba8b68e99580575bac0e3aac0a41fbd288df8d39a2eb8e81b1d0c218bf42&)_
+[Message ID: 1535339947026808972 | Channel: HCH — Free | Time: 2026-08-07T17:32:48Z]

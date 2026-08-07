@@ -1,0 +1,242 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor",
+        "description": "Calibration Request"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_calibration",
+        "heading_event",
+        "message_section",
+        "sep1",
+        "context_section",
+        "sep2",
+        "question_section",
+        "sep3",
+        "metadata_section"
+      ]
+    },
+    "text_calibration": {
+      "type": "Badge",
+      "props": {
+        "text": "Calibration — DC: HCH — Free",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "heading_event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event: HeartCanHodl's latest message in public Discord channel",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "message_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_author",
+        "text_message"
+      ]
+    },
+    "text_author": {
+      "type": "Text",
+      "props": {
+        "text": "HeartCanHodl:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text_message": {
+      "type": "Text",
+      "props": {
+        "text": "\"More pain\"",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_context",
+        "text_context1",
+        "text_context2",
+        "text_context3",
+        "text_context4"
+      ]
+    },
+    "heading_context": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text_context1": {
+      "type": "Text",
+      "props": {
+        "text": "HCH flipped to net-short regime 12h+ ago (00:28Z)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_context2": {
+      "type": "Text",
+      "props": {
+        "text": "Active multi-tranche TP closures throughout Aug 07",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_context3": {
+      "type": "Text",
+      "props": {
+        "text": "Currently monitoring BTC/ETH/SOL technicals via \"Fc\" checks (false-close pattern monitoring)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_context4": {
+      "type": "Text",
+      "props": {
+        "text": "\"More pain\" posted at 17:32Z after 3 minutes of inactivity",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "question_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_question",
+        "text_option1",
+        "text_option2",
+        "text_option3",
+        "text_option4"
+      ]
+    },
+    "heading_question": {
+      "type": "Heading",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text_option1": {
+      "type": "Text",
+      "props": {
+        "text": "Bearish market commentary (pain = further downside, aligns with short regime)?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_option2": {
+      "type": "Text",
+      "props": {
+        "text": "Emotional observation on volatility/chop?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_option3": {
+      "type": "Text",
+      "props": {
+        "text": "Cryptic technical signal (chart observation, no ticker)?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_option4": {
+      "type": "Text",
+      "props": {
+        "text": "Something else?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "metadata_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_msgid",
+        "text_channel",
+        "text_time"
+      ]
+    },
+    "text_msgid": {
+      "type": "Text",
+      "props": {
+        "text": "Message ID: 1535339947026808972",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "text_channel": {
+      "type": "Text",
+      "props": {
+        "text": "Channel: HCH — Free",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "text_time": {
+      "type": "Text",
+      "props": {
+        "text": "Time: 2026-08-07T17:32:48Z",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
