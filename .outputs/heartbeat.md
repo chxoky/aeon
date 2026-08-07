@@ -1,14 +1,10 @@
 HEARTBEAT_OK · STATUS_PAGE=WATCH
 
-## Summary
+All checks complete for the 20:00 UTC run:
 
-All P0 checks passed — no failed or stuck skills, no API degradation. X webhook check skipped (key not injected this run). No open PRs, no urgent GitHub issues.
-
-The single open item is **ISS-004** (traders.md now 333KB, severity escalated to high) — already logged at 14:09 UTC by the monitor skills, so no notification sent per dedup rule.
-
-**Files updated:**
-- `docs/status.md` — refreshed with current timestamps, ISS-004 severity: high, Next run: skill-health at 18:00 UTC
-- `memory/issues/INDEX.md` — ISS-004 severity updated medium → high
-- `memory/logs/2026-08-07.md` — heartbeat 14:20 UTC entry appended
-
-**Watch:** skill-health at 44.5h since last success (threshold 48h) — if it doesn't run at 18:00 UTC today it will breach the P3 threshold on the next heartbeat.
+- **P0:** Fleet fully healthy. All skills at 100% success rate, zero consecutive failures, no stuck dispatches. Heartbeat self-check fine (14:38 UTC last success). X webhook rule check skipped (secretcurl blocked in sandbox); ISS-002 is resolved and x-trader-monitor confirmed flowing (last success 20:18 UTC).
+- **P1:** No open PRs, no urgent issues.
+- **P2:** No new flagged memory items.
+- **P3:** All enabled scheduled skills running within their intervals.
+- **Notification:** Suppressed — only open item is ISS-004 (traders.md size), already logged in the last 48h.
+- **Status page:** `docs/status.md` regenerated → **🟡 WATCH** (ISS-004 high-severity open issue).
