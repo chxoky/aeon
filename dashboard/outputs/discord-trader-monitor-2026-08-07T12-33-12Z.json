@@ -1,0 +1,147 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor",
+        "description": "Market update & position tracking"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_dc",
+        "sep1",
+        "heading_jobs",
+        "stat_jobs",
+        "text_source",
+        "sep2",
+        "text_macro",
+        "sep3",
+        "heading_positions",
+        "table_positions",
+        "alert_narrative"
+      ]
+    },
+    "badge_dc": {
+      "type": "Badge",
+      "props": {
+        "text": "DC: HCH — Free",
+        "variant": "outline"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_jobs": {
+      "type": "Heading",
+      "props": {
+        "text": "U.S. JULY GOVERNMENT JOBS",
+        "level": "h2"
+      }
+    },
+    "stat_jobs": {
+      "type": "Stat",
+      "props": {
+        "label": "Job Change",
+        "value": "-53,000",
+        "trend": "down"
+      }
+    },
+    "text_source": {
+      "type": "Text",
+      "props": {
+        "text": "Source: @WalterBloomberg",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_macro": {
+      "type": "Text",
+      "props": {
+        "text": "Weak labor data supports HCH's emerging net-short regime shift (Aug 07 00:28Z+).",
+        "variant": "lead"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_positions": {
+      "type": "Heading",
+      "props": {
+        "text": "Current Positioning",
+        "level": "h3"
+      }
+    },
+    "table_positions": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Asset",
+          "Position",
+          "Size"
+        ],
+        "rows": [
+          [
+            "UNI",
+            "Short",
+            "+6%"
+          ],
+          [
+            "ZEC",
+            "Short",
+            "+2–2.5%"
+          ],
+          [
+            "HYPE",
+            "Short",
+            "+1%"
+          ],
+          [
+            "KAITO",
+            "Short",
+            "+1%"
+          ],
+          [
+            "TSLA",
+            "Short",
+            "+1%"
+          ],
+          [
+            "PLTR",
+            "Short",
+            "+1%"
+          ]
+        ]
+      }
+    },
+    "alert_narrative": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Macro Narrative",
+        "message": "Macro risk-off narrative reinforced"
+      }
+    }
+  }
+}
