@@ -603,6 +603,22 @@
 - **Conviction**: MEDIUM-HIGH (parallel 5-ticker entry with systematic sizing)
 - **Last update**: 2026-08-02T05:38:07Z (discord-trader-monitor, fast-path-alerted, TRADE-NEW-ENTRY; message_id=1533348152441176235)
 
+### BTC — SHORT (NEW ENTRY — 2026-08-07, SECONDARY ACCOUNT)
+- **Status**: ACTIVE — trade-new-entry 2026-08-07T00:06:41Z
+- **Entry**: 2026-08-07T00:06:41Z (Discord Trades channel, message_id=1535076684615913594)
+- **Entry message**: "Add 5% btc short from different account" (direct execution call, primary Trades channel)
+- **Entry type**: Market order (execution at current price)
+- **Portfolio allocation**: 5% allocation on separate/secondary account
+- **Entry level**: CMP (current market price at 2026-08-07T00:06:41Z UTC, ~Asia early morning session; exact price not specified in Discord message)
+- **Account context**: HCH's main account closed all BTC/ETH shorts on 2026-07-31T14:27:30Z ("Cover whole btc and eth shorts"). Current entry represents fresh short position on different/secondary account, suggesting: (1) multi-account risk management strategy (separate capital allocation per account), (2) re-initiation of bearish BTC thesis after 7-day closed period, or (3) separate trading mandate on secondary account independent of main portfolio.
+- **Ticker**: BTC (Bitcoin)
+- **Entry channel**: 1279738718680256553 (HCH — Trades, ★most important primary channel) — **VERBATIM RULE APPLIED**: Alert body must be exact message text, but fast-path already alerted, so no Telegram send needed
+- **Rationale**: Entry timing aligns with: (1) Aug 06 KillaXBT BTC short entry at market (64.8-65.8K ladder) with small ~30% hedge size, (2) broader crypto positioning context after week of net-long/bullish activity (Aug 01-06 HCH long accumulation phase). HCH's secondary-account short entry could represent: (a) tactical hedge against net-long main exposure, (b) separate account with independent bearish mandate, or (c) conviction add to BTC short thesis after retest of prior levels. Execution timing (00:06 UTC early morning Asia session) consistent with systematic trading rhythm.
+- **Conviction**: MEDIUM-HIGH (direct execution call on ★most-important primary channel; 5% allocation represents tier-1 conviction sizing matching documented major-pair entries; explicit "different account" language shows disciplined position-sizing across accounts rather than overleveraged single-account risk)
+- **Approval/Alert status**: FAST-PATH ALERTED (Cloudflare Worker sent Telegram alert ~2-5s post-message; message_id=1535076684615913594, fast-path-alerted=true). Skill processes for memory/logging only (no duplicate Telegram send). Await Kyle signal on whether to mirror secondary-account 5% BTC short on Kraken or monitor as memory-only entry.
+- **Cross-platform note**: First mention of HCH BTC short on secondary account across all tracked platforms (Discord primary sighting at 00:06:41Z). No prior X post identified on same topic for this date. HCH repositioning on separate account infrastructure.
+- **Last update**: 2026-08-07T00:06:41Z (discord-trader-monitor real-time, fast-path-alerted, TRADE-NEW-ENTRY; message_id=1535076684615913594)
+
 ## Wild_Randomness
 
 ### NVDA — SHORT (PUT) — ACTIVE (entry 2026-07-14)
