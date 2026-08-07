@@ -1,0 +1,132 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor",
+        "description": "Cryptocurrency technical analysis from X"
+      },
+      "children": [
+        "tweet-container",
+        "sep1",
+        "analysis-section",
+        "sep2",
+        "status-section"
+      ]
+    },
+    "tweet-container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "tweet-link"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "$ZEC — Technical level retest question. Current price 495.18, key support at 486.61 (tracked since Jul 31)."
+      }
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2085760692041461959"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis-heading",
+        "price-grid",
+        "whatif-text"
+      ]
+    },
+    "analysis-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart Analysis",
+        "level": "h3"
+      }
+    },
+    "price-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "support-zone-stat",
+        "resistance-stat"
+      ]
+    },
+    "support-zone-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Support Zone",
+        "value": "$250.12 – $486.61"
+      }
+    },
+    "resistance-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Resistance Cluster",
+        "value": "$525.90 – $690.00"
+      }
+    },
+    "whatif-text": {
+      "type": "Text",
+      "props": {
+        "text": "\"What if?\" framing suggests questioning whether key support at $486.61 will hold."
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "status-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "contested-badge",
+        "perspectives-text"
+      ]
+    },
+    "contested-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "ZEC is contested",
+        "variant": "outline"
+      }
+    },
+    "perspectives-text": {
+      "type": "Text",
+      "props": {
+        "text": "HCH short vs trading_axe risk-on bullish vs Wild_Randomness technical monitoring. Price structure validates close tracking."
+      }
+    }
+  }
+}
