@@ -1,13 +1,7 @@
-🐦 *[X] @Wild_Randomness*
+🐦 *[X] @KillaXBT*
 
-**SPCX — Partial TP + Re-entry Plan**
+Still holding $SPCX shares from $123.38 entry. Adjusted timespan conviction: expecting 2x from current levels in 2-3 years.
 
-About 40% TP'd into range high. Would re-add at mid.
+https://x.com/KillaXBT/status/2085752220432163102
 
-Context: SPCX consolidating 108-127 range. Took 40% profit into 125-130 resistance; plans scaled re-entry at ~110-115 support.
-
-Unlock catalyst: SpaceX share unlock Aug-Sep 2026 — volatility driver.
-
-Cross-trader: SPCX contested (HCH long, Crypto_Chase short, swarmister long). Group: BULLISH.
-
-https://x.com/Wild_Randomness/status/2085745216376746438
+↳ _Cross-trader context: SPCX contested ticker (HCH net-long + hedge, swarmister/WR bullish, Chase bearish). SPCX recovery +22-39% Aug 02-07 aligns with KillaXBT's 2-3Y structural hold thesis._

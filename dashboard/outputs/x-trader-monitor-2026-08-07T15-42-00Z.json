@@ -1,0 +1,116 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "🐦 X Trader Monitor"
+      },
+      "children": [
+        "tweet_card",
+        "tweet_link",
+        "separator",
+        "context_heading",
+        "context_content"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "Still holding $SPCX shares from $123.38 entry. Adjusted timespan conviction: expecting 2x from current levels in 2-3 years."
+      },
+      "children": []
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/KillaXBT/status/2085752220432163102"
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "context_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Cross-Trader Context",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "context_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "status_row",
+        "positions_row",
+        "recovery_stat",
+        "thesis_text"
+      ]
+    },
+    "status_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_spcx",
+        "status_text"
+      ]
+    },
+    "badge_spcx": {
+      "type": "Badge",
+      "props": {
+        "text": "SPCX",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "status_text": {
+      "type": "Text",
+      "props": {
+        "text": "Contested ticker",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "positions_row": {
+      "type": "Text",
+      "props": {
+        "text": "HCH net-long + hedge • swarmister/WR bullish • Chase bearish",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "recovery_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "SPCX Recovery (Aug 02-07)",
+        "value": "+22% to +39%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "thesis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Recovery aligns with KillaXBT's 2-3 year structural hold thesis",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
