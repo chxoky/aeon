@@ -1,0 +1,53 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration event"
+      },
+      "children": [
+        "heading_main",
+        "text_event",
+        "tweet_axe",
+        "alert_classify"
+      ]
+    },
+    "heading_main": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @trading_axe",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @BoltricksDev @Pumpfun",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "tweet_axe": {
+      "type": "TweetCard",
+      "props": {
+        "author": "trading_axe",
+        "handle": "@trading_axe",
+        "text": "I don't have any public ones so there's no new one."
+      },
+      "children": []
+    },
+    "alert_classify": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read? (Context from original posts not accessible)",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}

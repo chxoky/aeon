@@ -1,6 +1,7 @@
-🔍 *Calibration — @Wild_Randomness*
+🔍 *Calibration — @trading_axe*
 
-Event: Reply to @_tolks discussing Treasury/options structure
+Event: Reply to @BoltricksDev @Pumpfun
+trading_axe: "I don't have any public ones so there's no new one."
 
 "Yeah still not seeing how calls from here have a high + EV path
 
@@ -23,3 +24,4 @@ Unable to classify with certainty — what's your read?
 **Alert status**: No alert sent to Kyle (non-financial signal)
 
 **Note**: traders.md is currently 348KB (exceeds 150KB tripwire) — recommend `trader-memory-compact` skill to consolidate historical entries.
+Unable to classify — what's your read? (Context from original posts not accessible)
