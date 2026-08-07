@@ -912,3 +912,13 @@
   - Aug 05 03:25Z — informational: BTC intraday downturn reaction "the f?"; validates Aug 04 Asia session tape shift observation; chart-driven observation no personal action. [$BTC] [2084843303753879793]
   - Aug 05 00:41Z — skip: meme affirmation reply "@crypto_linn this is the way"; no financial signal. [2084801986109780466]
   - Aug 04 03:02Z — skip: personal banter reply to @lazyvillager1/@real_y22; "bro was just camping out at chipotle for a few months"; no financial signal, no ticker, no position. Non-financial per Step 4A. [2084475015290823036]
+
+## HeartCanHodl — Discord Calibration Pending (Aug 07)
+- **Aug 07T14:01:27Z — Ambiguous/Calibration Alert Sent**
+- Discord Trades Chat (supporting channel 1023638573313966212)
+- Message: "Fc btc 5m"
+- Context: No reply context (referenced_message: null); cryptic abbreviation "Fc" (unclear meaning — could be "filled confirmation", "chart check", or other); "btc 5m" = Bitcoin 5-minute timeframe reference
+- Classification: AMBIGUOUS per Step 5B (cryptic, hard to interpret)
+- Action: Calibration alert sent to Kyle requesting clarification
+- Status: AWAITING KYLE RESPONSE (message_id=1535286759599112243, fast-path-alerted=false, discord-trader-monitor skill sent calibration)
+- Context notes: HCH has active BTC SHORT (Aug 06 entry at 5th pivot, SL 65.215); prior BTC net-long regime shift completed Jul 31. Message timing (14:01 UTC = afternoon Asia) aligns with intraday monitoring. No X post found with same message.

@@ -1,0 +1,113 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "header",
+        "sep1",
+        "message",
+        "sep2",
+        "question-section"
+      ]
+    },
+    "header": {
+      "type": "Text",
+      "props": {
+        "text": "🔍 Calibration — [DC: HCH — Chat]",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "message": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "text": "Fc btc 5m"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "question-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "question-text",
+        "explanation",
+        "options"
+      ]
+    },
+    "question-text": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "explanation": {
+      "type": "Text",
+      "props": {
+        "text": "\"Fc\" = fill confirmation, chart check, other?",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "options": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "opt1",
+        "opt2",
+        "opt3"
+      ]
+    },
+    "opt1": {
+      "type": "Badge",
+      "props": {
+        "text": "fill confirmation",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "opt2": {
+      "type": "Badge",
+      "props": {
+        "text": "chart check",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "opt3": {
+      "type": "Badge",
+      "props": {
+        "text": "other",
+        "variant": "outline"
+      },
+      "children": []
+    }
+  }
+}
