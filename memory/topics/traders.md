@@ -925,6 +925,12 @@
 - Last seen: 2026-08-07T17:46:41Z
 - **Events (rolling):**
   - Aug 07 17:46Z — informational: BTC technical observation, CVD (Cumulative Volume Delta) indicator flip at supply zone 65.2-65.7K. Chart-based technical analysis, no personal trade action. [$BTC] [2085784709833822366]
+- Recent thesis: BTC technical analyst
+- Conviction notes: X-only trader; posts technical analysis/market observations (perps-spot structure, chart analysis). Focused on macro structure and divergence signals. Banter ratio: lower after technical focus Aug 07 onward.
+- Calibration: None needed
+- Last seen: 2026-08-07T17:48:01Z
+- **Events (rolling):**
+  - Aug 07 17:48Z — informational: BTC perps-spot divergence technical analysis. Chart showing PERP holding strength while SPOT declining sharply (divergence structure). Terse caption "divergence for now (perps-spot)". No personal action language; pure technical market observation on derivative vs spot price structure. [$BTC] [2085785045793427952]
   - Aug 05 03:39Z — skip: generic trading philosophy banter "@nellyeeee @zedbanana8 if it aint broke, milk it"; reply to other traders sharing wisdom (hold profitable positions); no specific asset/level/action. Non-financial per Step 4A. [2084846798506434747]
   - Aug 05 03:32Z — skip: sarcastic reply "@zedbanana8 @nellyeeee great not this again"; personal banter, no financial signal. [2084845079240323515]
   - Aug 05 03:29Z — informational: emotional reaction to BTC consolidation chop "the amount of chop the past day is r*tarded"; market observation confirming documented range-bound thesis, no personal action. [$BTC] [2084844290505576827]
