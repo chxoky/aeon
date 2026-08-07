@@ -1,5 +1,15 @@
 🐦 *[X] @trading_axe*
 
-During the casino wars, casinos are consolidating and joining forces to compete against the growth of onchain gambling. Expects Platform (or similar casino company) to eventually be larger than Stake. Concerned the whole industry will be overtaken by shitcoin gamblers whilst casinos compete with petty beefs.
+In the next year [crypto bull market coming up]:
 
-[View tweet](https://x.com/trading_axe/status/2085561566284386689)
+Exactly how Tradexyz allowed EVERYONE IN THE WORLD to trade US markets, I suspect we'll see more "niche" markets open via tokenization & NFTs.
+
+Example: UK & UAE private number plates are a VERY BIG MARKET. RAC3R available for $180K. Some sell for 500K+.
+
+Problem: non-UK citizens face major headaches getting these.
+
+If tokenized onchain with verifiable ownership, anyone could trade them globally — another form of new money entering crypto.
+
+"The future is tokenization of everything. ~ Dr. Axius"
+
+[View post](https://x.com/trading_axe/status/2085584367800221866)

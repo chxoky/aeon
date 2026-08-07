@@ -1,0 +1,43 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "link_view_post"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "trading_axe",
+        "handle": "trading_axe",
+        "text": "In the next year [crypto bull market coming up]:\n\nExactly how Tradexyz allowed EVERYONE IN THE WORLD to trade US markets, I suspect we'll see more \"niche\" markets open via tokenization & NFTs.\n\nExample: UK & UAE private number plates are a VERY BIG MARKET. RAC3R available for $180K. Some sell for 500K+.\n\nProblem: non-UK citizens face major headaches getting these.\n\nIf tokenized onchain with verifiable ownership, anyone could trade them globally — another form of new money entering crypto.\n\n\"The future is tokenization of everything. ~ Dr. Axius\""
+      },
+      "children": []
+    },
+    "link_view_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/trading_axe/status/2085584367800221866"
+      },
+      "children": []
+    }
+  }
+}
