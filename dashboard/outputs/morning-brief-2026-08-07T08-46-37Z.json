@@ -1,0 +1,227 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "text-date",
+        "sep-1",
+        "heading-focus",
+        "stack-focus",
+        "sep-2",
+        "heading-since",
+        "stack-since",
+        "sep-3",
+        "heading-watch",
+        "stack-watch",
+        "sep-4",
+        "heading-running",
+        "stack-running"
+      ]
+    },
+    "text-date": {
+      "type": "Text",
+      "props": {
+        "text": "2026-08-07",
+        "variant": "muted"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h3"
+      }
+    },
+    "stack-focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus-1",
+        "focus-2",
+        "focus-3"
+      ]
+    },
+    "focus-1": {
+      "type": "Text",
+      "props": {
+        "text": "1. NFP @ 12:30 UTC — Sep FOMC 50/50 resolves; BTC direction follows the print"
+      }
+    },
+    "focus-2": {
+      "type": "Text",
+      "props": {
+        "text": "2. HCH net-short ~22% live vs KillaXBT HTF long — divergence unresolved ahead of NFP"
+      }
+    },
+    "focus-3": {
+      "type": "Alert",
+      "props": {
+        "title": "3. Coldcard firmware exploit",
+        "message": "~$100M BTC exposure; check custody now",
+        "type": "warning"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-since": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h3"
+      }
+    },
+    "stack-since": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "since-1",
+        "since-2",
+        "since-3",
+        "since-4"
+      ]
+    },
+    "since-1": {
+      "type": "Text",
+      "props": {
+        "text": "HCH flipped net-short 00:28Z: BTC/ZEC/HYPE/LIT/TSLA/PLTR/SPCX shorts added (~22% combined); partial TP on BTC 5%/ETH 2.5%/SOL 2.5% longs at 01:18Z"
+      }
+    },
+    "since-2": {
+      "type": "Text",
+      "props": {
+        "text": "LIT +9% 24h while HCH holds 1% short from 02:01Z — position in drawdown"
+      }
+    },
+    "since-3": {
+      "type": "Text",
+      "props": {
+        "text": "ADA +7.1%/+19.3% 7d — sole major-cap green in breadth 4/20 tape"
+      }
+    },
+    "since-4": {
+      "type": "Text",
+      "props": {
+        "text": "Calibration pending: HCH \"New drop\" (02:09Z) + trading_axe ENS comparison (04:33Z) — awaiting Kyle reply"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h3"
+      }
+    },
+    "stack-watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "watch-1",
+        "watch-2"
+      ]
+    },
+    "watch-1": {
+      "type": "Alert",
+      "props": {
+        "title": "Coldcard firmware exploit",
+        "message": "~$100M BTC exposure reported — custody check if self-holding (focus #3)",
+        "type": "warning"
+      }
+    },
+    "watch-2": {
+      "type": "Text",
+      "props": {
+        "text": "CLARITY Act Senate delay through August recess — no domestic regulatory catalyst near-term"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h3"
+      }
+    },
+    "stack-running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "running-1",
+        "running-2",
+        "running-3",
+        "running-4"
+      ]
+    },
+    "running-1": {
+      "type": "Text",
+      "props": {
+        "text": "token-alert @ 12:00 UTC"
+      }
+    },
+    "running-2": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC"
+      }
+    },
+    "running-3": {
+      "type": "Text",
+      "props": {
+        "text": "market-context-refresh @ 13:00 UTC"
+      }
+    },
+    "running-4": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC"
+      }
+    }
+  }
+}

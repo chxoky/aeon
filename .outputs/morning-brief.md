@@ -1,19 +1,19 @@
 *Morning Brief — 2026-08-07*
 
 *Focus today*
-1. HCH net-short regime flip — why now: overnight reversal; ~22% short active; KillaXBT diverges long
-2. NFP 12:30 UTC — why now: prints today; Jun missed by 53K; Sep cut probability at 50/50
-3. LIT in drawdown — why now: HCH 1% short entered 02:01 UTC; LIT now +9% trending
+1. NFP @ 12:30 UTC — Sep FOMC 50/50 resolves; BTC direction follows the print
+2. HCH net-short ~22% live vs KillaXBT HTF long — divergence unresolved ahead of NFP
+3. Coldcard firmware exploit — up to $100M BTC exposure; check custody now
 
 *Since yesterday*
-- [shifted]: HCH flipped net-short at 00:28 UTC — BTC 5% re-entry + ZEC/HYPE/LIT/TSLA/PLTR adds; major-pair longs partially TP'd
-- [resolved]: 'Fc' pattern calibrated — false-close TA check, not a trade signal (standing lesson)
-- [pending]: 2 calibrations awaiting Kyle: HCH 'New drop' (02:09 UTC) + trading_axe ENS comparison (04:33 UTC)
-- [fading]: CASHCAT −7.8% confirmed fade (was +62.6% yesterday); HCH short positioned ahead
-- [holding]: KillaXBT HTF 2x BTC long + spot DCA (avg 65.9K) unchanged — bull vs HCH bear
+- HCH flipped net-short 00:28Z: BTC/ZEC/HYPE/LIT/TSLA/PLTR/SPCX shorts added (~22% combined); partial TP on BTC 5%/ETH 2.5%/SOL 2.5% longs at 01:18Z
+- LIT +9% 24h while HCH holds 1% short from 02:01Z — position in drawdown
+- ADA +7.1%/+19.3% 7d — sole major-cap green in breadth 4/20 tape
+- Calibration pending: HCH "New drop" (02:09Z) + trading_axe ENS comparison (04:33Z) — awaiting Kyle reply
 
 *Watch*
-- Hashdex closing first US spot BTC ETF — IBIT oligopoly forming; mid-term custody concentration risk for BTC ETF exposure
+- Coldcard firmware exploit: ~$100M BTC exposure reported — custody check if self-holding (focus #3)
+- CLARITY Act Senate delay through August recess — no domestic regulatory catalyst near-term
 
 *Running today*
 - token-alert @ 12:00 UTC
