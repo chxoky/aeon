@@ -1,0 +1,214 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor",
+        "description": "Calibration request for cryptic Discord message classification"
+      },
+      "children": [
+        "heading_main",
+        "sep1",
+        "section_message",
+        "sep2",
+        "section_analysis",
+        "sep3",
+        "section_request"
+      ]
+    },
+    "heading_main": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — DC: HCH — Chat",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_message": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "label_message",
+        "card_message"
+      ]
+    },
+    "label_message": {
+      "type": "Text",
+      "props": {
+        "text": "Supporting channel message from HeartCanHodl (18:56 UTC):",
+        "variant": "lead"
+      }
+    },
+    "card_message": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "text": "Nb rdw, spcx, rklb 15"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_analysis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_unable",
+        "heading_patterns",
+        "stack_patterns"
+      ]
+    },
+    "text_unable": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "body"
+      }
+    },
+    "heading_patterns": {
+      "type": "Heading",
+      "props": {
+        "text": "Pattern observation:",
+        "level": "h4"
+      }
+    },
+    "stack_patterns": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5",
+        "p6"
+      ]
+    },
+    "p1": {
+      "type": "Text",
+      "props": {
+        "text": "Similar cryptic abbreviation pattern to prior \"Fc [ticker] [timeframe]\" messages (Aug 05 20:09Z, Aug 06 11:12Z, Aug 07 02:22Z — all still pending or establishing as false-close TA checks)",
+        "variant": "body"
+      }
+    },
+    "p2": {
+      "type": "Text",
+      "props": {
+        "text": "\"Nb\" abbreviation unclear (possible: New Breakout, No Bad, Next Buy, or other shorthand)",
+        "variant": "body"
+      }
+    },
+    "p3": {
+      "type": "Text",
+      "props": {
+        "text": "Tickers in active watch: SPCX (pending approval on long), RKLB (likely in alt consideration)",
+        "variant": "body"
+      }
+    },
+    "p4": {
+      "type": "Text",
+      "props": {
+        "text": "Timeframe \"15\" = 15-minute chart observation",
+        "variant": "body"
+      }
+    },
+    "p5": {
+      "type": "Text",
+      "props": {
+        "text": "No execution language; appears to be technical observation/scan",
+        "variant": "body"
+      }
+    },
+    "p6": {
+      "type": "Text",
+      "props": {
+        "text": "Supporting channel (member chat) context — should this fold into primary-channel content or trigger standalone alert if genuine conviction shift?",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_request": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_request",
+        "text_request_intro",
+        "stack_options"
+      ]
+    },
+    "heading_request": {
+      "type": "Heading",
+      "props": {
+        "text": "Request",
+        "level": "h3"
+      }
+    },
+    "text_request_intro": {
+      "type": "Text",
+      "props": {
+        "text": "Clarify \"Nb\" abbreviation and whether message is:",
+        "variant": "body"
+      }
+    },
+    "stack_options": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opt_a",
+        "opt_b",
+        "opt_c"
+      ]
+    },
+    "opt_a": {
+      "type": "Badge",
+      "props": {
+        "text": "(A) false-close TA pattern (like Fc checks)",
+        "variant": "outline"
+      }
+    },
+    "opt_b": {
+      "type": "Badge",
+      "props": {
+        "text": "(B) trade signal/conviction",
+        "variant": "outline"
+      }
+    },
+    "opt_c": {
+      "type": "Badge",
+      "props": {
+        "text": "(C) informational observation",
+        "variant": "outline"
+      }
+    }
+  }
+}
