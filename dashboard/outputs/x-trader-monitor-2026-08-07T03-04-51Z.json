@@ -1,0 +1,24 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X-Trader Monitor"
+      },
+      "children": [
+        "tweet_1"
+      ]
+    },
+    "tweet_1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "trading_axe",
+        "handle": "trading_axe",
+        "text": "During the casino wars, casinos are consolidating and joining forces to compete against the growth of onchain gambling. Expects Platform (or similar casino company) to eventually be larger than Stake. Concerned the whole industry will be overtaken by shitcoin gamblers whilst casinos compete with petty beefs."
+      },
+      "children": []
+    }
+  }
+}

@@ -1,9 +1,5 @@
-🐦 *[X] @HeartCanHodl*
+🐦 *[X] @trading_axe*
 
-Calling all bears. Where are your downside targets? 👇🏻
+During the casino wars, casinos are consolidating and joining forces to compete against the growth of onchain gambling. Expects Platform (or similar casino company) to eventually be larger than Stake. Concerned the whole industry will be overtaken by shitcoin gamblers whilst casinos compete with petty beefs.
 
-BTC chart showing key levels: 62300 support, 63880, 64172, current ~64348, resistance 64549.16, 65025.22 high.
-
-[View tweet](https://x.com/HeartCanHodl/status/2085554517748449660)
-
-↳ _Aligns with HCH's net-short regime shift from 00:28 UTC; sentiment poll on macro bearish thesis._
+[View tweet](https://x.com/trading_axe/status/2085561566284386689)
