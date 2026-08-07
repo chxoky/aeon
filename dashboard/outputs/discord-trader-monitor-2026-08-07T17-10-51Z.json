@@ -1,0 +1,108 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_main",
+        "sep1",
+        "heading_event",
+        "text_context",
+        "stack_positions",
+        "sep2",
+        "tweetcard_msg",
+        "sep3",
+        "alert_classification"
+      ]
+    },
+    "heading_main": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: HCH — Chat]",
+        "level": "h3"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h4"
+      }
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "Recent HYPE activity context",
+        "variant": "lead"
+      }
+    },
+    "stack_positions": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat_long",
+        "stat_short"
+      ]
+    },
+    "stat_long": {
+      "type": "Stat",
+      "props": {
+        "label": "Long",
+        "value": "5%",
+        "delta": "Aug 01"
+      }
+    },
+    "stat_short": {
+      "type": "Stat",
+      "props": {
+        "label": "Short",
+        "value": "1%",
+        "delta": "Aug 07"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "tweetcard_msg": {
+      "type": "TweetCard",
+      "props": {
+        "author": "heartcanhodl",
+        "text": "Fc hype 5m"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "alert_classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read? Is this a market observation on 5m chart, filled confirmation, or new trade signal?",
+        "type": "info"
+      }
+    }
+  }
+}
