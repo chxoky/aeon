@@ -1,0 +1,165 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "SOXL Position Closed – Mirrored from @Wild_Randomness"
+      },
+      "children": [
+        "alert_action",
+        "sep1",
+        "section_levels",
+        "sep2",
+        "section_analysis",
+        "sep3",
+        "link_post"
+      ]
+    },
+    "alert_action": {
+      "type": "Alert",
+      "props": {
+        "title": "SOXL Long Position Closed",
+        "message": "Position closed at trend line break (~139–150 support). Mirrored from @Wild_Randomness. Very binary level = key support now at critical test.",
+        "type": "warning"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_levels": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_levels",
+        "stats_grid"
+      ]
+    },
+    "heading_levels": {
+      "type": "Heading",
+      "props": {
+        "text": "Key Support Levels",
+        "level": "h3"
+      }
+    },
+    "stats_grid": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_critical_support",
+        "stat_consolidation",
+        "stat_downtrend"
+      ]
+    },
+    "stat_critical_support": {
+      "type": "Stat",
+      "props": {
+        "label": "Critical Support",
+        "value": "139–150"
+      }
+    },
+    "stat_consolidation": {
+      "type": "Stat",
+      "props": {
+        "label": "Consolidation Level",
+        "value": "149"
+      }
+    },
+    "stat_downtrend": {
+      "type": "Stat",
+      "props": {
+        "label": "3-Month Downtrend",
+        "value": "300 → 140"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_analysis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_analysis",
+        "text_context",
+        "heading_scenarios",
+        "scenario_stack"
+      ]
+    },
+    "heading_analysis": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart Analysis",
+        "level": "h3"
+      }
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "Charts show 3-month SOXL downtrend from 300→140; trend support established at current level.",
+        "variant": "body"
+      }
+    },
+    "heading_scenarios": {
+      "type": "Heading",
+      "props": {
+        "text": "Breakout Scenarios",
+        "level": "h4"
+      }
+    },
+    "scenario_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_break_below",
+        "text_hold_above"
+      ]
+    },
+    "text_break_below": {
+      "type": "Text",
+      "props": {
+        "text": "Break below 139: Trend break invalidates structural support",
+        "variant": "body"
+      }
+    },
+    "text_hold_above": {
+      "type": "Text",
+      "props": {
+        "text": "Hold above 149: Consolidation continues",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post on X",
+        "href": "https://x.com/Wild_Randomness/status/2085739487716638887"
+      }
+    }
+  }
+}
