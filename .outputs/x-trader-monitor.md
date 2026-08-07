@@ -1,13 +1,8 @@
-## Summary
+🚨 *Trade Signal — @HeartCanHodl*
 
-Executed x-trader-monitor skill for tweet ID **2085516775949553739** from **@trading_axe**.
+$BTC — SHORT — *Market entry signal*
+Support breakdown: 64439 (15m) / 64172 (1h) broken; resistance rejection at 65025
 
-**Classification: Skip (Non-financial)**
-- Tweet content: Personal banter tagging other traders (@imperooterxbt @shawmakesmagic) with laughter ("LMFAOOOOOOOOO") and signature "Dr. Axius."
-- Per Step 4A (non-financial): memes, personal life, banter → no alert, no event line in traders.md
-- **Action**: Silent log only
+"This forced my hand to go net short ☝🏻"
 
-**Memory updates:**
-- ✅ Added tweet ID 2085516775949553739 to x-trader-seen.txt (dedup prevention)
-- ✅ Created memory/logs/2026-08-07.md with classification entry
-- No alert sent to Kyle (non-financial content)
+[View post](https://x.com/HeartCanHodl/status/2085522152284139521)
