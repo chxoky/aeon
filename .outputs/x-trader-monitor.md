@@ -1,11 +1,9 @@
 🐦 *[X] @Wild_Randomness*
 
-$IBIT $BTC — October position management
+Since 2021?…
 
-Still just in the large October position. Currently testing IBIT POC.
+_Chart analysis: ES rallied from 4,300 (Nov 2022 low) to current 7,775 (Aug 2026) — comparing multi-year rally structure with key resistance levels marked. Technical observation aligned with macro bear thesis positioning on market structure at potential top._
 
-If we make a higher high today, I'll likely scale back some size ahead of the 67k liquidation zone.
+↳ _Reinforces group caution on broader market: Chase watching near-term up with alt short to 7700; Wild_Randomness dispersion-trade cautious on index structure._
 
-Charts show: IBIT consolidating at market profile POC (1W analysis), BTC 4H testing 65,290 with significant liquidation cluster at 67k above, Long/Short ratio 0.933 (oversold on longs = liquidation risk).
-
-[View post](https://x.com/Wild_Randomness/status/2085717612055736704)
+[View post](https://x.com/Wild_Randomness/status/2085718854022713631)
