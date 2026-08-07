@@ -1,0 +1,172 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X-Trader Monitor",
+        "description": "Market resistance levels and technical analysis"
+      },
+      "children": [
+        "tweet_card",
+        "separator_1",
+        "stack_assets",
+        "separator_2",
+        "link_tweet"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "$GOLD $SILVER\n\n@ Largest resistance on each chart\n\nGold (XAUUSD): 4,347.725 — consolidating at key resistance zone (~4,347 level on weekly). Multi-timeframe resistance visible.\n\nSilver (XAGUSUSD): 63.77 — resistance at 65.42; inverse bond-yield correlation (US10Y: 4.603%) pressuring metals."
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack_assets": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "gold_section",
+        "silver_section"
+      ]
+    },
+    "gold_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_gold",
+        "grid_gold_stats",
+        "text_gold_analysis"
+      ]
+    },
+    "badge_gold": {
+      "type": "Badge",
+      "props": {
+        "text": "$GOLD (XAUUSD)",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "grid_gold_stats": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat_gold_price",
+        "stat_gold_resistance"
+      ]
+    },
+    "stat_gold_price": {
+      "type": "Stat",
+      "props": {
+        "label": "Current Price",
+        "value": "4,347.725"
+      },
+      "children": []
+    },
+    "stat_gold_resistance": {
+      "type": "Stat",
+      "props": {
+        "label": "Resistance Zone",
+        "value": "4,347"
+      },
+      "children": []
+    },
+    "text_gold_analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Consolidating at key resistance zone (~4,347 level on weekly). Multi-timeframe resistance visible.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "silver_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_silver",
+        "grid_silver_stats",
+        "text_silver_analysis"
+      ]
+    },
+    "badge_silver": {
+      "type": "Badge",
+      "props": {
+        "text": "$SILVER (XAGUSUSD)",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "grid_silver_stats": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat_silver_price",
+        "stat_silver_resistance"
+      ]
+    },
+    "stat_silver_price": {
+      "type": "Stat",
+      "props": {
+        "label": "Current Price",
+        "value": "63.77"
+      },
+      "children": []
+    },
+    "stat_silver_resistance": {
+      "type": "Stat",
+      "props": {
+        "label": "Resistance Level",
+        "value": "65.42"
+      },
+      "children": []
+    },
+    "text_silver_analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Inverse bond-yield correlation (US10Y: 4.603%) pressuring metals.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2085738970084970750"
+      },
+      "children": []
+    }
+  }
+}
