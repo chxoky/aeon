@@ -1,0 +1,107 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "heading_source",
+        "sep1",
+        "quote_text",
+        "sep2",
+        "heading_charts",
+        "charts_stack"
+      ]
+    },
+    "heading_source": {
+      "type": "Heading",
+      "props": {
+        "text": "💬 HeartCanHodl (HCH — Free)",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "quote_text": {
+      "type": "Text",
+      "props": {
+        "text": "\"Don't check the prices..\"",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_charts": {
+      "type": "Heading",
+      "props": {
+        "text": "4 Charts — Technical Analysis",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "charts_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "chart_814",
+        "chart_1862",
+        "chart_1249",
+        "chart_2395"
+      ]
+    },
+    "chart_814": {
+      "type": "StoryLink",
+      "props": {
+        "title": "chart-814",
+        "href": "https://cdn.discordapp.com/attachments/1472153627324842057/1535334114712887418/chart-814.png?ex=6a7762d2&is=6a761152&hm=68e9fbedf7700c37652e5d26e1b9242d0a003613e37544e1a29699191a970c25&",
+        "source": "Discord"
+      },
+      "children": []
+    },
+    "chart_1862": {
+      "type": "StoryLink",
+      "props": {
+        "title": "chart-1862",
+        "href": "https://cdn.discordapp.com/attachments/1472153627324842057/1535334115287633961/chart-1862.png?ex=6a7762d2&is=6a761152&hm=7143902de0bdbd6b62fce86ce6b034a1a9303d4bf8c48de3b38ee12562b1a9a1&",
+        "source": "Discord"
+      },
+      "children": []
+    },
+    "chart_1249": {
+      "type": "StoryLink",
+      "props": {
+        "title": "chart-1249",
+        "href": "https://cdn.discordapp.com/attachments/1472153627324842057/1535334115816247316/chart-1249.png?ex=6a7762d2&is=6a761152&hm=17950441287dbcd24aca684897ea9021001a113fb7bd9aa074d207bf000f779fe5&",
+        "source": "Discord"
+      },
+      "children": []
+    },
+    "chart_2395": {
+      "type": "StoryLink",
+      "props": {
+        "title": "chart-2395",
+        "href": "https://cdn.discordapp.com/attachments/1472153627324842057/1535334116365443163/chart-2395.png?ex=6a7762d2&is=6a761152&hm=9055ba8b68e99580575bac0e3aac0a41fbd288df8d39a2eb8e81b1d0c218bf42&",
+        "source": "Discord"
+      },
+      "children": []
+    }
+  }
+}
