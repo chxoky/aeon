@@ -1,0 +1,31 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweetcard",
+        "link"
+      ]
+    },
+    "tweetcard": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "🔍 Calibration @Wild_Randomness: Aligned on Uptober... But where is the starting line? Unable to classify - seeking Kyle input."
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/Wild_Randomness/status/2085773143638233230"
+      }
+    }
+  }
+}
