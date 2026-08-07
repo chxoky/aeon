@@ -1,8 +1,7 @@
-🔍 *Calibration — @swarmister*
+🐦 *[X] @HeartCanHodl*
 
-Event: Tweet reference to @Valerie_Onchain (context not visible in payload)
-swarmister: "@Valerie_Onchain Woman is talking 🔇🔕"
+Another plane hitting the btc tower
 
-Unable to classify — what's your read? (Is this dismissing something Valerie posted, social banter, or a market signal?)
+[View tweet](https://x.com/HeartCanHodl/status/2085690305953898838)
 
-[View tweet](https://x.com/swarmister/status/2085676101947281435)
+↳ Bearish BTC sentiment aligns with HCH's net-short regime (entered Aug 07 00:28Z) and BTC short from 00:23Z; consistent with recent short conviction adds.
