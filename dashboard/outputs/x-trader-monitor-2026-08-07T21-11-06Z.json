@@ -1,0 +1,115 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading-main",
+        "text-event",
+        "tweet-card",
+        "sep1",
+        "text-context",
+        "stack-positions",
+        "sep2",
+        "alert-classification",
+        "text-question",
+        "link-post"
+      ]
+    },
+    "heading-main": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h2"
+      }
+    },
+    "text-event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @Degen_at_Work on range breakout"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "@Degen_at_Work Yep, I'm at like 75-80% from 129 given we broke range"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-context": {
+      "type": "Text",
+      "props": {
+        "text": "Context: Most recent position-level candidates are:"
+      }
+    },
+    "stack-positions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge-spcx",
+        "badge-gold",
+        "badge-btc-ibit"
+      ]
+    },
+    "badge-spcx": {
+      "type": "Badge",
+      "props": {
+        "text": "SPCX (40% TP'd Aug 07 15:09Z)"
+      }
+    },
+    "badge-gold": {
+      "type": "Badge",
+      "props": {
+        "text": "GOLD long (Aug 06 entry)"
+      }
+    },
+    "badge-btc-ibit": {
+      "type": "Badge",
+      "props": {
+        "text": "BTC/IBIT Sep puts (Aug 07 17:20Z entry)"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert-classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification Uncertainty",
+        "message": "Unable to classify whether this is profit-taking confirmation, allocation status update, or technical level reference without knowing the original @Degen_at_Work message topic.",
+        "type": "info"
+      }
+    },
+    "text-question": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "lead"
+      }
+    },
+    "link-post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2085834914696741007"
+      }
+    }
+  }
+}
