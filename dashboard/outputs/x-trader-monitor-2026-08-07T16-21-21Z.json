@@ -1,0 +1,284 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor",
+        "description": "Cross-trader positions and $SPCX consolidation tracking"
+      },
+      "children": [
+        "tweet_card",
+        "sep_1",
+        "consolidation_section",
+        "sep_2",
+        "traders_section",
+        "sep_3",
+        "catalyst_section"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "$SPCX consolidation at 110-130 zone (current 111.94) validating tech setup principle — \"crypto stuck, but tech trade setups alive and well.\""
+      },
+      "children": []
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "consolidation_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "consolidation_heading",
+        "price_stats"
+      ]
+    },
+    "consolidation_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Price Consolidation",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "price_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_current_price",
+        "stat_zone"
+      ]
+    },
+    "stat_current_price": {
+      "type": "Stat",
+      "props": {
+        "label": "Current Price",
+        "value": "$111.94"
+      },
+      "children": []
+    },
+    "stat_zone": {
+      "type": "Stat",
+      "props": {
+        "label": "Consolidation Zone",
+        "value": "$110–130"
+      },
+      "children": []
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "traders_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "traders_heading",
+        "traders_grid"
+      ]
+    },
+    "traders_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Cross-Trader Positions",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "traders_grid": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trader_hch",
+        "trader_swarmister",
+        "trader_killaxbt",
+        "trader_crypto_chase"
+      ]
+    },
+    "trader_hch": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "text_hch",
+        "badge_hch_long",
+        "stat_hch_return"
+      ]
+    },
+    "text_hch": {
+      "type": "Text",
+      "props": {
+        "text": "HCH",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "badge_hch_long": {
+      "type": "Badge",
+      "props": {
+        "text": "Net Long",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "stat_hch_return": {
+      "type": "Stat",
+      "props": {
+        "label": "Return",
+        "value": "+22–39%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "trader_swarmister": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "text_swarmister",
+        "badge_swarmister"
+      ]
+    },
+    "text_swarmister": {
+      "type": "Text",
+      "props": {
+        "text": "swarmister",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "badge_swarmister": {
+      "type": "Badge",
+      "props": {
+        "text": "Long (Pending Approval)",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "trader_killaxbt": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "text_killaxbt",
+        "badge_killaxbt"
+      ]
+    },
+    "text_killaxbt": {
+      "type": "Text",
+      "props": {
+        "text": "KillaXBT",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "badge_killaxbt": {
+      "type": "Badge",
+      "props": {
+        "text": "Structural 2–3Y Hold",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "trader_crypto_chase": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "text_crypto_chase",
+        "badge_crypto_chase"
+      ]
+    },
+    "text_crypto_chase": {
+      "type": "Text",
+      "props": {
+        "text": "Crypto_Chase",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "badge_crypto_chase": {
+      "type": "Badge",
+      "props": {
+        "text": "Bearish",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "catalyst_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "catalyst_heading",
+        "catalyst_text",
+        "tweet_link"
+      ]
+    },
+    "catalyst_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Catalyst",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "catalyst_text": {
+      "type": "Text",
+      "props": {
+        "text": "Aug–Sep unlock catalyst",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2085761723261423971"
+      },
+      "children": []
+    }
+  }
+}
