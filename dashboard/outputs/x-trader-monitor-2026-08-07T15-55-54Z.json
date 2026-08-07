@@ -1,0 +1,96 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Conviction Add — @Wild_Randomness"
+      },
+      "children": [
+        "intro-text",
+        "tweet-card",
+        "post-link",
+        "sep1",
+        "context-heading",
+        "context-items",
+        "sep2",
+        "cta-text"
+      ]
+    },
+    "intro-text": {
+      "type": "Text",
+      "props": {
+        "text": "Wild_Randomness just added to their AAPL short position.",
+        "variant": "lead"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Added a tranche in visit of box. Think I'll just do that every day we visit the box, provided we don't break and close above it"
+      }
+    },
+    "post-link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2085755066208989524"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "context-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "context-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context-1",
+        "context-2",
+        "context-3"
+      ]
+    },
+    "context-1": {
+      "type": "Text",
+      "props": {
+        "text": "Adds to existing AAPL short entries ($341/$342 with Oct $300 puts from Jul 28)"
+      }
+    },
+    "context-2": {
+      "type": "Text",
+      "props": {
+        "text": "3-trader short convergence (HCH +9.41% unrealized, KillaXBT thesis)"
+      }
+    },
+    "context-3": {
+      "type": "Text",
+      "props": {
+        "text": "Technical setup: price revisiting consolidation 'box' at 312–315 on intraday structure"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "cta-text": {
+      "type": "Text",
+      "props": {
+        "text": "Want to add to yours too?",
+        "variant": "lead"
+      }
+    }
+  }
+}
