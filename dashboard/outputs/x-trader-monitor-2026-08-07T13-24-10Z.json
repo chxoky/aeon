@@ -1,0 +1,43 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-1"
+      ]
+    },
+    "stack-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-1",
+        "link-1"
+      ]
+    },
+    "tweet-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "$IBIT $BTC — October position management\n\nStill just in the large October position. Currently testing IBIT POC.\n\nIf we make a higher high today, I'll likely scale back some size ahead of the 67k liquidation zone.\n\nCharts show: IBIT consolidating at market profile POC (1W analysis), BTC 4H testing 65,290 with significant liquidation cluster at 67k above, Long/Short ratio 0.933 (oversold on longs = liquidation risk)."
+      },
+      "children": []
+    },
+    "link-1": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2085717612055736704"
+      },
+      "children": []
+    }
+  }
+}

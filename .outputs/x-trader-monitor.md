@@ -1,13 +1,11 @@
 🐦 *[X] @Wild_Randomness*
 
-$AAPL
+$IBIT $BTC — October position management
 
-Good to see, flight to safety acting right on a risk on morning
+Still just in the large October position. Currently testing IBIT POC.
 
-Can literally see the buybacks flowing in the chart lol
+If we make a higher high today, I'll likely scale back some size ahead of the 67k liquidation zone.
 
-Just 30 degree ramps up post gap-down, over and over
+Charts show: IBIT consolidating at market profile POC (1W analysis), BTC 4H testing 65,290 with significant liquidation cluster at 67k above, Long/Short ratio 0.933 (oversold on longs = liquidation risk).
 
-[View tweet](https://x.com/Wild_Randomness/status/20857120373013917­64)
-
-↳ _Continuation of 3-trader AAPL short thesis (HCH +9.41% short, WR prior Oct $300 closed). Current observation: intraday gap-down recovery with buyback support + 30° ramp patterns — tactical bullish structure within broader bearish thesis frame._
+[View post](https://x.com/Wild_Randomness/status/2085717612055736704)
