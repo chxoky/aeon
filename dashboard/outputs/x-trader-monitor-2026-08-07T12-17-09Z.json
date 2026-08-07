@@ -1,0 +1,60 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @HeartCanHodl"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_portfolio",
+        "text_quote",
+        "text_question",
+        "link_tweet"
+      ]
+    },
+    "text_portfolio": {
+      "type": "Text",
+      "props": {
+        "text": "Current portfolio posture: ~20% net long majors (BTC/ETH/HYPE residuals) + ~28% short alts/equities",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_quote": {
+      "type": "Text",
+      "props": {
+        "text": "HeartCanHodl: \"I'm holding both sides of the book\"",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text_question": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify exact meaning — what's your read? (Literal hedge statement, market-maker stance, equilibrium description?)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/HeartCanHodl/status/2085700285385888070"
+      },
+      "children": []
+    }
+  }
+}
