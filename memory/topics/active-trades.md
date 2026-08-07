@@ -402,6 +402,25 @@
 - **TIER 4 — FULL BTC/ETH CLOSE** (2026-07-31T14:27:30Z): "Cover whole btc and eth shorts" — Complete exit of entire BTC/ETH short positions (estimated remaining ~2-7% BTC + ~4-6% ETH post-Jul 24 TP). Full de-risking of major-pair shorts after extended holding period and multiple profit-taking tiers across 7-day window (Jul 24 TP → Jul 25 alt TP → Jul 31 morning alt closes → Jul 31 14:27 BTC/ETH full close). Portfolio allocation post-close: estimated ~15-25% total short basket (down from ~25-30% pre-close), remaining only UNI/ADA/TAO/VVV/KAITO/ZEC reduced high-conviction alts. Execution timing: afternoon Asian session Thu 07-31, suggests either technical target hit on BTC/ETH structure recovery OR pre-planned profit-lock before EOD/weekend. Thesis evolution: Transition from active major-pair shorts → focus on niche/protocol/governance alt shorts at elevated valuations.
 - **Last update**: 2026-07-31T14:27:30Z (discord-trader-monitor, fast-path-alerted, FULL CLOSE on majors; message_id=1532756599263985664)
 
+### HYPE — SHORT (RE-ENTRY — 2026-08-07)
+- **Status**: ACTIVE — conviction add 2026-08-07T00:34:34Z (fresh re-entry after prior close)
+- **Entry history**:
+  - 2026-07-03T04:08:17Z: Initial entry — HYPE 2% (part of major-pair short basket escalation)
+  - 2026-07-08T09:06:01Z: Partial TP — reduced by 1% (HYPE 2% → 1%)
+  - 2026-07-25T06:58:26Z: Partial TP — reduced by ~50% (HYPE ~1% → ~0.5%)
+  - 2026-07-31T12:29:43Z: Full close — "Cover 2-2-2% hype-sol-zec shorts" (HYPE ~0.5% → 0%, fully closed)
+  - 2026-08-07T00:34:34Z: Fresh re-entry — "Add 1-1% each zec & hype short" (HYPE +1%, estimated current size ~1%)
+- **Ticker**: HYPE (Hyperliquid perp/alt major, established trading token)
+- **Position size trajectory**: 2% (Jul 03) → 1% (Jul 08) → 0.5% (Jul 25) → 0% (Jul 31) → 1% (Aug 07)
+- **Entry type**: Direct execution calls on primary Trades channel (consistent terse format)
+- **Current size**: Estimated 1%+ (fresh re-entry on 08-07 after complete closure on 07-31)
+- **Context**: HYPE represents alt-tier major-pair conviction short within HCH's structural bearish crypto thesis. Initial basket entry (Jul 03) alongside BTC/ETH/SOL shorts; participated in multiple profit-taking tiers with disciplined scaling (07-08 TP, 07-25 half TP, 07-31 full close). Complete exit on 07-31 reflected HCH's broader shift from net-short to net-long regime (BTC/ETH shorts fully closed same day; SOL/ZEC longs added 07-31 15:07Z onwards). **Fresh re-entry on 08-07 (early Asian morning 00:34Z)** suggests renewed bearish conviction on HYPE structure despite net-long major-pair positioning (HCH maintaining orthogonal short convictions independent of macro regime). Dual-add pattern (ZEC + HYPE on 08-07) indicates tactical accumulation into weakness or pre-planned systematic re-accumulation following brief consolidation window.
+- **Conviction**: MEDIUM-HIGH (fresh re-entry after complete closure within 6.5 hours; terse execution format on primary channel + dual-ticker add pattern suggests situational opportunity rather than emotional panic re-entry. Timing: early Asia morning consistent with documented systematic accumulation rhythm).
+- **Thesis**: HYPE remains part of HCH's high-conviction alt bearish thesis. Ticker-focus notes HYPE emerging bullish (Jul 31 HCH/bull_genius/KillaXBT three-trader convergence long thesis; KillaXBT filled 51.55 entry Aug 01), yet HCH maintains independent short conviction — positioning for intra-trade volatility or tactical mean-reversion opportunity between long regime and alt-specific bearish outlook. **CROSS-TRADER DIVERGENCE**: HCH short (primary Trades channel) vs. KillaXBT/bull_genius long (major 3-trader bullish convergence) = CONTESTED ticker requiring close monitoring.
+- **Cross-platform note**: First mention of Aug 07 HYPE short across all tracked platforms (X + Discord). No concurrent X post identified at 00:34:34Z. Discord message is FIRST SIGHTING of Aug 07 HYPE short re-entry.
+- **Approval/Alert status**: FAST-PATH ALERTED (Telegram already sent by Cloudflare Worker ~2-5s post-message); no duplicate send by skill. Await Kyle signal on mirror status: HYPE short may be monitored as memory-only or mirrored on Kraken depending on Kyle's prior position status (prior HYPE position was pending approval, so fresh re-entry tracking begins now).
+- **Last update**: 2026-08-07T00:34:34Z (discord-trader-monitor, fast-path-alerted, TRADE-CONVICTION-ADD; message_id=1535083699484368936)
+
 ### BTC/ETH/SOL Spot — LONGS (CLOSED)
 - **Status**: CLOSED at market 2026-07-02T10:25:13Z — "Close majors fully here"
 - **Final position sizes** (at close): BTC 0%, ETH 0%, SOL 0% (fully exited)
@@ -431,10 +450,11 @@
   - 2026-07-08T09:06:01Z: Profit-taking / scale-out — "Take 7.5%-3.5%-3.5%-1%-1% off from btc,eth,sol,hype,zec here" (reduced ZEC by 1%; message_id=1524340774735450112, fast-path alerted)
   - 2026-07-15T07:35:08Z: Conviction add — "Add 1% zec short" (re-escalation following prior profit-taking; message_id=1526854616547852298, fast-path alerted)
   - 2026-07-25T06:58:26Z: Partial TP — "Close zec, hype, sol half size shorts here" (reducing ZEC by ~50% of current position; message_id=1530469259086532648, fast-path alerted)
-- **Current size**: Estimated 1-1.5%+ (after reducing ~half of position on 07-25; previous estimate was 2-3%+ as of 07-15)
+  - 2026-08-07T00:34:34Z: Conviction add — "Add 1-1% each zec & hype short" (dual-ticker add in early Asian morning; message_id=1535083699484368936, fast-path alerted)
+- **Current size**: Estimated 2-2.5%+ (added ~1% on 08-07 to baseline 1-1.5% post-07-25 TP; position re-escalating after brief consolidation)
 - **Entry levels**: Unknown (position predates tracked window; lows referenced around 400 level for TP management)
-- **Context**: ZEC remains HCH's highest-conviction short despite volatile market conditions. Pattern shows disciplined profit-taking waves: (07-08 trim 1%), immediate re-accumulation (07-15 morning add 1% + 07-15 late-morning add 1%), then half-position reduction (07-25). Dual adds within single session (07-35 + 11:22) suggest intraday conviction escalation — likely price weakness validating short thesis or acceleration of pre-planned accumulation. Multi-day escalation pattern (06-15 through 07-15) followed by measured profit-taking (07-25) confirms ZEC as cornerstone of HCH's alt-short basket with disciplined risk management. Ticker-focus notes ZEC as "CONTESTED" (HCH short vs trading_axe treating strength as market-health tell), reinforcing need for close monitoring as sentiment signal.
-- **Last update**: 2026-07-25T06:58:26Z (discord-trader-monitor, fast-path alerted, PARTIAL TP; message_id=1530469259086532648)
+- **Context**: ZEC remains HCH's highest-conviction short despite volatile market conditions. Pattern shows disciplined profit-taking waves followed by disciplined re-accumulation: (07-08 trim 1%), (07-15 re-add 1%), (07-25 half TP), (08-07 conviction re-add). Multi-day escalation pattern (06-15 through 07-15) with measured profit-taking (07-25) and fresh conviction adds (08-07) confirms ZEC as cornerstone of HCH's alt-short basket with macro bearish thesis preservation across market regime shifts (Aug 01-02 net-long pivot, yet ZEC short maintained + re-added 08-07 confirms orthogonal conviction to major-pair positioning). Ticker-focus notes ZEC as "CONTESTED" (HCH short vs trading_axe treating strength as market-health tell), reinforcing need for close monitoring as sentiment signal. **Dual-add pattern (ZEC+HYPE 08-07)** suggests tactical accumulation into early Asian session or price-weakness validation.
+- **Last update**: 2026-08-07T00:34:34Z (discord-trader-monitor, fast-path alerted, TRADE-CONVICTION-ADD; message_id=1535083699484368936)
 
 ### UNI — SHORT (NEW ENTRY — CONVICTION ADD 2026-07-16, SCALING 2026-07-21)
 - **Status**: ACTIVE — trade-new-entry 2026-07-16T05:06:02Z, conviction add 2026-07-21T01:38:04Z
