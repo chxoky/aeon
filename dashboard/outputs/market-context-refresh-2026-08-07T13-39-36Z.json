@@ -1,0 +1,466 @@
+{
+  "root": "card-market",
+  "state": {},
+  "elements": {
+    "card-market": {
+      "type": "Card",
+      "props": {
+        "title": "Market Context — 2026-08-07",
+        "description": "Post-NFP snapshot"
+      },
+      "children": [
+        "regime-section",
+        "sep1",
+        "prices-section",
+        "sep2",
+        "indicators-section",
+        "sep3",
+        "nfp-section",
+        "sep4",
+        "etf-section",
+        "sep5",
+        "narratives-section",
+        "sep6",
+        "polymarket-section"
+      ]
+    },
+    "regime-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "regime-heading",
+        "regime-stack"
+      ]
+    },
+    "regime-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Market Take",
+        "level": "h3"
+      }
+    },
+    "regime-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "regime-badge",
+        "conviction-text"
+      ]
+    },
+    "regime-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Risk-on",
+        "variant": "default"
+      }
+    },
+    "conviction-text": {
+      "type": "Text",
+      "props": {
+        "text": "medium conviction · regime flip",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "prices-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "prices-heading",
+        "prices-grid"
+      ]
+    },
+    "prices-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Asset Prices",
+        "level": "h3"
+      }
+    },
+    "prices-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "btc-stat",
+        "eth-stat"
+      ]
+    },
+    "btc-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$65,135",
+        "delta": "+1.1%",
+        "trend": "up"
+      }
+    },
+    "eth-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$1,926",
+        "delta": "+1.5%",
+        "trend": "up"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "indicators-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "indicators-heading",
+        "indicators-grid",
+        "tvl-text"
+      ]
+    },
+    "indicators-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Market Indicators",
+        "level": "h3"
+      }
+    },
+    "indicators-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "fg-stat",
+        "breadth-stat",
+        "dex-stat"
+      ]
+    },
+    "fg-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Fear & Greed",
+        "value": "29"
+      }
+    },
+    "breadth-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Breadth",
+        "value": "16/20"
+      }
+    },
+    "dex-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "DEX Volume",
+        "value": "$7.15B"
+      }
+    },
+    "tvl-text": {
+      "type": "Text",
+      "props": {
+        "text": "TVL: stable",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "nfp-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "nfp-heading",
+        "nfp-alert",
+        "nfp-implication"
+      ]
+    },
+    "nfp-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "NFP (July)",
+        "level": "h3"
+      }
+    },
+    "nfp-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Employment Data",
+        "message": "−23K actual vs +80K expected",
+        "type": "warning"
+      }
+    },
+    "nfp-implication": {
+      "type": "Text",
+      "props": {
+        "text": "Sep cut near-certain",
+        "variant": "body"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "etf-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "etf-heading",
+        "etf-stat",
+        "ibit-text"
+      ]
+    },
+    "etf-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "ETF Inflows",
+        "level": "h3"
+      }
+    },
+    "etf-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "4-day streak",
+        "value": "$763M"
+      }
+    },
+    "ibit-text": {
+      "type": "Text",
+      "props": {
+        "text": "IBIT: 76%",
+        "variant": "body"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "narratives-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "narratives-heading",
+        "narratives-stack"
+      ]
+    },
+    "narratives-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Narratives",
+        "level": "h3"
+      }
+    },
+    "narratives-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "narr-ratecut",
+        "narr-zec",
+        "narr-ada"
+      ]
+    },
+    "narr-ratecut": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "narr-ratecut-label",
+        "narr-ratecut-badge"
+      ]
+    },
+    "narr-ratecut-label": {
+      "type": "Text",
+      "props": {
+        "text": "Rate-cut positioning",
+        "variant": "body"
+      }
+    },
+    "narr-ratecut-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Rising",
+        "variant": "secondary"
+      }
+    },
+    "narr-zec": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "narr-zec-label",
+        "narr-zec-perf"
+      ]
+    },
+    "narr-zec-label": {
+      "type": "Text",
+      "props": {
+        "text": "ZEC",
+        "variant": "body"
+      }
+    },
+    "narr-zec-perf": {
+      "type": "Text",
+      "props": {
+        "text": "+3.5% / +11.4% 7d (rising)",
+        "variant": "caption"
+      }
+    },
+    "narr-ada": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "narr-ada-label",
+        "narr-ada-badge"
+      ]
+    },
+    "narr-ada-label": {
+      "type": "Text",
+      "props": {
+        "text": "ADA",
+        "variant": "body"
+      }
+    },
+    "narr-ada-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Peak",
+        "variant": "outline"
+      }
+    },
+    "sep6": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "polymarket-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "polymarket-heading",
+        "polymarket-grid"
+      ]
+    },
+    "polymarket-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Polymarket Odds",
+        "level": "h3"
+      }
+    },
+    "polymarket-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "lg"
+      },
+      "children": [
+        "hormuz-market",
+        "fed-market"
+      ]
+    },
+    "hormuz-market": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "hormuz-label",
+        "hormuz-progress"
+      ]
+    },
+    "hormuz-label": {
+      "type": "Text",
+      "props": {
+        "text": "Hormuz Aug 31 YES",
+        "variant": "lead"
+      }
+    },
+    "hormuz-progress": {
+      "type": "Progress",
+      "props": {
+        "value": 13.5,
+        "max": 100,
+        "label": "13.5%"
+      }
+    },
+    "fed-market": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "fed-label",
+        "fed-progress"
+      ]
+    },
+    "fed-label": {
+      "type": "Text",
+      "props": {
+        "text": "Fed rate market (settled) YES",
+        "variant": "lead"
+      }
+    },
+    "fed-progress": {
+      "type": "Progress",
+      "props": {
+        "value": 3,
+        "max": 100,
+        "label": "<3%"
+      }
+    }
+  }
+}

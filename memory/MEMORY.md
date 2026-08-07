@@ -15,7 +15,7 @@ Autonomous trading-signal agent running on GitHub Actions via Claude Code. Monit
 ## Active Topics
 - [Trader State](topics/traders.md) — live per-trader positions, last-seen. (Rebuilt 2026-07-14 by trader-bootstrap; entries since flow via monitors + traders_update.txt.)
 - [Ticker Focus](topics/ticker-focus.md) — overlap/contested tickers, Kyle's watch list. Rebuilt 2026-07-14.
-- [Market Context](topics/market-context.md) — latest regime snapshot (Aug 3: BTC $62,543, risk-off, F&G 28 Fear, breadth 5/20, DEX vol $5.07B, Sep FOMC hike ~72%).
+- [Market Context](topics/market-context.md) — latest regime snapshot (Aug 7 post-NFP: BTC $65,135, risk-on (medium), F&G 29 Fear, breadth 16/20, DEX vol $7.15B, Sep cut near-certain after NFP −23K miss).
 - [Active Trades](topics/active-trades.md) — Kyle's mirror decisions. As of Jul 22: NO open Kraken mirrors; Chase SNDK/MU approvals never given (Chase has since TP'd most).
 
 ## Live Stack (verified 2026-07-21)
@@ -33,6 +33,7 @@ Autonomous trading-signal agent running on GitHub Actions via Claude Code. Monit
 | SOL   | solana      | 10%             |
 
 ## Recent Log Highlights
+- [2026-08-07](logs/2026-08-07.md) — post-NFP regime flip: risk-on (breadth 16/20); BTC $65,135 (+1.1%); July NFP −23K vs +80K (Sep cut near-certain); HCH net-short ~28%; KillaXBT HTF long divergence; ZEC/ADA outperforming
 - [2026-08-03](logs/2026-08-03.md) — morning-pipeline: risk-off tape (BTC $62,543, breadth 5/20, F&G 28); HCH 10%+ alt deployment Asia session; 3 macro bears aligned on Aug 12 eclipse window; NFP Aug 7 primary binary
 - [2026-08-02](logs/2026-08-02.md) — HCH closed all shorts, added major-pair longs; Wild_Randomness DVOL ATL + AAPL puts; market chop regime
 - [2026-07-21](logs/2026-07-21.md) — Chase TP day (SNDK half @1533, MU half @930/938); KillaXBT hedge cancelled; PRs #13/#16 merged; ISS-003/PR #17
