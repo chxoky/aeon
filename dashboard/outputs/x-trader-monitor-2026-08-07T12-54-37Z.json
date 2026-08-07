@@ -1,0 +1,167 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration Analysis"
+      },
+      "children": [
+        "heading-1",
+        "text-post",
+        "separator-1",
+        "heading-charts",
+        "link-chart-1",
+        "link-chart-2",
+        "link-chart-3",
+        "separator-2",
+        "alert-classify",
+        "separator-3",
+        "heading-questions",
+        "text-q1",
+        "text-q2",
+        "text-q3",
+        "text-q4",
+        "separator-4",
+        "heading-context",
+        "text-context",
+        "separator-5",
+        "link-tweet"
+      ]
+    },
+    "heading-1": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h2"
+      }
+    },
+    "text-post": {
+      "type": "Text",
+      "props": {
+        "text": "Post: $QQQ + $SOXL | Timely?",
+        "variant": "lead"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-charts": {
+      "type": "Heading",
+      "props": {
+        "text": "Three chart images attached (image analysis required):",
+        "level": "h4"
+      }
+    },
+    "link-chart-1": {
+      "type": "Link",
+      "props": {
+        "label": "Chart 1: https://pbs.twimg.com/media/HPHuOcjWgAAixZx.jpg",
+        "href": "https://pbs.twimg.com/media/HPHuOcjWgAAixZx.jpg"
+      }
+    },
+    "link-chart-2": {
+      "type": "Link",
+      "props": {
+        "label": "Chart 2: https://pbs.twimg.com/media/HPHuOcNXQAA6sZ1.jpg",
+        "href": "https://pbs.twimg.com/media/HPHuOcNXQAA6sZ1.jpg"
+      }
+    },
+    "link-chart-3": {
+      "type": "Link",
+      "props": {
+        "label": "Chart 3: https://pbs.twimg.com/media/HPC3k_2bcAAlly_K.jpg",
+        "href": "https://pbs.twimg.com/media/HPC3k_2bcAAlly_K.jpg"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert-classify": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify without charts",
+        "message": "What's your read?",
+        "type": "info"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-questions": {
+      "type": "Heading",
+      "props": {
+        "text": "Classification options:",
+        "level": "h4"
+      }
+    },
+    "text-q1": {
+      "type": "Text",
+      "props": {
+        "text": "Entry consideration ('timely to buy?')"
+      }
+    },
+    "text-q2": {
+      "type": "Text",
+      "props": {
+        "text": "Short timing question ('time to short?')"
+      }
+    },
+    "text-q3": {
+      "type": "Text",
+      "props": {
+        "text": "Technical observation ('right timing?')"
+      }
+    },
+    "text-q4": {
+      "type": "Text",
+      "props": {
+        "text": "Something else?"
+      }
+    },
+    "separator-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-context": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h4"
+      }
+    },
+    "text-context": {
+      "type": "Text",
+      "props": {
+        "text": "WR tracking SOXL blowoff weakness + QQQ puts activity (recent Aug 05 TP). Post matches pattern of chart-driven tech setup analysis."
+      }
+    },
+    "separator-5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link-tweet": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View original post",
+        "href": "https://x.com/Wild_Randomness/status/20857100391011086110",
+        "source": "X (Twitter)"
+      }
+    }
+  }
+}
