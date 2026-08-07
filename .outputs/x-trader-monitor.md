@@ -1,7 +1,9 @@
-🐦 *[X] @HeartCanHodl*
+🐦 *[X] @KillaXBT*
 
-Another plane hitting the btc tower
+Slow, steady, then all at once.
 
-[View tweet](https://x.com/HeartCanHodl/status/2085690305953898838)
+Give it 2.5 years, and I will dump all my $BTC at 160K.
 
-↳ Bearish BTC sentiment aligns with HCH's net-short regime (entered Aug 07 00:28Z) and BTC short from 00:23Z; consistent with recent short conviction adds.
+[View tweet](https://x.com/KillaXBT/status/2085699879037259779)
+
+↳ _Long-term structural bull thesis: buy zone (60-65K) → target sell zone (160K). Reinforces documented HTF 2x long positioning + spot DCA conviction. 2.5-year time horizon._

@@ -1,0 +1,56 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "link-tweet",
+        "separator-1",
+        "thesis-text"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "Slow, steady, then all at once.\n\nGive it 2.5 years, and I will dump all my $BTC at 160K."
+      }
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2085699879037259779"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "thesis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Long-term structural bull thesis: buy zone (60-65K) → target sell zone (160K). Reinforces documented HTF 2x long positioning + spot DCA conviction. 2.5-year time horizon.",
+        "variant": "caption"
+      }
+    }
+  }
+}
