@@ -1,0 +1,125 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X-Trader Monitor",
+        "description": "Leveraged Trading Alert"
+      },
+      "children": [
+        "tweet_card",
+        "separator1",
+        "trade_details",
+        "separator2",
+        "view_link"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "@HeartCanHodl",
+        "text": "Successful leveraged trade on LIT"
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "trade_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "instrument",
+        "entry_stat",
+        "mark_stat",
+        "gains_stat",
+        "referral_section"
+      ]
+    },
+    "instrument": {
+      "type": "Text",
+      "props": {
+        "text": "LITUSDT Perp 3X Long",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "entry_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Entry Price",
+        "value": "2.0207"
+      },
+      "children": []
+    },
+    "mark_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Mark Price",
+        "value": "2.4657"
+      },
+      "children": []
+    },
+    "gains_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Unrealized Gains",
+        "value": "66.05%",
+        "delta": "+66.05%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "referral_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "referral_label",
+        "referral_badge"
+      ]
+    },
+    "referral_label": {
+      "type": "Text",
+      "props": {
+        "text": "Referral:",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "referral_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "HCH10"
+      },
+      "children": []
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/HeartCanHodl/status/2085727935743537637"
+      },
+      "children": []
+    }
+  }
+}
