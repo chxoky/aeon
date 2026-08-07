@@ -1,0 +1,54 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @trading_axe"
+      },
+      "children": [
+        "event-info",
+        "sep1",
+        "quote-card",
+        "sep2",
+        "warning-alert"
+      ]
+    },
+    "event-info": {
+      "type": "Text",
+      "props": {
+        "text": "Event: @karhen_barbiie (original post context unknown)",
+        "variant": "muted"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "quote-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Dr. Axius",
+        "handle": "trading_axe",
+        "text": "Bigger market than ENS."
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "warning-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's the referenced market comparison? (BTC vs ENS? New protocol? Product thesis?)",
+        "type": "warning"
+      }
+    }
+  }
+}

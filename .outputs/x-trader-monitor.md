@@ -1,4 +1,4 @@
-🐦 *[X] @trading_axe*
+🔍 *Calibration — @trading_axe*
 
 In the next year [crypto bull market coming up]:
 
@@ -13,3 +13,10 @@ If tokenized onchain with verifiable ownership, anyone could trade them globally
 "The future is tokenization of everything. ~ Dr. Axius"
 
 [View post](https://x.com/trading_axe/status/2085584367800221866)
+Event: @karhen_barbiie (original post context unknown)
+
+trading_axe: "Bigger market than ENS.
+
+~ Dr. Axius."
+
+Unable to classify — what's the referenced market comparison? (BTC vs ENS? New protocol? Product thesis?)
