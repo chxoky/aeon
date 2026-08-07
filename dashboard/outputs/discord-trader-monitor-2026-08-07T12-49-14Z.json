@@ -1,0 +1,56 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "heading",
+        "stack"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration",
+        "level": "h2"
+      }
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "label",
+        "comment",
+        "alert"
+      ]
+    },
+    "label": {
+      "type": "Badge",
+      "props": {
+        "text": "DC: HCH — Comments",
+        "variant": "outline"
+      }
+    },
+    "comment": {
+      "type": "Text",
+      "props": {
+        "text": "HCH: \"~\"",
+        "variant": "body"
+      }
+    },
+    "alert": {
+      "type": "Alert",
+      "props": {
+        "message": "Unable to classify — what's your read?",
+        "type": "info"
+      }
+    }
+  }
+}
