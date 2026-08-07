@@ -1,16 +1,18 @@
 ## Summary
 
-**Discord Trader Monitor — KillaXBT BTC Event (2026-08-07 19:16:35Z)**
+**Discord Trader Monitor executed successfully — Message 1535375791079166002**
 
-✅ **Event processed and logged**
+**Classification: SKIP (Non-financial)**
 
-- **Trader:** KillaXBT (primary channel "K")
-- **Event:** Cancelled BTC scalp short limit orders (setup 65.4-65.7) — front-ran by $60
-- **Classification:** TRADE-CANCELLED (order never filled, no mirror action required)
-- **Status:** Fast-path already alerted via Telegram; memory updated
-- **Files updated:**
-  - `memory/discord-trader-seen.txt` — added message ID 1535366062470594591
-  - `memory/topics/traders.md` — logged cancelled order event
-  - `memory/logs/2026-08-07.md` — appended event details
+The message from crypto_chase in the primary Chase channel at 19:55 UTC is a promotional giveaway announcement: "THREE $50 winners today, dm me w/ proof it's your account etc" with 3 attached images.
 
-No Kyle action needed — trader's conditional limit orders were invalidated before execution and cancelled.
+Per Step 5 classification and HR-1 protocol (test/promotional content → silent skip):
+- No trade signal
+- No market content
+- No ticker references  
+- No Kyle alert sent
+
+**Actions completed:**
+- Message added to discord-trader-seen.txt (avoid re-processing)
+- Log entry appended to 2026-08-07.md
+- No notification to Kyle (silent skip per protocol)
