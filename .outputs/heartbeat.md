@@ -1,8 +1,14 @@
 HEARTBEAT_OK · STATUS_PAGE=WATCH
 
-**Summary:**
+## Summary
 
-- **P0:** All clear. No failed/stuck skills, no consecutive failures. X webhook `WATCHED_TRADERS` rule is active (`is_effect: 1`).
-- **P1:** 0 open PRs. No urgent issues found.
-- **P2/P3:** narrative-tracker still stalled (last success Aug 03, 72h >2× daily interval) and ISS-004 open (traders.md 248KB) — both were already notified on Aug 05 20:10 UTC, within the 48h dedup window. No re-notification sent.
-- **Status page** (`docs/status.md`) regenerated — updated timestamps for today's token-alert, token-movers, market-context-refresh, x-trader-monitor, discord-trader-monitor runs; next scheduled run set to heartbeat at 20:00 UTC.
+All checks ran. Fleet is healthy with one standing WATCH flag:
+
+- **P0** — clean: no failed/stuck skills, zero consecutive failures across all 14 tracked skills, X webhook `WATCHED_TRADERS` rule active (`is_effect=1`)
+- **P1** — clean: 0 open PRs, 0 urgent issues
+- **P2** — clean: no flagged memory items
+- **P3** — narrative-tracker stale (4 days overdue on daily schedule); already notified Aug 5 at 20:10 UTC → deduped
+- **ISS-004** (traders.md oversize, medium) — also deduped from Aug 5 notification
+- **No notification sent** — all findings within 48h dedup window
+- **`docs/status.md`** regenerated (🟡 WATCH, all 11 active skills listed)
+- **`memory/logs/2026-08-07.md`** updated with this run's entry
