@@ -1,0 +1,142 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Trade Signal — @swarmister"
+      },
+      "children": [
+        "stack_badges",
+        "text_position",
+        "sep1",
+        "text_analysis",
+        "sep2",
+        "link_post",
+        "sep3",
+        "text_action",
+        "sep4",
+        "heading_chart",
+        "stack_levels"
+      ]
+    },
+    "stack_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_long",
+        "badge_status"
+      ]
+    },
+    "badge_long": {
+      "type": "Badge",
+      "props": {
+        "text": "LONG",
+        "variant": "default"
+      }
+    },
+    "badge_status": {
+      "type": "Badge",
+      "props": {
+        "text": "MARKET order (filled)",
+        "variant": "outline"
+      }
+    },
+    "text_position": {
+      "type": "Text",
+      "props": {
+        "text": "$LTC — Small position with tight stop-loss.",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Opened a small long position $LTC with a tight stop-loss. The asset is showing relative strength compared to other instruments. Following a sell-side liquidity sweep, a reversal is expected to form, and the upward trend driven by institutional order flow is expected to continue.",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/swarmister/status/2085844063589224785"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_action": {
+      "type": "Text",
+      "props": {
+        "text": "Reply `approve LTC` to mirror this on Kraken (spot), or ignore to skip.",
+        "variant": "lead"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_chart": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart Context",
+        "level": "h4"
+      }
+    },
+    "stack_levels": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat_support",
+        "stat_entry",
+        "stat_resistance"
+      ]
+    },
+    "stat_support": {
+      "type": "Stat",
+      "props": {
+        "label": "Support",
+        "value": "~43.50"
+      }
+    },
+    "stat_entry": {
+      "type": "Stat",
+      "props": {
+        "label": "Current entry",
+        "value": "~45.63"
+      }
+    },
+    "stat_resistance": {
+      "type": "Stat",
+      "props": {
+        "label": "Resistance levels",
+        "value": "47.40 / 48.28 / 49.13"
+      }
+    }
+  }
+}

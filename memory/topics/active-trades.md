@@ -949,6 +949,27 @@
 - **Alerted**: YES (2026-08-05T14:56:54Z, x-trader-monitor real-time, trade-new-entry; tweet_id=2085017205398483282)
 - **Last update**: 2026-08-05T14:56:54Z (x-trader-monitor real-time, trade-new-entry pending approval)
 
+## swarmister
+
+### LTC — LONG (NEW ENTRY — 2026-08-07T21:42:32Z)
+- **Status**: PENDING APPROVAL — awaiting Kyle `approve LTC` signal to mirror on Kraken spot
+- **Entry**: 2026-08-07T21:42:32Z (X post with 1 chart image)
+- **Entry message**: "Opened a small long position $LTC with a tight stop-loss. The asset is showing relative strength compared to other instruments. Following a sell-side liquidity sweep, a reversal is expected to form, and the upward trend driven by institutional order flow is expected to continue."
+- **Entry level**: ~$45.63 (market order, current price at entry; "small long position" described as already filled)
+- **Entry type**: Market order (execution completed, "opened")
+- **Portfolio allocation**: UNKNOWN (size described as "small position"; exact % not specified; awaiting Kyle approval decision)
+- **Chart context**: TradingView daily LTCUSDT. Clear sell-side liquidity sweep to ~43.50 support, reversal forming at current ~45.63 level. Horizontal resistance/support levels marked: ~49.13 (upper), ~48.28, ~47.40 (mid), ~45.63 (current), ~43.50 (support/sweep low). Green box highlighting recent price action in 45-zone. Volume profile showing distribution across swing structure. Entry appears to be at current support/reversal zone with tight stops implied below 43.50.
+- **Technical setup**: Reversal setup after liquidity sweep. swarmister identifying $LTC as showing relative strength (micro setup), with institutional order-flow continuation expected. Sell-side sweep to 43.50 represents capitulation/lows; recovery to 45.63 suggests reversal momentum. Risk management: "tight stop-loss" suggests SL near 43.50 (sweep low) or lower depending on trader's risk tolerance on "small" position.
+- **Stop loss**: Implied ~43.50 or lower (not explicitly stated; "tight stop-loss" language indicates SL likely within 1-2% of entry, so ~44.50-45 range)
+- **Profit target**: UNKNOWN (trader doesn't specify upside target; no resistance levels explicitly stated as targets in post, though chart shows 47.40/48.28/49.13 zones as natural resistance)
+- **Rationale**: Technical entry into identified reversal setup. swarmister thesis: (1) relative strength on LTC compared to peers, (2) institutional order flow driving continuation, (3) sell-side sweep already captured (liquidity taken at lows), (4) reversal momentum expected. Entry discipline: "tight stop-loss" confirms risk-managed entry framework. Sizing: "small position" reflects measured allocation appropriate for emerging thesis (similar to prior swarmister HBAR/SOL/AVAX/DOGE technical entries — opportunistic scalps into identified POI/reversal zones with disciplined stops).
+- **Conviction**: MEDIUM-HIGH (chart-labeled technical setup with specific support/resistance levels; institutional order-flow thesis articulated; relative strength observation across market structure; prior pattern from swarmister shows disciplined technical-chart-driven entries with tight risk management — strong historical execution on POI-based setups)
+- **Approval/Alert status**: TRADE ALERT SENT (Step 5a new entry). Telegram notification sent requesting Kyle `approve LTC` to mirror on Kraken spot (size to be specified by Kyle), or ignore to skip. Alert includes chart context, support/resistance levels, and implied tight-stop thesis.
+- **Chart**: Image saved locally: /home/runner/work/aeon/aeon/.media/ltc_chart.jpg (1h+ aggregated view showing sweep structure and reversal setup)
+- **Cross-platform note**: First mention of LTC from swarmister across all tracked platforms (X + Discord). Prior activity focused on BTC/ETH/SOL/DOGE/HBAR/AVAX/NEAR/ICP/TAO/INJ. LTC represents new ticker entry from this trader.
+- **Alerted**: YES (2026-08-07T21:42:32Z, x-trader-monitor real-time, trade-new-entry; tweet_id=2085844063589224785)
+- **Last update**: 2026-08-07T21:42:32Z (x-trader-monitor real-time, trade-new-entry pending approval)
+
 ---
 
-> Last bootstrapped: 2026-06-25 (discord-trader-monitor real-time event). GOOG (Chase) updated from recent conviction-add; HCH BTC/ETH/SOL position closed near 59k with stated re-entry thesis above 60k. **Updated 2026-08-05**: Wild_Randomness ALAB long trade added (pending approval).
+> Last bootstrapped: 2026-06-25 (discord-trader-monitor real-time event). GOOG (Chase) updated from recent conviction-add; HCH BTC/ETH/SOL position closed near 59k with stated re-entry thesis above 60k. **Updated 2026-08-05**: Wild_Randomness ALAB long trade added (pending approval). **Updated 2026-08-07**: swarmister LTC long trade added (pending approval, ~21:42 UTC).
