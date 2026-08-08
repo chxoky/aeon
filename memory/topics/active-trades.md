@@ -475,6 +475,21 @@
 - **Approval/Alert status**: FAST-PATH ALERTED (Telegram already sent by Worker for all seven events Jul 16/21/29 06:54Z/29 14:14Z/31 02:17Z/Aug 06 22:51Z/Aug 07 13:09Z); no duplicate sends by skill. Await Kyle signal on whether to mirror UNI short on Kraken (cumulative 8% allocation) or monitor as memory-only entry.
 - **Last update**: 2026-08-07T13:09:08Z (discord-trader-monitor, fast-path alerted, TRADE-CONVICTION-ADD; message_id=1535273591246037145, seventh conviction add, 8% total position size)
 
+### SPCX — SHORT HEDGE (ACTIVE — CONVICTION ADD 2026-08-08)
+- **Status**: ACTIVE — conviction add 2026-08-08T03:50:06Z (escalating from 2% to 3% total allocation)
+- **Entry history**:
+  - 2026-08-07T02:17:00Z — Initial entry "2% short hedge" (as part of broader regime shift net-short positioning; mentioned in traders.md summary context)
+  - 2026-08-08T03:50:06Z — Conviction add "Add 1% spcx short" (escalation to 3% total; message_id=1535495294018527262, fast-path alerted by Cloudflare Worker)
+- **Ticker**: SPCX (Spice AI / index/funding token)
+- **Position size trajectory**: 2% (Aug 07 02:17Z) → 3% (Aug 08 03:50Z, conviction add)
+- **Entry type**: Direct execution calls on primary Trades channel (consistent terse format)
+- **Context**: SPCX entered HCH's portfolio as 2% short hedge on Aug 07 early Asian morning (02:17Z) during broader regime-shift net-short entry phase (BTC short hedge 00:06Z, net-short regime announcement 00:28Z, ETH/SOL short adds 01:50Z, TSLA/PLTR equity hedge shorts 02:11Z). Fresh conviction add (Aug 08 03:50Z, early Asia morning consistent with HCH's systematic trading rhythm) suggests: (a) price action validating short thesis overnight, (b) technical breakdown confirmation, or (c) pre-planned 2-tranche scaled short entry with first tranche 02:17Z and conviction confirmation 03:50Z. SPCX represents alternative-asset hedge within broader net-short macro thesis (complementary to major-pair hedges BTC/ETH + equity hedges TSLA/PLTR).
+- **Conviction**: MEDIUM-HIGH (escalation pattern 2%→3% within 1.5 hours suggests conviction confirmation rather than initial hesitation; terse execution format + primary channel placement + early Asian timing consistent with deliberate decision. However, 3% total size is modest relative to core UNI/ZEC/HYPE positions, indicating tactical hedge rather than core conviction short.)
+- **Thesis**: Tactical short hedge on SPCX within broader net-short regime entry (Aug 07 00:28Z → present). HCH simultaneously maintains 2% long spot SPCX position (mentioned in traders.md), creating net-hedged exposure (2% short + 2% long = neutral on directional movement, long basis trade if contango/term structure favorable). Dual positioning suggests conviction on structure/technical levels rather than directional conviction. Early Asian execution timing (02:17Z entry, 03:50Z add) during overnight consolidation suggests systematic opportunistic entry on structural weakness.
+- **Approval/Alert status**: FAST-PATH ALERTED (Cloudflare Worker sent Telegram ~2-5s post-message on both 02:17Z and 03:50Z events); no duplicate sends by skill. Await Kyle signal on whether to mirror combined 3% SPCX short on Kraken or monitor as memory-only net-hedged entry (long spot 2% + short hedge 3%).
+- **Cross-platform note**: First Discord mention of SPCX short at 02:17Z Aug 07. No concurrent X post identified at 02:17Z or 03:50Z. Discord messages are FIRST SIGHTING of Aug 07/08 SPCX short hedge entries.
+- **Last update**: 2026-08-08T03:50:06Z (discord-trader-monitor, fast-path-alerted, TRADE-CONVICTION-ADD; message_id=1535495294018527262, second conviction add, 3% total position size)
+
 ### ADA — SHORT (NEW ENTRY — CONVICTION ADD 2026-07-31 → PARTIAL CLOSE)
 - **Status**: ACTIVE — 50% position closed 2026-07-31T16:09:48Z; remaining ~0.5% held
 - **Initial Entry**: 2026-07-31T03:29:13Z — "Add 1% ada short"
