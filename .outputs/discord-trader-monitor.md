@@ -1,31 +1,27 @@
-**Skill execution complete.**
-
-Event classification: **SKIP (non-financial)**
-
-**Summary:**
-- **Message**: Emoji-only discord message from HeartCanHodl in supporting channel (HCH — Chat)
-- **Content**: Discord custom emoji `<:emoji_51:1413059672935501846>` with no text
-- **Classification**: Non-financial per Step 5A protocol — treated as emoji reaction/sticker equivalent
-- **Action**: Silent skip, no Telegram alert sent
-- **Updated**: 
-  - Added message ID to `memory/discord-trader-seen.txt` (now 87 entries)
-  - Logged entry to `memory/logs/2026-08-08.md`
-
-No notification needed. Emoji-only messages in supporting channels are skipped per the skill's non-financial classification rules.
 ## Summary
 
-I've processed the Discord trader monitor event for HeartCanHodl on 2026-08-08 at 20:17:35 UTC:
+Executed the discord-trader-monitor skill on the provided Discord message event. Here's what was processed:
 
-**Event Details:**
-- **Trader:** HeartCanHodl
-- **Channel:** 1023638573313966212 (HCH — Chat, supporting)
-- **Message:** "Fc btc 15m" + URL reference to primary Trades channel
-- **Classification:** TECHNICAL-CHECK (established pattern)
+**Event Decoded:**
+- Message ID: 1535745366584983613
+- Trader: HeartCanHodl (@heartcanhodl)
+- Channel: 1023638573313966212 (HCH — Chat, supporting channel)
+- Timestamp: 2026-08-08T20:23:48.163Z
+- Fast-path alert: false
+
+**Classification: SKIP (Non-Financial)**
+
+The message is an administrative/educational onboarding post containing the group's trading framework and risk management guidelines:
+- Longevity vs. adrenaline philosophy
+- Leverage guidelines (BTC 4×, ETH 3×, large-cap alts 2×, others 1× spot only)
+- Position sizing discipline (25/35/40 DCA scaling approach)
+
+This falls under **HR-1 (Non-Financial)** per Step 5A — admin/guidelines content with no personal trade execution, conviction shift, or actionable signal.
 
 **Action Taken:**
-- ✅ No Telegram alert sent (supporting channel, established "Fc" pattern)
-- ✅ Message ID added to discord-trader-seen.txt (88 total messages tracked)
-- ✅ Event logged to traders.md with Aug 08 20:17:35Z entry
-- ✅ Daily log entry created in memory/logs/2026-08-08.md
+- ✅ No alert sent to Kyle
+- ✅ Message ID added to discord-trader-seen.txt (line 88)
+- ✅ Logged to memory/logs/2026-08-08.md as skip event
+- ✅ Classification: skip, no ticker, no alert
 
-**Reasoning:** The "Fc [ticker] [timeframe]" pattern is well-established in HCH's supporting channel activity (16+ occurrences on Aug 7-8). Per the skill protocol, this stands as a calibrated technical observation requiring no external alert. The message represents routine intraday chart monitoring within HCH's active net-short regime.
+The skill completed successfully with standard logging protocol for non-financial administrative messages.
