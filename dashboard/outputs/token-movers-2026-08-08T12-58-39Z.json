@@ -1,0 +1,436 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Token Movers",
+        "description": "2026-08-08"
+      },
+      "children": [
+        "summary",
+        "sep1",
+        "winners-heading",
+        "winners-table",
+        "sep2",
+        "losers-heading",
+        "losers-table",
+        "sep3",
+        "trending-heading",
+        "trending-table",
+        "sep4",
+        "notable-heading",
+        "notable-stack"
+      ]
+    },
+    "summary": {
+      "type": "Text",
+      "props": {
+        "text": "Mildly green — 64% of filtered top-100 coins positive 24h, median +0.4% for top 50; micro-cap trending names dominate headlines while large-caps drift.",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator"
+    },
+    "winners-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Winners (24h)",
+        "level": "h2"
+      }
+    },
+    "winners-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Rank",
+          "Token",
+          "Price",
+          "24h%",
+          "7d%",
+          "1h%",
+          "Market Cap",
+          "Rank#"
+        ],
+        "rows": [
+          [
+            "1",
+            "BEAT (Audiera)",
+            "$2.52",
+            "+12.3%",
+            "−47.2%",
+            "−2.5%",
+            "$19M",
+            "#77"
+          ],
+          [
+            "2",
+            "UB (Unibase)",
+            "$0.1365",
+            "+10.4%",
+            "−15.0%",
+            "+1.1%",
+            "$6M",
+            "#119"
+          ],
+          [
+            "3",
+            "OKB (OKB)",
+            "$93.64",
+            "+6.0%",
+            "+8.5%",
+            "+0.3%",
+            "$37M",
+            "#41"
+          ],
+          [
+            "4",
+            "APR (aPriori)",
+            "$0.2077",
+            "+5.9%",
+            "+3.2%",
+            "+0.1%",
+            "$3M",
+            "#383"
+          ],
+          [
+            "5",
+            "GOMINING (GoMining)",
+            "$0.2917",
+            "+5.9%",
+            "+1.7%",
+            "0.0%",
+            "$8M",
+            "#231"
+          ],
+          [
+            "6",
+            "PI (Pi Network)",
+            "$0.0914",
+            "+4.9%",
+            "+6.9%",
+            "−0.2%",
+            "$7M",
+            "#66"
+          ],
+          [
+            "7",
+            "CRV (Curve DAO)",
+            "$0.2256",
+            "+4.4%",
+            "+9.4%",
+            "−0.6%",
+            "$28M",
+            "#117"
+          ],
+          [
+            "8",
+            "BDX (Beldex)",
+            "$0.0925",
+            "+4.3%",
+            "+11.4%",
+            "0.0%",
+            "$10M",
+            "#82"
+          ],
+          [
+            "9",
+            "AKT (Akash)",
+            "$0.5064",
+            "+4.0%",
+            "+5.7%",
+            "−1.1%",
+            "$5M",
+            "#195"
+          ],
+          [
+            "10",
+            "HOLO (Holoworld)",
+            "$0.0714",
+            "+4.0%",
+            "+7.9%",
+            "−0.3%",
+            "$3M",
+            "#406"
+          ]
+        ]
+      }
+    },
+    "sep2": {
+      "type": "Separator"
+    },
+    "losers-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Losers (24h)",
+        "level": "h2"
+      }
+    },
+    "losers-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Rank",
+          "Token",
+          "Price",
+          "24h%",
+          "7d%",
+          "1h%",
+          "Market Cap",
+          "Rank#",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "1",
+            "KAITO (KAITO)",
+            "$0.6942",
+            "−19.8%",
+            "−34.2%",
+            "−1.4%",
+            "$59M",
+            "#179",
+            "CAPITULATION"
+          ],
+          [
+            "2",
+            "US (Talus)",
+            "$0.0480",
+            "−15.3%",
+            "−4.1%",
+            "+0.1%",
+            "$11M",
+            "#203",
+            ""
+          ],
+          [
+            "3",
+            "BTW (Bitway)",
+            "$0.1621",
+            "−10.4%",
+            "+40.5%",
+            "+7.7%",
+            "$29M",
+            "#114",
+            ""
+          ],
+          [
+            "4",
+            "CRO (Cronos)",
+            "$0.0485",
+            "−8.4%",
+            "−10.6%",
+            "+3.0%",
+            "$22M",
+            "#38",
+            "TRENDING+DOWN"
+          ],
+          [
+            "5",
+            "B (BUILDon)",
+            "$0.1573",
+            "−7.5%",
+            "−0.4%",
+            "−0.5%",
+            "$3M",
+            "#187",
+            ""
+          ],
+          [
+            "6",
+            "ENA (Ethena)",
+            "$0.0909",
+            "−6.3%",
+            "+12.0%",
+            "−0.5%",
+            "$91M",
+            "#72",
+            ""
+          ],
+          [
+            "7",
+            "CARDS (Collector Crypt)",
+            "$0.1422",
+            "−5.4%",
+            "+2.9%",
+            "+0.1%",
+            "$2M",
+            "#546",
+            ""
+          ],
+          [
+            "8",
+            "HYPE (Hyperliquid)",
+            "$54.56",
+            "−4.0%",
+            "+5.2%",
+            "−0.4%",
+            "$273M",
+            "#10",
+            "MAJOR"
+          ],
+          [
+            "9",
+            "VVV (Venice Token)",
+            "$11.21",
+            "−3.0%",
+            "−4.1%",
+            "−0.3%",
+            "$6M",
+            "#93",
+            ""
+          ],
+          [
+            "10",
+            "SPX (SPX6900)",
+            "$0.3239",
+            "−3.1%",
+            "+1.1%",
+            "0.0%",
+            "$3M",
+            "#126",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep3": {
+      "type": "Separator"
+    },
+    "trending-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending",
+        "level": "h2"
+      }
+    },
+    "trending-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Position",
+          "Token",
+          "Global Rank",
+          "Price",
+          "Change%",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "1",
+            "JIMOTHY (The Raccoon)",
+            "#919",
+            "$0.015200",
+            "+271.5%",
+            "PUMP-RISK, MICROCAP"
+          ],
+          [
+            "2",
+            "PENGU (Pudgy Penguins)",
+            "#108",
+            "$0.006200",
+            "+3.9%",
+            ""
+          ],
+          [
+            "3",
+            "STONKBROKER (StonkBroker)",
+            "#458",
+            "$0.029200",
+            "+32.7%",
+            "PUMP-RISK"
+          ],
+          [
+            "4",
+            "CYS (Cysic)",
+            "#204",
+            "$0.9263",
+            "+14.7%",
+            ""
+          ],
+          [
+            "5",
+            "SUI (Sui)",
+            "#31",
+            "$0.6915",
+            "+2.9%",
+            ""
+          ],
+          [
+            "6",
+            "BICO (Biconomy)",
+            "#391",
+            "$0.057100",
+            "+27.9%",
+            "PUMP-RISK"
+          ],
+          [
+            "7",
+            "XRP (XRP)",
+            "#6",
+            "$1.039",
+            "+0.4%",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep4": {
+      "type": "Separator"
+    },
+    "notable-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h2"
+      }
+    },
+    "notable-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert1",
+        "alert2",
+        "alert3",
+        "alert4"
+      ]
+    },
+    "alert1": {
+      "type": "Alert",
+      "props": {
+        "title": "KAITO [CAPITULATION]",
+        "message": "Deepening unwind now −19.8% (was −14.4% earlier today), 7d −34.2%; vol/mcap 0.35; rank-179 sustained liquidation",
+        "type": "error"
+      }
+    },
+    "alert2": {
+      "type": "Alert",
+      "props": {
+        "title": "CRO [TRENDING+DOWN]",
+        "message": "Rank-38 large-cap trending while −8.4%; 7d −10.6%; search interest not supporting price",
+        "type": "warning"
+      }
+    },
+    "alert3": {
+      "type": "Alert",
+      "props": {
+        "title": "JIMOTHY [PUMP-RISK][MICROCAP]",
+        "message": "Trending #1 at +271%, rank 919, $15M mcap; extreme manipulation risk",
+        "type": "warning"
+      }
+    },
+    "alert4": {
+      "type": "Alert",
+      "props": {
+        "title": "BTW (Bitway)",
+        "message": "−10.4% intraday reversal after +40.5% 7d; pump-reversal pattern, watch for continued unwinding",
+        "type": "info"
+      }
+    }
+  }
+}
