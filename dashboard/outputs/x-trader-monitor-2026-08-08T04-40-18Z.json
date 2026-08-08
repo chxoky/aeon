@@ -1,0 +1,23 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet_alert"
+      ]
+    },
+    "tweet_alert": {
+      "type": "TweetCard",
+      "props": {
+        "author": "trading_axe",
+        "handle": "@trading_axe",
+        "text": "2018 copytrading: prosecuted by FBI as P&D market manipulation (Discord groups shutdown)\n\n2026 copytrading: rebranded with flashy video edits & known"
+      }
+    }
+  }
+}
