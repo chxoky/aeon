@@ -1,0 +1,64 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @Wild_Randomness"
+      },
+      "children": [
+        "event-badge",
+        "statement-section",
+        "classification-section",
+        "link-section"
+      ]
+    },
+    "event-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Event: Position management discussion"
+      }
+    },
+    "statement-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "trader-label",
+        "trader-statement"
+      ]
+    },
+    "trader-label": {
+      "type": "Text",
+      "props": {
+        "text": "Wild_Randomness",
+        "variant": "lead"
+      }
+    },
+    "trader-statement": {
+      "type": "Text",
+      "props": {
+        "text": "Cleaned out entire position at 124 before earnings, rebought triple size from 109-111"
+      }
+    },
+    "classification-section": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Can't determine from prices 124/109-111 which position. Original size? Are you mirroring?",
+        "type": "warning"
+      }
+    },
+    "link-section": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2085991479768400358",
+        "source": "X"
+      }
+    }
+  }
+}

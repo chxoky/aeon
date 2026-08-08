@@ -423,6 +423,7 @@
   - Aug 02 19:52Z — ambiguous: "No he doesn't" 2-word reply, no visible context; calibration alert sent [2084004422674440462]
   - Aug 02 19:56Z — informational: QQQ/SOXX rally vs BTC flat; sarcasm on trader memory [2084005487721546085]
   - Aug 02 20:20Z — informational: macro bear sarcasm; vol confusion as weakness; "Big One" framework continues [2084011413534838874]
+  - Aug 08 07:28Z — ambiguous: Position management narrative ("cleaned out entire position at 124 before earnings, rebought triple original size from 109-111"); CRYPTIC — no ticker mentioned, prices 124/109-111 match multiple tickers in watch list; depends on thread context @LunaticxOsmo/@NigletObserver; HR-2 calibration alert sent to Kyle; awiting ticker/size clarification [2085991479768400358]
 
 ## trading_axe
 - Platforms: X (primary; X-only, no Discord presence)
