@@ -134,10 +134,10 @@
   },
   "morning-pipeline": {
     "last_dispatch": "2026-08-08T07:07:38Z",
-    "last_status": "dispatched",
-    "last_success": "2026-08-07T08:05:59Z",
-    "total_runs": 17,
-    "total_successes": 17,
+    "last_status": "success",
+    "last_success": "2026-08-08T07:22:03Z",
+    "total_runs": 18,
+    "total_successes": 18,
     "total_failures": 0,
     "consecutive_failures": 0,
     "success_rate": 1
