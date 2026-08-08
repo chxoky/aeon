@@ -7,3 +7,11 @@ Text: "As these leveraged ETFs grow I think it makes sense they provide more tec
 Classification: INFORMATIONAL (technical commentary, not personal action)
 
 [View tweet](https://x.com/Wild_Randomness/status/2086230696993886270)
+🔍 *Calibration — @Wild_Randomness*
+
+Event: Chart image could not be fetched
+Wild_Randomness: "Cheers to 10k
+
+So what's next?"
+
+Unable to determine which ticker/level '10k' refers to. Image CDN returned empty. What's your read?

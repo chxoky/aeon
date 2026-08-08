@@ -1,0 +1,70 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor Calibration",
+        "description": "Alert from @Wild_Randomness"
+      },
+      "children": [
+        "heading1",
+        "separator1",
+        "alert1",
+        "separator2",
+        "tweet1",
+        "separator3",
+        "text1"
+      ]
+    },
+    "heading1": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h2"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert1": {
+      "type": "Alert",
+      "props": {
+        "title": "Event: Chart image could not be fetched",
+        "message": "Image CDN returned empty",
+        "type": "warning"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Cheers to 10k\n\nSo what's next?"
+      }
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text1": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to determine which ticker/level '10k' refers to. Image CDN returned empty. What's your read?",
+        "variant": "body"
+      }
+    }
+  }
+}

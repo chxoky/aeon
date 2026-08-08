@@ -438,6 +438,7 @@
   - Aug 02 19:56Z — informational: QQQ/SOXX rally vs BTC flat; sarcasm on trader memory [2084005487721546085]
   - Aug 02 20:20Z — informational: macro bear sarcasm; vol confusion as weakness; "Big One" framework continues [2084011413534838874]
   - Aug 08 07:28Z — ambiguous: Position management narrative ("cleaned out entire position at 124 before earnings, rebought triple original size from 109-111"); CRYPTIC — no ticker mentioned, prices 124/109-111 match multiple tickers in watch list; depends on thread context @LunaticxOsmo/@NigletObserver; HR-2 calibration alert sent to Kyle; awiting ticker/size clarification [2085991479768400358]
+  - Aug 08 23:20Z — ambiguous: "Cheers to 10k\n\nSo what's next?" + 1 chart image (CDN unavailable); unclear which ticker/level "10k" refers to; media could clarify but image fetch failed; HR-2 calibration alert sent to Kyle requesting clarification [2086231052079566914]
 
 ## trading_axe
 - Platforms: X (primary; X-only, no Discord presence)
