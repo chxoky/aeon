@@ -1,0 +1,42 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Trading analysis from @trading_axe"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-main",
+        "link-post"
+      ]
+    },
+    "tweet-main": {
+      "type": "TweetCard",
+      "props": {
+        "author": "trading_axe",
+        "handle": "trading_axe",
+        "text": "Look man, I'm not much of a chart guy but when I do the whole charts thing, I know my shit.\n\nWe're at gold trading into yearly open + BTC/GOLD rejecting from meme resistance area. I think gold rips hard again and puts a macro HTF double bottom vs the BTC pair (before we see BTC meaningfully reverse hard — aggressively bullish).\n\nTimeline: close to end of year.\n\n**Key observation**: ETH.D is the REAL CHART for alts flying. In crypto history, BTC trading sideways after bottoming has meant accumulation but also money flowing into STRONG alts.\n\nBuy before the BTC/GOLD macro bottom — ETH.D is predicting that occurrence sooner than later."
+      }
+    },
+    "link-post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/trading_axe/status/2085940489249792269"
+      }
+    }
+  }
+}
