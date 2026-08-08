@@ -1,0 +1,122 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "$KAITO Price Action Alert"
+      },
+      "children": [
+        "tweet",
+        "sep1",
+        "data",
+        "sep2",
+        "validation",
+        "sep3",
+        "link"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "@HeartCanHodl",
+        "text": "$KAITO hits the alert entries, then immediately extends another 30% lower.. exactly as stated 😄"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "data": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "peak_stat",
+        "current_stat",
+        "change_stat"
+      ]
+    },
+    "peak_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Peak Price",
+        "value": "1.3764"
+      }
+    },
+    "current_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Current Price",
+        "value": "0.7147"
+      }
+    },
+    "change_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Change",
+        "value": "-48%",
+        "trend": "down"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "validation": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge",
+        "pred_text",
+        "note_text"
+      ]
+    },
+    "badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Thesis Validated",
+        "variant": "default"
+      }
+    },
+    "pred_text": {
+      "type": "Text",
+      "props": {
+        "text": "Predicted 30% extension → Actual -48% decline (exceeded)",
+        "variant": "body"
+      }
+    },
+    "note_text": {
+      "type": "Text",
+      "props": {
+        "text": "Chart shows peak at ~1.3764 → current ~0.7147, exceeding predicted 30% extension.",
+        "variant": "caption"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/HeartCanHodl/status/2086120860142993506"
+      }
+    }
+  }
+}
