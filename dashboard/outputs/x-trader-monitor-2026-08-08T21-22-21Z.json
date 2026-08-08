@@ -1,0 +1,83 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading",
+        "main_stack"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @swarmister",
+        "level": "h2"
+      }
+    },
+    "main_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event_label",
+        "tweet_card",
+        "analysis_stack",
+        "question_text"
+      ]
+    },
+    "event_label": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @Baskitchbrah on X",
+        "variant": "lead"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "@swarmister",
+        "text": "Holy banger"
+      }
+    },
+    "analysis_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "characteristics",
+        "classification_alert"
+      ]
+    },
+    "characteristics": {
+      "type": "Text",
+      "props": {
+        "text": "Tweet is a 2-word reply with no ticker, no context, no media.",
+        "variant": "caption"
+      }
+    },
+    "classification_alert": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "message": "Ambiguous whether this is financial (trade/analysis confirmation) or social banter. Unable to classify."
+      }
+    },
+    "question_text": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "lead"
+      }
+    }
+  }
+}
