@@ -1,0 +1,112 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading",
+        "sep1",
+        "eventStack",
+        "sep2",
+        "quoteCard",
+        "sep3",
+        "analysisStack"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @HeartCanHodl",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "eventStack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "eventLabel",
+        "eventText"
+      ]
+    },
+    "eventLabel": {
+      "type": "Text",
+      "props": {
+        "text": "Event",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "eventText": {
+      "type": "Text",
+      "props": {
+        "text": "SOL outperformance 4 min after adding to SOL short (Discord 03:47Z)"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "quoteCard": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "bro you can't seriously tell me sol outperformance is bullish"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "analysisStack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "analysisLabel",
+        "analysisText"
+      ]
+    },
+    "analysisLabel": {
+      "type": "Text",
+      "props": {
+        "text": "Analysis",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "analysisText": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify intent — is this technical rejection, market sentiment, or setup validation? Your read?"
+      },
+      "children": []
+    }
+  }
+}
