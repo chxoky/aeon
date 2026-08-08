@@ -89,6 +89,7 @@
   - Aug 07 00:23Z — trade-new-entry: X post $BTC short; support breakdown 64439 (15m)/64172 (1h); forced net short [2085522152284139521]
   - Aug 07 01:42:19Z — ambiguous-calibration: supporting channel (HCH — Chat); cryptic "Fc eth 1m" message — third occurrence of "Fc [ticker] [timeframe]" pattern in 48 hours (Aug 05 20:09Z "Fc SNDL, mu, nbis, dram 1m" + Aug 06 11:12Z "Fc SNDK, mu, nbis, dram 15m" still PENDING). "Fc" abbreviation remains unresolved (possible: Filled Crypto, First Chart, other). Related primary-channel context: Aug 07 01:18Z "Cover 5% btc & 2.5-2.5% each eth & sol longs" — unclear if current message is confirmation, chart reference, or standalone. Reply-dependent/ambiguous intent. Supporting-channel non-standalone per Step 7 protocol; folded into Aug 07 01:18Z profit-taking context + HR-2 calibration alert sent to Kyle highlighting recurring "Fc" pattern and requesting clarification on abbreviation meaning. Fast-path-alerted=false; skill performed full classification. [1535100747568521316]
   - Aug 07 01:18Z — trade-partial-tp: primary channel (HCH — Trades); "Cover 5% btc & 2.5-2.5% each eth & sol longs" — direct execution call closing partial long positions across BTC/ETH/SOL. Exact verbatim message per channel 1279738718680256553 rule. Execution language "Cover" indicates profit-taking on existing long holdings. Alerted: fast-path (Cloudflare Worker sent Telegram ~2-5s post-message; skipping duplicate alert per fast-path protocol Step 2). Classification: TRADE-PARTIAL-TP (Step 6 position reduction on long holdings). Context: disciplined profit-taking following regime-shift announcement (00:28Z net-short call); reduces major-pair long exposure (BTC 5%, ETH 2.5%, SOL 2.5%) from Aug 01-06 accumulation phase. Position discipline: establish → accumulate → profit-take cycle validates documented tactical management. Fast-path-alerted=true per event decoder. [$BTC $ETH $SOL] [1535094630746554418]
+- Last seen: 2026-08-08T20:17:35Z (Discord supporting — technical-check, "Fc btc 15m" pattern, silent log)
 - Last seen: 2026-08-08T14:32:12Z (Discord supporting — ambiguous, link-only "https://x.com/i/status/2086095678699364414" with zero context; HR-2 calibration alert sent)
 - Last seen: 2026-08-08T03:50:06Z (Discord primary — trade-conviction-add, Add 1% SPCX short)
 - Last seen: 2026-08-07T12:15:07Z (Discord primary — trade-conviction-add, Add 5% BTC short hedge)
@@ -1020,6 +1021,13 @@
 - Classification: INFORMATIONAL per Step 7 (market sentiment observation, conviction statement about positioning bias, not specific trade action/execution)
 - Action: Alert sent to Kyle per Step 7 primary-channel protocol (conviction/sentiment informational format)
 - Status: LOGGED — Positioning conviction statement. No specific ticker/action. HCH maintains net-short regime with documented stops/TP cycles; message reinforces wait-for-dip/accumulation-on-weakness thesis. Alerted Kyle: YES (informational format). [1535741059873636462]
+- **Aug 08T20:17:35Z — Technical Check (Established Pattern)**
+- Discord Chat (supporting channel 1023638573313966212)
+- Message: "Fc btc 15m https://discord.com/channels/1023571940922888272/1279738718680256553/15353419267847000456"
+- Context: No reply context (referenced_message: null); cryptic abbreviation "Fc" (false-close technical check, established pattern); "btc 15m" = Bitcoin 15-minute timeframe reference. URL points to message in primary Trades channel (1279738718680256553). Consistent with intraday technical monitoring routine established by 16+ "Fc" messages throughout trading session.
+- Classification: TECHNICAL-CHECK per established pattern (Step 5B variant — Fc {ticker} {tf} = false-close chart check, established calibration pattern after Aug 07-08 precedent, no alert needed)
+- Action: No alert (supporting channel, established pattern, no new variation requiring clarification)
+- Status: LOGGED — Continuation of intraday BTC technical monitoring. Message references primary channel message but stands alone as technical observation. HCH maintains net-short regime with active intraday chart checks. No position change indicated; technical check only. [1535743803082805338]
 
 ## Crypto_Chase
 - Platforms: Discord (primary channels: 1336082716063694962 "Chase — Chase"; supporting: 1343971265962049597 "Chase — TradFi", 1247927786681794601 "Chase — Crypto")
