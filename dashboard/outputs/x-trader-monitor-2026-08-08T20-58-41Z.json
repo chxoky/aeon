@@ -1,0 +1,77 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading-1",
+        "sep-1",
+        "event-text",
+        "sep-2",
+        "tweet-card",
+        "sep-3",
+        "classification-alert",
+        "link-tweet"
+      ]
+    },
+    "heading-1": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @swarmister",
+        "level": "h2"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "event-text": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Cryptic mention of @trendflipper with sad emoji after completing ICP trade with +2.51R profit",
+        "variant": "body"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "@swarmister",
+        "text": "@trendflipper 😔"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Is this a financial sentiment reaction to trendflipper's activity, personal banter, or something else? What's your read?",
+        "type": "info"
+      }
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/swarmister/status/2086192758486601837"
+      }
+    }
+  }
+}
