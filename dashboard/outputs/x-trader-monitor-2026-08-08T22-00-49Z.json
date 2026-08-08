@@ -1,0 +1,125 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor - Gold Setup",
+        "description": "Trading analysis from @Crypto_Chase"
+      },
+      "children": [
+        "tweet-card",
+        "separator-1",
+        "technical-section"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Crypto_Chase",
+        "handle": "@Crypto_Chase",
+        "text": "$XAU / $GC: Gold to 4520~ then 4280~\n\n\"Highest R/R likely a simple short of the box. Invalid mid 46's, don't need a huge SL bc it could flush built up liq into mid 47's. More confirmation available by tagging 45 then impulsing/closing below 4465, then look for entry upon retrace.\""
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "technical-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tech-heading",
+        "link-tweet",
+        "tech-details",
+        "targets-section"
+      ]
+    },
+    "tech-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Technical Setup",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Crypto_Chase/status/2086208998806536375"
+      },
+      "children": []
+    },
+    "tech-details": {
+      "type": "Text",
+      "props": {
+        "text": "Technical setup on chart validates consolidation structure around 4500-4550 zone with downside targets mapped at 4465 → 4280.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "targets-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "targets-heading",
+        "badge-4520",
+        "badge-4465",
+        "badge-4280",
+        "badge-zone"
+      ]
+    },
+    "targets-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Price Targets & Zones",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "badge-4520": {
+      "type": "Badge",
+      "props": {
+        "text": "4520 – Initial Target",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "badge-4465": {
+      "type": "Badge",
+      "props": {
+        "text": "4465 – Key Level (Close Below)",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "badge-4280": {
+      "type": "Badge",
+      "props": {
+        "text": "4280 – Final Target",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "badge-zone": {
+      "type": "Badge",
+      "props": {
+        "text": "4500–4550 – Consolidation Zone",
+        "variant": "outline"
+      },
+      "children": []
+    }
+  }
+}
