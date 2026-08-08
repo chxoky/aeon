@@ -1,0 +1,80 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading",
+        "stack1"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @swarmister",
+        "level": "h2"
+      }
+    },
+    "stack1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event_text",
+        "separator1",
+        "tweet",
+        "separator2",
+        "alert",
+        "link"
+      ]
+    },
+    "event_text": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to another trader @theo_crypto99",
+        "variant": "body"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "@swarmister",
+        "text": "@theo_crypto99 Gmonen quant"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification Issue",
+        "message": "Cannot classify — unclear what \"Gmonen quant\" references. Could be a service, person, or crypto product. Is this worth tracking?",
+        "type": "warning"
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/swarmister/status/2085995325974593967"
+      }
+    }
+  }
+}
