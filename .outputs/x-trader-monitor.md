@@ -1,7 +1,7 @@
-🐦 @Bitcoin_Astro — BTC time window analysis
+🐦 *[X] @KillaXBT*
 
-In the August report I highlighted 15–20 August as one of the most important windows. 
+Imagine still being bearish after a 54% drop.
 
-Aligned with documented astro/Gann framework (Aug 12 eclipse, Aug 15-20, Sep 23-30 major turn).
+Really goes to show just how greedy some people are with entries.
 
-https://x.com/Bitcoin_Astro/status/2086058339809607844
+[View tweet](https://x.com/KillaXBT/status/2086062123784761433)
