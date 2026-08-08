@@ -1,0 +1,24 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "message"
+      ]
+    },
+    "message": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HCH",
+        "handle": "DC",
+        "text": "💬 [DC: HCH — Comments]\n\nThings are getting seriously cautious. But this time, we won't be the ones panicking..we'll be the ones pulling the trigger. Stay tight. Stay loaded. Finger on the trigger.."
+      },
+      "children": []
+    }
+  }
+}
