@@ -1,0 +1,70 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Trading signal and cross-trader analysis"
+      },
+      "children": [
+        "tweet-card",
+        "view-link",
+        "separator-1",
+        "context-section"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "SPCX — 3-tap technical setup targeting +40% on consolidation break."
+      },
+      "children": []
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2085992008313720995"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "context-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context-title",
+        "context-text"
+      ]
+    },
+    "context-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Cross-Trader Convergence",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "context-text": {
+      "type": "Text",
+      "props": {
+        "text": "HCH net-long (spot+perp), swarmister long entry, Wild_Randomness technical confirmation. Contested ticker with HCH emerging hedge short; monitor for overbought pullback risk vs broader bullish structure into unlock catalyst window (Aug-Sep 2026).",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
