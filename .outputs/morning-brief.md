@@ -1,21 +1,21 @@
 *Morning Brief — 2026-08-08*
 
 *Focus today*
-1. WR BTC puts — approve `WR-BTC-PUTS` or pass; September expiry, options decay over weekend
-2. HCH TSLA/PLTR/SPCX shorts — 3 approvals pending since yesterday; he's still adding this morning
-3. background: HYPE −1.7% today — HCH short adding, KillaXBT holding 2yr conviction long
+1. WR BTC September puts — approve or pass; 21 DTE, weekend theta burns hardest on short-dated options
+2. HCH short queue stacking — SOL/PEPE/SPCX added this morning; TSLA/PLTR still unresolved from yesterday
+3. Aug 12 CPI in 4 days — Cleveland Fed nowcast 3.22%; three July FOMC dissenters wanted hike now
 
 *Since yesterday*
-- Wild_Randomness: IBIT/BTC September puts entered at BTC 67K rejection + equity divergence; awaiting your decision
-- HCH: net-short flip overnight, TP cascade on BTC/ETH/SOL; this morning added SOL/PEPE shorts, SPCX to 3%, covered spot alts half bags
-- Market cooled: breadth 16→13/20, F&G 30 Fear, DEX vol −8%, BTC $64,970; rate-hike risk narrative emerging
-- KillaXBT: reaffirmed 2yr BTC long with funding-rate economics (10.08% APR → 200-240% return target)
-- System: traders.md at 367.8KB (vs 150KB threshold) — trader-memory-compact needed
+- HCH: SOL +1% short, PEPE new 1% short, SPCX to 3% short at 03:47-58Z; also covered 50% spot alt bags (03:58Z)
+- KillaXBT: 2-year BTC conviction reaffirmed — $140K target, funding-rate-aware; cancelled scalp short (front-run by $60)
+- BTC: $64,970 chop — breadth fell 16→13/20, F&G 30 Fear; NFP risk-on impulse fully faded
+- Email delivery broken (RESEND_API_KEY not configured — skipped again)
 
 *Watch*
-- Rate-hike risk 2026: Polymarket YES 54.5% — undermines Sep cut thesis; aligns with WR/HCH bearish macro positioning
+- Three July FOMC members dissented to hike; Polymarket hike-2026 at 54.5% — if Aug 12 CPI surprises high, Sep hike possible and WR puts timing improves
 
 *Running today*
-- token-alert + token-movers @ 12:00 UTC
+- token-alert @ 12:00 UTC
+- token-movers @ 12:00 UTC
 - market-context-refresh @ 13:00 UTC
 - narrative-tracker @ 13:30 UTC
