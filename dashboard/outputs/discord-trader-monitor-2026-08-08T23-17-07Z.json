@@ -1,0 +1,37 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — [DC: HCH — Chat]"
+      },
+      "children": [
+        "text_intro",
+        "tweet_message",
+        "text_question"
+      ]
+    },
+    "text_intro": {
+      "type": "Text",
+      "props": {
+        "text": "Cryptic message in supporting channel:"
+      }
+    },
+    "tweet_message": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "text": "Fc eth 15m"
+      }
+    },
+    "text_question": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read? (Fc = form-check? chart check? other?)",
+        "variant": "muted"
+      }
+    }
+  }
+}
