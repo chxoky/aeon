@@ -1,0 +1,118 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "SOXL technical observation on leveraged ETF growth thesis"
+      },
+      "children": [
+        "main_stack"
+      ]
+    },
+    "main_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "separator1",
+        "details_stack"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "As these leveraged ETFs grow I think it makes sense they provide more technical signal (It went up 40% in two days)"
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "details_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "chart_note",
+        "badges_and_context_stack",
+        "view_link"
+      ]
+    },
+    "chart_note": {
+      "type": "Text",
+      "props": {
+        "text": "Two daily charts showing 40% two-day rally with support/resistance structure",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "badges_and_context_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_stack",
+        "classification_context"
+      ]
+    },
+    "badge_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "subject_badge",
+        "classification_badge"
+      ]
+    },
+    "subject_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "SOXL",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "classification_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "INFORMATIONAL",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "classification_context": {
+      "type": "Text",
+      "props": {
+        "text": "Technical commentary, not personal action",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2086230696993886270"
+      },
+      "children": []
+    }
+  }
+}
