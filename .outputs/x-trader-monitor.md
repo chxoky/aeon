@@ -21,3 +21,20 @@
 - ✓ Logged to `memory/logs/2026-08-08.md` with classification details
 - ✓ No alert to Kyle (non-financial skip per protocol)
 - ✓ No memory updates to traders.md
+The base64-encoded event you provided appears to be corrupted or truncated during transmission. The decoded portion shows:
+
+```json
+{"id":"2086180474905395401","username":"swarmister","text":"Of course, I couldn't miss the chance to meet vntgprn, wh...
+```
+
+And then it becomes garbled binary data. This causes the skill execution to fail at the decoding step.
+
+Could you verify and re-provide the complete `var` parameter? The base64 string appears to have been cut off or corrupted when you copied it. You can:
+
+1. Check the original Worker payload or GitHub Actions logs to get the full, uncorrupted base64 string
+2. Re-encode the tweet data if you have it in JSON format:
+   ```bash
+   echo '{"id":"...", "username":"swarmister", ...}' | base64
+   ```
+
+Once you have the complete, valid base64 string, I'll execute the skill and process the trader alert according to the classification rules.
