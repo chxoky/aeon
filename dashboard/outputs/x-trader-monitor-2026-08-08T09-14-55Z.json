@@ -1,0 +1,41 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "content_stack"
+      ]
+    },
+    "content_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "view_link"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "BTC — Candle range structure analysis:\n• Close above 65.7K validates breakout to 68–71K LVN targets\n• Stay above 62.5K = solid bullish structure case\n• Fail to reclaim range = likely pullback to low 60Ks\n\nChart shows labeled LVN zones. Current: $64,970."
+      }
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2086017069103886424"
+      }
+    }
+  }
+}
