@@ -1,4 +1,4 @@
-## Summary
+🐦 *[X] @swarmister*
 
 **Executed x-trader-monitor skill for real-time event**
 
@@ -15,3 +15,9 @@
 - ✅ No traders.md event line added (per hard rule: skip events logged only, not tracked)
 
 Event logged and complete. No follow-up actions needed.
+$ICP 1H Full realization of previously set expectations.
+
+3 out of 3 targets achieved. 
+total profit after partial TP: +2.51R.
+
+[View tweet](https://x.com/swarmister/status/2086173770440380659)
