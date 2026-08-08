@@ -1,9 +1,8 @@
 🔍 *Calibration — @trading_axe*
 
-Event: Signed up randomly, found a meme coin, claimed to be up 14k
+Event: Cryptic URL-only post with unreadable video thumbnail (no caption)
+trading_axe: "https://t.co/RoLELerJLr"
 
-trading_axe: "THEN I'm up 14k and why would I sell coz meh that's chump change... no idea how this shit worksss I sell it for 14k 😋😋😋 silly me LOLOLOL idk how any of this workz"
+Post contains only a shortened URL to unknown content + a video thumbnail I couldn't fetch. Unable to classify whether this is chart-related, macro insight, or personal banter per Step 4B protocol.
 
-Unable to classify — is this an actual trade execution or banter about a hypothetical? The execution language "I sell it for 14k" is present, but the extreme meme tone and self-mockery ("idk how any of this workz", "silly me") makes intent unclear.
-
-[View post](https://x.com/trading_axe/status/2085967199659831723)
+What's your read? [View post](https://x.com/trading_axe/status/2085970422982422621)

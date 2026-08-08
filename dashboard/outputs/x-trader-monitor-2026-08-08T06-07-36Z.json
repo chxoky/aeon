@@ -1,0 +1,89 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading",
+        "stack-content"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @trading_axe",
+        "level": "h2"
+      }
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-event",
+        "stack-url",
+        "alert-unclassified",
+        "text-question",
+        "storylink-post"
+      ]
+    },
+    "text-event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Cryptic URL-only post with unreadable video thumbnail (no caption)"
+      }
+    },
+    "stack-url": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "text-author",
+        "link-url"
+      ]
+    },
+    "text-author": {
+      "type": "Text",
+      "props": {
+        "text": "trading_axe:",
+        "variant": "body"
+      }
+    },
+    "link-url": {
+      "type": "Link",
+      "props": {
+        "label": "https://t.co/RoLELerJLr",
+        "href": "https://t.co/RoLELerJLr"
+      }
+    },
+    "alert-unclassified": {
+      "type": "Alert",
+      "props": {
+        "message": "Post contains only a shortened URL to unknown content + a video thumbnail I couldn't fetch. Unable to classify whether this is chart-related, macro insight, or personal banter per Step 4B protocol.",
+        "type": "warning"
+      }
+    },
+    "text-question": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?"
+      }
+    },
+    "storylink-post": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View post",
+        "href": "https://x.com/trading_axe/status/2085970422982422621",
+        "source": "X"
+      }
+    }
+  }
+}
