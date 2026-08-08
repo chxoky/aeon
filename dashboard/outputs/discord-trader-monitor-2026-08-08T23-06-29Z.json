@@ -1,0 +1,111 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor: Calibration Check"
+      },
+      "children": [
+        "heading",
+        "channel-info",
+        "sep1",
+        "message-section",
+        "sep2",
+        "classification-alert",
+        "analysis-stack",
+        "sep3",
+        "question"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: HCH — Chat]",
+        "level": "h3"
+      }
+    },
+    "channel-info": {
+      "type": "Text",
+      "props": {
+        "text": "Channel: HCH premium member chat (supporting)",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator"
+    },
+    "message-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "msg-label",
+        "msg-text"
+      ]
+    },
+    "msg-label": {
+      "type": "Text",
+      "props": {
+        "text": "Message:",
+        "variant": "caption"
+      }
+    },
+    "msg-text": {
+      "type": "Text",
+      "props": {
+        "text": "Fc btc 5m",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator"
+    },
+    "classification-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Appears to be cryptic abbreviation",
+        "type": "warning"
+      }
+    },
+    "analysis-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "interpretation",
+        "reference"
+      ]
+    },
+    "interpretation": {
+      "type": "Text",
+      "props": {
+        "text": "Possible interpretation: 'Filled confirmation BTC 5-minute setup'",
+        "variant": "body"
+      }
+    },
+    "reference": {
+      "type": "Text",
+      "props": {
+        "text": "Same ambiguous pattern as prior 2026-07-06 message: \"Fc btc 1hr\"",
+        "variant": "muted"
+      }
+    },
+    "sep3": {
+      "type": "Separator"
+    },
+    "question": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read on this?",
+        "variant": "lead"
+      }
+    }
+  }
+}
