@@ -1,31 +1,27 @@
-*Narrative Tracker — 2026-08-07*
+*Narrative Tracker — 2026-08-08*
 
 TRANSITIONS
-• NEW: ADA Catch-Up (Rising) — Dijkstra upgrade + Aug 9 spot ETF eligibility + 240M whale accumulation + 380% derivatives vol; +19.3% 7d while BTC dominance elevated at 56%
-• NEW: Gold vs Equities (Emerging) — @Wild_Randomness XAUUSD/SPX ratio breakout charts; "Since 2021?" framing on ES at multi-year resistance; barbell GOLD long + SPAXU live
-• PROMOTED: RWA Tokenization Rising → Peak — led July 2026 returns (+10.7% median, $32.2B on-chain); ONDO leader; BUIDL >$500M
-• PROMOTED: AI Agents Rising → Peak — infrastructure maturation (identity/credentials now the bottleneck); HCH shorting PLTR/TSLA/NVDA = AI capex expectations compression in play
-• DEMOTED: Prediction Markets Peak → Fading — Kaito Yaps sunset Jan 2026; WC seasonal cliff passed; KAITO in HCH short basket (1.5%)
-• DEMOTED: Privacy/ZEC Peak → Fading — HCH short ZEC 2–2.5%; Jul 21 WATCH call expired wrong; 70+ delistings still digesting
-• DEAD: DATs/Treasury Cos — mNAV compression below noise floor at BTC 64K
-• DEAD: Meme/ICO Launchpads — CASHCAT exit-scam pattern (−7.8% after +62.6%); confirmed fade
+• NEW: Rate-Hike Risk 2026 — Polymarket "Fed hike 2026?" YES 54.5% ($0.62M 24h vol); 3 July FOMC dissenters; CPI Aug 12 primary binary. No prior log entry. BTC/ETH/SOL vulnerable if hot print.
+• NEW: CLARITY Act Limbo — Senate vote delayed Sep 14; failed 60-vote threshold before recess; institutional bid on hold.
+• PROMOTED: ZK Infrastructure (from Privacy/ZK Jul 21 → standalone Emerging). CYS (ZK prover) +61% [PUMP-RISK]; $11.7B ZK mktcap; Sybil resistance/rollup compression now mainstream use cases.
+• DEMOTED: InfoFi / KAITO (Prediction Markets Peak Jul 21 → Fading). Yaps shutdown Jan 2026 killed engagement loop; KAITO −29.5% 7d / −19.8% 24h. Polymarket platform healthy — narrative split.
+• DEAD: Privacy Crackdown (standalone) — absorbed into ZK Infrastructure; no independent signal this window.
 
 REFLEXIVITY ALERT
-• ADA — 380% derivatives vol spike pre Aug 9 ETF eligibility; price leading SEC Oct 23 decision by 3 months; catch-up bids in risk-off are reflexive until they aren't
-• RWA — headline $32.2B vs 910 tokenized assets with zero weekly transfers; BCG $16T projections used as marketing copy
-• NFP/BTC — Jul govt jobs −53K → cut hopes → post-NFP risk-on; BTC $64,991; reflexive rally contingent on 67.4K breakout confirmation
+• Rate-Hike Risk — Polymarket amplifying its own fear: $0.62M 24h on "Fed hike 2026?" YES 54.5% ahead of CPI Aug 12 (Cleveland nowcast 3.22%). FOMC dissenters are real; Polymarket vol echoes them.
+• InfoFi/KAITO — Yaps shutdown removed the engagement loop driving mindshare → token unwind → less mindshare. Attention Markets reboot not yet re-igniting.
 
 POSITIONS
-• FRONT-RUN: Gold vs Equities (mindshare 2 ↑, Bull) — @Wild_Randomness XAUUSD/SPX breakout live — bear: seasonal fade post-Jackson Hole; SPAXU 3x = painful if wrong
-• RIDE: ADA Catch-Up (mindshare 3 ↑↑, Bull) — whale wallets + ETF calendar — bear: 56% BTC dominance = narrow rotation window
-• RIDE: RWA Tokenization (mindshare 4 ↑, Bull) — ONDO/BUIDL/modular infra — bear: headline vs zero-transfer usage gap = reflexivity risk
-• FADE: Prediction Markets/Kaito (mindshare 4 ↓, Mixed) — Yaps dead, WC cliff; KAITO short in HCH basket
-• FADE: Privacy/ZEC (mindshare 2 ↓, Bear) — HCH 2–2.5% ZEC short active; Jul 21 WATCH call expired wrong
-• WATCH: BTC Bottom Hunt (mindshare 4 →, Mixed) — KillaXBT 160K/2.5yr HTF long vs HCH ~40% short basket; 67.4K = trend-shift confirmation per STH MVRV thesis
+• FRONT-RUN: Rate-Hike Risk 2026 (4 ↑↑, Bear) — Polymarket, 3 FOMC dissenters, @Wild_Randomness BTC Sep puts — bear case: Sep cut still base if CPI inline — WR-BTC-PUTS pending approval
+• FADE: InfoFi/KAITO (3 ↓↓, Cope) — KAITO −29.5% 7d; Yaps gone Jan 2026 — bear case: Attention Markets pivot might eventually restore loop
+• RIDE: AI x DePIN (4 →, Mixed) — $FET/$TAO, a16z, institutional backing — bear case: 7/8 AI tokens down, momentum paused
+• WATCH: ZK Infrastructure (3 ↑↑, Bull) — CYS +61% [PUMP-RISK], $11.7B ZK mktcap — bear case: CYS rank-187 micro-cap; infra thesis multi-year
+• WATCH: CLARITY Act Limbo (3 ↓, Mixed) — Sep 14 Senate return; 60-vote uncertain
+• WATCH: RWA Tokenization (3 →, Bull) — Solana RWA vol; unchanged from Jul 21
 
 MAP
-Emerging: Gold vs Equities
-Rising: ADA Catch-Up
-Peak: RWA Tokenization, AI Agents, BTC Bottom Hunt, Stablecoins
-Fading: Prediction Markets/Kaito, Privacy/ZEC, DePIN
-Dead: DATs/Treasury Cos, Meme Launchpads
+Emerging: Rate-Hike Risk 2026 | ZK Infrastructure
+Rising: AI x DePIN | RWA Tokenization
+Peak: Stablecoins/Payments
+Fading: InfoFi/KAITO | CLARITY Act Limbo | DATs
+Dead: Privacy Crackdown (standalone) | Meme/ICO Launchpads

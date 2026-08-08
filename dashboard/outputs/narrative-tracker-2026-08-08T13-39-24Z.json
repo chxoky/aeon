@@ -1,0 +1,1261 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-08-08"
+      },
+      "children": [
+        "section-transitions",
+        "sep-1",
+        "section-reflexivity",
+        "sep-2",
+        "section-positions",
+        "sep-3",
+        "section-map"
+      ]
+    },
+    "section-transitions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-transitions",
+        "trans-new-rate-hike",
+        "trans-new-clarity",
+        "trans-promoted-zk",
+        "trans-demoted-infofi",
+        "trans-dead-privacy"
+      ]
+    },
+    "heading-transitions": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      }
+    },
+    "trans-new-rate-hike": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans-new-rate-hike-header",
+        "trans-new-rate-hike-details"
+      ]
+    },
+    "trans-new-rate-hike-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-new-1",
+        "text-rate-hike-title"
+      ]
+    },
+    "badge-new-1": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "default"
+      }
+    },
+    "text-rate-hike-title": {
+      "type": "Text",
+      "props": {
+        "text": "Rate-Hike Risk 2026",
+        "variant": "lead"
+      }
+    },
+    "trans-new-rate-hike-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-rate-hike-polymarket",
+        "text-rate-hike-fomc",
+        "text-rate-hike-cpi",
+        "text-rate-hike-vuln"
+      ]
+    },
+    "text-rate-hike-polymarket": {
+      "type": "Text",
+      "props": {
+        "text": "Polymarket \"Fed hike 2026?\" YES 54.5% ($0.62M 24h vol)",
+        "variant": "body"
+      }
+    },
+    "text-rate-hike-fomc": {
+      "type": "Text",
+      "props": {
+        "text": "3 July FOMC dissenters",
+        "variant": "body"
+      }
+    },
+    "text-rate-hike-cpi": {
+      "type": "Text",
+      "props": {
+        "text": "CPI Aug 12 primary binary",
+        "variant": "body"
+      }
+    },
+    "text-rate-hike-vuln": {
+      "type": "Text",
+      "props": {
+        "text": "BTC/ETH/SOL vulnerable if hot print. No prior log entry.",
+        "variant": "body"
+      }
+    },
+    "trans-new-clarity": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans-new-clarity-header",
+        "trans-new-clarity-details"
+      ]
+    },
+    "trans-new-clarity-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-new-2",
+        "text-clarity-title"
+      ]
+    },
+    "badge-new-2": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "default"
+      }
+    },
+    "text-clarity-title": {
+      "type": "Text",
+      "props": {
+        "text": "CLARITY Act Limbo",
+        "variant": "lead"
+      }
+    },
+    "trans-new-clarity-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-clarity-details"
+      ]
+    },
+    "text-clarity-details": {
+      "type": "Text",
+      "props": {
+        "text": "Senate vote delayed Sep 14; failed 60-vote threshold before recess; institutional bid on hold.",
+        "variant": "body"
+      }
+    },
+    "trans-promoted-zk": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans-promoted-zk-header",
+        "trans-promoted-zk-details"
+      ]
+    },
+    "trans-promoted-zk-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-promoted",
+        "text-zk-title"
+      ]
+    },
+    "badge-promoted": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED",
+        "variant": "secondary"
+      }
+    },
+    "text-zk-title": {
+      "type": "Text",
+      "props": {
+        "text": "ZK Infrastructure",
+        "variant": "lead"
+      }
+    },
+    "trans-promoted-zk-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-zk-movement",
+        "text-zk-cys",
+        "text-zk-mktcap",
+        "text-zk-usecases"
+      ]
+    },
+    "text-zk-movement": {
+      "type": "Text",
+      "props": {
+        "text": "from Privacy/ZK Jul 21 → standalone Emerging",
+        "variant": "body"
+      }
+    },
+    "text-zk-cys": {
+      "type": "Text",
+      "props": {
+        "text": "CYS (ZK prover) +61% [PUMP-RISK]",
+        "variant": "body"
+      }
+    },
+    "text-zk-mktcap": {
+      "type": "Text",
+      "props": {
+        "text": "$11.7B ZK mktcap",
+        "variant": "body"
+      }
+    },
+    "text-zk-usecases": {
+      "type": "Text",
+      "props": {
+        "text": "Sybil resistance/rollup compression now mainstream use cases",
+        "variant": "body"
+      }
+    },
+    "trans-demoted-infofi": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans-demoted-infofi-header",
+        "trans-demoted-infofi-details"
+      ]
+    },
+    "trans-demoted-infofi-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-demoted",
+        "text-infofi-title"
+      ]
+    },
+    "badge-demoted": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED",
+        "variant": "outline"
+      }
+    },
+    "text-infofi-title": {
+      "type": "Text",
+      "props": {
+        "text": "InfoFi / KAITO",
+        "variant": "lead"
+      }
+    },
+    "trans-demoted-infofi-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-infofi-movement",
+        "text-infofi-yaps",
+        "text-infofi-kaito-7d",
+        "text-infofi-kaito-24h",
+        "text-infofi-platform"
+      ]
+    },
+    "text-infofi-movement": {
+      "type": "Text",
+      "props": {
+        "text": "Prediction Markets Peak Jul 21 → Fading",
+        "variant": "body"
+      }
+    },
+    "text-infofi-yaps": {
+      "type": "Text",
+      "props": {
+        "text": "Yaps shutdown Jan 2026 killed engagement loop",
+        "variant": "body"
+      }
+    },
+    "text-infofi-kaito-7d": {
+      "type": "Text",
+      "props": {
+        "text": "KAITO −29.5% 7d",
+        "variant": "body"
+      }
+    },
+    "text-infofi-kaito-24h": {
+      "type": "Text",
+      "props": {
+        "text": "KAITO −19.8% 24h",
+        "variant": "body"
+      }
+    },
+    "text-infofi-platform": {
+      "type": "Text",
+      "props": {
+        "text": "Polymarket platform healthy — narrative split",
+        "variant": "body"
+      }
+    },
+    "trans-dead-privacy": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans-dead-privacy-header",
+        "trans-dead-privacy-details"
+      ]
+    },
+    "trans-dead-privacy-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-dead",
+        "text-privacy-title"
+      ]
+    },
+    "badge-dead": {
+      "type": "Badge",
+      "props": {
+        "text": "DEAD",
+        "variant": "destructive"
+      }
+    },
+    "text-privacy-title": {
+      "type": "Text",
+      "props": {
+        "text": "Privacy Crackdown",
+        "variant": "lead"
+      }
+    },
+    "trans-dead-privacy-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-privacy-details"
+      ]
+    },
+    "text-privacy-details": {
+      "type": "Text",
+      "props": {
+        "text": "absorbed into ZK Infrastructure; no independent signal this window",
+        "variant": "body"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-reflexivity": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-reflexivity",
+        "alert-reflexivity",
+        "reflexivity-rate-hike",
+        "reflexivity-infofi"
+      ]
+    },
+    "heading-reflexivity": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      }
+    },
+    "alert-reflexivity": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "message": "Market feedback loops detected: Polymarket amplifying fear; KAITO attention unwind cycle"
+      }
+    },
+    "reflexivity-rate-hike": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-reflexivity-rate-hike-title",
+        "text-reflexivity-rate-hike-detail1",
+        "text-reflexivity-rate-hike-detail2"
+      ]
+    },
+    "text-reflexivity-rate-hike-title": {
+      "type": "Text",
+      "props": {
+        "text": "Rate-Hike Risk",
+        "variant": "lead"
+      }
+    },
+    "text-reflexivity-rate-hike-detail1": {
+      "type": "Text",
+      "props": {
+        "text": "Polymarket amplifying its own fear: $0.62M 24h on \"Fed hike 2026?\" YES 54.5%",
+        "variant": "body"
+      }
+    },
+    "text-reflexivity-rate-hike-detail2": {
+      "type": "Text",
+      "props": {
+        "text": "Ahead of CPI Aug 12 (Cleveland nowcast 3.22%). FOMC dissenters are real; Polymarket vol echoes them.",
+        "variant": "body"
+      }
+    },
+    "reflexivity-infofi": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-reflexivity-infofi-title",
+        "text-reflexivity-infofi-detail1",
+        "text-reflexivity-infofi-detail2"
+      ]
+    },
+    "text-reflexivity-infofi-title": {
+      "type": "Text",
+      "props": {
+        "text": "InfoFi/KAITO",
+        "variant": "lead"
+      }
+    },
+    "text-reflexivity-infofi-detail1": {
+      "type": "Text",
+      "props": {
+        "text": "Yaps shutdown removed the engagement loop driving mindshare → token unwind → less mindshare",
+        "variant": "body"
+      }
+    },
+    "text-reflexivity-infofi-detail2": {
+      "type": "Text",
+      "props": {
+        "text": "Attention Markets reboot not yet re-igniting",
+        "variant": "body"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-positions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-positions",
+        "position-frontrun",
+        "position-fade",
+        "position-ride",
+        "position-watch-zk",
+        "position-watch-clarity",
+        "position-watch-rwa"
+      ]
+    },
+    "heading-positions": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      }
+    },
+    "position-frontrun": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "position-frontrun-header",
+        "position-frontrun-details"
+      ]
+    },
+    "position-frontrun-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-frontrun",
+        "text-frontrun-title",
+        "badge-confidence-4up",
+        "badge-bear"
+      ]
+    },
+    "badge-frontrun": {
+      "type": "Badge",
+      "props": {
+        "text": "FRONT-RUN",
+        "variant": "default"
+      }
+    },
+    "text-frontrun-title": {
+      "type": "Text",
+      "props": {
+        "text": "Rate-Hike Risk 2026",
+        "variant": "lead"
+      }
+    },
+    "badge-confidence-4up": {
+      "type": "Badge",
+      "props": {
+        "text": "4 ↑↑",
+        "variant": "secondary"
+      }
+    },
+    "badge-bear": {
+      "type": "Badge",
+      "props": {
+        "text": "Bear",
+        "variant": "destructive"
+      }
+    },
+    "position-frontrun-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-frontrun-asset1",
+        "text-frontrun-asset2",
+        "text-frontrun-asset3",
+        "text-frontrun-bearcase",
+        "text-frontrun-status"
+      ]
+    },
+    "text-frontrun-asset1": {
+      "type": "Text",
+      "props": {
+        "text": "Polymarket",
+        "variant": "body"
+      }
+    },
+    "text-frontrun-asset2": {
+      "type": "Text",
+      "props": {
+        "text": "3 FOMC dissenters",
+        "variant": "body"
+      }
+    },
+    "text-frontrun-asset3": {
+      "type": "Text",
+      "props": {
+        "text": "@Wild_Randomness BTC Sep puts",
+        "variant": "body"
+      }
+    },
+    "text-frontrun-bearcase": {
+      "type": "Text",
+      "props": {
+        "text": "Bear case: Sep cut still base if CPI inline",
+        "variant": "body"
+      }
+    },
+    "text-frontrun-status": {
+      "type": "Text",
+      "props": {
+        "text": "WR-BTC-PUTS pending approval",
+        "variant": "muted"
+      }
+    },
+    "position-fade": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "position-fade-header",
+        "position-fade-details"
+      ]
+    },
+    "position-fade-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-fade",
+        "text-fade-title",
+        "badge-confidence-3down",
+        "badge-cope"
+      ]
+    },
+    "badge-fade": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "outline"
+      }
+    },
+    "text-fade-title": {
+      "type": "Text",
+      "props": {
+        "text": "InfoFi/KAITO",
+        "variant": "lead"
+      }
+    },
+    "badge-confidence-3down": {
+      "type": "Badge",
+      "props": {
+        "text": "3 ↓↓",
+        "variant": "secondary"
+      }
+    },
+    "badge-cope": {
+      "type": "Badge",
+      "props": {
+        "text": "Cope",
+        "variant": "outline"
+      }
+    },
+    "position-fade-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-fade-kaito-7d",
+        "text-fade-kaito-24h",
+        "text-fade-yaps",
+        "text-fade-bearcase"
+      ]
+    },
+    "text-fade-kaito-7d": {
+      "type": "Text",
+      "props": {
+        "text": "KAITO −29.5% 7d",
+        "variant": "body"
+      }
+    },
+    "text-fade-kaito-24h": {
+      "type": "Text",
+      "props": {
+        "text": "KAITO −19.8% 24h",
+        "variant": "body"
+      }
+    },
+    "text-fade-yaps": {
+      "type": "Text",
+      "props": {
+        "text": "Yaps gone Jan 2026",
+        "variant": "body"
+      }
+    },
+    "text-fade-bearcase": {
+      "type": "Text",
+      "props": {
+        "text": "Bear case: Attention Markets pivot might eventually restore loop",
+        "variant": "body"
+      }
+    },
+    "position-ride": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "position-ride-header",
+        "position-ride-details"
+      ]
+    },
+    "position-ride-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-ride",
+        "text-ride-title",
+        "badge-confidence-4neutral",
+        "badge-mixed"
+      ]
+    },
+    "badge-ride": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "secondary"
+      }
+    },
+    "text-ride-title": {
+      "type": "Text",
+      "props": {
+        "text": "AI x DePIN",
+        "variant": "lead"
+      }
+    },
+    "badge-confidence-4neutral": {
+      "type": "Badge",
+      "props": {
+        "text": "4 →",
+        "variant": "secondary"
+      }
+    },
+    "badge-mixed": {
+      "type": "Badge",
+      "props": {
+        "text": "Mixed",
+        "variant": "outline"
+      }
+    },
+    "position-ride-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-ride-tokens",
+        "text-ride-backers",
+        "text-ride-bearcase"
+      ]
+    },
+    "text-ride-tokens": {
+      "type": "Text",
+      "props": {
+        "text": "$FET/$TAO",
+        "variant": "body"
+      }
+    },
+    "text-ride-backers": {
+      "type": "Text",
+      "props": {
+        "text": "a16z, institutional backing",
+        "variant": "body"
+      }
+    },
+    "text-ride-bearcase": {
+      "type": "Text",
+      "props": {
+        "text": "Bear case: 7/8 AI tokens down, momentum paused",
+        "variant": "body"
+      }
+    },
+    "position-watch-zk": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "position-watch-zk-header",
+        "position-watch-zk-details"
+      ]
+    },
+    "position-watch-zk-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-watch",
+        "text-watch-zk-title",
+        "badge-confidence-3up",
+        "badge-bull-1"
+      ]
+    },
+    "badge-watch": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "outline"
+      }
+    },
+    "text-watch-zk-title": {
+      "type": "Text",
+      "props": {
+        "text": "ZK Infrastructure",
+        "variant": "lead"
+      }
+    },
+    "badge-confidence-3up": {
+      "type": "Badge",
+      "props": {
+        "text": "3 ↑↑",
+        "variant": "secondary"
+      }
+    },
+    "badge-bull-1": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "secondary"
+      }
+    },
+    "position-watch-zk-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-watch-zk-cys",
+        "text-watch-zk-mktcap",
+        "text-watch-zk-bearcase"
+      ]
+    },
+    "text-watch-zk-cys": {
+      "type": "Text",
+      "props": {
+        "text": "CYS +61% [PUMP-RISK]",
+        "variant": "body"
+      }
+    },
+    "text-watch-zk-mktcap": {
+      "type": "Text",
+      "props": {
+        "text": "$11.7B ZK mktcap",
+        "variant": "body"
+      }
+    },
+    "text-watch-zk-bearcase": {
+      "type": "Text",
+      "props": {
+        "text": "Bear case: CYS rank-187 micro-cap; infra thesis multi-year",
+        "variant": "body"
+      }
+    },
+    "position-watch-clarity": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "position-watch-clarity-header",
+        "position-watch-clarity-details"
+      ]
+    },
+    "position-watch-clarity-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-watch-2",
+        "text-watch-clarity-title",
+        "badge-confidence-3down-2",
+        "badge-mixed-2"
+      ]
+    },
+    "badge-watch-2": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "outline"
+      }
+    },
+    "text-watch-clarity-title": {
+      "type": "Text",
+      "props": {
+        "text": "CLARITY Act Limbo",
+        "variant": "lead"
+      }
+    },
+    "badge-confidence-3down-2": {
+      "type": "Badge",
+      "props": {
+        "text": "3 ↓",
+        "variant": "secondary"
+      }
+    },
+    "badge-mixed-2": {
+      "type": "Badge",
+      "props": {
+        "text": "Mixed",
+        "variant": "outline"
+      }
+    },
+    "position-watch-clarity-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-watch-clarity-details"
+      ]
+    },
+    "text-watch-clarity-details": {
+      "type": "Text",
+      "props": {
+        "text": "Sep 14 Senate return; 60-vote uncertain",
+        "variant": "body"
+      }
+    },
+    "position-watch-rwa": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "position-watch-rwa-header",
+        "position-watch-rwa-details"
+      ]
+    },
+    "position-watch-rwa-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-watch-3",
+        "text-watch-rwa-title",
+        "badge-confidence-3neutral",
+        "badge-bull-2"
+      ]
+    },
+    "badge-watch-3": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "outline"
+      }
+    },
+    "text-watch-rwa-title": {
+      "type": "Text",
+      "props": {
+        "text": "RWA Tokenization",
+        "variant": "lead"
+      }
+    },
+    "badge-confidence-3neutral": {
+      "type": "Badge",
+      "props": {
+        "text": "3 →",
+        "variant": "secondary"
+      }
+    },
+    "badge-bull-2": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "secondary"
+      }
+    },
+    "position-watch-rwa-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-watch-rwa-details"
+      ]
+    },
+    "text-watch-rwa-details": {
+      "type": "Text",
+      "props": {
+        "text": "Solana RWA vol; unchanged from Jul 21",
+        "variant": "body"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-map": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-map",
+        "map-emerging",
+        "map-rising",
+        "map-peak",
+        "map-fading",
+        "map-dead"
+      ]
+    },
+    "heading-map": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h2"
+      }
+    },
+    "map-emerging": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "map-emerging-label",
+        "map-emerging-items"
+      ]
+    },
+    "map-emerging-label": {
+      "type": "Badge",
+      "props": {
+        "text": "Emerging",
+        "variant": "default"
+      }
+    },
+    "map-emerging-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "text-map-emerging-1",
+        "text-map-emerging-2"
+      ]
+    },
+    "text-map-emerging-1": {
+      "type": "Text",
+      "props": {
+        "text": "Rate-Hike Risk 2026",
+        "variant": "body"
+      }
+    },
+    "text-map-emerging-2": {
+      "type": "Text",
+      "props": {
+        "text": "ZK Infrastructure",
+        "variant": "body"
+      }
+    },
+    "map-rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "map-rising-label",
+        "map-rising-items"
+      ]
+    },
+    "map-rising-label": {
+      "type": "Badge",
+      "props": {
+        "text": "Rising",
+        "variant": "secondary"
+      }
+    },
+    "map-rising-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "text-map-rising-1",
+        "text-map-rising-2"
+      ]
+    },
+    "text-map-rising-1": {
+      "type": "Text",
+      "props": {
+        "text": "AI x DePIN",
+        "variant": "body"
+      }
+    },
+    "text-map-rising-2": {
+      "type": "Text",
+      "props": {
+        "text": "RWA Tokenization",
+        "variant": "body"
+      }
+    },
+    "map-peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "map-peak-label",
+        "map-peak-items"
+      ]
+    },
+    "map-peak-label": {
+      "type": "Badge",
+      "props": {
+        "text": "Peak",
+        "variant": "secondary"
+      }
+    },
+    "map-peak-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "text-map-peak-1"
+      ]
+    },
+    "text-map-peak-1": {
+      "type": "Text",
+      "props": {
+        "text": "Stablecoins/Payments",
+        "variant": "body"
+      }
+    },
+    "map-fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "map-fading-label",
+        "map-fading-items"
+      ]
+    },
+    "map-fading-label": {
+      "type": "Badge",
+      "props": {
+        "text": "Fading",
+        "variant": "outline"
+      }
+    },
+    "map-fading-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "text-map-fading-1",
+        "text-map-fading-2",
+        "text-map-fading-3"
+      ]
+    },
+    "text-map-fading-1": {
+      "type": "Text",
+      "props": {
+        "text": "InfoFi/KAITO",
+        "variant": "body"
+      }
+    },
+    "text-map-fading-2": {
+      "type": "Text",
+      "props": {
+        "text": "CLARITY Act Limbo",
+        "variant": "body"
+      }
+    },
+    "text-map-fading-3": {
+      "type": "Text",
+      "props": {
+        "text": "DATs",
+        "variant": "body"
+      }
+    },
+    "map-dead": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "map-dead-label",
+        "map-dead-items"
+      ]
+    },
+    "map-dead-label": {
+      "type": "Badge",
+      "props": {
+        "text": "Dead",
+        "variant": "destructive"
+      }
+    },
+    "map-dead-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "text-map-dead-1",
+        "text-map-dead-2"
+      ]
+    },
+    "text-map-dead-1": {
+      "type": "Text",
+      "props": {
+        "text": "Privacy Crackdown (standalone)",
+        "variant": "body"
+      }
+    },
+    "text-map-dead-2": {
+      "type": "Text",
+      "props": {
+        "text": "Meme/ICO Launchpads",
+        "variant": "body"
+      }
+    }
+  }
+}
