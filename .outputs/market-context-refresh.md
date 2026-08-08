@@ -1,6 +1,9 @@
 market context — 2026-08-08
 
-take: chop (conviction medium)
-BTC $64,970 (+1.09%) / ETH $1,915 (+0.60%) / SOL $74.72 (+2.59%) · F&G 30 (Fear)
-breadth 13/20 · DEX vol $6.56B (−8% vs yesterday)
-top narrative: rate-hike risk revival (emerging) — Polymarket no
+take: chop (conviction low)
+BTC $64,973 (−0.32%) / ETH $1,918 (−0.52%) · F&G 30 (Fear)
+breadth 10/20 · DEX $6.57B (flat) · TVL flat
+top narrative: ZEC/XMR privacy (rising) · SOL relative strength (rising)
+new: SUI trending (emerging) · CYS blow-off confirmed (fading)
+hot market: "Fed rate hike in 2026?" YES 54.5%
+CPI Aug 12 = next binary
