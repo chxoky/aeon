@@ -1,0 +1,215 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Macro reflexivity thesis on memecoin dynamics"
+      },
+      "children": [
+        "alert_header",
+        "sep1",
+        "thesis_section",
+        "sep2",
+        "comparison_section",
+        "sep3",
+        "link_section",
+        "sep4",
+        "disclaimer",
+        "sep5",
+        "ticker_update"
+      ]
+    },
+    "alert_header": {
+      "type": "Heading",
+      "props": {
+        "text": "@trading_axe - Macro Reflexivity Thesis",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "thesis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "thesis_heading",
+        "thesis_text"
+      ]
+    },
+    "thesis_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Core Thesis",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "thesis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Memes at bull-market start outperform due to reflexivity.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "comparison_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "comparison_heading",
+        "comparison_text"
+      ]
+    },
+    "comparison_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "CASHCAT Analysis",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "comparison_text": {
+      "type": "Text",
+      "props": {
+        "text": "CASHCAT gives BONK vibes - comparing past BONK/SOL success to current CASHCAT/Robinhood Chain potential.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link_section": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View Full Thread",
+        "href": "https://x.com/trading_axe/status/2086204693450014867",
+        "source": "X (Twitter)"
+      },
+      "children": []
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "disclaimer": {
+      "type": "Alert",
+      "props": {
+        "title": "Disclaimer",
+        "message": "No personal trade action",
+        "type": "info"
+      },
+      "children": []
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "ticker_update": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ticker_heading",
+        "ticker_info"
+      ]
+    },
+    "ticker_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Ticker-Focus Update",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "ticker_info": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ticker_text",
+        "traders_stack"
+      ]
+    },
+    "ticker_text": {
+      "type": "Text",
+      "props": {
+        "text": "CASHCAT: Emerging momentum (3-trader consensus)",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "traders_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "trader1",
+        "trader2",
+        "trader3"
+      ]
+    },
+    "trader1": {
+      "type": "Badge",
+      "props": {
+        "text": "bull_genius",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "trader2": {
+      "type": "Badge",
+      "props": {
+        "text": "ryzzqq",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "trader3": {
+      "type": "Badge",
+      "props": {
+        "text": "trading_axe",
+        "variant": "secondary"
+      },
+      "children": []
+    }
+  }
+}
