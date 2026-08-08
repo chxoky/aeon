@@ -48,6 +48,51 @@ Total: ~$270.9B (flat vs $270.7B prior). USDT $183.13B · USDC $72.26B · USDS $
 - HYPE (Hyperliquid) — $54.37, −2.2% 24h [rank 10; trending despite red — watch for continuation vs breakdown]
 - PI (Pi Network) — $0.092, +4.4% 24h [rank 65]
 - PENGU (Pudgy Penguins) — $0.0063, +4.3% 24h [rank 108; NFT/gaming]
+> **Take:** chop — BTC flat at $65K (+1.1% 24h), breadth slipped to 13/20 green, F&G 30 (Fear unchanged); no signal dominates. Conviction: low — BTC barely positive, breadth below risk-on threshold, DEX vol declining, F&G still Fear.
+
+## Signal Snapshot
+- BTC $64,970 (+1.1% 24h, +3.2% 7d) · dominance 56.77% (0.00 pp 24h)
+- ETH $1,915 (+0.9% 24h, +2.7% 7d) · ETH/BTC 0.02947
+- SOL $74.70 (+2.6% 24h, +2.5% 7d)
+- Total mcap $2.297T (+0.86% 24h) · DEX vol $6.56B 24h
+- Breadth: 13/20 green 24h · 9/20 green 7d (est.)
+- Fear & Greed: 30 (Fear) — yesterday 29 (Fear)
+
+## What Changed Since Last Refresh
+- **Breadth eased 16/20 → 13/20 green 24h** — mild softening; HYPE (−1.7%), FIGR_HELOC (−2.7%), ADA (−0.8%) turned or extended red among top-20.
+- **DEX volume down $7.15B → $6.56B (−8%)** — activity declining; risk appetite cooling at margin.
+- Quiet — all majors within ±1.5%, BTC/ETH/SOL held prior levels; regime label shifts from risk-on → chop.
+
+## Active Narratives
+- **Sep rate-cut positioning** — phase: rising. Evidence: BTC ETF sixth straight day of inflows (Aug 3–5: $626M in 3 days, IBIT 79% share); CPI Aug 12 is next swing factor; Jackson Hole Aug 27–29 is the next durable reset.
+- **ZK infrastructure (Cysic/CYS)** — phase: emerging. Evidence: CYS +60.9% 24h, +260% 7d on $69.2M vol; top CoinGecko trending; ZK proof-acceleration narrative; rank 181 = [PUMP-RISK] overlay caution required.
+- **Privacy-layer bid (ZEC/XMR)** — phase: rising. Evidence: ZEC $506.37 +9.1% 7d, +0.6% 24h; XMR $379.90 +4.0% 7d, +2.5% 24h — second week of sustained outperformance vs majors despite modest 24h prints.
+- **Cardano (ADA) deceleration** — phase: fading. Evidence: ADA −0.8% 24h after yesterday's +4.6%; 7d still +17.3% but daily momentum reversing; peak-phase confirmed, entry risk high.
+- **KAITO (AI attention token) decline** — phase: fading. Evidence: KAITO −14.4% 24h, −29.5% 7d, $40.6M vol — AI-content token unwind accelerating into macro chop.
+
+## Top DeFi Protocols (TVL, 7d change)
+- Lido: $18.10B (+3.03%)
+- Aave V3: $14.26B (+4.05%)
+- SSV Network: $9.21B (−0.16%)
+- Morpho Blue: $7.94B (+4.47%)
+- WBTC: $7.41B (+3.22%)
+
+## Chain Flow (top 3 by TVL, 7d)
+- Ethereum: $41.89B (vs prior $41.84B, +0.1% — flat)
+- BSC: $4.92B (vs prior $4.82B, +2.1% — modest inflow)
+- Tron: $4.85B (vs prior $4.83B, flat)
+
+## Stablecoins
+Total: ~$266.9B (USDT $183.1B + USDC $72.3B + USDS $6.7B + DAI $4.8B). Combined share of mcap ~11.6%.
+
+## Trending (CoinGecko)
+- CYS (Cysic) — #181, $1.037, +60.9% 24h [ZK prover; PUMP-RISK at rank 181]
+- BICO (Biconomy) — #395, $0.0577, +40.1% 24h [account abstraction narrative; below top-250]
+- PENGU (Pudgy Penguins) — #108, $0.0062, +3.0% 24h [NFT/meme floor bid]
+- CC (Canton) — #26, $0.0937, +4.6% 24h [institutional DLT, trending up]
+- BONK — #149, $0.0000025, −10.8% 24h [capitulation signal; meme fatigue]
+- BLESS — #583, $0.0187, +44.3% 24h [micro-cap speculation; PUMP-RISK]
+*Shift to mixed speculative micro-cap + ZK narrative. Large-cap majors absent from trending.*
 
 ## Prediction Markets (Polymarket, top by 24h vol)
 | Market | YES% | 24h Vol | Liquidity |
@@ -69,6 +114,21 @@ Total: ~$270.9B (flat vs $270.7B prior). USDT $183.13B · USDC $72.26B · USDS $
 ## Implications for Downstream Skills
 - **token-pick:** Chop regime — hold off on new large-cap bets until Aug 12 CPI clarifies cut vs hike. ZEC (+9.1% 7d) and XMR (+4.0% 7d) retain best risk/reward in confirmed rising narrative. ADA: peak confirmed, exit or tight stop. SOL: rising narrative but requires BTC stabilization above $65K before sizing.
 - **narrative-tracker:** Flip "Sep rate-cut positioning" to fading (complete overnight reversal in Polymarket). Promote "rate-hike risk revival" to emerging. Monitor CLARITY Act outcome. Watch micro-cap speculation cluster for blow-off vs sustained emerging trend. ZEC/XMR privacy layer: maintain rising.
+| Fed rate hike in 2026? | 54.5% | $621K | $411K |
+| Will there be no change in Fed rates after Sep 2026? | 62.5% | $453K | $551K |
+| Fed rate increase 25 bps after Sep 2026? | 36.5% | $545K | $545K |
+| Strait of Hormuz traffic returns to normal by Aug 31? | 12.5% | $406K | $811K |
+
+*Fed rate markets show "hike in 2026" at 54.5% YES alongside "no change after Sep" at 62.5% — these reflect a "cut Sep then hike later in 2026" narrative. Hormuz down from 13.5% to 12.5% YES — risk premium continuing to fade. Esports filtered.*
+
+## Macro Catalysts (next 48h)
+- **Aug 12 CPI (4 days):** Regime-defining. Soft CPI confirms Sep cut path and extends risk-on. Hot CPI narrows window and could erase Aug breadth recovery. Primary binary for the week.
+- **CLARITY Act — Senate vote pending:** US crypto legislation; largest single calendar catalyst per current reporting. No set date but noted by multiple outlets as imminent.
+- **Jackson Hole (Aug 27–29):** Powell remarks = next durable rate-expectations reset. Still 19 days away but positioning begins now.
+
+## Implications for Downstream Skills
+- **token-pick:** Regime at chop; hold existing positions, avoid new entries until CPI Aug 12 resolves. ZEC/XMR privacy-layer still constructive on 7d. Avoid CYS (PUMP-RISK). ADA entry window closed (peak→fading).
+- **narrative-tracker:** Watch CYS/ZK infrastructure for emergence → rising confirmation post-chop. KAITO confirmed fading. Sep rate-cut narrative: maintain rising classification ahead of CPI.
 
 ## Token Picks Made
 | Date | Token | Price | Thesis |
@@ -76,3 +136,4 @@ Total: ~$270.9B (flat vs $270.7B prior). USDT $183.13B · USDC $72.26B · USDS $
 ---
 *Sources — btc/eth/sol: CoinGecko · defi: DeFiLlama · sentiment: alternative.me · markets: Polymarket · catalysts: WebSearch*
 *Source status: coingecko=ok defillama=ok(protocols: Lido+Aave refreshed, 3 DeFi entries carried from prior snapshot; chains: 24h delta vs prior snapshot only) fng=ok polymarket=ok(4 macro markets; esports filtered) websearch=ok*
+*Source status: coingecko=ok defillama=ok fng=ok polymarket=ok websearch=ok*

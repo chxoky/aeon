@@ -1,23 +1,21 @@
-*Morning Brief — 2026-08-07*
+*Morning Brief — 2026-08-08*
 
 *Focus today*
-1. HCH net-short — why now: BTC rejected 65,025 twice, broke 64,172; flipped to ~22% short 00:28Z across crypto+equities. KillaXBT remains HTF long. Mirror alignment call needed.
-2. NFP (8:30 AM ET today) — why now: June was 57K vs 110K consensus; Sep FOMC 50/50 on hold; BTC is a ±3-5% binary catalyst on the print.
-3. PUMP-RISK watch: ACE +103%, HFT +46% trending — why now: new micro-cap pump wave; CASHCAT already −7.8% on the fade; no entry but risk surface is live.
+1. Aug 12 CPI — why now: Sep cut thesis lives or dies on this print; 4 days to position
+2. Pending short approvals (HCH + WR) — why now: TSLA/PLTR 24h stale, WR Sept puts at 22 DTE
+3. ISS-004: traders.md at 367.8KB — why now: file degrading monitor quality; needs compact
 
 *Since yesterday*
-- HCH: flipped net-short 00:28Z (BTC 5% / ZEC 2.5% / HYPE 1% / LIT 1% / TSLA 1% / PLTR 1% / SPCX 1%); partial TP BTC/ETH/SOL longs 01:18Z
-- Iranian blockade by Aug 7: 37%→12.25% YES (priced out)
-- F&G: 25→29 (Extreme Fear→Fear; first positive delta in 3 sessions)
-- ADA: +7.1% / 7d +19.3% — only major-cap coin green by a meaningful margin
-- CASHCAT [FADE]: −7.8% after +62.6% yesterday; meme cluster reversing
-- 2 pending calibrations: HCH "New drop" (02:09Z) + trading_axe "Bigger market than ENS" (04:33Z)
+- BTC flat at $65K (−0.25%), ETH $1,915 (−0.6%), SOL $74.70 (+1.1%)
+- HCH (03:47Z Aug 8): added SOL +1% / PEPE +1% / SPCX +1% shorts; covered half spot alt bags — fast-path alerted
+- WR (Aug 7 17:20Z): Sept IBIT/BTC puts entry — awaiting `approve WR-BTC-PUTS`
+- KAITO −14.4% / BONK −10.8% — AI-content and meme fatigue accelerating
+- Regime: risk-on (Aug 7) → chop (Aug 8), conviction low
 
 *Watch*
-- NFP July 2026 today (BLS 8:30 AM ET) — June 57K vs 110K consensus; soft print reopens rate-cut path; implication for focus #2 and HCH's new short thesis
-- Hashdex closing first US spot BTC ETF (CoinDesk, Aug 4) — IBIT inflow oligopoly forming; structural shift in BTC demand footprint
+- CLARITY Act Senate vote — US crypto legislation; no set date but flagged imminent; top catalyst for sector upside
 
 *Running today*
-- morning-pipeline @ 07:00 UTC (this run)
-- x-trader-monitor — real-time (last success 06:33 UTC)
-- discord-trader-monitor — 1-min cron (healthy)
+- market-context-refresh @ 10:00 UTC
+- x-trader-monitor: continuous (180s polling)
+- discord-trader-monitor: continuous (1min polling)

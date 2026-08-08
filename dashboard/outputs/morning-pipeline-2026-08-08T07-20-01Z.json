@@ -1,0 +1,443 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-08-08"
+      },
+      "children": [
+        "heading-focus",
+        "stack-focus",
+        "sep-1",
+        "heading-since",
+        "stack-since",
+        "sep-2",
+        "heading-watch",
+        "stack-watch",
+        "sep-3",
+        "heading-running",
+        "stack-running"
+      ]
+    },
+    "heading-focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "stack-focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus-1",
+        "focus-2",
+        "focus-3"
+      ]
+    },
+    "focus-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-1-title",
+        "focus-1-text"
+      ]
+    },
+    "focus-1-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Aug 12 CPI",
+        "level": "h3"
+      }
+    },
+    "focus-1-text": {
+      "type": "Text",
+      "props": {
+        "text": "Why now: Sep cut thesis lives or dies on this print; 4 days to position",
+        "variant": "body"
+      }
+    },
+    "focus-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-2-title",
+        "focus-2-text"
+      ]
+    },
+    "focus-2-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Pending short approvals (HCH + WR)",
+        "level": "h3"
+      }
+    },
+    "focus-2-text": {
+      "type": "Text",
+      "props": {
+        "text": "Why now: TSLA/PLTR 24h stale, WR Sept puts at 22 DTE",
+        "variant": "body"
+      }
+    },
+    "focus-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-3-title",
+        "focus-3-text"
+      ]
+    },
+    "focus-3-title": {
+      "type": "Heading",
+      "props": {
+        "text": "ISS-004: traders.md at 367.8KB",
+        "level": "h3"
+      }
+    },
+    "focus-3-text": {
+      "type": "Text",
+      "props": {
+        "text": "Why now: file degrading monitor quality; needs compact",
+        "variant": "body"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-since": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "stack-since": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "since-prices",
+        "since-hch",
+        "since-wr",
+        "since-alts-group",
+        "since-regime"
+      ]
+    },
+    "since-prices": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat-btc",
+        "stat-eth",
+        "stat-sol"
+      ]
+    },
+    "stat-btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$65,000",
+        "delta": "−0.25%",
+        "trend": "down"
+      }
+    },
+    "stat-eth": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$1,915",
+        "delta": "−0.6%",
+        "trend": "down"
+      }
+    },
+    "stat-sol": {
+      "type": "Stat",
+      "props": {
+        "label": "SOL",
+        "value": "$74.70",
+        "delta": "+1.1%",
+        "trend": "up"
+      }
+    },
+    "since-hch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "hch-timestamp",
+        "hch-text"
+      ]
+    },
+    "hch-timestamp": {
+      "type": "Text",
+      "props": {
+        "text": "HCH (03:47Z Aug 8)",
+        "variant": "lead"
+      }
+    },
+    "hch-text": {
+      "type": "Text",
+      "props": {
+        "text": "added SOL +1% / PEPE +1% / SPCX +1% shorts; covered half spot alt bags — fast-path alerted",
+        "variant": "body"
+      }
+    },
+    "since-wr": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "wr-timestamp",
+        "wr-text"
+      ]
+    },
+    "wr-timestamp": {
+      "type": "Text",
+      "props": {
+        "text": "WR (Aug 7 17:20Z)",
+        "variant": "lead"
+      }
+    },
+    "wr-text": {
+      "type": "Text",
+      "props": {
+        "text": "Sept IBIT/BTC puts entry — awaiting approve WR-BTC-PUTS",
+        "variant": "body"
+      }
+    },
+    "since-alts-group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since-alts-stats",
+        "since-alts-explanation"
+      ]
+    },
+    "since-alts-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat-kaito",
+        "stat-bonk"
+      ]
+    },
+    "stat-kaito": {
+      "type": "Stat",
+      "props": {
+        "label": "KAITO",
+        "value": "−14.4%",
+        "trend": "down"
+      }
+    },
+    "stat-bonk": {
+      "type": "Stat",
+      "props": {
+        "label": "BONK",
+        "value": "−10.8%",
+        "trend": "down"
+      }
+    },
+    "since-alts-explanation": {
+      "type": "Text",
+      "props": {
+        "text": "AI-content and meme fatigue accelerating",
+        "variant": "caption"
+      }
+    },
+    "since-regime": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "regime-label",
+        "regime-text"
+      ]
+    },
+    "regime-label": {
+      "type": "Text",
+      "props": {
+        "text": "Regime",
+        "variant": "lead"
+      }
+    },
+    "regime-text": {
+      "type": "Text",
+      "props": {
+        "text": "risk-on (Aug 7) → chop (Aug 8), conviction low",
+        "variant": "body"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "stack-watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "watch-title",
+        "watch-text"
+      ]
+    },
+    "watch-title": {
+      "type": "Heading",
+      "props": {
+        "text": "CLARITY Act Senate vote",
+        "level": "h3"
+      }
+    },
+    "watch-text": {
+      "type": "Text",
+      "props": {
+        "text": "US crypto legislation; no set date but flagged imminent; top catalyst for sector upside",
+        "variant": "body"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "stack-running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "running-1",
+        "running-2",
+        "running-3"
+      ]
+    },
+    "running-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "running-1-title",
+        "running-1-text"
+      ]
+    },
+    "running-1-title": {
+      "type": "Heading",
+      "props": {
+        "text": "market-context-refresh",
+        "level": "h3"
+      }
+    },
+    "running-1-text": {
+      "type": "Text",
+      "props": {
+        "text": "@ 10:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "running-2-title",
+        "running-2-text"
+      ]
+    },
+    "running-2-title": {
+      "type": "Heading",
+      "props": {
+        "text": "x-trader-monitor",
+        "level": "h3"
+      }
+    },
+    "running-2-text": {
+      "type": "Text",
+      "props": {
+        "text": "continuous (180s polling)",
+        "variant": "body"
+      }
+    },
+    "running-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "running-3-title",
+        "running-3-text"
+      ]
+    },
+    "running-3-title": {
+      "type": "Heading",
+      "props": {
+        "text": "discord-trader-monitor",
+        "level": "h3"
+      }
+    },
+    "running-3-text": {
+      "type": "Text",
+      "props": {
+        "text": "continuous (1min polling)",
+        "variant": "body"
+      }
+    }
+  }
+}
