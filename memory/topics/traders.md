@@ -440,6 +440,7 @@
   - Aug 03 16:35Z — ambiguous: reply to @zoomerfied "He thinks we think there's a difference. ~ Dr. Axius."; cryptic philosophical sarcasm, reply-dependent, no financial context; HR-2 calibration alert sent [2084317273473405094]
   - Aug 06 14:46Z — informational: profit-taking dynamics on "sell the news" events; "next PEPE for retail" longer-term alt theme; RH listings uncertainty narrative [2085376856673353943]
   - Aug 08 03:32Z — ambiguous: cryptic post "Have you ever seen an inverse 10/10? ~ Dr. Axius."; rhetorical market-structure question, no ticker/level/action identified; HR-2 calibration alert sent to Kyle [2085932175174595005]
+  - Aug 08 03:36Z — ambiguous: cryptic date reference "Study the 22nd of August 2025" [2085933044955848870]
 
 ## KillaXBT
 - Platforms: X (primary) + Discord (1411492188315193416 primary "K")
