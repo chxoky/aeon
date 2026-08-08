@@ -1,0 +1,24 @@
+{
+  "root": "card1",
+  "state": {},
+  "elements": {
+    "card1": {
+      "type": "Card",
+      "props": {
+        "title": "BTC Time Window Analysis",
+        "description": "x-trader-monitor"
+      },
+      "children": [
+        "tweet1"
+      ]
+    },
+    "tweet1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Bitcoin_Astro",
+        "handle": "@Bitcoin_Astro",
+        "text": "In the August report I highlighted 15–20 August as one of the most important windows.\n\nAligned with documented astro/Gann framework (Aug 12 eclipse, Aug 15-20, Sep 23-30 major turn).\n\nhttps://x.com/Bitcoin_Astro/status/2086058339809607844"
+      }
+    }
+  }
+}
