@@ -1,0 +1,52 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "analysis-text",
+        "link-tweet"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "@HeartCanHodl",
+        "text": "Put them out of their misery, Mr. Zhao"
+      },
+      "children": []
+    },
+    "analysis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Bearish sentiment on garbage altcoin pumps. Posts list of trash perpetuals up massive in 24h (TUTUSDT +85%, BLUAIUSDT +58%, etc) with meme \"Types of Headaches\" punchline: \"Seeing the top 24 hours gainers.\" Reference to CZ implies these need to die. No personal trade action—commentary on altcoin P&D narrative.",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/HeartCanHodl/status/2086152282434138216"
+      },
+      "children": []
+    }
+  }
+}
