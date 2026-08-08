@@ -1,0 +1,191 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-08-08"
+      },
+      "children": [
+        "heading_focus",
+        "focus_stack",
+        "separator_1",
+        "heading_since",
+        "since_stack",
+        "separator_2",
+        "heading_watch",
+        "watch_stack",
+        "separator_3",
+        "heading_running",
+        "running_stack"
+      ]
+    },
+    "heading_focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h3"
+      }
+    },
+    "focus_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus_1",
+        "focus_2",
+        "focus_3"
+      ]
+    },
+    "focus_1": {
+      "type": "Text",
+      "props": {
+        "text": "WR BTC puts — approve `WR-BTC-PUTS` or pass; September expiry, options decay over weekend"
+      }
+    },
+    "focus_2": {
+      "type": "Text",
+      "props": {
+        "text": "HCH TSLA/PLTR/SPCX shorts — 3 approvals pending since yesterday; he's still adding this morning"
+      }
+    },
+    "focus_3": {
+      "type": "Text",
+      "props": {
+        "text": "background: HYPE −1.7% today — HCH short adding, KillaXBT holding 2yr conviction long"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_since": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h3"
+      }
+    },
+    "since_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "since_1",
+        "since_2",
+        "since_3",
+        "since_4",
+        "since_5"
+      ]
+    },
+    "since_1": {
+      "type": "Text",
+      "props": {
+        "text": "Wild_Randomness: IBIT/BTC September puts entered at BTC 67K rejection + equity divergence; awaiting your decision"
+      }
+    },
+    "since_2": {
+      "type": "Text",
+      "props": {
+        "text": "HCH: net-short flip overnight, TP cascade on BTC/ETH/SOL; this morning added SOL/PEPE shorts, SPCX to 3%, covered spot alts half bags"
+      }
+    },
+    "since_3": {
+      "type": "Text",
+      "props": {
+        "text": "Market cooled: breadth 16→13/20, F&G 30 Fear, DEX vol −8%, BTC $64,970; rate-hike risk narrative emerging"
+      }
+    },
+    "since_4": {
+      "type": "Text",
+      "props": {
+        "text": "KillaXBT: reaffirmed 2yr BTC long with funding-rate economics (10.08% APR → 200-240% return target)"
+      }
+    },
+    "since_5": {
+      "type": "Text",
+      "props": {
+        "text": "System: traders.md at 367.8KB (vs 150KB threshold) — trader-memory-compact needed"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h3"
+      }
+    },
+    "watch_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "watch_1"
+      ]
+    },
+    "watch_1": {
+      "type": "Text",
+      "props": {
+        "text": "Rate-hike risk 2026: Polymarket YES 54.5% — undermines Sep cut thesis; aligns with WR/HCH bearish macro positioning"
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h3"
+      }
+    },
+    "running_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "running_1",
+        "running_2",
+        "running_3"
+      ]
+    },
+    "running_1": {
+      "type": "Text",
+      "props": {
+        "text": "token-alert + token-movers @ 12:00 UTC"
+      }
+    },
+    "running_2": {
+      "type": "Text",
+      "props": {
+        "text": "market-context-refresh @ 13:00 UTC"
+      }
+    },
+    "running_3": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC"
+      }
+    }
+  }
+}
