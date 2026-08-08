@@ -1,0 +1,115 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @swarmister"
+      },
+      "children": [
+        "event-stack",
+        "sep-1",
+        "tweet-card",
+        "sep-2",
+        "classification-stack",
+        "sep-3",
+        "link-stack"
+      ]
+    },
+    "event-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event-label",
+        "event-text"
+      ]
+    },
+    "event-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h4"
+      }
+    },
+    "event-text": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to @xbt2027 (context not visible)",
+        "variant": "body"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "@xbt2027 Look"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "classification-label",
+        "classification-question"
+      ]
+    },
+    "classification-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Unable to classify",
+        "level": "h4"
+      }
+    },
+    "classification-question": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read? (Is this a trade signal, chart reference, or personal exchange?)",
+        "variant": "body"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-link"
+      ]
+    },
+    "tweet-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View tweet on X",
+        "href": "https://x.com/swarmister/status/2086015367239946685",
+        "source": "X (Twitter)"
+      }
+    }
+  }
+}
