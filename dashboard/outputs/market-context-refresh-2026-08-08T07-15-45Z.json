@@ -1,0 +1,200 @@
+{
+  "root": "card_market",
+  "state": {},
+  "elements": {
+    "card_market": {
+      "type": "Card",
+      "props": {
+        "title": "Market Context — 2026-08-08"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stack_take",
+        "sep1",
+        "grid_prices",
+        "sep2",
+        "stack_indicators",
+        "sep3",
+        "stack_narrative"
+      ]
+    },
+    "stack_take": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "text_take",
+        "badge_chop",
+        "badge_conviction"
+      ]
+    },
+    "text_take": {
+      "type": "Text",
+      "props": {
+        "text": "take:",
+        "variant": "body"
+      }
+    },
+    "badge_chop": {
+      "type": "Badge",
+      "props": {
+        "text": "chop",
+        "variant": "default"
+      }
+    },
+    "badge_conviction": {
+      "type": "Badge",
+      "props": {
+        "text": "conviction medium",
+        "variant": "secondary"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "grid_prices": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "stat_btc",
+        "stat_eth",
+        "stat_sol"
+      ]
+    },
+    "stat_btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$64,970",
+        "delta": "+1.09%",
+        "trend": "up"
+      }
+    },
+    "stat_eth": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$1,915",
+        "delta": "+0.60%",
+        "trend": "up"
+      }
+    },
+    "stat_sol": {
+      "type": "Stat",
+      "props": {
+        "label": "SOL",
+        "value": "$74.72",
+        "delta": "+2.59%",
+        "trend": "up"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_indicators": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "progress_fg",
+        "stat_breadth",
+        "stat_dexvol"
+      ]
+    },
+    "progress_fg": {
+      "type": "Progress",
+      "props": {
+        "value": 30,
+        "max": 100,
+        "label": "F&G Index: 30 (Fear)"
+      }
+    },
+    "stat_breadth": {
+      "type": "Stat",
+      "props": {
+        "label": "Breadth",
+        "value": "13/20"
+      }
+    },
+    "stat_dexvol": {
+      "type": "Stat",
+      "props": {
+        "label": "DEX Volume",
+        "value": "$6.56B",
+        "delta": "−8% vs yesterday",
+        "trend": "down"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_narrative": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_narrative_label",
+        "stack_narrative_content"
+      ]
+    },
+    "text_narrative_label": {
+      "type": "Text",
+      "props": {
+        "text": "Top Narrative",
+        "variant": "lead"
+      }
+    },
+    "stack_narrative_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_narrative",
+        "text_polymarket"
+      ]
+    },
+    "badge_narrative": {
+      "type": "Badge",
+      "props": {
+        "text": "rate-hike risk revival (emerging)",
+        "variant": "outline"
+      }
+    },
+    "text_polymarket": {
+      "type": "Text",
+      "props": {
+        "text": "Polymarket: no",
+        "variant": "caption"
+      }
+    }
+  }
+}

@@ -1,9 +1,6 @@
-market context — 2026-08-07 (post-NFP)
+market context — 2026-08-08
 
-take: risk-on (conviction medium) — regime flip
-BTC $65,135 (+1.1%) / ETH $1,926 (+1.5%) · F&G 29 (Fear)
-breadth 16/20 · DEX vol $7.15B · TVL stable
-NFP July −23K vs +80K expected → Sep cut near-certain
-ETF inflows 4-day streak $763M (IBIT 76%)
-top narrative: rate-cut positioning (rising); ZEC +3.5%/+11.4% 7d (rising); ADA (peak)
-polymarket: Hormuz Aug 31 13.5% YES · Fed rate market settled (<3% YES)
+take: chop (conviction medium)
+BTC $64,970 (+1.09%) / ETH $1,915 (+0.60%) / SOL $74.72 (+2.59%) · F&G 30 (Fear)
+breadth 13/20 · DEX vol $6.56B (−8% vs yesterday)
+top narrative: rate-hike risk revival (emerging) — Polymarket no
