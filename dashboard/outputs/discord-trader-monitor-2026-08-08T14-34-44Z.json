@@ -1,0 +1,84 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — [DC: HCH — Chat]"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_event",
+        "sep1",
+        "stack_link",
+        "sep2",
+        "text_question"
+      ]
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: HeartCanHodl shared link in supporting channel with zero context"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack_link": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_link_label",
+        "link_url"
+      ]
+    },
+    "text_link_label": {
+      "type": "Text",
+      "props": {
+        "text": "Link:"
+      },
+      "children": []
+    },
+    "link_url": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/i/status/2086095678699364414",
+        "href": "https://x.com/i/status/2086095678699364414"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text_question": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to determine intent — is this a trade-relevant post you should see, or just a casual share? What's your read?",
+        "variant": "lead"
+      },
+      "children": []
+    }
+  }
+}
