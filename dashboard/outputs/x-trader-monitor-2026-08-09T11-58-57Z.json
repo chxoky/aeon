@@ -1,0 +1,60 @@
+{
+  "root": "card-1",
+  "state": {},
+  "elements": {
+    "card-1": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-1"
+      ]
+    },
+    "stack-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweetcard-1",
+        "link-1",
+        "separator-1",
+        "text-analysis"
+      ]
+    },
+    "tweetcard-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "When $BTC deviates below the 1M 50EMA\n\nyou simply market buy without hesitation."
+      },
+      "children": []
+    },
+    "link-1": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2086421132534485281"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text-analysis": {
+      "type": "Text",
+      "props": {
+        "text": "1M 50EMA accumulation strategy — reinforces group bullish BTC structural convergence (KillaXBT HTF long + spot DCA, bull_genius bottom ID, HCH net-long shift).",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
