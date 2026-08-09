@@ -1,0 +1,95 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "calibration_section",
+        "sep1",
+        "event_section"
+      ]
+    },
+    "calibration_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "calib_heading",
+        "calib_user"
+      ]
+    },
+    "calib_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration",
+        "level": "h2"
+      }
+    },
+    "calib_user": {
+      "type": "Text",
+      "props": {
+        "text": "@swarmister"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "event_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event_heading",
+        "event_details",
+        "sep2",
+        "tweet_card",
+        "alert"
+      ]
+    },
+    "event_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "event_details": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to @rottenAzoth333 conversation/topic unknown"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "text": "What the „\""
+      }
+    },
+    "alert": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Unable to classify",
+        "message": "What's your read? (reply-dependent message, no ticker/level/action language visible)"
+      }
+    }
+  }
+}
