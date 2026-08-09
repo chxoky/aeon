@@ -236,6 +236,7 @@
   - Aug 08 11:53Z — informational: BTC 15-20 August window highlighted in August report as "one of most important" [$BTC]
   - Aug 09 18:30Z — ambiguous: "15/16 is my time window for change in trend" (vs Aug 12); reply-dependent; HR-2 calibration
   - Aug 09 18:32Z — ambiguous: "That's my view and expectations" @PartisandeL; no context; HR-2 calibration
+  - Aug 09 22:44Z — ambiguous: "@anak26071 100% https://t.co/..." reply; t.co link inaccessible; "100%" cryptic; HR-2 calibration [2086584386657411302]
 
 ## Crypto_Chase
 - Platforms: Discord (Chase primary: 1336082716063694962; TradFi supporting: 1343971265962049597; Crypto supporting: 1247927786681794601)
