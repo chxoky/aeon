@@ -1,0 +1,47 @@
+{
+  "root": "card-1",
+  "state": {},
+  "elements": {
+    "card-1": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack-1"
+      ]
+    },
+    "stack-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-1",
+        "sep-1",
+        "text-2"
+      ]
+    },
+    "text-1": {
+      "type": "Text",
+      "props": {
+        "text": "💬 [DC: HCH — Free]",
+        "variant": "caption"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-2": {
+      "type": "Text",
+      "props": {
+        "text": "Fc btc 15m",
+        "variant": "lead"
+      }
+    }
+  }
+}
