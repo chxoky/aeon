@@ -1,0 +1,68 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor Calibration",
+        "description": "@swarmister"
+      },
+      "children": [
+        "heading_event",
+        "tweet_card",
+        "text_unable",
+        "text_pattern",
+        "separator",
+        "link_view"
+      ]
+    },
+    "heading_event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event: Reply to @flim_flamdegen",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "Tishe 4rka"
+      },
+      "children": []
+    },
+    "text_unable": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?"
+      },
+      "children": []
+    },
+    "text_pattern": {
+      "type": "Text",
+      "props": {
+        "text": "Continuation of Aug 03-09 cryptic reply pattern.",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/swarmister/status/2086492857997602864"
+      },
+      "children": []
+    }
+  }
+}
