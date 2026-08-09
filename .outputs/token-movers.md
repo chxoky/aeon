@@ -1,44 +1,42 @@
-*Token Movers — 2026-08-09*
+*Token Movers — Aug 9, 2026*
 
-_Mild green — 60% of filtered top-100 coins positive 24h, median +0.6%; micro-cap pumps (TUT +326%, BEAT +48%) dominate headlines while large-caps drift._
+_Mildly green — 62/100 top coins positive, median 24h +0.3%; scattered alt rotation in privacy and AI-DePIN while BTC ($64,898) and ETH ($1,916) hold flat._
 
 *Top Winners (24h)*
-1. TUT (Tutorial) — $0.1471  +325.8% / 7d +1007.8% / 1h +8.5%  •  $496M / #222  [BREAKOUT][PUMP-RISK]
-2. BEAT (Audiera) — $3.25  +48.0% / 7d −10.8% / 1h +2.4%  •  $82.7M / #64  [FADE]
-3. BTW (Bitway) — $0.1873  +28.8% / 7d +113.6% / 1h −12.8%  •  $32.5M / #107  [BREAKOUT]
-4. SKYAI — $0.1325  +12.5% / 7d +350.0% / 1h −3.0%  •  $29.7M / #212  [TRENDING+UP]
-5. PUMP (Pump.fun) — $0.002511  +11.1% / 7d +13.5% / 1h +1.6%  •  $73.2M / #68  [TRENDING+UP]
-6. PYTH (Pyth Network) — $0.04277  +9.5% / 7d +4.7% / 1h 0.0%  •  $22.1M / #121
-7. CC (Canton) — $0.09732  +8.9% / 7d −15.0% / 1h +1.3%  •  $21.0M / #25
-8. TEL (Telcoin) — $0.001628  +8.6% / 7d −2.5% / 1h +0.5%  •  $1.9M / #189
-9. JTO (Jito) — $0.5132  +5.9% / 7d +3.2% / 1h +0.3%  •  $16.0M / #136
-10. TAO (Bittensor) — $205.12  +5.0% / 7d +5.4% / 1h −0.2%  •  $107M / #42
+1. BEAT (Audiera) — $3.250  +29.5% / 7d −21.8% / 1h +1.2%  •  $72M / #~65  [FADE]
+2. PUMP (Pump.fun) — $0.002540  +10.5% / 7d +18.4% / 1h −0.2%  •  $82.9M / #66  [TRENDING+UP]
+3. PYTH (Pyth Network) — $0.04171  +7.5% / 7d +6.7% / 1h −0.8%  •  $23.4M / #121
+4. CC (Canton) — $0.09839  +6.8% / 7d −16.7% / 1h 0.0%  •  $22.7M / #24  [TRENDING+UP]
+5. BTW (Bitway) — $0.1804  +6.5% / 7d +109% / 1h −1.5%  •  $33.8M / #110
+6. TAO (Bittensor) — $205.9  +5.3% / 7d +7.4% / 1h +1.0%  •  $112.6M / #41  [TRENDING+UP]
+7. BSV (Bitcoin SV) — $14.78  +4.1% / 7d +14.8% / 1h +1.0%  •  $5.8M / #128
+8. JTO (Jito) — $0.5062  +4.0% / 7d +4.5% / 1h +0.5%  •  $15.4M / #137
+9. ZEC (Zcash) — $521.4  +3.7% / 7d +10.7% / 1h −0.1%  •  $140M / #14  [TRENDING+UP] [MAJOR]
+10. ZRO (LayerZero) — $0.8418  +2.4% / 7d +17.1% / 1h −0.2%  •  $15.8M / #127
 
 *Top Losers (24h)*
-1. CYS (Cysic) — $0.8273  −16.6% / 7d +179.6% / 1h −1.9%  •  $58.3M / #211  [CAPITULATION]
-2. B (BUILDon) — $0.1414  −13.0% / 7d −10.8% / 1h −0.6%  •  $5.4M / #202
-3. KAITO — $0.7074  −10.2% / 7d −39.6% / 1h +0.4%  •  $83.6M / #178  [CAPITULATION]
-4. Q (Quack AI) — $0.02138  −7.9% / 7d −8.4% / 1h −0.2%  •  $1.9M / #284
-5. PIEVERSE — $0.8017  −6.1% / 7d +7.6% / 1h −0.5%  •  $11.0M / #148
-6. RUNE (THORChain) — $0.4309  −4.1% / 7d −2.4% / 1h −0.1%  •  $21.4M / #196
-7. KITE — $0.09828  −3.8% / 7d +3.3% / 1h −0.7%  •  $11.4M / #144
-8. XEC (eCash) — $0.0000068  −3.6% / 7d +0.1% / 1h 0.0%  •  $7.3M / #208
-9. ANTFUN — $0.04246  −2.8% / 7d −3.1% / 1h −0.1%  •  $21.3M / #134
-10. AERO (Aerodrome Finance) — $0.4304  −2.0% / 7d +7.2% / 1h −0.1%  •  $5.4M / #106
+1. ENA (Ethena) — $0.08750  −3.6% / 7d −1.6% / 1h −0.4%  •  $60.4M / #~75
+2. AERO (Aerodrome) — $0.4223  −3.3% / 7d +7.4% / 1h 0.0%  •  $7.9M / #106
+3. M (MemeCore) — $1.130  −3.3% / 7d +3.1% / 1h +0.2%  •  $4.8M / #50
+4. ARB (Arbitrum) — $0.07760  −2.6% / 7d −5.1% / 1h −0.1%  •  $24.4M / #~80
+5. KITE — $0.09823  −2.1% / 7d +3.4% / 1h −0.6%  •  $12.0M / #144
+6. NIGHT (Midnight) — $0.01836  −2.0% / 7d −4.3% / 1h +0.4%  •  $6.0M / #125
+7. GRAM (Toncoin) — $1.340  −1.9% / 7d −4.5% / 1h −0.2%  •  $14.6M / #26
+8. PI (Pi Network) — $0.09011  −1.7%  •  #67  [TRENDING+DOWN]
+9. ADA (Cardano) — $0.1960  −1.6% / 7d +5.4% / 1h +0.2%  •  $213.7M / #16  [MAJOR]
+10. ONDO — $0.3481  −1.4% / 7d −9.7% / 1h +0.1%  •  $56.4M / #44
 
 *Trending*
-1. TUT (Tutorial) — #222, $0.1471, +325.8%  [BREAKOUT][PUMP-RISK]
-2. CASHCAT (Cash Cat) — #248, +17.3%
-3. SKYAI — #211, $0.1325, +29.9%  [TRENDING+UP]
-4. PUMP (Pump.fun) — #66, $0.002511, +10.0%  [TRENDING+UP]
-5. SOL (Solana) — #7, $76.28, +2.3%
-6. CC (Canton) — #24, $0.09732, +8.9%
-7. PENGU (Pudgy Penguins) — #108, +0.6%
+1. TUT (Tutorial) — #204, $0.1757, 24h +199.7%  [PUMP-RISK]
+2. PUMP (Pump.fun) — #66, $0.002540, 24h +9.5%
+3. PENGU (Pudgy Penguins) — #108, $0.006298, 24h +1.1%
+4. CASHCAT (Cash Cat) — #253, $0.1086, 24h +13.2%
+5. SUI — #30, $0.6911, 24h +0.3%
+6. CC (Canton) — #24, $0.09701, 24h +8.0%
+7. HYPE (Hyperliquid) — #9, $54.16, 24h −0.5%
 
 *Notable*
-• TUT: #222 +326% on $496M vol, 7d +1008% — [BREAKOUT] confirmed but [PUMP-RISK] high; micro-cap supply squeeze pattern
-• BEAT: +48% but 7d −10.8% — [FADE], relief bounce in a downtrend, not structural
-• BTW: reversed from Aug 08 −10.4% loser to +28.8% on sustained 7d +114% — [BREAKOUT] with momentum confirmation
-• CYS: post-BREAKOUT blow-off deepens −16.6%, vol/mcap 0.44 — [CAPITULATION]; was trading at $1.04 Aug 08 peak
-• KAITO: −10.2% continues 7d −40% slide — [CAPITULATION]; HCH short-thesis on target per alert-entry post
-• CASHCAT: trending; trading_axe BONK-vibes thesis still live from Aug 08 23:35Z — no trade signal, pattern watch
+• PUMP: trending #2 + winner +10.5% on $82.9M vol — Pump.fun exchange-layer gaining, cross-confirms [TRENDING+UP]
+• ZEC: rank-14 [MAJOR] trending + up 3.7% / 7d +10.7% — privacy/ZK narrative extends; second session of strength
+• TUT: rank-204, +200% trending #1 — volume unverified, high manipulation probability [PUMP-RISK]
+• CC: Canton trending despite 7d −16.7% — 24h relief bounce, not a breakout; fade bias
