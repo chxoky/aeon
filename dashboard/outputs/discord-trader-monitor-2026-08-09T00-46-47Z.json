@@ -1,0 +1,130 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "calibration_heading",
+        "event_stack",
+        "separator_1",
+        "messages_stack",
+        "separator_2",
+        "classification_alert"
+      ]
+    },
+    "calibration_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration — [DC: HCH — Chat]",
+        "level": "h2"
+      }
+    },
+    "event_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event_label",
+        "event_value"
+      ]
+    },
+    "event_label": {
+      "type": "Text",
+      "props": {
+        "text": "Event:",
+        "variant": "muted"
+      }
+    },
+    "event_value": {
+      "type": "Text",
+      "props": {
+        "text": "TAO sentiment observation"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "messages_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "prior_message",
+        "reply_message"
+      ]
+    },
+    "prior_message": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "prior_label",
+        "prior_text"
+      ]
+    },
+    "prior_label": {
+      "type": "Text",
+      "props": {
+        "text": "HCH (prior):",
+        "variant": "lead"
+      }
+    },
+    "prior_text": {
+      "type": "Text",
+      "props": {
+        "text": "A lot of disappointment from tao lately"
+      }
+    },
+    "reply_message": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "reply_label",
+        "reply_text"
+      ]
+    },
+    "reply_label": {
+      "type": "Text",
+      "props": {
+        "text": "HCH (reply):",
+        "variant": "lead"
+      }
+    },
+    "reply_text": {
+      "type": "Text",
+      "props": {
+        "text": "Finally lol"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read? (TAO relief/bounce signal, or casual market banter?)",
+        "type": "info"
+      }
+    }
+  }
+}
