@@ -14,3 +14,12 @@
 - ✅ Event logged to `memory/logs/2026-08-09.md` with full classification and reasoning
 
 This post contains no financial signal, no trade action, and no market opinion — it's purely community management commentary. Per the SKILL protocol (Step 4A), platform meta-commentary gets skipped silently with only a log entry.
+🔍 *Calibration — @Bitcoin_Astro*
+
+Event: Timing window prediction on trend change
+
+Bitcoin_Astro: "Although 12th is quite important, 15/16 is my time window for change in trend"
+
+Context: This is a reply to @Eriksoon4 about expected trend-change windows (likely August 12 vs 15/16 dates). Unable to decipher which asset/direction or personal action vs. opinion. Does this match a known thesis from Bitcoin_Astro, or should we track it?
+
+[View post](https://x.com/Bitcoin_Astro/status/2086520395805479096)

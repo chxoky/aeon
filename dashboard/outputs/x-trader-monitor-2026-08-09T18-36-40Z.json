@@ -1,0 +1,121 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @Bitcoin_Astro"
+      },
+      "children": [
+        "event_type",
+        "sep1",
+        "tweet_card",
+        "sep2",
+        "context_stack",
+        "sep3",
+        "link_stack"
+      ]
+    },
+    "event_type": {
+      "type": "Heading",
+      "props": {
+        "text": "Event: Timing window prediction on trend change",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Bitcoin_Astro",
+        "handle": "Bitcoin_Astro",
+        "text": "Although 12th is quite important, 15/16 is my time window for change in trend"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "context_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_heading",
+        "context_desc",
+        "context_reply",
+        "uncertainty_note"
+      ]
+    },
+    "context_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "context_desc": {
+      "type": "Text",
+      "props": {
+        "text": "This is a reply to @Eriksoon4 about expected trend-change windows (likely August 12 vs 15/16 dates)."
+      },
+      "children": []
+    },
+    "context_reply": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to decipher which asset/direction or personal action vs. opinion."
+      },
+      "children": []
+    },
+    "uncertainty_note": {
+      "type": "Alert",
+      "props": {
+        "title": "Tracking question",
+        "message": "Does this match a known thesis from Bitcoin_Astro, or should we track it?",
+        "type": "info"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "post_link"
+      ]
+    },
+    "post_link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Bitcoin_Astro/status/2086520395805479096"
+      },
+      "children": []
+    }
+  }
+}
