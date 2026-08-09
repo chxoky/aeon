@@ -1,27 +1,25 @@
-*Narrative Tracker — 2026-08-08*
+*Narrative Tracker — 2026-08-09*
 
 TRANSITIONS
-• NEW: Rate-Hike Risk 2026 — Polymarket "Fed hike 2026?" YES 54.5% ($0.62M 24h vol); 3 July FOMC dissenters; CPI Aug 12 primary binary. No prior log entry. BTC/ETH/SOL vulnerable if hot print.
-• NEW: CLARITY Act Limbo — Senate vote delayed Sep 14; failed 60-vote threshold before recess; institutional bid on hold.
-• PROMOTED: ZK Infrastructure (from Privacy/ZK Jul 21 → standalone Emerging). CYS (ZK prover) +61% [PUMP-RISK]; $11.7B ZK mktcap; Sybil resistance/rollup compression now mainstream use cases.
-• DEMOTED: InfoFi / KAITO (Prediction Markets Peak Jul 21 → Fading). Yaps shutdown Jan 2026 killed engagement loop; KAITO −29.5% 7d / −19.8% 24h. Polymarket platform healthy — narrative split.
-• DEAD: Privacy Crackdown (standalone) — absorbed into ZK Infrastructure; no independent signal this window.
+• PROMOTED: Rate-Hike Risk 2026 — Emerging → Rising; Polymarket jumped 54.5% → 67.5% YES in 24h (+13pp); Cleveland Fed CPI nowcast revised to 3.45%; Sep hike odds at 57%. CPI Aug 12 now 3 days out.
+• NEW: ADA ETF Eligibility — CME ADA futures hit 6-month regulated window today (Aug 9); SEC streamlined 75-day review clock now eligible. First new Emerging narrative since Jul 21.
+• DEMOTED: CLARITY Act Limbo — near-term dead; Senate Leader Thune confirmed no August vote; next trigger Sept 14; odds at record-low 27%. Moving to IGNORE.
+• PROMOTED: ZEC/XMR Privacy — standalone Rising (ZEC +3.7% day 2, Trending+Up); was embedded in ZK Infrastructure sub-narrative.
 
 REFLEXIVITY ALERT
-• Rate-Hike Risk — Polymarket amplifying its own fear: $0.62M 24h on "Fed hike 2026?" YES 54.5% ahead of CPI Aug 12 (Cleveland nowcast 3.22%). FOMC dissenters are real; Polymarket vol echoes them.
-• InfoFi/KAITO — Yaps shutdown removed the engagement loop driving mindshare → token unwind → less mindshare. Attention Markets reboot not yet re-igniting.
+• Rate-Hike Risk — Polymarket 67.5% YES (+13pp in 24h) is front-running Aug 12 CPI. The prediction market is generating the risk-off narrative it's measuring. Cleveland 3.45% nowcast + 3 FOMC dissenters are the fundamentals; Polymarket is the echo chamber.
+• ADA — dual narrative collision: CME window clears today (ETF eligible) AND CLARITY Act confirmed dead near-term. ADA −1.1% to −1.6% recent sessions while structural narrative turns constructive. Pre-positioning setup before SEC review clock starts.
 
 POSITIONS
-• FRONT-RUN: Rate-Hike Risk 2026 (4 ↑↑, Bear) — Polymarket, 3 FOMC dissenters, @Wild_Randomness BTC Sep puts — bear case: Sep cut still base if CPI inline — WR-BTC-PUTS pending approval
-• FADE: InfoFi/KAITO (3 ↓↓, Cope) — KAITO −29.5% 7d; Yaps gone Jan 2026 — bear case: Attention Markets pivot might eventually restore loop
-• RIDE: AI x DePIN (4 →, Mixed) — $FET/$TAO, a16z, institutional backing — bear case: 7/8 AI tokens down, momentum paused
-• WATCH: ZK Infrastructure (3 ↑↑, Bull) — CYS +61% [PUMP-RISK], $11.7B ZK mktcap — bear case: CYS rank-187 micro-cap; infra thesis multi-year
-• WATCH: CLARITY Act Limbo (3 ↓, Mixed) — Sep 14 Senate return; 60-vote uncertain
-• WATCH: RWA Tokenization (3 →, Bull) — Solana RWA vol; unchanged from Jul 21
+• FRONT-RUN: ADA ETF Eligibility (mindshare 2 ↑↑, Bull) — SEC/CFTC commodity class confirmed Mar 2026; CME 6-month window clears Aug 9; SEC 75-day streamlined clock eligible now. Bear: full review takes 75 days; CLARITY Act at 27% adds regulatory ambiguity.
+• RIDE: Rate-Hike Risk 2026 (mindshare 5 ↑↑, Bear) — short risk/long vol into Aug 12 CPI. Polymarket partially priced; edge in hot-print tail (3.45%+) → BTC flush to 62.7K monthly open. Cool print = full relief rally.
+• RIDE: RWA Tokenization (mindshare 3 →, Bull) — Solana RWA 'fastest growing fundamental of 2026' (multiple sources). No reflexivity, no saturation; institutional tailwind loading. Bear: multi-year thesis, no swing catalyst this week.
+• FADE: InfoFi/KAITO (mindshare 2 ↓↓, Cope) — KAITO −40% 7d capitulation ongoing; Kaito Studio Social Cards insufficient re-ignition; attention loop still broken post-Yaps Jan 15. Bear on the fade: Attention Markets collab could surprise.
+• WATCH: AI x DePIN (mindshare 4 →, Mixed) — TAO lone green AI token (coiling descending triangle ~$184-192); machine payment infra (Stripe/Coinbase/MoonPay) = fresh payments sub-narrative. No call until TAO triangle resolves.
+• WATCH: CASHCAT/Robinhood Chain (mindshare 2 ↑, Mixed) — trading_axe reflexivity thesis + 3-trader convergence + trending today. Micro-cap pump-risk (rank 248).
 
 MAP
-Emerging: Rate-Hike Risk 2026 | ZK Infrastructure
-Rising: AI x DePIN | RWA Tokenization
+Emerging: ADA ETF Eligibility, ZK Infrastructure, CASHCAT/Robinhood Chain
+Rising: Rate-Hike Risk 2026 (↑), ZEC/XMR Privacy (↑), AI x DePIN, RWA Tokenization
 Peak: Stablecoins/Payments
-Fading: InfoFi/KAITO | CLARITY Act Limbo | DATs
-Dead: Privacy Crackdown (standalone) | Meme/ICO Launchpads
+Fading: InfoFi/KAITO, CLARITY Act (near-term dead → IGNORE)

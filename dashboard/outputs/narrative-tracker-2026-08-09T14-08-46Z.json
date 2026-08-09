@@ -1,0 +1,687 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-08-09"
+      },
+      "children": [
+        "transitions_section",
+        "separator1",
+        "reflexivity_section",
+        "separator2",
+        "positions_section",
+        "separator3",
+        "map_section"
+      ]
+    },
+    "transitions_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "transitions_heading",
+        "transition_1",
+        "transition_2",
+        "transition_3",
+        "transition_4"
+      ]
+    },
+    "transitions_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      }
+    },
+    "transition_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_promoted_1",
+        "text_rate_hike"
+      ]
+    },
+    "badge_promoted_1": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED",
+        "variant": "secondary"
+      }
+    },
+    "text_rate_hike": {
+      "type": "Text",
+      "props": {
+        "text": "Rate-Hike Risk 2026 — Emerging → Rising; Polymarket jumped 54.5% → 67.5% YES in 24h (+13pp); Cleveland Fed CPI nowcast revised to 3.45%; Sep hike odds at 57%. CPI Aug 12 now 3 days out.",
+        "variant": "body"
+      }
+    },
+    "transition_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_new",
+        "text_ada_etf"
+      ]
+    },
+    "badge_new": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "secondary"
+      }
+    },
+    "text_ada_etf": {
+      "type": "Text",
+      "props": {
+        "text": "ADA ETF Eligibility — CME ADA futures hit 6-month regulated window today (Aug 9); SEC streamlined 75-day review clock now eligible. First new Emerging narrative since Jul 21.",
+        "variant": "body"
+      }
+    },
+    "transition_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_demoted",
+        "text_clarity"
+      ]
+    },
+    "badge_demoted": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED",
+        "variant": "outline"
+      }
+    },
+    "text_clarity": {
+      "type": "Text",
+      "props": {
+        "text": "CLARITY Act Limbo — near-term dead; Senate Leader Thune confirmed no August vote; next trigger Sept 14; odds at record-low 27%. Moving to IGNORE.",
+        "variant": "body"
+      }
+    },
+    "transition_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_promoted_2",
+        "text_zec"
+      ]
+    },
+    "badge_promoted_2": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED",
+        "variant": "secondary"
+      }
+    },
+    "text_zec": {
+      "type": "Text",
+      "props": {
+        "text": "ZEC/XMR Privacy — standalone Rising (ZEC +3.7% day 2, Trending+Up); was embedded in ZK Infrastructure sub-narrative.",
+        "variant": "body"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "reflexivity_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "reflexivity_heading",
+        "reflexivity_alert_badge",
+        "reflexivity_1",
+        "reflexivity_2"
+      ]
+    },
+    "reflexivity_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      }
+    },
+    "reflexivity_alert_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "ALERT",
+        "variant": "destructive"
+      }
+    },
+    "reflexivity_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "reflexivity_1_heading",
+        "reflexivity_1_text"
+      ]
+    },
+    "reflexivity_1_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Rate-Hike Risk",
+        "level": "h3"
+      }
+    },
+    "reflexivity_1_text": {
+      "type": "Text",
+      "props": {
+        "text": "Polymarket 67.5% YES (+13pp in 24h) is front-running Aug 12 CPI. The prediction market is generating the risk-off narrative it's measuring. Cleveland 3.45% nowcast + 3 FOMC dissenters are the fundamentals; Polymarket is the echo chamber.",
+        "variant": "body"
+      }
+    },
+    "reflexivity_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "reflexivity_2_heading",
+        "reflexivity_2_text"
+      ]
+    },
+    "reflexivity_2_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "ADA",
+        "level": "h3"
+      }
+    },
+    "reflexivity_2_text": {
+      "type": "Text",
+      "props": {
+        "text": "dual narrative collision: CME window clears today (ETF eligible) AND CLARITY Act confirmed dead near-term. ADA −1.1% to −1.6% recent sessions while structural narrative turns constructive. Pre-positioning setup before SEC review clock starts.",
+        "variant": "body"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "positions_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "positions_heading",
+        "position_1",
+        "position_2",
+        "position_3",
+        "position_4",
+        "position_5",
+        "position_6"
+      ]
+    },
+    "positions_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      }
+    },
+    "position_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos1_badge_status",
+        "pos1_title",
+        "pos1_text"
+      ]
+    },
+    "pos1_badge_status": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos1_badge_type",
+        "pos1_badge_sentiment"
+      ]
+    },
+    "pos1_badge_type": {
+      "type": "Badge",
+      "props": {
+        "text": "FRONT-RUN",
+        "variant": "secondary"
+      }
+    },
+    "pos1_badge_sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "secondary"
+      }
+    },
+    "pos1_title": {
+      "type": "Heading",
+      "props": {
+        "text": "ADA ETF Eligibility",
+        "level": "h3"
+      }
+    },
+    "pos1_text": {
+      "type": "Text",
+      "props": {
+        "text": "mindshare 2 ↑↑ | SEC/CFTC commodity class confirmed Mar 2026; CME 6-month window clears Aug 9; SEC 75-day streamlined clock eligible now. Bear: full review takes 75 days; CLARITY Act at 27% adds regulatory ambiguity.",
+        "variant": "body"
+      }
+    },
+    "position_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos2_badge_status",
+        "pos2_title",
+        "pos2_text"
+      ]
+    },
+    "pos2_badge_status": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos2_badge_type",
+        "pos2_badge_sentiment"
+      ]
+    },
+    "pos2_badge_type": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "secondary"
+      }
+    },
+    "pos2_badge_sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Bear",
+        "variant": "destructive"
+      }
+    },
+    "pos2_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Rate-Hike Risk 2026",
+        "level": "h3"
+      }
+    },
+    "pos2_text": {
+      "type": "Text",
+      "props": {
+        "text": "mindshare 5 ↑↑ | short risk/long vol into Aug 12 CPI. Polymarket partially priced; edge in hot-print tail (3.45%+) → BTC flush to 62.7K monthly open. Cool print = full relief rally.",
+        "variant": "body"
+      }
+    },
+    "position_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos3_badge_status",
+        "pos3_title",
+        "pos3_text"
+      ]
+    },
+    "pos3_badge_status": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos3_badge_type",
+        "pos3_badge_sentiment"
+      ]
+    },
+    "pos3_badge_type": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "secondary"
+      }
+    },
+    "pos3_badge_sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "secondary"
+      }
+    },
+    "pos3_title": {
+      "type": "Heading",
+      "props": {
+        "text": "RWA Tokenization",
+        "level": "h3"
+      }
+    },
+    "pos3_text": {
+      "type": "Text",
+      "props": {
+        "text": "mindshare 3 → | Solana RWA 'fastest growing fundamental of 2026' (multiple sources). No reflexivity, no saturation; institutional tailwind loading. Bear: multi-year thesis, no swing catalyst this week.",
+        "variant": "body"
+      }
+    },
+    "position_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos4_badge_status",
+        "pos4_title",
+        "pos4_text"
+      ]
+    },
+    "pos4_badge_status": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos4_badge_type",
+        "pos4_badge_sentiment"
+      ]
+    },
+    "pos4_badge_type": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "outline"
+      }
+    },
+    "pos4_badge_sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Cope",
+        "variant": "outline"
+      }
+    },
+    "pos4_title": {
+      "type": "Heading",
+      "props": {
+        "text": "InfoFi/KAITO",
+        "level": "h3"
+      }
+    },
+    "pos4_text": {
+      "type": "Text",
+      "props": {
+        "text": "mindshare 2 ↓↓ | KAITO −40% 7d capitulation ongoing; Kaito Studio Social Cards insufficient re-ignition; attention loop still broken post-Yaps Jan 15. Bear on the fade: Attention Markets collab could surprise.",
+        "variant": "body"
+      }
+    },
+    "position_5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos5_badge_status",
+        "pos5_title",
+        "pos5_text"
+      ]
+    },
+    "pos5_badge_status": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos5_badge_type",
+        "pos5_badge_sentiment"
+      ]
+    },
+    "pos5_badge_type": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "outline"
+      }
+    },
+    "pos5_badge_sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Mixed",
+        "variant": "outline"
+      }
+    },
+    "pos5_title": {
+      "type": "Heading",
+      "props": {
+        "text": "AI x DePIN",
+        "level": "h3"
+      }
+    },
+    "pos5_text": {
+      "type": "Text",
+      "props": {
+        "text": "mindshare 4 → | TAO lone green AI token (coiling descending triangle ~$184-192); machine payment infra (Stripe/Coinbase/MoonPay) = fresh payments sub-narrative. No call until TAO triangle resolves.",
+        "variant": "body"
+      }
+    },
+    "position_6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos6_badge_status",
+        "pos6_title",
+        "pos6_text"
+      ]
+    },
+    "pos6_badge_status": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos6_badge_type",
+        "pos6_badge_sentiment"
+      ]
+    },
+    "pos6_badge_type": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "outline"
+      }
+    },
+    "pos6_badge_sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Mixed",
+        "variant": "outline"
+      }
+    },
+    "pos6_title": {
+      "type": "Heading",
+      "props": {
+        "text": "CASHCAT/Robinhood Chain",
+        "level": "h3"
+      }
+    },
+    "pos6_text": {
+      "type": "Text",
+      "props": {
+        "text": "mindshare 2 ↑ | trading_axe reflexivity thesis + 3-trader convergence + trending today. Micro-cap pump-risk (rank 248).",
+        "variant": "body"
+      }
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "map_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "map_heading",
+        "map_emerging",
+        "map_rising",
+        "map_peak",
+        "map_fading"
+      ]
+    },
+    "map_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h2"
+      }
+    },
+    "map_emerging": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_emerging_badge",
+        "map_emerging_text"
+      ]
+    },
+    "map_emerging_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Emerging",
+        "variant": "default"
+      }
+    },
+    "map_emerging_text": {
+      "type": "Text",
+      "props": {
+        "text": "ADA ETF Eligibility, ZK Infrastructure, CASHCAT/Robinhood Chain",
+        "variant": "body"
+      }
+    },
+    "map_rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_rising_badge",
+        "map_rising_text"
+      ]
+    },
+    "map_rising_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Rising",
+        "variant": "secondary"
+      }
+    },
+    "map_rising_text": {
+      "type": "Text",
+      "props": {
+        "text": "Rate-Hike Risk 2026 (↑), ZEC/XMR Privacy (↑), AI x DePIN, RWA Tokenization",
+        "variant": "body"
+      }
+    },
+    "map_peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_peak_badge",
+        "map_peak_text"
+      ]
+    },
+    "map_peak_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Peak",
+        "variant": "secondary"
+      }
+    },
+    "map_peak_text": {
+      "type": "Text",
+      "props": {
+        "text": "Stablecoins/Payments",
+        "variant": "body"
+      }
+    },
+    "map_fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_fading_badge",
+        "map_fading_text"
+      ]
+    },
+    "map_fading_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Fading",
+        "variant": "outline"
+      }
+    },
+    "map_fading_text": {
+      "type": "Text",
+      "props": {
+        "text": "InfoFi/KAITO, CLARITY Act (near-term dead → IGNORE)",
+        "variant": "body"
+      }
+    }
+  }
+}
