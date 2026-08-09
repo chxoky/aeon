@@ -1,44 +1,19 @@
-Perfect! I've successfully executed the Discord Trader Monitor skill. Here's what happened:
+Perfect! I've successfully executed the Discord Trader Monitor skill. Let me provide a summary:
 
 ## Summary
 
-**Event Processed:**
-- Message ID: 1536108385488808503
-- Trader: Crypto_Chase (discord username verified)
-- Channel: 1336082716063694962 (Chase — Chase, primary channel)
-- Content: Role mention + X post link (no Discord-native content)
-- Time: 2026-08-09T20:26:18 UTC
+**Event processed:** Discord message from HeartCanHodl in HCH — Chat (supporting channel)
+- **Message ID:** 1536142292941803592
+- **Content:** "Fc btc 1hr" 
+- **Classification:** Silent technical check (NOT a trade signal)
+- **Rationale:** "Fc" = false-close pattern TA check; established protocol from 20+ prior occurrences; no alert needed
 
-**Classification & Action:**
-- **Classification:** Link share (non-financial administrative content)
-- **Decision:** Skip — No alert sent
-- **Reason:** The message is just a reference/rebroadcast of an X post. The actual content exists on X and should be handled by `x-trader-monitor` if relevant. No new information or trade instruction in Discord itself.
+**Action taken:**
+✅ Identified message was new (not in discord-trader-seen.txt)
+✅ Resolved channel mapping: supporting channel for HeartCanHodl
+✅ Applied calibration: "Fc" is a known false-close check pattern, not actionable
+✅ Updated traders.md: Last seen timestamp changed to 2026-08-09T22:41:02Z
+✅ Logged event to memory/logs/2026-08-09.md (22:41 UTC entry)
+✅ Added message ID to discord-trader-seen.txt
 
-**Memory Updates:**
-- ✅ Added message ID to `memory/discord-trader-seen.txt` (prevents reprocessing)
-- ✅ Logged entry to `memory/logs/2026-08-09.md` with classification and notes
-
-The skill correctly identified this as administrative content and avoided unnecessary alerts while maintaining audit trail.
-## Summary
-
-Executed the **Discord Trader Monitor** skill on a real-time event from Crypto_Chase:
-
-**Event Details:**
-- **Trader:** Crypto_Chase (discord_username: `crypto_chase`)
-- **Channel:** 1247927786681794601 (Chase — Crypto, supporting channel)
-- **Content:** URL link to X post — `https://x.com/Crypto_Chase/status/2086549462676066467`
-- **Classification:** Non-financial (Step 5A skip)
-
-**Decision Flow:**
-1. ✓ Decoded base64 event → valid JSON
-2. ✓ Fast-path check: `fast_path_alerted=false` → proceed with full processing
-3. ✓ Channel resolved to supporting channel for Crypto_Chase
-4. ✓ Username verified (crypto_chase matches trader's Discord handle)
-5. ✓ Cross-platform dedup: This is a link back to an X post (X is primary platform)
-6. ✓ Classification: Non-financial (message is URL-only with no analysis, trade decision, or market commentary)
-7. ✓ Action: Silent skip per Step 5A
-
-**Memory Updates:**
-- Added message ID `1536108400457425016` to `discord-trader-seen.txt`
-- Logged event to `memory/logs/2026-08-09.md` with classification and notes
-- No alert sent to Kyle (non-financial content)
+**No notification sent** — correctly classified as silent technical observation per established protocol. This aligns with prior "Fc btc 15m" entries that Kyle receives silently for memory tracking only.
