@@ -1,0 +1,54 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @Bitcoin_Astro"
+      },
+      "children": [
+        "event-desc",
+        "separator1",
+        "tweet-quote",
+        "separator2",
+        "classification-note"
+      ]
+    },
+    "event-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @PartisandeL on market expectations/outlook",
+        "variant": "body"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-quote": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Bitcoin_Astro",
+        "handle": "Bitcoin_Astro",
+        "text": "That's my view and expectations"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification-note": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read? Context from PartisandeL's original message would help determine if this is a Bitcoin timing prediction, BTC analysis confirmation, market direction opinion, or unrelated banter",
+        "type": "info"
+      }
+    }
+  }
+}

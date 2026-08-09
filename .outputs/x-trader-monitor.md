@@ -1,6 +1,7 @@
-## Summary
+🔍 *Calibration — @Bitcoin_Astro*
 
-**Skill: x-trader-monitor — Real-time X/Twitter trader event processing**
+Event: Reply to @PartisandeL on market expectations/outlook
+Bitcoin_Astro: "That's my view and expectations"
 
 **Event processed:**
 - **Trader**: @Bitcoin_Astro
@@ -23,3 +24,4 @@ Bitcoin_Astro: "Although 12th is quite important, 15/16 is my time window for ch
 Context: This is a reply to @Eriksoon4 about expected trend-change windows (likely August 12 vs 15/16 dates). Unable to decipher which asset/direction or personal action vs. opinion. Does this match a known thesis from Bitcoin_Astro, or should we track it?
 
 [View post](https://x.com/Bitcoin_Astro/status/2086520395805479096)
+Unable to classify — what's your read? (Context from PartisandeL's original message would help determine if this is a Bitcoin timing prediction, BTC analysis confirmation, market direction opinion, or unrelated banter)
