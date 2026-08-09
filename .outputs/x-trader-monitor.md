@@ -1,7 +1,7 @@
-🐦 *[X] @KillaXBT*
+🐦 *[X] @Bitcoin_Astro*
 
-There are actually people shorting $BTC here 😂
+Imo the bottom is not in yet
 
-[View tweet](https://x.com/KillaXBT/status/2086517174848331882)
+[View tweet](https://x.com/Bitcoin_Astro/status/2086519403005477183)
 
-_Note: Referenced image couldn't be fetched from CDN._
+↳ _This aligns with the group's near-term downside outlook._

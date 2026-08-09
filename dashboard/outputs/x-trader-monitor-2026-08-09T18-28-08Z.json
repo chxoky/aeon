@@ -1,0 +1,39 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_1",
+        "tweet_link",
+        "annotation"
+      ]
+    },
+    "tweet_1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Bitcoin_Astro",
+        "handle": "Bitcoin_Astro",
+        "text": "Imo the bottom is not in yet"
+      }
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Bitcoin_Astro/status/2086519403005477183"
+      }
+    },
+    "annotation": {
+      "type": "Text",
+      "props": {
+        "text": "This aligns with the group's near-term downside outlook.",
+        "variant": "muted"
+      }
+    }
+  }
+}
