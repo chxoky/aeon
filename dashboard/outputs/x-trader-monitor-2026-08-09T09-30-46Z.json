@@ -1,0 +1,59 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert-success",
+        "stack-details"
+      ]
+    },
+    "alert-success": {
+      "type": "Alert",
+      "props": {
+        "title": "Success",
+        "message": "x-trader-monitor executed successfully",
+        "type": "success"
+      }
+    },
+    "stack-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-classification",
+        "text-action"
+      ]
+    },
+    "text-classification": {
+      "type": "Text",
+      "props": {
+        "text": "trading_axe philosophical post classified as non-financial",
+        "variant": "body"
+      }
+    },
+    "text-action": {
+      "type": "Text",
+      "props": {
+        "text": "Action: skip (no alert sent)",
+        "variant": "muted"
+      }
+    }
+  }
+}
