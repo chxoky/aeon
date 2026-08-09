@@ -1,6 +1,7 @@
 Perfect! I've successfully executed the Discord Trader Monitor skill. Let me provide a summary:
+🔍 *Calibration — [DC: HCH — Free]*
 
-## Summary
+heartcanhodl: "You missed it, didn't you?"
 
 **Event processed:** Discord message from HeartCanHodl in HCH — Chat (supporting channel)
 - **Message ID:** 1536142292941803592
@@ -17,3 +18,4 @@ Perfect! I've successfully executed the Discord Trader Monitor skill. Let me pro
 ✅ Added message ID to discord-trader-seen.txt
 
 **No notification sent** — correctly classified as silent technical observation per established protocol. This aligns with prior "Fc btc 15m" entries that Kyle receives silently for memory tracking only.
+Unable to classify — what's your read?
