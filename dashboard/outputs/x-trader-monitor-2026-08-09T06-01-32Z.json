@@ -1,0 +1,128 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "calibration_header",
+        "separator_1",
+        "event_section",
+        "separator_2",
+        "quote_card",
+        "separator_3",
+        "context_section",
+        "separator_4",
+        "classification_alert"
+      ]
+    },
+    "calibration_header": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @trading_axe",
+        "level": "h2"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "event_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event_label",
+        "event_description"
+      ]
+    },
+    "event_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h4"
+      }
+    },
+    "event_description": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to @FredWick7, likely discussing Robinhood/Vlad (likely CEO/leadership discussion context)"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "quote_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "trading_axe",
+        "handle": "trading_axe",
+        "text": "It's not about the person, it's about the app.\n\nThink of how many people use Robinhood.\n\n~ Dr. Axius."
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_label",
+        "context_content"
+      ]
+    },
+    "context_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "context_content": {
+      "type": "Text",
+      "props": {
+        "text": "trading_axe recently focused on Robinhood Chain (Aug 08 SOL comment on \"attention rotating to Robinhood chain\"), CASHCAT reflexivity thesis (Aug 08 21:35Z), ETH.D leading indicator (Aug 08 04:05Z). This reads as confidence in Robinhood's platform product (app + user base), but unclear: Is this bullish on $HOOD stock narrative? Robinhood Chain ecosystem play? Macro commentary?"
+      }
+    },
+    "separator_4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read?",
+        "type": "info"
+      }
+    }
+  }
+}
