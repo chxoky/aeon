@@ -99,6 +99,7 @@
   - Aug 08 23:18Z — informational: SOXL 40% two-day rally validates leveraged ETF technical signal reliability [$SOXL]
   - Aug 08 23:20Z — ambiguous: "Cheers to 10k" + chart (CDN blocked); which ticker hit 10K? HR-2 calibration
   - Aug 09 18:32Z — ambiguous: "@PartisandeL That's my view and expectations" — reply-dependent; HR-2 calibration
+  - Aug 09 21:50Z — skip: banter reply to @GOLDMANTRACKS; historical reflection on past BTC long 85k (gold rotation thesis); "both nuked together" [2086570842293719127]
 
 ## trading_axe
 - Platforms: X (primary; X-only)
