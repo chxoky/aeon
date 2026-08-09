@@ -1,0 +1,289 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "market context — 2026-08-09"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stack_take",
+        "sep_1",
+        "stack_prices",
+        "sep_2",
+        "stack_metrics",
+        "sep_3",
+        "stack_narrative",
+        "sep_4",
+        "stack_signal",
+        "sep_5",
+        "stack_focus"
+      ]
+    },
+    "stack_take": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "text_take_label",
+        "badge_chop",
+        "text_conviction"
+      ]
+    },
+    "text_take_label": {
+      "type": "Text",
+      "props": {
+        "text": "take:"
+      },
+      "children": []
+    },
+    "badge_chop": {
+      "type": "Badge",
+      "props": {
+        "text": "chop"
+      },
+      "children": []
+    },
+    "text_conviction": {
+      "type": "Text",
+      "props": {
+        "text": "(conviction low)",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack_prices": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat_btc",
+        "stat_eth",
+        "stat_fg"
+      ]
+    },
+    "stat_btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$64,989",
+        "delta": "−0.1%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "stat_eth": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$1,922",
+        "delta": "−0.2%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "stat_fg": {
+      "type": "Stat",
+      "props": {
+        "label": "F&G (Fear)",
+        "value": "31"
+      },
+      "children": []
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack_metrics": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "progress_breadth",
+        "stat_dex_vol"
+      ]
+    },
+    "progress_breadth": {
+      "type": "Progress",
+      "props": {
+        "value": 6,
+        "max": 20,
+        "label": "breadth"
+      },
+      "children": []
+    },
+    "stat_dex_vol": {
+      "type": "Stat",
+      "props": {
+        "label": "DEX vol",
+        "value": "$4.39B",
+        "delta": "−32% vs 7d avg",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack_narrative": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_narrative",
+        "text_narrative",
+        "badge_narrative_status",
+        "stat_zec"
+      ]
+    },
+    "heading_narrative": {
+      "type": "Heading",
+      "props": {
+        "text": "top narrative",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "text_narrative": {
+      "type": "Text",
+      "props": {
+        "text": "ZEC/XMR privacy"
+      },
+      "children": []
+    },
+    "badge_narrative_status": {
+      "type": "Badge",
+      "props": {
+        "text": "rising"
+      },
+      "children": []
+    },
+    "stat_zec": {
+      "type": "Stat",
+      "props": {
+        "label": "ZEC",
+        "value": "+10.8%",
+        "delta": "7d",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "sep_4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack_signal": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_signal",
+        "text_signal",
+        "badge_signal_status",
+        "stat_tao"
+      ]
+    },
+    "heading_signal": {
+      "type": "Heading",
+      "props": {
+        "text": "new signal",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "text_signal": {
+      "type": "Text",
+      "props": {
+        "text": "TAO #2 trending"
+      },
+      "children": []
+    },
+    "badge_signal_status": {
+      "type": "Badge",
+      "props": {
+        "text": "emerging"
+      },
+      "children": []
+    },
+    "stat_tao": {
+      "type": "Stat",
+      "props": {
+        "label": "TAO",
+        "value": "+5.3%",
+        "delta": "24h",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "sep_5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack_focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "text_focus_label",
+        "badge_hormuz"
+      ]
+    },
+    "text_focus_label": {
+      "type": "Text",
+      "props": {
+        "text": "hot market:"
+      },
+      "children": []
+    },
+    "badge_hormuz": {
+      "type": "Badge",
+      "props": {
+        "text": "Hormuz"
+      },
+      "children": []
+    }
+  }
+}
