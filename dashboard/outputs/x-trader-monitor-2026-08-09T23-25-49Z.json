@@ -1,0 +1,65 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "main-stack"
+      ]
+    },
+    "main-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-section",
+        "event-section",
+        "tweet-section",
+        "alert-section",
+        "link-section"
+      ]
+    },
+    "heading-section": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @trading_axe",
+        "level": "h2"
+      }
+    },
+    "event-section": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @theunipcs on unspecified topic"
+      }
+    },
+    "tweet-section": {
+      "type": "TweetCard",
+      "props": {
+        "author": "trading_axe",
+        "text": "This."
+      }
+    },
+    "alert-section": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read? Original post context unavailable; trading_axe often requires calibration on cryptic replies.",
+        "type": "info"
+      }
+    },
+    "link-section": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View original post on X",
+        "href": "https://x.com/trading_axe/status/2086594117404946929",
+        "source": "x.com"
+      }
+    }
+  }
+}
