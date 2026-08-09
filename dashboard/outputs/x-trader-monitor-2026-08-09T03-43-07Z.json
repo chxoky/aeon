@@ -1,0 +1,83 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stack_header",
+        "stack_details"
+      ]
+    },
+    "stack_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_status",
+        "text_content"
+      ]
+    },
+    "badge_status": {
+      "type": "Badge",
+      "props": {
+        "text": "✓ Success",
+        "variant": "default"
+      }
+    },
+    "text_content": {
+      "type": "Text",
+      "props": {
+        "text": "HeartCanHodl meme-sentiment post"
+      }
+    },
+    "stack_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "badge_action",
+        "badge_mode",
+        "text_timestamp"
+      ]
+    },
+    "badge_action": {
+      "type": "Badge",
+      "props": {
+        "text": "skip",
+        "variant": "outline"
+      }
+    },
+    "badge_mode": {
+      "type": "Badge",
+      "props": {
+        "text": "real-time",
+        "variant": "secondary"
+      }
+    },
+    "text_timestamp": {
+      "type": "Text",
+      "props": {
+        "text": "2026-08-09 03:40 UTC",
+        "variant": "caption"
+      }
+    }
+  }
+}
