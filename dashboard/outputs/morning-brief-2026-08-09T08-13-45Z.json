@@ -1,0 +1,354 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-08-09"
+      },
+      "children": [
+        "focus-section",
+        "sep1",
+        "since-section",
+        "sep2",
+        "watch-section",
+        "sep3",
+        "running-section"
+      ]
+    },
+    "focus-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus-heading",
+        "focus-1",
+        "focus-2",
+        "focus-3"
+      ]
+    },
+    "focus-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "focus-1": {
+      "type": "Text",
+      "props": {
+        "text": "1. WR BTC September puts — why now: Sunday theta burning hardest; 20 DTE, approve or pass today",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "focus-2": {
+      "type": "Text",
+      "props": {
+        "text": "2. HCH net-short trigger live — why now: BTC $64,797, $200 below HCH's declared 65K regime flip",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "focus-3": {
+      "type": "Text",
+      "props": {
+        "text": "3. CPI Aug 12 escalation — why now: Cleveland nowcast revised 3.22%→3.45%; Sep hike odds 57%",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "since-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "since-heading",
+        "since-1",
+        "since-2",
+        "since-3",
+        "since-4",
+        "since-5"
+      ]
+    },
+    "since-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "since-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-stacked-1",
+        "since-text-1"
+      ]
+    },
+    "badge-stacked-1": {
+      "type": "Badge",
+      "props": {
+        "text": "stacked",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "since-text-1": {
+      "type": "Text",
+      "props": {
+        "text": "HCH added SOL/PEPE/SPCX (+4% combined) + BTC +2.5% short; declared net-short regime flip at 65K BTC / 1.9-2.0K ETH",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "since-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-target",
+        "since-text-2"
+      ]
+    },
+    "badge-target": {
+      "type": "Badge",
+      "props": {
+        "text": "on target",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "since-text-2": {
+      "type": "Text",
+      "props": {
+        "text": "KAITO short down 30%+ below HCH alert entry; no action needed",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "since-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-emerging",
+        "since-text-3"
+      ]
+    },
+    "badge-emerging": {
+      "type": "Badge",
+      "props": {
+        "text": "emerging",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "since-text-3": {
+      "type": "Text",
+      "props": {
+        "text": "CASHCAT 3-trader convergence (trading_axe, bull_genius, ryzzqq) + $HOOD/Robinhood Chain calibration pending Kyle response",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "since-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-stuck-1",
+        "since-text-4"
+      ]
+    },
+    "badge-stuck-1": {
+      "type": "Badge",
+      "props": {
+        "text": "stuck",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "since-text-4": {
+      "type": "Text",
+      "props": {
+        "text": "RESEND_API_KEY invalid — email broken 2nd consecutive day (Aug 08 + 09)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "since-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-stuck-2",
+        "since-text-5"
+      ]
+    },
+    "badge-stuck-2": {
+      "type": "Badge",
+      "props": {
+        "text": "stuck",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "since-text-5": {
+      "type": "Text",
+      "props": {
+        "text": "traders.md 390KB (ISS-004 open/high); trader-memory-compact scheduled 20:00 UTC tonight",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "watch-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "watch-heading",
+        "watch-text"
+      ]
+    },
+    "watch-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "watch-text": {
+      "type": "Text",
+      "props": {
+        "text": "CPI Aug 12 nowcast revised to 3.45% — Sep hike at 57%; hot print tests BTC 62.7K monthly open (KillaXBT floor)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "running-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "running-heading",
+        "running-tasks"
+      ]
+    },
+    "running-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "running-tasks": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "run-1",
+        "run-2",
+        "run-3",
+        "run-4",
+        "run-5",
+        "run-6"
+      ]
+    },
+    "run-1": {
+      "type": "Text",
+      "props": {
+        "text": "token-alert @ 12:00 UTC",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "run-2": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "run-3": {
+      "type": "Text",
+      "props": {
+        "text": "market-context-refresh @ 13:00 UTC",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "run-4": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "run-5": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat (08:00 / 14:00 / 20:00 UTC)",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "run-6": {
+      "type": "Text",
+      "props": {
+        "text": "x-trader-monitor / discord-trader-monitor (real-time)",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
