@@ -1,7 +1,11 @@
+Pushed. Done.
+
 ## Summary
 
-**traders.md:** 118,755 → 25,763 bytes (4.6x reduction). Merged duplicate `KillaXBT` and `bull_genius` sections, collapsed HeartCanHodl's 30+ fragmented Event/Last-seen blocks into one canonical section with 24 events, trimmed all traders to ≤25 rolling events. Dropped skips, per-run machinery, and resolved dead-ends throughout.
+**traders.md**: 393,638 → 36,547 bytes (90.7% reduction), 1070 → 257 lines. Merged 6 traders with duplicate sections (HeartCanHodl×3, Stoiiic×3, KillaXBT×2, swarmister×2, bull_genius×2, trading_axe×2) into 11 canonical sections. Events rolling capped at ≤25 per trader.
 
-**trader-baseline-10d.md:** Regenerated for Jul 23–Aug 02. Key pivots captured: HCH fully rotated to net-long (~50% deployed, diversification complete Aug 02); WR rolled AAPL Oct→Sep puts after +$30–50K close; KillaXBT HYPE $51.55 long entry. Group convergence: 4-trader net-long cluster (HCH/KillaXBT/bull_genius/t_in_crypto) vs WR/Stoiiic/Bitcoin_Astro cautious/bearish on near-term structure.
+**trader-baseline-10d.md**: Regenerated for Jul 30–Aug 09 window, 7,330 bytes. 11 traders, ≤1KB each — current positions, thesis, calibration rules, last-seen timestamps.
 
-No open `TRADERS_MD_OVERSIZE` issue found in the issues index — none to close. Committed as `bc1cb3c`.
+**ISS-004**: Resolved. INDEX.md Open section now empty.
+
+**Committed**: `chore(trader-memory-compact): 393638→36547 bytes` pushed to main.
