@@ -1,0 +1,794 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Token Movers — 2026-08-09"
+      },
+      "children": [
+        "summary",
+        "sep1",
+        "winners_heading",
+        "winners_list",
+        "sep2",
+        "losers_heading",
+        "losers_list",
+        "sep3",
+        "trending_heading",
+        "trending_list",
+        "sep4",
+        "notable_heading",
+        "notable_list"
+      ]
+    },
+    "summary": {
+      "type": "Text",
+      "props": {
+        "text": "Mild green — 60% of filtered top-100 coins positive 24h, median +0.6%; micro-cap pumps (TUT +326%, BEAT +48%) dominate headlines while large-caps drift.",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator"
+    },
+    "winners_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Winners (24h)",
+        "level": "h2"
+      }
+    },
+    "winners_list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "w1",
+        "w2",
+        "w3",
+        "w4",
+        "w5",
+        "w6",
+        "w7",
+        "w8",
+        "w9",
+        "w10"
+      ]
+    },
+    "w1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "w1_text",
+        "w1_tags"
+      ]
+    },
+    "w1_text": {
+      "type": "Text",
+      "props": {
+        "text": "1. TUT (Tutorial) — $0.1471  +325.8% / 7d +1007.8% / 1h +8.5%  •  $496M / #222"
+      }
+    },
+    "w1_tags": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "w1_badge1",
+        "w1_badge2"
+      ]
+    },
+    "w1_badge1": {
+      "type": "Badge",
+      "props": {
+        "text": "BREAKOUT"
+      }
+    },
+    "w1_badge2": {
+      "type": "Badge",
+      "props": {
+        "text": "PUMP-RISK",
+        "variant": "destructive"
+      }
+    },
+    "w2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "w2_text",
+        "w2_tags"
+      ]
+    },
+    "w2_text": {
+      "type": "Text",
+      "props": {
+        "text": "2. BEAT (Audiera) — $3.25  +48.0% / 7d −10.8% / 1h +2.4%  •  $82.7M / #64"
+      }
+    },
+    "w2_tags": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "w2_badge1"
+      ]
+    },
+    "w2_badge1": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "secondary"
+      }
+    },
+    "w3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "w3_text",
+        "w3_tags"
+      ]
+    },
+    "w3_text": {
+      "type": "Text",
+      "props": {
+        "text": "3. BTW (Bitway) — $0.1873  +28.8% / 7d +113.6% / 1h −12.8%  •  $32.5M / #107"
+      }
+    },
+    "w3_tags": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "w3_badge1"
+      ]
+    },
+    "w3_badge1": {
+      "type": "Badge",
+      "props": {
+        "text": "BREAKOUT"
+      }
+    },
+    "w4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "w4_text",
+        "w4_tags"
+      ]
+    },
+    "w4_text": {
+      "type": "Text",
+      "props": {
+        "text": "4. SKYAI — $0.1325  +12.5% / 7d +350.0% / 1h −3.0%  •  $29.7M / #212"
+      }
+    },
+    "w4_tags": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "w4_badge1"
+      ]
+    },
+    "w4_badge1": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+UP"
+      }
+    },
+    "w5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "w5_text",
+        "w5_tags"
+      ]
+    },
+    "w5_text": {
+      "type": "Text",
+      "props": {
+        "text": "5. PUMP (Pump.fun) — $0.002511  +11.1% / 7d +13.5% / 1h +1.6%  •  $73.2M / #68"
+      }
+    },
+    "w5_tags": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "w5_badge1"
+      ]
+    },
+    "w5_badge1": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+UP"
+      }
+    },
+    "w6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "w6_text"
+      ]
+    },
+    "w6_text": {
+      "type": "Text",
+      "props": {
+        "text": "6. PYTH (Pyth Network) — $0.04277  +9.5% / 7d +4.7% / 1h 0.0%  •  $22.1M / #121"
+      }
+    },
+    "w7": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "w7_text"
+      ]
+    },
+    "w7_text": {
+      "type": "Text",
+      "props": {
+        "text": "7. CC (Canton) — $0.09732  +8.9% / 7d −15.0% / 1h +1.3%  •  $21.0M / #25"
+      }
+    },
+    "w8": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "w8_text"
+      ]
+    },
+    "w8_text": {
+      "type": "Text",
+      "props": {
+        "text": "8. TEL (Telcoin) — $0.001628  +8.6% / 7d −2.5% / 1h +0.5%  •  $1.9M / #189"
+      }
+    },
+    "w9": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "w9_text"
+      ]
+    },
+    "w9_text": {
+      "type": "Text",
+      "props": {
+        "text": "9. JTO (Jito) — $0.5132  +5.9% / 7d +3.2% / 1h +0.3%  •  $16.0M / #136"
+      }
+    },
+    "w10": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "w10_text"
+      ]
+    },
+    "w10_text": {
+      "type": "Text",
+      "props": {
+        "text": "10. TAO (Bittensor) — $205.12  +5.0% / 7d +5.4% / 1h −0.2%  •  $107M / #42"
+      }
+    },
+    "sep2": {
+      "type": "Separator"
+    },
+    "losers_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Losers (24h)",
+        "level": "h2"
+      }
+    },
+    "losers_list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "l1",
+        "l2",
+        "l3",
+        "l4",
+        "l5",
+        "l6",
+        "l7",
+        "l8",
+        "l9",
+        "l10"
+      ]
+    },
+    "l1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "l1_text",
+        "l1_tags"
+      ]
+    },
+    "l1_text": {
+      "type": "Text",
+      "props": {
+        "text": "1. CYS (Cysic) — $0.8273  −16.6% / 7d +179.6% / 1h −1.9%  •  $58.3M / #211"
+      }
+    },
+    "l1_tags": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "l1_badge1"
+      ]
+    },
+    "l1_badge1": {
+      "type": "Badge",
+      "props": {
+        "text": "CAPITULATION",
+        "variant": "destructive"
+      }
+    },
+    "l2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "l2_text"
+      ]
+    },
+    "l2_text": {
+      "type": "Text",
+      "props": {
+        "text": "2. B (BUILDon) — $0.1414  −13.0% / 7d −10.8% / 1h −0.6%  •  $5.4M / #202"
+      }
+    },
+    "l3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "l3_text",
+        "l3_tags"
+      ]
+    },
+    "l3_text": {
+      "type": "Text",
+      "props": {
+        "text": "3. KAITO — $0.7074  −10.2% / 7d −39.6% / 1h +0.4%  •  $83.6M / #178"
+      }
+    },
+    "l3_tags": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "l3_badge1"
+      ]
+    },
+    "l3_badge1": {
+      "type": "Badge",
+      "props": {
+        "text": "CAPITULATION",
+        "variant": "destructive"
+      }
+    },
+    "l4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "l4_text"
+      ]
+    },
+    "l4_text": {
+      "type": "Text",
+      "props": {
+        "text": "4. Q (Quack AI) — $0.02138  −7.9% / 7d −8.4% / 1h −0.2%  •  $1.9M / #284"
+      }
+    },
+    "l5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "l5_text"
+      ]
+    },
+    "l5_text": {
+      "type": "Text",
+      "props": {
+        "text": "5. PIEVERSE — $0.8017  −6.1% / 7d +7.6% / 1h −0.5%  •  $11.0M / #148"
+      }
+    },
+    "l6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "l6_text"
+      ]
+    },
+    "l6_text": {
+      "type": "Text",
+      "props": {
+        "text": "6. RUNE (THORChain) — $0.4309  −4.1% / 7d −2.4% / 1h −0.1%  •  $21.4M / #196"
+      }
+    },
+    "l7": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "l7_text"
+      ]
+    },
+    "l7_text": {
+      "type": "Text",
+      "props": {
+        "text": "7. KITE — $0.09828  −3.8% / 7d +3.3% / 1h −0.7%  •  $11.4M / #144"
+      }
+    },
+    "l8": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "l8_text"
+      ]
+    },
+    "l8_text": {
+      "type": "Text",
+      "props": {
+        "text": "8. XEC (eCash) — $0.0000068  −3.6% / 7d +0.1% / 1h 0.0%  •  $7.3M / #208"
+      }
+    },
+    "l9": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "l9_text"
+      ]
+    },
+    "l9_text": {
+      "type": "Text",
+      "props": {
+        "text": "9. ANTFUN — $0.04246  −2.8% / 7d −3.1% / 1h −0.1%  •  $21.3M / #134"
+      }
+    },
+    "l10": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "l10_text"
+      ]
+    },
+    "l10_text": {
+      "type": "Text",
+      "props": {
+        "text": "10. AERO (Aerodrome Finance) — $0.4304  −2.0% / 7d +7.2% / 1h −0.1%  •  $5.4M / #106"
+      }
+    },
+    "sep3": {
+      "type": "Separator"
+    },
+    "trending_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending",
+        "level": "h2"
+      }
+    },
+    "trending_list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7"
+      ]
+    },
+    "t1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "t1_text",
+        "t1_tags"
+      ]
+    },
+    "t1_text": {
+      "type": "Text",
+      "props": {
+        "text": "1. TUT (Tutorial) — #222, $0.1471, +325.8%"
+      }
+    },
+    "t1_tags": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "t1_badge1",
+        "t1_badge2"
+      ]
+    },
+    "t1_badge1": {
+      "type": "Badge",
+      "props": {
+        "text": "BREAKOUT"
+      }
+    },
+    "t1_badge2": {
+      "type": "Badge",
+      "props": {
+        "text": "PUMP-RISK",
+        "variant": "destructive"
+      }
+    },
+    "t2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "t2_text"
+      ]
+    },
+    "t2_text": {
+      "type": "Text",
+      "props": {
+        "text": "2. CASHCAT (Cash Cat) — #248, +17.3%"
+      }
+    },
+    "t3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "t3_text",
+        "t3_tags"
+      ]
+    },
+    "t3_text": {
+      "type": "Text",
+      "props": {
+        "text": "3. SKYAI — #211, $0.1325, +29.9%"
+      }
+    },
+    "t3_tags": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "t3_badge1"
+      ]
+    },
+    "t3_badge1": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+UP"
+      }
+    },
+    "t4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "t4_text",
+        "t4_tags"
+      ]
+    },
+    "t4_text": {
+      "type": "Text",
+      "props": {
+        "text": "4. PUMP (Pump.fun) — #66, $0.002511, +10.0%"
+      }
+    },
+    "t4_tags": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "t4_badge1"
+      ]
+    },
+    "t4_badge1": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+UP"
+      }
+    },
+    "t5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "t5_text"
+      ]
+    },
+    "t5_text": {
+      "type": "Text",
+      "props": {
+        "text": "5. SOL (Solana) — #7, $76.28, +2.3%"
+      }
+    },
+    "t6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "t6_text"
+      ]
+    },
+    "t6_text": {
+      "type": "Text",
+      "props": {
+        "text": "6. CC (Canton) — #24, $0.09732, +8.9%"
+      }
+    },
+    "t7": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "t7_text"
+      ]
+    },
+    "t7_text": {
+      "type": "Text",
+      "props": {
+        "text": "7. PENGU (Pudgy Penguins) — #108, +0.6%"
+      }
+    },
+    "sep4": {
+      "type": "Separator"
+    },
+    "notable_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h2"
+      }
+    },
+    "notable_list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "n1",
+        "n2",
+        "n3",
+        "n4"
+      ]
+    },
+    "n1": {
+      "type": "Alert",
+      "props": {
+        "title": "TUT",
+        "message": "#222 +326% on $496M vol, 7d +1008% — [BREAKOUT] confirmed but [PUMP-RISK] high; micro-cap supply squeeze pattern",
+        "type": "info"
+      }
+    },
+    "n2": {
+      "type": "Alert",
+      "props": {
+        "title": "BEAT",
+        "message": "+48% but 7d −10.8% — [FADE], relief bounce in a downtrend, not structural",
+        "type": "info"
+      }
+    },
+    "n3": {
+      "type": "Alert",
+      "props": {
+        "title": "BTW",
+        "message": "reversed from Aug 08 −10.4% loser to +28.8% on sustained 7d +114% — [BREAKOUT] with momentum confirmation",
+        "type": "info"
+      }
+    },
+    "n4": {
+      "type": "Alert",
+      "props": {
+        "title": "CYS & KAITO",
+        "message": "CYS: post-BREAKOUT blow-off deepens −16.6%, vol/mcap 0.44 — [CAPITULATION]; was trading at $1.04 Aug 08 peak. KAITO: −10.2% continues 7d −40% slide — [CAPITULATION]; HCH short-thesis on target per alert-entry post. CASHCAT: trending; trading_axe BONK-vibes thesis still live from Aug 08 23:35Z — no trade signal, pattern watch",
+        "type": "warning"
+      }
+    }
+  }
+}
