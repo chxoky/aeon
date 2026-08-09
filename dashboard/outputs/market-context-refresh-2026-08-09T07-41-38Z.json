@@ -1,0 +1,270 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Market Context — 2026-08-09"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stack-take",
+        "sep-1",
+        "grid-prices",
+        "stack-indicators",
+        "sep-2",
+        "stack-narratives",
+        "sep-3",
+        "stack-markets",
+        "sep-4",
+        "alert-cpi"
+      ]
+    },
+    "stack-take": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-chop",
+        "text-conviction"
+      ]
+    },
+    "badge-chop": {
+      "type": "Badge",
+      "props": {
+        "text": "chop",
+        "variant": "default"
+      }
+    },
+    "text-conviction": {
+      "type": "Text",
+      "props": {
+        "text": "conviction low",
+        "variant": "muted"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "grid-prices": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat-btc",
+        "stat-eth"
+      ]
+    },
+    "stat-btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$64,797",
+        "delta": "−0.25%",
+        "trend": "down"
+      }
+    },
+    "stat-eth": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$1,916",
+        "delta": "+0.11%",
+        "trend": "up"
+      }
+    },
+    "stack-indicators": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat-fg",
+        "stat-breadth",
+        "stat-dex"
+      ]
+    },
+    "stat-fg": {
+      "type": "Stat",
+      "props": {
+        "label": "Fear & Greed Index",
+        "value": "31",
+        "trend": "down"
+      }
+    },
+    "stat-breadth": {
+      "type": "Stat",
+      "props": {
+        "label": "Market Breadth",
+        "value": "11/20"
+      }
+    },
+    "stat-dex": {
+      "type": "Stat",
+      "props": {
+        "label": "DEX Volume",
+        "value": "$4.40B",
+        "delta": "−33% (31% below 7d avg)",
+        "trend": "down"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack-narratives": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-narratives",
+        "stack-narrative-badges"
+      ]
+    },
+    "heading-narratives": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Narratives",
+        "level": "h3"
+      }
+    },
+    "stack-narrative-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-zec",
+        "badge-sol"
+      ]
+    },
+    "badge-zec": {
+      "type": "Badge",
+      "props": {
+        "text": "ZEC/XMR privacy (rising)",
+        "variant": "secondary"
+      }
+    },
+    "badge-sol": {
+      "type": "Badge",
+      "props": {
+        "text": "SOL relative strength (rising)",
+        "variant": "secondary"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack-markets": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-markets",
+        "stack-hormuz",
+        "stack-sep-cut"
+      ]
+    },
+    "heading-markets": {
+      "type": "Heading",
+      "props": {
+        "text": "Hot Markets",
+        "level": "h3"
+      }
+    },
+    "stack-hormuz": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-hormuz",
+        "progress-hormuz"
+      ]
+    },
+    "text-hormuz": {
+      "type": "Text",
+      "props": {
+        "text": "Hormuz normal by Aug 31 (YES)",
+        "variant": "body"
+      }
+    },
+    "progress-hormuz": {
+      "type": "Progress",
+      "props": {
+        "value": 6.5,
+        "max": 100,
+        "label": "6.5%"
+      }
+    },
+    "stack-sep-cut": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-sep-cut",
+        "progress-sep-cut"
+      ]
+    },
+    "text-sep-cut": {
+      "type": "Text",
+      "props": {
+        "text": "Sep cut priced out",
+        "variant": "body"
+      }
+    },
+    "progress-sep-cut": {
+      "type": "Progress",
+      "props": {
+        "value": 1.75,
+        "max": 100,
+        "label": "1.75%"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert-cpi": {
+      "type": "Alert",
+      "props": {
+        "title": "CPI Aug 12",
+        "message": "In 3 days — regime binary",
+        "type": "warning"
+      }
+    }
+  }
+}

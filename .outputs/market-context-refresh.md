@@ -1,9 +1,8 @@
-market context — 2026-08-08
+market context — 2026-08-09
 
 take: chop (conviction low)
-BTC $64,973 (−0.32%) / ETH $1,918 (−0.52%) · F&G 30 (Fear)
-breadth 10/20 · DEX $6.57B (flat) · TVL flat
+BTC $64,797 (−0.25%) / ETH $1,916 (+0.11%) · F&G 31 (Fear)
+breadth 11/20 · DEX vol $4.40B (−33%, 31% below 7d avg)
 top narrative: ZEC/XMR privacy (rising) · SOL relative strength (rising)
-new: SUI trending (emerging) · CYS blow-off confirmed (fading)
-hot market: "Fed rate hike in 2026?" YES 54.5%
-CPI Aug 12 = next binary
+hot market: "Hormuz normal by Aug 31" YES 6.5% — Sep cut priced out at 1.75%
+⚠ CPI Aug 12 in 3 days — regime binary
