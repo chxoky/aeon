@@ -1,26 +1,13 @@
-🐦 *[X] @Wild_Randomness*
+🐦 *[X] @KillaXBT*
 
-ETH technical chart structure — 'Tick Tock' timing signal
+$BTC
 
-**4-chart analysis:** Major May-Jun high → capitulation dump → recovery bounce → August consolidation with oscillating price action (swing highs marked red ↓, lows marked green ↑). Current range: -1,564 to -1,897 USDT (consolidation zone).
+Local tops and bottoms almost always form through multiple liquidity sweeps.
 
-**Interpretation:** 'Tick Tock' references alternating price movement pattern or critical timing inflection point ahead. Aligns with WR's macro bear 'Jump the Shark' thesis and 15-20 August 'most important' window conviction (timing thesis).
+It's textbook market psychology. These are the areas where the majority of stops are positioned. People expect the range to break, so price sweeps the liquidity, traps participants, and then reclaims the range because its usually the period everyone begins to lower their targets.
 
-[View post](https://x.com/Wild_Randomness/status/2086835696887803943)
-## Summary
+Once the reclaim happens, people short the entire move back up because they've been fxcked the entire move down. They're constantly reacting instead of anticipating, executing at the worst possible time.
 
-**Event processed: HeartCanHodl tweet (2086835982830358794) at 15:24 UTC**
+Study. Liquidity gets swept. The range gets reclaimed. And almost every time, conviction is at its lowest during the deviation.
 
-**Classification: Non-financial (Step 4A — Entertainment Meme)**
-
-The tweet contains a movie/TV scene image (tactical action character) with only a t.co link as text. No financial content, market analysis, or trade signals detected.
-
-**Action taken:**
-- ✅ Silent skip — no notification sent
-- ✅ Tweet ID added to `memory/x-trader-seen.txt` (dedup protection)
-- ✅ Log entry appended to `memory/logs/2026-08-10.md`
-- ✅ Traders.md unchanged (non-financial posts not logged per size-discipline rules)
-
-**Cross-platform dedup check:** HeartCanHodl (dual-platform trader) last Discord activity Aug 10 08:49Z (portfolio snapshot); 6.5-hour gap with no matching topic, so no dedup conflict.
-
-**Status:** Skill execution complete. Kyle not notified. Memory logged for audit trail.
+[View tweet](https://x.com/KillaXBT/status/2086846284057514282)

@@ -1,0 +1,41 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-card",
+        "separator",
+        "link-tweet"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "$BTC\n\nLocal tops and bottoms almost always form through multiple liquidity sweeps.\n\nIt's textbook market psychology. These are the areas where the majority of stops are positioned. People expect the range to break, so price sweeps the liquidity, traps participants, and then reclaims the range because its usually the period everyone begins to lower their targets.\n\nOnce the reclaim happens, people short the entire move back up because they've been fxcked the entire move down. They're constantly reacting instead of anticipating, executing at the worst possible time.\n\nStudy. Liquidity gets swept. The range gets reclaimed. And almost every time, conviction is at its lowest during the deviation."
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2086846284057514282"
+      },
+      "children": []
+    }
+  }
+}

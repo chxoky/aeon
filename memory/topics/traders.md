@@ -75,6 +75,7 @@
   - Aug 10 10:40Z — informational: BTC 14th watch-date analysis — 8/10 historical instances showed negative reaction around 14th; 2 exceptions bullish when BTC ranging/pivoting; charts + conviction on structure/sentiment leading into key date [2086764494110261369]
   - Aug 10 13:03Z — informational: BTC accumulation thesis via Delta (Net Miner Multiples); indicator green for months confirms whale/institutional accumulation; predicts transition to orange → larger upside move; BitBO chart validation [$BTC] [2086800481704403222]
   - Aug 10 13:41Z — informational: USDT 1B mint observation; historical precedent (2022 mints → bottom + 56% BTC rally $16K→$25K); macro bottom signal implication [$BTC] [2086810108185526653]
+  - Aug 10 16:05Z — informational-pedagogical: Market psychology on liquidity sweeps + local tops/bottoms; textbook pattern analysis with labeled sweep/reclaim chart; conviction messaging on conviction-lowest-during-deviation insight [$BTC] [2086846284057514282]
 
 ## Wild_Randomness
 - Platforms: X (primary; X-only)
