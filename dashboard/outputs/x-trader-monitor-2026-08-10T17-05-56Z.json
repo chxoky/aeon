@@ -1,0 +1,38 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet-main",
+        "sep-1",
+        "link-view"
+      ]
+    },
+    "tweet-main": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Left-tail theory of mine:\n\nI know many of you are getting excited about Saylor selling a couple 100m (0.13% of his holdings) tranches over the past month and price remaining flat (bullish!)\n\nBut I posit that there may be sizeable latent sell pressure from large entities as they await for Saylor to fix his mess. MSTR/STRC recovery thesis = downstream catalyst for extended downside if macro shorts crowded on bottom thesis.\n\nCharts: BTC DVOL ATL, market vol exhausted before potential relief rally."
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link-view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2086860622311125082"
+      }
+    }
+  }
+}
