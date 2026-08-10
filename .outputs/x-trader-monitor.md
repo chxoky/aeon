@@ -1,11 +1,9 @@
-🐦 *[X] @Wild_Randomness*
+🐦 *[X] @KillaXBT*
 
-Left-tail theory of mine:
+If we go to 54K and I bought at 65K I couldn't give 2 shits when we are at 150K.
 
-I know many of you are getting excited about Saylor selling a couple 100m (0.13% of his holdings‧) tranches over the past month and price remaining flat (bullish!)
+Broke mentality
 
-But I posit that there may be sizeable latent sell pressure from large entities as they await for Saylor to fix his mess. MSTR/STRC recovery thesis = downstream catalyst for extended downside if macro shorts crowded on bottom thesis.
+[View tweet](https://x.com/KillaXBT/status/2086861583838294150)
 
-Charts: BTC DVOL ATL, market vol exhausted before potential relief rally.
-
-[View tweet](https://x.com/Wild_Randomness/status/2086860622311125082)
+↳ _Reinforces structural bull conviction: willing to accumulate down to 54K, targeting 150K exit. Aligns with documented BTC DCA thesis (~20 BTC target); diverges from HCH's current net-short regime._
