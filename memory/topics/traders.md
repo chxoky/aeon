@@ -187,6 +187,7 @@
   - Aug 07 17:46Z — informational: BTC CVD indicator flip at supply zone 65.2-65.7K; technical observation [$BTC]
   - Aug 07 17:48Z — informational: BTC perps-spot divergence — perps holding strength while SPOT declining sharply [$BTC]
   - Aug 10 06:05Z — ambiguous: URL-only post, no image context in payload [2086695477127389450]
+  - Aug 10 15:16:59Z — ambiguous: "washed on engagement." — cryptic phrase; could be trade comment, personal banter, or technical observation; HR-2 calibration required [2086834202218266939]
 
 ## bull_genius
 - Platforms: X (primary; X-only)
