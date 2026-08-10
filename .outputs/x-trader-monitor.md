@@ -1,16 +1,15 @@
-🔍 *Calibration — @Wild_Randomness*
+🐦 *[X] @bull_genius*
 
-Event: Reply to @larrylegend718 (context external/unavailable)
+market immediately served a sharp dip toward the 7d/30d rvwap, july poc and yearly poc both sitting right here below. seems like my feeling might been off, ive not been locked in much
 
-Wild_Randomness: "Absolutely
+back to the gay summer range, wake me up when it moves. if that was the small aug first week bump and lower high confirms, not great
 
-Definitely hoping it gets pushed back up
+i think this can flush to range lows faster than u think so any longs should try to enter as close to inval as possible. which is i see here yearly poc so a tad lower than now and again 62k but that one would be wonky tbh. id lean 57k at that point
 
-But also 60% filled so they can send it down to 290 if they wish"
+overall this is boring. this is chop within a 3-5% range. if you want to gamble, onchain likely better candidate rn (inb4 top)
 
-Unable to classify — what's your read?
-- What asset/ticker? (no symbol in post)
-- Is "60% filled" Wild_Randomness's own position, or commentary?
-- What market structure does "290" represent?
+Charts: 4h showing 7d/30d RVWAP (64.5K), July/2026 POC confluence, current consolidation at support. Yearly POC ~63.6K, weak-low 57K target if invalidates.
 
-[View post](https://x.com/Wild_Randomness/status/2086849970674758032)
+↳ Sentiment divergence from prior bullish structural conviction; trader disengaged on this boring range setup, prefers onchain opportunities.
+
+[View post](https://x.com/bull_genius/status/2086851282807959640)
