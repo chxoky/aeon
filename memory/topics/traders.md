@@ -82,6 +82,7 @@
   - Aug 10 16:05Z — informational-pedagogical: Market psychology on liquidity sweeps + local tops/bottoms; textbook pattern analysis with labeled sweep/reclaim chart; conviction messaging on conviction-lowest-during-deviation insight [$BTC] [2086846284057514282]
   - Aug 10 17:05Z — informational-reinforcement: BTC conviction on accumulation: "If 54K, bought 65K, won't sell at 150K; broke mentality" — dismissal of panic behavior, reinforces 2.5yr 160K thesis [$BTC] [2086861583838294150]
   - Aug 10 18:11Z — informational-sentiment: "When BTC $100k, people would buy $60k; now different story" — crowd psychology / fear-greed inversion; reinforces bull thesis on contrarian positioning [$BTC] [2086878186889986319]
+  - Aug 10 22:36Z — trade-position-mgmt: GOLD short stop loss specification "I have stops at 4440" (Discord reply context confirms active short from Aug 09 23:05Z, position management detail) [$GOLD] [1536503497179267073]
 
 ## Wild_Randomness
 - Platforms: X (primary; X-only)
