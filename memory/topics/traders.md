@@ -173,6 +173,7 @@
   - Aug 05 03:29Z — informational: "amount of chop the past day is r*tarded" — confirms range-bound thesis [$BTC]
   - Aug 07 17:46Z — informational: BTC CVD indicator flip at supply zone 65.2-65.7K; technical observation [$BTC]
   - Aug 07 17:48Z — informational: BTC perps-spot divergence — perps holding strength while SPOT declining sharply [$BTC]
+  - Aug 10 06:05Z — ambiguous: URL-only post, no image context in payload [2086695477127389450]
 
 ## bull_genius
 - Platforms: X (primary; X-only)
