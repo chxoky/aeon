@@ -1,0 +1,91 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "$HPE Trade Closed"
+      },
+      "children": [
+        "tweet_card",
+        "separator",
+        "breakdown"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "$HPE — Closed position +12%\n\nTook profits on HPE after breakout from consolidation zone. Daily chart shows strong recovery structure (May lows 25-30 → current 55+, +120% move). Position closed at 55.21 with final leg capturing resistance breakout. Currently observing for re-entry opportunity."
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "breakdown": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stats",
+        "tweet_link"
+      ]
+    },
+    "stats": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "stat_position_return",
+        "stat_exit_price",
+        "stat_total_move"
+      ]
+    },
+    "stat_position_return": {
+      "type": "Stat",
+      "props": {
+        "label": "Position Return",
+        "value": "+12%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat_exit_price": {
+      "type": "Stat",
+      "props": {
+        "label": "Exit Price",
+        "value": "$55.21"
+      },
+      "children": []
+    },
+    "stat_total_move": {
+      "type": "Stat",
+      "props": {
+        "label": "Total Move",
+        "value": "+120%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2086857296349733036"
+      },
+      "children": []
+    }
+  }
+}
