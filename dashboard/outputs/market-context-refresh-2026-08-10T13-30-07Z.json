@@ -1,0 +1,190 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Market Context",
+        "description": "2026-08-10"
+      },
+      "children": [
+        "take_badge",
+        "sep1",
+        "prices_section",
+        "sep2",
+        "volume_section",
+        "sep3",
+        "narrative_section",
+        "sep4",
+        "events_section"
+      ]
+    },
+    "take_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "chop (conviction low)",
+        "variant": "outline"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "prices_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "btc_stat",
+        "eth_stat",
+        "fg_progress"
+      ]
+    },
+    "btc_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$64,897",
+        "delta": "-0.1%",
+        "trend": "down"
+      }
+    },
+    "eth_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$1,907",
+        "delta": "-0.8%",
+        "trend": "down"
+      }
+    },
+    "fg_progress": {
+      "type": "Progress",
+      "props": {
+        "value": 30,
+        "max": 100,
+        "label": "Fear & Greed Index (Fear)"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "volume_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "breadth_progress",
+        "dex_stat"
+      ]
+    },
+    "breadth_progress": {
+      "type": "Progress",
+      "props": {
+        "value": 9,
+        "max": 20,
+        "label": "Breadth"
+      }
+    },
+    "dex_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "DEX Volume",
+        "value": "$4.37B",
+        "delta": "-30%",
+        "trend": "down"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "narrative_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "narrative_heading",
+        "narrative_text"
+      ]
+    },
+    "narrative_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Narrative",
+        "level": "h3"
+      }
+    },
+    "narrative_text": {
+      "type": "Text",
+      "props": {
+        "text": "XMR privacy dominance (rising) — ZEC fading (-3.8% 24h)",
+        "variant": "body"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "events_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "market_event",
+        "cpi_alert"
+      ]
+    },
+    "market_event": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "market_heading",
+        "market_event_text"
+      ]
+    },
+    "market_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Hot Market",
+        "level": "h3"
+      }
+    },
+    "market_event_text": {
+      "type": "Text",
+      "props": {
+        "text": "\"Strait of Hormuz Aug 31\" YES 3.95% (compressing)",
+        "variant": "body"
+      }
+    },
+    "cpi_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "CPI Aug 12 Binary",
+        "message": "2 days out — regime flip trigger",
+        "type": "info"
+      }
+    }
+  }
+}
