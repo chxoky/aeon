@@ -250,6 +250,7 @@
   - Aug 10 12:22Z — informational: BTC structural bull; RVWAP confluence at yearly POC (65,120); targets 71k/74k upside; invalidation <64,293.6 = 57k sweep; on-chain bullish [2086790251637354855]
   - Aug 10 13:31Z — ambiguous: reply to @dankrupk "like cate?" — cryptic/unclear asset ref; HR-2 calibration pending [2086807541351084517]
   - Aug 10 16:24Z — informational: BTC 7d/30d rvwap + july/yearly poc confluence; boring 3-5% chop range; prefers onchain; 57k weak-low [$BTC] [2086851282807959640]
+  - Aug 10 20:21Z — informational: BTC multi-TF structure (90D RVWAP 65.641K, July POC 64.180K, 2026 POC 64.065K); chart analysis [$BTC] [2086910828100354426]
 
 ## ryzzqq
 - Platforms: X (primary; X-only)
