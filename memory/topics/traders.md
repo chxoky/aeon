@@ -131,6 +131,7 @@
   - Aug 10 17:56Z — informational: ZEC correlation with BTC downmove — 15m/1d chart; multi-trader contested ticker [$ZEC] [2086874414856253939]
   - Aug 10 18:29Z — informational: SPCX 1D/1H technical setup; range consolidation 110-180 with TP target ~150; chart-driven levels (add/cut/TP plan) [$SPCX] [2086882770312450347]
   - Aug 10 18:53Z — trade-conviction-add: GOLD long re-leveraged; XAUUSD/SPX ratio 0.561 holding support, gold spot 4,283 in consolidation box 4,280-4,400 with intact uptrend [$GOLD] [2086888703771951602]
+  - Aug 10 19:08Z — informational: IBKR position update; bought last week, targeting $100 first then higher if SPX holds; chart shows 1D uptrend + 1W structure confirmation [$IBKR] [2086892455031632231]
 
 ## trading_axe
 - Platforms: X (primary; X-only)

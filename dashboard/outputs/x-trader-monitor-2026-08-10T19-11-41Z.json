@@ -1,0 +1,124 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor",
+        "description": "IBKR Position Update"
+      },
+      "children": [
+        "tweet_card",
+        "sep1",
+        "analysis_stack",
+        "sep2",
+        "stats_stack",
+        "sep3",
+        "link_post"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Something I bought a lot of last week. Simply own the casino while they debate / rotate between narratives (photonics, memory, etc.)"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis_heading",
+        "analysis_text"
+      ]
+    },
+    "analysis_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart Analysis",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "1D uptrend structure with support/resistance levels marked. Weekly view confirms longer-term uptrend from 2025 lows."
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stats_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "target_badge",
+        "price_stat",
+        "caveat_text"
+      ]
+    },
+    "target_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Target: $100 (expecting higher)",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "price_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Current Price",
+        "value": "$91.53",
+        "delta": "+3.70 (+4.21%)",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "caveat_text": {
+      "type": "Text",
+      "props": {
+        "text": "As long as SPX doesn't nuke.",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post on X",
+        "href": "https://x.com/Wild_Randomness/status/2086892455031632231"
+      },
+      "children": []
+    }
+  }
+}
