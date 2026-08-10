@@ -1,0 +1,34 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor",
+        "description": "Bitcoin technical analysis and trading insights"
+      },
+      "children": [
+        "tweet",
+        "link"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Bull Genius",
+        "handle": "@bull_genius",
+        "text": "btc looks solid amid massive ai sell off (potential bubble proof) and saylor selling. on-chain arguably in a new cycle already\n\nprice has consolidated the whole summer and 7d+30d+90d rvwaps are lining up around yearly poc where price has been auctioning a lot lately. we are now trading comfortably above the yearly poc + 7d+30d rvwaps for a bit, picture looks decent\n\nweak low at 57k still there and to be run eventually in this year im pretty sure that happens, but FOR NOW - take out the 90d rvwap + 67k zone and a fast trending move up in on the cards that would target 71k 2026 avwap and 74k 2026 vah. inval is pretty easy, everything below yearly poc + 30d rvwap i would say points to sweep of 57k and new lows\n\ni really enjoy on-chain more rn & will post more going forward. feel like thats a better place to be rn and if you want to bet on that, lots of sharp ppl added pump coin to their good holds list, i think that makes sense\n\nenjoy the new week lads"
+      },
+      "children": []
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/bull_genius/status/2086790251637354855"
+      },
+      "children": []
+    }
+  }
+}

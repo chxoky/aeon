@@ -209,6 +209,7 @@
   - Aug 03 18:13Z — ambiguous: cryptic reply to @swarmister/@Shishir42069 short setup; reply-dependent; HR-2 calibration
   - Aug 10 12:03Z — ambiguous: "strategy was selling while price went up"; strategy reflection/self-critique; HR-2 calibration pending [2086785520227533049]
   - Aug 10 12:06Z — informational: memecoin platform dynamics; FOMO > PumpFun mindshare expected; Toad/Pepe regulatory bearish [2086786186329137238]
+  - Aug 10 12:22Z — informational: BTC structural bull; RVWAP confluence at yearly POC (65,120); targets 71k/74k upside; invalidation <64,293.6 = 57k sweep; on-chain bullish [2086790251637354855]
 
 ## ryzzqq
 - Platforms: X (primary; X-only)
