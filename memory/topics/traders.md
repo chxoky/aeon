@@ -162,7 +162,7 @@
 - Recent thesis: BTC 4H short setup (POI ~63K, targets 61.5K/61.3K/61K) per Aug 03-04 analysis. DOGE 1D bullish DCA accumulation thesis. ICP POI-methodology success (all targets achieved, +2.51R). SOL bearish technical (Aug 06: POI corrective setup, key objectives achieved, awaiting POI test). Macro: BTC/SPY asymmetric cycle risk (BTC bear ~1yr vs SPY at ATH).
 - Conviction notes: Transition from cryptic-reply specialist to substantive thesis expression. Low posting frequency = high intent when active. Execution language explicit when real trades occur (vs. 60%+ cryptic replies). POI/order-flow methodology; detailed chart-driven analysis. SOL closed quickly post-BTC anomaly (disciplined ego-free exits). Cryptic reply pattern persists (11+ HR-2 calibration alerts Aug 07-10).
 - Calibration: RESOLVED Aug 03-05 cryptic reply arc (background thesis development → Aug 04 execution signals). PENDING Aug 10 17:50Z (cryptic "@blancxbt /bittex_please" — reply to another trader; HR-2 calibration). PENDING Aug 09 17:15Z (cryptic "@puterw0rld @KITKAT Kitkat?"). PENDING Aug 09 16:40Z ("Tishe 4rka" — non-English reply). PENDING Aug 09 08:36Z ("What the „" — corrupted text). PENDING Aug 08 21:40Z (@icobeast "Today^"). Pattern: background-thesis cryptic → execution → macro rationale.
-- Last seen: 2026-08-10T17:50:50Z (X — cryptic reply "@blancxbt /bittex_please", ambiguous)
+- Last seen: 2026-08-10T18:36:01Z (X — non-financial banter, skip)
 - **Events (rolling):**
   - Aug 04 09:32Z — trade-new-entry: BTC SHORT DCA (12h imbalance + 15m confirmation; "second attempt to short"); pending Kyle [$BTC]
   - Aug 04 10:11Z — trade-dca-plan: DOGE LONG; 50% opened; plan to add 50% on retest 0.12-0.13; pending Kyle [$DOGE]
