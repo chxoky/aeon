@@ -189,8 +189,8 @@
 - Current open positions: No confirmed executed positions (waiting for "exceptional deal"). Sub-50/low-50s BTC DCA plan (spot accumulation on weakness). FOMO long Jul 31 05:46Z — ticker unclear (SNDK mentioned), hit 7d rvwap overnight (calibration pending).
 - Recent thesis: BTC structural bull long-term. 90% conviction on bottom; tentative on timing ("might start buying too early"). Sub-50K = "mortgage your house" tier. 60-62K = decent deal; exceptional deal still ahead. August historically weak; mid-low 50s absolute lows likely. HYPE: "generational buy prices approaching" — 4h exhaustion candles, multi-month uptrend bottom (Jul 31 analysis). FWA protocol focus: post-emissions user retention challenge; LP/spinner incentive needed ("300 ETH prize pool carrot").
 - Conviction notes: Patient contrarian accumulator (DCA into weakness, dismissive of scalping chop). Philosophy: hold spot + watch onchain > scalp technical chop. Jul 31 battle plan: 64.2K-63.9K battleground, 60K DCA target, 57K weak-low. Diverges from group BTC short thesis (Aug 03: notes swarmister shorting "full anal august mode" but maintains own structural bull bias).
-- Calibration: PENDING Aug 02 12:26Z (">700 rolls, >1 ETH pulls, rare" @3eleth — gaming/casino reference or ETH staking?). PENDING Jul 31 05:46Z (FOMO long ticker unstated, hit 7d rvwap overnight).
-- Last seen: 2026-08-03T18:13:54Z (X — cryptic reply on short setup, calibration pending)
+- Calibration: PENDING Aug 02 12:26Z (">700 rolls, >1 ETH pulls, rare" @3eleth — gaming/casino reference or ETH staking?). PENDING Jul 31 05:46Z (FOMO long ticker unstated, hit 7d rvwap overnight). PENDING Aug 10 12:03Z ("strategy was selling while price went up" — self-critique on failed strategy, market observation, or something else?; HR-2 calibration).
+- Last seen: 2026-08-10T12:03:33Z (X — ambiguous strategy reflection, calibration pending)
 - **Events (rolling):**
   - Jul 31 05:55Z — informational: HYPE 4h exhaustion candles; "generational buy prices approaching"; multi-TF long bottom [$HYPE]
   - Jul 31 07:03Z — informational: BTC DCA sub-50/low-50s; 90% conviction on bottom; "might buy too early" [$BTC]
@@ -203,6 +203,7 @@
   - Aug 03 15:30Z — informational: BTC 4h bounced off monthly VAL (62.5K) back into resistance (65K/66.5K); NO personal position [$BTC]
   - Aug 03 15:44Z — informational: swarmister shorting BTC "full anal august mode"; bull_genius notes it "could work" but maintains bullish bias
   - Aug 03 18:13Z — ambiguous: cryptic reply to @swarmister/@Shishir42069 short setup; reply-dependent; HR-2 calibration
+  - Aug 10 12:03Z — ambiguous: "strategy was selling while price went up"; strategy reflection/self-critique; HR-2 calibration pending [2086785520227533049]
 
 ## ryzzqq
 - Platforms: X (primary; X-only)

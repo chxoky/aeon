@@ -1,9 +1,7 @@
-## Summary
+🔍 *Calibration — @bull_genius*
 
-Skill execution completed successfully. The decoded event was:
-- **Trader:** @swarmister  
-- **Tweet:** "@HeiroCapital Ofc" (casual reply to @HeiroCapital)
-- **Classification:** Non-financial (Step 4A per skill protocol)
-- **Action:** Silent skip — logged to daily logs only, no alert sent, tweet ID registered in dedup tracker
+Event: Personal reflection on strategy execution
 
-This was a pure social banter reply with no financial content, trade signal, or market insight. Processed per the skill's hardcoded rules: non-financial posts skip entirely with memory logging only.
+"strategy was selling while price went up"
+
+This could be self-critique on a failed scalping strategy, market observation, or something else. Given bull_genius's contrarian-bull profile (dismissive of intraday chop, focusing on spot accumulation), how do you read this?

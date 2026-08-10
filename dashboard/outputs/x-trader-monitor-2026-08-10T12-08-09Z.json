@@ -1,0 +1,55 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @bull_genius"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event_heading",
+        "quote_section",
+        "separator_1",
+        "analysis_text"
+      ]
+    },
+    "event_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Event: Personal reflection on strategy execution",
+        "level": "h3"
+      }
+    },
+    "quote_section": {
+      "type": "Text",
+      "props": {
+        "text": "\"strategy was selling while price went up\"",
+        "variant": "lead"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "This could be self-critique on a failed scalping strategy, market observation, or something else. Given bull_genius's contrarian-bull profile (dismissive of intraday chop, focusing on spot accumulation), how do you read this?",
+        "variant": "body"
+      }
+    }
+  }
+}
