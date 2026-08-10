@@ -1,0 +1,133 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration — @Bitcoin_Astro"
+      },
+      "children": [
+        "event-section",
+        "sep-1",
+        "tweet-section",
+        "sep-2",
+        "analysis-section"
+      ]
+    },
+    "event-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event-text",
+        "event-author"
+      ]
+    },
+    "event-text": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Bitcoin_Astro post (Aug 10 08:12:31Z)",
+        "variant": "lead"
+      }
+    },
+    "event-author": {
+      "type": "Badge",
+      "props": {
+        "text": "@Bitcoin_Astro",
+        "variant": "outline"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-section": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Bitcoin_Astro",
+        "handle": "Bitcoin_Astro",
+        "text": "#Bitcoin\nAre you"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis-intro",
+        "possibilities-header",
+        "possibilities-list",
+        "classification-alert"
+      ]
+    },
+    "analysis-intro": {
+      "type": "Text",
+      "props": {
+        "text": "Extremely cryptic — appears incomplete or intentionally provocative.",
+        "variant": "body"
+      }
+    },
+    "possibilities-header": {
+      "type": "Text",
+      "props": {
+        "text": "Unclear if this is:",
+        "variant": "body"
+      }
+    },
+    "possibilities-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "poss-1",
+        "poss-2",
+        "poss-3"
+      ]
+    },
+    "poss-1": {
+      "type": "Text",
+      "props": {
+        "text": "A truncated tweet (text cut off mid-sentence)",
+        "variant": "muted"
+      }
+    },
+    "poss-2": {
+      "type": "Text",
+      "props": {
+        "text": "A reference to external context",
+        "variant": "muted"
+      }
+    },
+    "poss-3": {
+      "type": "Text",
+      "props": {
+        "text": "A call-and-response expecting reply",
+        "variant": "muted"
+      }
+    },
+    "classification-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read?",
+        "type": "info"
+      }
+    }
+  }
+}
