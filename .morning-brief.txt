@@ -9,10 +9,10 @@
 - [moved] KillaXBT: GOLD short active + BTC 67-69K conditional short setup on-deck (alerted 23:05Z)
 - [moved] trading_axe: "BTC weak, GOLD better, select alts outperform" — BTC/GOLD ratio + ETH.D compression confirmed with charts
 - [moved] ISS-004 closed: traders.md compacted 393KB → 36KB by trader-memory-compact
-- [stuck] 4 calibrations pending: trading_axe $HOOD, swarmister "Black swan", HCH "You missed it?", Bitcoin_Astro Aug 12/15-16
+- [stuck] 4 calibrations pending: trading_axe $HOOD, swarmister "Black swan…", HCH "You missed it?", Bitcoin_Astro Aug 12/15-16
 
 *Watch*
-- Bitcoin eyeing $69K on soft CPI (CoinPedia) — overlaps KillaXBT 67-69K short setup; soft print = entry zone live
+- Bitcoin eyeing $69K on soft CPI (CoinPedia) — overlaps KillaXBT's 67-69K short setup; soft print = entry zone live
 
 *Running today*
 - token-alert @ 12:00 UTC
