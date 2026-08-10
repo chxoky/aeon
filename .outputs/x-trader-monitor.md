@@ -1,9 +1,7 @@
-🔍 *Calibration — @Wild_Randomness*
+🐦 *[X] @Wild_Randomness*
 
-Event: GOLD options chart showing 09/18/2026 415 calls (GLD), posted same-day after WR confirmed active GOLD long re-leveraged position (18:53Z) with spot + GDX calls holdings.
+Or you can just buy gold down $1200 from its 2026 highs
 
-@Wild_Randomness: 'Sidelined?' + chart
+[View tweet](https://x.com/Wild_Randomness/status/2086909712646422595)
 
-Interpretation unclear — is this saying the options liquidity is sidelined/minimal, or questioning the viability of these strikes? What's your read on the GOLD calls setup?
-
-[View post](https://x.com/Wild_Randomness/status/2086903036023394559)
+↳ _Validates Aug 10 18:53Z GOLD re-leverage conviction add. Reinforces barbell long-calls opportunity (spot GOLD 4,283 consolidation support)._

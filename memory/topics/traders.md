@@ -140,6 +140,7 @@
   - Aug 10 19:42Z — trade-dca-plan: SPY Oct 16 700 puts + QQQ Sept 30 650 puts; averaging into August opex [$SPY $QQQ] [2086901042961412135]
   - Aug 10 19:46Z — ambiguous: reply to @based16z "call chasing last week, vix at yearly lows"; asset unclear; macro sentiment on rally suppression + commodities priority [$UNKNOWN] [2086902034192851400]
   - Aug 10 19:50Z — ambiguous: "Sidelined?" + GOLD 415 call options chart (09/18 exp); liquidity sidelined or questioning setup?; HR-2 calibration [$GOLD] [2086903036023394559]
+  - Aug 10 20:17Z — informational-sentiment: X "Or you can just buy gold down $1200 from its 2026 highs" — bullish GOLD restatement; validates prior Aug 10 18:53Z re-leverage conviction add; reinforces barbell long-calls opportunity thesis [$GOLD] [2086909712646422595]
 
 ## trading_axe
 - Platforms: X (primary; X-only)
