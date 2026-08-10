@@ -1,0 +1,62 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor: Calibration"
+      },
+      "children": [
+        "heading_event",
+        "text_subtitle",
+        "separator_1",
+        "tweetcard_message",
+        "separator_2",
+        "alert_analysis"
+      ]
+    },
+    "heading_event": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @swarmister",
+        "level": "h2"
+      }
+    },
+    "text_subtitle": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Cryptic reply to @blancxbt",
+        "variant": "lead"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweetcard_message": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "@blancxbt /bittex_please"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_analysis": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "title": "Unable to classify",
+        "message": "What's your read? Is this related to a trading platform/tool, personal reference, or something else?"
+      }
+    }
+  }
+}
