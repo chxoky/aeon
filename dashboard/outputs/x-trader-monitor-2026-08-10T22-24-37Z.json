@@ -1,0 +1,89 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "X-Trader Monitor"
+      },
+      "children": [
+        "tweetCard",
+        "sep1",
+        "h_analysis",
+        "t_gdxj",
+        "t_technical",
+        "sep2",
+        "h_thesis",
+        "t_thesis",
+        "sep3",
+        "link_view"
+      ]
+    },
+    "tweetCard": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "(As expected, It was capitulation)"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "h_analysis": {
+      "type": "Heading",
+      "props": {
+        "text": "GDXJ Chart Analysis",
+        "level": "h3"
+      }
+    },
+    "t_gdxj": {
+      "type": "Text",
+      "props": {
+        "text": "VanEck Junior Gold Miners ETF showed massive capitulation move from ~160 down to 91.66, now recovering to 118.78."
+      }
+    },
+    "t_technical": {
+      "type": "Text",
+      "props": {
+        "text": "RSI and volume confirm reversal structure forming."
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "h_thesis": {
+      "type": "Heading",
+      "props": {
+        "text": "Thesis Alignment",
+        "level": "h3"
+      }
+    },
+    "t_thesis": {
+      "type": "Text",
+      "props": {
+        "text": "Aligns with WR's documented GOLD long barbell thesis (GOLD spot long + IBIT puts awaiting approval). Macro capitulation observation consistent with his \"Jump the Shark\" framework — identifies market bottoms via extreme sentiment/technical breakdown."
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View original post",
+        "href": "https://x.com/Wild_Randomness/status/2086940618454933607"
+      }
+    }
+  }
+}
