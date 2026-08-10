@@ -1,0 +1,71 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-calibration",
+        "text-event",
+        "sep-1",
+        "tweet-wr",
+        "text-interpretation",
+        "link-post"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration — @Wild_Randomness",
+        "level": "h2"
+      }
+    },
+    "text-event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: GOLD options chart showing 09/18/2026 415 calls (GLD), posted same-day after WR confirmed active GOLD long re-leveraged position (18:53Z) with spot + GDX calls holdings."
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-wr": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Sidelined? + chart"
+      }
+    },
+    "text-interpretation": {
+      "type": "Text",
+      "props": {
+        "text": "Interpretation unclear — is this saying the options liquidity is sidelined/minimal, or questioning the viability of these strikes? What's your read on the GOLD calls setup?"
+      }
+    },
+    "link-post": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2086903036023394559",
+        "source": "X"
+      }
+    }
+  }
+}
