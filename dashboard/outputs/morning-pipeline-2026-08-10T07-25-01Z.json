@@ -1,0 +1,317 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief 2026-08-10"
+      },
+      "children": [
+        "focus-section",
+        "sep-1",
+        "yesterday-section",
+        "sep-2",
+        "watch-section",
+        "sep-3",
+        "warning-alert"
+      ]
+    },
+    "focus-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus-title",
+        "focus-1",
+        "focus-2",
+        "focus-3"
+      ]
+    },
+    "focus-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus",
+        "level": "h3"
+      }
+    },
+    "focus-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-1-badge",
+        "focus-1-btc-stat",
+        "focus-1-hch-stat",
+        "focus-1-trigger",
+        "focus-1-cpi"
+      ]
+    },
+    "focus-1-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Focus 1",
+        "variant": "default"
+      }
+    },
+    "focus-1-btc-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "65,252"
+      }
+    },
+    "focus-1-hch-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "HCH Level Crossed",
+        "value": "65K"
+      }
+    },
+    "focus-1-trigger": {
+      "type": "Text",
+      "props": {
+        "text": "Net-short trigger activated",
+        "variant": "body"
+      }
+    },
+    "focus-1-cpi": {
+      "type": "Text",
+      "props": {
+        "text": "CPI binary decision in 2 days",
+        "variant": "body"
+      }
+    },
+    "focus-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-2-badge",
+        "focus-2-product",
+        "focus-2-dte",
+        "focus-2-action"
+      ]
+    },
+    "focus-2-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Focus 2",
+        "variant": "default"
+      }
+    },
+    "focus-2-product": {
+      "type": "Text",
+      "props": {
+        "text": "WR BTC Sep puts",
+        "variant": "body"
+      }
+    },
+    "focus-2-dte": {
+      "type": "Stat",
+      "props": {
+        "label": "Days to Expiry",
+        "value": "18"
+      }
+    },
+    "focus-2-action": {
+      "type": "Text",
+      "props": {
+        "text": "Decide before CPI",
+        "variant": "body"
+      }
+    },
+    "focus-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-3-badge",
+        "focus-3-event",
+        "focus-3-status"
+      ]
+    },
+    "focus-3-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Focus 3",
+        "variant": "default"
+      }
+    },
+    "focus-3-event": {
+      "type": "Text",
+      "props": {
+        "text": "Aug 12 CPI",
+        "variant": "body"
+      }
+    },
+    "focus-3-status": {
+      "type": "Text",
+      "props": {
+        "text": "All positions live into print",
+        "variant": "lead"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "yesterday-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "yesterday-title",
+        "yesterday-1",
+        "yesterday-2",
+        "yesterday-3",
+        "yesterday-4"
+      ]
+    },
+    "yesterday-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Since Yesterday",
+        "level": "h3"
+      }
+    },
+    "yesterday-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday-1-badge",
+        "yesterday-1-file",
+        "yesterday-1-stat"
+      ]
+    },
+    "yesterday-1-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "ISS-004 Resolved",
+        "variant": "secondary"
+      }
+    },
+    "yesterday-1-file": {
+      "type": "Text",
+      "props": {
+        "text": "File: traders.md",
+        "variant": "body"
+      }
+    },
+    "yesterday-1-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Size reduction",
+        "value": "390KB → 37KB"
+      }
+    },
+    "yesterday-2": {
+      "type": "Text",
+      "props": {
+        "text": "BTC cleared 65K",
+        "variant": "body"
+      }
+    },
+    "yesterday-3": {
+      "type": "Text",
+      "props": {
+        "text": "XMR takes privacy lead",
+        "variant": "body"
+      }
+    },
+    "yesterday-4": {
+      "type": "Text",
+      "props": {
+        "text": "CLARITY Act postponed",
+        "variant": "body"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "watch-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "watch-title",
+        "watch-polymarket-group",
+        "watch-cpi-stat"
+      ]
+    },
+    "watch-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h3"
+      }
+    },
+    "watch-polymarket-group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "watch-polymarket-label",
+        "watch-polymarket-progress"
+      ]
+    },
+    "watch-polymarket-label": {
+      "type": "Text",
+      "props": {
+        "text": "Polymarket hike",
+        "variant": "body"
+      }
+    },
+    "watch-polymarket-progress": {
+      "type": "Progress",
+      "props": {
+        "value": 57,
+        "max": 100,
+        "label": "57%"
+      }
+    },
+    "watch-cpi-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Hot CPI tests",
+        "value": "62.7K"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "warning-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Resend Configuration Error",
+        "message": "Email API key invalid — 4 consecutive failures",
+        "type": "error"
+      }
+    }
+  }
+}
