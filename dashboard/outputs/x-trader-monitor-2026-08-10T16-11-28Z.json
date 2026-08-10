@@ -1,0 +1,137 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Trading conviction signal"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_conviction",
+        "sep_1",
+        "heading_signal",
+        "text_position",
+        "text_catalyst",
+        "sep_2",
+        "heading_convergence",
+        "stack_traders",
+        "sep_3",
+        "tweet_card",
+        "link_view"
+      ]
+    },
+    "badge_conviction": {
+      "type": "Badge",
+      "props": {
+        "text": "Conviction Add",
+        "variant": "default"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_signal": {
+      "type": "Heading",
+      "props": {
+        "text": "AAPL Short Signal",
+        "level": "h2"
+      }
+    },
+    "text_position": {
+      "type": "Text",
+      "props": {
+        "text": "Position: AAPL Short",
+        "variant": "body"
+      }
+    },
+    "text_catalyst": {
+      "type": "Text",
+      "props": {
+        "text": "Catalyst: Jeffries Downgrade",
+        "variant": "body"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_convergence": {
+      "type": "Heading",
+      "props": {
+        "text": "3-Trader Convergence Signal",
+        "level": "h3"
+      }
+    },
+    "stack_traders": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_trader_1",
+        "badge_trader_2",
+        "badge_trader_3"
+      ]
+    },
+    "badge_trader_1": {
+      "type": "Badge",
+      "props": {
+        "text": "HCH",
+        "variant": "secondary"
+      }
+    },
+    "badge_trader_2": {
+      "type": "Badge",
+      "props": {
+        "text": "Wild_Randomness",
+        "variant": "secondary"
+      }
+    },
+    "badge_trader_3": {
+      "type": "Badge",
+      "props": {
+        "text": "KillaXBT",
+        "variant": "secondary"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Conviction Add: AAPL short on Jeffries downgrade. 3-trader convergence signal (HCH/WR/KillaXBT)."
+      }
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View full post",
+        "href": "https://x.com/Wild_Randomness/status/2086846535258771792"
+      }
+    }
+  }
+}
