@@ -1,21 +1,12 @@
 *Morning Brief — 2026-08-10*
 
 *Focus today*
-1. CPI Aug 12 — why now: hot print breaks 65K support; soft triggers 67-69K short zone
-2. WR BTC September puts — why now: CPI binary in 48h is exactly the hedge; decide today
-3. RESEND_API_KEY invalid — why now: 3 consecutive days dark; one config change to fix
+1. WR BTC September puts (~18 DTE) — CPI binary fires 48h; approve or pass before theta burns
+2. HCH net-short live at $65K trigger — position active, all trades resolve Aug 12 CPI print
+3. RESEND_API_KEY rotation — 5 days dark; one config change restores email delivery
 
 *Since yesterday*
-- [moved] KillaXBT: GOLD short active + BTC 67-69K conditional short setup on-deck (alerted 23:05Z)
-- [moved] trading_axe: "BTC weak, GOLD better, select alts outperform" — BTC/GOLD ratio + ETH.D compression confirmed with charts
-- [moved] ISS-004 closed: traders.md compacted 393KB → 36KB by trader-memory-compact
-- [stuck] 4 calibrations pending: trading_axe $HOOD, swarmister "Black swan", HCH "You missed it?", Bitcoin_Astro Aug 12/15-16
-
-*Watch*
-- Bitcoin eyeing $69K on soft CPI (CoinPedia) — overlaps KillaXBT 67-69K short setup; soft print = entry zone live
-
-*Running today*
-- token-alert @ 12:00 UTC
-- token-movers @ 12:00 UTC
-- market-context-refresh @ 13:00 UTC
-- narrative-tracker @ 13:30 UTC
+- resolved: ISS-004 (traders.md 390KB → 37KB via trader-memory-compact ✅)
+- moved: BTC $65,252 (+0.8%) crossed HCH's declared 65K regime-flip trigger; net-short now active
+- moved: KillaXBT (X, 08:30Z) — chart reinforces BTC structure: 65.7K validate, 69-71K target, 62.5K support
+- pending: Bitcoin_Astro bottom

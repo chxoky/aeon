@@ -1,0 +1,199 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief",
+        "description": "2026-08-10"
+      },
+      "children": [
+        "focus-section",
+        "separator-1",
+        "since-section"
+      ]
+    },
+    "focus-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus-heading",
+        "focus-items"
+      ]
+    },
+    "focus-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "focus-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-1",
+        "focus-2",
+        "focus-3"
+      ]
+    },
+    "focus-1": {
+      "type": "Text",
+      "props": {
+        "text": "WR BTC September puts (~18 DTE) — CPI binary fires 48h; approve or pass before theta burns"
+      }
+    },
+    "focus-2": {
+      "type": "Text",
+      "props": {
+        "text": "HCH net-short live at $65K trigger — position active, all trades resolve Aug 12 CPI print"
+      }
+    },
+    "focus-3": {
+      "type": "Text",
+      "props": {
+        "text": "RESEND_API_KEY rotation — 5 days dark; one config change restores email delivery"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "since-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "since-heading",
+        "since-items"
+      ]
+    },
+    "since-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "since-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since-1",
+        "since-2",
+        "since-3",
+        "since-4"
+      ]
+    },
+    "since-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-resolved",
+        "since-1-text"
+      ]
+    },
+    "badge-resolved": {
+      "type": "Badge",
+      "props": {
+        "text": "resolved",
+        "variant": "secondary"
+      }
+    },
+    "since-1-text": {
+      "type": "Text",
+      "props": {
+        "text": "ISS-004 (traders.md 390KB → 37KB via trader-memory-compact ✅)"
+      }
+    },
+    "since-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-moved-1",
+        "since-2-text"
+      ]
+    },
+    "badge-moved-1": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "default"
+      }
+    },
+    "since-2-text": {
+      "type": "Text",
+      "props": {
+        "text": "BTC $65,252 (+0.8%) crossed HCH's declared 65K regime-flip trigger; net-short now active"
+      }
+    },
+    "since-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-moved-2",
+        "since-3-text"
+      ]
+    },
+    "badge-moved-2": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "default"
+      }
+    },
+    "since-3-text": {
+      "type": "Text",
+      "props": {
+        "text": "KillaXBT (X, 08:30Z) — chart reinforces BTC structure: 65.7K validate, 69-71K target, 62.5K support"
+      }
+    },
+    "since-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-pending",
+        "since-4-text"
+      ]
+    },
+    "badge-pending": {
+      "type": "Badge",
+      "props": {
+        "text": "pending",
+        "variant": "outline"
+      }
+    },
+    "since-4-text": {
+      "type": "Text",
+      "props": {
+        "text": "Bitcoin_Astro bottom"
+      }
+    }
+  }
+}
