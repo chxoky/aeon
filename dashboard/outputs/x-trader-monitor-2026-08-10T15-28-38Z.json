@@ -1,0 +1,33 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "link_post"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "ETH technical chart structure — 'Tick Tock' timing signal\n\n4-chart analysis: Major May-Jun high → capitulation dump → recovery bounce → August consolidation with oscillating price action (swing highs marked red ↓, lows marked green ↑). Current range: -1,564 to -1,897 USDT (consolidation zone).\n\nInterpretation: 'Tick Tock' references alternating price movement pattern or critical timing inflection point ahead. Aligns with WR's macro bear 'Jump the Shark' thesis and 15-20 August 'most important' window conviction (timing thesis)."
+      },
+      "children": []
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2086835696887803943"
+      },
+      "children": []
+    }
+  }
+}
