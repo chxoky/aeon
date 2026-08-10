@@ -1,0 +1,47 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @trading_axe"
+      },
+      "children": [
+        "event-text",
+        "tweet",
+        "analysis-text",
+        "link"
+      ]
+    },
+    "event-text": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @notthreadguy (context unavailable in payload)",
+        "variant": "muted"
+      }
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "trading_axe",
+        "handle": "trading_axe",
+        "text": "Absolutely."
+      }
+    },
+    "analysis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read? This appears to be a reply-dependent message with no visible financial context.",
+        "variant": "caption"
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/trading_axe/status/2086888875331305640"
+      }
+    }
+  }
+}
