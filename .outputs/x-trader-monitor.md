@@ -1,13 +1,7 @@
-🐦 *[X] @KillaXBT*
+🔍 *Calibration — @bull_genius*
 
-$BTC
+Event: Reply to @dankrupk on Aug 10 13:31 UTC
 
-Delta has remained green for months, which clearly suggests that larger players have been steadily accumulating.
+bull_genius: "@dankrupk like cate?"
 
-It's only a matter of time before we transition back into orange and begin seeing a much larger move upwards.
-
-Patience. 🤟
-
-[View tweet](https://x.com/KillaXBT/status/2086800481704403222)
-
-↳ _Chart validated: Net Miner Multiples indicator predominantly green 2024–2026, supporting accumulation thesis. Aligns with KillaXBT's structural bull conviction (2.5yr dump at 160K target; current range 57K–59K base)._
+Unable to classify — cryptic reply. What's your read? [View post](https://x.com/bull_genius/status/2086807541351084517)
