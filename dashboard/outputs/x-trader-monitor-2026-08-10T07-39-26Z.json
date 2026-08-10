@@ -1,0 +1,58 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @swarmister"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-event",
+        "tweet-card",
+        "alert-status",
+        "link-view"
+      ]
+    },
+    "text-event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @wasmynme",
+        "variant": "caption"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "@wasmynme Gm was"
+      }
+    },
+    "alert-status": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read? Cryptic reply with grammatically odd phrasing (\"Gm was\"). Context from @wasmynme needed for interpretation.",
+        "type": "info"
+      }
+    },
+    "link-view": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/swarmister/status/2086717423239983303"
+      }
+    }
+  }
+}
