@@ -1,0 +1,56 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @Wild_Randomness"
+      },
+      "children": [
+        "event_text",
+        "sep1",
+        "tweet_card",
+        "sep2",
+        "analysis_alert",
+        "link_view"
+      ]
+    },
+    "event_text": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @MarkusRobimj2t (context unavailable)",
+        "variant": "caption"
+      }
+    },
+    "sep1": {
+      "type": "Separator"
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "You bet, and gdx calls"
+      }
+    },
+    "sep2": {
+      "type": "Separator"
+    },
+    "analysis_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Is this a personal conviction (planning GDX calls) or just agreement with the prior message? Need context to interpret.",
+        "type": "warning"
+      }
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randommess/status/2086897790161219745"
+      }
+    }
+  }
+}
