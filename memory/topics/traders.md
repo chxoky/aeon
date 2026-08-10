@@ -6,6 +6,7 @@
 - Calibration: RESOLVED "Fc" = false-close TA check, not trade signal. PENDING Aug 07 12:40Z ("~" cryptic tilde). PENDING Aug 07 18:56Z ("Nb rdw, spcx, rklb 15" — "Nb" meaning unknown). PENDING Aug 09 00:44Z (TAO "Finally lol" — TAO position relief or market banter?). Keep ALL Fc messages as silent technical-check logs.
 - Last seen: 2026-08-09T22:41:02Z (Discord Chat supporting — Fc btc 1hr, silent log)
 - **Events (rolling):**
+  - Aug 10 18:56Z — ambiguous: DC Chat "screenshot only, no text" — image attachment via Discord supporting channel, no execution language or trade signal; awaiting Kyle interpretation [$UNKNOWN] [1536448213874253884]
   - Aug 01 05:04Z — trade-regime-flip: all crypto shorts closed; SOL 5% first long entry; net-long regime begins [$SOL]
   - Aug 02 17:19Z — trade-new-entry: SPCX 2% spot long (mean-reversion after profitable prior short) [$SPCX]
   - Aug 03 02:02Z — trade-new-entry: TAO/STABLE/ASTS 1% each; spot alt diversification phase [$TAO]

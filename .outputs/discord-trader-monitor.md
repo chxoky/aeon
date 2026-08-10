@@ -1,14 +1,6 @@
-🔍 *Calibration — [DC: HCH — Free]*
+🔍 *Calibration — [DC: HCH — Chat]*
 
-Event context:
-↩️ _HCH: "And rush for exits"_
+Event: Screenshot-only message, no text description
+heartcanhodl: [image attachment, Screenshot_2026-08-11-00-26-24-72]
 
-HCH reply: "Hope you realised whatever was on the table"
-Link: https://x.com/i/status/2086862057484460454
-
-Unable to classify — is this:
-1. Past reflection ("hope you caught that move")?
-2. Current directive to exit ("rush for exits now")?
-3. General market commentary?
-
-What's your read?
+Unable to classify — is this a trade signal, position update, or technical observation? Image content not visible to skill (CDN fetch unavailable). Please clarify context for this supporting-channel screenshot.

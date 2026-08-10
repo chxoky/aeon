@@ -1,0 +1,81 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Calibration event from Discord trading channel"
+      },
+      "children": [
+        "heading_calibration",
+        "sep1",
+        "stack_content"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration — DC: HCH — Chat",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_event_label",
+        "text_author",
+        "text_image",
+        "sep2",
+        "alert_classification",
+        "text_clarification_prompt"
+      ]
+    },
+    "text_event_label": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Screenshot-only message, no text description",
+        "variant": "lead"
+      }
+    },
+    "text_author": {
+      "type": "Text",
+      "props": {
+        "text": "Author: heartcanhodl"
+      }
+    },
+    "text_image": {
+      "type": "Text",
+      "props": {
+        "text": "Image attachment: Screenshot_2026-08-11-00-26-24-72"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "alert_classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to Classify",
+        "message": "Image content not visible to skill (CDN fetch unavailable)",
+        "type": "warning"
+      }
+    },
+    "text_clarification_prompt": {
+      "type": "Text",
+      "props": {
+        "text": "Please clarify context: Is this a trade signal, position update, or technical observation?"
+      }
+    }
+  }
+}
