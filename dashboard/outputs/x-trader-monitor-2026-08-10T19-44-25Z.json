@@ -1,0 +1,58 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "SPCX Validation — @Wild_Randomness"
+      },
+      "children": [
+        "tweet_card",
+        "separator_1",
+        "prior_call_text",
+        "separator_2",
+        "tweet_link"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Your 110–180 range consolidation setup is validating early.\n\nIntraday: 137.79 (+5.7%, clean breakout through resistance levels)\nDaily: 133.01 consolidation holding uptrend recovery from 110-120 lows"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "prior_call_text": {
+      "type": "Text",
+      "props": {
+        "text": "Prior call (Aug 10 18:29Z): range 110-180 w/ 150 TP target now showing technical structure validation in early stages.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2086900561044214116"
+      },
+      "children": []
+    }
+  }
+}
