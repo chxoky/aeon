@@ -1,0 +1,60 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet",
+        "sep1",
+        "source_stack"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "@Stoiiic",
+        "text": "Saylor sellor and BTC rejected at vah once again.\n\nCurrently trading into poc (July monthly poc ~63.9 on binance perps)\n\nDon't see a convincing passive bid or much on the aggressive side on ltf as of yet but keeping an eye here for the old sell before break playbook.\n\nCan see this value being rotational for now unless 65 can break decisively which would mean back to the low 60s if buying doesn't step up.\n\nEvent of note this week is CPI on Wed."
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "source_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post_link",
+        "commentary"
+      ]
+    },
+    "post_link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Stoiiic/status/2086865831535763631"
+      },
+      "children": []
+    },
+    "commentary": {
+      "type": "Text",
+      "props": {
+        "text": "Aligns with HCH net-short conviction + KillaXBT's 65K structural pivot observation. TPO profile + VWAP confluence validates the 65.2K resistance level.",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
