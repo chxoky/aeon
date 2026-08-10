@@ -1,0 +1,170 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X-Trader Monitor"
+      },
+      "children": [
+        "content-stack"
+      ]
+    },
+    "content-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-calibration",
+        "author-badge",
+        "sep1",
+        "event-label",
+        "tweet-details-stack",
+        "sep2",
+        "classification-alert",
+        "analysis-stack",
+        "sep3",
+        "tweet-link"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration",
+        "level": "h2"
+      }
+    },
+    "author-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "@Wild_Randomness",
+        "variant": "secondary"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "event-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Event: Unclear reference ('Cinema' + URL-only format)",
+        "level": "h3"
+      }
+    },
+    "tweet-details-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-header",
+        "ticker-badge",
+        "cinema-text",
+        "media-link",
+        "media-count"
+      ]
+    },
+    "tweet-header": {
+      "type": "Text",
+      "props": {
+        "text": "Tweet content:",
+        "variant": "lead"
+      }
+    },
+    "ticker-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "$GOLD",
+        "variant": "default"
+      }
+    },
+    "cinema-text": {
+      "type": "Text",
+      "props": {
+        "text": "Cinema",
+        "variant": "body"
+      }
+    },
+    "media-link": {
+      "type": "Link",
+      "props": {
+        "label": "https://t.co/n1iA1prGqO",
+        "href": "https://t.co/n1iA1prGqO"
+      }
+    },
+    "media-count": {
+      "type": "Badge",
+      "props": {
+        "text": "6 media images",
+        "variant": "outline"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification Question",
+        "message": "Unable to classify — what's your read? Is this (a) educational GOLD chart sharing, (b) setup question, or (c) noise to archive?",
+        "type": "info"
+      }
+    },
+    "analysis-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "analysis-heading",
+        "pattern-text",
+        "watch-list-badge"
+      ]
+    },
+    "analysis-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Analysis",
+        "level": "h3"
+      }
+    },
+    "pattern-text": {
+      "type": "Text",
+      "props": {
+        "text": "The 'Cinema' reference + URL-only format matches established noise pattern, but ticker is on your watch list.",
+        "variant": "body"
+      }
+    },
+    "watch-list-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "$GOLD on watch list",
+        "variant": "secondary"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View original tweet",
+        "href": "https://x.com/Wild_Randomness/status/2086939989254815955"
+      }
+    }
+  }
+}

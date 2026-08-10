@@ -142,6 +142,7 @@
   - Aug 10 19:50Z — ambiguous: "Sidelined?" + GOLD 415 call options chart (09/18 exp); liquidity sidelined or questioning setup?; HR-2 calibration [$GOLD] [2086903036023394559]
   - Aug 10 20:17Z — informational-sentiment: X "Or you can just buy gold down $1200 from its 2026 highs" — bullish GOLD restatement; validates prior Aug 10 18:53Z re-leverage conviction add; reinforces barbell long-calls opportunity thesis [$GOLD] [2086909712646422595]
   - Aug 10 20:19Z — informational-macro: macro sentiment on GOLD reserve asset thesis; China max buying gold, Fed long-end risk, Treasury/yen intervention driving capital flows to gold; validates barbell conviction (cross-trader divergence: KillaXBT GOLD short) [$GOLD] [2086910298183913695]
+  - Aug 10 22:17Z — ambiguous: cryptic reference "$GOLD Cinema https://t.co/..." + 6 media images; unclear if educational chart sharing, noise, or setup question; HR-2 calibration pending [$GOLD] [2086939989254815955]
 
 ## trading_axe
 - Platforms: X (primary; X-only)
