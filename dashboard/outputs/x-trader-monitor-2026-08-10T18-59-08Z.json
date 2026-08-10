@@ -1,0 +1,176 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Conviction Add — @Wild_Randomness"
+      },
+      "children": [
+        "badge_gold",
+        "sep1",
+        "stack_position",
+        "sep2",
+        "stack_technical",
+        "sep3",
+        "stack_prior",
+        "sep4",
+        "link_post",
+        "sep5",
+        "text_cta"
+      ]
+    },
+    "badge_gold": {
+      "type": "Badge",
+      "props": {
+        "text": "GOLD",
+        "variant": "default"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_position": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_position",
+        "text_position"
+      ]
+    },
+    "heading_position": {
+      "type": "Heading",
+      "props": {
+        "text": "Position Update",
+        "level": "h3"
+      }
+    },
+    "text_position": {
+      "type": "Text",
+      "props": {
+        "text": "Re-leveraged GOLD long position this morning.",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_technical": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_technical",
+        "stat_ratio",
+        "stat_consolidation",
+        "text_technical_detail"
+      ]
+    },
+    "heading_technical": {
+      "type": "Heading",
+      "props": {
+        "text": "Technical Validation",
+        "level": "h3"
+      }
+    },
+    "stat_ratio": {
+      "type": "Stat",
+      "props": {
+        "label": "XAUUSD/SPX Ratio",
+        "value": "0.561",
+        "trend": "neutral"
+      }
+    },
+    "stat_consolidation": {
+      "type": "Stat",
+      "props": {
+        "label": "Gold Spot Consolidation",
+        "value": "4,280–4,400"
+      }
+    },
+    "text_technical_detail": {
+      "type": "Text",
+      "props": {
+        "text": "Gold spot trading in 4,280–4,400 consolidation box with intact uptrend structure (weekly). Ratio recovery arrows suggest structural support being tested — aligns with barbell thesis (gold vol recovery vs. crypto vol compression).",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_prior": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_prior",
+        "text_prior_entry",
+        "text_pending"
+      ]
+    },
+    "heading_prior": {
+      "type": "Heading",
+      "props": {
+        "text": "Prior Entry",
+        "level": "h3"
+      }
+    },
+    "text_prior_entry": {
+      "type": "Text",
+      "props": {
+        "text": "Aug 06 02:16Z GOLD LONG + IBIT PUT OPTIONS",
+        "variant": "lead"
+      }
+    },
+    "text_pending": {
+      "type": "Alert",
+      "props": {
+        "message": "Pending Kyle approval",
+        "type": "info"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2086888703771951602"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_cta": {
+      "type": "Text",
+      "props": {
+        "text": "Want to add to your GOLD position too?",
+        "variant": "lead"
+      }
+    }
+  }
+}
