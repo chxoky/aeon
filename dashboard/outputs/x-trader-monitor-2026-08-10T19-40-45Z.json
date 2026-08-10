@@ -1,0 +1,33 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "link_view"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "ES structure comparison: current bullish vs 2022 crash scenario — 'What if?' sentiment. Two 1D charts show (1) May–Aug uptrend 6,900→7,775 and (2) 2022 bear collapse 4,800→4,317 for pattern comparison. Aligns with her Jump the Shark macro bear thesis."
+      },
+      "children": []
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2086900003457703959"
+      },
+      "children": []
+    }
+  }
+}
