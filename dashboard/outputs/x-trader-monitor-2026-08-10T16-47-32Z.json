@@ -1,0 +1,188 @@
+{
+  "root": "card-calibration",
+  "state": {},
+  "elements": {
+    "card-calibration": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @Wild_Randomness"
+      },
+      "children": [
+        "event-section",
+        "separator-1",
+        "analysis-section",
+        "separator-2",
+        "candidates-section",
+        "separator-3",
+        "link-section"
+      ]
+    },
+    "event-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event-heading",
+        "event-context",
+        "quote-text"
+      ]
+    },
+    "event-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "event-context": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to @Noodle_Noodle1 asking \"What are you looking at?\"",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "quote-text": {
+      "type": "Text",
+      "props": {
+        "text": "Wild_Randomness: \"Took mine off on the repricing last week but I'm pretty sure I need to get back in\"",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "analysis-heading",
+        "analysis-alert"
+      ]
+    },
+    "analysis-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Analysis",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "analysis-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What asset/position are they referring to? The original conversation context isn't visible, but likely candidates based on recent tracking follow.",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "candidates-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "candidates-heading",
+        "candidates-grid"
+      ]
+    },
+    "candidates-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Likely Candidates",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "candidates-grid": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-btc",
+        "badge-aapl",
+        "badge-spcx"
+      ]
+    },
+    "badge-btc": {
+      "type": "Badge",
+      "props": {
+        "text": "BTC/GOLD barbell thesis",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "badge-aapl": {
+      "type": "Badge",
+      "props": {
+        "text": "AAPL short",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "badge-spcx": {
+      "type": "Badge",
+      "props": {
+        "text": "SPCX",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-heading",
+        "post-link"
+      ]
+    },
+    "link-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Original Post",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "post-link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2086854813099389377"
+      },
+      "children": []
+    }
+  }
+}

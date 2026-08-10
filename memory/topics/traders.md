@@ -118,6 +118,7 @@
   - Aug 10 16:19Z — ambiguous: reply to @larrylegend718 "60% filled... they can send it down to 290"; context-dependent, no ticker/asset clarity; HR-2 calibration [2086849970674758032]
   - Aug 10 16:29Z — informational: XAUUSD/BTCUSD ratio 68.097 (+1.75%) validates Gold/BTC divergence thesis; barbell confirmation [2086852550226260091]
   - Aug 10 16:40Z — informational: DVOL ATL + MSTR breakdown validates Jump the Shark thesis [$BTC $DVOL $MSTR] [2086855262678446129]
+  - Aug 10 16:38Z — ambiguous: reply to @Noodle_Noodle1 "Took mine off on repricing last week...need to get back in"; ticker context unavailable, HR-2 calibration alert sent to Kyle [2086854813099389377]
 
 ## trading_axe
 - Platforms: X (primary; X-only)
