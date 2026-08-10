@@ -79,10 +79,10 @@
 ## Wild_Randomness
 - Platforms: X (primary; X-only)
 - Current open positions: IBIT/BTC September puts (Aug 07 17:20Z, pending Kyle `approve WR-BTC-PUTS`; rejected lifetime POC + equities divergence). GOLD LONG + IBIT PUT OPTIONS barbell (Aug 06 02:16Z, pending Kyle approval). ALAB long sub $325 (Aug 05 14:56Z, SL daily close $320, pending Kyle approval). QQQ PUT OPTIONS (Aug 05 14:30Z, reduced to ~30% by Aug 05 20:36Z). AAPL SHORT systematic box adds ($312-315 consolidation; "every day we visit the box, add a tranche"; Aug 07 15:48Z add). Long HYPE/LIT/ZEC (portfolio holdings confirmed Aug 07 13:28Z). ibit/ETHA Oct puts accumulating. CLOSED: SOXL Aug 07 14:46Z at trend line break (~139-150 support); ALAB Sep bid Aug 04 20:21Z at ~361.
-- Recent thesis: Macro bear/"Jump the Shark" — "The Big One hasn't happened yet." Gold/BTC divergence play (gold vol up = good; BTC vol down = lame). Barbell: precious metals longs + crypto/equity put options. DVOL ATL (34.89) = vol never cheaper. BTC conditional invalidation at 68K sustained. 15-20 August window "most important" per August astro/Gann report. AAPL systematic box-add discipline ($312-315 daily if no break above).
+- Recent thesis: Macro bear/"Jump the Shark" — "The Big One hasn't happened yet." Gold/BTC divergence play (gold vol up = good; BTC vol down = lame). Barbell: precious metals longs + crypto/equity put options. DVOL ATL (34.89) = vol never cheaper. BTC conditional invalidation at 68K sustained. 15-20 August window "most important" per August astro/Gann report. AAPL systematic box-add discipline ($312-315 daily if no break above). Opportunity-cost mindset: emphasizes vol structure + relative opportunity weighting.
 - Conviction notes: Highest noise volume among tracked traders — URL-only posts = NOISE. Chart-driven macro analysis (vol structure, ratio divergence, barbell strategy). Multiple PENDING Kyle approvals — no confirmed mirrors. AAPL short = systematic daily-add plan with defined invalidation (close above box). GOLD/BTC ratio at multi-year inflection confirming barbell thesis.
 - Calibration: PENDING Aug 08 23:20Z ("Cheers to 10k" + image unavailable; which ticker?). PENDING Aug 07 21:06Z ("75-80% from 129 given we broke range" — likely SPCX TP update). PENDING Aug 07 17:00Z (Uptober "where is the starting line?" — asset unclear). Multiple prior calibration items (Aug 01-05) carried over; resolve with Kyle when active.
-- Last seen: 2026-08-10T14:58:53Z (X — poll/engagement on SPCX/BTC opportunity; informational)
+- Last seen: 2026-08-10T15:02:31Z (X — vol + opportunity-cost market commentary; informational)
 - **Events (rolling):**
   - Aug 05 14:30Z — trade-new-entry: QQQ PUT OPTIONS; P/C ratio 0.46 (6mo extreme); pending Kyle [$QQQ]
   - Aug 05 14:56Z — trade-new-entry: ALAB long sub $325; SL daily close $320; pending Kyle [$ALAB]
@@ -111,6 +111,7 @@
   - Aug 09 18:32Z — ambiguous: "@PartisandeL That's my view and expectations" — reply-dependent; HR-2 calibration
   - Aug 09 21:50Z — skip: banter reply to @GOLDMANTRACKS; historical reflection on past BTC long 85k (gold rotation thesis); "both nuked together" [2086570842293719127]
   - Aug 10 14:58Z — informational: poll/engagement asking Kyle which asset bought (SPCX/BTC); charts show both at drawdown lows [2086829643139809628]
+  - Aug 10 15:02Z — informational: vol + opportunity cost market philosophy (no ticker); macro sentiment observation [2086830558420885994]
 
 ## trading_axe
 - Platforms: X (primary; X-only)
