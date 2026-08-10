@@ -1,0 +1,60 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-section",
+        "separator",
+        "validation-text"
+      ]
+    },
+    "tweet-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-card",
+        "tweet-link"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "$BTC\n\nDelta has remained green for months, which clearly suggests that larger players have been steadily accumulating.\n\nIt's only a matter of time before we transition back into orange and begin seeing a much larger move upwards.\n\nPatience. 🤟"
+      },
+      "children": []
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2086800481704403222"
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "validation-text": {
+      "type": "Text",
+      "props": {
+        "text": "Chart validated: Net Miner Multiples indicator predominantly green 2024–2026, supporting accumulation thesis. Aligns with KillaXBT's structural bull conviction (2.5yr dump at 160K target; current range 57K–59K base).",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
