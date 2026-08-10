@@ -1,8 +1,8 @@
-market context — 2026-08-09
+market context — 2026-08-10
 
 take: chop (conviction low)
-BTC $64,989 (−0.1%) / ETH $1,922 (−0.2%) · F&G 31 (Fear)
-breadth 6/20 · DEX vol $4.39B (−32% vs 7d avg)
-top narrative: ZEC/XMR privacy (rising) ZEC +10.8% 7d
-new signal: TAO #2 trending (+5.3% 24h, emerging)
-hot market: Hormuz
+BTC $65,251 (+0.8%) / ETH $1,926 (+0.7%) · F&G 30 (Fear)
+breadth 10/20 · DEX vol $4.39B (29% below 7d avg)
+top narrative: ZEC/XMR privacy (rising) · XMR +4.0% 24h
+Polymarket: Hormuz traffic by Aug 31 YES 4.25%
+⚑ CPI binary Aug 12 · Clarity Act delayed to Sept 14

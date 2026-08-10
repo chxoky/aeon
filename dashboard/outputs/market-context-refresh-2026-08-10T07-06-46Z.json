@@ -1,0 +1,266 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Market Context — 2026-08-10"
+      },
+      "children": [
+        "take_section",
+        "sep_1",
+        "prices_section",
+        "sep_2",
+        "market_data_section",
+        "sep_3",
+        "narrative_section",
+        "sep_4",
+        "polymarket_section",
+        "sep_5",
+        "events_section"
+      ]
+    },
+    "take_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "take_label",
+        "take_badge"
+      ]
+    },
+    "take_label": {
+      "type": "Text",
+      "props": {
+        "text": "Take:",
+        "variant": "lead"
+      }
+    },
+    "take_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "chop (conviction low)",
+        "variant": "outline"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "prices_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "prices_heading",
+        "prices_row",
+        "fg_stat"
+      ]
+    },
+    "prices_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Prices",
+        "level": "h3"
+      }
+    },
+    "prices_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "btc_stat",
+        "eth_stat"
+      ]
+    },
+    "btc_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$65,251",
+        "delta": "+0.8%",
+        "trend": "up"
+      }
+    },
+    "eth_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$1,926",
+        "delta": "+0.7%",
+        "trend": "up"
+      }
+    },
+    "fg_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Fear & Greed",
+        "value": "30 (Fear)"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "market_data_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "market_heading",
+        "breadth_stat",
+        "dex_stat"
+      ]
+    },
+    "market_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Market Breadth & Volume",
+        "level": "h3"
+      }
+    },
+    "breadth_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Breadth",
+        "value": "10/20"
+      }
+    },
+    "dex_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "DEX Volume",
+        "value": "$4.39B",
+        "delta": "−29% vs 7d avg",
+        "trend": "down"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "narrative_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "narrative_heading",
+        "narrative_badge",
+        "xmr_stat"
+      ]
+    },
+    "narrative_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Narrative",
+        "level": "h3"
+      }
+    },
+    "narrative_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "ZEC/XMR Privacy (rising)",
+        "variant": "secondary"
+      }
+    },
+    "xmr_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "XMR",
+        "value": "+4.0%",
+        "delta": "24h change",
+        "trend": "up"
+      }
+    },
+    "sep_4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "polymarket_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "polymarket_heading",
+        "hormuz_progress"
+      ]
+    },
+    "polymarket_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Polymarket",
+        "level": "h3"
+      }
+    },
+    "hormuz_progress": {
+      "type": "Progress",
+      "props": {
+        "label": "Hormuz traffic by Aug 31 (YES)",
+        "value": 4.25,
+        "max": 100
+      }
+    },
+    "sep_5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "events_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "events_heading",
+        "cpi_alert",
+        "clarity_alert"
+      ]
+    },
+    "events_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Upcoming Events",
+        "level": "h3"
+      }
+    },
+    "cpi_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "CPI Binary",
+        "message": "Aug 12",
+        "type": "info"
+      }
+    },
+    "clarity_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Clarity Act",
+        "message": "Delayed to Sept 14",
+        "type": "info"
+      }
+    }
+  }
+}
