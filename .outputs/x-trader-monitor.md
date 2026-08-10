@@ -1,9 +1,7 @@
 🐦 *[X] @Wild_Randomness*
 
-Gold/BTC ratio continues to diverge: **XAUUSD/BTCUSD = 68.097** (+1.75% on the day).
+BTC DVOL
 
-Chart confirms Wild_Randomness's macro bearish thesis (precious metals strength vs crypto weakness).
+DVOL at all-time lows (34-36), confirming vol structure extremely cheap for hedging entry. MicroStrategy showing catastrophic breakdown 200→97 (-52%), validating capital destruction theme in Jump the Shark macro bear thesis.
 
-⚠️ **Cross-trader divergence:** KillaXBT shorted GOLD (Aug 09) while Wild_Randomness is LONG (Aug 06, barbell strategy) — opposite conviction on same asset.
-
-[View tweet](https://x.com/Wild_Randomness/status/2086852550226260091)
+[View tweet](https://x.com/Wild_Randomness/status/2086855262678446129)
