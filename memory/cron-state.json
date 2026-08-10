@@ -108,13 +108,14 @@
   },
   "token-movers": {
     "last_dispatch": "2026-08-10T12:00:43Z",
-    "last_status": "dispatched",
-    "last_success": "2026-08-10T07:16:44Z",
-    "total_runs": 52,
-    "total_successes": 52,
+    "last_status": "success",
+    "last_success": "2026-08-10T12:12:30Z",
+    "total_runs": 53,
+    "total_successes": 53,
     "total_failures": 0,
     "consecutive_failures": 0,
-    "success_rate": 1
+    "success_rate": 1,
+    "last_quality_score": 4
   },
   "skill-health": {
     "last_dispatch": "2026-08-09T18:18:26Z",
