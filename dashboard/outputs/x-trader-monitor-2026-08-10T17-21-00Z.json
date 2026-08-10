@@ -1,0 +1,159 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor",
+        "description": "Trading sentiment analysis"
+      },
+      "children": [
+        "tweet-stack",
+        "separator-1",
+        "analysis-stack"
+      ]
+    },
+    "tweet-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-card",
+        "tweet-link"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "@HeartCanHodl",
+        "text": "Been ringing the caution bell 🔔 all weekend"
+      }
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/HeartCanHodl/status/2086864474330575153"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "sentiment-heading",
+        "bearish-outlook-text",
+        "recent-posts-heading",
+        "posts-grid",
+        "regime-heading",
+        "regime-stack"
+      ]
+    },
+    "sentiment-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Sentiment Reinforcement",
+        "level": "h3"
+      }
+    },
+    "bearish-outlook-text": {
+      "type": "Text",
+      "props": {
+        "text": "Bearish caution outlook continues from recent posts; aligns with net-short regime.",
+        "variant": "lead"
+      }
+    },
+    "recent-posts-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Recent Posts",
+        "level": "h4"
+      }
+    },
+    "posts-grid": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "post-1",
+        "post-2",
+        "post-3"
+      ]
+    },
+    "post-1": {
+      "type": "Text",
+      "props": {
+        "text": "• Technical exhaustion (08:44Z)",
+        "variant": "body"
+      }
+    },
+    "post-2": {
+      "type": "Text",
+      "props": {
+        "text": "• Downside structure (08:49Z)",
+        "variant": "body"
+      }
+    },
+    "post-3": {
+      "type": "Text",
+      "props": {
+        "text": "• Short conviction (17:07Z)",
+        "variant": "body"
+      }
+    },
+    "regime-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Net-Short Regime",
+        "level": "h4"
+      }
+    },
+    "regime-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat-btc",
+        "stat-short",
+        "regime-start-date"
+      ]
+    },
+    "stat-btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC Position",
+        "value": "12.5%"
+      }
+    },
+    "stat-short": {
+      "type": "Stat",
+      "props": {
+        "label": "Short Overlay",
+        "value": "22%"
+      }
+    },
+    "regime-start-date": {
+      "type": "Text",
+      "props": {
+        "text": "Started: Aug 07",
+        "variant": "caption"
+      }
+    }
+  }
+}
