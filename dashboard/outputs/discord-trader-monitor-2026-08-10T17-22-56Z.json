@@ -1,0 +1,117 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "🔍 Calibration — [DC: HCH — Free]"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_event_header",
+        "text_hch_original",
+        "sep_1",
+        "text_hch_reply",
+        "link_tweet",
+        "sep_2",
+        "text_classify_header",
+        "stack_options",
+        "sep_3",
+        "text_question"
+      ]
+    },
+    "text_event_header": {
+      "type": "Text",
+      "props": {
+        "text": "Event context:",
+        "variant": "lead"
+      }
+    },
+    "text_hch_original": {
+      "type": "Text",
+      "props": {
+        "text": "↩️ HCH: \"And rush for exits\""
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "text_hch_reply": {
+      "type": "Text",
+      "props": {
+        "text": "HCH reply: \"Hope you realised whatever was on the table\""
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/i/status/2086862057484460454",
+        "href": "https://x.com/i/status/2086862057484460454"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "text_classify_header": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — is this:",
+        "variant": "lead"
+      }
+    },
+    "stack_options": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_option_1",
+        "text_option_2",
+        "text_option_3"
+      ]
+    },
+    "text_option_1": {
+      "type": "Text",
+      "props": {
+        "text": "1. Past reflection (\"hope you caught that move\")?"
+      }
+    },
+    "text_option_2": {
+      "type": "Text",
+      "props": {
+        "text": "2. Current directive to exit (\"rush for exits now\")?"
+      }
+    },
+    "text_option_3": {
+      "type": "Text",
+      "props": {
+        "text": "3. General market commentary?"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "text_question": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "lead"
+      }
+    }
+  }
+}
