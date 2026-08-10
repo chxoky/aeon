@@ -134,6 +134,7 @@
   - Aug 10 18:53Z — trade-conviction-add: GOLD long re-leveraged; XAUUSD/SPX ratio 0.561 holding support, gold spot 4,283 in consolidation box 4,280-4,400 with intact uptrend [$GOLD] [2086888703771951602]
   - Aug 10 19:08Z — informational: IBKR position update; bought last week, targeting $100 first then higher if SPX holds; chart shows 1D uptrend + 1W structure confirmation [$IBKR] [2086892455031632231]
   - Aug 10 19:29Z — ambiguous: Reply to @MarkusRobimj2t "You bet, and gdx calls"; reply-dependent, lacks context on prior message; unclear if personal trade entry or opinion sharing; HR-2 calibration alert sent [$GDX] [2086897790161219745]
+  - Aug 10 19:30Z — informational: GOLD spot + calls confirmation — "I have GDXJ XGD spot, GDX calls"; reply to @Credib1eGuy; validates Aug 10 18:53Z GOLD re-leverage conviction (spot miners + call upside lever) [$GOLD] [2086897972084887794]
 
 ## trading_axe
 - Platforms: X (primary; X-only)
