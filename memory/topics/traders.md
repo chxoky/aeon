@@ -137,6 +137,7 @@
   - Aug 10 19:30Z — informational: GOLD spot + calls confirmation — "I have GDXJ XGD spot, GDX calls"; reply to @Credib1eGuy; validates Aug 10 18:53Z GOLD re-leverage conviction (spot miners + call upside lever) [$GOLD] [2086897972084887794]
   - Aug 10 19:38Z — informational-sentiment: ES "what if?" crash structure comparison (current bullish vs 2022 bear); chart-driven macro bearish conviction [$ES] [2086900003457703959]
   - Aug 10 19:40Z — informational-validation: SPCX technical setup from 18:29Z validating; 110-180 range recovery + 150 TP thesis in early confirmation (3m breakout to 137.79, 1D consolidation holding); sentiment reinforcement on prior call [$SPCX] [2086900561044214116]
+  - Aug 10 19:42Z — trade-dca-plan: SPY Oct 16 700 puts + QQQ Sept 30 650 puts; averaging into August opex [$SPY $QQQ] [2086901042961412135]
 
 ## trading_axe
 - Platforms: X (primary; X-only)

@@ -1,0 +1,72 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "DCA Plan — @Wild_Randomness"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "table_positions",
+        "text_status",
+        "text_question"
+      ]
+    },
+    "table_positions": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Symbol",
+          "Expiry",
+          "Strike",
+          "Type",
+          "Sentiment"
+        ],
+        "rows": [
+          [
+            "SPY",
+            "Oct 16",
+            "700",
+            "puts",
+            "bearish"
+          ],
+          [
+            "QQQ",
+            "Sept 30",
+            "650",
+            "puts",
+            "bearish"
+          ]
+        ]
+      },
+      "children": []
+    },
+    "text_status": {
+      "type": "Text",
+      "props": {
+        "text": "Started Friday, averaging into August opex / JHole",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "text_question": {
+      "type": "Text",
+      "props": {
+        "text": "Want to set up your own DCA structure on these puts, or skip?",
+        "variant": "lead"
+      },
+      "children": []
+    }
+  }
+}
