@@ -89,7 +89,7 @@
 - Recent thesis: Macro bear/"Jump the Shark" — "The Big One hasn't happened yet." Gold/BTC divergence play (gold vol up = good; BTC vol down = lame). Barbell: precious metals longs + crypto/equity put options. DVOL ATL (34.89) = vol never cheaper. BTC conditional invalidation at 68K sustained. 15-20 August window "most important" per August astro/Gann report. AAPL systematic box-add discipline ($312-315 daily if no break above). Opportunity-cost mindset: emphasizes vol structure + relative opportunity weighting. MSTR/Saylor thesis: latent sell pressure from large entities awaiting Saylor to fix MSTR/STRC mess; potential massive spot selling when "fixed" + returns as net buyer (liquidity catalyst).
 - Conviction notes: Highest noise volume among tracked traders — URL-only posts = NOISE. Chart-driven macro analysis (vol structure, ratio divergence, barbell strategy). Multiple PENDING Kyle approvals — no confirmed mirrors. AAPL short = systematic daily-add plan with defined invalidation (close above box). GOLD/BTC ratio at multi-year inflection confirming barbell thesis. MSTR left-tail theory validates "Jump the Shark" macro framework.
 - Calibration: PENDING Aug 10 19:50Z ("Sidelined?" + GOLD 415 call options chart 09/18 exp; unclear if liquidity complaint or setup question; HR-2 calibration sent). PENDING Aug 08 23:20Z ("Cheers to 10k" + image unavailable; which ticker?). PENDING Aug 07 21:06Z ("75-80% from 129 given we broke range" — likely SPCX TP update). PENDING Aug 07 17:00Z (Uptober "where is the starting line?" — asset unclear). Multiple prior calibration items (Aug 01-05) carried over; resolve with Kyle when active.
-- Last seen: 2026-08-10T19:50:31Z (X — "Sidelined?" + GOLD options chart, ambiguous calibration signal)
+- Last seen: 2026-08-10T20:19:22Z (X — macro sentiment on GOLD reserve asset thesis, macro bear conviction)
 - **Events (rolling):**
   - Aug 05 14:30Z — trade-new-entry: QQQ PUT OPTIONS; P/C ratio 0.46 (6mo extreme); pending Kyle [$QQQ]
   - Aug 05 14:56Z — trade-new-entry: ALAB long sub $325; SL daily close $320; pending Kyle [$ALAB]
@@ -141,6 +141,7 @@
   - Aug 10 19:46Z — ambiguous: reply to @based16z "call chasing last week, vix at yearly lows"; asset unclear; macro sentiment on rally suppression + commodities priority [$UNKNOWN] [2086902034192851400]
   - Aug 10 19:50Z — ambiguous: "Sidelined?" + GOLD 415 call options chart (09/18 exp); liquidity sidelined or questioning setup?; HR-2 calibration [$GOLD] [2086903036023394559]
   - Aug 10 20:17Z — informational-sentiment: X "Or you can just buy gold down $1200 from its 2026 highs" — bullish GOLD restatement; validates prior Aug 10 18:53Z re-leverage conviction add; reinforces barbell long-calls opportunity thesis [$GOLD] [2086909712646422595]
+  - Aug 10 20:19Z — informational-macro: macro sentiment on GOLD reserve asset thesis; China max buying gold, Fed long-end risk, Treasury/yen intervention driving capital flows to gold; validates barbell conviction (cross-trader divergence: KillaXBT GOLD short) [$GOLD] [2086910298183913695]
 
 ## trading_axe
 - Platforms: X (primary; X-only)

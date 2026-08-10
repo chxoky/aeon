@@ -1,0 +1,57 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_wild_randomness",
+        "link_view_tweet",
+        "separator_1",
+        "sentiment_analysis"
+      ]
+    },
+    "tweet_wild_randomness": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Honestly I'm turning my brain off and not overthinking it\n\nChina is back to max buying gold, I have no faith in the Fed (if they let the long end go, I expect more $ to flow to gold as a reserve asset), treasury intervening with the yen, etc."
+      }
+    },
+    "link_view_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2086910298183913695"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sentiment_analysis": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "title": "Macro Sentiment Analysis",
+        "message": "Macro sentiment reinforcing bullish GOLD thesis; contrasts with KillaXBT's active GOLD short (Aug 09) — cross-trader divergence emerging."
+      }
+    }
+  }
+}
