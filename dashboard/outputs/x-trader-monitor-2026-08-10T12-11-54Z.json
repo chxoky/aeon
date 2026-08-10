@@ -1,0 +1,46 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-card",
+        "tweet-link",
+        "separator",
+        "analysis"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "imo fomo vs pumpfun rivalry gets much more mindshare in weeks to come, they fight over retail and toad pepe seems to be the one that gets crimed"
+      }
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/bull_genius/status/2086786186329137238"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Memecoin platform dynamics: bull_genius expects FOMO over PumpFun in coming weeks for retail mindshare; Toad/Pepe variant bearish on regulatory pressure.",
+        "variant": "caption"
+      }
+    }
+  }
+}
