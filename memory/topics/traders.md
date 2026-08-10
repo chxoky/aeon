@@ -125,6 +125,7 @@
   - Aug 10 16:38Z — ambiguous: reply to @Noodle_Noodle1 "Took mine off on repricing last week...need to get back in"; ticker context unavailable, HR-2 calibration alert sent to Kyle [2086854813099389377]
   - Aug 10 16:48Z — informational: HPE +12% position closed; daily chart breakout from 45-50 support zone into 55.21 resistance; "observing for now" [$HPE] [2086857296349733036]
   - Aug 10 17:01Z — informational: left-tail theory on MSTR/Saylor — latent sell pressure from large entities awaiting "fix" of MSTR/STRC mess; potential massive spot selling when macro situation resolved [$MSTR $BTC] [2086860622311125082]
+  - Aug 10 17:30Z — informational-macro: Treasury/CPI analysis — US30Y chart; questioning long-end behavior if CPI cold (hikes priced out/cuts priced in); macro divergence thesis [2086867741873717603]
 
 ## trading_axe
 - Platforms: X (primary; X-only)
