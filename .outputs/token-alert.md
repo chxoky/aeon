@@ -1,10 +1,9 @@
-TOKEN_ALERT_OK. No thresholds crossed.
+TOKEN_ALERT_OK. No thresholds breached — all three tracked tokens are drifting within normal bounds:
 
-## Summary
+| Token | Price | 24h Change | Volume | Threshold | Status |
+|-------|-------|-----------|--------|-----------|--------|
+| BTC | $65,072 | +0.26% | $15.03B | 5% | OK |
+| ETH | $1,918.60 | +0.05% | $5.34B | 8% | OK |
+| SOL | $76.98 | +0.69% | $1.24B | 10% | OK |
 
-- Fetched live prices from CoinGecko for BTC, ETH, SOL
-- Compared against Aug 08 baseline and per-token alert thresholds from `memory/MEMORY.md`
-- All within normal range — no 24h move exceeded thresholds (BTC −0.15% vs 5%, ETH −0.22% vs 8%, SOL +1.35% vs 10%)
-- Volumes all lower than Aug 08 (no spike)
-- No notification sent
-- Logged results to `memory/logs/2026-08-09.md`
+Volumes are flat-to-slightly-lower vs the Aug 08 baseline (BTC $17.5B→$15.0B, ETH roughly flat, SOL $1.54B→$1.24B) — no 3× spike. No notifications sent. Results logged to `memory/logs/2026-08-10.md`.
