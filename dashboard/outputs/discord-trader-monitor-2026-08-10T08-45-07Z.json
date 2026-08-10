@@ -1,0 +1,72 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor — Calibration"
+      },
+      "children": [
+        "badge_channel",
+        "text_message",
+        "separator_1",
+        "stack_metadata",
+        "alert_classify"
+      ]
+    },
+    "badge_channel": {
+      "type": "Badge",
+      "props": {
+        "text": "HCH Chat",
+        "variant": "outline"
+      }
+    },
+    "text_message": {
+      "type": "Text",
+      "props": {
+        "text": "\"Today would be a lot telling\"",
+        "variant": "lead"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_metadata": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_channel_desc",
+        "text_timestamp"
+      ]
+    },
+    "text_channel_desc": {
+      "type": "Text",
+      "props": {
+        "text": "supporting, premium member chat",
+        "variant": "caption"
+      }
+    },
+    "text_timestamp": {
+      "type": "Text",
+      "props": {
+        "text": "2026-08-10 08:43:02 UTC",
+        "variant": "caption"
+      }
+    },
+    "alert_classify": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read?",
+        "type": "info"
+      }
+    }
+  }
+}
