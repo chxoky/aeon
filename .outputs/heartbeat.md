@@ -1,21 +1,11 @@
-All checks complete. Here's the summary:
+HEARTBEAT_OK · STATUS_PAGE=OK
 
-## Summary
+All checks passed cleanly on the 08:00 UTC Aug 10 run:
 
-**HEARTBEAT_OK · STATUS_PAGE=WATCH**
+- **P0 skills**: all 9 enabled skills healthy — 0 consecutive failures, 0 stuck, 0 chronic failures
+- **P0 X webhook**: `WATCHED_TRADERS` rule_id `35f3c57c` — `is_effect: 1`, ON_AIR ✅
+- **P1**: no open PRs; GitHub issues disabled on this repo
+- **P2**: no open issues (ISS-004 resolved yesterday via trader-memory-compact); MEMORY.md has no active follow-up flags
+- **P3**: all enabled skills within their 2× schedule interval
 
-**P0 — Skill health:** All skills green. No failures, no stuck dispatches, no consecutive failures, no chronic failures. Heartbeat last success 6h ago (well within 36h threshold).
-
-**P0 — X webhook:** `WATCHED_TRADERS` rule (35f3c57c) confirmed `is_effect: 1` / active. ISS-002 guard passes.
-
-**P1 — PRs / Issues:** No open PRs. GitHub issues not available on this repo.
-
-**P2 — Memory flags:** ISS-004 (traders.md ~390KB oversize) — open/high. Deduped (appeared in last 48h logs). `trader-memory-compact` is scheduled for 20:00 UTC tonight (Sunday) and should auto-resolve it.
-
-**P3 — Schedule coverage:** All 9 enabled skills within their 2× schedule intervals.
-
-**Notification:** Skipped — all findings within the 48h dedup window.
-
-**Actions taken:**
-- `docs/status.md` — regenerated (🟡 WATCH, ISS-004 drives it)
-- `memory/logs/2026-08-09.md` — 20:00 UTC heartbeat entry appended
+`docs/status.md` updated to 🟢 OK (was 🟡 WATCH due to ISS-004, now cleared). No notification sent — nothing to escalate.
