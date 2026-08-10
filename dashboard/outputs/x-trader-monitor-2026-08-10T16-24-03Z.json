@@ -1,0 +1,131 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "calibration-heading",
+        "event-section",
+        "separator-1",
+        "tweet-card",
+        "separator-2",
+        "unable-classify-section",
+        "view-link"
+      ]
+    },
+    "calibration-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration — @Wild_Randomness",
+        "level": "h3"
+      }
+    },
+    "event-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event-text",
+        "event-badge"
+      ]
+    },
+    "event-text": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @larrylegend718",
+        "variant": "lead"
+      }
+    },
+    "event-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "context external/unavailable",
+        "variant": "outline"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Absolutely\n\nDefinitely hoping it gets pushed back up\n\nBut also 60% filled so they can send it down to 290 if they wish"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "unable-classify-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "unable-alert",
+        "questions-stack"
+      ]
+    },
+    "unable-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "type": "warning"
+      }
+    },
+    "questions-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "question-1",
+        "question-2",
+        "question-3"
+      ]
+    },
+    "question-1": {
+      "type": "Text",
+      "props": {
+        "text": "What asset/ticker? (no symbol in post)",
+        "variant": "body"
+      }
+    },
+    "question-2": {
+      "type": "Text",
+      "props": {
+        "text": "Is \"60% filled\" Wild_Randomness's own position, or commentary?",
+        "variant": "body"
+      }
+    },
+    "question-3": {
+      "type": "Text",
+      "props": {
+        "text": "What market structure does \"290\" represent?",
+        "variant": "body"
+      }
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2086849970674758032"
+      }
+    }
+  }
+}
