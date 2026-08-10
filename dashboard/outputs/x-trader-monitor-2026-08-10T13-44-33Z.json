@@ -1,0 +1,60 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-1",
+        "link-tweet",
+        "separator-1",
+        "text-disclaimer"
+      ]
+    },
+    "tweet-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "Well, well, well…\n\nIt's been a while since we've seen a 1 billion $USDT mint.\n\nJust a reminder… back in 2022 we saw multiple 1B mints drop periodically over a few weeks.\n\nShortly after that sequence, the bottom was in, and Bitcoin ripped from $16K to $25K in just a couple of candles."
+      },
+      "children": []
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2086810108185526653"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text-disclaimer": {
+      "type": "Text",
+      "props": {
+        "text": "Historical precedent: large USDT mints may signal market bottom forming. No personal trade execution; informational macro observation.",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
