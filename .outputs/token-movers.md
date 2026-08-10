@@ -1,21 +1,21 @@
-The temp files can't be removed by `rm` in this session, but they're inconsequential dot files. The skill is complete.
-
----
+Good. `1754906400.md` (2.8KB) has the real notification, `token-movers-msg.md` (22 bytes) is the probe that gets suppressed by the post-run step.
 
 ## Summary
 
-**Token Movers — 2026-08-10** executed successfully.
+**Token Movers — 2026-08-10 (~12:00 UTC)**
 
-**Data fetched:** Top-250 markets (109 extracted before WebFetch truncation) + trending endpoint (15 coins), both via WebFetch fallback.
+Data fetched live from CoinGecko (markets + trending endpoints via curl). Key findings:
 
-**Market pulse:** Broad green — 60% of filtered top-100 positive, median +0.6%. BTC broke through $65K (+0.8%). Privacy sector (XMR +4.0%, 7d +9.1%) extending into day 3 while DeFi tokens (WLD, UNI, NEAR, ARB) showed mild recoveries.
+**Market Pulse:** Neutral — 49/100 top coins flat-to-positive, median 0.0% for top-50. Majors (BTC/ETH) stalled; action concentrated in micro-caps.
 
-**Key signals surfaced:**
-- `PUMP` [TRENDING+UP]: +13.5% / 7d +37.8% — sustained, not a spike
-- `CASHCAT` [PUMP-RISK]: rank 194, +41.5% — trading_axe thesis live, manipulation risk elevated  
-- `BMT` [PUMP-RISK][MICROCAP]: rank 673, +83.8% with vol/mcap 13.8× — discard
-- `TUT` [TRENDING+DOWN][CAPITULATION]: 2-day +200-325% blow-off confirmed with vol/mcap 3.6
-- `BEAT`: 3-day pump (+12% → +48% → −20.3%) fully reversed
-- `XMR` [MAJOR]: privacy narrative rotating from ZEC, day 3
+**Top Winners:** CASHCAT +32.9% [TRENDING+UP][PUMP-RISK], TIBBIR +24.4% [BREAKOUT], CYS +23.3% [BREAKOUT], Q +14.7%, JTO +10.5%, WLD +9.7%, MON +7.4%, PUMP +7.1% [TRENDING+UP], PENGU +6.8% [TRENDING+UP], EIGEN +6.7%
 
-**Notification** written to `.pending-notify/1754870400.md` (sandbox fallback — will be delivered post-run). **Log** appended to `memory/logs/2026-08-10.md`.
+**Top Losers:** BEAT −22.5%, US −13.4%, VELVET −4.9%, SOSO −4.4%, KAITO −3.9%, ALGO −3.8%, HOLO −3.8%, CARDS −3.7%, JST −3.2%, ZEC −3.0% [MAJOR]
+
+**Trending:** MOW, PENGU, DOS, CASHCAT, PUMP, GRVT, TUT
+
+**Notable signals:** CASHCAT running 3rd day [PUMP-RISK]; CYS reversed from −16.6% loser to +23.3% today; TUT trending but unwinding fast (−22% from yesterday's +326% pump); KAITO 7d slide deepens to −32.3%.
+
+**Files changed:**
+- `.pending-notify/1754906400.md` — notification queued for post-run delivery
+- `memory/logs/2026-08-10.md` — log entry appended
