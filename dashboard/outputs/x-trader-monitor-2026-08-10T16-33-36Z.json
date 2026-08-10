@@ -1,0 +1,74 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "content_stack"
+      ]
+    },
+    "content_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "ratio_stat",
+        "analysis_text",
+        "divergence_alert",
+        "tweet_link"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Gold/BTC ratio continues to diverge: XAUUSD/BTCUSD = 68.097 (+1.75% on the day)."
+      },
+      "children": []
+    },
+    "ratio_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Gold/BTC Ratio (XAUUSD/BTCUSD)",
+        "value": "68.097",
+        "delta": "+1.75%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Chart confirms Wild_Randomness's macro bearish thesis: precious metals strength vs crypto weakness.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "divergence_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Cross-trader divergence",
+        "message": "KillaXBT shorted GOLD (Aug 09) while Wild_Randomness is LONG (Aug 06, barbell strategy) — opposite conviction on same asset.",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "tweet_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2086852550226260091",
+        "source": "X"
+      },
+      "children": []
+    }
+  }
+}

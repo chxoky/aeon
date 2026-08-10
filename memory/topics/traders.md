@@ -116,6 +116,7 @@
   - Aug 10 15:22Z — informational: ETH technical chart structure "Tick Tock" timing observation; 4-chart consolidation + oscillation pattern (swing highs/lows marked); critical timing inflection suggested [$ETH] [2086835696887803943]
   - Aug 10 16:06Z — trade-conviction-add: AAPL short added on Jeffries downgrade + tech box support (312-315); "wasn't finished filling"; systematic daily-add thesis validated; 3-trader convergence (HCH + WR + KillaXBT AAPL short constellation) [$AAPL] [2086846535258771792]
   - Aug 10 16:19Z — ambiguous: reply to @larrylegend718 "60% filled... they can send it down to 290"; context-dependent, no ticker/asset clarity; HR-2 calibration [2086849970674758032]
+  - Aug 10 16:29Z — informational: XAUUSD/BTCUSD ratio 68.097 (+1.75%) validates Gold/BTC divergence thesis; barbell confirmation [2086852550226260091]
 
 ## trading_axe
 - Platforms: X (primary; X-only)
