@@ -305,8 +305,8 @@
 - Current open positions: MU (Micron) LONG ~10% remainder (Jul 29 fresh entry ~$700, DCA plan; 90% cumulative closed by Aug 04 at various levels). SNDK (SanDisk) LONG ~20% remainder (Jul 29 fresh entry ~$980, DCA plan; 80% TP'd Aug 04T15:55Z — "80% closed on SNDK"). ES/S&P 500 LONG (Jun 21 entry, ACTIVE). LPTH 50% remainder (Jun 30 BEP partial exit, held as lottery ticket). GOLD SETUP INTEREST (watching 4465 + 4280 targets; setup described Aug 08 21:52Z, conditional entry not yet confirmed).
 - Recent thesis: Multi-asset discretionary (semis + crypto + macro). SNDK/MU generational-bottom DCA strategy (80% TP'd rapidly from 6-day hold). Gold short setup: 4520 then 4280 target; highest R/R = short of box (4500-4550), invalid mid-46s. Gold/BTC divergence thesis (gold double-bottom vs BTC pair by year-end). ETH.D dominance as leading indicator for alt accumulation timing.
 - Conviction notes: Disciplined tiered-exit trader (50%→60%→70%→80%→90% TP progression on semis). Patient accumulation into Fibonacci/technical support with defined risk. SNDK 80% TP in 6 days from ~$980 entry = fastest prior cycle. Limited Discord tracking window to date; primarily primary-channel execution signals.
-- Calibration: None pending.
-- Last seen: 2026-08-08T21:52:39Z (X — GOLD technical setup sharing)
+- Calibration: PENDING Aug 10 21:50Z (chart image, no caption text; HR-2 calibration pending).
+- Last seen: 2026-08-10T21:50:17Z (DC primary — chart image only, no text)
 - **Events (rolling):**
   - Jun 21 23:23Z — trade-new-entry: ES/S&P 500 LONG on dream conviction; ACTIVE [$ES]
   - Jul 17 13:46Z — trade-new-entry: MU DCA entry ~$800 ("about a third"); leaving room to add lower [$MU]
@@ -321,3 +321,4 @@
   - Aug 04 15:55Z — trade-partial-tp: SNDK "80% closed" (fast close 6 days from $980 entry on Jul 29) [$SNDK]
   - Aug 08 04:05Z — informational: X post gold double-bottom vs BTC pair by year-end; ETH.D as alt accumulation leading indicator [$GOLD $BTC $ETH.D]
   - Aug 08 21:52Z — informational: GOLD technical setup: 4520→4280 target; short of 4500-4550 box (highest R/R); invalid mid-46s [$XAU]
+  - Aug 10 21:50Z — ambiguous: DC primary "chart image, no text caption" — asset/thesis unclear; HR-2 calibration pending [$UNKNOWN] [1536491906362638386]

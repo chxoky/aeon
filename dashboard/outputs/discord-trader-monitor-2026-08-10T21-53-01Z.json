@@ -1,0 +1,59 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "heading-calibration",
+        "text-event",
+        "text-crypto",
+        "text-question",
+        "link-attachment"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: Chase — Chase]",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text-event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Image attachment only, no text provided",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-crypto": {
+      "type": "Text",
+      "props": {
+        "text": "crypto_chase: [image chart, no caption]",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-question": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "link-attachment": {
+      "type": "Link",
+      "props": {
+        "label": "View attachment: Discord image",
+        "href": "https://cdn.discordapp.com/attachments/1336082716063694962/1536491906073239632/image.png?ex=6a7b9919&is=6a7a4799&hm=e710e75691ad90b43c250c5580096b69bbccf9053feda8f20d862ca4906479be"
+      },
+      "children": []
+    }
+  }
+}
