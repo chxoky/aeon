@@ -36,6 +36,7 @@
   - Aug 10 08:44Z — ambiguous-technical: DC Comments "Last 3 daily candles showing exhaustion" — technical pattern observation (implied BTC daily), asset/direction/implication vague; fast-path alerted Kyle; HR-2 calibration pending [1536294208485199912]
   - Aug 10 08:49Z — informational: DC Comments "$62k is clear, but if BTC goes below $61k and rejects LTF reclaim, we're looking at sub-$54k move if triggers align" — technical structure conviction + price-target projection; fast-path alerted Kyle [1536295312568881284]
   - Aug 10 08:49Z — informational: DC Comments "50% S, 7.5% L/spot so far" — portfolio allocation snapshot; confirms net-short regime (50% shorts vs 7.5% spot longs = 6.7:1 ratio); status update only, no new trade signal [1536295462221516850]
+  - Aug 10 17:07Z — informational-reiteration: X "65,k, 1.9k shorts looking real gud!" — public reiteration of net-short conviction at conditional trigger levels; media shares DC educational context + "finger on the trigger" sentiment; no new trade signal; mechanical repeat with conviction reinforcement [2086862057484460454]
 
 ## KillaXBT
 - Platforms: X (primary) + Discord (1411492188315193416 primary "K")
