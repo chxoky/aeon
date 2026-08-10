@@ -146,6 +146,7 @@
   - Aug 10 20:19Z — informational-macro: macro sentiment on GOLD reserve asset thesis; China max buying gold, Fed long-end risk, Treasury/yen intervention driving capital flows to gold; validates barbell conviction (cross-trader divergence: KillaXBT GOLD short) [$GOLD] [2086910298183913695]
   - Aug 10 22:17Z — ambiguous: cryptic reference "$GOLD Cinema https://t.co/..." + 6 media images; unclear if educational chart sharing, noise, or setup question; HR-2 calibration pending [$GOLD] [2086939989254815955]
   - Aug 10 22:43Z — informational-macro: MSTR/Saylor commentary; equivocates junk with big-tech caution positioning, validates thesis [$MSTR] [2086946448558706837]
+  - Aug 10 22:54Z — ambiguous: "$600,000,000 of future selling pressure" — cryptic macro observation; context undefined (MSTR unlock catalyst, SPX/QQQ options expiry, broader market unwinding?); HR-2 calibration alert sent [$UNKNOWN] [2086949384013639946]
 
 ## trading_axe
 - Platforms: X (primary; X-only)

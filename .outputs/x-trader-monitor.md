@@ -1,9 +1,8 @@
-🐦 *[X] @Wild_Randomness*
+🔍 *Calibration — @Wild_Randomness*
 
-You can't make it up
+Event: Macro sentiment observation (preceding MSTR/Saylor thesis discussion)
+Wild_Randomness: "$600,000,000 of future selling pressure"
 
-Ofc Saylor tries to equivocate his junk with the one big tech company that has decided to refrain from taking risks this decade
+Unable to classify — what's your read? Which market/asset? $MSTR unlocks, SPX options expiry, or broader macro unwinding?
 
-Jokes write themselves
-
-[View tweet](https://x.com/Wild_Randomness/status/2086946448558706837)
+[View tweet](https://x.com/Wild_Randomness/status/2086949384013639946)
