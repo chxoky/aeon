@@ -1,11 +1,7 @@
-🐦 *[X] @Wild_Randomness*
+🐦 *[X] @KillaXBT*
 
-$ZEC
+When $BTC was above $100k, if you'd told people they'd get a chance to buy at 60k, 90% of people would've said "hell yes"\n\nNow that we're actually here, suddenly it's a different story.\n\nFunny.
 
-Personally, not a fan of zec correlating with btc on this local move down https://t.co/3ALmT94zni
+[View tweet](https://x.com/KillaXBT/status/2086878186889986319)
 
-15m chart: ZEC -4.0% (matching BTC -2.0%) vs LIT +2.1%, HYPE flat — showing ZEC moving WITH BTC rather than independent strength. Daily chart shows ZECUSDT at key support levels in downtrend (514.36 current, recent lows at 451.75).
-
-↳ _Aligns with Wild_Randomness's 'Jump the Shark' macro bear thesis (BTC vol weak = setup for downside). Converges with HCH net-short regime on BTC structure._
-
-[View tweet](https://x.com/Wild_Randomness/status/2086874414856253939)
+↳ _Market psychology reinforcement. Aligns with structural bull thesis; crowd divergence validates contrarian positioning._

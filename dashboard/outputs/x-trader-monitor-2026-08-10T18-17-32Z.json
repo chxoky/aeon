@@ -1,0 +1,42 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "view_link",
+        "insight_text"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "When $BTC was above $100k, if you'd told people they'd get a chance to buy at 60k, 90% of people would've said \"hell yes\"\n\nNow that we're actually here, suddenly it's a different story.\n\nFunny."
+      },
+      "children": []
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2086878186889986319"
+      },
+      "children": []
+    },
+    "insight_text": {
+      "type": "Text",
+      "props": {
+        "text": "Market psychology reinforcement. Aligns with structural bull thesis; crowd divergence validates contrarian positioning.",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
