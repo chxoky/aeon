@@ -1,0 +1,201 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "ticker_badge",
+        "tweet_card",
+        "chart_link",
+        "sep_1",
+        "chart_section",
+        "sep_2",
+        "daily_section",
+        "sep_3",
+        "macro_alert",
+        "tweet_link"
+      ]
+    },
+    "ticker_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "$ZEC",
+        "variant": "outline"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Personally, not a fan of zec correlating with btc on this local move down"
+      }
+    },
+    "chart_link": {
+      "type": "Link",
+      "props": {
+        "label": "View chart",
+        "href": "https://t.co/3ALmT94zni"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "chart_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "chart_heading",
+        "metrics_grid",
+        "movement_text"
+      ]
+    },
+    "chart_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "15m Chart",
+        "level": "h4"
+      }
+    },
+    "metrics_grid": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "zec_stat",
+        "btc_stat",
+        "lit_stat",
+        "hype_stat"
+      ]
+    },
+    "zec_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "ZEC",
+        "value": "-4.0%",
+        "trend": "down"
+      }
+    },
+    "btc_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "-2.0%",
+        "trend": "down"
+      }
+    },
+    "lit_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "LIT",
+        "value": "+2.1%",
+        "trend": "up"
+      }
+    },
+    "hype_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "HYPE",
+        "value": "Flat"
+      }
+    },
+    "movement_text": {
+      "type": "Text",
+      "props": {
+        "text": "ZEC moving WITH BTC rather than independent strength",
+        "variant": "body"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "daily_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "daily_heading",
+        "daily_info",
+        "support_stack"
+      ]
+    },
+    "daily_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Daily Chart",
+        "level": "h4"
+      }
+    },
+    "daily_info": {
+      "type": "Text",
+      "props": {
+        "text": "ZECUSDT at key support levels in downtrend",
+        "variant": "body"
+      }
+    },
+    "support_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "current_price_text",
+        "recent_low_text"
+      ]
+    },
+    "current_price_text": {
+      "type": "Text",
+      "props": {
+        "text": "Current: 514.36",
+        "variant": "body"
+      }
+    },
+    "recent_low_text": {
+      "type": "Text",
+      "props": {
+        "text": "Recent Low: 451.75",
+        "variant": "body"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "macro_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Macro Alignment",
+        "message": "Aligns with Wild_Randomness's 'Jump the Shark' macro bear thesis (BTC vol weak = setup for downside). Converges with HCH net-short regime on BTC structure.",
+        "type": "info"
+      }
+    },
+    "tweet_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "ZEC Correlation with BTC — Chart Analysis",
+        "href": "https://x.com/Wild_Randomness/status/2086874414856253939",
+        "source": "X — @Wild_Randomness"
+      }
+    }
+  }
+}

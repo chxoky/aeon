@@ -87,7 +87,7 @@
 - Recent thesis: Macro bear/"Jump the Shark" — "The Big One hasn't happened yet." Gold/BTC divergence play (gold vol up = good; BTC vol down = lame). Barbell: precious metals longs + crypto/equity put options. DVOL ATL (34.89) = vol never cheaper. BTC conditional invalidation at 68K sustained. 15-20 August window "most important" per August astro/Gann report. AAPL systematic box-add discipline ($312-315 daily if no break above). Opportunity-cost mindset: emphasizes vol structure + relative opportunity weighting. MSTR/Saylor thesis: latent sell pressure from large entities awaiting Saylor to fix MSTR/STRC mess; potential massive spot selling when "fixed" + returns as net buyer (liquidity catalyst).
 - Conviction notes: Highest noise volume among tracked traders — URL-only posts = NOISE. Chart-driven macro analysis (vol structure, ratio divergence, barbell strategy). Multiple PENDING Kyle approvals — no confirmed mirrors. AAPL short = systematic daily-add plan with defined invalidation (close above box). GOLD/BTC ratio at multi-year inflection confirming barbell thesis. MSTR left-tail theory validates "Jump the Shark" macro framework.
 - Calibration: PENDING Aug 08 23:20Z ("Cheers to 10k" + image unavailable; which ticker?). PENDING Aug 07 21:06Z ("75-80% from 129 given we broke range" — likely SPCX TP update). PENDING Aug 07 17:00Z (Uptober "where is the starting line?" — asset unclear). Multiple prior calibration items (Aug 01-05) carried over; resolve with Kyle when active.
-- Last seen: 2026-08-10T17:01:59Z (X — left-tail MSTR/Saylor thesis, latent sell pressure theory, DVOL chart context)
+- Last seen: 2026-08-10T17:56:47Z (X — ZEC/BTC correlation observation, chart-driven technical analysis)
 - **Events (rolling):**
   - Aug 05 14:30Z — trade-new-entry: QQQ PUT OPTIONS; P/C ratio 0.46 (6mo extreme); pending Kyle [$QQQ]
   - Aug 05 14:56Z — trade-new-entry: ALAB long sub $325; SL daily close $320; pending Kyle [$ALAB]
@@ -126,6 +126,7 @@
   - Aug 10 16:48Z — informational: HPE +12% position closed; daily chart breakout from 45-50 support zone into 55.21 resistance; "observing for now" [$HPE] [2086857296349733036]
   - Aug 10 17:01Z — informational: left-tail theory on MSTR/Saylor — latent sell pressure from large entities awaiting "fix" of MSTR/STRC mess; potential massive spot selling when macro situation resolved [$MSTR $BTC] [2086860622311125082]
   - Aug 10 17:30Z — informational-macro: Treasury/CPI analysis — US30Y chart; questioning long-end behavior if CPI cold (hikes priced out/cuts priced in); macro divergence thesis [2086867741873717603]
+  - Aug 10 17:56Z — informational: ZEC correlation with BTC downmove — 15m/1d chart; multi-trader contested ticker [$ZEC] [2086874414856253939]
 
 ## trading_axe
 - Platforms: X (primary; X-only)
