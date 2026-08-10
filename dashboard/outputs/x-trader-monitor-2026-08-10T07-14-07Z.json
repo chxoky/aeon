@@ -1,0 +1,74 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-calibration",
+        "text-event",
+        "tweet-card",
+        "alert-classify",
+        "link-view"
+      ]
+    },
+    "stack-calibration": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-calibration",
+        "badge-user"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration",
+        "level": "h2"
+      }
+    },
+    "badge-user": {
+      "type": "Badge",
+      "props": {
+        "text": "@swarmister",
+        "variant": "default"
+      }
+    },
+    "text-event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Cryptic reply to @0xMerp",
+        "variant": "body"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "Black swan…"
+      }
+    },
+    "alert-classify": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read? Asset/thesis unclear from context alone.",
+        "type": "info"
+      }
+    },
+    "link-view": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/swarmister/status/2086711971735318850"
+      }
+    }
+  }
+}
