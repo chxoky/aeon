@@ -1,0 +1,65 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @Wild_Randomness",
+        "description": "Event: Reply to @based16z on market conditions"
+      },
+      "children": [
+        "tweet_card",
+        "separator_1",
+        "analysis_stack"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "text": "I have a hard time seeing this one run away from us given the call chasing last week and vix at yearly lows. Just need to be patient (I still think this shouldn't take away attention from commodities). Even VXN has finally released [chart]"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "classification_alert",
+        "analysis_text",
+        "view_link"
+      ]
+    },
+    "classification_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Which asset is 'this one'? Context-dependent reply.",
+        "type": "info"
+      }
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Appears to be macro sentiment on short-term rally suppression (call chasing + low VIX) + emphasis on commodities focus (aligns with GOLD barbell thesis).",
+        "variant": "body"
+      }
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2086902034192851400"
+      }
+    }
+  }
+}
