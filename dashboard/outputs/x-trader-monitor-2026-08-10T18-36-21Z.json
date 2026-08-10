@@ -1,0 +1,113 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "badge-label",
+        "stat-price",
+        "tweet-card",
+        "sep-1",
+        "heading-details",
+        "stack-technical",
+        "sep-2",
+        "badge-disclaimer",
+        "link-tweet"
+      ]
+    },
+    "badge-label": {
+      "type": "Badge",
+      "props": {
+        "text": "SPCX Informational",
+        "variant": "secondary"
+      }
+    },
+    "stat-price": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "133.01",
+        "delta": "+15.83%",
+        "trend": "up"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Technical setup on SPCX: Charts show range consolidation 110-180, daily trend retest target at ~150. Setup: add into range high, cut on clean break, TP at ~150 test."
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-details": {
+      "type": "Heading",
+      "props": {
+        "text": "Technical Details",
+        "level": "h3"
+      }
+    },
+    "stack-technical": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-consolidation",
+        "text-target",
+        "text-setup"
+      ]
+    },
+    "text-consolidation": {
+      "type": "Text",
+      "props": {
+        "text": "Range Consolidation: 110-180",
+        "variant": "body"
+      }
+    },
+    "text-target": {
+      "type": "Text",
+      "props": {
+        "text": "Daily Trend Retest Target: ~150",
+        "variant": "body"
+      }
+    },
+    "text-setup": {
+      "type": "Text",
+      "props": {
+        "text": "Setup Instructions: Add into range high, cut on clean break, TP at ~150 test",
+        "variant": "body"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "badge-disclaimer": {
+      "type": "Badge",
+      "props": {
+        "text": "Conditional language (not execution)",
+        "variant": "outline"
+      }
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View Tweet",
+        "href": "https://x.com/Wild_Randomness/status/2086882770312450347"
+      }
+    }
+  }
+}

@@ -1,7 +1,1 @@
-🐦 *[X] @KillaXBT*
-
-When $BTC was above $100k, if you'd told people they'd get a chance to buy at 60k, 90% of people would've said "hell yes"\n\nNow that we're actually here, suddenly it's a different story.\n\nFunny.
-
-[View tweet](https://x.com/KillaXBT/status/2086878186889986319)
-
-↳ _Market psychology reinforcement. Aligns with structural bull thesis; crowd divergence validates contrarian positioning._
+SPCX informational: Wild_Randomness shares technical setup on SPCX at 133.01 (+15.83%). Charts show range consolidation 110-180, daily trend retest target at ~150. Setup: add into range high, cut on clean break, TP at ~150 test. Conditional language (not execution). https://x.com/Wild_Randomness/status/2086882770312450347

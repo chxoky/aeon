@@ -128,6 +128,7 @@
   - Aug 10 17:01Z — informational: left-tail theory on MSTR/Saylor — latent sell pressure from large entities awaiting "fix" of MSTR/STRC mess; potential massive spot selling when macro situation resolved [$MSTR $BTC] [2086860622311125082]
   - Aug 10 17:30Z — informational-macro: Treasury/CPI analysis — US30Y chart; questioning long-end behavior if CPI cold (hikes priced out/cuts priced in); macro divergence thesis [2086867741873717603]
   - Aug 10 17:56Z — informational: ZEC correlation with BTC downmove — 15m/1d chart; multi-trader contested ticker [$ZEC] [2086874414856253939]
+  - Aug 10 18:29Z — informational: SPCX 1D/1H technical setup; range consolidation 110-180 with TP target ~150; chart-driven levels (add/cut/TP plan) [$SPCX] [2086882770312450347]
 
 ## trading_axe
 - Platforms: X (primary; X-only)
