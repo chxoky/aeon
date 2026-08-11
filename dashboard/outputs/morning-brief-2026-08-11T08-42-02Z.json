@@ -1,0 +1,265 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-08-11"
+      },
+      "children": [
+        "focus-section",
+        "separator-1",
+        "since-section"
+      ]
+    },
+    "focus-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus-heading",
+        "focus-1",
+        "focus-2",
+        "focus-3"
+      ]
+    },
+    "focus-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h3"
+      }
+    },
+    "focus-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "focus-1-title",
+        "focus-1-why"
+      ]
+    },
+    "focus-1-title": {
+      "type": "Text",
+      "props": {
+        "text": "CPI binary tomorrow 8:30 ET",
+        "variant": "body"
+      }
+    },
+    "focus-1-why": {
+      "type": "Text",
+      "props": {
+        "text": "Why now: regime flip live both directions; no entries before print",
+        "variant": "muted"
+      }
+    },
+    "focus-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "focus-2-title",
+        "focus-2-why"
+      ]
+    },
+    "focus-2-title": {
+      "type": "Text",
+      "props": {
+        "text": "WR SPY/QQQ put DCA",
+        "variant": "body"
+      }
+    },
+    "focus-2-why": {
+      "type": "Text",
+      "props": {
+        "text": "Why now: Kyle decision open; every day closer to opex degrades entry",
+        "variant": "muted"
+      }
+    },
+    "focus-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "focus-3-title",
+        "focus-3-why"
+      ]
+    },
+    "focus-3-title": {
+      "type": "Text",
+      "props": {
+        "text": "GOLD divergence at CPI inflection",
+        "variant": "body"
+      }
+    },
+    "focus-3-why": {
+      "type": "Text",
+      "props": {
+        "text": "Why now: KillaXBT SL missed by $1; contested positions live into print",
+        "variant": "muted"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "since-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "since-heading",
+        "since-1",
+        "since-2",
+        "since-3",
+        "since-4",
+        "since-5"
+      ]
+    },
+    "since-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h3"
+      }
+    },
+    "since-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "since-1-badge",
+        "since-1-text"
+      ]
+    },
+    "since-1-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "since-1-text": {
+      "type": "Text",
+      "props": {
+        "text": "WR GOLD long re-leveraged (GDXJ/XGD spot + GDX calls); GDXJ capitulation bottom confirmed (91.66→118.78)",
+        "variant": "body"
+      }
+    },
+    "since-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "since-2-badge",
+        "since-2-text"
+      ]
+    },
+    "since-2-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "since-2-text": {
+      "type": "Text",
+      "props": {
+        "text": "WR posted SPY Oct 16 700 puts + QQQ Sept 30 650 puts DCA plan; averaging into Aug opex/JHole",
+        "variant": "body"
+      }
+    },
+    "since-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "since-3-badge",
+        "since-3-text"
+      ]
+    },
+    "since-3-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "since-3-text": {
+      "type": "Text",
+      "props": {
+        "text": "KillaXBT GOLD short: SL 4440 missed by $1 (07:23Z today); active short still live",
+        "variant": "body"
+      }
+    },
+    "since-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "since-4-badge",
+        "since-4-text"
+      ]
+    },
+    "since-4-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "since-4-text": {
+      "type": "Text",
+      "props": {
+        "text": "BTC $64,027 (-1.9%), ETH $1,876 (-2.6%); breadth 7/20; F&G 29; DEX vol +43% to $6.24B on a down day",
+        "variant": "body"
+      }
+    },
+    "since-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "since-5-badge",
+        "since-5-text"
+      ]
+    },
+    "since-5-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "stuck",
+        "variant": "destructive"
+      }
+    },
+    "since-5-text": {
+      "type": "Text",
+      "props": {
+        "text": "Multiple WR calibrations pending: GDX calls, $600M",
+        "variant": "body"
+      }
+    }
+  }
+}

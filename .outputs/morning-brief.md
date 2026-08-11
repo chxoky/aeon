@@ -1,23 +1,13 @@
 *Morning Brief — 2026-08-11*
 
 *Focus today*
-1. CPI binary tomorrow (Aug 12, 8:30 ET) — chop/fear regime hangs on one print
-2. WR SPY/QQQ puts DCA — Kyle decision outstanding; opex window tightening
-3. KillaXBT GOLD short: SL barely survived (4440, missed by $1) — divergence vs WR long live into CPI
+1. CPI binary tomorrow 8:30 ET — why now: regime flip live both directions; no entries before print
+2. WR SPY/QQQ put DCA — why now: Kyle decision open; every day closer to opex degrades entry
+3. GOLD divergence at CPI inflection — why now: KillaXBT SL missed by $1; contested positions live into print
 
 *Since yesterday*
-- [moved] WR re-leveraged GOLD (18:53Z), confirmed GDXJ/XGD/GDX barbell; opened SPY Oct 700 + QQQ Sept 650 put DCA into August opex
-- [moved] WR retrospective: past alt longs (HYPE/LIT/ZEC/NEAR) closed, remain short majors
-- [moved] KillaXBT GOLD short: SL 4440 narrowly survived (07:23Z today); position still live
-- [stuck] 5 calibration alerts pending Kyle replies (WR Cinema/GOLD, $600M selling pressure, HCH screenshot, Chase chart)
-- [moved] LINK +2.4% [MAJOR] trending — sole top-20 green in 72%-red tape
-
-*Watch*
-- CPI Aug 12 8:30 ET — hot = risk-off deepens (BTC already cracked $65K, F&G 29); cool = regime flip candidate. Impacts all 3 focus items.
-
-*Running today*
-- token-movers @ 12:00 UTC
-- token-alert @ 12:00 UTC
-- market-context-refresh @ 13:00 UTC
-- narrative-tracker @ 13:30 UTC
-- heartbeat @ 20:00 UTC
+- [moved] WR GOLD long re-leveraged (GDXJ/XGD spot + GDX calls); GDXJ capitulation bottom confirmed (91.66→118.78)
+- [moved] WR posted SPY Oct 16 700 puts + QQQ Sept 30 650 puts DCA plan; averaging into Aug opex/JHole
+- [moved] KillaXBT GOLD short: SL 4440 missed by $1 (07:23Z today); active short still live
+- [moved] BTC $64,027 (-1.9%), ETH $1,876 (-2.6%); breadth 7/20; F&G 29; DEX vol +43% to $6.24B on a down day
+- [stuck] Multiple WR calibrations pending: GDX calls, $600M
