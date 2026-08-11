@@ -213,6 +213,7 @@
   - Aug 11 08:45Z — informational: "taking it easy...market isn't offering good conditions...very hot fall in crypto" — bullish macro sentiment/prediction, no personal trade action [2087098166189474006]
   - Aug 11 08:56Z — ambiguous: "@notfrydoteth Gm fryDotFullPortrisex...The gay bull q4" — reply-dependent cryptic; HR-2 calibration alert sent [$UNKNOWN] [2087100815374786582]
   - Aug 11 09:19Z — ambiguous: "@0xelevenquit Hai" — reply-dependent cryptic greeting; HR-2 calibration alert sent [$UNKNOWN] [2087106508345504111]
+  - Aug 11 11:28Z — ambiguous: "@_CryptoAnubis I'm a reluctant holder, you could say I was forced into it" — reply-dependent, asset/conviction unclear; HR-2 calibration pending [$UNKNOWN] [2087139196586614881]
 
 ## Stoiiic
 - Platforms: X (primary; X-only)
