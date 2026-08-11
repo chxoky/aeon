@@ -39,3 +39,4 @@ _Risk-off tape — 72% of top-100 coins are red, median −0.8%; BTC −2.0% bel
 • STONKBROKER: rank 395, +23.5% trending — [PUMP-RISK]; outside top 250, micro-cap, high manipulation probability
 • LINK [MAJOR]: top-20 outlier holding green in red tape, trending — one of few large-caps with positive signal
 • CASHCAT [TRENDING+DOWN]: −6.1%, in trending — Robinhood Chain reflexivity play (trading_axe thesis) under pressure
+Token Movers 2026-08-11 | Pulse: large-caps led lower (BTC -1.9%, ETH -2.6%) while DeFi alts diverge; median top-50 -0.45% | Winners: CYS +40.9% [TRENDING+UP][PUMP-RISK], CRV +9.6%, ICP +6.2%, LINK +2.4% [TRENDING+UP][MAJOR] | Losers: BTW -9.2%, CC -6.8%, CASHCAT -6.1% [TRENDING+DOWN], ADA -4.6%, XRP -2.9% [TRENDING+DOWN][MAJOR] | Notable: CYS pump-risk active (2nd flag in 3 days); CASHCAT 3-day pump reversed; LINK only blue-chip trending up | Breadth: 7/20 green top-20

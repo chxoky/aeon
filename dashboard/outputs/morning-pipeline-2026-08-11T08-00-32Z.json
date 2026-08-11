@@ -1,0 +1,201 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-08-11"
+      },
+      "children": [
+        "focus-heading",
+        "focus-stack",
+        "separator-1",
+        "since-heading",
+        "since-stack",
+        "separator-2",
+        "watch-heading",
+        "watch-content",
+        "separator-3",
+        "running-heading",
+        "running-stack"
+      ]
+    },
+    "focus-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "focus-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus-1",
+        "focus-2",
+        "focus-3"
+      ]
+    },
+    "focus-1": {
+      "type": "Text",
+      "props": {
+        "text": "1. CPI tomorrow 8:30 ET — why now: BTC at $64K, regime flip live both directions",
+        "variant": "body"
+      }
+    },
+    "focus-2": {
+      "type": "Text",
+      "props": {
+        "text": "2. WR SPY/QQQ puts DCA — why now: Kyle decision open; Aug opex window closing fast",
+        "variant": "body"
+      }
+    },
+    "focus-3": {
+      "type": "Text",
+      "props": {
+        "text": "3. GOLD divergence live — why now: KillaXBT stop barely held at 4440; WR re-leveraged again",
+        "variant": "body"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "since-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "since-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "since-1",
+        "since-2",
+        "since-3",
+        "since-4"
+      ]
+    },
+    "since-1": {
+      "type": "Text",
+      "props": {
+        "text": "Moved: BTC -$870 to $64,027; ETH broke $1,900 support to $1,877",
+        "variant": "body"
+      }
+    },
+    "since-2": {
+      "type": "Text",
+      "props": {
+        "text": "Moved: Polymarket Sep no-change now modal (56.5%) — rate expectations softened before CPI print",
+        "variant": "body"
+      }
+    },
+    "since-3": {
+      "type": "Text",
+      "props": {
+        "text": "Moved: CASHCAT reversed (-6.1%); LINK only blue-chip trending up (+2.4%); DEX vol recovered to $6.24B",
+        "variant": "body"
+      }
+    },
+    "since-4": {
+      "type": "Text",
+      "props": {
+        "text": "Pending: 4 calibration alerts awaiting Kyle reply (WR GDX/GOLD, Chase chart, HCH screenshot, trading_axe reply)",
+        "variant": "body"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "watch-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "watch-content": {
+      "type": "Text",
+      "props": {
+        "text": "CPI soft 3.3% → risk-on flip toward $67K; hot 3.5%+ → tests $62.7K — implication for focus #1",
+        "variant": "body"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "running-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "running-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "running-1",
+        "running-2",
+        "running-3",
+        "running-4",
+        "running-5"
+      ]
+    },
+    "running-1": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 08:00, 14:00, 20:00 UTC",
+        "variant": "caption"
+      }
+    },
+    "running-2": {
+      "type": "Text",
+      "props": {
+        "text": "token-alert @ 12:00 UTC",
+        "variant": "caption"
+      }
+    },
+    "running-3": {
+      "type": "Text",
+      "props": {
+        "text": "market-context-refresh @ 13:00 UTC",
+        "variant": "caption"
+      }
+    },
+    "running-4": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC",
+        "variant": "caption"
+      }
+    },
+    "running-5": {
+      "type": "Text",
+      "props": {
+        "text": "skill-health @ 18:00 UTC",
+        "variant": "caption"
+      }
+    }
+  }
+}
