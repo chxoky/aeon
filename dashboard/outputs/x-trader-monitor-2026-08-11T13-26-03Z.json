@@ -1,0 +1,43 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "link-post"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "$BTC — Expecting volatility after the 14th. We usually get a clean 6–8% swing. Structure is everything here.\n\nIf we start ripping aggressively into the 14th, that's a red flag and I'm already thinking rejection. I'm watching the reclaims, the key S/R flips, and the LTF/HTF trend.\n\nOnce you understand the structure leading into the date, the post‑move becomes predictable."
+      },
+      "children": []
+    },
+    "link-post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/KillaXBT/status/2087167902151811224"
+      },
+      "children": []
+    }
+  }
+}

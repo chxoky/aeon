@@ -1,7 +1,9 @@
-🔍 *Calibration — @swarmister*
+🐦 *[X] @KillaXBT*
 
-Reply to @hellojintao: "What"
+$BTC — Expecting volatility after the 14th. We usually get a clean 6–8% swing. Structure is everything here.
 
-Post is a cryptic one-word reply without visible context — cannot determine if this is a market signal, setup question, or casual banter. What's your read on what swarmister is asking about?
+If we start ripping aggressively into the 14th, that's a red flag and I'm already thinking rejection. I'm watching the reclaims, the key S/R flips, and the LTF/HTF trend.
 
-[View post](https://x.com/swarmister/status/2087164308094439596)
+Once you understand the structure leading into the date, the post‑move becomes predictable.
+
+[View post](https://x.com/KillaXBT/status/2087167902151811224)
