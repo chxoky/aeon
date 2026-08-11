@@ -1,11 +1,15 @@
-HEARTBEAT_OK · STATUS_PAGE=OK
+All checks complete. HEARTBEAT_OK · STATUS_PAGE=OK
 
-All checks passed for the 14:00 UTC run:
+## Summary
 
-- **P0 skills**: 9 enabled skills, all 100% success rate, 0 consecutive failures across the board
-- **P0 X webhook**: WATCHED_TRADERS rule active (`is_effect=1`) — X trade signals flowing normally
-- **P1**: No open PRs, no open GitHub issues
-- **P2**: No flagged memory items
-- **P3**: All skills within 2× their schedule intervals
+**P0 — Skills:** All 9 enabled scheduled skills healthy. No failures, stuck, or degradation.
 
-`docs/status.md` updated. No notification sent — nothing to report. Next heartbeat at 20:00 UTC.
+**P0 — X webhook:** WATCHED_TRADERS rule confirmed active (`is_effect: 1`). ISS-002 guard passed — X trade signals flowing normally.
+
+**P1 — PRs/Issues:** No stalled PRs, no urgent issues.
+
+**P2 — Memory:** No flagged follow-up items.
+
+**P3 — Missing skills:** All enabled skills within 2× their schedule interval.
+
+**Status page:** `docs/status.md` updated as 🟢 OK at 20:00 UTC. No notification sent (nothing to report).
