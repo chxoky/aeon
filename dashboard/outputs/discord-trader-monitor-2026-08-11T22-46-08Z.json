@@ -1,0 +1,174 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor — Calibration"
+      },
+      "children": [
+        "event-section",
+        "sep-1",
+        "message-section",
+        "sep-2",
+        "classification-alert",
+        "sep-3",
+        "questions-section"
+      ]
+    },
+    "event-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event-heading",
+        "event-meta"
+      ]
+    },
+    "event-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: HCH — Chat]",
+        "level": "h2"
+      }
+    },
+    "event-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "author-badge",
+        "timestamp"
+      ]
+    },
+    "author-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "HeartCanHodl (HCH)",
+        "variant": "default"
+      }
+    },
+    "timestamp": {
+      "type": "Text",
+      "props": {
+        "text": "Aug 11 22:43 UTC",
+        "variant": "caption"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "message-label",
+        "message-quote"
+      ]
+    },
+    "message-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Message",
+        "level": "h3"
+      }
+    },
+    "message-quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"If ansem + pump barbell could ignite interest\"",
+        "variant": "lead"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "This message requires manual calibration — the intent is unclear.",
+        "type": "warning"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "questions-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "questions-heading",
+        "questions-list"
+      ]
+    },
+    "questions-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Classification Questions",
+        "level": "h3"
+      }
+    },
+    "questions-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "q1",
+        "q2",
+        "q3",
+        "q4"
+      ]
+    },
+    "q1": {
+      "type": "Text",
+      "props": {
+        "text": "Is this a question about ANSEM + pump strategies?",
+        "variant": "body"
+      }
+    },
+    "q2": {
+      "type": "Text",
+      "props": {
+        "text": "Is HCH exploring a trade thesis?",
+        "variant": "body"
+      }
+    },
+    "q3": {
+      "type": "Text",
+      "props": {
+        "text": "What does \"barbell\" refer to in this context?",
+        "variant": "body"
+      }
+    },
+    "q4": {
+      "type": "Text",
+      "props": {
+        "text": "Should this calibrate future similar setup discussions?",
+        "variant": "body"
+      }
+    }
+  }
+}
