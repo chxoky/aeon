@@ -1,0 +1,124 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "sentiment_badge",
+        "tweet_card",
+        "images_section",
+        "analysis_section",
+        "disclaimer",
+        "tweet_link"
+      ]
+    },
+    "sentiment_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Informational Sentiment",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "Thank you CZ"
+      },
+      "children": []
+    },
+    "images_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "images_header",
+        "image_binance",
+        "image_meme"
+      ]
+    },
+    "images_header": {
+      "type": "Heading",
+      "props": {
+        "text": "Images",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "image_binance": {
+      "type": "Text",
+      "props": {
+        "text": "Binance meme tokens (+20-85% gains)"
+      },
+      "children": []
+    },
+    "image_meme": {
+      "type": "Text",
+      "props": {
+        "text": "'Types of Headaches' meme (peak pain = seeing top 24h gainers)"
+      },
+      "children": []
+    },
+    "analysis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "analysis_header",
+        "context",
+        "thesis"
+      ]
+    },
+    "analysis_header": {
+      "type": "Heading",
+      "props": {
+        "text": "Analysis",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "context": {
+      "type": "Text",
+      "props": {
+        "text": "Sarcastic commentary on meme coin FOMO culture",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "thesis": {
+      "type": "Text",
+      "props": {
+        "text": "Aligns with HCH's bearish ecosystem thesis",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "disclaimer": {
+      "type": "Alert",
+      "props": {
+        "title": "Trade Action",
+        "message": "No personal trade action",
+        "type": "info"
+      },
+      "children": []
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View original tweet",
+        "href": "https://x.com/HeartCanHodl/status/2087205108270714934"
+      },
+      "children": []
+    }
+  }
+}
