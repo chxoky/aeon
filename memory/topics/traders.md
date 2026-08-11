@@ -7,6 +7,9 @@
 - Last seen: 2026-08-11T13:58:50Z (Discord Chat supporting — Silver short idea)
 - **Events (rolling):**
   - Aug 11 13:58Z — informational: DC Chat "Yep. Beta play would be to short silver around exhaustion" — silver short thesis on exhaustion setup; supporting channel conviction shift [$SILVER] [1536735651347566723]
+- Last seen: 2026-08-11T14:01:45.502Z (Discord Chat supporting — eyes emoji reaction to DOGE comment)
+- **Events (rolling):**
+  - Aug 11 14:01Z — ambiguous-reaction: DC Chat "👀 👀" reply to skellymode "DOGE somehow looks sendy" — eyes emoji in member Q&A; no personal trade signal; supporting-channel context (silent skip) [1536736385573191871]
   - Aug 10 18:56Z — ambiguous: DC Chat "screenshot only, no text" — image attachment via Discord supporting channel, no execution language or trade signal; awaiting Kyle interpretation [$UNKNOWN] [1536448213874253884]
   - Aug 01 05:04Z — trade-regime-flip: all crypto shorts closed; SOL 5% first long entry; net-long regime begins [$SOL]
   - Aug 02 17:19Z — trade-new-entry: SPCX 2% spot long (mean-reversion after profitable prior short) [$SPCX]
