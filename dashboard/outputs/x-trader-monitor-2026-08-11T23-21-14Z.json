@@ -1,0 +1,121 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading_calibration",
+        "text_event",
+        "sep1",
+        "stack_tweet",
+        "sep2",
+        "stack_analysis",
+        "link_view"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Stoiiic",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @d_scimmy7465 sharing own prior URL post"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack_tweet": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_quote_label",
+        "tweet_card"
+      ]
+    },
+    "text_quote_label": {
+      "type": "Text",
+      "props": {
+        "text": "Stoiiic's reply:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "Stoiiic",
+        "text": "@d_scimmy7465 https://t.co/w98tZhek1l"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack_analysis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_analysis_header",
+        "text_analysis_content",
+        "text_question"
+      ]
+    },
+    "text_analysis_header": {
+      "type": "Text",
+      "props": {
+        "text": "Analysis:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text_analysis_content": {
+      "type": "Text",
+      "props": {
+        "text": "The URL redirects to Stoiiic's own Aug 11 22:59Z post (URL-only \"btw this is a must-read\"). Similar pattern — unclear why re-shared or what the context of the reply to @d_scimmy7465 is."
+      },
+      "children": []
+    },
+    "text_question": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Stoiiic/status/2087316993678409764"
+      },
+      "children": []
+    }
+  }
+}
