@@ -1,0 +1,55 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @swarmister",
+        "description": "Event: Cryptic ticker mention"
+      },
+      "children": [
+        "tweet-card",
+        "separator-1",
+        "analysis-section"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "@swarmister",
+        "text": "@N1Chain Huge"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "analysis-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "prompt-question",
+        "interpretation-questions"
+      ]
+    },
+    "prompt-question": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "lead"
+      }
+    },
+    "interpretation-questions": {
+      "type": "Text",
+      "props": {
+        "text": "Is swarmister expressing bullish sentiment on N1Chain ticker? If personal position, awaiting approval to mirror on Kraken?",
+        "variant": "body"
+      }
+    }
+  }
+}
