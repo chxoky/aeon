@@ -35,3 +35,4 @@ The message was correctly handled per the skill protocol — emoji-only supporti
 - ✓ No traders.md event line added (per Step 8: non-financial posts log-only)
 
 Skill execution complete.
+🔍 Calibration — [DC: HCH — Chat]
