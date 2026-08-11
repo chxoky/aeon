@@ -1,0 +1,96 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @Wild_Randomness"
+      },
+      "children": [
+        "sep-1",
+        "heading-event",
+        "text-event",
+        "sep-2",
+        "heading-post",
+        "tweet-post",
+        "badge-meta",
+        "sep-3",
+        "heading-classification",
+        "text-classification",
+        "sep-4",
+        "link-view"
+      ]
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading-event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "text-event": {
+      "type": "Text",
+      "props": {
+        "text": "ZEC testing daily support at 470 USDT; 15m shows ZEC -4.0% vs peers (LIT +2.1%, HYPE flat, BTC -2.0%)"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading-post": {
+      "type": "Heading",
+      "props": {
+        "text": "Post",
+        "level": "h3"
+      }
+    },
+    "tweet-post": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "text": "$ZEC Intuition good"
+      }
+    },
+    "badge-meta": {
+      "type": "Badge",
+      "props": {
+        "text": "2 technical charts, Aug 11 15:55 UTC"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading-classification": {
+      "type": "Heading",
+      "props": {
+        "text": "Classification",
+        "level": "h3"
+      }
+    },
+    "text-classification": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — bullish bounce setup, bearish confirmation, or setup observation?"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "link-view": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2087206360912105966",
+        "source": "X"
+      }
+    }
+  }
+}
