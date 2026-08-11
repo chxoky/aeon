@@ -1,4 +1,4 @@
-## Summary
+🐦 *[X] @KillaXBT*
 
 ✅ **Skill execution complete**
 
@@ -15,3 +15,6 @@
 - `memory/x-trader-seen.txt`: Added tweet ID 2087098166189474006
 - `memory/topics/traders.md`: Added event line to swarmister rolling events
 - `memory/logs/2026-08-11.md`: Appended detailed event log entry
+BTC accumulation conviction: 57,849 support level. Conditional buyer — "if we test below this line, you buy as much $BTC as you possibly fucking can." Already at major allocations in spot & 2X long; would go 100% in markets if this level hits.
+
+Support level 57,849 (chart attached to post) | [View tweet](https://x.com/KillaXBT/status/2087098721318129912)
