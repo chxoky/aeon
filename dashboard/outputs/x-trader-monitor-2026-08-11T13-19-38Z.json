@@ -1,0 +1,72 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "badge_calibration",
+        "separator_1",
+        "stack_content"
+      ]
+    },
+    "badge_calibration": {
+      "type": "Badge",
+      "props": {
+        "text": "🔍 Calibration — @swarmister",
+        "variant": "default"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_header",
+        "tweet_card",
+        "analysis_text",
+        "link_post"
+      ]
+    },
+    "tweet_header": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to @hellojintao",
+        "variant": "caption"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "@swarmister",
+        "text": "What"
+      }
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Post is a cryptic one-word reply without visible context — cannot determine if this is a market signal, setup question, or casual banter. What's your read on what swarmister is asking about?",
+        "variant": "body"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/swarmister/status/2087164308094439596"
+      }
+    }
+  }
+}
