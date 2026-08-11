@@ -1,0 +1,60 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "content_stack"
+      ]
+    },
+    "content_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "view_link",
+        "separator1",
+        "insight_text"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "The same people who wanted 140k $BTC are the same people who want to buy 40k this cycle."
+      },
+      "children": []
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2087141948247118242"
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "insight_text": {
+      "type": "Text",
+      "props": {
+        "text": "↳ Crowd psychology & fear-greed inversion; aligns with recent bullish conviction on 57K accumulation range.",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
