@@ -1,4 +1,4 @@
-Perfect! I've successfully executed the discord-trader-monitor skill. Here's a summary of what was processed:
+💬 *[DC: HCH — Chat]*
 
 ## Summary
 
@@ -35,3 +35,4 @@ Perfect! I've successfully executed the discord-trader-monitor skill. Here's a s
 - **Action:** No alert sent; memory updated with event line and dedup tracking
 
 The message represents a conviction shift on oil market structure (acknowledging temporary bullish phase), logged for context but no standalone Telegram alert justified per supporting-channel protocol. Both memory files (`traders.md` and log) updated.
+Some individual outliers will always be there but risk off conditions are worth playing the other direction or yeah even hedging makes sense
