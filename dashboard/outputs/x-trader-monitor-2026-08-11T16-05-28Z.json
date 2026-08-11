@@ -1,0 +1,46 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet",
+        "separator",
+        "analysis",
+        "link"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "$BTC is sandwiched between two heavy liquidation zones right now, 67–68K and 61K below.\n\nWe're still stuck in a range, so realistically we could end up taking both sides over the next few weeks.\n\nAnd when we're sitting in a bottoming range like this, the market doesn't actually need to run after high‑leverage shorts straight away.\n\nThe whole point is to lure people into getting overconfident on the short side. MMs want to build short liquidity so that once we are ready to transition into a bull market, its like adding fuel to fire."
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Market psychology analysis on MM liquidity-building thesis; aligns with group bullish structural bias + accumulation narrative. Range consolidation before bull phase.",
+        "variant": "muted"
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2087207415292780736"
+      }
+    }
+  }
+}

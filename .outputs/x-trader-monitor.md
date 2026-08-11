@@ -1,10 +1,13 @@
-🐦 *[X] @HeartCanHodl* — Informational Sentiment\n\n'Thank you CZ' — sarcastic on meme coin FOMO culture\n\nImages: Binance meme tokens (+20-85% gains) + 'Types of Headaches' meme (peak pain = seeing top 24h gainers)\n\nAligns with HCH's bearish ecosystem thesis. No personal trade action.\n\nhttps://x.com/HeartCanHodl/status/2087205108270714934
-🔍 *Calibration — @Wild_Randomness*
+🐦 *[X] @KillaXBT*
 
-Event: ZEC testing daily support at 470 USDT; 15m shows ZEC -4.0% vs peers (LIT +2.1%, HYPE flat, BTC -2.0%)
+$BTC is sandwiched between two heavy liquidation zones right now, 67–68K and 61K below. 
 
-Wild_Randomness: \"$ZEC Intuition good\" (2 technical charts, Aug 11 15:55 UTC)
+We're still stuck in a range, so realistically we could end up taking both sides over the next few weeks.
 
-Unable to classify — bullish bounce setup, bearish confirmation, or setup observation?
+And when we're sitting in a bottoming range like this, the market doesn't actually need to run after high‑leverage shorts straight away. 
 
-[View post](https://x.com/Wild_Randomness/status/2087206360912105966)
+The whole point is to lure people into getting overconfident on the short side. MMs want to build short liquidity so that once we are ready to transition into a bull market, its like adding fuel to fire.
+
+↳ _Market psychology analysis on MM liquidity-building thesis; aligns with group bullish structural bias + accumulation narrative. Range consolidation before bull phase._
+
+[View tweet](https://x.com/KillaXBT/status/2087207415292780736)
