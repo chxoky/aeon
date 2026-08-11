@@ -1,0 +1,62 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "title",
+        "sep1",
+        "event",
+        "tweet",
+        "sep2",
+        "analysis"
+      ]
+    },
+    "title": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Crypto_Chase",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @WatcherGuru (original post context unavailable)",
+        "variant": "caption"
+      }
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Crypto_Chase",
+        "handle": "@Crypto_Chase",
+        "text": "@WatcherGuru translation: they bought the lows and want to scale out around 150"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read? Asset/level unclear ('150' could be BTC, semis, gold, or other).",
+        "type": "info"
+      }
+    }
+  }
+}

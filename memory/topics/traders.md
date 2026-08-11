@@ -334,9 +334,10 @@
 - Current open positions: MU (Micron) LONG ~10% remainder (Jul 29 fresh entry ~$700, DCA plan; 90% cumulative closed by Aug 04 at various levels). SNDK (SanDisk) LONG ~20% remainder (Jul 29 fresh entry ~$980, DCA plan; 80% TP'd Aug 04T15:55Z — "80% closed on SNDK"). ES/S&P 500 LONG (Jun 21 entry, ACTIVE). LPTH 50% remainder (Jun 30 BEP partial exit, held as lottery ticket). GOLD SETUP INTEREST (watching 4465 + 4280 targets; setup described Aug 08 21:52Z, conditional entry not yet confirmed).
 - Recent thesis: Multi-asset discretionary (semis + crypto + macro). SNDK/MU generational-bottom DCA strategy (80% TP'd rapidly from 6-day hold). Gold short setup: 4520 then 4280 target; highest R/R = short of box (4500-4550), invalid mid-46s. Gold/BTC divergence thesis (gold double-bottom vs BTC pair by year-end). ETH.D dominance as leading indicator for alt accumulation timing.
 - Conviction notes: Disciplined tiered-exit trader (50%→60%→70%→80%→90% TP progression on semis). Patient accumulation into Fibonacci/technical support with defined risk. SNDK 80% TP in 6 days from ~$980 entry = fastest prior cycle. Limited Discord tracking window to date; primarily primary-channel execution signals.
-- Calibration: PENDING Aug 10 21:50Z (chart image, no caption text; HR-2 calibration pending).
-- Last seen: 2026-08-10T21:50:17Z (DC primary — chart image only, no text)
+- Calibration: PENDING Aug 10 21:50Z (chart image, no caption text; HR-2 calibration pending). PENDING Aug 11 15:10Z (X post @WatcherGuru translation "they bought the lows and want to scale out around 150" — asset/level unclear; awaiting Kyle interpretation).
+- Last seen: 2026-08-11T15:10:37Z (X — @WatcherGuru translation post)
 - **Events (rolling):**
+  - Aug 11 15:10Z — ambiguous: X @WatcherGuru translation; "they bought lows, scale out ~150" [2087194985716174874]
   - Jun 21 23:23Z — trade-new-entry: ES/S&P 500 LONG on dream conviction; ACTIVE [$ES]
   - Jul 17 13:46Z — trade-new-entry: MU DCA entry ~$800 ("about a third"); leaving room to add lower [$MU]
   - Jul 21 13:43Z — trade-partial-tp: SNDK 50% TP'd at $1533 (~+12.3% in 4.5 days from $1366 entry) [$SNDK]

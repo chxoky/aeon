@@ -1,1 +1,6 @@
-🐦 @bull_genius — BTC 7d/30d RVWAP bounce hard-rejected at 65K POC, now at 2026 POC (64.065K). Easy inval long scalp if stops-sweep thesis holds. [Read full context](https://x.com/bull_genius/status/2087193378332999896)
+🔍 *Calibration — @Crypto_Chase*
+
+Event: Reply to @WatcherGuru (original post context unavailable)
+@Crypto_Chase: "@WatcherGuru translation: they bought the lows and want to scale out around 150"
+
+Unable to classify — what's your read? Asset/level unclear ('150' could be BTC, semis, gold, or other).
