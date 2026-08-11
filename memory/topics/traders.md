@@ -213,7 +213,7 @@
 - Recent thesis: BTC/crypto asset maturation cycle analysis. Mature assets (ETF-era) show asymmetric return compression: BTC 1.5x-10x (muted vs historical), alts 2x-50x. Selection key for outperformance. Window narrowing for multi-x alt plays. BTC H4 structure: 7D/30D VWAP compressing; 65K reclaim = interim pivot; 60K breakdown risk. Aug 07: BTC CVD flip at supply zone 65.2-65.7K + perps-spot divergence (perps holding vs spot declining).
 - Conviction notes: Heavy CVD/TPO/AMT/VWAP language. Chart-driven technical observations; educational focus. BTC order book analysis. ~50% posts non-financial (banter, fitness, philosophy). Relative strength rotation thesis: ETH/SOL role reversal next cycle. No personal trade executions documented.
 - Calibration: PENDING Aug 03 16:08Z (emoji-only "@Tom__Capital 🚀📈" — banter or endorsement?). RESOLVED Aug 01 07:00Z — "wrong train" metaphorical market philosophy, not trade signal.
-- Last seen: 2026-08-10T17:22:40Z (X — BTC VAH rejection + POC analysis + macro structure)
+- Last seen: 2026-08-11T02:39:21Z (X — motivational philosophy post; non-financial skip)
 - **Events (rolling):**
   - Jul 31 07:00Z — informational: BTC H4 — 7D/30D VWAP compressing; 65K reclaim pivot; 60K breakdown risk [$BTC]
   - Jul 31 17:01Z — informational: "BTC will lull you to sleep next month or two"; choppy range-bound thesis [$BTC]
