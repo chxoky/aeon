@@ -1,0 +1,91 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor"
+      },
+      "children": [
+        "heading_calib",
+        "separator1",
+        "event_section",
+        "separator2",
+        "note_section"
+      ]
+    },
+    "heading_calib": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: Chase — TradFi]",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "event_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event_heading",
+        "event_message",
+        "response_heading",
+        "response_message"
+      ]
+    },
+    "event_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "event_message": {
+      "type": "TweetCard",
+      "props": {
+        "author": "ted4ka",
+        "text": "<@328653965099139073> what do u think ?"
+      },
+      "children": []
+    },
+    "response_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Response",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "response_message": {
+      "type": "TweetCard",
+      "props": {
+        "author": "crypto_chase",
+        "text": "No clear impulse down. No box touch. No trend loss. Just no at the moment"
+      },
+      "children": []
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "note_section": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to Classify",
+        "message": "Unclear which asset/chart is being discussed, and whether this is market sentiment or a trade signal. Is this on GOLD? BTC? Something else? What's your read?",
+        "type": "warning"
+      },
+      "children": []
+    }
+  }
+}
