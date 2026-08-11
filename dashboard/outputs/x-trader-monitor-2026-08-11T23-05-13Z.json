@@ -1,0 +1,161 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @Stoiiic"
+      },
+      "children": [
+        "event_section",
+        "separator1",
+        "tweet_section",
+        "separator2",
+        "article_section",
+        "separator3",
+        "paywall_alert",
+        "separator4",
+        "followup_section"
+      ]
+    },
+    "event_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event_label",
+        "event_detail"
+      ]
+    },
+    "event_label": {
+      "type": "Text",
+      "props": {
+        "text": "Event:",
+        "variant": "lead"
+      }
+    },
+    "event_detail": {
+      "type": "Text",
+      "props": {
+        "text": "Stoiiic posted a link to Medium article \"The Game of Deception\" by @JoshMcGruff (15 min after technical VWAP analysis post)"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_label",
+        "tweet_card"
+      ]
+    },
+    "tweet_label": {
+      "type": "Text",
+      "props": {
+        "text": "Post:",
+        "variant": "lead"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "text": "btw this is a must-read:\nhttps://t.co/9OSIodoF95"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "article_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "article_label",
+        "article_link"
+      ]
+    },
+    "article_label": {
+      "type": "Text",
+      "props": {
+        "text": "Article:",
+        "variant": "lead"
+      }
+    },
+    "article_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "The Game of Deception",
+        "href": "https://t.co/9OSIodoF95",
+        "source": "Medium by @JoshMcGruff"
+      }
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "paywall_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Paywall Notice",
+        "message": "Unable to fetch full article (paywall)",
+        "type": "warning"
+      }
+    },
+    "separator4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "followup_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "followup_heading",
+        "followup_q1",
+        "followup_q2"
+      ]
+    },
+    "followup_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Follow-up Questions",
+        "level": "h3"
+      }
+    },
+    "followup_q1": {
+      "type": "Text",
+      "props": {
+        "text": "Is this market/trading related?"
+      }
+    },
+    "followup_q2": {
+      "type": "Text",
+      "props": {
+        "text": "Worth following up on, or just editorial link-sharing?"
+      }
+    }
+  }
+}
