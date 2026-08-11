@@ -15,7 +15,7 @@ Autonomous trading-signal agent running on GitHub Actions via Claude Code. Monit
 ## Active Topics
 - [Trader State](topics/traders.md) — live per-trader positions, last-seen. (Rebuilt 2026-07-14 by trader-bootstrap; entries since flow via monitors + traders_update.txt.)
 - [Ticker Focus](topics/ticker-focus.md) — overlap/contested tickers, Kyle's watch list. Rebuilt 2026-07-14.
-- [Market Context](topics/market-context.md) — latest regime snapshot (Aug 10: BTC $65,251, chop (low conviction), F&G 30 Fear, breadth 10/20, DEX vol $4.39B; CPI Aug 12 binary 2 days out; Clarity Act delayed to Sept 14; XMR leading privacy sector +4.0% 24h).
+- [Market Context](topics/market-context.md) — latest regime snapshot (Aug 11: BTC $64,031 (-1.85%), chop (low conviction), F&G 29 Fear, breadth 7/20, DEX vol $6.24B; CPI Aug 12 binary tomorrow; XMR +9.1% 7d sole privacy leader; CYS ZK-prover +40.9% 2nd spike; Polymarket Fed rate markets dominant).
 - [Active Trades](topics/active-trades.md) — Kyle's mirror decisions. As of Jul 22: NO open Kraken mirrors; Chase SNDK/MU approvals never given (Chase has since TP'd most).
 
 ## Live Stack (verified 2026-07-21)
@@ -33,6 +33,7 @@ Autonomous trading-signal agent running on GitHub Actions via Claude Code. Monit
 | SOL   | solana      | 10%             |
 
 ## Recent Log Highlights
+- [2026-08-11](logs/2026-08-11.md) — chop (borderline risk-off); BTC $64,031 (-1.85%) cracked $65K; breadth 7/20; F&G 29; DEX vol +43% spike on CPI-eve; XMR +9.1% 7d sole outperformer; CYS ZK-prover 2nd spike +40.9%; Fed rate markets dominate Polymarket
 - [2026-08-10](logs/2026-08-10.md) — chop regime (breadth 10/20); BTC $65,251 (+0.8%); XMR +4.0% 24h leading privacy; Clarity Act failed Senate vote → delayed Sept 14; CPI Aug 12 binary 2 days out
 - [2026-08-08](logs/2026-08-08.md) — chop regime (breadth 13/20); BTC $64,970 flat; HCH expanded shorts (SOL/PEPE/SPCX); WR-BTC-PUTS pending; CYS [BREAKOUT][PUMP-RISK] ZK prover; KAITO −14.4%/BONK −10.8%; CPI Aug 12 primary binary
 - [2026-08-07](logs/2026-08-07.md) — post-NFP regime flip: risk-on (breadth 16/20); BTC $65,135 (+1.1%); July NFP −23K vs +80K (Sep cut near-certain); HCH net-short ~28%; KillaXBT HTF long divergence; ZEC/ADA outperforming
