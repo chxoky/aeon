@@ -117,6 +117,7 @@
 - Last seen: 2026-08-11T18:29:56Z (X — AAPL technical chart reinforcement, informational)
 - Last seen: 2026-08-11T18:37:37Z (X — ambiguous options position explanation, awaiting Kyle calibration)
 - **Events (rolling):**
+  - Aug 11 23:13Z — informational-technical: X "$QQQ $SMH\n\nTrend is trending" + 3 daily QQQ/SMH ratio charts; technical analysis showing downtrend recovery from Mar 1.59→late-Jun 1.10 lows into Aug 1.25-1.30 uptrend recovery; chart-driven macro analysis on tech/semi ratio divergence; no personal trade action [$QQQ $SMH] [2087316496838214057]
   - Aug 11 18:37Z — ambiguous: "I'm long September 30 puts on QQQ, Oct 16 puts on SPX" + image; reply to @book_of_healing; unclear if new entry or position explanation; HR-2 calibration pending [$QQQ $SPX] [2087247077067874484]
   - Aug 11 15:55Z — ambiguous: "$ZEC Intuition good" + 2 technical charts (daily support test 470, 15m -4% vs peers); HR-2 calibration sent [$ZEC] [2087206360912105966]
   - Aug 05 14:30Z — trade-new-entry: QQQ PUT OPTIONS; P/C ratio 0.46 (6mo extreme); pending Kyle [$QQQ]
