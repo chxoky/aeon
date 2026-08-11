@@ -2,15 +2,15 @@
   "x-trader-monitor": {
     "last_status": "success",
     "last_failed": "2026-07-29T16:24:28Z",
-    "total_runs": 3037,
-    "total_successes": 3024,
+    "total_runs": 3038,
+    "total_successes": 3025,
     "total_failures": 13,
     "consecutive_failures": 0,
     "success_rate": 1,
     "last_error": "sts\":0},\"service_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":0,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[],\"speed\":\"standard\"},\"modelUsage\":{},\"permission_deni",
-    "last_success": "2026-08-11T21:31:37Z",
+    "last_success": "2026-08-11T22:13:22Z",
     "last_dispatch": "2026-06-08T01:47:08Z",
-    "last_quality_score": 3
+    "last_quality_score": 4
   },
   "trader-bootstrap": {
     "last_status": "success",
