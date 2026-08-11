@@ -1,0 +1,206 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "market context — 2026-08-11"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "take-section",
+        "separator-1",
+        "prices-stack",
+        "separator-2",
+        "metrics-grid",
+        "separator-3",
+        "narrative-section",
+        "separator-4",
+        "fed-section"
+      ]
+    },
+    "take-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "take-label",
+        "take-badge"
+      ]
+    },
+    "take-label": {
+      "type": "Text",
+      "props": {
+        "text": "Take:",
+        "variant": "body"
+      }
+    },
+    "take-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "chop (conviction low)",
+        "variant": "outline"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "prices-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "btc-stat",
+        "eth-stat"
+      ]
+    },
+    "btc-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$64,249",
+        "delta": "-1.1%",
+        "trend": "down"
+      }
+    },
+    "eth-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$1,888",
+        "delta": "-1.6%",
+        "trend": "down"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "metrics-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "fgi-stat",
+        "breadth-stat",
+        "dex-vol-stat"
+      ]
+    },
+    "fgi-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "F&G Index",
+        "value": "29",
+        "delta": "Fear"
+      }
+    },
+    "breadth-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Breadth",
+        "value": "9/20"
+      }
+    },
+    "dex-vol-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "DEX Vol",
+        "value": "$6.29B"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "narrative-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "narrative-label",
+        "narrative-text"
+      ]
+    },
+    "narrative-label": {
+      "type": "Text",
+      "props": {
+        "text": "Top narrative:",
+        "variant": "body"
+      }
+    },
+    "narrative-text": {
+      "type": "Text",
+      "props": {
+        "text": "DeFi rotation (rising) — LINK/CRV/ICP green 3rd day",
+        "variant": "body"
+      }
+    },
+    "separator-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "fed-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "fed-label",
+        "fed-stat",
+        "cpi-note"
+      ]
+    },
+    "fed-label": {
+      "type": "Text",
+      "props": {
+        "text": "Fed hike repriced:",
+        "variant": "body"
+      }
+    },
+    "fed-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "YES probability",
+        "value": "38.5%",
+        "delta": "-3pp (from 41.5%)",
+        "trend": "down"
+      }
+    },
+    "cpi-note": {
+      "type": "Alert",
+      "props": {
+        "title": "CPI tomorrow",
+        "message": "8:30 ET",
+        "type": "info"
+      }
+    }
+  }
+}

@@ -15,7 +15,7 @@ Autonomous trading-signal agent running on GitHub Actions via Claude Code. Monit
 ## Active Topics
 - [Trader State](topics/traders.md) — live per-trader positions, last-seen. (Rebuilt 2026-07-14 by trader-bootstrap; entries since flow via monitors + traders_update.txt.)
 - [Ticker Focus](topics/ticker-focus.md) — overlap/contested tickers, Kyle's watch list. Rebuilt 2026-07-14.
-- [Market Context](topics/market-context.md) — latest regime snapshot (Aug 11: BTC $64,031 (-1.85%), chop (low conviction), F&G 29 Fear, breadth 7/20, DEX vol $6.24B; CPI Aug 12 binary tomorrow; XMR +9.1% 7d sole privacy leader; CYS ZK-prover +40.9% 2nd spike; Polymarket Fed rate markets dominant).
+- [Market Context](topics/market-context.md) — latest regime snapshot (Aug 11: BTC $64,249 (-1.1%), chop (low conviction), F&G 29 Fear, breadth 9/20, DEX vol $6.29B; CPI Aug 12 binary tomorrow; DeFi rotation rising (LINK/CRV/ICP 3rd day); Fed hike 38.5% repriced pre-CPI; XMR +9.2% 7d still leading).
 - [Active Trades](topics/active-trades.md) — Kyle's mirror decisions. As of Jul 22: NO open Kraken mirrors; Chase SNDK/MU approvals never given (Chase has since TP'd most).
 
 ## Live Stack (verified 2026-07-21)
