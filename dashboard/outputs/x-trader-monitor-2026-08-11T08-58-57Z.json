@@ -1,0 +1,117 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 x-trader-monitor — Calibration"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "event_context",
+        "sep1",
+        "tweet",
+        "sep2",
+        "alert_unclear",
+        "heading_options",
+        "stack_options",
+        "sep3",
+        "question"
+      ]
+    },
+    "event_context": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @notfrydoteth",
+        "variant": "muted"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "The gay bull q4"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_unclear": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "message": "Unable to classify — unclear which asset, conviction level, or timeframe this refers to."
+      }
+    },
+    "heading_options": {
+      "type": "Heading",
+      "props": {
+        "text": "Possible interpretations",
+        "level": "h3"
+      }
+    },
+    "stack_options": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "opt_a",
+        "opt_b",
+        "opt_c"
+      ]
+    },
+    "opt_a": {
+      "type": "Text",
+      "props": {
+        "text": "(a) a bullish sentiment on BTC despite the pending short DCA?"
+      }
+    },
+    "opt_b": {
+      "type": "Text",
+      "props": {
+        "text": "(b) a reference to a different ticker entirely?"
+      }
+    },
+    "opt_c": {
+      "type": "Text",
+      "props": {
+        "text": "(c) banter/non-financial?"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "question": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "lead"
+      }
+    }
+  }
+}
