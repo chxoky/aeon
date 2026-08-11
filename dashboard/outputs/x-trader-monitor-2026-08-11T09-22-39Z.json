@@ -1,0 +1,63 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @swarmisteR",
+        "description": "Reply to @0xelevenquit"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "alert-classify",
+        "text-pattern",
+        "link-view"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmisteR",
+        "handle": "@swarmisteR",
+        "text": "Hai"
+      },
+      "children": []
+    },
+    "alert-classify": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read? Is this banter or a financial reference?",
+        "type": "info"
+      },
+      "children": []
+    },
+    "text-pattern": {
+      "type": "Text",
+      "props": {
+        "text": "Pattern: 11+ cryptic replies Aug 07-10; currently transitioning from cryptic specialist to substantive thesis expression.",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "link-view": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/swarmisteR/status/2087106508345504111"
+      },
+      "children": []
+    }
+  }
+}
