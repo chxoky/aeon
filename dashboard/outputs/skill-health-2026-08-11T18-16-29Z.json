@@ -1,0 +1,153 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Skill Health — 2026-08-11"
+      },
+      "children": [
+        "status_alert",
+        "healthy_section",
+        "metrics_section"
+      ]
+    },
+    "status_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "HEALTH",
+        "message": "OK — 9 skills healthy",
+        "type": "success"
+      },
+      "children": []
+    },
+    "healthy_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "healthy_heading",
+        "healthy_list"
+      ]
+    },
+    "healthy_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🟢 HEALTHY: 9",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "healthy_list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_1",
+        "badge_2",
+        "badge_3",
+        "badge_4",
+        "badge_5",
+        "badge_6",
+        "badge_7",
+        "badge_8"
+      ]
+    },
+    "badge_1": {
+      "type": "Badge",
+      "props": {
+        "text": "morning-brief",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge_2": {
+      "type": "Badge",
+      "props": {
+        "text": "token-alert",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge_3": {
+      "type": "Badge",
+      "props": {
+        "text": "token-movers",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge_4": {
+      "type": "Badge",
+      "props": {
+        "text": "market-context-refresh",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge_5": {
+      "type": "Badge",
+      "props": {
+        "text": "narrative-tracker",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge_6": {
+      "type": "Badge",
+      "props": {
+        "text": "skill-health",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge_7": {
+      "type": "Badge",
+      "props": {
+        "text": "trader-memory-compact",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge_8": {
+      "type": "Badge",
+      "props": {
+        "text": "heartbeat + morning-pipeline chain",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "metrics_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "metric_open_issues",
+        "metric_resolved"
+      ]
+    },
+    "metric_open_issues": {
+      "type": "Stat",
+      "props": {
+        "label": "Open issues",
+        "value": "0"
+      },
+      "children": []
+    },
+    "metric_resolved": {
+      "type": "Stat",
+      "props": {
+        "label": "Resolved this run",
+        "value": "0"
+      },
+      "children": []
+    }
+  }
+}
