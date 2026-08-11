@@ -173,6 +173,7 @@
   - Aug 11 15:42Z — informational-technical: TOTAL3/OTHERS technical chart analysis; "OTHERS just put in lowest daily close since Nov 2023"; BS pumping narrative; 4-chart consolidation + resistance zones marked; macro market structure observation [$TOTAL3 $OTHERS] [2087203091544408118]
   - Aug 11 16:22Z — informational-sentiment: ES/NQ divergence chart (2022 structure comparison); "NQ laggard, broadening away from tech" = equities rotation observation; macro market structure alignment with Jump-Shark thesis [$ES $NQ] [2087213030484607028]
   - Aug 11 18:30Z — informational-reinforcement: AAPL technical chart validation; "Progressing ahead of schedule" — 2 chart images showing consolidation/support structure validating systematic daily short-add thesis ($312-315 box); price action unfolding faster than expected per technical structure; 3-trader convergence (HCH+WR+KillaXBT AAPL short) [$AAPL] [2087245146954084443]
+  - Aug 11 18:45Z — skip: @0xgoodie @BigDickBull69 reply meme (no financial content) [2087249029541528013]
 
 ## trading_axe
 - Platforms: X (primary; X-only)
