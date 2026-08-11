@@ -108,6 +108,7 @@
   - Aug 11 13:23Z — informational-conviction: BTC 14th watch-date historical cycle analysis — "usually get clean 6-8% swings" around 14th of month (chart shows Feb/Mar/Apr/May/Jun/Jul 14th patterns); red flag if aggressive ripping INTO 14th (implies rejection); structure understanding makes post-move predictable; next watch: Fri 14 Aug [$BTC] [2087167902151811224]
   - Aug 11 16:00Z — informational-macro: BTC sandwiched between liquidation zones 67-68K / 61K; range-bound consolidation; MM thesis — MMs building short liquidity to lure retail overconfidence before bull transition; market psychology + liquidity structure analysis; reinforces structural bull accumulation thesis [$BTC] [2087207415292780736]
   - Aug 11 18:02Z — informational-macro: BTC cycle phase analysis — "We didn't experience overheated bull this cycle, so no guarantee extreme bear phase either"; Bull-vs-Extreme-Bear regime commentary; chart-attached cycle phase diagram (2013–2026); macro framework validation; no personal trade action [$BTC] [2087238114775572597]
+  - Aug 11 23:33Z — informational-sentiment: "Never short a boring market" — trading wisdom on scalp short risk in consolidation; chart-attached showing current choppy BTC structure; educational philosophy aligned with structural bull accumulation thesis; no personal trade action; alerted [$BTC] [2087321387174096978]
 
 ## Wild_Randomness
 - Platforms: X (primary; X-only)

@@ -1,0 +1,69 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-card",
+        "tweet-link",
+        "separator-1",
+        "chart-description"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "They say you should never short a boring market.\n\nYou can scalp the entire range and follow the current trend, but all it takes is one candle to erase every little scalp short you've taken.\n\nJust remember that."
+      },
+      "children": []
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2087321387174096978"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "chart-description": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "chart-heading",
+        "chart-text"
+      ]
+    },
+    "chart-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "BTC Structure Analysis",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "chart-text": {
+      "type": "Text",
+      "props": {
+        "text": "Chart shows current choppy BTC structure (63.5K-84K range) validating the boring/consolidation narrative — aligns with ongoing structural bull accumulation thesis.",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}

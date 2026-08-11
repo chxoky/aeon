@@ -1,14 +1,11 @@
-🐦 *[X] @Wild_Randomness*
+🐦 *[X] @KillaXBT*
 
-QQQ/SMH ratio daily chart: Recovery uptrend from late-June lows (1.59→1.10→1.25-1.30). Technical analysis showing tech/semiconductor sector rebound structure.
+They say you should never short a boring market.
 
-[View tweet](https://x.com/Wild_Randomness/status/2087316496838214057)
-Event: Reply to @d_scimmy7465 sharing own prior URL post
+You can scalp the entire range and follow the current trend, but all it takes is one candle to erase every little scalp short you've taken.
 
-Stoiiic: "@d_scimmy7465 https://t.co/w98tZhek1l"
+Just remember that.
 
-The URL redirects to Stoiiic's own Aug 11 22:59Z post (URL-only "btw this is a must-read"). Similar pattern — unclear why re-shared or what the context of the reply to @d_scimmy7465 is.
+[View tweet](https://x.com/KillaXBT/status/2087321387174096978)
 
-Unable to classify — what's your read?
-
-[View post](https://x.com/Stoiiic/status/2087316993678409764)
+_Chart shows current choppy BTC structure (63.5K-84K range) validating the boring/consolidation narrative — aligns with ongoing structural bull accumulation thesis._
