@@ -1,0 +1,99 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor – Technical Breakdown Alert",
+        "description": "Market analysis from @Wild_Randomness"
+      },
+      "children": [
+        "tweet-card",
+        "sep-1",
+        "stats-stack",
+        "sep-2",
+        "details-stack"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "$TOTAL3 $OTHERS — Technical breakdown alert. OTHERS (total alt market cap excluding BTC) just printed lowest daily close since November 2023, now sitting at 159.54B with clear resistance zones marked overhead. Macro thesis: altcoin consolidation/weakness aligns with broader \"Jump the Shark\" dispersion play framework.\n\nCharts show TOTAL3 658.44B + OTHERS breakdown structure + resistance zones + volume/RSI analysis."
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stats-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-total3",
+        "stat-others"
+      ]
+    },
+    "stat-total3": {
+      "type": "Stat",
+      "props": {
+        "label": "TOTAL3",
+        "value": "$658.44B"
+      },
+      "children": []
+    },
+    "stat-others": {
+      "type": "Stat",
+      "props": {
+        "label": "OTHERS (Alt market cap ex-BTC)",
+        "value": "$159.54B",
+        "delta": "Lowest close since Nov 2023"
+      },
+      "children": []
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "details-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis-alert",
+        "view-link"
+      ]
+    },
+    "analysis-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Technical Analysis",
+        "message": "TOTAL3 and OTHERS breakdown structure with resistance zones marked overhead. Volume and RSI analysis indicate altcoin consolidation/weakness aligning with the \"Jump the Shark\" dispersion play framework.",
+        "type": "info"
+      },
+      "children": []
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2087203091544408118"
+      },
+      "children": []
+    }
+  }
+}
