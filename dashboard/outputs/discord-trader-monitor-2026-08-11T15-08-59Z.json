@@ -1,0 +1,14 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration",
+        "description": "[DC: HCH — Chat]"
+      },
+      "children": []
+    }
+  }
+}

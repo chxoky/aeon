@@ -1,0 +1,43 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_1",
+        "link_context"
+      ]
+    },
+    "tweet_1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "BTC 7d/30d RVWAP bounce hard-rejected at 65K POC, now at 2026 POC (64.065K). Easy inval long scalp if stops-sweep thesis holds."
+      },
+      "children": []
+    },
+    "link_context": {
+      "type": "Link",
+      "props": {
+        "label": "Read full context",
+        "href": "https://x.com/bull_genius/status/2087193378332999896"
+      },
+      "children": []
+    }
+  }
+}
