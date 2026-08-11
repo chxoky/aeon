@@ -1,0 +1,99 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "separator1",
+        "analysis_section"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Same dynamics as 2021\n\nNQ laggard, broadening away from tech\n\nJust observing"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis_heading",
+        "divergence_stats",
+        "analysis_text1",
+        "analysis_text2",
+        "tweet_link"
+      ]
+    },
+    "analysis_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "ES/NQ Divergence",
+        "level": "h3"
+      }
+    },
+    "divergence_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat_es",
+        "stat_nq"
+      ]
+    },
+    "stat_es": {
+      "type": "Stat",
+      "props": {
+        "label": "S&P 500 (ES)",
+        "value": "+51.50",
+        "trend": "up"
+      }
+    },
+    "stat_nq": {
+      "type": "Stat",
+      "props": {
+        "label": "NASDAQ (NQ)",
+        "value": "29,747"
+      }
+    },
+    "analysis_text1": {
+      "type": "Text",
+      "props": {
+        "text": "Charts show tech concentration unwinding with money rotating to broader index. Structure mirrors 2021 regime shift.",
+        "variant": "body"
+      }
+    },
+    "analysis_text2": {
+      "type": "Text",
+      "props": {
+        "text": "Reinforces dispersion/Jump-Shark macro thesis.",
+        "variant": "muted"
+      }
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2087213030484607028"
+      }
+    }
+  }
+}

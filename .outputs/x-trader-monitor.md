@@ -22,3 +22,14 @@
 ✓ **No alert sent** — non-actionable technical observation
 
 Skill complete. This event reinforces established technical structure but doesn't trigger action items for Kyle.
+🐦 *[X] @Wild_Randomness*
+
+Same dynamics as 2021
+
+NQ laggard, broadening away from tech
+
+Just observing
+
+↳ *ES/NQ divergence* — S&P 500 (ES) +51.50 vs NASDAQ (NQ) consolidating at 29,747. Charts show tech concentration unwinding with money rotating to broader index. Structure mirrors 2021 regime shift. Reinforces dispersion/Jump-Shark macro thesis.
+
+[View tweet](https://x.com/Wild_Randomness/status/2087213030484607028)

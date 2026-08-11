@@ -168,6 +168,7 @@
   - Aug 10 22:54Z — ambiguous: "$600,000,000 of future selling pressure" — cryptic macro observation; context undefined (MSTR unlock catalyst, SPX/QQQ options expiry, broader market unwinding?); HR-2 calibration alert sent [$UNKNOWN] [2086949384013639946]
   - Aug 11 05:19Z — informational-retrospective: reflects on closed alt longs (hype/lit/zec/near) + maintained short majors; KOL shilling validated exit thesis; market structure commentary [$BTC $ETH] [2087046124108689461]
   - Aug 11 15:42Z — informational-technical: TOTAL3/OTHERS technical chart analysis; "OTHERS just put in lowest daily close since Nov 2023"; BS pumping narrative; 4-chart consolidation + resistance zones marked; macro market structure observation [$TOTAL3 $OTHERS] [2087203091544408118]
+  - Aug 11 16:22Z — informational-sentiment: ES/NQ divergence chart (2022 structure comparison); "NQ laggard, broadening away from tech" = equities rotation observation; macro market structure alignment with Jump-Shark thesis [$ES $NQ] [2087213030484607028]
 
 ## trading_axe
 - Platforms: X (primary; X-only)
