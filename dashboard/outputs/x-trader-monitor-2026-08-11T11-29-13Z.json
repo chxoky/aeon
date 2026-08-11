@@ -1,0 +1,49 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-section"
+      ]
+    },
+    "tweet-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "tweet-link",
+        "chart-analysis"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "Train yourself to read market phases with zero emotion.\n\nPure objectivity.\n\n$BTC is sitting right in the manipulation/accumulation range, exactly where smart money buys.\n\nWe just finished the corrective leg and slid straight into the manipulation/accumulation range, classic MM behaviour."
+      }
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2087137844699516936"
+      }
+    },
+    "chart-analysis": {
+      "type": "Text",
+      "props": {
+        "text": "📊 Chart shows market cycle framework validating current BTC position in accumulation zone. Reinforces prior 08:48Z support-level conviction + structural bull thesis.",
+        "variant": "body"
+      }
+    }
+  }
+}
