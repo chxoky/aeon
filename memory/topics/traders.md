@@ -5,6 +5,7 @@
 - Conviction notes: Disciplined portfolio architect. %-of-portfolio sizing literal and trackable. "Fc {ticker} {tf}" = false-close chart check (established, NOT a trade signal; 15+ occurrences). Primary Trades channel = highest conviction; verbatim messages forwarded. Systematic tiered TP on longs + short basket escalation. SPCX 2% spot long + 4% short = hedged divergence position.
 - Calibration: RESOLVED "Fc" = false-close TA check, not trade signal. PENDING Aug 07 12:40Z ("~" cryptic tilde). PENDING Aug 07 18:56Z ("Nb rdw, spcx, rklb 15" — "Nb" meaning unknown). PENDING Aug 09 00:44Z (TAO "Finally lol" — TAO position relief or market banter?). Keep ALL Fc messages as silent technical-check logs.
 - Last seen: 2026-08-11T14:55:30Z (Discord Chat supporting — False-close TA check)
+- Last seen: 2026-08-11T14:55:44.062Z (Discord Chat supporting — Emoji reaction/ambient)
 - **Events (rolling):**
   - Aug 11 14:28Z — informational-sentiment: DC Chat "Usually. On the upside when the environment turns PVE for them" — market observation on asset correlation dynamics; reply-context clarifies: member asked about two assets moving independently vs majors; HCH agrees and adds condition (upside when environment favorable); supporting-channel member Q&A (silent skip) [1536743080198279348]
   - Aug 11 14:21Z — ambiguous: DC Chat "Yes" — single-word response, no referenced_message context; is_reply=false but text suggests reply to prior member message; HR-2 calibration pending [$UNKNOWN] [1536741279923314688]
