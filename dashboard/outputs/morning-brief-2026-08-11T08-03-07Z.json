@@ -1,0 +1,305 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-08-11"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "section_focus",
+        "sep1",
+        "section_since",
+        "sep2",
+        "section_watch",
+        "sep3",
+        "section_running"
+      ]
+    },
+    "section_focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_focus",
+        "focus_1",
+        "focus_2",
+        "focus_3"
+      ]
+    },
+    "heading_focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "focus_1": {
+      "type": "Text",
+      "props": {
+        "text": "CPI binary tomorrow (Aug 12, 8:30 ET) — chop/fear regime hangs on one print"
+      }
+    },
+    "focus_2": {
+      "type": "Text",
+      "props": {
+        "text": "WR SPY/QQQ puts DCA — Kyle decision outstanding; opex window tightening"
+      }
+    },
+    "focus_3": {
+      "type": "Text",
+      "props": {
+        "text": "KillaXBT GOLD short: SL barely survived (4440, missed by $1) — divergence vs WR long live into CPI"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_since": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_since",
+        "since_1",
+        "since_2",
+        "since_3",
+        "since_4",
+        "since_5"
+      ]
+    },
+    "heading_since": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "since_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since_1_badge",
+        "since_1_text"
+      ]
+    },
+    "since_1_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "since_1_text": {
+      "type": "Text",
+      "props": {
+        "text": "WR re-leveraged GOLD (18:53Z), confirmed GDXJ/XGD/GDX barbell; opened SPY Oct 700 + QQQ Sept 650 put DCA into August opex"
+      }
+    },
+    "since_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since_2_badge",
+        "since_2_text"
+      ]
+    },
+    "since_2_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "since_2_text": {
+      "type": "Text",
+      "props": {
+        "text": "WR retrospective: past alt longs (HYPE/LIT/ZEC/NEAR) closed, remain short majors"
+      }
+    },
+    "since_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since_3_badge",
+        "since_3_text"
+      ]
+    },
+    "since_3_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "since_3_text": {
+      "type": "Text",
+      "props": {
+        "text": "KillaXBT GOLD short: SL 4440 narrowly survived (07:23Z today); position still live"
+      }
+    },
+    "since_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since_4_badge",
+        "since_4_text"
+      ]
+    },
+    "since_4_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "stuck",
+        "variant": "destructive"
+      }
+    },
+    "since_4_text": {
+      "type": "Text",
+      "props": {
+        "text": "5 calibration alerts pending Kyle replies (WR Cinema/GOLD, $600M selling pressure, HCH screenshot, Chase chart)"
+      }
+    },
+    "since_5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since_5_badge",
+        "since_5_text"
+      ]
+    },
+    "since_5_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "since_5_text": {
+      "type": "Text",
+      "props": {
+        "text": "LINK +2.4% [MAJOR] trending — sole top-20 green in 72%-red tape"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_watch",
+        "watch_1"
+      ]
+    },
+    "heading_watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "watch_1": {
+      "type": "Text",
+      "props": {
+        "text": "CPI Aug 12 8:30 ET — hot = risk-off deepens (BTC already cracked $65K, F&G 29); cool = regime flip candidate. Impacts all 3 focus items."
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_running",
+        "running_1",
+        "running_2",
+        "running_3",
+        "running_4",
+        "running_5"
+      ]
+    },
+    "heading_running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "running_1": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC"
+      }
+    },
+    "running_2": {
+      "type": "Text",
+      "props": {
+        "text": "token-alert @ 12:00 UTC"
+      }
+    },
+    "running_3": {
+      "type": "Text",
+      "props": {
+        "text": "market-context-refresh @ 13:00 UTC"
+      }
+    },
+    "running_4": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC"
+      }
+    },
+    "running_5": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 20:00 UTC"
+      }
+    }
+  }
+}
