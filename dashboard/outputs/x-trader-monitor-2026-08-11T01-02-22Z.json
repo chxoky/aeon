@@ -1,0 +1,43 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "content_stack"
+      ]
+    },
+    "content_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "view_link"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "trading_axe",
+        "handle": "@trading_axe",
+        "text": "Chart 1: BTC/GOLD ratio (1W) consolidating around 300M support zone\nChart 2: ETH Dominance compressed at 10.55% (near 7.20% lows)\n\nThis is an educational market structure post highlighting:\n- Macro double-bottom thesis validation (BTC/GOLD consolidation)\n- Alt accumulation readiness signal (ETH.D at compression lows)\n\nAligned with trading_axe's recent GOLD 4K structural bottom commentary."
+      },
+      "children": []
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/trading_axe/status/2086980065531765202"
+      },
+      "children": []
+    }
+  }
+}

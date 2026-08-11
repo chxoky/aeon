@@ -1,11 +1,12 @@
 🐦 *[X] @trading_axe*
 
-4K being the bottom on GOLD is further proof that we live in a simulation.
+Chart 1: BTC/GOLD ratio (1W) consolidating around 300M support zone
+Chart 2: ETH Dominance compressed at 10.55% (near 7.20% lows)
 
-4K Karat Gold.
+This is an educational market structure post highlighting:
+- Macro double-bottom thesis validation (BTC/GOLD consolidation)
+- Alt accumulation readiness signal (ETH.D at compression lows)
 
-~ Dr. Axius.
+Aligned with trading_axe's recent GOLD 4K structural bottom commentary.
 
-[View tweet](https://x.com/trading_axe/status/2086973257236848971)
-
-**Context:** Aligns with trading_axe's macro thesis (gold double-bottom vs BTC by year-end). Cross-trader GOLD activity: KillaXBT SHORT (Aug 09, active), Wild_Randomness LONG (Aug 10, re-leveraged). Contested positioning on Kyle's watch list.
+[View post](https://x.com/trading_axe/status/2086980065531765202)
