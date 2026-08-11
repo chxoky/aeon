@@ -4,8 +4,9 @@
 - Recent thesis: Regime shifted to net-short Aug 07 on BTC structure rejection at 64K. Systematic short basket (BTC/UNI/SOL/SPCX/ZEC/HYPE/LIT/PEPE/KAITO/TSLA/PLTR). Major-pair longs maintained but systematically reduced via tranche TPs. "Stay tight. Stay loaded. Finger on the trigger" — waiting for capitulation lows to re-accumulate. KAITO short thesis validated (−48% from alert entry). Switching from net longs to net shorts at 65K BTC, 1.9-2K ETH (conditional trigger levels).
 - Conviction notes: Disciplined portfolio architect. %-of-portfolio sizing literal and trackable. "Fc {ticker} {tf}" = false-close chart check (established, NOT a trade signal; 15+ occurrences). Primary Trades channel = highest conviction; verbatim messages forwarded. Systematic tiered TP on longs + short basket escalation. SPCX 2% spot long + 4% short = hedged divergence position.
 - Calibration: RESOLVED "Fc" = false-close TA check, not trade signal. PENDING Aug 07 12:40Z ("~" cryptic tilde). PENDING Aug 07 18:56Z ("Nb rdw, spcx, rklb 15" — "Nb" meaning unknown). PENDING Aug 09 00:44Z (TAO "Finally lol" — TAO position relief or market banter?). Keep ALL Fc messages as silent technical-check logs.
-- Last seen: 2026-08-11T13:58:50Z (Discord Chat supporting — Silver short idea)
+- Last seen: 2026-08-11T14:16:37Z (Discord Chat supporting — Market sentiment on HYPE/ZEC)
 - **Events (rolling):**
+  - Aug 11 14:16Z — informational-sentiment: DC Chat "Think the two usual outperformers or pusual spot basket plays hype & zec dropping is a sign for the broader crypto market" — market observation on HYPE/ZEC decline as market signal; supporting-channel sentiment [$HYPE $ZEC] [1536740128628674731]
   - Aug 11 13:58Z — informational: DC Chat "Yep. Beta play would be to short silver around exhaustion" — silver short thesis on exhaustion setup; supporting channel conviction shift [$SILVER] [1536735651347566723]
 - Last seen: 2026-08-11T14:01:45.502Z (Discord Chat supporting — eyes emoji reaction to DOGE comment)
 - **Events (rolling):**
