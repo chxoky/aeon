@@ -1,0 +1,43 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "🐦 X Trader Monitor"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "link-view"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "$AAPL — Progressing ahead of schedule\n\nTwo technical charts showing daily consolidation structure with support/resistance levels validating existing systematic short thesis. Price action unfolding faster than expected per technical structure.\n\n3-trader AAPL short convergence: HCH (Aug 10: 'wasn't finished filling') + Wild_Randomness (Aug 07/10 systematic daily adds at $312-315 box) + KillaXBT (SHORT thesis active)."
+      },
+      "children": []
+    },
+    "link-view": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2087245146954084443"
+      },
+      "children": []
+    }
+  }
+}
