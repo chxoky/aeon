@@ -1,0 +1,122 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading-main",
+        "sep-1",
+        "stack-event",
+        "sep-2",
+        "stack-analysis"
+      ]
+    },
+    "heading-main": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @bull_genius",
+        "level": "h2"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack-event": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-event-header",
+        "text-event-detail"
+      ]
+    },
+    "text-event-header": {
+      "type": "Text",
+      "props": {
+        "text": "Event: \"and out. looks bad\" + BTC 1h chart",
+        "variant": "lead"
+      }
+    },
+    "text-event-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Chart context: BTC 1h consolidation showing hard rejection at 65K POC resistance (aligns with your Aug 11 15:04Z analysis), current ~64,535 in mixed structure",
+        "variant": "body"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack-analysis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-unable",
+        "stack-interpretations",
+        "link-post"
+      ]
+    },
+    "text-unable": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "lead"
+      }
+    },
+    "stack-interpretations": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opt-1",
+        "opt-2",
+        "opt-3"
+      ]
+    },
+    "opt-1": {
+      "type": "Text",
+      "props": {
+        "text": "Did you close a position? (\"and out\" = exit)",
+        "variant": "body"
+      }
+    },
+    "opt-2": {
+      "type": "Text",
+      "props": {
+        "text": "Exiting a setup idea? (structure invalidated)",
+        "variant": "body"
+      }
+    },
+    "opt-3": {
+      "type": "Text",
+      "props": {
+        "text": "Commenting on poor 1h structure?",
+        "variant": "body"
+      }
+    },
+    "link-post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/bull_genius/status/2087202899528974486"
+      }
+    }
+  }
+}
