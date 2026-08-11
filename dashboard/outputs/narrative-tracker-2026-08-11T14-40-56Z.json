@@ -1,0 +1,430 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-08-11",
+        "description": "Transitions vs Aug 09 baseline"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section_new",
+        "sep_1",
+        "section_promoted_zk",
+        "sep_2",
+        "section_promoted_rate",
+        "sep_3",
+        "section_demoted_cash",
+        "sep_4",
+        "section_demoted_zec"
+      ]
+    },
+    "section_new": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_new",
+        "text_new_desc",
+        "text_new_rotation",
+        "stack_new_tokens"
+      ]
+    },
+    "heading_new": {
+      "type": "Heading",
+      "props": {
+        "text": "NEW: DeFi Rotation",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text_new_desc": {
+      "type": "Text",
+      "props": {
+        "text": "LINK/CRV/ICP outperforming 3rd consecutive day in risk-off BTC tape; system named it today.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_new_rotation": {
+      "type": "Text",
+      "props": {
+        "text": "Rotation from narrative-to-fundamentals reading.",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "stack_new_tokens": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_group",
+        "crv_group",
+        "icp_group"
+      ]
+    },
+    "link_group": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "text_link",
+        "badge_major",
+        "badge_trending_up"
+      ]
+    },
+    "text_link": {
+      "type": "Text",
+      "props": {
+        "text": "LINK",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "badge_major": {
+      "type": "Badge",
+      "props": {
+        "text": "MAJOR",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "badge_trending_up": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+UP",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "crv_group": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "crv_stat",
+        "badge_breakout"
+      ]
+    },
+    "crv_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "CRV",
+        "value": "+11.7%",
+        "trend": "up",
+        "delta": "+11.7%"
+      },
+      "children": []
+    },
+    "badge_breakout": {
+      "type": "Badge",
+      "props": {
+        "text": "BREAKOUT",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "icp_group": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "icp_stat"
+      ]
+    },
+    "icp_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "ICP",
+        "value": "+6.2%",
+        "trend": "up",
+        "delta": "+6.2%"
+      },
+      "children": []
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_promoted_zk": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_zk",
+        "text_zk_status",
+        "text_zk_desc",
+        "alert_pump_risk",
+        "cys_stat"
+      ]
+    },
+    "heading_zk": {
+      "type": "Heading",
+      "props": {
+        "text": "PROMOTED: ZK Prover/CYS",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text_zk_status": {
+      "type": "Text",
+      "props": {
+        "text": "Emerging → Rising",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "text_zk_desc": {
+      "type": "Text",
+      "props": {
+        "text": "CYS 3rd trending day; ZK prover narrative seeding into CT.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "cys_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "CYS",
+        "value": "+40.9%",
+        "trend": "up",
+        "delta": "+40.9%"
+      },
+      "children": []
+    },
+    "alert_pump_risk": {
+      "type": "Alert",
+      "props": {
+        "title": "Pump Risk",
+        "message": "rank-155",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_promoted_rate": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_rate",
+        "text_rate_trigger",
+        "stack_rate_metrics"
+      ]
+    },
+    "heading_rate": {
+      "type": "Heading",
+      "props": {
+        "text": "PROMOTED: Rate-Hike Risk → CPI Binary at Peak",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text_rate_trigger": {
+      "type": "Text",
+      "props": {
+        "text": "Aug 12 8:30 ET regime-flip trigger.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "stack_rate_metrics": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_polymarket",
+        "stat_btc",
+        "stat_fg"
+      ]
+    },
+    "stat_polymarket": {
+      "type": "Stat",
+      "props": {
+        "label": "Polymarket 24h Volume",
+        "value": "$1.14M"
+      },
+      "children": []
+    },
+    "stat_btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$64K"
+      },
+      "children": []
+    },
+    "stat_fg": {
+      "type": "Stat",
+      "props": {
+        "label": "Fear & Greed",
+        "value": "29"
+      },
+      "children": []
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_demoted_cash": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_cash",
+        "text_cash_status",
+        "text_cash_desc",
+        "cashcat_group"
+      ]
+    },
+    "heading_cash": {
+      "type": "Heading",
+      "props": {
+        "text": "DEMOTED: CASHCAT/Robinhood Chain",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text_cash_status": {
+      "type": "Text",
+      "props": {
+        "text": "Emerging → Fading",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "text_cash_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Reversed; pump cycle over.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "cashcat_group": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cashcat_stat",
+        "badge_trending_down"
+      ]
+    },
+    "cashcat_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "CASHCAT",
+        "value": "-6.1%",
+        "trend": "down",
+        "delta": "-6.1%"
+      },
+      "children": []
+    },
+    "badge_trending_down": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+DOWN",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "sep_4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_demoted_zec": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_zec",
+        "text_zec_status",
+        "text_zec_desc",
+        "zec_stat"
+      ]
+    },
+    "heading_zec": {
+      "type": "Heading",
+      "props": {
+        "text": "DEMOTED: ZEC/XMR Privacy",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text_zec_status": {
+      "type": "Text",
+      "props": {
+        "text": "Rising → Fading",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "text_zec_desc": {
+      "type": "Text",
+      "props": {
+        "text": "HCH flagged ZEC/HYPE drops as broader",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "zec_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "ZEC",
+        "value": "-3.5%",
+        "trend": "down",
+        "delta": "-3.5%"
+      },
+      "children": []
+    }
+  }
+}
