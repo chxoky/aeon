@@ -1,0 +1,210 @@
+{
+  "root": "root",
+  "state": {},
+  "elements": {
+    "root": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "🔍 Calibration — [DC: HCH — Chat]"
+      },
+      "children": [
+        "alert",
+        "sep1",
+        "event-section",
+        "sep2",
+        "context-section"
+      ]
+    },
+    "alert": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Unable to Classify",
+        "message": "Message classification failed due to missing context"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "event-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event-heading",
+        "event-meta",
+        "speaker-section"
+      ]
+    },
+    "event-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Event: HeartCanHodl",
+        "level": "h2"
+      }
+    },
+    "event-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "channel-badge",
+        "time-badge"
+      ]
+    },
+    "channel-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "supporting channel",
+        "variant": "secondary"
+      }
+    },
+    "time-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "14:21 UTC",
+        "variant": "outline"
+      }
+    },
+    "speaker-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "speaker-label",
+        "speaker-value",
+        "message-label",
+        "message-value"
+      ]
+    },
+    "speaker-label": {
+      "type": "Text",
+      "props": {
+        "text": "Speaker:",
+        "variant": "caption"
+      }
+    },
+    "speaker-value": {
+      "type": "Text",
+      "props": {
+        "text": "HCH",
+        "variant": "body"
+      }
+    },
+    "message-label": {
+      "type": "Text",
+      "props": {
+        "text": "Message:",
+        "variant": "caption"
+      }
+    },
+    "message-value": {
+      "type": "Text",
+      "props": {
+        "text": "\"Yes\"",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context-heading",
+        "issues-stack",
+        "questions-stack"
+      ]
+    },
+    "context-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Missing Context",
+        "level": "h3"
+      }
+    },
+    "issues-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "issue1",
+        "issue2",
+        "issue3"
+      ]
+    },
+    "issue1": {
+      "type": "Text",
+      "props": {
+        "text": "Message has no referenced_message field",
+        "variant": "body"
+      }
+    },
+    "issue2": {
+      "type": "Text",
+      "props": {
+        "text": "is_reply=false",
+        "variant": "body"
+      }
+    },
+    "issue3": {
+      "type": "Text",
+      "props": {
+        "text": "Content suggests a response to another member's message in the channel",
+        "variant": "body"
+      }
+    },
+    "questions-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "q-heading",
+        "q1",
+        "q2"
+      ]
+    },
+    "q-heading": {
+      "type": "Text",
+      "props": {
+        "text": "Unresolved questions:",
+        "variant": "caption"
+      }
+    },
+    "q1": {
+      "type": "Text",
+      "props": {
+        "text": "What is HCH responding to?",
+        "variant": "muted"
+      }
+    },
+    "q2": {
+      "type": "Text",
+      "props": {
+        "text": "Should this be tracked?",
+        "variant": "muted"
+      }
+    }
+  }
+}

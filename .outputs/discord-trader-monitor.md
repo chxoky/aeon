@@ -1,22 +1,9 @@
-**Skill complete.** Event processed successfully.
+🔍 *Calibration — [DC: HCH — Chat]*
 
-## Summary
+Event: HeartCanHodl (supporting channel) at 14:21 UTC
 
-**Discord Trader Monitor — HeartCanHodl (14:16:37 UTC)**
+HCH: "Yes"
 
-| Field | Value |
-|-------|-------|
-| **Channel** | HCH — Chat (supporting) |
-| **Classification** | Informational-sentiment |
-| **Tickers** | HYPE, ZEC |
-| **Message** | "Think the two usual outperformers or pusual spot basket plays hype & zec dropping is a sign for the broader crypto market" |
-| **Action** | Fast-path alert already sent by Cloudflare Worker (~2-5s latency). Skill performed classification + memory update only. |
-| **Status** | ✅ Complete |
+Missing context: Message has no referenced_message field and is_reply=false, but content suggests a response to another member's message in the channel.
 
-**Updates:**
-- `traders.md`: Added event to HeartCanHodl rolling events (timestamp 14:16Z)
-- `ticker-focus.md`: Updated ZEC sentiment observation (Aug 11 14:16Z)
-- `memory/logs/2026-08-11.md`: Full event log entry
-- `memory/discord-trader-seen.txt`: Message ID tracked (1536740128628674731)
-
-No duplicate Telegram sent (fast-path handled by Worker). Memory logged for context.
+Unable to classify — what is HCH responding to, and should this be tracked?
