@@ -27,3 +27,12 @@ I've successfully executed the **x-trader-monitor** skill for the real-time twee
 
 **Rationale:** The tweet contains no financial content, no ticker mentions, no execution language, and no market signal. Per the skill's Step 8 size-discipline rules, non-financial posts get logged only (no event line in traders.md, no notification sent).
 [View post](https://x.com/Wild_Randomness/status/2087245146954084443)
+🔍 *Calibration — @Wild_Randomness*
+
+Event: Reply to @book_of_healing on trading positioning
+
+"I'm long September 30 puts on QQQ, Oct 16 puts on SPX"
+
+Unable to determine if this is a **new entry** (5a trade signal) or just an **explanation of current positions** (informational). Language is present-tense but not explicitly execution-oriented (no "filled", "just bought", "added"). Post includes an image that may clarify. 
+
+Your read?

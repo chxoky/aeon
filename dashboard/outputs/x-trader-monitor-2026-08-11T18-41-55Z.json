@@ -1,0 +1,142 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_all"
+      ]
+    },
+    "stack_all": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "heading_calibration",
+        "event_section",
+        "quote_section",
+        "analysis_section",
+        "question_section"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h2"
+      }
+    },
+    "event_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event_label",
+        "event_text"
+      ]
+    },
+    "event_label": {
+      "type": "Badge",
+      "props": {
+        "text": "Event",
+        "variant": "secondary"
+      }
+    },
+    "event_text": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to @book_of_healing on trading positioning"
+      }
+    },
+    "quote_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "quote_label",
+        "quote_text"
+      ]
+    },
+    "quote_label": {
+      "type": "Badge",
+      "props": {
+        "text": "Quote",
+        "variant": "secondary"
+      }
+    },
+    "quote_text": {
+      "type": "Text",
+      "props": {
+        "text": "\"I'm long September 30 puts on QQQ, Oct 16 puts on SPX\"",
+        "variant": "lead"
+      }
+    },
+    "analysis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis_heading",
+        "uncertainty_alert",
+        "language_text",
+        "image_text"
+      ]
+    },
+    "analysis_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Analysis",
+        "level": "h3"
+      }
+    },
+    "uncertainty_alert": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "Unable to determine if this is a new entry (5a trade signal) or just an explanation of current positions (informational)."
+      }
+    },
+    "language_text": {
+      "type": "Text",
+      "props": {
+        "text": "Language is present-tense but not explicitly execution-oriented (no \"filled\", \"just bought\", \"added\")."
+      }
+    },
+    "image_text": {
+      "type": "Text",
+      "props": {
+        "text": "Post includes an image that may clarify.",
+        "variant": "muted"
+      }
+    },
+    "question_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "question_text"
+      ]
+    },
+    "question_text": {
+      "type": "Text",
+      "props": {
+        "text": "Your read?",
+        "variant": "lead"
+      }
+    }
+  }
+}

@@ -109,7 +109,9 @@
 - Conviction notes: Highest noise volume among tracked traders — URL-only posts = NOISE. Chart-driven macro analysis (vol structure, ratio divergence, barbell strategy). Multiple PENDING Kyle approvals — no confirmed mirrors. AAPL short = systematic daily-add plan with defined invalidation (close above box). GOLD/BTC ratio at multi-year inflection confirming barbell thesis. MSTR left-tail theory validates "Jump the Shark" macro framework.
 - Calibration: PENDING Aug 11 15:55Z ("$ZEC Intuition good" + 2 technical charts showing daily support test at ~470, 15m ZEC -4% vs peers; unclear bullish bounce vs bearish confirmation; HR-2 calibration sent). PENDING Aug 10 19:50Z ("Sidelined?" + GOLD 415 call options chart 09/18 exp; unclear if liquidity complaint or setup question; HR-2 calibration sent). PENDING Aug 08 23:20Z ("Cheers to 10k" + image unavailable; which ticker?). PENDING Aug 07 21:06Z ("75-80% from 129 given we broke range" — likely SPCX TP update). PENDING Aug 07 17:00Z (Uptober "where is the starting line?" — asset unclear). Multiple prior calibration items (Aug 01-05) carried over; resolve with Kyle when active.
 - Last seen: 2026-08-11T18:29:56Z (X — AAPL technical chart reinforcement, informational)
+- Last seen: 2026-08-11T18:37:37Z (X — ambiguous options position explanation, awaiting Kyle calibration)
 - **Events (rolling):**
+  - Aug 11 18:37Z — ambiguous: "I'm long September 30 puts on QQQ, Oct 16 puts on SPX" + image; reply to @book_of_healing; unclear if new entry or position explanation; HR-2 calibration pending [$QQQ $SPX] [2087247077067874484]
   - Aug 11 15:55Z — ambiguous: "$ZEC Intuition good" + 2 technical charts (daily support test 470, 15m -4% vs peers); HR-2 calibration sent [$ZEC] [2087206360912105966]
   - Aug 05 14:30Z — trade-new-entry: QQQ PUT OPTIONS; P/C ratio 0.46 (6mo extreme); pending Kyle [$QQQ]
   - Aug 05 14:56Z — trade-new-entry: ALAB long sub $325; SL daily close $320; pending Kyle [$ALAB]
