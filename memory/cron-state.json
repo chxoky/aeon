@@ -97,8 +97,8 @@
     "last_dispatch": "2026-07-14T04:51:21Z"
   },
   "token-alert": {
-    "last_dispatch": "2026-08-11T12:02:45Z",
-    "last_status": "success",
+    "last_dispatch": "2026-08-12T12:08:41Z",
+    "last_status": "dispatched",
     "last_success": "2026-08-11T12:10:03Z",
     "total_runs": 29,
     "total_successes": 29,
@@ -107,8 +107,8 @@
     "success_rate": 1
   },
   "token-movers": {
-    "last_dispatch": "2026-08-11T12:02:45Z",
-    "last_status": "success",
+    "last_dispatch": "2026-08-12T12:08:41Z",
+    "last_status": "dispatched",
     "last_success": "2026-08-12T07:14:01Z",
     "total_runs": 56,
     "total_successes": 56,
