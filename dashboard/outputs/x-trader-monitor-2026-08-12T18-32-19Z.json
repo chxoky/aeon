@@ -1,0 +1,31 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-card",
+        "link-post"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "$SPCX — over 50% TP'd now\n\nExecuting 50% take-profit plan (target $150). Current price 144.68-148.42 aligns with target zone. Switching to observe mode.\n\nNo Kyle mirror position active. Technical structure validated: consolidation 120-160 with support at 130/118/108."
+      }
+    },
+    "link-post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2087606972506161613"
+      }
+    }
+  }
+}
