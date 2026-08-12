@@ -5,8 +5,9 @@
 - Recent thesis: Regime shifted to net-short Aug 07 on BTC structure rejection at 64K. Systematic short basket (BTC/ETH/UNI/SOL/SPCX/ZEC/HYPE/LIT/PEPE/KAITO/TSLA/PLTR). Major-pair longs maintained but systematically reduced via tranche TPs. "Stay tight. Stay loaded. Finger on the trigger" — waiting for capitulation lows to re-accumulate. KAITO short thesis validated (−48% from alert entry). ETH short re-entered Aug 12 after full close Jul 31, suggesting renewed structure bearishness. Switching from net longs to net shorts at 65K BTC, 1.9-2K ETH (conditional trigger levels).
 - Conviction notes: Disciplined portfolio architect. %-of-portfolio sizing literal and trackable. "Fc {ticker} {tf}" = false-close chart check (established, NOT a trade signal; 15+ occurrences). Primary Trades channel = highest conviction; verbatim messages forwarded. Systematic tiered TP on longs + short basket escalation. SPCX 2% spot long + 4% short = hedged divergence position.
 - Calibration: RESOLVED "Fc" = false-close TA check, not trade signal. PENDING Aug 07 12:40Z ("~" cryptic tilde). PENDING Aug 07 18:56Z ("Nb rdw, spcx, rklb 15" — "Nb" meaning unknown). PENDING Aug 09 00:44Z (TAO "Finally lol" — TAO position relief or market banter?). Keep ALL Fc messages as silent technical-check logs.
-- Last seen: 2026-08-12T13:53:02Z (Discord Chat supporting — technical chart check on CRWV 15m)
+- Last seen: 2026-08-12T13:55:54Z (Discord Chat supporting — TP discipline philosophy affirmation)
 - **Events (rolling):**
+  - Aug 12 13:55Z — informational-philosophy: DC Chat "Partial tp won't hurt" + X-link share; reply to member (Tree Capital) on TP strategy concern; supporting-channel member Q&A affirmation of systematic TP discipline (documented Jul 31+ tranches); silent log [$UNKNOWN] [1537097301594607657]
   - Aug 12 13:53Z — technical-check: DC Chat "Fc crwv 15m" — false-close chart check on Crown (CRWV) 15m; supporting-channel technical observation only, no execution language, no trade action; silent log per HR-1 protocol [$CRWV] [1537096581608767498]
 - Last seen: 2026-08-12T13:54:17Z (Discord Chat supporting — technical chart check on AAOI 4hr)
 - **Events (rolling):**
