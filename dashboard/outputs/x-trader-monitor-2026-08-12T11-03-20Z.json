@@ -1,0 +1,43 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "stack-1"
+      ]
+    },
+    "stack-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-1",
+        "link-1"
+      ]
+    },
+    "tweet-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "trading_axe",
+        "handle": "trading_axe",
+        "text": "There hasn't been a memecoin since everything went to shit that had the ingredients to become a blue chip.\n\nWhen we talk about \"blue chip\" we mean memes that extend past the daily runner extraction bs and become truly ingrained with crypto culture.\n\nCASHCAT is the last hope we have for blue chip, because if not this, then what?\n\nI truly believe that Robinhood Chain and CASHCAT will become retail's favourite way to seek maximum exposure to an asset class [crypto].\n\nNot only is it a beta play for Ethereum [world tokenization supercycle], but it's also a bet on \"the last chance\" we have for an organic 1B+ moonshot."
+      },
+      "children": []
+    },
+    "link-1": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/trading_axe/status/2087493541836513572"
+      },
+      "children": []
+    }
+  }
+}

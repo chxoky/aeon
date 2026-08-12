@@ -1,15 +1,13 @@
-🐦 *[X] @KillaXBT*
+🐦 *[X] @trading_axe*
 
-Make sure to remember all the bears.
+There hasn't been a memecoin since everything went to shit that had the ingredients to become a blue chip.
 
-Make sure to remember who was shorting 64K 2 years from now chasing scraps. 
+When we talk about "blue chip" we mean memes that extend past the daily runner extraction bs and become truly ingrained with crypto culture.
 
-Make sure to remember every account that flip-flopped all over the place.
+CASHCAT is the last hope we have for blue chip, because if not this, then what?
 
-Make sure to remember the ones who somehow claim they're long‚ even though they were short the moment we started pushing higher.
+I truly believe that Robinhood Chain and CASHCAT will become retail's favourite way to seek maximum exposure to an asset class [crypto].
 
-Because I will‚ $BTC
+Not only is it a beta play for Ethereum [world tokenization supercycle], but it's also a bet on "the last chance" we have for an organic 1B+ moonshot.
 
-[View tweet](https://x.com/KillaXBT/status/2087488799265677813)
-
-↳ _Reinforces KillaXBT's structural bull conviction (bear cycle ~80% complete) + lines up with bull_genius bullish structural thesis. BTC group sentiment remains bullish._
+[View post](https://x.com/trading_axe/status/2087493541836513572)
