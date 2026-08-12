@@ -1,0 +1,41 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet",
+        "link"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "abetrade",
+        "handle": "@abetrade",
+        "text": "After the large SPX rally last week, call skew is the highest we have seen in the year alongside the contango slope, with VIX at 15 similar to May and July.\n\nThis call demand is mostly the reason why VIX is not lower as traders sold out of hedges and rotated into upside calls to chase it.\n\nTerm structure steepened across the board too, with the SPX 1Y-1M vol spread widening from 5.4% to 5.9%, an 86th percentile for the year.\n\nDespite some of these signs of degen buying, I don't think there is reason to play an internet hero and try to fade this.\n\nIf we manage to get a pullback to maybe shake out some of the OTM call chasers, 7620 on SPX would be a key level to hold as it is a prior ATH and volume pocket. There is also a cluster of MAs around 7550s which is the lowest I'd like to see this go."
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/abetrade/status/2087513892658229665"
+      }
+    }
+  }
+}
