@@ -1,0 +1,40 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "🐦 @Wild_Randomness — SPCX Daily Consolidation"
+      },
+      "children": [
+        "tweet-card",
+        "hch-alert",
+        "view-link"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "SPCX daily consolidation — POC at 148.43, resistance ~160.\n\n\"Would be more interested in trying a short on additional upside into there\"\n\nChart shows clear consolidation zone (115-160) with labeled support/resistance levels. Conditional short setup at resistance."
+      }
+    },
+    "hch-alert": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Contested ticker: HCH",
+        "message": "HCH net-long (2% spot + hedge short 1%), Chase bearish, WR suggests short opportunity."
+      }
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2087637795028586632"
+      }
+    }
+  }
+}

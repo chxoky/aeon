@@ -1,10 +1,10 @@
-🔁 *Trade Close — @Wild_Randomness*
+🐦 *[X] @Wild_Randomness*
 
-Wild_Randomness fully closed their SPCX position at $149.50 after a strong +40% recovery in 5 trading days.
+SPCX daily consolidation — POC at 148.43, resistance ~160.
 
-Entry context: Recovered from $107 bottom established early Aug. Chart shows consolidation support established, now planning to re-entry on clean break above $150.
+"Would be more interested in trying a short on additional upside into there"
 
-No Kyle mirror position active — logged for reference.
+Chart shows clear consolidation zone (115-160) with labeled support/resistance levels. Conditional short setup at resistance.
 
 [View post](https://x.com/Wild_Randomness/status/2087636201973117165)
 🔁 *Mirrored* — @Wild_Randomness
@@ -17,3 +17,6 @@ Current: $146.24 (+9.74% at close)
 Chart shows breakout from consolidation, near prior resistance.
 
 [View post](https://x.com/Wild_Randomness/status/2087637496708661303)
+⚠️ **Contested ticker**: HCH net-long (2% spot + hedge short 1%), Chase bearish, WR suggests short opportunity.
+
+[View tweet](https://x.com/Wild_Randomness/status/2087637795028586632)
