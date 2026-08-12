@@ -1,0 +1,869 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-08-12",
+        "description": "Narrative transitions, reflexivity alerts, and position tracking"
+      },
+      "children": [
+        "section_transitions",
+        "sep1",
+        "section_reflexivity",
+        "sep2",
+        "section_positions",
+        "sep3",
+        "section_map"
+      ]
+    },
+    "section_transitions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_transitions",
+        "trans_promoted",
+        "trans_demoted",
+        "trans_new_btc",
+        "trans_new_ai"
+      ]
+    },
+    "heading_transitions": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS (first run — transitions within 3-day window)",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "trans_promoted": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans_promoted_badge",
+        "trans_promoted_title",
+        "trans_promoted_text"
+      ]
+    },
+    "trans_promoted_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "trans_promoted_title": {
+      "type": "Heading",
+      "props": {
+        "text": "DeFi/Oracle Rotation — Emerging → Rising",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "trans_promoted_text": {
+      "type": "Text",
+      "props": {
+        "text": "LINK 4th straight outperforming session (+6.7% 7d); DTCC AppChain Q4 catalyst + Aave lending demand. CPI softness locks in continuation bid."
+      },
+      "children": []
+    },
+    "trans_demoted": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans_demoted_badge",
+        "trans_demoted_title",
+        "trans_demoted_text"
+      ]
+    },
+    "trans_demoted_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "trans_demoted_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Clarity Act — Peak → Fading",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "trans_demoted_text": {
+      "type": "Text",
+      "props": {
+        "text": "Senate punted floor vote to September. KillaXBT's ETF-cycle-parallel accumulation thesis now 4–6 weeks from any resolution."
+      },
+      "children": []
+    },
+    "trans_new_btc": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans_new_btc_badge",
+        "trans_new_btc_title",
+        "trans_new_btc_text"
+      ]
+    },
+    "trans_new_btc_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "trans_new_btc_title": {
+      "type": "Heading",
+      "props": {
+        "text": "BTC Accumulation Consensus",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "trans_new_btc_text": {
+      "type": "Text",
+      "props": {
+        "text": "3-trader public convergence Aug 12: @KillaXBT (\"never swing short BTC down here\"), @bull_genius (90% structural bull conviction), @HeartCanHodl (net-long BTC / ETH short re-entry). Strongest cross-CT buy-the-cycle signal this week."
+      },
+      "children": []
+    },
+    "trans_new_ai": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans_new_ai_badge",
+        "trans_new_ai_title",
+        "trans_new_ai_text"
+      ]
+    },
+    "trans_new_ai_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "trans_new_ai_title": {
+      "type": "Heading",
+      "props": {
+        "text": "AI Bubble Risk",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "trans_new_ai_text": {
+      "type": "Text",
+      "props": {
+        "text": "Emerging bear thesis. @bull_genius: AI pop → perp cascade → generational wipeout. @Wild_Randomness: ES/2022 crash structural parallel. @abetrade: SPX call skew YTD high, term structure 86th pct. Building but not dominant."
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_reflexivity": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_reflexivity",
+        "refl_cashcat",
+        "refl_metamask",
+        "refl_metals"
+      ]
+    },
+    "heading_reflexivity": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERTS",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "refl_cashcat": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "refl_cashcat_badge",
+        "refl_cashcat_title",
+        "refl_cashcat_text"
+      ]
+    },
+    "refl_cashcat_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "REFLEXIVITY",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "refl_cashcat_title": {
+      "type": "Heading",
+      "props": {
+        "text": "CASHCAT",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "refl_cashcat_text": {
+      "type": "Text",
+      "props": {
+        "text": "@trading_axe posted \"most obvious\" retail moonshot thesis twice in one session (10:56Z + 11:01Z). Lore-building before retail audience exists. bull_genius previously closed 15x. Pattern: narrative manufacturing via public repetition."
+      },
+      "children": []
+    },
+    "refl_metamask": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "refl_metamask_badge",
+        "refl_metamask_title",
+        "refl_metamask_text"
+      ]
+    },
+    "refl_metamask_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "REFLEXIVITY",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "refl_metamask_title": {
+      "type": "Heading",
+      "props": {
+        "text": "MetaMask Agent Wallet",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "refl_metamask_text": {
+      "type": "Text",
+      "props": {
+        "text": "MetaMask pivoted core product to AI Agents (Aug 2026 launch). Project rebranding to ride narrative = textbook reflexivity. TAO/NEAR price follows."
+      },
+      "children": []
+    },
+    "refl_metals": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "refl_metals_badge",
+        "refl_metals_title",
+        "refl_metals_text"
+      ]
+    },
+    "refl_metals_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "REFLEXIVITY",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "refl_metals_title": {
+      "type": "Heading",
+      "props": {
+        "text": "CT Metals",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "refl_metals_text": {
+      "type": "Text",
+      "props": {
+        "text": "@HeartCanHodl flagged real-time: \"lower high when CT starts talking metals heavily again — I've already noticed the chatter picking up.\" Direct narrative intensity → contrarian top signal on GOLD/silver."
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_positions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_positions",
+        "pos_privacy",
+        "pos_defi",
+        "pos_btc",
+        "pos_ai",
+        "pos_rwa",
+        "pos_memecoin",
+        "pos_clarity"
+      ]
+    },
+    "heading_positions": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "pos_privacy": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_privacy_header",
+        "pos_privacy_text",
+        "pos_privacy_bear",
+        "pos_privacy_edge"
+      ]
+    },
+    "pos_privacy_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_privacy_badge",
+        "pos_privacy_title"
+      ]
+    },
+    "pos_privacy_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "FRONT-RUN • 2 ↑↑ • Bull",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "pos_privacy_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Privacy/ZK",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "pos_privacy_text": {
+      "type": "Text",
+      "props": {
+        "text": "FCMP++ upgrade makes Monero analytically opaque; XMR +13% 7d sole top-20 outperformer."
+      },
+      "children": []
+    },
+    "pos_privacy_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: CEX delistings + FATF headwinds.",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "pos_privacy_edge": {
+      "type": "Text",
+      "props": {
+        "text": "Edge: upgrade cycle + delistings already priced for CEX/P2P users.",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "pos_defi": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_defi_header",
+        "pos_defi_text",
+        "pos_defi_bear"
+      ]
+    },
+    "pos_defi_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_defi_badge",
+        "pos_defi_title"
+      ]
+    },
+    "pos_defi_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE • 3 ↑↑ • Bull",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "pos_defi_title": {
+      "type": "Heading",
+      "props": {
+        "text": "DeFi/Oracle Rotation",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "pos_defi_text": {
+      "type": "Text",
+      "props": {
+        "text": "LINK + Aave + DTCC Q4."
+      },
+      "children": []
+    },
+    "pos_defi_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: sector rotation capital, not LINK-specific; fades on risk-off.",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "pos_btc": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_btc_header",
+        "pos_btc_text",
+        "pos_btc_bear"
+      ]
+    },
+    "pos_btc_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_btc_badge",
+        "pos_btc_title"
+      ]
+    },
+    "pos_btc_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE • 3 ↑ • Bull",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "pos_btc_title": {
+      "type": "Heading",
+      "props": {
+        "text": "BTC Accumulation",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "pos_btc_text": {
+      "type": "Text",
+      "props": {
+        "text": "3-trader convergence; Clarity Act = pre-ETF-approval parallel."
+      },
+      "children": []
+    },
+    "pos_btc_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: HCH added ETH short same day (BTC bull ≠ alt all-clear); macro tail risks.",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "pos_ai": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_ai_header",
+        "pos_ai_text",
+        "pos_ai_bear"
+      ]
+    },
+    "pos_ai_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_ai_badge",
+        "pos_ai_title"
+      ]
+    },
+    "pos_ai_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH • 4 → • Mixed",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "pos_ai_title": {
+      "type": "Heading",
+      "props": {
+        "text": "AI x Crypto/Agents",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "pos_ai_text": {
+      "type": "Text",
+      "props": {
+        "text": "MetaMask, a16z, TAO/NEAR."
+      },
+      "children": []
+    },
+    "pos_ai_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: utility-vs-hype gap; near-peak mindshare; MetaMask reflexivity flag.",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "pos_rwa": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_rwa_header",
+        "pos_rwa_text",
+        "pos_rwa_bear"
+      ]
+    },
+    "pos_rwa_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_rwa_badge",
+        "pos_rwa_title"
+      ]
+    },
+    "pos_rwa_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH • 4 → • Bull",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "pos_rwa_title": {
+      "type": "Heading",
+      "props": {
+        "text": "RWA Tokenization",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "pos_rwa_text": {
+      "type": "Text",
+      "props": {
+        "text": "BUIDL $2.5B, DTCC, Solana RWA volume."
+      },
+      "children": []
+    },
+    "pos_rwa_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: plumbing phase = narrative fatigue; next catalyst Q4.",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "pos_memecoin": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_memecoin_header",
+        "pos_memecoin_text",
+        "pos_memecoin_bear"
+      ]
+    },
+    "pos_memecoin_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_memecoin_badge",
+        "pos_memecoin_title"
+      ]
+    },
+    "pos_memecoin_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH • 3 ↑ • Mixed",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "pos_memecoin_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Memecoin Lore",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "pos_memecoin_text": {
+      "type": "Text",
+      "props": {
+        "text": "CASHCAT thesis, BTW +17.5% breakout, HMM pump-risk."
+      },
+      "children": []
+    },
+    "pos_memecoin_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: @Crypto_Chase explicit — \"attention + phone calls + side wallets, not trading\" = insider game warning.",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "pos_clarity": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_clarity_header",
+        "pos_clarity_text",
+        "pos_clarity_bear"
+      ]
+    },
+    "pos_clarity_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_clarity_badge",
+        "pos_clarity_title"
+      ]
+    },
+    "pos_clarity_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH • 3 ↓ • Mixed",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "pos_clarity_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Clarity Act",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "pos_clarity_text": {
+      "type": "Text",
+      "props": {
+        "text": "September re-entry; procedural advance Aug 9, no floor vote."
+      },
+      "children": []
+    },
+    "pos_clarity_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: needs 7 Dems, structural problem unchanged.",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_map": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_map",
+        "map_emerging",
+        "map_rising",
+        "map_peak",
+        "map_fading"
+      ]
+    },
+    "heading_map": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "map_emerging": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "map_emerging_stage",
+        "map_emerging_items"
+      ]
+    },
+    "map_emerging_stage": {
+      "type": "Badge",
+      "props": {
+        "text": "Emerging",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "map_emerging_items": {
+      "type": "Text",
+      "props": {
+        "text": "AI Bubble Risk, Memecoin Lore"
+      },
+      "children": []
+    },
+    "map_rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "map_rising_stage",
+        "map_rising_items"
+      ]
+    },
+    "map_rising_stage": {
+      "type": "Badge",
+      "props": {
+        "text": "Rising",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "map_rising_items": {
+      "type": "Text",
+      "props": {
+        "text": "Privacy/ZK, DeFi/Oracle Rotation, BTC Accumulation"
+      },
+      "children": []
+    },
+    "map_peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "map_peak_stage",
+        "map_peak_items"
+      ]
+    },
+    "map_peak_stage": {
+      "type": "Badge",
+      "props": {
+        "text": "Peak",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "map_peak_items": {
+      "type": "Text",
+      "props": {
+        "text": "AI x Crypto/Agents, RWA Tokenization"
+      },
+      "children": []
+    },
+    "map_fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "map_fading_stage",
+        "map_fading_items"
+      ]
+    },
+    "map_fading_stage": {
+      "type": "Badge",
+      "props": {
+        "text": "Fading",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "map_fading_items": {
+      "type": "Text",
+      "props": {
+        "text": "Clarity Act"
+      },
+      "children": []
+    }
+  }
+}
