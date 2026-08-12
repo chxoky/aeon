@@ -1,0 +1,141 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration and technical analysis"
+      },
+      "children": [
+        "main_stack"
+      ]
+    },
+    "main_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "calibration_heading",
+        "badge_user",
+        "separator1",
+        "chart_section",
+        "separator2",
+        "quote_section",
+        "separator3",
+        "question_section"
+      ]
+    },
+    "calibration_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration",
+        "level": "h2"
+      }
+    },
+    "badge_user": {
+      "type": "Badge",
+      "props": {
+        "text": "@Wild_Randomness",
+        "variant": "outline"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "chart_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "chart_label",
+        "stock_name",
+        "pattern_desc",
+        "stat_price"
+      ]
+    },
+    "chart_label": {
+      "type": "Text",
+      "props": {
+        "text": "Chart",
+        "variant": "caption"
+      }
+    },
+    "stock_name": {
+      "type": "Heading",
+      "props": {
+        "text": "CLS (Celestica, Inc.)",
+        "level": "h3"
+      }
+    },
+    "pattern_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Technical breakout/recovery pattern",
+        "variant": "body"
+      }
+    },
+    "stat_price": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$339.46",
+        "delta": "+9.37%",
+        "trend": "up"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "quote_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "quote_user_label",
+        "tweet_card"
+      ]
+    },
+    "quote_user_label": {
+      "type": "Text",
+      "props": {
+        "text": "Wild_Randomness",
+        "variant": "caption"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "text": "$CLS\n\nFixed it"
+      }
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "question_section": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "title": "Unable to classify",
+        "message": "What's your read? Does 'Fixed it' refer to a position you're managing, or just marking the chart pattern as resolved?"
+      }
+    }
+  }
+}
