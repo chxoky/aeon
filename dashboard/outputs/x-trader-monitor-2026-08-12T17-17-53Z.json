@@ -1,0 +1,140 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "$LIT Technical Analysis & Trading Context"
+      },
+      "children": [
+        "tweet_card",
+        "sep1",
+        "price_section",
+        "sep2",
+        "technical_section",
+        "sep3",
+        "context_section",
+        "sep4",
+        "link_tweet"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "Wild_Randomness",
+        "text": "$LIT consolidation after July spike rejection ($2.8 peak); oscillating mean-reversion pattern visible with RSI divergence + volume profile clustering at support zones (2.4, 1.9, 1.7, 1.5, 1.35)."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "price_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "price_heading",
+        "price_stat"
+      ]
+    },
+    "price_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Current Price",
+        "level": "h3"
+      }
+    },
+    "price_stat": {
+      "type": "Stat",
+      "props": {
+        "value": "$2.233",
+        "delta": "-7.73%",
+        "trend": "down",
+        "label": "24h Change"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "technical_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "technical_heading",
+        "technical_text"
+      ]
+    },
+    "technical_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Technical Analysis",
+        "level": "h3"
+      }
+    },
+    "technical_text": {
+      "type": "Text",
+      "props": {
+        "text": "At point of visual consolidation with support cluster. Support zones: $2.4, $1.9, $1.7, $1.5, $1.35. Volume profile clustering indicates key technical levels.",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_heading",
+        "context_text",
+        "conviction_badge"
+      ]
+    },
+    "context_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Cross-Trader Context",
+        "level": "h3"
+      }
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "HeartCanHodl holds strong short conviction on LIT (Jul 27 — '2nd best trade in the market is short $LIT'). Charts validate technical structure alignment: spike rejection + consolidation supports bearish trap scenario OR mean-reversion bullish setup depending on breakdown direction.",
+        "variant": "body"
+      }
+    },
+    "conviction_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Short Conviction",
+        "variant": "secondary"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2087588181688623460"
+      }
+    }
+  }
+}
