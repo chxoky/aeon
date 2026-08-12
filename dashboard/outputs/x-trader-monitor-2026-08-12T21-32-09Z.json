@@ -1,0 +1,95 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "SPCX Position Closure + Unlock Strategy"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "separator_1",
+        "heading_chart",
+        "stat_price",
+        "text_chart_context",
+        "separator_2",
+        "heading_unlock",
+        "text_unlock_catalyst",
+        "link_post"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "I'm out of my longs now\n\nWill try it with you if we can deviate into old range and test the POC closer to next round of unlocks\n\n(Buy first unlocks, sell the second)"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_chart": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart Context",
+        "level": "h3"
+      }
+    },
+    "stat_price": {
+      "type": "Stat",
+      "props": {
+        "label": "SPCX",
+        "value": "148.43",
+        "delta": "+11.36%",
+        "trend": "up"
+      }
+    },
+    "text_chart_context": {
+      "type": "Text",
+      "props": {
+        "text": "Volume profile shows prior range resistance ~180, current consolidation 113-148, support at ~101-113 (green arrow technical level). POC (Point of Control) around 160 zone."
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_unlock": {
+      "type": "Heading",
+      "props": {
+        "text": "Unlock Catalyst",
+        "level": "h3"
+      }
+    },
+    "text_unlock_catalyst": {
+      "type": "Text",
+      "props": {
+        "text": "Aug-Sep 2026 Musk stake unlock windows (46.1% eligible Day 366); strategy suggests buying first unlock, selling second unlock wave for volatility capture."
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2087651281808855380"
+      }
+    }
+  }
+}
