@@ -1,18 +1,42 @@
-Done. Here's what was produced:
+*Token Movers — 2026-08-12*
 
-**Market pulse:** Risk-off lean — ~35% of top-100 coins green, median −0.7%; BTC flat at $64.3K ahead of CPI Aug 12.
+_CPI day — tape flat; 54/100 top coins green, median top-50 move +0.2%; BTC −0.5% at $63,652, no broad direction._
 
-**Top Winners:** VELVET (+63.7%) and BEAT (−63.7%) dominate the lists but are a token migration event (Audiera→Velvet rebranding), not organic moves. Real signal movers: CYS (+28.3%) and CRV (+11.7%) with [BREAKOUT] tags, LINK (+5.0%) as the only [MAJOR] green.
+*Top Winners (24h)*
+1. BTW (Bitway) — $0.2217  +14.1% / 7d +66.2% / 1h +2.3%  •  $12.9M / #88
+2. CC (Canton) — $0.0983  +4.8% / 7d −9.8% / 1h −0.7%  •  $15.8M / #25  [FADE]
+3. CRV (Curve) — $0.2765  +4.3% / 7d +33.2% / 1h +0.4%  •  $95.1M / #106
+4. M (MemeCore) — $1.12  +3.9% / 7d −6.8% / 1h +1.0%  •  $5.1M / #50  [FADE]
+5. LINK (Chainlink) — $8.72  +3.8% / 7d +6.7% / 1h +0.1%  •  $350M / #18  [MAJOR]
+6. FIGR (Figure Heloc) — $1.038  +3.5% / 7d +3.5% / 1h 0.0%  •  $68.8M / #9  [MAJOR]
+7. NEAR — $1.65  +2.4% / 7d −4.4% / 1h −1.8%  •  $186M / #39
+8. DOGE — $0.0715  +2.2% / 7d +2.3% / 1h −0.7%  •  $514M / #11  [MAJOR]
+9. GRAM — $1.36  +2.2% / 7d −2.4% / 1h −0.5%  •  $24.1M / #26
+10. TAO (Bittensor) — $202.5  +1.9% / 7d +2.3% / 1h −0.4%  •  $96.9M / #42
 
-**Top Losers:** Q, EDGE, BONK leading, with large-caps ADA (#17) and ZEC (#15) dragging the [MAJOR] tier red.
+*Top Losers (24h)*
+1. UNI (Uniswap) — $3.62  −9.0% / 7d −8.4% / 1h −4.0%  •  $191M / #37
+2. CASHCAT (Cash Cat) — $0.1406  −6.0% / 7d +60.6% / 1h −2.5%  •  $12.6M / #202  [TRENDING+DOWN]
+3. ICP (Internet Computer) — $2.23  −5.5% / 7d +5.5% / 1h −0.6%  •  $46.8M / #58
+4. SNX (Synthetix) — $0.2007  −5.1% / 7d −5.3% / 1h −0.9%  •  $7.8M / #231
+5. AVAX (Avalanche) — $6.24  −3.8% / 7d −6.6% / 1h −0.8%  •  $161M / #34
+6. CYS (Cysic) — $1.25  −3.2% / 7d +153.3% / 1h +1.1%  •  $111.9M / #155  [TRENDING+DOWN]
+7. ZEC (Zcash) — $477.3  −2.8% / 7d −7.7% / 1h −1.2%  •  $192M / #15
+8. ONDO — $0.3337  −1.3% / 7d −13.4% / 1h −0.2%  •  $69.0M / #46
+9. SHIB — $0.000004460  −1.3% / 7d −9.1% / 1h −0.4%  •  $58.1M / #36
+10. HYPE (Hyperliquid) — $54.78  −1.0% / 7d −3.6% / 1h +0.3%  •  $196M / #10  [MAJOR]
 
-**Notable flags:**
-- DOS [PUMP-RISK]: rank 264, +86.4% intraday from 0.0% this morning
-- CYS [BREAKOUT]: 3rd consecutive trending day, +252.7% 7d ZK-prover narrative; watch for reversal
-- KAITO: 7d −28.5%, continued multi-day drawdown
+*Trending*
+1. HMM (Thinking Cat) — #867, $0.01750, +124.8%  [PUMP-RISK]
+2. PI (Pi Network) — #65, $0.08911, +2.3%
+3. PENGU (Pudgy Penguins) — #105, $0.006401, −0.3%
+4. HOLO (Holoworld) — #363, $0.08171, +14.8%
+5. PONS — #569, $0.04886, +16.4%
+6. TUT (Tutorial) — #356, $0.07655, −27.0%
+7. STONKBROKER — #389, $0.03649, −0.3%
 
-Notification queued to `.pending-notify/token-movers-20260811.md` for post-run delivery. Log entry appended to `memory/logs/2026-08-11.md`.
-
-## Summary
-
-Executed the token-movers skill: fetched CoinGecko top-250 markets + trending via curl/WebFetch, filtered stablecoins/illiquid/fund tokens, computed 24h winners/losers, applied signal tags, and composed the report. Key findings: VELVET/BEAT are a token migration distortion; CYS [BREAKOUT] continues its ZK-prover run for a 3rd day; DOS is a fresh [PUMP-RISK] pump. Notification written to `.pending-notify/` for delivery.
+*Notable*
+• HMM: rank #867, trending up 124.8% — [PUMP-RISK]; low-cap search spike, treat as noise
+• CASHCAT: trending while −6.0% on the day after 60.6% 7d run — prior pump visibly unwinding
+• BTW: +14.1% 24h, +66.2% 7d — sustained multi-day move, just under [BREAKOUT] threshold
+• CYS: 7d +153.3% ZK-prover story from Aug 8 still live; cooling today (−3.2%), momentum fading
