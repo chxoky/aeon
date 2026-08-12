@@ -1,0 +1,88 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-calibration",
+        "text-event",
+        "sep-1",
+        "tweet-wr",
+        "sep-2",
+        "alert-classify",
+        "link-post"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text-event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Market commentary on stock selling pressure",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "tweet-wr": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Not sure how this stock will ever trend\n\nJeff is completely damaging the market's psyche here\n\nAny impulsive move up and you can almost guarantee he's going to sell 5 yards (which is the right play, kudos to him)\n\nBut he has another 240 yards to sell— something to keep in mind…"
+      },
+      "children": []
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert-classify": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Unable to classify",
+        "message": "Which stock is this referencing? Who/what is 'Jeff'?"
+      },
+      "children": []
+    },
+    "link-post": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2087563596041748591",
+        "source": "X"
+      },
+      "children": []
+    }
+  }
+}

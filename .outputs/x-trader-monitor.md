@@ -1,10 +1,10 @@
-🐦 *[X] @Wild_Randomness*
+🔍 *Calibration — @Wild_Randomness*
 
-$NVDA
+Event: Market commentary on stock selling pressure
 
-NVDA/SMH ratio breakdown: 0.60 (2024 peak) → 0.3809 (current) = 36% underperformance vs semiconductor sector ETF. Daily chart shows consolidation with support zones at 212/204/196 levels. Sarcastic commentary on corporate sentiment disconnect (Glassdoor CEO meme).
+WR: "Not sure how this stock will ever trend
 
-Technical observation of structural weakness in NVDA relative to broader semiconductor performance — no personal trade action indicated.
+Jeff is completely damaging the market's psyche here
 
 [View post](https://x.com/Wild_Randomness/status/2087562045428465686)
 🔍 *Calibration — @swarmisters*
@@ -15,3 +15,10 @@ swarmisters: "I bought a few things to keep myself entertained during this slow 
 Unable to classify — what's your read? Refers to (1) speculative positions or (2) personal items? If positions, which ticker(s)/price/size?
 
 [View post](https://x.com/swarmisters/status/2087562229474341342)
+Any impulsive move up and you can almost guarantee he's going to sell 5 yards (which is the right play, kudos to him)
+
+But he has another 240 yards to sell— something to keep in mind…"
+
+Unable to classify — which stock is this referencing? Who/what is 'Jeff'?
+
+[View post](https://x.com/Wild_Randomness/status/2087563596041748591)
