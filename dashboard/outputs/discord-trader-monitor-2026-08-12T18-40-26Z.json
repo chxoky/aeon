@@ -1,0 +1,58 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "heading_calibration",
+        "text_event",
+        "message_card",
+        "separator_1",
+        "text_context"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 *Calibration — [DC: HCH — Chat]*",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Supporting channel member-chat, single-word affirm (no thread context provided)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "message_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "heartcanhodl",
+        "text": "Yes"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read? (Follow-up to prior member message in same channel?)",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
