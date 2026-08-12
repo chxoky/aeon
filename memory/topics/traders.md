@@ -9,8 +9,9 @@
 - **Events (rolling):**
   - Aug 12 13:55Z — informational-philosophy: DC Chat "Partial tp won't hurt" + X-link share; reply to member (Tree Capital) on TP strategy concern; supporting-channel member Q&A affirmation of systematic TP discipline (documented Jul 31+ tranches); silent log [$UNKNOWN] [1537097301594607657]
   - Aug 12 13:53Z — technical-check: DC Chat "Fc crwv 15m" — false-close chart check on Crown (CRWV) 15m; supporting-channel technical observation only, no execution language, no trade action; silent log per HR-1 protocol [$CRWV] [1537096581608767498]
-- Last seen: 2026-08-12T13:54:17Z (Discord Chat supporting — technical chart check on AAOI 4hr)
+- Last seen: 2026-08-12T13:57:07Z (X — ambiguous MSTR short inquiry)
 - **Events (rolling):**
+  - Aug 12 13:57Z — ambiguous: X "If anyone's short mstr, dm me" — reaches out to others shorting MSTR; motivation/intention unclear (considering own short, networking, info-gathering); HR-2 calibration alert sent to Kyle [$MSTR] [2087538877204709511]
   - Aug 12 13:54Z — technical-check: DC Chat "Fc aaoi 4hr" — false-close chart check on AAOI 4hr; supporting-channel technical observation only, no execution language, no trade action; silent log per HR-1 protocol [$AAOI] [1537096893652537425]
   - Aug 12 13:46Z — informational-technical: X "How come nobody is talking about how ugly that sweep was from a technical as well as price-action perspective?" + 2 GOOG 1D charts; sharp liquidation-sweep down + recovery; news catalyst: GOOG >5% down (Walter Bloomberg); market observation/questioning narrative; no personal trade action; alerted [$GOOG] [2087536174357504321]
   - Aug 12 13:34Z — technical-check: DC Chat "Fc SNDK 5m" — false-close chart check on SanDisk 5m; supporting-channel technical observation only, no execution language, no trade action; silent log per HR-1 protocol [$SNDK] [1537091972240642158]
