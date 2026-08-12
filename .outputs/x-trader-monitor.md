@@ -9,3 +9,12 @@
 ↳ _Aligns with bullish-to-mixed group lean on BTC (HCH net-long, bull_genius structural bull, macro cycle bottom thesis). KillaXBT's extreme 2029 target reflects emerging 3-trader convergence on cycle bottoming._
 
 [View post](https://x.com/KillaXBT/status/2087554711209603261)
+🐦 *[X] @swarmister*
+
+$SPCY gained 30% since my previous post. I increased the position size, but it became too large, so I'm scaling it back. Just sold 50% here for a very nice profit.
+
+If the price drops below $100, I'll buy back that amount.
+
+[View post](https://x.com/swarmister/status/2087556109791797383)
+
+↳ _Position management + reload plan below $100 — shows conviction in SPCY despite taking profits._
