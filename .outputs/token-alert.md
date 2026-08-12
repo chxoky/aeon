@@ -1,15 +1,15 @@
-Done. No alerts triggered for any tracked token.
+Done.
 
 ## Summary
 
-**token-alert — 2026-08-11**
+**Token Alert — 2026-08-12**
 
-Fetched current prices via CoinGecko and compared against MEMORY.md thresholds:
+Fetched live prices from CoinGecko for all 3 tracked tokens:
 
-| Token | Price | 24h Change | Threshold | Alert |
-|-------|-------|------------|-----------|-------|
-| BTC | $64,382 | -1.14% | 5% | no |
-| ETH | $1,892.57 | -1.46% | 8% | no |
-| SOL | $76.08 | -1.16% | 10% | no |
+| Token | Price | 24h Change | Threshold | Status |
+|-------|-------|-----------|-----------|--------|
+| BTC | $64,201 | -0.28% | 5% | OK |
+| ETH | $1,913.89 | +1.11% | 8% | OK |
+| SOL | $76.90 | +1.07% | 10% | OK |
 
-All three well within their thresholds — muted chop ahead of tomorrow's CPI print. No notification sent. Prices logged to `memory/logs/2026-08-11.md`.
+No alerts triggered — all tokens well within thresholds. No notifications sent. Prices logged to `memory/logs/2026-08-12.md`.
