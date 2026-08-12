@@ -1,0 +1,44 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "story-link"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "$NVDA\n\nNVDA/SMH ratio breakdown: 0.60 (2024 peak) → 0.3809 (current) = 36% underperformance vs semiconductor sector ETF. Daily chart shows consolidation with support zones at 212/204/196 levels. Sarcastic commentary on corporate sentiment disconnect (Glassdoor CEO meme).\n\nTechnical observation of structural weakness in NVDA relative to broader semiconductor performance — no personal trade action indicated."
+      },
+      "children": []
+    },
+    "story-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2087562045428465686",
+        "source": "X (Twitter)"
+      },
+      "children": []
+    }
+  }
+}

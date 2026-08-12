@@ -210,6 +210,7 @@
   - Aug 11 18:45Z — skip: @0xgoodie @BigDickBull69 reply meme (no financial content) [2087249029541528013]
   - Aug 12 13:29Z — ambiguous-cryptic: "@0xbigmikey" + 2 chart images (XYZ100 HIP-3 Hyperliquid 15m + BTCUSDT Binance 15m); no caption text showing parallel recovery patterns; unclear if bullish confirmation, pattern observation, or trade setup signal; HR-2 calibration sent to Kyle [$XYZ $BTC] [2087531831357010142]
   - Aug 12 14:49Z — informational-sentiment: Fed policy macro context on $IWM smallcaps; Beth Hammack (Cleveland Fed) LinkedIn post on inflation control; restrictive rates longer → sticky regime; Jump-Shark thesis [2087551980088737895]
+  - Aug 12 15:29Z — informational-bearish: X "$NVDA\n\nJust in case" + 3 images (NVDA/SMH weekly ratio downtrend 0.6000→0.3809 showing 36% underperformance vs semis, NVDA daily chart at 223.93 with support zones marked 212/204/196/188.50, Glassdoor CEO meme); technical analysis highlighting NVDA structural weakness relative to semiconductor sector; sarcastic corporate sentiment commentary; no personal trade action; on Kyle's explicit watch list [$NVDA] [2087562045428465686]
 
 ## trading_axe
 - Platforms: X (primary; X-only)
