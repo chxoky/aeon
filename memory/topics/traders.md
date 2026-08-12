@@ -283,6 +283,7 @@
   - Aug 12 12:09Z — ambiguous: "@xbt2027 Pigger*" — cryptic reply to another trader, "Pigger*" meaning unclear; HR-2 calibration pending [$UNKNOWN] [2087511844231475277]
   - Aug 12 12:19Z — ambiguous: reply to @OnlyZen_PK "Yeah…" — cryptic confirmation/agreement, context unavailable; HR-2 calibration pending [$UNKNOWN] [2087514225111371856]
   - Aug 12 15:05Z — trade-partial-tp: SPCY sold 50% of position after 30% gain; increased position then scaled back for safety; reload plan <$100 [2087556109791797383]
+  - Aug 12 15:29Z — ambiguous: "@OnlyZen_PK I bought a few things to keep myself entertained during this slow period in the market" — reply-dependent, execution language but vague (no ticker/size); could be personal items or speculative positions; HR-2 calibration pending [$UNKNOWN] [2087562229474341342]
 
 ## Stoiiic
 - Platforms: X (primary; X-only)
