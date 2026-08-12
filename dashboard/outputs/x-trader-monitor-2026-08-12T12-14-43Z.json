@@ -1,0 +1,46 @@
+{
+  "root": "card1",
+  "state": {},
+  "elements": {
+    "card1": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet1",
+        "link1",
+        "sep1",
+        "commentary1"
+      ]
+    },
+    "tweet1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "I've been shorting every bearish retest since 123K & done it publicly the entire way down.\n\nMy positioning was transparent, my updates consistent, and I stuck to my conviction.\n\nShorting from 120K all the way to 60K is more than enough, I've played this cycle better than 99% of people, and I'm fully satisfied with the gains I've made.\n\nBut you will never see me swing short $BTC down here."
+      }
+    },
+    "link1": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/KillaXBT/status/2087510912618115517"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "commentary1": {
+      "type": "Text",
+      "props": {
+        "text": "↳ Public commitment to long-only going forward. Validates bear-cycle-complete thesis + group bullish convergence.",
+        "variant": "caption"
+      }
+    }
+  }
+}
