@@ -1,11 +1,8 @@
-🐦 *[X] @KillaXBT*
+🔍 *Calibration — @KillaXBT*
 
-They say you should never short a boring market.
+Event: Reply to @kLOTVS on market sentiment
+KillaXBT: "Overconfidence"
 
-You can scalp the entire range and follow the current trend, but all it takes is one candle to erase every little scalp short you've taken.
+Message is one-word, context-dependent. What's your read on what this refers to?
 
-Just remember that.
-
-[View tweet](https://x.com/KillaXBT/status/2087321387174096978)
-
-_Chart shows current choppy BTC structure (63.5K-84K range) validating the boring/consolidation narrative — aligns with ongoing structural bull accumulation thesis._
+[View post](https://x.com/KillaXBT/status/2087333188041376005)

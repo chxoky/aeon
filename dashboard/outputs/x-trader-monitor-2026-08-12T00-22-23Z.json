@@ -1,0 +1,70 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Market sentiment calibration"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_calib",
+        "text_event",
+        "badge_sentiment",
+        "text_context",
+        "link_post"
+      ]
+    },
+    "heading_calib": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration — @KillaXBT",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @kLOTVS on market sentiment",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "badge_sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Overconfidence",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "Message is one-word, context-dependent. What's your read on what this refers to?",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/KillaXBT/status/2087333188041376005"
+      },
+      "children": []
+    }
+  }
+}
