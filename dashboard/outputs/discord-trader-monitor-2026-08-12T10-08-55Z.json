@@ -1,0 +1,114 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "heading_calib",
+        "event_line",
+        "message_section",
+        "sep1",
+        "alert_context",
+        "options_stack",
+        "sep2",
+        "question_text"
+      ]
+    },
+    "heading_calib": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: K]",
+        "level": "h2"
+      }
+    },
+    "event_line": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to own message (context unavailable)"
+      }
+    },
+    "message_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "user_badge",
+        "user_message"
+      ]
+    },
+    "user_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "KillaXBT"
+      }
+    },
+    "user_message": {
+      "type": "Text",
+      "props": {
+        "text": "\"Current thought about BTC & market <@&1411520653000966245>\""
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_context": {
+      "type": "Alert",
+      "props": {
+        "message": "Message is a reply but referenced context is empty. No execution language detected. Unable to classify—is this:",
+        "type": "warning"
+      }
+    },
+    "options_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opt1",
+        "opt2",
+        "opt3"
+      ]
+    },
+    "opt1": {
+      "type": "Text",
+      "props": {
+        "text": "• Conviction shift / market sentiment update?"
+      }
+    },
+    "opt2": {
+      "type": "Text",
+      "props": {
+        "text": "• Position update / trade signal?"
+      }
+    },
+    "opt3": {
+      "type": "Text",
+      "props": {
+        "text": "• Reply to member question (context lost)?"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "question_text": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "lead"
+      }
+    }
+  }
+}
