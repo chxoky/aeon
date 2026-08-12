@@ -1,0 +1,33 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "message",
+        "source"
+      ]
+    },
+    "message": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Chase",
+        "handle": "TradFi",
+        "text": "And for what it's worth the S&P is sort of reinforcing my uncertainty , look at the candles of the last six trading days"
+      },
+      "children": []
+    },
+    "source": {
+      "type": "Text",
+      "props": {
+        "text": "via Discord supporting channel — market sentiment on S&P structure",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
