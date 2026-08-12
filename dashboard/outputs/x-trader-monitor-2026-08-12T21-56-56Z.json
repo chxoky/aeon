@@ -1,0 +1,131 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "KAITO Short — +68% Profit Closed"
+      },
+      "children": [
+        "tweet_stoiiic",
+        "sep1",
+        "stats_section",
+        "sep2",
+        "convergence_section",
+        "sep3",
+        "link_section"
+      ]
+    },
+    "tweet_stoiiic": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "@Stoiiic",
+        "text": "KAITO short — closed at massive profit (~68% from peak).\n\nTrader retrospectively describes shorting a random rectangle resistance level they'd drawn on the chart earlier. Chart shows capitulation collapse from ~1.40 peak down to ~0.45 current (4H). Perfect technical setup execution."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stats_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_profit",
+        "stat_peak",
+        "stat_current"
+      ]
+    },
+    "stat_profit": {
+      "type": "Stat",
+      "props": {
+        "label": "Profit from Peak",
+        "value": "+68%",
+        "trend": "up"
+      }
+    },
+    "stat_peak": {
+      "type": "Stat",
+      "props": {
+        "label": "Peak",
+        "value": "1.40"
+      }
+    },
+    "stat_current": {
+      "type": "Stat",
+      "props": {
+        "label": "Current",
+        "value": "0.45"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "convergence_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_convergence",
+        "convergence_info",
+        "stat_hch"
+      ]
+    },
+    "heading_convergence": {
+      "type": "Heading",
+      "props": {
+        "text": "Cross-Trader Convergence",
+        "level": "h3"
+      }
+    },
+    "convergence_info": {
+      "type": "Text",
+      "props": {
+        "text": "Matches HCH's KAITO short (Jul 27 entry, now +58.5% profit). Two-trader bearish KAITO thesis validated."
+      }
+    },
+    "stat_hch": {
+      "type": "Stat",
+      "props": {
+        "label": "HCH Position Profit",
+        "value": "+58.5%",
+        "trend": "up"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_post"
+      ]
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Stoiiic/status/2087658401815740693"
+      }
+    }
+  }
+}
