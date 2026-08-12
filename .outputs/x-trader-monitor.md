@@ -1,14 +1,13 @@
-🐦 *[X] @Wild_Randomness*
+🐦 *[X] @KillaXBT*
 
-$LIT consolidation after July spike rejection ($2.8 peak); oscillating mean-reversion pattern visible with RSI divergence + volume profile clustering at support zones (2.4, 1.9, 1.7, 1.5, 1.35).
+"Buy when there's blood in the streets, even if the blood is your own"
 
-Current price: $2.233 (-7.73% 24h) at point of visual consolidation with support cluster.
+At the lows, people want lower. At the highs, people want higher.
 
-**Cross-trader context:** HeartCanHodl holds strong short conviction on LIT (Jul 27 — '2nd best trade in the market is short $LIT'); charts validate technical structure alignment (spike rejection + consolidation supports bearish trap scenario OR mean-reversion bullish setup depending on breakdown direction).
+Stop being retail... $BTC
 
-[View tweet](https://x.com/Wild_Randomness/status/2087588181688623460)
-$IWM — Would like to see 200d test by late September (wishful thinking)
+[Fear & Greed Score chart attached (2018-2026): Current extreme fear zone (red) validates historical pattern of recovery opportunities at market bottoms]
 
-200-day moving average retest being tracked as technical level target on the Russell 2000 ETF. Fits WR's equities/vol specialist focus and prior IWM analysis (Jul 18: triple bull div daily, bearish on rally sustainability via low correlation phenomenon).
+↳ _Aligns with group bullish-to-mixed BTC consensus (HCH net-long, bull_genius structural bull, macro accumulation regime). Chart provides Fear & Greed evidence of capitulation buying zone._
 
-[View tweet](https://x.com/Wild_Randomness/status/2087588819747090880)
+[View post](https://x.com/KillaXBT/status/2087591191193809373)

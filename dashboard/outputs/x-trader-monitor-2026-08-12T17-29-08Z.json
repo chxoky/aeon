@@ -1,0 +1,125 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor",
+        "description": "Trading sentiment and market analysis"
+      },
+      "children": [
+        "tweet-card",
+        "sep1",
+        "chart-section",
+        "sep2",
+        "analysis-section",
+        "sep3",
+        "link-view"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "Buy when there's blood in the streets, even if the blood is your own\n\nAt the lows, people want lower. At the highs, people want higher.\n\nStop being retail... $BTC"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "chart-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "chart-heading",
+        "chart-description"
+      ]
+    },
+    "chart-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Fear & Greed Score Analysis",
+        "level": "h3"
+      }
+    },
+    "chart-description": {
+      "type": "Text",
+      "props": {
+        "text": "Chart (2018-2026): Current extreme fear zone (red) validates historical pattern of recovery opportunities at market bottoms",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "analysis-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "consensus-text",
+        "badges-group"
+      ]
+    },
+    "consensus-text": {
+      "type": "Text",
+      "props": {
+        "text": "Aligns with group bullish-to-mixed BTC consensus. Chart provides Fear & Greed evidence of capitulation buying zone.",
+        "variant": "body"
+      }
+    },
+    "badges-group": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge1",
+        "badge2",
+        "badge3"
+      ]
+    },
+    "badge1": {
+      "type": "Badge",
+      "props": {
+        "text": "HCH net-long",
+        "variant": "secondary"
+      }
+    },
+    "badge2": {
+      "type": "Badge",
+      "props": {
+        "text": "bull_genius structural bull",
+        "variant": "secondary"
+      }
+    },
+    "badge3": {
+      "type": "Badge",
+      "props": {
+        "text": "Macro accumulation regime",
+        "variant": "secondary"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "link-view": {
+      "type": "Link",
+      "props": {
+        "label": "View post on X",
+        "href": "https://x.com/KillaXBT/status/2087591191193809373"
+      }
+    }
+  }
+}
