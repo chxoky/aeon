@@ -1,0 +1,140 @@
+{
+  "root": "root_card",
+  "state": {},
+  "elements": {
+    "root_card": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor — BTC Bull Thesis"
+      },
+      "children": [
+        "heading",
+        "sep1",
+        "tweet_card",
+        "sep2",
+        "chart_section",
+        "sep3",
+        "stats_section",
+        "sep4",
+        "analysis_section",
+        "sep5",
+        "link_button"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "BTC Bull Thesis — 0.16M Target by 2029",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "This is literally going to be the best buy of the decade. Everyone's pivoting to AI, and it's going to be hilarious watching $BTC rip faces off a few years from now. And remember, come 2029, the people pivoting to AI will be buying above 0.16M per coin."
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "chart_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "chart_label",
+        "chart_text"
+      ]
+    },
+    "chart_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart Context",
+        "level": "h4"
+      }
+    },
+    "chart_text": {
+      "type": "Text",
+      "props": {
+        "text": "Long-term BTC price history (2015-2027) showing multi-cycle accumulation structure. Chart validates structural recovery from 2024-2025 lows."
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "stats_section": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "current_price_stat",
+        "target_price_stat"
+      ]
+    },
+    "current_price_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Current BTC Price",
+        "value": "$64,137.80"
+      }
+    },
+    "target_price_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "2029 Target (KillaXBT)",
+        "value": "$160,000"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "analysis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "analysis_label",
+        "analysis_text"
+      ]
+    },
+    "analysis_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Analysis & Alignment",
+        "level": "h4"
+      }
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Aligns with bullish-to-mixed group lean on BTC (HCH net-long, bull_genius structural bull, macro cycle bottom thesis). KillaXBT's extreme 2029 target reflects emerging 3-trader convergence on cycle bottoming."
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {}
+    },
+    "link_button": {
+      "type": "Link",
+      "props": {
+        "label": "View post on X",
+        "href": "https://x.com/KillaXBT/status/2087554711209603261"
+      }
+    }
+  }
+}
