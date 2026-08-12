@@ -1,0 +1,115 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration — @Wild_Randomness"
+      },
+      "children": [
+        "heading_event",
+        "badge_context",
+        "separator_1",
+        "section_post",
+        "separator_2",
+        "section_background",
+        "separator_3",
+        "alert_classification"
+      ]
+    },
+    "heading_event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event: Reply to @Josh_Rayner on NVDA",
+        "level": "h2"
+      }
+    },
+    "badge_context": {
+      "type": "Badge",
+      "props": {
+        "text": "Kyle's explicit watch-list ticker",
+        "variant": "secondary"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section_post": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "label_post",
+        "text_post"
+      ]
+    },
+    "label_post": {
+      "type": "Text",
+      "props": {
+        "text": "Post:",
+        "variant": "lead"
+      }
+    },
+    "text_post": {
+      "type": "Text",
+      "props": {
+        "text": "Mainly wrt NVDA dominance",
+        "variant": "body"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section_background": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "label_context",
+        "text_timestamp",
+        "text_analysis_detail"
+      ]
+    },
+    "label_context": {
+      "type": "Text",
+      "props": {
+        "text": "Context:",
+        "variant": "lead"
+      }
+    },
+    "text_timestamp": {
+      "type": "Text",
+      "props": {
+        "text": "Earlier Aug 12 15:29Z: bearish NVDA technical analysis",
+        "variant": "body"
+      }
+    },
+    "text_analysis_detail": {
+      "type": "Text",
+      "props": {
+        "text": "+3 charts showing -36% underperformance vs SMH semis, sarcastic CEO sentiment",
+        "variant": "caption"
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "alert_classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's Josh asking about, and what does \"dominance\" refer to (narrative/technical/valuation)? Is this continuation of the bearish thesis or a different read?",
+        "type": "warning"
+      }
+    }
+  }
+}
