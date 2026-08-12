@@ -1,0 +1,277 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "market context — 2026-08-12"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "section_take",
+        "section_prices",
+        "section_breadth",
+        "separator_1",
+        "section_narrative",
+        "separator_2",
+        "section_binary",
+        "section_market"
+      ]
+    },
+    "section_take": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "label_take",
+        "badge_chop",
+        "text_conviction"
+      ]
+    },
+    "label_take": {
+      "type": "Text",
+      "props": {
+        "text": "take:",
+        "variant": "body"
+      }
+    },
+    "badge_chop": {
+      "type": "Badge",
+      "props": {
+        "text": "chop"
+      }
+    },
+    "text_conviction": {
+      "type": "Text",
+      "props": {
+        "text": "(conviction medium)",
+        "variant": "caption"
+      }
+    },
+    "section_prices": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat_btc",
+        "stat_eth"
+      ]
+    },
+    "stat_btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$63,635",
+        "delta": "-0.5%",
+        "trend": "down"
+      }
+    },
+    "stat_eth": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$1,885",
+        "delta": "+0.7%",
+        "trend": "up"
+      }
+    },
+    "section_breadth": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stack_fg",
+        "stack_breadth_tvl"
+      ]
+    },
+    "stack_fg": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "label_fg",
+        "stat_fg"
+      ]
+    },
+    "label_fg": {
+      "type": "Text",
+      "props": {
+        "text": "Fear & Greed",
+        "variant": "caption"
+      }
+    },
+    "stat_fg": {
+      "type": "Stat",
+      "props": {
+        "value": "27",
+        "delta": "Fear",
+        "trend": "down"
+      }
+    },
+    "stack_breadth_tvl": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat_breadth",
+        "text_tvl"
+      ]
+    },
+    "stat_breadth": {
+      "type": "Stat",
+      "props": {
+        "label": "breadth",
+        "value": "12/20"
+      }
+    },
+    "text_tvl": {
+      "type": "Text",
+      "props": {
+        "text": "TVL chains flat",
+        "variant": "body"
+      }
+    },
+    "separator_1": {
+      "type": "Separator"
+    },
+    "section_narrative": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stack_defi",
+        "text_xmr"
+      ]
+    },
+    "stack_defi": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "label_narrative",
+        "text_defi",
+        "badge_rising"
+      ]
+    },
+    "label_narrative": {
+      "type": "Text",
+      "props": {
+        "text": "top narrative:",
+        "variant": "body"
+      }
+    },
+    "text_defi": {
+      "type": "Text",
+      "props": {
+        "text": "DeFi rotation",
+        "variant": "body"
+      }
+    },
+    "badge_rising": {
+      "type": "Badge",
+      "props": {
+        "text": "rising"
+      }
+    },
+    "text_xmr": {
+      "type": "Text",
+      "props": {
+        "text": "XMR +13% 7d",
+        "variant": "caption"
+      }
+    },
+    "separator_2": {
+      "type": "Separator"
+    },
+    "section_binary": {
+      "type": "Alert",
+      "props": {
+        "title": "hot binary: CPI 8:30 ET today",
+        "message": "consensus 3.4% — regime-setter",
+        "type": "warning"
+      }
+    },
+    "section_market": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "label_market",
+        "stack_fed"
+      ]
+    },
+    "label_market": {
+      "type": "Text",
+      "props": {
+        "text": "hot market:",
+        "variant": "body"
+      }
+    },
+    "stack_fed": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "text_fed_contract",
+        "badge_yes",
+        "stat_fed_prob",
+        "text_fed_vol"
+      ]
+    },
+    "text_fed_contract": {
+      "type": "Text",
+      "props": {
+        "text": "\"Fed +25bps Sep\"",
+        "variant": "body"
+      }
+    },
+    "badge_yes": {
+      "type": "Badge",
+      "props": {
+        "text": "YES",
+        "variant": "secondary"
+      }
+    },
+    "stat_fed_prob": {
+      "type": "Stat",
+      "props": {
+        "value": "37.5%"
+      }
+    },
+    "text_fed_vol": {
+      "type": "Text",
+      "props": {
+        "text": "($577K vol)",
+        "variant": "caption"
+      }
+    }
+  }
+}

@@ -15,7 +15,7 @@ Autonomous trading-signal agent running on GitHub Actions via Claude Code. Monit
 ## Active Topics
 - [Trader State](topics/traders.md) — live per-trader positions, last-seen. (Rebuilt 2026-07-14 by trader-bootstrap; entries since flow via monitors + traders_update.txt.)
 - [Ticker Focus](topics/ticker-focus.md) — overlap/contested tickers, Kyle's watch list. Rebuilt 2026-07-14.
-- [Market Context](topics/market-context.md) — latest regime snapshot (Aug 11: BTC $64,249 (-1.1%), chop (low conviction), F&G 29 Fear, breadth 9/20, DEX vol $6.29B; CPI Aug 12 binary tomorrow; DeFi rotation rising (LINK/CRV/ICP 3rd day); Fed hike 38.5% repriced pre-CPI; XMR +9.2% 7d still leading).
+- [Market Context](topics/market-context.md) — latest regime snapshot (Aug 12: BTC $63,635 (-0.5%), chop (medium conviction), F&G 27 Fear, breadth 12/20, DEX vol $5.65B; CPI binary 8:30 ET today consensus 3.4%; DeFi rotation 4th day (LINK +6.7% 7d); Fed hike 37.5% YES; XMR +13.0% 7d leading; Hormuz disruption 96% probability through Aug).
 - [Active Trades](topics/active-trades.md) — Kyle's mirror decisions. As of Jul 22: NO open Kraken mirrors; Chase SNDK/MU approvals never given (Chase has since TP'd most).
 
 ## Live Stack (verified 2026-07-21)
@@ -33,6 +33,7 @@ Autonomous trading-signal agent running on GitHub Actions via Claude Code. Monit
 | SOL   | solana      | 10%             |
 
 ## Recent Log Highlights
+- [2026-08-12](logs/2026-08-12.md) — chop; BTC $63,635 (-0.5%); breadth 12/20 (improved); F&G 27; CPI binary 8:30 ET today; LINK +6.7% 7d / XMR +13% 7d; Hormuz 96% disruption through Aug; ETF inflows $853M week
 - [2026-08-11](logs/2026-08-11.md) — chop (borderline risk-off); BTC $64,031 (-1.85%) cracked $65K; breadth 7/20; F&G 29; DEX vol +43% spike on CPI-eve; XMR +9.1% 7d sole outperformer; CYS ZK-prover 2nd spike +40.9%; Fed rate markets dominate Polymarket
 - [2026-08-10](logs/2026-08-10.md) — chop regime (breadth 10/20); BTC $65,251 (+0.8%); XMR +4.0% 24h leading privacy; Clarity Act failed Senate vote → delayed Sept 14; CPI Aug 12 binary 2 days out
 - [2026-08-08](logs/2026-08-08.md) — chop regime (breadth 13/20); BTC $64,970 flat; HCH expanded shorts (SOL/PEPE/SPCX); WR-BTC-PUTS pending; CYS [BREAKOUT][PUMP-RISK] ZK prover; KAITO −14.4%/BONK −10.8%; CPI Aug 12 primary binary

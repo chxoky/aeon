@@ -1,79 +1,80 @@
-# Market Context (as of 2026-08-11)
+# Market Context (as of 2026-08-12)
 
-> **Take:** chop — BTC -1.1% 24h to $64,249 with breadth recovering to 9/20 green but F&G anchored at 29 Fear; pre-CPI paralysis intact as market reprices Fed path ahead of the Aug 12 8:30 ET print. Conviction: low.
+> **Take:** chop — BTC -0.5% 24h at $63,635 with breadth recovering to 12/20 but F&G sliding to 27 Fear; CPI binary lands today at 8:30 ET (consensus 3.4%), market pinned in wait-mode for the fifth session. Conviction: medium.
 
 ## Signal Snapshot
-- BTC $64,249 (-1.1% 24h, +0.8% 7d) · dominance 56.52% (-0.02 pp 24h)
-- ETH $1,888 (-1.6% 24h, +1.0% 7d) · ETH/BTC 0.02938
-- SOL $75.87 (-1.4% 24h, +2.9% 7d)
-- Total mcap $2.28T (-0.36% 24h) · DEX vol $6.29B 24h
-- Breadth: 9/20 green 24h · 11/20 green 7d
-- Fear & Greed: 29 (Fear) — yesterday 30
+- BTC $63,635 (-0.5% 24h, -1.0% 7d) · dominance 56.3% (-0.22 pp 24h)
+- ETH $1,885.55 (+0.7% 24h, +0.8% 7d) · ETH/BTC 0.02963
+- SOL $75.98 (+0.3% 24h, +2.6% 7d)
+- Total mcap $2.267T (-0.57% 24h) · DEX vol $5.65B 24h
+- Breadth: 12/20 green 24h · 11/20 green 7d
+- Fear & Greed: 27 (Fear) — yesterday 29
 
 ## What Changed Since Last Refresh
-- **Breadth ticked up 7/20 → 9/20** — LINK +4.2% and RAIN +2.1% added to the green count; still well short of the 14/20 risk-on threshold but breadth stopped deteriorating.
-- **Polymarket Fed +25bps hike probability softened 41.5% → 38.5%** — pre-CPI repricing; "no change" now 61.5% modal Sep outcome. Sharpest single-day shift this week on the market's highest-volume question.
-- **Clarity Act dropped 25.5% → 21.5% YES** — continued post-Senate-vote decay.
-- **DeFi divergence gaining breadth** — CRV +8.24%, ICP +4.03%, LINK +4.2% all trending green on a red-tape session; 3rd consecutive day of DeFi/infra outperformance vs major caps.
-- Quiet on price — BTC $64,031 → $64,249 (+0.3%), F&G 30→29 flat; no major price or regime thresholds triggered.
+- **CPI day has arrived (8:30 ET today):** The Aug 12 binary is live — consensus 3.4% YoY (prior 3.5%); soft print likely catalyzes breadth expansion past 14/20 and BTC toward $66.9K–$70K; hot print tests $62.7K monthly open and re-prices Fed hike above 50%.
+- **Breadth improved 9→12/20** — BNB (+1.9%), XRP (+1.0%), TRX (+1.3%), DOGE (+2.2%) all turned green; broader alt participation though still well short of 14/20 risk-on threshold.
+- **BTC 7d flipped to -1.0%** (was +0.8%) — rolling window now captures early-August weakness; weekly structure deteriorating even as daily price stabilizes.
+- **DEX vol retreated $6.29B → $5.65B (-10%)** — post-CPI-eve vol spike normalized; today's level 5.2% below 7d average ($5.96B/day).
+- **XMR 7d extended to +13.0%** (was +9.2%) — 4th consecutive session of privacy outperformance; ZEC -7.7% 7d confirms concentration in Monero specifically.
 
 ## Active Narratives
-- **CPI binary / pre-event compression** — phase: peak. Evidence: Aug 12 8:30 ET CPI tomorrow; Polymarket "Fed +25bps after Sep" 38.5% YES with $1.05M 24h vol is the market's most-traded macro question; breadth and vol signals both in holding pattern.
-- **DeFi sector rotation** — phase: rising. Evidence: LINK +4.2% 24h (#19 mcap), CRV +8.24% trending, ICP +4.03% trending — three DeFi/infra names outperforming on broad red-tape session, 3rd consecutive day of divergence.
-- **XMR privacy dominance** — phase: rising. Evidence: XMR $392.90 (-0.1% 24h, +9.2% 7d) — holding 7d gains through another red session; ZEC -4.3% 24h ($487.09) confirms single-asset sector concentration persists.
-- **Micro-cap spike wave** — phase: emerging. Evidence: DOS/DAPPOS +71.49% 24h (#282), FWA +39.98% (#563) new trending entries today; CASHCAT +6.24% bouncing after yesterday's -6.1% reversal — scattered pattern, no unified narrative.
+- **CPI binary / event-day** — phase: peak. Evidence: CPI 8:30 ET today; Polymarket Fed +25bps 37.5% YES ($577K 24h vol, down from 41.5% two days ago); BTC in $63.5K–$64.5K range for 5th consecutive session with below-avg DEX vol.
+- **DeFi/oracle rotation** — phase: rising. Evidence: LINK +3.8% 24h, +6.7% 7d (#18 mcap, CoinGecko trending today); Aave V3 TVL +0.91% 7d; 4th consecutive day of DeFi names outperforming majors on chop tape.
+- **XMR privacy dominance** — phase: rising. Evidence: XMR +0.5% 24h, +13.0% 7d ($397.03) — highest 7d return in top-20 for 4th consecutive session; ZEC -7.7% 7d confirms sector narrowing to Monero specifically.
+- **Micro-cap speculative wave** — phase: emerging. Evidence: HMM +124.8% 24h (#867, CoinGecko trending #1); HOLO +15.1% (#187) and PONS +16.4% (#569) also trending — scattered pumps, no unified narrative or sector thesis.
+- **Geopolitical tail risk (Hormuz)** — phase: emerging. Evidence: Polymarket "Strait of Hormuz traffic returns to normal by Aug 31" at 3.95% YES ($624K 24h vol, highest vol among qualifying markets) — market pricing ~96% probability of continued disruption through August.
 
 ## Top DeFi Protocols (TVL, 7d change)
-- Lido: $17.90B (+2.31%)
-- Aave V3: $14.16B (+1.39%)
-- SSV Network: $9.38B (carried from prior)
+- Lido: $17.9B (+1.20%)
+- Aave V3: $14.1B (+0.91%)
+- SSV Network: $9.4B (+0.94%)
 - Morpho Blue: $7.95B (carried from prior)
 - WBTC: $7.41B (carried from prior)
 
 ## Chain Flow (top 5 by TVL, vs prior snapshot)
-- Ethereum: $41.49B (+0.3% vs prior $41.38B)
-- BSC: $4.97B (+0.6% vs prior $4.94B)
-- Solana: $4.84B (flat vs prior $4.83B)
-- Tron: $4.84B (+0.8% vs prior $4.80B)
-- Base: $4.65B (+0.7% vs prior $4.62B)
+- Ethereum: $41.37B (-0.3% vs prior $41.49B)
+- BSC: $4.99B (+0.4% vs prior $4.97B)
+- Solana: $4.85B (+0.2% vs prior $4.84B)
+- Tron: $4.81B (-0.6% vs prior $4.84B)
+- Base: $4.62B (-0.6% vs prior $4.65B)
 
 ## Stablecoins
-Total top 5: $269.8B. USDT $182.1B · USDC $72.2B · USDS $6.64B · DAI $4.80B · USD1 $4.03B — combined share of mcap ~11.8%.
+Total top 5: $270.6B (+0.3% vs prior $269.8B). USDT $183.0B · USDC $72.2B · USDS $6.6B · DAI $4.8B · USD1 $4.0B — combined share of mcap ~11.9%.
 
 ## Trending (CoinGecko)
-- DOS (DAPPOS) — #282, +71.49% 24h [PUMP-RISK — no clear catalyst]
-- FWA (Fake World Assets) — #563, +39.98% 24h [PUMP-RISK]
-- CRV (Curve DAO) — #105, $0.266, +8.24% 24h [DeFi rotation signal]
-- CASHCAT — #193, $0.161, +6.24% 24h [bouncing after -6.1% yesterday — micro-cap chop]
-- ICP (Internet Computer) — #56, $2.30, +4.03% 24h [DeFi/infra rotation]
-- LINK (Chainlink) — #19, $8.65, +4.2% 24h [oracle infra; DeFi rotation leader]
-- PENGU (Pudgy Penguins) — #106, $0.0065, -2.63% 24h [NFT-linked; continued fading]
-- PONS — #602, $0.0447, +0.89% 24h [prior micro-cap spike fading]
-- PUMP (Pump.fun) — #63, $0.0027, +0.23% 24h [Solana launchpad; holding flat]
-- VELVET — #130, +48.35% 24h [token migration — not a real price move]
-- BEAT (Audiera) — #138, -67.46% 24h [token migration — not a real price move]
+- HMM (Thinking Cat) — #867, $0.0175, +124.8% 24h [PUMP-RISK — no clear catalyst]
+- PONS — #569, $0.0489, +16.4% 24h [micro-cap spike continuing]
+- HOLO — #187, $0.0807, +15.1% 24h [micro-cap pump]
+- LINK (Chainlink) — #18, $8.72, +3.8% 24h [DeFi rotation leader; also top-20 by mcap]
+- PI (PI Network) — #65, $0.0891, +2.3% 24h [continued accumulation chatter]
+- XRP — #6, $1.019, +1.5% 24h [major; retail attention on CPI day]
+- LUNC (Terra Luna Classic) — #129, $0.000051, +2.1% 24h [retail speculation]
+- CYS — #158, $1.264, -5.9% 24h [cooling from prior ZK-prover spike]
+- PENGU (Pudgy Penguins) — #105, $0.0064, -0.4% 24h [NFT-linked; continued fading]
+- TUT — #356, $0.0765, -27.0% 24h [token migration — not a real price move]
 
 ## Prediction Markets (Polymarket, top by 24h vol)
 | Market | YES% | 24h Vol | Liquidity |
 |--------|------|---------|-----------|
-| Will the Fed increase interest rates by 25 bps after the September 2026 meeting? | 38.5% | $1.05M | $487K |
-| Clarity Act (H.R.3633) signed into law in 2026? | 21.5% | $878K | $368K |
+| Strait of Hormuz traffic returns to normal by Aug 31? | 3.95% | $624K | $658K |
+| Will the Fed increase rates by 25 bps after Sep 2026? | 37.5% | $577K | $503K |
+| Clarity Act (H.R.3633) signed into law in 2026? | 21.5% | $512K | $366K |
 
-*Fed hike probability down to 38.5% from 41.5% yesterday — "no change" now 61.5% modal Sep outcome; meaningful pre-CPI repricing. Clarity Act at 21.5% continues post-Senate-vote decay.*
+*Hormuz at 3.95% YES = market pricing ~96% chance of continued disruption through August — highest-vol qualifying market. Fed hike down to 37.5% from 41.5% two days ago; modal Sep outcome is "no change" at 62.5%. Clarity Act stable at 21.5% post-Senate-vote decay.*
 
 ## Macro Catalysts (next 48h)
-- **Aug 12 CPI (tomorrow, 8:30 ET):** Consensus 3.4% YoY (prior 3.5%). Full regime binary: soft print → breadth likely expands past 14/20, risk-on, BTC targets $66.9K–$67K; hot print → Sep hike probability bounces back above 50%, tests $62.7K monthly open. All current positioning reflects pre-event paralysis, not a directional thesis.
-- **BTC ETF flows:** $211.5M net inflows yesterday (IBIT $170.3M); zero outflow days in August; institutional floor present. Strategy reportedly selling BTC 4th consecutive week — floor present but not uncontested.
-- **Bank of Japan carry risk:** Hawkish BoJ adds tail risk to any post-CPI bounce; yen carry unwind could offset soft-CPI upside.
-- **Aug 13 PPI:** Follow-through wholesale inflation read (prior 5.5% YoY); confirms or diverges from CPI.
+- **Aug 12 CPI (today, 8:30 ET):** Consensus 3.4% YoY (prior 3.5%). Binary regime-setter: soft print → breadth expansion, risk-on, BTC $66.9K–$70K target; hot print → Fed hike odds bounce above 50%, $62.7K monthly open in play. This is the only trade today.
+- **BTC ETF flows (week of Aug 5–8):** $853.54M net inflows (IBIT $693M) — strongest weekly inflow since mid-April; institutional floor reinforced.
+- **Strait of Hormuz (ongoing):** Energy tail risk; Polymarket pricing 96% probability of continued disruption through August, potential offset to any post-CPI risk-on move via commodity pressure.
+- **Aug 13 PPI:** Follow-through wholesale inflation read (prior 5.5% YoY); confirms or diverges from CPI narrative.
 
 ## Implications for Downstream Skills
-- **token-pick:** CPI eve — no new large-cap entries. LINK is cleanest rotation signal (+4.2% 24h, +5.7% 7d, trending). XMR holds best 7d R/R (+9.2% 7d). Post-CPI soft → ETH at $1,888 is best major-cap recovery candidate; hot → stand down, $62.7K in play.
-- **narrative-tracker:** DeFi rotation gaining legs (LINK/CRV/ICP green 3rd day vs red tape) — upgrade to rising post-CPI confirmation. Micro-cap wave (DOS/FWA) = scattered PUMP-RISK, no unified thesis yet. CPI print tomorrow sets the 5–7 day narrative arc.
+- **token-pick:** Hold off on new entries until CPI resolves. Post-soft print: LINK ($8.72, +6.7% 7d) and XMR ($397, +13.0% 7d) are strongest continuation candidates; ETH ($1,885) is best major-cap recovery play. Post-hot print: stand down, $62.7K primary support in play.
+- **narrative-tracker:** DeFi rotation (LINK/Aave) now 4-day streak — upgrade to established rising post-CPI confirmation. XMR privacy dominance narrowing to single-asset, not sector-wide. Micro-cap wave (HMM/HOLO/PONS) = PUMP-RISK cluster, no thesis. CPI print sets 5–7 day narrative arc.
 
 ## Token Picks Made
 | Date | Token | Price | Thesis |
 
 ---
-*Sources — btc/eth/sol/global/trending: CoinGecko · defi protocols: DeFiLlama (Lido/Aave refreshed; SSV/Morpho/WBTC carried from prior) · chains: DeFiLlama · stablecoins: DeFiLlama · sentiment: alternative.me · markets: Polymarket · catalysts: WebSearch*
-*Source status: coingecko=ok defillama=ok(CEX entries filtered) fng=ok polymarket=ok(2 qualifying macro markets) websearch=ok*
+*Sources — btc/eth/sol/global/trending: CoinGecko · defi protocols: DeFiLlama (Lido/Aave/SSV refreshed; Morpho/WBTC carried from prior) · chains: DeFiLlama · stablecoins: DeFiLlama · sentiment: alternative.me · markets: Polymarket · catalysts: WebSearch*
+*Source status: coingecko=ok defillama=ok(CEX entries filtered) fng=ok polymarket=ok(3 qualifying markets) websearch=ok*
