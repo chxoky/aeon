@@ -1,0 +1,64 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "🐦 X Trader Monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "source_badge",
+        "tweet_card",
+        "view_link",
+        "separator_1",
+        "commentary_text"
+      ]
+    },
+    "source_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "[X] @Crypto_Chase",
+        "variant": "secondary"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Crypto Chase",
+        "handle": "Crypto_Chase",
+        "text": "Memecoins have little to do with trading, more to do with attention, n much more to do with phone calls n side wallets\n\nIf memecoins were about trading, then the same people who publicly profit on here consistently would shit on you in \"memecoin trading\" too"
+      }
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Crypto_Chase/status/2087532321150763035"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "commentary_text": {
+      "type": "Text",
+      "props": {
+        "text": "Market commentary on memecoin trading skepticism; attention-driven vs edge-based differentiation; informational only.",
+        "variant": "muted"
+      }
+    }
+  }
+}
