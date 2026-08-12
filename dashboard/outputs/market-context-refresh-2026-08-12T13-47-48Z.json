@@ -1,0 +1,277 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Market Context",
+        "description": "2026-08-12"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stack_take",
+        "sep_1",
+        "stack_prices",
+        "sep_2",
+        "stack_breadth",
+        "sep_3",
+        "stack_narratives",
+        "sep_4",
+        "stack_hotmarket"
+      ]
+    },
+    "stack_take": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "text_take_label",
+        "badge_chop",
+        "badge_conviction",
+        "text_take_context"
+      ]
+    },
+    "text_take_label": {
+      "type": "Text",
+      "props": {
+        "text": "Take:",
+        "variant": "body"
+      }
+    },
+    "badge_chop": {
+      "type": "Badge",
+      "props": {
+        "text": "chop",
+        "variant": "default"
+      }
+    },
+    "badge_conviction": {
+      "type": "Badge",
+      "props": {
+        "text": "conviction medium",
+        "variant": "secondary"
+      }
+    },
+    "text_take_context": {
+      "type": "Text",
+      "props": {
+        "text": "CPI resolved in-line, no breakout",
+        "variant": "body"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_prices": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat_btc",
+        "stat_eth",
+        "stat_fg"
+      ]
+    },
+    "stat_btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$63,863",
+        "delta": "-0.5%",
+        "trend": "down"
+      }
+    },
+    "stat_eth": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$1,902",
+        "delta": "+0.8%",
+        "trend": "up"
+      }
+    },
+    "stat_fg": {
+      "type": "Stat",
+      "props": {
+        "label": "Fear & Greed",
+        "value": "27",
+        "delta": "Fear"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_breadth": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "progress_breadth",
+        "stat_btc_7d",
+        "stack_alts"
+      ]
+    },
+    "progress_breadth": {
+      "type": "Progress",
+      "props": {
+        "label": "Breadth",
+        "value": 13,
+        "max": 20
+      }
+    },
+    "stat_btc_7d": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC 7d",
+        "value": "0.0%",
+        "delta": "was -1.0%"
+      }
+    },
+    "stack_alts": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "text_alts_label",
+        "stat_eth_7d",
+        "stat_sol_7d",
+        "stat_link_7d"
+      ]
+    },
+    "text_alts_label": {
+      "type": "Text",
+      "props": {
+        "text": "Alts building (7d):",
+        "variant": "body"
+      }
+    },
+    "stat_eth_7d": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "+2.2%",
+        "trend": "up"
+      }
+    },
+    "stat_sol_7d": {
+      "type": "Stat",
+      "props": {
+        "label": "SOL",
+        "value": "+3.9%",
+        "trend": "up"
+      }
+    },
+    "stat_link_7d": {
+      "type": "Stat",
+      "props": {
+        "label": "LINK",
+        "value": "+8.6%",
+        "trend": "up"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_narratives": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_narratives_label",
+        "text_narrative_defi",
+        "text_narrative_ai"
+      ]
+    },
+    "text_narratives_label": {
+      "type": "Text",
+      "props": {
+        "text": "Top Narratives:",
+        "variant": "lead"
+      }
+    },
+    "text_narrative_defi": {
+      "type": "Text",
+      "props": {
+        "text": "DeFi TVL accumulation day 5 (rising)",
+        "variant": "body"
+      }
+    },
+    "text_narrative_ai": {
+      "type": "Text",
+      "props": {
+        "text": "AI agents emerging (VIRTUAL +4.8%)",
+        "variant": "body"
+      }
+    },
+    "sep_4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_hotmarket": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_hotmarket_label",
+        "progress_clarity",
+        "progress_hormuz"
+      ]
+    },
+    "text_hotmarket_label": {
+      "type": "Text",
+      "props": {
+        "text": "Hot Markets:",
+        "variant": "lead"
+      }
+    },
+    "progress_clarity": {
+      "type": "Progress",
+      "props": {
+        "label": "Clarity Act: 17.5% YES (-4pp today)",
+        "value": 17.5,
+        "max": 100
+      }
+    },
+    "progress_hormuz": {
+      "type": "Progress",
+      "props": {
+        "label": "Hormuz Sep 30: 15.5% YES",
+        "value": 15.5,
+        "max": 100
+      }
+    }
+  }
+}
