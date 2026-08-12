@@ -1,0 +1,48 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet",
+        "link",
+        "separator",
+        "analysis"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "Make sure to remember all the bears.\n\nMake sure to remember who was shorting 64K 2 years from now chasing scraps.\n\nMake sure to remember every account that flip-flopped all over the place.\n\nMake sure to remember the ones who somehow claim they're long‚ even though they were short the moment we started pushing higher.\n\nBecause I will‚ $BTC"
+      },
+      "children": []
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2087488799265677813"
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "analysis": {
+      "type": "Text",
+      "props": {
+        "text": "↳ Reinforces KillaXBT's structural bull conviction (bear cycle ~80% complete) + lines up with bull_genius bullish structural thesis. BTC group sentiment remains bullish.",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
