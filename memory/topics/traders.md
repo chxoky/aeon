@@ -7,6 +7,7 @@
 - Calibration: RESOLVED "Fc" = false-close TA check, not trade signal. PENDING Aug 07 12:40Z ("~" cryptic tilde). PENDING Aug 07 18:56Z ("Nb rdw, spcx, rklb 15" — "Nb" meaning unknown). PENDING Aug 09 00:44Z (TAO "Finally lol" — TAO position relief or market banter?). Keep ALL Fc messages as silent technical-check logs.
 - Last seen: 2026-08-12T18:38:23Z (Discord Chat supporting — ambiguous single-word response)
 - **Events (rolling):**
+  - Aug 12 23:38Z — informational-valuation: X "A great company can still be a terrible investment at the wrong price" + SPCX chart $108→$147 (+36% 5-day rally); overbought concern signal after strong recovery; aligns with Aug 07 hedge-short positioning (+1% SPCX short); alerted [$SPCX] [2087685209970049184]
   - Aug 12 18:38Z — ambiguous: DC Chat "Yes" — single-word response, no referenced_message context; is_reply=false but cryptic standalone affirm; HR-2 calibration pending [$UNKNOWN] [1537168389070528604]
   - Aug 12 18:28Z — trade-conviction-add: DC Trades "Add 2% spcx short" — SPCX short escalation, adds 2% to existing 4% position for 6% total short (alongside 2% spot long = hedged divergence position); primary Trades channel; verbatim rule compliance (HCH—Trades); alerted fast-path [$SPCX] [1537165982521360394]
   - Aug 12 13:55Z — informational-philosophy: DC Chat "Partial tp won't hurt" + X-link share; reply to member (Tree Capital) on TP strategy concern; supporting-channel member Q&A affirmation of systematic TP discipline (documented Jul 31+ tranches); silent log [$UNKNOWN] [1537097301594607657]
