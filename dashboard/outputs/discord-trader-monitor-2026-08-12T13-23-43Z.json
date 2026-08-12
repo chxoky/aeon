@@ -1,0 +1,57 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "badge",
+        "separator1",
+        "main-quote",
+        "separator2",
+        "supporting-note"
+      ]
+    },
+    "badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DC: HCH — Chat",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "main-quote": {
+      "type": "Text",
+      "props": {
+        "text": "Most likely, we'll see a lower high around the point when CT starts talking about metals heavily again. I've already started noticing the chatter picking up",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "supporting-note": {
+      "type": "Text",
+      "props": {
+        "text": "Supporting channel sentiment update on metals narrative / price structure correlation.",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
