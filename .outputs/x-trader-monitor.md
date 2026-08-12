@@ -1,22 +1,13 @@
-🐦 *[X] @Wild_Randomness*
+## Summary
 
-SPCX daily consolidation — POC at 148.43, resistance ~160.
+**Event processed: Wild_Randomness — Test tweet**
 
-"Would be more interested in trying a short on additional upside into there"
+- **Tweet ID:** 2087639498519990610
+- **Text:** "@spicyponzi Test of POC in old range is your best r:r"
+- **Classification:** HR-1 Test Tweet — **Silent Skip**
+- **Action:** None (no notification, no calibration alert, no traders.md update)
+- **Memory updated:** 
+  - Added tweet ID to `memory/x-trader-seen.txt` (dedup prevention)
+  - Logged event to `memory/logs/2026-08-12.md`
 
-Chart shows clear consolidation zone (115-160) with labeled support/resistance levels. Conditional short setup at resistance.
-
-[View post](https://x.com/Wild_Randomness/status/2087636201973117165)
-🔁 *Mirrored* — @Wild_Randomness
-
-$SPCX — PARTIAL TP executed
-
-Wild_Randomness just took 50% profits on SPCX at ~$146, echoing BTC's technical structure pattern. Mentions potential re-entry if price continues above current exits.
-
-Current: $146.24 (+9.74% at close)
-Chart shows breakout from consolidation, near prior resistance.
-
-[View post](https://x.com/Wild_Randomness/status/2087637496708661303)
-⚠️ **Contested ticker**: HCH net-long (2% spot + hedge short 1%), Chase bearish, WR suggests short opportunity.
-
-[View tweet](https://x.com/Wild_Randomness/status/2087637795028586632)
+**Rationale:** The text starts with "Test of POC", matching HR-1's hardcoded rule: "Any post matching test-tweet patterns (`"test"`, `"[ticker] test"`, `"[any word] test"`, `"testing 123"`, standalone `"testing"`) → classify as non-financial, skip silently." No alert required.
