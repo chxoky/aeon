@@ -1,0 +1,126 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @Wild_Randomness"
+      },
+      "children": [
+        "event_link",
+        "sep_1",
+        "tweet_card",
+        "sep_2",
+        "alert_blocker",
+        "sep_3",
+        "text_context",
+        "sep_4",
+        "text_request",
+        "sep_5",
+        "alert_mirror"
+      ]
+    },
+    "event_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Event: X post Aug 12 19:02:22 UTC with cryptic text + 4 chart images",
+        "href": "https://x.com/Wild_Randomness/status/2087615696025092436",
+        "source": "X"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "$SPCX $BTC\n\nTough pill to swallow\n\n(92k equivalent move) https://t.co/XoFSdjJOsu"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "alert_blocker": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Classification blocker",
+        "message": "• Image fetch failed (4 pbs.twimg.com CDN URLs unavailable)\n• Text alone is ambiguous: what does \"tough pill to swallow\" sentiment mean (bearish price action, difficult market conditions, or other)?\n• \"92k equivalent move\" unclear reference (BTC swing size, USD amount, or asset ID?)"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "text_context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_context",
+        "text_context_body"
+      ]
+    },
+    "heading_context": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "text_context_body": {
+      "type": "Text",
+      "props": {
+        "text": "WR has been heavily active on SPCX today (6+ posts 15:42Z–18:27Z showing bullish technicals + TP execution). This SPCX+BTC dual-post comes after 50% TP'd update. No execution language detected (not \"I just bought/shorted/filled\").",
+        "variant": "body"
+      }
+    },
+    "sep_4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "text_request": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_request",
+        "text_request_body"
+      ]
+    },
+    "heading_request": {
+      "type": "Heading",
+      "props": {
+        "text": "Request",
+        "level": "h3"
+      }
+    },
+    "text_request_body": {
+      "type": "Text",
+      "props": {
+        "text": "• What do the 4 charts show?\n• Is this bullish or bearish sentiment on SPCX/BTC structure?\n• Is this a new trade setup or market observation/commentary?",
+        "variant": "body"
+      }
+    },
+    "sep_5": {
+      "type": "Separator",
+      "props": {}
+    },
+    "alert_mirror": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "No mirror action triggered until clarified."
+      }
+    }
+  }
+}
