@@ -1,0 +1,74 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading_calibration",
+        "badge_event",
+        "tweet_card",
+        "stack_analysis",
+        "link_post"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @swarmister",
+        "level": "h2"
+      }
+    },
+    "badge_event": {
+      "type": "Badge",
+      "props": {
+        "text": "Reply to @xbt2027",
+        "variant": "outline"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "@xbt2027 Pigger*"
+      }
+    },
+    "stack_analysis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_question",
+        "alert_context"
+      ]
+    },
+    "text_question": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "lead"
+      }
+    },
+    "alert_context": {
+      "type": "Alert",
+      "props": {
+        "title": "Context",
+        "message": "Cryptic reply pattern continues (15+ calibration alerts Jul-Aug). Meaning of 'Pigger*' unclear.",
+        "type": "info"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/swarmister/status/2087511844231475277"
+      }
+    }
+  }
+}

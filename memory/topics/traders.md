@@ -262,6 +262,7 @@
   - Aug 11 15:12Z — ambiguous: "@N1Chain Huge" — cryptic ticker mention + bullish sentiment, no execution language, asset context/execution intent unclear; HR-2 calibration sent [$N1Chain] [2087195541436248360]
   - Aug 12 06:47Z — skip: "Gud morning my friends ☕️🍋\n\nRead what's written, preferably out loud 🫰🏼" + cat meme "i love you all <3" — personal greeting/banter, non-financial [2087430862195270087]
   - Aug 12 11:43Z — ambiguous: "it's time to start thinking about crypto...I bought something" + t.co link + 6 vacation photos; cryptic purchase intent; HR-2 calibration pending [$UNKNOWN] [2087505143067508796]
+  - Aug 12 12:09Z — ambiguous: "@xbt2027 Pigger*" — cryptic reply to another trader, "Pigger*" meaning unclear; HR-2 calibration pending [$UNKNOWN] [2087511844231475277]
 
 ## Stoiiic
 - Platforms: X (primary; X-only)
