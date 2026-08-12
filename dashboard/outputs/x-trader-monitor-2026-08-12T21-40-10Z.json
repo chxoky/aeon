@@ -1,0 +1,32 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Vol Setup — Wild_Randomness"
+      },
+      "children": [
+        "tweet_1",
+        "link_tweet"
+      ]
+    },
+    "tweet_1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "VXN/IWM vol low, skew favorable. Charts show SPX vol 20.97 (NASDAQ 100), VXN 1.44 consolidation — vol attractive to buy per WR. Aligns with Jump-Shark barbell thesis."
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/Wild_Randomness/status/2087653813473935493"
+      }
+    }
+  }
+}

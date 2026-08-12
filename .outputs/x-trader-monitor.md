@@ -1,6 +1,6 @@
-🐦 *[X] @Wild_Randomness*
+🐦 *Vol Setup — @Wild_Randomness*
 
-**SPCX Position Closure + Unlock Strategy**
+VXN/IWM vol low, skew favorable. Charts show SPX vol 20.97 (NASDAQ 100), VXN 1.44 consolidation — vol attractive to buy per WR. Aligns with Jump-Shark barbell thesis.
 
 "I'm out of my longs now
 
@@ -20,3 +20,4 @@ Chart setup shows: SOXL (leveraged semis) +9.16% with strong support/resistance 
 Technical inflection point entering week-end close — semiconuctor complex at critical juncture per Wild_Randomness ratio/structure analysis.
 
 [View tweet](https://x.com/Wild_Randomness/status/2087652096434946068)
+https://x.com/Wild_Randomness/status/2087653813473935493
