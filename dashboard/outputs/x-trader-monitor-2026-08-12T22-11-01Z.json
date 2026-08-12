@@ -1,0 +1,171 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "header-section",
+        "separator-1",
+        "tweet-section",
+        "separator-2",
+        "analysis-section",
+        "separator-3",
+        "tags-section"
+      ]
+    },
+    "header-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "source-note",
+        "ticker-heading",
+        "technical-summary"
+      ]
+    },
+    "source-note": {
+      "type": "Text",
+      "props": {
+        "text": "@Wild_Randomness on X",
+        "variant": "muted"
+      }
+    },
+    "ticker-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "$QQQ",
+        "level": "h2"
+      }
+    },
+    "technical-summary": {
+      "type": "Text",
+      "props": {
+        "text": "Technical structure: rejection at resistance zone (728–730 area on 1H chart)",
+        "variant": "lead"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "tweet-link"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "So far the answer is no... Shocking"
+      }
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2087662281886941370"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis-text",
+        "levels-group"
+      ]
+    },
+    "analysis-text": {
+      "type": "Text",
+      "props": {
+        "text": "QQQ has failed to break above key resistance across multiple timeframes (1H, 15m). Broader daily context shows support 678–680 below, resistance cluster 710–730, upper target 738–740.",
+        "variant": "body"
+      }
+    },
+    "levels-group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "support-level",
+        "resistance-level",
+        "target-level"
+      ]
+    },
+    "support-level": {
+      "type": "Text",
+      "props": {
+        "text": "Support: 678–680"
+      }
+    },
+    "resistance-level": {
+      "type": "Text",
+      "props": {
+        "text": "Resistance cluster: 710–730"
+      }
+    },
+    "target-level": {
+      "type": "Text",
+      "props": {
+        "text": "Upper target: 738–740"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tags-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "tag-analysis-type",
+        "tag-thesis"
+      ]
+    },
+    "tag-analysis-type": {
+      "type": "Badge",
+      "props": {
+        "text": "Equities/vol technical analysis",
+        "variant": "secondary"
+      }
+    },
+    "tag-thesis": {
+      "type": "Badge",
+      "props": {
+        "text": "Jump-the-Shark macro bear thesis",
+        "variant": "secondary"
+      }
+    }
+  }
+}

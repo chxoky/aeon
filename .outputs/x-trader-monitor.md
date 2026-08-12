@@ -1,9 +1,11 @@
-🐦 *[X] @Stoiiic*
+🐦 *[X] @Wild_Randomness*
 
-KAITO short — closed at massive profit (~68% from peak).
+$QQQ — Technical structure: rejection at resistance zone (728–730 area on 1H chart). 
 
-Trader retrospectively describes shorting a random rectangle resistance level they'd drawn on the chart earlier. Chart shows capitulation collapse from ~1.40 peak down to ~0.45 current (4H). Perfect technical setup execution.
+Post: "So far the answer is no... Shocking"
 
-↳ *Cross-trader convergence:* Matches HCH's KAITO short (Jul 27 entry, now +58.5% profit). Two-trader bearish KAITO thesis validated.
+Message: QQQ has failed to break above key resistance across multiple timeframes (1H, 15m). Broader daily context shows support 678–680 below, resistance cluster 710–730, upper target 738–740.
 
-[View post](https://x.com/Stoiiic/status/2087658401815740693)
+[View tweet](https://x.com/Wild_Randomness/status/2087662281886941370)
+
+↳ _Equities/vol technical analysis; aligns with WR's Jump-the-Shark macro bear thesis._
