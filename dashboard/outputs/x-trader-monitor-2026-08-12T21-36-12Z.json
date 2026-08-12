@@ -1,0 +1,89 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-card",
+        "separator-1",
+        "metrics-grid",
+        "separator-2",
+        "link-tweet"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "$SOXX $SOXL — Super important final two days of the week for semis.\n\nChart setup shows: SOXL (leveraged semis) +9.16% with strong support/resistance structure (levels at 225, 185, 125, 90); SOXX (unleveraged) +12.41% with multi-level consolidation; SOXX/MAGS ratio +3.43% confirming semiconductor outperformance vs. mega-cap tech.\n\nTechnical inflection point entering week-end close — semiconductor complex at critical juncture per Wild_Randomness ratio/structure analysis."
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "metrics-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "stat-soxl",
+        "stat-soxx",
+        "stat-ratio"
+      ]
+    },
+    "stat-soxl": {
+      "type": "Stat",
+      "props": {
+        "label": "SOXL (Leveraged Semis)",
+        "value": "+9.16%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat-soxx": {
+      "type": "Stat",
+      "props": {
+        "label": "SOXX (Unleveraged)",
+        "value": "+12.41%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat-ratio": {
+      "type": "Stat",
+      "props": {
+        "label": "SOXX/MAGS Ratio",
+        "value": "+3.43%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2087652096434946068"
+      },
+      "children": []
+    }
+  }
+}
