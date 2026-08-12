@@ -229,6 +229,7 @@
   - Aug 12 18:01Z — ambiguous-cryptic-reply: X reply to @Josh_Rayner "Mainly wrt NVDA dominance" — cryptic reply-dependent message on Kyle's explicit watch-list ticker (NVDA); context requires clarification on what "NVDA dominance" refers to (narrative dominance, technical structure, valuation, relative strength); no personal trade action language; follows earlier Aug 12 15:29Z bearish NVDA post ($NVDA/SMH underperformance -36%, technical structure chart analysis); HR-2 calibration alert sent to Kyle for interpretation and context on Josh_Rayner's original query [$NVDA] [2087600364782755941]
   - Aug 12 18:01Z — skip (non-financial): X "@Josh_Rayner (Just to be clear it's a bear post)"; platform meta-commentary clarifying another trader's post tone, no ticker/execution/trade action; silent skip per HR-1 Step 4A protocol [2087600254732648573]
   - Aug 12 18:27Z — trade-partial-tp: $SPCX "over 50% TP'd now"; executing planned 50% TP from Aug 12 17:08Z plan ($150 target); current 144.68-148.42 near target; switching to observe mode; no Kyle mirror position active [$SPCX] [2087606972506161613]
+  - Aug 12 20:23Z — trade-full-tp: $SPCX "Fully out by 149.50"; executed 100% position closure after +40% gain in 5 trading days; chart shows recovery from $107 bottom (Aug early) to $149.50 exit; conditional re-entry plan on clean break above $150; no Kyle mirror closed (no mirror position active) [$SPCX] [2087636201973117165]
 
 ## trading_axe
 - Platforms: X (primary; X-only)

@@ -1,0 +1,80 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Trade Close — @Wild_Randomness"
+      },
+      "children": [
+        "tweet_main",
+        "separator_1",
+        "stack_details",
+        "text_mirror",
+        "link_post"
+      ]
+    },
+    "tweet_main": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Fully closed SPCX position at $149.50 after a strong +40% recovery in 5 trading days."
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat_position",
+        "text_entry_context",
+        "text_reentry"
+      ]
+    },
+    "stat_position": {
+      "type": "Stat",
+      "props": {
+        "label": "SPCX Close",
+        "value": "$149.50",
+        "delta": "+40%",
+        "trend": "up"
+      }
+    },
+    "text_entry_context": {
+      "type": "Text",
+      "props": {
+        "text": "Recovered from $107 bottom established early Aug. Chart shows consolidation support established."
+      }
+    },
+    "text_reentry": {
+      "type": "Text",
+      "props": {
+        "text": "Planning re-entry on clean break above $150"
+      }
+    },
+    "text_mirror": {
+      "type": "Text",
+      "props": {
+        "text": "No Kyle mirror position active — logged for reference.",
+        "variant": "muted"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2087636201973117165"
+      }
+    }
+  }
+}
