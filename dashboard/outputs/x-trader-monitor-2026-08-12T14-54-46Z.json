@@ -1,0 +1,41 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "link_tweet"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "$IWM\n\nFederal Reserve inflation policy context (Beth Hammack, Cleveland Fed): Now is the time to act on inflation. Policy isn't restrictive enough; longer delays make disinflation more expensive. Real-world consequences highlighted (insurance premiums up, wages inadequate for cost increases).\n\nContext: May reference small-cap (Russell 2000) sensitivity to Fed policy stance on rate trajectory."
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2087551980088737895"
+      }
+    }
+  }
+}
