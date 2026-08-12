@@ -1,0 +1,94 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-card",
+        "sep-1",
+        "chart-section",
+        "sep-2",
+        "news-section",
+        "sep-3",
+        "view-link"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "How come nobody is talking about how ugly that sweep was from a technical as well as price-action perspective?"
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "chart-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "chart-text",
+        "chart-link"
+      ]
+    },
+    "chart-text": {
+      "type": "Text",
+      "props": {
+        "text": "Chart: GOOG 1D showing sharp move down with liquidation-style characteristics followed by recovery.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "chart-link": {
+      "type": "Link",
+      "props": {
+        "label": "View Chart",
+        "href": "https://t.co/oQzlajgNPu"
+      },
+      "children": []
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "news-section": {
+      "type": "Text",
+      "props": {
+        "text": "News catalyst: GOOG down >5% (per Walter Bloomberg).",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View Tweet",
+        "href": "https://x.com/HeartCanHodl/status/2087536174357504321"
+      },
+      "children": []
+    }
+  }
+}
