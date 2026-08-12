@@ -1,0 +1,378 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-08-12"
+      },
+      "children": [
+        "focus-section",
+        "sep1",
+        "since-section",
+        "sep2",
+        "running-section"
+      ]
+    },
+    "focus-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus-heading",
+        "focus-1",
+        "focus-2",
+        "focus-3"
+      ]
+    },
+    "focus-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "focus-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-1-title",
+        "focus-1-desc"
+      ]
+    },
+    "focus-1-title": {
+      "type": "Heading",
+      "props": {
+        "text": "1. CPI print 8:30 ET",
+        "level": "h3"
+      }
+    },
+    "focus-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "soft→$66-67K, hot→$62.7K; full regime binary closes today",
+        "variant": "body"
+      }
+    },
+    "focus-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-2-title",
+        "focus-2-badge",
+        "focus-2-desc"
+      ]
+    },
+    "focus-2-title": {
+      "type": "Heading",
+      "props": {
+        "text": "2. KillaXBT \"Overconfidence\" calibration",
+        "level": "h3"
+      }
+    },
+    "focus-2-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "PENDING",
+        "variant": "destructive"
+      }
+    },
+    "focus-2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "HR-2 sent ~23:33Z yesterday, no reply yet; signal window decaying",
+        "variant": "body"
+      }
+    },
+    "focus-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-3-title",
+        "focus-3-stats",
+        "focus-3-desc"
+      ]
+    },
+    "focus-3-title": {
+      "type": "Heading",
+      "props": {
+        "text": "3. DeFi rotation day 4",
+        "level": "h3"
+      }
+    },
+    "focus-3-stats": {
+      "type": "Stat",
+      "props": {
+        "label": "LINK",
+        "value": "+3.8%",
+        "delta": "7d: +6.7%",
+        "trend": "up"
+      }
+    },
+    "focus-3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "on 4th straight session; CPI result will confirm or break it",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "since-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "since-heading",
+        "since-1",
+        "since-2",
+        "since-3",
+        "since-4"
+      ]
+    },
+    "since-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "since-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since-1-badge",
+        "since-1-text"
+      ]
+    },
+    "since-1-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "alerted",
+        "variant": "secondary"
+      }
+    },
+    "since-1-text": {
+      "type": "Text",
+      "props": {
+        "text": "HCH risk-off conviction + metals bearish stance (supporting channel; fast-path + standalone)",
+        "variant": "body"
+      }
+    },
+    "since-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since-2-badge",
+        "since-2-text"
+      ]
+    },
+    "since-2-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "alerted",
+        "variant": "secondary"
+      }
+    },
+    "since-2-text": {
+      "type": "Text",
+      "props": {
+        "text": "Wild_Randomness QQQ/SMH ratio recovery chart — tech-sector bottom read",
+        "variant": "body"
+      }
+    },
+    "since-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since-3-badge",
+        "since-3-text"
+      ]
+    },
+    "since-3-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "calibration",
+        "variant": "outline"
+      }
+    },
+    "since-3-text": {
+      "type": "Text",
+      "props": {
+        "text": "Stoiiic ×2 HR-2 PENDING (Medium paywalled articles); KillaXBT \"Overconfidence\" PENDING",
+        "variant": "body"
+      }
+    },
+    "since-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since-4-badge",
+        "since-4-items"
+      ]
+    },
+    "since-4-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "fading",
+        "variant": "outline"
+      }
+    },
+    "since-4-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "since-4-cys",
+        "since-4-cashcat"
+      ]
+    },
+    "since-4-cys": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "since-4-cys-stat",
+        "since-4-cys-note"
+      ]
+    },
+    "since-4-cys-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "CYS",
+        "value": "−3.2%",
+        "trend": "down"
+      }
+    },
+    "since-4-cys-note": {
+      "type": "Text",
+      "props": {
+        "text": "from Aug 08 BREAKOUT",
+        "variant": "caption"
+      }
+    },
+    "since-4-cashcat": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "since-4-cashcat-stat",
+        "since-4-cashcat-note"
+      ]
+    },
+    "since-4-cashcat-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "CASHCAT",
+        "value": "−6.0%",
+        "trend": "down"
+      }
+    },
+    "since-4-cashcat-note": {
+      "type": "Text",
+      "props": {
+        "text": "pump unwind",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "running-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "running-heading",
+        "running-1",
+        "running-2",
+        "running-3",
+        "running-4",
+        "running-5"
+      ]
+    },
+    "running-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "running-1": {
+      "type": "Text",
+      "props": {
+        "text": "token-alert @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running-2": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running-3": {
+      "type": "Text",
+      "props": {
+        "text": "market-context-refresh @ 13:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running-4": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC",
+        "variant": "body"
+      }
+    },
+    "running-5": {
+      "type": "Text",
+      "props": {
+        "text": "skill-health @ 18:00 UTC",
+        "variant": "body"
+      }
+    }
+  }
+}
