@@ -1,11 +1,13 @@
-🐦 *[X] @Wild_Randomness*
+🐦 *[X] @bull_genius*
 
-$QQQ — Technical structure: rejection at resistance zone (728–730 area on 1H chart). 
+**BTC 4h Structure Update**
 
-Post: "So far the answer is no... Shocking"
+Price holding uninspiring, ranging sideways around yearly POC (64k). 90d RVWAP mid-term trend catching up with shorter/longer-term trendlines — compression zone forming. Prefers continuation down, but only needs 3% move to flip structure to upside.
 
-Message: QQQ has failed to break above key resistance across multiple timeframes (1H, 15m). Broader daily context shows support 678–680 below, resistance cluster 710–730, upper target 738–740.
+On-chain season finale soon; majors will dictate direction into next leg.
 
-[View tweet](https://x.com/Wild_Randomness/status/2087662281886941370)
+Chart: RVWAP convergence validation (90d ~65,266, 30d ~64,341, 7d ~64,329 converging to 64k POC); consolidation bound 63-65k with clear support/resistance levels marked.
 
-↳ _Equities/vol technical analysis; aligns with WR's Jump-the-Shark macro bear thesis._
+No personal trade action — market technical analysis + macro outlook.
+
+[View tweet](https://x.com/bull_genius/status/2087663763075784920)

@@ -1,0 +1,42 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor: BTC 4h Structure Update"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-main",
+        "link-tweet"
+      ]
+    },
+    "tweet-main": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "BTC 4h Structure Update\n\nPrice holding uninspiring, ranging sideways around yearly POC (64k). 90d RVWAP mid-term trend catching up with shorter/longer-term trendlines — compression zone forming. Prefers continuation down, but only needs 3% move to flip structure to upside.\n\nOn-chain season finale soon; majors will dictate direction into next leg.\n\nChart: RVWAP convergence validation (90d ~65,266, 30d ~64,341, 7d ~64,329 converging to 64k POC); consolidation bound 63-65k with clear support/resistance levels marked.\n\nNo personal trade action — market technical analysis + macro outlook."
+      },
+      "children": []
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/bull_genius/status/2087663763075784920"
+      }
+    }
+  }
+}
