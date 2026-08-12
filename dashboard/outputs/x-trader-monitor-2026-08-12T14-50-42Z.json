@@ -1,0 +1,134 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor: Calibration — @HeartCanHodl"
+      },
+      "children": [
+        "post-section",
+        "sep1",
+        "analysis-section",
+        "sep2",
+        "context-section"
+      ]
+    },
+    "post-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post-heading",
+        "post-link",
+        "post-status"
+      ]
+    },
+    "post-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Post Reference",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "post-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "HeartCanHodl — \"Summary\" + image",
+        "href": "https://x.com/HeartCanHodl/status/2087551182021812616",
+        "source": "X"
+      },
+      "children": []
+    },
+    "post-status": {
+      "type": "Text",
+      "props": {
+        "text": "Image URL unfetchable (CDN issue)",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis-heading",
+        "unable-alert",
+        "interpretations"
+      ]
+    },
+    "analysis-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Classification Analysis",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "unable-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Cryptic single-word caption suggests ambiguous intent",
+        "type": "info"
+      },
+      "children": []
+    },
+    "interpretations": {
+      "type": "Text",
+      "props": {
+        "text": "Possible interpretations:\n(1) Portfolio summary chart\n(2) Market summary observation\n(3) Trade summary/update\n(4) General banter",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "context-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context-heading",
+        "context-content"
+      ]
+    },
+    "context-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Temporal Context",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "context-content": {
+      "type": "Text",
+      "props": {
+        "text": "Post at 14:46Z\n\nRelated activity:\n• MSTR inquiry (13:57Z)\n• GOOG sweep analysis (13:46Z)\n• ETH conviction add (14:38Z)",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}

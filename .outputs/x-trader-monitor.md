@@ -1,8 +1,6 @@
-➕ *Conviction Add — @HeartCanHodl*
+🔍 *Calibration — @HeartCanHodl*
 
-HeartCanHodl just added to their ETH short position at ~1.9k.
-"And yes we are still short, even added some more to eth ~1.9k ;)"
+Post: https://x.com/HeartCanHodl/status/2087551182021812616
+HeartCanHodl: "Summary" + image (image URL unfetchable, CDN issue)
 
-[View post](https://x.com/HeartCanHodl/status/2087549367146488169)
-
-Want to add to your short too?
+Unable to classify — what's your read? Cryptic single-word caption suggests: (1) portfolio summary chart, (2) market summary observation, (3) trade summary/update, or (4) general banter? Context: Post at 14:46Z after MSTR inquiry (13:57Z), GOOG sweep analysis (13:46Z), ETH conviction add (14:38Z).
