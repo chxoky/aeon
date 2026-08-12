@@ -1,0 +1,315 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor",
+        "description": "Macro CPI analysis and market reactions"
+      },
+      "children": [
+        "tweet",
+        "sep1",
+        "cpi-section",
+        "sep2",
+        "market-section",
+        "sep3",
+        "forward-section",
+        "sep4",
+        "footer-section"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "The CPI data came out, and the market once again had a reason to come up with yet another scenario regarding interest rates.\n\nThe July U.S. CPI rose 0.1% MoM and 3.4% YoY, while the core CPI rose 0.2% MoM and 2.5% YoY.\n\nMonthly inflation continues to slow, but annual inflation remains above the Fed's target. And this is where things get interesting.\n\nFor the market, this is a mixed signal. On the one hand, the data allows expectations to shift slightly toward a more dovish Fed policy. On the other hand, inflation is still not low enough for the market to begin pricing in aggressive rate cuts.\n\nTherefore, the reaction across assets is also mixed.\n\n$DXY may come under pressure due to softer rate expectations, but high annual inflation limits its downside potential.\n\n$XAU is finding support from the slowdown in monthly inflation, but lingering inflation risks and real yields haven't gone anywhere yet.\n\nThe NASDAQ may react positively to easing rate pressure, but a more convincing decline in inflation is needed for a full-fledged revaluation.\n\n$SPX is generally benefiting from reduced risk of a new inflation shock, but there is still no signal here of imminent large-scale easing of financial conditions.\n\nMoving forward, I would closely monitor Fed comments, the labor market, and the PCE.\n\nThe next important event is the Fed meeting on September 15–16. That is when it will become clearer to what extent today's CPI has actually changed market expectations."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "cpi-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "cpi-heading",
+        "cpi-grid"
+      ]
+    },
+    "cpi-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "CPI Data (July)",
+        "level": "h3"
+      }
+    },
+    "cpi-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "cpi-mom",
+        "cpi-yoy",
+        "core-mom",
+        "core-yoy"
+      ]
+    },
+    "cpi-mom": {
+      "type": "Stat",
+      "props": {
+        "label": "U.S. CPI MoM",
+        "value": "0.1%"
+      }
+    },
+    "cpi-yoy": {
+      "type": "Stat",
+      "props": {
+        "label": "U.S. CPI YoY",
+        "value": "3.4%"
+      }
+    },
+    "core-mom": {
+      "type": "Stat",
+      "props": {
+        "label": "Core CPI MoM",
+        "value": "0.2%"
+      }
+    },
+    "core-yoy": {
+      "type": "Stat",
+      "props": {
+        "label": "Core CPI YoY",
+        "value": "2.5%"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "market-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "market-heading",
+        "market-items"
+      ]
+    },
+    "market-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Market Reactions",
+        "level": "h3"
+      }
+    },
+    "market-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "dxy-item",
+        "xau-item",
+        "nasdaq-item",
+        "spx-item"
+      ]
+    },
+    "dxy-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "dxy-badge",
+        "dxy-text"
+      ]
+    },
+    "dxy-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "$DXY",
+        "variant": "secondary"
+      }
+    },
+    "dxy-text": {
+      "type": "Text",
+      "props": {
+        "text": "May come under pressure due to softer rate expectations, but high annual inflation limits its downside potential.",
+        "variant": "body"
+      }
+    },
+    "xau-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "xau-badge",
+        "xau-text"
+      ]
+    },
+    "xau-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "$XAU",
+        "variant": "secondary"
+      }
+    },
+    "xau-text": {
+      "type": "Text",
+      "props": {
+        "text": "Finding support from the slowdown in monthly inflation, but lingering inflation risks and real yields haven't gone anywhere yet.",
+        "variant": "body"
+      }
+    },
+    "nasdaq-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "nasdaq-badge",
+        "nasdaq-text"
+      ]
+    },
+    "nasdaq-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "$NASDAQ",
+        "variant": "secondary"
+      }
+    },
+    "nasdaq-text": {
+      "type": "Text",
+      "props": {
+        "text": "May react positively to easing rate pressure, but a more convincing decline in inflation is needed for a full-fledged revaluation.",
+        "variant": "body"
+      }
+    },
+    "spx-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "spx-badge",
+        "spx-text"
+      ]
+    },
+    "spx-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "$SPX",
+        "variant": "secondary"
+      }
+    },
+    "spx-text": {
+      "type": "Text",
+      "props": {
+        "text": "Generally benefiting from reduced risk of a new inflation shock, but there is still no signal here of imminent large-scale easing of financial conditions.",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "forward-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "forward-heading",
+        "forward-items"
+      ]
+    },
+    "forward-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Forward Guidance",
+        "level": "h3"
+      }
+    },
+    "forward-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "monitor-text",
+        "fed-alert"
+      ]
+    },
+    "monitor-text": {
+      "type": "Text",
+      "props": {
+        "text": "Closely monitor Fed comments, the labor market, and the PCE.",
+        "variant": "body"
+      }
+    },
+    "fed-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Next Important Event",
+        "message": "Fed meeting on September 15–16. That is when it will become clearer to what extent today's CPI has actually changed market expectations.",
+        "type": "info"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "footer-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "link-item",
+        "tags-text"
+      ]
+    },
+    "link-item": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/swarmister/status/2087567039363789015"
+      }
+    },
+    "tags-text": {
+      "type": "Text",
+      "props": {
+        "text": "Macro CPI analysis relevant to your DXY/Gold/NASDAQ watch list.",
+        "variant": "muted"
+      }
+    }
+  }
+}
