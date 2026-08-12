@@ -1,0 +1,90 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @Wild_Randomness"
+      },
+      "children": [
+        "event_type",
+        "tweet",
+        "separator",
+        "alert_stack"
+      ]
+    },
+    "event_type": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @JeggersZ on position management",
+        "variant": "muted"
+      }
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "@Wild_Randomness",
+        "text": "Yup I took partials but I got back in like a buck higher\n\nAnd then on Monday I was back to full position as we retested low 130s"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert",
+        "possible_tickers"
+      ]
+    },
+    "alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to identify asset",
+        "message": "\"low 130s\" could be QQQ, SPX, SPCX, or other ticker. Which position is this?",
+        "type": "warning"
+      }
+    },
+    "possible_tickers": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_qqq",
+        "badge_spx",
+        "badge_spcx"
+      ]
+    },
+    "badge_qqq": {
+      "type": "Badge",
+      "props": {
+        "text": "QQQ",
+        "variant": "outline"
+      }
+    },
+    "badge_spx": {
+      "type": "Badge",
+      "props": {
+        "text": "SPX",
+        "variant": "outline"
+      }
+    },
+    "badge_spcx": {
+      "type": "Badge",
+      "props": {
+        "text": "SPCX",
+        "variant": "outline"
+      }
+    }
+  }
+}
