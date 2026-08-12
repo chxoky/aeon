@@ -1,0 +1,107 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "header",
+        "tweet_section",
+        "separator_1",
+        "analysis_section"
+      ]
+    },
+    "header": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "author",
+        "asset_badge"
+      ]
+    },
+    "author": {
+      "type": "Heading",
+      "props": {
+        "text": "@Crypto_Chase",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "asset_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "$BTC",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "tweet_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Crypto_Chase",
+        "handle": "@Crypto_Chase",
+        "text": "Just trapped. Personally don't see any interesting trades until liquidity is taken from either side.\n\nOn a side note, it's pretty sad that we've been stuck in a 3% range for over a month. Where's the Bitcoin I once knew?"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis_heading",
+        "analysis_text",
+        "tweet_link"
+      ]
+    },
+    "analysis_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Analysis",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Confirms group consolidation thesis — BTC awaiting liquidity event for directional move. Chart shows tight range; aligns with prior 62K TP + 66K bull trigger framework. Frustration on lack of volatility = group signal to stay alert for breakout.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Crypto_Chase/status/2087571456414679486"
+      },
+      "children": []
+    }
+  }
+}
