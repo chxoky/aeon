@@ -1,0 +1,106 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Trading signal calibration alert"
+      },
+      "children": [
+        "heading-main",
+        "sep1",
+        "heading-event",
+        "text-event",
+        "sep2",
+        "alert-classify",
+        "sep3",
+        "tweet-card",
+        "sep4",
+        "heading-context",
+        "text-questions",
+        "sep5",
+        "link-tweet"
+      ]
+    },
+    "heading-main": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading-event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "text-event": {
+      "type": "Text",
+      "props": {
+        "text": "Recent string of technical analysis posts:\n• SOXX/SOXL semiconductor setup at 21:27Z\n• vol structure at 21:33Z\n• SPCX position closure at 21:23Z\n• CLS recovery pattern at 20:45Z",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "alert-classify": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to Classify",
+        "message": "No ticker/asset/price level specified",
+        "type": "warning"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "(This is where you would take partials and watch the reaction)"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading-context": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "text-questions": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read on this? Is this:\n• A continuation of the SOXX/SOXL setup?\n• A reference to a different trade setup?\n• A teaching point for another trader?",
+        "variant": "body"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {}
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2087667720338993439"
+      }
+    }
+  }
+}
