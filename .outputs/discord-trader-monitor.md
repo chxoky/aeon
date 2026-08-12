@@ -22,3 +22,10 @@
 4. ✓ No Telegram notification sent (technical observation only)
 
 The event is recorded in memory for context but does not require Kyle's attention—it's a routine chart check by HeartCanHodl on BTC's 1-hour EMA50.
+🔍 *Calibration — [DC: HCH — Chat]*
+
+↩️ _Member: "today the day they do it? big volatility today"_
+
+HCH: "Will see"
+
+Unable to classify — what's your read?

@@ -1,0 +1,48 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — [DC: HCH — Chat]"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "member_reply",
+        "hch_response",
+        "closing"
+      ]
+    },
+    "member_reply": {
+      "type": "Text",
+      "props": {
+        "text": "↩️ Member: \"today the day they do it? big volatility today\"",
+        "variant": "body"
+      }
+    },
+    "hch_response": {
+      "type": "Text",
+      "props": {
+        "text": "HCH: \"Will see\"",
+        "variant": "body"
+      }
+    },
+    "closing": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "muted"
+      }
+    }
+  }
+}
