@@ -1,13 +1,12 @@
-🐦 *[X] @KillaXBT*
+🐦 *[X] @Wild_Randomness*
 
-"Buy when there's blood in the streets, even if the blood is your own"
+$SPCX — Technical setup with token unlock catalysts
 
-At the lows, people want lower. At the highs, people want higher.
+Buy first unlock: 145.21 (current support)
+Sell second unlock: ~101 (lower target)
 
-Stop being retail... $BTC
+Chart shows 4-month breakdown structure with consolidation zone 125-160 and intermediate supports marked. SPCX token unlock events positioned as price-structure catalysts.
 
-[Fear & Greed Score chart attached (2018-2026): Current extreme fear zone (red) validates historical pattern of recovery opportunities at market bottoms]
+[View tweet](https://x.com/Wild_Randomness/status/2087596208617619916)
 
-↳ _Aligns with group bullish-to-mixed BTC consensus (HCH net-long, bull_genius structural bull, macro accumulation regime). Chart provides Fear & Greed evidence of capitulation buying zone._
-
-[View post](https://x.com/KillaXBT/status/2087591191193809373)
+Cross-trader context: SPCX high-activity overlap ticker. HCH net-long (Aug 02 spot 2% + Aug 04 3x +22%), swarmister Jul 29 long (pending approval), WR continuing technical analysis on same thesis. Multi-trader convergence on consolidation support structure (145 level, 101 target).

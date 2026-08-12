@@ -1,0 +1,105 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor: SPCX Technical Setup"
+      },
+      "children": [
+        "tweet-card",
+        "tweet-link",
+        "sep-1",
+        "trader-context"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "$SPCX — Technical setup with token unlock catalysts\n\nBuy first unlock: 145.21 (current support)\nSell second unlock: ~101 (lower target)\n\nChart shows 4-month breakdown structure with consolidation zone 125-160 and intermediate supports marked. SPCX token unlock events positioned as price-structure catalysts."
+      },
+      "children": []
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2087596208617619916"
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "trader-context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "trader-heading",
+        "ticker-intro",
+        "hch-position",
+        "swarmister-position",
+        "wr-position",
+        "convergence-summary"
+      ]
+    },
+    "trader-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Cross-Trader Context",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "ticker-intro": {
+      "type": "Text",
+      "props": {
+        "text": "SPCX high-activity overlap ticker",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "hch-position": {
+      "type": "Text",
+      "props": {
+        "text": "HCH: Net-long (Aug 02 spot 2% + Aug 04 3x +22%)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "swarmister-position": {
+      "type": "Text",
+      "props": {
+        "text": "swarmister: Jul 29 long (pending approval)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "wr-position": {
+      "type": "Text",
+      "props": {
+        "text": "WR: Continuing technical analysis on same thesis",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "convergence-summary": {
+      "type": "Text",
+      "props": {
+        "text": "Multi-trader convergence on consolidation support structure (145 level, 101 target)",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
