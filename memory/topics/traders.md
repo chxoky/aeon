@@ -297,8 +297,9 @@
 - Recent thesis: BTC/crypto asset maturation cycle analysis. Mature assets (ETF-era) show asymmetric return compression: BTC 1.5x-10x (muted vs historical), alts 2x-50x. Selection key for outperformance. Window narrowing for multi-x alt plays. BTC H4 structure: 7D/30D VWAP compressing; 65K reclaim = interim pivot; 60K breakdown risk. Aug 07: BTC CVD flip at supply zone 65.2-65.7K + perps-spot divergence (perps holding vs spot declining).
 - Conviction notes: Heavy CVD/TPO/AMT/VWAP language. Chart-driven technical observations; educational focus. BTC order book analysis. ~50% posts non-financial (banter, fitness, philosophy). Relative strength rotation thesis: ETH/SOL role reversal next cycle. No personal trade executions documented.
 - Calibration: PENDING Aug 03 16:08Z (emoji-only "@Tom__Capital 🚀📈" — banter or endorsement?). RESOLVED Aug 01 07:00Z — "wrong train" metaphorical market philosophy, not trade signal. PENDING Aug 11 22:59Z (bare t.co URL "must-read" — Medium article "The Game of Deception", paywall blocked; HR-2 calibration sent).
-- Last seen: 2026-08-12T16:05:25Z (X — BTC LTF TPO/CVD/order-book analysis)
+- Last seen: 2026-08-12T16:22:53Z (X — macro BTC analysis share from clanker)
 - **Events (rolling):**
+  - Aug 12 16:22Z — informational-macro: Macro BTC positioning analysis from clanker; dovish catalyst spent, no bullish driver until Jackson Hole/Sept jobs; patient bids at 61.8-62.0K / 60.0-60.7K zones; higher-vol regime expected [$BTC] [2087575558716543451]
   - Aug 12 16:05Z — informational-technical: BTC LTF TPO/CVD analysis; ~64K POC; 62-65K range; CB dump session; silent log [$BTC] [2087571163815825697]
   - Aug 11 23:15Z — ambiguous-url-reply: reply to @d_scimmy7465 sharing own prior Aug-11-22:59Z URL post; context unclear; HR-2 calibration sent [$UNKNOWN] [2087316993678409764]
   - Aug 11 22:59Z — ambiguous: URL-only post "btw this is a must-read:\n\nhttps://t.co/9OSIodoF95" → redirects to Medium @JoshMcGruff "The Game of Deception"; unable to fetch (403 paywall); HR-2 calibration sent [$UNKNOWN] [2087313009135751237]
