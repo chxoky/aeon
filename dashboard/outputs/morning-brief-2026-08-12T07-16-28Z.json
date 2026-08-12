@@ -1,0 +1,328 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-08-12"
+      },
+      "children": [
+        "section_focus",
+        "sep1",
+        "section_yesterday",
+        "sep2",
+        "section_running"
+      ]
+    },
+    "section_focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_focus",
+        "focus_1",
+        "focus_2",
+        "focus_3"
+      ]
+    },
+    "heading_focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "focus_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_1_title",
+        "focus_1_content"
+      ]
+    },
+    "focus_1_title": {
+      "type": "Text",
+      "props": {
+        "text": "1. CPI 8:30 ET",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "focus_1_content": {
+      "type": "Text",
+      "props": {
+        "text": "why now: regime-setter; soft→$66-67K, hot→$62.7K test",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "focus_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_2_title",
+        "focus_2_content"
+      ]
+    },
+    "focus_2_title": {
+      "type": "Text",
+      "props": {
+        "text": "2. KillaXBT \"Overconfidence\" calibration",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "focus_2_content": {
+      "type": "Text",
+      "props": {
+        "text": "why now: HR-2 pending; Kyle reply needed to close loop",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "focus_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_3_title",
+        "focus_3_content"
+      ]
+    },
+    "focus_3_title": {
+      "type": "Text",
+      "props": {
+        "text": "3. DeFi rotation day 4",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "focus_3_content": {
+      "type": "Text",
+      "props": {
+        "text": "why now: 4th straight LINK/CRV session; narrative confirming",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_yesterday": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_yesterday",
+        "yesterday_1",
+        "yesterday_2",
+        "yesterday_3",
+        "yesterday_4"
+      ]
+    },
+    "heading_yesterday": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "yesterday_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday_1_badge",
+        "yesterday_1_text"
+      ]
+    },
+    "yesterday_1_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "pending",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "yesterday_1_text": {
+      "type": "Text",
+      "props": {
+        "text": "KillaXBT cryptic \"Overconfidence\" reply — HR-2 alert sent Aug 12; awaiting Kyle interpretation",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "yesterday_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday_2_badge",
+        "yesterday_2_text"
+      ]
+    },
+    "yesterday_2_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "fading",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "yesterday_2_text": {
+      "type": "Text",
+      "props": {
+        "text": "CYS −3.2% today — Aug 8 ZK-prover BREAKOUT losing steam after +153.3% 7d run",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "yesterday_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday_3_badge",
+        "yesterday_3_text"
+      ]
+    },
+    "yesterday_3_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "unwinding",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "yesterday_3_text": {
+      "type": "Text",
+      "props": {
+        "text": "CASHCAT −6.0% on day — prior +60.6% 7d pump reversing; trending while red",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "yesterday_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday_4_badge",
+        "yesterday_4_text"
+      ]
+    },
+    "yesterday_4_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "skipped",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "yesterday_4_text": {
+      "type": "Text",
+      "props": {
+        "text": "HCH: \"Fc SKHYNIX 5m\" + \"@zerohedge 👁️\" — non-actionable per calibration",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_running",
+        "running_1",
+        "running_2",
+        "running_3",
+        "running_4",
+        "running_5"
+      ]
+    },
+    "heading_running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "running_1": {
+      "type": "Text",
+      "props": {
+        "text": "token-alert @ 12:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "running_2": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "running_3": {
+      "type": "Text",
+      "props": {
+        "text": "market-context-refresh @ 13:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "running_4": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "running_5": {
+      "type": "Text",
+      "props": {
+        "text": "x-trader-monitor + discord-trader-monitor (continuous)",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
