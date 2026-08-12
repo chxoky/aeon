@@ -1,0 +1,74 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "🔁 Mirrored — @Wild_Randomness"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_action",
+        "text_narrative",
+        "stat_current",
+        "text_chart",
+        "sep_divider",
+        "link_post"
+      ]
+    },
+    "badge_action": {
+      "type": "Badge",
+      "props": {
+        "text": "$SPCX — PARTIAL TP executed",
+        "variant": "secondary"
+      }
+    },
+    "text_narrative": {
+      "type": "Text",
+      "props": {
+        "text": "Wild_Randomness just took 50% profits on SPCX at ~$146, echoing BTC's technical structure pattern. Mentions potential re-entry if price continues above current exits.",
+        "variant": "body"
+      }
+    },
+    "stat_current": {
+      "type": "Stat",
+      "props": {
+        "label": "Current",
+        "value": "$146.24",
+        "delta": "+9.74%",
+        "trend": "up"
+      }
+    },
+    "text_chart": {
+      "type": "Text",
+      "props": {
+        "text": "Chart shows breakout from consolidation, near prior resistance.",
+        "variant": "caption"
+      }
+    },
+    "sep_divider": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2087637496708661303"
+      }
+    }
+  }
+}

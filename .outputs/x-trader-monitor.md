@@ -7,3 +7,13 @@ Entry context: Recovered from $107 bottom established early Aug. Chart shows con
 No Kyle mirror position active — logged for reference.
 
 [View post](https://x.com/Wild_Randomness/status/2087636201973117165)
+🔁 *Mirrored* — @Wild_Randomness
+
+$SPCX — PARTIAL TP executed
+
+Wild_Randomness just took 50% profits on SPCX at ~$146, echoing BTC's technical structure pattern. Mentions potential re-entry if price continues above current exits.
+
+Current: $146.24 (+9.74% at close)
+Chart shows breakout from consolidation, near prior resistance.
+
+[View post](https://x.com/Wild_Randomness/status/2087637496708661303)
