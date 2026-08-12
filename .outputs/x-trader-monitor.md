@@ -1,10 +1,8 @@
-🐦
-🔍 *Calibration — @HeartCanHodl*
+🔍 *Market Risk Observation — @HeartCanHodl*
 
-Event: SPCX pump occurring (market observation)
+Event: CBRS (Cerebras Systems Inc.) post-earnings intraday crash
+Chart: 15m candle showing -19% flash crash (265.550 → 214.710)
 
-HeartCanHodl: "Spcx pump reminds me of this
+HeartCanHodl: "Well… this can happen to any of your stocks at any point"
 
-09/08/2025 - Btc & Eth"
-
-Unable to classify — what historical pattern is he referencing? What's his read on SPCX here?
+⚠️ Risk-management educational post highlighting liquidation/volatility risk on individual positions during earnings season. No personal trade action by HCH.

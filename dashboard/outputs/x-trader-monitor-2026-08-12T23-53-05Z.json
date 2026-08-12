@@ -1,0 +1,112 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Market Risk Observation",
+        "description": "Post-earnings crash analysis by @HeartCanHodl"
+      },
+      "children": [
+        "heading_title",
+        "sep_1",
+        "stack_event",
+        "sep_2",
+        "text_quote",
+        "sep_3",
+        "alert_context"
+      ]
+    },
+    "heading_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Market Risk Observation — @HeartCanHodl",
+        "level": "h2"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_event": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_ticker",
+        "text_event",
+        "stat_crash",
+        "text_price_move",
+        "text_timeframe"
+      ]
+    },
+    "badge_ticker": {
+      "type": "Badge",
+      "props": {
+        "text": "CBRS (Cerebras Systems Inc.)",
+        "variant": "default"
+      }
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Post-earnings intraday crash",
+        "variant": "lead"
+      }
+    },
+    "stat_crash": {
+      "type": "Stat",
+      "props": {
+        "label": "Flash Crash",
+        "value": "-19%",
+        "trend": "down"
+      }
+    },
+    "text_price_move": {
+      "type": "Text",
+      "props": {
+        "text": "Price movement: 265.550 → 214.710",
+        "variant": "body"
+      }
+    },
+    "text_timeframe": {
+      "type": "Text",
+      "props": {
+        "text": "Timeframe: 15-minute candle",
+        "variant": "caption"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"Well… this can happen to any of your stocks at any point\"",
+        "variant": "body"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_context": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk Management Education",
+        "message": "Educational post highlighting liquidation and volatility risk on individual positions during earnings season. No personal trade action by HeartCanHodl.",
+        "type": "info"
+      }
+    }
+  }
+}
