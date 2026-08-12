@@ -1,22 +1,21 @@
-*Morning Brief — 2026-08-11*
+*Morning Brief — 2026-08-12*
 
 *Focus today*
-1. CPI tomorrow 8:30 ET — why now: BTC at $64K, regime flip live both directions
-2. WR SPY/QQQ puts DCA — why now: Kyle decision open; Aug opex window closing fast
-3. GOLD divergence live — why now: KillaXBT stop barely held at 4440; WR re-leveraged again
+1. CPI at 8:30 ET (today) — soft print → BTC $66-67K / DeFi rotation accelerates; hot → Sep hike >50%, tests $62.7K
+2. DeFi rotation day 4 — LINK +3.8% 24h / +6.7% 7d; 4 straight sessions outperforming red tape
+3. KillaXBT "Overconfidence" calibration pending — HR-2 sent, awaiting Kyle's read on conviction signal
 
 *Since yesterday*
-- Moved: BTC -$870 to $64,027; ETH broke $1,900 support to $1,877
-- Moved: Polymarket Sep no-change now modal (56.5%) — rate expectations softened before CPI print
-- Moved: CASHCAT reversed (-6.1%); LINK only blue-chip trending up (+2.4%); DEX vol recovered to $6.24B
-- Pending: 4 calibration alerts awaiting Kyle reply (WR GDX/GOLD, Chase chart, HCH screenshot, trading_axe reply)
+- Moved: Breadth 9/20 → 12/20; alts recovering despite BTC -0.5%; F&G slipped further to 27 (divergence)
+- Moved: DEX vol $6.29B → $5.65B — pre-event quiet; volume confirming hold mode
+- Moved: Fed +25bps Sep repriced to 37.5% YES (from 38.5%)
+- New: Strait of Hormuz tail-risk market at 3.95% YES ($624K vol) surfacing in Polymarket top flow
+- New: HCH risk-off / hedging conviction from 23:15 UTC last night (supporting channel, no primary-channel trade yet)
 
 *Watch*
-- CPI soft 3.3% → risk-on flip toward $67K; hot 3.5%+ → tests $62.7K — implication for focus #1
+- CPI soft (consensus 0.1% MoM) → LINK + ETH $1,885 best risk-on recovery candidates per market-context
+- HMM +124.8% trending [PUMP-RISK, #867] — micro-cap noise, not signal
 
 *Running today*
-- heartbeat @ 08:00, 14:00, 20:00 UTC
-- token-alert @ 12:00 UTC
-- market-context-refresh @ 13:00 UTC
-- narrative-tracker @ 13:30 UTC
-- skill-health @ 18:00 UTC
+- morning-pipeline @ 07:00 UTC (now)
+- market-context-refresh @ 10:00 UTC

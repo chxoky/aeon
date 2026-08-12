@@ -1,0 +1,472 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-08-12"
+      },
+      "children": [
+        "focus_section",
+        "sep1",
+        "yesterday_section",
+        "sep2",
+        "watch_section",
+        "sep3",
+        "running_section"
+      ]
+    },
+    "focus_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus_heading",
+        "focus_item_1",
+        "focus_item_2",
+        "focus_item_3"
+      ]
+    },
+    "focus_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "focus_item_1": {
+      "type": "Text",
+      "props": {
+        "text": "CPI at 8:30 ET (today) — soft print → BTC $66-67K / DeFi rotation accelerates; hot → Sep hike >50%, tests $62.7K",
+        "variant": "body"
+      }
+    },
+    "focus_item_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_2_intro",
+        "focus_2_stats",
+        "focus_2_note"
+      ]
+    },
+    "focus_2_intro": {
+      "type": "Text",
+      "props": {
+        "text": "DeFi rotation day 4",
+        "variant": "body"
+      }
+    },
+    "focus_2_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "link_24h",
+        "link_7d"
+      ]
+    },
+    "link_24h": {
+      "type": "Stat",
+      "props": {
+        "label": "LINK 24h",
+        "value": "+3.8%",
+        "trend": "up"
+      }
+    },
+    "link_7d": {
+      "type": "Stat",
+      "props": {
+        "label": "LINK 7d",
+        "value": "+6.7%",
+        "trend": "up"
+      }
+    },
+    "focus_2_note": {
+      "type": "Text",
+      "props": {
+        "text": "4 straight sessions outperforming red tape",
+        "variant": "caption"
+      }
+    },
+    "focus_item_3": {
+      "type": "Text",
+      "props": {
+        "text": "KillaXBT \"Overconfidence\" calibration pending — HR-2 sent, awaiting Kyle's read on conviction signal",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "yesterday_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "yesterday_heading",
+        "yest_item_1",
+        "yest_item_2",
+        "yest_item_3",
+        "yest_item_4",
+        "yest_item_5"
+      ]
+    },
+    "yesterday_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "yest_item_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yest_1_label",
+        "yest_1_breadth",
+        "yest_1_detail"
+      ]
+    },
+    "yest_1_label": {
+      "type": "Text",
+      "props": {
+        "text": "Moved: Breadth",
+        "variant": "body"
+      }
+    },
+    "yest_1_breadth": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "breadth_from",
+        "breadth_to"
+      ]
+    },
+    "breadth_from": {
+      "type": "Stat",
+      "props": {
+        "value": "9/20"
+      }
+    },
+    "breadth_to": {
+      "type": "Stat",
+      "props": {
+        "value": "12/20"
+      }
+    },
+    "yest_1_detail": {
+      "type": "Text",
+      "props": {
+        "text": "Alts recovering despite BTC -0.5%; F&G slipped further to 27 (divergence)",
+        "variant": "caption"
+      }
+    },
+    "yest_item_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yest_2_label",
+        "yest_2_vol",
+        "yest_2_detail"
+      ]
+    },
+    "yest_2_label": {
+      "type": "Text",
+      "props": {
+        "text": "Moved: DEX vol",
+        "variant": "body"
+      }
+    },
+    "yest_2_vol": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "dex_from",
+        "dex_to"
+      ]
+    },
+    "dex_from": {
+      "type": "Stat",
+      "props": {
+        "value": "$6.29B"
+      }
+    },
+    "dex_to": {
+      "type": "Stat",
+      "props": {
+        "value": "$5.65B"
+      }
+    },
+    "yest_2_detail": {
+      "type": "Text",
+      "props": {
+        "text": "Pre-event quiet; volume confirming hold mode",
+        "variant": "caption"
+      }
+    },
+    "yest_item_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yest_3_label",
+        "yest_3_stats"
+      ]
+    },
+    "yest_3_label": {
+      "type": "Text",
+      "props": {
+        "text": "Moved: Fed +25bps Sep repriced",
+        "variant": "body"
+      }
+    },
+    "yest_3_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "fed_from",
+        "fed_to"
+      ]
+    },
+    "fed_from": {
+      "type": "Stat",
+      "props": {
+        "value": "38.5%"
+      }
+    },
+    "fed_to": {
+      "type": "Stat",
+      "props": {
+        "value": "37.5% YES"
+      }
+    },
+    "yest_item_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yest_4_label",
+        "yest_4_stats",
+        "yest_4_detail"
+      ]
+    },
+    "yest_4_label": {
+      "type": "Text",
+      "props": {
+        "text": "New: Strait of Hormuz tail-risk market",
+        "variant": "body"
+      }
+    },
+    "yest_4_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "hormuz_odds",
+        "hormuz_vol"
+      ]
+    },
+    "hormuz_odds": {
+      "type": "Stat",
+      "props": {
+        "value": "3.95% YES"
+      }
+    },
+    "hormuz_vol": {
+      "type": "Stat",
+      "props": {
+        "value": "$624K vol"
+      }
+    },
+    "yest_4_detail": {
+      "type": "Text",
+      "props": {
+        "text": "Surfacing in Polymarket top flow",
+        "variant": "caption"
+      }
+    },
+    "yest_item_5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yest_5_label",
+        "yest_5_detail"
+      ]
+    },
+    "yest_5_label": {
+      "type": "Text",
+      "props": {
+        "text": "New: HCH risk-off / hedging conviction",
+        "variant": "body"
+      }
+    },
+    "yest_5_detail": {
+      "type": "Text",
+      "props": {
+        "text": "From 23:15 UTC last night (supporting channel, no primary-channel trade yet)",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "watch_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "watch_heading",
+        "watch_item_1",
+        "watch_item_2"
+      ]
+    },
+    "watch_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "watch_item_1": {
+      "type": "Text",
+      "props": {
+        "text": "CPI soft (consensus 0.1% MoM) → LINK + ETH $1,885 best risk-on recovery candidates per market-context",
+        "variant": "body"
+      }
+    },
+    "watch_item_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "watch_2_main",
+        "watch_2_badge"
+      ]
+    },
+    "watch_2_main": {
+      "type": "Stat",
+      "props": {
+        "label": "HMM",
+        "value": "+124.8%",
+        "trend": "up"
+      }
+    },
+    "watch_2_badge": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_pump_risk",
+        "badge_867",
+        "note_noise"
+      ]
+    },
+    "badge_pump_risk": {
+      "type": "Badge",
+      "props": {
+        "text": "PUMP-RISK",
+        "variant": "destructive"
+      }
+    },
+    "badge_867": {
+      "type": "Badge",
+      "props": {
+        "text": "#867",
+        "variant": "outline"
+      }
+    },
+    "note_noise": {
+      "type": "Text",
+      "props": {
+        "text": "Micro-cap noise, not signal",
+        "variant": "caption"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "running_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "running_heading",
+        "running_item_1",
+        "running_item_2"
+      ]
+    },
+    "running_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "running_item_1": {
+      "type": "Text",
+      "props": {
+        "text": "morning-pipeline @ 07:00 UTC (now)",
+        "variant": "body"
+      }
+    },
+    "running_item_2": {
+      "type": "Text",
+      "props": {
+        "text": "market-context-refresh @ 10:00 UTC",
+        "variant": "body"
+      }
+    }
+  }
+}
