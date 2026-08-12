@@ -1,0 +1,85 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @Wild_Randomness"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event_info",
+        "separator1",
+        "tweet_content",
+        "separator2",
+        "analysis_section",
+        "tweet_link"
+      ]
+    },
+    "event_info": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Cryptic macro assertion posted Aug 12 19:03:35 UTC",
+        "variant": "body"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "tweet_content": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Was true two days ago, even more true today"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "analysis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "analysis_prompt",
+        "possible_refs"
+      ]
+    },
+    "analysis_prompt": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "lead"
+      }
+    },
+    "possible_refs": {
+      "type": "Text",
+      "props": {
+        "text": "Possible refs: Jump Shark thesis (GOLD/BTC divergence, vol structure), AAPL box hold, SPCX breakout, GOLD retracement, or external Aug 10 catalyst?",
+        "variant": "body"
+      }
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/Wild_Randomness/status/2087616003803070465"
+      }
+    }
+  }
+}
