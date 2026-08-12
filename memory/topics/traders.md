@@ -6,6 +6,7 @@
 - Calibration: RESOLVED "Fc" = false-close TA check, not trade signal. PENDING Aug 07 12:40Z ("~" cryptic tilde). PENDING Aug 07 18:56Z ("Nb rdw, spcx, rklb 15" — "Nb" meaning unknown). PENDING Aug 09 00:44Z (TAO "Finally lol" — TAO position relief or market banter?). Keep ALL Fc messages as silent technical-check logs.
 - Last seen: 2026-08-12T11:59:57Z (X — KAITO short position status chart)
 - **Events (rolling):**
+  - Aug 12 13:10Z — technical-check: DC Chat "Fc sndk 15m" — false-close chart check on SanDisk 15m; supporting-channel technical observation only, no execution language, no trade action; silent log per HR-1 protocol [1537085859092762695]
   - Aug 12 11:59Z — informational-position-status: X KAITO short chart share; prior Jul 27 entry @~1.1867 now 0.4919 (+58.5% profit, -64% from peak 1.3764); thesis validated; alerted [$KAITO] [2087509391889277387]
   - Aug 12 11:04Z — trade-conviction-add: DC Trades "Add 2% eth short" — ETH short escalation after full close Jul 31 14:27Z; re-entry suggests renewed structure bearishness on ETH independent of net-long major-pair regime; verbatim channel rule compliance (HCH—Trades primary); alerted fast-path [$ETH] [1537054228625752215]
   - Aug 12 09:14Z — technical-check: DC Chat "Fc btc 1hr ema50" — false-close chart check on BTC 1hr EMA50; supporting-channel technical observation only, no execution language, no trade action; silent log per HR-1 protocol [1537026584651763773]
