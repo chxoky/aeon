@@ -199,6 +199,7 @@
   - Aug 11 16:22Z — informational-sentiment: ES/NQ divergence chart (2022 structure comparison); "NQ laggard, broadening away from tech" = equities rotation observation; macro market structure alignment with Jump-Shark thesis [$ES $NQ] [2087213030484607028]
   - Aug 11 18:30Z — informational-reinforcement: AAPL technical chart validation; "Progressing ahead of schedule" — 2 chart images showing consolidation/support structure validating systematic daily short-add thesis ($312-315 box); price action unfolding faster than expected per technical structure; 3-trader convergence (HCH+WR+KillaXBT AAPL short) [$AAPL] [2087245146954084443]
   - Aug 11 18:45Z — skip: @0xgoodie @BigDickBull69 reply meme (no financial content) [2087249029541528013]
+  - Aug 12 13:29Z — ambiguous-cryptic: "@0xbigmikey" + 2 chart images (XYZ100 HIP-3 Hyperliquid 15m + BTCUSDT Binance 15m); no caption text showing parallel recovery patterns; unclear if bullish confirmation, pattern observation, or trade setup signal; HR-2 calibration sent to Kyle [$XYZ $BTC] [2087531831357010142]
 
 ## trading_axe
 - Platforms: X (primary; X-only)

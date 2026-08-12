@@ -1,0 +1,85 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading-calibration",
+        "text-event",
+        "separator-1",
+        "heading-images",
+        "chart-1",
+        "chart-2",
+        "separator-2",
+        "alert-analysis"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h1"
+      },
+      "children": []
+    },
+    "text-event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Cryptic chart comparison post sent to @0xbigmikey",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading-images": {
+      "type": "Heading",
+      "props": {
+        "text": "Images",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "chart-1": {
+      "type": "Text",
+      "props": {
+        "text": "(1) XYZ100 HIP-3 Hyperliquid 15m — recovery from 29419 to ~29868",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "chart-2": {
+      "type": "Text",
+      "props": {
+        "text": "(2) BTCUSDT Binance 15m — recovery from 63238 to spike 64500, now ~63912",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert-analysis": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read? Is this a bullish confirmation signal, trade setup share, or pattern observation?",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}
