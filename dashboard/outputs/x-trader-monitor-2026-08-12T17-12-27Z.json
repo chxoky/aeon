@@ -1,0 +1,24 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-card"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "$SPCX — Taking profits targeting $150 (50% TP goal, then reassess). If accepts above $150 into range, will re-add.\n\nCurrent: $133.01 | 1D chart shows consolidation 120-160 zone with $150 target marked"
+      },
+      "children": []
+    }
+  }
+}
