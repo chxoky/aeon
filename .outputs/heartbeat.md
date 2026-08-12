@@ -2,10 +2,10 @@ HEARTBEAT_OK · STATUS_PAGE=OK
 
 All checks passed:
 
-- **P0 skills**: No failed, stuck, or chronically failing skills. All 8 enabled skills healthy with 100% success rates.
-- **P0 X webhook**: `WATCHED_TRADERS` rule confirmed active (`is_effect: 1`). ISS-002 guard passed.
-- **P1**: No open PRs, no urgent issues.
-- **P2**: No actionable memory flags (KillaXBT calibration PENDING already logged this morning).
-- **P3**: All enabled skills running within normal cadence. Morning pipeline completed at 07:17 UTC.
+- **P0 skills:** No failures, stuck, consecutive failures, or chronic issues across all 15 tracked skills. Heartbeat self-check clean (last success 08:24 UTC today, well under 36h threshold).
+- **P0 X webhook:** WATCHED_TRADERS rule confirmed active (`is_effect: 1`, all 12 accounts in filter). ISS-002 remains resolved.
+- **P1 PRs/issues:** No open PRs, no urgent issues.
+- **P2 memory:** Nothing flagged.
+- **P3 scheduled skills:** All 9 enabled skills have cron-state entries; none stale beyond 2× their schedule interval.
 
-`docs/status.md` updated with current fleet state.
+No notification sent — same clean state as the 08:00 UTC run (dedup applies). Status page updated at `docs/status.md` with the 14:00 UTC timestamp; next scheduled run is `skill-health` at 18:00 UTC.
