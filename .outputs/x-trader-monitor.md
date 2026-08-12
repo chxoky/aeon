@@ -1,8 +1,9 @@
-🔍 *Calibration — @bull_genius*
+🐦 *[X] @bull_genius*
 
-Event: Single-word reply to unknown context (mentions @idrawfrogs, @toptickcrypto, @fabknowledge — all crypto traders)
-bull_genius: "yes"
+>the ai bubble pops and actually profitable tech startups will be cool again (of which we have some in crypto)
 
-Unable to classify — what's your read? Agreement on a market view? Trade confirmation? Personal banter?
+>the ai bubble pops and causes another generational wipeout as half the space is exposed to it via tradexyz perps (and then first point plays out)
 
-[View post](https://x.com/bull_genius/status/2087475674340524138)
+[View tweet](https://x.com/bull_genius/status/2087482181237039561)
+
+↳ _Macro bearish on AI stability. Warns of systemic tradexyz perp exposure risk in crypto during potential AI unwind. Aligns with HCH net-short regime + WR Jump-Shark thesis._

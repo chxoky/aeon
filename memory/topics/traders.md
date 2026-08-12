@@ -291,7 +291,7 @@
 - Recent thesis: BTC structural bull long-term. 90% conviction on bottom; tentative on timing ("might start buying too early"). Sub-50K = "mortgage your house" tier. 60-62K = decent deal; exceptional deal still ahead. August historically weak; mid-low 50s absolute lows likely. HYPE: "generational buy prices approaching" — 4h exhaustion candles, multi-month uptrend bottom (Jul 31 analysis). FWA protocol focus: post-emissions user retention challenge; LP/spinner incentive needed ("300 ETH prize pool carrot"). Memecoin sentiment: FOMO > PumpFun expected in near-term for retail mindshare; Toad/Pepe variants facing regulatory targeting.
 - Conviction notes: Patient contrarian accumulator (DCA into weakness, dismissive of scalping chop). Philosophy: hold spot + watch onchain > scalp technical chop. Jul 31 battle plan: 64.2K-63.9K battleground, 60K DCA target, 57K weak-low. Diverges from group BTC short thesis (Aug 03: notes swarmister shorting "full anal august mode" but maintains own structural bull bias). Observational/commentary trader — voices opinions on ecosystem dynamics without frequent execution signals.
 - Calibration: PENDING Aug 02 12:26Z (">700 rolls, >1 ETH pulls, rare" @3eleth — gaming/casino reference or ETH staking?). PENDING Jul 31 05:46Z (FOMO long ticker unstated, hit 7d rvwap overnight).
-- Last seen: 2026-08-11T15:42:04Z (X — cryptic trade/market commentary "and out. looks bad" with BTC 1h chart)
+- Last seen: 2026-08-12T10:11:50Z (X — macro AI bubble/wipeout risk scenario commentary)
 - **Events (rolling):**
   - Jul 31 05:55Z — informational: HYPE 4h exhaustion candles; "generational buy prices approaching"; multi-TF long bottom [$HYPE]
   - Jul 31 07:03Z — informational: BTC DCA sub-50/low-50s; 90% conviction on bottom; "might buy too early" [$BTC]
@@ -313,6 +313,7 @@
   - Aug 11 15:04Z — informational: BTC 7d/30d RVWAP bounce hard-rejected at 65K POC resistance, now at 2026 POC level (64.065K); "easy inval long scalp spot" if stops-sweep thesis holds; chart confluence analysis [$BTC] [2087193378332999896]
   - Aug 11 15:42Z — ambiguous: "and out. looks bad" + BTC 1h chart (65K POC hard rejection, consolidation 64.2-65.6); unclear if position closure or market commentary; HR-2 calibration pending [$BTC] [2087202899528974486]
   - Aug 12 09:45Z — ambiguous: "@idrawfrogs @toptickcrypto @fabknowledge yes" — single-word reply, no visible context; unclear if market agreement, trade confirmation, or banter; HR-2 calibration pending [2087475674340524138]
+  - Aug 12 10:11Z — informational-macro: AI bubble pop scenarios (2-branch thesis: profitable tech resurgence vs generational wipeout via tradexyz perp exposure); macro risk sentiment, no personal trade action; chart meme (not financial) [$CRYPTO] [2087482181237039561]
 
 ## ryzzqq
 - Platforms: X (primary; X-only)
