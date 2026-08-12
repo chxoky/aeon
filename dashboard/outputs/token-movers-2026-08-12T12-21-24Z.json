@@ -1,0 +1,373 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Token Movers — Aug 12, 2026"
+      },
+      "children": [
+        "intro",
+        "sep1",
+        "winners-section",
+        "sep2",
+        "losers-section",
+        "sep3",
+        "trending-section",
+        "sep4",
+        "notable-section"
+      ]
+    },
+    "intro": {
+      "type": "Text",
+      "props": {
+        "text": "Post-CPI recovery — BTC climbed to $64,201 (−0.3% 24h) from the morning low of $63.6K; 48/100 top coins green, median +0.35%; prior losers mostly bounced back, leaving a quiet tape with only micro-cap outliers moving materially.",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "winners-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "winners-heading",
+        "winners-table"
+      ]
+    },
+    "winners-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Winners (24h)",
+        "level": "h3"
+      }
+    },
+    "winners-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Symbol",
+          "Name",
+          "Price",
+          "24h%",
+          "7d%",
+          "1h%",
+          "Market Cap",
+          "Rank",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "BEAT",
+            "Audiera",
+            "$1.33",
+            "+30.7%",
+            "−45.2%",
+            "+1.1%",
+            "$166M",
+            "#106",
+            "FADE, TRENDING+UP"
+          ],
+          [
+            "BTW",
+            "Bitway",
+            "$0.2377",
+            "+17.5%",
+            "+59.5%",
+            "−4.8%",
+            "$27.4M",
+            "#88",
+            "BREAKOUT"
+          ],
+          [
+            "PI",
+            "Pi Network",
+            "$0.0884",
+            "+3.7%",
+            "+0.6%",
+            "−0.3%",
+            "$5.1M",
+            "#67",
+            ""
+          ],
+          [
+            "JST",
+            "JUST",
+            "$0.1026",
+            "+3.5%",
+            "−2.1%",
+            "+0.1%",
+            "$21.9M",
+            "#75",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "losers-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "losers-heading",
+        "losers-table"
+      ]
+    },
+    "losers-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Losers (24h)",
+        "level": "h3"
+      }
+    },
+    "losers-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Symbol",
+          "Name",
+          "Price",
+          "24h%",
+          "7d%",
+          "1h%",
+          "Market Cap",
+          "Rank",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "ICP",
+            "Internet Computer",
+            "$2.24",
+            "−2.3%",
+            "+7.0%",
+            "−0.2%",
+            "$40.5M",
+            "#58",
+            ""
+          ],
+          [
+            "ALGO",
+            "Algorand",
+            "$0.0812",
+            "−2.1%",
+            "−9.1%",
+            "−0.3%",
+            "$21.3M",
+            "#79",
+            ""
+          ],
+          [
+            "APT",
+            "Aptos",
+            "$0.5700",
+            "−2.1%",
+            "−2.0%",
+            "+0.1%",
+            "$28.2M",
+            "#100",
+            ""
+          ],
+          [
+            "DOT",
+            "Polkadot",
+            "$0.7909",
+            "−1.6%",
+            "−7.0%",
+            "+0.1%",
+            "$56.0M",
+            "#53",
+            ""
+          ],
+          [
+            "PENGU",
+            "Pudgy Penguins",
+            "$0.00640",
+            "−1.6%",
+            "+6.0%",
+            "+0.1%",
+            "$73.3M",
+            "#109",
+            "TRENDING+DOWN"
+          ]
+        ]
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "trending-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "trending-heading",
+        "trending-table"
+      ]
+    },
+    "trending-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending",
+        "level": "h3"
+      }
+    },
+    "trending-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Symbol",
+          "Name",
+          "Rank",
+          "Price",
+          "24h%",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "HMM",
+            "Thinking Cat",
+            "#863",
+            "$0.0175",
+            "+79.9%",
+            "PUMP-RISK"
+          ],
+          [
+            "PONS",
+            "Pons",
+            "#586",
+            "$0.0475",
+            "+0.6%",
+            ""
+          ],
+          [
+            "APR",
+            "aPriori",
+            "#250",
+            "$0.3751",
+            "+90.5%",
+            "PUMP-RISK"
+          ],
+          [
+            "PENGU",
+            "Pudgy Penguins",
+            "#109",
+            "$0.0064",
+            "−1.6%",
+            "TRENDING+DOWN"
+          ],
+          [
+            "STONKBROKER",
+            "StonkBroker",
+            "#404",
+            "$0.0353",
+            "+0.4%",
+            ""
+          ],
+          [
+            "BTC",
+            "Bitcoin",
+            "#1",
+            "$64,175",
+            "−0.3%",
+            ""
+          ],
+          [
+            "BEAT",
+            "Audiera",
+            "#103",
+            "$1.305",
+            "+44.1%",
+            "TRENDING+UP, FADE"
+          ]
+        ]
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "notable-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "notable-heading",
+        "notable-items"
+      ]
+    },
+    "notable-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h3"
+      }
+    },
+    "notable-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "notable-1",
+        "notable-2",
+        "notable-3",
+        "notable-4"
+      ]
+    },
+    "notable-1": {
+      "type": "Text",
+      "props": {
+        "text": "• APR: new to trending, rank #250, up 90.5% — [PUMP-RISK]; discard as signal, high manipulation risk",
+        "variant": "body"
+      }
+    },
+    "notable-2": {
+      "type": "Text",
+      "props": {
+        "text": "• BEAT: [TRENDING+UP][FADE] — 30.7% intraday spike on 7d −45.2% base; relief bounce, not sustained",
+        "variant": "body"
+      }
+    },
+    "notable-3": {
+      "type": "Text",
+      "props": {
+        "text": "• BTW: [BREAKOUT] confirmed — +17.5% / 7d +59.5%; upgraded from near-breakout flagged this morning",
+        "variant": "body"
+      }
+    },
+    "notable-4": {
+      "type": "Text",
+      "props": {
+        "text": "• HMM: [PUMP-RISK] 3rd consecutive session in trending at rank #863 (+79.9%); pattern unchanged",
+        "variant": "body"
+      }
+    }
+  }
+}

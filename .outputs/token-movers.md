@@ -1,42 +1,31 @@
-*Token Movers — 2026-08-12*
+*Token Movers — Aug 12, 2026*
 
-_CPI day — tape flat; 54/100 top coins green, median top-50 move +0.2%; BTC −0.5% at $63,652, no broad direction._
+_Post-CPI recovery — BTC climbed to $64,201 (−0.3% 24h) from the morning low of $63.6K; 48/100 top coins green, median +0.35%; prior losers mostly bounced back, leaving a quiet tape with only micro-cap outliers moving materially._
 
 *Top Winners (24h)*
-1. BTW (Bitway) — $0.2217  +14.1% / 7d +66.2% / 1h +2.3%  •  $12.9M / #88
-2. CC (Canton) — $0.0983  +4.8% / 7d −9.8% / 1h −0.7%  •  $15.8M / #25  [FADE]
-3. CRV (Curve) — $0.2765  +4.3% / 7d +33.2% / 1h +0.4%  •  $95.1M / #106
-4. M (MemeCore) — $1.12  +3.9% / 7d −6.8% / 1h +1.0%  •  $5.1M / #50  [FADE]
-5. LINK (Chainlink) — $8.72  +3.8% / 7d +6.7% / 1h +0.1%  •  $350M / #18  [MAJOR]
-6. FIGR (Figure Heloc) — $1.038  +3.5% / 7d +3.5% / 1h 0.0%  •  $68.8M / #9  [MAJOR]
-7. NEAR — $1.65  +2.4% / 7d −4.4% / 1h −1.8%  •  $186M / #39
-8. DOGE — $0.0715  +2.2% / 7d +2.3% / 1h −0.7%  •  $514M / #11  [MAJOR]
-9. GRAM — $1.36  +2.2% / 7d −2.4% / 1h −0.5%  •  $24.1M / #26
-10. TAO (Bittensor) — $202.5  +1.9% / 7d +2.3% / 1h −0.4%  •  $96.9M / #42
+1. BEAT (Audiera) — $1.33  +30.7% / 7d −45.2% / 1h +1.1%  •  $166M / #106  [FADE][TRENDING+UP]
+2. BTW (Bitway) — $0.2377  +17.5% / 7d +59.5% / 1h −4.8%  •  $27.4M / #88  [BREAKOUT]
+3. PI (Pi Network) — $0.0884  +3.7% / 7d +0.6% / 1h −0.3%  •  $5.1M / #67
+4. JST (JUST) — $0.1026  +3.5% / 7d −2.1% / 1h +0.1%  •  $21.9M / #75
 
 *Top Losers (24h)*
-1. UNI (Uniswap) — $3.62  −9.0% / 7d −8.4% / 1h −4.0%  •  $191M / #37
-2. CASHCAT (Cash Cat) — $0.1406  −6.0% / 7d +60.6% / 1h −2.5%  •  $12.6M / #202  [TRENDING+DOWN]
-3. ICP (Internet Computer) — $2.23  −5.5% / 7d +5.5% / 1h −0.6%  •  $46.8M / #58
-4. SNX (Synthetix) — $0.2007  −5.1% / 7d −5.3% / 1h −0.9%  •  $7.8M / #231
-5. AVAX (Avalanche) — $6.24  −3.8% / 7d −6.6% / 1h −0.8%  •  $161M / #34
-6. CYS (Cysic) — $1.25  −3.2% / 7d +153.3% / 1h +1.1%  •  $111.9M / #155  [TRENDING+DOWN]
-7. ZEC (Zcash) — $477.3  −2.8% / 7d −7.7% / 1h −1.2%  •  $192M / #15
-8. ONDO — $0.3337  −1.3% / 7d −13.4% / 1h −0.2%  •  $69.0M / #46
-9. SHIB — $0.000004460  −1.3% / 7d −9.1% / 1h −0.4%  •  $58.1M / #36
-10. HYPE (Hyperliquid) — $54.78  −1.0% / 7d −3.6% / 1h +0.3%  •  $196M / #10  [MAJOR]
+1. ICP (Internet Computer) — $2.24  −2.3% / 7d +7.0% / 1h −0.2%  •  $40.5M / #58
+2. ALGO (Algorand) — $0.0812  −2.1% / 7d −9.1% / 1h −0.3%  •  $21.3M / #79
+3. APT (Aptos) — $0.5700  −2.1% / 7d −2.0% / 1h +0.1%  •  $28.2M / #100
+4. DOT (Polkadot) — $0.7909  −1.6% / 7d −7.0% / 1h +0.1%  •  $56.0M / #53
+5. PENGU (Pudgy Penguins) — $0.00640  −1.6% / 7d +6.0% / 1h +0.1%  •  $73.3M / #109  [TRENDING+DOWN]
 
 *Trending*
-1. HMM (Thinking Cat) — #867, $0.01750, +124.8%  [PUMP-RISK]
-2. PI (Pi Network) — #65, $0.08911, +2.3%
-3. PENGU (Pudgy Penguins) — #105, $0.006401, −0.3%
-4. HOLO (Holoworld) — #363, $0.08171, +14.8%
-5. PONS — #569, $0.04886, +16.4%
-6. TUT (Tutorial) — #356, $0.07655, −27.0%
-7. STONKBROKER — #389, $0.03649, −0.3%
+1. HMM (Thinking Cat) — #863, $0.0175, 24h +79.9%  [PUMP-RISK]
+2. PONS (Pons) — #586, $0.0475, 24h +0.6%
+3. APR (aPriori) — #250, $0.3751, 24h +90.5%  [PUMP-RISK]
+4. PENGU (Pudgy Penguins) — #109, $0.0064, 24h −1.6%  [TRENDING+DOWN]
+5. STONKBROKER (StonkBroker) — #404, $0.0353, 24h +0.4%
+6. BTC (Bitcoin) — #1, $64,175, 24h −0.3%
+7. BEAT (Audiera) — #103, $1.305, 24h +44.1%  [TRENDING+UP][FADE]
 
 *Notable*
-• HMM: rank #867, trending up 124.8% — [PUMP-RISK]; low-cap search spike, treat as noise
-• CASHCAT: trending while −6.0% on the day after 60.6% 7d run — prior pump visibly unwinding
-• BTW: +14.1% 24h, +66.2% 7d — sustained multi-day move, just under [BREAKOUT] threshold
-• CYS: 7d +153.3% ZK-prover story from Aug 8 still live; cooling today (−3.2%), momentum fading
+• APR: new to trending, rank #250, up 90.5% — [PUMP-RISK]; discard as signal, high manipulation risk
+• BEAT: [TRENDING+UP][FADE] — 30.7% intraday spike on 7d −45.2% base; relief bounce, not sustained
+• BTW: [BREAKOUT] confirmed — +17.5% / 7d +59.5%; upgraded from near-breakout flagged this morning
+• HMM: [PUMP-RISK] 3rd consecutive session in trending at rank #863 (+79.9%); pattern unchanged
