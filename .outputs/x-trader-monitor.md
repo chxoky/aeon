@@ -1,8 +1,8 @@
-🔍 *Calibration — @swarmister*
+🐦 *[X] @HeartCanHodl — KAITO Short Status*
 
-Event: returning home from vacation, "time to start thinking about crypto"
+Prior entry (Jul 27 @~$1.1867) now at $0.4919 — **58.5% profit on short**.
+Chart shows $1.3764 peak breakdown continuing to target zone ($0.7147 hit, now $0.4919 current).
 
-swarmister: "Btw, I bought something https://t.co/OMaN8mDNuQ"
-(Media: 6 vacation photos, no financial charts)
+[View tweet](https://x.com/HeartCanHodl/status/2087509391889277387)
 
-Unable to classify — what's your read? Is this a genuine trade signal or personal banter?
+_Validates documented Jul 27 KAITO short thesis. No new action required._

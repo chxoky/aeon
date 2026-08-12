@@ -1,0 +1,151 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "KAITO Short Status",
+        "description": "@HeartCanHodl - Trading Position Update"
+      },
+      "children": [
+        "tweet_card",
+        "sep1",
+        "stats_group",
+        "sep2",
+        "analysis_group",
+        "sep3",
+        "links_group"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "KAITO Short Status - Prior entry (Jul 27 @~$1.1867) now at $0.4919 — 58.5% profit on short. Chart shows $1.3764 peak breakdown continuing to target zone ($0.7147 hit, now $0.4919 current)."
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stats_group": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_entry",
+        "stat_current",
+        "stat_profit"
+      ]
+    },
+    "stat_entry": {
+      "type": "Stat",
+      "props": {
+        "label": "Entry Price (Jul 27)",
+        "value": "$1.1867"
+      },
+      "children": []
+    },
+    "stat_current": {
+      "type": "Stat",
+      "props": {
+        "label": "Current Price",
+        "value": "$0.4919"
+      },
+      "children": []
+    },
+    "stat_profit": {
+      "type": "Stat",
+      "props": {
+        "label": "Profit on Short",
+        "value": "58.5%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis_group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis_heading",
+        "analysis_text"
+      ]
+    },
+    "analysis_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Technical Analysis",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Chart shows $1.3764 peak breakdown continuing to target zone ($0.7147 hit, now $0.4919 current)"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "links_group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_link",
+        "validation_text",
+        "status_alert"
+      ]
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/HeartCanHodl/status/2087509391889277387"
+      },
+      "children": []
+    },
+    "validation_text": {
+      "type": "Text",
+      "props": {
+        "text": "Validates documented Jul 27 KAITO short thesis.",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "status_alert": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "No new action required."
+      },
+      "children": []
+    }
+  }
+}
