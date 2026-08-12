@@ -1,0 +1,41 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "link_view"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Dr. Axius",
+        "handle": "trading_axe",
+        "text": "@remp0x It's the first coin that appears on RH for crypto and was \"meant to be\" the name before they went with Robinhood.\n\nYou buy things predicting future catalysts,\n\nYou don't think retail will make tonnes of TikTok videos speaking about that/explaining it to others?\n\nEven Coinbase have a brief \"bio\" for coins - the lore will result in it being super recognizable."
+      }
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/trading_axe/status/2087496290787570037"
+      }
+    }
+  }
+}
