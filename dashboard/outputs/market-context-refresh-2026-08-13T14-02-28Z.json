@@ -1,0 +1,219 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "market context — 2026-08-13"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "take-section",
+        "sep1",
+        "prices-section",
+        "sep2",
+        "fear-greed",
+        "breadth-stat",
+        "dex-vol",
+        "sep3",
+        "trends-section",
+        "sep4",
+        "macro-section"
+      ]
+    },
+    "take-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "take-heading",
+        "take-text",
+        "conviction-badge"
+      ]
+    },
+    "take-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Take",
+        "level": "h3"
+      }
+    },
+    "take-text": {
+      "type": "Text",
+      "props": {
+        "text": "chop / risk-off lean",
+        "variant": "lead"
+      }
+    },
+    "conviction-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "conviction medium",
+        "variant": "secondary"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "prices-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "btc-stat",
+        "eth-stat"
+      ]
+    },
+    "btc-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$63,696",
+        "delta": "-0.9%",
+        "trend": "down"
+      }
+    },
+    "eth-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$1,889",
+        "delta": "-1.4%",
+        "trend": "down"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "fear-greed": {
+      "type": "Stat",
+      "props": {
+        "label": "Fear & Greed",
+        "value": "29",
+        "delta": "Fear"
+      }
+    },
+    "breadth-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Breadth",
+        "value": "5/20",
+        "delta": "was 12/20 AM",
+        "trend": "down"
+      }
+    },
+    "dex-vol": {
+      "type": "Stat",
+      "props": {
+        "label": "DEX volume",
+        "value": "$5.96B"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "trends-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trends-heading",
+        "trend1",
+        "xmr-stat",
+        "trend3"
+      ]
+    },
+    "trends-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top moves",
+        "level": "h3"
+      }
+    },
+    "trend1": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE/DEX perps rising"
+      }
+    },
+    "xmr-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "XMR",
+        "value": "+12.1%",
+        "delta": "7d rising",
+        "trend": "up"
+      }
+    },
+    "trend3": {
+      "type": "Text",
+      "props": {
+        "text": "ZK micro-caps fading"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "macro-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "macro-heading",
+        "fed-stat",
+        "clarity-stat"
+      ]
+    },
+    "macro-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Macro outlook",
+        "level": "h3"
+      }
+    },
+    "fed-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Fed No Change Sep",
+        "value": "66.5%"
+      }
+    },
+    "clarity-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Clarity Act",
+        "value": "20.5%"
+      }
+    }
+  }
+}

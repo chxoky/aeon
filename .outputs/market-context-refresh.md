@@ -1,8 +1,7 @@
 market context — 2026-08-13
 
-take: chop (conviction medium-low)
-BTC $63,855 (+0.28%) / ETH $1,896 (+0.41%) · F&G 29 Fear (+2)
-breadth 12/20 · DEX vol $5.92B · 7d breadth 8/20 (deteriorating)
-top narrative: ZK/AI infrastructure (rising) — ACU +32.6%, APR +47.3%, CYS +17.45%; HYPE +5.0% (DEX)
-hot market: "Fed No Change Sep 2026" YES 66.5% · Clarity Act 20.5% (+3pp reversal)
-PPI 8:30 AM ET: live binary
+take: chop / risk-off lean (conviction medium)
+BTC $63,696 (-0.9%) / ETH $1,889 (-1.4%) · F&G 29 Fear
+breadth 5/20 (was 12/20 AM) · DEX vol $5.96B
+top: HYPE/DEX perps rising · XMR +12.1% 7d rising · ZK micro-caps fading
+Fed No Change Sep 66.5% · Clarity Act 20.5%
