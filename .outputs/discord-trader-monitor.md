@@ -1,23 +1,19 @@
 ## Summary
 
-Skill `discord-trader-monitor` executed successfully for real-time event 2026-08-13T15:20:15Z.
+**discord-trader-monitor execution complete** ✓
 
 **Event processed:**
-- **Trader**: Crypto_Chase
-- **Channel**: 1336082716063694962 (Chase — Chase, primary)
-- **Message ID**: 1537480914869682196
-- **Content**: "SNDK trim at 1527~ if it comes, will be 90% closed"
-- **Classification**: informational-conditional-tp
+- **Trader:** Crypto_Chase
+- **Channel:** 1336082716063694962 (Chase — Chase, primary)
+- **Timestamp:** 2026-08-13T15:24:07Z
+- **Message:** "MU/SNDK hit, 80% / 90% closed"
+- **Classification:** Trade position-management confirmation
 
-**Execution flow:**
-1. Event decoded and validated ✓
-2. Channel resolved (Chase primary) ✓
-3. Fast-path check: true → **skipped Telegram send** per skill protocol ✓
-4. Message classified as conditional TP guidance (not execution yet) ✓
-5. Memory updated:
-   - Added message ID to `discord-trader-seen.txt`
-   - Updated `traders.md` with Crypto_Chase event log entry
-   - Appended structured log entry to `memory/logs/2026-08-13.md`
+**Key findings:**
+1. ✅ Fast-path alert already sent by Cloudflare Worker (~2-5s latency) — Telegram notification already delivered to Kyle
+2. ✅ MU: 80% cumulative closed (aligns with 14:56Z TP event, $700→$960 entry 15-day cycle)
+3. ✅ SNDK: 90% cumulative closed (fulfills 15:20Z conditional target, $980→$1527+ entry 15-day cycle)
+4. ✅ Remaining positions: MU ~20%, SNDK ~10% (both running under original DCA thesis)
 
 **Result:**
 - No duplicate Telegram alert (fast-path already notified Kyle)
@@ -44,3 +40,11 @@ Perfect. I've completed the skill execution. Here's what happened:
 - ✅ Message ID recorded in `memory/discord-trader-seen.txt` (line 117) to prevent reprocessing
 
 No Telegram alert sent (non-financial content). Skill complete.
+**Memory updates:**
+- ✅ traders.md: Updated Crypto_Chase section with new Aug 13 15:24Z event
+- ✅ traders.md: Updated current open positions (MU/SNDK remainder allocations)
+- ✅ traders.md: Updated Last seen timestamp
+- ✅ discord-trader-seen.txt: Added message ID 1537481888963239938
+- ✅ memory/logs/2026-08-13.md: Logged event with full context
+
+**No Telegram alert sent** (fast-path protocol: Worker already notified Kyle in real time). Skill execution complete.
