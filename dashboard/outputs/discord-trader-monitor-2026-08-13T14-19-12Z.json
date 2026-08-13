@@ -1,0 +1,23 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "alert_calibration"
+      ]
+    },
+    "alert_calibration": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Calibration Alert",
+        "message": "HCH emoji + screenshot in Chat channel — unable to classify without context"
+      }
+    }
+  }
+}
