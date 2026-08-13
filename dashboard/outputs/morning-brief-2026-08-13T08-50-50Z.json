@@ -1,0 +1,400 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-08-13",
+        "description": "Daily trading focus and position updates"
+      },
+      "children": [
+        "heading_focus",
+        "stack_focus",
+        "sep_1",
+        "heading_since",
+        "stack_since",
+        "sep_2",
+        "heading_watch",
+        "stack_watch",
+        "sep_3",
+        "heading_running",
+        "stack_running"
+      ]
+    },
+    "heading_focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "stack_focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus_item_1",
+        "focus_item_2",
+        "focus_item_3"
+      ]
+    },
+    "focus_item_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_1_title",
+        "focus_1_detail"
+      ]
+    },
+    "focus_1_title": {
+      "type": "Heading",
+      "props": {
+        "text": "swarmister SNDK approval (08:09Z)",
+        "level": "h3"
+      }
+    },
+    "focus_1_detail": {
+      "type": "Text",
+      "props": {
+        "text": "why now: $1,339 current, below ~$1,360 entry; SL likely hit",
+        "variant": "body"
+      }
+    },
+    "focus_item_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_2_title",
+        "focus_2_detail"
+      ]
+    },
+    "focus_2_title": {
+      "type": "Heading",
+      "props": {
+        "text": "HCH net-short deepened overnight",
+        "level": "h3"
+      }
+    },
+    "focus_2_detail": {
+      "type": "Text",
+      "props": {
+        "text": "why now: HYPE/LIT/PUMP added, half spot longs covered post-PPI",
+        "variant": "body"
+      }
+    },
+    "focus_item_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_3_title",
+        "focus_3_detail"
+      ]
+    },
+    "focus_3_title": {
+      "type": "Heading",
+      "props": {
+        "text": "ETH 10-day binary (WR Aug 23)",
+        "level": "h3"
+      }
+    },
+    "focus_3_detail": {
+      "type": "Text",
+      "props": {
+        "text": "why now: 7d flipped -0.8%; countdown running, conviction window open",
+        "variant": "body"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_since": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "stack_since": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "since_item_1",
+        "since_item_2",
+        "since_item_3",
+        "since_item_4",
+        "since_item_5"
+      ]
+    },
+    "since_item_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since_1_badge",
+        "since_1_text"
+      ]
+    },
+    "since_1_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "resolved",
+        "variant": "default"
+      }
+    },
+    "since_1_text": {
+      "type": "Text",
+      "props": {
+        "text": "PPI in-line → chop confirmed, BTC $63.8K held, no breakout catalyst",
+        "variant": "body"
+      }
+    },
+    "since_item_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since_2_badge",
+        "since_2_text"
+      ]
+    },
+    "since_2_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "shifted",
+        "variant": "secondary"
+      }
+    },
+    "since_2_text": {
+      "type": "Text",
+      "props": {
+        "text": "ETH 7d -0.8% (from +2.2%) — alt outperformance thesis cracking",
+        "variant": "body"
+      }
+    },
+    "since_item_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since_3_badge",
+        "since_3_text"
+      ]
+    },
+    "since_3_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "escalating",
+        "variant": "destructive"
+      }
+    },
+    "since_3_text": {
+      "type": "Text",
+      "props": {
+        "text": "HCH: BTC/UNI/PEPE covers 01:04Z + CL crude short + HYPE/LIT/PUMP 1% shorts 05:48Z",
+        "variant": "body"
+      }
+    },
+    "since_item_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since_4_badge",
+        "since_4_text"
+      ]
+    },
+    "since_4_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "public",
+        "variant": "outline"
+      }
+    },
+    "since_4_text": {
+      "type": "Text",
+      "props": {
+        "text": "swarmister BTC short declaration: building a short above 67K",
+        "variant": "body"
+      }
+    },
+    "since_item_5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since_5_badge",
+        "since_5_text"
+      ]
+    },
+    "since_5_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "resolved",
+        "variant": "default"
+      }
+    },
+    "since_5_text": {
+      "type": "Text",
+      "props": {
+        "text": "KAITO -26.9% capitulation: HCH + Stoiiic shorts both profitable, thesis validated",
+        "variant": "body"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "stack_watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "watch_item_1",
+        "watch_item_2"
+      ]
+    },
+    "watch_item_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "watch_1_title",
+        "watch_1_detail"
+      ]
+    },
+    "watch_1_title": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE unlock pressure",
+        "variant": "lead"
+      }
+    },
+    "watch_1_detail": {
+      "type": "Text",
+      "props": {
+        "text": "9 ETF outflow days, contributor unlock → OKX/Bybit transfers — tailwind for Focus #2 HCH short",
+        "variant": "body"
+      }
+    },
+    "watch_item_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "watch_2_title",
+        "watch_2_detail"
+      ]
+    },
+    "watch_2_title": {
+      "type": "Text",
+      "props": {
+        "text": "SNDK Q1 guidance miss (vs beat)",
+        "variant": "lead"
+      }
+    },
+    "watch_2_detail": {
+      "type": "Text",
+      "props": {
+        "text": "already dropped stock -10% Aug 6; $1,309–$1,389 range today — swarmister SL context for Focus #1",
+        "variant": "body"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "stack_running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "running_item_1",
+        "running_item_2",
+        "running_item_3",
+        "running_item_4"
+      ]
+    },
+    "running_item_1": {
+      "type": "Text",
+      "props": {
+        "text": "token-alert @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running_item_2": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running_item_3": {
+      "type": "Text",
+      "props": {
+        "text": "x-trader-monitor: continuous",
+        "variant": "body"
+      }
+    },
+    "running_item_4": {
+      "type": "Text",
+      "props": {
+        "text": "discord-trader-monitor: continuous",
+        "variant": "body"
+      }
+    }
+  }
+}
