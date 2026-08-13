@@ -7,3 +7,4 @@ IWM rallied from $250 to $302, now testing strong resistance zone at $302-305 le
 Historical seasonal pattern: Russell 2000 underperforms other indices by -7 to -8% during this calendar cycle (Aug weakness, Oct recovery typical).
 
 [View tweet](https://x.com/Wild_Randomness/status/2087938227621728302)
+🐦 [X] @Wild_Randomness: BTC liquidation structure analysis. Current bear market rally showing more balanced structure vs historical patterns. Reply to @CavanXy. https://x.com/Wild_Randomness/status/2087938909565276667
