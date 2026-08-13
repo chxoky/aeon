@@ -1,83 +1,85 @@
-# Market Context (as of 2026-08-12)
+# Market Context (as of 2026-08-13)
 
-> **Take:** chop — BTC -0.5% 24h at $63,863 with F&G frozen at 27 Fear; CPI resolved in-line (no regime breakout), breadth crept to 13/20, and alt 7d momentum is quietly building (ETH +2.2%, SOL +3.9%, LINK +8.6%) while BTC 7d rolled to flat. Conviction: medium.
+> **Take:** chop — BTC barely moved at $63,855 (+0.28% 24h) with F&G 29 Fear and breadth 12/20; PPI (8:30 AM ET) is the live binary — flat price action suggests market pre-positioning is neutral. Conviction: medium-low.
 
 ## Signal Snapshot
-- BTC $63,863 (-0.5% 24h, 0.0% 7d) · dominance 56.31% (~flat 24h)
-- ETH $1,902 (+0.8% 24h, +2.2% 7d) · ETH/BTC 0.02977
-- SOL $76.15 (+0.6% 24h, +3.9% 7d)
-- Total mcap $2.277T (-0.06% 24h) · DEX vol $5.64B 24h
-- Breadth: 13/20 green 24h · 12/20 green 7d
-- Fear & Greed: 27 (Fear) — yesterday 27
+- BTC $63,855 (+0.28% 24h, -1.5% 7d) · dominance 56.29% (-0.02pp 24h)
+- ETH $1,896 (+0.41% 24h, -0.8% 7d) · ETH/BTC 0.02970
+- SOL $76.39 (+0.51% 24h, +3.1% 7d)
+- Total mcap $2.276T (+0.18% 24h) · DEX vol $5.92B 24h
+- Breadth: 12/20 green 24h · 8/20 green 7d
+- Fear & Greed: 29 (Fear) — yesterday 27
 
 ## What Changed Since Last Refresh
-- **CPI resolved without breakout:** In-line print (consensus 3.4%) left BTC in $63K–$64.2K range — no soft-print rally to $66.9K, no hot-print flush to $62.7K. Chop regime confirmed for now; regime resolution deferred to Aug 13 PPI.
-- **BTC 7d recovered to 0.0%** (was -1.0%) — rolling window clearing early-Aug weakness; weekly structure no longer deteriorating, setting up for potential recovery if PPI cooperates.
-- **Alt 7d outperformance widening:** ETH 7d +2.2% (was +0.8%), SOL 7d +3.9% (was +2.6%), LINK 7d +8.6% (was +6.7%) — alts gaining on BTC across the 7d window despite 24h chop.
-- **Breadth: 12/20 → 13/20** (24h) — minor improvement; ZEC turned green (+0.8%), BNB/XRP/SOL/ETH held gains; LEO (-3.2%) the main drag.
-- **Clarity Act odds fell 4pp to 17.5%** (was 21.5%) — notable market repricing; largest single-day move in this market since Senate vote week.
-- **Hormuz market cluster expanded:** New "US ends Iranian blockade by Aug 15" market at 8.5% YES; "Hormuz normal by Sep 30" at 15.5% YES — market reframing tail risk as longer-duration (not just through Aug).
-- **DeFi TVL protocols all up 7d:** Lido $18.1B (+2.54%), SSV +2.89%, Morpho +2.65%, Aave +1.65% — broad-based TVL accumulation continuing.
+- **7d breadth collapsed 12/20 → 8/20** — rolling window now swallowing early-Aug weakness; BTC 7d flipped to -1.5% (was 0.0%) and ETH 7d to -0.8% (was +2.2%); the quiet alt accumulation story is softening in the 7d window.
+- **Clarity Act reversed yesterday's drop: 17.5% → 20.5% (+3pp)** — full reversal of the 4pp dump from Aug 12; unusual two-day whipsaw suggests active positioning around legislation timing, not directional conviction.
+- **HYPE emerged as the day's top-cap momentum leader:** +5.0% 24h in the top 20, trending #5 — DEX/perps narrative gaining while everything else is flat.
+- **ZK/AI micro-caps are running:** ACU +32.6%, APR +47.3%, CYS (ZK prover) +17.45% — AI infrastructure narrative broadening from CYS into multiple micro-caps on consecutive trending sessions.
+- **AI agent (VIRTUAL/TIBBIR) faded from trending** — yesterday's +4.80%/+14.86% AI agent spike did not follow through; launch platform narrative cooling.
+- **Hormuz Aug 31 market fell below 3%** — effectively priced as certain; "blockade through August" is now the base case; tail risk arc extends into September.
 
 ## Active Narratives
-- **Post-CPI chop consolidation** — phase: peak. Evidence: CPI released today at consensus 3.4%; BTC range-bound $63K–$64.2K post-print; Clarity Act fell 4pp suggesting broader macro optimism fading; DEX vol $5.64B flat.
-- **DeFi TVL accumulation** — phase: rising. Evidence: All top-5 DeFi protocols up 7d (Lido +2.54%, SSV +2.89%, Morpho +2.65%, Aave +1.65%, LayerZero V2 +1.61%); LINK trending #1 on CoinGecko for 2nd session, +2.0% 24h / +8.6% 7d.
-- **Alt 7d outperformance** — phase: emerging. Evidence: ETH 7d +2.2%, SOL 7d +3.9%, LINK 7d +8.6% vs BTC 7d 0.0% — 3-asset alt 7d all outperforming BTC on improving breadth (13/20); BTC dominance flat suggesting rotation not yet confirmed.
-- **AI agent / Virtual Protocol narrative** — phase: emerging. Evidence: VIRTUAL (#110) +4.80% 24h trending #6; Ribbita by Virtuals (TIBBIR #198) +14.86% trending #4 — AI agent micro-cap narrative resurfacing after consolidation.
-- **Geopolitical tail risk (Hormuz/Iran)** — phase: peak. Evidence: Hormuz Aug 31 YES 3.8% ($262K vol); new US/Iran blockade end by Aug 15 at 8.5% YES; Hormuz Sep 30 at 15.5% YES — market cluster now pricing ~3-month resolution arc, not August-only.
+- **DEX / Perps leadership** — phase: rising. Evidence: HYPE +5.0% 24h ($57.37), top-20 mover + trending #5; outperforming broad market by 4.7pp on a flat day, volume profile building.
+- **ZK/AI infrastructure** — phase: rising. Evidence: CYS +17.45% (2nd trending session), ACU +32.6% (trending #1), APR +47.3% (trending #6) — three distinct ZK/AI tokens with strong 24h in trending simultaneously; narrative broadening beyond single-token CYS.
+- **Post-CPI chop consolidation** — phase: fading. Evidence: BTC $63,855 vs $63,863 prior — $8 move overnight; CPI resolved in-line Aug 12, PPI pending Aug 13 8:30 AM ET; no directional break yet, narrative exhausted.
+- **DeFi TVL accumulation** — phase: fading. Evidence: Ethereum chain TVL $41.33B (-0.7% vs prior $41.61B); Lido $17.94B (-0.42% 7d) vs prior $18.1B; 5-day streak stalling; accumulation pace decelerating.
+- **Geopolitical tail risk (Hormuz/Iran)** — phase: peak. Evidence: Hormuz Aug 31 market fell below 3% YES (from 3.8%) — August resolution near-certain NO; "Hormuz Sep 30" not qualifying in top Polymarket markets; risk arc now priced as multi-month, not near-term catalyst.
 
 ## Top DeFi Protocols (TVL, 7d change)
-- Lido: $18.1B (+2.54%)
-- Aave V3: $14.2B (+1.65%)
-- SSV Network: $9.5B (+2.89%)
-- Morpho Blue: $7.9B (+2.65%)
-- WBTC: $7.3B (-0.02%)
+- Lido: $17.94B (-0.42%)
+- Aave V3: $14.19B (+0.28%)
+- SSV Network: ~$9.5B (prior; DeFiLlama API mixed CEX data — carry forward)
+- Morpho Blue: ~$7.9B (prior; carry forward)
+- WBTC: ~$7.3B (prior; carry forward)
 
 ## Chain Flow (top 5 by TVL, vs prior snapshot)
-- Ethereum: $41.61B (+0.6% vs prior $41.37B)
-- BSC: $4.99B (flat)
-- Solana: $4.86B (flat vs prior $4.85B)
-- Tron: $4.84B (flat)
-- Base: $4.65B (flat)
+- Ethereum: $41.33B (-0.7% vs prior $41.61B)
+- BSC: $4.84B (-3.0% vs prior $4.99B)
+- Solana: $4.83B (-0.6% vs prior $4.86B)
+- Tron: $4.83B (-0.2% vs prior $4.84B)
+- Base: $4.66B (+0.2% vs prior $4.65B)
 
 ## Stablecoins
-Total top 5: $270.7B (+0.04% vs prior $270.6B). USDT $183.0B · USDC $72.2B · USDS $6.7B · DAI $4.8B · USD1 $4.0B — combined share of mcap ~11.9%.
+Total top 5: $270.6B (flat vs prior $270.7B). USDT $183.0B · USDC $72.2B · USDS $6.6B · DAI $4.8B · USD1 $4.0B — combined share of mcap ~11.9%.
 
 ## Trending (CoinGecko)
-- LINK (Chainlink) — #18, $8.79, +2.0% 24h [DeFi rotation leader; 2nd consecutive trending day]
-- SOL (Solana) — #7, $76.15, +0.6% 24h [major; trending alongside LINK]
-- BTC (Bitcoin) — #1, $63,863, -0.3% 24h [macro benchmark; trending]
-- TIBBIR (Ribbita by Virtuals) — #198, +14.86% 24h [AI agent narrative, micro-cap — PUMP-RISK]
-- VIRTUAL (Virtual Protocol) — #110, +4.80% 24h [AI agent sector leader, more established]
-- PUMP (Pump.fun) — #64, +0.46% 24h [meme/launch platform; stable]
-- PEPE — #60, -0.77% 24h [blue-chip meme, fading]
-- HYPE (Hyperliquid) — #10, +2.39% 24h [DEX/perps; gaining]
-- CASHCAT — #200, -3.34% 24h [memecoin; unwinding from Aug 12 spike]
-- PONS — #594, -1.64% 24h [micro-cap; fading from prior 7d pump]
+- ACU (Acurast) — #476, $0.127, +32.60% [ZK/AI infrastructure micro-cap — PUMP-RISK]
+- HMM (Thinking Cat) — #764, $0.021, +24.29% [meme micro-cap — PUMP-RISK]
+- PENGU (Pudgy Penguins) — #104, $0.0063, -0.94% [NFT-adjacent, fading]
+- SOL (Solana) — #7, $76.36, +0.40% [major; steady]
+- HYPE (Hyperliquid) — #9, $57.37, +4.21% [DEX/perps day leader]
+- APR (aPriori) — #214, $0.466, +47.29% [ZK/AI micro-cap — PUMP-RISK]
+- PI (Pi Network) — #65, $0.088, -0.86% [fading]
+- PUMP (Pump.fun) — #62, $0.0028, +2.77% [meme/launch platform]
+- TAO (Bittensor) — #40, $199.71, -1.34% [AI infrastructure, consolidating]
+- CASHCAT — #192, $0.157, +12.33% [meme micro-cap — recovered from -3.34% yesterday]
+- ETH — #2, $1,895, +0.36%
+- LINK — #17, $8.75, +0.12% [DeFi rotation; dropped from #1 trending yesterday]
+- AERO (Aerodrome Finance) — #103, $0.413, -0.63% [DeFi/DEX, fading]
+- CYS (Cysic) — #142, $1.49, +17.45% [ZK prover; 2nd consecutive trending session]
+- SHIB — #34, +1.17% [meme, minor uptick]
 
-## Prediction Markets (Polymarket, qualifying macro/crypto)
+## Prediction Markets (Polymarket, top by 24h vol)
 | Market | YES% | 24h Vol | Liquidity |
 |--------|------|---------|-----------|
-| Strait of Hormuz traffic returns to normal by Aug 31? | 3.8% | $262K | $681K |
-| US announces end of Iranian blockade by Aug 15? | 8.5% | $276K | $99K |
-| Strait of Hormuz traffic returns to normal by Sep 30? | 15.5% | $261K | $435K |
-| Clarity Act (H.R.3633) signed into law in 2026? | 17.5% | $412K | $203K |
+| Fed No Change in September 2026? | 66.5% | $565K | $614K |
+| Clarity Act (H.R.3633) signed into law in 2026? | 20.5% | $435K | $231K |
 
-*Clarity Act down 4pp to 17.5% — largest single-day drop since Senate vote. Hormuz cluster now priced as 3-month arc (Aug→Sep resolution); Hormuz Aug 31 at 3.8% unchanged = ~96% continued disruption through month-end. Fed rate markets: "decrease Sep" at 1.05% YES (effectively settled NO-change); "increase Sep" market not found — possible resolution or migration.*
+*Fed No Change Sep 2026 at 66.5% YES implies ~33.5% chance of a rate change (cut or hike) in September — significant uncertainty for a meeting 5 weeks out. Clarity Act rebounded 3pp to 20.5% (was 17.5% yesterday), reversing the Aug 12 drop. Hormuz markets fell below 3% YES threshold — removed from tracking as effectively settled.*
 
 ## Macro Catalysts (next 48h)
-- **CPI resolved (today):** In-line print; no breakout. Regime stays chop. BTC range-holds $63K–$64.2K; alts mildly outperforming on 7d basis. Post-CPI trade is PPI.
-- **Aug 13 PPI:** Follow-through wholesale inflation read (prior 5.5% YoY). Soft print → likely breadth expansion and alt continuation; hot print → re-stokes Fed hike fears, tests $62.7K monthly open.
-- **BTC ETF flows:** $853.54M net inflows week ending Aug 7 (IBIT $693M), zero outflow days in August. Institutional floor intact.
-- **Hormuz/Iran:** "End blockade by Aug 15" market at 8.5% YES (~91.5% chance of continued disruption through Aug 15); energy tail risk and macro uncertainty persist into September.
+- **PPI (Aug 13, 8:30 AM ET):** July PPI forecast +0.2% (prior -0.3%). BTC flat pre-release suggests neutral positioning. Soft/in-line → breadth expansion attempt; hot → tests $62.7K monthly open and re-stokes Fed hike fears (33.5% Sep-change probability adds weight to hot scenario).
+- **Jackson Hole (Aug 27-29):** Fed communication event; next major macro catalyst after PPI.
+- **FOMC Sep 15-16:** "Fed No Change" at 66.5% YES — 33.5% probability of a move (most likely cut, not hike given prior NFP miss); ambiguity supports choppy price action until Jackson Hole provides direction.
+- **BTC ETF flows:** $7.8M net inflow Aug 11 (small); August running zero net-outflow days; $853.54M week ending Aug 7. Institutional floor intact but daily flows modest.
 
 ## Implications for Downstream Skills
-- **token-pick:** Hold new entries until PPI confirms soft tomorrow. If PPI soft: LINK ($8.79, +8.6% 7d) cleanest DeFi rotation entry; ETH ($1,902, +2.2% 7d) best major-cap recovery; VIRTUAL for AI agent exposure. If PPI hot: stand down, $62.7K still in play. BTC range-trading not a setup.
-- **narrative-tracker:** DeFi accumulation now day 5 with TVL confirmation — upgrade to established rising. AI agent (VIRTUAL/TIBBIR) emerging; needs sector breadth to confirm. Clarity Act 4pp drop worth monitoring — if continues, pre-Clarity-Act catalyst thesis weakens for KillaXBT's Clarity Act/ETF-parallel narrative.
+- **token-pick:** HYPE ($57.37, +5% 24h) is the cleanest momentum setup in the current tape — DEX/perps with volume building; ZK micro-caps (ACU/APR/CYS) showing narrative breadth but high pump-risk. Hold entries on BTC/ETH until PPI print confirms direction. LINK fading from trending after 2-day run — reassess DeFi rotation thesis.
+- **narrative-tracker:** ZK/AI infrastructure broadening from single-token (CYS) to multi-token (CYS+ACU+APR) — watch for phase upgrade emerging→rising if a 4th token joins. AI agent (VIRTUAL) one-day spike faded — not established. Fed Sep uncertainty (33.5% vs 66.5%) is the macro overhang to track heading into Jackson Hole.
 
 ## Token Picks Made
 | Date | Token | Price | Thesis |
 
 ---
 *Sources — btc/eth/sol: CoinGecko · top20/breadth: CoinGecko · global: CoinGecko · trending: CoinGecko · defi protocols: DeFiLlama · chains: DeFiLlama · dex vol: DeFiLlama · stablecoins: DeFiLlama · sentiment: alternative.me · markets: Polymarket · catalysts: WebSearch*
-*Source status: coingecko=ok defillama=ok fng=ok polymarket=ok(4 qualifying macro markets; Fed hike market not found — possible resolution) websearch=ok*
+*Source status: coingecko=ok defillama=ok(partial — CEX protocols filtered; SSV/Morpho/WBTC carried from prior) fng=ok polymarket=ok(2 qualifying macro markets; Hormuz markets fell below 3% threshold) websearch=ok*
