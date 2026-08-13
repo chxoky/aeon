@@ -1,6 +1,8 @@
-🔍 *Calibration — @swarmister*
+🔍 *Calibration — @HeartCanHodl*
 
-Event: Reply to @BittexXBT (untracked trader — context unavailable)
-swarmister: "Piggy and avg"
+Event: Reply to @RALee85 with eye emoji (context unavailable)
+HeartCanHodl: "@RALee85 👁"
 
-Unable to classify — what's your read? (Chart pattern observation, positional commentary, or something else?)
+Unable to classify — what's your read?
+
+[View tweet](https://x.com/HeartCanHodl/status/20878572380190555816)
