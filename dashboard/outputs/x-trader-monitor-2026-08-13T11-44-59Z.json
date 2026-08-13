@@ -1,0 +1,56 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "tweet_link",
+        "separator_1",
+        "commentary_text"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "At some point in $BTC's cycles, it has to behave differently...\n\nEventually, the retracements will become much shallower.\n\nThat's why buying now is essentially the same as buying around 20k last cycle, you're accumulating in the same type of structural retracement, just at a higher baseline because the asset has matured."
+      }
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2087866505648107657"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "commentary_text": {
+      "type": "Text",
+      "props": {
+        "text": "Reinforces existing structural bull thesis on BTC cycles; multi-cycle ATH chart supports argument.",
+        "variant": "caption"
+      }
+    }
+  }
+}
