@@ -1,0 +1,138 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @swarmister"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_event",
+        "tweetcard_quote",
+        "sep1",
+        "heading_analysis",
+        "text_unable_classify",
+        "stack_possibilities",
+        "text_no_context",
+        "text_pattern_note",
+        "sep2",
+        "storylink_tweet"
+      ]
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @0xProfessor_"
+      }
+    },
+    "tweetcard_quote": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "@0xProfessor_ No no\n\n1900!"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_analysis": {
+      "type": "Heading",
+      "props": {
+        "text": "Classification Analysis",
+        "level": "h3"
+      }
+    },
+    "text_unable_classify": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?"
+      }
+    },
+    "stack_possibilities": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_could_be",
+        "text_p1",
+        "text_p2",
+        "text_p3",
+        "text_p4"
+      ]
+    },
+    "text_could_be": {
+      "type": "Text",
+      "props": {
+        "text": "Could be:"
+      }
+    },
+    "text_p1": {
+      "type": "Text",
+      "props": {
+        "text": "• Price level (1900)"
+      }
+    },
+    "text_p2": {
+      "type": "Text",
+      "props": {
+        "text": "• Dismissal sentiment"
+      }
+    },
+    "text_p3": {
+      "type": "Text",
+      "props": {
+        "text": "• Market banter"
+      }
+    },
+    "text_p4": {
+      "type": "Text",
+      "props": {
+        "text": "• Unrelated"
+      }
+    },
+    "text_no_context": {
+      "type": "Text",
+      "props": {
+        "text": "No ticker/asset context visible.",
+        "variant": "muted"
+      }
+    },
+    "text_pattern_note": {
+      "type": "Text",
+      "props": {
+        "text": "Matches swarmister's established cryptic-reply pattern (15+ calibration alerts this month)"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "storylink_tweet": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View on X",
+        "href": "https://x.com/swarmister/status/2087981344336855468",
+        "source": "swarmister"
+      }
+    }
+  }
+}
