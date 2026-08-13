@@ -1,40 +1,26 @@
-Perfect. I have successfully executed the discord-trader-monitor skill for the provided message event. Here's what was processed:
+Perfect! I've successfully processed the Discord trader-monitor event. Here's what was completed:
 
 ## Summary
 
-**Message Event Decoded:**
-- ID: 15372455518265057291
-- Trader: HeartCanHodl (heartcanhodl)
-- Channel: 1023638573313966212 (HCH — Chat, supporting)
-- Content: "Fc crbs 15m"
-- Timestamp: 2026-08-12T23:44:52Z
-- Fast-path alerted: false
+**Event Processed:** HeartCanHodl (Discord Trades channel) — Trade partial close covering short positions
 
-**Classification: Technical-Check**
-Per established calibration in traders.md, "Fc {ticker} {tf}" = false-close chart check (NOT a trade signal). This is a technical observation on CRBS at 15-minute timeframe.
+**Message Details:**
+- ID: 1537265580707418175
+- Time: 2026-08-13T01:04:35Z
+- Content: "Cover 2.5% btc shorts, 1% uni, 1% pepe short"
+- Channel: 1279738718680256553 (HCH — Trades, ★most important)
 
-**Processing:**
-1. ✅ Message ID added to discord-trader-seen.txt (96 entries, under 5000 limit)
-2. ✅ traders.md updated:
-   - New event entry added (most recent, at 23:44Z)
-   - HeartCanHodl "Last seen" timestamp refreshed to 2026-08-12T23:44:52Z
-3. ✅ Daily log entry appended to memory/logs/2026-08-12.md
-4. ✅ No alert sent (silent log per HR-1 protocol for false-close checks)
+**Position Changes:**
+- **BTC shorts**: ~12.5% → ~10% (reduced 2.5%)
+- **UNI shorts**: 8% → 7% (reduced 1%)
+- **PEPE shorts**: 1% → 0% (fully closed)
 
-**Result:** Silent technical log. No notification. Memory consistent.
-## Summary
+**Actions Taken:**
+1. ✅ Verified non-duplicate (message ID added to discord-trader-seen.txt)
+2. ✅ Classified as trade-partial-close (closing/reducing short positions)
+3. ✅ Fast-path alert already sent (Telegram notification sent by Cloudflare Worker ~2-5s after message)
+4. ✅ Updated traders.md with new event entry
+5. ✅ Updated current position summary showing reduced short overlay
+6. ✅ Logged event to memory/logs/2026-08-13.md
 
-Skill executed successfully. The Discord event from HeartCanHodl (message ID `1537245730580729938`) in the HCH—Chat supporting channel contains only an animated emoji with no text or trade signal. 
-
-**Classification**: Non-financial (reaction/banter) → **SKIP per HR-1 protocol**
-
-**Actions taken**:
-1. ✅ Decoded base64 event JSON
-2. ✅ Resolved channel & trader (HCH—Chat supporting)
-3. ✅ Fast-path check: `false` → processed normally
-4. ✅ Classified as non-financial (emoji-only message)
-5. ✅ No alert sent to Kyle
-6. ✅ Added message_id to `memory/discord-trader-seen.txt` (96 total, under trim threshold)
-7. ✅ Logged event to `memory/logs/2026-08-12.md` (memory-log-only per HR-1 skip protocol)
-
-No trading signals, no notifications, routine dedup tracking complete.
+The event has been fully processed per the skill's workflow. Since fast-path-alerted was true, Telegram was already sent and this skill focused on memory updates and audit logging.
