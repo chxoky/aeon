@@ -1,0 +1,153 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor",
+        "description": "@KillaXBT — SOL/BTC Price Analysis"
+      },
+      "children": [
+        "tweet-card",
+        "sep-1",
+        "technical-section"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "Slowly then all at once.\n\nWe might not see $SOL print new ATHs, but once $BTC bottoms, a 100–150% move from here is absolutely in play."
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "technical-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tech-heading",
+        "chart-desc",
+        "levels-group",
+        "thesis-group",
+        "tweet-link"
+      ]
+    },
+    "tech-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Technical Analysis Details",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "chart-desc": {
+      "type": "Text",
+      "props": {
+        "text": "2 technical charts show SOL accumulation levels",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "levels-group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "levels-title",
+        "level-1",
+        "level-2",
+        "level-3"
+      ]
+    },
+    "levels-title": {
+      "type": "Text",
+      "props": {
+        "text": "SOL Accumulation Levels:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "level-1": {
+      "type": "Text",
+      "props": {
+        "text": "FIRST BID: 76.69",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "level-2": {
+      "type": "Text",
+      "props": {
+        "text": "SECOND: 67.06",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "level-3": {
+      "type": "Text",
+      "props": {
+        "text": "THIRD: 53.33",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "thesis-group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "thesis-title",
+        "btc-level",
+        "bull-thesis"
+      ]
+    },
+    "thesis-title": {
+      "type": "Text",
+      "props": {
+        "text": "Structural Bull Thesis:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "btc-level": {
+      "type": "Text",
+      "props": {
+        "text": "BTC Base: 57K",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "bull-thesis": {
+      "type": "Text",
+      "props": {
+        "text": "2.5yr 160K structural bull thesis",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2087959870595272714"
+      },
+      "children": []
+    }
+  }
+}
