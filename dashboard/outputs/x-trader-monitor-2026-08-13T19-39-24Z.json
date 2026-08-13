@@ -1,0 +1,173 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "BTC Volatility-Selling Research"
+      },
+      "children": [
+        "tweet-card",
+        "sep-1",
+        "backtest-section",
+        "sep-2",
+        "impact-section",
+        "sep-3",
+        "link-section"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "abetrade",
+        "handle": "@abetrade",
+        "text": "BTC Volatility-Selling Research: Pretty interesting empirical analysis here. For crypto, BTC ranges the vast majority of the time with occasional sharp rallies/dumps. Best way to capitalize: selling vol, since options market almost always overprices implied volatility vs realized.\n\nEducational research sharing on volatility premium capture—no personal trade action stated."
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "backtest-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "backtest-heading",
+        "stat-mean",
+        "stat-winrate",
+        "stat-drawdown",
+        "variance-text"
+      ]
+    },
+    "backtest-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "30-day ATM short straddle backtest (Mar 2021–May 2026)",
+        "level": "h3"
+      }
+    },
+    "stat-mean": {
+      "type": "Stat",
+      "props": {
+        "label": "Mean Return",
+        "value": "+2.83%"
+      }
+    },
+    "stat-winrate": {
+      "type": "Stat",
+      "props": {
+        "label": "Win Rate",
+        "value": "71%"
+      }
+    },
+    "stat-drawdown": {
+      "type": "Stat",
+      "props": {
+        "label": "Drawdown",
+        "value": "-40.44%"
+      }
+    },
+    "variance-text": {
+      "type": "Text",
+      "props": {
+        "text": "BTC Variance Risk Premium positive ~71% of period (green bars = favorable vol-sell regime)",
+        "variant": "body"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "impact-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "impact-heading",
+        "impact-grid"
+      ]
+    },
+    "impact-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Time-in-market impact",
+        "level": "h3"
+      }
+    },
+    "impact-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat-btc-10days",
+        "stat-spy-10days",
+        "stat-btc-week",
+        "stat-spy-week"
+      ]
+    },
+    "stat-btc-10days": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC: Miss best 10 days",
+        "value": "-81.6%"
+      }
+    },
+    "stat-spy-10days": {
+      "type": "Stat",
+      "props": {
+        "label": "SPY: Miss best 10 days",
+        "value": "-47.2%"
+      }
+    },
+    "stat-btc-week": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC: Miss best 1 week/year",
+        "value": "-88.9%"
+      }
+    },
+    "stat-spy-week": {
+      "type": "Stat",
+      "props": {
+        "label": "SPY: Miss best 1 week/year",
+        "value": "-40.4%"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post-link"
+      ]
+    },
+    "post-link": {
+      "type": "Link",
+      "props": {
+        "label": "View post on X",
+        "href": "https://x.com/abetrade/status/2087986572847104158"
+      }
+    }
+  }
+}
