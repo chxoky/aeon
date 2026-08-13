@@ -1,0 +1,65 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "🔍 Calibration — @Wild_Randomness"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "metadata",
+        "status",
+        "tweet",
+        "separator",
+        "prompt"
+      ]
+    },
+    "metadata": {
+      "type": "Text",
+      "props": {
+        "text": "Event: 2087762474108125473 (Thu Aug 13 04:45:37 UTC)",
+        "variant": "caption"
+      }
+    },
+    "status": {
+      "type": "Badge",
+      "props": {
+        "text": "Unable to classify",
+        "variant": "outline"
+      }
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "We absolutely have not been letting them get away with @Evan_ss6"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "prompt": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read? Possibilities: Macro macro setup? Ticker-specific comment? Prior conversation reference?",
+        "variant": "body"
+      }
+    }
+  }
+}
