@@ -1,0 +1,56 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @swarmister"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_event",
+        "tweet_swarmister",
+        "text_analysis",
+        "link_tweet"
+      ]
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @CryptoParadyme (external trader, not on watchlist — original message context unavailable)",
+        "variant": "caption"
+      }
+    },
+    "tweet_swarmister": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "text": "Oke"
+      }
+    },
+    "text_analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Single-word cryptic response. Can't classify without context. What's your read?",
+        "variant": "body"
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/swarmister/status/2087752881927496062"
+      }
+    }
+  }
+}
