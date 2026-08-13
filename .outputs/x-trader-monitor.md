@@ -1,1 +1,1 @@
-@KillaXBT posted BTC structural analysis via MVRV Pricing Bands chart. Bottom conviction: 48-52K zone. Aligns with his 2x HTF long + spot DCA strategy. https://x.com/KillaXBT/status/20879336983522756799
+🐦 [ES/SPX] @Wild_Randomness Support Fill Pattern coinciding with distribution high. SFP at exact same time as distribution selling. Chart shows ES1 daily consolidation 7,600-7,800 with marked resistance zones. Aligns with WR macro caution thesis on topping structure. https://x.com/Wild_Randomness/status/2087934996539703775

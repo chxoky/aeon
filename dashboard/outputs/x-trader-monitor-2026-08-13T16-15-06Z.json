@@ -1,0 +1,42 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "tweet_link"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "🐦 [ES/SPX] Support Fill Pattern coinciding with distribution high. SFP at exact same time as distribution selling. Chart shows ES1 daily consolidation 7,600-7,800 with marked resistance zones. Aligns with WR macro caution thesis on topping structure."
+      }
+    },
+    "tweet_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View Tweet",
+        "href": "https://x.com/Wild_Randomness/status/2087934996539703775",
+        "source": "X"
+      }
+    }
+  }
+}
