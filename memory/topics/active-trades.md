@@ -144,7 +144,7 @@
 - **Alerted**: YES (2026-07-17T13:48:06Z, x-trader-monitor real-time event, DCA plan alert sent)
 - **Last update**: 2026-07-17T13:48:06Z (new DCA plan entry, X post tweet_id=2078114525216157709, x-trader-monitor real-time)
 
-### MU (Micron Technology) — LONG (FRESH DCA PLAN 2026-07-29)
+### MU (Micron Technology) — LONG (FRESH DCA PLAN 2026-07-29, 80% TP EXECUTION 2026-08-13)
 - **Entry**: 2026-07-29T21:06:29Z (X post, tweet_id=2082573501102178638)
 - **Entry message**: "Starting $MU here near 700~, leaving room to add towards 600. I don't think these trades will play out as quickly as the previous two and I've sized them conservatively so I have room to average down."
 - **Initial entry level**: Near $700 (market order or near-market fill)
@@ -152,13 +152,14 @@
   - Initial entry: ~$700 (execution on X post)
   - Planned adds: Towards $600 (lower support zone)
   - Conservative sizing with explicit room to average down
-- **Status**: PENDING KYLE APPROVAL (DCA plan alert sent, awaiting Kyle decision on own DCA structure or skip)
-- **Trade alert format**: Step 5c (DCA plan — no auto-mirror, Kyle designs his own scaling structure)
-- **Thesis**: Fresh accumulation cycle on Micron following successful 80% TP close of prior position (Jul 27 at $941). Entry near 700 aligns with longer-term targets (600s identified as possible per Jul 29 20:41Z conviction message). Conservative sizing suggests multi-day/week play, not quick scalp.
-- **Conviction**: MEDIUM-HIGH (fresh entry following profitable close, conservative sizing language, explicit DCA intent)
-- **Context**: First realization of DCA plans discussed in Jul 29 20:41Z informational post (MU targets to 600s). Complements prior Jul 17 DCA entry (~$800) which delivered 80% TP + 20% core remainder held.
-- **Alerted**: YES (2026-07-29T21:06:29Z, x-trader-monitor real-time event, Step 5c DCA plan alert sent)
-- **Last update**: 2026-07-29T21:06:29Z (new DCA plan entry, X post tweet_id=2082573501102178638, x-trader-monitor real-time)
+- **Status**: ACTIVE — 80% cumulative closed 2026-08-13T14:56:08Z, 20% remainder held under DCA thesis
+- **Trade alert format**: Step 5c (DCA plan) + Step 5b (partial TP execution on 2026-08-13)
+- **Thesis**: Fresh accumulation cycle on Micron following successful 80% TP close of prior position (Jul 27 at $941). Entry near 700 aligns with longer-term targets (600s identified as possible per Jul 29 20:41Z conviction message). Conservative sizing suggests multi-day/week play with disciplined tiered-exit approach. 80% TP achieved 15 days post-entry (Jul 29 → Aug 13).
+- **Conviction**: MEDIUM-HIGH (fresh entry following profitable close, conservative sizing language, explicit DCA intent; 80% TP execution within 15 days confirms profitable trade flow and disciplined profit-taking)
+- **Context**: First realization of DCA plans discussed in Jul 29 20:41Z informational post (MU targets to 600s). Complements prior Jul 17 DCA entry (~$800) which delivered 80% TP + 20% core remainder held. Pattern consistency confirms Crypto_Chase's systematic tiered-exit discipline.
+- **TP Execution** (Aug 13 14:56:08Z): Discord primary channel message "MU trim at 960~, think that's 80% closed now". Execution at $960 level representing ~37% gain from $700 entry within 15-day hold window. Consistent with documented tiered-exit discipline pattern. Remainder 20% held under original DCA thesis targeting 600s support zone if weakness materializes.
+- **Alerted**: YES (2026-07-29T21:06:29Z entry via x-trader-monitor; 2026-08-13T14:56:08Z 80% TP via discord-trader-monitor, fast-path-alerted=true)
+- **Last update**: 2026-08-13T14:56:08Z (80% TP execution, Discord message_id=1537474847167356958, discord-trader-monitor real-time, fast-path alerted)
 
 ### SNDK (SanDisk) — LONG (FRESH DCA PLAN 2026-07-29, 80% TP EXECUTION 2026-08-04)
 - **Entry**: 2026-07-29T21:06:29Z (X post, tweet_id=2082573501102178638)
