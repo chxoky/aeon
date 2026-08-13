@@ -1,0 +1,135 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading_calibration",
+        "separator1",
+        "section_event",
+        "section_quote",
+        "separator2",
+        "section_classify"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h3"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section_event": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_event_label",
+        "text_event_value"
+      ]
+    },
+    "text_event_label": {
+      "type": "Text",
+      "props": {
+        "text": "Event:",
+        "variant": "lead"
+      }
+    },
+    "text_event_value": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to @notthreadguy about market structure"
+      }
+    },
+    "section_quote": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_quote_author",
+        "text_quote_value"
+      ]
+    },
+    "text_quote_author": {
+      "type": "Text",
+      "props": {
+        "text": "Wild_Randomness:",
+        "variant": "lead"
+      }
+    },
+    "text_quote_value": {
+      "type": "Text",
+      "props": {
+        "text": "\"2019 style echo bubble\""
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section_classify": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert_classify",
+        "section_options"
+      ]
+    },
+    "alert_classify": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read?",
+        "type": "info"
+      }
+    },
+    "section_options": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "option1",
+        "option2",
+        "option3"
+      ]
+    },
+    "option1": {
+      "type": "Badge",
+      "props": {
+        "text": "Macro bubble concern",
+        "variant": "outline"
+      }
+    },
+    "option2": {
+      "type": "Badge",
+      "props": {
+        "text": "Chart pattern reference",
+        "variant": "outline"
+      }
+    },
+    "option3": {
+      "type": "Badge",
+      "props": {
+        "text": "Market commentary",
+        "variant": "outline"
+      }
+    }
+  }
+}
