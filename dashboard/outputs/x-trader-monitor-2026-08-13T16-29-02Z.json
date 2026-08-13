@@ -1,0 +1,43 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_1"
+      ]
+    },
+    "stack_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_1",
+        "link_1"
+      ]
+    },
+    "tweet_1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "🐦 [IWM Technical] Small caps topping on the day of peak hawkishness.\n\nIWM rallied from $250 to $302, now testing strong resistance zone at $302-305 level. Irony: Small caps should rally when Fed pivots dovish, but they're forming a peak while Fed remains hawkish.\n\nHistorical seasonal pattern: Russell 2000 underperforms other indices by -7 to -8% during this calendar cycle (Aug weakness, Oct recovery typical)."
+      },
+      "children": []
+    },
+    "link_1": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2087938227621728302"
+      },
+      "children": []
+    }
+  }
+}
