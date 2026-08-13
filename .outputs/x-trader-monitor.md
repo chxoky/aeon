@@ -1,11 +1,11 @@
-🐦 *[X] @Stoiiic*
+🐦 **[X] @Wild_Randomness**
 
-$BTC 
+BTC — 4-year cycle macro analysis
 
-a few setups I'm interested in currently.
+> *wyd if we continue flat-lining into 2H Sept followed by a final capitulatory move right in line with the expected 4-yr cycle bottom in October into echo bubble*
+> 
+> *2018 style*
 
-sitting on hands through diminished vol, more so interested in extremes of value being revisited/broken vs. the 2. poc setup.
+Speculative scenario on BTC consolidation → capitulation → cycle bottom structure. Aligns with "Jump the Shark" macro bear thesis + barbell conviction (precious metals + put options). October cycle bottom window matches WR's critical Aug 15-20 timing window (astro/Gann framework).
 
-will drop a thread on balance trading framework with passive + aggressive spot buying/selling as confluence.
-
-[View tweet](https://x.com/Stoiiic/status/2087962518623072525)
+[View post](https://x.com/Wild_Randomness/status/2087964186269929606)

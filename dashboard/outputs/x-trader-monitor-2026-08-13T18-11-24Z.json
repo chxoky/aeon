@@ -1,0 +1,70 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "content-stack"
+      ]
+    },
+    "content-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "title-heading",
+        "platform-badge",
+        "tweet-card",
+        "separator1",
+        "analysis-text",
+        "link-view"
+      ]
+    },
+    "title-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "BTC — 4-year cycle macro analysis",
+        "level": "h3"
+      }
+    },
+    "platform-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "🐦 [X] @Wild_Randomness",
+        "variant": "secondary"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "wyd if we continue flat-lining into 2H Sept followed by a final capitulatory move right in line with the expected 4-yr cycle bottom in October into echo bubble\n\n2018 style"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "analysis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Speculative scenario on BTC consolidation → capitulation → cycle bottom structure. Aligns with \"Jump the Shark\" macro bear thesis + barbell conviction (precious metals + put options). October cycle bottom window matches WR's critical Aug 15-20 timing window (astro/Gann framework).",
+        "variant": "body"
+      }
+    },
+    "link-view": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2087964186269929606"
+      }
+    }
+  }
+}
