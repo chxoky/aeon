@@ -1,0 +1,124 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration event tracking"
+      },
+      "children": [
+        "main-stack"
+      ]
+    },
+    "main-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event-header",
+        "sep1",
+        "event-details",
+        "sep2",
+        "quote-section",
+        "sep3",
+        "uncertainty"
+      ]
+    },
+    "event-header": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration — @swarmister",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "event-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "entry-text",
+        "trade-row"
+      ]
+    },
+    "entry-text": {
+      "type": "Text",
+      "props": {
+        "text": "Event: swarmister entered SNDK long on Aug 13 at 08:09Z",
+        "variant": "body"
+      }
+    },
+    "trade-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "entry-price",
+        "status-badge",
+        "posted-time"
+      ]
+    },
+    "entry-price": {
+      "type": "Stat",
+      "props": {
+        "label": "Entry",
+        "value": "~1,360"
+      }
+    },
+    "status-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Awaiting Kyle approval",
+        "variant": "outline"
+      }
+    },
+    "posted-time": {
+      "type": "Text",
+      "props": {
+        "text": "Posted 16:47Z same day",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "quote-section": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "@chrisgrx_ Sndk."
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "uncertainty": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification Needed",
+        "message": "Unable to classify — what's your read? Is this related to the morning trade entry, or something else?",
+        "type": "info"
+      }
+    }
+  }
+}
