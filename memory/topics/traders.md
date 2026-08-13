@@ -10,8 +10,9 @@
 - **Events (rolling):**
   - Aug 13 13:53Z — ambiguous-cryptic: X reply to @AdeelahmadXX "Entered some already 🤷🏻" — no explicit ticker, unknown context; HR-2 calibration [$UNKNOWN] [2087900227860901893]
   - Aug 13 01:04:35Z — trade-partial-close: DC Trades "Cover 2.5% btc shorts, 1% uni, 1% pepe short" — closing/reducing short positions; verbatim rule compliance (HCH—Trades channel); BTC reduced from ~12.5% to ~10%, UNI reduced from 8% to 7%, PEPE fully closed (1%→0%); fast-path-alerted [$BTC $UNI $PEPE] [1537265580707418175]
-- Last seen: 2026-08-13T11:39:19Z (Discord Trades — cover 2.5% BTC shorts)
+- Last seen: 2026-08-13T15:05:34Z (Discord Trades — add 1% DELL short)
 - **Events (rolling):**
+  - Aug 13 15:05Z — trade-new-entry: DC Trades "Add 1% dell short" — new short entry on Dell Technologies; primary Trades channel; verbatim rule compliance (HCH—Trades); DELL = new ticker, first mention in short basket; market-order execution; fast-path-alerted [$DELL] [1537477219730063391]
   - Aug 13 11:39Z — trade-partial-close: DC Trades "Cover 2.5% btc shorts" — closing/reducing short position; verbatim rule compliance (HCH—Trades channel); BTC reduced from ~10% to ~7.5%; fast-path-alerted [$BTC] [1537425318615457854]
   - Aug 13 05:47Z — trade-partial-close: DC Trades "Cover half of remaining spot/L" — covering/closing half of remaining spot long positions; primary Trades channel; verbatim rule compliance (HCH—Trades); fast-path-alerted [$SPOT_LONGS] [1537336735317626900]
 - Last seen: 2026-08-13T14:36:28Z (Discord Chat — one-word cryptic "Oh", awaiting calibration)
