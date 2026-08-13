@@ -1,42 +1,16 @@
-*Token Movers — 2026-08-13*
+Cleanup of temp files is being blocked by the sandbox — leaving them in place (they're inert data files). The task is complete.
 
-_Flat majors, divergent alts — BTC flat at $63,859 (+0.1%), 30/78 filtered top-100 alts green, median 24h near zero; AI/infra cohort spikes while KAITO and BEAT log capitulation-level selling._
+## Summary
 
-*Top Winners (24h)*
-1. APR (aPriori) — $0.4615  +78.2% / 7d +131.9% / 1h +0.6%  •  $119M / #215  [TRENDING+UP][BREAKOUT]
-2. VELVET (Velvet) — $0.7137  +27.3% / 7d +48.8% / 1h +4.3%  •  $24.7M / #123  [BREAKOUT]
-3. CYS (Cysic) — $1.460  +17.8% / 7d +84.8% / 1h +0.1%  •  $37.5M / #145  [BREAKOUT]
-4. BTW (Bitway) — $0.2477  +10.3% / 7d +41.5% / 1h −3.1%  •  $55.9M / #86
-5. VIRTUAL (Virtuals Protocol) — $0.5909  +9.4% / 7d +4.0% / 1h −0.3%  •  $112M / #109
-6. CASHCAT (Cash Cat) — $0.1542  +9.2% / 7d +33.4% / 1h −3.7%  •  $17.4M / #189
-7. TIBBIR (Ribbita by Virtuals) — $0.1494  +8.2% / 7d +38.6% / 1h −1.1%  •  $1.8M / #198
-8. OKB (OKB) — $102.5  +7.9% / 7d +19.4% / 1h −1.3%  •  $50.8M / #40
-9. DEXE (DeXe) — $2.010  +5.7% / 7d −7.3% / 1h +1.0%  •  $15.2M / #266
-10. MNT (Mantle) — $0.4600  +5.5% / 7d +13.2% / 1h −0.3%  •  $34.7M / #50
+**Token Movers skill executed for 2026-08-13:**
 
-*Top Losers (24h)*
-1. KAITO (KAITO) — $0.4653  −26.9% / 7d −49.8% / 1h +1.9%  •  $98.1M / #241  [CAPITULATION]
-2. BEAT (Audiera) — $0.9820  −17.8% / 7d −51.6% / 1h −1.3%  •  $88.8M / #119  [CAPITULATION]
-3. 2Z (DoubleZero) — $0.04791  −7.9% / 7d −12.7% / 1h −0.1%  •  $9.2M / #180
-4. CRV (Curve DAO) — $0.2546  −7.6% / 7d +22.2% / 1h −0.2%  •  $67.3M / #108
-5. DCR (Decred) — $12.13  −6.5% / 7d −4.4% / 1h −0.3%  •  $1.8M / #154
-6. UB (Unibase) — $0.1290  −5.4% / 7d −1.8% / 1h +0.0%  •  $1.8M / #120
-7. TRUMP (Official Trump) — $1.400  −5.3% / 7d −3.5% / 1h +0.5%  •  $57.9M / #117
-8. AXS (Axie Infinity) — $0.8640  −5.1% / 7d −0.6% / 1h +0.3%  •  $16.2M / #192
-9. EDGE (edgeX) — $0.3405  −5.1% / 7d −5.4% / 1h −0.7%  •  $2.7M / #227
-10. UNI (Uniswap) — $3.600  −5.0% / 7d −11.2% / 1h +0.7%  •  $257M / #37
-
-*Trending*
-1. ACU (Acurast) — #476, $0.1273, 24h +32.6%  [PUMP-RISK]
-2. HMM (Thinking Cat) — #764, $0.02106, 24h +24.3%  [MICROCAP]
-3. PENGU (Pudgy Penguins) — #104, $0.006327, 24h −0.9%
-4. SOL (Solana) — #7, $76.36, 24h +0.4%
-5. HYPE (Hyperliquid) — #9, $57.37, 24h +4.2%
-6. APR (aPriori) — #215, $0.4655, 24h +78.2%  [TRENDING+UP]
-7. PI (Pi Network) — #65, $0.08817, 24h −0.9%
-
-*Notable*
-• APR: trending + 78% 24h / 132% 7d [BREAKOUT] — also [PUMP-RISK] at rank #215; high manipulation probability on this size move
-• KAITO: [CAPITULATION] — −27% 24h / −50% 7d; vol:mcap ratio 0.87; cross-trader bearish thesis (HCH + Stoiiic) validated over 5 weeks
-• BEAT (Audiera): [CAPITULATION] — −18% 24h / −52% 7d; vol nearly 27% of mcap
-• CYS: [BREAKOUT] — +17.8% 24h / +84.8% 7d on ZK-prover narrative
+- **Data fetched**: 250 coins from CoinGecko (markets + trending), filtered to 171 after excluding stablecoins, wrapped dupes, and sub-$1M volume coins
+- **Market pulse**: Risk-off mid-session — 27/100 top coins green, median −0.8%; BTC −1.2%, ETH −1.6%
+- **Key signals surfaced:**
+  - AKE [BREAKOUT][PUMP-RISK] — new today, +45.2% / 7d +44.6%, rank #216 low-cap
+  - APR [PUMP-RISK] — second consecutive session, +34.5% (down from +78% this morning), 7d +147%
+  - CYS — direction reversal: morning's #3 winner (+17.8%) is now #2 loser (−14.2%) after 7d +65%
+  - KAITO [CAPITULATION] — day two, −10.9%, vol/mcap 0.67
+  - BNKR trending while −18.1% — search curiosity, not buy-side
+- **Notification**: Queued to `.pending-notify/1786624550.md` for post-run delivery (sandbox blocks outbound curl in script context)
+- **Log**: Appended `### token-movers` entry to `memory/logs/2026-08-13.md`
