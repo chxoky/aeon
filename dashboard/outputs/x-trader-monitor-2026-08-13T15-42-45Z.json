@@ -1,0 +1,58 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading_calib",
+        "sep1",
+        "text_event",
+        "tweet_card",
+        "text_classify",
+        "link_view"
+      ]
+    },
+    "heading_calib": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @swarmister",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: UNKNOWN (no visible context)"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "@Dumb_Oxen Next time"
+      }
+    },
+    "text_classify": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?"
+      }
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/swarmister/status/2087924493201088516"
+      }
+    }
+  }
+}
