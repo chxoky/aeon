@@ -1,0 +1,161 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @Wild_Randomness"
+      },
+      "children": [
+        "heading_event",
+        "stack_content"
+      ]
+    },
+    "heading_event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event: Extremely cryptic post with year reference + horror imagery",
+        "level": "h2"
+      }
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet",
+        "sep1",
+        "context_section",
+        "sep2",
+        "alert_classify",
+        "sep3",
+        "link_post"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "2018 https://t.co/kixoUuFzAX"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_context",
+        "text_images",
+        "text_baseline",
+        "text_could_be",
+        "interpret_items"
+      ]
+    },
+    "heading_context": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "text_images": {
+      "type": "Text",
+      "props": {
+        "text": "Two images attached (shock/horror movie scene)."
+      }
+    },
+    "text_baseline": {
+      "type": "Text",
+      "props": {
+        "text": "WR known for URL-only posts (noise baseline)."
+      }
+    },
+    "text_could_be": {
+      "type": "Text",
+      "props": {
+        "text": "Could be:",
+        "variant": "lead"
+      }
+    },
+    "interpret_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item_1",
+        "item_2",
+        "item_3",
+        "item_4"
+      ]
+    },
+    "item_1": {
+      "type": "Badge",
+      "props": {
+        "text": "2018 crash reference?",
+        "variant": "outline"
+      }
+    },
+    "item_2": {
+      "type": "Badge",
+      "props": {
+        "text": "Price action concern?",
+        "variant": "outline"
+      }
+    },
+    "item_3": {
+      "type": "Badge",
+      "props": {
+        "text": "Market fear expression?",
+        "variant": "outline"
+      }
+    },
+    "item_4": {
+      "type": "Badge",
+      "props": {
+        "text": "Personal meme?",
+        "variant": "outline"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_classify": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "title": "Classification Status",
+        "message": "Unable to classify without context — what's your read?"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2087971877880991817"
+      }
+    }
+  }
+}
