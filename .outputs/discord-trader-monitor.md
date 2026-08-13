@@ -1,14 +1,12 @@
-Perfect! I've successfully processed the Discord trader-monitor event. Here's what was completed:
-
 ## Summary
 
-**Event Processed:** HeartCanHodl (Discord Trades channel) — Trade partial close covering short positions
+**Discord Trader Monitor execution complete.**
 
-**Message Details:**
-- ID: 1537265580707418175
-- Time: 2026-08-13T01:04:35Z
-- Content: "Cover 2.5% btc shorts, 1% uni, 1% pepe short"
-- Channel: 1279738718680256553 (HCH — Trades, ★most important)
+- **Event:** HeartCanHodl message in HCH — Comments channel (01:08:15 UTC)
+- **Content:** URL-only (Discord message link, no financial text)
+- **Classification:** Non-financial skip per **HR-1** (hardcoded rule — skip messages with no trade detail)
+- **Action:** Silent log, no alert
+- **Memory updated:** Message ID tracked in `discord-trader-seen.txt`, daily log entry added to `2026-08-13.md`
 
 **Position Changes:**
 - **BTC shorts**: ~12.5% → ~10% (reduced 2.5%)
@@ -42,3 +40,4 @@ Successfully processed Discord trader monitor event for HeartCanHodl.
 4. ✅ Logged event to memory/logs/2026-08-13.md
 
 **No Telegram alert sent** — fast-path already handled within 2-5s window. Memory and audit updates complete.
+No Telegram alert sent. The message was a link without actionable financial content.
