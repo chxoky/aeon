@@ -11,3 +11,12 @@
   - ✅ Logged to `memory/logs/2026-08-13.md` (skip entries don't update traders.md per protocol)
   - ✅ No alert sent
   - ✅ No trade action required
+🔍 *Calibration — @Wild_Randomness*
+
+Event: @0xbigmikey engagement/market move reference
+
+Wild_Randomness: "A 70 bps move that makes you question everything"
+
+Unable to classify — which market/asset and what does the 70 bps move reference? Context/asset unclear.
+
+[View post](https://x.com/Wild_Randomness/status/2087782362327507297)

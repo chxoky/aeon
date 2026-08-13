@@ -1,0 +1,61 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading-main",
+        "event-line",
+        "tweet-card",
+        "alert-classification",
+        "link-post"
+      ]
+    },
+    "heading-main": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "event-line": {
+      "type": "Text",
+      "props": {
+        "text": "Event: @0xbigmikey engagement/market move reference",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "A 70 bps move that makes you question everything"
+      },
+      "children": []
+    },
+    "alert-classification": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Unable to classify",
+        "message": "Which market/asset and what does the 70 bps move reference? Context/asset unclear."
+      },
+      "children": []
+    },
+    "link-post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2087782362327507297"
+      },
+      "children": []
+    }
+  }
+}
