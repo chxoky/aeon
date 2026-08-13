@@ -1,31 +1,42 @@
-*Token Movers — Aug 12, 2026*
+*Token Movers — 2026-08-13*
 
-_Post-CPI recovery — BTC climbed to $64,201 (−0.3% 24h) from the morning low of $63.6K; 48/100 top coins green, median +0.35%; prior losers mostly bounced back, leaving a quiet tape with only micro-cap outliers moving materially._
+_Flat majors, divergent alts — BTC flat at $63,859 (+0.1%), 30/78 filtered top-100 alts green, median 24h near zero; AI/infra cohort spikes while KAITO and BEAT log capitulation-level selling._
 
 *Top Winners (24h)*
-1. BEAT (Audiera) — $1.33  +30.7% / 7d −45.2% / 1h +1.1%  •  $166M / #106  [FADE][TRENDING+UP]
-2. BTW (Bitway) — $0.2377  +17.5% / 7d +59.5% / 1h −4.8%  •  $27.4M / #88  [BREAKOUT]
-3. PI (Pi Network) — $0.0884  +3.7% / 7d +0.6% / 1h −0.3%  •  $5.1M / #67
-4. JST (JUST) — $0.1026  +3.5% / 7d −2.1% / 1h +0.1%  •  $21.9M / #75
+1. APR (aPriori) — $0.4615  +78.2% / 7d +131.9% / 1h +0.6%  •  $119M / #215  [TRENDING+UP][BREAKOUT]
+2. VELVET (Velvet) — $0.7137  +27.3% / 7d +48.8% / 1h +4.3%  •  $24.7M / #123  [BREAKOUT]
+3. CYS (Cysic) — $1.460  +17.8% / 7d +84.8% / 1h +0.1%  •  $37.5M / #145  [BREAKOUT]
+4. BTW (Bitway) — $0.2477  +10.3% / 7d +41.5% / 1h −3.1%  •  $55.9M / #86
+5. VIRTUAL (Virtuals Protocol) — $0.5909  +9.4% / 7d +4.0% / 1h −0.3%  •  $112M / #109
+6. CASHCAT (Cash Cat) — $0.1542  +9.2% / 7d +33.4% / 1h −3.7%  •  $17.4M / #189
+7. TIBBIR (Ribbita by Virtuals) — $0.1494  +8.2% / 7d +38.6% / 1h −1.1%  •  $1.8M / #198
+8. OKB (OKB) — $102.5  +7.9% / 7d +19.4% / 1h −1.3%  •  $50.8M / #40
+9. DEXE (DeXe) — $2.010  +5.7% / 7d −7.3% / 1h +1.0%  •  $15.2M / #266
+10. MNT (Mantle) — $0.4600  +5.5% / 7d +13.2% / 1h −0.3%  •  $34.7M / #50
 
 *Top Losers (24h)*
-1. ICP (Internet Computer) — $2.24  −2.3% / 7d +7.0% / 1h −0.2%  •  $40.5M / #58
-2. ALGO (Algorand) — $0.0812  −2.1% / 7d −9.1% / 1h −0.3%  •  $21.3M / #79
-3. APT (Aptos) — $0.5700  −2.1% / 7d −2.0% / 1h +0.1%  •  $28.2M / #100
-4. DOT (Polkadot) — $0.7909  −1.6% / 7d −7.0% / 1h +0.1%  •  $56.0M / #53
-5. PENGU (Pudgy Penguins) — $0.00640  −1.6% / 7d +6.0% / 1h +0.1%  •  $73.3M / #109  [TRENDING+DOWN]
+1. KAITO (KAITO) — $0.4653  −26.9% / 7d −49.8% / 1h +1.9%  •  $98.1M / #241  [CAPITULATION]
+2. BEAT (Audiera) — $0.9820  −17.8% / 7d −51.6% / 1h −1.3%  •  $88.8M / #119  [CAPITULATION]
+3. 2Z (DoubleZero) — $0.04791  −7.9% / 7d −12.7% / 1h −0.1%  •  $9.2M / #180
+4. CRV (Curve DAO) — $0.2546  −7.6% / 7d +22.2% / 1h −0.2%  •  $67.3M / #108
+5. DCR (Decred) — $12.13  −6.5% / 7d −4.4% / 1h −0.3%  •  $1.8M / #154
+6. UB (Unibase) — $0.1290  −5.4% / 7d −1.8% / 1h +0.0%  •  $1.8M / #120
+7. TRUMP (Official Trump) — $1.400  −5.3% / 7d −3.5% / 1h +0.5%  •  $57.9M / #117
+8. AXS (Axie Infinity) — $0.8640  −5.1% / 7d −0.6% / 1h +0.3%  •  $16.2M / #192
+9. EDGE (edgeX) — $0.3405  −5.1% / 7d −5.4% / 1h −0.7%  •  $2.7M / #227
+10. UNI (Uniswap) — $3.600  −5.0% / 7d −11.2% / 1h +0.7%  •  $257M / #37
 
 *Trending*
-1. HMM (Thinking Cat) — #863, $0.0175, 24h +79.9%  [PUMP-RISK]
-2. PONS (Pons) — #586, $0.0475, 24h +0.6%
-3. APR (aPriori) — #250, $0.3751, 24h +90.5%  [PUMP-RISK]
-4. PENGU (Pudgy Penguins) — #109, $0.0064, 24h −1.6%  [TRENDING+DOWN]
-5. STONKBROKER (StonkBroker) — #404, $0.0353, 24h +0.4%
-6. BTC (Bitcoin) — #1, $64,175, 24h −0.3%
-7. BEAT (Audiera) — #103, $1.305, 24h +44.1%  [TRENDING+UP][FADE]
+1. ACU (Acurast) — #476, $0.1273, 24h +32.6%  [PUMP-RISK]
+2. HMM (Thinking Cat) — #764, $0.02106, 24h +24.3%  [MICROCAP]
+3. PENGU (Pudgy Penguins) — #104, $0.006327, 24h −0.9%
+4. SOL (Solana) — #7, $76.36, 24h +0.4%
+5. HYPE (Hyperliquid) — #9, $57.37, 24h +4.2%
+6. APR (aPriori) — #215, $0.4655, 24h +78.2%  [TRENDING+UP]
+7. PI (Pi Network) — #65, $0.08817, 24h −0.9%
 
 *Notable*
-• APR: new to trending, rank #250, up 90.5% — [PUMP-RISK]; discard as signal, high manipulation risk
-• BEAT: [TRENDING+UP][FADE] — 30.7% intraday spike on 7d −45.2% base; relief bounce, not sustained
-• BTW: [BREAKOUT] confirmed — +17.5% / 7d +59.5%; upgraded from near-breakout flagged this morning
-• HMM: [PUMP-RISK] 3rd consecutive session in trending at rank #863 (+79.9%); pattern unchanged
+• APR: trending + 78% 24h / 132% 7d [BREAKOUT] — also [PUMP-RISK] at rank #215; high manipulation probability on this size move
+• KAITO: [CAPITULATION] — −27% 24h / −50% 7d; vol:mcap ratio 0.87; cross-trader bearish thesis (HCH + Stoiiic) validated over 5 weeks
+• BEAT (Audiera): [CAPITULATION] — −18% 24h / −52% 7d; vol nearly 27% of mcap
+• CYS: [BREAKOUT] — +17.8% 24h / +84.8% 7d on ZK-prover narrative

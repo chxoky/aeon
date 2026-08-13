@@ -1,20 +1,11 @@
-import urllib.request, json, sys
+import json, sys
 
-url = "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=250&page=1&sparkline=false&price_change_percentage=1h,24h,7d"
-
-try:
-    with urllib.request.urlopen(url, timeout=30) as r:
-        data = json.loads(r.read())
-except Exception as e:
-    print(f"ERROR:{e}", file=sys.stderr)
-    sys.exit(1)
+data = json.load(sys.stdin)
 
 stablecoins = {
     'tether','usd-coin','dai','first-digital-usd','usde','tusd','usdd','pyusd',
     'fdusd','paxg','wbtc','weth','steth','wrapped-bitcoin','wrapped-ethereum',
-    'ethena-usde','usds','susds','sky','binance-peg-weth','lido-staked-ether',
-    'bridged-usdc-polygon-pos-bridge','frax','usd1','rlusd','usdgo','bfusd',
-    'gho','usd0','usual-usd','paypal-usd'
+    'ethena-usde','usds','susds','sky','binance-peg-weth','lido-staked-ether'
 }
 
 def is_stable(c):
@@ -24,22 +15,23 @@ def is_stable(c):
     name = c['name'].upper()
     if sym.startswith(('USD','EUR','GBP')):
         return True
-    if 'STABLECOIN' in name or 'STAKED ETH' in name:
+    if 'STABLECOIN' in name:
         return True
     return False
 
 filtered = [c for c in data if not is_stable(c) and (c.get('total_volume') or 0) > 1_000_000]
 
+# Market pulse
 top100 = [c for c in filtered if (c.get('market_cap_rank') or 999) <= 100]
 green = sum(1 for c in top100 if (c.get('price_change_percentage_24h') or 0) > 0)
 chg50 = sorted([(c.get('price_change_percentage_24h') or 0) for c in filtered if (c.get('market_cap_rank') or 999) <= 50])
 median50 = chg50[len(chg50)//2] if chg50 else 0
-print(f"PULSE:{green}:{len(top100)}:{median50:.2f}")
+print(f"PULSE|{green}|{len(top100)}|{median50:.1f}")
 
 sorted_24h = sorted(filtered, key=lambda c: c.get('price_change_percentage_24h') or 0, reverse=True)
 
-def fmt(c):
-    rank = c.get('market_cap_rank') or 0
+def fmt_coin(c):
+    rank = c.get('market_cap_rank','?')
     sym = c['symbol'].upper()
     name = c['name']
     price = c.get('current_price') or 0
@@ -48,11 +40,13 @@ def fmt(c):
     ch1h = c.get('price_change_percentage_1h_in_currency') or 0
     vol = c.get('total_volume') or 0
     mcap = c.get('market_cap') or 0
-
+    vol_str = f"${vol/1e9:.2f}B" if vol >= 1e9 else f"${vol/1e6:.0f}M"
+    mcap_str = f"${mcap/1e9:.2f}B" if mcap >= 1e9 else f"${mcap/1e6:.0f}M"
+    # tags
     tags = []
-    if rank <= 20:
+    if (c.get('market_cap_rank') or 999) <= 20:
         tags.append('MAJOR')
-    if rank > 150 and ch24 > 30:
+    if (c.get('market_cap_rank') or 999) > 150 and ch24 > 30:
         tags.append('PUMP-RISK')
     if mcap < 50_000_000:
         tags.append('MICROCAP')
@@ -63,32 +57,17 @@ def fmt(c):
     if ch24 < -10 and vol > 0 and mcap > 0 and (vol/mcap) > 0.25:
         tags.append('CAPITULATION')
     tag_str = ' '.join(f'[{t}]' for t in tags[:2])
-
-    def fmt_price(p):
-        if p >= 1000:
-            return f"${p:,.0f}"
-        elif p >= 1:
-            return f"${p:.4f}"
-        elif p >= 0.0001:
-            return f"${p:.6f}"
-        else:
-            return f"${p:.2e}"
-
-    def fmt_money(v):
-        if v >= 1e9:
-            return f"${v/1e9:.2f}B"
-        elif v >= 1e6:
-            return f"${v/1e6:.0f}M"
-        return f"${v:.0f}"
-
-    return f"{sym}|{name}|{rank}|{fmt_price(price)}|{ch24:+.1f}%|{ch7d:+.1f}%|{ch1h:+.1f}%|{fmt_money(vol)}|#{rank}|{tag_str}"
+    return f"{sym}|{name}|{rank}|{price}|{ch24:.1f}|{ch7d:.1f}|{ch1h:.1f}|{vol_str}|{mcap_str}|{tag_str}"
 
 print("WINNERS")
 for c in sorted_24h[:10]:
-    print(fmt(c))
+    print(fmt_coin(c))
+
 print("LOSERS")
 for c in sorted_24h[-10:]:
-    print(fmt(c))
+    print(fmt_coin(c))
+
+# IDs for trending cross-ref
 print("IDS")
 for c in filtered:
     print(f"{c['id']}|{c['symbol'].upper()}|{c.get('price_change_percentage_24h') or 0:.1f}")

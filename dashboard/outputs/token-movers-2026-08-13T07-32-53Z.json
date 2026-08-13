@@ -1,0 +1,422 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Token Movers — 2026-08-13"
+      },
+      "children": [
+        "subtitle",
+        "sep1",
+        "heading-winners",
+        "table-winners",
+        "sep2",
+        "heading-losers",
+        "table-losers",
+        "sep3",
+        "heading-trending",
+        "table-trending",
+        "sep4",
+        "heading-notable",
+        "stack-notable"
+      ]
+    },
+    "subtitle": {
+      "type": "Text",
+      "props": {
+        "text": "Flat majors, divergent alts — BTC flat at $63,859 (+0.1%), 30/78 filtered top-100 alts green, median 24h near zero; AI/infra cohort spikes while KAITO and BEAT log capitulation-level selling.",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading-winners": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Winners (24h)",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "table-winners": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Price",
+          "24h%",
+          "7d%",
+          "1h%",
+          "Market Cap / Rank",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "1. APR (aPriori)",
+            "$0.4615",
+            "+78.2%",
+            "+131.9%",
+            "+0.6%",
+            "$119M / #215",
+            "TRENDING+UP, BREAKOUT"
+          ],
+          [
+            "2. VELVET (Velvet)",
+            "$0.7137",
+            "+27.3%",
+            "+48.8%",
+            "+4.3%",
+            "$24.7M / #123",
+            "BREAKOUT"
+          ],
+          [
+            "3. CYS (Cysic)",
+            "$1.460",
+            "+17.8%",
+            "+84.8%",
+            "+0.1%",
+            "$37.5M / #145",
+            "BREAKOUT"
+          ],
+          [
+            "4. BTW (Bitway)",
+            "$0.2477",
+            "+10.3%",
+            "+41.5%",
+            "−3.1%",
+            "$55.9M / #86",
+            ""
+          ],
+          [
+            "5. VIRTUAL (Virtuals Protocol)",
+            "$0.5909",
+            "+9.4%",
+            "+4.0%",
+            "−0.3%",
+            "$112M / #109",
+            ""
+          ],
+          [
+            "6. CASHCAT (Cash Cat)",
+            "$0.1542",
+            "+9.2%",
+            "+33.4%",
+            "−3.7%",
+            "$17.4M / #189",
+            ""
+          ],
+          [
+            "7. TIBBIR (Ribbita by Virtuals)",
+            "$0.1494",
+            "+8.2%",
+            "+38.6%",
+            "−1.1%",
+            "$1.8M / #198",
+            ""
+          ],
+          [
+            "8. OKB (OKB)",
+            "$102.5",
+            "+7.9%",
+            "+19.4%",
+            "−1.3%",
+            "$50.8M / #40",
+            ""
+          ],
+          [
+            "9. DEXE (DeXe)",
+            "$2.010",
+            "+5.7%",
+            "−7.3%",
+            "+1.0%",
+            "$15.2M / #266",
+            ""
+          ],
+          [
+            "10. MNT (Mantle)",
+            "$0.4600",
+            "+5.5%",
+            "+13.2%",
+            "−0.3%",
+            "$34.7M / #50",
+            ""
+          ]
+        ]
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading-losers": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Losers (24h)",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "table-losers": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Price",
+          "24h%",
+          "7d%",
+          "1h%",
+          "Market Cap / Rank",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "1. KAITO (KAITO)",
+            "$0.4653",
+            "−26.9%",
+            "−49.8%",
+            "+1.9%",
+            "$98.1M / #241",
+            "CAPITULATION"
+          ],
+          [
+            "2. BEAT (Audiera)",
+            "$0.9820",
+            "−17.8%",
+            "−51.6%",
+            "−1.3%",
+            "$88.8M / #119",
+            "CAPITULATION"
+          ],
+          [
+            "3. 2Z (DoubleZero)",
+            "$0.04791",
+            "−7.9%",
+            "−12.7%",
+            "−0.1%",
+            "$9.2M / #180",
+            ""
+          ],
+          [
+            "4. CRV (Curve DAO)",
+            "$0.2546",
+            "−7.6%",
+            "+22.2%",
+            "−0.2%",
+            "$67.3M / #108",
+            ""
+          ],
+          [
+            "5. DCR (Decred)",
+            "$12.13",
+            "−6.5%",
+            "−4.4%",
+            "−0.3%",
+            "$1.8M / #154",
+            ""
+          ],
+          [
+            "6. UB (Unibase)",
+            "$0.1290",
+            "−5.4%",
+            "−1.8%",
+            "+0.0%",
+            "$1.8M / #120",
+            ""
+          ],
+          [
+            "7. TRUMP (Official Trump)",
+            "$1.400",
+            "−5.3%",
+            "−3.5%",
+            "+0.5%",
+            "$57.9M / #117",
+            ""
+          ],
+          [
+            "8. AXS (Axie Infinity)",
+            "$0.8640",
+            "−5.1%",
+            "−0.6%",
+            "+0.3%",
+            "$16.2M / #192",
+            ""
+          ],
+          [
+            "9. EDGE (edgeX)",
+            "$0.3405",
+            "−5.1%",
+            "−5.4%",
+            "−0.7%",
+            "$2.7M / #227",
+            ""
+          ],
+          [
+            "10. UNI (Uniswap)",
+            "$3.600",
+            "−5.0%",
+            "−11.2%",
+            "+0.7%",
+            "$257M / #37",
+            ""
+          ]
+        ]
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading-trending": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "table-trending": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Rank",
+          "Price",
+          "24h%",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "1. ACU (Acurast)",
+            "#476",
+            "$0.1273",
+            "+32.6%",
+            "PUMP-RISK"
+          ],
+          [
+            "2. HMM (Thinking Cat)",
+            "#764",
+            "$0.02106",
+            "+24.3%",
+            "MICROCAP"
+          ],
+          [
+            "3. PENGU (Pudgy Penguins)",
+            "#104",
+            "$0.006327",
+            "−0.9%",
+            ""
+          ],
+          [
+            "4. SOL (Solana)",
+            "#7",
+            "$76.36",
+            "+0.4%",
+            ""
+          ],
+          [
+            "5. HYPE (Hyperliquid)",
+            "#9",
+            "$57.37",
+            "+4.2%",
+            ""
+          ],
+          [
+            "6. APR (aPriori)",
+            "#215",
+            "$0.4655",
+            "+78.2%",
+            "TRENDING+UP"
+          ],
+          [
+            "7. PI (Pi Network)",
+            "#65",
+            "$0.08817",
+            "−0.9%",
+            ""
+          ]
+        ]
+      },
+      "children": []
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading-notable": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack-notable": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert-apr",
+        "alert-kaito",
+        "alert-beat",
+        "alert-cys"
+      ]
+    },
+    "alert-apr": {
+      "type": "Alert",
+      "props": {
+        "title": "APR: BREAKOUT & PUMP-RISK",
+        "message": "Trending + 78% 24h / 132% 7d at rank #215. High manipulation probability on this size move.",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "alert-kaito": {
+      "type": "Alert",
+      "props": {
+        "title": "KAITO: CAPITULATION",
+        "message": "−27% 24h / −50% 7d; vol:mcap ratio 0.87. Cross-trader bearish thesis (HCH + Stoiiic) validated over 5 weeks.",
+        "type": "error"
+      },
+      "children": []
+    },
+    "alert-beat": {
+      "type": "Alert",
+      "props": {
+        "title": "BEAT (Audiera): CAPITULATION",
+        "message": "−18% 24h / −52% 7d; volume nearly 27% of market cap.",
+        "type": "error"
+      },
+      "children": []
+    },
+    "alert-cys": {
+      "type": "Alert",
+      "props": {
+        "title": "CYS: BREAKOUT",
+        "message": "+17.8% 24h / +84.8% 7d on ZK-prover narrative.",
+        "type": "success"
+      },
+      "children": []
+    }
+  }
+}
