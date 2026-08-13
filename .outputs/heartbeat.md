@@ -1,10 +1,10 @@
 HEARTBEAT_OK · STATUS_PAGE=OK
 
-All checks clean:
-- **P0 skills:** No failed, stuck, or degraded skills. All 9 enabled skills succeeded on schedule.
-- **P0 X webhook:** `WATCHED_TRADERS` rule is live (`is_effect: 1`) — X trade signals flowing normally.
-- **P1:** No open PRs, no urgent issues.
-- **P2:** No flagged memory items needing follow-up.
-- **P3:** All skills within normal cadence; no overdue runs.
+All checks passed:
+- **P0 skills:** No failures, stuck jobs, or consecutive failures across all 9 enabled skills
+- **P0 X webhook:** WATCHED_TRADERS rule active (`is_effect: 1`, 12 accounts, 180s interval)
+- **P1:** No open PRs; issues disabled on repo
+- **P2:** No flagged memory items
+- **P3:** All scheduled skills within normal cadence
 
-`docs/status.md` written — **🟢 OK**, 9 skills, 0 open issues, next run: token-alert at 12:00 UTC.
+`docs/status.md` regenerated (🟢 OK, 14:00 UTC). Next scheduled run: skill-health at 18:00 UTC.
