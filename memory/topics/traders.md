@@ -116,6 +116,9 @@
 - Last seen: 2026-08-13T16:57:23Z (Discord Free — BTC price observation at $62k TP level)
 - **Events (rolling):**
   - Aug 13 16:57Z — informational-price-observation: DC Free reply "You can see $62k now 😉" — BTC price observation noting arrival at prior TP target zone (Aug 11 15:47Z supporting-channel context: "We were initially targeting 62k range so if going by the plan then some TPs around there"); reply-context to FixTweet external X/FxTwitter link shares (member context, not direct trade signal); no personal trade execution; fast-path-alerted [$BTC] [1537505362561859635]
+- Last seen: 2026-08-13T20:55:24Z (Discord Chat supporting — technical check on XAU 5m false-close)
+- **Events (rolling):**
+  - Aug 13 20:55Z — technical-check: DC Chat "Fc xau 5m" — false-close chart check on XAU 5m; supporting-channel technical observation only, no execution language, no trade action; silent log per HR-1 protocol [$XAU] [1537565260297408562]
 
 ## KillaXBT
 - Platforms: X (primary) + Discord (1411492188315193416 primary "K")
