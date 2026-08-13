@@ -1,0 +1,199 @@
+{
+  "root": "card_health",
+  "state": {},
+  "elements": {
+    "card_health": {
+      "type": "Card",
+      "props": {
+        "title": "Skill Health",
+        "description": "2026-08-13"
+      },
+      "children": [
+        "main_stack"
+      ]
+    },
+    "main_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "status_section",
+        "separator1",
+        "skills_section",
+        "separator2",
+        "issues_section"
+      ]
+    },
+    "status_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "status_badge",
+        "summary_text"
+      ]
+    },
+    "status_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "HEALTH: OK",
+        "variant": "default"
+      }
+    },
+    "summary_text": {
+      "type": "Text",
+      "props": {
+        "text": "10 skills healthy (8 scheduled + 2 webhook)",
+        "variant": "lead"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "skills_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "skills_header",
+        "skills_grid"
+      ]
+    },
+    "skills_header": {
+      "type": "Heading",
+      "props": {
+        "text": "Healthy Skills",
+        "level": "h3"
+      }
+    },
+    "skills_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 5,
+        "gap": "sm"
+      },
+      "children": [
+        "skill_morning_brief",
+        "skill_token_alert",
+        "skill_token_movers",
+        "skill_market_context",
+        "skill_narrative_tracker",
+        "skill_heartbeat",
+        "skill_health",
+        "skill_trader_memory",
+        "skill_x_trader",
+        "skill_discord_trader"
+      ]
+    },
+    "skill_morning_brief": {
+      "type": "Badge",
+      "props": {
+        "text": "morning-brief",
+        "variant": "secondary"
+      }
+    },
+    "skill_token_alert": {
+      "type": "Badge",
+      "props": {
+        "text": "token-alert",
+        "variant": "secondary"
+      }
+    },
+    "skill_token_movers": {
+      "type": "Badge",
+      "props": {
+        "text": "token-movers",
+        "variant": "secondary"
+      }
+    },
+    "skill_market_context": {
+      "type": "Badge",
+      "props": {
+        "text": "market-context-refresh",
+        "variant": "secondary"
+      }
+    },
+    "skill_narrative_tracker": {
+      "type": "Badge",
+      "props": {
+        "text": "narrative-tracker",
+        "variant": "secondary"
+      }
+    },
+    "skill_heartbeat": {
+      "type": "Badge",
+      "props": {
+        "text": "heartbeat",
+        "variant": "secondary"
+      }
+    },
+    "skill_health": {
+      "type": "Badge",
+      "props": {
+        "text": "skill-health",
+        "variant": "secondary"
+      }
+    },
+    "skill_trader_memory": {
+      "type": "Badge",
+      "props": {
+        "text": "trader-memory-compact",
+        "variant": "secondary"
+      }
+    },
+    "skill_x_trader": {
+      "type": "Badge",
+      "props": {
+        "text": "x-trader-monitor",
+        "variant": "secondary"
+      }
+    },
+    "skill_discord_trader": {
+      "type": "Badge",
+      "props": {
+        "text": "discord-trader-monitor",
+        "variant": "secondary"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "issues_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat_open_issues",
+        "stat_resolved_issues"
+      ]
+    },
+    "stat_open_issues": {
+      "type": "Stat",
+      "props": {
+        "label": "Open issues",
+        "value": "0"
+      }
+    },
+    "stat_resolved_issues": {
+      "type": "Stat",
+      "props": {
+        "label": "Resolved this run",
+        "value": "0"
+      }
+    }
+  }
+}
