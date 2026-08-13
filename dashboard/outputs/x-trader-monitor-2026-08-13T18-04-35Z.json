@@ -1,0 +1,48 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_container"
+      ]
+    },
+    "tweet_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_1",
+        "btc_badge",
+        "tweet_link"
+      ]
+    },
+    "tweet_1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "@Stoiiic",
+        "text": "a few setups I'm interested in currently.\n\nsitting on hands through diminished vol, more so interested in extremes of value being revisited/broken vs. the 2. poc setup.\n\nwill drop a thread on balance trading framework with passive + aggressive spot buying/selling as confluence."
+      }
+    },
+    "btc_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "$BTC"
+      }
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Stoiiic/status/2087962518623072525"
+      }
+    }
+  }
+}

@@ -1,18 +1,11 @@
-🔍 *Calibration — @trading_axe*
+🐦 *[X] @Stoiiic*
 
-Reply to @Quarterfly: "I luckily sold at 76~ but it's destined for much higher."
+$BTC 
 
-Post contains execution language ("sold") but trader profile is builder/announcer (~70% banter). Insufficient confirmation if real trade or hypothetical. Media present (unfetchable video).
+a few setups I'm interested in currently.
 
-Unable to classify — what's your read?
+sitting on hands through diminished vol, more so interested in extremes of value being revisited/broken vs. the 2. poc setup.
 
-[View post](https://x.com/trading_axe/status/2087958853266612391)
-🐦 *[X] @KillaXBT*
+will drop a thread on balance trading framework with passive + aggressive spot buying/selling as confluence.
 
-Slowly then all at once.
-
-We might not see $SOL print new ATHs, but once $BTC bottoms, a 100–150% move from here is absolutely in play. https://x.com/KillaXBT/status/2087959870595272714
-
-_2 technical charts show SOL accumulation levels (76.69 FIRST BID, 67.06 SECOND, 53.33 THIRD). Aligns with KillaXBT's 57K BTC base + 2.5yr 160K structural bull thesis._
-
-[View tweet](https://x.com/KillaXBT/status/2087959870595272714)
+[View tweet](https://x.com/Stoiiic/status/2087962518623072525)
