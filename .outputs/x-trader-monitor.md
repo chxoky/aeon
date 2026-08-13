@@ -1,13 +1,11 @@
-🐦 *[X] @abetrade*
+🐦 *[X] @Wild_Randomness*
 
-**BTC Volatility-Selling Research:** Pretty interesting empirical analysis here. For crypto, BTC ranges the vast majority of the time with occasional sharp rallies/dumps. Best way to capitalize: selling vol, since options market almost always overprices implied volatility vs realized.
+Bear Market Status: Day 309
 
-📊 **30-day ATM short straddle backtest** (Mar 2021–May 2026):
-- Mean: +2.83% | Win rate: 71% | Drawdown: -40.44%
-- BTC Variance Risk Premium positive ~71% of period (green bars = favorable vol-sell regime)
+Theory: we haven't yet experienced a true 'circle 2' (second major drawdown cycle). Current bear market has been 'lite mode' compared to all historical iterations.
 
-📈 **Time-in-market impact:** Missing best 10 BTC days = destroys 81.6% of wealth (vs 47.2% SPY). Miss best 1 week/year = -88.9% BTC wealth loss (vs -40.4% SPY).
+Chart shows historical cycle comparison: red lines = shallower retracements (~-50%), black lines = deeper cycles (-80% to -100%).
 
-Educational research sharing on volatility premium capture—no personal trade action stated.
+[View tweet](https://x.com/Wild_Randomness/status/2087991127337271338)
 
-[View post](https://x.com/abetrade/status/2087986572847104158)
+↳ Aligns with macro 'Jump the Shark' bearish thesis; suggests structural risk of second leg down.

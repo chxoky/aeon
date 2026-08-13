@@ -1,0 +1,61 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading-status",
+        "separator-1",
+        "tweet-card",
+        "link-tweet",
+        "separator-2",
+        "text-macro"
+      ]
+    },
+    "heading-status": {
+      "type": "Heading",
+      "props": {
+        "text": "Bear Market Status: Day 309",
+        "level": "h2"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Theory: we haven't yet experienced a true 'circle 2' (second major drawdown cycle). Current bear market has been 'lite mode' compared to all historical iterations.\n\nChart shows historical cycle comparison: red lines = shallower retracements (~-50%), black lines = deeper cycles (-80% to -100%)."
+      }
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2087991127337271338"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-macro": {
+      "type": "Text",
+      "props": {
+        "text": "↳ Aligns with macro 'Jump the Shark' bearish thesis; suggests structural risk of second leg down.",
+        "variant": "muted"
+      }
+    }
+  }
+}
