@@ -1,0 +1,43 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "link_post"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "BTC structure comparison: 2018-2019 bear cycle vs current 2026-2027 pattern shows striking structural parallels. Charts overlay support levels, resistance zones, volume patterns across both cycles.\n\n**Timeframe: 2H Sept through 1H Oct** — technical setup resolution window (Sept 15 - Oct 15).\n\nChart 1: 2018-2019 historical bear; Chart 2: 2026-2027 projected pattern with key levels marked."
+      },
+      "children": []
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2087974199608721819"
+      },
+      "children": []
+    }
+  }
+}

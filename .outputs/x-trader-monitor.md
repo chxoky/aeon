@@ -1,13 +1,9 @@
-🔍 *Calibration — @Wild_Randomness*
+🐦 *[X] @Wild_Randomness*
 
-Post: "(Just remove a 0)\n\n60k = 6k"
+BTC structure comparison: 2018-2019 bear cycle vs current 2026-2027 pattern shows striking structural parallels. Charts overlay support levels, resistance zones, volume patterns across both cycles.
 
-Unable to classify — what's your read on this? Reference to BTC price scenario, joke, or something else?
-Event: Extremely cryptic post with year reference + horror imagery
-@Wild_Randomness: "2018 https://t.co/kixoUuFzAX"
+**Timeframe: 2H Sept through 1H Oct** — technical setup resolution window (Sept 15 - Oct 15).
 
-Context: Two images attached (shock/horror movie scene). WR known for URL-only posts (noise baseline). Could be: 2018 crash reference? Price action concern? Market fear expression? Personal meme?
+[View post](https://x.com/Wild_Randomness/status/2087974199608721819)
 
-Unable to classify without context — what's your read?
-
-[View post](https://x.com/Wild_Randomness/status/2087971877880991817)
+Chart 1: 2018-2019 historical bear; Chart 2: 2026-2027 projected pattern with key levels marked.
