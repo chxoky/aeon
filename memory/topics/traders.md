@@ -17,6 +17,9 @@
 - Last seen: 2026-08-13T14:36:28Z (Discord Chat — one-word cryptic "Oh", awaiting calibration)
 - **Events (rolling):**
   - Aug 13 14:36Z — ambiguous-cryptic: DC Chat one-word response "Oh"; no context/is_reply=false; supporting-channel reaction/acknowledgment unclear; HR-2 calibration alert sent to Kyle [$UNKNOWN] [1537469897645363350]
+- Last seen: 2026-08-13T14:41:18Z (X — SPCX 1h technical chart showing rally + pullback)
+- **Events (rolling):**
+  - Aug 13 14:41Z — informational-technical: X "Space technologia" + 1h SPCX chart (105 low → 149.6 peak → 141.18 current); strong recovery rally with key support/resistance levels marked (139.98, 139.6, 130.5, 130.19, 105.11); current red candle showing intraday weakness from peak; chart-driven technical observation on high-conviction overlap ticker; no personal trade action; alerted [$SPCX] [2087912382974583040]
   - Aug 13 13:59Z — ambiguous-image: DC Chat emoji-only + screenshot attachment, no text explanation; supporting-channel; unable to classify without context; HR-2 calibration alert sent to Kyle [$UNKNOWN] [1537460482460483706]
   - Aug 13 13:34Z — informational-market-observation: DC Comments "Michael burry squeeze \n\n🟢 #xyz:NBIS Short Liquidation: $54.14k @ $270.6969\nscan dash" — market observation on short liquidation event; sentiment affirmation of squeeze thesis via Michael Burry reference; no personal trade action; fast-path-alerted [$NBIS] [1537454362136416358]
   - Aug 13 11:39Z — technical-check: DC Chat "Fc btc 1hr" — false-close chart check on BTC 1hr; supporting-channel technical observation only, no execution language, no trade action; silent log per HR-1 protocol [$BTC] [1537425417479262368]
