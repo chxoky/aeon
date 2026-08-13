@@ -13,8 +13,9 @@
 - **Events (rolling):**
   - Aug 13 11:39Z — trade-partial-close: DC Trades "Cover 2.5% btc shorts" — closing/reducing short position; verbatim rule compliance (HCH—Trades channel); BTC reduced from ~10% to ~7.5%; fast-path-alerted [$BTC] [1537425318615457854]
   - Aug 13 05:47Z — trade-partial-close: DC Trades "Cover half of remaining spot/L" — covering/closing half of remaining spot long positions; primary Trades channel; verbatim rule compliance (HCH—Trades); fast-path-alerted [$SPOT_LONGS] [1537336735317626900]
-- Last seen: 2026-08-13T11:39:43Z (Discord Chat — technical chart check on BTC 1hr)
+- Last seen: 2026-08-13T13:34:44Z (Discord Comments — market observation on NBIS short liquidation)
 - **Events (rolling):**
+  - Aug 13 13:34Z — informational-market-observation: DC Comments "Michael burry squeeze \n\n🟢 #xyz:NBIS Short Liquidation: $54.14k @ $270.6969\nscan dash" — market observation on short liquidation event; sentiment affirmation of squeeze thesis via Michael Burry reference; no personal trade action; fast-path-alerted [$NBIS] [1537454362136416358]
   - Aug 13 11:39Z — technical-check: DC Chat "Fc btc 1hr" — false-close chart check on BTC 1hr; supporting-channel technical observation only, no execution language, no trade action; silent log per HR-1 protocol [$BTC] [1537425417479262368]
   - Aug 13 11:02Z — ambiguous-cryptic: X reply to @RALee85 "@RALee85 👁"; single-emoji response, context unavailable (who is RALee85, what prompted response); no ticker/execution language; HR-2 calibration alert sent to Kyle for interpretation [$UNKNOWN] [20878572380190555816]
   - Aug 13 10:51Z — technical-check: DC Chat "Fc cl 15m" — false-close chart check on CL (crude oil) 15m; supporting-channel technical observation only, no execution language, no trade action; silent log per HR-1 protocol [$CL] [1537413164709445642]
