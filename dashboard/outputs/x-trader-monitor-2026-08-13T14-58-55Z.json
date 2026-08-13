@@ -1,0 +1,127 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor: Calibration Alert"
+      },
+      "children": [
+        "content-stack"
+      ]
+    },
+    "content-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "calibration-heading",
+        "event-details",
+        "separator-1",
+        "tweet-card",
+        "separator-2",
+        "context-heading",
+        "context-reply",
+        "context-ticker",
+        "context-language",
+        "context-intent",
+        "separator-3",
+        "classification-alert",
+        "link-section"
+      ]
+    },
+    "calibration-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration — @HeartCanHodl",
+        "level": "h2"
+      }
+    },
+    "event-details": {
+      "type": "Text",
+      "props": {
+        "text": "Event: X reply to @cactusDAT on \"long target\" (Aug 13 14:56:34 UTC)",
+        "variant": "lead"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "@cactusDAT that's a pretty long target from here. We will ride this one based on momentum and intuytion 🤷🏻"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "context-reply": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to @cactusDAT's message (unavailable).",
+        "variant": "body"
+      }
+    },
+    "context-ticker": {
+      "type": "Text",
+      "props": {
+        "text": "No ticker/asset mentioned.",
+        "variant": "body"
+      }
+    },
+    "context-language": {
+      "type": "Text",
+      "props": {
+        "text": "Casual \"momentum and intuition\" language.",
+        "variant": "body"
+      }
+    },
+    "context-intent": {
+      "type": "Text",
+      "props": {
+        "text": "Unclear if personal trade action or opinion agreement.",
+        "variant": "body"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read?",
+        "type": "info"
+      }
+    },
+    "link-section": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/HeartCanHodl/status/2087916223900029332"
+      }
+    }
+  }
+}
