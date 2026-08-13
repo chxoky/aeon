@@ -1,0 +1,85 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor — Calibration"
+      },
+      "children": [
+        "heading_calibration",
+        "separator1",
+        "text_intro",
+        "stack_details",
+        "separator2",
+        "alert_analysis"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — DC: Chase — Chase",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text_intro": {
+      "type": "Text",
+      "props": {
+        "text": "Crypto_Chase posted a message on Discord primary channel"
+      },
+      "children": []
+    },
+    "stack_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_content_type",
+        "text_timestamp"
+      ]
+    },
+    "badge_content_type": {
+      "type": "Badge",
+      "props": {
+        "text": "IMAGE ONLY (no text)",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text_timestamp": {
+      "type": "Text",
+      "props": {
+        "text": "2026-08-13 14:56:21Z",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert_analysis": {
+      "type": "Alert",
+      "props": {
+        "title": "Analysis Required",
+        "message": "Unable to analyze chart without vision context — what's the signal?",
+        "type": "warning"
+      },
+      "children": []
+    }
+  }
+}

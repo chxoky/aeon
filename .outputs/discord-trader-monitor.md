@@ -22,3 +22,8 @@ The skill has completed processing the Discord message from Crypto_Chase about h
 - **Pattern:** Confirms Crypto_Chase's documented tiered-exit discipline (matches his SNDK pattern: 50% TP at target, then additional tiers, final 20% held under thesis)
 
 No Telegram notification required (fast-path already handled by Worker). Position continuing under original thesis with 20% remainder to target support zone in the 600s if weakness materializes.
+🔍 *Calibration — [DC: Chase — Chase]*
+
+Crypto_Chase posted IMAGE ONLY (no text) on Discord primary channel at 2026-08-13 14:56:21Z
+
+Unable to analyze chart without vision context — what's the signal?
