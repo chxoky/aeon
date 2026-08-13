@@ -14,3 +14,4 @@
 - ✓ Updated HeartCanHodl entry in `/memory/topics/traders.md` (last-seen timestamp + event log)
 
 **Context:** This philosophical post follows an active trading session where HCH executed multiple position entries (DELL, XAU, XAG shorts) and profit-taking waves on SNDK/MU/HYPE/SOL/ZEC, reinforcing the documented discipline pattern of taking profits after quick moves to avoid turning wins into round trips.
+Trade Signal from @trading_axe - Re-entered PENG. View: https://x.com/trading_axe/status/2087929753038717045 Reply 'approve PENG' to mirror on Kraken.
