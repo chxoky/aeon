@@ -1,0 +1,64 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge-mirror",
+        "text-action",
+        "stat-gain",
+        "text-quote",
+        "link-post"
+      ]
+    },
+    "badge-mirror": {
+      "type": "Badge",
+      "props": {
+        "text": "🔁 Mirrored from @swarmister",
+        "variant": "secondary"
+      }
+    },
+    "text-action": {
+      "type": "Text",
+      "props": {
+        "text": "SNDK TP'd 30% of position"
+      }
+    },
+    "stat-gain": {
+      "type": "Stat",
+      "props": {
+        "label": "Swing Gain",
+        "value": "+308%",
+        "trend": "up"
+      }
+    },
+    "text-quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"Chat??? $SNDK is a money printer lol\"",
+        "variant": "lead"
+      }
+    },
+    "link-post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/swarmister/status/20879236800034557979"
+      }
+    }
+  }
+}
