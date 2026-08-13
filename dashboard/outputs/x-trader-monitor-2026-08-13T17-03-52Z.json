@@ -1,0 +1,109 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "🐦 Technical Analysis — x-trader-monitor",
+        "description": "$NBIS Head-and-Shoulders Reversal Pattern"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "separator1",
+        "price_metrics",
+        "separator2",
+        "note_section",
+        "link_to_source"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "$NBIS — Head-and-Shoulders Reversal\n\n\"Guaranteed Right Shoulder\" completion on 1D. Left shoulder ~$280, head ~$300+, right shoulder ~$260-280. Neckline support ~$160. Current $148.22 (-12.65%) already below support confirming downside breakout."
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "price_metrics": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "price_stat",
+        "change_stat"
+      ]
+    },
+    "price_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Current Price",
+        "value": "$148.22"
+      }
+    },
+    "change_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Change",
+        "value": "-12.65%",
+        "trend": "down"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "note_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "note_heading",
+        "note_text"
+      ]
+    },
+    "note_heading": {
+      "type": "Text",
+      "props": {
+        "text": "Cross-Trader Note",
+        "variant": "lead"
+      }
+    },
+    "note_text": {
+      "type": "Text",
+      "props": {
+        "text": "HCH flagged NBIS liquidation 40min earlier ($270.6969 event). Technical completion validates thesis.",
+        "variant": "body"
+      }
+    },
+    "link_to_source": {
+      "type": "Link",
+      "props": {
+        "label": "View on X (Twitter)",
+        "href": "https://x.com/Wild_Randomness/status/2087946863475613827"
+      }
+    }
+  }
+}
