@@ -113,6 +113,9 @@
   - Aug 10 17:07Z — informational-reiteration: X "65,k, 1.9k shorts looking real gud!" — public reiteration of net-short conviction at conditional trigger levels; media shares DC educational context + "finger on the trigger" sentiment; no new trade signal; mechanical repeat with conviction reinforcement [2086862057484460454]
   - Aug 10 17:17Z — informational-sentiment: X "Been ringing the caution bell 🔔 all weekend" — bearish market sentiment/warning continuation; reply to @krmayank13 (context unavailable); aligns with net-short regime + technical exhaustion pattern from 08:44Z; no new trade signal [2086864474330575153]
   - Aug 10 17:08Z — ambiguous: DC Free "And rush for exits" → "Hope you realised whatever was on the table" (X link to 2086862057484460454); unclear if past reflection ("hope you caught that move") or current directive to exit; HR-2 calibration pending [1536421059794960405]
+- Last seen: 2026-08-13T16:57:23Z (Discord Free — BTC price observation at $62k TP level)
+- **Events (rolling):**
+  - Aug 13 16:57Z — informational-price-observation: DC Free reply "You can see $62k now 😉" — BTC price observation noting arrival at prior TP target zone (Aug 11 15:47Z supporting-channel context: "We were initially targeting 62k range so if going by the plan then some TPs around there"); reply-context to FixTweet external X/FxTwitter link shares (member context, not direct trade signal); no personal trade execution; fast-path-alerted [$BTC] [1537505362561859635]
 
 ## KillaXBT
 - Platforms: X (primary) + Discord (1411492188315193416 primary "K")
