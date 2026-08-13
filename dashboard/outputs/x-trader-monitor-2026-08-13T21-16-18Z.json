@@ -1,0 +1,101 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading",
+        "event-desc",
+        "separator1",
+        "tweet-card",
+        "separator2",
+        "image-section",
+        "separator3",
+        "classification-alert",
+        "view-link"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @swarmister",
+        "level": "h2"
+      }
+    },
+    "event-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @hellojintao with screenshot of Ansem wallet-address exchange (2-month-old)"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "@hellojintao Oh https://t.co/TsLaB5mrQh"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "image-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "image-label",
+        "image-detail"
+      ]
+    },
+    "image-label": {
+      "type": "Text",
+      "props": {
+        "text": "Image:",
+        "variant": "lead"
+      }
+    },
+    "image-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Screenshot showing Ansem asking \"what's your solana address?\" with wallet response. Posted 28/06/2026, now shared 13/08/2026."
+      }
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read? Trade sentiment? Meme? Context?",
+        "type": "info"
+      }
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/swarmister/status/2088010611862966360"
+      }
+    }
+  }
+}
