@@ -1,0 +1,42 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "ETH Binary Setup",
+        "description": "@Wild_Randomness on X"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "link_tweet"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "$ETH currently consolidating at 1,564-1,919 USDT range on 1D chart after strong Feb→Jul uptrend. Chart shows dual-timeframe binary inflection: breaks above ~1,200-1,400 resistance cluster → continue higher; rejection → retest support 1,000-1,200.\n\nWR predicts resolution within 10 days. Notes concern about macro interference (\"hopefully donald buying doesn't fk with my plan\"), implying pre-existing conviction.\n\nAligns with WR's Jump Shark macro framework + barbell positioning (prior ETH put options Aug 05-06)."
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/Wild_Randomness/status/2087782013948526689"
+      }
+    }
+  }
+}
