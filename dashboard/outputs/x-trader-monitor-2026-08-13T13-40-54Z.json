@@ -1,0 +1,38 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "KillaXBT — BTC Cycle Structure"
+      },
+      "children": [
+        "tweet_card",
+        "separator",
+        "link_view"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "text": "Bitcoin cycle bottoms show striking similarities across multiple cycles. Current structure differs: the range didn't form in Q4, suggesting a different cycle pattern emerging.\n\nChart analysis: Multiple overlaid bottoms from prior cycles show consistent reversal mechanics."
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2087896201513333025"
+      }
+    }
+  }
+}
