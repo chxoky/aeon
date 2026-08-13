@@ -9,8 +9,9 @@
 - Last seen: 2026-08-13T01:04:35Z (Discord Trades — cover 2.5% BTC shorts, 1% UNI, 1% PEPE)
 - **Events (rolling):**
   - Aug 13 01:04:35Z — trade-partial-close: DC Trades "Cover 2.5% btc shorts, 1% uni, 1% pepe short" — closing/reducing short positions; verbatim rule compliance (HCH—Trades channel); BTC reduced from ~12.5% to ~10%, UNI reduced from 8% to 7%, PEPE fully closed (1%→0%); fast-path-alerted [$BTC $UNI $PEPE] [1537265580707418175]
-- Last seen: 2026-08-13T01:06:54Z (Discord Trades — CL short entry)
+- Last seen: 2026-08-13T05:47:20Z (Discord Trades — cover half of remaining spot longs)
 - **Events (rolling):**
+  - Aug 13 05:47Z — trade-partial-close: DC Trades "Cover half of remaining spot/L" — covering/closing half of remaining spot long positions; primary Trades channel; verbatim rule compliance (HCH—Trades); fast-path-alerted [$SPOT_LONGS] [1537336735317626900]
   - Aug 13 01:06Z — trade-new-entry: DC Trades "Enter 1% cl short on different exchange" — CL (crude oil) short 1% on alternative exchange; primary Trades channel; verbatim rule compliance (HCH—Trades); alerted fast-path [$CL] [1537266165334933565]
   - Aug 12 23:55:29Z — informational-risk-mgmt-follow-up: X "They are just one jim mention away" + CBRS 15m post-earnings crash chart (265.550→214.710 -19% intraday); sarcastic follow-up to prior 23:47Z risk-management post; cryptic reference (likely Jim Cramer) to stock fragility; educational observation on crash severity; no personal trade action; alerted [$CBRS] [2087689459651502345]
   - Aug 12 23:47:40Z — informational-risk-mgmt: X "Well… this can happen to any of your stocks at any point" + CBRS 15m post-earnings crash chart (265.550→214.710 -19% intraday liquidation); educational risk-management observation showing extreme intraday flash-crash potential; no personal trade action; alerted [$CBRS] [2087687493667962881]
