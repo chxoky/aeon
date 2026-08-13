@@ -1,0 +1,64 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge-ticker",
+        "tweet-card",
+        "link-view",
+        "separator",
+        "note-observation"
+      ]
+    },
+    "badge-ticker": {
+      "type": "Badge",
+      "props": {
+        "text": "$AMAT",
+        "variant": "default"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Pretty blatant now\n\nI'm not even being sarcastic this time\n\nI don't remember a time where you could just look at the tape during the afternoon and know exactly how earnings were going to go"
+      }
+    },
+    "link-view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2088013569539575947"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "note-observation": {
+      "type": "Text",
+      "props": {
+        "text": "Market structure observation: earnings predictability from afternoon tape action.",
+        "variant": "caption"
+      }
+    }
+  }
+}
