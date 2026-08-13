@@ -1,0 +1,478 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-08-13"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section_focus",
+        "sep1",
+        "section_since",
+        "sep2",
+        "section_watch",
+        "sep3",
+        "section_running"
+      ]
+    },
+    "section_focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_focus",
+        "stack_focus_items"
+      ]
+    },
+    "heading_focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "stack_focus_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus_1",
+        "focus_2",
+        "focus_3"
+      ]
+    },
+    "focus_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_1_title",
+        "focus_1_desc"
+      ]
+    },
+    "focus_1_title": {
+      "type": "Text",
+      "props": {
+        "text": "1. HCH net-short escalation",
+        "variant": "lead"
+      }
+    },
+    "focus_1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE/LIT/PUMP shorts added; mirror decision window open now",
+        "variant": "body"
+      }
+    },
+    "focus_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_2_title",
+        "focus_2_desc"
+      ]
+    },
+    "focus_2_title": {
+      "type": "Text",
+      "props": {
+        "text": "2. ETH stand-down + WR binary",
+        "variant": "lead"
+      }
+    },
+    "focus_2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "PPI in-line killed entry; 10-day clock to Aug 23 resolution",
+        "variant": "body"
+      }
+    },
+    "focus_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_3_title",
+        "focus_3_desc"
+      ]
+    },
+    "focus_3_title": {
+      "type": "Text",
+      "props": {
+        "text": "3. Background: Chop regime confirmed",
+        "variant": "lead"
+      }
+    },
+    "focus_3_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Fed ceiling 66.5%; no breakout catalyst in window",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_since": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_since",
+        "stack_since_items"
+      ]
+    },
+    "heading_since": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "stack_since_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "since_eth",
+        "since_hch",
+        "since_kaito",
+        "since_wr",
+        "since_defi"
+      ]
+    },
+    "since_eth": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "eth_stat",
+        "eth_note"
+      ]
+    },
+    "eth_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH 7d",
+        "value": "-0.8%",
+        "delta": "-3.0% from +2.2%",
+        "trend": "down"
+      }
+    },
+    "eth_note": {
+      "type": "Text",
+      "props": {
+        "text": "Stand-down confirmed; entry thesis invalidated",
+        "variant": "caption"
+      }
+    },
+    "since_hch": {
+      "type": "Text",
+      "props": {
+        "text": "HCH: 3 new conviction shorts (HYPE/LIT/PUMP 1% each) + half spot longs covered + CL crude oil short opened",
+        "variant": "body"
+      }
+    },
+    "since_kaito": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "kaito_header",
+        "kaito_note"
+      ]
+    },
+    "kaito_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "kaito_stat",
+        "kaito_badge"
+      ]
+    },
+    "kaito_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "KAITO",
+        "value": "-26.9%",
+        "trend": "down"
+      }
+    },
+    "kaito_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "CAPITULATION",
+        "variant": "destructive"
+      }
+    },
+    "kaito_note": {
+      "type": "Text",
+      "props": {
+        "text": "Prior HCH/Stoiiic shorts now in profit",
+        "variant": "caption"
+      }
+    },
+    "since_wr": {
+      "type": "Text",
+      "props": {
+        "text": "WR posted ETH binary this morning: break or retest within 10 days (by Aug 23)",
+        "variant": "body"
+      }
+    },
+    "since_defi": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "defi_intro",
+        "defi_items",
+        "defi_note"
+      ]
+    },
+    "defi_intro": {
+      "type": "Text",
+      "props": {
+        "text": "DeFi TVL fading (7d):",
+        "variant": "body"
+      }
+    },
+    "defi_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "defi_lido",
+        "defi_wbtc"
+      ]
+    },
+    "defi_lido": {
+      "type": "Stat",
+      "props": {
+        "label": "Lido",
+        "value": "-0.42%",
+        "trend": "down"
+      }
+    },
+    "defi_wbtc": {
+      "type": "Stat",
+      "props": {
+        "label": "WBTC",
+        "value": "-1.14%",
+        "trend": "down"
+      }
+    },
+    "defi_note": {
+      "type": "Text",
+      "props": {
+        "text": "Accumulation narrative weakened",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_watch",
+        "watch_hch"
+      ]
+    },
+    "heading_watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "watch_hch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "watch_hch_title",
+        "watch_hch_stats",
+        "watch_hch_risk"
+      ]
+    },
+    "watch_hch_title": {
+      "type": "Text",
+      "props": {
+        "text": "Hyperliquid",
+        "variant": "lead"
+      }
+    },
+    "watch_hch_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_perp",
+        "stat_fee"
+      ]
+    },
+    "stat_perp": {
+      "type": "Stat",
+      "props": {
+        "label": "Perp DEX share",
+        "value": "70%"
+      }
+    },
+    "stat_fee": {
+      "type": "Stat",
+      "props": {
+        "label": "Daily fee buyback",
+        "value": "$1.07M"
+      }
+    },
+    "watch_hch_risk": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "risk_text",
+        "risk_detail"
+      ]
+    },
+    "risk_text": {
+      "type": "Text",
+      "props": {
+        "text": "HCH shorting into structural strength; squeeze risk if HYPE holds above $57",
+        "variant": "body"
+      }
+    },
+    "risk_detail": {
+      "type": "Text",
+      "props": {
+        "text": "Implication for Focus #1",
+        "variant": "caption"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_running",
+        "stack_running"
+      ]
+    },
+    "heading_running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "stack_running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "task_pipeline",
+        "task_context",
+        "task_xtrader",
+        "task_discord",
+        "task_heartbeat"
+      ]
+    },
+    "task_pipeline": {
+      "type": "Text",
+      "props": {
+        "text": "morning-pipeline @ 07:00 UTC (running now)",
+        "variant": "body"
+      }
+    },
+    "task_context": {
+      "type": "Text",
+      "props": {
+        "text": "market-context-refresh @ 10:00 UTC",
+        "variant": "body"
+      }
+    },
+    "task_xtrader": {
+      "type": "Text",
+      "props": {
+        "text": "x-trader-monitor continuous",
+        "variant": "body"
+      }
+    },
+    "task_discord": {
+      "type": "Text",
+      "props": {
+        "text": "discord-trader-monitor continuous",
+        "variant": "body"
+      }
+    },
+    "task_heartbeat": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat periodic",
+        "variant": "body"
+      }
+    }
+  }
+}
