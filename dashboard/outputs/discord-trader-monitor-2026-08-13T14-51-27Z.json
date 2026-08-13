@@ -1,0 +1,63 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "content-stack"
+      ]
+    },
+    "content-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading",
+        "para1",
+        "para2",
+        "separator",
+        "question"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: Chase — TradFi]",
+        "level": "h2"
+      }
+    },
+    "para1": {
+      "type": "Text",
+      "props": {
+        "text": "Supporting channel context unclear: crypto_chase posted 'thats the intention' but no referenced_message or reply context provided.",
+        "variant": "body"
+      }
+    },
+    "para2": {
+      "type": "Text",
+      "props": {
+        "text": "Cannot classify without understanding what 'intention' refers to — appears to be affirmation to an untracked prior message in the channel or external context.",
+        "variant": "body"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "question": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "lead"
+      }
+    }
+  }
+}
