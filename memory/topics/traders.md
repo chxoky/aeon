@@ -19,8 +19,9 @@
   - Aug 13 15:05Z — trade-new-entry: DC Trades "Add 1% dell short" — new short entry on Dell Technologies; primary Trades channel; verbatim rule compliance (HCH—Trades); DELL = new ticker, first mention in short basket; market-order execution; fast-path-alerted [$DELL] [1537477219730063391]
   - Aug 13 11:39Z — trade-partial-close: DC Trades "Cover 2.5% btc shorts" — closing/reducing short position; verbatim rule compliance (HCH—Trades channel); BTC reduced from ~10% to ~7.5%; fast-path-alerted [$BTC] [1537425318615457854]
   - Aug 13 05:47Z — trade-partial-close: DC Trades "Cover half of remaining spot/L" — covering/closing half of remaining spot long positions; primary Trades channel; verbatim rule compliance (HCH—Trades); fast-path-alerted [$SPOT_LONGS] [1537336735317626900]
-- Last seen: 2026-08-13T14:36:28Z (Discord Chat — one-word cryptic "Oh", awaiting calibration)
+- Last seen: 2026-08-13T20:55:39Z (Discord Chat — false-close chart check on PAXG 5m)
 - **Events (rolling):**
+  - Aug 13 20:55Z — technical-check: DC Chat "Fc paxg 5m" — false-close chart check on PAX Gold (PAXG) 5-minute timeframe; supporting-channel technical observation only, no execution language, no trade action; silent log per HR-1 protocol [$PAXG] [1537565322775629945]
   - Aug 13 14:36Z — ambiguous-cryptic: DC Chat one-word response "Oh"; no context/is_reply=false; supporting-channel reaction/acknowledgment unclear; HR-2 calibration alert sent to Kyle [$UNKNOWN] [1537469897645363350]
 - Last seen: 2026-08-13T14:56:34Z (X — reply to @cactusDAT on "long target", awaiting calibration)
 - **Events (rolling):**
