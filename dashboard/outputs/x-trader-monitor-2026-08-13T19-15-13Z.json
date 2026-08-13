@@ -1,0 +1,126 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-badges",
+        "tweet-card",
+        "grid-position",
+        "stack-status",
+        "link-post"
+      ]
+    },
+    "stack-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-ticker",
+        "badge-leverage"
+      ]
+    },
+    "badge-ticker": {
+      "type": "Badge",
+      "props": {
+        "text": "SNDK",
+        "variant": "default"
+      }
+    },
+    "badge-leverage": {
+      "type": "Badge",
+      "props": {
+        "text": "20x long",
+        "variant": "secondary"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "@swarmister",
+        "text": "SNDK — Confirming position still active after +308% gain on 20x long\n\nEntry 1,337.43 → Current 1,548.54 (+308.21%)\nTook 30% profit at 1,543.54 (15:26Z)\nRemaining 70% active + strong conviction\n\nSmol upd btw (still in)"
+      }
+    },
+    "grid-position": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat-entry",
+        "stat-current",
+        "stat-gain",
+        "stat-remaining"
+      ]
+    },
+    "stat-entry": {
+      "type": "Stat",
+      "props": {
+        "label": "Entry Price",
+        "value": "1,337.43"
+      }
+    },
+    "stat-current": {
+      "type": "Stat",
+      "props": {
+        "label": "Current Price",
+        "value": "1,548.54"
+      }
+    },
+    "stat-gain": {
+      "type": "Stat",
+      "props": {
+        "label": "Total Gain",
+        "value": "+308.21%",
+        "trend": "up"
+      }
+    },
+    "stat-remaining": {
+      "type": "Stat",
+      "props": {
+        "label": "Position Remaining",
+        "value": "70% active"
+      }
+    },
+    "stack-status": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-profit",
+        "badge-conviction"
+      ]
+    },
+    "badge-profit": {
+      "type": "Badge",
+      "props": {
+        "text": "Took 30% profit at 1,543.54 (15:26Z)",
+        "variant": "outline"
+      }
+    },
+    "badge-conviction": {
+      "type": "Badge",
+      "props": {
+        "text": "Strong conviction",
+        "variant": "default"
+      }
+    },
+    "link-post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/swarmister/status/2087980155075469769"
+      }
+    }
+  }
+}
