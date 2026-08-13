@@ -1,0 +1,81 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_source",
+        "heading_spxl",
+        "stack_levels",
+        "text_analysis"
+      ]
+    },
+    "badge_source": {
+      "type": "Badge",
+      "props": {
+        "text": "💬 DC: Chase — TradFi"
+      }
+    },
+    "heading_spxl": {
+      "type": "Heading",
+      "props": {
+        "text": "SPXL 4H",
+        "level": "h3"
+      }
+    },
+    "stack_levels": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_lows",
+        "stat_peak",
+        "stat_current"
+      ]
+    },
+    "stat_lows": {
+      "type": "Stat",
+      "props": {
+        "label": "Bounce from lows",
+        "value": "108–110"
+      }
+    },
+    "stat_peak": {
+      "type": "Stat",
+      "props": {
+        "label": "Peak",
+        "value": "153.50"
+      }
+    },
+    "stat_current": {
+      "type": "Stat",
+      "props": {
+        "label": "Current (reversing)",
+        "value": "146.70",
+        "trend": "down"
+      }
+    },
+    "text_analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Technical exhaustion of recovery move on overnight selling."
+      }
+    }
+  }
+}
