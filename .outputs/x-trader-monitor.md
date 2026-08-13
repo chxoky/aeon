@@ -1,8 +1,13 @@
-🔍 *Market Risk Observation — @HeartCanHodl*
+🐦 *[X] @HeartCanHodl*
 
-Event: CBRS (Cerebras Systems Inc.) post-earnings intraday crash
-Chart: 15m candle showing -19% flash crash (265.550 → 214.710)
+CBRS post-earnings volatility follow-up — sarcastic risk commentary.
 
-HeartCanHodl: "Well… this can happen to any of your stocks at any point"
+Text: "They are just one jim mention away"
 
-⚠️ Risk-management educational post highlighting liquidation/volatility risk on individual positions during earnings season. No personal trade action by HCH.
+Chart shows 15m intraday collapse: 265.550 → 214.710 (−19%). This is a sarcastic reference to how fragile CBRS is after the earnings dump — just one major figure (Jim Cramer?) mention could trigger further moves.
+
+Educational risk-management observation (same theme as prior 23:47Z alert on same crash). No personal trade action.
+
+Cross-trader context: CBRS now 2-trader convergence (Wild_Randomness technical TA earlier + HeartCanHodl risk-management warning — both on earnings event same evening).
+
+[View post](https://x.com/HeartCanHodl/status/2087689459651502345)

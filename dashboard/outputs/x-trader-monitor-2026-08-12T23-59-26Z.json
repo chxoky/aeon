@@ -1,0 +1,199 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X-Trader Monitor: CBRS Post-Earnings Volatility"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "heading_description",
+        "separator1",
+        "tweet_card",
+        "separator2",
+        "price_section",
+        "separator3",
+        "context_section",
+        "separator4",
+        "link_post"
+      ]
+    },
+    "heading_description": {
+      "type": "Heading",
+      "props": {
+        "text": "CBRS Post-Earnings Volatility Follow-Up — Sarcastic Risk Commentary",
+        "level": "h3"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "@HeartCanHodl",
+        "text": "They are just one jim mention away"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "price_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_chart",
+        "stack_prices",
+        "alert_fragility"
+      ]
+    },
+    "heading_chart": {
+      "type": "Heading",
+      "props": {
+        "text": "15m Intraday Collapse",
+        "level": "h4"
+      }
+    },
+    "stack_prices": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat_start",
+        "stat_end",
+        "stat_change_pct"
+      ]
+    },
+    "stat_start": {
+      "type": "Stat",
+      "props": {
+        "label": "Start",
+        "value": "265.550"
+      }
+    },
+    "stat_end": {
+      "type": "Stat",
+      "props": {
+        "label": "End",
+        "value": "214.710"
+      }
+    },
+    "stat_change_pct": {
+      "type": "Stat",
+      "props": {
+        "label": "Change",
+        "value": "-19%",
+        "trend": "down"
+      }
+    },
+    "alert_fragility": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Fragile Position",
+        "message": "Sarcastic reference to how fragile CBRS is after the earnings dump — just one major figure (Jim Cramer?) mention could trigger further moves."
+      }
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_educational",
+        "text_no_action",
+        "heading_traders",
+        "grid_trader_badges"
+      ]
+    },
+    "text_educational": {
+      "type": "Text",
+      "props": {
+        "text": "Educational risk-management observation (same theme as prior 23:47Z alert on same crash).",
+        "variant": "body"
+      }
+    },
+    "text_no_action": {
+      "type": "Text",
+      "props": {
+        "text": "No personal trade action.",
+        "variant": "caption"
+      }
+    },
+    "heading_traders": {
+      "type": "Heading",
+      "props": {
+        "text": "Cross-Trader Convergence (2-Trader)",
+        "level": "h4"
+      }
+    },
+    "grid_trader_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_randomness",
+        "badge_heartcanhodl"
+      ]
+    },
+    "badge_randomness": {
+      "type": "Badge",
+      "props": {
+        "text": "Wild_Randomness (technical TA)",
+        "variant": "secondary"
+      }
+    },
+    "badge_heartcanhodl": {
+      "type": "Badge",
+      "props": {
+        "text": "HeartCanHodl (risk-management)",
+        "variant": "secondary"
+      }
+    },
+    "separator4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post on X",
+        "href": "https://x.com/HeartCanHodl/status/2087689459651502345"
+      }
+    }
+  }
+}
