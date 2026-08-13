@@ -8,6 +8,7 @@
 - Calibration: RESOLVED "Fc" = false-close TA check, not trade signal. PENDING Aug 07 12:40Z ("~" cryptic tilde). PENDING Aug 07 18:56Z ("Nb rdw, spcx, rklb 15" — "Nb" meaning unknown). PENDING Aug 09 00:44Z (TAO "Finally lol" — TAO position relief or market banter?). Keep ALL Fc messages as silent technical-check logs.
 - Last seen: 2026-08-13T01:04:35Z (Discord Trades — cover 2.5% BTC shorts, 1% UNI, 1% PEPE)
 - **Events (rolling):**
+  - Aug 13 13:53Z — ambiguous-cryptic: X reply to @AdeelahmadXX "Entered some already 🤷🏻" — no explicit ticker, unknown context; HR-2 calibration [$UNKNOWN] [2087900227860901893]
   - Aug 13 01:04:35Z — trade-partial-close: DC Trades "Cover 2.5% btc shorts, 1% uni, 1% pepe short" — closing/reducing short positions; verbatim rule compliance (HCH—Trades channel); BTC reduced from ~12.5% to ~10%, UNI reduced from 8% to 7%, PEPE fully closed (1%→0%); fast-path-alerted [$BTC $UNI $PEPE] [1537265580707418175]
 - Last seen: 2026-08-13T11:39:19Z (Discord Trades — cover 2.5% BTC shorts)
 - **Events (rolling):**
