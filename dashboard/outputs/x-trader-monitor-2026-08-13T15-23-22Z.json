@@ -1,0 +1,138 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Trade Signal — @HeartCanHodl"
+      },
+      "children": [
+        "alert-urgent",
+        "stack-ticker",
+        "separator1",
+        "stack-quote",
+        "link-post",
+        "separator2",
+        "text-context",
+        "separator3",
+        "text-action"
+      ]
+    },
+    "alert-urgent": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "🚨 Trade Signal",
+        "message": "$DELL SHORT signal at market"
+      }
+    },
+    "stack-ticker": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "heading-ticker",
+        "badge-short",
+        "badge-market",
+        "stat-price"
+      ]
+    },
+    "heading-ticker": {
+      "type": "Text",
+      "props": {
+        "text": "$DELL",
+        "variant": "lead"
+      }
+    },
+    "badge-short": {
+      "type": "Badge",
+      "props": {
+        "text": "SHORT",
+        "variant": "destructive"
+      }
+    },
+    "badge-market": {
+      "type": "Badge",
+      "props": {
+        "text": "MARKET order",
+        "variant": "outline"
+      }
+    },
+    "stat-price": {
+      "type": "Stat",
+      "props": {
+        "label": "Current price",
+        "value": "~$501.28",
+        "delta": "already at exit target"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack-quote": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-quote",
+        "text-quote"
+      ]
+    },
+    "heading-quote": {
+      "type": "Heading",
+      "props": {
+        "text": "@HeartCanHodl",
+        "level": "h4"
+      }
+    },
+    "text-quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"If I were holding $DELL, I would leave the train before the midterms. 500+ is where I would rather exit than speculate. Markets reward those who recognize the journey is ending before the crowd realizes it has begun.\"",
+        "variant": "lead"
+      }
+    },
+    "link-post": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View post",
+        "href": "https://x.com/HeartCanHodl/status/2087921371078922304",
+        "source": "X"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-context": {
+      "type": "Text",
+      "props": {
+        "text": "Reiteration of Discord entry 15:05Z (1% DELL short added). Chart shows DELL uptrend 120→501 over 18mo; current price at exit level.",
+        "variant": "caption"
+      }
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-action": {
+      "type": "Text",
+      "props": {
+        "text": "Reply `approve DELL` to mirror this on Kraken (spot), or ignore to skip.",
+        "variant": "body"
+      }
+    }
+  }
+}
