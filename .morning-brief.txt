@@ -1,21 +1,22 @@
-*Morning Brief — 2026-08-10*
+*Morning Brief — 2026-08-13*
 
 *Focus today*
-1. CPI Aug 12 — why now: hot print breaks 65K support; soft triggers 67-69K short zone
-2. WR BTC September puts — why now: CPI binary in 48h is exactly the hedge; decide today
-3. RESEND_API_KEY invalid — why now: 3 consecutive days dark; one config change to fix
+1. PPI 8:30 AM ET — consensus cool (5.1% exp); hot surprise = risk-off, BTC 63K test
+2. HCH overnight repositioning — CL + HYPE/LIT/PUMP shorts added; spot longs halved pre-event
+3. ETH 10-day binary — WR flagged direction resolves <10 days; $1,896 consolidation live
 
 *Since yesterday*
-- [moved] KillaXBT: GOLD short active + BTC 67-69K conditional short setup on-deck (alerted 23:05Z)
-- [moved] trading_axe: "BTC weak, GOLD better, select alts outperform" — BTC/GOLD ratio + ETH.D compression confirmed with charts
-- [moved] ISS-004 closed: traders.md compacted 393KB → 36KB by trader-memory-compact
-- [stuck] 4 calibrations pending: trading_axe $HOOD, swarmister "Black swan…", HCH "You missed it?", Bitcoin_Astro Aug 12/15-16
-
-*Watch*
-- Bitcoin eyeing $69K on soft CPI (CoinPedia) — overlaps KillaXBT's 67-69K short setup; soft print = entry zone live
+- [moved] KAITO −27%/−50% 7d [CAPITULATION] — HCH+Stoiiic short theses validated, trade closed
+- [moved] HCH: trimmed BTC(−2.5%)/UNI(−1%)/PEPE(closed) shorts overnight; added CL + HYPE/LIT/PUMP shorts (1% each); halved spot longs
+- [moved] WR: fully closed SPCX at +40%; re-entry only if drops to POC ~$160
+- [moved] Swarmister: public BTC short declaration above 67K — building a short position
+- [stuck] Swarmister BTC short DCA approval — pending since Aug 04, no Kyle response
 
 *Running today*
-- token-alert @ 12:00 UTC
+- x-trader-monitor: continuous (last success 07:32 UTC)
+- discord-trader-monitor: continuous (last success 05:52 UTC)
 - token-movers @ 12:00 UTC
+- token-alert @ 12:00 UTC
 - market-context-refresh @ 13:00 UTC
 - narrative-tracker @ 13:30 UTC
+- heartbeat @ 20:00 UTC

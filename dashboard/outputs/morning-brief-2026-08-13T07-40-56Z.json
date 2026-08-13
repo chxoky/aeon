@@ -1,0 +1,122 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief 2026-08-13"
+      },
+      "children": [
+        "focus_items",
+        "separator",
+        "full_text_link"
+      ]
+    },
+    "focus_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ppi_item",
+        "hch_item",
+        "eth_item"
+      ]
+    },
+    "ppi_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ppi_heading",
+        "ppi_time",
+        "ppi_value"
+      ]
+    },
+    "ppi_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PPI",
+        "level": "h3"
+      }
+    },
+    "ppi_time": {
+      "type": "Text",
+      "props": {
+        "text": "8:30 AM ET"
+      }
+    },
+    "ppi_value": {
+      "type": "Stat",
+      "props": {
+        "label": "Consensus cool",
+        "value": "5.1%"
+      }
+    },
+    "hch_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "hch_heading",
+        "hch_content"
+      ]
+    },
+    "hch_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "HCH Repositioning",
+        "level": "h3"
+      }
+    },
+    "hch_content": {
+      "type": "Text",
+      "props": {
+        "text": "CL+HYPE/LIT/PUMP shorts, halved longs"
+      }
+    },
+    "eth_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "eth_heading",
+        "eth_badge"
+      ]
+    },
+    "eth_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "ETH 10d Binary",
+        "level": "h3"
+      }
+    },
+    "eth_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "WR"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "full_text_link": {
+      "type": "Link",
+      "props": {
+        "label": "See .morning-brief.txt for full text",
+        "href": ".morning-brief.txt"
+      }
+    }
+  }
+}
