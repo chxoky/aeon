@@ -12,8 +12,9 @@
 - Last seen: 2026-08-13T05:47:20Z (Discord Trades — cover half of remaining spot longs)
 - **Events (rolling):**
   - Aug 13 05:47Z — trade-partial-close: DC Trades "Cover half of remaining spot/L" — covering/closing half of remaining spot long positions; primary Trades channel; verbatim rule compliance (HCH—Trades); fast-path-alerted [$SPOT_LONGS] [1537336735317626900]
-- Last seen: 2026-08-13T05:48:32Z (Discord Trades — HYPE/LIT/PUMP short adds)
+- Last seen: 2026-08-13T10:30:39Z (Discord Chat — ambiguous cryptic message "What you see here TK")
 - **Events (rolling):**
+  - Aug 13 10:30Z — ambiguous: DC Chat "What you see here TK" — cryptic external reference, no attachments/context; "TK" meaning unclear (to-come, ticker, or other); supporting-channel member chat, isolated; HR-2 calibration alert sent to Kyle [$UNKNOWN] [1537408036803579954]
   - Aug 13 05:48Z — trade-conviction-add: DC Trades "Add 1% short each to hype, lit, pump" — HYPE/LIT/PUMP short conviction adds (1% each); verbatim rule compliance (HCH—Trades primary); PUMP = new ticker first mention; HYPE/LIT = existing shorts re-escalation; fast-path alerted [$HYPE $LIT $PUMP] [1537377038401962065]
   - Aug 13 01:06Z — trade-new-entry: DC Trades "Enter 1% cl short on different exchange" — CL (crude oil) short 1% on alternative exchange; primary Trades channel; verbatim rule compliance (HCH—Trades); alerted fast-path [$CL] [1537266165334933565]
   - Aug 12 23:55:29Z — informational-risk-mgmt-follow-up: X "They are just one jim mention away" + CBRS 15m post-earnings crash chart (265.550→214.710 -19% intraday); sarcastic follow-up to prior 23:47Z risk-management post; cryptic reference (likely Jim Cramer) to stock fragility; educational observation on crash severity; no personal trade action; alerted [$CBRS] [2087689459651502345]

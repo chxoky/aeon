@@ -1,0 +1,72 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Calibration — [DC: HCH — Chat]"
+      },
+      "children": [
+        "heading_event",
+        "text_event_type",
+        "separator1",
+        "tweet_message",
+        "separator2",
+        "alert_classification",
+        "text_details"
+      ]
+    },
+    "heading_event": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text_event_type": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Member chat message with cryptic external reference.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "tweet_message": {
+      "type": "TweetCard",
+      "props": {
+        "author": "heartcanhodl",
+        "text": "What you see here TK"
+      },
+      "children": []
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "alert_classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "text_details": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read? (No attachments provided; \"TK\" meaning unclear — to-come, ticker, or other reference?)",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
