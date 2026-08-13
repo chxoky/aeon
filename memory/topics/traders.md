@@ -421,7 +421,7 @@
 - Recent thesis: BTC IV at historic lows; September = historically vol bottom (2023+2025 precedents); straddle/strangle strategies as direction-neutral vol expansion plays. SPCX options: IV ~110% vs realized ~50%; long calendar (sell Sep straddle, buy Oct straddle) thesis with max profit $1726/loss -$548. Options market analysis only — no personal execution language.
 - Conviction notes: Heavy quantitative framework (HAR model on IV/RV; VRP decomposition). Chart-heavy analysis (4 images per post). Shares trade ideas/educational frameworks rather than personal execution announcements.
 - Calibration: PENDING Aug 06 12:55Z ("looks like someone already ate that" @jimtalbot @btc_charlie — options fill confirmation or price-level observation?). PENDING Aug 08 18:51Z (zero-sum vs negative-sum framework — non-financial educational, likely skip).
-- Last seen: 2026-08-12T12:17:50Z (X — SPX vol analysis, call skew/term structure commentary)
+- Last seen: 2026-08-13T07:29:07Z (X — tool-sharing reply on equities momentum screener)
 - **Events (rolling):**
   - Aug 12 12:17Z — informational: SPX options structure (call skew highest YTD, VIX 15 similar May/Jul, term structure steepened 5.4%→5.9%), technical support 7620 (prior ATH/vol pocket) & 7550s (MA cluster); no personal position action; 4-chart analysis images [$SPX] [2087513892658229665]
   - Aug 03 17:28Z — informational: SPCX long calendar options thesis; IV 110% vs RV 50%; Sep straddle sell/Oct buy; max profit $1726 [$SPCX]
