@@ -1,0 +1,159 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor: Collapsed Futures/Asset Structure"
+      },
+      "children": [
+        "calibration_badge",
+        "event_stack",
+        "sep1",
+        "data_grid",
+        "sep2",
+        "analysis_stack",
+        "sep3",
+        "link_stack"
+      ]
+    },
+    "calibration_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Calibration — @swarmister",
+        "variant": "outline"
+      }
+    },
+    "event_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event_heading",
+        "event_details",
+        "group_info"
+      ]
+    },
+    "event_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Collapsed Futures/Asset Structure Chart",
+        "level": "h3"
+      }
+    },
+    "event_details": {
+      "type": "Text",
+      "props": {
+        "text": "Chart shows massive 2025 volume spike (~500K) → 2026 collapse to 2.14K current volume. Price at 88.26 (+4.29%). Caption: \"plumber coin future\"",
+        "variant": "body"
+      }
+    },
+    "group_info": {
+      "type": "Text",
+      "props": {
+        "text": "Group chat participants: @ElChapoSK22 et al",
+        "variant": "caption"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "data_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "stat_peak_volume",
+        "stat_current_volume",
+        "stat_price"
+      ]
+    },
+    "stat_peak_volume": {
+      "type": "Stat",
+      "props": {
+        "label": "2025 Peak Volume",
+        "value": "~500K"
+      }
+    },
+    "stat_current_volume": {
+      "type": "Stat",
+      "props": {
+        "label": "2026 Current Volume",
+        "value": "2.14K"
+      }
+    },
+    "stat_price": {
+      "type": "Stat",
+      "props": {
+        "label": "Current Price",
+        "value": "88.26",
+        "delta": "+4.29%",
+        "trend": "up"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "analysis_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis_heading",
+        "market_analysis_text",
+        "clarification_question"
+      ]
+    },
+    "analysis_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Market Analysis",
+        "level": "h3"
+      }
+    },
+    "market_analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "The chart displays clear market capitulation event, but asset cannot be identified from image alone.",
+        "variant": "body"
+      }
+    },
+    "clarification_question": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read on the \"plumber coin\" reference? Educational share or specific trade observation?",
+        "variant": "lead"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "link_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "link_to_post"
+      ]
+    },
+    "link_to_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/swarmister/status/2088011468167913713"
+      }
+    }
+  }
+}
