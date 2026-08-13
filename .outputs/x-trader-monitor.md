@@ -11,3 +11,12 @@
 - ✅ No Kyle alert sent (non-financial per Step 4A / HR-1)
 
 **Processing complete.** Event classified and logged silently per protocol.
+🔍 *Calibration — @Wild_Randomness*
+
+Event: Reply to @shrimp_capital on Saylor/liquidation scenario
+
+@Wild_Randomness: "Only if Saylor has to liquidate everything and it's done in a slow manner"
+
+Unable to classify — what's your read? Context suggests discussion of MSTR/BTC liquidation thesis, but original question not visible.
+
+[View post](https://x.com/Wild_Randomness/status/2087970540921500090)
