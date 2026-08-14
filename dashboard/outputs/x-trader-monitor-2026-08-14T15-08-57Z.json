@@ -1,0 +1,116 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_stack",
+        "separator_1",
+        "context_stack"
+      ]
+    },
+    "tweet_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "tweet_link"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "Wild_Randomness",
+        "text": "No large concern with gold, bottom is in\n\nIt's being driven mainly by China anyway and the liquidity picture there is better vs US/Global"
+      }
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2088280531347902616"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_heading",
+        "context_line1",
+        "context_line2",
+        "context_tags"
+      ]
+    },
+    "context_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "context_line1": {
+      "type": "Text",
+      "props": {
+        "text": "Gold is on your explicit watch list. This aligns with WR's documented GOLD long barbell thesis (Aug 06, pending approval).",
+        "variant": "body"
+      }
+    },
+    "context_line2": {
+      "type": "Text",
+      "props": {
+        "text": "Macro commentary on GOLD/BTC divergence structure (multi-year GOLD/BTC ratio inflection confirmed 13:03Z same session).",
+        "variant": "body"
+      }
+    },
+    "context_tags": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_gold",
+        "badge_btc",
+        "badge_inflection"
+      ]
+    },
+    "badge_gold": {
+      "type": "Badge",
+      "props": {
+        "text": "GOLD Long Barbell",
+        "variant": "default"
+      }
+    },
+    "badge_btc": {
+      "type": "Badge",
+      "props": {
+        "text": "GOLD/BTC Divergence",
+        "variant": "outline"
+      }
+    },
+    "badge_inflection": {
+      "type": "Badge",
+      "props": {
+        "text": "Multi-year inflection",
+        "variant": "secondary"
+      }
+    }
+  }
+}
