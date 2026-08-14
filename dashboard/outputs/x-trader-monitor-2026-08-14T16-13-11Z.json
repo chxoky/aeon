@@ -1,0 +1,141 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Trade Signal Monitor"
+      },
+      "children": [
+        "alert_headline",
+        "separator_1",
+        "stack_main"
+      ]
+    },
+    "alert_headline": {
+      "type": "Alert",
+      "props": {
+        "title": "🚨 Trade Signal — @Wild_Randomness",
+        "type": "warning"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stack_position",
+        "stack_prices",
+        "separator_2",
+        "tweet_signal",
+        "link_post",
+        "separator_3",
+        "alert_action"
+      ]
+    },
+    "stack_position": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_cls",
+        "badge_long",
+        "badge_limit"
+      ]
+    },
+    "badge_cls": {
+      "type": "Badge",
+      "props": {
+        "text": "$CLS",
+        "variant": "default"
+      }
+    },
+    "badge_long": {
+      "type": "Badge",
+      "props": {
+        "text": "LONG",
+        "variant": "default"
+      }
+    },
+    "badge_limit": {
+      "type": "Badge",
+      "props": {
+        "text": "LIMIT order",
+        "variant": "secondary"
+      }
+    },
+    "stack_prices": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_entry",
+        "stat_prior"
+      ]
+    },
+    "stat_entry": {
+      "type": "Stat",
+      "props": {
+        "label": "Entry Price",
+        "value": "$333-334"
+      }
+    },
+    "stat_prior": {
+      "type": "Stat",
+      "props": {
+        "label": "Prior Exit",
+        "value": "$362",
+        "delta": "-8%",
+        "trend": "down"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet_signal": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Ok getting 8% lower from my exits a day ago\n\nRebought"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2088296813753487509"
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_action": {
+      "type": "Alert",
+      "props": {
+        "title": "Action Required",
+        "message": "Reply `approve CLS` to mirror this on Kraken (spot), or ignore to skip.",
+        "type": "info"
+      }
+    }
+  }
+}

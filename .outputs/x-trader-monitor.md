@@ -1,7 +1,12 @@
-🐦 *[X] @Wild_Randomness*
+🚨 *Trade Signal — @Wild_Randomness*
 
-$GOLD $SPX
+$CLS — LONG — *LIMIT order*
+~$333-334 (8% dip from prior exits ~$362)
 
-Are you watching? https://t.co/RYGKSD4mpu
+"Ok getting 8% lower from my exits a day ago
 
-_Chart shows XAUUSD/SPX ratio at 0.553 — multi-year lows. Gold severely underperforming equities, validating macro-bear divergence thesis._
+Rebought"
+
+[View post](https://x.com/Wild_Randomness/status/2088296813753487509)
+
+Reply `approve CLS` to mirror this on Kraken (spot), or ignore to skip.
