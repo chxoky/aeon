@@ -1,0 +1,125 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "main_stack"
+      ]
+    },
+    "main_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet",
+        "link_to_tweet",
+        "sep1",
+        "interpretation",
+        "stocks_section"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "@HeartCanHodl",
+        "text": "I have a quiet conviction that some of my latest stock shorts will also age like fine wine\n\nBut again, time is the final arbiter\n\nLet the cycle complete"
+      },
+      "children": []
+    },
+    "link_to_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/HeartCanHodl/status/2088209396354744654"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "interpretation": {
+      "type": "Text",
+      "props": {
+        "text": "Conviction reaffirmation on stock short thesis (TSLA/PLTR/DELL/MU). No new action — informational sentiment update.",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "stocks_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stocks_label",
+        "stocks_badges"
+      ]
+    },
+    "stocks_label": {
+      "type": "Text",
+      "props": {
+        "text": "Short positions:",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "stocks_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_tsla",
+        "badge_pltr",
+        "badge_dell",
+        "badge_mu"
+      ]
+    },
+    "badge_tsla": {
+      "type": "Badge",
+      "props": {
+        "text": "TSLA",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "badge_pltr": {
+      "type": "Badge",
+      "props": {
+        "text": "PLTR",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "badge_dell": {
+      "type": "Badge",
+      "props": {
+        "text": "DELL",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "badge_mu": {
+      "type": "Badge",
+      "props": {
+        "text": "MU",
+        "variant": "outline"
+      },
+      "children": []
+    }
+  }
+}
