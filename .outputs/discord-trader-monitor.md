@@ -1,28 +1,25 @@
-Based on the skill execution analysis:
+## Summary
 
-## Event Processing Summary
+Processed HeartCanHodl Discord trade alert:
 
-**Message:** "Fc Paxg 5m" from HeartCanHodl
-**Channel:** HCH — Chat (supporting channel)
-**Time:** 2026-08-14 02:21:02 UTC
-**Message ID:** 1537647206713131098
+**Event Details:**
+- **Message**: "1% nbis short"
+- **Channel**: 1279738718680256553 (HCH — Trades, primary ★)
+- **Time**: 2026-08-14T09:46:07Z
+- **Message ID**: 1537759216238989382
 
-### Classification
-- **Type:** technical-check (false-close chart check)
-- **Ticker:** PAXG (PAX Gold)
-- **Timeframe:** 5-minute
-- **Action:** SILENT LOG (no alert, HR-1 protocol)
+**Classification**: Trade-new-entry (Step 5a)
+- Direct execution call on primary Trades channel
+- NBIS = emerging cryptocurrency/perp ticker (previously noted as liquidation observation Aug 13)
+- 1% position sizing (systematic allocation)
+- Verbatim message rule applied (exact text preserved as-is)
 
-### Analysis
-Per traders.md calibration (line 7): "Fc {ticker} {tf}" is an established pattern representing false-close technical analysis checks, NOT trade signals. This message has 15+ documented prior occurrences in HCH's supporting-channel activity (e.g., Aug 13 20:55Z showed "Fc paxg 5m").
+**Action Taken**:
+- **Dedup check**: Message ID added to memory/discord-trader-seen.txt ✓
+- **Fast-path protocol**: `fast_path_alerted=true` — Cloudflare Worker already sent Telegram ~2-5s post-message
+  - Skipped redundant Telegram send (skill protocol)
+  - Proceeded to memory/logging only
+- **Memory update**: traders.md updated with new event entry
+- **Log entry**: memory/logs/2026-08-14.md documented with classification, ticker, and notes
 
-**No trade action** → no personal execution language, no execution language, supporting-channel technical observation only.
-
-**No Kyle notification** → SILENT LOG per HR-1 protocol. This is logged to memory only.
-
-### Memory Updates
-- ✅ Message ID 1537647206713131098 logged to dedup tracking
-- ✅ Event logged to traders.md as technical-check continuation
-- ✅ PAXG ticker marked as established technical-check pattern (monitoring only, not alerting)
-
-**Skill execution complete** — event processed and memory updated per protocol.
+**Current HCH position impact**: NBIS added to active short basket (expanding emerging-alt conviction short thesis alongside existing UNI/LIT/PUMP/HYPE/ZEC/KAITO shorts)
