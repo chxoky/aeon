@@ -1,0 +1,91 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "heading",
+        "event-info",
+        "tweet",
+        "analysis-section"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h2"
+      }
+    },
+    "event-info": {
+      "type": "Text",
+      "props": {
+        "text": "Event: X reply to @_tolks",
+        "variant": "caption"
+      }
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Couple weeks until Warsh rains on everyone's parade"
+      }
+    },
+    "analysis-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "unable-to-classify",
+        "interpretations-stack"
+      ]
+    },
+    "unable-to-classify": {
+      "type": "Alert",
+      "props": {
+        "message": "Unable to classify — what's your read?",
+        "type": "info"
+      }
+    },
+    "interpretations-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "option1",
+        "option2",
+        "option3"
+      ]
+    },
+    "option1": {
+      "type": "Badge",
+      "props": {
+        "text": "Kevin Warsh macro/policy reference",
+        "variant": "outline"
+      }
+    },
+    "option2": {
+      "type": "Badge",
+      "props": {
+        "text": "Market timing signal",
+        "variant": "outline"
+      }
+    },
+    "option3": {
+      "type": "Badge",
+      "props": {
+        "text": "Specific catalyst",
+        "variant": "outline"
+      }
+    }
+  }
+}
