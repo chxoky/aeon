@@ -486,6 +486,21 @@
 - **Approval/Alert status**: FAST-PATH ALERTED (Telegram already sent by Worker for all seven events Jul 16/21/29 06:54Z/29 14:14Z/31 02:17Z/Aug 06 22:51Z/Aug 07 13:09Z); no duplicate sends by skill. Await Kyle signal on whether to mirror UNI short on Kraken (cumulative 8% allocation) or monitor as memory-only entry.
 - **Last update**: 2026-08-07T13:09:08Z (discord-trader-monitor, fast-path alerted, TRADE-CONVICTION-ADD; message_id=1535273591246037145, seventh conviction add, 8% total position size)
 
+### SNDK (SanDisk) — SHORT (NEW ENTRY — 2026-08-14T10:22:07Z)
+- **Status**: ACTIVE — trade-new-entry 2026-08-14T10:22:07Z
+- **Entry**: 2026-08-14T10:22:07Z (Discord Trades primary channel)
+- **Entry message**: "1% sndk short" (direct execution call, primary channel)
+- **Entry type**: Market order (execution at current price, time 10:22:07Z UTC)
+- **Portfolio allocation**: 1% (initial entry)
+- **Entry level**: Unknown (exact price not specified in Discord message; market order execution per timing)
+- **Ticker**: SNDK (SanDisk Corp., semiconductor/storage memory technology)
+- **Context**: SNDK represents emerging ticker in HCH's systematic short basket (morning session escalation: NBIS 09:46Z → MU 10:14Z → SNDK 10:22Z on 2026-08-14). Cross-trader context: swarmister entered SNDK LONG on Aug 13 08:09Z with high RR thesis (breakout above 1,360 support at ~1,315-1,320) — emerging CROSS-TRADER DIVERGENCE between HCH short (new entry Aug 14 10:22Z) and swarmister long (Aug 13, awaiting Kyle approval). Prior SNDK history: Crypto_Chase 80% TP closed Jul 27 at $1480; ryzzqq mean-reversion long entry Jul 28; swarmister bullish breakout long Aug 13. HCH's short entry suggests either (a) technical pullback/mean-reversion move within broader long trend, or (b) independent bearish thesis validation on intraday weakness/structure breakdown. Execution timing: early morning UTC session (10:22Z = early London + Asia overlap), consistent with HCH's documented systematic short accumulation rhythm on primary Trades channel.
+- **Rationale**: Expansion of HCH's structural bearish portfolio overlay into semiconductor/memory sector. SNDK fits within emerging sector rotation thesis (prior sector shorts: MU Aug 14 10:14Z same morning, broader tech/AI narrative compression). Entry context aligns with net-short regime shift initiated Aug 07 00:28Z. Portfolio allocation: estimated current short basket 25-30% total post-recent adds (UNI 8%, ZEC 2-2.5%, HYPE 1%, other alts 1-2% each). SNDK 1% entry represents systematic sector diversification within short allocation.
+- **Conviction**: MEDIUM (1% allocation = introductory tranche; terse execution format = commitment; morning timing = systematic rather than emotional; immediate follow-up to MU/NBIS entries same morning = coordinated sector short build, suggesting validation of technology-sector bearish thesis on intraday weakness OR pre-planned systematic accumulation executing on schedule)
+- **Approval/Alert status**: FAST-PATH ALERTED by Cloudflare Worker (Telegram alert sent ~2-5s post-message, 10:22-10:25Z UTC); skill processes memory-only logging per fast-path protocol (no duplicate Telegram send). Await Kyle signal on mirror status: SNDK short may be monitored as memory-only entry or mirrored on Kraken depending on Kyle's position management decision (no prior SNDK short from Kyle on record).
+- **Alerted**: YES (fast-path alert: 2026-08-14T10:22:07Z, discord-trader-monitor real-time, message_id=1537768275327459368)
+- **Last update**: 2026-08-14T10:22:07Z (discord-trader-monitor, fast-path-alerted, TRADE-NEW-ENTRY; message_id=1537768275327459368)
+
 ### SPCX — SHORT HEDGE (ACTIVE — CONVICTION ADD 2026-08-08)
 - **Status**: ACTIVE — conviction add 2026-08-08T03:50:06Z (escalating from 2% to 3%), conviction add 2026-08-08T19:57:48Z (escalating from 3% to 4% total allocation)
 - **Entry history**:
