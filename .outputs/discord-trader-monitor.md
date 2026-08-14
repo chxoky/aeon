@@ -1,34 +1,18 @@
+**Skill execution complete.**
+
 ## Summary
 
-Executed discord-trader-monitor skill for real-time Discord message from HeartCanHodl at 2026-08-14T17:11:29.545Z.
-
-**Event classified:** Technical check (silent log)
-- **Message:** "Fc uni 1hr" (false-close technical chart check on UNI 1-hour)
-- **Channel:** HCH — Chat (supporting channel member Q&A)
-- **Ticker:** UNI (existing short in HCH's basket)
-- **Action:** Silent log per HR-1 protocol (established pattern: "Fc" = false-close TA observation, not trade signal)
-- **Result:** No alert sent, no Telegram, no traders.md entry (established pattern recognized)
-
-**Memory updated:**
-- discord-trader-seen.txt: Added message ID 1537871297306955899
-- memory/logs/2026-08-14.md: Logged full event details with classification rationale
-
-Message correctly identified as technical pattern observation (false-close structure check) rather than execution signal. HeartCanHodl maintains existing UNI short positions per memory; this supporting-channel message provides no new conviction or position updates.
-Successfully executed **discord-trader-monitor** skill with the provided event.
-
-**Event details:**
+**Event Processed:**
 - **Trader:** HeartCanHodl (heartcanhodl)
-- **Channel:** 1023638573313966212 (HCH — Chat, supporting)
-- **Message ID:** 1537871311983091732
-- **Content:** Animated emoji only (`<a:emoji_59:1413060557426131004>`)
-- **Classification:** Non-financial (reaction/banter) → **skip silently**
+- **Channel:** 1472153627324842057 (HCH — Free, primary)
+- **Message ID:** 1537874509951012874
+- **Content:** "Welcome!\n\nhttps://x.com/i/status/2088315553970819174"
+- **Created:** 2026-08-14T17:24:15.499000+00:00
 
-**Actions taken:**
-1. ✅ Decoded base64 event JSON
-2. ✅ Verified fast_path_alerted = false (full processing)
-3. ✅ Resolved trader + channel mapping from `memory/discord-channels.json`
-4. ✅ Applied HR-1 (non-financial skip) — no calibration alert needed
-5. ✅ Added message ID to `memory/discord-trader-seen.txt` (dedup prevention)
-6. ✅ Logged event to `memory/logs/2026-08-14.md`
+**Classification:** Non-financial (greeting message)
 
-No Telegram alert sent (non-financial emoji reaction). No traders.md entry added. Event processed cleanly per protocol.
+**Result:** Message skipped per HR-1 protocol. No trade signal, no market content, pure administrative welcome message with X post link. Message ID added to `discord-trader-seen.txt` to prevent reprocessing. Event logged to `memory/logs/2026-08-14.md`. No Telegram alert sent.
+
+**Files Updated:**
+- ✓ `memory/discord-trader-seen.txt` — Message ID appended
+- ✓ `memory/logs/2026-08-14.md` — Event logged with full classification notes
