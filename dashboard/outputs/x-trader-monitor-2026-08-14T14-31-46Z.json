@@ -1,0 +1,150 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor",
+        "description": "Trading analysis and cross-trader positions on $SPCX"
+      },
+      "children": [
+        "tweet-card",
+        "sep-1",
+        "chart-section",
+        "sep-2",
+        "cross-trader-section",
+        "sep-3",
+        "footer-section"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "$SPCX — Interesting behaviour"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "chart-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "chart-heading",
+        "price-analysis",
+        "support-resistance",
+        "volume-note"
+      ]
+    },
+    "chart-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart Analysis",
+        "level": "h3"
+      }
+    },
+    "price-analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Daily consolidation structure showing recovery from 105 lows to current 135.96 (-3.79% pullback)"
+      }
+    },
+    "support-resistance": {
+      "type": "Text",
+      "props": {
+        "text": "Support/resistance zones: 175, 160, 145, 120, 110, 100"
+      }
+    },
+    "volume-note": {
+      "type": "Text",
+      "props": {
+        "text": "Volume declining trend with near-term resistance test",
+        "variant": "muted"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "cross-trader-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "cross-heading",
+        "heartcan-position",
+        "swarmister-position",
+        "catalysts-text"
+      ]
+    },
+    "cross-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Cross-Trader Context",
+        "level": "h3"
+      }
+    },
+    "heartcan-position": {
+      "type": "Text",
+      "props": {
+        "text": "HeartCanHodl: 2% spot long + 1% short hedge"
+      }
+    },
+    "swarmister-position": {
+      "type": "Text",
+      "props": {
+        "text": "swarmister: Long entry Jul 29 at ~194.84, 2/3 position"
+      }
+    },
+    "catalysts-text": {
+      "type": "Text",
+      "props": {
+        "text": "Multi-day recovery thesis locked in with Aug-Sep unlock window catalysts (Musk stake 46.1% eligible Aug-Sep phases)"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "footer-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "classification-badge",
+        "post-link"
+      ]
+    },
+    "classification-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "informational-technical (structure confirmation)",
+        "variant": "outline"
+      }
+    },
+    "post-link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2088270835421520345"
+      }
+    }
+  }
+}
