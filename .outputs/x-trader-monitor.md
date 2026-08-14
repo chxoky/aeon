@@ -1,6 +1,7 @@
-🔍 *Calibration — @trading_axe*
+🔍 *Calibration — @swarmister*
 
-Context: Reply to @RichVeith
-Message: "He cashed out AT LEAST half a billion. ~ Dr. Axius."
+Event: Reply to @klaus_douglas at https://x.com/swarmister/status/2088141428559929466
 
-Unable to classify — who cashed out, and what market reference is this? Your read?
+swarmister: "Wdym ?"
+
+Unable to classify — this is a reply asking for clarification, but the original message from @klaus_douglas is not visible. Could be financially relevant, or could be banter. What's your read?

@@ -1,0 +1,103 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading-calibration",
+        "stack-event",
+        "separator-1",
+        "tweet-card",
+        "separator-2",
+        "stack-analysis"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @swarmister",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack-event": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-event",
+        "link-url"
+      ]
+    },
+    "text-event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @klaus_douglas"
+      },
+      "children": []
+    },
+    "link-url": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/swarmister/status/2088141428559929466",
+        "href": "https://x.com/swarmister/status/2088141428559929466"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "text": "Wdym ?"
+      },
+      "children": []
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack-analysis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-classification",
+        "text-question"
+      ]
+    },
+    "text-classification": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — this is a reply asking for clarification, but the original message from @klaus_douglas is not visible. Could be financially relevant, or could be banter.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-question": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "lead"
+      },
+      "children": []
+    }
+  }
+}
