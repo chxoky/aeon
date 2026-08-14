@@ -15,8 +15,7 @@ Autonomous trading-signal agent running on GitHub Actions via Claude Code. Monit
 ## Active Topics
 - [Trader State](topics/traders.md) — live per-trader positions, last-seen. (Rebuilt 2026-07-14 by trader-bootstrap; entries since flow via monitors + traders_update.txt.)
 - [Ticker Focus](topics/ticker-focus.md) — overlap/contested tickers, Kyle's watch list. Rebuilt 2026-07-14.
-- [Market Context](topics/market-context.md) — latest regime snapshot (Aug 13: BTC $63,855 (+0.28%), chop (medium-low conviction), F&G 29 Fear, breadth 12/20, DEX vol $5.92B; PPI pending 8:30 AM ET; 7d breadth 8/20 (deteriorating); ZK/AI infrastructure rising (ACU +32.6%, APR +47.3%, CYS +17.45%); HYPE +5.0% DEX leader; Clarity Act 20.5% (+3pp reversal); Fed No Change Sep 66.5%).
-- [Market Context](topics/market-context.md) — latest regime snapshot (Aug 13 AM: BTC $63,856 (+0.28%), chop (medium conviction), F&G 29 Fear, breadth 12/20; PPI in-line → no breakout; ETH 7d flipped -0.8% (was +2.2%) — alt outperformance thesis cracked; Fed no change Sep 66.5% YES = structural ceiling; HYPE +5% DEX/perps emerging; Clarity Act 20.5% (+3pp); DeFi TVL fading).
+- [Market Context](topics/market-context.md) — latest regime snapshot (Aug 14: BTC $62,877 (-1.5%), risk-off (high conviction), F&G 29 Fear, breadth 3/20; first Aug ETF net-outflow ($61.1M); DEX vol $6.24B; PUMP rising day-2; Jackson Hole Aug 27 dominant; Fed No Change Sep 71.5%).
 - [Active Trades](topics/active-trades.md) — Kyle's mirror decisions. As of Jul 22: NO open Kraken mirrors; Chase SNDK/MU approvals never given (Chase has since TP'd most).
 
 ## Live Stack (verified 2026-07-21)
@@ -34,8 +33,8 @@ Autonomous trading-signal agent running on GitHub Actions via Claude Code. Monit
 | SOL   | solana      | 10%             |
 
 ## Recent Log Highlights
-- [2026-08-13](logs/2026-08-13.md) — chop; BTC $63,855 (+0.28%); breadth 12/20 (7d 8/20 deteriorating); F&G 29; PPI pending; HYPE +5.0% DEX leader; ZK/AI surge (ACU+32.6%, APR+47.3%, CYS+17.45%); Clarity Act +3pp to 20.5%; Fed No Change Sep 66.5%
-- [2026-08-13](logs/2026-08-13.md) — chop; BTC $63,856 (+0.28%); breadth 12/20; F&G 29; PPI in-line (no breakout); ETH 7d flipped -0.8%; KAITO [CAPITULATION] -26.9%; HCH added HYPE/LIT/PUMP shorts + CL oil short + covered half spot longs; WR ETH 10-day binary (resolution by Aug 23)
+- [2026-08-14](logs/2026-08-14.md) — risk-off; BTC $62,877 (-1.5%); breadth 3/20; F&G 29; first Aug ETF net-outflow ($61.1M); AKE +89%[PUMP-RISK]; BTW [BREAKOUT] +21%; PUMP day-2 green (+3.1% 7d+25%); Fed No Change Sep 71.5% (+5pp); Jackson Hole 13d out
+- [2026-08-13](logs/2026-08-13.md) — chop; BTC $63,696 (-0.9%); breadth 5/20; F&G 29; PPI in-line (no breakout); ETH 7d flipped -0.8%; HCH added HYPE/LIT/PUMP shorts + CL oil + XAU/XAG shorts; WR ETH 10-day binary (resolution Aug 23)
 - [2026-08-12](logs/2026-08-12.md) — chop; BTC $63,863 (-0.5%); breadth 13/20; F&G 27; CPI resolved in-line (no breakout); BTC 7d rolled to 0.0%; alts 7d building (ETH +2.2%, SOL +3.9%, LINK +8.6%); Clarity Act -4pp to 17.5%; DeFi TVL accumulation day 5
 - [2026-08-11](logs/2026-08-11.md) — chop (borderline risk-off); BTC $64,031 (-1.85%) cracked $65K; breadth 7/20; F&G 29; DEX vol +43% spike on CPI-eve; XMR +9.1% 7d sole outperformer; CYS ZK-prover 2nd spike +40.9%; Fed rate markets dominate Polymarket
 - [2026-08-10](logs/2026-08-10.md) — chop regime (breadth 10/20); BTC $65,251 (+0.8%); XMR +4.0% 24h leading privacy; Clarity Act failed Senate vote → delayed Sept 14; CPI Aug 12 binary 2 days out

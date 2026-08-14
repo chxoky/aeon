@@ -1,0 +1,178 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-08-14"
+      },
+      "children": [
+        "heading-focus",
+        "sep-1",
+        "stack-focus",
+        "sep-2",
+        "heading-yesterday",
+        "stack-yesterday"
+      ]
+    },
+    "heading-focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack-focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus-btc",
+        "focus-eth",
+        "focus-jackson"
+      ]
+    },
+    "focus-btc": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-btc",
+        "text-btc-reason"
+      ]
+    },
+    "badge-btc": {
+      "type": "Badge",
+      "props": {
+        "text": "BTC at $62,877",
+        "variant": "default"
+      }
+    },
+    "text-btc-reason": {
+      "type": "Text",
+      "props": {
+        "text": "ETF outflow broke August streak; $61K trigger next",
+        "variant": "caption"
+      }
+    },
+    "focus-eth": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-eth",
+        "text-eth-reason"
+      ]
+    },
+    "badge-eth": {
+      "type": "Badge",
+      "props": {
+        "text": "WR ETH binary",
+        "variant": "default"
+      }
+    },
+    "text-eth-reason": {
+      "type": "Text",
+      "props": {
+        "text": "9 days to Aug 23 resolution from current consolidation",
+        "variant": "caption"
+      }
+    },
+    "focus-jackson": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-jackson",
+        "text-jackson-reason"
+      ]
+    },
+    "badge-jackson": {
+      "type": "Badge",
+      "props": {
+        "text": "Jackson Hole Aug 27",
+        "variant": "default"
+      }
+    },
+    "text-jackson-reason": {
+      "type": "Text",
+      "props": {
+        "text": "Fed no-cut prob rose to 71.5%, dominant ceiling",
+        "variant": "caption"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-yesterday": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "stack-yesterday": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "yesterday-btc",
+        "yesterday-wr"
+      ]
+    },
+    "yesterday-btc": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-btc",
+        "text-btc-detail"
+      ]
+    },
+    "stat-btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$62,877",
+        "delta": "-1.5%",
+        "trend": "down"
+      }
+    },
+    "text-btc-detail": {
+      "type": "Text",
+      "props": {
+        "text": "hit HCH's declared $62K TP zone; ETF first net-outflow day of August ($61.1M)",
+        "variant": "caption"
+      }
+    },
+    "yesterday-wr": {
+      "type": "Text",
+      "props": {
+        "text": "WR posted bear cycle circle",
+        "variant": "body"
+      }
+    }
+  }
+}
