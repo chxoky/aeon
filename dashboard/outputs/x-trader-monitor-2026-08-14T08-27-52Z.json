@@ -1,0 +1,180 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Sentiment Pivot — @bull_genius"
+      },
+      "children": [
+        "content_stack"
+      ]
+    },
+    "content_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_reversal",
+        "badge_trader",
+        "separator_1",
+        "section_background",
+        "section_quote",
+        "section_market",
+        "separator_2",
+        "section_impact",
+        "link_post"
+      ]
+    },
+    "heading_reversal": {
+      "type": "Heading",
+      "props": {
+        "text": "BTC thesis reversal detected",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "badge_trader": {
+      "type": "Badge",
+      "props": {
+        "text": "@bull_genius",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_background": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_bg_label",
+        "text_bg_content"
+      ]
+    },
+    "text_bg_label": {
+      "type": "Text",
+      "props": {
+        "text": "Previous stance:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text_bg_content": {
+      "type": "Text",
+      "props": {
+        "text": "bull_genius was a structural BTC bull (60-62K = decent deal, 90% conviction on bottom).",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "section_quote": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_quote_label",
+        "text_quote_content"
+      ]
+    },
+    "text_quote_label": {
+      "type": "Text",
+      "props": {
+        "text": "Current stance:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text_quote_content": {
+      "type": "Text",
+      "props": {
+        "text": "\"not a single dollar is going into btc while ai stock charts are on the recovery. you can literally long the intraday pico top on memory, go to sleep like a baby and wake up richer.\"",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "section_market": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_market_label",
+        "text_market_content"
+      ]
+    },
+    "text_market_label": {
+      "type": "Text",
+      "props": {
+        "text": "Market context:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text_market_content": {
+      "type": "Text",
+      "props": {
+        "text": "BTC meanwhile is heading toward summer range lows by the looks of it.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_impact": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_impact_label",
+        "text_impact_content"
+      ]
+    },
+    "text_impact_label": {
+      "type": "Text",
+      "props": {
+        "text": "Impact:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text_impact_content": {
+      "type": "Text",
+      "props": {
+        "text": "Clear divergence from group BTC bias. This trader was contrarian accumulator on weakness — now signaling away from BTC entirely toward AI equity upside.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "link_post": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View post",
+        "href": "https://x.com/bull_genius/status/2088179592607490442",
+        "source": "X"
+      },
+      "children": []
+    }
+  }
+}
