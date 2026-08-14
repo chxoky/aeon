@@ -1,16 +1,16 @@
-Perfect! I've successfully executed the Discord trader monitor skill. Here's what was processed:
+Done. The Discord trader monitor skill has processed HeartCanHodl's message and logged it:
 
-## Event Summary
-**Decoded Discord Message:**
-- **ID:** 1537817391583600762
-- **Trader:** HeartCanHodl
-- **Channel:** 1023638573313966212 (HCH — Chat, supporting)
-- **Content:** "Fc SNDK 5m"
-- **Timestamp:** 2026-08-14T13:37:17.419Z
-- **Fast-path alerted:** true ✓
+**Event Summary:**
+- **Trader**: HeartCanHodl
+- **Channel**: HCH — Chat (supporting, member Q&A)
+- **Message**: "Fc mu 5m" (false-close chart check on Micron Technology 5-minute timeframe)
+- **Classification**: Technical-check — established pattern (15+ occurrences), no trade signal
+- **Action**: Silent log per HR-1 protocol (resolved calibration: "Fc" = false-close TA check, not a trade alert)
+- **Fast-path**: false_path_alerted=false but no alert triggered (resolved pattern, silent skip)
 
-## Classification
-**Type:** Technical-check (false-close chart check)
+**Memory updates:**
+- ✅ Message ID 1537818333280477224 added to discord-trader-seen.txt (dedup check)
+- ✅ Event logged to memory/logs/2026-08-14.md with classification and notes
 
 The "Fc" pattern is a resolved calibration case — it means HeartCanHodl is performing a false-close technical analysis check on SNDK's 5-minute timeframe. This is **not a trade signal** (confirmed from 15+ prior occurrences in traders.md). It's a silent technical observation, supporting-channel only, no execution language.
 
@@ -40,3 +40,4 @@ Processed Discord real-time event: HeartCanHodl's "Good evening! 🏙️" greeti
 - ✅ No Telegram alert sent (non-financial content per HR-1 protocol)
 
 No follow-up actions needed.
+No Telegram notification sent — this is a known technical observation pattern, not a trade signal.
