@@ -1,41 +1,40 @@
-*Token Movers — Aug 14, 2026*
+*Token Movers — 2026-08-14*
 
-_Broad risk-off — 33/100 top coins green, median top-50 at −1.0%; BTC −1.5% and ETH −1.2% pulling majors lower while isolated breakouts hold in select mid-caps._
+_Risk-off holds — ~15% of filtered top-100 coins green, median ~−1.5%; DeFi leads lower (UNI −10.8% intraday) while AKE and VELVET extend multi-day breakouts._
 
 *Top Winners (24h)*
-1. AKE (Akedo) — $0.007758  +88.5% / 7d +80.3% / 1h −3.9%  •  $108M / #173  [PUMP-RISK][TRENDING+UP]
-2. VELVET (Velvet) — $0.9408  +29.7% / 7d +107.1% / 1h −7.3%  •  $46M / #107  [BREAKOUT][TRENDING+UP]
-3. BTW (Bitway) — $0.2750  +21.3% / 7d +45.3% / 1h +0.4%  •  $39M / #79  [BREAKOUT]
-4. ETHFI (Ether.fi) — $0.4372  +14.5% / 7d +19.9% / 1h +1.1%  •  $63M / #106  [TRENDING+UP]
-5. ATOM (Cosmos Hub) — $1.550  +10.0% / 7d +14.8% / 1h 0.0%  •  $50M / #76
-6. CRO (Cronos) — $0.04911  +5.1% / 7d −7.4% / 1h +0.3%  •  $8.2M / #37
-7. PUMP (Pump.fun) — $0.002876  +3.1% / 7d +25.2% / 1h −0.7%  •  $103M / #63  [TRENDING+UP]
-8. JST (JUST) — $0.1052  +2.5% / 7d −0.1% / 1h −0.3%  •  $26M / #73
-9. RAIN (Rain) — $0.01267  +1.4% / 7d +0.6% / 1h +0.7%  •  $18M / #13  [MAJOR]
+1. AKE (Akedo) — $0.01128  +98.4% / 7d +170.1%  •  $137.5M / #140  [BREAKOUT][TRENDING+UP]
+2. VELVET — $1.07  +41.3% / 7d +117.8% / 1h −1.8%  •  $62.9M / #103  [BREAKOUT]
+3. BTW (Bitway) — $0.2938  +13.3% / 7d +54.5% / 1h +4.4%  •  $48.4M / #78
+4. ETHFI (Ether.fi) — $0.4251  +12.5% / 7d +15.4% / 1h −1.1%  •  $64.2M / #107  [TRENDING+UP]
+5. ATOM (Cosmos) — $1.54  +10.3% / 7d +15.4% / 1h −0.3%  •  $51.5M / #77
+6. RAIN — $0.01281  +4.4% / 7d +1.0% / 1h 0.0%  •  $31.3M / #13  [MAJOR]
+7. LDO (Lido DAO) — $0.2992  +2.5% / 7d +5.0%  •  $22.1M / #139
 
 *Top Losers (24h)*
-1. CASHCAT (Cash Cat) — $0.1408  −10.9% / 7d +40.6% / 1h −1.1%  •  $14M / #204  [TRENDING+DOWN]
-2. LIT (Lighter) — $2.230  −6.5% / 7d −5.3% / 1h +0.3%  •  $29M / #89  [TRENDING+DOWN]
-3. APT (Aptos) — $0.5392  −4.8% / 7d −8.3% / 1h −1.3%  •  $28M / #101
-4. BCH (Bitcoin Cash) — $205.5  −4.3% / 7d −4.2% / 1h −0.4%  •  $170M / #22
-5. NEAR (NEAR Protocol) — $1.600  −4.3% / 7d −2.1% / 1h −0.7%  •  $98M / #41
-6. UNI (Uniswap) — $3.460  −3.5% / 7d −12.9% / 1h −0.6%  •  $150M / #38  [TRENDING+DOWN]
-7. MNT (Mantle) — $0.4430  −3.5% / 7d +8.2% / 1h 0.0%  •  $19M / #51
-8. ENA (Ethena) — $0.08528  −2.8% / 7d −8.3% / 1h 0.0%  •  $64M / #75
-9. ZEC (Zcash) — $485.8  −2.2% / 7d −3.0% / 1h −0.4%  •  $135M / #15  [MAJOR]
+1. UNI (Uniswap) — $3.23  −10.8% / 7d −20.1% / 1h −5.6%  •  $231.2M / #41  [TRENDING+DOWN]
+2. CRV (Curve) — $0.2427  −4.6% / 7d +14.7%  •  $33.8M / #113
+3. SEI — $0.04000  −3.6% / 7d −2.2%  •  $15.2M / #134
+4. JUP (Jupiter) — $0.1657  −3.5% / 7d −11.1% / 1h −0.5%  •  $17.4M / #91
+5. INJ (Injective) — $4.39  −3.2% / 7d −1.6% / 1h −1.3%  •  $39.5M / #105
+6. AAVE — $85.46  −2.9% / 7d −4.0% / 1h −0.2%  •  $125.9M / #53
+7. ADA (Cardano) — $0.1795  −2.5% / 7d −11.0% / 1h +0.4%  •  $188.3M / #17  [MAJOR]
+8. AVAX — $6.36  −2.3% / 7d −1.4% / 1h −0.1%  •  $113.7M / #34
+9. WLD (Worldcoin) — $0.3361  −2.2% / 7d +10.3%  •  $106.1M / #60
+10. HYPE (Hyperliquid) — $56.09  −2.1% / 7d −1.1% / 1h −0.6%  •  $259.4M / #10  [MAJOR]
 
 *Trending*
-1. LAB — #659, $0.08839, −21.0%
-2. PENGU (Pudgy Penguins) — #108, $0.006183, −2.0%
-3. AKE (Akedo) — #173, $0.007758, +88.5%  [PUMP-RISK]
-4. LIT (Lighter) — #89, $2.230, −6.5%  [TRENDING+DOWN]
-5. PUMP (Pump.fun) — #63, $0.002876, +3.1%  [TRENDING+UP]
-6. VELVET — #107, $0.9408, +29.7%  [BREAKOUT]
-7. ONDO (Ondo) — #46, $0.3308, −1.1%
+1. ACE (Fusionist) — #694, $0.2402, +133.5%  [PUMP-RISK][BREAKOUT]
+2. AKE (Akedo) — #140, $0.01128, +98.4%  [BREAKOUT][TRENDING+UP]
+3. LAB — #646, $0.08809, −24.0%  [TRENDING+DOWN][CAPITULATION]
+4. UNI (Uniswap) — #41, $3.23, −10.8%  [TRENDING+DOWN]
+5. BTC (Bitcoin) — #1, $62,740, −1.2%
+6. PUMP (Pump.fun) — #63, $0.002833, +2.3%
+7. ETHFI (Ether.fi) — #107, $0.4251, +12.5%  [TRENDING+UP]
 
 *Notable*
-• AKE: trending + +88.5% on $108M vol — rank 173, high pump-manipulation probability [PUMP-RISK]
-• VELVET: trending + +29.7% / 7d +107.1% — sustained multi-week move, not a flash spike [BREAKOUT][TRENDING+UP]
-• BTW: +21.3% / 7d +45.3% — clean breakout, no trending signal [BREAKOUT]
-• CASHCAT: trending + −10.9% — reverses 7d +40.6%; distributing into risk-off tape [TRENDING+DOWN]
-• UNI: trending while dropping −3.5% / 7d −12.9% — sustained downtrend with rising search interest [TRENDING+DOWN]
+• ACE (Fusionist): #1 trending, rank 694, +133.5% 24h  [PUMP-RISK] — $25.9M mcap vs $147.5M vol (vol > 5× mcap). Not in top 250; extreme manipulation risk.
+• AKE: day-2 surge extends — +98.4% today (was +88.5% yesterday), 7d now +170.1%; $137.5M vol. Rank 140, near [PUMP-RISK] threshold. Watch closely.
+• VELVET: [BREAKOUT] accelerating — +41.3% today vs +29.7% yesterday, 7d +117.8%; $62.9M vol at rank 103.
+• UNI [TRENDING+DOWN]: collapse deepens — −10.8% today vs −3.5% yesterday; 7d now −20.1%. Heavy search interest + sell pressure = DeFi capitulation watch.
+• LAB [CAPITULATION]: rank 646, −24.0% / 7d −32.6%; vol/mcap ratio 0.52 (>0.25 threshold). Day-2 structural unwinding.

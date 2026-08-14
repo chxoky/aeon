@@ -1,0 +1,720 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Token Movers — 2026-08-14",
+        "description": "Risk-off holds — ~15% of filtered top-100 coins green, median ~−1.5%; DeFi leads lower (UNI −10.8% intraday) while AKE and VELVET extend multi-day breakouts."
+      },
+      "children": [
+        "sep-1",
+        "winners-heading",
+        "winners-table",
+        "sep-2",
+        "losers-heading",
+        "losers-table",
+        "sep-3",
+        "trending-heading",
+        "trending-grid",
+        "sep-4",
+        "notable-heading",
+        "notable-stack"
+      ]
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "winners-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Winners (24h)",
+        "level": "h2"
+      }
+    },
+    "winners-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Coin",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Volume/Rank",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "AKE (Akedo)",
+            "$0.01128",
+            "+98.4%",
+            "+170.1%",
+            "−1.8%",
+            "$137.5M / #140",
+            "BREAKOUT • TRENDING+UP"
+          ],
+          [
+            "VELVET",
+            "$1.07",
+            "+41.3%",
+            "+117.8%",
+            "−1.8%",
+            "$62.9M / #103",
+            "BREAKOUT"
+          ],
+          [
+            "BTW (Bitway)",
+            "$0.2938",
+            "+13.3%",
+            "+54.5%",
+            "+4.4%",
+            "$48.4M / #78",
+            "—"
+          ],
+          [
+            "ETHFI (Ether.fi)",
+            "$0.4251",
+            "+12.5%",
+            "+15.4%",
+            "−1.1%",
+            "$64.2M / #107",
+            "TRENDING+UP"
+          ],
+          [
+            "ATOM (Cosmos)",
+            "$1.54",
+            "+10.3%",
+            "+15.4%",
+            "−0.3%",
+            "$51.5M / #77",
+            "—"
+          ],
+          [
+            "RAIN",
+            "$0.01281",
+            "+4.4%",
+            "+1.0%",
+            "0.0%",
+            "$31.3M / #13",
+            "MAJOR"
+          ],
+          [
+            "LDO (Lido DAO)",
+            "$0.2992",
+            "+2.5%",
+            "+5.0%",
+            "—",
+            "$22.1M / #139",
+            "—"
+          ]
+        ]
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "losers-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Losers (24h)",
+        "level": "h2"
+      }
+    },
+    "losers-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Coin",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Volume/Rank",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "UNI (Uniswap)",
+            "$3.23",
+            "−10.8%",
+            "−20.1%",
+            "−5.6%",
+            "$231.2M / #41",
+            "TRENDING+DOWN"
+          ],
+          [
+            "CRV (Curve)",
+            "$0.2427",
+            "−4.6%",
+            "+14.7%",
+            "—",
+            "$33.8M / #113",
+            "—"
+          ],
+          [
+            "SEI",
+            "$0.04000",
+            "−3.6%",
+            "−2.2%",
+            "—",
+            "$15.2M / #134",
+            "—"
+          ],
+          [
+            "JUP (Jupiter)",
+            "$0.1657",
+            "−3.5%",
+            "−11.1%",
+            "−0.5%",
+            "$17.4M / #91",
+            "—"
+          ],
+          [
+            "INJ (Injective)",
+            "$4.39",
+            "−3.2%",
+            "−1.6%",
+            "−1.3%",
+            "$39.5M / #105",
+            "—"
+          ],
+          [
+            "AAVE",
+            "$85.46",
+            "−2.9%",
+            "−4.0%",
+            "−0.2%",
+            "$125.9M / #53",
+            "—"
+          ],
+          [
+            "ADA (Cardano)",
+            "$0.1795",
+            "−2.5%",
+            "−11.0%",
+            "+0.4%",
+            "$188.3M / #17",
+            "MAJOR"
+          ],
+          [
+            "AVAX",
+            "$6.36",
+            "−2.3%",
+            "−1.4%",
+            "−0.1%",
+            "$113.7M / #34",
+            "—"
+          ],
+          [
+            "WLD (Worldcoin)",
+            "$0.3361",
+            "−2.2%",
+            "+10.3%",
+            "—",
+            "$106.1M / #60",
+            "—"
+          ],
+          [
+            "HYPE (Hyperliquid)",
+            "$56.09",
+            "−2.1%",
+            "−1.1%",
+            "−0.6%",
+            "$259.4M / #10",
+            "MAJOR"
+          ]
+        ]
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "trending-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending",
+        "level": "h2"
+      }
+    },
+    "trending-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "trend-1",
+        "trend-2",
+        "trend-3",
+        "trend-4",
+        "trend-5",
+        "trend-6",
+        "trend-7"
+      ]
+    },
+    "trend-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trend-1-coin",
+        "trend-1-data",
+        "trend-1-badges"
+      ]
+    },
+    "trend-1-coin": {
+      "type": "Text",
+      "props": {
+        "text": "ACE (Fusionist)",
+        "variant": "lead"
+      }
+    },
+    "trend-1-data": {
+      "type": "Text",
+      "props": {
+        "text": "#694 • $0.2402 • +133.5%",
+        "variant": "caption"
+      }
+    },
+    "trend-1-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "trend-1-b1",
+        "trend-1-b2"
+      ]
+    },
+    "trend-1-b1": {
+      "type": "Badge",
+      "props": {
+        "text": "PUMP-RISK",
+        "variant": "destructive"
+      }
+    },
+    "trend-1-b2": {
+      "type": "Badge",
+      "props": {
+        "text": "BREAKOUT",
+        "variant": "default"
+      }
+    },
+    "trend-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trend-2-coin",
+        "trend-2-data",
+        "trend-2-badges"
+      ]
+    },
+    "trend-2-coin": {
+      "type": "Text",
+      "props": {
+        "text": "AKE (Akedo)",
+        "variant": "lead"
+      }
+    },
+    "trend-2-data": {
+      "type": "Text",
+      "props": {
+        "text": "#140 • $0.01128 • +98.4%",
+        "variant": "caption"
+      }
+    },
+    "trend-2-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "trend-2-b1",
+        "trend-2-b2"
+      ]
+    },
+    "trend-2-b1": {
+      "type": "Badge",
+      "props": {
+        "text": "BREAKOUT",
+        "variant": "default"
+      }
+    },
+    "trend-2-b2": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+UP",
+        "variant": "default"
+      }
+    },
+    "trend-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trend-3-coin",
+        "trend-3-data",
+        "trend-3-badges"
+      ]
+    },
+    "trend-3-coin": {
+      "type": "Text",
+      "props": {
+        "text": "LAB",
+        "variant": "lead"
+      }
+    },
+    "trend-3-data": {
+      "type": "Text",
+      "props": {
+        "text": "#646 • $0.08809 • −24.0%",
+        "variant": "caption"
+      }
+    },
+    "trend-3-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "trend-3-b1",
+        "trend-3-b2"
+      ]
+    },
+    "trend-3-b1": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+DOWN",
+        "variant": "secondary"
+      }
+    },
+    "trend-3-b2": {
+      "type": "Badge",
+      "props": {
+        "text": "CAPITULATION",
+        "variant": "destructive"
+      }
+    },
+    "trend-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trend-4-coin",
+        "trend-4-data",
+        "trend-4-badge"
+      ]
+    },
+    "trend-4-coin": {
+      "type": "Text",
+      "props": {
+        "text": "UNI (Uniswap)",
+        "variant": "lead"
+      }
+    },
+    "trend-4-data": {
+      "type": "Text",
+      "props": {
+        "text": "#41 • $3.23 • −10.8%",
+        "variant": "caption"
+      }
+    },
+    "trend-4-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+DOWN",
+        "variant": "secondary"
+      }
+    },
+    "trend-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trend-5-coin",
+        "trend-5-data"
+      ]
+    },
+    "trend-5-coin": {
+      "type": "Text",
+      "props": {
+        "text": "BTC (Bitcoin)",
+        "variant": "lead"
+      }
+    },
+    "trend-5-data": {
+      "type": "Text",
+      "props": {
+        "text": "#1 • $62,740 • −1.2%",
+        "variant": "caption"
+      }
+    },
+    "trend-6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trend-6-coin",
+        "trend-6-data"
+      ]
+    },
+    "trend-6-coin": {
+      "type": "Text",
+      "props": {
+        "text": "PUMP (Pump.fun)",
+        "variant": "lead"
+      }
+    },
+    "trend-6-data": {
+      "type": "Text",
+      "props": {
+        "text": "#63 • $0.002833 • +2.3%",
+        "variant": "caption"
+      }
+    },
+    "trend-7": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trend-7-coin",
+        "trend-7-data",
+        "trend-7-badge"
+      ]
+    },
+    "trend-7-coin": {
+      "type": "Text",
+      "props": {
+        "text": "ETHFI (Ether.fi)",
+        "variant": "lead"
+      }
+    },
+    "trend-7-data": {
+      "type": "Text",
+      "props": {
+        "text": "#107 • $0.4251 • +12.5%",
+        "variant": "caption"
+      }
+    },
+    "trend-7-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+UP",
+        "variant": "default"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "notable-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h2"
+      }
+    },
+    "notable-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "notable-1",
+        "notable-2",
+        "notable-3",
+        "notable-4",
+        "notable-5"
+      ]
+    },
+    "notable-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "notable-1-title",
+        "notable-1-body",
+        "notable-1-badge"
+      ]
+    },
+    "notable-1-title": {
+      "type": "Text",
+      "props": {
+        "text": "ACE (Fusionist): #1 trending, rank 694, +133.5% 24h",
+        "variant": "lead"
+      }
+    },
+    "notable-1-body": {
+      "type": "Text",
+      "props": {
+        "text": "$25.9M mcap vs $147.5M vol (vol > 5× mcap). Not in top 250; extreme manipulation risk.",
+        "variant": "body"
+      }
+    },
+    "notable-1-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "PUMP-RISK",
+        "variant": "destructive"
+      }
+    },
+    "notable-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "notable-2-title",
+        "notable-2-body"
+      ]
+    },
+    "notable-2-title": {
+      "type": "Text",
+      "props": {
+        "text": "AKE: day-2 surge extends",
+        "variant": "lead"
+      }
+    },
+    "notable-2-body": {
+      "type": "Text",
+      "props": {
+        "text": "+98.4% today (was +88.5% yesterday), 7d now +170.1%; $137.5M vol. Rank 140, near [PUMP-RISK] threshold. Watch closely.",
+        "variant": "body"
+      }
+    },
+    "notable-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "notable-3-title",
+        "notable-3-body",
+        "notable-3-badge"
+      ]
+    },
+    "notable-3-title": {
+      "type": "Text",
+      "props": {
+        "text": "VELVET: [BREAKOUT] accelerating",
+        "variant": "lead"
+      }
+    },
+    "notable-3-body": {
+      "type": "Text",
+      "props": {
+        "text": "+41.3% today vs +29.7% yesterday, 7d +117.8%; $62.9M vol at rank 103.",
+        "variant": "body"
+      }
+    },
+    "notable-3-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "BREAKOUT",
+        "variant": "default"
+      }
+    },
+    "notable-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "notable-4-title",
+        "notable-4-body",
+        "notable-4-badge"
+      ]
+    },
+    "notable-4-title": {
+      "type": "Text",
+      "props": {
+        "text": "UNI [TRENDING+DOWN]: collapse deepens",
+        "variant": "lead"
+      }
+    },
+    "notable-4-body": {
+      "type": "Text",
+      "props": {
+        "text": "−10.8% today vs −3.5% yesterday; 7d now −20.1%. Heavy search interest + sell pressure = DeFi capitulation watch.",
+        "variant": "body"
+      }
+    },
+    "notable-4-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+DOWN",
+        "variant": "secondary"
+      }
+    },
+    "notable-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "notable-5-title",
+        "notable-5-body",
+        "notable-5-badge"
+      ]
+    },
+    "notable-5-title": {
+      "type": "Text",
+      "props": {
+        "text": "LAB [CAPITULATION]: rank 646, −24.0% / 7d −32.6%",
+        "variant": "lead"
+      }
+    },
+    "notable-5-body": {
+      "type": "Text",
+      "props": {
+        "text": "vol/mcap ratio 0.52 (>0.25 threshold). Day-2 structural unwinding.",
+        "variant": "body"
+      }
+    },
+    "notable-5-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "CAPITULATION",
+        "variant": "destructive"
+      }
+    }
+  }
+}
