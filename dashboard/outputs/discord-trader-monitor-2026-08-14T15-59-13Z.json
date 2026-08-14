@@ -1,0 +1,96 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor — Calibration",
+        "description": "Chart-only technical analysis"
+      },
+      "children": [
+        "heading_calibration",
+        "separator1",
+        "heading_chart",
+        "stack_chart_data",
+        "separator2",
+        "alert_classification"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — DC: Chase — TradFi",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_chart": {
+      "type": "Heading",
+      "props": {
+        "text": "Gold (GC2026) 1H Technical Chart",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "stack_chart_data": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_uptrend",
+        "text_consolidation",
+        "text_no_explanation"
+      ]
+    },
+    "text_uptrend": {
+      "type": "Text",
+      "props": {
+        "text": "Major uptrend 3600→5200 (late 2026)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_consolidation": {
+      "type": "Text",
+      "props": {
+        "text": "Current consolidation at ~4450 support level",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_no_explanation": {
+      "type": "Text",
+      "props": {
+        "text": "No text explanation or personal execution language",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert_classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to Classify",
+        "message": "Is this a technical analysis, position validation, or market opportunity observation?",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}
