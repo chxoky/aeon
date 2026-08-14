@@ -1,0 +1,56 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_main",
+        "link_tweet",
+        "sep_1",
+        "text_followup"
+      ]
+    },
+    "tweet_main": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "RRICI Index at 25-year peak — real rates at maximum hawkishness. Chart shows 1999–2026 historical overlay: 2008 crash, 2020 COVID crash, then sharp rise 2020–2024 (peak), now slight consolidation."
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2088324972330848398"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_followup": {
+      "type": "Text",
+      "props": {
+        "text": "Aligns with current risk-off regime (F&G 29, breadth 3/20, BTC -1.5%) — Fed tightness at generational peaks compounds liquidation pressure.",
+        "variant": "muted"
+      }
+    }
+  }
+}
