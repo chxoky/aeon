@@ -1,0 +1,49 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet",
+        "stat_price",
+        "link_analysis"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "$BTC — Technical pivot analysis on 14th dump pattern\n\nWe are dumping into the 14th. IXBT PIVOT historical pattern shows two scenarios:\n\n**Hold above 60K:** Expect pivot low around current price region, then bounce in range for rest of August (61-62K holding = reversal zone).\n\n**Break below 60K:** Expect breakdown to sub 57K, pushing lower for remainder of August.\n\n↳ Current price $62.8K (above critical 60K hold level). Pivot analysis aligns with group's technical TP targets (62K = documented TP zone per prior macro thesis)."
+      }
+    },
+    "stat_price": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC Current Price",
+        "value": "$62.8K"
+      }
+    },
+    "link_analysis": {
+      "type": "Link",
+      "props": {
+        "label": "View analysis",
+        "href": "https://x.com/KillaXBT/status/2088184595367760083"
+      }
+    }
+  }
+}

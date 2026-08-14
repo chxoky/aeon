@@ -1,19 +1,13 @@
-🐦 *[X] @swarmister*
+🐦 *[X] @KillaXBT*
 
-SNDKUSDT Perpetual Long | 20x leverage | +371.17% profit
+$BTC — Technical pivot analysis on 14th dump pattern
 
-Sharing highly profitable position with @bull_genius — validates Aug 13 SNDK spot long entry. Five-trader semiconductor bullish convergence thesis (Crypto_Chase/ryzzqq/Wild_Randomness/HCH/swarmister). Chart shows breakout structure confirmed.
+We are dumping into the 14th. IXBT PIVOT historical pattern shows two scenarios:
 
-[View post](https://x.com/swarmister/status/2088179185906839915)
-🐦 *Sentiment Pivot — @bull_genius*
+**Hold above 60K:** Expect pivot low around current price region, then bounce in range for rest of August (61-62K holding = reversal zone).
 
-**BTC thesis reversal detected**
+**Break below 60K:** Expect breakdown to sub 57K, pushing lower for remainder of August.
 
-bull_genius was a structural BTC bull (60-62K = decent deal, 90% conviction on bottom). Now: "not a single dollar is going into btc while ai stock charts are on the recovery. you can literally long the intraday pico top on memory, go to sleep like a baby and wake up richer."
+↳ _Current price $62.8K (above critical 60K hold level). Pivot analysis aligns with group's technical TP targets (62K = documented TP zone per prior macro thesis)._
 
-btc meanwhile is heading toward summer range lows by the looks of it.
-
-**Impact:** Clear divergence from group BTC bias. This trader was contrarian accumulator on weakness — now signaling away from BTC entirely toward AI equity upside.
-
-[View post](https://x.com/bull_genius/status/2088179592607490442)
-[View tweet](https://x.com/swarmister/status/2088180182670565441)
+[View analysis](https://x.com/KillaXBT/status/2088184595367760083)
