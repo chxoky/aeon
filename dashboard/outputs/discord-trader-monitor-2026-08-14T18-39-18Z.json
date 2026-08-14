@@ -1,0 +1,79 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "main_heading",
+        "event_text",
+        "separator1",
+        "conversation_section",
+        "separator2",
+        "analysis_section"
+      ]
+    },
+    "main_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — DC: HCH — Chat",
+        "level": "h2"
+      }
+    },
+    "event_text": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Member conversation (Tree Capital context unavailable — referenced_message empty)",
+        "variant": "muted"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "conversation_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "hch_label",
+        "quote_text"
+      ]
+    },
+    "hch_label": {
+      "type": "Text",
+      "props": {
+        "text": "HCH:",
+        "variant": "caption"
+      }
+    },
+    "quote_text": {
+      "type": "Text",
+      "props": {
+        "text": "That was practically 1/4th 1% short entry",
+        "variant": "lead"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_section": {
+      "type": "Alert",
+      "props": {
+        "title": "Analysis",
+        "message": "Cryptic comment on prior short position. No clear reference to current trade action or specific ticker. What's your read?",
+        "type": "info"
+      }
+    }
+  }
+}
