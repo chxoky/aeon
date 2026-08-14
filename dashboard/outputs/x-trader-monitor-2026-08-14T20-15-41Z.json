@@ -1,0 +1,56 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet",
+        "separator",
+        "sentiment"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "The call for 100k at 16k November 2022 was legendary. There was real fear, and questioning of crypto's future post-FTX debacle. It was a stand out call.\n\nToday, every second CT account is trying to force it."
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sentiment": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "sentiment_link",
+        "sentiment_note"
+      ]
+    },
+    "sentiment_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2088357756021735660"
+      }
+    },
+    "sentiment_note": {
+      "type": "Text",
+      "props": {
+        "text": "Market sentiment observation on retail/CT FOMO chasing a tired narrative.",
+        "variant": "muted"
+      }
+    }
+  }
+}
