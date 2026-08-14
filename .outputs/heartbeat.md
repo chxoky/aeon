@@ -1,13 +1,15 @@
-HEARTBEAT_OK · STATUS_PAGE=OK
-
-All checks passed. No notification needed — nothing new to surface that hasn't been logged in the prior 48h. `docs/status.md` updated (14:00 UTC, 🟢 OK, 9 skills, 0 open issues, next run: heartbeat 20:00 UTC).
+All clear. Here's the summary:
 
 ## Summary
 
-- **P0 (skills):** All clean — 0 failures, 0 stuck, 0 consecutive failures across all skills
-- **P0 (X webhook):** WATCHED_TRADERS rule `is_effect: 1`, 12 accounts, 180s — healthy, corroborated by x-trader-monitor last_success 13:45Z today
-- **P1:** No open PRs; issues disabled
-- **P2:** No flagged memory items
-- **P3:** All 9 enabled skills within normal cadence
-- **Token pulse:** No `token-report-*.md` files; section omitted from status page
-- **Files modified:** `docs/status.md` (overwritten), `memory/logs/2026-08-14.md` (appended)
+**HEARTBEAT_OK · STATUS_PAGE=OK**
+
+All checks passed — nothing needs attention:
+
+- **P0 skills**: All clean. No failures, no stuck skills, no consecutive failures. Heartbeat last succeeded 6h ago (well under the 36h threshold).
+- **P0 X webhook**: WATCHED_TRADERS rule is live (`is_effect: 1`, 12 accounts, 180s interval). No ISS-002 recurrence.
+- **P1**: No open PRs, no open issues.
+- **P2**: No flagged memory items.
+- **P3**: All 9 enabled scheduled skills ran within their normal cadence today.
+
+**docs/status.md** updated: 🟢 OK, 2026-08-14 20:05 UTC, next run → morning-pipeline at 07:00 UTC 2026-08-15. Log entry appended to `memory/logs/2026-08-14.md`.
