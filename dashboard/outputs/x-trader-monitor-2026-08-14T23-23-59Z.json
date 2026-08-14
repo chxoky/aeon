@@ -1,0 +1,87 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🐦 X Trader - @Stoiiic on BTC Structure"
+      },
+      "children": [
+        "tweet_container",
+        "separator",
+        "analysis_section"
+      ]
+    },
+    "tweet_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context_text",
+        "tweet_card"
+      ]
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to @cryptomoki on BTC market structure:",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "@Stoiiic",
+        "text": "yeah i meant there's no catalyst for sustained buying currently.\n\nso are we really saying that there is the equivalent of more directional leverage build up here specifically towards the up side compared to the top of a raging bull?\n\nusing open interest over that long of a time period is misleading because there can be basis trades, ETF/spot hedging, and MM delta hedging that's roughly neutral in nature."
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "critique_heading",
+        "critique_text",
+        "link_element"
+      ]
+    },
+    "critique_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Technical Critique",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "critique_text": {
+      "type": "Text",
+      "props": {
+        "text": "OI indicator distorted by hedging activity; warns against directional assumptions based on long-term OI accumulation. Aligns with group technical skepticism on BTC structure."
+      },
+      "children": []
+    },
+    "link_element": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Stoiiic/status/2088405468926427180"
+      },
+      "children": []
+    }
+  }
+}
