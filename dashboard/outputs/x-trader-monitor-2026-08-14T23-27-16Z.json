@@ -1,0 +1,138 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @Stoiiic"
+      },
+      "children": [
+        "main_stack"
+      ]
+    },
+    "main_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_text",
+        "sep1",
+        "prior_section",
+        "sep2",
+        "current_section",
+        "sep3",
+        "classification_alert"
+      ]
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "Second reply to @tptrades within 40 minutes (prior message at 22:44Z also ambiguous)",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "prior_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "prior_heading",
+        "prior_timestamp",
+        "prior_message"
+      ]
+    },
+    "prior_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Prior ambiguous message",
+        "level": "h3"
+      }
+    },
+    "prior_timestamp": {
+      "type": "Badge",
+      "props": {
+        "text": "22:44Z",
+        "variant": "outline"
+      }
+    },
+    "prior_message": {
+      "type": "Text",
+      "props": {
+        "text": "@tptrades lol I'm not even calling other people out I genuinely want to know if I'm off the mark here because I clearly don't understand where that's coming from currently. Unless I'm missing something big.",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "current_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "current_heading",
+        "current_timestamp",
+        "current_mention",
+        "current_link"
+      ]
+    },
+    "current_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Current message",
+        "level": "h3"
+      }
+    },
+    "current_timestamp": {
+      "type": "Badge",
+      "props": {
+        "text": "23:23Z",
+        "variant": "outline"
+      }
+    },
+    "current_mention": {
+      "type": "Text",
+      "props": {
+        "text": "@tptrades",
+        "variant": "body"
+      }
+    },
+    "current_link": {
+      "type": "Link",
+      "props": {
+        "label": "https://t.co/FuEvno5lc2",
+        "href": "https://t.co/FuEvno5lc2"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's @tptrades discussing? (Reply context unavailable in payload; URL target unknown without image context)",
+        "type": "warning"
+      }
+    }
+  }
+}
