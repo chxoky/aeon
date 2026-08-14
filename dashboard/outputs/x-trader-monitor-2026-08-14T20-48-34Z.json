@@ -1,0 +1,31 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "tweet_link"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Not as excited about Nasdaq vol, at least on a percentile basis.\n\nVXN/VIX weekly chart shows current 1.46 level after recent spike to ~1.80; implies vol structure not at historical extremes on percentile basis. Aligns with WR's macro vol-structure thesis (Jump the Shark barbell positioning)."
+      }
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2088366279896035611"
+      }
+    }
+  }
+}
