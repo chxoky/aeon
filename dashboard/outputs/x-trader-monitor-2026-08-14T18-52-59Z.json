@@ -1,0 +1,64 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge-btc",
+        "tweet-card",
+        "link-view",
+        "sep-1",
+        "commentary-text"
+      ]
+    },
+    "badge-btc": {
+      "type": "Badge",
+      "props": {
+        "text": "$BTC",
+        "variant": "default"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Despite all the commentary about local OI build, STRC, MSTR, relative performance, DVOL, etc..\n\nMy thought process is pretty simple:\n\nAs long as we're below 66k (also happens to be lifetime IBIT POC) on a weekly closing basis, you should expect a run at the lower level."
+      }
+    },
+    "link-view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2088336869260226632"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "commentary-text": {
+      "type": "Text",
+      "props": {
+        "text": "Chart analysis validates: 4-chart bearish setup (BTC/IBIT weekly structure, 2018-19 precedent comparison, 2026-27 downside projection to 40-50k zone). Aligns with broader \"Jump the Shark\" macro divergence thesis.",
+        "variant": "body"
+      }
+    }
+  }
+}
