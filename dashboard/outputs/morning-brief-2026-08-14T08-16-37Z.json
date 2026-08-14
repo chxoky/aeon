@@ -1,0 +1,77 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — Aug 14, 2026"
+      },
+      "children": [
+        "heading_focus",
+        "focus_item1",
+        "focus_item2",
+        "focus_item3",
+        "separator1",
+        "heading_since",
+        "since_item1",
+        "since_item2"
+      ]
+    },
+    "heading_focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "focus_item1": {
+      "type": "Text",
+      "props": {
+        "text": "1. WR ETH binary — why now: ETH broke $1,896 support today; binary closes Aug 23",
+        "variant": "body"
+      }
+    },
+    "focus_item2": {
+      "type": "Text",
+      "props": {
+        "text": "2. HCH shorts live — why now: LIT short −6.5% running; PUMP short going against +3.1%",
+        "variant": "body"
+      }
+    },
+    "focus_item3": {
+      "type": "Text",
+      "props": {
+        "text": "3. Liquid restaking catalyst — why now: Ether.fi weETH pivot confirmed; sector re-rating",
+        "variant": "body"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_since": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "since_item1": {
+      "type": "Text",
+      "props": {
+        "text": "[resolved] PPI in-line; ETH 7d flipped −0.8% (was +2.2%) — alt outperformance thesis broke",
+        "variant": "body"
+      }
+    },
+    "since_item2": {
+      "type": "Text",
+      "props": {
+        "text": "[deepening] WR Circle",
+        "variant": "body"
+      }
+    }
+  }
+}
