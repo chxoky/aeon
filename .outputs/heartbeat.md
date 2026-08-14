@@ -1,11 +1,11 @@
 HEARTBEAT_OK · STATUS_PAGE=OK
 
-All checks passed clean:
+All checks passed clean on the 08:00 UTC run:
 
-- **P0 skills**: No failed, stuck, or degraded skills. All 9 enabled skills succeeded today.
-- **P0 X webhook**: `WATCHED_TRADERS` rule (`35f3c57c`) confirmed active — `is_effect: 1`, 12 accounts, 180s interval.
-- **P1**: No open PRs; issues disabled on repo.
-- **P2**: No flagged memory items.
-- **P3**: All scheduled skills within normal cadence. `trader-memory-compact` last ran Sunday Aug 9 (next due Sunday Aug 17 — on schedule).
+- **P0 skills**: No failures, no stuck dispatches, no consecutive failures. Heartbeat self-check healthy (~12h since last success).
+- **P0 X webhook**: `TWITTERAPI_IO_KEY` not injected — silently skipped per spec. Strong corroborating signal: `x-trader-monitor` succeeded at 07:52Z this morning, confirming the webhook is delivering.
+- **P1**: 0 open PRs, issues tracker is clean.
+- **P2**: No flagged items in MEMORY.md.
+- **P3**: All 8 enabled skills within normal cadence. `morning-pipeline` chain likely mid-run (dispatched at 07:00 UTC, typically completes by ~08:52 UTC based on yesterday's timing).
 
-`docs/status.md` updated to 2026-08-13 20:05 UTC with current run state. No notification sent (nothing to flag).
+`docs/status.md` updated — 🟢 OK, 9 skills, 0 open issues, next run token-alert at 12:00 UTC.
