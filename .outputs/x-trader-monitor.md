@@ -1,9 +1,17 @@
-🔍 *Calibration — @trading_axe*
+🐦 *[X] @Stoiiic*
 
-Event: Reply to @beaver (context unavailable in real-time payload)
+scroll for ten seconds on my feed and I see references to another potential 10/10.
 
-trading_axe: "@beaver Sold this earlier after the fat move but insanely cracked team. Wouldn't be surprised if it teleports up only to ATH in the next year. ~ Dr. Axius."
+unsure if engagement farming or there's something I'm missing?
 
-**Issue**: No explicit ticker/asset mentioned. Post is a reply to @beaver's message, but the original context is not provided in the webhook event.
+Currently BTC lacks any semblance of a catalyst which is evident in the thin books and non existent volume. Primarily, it's just short term leverage pushing price around with lack of any sustained spot buying.
 
-**What is @beaver referring to?** Unable to classify without knowing the asset discussed.
+Disinterest vs. Capitulation
+
+In past cycles, BTC has bottomed on significant forced selling don't believe Saylor is going to unload all at once so it would probably have to be a different vehicle if that is to occur.
+
+HTF - downtrend, MTF - ranging, LTF w/flow looks uninspiring currently so wouldn't be surprised if BTC breaks below again to test 60 conviction.
+
+next few months should be revealing.
+
+[View post](https://x.com/Stoiiic/status/2088394108205502562)
