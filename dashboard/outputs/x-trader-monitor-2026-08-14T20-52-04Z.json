@@ -1,0 +1,168 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Volatility Compression Alert — @Wild_Randomness",
+        "description": "Aug 14 20:44Z"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "intro-text",
+        "stats-section",
+        "sep1",
+        "quote-section",
+        "sep2",
+        "insight-section",
+        "sep3",
+        "link-section"
+      ]
+    },
+    "intro-text": {
+      "type": "Text",
+      "props": {
+        "text": "Both IWM and SPX vol just hit Trump presidency lows:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "stats-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "vix-item",
+        "rvx-item"
+      ]
+    },
+    "vix-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "vix-stat",
+        "vix-label"
+      ]
+    },
+    "vix-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "VIX",
+        "value": "14.25",
+        "delta": "-2.60%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "vix-label": {
+      "type": "Text",
+      "props": {
+        "text": "lowest volatility on S&P 500",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "rvx-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "rvx-stat",
+        "rvx-label"
+      ]
+    },
+    "rvx-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "RVX",
+        "value": "17.71",
+        "delta": "-0.45%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "rvx-label": {
+      "type": "Text",
+      "props": {
+        "text": "Russell 2000 volatility similarly compressed",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "quote-section": {
+      "type": "Text",
+      "props": {
+        "text": "\"Fitting time given both IWM and SPX vol is at Trump presidency lows. (Should it be?)\"",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "insight-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "insight-title",
+        "insight-body"
+      ]
+    },
+    "insight-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Market structure insight",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "insight-body": {
+      "type": "Text",
+      "props": {
+        "text": "Extreme vol ATL typically precedes vol expansion when catalysts fire. Validates WR macro bear setup (barbell: gold long + crypto/equity puts positioned for volatility pop).",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "link-section": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2088366128225747307"
+      },
+      "children": []
+    }
+  }
+}
