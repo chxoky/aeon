@@ -1,0 +1,133 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet",
+        "sep_1",
+        "chart_section",
+        "sep_2",
+        "post_link",
+        "sep_3",
+        "commentary"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "$AVGO $NVDA - Sneak Peak?"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "chart_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "chart_heading",
+        "sneak_link",
+        "avgo_block",
+        "nvda_block"
+      ]
+    },
+    "chart_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart Analysis",
+        "level": "h3"
+      }
+    },
+    "sneak_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Sneak Peak",
+        "href": "https://t.co/eDISezDDBe"
+      }
+    },
+    "avgo_block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "avgo_stat",
+        "avgo_text"
+      ]
+    },
+    "avgo_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "AVGO",
+        "value": "$391.48",
+        "delta": "-6.30%",
+        "trend": "down"
+      }
+    },
+    "avgo_text": {
+      "type": "Text",
+      "props": {
+        "text": "Support test, RSI oversold, consolidating below 400 resistance"
+      }
+    },
+    "nvda_block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "nvda_stat",
+        "nvda_text"
+      ]
+    },
+    "nvda_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "NVDA",
+        "value": "$225.33",
+        "delta": "+0.01%",
+        "trend": "up"
+      }
+    },
+    "nvda_text": {
+      "type": "Text",
+      "props": {
+        "text": "Resistance zone ~225-230, recovered from 190-200 lows but capped"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "post_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Full Analysis on X",
+        "href": "https://x.com/Wild_Randomness/status/2088330884026126611"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "commentary": {
+      "type": "Text",
+      "props": {
+        "text": "Both tickers on Kyle's watch list. AVGO showing technical weakness at support; NVDA near resistance. Aligns with WR's macro bearish positioning."
+      }
+    }
+  }
+}
