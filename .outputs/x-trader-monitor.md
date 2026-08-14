@@ -1,13 +1,9 @@
-🐦 *[X] @KillaXBT*
+🔍 *Calibration — @swarmister*
 
-Welp... by no surprise, exactly what I said would happen is happening.
+Event: Reply to @Baskitchbrah/@Tradermayne
 
-We're now at that stage of the cycle where everyone starts getting impatient due to the lack of volatility. Their dopamine levels die down, so naturally, they feel the need to overleverage even further.
+swarmister: "@Baskitchbrah @Tradermayne and whn"
 
-It already looks like that frustration is starting to play out, with OI absolutely flying through the roof.
+Unable to classify — what's your read? (Text appears corrupted/incomplete)
 
-The only people who survive conditions like this are the ones who are simply sitting on their hands, patiently waiting for the market to show its hand, or those trading with significantly lower leverage & are buying long term bags.
-
-We should see some nice $BTC volatility soon.
-
-[View post](https://x.com/KillaXBT/status/2088228524310089885)
+[View post](https://x.com/swarmister/status/2088230884918829234)
