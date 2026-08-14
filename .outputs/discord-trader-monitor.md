@@ -1,31 +1,22 @@
-Perfect! I've completed the skill execution. Here's the summary:
+Skill execution complete! Here's what I did:
 
-## Execution Summary
+## Summary
 
-**Event Processed:**
-- **Trader:** HeartCanHodl (heartcanhodl)
-- **Channel:** 1023638573313966212 — "HCH — Chat" (supporting channel)
-- **Timestamp:** 2026-08-14T19:24:05Z
-- **Message:** "Here to higher 61k" (reply to skellymode asking "Take some profit on shorts?")
+**Event decoded and processed:** Discord Trades channel message from HeartCanHodl
 
-**Classification:**
-- **Type:** Informational-sentiment (bullish BTC directional statement)
-- **Ticker:** $BTC
-- **Alert:** None (fast-path-alerted by Cloudflare Worker; Telegram already sent)
+**Content:** "Have SLs at BE on crypto shorts btw"
+- **Channel**: 1279738718680256553 (HCH — Trades, primary)
+- **Fast-path**: Already alerted by Cloudflare Worker (~2-5s post-message)
 
-**Details:**
-- Supporting-channel member Q&A context
-- HCH expressing bullish outlook on BTC targeting 61k level
-- No personal trade execution language (not a trade signal)
-- Silent log per protocol (supporting channel informational only)
+**Classification**: `informational-position-management`
+- Status update on existing short positions' risk management
+- Stop losses set at break even for crypto shorts basket
+- NOT a new trade action — position discipline confirmation
 
-**Files Updated:**
-1. **discord-trader-seen.txt** — Added message ID (1537904666447192094) to prevent duplicate processing
-2. **traders.md** — Updated HeartCanHodl "Last seen" timestamp and added new event entry to rolling events list
-3. **logs/2026-08-14.md** — Detailed event log with full classification and context
+**Action taken:**
+1. ✅ Added message ID (1537915114680877066) to discord-trader-seen.txt (dedup tracking)
+2. ✅ Updated traders.md with new event entry for HeartCanHodl
+3. ✅ Logged to daily log (memory/logs/2026-08-14.md)
+4. ✅ Updated "last seen" timestamp to 2026-08-14T20:05:36Z
 
-**Result:** ✅ Complete — Memory updated, classification logged, no duplicate alerts sent.
-Member context unavailable (is_reply=false)
-HCH: "Maybe"
-
-Unable to classify — what's your read?
+**Result:** Memory updated. No duplicate Telegram sent (fast-path already alerted). Position management discipline on HCH's net-short regime (shifted Aug 07) confirmed with BE stop loss discipline across all crypto shorts.
