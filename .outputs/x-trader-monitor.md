@@ -3,8 +3,13 @@
 Event: Reply to @airline77681117 on market structure/gap-fill scenario
 
 Wild_Randomness: "Fill the gap and we take it from there"
+🐦 *[X] @HeartCanHodl*
 
-[View tweet](https://x.com/Wild_Randomness/status/2088270015925788863)
+*SPCX technical downside exploration — 5m breakdown*
+
+HeartCanHodl posts SPCX breakdown: 144.19 → 135.84 (5m) with supporting 1h structure showing key support zones (139.98, 130.50). Sharp red volume collapse validates net-short regime conviction.
+
+Context: HCH maintains hedged position (2% long + 3% short); charts show intraday weakness confirming technical thesis.
 
 ↳ _Affirms barbell positions through IBIT 1D consolidation (support $34.04, resistance $37.71–42.00). No new execution._
 $SPCX — Interesting behaviour
@@ -17,3 +22,4 @@ Cross-trader context: HeartCanHodl (2% spot long + 1% short hedge), swarmister (
 
 Classification: informational-technical (structure confirmation)
 Unable to classify — which asset/timeframe are you referring to?
+[View post](https://x.com/HeartCanHodl/status/2088272080911614196)

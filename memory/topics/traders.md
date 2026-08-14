@@ -22,8 +22,9 @@
 - Last seen: 2026-08-14T13:40:23Z (X — crypto shorts profitability sentiment observation)
 - **Events (rolling):**
   - Aug 14 13:40Z — informational-sentiment: X reply to @gambject "Crypto shorts are already deep into profits"; market observation on short-basket regime confirmation (BTC/ETH/SNDK/MU/NBIS/AKE active Aug 07-14), no personal execution language, no cross-platform Discord within 30m dedup window; alerted Kyle [$CRYPTO_SHORTS] [20882594419805021244]
-- Last seen: 2026-08-14T14:23:42Z (Discord Chat supporting — ambiguous accumulation readiness)
+- Last seen: 2026-08-14T14:30:36Z (X — SPCX technical downside structure)
 - **Events (rolling):**
+  - Aug 14 14:30Z — informational-technical: X "Exploration to the downside" + 2 SPCX charts (5m breakdown 144.19→135.84; 1h structure with support zones); technical chart-driven observation on SPCX intraday collapse; aligns with HCH's documented hedged position (2% long spot + 3% short overlay); no personal new trade execution; alerted [$SPCX] [2088272080911614196]
   - Aug 14 14:23Z — ambiguous-cryptic: DC Chat "Yeah. Can wait to add again" — supporting-channel message; affirmation/accumulation readiness without explicit ticker; no execution language; appears to be response/reply to member but no referenced_message context; HR-2 calibration alert sent to Kyle [$UNKNOWN] [1537829074402152458]
   - Aug 14 14:16Z — informational-sentiment: DC Chat "Yeah. Strength is back in metals" — supporting-channel market observation on metals strength; related to Aug 13 15:34Z XAU/XAG shorts already alerted; no personal execution language; supporting-channel follow-up to prior metals entry; silent log [$METALS] [1537827302904303686]
   - Aug 14 13:43Z — technical-check: DC Free "Fc SNDK 5m" — false-close chart check on SNDK 5m; primary-channel technical observation, reply to own informational post about market scan; no execution language, no trade action; silent log per HR-1 protocol (resolved calibration: "Fc" = false-close TA check, established pattern 15+ occurrences) [$SNDK] [1537819039601270816]

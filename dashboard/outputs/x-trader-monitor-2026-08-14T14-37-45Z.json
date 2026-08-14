@@ -1,0 +1,180 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X-Trader Monitor"
+      },
+      "children": [
+        "tweet",
+        "sep1",
+        "breakdown_section",
+        "sep2",
+        "context_section"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "@HeartCanHodl",
+        "text": "SPCX technical downside exploration — 5m breakdown\n\n144.19 → 135.84 (5m) with supporting 1h structure showing key support zones (139.98, 130.50). Sharp red volume collapse validates net-short regime conviction."
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "breakdown_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "breakdown_heading",
+        "price_stat",
+        "zones_heading",
+        "zones_stack"
+      ]
+    },
+    "breakdown_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Technical Breakdown",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "price_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "5m Price Movement",
+        "value": "144.19 → 135.84",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "zones_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Support Zones (1h structure)",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "zones_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "zone1",
+        "zone2"
+      ]
+    },
+    "zone1": {
+      "type": "Stat",
+      "props": {
+        "label": "Support Level 1",
+        "value": "139.98"
+      },
+      "children": []
+    },
+    "zone2": {
+      "type": "Stat",
+      "props": {
+        "label": "Support Level 2",
+        "value": "130.50"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "volume_text",
+        "position_heading",
+        "position_stack",
+        "validation_text",
+        "link"
+      ]
+    },
+    "volume_text": {
+      "type": "Text",
+      "props": {
+        "text": "Sharp red volume collapse validates net-short regime conviction.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "position_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Position Context",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "position_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "position_long",
+        "position_short"
+      ]
+    },
+    "position_long": {
+      "type": "Badge",
+      "props": {
+        "text": "2% Long",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "position_short": {
+      "type": "Badge",
+      "props": {
+        "text": "3% Short",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "validation_text": {
+      "type": "Text",
+      "props": {
+        "text": "Charts show intraday weakness confirming technical thesis.",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/HeartCanHodl/status/2088272080911614196"
+      },
+      "children": []
+    }
+  }
+}
