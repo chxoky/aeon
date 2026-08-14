@@ -1,0 +1,488 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-08-14"
+      },
+      "children": [
+        "heading_transitions",
+        "sep_1",
+        "section_transitions",
+        "sep_2",
+        "heading_reflexivity",
+        "section_reflexivity",
+        "sep_3",
+        "heading_positions",
+        "section_positions",
+        "sep_4",
+        "heading_map",
+        "section_map"
+      ]
+    },
+    "heading_transitions": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS (first run — no prior baseline; flagging highest-signal moves)",
+        "level": "h2"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section_transitions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "trans_privacy",
+        "trans_btc",
+        "trans_liquid",
+        "trans_ai",
+        "trans_eigenLayer"
+      ]
+    },
+    "trans_privacy": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_new_privacy",
+        "text_privacy"
+      ]
+    },
+    "badge_new_privacy": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "default"
+      }
+    },
+    "text_privacy": {
+      "type": "Text",
+      "props": {
+        "text": "Privacy/XMR-ZEC — 5th consecutive session outperforming in risk-off; financial surveillance pushback thesis building across retail + institutional",
+        "variant": "body"
+      }
+    },
+    "trans_btc": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_new_btc",
+        "text_btc"
+      ]
+    },
+    "badge_new_btc": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "default"
+      }
+    },
+    "text_btc": {
+      "type": "Text",
+      "props": {
+        "text": "BTC/Macro Bear — WR + HCH + KillaXBT + bull_genius converging: BTC -12% vs NASDAQ this month, USDT.D rising LTF, first Aug ETF outflow $61.1M, OI spike with no price advance at $62.8K",
+        "variant": "body"
+      }
+    },
+    "trans_liquid": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_promoted",
+        "text_liquid"
+      ]
+    },
+    "badge_promoted": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED",
+        "variant": "secondary"
+      }
+    },
+    "text_liquid": {
+      "type": "Text",
+      "props": {
+        "text": "Liquid Restaking → Pivot Phase — Ether.fi separated weETH from restaking Aug 7; confirmed today with ETHFI +14.5%; narrative rewriting from \"restaking yield\" to \"pure staking + DeFi card\"",
+        "variant": "body"
+      }
+    },
+    "trans_ai": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_demoted",
+        "text_ai"
+      ]
+    },
+    "badge_demoted": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED",
+        "variant": "outline"
+      }
+    },
+    "text_ai": {
+      "type": "Text",
+      "props": {
+        "text": "AI x Crypto — 7/8 AI tokens red this week; bull_genius capital flip (AI stocks > on-chain AI); from dominant sector to risk-off casualty",
+        "variant": "body"
+      }
+    },
+    "trans_eigenLayer": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_dead",
+        "text_eigenLayer"
+      ]
+    },
+    "badge_dead": {
+      "type": "Badge",
+      "props": {
+        "text": "DEAD",
+        "variant": "destructive"
+      }
+    },
+    "text_eigenLayer": {
+      "type": "Text",
+      "props": {
+        "text": "EigenLayer yield thesis — <1% of Ether.fi assets still restaked; full exit Q4; structural confidence gone post-Kelp DAO April incident",
+        "variant": "body"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_reflexivity": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      }
+    },
+    "section_reflexivity": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "refl_liquid",
+        "refl_ake"
+      ]
+    },
+    "refl_liquid": {
+      "type": "Text",
+      "props": {
+        "text": "Liquid Restaking pivot — ETHFI +14.5% / VELVET +30.48% on narrative reframe only (no new TVL, no yield improvement); story moving token prices",
+        "variant": "body"
+      }
+    },
+    "refl_ake": {
+      "type": "Text",
+      "props": {
+        "text": "AKE [PUMP-RISK] — +89% on PUMP launchpad association; HCH entering short as \"scam coin of choice this month\" — satellite reflexivity at peak",
+        "variant": "body"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_positions": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      }
+    },
+    "section_positions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "pos_macro_bear",
+        "pos_privacy",
+        "pos_pump",
+        "pos_rwa",
+        "pos_ai_crypto",
+        "pos_jackson_hole"
+      ]
+    },
+    "pos_macro_bear": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_frontrun",
+        "text_macro_title",
+        "text_macro_detail"
+      ]
+    },
+    "badge_frontrun": {
+      "type": "Badge",
+      "props": {
+        "text": "FRONT-RUN: 3 ↑↑ Bear",
+        "variant": "default"
+      }
+    },
+    "text_macro_title": {
+      "type": "Text",
+      "props": {
+        "text": "Macro Bear/USDT.D",
+        "variant": "lead"
+      }
+    },
+    "text_macro_detail": {
+      "type": "Text",
+      "props": {
+        "text": "WR/HCH/KillaXBT/bull_genius all pointing same direction; USDT.D bullish LTF, BTC under monthly open $62,857, OI flying — bear case: KillaXBT still structural bull; 62K hold = rotation not breakdown",
+        "variant": "body"
+      }
+    },
+    "pos_privacy": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_ride_privacy",
+        "text_privacy_title",
+        "text_privacy_detail"
+      ]
+    },
+    "badge_ride_privacy": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE: 3 ↑↑ Bull",
+        "variant": "secondary"
+      }
+    },
+    "text_privacy_title": {
+      "type": "Text",
+      "props": {
+        "text": "Privacy/XMR-ZEC",
+        "variant": "lead"
+      }
+    },
+    "text_privacy_detail": {
+      "type": "Text",
+      "props": {
+        "text": "5 consecutive relative-strength sessions in risk-off; structural surveillance demand + exchange delisting scarcity premium — bear case: XMR already hit $500+ ATH in Jan 2026, could be late distribution",
+        "variant": "body"
+      }
+    },
+    "pos_pump": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_ride_pump",
+        "text_pump_title",
+        "text_pump_detail"
+      ]
+    },
+    "badge_ride_pump": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE: 3 ↑ Bull",
+        "variant": "secondary"
+      }
+    },
+    "text_pump_title": {
+      "type": "Text",
+      "props": {
+        "text": "PUMP Launchpad Infra",
+        "variant": "lead"
+      }
+    },
+    "text_pump_detail": {
+      "type": "Text",
+      "props": {
+        "text": "Day-2 green in risk-off, +25% 7d; most resilient Solana infra narrative — bear case: AKE satellite at +89% is HCH short target; don't conflate launchpad with pump-risk satellites",
+        "variant": "body"
+      }
+    },
+    "pos_rwa": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_fade_rwa",
+        "text_rwa_title",
+        "text_rwa_detail"
+      ]
+    },
+    "badge_fade_rwa": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE: 4 → Mixed",
+        "variant": "outline"
+      }
+    },
+    "text_rwa_title": {
+      "type": "Text",
+      "props": {
+        "text": "RWA/ONDO",
+        "variant": "lead"
+      }
+    },
+    "text_rwa_detail": {
+      "type": "Text",
+      "props": {
+        "text": "70%+ tokenized equity market share but ONDO token declining; narrative mature, unlock pressure; institutional TVL growing while token price falls (divergence = distribution) — bear case for fade: wrong to fade the protocol, right to fade the token",
+        "variant": "body"
+      }
+    },
+    "pos_ai_crypto": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_fade_ai",
+        "text_ai_crypto_title",
+        "text_ai_crypto_detail"
+      ]
+    },
+    "badge_fade_ai": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE: 4 ↓ Mixed",
+        "variant": "outline"
+      }
+    },
+    "text_ai_crypto_title": {
+      "type": "Text",
+      "props": {
+        "text": "AI x Crypto",
+        "variant": "lead"
+      }
+    },
+    "text_ai_crypto_detail": {
+      "type": "Text",
+      "props": {
+        "text": "sector underperforming in risk-off; capital rotating to AI stocks (NASDAQ +vs BTC); fading the trade, not the 2026 thesis — bear case: conviction structural; buy the dip post-Jackson Hole if risk-on returns",
+        "variant": "body"
+      }
+    },
+    "pos_jackson_hole": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_watch",
+        "text_jackson_title",
+        "text_jackson_detail"
+      ]
+    },
+    "badge_watch": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH: 4 ↑ Mixed",
+        "variant": "secondary"
+      }
+    },
+    "text_jackson_title": {
+      "type": "Text",
+      "props": {
+        "text": "Jackson Hole Aug 27",
+        "variant": "lead"
+      }
+    },
+    "text_jackson_detail": {
+      "type": "Text",
+      "props": {
+        "text": "13 days out; 2026 theme is crypto-focused (\"Financial Innovation\"); Fed No Change Sep 71.5% (+5pp); volatility window could flip all narratives",
+        "variant": "body"
+      }
+    },
+    "sep_4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_map": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h2"
+      }
+    },
+    "section_map": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "map_emerging",
+        "map_rising",
+        "map_peak",
+        "map_fading"
+      ]
+    },
+    "map_emerging": {
+      "type": "Text",
+      "props": {
+        "text": "Emerging: Regulatory Clarity (Sept 14 Clarity Act vote), Macro Bear/USDT.D",
+        "variant": "body"
+      }
+    },
+    "map_rising": {
+      "type": "Text",
+      "props": {
+        "text": "Rising: Privacy/XMR-ZEC, PUMP Launchpad, Jackson Hole (anticipation building)",
+        "variant": "body"
+      }
+    },
+    "map_peak": {
+      "type": "Text",
+      "props": {
+        "text": "Peak: RWA/ONDO, DeFi Blue Chips (UNI breakdown -10.8%)",
+        "variant": "body"
+      }
+    },
+    "map_fading": {
+      "type": "Text",
+      "props": {
+        "text": "Fading: AI x Crypto, EigenLayer/Restaking yield thesis",
+        "variant": "body"
+      }
+    }
+  }
+}
