@@ -1,11 +1,13 @@
 HEARTBEAT_OK · STATUS_PAGE=OK
 
-All checks passed clean on the 08:00 UTC run:
+All checks passed. No notification needed — nothing new to surface that hasn't been logged in the prior 48h. `docs/status.md` updated (14:00 UTC, 🟢 OK, 9 skills, 0 open issues, next run: heartbeat 20:00 UTC).
 
-- **P0 skills**: No failures, no stuck dispatches, no consecutive failures. Heartbeat self-check healthy (~12h since last success).
-- **P0 X webhook**: `TWITTERAPI_IO_KEY` not injected — silently skipped per spec. Strong corroborating signal: `x-trader-monitor` succeeded at 07:52Z this morning, confirming the webhook is delivering.
-- **P1**: 0 open PRs, issues tracker is clean.
-- **P2**: No flagged items in MEMORY.md.
-- **P3**: All 8 enabled skills within normal cadence. `morning-pipeline` chain likely mid-run (dispatched at 07:00 UTC, typically completes by ~08:52 UTC based on yesterday's timing).
+## Summary
 
-`docs/status.md` updated — 🟢 OK, 9 skills, 0 open issues, next run token-alert at 12:00 UTC.
+- **P0 (skills):** All clean — 0 failures, 0 stuck, 0 consecutive failures across all skills
+- **P0 (X webhook):** WATCHED_TRADERS rule `is_effect: 1`, 12 accounts, 180s — healthy, corroborated by x-trader-monitor last_success 13:45Z today
+- **P1:** No open PRs; issues disabled
+- **P2:** No flagged memory items
+- **P3:** All 9 enabled skills within normal cadence
+- **Token pulse:** No `token-report-*.md` files; section omitted from status page
+- **Files modified:** `docs/status.md` (overwritten), `memory/logs/2026-08-14.md` (appended)
