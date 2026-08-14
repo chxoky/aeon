@@ -1,13 +1,9 @@
 🐦 *[X] @Wild_Randomness*
 
-$AVGO $NVDA
+$STRC rebounding… but slowing down?
 
-Sneak Peak? https://t.co/eDISezDDBe
+Greatest Financial Engineer's ChatGPT yield token recovering from ~$72 lows to $96 peak (Aug), now consolidating/weakening at $94.87. Question: will $80 recovery buyers hold through $95-100 resistance, or will they exit early (momentum fading)?
 
-**Chart Analysis:**
-- **AVGO**: Down -6.30% to $391.48 (support test), RSI oversold, consolidating below 400 resistance
-- **NVDA**: Up +0.01% to $225.33 (resistance zone ~225-230), recovered from 190-200 lows but capped
+📊 Technical: V-shaped recovery structure losing steam. Support at $80-92; resistance at $96-100 (red dotted line). Volume degrading on smaller price moves (1D + 1W analysis both show consolidation zones with declining volume profile).
 
-https://x.com/Wild_Randomness/status/2088330884026126611
-
-↳ Both tickers on Kyle's watch list. AVGO showing technical weakness at support; NVDA near resistance. Aligns with WR's macro bearish positioning.
+[View post](https://x.com/Wild_Randomness/status/2088334668601151811)

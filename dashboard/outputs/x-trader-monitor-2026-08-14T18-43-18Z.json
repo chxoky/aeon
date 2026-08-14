@@ -1,0 +1,133 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "$STRC Token Analysis"
+      },
+      "children": [
+        "tweet-card",
+        "separator-1",
+        "analysis-stack"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "$STRC rebounding… but slowing down?\n\nGreatest Financial Engineer's ChatGPT yield token recovering from ~$72 lows to $96 peak (Aug), now consolidating/weakening at $94.87. Question: will $80 recovery buyers hold through $95-100 resistance, or will they exit early (momentum fading)?"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis-heading",
+        "price-grid",
+        "levels-section",
+        "volume-text",
+        "link-post"
+      ]
+    },
+    "analysis-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "📊 Technical Analysis",
+        "level": "h3"
+      }
+    },
+    "price-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "stat-low",
+        "stat-peak",
+        "stat-current"
+      ]
+    },
+    "stat-low": {
+      "type": "Stat",
+      "props": {
+        "label": "Recovery Low",
+        "value": "$72"
+      }
+    },
+    "stat-peak": {
+      "type": "Stat",
+      "props": {
+        "label": "August Peak",
+        "value": "$96"
+      }
+    },
+    "stat-current": {
+      "type": "Stat",
+      "props": {
+        "label": "Current Price",
+        "value": "$94.87"
+      }
+    },
+    "levels-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "levels-label",
+        "support-badge",
+        "resistance-badge"
+      ]
+    },
+    "levels-label": {
+      "type": "Text",
+      "props": {
+        "text": "Key Levels:",
+        "variant": "lead"
+      }
+    },
+    "support-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Support: $80-92",
+        "variant": "outline"
+      }
+    },
+    "resistance-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Resistance: $96-100 (red dotted line)",
+        "variant": "outline"
+      }
+    },
+    "volume-text": {
+      "type": "Text",
+      "props": {
+        "text": "V-shaped recovery structure losing steam. Volume degrading on smaller price moves (1D + 1W analysis both show consolidation zones with declining volume profile).",
+        "variant": "caption"
+      }
+    },
+    "link-post": {
+      "type": "Link",
+      "props": {
+        "label": "View original post on X",
+        "href": "https://x.com/Wild_Randomness/status/2088334668601151811"
+      }
+    }
+  }
+}
