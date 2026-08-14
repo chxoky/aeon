@@ -1,0 +1,419 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Market Context — 2026-08-14"
+      },
+      "children": [
+        "text_datetime",
+        "separator_1",
+        "stack_stance",
+        "separator_2",
+        "stack_prices",
+        "separator_3",
+        "stack_sentiment",
+        "separator_4",
+        "stack_breadth",
+        "separator_5",
+        "stack_dex",
+        "separator_6",
+        "stack_narrative",
+        "separator_7",
+        "stack_xmr",
+        "separator_8",
+        "stack_keylevel",
+        "separator_9",
+        "stack_fed"
+      ]
+    },
+    "text_datetime": {
+      "type": "Text",
+      "props": {
+        "text": "14:00 UTC",
+        "variant": "caption"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "stack_stance": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_stance",
+        "badge_riskoff",
+        "text_conviction"
+      ]
+    },
+    "heading_stance": {
+      "type": "Heading",
+      "props": {
+        "text": "Market Stance",
+        "level": "h3"
+      }
+    },
+    "badge_riskoff": {
+      "type": "Badge",
+      "props": {
+        "text": "RISK-OFF",
+        "variant": "destructive"
+      }
+    },
+    "text_conviction": {
+      "type": "Text",
+      "props": {
+        "text": "Conviction: medium",
+        "variant": "body"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "stack_prices": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_prices",
+        "stat_btc",
+        "stat_eth"
+      ]
+    },
+    "heading_prices": {
+      "type": "Heading",
+      "props": {
+        "text": "Asset Prices",
+        "level": "h3"
+      }
+    },
+    "stat_btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$62,604",
+        "delta": "-1.8%",
+        "trend": "down"
+      }
+    },
+    "stat_eth": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$1,868",
+        "delta": "-1.2%",
+        "trend": "down"
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "stack_sentiment": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_sentiment",
+        "stat_fg",
+        "text_fg_detail"
+      ]
+    },
+    "heading_sentiment": {
+      "type": "Heading",
+      "props": {
+        "text": "Market Sentiment",
+        "level": "h3"
+      }
+    },
+    "stat_fg": {
+      "type": "Stat",
+      "props": {
+        "label": "Fear & Greed Index",
+        "value": "29"
+      }
+    },
+    "text_fg_detail": {
+      "type": "Text",
+      "props": {
+        "text": "Fear (day 3)",
+        "variant": "body"
+      }
+    },
+    "separator_4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "stack_breadth": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_breadth",
+        "progress_breadth"
+      ]
+    },
+    "heading_breadth": {
+      "type": "Heading",
+      "props": {
+        "text": "Market Breadth",
+        "level": "h3"
+      }
+    },
+    "progress_breadth": {
+      "type": "Progress",
+      "props": {
+        "value": 2,
+        "max": 20,
+        "label": "2/20"
+      }
+    },
+    "separator_5": {
+      "type": "Separator",
+      "props": {}
+    },
+    "stack_dex": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_dex",
+        "stat_dex"
+      ]
+    },
+    "heading_dex": {
+      "type": "Heading",
+      "props": {
+        "text": "DEX Volume",
+        "level": "h3"
+      }
+    },
+    "stat_dex": {
+      "type": "Stat",
+      "props": {
+        "label": "24h Volume",
+        "value": "$6.22B",
+        "delta": "+10% vs 7d avg",
+        "trend": "up"
+      }
+    },
+    "separator_6": {
+      "type": "Separator",
+      "props": {}
+    },
+    "stack_narrative": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_narrative",
+        "text_narrative_main",
+        "badge_pump_risk",
+        "grid_coins"
+      ]
+    },
+    "heading_narrative": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Narrative",
+        "level": "h3"
+      }
+    },
+    "text_narrative_main": {
+      "type": "Text",
+      "props": {
+        "text": "Micro-cap pump rotation rising",
+        "variant": "lead"
+      }
+    },
+    "badge_pump_risk": {
+      "type": "Badge",
+      "props": {
+        "text": "PUMP-RISK",
+        "variant": "secondary"
+      }
+    },
+    "grid_coins": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "card_ace",
+        "card_ake"
+      ]
+    },
+    "card_ace": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_ace_label",
+        "stat_ace"
+      ]
+    },
+    "text_ace_label": {
+      "type": "Text",
+      "props": {
+        "text": "ACE",
+        "variant": "body"
+      }
+    },
+    "stat_ace": {
+      "type": "Stat",
+      "props": {
+        "value": "+128%",
+        "trend": "up"
+      }
+    },
+    "card_ake": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_ake_label",
+        "stat_ake"
+      ]
+    },
+    "text_ake_label": {
+      "type": "Text",
+      "props": {
+        "text": "AKE (day 2)",
+        "variant": "body"
+      }
+    },
+    "stat_ake": {
+      "type": "Stat",
+      "props": {
+        "value": "+99.5%",
+        "trend": "up"
+      }
+    },
+    "separator_7": {
+      "type": "Separator",
+      "props": {}
+    },
+    "stack_xmr": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_xmr",
+        "text_xmr_status",
+        "text_xmr_detail"
+      ]
+    },
+    "heading_xmr": {
+      "type": "Heading",
+      "props": {
+        "text": "XMR Status",
+        "level": "h3"
+      }
+    },
+    "text_xmr_status": {
+      "type": "Text",
+      "props": {
+        "text": "Fading",
+        "variant": "body"
+      }
+    },
+    "text_xmr_detail": {
+      "type": "Text",
+      "props": {
+        "text": "24h alpha gone after 5-session streak",
+        "variant": "caption"
+      }
+    },
+    "separator_8": {
+      "type": "Separator",
+      "props": {}
+    },
+    "stack_keylevel": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_keylevel",
+        "text_keylevel_support",
+        "text_keylevel_downside"
+      ]
+    },
+    "heading_keylevel": {
+      "type": "Heading",
+      "props": {
+        "text": "Key Level",
+        "level": "h3"
+      }
+    },
+    "text_keylevel_support": {
+      "type": "Text",
+      "props": {
+        "text": "BTC $61K support",
+        "variant": "body"
+      }
+    },
+    "text_keylevel_downside": {
+      "type": "Text",
+      "props": {
+        "text": "Breach → sub-$57K target (per KillaXBT)",
+        "variant": "caption"
+      }
+    },
+    "separator_9": {
+      "type": "Separator",
+      "props": {}
+    },
+    "stack_fed": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_fed",
+        "progress_fed"
+      ]
+    },
+    "heading_fed": {
+      "type": "Heading",
+      "props": {
+        "text": "Hot Market",
+        "level": "h3"
+      }
+    },
+    "progress_fed": {
+      "type": "Progress",
+      "props": {
+        "value": 71.5,
+        "max": 100,
+        "label": "Fed No Change (Sep): 71.5%"
+      }
+    }
+  }
+}

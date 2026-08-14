@@ -1,8 +1,9 @@
-market context — 2026-08-14
+market context — 2026-08-14 (14:00 UTC)
 
 take: risk-off (conviction medium)
-BTC $62,859 (-1.5%) / ETH $1,872 (-1.2%) · F&G 29 (Fear)
-breadth 2/20 · TVL chains flat · DEX vol $6.2B (+4%)
-top narrative: privacy/XMR (rising, 5th day)
-new: liquid restaking emerging (ETHFI +14.8%, VELVET +30.5%)
-hot market: "Fed No Change Sep 2026?" YES 71.5% (+5pp)
+BTC $62,604 (-1.8%) / ETH $1,868 (-1.2%) · F&G 29 Fear (day 3)
+breadth 2/20 · DEX vol $6.22B (+10% vs 7d avg)
+top narrative: micro-cap pump rotation rising (ACE +128% [PUMP-RISK], AKE day-2 +99.5%)
+XMR fading — 24h alpha gone after 5-session streak
+key level: BTC $61K — breach → sub-$57K (KillaXBT)
+hot market: Fed No Change Sep YES 71.5%
