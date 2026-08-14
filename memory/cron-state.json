@@ -146,9 +146,9 @@
   "morning-brief": {
     "last_dispatch": "2026-08-13T08:46:59Z",
     "last_status": "success",
-    "last_success": "2026-08-13T08:52:45Z",
-    "total_runs": 29,
-    "total_successes": 29,
+    "last_success": "2026-08-14T08:17:32Z",
+    "total_runs": 30,
+    "total_successes": 30,
     "total_failures": 0,
     "consecutive_failures": 0,
     "success_rate": 1
