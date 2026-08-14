@@ -23,3 +23,4 @@ Cross-trader context: HeartCanHodl (2% spot long + 1% short hedge), swarmister (
 Classification: informational-technical (structure confirmation)
 Unable to classify — which asset/timeframe are you referring to?
 [View post](https://x.com/HeartCanHodl/status/2088272080911614196)
+@KillaXBT_BTC_OI_Flush_Analysis

@@ -1,0 +1,22 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "link"
+      ]
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "@KillaXBT_BTC_OI_Flush_Analysis",
+        "href": "https://x.com/KillaXBT_BTC_OI_Flush_Analysis"
+      }
+    }
+  }
+}
