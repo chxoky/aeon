@@ -19,8 +19,9 @@
   - Aug 13 15:05Z — trade-new-entry: DC Trades "Add 1% dell short" — new short entry on Dell Technologies; primary Trades channel; verbatim rule compliance (HCH—Trades); DELL = new ticker, first mention in short basket; market-order execution; fast-path-alerted [$DELL] [1537477219730063391]
   - Aug 13 11:39Z — trade-partial-close: DC Trades "Cover 2.5% btc shorts" — closing/reducing short position; verbatim rule compliance (HCH—Trades channel); BTC reduced from ~10% to ~7.5%; fast-path-alerted [$BTC] [1537425318615457854]
   - Aug 13 05:47Z — trade-partial-close: DC Trades "Cover half of remaining spot/L" — covering/closing half of remaining spot long positions; primary Trades channel; verbatim rule compliance (HCH—Trades); fast-path-alerted [$SPOT_LONGS] [1537336735317626900]
-- Last seen: 2026-08-14T10:22:07Z (Discord Trades primary — SNDK 1% short entry)
+- Last seen: 2026-08-14T10:26:05Z (Discord Free channel — X post reiteration on stock shorts)
 - **Events (rolling):**
+  - Aug 14 10:26Z — informational-reiteration: DC Free "You do not need to search very hard today\n\nScan the market\n\nThe future casualties are already revealing themselves\n\n[X link 2088209396354744654]" — cross-platform reiteration of 10:21Z X post on stock shorts conviction; no new trade execution or variation; linked to existing X alert, silent log only; primary Free channel message (public-facing sentiment reaffirmation); silent-log per cross-platform dedup protocol [$STOCKS_SHORTS] [1537769274012082177]
   - Aug 14 10:22Z — trade-new-entry: DC Trades "1% sndk short" — new short entry on SNDK (SanDisk); primary Trades channel; verbatim rule compliance (HCH—Trades); market-order execution language; SNDK part of systematic short basket escalation (MU 10:14Z, NBIS 09:46Z same morning session); prior SNDK context from swarmister long entry Aug 13 (cross-trader convergence emerging); fast-path-alerted by Cloudflare Worker (Telegram alert sent ~2-5s post-message) [$SNDK] [1537768275327459368]
 - Last seen: 2026-08-14T10:21:31Z (X — stock shorts conviction statement)
 - **Events (rolling):**
