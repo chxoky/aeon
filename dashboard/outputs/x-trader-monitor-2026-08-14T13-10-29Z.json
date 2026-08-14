@@ -1,0 +1,31 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_1",
+        "link_view"
+      ]
+    },
+    "tweet_1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Looks pretty bullish on LTFs\n\nStep 7 chart analysis: USDT.D/BTCUSD ratio showing bullish consolidation structure on daily/weekly timeframes. Recovered from June 2025 lows, support levels holding, current consolidation at 0.137% with intact uptrend (EMA structure bullish). USDT dominance relative to BTC showing strength."
+      }
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2088250371936604221"
+      }
+    }
+  }
+}
