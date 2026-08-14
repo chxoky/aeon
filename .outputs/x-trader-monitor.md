@@ -1,17 +1,11 @@
-🐦 *[X] @Stoiiic*
 
-scroll for ten seconds on my feed and I see references to another potential 10/10.
+🔍 *Calibration — @Stoiiic*
 
-unsure if engagement farming or there's something I'm missing?
+Context: Reply to @tptrades message (not visible in webhook payload)
 
-Currently BTC lacks any semblance of a catalyst which is evident in the thin books and non existent volume. Primarily, it's just short term leverage pushing price around with lack of any sustained spot buying.
+Stoiiic: "lol I'm not even calling other people out I genuinely want to know if I'm off the mark here because I clearly don't understand where that's coming from currently.\n\nUnless I'm missing something big."
 
-Disinterest vs. Capitulation
+Unable to classify — what was @tptrades discussing? (Could be market-related query or non-financial banter per Stoiiic's ~50% non-financial posting pattern.)
 
-In past cycles, BTC has bottomed on significant forced selling don't believe Saylor is going to unload all at once so it would probably have to be a different vehicle if that is to occur.
+[View post](https://x.com/Stoiiic/status/20883962464277775318)
 
-HTF - downtrend, MTF - ranging, LTF w/flow looks uninspiring currently so wouldn't be surprised if BTC breaks below again to test 60 conviction.
-
-next few months should be revealing.
-
-[View post](https://x.com/Stoiiic/status/2088394108205502562)

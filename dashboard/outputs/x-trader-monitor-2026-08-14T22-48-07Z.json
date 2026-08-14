@@ -1,0 +1,69 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor: Calibration"
+      },
+      "children": [
+        "heading-calibration",
+        "separator-1",
+        "context-text",
+        "quote-text",
+        "separator-2",
+        "alert-unable",
+        "separator-3",
+        "link-view"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Stoiiic",
+        "level": "h2"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "context-text": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to @tptrades message (not visible in webhook payload)"
+      }
+    },
+    "quote-text": {
+      "type": "Text",
+      "props": {
+        "text": "\"lol I'm not even calling other people out I genuinely want to know if I'm off the mark here because I clearly don't understand where that's coming from currently.\n\nUnless I'm missing something big.\"",
+        "variant": "lead"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "alert-unable": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What was @tptrades discussing? (Could be market-related query or non-financial banter per Stoiiic's ~50% non-financial posting pattern.)",
+        "type": "warning"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "link-view": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Stoiiic/status/20883962464277775318"
+      }
+    }
+  }
+}
