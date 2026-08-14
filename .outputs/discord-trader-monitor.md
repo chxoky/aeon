@@ -1,25 +1,16 @@
 ## Summary
 
-Processed HeartCanHodl Discord trade alert:
+**discord-trader-monitor** executed successfully. Processed one real-time event from HeartCanHodl:
 
-**Event Details:**
-- **Message**: "1% nbis short"
-- **Channel**: 1279738718680256553 (HCH — Trades, primary ★)
-- **Time**: 2026-08-14T09:46:07Z
-- **Message ID**: 1537759216238989382
+**Event:** "Fc btc 1hr" (false-close chart check on BTC 1-hour timeframe)
+- **Channel:** 1023638573313966212 (HCH — Chat, supporting)
+- **Timestamp:** 2026-08-14T10:07:57Z
+- **Classification:** Technical-check (silent log per HR-1 protocol)
+- **Action:** No alert sent — calibration RESOLVED: "Fc" = false-close TA check, not a trade signal. Logged to memory only.
 
-**Classification**: Trade-new-entry (Step 5a)
-- Direct execution call on primary Trades channel
-- NBIS = emerging cryptocurrency/perp ticker (previously noted as liquidation observation Aug 13)
-- 1% position sizing (systematic allocation)
-- Verbatim message rule applied (exact text preserved as-is)
+**Changes made:**
+- ✅ Added message ID to discord-trader-seen.txt (dedup tracking)
+- ✅ Updated traders.md with event + "Last seen" timestamp
+- ✅ Created log entry in memory/logs/2026-08-14.md
 
-**Action Taken**:
-- **Dedup check**: Message ID added to memory/discord-trader-seen.txt ✓
-- **Fast-path protocol**: `fast_path_alerted=true` — Cloudflare Worker already sent Telegram ~2-5s post-message
-  - Skipped redundant Telegram send (skill protocol)
-  - Proceeded to memory/logging only
-- **Memory update**: traders.md updated with new event entry
-- **Log entry**: memory/logs/2026-08-14.md documented with classification, ticker, and notes
-
-**Current HCH position impact**: NBIS added to active short basket (expanding emerging-alt conviction short thesis alongside existing UNI/LIT/PUMP/HYPE/ZEC/KAITO shorts)
+No Telegram notification sent (fast_path_alerted=false, but message is non-financial per established pattern).
