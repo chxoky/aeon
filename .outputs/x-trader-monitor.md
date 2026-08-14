@@ -1,20 +1,9 @@
-🐦 *[X] @KillaXBT*
+🐦 *[X] @swarmister*
 
-🐦 *[X] @Wild_Randomness*
+I'm still holding my position, though I did take some profits. It's been very profitable. I don't know if there will be any corrections, but I might add a little more if I get the chance.
 
-Cold CPI
+I'm optimistic about the price reaching $1,900.
 
-Cold PPI
+[View post](https://x.com/swarmister/status/2088279530519552490)
 
-Cold Retail Sales
-
-[View tweet](https://x.com/Wild_Randomness/status/2088277402220966219)
-
-_Macro economic softening observation; aligns with Jump-the-Shark bearish thesis. No personal trade action._
-
-Unable to classify — what's your read? (Warsh = Kevin Warsh macro/policy reference? Market timing signal? Specific catalyst?)
-"I'm clearly bullish, and I'm clearly posting my analysis, thoughts, and expectations for a market that is constantly moving... Am I still long and holding my spot? Yes. Nothing has changed. Pointing out that a particular scenario could happen while playing a game of probabilities takes absolutely nothing away from my positioning. That's literally what analyzing markets is about."
-
-[View tweet](https://x.com/KillaXBT/status/2088276733908717954)
-
-↳ _Reaffirms steady long conviction despite volatility discussion; philosophical defense of his multi-scenario analytical framework._
+_Chart shows 1h bullish alignment (MA5/10/20); SNDK 20x perpetual at +438.24%; remaining 70% of spot position active at mark 1,630.49. $1,900 target = 22.5% upside from current price._

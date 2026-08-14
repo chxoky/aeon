@@ -1,0 +1,117 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet",
+        "link",
+        "sep1",
+        "analysis_heading",
+        "analysis_stack"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "I'm still holding my position, though I did take some profits. It's been very profitable. I don't know if there will be any corrections, but I might add a little more if I get the chance. I'm optimistic about the price reaching $1,900."
+      },
+      "children": []
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/swarmister/status/2088279530519552490"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Market Analysis",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "analysis_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "chart_note",
+        "stats_grid"
+      ]
+    },
+    "chart_note": {
+      "type": "Text",
+      "props": {
+        "text": "1h bullish alignment (MA5/10/20)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "stats_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat_perpetual",
+        "stat_mark",
+        "stat_target",
+        "stat_upside"
+      ]
+    },
+    "stat_perpetual": {
+      "type": "Stat",
+      "props": {
+        "label": "SNDK 20x Perpetual",
+        "value": "+438.24%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat_mark": {
+      "type": "Stat",
+      "props": {
+        "label": "Current Mark (70% spot position)",
+        "value": "1,630.49"
+      },
+      "children": []
+    },
+    "stat_target": {
+      "type": "Stat",
+      "props": {
+        "label": "$1,900 Target",
+        "value": "$1,900"
+      },
+      "children": []
+    },
+    "stat_upside": {
+      "type": "Stat",
+      "props": {
+        "label": "Upside to Target",
+        "value": "22.5%",
+        "trend": "up"
+      },
+      "children": []
+    }
+  }
+}
