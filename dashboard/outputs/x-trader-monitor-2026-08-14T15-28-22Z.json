@@ -1,0 +1,142 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "🏛️ Treasury Yield Constraint — @Wild_Randomness"
+      },
+      "children": [
+        "quote-stack",
+        "context-stack",
+        "thesis-stack",
+        "link-stack"
+      ]
+    },
+    "quote-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "quote-label",
+        "quote-text"
+      ]
+    },
+    "quote-label": {
+      "type": "Text",
+      "props": {
+        "text": "Macro observation on treasury auctions and Fed policy headroom:",
+        "variant": "lead"
+      }
+    },
+    "quote-text": {
+      "type": "Text",
+      "props": {
+        "text": "Well, to no surprise they magically got cool numbers on all three prints this week. Only issue is the 30yr is higher than it was before all these prints. Think this shows how tough of a spot this is if they (Bessent and Warsh/FOMC) don't thread the needle perfectly",
+        "variant": "body"
+      }
+    },
+    "context-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context-label",
+        "context-main",
+        "context-detail-1",
+        "context-detail-2"
+      ]
+    },
+    "context-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h4"
+      }
+    },
+    "context-main": {
+      "type": "Text",
+      "props": {
+        "text": "Treasury auctions this week (2Y, 10Y, 30Y) produced strong demand (\"cool numbers\"), but 30Y yield has risen to 5.257% (+0.73%), constraining Fed policy room.",
+        "variant": "body"
+      }
+    },
+    "context-detail-1": {
+      "type": "Text",
+      "props": {
+        "text": "Chart shows uptrend May-Aug despite successful auction week.",
+        "variant": "caption"
+      }
+    },
+    "context-detail-2": {
+      "type": "Text",
+      "props": {
+        "text": "Discord thread (Pool 2 Paulie) questions whether long-end will follow short-end down under rate-cut scenario.",
+        "variant": "caption"
+      }
+    },
+    "thesis-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "thesis-label",
+        "thesis-main",
+        "thesis-alignment",
+        "thesis-watch"
+      ]
+    },
+    "thesis-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Macro thesis",
+        "level": "h4"
+      }
+    },
+    "thesis-main": {
+      "type": "Text",
+      "props": {
+        "text": "FOMC must perfectly manage the curve, or risk further yield rises.",
+        "variant": "body"
+      }
+    },
+    "thesis-alignment": {
+      "type": "Text",
+      "props": {
+        "text": "Aligns with WR's \"Jump the Shark\" bearish macro framework.",
+        "variant": "caption"
+      }
+    },
+    "thesis-watch": {
+      "type": "Text",
+      "props": {
+        "text": "Watch Aug 27 Jackson Hole (Fed decision catalyst).",
+        "variant": "caption"
+      }
+    },
+    "link-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "post-link"
+      ]
+    },
+    "post-link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2088282735463043148"
+      }
+    }
+  }
+}
