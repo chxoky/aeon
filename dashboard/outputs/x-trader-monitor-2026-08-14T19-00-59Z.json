@@ -1,0 +1,195 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "tweet_card",
+        "sep_1",
+        "heading_title",
+        "chart_section",
+        "sep_2",
+        "sentiment_section",
+        "sep_3",
+        "levels_section",
+        "sep_4",
+        "validation_text",
+        "link_tweet"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "Wild_Randomness",
+        "text": "If you haven't noticed, this is not a 'buy resistance' type market"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_title": {
+      "type": "Heading",
+      "props": {
+        "text": "BTC Market Structure Failed Breakout",
+        "level": "h2"
+      }
+    },
+    "chart_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "chart_label",
+        "stat_spike",
+        "stat_pullback",
+        "chart_detail"
+      ]
+    },
+    "chart_label": {
+      "type": "Text",
+      "props": {
+        "text": "📊 Charts show:",
+        "variant": "lead"
+      }
+    },
+    "stat_spike": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC Spike Peak",
+        "value": "$65,474"
+      }
+    },
+    "stat_pullback": {
+      "type": "Stat",
+      "props": {
+        "label": "Pullback to Support (red dotted line)",
+        "value": "$62,911"
+      }
+    },
+    "chart_detail": {
+      "type": "Text",
+      "props": {
+        "text": "Failed breakout above 65.5K confirms bearish structure.",
+        "variant": "body"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sentiment_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sentiment_label",
+        "sentiment_text1",
+        "sentiment_text2"
+      ]
+    },
+    "sentiment_label": {
+      "type": "Text",
+      "props": {
+        "text": "💬 Sentiment:",
+        "variant": "lead"
+      }
+    },
+    "sentiment_text1": {
+      "type": "Text",
+      "props": {
+        "text": "Retail bullish call on $70K = failed trap (\"sheep to slaughter\" commentary)",
+        "variant": "body"
+      }
+    },
+    "sentiment_text2": {
+      "type": "Text",
+      "props": {
+        "text": "Market NOT buying resistance = rejection of higher prices.",
+        "variant": "body"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "levels_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "levels_label",
+        "stat_support",
+        "stat_resistance"
+      ]
+    },
+    "levels_label": {
+      "type": "Text",
+      "props": {
+        "text": "Key Levels:",
+        "variant": "lead"
+      }
+    },
+    "stat_support": {
+      "type": "Stat",
+      "props": {
+        "label": "Support",
+        "value": "$62.8K"
+      }
+    },
+    "stat_resistance": {
+      "type": "Stat",
+      "props": {
+        "label": "Resistance Threshold",
+        "value": "$66K"
+      }
+    },
+    "sep_4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "validation_text": {
+      "type": "Text",
+      "props": {
+        "text": "This validates Wild_Randomness' \"Jump the Shark\" macro bear thesis + gold/BTC barbell strategy.",
+        "variant": "body"
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2088338282291876224"
+      }
+    }
+  }
+}

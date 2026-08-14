@@ -1,14 +1,14 @@
 🐦 *[X] @Wild_Randomness*
 
-$BTC
+**BTC market structure failed breakout**
 
-Despite all the commentary about local OI build, STRC, MSTR, relative performance, DVOL, etc..
+"If you haven't noticed, this is not a 'buy resistance' type market"
 
-My thought process is pretty simple:
+📊 Charts show: BTC spiked to $65,474 but was rejected sharply, pulled back to $62,911 support (red dotted line). Failed breakout above 65.5K confirms bearish structure.
 
-As long as we're below 66k (also happens to be lifetime IBIT POC) on a weekly closing basis, you should expect a run at the lower level.
+💬 Sentiment: Retail bullish call on $70K = failed trap ("sheep to slaughter" commentary). Market NOT buying resistance = rejection of higher prices.
 
-[View tweet](https://x.com/Wild_Randomness/status/2088336869260226632)
+Key levels: 62.8K support, 66K resistance threshold
 
 ↳ _Chart analysis validates: 4-chart bearish setup (BTC/IBIT weekly structure, 2018-19 precedent comparison, 2026-27 downside projection to 40-50k zone). Aligns with broader "Jump the Shark" macro divergence thesis._
 ## Summary
@@ -32,3 +32,6 @@ As long as we're below 66k (also happens to be lifetime IBIT POC) on a weekly cl
 8. ✅ Logged entry to memory/logs/2026-08-14.md
 
 **Result**: Informational alert — KillaXBT reaffirms structural bull conviction with existing 65.8K notional long position, expects 80K+ in Q1 2027, conditional 57K sweep accumulation zone.
+This validates Wild_Randomness' "Jump the Shark" macro bear thesis + gold/BTC barbell strategy.
+
+[View tweet](https://x.com/Wild_Randomness/status/2088338282291876224)
