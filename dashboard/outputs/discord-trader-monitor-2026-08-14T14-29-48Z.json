@@ -1,0 +1,59 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Calibration analysis from Discord traders channel"
+      },
+      "children": [
+        "header_1",
+        "sep_1",
+        "tweet_1",
+        "sep_2",
+        "alert_1"
+      ]
+    },
+    "header_1": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: HCH — Chat]",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "tweet_1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "heartcanhodl",
+        "text": "Yeah. Can wait to add again"
+      },
+      "children": []
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert_1": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Supporting channel message, no explicit ticker, reads as affirmation/readiness but context unclear. What's your read?",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}
