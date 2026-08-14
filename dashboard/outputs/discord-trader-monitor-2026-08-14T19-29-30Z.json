@@ -1,0 +1,61 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "heading_calibration",
+        "separator_1",
+        "text_context_status",
+        "text_hch_status",
+        "separator_2",
+        "alert_classification"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: HCH — Chat]",
+        "level": "h2"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_context_status": {
+      "type": "Text",
+      "props": {
+        "text": "Member context unavailable (is_reply=false)",
+        "variant": "body"
+      }
+    },
+    "text_hch_status": {
+      "type": "Text",
+      "props": {
+        "text": "HCH: \"Maybe\"",
+        "variant": "lead"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "what's your read?",
+        "type": "info"
+      }
+    }
+  }
+}

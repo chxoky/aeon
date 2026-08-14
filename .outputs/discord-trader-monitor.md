@@ -25,3 +25,7 @@ Perfect! I've completed the skill execution. Here's the summary:
 3. **logs/2026-08-14.md** — Detailed event log with full classification and context
 
 **Result:** ✅ Complete — Memory updated, classification logged, no duplicate alerts sent.
+Member context unavailable (is_reply=false)
+HCH: "Maybe"
+
+Unable to classify — what's your read?
