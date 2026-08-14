@@ -1,19 +1,16 @@
 ## Summary
 
-Executed discord-trader-monitor skill for HeartCanHodl real-time event:
+**discord-trader-monitor execution completed.**
 
-**Event**: Discord message "Fc SNDK 5m" (false-close technical check) at 13:43:50Z on primary Free channel (1472153627324842057)
+**Event processed:**
+- **Trader:** HeartCanHodl
+- **Channel:** 1023638573313966212 (HCH — Chat, supporting)
+- **Message:** "Yeah. Strength is back in metals" (2026-08-14T14:16:40Z)
+- **Classification:** Informational-sentiment (market observation)
 
-**Processing**:
-- ✓ Decoded & validated event (message_id: 1537819039601270816)
-- ✓ Verified trader (heartcanhodl) and channel (HCH — Free primary)
-- ✓ Applied fast-path protocol (fast_path_alerted=true → skip Telegram, log memory only)
-- ✓ Classified as: **technical-check** (false-close TA check pattern, HR-1 silent log)
-- ✓ No trade signal, established resolved pattern (15+ Fc occurrences)
+**Decision:** No Telegram alert sent. This is a supporting-channel follow-up to HeartCanHodl's Aug 13 15:34Z XAU/XAG shorts (already fast-path-alerted). The message contains no personal execution language and simply observes metals strength—likely contextualizing his existing short positions. Per skill Step 7 protocol: related primary-channel content already alerted; fold supporting-channel follow-up into context with silent log.
 
-**Memory updates**:
-- Added message ID to discord-trader-seen.txt (now 134 lines)
-- Updated traders.md: Last seen → 2026-08-14T13:43:50Z, added new event entry
-- Appended daily log (memory/logs/2026-08-14.md) with full event details
-
-**Result**: Silent log per HR-1 protocol. No Kyle alert (fast-path Telegram already sent). Event documented for memory tracking.
+**Memory updated:**
+- discord-trader-seen.txt: message ID tracked
+- traders.md: event entry added (Aug 14 14:16Z), "Last seen" refreshed
+- memory/logs/2026-08-14.md: skill execution log appended
