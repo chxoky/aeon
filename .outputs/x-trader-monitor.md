@@ -1,11 +1,13 @@
-🐦 *[X] @HeartCanHodl*
+🐦 *[X] @KillaXBT*
 
-I have a quiet conviction that some of my latest stock shorts will also age like fine wine
+Welp... by no surprise, exactly what I said would happen is happening.
 
-But again, time is the final arbiter
+We're now at that stage of the cycle where everyone starts getting impatient due to the lack of volatility. Their dopamine levels die down, so naturally, they feel the need to overleverage even further.
 
-Let the cycle complete
+It already looks like that frustration is starting to play out, with OI absolutely flying through the roof.
 
-[View tweet](https://x.com/HeartCanHodl/status/2088209396354744654)
+The only people who survive conditions like this are the ones who are simply sitting on their hands, patiently waiting for the market to show its hand, or those trading with significantly lower leverage & are buying long term bags.
 
-_Conviction reaffirmation on stock short thesis (TSLA/PLTR/DELL/MU). No new action — informational sentiment update._
+We should see some nice $BTC volatility soon.
+
+[View post](https://x.com/KillaXBT/status/2088228524310089885)
