@@ -1,0 +1,107 @@
+{
+  "root": "mainCard",
+  "state": {},
+  "elements": {
+    "mainCard": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor: Calibration Task"
+      },
+      "children": [
+        "heading",
+        "contentStack"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @trading_axe",
+        "level": "h2"
+      }
+    },
+    "contentStack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "contextSection",
+        "separator1",
+        "messageSection",
+        "separator2",
+        "classificationAlert"
+      ]
+    },
+    "contextSection": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "contextLabel",
+        "contextBadge"
+      ]
+    },
+    "contextLabel": {
+      "type": "Text",
+      "props": {
+        "text": "Context:",
+        "variant": "muted"
+      }
+    },
+    "contextBadge": {
+      "type": "Badge",
+      "props": {
+        "text": "Reply to @RichVeith",
+        "variant": "secondary"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "messageSection": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "messageLabel",
+        "quotedMessage"
+      ]
+    },
+    "messageLabel": {
+      "type": "Text",
+      "props": {
+        "text": "Message:",
+        "variant": "muted"
+      }
+    },
+    "quotedMessage": {
+      "type": "Text",
+      "props": {
+        "text": "\"He cashed out AT LEAST half a billion. ~ Dr. Axius.\"",
+        "variant": "lead"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classificationAlert": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Classification Needed",
+        "message": "Unable to classify — who cashed out, and what market reference is this? Your read?"
+      }
+    }
+  }
+}
