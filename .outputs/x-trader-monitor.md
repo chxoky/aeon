@@ -1,9 +1,8 @@
-🔍 *Calibration — @swarmister*
+🐦 *[X] @swarmister*
 
-Event: Reply to @HeiroCapital (context unavailable)
-@swarmister: "Naaah"
+SNDKUSDT Perpetual Long | 20x leverage | +371.17% profit
 
-Unable to classify — what's your read?
+Sharing highly profitable position with @bull_genius — validates Aug 13 SNDK spot long entry. Five-trader semiconductor bullish convergence thesis (Crypto_Chase/ryzzqq/Wild_Randomness/HCH/swarmister). Chart shows breakout structure confirmed.
 
 [View post](https://x.com/swarmister/status/2088179185906839915)
 🐦 *Sentiment Pivot — @bull_genius*
@@ -17,3 +16,4 @@ btc meanwhile is heading toward summer range lows by the looks of it.
 **Impact:** Clear divergence from group BTC bias. This trader was contrarian accumulator on weakness — now signaling away from BTC entirely toward AI equity upside.
 
 [View post](https://x.com/bull_genius/status/2088179592607490442)
+[View tweet](https://x.com/swarmister/status/2088180182670565441)

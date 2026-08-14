@@ -1,0 +1,135 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet-card",
+        "separator1",
+        "details-section"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "SNDKUSDT Perpetual Long | 20x leverage | +371.17% profit\n\nSharing highly profitable position with @bull_genius — validates Aug 13 SNDK spot long entry. Five-trader semiconductor bullish convergence thesis (Crypto_Chase/ryzzqq/Wild_Randomness/HCH/swarmister). Chart shows breakout structure confirmed."
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "details-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "position-details",
+        "thesis-details",
+        "tweet-link"
+      ]
+    },
+    "position-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-symbol",
+        "badge-type",
+        "badge-leverage",
+        "stat-profit"
+      ]
+    },
+    "badge-symbol": {
+      "type": "Badge",
+      "props": {
+        "text": "SNDKUSDT",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge-type": {
+      "type": "Badge",
+      "props": {
+        "text": "Perpetual Long",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge-leverage": {
+      "type": "Badge",
+      "props": {
+        "text": "20x Leverage",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "stat-profit": {
+      "type": "Stat",
+      "props": {
+        "label": "Profit",
+        "value": "+371.17%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "thesis-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "thesis-title",
+        "traders-list",
+        "strategy-notes"
+      ]
+    },
+    "thesis-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Semiconductor Bullish Convergence Thesis",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "traders-list": {
+      "type": "Text",
+      "props": {
+        "text": "Five-trader validation: Crypto_Chase, ryzzqq, Wild_Randomness, HCH, swarmister. Shared with @bull_genius.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "strategy-notes": {
+      "type": "Text",
+      "props": {
+        "text": "Validates Aug 13 SNDK spot long entry. Breakout structure confirmed on chart.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/swarmister/status/2088180182670565441"
+      },
+      "children": []
+    }
+  }
+}
