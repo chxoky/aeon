@@ -1,0 +1,166 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @swarmister"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-reply",
+        "text-explanation",
+        "separator-1",
+        "heading-context",
+        "stack-positions",
+        "separator-2",
+        "text-unable",
+        "link-tweet"
+      ]
+    },
+    "text-reply": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to @samuraix: \"What is it\"",
+        "variant": "lead"
+      }
+    },
+    "text-explanation": {
+      "type": "Text",
+      "props": {
+        "text": "Reply-dependent message; original @samuraix post unavailable in payload. No ticker/asset/execution language visible.",
+        "variant": "body"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-context": {
+      "type": "Heading",
+      "props": {
+        "text": "Context clues from swarmister profile:",
+        "level": "h3"
+      }
+    },
+    "stack-positions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "position-sndk",
+        "position-btc",
+        "position-doge"
+      ]
+    },
+    "position-sndk": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-sndk",
+        "text-sndk-details"
+      ]
+    },
+    "badge-sndk": {
+      "type": "Badge",
+      "props": {
+        "text": "SNDK LONG",
+        "variant": "default"
+      }
+    },
+    "text-sndk-details": {
+      "type": "Text",
+      "props": {
+        "text": "active, 70% remainder, very high conviction, +308% profit",
+        "variant": "caption"
+      }
+    },
+    "position-btc": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-btc",
+        "badge-btc-status"
+      ]
+    },
+    "badge-btc": {
+      "type": "Badge",
+      "props": {
+        "text": "BTC SHORT DCA",
+        "variant": "default"
+      }
+    },
+    "badge-btc-status": {
+      "type": "Badge",
+      "props": {
+        "text": "pending Kyle approval",
+        "variant": "outline"
+      }
+    },
+    "position-doge": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-doge",
+        "badge-doge-status"
+      ]
+    },
+    "badge-doge": {
+      "type": "Badge",
+      "props": {
+        "text": "DOGE LONG",
+        "variant": "default"
+      }
+    },
+    "badge-doge-status": {
+      "type": "Badge",
+      "props": {
+        "text": "pending Kyle approval",
+        "variant": "outline"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-unable": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "lead"
+      }
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/swarmister/status/2088141513326739707"
+      }
+    }
+  }
+}
