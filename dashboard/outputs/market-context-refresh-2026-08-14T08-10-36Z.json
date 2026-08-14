@@ -1,0 +1,256 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Market Context — 2026-08-14"
+      },
+      "children": [
+        "sentiment",
+        "sep1",
+        "prices_stack",
+        "sep2",
+        "fg_stack",
+        "sep3",
+        "market_metrics_stack",
+        "sep4",
+        "narrative_section",
+        "sep5",
+        "emerging_section",
+        "sep6",
+        "fed_section"
+      ]
+    },
+    "sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Risk-Off · Medium Conviction"
+      }
+    },
+    "sep1": {
+      "type": "Separator"
+    },
+    "prices_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "btc_stat",
+        "eth_stat"
+      ]
+    },
+    "btc_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$62,859",
+        "delta": "-1.5%",
+        "trend": "down"
+      }
+    },
+    "eth_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$1,872",
+        "delta": "-1.2%",
+        "trend": "down"
+      }
+    },
+    "sep2": {
+      "type": "Separator"
+    },
+    "fg_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "fg_progress",
+        "fg_status"
+      ]
+    },
+    "fg_progress": {
+      "type": "Progress",
+      "props": {
+        "label": "Fear & Greed Index",
+        "value": 29,
+        "max": 100
+      }
+    },
+    "fg_status": {
+      "type": "Badge",
+      "props": {
+        "text": "Fear",
+        "variant": "destructive"
+      }
+    },
+    "sep3": {
+      "type": "Separator"
+    },
+    "market_metrics_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "breadth_text",
+        "tvl_text",
+        "dex_stat"
+      ]
+    },
+    "breadth_text": {
+      "type": "Text",
+      "props": {
+        "text": "Breadth: 2/20"
+      }
+    },
+    "tvl_text": {
+      "type": "Text",
+      "props": {
+        "text": "TVL chains: flat"
+      }
+    },
+    "dex_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "DEX Volume",
+        "value": "$6.2B",
+        "delta": "+4%",
+        "trend": "up"
+      }
+    },
+    "sep4": {
+      "type": "Separator"
+    },
+    "narrative_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "narrative_heading",
+        "narrative_text"
+      ]
+    },
+    "narrative_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Narrative",
+        "level": "h3"
+      }
+    },
+    "narrative_text": {
+      "type": "Text",
+      "props": {
+        "text": "Privacy/XMR (rising, 5th day)"
+      }
+    },
+    "sep5": {
+      "type": "Separator"
+    },
+    "emerging_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "emerging_heading",
+        "emerging_desc",
+        "emerging_tokens"
+      ]
+    },
+    "emerging_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Emerging Markets",
+        "level": "h3"
+      }
+    },
+    "emerging_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Liquid restaking emerging"
+      }
+    },
+    "emerging_tokens": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "ethfi_stat",
+        "velvet_stat"
+      ]
+    },
+    "ethfi_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "ETHFI",
+        "value": "+14.8%",
+        "trend": "up"
+      }
+    },
+    "velvet_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "VELVET",
+        "value": "+30.5%",
+        "trend": "up"
+      }
+    },
+    "sep6": {
+      "type": "Separator"
+    },
+    "fed_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "fed_heading",
+        "fed_question",
+        "fed_progress",
+        "fed_change"
+      ]
+    },
+    "fed_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Hot Market",
+        "level": "h3"
+      }
+    },
+    "fed_question": {
+      "type": "Text",
+      "props": {
+        "text": "Fed No Change Sep 2026?"
+      }
+    },
+    "fed_progress": {
+      "type": "Progress",
+      "props": {
+        "label": "YES",
+        "value": 71.5,
+        "max": 100
+      }
+    },
+    "fed_change": {
+      "type": "Text",
+      "props": {
+        "text": "+5pp change",
+        "variant": "caption"
+      }
+    }
+  }
+}
