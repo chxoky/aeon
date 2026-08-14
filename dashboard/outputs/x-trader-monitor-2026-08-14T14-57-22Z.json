@@ -1,0 +1,46 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet_card",
+        "view_link",
+        "separator",
+        "interpretation"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "I'm clearly bullish, and I'm clearly posting my analysis, thoughts, and expectations for a market that is constantly moving... Am I still long and holding my spot? Yes. Nothing has changed. Pointing out that a particular scenario could happen while playing a game of probabilities takes absolutely nothing away from my positioning. That's literally what analyzing markets is about."
+      }
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2088276733908717954"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "interpretation": {
+      "type": "Text",
+      "props": {
+        "text": "Reaffirms steady long conviction despite volatility discussion; philosophical defense of his multi-scenario analytical framework.",
+        "variant": "muted"
+      }
+    }
+  }
+}
