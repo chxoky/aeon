@@ -1,0 +1,89 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet",
+        "separator1",
+        "metrics",
+        "separator2",
+        "analysis"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "Wild_Randomness",
+        "text": "$GOLD $SPX\n\nAre you watching? https://t.co/RYGKSD4mpu"
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "metrics": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "ticker_gold",
+        "ticker_spx",
+        "ratio_stat"
+      ]
+    },
+    "ticker_gold": {
+      "type": "Badge",
+      "props": {
+        "text": "$GOLD",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "ticker_spx": {
+      "type": "Badge",
+      "props": {
+        "text": "$SPX",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "ratio_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "XAUUSD/SPX",
+        "value": "0.553",
+        "delta": "Multi-year lows",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis": {
+      "type": "Alert",
+      "props": {
+        "title": "Market Analysis",
+        "message": "Gold severely underperforming equities, validating macro-bear divergence thesis.",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}
