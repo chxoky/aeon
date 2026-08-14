@@ -1,8 +1,8 @@
-🐦 *[X] @Wild_Randomness*
+🔍 *Calibration — @Wild_Randomness*
 
-$IBIT $BTC
+Event: Reply to @airline77681117 on market structure/gap-fill scenario
 
-Peaceful hold
+Wild_Randomness: "Fill the gap and we take it from there"
 
 [View tweet](https://x.com/Wild_Randomness/status/2088270015925788863)
 
@@ -16,3 +16,4 @@ Cross-trader context: HeartCanHodl (2% spot long + 1% short hedge), swarmister (
 [View post](https://x.com/Wild_Randomness/status/2088270835421520345)
 
 Classification: informational-technical (structure confirmation)
+Unable to classify — which asset/timeframe are you referring to?
