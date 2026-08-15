@@ -1,0 +1,40 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_prediction",
+        "badge_status"
+      ]
+    },
+    "heading_prediction": {
+      "type": "Heading",
+      "props": {
+        "text": "BitcoinAstro Support Prediction",
+        "level": "h3"
+      }
+    },
+    "badge_status": {
+      "type": "Badge",
+      "props": {
+        "text": "Validated",
+        "variant": "success"
+      }
+    }
+  }
+}
