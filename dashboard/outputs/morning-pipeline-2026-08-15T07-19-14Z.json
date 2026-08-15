@@ -1,0 +1,175 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "morning-pipeline",
+        "description": "Market context — 2026-08-15"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_take",
+        "stack_risk",
+        "sep_1",
+        "stack_prices_line1",
+        "stack_prices_line2",
+        "sep_2",
+        "heading_narrative",
+        "text_narrative",
+        "sep_3",
+        "alert_usds"
+      ]
+    },
+    "heading_take": {
+      "type": "Heading",
+      "props": {
+        "text": "Take",
+        "level": "h2"
+      }
+    },
+    "stack_risk": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "text_risk",
+        "badge_conviction"
+      ]
+    },
+    "text_risk": {
+      "type": "Text",
+      "props": {
+        "text": "risk-off",
+        "variant": "lead"
+      }
+    },
+    "badge_conviction": {
+      "type": "Badge",
+      "props": {
+        "text": "conviction medium",
+        "variant": "secondary"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "stack_prices_line1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_btc",
+        "stat_eth",
+        "stat_fg"
+      ]
+    },
+    "stat_btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$63,054",
+        "delta": "-0.4%",
+        "trend": "down"
+      }
+    },
+    "stat_eth": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$1,880",
+        "delta": "0.0%",
+        "trend": "neutral"
+      }
+    },
+    "stat_fg": {
+      "type": "Stat",
+      "props": {
+        "label": "Fear & Greed",
+        "value": "34",
+        "delta": "+5pts",
+        "trend": "up"
+      }
+    },
+    "stack_prices_line2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_breadth",
+        "stat_dex",
+        "stat_mcap"
+      ]
+    },
+    "stat_breadth": {
+      "type": "Stat",
+      "props": {
+        "label": "Breadth",
+        "value": "~5/20"
+      }
+    },
+    "stat_dex": {
+      "type": "Stat",
+      "props": {
+        "label": "DEX volume",
+        "value": "$5.61B"
+      }
+    },
+    "stat_mcap": {
+      "type": "Stat",
+      "props": {
+        "label": "Total mcap",
+        "value": "$2.255T",
+        "delta": "+0.2%",
+        "trend": "up"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_narrative": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Narrative",
+        "level": "h2"
+      }
+    },
+    "text_narrative": {
+      "type": "Text",
+      "props": {
+        "text": "alt rotation / VELVET / LINK (rising)",
+        "variant": "body"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "alert_usds": {
+      "type": "Alert",
+      "props": {
+        "title": "USDS Supply Drop",
+        "message": "$9.8B → $6.7B (-$3.1B) — confirm tomorrow",
+        "type": "warning"
+      }
+    }
+  }
+}

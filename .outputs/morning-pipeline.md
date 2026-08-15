@@ -1,10 +1,7 @@
-*Morning Brief — 2026-08-14*
+market context — 2026-08-15
 
-*Focus today*
-1. BTC at $62,877 — why now: ETF outflow broke August streak; $61K trigger next
-2. WR ETH binary — why now: 9 days to Aug 23 resolution from current consolidation
-3. Jackson Hole Aug 27 — why now: Fed no-cut prob rose to 71.5%, dominant ceiling
-
-*Since yesterday*
-- BTC -1.5% to $62,877: hit HCH's declared $62K TP zone; ETF first net-outflow day of August ($61.1M)
-- WR posted bear cycle circle
+take: risk-off (conviction medium)
+BTC $63,054 (-0.4%) / ETH $1,880 (0.0%) · F&G 34 → 29→34 (Fear, +5pts)
+breadth ~5/20 · DEX vol $5.61B · total mcap $2.255T (+0.2%)
+top narrative: alt rotation/VELVET/LINK (rising)
+⚠ USDS supply drop: $9.8B→$6.7B (-$3.1B) — confirm tomorrow
