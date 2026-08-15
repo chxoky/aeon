@@ -1,0 +1,259 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-08-15"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "section-focus",
+        "sep-1",
+        "section-since",
+        "sep-2",
+        "section-watch",
+        "sep-3",
+        "section-running"
+      ]
+    },
+    "section-focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-focus",
+        "focus-1",
+        "focus-2",
+        "focus-3"
+      ]
+    },
+    "heading-focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "focus-1": {
+      "type": "Text",
+      "props": {
+        "text": "traders.md compaction — why now: OVERSIZE recurring; Sunday auto-compact is 4 days away",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "focus-2": {
+      "type": "Text",
+      "props": {
+        "text": "WR ETH binary — why now: ETH $1,880 below $1,896 pivot; WR adding vol pressure this morning",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "focus-3": {
+      "type": "Text",
+      "props": {
+        "text": "BTC group bearish at $63K — why now: Stoiiic 60K target live; HCH net-short; one leg from $62.8K support",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-since": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-since",
+        "since-1",
+        "since-2",
+        "since-3",
+        "since-4",
+        "since-5"
+      ]
+    },
+    "heading-since": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "since-1": {
+      "type": "Text",
+      "props": {
+        "text": "[moved] PUMP −3.6% and INJ −8.2% — HCH shorts going in thesis direction",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "since-2": {
+      "type": "Text",
+      "props": {
+        "text": "[moved] LINK BREAKOUT +7.2%: only major-cap bid today; oracle narrative leads market-context",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "since-3": {
+      "type": "Text",
+      "props": {
+        "text": "[moved] F&G +5pts to 34 (chop); breadth recovered 6/20 from risk-off 3/20",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "since-4": {
+      "type": "Text",
+      "props": {
+        "text": "[moved] swarmister: \"placed trades on my birthday\" — truncated tweet (07:08 UTC); HR-2 calibration pending",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "since-5": {
+      "type": "Text",
+      "props": {
+        "text": "[stuck] trading_axe @beaver calibration: awaiting Kyle context (sent Aug 14 ~21:10 UTC)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-watch",
+        "watch-1"
+      ]
+    },
+    "heading-watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "watch-1": {
+      "type": "Text",
+      "props": {
+        "text": "Chainlink prediction markets $40B vol milestone (Aug 13, Data Streams) + Standard Chartered $200 2030 target → structural backing for LINK bid; watch for trader commentary rotation into oracles",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-running",
+        "running-1",
+        "running-2",
+        "running-3",
+        "running-4",
+        "running-5",
+        "running-6"
+      ]
+    },
+    "heading-running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "running-1": {
+      "type": "Text",
+      "props": {
+        "text": "token-alert @ 12:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "running-2": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "running-3": {
+      "type": "Text",
+      "props": {
+        "text": "market-context-refresh @ 13:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "running-4": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "running-5": {
+      "type": "Text",
+      "props": {
+        "text": "skill-health @ 18:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "running-6": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 08:00 / 14:00 / 20:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
