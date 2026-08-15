@@ -1,0 +1,43 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X-Trader-Monitor: @KillaXBT Trading Strategy"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "link-post"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "Very important post... $BTC\n\nDeploying leveraged DCA strategy across sub-accounts alongside 2X swing long (62.6K entry). Strategy: 10x entries at 62.6K, 57.1K, 51.6K with liquidation zones acting as triggers for next entries. Chart shows liquidation levels; PnL offsets losses if earlier entries invalidated.\n\nFully allocated in spot + 2x swing long 62.6K + sub-account multi-entry DCA structure."
+      },
+      "children": []
+    },
+    "link-post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/KillaXBT/status/2088606677553566053"
+      },
+      "children": []
+    }
+  }
+}
