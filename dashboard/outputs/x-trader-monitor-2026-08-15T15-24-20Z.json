@@ -1,0 +1,144 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "main-stack"
+      ]
+    },
+    "main-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "separator",
+        "context-section",
+        "metrics-section",
+        "link"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "We have 50 days left of this $BTC bear market."
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "context-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context-label",
+        "context-text"
+      ]
+    },
+    "context-label": {
+      "type": "Text",
+      "props": {
+        "text": "Chart Context:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "context-text": {
+      "type": "Text",
+      "props": {
+        "text": "Chart shows BTC's multi-year cycle structure — current price action aligns with cycle-completion window per KillaXBT's analysis.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "metrics-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "metrics-label",
+        "metrics-grid"
+      ]
+    },
+    "metrics-label": {
+      "type": "Text",
+      "props": {
+        "text": "Key Metrics:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "metrics-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "bear-timeline",
+        "accumulation-stat",
+        "bull-thesis-stat",
+        "cycle-timeline"
+      ]
+    },
+    "bear-timeline": {
+      "type": "Stat",
+      "props": {
+        "label": "Bear Market Remaining",
+        "value": "50 days"
+      },
+      "children": []
+    },
+    "accumulation-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Accumulation Range",
+        "value": "$57K"
+      },
+      "children": []
+    },
+    "bull-thesis-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Structural Bull Target",
+        "value": "$160K"
+      },
+      "children": []
+    },
+    "cycle-timeline": {
+      "type": "Stat",
+      "props": {
+        "label": "Cycle Timeline",
+        "value": "2.5 years"
+      },
+      "children": []
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View post on X",
+        "href": "https://x.com/KillaXBT/status/2088647075344912552"
+      },
+      "children": []
+    }
+  }
+}

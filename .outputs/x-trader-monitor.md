@@ -1,11 +1,7 @@
-🐦 *[X] @Crypto_Chase*
+🐦 *[X] @KillaXBT*
 
-Knowing when not to trade is equally important as knowing when to put your foot on the gas.
+We have 50 days left of this $BTC bear market.
 
-Since early 2026 I've been on a strong win streak. Many wins on Gold, Google, Apple, Sandisk, Micron, and more.
+_Chart shows BTC's multi-year cycle structure — current price action aligns with cycle-completion window per KillaXBT's 57K accumulation range + 2.5yr 160K structural bull thesis._
 
-Past 2 weeks... things just look weird to me. Patience until clearer read.
-
-[View tweet](https://x.com/Crypto_Chase/status/2088641963939461022)
-
-↳ _Win-streak-to-caution shift; market weirdness observation aligns with broader group consolidation patience stance (HCH net-short, KillaXBT structural bull but range-bound, WR macro bear setup). SNDK/MU recent major wins now TP'd; GOLD watching setup levels. Sentiment: strong discipline affirmation + patient stance into unclear conditions._
+[View post](https://x.com/KillaXBT/status/2088647075344912552)
