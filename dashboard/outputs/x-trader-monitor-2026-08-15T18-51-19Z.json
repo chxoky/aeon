@@ -1,0 +1,171 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Account monitored: Wild_Randomness"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "heading_event",
+        "tweet_card",
+        "text_media_details",
+        "sep_1",
+        "heading_classification",
+        "stack_classification",
+        "sep_2",
+        "heading_summary",
+        "text_summary",
+        "sep_3",
+        "heading_status",
+        "badge_status"
+      ]
+    },
+    "heading_event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event: Meme post — Stan Druckenmiller quote",
+        "level": "h2"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "text": "But one chart definitely looks better than the other"
+      }
+    },
+    "text_media_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_tweet_id",
+        "text_media"
+      ]
+    },
+    "text_tweet_id": {
+      "type": "Text",
+      "props": {
+        "text": "Tweet ID: 2088699324507271258",
+        "variant": "caption"
+      }
+    },
+    "text_media": {
+      "type": "Text",
+      "props": {
+        "text": "Media: Motivational quote meme (\"Sometimes the idea comes from the charts\")",
+        "variant": "caption"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_classification": {
+      "type": "Heading",
+      "props": {
+        "text": "Classification & Alert",
+        "level": "h2"
+      }
+    },
+    "stack_classification": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stack_badges",
+        "text_reason"
+      ]
+    },
+    "stack_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_skip",
+        "badge_alert"
+      ]
+    },
+    "badge_skip": {
+      "type": "Badge",
+      "props": {
+        "text": "SKIP",
+        "variant": "outline"
+      }
+    },
+    "badge_alert": {
+      "type": "Badge",
+      "props": {
+        "text": "Alert Sent: No",
+        "variant": "secondary"
+      }
+    },
+    "text_reason": {
+      "type": "Text",
+      "props": {
+        "text": "Reason: non-financial banter/meme"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_summary": {
+      "type": "Heading",
+      "props": {
+        "text": "Summary",
+        "level": "h2"
+      }
+    },
+    "text_summary": {
+      "type": "Text",
+      "props": {
+        "text": "This is a humorous meme post, not a market signal. Per Step 4A protocol, non-financial content (memes, banter) are logged silently with no alert. Trader continues focus on macro bear \"Jump the Shark\" thesis; this meme shares generic trading wisdom but no actionable insight.",
+        "variant": "body"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_status": {
+      "type": "Heading",
+      "props": {
+        "text": "Status",
+        "level": "h2"
+      }
+    },
+    "badge_status": {
+      "type": "Badge",
+      "props": {
+        "text": "Event processed and logged",
+        "variant": "default"
+      }
+    }
+  }
+}
