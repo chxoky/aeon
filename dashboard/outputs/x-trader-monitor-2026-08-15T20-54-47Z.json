@@ -1,0 +1,52 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweetcard",
+        "link",
+        "commentary"
+      ]
+    },
+    "tweetcard": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "@bullTat2 2018 is simply not comparable to now. BTC had a $70–80B market cap.\n\nNow, it's sitting at $1.2T, with a peak of 2.5T. Its 15x bigger even at 63K."
+      },
+      "children": []
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2088730023008059481"
+      },
+      "children": []
+    },
+    "commentary": {
+      "type": "Text",
+      "props": {
+        "text": "Reinforces macro structural bull conviction — market cap growth validates 2.5yr 160K dump target thesis.",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
