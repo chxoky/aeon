@@ -1,0 +1,61 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "💬 Discord: Chase — TradFi"
+      },
+      "children": [
+        "tweet_quote",
+        "sep1",
+        "stack_analysis"
+      ]
+    },
+    "tweet_quote": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Chase",
+        "handle": "TradFi",
+        "text": "If I remember right, earnings fucked my thought process on that. Should have just trusted the chart"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_analysis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_lesson",
+        "text_discipline",
+        "text_chart"
+      ]
+    },
+    "text_lesson": {
+      "type": "Text",
+      "props": {
+        "text": "Retail psychology lesson: emotional reactions to earnings headlines override technical conviction."
+      }
+    },
+    "text_discipline": {
+      "type": "Text",
+      "props": {
+        "text": "Trader affirming discipline: price/structure > narrative noise."
+      }
+    },
+    "text_chart": {
+      "type": "Text",
+      "props": {
+        "text": "Chart attachment validates chart-read accuracy."
+      }
+    }
+  }
+}
