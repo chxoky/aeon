@@ -1,0 +1,476 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Token Movers — 2026-08-15",
+        "description": "Mixed — BTC +0.3% flat, ~60% of filtered top-100 green with median ~+0.8%; large-caps quiet while mid/low-cap breakouts (COW +63%, CYS +41%) dominate the session."
+      },
+      "children": [
+        "summary-stack",
+        "separator-1",
+        "winners-section",
+        "separator-2",
+        "losers-section",
+        "separator-3",
+        "trending-section",
+        "separator-4",
+        "notable-section"
+      ]
+    },
+    "summary-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat-btc",
+        "stat-green",
+        "stat-median"
+      ]
+    },
+    "stat-btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "+0.3%",
+        "trend": "neutral"
+      }
+    },
+    "stat-green": {
+      "type": "Stat",
+      "props": {
+        "label": "Top-100 Green",
+        "value": "~60%",
+        "trend": "up"
+      }
+    },
+    "stat-median": {
+      "type": "Stat",
+      "props": {
+        "label": "Median Change",
+        "value": "+0.8%",
+        "trend": "up"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "winners-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "winners-heading",
+        "winners-table"
+      ]
+    },
+    "winners-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Winners (24h)",
+        "level": "h2"
+      }
+    },
+    "winners-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Price",
+          "24h %",
+          "7d %",
+          "1h %",
+          "Market Cap / Rank",
+          "Status"
+        ],
+        "rows": [
+          [
+            "COW (CoW Protocol)",
+            "$0.1873",
+            "+63.5%",
+            "+52.2%",
+            "+2.0%",
+            "$82.1M / #242",
+            "PUMP-RISK TRENDING+UP"
+          ],
+          [
+            "CYS (Cysic)",
+            "$1.43",
+            "+41.2%",
+            "+51.9%",
+            "−3.1%",
+            "$50.5M / #148",
+            "BREAKOUT"
+          ],
+          [
+            "ANSEM (The Black Bull)",
+            "$0.2523",
+            "+34.6%",
+            "+29.7%",
+            "−3.0%",
+            "$19.1M / #244",
+            "PUMP-RISK TRENDING+UP"
+          ],
+          [
+            "TIBBIR (Ribbita by Virtuals)",
+            "$0.1774",
+            "+22.8%",
+            "+79.5%",
+            "+4.3%",
+            "$2.7M / #171",
+            "BREAKOUT"
+          ],
+          [
+            "H (Humanity)",
+            "$0.1343",
+            "+19.3%",
+            "+65.7%",
+            "−4.6%",
+            "$21.5M / #134",
+            "BREAKOUT"
+          ],
+          [
+            "VELVET (Velvet)",
+            "$1.15",
+            "+15.4%",
+            "+151.3%",
+            "+2.9%",
+            "$48.8M / #98",
+            "BREAKOUT"
+          ],
+          [
+            "AKE (Akedo)",
+            "$0.01008",
+            "+13.6%",
+            "+153.4%",
+            "+0.2%",
+            "$78.4M / #144",
+            ""
+          ],
+          [
+            "ETHFI (Ether.fi)",
+            "$0.4788",
+            "+10.9%",
+            "+26.4%",
+            "+1.4%",
+            "$59.5M / #101",
+            ""
+          ],
+          [
+            "JTO (Jito)",
+            "$0.5811",
+            "+8.0%",
+            "+20.7%",
+            "−0.7%",
+            "$29.2M / #124",
+            ""
+          ],
+          [
+            "OKB (OKB)",
+            "$108.0",
+            "+6.7%",
+            "+16.4%",
+            "−0.4%",
+            "$64.5M / #38",
+            ""
+          ]
+        ]
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "losers-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "losers-heading",
+        "losers-table"
+      ]
+    },
+    "losers-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Losers (24h)",
+        "level": "h2"
+      }
+    },
+    "losers-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Price",
+          "24h %",
+          "7d %",
+          "1h %",
+          "Market Cap / Rank",
+          "Status"
+        ],
+        "rows": [
+          [
+            "BEAT (Audiera)",
+            "$0.459",
+            "−27.6%",
+            "−81.5%",
+            "−2.6%",
+            "$38.3M / #189",
+            "CAPITULATION"
+          ],
+          [
+            "TAG (TAGGER)",
+            "$0.001025",
+            "−17.4%",
+            "−20.0%",
+            "−2.8%",
+            "$6.2M / #240",
+            ""
+          ],
+          [
+            "2Z (DoubleZero)",
+            "$0.04915",
+            "−13.0%",
+            "−10.8%",
+            "+0.4%",
+            "$15.3M / #176",
+            ""
+          ],
+          [
+            "CASHCAT (Cash Cat)",
+            "$0.1214",
+            "−12.6%",
+            "+25.8%",
+            "−0.6%",
+            "$5.9M / #225",
+            ""
+          ],
+          [
+            "INJ (Injective)",
+            "$4.18",
+            "−6.6%",
+            "−4.9%",
+            "−0.6%",
+            "$63.7M / #105",
+            ""
+          ],
+          [
+            "KAITO (KAITO)",
+            "$0.3896",
+            "−4.5%",
+            "−45.4%",
+            "+0.5%",
+            "$31.8M / #270",
+            ""
+          ],
+          [
+            "UNI (Uniswap)",
+            "$3.25",
+            "−3.9%",
+            "−18.4%",
+            "−0.2%",
+            "$198.2M / #41",
+            ""
+          ],
+          [
+            "LEO (LEO Token)",
+            "$8.86",
+            "−3.8%",
+            "−8.9%",
+            "−0.2%",
+            "$1.3M / #15",
+            ""
+          ],
+          [
+            "FET (ASI Alliance)",
+            "$0.1319",
+            "−3.3%",
+            "−4.7%",
+            "−0.3%",
+            "$43.3M / #126",
+            ""
+          ],
+          [
+            "BDX (Beldex)",
+            "$0.08487",
+            "−3.0%",
+            "−8.1%",
+            "+1.3%",
+            "$13.9M / #87",
+            ""
+          ]
+        ]
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "trending-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "trending-heading",
+        "trending-table"
+      ]
+    },
+    "trending-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending",
+        "level": "h2"
+      }
+    },
+    "trending-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Rank",
+          "Price",
+          "24h %",
+          "Status"
+        ],
+        "rows": [
+          [
+            "COW (CoW Protocol)",
+            "#242",
+            "$0.1873",
+            "+63.5%",
+            "PUMP-RISK TRENDING+UP"
+          ],
+          [
+            "ANSEM (The Black Bull)",
+            "#244",
+            "$0.2523",
+            "+34.6%",
+            "PUMP-RISK TRENDING+UP"
+          ],
+          [
+            "PENGU (Pudgy Penguins)",
+            "#109",
+            "$0.006011",
+            "−1.1%",
+            ""
+          ],
+          [
+            "KII (KiiChain)",
+            "#724",
+            "$0.06664",
+            "0.0%",
+            ""
+          ],
+          [
+            "SUI (Sui)",
+            "#31",
+            "$0.6815",
+            "+1.1%",
+            ""
+          ],
+          [
+            "LINK (Chainlink)",
+            "#17",
+            "$9.41",
+            "+5.8%",
+            "MAJOR TRENDING+UP"
+          ],
+          [
+            "PUMP (Pump.fun)",
+            "#64",
+            "$0.002769",
+            "−3.4%",
+            ""
+          ]
+        ]
+      }
+    },
+    "separator-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "notable-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "notable-heading",
+        "notable-stack"
+      ]
+    },
+    "notable-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h2"
+      }
+    },
+    "notable-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "notable-1",
+        "notable-2",
+        "notable-3",
+        "notable-4"
+      ]
+    },
+    "notable-1": {
+      "type": "Alert",
+      "props": {
+        "title": "COW (CoW Protocol)",
+        "message": "Trending + up 63.5% on $82.1M volume — rank 242. High manipulation probability.",
+        "type": "warning"
+      }
+    },
+    "notable-2": {
+      "type": "Alert",
+      "props": {
+        "title": "CYS (Cysic)",
+        "message": "Rank 148 sustained breakout +41.2% / 7d +51.9% — ZK-prover narrative. Strongest validated mid-cap signal in session.",
+        "type": "success"
+      }
+    },
+    "notable-3": {
+      "type": "Alert",
+      "props": {
+        "title": "BEAT (Audiera)",
+        "message": "Rank 189, −27.6% / 7d −81.5%, vol/mcap 25%+ — Capitulation. Falling knife territory.",
+        "type": "error"
+      }
+    },
+    "notable-4": {
+      "type": "Alert",
+      "props": {
+        "title": "ACE (Fusionist)",
+        "message": "Morning's +91.8% PUMP-RISK → now −24.28% still trending. Textbook post-pump dump in progress.",
+        "type": "warning"
+      }
+    }
+  }
+}
