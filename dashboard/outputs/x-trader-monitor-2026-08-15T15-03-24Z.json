@@ -1,0 +1,60 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "main_stack"
+      ]
+    },
+    "main_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "view_link",
+        "separator_1",
+        "analysis_text"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Crypto_Chase",
+        "handle": "@Crypto_Chase",
+        "text": "Knowing when not to trade is equally important as knowing when to put your foot on the gas. Since early 2026 I've been on a strong win streak. Many wins on Gold, Google, Apple, Sandisk, Micron, and more. Past 2 weeks... things just look weird to me. Patience until clearer read."
+      },
+      "children": []
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Crypto_Chase/status/2088641963939461022"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "↳ Win-streak-to-caution shift; market weirdness observation aligns with broader group consolidation patience stance (HCH net-short, KillaXBT structural bull but range-bound, WR macro bear setup). SNDK/MU recent major wins now TP'd; GOLD watching setup levels. Sentiment: strong discipline affirmation + patient stance into unclear conditions.",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
