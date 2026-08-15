@@ -1,0 +1,265 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "market context — 2026-08-15"
+      },
+      "children": [
+        "assessment_stack",
+        "sep1",
+        "prices_stack",
+        "sep2",
+        "metrics_stack",
+        "sep3",
+        "narratives_stack",
+        "sep4",
+        "hot_market_stack"
+      ]
+    },
+    "assessment_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "take_text",
+        "chop_badge",
+        "conviction_text"
+      ]
+    },
+    "take_text": {
+      "type": "Text",
+      "props": {
+        "text": "take:",
+        "variant": "body"
+      }
+    },
+    "chop_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "chop",
+        "variant": "default"
+      }
+    },
+    "conviction_text": {
+      "type": "Text",
+      "props": {
+        "text": "conviction medium",
+        "variant": "caption"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "prices_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "btc_stat",
+        "eth_stat",
+        "fg_stat"
+      ]
+    },
+    "btc_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$63,015",
+        "delta": "+0.66%",
+        "trend": "up"
+      }
+    },
+    "eth_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$1,882",
+        "delta": "+0.68%",
+        "trend": "up"
+      }
+    },
+    "fg_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "F&G",
+        "value": "34",
+        "delta": "Fear"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "metrics_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "breadth_stat",
+        "tvl_stat",
+        "dex_vol_stat"
+      ]
+    },
+    "breadth_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "breadth",
+        "value": "11/20"
+      }
+    },
+    "tvl_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "TVL",
+        "value": "flat"
+      }
+    },
+    "dex_vol_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "DEX vol",
+        "value": "$5.57B",
+        "delta": "-0.5%",
+        "trend": "down"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "narratives_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "top_narrative_row",
+        "emerging_row"
+      ]
+    },
+    "top_narrative_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "top_narrative_label",
+        "link_badge",
+        "ethfi_badge"
+      ]
+    },
+    "top_narrative_label": {
+      "type": "Text",
+      "props": {
+        "text": "top narrative:",
+        "variant": "body"
+      }
+    },
+    "link_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "oracle/LINK rising (day 3)",
+        "variant": "secondary"
+      }
+    },
+    "ethfi_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "ETHFI rising (day 4, +12%)",
+        "variant": "secondary"
+      }
+    },
+    "emerging_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "emerging_label",
+        "cow_badge"
+      ]
+    },
+    "emerging_label": {
+      "type": "Text",
+      "props": {
+        "text": "emerging:",
+        "variant": "body"
+      }
+    },
+    "cow_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "COW +77% (day-1, unconfirmed)",
+        "variant": "outline"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "hot_market_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "hot_market_header",
+        "market_details"
+      ]
+    },
+    "hot_market_header": {
+      "type": "Text",
+      "props": {
+        "text": "hot market:",
+        "variant": "lead"
+      }
+    },
+    "market_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "fed_market_badge",
+        "fed_odds_stat"
+      ]
+    },
+    "fed_market_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Fed No Change Sep 2026",
+        "variant": "default"
+      }
+    },
+    "fed_odds_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "YES",
+        "value": "71.5%"
+      }
+    }
+  }
+}
