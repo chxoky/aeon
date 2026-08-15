@@ -1,0 +1,50 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_content",
+        "tweet_link",
+        "separator_1",
+        "validation_note"
+      ]
+    },
+    "tweet_content": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "bitcoin:native\n\nPOC is sitting at 64K. Volume is increasing at the lows after a macro pullback inside a tightly compressed range.\n\nThat is accumulation. Full stop. Not speculation. Volume is one of the most important metrics for understanding exactly what is happening around a specific price region.\n\nDuring distribution, volume expands at the highs as positions are built and unloaded. Vice versa at the lows during accumulation.\n\nThis is standard market structure. The volume is telling you what is happening in real time. 🤟"
+      },
+      "children": []
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2088685988381852020"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "validation_note": {
+      "type": "Text",
+      "props": {
+        "text": "Chart validates: 64K POC with strong volume bar accumulation at lows (vs prior distribution at 120K+ highs). Reinforces structural bull accumulation thesis.",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
