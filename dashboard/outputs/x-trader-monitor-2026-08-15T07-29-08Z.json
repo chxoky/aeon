@@ -1,0 +1,121 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Swarmister SNDK Position Validation"
+      },
+      "children": [
+        "heading_performance",
+        "stack_stats",
+        "separator1",
+        "heading_status",
+        "stack_convergence",
+        "separator2",
+        "alert_action"
+      ]
+    },
+    "heading_performance": {
+      "type": "Heading",
+      "props": {
+        "text": "Performance",
+        "level": "h2"
+      }
+    },
+    "stack_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_return",
+        "stat_remainder",
+        "stat_target",
+        "text_entry"
+      ]
+    },
+    "stat_return": {
+      "type": "Stat",
+      "props": {
+        "label": "1W Return",
+        "value": "+46.44%",
+        "trend": "up"
+      }
+    },
+    "stat_remainder": {
+      "type": "Stat",
+      "props": {
+        "label": "Active Remainder",
+        "value": "70%"
+      }
+    },
+    "stat_target": {
+      "type": "Stat",
+      "props": {
+        "label": "Target Price",
+        "value": "1900"
+      }
+    },
+    "text_entry": {
+      "type": "Text",
+      "props": {
+        "text": "Aug 13 entry",
+        "variant": "caption"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_status": {
+      "type": "Heading",
+      "props": {
+        "text": "Status",
+        "level": "h2"
+      }
+    },
+    "stack_convergence": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_convergence",
+        "badge_confirmed"
+      ]
+    },
+    "text_convergence": {
+      "type": "Text",
+      "props": {
+        "text": "Cross-trader SNDK convergence confirmed (5-trader thesis)"
+      }
+    },
+    "badge_confirmed": {
+      "type": "Badge",
+      "props": {
+        "text": "CONFIRMED",
+        "variant": "default"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_action": {
+      "type": "Alert",
+      "props": {
+        "title": "Action Status",
+        "message": "No new action required",
+        "type": "info"
+      }
+    }
+  }
+}
