@@ -22,3 +22,4 @@
 9. ✅ Daily log entry appended (memory/logs/2026-08-15.md)
 
 **Result:** Event processed successfully. No Telegram alert sent per Step 7 protocol — supporting-channel member Q&A responses without new convictions or trade executions are logged for audit but do not require Kyle notification. Memory and audit trail updated.
+❌ discord-trader-monitor: Base64 payload corrupted (message_id: 1537982428843483136 from crypto_chase, Chase—Crypto channel). Unable to decode event. Processing halted.

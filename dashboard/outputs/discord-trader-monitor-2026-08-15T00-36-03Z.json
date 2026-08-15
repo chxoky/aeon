@@ -1,0 +1,23 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "alert-error"
+      ]
+    },
+    "alert-error": {
+      "type": "Alert",
+      "props": {
+        "type": "error",
+        "title": "❌ Base64 payload corrupted",
+        "message": "message_id: 1537982428843483136 from crypto_chase, Chase—Crypto channel. Unable to decode event. Processing halted."
+      }
+    }
+  }
+}
