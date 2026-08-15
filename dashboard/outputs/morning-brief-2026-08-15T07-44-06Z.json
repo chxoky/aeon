@@ -1,0 +1,308 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-08-15"
+      },
+      "children": [
+        "heading_focus",
+        "stack_focus",
+        "sep1",
+        "heading_since",
+        "stack_since",
+        "sep2",
+        "heading_watch",
+        "stack_watch",
+        "sep3",
+        "heading_running",
+        "stack_running"
+      ]
+    },
+    "heading_focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack_focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_focus_1",
+        "text_focus_2",
+        "text_focus_3"
+      ]
+    },
+    "text_focus_1": {
+      "type": "Text",
+      "props": {
+        "text": "1. swarmister birthday trades — execution claim in truncated tweet; SNDK 70% active; Kyle response needed now"
+      },
+      "children": []
+    },
+    "text_focus_2": {
+      "type": "Text",
+      "props": {
+        "text": "2. traders.md compaction — OVERSIZE threshold hit 3× since yesterday; auto-compact runs tomorrow 20:00 UTC"
+      },
+      "children": []
+    },
+    "text_focus_3": {
+      "type": "Text",
+      "props": {
+        "text": "3. WR ETH binary — ETH $1,880 vs $1,896 break; WR vol-divergence posts live this AM; Aug 23 deadline"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_since": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack_since": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item_since_1",
+        "item_since_2",
+        "item_since_3",
+        "item_since_4"
+      ]
+    },
+    "item_since_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_moved_1",
+        "text_since_1"
+      ]
+    },
+    "badge_moved_1": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text_since_1": {
+      "type": "Text",
+      "props": {
+        "text": "BTC $63,043 (-0.4%), F&G jumped 29→34; breadth 5-6/20; weekend chop"
+      },
+      "children": []
+    },
+    "item_since_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_moved_2",
+        "text_since_2"
+      ]
+    },
+    "badge_moved_2": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text_since_2": {
+      "type": "Text",
+      "props": {
+        "text": "LINK +7.2% 24h / +13.9% 7d — Oracle narrative top story; Standard Chartered $200 2030 target"
+      },
+      "children": []
+    },
+    "item_since_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_moved_3",
+        "text_since_3"
+      ]
+    },
+    "badge_moved_3": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text_since_3": {
+      "type": "Text",
+      "props": {
+        "text": "swarmister +46.44% 1W validated — SNDK long thesis working (70% active, $1,900 target)"
+      },
+      "children": []
+    },
+    "item_since_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_stuck",
+        "text_since_4"
+      ]
+    },
+    "badge_stuck": {
+      "type": "Badge",
+      "props": {
+        "text": "stuck",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "text_since_4": {
+      "type": "Text",
+      "props": {
+        "text": "RESEND_API_KEY not in chain context — email skipping since Aug 14"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack_watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_watch_1"
+      ]
+    },
+    "text_watch_1": {
+      "type": "Text",
+      "props": {
+        "text": "LINK structural bid confirmed (Chainlink prediction-market $40B vol milestone + Standard Chartered target) — Oracle/DeFi infra breakout on a bearish tape; implication for focus #3"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack_running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_running_1",
+        "text_running_2",
+        "text_running_3",
+        "text_running_4",
+        "text_running_5",
+        "text_running_6"
+      ]
+    },
+    "text_running_1": {
+      "type": "Text",
+      "props": {
+        "text": "token-alert @ 12:00 UTC",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "text_running_2": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "text_running_3": {
+      "type": "Text",
+      "props": {
+        "text": "market-context-refresh @ 13:00 UTC",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "text_running_4": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "text_running_5": {
+      "type": "Text",
+      "props": {
+        "text": "skill-health @ 18:00 UTC",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "text_running_6": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 08:00, 14:00, 20:00 UTC",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
