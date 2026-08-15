@@ -1,0 +1,85 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "ticker_badge",
+        "sep1",
+        "tweet",
+        "sep2",
+        "technical_data"
+      ]
+    },
+    "ticker_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "$NVDA",
+        "variant": "default"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Running it up before earnings? https://x.com/Wild_Randomness/status/2088416210933498327"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "technical_data": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "price_stat",
+        "volume_stat",
+        "analysis_text",
+        "note_text"
+      ]
+    },
+    "price_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "12-day technical rally",
+        "value": "~$195 → $225.16",
+        "delta": "+15.5%",
+        "trend": "up"
+      }
+    },
+    "volume_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume",
+        "value": "75.64M"
+      }
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Strong volume. Longer timeframe consolidation break; setup positioned into earnings catalyst window.",
+        "variant": "body"
+      }
+    },
+    "note_text": {
+      "type": "Text",
+      "props": {
+        "text": "Kyle's watchlist ticker. No personal action signal — informational technical observation.",
+        "variant": "caption"
+      }
+    }
+  }
+}
