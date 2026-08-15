@@ -643,6 +643,7 @@
   - Aug 13 15:20Z — informational-conditional-tp: DC Chase "SNDK trim at 1527~ if it comes, will be 90% closed" — conditional TP guidance setting next tier exit target at $1527 level, targeting 90% cumulative close (currently 80% TP'd from Aug 04, adding 10% tranche if price target hit); no execution language yet (conditional setup guidance); primary-channel real-time; alerted [$SNDK] [1537480914869682196]
   - Aug 10 21:50Z — ambiguous: DC primary "chart image, no text caption" — asset/thesis unclear; HR-2 calibration pending [$UNKNOWN] [1536491906362638386]
   - Aug 14 15:54Z — ambiguous-technical-image: DC TradFi chart-only; Gold (GC2026) 1H structure showing 3600→5200 rally (late 2026) + correction to 4450 consolidation/support level; no text explanation or personal execution language; unable to classify intent (technical analysis, position validation, market observation unclear); HR-2 calibration alert sent to Kyle [$XAU] [1537851963058819112]
+  - Aug 15 00:09Z — non-financial-skip: DC Chase "$50 giveaway winners, 1 from likes 1 from comments"; engagement reward announcement, no trade signal; silent skip per HR-1 [1537976531685474444]
 
 ## Stoiiic
 - Platforms: X (primary)
