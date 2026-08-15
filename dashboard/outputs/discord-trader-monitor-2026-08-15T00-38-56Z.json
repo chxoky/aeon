@@ -1,0 +1,112 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor"
+      },
+      "children": [
+        "calibration",
+        "sep1",
+        "channel_info",
+        "timestamp_info",
+        "sep2",
+        "message_header",
+        "message_card",
+        "sep3",
+        "context_header",
+        "context_text",
+        "sep4",
+        "classification_alert",
+        "sep5",
+        "message_id"
+      ]
+    },
+    "calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: Chase — Crypto]",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "channel_info": {
+      "type": "Badge",
+      "props": {
+        "text": "Channel: Chase — Crypto (supporting, member Q&A zone)",
+        "variant": "secondary"
+      }
+    },
+    "timestamp_info": {
+      "type": "Text",
+      "props": {
+        "text": "Timestamp: 2026-08-15T00:36:20Z",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "message_header": {
+      "type": "Heading",
+      "props": {
+        "text": "Message",
+        "level": "h3"
+      }
+    },
+    "message_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Chase — Crypto member",
+        "text": "But I certainly don't think it's harmful"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "context_header": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "Standalone message with no referenced_message or prior Discord context. Appears to be dismissing/responding to a member concern, but the subject matter is unknown (could be crypto asset, regulation, trading strategy, etc.).",
+        "variant": "body"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "classification_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify without context",
+        "message": "What's your read?",
+        "type": "info"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {}
+    },
+    "message_id": {
+      "type": "Badge",
+      "props": {
+        "text": "[Message ID: 1537983245671465074]",
+        "variant": "outline"
+      }
+    }
+  }
+}
