@@ -1,0 +1,64 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor - BTC Analysis"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ticker_badge",
+        "tweet_card",
+        "separator_1",
+        "mayer_note",
+        "link_tweet"
+      ]
+    },
+    "ticker_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "$BTC",
+        "variant": "default"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "We're currently trading above the green 0.8 level after deviating below it.\n\nLooking back at 2022, BTC also deviated below this level before reclaiming it. The key confirmation came when price flipped the 200DMA, and that's when the bull market began.\n\nRight now, the 200DMA sits around 69.5k.\n\nSo, literally, all we have to do is wait for BTC to flip and reclaim the blue 200DMA.\n\nOnce that happens, the market has officially flipped, and we're in a bull market."
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "mayer_note": {
+      "type": "Text",
+      "props": {
+        "text": "Mayer Multiple chart shows current price at 0.8-1.0 level — consolidation awaiting 200DMA retest confirmation.",
+        "variant": "caption"
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2088577116799459404"
+      }
+    }
+  }
+}
