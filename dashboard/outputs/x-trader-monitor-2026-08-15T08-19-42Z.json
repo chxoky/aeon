@@ -1,0 +1,61 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @swarmister"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_event",
+        "text_quote",
+        "text_analysis",
+        "link_post"
+      ]
+    },
+    "heading_event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event: Reply to @0xTrenchor",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text_quote": {
+      "type": "Text",
+      "props": {
+        "text": "swarmister: \"Ikyk\"",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text_analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read? Is this financial commentary, or non-signal banter? No context visible in the reply chain.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "link_post": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View post",
+        "href": "https://x.com/swarmister/status/2088540088401535218",
+        "source": "X (Twitter)"
+      },
+      "children": []
+    }
+  }
+}
