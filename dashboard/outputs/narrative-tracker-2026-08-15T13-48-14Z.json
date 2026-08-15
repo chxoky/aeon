@@ -1,0 +1,853 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-08-15"
+      },
+      "children": [
+        "baseline_alert",
+        "sep1",
+        "transitions_section",
+        "sep2",
+        "reflexivity_section",
+        "sep3",
+        "positions_section",
+        "sep4",
+        "map_section"
+      ]
+    },
+    "baseline_alert": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "BASELINE RUN",
+        "message": "First narrative-tracker log entry in 3-day window. Phase calls are current-state; transitions inferred from market data + trader logs, not prior tracker diffs."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "transitions_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "transitions_heading",
+        "new_subsection",
+        "promoted_subsection",
+        "dead_subsection"
+      ]
+    },
+    "transitions_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      }
+    },
+    "new_subsection": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "new_heading",
+        "new_link_revival",
+        "new_vol_expansion",
+        "new_zk_provers"
+      ]
+    },
+    "new_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "NEW",
+        "level": "h3"
+      }
+    },
+    "new_link_revival": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_revival_title",
+        "link_revival_text"
+      ]
+    },
+    "link_revival_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Oracle / LINK Revival",
+        "level": "h4"
+      }
+    },
+    "link_revival_text": {
+      "type": "Text",
+      "props": {
+        "text": "Chainlink $40B prediction-market vol milestone + Standard Chartered $200 2030 target; LINK +7.2% 24h / +13.9% 7d / day-3 run; top narrative in today's market-context",
+        "variant": "body"
+      }
+    },
+    "new_vol_expansion": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "vol_exp_title",
+        "vol_exp_text"
+      ]
+    },
+    "vol_exp_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Vol Expansion Setup",
+        "level": "h4"
+      }
+    },
+    "vol_exp_text": {
+      "type": "Text",
+      "props": {
+        "text": "VIX at Trump-presidency lows, DVOL 34.89 ATL; WR 01:03Z Aug 15 \"vol simply remaining dead as equities correct\"; Abetrade 71% win-rate vol-sell backtest confirms structurally cheap vol",
+        "variant": "body"
+      }
+    },
+    "new_zk_provers": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "zk_provers_title",
+        "zk_provers_text"
+      ]
+    },
+    "zk_provers_title": {
+      "type": "Heading",
+      "props": {
+        "text": "ZK Provers / CYS",
+        "level": "h4"
+      }
+    },
+    "zk_provers_text": {
+      "type": "Text",
+      "props": {
+        "text": "double-spike Aug 11 +40.9% / Aug 15 +41.2%; two-day confirmation = accumulation, not one-day pump",
+        "variant": "body"
+      }
+    },
+    "promoted_subsection": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "promoted_heading",
+        "promoted_ethfi",
+        "promoted_jackson",
+        "promoted_dead_item"
+      ]
+    },
+    "promoted_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PROMOTED",
+        "level": "h3"
+      }
+    },
+    "promoted_ethfi": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ethfi_title",
+        "ethfi_text"
+      ]
+    },
+    "ethfi_title": {
+      "type": "Heading",
+      "props": {
+        "text": "ETHFI Liquid Restaking",
+        "level": "h4"
+      }
+    },
+    "ethfi_text": {
+      "type": "Text",
+      "props": {
+        "text": "Emerging → Rising; +4.1% morning → +10.9% afternoon; day-4 run from Aug 7 weETH catalyst",
+        "variant": "body"
+      }
+    },
+    "promoted_jackson": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "jackson_hole_title",
+        "jackson_hole_text"
+      ]
+    },
+    "jackson_hole_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Jackson Hole / Fed Pivot",
+        "level": "h4"
+      }
+    },
+    "jackson_hole_text": {
+      "type": "Text",
+      "props": {
+        "text": "12 days out; Sep cut 71.5%; NFP -23K July confirmed; pre-event dominance building",
+        "variant": "body"
+      }
+    },
+    "promoted_dead_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "kaito_title",
+        "kaito_text"
+      ]
+    },
+    "kaito_title": {
+      "type": "Heading",
+      "props": {
+        "text": "DEAD: KAITO InfoFi token",
+        "level": "h4"
+      }
+    },
+    "kaito_text": {
+      "type": "Text",
+      "props": {
+        "text": "7d −45.4%; HCH +58.5% short profit, Stoiiic +68% short profit; smart money exited",
+        "variant": "body"
+      }
+    },
+    "dead_subsection": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "reflexivity_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "reflexivity_heading",
+        "reflexivity_alert",
+        "reflexivity_note_heading",
+        "reflexivity_note_text"
+      ]
+    },
+    "reflexivity_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      }
+    },
+    "reflexivity_alert": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "COW / Memecoins",
+        "message": "COW +63.5% [PUMP-RISK] no catalyst in chop tape; ACE +91.8% → −24.28% same session (textbook pump-dump confirmed). HCH actively short PUMP. Distribution already happening in hostile macro."
+      }
+    },
+    "reflexivity_note_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "KillaXBT DCA Levels Published",
+        "level": "h4"
+      }
+    },
+    "reflexivity_note_text": {
+      "type": "Text",
+      "props": {
+        "text": "Exact sub-account liquidation triggers (62.6K / 57.1K / 51.6K) posted publicly Aug 15 12:40Z. Watch 62.8K as magnet if others front-run.",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "positions_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "positions_heading",
+        "position_fr_vol",
+        "position_fr_zk",
+        "position_ride_link",
+        "position_ride_jackson",
+        "position_ride_defi",
+        "position_ride_rwa",
+        "position_fade_pump",
+        "position_watch_btc",
+        "position_watch_ethfi",
+        "position_watch_ai",
+        "position_watch_stablecoin"
+      ]
+    },
+    "positions_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      }
+    },
+    "position_fr_vol": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_fr_vol",
+        "title_fr_vol",
+        "text_fr_vol"
+      ]
+    },
+    "badge_fr_vol": {
+      "type": "Badge",
+      "props": {
+        "text": "FRONT-RUN",
+        "variant": "default"
+      }
+    },
+    "title_fr_vol": {
+      "type": "Text",
+      "props": {
+        "text": "Vol Expansion Setup (mindshare 2 ↑↑, Bull)",
+        "variant": "lead"
+      }
+    },
+    "text_fr_vol": {
+      "type": "Text",
+      "props": {
+        "text": "@Wild_Randomness + @abetrade; VIX/DVOL at structural lows; Jackson Hole Aug 27 = natural catalyst. Bear case: benign Powell, macro calm.",
+        "variant": "body"
+      }
+    },
+    "position_fr_zk": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_fr_zk",
+        "title_fr_zk",
+        "text_fr_zk"
+      ]
+    },
+    "badge_fr_zk": {
+      "type": "Badge",
+      "props": {
+        "text": "FRONT-RUN",
+        "variant": "default"
+      }
+    },
+    "title_fr_zk": {
+      "type": "Text",
+      "props": {
+        "text": "ZK Provers / CYS (mindshare 2 ↑↑, Bull)",
+        "variant": "lead"
+      }
+    },
+    "text_fr_zk": {
+      "type": "Text",
+      "props": {
+        "text": "double-spike ZK infrastructure play. Bear case: small cap PUMP-RISK, tight stop required.",
+        "variant": "body"
+      }
+    },
+    "position_ride_link": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_ride_link",
+        "title_ride_link",
+        "text_ride_link"
+      ]
+    },
+    "badge_ride_link": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "secondary"
+      }
+    },
+    "title_ride_link": {
+      "type": "Text",
+      "props": {
+        "text": "Oracle / LINK Revival (3 ↑↑, Bull)",
+        "variant": "lead"
+      }
+    },
+    "text_ride_link": {
+      "type": "Text",
+      "props": {
+        "text": "$40B vol milestone + $200 2030 bank target; day-3 trending. Bear case: catch-up trade in chop, narrative long in tooth.",
+        "variant": "body"
+      }
+    },
+    "position_ride_jackson": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_ride_jackson",
+        "title_ride_jackson",
+        "text_ride_jackson"
+      ]
+    },
+    "badge_ride_jackson": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "secondary"
+      }
+    },
+    "title_ride_jackson": {
+      "type": "Text",
+      "props": {
+        "text": "Jackson Hole / Fed Pivot (5 ↑, Bull)",
+        "variant": "lead"
+      }
+    },
+    "text_ride_jackson": {
+      "type": "Text",
+      "props": {
+        "text": "macro desks aligned; 12 days. Bear case: hawkish surprise (low probability given PPI/CPI in-line).",
+        "variant": "body"
+      }
+    },
+    "position_ride_defi": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_ride_defi",
+        "title_ride_defi",
+        "text_ride_defi"
+      ]
+    },
+    "badge_ride_defi": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "secondary"
+      }
+    },
+    "title_ride_defi": {
+      "type": "Text",
+      "props": {
+        "text": "DeFi Lending / Morpho (3 ↑↑, Bull)",
+        "variant": "lead"
+      }
+    },
+    "text_ride_defi": {
+      "type": "Text",
+      "props": {
+        "text": "Robinhood Earn + Midnight fixed-rate launch. Bear case: TVL not fees.",
+        "variant": "body"
+      }
+    },
+    "position_ride_rwa": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_ride_rwa",
+        "title_ride_rwa",
+        "text_ride_rwa"
+      ]
+    },
+    "badge_ride_rwa": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "secondary"
+      }
+    },
+    "title_ride_rwa": {
+      "type": "Text",
+      "props": {
+        "text": "RWA Tokenization (4 ↑, Bull)",
+        "variant": "lead"
+      }
+    },
+    "text_ride_rwa": {
+      "type": "Text",
+      "props": {
+        "text": "Ondo, Solana RWA vol = \"strongest fundamental narrative of 2026.\" Bear case: Fed pivot compresses T-bill yield premium.",
+        "variant": "body"
+      }
+    },
+    "position_fade_pump": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_fade_pump",
+        "title_fade_pump",
+        "text_fade_pump"
+      ]
+    },
+    "badge_fade_pump": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "destructive"
+      }
+    },
+    "title_fade_pump": {
+      "type": "Text",
+      "props": {
+        "text": "PUMP / Memecoins (3 →, Cope)",
+        "variant": "lead"
+      }
+    },
+    "text_fade_pump": {
+      "type": "Text",
+      "props": {
+        "text": "ACE same-day dump confirms pattern; HCH short PUMP working; chop regime kills sustained memecoin bids.",
+        "variant": "body"
+      }
+    },
+    "position_watch_btc": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_watch_btc",
+        "title_watch_btc",
+        "text_watch_btc"
+      ]
+    },
+    "badge_watch_btc": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "outline"
+      }
+    },
+    "title_watch_btc": {
+      "type": "Text",
+      "props": {
+        "text": "BTC Structural Bear (3 ↑, Bear)",
+        "variant": "lead"
+      }
+    },
+    "text_watch_btc": {
+      "type": "Text",
+      "props": {
+        "text": "WR \"Circle 2\" theory, Stoiiic HTF downtrend, HCH net-short ~28%, Bitcoin_Astro $62.5K validated. Counter: KillaXBT aggressive leveraged DCA at 62.6/57.1/51.6K. No edge — wait for $60K test or $67K flip.",
+        "variant": "body"
+      }
+    },
+    "position_watch_ethfi": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_watch_ethfi",
+        "title_watch_ethfi",
+        "text_watch_ethfi"
+      ]
+    },
+    "badge_watch_ethfi": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "outline"
+      }
+    },
+    "title_watch_ethfi": {
+      "type": "Text",
+      "props": {
+        "text": "ETHFI / Liquid Restaking (2 ↑↑, Bull)",
+        "variant": "lead"
+      }
+    },
+    "text_watch_ethfi": {
+      "type": "Text",
+      "props": {
+        "text": "day-4 run; headwind: ETH $1,876 below WR $1,896 binary. Resolution Aug 23.",
+        "variant": "body"
+      }
+    },
+    "position_watch_ai": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_watch_ai",
+        "title_watch_ai",
+        "text_watch_ai"
+      ]
+    },
+    "badge_watch_ai": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "outline"
+      }
+    },
+    "title_watch_ai": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agents / Crypto (4 ↓, Mixed)",
+        "variant": "lead"
+      }
+    },
+    "text_watch_ai": {
+      "type": "Text",
+      "props": {
+        "text": "7/8 tokens down; infrastructure real, tokens broken. Re-entry on deployment data not narrative.",
+        "variant": "body"
+      }
+    },
+    "position_watch_stablecoin": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_watch_stablecoin",
+        "title_watch_stablecoin",
+        "text_watch_stablecoin"
+      ]
+    },
+    "badge_watch_stablecoin": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "outline"
+      }
+    },
+    "title_watch_stablecoin": {
+      "type": "Text",
+      "props": {
+        "text": "Stablecoin / Clarity Act (3 ↓, Mixed)",
+        "variant": "lead"
+      }
+    },
+    "text_watch_stablecoin": {
+      "type": "Text",
+      "props": {
+        "text": "delayed Sept 14; binary on legislation.",
+        "variant": "body"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "map_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "map_heading",
+        "map_emerging",
+        "map_rising",
+        "map_peak",
+        "map_fading",
+        "map_dead"
+      ]
+    },
+    "map_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h2"
+      }
+    },
+    "map_emerging": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "map_emerging_label",
+        "map_emerging_text"
+      ]
+    },
+    "map_emerging_label": {
+      "type": "Text",
+      "props": {
+        "text": "Emerging:",
+        "variant": "lead"
+      }
+    },
+    "map_emerging_text": {
+      "type": "Text",
+      "props": {
+        "text": "Vol Expansion Setup, ZK Provers/CYS",
+        "variant": "body"
+      }
+    },
+    "map_rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "map_rising_label",
+        "map_rising_text"
+      ]
+    },
+    "map_rising_label": {
+      "type": "Text",
+      "props": {
+        "text": "Rising:",
+        "variant": "lead"
+      }
+    },
+    "map_rising_text": {
+      "type": "Text",
+      "props": {
+        "text": "Oracle/LINK Revival, Jackson Hole/Fed Pivot, DeFi Lending/Morpho, BTC Structural Bear",
+        "variant": "body"
+      }
+    },
+    "map_peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "map_peak_label",
+        "map_peak_text"
+      ]
+    },
+    "map_peak_label": {
+      "type": "Text",
+      "props": {
+        "text": "Peak:",
+        "variant": "lead"
+      }
+    },
+    "map_peak_text": {
+      "type": "Text",
+      "props": {
+        "text": "RWA Tokenization, PUMP/Memecoins",
+        "variant": "body"
+      }
+    },
+    "map_fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "map_fading_label",
+        "map_fading_text"
+      ]
+    },
+    "map_fading_label": {
+      "type": "Text",
+      "props": {
+        "text": "Fading:",
+        "variant": "lead"
+      }
+    },
+    "map_fading_text": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agents/Crypto, Stablecoin/Clarity Act",
+        "variant": "body"
+      }
+    },
+    "map_dead": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "map_dead_label",
+        "map_dead_text"
+      ]
+    },
+    "map_dead_label": {
+      "type": "Text",
+      "props": {
+        "text": "Dead:",
+        "variant": "lead"
+      }
+    },
+    "map_dead_text": {
+      "type": "Text",
+      "props": {
+        "text": "KAITO InfoFi token",
+        "variant": "body"
+      }
+    }
+  }
+}

@@ -1,26 +1,35 @@
-*Narrative Tracker — 2026-08-14*
+*Narrative Tracker — 2026-08-15*
 
-TRANSITIONS (first run — no prior baseline; flagging highest-signal moves)
-• NEW: Privacy/XMR-ZEC — 5th consecutive session outperforming in risk-off; financial surveillance pushback thesis building across retail + institutional
-• NEW: BTC/Macro Bear — WR + HCH + KillaXBT + bull_genius converging: BTC -12% vs NASDAQ this month, USDT.D rising LTF, first Aug ETF outflow $61.1M, OI spike with no price advance at $62.8K
-• PROMOTED: Liquid Restaking → Pivot Phase — Ether.fi separated weETH from restaking Aug 7; confirmed today with ETHFI +14.5%; narrative rewriting from "restaking yield" to "pure staking + DeFi card"
-• DEMOTED: AI x Crypto — 7/8 AI tokens red this week; bull_genius capital flip (AI stocks > on-chain AI); from dominant sector to risk-off casualty
-• DEAD: EigenLayer yield thesis — <1% of Ether.fi assets still restaked; full exit Q4; structural confidence gone post-Kelp DAO April incident
+⚠ BASELINE RUN — first narrative-tracker log entry in 3-day window. Phase calls are current-state; transitions inferred from market data + trader logs, not prior tracker diffs.
+
+TRANSITIONS
+• NEW: Oracle / LINK Revival — Chainlink $40B prediction-market vol milestone + Standard Chartered $200 2030 target; LINK +7.2% 24h / +13.9% 7d / day-3 run; top narrative in today's market-context
+• NEW: Vol Expansion Setup — VIX at Trump-presidency lows, DVOL 34.89 ATL; WR 01:03Z Aug 15 "vol simply remaining dead as equities correct"; Abetrade 71% win-rate vol-sell backtest confirms structurally cheap vol
+• NEW: ZK Provers / CYS — double-spike Aug 11 +40.9% / Aug 15 +41.2%; two-day confirmation = accumulation, not one-day pump
+• PROMOTED: ETHFI Liquid Restaking — Emerging → Rising; +4.1% morning → +10.9% afternoon; day-4 run from Aug 7 weETH catalyst
+• PROMOTED: Jackson Hole / Fed Pivot — 12 days out; Sep cut 71.5%; NFP -23K July confirmed; pre-event dominance building
+• DEAD: KAITO InfoFi token — 7d −45.4%; HCH +58.5% short profit, Stoiiic +68% short profit; smart money exited
 
 REFLEXIVITY ALERT
-• Liquid Restaking pivot — ETHFI +14.5% / VELVET +30.48% on narrative reframe only (no new TVL, no yield improvement); story moving token prices
-• AKE [PUMP-RISK] — +89% on PUMP launchpad association; HCH entering short as "scam coin of choice this month" — satellite reflexivity at peak
+• COW / Memecoins — COW +63.5% [PUMP-RISK] no catalyst in chop tape; ACE +91.8% → −24.28% same session (textbook pump-dump confirmed). HCH actively short PUMP. Distribution already happening in hostile macro.
+• KillaXBT DCA Levels Published — exact sub-account liquidation triggers (62.6K / 57.1K / 51.6K) posted publicly Aug 15 12:40Z. Watch 62.8K as magnet if others front-run.
 
 POSITIONS
-• FRONT-RUN: Macro Bear/USDT.D (3 ↑↑, Bear) — WR/HCH/KillaXBT/bull_genius all pointing same direction; USDT.D bullish LTF, BTC under monthly open $62,857, OI flying — bear case: KillaXBT still structural bull; 62K hold = rotation not breakdown
-• RIDE: Privacy/XMR-ZEC (3 ↑↑, Bull) — 5 consecutive relative-strength sessions in risk-off; structural surveillance demand + exchange delisting scarcity premium — bear case: XMR already hit $500+ ATH in Jan 2026, could be late distribution
-• RIDE: PUMP Launchpad Infra (3 ↑, Bull) — Day-2 green in risk-off, +25% 7d; most resilient Solana infra narrative — bear case: AKE satellite at +89% is HCH short target; don't conflate launchpad with pump-risk satellites
-• FADE: RWA/ONDO (4 →, Mixed) — 70%+ tokenized equity market share but ONDO token declining; narrative mature, unlock pressure; institutional TVL growing while token price falls (divergence = distribution) — bear case for fade: wrong to fade the protocol, right to fade the token
-• FADE: AI x Crypto (4 ↓, Mixed) — sector underperforming in risk-off; capital rotating to AI stocks (NASDAQ +vs BTC); fading the trade, not the 2026 thesis — bear case: conviction structural; buy the dip post-Jackson Hole if risk-on returns
-• WATCH: Jackson Hole Aug 27 (4 ↑, Mixed) — 13 days out; 2026 theme is crypto-focused ("Financial Innovation"); Fed No Change Sep 71.5% (+5pp); volatility window could flip all narratives
+• FRONT-RUN: Vol Expansion Setup (mindshare 2 ↑↑, Bull) — @Wild_Randomness + @abetrade; VIX/DVOL at structural lows; Jackson Hole Aug 27 = natural catalyst. Bear case: benign Powell, macro calm.
+• FRONT-RUN: ZK Provers / CYS (mindshare 2 ↑↑, Bull) — double-spike ZK infrastructure play. Bear case: small cap PUMP-RISK, tight stop required.
+• RIDE: Oracle / LINK Revival (3 ↑↑, Bull) — $40B vol milestone + $200 2030 bank target; day-3 trending. Bear case: catch-up trade in chop, narrative long in tooth.
+• RIDE: Jackson Hole / Fed Pivot (5 ↑, Bull) — macro desks aligned; 12 days. Bear case: hawkish surprise (low probability given PPI/CPI in-line).
+• RIDE: DeFi Lending / Morpho (3 ↑↑, Bull) — Robinhood Earn + Midnight fixed-rate launch. Bear case: TVL not fees.
+• RIDE: RWA Tokenization (4 ↑, Bull) — Ondo, Solana RWA vol = "strongest fundamental narrative of 2026." Bear case: Fed pivot compresses T-bill yield premium.
+• FADE: PUMP / Memecoins (3 →, Cope) — ACE same-day dump confirms pattern; HCH short PUMP working; chop regime kills sustained memecoin bids.
+• WATCH: BTC Structural Bear (3 ↑, Bear) — WR "Circle 2" theory, Stoiiic HTF downtrend, HCH net-short ~28%, Bitcoin_Astro $62.5K validated. Counter: KillaXBT aggressive leveraged DCA at 62.6/57.1/51.6K. No edge — wait for $60K test or $67K flip.
+• WATCH: ETHFI / Liquid Restaking (2 ↑↑, Bull) — day-4 run; headwind: ETH $1,876 below WR $1,896 binary. Resolution Aug 23.
+• WATCH: AI Agents / Crypto (4 ↓, Mixed) — 7/8 tokens down; infrastructure real, tokens broken. Re-entry on deployment data not narrative.
+• WATCH: Stablecoin / Clarity Act (3 ↓, Mixed) — delayed Sept 14; binary on legislation.
 
 MAP
-Emerging: Regulatory Clarity (Sept 14 Clarity Act vote), Macro Bear/USDT.D
-Rising: Privacy/XMR-ZEC, PUMP Launchpad, Jackson Hole (anticipation building)
-Peak: RWA/ONDO, DeFi Blue Chips (UNI breakdown -10.8%)
-Fading: AI x Crypto, EigenLayer/Restaking yield thesis
+Emerging: Vol Expansion Setup, ZK Provers/CYS
+Rising: Oracle/LINK Revival, Jackson Hole/Fed Pivot, DeFi Lending/Morpho, BTC Structural Bear
+Peak: RWA Tokenization, PUMP/Memecoins
+Fading: AI Agents/Crypto, Stablecoin/Clarity Act
+Dead: KAITO InfoFi token
