@@ -1,0 +1,56 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor",
+        "description": "Market structure critique from @Wild_Randomness"
+      },
+      "children": [
+        "tweet_card",
+        "analysis_stack",
+        "link_tweet"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Reply to @Evan_ss6 on chart longing setup with negative funding: \"Not gonna cut it\""
+      }
+    },
+    "analysis_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "chart_text",
+        "context_text"
+      ]
+    },
+    "chart_text": {
+      "type": "Text",
+      "props": {
+        "text": "Chart shows uptrend structure, but WR rejecting setup as insufficient."
+      }
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "Sarcastic tone with meme: \"130 likes is the bar\". Market structure critique, not personal trade action."
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2088706505398948299"
+      }
+    }
+  }
+}
