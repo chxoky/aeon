@@ -1,15 +1,9 @@
-All clear. Here's the summary:
+All checks complete. HEARTBEAT_OK · STATUS_PAGE=OK
 
-## Summary
-
-**HEARTBEAT_OK · STATUS_PAGE=OK**
-
-All checks passed — nothing needs attention:
-
-- **P0 skills**: All clean. No failures, no stuck skills, no consecutive failures. Heartbeat last succeeded 6h ago (well under the 36h threshold).
-- **P0 X webhook**: WATCHED_TRADERS rule is live (`is_effect: 1`, 12 accounts, 180s interval). No ISS-002 recurrence.
-- **P1**: No open PRs, no open issues.
-- **P2**: No flagged memory items.
-- **P3**: All 9 enabled scheduled skills ran within their normal cadence today.
-
-**docs/status.md** updated: 🟢 OK, 2026-08-14 20:05 UTC, next run → morning-pipeline at 07:00 UTC 2026-08-15. Log entry appended to `memory/logs/2026-08-14.md`.
+**Summary:**
+- **P0 skills:** All 9 enabled skills show `last_status: success`, 0 consecutive failures across the fleet. Heartbeat last succeeded 12h ago (well within 36h threshold).
+- **P0 X webhook:** secretcurl blocked by static analysis in interactive mode, but x-trader-monitor recorded `last_success: 2026-08-15T08:24:24Z` — events are actively flowing and ISS-002 remains resolved.
+- **P1:** No open PRs, no open GitHub issues.
+- **P2:** traders.md OVERSIZE flag appeared 3+ times in Aug 14–15 logs — suppressed per 48h dedup rule; auto-compact runs tomorrow (Sunday Aug 16 20:00 UTC).
+- **P3:** All enabled skills within their 2× schedule interval.
+- **docs/status.md** regenerated: 🟢 OK, updated timestamp 2026-08-15 08:10 UTC, next run token-alert/token-movers at 12:00 UTC.
