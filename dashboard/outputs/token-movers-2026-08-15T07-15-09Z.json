@@ -1,0 +1,482 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Token Movers — 2026-08-15"
+      },
+      "children": [
+        "text_summary",
+        "separator_1",
+        "heading_winners",
+        "table_winners",
+        "separator_2",
+        "heading_losers",
+        "table_losers",
+        "separator_3",
+        "heading_trending",
+        "table_trending",
+        "separator_4",
+        "heading_notable",
+        "stack_notable"
+      ]
+    },
+    "text_summary": {
+      "type": "Text",
+      "props": {
+        "text": "Chop continues — 42/100 top coins green, median +0.3% (top 50); BTC flat at $63K, SOL −0.6%; LINK the standout major-cap bid while INJ/UNI lead selling.",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_winners": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Winners (24h)",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "table_winners": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Rank",
+          "Symbol",
+          "Price",
+          "24h %",
+          "7d %",
+          "1h %",
+          "Market Cap",
+          "MC Rank",
+          "Status"
+        ],
+        "rows": [
+          [
+            "1",
+            "VELVET",
+            "$1.18",
+            "+28.7%",
+            "+141%",
+            "−2.6%",
+            "$58.8M",
+            "#98",
+            "BREAKOUT, TRENDING+UP"
+          ],
+          [
+            "2",
+            "BTW",
+            "$0.31",
+            "+11.6%",
+            "+119%",
+            "−2.1%",
+            "$32.7M",
+            "#76",
+            ""
+          ],
+          [
+            "3",
+            "LINK",
+            "$9.37",
+            "+7.2%",
+            "+13.9%",
+            "−0.5%",
+            "$463M",
+            "#17",
+            "MAJOR, TRENDING+UP"
+          ],
+          [
+            "4",
+            "ICP",
+            "$2.28",
+            "+5.0%",
+            "+9.2%",
+            "0.0%",
+            "$37.3M",
+            "#57",
+            ""
+          ],
+          [
+            "5",
+            "OKB",
+            "$107.0",
+            "+4.8%",
+            "+14.9%",
+            "−0.1%",
+            "$63.3M",
+            "#38",
+            ""
+          ],
+          [
+            "6",
+            "ETHFI",
+            "$0.45",
+            "+4.1%",
+            "+17.3%",
+            "+0.1%",
+            "$44.3M",
+            "#105",
+            ""
+          ],
+          [
+            "7",
+            "AVAX",
+            "$6.64",
+            "+3.6%",
+            "+1.8%",
+            "−0.5%",
+            "$213M",
+            "#31",
+            "TRENDING+UP"
+          ],
+          [
+            "8",
+            "WLFI",
+            "$0.0569",
+            "+3.6%",
+            "",
+            "",
+            "",
+            "#43",
+            "TRENDING+UP"
+          ],
+          [
+            "9",
+            "SHIB",
+            "$0.0000046",
+            "+2.4%",
+            "−1.4%",
+            "−0.2%",
+            "$85.4M",
+            "#35",
+            ""
+          ],
+          [
+            "10",
+            "WLD",
+            "$0.35",
+            "+1.4%",
+            "+12.9%",
+            "−0.6%",
+            "$93.3M",
+            "#58",
+            ""
+          ]
+        ]
+      },
+      "children": []
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_losers": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Losers (24h)",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "table_losers": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Rank",
+          "Symbol",
+          "Price",
+          "24h %",
+          "7d %",
+          "1h %",
+          "Market Cap",
+          "MC Rank",
+          "Status"
+        ],
+        "rows": [
+          [
+            "1",
+            "INJ",
+            "$4.19",
+            "−8.2%",
+            "−6.6%",
+            "−0.5%",
+            "$65.2M",
+            "#106",
+            ""
+          ],
+          [
+            "2",
+            "UNI",
+            "$3.27",
+            "−5.9%",
+            "−18.4%",
+            "+0.2%",
+            "$296M",
+            "#41",
+            "TRENDING+DOWN"
+          ],
+          [
+            "3",
+            "BDX",
+            "$0.084",
+            "−5.7%",
+            "−8.9%",
+            "+0.2%",
+            "$13.8M",
+            "#87",
+            ""
+          ],
+          [
+            "4",
+            "LEO",
+            "$8.78",
+            "−4.4%",
+            "−9.6%",
+            "+0.4%",
+            "$1.3M",
+            "#15",
+            "MAJOR"
+          ],
+          [
+            "5",
+            "SKY",
+            "$0.051",
+            "−4.0%",
+            "−5.9%",
+            "0.0%",
+            "$7.9M",
+            "#60",
+            ""
+          ],
+          [
+            "6",
+            "PUMP",
+            "$0.0028",
+            "−3.6%",
+            "+21.3%",
+            "+0.2%",
+            "$77.4M",
+            "#65",
+            ""
+          ],
+          [
+            "7",
+            "LTC",
+            "$44.0",
+            "−1.6%",
+            "−3.2%",
+            "+0.2%",
+            "$163M",
+            "#28",
+            "MAJOR"
+          ],
+          [
+            "8",
+            "ADA",
+            "$0.179",
+            "−1.5%",
+            "−10.5%",
+            "+0.1%",
+            "$186M",
+            "#18",
+            "MAJOR"
+          ],
+          [
+            "9",
+            "HTX",
+            "$0.0000018",
+            "−1.1%",
+            "+0.8%",
+            "−0.1%",
+            "$15.1M",
+            "#46",
+            ""
+          ],
+          [
+            "10",
+            "SOL",
+            "$75.3",
+            "−0.6%",
+            "+1.0%",
+            "+0.1%",
+            "$1.03B",
+            "#7",
+            "MAJOR"
+          ]
+        ]
+      },
+      "children": []
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_trending": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "table_trending": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Rank",
+          "Name",
+          "Symbol",
+          "MC Rank",
+          "Price",
+          "24h Change",
+          "Status"
+        ],
+        "rows": [
+          [
+            "1",
+            "Fusionist",
+            "ACE",
+            "#604",
+            "$0.274",
+            "+91.8%",
+            "PUMP-RISK"
+          ],
+          [
+            "2",
+            "KiiChain",
+            "KII",
+            "#709",
+            "$0.072",
+            "0.0%",
+            ""
+          ],
+          [
+            "3",
+            "Uniswap",
+            "UNI",
+            "#40",
+            "$3.28",
+            "−5.7%",
+            "TRENDING+DOWN"
+          ],
+          [
+            "4",
+            "Fabric Protocol",
+            "ROBO",
+            "#481",
+            "$0.019",
+            "+26.1%",
+            "PUMP-RISK"
+          ],
+          [
+            "5",
+            "Pudgy Penguins",
+            "PENGU",
+            "#109",
+            "$0.0060",
+            "−2.0%",
+            ""
+          ],
+          [
+            "6",
+            "Chainlink",
+            "LINK",
+            "#17",
+            "$9.42",
+            "+7.6%",
+            "TRENDING+UP, MAJOR"
+          ],
+          [
+            "7",
+            "The Black Bull",
+            "ANSEM",
+            "#243",
+            "$0.245",
+            "+34.1%",
+            "PUMP-RISK"
+          ]
+        ]
+      },
+      "children": []
+    },
+    "separator_4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_notable": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack_notable": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert_velvet",
+        "alert_link",
+        "alert_ace",
+        "alert_apr"
+      ]
+    },
+    "alert_velvet": {
+      "type": "Alert",
+      "props": {
+        "title": "VELVET #98 — Breakout",
+        "message": "Trending + [BREAKOUT] — +28.7% 24h on $58.8M vol, 7d +141%; sustained move across both timeframes",
+        "type": "success"
+      },
+      "children": []
+    },
+    "alert_link": {
+      "type": "Alert",
+      "props": {
+        "title": "LINK #17 — Major-Cap Bid",
+        "message": "Only major-cap with real bid today; trending + [MAJOR] confirming rotation into LINK",
+        "type": "info"
+      },
+      "children": []
+    },
+    "alert_ace": {
+      "type": "Alert",
+      "props": {
+        "title": "ACE #604 — Extreme Risk",
+        "message": "+92% 24h, trending — extreme [PUMP-RISK], low-cap spike, avoid",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "alert_apr": {
+      "type": "Alert",
+      "props": {
+        "title": "APR #362 — Severe Collapse",
+        "message": "−53.3% 24h, trending — severe collapse event; no confirmed cause",
+        "type": "error"
+      },
+      "children": []
+    }
+  }
+}
