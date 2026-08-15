@@ -1,0 +1,81 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "New Trader Detected — @abetrade",
+        "description": "Trading product sentiment observation, no personal action signal"
+      },
+      "children": [
+        "tweet-card",
+        "metadata-section",
+        "explanation-text",
+        "memory-note"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "abetrade",
+        "handle": "@abetrade",
+        "text": "@jimtalbot @BittexXBT bring back ftx move contracts"
+      },
+      "children": []
+    },
+    "metadata-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "classification-badge",
+        "platform-badge",
+        "time-badge"
+      ]
+    },
+    "classification-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "INFORMATIONAL-SENTIMENT",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "platform-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "X",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "time-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "2026-08-15 06:56:20Z",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "explanation-text": {
+      "type": "Text",
+      "props": {
+        "text": "This is a community/ecosystem sentiment post requesting FTX move contracts be reinstated. First sighting of @abetrade in tracked 12-trader X feed. Mentioned alongside @jimtalbot + @BittexXBT (established traders). No Kraken action required.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "memory-note": {
+      "type": "Alert",
+      "props": {
+        "title": "Memory Update",
+        "message": "Added to memory for cross-trader momentum tracking",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}
