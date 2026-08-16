@@ -103,11 +103,12 @@
 ## Bitcoin_Astro
 - Platforms: X (first tracked event Aug 16)
 - Current open positions: Unknown (first tracked event)
-- Recent thesis: Bearish macro sentiment; asserts "the top is in" for 2026 year
-- Conviction notes: New trader, minimal context. Listed as "watching/flat" on BTC in prior ticker-focus notes (Jul 14). No prior trade execution tracked.
+- Recent thesis: Bearish macro sentiment; asserts "the top is in" for 2026 year. Technical support structure focus (1D chart analysis).
+- Conviction notes: New trader, minimal context. Listed as "watching/flat" on BTC in prior ticker-focus notes (Jul 14). No prior trade execution tracked. Shares technical analysis via chart imagery (chart-native level identification).
 - Calibration: PENDING Aug 16 12:27:39Z (cryptic grammar on "sell signal" — unclear if received signal or executed sale 3 days ago)
-- Last seen: 2026-08-16T13:15:53Z (X reply to @Cryp2w1n — non-financial banter)
+- Last seen: 2026-08-16T22:27:05Z (X — BTC chart technical analysis, support levels visualization)
 - **Events (rolling):**
+  - Aug 16 22:27Z — informational-technical: X post "@dasbi50 Red lines are my potential levels" + BTC/USD 1D chart (Coinbase); chart shows multiple red horizontal support lines marked at ~52,361.00 / ~48,805.00 / ~46,000.00 zones with labeled price levels; technical analysis identifying support/resistance structure (no personal trade action language); chart-native level identification; alerted Kyle [$BTC] [2089116763958997144]
   - Aug 16 13:15Z — non-financial: reply to @Cryp2w1n "No" generic banter [2088978051073786025]
   - Aug 16 12:27Z — ambiguous-cryptic: X reply to @dazz_mk "@dazz_mk Imo yes. At least for this year the top is in and I just had and sell signal 3 days ago" — grammar ambiguity: "I just had and sell signal" unclear if (a) received sell signal 3 days ago (informational) or (b) executed sell 3 days ago (trade action). No prior Bitcoin_Astro context to disambiguate. HR-2 calibration alert sent to Kyle [$BTC] [2088965913630433514]
   - Aug 11 23:10Z — informational-sentiment: DC Chat "Even for that matter, the bullishness in oil is temporary too" — market conviction on oil rally exhaustion; commodities sentiment update (prior Jul 28 downside bias now acknowledged upside but skeptical); supporting-channel member-chat, silent skip [$CL $OIL] [1536874591241113630]
