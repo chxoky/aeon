@@ -1,0 +1,47 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @Bitcoin_Astro"
+      },
+      "children": [
+        "event_context",
+        "tweet_card",
+        "analysis_section",
+        "view_link"
+      ]
+    },
+    "event_context": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @mtyourlife",
+        "variant": "caption"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Bitcoin_Astro",
+        "handle": "Bitcoin_Astro",
+        "text": "Around - +"
+      }
+    },
+    "analysis_section": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — this is a cryptic one-liner dependent on context from @mtyourlife's message (not visible in payload). What's your read? Does this reference a specific ticker/price level/position status?",
+        "variant": "body"
+      }
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Bitcoin_Astro/status/2089120984607379894"
+      }
+    }
+  }
+}
