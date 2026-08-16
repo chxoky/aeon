@@ -1,8 +1,9 @@
-🔍 *Calibration — @swarmister*
+🔍 *Calibration — @Bitcoin_Astro*
 
-Event: reply to @maruushae about volume
-swarmister: "@maruushae Volume mmmmmm"
+Event: Reply to @ChrisBTCbull about 'Next 8 weeks'
 
-Unable to classify — what's your read?
+Bitcoin_Astro: "Next 8 weeks. I have shared exact dates for Patreon and Telegram members"
 
-[View post](https://x.com/swarmister/status/2088936383867990419)
+Unable to classify direction/asset — what's your read?
+
+[View post](https://x.com/Bitcoin_Astro/status/2088955046964678857)
