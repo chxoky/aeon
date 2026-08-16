@@ -1,0 +1,298 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Market Context — 2026-08-16"
+      },
+      "children": [
+        "take_section",
+        "prices_section",
+        "sep1",
+        "metrics_section",
+        "sep2",
+        "narrative_section",
+        "sep3",
+        "events_section"
+      ]
+    },
+    "take_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "take_label",
+        "take_value",
+        "conviction_badge"
+      ]
+    },
+    "take_label": {
+      "type": "Text",
+      "props": {
+        "text": "Take:",
+        "variant": "muted"
+      }
+    },
+    "take_value": {
+      "type": "Text",
+      "props": {
+        "text": "chop",
+        "variant": "lead"
+      }
+    },
+    "conviction_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "medium conviction",
+        "variant": "secondary"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "prices_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "btc_stat",
+        "eth_stat",
+        "fg_stat"
+      ]
+    },
+    "btc_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$63,010",
+        "delta": "+0.06%",
+        "trend": "up"
+      }
+    },
+    "eth_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$1,880",
+        "delta": "0.00%",
+        "trend": "neutral"
+      }
+    },
+    "fg_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Fear & Greed",
+        "value": "34 (Fear)",
+        "delta": "day-3 unchanged",
+        "trend": "neutral"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "metrics_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "breadth_row",
+        "dex_vol_row"
+      ]
+    },
+    "breadth_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "breadth_label",
+        "breadth_value"
+      ]
+    },
+    "breadth_label": {
+      "type": "Text",
+      "props": {
+        "text": "Breadth:",
+        "variant": "muted"
+      }
+    },
+    "breadth_value": {
+      "type": "Text",
+      "props": {
+        "text": "6/20"
+      }
+    },
+    "dex_vol_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "dex_label",
+        "dex_value",
+        "dex_delta"
+      ]
+    },
+    "dex_label": {
+      "type": "Text",
+      "props": {
+        "text": "DEX Volume:",
+        "variant": "muted"
+      }
+    },
+    "dex_value": {
+      "type": "Text",
+      "props": {
+        "text": "$4.02B"
+      }
+    },
+    "dex_delta": {
+      "type": "Badge",
+      "props": {
+        "text": "-25% vs 7d avg",
+        "variant": "destructive"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "narrative_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "narrative_label",
+        "narrative_desc",
+        "tokens_stack"
+      ]
+    },
+    "narrative_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Narrative",
+        "level": "h4"
+      }
+    },
+    "narrative_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Gaming/GameFi emerging"
+      }
+    },
+    "tokens_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "portal_stat",
+        "chip_stat"
+      ]
+    },
+    "portal_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "PORTAL",
+        "value": "+32%",
+        "trend": "up"
+      }
+    },
+    "chip_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "CHIP",
+        "value": "+17%",
+        "trend": "up"
+      }
+    },
+    "events_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "etf_row",
+        "jackson_hole_row"
+      ]
+    },
+    "etf_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "etf_label",
+        "etf_value",
+        "etf_badge"
+      ]
+    },
+    "etf_label": {
+      "type": "Text",
+      "props": {
+        "text": "ETF Week (Aug 10-14):",
+        "variant": "muted"
+      }
+    },
+    "etf_value": {
+      "type": "Text",
+      "props": {
+        "text": "-$389.7M"
+      }
+    },
+    "etf_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "net outflows confirmed",
+        "variant": "outline"
+      }
+    },
+    "jackson_hole_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "jackson_label",
+        "jackson_value"
+      ]
+    },
+    "jackson_label": {
+      "type": "Text",
+      "props": {
+        "text": "Jackson Hole:",
+        "variant": "muted"
+      }
+    },
+    "jackson_value": {
+      "type": "Text",
+      "props": {
+        "text": "11 days out"
+      }
+    }
+  }
+}
