@@ -673,8 +673,8 @@
 - Platforms: X (primary)
 - Current open positions: (new trader, unknown open positions)
 - Recent thesis: Balance trading framework focus (passive + aggressive spot buying/selling as confluence); interested in value extremes being revisited/broken vs. 2-POC setup; BTC rotational balance zone analysis (H4 timeframe)
-- Conviction notes: Technical analyst with focus on value areas (POC/VAH), volume profile, and balance trading mechanics
-- Last seen: 2026-08-13T18:00:31Z (X — BTC H4 technical setup analysis)
+- Conviction notes: Technical analyst with focus on value areas (POC/VAH), volume profile, and balance trading mechanics; ~50% non-financial/motivational posts consistent with fitness/philosophy content distribution
+- Last seen: 2026-08-16T07:00:12Z (X — motivational post "do hard things" philosophy reminder)
 - **Events (rolling):**
   - Aug 13 18:00Z — informational-technical: X "$BTC H4 — rotational balance zone with 3 scenarios: (1) sweep/absorb/reclaim; (2) POC rotate to VAH (requires sustained bid, not yet confirmed); (3) passive bid exhaustion + reflexive rejection"; chart-driven technical analysis with annotated setups on BTC H4; mentions forthcoming thread on balance trading framework; currently "sitting on hands through diminished vol"; no personal trade execution language; alerted [$BTC] [2087962518623072525]
 
