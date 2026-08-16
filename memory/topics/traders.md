@@ -709,9 +709,10 @@
 
 ## abetrade
 - Platforms: X (primary)
-- Current open positions: Unknown (new trader, no position data yet)
-- Recent thesis: Product/feature interest in FTX ecosystem; cross-references with established traders (@jimtalbot, @BittexXBT); sentiment-driven commentary
-- Conviction notes: Early-stage observation; limited sample size. Single-message mention focused on product feature (FTX move contracts) suggests infrastructure/trading-product interest rather than asset-specific conviction
-- Last seen: 2026-08-15T06:56:20Z (X — FTX product sentiment)
+- Current open positions: Unknown (analysis-focused, no personal executions documented)
+- Recent thesis: Options vol trader + macro thematic analyst. MU bullish setup (Aug 16) on dark pool shorting + cheap call options; historical BTC IV focus (Sep seasonality straddle/strangle thesis); quantitative framework (HAR model, VRP decomposition)
+- Conviction notes: Heavy chart analysis (4-image per post norm). Shares trade ideas/educational frameworks + analysis rather than personal execution announcements. Options analysis depth consistent with FTX product interest (derivatives ecosystem focus)
+- Last seen: 2026-08-16T17:25:55Z (X — MU bullish trade idea analysis)
 - **Events (rolling):**
+  - Aug 16 17:25Z — informational-trade-idea: X MU bullish setup; dark pool shorting as bullish signal, options cheap w/ rising call demand, target above 900 support; 4-chart analysis attached (CDN fetch unavailable); no personal execution language; options vol expertise applied; alerted [$MU] [2089040973879820775]
   - Aug 15 06:56Z — informational-sentiment: X "@jimtalbot @BittexXBT bring back ftx move contracts"; product feature request/sentiment on FTX perpetual contracts ecosystem; mentions two established traders directly (cross-reference for context); no personal trade action; no personal position indicated; alerted [$FTX_PRODUCTS] [2088520148474810463]

@@ -1,0 +1,57 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet-card",
+        "separator-1",
+        "analysis-section"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "abetrade",
+        "handle": "@abetrade",
+        "text": "Tech and memory names woke up recently after the summer correction. MU especially interesting this week — large indication of dark pool shorting (bullish signal as flow is coming from market makers filling buying flows).\n\nOptions being relatively cheap at the moment with rising call demand. Decent bet for further upside as long as staying above 900."
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-link",
+        "charts-note"
+      ]
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/abetrade/status/2089040973879820775"
+      }
+    },
+    "charts-note": {
+      "type": "Alert",
+      "props": {
+        "title": "Chart analysis",
+        "message": "4 images attached (CDN unavailable for read-through, but post describes dark pool flow + options structure thesis)",
+        "type": "info"
+      }
+    }
+  }
+}
