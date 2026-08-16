@@ -1,8 +1,8 @@
-market context — 2026-08-15
+market context — 2026-08-16
 
-take: chop (conviction medium)
-BTC $63,015 (+0.66%) / ETH $1,882 (+0.68%) · F&G 34 (Fear)
-breadth 11/20 · TVL flat · DEX vol $5.57B (-0.5%)
-top narrative: oracle/LINK rising (day 3) · ETHFI rising (day 4, +12%)
-emerging: COW +77% (day-1, unconfirmed)
-hot market: "Fed No Change Sep 2026" YES 71.5%
+take: chop, risk-off bias (conviction medium)
+BTC $63,003 (-0.10%) / ETH $1,879 (-0.07%) · F&G 34 (Fear)
+breadth 3/20 · DEX vol $4.10B (-26% vs yesterday)
+top narrative: ETHFI liquid restaking (rising, day-5)
+oracle/LINK fading (dropped trending, -1.3%)
+ARB unlock live today (92.65M tokens)
