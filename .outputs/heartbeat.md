@@ -1,11 +1,11 @@
 HEARTBEAT_OK · STATUS_PAGE=OK
 
-All checks passed. Fleet is clean:
+**Summary of checks (2026-08-16 08:00 UTC):**
 
-- **P0 skills**: 9 enabled skills all green, zero failures, zero consecutive failures. Heartbeat last-success ~6h ago — within the 36h self-check window.
-- **P0 X webhook**: TWITTERAPI_IO_KEY not injected into this run — check skipped silently per spec. ISS-002 remains resolved.
-- **P1 PRs/issues**: No open PRs; GitHub issues disabled for this repo.
-- **P2 flagged memory**: The `traders.md OVERSIZE` flag from Aug 14 appeared in logs within 48h — deduped, no notification sent. Next `trader-memory-compact` runs Sunday Aug 17.
-- **P3 missing skills**: All enabled skills running on schedule. No skill has a missing cron-state entry.
+- **P0 Skills:** All clean — 9 enabled/active skills at 100% success rate, zero consecutive failures, nothing stuck or stalled.
+- **P0 X Webhook:** WATCHED_TRADERS rule confirmed active (`is_effect: 1`) — X trade signals flowing normally.
+- **P1 PRs/Issues:** No open PRs, no urgent issues.
+- **P2 Memory flags:** `traders.md` OVERSIZE (198.5 KB) appeared in last 48h logs — deduped. `trader-memory-compact` runs tonight at 20:00 UTC.
+- **P3 Schedule:** All enabled skills running on time; nothing missing.
 
-`docs/status.md` regenerated at 20:00 UTC with `skill-health` 18:26 UTC added to the top of the table. No notification sent — nothing warrants one.
+`docs/status.md` updated to 08:00 UTC. No notification needed — everything is green.
