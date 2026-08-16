@@ -1,0 +1,178 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Astrological Market Sentiment — @Bitcoin_Astro"
+      },
+      "children": [
+        "text_date",
+        "sep1",
+        "heading_aspects",
+        "stack_aspects",
+        "sep2",
+        "alert_overall",
+        "text_methodology",
+        "link_post"
+      ]
+    },
+    "text_date": {
+      "type": "Text",
+      "props": {
+        "text": "August 17: Mixed conditions with caution bias",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_aspects": {
+      "type": "Heading",
+      "props": {
+        "text": "Astrological Aspects",
+        "level": "h3"
+      }
+    },
+    "stack_aspects": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "aspect1",
+        "aspect2",
+        "aspect3"
+      ]
+    },
+    "aspect1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aspect1_label",
+        "aspect1_desc",
+        "aspect1_badge"
+      ]
+    },
+    "aspect1_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Mars-Neptune",
+        "level": "h4"
+      }
+    },
+    "aspect1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Confusion, deceptive moves, false signals"
+      }
+    },
+    "aspect1_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Warning",
+        "variant": "destructive"
+      }
+    },
+    "aspect2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aspect2_label",
+        "aspect2_desc",
+        "aspect2_badge"
+      ]
+    },
+    "aspect2_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Mercury-Saturn",
+        "level": "h4"
+      }
+    },
+    "aspect2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Grounded decisions, solid info"
+      }
+    },
+    "aspect2_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Positive offset",
+        "variant": "secondary"
+      }
+    },
+    "aspect3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aspect3_label",
+        "aspect3_desc",
+        "aspect3_badge"
+      ]
+    },
+    "aspect3_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Venus-Jupiter",
+        "level": "h4"
+      }
+    },
+    "aspect3_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Bullish optimism, favorable expansion"
+      }
+    },
+    "aspect3_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Positive offset",
+        "variant": "secondary"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_overall": {
+      "type": "Alert",
+      "props": {
+        "title": "Overall Sentiment",
+        "message": "Leans positive but traders warned to expect choppy action and liquidity traps.",
+        "type": "warning"
+      }
+    },
+    "text_methodology": {
+      "type": "Text",
+      "props": {
+        "text": "Bitcoin_Astro uses astrological forecasting as primary analysis methodology (unique approach among watched traders).",
+        "variant": "caption"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Bitcoin_Astro/status/2089119664064590174"
+      }
+    }
+  }
+}
