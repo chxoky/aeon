@@ -1,0 +1,355 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-08-16"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-focus",
+        "stack-focus-items",
+        "sep-1",
+        "heading-yesterday",
+        "stack-yesterday-items",
+        "sep-2",
+        "heading-running",
+        "table-running"
+      ]
+    },
+    "heading-focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus Today",
+        "level": "h2"
+      }
+    },
+    "stack-focus-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus-item-1",
+        "focus-item-2",
+        "focus-item-3"
+      ]
+    },
+    "focus-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-1-title",
+        "focus-1-alert"
+      ]
+    },
+    "focus-1-title": {
+      "type": "Text",
+      "props": {
+        "text": "trader-memory-compact tonight — traders.md",
+        "variant": "lead"
+      }
+    },
+    "focus-1-alert": {
+      "type": "Alert",
+      "props": {
+        "message": "198.5KB vs 150KB limit; x-trader-monitor degrading",
+        "type": "warning"
+      }
+    },
+    "focus-item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-2-title",
+        "focus-2-body",
+        "focus-2-stats"
+      ]
+    },
+    "focus-2-title": {
+      "type": "Text",
+      "props": {
+        "text": "ARB unlock live",
+        "variant": "lead"
+      }
+    },
+    "focus-2-body": {
+      "type": "Text",
+      "props": {
+        "text": "92.65M tokens into 3/20 breadth",
+        "variant": "body"
+      }
+    },
+    "focus-2-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "focus-2-stat-24h",
+        "focus-2-stat-7d"
+      ]
+    },
+    "focus-2-stat-24h": {
+      "type": "Stat",
+      "props": {
+        "label": "ARB 24h",
+        "value": "-2.8%",
+        "trend": "down"
+      }
+    },
+    "focus-2-stat-7d": {
+      "type": "Stat",
+      "props": {
+        "label": "ARB 7d",
+        "value": "-6%",
+        "trend": "down"
+      }
+    },
+    "focus-item-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-3-title",
+        "focus-3-body"
+      ]
+    },
+    "focus-3-title": {
+      "type": "Text",
+      "props": {
+        "text": "Stoiiic BTC outlook due",
+        "variant": "lead"
+      }
+    },
+    "focus-3-body": {
+      "type": "Text",
+      "props": {
+        "text": "committed \"next day or two\" Aug 15; first signal in days",
+        "variant": "body"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-yesterday": {
+      "type": "Heading",
+      "props": {
+        "text": "Since Yesterday",
+        "level": "h2"
+      }
+    },
+    "stack-yesterday-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "yesterday-1",
+        "yesterday-2",
+        "yesterday-3",
+        "yesterday-4",
+        "yesterday-5"
+      ]
+    },
+    "yesterday-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday-1-title",
+        "yesterday-1-body"
+      ]
+    },
+    "yesterday-1-title": {
+      "type": "Text",
+      "props": {
+        "text": "KillaXBT",
+        "variant": "lead"
+      }
+    },
+    "yesterday-1-body": {
+      "type": "Text",
+      "props": {
+        "text": "6 consecutive BTC bull posts; capped at pattern-comparison (invalidation = 60K break)",
+        "variant": "body"
+      }
+    },
+    "yesterday-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday-2-title",
+        "yesterday-2-body",
+        "yesterday-2-badge"
+      ]
+    },
+    "yesterday-2-title": {
+      "type": "Text",
+      "props": {
+        "text": "Wild_Randomness",
+        "variant": "lead"
+      }
+    },
+    "yesterday-2-body": {
+      "type": "Text",
+      "props": {
+        "text": "ambiguous bearish reflection on prior cycle top — calibration alert sent; ETH binary Aug 23 still open",
+        "variant": "body"
+      }
+    },
+    "yesterday-2-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "calibration alert",
+        "variant": "outline"
+      }
+    },
+    "yesterday-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday-3-title",
+        "yesterday-3-body",
+        "yesterday-3-stat"
+      ]
+    },
+    "yesterday-3-title": {
+      "type": "Text",
+      "props": {
+        "text": "ETHFI",
+        "variant": "lead"
+      }
+    },
+    "yesterday-3-body": {
+      "type": "Text",
+      "props": {
+        "text": "liquid restaking day-5, trending+up — DeFi isolated in green",
+        "variant": "body"
+      }
+    },
+    "yesterday-3-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "ETHFI 7d",
+        "value": "+22.9%",
+        "trend": "up"
+      }
+    },
+    "yesterday-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday-4-title",
+        "yesterday-4-body",
+        "yesterday-4-stat"
+      ]
+    },
+    "yesterday-4-title": {
+      "type": "Text",
+      "props": {
+        "text": "AKE",
+        "variant": "lead"
+      }
+    },
+    "yesterday-4-body": {
+      "type": "Text",
+      "props": {
+        "text": "day-2 post-pump; watching exhaustion vs continuation",
+        "variant": "body"
+      }
+    },
+    "yesterday-4-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "AKE pump",
+        "value": "+8.7%",
+        "trend": "up"
+      }
+    },
+    "yesterday-5": {
+      "type": "Alert",
+      "props": {
+        "title": "traders.md OVERSIZE flagged",
+        "message": "198.5KB / 150KB limit — flagged twice this morning",
+        "type": "warning"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running Today",
+        "level": "h2"
+      }
+    },
+    "table-running": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Task",
+          "Time (UTC)"
+        ],
+        "rows": [
+          [
+            "token-alert / token-movers",
+            "12:00"
+          ],
+          [
+            "market-context-refresh",
+            "13:00"
+          ],
+          [
+            "narrative-tracker",
+            "13:30"
+          ],
+          [
+            "trader-memory-compact",
+            "20:00 (auto-scheduled Sunday)"
+          ]
+        ]
+      }
+    }
+  }
+}
