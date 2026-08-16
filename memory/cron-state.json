@@ -49,9 +49,9 @@
   "market-context-refresh": {
     "last_dispatch": "2026-08-15T13:08:18Z",
     "last_status": "success",
-    "last_success": "2026-08-15T13:16:50Z",
-    "total_runs": 57,
-    "total_successes": 57,
+    "last_success": "2026-08-16T07:24:43Z",
+    "total_runs": 58,
+    "total_successes": 58,
     "total_failures": 0,
     "consecutive_failures": 0,
     "success_rate": 1,
