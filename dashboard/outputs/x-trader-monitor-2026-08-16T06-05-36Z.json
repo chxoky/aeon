@@ -1,0 +1,65 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @swarmister"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event_badge",
+        "tweet_card",
+        "separator_1",
+        "alert_calibration",
+        "link_view"
+      ]
+    },
+    "event_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Reply to @0xPunishedFren",
+        "variant": "secondary"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "@swarmister",
+        "text": "What if fren gets hacked"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_calibration": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "This appears to be personal/social commentary on account security, but could potentially relate to a trade position context. No ticker/execution language visible. Awaiting your interpretation.",
+        "type": "info"
+      }
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/swarmister/status/2088867921971871824"
+      }
+    }
+  }
+}
