@@ -1,0 +1,443 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-08-16"
+      },
+      "children": [
+        "focus-section",
+        "separator-1",
+        "since-section",
+        "separator-2",
+        "watch-section",
+        "separator-3",
+        "running-section"
+      ]
+    },
+    "focus-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus-heading",
+        "focus-item-1",
+        "focus-item-2",
+        "focus-item-3"
+      ]
+    },
+    "focus-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "focus-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-1-title",
+        "focus-1-desc"
+      ]
+    },
+    "focus-1-title": {
+      "type": "Text",
+      "props": {
+        "text": "trader-memory-compact @ 20:00 UTC tonight",
+        "variant": "lead"
+      }
+    },
+    "focus-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "traders.md OVERSIZE (198.5KB vs 150KB limit); auto-fires tonight; flag if it doesn't run",
+        "variant": "body"
+      }
+    },
+    "focus-item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-2-title",
+        "focus-2-desc"
+      ]
+    },
+    "focus-2-title": {
+      "type": "Text",
+      "props": {
+        "text": "Stoiiic BTC outlook pending",
+        "variant": "lead"
+      }
+    },
+    "focus-2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "committed to publish \"next day or two\" Aug 15 evening; watch for it today or tomorrow",
+        "variant": "body"
+      }
+    },
+    "focus-item-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-3-title",
+        "focus-3-desc"
+      ]
+    },
+    "focus-3-title": {
+      "type": "Text",
+      "props": {
+        "text": "ARB unlock executing now",
+        "variant": "lead"
+      }
+    },
+    "focus-3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "92.65M tokens unlocked in risk-off tape; watch for localized ARB sell pressure",
+        "variant": "body"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "since-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "since-heading",
+        "since-item-1",
+        "since-item-2",
+        "since-item-3",
+        "since-item-4"
+      ]
+    },
+    "since-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "since-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "since-1-badge",
+        "since-1-text"
+      ]
+    },
+    "since-1-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "since-1-text": {
+      "type": "Text",
+      "props": {
+        "text": "Breadth 11/20 → 3/20 — full risk-off return in 24h; chop bounce reversed",
+        "variant": "body"
+      }
+    },
+    "since-item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "since-2-badge",
+        "since-2-text"
+      ]
+    },
+    "since-2-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "since-2-text": {
+      "type": "Text",
+      "props": {
+        "text": "DEX vol -26% ($5.57B → $4.10B) — liquidity drying, no recovery signal",
+        "variant": "body"
+      }
+    },
+    "since-item-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "since-3-badge",
+        "since-3-text"
+      ]
+    },
+    "since-3-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "since-3-text": {
+      "type": "Text",
+      "props": {
+        "text": "LINK -1.3% today after +7.1% yesterday — oracle revival stalling; downgraded fading",
+        "variant": "body"
+      }
+    },
+    "since-item-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "since-4-badge",
+        "since-4-text"
+      ]
+    },
+    "since-4-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "stuck",
+        "variant": "destructive"
+      }
+    },
+    "since-4-text": {
+      "type": "Text",
+      "props": {
+        "text": "ETF Aug 14-15 flows unpublished; Aug 13 outflow ($61.1M) resolution unknown",
+        "variant": "body"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "watch-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "watch-heading",
+        "watch-item-1"
+      ]
+    },
+    "watch-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "watch-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "watch-1-title",
+        "watch-1-metrics",
+        "watch-1-desc"
+      ]
+    },
+    "watch-1-title": {
+      "type": "Text",
+      "props": {
+        "text": "XMR: quietly outperforming",
+        "variant": "lead"
+      }
+    },
+    "watch-1-metrics": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "watch-1-stat-24h",
+        "watch-1-stat-7d",
+        "watch-1-stat-rank"
+      ]
+    },
+    "watch-1-stat-24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h",
+        "value": "+1.4%",
+        "trend": "up"
+      }
+    },
+    "watch-1-stat-7d": {
+      "type": "Stat",
+      "props": {
+        "label": "7d",
+        "value": "+8.1%",
+        "trend": "up"
+      }
+    },
+    "watch-1-stat-rank": {
+      "type": "Stat",
+      "props": {
+        "label": "rank",
+        "value": "16"
+      }
+    },
+    "watch-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "only major-cap green, no catalyst noise; privacy narrative gaining breadth ahead of narrative-tracker @ 13:30 UTC",
+        "variant": "body"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "running-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "running-heading",
+        "running-list"
+      ]
+    },
+    "running-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "running-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "task-1",
+        "task-2",
+        "task-3",
+        "task-4",
+        "task-5",
+        "task-6",
+        "task-7",
+        "task-8"
+      ]
+    },
+    "task-1": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 08:00 UTC",
+        "variant": "body"
+      }
+    },
+    "task-2": {
+      "type": "Text",
+      "props": {
+        "text": "token-alert / token-movers @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "task-3": {
+      "type": "Text",
+      "props": {
+        "text": "market-context-refresh @ 13:00 UTC",
+        "variant": "body"
+      }
+    },
+    "task-4": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC",
+        "variant": "body"
+      }
+    },
+    "task-5": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 14:00 UTC",
+        "variant": "body"
+      }
+    },
+    "task-6": {
+      "type": "Text",
+      "props": {
+        "text": "skill-health @ 18:00 UTC",
+        "variant": "body"
+      }
+    },
+    "task-7": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 20:00 UTC",
+        "variant": "body"
+      }
+    },
+    "task-8": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "task-8-badge",
+        "task-8-text"
+      ]
+    },
+    "task-8-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "critical",
+        "variant": "destructive"
+      }
+    },
+    "task-8-text": {
+      "type": "Text",
+      "props": {
+        "text": "trader-memory-compact @ 20:00 UTC",
+        "variant": "body"
+      }
+    }
+  }
+}
