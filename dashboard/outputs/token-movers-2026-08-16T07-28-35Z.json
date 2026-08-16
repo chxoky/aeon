@@ -1,0 +1,391 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Token Movers — 2026-08-16",
+        "description": "BTC, ETH, and SOL all flat at 0.0% 24h; 44 of 85 filtered top-100 coins red with a median −0.4% — market grinding sideways with selective DeFi outperformers against broad altcoin weakness."
+      },
+      "children": [
+        "sep-1",
+        "heading-winners",
+        "table-winners",
+        "sep-2",
+        "heading-losers",
+        "table-losers",
+        "sep-3",
+        "heading-trending",
+        "table-trending",
+        "sep-4",
+        "heading-notable",
+        "stack-notable"
+      ]
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-winners": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Winners (24h)",
+        "level": "h2"
+      }
+    },
+    "table-winners": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Coin",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Vol/Rank",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "ETHFI (Ether.fi)",
+            "$0.4786",
+            "+6.7%",
+            "+22.9%",
+            "+1.4%",
+            "$52M / #101",
+            "TRENDING+UP"
+          ],
+          [
+            "WLFI (World Liberty Fin.)",
+            "$0.0585",
+            "+4.6%",
+            "+13.6%",
+            "+0.6%",
+            "$33M / #44",
+            ""
+          ],
+          [
+            "JST (JUST)",
+            "$0.1079",
+            "+2.7%",
+            "+4.0%",
+            "−0.1%",
+            "$25M / #72",
+            ""
+          ],
+          [
+            "HYPE (Hyperliquid)",
+            "$57.09",
+            "+1.5%",
+            "+4.3%",
+            "+0.3%",
+            "$116M / #10",
+            "TRENDING+UP, MAJOR"
+          ],
+          [
+            "XMR (Monero)",
+            "$411.59",
+            "+1.4%",
+            "+8.1%",
+            "−0.2%",
+            "$69M / #16",
+            "MAJOR"
+          ],
+          [
+            "M (MemeCore)",
+            "$1.13",
+            "+1.3%",
+            "−0.7%",
+            "−0.2%",
+            "$5M / #50",
+            ""
+          ],
+          [
+            "VVV (Venice Token)",
+            "$11.88",
+            "+1.0%",
+            "+6.6%",
+            "+0.1%",
+            "$5.8M / #90",
+            ""
+          ],
+          [
+            "MORPHO (Morpho)",
+            "$1.96",
+            "+0.7%",
+            "+2.2%",
+            "+0.2%",
+            "$8.4M / #56",
+            ""
+          ],
+          [
+            "PUMP (Pump.fun)",
+            "$0.002775",
+            "+0.6%",
+            "+10.8%",
+            "−0.2%",
+            "$53M / #65",
+            ""
+          ],
+          [
+            "LTC (Litecoin)",
+            "$44.20",
+            "+0.4%",
+            "−3.8%",
+            "+0.1%",
+            "$107M / #28",
+            "MAJOR"
+          ]
+        ]
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-losers": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Losers (24h)",
+        "level": "h2"
+      }
+    },
+    "table-losers": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Coin",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Vol/Rank",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "AVAX (Avalanche)",
+            "$6.33",
+            "−5.4%",
+            "−1.9%",
+            "−0.1%",
+            "$169M / #34",
+            ""
+          ],
+          [
+            "BDX (Beldex)",
+            "$0.0793",
+            "−4.9%",
+            "−13.9%",
+            "−0.2%",
+            "$22M / #88",
+            ""
+          ],
+          [
+            "STABLE (Stable)",
+            "$0.0301",
+            "−3.5%",
+            "−9.1%",
+            "0.0%",
+            "$8.2M / #79",
+            ""
+          ],
+          [
+            "OKB (OKB)",
+            "$103.81",
+            "−3.1%",
+            "+10.4%",
+            "−0.1%",
+            "$40M / #38",
+            ""
+          ],
+          [
+            "INJ (Injective)",
+            "$4.11",
+            "−2.9%",
+            "−6.6%",
+            "−1.9%",
+            "$47M / #106",
+            ""
+          ],
+          [
+            "ARB (Arbitrum)",
+            "$0.0734",
+            "−2.8%",
+            "−6.0%",
+            "+0.5%",
+            "$26M / #98",
+            ""
+          ],
+          [
+            "PI (Pi Network)",
+            "$0.0868",
+            "−2.7%",
+            "−5.0%",
+            "−0.1%",
+            "$3.9M / #68",
+            "TRENDING+DOWN"
+          ],
+          [
+            "APT (Aptos)",
+            "$0.5302",
+            "−2.6%",
+            "−11.6%",
+            "−0.4%",
+            "$28M / #104",
+            ""
+          ],
+          [
+            "ENA (Ethena)",
+            "$0.0829",
+            "−2.6%",
+            "−6.3%",
+            "−1.0%",
+            "$36M / #76",
+            ""
+          ],
+          [
+            "BTW (Bitway)",
+            "$0.3028",
+            "−2.6%",
+            "+48.8%",
+            "+1.6%",
+            "$16M / #75",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-trending": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending (top 7)",
+        "level": "h2"
+      }
+    },
+    "table-trending": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Coin",
+          "Rank",
+          "Price",
+          "24h",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "PENGU (Pudgy Penguins)",
+            "#107",
+            "$0.005988",
+            "−0.9%",
+            ""
+          ],
+          [
+            "FET (AI Alliance)",
+            "#128",
+            "$0.1236",
+            "−6.9%",
+            "TRENDING+DOWN"
+          ],
+          [
+            "ONDO (Ondo)",
+            "#48",
+            "$0.3236",
+            "−1.5%",
+            ""
+          ],
+          [
+            "RON (Ronin)",
+            "#492",
+            "$0.0501",
+            "+4.7%",
+            "MICROCAP"
+          ],
+          [
+            "AKE (Akedo)",
+            "#142",
+            "$0.01028",
+            "+8.7%",
+            "TRENDING+UP"
+          ],
+          [
+            "SOL (Solana)",
+            "#7",
+            "$75.33",
+            "0.0%",
+            "MAJOR"
+          ],
+          [
+            "PI (Pi Network)",
+            "#68",
+            "$0.0868",
+            "−2.7%",
+            "TRENDING+DOWN"
+          ]
+        ]
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-notable": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h2"
+      }
+    },
+    "stack-notable": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "notable-1",
+        "notable-2",
+        "notable-3",
+        "notable-4"
+      ]
+    },
+    "notable-1": {
+      "type": "Text",
+      "props": {
+        "text": "ETHFI: trending + up 6.7% on $52M vol; 7d +22.9% — restaking re-rating, strongest signal on the board"
+      }
+    },
+    "notable-2": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE: trending + flat-market outperformer at +1.5% while BTC/ETH print 0.0% — Hyperliquid diverging"
+      }
+    },
+    "notable-3": {
+      "type": "Text",
+      "props": {
+        "text": "AKE: was [PUMP-RISK] +89% on Aug 14; still in trending at +8.7% today — watching for exhaustion or continued elevation"
+      }
+    },
+    "notable-4": {
+      "type": "Text",
+      "props": {
+        "text": "FET: trending but −6.9% 24h (rank 128) — AI token sold alongside broad alt weakness"
+      }
+    }
+  }
+}
