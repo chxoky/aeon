@@ -1,0 +1,50 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @swarmister"
+      },
+      "children": [
+        "text-event-desc",
+        "tweet-card",
+        "text-classify",
+        "link-view"
+      ]
+    },
+    "text-event-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Event: reply to @maruushae about volume"
+      },
+      "children": []
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "@maruushae Volume mmmmmm"
+      },
+      "children": []
+    },
+    "text-classify": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "link-view": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/swarmister/status/2088936383867990419"
+      },
+      "children": []
+    }
+  }
+}
