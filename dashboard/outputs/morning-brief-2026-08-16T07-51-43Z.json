@@ -1,0 +1,425 @@
+{
+  "root": "card-morning-brief",
+  "state": {},
+  "elements": {
+    "card-morning-brief": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-08-16"
+      },
+      "children": [
+        "section-focus",
+        "sep-1",
+        "section-yesterday",
+        "sep-2",
+        "section-watch",
+        "sep-3",
+        "section-running"
+      ]
+    },
+    "section-focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus-heading",
+        "focus-item-1",
+        "focus-item-2",
+        "focus-item-3"
+      ]
+    },
+    "focus-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "focus-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-1-title",
+        "focus-1-text"
+      ]
+    },
+    "focus-1-title": {
+      "type": "Heading",
+      "props": {
+        "text": "WR ETH binary",
+        "level": "h4"
+      }
+    },
+    "focus-1-text": {
+      "type": "Text",
+      "props": {
+        "text": "why now: resolution Aug 23; ETH $1,879 already below $1,896 target",
+        "variant": "body"
+      }
+    },
+    "focus-item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-2-title",
+        "focus-2-text"
+      ]
+    },
+    "focus-2-title": {
+      "type": "Heading",
+      "props": {
+        "text": "HCH shorts running against",
+        "level": "h4"
+      }
+    },
+    "focus-2-text": {
+      "type": "Text",
+      "props": {
+        "text": "why now: AKE +8.7% (active short); PUMP +10.8% 7d",
+        "variant": "body"
+      }
+    },
+    "focus-item-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-3-title",
+        "focus-3-text"
+      ]
+    },
+    "focus-3-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Stoiiic BTC outlook",
+        "level": "h4"
+      }
+    },
+    "focus-3-text": {
+      "type": "Text",
+      "props": {
+        "text": "why now: promised \"next 1–2 days\" Aug 15; watch today",
+        "variant": "body"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-yesterday": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "yesterday-heading",
+        "yesterday-item-1",
+        "yesterday-item-2",
+        "yesterday-item-3",
+        "yesterday-item-4"
+      ]
+    },
+    "yesterday-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "yesterday-item-1": {
+      "type": "Text",
+      "props": {
+        "text": "KillaXBT: 6 BTC bull posts (Mayer Multiple → market cap → pattern comparison); conviction sustained, no position changes; 60K = invalidation",
+        "variant": "body"
+      }
+    },
+    "yesterday-item-2": {
+      "type": "Text",
+      "props": {
+        "text": "Wild_Randomness: XPL −30% historical loss acknowledged (reflection, not current trade); VIX/RVX ATL cited as macro bear setup; calibration alert sent on \"cycle top\" reference",
+        "variant": "body"
+      }
+    },
+    "yesterday-item-3": {
+      "type": "Text",
+      "props": {
+        "text": "Stoiiic: bearish BTC structure (\"no catalyst for sustained buying\"); teased detailed weekend outlook",
+        "variant": "body"
+      }
+    },
+    "yesterday-item-4": {
+      "type": "Text",
+      "props": {
+        "text": "traders.md OVERSIZE: 198.5KB vs 150KB limit — trader-memory-compact fires tonight 20:00 UTC",
+        "variant": "body"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "watch-heading",
+        "watch-item-1",
+        "watch-item-2"
+      ]
+    },
+    "watch-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "watch-item-1": {
+      "type": "Text",
+      "props": {
+        "text": "BTC ETF flows: 4 consecutive net-outflow sessions after $853.5M 5-day streak — institutional distribution while BTC holds $63K; accelerating outflows add downside pressure on WR ETH binary",
+        "variant": "body"
+      }
+    },
+    "watch-item-2": {
+      "type": "Text",
+      "props": {
+        "text": "Grayscale ETH Staking Mini ETF now distributing; ETH staking record 34.4% — structural catalyst underpinning ETHFI +22.9% 7d run",
+        "variant": "body"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "running-heading",
+        "running-grid"
+      ]
+    },
+    "running-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "running-grid": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "running-1",
+        "running-2",
+        "running-3",
+        "running-4",
+        "running-5",
+        "running-6",
+        "running-7"
+      ]
+    },
+    "running-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "running-1-name",
+        "running-1-time"
+      ]
+    },
+    "running-1-name": {
+      "type": "Text",
+      "props": {
+        "text": "token-alert",
+        "variant": "body"
+      }
+    },
+    "running-1-time": {
+      "type": "Badge",
+      "props": {
+        "text": "12:00 UTC",
+        "variant": "secondary"
+      }
+    },
+    "running-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "running-2-name",
+        "running-2-time"
+      ]
+    },
+    "running-2-name": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers",
+        "variant": "body"
+      }
+    },
+    "running-2-time": {
+      "type": "Badge",
+      "props": {
+        "text": "12:00 UTC",
+        "variant": "secondary"
+      }
+    },
+    "running-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "running-3-name",
+        "running-3-time"
+      ]
+    },
+    "running-3-name": {
+      "type": "Text",
+      "props": {
+        "text": "market-context-refresh",
+        "variant": "body"
+      }
+    },
+    "running-3-time": {
+      "type": "Badge",
+      "props": {
+        "text": "13:00 UTC",
+        "variant": "secondary"
+      }
+    },
+    "running-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "running-4-name",
+        "running-4-time"
+      ]
+    },
+    "running-4-name": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker",
+        "variant": "body"
+      }
+    },
+    "running-4-time": {
+      "type": "Badge",
+      "props": {
+        "text": "13:30 UTC",
+        "variant": "secondary"
+      }
+    },
+    "running-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "running-5-name",
+        "running-5-time"
+      ]
+    },
+    "running-5-name": {
+      "type": "Text",
+      "props": {
+        "text": "skill-health",
+        "variant": "body"
+      }
+    },
+    "running-5-time": {
+      "type": "Badge",
+      "props": {
+        "text": "18:00 UTC",
+        "variant": "secondary"
+      }
+    },
+    "running-6": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "running-6-name",
+        "running-6-time"
+      ]
+    },
+    "running-6-name": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat",
+        "variant": "body"
+      }
+    },
+    "running-6-time": {
+      "type": "Badge",
+      "props": {
+        "text": "14:00, 20:00 UTC",
+        "variant": "secondary"
+      }
+    },
+    "running-7": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "running-7-name",
+        "running-7-time"
+      ]
+    },
+    "running-7-name": {
+      "type": "Text",
+      "props": {
+        "text": "trader-memory-compact",
+        "variant": "body"
+      }
+    },
+    "running-7-time": {
+      "type": "Badge",
+      "props": {
+        "text": "20:00 UTC",
+        "variant": "secondary"
+      }
+    }
+  }
+}
