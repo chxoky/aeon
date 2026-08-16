@@ -1,0 +1,52 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "view_tweet_link",
+        "note_chart"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "In 3 years they'll call us \"lucky.\" The exact words of every trader who never had the confidence to execute while the market was bleeding. Keep it simple. Overcomplicating something this straightforward is how you miss the easiest opportunities... $BTC"
+      },
+      "children": []
+    },
+    "view_tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2089034140582605239"
+      },
+      "children": []
+    },
+    "note_chart": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "Chart image attached to original post (unfetchable via CDN)"
+      },
+      "children": []
+    }
+  }
+}
