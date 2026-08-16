@@ -1,0 +1,57 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Market intelligence on Binance affiliate listing dynamics"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet",
+        "sep",
+        "regulatory",
+        "link"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "trading_axe",
+        "handle": "@trading_axe",
+        "text": "You can literally DM an affiliate of BNBCHAIN on Twitter and pay them enough shekels to get a project enlisted on Binance Alpha."
+      }
+    },
+    "sep": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "regulatory": {
+      "type": "Alert",
+      "props": {
+        "message": "Cryptic reference to CK (Changpeng/enforcement interest) suggests potential regulatory attention on pay-to-list affiliate corruption.",
+        "type": "warning"
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/trading_axe/status/2088979249575166283"
+      }
+    }
+  }
+}
