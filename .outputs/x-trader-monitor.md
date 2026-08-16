@@ -1,8 +1,9 @@
-🔍 *Calibration — @Bitcoin_Astro*
+🔍 *Calibration — @swarmister*
 
-Event: Reply to @dazz_mk on BTC market structure; asserting 'the top is in for this year'
-@Bitcoin_Astro: 'Imo yes. At least for this year the top is in and I just had and sell signal 3 days ago'
+Event: Reply to @0xAnarchic — context unknown
 
-Unable to classify — grammar ambiguity: does 'I just had and sell signal' mean (a) received a sell signal 3 days ago (informational), or (b) executed a sell 3 days ago (trade action)? No prior Bitcoin_Astro context in memory to resolve. What's your read?
+swarmister: "Certain circumstances arose"
 
-[View post](https://x.com/Bitcoin_Astro/status/2088965913630433514)
+Unable to classify — personal situation, market update, or trade signal? What's your read?
+
+[View post](https://x.com/swarmister/status/2088967598016762050)
