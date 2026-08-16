@@ -1,0 +1,74 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "main_stack"
+      ]
+    },
+    "main_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "header",
+        "message",
+        "separator",
+        "metadata_stack"
+      ]
+    },
+    "header": {
+      "type": "Heading",
+      "props": {
+        "text": "💬 DC: HCH — Comments",
+        "level": "h3"
+      }
+    },
+    "message": {
+      "type": "Text",
+      "props": {
+        "text": "Nothing has changed. Still eyeing first",
+        "variant": "lead"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "metadata_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "source",
+        "linked_message"
+      ]
+    },
+    "source": {
+      "type": "Text",
+      "props": {
+        "text": "via Discord — HCH — Comments",
+        "variant": "muted"
+      }
+    },
+    "linked_message": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Aug 14 19:24Z: Here to higher 61k conviction affirmation",
+        "href": "#",
+        "source": "Discord"
+      }
+    }
+  }
+}
