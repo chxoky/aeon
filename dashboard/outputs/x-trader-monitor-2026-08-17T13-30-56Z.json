@@ -1,0 +1,91 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "separator_1",
+        "stack_content"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Yields themselves aren't listening\n\nHowever, bond vol has been (for now)"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "link_tweet",
+        "stack_metrics",
+        "text_commentary"
+      ]
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View full tweet",
+        "href": "https://x.com/Wild_Randomness/status/2089342849770995826"
+      },
+      "children": []
+    },
+    "stack_metrics": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_30y_yield",
+        "stat_move_index"
+      ]
+    },
+    "stat_30y_yield": {
+      "type": "Stat",
+      "props": {
+        "label": "US 30Y Yield (Apr-Aug)",
+        "value": "5.29%",
+        "delta": "+46 bps",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat_move_index": {
+      "type": "Stat",
+      "props": {
+        "label": "MOVE Index",
+        "value": "69.58",
+        "delta": "Peaked 86 (Jul)"
+      },
+      "children": []
+    },
+    "text_commentary": {
+      "type": "Text",
+      "props": {
+        "text": "US 30Y yield shows uptrend (4.83%→5.29% Apr-Aug); MOVE Index volatile (currently 69.58, peaked 86 in July). Commentary on yield insensitivity vs volatility responsiveness.",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}

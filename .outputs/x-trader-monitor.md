@@ -1,7 +1,7 @@
-🔍 *Calibration — @swarmister*
+🐦 *[X] @Wild_Randomness*
 
-Event: Reply to @flim_flamdegen (original message not visible in payload)
+Yields themselves aren't listening
 
-swarmister: "Why not"
+However, bond vol has been (for now) https://x.com/Wild_Randomness/status/2089342849770995826
 
-Unable to classify — what's your read?
+_US 30Y yield shows uptrend (4.83%→5.29% Apr-Aug); MOVE Index volatile (currently 69.58, peaked 86 in July). Commentary on yield insensitivity vs volatility responsiveness._
