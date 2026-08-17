@@ -1,0 +1,83 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "calibration_section",
+        "event_section",
+        "quote_section",
+        "uncertainty_alert"
+      ]
+    },
+    "calibration_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "calib_heading",
+        "calib_attribution"
+      ]
+    },
+    "calib_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration",
+        "level": "h2"
+      }
+    },
+    "calib_attribution": {
+      "type": "Badge",
+      "props": {
+        "text": "@Wild_Randomness",
+        "variant": "secondary"
+      }
+    },
+    "event_section": {
+      "type": "Text",
+      "props": {
+        "text": "Event: SPY -13bps on the day",
+        "variant": "body"
+      }
+    },
+    "quote_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "quote_text",
+        "quote_author"
+      ]
+    },
+    "quote_text": {
+      "type": "Text",
+      "props": {
+        "text": "\"This has gotta be the most bullish action I've seen with SPY -13bps on the day\"",
+        "variant": "lead"
+      }
+    },
+    "quote_author": {
+      "type": "Text",
+      "props": {
+        "text": "— Wild_Randomness",
+        "variant": "caption"
+      }
+    },
+    "uncertainty_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification Uncertainty",
+        "message": "Unable to classify — is this sarcasm (the decline is NOT actually bullish) or technical optimism (the structural setup of the decline is bullish despite the direction)?\n\nWhat's your read?",
+        "type": "info"
+      }
+    }
+  }
+}
