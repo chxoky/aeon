@@ -20,3 +20,11 @@
 4. ✓ No notification sent to Kyle
 
 **Result:** Silent logged. Skill continues listening for next real-time event.
+🔍 *Calibration — @Wild_Randomness*
+
+Event: X reply to @Parida
+Wild_Randomness: "@Parida Agreeed"
+
+Unable to classify — what's the context? (Original @Parida message not visible in tweet payload; emphatic spelling suggests agreement with conviction, but no financial relevance apparent without context.)
+
+https://x.com/Wild_Randomness/status/2089429939070390558

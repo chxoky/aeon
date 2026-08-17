@@ -1,0 +1,70 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor — Calibration"
+      },
+      "children": [
+        "heading_calibration",
+        "separator1",
+        "event_type",
+        "tweet_card",
+        "separator2",
+        "classification_issue",
+        "tweet_link"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h3"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "event_type": {
+      "type": "Text",
+      "props": {
+        "text": "Event: X reply to @Parida",
+        "variant": "lead"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "@Parida Agreeed"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification_issue": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Original @Parida message not visible in tweet payload; emphatic spelling suggests agreement with conviction, but no financial relevance apparent without context.",
+        "type": "info"
+      }
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2089429939070390558"
+      }
+    }
+  }
+}
