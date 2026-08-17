@@ -1,0 +1,98 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Trading analysis validation"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_dell",
+        "badges_row",
+        "text_analysis",
+        "sep1",
+        "stat_exit"
+      ]
+    },
+    "heading_dell": {
+      "type": "Heading",
+      "props": {
+        "text": "DELL Validation Post",
+        "level": "h2"
+      }
+    },
+    "badges_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_dell",
+        "badge_short",
+        "badge_author",
+        "badge_date"
+      ]
+    },
+    "badge_dell": {
+      "type": "Badge",
+      "props": {
+        "text": "DELL",
+        "variant": "default"
+      }
+    },
+    "badge_short": {
+      "type": "Badge",
+      "props": {
+        "text": "Short Thesis",
+        "variant": "secondary"
+      }
+    },
+    "badge_author": {
+      "type": "Badge",
+      "props": {
+        "text": "HeartCanHodl",
+        "variant": "outline"
+      }
+    },
+    "badge_date": {
+      "type": "Badge",
+      "props": {
+        "text": "Aug 13",
+        "variant": "outline"
+      }
+    },
+    "text_analysis": {
+      "type": "Text",
+      "props": {
+        "text": "HeartCanHodl confirms Aug 13 short thesis playing out at 500+ exit level. Structure exhaustion confirmed on 4h charts.",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stat_exit": {
+      "type": "Stat",
+      "props": {
+        "label": "Exit Level",
+        "value": "500+"
+      }
+    }
+  }
+}
