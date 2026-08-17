@@ -1,0 +1,57 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @swarmister"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-calibration",
+        "text-event",
+        "card-tweet",
+        "text-context"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @swarmister",
+        "level": "h2"
+      }
+    },
+    "text-event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: X reply to @Baskitchbrah and @inversebrah",
+        "variant": "body"
+      }
+    },
+    "card-tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Swarmister",
+        "handle": "@swarmister",
+        "text": "frok or what"
+      }
+    },
+    "text-context": {
+      "type": "Text",
+      "props": {
+        "text": "Context: Aug 14 entry shows similar banter pattern ('Roo is frok ?'). Unable to classify — what's your read? Is this financial or trader banter?",
+        "variant": "body"
+      }
+    }
+  }
+}
