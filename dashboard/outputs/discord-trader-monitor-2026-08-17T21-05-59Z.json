@@ -1,0 +1,106 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "heading",
+        "sep1",
+        "metadata_stack",
+        "sep2",
+        "image_section",
+        "sep3",
+        "alert_message",
+        "question"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: HCH — Free]",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "metadata_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "author",
+        "timestamp_text"
+      ]
+    },
+    "author": {
+      "type": "Text",
+      "props": {
+        "text": "Author: HeartCanHodl",
+        "variant": "body"
+      }
+    },
+    "timestamp_text": {
+      "type": "Text",
+      "props": {
+        "text": "Posted: 2026-08-17 21:02:57Z",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "image_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "image_label",
+        "image_link"
+      ]
+    },
+    "image_label": {
+      "type": "Text",
+      "props": {
+        "text": "Image Attachment",
+        "variant": "body"
+      }
+    },
+    "image_link": {
+      "type": "Link",
+      "props": {
+        "label": "https://cdn.discordapp.com/attachments/1472153627324842057/1539016708826861720/1787000457170.png",
+        "href": "https://cdn.discordapp.com/attachments/1472153627324842057/1539016708826861720/1787000457170.png"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "alert_message": {
+      "type": "Alert",
+      "props": {
+        "title": "Image-Only Message",
+        "message": "Message has no text content, only chart/image attachment. Unable to classify from Discord metadata.",
+        "type": "info"
+      }
+    },
+    "question": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "lead"
+      }
+    }
+  }
+}
