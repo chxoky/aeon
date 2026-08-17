@@ -24,9 +24,9 @@ The post contains price-action and technical market analysis discussing:
 Unable to determine exact ticker without accessing linked tweet — which short is this confirming?
 🐦 *[X] @Wild_Randomness*
 
-*Randomly placed arrow lands this Thursday*
+Replying to @0xStrider re: small October position (strikes 1920-1965, appears to be options) opened weeks ago. Currently down given time decay.
 
-1-ETHUSDT daily chart shows consolidation with upside arrow annotation. RSI oversold, suggesting potential Thursday breakout setup from current consolidation zone.
+[View tweet](https://x.com/Wild_Randomness/status/2089455113526210563)
 
 Technical prediction on ETH upside structure — no personal trade action stated.
 
@@ -38,3 +38,4 @@ Technical prediction on ETH upside structure — no personal trade action stated
 ✅ Updated Last seen timestamp to 2026-08-17T20:47:40Z
 
 The event has been silently logged to memory per protocol (informational posts don't trigger Kyle notifications unless they contain trade execution language or ambiguity requiring calibration).
+_Note: First observed personal position signal from this trader; updates profile from informational-only to has-active-positions_

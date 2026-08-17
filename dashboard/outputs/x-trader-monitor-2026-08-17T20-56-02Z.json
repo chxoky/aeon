@@ -1,0 +1,91 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "main_stack"
+      ]
+    },
+    "main_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_header",
+        "tweet_card",
+        "tweet_link",
+        "separator1",
+        "note_alert"
+      ]
+    },
+    "tweet_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "bird_emoji",
+        "x_badge",
+        "author_handle"
+      ]
+    },
+    "bird_emoji": {
+      "type": "Text",
+      "props": {
+        "text": "🐦",
+        "variant": "caption"
+      }
+    },
+    "x_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "X",
+        "variant": "default"
+      }
+    },
+    "author_handle": {
+      "type": "Text",
+      "props": {
+        "text": "@Wild_Randomness",
+        "variant": "body"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Replying to @0xStrider re: small October position (strikes 1920-1965, appears to be options) opened weeks ago. Currently down given time decay."
+      }
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2089455113526210563"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "note_alert": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "First observed personal position signal from this trader; updates profile from informational-only to has-active-positions"
+      }
+    }
+  }
+}
