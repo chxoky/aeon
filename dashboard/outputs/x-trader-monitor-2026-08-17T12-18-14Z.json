@@ -1,0 +1,31 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_1",
+        "link_view"
+      ]
+    },
+    "tweet_1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "Weekly $BTC chart analysis: marked 11 consecutive Mondays with recurring 1-2% drops. Rhetorical question pattern observation on Monday volatility cycles.\n\nCharts show same pattern repeating across 11 Mondays (pink shaded zones). No personal trade action — technical commentary only. Aligns with your documented scalping/range-trading approach."
+      }
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2089324771456491705"
+      }
+    }
+  }
+}
