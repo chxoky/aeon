@@ -1,0 +1,93 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @Wild_Randomness"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_event",
+        "tweetcard_question",
+        "text_id",
+        "separator_1",
+        "analysis_stack",
+        "separator_2",
+        "link_view"
+      ]
+    },
+    "heading_event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "tweetcard_question": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "text": "@Evan_ss6 Lower high?"
+      }
+    },
+    "text_id": {
+      "type": "Text",
+      "props": {
+        "text": "tweet_id: 2089458259271037142",
+        "variant": "caption"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "analysis_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "analysis_alert",
+        "analysis_questions"
+      ]
+    },
+    "analysis_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Context needed from @Evan_ss6 prior message",
+        "type": "warning"
+      }
+    },
+    "analysis_questions": {
+      "type": "Text",
+      "props": {
+        "text": "Which asset? What's the price structure being referenced? Is this bearish signal (lower high = top rejection) or technical structure observation?",
+        "variant": "body"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2089458259271037142"
+      }
+    }
+  }
+}
