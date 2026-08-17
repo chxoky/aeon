@@ -1,7 +1,7 @@
-market context — 2026-08-16
+market context — 2026-08-17
 
 take: chop (conviction medium)
-BTC $63,010 (+0.06%) / ETH $1,880 (0.00%) · F&G 34 (Fear, day-3 unchanged)
-breadth 6/20 · DEX vol $4.02B (-25% vs 7d avg)
-top narrative: gaming/gamefi emerging (PORTAL +32%, CHIP +17%)
-ETF week Aug 10-14: -$389.7M net outflows confirmed · Jackson Hole 11d out
+BTC $63,511 (+0.80%) / ETH $1,902 (+1.18%) · F&G 31 (Fear, ↓3)
+breadth 16/20 24h (flip from 6/20) · 8/20 7d · TVL mixed
+top narratives: privacy XMR/ZEC (rising), HYPE perp DEX (rising), PORTAL gaming (emerging)
+hot market: "BTC up or down Aug 17?" UP 80.5%

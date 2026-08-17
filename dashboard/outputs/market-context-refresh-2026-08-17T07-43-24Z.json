@@ -1,0 +1,187 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Market Context",
+        "description": "2026-08-17"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_take",
+        "sep1",
+        "stack_prices",
+        "stat_fg",
+        "sep2",
+        "stack_breadth",
+        "text_tvl",
+        "sep3",
+        "heading_narratives",
+        "stack_narratives",
+        "sep4",
+        "stat_hotmarket"
+      ]
+    },
+    "badge_take": {
+      "type": "Badge",
+      "props": {
+        "text": "chop (conviction medium)",
+        "variant": "secondary"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_prices": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat_btc",
+        "stat_eth"
+      ]
+    },
+    "stat_btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$63,511",
+        "delta": "+0.80%",
+        "trend": "up"
+      }
+    },
+    "stat_eth": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$1,902",
+        "delta": "+1.18%",
+        "trend": "up"
+      }
+    },
+    "stat_fg": {
+      "type": "Stat",
+      "props": {
+        "label": "Fear & Greed",
+        "value": "31",
+        "delta": "-3",
+        "trend": "down"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_breadth": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_breadth24h",
+        "text_breadth7d"
+      ]
+    },
+    "text_breadth24h": {
+      "type": "Text",
+      "props": {
+        "text": "Breadth 24h: 16/20 (flip from 6/20)",
+        "variant": "body"
+      }
+    },
+    "text_breadth7d": {
+      "type": "Text",
+      "props": {
+        "text": "Breadth 7d: 8/20",
+        "variant": "body"
+      }
+    },
+    "text_tvl": {
+      "type": "Text",
+      "props": {
+        "text": "TVL: mixed",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_narratives": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Narratives",
+        "level": "h3"
+      }
+    },
+    "stack_narratives": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_privacy",
+        "badge_hype",
+        "badge_portal"
+      ]
+    },
+    "badge_privacy": {
+      "type": "Badge",
+      "props": {
+        "text": "Privacy XMR/ZEC (rising)",
+        "variant": "default"
+      }
+    },
+    "badge_hype": {
+      "type": "Badge",
+      "props": {
+        "text": "HYPE perp DEX (rising)",
+        "variant": "default"
+      }
+    },
+    "badge_portal": {
+      "type": "Badge",
+      "props": {
+        "text": "PORTAL gaming (emerging)",
+        "variant": "default"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stat_hotmarket": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC up or down Aug 17?",
+        "value": "UP",
+        "delta": "80.5%",
+        "trend": "up"
+      }
+    }
+  }
+}
