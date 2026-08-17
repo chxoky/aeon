@@ -1,0 +1,125 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "Heartbeat"
+      },
+      "children": [
+        "main_stack"
+      ]
+    },
+    "main_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "status_badge",
+        "alert_section",
+        "sep1",
+        "timeline_section",
+        "sep2",
+        "issue_section"
+      ]
+    },
+    "status_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "🔴 FAILED",
+        "variant": "destructive"
+      }
+    },
+    "alert_section": {
+      "type": "Alert",
+      "props": {
+        "title": "trader-memory-compact stuck",
+        "message": "Dispatched 2026-08-16 20:58 UTC (~23h ago), last_status still 'dispatched'",
+        "type": "error"
+      }
+    },
+    "sep1": {
+      "type": "Separator"
+    },
+    "timeline_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "timeline_heading",
+        "dispatch_text",
+        "last_success_text",
+        "previous_failure_text"
+      ]
+    },
+    "timeline_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Timeline",
+        "level": "h4"
+      }
+    },
+    "dispatch_text": {
+      "type": "Text",
+      "props": {
+        "text": "Dispatched: 2026-08-16 20:58 UTC (~23h ago)",
+        "variant": "body"
+      }
+    },
+    "last_success_text": {
+      "type": "Text",
+      "props": {
+        "text": "Last success: 2026-08-09 (weekly)",
+        "variant": "body"
+      }
+    },
+    "previous_failure_text": {
+      "type": "Text",
+      "props": {
+        "text": "Run failed once before dispatch: 2026-08-16 20:51 UTC",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator"
+    },
+    "issue_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "issue_heading",
+        "file_size_text",
+        "action_text"
+      ]
+    },
+    "issue_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "File Size Issue",
+        "level": "h4"
+      }
+    },
+    "file_size_text": {
+      "type": "Text",
+      "props": {
+        "text": "traders.md is oversize: ~199KB (limit: 150KB)",
+        "variant": "body"
+      }
+    },
+    "action_text": {
+      "type": "Text",
+      "props": {
+        "text": "Action needed: Manual re-run or investigation",
+        "variant": "lead"
+      }
+    }
+  }
+}
