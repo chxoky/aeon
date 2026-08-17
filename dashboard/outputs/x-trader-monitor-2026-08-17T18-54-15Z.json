@@ -1,0 +1,119 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "main-stack"
+      ]
+    },
+    "main-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "calibration-heading",
+        "tweet-section",
+        "separator1",
+        "analysis-section"
+      ]
+    },
+    "calibration-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration — @Wild_Randomness",
+        "level": "h3"
+      }
+    },
+    "tweet-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event-label",
+        "tweet-card",
+        "tweet-link"
+      ]
+    },
+    "event-label": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @50ptMAE",
+        "variant": "muted"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Yes, they are wrong because it already started"
+      }
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/Wild_Randomness/status/2089424750615691410"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "unable-classify-alert",
+        "context-stack"
+      ]
+    },
+    "unable-classify-alert": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Unable to classify",
+        "message": "What's your read?"
+      }
+    },
+    "context-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context-label",
+        "context-options"
+      ]
+    },
+    "context-label": {
+      "type": "Text",
+      "props": {
+        "text": "Context needed: What does \"it\" refer to?",
+        "variant": "lead"
+      }
+    },
+    "context-options": {
+      "type": "Text",
+      "props": {
+        "text": "Market move, asset, position, or setup?",
+        "variant": "caption"
+      }
+    }
+  }
+}
