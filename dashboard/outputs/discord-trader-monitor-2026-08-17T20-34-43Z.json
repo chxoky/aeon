@@ -1,0 +1,111 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Calibration — HCH — Free"
+      },
+      "children": [
+        "badge",
+        "sep1",
+        "event-section",
+        "sep2",
+        "reply-section",
+        "sep3",
+        "alert"
+      ]
+    },
+    "badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Calibration",
+        "variant": "outline"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "event-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event-heading",
+        "event-text",
+        "event-link"
+      ]
+    },
+    "event-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "event-text": {
+      "type": "Text",
+      "props": {
+        "text": "heartcanhodl's own message 'Welcome!'"
+      }
+    },
+    "event-link": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/i/status/2088315553970819174",
+        "href": "https://x.com/i/status/2088315553970819174"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "reply-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "reply-heading",
+        "reply-text"
+      ]
+    },
+    "reply-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Reply",
+        "level": "h3"
+      }
+    },
+    "reply-text": {
+      "type": "Text",
+      "props": {
+        "text": "1."
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read?",
+        "type": "info"
+      }
+    }
+  }
+}
