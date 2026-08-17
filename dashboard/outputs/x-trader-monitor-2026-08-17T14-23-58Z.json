@@ -1,0 +1,88 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration — @swarmister"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_event",
+        "badge_reply",
+        "tweet_card",
+        "sep_1",
+        "alert_classification",
+        "text_interpretations",
+        "link_tweet"
+      ]
+    },
+    "heading_event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "badge_reply": {
+      "type": "Badge",
+      "props": {
+        "text": "Brief reply to @0xpupupu",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "text": "@0xpupupu Betcoen"
+      },
+      "children": []
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert_classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Reply-dependent context unavailable (original @0xpupupu message not in payload). No financial signal detected.",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "text_interpretations": {
+      "type": "Text",
+      "props": {
+        "text": "Possible interpretations: typo (\"Between\"), ticker mention, or platform banter.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/swarmister/status/2089356436941816100"
+      },
+      "children": []
+    }
+  }
+}
