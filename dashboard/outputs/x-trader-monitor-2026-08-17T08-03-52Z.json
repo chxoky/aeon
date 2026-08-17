@@ -1,0 +1,77 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "separator-1",
+        "context-stack"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Bitcoin_Astro",
+        "handle": "@Bitcoin_Astro",
+        "text": "So far I have predicted Bitcoin and Silver tops, using whichcraft"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "context-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "chart-info",
+        "thesis-info",
+        "view-link"
+      ]
+    },
+    "chart-info": {
+      "type": "Text",
+      "props": {
+        "text": "Silver chart (1W, 25yr view) shows ATH near $81.60. Post reinforces trader's bearish macro stance."
+      },
+      "children": []
+    },
+    "thesis-info": {
+      "type": "Text",
+      "props": {
+        "text": "Converges with broader macro bearish thesis: KillaXBT accumulation base, WR commodities caution, HCH metal shorts (XAU/XAG Aug 13)."
+      },
+      "children": []
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/Bitcoin_Astro/status/2089260973869719925"
+      },
+      "children": []
+    }
+  }
+}
