@@ -1,0 +1,150 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X-Trader Monitor: US 10Y Bond Seasonality Pattern"
+      },
+      "children": [
+        "author_info",
+        "sep1",
+        "observation_heading",
+        "observation_text",
+        "sep2",
+        "technical_heading",
+        "consolidation_stat",
+        "support_stat",
+        "resistance_stat",
+        "historical_stat",
+        "sep3",
+        "discord_heading",
+        "discord_text",
+        "sep4",
+        "macro_heading",
+        "macro_text",
+        "sep5",
+        "post_link"
+      ]
+    },
+    "author_info": {
+      "type": "Text",
+      "props": {
+        "text": "🐦 @Wild_Randomness",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "observation_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "US 10Y Bond Seasonality Pattern Observation",
+        "level": "h2"
+      }
+    },
+    "observation_text": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to @ferrumdeauratum sharing Discord screenshot: US 10Y yield 1D chart (Apr ~4.22→Aug ~4.71-4.75 consolidation) + seasonal volatility discussion."
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "technical_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Technical Levels",
+        "level": "h3"
+      }
+    },
+    "consolidation_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Consolidation Range",
+        "value": "4.71 - 4.75"
+      }
+    },
+    "support_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Support Range",
+        "value": "4.36 - 4.39"
+      }
+    },
+    "resistance_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Resistance Range",
+        "value": "4.687 - 4.75"
+      }
+    },
+    "historical_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Historical Movement",
+        "value": "4.22 (Apr) → 4.71-4.75 (Aug)"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "discord_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Discord Context",
+        "level": "h3"
+      }
+    },
+    "discord_text": {
+      "type": "Text",
+      "props": {
+        "text": "\"Don't look at bond seasonality 😂\"\n\"Bonds like to freak out in the fall that's all I know\""
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "macro_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Macro Context",
+        "level": "h3"
+      }
+    },
+    "macro_text": {
+      "type": "Text",
+      "props": {
+        "text": "Macro market observation on bond volatility structure and anticipated seasonal disruption. No personal execution language. Chart-validated bond market structure. Historical pattern: anticipating fall volatility spikes."
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "post_link": {
+      "type": "Link",
+      "props": {
+        "label": "View original post",
+        "href": "https://x.com/Wild_Randomness/status/2089345642065961401"
+      }
+    }
+  }
+}
