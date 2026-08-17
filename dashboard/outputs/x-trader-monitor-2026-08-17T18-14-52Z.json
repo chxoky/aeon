@@ -1,0 +1,81 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X-Trader Monitor"
+      },
+      "children": [
+        "heading_calibration",
+        "separator_1",
+        "text_event",
+        "separator_2",
+        "tweet_post",
+        "separator_3",
+        "stack_analysis"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h2"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: X reply to @based16z",
+        "variant": "lead"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "tweet_post": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "-30 bps"
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "stack_analysis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert_unable_to_classify",
+        "text_context"
+      ]
+    },
+    "alert_unable_to_classify": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read?",
+        "type": "info"
+      }
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "Context: -30 bps could be a price level, market move, or conviction statement on any asset without ticker/direction clarity.",
+        "variant": "caption"
+      }
+    }
+  }
+}
