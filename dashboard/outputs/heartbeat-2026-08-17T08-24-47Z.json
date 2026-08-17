@@ -1,0 +1,23 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Heartbeat"
+      },
+      "children": [
+        "alert_stuck"
+      ]
+    },
+    "alert_stuck": {
+      "type": "Alert",
+      "props": {
+        "title": "STUCK: trader-memory-compact",
+        "message": "Dispatched 2026-08-16 20:58 UTC (~11h ago), status never resolved. Prior failure at 20:51 UTC (traders.md ~199KB, OVERSIZE). Second dispatch appears to have hung. Uncompacted trader data accumulating. Manual re-dispatch or debug needed today.",
+        "type": "error"
+      }
+    }
+  }
+}

@@ -1,14 +1,1 @@
-HEARTBEAT_OK · STATUS_PAGE=OK
-
-**Summary of checks (20:00 UTC, 2026-08-16):**
-
-| Check | Result |
-|-------|--------|
-| P0 — Skill health | ✅ All 9 enabled skills at success, 0 consecutive failures |
-| P0 — X webhook (WATCHED_TRADERS) | ✅ Active (`is_effect: 1`) |
-| P1 — Open PRs / urgent issues | ✅ None |
-| P2 — Flagged memory items | ✅ traders.md OVERSIZE deduped (within 48h; trader-memory-compact runs this slot) |
-| P3 — Missing scheduled skills | ✅ All on schedule; trader-memory-compact due tonight (1× interval, not >2×) |
-| Token pulse | — No token-report files found |
-
-Overall: **🟢 OK** — no notification sent. `docs/status.md` updated with 20:00 UTC timestamp and `skill-health`'s fresh 18:21 UTC run now in the table.
+🔴 STUCK: trader-memory-compact — dispatched 2026-08-16 20:58 UTC (~11h ago), status never resolved. Prior failure at 20:51 UTC (traders.md ~199KB, OVERSIZE). Second dispatch appears to have hung. Uncompacted trader data accumulating. Manual re-dispatch or debug needed today.
