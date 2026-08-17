@@ -1,0 +1,264 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "BTC Consolidation Structure — Observing",
+        "description": "Technical analysis from @Wild_Randomness on X"
+      },
+      "children": [
+        "tweet_header",
+        "separator_1",
+        "asset_section",
+        "separator_2",
+        "tech_analysis",
+        "separator_3",
+        "sentiment_section",
+        "separator_4",
+        "link_section"
+      ]
+    },
+    "tweet_header": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Multi-timeframe technical analysis: 4 charts showing (1) 5m intraday +1.32% recovery, (2) 1d 3-month consolidation Jun-Aug with 62K-63K shaded zone, (3) 5m marked event on Jul 27 major liquidation spike, (4) 1d multiple pivot points mapping entry/exit/support/resistance zones (60K-67.5K)."
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "asset_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "asset_badge"
+      ]
+    },
+    "asset_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "$BTC",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "tech_analysis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tech_heading",
+        "chart_stack"
+      ]
+    },
+    "tech_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Technical Analysis — 4 Charts",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "chart_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "chart_1",
+        "chart_2",
+        "chart_3",
+        "chart_4"
+      ]
+    },
+    "chart_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "chart_1_label",
+        "chart_1_stat"
+      ]
+    },
+    "chart_1_label": {
+      "type": "Text",
+      "props": {
+        "text": "(1) 5m Intraday",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "chart_1_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Recovery",
+        "value": "+1.32%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "chart_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "chart_2_label",
+        "chart_2_text"
+      ]
+    },
+    "chart_2_label": {
+      "type": "Text",
+      "props": {
+        "text": "(2) 1d 3-month Consolidation (Jun-Aug)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "chart_2_text": {
+      "type": "Text",
+      "props": {
+        "text": "62K-63K shaded zone",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "chart_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "chart_3_label",
+        "chart_3_text"
+      ]
+    },
+    "chart_3_label": {
+      "type": "Text",
+      "props": {
+        "text": "(3) 5m Marked Event — Jul 27",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "chart_3_text": {
+      "type": "Text",
+      "props": {
+        "text": "Major liquidation spike",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "chart_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "chart_4_label",
+        "chart_4_text"
+      ]
+    },
+    "chart_4_label": {
+      "type": "Text",
+      "props": {
+        "text": "(4) 1d Pivot Points",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "chart_4_text": {
+      "type": "Text",
+      "props": {
+        "text": "Entry/exit/support/resistance zones (60K-67.5K)",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "sentiment_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sentiment_heading",
+        "sentiment_query",
+        "sentiment_text"
+      ]
+    },
+    "sentiment_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Market Sentiment",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "sentiment_query": {
+      "type": "Text",
+      "props": {
+        "text": "Query sentiment: \"Observing?\"",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "sentiment_text": {
+      "type": "Text",
+      "props": {
+        "text": "Watching BTC consolidation structure awaiting directional breakout. No personal execution language. Informational market-structure observation.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator_4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link_section": {
+      "type": "Link",
+      "props": {
+        "label": "View post on X",
+        "href": "https://x.com/Wild_Randomness/status/2089348381814784076"
+      },
+      "children": []
+    }
+  }
+}
