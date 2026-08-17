@@ -699,11 +699,11 @@
 ## Stoiiic
 - Platforms: X (primary)
 - Current open positions: (new trader, unknown open positions)
-- Recent thesis: Balance trading framework focus (passive + aggressive spot buying/selling as confluence); interested in value extremes being revisited/broken vs. 2-POC setup; BTC rotational balance zone analysis (H4 timeframe)
+- Recent thesis: Balance trading framework focus (passive + aggressive spot buying/selling as confluence); interested in value extremes being revisited/broken vs. 2-POC setup; BTC rotational balance zone analysis (H4 timeframe); TPO/CVD market structure observation
 - Conviction notes: Technical analyst with focus on value areas (POC/VAH), volume profile, and balance trading mechanics; ~50% non-financial/motivational posts consistent with fitness/philosophy content distribution
-- Last seen: 2026-08-16T07:00:12Z (X — motivational post "do hard things" philosophy reminder)
+- Last seen: 2026-08-17T05:25:42Z (X — TPO/CVD analysis on BTC value migration and market structure)
 - **Events (rolling):**
-  - Aug 13 18:00Z — informational-technical: X "$BTC H4 — rotational balance zone with 3 scenarios: (1) sweep/absorb/reclaim; (2) POC rotate to VAH (requires sustained bid, not yet confirmed); (3) passive bid exhaustion + reflexive rejection"; chart-driven technical analysis with annotated setups on BTC H4; mentions forthcoming thread on balance trading framework; currently "sitting on hands through diminished vol"; no personal trade execution language; alerted [$BTC] [2087962518623072525]
+  - Aug 17 05:25Z — informational-technical: X "TPO\n\n> clear value migration lower last week.\n\n> slight buy side skew which absorbed some selling to stop the slow grind down for now with TPO inefficiencies left behind requires work through squeeze and aggression/initiative buying (not seeing anything substantial yet, observe NYO)." + 1 BTC TPO/CVD chart (volume profile, value area, accumulated delta indicators); technical analysis on market structure showing POC migration downward over past week; slight buy-side absorption halting decline; awaiting New York Open for initiative buying confirmation; no personal trade execution language; alerted [$BTC] [2089222115526332471]
 
 ## Wild_Randomness
 - Platforms: X only

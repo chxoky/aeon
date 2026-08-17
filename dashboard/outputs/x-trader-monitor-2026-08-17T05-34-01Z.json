@@ -1,0 +1,41 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "🐦 x-trader-monitor"
+      },
+      "children": [
+        "tweet",
+        "separator",
+        "link"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "Stoiiic",
+        "text": "TPO\n\nclear value migration lower last week.\n\nslight buy side skew which absorbed some selling to stop the slow grind down for now with TPO inefficiencies left behind requires work through squeeze and aggression/initiative buying (not seeing anything substantial yet, observe NYO).\n\nChart shows BTC value area shifted lower over the week; buy-side absorption halting decline; awaiting initiative buying confirmation at NYO."
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Stoiiic/status/2089222115526332471"
+      },
+      "children": []
+    }
+  }
+}
