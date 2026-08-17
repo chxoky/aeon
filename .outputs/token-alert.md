@@ -1,17 +1,13 @@
-TOKEN_ALERT_OK. No alerts triggered. Here's the summary:
+Token-alert complete. No anomalies detected across all three tracked tokens.
 
 ## Summary
 
-**Skill:** `token-alert` — 2026-08-16
+**Prices fetched (CoinGecko, 2026-08-17):**
 
-**Tokens checked:** BTC, ETH, SOL (from `memory/MEMORY.md` Tracked Tokens)
+| Token | Price     | 24h Change | 24h Vol         | Threshold | Alert? |
+|-------|-----------|------------|-----------------|-----------|--------|
+| BTC   | $63,550   | +0.95%     | $15.25B         | 5%        | No     |
+| ETH   | $1,898.47 | +1.07%     | $5.62B          | 8%        | No     |
+| SOL   | $75.40    | +0.26%     | $1.13B          | 10%       | No     |
 
-| Token | Price | 24h Change | Threshold | Alert |
-|-------|-------|------------|-----------|-------|
-| BTC | $62,970 | +0.05% | 5% | No |
-| ETH | $1,878.82 | +0.09% | 8% | No |
-| SOL | $75.22 | +0.07% | 10% | No |
-
-**No anomalies detected.** All 24h price changes are well below thresholds. Volume shows no spike — DEX volume is down 26% today in a broad sideways risk-off tape (breadth 3/20).
-
-**Files modified:** `memory/logs/2026-08-16.md` — appended `token-alert` log entry with current prices for next comparison baseline (first SOL absolute price recorded).
+**Notable:** Volume is elevated vs yesterday (BTC 1.73x, ETH 2.14x, SOL 1.97x) but none cross the 3x spike threshold. All price moves are well within thresholds — the tape remains consistent with the ongoing chop/risk-off regime. No notification sent. Prices logged to `memory/logs/2026-08-17.md` for next comparison.
