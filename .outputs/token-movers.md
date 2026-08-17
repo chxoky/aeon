@@ -1,21 +1,40 @@
-The temp files couldn't be removed (sandbox restriction), but they're inconsequential. The run is complete.
+*Token Movers — 2026-08-17*
 
-## Summary
+_Modest broad recovery — BTC +0.9% to $63.5K, ~80% of top-cap alts green; privacy (ZEC +6%) and DeFi blue chips lead; BTW reverses hard [TRENDING+UP]; losers thin as market flips from yesterday's risk-off._
 
-**Token Movers — Aug 16, 2026**
+*Top Winners (24h)*
+1. BTW (Bitway) — $0.363  +16.7%  •  $49.7M / #64  [TRENDING+UP][BREAKOUT]
+2. PUMP (Pump.fun) — $0.00298  +7.7%  •  $77.1M / #60  [TRENDING+UP]
+3. ZEC (Zcash) — $513.54  +6.0% / 7d +1.1% / 1h +4.4%  •  $173M / #14  [MAJOR]
+4. MORPHO — $2.06  +4.7% / 7d +5.2% / 1h +0.3%  •  $15.6M / #50
+5. ONDO — $0.338  +4.5% / 7d -4.0% / 1h +0.6%  •  $52.8M / #44
+6. HYPE — $59.41  +4.3% / 7d +9.3% / 1h +1.1%  •  $200M / #9  [MAJOR]
+7. RAIN — $0.01301  +2.6% / 7d +3.6% / 1h +0.1%  •  $30.9M / #12  [MAJOR]
+8. NEAR — $1.64  +2.2% / 7d -0.3% / 1h +0.6%  •  $69.3M / #38
+9. MNT (Mantle) — $0.446  +2.0% / 7d +4.2% / 1h -0.3%  •  $17.7M / #49
+10. XMR (Monero) — $418  +1.5% / 7d +5.9% / 1h +0.5%  •  $72.8M / #15  [MAJOR]
 
-**Data:** Fetched CoinGecko top 250 by market cap + trending 15 coins via curl+jq and WebFetch fallback.
+*Top Losers (24h)*
+_Market mostly green; major-cap losers thin_
+1. CASHCAT — $0.105  -11.6%  •  $16.6M / #234  [TRENDING+DOWN]
+2. ANSEM (The Black Bull) — $0.229  -4.7%  •  $8.4M / #250
+3. SHIB — $0.00000444  -1.3% / 7d -5.2% / 1h +0.3%  •  $45.2M / #34
+4. GRAM (TON) — $1.33  -0.8% / 7d -0.6% / 1h -0.3%  •  $15M / #25
+5. CC (Canton) — $0.0957  -0.6% / 7d -4.4% / 1h +0.9%  •  $6M / #24
 
-**Market pulse:** 47/105 top-100 coins red vs 29 green; median change ~0.0% — lean risk-off but mostly flat, with one major outlier.
+*Trending*
+1. BTW (Bitway) — #64, $0.363, +16.7%  [TRENDING+UP]
+2. ACE (Fusionist) — #883, $0.149, -1.4%
+3. PORTAL — #916, $0.017, +49.2%  [PUMP-RISK]
+4. BTC — #1, $63.5K, +0.9%
+5. ETH — #2, $1,903, +1.4%
+6. TAO (Bittensor) — #42, $197, +0.6%
+7. CASHCAT — #234, $0.105, -11.6%  [TRENDING+DOWN]
 
-**Top story — CYS (Cysic):** -53.4% on $171M volume (1.55× daily market cap). Cysic was the ZK-prover breakout from Aug 8/11; it's now fully unwinding. [CAPITULATION][TRENDING+DOWN].
-
-**Two breakouts — Q (Quack AI) +17.9% (7d +31.9%) and H (Humanity) +15.9% (7d +103.9%):** Both qualify as [BREAKOUT] — sustained moves, not flash pumps.
-
-**Skipped:** BTW (+5.5% today) — it was yesterday's [BREAKOUT] at +21% per Aug 14 logs, same direction, no new tag.
-
-**AKE noted in Notable:** Yesterday's PUMP-RISK (+89%) is now -8.7% — pump unwinding.
-
-**Notification:** Written to `.pending-notify/1786882782.md` for post-run delivery to configured channels (Telegram/Discord/Slack).
-
-**Log:** Appended to `memory/logs/2026-08-16.md`.
+*Notable*
+• BTW [TRENDING+UP][BREAKOUT]: +16.7% reversing yesterday's -2.6%; 7d was +48.8% — momentum intact, structural move
+• PORTAL #916 +49.2% [PUMP-RISK]: not in top 250, low-mcap spike dominating search — manipulation risk high, avoid
+• CASHCAT [TRENDING+DOWN]: -11.6% as meme-reflexivity cycle (per trading_axe) faces distribution
+• PUMP [TRENDING+UP]: back-to-back green sessions +7.7%, rank 60 watching
+• UNI 7d -19.7%: largest major-cap weekly loser in dataset; bouncing +0.8% today
+• LINK 7d +14.9%: strongest major-cap weekly run; #16 holding structural bid
