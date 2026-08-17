@@ -701,7 +701,7 @@
 - Recent thesis: Multi-timeframe confluence analyst using astro/Gann timing. Jul 20 predicted 67K-68K ceiling — HIGH came Jul 21 at 67K (confirmed). 15-20 August window = "one of most important" per August report. After 2-month tight BTC range, expects much larger move approaching. Sep 23-30 = "price meets time" (Saturn/Gann major trend change). Total Solar Eclipse Aug 12 = watch date for potential turning point.
 - Conviction notes: Meaningful posts name their topic. Cryptic one-liners require calibration. Patreon/paid for exact date/level analysis. Use dates as watch calendar, not directional signals unless confirmed. "Sun trine Saturn today...positive price action" = astro-based sentiment (informational only).
 - Calibration: RESOLVED Aug 01 07:04Z ("⬇️⬇️⬇️" aligns with bearish longer-term thesis). PENDING Aug 09 18:32Z ("That's my view" @PartisandeL — reply-dependent). PENDING Aug 09 18:30Z ("15/16 is my time window for change in trend" — asset/direction unclear). PENDING Aug 04 06:54Z ("Fixed what? Please share" — cryptic reply).
-- Last seen: 2026-08-17T08:56:52Z (X — free analysis update announcement on BTC timing window)
+- Last seen: 2026-08-17T22:33:00Z (X — bare t.co link, cryptic post requiring calibration)
 - **Events (rolling):**
   - Aug 17 08:56Z — informational-sharing: X "#Bitcoin Update 17 Aug-FREE to all members" announcement; public release of analysis update (paywall removal for premium content); no specific directional prediction/content revealed in tweet text; t.co link unfetchable; aligns with 15-20 August window importance thesis; no personal trade action; alerted [$BTC] [2089275254296158554]
   - Aug 11 22:21Z — skip: "@Alex_Rramirez You can read the Bible, but alot is somehow coded there...imo if you are looking for cycles is better to look at astrology, planets and their cycles" — personal philosophy/banter, no financial content, no trade signal [$UNKNOWN] [2087303542545477827]
@@ -717,6 +717,7 @@
   - Aug 09 18:30Z — ambiguous: "15/16 is my time window for change in trend" (vs Aug 12); reply-dependent; HR-2 calibration
   - Aug 09 18:32Z — ambiguous: "That's my view and expectations" @PartisandeL; no context; HR-2 calibration
   - Aug 09 22:44Z — ambiguous: "@anak26071 100% https://t.co/..." reply; t.co link inaccessible; "100%" cryptic; HR-2 calibration [2086584386657411302]
+  - Aug 17 22:33Z — ambiguous-cryptic: X post bare t.co URL no explanation; unfetchable shortlink; aligns with cryptic pattern; HR-2 calibration [2089480643818188819]
   - Aug 09 22:44Z — ambiguous: "@Tuan06101992 15/16,also looking at 12th" — continuation of timing window + eclipse; HR-2 calibration persists [2086584537438425315]
   - Aug 10 08:12Z — ambiguous: BTC "#Bitcoin\nAre you" incomplete cryptic text; HR-2 calibration pending [2086727379985064177]
 

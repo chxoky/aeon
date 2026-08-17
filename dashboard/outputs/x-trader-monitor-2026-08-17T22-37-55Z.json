@@ -1,0 +1,63 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading-calibration",
+        "stack-content"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Bitcoin_Astro",
+        "level": "h3"
+      }
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-event",
+        "separator-1",
+        "link-source",
+        "alert-question"
+      ]
+    },
+    "text-event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Bare t.co shortlink posted during 15-20 August \"one of most important\" timing window",
+        "variant": "body"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link-source": {
+      "type": "Link",
+      "props": {
+        "label": "Bitcoin_Astro: https://t.co/RKmKmPNZiZ",
+        "href": "https://t.co/RKmKmPNZiZ"
+      }
+    },
+    "alert-question": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "Unable to classify — what's your read? (Astro analyst, cryptic pattern recurring)"
+      }
+    }
+  }
+}
