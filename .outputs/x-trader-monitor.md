@@ -1,10 +1,7 @@
-🔍 *Calibration — @Wild_Randomness*
+🔍 *Calibration — @trading_axe*
 
-Event: Reply to @50ptMAE 
-@Wild_Randomness: "Yes, they are wrong because it already started"
+Event: Mention thread with URL
+@_gas404 @OrangeSBS @bihozNFTs @dowvvv7 https://t.co/4JYJ1amz3R
 
-Unable to classify — what's your read?
-
-Tweet: https://x.com/Wild_Randomness/status/2089424750615691410
-
-Context needed: What does "it" refer to? Market move, asset, position, or setup?
+Unable to classify — what's the significance of this thread?
+https://x.com/trading_axe/status/2089426656226050105

@@ -1,0 +1,126 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "content_stack"
+      ]
+    },
+    "content_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "header",
+        "event_line",
+        "mentions_line",
+        "classification_alert",
+        "source_link"
+      ]
+    },
+    "header": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @trading_axe",
+        "level": "h2"
+      }
+    },
+    "event_line": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "event_label",
+        "event_badge"
+      ]
+    },
+    "event_label": {
+      "type": "Text",
+      "props": {
+        "text": "Event:",
+        "variant": "body"
+      }
+    },
+    "event_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Mention thread with URL",
+        "variant": "secondary"
+      }
+    },
+    "mentions_line": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "mention_user1",
+        "mention_user2",
+        "mention_user3",
+        "mention_user4",
+        "mention_url"
+      ]
+    },
+    "mention_user1": {
+      "type": "Badge",
+      "props": {
+        "text": "@_gas404",
+        "variant": "outline"
+      }
+    },
+    "mention_user2": {
+      "type": "Badge",
+      "props": {
+        "text": "@OrangeSBS",
+        "variant": "outline"
+      }
+    },
+    "mention_user3": {
+      "type": "Badge",
+      "props": {
+        "text": "@bihozNFTs",
+        "variant": "outline"
+      }
+    },
+    "mention_user4": {
+      "type": "Badge",
+      "props": {
+        "text": "@dowvvv7",
+        "variant": "outline"
+      }
+    },
+    "mention_url": {
+      "type": "Link",
+      "props": {
+        "label": "https://t.co/4JYJ1amz3R",
+        "href": "https://t.co/4JYJ1amz3R"
+      }
+    },
+    "classification_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's the significance of this thread?",
+        "type": "warning"
+      }
+    },
+    "source_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View original thread",
+        "href": "https://x.com/trading_axe/status/2089426656226050105",
+        "source": "X/Twitter"
+      }
+    }
+  }
+}
