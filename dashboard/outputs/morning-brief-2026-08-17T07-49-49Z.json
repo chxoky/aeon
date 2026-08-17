@@ -1,0 +1,268 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-08-17"
+      },
+      "children": [
+        "focus-section",
+        "sep1",
+        "yesterday-section",
+        "sep2",
+        "running-section"
+      ]
+    },
+    "focus-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus-h",
+        "focus-stack"
+      ]
+    },
+    "focus-h": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h3"
+      }
+    },
+    "focus-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "f1",
+        "f2",
+        "f3"
+      ]
+    },
+    "f1": {
+      "type": "Text",
+      "props": {
+        "text": "trader-memory-compact failed last night — traders.md ~199KB, 32% over limit; risk grows each event"
+      }
+    },
+    "f2": {
+      "type": "Text",
+      "props": {
+        "text": "Stoiiic BTC read published this morning — low-conviction range; Jackson Hole 10 days out"
+      }
+    },
+    "f3": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE: 4-way divergence live — WR dismissive vs HCH/KillaXBT/bull_genius bullish; +4.3% today"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "yesterday-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "yesterday-h",
+        "yesterday-stack"
+      ]
+    },
+    "yesterday-h": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h3"
+      }
+    },
+    "yesterday-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "y1",
+        "y2",
+        "y3",
+        "y4"
+      ]
+    },
+    "y1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "y1b",
+        "y1t"
+      ]
+    },
+    "y1b": {
+      "type": "Badge",
+      "props": {
+        "text": "resolved",
+        "variant": "secondary"
+      }
+    },
+    "y1t": {
+      "type": "Text",
+      "props": {
+        "text": "ARB unlock absorbed — no sustained impact, absent from today's movers"
+      }
+    },
+    "y2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "y2b",
+        "y2t"
+      ]
+    },
+    "y2b": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "y2t": {
+      "type": "Text",
+      "props": {
+        "text": "Breadth flipped 6/20 → 16/20; ZEC +6%, MORPHO +4.7%, HYPE +4.3% leading; meme fading (CASHCAT -11.6%)"
+      }
+    },
+    "y3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "y3b",
+        "y3t"
+      ]
+    },
+    "y3b": {
+      "type": "Badge",
+      "props": {
+        "text": "stuck",
+        "variant": "destructive"
+      }
+    },
+    "y3t": {
+      "type": "Text",
+      "props": {
+        "text": "trader-memory-compact dispatch failed 20:51 UTC — traders.md still OVERSIZE, needs manual trigger or debug"
+      }
+    },
+    "y4": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "y4b",
+        "y4t"
+      ]
+    },
+    "y4b": {
+      "type": "Badge",
+      "props": {
+        "text": "watch",
+        "variant": "outline"
+      }
+    },
+    "y4t": {
+      "type": "Text",
+      "props": {
+        "text": "WR ETH binary — ETH bounced to $1,902 (above prior key level); resolution Aug 23 (6 days)"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "running-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "running-h",
+        "running-stack"
+      ]
+    },
+    "running-h": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h3"
+      }
+    },
+    "running-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5"
+      ]
+    },
+    "r1": {
+      "type": "Text",
+      "props": {
+        "text": "token-alert, token-movers @ 12:00 UTC"
+      }
+    },
+    "r2": {
+      "type": "Text",
+      "props": {
+        "text": "market-context-refresh @ 13:00 UTC"
+      }
+    },
+    "r3": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC"
+      }
+    },
+    "r4": {
+      "type": "Text",
+      "props": {
+        "text": "skill-health @ 18:00 UTC"
+      }
+    },
+    "r5": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 08:00, 14:00, 20:00 UTC"
+      }
+    }
+  }
+}
