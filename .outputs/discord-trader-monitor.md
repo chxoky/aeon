@@ -1,14 +1,21 @@
+Perfect! The skill has been successfully executed. Here's what was processed:
+
 ## Summary
 
-Executed discord-trader-monitor skill for HeartCanHodl's Discord Chat message.
+**Event processed**: Discord message from HeartCanHodl at 2026-08-17T20:22:36Z
 
-**Classification:** Technical-check (false-close chart observation on PUMP 1hr)
-- **Trader:** HeartCanHodl (verified) 
-- **Channel:** 1023638573313966212 (HCH — Chat, supporting/member Q&A)
-- **Message:** "Fc pump 1hr"
-- **Fast-path alerted:** true (Cloudflare Worker already sent Telegram; skipped redundant alert)
+**Classification**: Trade conviction add on HYPE short
+- **Channel**: 1279738718680256553 (HCH — Trades, primary channel)
+- **Message**: "Add 1% hype short"
+- **Message ID**: 1539006558577360936
+- **Alerted**: No (fast-path already sent by Cloudflare Worker)
 
-**Decision:** Silent log per HR-1 protocol. "Fc" = false-close chart check is a resolved calibration pattern (15+ occurrences). No trade action, no execution language—purely technical observation. No Kyle notification needed.
+**Action taken**:
+1. ✅ **Traders.md updated**:
+   - Last seen: Updated to Aug 17 20:22:36Z
+   - Event logged: Added to rolling events with full classification
+   - Position summary: HYPE short escalated from 1% → 2%
+   - Net short overlay: Updated from ~29.5% → ~30.5%
 
 **Memory updated:**
 - discord-trader-seen.txt: added message ID `1539005880777965580`
@@ -29,3 +36,10 @@ Executed `discord-trader-monitor` skill successfully.
 - ✅ Logged event to `memory/logs/2026-08-17.md`
 
 No notification sent (technical-check classification with no trade signal).
+2. ✅ **Memory log updated**: Full event entry added to memory/logs/2026-08-17.md
+
+3. ✅ **Dedup tracking**: Message ID added to discord-trader-seen.txt (now 159 tracked IDs)
+
+**Context**: HYPE was re-entered on Aug 07 at 1% (after full closure on Jul 31). This Aug 17 20:22Z conviction add escalates the position as part of HCH's systematic short basket maintenance within the net-short regime (since Aug 07).
+
+The fast-path notification was already delivered to Kyle via Telegram within 2-5 seconds of the message. The skill has completed memory and audit logging per the skill protocol.
