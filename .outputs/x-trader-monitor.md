@@ -9,3 +9,9 @@ Technical structure: V-shaped recovery from ~100-110 lows to current 148.48; fir
 Aligns with prior Aug 06 unlock timeline analysis. Informational outlook post-TP, no personal action.
 
 [View post](https://x.com/Wild_Randomness/status/2089354164514251200)
+🔍 *Calibration — @Wild_Randomness*
+
+Event: Unknown (new trader)
+@Wild_Randomness: "Re"
+
+Unable to classify — what's your read?
