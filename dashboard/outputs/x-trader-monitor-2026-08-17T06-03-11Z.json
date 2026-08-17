@@ -1,0 +1,31 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet",
+        "link"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "@bull_genius",
+        "text": "July value held, now tapping August POC+7D RVWAP from below. Everything cluttered in a $2500 zone—suspense building, impulse still ahead.\n\nETH above 90D RVWAP whole August. HYPE stopped downtrending and forms something here. Summer lull ending in couple weeks → we trend and see what's what.\n\nCool on-chain (hooks, RWA, fomo app surge) suggest brighter future in some months, but recently turned more PvP. Many say end-of-bear-wipe between us and bright times; not confident on that prediction."
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/bull_genius/status/2089229907180089734"
+      }
+    }
+  }
+}

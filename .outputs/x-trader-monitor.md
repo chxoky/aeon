@@ -24,3 +24,12 @@ This tweet is a casual good-morning greeting to another trader—zero financial 
 4. ✅ No event line added to `traders.md` (per size discipline rules)
 
 Skill execution complete. No notification was sent.
+🐦 [X] @bull_genius
+
+July value held, now tapping August POC+7D RVWAP from below. Everything cluttered in a $2500 zone—suspense building, impulse still ahead.
+
+ETH above 90D RVWAP whole August. HYPE stopped downtrending and forms something here. Summer lull ending in couple weeks → we trend and see what's what.
+
+Cool on-chain (hooks, RWA, fomo app surge) suggest brighter future in some months, but recently turned more PvP. Many say end-of-bear-wipe between us and bright times; not confident on that prediction.
+
+[View post](https://x.com/bull_genius/status/2089229907180089734)
