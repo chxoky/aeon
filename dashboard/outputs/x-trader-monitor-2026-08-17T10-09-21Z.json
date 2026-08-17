@@ -1,0 +1,67 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading-calibration",
+        "event-text",
+        "sep-1",
+        "mention-tweet",
+        "sep-2",
+        "classification-alert"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @trading_axe",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "event-text": {
+      "type": "Text",
+      "props": {
+        "text": "Event: No clear external trigger visible (trader posted standalone mention)"
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "mention-tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "trading_axe",
+        "handle": "@trading_axe",
+        "text": "@KayTheDoc 👇"
+      },
+      "children": []
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "classification-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Just a mention + down arrow, no financial content. What's your read?",
+        "type": "warning"
+      },
+      "children": []
+    }
+  }
+}
