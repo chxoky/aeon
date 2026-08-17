@@ -1,0 +1,145 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-stack"
+      ]
+    },
+    "tweet-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "tweet-card",
+        "positions-section",
+        "chart-section"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Position status update with conditional thesis on BTC 65.7K resistance. Currently: Nov IBIT puts (large), Oct ETHA puts, spot long HYPE. Would escalate shorter-term expiries if BTC tags 65s and reverses. Chart: 2w heatmap showing 62.3K-65.7K consolidation zone, high volume cluster validating resistance level reference."
+      }
+    },
+    "positions-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "positions-heading",
+        "positions-stack"
+      ]
+    },
+    "positions-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Current Positions",
+        "level": "h3"
+      }
+    },
+    "positions-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-1",
+        "pos-2",
+        "pos-3"
+      ]
+    },
+    "pos-1": {
+      "type": "Badge",
+      "props": {
+        "text": "Nov IBIT puts (large)",
+        "variant": "default"
+      }
+    },
+    "pos-2": {
+      "type": "Badge",
+      "props": {
+        "text": "Oct ETHA puts",
+        "variant": "default"
+      }
+    },
+    "pos-3": {
+      "type": "Badge",
+      "props": {
+        "text": "Spot long HYPE",
+        "variant": "default"
+      }
+    },
+    "chart-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "chart-heading",
+        "chart-details"
+      ]
+    },
+    "chart-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Technical Setup",
+        "level": "h3"
+      }
+    },
+    "chart-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "chart-1",
+        "chart-2",
+        "chart-3",
+        "chart-4"
+      ]
+    },
+    "chart-1": {
+      "type": "Text",
+      "props": {
+        "text": "Timeframe: 2 week heatmap",
+        "variant": "body"
+      }
+    },
+    "chart-2": {
+      "type": "Text",
+      "props": {
+        "text": "Key resistance: 65.7K BTC",
+        "variant": "body"
+      }
+    },
+    "chart-3": {
+      "type": "Text",
+      "props": {
+        "text": "Consolidation zone: 62.3K–65.7K",
+        "variant": "body"
+      }
+    },
+    "chart-4": {
+      "type": "Text",
+      "props": {
+        "text": "High volume cluster validating resistance level reference",
+        "variant": "body"
+      }
+    }
+  }
+}
