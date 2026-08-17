@@ -1,0 +1,157 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor: $SPCX Trading Insight"
+      },
+      "children": [
+        "tweet_card",
+        "sep1",
+        "technical_section",
+        "sep2",
+        "context_section"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Slow down I wasn't finished flexing my pico top sells! Jokes aside, this is why I TP'd but did not flip short. Wait for the second round of unlocks (red arrow) and go from there. POC is around 155"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "technical_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tech_title",
+        "metrics_grid"
+      ]
+    },
+    "tech_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Technical Structure",
+        "level": "h3"
+      }
+    },
+    "metrics_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat_current",
+        "stat_recovery",
+        "stat_resistance",
+        "stat_poc"
+      ]
+    },
+    "stat_current": {
+      "type": "Stat",
+      "props": {
+        "label": "Current Price",
+        "value": "$SPCX 148.48"
+      }
+    },
+    "stat_recovery": {
+      "type": "Stat",
+      "props": {
+        "label": "V-shaped Recovery Low",
+        "value": "~100–110"
+      }
+    },
+    "stat_resistance": {
+      "type": "Stat",
+      "props": {
+        "label": "First Unlock Resistance",
+        "value": "~160"
+      }
+    },
+    "stat_poc": {
+      "type": "Stat",
+      "props": {
+        "label": "Point of Control (POC)",
+        "value": "~155"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "action_stack",
+        "catalyst_text",
+        "alignment_text",
+        "link_to_post"
+      ]
+    },
+    "action_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_tp",
+        "badge_no_short"
+      ]
+    },
+    "badge_tp": {
+      "type": "Badge",
+      "props": {
+        "text": "TP'd (Took Profit)",
+        "variant": "secondary"
+      }
+    },
+    "badge_no_short": {
+      "type": "Badge",
+      "props": {
+        "text": "Did not flip short",
+        "variant": "outline"
+      }
+    },
+    "catalyst_text": {
+      "type": "Text",
+      "props": {
+        "text": "Awaiting Aug–Sep unlock catalyst for next directional confirmation.",
+        "variant": "body"
+      }
+    },
+    "alignment_text": {
+      "type": "Text",
+      "props": {
+        "text": "Aligns with prior Aug 06 unlock timeline analysis. Informational outlook post-TP, no personal action.",
+        "variant": "caption"
+      }
+    },
+    "link_to_post": {
+      "type": "Link",
+      "props": {
+        "label": "View original post",
+        "href": "https://x.com/Wild_Randomness/status/2089354164514251200"
+      }
+    }
+  }
+}
