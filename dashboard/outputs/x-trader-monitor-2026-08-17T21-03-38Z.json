@@ -1,0 +1,260 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor: Calibration — @Wild_Randomness"
+      },
+      "children": [
+        "event-section",
+        "sep-1",
+        "chart-section",
+        "sep-2",
+        "interpretation-section",
+        "sep-3",
+        "context-section",
+        "sep-4",
+        "question-section"
+      ]
+    },
+    "event-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-event",
+        "text-event",
+        "badge-pump"
+      ]
+    },
+    "heading-event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h2"
+      }
+    },
+    "text-event": {
+      "type": "Text",
+      "props": {
+        "text": "Shared $PUMP ticker + URL link with 2 chart images: (1) Ansem protocol post, (2) PUMP/USDT 5-minute price chart"
+      }
+    },
+    "badge-pump": {
+      "type": "Badge",
+      "props": {
+        "text": "$PUMP",
+        "variant": "default"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "chart-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-chart",
+        "text-pattern",
+        "grid-chart-stats",
+        "text-chart-notes"
+      ]
+    },
+    "heading-chart": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart Data",
+        "level": "h2"
+      }
+    },
+    "text-pattern": {
+      "type": "Text",
+      "props": {
+        "text": "Pattern: Consolidation",
+        "variant": "body"
+      }
+    },
+    "grid-chart-stats": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "stat-price",
+        "stat-high",
+        "stat-low"
+      ]
+    },
+    "stat-price": {
+      "type": "Stat",
+      "props": {
+        "label": "Current Price (5m)",
+        "value": "$0.002961",
+        "delta": "+0.54%",
+        "trend": "up"
+      }
+    },
+    "stat-high": {
+      "type": "Stat",
+      "props": {
+        "label": "Prior High",
+        "value": "$0.002970"
+      }
+    },
+    "stat-low": {
+      "type": "Stat",
+      "props": {
+        "label": "Recent Lows",
+        "value": "$0.002797"
+      }
+    },
+    "text-chart-notes": {
+      "type": "Text",
+      "props": {
+        "text": "No caption, no execution language, no trade direction specified",
+        "variant": "caption"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "interpretation-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-interp",
+        "text-unable",
+        "stack-options"
+      ]
+    },
+    "heading-interp": {
+      "type": "Heading",
+      "props": {
+        "text": "Unable to Classify",
+        "level": "h2"
+      }
+    },
+    "text-unable": {
+      "type": "Text",
+      "props": {
+        "text": "Is this:",
+        "variant": "body"
+      }
+    },
+    "stack-options": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "option-1",
+        "option-2",
+        "option-3"
+      ]
+    },
+    "option-1": {
+      "type": "Text",
+      "props": {
+        "text": "• Bearish signal on PUMP weakness?"
+      }
+    },
+    "option-2": {
+      "type": "Text",
+      "props": {
+        "text": "• Bullish reversal setup?"
+      }
+    },
+    "option-3": {
+      "type": "Text",
+      "props": {
+        "text": "• Just informational price observation?"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-context",
+        "text-position",
+        "text-conviction",
+        "text-context-q"
+      ]
+    },
+    "heading-context": {
+      "type": "Heading",
+      "props": {
+        "text": "Position Context",
+        "level": "h2"
+      }
+    },
+    "text-position": {
+      "type": "Text",
+      "props": {
+        "text": "HeartCanHodl holds 1%+ PUMP short"
+      }
+    },
+    "text-conviction": {
+      "type": "Text",
+      "props": {
+        "text": "Conviction adds: Aug 13, Aug 17",
+        "variant": "caption"
+      }
+    },
+    "text-context-q": {
+      "type": "Text",
+      "props": {
+        "text": "Is WR validating the short thesis or sharing neutral chart analysis?"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "question-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-question"
+      ]
+    },
+    "text-question": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "lead"
+      }
+    }
+  }
+}
