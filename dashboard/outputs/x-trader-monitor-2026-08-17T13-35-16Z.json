@@ -1,0 +1,49 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet",
+        "link_tweet",
+        "observation"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Dangerous games are being played though by \"artificially\" suppressing vol — Bond volatility (ICE BofAML US Bond Market Option Vol Index) now at 69.58, near 6-month lows; chart shows suppression pattern vs prior spikes (86.07, 83.02)."
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/Wild_Randomness/status/2089343099957022723"
+      }
+    },
+    "observation": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "Market structure observation on potential vol manipulation risk in bond markets."
+      }
+    }
+  }
+}
