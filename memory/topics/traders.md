@@ -25,8 +25,9 @@
 - Last seen: 2026-08-14T19:24:05Z (Discord Chat supporting — bullish BTC sentiment, 61k target affirmation in member Q&A)
 - **Events (rolling):**
   - Aug 14 19:24Z — informational-sentiment: DC Chat "Here to higher 61k" (reply to skellymode, referenced_message: "Take some profit on shorts?"); supporting-channel member Q&A on BTC directional sentiment; bullish conviction statement on targeting 61k price level; no new trade execution language; context: HCH responding to profit-taking question with bullish outlook affirmation; silent log [$BTC] [1537904666447192094]
-- Last seen: 2026-08-17T20:20:00Z (Discord Chat supporting — technical chart check on LIT 1hr)
+- Last seen: 2026-08-17T20:42:17Z (Discord Free — X link share with emoji reaction)
 - **Events (rolling):**
+  - Aug 17 20:42Z — non-financial: DC Free "https://x.com/i/status/2089452414852333824\n\n😄😄" — X post link with happy emoji reaction; primary-channel content sharing, no execution language, no trade action; silent log (non-financial banter) [$UNKNOWN] [1539011511182434354]
   - Aug 17 20:20Z — technical-check: DC Chat "Fc lit 1hr" — false-close chart check on LIT 1hr; supporting-channel technical observation only, no execution language, no trade action; silent log per resolved calibration (Fc = false-close TA check, established pattern 15+ occurrences); LIT currently 2% short position [$LIT] [1539005903783854140]
   - Aug 17 08:58Z — trade-conviction-add: DC Trades "Add 1% each to sndk & cl short" — SNDK new short entry (1%, contrarian to 5-trader bullish semis convergence); CL conviction add (from 1%→2%, ongoing short basket); primary Trades channel; verbatim rule compliance; no attachments; fast-path-alerted [$SNDK $CL] [1538834311774478347]
 - Last seen: 2026-08-17T20:31:38Z (Discord Free — ambiguous cryptic reply "1." to own welcome message)
