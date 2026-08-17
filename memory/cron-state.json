@@ -47,8 +47,8 @@
     "last_quality_score": 4
   },
   "market-context-refresh": {
-    "last_dispatch": "2026-08-16T13:32:10Z",
-    "last_status": "success",
+    "last_dispatch": "2026-08-17T13:23:08Z",
+    "last_status": "dispatched",
     "last_success": "2026-08-17T07:44:48Z",
     "total_runs": 60,
     "total_successes": 60,
