@@ -153,7 +153,7 @@
 - **Alerted**: YES (2026-07-17T13:48:06Z, x-trader-monitor real-time event, DCA plan alert sent)
 - **Last update**: 2026-07-17T13:48:06Z (new DCA plan entry, X post tweet_id=2078114525216157709, x-trader-monitor real-time)
 
-### MU (Micron Technology) — LONG (FRESH DCA PLAN 2026-07-29, 80% TP EXECUTION 2026-08-13)
+### MU (Micron Technology) — LONG (FRESH DCA PLAN 2026-07-29, FULLY CLOSED 2026-08-17)
 - **Entry**: 2026-07-29T21:06:29Z (X post, tweet_id=2082573501102178638)
 - **Entry message**: "Starting $MU here near 700~, leaving room to add towards 600. I don't think these trades will play out as quickly as the previous two and I've sized them conservatively so I have room to average down."
 - **Initial entry level**: Near $700 (market order or near-market fill)
@@ -161,16 +161,19 @@
   - Initial entry: ~$700 (execution on X post)
   - Planned adds: Towards $600 (lower support zone)
   - Conservative sizing with explicit room to average down
-- **Status**: ACTIVE — 80% cumulative closed 2026-08-13T14:56:08Z, 20% remainder held under DCA thesis
-- **Trade alert format**: Step 5c (DCA plan) + Step 5b (partial TP execution on 2026-08-13)
-- **Thesis**: Fresh accumulation cycle on Micron following successful 80% TP close of prior position (Jul 27 at $941). Entry near 700 aligns with longer-term targets (600s identified as possible per Jul 29 20:41Z conviction message). Conservative sizing suggests multi-day/week play with disciplined tiered-exit approach. 80% TP achieved 15 days post-entry (Jul 29 → Aug 13).
-- **Conviction**: MEDIUM-HIGH (fresh entry following profitable close, conservative sizing language, explicit DCA intent; 80% TP execution within 15 days confirms profitable trade flow and disciplined profit-taking)
+- **Status**: CLOSED — 100% position closed 2026-08-17T13:39:43Z
+- **Trade alert format**: Step 5c (DCA plan) + Step 5b (partial TP executions on 2026-08-13 and 2026-08-17)
+- **Thesis**: Fresh accumulation cycle on Micron following successful 80% TP close of prior position (Jul 27 at $941). Entry near 700 aligns with longer-term targets (600s identified as possible per Jul 29 20:41Z conviction message). Conservative sizing suggests multi-day/week play with disciplined tiered-exit approach. 80% TP achieved 15 days post-entry (Jul 29 → Aug 13), final 20% closed Aug 17.
+- **Conviction**: MEDIUM-HIGH (fresh entry following profitable close, conservative sizing language, explicit DCA intent; 80% TP execution within 15 days + final close within 19 days confirms profitable trade flow and disciplined profit-taking)
 - **Context**: First realization of DCA plans discussed in Jul 29 20:41Z informational post (MU targets to 600s). Complements prior Jul 17 DCA entry (~$800) which delivered 80% TP + 20% core remainder held. Pattern consistency confirms Crypto_Chase's systematic tiered-exit discipline.
-- **TP Execution** (Aug 13 14:56:08Z): Discord primary channel message "MU trim at 960~, think that's 80% closed now". Execution at $960 level representing ~37% gain from $700 entry within 15-day hold window. Consistent with documented tiered-exit discipline pattern. Remainder 20% held under original DCA thesis targeting 600s support zone if weakness materializes.
-- **Alerted**: YES (2026-07-29T21:06:29Z entry via x-trader-monitor; 2026-08-13T14:56:08Z 80% TP via discord-trader-monitor, fast-path-alerted=true)
-- **Last update**: 2026-08-13T14:56:08Z (80% TP execution, Discord message_id=1537474847167356958, discord-trader-monitor real-time, fast-path alerted)
+- **TP Execution Progression**:
+  - Aug 13 14:56:08Z: 80% closed at $960 (~37% gain from $700 entry within 15-day hold)
+  - Aug 17 13:39:43Z: Final 20% closed at $1010 (~44% gain from $700 entry; full position exited)
+- **Final P&L**: Fully profitable trade cycle (700→960→1010 progression) across 19-day hold window with disciplined tiered-exit execution.
+- **Alerted**: YES (2026-07-29T21:06:29Z entry via x-trader-monitor; 2026-08-13T14:56:08Z 80% TP via discord-trader-monitor, fast-path-alerted=true; 2026-08-17T13:39:43Z final close via discord-trader-monitor, fast-path-alerted=true)
+- **Last update**: 2026-08-17T13:39:43Z (final position closed, Discord message_id=1538905166634553395, discord-trader-monitor real-time, fast-path alerted)
 
-### SNDK (SanDisk) — LONG (FRESH DCA PLAN 2026-07-29, 80% TP EXECUTION 2026-08-04)
+### SNDK (SanDisk) — LONG (FRESH DCA PLAN 2026-07-29, FULLY CLOSED 2026-08-17)
 - **Entry**: 2026-07-29T21:06:29Z (X post, tweet_id=2082573501102178638)
 - **Entry message**: "Starting $SNDK here at 980~, leaving room to add towards high 800's. I don't think these trades will play out as quickly as the previous two and I've sized them conservatively so I have room to average down."
 - **Initial entry level**: ~$980 (market order or near-market fill)
@@ -178,15 +181,18 @@
   - Initial entry: ~$980 (execution on X post)
   - Planned adds: Towards high 800s (~850-900 zone, lower support)
   - Conservative sizing with explicit room to average down
-- **Status**: ACTIVE — 80% cumulative closed 2026-08-04T15:55:32Z, 20% remainder held under DCA thesis
-- **Trade alert format**: Step 5c (DCA plan) + Step 5b (partial TP execution on 2026-08-04)
-- **Thesis**: Fresh accumulation cycle on SanDisk following successful 80% TP close of prior position (Jul 27 at $1480). Entry near 980 aligns with longer-term technical support zone (900s/800s identified as possible per Jul 29 20:41Z conviction message). Conservative sizing suggests multi-day/week play with disciplined tiered-exit approach. 80% TP achieved 6 days post-entry (Jul 29 → Aug 04).
-- **Conviction**: MEDIUM-HIGH (fresh entry following profitable close, conservative sizing language, explicit DCA intent; 80% TP execution within 6 days confirms profitable trade flow and disciplined profit-taking)
+- **Status**: CLOSED — 100% position closed 2026-08-17T13:39:43Z
+- **Trade alert format**: Step 5c (DCA plan) + Step 5b (partial TP executions on 2026-08-04, 2026-08-13, and final close 2026-08-17)
+- **Thesis**: Fresh accumulation cycle on SanDisk following successful 80% TP close of prior position (Jul 27 at $1480). Entry near 980 aligns with longer-term technical support zone (900s/800s identified as possible per Jul 29 20:41Z conviction message). Conservative sizing suggests multi-day/week play with disciplined tiered-exit approach. 80% TP achieved 6 days post-entry (Jul 29 → Aug 04), 90% TP on Aug 13, final 10% closed Aug 17.
+- **Conviction**: MEDIUM-HIGH (fresh entry following profitable close, conservative sizing language, explicit DCA intent; tiered TP execution confirms profitable trade flow and disciplined profit-taking across 19-day hold window)
 - **Context**: First realization of DCA plans discussed in Jul 29 20:41Z informational post (SNDK targets to 900s/800s). Mirrors prior Jul 16 DCA entry (~$1366) pattern which delivered 80% TP + 20% core remainder held.
-- **TP Execution** (Aug 04 15:55:32Z): Discord primary channel message "80% closed on SNDK". Consistent with documented tiered-exit discipline pattern (50%@1533 Jul 21 → 60%@1675 Jul 23 → 80%@1480 Jul 27 on prior position; now 80% on Jul 29 fresh entry by Aug 04). Exact TP level not specified in announcement; likely $1300-1400 zone based on 6-day market progression from $980 entry. Remainder 20% held under original DCA thesis targeting high 800s support zone if weakness materializes.
-- **TP Execution Update** (Aug 13 15:25:32Z): X post "TP'd more $SNDK here at 1530~\n\n90% closed from 980~ pico bottom entry" (tweet_id=2087923515970171023). Crypto_Chase executes additional TP at $1530 level, bringing cumulative closes to 90% from original $980 entry (Jul 29). Previous 80% TP on Aug 04 likely at lower level (~$1300-1400 estimate based on 6-day progression); current execution at $1530 suggests price moved ~$200-230 higher from Aug 04 close window, validating continuation of profitable trade cycle. Remainder 10% core still held under original DCA thesis. Execution timing: 15:25:32 UTC = afternoon London session, likely mid-day market action. Step 5b classification: partial TP execution, no approval required, mirror immediately + notify Kyle.
-- **Alerted**: YES (2026-07-29T21:06:29Z entry via x-trader-monitor; 2026-08-04T15:55:32Z 80% TP via discord-trader-monitor, fast-path-alerted=true; 2026-08-13T15:25:32Z 90% TP via x-trader-monitor, real-time event)
-- **Last update**: 2026-08-13T15:25:32Z (90% TP execution at $1530, X post tweet_id=2087923515970171023, x-trader-monitor real-time, Step 5b partial TP mirror + notify)
+- **TP Execution Progression**:
+  - Aug 04 15:55:32Z: 80% closed on SNDK (exact level ~$1300-1400 estimated based on 6-day progression from $980)
+  - Aug 13 15:25:32Z: 90% closed at $1530 (~56% gain from $980 entry within 15 days)
+  - Aug 17 13:39:43Z: Final 10% closed at $1740 (~78% gain from $980 entry; full position exited)
+- **Final P&L**: Fully profitable trade cycle (980→1300-1400→1530→1740 progression) across 19-day hold window with disciplined tiered-exit execution. Exceptional risk/reward management with early quick 80% close (Aug 04, 6 days) followed by extended hold on remainder for maximum profits.
+- **Alerted**: YES (2026-07-29T21:06:29Z entry via x-trader-monitor; 2026-08-04T15:55:32Z 80% TP via discord-trader-monitor, fast-path-alerted=true; 2026-08-13T15:25:32Z 90% TP via x-trader-monitor, real-time event; 2026-08-17T13:39:43Z final close via discord-trader-monitor, fast-path-alerted=true)
+- **Last update**: 2026-08-17T13:39:43Z (final position closed, Discord message_id=1538905166634553395, discord-trader-monitor real-time, fast-path alerted)
 
 ## ES (S&P 500 E-mini Futures) — LONG
 - **Entry**: 2026-06-21T23:23Z (dream/gut feeling conviction entry)
