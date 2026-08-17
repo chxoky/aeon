@@ -1,0 +1,169 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Bitcoin_Astro book promotion (non-financial skip)"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "status-badge",
+        "sep-1",
+        "tweet-card",
+        "tweet-id-text",
+        "sep-2",
+        "classification-stack",
+        "sep-3",
+        "memory-stack"
+      ]
+    },
+    "status-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Complete ✓",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Bitcoin_Astro",
+        "text": "\"Harmonic Trading Matrix\" course/book promotion with lifetime Telegram access offer"
+      },
+      "children": []
+    },
+    "tweet-id-text": {
+      "type": "Text",
+      "props": {
+        "text": "ID: 2089480258483605517",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "classification-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-classification",
+        "classification-badge",
+        "classification-desc",
+        "action-alert"
+      ]
+    },
+    "heading-classification": {
+      "type": "Heading",
+      "props": {
+        "text": "Classification & Action",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "classification-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "A. Non-financial",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "classification-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Self-promotional content, no market signal",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "action-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Action",
+        "message": "Silent skip per HR-1 protocol",
+        "type": "info"
+      },
+      "children": []
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "memory-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-memory",
+        "memory-item-1",
+        "memory-item-2",
+        "memory-item-3"
+      ]
+    },
+    "heading-memory": {
+      "type": "Heading",
+      "props": {
+        "text": "Memory",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "memory-item-1": {
+      "type": "Text",
+      "props": {
+        "text": "Tweet ID registered in x-trader-seen.txt",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "memory-item-2": {
+      "type": "Text",
+      "props": {
+        "text": "Event logged to 2026-08-17.md (non-financial skip)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "memory-item-3": {
+      "type": "Text",
+      "props": {
+        "text": "No traders.md event line added (Step 8 protocol for skips)",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
