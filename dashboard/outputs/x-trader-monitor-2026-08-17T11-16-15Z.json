@@ -1,0 +1,42 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "link_tweet",
+        "footer_text"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "On the weekly time frame ($BTC), we see anomalies on both the upper and lower sides, which is typically characteristic of accumulation. However, the second sign of accumulation is increased volume and delta, which we don't see here.\n\nSo it's just a balanced market, a summer lull, and even if there is some kind of breakout, it'll just be to rip off gullible suckers."
+      },
+      "children": []
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/swarmister/status/2089308777380016255"
+      },
+      "children": []
+    },
+    "footer_text": {
+      "type": "Text",
+      "props": {
+        "text": "Weekly consolidation structure, cynical on breakouts. Aligns with group consensus on tight BTC range.",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
