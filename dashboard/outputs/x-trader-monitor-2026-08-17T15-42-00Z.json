@@ -1,0 +1,56 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration"
+      },
+      "children": [
+        "calibration-heading",
+        "event-type",
+        "tweet",
+        "classify-alert",
+        "view-link"
+      ]
+    },
+    "calibration-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration — @swarmister",
+        "level": "h3"
+      }
+    },
+    "event-type": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @0xProfessor_",
+        "variant": "muted"
+      }
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "@0xProfessor_ Yeee looks gud"
+      }
+    },
+    "classify-alert": {
+      "type": "Alert",
+      "props": {
+        "message": "Unable to classify — what's your read?",
+        "type": "info"
+      }
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/swarmister/status/2089376101399191839"
+      }
+    }
+  }
+}
