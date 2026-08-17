@@ -1,0 +1,60 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-card",
+        "separator-1",
+        "view-link",
+        "separator-2",
+        "context-heading",
+        "context-text"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "Like, bros, I mean, check out $SNDK? Or $MU? And remember my trade with SPXC. That was easy.\n\nExtra growth, extra profit, why wait for Bitcoin to break out of the consolidation? Don't waste time, you don't have much of it. Trading rules work in other markets, too.\n\nMost of my profit for the week, while I was at my summer house where the internet connection is spotty, came from steady asset growth, and I didn't have to worry about Bitcoin suddenly going up 10/10 for no reason again.\n\nThere's always an Altszn somewhere"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/swarmister/status/2089295446954909950"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "context-text": {
+      "type": "Text",
+      "props": {
+        "text": "$SNDK = 5-trader bullish convergence (mean-reversion recovery thesis). $MU = contested (HCH short vs others with long history). Informational commentary on profit-taking & altseason conviction."
+      }
+    }
+  }
+}
