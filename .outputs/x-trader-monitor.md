@@ -15,3 +15,4 @@
 - No notification sent
 
 This aligns with HR-1 protocol for non-financial posts: classified, logged, archived—no Kyle notification.
+@swarmister SNDK +600.58% on 20x long validates bullish thesis vs HCH short. https://x.com/swarmister/status/2089280765448065078
