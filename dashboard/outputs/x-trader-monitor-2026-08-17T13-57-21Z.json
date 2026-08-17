@@ -1,0 +1,61 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @Wild_Randomness"
+      },
+      "children": [
+        "event_label",
+        "tweet_card",
+        "media_info",
+        "classification_question",
+        "view_link"
+      ]
+    },
+    "event_label": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Minimal mention + link without context",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "@oldmankotaro https://t.co/1idNHEwmct"
+      },
+      "children": []
+    },
+    "media_info": {
+      "type": "Text",
+      "props": {
+        "text": "Media: Video thumbnail (person, no financial data visible)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "classification_question": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read? Is this financially relevant or should I skip similar minimal-caption posts?",
+        "type": "info"
+      },
+      "children": []
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2089348768269505020"
+      },
+      "children": []
+    }
+  }
+}

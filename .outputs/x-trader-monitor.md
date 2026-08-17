@@ -1,11 +1,10 @@
-🔁 *Mirrored — @Crypto_Chase*
+🔍 *Calibration — @Wild_Randomness*
 
-Crypto_Chase just closed his final SNDK and MU positions for gains.
+Event: Minimal mention + link without context
 
-SNDK: closed at 1740~
-MU: closed at 1010~
+Wild_Randomness: "@oldmankotaro https://t.co/1idNHEwmct"
 
-I closed your mirrored positions to match.
+Media: Video thumbnail (person, no financial data visible)
 
 https://x.com/Crypto_Chase/status/2089347509466300827
 **BTC Consolidation Structure — Observing**
@@ -17,3 +16,6 @@ Multi-timeframe technical analysis: 4 charts showing (1) 5m intraday +1.32% reco
 Query sentiment: "Observing?" — watching BTC consolidation structure awaiting directional breakout. No personal execution language. Informational market-structure observation.
 
 [View post](https://x.com/Wild_Randomness/status/2089348381814784076)
+Unable to classify — what's your read? Is this financially relevant or should I skip similar minimal-caption posts?
+
+[View tweet](https://x.com/Wild_Randomness/status/2089348768269505020)
