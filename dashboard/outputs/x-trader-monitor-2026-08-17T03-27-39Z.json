@@ -1,0 +1,139 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "X-Trader Monitor",
+        "description": "Trading commentary and positions from X"
+      },
+      "children": [
+        "tweet",
+        "chart_sep",
+        "chart_stack",
+        "traders_sep",
+        "traders_stack",
+        "link_sep",
+        "link"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "@Parida Let's not waste our time here"
+      }
+    },
+    "chart_sep": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "chart_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "chart_h",
+        "chart_p1",
+        "chart_p2"
+      ]
+    },
+    "chart_h": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart Context",
+        "level": "h3"
+      }
+    },
+    "chart_p1": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE/TOTAL*100 showing 1D consolidation range + 1W longer-term structure. Price at 0.69 testing support zones.",
+        "variant": "body"
+      }
+    },
+    "chart_p2": {
+      "type": "Text",
+      "props": {
+        "text": "Dismissive commentary on HYPE trading despite recent 3-trader bullish convergence.",
+        "variant": "muted"
+      }
+    },
+    "traders_sep": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "traders_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "traders_h",
+        "traders_items"
+      ]
+    },
+    "traders_h": {
+      "type": "Heading",
+      "props": {
+        "text": "Trader Positions",
+        "level": "h3"
+      }
+    },
+    "traders_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t1",
+        "t2",
+        "t3"
+      ]
+    },
+    "t1": {
+      "type": "Badge",
+      "props": {
+        "text": "HCH: 5% long perps",
+        "variant": "secondary"
+      }
+    },
+    "t2": {
+      "type": "Badge",
+      "props": {
+        "text": "bull_genius: structural bull",
+        "variant": "secondary"
+      }
+    },
+    "t3": {
+      "type": "Badge",
+      "props": {
+        "text": "KillaXBT: entry at $51.55",
+        "variant": "secondary"
+      }
+    },
+    "link_sep": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/Wild_Randomness/status/2089190944512131512"
+      }
+    }
+  }
+}
