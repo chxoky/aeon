@@ -1,0 +1,41 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "separator_1",
+        "link_post"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Roundhill Magnificent Seven ETF ($RMGS): Consolidation at 67.52 with support/resistance levels 71.16 / 69.09 / 69.61 / 62.43 / 60.72\n\niShares PHLX SOX Semiconductor Sector Index ($SOXL): Recovery structure with key levels 655.95 / 563.51 / 464.08, currently 563.09\n\nTechnical price-level observation on Kyle's semiconductor watchlist (bullish 5-trader convergence thesis through Aug 14 vs HCH's Aug 14 SNDK short divergence)."
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2089365689765360038"
+      },
+      "children": []
+    }
+  }
+}
