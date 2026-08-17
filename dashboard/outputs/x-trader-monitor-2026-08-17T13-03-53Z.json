@@ -1,0 +1,49 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "separator_1",
+        "explanation_text",
+        "separator_2",
+        "link_tweet"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "OIH is my largest position. Still long semis names despite actively building IWM and SPX puts for October. Focusing on building gold 2027 calls too (vs miners, energy cost drag)."
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "explanation_text": {
+      "type": "Text",
+      "props": {
+        "text": "Positioning update on barbell thesis: GOLD long + equity put options for jump-the-shark macro bear setup. Aligns with documented conviction (Aug 06 GOLD/IBIT barbell + ongoing IWM/SPX puts scale-in).",
+        "variant": "muted"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2089335956314927376"
+      }
+    }
+  }
+}
