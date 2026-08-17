@@ -1,19 +1,31 @@
-*Morning Brief — 2026-08-17*
+Done. Here's the brief:
 
-*Focus today*
-1. trader-memory-compact failed last night — traders.md ~199KB, 32% over limit; risk grows each event
-2. Stoiiic BTC read published this morning — low-conviction range; Jackson Hole 10 days out
-3. HYPE: 4-way divergence live — WR dismissive vs HCH/KillaXBT/bull_genius bullish; +4.3% today
+---
 
-*Since yesterday*
-- [resolved]: ARB unlock absorbed — no sustained impact, absent from today's movers
-- [moved]: Breadth flipped 6/20 → 16/20; ZEC +6%, MORPHO +4.7%, HYPE +4.3% leading; meme fading (CASHCAT -11.6%)
-- [stuck]: trader-memory-compact dispatch failed 20:51 UTC — traders.md still OVERSIZE, needs manual trigger or debug
-- [watch]: WR ETH binary — ETH bounced to $1,902 (above prior key level); resolution Aug 23 (6 days)
+**Morning Brief — 2026-08-17**
 
-*Running today*
-- token-alert, token-movers @ 12:00 UTC
+**Focus today**
+1. **trader-memory-compact** — why now: failed last night; 199KB traders.md will degrade monitor context
+2. **WR ETH binary** — why now: ETH $1,902 crossed $1,896 entry; WR short offside, Aug 23 resolves
+3. **BTC ETF outflow** — why now: $389.7M largest in 6 weeks; institutional sell vs 14/20 breadth recovery
+
+**Since yesterday**
+- [moved]: ARB unlock absorbed cleanly; breadth flipped 6/20 → 14/20; BTC +0.9% to $63.5K
+- [moved]: Stoiiic delivered BTC outlook — 62.5-65K range, "few high-conviction setups"; triggers: ETF inflows + $64 POC acceptance
+- [moved]: HYPE 4-way split — WR dismissive vs HCH/KillaXBT/bull_genius bullish; HYPE +4.3% today
+- [stuck]: trader-memory-compact failed 20:51 UTC Aug 16 — consecutive_failures=1; needs manual dispatch
+
+**Watch**
+- ETH ETF snapped 5-week inflow streak (−$2.26M net outflow) — broader ETH institutional flow reversal reinforces WR ETH binary risk
+
+**Running today**
+- token-alert @ 12:00 UTC
+- token-movers @ 12:00 UTC
 - market-context-refresh @ 13:00 UTC
 - narrative-tracker @ 13:30 UTC
+- heartbeat @ 14:00, 20:00 UTC
 - skill-health @ 18:00 UTC
-- heartbeat @ 08:00, 14:00, 20:00 UTC
+
+---
+
+Brief queued to `.pending-notify/` for channel delivery and logged to `memory/logs/2026-08-17.md`. Resend email skipped — `RESEND_API_KEY` not configured. The top action item is a manual re-dispatch of `trader-memory-compact` — it's been oversize for 2+ days and the Sunday run failed.
