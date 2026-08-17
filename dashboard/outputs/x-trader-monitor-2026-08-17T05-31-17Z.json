@@ -1,0 +1,41 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "link-tweet"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "Stoiiic",
+        "text": "Concluding remarks on BTC consolidation: unable to push through 65, accepting back to low side (~62.5) on low volume for weeks (bearish lean = heavy disinterest, no sustained spot buying).\n\nWhat would flip upside conviction: consecutive ETF inflow days + acceptance back above 64 POC.\n\nLevels: 63–64.5K = supply; 62s = reflexivity for lower (targets high 50s-60). Few high conviction setups on BTC to trade currently."
+      }
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Stoiiic/status/20892221251061351931"
+      }
+    }
+  }
+}
