@@ -1,0 +1,79 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading",
+        "event-badge",
+        "separator1",
+        "message-section",
+        "alert",
+        "separator2",
+        "timestamp"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @swarmister",
+        "level": "h2"
+      }
+    },
+    "event-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Reply to @janxbt",
+        "variant": "outline"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message-section": {
+      "type": "Text",
+      "props": {
+        "text": "swarmister: \"Show me\"",
+        "variant": "lead"
+      }
+    },
+    "alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read? Reply-context unavailable; no visible ticker/conviction/execution language.",
+        "type": "warning"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "timestamp": {
+      "type": "Text",
+      "props": {
+        "text": "Timestamp: Aug 17 09:54:39 UTC",
+        "variant": "caption"
+      }
+    }
+  }
+}
