@@ -1,0 +1,55 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @Stoiiic"
+      },
+      "children": [
+        "event-type",
+        "tweet-card",
+        "analysis",
+        "separator",
+        "view-link"
+      ]
+    },
+    "event-type": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @Evan_ss6 (original message context not visible)",
+        "variant": "muted"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "Stoiiiic",
+        "text": "@Evan_ss6 big if true"
+      }
+    },
+    "analysis": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read? (\"big if true\" meme phrase could be banter or financial skepticism. Consistent with ~50% non-financial posts from this trader.)",
+        "type": "info"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Stoiiiic/status/2089212355594817665"
+      }
+    }
+  }
+}
