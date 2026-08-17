@@ -1,0 +1,124 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor",
+        "description": "Market analysis and trader sentiment"
+      },
+      "children": [
+        "tweet-card",
+        "sep1",
+        "wti-section",
+        "sep2",
+        "macro-section",
+        "sep3",
+        "tweet-link"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Every single one of you would be \"trying a long here\" if this was a cybersecurity or semis ticker, right?"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "wti-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "wti-heading",
+        "wti-range",
+        "wti-resistance",
+        "wti-support"
+      ]
+    },
+    "wti-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "WTI Crude Oil 1D",
+        "level": "h3"
+      }
+    },
+    "wti-range": {
+      "type": "Text",
+      "props": {
+        "text": "Range: $67.04 low → $83.06 current consolidation"
+      }
+    },
+    "wti-resistance": {
+      "type": "Text",
+      "props": {
+        "text": "Resistance: $93.5, $110.93"
+      }
+    },
+    "wti-support": {
+      "type": "Text",
+      "props": {
+        "text": "Support: $78.97, $74.24"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "macro-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "macro-heading",
+        "macro-text",
+        "macro-alignment"
+      ]
+    },
+    "macro-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Macro Commentary",
+        "level": "h3"
+      }
+    },
+    "macro-text": {
+      "type": "Text",
+      "props": {
+        "text": "Trader sector psychology bias: cybersecurity and semis showing bullish sentiment vs commodities caution"
+      }
+    },
+    "macro-alignment": {
+      "type": "Text",
+      "props": {
+        "text": "Aligns with WR macro-bear thesis"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2089335093546598703"
+      }
+    }
+  }
+}
