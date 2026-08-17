@@ -1,0 +1,182 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor — PUMP/TetherUS",
+        "description": "Trading Analysis from Wild_Randomness"
+      },
+      "children": [
+        "tweet",
+        "sep1",
+        "chart_section",
+        "sep2",
+        "analysis_section",
+        "sep3",
+        "link_to_post"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "PUMP/TetherUS: Crescendo?"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "chart_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "chart_title",
+        "price_range_text",
+        "stat_price_aug",
+        "stat_current",
+        "stat_rsi",
+        "momentum_text"
+      ]
+    },
+    "chart_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart: 1D Uptrend",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "price_range_text": {
+      "type": "Text",
+      "props": {
+        "text": "Price range: 0.0014 → 0.00279",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "stat_price_aug": {
+      "type": "Stat",
+      "props": {
+        "label": "August Movement",
+        "value": "0.00279",
+        "delta": "+200%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat_current": {
+      "type": "Stat",
+      "props": {
+        "label": "Current",
+        "value": "+4.80%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat_rsi": {
+      "type": "Stat",
+      "props": {
+        "label": "RSI (1D)",
+        "value": "60",
+        "trend": "neutral"
+      },
+      "children": []
+    },
+    "momentum_text": {
+      "type": "Text",
+      "props": {
+        "text": "Strong momentum but not overbought yet.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis_title",
+        "analysis_text",
+        "context_title",
+        "context_text",
+        "divergence_alert"
+      ]
+    },
+    "analysis_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Wild_Randomness Take",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Questioning whether crescendo escalation continues (question mark implies skepticism).",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "context_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Cross-Trader Context",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "HeartCanHodl entered 1% PUMP short on Aug 13 with emerging bearish conviction. WR observing bullish momentum structure = potential divergence developing.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "divergence_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Potential Divergence",
+        "message": "Bullish momentum structure (Wild_Randomness) vs emerging bearish sentiment (HeartCanHodl short)",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link_to_post": {
+      "type": "Link",
+      "props": {
+        "label": "View chart and post",
+        "href": "https://x.com/Wild_Randomness/status/2089457197881372950"
+      },
+      "children": []
+    }
+  }
+}
