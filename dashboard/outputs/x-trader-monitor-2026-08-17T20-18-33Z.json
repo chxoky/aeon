@@ -1,0 +1,82 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-card",
+        "separator-1",
+        "metrics-section"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "GOLD/SPX ratio showing technical breakout from support.\n\nCurrent ratio 0.563 (+0.99%) — bounced from 0.524 lows in May-Jul correction. Yellow trend-line reversal + resistance zones marked at 0.571/0.5705. XAUUSD chart shows similar setup: support hold, mean-reversion structure.\n\n\"Are you watching closely?\" — WR conviction signal on gold relative strength."
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "metrics-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat-ratio",
+        "stat-low",
+        "text-resistance",
+        "text-analysis",
+        "link-post"
+      ]
+    },
+    "stat-ratio": {
+      "type": "Stat",
+      "props": {
+        "label": "GOLD/SPX Ratio",
+        "value": "0.563",
+        "delta": "+0.99%",
+        "trend": "up"
+      }
+    },
+    "stat-low": {
+      "type": "Stat",
+      "props": {
+        "label": "May-Jul Low",
+        "value": "0.524"
+      }
+    },
+    "text-resistance": {
+      "type": "Text",
+      "props": {
+        "text": "Resistance zones: 0.571 / 0.5705",
+        "variant": "caption"
+      }
+    },
+    "text-analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Yellow trend-line reversal confirmed. XAUUSD shows similar support hold with mean-reversion structure.",
+        "variant": "body"
+      }
+    },
+    "link-post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2089445938171687291"
+      }
+    }
+  }
+}
