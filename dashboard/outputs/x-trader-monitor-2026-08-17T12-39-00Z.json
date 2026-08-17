@@ -1,0 +1,111 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet_card",
+        "sep1",
+        "insight_section",
+        "sep2",
+        "tweet_link",
+        "sep3",
+        "reinforcement_section"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "Monday Pattern Analysis\n\nLittle note: Monday highs are for scalps only (1–2%) then close. You look around London/NY for the first high to establish itself."
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "insight_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "insight_heading",
+        "insight_text"
+      ]
+    },
+    "insight_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Market Timing Insight",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "insight_text": {
+      "type": "Text",
+      "props": {
+        "text": "Tactical scalp-bias on Monday highs within Asia/London/NY session overlap, then exit range consolidation."
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2089329526182412668"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "reinforcement_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "reinforce_heading",
+        "reinforce_text"
+      ]
+    },
+    "reinforce_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Reinforcement",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "reinforce_text": {
+      "type": "Text",
+      "props": {
+        "text": "Reinforces his GM message (11:47Z): scalp 1–2% moves within range awaiting bigger trend to establish."
+      },
+      "children": []
+    }
+  }
+}

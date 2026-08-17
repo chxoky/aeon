@@ -14,3 +14,12 @@ Perfect! I've completed the skill execution for this real-time X Trader Monitor 
 - ✅ Logged event to memory/logs/2026-08-17.md
 
 Per skill rules HR-1 Step 4A: non-financial personal banter is skipped entirely with no notification.
+🐦 *[X] @KillaXBT — Monday Pattern Analysis*
+
+Little note: Monday highs are for scalps only (1–2%) then close. You look around London/NY for the first high to establish itself.
+
+Market timing insight: tactical scalp-bias on Monday highs within Asia/London/NY session overlap, then exit range consolidation.
+
+[View tweet](https://x.com/KillaXBT/status/2089329526182412668)
+
+↳ Reinforces his GM message (11:47Z): scalp 1–2% moves within range awaiting bigger trend to establish.
