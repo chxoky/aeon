@@ -1,0 +1,125 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — [DC: HCH — Free]"
+      },
+      "children": [
+        "main-stack"
+      ]
+    },
+    "main-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event-text",
+        "sep1",
+        "message-stack",
+        "sep2",
+        "analysis-alert",
+        "interpretations"
+      ]
+    },
+    "event-text": {
+      "type": "Text",
+      "props": {
+        "text": "Event: just posted a cryptic link reference"
+      }
+    },
+    "sep1": {
+      "type": "Separator"
+    },
+    "message-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "message-label",
+        "message-number",
+        "message-link"
+      ]
+    },
+    "message-label": {
+      "type": "Text",
+      "props": {
+        "text": "HCH:",
+        "variant": "muted"
+      }
+    },
+    "message-number": {
+      "type": "Text",
+      "props": {
+        "text": "3.",
+        "variant": "lead"
+      }
+    },
+    "message-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "x.com/i/status/2089449997830119521",
+        "href": "https://x.com/i/status/2089449997830119521",
+        "source": "Twitter/X"
+      }
+    },
+    "sep2": {
+      "type": "Separator"
+    },
+    "analysis-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read? \"3.\" could be:",
+        "type": "info"
+      }
+    },
+    "interpretations": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "interp-ranking",
+        "interp-quantity",
+        "interp-index",
+        "interp-reaction"
+      ]
+    },
+    "interp-ranking": {
+      "type": "Badge",
+      "props": {
+        "text": "Ranking",
+        "variant": "secondary"
+      }
+    },
+    "interp-quantity": {
+      "type": "Badge",
+      "props": {
+        "text": "Quantity",
+        "variant": "secondary"
+      }
+    },
+    "interp-index": {
+      "type": "Badge",
+      "props": {
+        "text": "Index",
+        "variant": "secondary"
+      }
+    },
+    "interp-reaction": {
+      "type": "Badge",
+      "props": {
+        "text": "Pure reaction",
+        "variant": "secondary"
+      }
+    }
+  }
+}
