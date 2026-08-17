@@ -1,0 +1,39 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor",
+        "description": "Market positioning analysis and liquidation data"
+      },
+      "children": [
+        "tweet-card",
+        "separator-1",
+        "view-link"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "Wild_Randomness",
+        "text": "OPEX week and the Monday move is to clear out vulnerable overhead positioning…\n\nLiquidation heatmap shows dense overhead clusters 62,991–64,974 on weekly; BTC OI collapsing from 300K (confirming active cascade)."
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2089427565505392943"
+      }
+    }
+  }
+}
