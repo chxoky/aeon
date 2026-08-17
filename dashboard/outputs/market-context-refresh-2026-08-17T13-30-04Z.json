@@ -1,0 +1,211 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Market Context — 2026-08-17"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "take_text",
+        "sep1",
+        "prices_section",
+        "sep2",
+        "fear_greed_section",
+        "breadth_stat",
+        "tvl_stat",
+        "sep3",
+        "narratives_section",
+        "sep4",
+        "hot_market_section"
+      ]
+    },
+    "take_text": {
+      "type": "Text",
+      "props": {
+        "text": "take: chop (conviction medium)",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "prices_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "btc_stat",
+        "eth_stat"
+      ]
+    },
+    "btc_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$63,423",
+        "delta": "+0.65%",
+        "trend": "up"
+      }
+    },
+    "eth_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$1,895.78",
+        "delta": "+0.88%",
+        "trend": "up"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "fear_greed_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "fg_label",
+        "fg_progress"
+      ]
+    },
+    "fg_label": {
+      "type": "Text",
+      "props": {
+        "text": "Fear & Greed Index",
+        "variant": "caption"
+      }
+    },
+    "fg_progress": {
+      "type": "Progress",
+      "props": {
+        "value": 31,
+        "max": 100,
+        "label": "31 (Fear)"
+      }
+    },
+    "breadth_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Market Breadth",
+        "value": "14/20"
+      }
+    },
+    "tvl_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "TVL Stables",
+        "value": "~$274B",
+        "delta": "flat"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "narratives_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "narratives_heading",
+        "narratives_list"
+      ]
+    },
+    "narratives_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Narratives",
+        "level": "h4"
+      }
+    },
+    "narratives_list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "narr1",
+        "narr2",
+        "narr3"
+      ]
+    },
+    "narr1": {
+      "type": "Text",
+      "props": {
+        "text": "privacy/ZEC+XMR — rising day-3+"
+      }
+    },
+    "narr2": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE perp DEX — rising day-6+"
+      }
+    },
+    "narr3": {
+      "type": "Badge",
+      "props": {
+        "text": "GPS [PUMP-RISK] emerging",
+        "variant": "destructive"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "hot_market_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "hot_heading",
+        "hot_stat"
+      ]
+    },
+    "hot_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Hot Market",
+        "level": "h4"
+      }
+    },
+    "hot_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "US-Iran 60d negotiation extended?",
+        "value": "YES",
+        "delta": "9.7%"
+      }
+    }
+  }
+}
