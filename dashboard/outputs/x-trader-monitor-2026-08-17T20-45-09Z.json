@@ -1,0 +1,127 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @HeartCanHodl",
+        "description": "Aug 17 20:40:50Z"
+      },
+      "children": [
+        "tweet_section",
+        "context_separator",
+        "context_section",
+        "uncertainty_section"
+      ]
+    },
+    "tweet_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "media_link"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "@HeartCanHodl",
+        "text": "That look when HCH confirms the short you were already eyeing"
+      },
+      "children": []
+    },
+    "media_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet media",
+        "href": "https://t.co/B7ifdXMR1M"
+      },
+      "children": []
+    },
+    "context_separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_heading",
+        "context_info"
+      ]
+    },
+    "context_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Position Context",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "context_info": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "short1",
+        "short2",
+        "short3",
+        "media_note"
+      ]
+    },
+    "short1": {
+      "type": "Text",
+      "props": {
+        "text": "1% HYPE short @ 20:22Z",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "short2": {
+      "type": "Text",
+      "props": {
+        "text": "1% PUMP short @ 08:58Z",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "short3": {
+      "type": "Text",
+      "props": {
+        "text": "1% LIT short @ 08:58Z",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "media_note": {
+      "type": "Text",
+      "props": {
+        "text": "Media: Sentiment meme (Daddy's home scene), not a technical chart",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "uncertainty_section": {
+      "type": "Alert",
+      "props": {
+        "title": "Ticker Uncertain",
+        "message": "Unable to determine exact ticker without accessing linked tweet — which short is this confirming?",
+        "type": "warning"
+      },
+      "children": []
+    }
+  }
+}
