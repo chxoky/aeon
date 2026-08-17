@@ -1,0 +1,95 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-08-17"
+      },
+      "children": [
+        "heading-focus",
+        "separator-1",
+        "stack-items"
+      ]
+    },
+    "heading-focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item-1",
+        "item-2",
+        "item-3"
+      ]
+    },
+    "item-1": {
+      "type": "Alert",
+      "props": {
+        "title": "1. trader-memory-compact FAILED",
+        "message": "Dispatch manual fix now; traders.md stays OVERSIZE (200KB+), Worker at risk",
+        "type": "error"
+      },
+      "children": []
+    },
+    "item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item-2-title",
+        "item-2-values",
+        "item-2-analysis"
+      ]
+    },
+    "item-2-title": {
+      "type": "Heading",
+      "props": {
+        "text": "2. WR ETH Binary Crossed",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "item-2-values": {
+      "type": "Text",
+      "props": {
+        "text": "$1,902 > $1,896",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "item-2-analysis": {
+      "type": "Text",
+      "props": {
+        "text": "WR short offside, Aug 23 resolution 6 days out"
+      },
+      "children": []
+    },
+    "item-3": {
+      "type": "Text",
+      "props": {
+        "text": "3. BTC ETF largest"
+      },
+      "children": []
+    }
+  }
+}
