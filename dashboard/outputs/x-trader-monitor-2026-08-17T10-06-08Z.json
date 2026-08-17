@@ -1,0 +1,60 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "badge-calibration",
+        "text-event",
+        "tweet-content",
+        "separator-1",
+        "text-question",
+        "link-view"
+      ]
+    },
+    "badge-calibration": {
+      "type": "Badge",
+      "props": {
+        "text": "Calibration — @swarmister"
+      }
+    },
+    "text-event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @pierre_crypt0 (original context unavailable in payload)",
+        "variant": "muted"
+      }
+    },
+    "tweet-content": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "@pierre_crypt0 Gm Pierre\n\nJust \nTrade \nStock"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-question": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read? Trade signal, life motto, or market commentary?"
+      }
+    },
+    "link-view": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View post",
+        "href": "https://x.com/swarmister/status/2089292051921740240"
+      }
+    }
+  }
+}
