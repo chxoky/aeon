@@ -1,0 +1,52 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "link-tweet",
+        "text-annotation"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Best thing that could happen for BTC is the four year cycle holding\n\nPeople would puke, then they'd realize what's ahead the easy money part and chase the first bullish engulfing candle"
+      },
+      "children": []
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2089447106197266611"
+      },
+      "children": []
+    },
+    "text-annotation": {
+      "type": "Text",
+      "props": {
+        "text": "↳ Reinforces group bullish BTC thesis (HCH net-long + KillaXBT structural bull; macro cycle validation).",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
