@@ -1,0 +1,86 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet-card",
+        "sep1",
+        "tickers",
+        "spy-metric",
+        "sep2",
+        "analysis",
+        "tweet-link"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "$SOXX $SOXL\n\nHand was shown into the close on Friday\n\nRespectors are eating today (while spy is -13 bps)"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tickers": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-soxx",
+        "badge-soxl"
+      ]
+    },
+    "badge-soxx": {
+      "type": "Badge",
+      "props": {
+        "text": "$SOXX"
+      }
+    },
+    "badge-soxl": {
+      "type": "Badge",
+      "props": {
+        "text": "$SOXL"
+      }
+    },
+    "spy-metric": {
+      "type": "Stat",
+      "props": {
+        "label": "SPY Change",
+        "value": "-13 bps",
+        "trend": "down"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Images unavailable, but text suggests bullish semiconductor sentiment — hand/order shown Friday close, sector rallying today vs SPY weakness. Aligns with Aug 12-13 SOXX tracking.",
+        "variant": "muted"
+      }
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2089364975001465079"
+      }
+    }
+  }
+}
