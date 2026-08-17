@@ -1,0 +1,64 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Mirrored Trading — @Crypto_Chase"
+      },
+      "children": [
+        "content",
+        "prices",
+        "action",
+        "link"
+      ]
+    },
+    "content": {
+      "type": "Text",
+      "props": {
+        "text": "Crypto_Chase closed final SNDK and MU positions for gains.",
+        "variant": "body"
+      }
+    },
+    "prices": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "sndk_stat",
+        "mu_stat"
+      ]
+    },
+    "sndk_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "SNDK",
+        "value": "1740"
+      }
+    },
+    "mu_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "MU",
+        "value": "1010"
+      }
+    },
+    "action": {
+      "type": "Text",
+      "props": {
+        "text": "I closed your mirrored positions to match.",
+        "variant": "muted"
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Crypto_Chase/status/2089347509466300827"
+      }
+    }
+  }
+}
