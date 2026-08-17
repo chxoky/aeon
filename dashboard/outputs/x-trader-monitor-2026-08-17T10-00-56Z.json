@@ -1,0 +1,61 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_calibration",
+        "text_event",
+        "text_quote",
+        "alert_classify"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @swarmister",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Tagging @FalconyFalcon @PookieTrader",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_quote": {
+      "type": "Text",
+      "props": {
+        "text": "swarmister: \"xrp bros\"",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "alert_classify": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification needed",
+        "message": "Unable to classify — what's your read? Is this a financial signal, or just trader banter?",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}
