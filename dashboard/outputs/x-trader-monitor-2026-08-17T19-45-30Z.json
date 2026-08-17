@@ -1,0 +1,93 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor",
+        "description": "Market sentiment and trading commentary from X"
+      },
+      "children": [
+        "heading-tweet",
+        "tweet-card",
+        "link-view-tweet",
+        "separator-1",
+        "heading-context",
+        "stack-context"
+      ]
+    },
+    "heading-tweet": {
+      "type": "Heading",
+      "props": {
+        "text": "Latest Tweet",
+        "level": "h3"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "@swarmister",
+        "text": "Altszn 📊"
+      }
+    },
+    "link-view-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/swarmister/status/2089437375269077412"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-context": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "stack-context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-context-1",
+        "text-context-2",
+        "text-context-3",
+        "text-context-4"
+      ]
+    },
+    "text-context-1": {
+      "type": "Text",
+      "props": {
+        "text": "Sentiment post on altseason with @xbt2027 @zackvoell"
+      }
+    },
+    "text-context-2": {
+      "type": "Text",
+      "props": {
+        "text": "Meme-based market commentary; aligns with group alt-bullish thesis"
+      }
+    },
+    "text-context-3": {
+      "type": "Text",
+      "props": {
+        "text": "Details: HCH net-long alts Aug 01-02, emerging SNDK/semis convergence, altseason narrative gaining traction"
+      }
+    },
+    "text-context-4": {
+      "type": "Text",
+      "props": {
+        "text": "Note: No personal trade action"
+      }
+    }
+  }
+}
