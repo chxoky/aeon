@@ -28,8 +28,9 @@
 - Last seen: 2026-08-17T08:58:10Z (Discord Trades primary — dual short conviction add on SNDK/CL)
 - **Events (rolling):**
   - Aug 17 08:58Z — trade-conviction-add: DC Trades "Add 1% each to sndk & cl short" — SNDK new short entry (1%, contrarian to 5-trader bullish semis convergence); CL conviction add (from 1%→2%, ongoing short basket); primary Trades channel; verbatim rule compliance; no attachments; fast-path-alerted [$SNDK $CL] [1538834311774478347]
-- Last seen: 2026-08-17T19:17:44Z (X — retrospective MSFT technical validation post on prior bearish thesis)
+- Last seen: 2026-08-17T20:19:55Z (Discord Chat supporting — false-close chart check on PUMP 1hr)
 - **Events (rolling):**
+  - Aug 17 20:19Z — technical-check: DC Chat "Fc pump 1hr" — false-close chart check on PUMP 1hr; supporting-channel technical observation only, no execution language, no trade action; silent log per HR-1 protocol (resolved calibration: "Fc" = TA check, established 15+ occurrences) [$PUMP] [1539005880777965580]
   - Aug 17 19:17Z — informational-technical-validation: X post on prior MSFT short thesis; "$MSFT above $500 was a free short"; 4h chart (peak 513.76 → current 478.44, -6.7%); validates Aug 04 bearish valuation exhaustion analysis; retrospective market wisdom ("didn't feel obvious at time"); no personal new trade action; cross-reference: Aug 04 HCH bearish MSFT thesis + 2-trader AAPL/MSFT short convergence (Wild_Randomness); alerted Kyle [$MSFT] [2089431499951243552]
   - Aug 17 19:24Z — non-financial: self-promotional X meme recap past trades AMZN MSFT shorts [2089433201496506513]
   - Aug 17 18:39Z — ambiguous-cryptic: DC Chat "Monday move" — supporting-channel one-liner with no context/referenced_message, unclear meaning (sentiment observation? market reference? sentiment shift?); no execution language; HR-2 calibration alert sent to Kyle for interpretation [$UNKNOWN] [1538980585823928391]
