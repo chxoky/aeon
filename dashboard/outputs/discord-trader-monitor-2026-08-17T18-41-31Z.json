@@ -1,0 +1,139 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "heading-calibration",
+        "badge-calibration",
+        "separator-1",
+        "stack-event",
+        "separator-2",
+        "stack-message",
+        "separator-3",
+        "stack-metadata",
+        "text-question"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "badge-calibration": {
+      "type": "Badge",
+      "props": {
+        "text": "DC: HCH — Chat",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack-event": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-event-label",
+        "text-event-value"
+      ]
+    },
+    "text-event-label": {
+      "type": "Text",
+      "props": {
+        "text": "Event:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text-event-value": {
+      "type": "Text",
+      "props": {
+        "text": "Supporting-channel one-liner, no context"
+      },
+      "children": []
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack-message": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "text": "Monday move"
+      },
+      "children": []
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack-metadata": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-timestamp",
+        "badge-channel"
+      ]
+    },
+    "text-timestamp": {
+      "type": "Text",
+      "props": {
+        "text": "Message posted 2026-08-17 18:39:24 UTC",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "badge-channel": {
+      "type": "Badge",
+      "props": {
+        "text": "supporting member chat",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text-question": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "lead"
+      },
+      "children": []
+    }
+  }
+}
