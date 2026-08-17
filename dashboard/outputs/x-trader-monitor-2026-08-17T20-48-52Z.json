@@ -1,0 +1,43 @@
+{
+  "root": "card1",
+  "state": {},
+  "elements": {
+    "card1": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack1"
+      ]
+    },
+    "stack1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet1",
+        "link1"
+      ]
+    },
+    "tweet1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Randomly placed arrow lands this Thursday\n\n1-ETHUSDT daily chart shows consolidation with upside arrow annotation. RSI oversold, suggesting potential Thursday breakout setup from current consolidation zone.\n\nTechnical prediction on ETH upside structure — no personal trade action stated."
+      },
+      "children": []
+    },
+    "link1": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2089453074696057153"
+      },
+      "children": []
+    }
+  }
+}
