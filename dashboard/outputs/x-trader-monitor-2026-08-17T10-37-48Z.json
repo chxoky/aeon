@@ -1,0 +1,63 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "sep1",
+        "tweet-link",
+        "sep2",
+        "alignment-text"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "What's going on with $BTC? D1 tf\n\nBTC is stuck in a consolidation, with no new highs or lows since July 1. There's resistance above, and the POC from the previous trading range is on the left (February–April).\n\nChart shows tight consolidation with volume profile and resistance structure. Technical observation on range dynamics."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/swarmister/status/2089298243431657856"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alignment-text": {
+      "type": "Text",
+      "props": {
+        "text": "Aligns with group structure caution (HCH net-short, Stoiiic bearing narrow range thesis)",
+        "variant": "muted"
+      }
+    }
+  }
+}
