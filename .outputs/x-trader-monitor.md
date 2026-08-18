@@ -1,10 +1,10 @@
-🐦 *[X] @abetrade — SPX Vol Skew Alert*
+🔍 *Calibration — @swarmister*
 
-US single-stock skew (25-delta IV) at yearly highs — similar to June peak before 4% selloff.
+Event: @swarmister tagged 4 traders with question mark
+@swarmister: "@VNTGPRN @itszore @TheCryptoDog @derbas49 ?"
 
-**Thesis**: Caution signal on elevated calls vs puts. Or trade call spreads for defensible R:R financing of ATM with rich OTM options.
+Context: Unable to determine original topic or why these traders are tagged. Reply-dependent. Possible interpretations: seeking opinion poll, confirming signal, platform banter.
 
-[View tweet](https://x.com/abetrade/status/2089720369263395201)
+Unable to classify — what's your read? 
 
----
-↳ *Cross-trader divergence*: @abetrade cautious on vol skew vs @Crypto_Chase still long new ATHs vs @Wild_Randomness bullish near-term + cautious macro top. Group split on near-term SPX direction heading into Jackson Hole catalyst window.
+[View post](https://x.com/swarmister/status/2089722448782503946)
