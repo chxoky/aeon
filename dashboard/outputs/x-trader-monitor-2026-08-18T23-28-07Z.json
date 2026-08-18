@@ -1,0 +1,226 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Market Structure Observation — Volatility Collapse + Risk Reversal Extreme"
+      },
+      "children": [
+        "stack_root"
+      ]
+    },
+    "stack_root": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_attribution",
+        "sep_1",
+        "heading_title",
+        "sep_2",
+        "section_skew",
+        "section_volatility",
+        "section_election",
+        "sep_3",
+        "section_spx",
+        "sep_4",
+        "alert_thesis",
+        "sep_5",
+        "link_tweet"
+      ]
+    },
+    "text_attribution": {
+      "type": "Text",
+      "props": {
+        "text": "🐦 @Wild_Randomness",
+        "variant": "muted"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Market Structure Observation — Volatility Collapse + Risk Reversal Extreme",
+        "level": "h2"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_skew": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_skew",
+        "text_skew_detail"
+      ]
+    },
+    "stat_skew": {
+      "type": "Stat",
+      "props": {
+        "label": "US single-stock skew round-tripled",
+        "value": "7.3 vol points",
+        "delta": "-4 to +0.59",
+        "trend": "up"
+      }
+    },
+    "text_skew_detail": {
+      "type": "Text",
+      "props": {
+        "text": "Massive flip from bearish/puts bid to bullish/calls bid. Complete risk-reversal regime change.",
+        "variant": "body"
+      }
+    },
+    "section_volatility": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_vol_header",
+        "text_vol_detail"
+      ]
+    },
+    "text_vol_header": {
+      "type": "Text",
+      "props": {
+        "text": "📉 Volatility completely collapsed: VIX/tail-risk indicators at historical complacency lows (~15-18 range). Hedging indicators off.",
+        "variant": "body"
+      }
+    },
+    "text_vol_detail": {
+      "type": "Text",
+      "props": {
+        "text": "",
+        "variant": "caption"
+      }
+    },
+    "section_election": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_election"
+      ]
+    },
+    "text_election": {
+      "type": "Text",
+      "props": {
+        "text": "📈 Election-year pattern precedent: 2026 VIX tracking early stages of 2010/2014/2018/2022 mid-term years — all saw significant summer volatility spikes after spring lows. Historical risk ahead.",
+        "variant": "body"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_spx": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_spx",
+        "grid_spx"
+      ]
+    },
+    "heading_spx": {
+      "type": "Heading",
+      "props": {
+        "text": "🎯 SPX options at extremes",
+        "level": "h3"
+      }
+    },
+    "grid_spx": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "badge_put_skew",
+        "badge_call_skew",
+        "badge_atm_vol",
+        "badge_skew"
+      ]
+    },
+    "badge_put_skew": {
+      "type": "Badge",
+      "props": {
+        "text": "Put skew: 0%tile (historically cheap)",
+        "variant": "secondary"
+      }
+    },
+    "badge_call_skew": {
+      "type": "Badge",
+      "props": {
+        "text": "Call skew: 100%tile (historically expensive)",
+        "variant": "secondary"
+      }
+    },
+    "badge_atm_vol": {
+      "type": "Badge",
+      "props": {
+        "text": "ATM Vol: 15%tile (extremely low)",
+        "variant": "secondary"
+      }
+    },
+    "badge_skew": {
+      "type": "Badge",
+      "props": {
+        "text": "Skew: 0%tile (bearish bias at extreme low)",
+        "variant": "secondary"
+      }
+    },
+    "sep_4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_thesis": {
+      "type": "Alert",
+      "props": {
+        "title": "Thesis",
+        "message": "Market has reached extreme complacency + risk-reversal completion conditions. Typical preconditions for volatility regime shift / market inflection. Aligns with WR's \"Jump the Shark\" macro framework.",
+        "type": "info"
+      }
+    },
+    "sep_5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_tweet": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2089855700612895101",
+        "source": "X"
+      }
+    }
+  }
+}
