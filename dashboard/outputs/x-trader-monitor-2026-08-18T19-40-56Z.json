@@ -1,0 +1,161 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor: Solana Space Entry Calibration"
+      },
+      "children": [
+        "calibration-heading",
+        "event-description",
+        "sep1",
+        "trader-quote",
+        "sep2",
+        "profile-section",
+        "sep3",
+        "conflict-section",
+        "sep4",
+        "view-link"
+      ]
+    },
+    "calibration-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @trading_axe",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "event-description": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Solana space entry proclamation"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "trader-quote": {
+      "type": "TweetCard",
+      "props": {
+        "author": "trading_axe",
+        "handle": "trading_axe",
+        "text": "I've been Mr. Número Uno ANTI-HERO of all the 'Trench Dweebs' since the INCEPTION of Solana's onchain playground... Doctor Axius entering the METAVERSE of Mutated Broccoli Head Anorexic NPCs and terrorizing them in their own world. AND YOU GET TO WATCH IT LIVE. Follow my account 'axe' on PF app and tell EVERYONE YOU KNOW to do the same ASAP. THIS IS NOT A DRILL."
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "profile-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "profile-heading",
+        "profile-text"
+      ]
+    },
+    "profile-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Trader Profile",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "profile-text": {
+      "type": "Text",
+      "props": {
+        "text": "~70%+ banter/non-financial (Dr. Axius builder identity). Multiple PENDING calibrations on execution-language posts (Aug 01-17). No confirmed personal trades documented."
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "conflict-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "conflict-heading",
+        "conflict-point1",
+        "conflict-point2",
+        "conflict-point3",
+        "classification-question"
+      ]
+    },
+    "conflict-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Classification Conflict",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "conflict-point1": {
+      "type": "Text",
+      "props": {
+        "text": "'THIS IS NOT A DRILL' + Solana onchain context suggests real action"
+      },
+      "children": []
+    },
+    "conflict-point2": {
+      "type": "Text",
+      "props": {
+        "text": "Heavy metaphor + lack of specific ticker/price/position suggests banter/announcement"
+      },
+      "children": []
+    },
+    "conflict-point3": {
+      "type": "Text",
+      "props": {
+        "text": "No execution language detected (no 'just longed/bought', 'filled', 'sold', specific prices)"
+      },
+      "children": []
+    },
+    "classification-question": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — is this: (a) community/builder announcement of entering Solana space, (b) actual trade signal requiring monitoring, or (c) hype cycle banter?",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/trading_axe/status/2089798360634974511"
+      },
+      "children": []
+    }
+  }
+}
