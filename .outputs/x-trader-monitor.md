@@ -1,11 +1,12 @@
-🐦 *[X] @Wild_Randomness*
+🔍 *Calibration — @Wild_Randomness*
 
-$SPCX
+Event: Abstract ETF management commentary, no explicit ticker or company mentioned
 
-Interacting with the $150 IPO opening price a little different this time around…
+Wild_Randomness: "They're just concerned about the lower high on the AUM of their top revenue generating ETF"
 
-(Next 7% unlock comes Aug 20)
+Unable to classify — what's your read? Which ETF is being referenced? Who is "they"? Is this:
+- Commentary on a specific firm's flagship ETF (BlackRock/iShares, Vanguard, etc.)?
+- Macro sentiment on ETF industry trends?
+- Reference to a prior conversation context?
 
-[View tweet](https://x.com/Wild_Randomness/status/2089819595758866673)
-
-↳ Charts show V-shaped recovery from ~$110-120 lows to current $143-148, approaching $150 resistance (IPO open price) for potential second test. Unlock catalyst Aug 20 flags upcoming volatility driver.
+[View post](https://x.com/Wild_Randomness/status/2089820844604461204)

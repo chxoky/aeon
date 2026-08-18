@@ -1,0 +1,154 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration Query"
+      },
+      "children": [
+        "heading_calib",
+        "sep_1",
+        "event_section",
+        "quote_section",
+        "analysis_section",
+        "link_section"
+      ]
+    },
+    "heading_calib": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "event_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event_label"
+      ]
+    },
+    "event_label": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Abstract ETF management commentary, no explicit ticker or company mentioned",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "quote_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_quote"
+      ]
+    },
+    "tweet_quote": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "They're just concerned about the lower high on the AUM of their top revenue generating ETF"
+      },
+      "children": []
+    },
+    "analysis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis_header",
+        "analysis_bullets"
+      ]
+    },
+    "analysis_header": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read? Which ETF is being referenced? Who is \"they\"? Is this:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "analysis_bullets": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "bullet1",
+        "bullet2",
+        "bullet3"
+      ]
+    },
+    "bullet1": {
+      "type": "Text",
+      "props": {
+        "text": "Commentary on a specific firm's flagship ETF (BlackRock/iShares, Vanguard, etc.)?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "bullet2": {
+      "type": "Text",
+      "props": {
+        "text": "Macro sentiment on ETF industry trends?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "bullet3": {
+      "type": "Text",
+      "props": {
+        "text": "Reference to a prior conversation context?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "link_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sep_2",
+        "link_post"
+      ]
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2089820844604461204"
+      },
+      "children": []
+    }
+  }
+}
