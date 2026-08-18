@@ -25,6 +25,9 @@
 - Last seen: 2026-08-14T19:24:05Z (Discord Chat supporting — bullish BTC sentiment, 61k target affirmation in member Q&A)
 - **Events (rolling):**
   - Aug 14 19:24Z — informational-sentiment: DC Chat "Here to higher 61k" (reply to skellymode, referenced_message: "Take some profit on shorts?"); supporting-channel member Q&A on BTC directional sentiment; bullish conviction statement on targeting 61k price level; no new trade execution language; context: HCH responding to profit-taking question with bullish outlook affirmation; silent log [$BTC] [1537904666447192094]
+- Last seen: 2026-08-18T06:57:58Z (Discord Comments — position allocation update to 65% Short/0% Long)
+- **Events (rolling):**
+  - Aug 18 06:57Z — trade-position-management: DC Comments "Going towards net 65% Short, 0% Long/spot" (reply to Aug 10 08:49Z portfolio snapshot "50% S, 7.5% L/spot so far"); primary-channel position escalation statement — closing remaining spot longs (7.5%→0%) + escalating short overlay (50%→65%); verbatim rule compliance (HCH—Comments primary); market-order execution language on portfolio reallocation; fast-path-alerted by Cloudflare Worker (Telegram sent ~2-5s post-message); memory/logging only per fast-path protocol [$CRYPTO_SHORTS] [1539166453922795602]
 - Last seen: 2026-08-18T05:59:12Z (Discord Chat supporting — ambiguous message "Good for us")
 - **Events (rolling):**
   - Aug 18 05:59Z — ambiguous-cryptic: DC Chat "Good for us"; supporting-channel standalone message (no referenced_message context); no explicit ticker/execution language; could reference recent DOGE short entry (00:19Z) or general market sentiment affirmation; awaiting Kyle calibration interpretation; HR-2 alert sent [$UNKNOWN] [1539151661359038484]
