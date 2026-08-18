@@ -1,0 +1,127 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Trader calibration and message classification"
+      },
+      "children": [
+        "heading_calibration",
+        "sep1",
+        "stack_context",
+        "sep2",
+        "stack_message",
+        "sep3",
+        "alert_unable"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: Chase — TradFi]",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "label_context",
+        "badge_riskoff",
+        "text_positions",
+        "text_sentiment"
+      ]
+    },
+    "label_context": {
+      "type": "Text",
+      "props": {
+        "text": "Context:",
+        "variant": "lead"
+      }
+    },
+    "badge_riskoff": {
+      "type": "Badge",
+      "props": {
+        "text": "Risk-Off",
+        "variant": "destructive"
+      }
+    },
+    "text_positions": {
+      "type": "Text",
+      "props": {
+        "text": "Closed all positions"
+      }
+    },
+    "text_sentiment": {
+      "type": "Text",
+      "props": {
+        "text": "\"no confidence in trades atm\" — Aug 18 13:58Z",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_message": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "label_message",
+        "text_msg_content",
+        "text_attachment"
+      ]
+    },
+    "label_message": {
+      "type": "Text",
+      "props": {
+        "text": "Message:",
+        "variant": "lead"
+      }
+    },
+    "text_msg_content": {
+      "type": "Text",
+      "props": {
+        "text": "\"thoughts atm\""
+      }
+    },
+    "text_attachment": {
+      "type": "Text",
+      "props": {
+        "text": "+ image attachment",
+        "variant": "muted"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_unable": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Image content not visible. What's the chart/analysis showing? What's Chase's read?",
+        "type": "info"
+      }
+    }
+  }
+}

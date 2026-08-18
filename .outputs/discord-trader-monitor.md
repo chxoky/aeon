@@ -28,3 +28,10 @@ Perfect! I've successfully executed the discord-trader-monitor skill for the pro
    - ✅ Skipped event line to traders.md (per size-discipline rule for non-financial posts)
 
 **Verdict**: Message was monitoring status ("watching but nothing set") with zero trade signals. Correctly classified as non-financial chatter and logged silently per protocol. No Kyle notification needed.
+🔍 *Calibration — [DC: Chase — TradFi]*
+
+Context: Chase currently risk-off (closed all positions, "no confidence in trades atm" - Aug 18 13:58Z)
+
+Message: "thoughts atm" + image attachment
+
+Unable to classify message without seeing image content. What's the chart/analysis showing? What's Chase's read?
