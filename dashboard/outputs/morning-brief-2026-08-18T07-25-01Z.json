@@ -1,0 +1,379 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-08-18"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section_focus",
+        "sep1",
+        "section_yesterday",
+        "sep2",
+        "section_running"
+      ]
+    },
+    "section_focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_focus",
+        "item_hch",
+        "item_btc",
+        "item_fed"
+      ]
+    },
+    "heading_focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "item_hch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "hch_stat",
+        "hch_text"
+      ]
+    },
+    "hch_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "HCH",
+        "value": "65% short / 0% long"
+      },
+      "children": []
+    },
+    "hch_text": {
+      "type": "Text",
+      "props": {
+        "text": "Why now: max conviction escalation this morning; DOGE/MU/XAU/XAG all added",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "item_btc": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "btc_stat",
+        "btc_text"
+      ]
+    },
+    "btc_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "65K rejection"
+      },
+      "children": []
+    },
+    "btc_text": {
+      "type": "Text",
+      "props": {
+        "text": "Why now: KillaXBT LH pattern live; 62.8K test if weekly open lost",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "item_fed": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "fed_stat",
+        "fed_text"
+      ]
+    },
+    "fed_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Fed July minutes",
+        "value": "Thursday"
+      },
+      "children": []
+    },
+    "fed_text": {
+      "type": "Text",
+      "props": {
+        "text": "Why now: BTC rangebound 18+ days; next catalyst before Jackson Hole (Aug 27)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_yesterday": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_yesterday",
+        "item_escalation",
+        "item_right",
+        "item_fading",
+        "item_setup",
+        "item_structure"
+      ]
+    },
+    "heading_yesterday": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "item_escalation": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_escalation",
+        "text_escalation"
+      ]
+    },
+    "badge_escalation": {
+      "type": "Badge",
+      "props": {
+        "text": "escalation",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text_escalation": {
+      "type": "Text",
+      "props": {
+        "text": "HCH: DOGE short new (1%), MU →2%, XAU/XAG →2% each; all spot longs covered; now 65S/0L",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "item_right": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_right",
+        "stat_ake",
+        "text_ake_explain"
+      ]
+    },
+    "badge_right": {
+      "type": "Badge",
+      "props": {
+        "text": "right",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "stat_ake": {
+      "type": "Stat",
+      "props": {
+        "label": "AKE",
+        "value": "−18.5%",
+        "delta": "−18.5%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "text_ake_explain": {
+      "type": "Text",
+      "props": {
+        "text": "HCH short thesis complete (peak +89% Aug 14; cycle done)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "item_fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_fading",
+        "stat_btw",
+        "text_btw_explain"
+      ]
+    },
+    "badge_fading": {
+      "type": "Badge",
+      "props": {
+        "text": "fading",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "stat_btw": {
+      "type": "Stat",
+      "props": {
+        "label": "BTW",
+        "value": "−6.1%",
+        "delta": "−6.1%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "text_btw_explain": {
+      "type": "Text",
+      "props": {
+        "text": "After Aug 17 +21% breakout — reversal confirmed",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "item_setup": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_setup",
+        "text_setup"
+      ]
+    },
+    "badge_setup": {
+      "type": "Badge",
+      "props": {
+        "text": "setup",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text_setup": {
+      "type": "Text",
+      "props": {
+        "text": "Wild_Randomness: ETH daily consolidation + upward arrow → Thursday target",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "item_structure": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_structure",
+        "text_structure"
+      ]
+    },
+    "badge_structure": {
+      "type": "Badge",
+      "props": {
+        "text": "structure",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text_structure": {
+      "type": "Text",
+      "props": {
+        "text": "KillaXBT: BTC LH forming below 65K; lose 62.8K weekly open → 61.8–61.3K",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_running",
+        "task1",
+        "task2",
+        "task3",
+        "task4"
+      ]
+    },
+    "heading_running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "task1": {
+      "type": "Text",
+      "props": {
+        "text": "token-alert @ 12:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "task2": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "task3": {
+      "type": "Text",
+      "props": {
+        "text": "market-context-refresh @ 13:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "task4": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
