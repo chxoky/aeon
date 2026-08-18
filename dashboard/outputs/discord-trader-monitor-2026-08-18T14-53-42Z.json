@@ -1,0 +1,85 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration"
+      },
+      "children": [
+        "context_badge",
+        "separator1",
+        "context_needed",
+        "separator2",
+        "quote_section",
+        "separator3",
+        "classification_alert"
+      ]
+    },
+    "context_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DC: HCH — Chat",
+        "variant": "outline"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_needed": {
+      "type": "Text",
+      "props": {
+        "text": "Supporting channel context needed.",
+        "variant": "body"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "quote_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "quote_label",
+        "quote_text"
+      ]
+    },
+    "quote_label": {
+      "type": "Text",
+      "props": {
+        "text": "HCH:",
+        "variant": "caption"
+      }
+    },
+    "quote_text": {
+      "type": "Text",
+      "props": {
+        "text": "\"Less or more, yes\"",
+        "variant": "lead"
+      }
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification_alert": {
+      "type": "Alert",
+      "props": {
+        "message": "Unable to classify — is this sentiment on direction? sizing? something else? Kyle's read?",
+        "type": "warning"
+      }
+    }
+  }
+}
