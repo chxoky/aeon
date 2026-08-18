@@ -25,7 +25,9 @@
 - Last seen: 2026-08-14T19:24:05Z (Discord Chat supporting — bullish BTC sentiment, 61k target affirmation in member Q&A)
 - **Events (rolling):**
   - Aug 14 19:24Z — informational-sentiment: DC Chat "Here to higher 61k" (reply to skellymode, referenced_message: "Take some profit on shorts?"); supporting-channel member Q&A on BTC directional sentiment; bullish conviction statement on targeting 61k price level; no new trade execution language; context: HCH responding to profit-taking question with bullish outlook affirmation; silent log [$BTC] [1537904666447192094]
-- Last seen: 2026-08-18T00:19:30Z (Discord Trades — DOGE short new entry)
+- Last seen: 2026-08-18T05:59:12Z (Discord Chat supporting — ambiguous message "Good for us")
+- **Events (rolling):**
+  - Aug 18 05:59Z — ambiguous-cryptic: DC Chat "Good for us"; supporting-channel standalone message (no referenced_message context); no explicit ticker/execution language; could reference recent DOGE short entry (00:19Z) or general market sentiment affirmation; awaiting Kyle calibration interpretation; HR-2 alert sent [$UNKNOWN] [1539151661359038484]
   - Aug 18 00:19:30Z — trade-new-entry: DC Trades "Add 1% doge short" — new short position on DOGE; primary Trades channel; verbatim rule compliance (HCH—Trades); market-order execution language; DOGE = new ticker, part of systematic short basket; fast-path-alerted [$DOGE] [1539066173382074388]
   - Aug 18 00:12:33Z — trade-conviction-add: DC Trades "Add 1% mu short" — conviction add on existing MU short position; primary Trades channel; market-order execution language; MU escalates from 1% to 2% total short allocation; fast-path-alerted [$MU] [1539064424290189452]
 - Last seen: 2026-08-17T23:52:22Z (Discord Chat — $ETH short member encouragement)

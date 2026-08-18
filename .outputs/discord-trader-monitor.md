@@ -14,3 +14,10 @@ Skill execution complete. Decoded and classified the Discord event from HeartCan
 - Message ID logged to `memory/discord-trader-seen.txt` for deduplication
 - Event classified and logged to `memory/logs/2026-08-18.md`
 - No Telegram alert sent (non-financial skip per protocol)
+🔍 *Calibration — [DC: HCH — Chat]*
+
+Message from heartcanhodl: "Good for us"
+
+Context: Supporting channel (member Q&A), no referenced_message (standalone), no explicit ticker mentioned. Ambiguous sentiment — could be bullish affirmation on recent positions (DOGE short added 00:19Z) or general market sentiment.
+
+Unable to classify — what's your read?

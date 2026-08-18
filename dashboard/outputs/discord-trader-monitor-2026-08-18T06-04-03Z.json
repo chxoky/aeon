@@ -1,0 +1,174 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor — Calibration",
+        "description": "Message classification challenge: ambiguous sentiment requiring interpretation"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_calibration",
+        "sep1",
+        "heading_message",
+        "tweet_card",
+        "sep2",
+        "heading_context",
+        "context_grid",
+        "sep3",
+        "heading_interpretation",
+        "interp_stack",
+        "sep4",
+        "heading_question",
+        "question_text"
+      ]
+    },
+    "badge_calibration": {
+      "type": "Badge",
+      "props": {
+        "text": "DC: HCH — Chat",
+        "variant": "secondary"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_message": {
+      "type": "Heading",
+      "props": {
+        "text": "Discord Message",
+        "level": "h3"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "heartcanhodl",
+        "text": "Good for us"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_context": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "context_grid": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ctx_channel",
+        "ctx_ref",
+        "ctx_ticker",
+        "ctx_activity"
+      ]
+    },
+    "ctx_channel": {
+      "type": "Text",
+      "props": {
+        "text": "Channel: Supporting channel (member Q&A)"
+      }
+    },
+    "ctx_ref": {
+      "type": "Text",
+      "props": {
+        "text": "Referenced message: None (standalone)"
+      }
+    },
+    "ctx_ticker": {
+      "type": "Text",
+      "props": {
+        "text": "Explicit ticker mentioned: None"
+      }
+    },
+    "ctx_activity": {
+      "type": "Text",
+      "props": {
+        "text": "Related activity: DOGE short added 00:19Z"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_interpretation": {
+      "type": "Heading",
+      "props": {
+        "text": "Possible Interpretations",
+        "level": "h3"
+      }
+    },
+    "interp_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "interp1",
+        "interp2"
+      ]
+    },
+    "interp1": {
+      "type": "Text",
+      "props": {
+        "text": "1. Bullish affirmation on recent DOGE short position (added 00:19Z)",
+        "variant": "body"
+      }
+    },
+    "interp2": {
+      "type": "Text",
+      "props": {
+        "text": "2. General market sentiment affirmation",
+        "variant": "body"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_question": {
+      "type": "Heading",
+      "props": {
+        "text": "Classification Status",
+        "level": "h3"
+      }
+    },
+    "question_text": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "title": "Unable to classify",
+        "message": "Ambiguous sentiment — requires interpretation. What's your read?"
+      }
+    }
+  }
+}
