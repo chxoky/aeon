@@ -1,0 +1,95 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "X-Trader Monitor"
+      },
+      "children": [
+        "tweet",
+        "divider-1",
+        "chart-section",
+        "divider-2",
+        "analysis",
+        "tweet-link"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "Sentiment is literally rock bottom... $BTC\n\nEven coming from me, this is the most bored I've been since September 2022."
+      },
+      "children": []
+    },
+    "divider-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "chart-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "chart-heading",
+        "chart-desc",
+        "btc-price-stat"
+      ]
+    },
+    "chart-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Tactical Bull-Bear Sentiment Index (TBBI)",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "chart-desc": {
+      "type": "Text",
+      "props": {
+        "text": "720-day index showing extreme bottom reading (~5–10 range)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "btc-price-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC Price",
+        "value": "$63.86K"
+      },
+      "children": []
+    },
+    "divider-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Sentiment extreme aligns with group bullish-to-mixed lean; historical pattern suggests bottoming structure before recovery moves.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2089757732173656490"
+      },
+      "children": []
+    }
+  }
+}
