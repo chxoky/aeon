@@ -1,0 +1,247 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "market context — 2026-08-18"
+      },
+      "children": [
+        "section_take",
+        "sep_1",
+        "section_prices",
+        "sep_2",
+        "section_sentiment",
+        "sep_3",
+        "section_health",
+        "sep_4",
+        "section_narratives",
+        "sep_5",
+        "section_hot"
+      ]
+    },
+    "section_take": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "label_take",
+        "badge_take"
+      ]
+    },
+    "label_take": {
+      "type": "Text",
+      "props": {
+        "text": "Take",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "badge_take": {
+      "type": "Badge",
+      "props": {
+        "text": "chop (conviction medium)",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "section_prices": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "label_prices",
+        "grid_prices"
+      ]
+    },
+    "label_prices": {
+      "type": "Text",
+      "props": {
+        "text": "Prices",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "grid_prices": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat_btc",
+        "stat_eth"
+      ]
+    },
+    "stat_btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$64,041",
+        "delta": "+1.0%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat_eth": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$1,895",
+        "delta": "-0.1%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "section_sentiment": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "label_sentiment",
+        "stat_fg"
+      ]
+    },
+    "label_sentiment": {
+      "type": "Text",
+      "props": {
+        "text": "Sentiment",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "stat_fg": {
+      "type": "Stat",
+      "props": {
+        "label": "Fear & Greed",
+        "value": "41",
+        "delta": "Fear"
+      },
+      "children": []
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "section_health": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "label_health",
+        "stat_breadth",
+        "stat_tvl"
+      ]
+    },
+    "label_health": {
+      "type": "Text",
+      "props": {
+        "text": "Market Health",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "stat_breadth": {
+      "type": "Stat",
+      "props": {
+        "label": "Breadth",
+        "value": "9/20"
+      },
+      "children": []
+    },
+    "stat_tvl": {
+      "type": "Stat",
+      "props": {
+        "label": "TVL top5 DeFi",
+        "value": "steady",
+        "delta": "+1-3% 7d",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "sep_4": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "section_narratives": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "label_narratives",
+        "text_narrative"
+      ]
+    },
+    "label_narratives": {
+      "type": "Text",
+      "props": {
+        "text": "Top Narratives",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text_narrative": {
+      "type": "Text",
+      "props": {
+        "text": "BTW [BREAKOUT] reversal -6%→+16.5% (7d +92%); VVV day-2 +18.7%",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep_5": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "section_hot": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "label_hot",
+        "badge_fed"
+      ]
+    },
+    "label_hot": {
+      "type": "Text",
+      "props": {
+        "text": "Hot Market",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "badge_fed": {
+      "type": "Badge",
+      "props": {
+        "text": "Fed",
+        "variant": "secondary"
+      },
+      "children": []
+    }
+  }
+}
