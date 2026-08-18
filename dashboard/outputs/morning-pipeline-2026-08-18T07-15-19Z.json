@@ -1,0 +1,234 @@
+{
+  "root": "card_morning_brief",
+  "state": {},
+  "elements": {
+    "card_morning_brief": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-08-18"
+      },
+      "children": [
+        "heading_focus",
+        "stack_focus",
+        "separator_1",
+        "heading_since",
+        "stack_since",
+        "separator_2",
+        "heading_watch",
+        "stack_watch",
+        "separator_3",
+        "heading_running",
+        "stack_running"
+      ]
+    },
+    "heading_focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack_focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus_item_1",
+        "focus_item_2",
+        "focus_item_3"
+      ]
+    },
+    "focus_item_1": {
+      "type": "Text",
+      "props": {
+        "text": "1. Fed July minutes Thursday — why now: BTC stuck below 65K for 18 days; minutes = next regime catalyst"
+      },
+      "children": []
+    },
+    "focus_item_2": {
+      "type": "Text",
+      "props": {
+        "text": "2. trader-memory-compact failed Aug 16 — why now: consecutive failure; traders.md approaching Worker 200K token limit"
+      },
+      "children": []
+    },
+    "focus_item_3": {
+      "type": "Text",
+      "props": {
+        "text": "3. HCH PUMP/LIT shorts pending approval — why now: PUMP holding strength contradicts short thesis; window narrowing"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_since": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack_since": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "since_btc",
+        "since_fg",
+        "since_btw",
+        "since_vvv",
+        "since_ake"
+      ]
+    },
+    "since_btc": {
+      "type": "Text",
+      "props": {
+        "text": "BTC: $63,423→$64,252 (+1.3%) — approaching 65K, not through it"
+      },
+      "children": []
+    },
+    "since_fg": {
+      "type": "Text",
+      "props": {
+        "text": "F&G: 31→41 (+10pts) — biggest 1-day sentiment jump this month, still Fear"
+      },
+      "children": []
+    },
+    "since_btw": {
+      "type": "Text",
+      "props": {
+        "text": "BTW [FADE]: +21% yesterday → -6.1% today; narrative exhausted"
+      },
+      "children": []
+    },
+    "since_vvv": {
+      "type": "Text",
+      "props": {
+        "text": "VVV: new [TRENDING+UP] +12.5% — watch day 2 for confirmation"
+      },
+      "children": []
+    },
+    "since_ake": {
+      "type": "Text",
+      "props": {
+        "text": "AKE: dead-cat reversal -17% (was +89% Aug 14); trailing stops hit"
+      },
+      "children": []
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack_watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "watch_item_1"
+      ]
+    },
+    "watch_item_1": {
+      "type": "Text",
+      "props": {
+        "text": "Fed minutes Thu + US PMI Fri — dovish = BTC breakout above 65K attempt; hawkish = range extends to Jackson Hole Aug 27"
+      },
+      "children": []
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack_running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "running_1",
+        "running_2",
+        "running_3",
+        "running_4",
+        "running_5",
+        "running_6"
+      ]
+    },
+    "running_1": {
+      "type": "Text",
+      "props": {
+        "text": "token-alert @ 12:00 UTC"
+      },
+      "children": []
+    },
+    "running_2": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC"
+      },
+      "children": []
+    },
+    "running_3": {
+      "type": "Text",
+      "props": {
+        "text": "market-context-refresh @ 13:00 UTC"
+      },
+      "children": []
+    },
+    "running_4": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC"
+      },
+      "children": []
+    },
+    "running_5": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 14:00, 20:00 UTC"
+      },
+      "children": []
+    },
+    "running_6": {
+      "type": "Text",
+      "props": {
+        "text": "skill-health @ 18:00 UTC"
+      },
+      "children": []
+    }
+  }
+}
