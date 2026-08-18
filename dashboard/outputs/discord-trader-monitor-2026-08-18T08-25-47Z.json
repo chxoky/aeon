@@ -1,0 +1,172 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor — Calibration [DC: HCH — Chat]"
+      },
+      "children": [
+        "alert-main"
+      ]
+    },
+    "alert-main": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "title": "Unable to Classify",
+        "message": "HeartCanHodl message requires interpretation"
+      },
+      "children": [
+        "stack-details"
+      ]
+    },
+    "stack-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "section-event",
+        "sep-1",
+        "section-message",
+        "sep-2",
+        "section-classification"
+      ]
+    },
+    "section-event": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-event",
+        "text-event"
+      ]
+    },
+    "heading-event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "text-event": {
+      "type": "Text",
+      "props": {
+        "text": "HeartCanHodl message in supporting member chat",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-message": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-message",
+        "text-message"
+      ]
+    },
+    "heading-message": {
+      "type": "Heading",
+      "props": {
+        "text": "Message",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "text-message": {
+      "type": "Text",
+      "props": {
+        "text": "\"One of the hindsight confluence\"",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-classification": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-class",
+        "text-class",
+        "options-stack"
+      ]
+    },
+    "heading-class": {
+      "type": "Heading",
+      "props": {
+        "text": "Classification Options",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "text-class": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "options-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-confluence",
+        "badge-structure",
+        "badge-other"
+      ]
+    },
+    "badge-confluence": {
+      "type": "Badge",
+      "props": {
+        "text": "Confluence on recent short entries",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "badge-structure": {
+      "type": "Badge",
+      "props": {
+        "text": "Market structure reflection",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "badge-other": {
+      "type": "Badge",
+      "props": {
+        "text": "Something else?",
+        "variant": "outline"
+      },
+      "children": []
+    }
+  }
+}
