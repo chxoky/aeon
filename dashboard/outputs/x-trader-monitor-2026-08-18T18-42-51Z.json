@@ -1,0 +1,104 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @Wild_Randomness",
+        "description": "Event: Reply to @jacobxyc about conditional weekly breakout plan"
+      },
+      "children": [
+        "separator_top",
+        "tweet_card",
+        "separator_1",
+        "analysis_heading",
+        "unclear_text",
+        "btc_section",
+        "separator_2",
+        "link_view"
+      ]
+    },
+    "separator_top": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "If it breaks on the weekly I'm buying a load of spot and will close my November puts"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Analysis",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "unclear_text": {
+      "type": "Text",
+      "props": {
+        "text": "The conditional plan is clear (IF break → buy spot + close puts), but unclear which asset/weekly level: BTC? ETH? Some other tracked instrument? Context from @jacobxyc's original message would clarify the thesis (what's the weekly support being watched? Which instrument?).",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "btc_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "btc_label",
+        "btc_text"
+      ]
+    },
+    "btc_label": {
+      "type": "Badge",
+      "props": {
+        "text": "If BTC",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "btc_text": {
+      "type": "Text",
+      "props": {
+        "text": "This represents conviction flip from documented barbell (macro bear) to structural bull entry. Nov puts closure = closing bearish hedge.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2089783724846321985"
+      },
+      "children": []
+    }
+  }
+}
