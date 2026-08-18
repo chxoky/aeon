@@ -1,0 +1,69 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @Bitcoin_Astro"
+      },
+      "children": [
+        "event_badge",
+        "sep1",
+        "tweet_content",
+        "sep2",
+        "warning_alert",
+        "sep3",
+        "clarification_text"
+      ]
+    },
+    "event_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Reply to @Flavi3Flavian on technical support/bounce scenario",
+        "variant": "outline"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet_content": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Bitcoin_Astro",
+        "handle": "Bitcoin_Astro",
+        "text": "Currently at support. If it hold and bounce, possibly 80$ in the coming weeks. If it breaks below, another retest of the lows. There is a sell signal 5 days ago so be careful"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "warning_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "The price target \"80$\" and \"sell signal 5 days ago\" are mentioned without ticker context. Which asset?",
+        "type": "warning"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "clarification_text": {
+      "type": "Text",
+      "props": {
+        "text": "Awaiting clarification: Which asset is being discussed? (BTC? altcoin? commodities?)",
+        "variant": "lead"
+      }
+    }
+  }
+}

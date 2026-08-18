@@ -17,3 +17,12 @@
 - `memory/logs/2026-08-18.md` — Logged event with classification and rationale
 
 Skill execution complete. No action required.
+🔍 *Calibration — @Bitcoin_Astro*
+
+Event: Reply to @Flavi3Flavian on technical support/bounce scenario
+
+Bitcoin_Astro: "Currently at support. If it hold and bounce, possibly 80$ in the coming weeks. If it breaks below, another retest of the lows. There is a sell signal 5 days ago so be careful"
+
+Unable to classify — **which asset?** The price target "80$" and "sell signal 5 days ago" are mentioned without ticker context.
+
+Awaiting clarification: Which asset is being discussed? (BTC? altcoin? commodities?)
