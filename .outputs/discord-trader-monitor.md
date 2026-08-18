@@ -1,24 +1,16 @@
-Perfect! I've successfully executed the Discord Trader Monitor skill for the HeartCanHodl message. Here's what was processed:
+Skill execution complete.
 
-## Summary
+**Summary:**
 
-**Message processed:** HeartCanHodl Discord message "Add 1% doge short" (ID: 1539066173382074388)
-- **Channel:** 1279738718680256553 (HCH — Trades, primary)
-- **Time:** 2026-08-18 00:19:30 UTC
-- **Classification:** Trade-new-entry (systematic short position)
-- **Ticker:** DOGE (Dogecoin)
+I decoded and processed the Discord event from HeartCanHodl at 2026-08-18T04:42:44Z in the HCH — Chat supporting channel.
 
-**Actions taken:**
+**Classification:** Technical-check ("Fc eth 15m" = false-close chart check on ETH 15-minute)
+- Per established calibration: "Fc {ticker} {tf}" is a resolved TA pattern (~15+ occurrences), NOT a trade signal
+- Fast-path alert already sent by Cloudflare Worker on the referenced Aug 17 23:52Z entry opportunity message
+- Supporting-channel technical validation following that message
 
-1. ✅ **Message verified:** Not previously seen (added to discord-trader-seen.txt)
-2. ✅ **Channel resolved:** HeartCanHodl primary Trades channel (verbatim rule applies)
-3. ✅ **Alert status:** Fast-path already notified Kyle via Telegram ~2-5s post-message (Cloudflare Worker)
-4. ✅ **Memory updated:**
-   - `traders.md`: Added event entry (line 28); updated DOGE short allocation to 1% in position summary; updated net-short regime total to 32.5%
-   - `ticker-focus.md`: Updated DOGE entry noting cross-trader divergence (swarmister bullish long DCA vs. HCH short conviction)
-   - `discord-trader-seen.txt`: Added message ID to prevent re-processing
-   - `memory/logs/2026-08-18.md`: Appended structured log entry with full context
-
-**Cross-trader context:** This creates a **contested DOGE** position — swarmister entered a long DCA position on Aug 04 at 0.12-0.13 zone; HCH just entered a 1% short. Tracking for resolution at price action key levels.
-
-Skill execution complete. No additional Telegram notification sent (fast-path alert already delivered).
+**Action:** Silent log
+- Message ID 1539132421428219956 added to dedup tracker
+- Log entry appended to memory/logs/2026-08-18.md
+- No Kyle notification (technical observation, no execution language)
+- No traders.md event line (per resolved calibration: Fc checks logged implicitly via context reference only)
