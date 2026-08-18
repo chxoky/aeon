@@ -1,0 +1,72 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Discord — HCH Chat"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "member-msg",
+        "sep",
+        "response-heading",
+        "analysis-table"
+      ]
+    },
+    "member-msg": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Member",
+        "text": "So we are short crypto, gold, oil and stocks struggling.. all asset classes go down?"
+      }
+    },
+    "sep": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "response-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Market Analysis",
+        "level": "h3"
+      }
+    },
+    "analysis-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Asset",
+          "Movement"
+        ],
+        "rows": [
+          [
+            "Stocks",
+            "Started free falling last 24 hours"
+          ],
+          [
+            "Metals",
+            "Started some hour ago"
+          ],
+          [
+            "Oil",
+            "Not moving up on dubai blast alert"
+          ]
+        ]
+      }
+    }
+  }
+}

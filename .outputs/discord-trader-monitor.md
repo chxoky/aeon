@@ -1,12 +1,5 @@
-🔍 *Calibration — [DC: HCH — Chat]*
+💬 *[DC: HCH — Chat]*
 
-Supporting channel context needed.
+↩️ _Member: "So we are short crypto, gold, oil and stocks struggling.. all asset classes go down?"_
 
-HCH: "Less or more, yes"
-
-Unable to classify — is this sentiment on direction? sizing? something else? Kyle's read?
-💬 *\[DC: HCH — Chat\]*
-
-Not expecting much downside from metals although
-
-_\[Supporting channel — real-time sentiment shift on metals\]_
+Stocks started free falling last 24 hours, Metals started some hour ago, Oil not moving up on dubai blast alert
