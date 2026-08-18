@@ -822,3 +822,14 @@
 - **Events (rolling):**
   - Aug 16 17:25Z — informational-trade-idea: X MU bullish setup; dark pool shorting as bullish signal, options cheap w/ rising call demand, target above 900 support; 4-chart analysis attached (CDN fetch unavailable); no personal execution language; options vol expertise applied; alerted [$MU] [2089040973879820775]
   - Aug 15 06:56Z — informational-sentiment: X "@jimtalbot @BittexXBT bring back ftx move contracts"; product feature request/sentiment on FTX perpetual contracts ecosystem; mentions two established traders directly (cross-reference for context); no personal trade action; no personal position indicated; alerted [$FTX_PRODUCTS] [2088520148474810463]
+
+## trading_axe
+- Platforms: X (primary)
+- Current open positions: Unknown (new trader, insufficient data)
+- Recent thesis: Unknown (new trader, trading philosophy/banter focus)
+- Conviction notes: Philosophy + trainer banter on social trading dynamics. "Dr. Axius" persona. Non-financial/educational content focus so far.
+- Calibration: None yet (monitor for trade signals vs philosophy posts)
+- Last seen: 2026-08-18T00:12:03Z (X — trader banter reply dismissing "banana picking" strategy)
+- **Events (rolling):**
+  - Aug 18 00:12Z — non-financial-skip: X reply to @KysrCrypto @cryptokillua99 @MidCurveMortal "And you're banana picking. ~ Dr. Axius"; trader banter critiquing other traders' strategy. Platform metadata image only (Africa Android App footer). No personal trade action or financial signal. Silent skip per HR-1 Step 4A [$UNKNOWN] [2089505570936037649]
+  - Aug 18 00:05Z — non-financial-skip: X educational/philosophy post comparing trading discipline vs gambling on shitcoins. No personal action or specific asset mentioned. Silent skip per HR-1 Step 4A [$UNKNOWN] [2089503960193274095]
