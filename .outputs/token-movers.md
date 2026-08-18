@@ -1,20 +1,14 @@
-Done. Here's a summary of the run:
-
 ## Summary
 
-**token-movers — 2026-08-17 (~12:45 UTC)**
+Skill executed successfully. Here's what was done:
 
-**Market pulse:** Broad recovery holding — ~65/100 top-cap alts green, BTC +0.9% to $63.5K, median +0.9%. Morning's breakout energy is narrowing; privacy (ZEC/XMR) and perp-DEX (HYPE) leading.
+**Data fetched:** CoinGecko top-250 markets (ranks 1–107 from page 1, 150–253 from page 2) + 15 trending coins, all via WebFetch fallback per sandbox protocol.
 
-**Top Winners:** BTW (+5.8%, fading from morning's +20%), RAIN (+5.6%) [MAJOR], ZEC (+5.5%) [TRENDING+UP][MAJOR], ETHFI (+3.7% day-8 run), BDX (+3.7% reversed from yesterday's losses)
+**Key findings today (2026-08-18):**
+- **Tape:** BTC recovered to $64,252 (+1.2%), but 56% of filtered top-50 alts remain red; median 24h −0.4% — mixed/chop with DeFi pocket of strength
+- **Top Winners:** ANSEM +13.5% [TRENDING+UP], GPS +13.1% (extreme vol spike >1× mcap), VVV +12.5% [TRENDING+UP], POL +5.9%, COMP +7.1%
+- **Top Losers:** VELVET −49.5% [CAPITULATION], AKE −18.5% [TRENDING+DOWN] (HCH short running right — pump cycle complete after +116% 7d), WLD −10.8%, BTW −6.1% [TRENDING+DOWN]
+- **Trending:** SUI, VVV, PENGU, UNI, PI, TAO, ACE (+31.6% [PUMP-RISK] rank 749)
+- **Notable:** GPS vol/mcap anomaly; AKE pump-dump completing; VELVET possible exploit; ACE/ANSEM/WKC low-cap meme cluster active
 
-**Top Losers:** VELVET (−30.3%) [TRENDING+DOWN] — sharp reversal from morning's +6.4% breakout; 币安人生 (−4.4%), ATOM (−3.7%), QNT (−3.0%). Overall losers are mild — this is a broadly green tape.
-
-**Key signals:**
-- **GPS** [PUMP-RISK]: rank-245 coin +59% while trending — high manipulation risk, volume unconfirmed
-- **ZEC** [TRENDING+UP][MAJOR]: privacy narrative (XMR/ZEC) strengthening for day-2
-- **VELVET** [TRENDING+DOWN]: pump-and-dump cycle confirmed — morning winner at +6.4%, now −30%
-- **LIT**: +3.1% running against HCH's active 3% short added this morning
-- **BTW**: dropped from trending; breakout fading from morning's +20% to +5.8%
-
-**Notification:** Queued to `.pending-notify/1786970661.md` — sandbox requires approval for bash script execution.
+**Actions:** Notification queued to `.pending-notify/1787037546.md` for post-run delivery (sandbox blocked direct send); log entry appended to `memory/logs/2026-08-18.md`.

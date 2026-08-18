@@ -1,16 +1,42 @@
-🔍 *Calibration — @t_in_crypto*
+*Token Movers — 2026-08-18*
 
-Event: ~33 min after their documented "waiting for 65.6K breakout" setup condition (Jul 20 15:27:20 UTC)
+_Mixed tape, BTC recovery — BTC +1.2% reclaimed $64K; ~56% of filtered top-50 alts still red, median 24h −0.4%; DeFi (MORPHO/AAVE/SKY) and POL diverging positively from a sideways field._
 
-Post: "Here we gooo\n$btc #btc https://t.co/GUfFA14e4p"
+*Top Winners (24h)*
+1. ANSEM (The Black Bull) — $0.2656  +13.5% / 7d +27.5% / 1h +0.7%  •  $41M / #230  [TRENDING+UP]
+2. GPS (GoPlus Security) — $0.01706  +13.1% / 7d +80.8% / 1h −1.7%  •  $117M / #241
+3. VVV (Venice Token) — $13.72  +12.5% / 7d +16.3% / 1h +2.1%  •  $23.7M / #88  [TRENDING+UP]
+4. GEOD (Geodnet) — $0.2111  +9.5% / 7d −7.6% / 1h +0.7%  •  $6.4M / #248
+5. COMP (Compound) — $17.38  +7.1% / 7d +6.1% / 1h −1.3%  •  $39M / #172
+6. POL (ex-MATIC) — $0.07950  +5.9% / 7d +5.1% / 1h +0.1%  •  $62.9M / #74
+7. SKY — $0.05493  +4.5% / 7d +4.4% / 1h +1.2%  •  $8.6M / #55
+8. SFP (SafePal) — $0.2425  +4.1% / 7d +4.4% / 1h 0.0%  •  $1.8M / #216
+9. MORPHO — $2.11  +3.4% / 7d +8.2% / 1h −0.4%  •  $24.6M / #51
+10. ZEC (Zcash) — $509.3  +3.0% / 7d +3.6% / 1h +0.2%  •  $201M / #14  [MAJOR]
 
-Context: t_in_crypto holds 100% BTC LONG @58.4K + x2 volume conviction add @62K (Jul 14). Recent posts show structured patience on breakout condition. Current post lacks clear execution language.
+*Top Losers (24h)*
+1. VELVET — $0.4959  −49.5% / 7d +12.7% / 1h −0.1%  •  $22.1M / #150  [CAPITULATION]
+2. AKE (Akedo) — $0.008378  −18.5% / 7d +116% / 1h −0.7%  •  $13.4M / #163  [TRENDING+DOWN]
+3. WLD (Worldcoin) — $0.3238  −10.8% / 7d −2.8% / 1h +0.9%  •  $161M / #61
+4. TAG (TAGGER) — $0.000912  −7.6% / 7d −22.1% / 1h −0.5%  •  $2.4M / #242
+5. FIL (Filecoin) — $0.6277  −6.5% / 7d −11.0% / 1h +0.2%  •  $55.6M / #93
+6. BTW (Bitway) — $0.3528  −6.1% / 7d +81.9% / 1h −1.0%  •  $28.4M / #67  [TRENDING+DOWN]
+7. TIBBIR (Ribbita by Virtuals) — $0.1749  −5.6% / 7d +35.3% / 1h +2.5%  •  $1.3M / #171
+8. OKB — $98.00  −5.5% / 7d +3.2% / 1h +0.6%  •  $36.9M / #39
+9. SAND (The Sandbox) — $0.03853  −4.6% / 7d −6.1% / 1h +0.5%  •  $9.5M / #227
+10. KAIA — $0.02253  −4.4% / 7d −15.4% / 1h +0.8%  •  $4.6M / #195
 
-Unable to classify — is this:
-(a) NEW entry/add signal at current price?
-(b) Bullish sentiment reaction to price movement?
-(c) Resource/analysis share (URL content unknown)?
+*Trending*
+1. SUI — #34, $0.6488, 24h −4.1%
+2. VVV (Venice Token) — #88, $13.72, 24h +12.5%  [TRENDING+UP]
+3. PENGU (Pudgy Penguins) — #110, $0.00599, 24h −0.1%
+4. UNI (Uniswap) — #40, $3.27, 24h −0.2%
+5. PI (Pi Network) — #69, $0.08625, 24h 0.0%
+6. TAO (Bittensor) — #43, $193.1, 24h −2.2%
+7. ACE (Fusionist) — #749, $0.1962, 24h +31.6%  [PUMP-RISK]
 
-What's your read?
-
-[View tweet](https://x.com/t_in_crypto/status/2079250089403396569)
+*Notable*
+• GPS: +13.1% on $117M volume vs $100M mcap — vol/mcap >1.0×, extreme compression; no clear catalyst; watch for reversal
+• AKE: trending+down −18.5% after +116% 7d run — pump cycle completing; HCH short running right
+• VELVET: −49.5% collapse at rank 150 — 7d still +12.7% confirms prior pump; possible exploit or insider exit
+• ACE (Fusionist): rank 749 trending, +31.6% [PUMP-RISK] — pairs with ANSEM/WKC low-cap cluster today; manipulation likely
