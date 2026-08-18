@@ -1,0 +1,124 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "ANSEM Insider-Accumulation Calibration",
+        "description": "Calibration request from @Wild_Randomness"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event",
+        "sep1",
+        "author_response",
+        "chart_note",
+        "post_link",
+        "sep2",
+        "classification"
+      ]
+    },
+    "event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Recent ANSEM insider-accumulation analysis (Aug 18 20:31–21:09Z)",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "author_response": {
+      "type": "Text",
+      "props": {
+        "text": "@Wild_Randomness: \"re\"",
+        "variant": "body"
+      }
+    },
+    "chart_note": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "message": "Chart image — unable to fetch via sandbox"
+      }
+    },
+    "post_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View ANSEM insider-accumulation analysis",
+        "href": "https://x.com/Wild_Randomness/status/2089851910958535088",
+        "source": "@Wild_Randomness"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "class_heading",
+        "questions_stack"
+      ]
+    },
+    "class_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "level": "h3"
+      }
+    },
+    "questions_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "q1",
+        "q2",
+        "q3"
+      ]
+    },
+    "q1": {
+      "type": "Text",
+      "props": {
+        "text": "• Re-entry into ANSEM or similar?",
+        "variant": "body"
+      }
+    },
+    "q2": {
+      "type": "Text",
+      "props": {
+        "text": "• Reference to new/prior position?",
+        "variant": "body"
+      }
+    },
+    "q3": {
+      "type": "Text",
+      "props": {
+        "text": "• What asset and direction?",
+        "variant": "body"
+      }
+    }
+  }
+}
