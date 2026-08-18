@@ -1,0 +1,48 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_source",
+        "text_message",
+        "text_context"
+      ]
+    },
+    "badge_source": {
+      "type": "Badge",
+      "props": {
+        "text": "DC: HCH — Chat",
+        "variant": "outline"
+      }
+    },
+    "text_message": {
+      "type": "Text",
+      "props": {
+        "text": "Not expecting much downside from metals although",
+        "variant": "body"
+      }
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "Supporting channel — real-time sentiment shift on metals",
+        "variant": "caption"
+      }
+    }
+  }
+}
