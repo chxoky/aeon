@@ -1,8 +1,7 @@
-🔍 *Calibration — @swarmister*
+🐦 *[X] @KillaXBT*
 
-Reply to: @ropeful (original message unavailable)
-swarmister: "Who cares"
+A bull will always end up making more money than a smart bear. 
 
-No asset/ticker/execution language visible. Reply-dependent context completely opaque. Unable to classify — what's your read?
+Just remember that… $BTC
 
-[View post](https://x.com/swarmister/status/2089659061213999566)
+[View tweet](https://x.com/KillaXBT/status/2089672152614113356)
