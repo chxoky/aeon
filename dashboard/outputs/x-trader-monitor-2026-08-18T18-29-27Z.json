@@ -1,0 +1,41 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_post",
+        "link_view"
+      ]
+    },
+    "tweet_post": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "$BTC\n\nThe main POI worth observing is the 65.7K region. This level is more important than people realise.\n\nWhen we broke down from 74K to 59K, we left a huge imbalance above us. In the process, a significant amount of untapped liquidity was created overhead, which I know will eventually be swept.\n\nWe also have heavy compression around both the local highs and lows. Since we're still in a range, either side can break first.\n\nBulls do not want to see 61–62K lost. If that happens, we could form a 3 drive bottom, potentially sweeping the low 50Ks before finally pushing higher.\n\nHowever, if we replicate the 2022 bottom formation, there's also a possibility that we don't sweep the lows.\n\nThat would make positioning extremely uncomfortable, as most people naturally want to enter after a liquidity sweep.\n\nUltimately, it's a matter of:\n\nAccept 65.7K > squeeze towards 70K\n\nor\n\nBreak the lows with force > push into the low 50Ks > finally bottom."
+      }
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/KillaXBT/status/2089780510197498006"
+      }
+    }
+  }
+}
