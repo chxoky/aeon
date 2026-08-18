@@ -1,0 +1,167 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor — US100 Market Update"
+      },
+      "children": [
+        "main-stack"
+      ]
+    },
+    "main-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "chart-link",
+        "sep-1",
+        "analysis-stack"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "@HeartCanHodl",
+        "text": "Better ltf view"
+      }
+    },
+    "chart-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "US100 1h Chart",
+        "href": "https://x.com/HeartCanHodl/status/2089769538862842094",
+        "source": "X"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-1",
+        "stats-grid",
+        "sep-2",
+        "heading-2",
+        "badges-stack",
+        "text-note",
+        "text-context",
+        "text-thesis"
+      ]
+    },
+    "heading-1": {
+      "type": "Heading",
+      "props": {
+        "text": "US100 1h — Sharp Intraday Selloff",
+        "level": "h3"
+      }
+    },
+    "stats-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "stat-high",
+        "stat-current",
+        "stat-change"
+      ]
+    },
+    "stat-high": {
+      "type": "Stat",
+      "props": {
+        "label": "High (Aug 16)",
+        "value": "30244.2"
+      }
+    },
+    "stat-current": {
+      "type": "Stat",
+      "props": {
+        "label": "Current",
+        "value": "29511.0"
+      }
+    },
+    "stat-change": {
+      "type": "Stat",
+      "props": {
+        "label": "Change",
+        "value": "-2.4%",
+        "trend": "down"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-2": {
+      "type": "Heading",
+      "props": {
+        "text": "Market Structure & Context",
+        "level": "h3"
+      }
+    },
+    "badges-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-volume",
+        "badge-bearish"
+      ]
+    },
+    "badge-volume": {
+      "type": "Badge",
+      "props": {
+        "text": "Red Volume Domination",
+        "variant": "destructive"
+      }
+    },
+    "badge-bearish": {
+      "type": "Badge",
+      "props": {
+        "text": "Bearish Structure",
+        "variant": "destructive"
+      }
+    },
+    "text-note": {
+      "type": "Text",
+      "props": {
+        "text": "No personal trade action (informational chart sharing).",
+        "variant": "caption"
+      }
+    },
+    "text-context": {
+      "type": "Text",
+      "props": {
+        "text": "Aligns with multi-asset weakness theme: stocks free-falling, metals momentum starting per HCH 15:19Z update.",
+        "variant": "body"
+      }
+    },
+    "text-thesis": {
+      "type": "Text",
+      "props": {
+        "text": "Validates HCH's 65% net-short regime thesis across tech/QQQ sector decline into close.",
+        "variant": "lead"
+      }
+    }
+  }
+}

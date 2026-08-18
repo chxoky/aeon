@@ -1,32 +1,5 @@
-🔍 *Calibration — @Stoiiic*
-
-Post: "tldr: going with the break of current consolidation"
 🐦 *[X] @HeartCanHodl*
 
-Some of those names are down -10% today ;)
+Better ltf view https://x.com/HeartCanHodl/status/2089769538862842094
 
-Chart shows QQQ (QQQ) 4h structure with recovery from 656.30 → 718.32 current. Commentary on tech/market weakness, likely victory lap on short positions added earlier today (CL short +1% at 08:49Z).
-
-Image URL: https://pbs.twimg.com/media/HQBXRLMWQAABM.jpg (unable to read due to sandbox fetch limitation)
-
-Unable to classify financial relevance — what's your read? Is this a trade setup share, market analysis, or social commentary?
-
-[View post](https://x.com/swarmister/status/2089766187118797145)
-## Summary
-
-Skill execution complete. Processed real-time X trader event for @Stoiiic:
-
-**Event:** Tweet ID 2089765929609560552 (Aug 18 17:26:38 UTC) — reply to @Evan_ss6: "really wish i didn't see this, would like to go back in time."
-
-**Classification:** Non-financial personal banter (Step 4A) — no explicit financial reference, no market context visible (original @Evan_ss6 post unavailable), no ticker or execution language. Reply-dependent; insufficient context to classify as financially relevant.
-
-**Action taken:**
-- Skipped per HR-1 protocol (no alert to Kyle)
-- Added tweet ID to dedup tracker (x-trader-seen.txt)
-- Updated daily log (memory/logs/2026-08-18.md)
-- Updated traders.md Last seen timestamp for Stoiiic (2026-08-18T17:26:38Z)
-- No event line added to traders.md per protocol (non-financial events: daily log only)
-
-No notification sent. Event logged for dedup tracking only.
-Cryptic/ambiguous — unable to classify. What's the ticker and direction (long/short)?
-[View tweet](https://x.com/HeartCanHodl/status/2089768212397428868)
+US100 1h chart showing sharp intraday selloff: 30244.2 (high Aug 16) → 29511.0 (current, -2.4%). Red volume domination, bearish structure. No personal trade action (informational chart sharing). Aligns with multi-asset weakness theme (stocks free-falling, metals momentum starting per HCH 15:19Z update). Validates HCH's 65% net-short regime thesis across tech/QQQ sector decline into close.
