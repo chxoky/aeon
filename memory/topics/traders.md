@@ -28,6 +28,7 @@
 - Last seen: 2026-08-18T05:59:12Z (Discord Chat supporting — ambiguous message "Good for us")
 - **Events (rolling):**
   - Aug 18 05:59Z — ambiguous-cryptic: DC Chat "Good for us"; supporting-channel standalone message (no referenced_message context); no explicit ticker/execution language; could reference recent DOGE short entry (00:19Z) or general market sentiment affirmation; awaiting Kyle calibration interpretation; HR-2 alert sent [$UNKNOWN] [1539151661359038484]
+  - Aug 18 06:56:35Z — informational-position-management: DC Trades "Cover any remaining % of spot or longs" — position-management directive to close remaining long spot/perp allocations. Primary Trades channel (verbatim rule applies). No specific ticker or % specified (generic close instruction). Fast-path-alerted by Cloudflare Worker (Telegram sent ~2-5s post-message); memory/logging only [$SPOT_LONGS] [1539166105892028447]
   - Aug 18 00:19:30Z — trade-new-entry: DC Trades "Add 1% doge short" — new short position on DOGE; primary Trades channel; verbatim rule compliance (HCH—Trades); market-order execution language; DOGE = new ticker, part of systematic short basket; fast-path-alerted [$DOGE] [1539066173382074388]
   - Aug 18 00:12:33Z — trade-conviction-add: DC Trades "Add 1% mu short" — conviction add on existing MU short position; primary Trades channel; market-order execution language; MU escalates from 1% to 2% total short allocation; fast-path-alerted [$MU] [1539064424290189452]
 - Last seen: 2026-08-17T23:52:22Z (Discord Chat — $ETH short member encouragement)
