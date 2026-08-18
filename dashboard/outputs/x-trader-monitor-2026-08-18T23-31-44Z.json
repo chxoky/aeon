@@ -1,0 +1,73 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-card",
+        "separator-1",
+        "stats-section",
+        "observation-text"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Very fitting time… (VIX/RVX volatility observation)"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stats-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-vix",
+        "stat-rvx"
+      ]
+    },
+    "stat-vix": {
+      "type": "Stat",
+      "props": {
+        "label": "VIX",
+        "value": "15.84",
+        "delta": "+0.65 (+4.28%)",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat-rvx": {
+      "type": "Stat",
+      "props": {
+        "label": "RVX",
+        "value": "19.30",
+        "delta": "+0.86 (+4.66%)",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "observation-text": {
+      "type": "Text",
+      "props": {
+        "text": "Charts show volatility indices structure aligned with macro bear thesis + documented Aug 15-20 critical window.",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}

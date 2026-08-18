@@ -13,3 +13,11 @@
 ↳ *Thesis: Market has reached extreme complacency + risk-reversal completion conditions. Typical preconditions for volatility regime shift / market inflection. Aligns with WR's "Jump the Shark" macro framework.*
 
 [View tweet](https://x.com/Wild_Randomness/status/2089855700612895101)
+Very fitting time… (VIX/RVX volatility observation)
+
+VIX: 15.84 +0.65 (+4.28%)
+RVX: 19.30 +0.86 (+4.66%)
+
+Charts show volatility indices structure aligned with macro bear thesis + documented Aug 15-20 critical window.
+
+[View tweet](https://x.com/Wild_Randomness/status/2089855346806530069)
