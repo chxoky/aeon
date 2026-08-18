@@ -1,0 +1,158 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X-Trader Monitor"
+      },
+      "children": [
+        "header-section",
+        "sep1",
+        "main-tweet",
+        "sep2",
+        "context-section",
+        "sep3",
+        "clarification-section"
+      ]
+    },
+    "header-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event-heading",
+        "event-details"
+      ]
+    },
+    "event-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @swarmister",
+        "level": "h2"
+      }
+    },
+    "event-details": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to @0xbags (6 min after previous ambiguous affirmation on same topic)",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "main-tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "ITS TRUE 😭😭"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context-heading",
+        "previous-message",
+        "analysis"
+      ]
+    },
+    "context-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "previous-message": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "prev-label",
+        "prev-timestamp",
+        "prev-tweet"
+      ]
+    },
+    "prev-label": {
+      "type": "Text",
+      "props": {
+        "text": "Follow-up to earlier message:",
+        "variant": "muted"
+      }
+    },
+    "prev-timestamp": {
+      "type": "Text",
+      "props": {
+        "text": "09:02:32Z",
+        "variant": "caption"
+      }
+    },
+    "prev-tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "@0xbags But it's true !!"
+      }
+    },
+    "analysis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "analysis-label",
+        "analysis-text"
+      ]
+    },
+    "analysis-label": {
+      "type": "Text",
+      "props": {
+        "text": "Analysis:",
+        "variant": "muted"
+      }
+    },
+    "analysis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Both replies lack financial keywords/ticker/execution language. Unclear what swarmister is affirming.",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "clarification-section": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification Request",
+        "message": "Unable to classify — what's your read? Is this financial signal, trader banter, or something else?",
+        "type": "info"
+      }
+    }
+  }
+}
