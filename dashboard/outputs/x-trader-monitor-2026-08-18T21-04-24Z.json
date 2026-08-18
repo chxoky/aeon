@@ -1,0 +1,142 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X-Trader Monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_ticker",
+        "separator_1",
+        "tweet_section",
+        "separator_2",
+        "analysis_section"
+      ]
+    },
+    "badge_ticker": {
+      "type": "Badge",
+      "props": {
+        "text": "$SPCX",
+        "variant": "default"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet_card",
+        "tweet_link"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "$SPCX\n\nInteracting with the $150 IPO opening price a little different this time around…\n\n(Next 7% unlock comes Aug 20)"
+      }
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2089819595758866673"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "analysis_heading",
+        "analysis_text",
+        "price_stats",
+        "catalyst_info"
+      ]
+    },
+    "analysis_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Technical Analysis",
+        "level": "h3"
+      }
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Charts show V-shaped recovery from ~$110-120 lows to current $143-148, approaching $150 resistance (IPO open price) for potential second test. Unlock catalyst Aug 20 flags upcoming volatility driver.",
+        "variant": "body"
+      }
+    },
+    "price_stats": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "stat_lows",
+        "stat_current",
+        "stat_resistance"
+      ]
+    },
+    "stat_lows": {
+      "type": "Stat",
+      "props": {
+        "label": "Lows",
+        "value": "$110-120"
+      }
+    },
+    "stat_current": {
+      "type": "Stat",
+      "props": {
+        "label": "Current",
+        "value": "$143-148"
+      }
+    },
+    "stat_resistance": {
+      "type": "Stat",
+      "props": {
+        "label": "Resistance (IPO)",
+        "value": "$150"
+      }
+    },
+    "catalyst_info": {
+      "type": "Alert",
+      "props": {
+        "title": "Upcoming Catalyst",
+        "message": "Next 7% unlock comes Aug 20",
+        "type": "warning"
+      }
+    }
+  }
+}
