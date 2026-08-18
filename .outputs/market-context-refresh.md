@@ -1,7 +1,8 @@
-market context — 2026-08-17
+market context — 2026-08-18
 
-take: chop (conviction medium)
-BTC $63,423 (+0.65%) / ETH $1,895.78 (+0.88%) · F&G 31 (Fear)
-breadth 14/20 · TVL ~$274B stables flat
-top narratives: privacy/ZEC+XMR (rising day-3+); HYPE perp DEX (rising day-6+); GPS [PUMP-RISK] emerging
-hot market: "US-Iran 60d negotiation extended?" YES 9.7%
+take: chop (recovering) (conviction medium)
+BTC $64,252 (+1.2%) / ETH $1,900.90 (+0.2%) · F&G 41 (Fear, +10pts)
+breadth 10/20 24h · 12/20 7d · DEX vol $5.50B (+33%)
+top narratives: ZEC/XMR rising day-4+; LINK +12.3% 7d; VVV emerging [PUMP-RISK]
+hot market: "Fed 25bps hike Sep" YES 28.5% → ~71.5% No-Change
+catalyst: Fed July minutes Thu; Jackson Hole Aug 27-29 (9d)

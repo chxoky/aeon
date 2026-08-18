@@ -1,0 +1,248 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "Market Context",
+        "description": "2026-08-18"
+      },
+      "children": [
+        "assessment",
+        "sep1",
+        "prices_section",
+        "sep2",
+        "breadth_section",
+        "sep3",
+        "narratives_section",
+        "sep4",
+        "catalysts_section"
+      ]
+    },
+    "assessment": {
+      "type": "Badge",
+      "props": {
+        "text": "Chop (Recovering) — Medium Conviction",
+        "variant": "outline"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "prices_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "btc_stat",
+        "eth_stat",
+        "fg_stat"
+      ]
+    },
+    "btc_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$64,252",
+        "delta": "+1.2%",
+        "trend": "up"
+      }
+    },
+    "eth_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$1,900.90",
+        "delta": "+0.2%",
+        "trend": "up"
+      }
+    },
+    "fg_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Fear & Greed",
+        "value": "41",
+        "delta": "+10 pts",
+        "trend": "up"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "breadth_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "breadth_heading",
+        "breadth_24h",
+        "breadth_7d",
+        "dex_stat"
+      ]
+    },
+    "breadth_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Market Breadth",
+        "level": "h3"
+      }
+    },
+    "breadth_24h": {
+      "type": "Text",
+      "props": {
+        "text": "24h: 10/20 positive"
+      }
+    },
+    "breadth_7d": {
+      "type": "Text",
+      "props": {
+        "text": "7d: 12/20 positive"
+      }
+    },
+    "dex_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "DEX Volume",
+        "value": "$5.50B",
+        "delta": "+33%",
+        "trend": "up"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "narratives_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "narratives_heading",
+        "narrative_zec",
+        "narrative_link",
+        "narrative_vvv"
+      ]
+    },
+    "narratives_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Narratives",
+        "level": "h3"
+      }
+    },
+    "narrative_zec": {
+      "type": "Text",
+      "props": {
+        "text": "ZEC/XMR rising day-4+"
+      }
+    },
+    "narrative_link": {
+      "type": "Text",
+      "props": {
+        "text": "LINK +12.3% 7d"
+      }
+    },
+    "narrative_vvv": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "vvv_text",
+        "pump_risk_badge"
+      ]
+    },
+    "vvv_text": {
+      "type": "Text",
+      "props": {
+        "text": "VVV emerging"
+      }
+    },
+    "pump_risk_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "PUMP-RISK",
+        "variant": "destructive"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "catalysts_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "catalysts_heading",
+        "fed_odds_label",
+        "fed_25bps_progress",
+        "fed_nochange_progress",
+        "fed_minutes_text",
+        "jackson_hole_text"
+      ]
+    },
+    "catalysts_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Catalysts",
+        "level": "h3"
+      }
+    },
+    "fed_odds_label": {
+      "type": "Text",
+      "props": {
+        "text": "Fed Rate Expectations (September)",
+        "variant": "lead"
+      }
+    },
+    "fed_25bps_progress": {
+      "type": "Progress",
+      "props": {
+        "value": 28.5,
+        "max": 100,
+        "label": "25bps Hike YES"
+      }
+    },
+    "fed_nochange_progress": {
+      "type": "Progress",
+      "props": {
+        "value": 71.5,
+        "max": 100,
+        "label": "No Change"
+      }
+    },
+    "fed_minutes_text": {
+      "type": "Text",
+      "props": {
+        "text": "Fed July minutes: Thursday"
+      }
+    },
+    "jackson_hole_text": {
+      "type": "Text",
+      "props": {
+        "text": "Jackson Hole Symposium: Aug 27–29 (9 days away)"
+      }
+    }
+  }
+}
