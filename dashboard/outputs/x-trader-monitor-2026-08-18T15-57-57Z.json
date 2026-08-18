@@ -1,0 +1,135 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "BTC Consolidation Structure"
+      },
+      "children": [
+        "tweet_stack",
+        "separator_1",
+        "context_section"
+      ]
+    },
+    "tweet_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "tweet_link"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "We've been consolidating above 61k for nearly two months, yet the market is still heavily positioned for a move to 50,k.\n\nKeep lowering your targets if you want. Just don't trade what you want to see.\n\nChart: 50 days above 61K consolidation in 62-63K range"
+      },
+      "children": []
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2089742056717537416"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_heading",
+        "context_text",
+        "positions_heading",
+        "positions_list",
+        "sentiment_text"
+      ]
+    },
+    "context_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "KillaXBT expressing skepticism of overly-bearish market positioning bias. Aligns with group BULLISH-TO-MIXED BTC lean.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "positions_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Positions",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "positions_list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_hch",
+        "pos_bull_genius",
+        "pos_killaxbt"
+      ]
+    },
+    "pos_hch": {
+      "type": "Text",
+      "props": {
+        "text": "HCH: net-long",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "pos_bull_genius": {
+      "type": "Text",
+      "props": {
+        "text": "bull_genius: recovery thesis",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "pos_killaxbt": {
+      "type": "Text",
+      "props": {
+        "text": "KillaXBT: HTF 2x long",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sentiment_text": {
+      "type": "Text",
+      "props": {
+        "text": "Sentiment reinforces structural bull case against current bearish crowding.",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
