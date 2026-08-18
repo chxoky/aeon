@@ -1,0 +1,24 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "tweet_1"
+      ]
+    },
+    "tweet_1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Chase",
+        "handle": "DC — TradFi",
+        "text": "💬 Yeah that H4 fair value gap is likely the area to look at"
+      },
+      "children": []
+    }
+  }
+}
