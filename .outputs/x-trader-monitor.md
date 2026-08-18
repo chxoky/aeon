@@ -45,3 +45,12 @@ Unable to classify — what's your read?
 ✓ Appended log entry to memory/logs/2026-08-18.md (daily activity log)
 
 **Status**: COMPLETE. Alert sent via ./notify with chart context and cross-trader validation. No pending Kyle approval required (informational-only position status update).
+🐦 *[X] @Wild_Randomness*
+
+I'll be honest it's quite interesting that the indices were sold pretty hard despite muh heightened opex flows
+
+Chart shows: vanna/charm flow discussion with takeaway "Btc trading nice rn but we'll see mid week"
+
+[View tweet](https://x.com/Wild_Randomness/status/2089854540636151954)
+
+↳ Market structure observation: questioning whether tactical options strategies are supporting or resisting the broader selloff on indices.

@@ -1,0 +1,104 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "main_stack"
+      ]
+    },
+    "main_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "separator_1",
+        "chart_section",
+        "separator_2",
+        "tweet_link",
+        "separator_3",
+        "market_obs"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "I'll be honest it's quite interesting that the indices were sold pretty hard despite muh heightened opex flows"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "chart_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "chart_title",
+        "chart_desc",
+        "chart_takeaway"
+      ]
+    },
+    "chart_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart shows",
+        "level": "h4"
+      }
+    },
+    "chart_desc": {
+      "type": "Text",
+      "props": {
+        "text": "vanna/charm flow discussion",
+        "variant": "body"
+      }
+    },
+    "chart_takeaway": {
+      "type": "Text",
+      "props": {
+        "text": "Takeaway: \"Btc trading nice rn but we'll see mid week\"",
+        "variant": "lead"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2089854540636151954"
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "market_obs": {
+      "type": "Text",
+      "props": {
+        "text": "↳ Market structure observation: questioning whether tactical options strategies are supporting or resisting the broader selloff on indices.",
+        "variant": "body"
+      }
+    }
+  }
+}
