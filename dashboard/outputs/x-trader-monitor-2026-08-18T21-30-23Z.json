@@ -1,0 +1,54 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @swarmister",
+        "description": "x-trader-monitor"
+      },
+      "children": [
+        "event_text",
+        "separator1",
+        "tweet",
+        "separator2",
+        "analysis"
+      ]
+    },
+    "event_text": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Three-way mention of @FalconyFalcon @VitalikButerin @CryptoPoseidonnn",
+        "variant": "body"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "text": "@FalconyFalcon @VitalikButerin @CryptoPoseidonnn, thoughts?"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Appears to be asking for opinions on something external, but no link/chart/context provided.",
+        "type": "warning"
+      }
+    }
+  }
+}
