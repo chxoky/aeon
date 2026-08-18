@@ -1,0 +1,57 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Bitcoin trading pattern analysis"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "separator-1",
+        "context-text",
+        "link-post"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "$BTC — Monday pattern deviation\n\n\"We de-correlated from a 10/10 pattern where $BTC has dropped an average of ~2% from the Monday high. Every single high was established on Monday (10/10 occurrences). But this time we're seeing a deviation... the algo is shifting.\""
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context-text": {
+      "type": "Text",
+      "props": {
+        "text": "Context: Continuation of Aug 17 Monday-pattern analysis series. Prior posts showed 11 consecutive Mondays with 1-2% drops. This week breaks the pattern — no Monday high formed; shifted to Tuesday instead. Validates structural evolution thesis KillaXBT has been tracking.",
+        "variant": "body"
+      }
+    },
+    "link-post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/KillaXBT/status/2089802805347328480"
+      }
+    }
+  }
+}
