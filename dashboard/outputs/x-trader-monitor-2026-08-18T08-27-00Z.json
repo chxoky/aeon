@@ -1,0 +1,113 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor — Calibration"
+      },
+      "children": [
+        "heading_calibration",
+        "sep1",
+        "event_section",
+        "sep2",
+        "message_section",
+        "sep3",
+        "classification_alert"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @swarmister",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "event_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event_label",
+        "event_content"
+      ]
+    },
+    "event_label": {
+      "type": "Text",
+      "props": {
+        "text": "Event:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "event_content": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to @colourvoidwhere @cheapskate_01 (original context unavailable)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "message_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "message_author",
+        "message_text"
+      ]
+    },
+    "message_author": {
+      "type": "Text",
+      "props": {
+        "text": "swarmister:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "message_text": {
+      "type": "Text",
+      "props": {
+        "text": "Literally",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "classification_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification Needed",
+        "message": "Unable to classify — what's your read?",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}
