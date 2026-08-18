@@ -1,0 +1,175 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @swarmister"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_calibration",
+        "tweet_card",
+        "text_created",
+        "separator1",
+        "heading_context",
+        "text_context",
+        "separator2",
+        "heading_profile",
+        "text_profile",
+        "separator3",
+        "heading_interpretations",
+        "stack_interpretations",
+        "separator4",
+        "text_unable",
+        "link_view"
+      ]
+    },
+    "badge_calibration": {
+      "type": "Badge",
+      "props": {
+        "text": "🔍 Calibration",
+        "variant": "default"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "I won't let myself be fooled haha"
+      }
+    },
+    "text_created": {
+      "type": "Text",
+      "props": {
+        "text": "Created: Tue Aug 18 06:58:51 +0000 2026",
+        "variant": "caption"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_context": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "Ambiguous reply to @KeplerOnchain. Cryptic conviction statement with no referenced message visible in payload.",
+        "variant": "body"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_profile": {
+      "type": "Heading",
+      "props": {
+        "text": "Trader Profile",
+        "level": "h3"
+      }
+    },
+    "text_profile": {
+      "type": "Text",
+      "props": {
+        "text": "Based on traders.md: swarmister is an intraday/swing technical trader with chart-driven entries, tight risk management, and structured DCA plans.",
+        "variant": "body"
+      }
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_interpretations": {
+      "type": "Heading",
+      "props": {
+        "text": "Possible Interpretations",
+        "level": "h3"
+      }
+    },
+    "stack_interpretations": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_interp1",
+        "text_interp2",
+        "text_interp3",
+        "text_interp4"
+      ]
+    },
+    "text_interp1": {
+      "type": "Text",
+      "props": {
+        "text": "• Refusal to FOMO into a trade/pump",
+        "variant": "body"
+      }
+    },
+    "text_interp2": {
+      "type": "Text",
+      "props": {
+        "text": "• Refusing to panic-sell despite price action",
+        "variant": "body"
+      }
+    },
+    "text_interp3": {
+      "type": "Text",
+      "props": {
+        "text": "• Rejecting a specific trade idea or market narrative",
+        "variant": "body"
+      }
+    },
+    "text_interp4": {
+      "type": "Text",
+      "props": {
+        "text": "• General discipline affirmation after observing market banter",
+        "variant": "body"
+      }
+    },
+    "separator4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_unable": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify without full context — what's your read? Any action needed, or silent log?",
+        "variant": "muted"
+      }
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/swarmister/status/2089607944673386570"
+      }
+    }
+  }
+}
