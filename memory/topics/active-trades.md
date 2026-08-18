@@ -32,13 +32,16 @@
 - **Last update**: 2026-06-30T19:16:20Z (message_id=1521595260629946561, partial TP at breakeven, fast-path alerted)
 
 ### MU (Micron Technology) — SHORT (ACTIVE)
-- **Entry date**: 2026-08-14T10:14:27Z
+- **Entry date**: 2026-08-14T10:14:27Z (initial 1%)
 - **Entry price**: Market order (at time of message, ~$93-95 estimated based on Aug 13-14 market)
-- **Current size**: 1% portfolio short
-- **Conviction**: New entry to short basket; market transition signal
-- **Thesis**: Flipping from prior profitable long (closed Jul 16 at 1000 level) to short positioning; aligns with net-short regime started Aug 07. Technical-driven reversal on semiconductor weakness or broader market structure shift.
-- **Status**: ACTIVE — position entered, monitoring for confirmation adds or reversal
-- **Last update**: 2026-08-14T10:14:27Z (message_id=1537766347734515722, fast-path alerted)
+- **Current size**: 2% portfolio short
+- **Position history**:
+  - 2026-08-14T10:14:27Z: Initial 1% short entry (fast-path alerted)
+  - 2026-08-18T00:12:33Z: Conviction add +1% (total now 2%, fast-path alerted)
+- **Conviction**: New entry to short basket; market transition signal. Escalating conviction via Aug 18 add validates sustained bearish thesis on semiconductors.
+- **Thesis**: Flipping from prior profitable long (closed Jul 16 at 1000 level) to short positioning; aligns with net-short regime started Aug 07. Technical-driven reversal on semiconductor weakness or broader market structure shift. Conviction add on Aug 18 suggests continued downside momentum or tactical positioning into weakness.
+- **Status**: ACTIVE — position escalated, monitoring for further adds or reversal
+- **Last update**: 2026-08-18T00:12:33.185Z (message_id=1539064424290189452, fast-path alerted, conviction-add)
 
 ### MU (Micron Technology) — LONG (CLOSED 2026-07-16T19:02:25Z) [HISTORICAL]
 - **Entry setup**: Conditional dual-entry plan articulated 2026-06-29T14:25:41Z
