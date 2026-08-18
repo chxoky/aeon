@@ -1,0 +1,99 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "🔍 Calibration — @swarmister"
+      },
+      "children": [
+        "stack-body"
+      ]
+    },
+    "stack-body": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event-label",
+        "tweet-card",
+        "sep-1",
+        "context-section",
+        "sep-2",
+        "classification-alert"
+      ]
+    },
+    "event-label": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Skepticism/question about SOL bullish narrative (reply to @FalconyFalcon)",
+        "variant": "lead"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "@FalconyFalcon Solana bulls..?"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context-heading",
+        "context-body",
+        "context-caveat"
+      ]
+    },
+    "context-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Background context",
+        "level": "h4"
+      }
+    },
+    "context-body": {
+      "type": "Text",
+      "props": {
+        "text": "swarmister has a documented SOL bearish technical thesis (Aug 06: POI corrective setup, key objectives achieved). This question mark may indicate skepticism about the bullish narrative, but without seeing @FalconyFalcon's original message, the intent is opaque.",
+        "variant": "body"
+      }
+    },
+    "context-caveat": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to see @FalconyFalcon's original message — context is incomplete.",
+        "variant": "muted"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Is swarmister asking if SOL bulls exist, questioning bullish conviction, or something else? What's your read?",
+        "type": "info"
+      }
+    }
+  }
+}
