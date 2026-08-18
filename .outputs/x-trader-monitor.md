@@ -1,10 +1,10 @@
-🔍 *Calibration — @swarmister*
+🐦 *[X] @abetrade — SPX Vol Skew Alert*
 
-Event: Reply to @Shishir42069 (no visible external trigger)
-swarmister: "???
+US single-stock skew (25-delta IV) at yearly highs — similar to June peak before 4% selloff.
 
-1900"
+**Thesis**: Caution signal on elevated calls vs puts. Or trade call spreads for defensible R:R financing of ATM with rich OTM options.
 
-Unable to classify — is 1900 a price level, position reference, or something else? What's your read?
+[View tweet](https://x.com/abetrade/status/2089720369263395201)
 
-[View post](https://x.com/swarmister/status/20897073638087766155)
+---
+↳ *Cross-trader divergence*: @abetrade cautious on vol skew vs @Crypto_Chase still long new ATHs vs @Wild_Randomness bullish near-term + cautious macro top. Group split on near-term SPX direction heading into Jackson Hole catalyst window.

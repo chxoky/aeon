@@ -838,11 +838,12 @@
 - Recent thesis: Options volatility trading focus (IV/RV analysis, straddle/strangle setups). Sophisticated quantitative framework (HAR model). Content creator — planning weekend write-ups on markets with trade ideas.
 - Conviction notes: Chart-heavy technical/options analysis. Shares trade ideas/educational frameworks rather than personal execution announcements. Early-stage observation; expanding to content creation role.
 - Calibration: PENDING Aug 06 12:55Z ("looks like someone already ate that" @jimtalbot @btc_charlie — options fill confirmation or price-level observation?).
-- Last seen: 2026-08-16T17:25:56Z (X — market content culture meta-commentary + announcement of weekend write-ups)
+- Last seen: 2026-08-18T14:25:35Z (X — SPX vol skew sentiment, call spreads alternative)
 - **Events (rolling):**
   - Aug 16 17:25Z — skip (non-financial): X platform meta-commentary on content culture ("bit sad on state of space"); announcement of future weekend write-ups; blog distribution strategy explanation; no personal trade action; silent skip per HR-1 Step 4A [$UNKNOWN] [2089040979823047105]
 - Last seen: 2026-08-15T06:56:20Z (X — FTX product sentiment)
 - **Events (rolling):**
+  - Aug 18 14:25Z — informational: SPX vol skew (25-delta IV) at yearly highs, June precursor to 4% selloff, caution vs call spreads [2089720369263395201]
   - Aug 16 17:25Z — informational-trade-idea: X MU bullish setup; dark pool shorting as bullish signal, options cheap w/ rising call demand, target above 900 support; 4-chart analysis attached (CDN fetch unavailable); no personal execution language; options vol expertise applied; alerted [$MU] [2089040973879820775]
   - Aug 15 06:56Z — informational-sentiment: X "@jimtalbot @BittexXBT bring back ftx move contracts"; product feature request/sentiment on FTX perpetual contracts ecosystem; mentions two established traders directly (cross-reference for context); no personal trade action; no personal position indicated; alerted [$FTX_PRODUCTS] [2088520148474810463]
 

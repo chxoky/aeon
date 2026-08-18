@@ -1,0 +1,92 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "SPX Vol Skew Alert",
+        "description": "🐦 [X] @abetrade"
+      },
+      "children": [
+        "tweet_card",
+        "separator_1",
+        "thesis_section",
+        "link_section",
+        "separator_2",
+        "divergence_section"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "abetrade",
+        "handle": "@abetrade",
+        "text": "US single-stock skew (25-delta IV) at yearly highs — similar to June peak before 4% selloff."
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "thesis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "thesis_heading",
+        "thesis_text"
+      ]
+    },
+    "thesis_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Thesis",
+        "level": "h3"
+      }
+    },
+    "thesis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Caution signal on elevated calls vs puts. Or trade call spreads for defensible R:R financing of ATM with rich OTM options."
+      }
+    },
+    "link_section": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/abetrade/status/2089720369263395201"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "divergence_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "divergence_heading",
+        "divergence_text"
+      ]
+    },
+    "divergence_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Cross-trader Divergence",
+        "level": "h3"
+      }
+    },
+    "divergence_text": {
+      "type": "Text",
+      "props": {
+        "text": "@abetrade cautious on vol skew vs @Crypto_Chase still long new ATHs vs @Wild_Randomness bullish near-term + cautious macro top. Group split on near-term SPX direction heading into Jackson Hole catalyst window."
+      }
+    }
+  }
+}
