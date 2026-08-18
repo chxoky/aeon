@@ -847,6 +847,7 @@
   - Aug 15 00:03Z — informational-technical: X "$NVDA\n\nRunning it up before earnings? https://t.co/Mp17NukEQG" + 4 chart images (NVDA 12d breakout ~$195→$225.16, vol 75.64M; longer timeframe consolidation break into new highs; price at 225.16; technical setup positioned into earnings catalyst); chart-driven analysis on pre-earnings rally structure; no personal trade execution language; Kyle's watchlist ticker [$NVDA] [2088416210933498327]
   - Aug 14 18:39Z — informational-technical: X "$STRC rebounding but slowing down? $80 buyers not sticking around for the last $5?" + 2 chart images (daily V-shaped recovery from 72 low to 96, now consolidating/weakening at 94.87; weekly consolidation analysis); technical price-action observation on momentum exhaustion post-recovery; no personal trade execution language; [$STRC] [2088334668601151811]
   - Aug 18 20:31Z — informational-technical: ANSEM pump-dump pattern analysis; insider accumulation commentary (second mention) [$ANSEM] [2089812444546007456]
+  - Aug 18 21:09Z — informational-sentiment: "Crime season" thesis verification on ANSEM (Aug 17→18 insider accumulation→event spike→dump pattern); rhetorical question on outside trader's holding conviction after thesis played out; market-structure commentary [$ANSEM] [2089821940265656535]
 
 ## abetrade
 - Platforms: X (primary)
