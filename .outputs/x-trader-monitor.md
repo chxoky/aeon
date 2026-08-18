@@ -26,3 +26,20 @@ Awaiting clarification: Which asset is being discussed? (BTC? altcoin? commoditi
 - ✅ **Traders.md** — no event line added (per protocol: non-financial skips only go to logs, not to traders.md)
 
 **Reasoning:** trading_axe is a builder/announcer identity (Dr. Axius) with a 70%+ banter baseline. This post aligns with the established pattern and contains no execution language, ticker references, or market sentiment relevant to Kyle's watch list.
+**Event:** Wild_Randomness X post reply to @oldmankotaro at 2026-08-18 23:50:34Z  
+**Content:** "@oldmankotaro Guaranteed" + NBIS technical chart  
+**Classification:** Informational-technical (Step 6)
+
+**Analysis:**
+- Image: NBIS daily chart at 260.01, showing consolidation structure with support/resistance levels
+- Text: Minimal caption "Guaranteed" = chart validation/confirmation of technical setup
+- No personal execution language (no "I bought/shorted/filled")
+- Chart-driven market observation confirming prior discussion
+
+**Action taken:**
+- ✅ Added to dedup list (x-trader-seen.txt)
+- ✅ Updated traders.md: Wild_Randomness Last seen + new event entry (Aug 18 23:50Z)
+- ✅ Logged to daily log (2026-08-18.md)
+- ✅ Silent log (no Kyle alert; quiet ticker, informational only)
+
+No mirror/approval needed. NBIS remains tracked in cross-trader context (HCH Aug 14 short vs swarmister Aug 13 long).
