@@ -1,0 +1,41 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "view_link"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "$BTC Monday pattern deviation observed. Historical 10/10 occurrences show Monday highs followed by ~2% weekly drops; current week (Aug 18) is deviating from this pattern. Trader thesis: algo is shifting.\n\nCharts show 11 consecutive Monday highs with consistent decline structure; current Monday at different formation phase. 64.5K range currently, pattern deviation suggests structural market shift.\n\nAligns with tactical scalping discipline but also validates broader consolidation thesis (62.8K-65.7K range establishing key technical levels)."
+      }
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2089802370959946226"
+      }
+    }
+  }
+}
