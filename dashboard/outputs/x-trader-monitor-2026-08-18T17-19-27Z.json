@@ -1,0 +1,23 @@
+{
+  "root": "card1",
+  "state": {},
+  "elements": {
+    "card1": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet1"
+      ]
+    },
+    "tweet1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "@Stoiiic",
+        "text": "BTC rotational regime at 65.2 key zone; ETH potential for 2100s on clean break above compression. OB skewed ask-side, shorts being covered. [technical analysis]"
+      }
+    }
+  }
+}
