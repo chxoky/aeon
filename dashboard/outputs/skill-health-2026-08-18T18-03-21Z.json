@@ -1,0 +1,177 @@
+{
+  "root": "card_1",
+  "state": {},
+  "elements": {
+    "card_1": {
+      "type": "Card",
+      "props": {
+        "title": "Skill Health — 2026-08-18"
+      },
+      "children": [
+        "alert_warning",
+        "sep_1",
+        "warning_heading",
+        "warning_item",
+        "sep_2",
+        "healthy_heading",
+        "healthy_grid",
+        "sep_3",
+        "stats_stack"
+      ]
+    },
+    "alert_warning": {
+      "type": "Alert",
+      "props": {
+        "title": "HEALTH: WARNING(1)",
+        "type": "warning"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "warning_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "⚠️ WARNING",
+        "level": "h3"
+      }
+    },
+    "warning_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "warning_skill",
+        "warning_details"
+      ]
+    },
+    "warning_skill": {
+      "type": "Badge",
+      "props": {
+        "text": "trader-memory-compact",
+        "variant": "destructive"
+      }
+    },
+    "warning_details": {
+      "type": "Text",
+      "props": {
+        "text": "1 fail, 9d since last success, stuck dispatched 41h+ — INVESTIGATE",
+        "variant": "body"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "healthy_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🟢 HEALTHY: 7",
+        "level": "h3"
+      }
+    },
+    "healthy_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "sm"
+      },
+      "children": [
+        "skill_1",
+        "skill_2",
+        "skill_3",
+        "skill_4",
+        "skill_5",
+        "skill_6",
+        "skill_7"
+      ]
+    },
+    "skill_1": {
+      "type": "Badge",
+      "props": {
+        "text": "morning-brief",
+        "variant": "secondary"
+      }
+    },
+    "skill_2": {
+      "type": "Badge",
+      "props": {
+        "text": "token-alert",
+        "variant": "secondary"
+      }
+    },
+    "skill_3": {
+      "type": "Badge",
+      "props": {
+        "text": "token-movers",
+        "variant": "secondary"
+      }
+    },
+    "skill_4": {
+      "type": "Badge",
+      "props": {
+        "text": "market-context-refresh",
+        "variant": "secondary"
+      }
+    },
+    "skill_5": {
+      "type": "Badge",
+      "props": {
+        "text": "narrative-tracker",
+        "variant": "secondary"
+      }
+    },
+    "skill_6": {
+      "type": "Badge",
+      "props": {
+        "text": "heartbeat",
+        "variant": "secondary"
+      }
+    },
+    "skill_7": {
+      "type": "Badge",
+      "props": {
+        "text": "skill-health",
+        "variant": "secondary"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stats_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_1",
+        "stat_2"
+      ]
+    },
+    "stat_1": {
+      "type": "Stat",
+      "props": {
+        "label": "Open issues",
+        "value": "0"
+      }
+    },
+    "stat_2": {
+      "type": "Stat",
+      "props": {
+        "label": "Resolved this run",
+        "value": "0"
+      }
+    }
+  }
+}
