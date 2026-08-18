@@ -1,0 +1,136 @@
+{
+  "root": "root",
+  "state": {},
+  "elements": {
+    "root": {
+      "type": "Card",
+      "props": {
+        "title": "Skill Status Heartbeat"
+      },
+      "children": [
+        "alert-stuck",
+        "separator-1",
+        "details-stack"
+      ]
+    },
+    "alert-stuck": {
+      "type": "Alert",
+      "props": {
+        "type": "error",
+        "title": "🔴 STUCK: trader-memory-compact",
+        "message": "Dispatched 2026-08-16 20:58 UTC (~41h ago), status still 'dispatched'"
+      }
+    },
+    "separator-1": {
+      "type": "Separator"
+    },
+    "details-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "status-section",
+        "problem-section",
+        "schedule-section"
+      ]
+    },
+    "status-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "status-heading",
+        "failure-info"
+      ]
+    },
+    "status-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Status",
+        "level": "h3"
+      }
+    },
+    "failure-info": {
+      "type": "Text",
+      "props": {
+        "text": "Skill failed at 20:51, was re-dispatched, never completed",
+        "variant": "body"
+      }
+    },
+    "problem-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "problem-heading",
+        "problem-info-stack"
+      ]
+    },
+    "problem-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Problem",
+        "level": "h3"
+      }
+    },
+    "problem-info-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "filesize-stat",
+        "filesize-note"
+      ]
+    },
+    "filesize-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "traders.md",
+        "value": "198.5 KB",
+        "delta": "48.5 KB over limit",
+        "trend": "up"
+      }
+    },
+    "filesize-note": {
+      "type": "Text",
+      "props": {
+        "text": "Limit: 150 KB. File is OVERSIZE and growing.",
+        "variant": "caption"
+      }
+    },
+    "schedule-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "schedule-heading",
+        "nextrun-stat"
+      ]
+    },
+    "schedule-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Schedule",
+        "level": "h3"
+      }
+    },
+    "nextrun-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Next scheduled run",
+        "value": "Sunday 2026-08-23 20:00 UTC",
+        "delta": "5 days away"
+      }
+    }
+  }
+}
