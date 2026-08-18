@@ -1,0 +1,371 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-08-18"
+      },
+      "children": [
+        "stack_focus",
+        "sep1",
+        "stack_since",
+        "sep2",
+        "stack_watch",
+        "sep3",
+        "stack_running"
+      ]
+    },
+    "stack_focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_focus",
+        "item_focus_1",
+        "item_focus_2",
+        "item_focus_3"
+      ]
+    },
+    "heading_focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "item_focus_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_f1_title",
+        "text_f1_desc"
+      ]
+    },
+    "text_f1_title": {
+      "type": "Text",
+      "props": {
+        "text": "1. HCH 65S/0L",
+        "variant": "lead"
+      }
+    },
+    "text_f1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Why now: biggest single-session short escalation since Aug 7; fully executed",
+        "variant": "body"
+      }
+    },
+    "item_focus_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_f2_title",
+        "text_f2_desc"
+      ]
+    },
+    "text_f2_title": {
+      "type": "Text",
+      "props": {
+        "text": "2. BTC 65K rejection (Killa LH)",
+        "variant": "lead"
+      }
+    },
+    "text_f2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Why now: $64.3K active; 62.8K weekly open next trigger",
+        "variant": "body"
+      }
+    },
+    "item_focus_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_f3_title",
+        "text_f3_desc"
+      ]
+    },
+    "text_f3_title": {
+      "type": "Text",
+      "props": {
+        "text": "3. Fed July minutes",
+        "variant": "lead"
+      }
+    },
+    "text_f3_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Why now: release tomorrow Aug 19, not Thursday — one day sooner",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_since": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_since",
+        "item_since_1",
+        "item_since_2",
+        "item_since_3",
+        "item_since_4",
+        "item_since_5"
+      ]
+    },
+    "heading_since": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "item_since_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_escalated",
+        "text_s1"
+      ]
+    },
+    "badge_escalated": {
+      "type": "Badge",
+      "props": {
+        "text": "escalated",
+        "variant": "secondary"
+      }
+    },
+    "text_s1": {
+      "type": "Text",
+      "props": {
+        "text": "HCH: 50S/7.5L → 65S/0L; DOGE new 1% short, MU 1%→2%, XAU/XAG 1%→2% each, all spot longs closed",
+        "variant": "body"
+      }
+    },
+    "item_since_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_moved",
+        "text_s2"
+      ]
+    },
+    "badge_moved": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "text_s2": {
+      "type": "Text",
+      "props": {
+        "text": "F&G: 31→41 (+10pts, largest jump since Aug 7 NFP)",
+        "variant": "body"
+      }
+    },
+    "item_since_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_closed",
+        "text_s3"
+      ]
+    },
+    "badge_closed": {
+      "type": "Badge",
+      "props": {
+        "text": "closed",
+        "variant": "secondary"
+      }
+    },
+    "text_s3": {
+      "type": "Text",
+      "props": {
+        "text": "AKE -18.5% (was +89% Aug 14); BTW -6.1% (reversal confirmed)",
+        "variant": "body"
+      }
+    },
+    "item_since_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_pending",
+        "text_s4"
+      ]
+    },
+    "badge_pending": {
+      "type": "Badge",
+      "props": {
+        "text": "pending",
+        "variant": "outline"
+      }
+    },
+    "text_s4": {
+      "type": "Text",
+      "props": {
+        "text": "3 calibration alerts: Bitcoin_Astro link, HCH \"good for us\", swarmister \"I won't be fooled\"",
+        "variant": "body"
+      }
+    },
+    "item_since_5": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_watch_status",
+        "text_s5"
+      ]
+    },
+    "badge_watch_status": {
+      "type": "Badge",
+      "props": {
+        "text": "watch",
+        "variant": "outline"
+      }
+    },
+    "text_s5": {
+      "type": "Text",
+      "props": {
+        "text": "trader-memory-compact: 1 failure Aug 16, status stuck at dispatched — monitor",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_watch",
+        "text_watch"
+      ]
+    },
+    "heading_watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "text_watch": {
+      "type": "Text",
+      "props": {
+        "text": "Goldman Sachs acquired NEOS for $2.25B (+$1B BTC ETF exposure) — institutional accumulation diverges from HCH 65S escalation (Focus #1 context)",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_running",
+        "text_r1",
+        "text_r2",
+        "text_r3",
+        "text_r4",
+        "text_r5",
+        "text_r6"
+      ]
+    },
+    "heading_running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "text_r1": {
+      "type": "Text",
+      "props": {
+        "text": "x-trader-monitor: continuous",
+        "variant": "body"
+      }
+    },
+    "text_r2": {
+      "type": "Text",
+      "props": {
+        "text": "discord-trader-monitor: continuous",
+        "variant": "body"
+      }
+    },
+    "text_r3": {
+      "type": "Text",
+      "props": {
+        "text": "token-alert @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "text_r4": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "text_r5": {
+      "type": "Text",
+      "props": {
+        "text": "market-context-refresh @ 13:00 UTC",
+        "variant": "body"
+      }
+    },
+    "text_r6": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC",
+        "variant": "body"
+      }
+    }
+  }
+}
