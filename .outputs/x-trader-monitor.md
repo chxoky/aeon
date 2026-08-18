@@ -1,8 +1,11 @@
 🔍 *Calibration — @Stoiiic*
 
 Post: "tldr: going with the break of current consolidation"
+🐦 *[X] @HeartCanHodl*
 
-Text: "@imapiggy_pig https://t.co/htH73SZ4mv"
+Some of those names are down -10% today ;)
+
+Chart shows QQQ (QQQ) 4h structure with recovery from 656.30 → 718.32 current. Commentary on tech/market weakness, likely victory lap on short positions added earlier today (CL short +1% at 08:49Z).
 
 Image URL: https://pbs.twimg.com/media/HQBXRLMWQAABM.jpg (unable to read due to sandbox fetch limitation)
 
@@ -26,3 +29,4 @@ Skill execution complete. Processed real-time X trader event for @Stoiiic:
 
 No notification sent. Event logged for dedup tracking only.
 Cryptic/ambiguous — unable to classify. What's the ticker and direction (long/short)?
+[View tweet](https://x.com/HeartCanHodl/status/2089768212397428868)

@@ -1,0 +1,92 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "main-stack"
+      ]
+    },
+    "main-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet",
+        "separator",
+        "details-stack",
+        "tweet-link"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "@HeartCanHodl",
+        "text": "Some of those names are down -10% today ;)"
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "details-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "qqq-stat",
+        "commentary-text",
+        "cl-position"
+      ]
+    },
+    "qqq-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "QQQ 4h Recovery",
+        "value": "718.32",
+        "delta": "+62.02 (from 656.30)",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "commentary-text": {
+      "type": "Text",
+      "props": {
+        "text": "Tech/market weakness recovery. Victory lap on short positions added earlier today.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "cl-position": {
+      "type": "Stat",
+      "props": {
+        "label": "CL Short Position",
+        "value": "+1%",
+        "delta": "Added 08:49Z",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/HeartCanHodl/status/2089768212397428868"
+      },
+      "children": []
+    }
+  }
+}
