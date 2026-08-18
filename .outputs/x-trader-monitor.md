@@ -1,7 +1,10 @@
-🐦 *[X] @swarmister*
+🔍 *Calibration — @swarmister*
 
-$BTC 4h update: Sideways consolidation with POC breach, but stuck in range. Trading boundary-to-boundary no longer safe here. Awaiting anomalies or directional breakout.
+Event: Reply to @Shishir42069 (no visible external trigger)
+swarmister: "???
 
-Sentiment: Low conviction — stock markets more interesting. Expects potential 'Bart' pattern on BTC chart.
+1900"
 
-[View tweet](https://x.com/swarmister/status/2089704624882114985)
+Unable to classify — is 1900 a price level, position reference, or something else? What's your read?
+
+[View post](https://x.com/swarmister/status/20897073638087766155)

@@ -1,0 +1,94 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading-1",
+        "text-event",
+        "separator-1",
+        "quote-section",
+        "analysis-text",
+        "separator-2",
+        "link-post"
+      ]
+    },
+    "heading-1": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @swarmister",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text-event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @Shishir42069 (no visible external trigger)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "quote-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "author-text",
+        "quote-text"
+      ]
+    },
+    "author-text": {
+      "type": "Text",
+      "props": {
+        "text": "swarmister:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "quote-text": {
+      "type": "Text",
+      "props": {
+        "text": "???\n\n1900",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "analysis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — is 1900 a price level, position reference, or something else? What's your read?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link-post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/swarmister/status/20897073638087766155"
+      },
+      "children": []
+    }
+  }
+}
