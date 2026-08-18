@@ -1,6 +1,6 @@
-🔍 *Calibration — @swarmister*
+🔍 *Calibration — @Stoiiic*
 
-Event: Posted image-only content mentioning @imapiggy_pig (another trader/analyst)
+Post: "tldr: going with the break of current consolidation"
 
 Text: "@imapiggy_pig https://t.co/htH73SZ4mv"
 
@@ -25,3 +25,4 @@ Skill execution complete. Processed real-time X trader event for @Stoiiic:
 - No event line added to traders.md per protocol (non-financial events: daily log only)
 
 No notification sent. Event logged for dedup tracking only.
+Cryptic/ambiguous — unable to classify. What's the ticker and direction (long/short)?

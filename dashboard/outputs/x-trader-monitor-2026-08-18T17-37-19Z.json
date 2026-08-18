@@ -1,0 +1,42 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading_calibration",
+        "tweet_post",
+        "alert_ambiguous"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Stoiiic",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "tweet_post": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "Stoiiic",
+        "text": "tldr: going with the break of current consolidation"
+      },
+      "children": []
+    },
+    "alert_ambiguous": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "message": "Cryptic/ambiguous — unable to classify. What's the ticker and direction (long/short)?"
+      },
+      "children": []
+    }
+  }
+}
