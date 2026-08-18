@@ -1,0 +1,177 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "BTC/USDT OPEX Week Market Structure"
+      },
+      "children": [
+        "tweet_card",
+        "sep1",
+        "chart_heading",
+        "chart_content",
+        "sep2",
+        "context_heading",
+        "context_content",
+        "sep3",
+        "link_view"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "$BTC — OPEX Week Market Structure\n\nNothing really to update. Still below the most important level.\n\nSome local excitement (euphoria) as vulnerable shorts get squeezed to start OPEX week.\n\nSame price for 200 days, with one artificial leg up driven by billions of demand from a STRC product that is neutered…"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "chart_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart Analysis",
+        "level": "h3"
+      }
+    },
+    "chart_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "btc_stat",
+        "ibit_stat",
+        "range_text",
+        "spike_text",
+        "support_text"
+      ]
+    },
+    "btc_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC/USDT 1W Current",
+        "value": "64,736"
+      }
+    },
+    "ibit_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "IBIT Mirror Structure",
+        "value": "36.69"
+      }
+    },
+    "range_text": {
+      "type": "Text",
+      "props": {
+        "text": "Consolidation range: 63-65K. Extended 200-day range visible."
+      }
+    },
+    "spike_text": {
+      "type": "Text",
+      "props": {
+        "text": "Major spike from 2025 peak (~125K) back to current levels shows the artificial leg up driven by billions of demand from STRC product."
+      }
+    },
+    "support_text": {
+      "type": "Text",
+      "props": {
+        "text": "Horizontal support level near 50K zone = the 'most important level' referenced."
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "context_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Cross-trader Sentiment",
+        "level": "h3"
+      }
+    },
+    "context_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "sentiment_label",
+        "killa_view",
+        "wr_view"
+      ]
+    },
+    "sentiment_label": {
+      "type": "Text",
+      "props": {
+        "text": "Sentiment divergence:",
+        "variant": "lead"
+      }
+    },
+    "killa_view": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "killa_badge",
+        "killa_text"
+      ]
+    },
+    "killa_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "KillaXBT",
+        "variant": "secondary"
+      }
+    },
+    "killa_text": {
+      "type": "Text",
+      "props": {
+        "text": "Bullish on consolidation structure"
+      }
+    },
+    "wr_view": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "wr_badge",
+        "wr_text"
+      ]
+    },
+    "wr_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Wild_Randomness",
+        "variant": "outline"
+      }
+    },
+    "wr_text": {
+      "type": "Text",
+      "props": {
+        "text": "Skeptical on sustainability + causation (artificial demand ≠ organic)"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/Wild_Randomness/status/2089749970379505760"
+      }
+    }
+  }
+}
