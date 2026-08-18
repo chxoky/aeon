@@ -1,0 +1,159 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-calibration",
+        "sep-1",
+        "heading-event",
+        "text-event",
+        "sep-2",
+        "heading-content",
+        "stack-tweet",
+        "sep-3",
+        "heading-image",
+        "storylink-image",
+        "sep-4",
+        "alert-sandbox",
+        "sep-5",
+        "heading-classification",
+        "text-question",
+        "sep-6",
+        "storylink-view"
+      ]
+    },
+    "text-calibration": {
+      "type": "Text",
+      "props": {
+        "text": "🔍 *Calibration — @swarmister*"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading-event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "text-event": {
+      "type": "Text",
+      "props": {
+        "text": "Posted image-only content mentioning @imapiggy_pig (another trader/analyst)"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading-content": {
+      "type": "Heading",
+      "props": {
+        "text": "Content",
+        "level": "h3"
+      }
+    },
+    "stack-tweet": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-mention",
+        "link-media"
+      ]
+    },
+    "text-mention": {
+      "type": "Text",
+      "props": {
+        "text": "@imapiggy_pig"
+      }
+    },
+    "link-media": {
+      "type": "Link",
+      "props": {
+        "label": "https://t.co/htH73SZ4mv",
+        "href": "https://t.co/htH73SZ4mv"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading-image": {
+      "type": "Heading",
+      "props": {
+        "text": "Image URL",
+        "level": "h4"
+      }
+    },
+    "storylink-image": {
+      "type": "StoryLink",
+      "props": {
+        "title": "https://pbs.twimg.com/media/HQBXRLMWQAABM.jpg",
+        "href": "https://pbs.twimg.com/media/HQBXRLMWQAABM.jpg",
+        "source": "Twitter Media"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "alert-sandbox": {
+      "type": "Alert",
+      "props": {
+        "title": "Sandbox Limitation",
+        "message": "Unable to read image due to sandbox fetch limitation",
+        "type": "warning"
+      }
+    },
+    "sep-5": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading-classification": {
+      "type": "Heading",
+      "props": {
+        "text": "Classification",
+        "level": "h3"
+      }
+    },
+    "text-question": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify financial relevance — what's your read? Is this a trade setup share, market analysis, or social commentary?"
+      }
+    },
+    "sep-6": {
+      "type": "Separator",
+      "props": {}
+    },
+    "storylink-view": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View post",
+        "href": "https://x.com/swarmister/status/2089766187118797145",
+        "source": "X/Twitter"
+      }
+    }
+  }
+}
