@@ -12,3 +12,4 @@ Multi-ticker mega-cap tech sector showing corrective pattern into support zones:
 Charts show labeled resistance/support structure on all four. AAPL correction aligns with documented Oct short positions; broader pattern confirms tech mega-cap weakness thesis per HCH's AI-capex-vs-returns framework.
 
 [View post](https://x.com/Wild_Randomness/status/2089693950609412237)
+NVDA Sentiment Alert from @Wild_Randomness: Past run ups into earnings have been disappointing. Tweet: https://x.com/Wild_Randomness/status/2089695137568072117

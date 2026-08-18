@@ -1,0 +1,50 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Sentiment Alerts"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-alert",
+        "tweet-card",
+        "link-tweet"
+      ]
+    },
+    "heading-alert": {
+      "type": "Heading",
+      "props": {
+        "text": "NVDA Sentiment Alert",
+        "level": "h3"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Past run ups into earnings have been disappointing."
+      }
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/Wild_Randomness/status/2089695137568072117"
+      }
+    }
+  }
+}
