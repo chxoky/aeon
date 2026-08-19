@@ -739,6 +739,7 @@
   - Aug 19 05:04Z — informational-sentiment: X market commentary; good week, alts 30-40% move; BTC chart recovery 58.1k→62.6k [2089941639410360510]
   - Aug 19 05:12Z — informational-sentiment: "awful august" market outlook; explains why didn't post warnings early month unlike "joyful july" [2089943516923482141]
   - Aug 19 05:38Z — trade-new-entry: HYPE scaled/ladder long orders in "Stifler's mom zone", 3-5 week swing expected, SL "Leo's ex zone"; pending Kyle approval [$HYPE] [2089950140463280427]
+  - Aug 19 05:44Z — informational-sentiment: SPCX DCB timing commentary ("crime into first unlock, dump into 2nd on Aug 20"); bearish outlook on Aug 20 unlock catalyst; macro market timing thesis not personal trade action [$SPCX] [2089951507139436693]
 
 ## abetrade
 - Platforms: X (primary; X-only)
