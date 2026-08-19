@@ -1,0 +1,89 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor"
+      },
+      "children": [
+        "calibration-badge",
+        "separator-1",
+        "event-text",
+        "storylink-tweet",
+        "separator-2",
+        "sandbox-alert",
+        "separator-3",
+        "metadata-section"
+      ]
+    },
+    "calibration-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Calibration — DC: Chase — Chase",
+        "variant": "secondary"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "event-text": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Crypto_Chase posted link to X in Discord",
+        "variant": "lead"
+      }
+    },
+    "storylink-tweet": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Crypto_Chase's Tweet",
+        "href": "https://x.com/Crypto_Chase/status/2090089308711444706",
+        "source": "X"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "sandbox-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to Fetch Content",
+        "message": "Unable to fetch external X content in sandbox — requires your review for full classification. Link may contain trade signals or informational content.",
+        "type": "warning"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "metadata-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "message-id",
+        "timestamp"
+      ]
+    },
+    "message-id": {
+      "type": "Text",
+      "props": {
+        "text": "Message ID: 1539648078498369608",
+        "variant": "caption"
+      }
+    },
+    "timestamp": {
+      "type": "Text",
+      "props": {
+        "text": "Timestamp: 2026-08-19T14:51:47Z",
+        "variant": "caption"
+      }
+    }
+  }
+}
