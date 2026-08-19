@@ -1,0 +1,229 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Trading analysis from X and cross-trader context"
+      },
+      "children": [
+        "tweet_section",
+        "separator_1",
+        "price_section",
+        "separator_2",
+        "analysis_section",
+        "separator_3",
+        "context_section"
+      ]
+    },
+    "tweet_section": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "@HeartCanHodl",
+        "text": "Zooming into the daily candle makes me think another local top forming there 👌🏻"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "price_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "price_heading",
+        "price_grid"
+      ]
+    },
+    "price_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "HYPE/USDT",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "price_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "stat_current",
+        "stat_24h_high",
+        "stat_24h_low"
+      ]
+    },
+    "stat_current": {
+      "type": "Stat",
+      "props": {
+        "label": "Current Price",
+        "value": "$58.355",
+        "delta": "-2.70%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "stat_24h_high": {
+      "type": "Stat",
+      "props": {
+        "label": "24h High",
+        "value": "$60.592"
+      },
+      "children": []
+    },
+    "stat_24h_low": {
+      "type": "Stat",
+      "props": {
+        "label": "24h Low",
+        "value": "$58.048"
+      },
+      "children": []
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis_heading",
+        "analysis_text",
+        "tweet_link"
+      ]
+    },
+    "analysis_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Technical Analysis",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Chart shows recent pullback from spike high at $60.471 to consolidation at $58.35 zone — potential local top pattern on daily TF.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/HeartCanHodl/status/2089982114725028299"
+      },
+      "children": []
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_heading",
+        "trader_killaXBT",
+        "trader_bull_genius",
+        "context_alert"
+      ]
+    },
+    "context_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Cross-Trader Context",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "trader_killaXBT": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_killaxbt",
+        "text_killaxbt"
+      ]
+    },
+    "badge_killaxbt": {
+      "type": "Badge",
+      "props": {
+        "text": "KillaXBT",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "text_killaxbt": {
+      "type": "Text",
+      "props": {
+        "text": "Long from $51.55 (targeting 55-57, currently +13% in profit)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "trader_bull_genius": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_bull_genius",
+        "text_bull_genius"
+      ]
+    },
+    "badge_bull_genius": {
+      "type": "Badge",
+      "props": {
+        "text": "bull_genius",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "text_bull_genius": {
+      "type": "Text",
+      "props": {
+        "text": "Bullish thesis",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "context_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Defensive Posture Signal",
+        "message": "HCH's top observation suggests defensive posture may be warranted on 3-trader bullish convergence",
+        "type": "warning"
+      },
+      "children": []
+    }
+  }
+}
