@@ -1,0 +1,118 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-08-19"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-focus",
+        "stack-focus-items",
+        "separator-1",
+        "heading-since",
+        "stack-since-items"
+      ]
+    },
+    "heading-focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack-focus-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-focus-1",
+        "text-focus-2",
+        "text-focus-3"
+      ]
+    },
+    "text-focus-1": {
+      "type": "Text",
+      "props": {
+        "text": "1. HYPE approve/skip — ryzzqq scaled longs live; entry at -2.4% and improving"
+      },
+      "children": []
+    },
+    "text-focus-2": {
+      "type": "Text",
+      "props": {
+        "text": "2. Aug 20 catalyst stack — Fed minutes + SPCX 2nd unlock + WR ETH arrow all hit tomorrow"
+      },
+      "children": []
+    },
+    "text-focus-3": {
+      "type": "Text",
+      "props": {
+        "text": "3. traders.md TRIPWIRE — compact failed Aug 16; active logging degrading at 299K"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading-since": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack-since-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-since-1",
+        "text-since-2",
+        "text-since-3"
+      ]
+    },
+    "text-since-1": {
+      "type": "Text",
+      "props": {
+        "text": "- [BTW] +68.9% / +179% 7d — isolated breakout, no GameFi breadth; day 2 accelerating"
+      },
+      "children": []
+    },
+    "text-since-2": {
+      "type": "Text",
+      "props": {
+        "text": "- [HCH] 65% net short / 1.8x leverage; SOL short confirmed (2nd ticker pending calibration); CL add to 2% total"
+      },
+      "children": []
+    },
+    "text-since-3": {
+      "type": "Text",
+      "props": {
+        "text": "- [ryzzqq] broke 19-day silence: HYPE scaled longs in + SPCX Aug 20 unlock dump warning (crime"
+      },
+      "children": []
+    }
+  }
+}
