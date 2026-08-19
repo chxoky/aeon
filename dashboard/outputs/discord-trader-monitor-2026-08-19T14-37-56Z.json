@@ -1,0 +1,80 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack_root"
+      ]
+    },
+    "stack_root": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "channel_label",
+        "sep1",
+        "member_query",
+        "sep2",
+        "response_text"
+      ]
+    },
+    "channel_label": {
+      "type": "Text",
+      "props": {
+        "text": "💬 [DC: HCH — Chat]",
+        "variant": "caption"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "member_query": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "member_indicator",
+        "member_text"
+      ]
+    },
+    "member_indicator": {
+      "type": "Text",
+      "props": {
+        "text": "↩️ Member:",
+        "variant": "caption"
+      }
+    },
+    "member_text": {
+      "type": "Text",
+      "props": {
+        "text": "Whats the thesis on shorting btc etc? Isn't btc looking strong and money printing should be good for crypto in general?",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "response_text": {
+      "type": "Text",
+      "props": {
+        "text": "and physical assets like gold and silver have been the only real beneficiaries of the news so far",
+        "variant": "body"
+      }
+    }
+  }
+}
