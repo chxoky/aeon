@@ -1,0 +1,81 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Trading insights from X"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "link-view",
+        "sep-1",
+        "heading-plan",
+        "table-bids"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "I have a small spot $SOL allocation. I'm not particularly bullish on it long term, but I think there's a good chance we see something like this play out once $BTC starts trending higher again. Personally, I'm targeting a 75–100% move here, nothing too crazy. Patience."
+      }
+    },
+    "link-view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2090049430338584698"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-plan": {
+      "type": "Heading",
+      "props": {
+        "text": "Accumulation Plan",
+        "level": "h3"
+      }
+    },
+    "table-bids": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Bid #",
+          "Price"
+        ],
+        "rows": [
+          [
+            "1",
+            "76.69"
+          ],
+          [
+            "2",
+            "67.06"
+          ],
+          [
+            "3",
+            "53.33"
+          ]
+        ]
+      }
+    }
+  }
+}
