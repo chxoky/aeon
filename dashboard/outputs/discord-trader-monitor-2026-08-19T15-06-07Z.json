@@ -1,0 +1,138 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack_all"
+      ]
+    },
+    "stack_all": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "calibration_text",
+        "separator1",
+        "message_content",
+        "metadata_section",
+        "separator2",
+        "classification_issue"
+      ]
+    },
+    "calibration_text": {
+      "type": "Text",
+      "props": {
+        "text": "🔍 Calibration — [DC: HCH — Chat]",
+        "variant": "lead"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "message_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "msg_label",
+        "msg_value"
+      ]
+    },
+    "msg_label": {
+      "type": "Text",
+      "props": {
+        "text": "Message",
+        "variant": "muted"
+      }
+    },
+    "msg_value": {
+      "type": "Text",
+      "props": {
+        "text": "Yes",
+        "variant": "body"
+      }
+    },
+    "metadata_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "created_row",
+        "channel_row"
+      ]
+    },
+    "created_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "created_label",
+        "created_value"
+      ]
+    },
+    "created_label": {
+      "type": "Text",
+      "props": {
+        "text": "Created:",
+        "variant": "muted"
+      }
+    },
+    "created_value": {
+      "type": "Text",
+      "props": {
+        "text": "2026-08-19T15:00:22.673Z"
+      }
+    },
+    "channel_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "channel_label",
+        "channel_badge"
+      ]
+    },
+    "channel_label": {
+      "type": "Text",
+      "props": {
+        "text": "Channel:",
+        "variant": "muted"
+      }
+    },
+    "channel_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Supporting chat (member Q&A)",
+        "variant": "outline"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "classification_issue": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "No visible context or referenced message. What question is this responding to? What's your read?",
+        "type": "warning"
+      }
+    }
+  }
+}
