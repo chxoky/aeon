@@ -1,0 +1,59 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "stat-nasdaq",
+        "text-analysis",
+        "link-tweet"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Nasdaq -1% off new QE announcement?"
+      }
+    },
+    "stat-nasdaq": {
+      "type": "Stat",
+      "props": {
+        "label": "Nasdaq",
+        "value": "70,747.44",
+        "delta": "-749.56 (-1.05%)",
+        "trend": "down"
+      }
+    },
+    "text-analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Questioning whether current Nasdaq breakdown (from July highs ~74K to current levels) is positioned for/anticipating a QE catalyst move. Chart shows clear technical breakdown with RSI oversold — structure deteriorating across Aug window.",
+        "variant": "body"
+      }
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2090074317266866355"
+      }
+    }
+  }
+}
