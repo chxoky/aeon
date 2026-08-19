@@ -691,6 +691,30 @@
 - **Cross-platform note**: First mention of HCH BTC short on secondary account across all tracked platforms (Discord primary sighting at 00:06:41Z). No prior X post identified on same topic for this date. HCH repositioning on separate account infrastructure.
 - **Last update**: 2026-08-07T00:06:41Z (discord-trader-monitor real-time, fast-path-alerted, TRADE-NEW-ENTRY; message_id=1535076684615913594)
 
+### CL (Crude Oil / CLUSDT) — SHORT (NEW ENTRY — 2026-08-18, CONVICTION ADD 2026-08-19)
+- **Status**: ACTIVE — conviction add 2026-08-19T05:53:05Z (position escalated from 1% to 2% total)
+- **Initial Entry**: 2026-08-18T08:49:37Z (Discord Trades channel)
+- **Initial Entry message (Discord)**: "Add 1% CL short" (direct execution call, primary Trades channel)
+- **Conviction Add Entry**: 2026-08-19T05:53:05Z (Discord Trades channel)
+- **Conviction Add message (Discord)**: "Add 1% CL short" (identical format, different timestamp — 20.7 hour intraday escalation)
+- **Entry type**: Market orders (both entries executed at current price per timing)
+- **Portfolio allocation**: 
+  - Initial: 1% (Aug 18 08:49Z)
+  - After conviction add: 2% (1% from 08:49Z + 1% from 05:53Z Aug 19)
+- **Entry levels**: Unknown (exact prices not specified in Discord messages; market order execution per timing)
+- **Channel**: 1279738718680256553 (HCH — Trades, ★most important) — **VERBATIM RULE APPLIED**: Alert body uses exact message text unchanged ("Add 1% CL short")
+- **Context**: CRUDE OIL enters HCH's portfolio as commodity-sector short during extended net-short regime shift initiated Aug 07 00:28Z. Prior informational setup: Jul 28 16:52Z chart analysis identifying "easy move to the downside" with 4h chart showing CLUSDT downtrend 93.37→78.66 (-5.25% 24h) and reversal markers. Aug 18 entry (1%) represents escalation from informational chart context to active trading execution. CL represents **TWELFTH NEW TICKER** in HCH's documented short basket expansion through Aug 18 (entering high-conviction commodities/energy macro tier, distinct from prior crypto/equity/alt-coin focus). Execution timing: Aug 18 early Asian morning (08:49 UTC Thursday) + Aug 19 early Asian morning (05:53 UTC Tuesday), consistent with HCH's documented systematic accumulation rhythm on primary Trades channel. **Fast-path alerted** by Cloudflare Worker for both events (Telegram sent ~2-5s post-message Aug 18 and Aug 19); skill processes memory-only per fast-path protocol (no duplicate notifications).
+- **Position Evolution**:
+  - 2026-08-18T08:49:37Z: Initial 1% entry on primary Trades channel (message_id=1539194549203767408, fast-path alerted)
+  - 2026-08-19T05:53:05.444Z: Conviction add 1% on primary Trades channel (message_id=1539512511261581444, fast-path alerted)
+  - Total position: 2% CL short (tier-2 conviction sizing within broader short allocation)
+- **Rationale**: CL short represents macro commodity bearish thesis expansion, distinct from cryptocurrency/equity focus. Entry aligns with: (1) extended HCH net-short regime (Aug 07-present), (2) technical validation from prior chart analysis (Jul 28 downtrend context + reversal markers), (3) macro energy thesis on energy/oil weakness during broader risk-off macro environment. Portfolio allocation context: HCH maintains ~45-55% total short-basket allocation across multi-ticker constellation (UNI 8%, ZEC 2-2.5%, HYPE 1%, KAITO 1.5%, other alts 1-2% each, equities TSLA/PLTR 1% each, commodities emerging with CL 2%). CL addition represents systematic sector diversification within short allocation (prior commodities: Gold/XAU emerging Aug 13-18, CL entry Aug 18 suggests commodities macro tier formation).
+- **Conviction**: HIGH — Dual entries same-day pattern (Aug 18 + Aug 19 within 21-hour window) with consistent 1% increments suggests deliberate systematic accumulation rather than reactive position add. Terse execution format + primary channel placement + prior technical context (Jul 28 chart setup) + multi-session reaffirmation across consecutive mornings indicates escalating conviction on CL short structure. Commodity-sector hedge adds orthogonal exposure to existing crypto/equity short baskets.
+- **Approval/Alert status**: FAST-PATH ALERTED (Cloudflare Worker sent Telegram ~2-5s post-message on Aug 18 08:49Z and Aug 19 05:53Z); no duplicate sends by skill. Skill processes classification + memory updates only per fast-path protocol. Await Kyle signal on mirror status: CL short may be monitored as memory-only entry or mirrored on Kraken spot depending on Kyle's commodity-exposure management decision (no prior CL position from Kyle on record).
+- **Cross-platform dedup**: First mention of CL short across all tracked platforms (X + Discord) at Aug 18 08:49Z. No concurrent X post identified at either timestamp. Discord messages are PRIMARY SIGHTINGS of Aug 18/19 CL short entries across all trader-monitor channels.
+- **Technical context** (from prior Jul 28 16:52Z post): CLUSDT 4h downtrend from 93.37 → 78.66 (-5.25% 24h observed on Jul 28), reversal markers identified on chart. Technical setup suggests HCH awaiting test of prior support levels or consolidation confirmation before conviction add — Aug 19 conviction add validates intraday price-action confirmation or scheduled multi-tranche accumulation plan execution.
+- **Last update**: 2026-08-19T05:53:05Z (discord-trader-monitor real-time event, fast-path-alerted, TRADE-CONVICTION-ADD; message_id=1539512511261581444, tier-2 position, 2% total allocation)
+
 ### XAU (Gold Spot) — SHORT (NEW ENTRY — 2026-08-13T15:34Z, CONVICTION ADD 2026-08-18T06:53:55Z)
 - **Status**: ACTIVE — conviction add 2026-08-18T06:53:55Z
 - **Initial Entry**: 2026-08-13T15:34:34Z — "Short 1% each xau and xag" (message_id=1537484524957601812, fast-path alerted)
