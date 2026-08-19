@@ -1,0 +1,50 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet_card",
+        "view_link",
+        "separator",
+        "interpretation"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "Imagine watching $BTC push from the lows & having 0 exposure.\n\nYou're watching price move higher, but you're still completely fixated on lower. You don't know if the bottom is in, so you sit there waiting patiently, hoping for a level that could come, but might never come.\n\nThat's the problem with trying to time perfection in an imperfect market.\n\nCouldn't be me.\n\nI'd rather be exposed early & sit in draw down. The cycles are shifting, and there are plenty of metrics that support that.\n\nI'll happily buy at 70K, 65K, 60K, 55K, whatever. In the grand scheme of things, we are going to 150K+"
+      },
+      "children": []
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2090086291392070124"
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "interpretation": {
+      "type": "Text",
+      "props": {
+        "text": "Conviction reinforcement on BTC DCA thesis (55-70K zones), aligns with emerging group bullish regime shift targeting 150K+ long-term.",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
