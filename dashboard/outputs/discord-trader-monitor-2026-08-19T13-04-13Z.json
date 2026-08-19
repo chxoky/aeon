@@ -1,0 +1,257 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor — Calibration"
+      },
+      "children": [
+        "badge-calibration",
+        "separator-1",
+        "section-event",
+        "separator-2",
+        "section-analysis",
+        "separator-3",
+        "section-context",
+        "separator-4",
+        "section-interpretations",
+        "separator-5",
+        "message-id"
+      ]
+    },
+    "badge-calibration": {
+      "type": "Badge",
+      "props": {
+        "text": "🔍 Calibration — DC: HCH — Chat",
+        "variant": "outline"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section-event": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-event",
+        "text-event",
+        "link-article"
+      ]
+    },
+    "heading-event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "text-event": {
+      "type": "Text",
+      "props": {
+        "text": "FixTweet bot sharing ZeroHedge article"
+      }
+    },
+    "link-article": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/i/status/2090055275403178193",
+        "href": "https://x.com/i/status/2090055275403178193"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section-analysis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-quote",
+        "text-quote",
+        "heading-unable",
+        "text-unable"
+      ]
+    },
+    "heading-quote": {
+      "type": "Heading",
+      "props": {
+        "text": "Quote from heartcanhodl",
+        "level": "h3"
+      }
+    },
+    "text-quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"It is bullish for sure\"",
+        "variant": "lead"
+      }
+    },
+    "heading-unable": {
+      "type": "Heading",
+      "props": {
+        "text": "Unable to Classify",
+        "level": "h3"
+      }
+    },
+    "text-unable": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read? Supporting-channel context suggests market observation/conviction statement, but without full article context and given HCH's net-short regime, unclear if this is agreement with bearish ZeroHedge thesis, sarcasm/irony, or actual sentiment shift toward bullish conviction."
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section-context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-context",
+        "text-context-regime",
+        "text-context-short"
+      ]
+    },
+    "heading-context": {
+      "type": "Heading",
+      "props": {
+        "text": "Context: HCH's Trading Regime",
+        "level": "h3"
+      }
+    },
+    "text-context-regime": {
+      "type": "Text",
+      "props": {
+        "text": "Net-short regime since Aug 07"
+      }
+    },
+    "text-context-short": {
+      "type": "Text",
+      "props": {
+        "text": "Aug 19 09:19Z: \"Btc at 65k is a short\""
+      }
+    },
+    "separator-4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section-interpretations": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-interp",
+        "interp-a",
+        "interp-b",
+        "interp-c"
+      ]
+    },
+    "heading-interp": {
+      "type": "Heading",
+      "props": {
+        "text": "Possible Interpretations",
+        "level": "h3"
+      }
+    },
+    "interp-a": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-a",
+        "text-a"
+      ]
+    },
+    "badge-a": {
+      "type": "Badge",
+      "props": {
+        "text": "(a) Bearish agreement via short irony",
+        "variant": "secondary"
+      }
+    },
+    "text-a": {
+      "type": "Text",
+      "props": {
+        "text": "Agreement with bearish ZeroHedge thesis (being bearish = bullish for shorts)",
+        "variant": "caption"
+      }
+    },
+    "interp-b": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-b",
+        "text-b"
+      ]
+    },
+    "badge-b": {
+      "type": "Badge",
+      "props": {
+        "text": "(b) Sarcasm/irony",
+        "variant": "secondary"
+      }
+    },
+    "text-b": {
+      "type": "Text",
+      "props": {
+        "text": "Sarcastic or ironic comment masking actual bearish view",
+        "variant": "caption"
+      }
+    },
+    "interp-c": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-c",
+        "text-c"
+      ]
+    },
+    "badge-c": {
+      "type": "Badge",
+      "props": {
+        "text": "(c) Sentiment shift",
+        "variant": "secondary"
+      }
+    },
+    "text-c": {
+      "type": "Text",
+      "props": {
+        "text": "Actual sentiment shift toward bullish conviction",
+        "variant": "caption"
+      }
+    },
+    "separator-5": {
+      "type": "Separator",
+      "props": {}
+    },
+    "message-id": {
+      "type": "Text",
+      "props": {
+        "text": "MESSAGE_ID: 1539620205066457090",
+        "variant": "muted"
+      }
+    }
+  }
+}
