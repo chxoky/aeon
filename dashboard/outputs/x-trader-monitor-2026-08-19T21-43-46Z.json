@@ -1,0 +1,122 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "link-tweet",
+        "separator-1",
+        "analysis-heading",
+        "analysis-items"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Dr. Axius",
+        "handle": "trading_axe",
+        "text": "Crypto is still an inefficient market because there are things so stupidly undervalued relative to ETH's +20% candle and people aren't acting on it with speed / urgency.\n\nI almost can't believe they're letting us have all this time to build positions at the tailwind of it."
+      }
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/trading_axe/status/2090191964796825620"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Analysis",
+        "level": "h3"
+      }
+    },
+    "analysis-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "point-observation",
+        "point-thesis",
+        "point-sentiment",
+        "point-signal"
+      ]
+    },
+    "point-observation": {
+      "type": "Text",
+      "props": {
+        "text": "Market observation on crypto price discovery inefficiency and behavioral lag."
+      }
+    },
+    "point-thesis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-thesis",
+        "text-thesis",
+        "stat-btc"
+      ]
+    },
+    "badge-thesis": {
+      "type": "Badge",
+      "props": {
+        "text": "Macro Bullish Thesis",
+        "variant": "secondary"
+      }
+    },
+    "text-thesis": {
+      "type": "Text",
+      "props": {
+        "text": "Aligns with group macro bullish thesis: HCH/KillaXBT net-long"
+      }
+    },
+    "stat-btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC Support Watch",
+        "value": "62k"
+      }
+    },
+    "point-sentiment": {
+      "type": "Text",
+      "props": {
+        "text": "Sentiment reinforces alpha opportunity during inefficiency window."
+      }
+    },
+    "point-signal": {
+      "type": "Alert",
+      "props": {
+        "title": "Execution Signal",
+        "message": "No personal execution signal detected.",
+        "type": "info"
+      }
+    }
+  }
+}
