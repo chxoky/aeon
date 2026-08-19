@@ -1,0 +1,111 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading_calibration",
+        "sep_1",
+        "event_section",
+        "quote_section",
+        "sep_2",
+        "questions_section"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Stoiiic",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "event_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event_label",
+        "event_text"
+      ]
+    },
+    "event_label": {
+      "type": "Text",
+      "props": {
+        "text": "Event:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "event_text": {
+      "type": "Text",
+      "props": {
+        "text": "Technical observation about chart pattern completion"
+      },
+      "children": []
+    },
+    "quote_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "quote_text"
+      ]
+    },
+    "quote_text": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "text": "arrow fill in a matter of....an hour lol"
+      },
+      "children": []
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "questions_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "q1_text",
+        "q2_text"
+      ]
+    },
+    "q1_text": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?"
+      },
+      "children": []
+    },
+    "q2_text": {
+      "type": "Text",
+      "props": {
+        "text": "Also curious context on the earlier 15:29Z 'niceeee squeezeeee' post if these are related"
+      },
+      "children": []
+    }
+  }
+}

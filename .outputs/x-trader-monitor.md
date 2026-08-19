@@ -1,5 +1,7 @@
-🐦 *[X] @Wild_Randomness*
+🔍 *Calibration — @Stoiiic*
 
-**$NVDA** — September puts closed, booked 50% profit. Considering repositioning for November expiries if price can fill upside gap and trade into $224. Notes timing may have been early (wanted $212 before earnings).
+Event: Technical observation about chart pattern completion
 
-[View tweet](https://x.com/Wild_Randomness/status/2090153536529260862)
+Stoiiic: "arrow fill in a matter of....an hour lol"
+
+Unable to classify — what's your read? (Also curious context on the earlier 15:29Z 'niceeee squeezeeee' post if these are related)
