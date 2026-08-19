@@ -1,0 +1,42 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Discord update — supporting channel"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_source",
+        "message_card"
+      ]
+    },
+    "badge_source": {
+      "type": "Badge",
+      "props": {
+        "text": "Discord • HCH Chat",
+        "variant": "outline"
+      }
+    },
+    "message_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HCH",
+        "handle": "HCH",
+        "text": "Ofc trump admin shilling crypto is not bottom"
+      }
+    }
+  }
+}
