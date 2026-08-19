@@ -1,0 +1,57 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor",
+        "description": "Social sentiment and trader commentary"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet",
+        "link",
+        "separator",
+        "commentary"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "1. Under discussion\n\n2. \"Accumulate\" could mean they are accumulating only the seized Bitcoin\n\n3. It's Trump"
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/HeartCanHodl/status/2090200637959176581"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "commentary": {
+      "type": "Text",
+      "props": {
+        "text": "Commentary on Trump administration's approach to seized Bitcoin holdings. Aligns with HCH's Aug 19 19:50Z conviction that Trump admin crypto push is artificial, not a bottom.",
+        "variant": "muted"
+      }
+    }
+  }
+}
