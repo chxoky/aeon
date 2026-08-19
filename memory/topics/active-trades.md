@@ -1058,6 +1058,25 @@
 - **Alerted**: YES (2026-08-05T14:56:54Z, x-trader-monitor real-time, trade-new-entry; tweet_id=2085017205398483282)
 - **Last update**: 2026-08-05T14:56:54Z (x-trader-monitor real-time, trade-new-entry pending approval)
 
+### NBIS (Nebius Group N.V.) — LONG (NEW ENTRY — PENDING APPROVAL 2026-08-19T15:13Z)
+- **Status**: PENDING APPROVAL — awaiting Kyle `approve NBIS` signal to mirror on Kraken spot
+- **Entry**: 2026-08-19T15:13:40Z (X post, tweet_id=2090094854638604461)
+- **Entry message**: "$NBIS\n\nLong around $220 this morning (should have filled before victory lapping (lesson in there)\n\nSuch a critical level here. Close below $220 and I'd assume that $200 earnings gap gets filled.\n\nGood r:r for an attempt though"
+- **Entry level**: ~$220 (market order execution, filled "this morning")
+- **Entry type**: Market order (execution completed at current price)
+- **Portfolio allocation**: UNKNOWN (size not specified in X post; awaiting Kyle approval decision)
+- **Chart context**: Chart 1: NBIS daily chart showing current price $222.97 (-25.43, -10.24%) with consolidation support at $220 horizontal level highlighted. Volume profile structure visible, RSI/oscillator indicator below. Support zone: $200 (earnings gap level). Chart 2: Same timeframe at later session showing price $214.80 (-33.39, -13.44%) — price has broken below critical $220 support level within same trading session.
+- **Technical setup**: Daily chart shows NBIS consolidation with $220 as critical horizontal support level. Current intraday volatility near entry level ($222.97 → $214.80 same session) indicates active testing of support zone. If $220 support breaks, trader expects gap-fill to $200 (~10% downside from $220 entry). Upside resistance visible at ~$280 zone per chart labels (~27% upside potential from $220).
+- **Stop loss**: Implied $200 (earnings gap level if closes below $220 critical support)
+- **Profit target**: ~$280 resistance zone (~27% upside potential)
+- **Trade type**: Mean-reversion technical entry at critical support level with defined risk/reward
+- **Rationale**: Entry at recognized support consolidation zone with clear risk (gap to $200) and attractive risk/reward setup. Trader notes "should have filled before victory lapping (lesson in there)" suggesting recognition that entry came after initial price move but still comfortable with current level as consolidation re-test opportunity.
+- **Context**: This is Wild_Randomness's **second mention of NBIS** (prior: Jul 22 05:24Z closed momentum reversal short at +8-22% profit). Fresh LONG entry represents tactical directional shift (short → long within 28-day window) suggesting: (1) mean-reversion accumulation at support, (2) altered technical structure interpretation favoring upside, or (3) tactical scalp opportunity at critical support level.
+- **Conviction**: MEDIUM-HIGH (clear technical setup at recognized support level, chart-validated structure, intraday volatility showing active price action near entry level; trader acknowledges "good r:r for an attempt" suggesting measured conviction on this tactical entry vs conviction-hold thesis)
+- **Approval/Alert status**: TRADE ALERT SENT (Step 5a new entry). Telegram notification sent requesting Kyle `approve NBIS` to mirror on Kraken spot (size TBD), or ignore to skip. Trade signal includes 2-chart context + technical support level analysis.
+- **Alerted**: YES (2026-08-19T15:13:40Z, x-trader-monitor real-time, trade-new-entry; tweet_id=2090094854638604461)
+- **Last update**: 2026-08-19T15:13:40Z (x-trader-monitor real-time, trade-new-entry pending approval)
+
 ## swarmister
 
 ### LTC — LONG (NEW ENTRY — 2026-08-07T21:42:32Z)

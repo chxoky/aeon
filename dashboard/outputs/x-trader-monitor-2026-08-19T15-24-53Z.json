@@ -1,0 +1,121 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Trade Signal — @Wild_Randomness"
+      },
+      "children": [
+        "content-stack"
+      ]
+    },
+    "content-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "symbol-header",
+        "entry-type-text",
+        "entry-stat",
+        "support-stat",
+        "risk-stat",
+        "separator-1",
+        "quote-section",
+        "post-link",
+        "separator-2",
+        "action-alert"
+      ]
+    },
+    "symbol-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "symbol-badge",
+        "signal-badge"
+      ]
+    },
+    "symbol-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "$NBIS"
+      }
+    },
+    "signal-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "LONG",
+        "variant": "default"
+      }
+    },
+    "entry-type-text": {
+      "type": "Text",
+      "props": {
+        "text": "Market order entry",
+        "variant": "caption"
+      }
+    },
+    "entry-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Entry",
+        "value": "$220 (filled this morning)"
+      }
+    },
+    "support-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Critical Support",
+        "value": "$220"
+      }
+    },
+    "risk-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Risk Level",
+        "value": "$200 (earnings gap if breaks below)"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "quote-section": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Long around $220 this morning... Such a critical level here. Close below $220 and I'd assume that $200 earnings gap gets filled. Good r:r for an attempt though"
+      }
+    },
+    "post-link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2090094854638604461"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "action-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Action Required",
+        "message": "Reply `approve NBIS` to mirror this on Kraken (spot), or ignore to skip.",
+        "type": "info"
+      }
+    }
+  }
+}

@@ -34,3 +34,15 @@ Per the skill's **Step 4A protocol**, this is non-financial banter:
 
 The skill completed successfully. No notification was warranted—this was banter/builder identity content, not a market signal.
 https://x.com/trading_axe/status/2090093941353844994
+🚨 *Trade Signal — @Wild_Randomness*
+
+$NBIS — LONG — *Market order entry*
+Entry: ~$220 (filled this morning)
+Critical support: $220
+Risk level: $200 (earnings gap if breaks below)
+
+"Long around $220 this morning... Such a critical level here. Close below $220 and I'd assume that $200 earnings gap gets filled. Good r:r for an attempt though"
+
+[View post](https://x.com/Wild_Randomness/status/2090094854638604461)
+
+Reply `approve NBIS` to mirror this on Kraken (spot), or ignore to skip.
