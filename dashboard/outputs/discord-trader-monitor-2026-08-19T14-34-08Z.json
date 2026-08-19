@@ -1,0 +1,55 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_channel",
+        "text_msg",
+        "text_reference",
+        "link_tweet"
+      ]
+    },
+    "badge_channel": {
+      "type": "Badge",
+      "props": {
+        "text": "💬 DC: HCH — Chat",
+        "variant": "secondary"
+      }
+    },
+    "text_msg": {
+      "type": "Text",
+      "props": {
+        "text": "Interest and tailwinds might be moving towards the healthcare sector"
+      }
+    },
+    "text_reference": {
+      "type": "Text",
+      "props": {
+        "text": "after this",
+        "variant": "muted"
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/i/status/2090048185859239959",
+        "href": "https://x.com/i/status/2090048185859239959"
+      }
+    }
+  }
+}
