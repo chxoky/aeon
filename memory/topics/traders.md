@@ -836,6 +836,7 @@
   - Aug 18 22:49Z — informational-technical: DC TradFi (supporting) "Yeah that H4 fair value gap is likely the area to look at" — technical analysis on 4-hour fair-value-gap (FVG) structure; supporting-channel market structure observation; no personal trade action language; alerted [$UNKNOWN] [1539405982797664316]
   - Aug 18 13:58Z — informational-conviction-shift: DC TradFi (supporting) "I TP'd everything, don't buy dip, no confidence in trades atm"; risk-off positioning escalation vs Aug 17 market skepticism; full position closure; contradicts group net-long consensus (HCH/KillaXBT Aug bullish regime); fast-path-alerted (memory-only) [1539272402519851038]
   - Aug 19 04:45Z — informational-sentiment: DC Free "Turns out, pursuing stock shorts was a great idea 😁" + screenshot attachment; retrospective commentary on successful stock shorts (NBIS 1% short Aug 14 entered, WR Aug 18 20:31Z validation; broader short basket Aug 07-18 net-short regime profitable); no new trade execution language (past tense reflection); primary Free channel informational-only; fast-path-alerted (Telegram sent ~2-5s post-message); memory-only per fast-path protocol [$NBIS] [1539495481401409536]
+  - Aug 19 06:32:54Z — non-financial-skip: DC Free "fine wine week🍷" + link to X post; thematic banter reply to FixTweet bot message; no trade signal or financial content; silent skip per HR-1 protocol [1539522532468854816]
 
 ## Stoiiic
 - Platforms: X (primary)

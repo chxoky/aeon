@@ -1,37 +1,21 @@
-Perfect! I've successfully executed the Discord Trader Monitor skill for the HeartCanHodl CL short conviction add event. Here's the summary:
-
-## Execution Summary
-
-**Event:** HeartCanHodl "Add 1% CL short" — Discord message 1539512511261581444 received 2026-08-19 05:53:05Z
-
-**Classification:** Step 5d — Conviction Add (to existing Aug 18 CL short position)
-
-**Fast-Path Protocol:** Event was fast-path-alerted=true, so:
-- ✓ Cloudflare Worker already sent Telegram alert (~2-5s after event)
-- ✓ Skill processed memory updates and logging only (no duplicate alert)
-- ✓ No further Telegram send needed
-
-**Memory Updates Completed:**
-- ✓ Added message_id to `memory/discord-trader-seen.txt` (dedup tracking)
-- ✓ Updated `memory/logs/2026-08-19.md` with full event classification and context
-- ✓ Updated `memory/topics/ticker-focus.md` CL entry with conviction add tier-2 details
-- ✓ Added comprehensive `memory/topics/active-trades.md` CL short position entry showing:
-  - Tier 1: Aug 18 08:49Z entry (1% allocation)
-  - Tier 2: Aug 19 05:53Z conviction add (1% allocation)
-  - Total position: 2% CL short
-
-**Position Status:** ACTIVE — 2% Crude Oil short within HCH's extended net-short regime (Aug 07-present), representing commodity-sector expansion alongside crypto/equity/alt-coin short basket. Awaiting Kyle approval to mirror on Kraken spot or monitor as memory-only entry.
 ## Summary
 
-Executed discord-trader-monitor skill for HeartCanHodl Discord event (2026-08-19T05:54:59Z):
+Executed the Discord Trader Monitor skill for message 1539522532468854816 from HeartCanHodl.
 
-**Event:** Emoji-only message "⛹️" in HCH — Chat (supporting channel, ID 1023638573313966212)
+**Message Details:**
+- Channel: 1472153627324842057 (HCH — Free, primary)
+- Username: heartcanhodl (verified)
+- Content: "fine wine week🍷" + X post link
+- Is reply: true (to FixTweet bot)
+- Fast-path alerted: false
 
-**Classification:** Non-financial banter (Step 5A) → skip, log only
+**Classification:** non-financial-skip (HR-1 protocol)
+- Message is thematic banter with no trade signal, execution language, or ticker reference
+- Silent skip per protocol—no Kyle alert required
 
-**Actions taken:**
-- ✅ Added message ID `1539512990469070889` to `memory/discord-trader-seen.txt` (dedup tracking)
-- ✅ Logged event to `memory/logs/2026-08-19.md` (classification: skip, alerted: no)
-- ✅ No Telegram alert sent (non-financial)
+**Actions Completed:**
+1. ✅ Recorded message ID in discord-trader-seen.txt
+2. ✅ Updated memory/topics/traders.md with one-line entry (non-financial skip)
+3. ✅ Logged event to memory/logs/2026-08-19.md
 
-Message contained no ticker, no trade signal, no execution language — just a reaction emoji. Processed cleanly per protocol.
+**No notification sent** (per skill protocol: non-financial messages are logged silently).
