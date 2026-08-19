@@ -1,17 +1,17 @@
-🐦 *[X] @Stoiiic*
+🐦 *[X] @bull_genius*
 
-sooo long since we've got some vol like this.
+wow that was fast. just as we were preaching for the past few days, a big move was loading for the whole summer. 
 
-beautiful
+suspense being released in big liquidating moves, momentum was not to be faded. easy chase as summer vah broke. 67k just got steamrolled and people got their stops swept within minutes
 
-Unable to classify without seeing the original question — what's your read? Is this financial or just banter?
-🔍 *Calibration — @Stoiiic*
+almost hit 2026 avwap straight up
 
-Event: No visible external context
+now let this consolidate, gradually tp and chill
 
-Stoiiic: "niceeee squeezeeee"
+gonna rebuy on the dips, momentum upthrust not to be faded until proven wrong
 
-Unable to classify — cryptic 2-word post with no ticker or execution language. Could be market squeeze commentary, banter, or position-related observation. What's your read?
+good day
 
-[View post](https://x.com/Stoiiic/status/2090098725297217866)
-[View tweet](https://x.com/Stoiiic/status/2090099896455995896)
+[View tweet](https://x.com/bull_genius/status/2090102592227438848)
+
+_Active: 10x BTC long (entry 65.6, currently +34.97% unrealized). Technical framework targets 71K (2026 AVWAP) + 74K (2026 VAH). Consolidation phase with planned rebuy on dips. Aligns with group bullish thesis + documented 160K conviction target._

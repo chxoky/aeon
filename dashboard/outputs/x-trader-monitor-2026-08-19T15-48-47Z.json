@@ -1,0 +1,125 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "X-Trader Monitor"
+      },
+      "children": [
+        "tweet-card",
+        "separator-1",
+        "position-details-stack"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "wow that was fast. just as we were preaching for the past few days, a big move was loading for the whole summer. suspense being released in big liquidating moves, momentum was not to be faded. easy chase as summer vah broke. 67k just got steamrolled and people got their stops swept within minutes. almost hit 2026 avwap straight up. now let this consolidate, gradually tp and chill. gonna rebuy on the dips, momentum upthrust not to be faded until proven wrong. good day"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "position-details-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "position-heading",
+        "position-metrics-stack",
+        "targets-text",
+        "strategy-text",
+        "conviction-badge",
+        "view-tweet-link"
+      ]
+    },
+    "position-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Active Position",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "position-metrics-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "position-type",
+        "entry-stat",
+        "pnl-stat"
+      ]
+    },
+    "position-type": {
+      "type": "Badge",
+      "props": {
+        "text": "10x BTC Long",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "entry-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Entry",
+        "value": "65.6"
+      },
+      "children": []
+    },
+    "pnl-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Unrealized PnL",
+        "value": "+34.97%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "targets-text": {
+      "type": "Text",
+      "props": {
+        "text": "Technical targets: 71K (2026 AVWAP) + 74K (2026 VAH)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "strategy-text": {
+      "type": "Text",
+      "props": {
+        "text": "Consolidation phase with planned rebuy on dips. Aligns with group bullish thesis.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "conviction-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "160K Conviction Target",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "view-tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/bull_genius/status/2090102592227438848"
+      },
+      "children": []
+    }
+  }
+}
