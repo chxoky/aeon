@@ -1,0 +1,24 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "alert-trade"
+      ]
+    },
+    "alert-trade": {
+      "type": "Alert",
+      "props": {
+        "type": "success",
+        "title": "HYPE Long Alert",
+        "message": "From ryzzqq: Long with scaled orders, 3-5 week swing expected. 3+ trader bullish convergence emerging."
+      },
+      "children": []
+    }
+  }
+}
