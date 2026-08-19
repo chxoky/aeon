@@ -1,0 +1,38 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "separator",
+        "link_view"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Bitcoin_Astro",
+        "handle": "@Bitcoin_Astro",
+        "text": "Back in January, I posted these two dates August 16th and 31st or, to be more precise, two major time windows Aug 15–21 and Aug 30–Sep 5. These were calculated months in advance as two of my most important windows for a potential cycle low.\n\nBTC did indeed put in a low around August 15/16 - NOT what I currently consider the final cycle LOW, and today's sharp move higher shows exactly why this time window was marked as important seven months ago. We still have a couple of days remaining in the first window, so I'm watching carefully to see how it develops. After that, attention shifts toward the 31 Aug–5 Sep window."
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet on X",
+        "href": "https://x.com/Bitcoin_Astro/status/2090216499650887867"
+      }
+    }
+  }
+}
