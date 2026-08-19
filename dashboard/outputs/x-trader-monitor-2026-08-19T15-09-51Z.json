@@ -1,0 +1,190 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @bull_genius"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event_section",
+        "separator_1",
+        "comment_section",
+        "separator_2",
+        "analysis_section",
+        "separator_3",
+        "link_section"
+      ]
+    },
+    "event_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event_label",
+        "event_text",
+        "event_details_tags"
+      ]
+    },
+    "event_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "event_text": {
+      "type": "Text",
+      "props": {
+        "text": "BTC consolidation spike at 14:56Z (66-67.5K zone just tested across traders; Crypto_Chase technical confirmation, bull_genius structural analysis active minutes prior)"
+      }
+    },
+    "event_details_tags": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_btc",
+        "badge_time",
+        "badge_traders"
+      ]
+    },
+    "badge_btc": {
+      "type": "Badge",
+      "props": {
+        "text": "BTC",
+        "variant": "default"
+      }
+    },
+    "badge_time": {
+      "type": "Badge",
+      "props": {
+        "text": "14:56Z",
+        "variant": "outline"
+      }
+    },
+    "badge_traders": {
+      "type": "Badge",
+      "props": {
+        "text": "Crypto_Chase / bull_genius",
+        "variant": "secondary"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "comment_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "comment_label",
+        "comment_text",
+        "comment_details"
+      ]
+    },
+    "comment_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Comment from bull_genius",
+        "level": "h3"
+      }
+    },
+    "comment_text": {
+      "type": "Text",
+      "props": {
+        "text": "\"@hidden_whale peculiar timing, wasnt it?\"",
+        "variant": "lead"
+      }
+    },
+    "comment_details": {
+      "type": "Text",
+      "props": {
+        "text": "Reply-directed comment to non-watched trader (hidden_whale not in tracked list)",
+        "variant": "caption"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "analysis_label",
+        "analysis_text",
+        "classification_alert"
+      ]
+    },
+    "analysis_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Analysis",
+        "level": "h3"
+      }
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "No explicit ticker, no execution language, no visible external context."
+      }
+    },
+    "classification_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification Unclear",
+        "message": "Unable to classify — is this market-timing commentary on the BTC consolidation just discussed, personal banter, or something else?",
+        "type": "warning"
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "view_link"
+      ]
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/bull_geniius/status/2090090650876170371"
+      }
+    }
+  }
+}
