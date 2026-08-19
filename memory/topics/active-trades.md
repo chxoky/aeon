@@ -1118,6 +1118,26 @@
 - **Alerted**: YES (2026-08-19T15:13:40Z, x-trader-monitor real-time, trade-new-entry; tweet_id=2090094854638604461)
 - **Last update**: 2026-08-19T15:13:40Z (x-trader-monitor real-time, trade-new-entry pending approval)
 
+### SOXL (Direxion Daily Semiconductor Bull 3X Shares) — LONG (NEW ENTRY — PENDING APPROVAL 2026-08-19T18:42Z)
+- **Status**: PENDING APPROVAL — awaiting Kyle `approve SOXL` signal to mirror on Kraken spot
+- **Entry**: 2026-08-19T18:42:13Z (X post with 2 chart images)
+- **Entry message**: "$SOXL\n\nS-tier scalphing instrument\n\nOut at $154 two days ago\n\nBack in at $119.50 avg\n\nClose below $117 is inval (would have to observe reaction below at 200d in that case)\n\nIt's opex week— who knows"
+- **Entry level**: ~$119.50 average (appears to be scaled entry or multiple fills averaging to this price)
+- **Entry type**: Execution completed; appears to be series of limit orders or market fills averaging to ~$119.50
+- **Portfolio allocation**: UNKNOWN (size not specified in post; awaiting Kyle approval decision)
+- **Chart context**: Chart 1 (Daily SOXL): Current price $120.82 (-8.28, -6.41%) showing multi-month structure from Jun→Aug. Key support/resistance levels marked horizontally at ~225, ~200, ~150, ~135, ~120-125 (dotted). Volume profile visible, IV/vol indicator at bottom. Chart 2 (Discord Aug 18 screenshot): Conversation showing trade planning context—"Stairs elevator" (10:20Z), "Rebuying some" (10:23Z), "Ideally into 117" (10:23Z). This Discord context predates X entry by ~22 hours, showing trader was targeting re-entry around $117 level; actual execution achieved $119.50 avg (slightly higher than ideal but within acceptable range).
+- **Technical setup**: SOXL daily chart showing support/resistance levels with clear structure. Trader previously exited at $154 (two days prior on Aug 17), now re-entering at $119.50 after 18% pullback. Key invalidation level marked at $117 (close below this level would invalidate long thesis, forcing observation of deeper 200-day support below). Current price $120.82 is ~1.1% above entry average, indicating strong current bid near entry. Discord context (Aug 18) shows pre-planned re-entry targeting $117-120 zone on "stairs elevator" technical setup.
+- **Stop loss**: Implied at/below $117 (invalidation level; trader explicitly states "Close below $117 is inval"); deeper support observation potentially at 200-day moving average
+- **Profit target**: UNKNOWN (trader doesn't specify upside target; chart shows resistance structure at ~135, ~150, ~200, ~225 zones as potential targets based on prior support/resistance levels)
+- **Trade type**: Tactical re-entry/scalp on mean-reversion bounce after significant pullback ($154 exit → $119.50 re-entry = -22% drawdown within 2 days); S-tier semiconductor volatility play noted by trader
+- **Rationale**: Re-entry after prior exit at $154. Trader recognizes SOXL as "S-tier scalphing instrument" (highest-tier volatility/scalp opportunity). Aug 18 Discord planning shows intentional targeting of $117-120 zone for re-entry ("Ideally into 117"). Execution achieved $119.50 avg, slightly above ideal but within tolerance. Opex week context (mentions volatility/event risk awareness). Technical validation: clear support structure at $117-120 zone on daily chart with defined invalidation level below.
+- **Conviction**: MEDIUM-HIGH (clear technical setup with marked invalidation level; deliberate re-entry planning visible in prior Discord context; trader acknowledges opex/event risk but commits entry; S-tier instrument classification suggests tactical scalp focus vs conviction hold; execution timing suggests moderate urgency on re-entry)
+- **Cross-trader context**: This represents Wild_Randomness's **second documented SOXL action** within this monitoring window (prior: Aug 17 14:56Z informational-technical observation "Hmm! SOXL" + chart showing technical levels; now Aug 19 actual personal execution entry). Convergence: broader 5-trader bullish semis consensus (Jul 27-Aug 14 mean-reversion recovery thesis) + Wild_Randomness documented "SOXL blowoff quarterly weakness thesis" (Jul 29 longer-term bearish) + tactical short-term bullish bounce scalp = macro bear with tactical bullish flips on structure bounces.
+- **Prior SOXL trade**: Traders.md context shows prior documented SOXL long entry Aug 04 at $114.61 (from @Wild_Randomness, awaiting Kyle approval since Aug 04 — NOW SUPERSEDED by this Aug 19 $119.50 entry at higher level after prior $154 exit cycle). Current entry appears separate position/fresh entry post-exit, not scaling into prior pending entry.
+- **Approval/Alert status**: TRADE ALERT SENT (Step 5a new entry). Telegram notification sent requesting Kyle `approve SOXL` to mirror on Kraken spot (size TBD), or ignore to skip. Trade signal includes 2-chart context + Discord planning context + technical invalidation level analysis.
+- **Alerted**: YES (2026-08-19T18:42:13Z, x-trader-monitor real-time, trade-new-entry; tweet_id=2090147338816020532)
+- **Last update**: 2026-08-19T18:42:13Z (x-trader-monitor real-time, trade-new-entry pending approval)
+
 ## swarmister
 
 ### LTC — LONG (NEW ENTRY — 2026-08-07T21:42:32Z)
