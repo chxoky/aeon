@@ -3,20 +3,18 @@
 You waited 80 days of consolidation for a 1 minute move. You missed it.. you're sick to your stomach.
 
 Over the next few days you'll open then panic close multiple continuation longs as price chops. Eventually you'll open a massive long with SL below 65K.
+🔍 *Calibration — @HeartCanHodl*
 
-**Event**: "what now?" + BTC daily chart (image fetched & analyzed)
-- **Chart analysis**: BTC showing sustained downtrend from 123K peak → consolidation at 65K with bearish trendline, negative MA alignment (50/200 below price), lower-highs/lower-lows pattern
-- **Classification**: INFORMATIONAL-TECHNICAL (market observation asking for direction, no personal execution)
-- **Ticker**: BTC (overlap/focus ticker with group positioning)
-- **Convergence**: Aligns with ryzzqq's Aug 19 05:44Z bearish unlock catalyst prediction + HCH Aug 19 15:12Z +5% BTC short conviction add + ticker-focus.md 62K TP target confirmation
-- **Alert status**: YES — technical context + convergence note sent to Kyle via ./notify
-- **Memory updated**: 
-  - Tweet ID 2090105858793296171 added to x-trader-seen.txt (dedup tracking)
-  - Event logged to memory/logs/2026-08-19.md with full classification, chart analysis, and convergence context
-  - Stoiiic Last-seen timestamp updated in traders.md
-🔁 *Trade Closed — @swarmister*
+**Event:** BTC OI liquidation event (290K → 276.7K coin collapse, ~13K BTC liquidated at 68,600 peak)
 
-*BTC LONG* — Fully closed ✅
+@HeartCanHodl: "Mini inverse 10/10 before crypto's situational half awareness"
+
+Chart: 5m BTC showing sharp red liquidation candle after 7% rally, recovery underway
+
+**Unable to classify** — "mini inverse 10/10" is cryptic shorthand. Could mean:
+- Small BTC short at max conviction?
+- Broader market inverse position?
+- Something else?
 
 **Result: +203.18% profit** (20x perpetual leverage)
 Entry: 61,500.0
@@ -47,3 +45,4 @@ Did you mirror this BTC long? Reply if you need to close your position to match.
 Full retrace.
 
 [View tweet](https://x.com/Crypto_Chase/status/2090108392991855039)
+What's your read?

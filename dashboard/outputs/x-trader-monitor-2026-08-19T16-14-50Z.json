@@ -1,0 +1,112 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading_calibration",
+        "stack_content"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration — @HeartCanHodl",
+        "level": "h2"
+      }
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stack_event",
+        "separator_1",
+        "tweet_quote",
+        "separator_2",
+        "stack_chart",
+        "separator_3",
+        "alert_unclear"
+      ]
+    },
+    "stack_event": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_event",
+        "text_event"
+      ]
+    },
+    "heading_event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "BTC OI liquidation event (290K → 276.7K coin collapse, ~13K BTC liquidated at 68,600 peak)"
+      }
+    },
+    "separator_1": {
+      "type": "Separator"
+    },
+    "tweet_quote": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "@HeartCanHodl",
+        "text": "Mini inverse 10/10 before crypto's situational half awareness"
+      }
+    },
+    "separator_2": {
+      "type": "Separator"
+    },
+    "stack_chart": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_chart",
+        "text_chart"
+      ]
+    },
+    "heading_chart": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart",
+        "level": "h3"
+      }
+    },
+    "text_chart": {
+      "type": "Text",
+      "props": {
+        "text": "5m BTC showing sharp red liquidation candle after 7% rally, recovery underway"
+      }
+    },
+    "separator_3": {
+      "type": "Separator"
+    },
+    "alert_unclear": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "\"mini inverse 10/10\" is cryptic shorthand. Could mean:\n• Small BTC short at max conviction?\n• Broader market inverse position?\n• Something else?\n\nWhat's your read?",
+        "type": "warning"
+      }
+    }
+  }
+}
