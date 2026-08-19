@@ -1,9 +1,7 @@
-🐦 *[X] @Wild_Randomness*
+🐦 *[X] @Wild_Randomness — ES Technical*
 
-**ES Technical Structure — Prior Breakdown Comparison**
+ES1! at 7,706.50, consolidated just above previous ATH (7,600). Wild_Randomness discussing retracement levels: if bullish, unlikely to see perfect retest (expects support ~7,690); if bearish, 7700→7600 is a tough spot for new shorts.
 
-ES rallying to 7,775 (+0.52%) with key resistance around 7,600. Charts show current daily structure alongside historical precedent: prior ES breakdown from late 2022 (4,700+ → 4,317.75, -92% crash) with similar technical pattern markers.
+Chart shows 6-month consolidation with blue/green MAs, RSI 40-60 zone (neutral), and historical 2022 breakdown analog for structure comparison.
 
-Cryptic share comparing rally structure to prior major breakdown = implicit bearish technical framework within documented Jump Shark macro thesis.
-
-[View tweet](https://x.com/Wild_Randomness/status/2089927486767583515)
+[View tweet](https://x.com/Wild_Randomness/status/2089930281419673868)
