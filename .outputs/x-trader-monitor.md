@@ -1,5 +1,7 @@
-🐦 *[X] @trading_axe*
+🔍 *Calibration — @Wild_Randomness*
 
-70K seems nice today for Bitcoin.
+Event: Reply to @KaneCapz
 
-[View tweet](https://x.com/trading_axe/status/2090097150977888370)
+Wild_Randomness: "Of course not!"
+
+Unable to classify without seeing the original question — what's your read? Is this financial or just banter?
