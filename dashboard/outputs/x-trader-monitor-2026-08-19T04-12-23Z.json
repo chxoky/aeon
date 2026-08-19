@@ -1,0 +1,41 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "ES Technical Structure — Prior Breakdown Comparison"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "link_tweet"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "ES rallying to 7,775 (+0.52%) with key resistance around 7,600. Charts show current daily structure alongside historical precedent: prior ES breakdown from late 2022 (4,700+ → 4,317.75, -92% crash) with similar technical pattern markers.\n\nCryptic share comparing rally structure to prior major breakdown = implicit bearish technical framework within documented Jump Shark macro thesis."
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2089927486767583515"
+      }
+    }
+  }
+}
