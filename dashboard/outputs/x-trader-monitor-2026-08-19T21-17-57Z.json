@@ -1,0 +1,57 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @Stoiiic"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_event",
+        "text_quote",
+        "text_question",
+        "story_post"
+      ]
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: ryzzqq entered ETH SHORT ~5 hours earlier (2095, limit orders filling next 24hrs)",
+        "variant": "body"
+      }
+    },
+    "text_quote": {
+      "type": "Text",
+      "props": {
+        "text": "Stoiiic: \"ETH vengeance\"",
+        "variant": "lead"
+      }
+    },
+    "text_question": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "body"
+      }
+    },
+    "story_post": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View post",
+        "href": "https://x.com/Stoiiic/status/2090184174669898203",
+        "source": "X"
+      }
+    }
+  }
+}

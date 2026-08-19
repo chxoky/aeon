@@ -1,11 +1,8 @@
-🐦 *[X] @KillaXBT*
+🔍 *Calibration — @Stoiiic*
 
-$HYPE is up 40% since. ✅
+Event: ryzzqq entered ETH SHORT ~5 hours earlier (2095, limit orders filling next 24hrs)
+Stoiiic: "ETH vengeance"
 
-Killa Effect.
+Unable to classify — what's your read?
 
-Slow. Steady. Wins. The. Race.
-
-[View tweet](https://x.com/KillaXBT/status/2090182397941653722)
-
-↳ *Validates 3-trader bullish convergence* — KillaXBT's Aug 01 entry at 51.55 (targeting 55-57) now at 70.39. Aligns with bull_genius structural bottom + HCH HYPE long. Contradicts Wild_Randomness Aug 17 dismissive sentiment.
+[View post](https://x.com/Stoiiic/status/2090184174669898203)
