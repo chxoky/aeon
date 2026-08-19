@@ -1,0 +1,155 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Calibration event requiring manual classification"
+      },
+      "children": [
+        "content_stack"
+      ]
+    },
+    "content_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "calibration_heading",
+        "event_details_section",
+        "separator_1",
+        "message_section",
+        "separator_2",
+        "classification_alert",
+        "possible_section"
+      ]
+    },
+    "calibration_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration — [DC: HCH — Chat]",
+        "level": "h3"
+      }
+    },
+    "event_details_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event_type_label",
+        "event_type_badge",
+        "author_label",
+        "author_name"
+      ]
+    },
+    "event_type_label": {
+      "type": "Text",
+      "props": {
+        "text": "Event type:",
+        "variant": "muted"
+      }
+    },
+    "event_type_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Member chat (supporting channel)",
+        "variant": "secondary"
+      }
+    },
+    "author_label": {
+      "type": "Text",
+      "props": {
+        "text": "Author:",
+        "variant": "muted"
+      }
+    },
+    "author_name": {
+      "type": "Text",
+      "props": {
+        "text": "HeartCanHodl"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "message_label",
+        "message_content"
+      ]
+    },
+    "message_label": {
+      "type": "Text",
+      "props": {
+        "text": "Message:",
+        "variant": "muted"
+      }
+    },
+    "message_content": {
+      "type": "Text",
+      "props": {
+        "text": "Fc btc 1m",
+        "variant": "lead"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read?",
+        "type": "warning"
+      }
+    },
+    "possible_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "possible_label",
+        "interp_1",
+        "interp_2"
+      ]
+    },
+    "possible_label": {
+      "type": "Text",
+      "props": {
+        "text": "Possible interpretations:",
+        "variant": "muted"
+      }
+    },
+    "interp_1": {
+      "type": "Text",
+      "props": {
+        "text": "Futures Close on BTC 1-minute chart"
+      }
+    },
+    "interp_2": {
+      "type": "Text",
+      "props": {
+        "text": "Technical alert"
+      }
+    }
+  }
+}

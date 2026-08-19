@@ -1,0 +1,135 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "separator_1",
+        "technical_data"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "AMZN daily chart technical structure — support zones at 240/250/260, resistance at 270/280. Current price 264.77 (+2.05%) after recovery from 235-240 lows. Multiple levels marked on chart, volume profile + technical indicators visible. Watchlist ticker — see also HCH Aug 04 watchlist addition"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "technical_data": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "metrics_grid",
+        "additional_info",
+        "tweet_link"
+      ]
+    },
+    "metrics_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "stat_price",
+        "stat_support",
+        "stat_resistance"
+      ]
+    },
+    "stat_price": {
+      "type": "Stat",
+      "props": {
+        "label": "Current Price",
+        "value": "264.77",
+        "delta": "+2.05%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat_support": {
+      "type": "Stat",
+      "props": {
+        "label": "Support Zones",
+        "value": "240/250/260"
+      },
+      "children": []
+    },
+    "stat_resistance": {
+      "type": "Stat",
+      "props": {
+        "label": "Resistance",
+        "value": "270/280"
+      },
+      "children": []
+    },
+    "additional_info": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_recovery",
+        "tags_section"
+      ]
+    },
+    "text_recovery": {
+      "type": "Text",
+      "props": {
+        "text": "Recovery from 235-240 lows. Volume profile + technical indicators visible.",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "tags_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_watchlist",
+        "badge_hch"
+      ]
+    },
+    "badge_watchlist": {
+      "type": "Badge",
+      "props": {
+        "text": "Watchlist Ticker",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge_hch": {
+      "type": "Badge",
+      "props": {
+        "text": "HCH Aug 04",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2090141627725861298"
+      },
+      "children": []
+    }
+  }
+}
