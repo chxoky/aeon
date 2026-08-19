@@ -1,0 +1,38 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "heartbeat"
+      },
+      "children": [
+        "alert-main",
+        "separator-1",
+        "action-text"
+      ]
+    },
+    "alert-main": {
+      "type": "Alert",
+      "props": {
+        "type": "error",
+        "title": "STUCK: trader-memory-compact",
+        "message": "Dispatched 2026-08-16 20:58 UTC (~71h ago), never completed. Last success: 2026-08-09. Sunday Aug 16 run is hung."
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "action-text": {
+      "type": "Text",
+      "props": {
+        "text": "Re-dispatch via workflow_dispatch to unblock, or wait until next Sunday 2026-08-23",
+        "variant": "lead"
+      }
+    }
+  }
+}
