@@ -1,10 +1,11 @@
 🐦 *[X] @Wild_Randomness*
 
-Nasdaq -1% off new QE announcement?
+$ETH technical structure warning: Recent resistance breaks failing with declining momentum. Charts show consolidation at support with skepticism on recovery sustainability.
 
-[70,747.44 ▼ -749.56 (-1.05%)]
+Price at 1,564 USDT; marked resistance rejections in recent sessions with RSI declining from overbought.
 
-Questioning whether current Nasdaq breakdown (from July highs ~74K to current levels) is positioned for/anticipating a QE catalyst move. Chart shows clear technical breakdown with RSI oversold — structure deteriorating across Aug window.
+[View tweet](https://x.com/Wild_Randomness/status/2090075421111193787)
 
 [View tweet](https://x.com/Wild_Randomness/status/2090074317266866355)
 Calibration required for @Wild_Randomness tweet 2090074969921540358 - reply to @unreachablexbt about buyers/market structure. Original context missing. Unable to classify asset/direction/scope.
+↳ _Aligns with HCH's ETH short thesis (Aug 12 re-entry, 2% short position) — creates contested ETH sentiment vs bull_genius bullish view._
