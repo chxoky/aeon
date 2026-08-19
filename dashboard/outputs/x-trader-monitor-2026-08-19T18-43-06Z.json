@@ -1,0 +1,133 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stack-header",
+        "tweet-card",
+        "link-tweet",
+        "separator-1",
+        "heading-chart",
+        "text-chart-description",
+        "stack-prices"
+      ]
+    },
+    "stack-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-qqq",
+        "text-author"
+      ]
+    },
+    "badge-qqq": {
+      "type": "Badge",
+      "props": {
+        "text": "QQQ",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "text-author": {
+      "type": "Text",
+      "props": {
+        "text": "@Wild_Randomness",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Looking at gap-fill setup before options expiration. Current price consolidating at POC level with OPEX flows offsetting positive YCC pseudo-announcement news. Expecting close above daily trend + POC as ideal target."
+      },
+      "children": []
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/Wild_Randomness/status/2090145532723577001"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading-chart": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart Analysis",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text-chart-description": {
+      "type": "Text",
+      "props": {
+        "text": "1H QQQ showing support/resistance with volume profile. Daily trend line visible. Current near resistance around 723.64."
+      },
+      "children": []
+    },
+    "stack-prices": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat-gap-target",
+        "stat-poc-zone",
+        "stat-resistance"
+      ]
+    },
+    "stat-gap-target": {
+      "type": "Stat",
+      "props": {
+        "label": "Gap Target",
+        "value": "722.75"
+      },
+      "children": []
+    },
+    "stat-poc-zone": {
+      "type": "Stat",
+      "props": {
+        "label": "POC Zone",
+        "value": "723–724"
+      },
+      "children": []
+    },
+    "stat-resistance": {
+      "type": "Stat",
+      "props": {
+        "label": "Current Resistance",
+        "value": "723.64"
+      },
+      "children": []
+    }
+  }
+}
