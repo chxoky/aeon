@@ -1,0 +1,266 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Market Context",
+        "description": "2026-08-19"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "take_section",
+        "sep1",
+        "prices_section",
+        "sep2",
+        "indicators_section",
+        "sep3",
+        "narrative_section",
+        "sep4",
+        "tail_risk_section"
+      ]
+    },
+    "take_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "take_label",
+        "take_value",
+        "conviction_badge"
+      ]
+    },
+    "take_label": {
+      "type": "Text",
+      "props": {
+        "text": "take:",
+        "variant": "muted"
+      }
+    },
+    "take_value": {
+      "type": "Text",
+      "props": {
+        "text": "chop"
+      }
+    },
+    "conviction_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "conviction medium",
+        "variant": "secondary"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "prices_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "price_heading",
+        "btc_stat",
+        "eth_stat"
+      ]
+    },
+    "price_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Prices",
+        "level": "h3"
+      }
+    },
+    "btc_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$64,233",
+        "delta": "-0.08%",
+        "trend": "down"
+      }
+    },
+    "eth_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$1,914",
+        "delta": "+1.1%",
+        "trend": "up"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "indicators_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "indicators_heading",
+        "fg_stack",
+        "breadth_stack",
+        "dex_vol_stat"
+      ]
+    },
+    "indicators_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Market Indicators",
+        "level": "h3"
+      }
+    },
+    "fg_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "fg_label",
+        "fg_progress",
+        "fg_badge"
+      ]
+    },
+    "fg_label": {
+      "type": "Text",
+      "props": {
+        "text": "Fear & Greed:",
+        "variant": "muted"
+      }
+    },
+    "fg_progress": {
+      "type": "Progress",
+      "props": {
+        "value": 46,
+        "max": 100,
+        "label": "46"
+      }
+    },
+    "fg_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Fear",
+        "variant": "destructive"
+      }
+    },
+    "breadth_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "breadth_label",
+        "breadth_progress"
+      ]
+    },
+    "breadth_label": {
+      "type": "Text",
+      "props": {
+        "text": "Breadth:",
+        "variant": "muted"
+      }
+    },
+    "breadth_progress": {
+      "type": "Progress",
+      "props": {
+        "value": 10,
+        "max": 20,
+        "label": "10/20"
+      }
+    },
+    "dex_vol_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "DEX Volume",
+        "value": "$5.78B",
+        "delta": "+3.6%",
+        "trend": "up"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "narrative_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "narrative_heading",
+        "narrative_text"
+      ]
+    },
+    "narrative_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Narrative",
+        "level": "h3"
+      }
+    },
+    "narrative_text": {
+      "type": "Text",
+      "props": {
+        "text": "privacy ZEC/XMR (rising, 7d accelerating)"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tail_risk_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tail_risk_alert",
+        "fed_note"
+      ]
+    },
+    "tail_risk_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Tail Risk: Hormuz Disruption",
+        "message": "Status: YES • 6.5% probability • #1 Polymarket volume",
+        "type": "warning"
+      }
+    },
+    "fed_note": {
+      "type": "Text",
+      "props": {
+        "text": "Fed minutes tomorrow — primary binary",
+        "variant": "muted"
+      }
+    }
+  }
+}
