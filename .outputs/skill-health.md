@@ -1,9 +1,6 @@
-*Skill Health — 2026-08-18*
-HEALTH: WARNING(1)
+*Skill Health — 2026-08-19*
+HEALTH: OK — 7 skills healthy
 
-⚠️ WARNING
-- trader-memory-compact — 1 fail, 9d since last success, stuck dispatched 41h+ — INVESTIGATE
-
-🟢 HEALTHY: 7 (morning-brief, token-alert, token-movers, market-context-refresh, narrative-tracker, heartbeat, skill-health)
+⚠ WARNING (1): trader-memory-compact — 1 consecutive failure, 10d since last success (75% rate, last dispatch 2026-08-16)
 
 Open issues: 0 · Resolved this run: 0
