@@ -1,14 +1,12 @@
 🔍 *Calibration — @Wild_Randomness*
 
-Event: Cryptic derivatives reference with execution language but no underlying specified
+Event: AI-focused trading, likely follow-up context or incomplete thought
 
-Wild_Randomness: "Ok put some novembers on just in case they don't give me the reversion
+@Wild_Randomness: "Hmm\n\nI put some AI scalp longs on today, but something to chew on…"
 
-(Proper decision likely was just to sit on those Septembers)"
+Unable to classify — needs clarification:
+- Which specific ticker/asset is the AI scalp long? (NVDA, AI sector ETF, perp?)
+- What's the 'something to chew on' context? (Setup issue, macro concern, thesis detail?)
+- Entry price/size if you'd like to mirror once clarified?
 
-Unable to classify — what's your read?
-- Underlying asset (which contract — oil, bonds, equities, index?)
-- Full context on reversion thesis
-- Related September position context
-
-[View post](https://x.com/Wild_Randomness/status/2090166470680736182)
+[View post](https://x.com/Wild_Randomness/status/2090168765749264741)

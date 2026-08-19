@@ -1,0 +1,107 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "X-Trader Monitor"
+      },
+      "children": [
+        "calibration-heading",
+        "event-text",
+        "sep1",
+        "tweet-card",
+        "sep2",
+        "clarify-heading",
+        "clarify-intro",
+        "clarify-stack",
+        "link-view"
+      ]
+    },
+    "calibration-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h2"
+      }
+    },
+    "event-text": {
+      "type": "Text",
+      "props": {
+        "text": "Event: AI-focused trading, likely follow-up context or incomplete thought"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "I put some AI scalp longs on today, but something to chew on…"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "clarify-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Unable to classify",
+        "level": "h3"
+      }
+    },
+    "clarify-intro": {
+      "type": "Text",
+      "props": {
+        "text": "Needs clarification:",
+        "variant": "lead"
+      }
+    },
+    "clarify-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "q1",
+        "q2",
+        "q3"
+      ]
+    },
+    "q1": {
+      "type": "Text",
+      "props": {
+        "text": "Which specific ticker/asset is the AI scalp long? (NVDA, AI sector ETF, perp?)"
+      }
+    },
+    "q2": {
+      "type": "Text",
+      "props": {
+        "text": "What's the 'something to chew on' context? (Setup issue, macro concern, thesis detail?)"
+      }
+    },
+    "q3": {
+      "type": "Text",
+      "props": {
+        "text": "Entry price/size if you'd like to mirror once clarified?"
+      }
+    },
+    "link-view": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2090168765749264741"
+      }
+    }
+  }
+}
