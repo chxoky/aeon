@@ -1,0 +1,48 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor",
+        "description": "Live trading discussion"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "chat_meta",
+        "quote_msg",
+        "analysis"
+      ]
+    },
+    "chat_meta": {
+      "type": "Text",
+      "props": {
+        "text": "💬 DC: HCH — Chat",
+        "variant": "caption"
+      }
+    },
+    "quote_msg": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HCH",
+        "text": "But I will be looking for more clues than just initial impulse"
+      }
+    },
+    "analysis": {
+      "type": "Text",
+      "props": {
+        "text": "↩️ Imagine the downside if this news couldn't take us much higher over ltf"
+      }
+    }
+  }
+}
