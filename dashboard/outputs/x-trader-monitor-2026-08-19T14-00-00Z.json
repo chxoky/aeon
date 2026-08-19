@@ -1,0 +1,148 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration Required"
+      },
+      "children": [
+        "alert_calibration",
+        "separator_1",
+        "stack_tweet_details",
+        "separator_2",
+        "stack_issues"
+      ]
+    },
+    "alert_calibration": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Calibration Required",
+        "message": "Original context missing. Unable to classify asset/direction/scope."
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_tweet_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_tweet",
+        "text_tweet_id",
+        "text_author",
+        "text_reply_to",
+        "text_topic"
+      ]
+    },
+    "heading_tweet": {
+      "type": "Heading",
+      "props": {
+        "text": "Tweet Details",
+        "level": "h3"
+      }
+    },
+    "text_tweet_id": {
+      "type": "Text",
+      "props": {
+        "text": "Tweet ID: 2090074969921540358",
+        "variant": "body"
+      }
+    },
+    "text_author": {
+      "type": "Text",
+      "props": {
+        "text": "Author: @Wild_Randomness",
+        "variant": "body"
+      }
+    },
+    "text_reply_to": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to: @unreachablexbt",
+        "variant": "body"
+      }
+    },
+    "text_topic": {
+      "type": "Text",
+      "props": {
+        "text": "Topic: buyers/market structure",
+        "variant": "body"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_issues": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_missing",
+        "stack_badges"
+      ]
+    },
+    "heading_missing": {
+      "type": "Heading",
+      "props": {
+        "text": "Missing Classifications",
+        "level": "h3"
+      }
+    },
+    "stack_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_context",
+        "badge_asset",
+        "badge_direction",
+        "badge_scope"
+      ]
+    },
+    "badge_context": {
+      "type": "Badge",
+      "props": {
+        "text": "Original context",
+        "variant": "destructive"
+      }
+    },
+    "badge_asset": {
+      "type": "Badge",
+      "props": {
+        "text": "Asset classification",
+        "variant": "destructive"
+      }
+    },
+    "badge_direction": {
+      "type": "Badge",
+      "props": {
+        "text": "Direction classification",
+        "variant": "destructive"
+      }
+    },
+    "badge_scope": {
+      "type": "Badge",
+      "props": {
+        "text": "Scope classification",
+        "variant": "destructive"
+      }
+    }
+  }
+}
