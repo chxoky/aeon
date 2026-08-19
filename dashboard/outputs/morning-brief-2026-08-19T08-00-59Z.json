@@ -1,0 +1,53 @@
+{
+  "root": "card-1",
+  "state": {},
+  "elements": {
+    "card-1": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-08-19"
+      },
+      "children": [
+        "heading-focus",
+        "stack-items"
+      ]
+    },
+    "heading-focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "stack-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item-1",
+        "item-2",
+        "item-3"
+      ]
+    },
+    "item-1": {
+      "type": "Text",
+      "props": {
+        "text": "1. HYPE approve/skip — ryzzqq scaled longs live, 3-trader convergence, entry improving at −2.4%"
+      }
+    },
+    "item-2": {
+      "type": "Text",
+      "props": {
+        "text": "2. Aug 20 catalyst stack — SPCX 2nd unlock + WR ETH arrow both land tomorrow; prep today"
+      }
+    },
+    "item-3": {
+      "type": "Text",
+      "props": {
+        "text": "3. HCH short"
+      }
+    }
+  }
+}
