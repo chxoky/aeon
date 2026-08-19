@@ -1,0 +1,131 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @Wild_Randomness"
+      },
+      "children": [
+        "section1",
+        "sep1",
+        "section2",
+        "sep2",
+        "section3",
+        "sep3",
+        "link"
+      ]
+    },
+    "section1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event-label",
+        "event-desc"
+      ]
+    },
+    "event-label": {
+      "type": "Text",
+      "props": {
+        "text": "Event:",
+        "variant": "lead"
+      }
+    },
+    "event-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Cryptic derivatives reference with execution language but no underlying specified",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "quote-attr",
+        "quote-text"
+      ]
+    },
+    "quote-attr": {
+      "type": "Text",
+      "props": {
+        "text": "Wild_Randomness:",
+        "variant": "lead"
+      }
+    },
+    "quote-text": {
+      "type": "Text",
+      "props": {
+        "text": "\"Ok put some novembers on just in case they don't give me the reversion\n\n(Proper decision likely was just to sit on those Septembers)\"",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "classify-q",
+        "item1",
+        "item2",
+        "item3"
+      ]
+    },
+    "classify-q": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "lead"
+      }
+    },
+    "item1": {
+      "type": "Text",
+      "props": {
+        "text": "• Underlying asset (which contract — oil, bonds, equities, index?)",
+        "variant": "body"
+      }
+    },
+    "item2": {
+      "type": "Text",
+      "props": {
+        "text": "• Full context on reversion thesis",
+        "variant": "body"
+      }
+    },
+    "item3": {
+      "type": "Text",
+      "props": {
+        "text": "• Related September position context",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2090166470680736182"
+      }
+    }
+  }
+}
