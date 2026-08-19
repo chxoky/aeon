@@ -727,7 +727,7 @@
 - Recent thesis: Multi-ticker discretionary; semis mean-reversion (Jul 28 DCA at beaten-down levels). Low posting volume = high intent when active. Tactical exits when thesis not confirming ("weird flow on BTC" → closed SOL immediately).
 - Conviction notes: Very low posting frequency; explicit execution language when real trades occur. SOL closed quickly after observing BTC anomaly — discipline over ego. Self-aware calibration: "tight SLs get hit when I'm not convinced, boredom-driven entry."
 - Calibration: No pending calibrations. No confirmed mirrors on Kraken.
-- Last seen: 2026-08-19T04:56:28Z (X — sentiment on bottom-catching difficulty)
+- Last seen: 2026-08-19T05:04:50Z (X — market sentiment on alt performance & BTC chart structure)
 - **Events (rolling):**
   - Jul 28 16:30Z — trade-new-entry: SNDK/DRAM/MU/SKHY 50% DCA longs; Kyle designs own structure (no auto-mirror) [$SNDK $MU]
   - Jul 31 01:09Z — trade-new-entry: SOL long, SL 72; pending Kyle approval [$SOL] [2082997133121368363]
@@ -735,6 +735,7 @@
   - Jul 31 02:23Z — calibration: "tight SLs when not convinced, boredom entry" — self-described trading psychology
   - Aug 19 04:56Z — informational-sentiment: X "ansem nailing the bottom is the least likely scenario"; skepticism on bottom-precision; reinforces DCA thesis [$BTC] [2089939532192026795]
   - Aug 19 04:58Z — ambiguous-cryptic: "@Wild_Randomness looks cooked"; comment on another trader (market sentiment on WR's positions, or personal banter?); HR-2 calibration needed [2089939975957782939]
+  - Aug 19 05:04Z — informational-sentiment: X market commentary; good week, alts 30-40% move; BTC chart recovery 58.1k→62.6k [2089941639410360510]
 
 ## abetrade
 - Platforms: X (primary; X-only)

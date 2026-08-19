@@ -1,15 +1,7 @@
 🐦 *[X] @ryzzqq*
 
-ansem nailing the bottom is the least likely scenario in my book
+well we had a good week and who cares what the rest of the july did, alts pulled 30-40% move
 
-[View tweet](https://x.com/ryzzqq/status/2089939532192026795)
+Chart: BTC recovery from 58.1k low → 62.6k support (prev high 65.6k)
 
-↳ _Sentiment on bottom-catching precision risk; reinforces DCA thesis (19-day gap since last activity)._
-🔍 *Calibration — @ryzzqq*
-
-Event: Comment on another trader (@Wild_Randomness)
-@ryzzqq: "@Wild_Randomness looks cooked"
-
-Unable to classify — is this market commentary on Wild_Randomness's positions/trades, or just personal banter? How would you read it?
-
-[View tweet](https://x.com/ryzzqq/status/2089939975957782939)
+https://x.com/ryzzqq/status/2089941639410360510
