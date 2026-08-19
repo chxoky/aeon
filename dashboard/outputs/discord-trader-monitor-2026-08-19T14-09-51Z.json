@@ -1,0 +1,48 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-discord-meta",
+        "heading-recent",
+        "link-image"
+      ]
+    },
+    "text-discord-meta": {
+      "type": "Text",
+      "props": {
+        "text": "💬 [DC: Chase — Chase]",
+        "variant": "muted"
+      }
+    },
+    "heading-recent": {
+      "type": "Heading",
+      "props": {
+        "text": "recent winners sent out",
+        "level": "h2"
+      }
+    },
+    "link-image": {
+      "type": "Link",
+      "props": {
+        "label": "View image",
+        "href": "https://cdn.discordapp.com/attachments/1336082716063694962/1539636700249325789/image.png?ex=6a8709ea&is=6a85b86a&hm=8a05cf3ea9107c57595c40d298acc551f12bcb495ed164b00a465d546b814cc7&"
+      }
+    }
+  }
+}
