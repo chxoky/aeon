@@ -1,0 +1,137 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "🔍 Calibration — [DC: HCH — Chat]"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event_heading",
+        "event_text",
+        "author_heading",
+        "author_text",
+        "sep1",
+        "message_heading",
+        "message_text",
+        "sep2",
+        "classification_alert",
+        "sep3",
+        "interpretations_heading",
+        "interpretations_stack"
+      ]
+    },
+    "event_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h4"
+      }
+    },
+    "event_text": {
+      "type": "Text",
+      "props": {
+        "text": "Member chat (supporting channel)",
+        "variant": "body"
+      }
+    },
+    "author_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "User",
+        "level": "h4"
+      }
+    },
+    "author_text": {
+      "type": "Text",
+      "props": {
+        "text": "HeartCanHodl",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Message",
+        "level": "h4"
+      }
+    },
+    "message_text": {
+      "type": "Text",
+      "props": {
+        "text": "Fc btc 1m",
+        "variant": "lead"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read?",
+        "type": "info"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "interpretations_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Possible interpretations",
+        "level": "h4"
+      }
+    },
+    "interpretations_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "interpretation_1",
+        "interpretation_2"
+      ]
+    },
+    "interpretation_1": {
+      "type": "Badge",
+      "props": {
+        "text": "Futures Close on BTC 1-minute chart",
+        "variant": "outline"
+      }
+    },
+    "interpretation_2": {
+      "type": "Badge",
+      "props": {
+        "text": "Technical alert",
+        "variant": "outline"
+      }
+    }
+  }
+}
