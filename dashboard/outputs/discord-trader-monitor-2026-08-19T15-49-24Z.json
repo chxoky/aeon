@@ -1,0 +1,24 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "💬 DC: HCH — Chat"
+      },
+      "children": [
+        "stat_bio"
+      ]
+    },
+    "stat_bio": {
+      "type": "Stat",
+      "props": {
+        "label": "Bio",
+        "value": "+17%",
+        "trend": "up"
+      }
+    }
+  }
+}
