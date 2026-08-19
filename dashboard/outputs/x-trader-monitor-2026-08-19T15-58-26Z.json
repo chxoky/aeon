@@ -1,0 +1,78 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration"
+      },
+      "children": [
+        "stack_full"
+      ]
+    },
+    "stack_full": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_main",
+        "separator1",
+        "text_context",
+        "text_message",
+        "separator2",
+        "alert_unable",
+        "text_query"
+      ]
+    },
+    "text_main": {
+      "type": "Text",
+      "props": {
+        "text": "🔍 Calibration — @swarmister",
+        "variant": "lead"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to @Fobias88",
+        "variant": "body"
+      }
+    },
+    "text_message": {
+      "type": "Text",
+      "props": {
+        "text": "Message: 'Yes zero'",
+        "variant": "body"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_unable": {
+      "type": "Alert",
+      "props": {
+        "message": "Unable to classify without context",
+        "type": "warning"
+      }
+    },
+    "text_query": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "lead"
+      }
+    }
+  }
+}
