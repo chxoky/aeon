@@ -1,0 +1,124 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading_calibration",
+        "text_event",
+        "tweet_card",
+        "sep1",
+        "analysis_section",
+        "link_tweet"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: General market observation / price-action commentary",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Did the Time Machine break?\n\nWe've had 200 days to buy this level…\n\nAre we stuck here forever?"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_unable",
+        "text_question",
+        "stack_options"
+      ]
+    },
+    "text_unable": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — no specific ticker/asset mentioned.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_question": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read? Is this:",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "stack_options": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "option1",
+        "option2",
+        "option3"
+      ]
+    },
+    "option1": {
+      "type": "Text",
+      "props": {
+        "text": "• A specific asset/ticker at key consolidation?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "option2": {
+      "type": "Text",
+      "props": {
+        "text": "• General market sentiment on range-bound conditions?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "option3": {
+      "type": "Text",
+      "props": {
+        "text": "• Reference to prior setup/discussion?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2089931126135787573"
+      },
+      "children": []
+    }
+  }
+}
