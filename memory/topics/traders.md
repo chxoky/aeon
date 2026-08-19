@@ -1,3 +1,14 @@
+## ryzzyqq
+
+- Platforms: X (Twitter)
+- Current open positions: ETH short (pending entry), prior SOL long entry awaiting approval (Jul 31), SNDK/DRAM/MU/SKHY longs (Jul 28 entries)
+- Recent thesis: Bearish ETH structure (documented Jul 22 13:25 "looking for shorts over the next few days"), mean-reversion longs on semis (SNDK/MU/DRAM post-sector crash Jul 28), conservative position sizing
+- Conviction notes: New trader first X post monitored Aug 19. Medium conviction trader with documented technical bearishness on ETH and semis mean-reversion opportunism.
+- Calibration: None pending
+- Last seen: 2026-08-19T16:11:20Z (X post — ETH short entry)
+- **Events (rolling):**
+  - Aug 19 16:11Z — trade-new-entry: X "trying an eth short here at 2095 looking to fill next 24hrs will take my loss if it doesn't retrace by weekend"; personal execution language, limit order entry over next 24h window with loss-stop at weekend; ETH SHORT at ~2095, awaiting Kyle `approve ETH` to mirror; alerted Kyle [$ETH] [20901093691450777]
+
 ## HeartCanHodl
 - Platforms: Discord (★Trades: 1279738718680256553, Comments: 1393137051108507728, Chat: 1023638573313966212, Free: 1472153627324842057) + X
 - Current open positions: NET SHORT regime (shifted Aug 07 00:28Z). SHORTS: BTC ~7.5% (reduced 2.5% Aug 13 11:39Z, from ~10%); ETH 2% (added Aug 12 11:04Z after full close Jul 31); UNI 7% (reduced 1% Aug 13 01:04Z, from 8%); SOL ~6% (2.5% + 2.5% + 1% Aug 08); SPCX 6% (5 adds Aug 07–Aug 12 18:28Z, alongside 2% spot LONG = hedged); ZEC ~2.5%; HYPE 2% (added 1% Aug 13 05:48Z); LIT 2% (added 1% Aug 13 05:48Z); PUMP 1% (new entry Aug 13 05:48Z); PEPE 0% (closed Aug 13 01:04Z); KAITO ~1.5%; ADA 0.5%; TSLA 1%; PLTR 1%; CL 1% (added Aug 13 01:06Z). LONGS: BTC ~22.5% (reduced from 30% via 3 TP tranches Aug 07); ETH ~17%; SOL ~9%; HYPE ~7.5%; ZEC ~5%; SPCX 2% spot; spot alts ~1% each (AAVE, NEAR, XMR, ASTER, FORM, TAO, STABLE, ASTS, PENDLE, LIT, PUMP). Net: ~45% long core + ~24% short overlay = net-short bias (from prior ~26%).

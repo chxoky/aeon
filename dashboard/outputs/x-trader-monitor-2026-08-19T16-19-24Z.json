@@ -1,0 +1,107 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Trade Signal — @ryzzyqq",
+        "description": "🚨 ETH Short Position"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stack_signal_meta",
+        "stat_entry",
+        "tweet_content",
+        "link_post",
+        "separator1",
+        "text_cta"
+      ]
+    },
+    "stack_signal_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_eth",
+        "badge_short",
+        "badge_limit",
+        "text_timeframe"
+      ]
+    },
+    "badge_eth": {
+      "type": "Badge",
+      "props": {
+        "text": "ETH",
+        "variant": "default"
+      }
+    },
+    "badge_short": {
+      "type": "Badge",
+      "props": {
+        "text": "SHORT",
+        "variant": "destructive"
+      }
+    },
+    "badge_limit": {
+      "type": "Badge",
+      "props": {
+        "text": "Limit Orders",
+        "variant": "outline"
+      }
+    },
+    "text_timeframe": {
+      "type": "Text",
+      "props": {
+        "text": "(next 24hrs)",
+        "variant": "muted"
+      }
+    },
+    "stat_entry": {
+      "type": "Stat",
+      "props": {
+        "label": "Entry",
+        "value": "~2095"
+      }
+    },
+    "tweet_content": {
+      "type": "TweetCard",
+      "props": {
+        "author": "ryzzyqq",
+        "handle": "ryzzyqq",
+        "text": "trying an eth short here at 2095 looking to fill next 24hrs will take my loss if it doesn't retrace by weekend"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/ryzzyqq/status/20901093691450777"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_cta": {
+      "type": "Text",
+      "props": {
+        "text": "Reply `approve ETH` to mirror this on Kraken (spot), or ignore to skip.",
+        "variant": "caption"
+      }
+    }
+  }
+}

@@ -1,6 +1,7 @@
-🐦 *[X] @Crypto_Chase*
+🚨 *Trade Signal — @ryzzyqq*
 
-You waited 80 days of consolidation for a 1 minute move. You missed it.. you're sick to your stomach.
+ETH — SHORT — *limit orders* (next 24hrs)
+Entry: ~2095
 
 Over the next few days you'll open then panic close multiple continuation longs as price chops. Eventually you'll open a massive long with SL below 65K.
 🔍 *Calibration — @HeartCanHodl*
@@ -46,3 +47,8 @@ Full retrace.
 
 [View tweet](https://x.com/Crypto_Chase/status/2090108392991855039)
 What's your read?
+"trying an eth short here at 2095 looking to fill next 24hrs will take my loss if it doesn't retrace by weekend"
+
+[View post](https://x.com/ryzzyqq/status/20901093691450777)
+
+Reply `approve ETH` to mirror this on Kraken (spot), or ignore to skip.

@@ -1,5 +1,20 @@
 # Active Trades
 
+## ryzzyqq
+
+### ETH (Ethereum) — SHORT (PENDING APPROVAL)
+- **Entry date**: 2026-08-19T16:11:20Z
+- **Entry price**: ~2095 (limit orders, filling over next 24hrs)
+- **Entry type**: **Limit orders** (not market fill)
+- **Entry size**: Unknown (limit-order strategy, no specific size stated in post)
+- **Entry context**: Trader targeting 2095 zone over next 24-hour window with loss-stop at weekend close
+- **Position thesis**: Bearish structure on ETH; continuation of prior Jul 22 bearish conviction ("looking for shorts over the next few days"); structure validation trade
+- **Status**: PENDING APPROVAL — awaiting Kyle response (`approve ETH` to mirror on Kraken spot), or ignore to skip
+- **Trade alert format**: Step 5a (new limit entry requiring approval)
+- **Mirror instructions**: Upon Kyle approval, mirror ETH SHORT position on Kraken spot (size to be specified by Kyle via `approve ETH <size_or_percentage>` reply). Entry will fill at limit prices as market tests 2095 zone over next 24 hours.
+- **Alerted**: YES (2026-08-19T16:11:20Z, X post, fast-path alert via ./notify)
+- **Last update**: 2026-08-19T16:11:20Z (x-trader-monitor real-time event, step-5a pending approval)
+
 ## Crypto_Chase
 
 ### GOOG (Google) — LONG (CLOSED)
