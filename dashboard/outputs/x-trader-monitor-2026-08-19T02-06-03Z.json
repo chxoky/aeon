@@ -1,0 +1,32 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "BTC 2026 Technical Analysis",
+        "description": "From X (@bull_genius)"
+      },
+      "children": [
+        "tweet",
+        "viewLink"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "BTC 2026 technical bottom analysis—volume profile breakdown across Q1-Q3 with DCA entry zones:\n- Q1 value zone: 62-64K (limited time window, 2 days around Iran war event)\n- Q2 momentum: bidirectional strength, 76-78K trapped shorts/longs\n- Q3 sustained: 62-64K dominant (months to accumulate), despite rejections at POC 67K in summer; 50s showed stubborn spot demand even at peak STRC euphoria\n- Key thesis: 50K *absolutely* a great zone—multiple test opportunities in Q4 expected if market revisits; suspended-loading setup for whichever direction breaks (70-72K or 50s for DCA)"
+      }
+    },
+    "viewLink": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/bull_genius/status/2089894076040491096"
+      }
+    }
+  }
+}
