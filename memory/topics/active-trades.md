@@ -601,6 +601,22 @@
 - **Approval/Alert status**: FAST-PATH ALERTED (Telegram already sent by Cloudflare Worker ~2-5s post-message); no duplicate send by skill. Await Kyle signal on whether to mirror SOL long on Kraken or monitor as memory-only entry.
 - **Last update**: 2026-07-31T15:07:38Z (discord-trader-monitor, fast-path-alerted, TRADE-CONVICTION-ADD; message_id=1532766697231224995)
 
+### SOL — SHORT (NEW ENTRY — 2026-08-19)
+- **Status**: ACTIVE — trade-new-entry 2026-08-19T21:16:20Z
+- **Entry**: 2026-08-19T21:16:20Z (Discord Trades channel)
+- **Entry message**: "Add 2.5% sol short" (direct execution call, primary Trades channel)
+- **Entry type**: Market order (execution at current price)
+- **Portfolio allocation**: 2.5% initial allocation
+- **Entry level**: Unknown (exact price not specified in Discord message; market order execution per timing)
+- **Channel**: 1279738718680256553 (HCH — Trades, ★most important)
+- **Entry context**: HCH re-initiates SOL short positioning within broader net-short regime continuation (net-short regime shift from Aug 07 onwards). Prior SOL positioning included 5% long entry (Jul 31), now inverted with 2.5% short entry as tactical mean-reversion or directional conviction shift. Entry timing: evening UTC (21:16Z = evening Europe + early Asia night), suggests overnight price structure validation or systematic re-accumulation into weakness.
+- **Rationale**: SOL short represents continuation of HCH's tactical volatility trading within crypto major-alt pairs. Prior SOL long (Jul 31 +5%) positioned for emerging alt recovery within net-long regime; current SOL short (Aug 19 +2.5%) suggests either: (a) intraday mean-reversion trade capitalizing on strength pullback, (b) profit-taking on long position with short hedge, or (c) directional shift based on technical structure invalidation. Execution format consistent with documented conviction-add pattern ("Add 2.5% sol short").
+- **Conviction**: MEDIUM (2.5% allocation represents mid-tier sizing; terse execution format on primary channel indicates commitment; entry occurs within broader ongoing short-basket expansion suggesting systematic accumulation into weakness or pre-planned structural rebalancing).
+- **Cross-platform note**: First mention of Aug 19 SOL short across all tracked platforms (X + Discord). No concurrent X post identified at 21:16:20Z. Discord message is FIRST SIGHTING of this SOL short entry.
+- **Approval/Alert status**: FAST-PATH ALERTED (Telegram already sent by Cloudflare Worker ~2-5s post-message); no duplicate send by skill. Await Kyle signal on whether to mirror SOL short on Kraken or monitor as memory-only entry.
+- **Ticker focus**: SOL remains contested (prior long Jul 31 + current short Aug 19 = intra-HCH divergence; broader cross-trader divergence emerging with KillaXBT/bull_genius long convictions; ticker-focus notes SOL as "CONTESTED-EMERGING-BEARISH" with three-trader bearish convergence).
+- **Last update**: 2026-08-19T21:16:20Z (discord-trader-monitor, fast-path-alerted, TRADE-NEW-ENTRY; message_id=1539744853158793336)
+
 ### ZEC — LONG (NEW ENTRY — CONVICTION ADD 2026-08-01)
 - **Status**: ACTIVE — trade-conviction-add 2026-08-01T12:00:11Z
 - **Entry**: 2026-08-01T12:00:11Z (Discord Trades channel)
