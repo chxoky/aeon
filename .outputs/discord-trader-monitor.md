@@ -1,27 +1,13 @@
-🔍 *Calibration — [DC: HCH — Chat]*
-
-Member (Tree Capital): _(referenced message empty — no context)_
-
-HeartCanHodl: "sol as well"
-
-Unable to classify — what's your read? Is this a trade signal, sentiment, or market chatter?
-Perfect! Event processed successfully. Here's what happened:
-
 ## Summary
 
-**Event:** HeartCanHodl Discord message (2026-08-19T06:43:36Z)
-- **Channel:** HCH — Chat (supporting, 1023638573313966212)
-- **Message ID:** 1539525223571787807
-- **Content:** "It's great to see every new member getting to participate in these moves now that we've expanded beyond crypto into TradFi and commodities as well 😄"
+**Discord Trader Monitor — Event processed**
 
-**Classification:** **Non-financial banter** (Step 5A)
-- Motivational fluff about group expansion
-- No personal trade action or execution language
-- No ticker focus or market signal
-- **Action:** Silent skip, no alert to Kyle
+**Event:** HeartCanHodl supporting-channel message (HCH — Chat, 1023638573313966212)
+- **Message ID:** 1539563971416432640
+- **Content:** "Don't fall for sol outperformance"
+- **Classification:** INFORMATIONAL-SENTIMENT
+- **Action taken:** Logged to memory only (no Telegram alert per Step 7 supporting-channel protocol)
 
-**Updates:**
-- ✅ Added message ID to `memory/discord-trader-seen.txt` (for dedup prevention)
-- ✅ Logged event to `memory/logs/2026-08-19.md` with full classification details
+**Rationale:** Supporting channel messages do not trigger standalone alerts unless they represent genuine conviction shifts or new information. This message is bearish sentiment/education on SOL that aligns with HCH's documented bearish technical thesis, not a new trade action. Fast-path alert status = false, so full processing applied. Message ID tracked in discord-trader-seen.txt for dedup prevention.
 
-The skill completed successfully with zero alerts sent (as expected for non-financial content).
+**Status:** Event complete. Memory updated.
