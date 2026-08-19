@@ -1,0 +1,43 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-main",
+        "link-view"
+      ]
+    },
+    "tweet-main": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "This is the $BTC 2022 bottom formation compared with the current 2026 formation.\n\nIf we mirror the 2022 structure almost identically, it would suggest that even if BTC retraces from the 68–70K high, we could still hold above the previous lows without actually breaking them.\n\nIt does seem almost too easy, but at the end of the day, it's just a pattern, and patterns can always break.\n\nBut it must feel awful targeting something nearly 25% away this late in the cycle...\n\nThe only way to validate this fractal/pattern is for BTC to retrace back into the range and show clear exhaustion on the 4H/1D. If there's no exhaustion and BTC fails to accept back into the range, then the pattern is invalidated."
+      },
+      "children": []
+    },
+    "link-view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2090127188464894018"
+      },
+      "children": []
+    }
+  }
+}
