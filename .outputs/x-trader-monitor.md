@@ -15,3 +15,10 @@ good day
 [View tweet](https://x.com/bull_genius/status/2090102592227438848)
 
 _Active: 10x BTC long (entry 65.6, currently +34.97% unrealized). Technical framework targets 71K (2026 AVWAP) + 74K (2026 VAH). Consolidation phase with planned rebuy on dips. Aligns with group bullish thesis + documented 160K conviction target._
+🔍 *Calibration — @swarmister*
+
+Event: Reply to @bull_genius
+
+swarmister: "@bull_genius Illegally btw"
+
+Unable to classify — what's the context here? Is this financial commentary or personal banter?

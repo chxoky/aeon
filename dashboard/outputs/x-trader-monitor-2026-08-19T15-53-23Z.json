@@ -1,0 +1,55 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading",
+        "event_label",
+        "tweet_card",
+        "separator",
+        "classification_issue"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @swarmister",
+        "level": "h2"
+      }
+    },
+    "event_label": {
+      "type": "Badge",
+      "props": {
+        "text": "Reply to @bull_genius",
+        "variant": "outline"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "@bull_genius Illegally btw"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification_issue": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's the context here? Is this financial commentary or personal banter?",
+        "type": "warning"
+      }
+    }
+  }
+}
