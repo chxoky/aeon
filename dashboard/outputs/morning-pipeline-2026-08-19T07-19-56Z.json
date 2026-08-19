@@ -1,0 +1,355 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-08-19"
+      },
+      "children": [
+        "focus-section",
+        "sep1",
+        "since-section",
+        "sep2",
+        "watch-section",
+        "sep3",
+        "running-section"
+      ]
+    },
+    "focus-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus-heading",
+        "focus-item-1",
+        "focus-item-2",
+        "focus-item-3"
+      ]
+    },
+    "focus-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "focus-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-1-title",
+        "focus-1-text"
+      ]
+    },
+    "focus-1-title": {
+      "type": "Text",
+      "props": {
+        "text": "1. Fed July minutes live now",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "focus-1-text": {
+      "type": "Text",
+      "props": {
+        "text": "Why now: dovish→$65K+ breakout, hawkish→$62K cascade; positioning window is this morning.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "focus-item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-2-title",
+        "focus-2-text"
+      ]
+    },
+    "focus-2-title": {
+      "type": "Text",
+      "props": {
+        "text": "2. HYPE approval pending",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "focus-2-text": {
+      "type": "Text",
+      "props": {
+        "text": "Why now: ryzzqq scaled long active in entry zone; −2.4% today improving price; 3-trader bullish convergence live.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "focus-item-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-3-title",
+        "focus-3-text"
+      ]
+    },
+    "focus-3-title": {
+      "type": "Text",
+      "props": {
+        "text": "3. traders.md oversize (299K)",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "focus-3-text": {
+      "type": "Text",
+      "props": {
+        "text": "Why now: TRIPWIRE fired; trader-memory-compact last failed Aug 16; re-dispatch before monitor log corruption.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "since-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "since-heading",
+        "since-item-1",
+        "since-item-2",
+        "since-item-3",
+        "since-item-4"
+      ]
+    },
+    "since-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "since-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since-1-badge",
+        "since-1-text"
+      ]
+    },
+    "since-1-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "escalated",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "since-1-text": {
+      "type": "Text",
+      "props": {
+        "text": "HCH 65% net short, 1.8x leverage; CL add; \"only oil left standing — likely next domino\"",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "since-item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since-2-badge",
+        "since-2-text"
+      ]
+    },
+    "since-2-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "active",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "since-2-text": {
+      "type": "Text",
+      "props": {
+        "text": "ryzzqq back after 19-day gap — HYPE scaled longs, DCA thesis, \"awful august\" read",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "since-item-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since-3-badge",
+        "since-3-text"
+      ]
+    },
+    "since-3-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "breakout",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "since-3-text": {
+      "type": "Text",
+      "props": {
+        "text": "BTW +70.8% day 2 (was +16.5%); GALA −3.6%, no GameFi sector breadth",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "since-item-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since-4-badge",
+        "since-4-text"
+      ]
+    },
+    "since-4-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "faded",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "since-4-text": {
+      "type": "Text",
+      "props": {
+        "text": "VVV and LINK both dropped from trending; AI narrative stalled after day-2",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "watch-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "watch-heading",
+        "watch-item-1",
+        "watch-item-2"
+      ]
+    },
+    "watch-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "watch-item-1": {
+      "type": "Text",
+      "props": {
+        "text": "White House: Trump + Coinbase/Ripple/Kraken today — regulatory clarity; could offset hawkish Fed risk",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "watch-item-2": {
+      "type": "Text",
+      "props": {
+        "text": "SPCX Aug 20 unlock tomorrow — ryzzqq dump warning; HCH short; 24h catalyst live",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "running-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "running-heading",
+        "running-item-1",
+        "running-item-2",
+        "running-item-3"
+      ]
+    },
+    "running-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "running-item-1": {
+      "type": "Text",
+      "props": {
+        "text": "morning-pipeline @ 07:00 UTC (this run)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "running-item-2": {
+      "type": "Text",
+      "props": {
+        "text": "market-context-refresh @ 10:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "running-item-3": {
+      "type": "Text",
+      "props": {
+        "text": "x-trader-monitor / discord-trader-monitor continuous",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
