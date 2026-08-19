@@ -1,0 +1,78 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_calibration",
+        "text_event",
+        "sep_1",
+        "tweet_quote",
+        "sep_2",
+        "alert_classification"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @trading_axe",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Earlier today (Aug 19 15:22Z) trading_axe posted '70K seems nice today for Bitcoin.' Current time: 19:13Z. BTC price context needed.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "tweet_quote": {
+      "type": "TweetCard",
+      "props": {
+        "author": "trading_axe",
+        "handle": "trading_axe",
+        "text": "I told you. ~ Dr. Axius."
+      },
+      "children": []
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert_classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Is this validating the BTC at 70K prediction, or referencing something else?",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}
