@@ -1,0 +1,73 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "@Wild_Randomness"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_eth",
+        "text_date",
+        "text_watch_intro",
+        "storylink_tweet",
+        "separator1",
+        "text_observation"
+      ]
+    },
+    "badge_eth": {
+      "type": "Badge",
+      "props": {
+        "text": "$ETH",
+        "variant": "default"
+      }
+    },
+    "text_date": {
+      "type": "Text",
+      "props": {
+        "text": "Aug 20 is the date of this randomly placed arrow btw",
+        "variant": "caption"
+      }
+    },
+    "text_watch_intro": {
+      "type": "Text",
+      "props": {
+        "text": "Let's watch",
+        "variant": "body"
+      }
+    },
+    "storylink_tweet": {
+      "type": "StoryLink",
+      "props": {
+        "title": "@Wild_Randomness Tweet",
+        "href": "https://x.com/Wild_Randomness/status/2089933863074382141",
+        "source": "X"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_observation": {
+      "type": "Text",
+      "props": {
+        "text": "Informational technical observation: Daily consolidation structure with RSI oversold; Aug 20 marked as potential inflection point. Chart shows support/resistance levels across 2026 timeframe. No personal trade action.",
+        "variant": "body"
+      }
+    }
+  }
+}
