@@ -1,0 +1,96 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "heading_calibration",
+        "sep1",
+        "section_message",
+        "sep2",
+        "section_analysis"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: HCH — Chat]",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_message": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "label_member",
+        "message_text"
+      ]
+    },
+    "label_member": {
+      "type": "Text",
+      "props": {
+        "text": "Member message:",
+        "variant": "muted"
+      }
+    },
+    "message_text": {
+      "type": "Text",
+      "props": {
+        "text": "Crcl, coin doing relative well",
+        "variant": "lead"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_analysis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "analysis_line1",
+        "analysis_line2",
+        "analysis_line3"
+      ]
+    },
+    "analysis_line1": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what does 'Crcl' refer to?",
+        "variant": "body"
+      }
+    },
+    "analysis_line2": {
+      "type": "Text",
+      "props": {
+        "text": "First-mention ticker across all traders.",
+        "variant": "muted"
+      }
+    },
+    "analysis_line3": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "body"
+      }
+    }
+  }
+}

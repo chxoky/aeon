@@ -1,9 +1,5 @@
-🔍 *Calibration — [DC: Chase — Chase]*
+🔍 *Calibration — [DC: HCH — Chat]*
 
-Event: Crypto_Chase posted link to X in Discord
+Member message: "Crcl, coin doing relative well"
 
-Crypto_Chase: https://x.com/Crypto_Chase/status/2090089308711444706
-
-Unable to fetch external X content in sandbox — requires your review for full classification. Link may contain trade signals or informational content.
-
-Message ID: 1539648078498369608 | Timestamp: 2026-08-19T14:51:47Z
+Unable to classify — what does 'Crcl' refer to? First-mention ticker across all traders. What's your read?
