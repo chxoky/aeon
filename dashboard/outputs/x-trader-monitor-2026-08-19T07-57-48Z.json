@@ -1,0 +1,46 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet-1",
+        "link-1",
+        "separator-1",
+        "analysis-1"
+      ]
+    },
+    "tweet-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "@HeartCanHodl",
+        "text": "Usually i prefer silver shorts over gold's"
+      }
+    },
+    "link-1": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/HeartCanHodl/status/2089982870245069000"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis-1": {
+      "type": "Text",
+      "props": {
+        "text": "Aligns with HCH's Aug 13 documented short positions (1% XAU, 1% XAG) — reinforces conviction weight on metals shorts vs longs.",
+        "variant": "body"
+      }
+    }
+  }
+}
