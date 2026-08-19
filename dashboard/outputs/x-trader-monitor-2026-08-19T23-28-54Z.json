@@ -1,0 +1,92 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @Bitcoin_Astro"
+      },
+      "children": [
+        "event-section",
+        "tweet-section",
+        "alert-section"
+      ]
+    },
+    "event-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event-heading",
+        "event-text"
+      ]
+    },
+    "event-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "event-text": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to @VicTaurus97 about recent price action/dates",
+        "variant": "body"
+      }
+    },
+    "tweet-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "separator-1",
+        "tweet-card"
+      ]
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Bitcoin_Astro",
+        "handle": "@Bitcoin_Astro",
+        "text": "You remember those dates. Probably next low target"
+      }
+    },
+    "alert-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "separator-2",
+        "alert-missing-context"
+      ]
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert-missing-context": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Context from @VicTaurus97 message missing.\n\nWhat asset/timeframe/dates are they referencing? Is this BTC structural prediction?",
+        "type": "warning"
+      }
+    }
+  }
+}
