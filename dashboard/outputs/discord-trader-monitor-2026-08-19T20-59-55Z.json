@@ -1,0 +1,57 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor",
+        "description": "Crypto_Chase — Informational"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_type",
+        "text_message",
+        "separator_1",
+        "alert_chart"
+      ]
+    },
+    "badge_type": {
+      "type": "Badge",
+      "props": {
+        "text": "Informational",
+        "variant": "secondary"
+      }
+    },
+    "text_message": {
+      "type": "Text",
+      "props": {
+        "text": "Educational message on gold watching discipline and price-action importance.",
+        "variant": "body"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_chart": {
+      "type": "Alert",
+      "props": {
+        "title": "Chart Attached",
+        "message": "Visual analysis chart included with this message",
+        "type": "info"
+      }
+    }
+  }
+}
