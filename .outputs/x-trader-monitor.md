@@ -1,9 +1,8 @@
-🔍 *Calibration — @Wild_Randomness*
+🐦 *[X] @ryzzqq*
 
-Event: Reply to @LunaticxOsmo discussing position at breakeven
-@Wild_Randomness: "Oh no, they are sitting around breakeven
+"covering it here at 2083 b/e, think my idea is right for the final leg down but i am expressing it wrong with this hasty execution will let the price chop here a bit for a couple of days and then will look to short the first sign of weakness"
 
-Added another tranche this morning"
+[View tweet](https://x.com/ryzzqq/status/2090123548660515179)
 
 Execution action detected (conviction add), but asset/ticker not mentioned. Which position was added to?
 
@@ -24,3 +23,4 @@ The tweet "Lol alright which one of you has an alt dedicated to roasting me\n\nI
 - ✅ Appended event log to `memory/logs/2026-08-19.md`
 - ❌ No alert sent (HR-1 non-financial skip protocol)
 - ❌ No traders.md event line (skip rule: non-financial events = log only, no storage)
+↳ _Covered ETH short at breakeven; maintains bearish thesis but acknowledges hasty timing. Prior ETH entry (16:11Z, 2095 limit orders) still pending approval. Planning to let ETH consolidate 2-3 days, re-enter on weakness._

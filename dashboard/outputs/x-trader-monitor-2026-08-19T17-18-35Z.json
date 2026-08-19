@@ -1,0 +1,42 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet_ryzzqq",
+        "view_link",
+        "context_text"
+      ]
+    },
+    "tweet_ryzzqq": {
+      "type": "TweetCard",
+      "props": {
+        "author": "ryzzqq",
+        "handle": "ryzzqq",
+        "text": "covering it here at 2083 b/e, think my idea is right for the final leg down but i am expressing it wrong with this hasty execution will let the price chop here a bit for a couple of days and then will look to short the first sign of weakness"
+      },
+      "children": []
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/ryzzqq/status/2090123548660515179"
+      },
+      "children": []
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "Covered ETH short at breakeven; maintains bearish thesis but acknowledges hasty timing. Prior ETH entry (16:11Z, 2095 limit orders) still pending approval. Planning to let ETH consolidate 2-3 days, re-enter on weakness.",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
