@@ -1,0 +1,53 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "header",
+        "separator",
+        "message"
+      ]
+    },
+    "header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "emoji",
+        "metadata"
+      ]
+    },
+    "emoji": {
+      "type": "Text",
+      "props": {
+        "text": "💬"
+      }
+    },
+    "metadata": {
+      "type": "Badge",
+      "props": {
+        "text": "DC: HCH — Comments"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message": {
+      "type": "Text",
+      "props": {
+        "text": "Our leverage controlled and sizing is disciplined. Don't let the timeline get into your head. Trust the process and play the shorts",
+        "variant": "body"
+      }
+    }
+  }
+}
