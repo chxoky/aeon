@@ -1,0 +1,94 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "heading",
+        "separator1",
+        "member-context",
+        "separator2",
+        "message-section",
+        "separator3",
+        "classification-alert"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: HCH — Chat]",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "member-context": {
+      "type": "Text",
+      "props": {
+        "text": "Member context: (none — standalone message)",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "message-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "user-badge",
+        "message-text"
+      ]
+    },
+    "user-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "HeartCanHodl",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "message-text": {
+      "type": "Text",
+      "props": {
+        "text": "Fc dell 5m",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "classification-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Message is cryptic. Does 'Fc' mean chart-check, flux candle, or something else? Is this a personal trade signal on DELL or just a technical observation in supporting chat?",
+        "type": "warning"
+      },
+      "children": []
+    }
+  }
+}

@@ -16,3 +16,10 @@ Skill execution complete. **Event processed and logged.**
 - **Step 10:** Full event entry appended to memory/logs/2026-08-19.md
 
 **Action:** Silent skip. No Telegram alert sent. No Kyle action needed.
+🔍 *Calibration — [DC: HCH — Chat]*
+
+_Member context: (none — standalone message)_
+
+HeartCanHodl: "Fc dell 5m"
+
+Unable to classify — message is cryptic. Does 'Fc' mean chart-check, flux candle, or something else? Is this a personal trade signal on DELL or just a technical observation in supporting chat?
