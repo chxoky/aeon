@@ -1,0 +1,139 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @swarmister"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_event",
+        "text_event",
+        "sep1",
+        "heading_reaction",
+        "tweet_card",
+        "sep2",
+        "heading_analysis",
+        "stack_analysis",
+        "sep3",
+        "alert_question"
+      ]
+    },
+    "heading_event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "@FalconyFalcon post (swarmister reacting)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_reaction": {
+      "type": "Heading",
+      "props": {
+        "text": "Reaction",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "text": "@FalconyFalcon 👀👀"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_analysis": {
+      "type": "Heading",
+      "props": {
+        "text": "Analysis",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "stack_analysis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_status",
+        "text_reason",
+        "text_context"
+      ]
+    },
+    "badge_status": {
+      "type": "Badge",
+      "props": {
+        "text": "Unable to classify",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "text_reason": {
+      "type": "Text",
+      "props": {
+        "text": "Reason: just @ mention + eyes emoji, no financial content visible",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "Context: Responding to external trader not in tracked pool",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert_question": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "What's your read?"
+      },
+      "children": []
+    }
+  }
+}
