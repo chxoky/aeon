@@ -1,0 +1,221 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Market Context — 2026-08-19"
+      },
+      "children": [
+        "thesis_section",
+        "prices_section",
+        "metrics_section",
+        "fed_section",
+        "flows_section",
+        "narratives_section"
+      ]
+    },
+    "thesis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "thesis_heading",
+        "thesis_content"
+      ]
+    },
+    "thesis_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Thesis",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "thesis_content": {
+      "type": "Text",
+      "props": {
+        "text": "chop (resilient) · conviction medium",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "prices_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "sep1",
+        "btc_stat",
+        "eth_stat"
+      ]
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "btc_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$64,811",
+        "delta": "+1.1%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "eth_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$1,934",
+        "delta": "+2.0%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "metrics_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "sep2",
+        "fear_greed_stat",
+        "breadth_stat",
+        "dex_vol_stat"
+      ]
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "fear_greed_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Fear & Greed",
+        "value": "46",
+        "delta": "Fear"
+      },
+      "children": []
+    },
+    "breadth_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Breadth",
+        "value": "13/20",
+        "delta": "71/100 intraday"
+      },
+      "children": []
+    },
+    "dex_vol_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "DEX Volume",
+        "value": "$5.81B"
+      },
+      "children": []
+    },
+    "fed_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "sep3",
+        "fed_alert"
+      ]
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "fed_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Fed Minutes",
+        "message": "HAWKISH — 3 dissents (first 3-member bloc since Sep 2016); BTC absorbed",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "flows_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "sep4",
+        "etf_inflow_stat"
+      ]
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "etf_inflow_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "ETF Inflow (Aug 18)",
+        "value": "+$189M",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "narratives_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "sep5",
+        "narrative_text",
+        "hormuz_text"
+      ]
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "narrative_text": {
+      "type": "Text",
+      "props": {
+        "text": "Top narrative: BTW day 3+ (+66%)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "hormuz_text": {
+      "type": "Text",
+      "props": {
+        "text": "Hot market: Hormuz Sep 30 normal? YES 7.5%",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
