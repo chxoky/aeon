@@ -1,0 +1,204 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔁 Trade Closed — @swarmister"
+      },
+      "children": [
+        "badge_stack",
+        "separator1",
+        "stat_profit",
+        "separator2",
+        "info_grid",
+        "separator3",
+        "link_post",
+        "separator4",
+        "cta_text"
+      ]
+    },
+    "badge_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_btc",
+        "badge_closed"
+      ]
+    },
+    "badge_btc": {
+      "type": "Badge",
+      "props": {
+        "text": "BTC LONG",
+        "variant": "default"
+      }
+    },
+    "badge_closed": {
+      "type": "Badge",
+      "props": {
+        "text": "Fully closed ✅",
+        "variant": "default"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stat_profit": {
+      "type": "Stat",
+      "props": {
+        "label": "Profit",
+        "value": "203.18%",
+        "trend": "up"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "info_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "info_entry",
+        "info_closed",
+        "info_leverage",
+        "info_setup"
+      ]
+    },
+    "info_entry": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "label_entry",
+        "value_entry"
+      ]
+    },
+    "label_entry": {
+      "type": "Text",
+      "props": {
+        "text": "Entry",
+        "variant": "caption"
+      }
+    },
+    "value_entry": {
+      "type": "Text",
+      "props": {
+        "text": "61,500.0"
+      }
+    },
+    "info_closed": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "label_closed",
+        "value_closed"
+      ]
+    },
+    "label_closed": {
+      "type": "Text",
+      "props": {
+        "text": "Closed",
+        "variant": "caption"
+      }
+    },
+    "value_closed": {
+      "type": "Text",
+      "props": {
+        "text": "68,410.8"
+      }
+    },
+    "info_leverage": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "label_leverage",
+        "value_leverage"
+      ]
+    },
+    "label_leverage": {
+      "type": "Text",
+      "props": {
+        "text": "Leverage",
+        "variant": "caption"
+      }
+    },
+    "value_leverage": {
+      "type": "Badge",
+      "props": {
+        "text": "20x perpetual",
+        "variant": "secondary"
+      }
+    },
+    "info_setup": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "label_setup",
+        "value_setup"
+      ]
+    },
+    "label_setup": {
+      "type": "Text",
+      "props": {
+        "text": "Technical Setup",
+        "variant": "caption"
+      }
+    },
+    "value_setup": {
+      "type": "Text",
+      "props": {
+        "text": "big D1 FVG (daily fair-value gap)"
+      }
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/swarmister/status/2090106227648848201"
+      }
+    },
+    "separator4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "cta_text": {
+      "type": "Text",
+      "props": {
+        "text": "Did you mirror this BTC long? Reply if you need to close your position to match.",
+        "variant": "body"
+      }
+    }
+  }
+}
