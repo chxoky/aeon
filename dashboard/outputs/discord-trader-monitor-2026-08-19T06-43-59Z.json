@@ -1,0 +1,64 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "heading_main",
+        "stack_messages"
+      ]
+    },
+    "heading_main": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: HCH — Chat]",
+        "level": "h2"
+      }
+    },
+    "stack_messages": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tree_capital_message",
+        "heartcanhodl_message",
+        "separator1",
+        "alert_classification"
+      ]
+    },
+    "tree_capital_message": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Tree Capital",
+        "text": "Referenced message empty — no context"
+      }
+    },
+    "heartcanhodl_message": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "text": "sol as well"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read? Is this a trade signal, sentiment, or market chatter?",
+        "type": "info"
+      }
+    }
+  }
+}
