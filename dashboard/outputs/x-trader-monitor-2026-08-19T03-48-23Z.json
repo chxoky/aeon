@@ -1,0 +1,94 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration analysis"
+      },
+      "children": [
+        "heading_calibration",
+        "badge_user",
+        "sep1",
+        "heading_event",
+        "text_event",
+        "sep2",
+        "text_reply",
+        "text_analysis",
+        "link_post"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "badge_user": {
+      "type": "Badge",
+      "props": {
+        "text": "@swarmister",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to @ElChapoSK22, @xbt2027, @0xMerp",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text_reply": {
+      "type": "Text",
+      "props": {
+        "text": "swarmister: \"Yep\"",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text_analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Reply-dependent, no context visible in X payload. No asset/execution/ticker language. Single-word affirmation. Aligns with swarmister's established cryptic-reply pattern (20+ HR-2 alerts Aug 07-18). Unable to classify — what's swarmister affirming?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/swarmister/status/2089921684878860402"
+      },
+      "children": []
+    }
+  }
+}
