@@ -1,0 +1,41 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "link"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "$IWM — Poor reaction to pseudo YCC\n\nSmall-cap index testing 300-303 support after breakdown below 305 resistance (confirmed Aug 18). Moving averages bearishly positioned, volume declining, RSI oversold.\n\nAwaiting week close structure."
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/Wild_Randomness/status/2090151473451856144"
+      }
+    }
+  }
+}
