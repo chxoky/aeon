@@ -1,0 +1,31 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet",
+        "link"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "BTC Coinglass Heatmap — 2-week volume profile analysis showing key liquidity reference levels across the 60K–68K consolidation range. High-volume confluences at 60,093–61,187 / 62,336–63,430 / 64,579–65,673 / 66,821–67,970 USDT."
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2090118237107491025"
+      }
+    }
+  }
+}
