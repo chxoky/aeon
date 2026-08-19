@@ -1,0 +1,87 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "BTC Bullish Signal",
+        "description": "Trading analysis from @trading_axe"
+      },
+      "children": [
+        "badge-bullish",
+        "separator-1",
+        "tweet-card",
+        "separator-2",
+        "price-stat",
+        "validation-text",
+        "convergence-text",
+        "separator-3",
+        "tweet-link"
+      ]
+    },
+    "badge-bullish": {
+      "type": "Badge",
+      "props": {
+        "text": "BTC Bullish",
+        "variant": "default"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "trading_axe",
+        "handle": "@trading_axe",
+        "text": "Think BTC goes for it here even though August is historically one of, if not THE worst month for BTC."
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "price-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC Price Movement",
+        "value": "66.4K",
+        "delta": "+0.02%",
+        "trend": "up"
+      }
+    },
+    "validation-text": {
+      "type": "Text",
+      "props": {
+        "text": "Chart shows BTC rallied 64.3K → 66.4K, validating their prior \"We will PUMP off the bottom VERY QUICKLY\" prediction.",
+        "variant": "body"
+      }
+    },
+    "convergence-text": {
+      "type": "Text",
+      "props": {
+        "text": "Converges with HCH/KillaXBT/bull_genius emerging bullish bottom thesis.",
+        "variant": "body"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/trading_axe/status/2090093941353844994"
+      }
+    }
+  }
+}
