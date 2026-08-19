@@ -1,0 +1,121 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Market commentary resolution"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge-status",
+        "text-attribution",
+        "sep-1",
+        "heading-earlier",
+        "text-earlier",
+        "sep-2",
+        "heading-resolution",
+        "text-resolution",
+        "sep-3",
+        "heading-classification",
+        "text-classification"
+      ]
+    },
+    "badge-status": {
+      "type": "Badge",
+      "props": {
+        "text": "✅ Self-resolved",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "text-attribution": {
+      "type": "Text",
+      "props": {
+        "text": "DC: HCH — Chat",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading-earlier": {
+      "type": "Heading",
+      "props": {
+        "text": "Earlier Statement",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text-earlier": {
+      "type": "Text",
+      "props": {
+        "text": "Crcl, coin doing relative well",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading-resolution": {
+      "type": "Heading",
+      "props": {
+        "text": "Resolution",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text-resolution": {
+      "type": "Text",
+      "props": {
+        "text": "So this was effectively early positioning by insiders",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading-classification": {
+      "type": "Heading",
+      "props": {
+        "text": "Classification",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text-classification": {
+      "type": "Text",
+      "props": {
+        "text": "Informational market commentary — HCH identifying the pattern as insider early positioning on an unidentified token (Crcl still ambiguous on identity, but pattern is now clarified)",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
