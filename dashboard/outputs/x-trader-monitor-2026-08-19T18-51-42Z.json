@@ -1,0 +1,41 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "link"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Focused on HYPE and ZEC right now.\n\nBTC stuck in no mans land below 65K (where buyers camp), but very difficult to establish fresh positions. Short fuel exhausted on the next move—wouldnt be surprised by follow-through but lack conviction on the rally."
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2090148325886689774"
+      }
+    }
+  }
+}

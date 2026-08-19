@@ -1,8 +1,8 @@
-🐦 *[QQQ] @Wild_Randomness*
+🐦 *[X] @Wild_Randomness*
 
-Looking at gap-fill setup before options expiration. Current price consolidating at POC level with OPEX flows offsetting positive YCC pseudo-announcement news. Expecting close above daily trend + POC as ideal target.
+Focused on HYPE and ZEC right now.
 
-https://x.com/Wild_Randomness/status/2090145532723577001
+BTC stuck in no mans land below 65K (where buyers camp), but very difficult to establish fresh positions. Short fuel exhausted on the next move—wouldnt be surprised by follow-through but lack conviction on the rally.
 
 Chart: 1H QQQ showing support/resistance with volume profile. Gap target ~722.75, POC ~723-724 zone, daily trend line visible. Current near resistance around 723.64.
 ## Summary
@@ -39,3 +39,4 @@ I've executed the x-trader-monitor skill with the provided event data. Here's wh
 
 **Next Steps:**
 Kyle should receive notification of this trade signal and can respond with `approve SOXL` to mirror the position on Kraken spot (size to be specified), or ignore to skip this opportunity.
+[View post](https://x.com/Wild_Randomness/status/2090148325886689774)
