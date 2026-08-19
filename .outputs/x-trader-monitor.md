@@ -1,7 +1,7 @@
 🐦 *[X] @ryzzqq*
 
-well we had a good week and who cares what the rest of the july did, alts pulled 30-40% move
+This is why i like sharing timestamp, coz unlike others, i time my posts well, at least so far. Yes, the next 10 days or so for awful august, worst case extends till the 1st week of sep. i didn't post awful august on the 1st of this month like i did with joyful july for a reason
 
-Chart: BTC recovery from 58.1k low → 62.6k support (prev high 65.6k)
+[View tweet](https://x.com/ryzzqq/status/2089943516923482141)
 
-https://x.com/ryzzqq/status/2089941639410360510
+↳ _Sentiment read on August market difficulty; ryzzqq's low-posting cadence suggests high confidence when speaking up._

@@ -1,0 +1,42 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet-1",
+        "link-tweet",
+        "sentiment-text"
+      ]
+    },
+    "tweet-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "ryzzqq",
+        "handle": "ryzzqq",
+        "text": "This is why i like sharing timestamp, coz unlike others, i time my posts well, at least so far. Yes, the next 10 days or so for awful august, worst case extends till the 1st week of sep. i didn't post awful august on the 1st of this month like i did with joyful july for a reason"
+      },
+      "children": []
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/ryzzqq/status/2089943516923482141"
+      },
+      "children": []
+    },
+    "sentiment-text": {
+      "type": "Text",
+      "props": {
+        "text": "Sentiment read on August market difficulty; ryzzqq's low-posting cadence suggests high confidence when speaking up.",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
