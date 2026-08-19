@@ -1,0 +1,33 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-card",
+        "link-view"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Crypto_Chase",
+        "handle": "@Crypto_Chase",
+        "text": "You waited 80 days of consolidation for a 1 minute move. You missed it.. you're sick to your stomach.\n\nOver the next few days you'll open then panic close multiple continuation longs as price chops. Eventually you'll open a massive long with SL below 65K.\n\nFull retrace."
+      },
+      "children": []
+    },
+    "link-view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Crypto_Chase/status/2090108392991855039"
+      },
+      "children": []
+    }
+  }
+}
