@@ -1,0 +1,117 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading",
+        "event",
+        "sep1",
+        "hch_section",
+        "sep2",
+        "classification"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: HCH — Chat]",
+        "level": "h2"
+      }
+    },
+    "event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to member emoji (custom Discord emoji_51:1413059672935501846) — exact question context unknown",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "hch_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "hch_label",
+        "stats_grid"
+      ]
+    },
+    "hch_label": {
+      "type": "Text",
+      "props": {
+        "text": "HCH:",
+        "variant": "lead"
+      }
+    },
+    "stats_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "stat_unnamed",
+        "stat_gold",
+        "stat_btc"
+      ]
+    },
+    "stat_unnamed": {
+      "type": "Stat",
+      "props": {
+        "value": "+9-10%",
+        "trend": "up"
+      }
+    },
+    "stat_gold": {
+      "type": "Stat",
+      "props": {
+        "label": "Gold",
+        "value": "+2.5%",
+        "trend": "up"
+      }
+    },
+    "stat_btc": {
+      "type": "Stat",
+      "props": {
+        "label": "Bitcoin",
+        "value": "+1.5%",
+        "trend": "up"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read? Market moves today? Position sizing? P&L on holdings?",
+        "type": "warning"
+      }
+    }
+  }
+}
