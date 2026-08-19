@@ -1,9 +1,13 @@
-🐦 *[X] @KillaXBT*
+🐦 *[X] @Stoiiic*
 
-Quality over quantity. Patience over forced trades.
+short and sweet, keeping it simple from here on out.
 
-"I'm a HTF trader. I execute when I see significant shifts in structure and trend. I prioritise consistency and quality over quantity."
+line in the sand for BTC is consolidation value.
 
-Current holdings: 2X BTC swing long (since Jun 13) + spot positions. Only posts trend-continuation trades when genuinely presented.
+currently trading into weekly trend but if there is some wind in the sails, 
 
-[View post](https://x.com/KillaXBT/status/2090177428350218262)
+BTC stays above ~66 with constructive buying otherwise we're in for the typical chop for longer.
+
+_Chart confirms $65K consolidation zone (VWAP/volume profile convergence), recent rally to $71K._
+
+[View tweet](https://x.com/Stoiiic/status/2090179399874158994)
