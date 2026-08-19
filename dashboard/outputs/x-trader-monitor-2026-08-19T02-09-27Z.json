@@ -1,0 +1,60 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-1",
+        "link-1",
+        "separator-1",
+        "analysis-1"
+      ]
+    },
+    "tweet-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "basically run stops up to 72k ish is easily possible. then smack down to 50s, sit there for a few weeks, bottom. like one of the cases. 70s is really where i would even start think about shorting we are way too close to base to be shorting the market and have it be a high ev play imo"
+      },
+      "children": []
+    },
+    "link-1": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/bull_genius/status/2089896263734985177"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis-1": {
+      "type": "Text",
+      "props": {
+        "text": "Reinforces BTC structural thesis (70-72K upside, 50s washout likely); contrasts with HCH's net-short regime (already positioned for 50s target).",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
