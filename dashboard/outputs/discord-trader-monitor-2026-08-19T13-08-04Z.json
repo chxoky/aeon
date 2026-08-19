@@ -1,0 +1,30 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "header",
+        "quote"
+      ]
+    },
+    "header": {
+      "type": "Text",
+      "props": {
+        "text": "💬 [DC: HCH — Chat]",
+        "variant": "muted"
+      }
+    },
+    "quote": {
+      "type": "Text",
+      "props": {
+        "text": "But I will be looking for more clues than just initial impulse",
+        "variant": "lead"
+      }
+    }
+  }
+}
