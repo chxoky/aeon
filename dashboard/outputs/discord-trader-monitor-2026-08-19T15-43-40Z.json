@@ -1,0 +1,107 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "🔍 Calibration — Real-time momentum observation"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "header_text",
+        "sep1",
+        "event_stack",
+        "sep2",
+        "user_stack",
+        "sep3",
+        "classification_alert"
+      ]
+    },
+    "header_text": {
+      "type": "Text",
+      "props": {
+        "text": "[DC: HCH — Chat]",
+        "variant": "caption"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "event_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event_label",
+        "event_text"
+      ]
+    },
+    "event_label": {
+      "type": "Text",
+      "props": {
+        "text": "Event",
+        "variant": "muted"
+      }
+    },
+    "event_text": {
+      "type": "Text",
+      "props": {
+        "text": "Real-time momentum observation in supporting member-chat channel"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "user_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "user_handle",
+        "user_observation"
+      ]
+    },
+    "user_handle": {
+      "type": "Text",
+      "props": {
+        "text": "HeartCanHodl",
+        "variant": "muted"
+      }
+    },
+    "user_observation": {
+      "type": "Text",
+      "props": {
+        "text": "Momentum exceeding in one direction"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "classification_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification Needed",
+        "message": "Unable to classify — which asset/timeframe? Is this bearish warning (momentum overbought) or confirmation signal? What's your read?",
+        "type": "warning"
+      }
+    }
+  }
+}
