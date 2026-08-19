@@ -1,6 +1,7 @@
 Perfect! I've completed the discord-trader-monitor skill execution for the Aug 19 15:30:28 UTC ETH short conviction add. Here's the summary:
+🔍 *Calibration — [DC: HCH — Chat]*
 
-## Summary
+Context: Aug 19 15:12Z major conviction add (BTC/ETH/SOL +5% each shorts)
 
 **Discord Message Processed:**
 - **Trader**: HeartCanHodl
@@ -20,3 +21,6 @@ Perfect! I've completed the discord-trader-monitor skill execution for the Aug 1
   - `memory/logs/2026-08-19.md`: Daily event log appended with full event details
 
 **Position Context**: ETH short escalated within 18-minute window (15:12Z +5%, 15:30Z +2.5%) representing extreme intraday conviction escalation on structure bearishness, concurrent with major-pair short constellation expansion (BTC +5%, SOL +5% at 15:12Z).
+HCH: "5m candle"
+
+Unable to classify — what's your read? (Which ticker? Technical check? Timing confirmation?)

@@ -1,0 +1,105 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "heading-main",
+        "sep1",
+        "context-section",
+        "sep2",
+        "quote-section",
+        "sep3",
+        "question-section"
+      ]
+    },
+    "heading-main": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: HCH — Chat]",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "context-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context-label",
+        "context-content"
+      ]
+    },
+    "context-label": {
+      "type": "Text",
+      "props": {
+        "text": "Context:",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "context-content": {
+      "type": "Text",
+      "props": {
+        "text": "Aug 19 15:12Z major conviction add (BTC/ETH/SOL +5% each shorts)"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "quote-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "hch-label",
+        "quote-text"
+      ]
+    },
+    "hch-label": {
+      "type": "Text",
+      "props": {
+        "text": "HCH:",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "quote-text": {
+      "type": "Text",
+      "props": {
+        "text": "\"5m candle\"",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "question-section": {
+      "type": "Alert",
+      "props": {
+        "message": "Unable to classify — what's your read? (Which ticker? Technical check? Timing confirmation?)",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}
