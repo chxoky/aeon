@@ -1,0 +1,64 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_handle",
+        "text_quote1",
+        "text_quote2",
+        "text_holdings",
+        "link_post"
+      ]
+    },
+    "text_handle": {
+      "type": "Text",
+      "props": {
+        "text": "🐦 [X] @KillaXBT",
+        "variant": "lead"
+      }
+    },
+    "text_quote1": {
+      "type": "Text",
+      "props": {
+        "text": "Quality over quantity. Patience over forced trades.",
+        "variant": "body"
+      }
+    },
+    "text_quote2": {
+      "type": "Text",
+      "props": {
+        "text": "I'm a HTF trader. I execute when I see significant shifts in structure and trend. I prioritise consistency and quality over quantity.",
+        "variant": "body"
+      }
+    },
+    "text_holdings": {
+      "type": "Text",
+      "props": {
+        "text": "Current holdings: 2X BTC swing long (since Jun 13) + spot positions. Only posts trend-continuation trades when genuinely presented.",
+        "variant": "body"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/KillaXBT/status/2090177428350218262"
+      }
+    }
+  }
+}
