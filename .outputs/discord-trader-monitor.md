@@ -1,19 +1,39 @@
 🔍 *Calibration — [DC: HCH — Chat]*
+Perfect! I've successfully executed the **Discord Trader Monitor** skill for the HeartCanHodl MSTR short entry event. Here's the summary:
 
-Context: Aug 19 15:12Z major conviction add (BTC/ETH/SOL +5% each shorts)
-Perfect! I've successfully executed the Discord Trader Monitor skill for this real-time message event. Here's the summary:
+## Execution Summary
 
-## Processing Summary
+**Event Details:**
+- **Trader:** HeartCanHodl
+- **Channel:** 1279738718680256553 (HCH — Trades ★most important)
+- **Message:** "2.5% mstr short" (verbatim)
+- **Time:** 2026-08-19T15:40:52Z
+- **Message ID:** 1539660433387159734
 
-**Event:** Discord message from Crypto_Chase in the Crypto supporting channel (Chase — Crypto)
+**Classification:** `trade-new-entry`
+- New short position on MSTR (MicroStrategy — bitcoin-proxy equity)
+- Direct execution language ("short")
+- Position size: 2.5% allocation
+- Primary channel (highest conviction)
 
-**Content:** "well, there's the move, 3 months of consolidation for a 5 min candle"
+**Fast-Path Status:** ✅ SKIPPED TELEGRAM
+- Fast-path alert was already sent by Cloudflare Worker (~2-5s latency)
+- Skill processed memory/logging only per protocol
+- No duplicate alert
 
-**Position Context**: ETH short escalated within 18-minute window (15:12Z +5%, 15:30Z +2.5%) representing extreme intraday conviction escalation on structure bearishness, concurrent with major-pair short constellation expansion (BTC +5%, SOL +5% at 15:12Z).
-HCH: "5m candle"
+**Memory Updates Completed:**
+1. ✅ **discord-trader-seen.txt** — Added message ID (207 lines, under 5000 trim threshold)
+2. ✅ **traders.md** — Updated:
+   - Current positions: Added "MSTR 2.5%" to short basket
+   - Net allocation: ~37.5% short overlay (up from ~32.5%)
+   - Last-seen: Updated to 15:40:52Z
+   - Events section: Added Aug 19 15:40Z trade-new-entry event with full context
+3. ✅ **memory/logs/2026-08-19.md** — Appended detailed log entry
 
-Unable to classify — what's your read? (Which ticker? Technical check? Timing confirmation?)
-**Classification:** `INFORMATIONAL-SENTIMENT`
+**Context & Thesis:**
+- Positioned within EXTREME INTRADAY CONVICTION ESCALATION (15:12Z +5% BTC/ETH/SOL, 15:30Z +2.5% ETH, 15:40Z +2.5% MSTR = 4 trades in 28 minutes)
+- MSTR expansion validates multi-asset-class bearish thesis (equities + tech-proxy + momentum-chasing risk management per Aug 12 13:15Z conviction)
+- Aligns with documented systematic short-basket constellation expanding beyond crypto into equity proxies
 
 ### Processing Steps Completed:
 
@@ -36,3 +56,4 @@ Event: Real-time momentum observation in supporting member-chat channel
 HeartCanHodl: "Momentum exceeding in one direction"
 
 Unable to classify — which asset/timeframe? Is this bearish warning (momentum overbought) or confirmation signal? What's your read?
+**Status:** ✅ **COMPLETE** — Event processed, classified, memory persisted, log recorded.
