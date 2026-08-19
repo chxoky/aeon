@@ -1,0 +1,71 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @Wild_Randomness"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "alert-classification",
+        "text-details",
+        "text-query",
+        "link-post"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "It's time to remember - https://t.co/mNAIfP3NvB"
+      },
+      "children": []
+    },
+    "alert-classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Post is cryptic with external link and media. No ticker or market signal detected.",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "text-details": {
+      "type": "Text",
+      "props": {
+        "text": "Retrieved image appears non-financial (people at event, video thumbnail).",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "text-query": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read on this?",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "link-post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2090072342466887860"
+      },
+      "children": []
+    }
+  }
+}
