@@ -1,0 +1,141 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — Unclassified Signal",
+        "description": "discord-trader-monitor"
+      },
+      "children": [
+        "source_text",
+        "separator_1",
+        "signal_section",
+        "alert_section",
+        "interpretations_section"
+      ]
+    },
+    "source_text": {
+      "type": "Text",
+      "props": {
+        "text": "Event: HeartCanHodl (supporting channel)",
+        "variant": "caption"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "signal_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "signal_label",
+        "signal_badge"
+      ]
+    },
+    "signal_label": {
+      "type": "Text",
+      "props": {
+        "text": "Signal",
+        "variant": "body"
+      }
+    },
+    "signal_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Fc btcdom 1d",
+        "variant": "outline"
+      }
+    },
+    "alert_section": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Signal meaning requires interpretation",
+        "type": "warning"
+      }
+    },
+    "interpretations_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "interpretations_label",
+        "possible_meanings",
+        "context_question",
+        "call_to_action"
+      ]
+    },
+    "interpretations_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Possible meanings",
+        "level": "h4"
+      }
+    },
+    "possible_meanings": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "meaning_1",
+        "meaning_2",
+        "meaning_3",
+        "meaning_4"
+      ]
+    },
+    "meaning_1": {
+      "type": "Text",
+      "props": {
+        "text": "• Filled",
+        "variant": "caption"
+      }
+    },
+    "meaning_2": {
+      "type": "Text",
+      "props": {
+        "text": "• First Close",
+        "variant": "caption"
+      }
+    },
+    "meaning_3": {
+      "type": "Text",
+      "props": {
+        "text": "• Fibonacci",
+        "variant": "caption"
+      }
+    },
+    "meaning_4": {
+      "type": "Text",
+      "props": {
+        "text": "• Bitcoin Dominance on 1D chart",
+        "variant": "caption"
+      }
+    },
+    "context_question": {
+      "type": "Text",
+      "props": {
+        "text": "Is this a trade order, chart level, or conviction shift?",
+        "variant": "lead"
+      }
+    },
+    "call_to_action": {
+      "type": "Text",
+      "props": {
+        "text": "Your read?",
+        "variant": "caption"
+      }
+    }
+  }
+}
