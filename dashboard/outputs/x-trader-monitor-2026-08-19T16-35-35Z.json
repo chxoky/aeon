@@ -1,0 +1,116 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_container",
+        "sep1",
+        "analysis_section"
+      ]
+    },
+    "tweet_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "tweet_link"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "@swarmister",
+        "text": "The market is taking everything the goyim have left, while the top altcoins aren't even worth 500 million, and we're seeing liquidations in the billions on futures\n\nThe bottom line here is that nobody gives a shit about the spot market"
+      },
+      "children": []
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/swarmister/status/2090112927936204869"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis_heading",
+        "liquidations_stats",
+        "analysis_comment"
+      ]
+    },
+    "analysis_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "24H Liquidations Analysis",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "liquidations_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_total",
+        "stat_shorts",
+        "stat_longs"
+      ]
+    },
+    "stat_total": {
+      "type": "Stat",
+      "props": {
+        "label": "Total liquidations",
+        "value": "$1.45B"
+      },
+      "children": []
+    },
+    "stat_shorts": {
+      "type": "Stat",
+      "props": {
+        "label": "Shorts liquidated",
+        "value": "$1.29B"
+      },
+      "children": []
+    },
+    "stat_longs": {
+      "type": "Stat",
+      "props": {
+        "label": "Longs liquidated",
+        "value": "$163.8M"
+      },
+      "children": []
+    },
+    "analysis_comment": {
+      "type": "Text",
+      "props": {
+        "text": "Validates massive futures market dominance + short-heavy liquidations. Aligns with group's net-short regime profitability.",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
