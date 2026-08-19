@@ -1,0 +1,38 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @Stoiiic"
+      },
+      "children": [
+        "tweet-card",
+        "prompt",
+        "link"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "Stoiiic",
+        "text": "alright calm down now"
+      }
+    },
+    "prompt": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?"
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Stoiiic/status/2090185707906076793"
+      }
+    }
+  }
+}
