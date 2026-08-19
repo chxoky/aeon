@@ -865,6 +865,7 @@
   - Aug 19 06:32:54Z — non-financial-skip: DC Free "fine wine week🍷" + link to X post; thematic banter reply to FixTweet bot message; no trade signal or financial content; silent skip per HR-1 protocol [1539522532468854816]
   - Aug 19 14:06Z — informational: DC Chase "recent winners sent out"; image-based announcement; primary-channel performance/results commentary; no personal trade execution language; alerted [$UNKNOWN] [1539636700312117320]
   - Aug 19 14:51Z — informational-link-forward: DC Chase X post link forward "https://x.com/Crypto_Chase/status/2090089308711444706"; Discord re-share of X content to primary channel; no trade execution language in Discord message (link-only with role mention); external X post content requires fetch for full classification; classified as informational-forward pending X post context; fast-path_alerted=false (full processing applied); alerted via calibration [$UNKNOWN] [1539648078498369608]
+  - Aug 19 14:51Z — informational: X $BTC technical consolidation analysis; 66K weekly close trigger, 67.5K sweep level caution, minimal retrace condition for bull confirmation; 2-chart technical setup post; no personal trade action language; alerted [$BTC] [2090089308711444706]
 
 ## Stoiiic
 - Platforms: X (primary)

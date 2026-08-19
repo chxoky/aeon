@@ -1,0 +1,178 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "BTC Trading Signal Analysis",
+        "description": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_container",
+        "separator_1",
+        "chart_section",
+        "separator_2",
+        "convergence_section"
+      ]
+    },
+    "tweet_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "tweet_link"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Crypto_Chase",
+        "handle": "@Crypto_Chase",
+        "text": "$BTC — Strong consolidation, looks like it wants to pop soon. Weekly close above 66K or two bullish Daily closes and I'd say a move up is likely.\n\nOnly thing to be cautious of is a potential sweep of 67.5k. Upon sweeping that level you want to see a minimal retrace if truly bull."
+      },
+      "children": []
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Crypto_Chase/status/2090089308711444706"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "chart_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "chart_title",
+        "chart_context_text",
+        "conditions_title",
+        "conditions_list",
+        "caution_alert"
+      ]
+    },
+    "chart_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart Context",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "chart_context_text": {
+      "type": "Text",
+      "props": {
+        "text": "BTC consolidating in 66-67.5K zone with recent daily closes marked.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "conditions_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Bull Confirmation Conditions",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "conditions_list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "condition_1",
+        "condition_2"
+      ]
+    },
+    "condition_1": {
+      "type": "Text",
+      "props": {
+        "text": "Weekly close above 66K",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "condition_2": {
+      "type": "Text",
+      "props": {
+        "text": "Two bullish daily closes",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "caution_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Caution",
+        "message": "Potential sweep of 67.5K. Upon sweeping that level you want to see a minimal retrace if truly bull.",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "convergence_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "convergence_title",
+        "convergence_list"
+      ]
+    },
+    "convergence_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Cross-Trader Convergence",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "convergence_list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "convergence_item_1",
+        "convergence_item_2"
+      ]
+    },
+    "convergence_item_1": {
+      "type": "Text",
+      "props": {
+        "text": "KillaXBT: 65.7K POI",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "convergence_item_2": {
+      "type": "Text",
+      "props": {
+        "text": "bull_genius: 65-65.3K quarterly VAH",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
