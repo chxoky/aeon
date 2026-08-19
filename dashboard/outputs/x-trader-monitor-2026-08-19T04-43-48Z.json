@@ -1,0 +1,76 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @Wild_Randomness"
+      },
+      "children": [
+        "text_event",
+        "sep1",
+        "tweetcard_wr",
+        "sep2",
+        "heading_reading",
+        "text_reading",
+        "sep3",
+        "text_question"
+      ]
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @ryzzqq on OI/equity perps market structure",
+        "variant": "caption"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweetcard_wr": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "I may have to rescind the first chart. I'm thinking the 'others' OI build is due to all these new equity perps. Would like someone to confirm as this would otherwise be high signal."
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_reading": {
+      "type": "Heading",
+      "props": {
+        "text": "Reading",
+        "level": "h4"
+      }
+    },
+    "text_reading": {
+      "type": "Text",
+      "props": {
+        "text": "Expresses low confidence on his OI interpretation; suggests the recent OI build in crypto (perhaps in spot/perp derivatives) may be driven by traditional equity traders moving into crypto perp products, not genuine market momentum. If true, could invalidate bullish OI read as artificial/structural. Asking for external confirmation.",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_question": {
+      "type": "Text",
+      "props": {
+        "text": "How do you read this thesis? Does equity-perps migration shifting OI tell make sense to you?",
+        "variant": "lead"
+      }
+    }
+  }
+}
