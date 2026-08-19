@@ -1,0 +1,89 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "WR Market Structure",
+        "description": "Market analysis from x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stack_observations",
+        "separator_1",
+        "link_post"
+      ]
+    },
+    "stack_observations": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_obs_1",
+        "text_obs_2",
+        "text_obs_3",
+        "text_obs_4"
+      ]
+    },
+    "text_obs_1": {
+      "type": "Text",
+      "props": {
+        "text": "SPX*DXY showing deviation above MAs",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_obs_2": {
+      "type": "Text",
+      "props": {
+        "text": "QQQ*DXY aligned bullish",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_obs_3": {
+      "type": "Text",
+      "props": {
+        "text": "Record foreign inflows into US equities masking (not causing) the rally—suggests real demand despite weak dollar",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_obs_4": {
+      "type": "Text",
+      "props": {
+        "text": "Gold/SPX ratio recovering from lows",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link_post": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Original Post",
+        "href": "https://x.com/Wild_Randomness/status/2090188540869234795",
+        "source": "X (Twitter)"
+      },
+      "children": []
+    }
+  }
+}
