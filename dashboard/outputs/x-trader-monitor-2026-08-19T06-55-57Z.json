@@ -1,0 +1,121 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading_calibration",
+        "event_stack",
+        "sep1",
+        "post_stack",
+        "sep2",
+        "classification_stack"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @HeartCanHodl",
+        "level": "h3"
+      }
+    },
+    "event_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event_label",
+        "event_text"
+      ]
+    },
+    "event_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h4"
+      }
+    },
+    "event_text": {
+      "type": "Text",
+      "props": {
+        "text": "Prior Discord message 06:41Z 'sol as well' + 2 chart images"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "post_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "author_badge",
+        "quote_text",
+        "post_link"
+      ]
+    },
+    "author_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "HeartCanHodl (06:47Z X)",
+        "variant": "secondary"
+      }
+    },
+    "quote_text": {
+      "type": "Text",
+      "props": {
+        "text": "'As mentioned above, I am short on both of them'"
+      }
+    },
+    "post_link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/HeartCanHodl/status/2089967358547042579"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "unable_alert",
+        "question_text"
+      ]
+    },
+    "unable_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Chart images unavailable, referenced Discord context incomplete.",
+        "type": "warning"
+      }
+    },
+    "question_text": {
+      "type": "Text",
+      "props": {
+        "text": "Which two tickers is HCH shorting?",
+        "variant": "lead"
+      }
+    }
+  }
+}
