@@ -734,6 +734,7 @@
   - Jul 31 02:19Z — informational-close: SOL closed 74.2 −1%; "weird flow on BTC"; no mirror (never approved) [$SOL]
   - Jul 31 02:23Z — calibration: "tight SLs when not convinced, boredom entry" — self-described trading psychology
   - Aug 19 04:56Z — informational-sentiment: X "ansem nailing the bottom is the least likely scenario"; skepticism on bottom-precision; reinforces DCA thesis [$BTC] [2089939532192026795]
+  - Aug 19 04:58Z — ambiguous-cryptic: "@Wild_Randomness looks cooked"; comment on another trader (market sentiment on WR's positions, or personal banter?); HR-2 calibration needed [2089939975957782939]
 
 ## abetrade
 - Platforms: X (primary; X-only)
