@@ -1,0 +1,81 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration — @Wild_Randomness"
+      },
+      "children": [
+        "heading-event",
+        "tweet-card",
+        "separator-1",
+        "stack-analysis"
+      ]
+    },
+    "heading-event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event: Reply to @LunaticxOsmo discussing position at breakeven",
+        "level": "h2"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Oh no, they are sitting around breakeven\n\nAdded another tranche this morning"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack-analysis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-analysis",
+        "text-action",
+        "badge-conviction",
+        "alert-missing"
+      ]
+    },
+    "heading-analysis": {
+      "type": "Heading",
+      "props": {
+        "text": "Analysis",
+        "level": "h3"
+      }
+    },
+    "text-action": {
+      "type": "Text",
+      "props": {
+        "text": "Execution action detected (conviction add), but asset/ticker not mentioned."
+      }
+    },
+    "badge-conviction": {
+      "type": "Badge",
+      "props": {
+        "text": "Conviction Add",
+        "variant": "secondary"
+      }
+    },
+    "alert-missing": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Missing Information",
+        "message": "Which position was added to? Reply to @LunaticxOsmo original message needed for context."
+      }
+    }
+  }
+}
