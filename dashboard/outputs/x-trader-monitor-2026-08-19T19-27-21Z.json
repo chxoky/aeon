@@ -1,0 +1,130 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_status",
+        "text_author",
+        "sep_1",
+        "heading_breakout",
+        "text_earlier",
+        "stack_metrics",
+        "text_structure_notes",
+        "sep_2",
+        "heading_analysis",
+        "text_group_lens",
+        "link_post"
+      ]
+    },
+    "badge_status": {
+      "type": "Badge",
+      "props": {
+        "text": "✅ Self-resolved",
+        "variant": "default"
+      }
+    },
+    "text_author": {
+      "type": "Text",
+      "props": {
+        "text": "@Wild_Randomness",
+        "variant": "caption"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_breakout": {
+      "type": "Heading",
+      "props": {
+        "text": "BULLISH HYPE breakout — multi-timeframe (1D/1W) resistance validation",
+        "level": "h2"
+      }
+    },
+    "text_earlier": {
+      "type": "Text",
+      "props": {
+        "text": "Earlier dismissive: \"Let's not waste our time here\" (Aug 17 on HYPE consolidation range)\nResolved by: 6-chart technical validation (Aug 19 19:20 UTC)"
+      }
+    },
+    "stack_metrics": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_ratio",
+        "stat_usdt"
+      ]
+    },
+    "stat_ratio": {
+      "type": "Stat",
+      "props": {
+        "label": "HYPE/TOTAL ratio",
+        "value": "0.75",
+        "delta": "+10.48%",
+        "trend": "up"
+      }
+    },
+    "stat_usdt": {
+      "type": "Stat",
+      "props": {
+        "label": "HYPE USDT spot",
+        "value": "$56.183",
+        "delta": "+2.03%",
+        "trend": "up"
+      }
+    },
+    "text_structure_notes": {
+      "type": "Text",
+      "props": {
+        "text": "Weekly structure: Range breakout with defined support/resistance (multi-level resistance structure)",
+        "variant": "caption"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_analysis": {
+      "type": "Heading",
+      "props": {
+        "text": "Group lens analysis",
+        "level": "h3"
+      }
+    },
+    "text_group_lens": {
+      "type": "Text",
+      "props": {
+        "text": "Aligns with HCH/bull_genius/KillaXBT 3-trader bullish convergence (Aug 01-02). WR shift from Aug 17 skepticism to Aug 19 technical validation = fourth-trader confirmation on HYPE bullish thesis."
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2090156867196784710"
+      }
+    }
+  }
+}
