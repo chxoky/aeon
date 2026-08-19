@@ -749,6 +749,32 @@
 - **Approval/Alert status**: FAST-PATH ALERTED (Cloudflare Worker sent Telegram for both Aug 13 entry and Aug 18 conviction add ~2-5s post-message). Skill processes for memory/logging only (no duplicate Telegram send). Await Kyle signal on whether to mirror XAG short on Kraken or monitor as memory-only entry.
 - **Last update**: 2026-08-18T06:53:55.347000Z (discord-trader-monitor real-time, fast-path-alerted, TRADE-CONVICTION-ADD; message_id=1539165432198729738, conviction add escalating to 2% total)
 
+### ETH (Ethereum) — SHORT (ACTIVE — CONVICTION ADDS 2026-08-12/Aug 19)
+- **Status**: ACTIVE — multiple conviction adds Aug 19 2026 (escalating allocation)
+- **Initial Entry**: 2026-08-12T11:04:51Z — Re-entry after prior full close on 2026-07-31 (ETH shorts fully closed 14:27Z Jul 31). New entry: "Add 2% eth short" (message_id=1537336919838732298, fast-path-alerted)
+- **Entry channel**: 1279738718680256553 (HCH — Trades, ★most important primary channel) — **VERBATIM RULE APPLIED**: Alert body must be exact message text "2.5% more to eth short"
+- **Conviction Adds**: 
+  - 2026-08-19T15:12:29Z — "Add 5% each btc,eth,sol short" (+5% ETH, message_id=1539653290076143778, fast-path-alerted)
+  - 2026-08-19T15:30:28Z — "2.5% more to eth short" (+2.5% ETH, message_id=1539657812710260836, fast-path-alerted)
+- **Entry type**: Market orders (all entries executed at current price per Discord message timing)
+- **Portfolio allocation**:
+  - Aug 12: 2% (initial re-entry)
+  - Aug 19 15:12Z: 7% (2% + 5% add)
+  - Aug 19 15:30Z: 9.5% (7% + 2.5% add)
+- **Entry levels**: Unknown (exact prices not specified in Discord messages; market order executions per timing)
+- **Ticker**: ETH (Ethereum major-pair cryptocurrency)
+- **Context**: ETH short re-entry on Aug 12 11:04Z marks resumption of bearish position after complete closure on Jul 31 14:27Z (HCH regime shift from net-short to net-long majors 07-31/08-01, then back to net-short Aug 07 00:28Z). Aug 12 entry (2% allocation) re-initiates ETH short conviction within renewed net-short regime. Aug 19 represents **MAJOR CONVICTION ESCALATION**: two sequential conviction adds within 18 minutes (15:12:29Z → 15:30:28Z), escalating total ETH short from 7% → 9.5% in single afternoon Asian session. Dual-add pattern (BTC+ETH+SOL +5% at 15:12Z, then ETH-specific +2.5% at 15:30Z) suggests: (1) intraday price-action validation on downside momentum, (2) systematic multi-tranche execution on confirmed structure, or (3) escalating conviction as market structure confirms bearish thesis in real time.
+- **Rationale**: ETH short positioned within HCH's structural bearish crypto thesis on major-pair technical exhaustion (prior Aug 12 13:15Z conviction note: "ETH short re-entered Aug 12 after full close Jul 31, suggesting renewed structure bearishness on ETH independent of net-long major-pair regime"). Aug 19 escalation suggests ETH price action validating downside setup. Related positions: BTC short ~17.5% (via Aug 19 15:12Z +5% add), SOL short ~11% (via Aug 19 15:12Z +5% add). ETH positioned as second-largest major-pair short after BTC within systematic short-basket constellation.
+- **Conviction**: EXTREME-HIGH (three sequential entries within 7-day window: Aug 12 2% re-entry, Aug 19 +5% conviction add, Aug 19 +2.5% intraday follow-up within 18 minutes. Dual-add within 18 min represents maximum intraday conviction escalation pattern in HCH's documented trading style. Primary channel placement on ★most-important Trades channel. Market-order execution language. Sustained across market regime shifts Jul 31→Aug 01→Aug 07→Aug 19. Terse format + rapid execution + incremental sizing demonstrates systematic short-accumulation thesis validation by real-time price action.)
+- **Approval/Alert status**: FAST-PATH ALERTED (Cloudflare Worker sent Telegram for Aug 12 entry, Aug 19 15:12Z conviction add, and Aug 19 15:30Z conviction add ~2-5s post-message each). Skill processes for memory/logging only per fast-path protocol (no duplicate Telegram sends). Await Kyle signal on mirror status: ETH short 9.5% allocation likely already mirrored from prior entries; latest +2.5% Aug 19 15:30Z add may require separate Kraken order depending on Kyle's prior mirror management decision. Updated position total: 9.5% ETH short portfolio allocation (major-pair tier).
+- **Cross-platform dedup**: Aug 12 entry Discord-first sighting (no concurrent X post found 11:04Z Aug 12). Aug 19 15:12Z & 15:30Z entries Discord-primary (no concurrent X posts identified within ±30m window). ETH short primary sourced from Discord Trades channel across all entries (X-side posts historical context only; Discord Trades channel = execution channel for real-time trade entries).
+- **Technical context** (from prior Aug 12 13:15Z conviction note): "ETH short re-entered Aug 12 after full close Jul 31, suggesting renewed structure bearishness on ETH independent of net-long major-pair regime." Indicates HCH identified structural ETH weakness independent of BTC major-pair regime. Aug 19 rapid escalation (15:12Z +5%, 15:30Z +2.5% within 18 min) validates intraday price-action confirmation on ETH downside as structure materializes.
+- **Position evolution**:
+  - 2026-08-12T11:04:51Z: Initial 2% re-entry on primary Trades channel (message_id=1537336919838732298, fast-path alerted)
+  - 2026-08-19T15:12:29Z: Conviction add 5% on primary Trades channel (message_id=1539653290076143778, fast-path alerted) — total now 7%
+  - 2026-08-19T15:30:28Z: Conviction add 2.5% on primary Trades channel (message_id=1539657812710260836, fast-path alerted) — total now 9.5%
+- **Last update**: 2026-08-19T15:30:28.009000Z (discord-trader-monitor real-time event, fast-path-alerted, TRADE-CONVICTION-ADD; message_id=1539657812710260836, incremental 2.5% add escalating to 9.5% total allocation)
+
 ## Wild_Randomness
 
 ### NVDA — SHORT (PUT) — ACTIVE (entry 2026-07-14)
