@@ -1,0 +1,70 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading-1",
+        "text-context",
+        "separator-1",
+        "tweet-1",
+        "separator-2",
+        "alert-1",
+        "link-1"
+      ]
+    },
+    "heading-1": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration — @Stoiiic",
+        "level": "h2"
+      }
+    },
+    "text-context": {
+      "type": "Text",
+      "props": {
+        "text": "Context: Cryptic reply to @TraderAmir_",
+        "variant": "lead"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "@Stoiiic",
+        "text": "@TraderAmir_ you already know"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert-1": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Is this financial (trade idea/setup reference) or just trader banter? What's your read?",
+        "type": "info"
+      }
+    },
+    "link-1": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Stoiiic/status/2090277681380151684"
+      }
+    }
+  }
+}
