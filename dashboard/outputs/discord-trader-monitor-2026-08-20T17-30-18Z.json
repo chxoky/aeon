@@ -1,0 +1,121 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "heading_calibration",
+        "badge_tag",
+        "sep1",
+        "text_event",
+        "sep2",
+        "stack_conversation",
+        "sep3",
+        "alert_classification"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "badge_tag": {
+      "type": "Badge",
+      "props": {
+        "text": "DC: Chase — Crypto",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Member asked @crypto_chase about shorting conviction",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack_conversation": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_member_speaker",
+        "text_member_quote",
+        "text_chase_speaker",
+        "text_chase_quote"
+      ]
+    },
+    "text_member_speaker": {
+      "type": "Text",
+      "props": {
+        "text": "↩️ Member (.ale81):",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_member_quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"I was mainly in shorts\"",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text_chase_speaker": {
+      "type": "Text",
+      "props": {
+        "text": "Crypto_Chase:",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_chase_quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"in shorts at a discount in a boring market, mistake\"",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert_classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Is this self-criticism on his shorts, or commentary on the broader shorting thesis? What's your read?",
+        "type": "warning"
+      },
+      "children": []
+    }
+  }
+}
