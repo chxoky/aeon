@@ -45,6 +45,16 @@
   - Aug 20 10:01Z — ambiguous-cryptic: X "Proof from my group 🎯📌 $btc #btc https://t.co/JnEI4LXvss" + media (chart image inaccessible); extremely cryptic context-dependent text with emoji-only visual cues; no personal execution language (not saying they bought/sold/added/closed); could reference trade confirmation, group signal, market validation, or other context; media fetch returned empty (URL auth-gated or stale); unable to decipher meaning without image; HR-2 calibration alert sent to Kyle requesting interpretation [$BTC] [2090378755529146394]
   - Aug 20 09:55Z — informational-position-thesis: X "I'm back to say we're close to the top of range / I bought 58.4 and will be closing my large long soon" — position documentation + market view on BTC near resistance; future intention to close ("will be closing soon") but NOT current action; contrarian sentiment amid +8.8% risk-on breakout, $19.5B short liquidation cascade, F&G 62 Greed; Step 6 informational alert (market commentary, not trade signal); alerted Kyle [$BTC] [2090377223546998992]
 
+## Crypto_Chase
+
+- Platforms: X (Twitter) + Discord
+- Current open positions: [TBD — tracking in progress]
+- Recent thesis: Timing-focused trader on crypto majors; bullish sentiment on BTC structure breakouts
+- Conviction notes: Technical sentiment trader; noted correct ~20-minute pre-breakout call on BTC Aug 20
+- Last seen: 2026-08-20T12:54:14Z (X — BTC breakout sentiment validation)
+- **Events (rolling):**
+  - Aug 20 12:54Z — informational-sentiment: X reply to @win_or_learning comparing BTC breakout charts; "would've said I'm long for the pop"; bullish validation call ~20min before breakout occurred; aligns with KillaXBT structural bull thesis [$BTC] [2090422155187991025]
+
 ## KillaXBT
 - Platforms: X (Twitter) + Discord (★Trades: 1411492188315193416)
 - Current open positions: BTC HTF 2x swing LONG (62.6K entry, SL at BE, targeting 66.3-67.6K; no active shorts). BTC spot DCA (~11 BTC avg 65.9K, targeting 20 BTC)

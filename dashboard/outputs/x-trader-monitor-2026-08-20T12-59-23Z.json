@@ -1,0 +1,60 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "link_view",
+        "sep1",
+        "analysis_text"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Crypto_Chase",
+        "handle": "@Crypto_Chase",
+        "text": "@win_or_learning it would've looked like this except I would've said I'm long for the pop. I had a feeling it was coming. This tweet was literally like 20 minutes before it broke out."
+      },
+      "children": []
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Crypto_Chase/status/2090422155187991025"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Bullish BTC breakout validation; aligns with KillaXBT structural bull thesis and current group sentiment (breaks above 72-73K resistance, targeting higher ranges).",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
