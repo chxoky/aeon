@@ -173,3 +173,14 @@
   - Aug 20 17:35Z — ambiguous-cryptic: X post "https://t.co/nC3ZROBjJ6" + image (media URL returned 404); text is cryptic shortened link with no caption; image unreadable; unable to classify financial vs personal intent; HR-2 calibration alert sent to Kyle [$UNKNOWN] [2090492946395103532]
   - Aug 20 17:34Z — non-financial: X post "beach ball under water type shit." — cryptic personal banter with no financial signal, ticker mention, or execution language; Step 4A classification (non-financial); silent skip, no alert [$NONE] [2090492696238408117]
 
+## Bitcoin_Astro
+
+- Platforms: X (Twitter)
+- Current open positions: [Unknown — no personal trades documented]
+- Recent thesis: Bullish BTC sentiment; $150k price target prediction
+- Conviction notes: New trader, first sighting Aug 20 21:29Z. Single post with bullish BTC prediction. No evidence of systematic trading activity; appears to be sentiment/commentary focused. Awaiting Kyle calibration on trader baseline read/intent.
+- Calibration: NEW TRADER — awaiting Kyle clarification on whether to track systematically or deprioritize as sentiment-only account
+- Last seen: 2026-08-20T21:29:40Z (X post — BTC $150k bullish price target)
+- **Events (rolling):**
+  - Aug 20 21:29Z — informational-sentiment: X post "I hear #Bitcoin is going to $150k now 🚀" — passive hearsay/bullish price prediction; no personal execution language; Step 6 informational alert (sentiment commentary). Aligns with emerging group bullish lean (KillaXBT/HeartCanHodl/t_in_crypto long conviction). Alerted Kyle [BTC] [2090551868455838195]
+
