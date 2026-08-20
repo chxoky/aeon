@@ -1,0 +1,91 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading-cal",
+        "sep-1",
+        "text-event",
+        "text-details",
+        "link-url",
+        "text-status",
+        "sep-2",
+        "alert-classify",
+        "sep-3",
+        "link-post"
+      ]
+    },
+    "heading-cal": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Stoiiic",
+        "level": "h2"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Image-only post with shortened URL (media unreachable)",
+        "variant": "lead"
+      }
+    },
+    "text-details": {
+      "type": "Text",
+      "props": {
+        "text": "@Stoiiic shared a post containing:"
+      }
+    },
+    "link-url": {
+      "type": "Link",
+      "props": {
+        "label": "https://t.co/nC3ZROBjJ6",
+        "href": "https://t.co/nC3ZROBjJ6"
+      }
+    },
+    "text-status": {
+      "type": "Text",
+      "props": {
+        "text": "+ image (404 — media unreachable)"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert-classify": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification Needed",
+        "message": "Unable to classify — new/undocumented trader. What's your read?",
+        "type": "warning"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link-post": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View Post",
+        "href": "https://x.com/Stoiiic/status/2090492946395103532",
+        "source": "@Stoiiic"
+      }
+    }
+  }
+}

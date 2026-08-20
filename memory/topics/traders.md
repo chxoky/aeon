@@ -116,3 +116,14 @@
 - **Events (rolling):**
   - Aug 20 17:19Z — informational-technical-structure: X post on BTC structure post-breakout; charts show long consolidation → breakout → AVWAP retest/confirmation; labels 74K VAH as next resistance zone; suggests shorts at 74-75K "probably good attempt"; describes zones of interest mapped on charts; no personal execution language ("we called it", "warned you", "i think...should be"); 3 chart attachments with labeled RVWAP/POC/VAH analysis; alerted Kyle with cross-trader context (KillaXBT hedge plan 73.6-74.9K, t_in_crypto long 58.4K) [$BTC] [2090488869510602954]
 
+## Stoiiic
+
+- Platforms: X (Twitter)
+- Current open positions: [Unknown — undocumented new trader]
+- Recent thesis: [Pending Kyle clarification]
+- Conviction notes: First sighting Aug 20 17:35:32Z. Image-only post with shortened link; unable to determine financial vs personal posting style. Awaiting Kyle calibration on read/intent.
+- Calibration: PENDING Aug 20 17:35Z (image-only tweet, media unreachable, ambiguous intent)
+- Last seen: 2026-08-20T17:35:32Z (X post — image + shortened URL)
+- **Events (rolling):**
+  - Aug 20 17:35Z — ambiguous-cryptic: X post "https://t.co/nC3ZROBjJ6" + image (media URL returned 404); text is cryptic shortened link with no caption; image unreadable; unable to classify financial vs personal intent; HR-2 calibration alert sent to Kyle [$UNKNOWN] [2090492946395103532]
+
