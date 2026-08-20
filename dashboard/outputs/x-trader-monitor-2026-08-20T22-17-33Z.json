@@ -1,0 +1,120 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Trading signal: North Star"
+      },
+      "children": [
+        "tweet_card",
+        "separator_1",
+        "analysis_section"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "$GOLD $SPAX — North Star\n\nMulti-timeframe technical consolidation on XAUUSD/SPX (Gold/S&P ratio). Charts show downtrend from 0.80 (July peak) to current 0.561, with support consolidation identified as confluence entry point. RSI deeply oversold on 4H/1D timeframes.\n\nhttps://x.com/Wild_Randomness/status/2090562248385437865"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading",
+        "tickers",
+        "pair_info",
+        "price_levels",
+        "rsi_alert"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Technical Breakdown",
+        "level": "h3"
+      }
+    },
+    "tickers": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_gold",
+        "badge_spax"
+      ]
+    },
+    "badge_gold": {
+      "type": "Badge",
+      "props": {
+        "text": "$GOLD",
+        "variant": "default"
+      }
+    },
+    "badge_spax": {
+      "type": "Badge",
+      "props": {
+        "text": "$SPAX",
+        "variant": "default"
+      }
+    },
+    "pair_info": {
+      "type": "Text",
+      "props": {
+        "text": "Pair: XAUUSD/SPX (Gold/S&P ratio)",
+        "variant": "body"
+      }
+    },
+    "price_levels": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_peak",
+        "stat_current"
+      ]
+    },
+    "stat_peak": {
+      "type": "Stat",
+      "props": {
+        "label": "July Peak",
+        "value": "0.80"
+      }
+    },
+    "stat_current": {
+      "type": "Stat",
+      "props": {
+        "label": "Current Level",
+        "value": "0.561",
+        "delta": "-29.9%",
+        "trend": "down"
+      }
+    },
+    "rsi_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "RSI Status",
+        "message": "Deeply oversold on 4H/1D timeframes. Support consolidation identified as confluence entry point.",
+        "type": "warning"
+      }
+    }
+  }
+}
