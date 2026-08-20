@@ -1,0 +1,42 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor",
+        "description": "ETH/BTC Technical Analysis from @swarmister"
+      },
+      "children": [
+        "tweet_card",
+        "separator",
+        "tweet_link"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "@swarmister",
+        "text": "$ETH looks even stronger than $BTC. It had been building up toward a breakout at 2k and accumulated enough momentum to surge all the way to the HVN around 2300. D1 TF\n\nAnd if we push a little harder, we're not far from a breakout on W1 TF\n\nOn a more local scale, Ether has reached resistance from above, and it would be desirable to see a pullback to the 2,100–2,150 zone now, to test the breakout volume. H4 TF\n\nTechnical Analysis: Multi-timeframe structure (D1/W1/H4) validates ETH strength vs BTC. Resistance at HVN levels (2550 W1, ~2400 D1). Consolidation pattern with pullback zone 2100-2150 marked."
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/swarmister/status/2090341057938526226"
+      },
+      "children": []
+    }
+  }
+}
