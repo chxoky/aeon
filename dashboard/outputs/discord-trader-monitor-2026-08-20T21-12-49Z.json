@@ -1,0 +1,88 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — DC: Chase"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event_header",
+        "separator_1",
+        "message_quote",
+        "attachments_line",
+        "separator_2",
+        "query_alert"
+      ]
+    },
+    "event_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_author",
+        "text_location"
+      ]
+    },
+    "badge_author": {
+      "type": "Badge",
+      "props": {
+        "text": "Crypto_Chase",
+        "variant": "secondary"
+      }
+    },
+    "text_location": {
+      "type": "Text",
+      "props": {
+        "text": "posted in primary channel",
+        "variant": "muted"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message_quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"<@&1247940234558177521> $50 each from today, dm me\"",
+        "variant": "lead"
+      }
+    },
+    "attachments_line": {
+      "type": "Text",
+      "props": {
+        "text": "2 chart attachments available",
+        "variant": "caption"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "query_alert": {
+      "type": "Alert",
+      "props": {
+        "message": "Unable to classify — what's your read?",
+        "type": "info"
+      }
+    }
+  }
+}
