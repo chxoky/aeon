@@ -1,0 +1,41 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "link-post"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "Just remember who was bullish when it mattered most.\n\nI was getting shit from a bunch of influencers for being early. They told me I'd regret it. They were targeting 40-50K, while I had already been accumulating for weeks.\n\nMy positioning was public the entire time. Nearly every day, I said I was long. Every day, I made it clear how heavily exposed I was.\n\nI called the top almost perfectly & I accumulated near the potential bottom almost perfectly.\n\nAnd yet, they doubted me again. They shit-talked again.\n\nThen, after watching me position for weeks, they decided to follow along.\n\nFunny how that works. So… who's laughing now... $BTC"
+      }
+    },
+    "link-post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/KillaXBT/status/2090484006563553620"
+      }
+    }
+  }
+}
