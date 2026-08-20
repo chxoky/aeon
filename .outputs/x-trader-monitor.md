@@ -1,5 +1,9 @@
-🐦 *[X] @Wild_Randomness*
+🔍 *Calibration — @Wild_Randomness*
 
-$GOLD $SPAX — North Star https://x.com/Wild_Randomness/status/2090562248385437865
+Event: Casual market sentiment post on open position
 
-Multi-timeframe technical consolidation on XAUUSD/SPX (Gold/S&P ratio). Charts show downtrend from 0.80 (July peak) to current 0.561, with support consolidation identified as confluence entry point. RSI deeply oversold on 4H/1D timeframes.
+Wild_Randomness: "No way I'm not jixxing this and we get some fugazzi green !"
+
+Unable to classify — no explicit ticker; cryptic slang ('fugazzi' = fake/suspicious). Per traders.md, current holdings: HYPE/LIT/PEPE/ENA. Context: ~2.5h after GOLD/SPAX ratio technical setup post (22:10Z same day).
+
+What's your read?

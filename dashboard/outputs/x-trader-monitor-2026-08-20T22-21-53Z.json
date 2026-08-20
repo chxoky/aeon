@@ -1,0 +1,173 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X-Trader Monitor",
+        "description": "Calibration — @Wild_Randomness"
+      },
+      "children": [
+        "section_event",
+        "separator1",
+        "section_analysis"
+      ]
+    },
+    "section_event": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_event",
+        "tweet_card"
+      ]
+    },
+    "heading_event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event: Casual market sentiment post on open position",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "No way I'm not jixxing this and we get some fugazzi green !"
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_analysis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_analysis",
+        "alert_classification",
+        "text_slang_explanation",
+        "text_holdings",
+        "text_context",
+        "text_question"
+      ]
+    },
+    "heading_analysis": {
+      "type": "Heading",
+      "props": {
+        "text": "Analysis",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "alert_classification": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Unable to classify",
+        "message": "No explicit ticker; cryptic slang"
+      },
+      "children": []
+    },
+    "text_slang_explanation": {
+      "type": "Text",
+      "props": {
+        "text": "Slang note: 'fugazzi' = fake/suspicious",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_holdings": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "label_holdings",
+        "badges_holdings"
+      ]
+    },
+    "label_holdings": {
+      "type": "Text",
+      "props": {
+        "text": "Per traders.md, current holdings:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "badges_holdings": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_hype",
+        "badge_lit",
+        "badge_pepe",
+        "badge_ena"
+      ]
+    },
+    "badge_hype": {
+      "type": "Badge",
+      "props": {
+        "text": "HYPE",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge_lit": {
+      "type": "Badge",
+      "props": {
+        "text": "LIT",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge_pepe": {
+      "type": "Badge",
+      "props": {
+        "text": "PEPE",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge_ena": {
+      "type": "Badge",
+      "props": {
+        "text": "ENA",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "Context: ~2.5h after GOLD/SPAX ratio technical setup post (22:10Z same day)",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "text_question": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "lead"
+      },
+      "children": []
+    }
+  }
+}
