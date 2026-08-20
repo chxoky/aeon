@@ -15,10 +15,11 @@
 - Current open positions: NET SHORT regime (shifted Aug 07 00:28Z). [See memory/topics/active-trades.md for detailed allocation...]
 - Recent thesis: Regime shifted to net-short Aug 07 on BTC structure rejection at 64K. Systematic short basket + major-pair longs maintained.
 - Conviction notes: Disciplined portfolio architect. Primary Trades channel = highest conviction.
-- Last seen: 2026-08-20T12:45:30Z (Discord Chat — cryptic one-word confirmation)
+- Last seen: 2026-08-20T12:57:05Z (Discord Chat — macro sentiment on insider profit-taking)
 - **Events (rolling):**
+  - Aug 20 12:57Z — informational-sentiment-macro: Discord Chat (supporting) "Considering the insiders will take profits off" — macro observation on insider behavior/market dynamics; bearish implication on potential pullback after rally; no trade signal, no personal execution; alerted Kyle [MACRO SENTIMENT] [1539981603957121104]
+  - Aug 20 12:52Z — informational-sentiment-macro: Discord Chat (supporting) "Pushing clarity, Hyperliquid's regularity risk, X using crypto payments, US government adding bitcoin \n\nAll in 24 hours is just not a confidence" — macro observation on regulatory (Hyperliquid), adoption (X crypto), and policy (US BTC) catalysts; bearish sentiment on market confidence compressed into 24h; no trade signal, no personal execution; alerted Kyle [MACRO SENTIMENT] [1539980355971457134]
   - Aug 20 12:45Z — ambiguous-cryptic: Discord Chat "Ideally, yes" — one-word cryptic reply with no referenced message context; unable to determine what is being affirmed; supporting channel noise or tactical affirmation unclear; HR-2 calibration alert sent to Kyle [$UNKNOWN] [1539978688592879636]
-- Last seen: 2026-08-20T12:52:08Z (Discord Chat — macro sentiment on regulatory/adoption risks)
 - **Events (rolling):**
   - Aug 20 12:52Z — informational-sentiment-macro: Discord Chat (supporting) "Pushing clarity, Hyperliquid's regularity risk, X using crypto payments, US government adding bitcoin \n\nAll in 24 hours is just not a confidence" — macro observation on regulatory (Hyperliquid), adoption (X crypto), and policy (US BTC) catalysts; bearish sentiment on market confidence compressed into 24h; no trade signal, no personal execution; alerted Kyle [MACRO SENTIMENT] [1539980355971457134]
 - Last seen: 2026-08-20T12:53:04Z (Discord Chat — philosophical observation on subjectivity)

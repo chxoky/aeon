@@ -1,0 +1,39 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "header",
+        "message"
+      ]
+    },
+    "header": {
+      "type": "Text",
+      "props": {
+        "text": "💬 [DC: HCH — Chat]",
+        "variant": "caption"
+      }
+    },
+    "message": {
+      "type": "Text",
+      "props": {
+        "text": "Considering the insiders will take profits off"
+      }
+    }
+  }
+}
