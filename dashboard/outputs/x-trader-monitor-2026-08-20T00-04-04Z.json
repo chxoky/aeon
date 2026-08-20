@@ -1,0 +1,64 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "sep_1",
+        "text_sentiment",
+        "text_chart",
+        "link_tweet"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "$19.5B Bitcoin Short-Liquidation Event — Biggest in History\n\nKillaXBT noting the record $19.5B short liquidation cascade as a potential market inflection point, comparing it to past long liquidations that marked cycle tops. \"Wouldn't it be ironic if it marked the bottom just like the 10/10 long liquidations marked the top?\""
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_sentiment": {
+      "type": "Text",
+      "props": {
+        "text": "Sentiment: Comfortable in existing long & spot positions (entries shared public).",
+        "variant": "body"
+      }
+    },
+    "text_chart": {
+      "type": "Text",
+      "props": {
+        "text": "Chart: Shows Bitcoin price action during rampage liquidation event with insane volume/cascade structure.",
+        "variant": "caption"
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2090227316597141672"
+      }
+    }
+  }
+}
