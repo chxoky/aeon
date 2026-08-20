@@ -1,0 +1,235 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "Token Alert",
+        "description": "2026-08-20"
+      },
+      "children": [
+        "price-volume-section",
+        "separator1",
+        "trigger-section"
+      ]
+    },
+    "price-volume-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "price-heading",
+        "tokens-grid"
+      ]
+    },
+    "price-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Price & Volume",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "tokens-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "btc-stack",
+        "eth-stack",
+        "sol-stack"
+      ]
+    },
+    "btc-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "btc-stat",
+        "btc-vol"
+      ]
+    },
+    "btc-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$71,650",
+        "delta": "+10.4%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "btc-vol": {
+      "type": "Text",
+      "props": {
+        "text": "Vol: $66.5B",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "eth-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "eth-stat",
+        "eth-vol"
+      ]
+    },
+    "eth-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$2,280",
+        "delta": "+18.0%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "eth-vol": {
+      "type": "Text",
+      "props": {
+        "text": "Vol: $37.9B",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sol-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sol-stat",
+        "sol-vol"
+      ]
+    },
+    "sol-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "SOL",
+        "value": "$86.70",
+        "delta": "+11.1%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "sol-vol": {
+      "type": "Text",
+      "props": {
+        "text": "Vol: $5.8B",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "trigger-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "trigger-heading",
+        "thresholds",
+        "breakout-stack",
+        "liquidation-stack",
+        "jackson-hole"
+      ]
+    },
+    "trigger-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Alert Trigger",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "thresholds": {
+      "type": "Text",
+      "props": {
+        "text": "All 3 tracked tokens exceed alert thresholds (BTC >5%, ETH >8%, SOL >10%)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "breakout-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "breakout-text",
+        "breakout-detail"
+      ]
+    },
+    "breakout-text": {
+      "type": "Text",
+      "props": {
+        "text": "Risk-on breakout day continues",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "breakout-detail": {
+      "type": "Text",
+      "props": {
+        "text": "BTC +$1,780 since 07:00 UTC morning brief",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "liquidation-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "liquidation-text",
+        "record-badge"
+      ]
+    },
+    "liquidation-text": {
+      "type": "Text",
+      "props": {
+        "text": "$19.5B short liquidation cascade",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "record-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Record",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "jackson-hole": {
+      "type": "Alert",
+      "props": {
+        "message": "Jackson Hole 7 days out",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}
