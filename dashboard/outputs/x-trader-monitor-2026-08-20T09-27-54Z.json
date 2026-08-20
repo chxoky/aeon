@@ -1,0 +1,56 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "link_view",
+        "separator",
+        "context_text"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "you know what would hit like crack? btc casually teleporting back to $65K"
+      }
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/HeartCanHodl/status/2090369289186648185"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "Context: Posted 9min after adding 5% BTC short on Discord (09:15Z). Sentiment amplifies net-short conviction.",
+        "variant": "caption"
+      }
+    }
+  }
+}
