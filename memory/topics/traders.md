@@ -5,9 +5,10 @@
 - Recent thesis: Equities/vol specialist; dispersion-trade framework; bearish macro bias ("Jump the Shark" thesis); technical mean-reversion opportunism; OPEX/vixpiry dynamics
 - Conviction notes: High-conviction technical analyst on equities; active options/vixpiry structure commentary; macro dispersion positioning (weakness in low-quality indices while mega-caps range). First tracker: early Aug 2026.
 - Calibration: [None pending]
-- Last seen: 2026-08-20T20:49:01Z (X post — IWM breakdown confirmation at 300 support)
+- Last seen: 2026-08-20T20:59:24Z (X post — SPX technical structure + macro deviation patterns)
 - **Events (rolling):**
   - Aug 20 20:54Z — informational-technical-sentiment: $QQQ short stopped out on loss of daily trend + POC; technical setup + negative sentiment + Bessent market-jam + opex context; conditional future entry ("probably retry if reclaim levels"); commentary confirms HTF worries; chart shows POC consolidation 710-720 zone; no personal action now; alerted Kyle [$QQQ OPEX SENTIMENT] [2090543121742574038]
+  - Aug 20 20:59Z — informational-technical: $SPX structure commentary; if repeat of today's action tomorrow = chart "cooked beyond words"; macro deviation locking in on currency-adjusted basis; 3 technical charts; references Anthropic IPO sentiment as potential volume constraint; conditional price-action thesis; no personal execution language; alerted Kyle [$SPX] [2090544252640235882]
   - Aug 20 20:49Z — informational-technical: IWM breakdown confirmation at 300.00 key support; 2 daily charts (close 297.67 -1.34%, bounce to 301.30 +0.36%); validates Aug 18 bearish call; small-cap barometer risk-off; no personal execution [$IWM] [2090541636053025175]
   - Aug 20 20:43Z — informational-market-structure: X post on SPX*DXY (inverse dollar) breakdown structure; 4 weekly/daily timeframe charts showing recent weakness, OPEX Friday mentioned as critical reversal point; "Sketchy" sentiment = skeptical on reversal holding; technical analysis on macro index structure; no personal execution language; alerted Kyle [$SPX/$DXY OPEX] [2090540177081127351]
 

@@ -1,0 +1,88 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "stack_tweet",
+        "sep1",
+        "stack_analysis"
+      ]
+    },
+    "stack_tweet": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "link_tweet"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "$SPX\n\nIF we get a repeat of today's action tomorrow, this chart is so cooked beyond words\n\nNobody is going to hand around for muh Anthropic IPO if this deviation locks in…\n\n(I've already highlighted that this deviation is likely to lock in on a currency-adjusted basis)"
+      },
+      "children": []
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2090544252640235882"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack_analysis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_cross_ref",
+        "text_cross_ref_intro",
+        "text_cross_ref_detail"
+      ]
+    },
+    "heading_cross_ref": {
+      "type": "Heading",
+      "props": {
+        "text": "Cross-reference Analysis",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text_cross_ref_intro": {
+      "type": "Text",
+      "props": {
+        "text": "Wild_Randomness has been tracking SPX technical structure and macro equity dispersion.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_cross_ref_detail": {
+      "type": "Text",
+      "props": {
+        "text": "This is the 3rd equity post in 16 minutes (IWM breakdown 20:49Z, SPX*DXY macro 20:43Z) — converging bearish technical thesis on broad equities.",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
