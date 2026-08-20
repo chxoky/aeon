@@ -7,3 +7,9 @@ SPX*DXY (inverse dollar/equities) breakdown structure analysis — 4-chart techn
 Sentiment: Skeptical on reversal holding. Market-structure commentary on macro dollar weakness into equity-bias consolidation.
 
 [View tweet](https://x.com/Wild_Randomness/status/2090540177081127351)
+🔍 *Calibration — @swarmister*
+
+Event: Single-word cryptic post 6+ hours after prior banter; ambiguous trigger
+swarmister: "Top"
+
+Unable to classify — is this market timing signal (bullish/bearish peak call) or generic banter?
