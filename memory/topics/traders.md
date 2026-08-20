@@ -86,3 +86,13 @@
   - Aug 20 14:35Z — informational-educational-market-mechanics: X reply to @gaspard515644 "Study PUMP unlocks and the price action after. Unlocks are priced in largely months before the event. ~ Dr. Axius." Educational commentary on token-unlock pricing dynamics (not personal execution). Quiet ticker PUMP single-mention. Silent log (informational only, no Kyle alert). [$PUMP] [2090447646137725360]
   - Aug 20 14:16Z — informational-sentiment-market-view: X post on $LIT macroeconomic catalyst: "Some of you should look at the mcap of LIT and understand that the US gov/Trump admin mentioning a crypto coin for US perps approval [at such a low val] will cause a pump that we haven't seen since probably 2021. The rest is up to you guys to decide on how you want to position, but get exposure. ~ Dr. Axius." Narrative analysis + market suggestion (not personal execution). Cross-trader context: HCH short conviction (Jul 27 "2nd best trade"), WR bullish (weekend momentum long), ryzzqq bearish (Jul 25 "beta for a reason"). CONTESTED ticker, informational alert + cross-trader divergence noted for Kyle [$LIT] [2090442963767738609]
 
+## swarmister
+
+- Platforms: X (Twitter)
+- Current open positions: [Unknown — banter-heavy, no confirmed positions]
+- Recent thesis: Commentary/banter trader (personal insults, platform antagonism)
+- Conviction notes: High banter/noise ratio. First monitored Aug 20 14:36Z. Does not appear to be a systematic trader.
+- Last seen: 2026-08-20T14:36:58Z (X — personal banter)
+- **Events (rolling):**
+  _(non-financial events not tracked per skill rule 4A; see daily log for details)_
+
