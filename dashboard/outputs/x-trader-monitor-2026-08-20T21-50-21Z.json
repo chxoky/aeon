@@ -1,0 +1,91 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet",
+        "sep1",
+        "tech_heading",
+        "tech_text",
+        "sep2",
+        "cross_heading",
+        "cross_text",
+        "sep3",
+        "link"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "🐦 HYPE/LIT position thesis — gold/silver parallel\n\nPersonally I own around 3x more HYPE than I do LIT here\n\nFeel like this could end up paralleling gold (HYPE) and silver (LIT)\n\nMaybe a brutal analog, but these will continue taking turns leading (i.e. if/when these assets break their respective ATHs)"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "tech_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Technical Context",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "tech_text": {
+      "type": "Text",
+      "props": {
+        "text": "1D + 1W charts show HYPE/LIT ratio consolidated at ~27-28 (from ~55 peak in Jun-Aug). Volume profile & RSI indicators suggest potential mean-reversion into breakout."
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "cross_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Cross-Trader Status",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "cross_text": {
+      "type": "Text",
+      "props": {
+        "text": "CONTESTED HYPE/LIT thesis — HCH/bull_genius bullish vs WR Aug 17 dismissive sentiment vs ryzzqq bearish. This reassertion of WR's bullish conviction (3x HYPE weighting) adds to polarized group view."
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2090555504338907645"
+      },
+      "children": []
+    }
+  }
+}
