@@ -1,0 +1,125 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "content"
+      ]
+    },
+    "content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "header",
+        "separator",
+        "messages"
+      ]
+    },
+    "header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "emoji",
+        "metadata"
+      ]
+    },
+    "emoji": {
+      "type": "Text",
+      "props": {
+        "text": "💬"
+      }
+    },
+    "metadata": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "dc_label",
+        "channel_badge",
+        "chat_label"
+      ]
+    },
+    "dc_label": {
+      "type": "Text",
+      "props": {
+        "text": "DC:",
+        "variant": "muted"
+      }
+    },
+    "channel_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "HCH"
+      }
+    },
+    "chat_label": {
+      "type": "Text",
+      "props": {
+        "text": "Chat",
+        "variant": "muted"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "messages": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "member_reply",
+        "followup"
+      ]
+    },
+    "member_reply": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "reply_label",
+        "reply_text"
+      ]
+    },
+    "reply_label": {
+      "type": "Text",
+      "props": {
+        "text": "↩️ Member:",
+        "variant": "lead"
+      }
+    },
+    "reply_text": {
+      "type": "Text",
+      "props": {
+        "text": "\"maybe just major hunt for players and propping up clarity act bill\"",
+        "variant": "body"
+      }
+    },
+    "followup": {
+      "type": "Text",
+      "props": {
+        "text": "Always high-leverage & all-in folks get hurt",
+        "variant": "body"
+      }
+    }
+  }
+}
