@@ -1,0 +1,56 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "mirror_header",
+        "action_text",
+        "confirmation_text",
+        "view_link"
+      ]
+    },
+    "mirror_header": {
+      "type": "Heading",
+      "props": {
+        "text": "🔁 Mirrored — @HeartCanHodl",
+        "level": "h3"
+      }
+    },
+    "action_text": {
+      "type": "Text",
+      "props": {
+        "text": "HeartCanHodl just closed their stock short positions.",
+        "variant": "body"
+      }
+    },
+    "confirmation_text": {
+      "type": "Text",
+      "props": {
+        "text": "I closed your position to match.",
+        "variant": "lead"
+      }
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/HeartCanHodl/status/2090464481763856751"
+      }
+    }
+  }
+}

@@ -12,11 +12,12 @@
 
 ## HeartCanHodl
 - Platforms: Discord (★Trades: 1279738718680256553, Comments: 1393137051108507728, Chat: 1023638573313966212, Free: 1472153627324842057) + X
-- Current open positions: NET SHORT regime (shifted Aug 07 00:28Z). [See memory/topics/active-trades.md for detailed allocation...]
-- Recent thesis: Regime shifted to net-short Aug 07 on BTC structure rejection at 64K. Systematic short basket + major-pair longs maintained. STOCKS: partial short reduction Aug 20 14:05Z.
+- Current open positions: NET SHORT regime (shifted Aug 07 00:28Z). [See memory/topics/active-trades.md for detailed allocation...] STOCKS: fully closed Aug 20 15:42Z.
+- Recent thesis: Regime shifted to net-short Aug 07 on BTC structure rejection at 64K. Systematic short basket + major-pair longs maintained. STOCKS: closed full position Aug 20 after partial reduction at 14:05Z.
 - Conviction notes: Disciplined portfolio architect. Primary Trades channel = highest conviction.
-- Last seen: 2026-08-20T14:05:22Z (Discord Trades — covering half of stock shorts)
+- Last seen: 2026-08-20T15:42:26Z (X post — closing remaining stock short positions)
 - **Events (rolling):**
+  - Aug 20 15:42Z — trade-full-tp: X "Okay, sir. Closing the stock short positions.." — closing remaining stock short position after 14:05Z partial close; full position exit; personal execution language; fast-path alerted [$STOCKS SHORTS FULL TP] [2090464481763856751]
   - Aug 20 14:05Z — trade-partial-tp: Discord Trades (primary) "Cover half more stock shorts" — covering half of existing stock short position; personal execution language; partial position reduction; fast-path alerted [$STOCKS SHORTS PARTIAL TP] [1539998785885835355]
   - Aug 20 13:01Z — informational-market-structure: Discord Chat (supporting) "Like everything happening just to make delusional pleb who believe bottom on october, start positioning like now... and then they target the other side, and hit the real bottom on october, just like the first plan" — philosophical commentary on market manipulation tactics and how "they" trap retail positioning through false/early bottom signals; structural market observation on player incentives, not personal execution; alerted Kyle [MARKET MANIPULATION THESIS] [1539982591665512550]
   - Aug 20 12:57Z — informational-sentiment-macro: Discord Chat (supporting) "Considering the insiders will take profits off" — macro observation on insider behavior/market dynamics; bearish implication on potential pullback after rally; no trade signal, no personal execution; alerted Kyle [MACRO SENTIMENT] [1539981603957121104]
