@@ -1,0 +1,98 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "separator_1",
+        "analysis_section"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "@bull_genius",
+        "text": "So, what do we got? As we said, a FAT move was brewing after the long consolidation and yet again, you can see that it took for the 90d rvwap to catch up with the 2026 poc + 30d/7d rvwap clustering.\n\nWarned you not to even think about shorting below 70s. This was an excellent move.\n\nI think the 2026 vah at 74k should be next and that one should be a battle - shorts at 74-75 probably a good attempt."
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis_heading",
+        "analysis_text",
+        "levels_grid"
+      ]
+    },
+    "analysis_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Technical Analysis",
+        "level": "h3"
+      }
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Technical structure aligned with KillaXBT's bullish framework. Resistance mapping at 74K VAH converges with KillaXBT's planned hedge-entry zone — suggests imminent consolidation battle at key level.",
+        "variant": "body"
+      }
+    },
+    "levels_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "level_74k_vah",
+        "level_hedge_zone",
+        "level_short_warning",
+        "level_short_opportunity"
+      ]
+    },
+    "level_74k_vah": {
+      "type": "Stat",
+      "props": {
+        "label": "Next Target (2026 VAH)",
+        "value": "74,000"
+      }
+    },
+    "level_hedge_zone": {
+      "type": "Stat",
+      "props": {
+        "label": "KillaXBT Hedge-Entry Zone",
+        "value": "73.6K–74.9K"
+      }
+    },
+    "level_short_warning": {
+      "type": "Badge",
+      "props": {
+        "text": "Do not short below 70s",
+        "variant": "warning"
+      }
+    },
+    "level_short_opportunity": {
+      "type": "Badge",
+      "props": {
+        "text": "Shorts at 74–75 recommended",
+        "variant": "secondary"
+      }
+    }
+  }
+}
