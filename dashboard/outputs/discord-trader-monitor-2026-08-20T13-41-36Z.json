@@ -1,0 +1,77 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "heading_calibration",
+        "separator_1",
+        "stack_main"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: Chase — TradFi]",
+        "level": "h2"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "observation_group",
+        "separator_2",
+        "status_alert"
+      ]
+    },
+    "observation_group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "label_crypto",
+        "value_crypto"
+      ]
+    },
+    "label_crypto": {
+      "type": "Text",
+      "props": {
+        "text": "crypto_chase:",
+        "variant": "lead"
+      }
+    },
+    "value_crypto": {
+      "type": "Text",
+      "props": {
+        "text": "\"odd conditions really\"",
+        "variant": "body"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "status_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "what's your read? (No referenced message, vague market observation)",
+        "type": "info"
+      }
+    }
+  }
+}

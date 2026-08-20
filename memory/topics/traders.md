@@ -53,8 +53,9 @@
 - Current open positions: [TBD — tracking in progress]
 - Recent thesis: Timing-focused trader on crypto majors; bullish sentiment on BTC structure breakouts
 - Conviction notes: Technical sentiment trader; noted correct ~20-minute pre-breakout call on BTC Aug 20; minor conviction doubt on pre-market overshoots
-- Last seen: 2026-08-20T13:35:08Z (Discord TradFi — vague sentiment observation with chart image)
+- Last seen: 2026-08-20T13:38:19Z (Discord TradFi — cryptic market observation)
 - **Events (rolling):**
+  - Aug 20 13:38Z — ambiguous-cryptic: Discord TradFi (supporting) extremely vague market observation "odd conditions really"; no context about what conditions, no ticker, no referenced message; unable to classify without clarification; supporting channel noise vs conviction shift unclear; HR-2 calibration alert sent to Kyle [$UNKNOWN] [1539991980166221846]
   - Aug 20 13:35Z — informational-sentiment: Discord TradFi (supporting) vague market observation "nothing convincing on it yet" + chart image; ambiguous reference/setup without image context; supporting channel sentiment, no standalone alert; silent log [$SETUP-ANALYSIS?] [1539991179771384019]
   - Aug 20 13:18Z — informational-conviction-doubt: Discord TradFi (supporting) risk reflection on targeting strategy; "But I hate doing that because if the target comes first then the trade probably gets fucked"; escalation/expansion on missed pre-market timing concern; now focused on execution risk when target levels hit first (reversal/fake-break risk); no personal action; supporting channel conviction shift; alerted Kyle [$TARGETING RISK] [1539986941112623174]
   - Aug 20 13:08Z — informational-conviction-doubt: Discord TradFi (supporting) reflection on missed pre-market trade opportunity; "The lower part front-ran and then the up move overshot pre-market. vibe was just off, but maybe I should loosen back up"; technical doubt on breakout exhaustion structure; "maybe" qualifier indicates tentative conviction on adding back; supporting channel sentiment note, silent log [$PRE-MARKET STRUCTURE] [1539984485917917234]
