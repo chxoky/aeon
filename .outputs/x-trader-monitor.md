@@ -1,17 +1,7 @@
-🐦 *[X] @KillaXBT*
+🐦 *[X] @Crypto_Chase*
 
-Just remember who was bullish when it mattered most.
+$ETH: Push up and take Monthly liquidity, then strong pullback towards $2000. Chart shows deviation structure with retest-as-entry setup on monthly timeframe.
 
-I was getting shit from a bunch of influencers for being early. They told me I'd regret it. They were targeting 40-50K, while I had already been accumulating for weeks.
+[View post](https://x.com/Crypto_Chase/status/2090487661593235557)
 
-My positioning was public the entire time. Nearly every day, I said I was long. Every day, I made it clear how heavily exposed I was.
-
-I called the top almost perfectly & I accumulated near the potential bottom almost perfectly.
-
-And yet, they doubted me again. They shit-talked again.
-
-Then, after watching me position for weeks, they decided to follow along.
-
-Funny how that works. So… who's laughing now... $BTC
-
-[View post](https://x.com/KillaXBT/status/2090484006563553620)
+↳ _Converges with ryzzqq's bearish ETH SHORT (Aug 19 @~2095) — both traders expecting downside, Chase targeting $2000 pullback as structural target._

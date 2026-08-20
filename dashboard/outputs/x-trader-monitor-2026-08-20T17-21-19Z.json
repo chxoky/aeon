@@ -1,0 +1,56 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "tweet-1",
+        "link-post",
+        "separator-1",
+        "convergence-note"
+      ]
+    },
+    "tweet-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Crypto_Chase",
+        "handle": "@Crypto_Chase",
+        "text": "$ETH: Push up and take Monthly liquidity, then strong pullback towards $2000. Chart shows deviation structure with retest-as-entry setup on monthly timeframe."
+      }
+    },
+    "link-post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Crypto_Chase/status/2090487661593235557"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "convergence-note": {
+      "type": "Text",
+      "props": {
+        "text": "Converges with ryzzqq's bearish ETH SHORT (Aug 19 @~2095) — both traders expecting downside, Chase targeting $2000 pullback as structural target.",
+        "variant": "body"
+      }
+    }
+  }
+}
