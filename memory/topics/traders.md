@@ -33,3 +33,12 @@
   - Aug 20 10:01Z — ambiguous-cryptic: X "Proof from my group 🎯📌 $btc #btc https://t.co/JnEI4LXvss" + media (chart image inaccessible); extremely cryptic context-dependent text with emoji-only visual cues; no personal execution language (not saying they bought/sold/added/closed); could reference trade confirmation, group signal, market validation, or other context; media fetch returned empty (URL auth-gated or stale); unable to decipher meaning without image; HR-2 calibration alert sent to Kyle requesting interpretation [$BTC] [2090378755529146394]
   - Aug 20 09:55Z — informational-position-thesis: X "I'm back to say we're close to the top of range / I bought 58.4 and will be closing my large long soon" — position documentation + market view on BTC near resistance; future intention to close ("will be closing soon") but NOT current action; contrarian sentiment amid +8.8% risk-on breakout, $19.5B short liquidation cascade, F&G 62 Greed; Step 6 informational alert (market commentary, not trade signal); alerted Kyle [$BTC] [2090377223546998992]
 
+## KillaXBT
+- Platforms: X (Twitter)
+- Current open positions: BTC HTF 2x swing LONG (62.6K entry, SL at BE, targeting 66.3-67.6K; no active shorts). BTC spot DCA (~11 BTC avg 65.9K, targeting 20 BTC)
+- Recent thesis: Structural BTC bull — "buy the blood." 2.5yr thesis: dump at 160K. Next key: 65.7K close → 68-71K; fail → low 60Ks. Accumulation range 57-59K established
+- Conviction notes: HTF bullish structural bias. Tactical scalp shorts coexist with structural long framework — hedge ethos. Research→analysis→execution→hedge→conviction-reaffirmation pattern
+- Last seen: 2026-08-20T11:18:09Z (X — position thesis validation post)
+- **Events (rolling):**
+  - Aug 20 11:18Z — informational-sentiment-position-validation: X gloating post validating 2x long from 62.6K (current 71.9K) + spot avg 65.897; "$BTC 30% away from 50K target; don't try to perfect entries in imperfect market"; "My 2x long from 62.6K don't look too stupid now does it?"; 3 chart images showing breakout structure from entry zones; NOT a trade action (no placing/adding/closing); thesis reinforcement aligned with group risk-on sentiment & $19.5B liquidation cascade; alerted Kyle [$BTC] [2090397974320804084]
+

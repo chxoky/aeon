@@ -1,0 +1,122 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "separator_1",
+        "stats_section",
+        "separator_2",
+        "thesis_section"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "After being called 'early.' After people constantly talked crap. After they decided to doubt me again. Who's got the last laugh now? (Again).\n\n$BTC is now 30% away from your 50K target. I warned countless times, don't try to perfect an entry in an imperfect market. But again, greed was the reason people fxcked up. They wanted to be too precise.\n\nMy 2x long from 62.6K don't look too stupid now does it?\n\nMy notional spot average of $65,897 doesn't seem to bad now either, does it?"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stats_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat_btc_target",
+        "stat_long_entry",
+        "stat_spot_average",
+        "stat_breakout"
+      ]
+    },
+    "stat_btc_target": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC away from 50K target",
+        "value": "30%"
+      },
+      "children": []
+    },
+    "stat_long_entry": {
+      "type": "Stat",
+      "props": {
+        "label": "2x long entry",
+        "value": "$62.6K"
+      },
+      "children": []
+    },
+    "stat_spot_average": {
+      "type": "Stat",
+      "props": {
+        "label": "Notional spot average",
+        "value": "$65,897"
+      },
+      "children": []
+    },
+    "stat_breakout": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC breakout level",
+        "value": "$71.9K"
+      },
+      "children": []
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "thesis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "thesis_title",
+        "thesis_text",
+        "link_tweet"
+      ]
+    },
+    "thesis_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Position Thesis Validation",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "thesis_text": {
+      "type": "Text",
+      "props": {
+        "text": "BTC breakout to 71.9K confirms macro bull structure thesis; charts show clear path from 62.6K entry to current resistance. No new action, just gloating on existing conviction."
+      },
+      "children": []
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2090397974320804084"
+      },
+      "children": []
+    }
+  }
+}
