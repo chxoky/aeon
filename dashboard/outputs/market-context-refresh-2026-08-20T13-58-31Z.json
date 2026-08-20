@@ -1,0 +1,247 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "market context — 2026-08-20"
+      },
+      "children": [
+        "section_sentiment",
+        "sep1",
+        "section_prices_fg",
+        "sep2",
+        "section_breadth_dex",
+        "sep3",
+        "section_narrative",
+        "sep4",
+        "section_catalyst"
+      ]
+    },
+    "section_sentiment": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "text_take",
+        "badge_conviction"
+      ]
+    },
+    "text_take": {
+      "type": "Text",
+      "props": {
+        "text": "take: risk-on",
+        "variant": "lead"
+      }
+    },
+    "badge_conviction": {
+      "type": "Badge",
+      "props": {
+        "text": "conviction high",
+        "variant": "secondary"
+      }
+    },
+    "sep1": {
+      "type": "Separator"
+    },
+    "section_prices_fg": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "prices_row",
+        "fg_row"
+      ]
+    },
+    "prices_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat_btc",
+        "stat_eth"
+      ]
+    },
+    "stat_btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$71,615",
+        "delta": "+11.5%",
+        "trend": "up"
+      }
+    },
+    "stat_eth": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$2,275",
+        "delta": "+19.0%",
+        "trend": "up"
+      }
+    },
+    "fg_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "text_fg_label",
+        "progress_fg",
+        "badge_greed"
+      ]
+    },
+    "text_fg_label": {
+      "type": "Text",
+      "props": {
+        "text": "F&G",
+        "variant": "body"
+      }
+    },
+    "progress_fg": {
+      "type": "Progress",
+      "props": {
+        "value": 62,
+        "max": 100
+      }
+    },
+    "badge_greed": {
+      "type": "Badge",
+      "props": {
+        "text": "Greed",
+        "variant": "secondary"
+      }
+    },
+    "sep2": {
+      "type": "Separator"
+    },
+    "section_breadth_dex": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "breadth_row",
+        "dex_row"
+      ]
+    },
+    "breadth_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "text_breadth_label",
+        "progress_breadth"
+      ]
+    },
+    "text_breadth_label": {
+      "type": "Text",
+      "props": {
+        "text": "breadth",
+        "variant": "body"
+      }
+    },
+    "progress_breadth": {
+      "type": "Progress",
+      "props": {
+        "value": 17,
+        "max": 20,
+        "label": "17/20"
+      }
+    },
+    "dex_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_dex_vol",
+        "text_dex_context"
+      ]
+    },
+    "stat_dex_vol": {
+      "type": "Stat",
+      "props": {
+        "label": "DEX vol",
+        "value": "$11.02B",
+        "delta": "+2.1%",
+        "trend": "up"
+      }
+    },
+    "text_dex_context": {
+      "type": "Text",
+      "props": {
+        "text": "since morning",
+        "variant": "caption"
+      }
+    },
+    "sep3": {
+      "type": "Separator"
+    },
+    "section_narrative": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_narrative",
+        "text_narrative_content"
+      ]
+    },
+    "heading_narrative": {
+      "type": "Heading",
+      "props": {
+        "text": "top narrative",
+        "level": "h4"
+      }
+    },
+    "text_narrative_content": {
+      "type": "Text",
+      "props": {
+        "text": "institutional bid — $517M BTC ETF + $189M ETH inflows Aug 19 (rising)",
+        "variant": "body"
+      }
+    },
+    "sep4": {
+      "type": "Separator"
+    },
+    "section_catalyst": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_catalyst",
+        "text_catalyst_content"
+      ]
+    },
+    "heading_catalyst": {
+      "type": "Heading",
+      "props": {
+        "text": "hot catalyst",
+        "level": "h4"
+      }
+    },
+    "text_catalyst_content": {
+      "type": "Text",
+      "props": {
+        "text": "CLARITY Act White House push; Jackson Hole 7 days",
+        "variant": "body"
+      }
+    }
+  }
+}
