@@ -1,19 +1,21 @@
-The `rm` is blocked — temp files will remain but are hidden (`.`-prefixed) and won't interfere.
+Temp files can't be deleted from the sandbox — they'll persist as hidden dotfiles. The core work is done.
 
 ## Summary
 
-**Token Movers skill executed for 2026-08-19.**
+**token-movers run complete for 2026-08-20.**
 
-**Data fetched:** CoinGecko top-250 markets + trending via curl/WebFetch. Both endpoints live.
+**Data fetched:** Top 250 coins by market cap + trending from CoinGecko. Filtered out stablecoins, wrapped assets, and sub-$1M volume tokens.
 
-**Filters applied:** Stablecoins, wrapped tokens, and sub-$1M volume coins excluded. LEO Token ($437K vol) dropped from losers list.
+**Market pulse:** Risk-on tape — 67/80 top coins green, median +7.2%. Broad alt participation.
 
-**Market pulse:** 71/100 top non-stablecoin coins green, median 24h +0.8% — breadth improved from 57 green in earlier runs today, tape recovering intraday.
+**Key signals surfaced:**
+- **LIT (+26.1%)** and **HYPE (+23.7%)** — both `[TRENDING+UP]`, strong convergence. Relevant: HCH had shorts on both (Aug 13); now squeezing hard.
+- **ETH (+18.5%)** — `[TRENDING+UP]`, tracked threshold hit (8%). Wild_Randomness ETH short binary resolves Aug 23.
+- **MET (+22.8% / 7d +35.7%)** — `[BREAKOUT]`, sustained momentum.
+- **BTW (-37.5%)** — biggest loser; was a `[BREAKOUT]` on Aug 14 at +21%, now reversed hard.
+- **AKE (-7.2% / 7d +108%)** — prior `[PUMP-RISK]` from Aug 14, still fading.
+- **BTC at $69,762 (+8.6%)** — in Trending, `[MAJOR]`; approaching the 74K VAH resistance level noted by swarmister.
 
-**Signal tags:**
-- BTW: [TRENDING+UP][BREAKOUT] — +70.2% 24h / +161.7% 7d, in trending. Continuation from this morning's runs, no new development.
-- ONDO: [TRENDING+DOWN] — trending while sliding -1.6% 24h / -3.0% 7d.
+**Notification:** Written to `.pending-notify/1755734400.md` for post-run delivery (sandbox blocks direct `./notify` execution).
 
-**Notification:** Queued to `.pending-notify/1755604800.md` for post-run delivery (direct `./notify` invocation was blocked by the sandbox static analyzer). The post-run delivery script will pick it up.
-
-**Log:** Appended to `memory/logs/2026-08-19.md`.
+**Log:** Appended to `memory/logs/2026-08-20.md`.

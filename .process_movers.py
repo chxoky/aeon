@@ -1,192 +1,224 @@
-import json, sys, urllib.request
+#!/usr/bin/env python3
+import json, sys
 
-def fetch(url):
-    req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-    with urllib.request.urlopen(req, timeout=30) as r:
-        return json.loads(r.read())
-
-data = fetch("https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=250&page=1&sparkline=false&price_change_percentage=1h,24h,7d")
-
-try:
-    trending_data = fetch("https://api.coingecko.com/api/v3/search/trending")
-    trending_coins = trending_data.get('coins', [])
-except Exception as e:
-    trending_coins = []
-    print(f"TRENDING_UNAVAILABLE: {e}")
-
-STABLE_IDS = {
-    'tether','usd-coin','dai','first-digital-usd','ethena-usde','true-usd','usdd','paypal-usd',
-    'fdusd','pax-gold','tether-gold','usds','usd1-wlfi','ripple-usd','global-dollar',
-    'hashnote-usyc','blackrock-usd-institutional-digital-liquidity-fund','bfusd','falcon-finance',
-    'ondo-us-dollar-yield','usual-usd','united-stables','gho','ylds','usdgo','eurc',
-    'superstate-short-duration-us-government-securities-fund-ustb','eutbl',
-    'janus-henderson-anemoy-treasury-fund','janus-henderson-anemoy-aaa-clo-fund',
-    'spiko-amundi-overnight-swap-fund-eur','euro-coin','blockchain-capital','figure-heloc',
-    'a7a5','ripple-usd','blackrock-usd-institutional-digital-liquidity-fund'
+STABLECOINS = {
+    'tether','usd-coin','dai','first-digital-usd','usde','tusd','usdd',
+    'pyusd','fdusd','paxg','usds','ethena-usde','usual-usd',
+    'frax','liquity-usd','crvusd','gusd','busd','susd','nusd',
+    'true-usd','usd-plus','stasis-euro','terra-luna',
 }
-STABLE_SYMS = {
-    'usdt','usdc','dai','usde','tusd','usdd','pyusd','fdusd','busd','gusd','frax','ust','usd1',
-    'rlusd','usdg','usyc','buidl','bfusd','usdf','usd0','u','gho','ylds','usdgo','ustb','eutbl',
-    'eursafo','eurc','usds','usdy','paxg','xaut','a7a5','figr_heloc','jaaa','jtrsy','bcap',
-    'hash'
-}
-WRAPPED = {'wbtc','weth','steth','wsteth','cbbtc','sbtc'}
+STABLE_SYM_PREFIX = ('usd','eur','gbp','usdt','usdc','busd','dai')
+WRAPPED = {'wbtc','weth','steth','cbeth','reth','wsteth','weeth','beth'}
 
-def is_excluded(c):
-    sym = (c.get('symbol') or '').lower()
-    cid = (c.get('id') or '').lower()
-    name = (c.get('name') or '').lower()
-    vol = c.get('total_volume') or 0
-    if cid in STABLE_IDS or sym in STABLE_SYMS or sym in WRAPPED:
+with open('/home/runner/work/aeon/aeon/.markets.json') as f:
+    raw = json.load(f)
+with open('/home/runner/work/aeon/aeon/.trending.json') as f:
+    trending_data = json.load(f)
+
+# Filter
+def is_stable(c):
+    cid = c['id'].lower()
+    sym = c['symbol'].lower()
+    name = c['name'].lower()
+    if cid in STABLECOINS: return True
+    if any(sym.startswith(p) for p in STABLE_SYM_PREFIX) and c['market_cap_rank'] and c['market_cap_rank'] <= 30:
         return True
-    if sym.startswith('usd') or sym.startswith('eur') or sym.startswith('gbp'):
-        return True
-    if 'stablecoin' in name:
-        return True
-    if vol < 1_000_000:
-        return True
-    # Also skip illiquid fund tokens (zero trading volume)
-    if vol == 0:
-        return True
-    # Also skip coin with chinese characters in symbol
-    if any(ord(ch) > 127 for ch in sym):
-        return True
+    if 'stablecoin' in name or 'staked-ether' in name: return True
     return False
 
-filtered = [c for c in data if not is_excluded(c)]
+def is_wrapped(c):
+    return c['symbol'].lower() in WRAPPED
 
-# Trending set
-trending_ids = set()
-for t in trending_coins:
-    item = t.get('item', t)
-    trending_ids.add(item.get('id',''))
-
-# Compute tags
-def get_tags(c):
-    tags = []
-    sym = (c.get('symbol') or '').upper()
-    cid = (c.get('id') or '')
-    rank = c.get('market_cap_rank') or 999
-    ch24 = c.get('price_change_percentage_24h_in_currency') or 0
-    ch7 = c.get('price_change_percentage_7d_in_currency') or 0
+filtered = []
+for c in raw:
     vol = c.get('total_volume') or 0
-    mc = c.get('market_cap') or 0
+    if vol < 1_000_000: continue
+    if is_stable(c): continue
+    if is_wrapped(c): continue
+    filtered.append(c)
 
-    is_trending = cid in trending_ids
+# Sort for winners/losers
+def pct24(c): return c.get('price_change_percentage_24h') or 0
+def pct7(c): return c.get('price_change_percentage_7d_in_currency') or 0
+def pct1(c): return c.get('price_change_percentage_1h_in_currency') or 0
 
-    if is_trending and ch24 > 0:
-        tags.append('[TRENDING+UP]')
-    elif is_trending and ch24 < 0:
-        tags.append('[TRENDING+DOWN]')
+sorted_asc = sorted(filtered, key=pct24)
+losers = sorted_asc[:10]
+winners = sorted_asc[-10:][::-1]
 
-    if ch24 > 15 and ch7 > 25:
-        tags.append('[BREAKOUT]')
-    elif ch24 > 20 and ch7 < 0:
-        tags.append('[FADE]')
+# Trending
+trending_ids = set()
+trending_coins = []
+for item in trending_data.get('coins', [])[:7]:
+    it = item['item']
+    trending_ids.add(it['id'])
+    price_data = it.get('data', {})
+    price_str = price_data.get('price', 'N/A')
+    pct24_trending = price_data.get('price_change_percentage_24h', {}).get('usd', None)
+    trending_coins.append({
+        'id': it['id'],
+        'name': it['name'],
+        'symbol': it['symbol'],
+        'rank': it.get('market_cap_rank', 'N/A'),
+        'price': price_str,
+        'pct24': pct24_trending,
+    })
 
-    if ch24 < -10 and mc > 0 and vol / mc > 0.25:
-        tags.append('[CAPITULATION]')
+winner_ids = {c['id'] for c in winners}
+loser_ids = {c['id'] for c in losers}
 
-    if rank > 150 and ch24 > 30:
-        tags.append('[PUMP-RISK]')
+def tags(c, is_trending):
+    t = []
+    p24 = pct24(c)
+    p7 = pct7(c)
+    rank = c.get('market_cap_rank') or 999
+    vol = c.get('total_volume') or 0
+    mcap = c.get('market_cap') or 0
 
-    if mc > 0 and mc < 50_000_000:
-        tags.append('[MICROCAP]')
+    if is_trending and c['id'] in winner_ids:
+        t.append('[TRENDING+UP]')
+    if is_trending and c['id'] in loser_ids:
+        t.append('[TRENDING+DOWN]')
 
-    if rank <= 20:
-        tags.append('[MAJOR]')
+    if not t:
+        if p24 > 15 and p7 > 25:
+            t.append('[BREAKOUT]')
+        elif p24 > 20 and p7 < 0:
+            t.append('[FADE]')
 
-    return tags[:2]
+    if not t:
+        if p24 < -10 and mcap > 0 and vol / mcap > 0.25:
+            t.append('[CAPITULATION]')
 
-# Sort winners / losers
-sorted_up = sorted(filtered, key=lambda x: x.get('price_change_percentage_24h_in_currency') or 0, reverse=True)
-sorted_down = sorted(filtered, key=lambda x: x.get('price_change_percentage_24h_in_currency') or 0)
+    if rank > 150 and p24 > 30:
+        if '[PUMP-RISK]' not in t:
+            t.append('[PUMP-RISK]')
+
+    if mcap < 50_000_000 and '[MICROCAP]' not in t:
+        t.append('[MICROCAP]')
+    elif rank <= 20 and '[MAJOR]' not in t:
+        t.append('[MAJOR]')
+
+    return ' '.join(t[:2])
 
 def fmt_price(p):
     if p is None: return 'N/A'
-    if p >= 1000: return f"${p:,.0f}"
-    if p >= 1: return f"${p:.2f}"
-    if p >= 0.01: return f"${p:.4f}"
-    return f"${p:.6f}"
+    if p >= 1000: return f'${p:,.0f}'
+    if p >= 1: return f'${p:.4g}'
+    if p >= 0.01: return f'${p:.4f}'
+    return f'${p:.6f}'
 
 def fmt_vol(v):
-    if v >= 1e9: return f"${v/1e9:.1f}B"
-    if v >= 1e6: return f"${v/1e6:.0f}M"
-    return f"${v/1e3:.0f}K"
+    if v is None: return 'N/A'
+    if v >= 1e9: return f'${v/1e9:.1f}B'
+    if v >= 1e6: return f'${v/1e6:.0f}M'
+    return f'${v/1e3:.0f}K'
 
-def fmt_mc(v):
-    if v >= 1e9: return f"${v/1e9:.1f}B"
-    if v >= 1e6: return f"${v/1e6:.0f}M"
-    return f"${v/1e3:.0f}K"
+def fmt_pct(p):
+    if p is None: return 'N/A'
+    sign = '+' if p >= 0 else ''
+    return f'{sign}{p:.1f}%'
 
-winners = sorted_up[:10]
-losers = sorted_down[:10]
+# Market pulse (top 100 filtered, after our filter)
+top100 = [c for c in filtered if (c.get('market_cap_rank') or 999) <= 100]
+green = sum(1 for c in top100 if pct24(c) > 0)
+total100 = len(top100)
+sorted_top50 = sorted([c for c in filtered if (c.get('market_cap_rank') or 999) <= 50], key=pct24)
+median_idx = len(sorted_top50) // 2
+median_24h = pct24(sorted_top50[median_idx]) if sorted_top50 else 0
 
-# Market pulse: top filtered coins with rank <= 100
-top_filtered = [c for c in filtered if (c.get('market_cap_rank') or 999) <= 100]
-green_count = sum(1 for c in top_filtered if (c.get('price_change_percentage_24h_in_currency') or 0) > 0)
-red_count = len(top_filtered) - green_count
-top50_changes = sorted([c.get('price_change_percentage_24h_in_currency') or 0 for c in top_filtered[:50]])
-median_chg = top50_changes[len(top50_changes)//2] if top50_changes else 0
+# Build output
+lines = []
 
-print(f"TOTAL_DATASET:{len(data)}")
-print(f"FILTERED:{len(filtered)}")
-print(f"PULSE_GREEN:{green_count} PULSE_RED:{red_count} MEDIAN:{median_chg:.1f}")
-print()
-print("=== WINNERS ===")
+# Pulse
+red_count = total100 - green
+if green > red_count and median_24h > 1:
+    pulse = f"Risk-on tape — {green}/{total100} top coins green, median {fmt_pct(median_24h)}; alts leading with broad participation."
+elif red_count > green and median_24h < -1:
+    pulse = f"Risk-off — {red_count}/{total100} top coins red, median {fmt_pct(median_24h)}; selling pressure across the board."
+elif abs(median_24h) <= 1:
+    pulse = f"Quiet tape — median move {fmt_pct(median_24h)} across top 50; choppy with no clear directional bias."
+else:
+    pulse = f"Mixed tape — {green}/{total100} top coins green, median {fmt_pct(median_24h)}; rotation active."
+
+lines.append(pulse)
+lines.append('')
+
+# Winners
+lines.append('TOP WINNERS (24h):')
 for i, c in enumerate(winners, 1):
-    sym = (c.get('symbol') or '').upper()
-    name = c.get('name') or ''
-    rank = c.get('market_cap_rank') or '?'
-    price = fmt_price(c.get('current_price'))
-    ch24 = c.get('price_change_percentage_24h_in_currency') or 0
-    ch7 = c.get('price_change_percentage_7d_in_currency') or 0
-    ch1 = c.get('price_change_percentage_1h_in_currency') or 0
-    vol = fmt_vol(c.get('total_volume') or 0)
-    mc = fmt_mc(c.get('market_cap') or 0)
-    tags = ' '.join(get_tags(c))
-    print(f"{i}. {sym} ({name}) — {price}  {ch24:+.1f}% / 7d {ch7:+.1f}% / 1h {ch1:+.1f}%  •  {vol} / #{rank}  {tags}")
+    is_t = c['id'] in trending_ids
+    tag = tags(c, is_t)
+    lines.append(
+        f"{i}. {c['symbol'].upper()} ({c['name']}) — {fmt_price(c['current_price'])}  "
+        f"{fmt_pct(pct24(c))} / 7d {fmt_pct(pct7(c))} / 1h {fmt_pct(pct1(c))}  •  "
+        f"{fmt_vol(c.get('total_volume'))} / #{c.get('market_cap_rank','?')}  {tag}"
+    )
 
-print()
-print("=== LOSERS ===")
+lines.append('')
+lines.append('TOP LOSERS (24h):')
 for i, c in enumerate(losers, 1):
-    sym = (c.get('symbol') or '').upper()
-    name = c.get('name') or ''
-    rank = c.get('market_cap_rank') or '?'
-    price = fmt_price(c.get('current_price'))
-    ch24 = c.get('price_change_percentage_24h_in_currency') or 0
-    ch7 = c.get('price_change_percentage_7d_in_currency') or 0
-    ch1 = c.get('price_change_percentage_1h_in_currency') or 0
-    vol = fmt_vol(c.get('total_volume') or 0)
-    mc = fmt_mc(c.get('market_cap') or 0)
-    tags = ' '.join(get_tags(c))
-    print(f"{i}. {sym} ({name}) — {price}  {ch24:+.1f}% / 7d {ch7:+.1f}% / 1h {ch1:+.1f}%  •  {vol} / #{rank}  {tags}")
+    is_t = c['id'] in trending_ids
+    tag = tags(c, is_t)
+    lines.append(
+        f"{i}. {c['symbol'].upper()} ({c['name']}) — {fmt_price(c['current_price'])}  "
+        f"{fmt_pct(pct24(c))} / 7d {fmt_pct(pct7(c))} / 1h {fmt_pct(pct1(c))}  •  "
+        f"{fmt_vol(c.get('total_volume'))} / #{c.get('market_cap_rank','?')}  {tag}"
+    )
 
-print()
-print("=== TRENDING (top 7) ===")
-for i, t in enumerate(trending_coins[:7], 1):
-    item = t.get('item', t)
-    sym = (item.get('symbol') or '').upper()
-    name = item.get('name') or ''
-    rank = item.get('market_cap_rank') or '?'
-    # price data from trending endpoint
-    data_entry = item.get('data', {})
-    price_str = data_entry.get('price', '')
-    ch24_pct = data_entry.get('price_change_percentage_24h', {})
-    if isinstance(ch24_pct, dict):
-        ch24 = ch24_pct.get('usd', None)
-    else:
-        ch24 = ch24_pct
-    ch24_str = f"{ch24:+.1f}%" if ch24 is not None else "N/A"
-    # Try to match to markets data for richer info
-    cid = item.get('id','')
-    matched = next((c for c in data if c.get('id') == cid), None)
-    if matched:
-        price_str = fmt_price(matched.get('current_price'))
-        mc_ch = matched.get('price_change_percentage_24h_in_currency') or 0
-        ch24_str = f"{mc_ch:+.1f}%"
-        rank = matched.get('market_cap_rank') or rank
-    tags = ''
-    if matched:
-        tags = ' '.join(get_tags(matched))
-    print(f"{i}. {name} ({sym}) — #{rank}, {price_str}, 24h {ch24_str}  {tags}")
+lines.append('')
+lines.append('TRENDING:')
+for i, t in enumerate(trending_coins, 1):
+    # Find in filtered for tag
+    match = next((c for c in filtered if c['id'] == t['id']), None)
+    tag = ''
+    if match:
+        is_t = True
+        tag = tags(match, is_t)
+    pct_str = fmt_pct(t['pct24']) if t['pct24'] is not None else 'N/A'
+    price_str = t['price'] if isinstance(t['price'], str) else fmt_price(float(str(t['price']).replace('$','').replace(',','')))
+    lines.append(f"{i}. {t['name']} ({t['symbol'].upper()}) — #{t['rank']}, {price_str}, 24h {pct_str}  {tag}")
+
+# Notable section
+notable = []
+for c in winners + losers:
+    is_t = c['id'] in trending_ids
+    tag = tags(c, is_t)
+    p24 = pct24(c)
+    vol = c.get('total_volume') or 0
+    mcap = c.get('market_cap') or 1
+    if '[TRENDING+UP]' in tag:
+        notable.append(f"• {c['symbol'].upper()}: trending + up {fmt_pct(p24)} — strong signal convergence")
+    if '[BREAKOUT]' in tag:
+        notable.append(f"• {c['symbol'].upper()}: {fmt_pct(p24)} / 7d {fmt_pct(pct7(c))} — sustained breakout, not a flash")
+    if '[CAPITULATION]' in tag:
+        notable.append(f"• {c['symbol'].upper()}: {fmt_pct(p24)} on ~{vol/mcap:.1%} vol/mcap ratio — capitulation signal")
+    if '[PUMP-RISK]' in tag:
+        notable.append(f"• {c['symbol'].upper()}: #{c.get('market_cap_rank','?')} rank, {fmt_pct(p24)} — PUMP-RISK, low-cap manipulation probable")
+for t in trending_coins:
+    match = next((c for c in filtered if c['id'] == t['id']), None)
+    if match:
+        tag = tags(match, True)
+        if '[TRENDING+DOWN]' in tag:
+            notable.append(f"• {match['symbol'].upper()}: trending while down {fmt_pct(pct24(match))} — capitulation / bad-news signal")
+
+if notable:
+    lines.append('')
+    lines.append('NOTABLE:')
+    for n in notable[:4]:
+        lines.append(n)
+
+# Also print log-format summary
+lines.append('')
+lines.append('---LOG---')
+lines.append(pulse)
+winner_str = ', '.join(f"{c['symbol'].upper()} ({fmt_pct(pct24(c))})" for c in winners[:5])
+loser_str = ', '.join(f"{c['symbol'].upper()} ({fmt_pct(pct24(c))})" for c in losers[:5])
+trend_str = ', '.join(t['symbol'].upper() for t in trending_coins[:5])
+notable_log = '; '.join(n.lstrip('• ') for n in notable[:2]) if notable else 'none'
+lines.append(f"Winners: {winner_str}")
+lines.append(f"Losers: {loser_str}")
+lines.append(f"Trending: {trend_str}")
+lines.append(f"Notable: {notable_log}")
+
+print('\n'.join(lines))
