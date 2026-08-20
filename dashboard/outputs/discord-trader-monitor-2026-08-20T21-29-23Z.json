@@ -1,0 +1,140 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor — Calibration"
+      },
+      "children": [
+        "header",
+        "sep1",
+        "message_block",
+        "sep2",
+        "context_block",
+        "sep3",
+        "status_block",
+        "sep4",
+        "question_block"
+      ]
+    },
+    "header": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 DC: HCH — Chat",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "message_block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "msg_label",
+        "msg_text"
+      ]
+    },
+    "msg_label": {
+      "type": "Text",
+      "props": {
+        "text": "Message",
+        "variant": "caption"
+      }
+    },
+    "msg_text": {
+      "type": "Text",
+      "props": {
+        "text": "\"In a PVP scenario it's a big down\""
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "context_block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ctx_label",
+        "ctx_channel",
+        "ctx_type",
+        "ctx_time"
+      ]
+    },
+    "ctx_label": {
+      "type": "Text",
+      "props": {
+        "text": "Context",
+        "variant": "caption"
+      }
+    },
+    "ctx_channel": {
+      "type": "Text",
+      "props": {
+        "text": "HeartCanHodl, Discord supporting channel"
+      }
+    },
+    "ctx_type": {
+      "type": "Text",
+      "props": {
+        "text": "member Q&A"
+      }
+    },
+    "ctx_time": {
+      "type": "Text",
+      "props": {
+        "text": "2026-08-20 21:23:55 UTC"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "status_block": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to Classify",
+        "message": "Terminology unclear (PVP scenario?), no ticker mentioned, no execution language.",
+        "type": "warning"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "question_block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "q_label",
+        "q_text"
+      ]
+    },
+    "q_label": {
+      "type": "Text",
+      "props": {
+        "text": "Analysis Needed",
+        "variant": "caption"
+      }
+    },
+    "q_text": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?"
+      }
+    }
+  }
+}

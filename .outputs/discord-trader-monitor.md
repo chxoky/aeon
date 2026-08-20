@@ -11,3 +11,10 @@ Unable to classify — cryptic reference. What's your read?
 - Supporting channel = real-time conviction shift or chatter?
 
 Awaiting interpretation.
+Message: "In a PVP scenario it's a big down"
+
+Context: HeartCanHodl, Discord supporting channel (member Q&A), 2026-08-20 21:23:55 UTC
+
+Unable to classify — terminology unclear (PVP scenario?), no ticker mentioned, no execution language. Is this bearish market sentiment, a technical pattern observation, or personal conviction signal?
+
+What's your read?
