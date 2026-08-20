@@ -1,0 +1,228 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-08-20"
+      },
+      "children": [
+        "heading-focus",
+        "focus-stack",
+        "separator1",
+        "heading-since",
+        "updates-stack"
+      ]
+    },
+    "heading-focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "focus-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus-item1",
+        "focus-item2",
+        "focus-item3"
+      ]
+    },
+    "focus-item1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-title1",
+        "focus-reason1"
+      ]
+    },
+    "focus-title1": {
+      "type": "Text",
+      "props": {
+        "text": "HCH short book squeezing",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "focus-reason1": {
+      "type": "Text",
+      "props": {
+        "text": "why now: HYPE $60 entry at $72, no close signal yet",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "focus-item2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-title2",
+        "focus-reason2"
+      ]
+    },
+    "focus-title2": {
+      "type": "Text",
+      "props": {
+        "text": "WR ETH short binary Aug 23",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "focus-reason2": {
+      "type": "Text",
+      "props": {
+        "text": "why now: ETH +18.5% today; 3 days to resolution",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "focus-item3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-title3",
+        "focus-reason3"
+      ]
+    },
+    "focus-title3": {
+      "type": "Text",
+      "props": {
+        "text": "Bitcoin_Astro cycle window closes Aug 21",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "focus-reason3": {
+      "type": "Text",
+      "props": {
+        "text": "why now: 1 day left, BTC at HTF resistance",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading-since": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "updates-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "update1",
+        "update2",
+        "update3"
+      ]
+    },
+    "update1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge1",
+        "update-text1"
+      ]
+    },
+    "badge1": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "update-text1": {
+      "type": "Text",
+      "props": {
+        "text": "HCH covered half stock shorts (TSLA/PLTR/DELL/MSTR 50% reduce) ~22:49 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "update2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge2",
+        "update-text2"
+      ]
+    },
+    "badge2": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "update-text2": {
+      "type": "Text",
+      "props": {
+        "text": "swarmister ETH structure read: bullish to 2300 HVN; BTC short held at reduced size",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "update3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge3",
+        "update-text3"
+      ]
+    },
+    "badge3": {
+      "type": "Badge",
+      "props": {
+        "text": "pending",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "update-text3": {
+      "type": "Text",
+      "props": {
+        "text": "4 HR-2 calibrations awaiting Kyle: swarmister x2 (Russian",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
