@@ -1,0 +1,199 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @Wild_Randomness"
+      },
+      "children": [
+        "event-header",
+        "context-section",
+        "separator1",
+        "tweet-section",
+        "separator2",
+        "analysis-section",
+        "separator3",
+        "classification-section",
+        "link-section"
+      ]
+    },
+    "event-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event-label",
+        "event-time"
+      ]
+    },
+    "event-label": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @SQUABABA",
+        "variant": "caption"
+      }
+    },
+    "event-time": {
+      "type": "Text",
+      "props": {
+        "text": "Aug 20 21:54:43 UTC",
+        "variant": "muted"
+      }
+    },
+    "context-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context-label",
+        "context-text"
+      ]
+    },
+    "context-label": {
+      "type": "Text",
+      "props": {
+        "text": "Message context:",
+        "variant": "body"
+      }
+    },
+    "context-text": {
+      "type": "Text",
+      "props": {
+        "text": "Recent HYPE/LIT ratio analysis + position holdings (HYPE, LIT, PEPE, ENA)",
+        "variant": "body"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-section": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "@SQUABABA I think it's partly because there are giga unlocks to come but it's 100% a 2027-2028 issue"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "classification-q",
+        "analysis-body"
+      ]
+    },
+    "classification-q": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "lead"
+      }
+    },
+    "analysis-body": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "para1",
+        "para2",
+        "options-heading",
+        "options-list"
+      ]
+    },
+    "para1": {
+      "type": "Text",
+      "props": {
+        "text": "This is a reply to another user (can't see @SQUABABA's original message), no explicit ticker mentioned. Likely refers to token unlock schedule affecting one of Wild_Randomness's holdings (HYPE/LIT/PEPE/ENA).",
+        "variant": "body"
+      }
+    },
+    "para2": {
+      "type": "Text",
+      "props": {
+        "text": "\"Giga unlocks\" → significant supply dilution; \"2027-2028 issue\" → multi-year timeline.",
+        "variant": "body"
+      }
+    },
+    "options-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Classification options:",
+        "level": "h4"
+      }
+    },
+    "options-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opt-a",
+        "opt-b",
+        "opt-c"
+      ]
+    },
+    "opt-a": {
+      "type": "Text",
+      "props": {
+        "text": "(a) Bearish commentary on future dilution headwind",
+        "variant": "body"
+      }
+    },
+    "opt-b": {
+      "type": "Text",
+      "props": {
+        "text": "(b) Informational observation on unlock mechanics",
+        "variant": "body"
+      }
+    },
+    "opt-c": {
+      "type": "Text",
+      "props": {
+        "text": "(c) Something else?",
+        "variant": "body"
+      }
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification-section": {
+      "type": "Alert",
+      "props": {
+        "title": "Awaiting classification",
+        "message": "Sentiment assessment pending on token unlock implications",
+        "type": "info"
+      }
+    },
+    "link-section": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2090558173405167677"
+      }
+    }
+  }
+}
