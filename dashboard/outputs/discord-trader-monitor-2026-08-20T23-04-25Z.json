@@ -1,0 +1,112 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor: Calibration"
+      },
+      "children": [
+        "heading-calibration",
+        "badges-context",
+        "text-supporting",
+        "sep-1",
+        "heading-event",
+        "text-event",
+        "sep-2",
+        "quoted-message",
+        "sep-3",
+        "alert-classification"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration",
+        "level": "h2"
+      }
+    },
+    "badges-context": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-dc",
+        "badge-hch",
+        "badge-chat"
+      ]
+    },
+    "badge-dc": {
+      "type": "Badge",
+      "props": {
+        "text": "DC",
+        "variant": "default"
+      }
+    },
+    "badge-hch": {
+      "type": "Badge",
+      "props": {
+        "text": "HCH",
+        "variant": "default"
+      }
+    },
+    "badge-chat": {
+      "type": "Badge",
+      "props": {
+        "text": "Chat",
+        "variant": "outline"
+      }
+    },
+    "text-supporting": {
+      "type": "Text",
+      "props": {
+        "text": "Supporting channel real-time signal from heartcanhodl.",
+        "variant": "body"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading-event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "text-event": {
+      "type": "Text",
+      "props": {
+        "text": "Market observation query in premium member Q&A context (no prior message reference)",
+        "variant": "body"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "quoted-message": {
+      "type": "TweetCard",
+      "props": {
+        "author": "heartcanhodl",
+        "text": "Interesting ltf pa on it. Any news?"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "alert-classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to Classify",
+        "message": "What ticker/asset is HCH referring to? What's the context?",
+        "type": "warning"
+      }
+    }
+  }
+}
