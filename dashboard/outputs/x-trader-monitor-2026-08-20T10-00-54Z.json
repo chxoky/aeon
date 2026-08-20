@@ -1,0 +1,129 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor",
+        "description": "Trader position update and market analysis"
+      },
+      "children": [
+        "tweet",
+        "sep1",
+        "classification",
+        "sep2",
+        "analysis",
+        "sep3",
+        "link"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "handle": "t_in_crypto",
+        "text": "I'm back to say we're close to the top of range\nI bought 58.4 and will be closing my large long soon\nI hope you didn't follow the crowd and weren't liquidated 🤌🏽\n\nIt took longer to achieve my goals but I didn't care, I was just enjoying the summer 🙂🙃"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "classification": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "class-label",
+        "class-badge"
+      ]
+    },
+    "class-label": {
+      "type": "Text",
+      "props": {
+        "text": "Classification",
+        "variant": "muted"
+      }
+    },
+    "class-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "INFORMATIONAL-POSITION-THESIS",
+        "variant": "secondary"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "analysis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis-heading",
+        "points"
+      ]
+    },
+    "analysis-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Analysis",
+        "level": "h3"
+      }
+    },
+    "points": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "point1",
+        "point2",
+        "point3",
+        "point4"
+      ]
+    },
+    "point1": {
+      "type": "Text",
+      "props": {
+        "text": "• Contrarian sentiment on BTC at top (amid +8.8% risk-on breakout)"
+      }
+    },
+    "point2": {
+      "type": "Text",
+      "props": {
+        "text": "• Documented entry: 58.4 (large long held)"
+      }
+    },
+    "point3": {
+      "type": "Text",
+      "props": {
+        "text": "• Conviction: closing position soon (future action, not immediate)"
+      }
+    },
+    "point4": {
+      "type": "Text",
+      "props": {
+        "text": "• Context: $19.5B short liquidation cascade, F&G 62 Greed"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/t_in_crypto/status/2090377223546998992"
+      }
+    }
+  }
+}

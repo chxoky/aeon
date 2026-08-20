@@ -1,14 +1,15 @@
-🐦 *[X] @HeartCanHodl*
+🐦 *[X] @t_in_crypto*
 
-you know what would hit like crack? btc casually teleporting back to $65K
+I'm back to say we're close to the top of range
+I bought 58.4 and will be closing my large long soon
+I hope you didn't follow the crowd and weren't liquidated 🤌🏽
 
-[View tweet](https://x.com/HeartCanHodl/status/2090369289186648185)
+It took longer to achieve my goals but I didn't care, I was just enjoying the summer 🙂🙃
 
-↳ _Context: Posted 9min after adding 5% BTC short on Discord (09:15Z). Sentiment amplifies net-short conviction._
-🔍 *Calibration — @Bitcoin_Astro*
+*Classification: INFORMATIONAL-POSITION-THESIS*
+• Contrarian sentiment on BTC at top (amid +8.8% risk-on breakout)
+• Documented entry: 58.4 (large long held)
+• Conviction: closing position soon (future action, not immediate)
+• Context: $19.5B short liquidation cascade, F&G 62 Greed
 
-Event: Reply to @Pasumarthy31613 (target message not visible in payload)
-
-Bitcoin_Astro: "I don't think so"
-
-Unable to classify — what's your read? Is this financial or personal banter?
+[View tweet](https://x.com/t_in_crypto/status/2090377223546998992)
