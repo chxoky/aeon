@@ -1,25 +1,24 @@
 ## Summary
 
-I've successfully executed the **discord-trader-monitor** skill for the real-time Discord event from Crypto_Chase.
+Successfully executed the **Discord Trader Monitor** skill for the real-time Discord event from Crypto_Chase.
 
-### Event Processed
-- **Message ID:** 1539986838335266938
-- **Trader:** Crypto_Chase (discord: crypto_chase)
+**Event Details:**
+- **Trader:** crypto_chase (Crypto_Chase)
 - **Channel:** 1343971265962049597 (Chase — TradFi, supporting channel)
-- **Content:** "Yeah that's been the entire meta for what feels like a month now"
-- **Timestamp:** 2026-08-20T13:17:53.831Z
+- **Message:** "nothing convincing on it yet" + chart image
+- **Time:** 2026-08-20T13:35:08Z
 
-### Classification & Decision
-- **Type:** Informational-meta-sentiment (market vibe observation, not a trade action)
-- **Alert:** NO — Supporting channel rule: don't alert on generic sentiment without related primary-channel context
-- **Action:** Silent log only (updated memory with event entry)
+**Processing Result:**
 
-### Files Updated
-1. **memory/discord-trader-seen.txt** — Added message ID to prevent reprocessing
-2. **memory/topics/traders.md** — Added event entry to Crypto_Chase's rolling event log
-3. **memory/logs/2026-08-20.md** — Appended skill execution log entry
+1. **Dedup Check:** Message ID (1539991179771384019) is new — not in seen list ✓
+2. **Channel Mapping:** Supporting channel for Crypto_Chase, label "Chase — TradFi" ✓
+3. **Classification:** Informational-sentiment (vague market observation, no execution language)
+4. **Decision:** Silent log (supporting channel message with ambiguous reference + image dependency)
+5. **Rationale:** Per skill Step 7, supporting-channel messages don't warrant standalone alerts unless they stand alone as conviction shifts. This message is too vague without image interpretation to determine if it represents a real conviction shift or casual chatter.
 
-The message was correctly classified as non-actionable supporting-channel commentary and logged for context tracking without alerting Kyle.
-💬 *[DC: Chase — TradFi]*
+**Memory Updates:**
+- ✓ Added message ID to `discord-trader-seen.txt`
+- ✓ Updated `traders.md` with new event (Crypto_Chase last-seen: 13:35:08Z)
+- ✓ Appended detailed log entry to `memory/logs/2026-08-20.md`
 
-But I hate doing that because if the target comes first then the trade probably gets fucked
+**Alert Status:** No Telegram notification sent (silent log protocol applied)
