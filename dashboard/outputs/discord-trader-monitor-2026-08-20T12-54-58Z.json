@@ -1,0 +1,37 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "💬 Discord Trader Monitor — HCH Chat"
+      },
+      "children": [
+        "news-items",
+        "separator",
+        "analysis"
+      ]
+    },
+    "news-items": {
+      "type": "Text",
+      "props": {
+        "text": "Pushing clarity, Hyperliquid's regularity risk, X using crypto payments, US government adding bitcoin",
+        "variant": "lead"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis": {
+      "type": "Text",
+      "props": {
+        "text": "All in 24 hours is just not a confidence",
+        "variant": "muted"
+      }
+    }
+  }
+}
