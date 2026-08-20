@@ -1,0 +1,78 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "link_view",
+        "separator_1",
+        "chart_section"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "$QQQ short stopped out on loss of daily trend + POC.\n\nI'll take that technical set up any day given the negative sentiment, plus my own fears + lack of engagement/enthusiasm. I'd say this continued weakness is notable, given we have Bessent actively trying to jam up markets + opex flows…\n\nTomorrow is opex so take whatever action you get it a grain of salt. I'll probably try the trade again if we reclaim those levels, but this action is only confirming my HTF worries"
+      },
+      "children": []
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2090543121742574038"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "chart_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "chart_heading",
+        "chart_content"
+      ]
+    },
+    "chart_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart Insight",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "chart_content": {
+      "type": "Text",
+      "props": {
+        "text": "QQQ daily shows POC consolidation 710-720 zone; volume profile indicates institutional distribution; recent weakness validates macro bearish backdrop (Bessent flows, opex). No personal action now; informational technical/sentiment commentary."
+      },
+      "children": []
+    }
+  }
+}
