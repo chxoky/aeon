@@ -1,0 +1,69 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_calibration",
+        "text_reply_info",
+        "tweet_stoiiic",
+        "separator_1",
+        "analysis_text"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Stoiiic",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text_reply_info": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to @worldofxvs, Aug 20 21:15:11 UTC",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "tweet_stoiiic": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "Stoiiic",
+        "text": "@worldofxvs balls tingling"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — financial sentiment or banter? Stoiiic pattern: 3 posts all ambiguous/cryptic. First tracker Aug 20. What's your read?",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
