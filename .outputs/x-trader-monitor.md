@@ -1,6 +1,7 @@
 🐦 *[X] @Wild_Randomness*
+🔍 *Calibration — @Stoiiic*
 
-$QQQ short stopped out on loss of daily trend + POC.
+Event: Vague market observation (new trader, baseline unknown)
 
 "I'll take that technical set up any day given the negative sentiment, plus my own fears + lack of engagement/enthusiasm. I'd say this continued weakness is notable, given we have Bessent actively trying to jam up markets + opex flows…
 $SPX
@@ -38,3 +39,8 @@ Tomorrow is opex so take whatever action you get it a grain of salt. I'll probab
 
 **Chart insight:** QQQ daily shows POC consolidation 710-720 zone; volume profile indicates institutional distribution; recent weakness validates macro bearish backdrop (Bessent flows, opex). No personal action now; informational technical/sentiment commentary.
 ▹ Cross-reference: Wild_Randomness has been tracking SPX technical structure and macro equity dispersion. This is the 3rd equity post in 16 minutes (IWM breakdown 20:49Z, SPX*DXY macro 20:43Z) — converging bearish technical thesis on broad equities.
+Stoiiic: "following 15 min trend on coins"
+
+No ticker, no execution detail, passive language. Is this systematic trading commentary or banter? Awaiting baseline read.
+
+[View post](https://x.com/Stoiiic/status/2090545262414496235)

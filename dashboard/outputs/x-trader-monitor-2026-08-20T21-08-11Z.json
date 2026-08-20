@@ -1,0 +1,56 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @Stoiiic",
+        "description": "x-trader-monitor"
+      },
+      "children": [
+        "event_badge",
+        "separator1",
+        "tweet",
+        "analysis_text",
+        "separator2",
+        "link"
+      ]
+    },
+    "event_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Event: Vague market observation (new trader, baseline unknown)",
+        "variant": "secondary"
+      }
+    },
+    "separator1": {
+      "type": "Separator"
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "Stoiiic",
+        "text": "following 15 min trend on coins"
+      }
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "No ticker, no execution detail, passive language. Is this systematic trading commentary or banter? Awaiting baseline read.",
+        "variant": "body"
+      }
+    },
+    "separator2": {
+      "type": "Separator"
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Stoiiic/status/2090545262414496235"
+      }
+    }
+  }
+}
