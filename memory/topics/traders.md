@@ -52,9 +52,10 @@
 - Platforms: X (Twitter) + Discord
 - Current open positions: [TBD — tracking in progress]
 - Recent thesis: Timing-focused trader on crypto majors; bullish sentiment on BTC structure breakouts
-- Conviction notes: Technical sentiment trader; noted correct ~20-minute pre-breakout call on BTC Aug 20
-- Last seen: 2026-08-20T12:54:14Z (X — BTC breakout sentiment validation)
+- Conviction notes: Technical sentiment trader; noted correct ~20-minute pre-breakout call on BTC Aug 20; minor conviction doubt on pre-market overshoots
+- Last seen: 2026-08-20T13:08:32Z (Discord TradFi — conviction-doubt reflection on missed pre-market timing)
 - **Events (rolling):**
+  - Aug 20 13:08Z — informational-conviction-doubt: Discord TradFi (supporting) reflection on missed pre-market trade opportunity; "The lower part front-ran and then the up move overshot pre-market. vibe was just off, but maybe I should loosen back up"; technical doubt on breakout exhaustion structure; "maybe" qualifier indicates tentative conviction on adding back; supporting channel sentiment note, silent log [$PRE-MARKET STRUCTURE] [1539984485917917234]
   - Aug 20 12:54Z — informational-sentiment: X reply to @win_or_learning comparing BTC breakout charts; "would've said I'm long for the pop"; bullish validation call ~20min before breakout occurred; aligns with KillaXBT structural bull thesis [$BTC] [2090422155187991025]
 
 ## KillaXBT
