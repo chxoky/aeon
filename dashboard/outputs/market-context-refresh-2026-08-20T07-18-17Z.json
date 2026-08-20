@@ -1,0 +1,261 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Market Context — 2026-08-20"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stack_take",
+        "sep1",
+        "stack_prices",
+        "stack_indicators",
+        "sep2",
+        "stack_volume_tvl",
+        "sep3",
+        "stack_narrative"
+      ]
+    },
+    "stack_take": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_take",
+        "badge_conviction"
+      ]
+    },
+    "badge_take": {
+      "type": "Badge",
+      "props": {
+        "text": "risk-on",
+        "variant": "default"
+      }
+    },
+    "badge_conviction": {
+      "type": "Badge",
+      "props": {
+        "text": "high conviction",
+        "variant": "secondary"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_prices": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_btc",
+        "stat_eth"
+      ]
+    },
+    "stat_btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$69,870",
+        "delta": "+8.7%",
+        "trend": "up"
+      }
+    },
+    "stat_eth": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$2,260",
+        "delta": "+18.0%",
+        "trend": "up"
+      }
+    },
+    "stack_indicators": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stack_fg",
+        "progress_breadth"
+      ]
+    },
+    "stack_fg": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_fg_label",
+        "progress_fg"
+      ]
+    },
+    "text_fg_label": {
+      "type": "Text",
+      "props": {
+        "text": "Fear & Greed",
+        "variant": "caption"
+      }
+    },
+    "progress_fg": {
+      "type": "Progress",
+      "props": {
+        "value": 62,
+        "max": 100,
+        "label": "62 Greed (was 46 Fear)"
+      }
+    },
+    "progress_breadth": {
+      "type": "Progress",
+      "props": {
+        "value": 17,
+        "max": 20,
+        "label": "Breadth 17/20"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_volume_tvl": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_dex_vol",
+        "stat_tvl"
+      ]
+    },
+    "stat_dex_vol": {
+      "type": "Stat",
+      "props": {
+        "label": "DEX Volume",
+        "value": "$10.8B",
+        "delta": "+86%",
+        "trend": "up"
+      }
+    },
+    "stat_tvl": {
+      "type": "Stat",
+      "props": {
+        "label": "TVL Ethereum",
+        "value": "$45.65B"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_narrative": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stack_regulatory",
+        "sep4",
+        "stack_market_bet"
+      ]
+    },
+    "stack_regulatory": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_top_narrative_label",
+        "heading_narrative",
+        "text_flows"
+      ]
+    },
+    "text_top_narrative_label": {
+      "type": "Text",
+      "props": {
+        "text": "Top narrative",
+        "variant": "caption"
+      }
+    },
+    "heading_narrative": {
+      "type": "Heading",
+      "props": {
+        "text": "SEC regulatory clarity (rising)",
+        "level": "h3"
+      }
+    },
+    "text_flows": {
+      "type": "Text",
+      "props": {
+        "text": "$369M ETF inflows + $1.44B squeeze",
+        "variant": "body"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_market_bet": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_hot_market_label",
+        "text_market_question",
+        "progress_market"
+      ]
+    },
+    "text_hot_market_label": {
+      "type": "Text",
+      "props": {
+        "text": "Hot market",
+        "variant": "caption"
+      }
+    },
+    "text_market_question": {
+      "type": "Text",
+      "props": {
+        "text": "Will crypto mcap dip to $2T in 2026?",
+        "variant": "lead"
+      }
+    },
+    "progress_market": {
+      "type": "Progress",
+      "props": {
+        "value": 52,
+        "max": 100,
+        "label": "YES 52%"
+      }
+    }
+  }
+}

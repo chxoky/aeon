@@ -1,77 +1,79 @@
-# Market Context (as of 2026-08-19)
+# Market Context (as of 2026-08-20)
 
-> **Take:** chop (resilient) — BTC +1.1% to $64,811 absorbing hawkish Fed July minutes (3 dissents; Logan/Hammack/Kashkari, first 3-member bloc since Sep 2016); intraday breadth improved 57→71/100 green; ETF $189M net inflow Aug 18 counterweights macro pressure. Conviction: medium.
+> **Take:** risk-on — BTC +8.7% to $69,870, ETH +18% to $2,260; SEC Regulation Crypto Assets proposal + $1.44B short squeeze broke the 20-day $62K–$65K range. Conviction: high.
 
 ## Signal Snapshot
-- BTC $64,811 (+1.1% 24h, +1.0% 7d) · dominance 56.54% (+0.08pp 24h)
-- ETH $1,934.88 (+2.0% 24h, +1.1% 7d) · ETH/BTC 0.02985
-- SOL $78.31 (+2.9% 24h, +2.0% 7d)
-- Total mcap $2.30T (+0.97% 24h) · DEX vol $5.81B 24h
-- Breadth: 13/20 green 24h (non-stablecoin top 20) · intraday 71/100 green (afternoon)
-- Fear & Greed: 46 (Fear) — yesterday 41
+- BTC $69,870 (+8.7% 24h, +9.4% 7d) · dominance 58.4% (+1.86pp 24h)
+- ETH $2,260 (+18.0% 24h, +19.5% 7d) · ETH/BTC 0.03234
+- SOL $85.86 (+11.6% 24h, +12.3% 7d)
+- Total mcap $2.40T (+7.5% 24h) · DEX vol $10.79B 24h
+- Breadth: ~17/20 green 24h (non-stablecoin top 20) · ~15/20 green 7d
+- Fear & Greed: 62 (Greed) — yesterday 46 (Fear)
 
 ## What Changed Since Last Refresh
-- **Fed July minutes HAWKISH — 3 dissents (Logan/Hammack/Kashkari):** Sep rate hike risk rising; first 3-member dissent bloc since Sep 2016. Prior context expected dovish — miss.
-- **BTC absorbed hawkish minutes: $64,359 → $64,811 (+$452):** Resilience signal; failed to cascade to $62K despite hawkish surprise.
-- **Breadth improved sharply: ~10/20 → 13/20 → 71/100 green intraday:** Morning breadth weak; afternoon saw broad-market recovery (57→71 green per token-movers).
-- **ETF $189M net inflow on Aug 18 (WuBlockchain):** Reversal from prior outflow period; institutional bid returning.
-- **HCH escalated to 65% net short, 1.8x leverage:** BTC at $65K = short thesis; equities→metals→crypto→oil cascade narrative; SOL short added today.
-- **LINK returned to trending (+3.4% 24h, +10.0% 7d):** Dropped from trending yesterday, re-entered today; attention phase resuming.
+- **BTC +$5,059 (+7.8%) to $69,870:** Cleared $65K 20-day resistance decisively; largest 24h gain since Aug 7 NFP session.
+- **ETH +$325 (+16.8%) to $2,260:** Decisive $2,200 breakout; ETH/BTC ratio 0.02985→0.03234 (+8.4%) — ETH 2x outperformed BTC 24h.
+- **F&G jumped +16pts Fear(46)→Greed(62):** First Greed reading since early August; single-session sentiment flip.
+- **DEX vol $5.81B→$10.79B (+86%):** Highest single-session DEX volume since peak bull run; broad participation confirmed.
+- **$1.44B short liquidations — largest squeeze of 2026:** SEC catalyst + ETF inflows + Treasury buybacks caught heavily short market; self-reinforcing cascade.
+- **SEC Regulation Crypto Assets proposal (Aug 18) landed:** Framework for crypto capital raising + two registration exemptions — primary fundamental catalyst.
+- **BTW −41.7% 24h:** Yesterday's breakout narrative collapses; isolated pump-and-dump mechanics confirmed (was +179% 7d, now fading fast).
+- **LIT +26.7% 24h:** HCH's LIT short (live since Aug 13) now deeply underwater; squeeze dynamics active.
 
 ## Active Narratives
-- **Fed hawkish surprise / Jackson Hole** — phase: peak. Evidence: 3-dissent minutes released today (first such bloc since Sep 2016); BTC range $62K–$65K for 20+ consecutive days; Jackson Hole Aug 27–29 (8 days); HCH's 65% net-short regime calibrated to this macro.
-- **BTW breakout (day 3+)** — phase: rising. Evidence: BTW +66% 24h, rank 47, CoinGecko trending day 3+; +179% 7d; $0.63 price; volume sustained ~$130M; no GameFi peer breadth (GALA −3.6%) — isolated move.
-- **Privacy (ZEC/XMR)** — phase: rising. Evidence: ZEC rank 14 (+1.6% 24h, +4.6% 7d, $8.66B mcap); XMR rank 16 (+0.6% 24h, +3.7% 7d, $7.77B mcap); both in top-20 by market cap — structural accumulation, not a pump.
-- **Perp DEX / HYPE** — phase: rising (contested). Evidence: HYPE −0.8% 24h but +6.3% 7d (rank 10, $13.2B mcap); ryzzqq scaled longs in "stifler's mom zone"; HCH flagged local-top formation on 1h chart at $60.47; two-trader divergence = contested.
-- **ETF institutional inflow reversal** — phase: emerging. Evidence: $189M net inflow Aug 18 (WuBlockchain); described as "sixth straight day of inflows" and "zero outflow days in August" by multiple sources — contradicts memory's Aug 14 outflow flag (may be data-source divergence).
+- **SEC regulatory clarity** — phase: rising. Evidence: SEC proposed Regulation Crypto Assets framework Aug 18; $369M combined BTC+ETH ETF inflows on Aug 18; BTC broke above $65K resistance held 20+ days — fundamental catalyst with institutional co-confirmation.
+- **ETH outperformance / DeFi rotation** — phase: rising. Evidence: ETH +18% 24h vs BTC +8.7% — 2.1x relative outperformance; ETH/BTC ratio +8.4% in one session; Ethereum chain TVL $45.65B (up from $41.80B prior, +9.2%); Lido TVL +20.5% 7d, Aave V3 +12.8% 7d.
+- **HYPE / Perp DEX** — phase: rising (confirmed). Evidence: HYPE +23.1% 24h (CoinGecko trending #1 by score, $71.95, mcap $16B); ryzzqq long thesis validated; prior HCH top-formation warning got squeezed.
+- **Monad / L1 speculation** — phase: emerging. Evidence: MON +16.3% 24h (rank 128, $295M mcap); CoinGecko trending; alt-L1 bets activated on broad risk-on session — no sustained 7d arc yet.
+- **BTW pump collapse** — phase: fading. Evidence: BTW −41.7% 24h (rank 70, $950M mcap); was +179% 7d entering today; GameFi breadth absence warning (GALA −3.6%) validated — isolated move exhausted.
 
 ## Top DeFi Protocols (TVL, 7d change)
-- Lido: $18.35B (+1.40%)
-- Aave V3: $14.41B (+1.57%)
-- SSV Network: $9.70B (+1.92%)
-- Morpho Blue: $8.11B (+2.67%)
-- WBTC: $7.36B (+0.60%)
+- Lido: $21.51B (+20.50%)
+- Aave V3: $15.94B (+12.76%)
+- SSV Network: $11.35B (+20.26%)
+- Morpho Blue: ~$8.1B (not refreshed — DeFiLlama API returned CEX-inclusive results; prior value carried)
+- WBTC: ~$7.4B (not refreshed — prior value carried)
 
 ## Chain Flow (top 5 by TVL)
-- Ethereum: $41.80B (no 7d delta available)
-- Solana: $4.92B (no 7d delta available)
-- BSC: $4.90B (no 7d delta available)
-- Tron: $4.79B (no 7d delta available)
-- Base: $4.69B (no 7d delta available)
+- Ethereum: $45.65B
+- Solana: $5.20B
+- BSC: $5.19B
+- Base: $5.02B
+- Tron: $5.00B
+(7d chain deltas not available from API; absolute TVL reflects today's price-driven uplift)
 
 ## Stablecoins
-Total: ~$274B (estimate). USDT $182.96B · USDC $71.77B · USDS $9.78B · DAI ~$4.78B · combined share of mcap ~11.9% (no flight-to-stable signal; stable mcap flat while risk assets gaining).
+Total: ~$271B. USDT $182.95B · USDC $72.48B · USDS $6.68B · DAI $4.77B · USDe $4.08B · combined share of mcap ~11.3% (no flight-to-stable signal; stablecoin mcap flat while risk assets surging = constructive).
 
 ## Trending (CoinGecko)
-- BTW (Bitway) — rank 47, $0.63, +66.1% 24h [BREAKOUT day 3+; +179% 7d; volume ~$130M; no GameFi breadth]
-- PUMP (Pump.fun) — rank 62, $0.003, +7.0% 24h [Solana launchpad; continuing multi-day run]
-- HYPE (Hyperliquid) — rank 10, $59.19, −0.8% 24h [perp DEX; ryzzqq longs active; HCH top-formation caution]
-- LINK (Chainlink) — rank 17, $9.74, +3.4% 24h [returned to trending after 1-day dropout; +10.0% 7d]
-- VVV (Venice) — rank 86, $14.13, −2.5% 24h [AI token; fading from attention]
-- VELVET — rank 128, $0.67, +8.3% 24h [low-cap speculative; no thesis]
-- PONS — rank 694, $0.034, +23.9% 24h [micro-cap spike; noise]
+- HYPE (Hyperliquid) — rank 10, $71.95, +23.1% 24h [perp DEX; squeeze beneficiary; rising confirmed]
+- LIT (Lighter) — rank 84, $2.92, +26.7% 24h [HCH short underwater; watch for short cover exhaustion]
+- MON (Monad) — rank 128, $0.025, +16.3% 24h [L1 speculation; emerging, no 7d arc yet]
+- CASHCAT (Cash Cat) — rank 229, $0.117, +25.6% 24h [memecoin; risk-on noise; no thesis]
+- PEPE (Pepe) — rank 63, $0.0000029, +12.8% 24h [risk-on memecoin participation; no independent thesis]
+- PIPEDOG — rank 602, $0.0026, +18.9% 24h [micro-cap memecoin; noise]
+- BTW (Bitway) — rank 70, $0.351, −41.7% 24h [PUMP COLLAPSED; trending as crash; avoid]
 
-## Prediction Markets (Polymarket, top by 24h vol)
+## Prediction Markets (Polymarket, top by liquidity)
 | Market | YES% | 24h Vol | Liquidity |
 |--------|------|---------|-----------|
-| Strait of Hormuz traffic returns to normal by Sep 30? | 7.5% | $625K | $708K |
+| Will total crypto market cap dip to $2T in 2026? | 52% | $0.11M | $100M |
 
-*Only 1 qualifying market (3%–97% filter). Hormuz tail risk remains dominant Polymarket signal. No crypto/Fed rate markets in top 10 by 24h volume today.*
+*Only 1 qualifying crypto-relevant market (3%–97% filter; esports and sports markets dominated top by 24h vol). Crypto market cap $2T floor at 52% YES — current cap $2.40T; if today's rally holds, this probability should reprice lower.*
 
 ## Macro Catalysts (next 48h)
-- **Fed July minutes — released TODAY (Aug 19), HAWKISH:** 3 dissents (Logan/Hammack/Kashkari), Sep rate hike risk rising. BTC absorbed without cascade (resilience). First 3-member dissent bloc since Sep 2016.
-- **SPCX 2nd unlock — Aug 20 (tomorrow):** ryzzqq thesis: dump when attention wanes; HCH short active; contested with 3-trader longs. Volatility risk intraday.
-- **WR ETH inflection — Aug 20 (tomorrow):** Wild_Randomness "randomly placed arrow" daily chart level; ETH/USDT consolidating 1,564–1,911 range with RSI ~40.
-- **Jackson Hole — Aug 27–29 (8 days):** Powell speech is primary regime catalyst; BTC range likely to hold until then.
+- **WR ETH inflection — today (Aug 20):** Wild_Randomness "randomly placed arrow" daily chart level was due today; ETH resolved UPWARD +18% — inflection triggered bullish. ETH 10-day binary (from Aug 13) resolved.
+- **HCH 65% net short under extreme stress:** HCH's cascade thesis (equities→metals→crypto→oil) with LIT/SOL/HYPE shorts all squeezing; public position update or forced cover likely in next 24-48h. Monitor for pivot signal.
+- **Jackson Hole — Aug 27–29 (7 days):** Powell speech is next regime catalyst; BTC now above $69K entering the event. Hawkish framing risks $65K retest; dovish pivot confirmation targets $75K+.
 
 ## Implications for Downstream Skills
-- **token-pick:** BTC absorbing hawkish minutes = resilience — do NOT chase longs until $65K breaks; ZEC/XMR 7d arc intact (rising confirmed); HYPE contested (ryzzqq long vs HCH top-formation — await Kyle `approve HYPE` before any mirror); BTW day 3+ but no GameFi breadth = sizing risk (isolated). Hold off broad alts until $65K resistance clears.
-- **narrative-tracker:** Fed hawkish surprise absorbed = new data point (rate market repricing); monitor Sep rate probabilities. BTW day 4 — watch volume exhaustion or GameFi peer (GALA/PORTAL) confirmation. ETF inflow reversal is key institutional signal to track through week. HCH cascade thesis (equities→metals→crypto→oil) at 65% net short = contrarian to ETF inflow signal — divergence worth flagging.
+- **token-pick:** BTC cleared $65K — breakout valid but entered on a $1.44B squeeze; wait 24-48h for OI normalization before new longs. ETH and ETH-adjacent (HYPE, Lido, Aave) are priority given 2x relative outperformance. BTW dead (−41.7%). LIT watch: HCH short underwater but rally may exhaust at short cover completion.
+- **narrative-tracker:** SEC framework is now the primary narrative — monitor comment period and which sectors benefit from registration exemptions. BTW narrative dead (invalidated). HCH's short thesis (65% net short, equities cascade) is under maximum stress — position update is the next high-signal event to watch. Jackson Hole (7 days) is the next binary.
 
 ## Token Picks Made
 | Date | Token | Price | Thesis |
 |------|-------|-------|--------|
 
 ---
-*Sources — btc/eth/sol: CoinGecko /simple/price · top20/breadth: CoinGecko /coins/markets · global: CoinGecko /global · trending: CoinGecko /search/trending · defi protocols: DeFiLlama /protocols (top 5 fresh) · chains: DeFiLlama /v2/chains (TVL only; no 7d delta) · dex vol: DeFiLlama /overview/dexs ($5.81B 24h fresh) · stablecoins: USDT/USDC/USDS fresh from CoinGecko top-20; DAI carried · sentiment: alternative.me · markets: Polymarket (1 qualifying market) · macro: WebSearch + memory/logs/2026-08-19.md · etf flows: WebSearch (WuBlockchain sourced)*
-*Source status: coingecko=ok defillama=ok(protocols fresh; chains TVL only; no 7d chain deltas) fng=ok polymarket=ok(1 qualifying market) websearch=ok*
+*Sources — btc/eth/sol: CoinGecko /simple/price · top20/breadth: CoinGecko /coins/markets · global: CoinGecko /global · trending: CoinGecko /search/trending · defi protocols: DeFiLlama /protocols (Lido/Aave/SSV fresh; Morpho/WBTC carried) · chains: DeFiLlama /v2/chains (TVL only; no 7d delta) · dex vol: DeFiLlama /overview/dexs ($10.79B 24h fresh) · stablecoins: DeFiLlama stablecoins.llama.fi (fresh) · sentiment: alternative.me · markets: Polymarket (1 qualifying market, liquidity sort) · macro: WebSearch (SEC proposal; $1.44B liquidations; ETF flows; Treasury buybacks)*
+*Source status: coingecko=ok defillama=ok(protocols 3 fresh; chains TVL only; stablecoins fresh) fng=ok polymarket=ok(1 qualifying crypto market) websearch=ok*
