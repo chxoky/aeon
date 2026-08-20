@@ -1,0 +1,230 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet",
+        "sep1",
+        "holdings_section",
+        "sep2",
+        "activity_section",
+        "sep3",
+        "btc_section",
+        "sep4",
+        "link"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Current holdings: HYPE, LIT, PEPE, ENA. Failed bear mode attempt (68k loss after 66k inval). Considering conditional reversion play if we take out 74.5k + funding/OI stretched — not immediate priority."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "holdings_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "holdings_label",
+        "holdings_badges"
+      ]
+    },
+    "holdings_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Holdings",
+        "level": "h3"
+      }
+    },
+    "holdings_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_hype",
+        "badge_lit",
+        "badge_pepe",
+        "badge_ena"
+      ]
+    },
+    "badge_hype": {
+      "type": "Badge",
+      "props": {
+        "text": "HYPE"
+      }
+    },
+    "badge_lit": {
+      "type": "Badge",
+      "props": {
+        "text": "LIT"
+      }
+    },
+    "badge_pepe": {
+      "type": "Badge",
+      "props": {
+        "text": "PEPE"
+      }
+    },
+    "badge_ena": {
+      "type": "Badge",
+      "props": {
+        "text": "ENA"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "activity_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "activity_label",
+        "activity_stats",
+        "activity_note"
+      ]
+    },
+    "activity_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Trading Activity",
+        "level": "h3"
+      }
+    },
+    "activity_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_loss",
+        "stat_inval",
+        "stat_reversion_level"
+      ]
+    },
+    "stat_loss": {
+      "type": "Stat",
+      "props": {
+        "label": "Bear Mode Loss",
+        "value": "-68k",
+        "trend": "down"
+      }
+    },
+    "stat_inval": {
+      "type": "Stat",
+      "props": {
+        "label": "Inval",
+        "value": "66k"
+      }
+    },
+    "stat_reversion_level": {
+      "type": "Stat",
+      "props": {
+        "label": "Reversion Target",
+        "value": "74.5k"
+      }
+    },
+    "activity_note": {
+      "type": "Text",
+      "props": {
+        "text": "Considering conditional reversion play if we take out 74.5k + funding/OI stretched — not immediate priority.",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "btc_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "btc_label",
+        "btc_stats"
+      ]
+    },
+    "btc_label": {
+      "type": "Heading",
+      "props": {
+        "text": "BTC Liquidation Context",
+        "level": "h3"
+      }
+    },
+    "btc_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_current_btc",
+        "stat_upside"
+      ]
+    },
+    "stat_current_btc": {
+      "type": "Stat",
+      "props": {
+        "label": "Current Level",
+        "value": "72.75K"
+      }
+    },
+    "stat_upside": {
+      "type": "Stat",
+      "props": {
+        "label": "Upside Levels",
+        "value": "28B zone"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2090549465543508066"
+      }
+    }
+  }
+}
