@@ -1,0 +1,97 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stack_source",
+        "tweetcard_main",
+        "link_view",
+        "sep_1",
+        "text_analysis"
+      ]
+    },
+    "stack_source": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "text_emoji",
+        "badge_x",
+        "text_handle"
+      ]
+    },
+    "text_emoji": {
+      "type": "Text",
+      "props": {
+        "text": "🐦",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "badge_x": {
+      "type": "Badge",
+      "props": {
+        "text": "[X]",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text_handle": {
+      "type": "Text",
+      "props": {
+        "text": "@HeartCanHodl",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "tweetcard_main": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "Or this could simply be a bear market rally setting the stage for a much deeper and more brutal decline?"
+      },
+      "children": []
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/HeartCanHodl/status/2090384654264332437"
+      },
+      "children": []
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text_analysis": {
+      "type": "Text",
+      "props": {
+        "text": "ANSEM pump-dump pattern: spike to 0.3500 collapsed to 0.2459 on 1h chart. HCH bearish on failed pump reversal; implies further downside expected.",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}

@@ -15,8 +15,9 @@
 - Current open positions: NET SHORT regime (shifted Aug 07 00:28Z). [See memory/topics/active-trades.md for detailed allocation...]
 - Recent thesis: Regime shifted to net-short Aug 07 on BTC structure rejection at 64K. Systematic short basket + major-pair longs maintained.
 - Conviction notes: Disciplined portfolio architect. Primary Trades channel = highest conviction.
-- Last seen: 2026-08-20T09:26:01Z (Discord Chat — ambiguous cryptic "Rejection next")
+- Last seen: 2026-08-20T10:25:13Z (X — informational sentiment on ANSEM pump-dump structure)
 - **Events (rolling):**
+  - Aug 20 10:25Z — informational-sentiment-macro: X "Or this could simply be a bear market rally setting the stage for a much deeper and more brutal decline?" + ANSEM 1h chart showing pump spike 0.2508→0.3500 collapsed to 0.2459; bearish outlook on failed pump reversal pattern; alerted Kyle [$ANSEM] [2090384654264332437]
   - Aug 20 09:26Z — ambiguous-cryptic: Discord Chat "Rejection next" — cryptic market observation without ticker/timeframe context; unable to determine reference asset; HR-2 calibration alert sent to Kyle [$UNKNOWN] [1539928484095336479]
   - Aug 20 09:25Z — technical-check: Discord Chat "Fc btcdom 1d" — false-close chart check on BTC dominance 1-day; established pattern (Fc = TA check); silent log [$BTCDOM] [1539928234995482694]
   - Aug 20 09:15Z — conviction-add: Discord Trades "Add 5% btc short" — escalating BTC short position; +5% BTC conviction add within net-short regime; fast-path alerted [$BTC SHORTS CONVICTION] [1539925927264260126]
