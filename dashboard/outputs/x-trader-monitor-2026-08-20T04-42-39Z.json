@@ -1,0 +1,145 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "alert-stack"
+      ]
+    },
+    "alert-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert-main",
+        "author-section",
+        "quote-section",
+        "analysis-section"
+      ]
+    },
+    "alert-main": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Calibration Alert",
+        "message": "Unable to classify without context. What position is swarmister affirming?"
+      }
+    },
+    "author-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "author-label",
+        "author-badge",
+        "reply-context"
+      ]
+    },
+    "author-label": {
+      "type": "Text",
+      "props": {
+        "text": "User:",
+        "variant": "caption"
+      }
+    },
+    "author-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "swarmister",
+        "variant": "secondary"
+      }
+    },
+    "reply-context": {
+      "type": "Text",
+      "props": {
+        "text": "(@tutovlog123 reply)",
+        "variant": "muted"
+      }
+    },
+    "quote-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "quote-label",
+        "quote-text"
+      ]
+    },
+    "quote-label": {
+      "type": "Text",
+      "props": {
+        "text": "Reply:",
+        "variant": "caption"
+      }
+    },
+    "quote-text": {
+      "type": "Text",
+      "props": {
+        "text": "Nope still in",
+        "variant": "lead"
+      }
+    },
+    "analysis-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "positions-label",
+        "positions-grid"
+      ]
+    },
+    "positions-label": {
+      "type": "Text",
+      "props": {
+        "text": "Likely candidates from Aug open positions:",
+        "variant": "body"
+      }
+    },
+    "positions-grid": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-sndk",
+        "pos-btc",
+        "pos-doge"
+      ]
+    },
+    "pos-sndk": {
+      "type": "Badge",
+      "props": {
+        "text": "SNDK",
+        "variant": "outline"
+      }
+    },
+    "pos-btc": {
+      "type": "Badge",
+      "props": {
+        "text": "BTC",
+        "variant": "outline"
+      }
+    },
+    "pos-doge": {
+      "type": "Badge",
+      "props": {
+        "text": "DOGE",
+        "variant": "outline"
+      }
+    }
+  }
+}
