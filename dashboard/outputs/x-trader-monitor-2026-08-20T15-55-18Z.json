@@ -1,0 +1,80 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_header",
+        "tweetcard_main",
+        "link_tweet",
+        "separator_1",
+        "alert_analysis"
+      ]
+    },
+    "stack_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_platform",
+        "text_author",
+        "badge_btc"
+      ]
+    },
+    "badge_platform": {
+      "type": "Badge",
+      "props": {
+        "text": "X",
+        "variant": "secondary"
+      }
+    },
+    "text_author": {
+      "type": "Text",
+      "props": {
+        "text": "@KillaXBT",
+        "variant": "lead"
+      }
+    },
+    "badge_btc": {
+      "type": "Badge",
+      "props": {
+        "text": "$BTC"
+      }
+    },
+    "tweetcard_main": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "The HTF POC has been flipped. It was a sign of accumulation as mentioned, but now that we've seen a shift in market structure despite seasonality. Ideally, bulls want to maintain above it.\n\nIf we hold above the POC (with some slight deviation being expected), you'd expect a higher low to form into the next leg. So watch for stalling, then observe the 65–68K region, as that's around where the increased volume sits & where big buyers are likely to step in."
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2090466638533685744"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_analysis": {
+      "type": "Alert",
+      "props": {
+        "title": "Analysis Confirmation",
+        "message": "Chart analysis confirms key support structure at POC (~71.8K); 65-68K consolidation zone aligns with documented volume profile and likely institutional buyer entry zone. Thesis consistent with KillaXBT's documented accumulation-range framework and HTF bull conviction.",
+        "type": "info"
+      }
+    }
+  }
+}
