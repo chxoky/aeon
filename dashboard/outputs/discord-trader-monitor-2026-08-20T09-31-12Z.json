@@ -1,0 +1,78 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor — Calibration"
+      },
+      "children": [
+        "main_stack"
+      ]
+    },
+    "main_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "header_text",
+        "divider1",
+        "message_section",
+        "divider2",
+        "classification_alert"
+      ]
+    },
+    "header_text": {
+      "type": "Text",
+      "props": {
+        "text": "🔍 Calibration — [DC: HCH — Chat]"
+      }
+    },
+    "divider1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "author",
+        "message"
+      ]
+    },
+    "author": {
+      "type": "Text",
+      "props": {
+        "text": "HeartCanHodl:"
+      }
+    },
+    "message": {
+      "type": "Text",
+      "props": {
+        "text": "Rejection next"
+      }
+    },
+    "divider2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What is HCH referring to? Which ticker/timeframe? Is this expecting a technical rejection candle?",
+        "type": "warning"
+      }
+    }
+  }
+}
