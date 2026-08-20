@@ -1,0 +1,711 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-08-20"
+      },
+      "children": [
+        "transitions-section",
+        "sep1",
+        "reflexivity-section",
+        "sep2",
+        "positions-section",
+        "sep3",
+        "map-section"
+      ]
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "transitions-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "transitions-heading",
+        "transitions-subtitle",
+        "trans-eth",
+        "trans-btc",
+        "trans-hype",
+        "trans-trump",
+        "trans-squeeze"
+      ]
+    },
+    "transitions-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      }
+    },
+    "transitions-subtitle": {
+      "type": "Text",
+      "props": {
+        "text": "first run — all narratives new vs 3-day baseline",
+        "variant": "caption"
+      }
+    },
+    "trans-eth": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans-eth-badge",
+        "trans-eth-text"
+      ]
+    },
+    "trans-eth-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "default"
+      }
+    },
+    "trans-eth-text": {
+      "type": "Text",
+      "props": {
+        "text": "ETH Resurgence — +18.5% confirms WR's Thu breakout prediction; D1/W1 resistance at $2,400-$2,425; W1 ~$2,550 next target",
+        "variant": "body"
+      }
+    },
+    "trans-btc": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans-btc-badge",
+        "trans-btc-text"
+      ]
+    },
+    "trans-btc-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "default"
+      }
+    },
+    "trans-btc-text": {
+      "type": "Text",
+      "props": {
+        "text": "BTC Breakout / $65K Reclaim — $65K flipped, $19.5B short cascade, continuation toward $73.4K-$75K VAH",
+        "variant": "body"
+      }
+    },
+    "trans-hype": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans-hype-badge",
+        "trans-hype-text"
+      ]
+    },
+    "trans-hype-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "default"
+      }
+    },
+    "trans-hype-text": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE / Perp DEX — BREAKOUT event complete (day 7→Peak); HCH short underwater $60→$72; Hyperliquid regulatory risk flagged",
+        "variant": "body"
+      }
+    },
+    "trans-trump": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans-trump-badge",
+        "trans-trump-text"
+      ]
+    },
+    "trans-trump-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "default"
+      }
+    },
+    "trans-trump-text": {
+      "type": "Text",
+      "props": {
+        "text": "Trump Crypto Policy — SEC framework + X payments + US gov BTC + Treasury buybacks all in <24h (HCH: \"just not a confidence\")",
+        "variant": "body"
+      }
+    },
+    "trans-squeeze": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans-squeeze-badge",
+        "trans-squeeze-text"
+      ]
+    },
+    "trans-squeeze-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "default"
+      }
+    },
+    "trans-squeeze-text": {
+      "type": "Text",
+      "props": {
+        "text": "Short Squeeze / Liquidation Cascade — $19.5B record; event-driven reflexivity peak; narrative already fading post-catalyst",
+        "variant": "body"
+      }
+    },
+    "reflexivity-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "reflexivity-heading",
+        "reflex-hype",
+        "reflex-trump"
+      ]
+    },
+    "reflexivity-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      }
+    },
+    "reflex-hype": {
+      "type": "Alert",
+      "props": {
+        "title": "HYPE",
+        "message": "CT amplifying HCH's failed $60 short as buy signal; \"shorts getting rekt\" coverage → more longs → more squeeze (HCH 65% net-short, $72 vs $60)",
+        "type": "warning"
+      }
+    },
+    "reflex-trump": {
+      "type": "Alert",
+      "props": {
+        "title": "Trump Crypto Policy",
+        "message": "4 major US crypto catalysts in <24h reads coordinated; HCH flagged explicitly; Clarity Act at 17.5% Polymarket vs. market pricing it as done",
+        "type": "warning"
+      }
+    },
+    "positions-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "positions-heading",
+        "pos-btc",
+        "pos-eth",
+        "pos-hype",
+        "pos-trump",
+        "pos-jackson",
+        "pos-ai"
+      ]
+    },
+    "positions-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      }
+    },
+    "pos-btc": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-btc-title",
+        "pos-btc-status",
+        "pos-btc-traders",
+        "pos-btc-notes"
+      ]
+    },
+    "pos-btc-title": {
+      "type": "Text",
+      "props": {
+        "text": "RIDE: BTC Breakout",
+        "variant": "lead"
+      }
+    },
+    "pos-btc-status": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-btc-badge-5",
+        "pos-btc-badge-up",
+        "pos-btc-badge-bull"
+      ]
+    },
+    "pos-btc-badge-5": {
+      "type": "Badge",
+      "props": {
+        "text": "5",
+        "variant": "secondary"
+      }
+    },
+    "pos-btc-badge-up": {
+      "type": "Badge",
+      "props": {
+        "text": "↑↑",
+        "variant": "secondary"
+      }
+    },
+    "pos-btc-badge-bull": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "secondary"
+      }
+    },
+    "pos-btc-traders": {
+      "type": "Text",
+      "props": {
+        "text": "@KillaXBT, @Crypto_Chase, @bull_genius",
+        "variant": "caption"
+      }
+    },
+    "pos-btc-notes": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: t_in_crypto \"closing large long soon at top of range\" | Gate: $73.4K-$75K VAH",
+        "variant": "body"
+      }
+    },
+    "pos-eth": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-eth-title",
+        "pos-eth-status",
+        "pos-eth-traders",
+        "pos-eth-notes"
+      ]
+    },
+    "pos-eth-title": {
+      "type": "Text",
+      "props": {
+        "text": "RIDE: ETH Resurgence",
+        "variant": "lead"
+      }
+    },
+    "pos-eth-status": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-eth-badge-5",
+        "pos-eth-badge-up",
+        "pos-eth-badge-bull"
+      ]
+    },
+    "pos-eth-badge-5": {
+      "type": "Badge",
+      "props": {
+        "text": "5",
+        "variant": "secondary"
+      }
+    },
+    "pos-eth-badge-up": {
+      "type": "Badge",
+      "props": {
+        "text": "↑↑",
+        "variant": "secondary"
+      }
+    },
+    "pos-eth-badge-bull": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "secondary"
+      }
+    },
+    "pos-eth-traders": {
+      "type": "Text",
+      "props": {
+        "text": "@swarmister, @Wild_Randomness",
+        "variant": "caption"
+      }
+    },
+    "pos-eth-notes": {
+      "type": "Text",
+      "props": {
+        "text": "W1 ~$2,550 next | Bear: D1 resistance reached | WR binary Aug 23",
+        "variant": "body"
+      }
+    },
+    "pos-hype": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-hype-title",
+        "pos-hype-status",
+        "pos-hype-notes"
+      ]
+    },
+    "pos-hype-title": {
+      "type": "Text",
+      "props": {
+        "text": "FADE: HYPE / Perp DEX",
+        "variant": "lead"
+      }
+    },
+    "pos-hype-status": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-hype-badge-4",
+        "pos-hype-badge-peak"
+      ]
+    },
+    "pos-hype-badge-4": {
+      "type": "Badge",
+      "props": {
+        "text": "4",
+        "variant": "secondary"
+      }
+    },
+    "pos-hype-badge-peak": {
+      "type": "Badge",
+      "props": {
+        "text": "↑→ Peak",
+        "variant": "secondary"
+      }
+    },
+    "pos-hype-notes": {
+      "type": "Text",
+      "props": {
+        "text": "Reflexivity peak, regulatory flag, HCH adding shorts; event complete",
+        "variant": "body"
+      }
+    },
+    "pos-trump": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-trump-title",
+        "pos-trump-status",
+        "pos-trump-notes"
+      ]
+    },
+    "pos-trump-title": {
+      "type": "Text",
+      "props": {
+        "text": "WATCH: Trump Crypto Policy",
+        "variant": "lead"
+      }
+    },
+    "pos-trump-status": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-trump-badge-4",
+        "pos-trump-badge-mixed"
+      ]
+    },
+    "pos-trump-badge-4": {
+      "type": "Badge",
+      "props": {
+        "text": "4",
+        "variant": "secondary"
+      }
+    },
+    "pos-trump-badge-mixed": {
+      "type": "Badge",
+      "props": {
+        "text": "↑ Mixed",
+        "variant": "secondary"
+      }
+    },
+    "pos-trump-notes": {
+      "type": "Text",
+      "props": {
+        "text": "Real catalysts vs. HCH skepticism on compressed timing",
+        "variant": "body"
+      }
+    },
+    "pos-jackson": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-jackson-title",
+        "pos-jackson-status",
+        "pos-jackson-notes"
+      ]
+    },
+    "pos-jackson-title": {
+      "type": "Text",
+      "props": {
+        "text": "WATCH: Jackson Hole",
+        "variant": "lead"
+      }
+    },
+    "pos-jackson-status": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-jackson-badge-3",
+        "pos-jackson-badge-emerging"
+      ]
+    },
+    "pos-jackson-badge-3": {
+      "type": "Badge",
+      "props": {
+        "text": "3",
+        "variant": "secondary"
+      }
+    },
+    "pos-jackson-badge-emerging": {
+      "type": "Badge",
+      "props": {
+        "text": "↑ Emerging",
+        "variant": "secondary"
+      }
+    },
+    "pos-jackson-notes": {
+      "type": "Text",
+      "props": {
+        "text": "Aug 27 = 7 days; Sep cut near-certain; vol play > spot momentum",
+        "variant": "body"
+      }
+    },
+    "pos-ai": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-ai-title",
+        "pos-ai-status",
+        "pos-ai-notes"
+      ]
+    },
+    "pos-ai-title": {
+      "type": "Text",
+      "props": {
+        "text": "RIDE: AI x Crypto",
+        "variant": "lead"
+      }
+    },
+    "pos-ai-status": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-ai-badge-3",
+        "pos-ai-badge-bull"
+      ]
+    },
+    "pos-ai-badge-3": {
+      "type": "Badge",
+      "props": {
+        "text": "3",
+        "variant": "secondary"
+      }
+    },
+    "pos-ai-badge-bull": {
+      "type": "Badge",
+      "props": {
+        "text": "→ Bull",
+        "variant": "secondary"
+      }
+    },
+    "pos-ai-notes": {
+      "type": "Text",
+      "props": {
+        "text": "a16z, Virtuals/aixbt, Kaito Attention Markets; structural multi-month rising",
+        "variant": "body"
+      }
+    },
+    "map-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "map-heading",
+        "map-emerging",
+        "map-rising",
+        "map-peak",
+        "map-fading"
+      ]
+    },
+    "map-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h2"
+      }
+    },
+    "map-emerging": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-emerging-label",
+        "map-emerging-text"
+      ]
+    },
+    "map-emerging-label": {
+      "type": "Badge",
+      "props": {
+        "text": "Emerging",
+        "variant": "outline"
+      }
+    },
+    "map-emerging-text": {
+      "type": "Text",
+      "props": {
+        "text": "Jackson Hole / Fed Macro",
+        "variant": "body"
+      }
+    },
+    "map-rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-rising-label",
+        "map-rising-text"
+      ]
+    },
+    "map-rising-label": {
+      "type": "Badge",
+      "props": {
+        "text": "Rising",
+        "variant": "outline"
+      }
+    },
+    "map-rising-text": {
+      "type": "Text",
+      "props": {
+        "text": "BTC Breakout, ETH Resurgence, Trump Crypto Policy, SEC Regulatory Clarity, AI x Crypto, Privacy (ZEC/XMR day 6)",
+        "variant": "body"
+      }
+    },
+    "map-peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-peak-label",
+        "map-peak-text"
+      ]
+    },
+    "map-peak-label": {
+      "type": "Badge",
+      "props": {
+        "text": "Peak",
+        "variant": "outline"
+      }
+    },
+    "map-peak-text": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE / Perp DEX, Short Squeeze / Liquidation Cascade",
+        "variant": "body"
+      }
+    },
+    "map-fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-fading-label",
+        "map-fading-text"
+      ]
+    },
+    "map-fading-label": {
+      "type": "Badge",
+      "props": {
+        "text": "Fading",
+        "variant": "outline"
+      }
+    },
+    "map-fading-text": {
+      "type": "Text",
+      "props": {
+        "text": "(none)",
+        "variant": "body"
+      }
+    }
+  }
+}

@@ -1,21 +1,26 @@
-The sandbox blocks `rm` on dotfiles — the temp file stays but is harmless. The run is complete.
+*Narrative Tracker — 2026-08-20*
 
-## Summary
+TRANSITIONS (first run — all narratives new vs 3-day baseline)
+• NEW: ETH Resurgence — +18.5% confirms WR's Thu breakout prediction; D1/W1 resistance at $2,400-$2,425; W1 ~$2,550 next target
+• NEW: BTC Breakout / $65K Reclaim — $65K flipped, $19.5B short cascade, continuation toward $73.4K-$75K VAH
+• NEW: HYPE / Perp DEX — BREAKOUT event complete (day 7→Peak); HCH short underwater $60→$72; Hyperliquid regulatory risk flagged
+• NEW: Trump Crypto Policy — SEC framework + X payments + US gov BTC + Treasury buybacks all in <24h (HCH: "just not a confidence")
+• NEW: Short Squeeze / Liquidation Cascade — $19.5B record; event-driven reflexivity peak; narrative already fading post-catalyst
 
-**What was done:**
-- Read `memory/MEMORY.md` and last 3 days of logs (Aug 17-19) — no prior `narrative-tracker` baseline found; all narratives are NEW
-- Logged `NARRATIVE_CACHE_MISS` (`.xai-cache/narratives.json` absent)
-- Ran 3 WebSearch queries + 2 WebFetch calls to triangulate signals
-- Scored 9 narratives; 1 dropped (IGNORE)
+REFLEXIVITY ALERT
+• HYPE — CT amplifying HCH's failed $60 short as buy signal; "shorts getting rekt" coverage → more longs → more squeeze (HCH 65% net-short, $72 vs $60)
+• Trump Crypto Policy — 4 major US crypto catalysts in <24h reads coordinated; HCH flagged explicitly; Clarity Act at 17.5% Polymarket vs. market pricing it as done
 
-**Key output:**
-- **FRONT-RUN:** AI Agents x Crypto (mindshare 3 ↑↑) — a16z KYA piece, Coinbase AI accounts, $30B market cap; identity infrastructure not yet shipping = contrarian edge
-- **RIDE:** BTC Macro/Accumulation (4 ↑) — KillaXBT/bull_genius/ryzzqq convergence; 50s DCA zone thesis; Fed hawkish risk (Jackson Hole Aug 27)
-- **RIDE:** Privacy Coins ZEC/XMR (3 ↑) — day 4+ rising streak
-- **FADE:** BTW GameFi Breakout (4 ↓, Cope) — +179% 7d, isolated, reflexivity flag
-- **FADE:** PUMP Meme Run (3 ↓) — day 6+, HCH short, WR "Crescendo?" caution
-- **WATCH:** Risk-Off Cascade, HYPE/Perp DEX, SPCX Unlock (resolves Aug 20)
+POSITIONS
+• RIDE: BTC Breakout (5 ↑↑, Bull) — @KillaXBT, @Crypto_Chase, @bull_genius — bear: t_in_crypto "closing large long soon at top of range"; gate: $73.4K-$75K VAH
+• RIDE: ETH Resurgence (5 ↑↑, Bull) — @swarmister, @Wild_Randomness — W1 ~$2,550 next; bear: D1 resistance reached; WR binary Aug 23
+• FADE: HYPE / Perp DEX (4 ↑→, Peak) — reflexivity peak, regulatory flag, HCH adding shorts; event complete
+• WATCH: Trump Crypto Policy (4 ↑, Mixed) — real catalysts vs. HCH skepticism on compressed timing
+• WATCH: Jackson Hole (3 ↑, Emerging) — Aug 27 = 7 days; Sep cut near-certain; vol play \> spot momentum
+• RIDE: AI x Crypto (3 →, Bull) — a16z, Virtuals/aixbt, Kaito Attention Markets; structural multi-month rising
 
-**Files modified:**
-- `memory/logs/2026-08-19.md` — appended `### narrative-tracker` section
-- `.pending-notify/narrative-tracker-20260819.md` — queued for post-run Telegram delivery
+MAP
+Emerging: Jackson Hole / Fed Macro
+Rising: BTC Breakout, ETH Resurgence, Trump Crypto Policy, SEC Regulatory Clarity, AI x Crypto, Privacy (ZEC/XMR day 6)
+Peak: HYPE / Perp DEX, Short Squeeze / Liquidation Cascade
+Fading: —
