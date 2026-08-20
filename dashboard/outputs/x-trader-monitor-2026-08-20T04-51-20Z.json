@@ -1,0 +1,179 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor — Calibration"
+      },
+      "children": [
+        "heading",
+        "context-section",
+        "messages-section",
+        "positions-section",
+        "classification-alert"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @swarmister",
+        "level": "h2"
+      }
+    },
+    "context-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context-label",
+        "context-text"
+      ]
+    },
+    "context-label": {
+      "type": "Text",
+      "props": {
+        "text": "Context:",
+        "variant": "lead"
+      }
+    },
+    "context-text": {
+      "type": "Text",
+      "props": {
+        "text": "Sequential cryptic replies to @tutovlog123, 7 minutes apart.",
+        "variant": "body"
+      }
+    },
+    "messages-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "msg-earlier",
+        "msg-current"
+      ]
+    },
+    "msg-earlier": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "msg-earlier-time",
+        "msg-earlier-text"
+      ]
+    },
+    "msg-earlier-time": {
+      "type": "Badge",
+      "props": {
+        "text": "04:39Z",
+        "variant": "secondary"
+      }
+    },
+    "msg-earlier-text": {
+      "type": "Text",
+      "props": {
+        "text": "\"Nope still in\" — position/asset unclear",
+        "variant": "body"
+      }
+    },
+    "msg-current": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "msg-current-time",
+        "msg-current-text"
+      ]
+    },
+    "msg-current-time": {
+      "type": "Badge",
+      "props": {
+        "text": "04:46Z",
+        "variant": "secondary"
+      }
+    },
+    "msg-current-text": {
+      "type": "Text",
+      "props": {
+        "text": "\"Can you confirm that?\"",
+        "variant": "body"
+      }
+    },
+    "positions-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "positions-label",
+        "positions-badges"
+      ]
+    },
+    "positions-label": {
+      "type": "Text",
+      "props": {
+        "text": "Possible open positions:",
+        "variant": "caption"
+      }
+    },
+    "positions-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-sndk",
+        "badge-btc",
+        "badge-doge",
+        "badge-icp"
+      ]
+    },
+    "badge-sndk": {
+      "type": "Badge",
+      "props": {
+        "text": "SNDK",
+        "variant": "outline"
+      }
+    },
+    "badge-btc": {
+      "type": "Badge",
+      "props": {
+        "text": "BTC",
+        "variant": "outline"
+      }
+    },
+    "badge-doge": {
+      "type": "Badge",
+      "props": {
+        "text": "DOGE",
+        "variant": "outline"
+      }
+    },
+    "badge-icp": {
+      "type": "Badge",
+      "props": {
+        "text": "ICP",
+        "variant": "outline"
+      }
+    },
+    "classification-alert": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Unable to classify",
+        "message": "Original @tutovlog123 messages unavailable. Is this about one of his open positions, or external conversation? What's your read?"
+      }
+    }
+  }
+}
