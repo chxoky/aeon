@@ -1,0 +1,150 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Discord message event calibration"
+      },
+      "children": [
+        "heading_calibration",
+        "stack_main"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration — [DC: HCH — Chat]",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_event",
+        "text_event_desc",
+        "sep_1",
+        "stack_metadata",
+        "sep_2",
+        "heading_message",
+        "text_emoji_content",
+        "sep_3",
+        "alert_classification"
+      ]
+    },
+    "badge_event": {
+      "type": "Badge",
+      "props": {
+        "text": "Discord Message Event",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text_event_desc": {
+      "type": "Text",
+      "props": {
+        "text": "HeartCanHodl posting emoji-only message in supporting Chat channel",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack_metadata": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_user",
+        "text_channel",
+        "text_time",
+        "text_context"
+      ]
+    },
+    "text_user": {
+      "type": "Text",
+      "props": {
+        "text": "User: HeartCanHodl",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "text_channel": {
+      "type": "Text",
+      "props": {
+        "text": "Channel: Chat (supporting)",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "text_time": {
+      "type": "Text",
+      "props": {
+        "text": "Time: 18:09 UTC",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "Context: ~2.5 hours after closing remaining stock short positions",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_message": {
+      "type": "Heading",
+      "props": {
+        "text": "Message Content",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text_emoji_content": {
+      "type": "Text",
+      "props": {
+        "text": "<:Worry_Notes:1537468540712390666>",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert_classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification",
+        "message": "Unable to classify — what's your read? Is this market worry (short conviction shift?) or personal banter?",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}

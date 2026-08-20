@@ -15,8 +15,9 @@
 - Current open positions: NET SHORT regime (shifted Aug 07 00:28Z). [See memory/topics/active-trades.md for detailed allocation...] STOCKS: fully closed Aug 20 15:42Z.
 - Recent thesis: Regime shifted to net-short Aug 07 on BTC structure rejection at 64K. Systematic short basket + major-pair longs maintained. STOCKS: closed full position Aug 20 after partial reduction at 14:05Z.
 - Conviction notes: Disciplined portfolio architect. Primary Trades channel = highest conviction.
-- Last seen: 2026-08-20T15:42:26Z (X post — closing remaining stock short positions)
+- Last seen: 2026-08-20T18:09:05Z (Discord Chat — emoji-only message, ambiguous signal)
 - **Events (rolling):**
+  - Aug 20 18:09Z — ambiguous-cryptic: Discord Chat (supporting) emoji-only message ":Worry_Notes:" — unable to determine financial vs personal intent; emoji name suggests concern/worry but no text context; supporting channel real-time conviction signal unclear; HR-2 calibration alert sent to Kyle [$UNKNOWN] [1540060120791126116]
   - Aug 20 15:42Z — trade-full-tp: X "Okay, sir. Closing the stock short positions.." — closing remaining stock short position after 14:05Z partial close; full position exit; personal execution language; fast-path alerted [$STOCKS SHORTS FULL TP] [2090464481763856751]
   - Aug 20 14:05Z — trade-partial-tp: Discord Trades (primary) "Cover half more stock shorts" — covering half of existing stock short position; personal execution language; partial position reduction; fast-path alerted [$STOCKS SHORTS PARTIAL TP] [1539998785885835355]
   - Aug 20 13:01Z — informational-market-structure: Discord Chat (supporting) "Like everything happening just to make delusional pleb who believe bottom on october, start positioning like now... and then they target the other side, and hit the real bottom on october, just like the first plan" — philosophical commentary on market manipulation tactics and how "they" trap retail positioning through false/early bottom signals; structural market observation on player incentives, not personal execution; alerted Kyle [MARKET MANIPULATION THESIS] [1539982591665512550]
