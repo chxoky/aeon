@@ -11,3 +11,11 @@ My notional spot average of $65,897 doesn't seem to bad now either, does it?
 [View tweet](https://x.com/KillaXBT/status/2090397974320804084)
 
 ↳ _Position thesis validation — BTC breakout to 71.9K confirms his macro bull structure thesis; charts show clear path from 62.6K entry to current resistance. No new action, just gloating on existing conviction._
+🐦 *[X] @t_in_crypto*
+
+I like how ysterday CT shorted 64-65k and today they are euphoriacally predicting a bottom is in and calling for 80k+ lmao
+
+I've been taking a break from X for almost a month and I think I'll disappear soon again 🫠
+$btc #btc
+
+[View tweet](https://x.com/t_in_crypto/status/2090397831651610888)

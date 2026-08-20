@@ -27,9 +27,10 @@
 - Platforms: X (Twitter)
 - Current open positions: BTC long (from 58.4, large position size)
 - Recent thesis: Buying opportunity at $58.4 BTC; positioned for top-of-range exit
-- Conviction notes: Contrarian outlook during risk-on breakout; aware of liquidation risks to others; measured execution discipline (waiting for top of range before closing)
-- Last seen: 2026-08-20T10:01:47Z (X — cryptic group proof mention)
+- Conviction notes: Contrarian outlook during risk-on breakout; aware of liquidation risks to others; measured execution discipline (waiting for top of range before closing); skeptical of trend-followers' directional confidence
+- Last seen: 2026-08-20T11:17:35Z (X — sentiment commentary on other traders' BTC calls)
 - **Events (rolling):**
+  - Aug 20 11:17Z — informational-sentiment-macro: X "I like how ysterday CT shorted 64-65k and today they are euphoriacally predicting a bottom is in and calling for 80k+ lmao"; dismissive commentary on other traders' rapid sentiment reversal on BTC; implied bearish skew toward CT's 80k call; language indicates contrarian view but not personal execution; alerted Kyle [$BTC] [2090397831651610888]
   - Aug 20 10:01Z — ambiguous-cryptic: X "Proof from my group 🎯📌 $btc #btc https://t.co/JnEI4LXvss" + media (chart image inaccessible); extremely cryptic context-dependent text with emoji-only visual cues; no personal execution language (not saying they bought/sold/added/closed); could reference trade confirmation, group signal, market validation, or other context; media fetch returned empty (URL auth-gated or stale); unable to decipher meaning without image; HR-2 calibration alert sent to Kyle requesting interpretation [$BTC] [2090378755529146394]
   - Aug 20 09:55Z — informational-position-thesis: X "I'm back to say we're close to the top of range / I bought 58.4 and will be closing my large long soon" — position documentation + market view on BTC near resistance; future intention to close ("will be closing soon") but NOT current action; contrarian sentiment amid +8.8% risk-on breakout, $19.5B short liquidation cascade, F&G 62 Greed; Step 6 informational alert (market commentary, not trade signal); alerted Kyle [$BTC] [2090377223546998992]
 
