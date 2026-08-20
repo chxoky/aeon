@@ -1,0 +1,91 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor"
+      },
+      "children": [
+        "main_stack"
+      ]
+    },
+    "main_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "header_section",
+        "channel_section",
+        "separator_1",
+        "message_section"
+      ]
+    },
+    "header_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "reply_indicator",
+        "member_label"
+      ]
+    },
+    "reply_indicator": {
+      "type": "Text",
+      "props": {
+        "text": "↩️",
+        "variant": "caption"
+      }
+    },
+    "member_label": {
+      "type": "Text",
+      "props": {
+        "text": "Member",
+        "variant": "body"
+      }
+    },
+    "channel_section": {
+      "type": "Badge",
+      "props": {
+        "text": "💬 HCH — Chat",
+        "variant": "secondary"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "message_line_1",
+        "message_line_2"
+      ]
+    },
+    "message_line_1": {
+      "type": "Text",
+      "props": {
+        "text": "Like everything happening just to make delusional pleb who believe bottom on october, start positioning like now",
+        "variant": "body"
+      }
+    },
+    "message_line_2": {
+      "type": "Text",
+      "props": {
+        "text": "and then they target the other side, and hit the real bottom on october, just like the first plan",
+        "variant": "body"
+      }
+    }
+  }
+}

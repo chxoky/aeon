@@ -31,3 +31,4 @@ Event processed:
 - **Alert Sent:** No
 
 The message was an emoji-only reaction with no financial signal or execution language. Per Step 4A protocol, this non-financial banter was logged silently with no Telegram notification. Dedup tracking updated in `memory/discord-trader-seen.txt`, and event logged to `memory/logs/2026-08-20.md`.
+@alert_message.txt
