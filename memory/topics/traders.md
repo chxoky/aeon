@@ -75,3 +75,13 @@
   - Aug 20 11:41Z — informational-sentiment-conviction-reaffirm: X meme post "They hate ya cause they ain't ya... $BTC" + motivational video thumbnail; bullish hype sentiment continuing structural bull conviction; no trade action; alerted Kyle [$BTC] [2090403960293085491]
   - Aug 20 11:18Z — informational-sentiment-position-validation: X gloating post validating 2x long from 62.6K (current 71.9K) + spot avg 65.897; "$BTC 30% away from 50K target; don't try to perfect entries in imperfect market"; "My 2x long from 62.6K don't look too stupid now does it?"; 3 chart images showing breakout structure from entry zones; NOT a trade action (no placing/adding/closing); thesis reinforcement aligned with group risk-on sentiment & $19.5B liquidation cascade; alerted Kyle [$BTC] [2090397974320804084]
 
+## trading_axe
+
+- Platforms: X (Twitter)
+- Current open positions: Tracking narrative/market thesis position — Dr. Axius builder/announcer identity, ~70% banter/non-financial posts, no confirmed personal trades
+- Recent thesis: LIT pump catalyst identification (US gov/Trump admin mention for perps approval as catalyst); macro market opportunity identification focus
+- Conviction notes: Builder/commentator identity (Dr. Axius); positions himself as market analyst/idea distributor rather than active trader. Reflexivity thesis on meme tokens (CASHCAT/BONK patterns), leading indicator focus (ETH.D for alt accumulation timing), LIT catalyst analysis
+- Last seen: 2026-08-20T14:16:55Z (X — LIT/US perps approval catalyst commentary)
+- **Events (rolling):**
+  - Aug 20 14:16Z — informational-sentiment-market-view: X post on $LIT macroeconomic catalyst: "Some of you should look at the mcap of LIT and understand that the US gov/Trump admin mentioning a crypto coin for US perps approval [at such a low val] will cause a pump that we haven't seen since probably 2021. The rest is up to you guys to decide on how you want to position, but get exposure. ~ Dr. Axius." Narrative analysis + market suggestion (not personal execution). Cross-trader context: HCH short conviction (Jul 27 "2nd best trade"), WR bullish (weekend momentum long), ryzzqq bearish (Jul 25 "beta for a reason"). CONTESTED ticker, informational alert + cross-trader divergence noted for Kyle [$LIT] [2090442963767738609]
+

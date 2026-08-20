@@ -34,3 +34,16 @@ Let me create a summary of the execution. I'll document the outcome:
 - Kyle can monitor $73.4K-$75K resistance area per documented thesis
 - Watch for potential range-formation setup as per Aug 20 market structure analysis
 - Cross-reference with upcoming price action on this key level
+🐦 *[X] @trading_axe*
+
+Some of you should look at the mcap of LIT and understand that the US gov/Trump admin mentioning a crypto coin for US perps approval [at such a low val] will cause a pump that we haven't seen since probably 2021.
+
+The rest is up to you guys to decide on how you want to position, but get exposure.
+
+~ Dr. Axius.
+
+[View tweet](https://x.com/trading_axe/status/2090442963767738609)
+
+---
+
+↳ Cross-trader divergence flagged: HCH short (2nd best trade, Jul 27), ryzzqq bearish technical (Jul 25) vs. WR bullish long vs. trading_axe bullish catalyst narrative. 4-trader contested positioning on $LIT — catalyst risk (US gov/perps approval) could accelerate moves either direction. Monitor for structural validation.

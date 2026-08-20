@@ -1,0 +1,196 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X-Trader Monitor",
+        "description": "$LIT catalyst signal with cross-trader divergence"
+      },
+      "children": [
+        "tweet_section",
+        "sep1",
+        "divergence_section"
+      ]
+    },
+    "tweet_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "tweet_link"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Dr. Axius",
+        "handle": "trading_axe",
+        "text": "Some of you should look at the mcap of LIT and understand that the US gov/Trump admin mentioning a crypto coin for US perps approval [at such a low val] will cause a pump that we haven't seen since probably 2021.\n\nThe rest is up to you guys to decide on how you want to position, but get exposure."
+      }
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/trading_axe/status/2090442963767738609"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "divergence_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "divergence_alert",
+        "traders_grid"
+      ]
+    },
+    "divergence_alert": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Cross-Trader Divergence Flagged",
+        "message": "4-trader contested positioning on $LIT — catalyst risk (US gov/perps approval) could accelerate moves either direction. Monitor for structural validation."
+      }
+    },
+    "traders_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "hch_trader",
+        "ryzzqq_trader",
+        "wr_trader",
+        "trading_axe_trader"
+      ]
+    },
+    "hch_trader": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "hch_name",
+        "hch_position",
+        "hch_meta"
+      ]
+    },
+    "hch_name": {
+      "type": "Text",
+      "props": {
+        "text": "HCH",
+        "variant": "lead"
+      }
+    },
+    "hch_position": {
+      "type": "Badge",
+      "props": {
+        "text": "Short",
+        "variant": "destructive"
+      }
+    },
+    "hch_meta": {
+      "type": "Text",
+      "props": {
+        "text": "2nd best trade • Jul 27",
+        "variant": "caption"
+      }
+    },
+    "ryzzqq_trader": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ryzzqq_name",
+        "ryzzqq_position",
+        "ryzzqq_meta"
+      ]
+    },
+    "ryzzqq_name": {
+      "type": "Text",
+      "props": {
+        "text": "ryzzqq",
+        "variant": "lead"
+      }
+    },
+    "ryzzqq_position": {
+      "type": "Badge",
+      "props": {
+        "text": "Bearish Technical",
+        "variant": "destructive"
+      }
+    },
+    "ryzzqq_meta": {
+      "type": "Text",
+      "props": {
+        "text": "Jul 25",
+        "variant": "caption"
+      }
+    },
+    "wr_trader": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "wr_name",
+        "wr_position"
+      ]
+    },
+    "wr_name": {
+      "type": "Text",
+      "props": {
+        "text": "WR",
+        "variant": "lead"
+      }
+    },
+    "wr_position": {
+      "type": "Badge",
+      "props": {
+        "text": "Bullish Long",
+        "variant": "secondary"
+      }
+    },
+    "trading_axe_trader": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trading_axe_name",
+        "trading_axe_position"
+      ]
+    },
+    "trading_axe_name": {
+      "type": "Text",
+      "props": {
+        "text": "trading_axe",
+        "variant": "lead"
+      }
+    },
+    "trading_axe_position": {
+      "type": "Badge",
+      "props": {
+        "text": "Bullish Catalyst Narrative",
+        "variant": "secondary"
+      }
+    }
+  }
+}
