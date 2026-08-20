@@ -1,0 +1,123 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor",
+        "description": "Calibration — DC: HCH — Chat"
+      },
+      "children": [
+        "context-label",
+        "separator-1",
+        "signal-card",
+        "separator-2",
+        "analysis-section",
+        "separator-3",
+        "status-alert"
+      ]
+    },
+    "context-label": {
+      "type": "Text",
+      "props": {
+        "text": "Supporting channel real-time signal from HeartCanHodl (21:23Z)",
+        "variant": "muted"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "signal-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "heartcanhodl",
+        "text": "Well..vltf one SFP after another"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "unable-alert",
+        "interpretation-stack"
+      ]
+    },
+    "unable-alert": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Unable to classify",
+        "message": "Cryptic reference. What's your read?"
+      }
+    },
+    "interpretation-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "interpret-1",
+        "interpret-2",
+        "interpret-3",
+        "interpret-4"
+      ]
+    },
+    "interpret-1": {
+      "type": "Text",
+      "props": {
+        "text": "Could \"vltf\" = volatility? Vol target? Typo?",
+        "variant": "body"
+      }
+    },
+    "interpret-2": {
+      "type": "Text",
+      "props": {
+        "text": "Could \"SFP\" = ticker abbreviation? Position state? Market structure?",
+        "variant": "body"
+      }
+    },
+    "interpret-3": {
+      "type": "Text",
+      "props": {
+        "text": "No referenced member context (not a reply).",
+        "variant": "body"
+      }
+    },
+    "interpret-4": {
+      "type": "Text",
+      "props": {
+        "text": "Supporting channel = real-time conviction shift or chatter?",
+        "variant": "body"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "status-alert": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "title": "Status",
+        "message": "Awaiting interpretation"
+      }
+    }
+  }
+}

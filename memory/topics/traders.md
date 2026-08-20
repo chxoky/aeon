@@ -31,8 +31,9 @@
 - Current open positions: NET SHORT regime (shifted Aug 07 00:28Z). [See memory/topics/active-trades.md for detailed allocation...] STOCKS: fully closed Aug 20 15:42Z.
 - Recent thesis: Regime shifted to net-short Aug 07 on BTC structure rejection at 64K. Systematic short basket + major-pair longs maintained. STOCKS: closed full position Aug 20 after partial reduction at 14:05Z.
 - Conviction notes: Disciplined portfolio architect. Primary Trades channel = highest conviction.
-- Last seen: 2026-08-20T20:32:34Z (Discord Chat — pullback commentary, ambiguous signal)
+- Last seen: 2026-08-20T21:23:23Z (Discord Chat — cryptic volatility/SFP signal)
 - **Events (rolling):**
+  - Aug 20 21:23Z — ambiguous-cryptic: Discord Chat (supporting) "Well..vltf one SFP after another" — cryptic real-time signal with unclear abbreviations; "vltf" could reference volatility or be typo/shorthand; "SFP" undefined (ticker? position state? structure pattern?); supporting channel conviction shift or market observation unclear; no execution language; no referenced context; HR-2 calibration alert sent to Kyle [$UNKNOWN] [1540109015554461827]
   - Aug 20 20:32Z — ambiguous-cryptic: Discord Chat (supporting) "At the time of pullback" — cryptic market observation or position-state commentary; no ticker/execution language/reference; supporting channel real-time signal unclear (pullback of what? existing position adjustment?); HR-2 calibration alert sent to Kyle [$UNKNOWN] [1540096229210325124]
   - Aug 20 18:09Z — ambiguous-cryptic: Discord Chat (supporting) emoji-only message ":Worry_Notes:" — unable to determine financial vs personal intent; emoji name suggests concern/worry but no text context; supporting channel real-time conviction signal unclear; HR-2 calibration alert sent to Kyle [$UNKNOWN] [1540060120791126116]
   - Aug 20 15:42Z — trade-full-tp: X "Okay, sir. Closing the stock short positions.." — closing remaining stock short position after 14:05Z partial close; full position exit; personal execution language; fast-path alerted [$STOCKS SHORTS FULL TP] [2090464481763856751]
