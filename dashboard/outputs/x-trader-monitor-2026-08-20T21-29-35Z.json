@@ -1,0 +1,145 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading-cal",
+        "badge-author",
+        "sep-1",
+        "heading-event",
+        "text-event",
+        "sep-2",
+        "tweet-stoiiic",
+        "link-post",
+        "sep-3",
+        "alert-chart",
+        "sep-4",
+        "heading-analysis",
+        "text-execution",
+        "sep-5",
+        "text-baseline",
+        "sep-6",
+        "text-question"
+      ]
+    },
+    "heading-cal": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration",
+        "level": "h2"
+      }
+    },
+    "badge-author": {
+      "type": "Badge",
+      "props": {
+        "text": "@Stoiiic",
+        "variant": "default"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "text-event": {
+      "type": "Text",
+      "props": {
+        "text": "Technical analysis post on grid-layout ETH scalping setup (Aug 20 21:23:05 UTC)"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-stoiiic": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "@Stoiiic",
+        "text": "@worldofxvs session vwap and 5 min trend. coming off the back of some consolidation we know its an ETH beta so theres some tailwind but im not interested in stuff that's chopping around. if you have a grid layout, you start seeing activity on the first leg up = im interested in scalaping this now and then continuing to milk it."
+      }
+    },
+    "link-post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Stoiiic/status/2090550211227643937"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert-chart": {
+      "type": "Alert",
+      "props": {
+        "title": "Chart Image",
+        "message": "Unreachable (404)",
+        "type": "warning"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-analysis": {
+      "type": "Heading",
+      "props": {
+        "text": "Analysis & Uncertainty",
+        "level": "h3"
+      }
+    },
+    "text-execution": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify execution intent — is Stoiiic announcing CURRENT/ACTIVE scalp entry on ETH, or expressing INTEREST/PLAN to scalp this setup? Execution language ('interested...now') present but conditional setup description creates ambiguity.",
+        "variant": "body"
+      }
+    },
+    "sep-5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-baseline": {
+      "type": "Text",
+      "props": {
+        "text": "Stoiiic baseline: 5+ posts all cryptic/ambiguous, unclear if systematic trader.",
+        "variant": "caption"
+      }
+    },
+    "sep-6": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-question": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "lead"
+      }
+    }
+  }
+}
