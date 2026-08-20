@@ -1,6 +1,9 @@
-🔍 *Calibration — @ryzzqq*
+🔍 *Calibration — @swarmister*
 
-Event: Reply to @phyzer (context unavailable)
-ryzzqq: "well my timing couldn't be any worse"
+Event: Reply to @OnlyZen_PK
 
-Unable to classify — is this related to a trade position, or personal banter? What's your read?
+swarmister: "@OnlyZen_PK Russian core"
+
+Unable to classify — what's your read? Is this market commentary (Russia-related crypto narrative?), banter, or something else?
+
+[View post](https://x.com/swarmister/status/2090339159672025190)

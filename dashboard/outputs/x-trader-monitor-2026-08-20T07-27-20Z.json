@@ -1,0 +1,87 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "header",
+        "separator1",
+        "tweet",
+        "question",
+        "separator2",
+        "action"
+      ]
+    },
+    "header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "calibration-badge",
+        "event-badge",
+        "author-text"
+      ]
+    },
+    "calibration-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Calibration",
+        "variant": "outline"
+      }
+    },
+    "event-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Reply to @OnlyZen_PK",
+        "variant": "secondary"
+      }
+    },
+    "author-text": {
+      "type": "Text",
+      "props": {
+        "text": "@swarmister",
+        "variant": "muted"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "@OnlyZen_PK Russian core"
+      }
+    },
+    "question": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read? Is this market commentary (Russia-related crypto narrative?), banter, or something else?",
+        "variant": "lead"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "action": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/swarmister/status/2090339159672025190"
+      }
+    }
+  }
+}
