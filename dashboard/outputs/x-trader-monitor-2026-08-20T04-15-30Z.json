@@ -1,0 +1,41 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_main",
+        "link_tweet"
+      ]
+    },
+    "tweet_main": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "@swarmister",
+        "text": "🐦 BTC Technical Overview\n\nBreakout confirmed on daily chart, but bearish on longer-term structure.\n\nKey levels:\n• Resistance: VAH + 74,000 (mirror level)\n• Support: 67,000 (now acting as prior resistance), Summer balance VAH at 65,200\n• Current: Monitoring for possible rotation from yesterday's POC + upper imbalance\n\nTrader sentiment: Believes price will fall and form new low, BUT disciplined sizing (hasn't opened short position for entire allocated volume). Expects structure to invalidate the 74K target.\n\nCharts show daily breakout above downtrend + 1h consolidation structure."
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/swarmister/status/2090290688730579125"
+      }
+    }
+  }
+}

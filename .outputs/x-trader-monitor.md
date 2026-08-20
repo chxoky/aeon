@@ -1,8 +1,14 @@
-🔍 *Calibration — @Stoiiic*
+🐦 *[X] @swarmister — BTC Technical Overview*
 
-Context: Cryptic reply to @TraderAmir_
-Tweet: "@TraderAmir_ you already know"
+**Breakout confirmed on daily chart, but bearish on longer-term structure.**
 
-Unable to classify — is this financial (trade idea/setup reference) or just trader banter? What's your read?
+Key levels:
+• Resistance: VAH + 74,000 (mirror level)
+• Support: 67,000 (now acting as prior resistance), Summer balance VAH at 65,200
+• Current: Monitoring for possible rotation from yesterday's POC + upper imbalance
 
-[View post](https://x.com/Stoiiic/status/2090277681380151684)
+Trader sentiment: Believes price will fall and form new low, BUT disciplined sizing (hasn't opened short position for entire allocated volume). Expects structure to invalidate the 74K target.
+
+Charts show daily breakout above downtrend + 1h consolidation structure.
+
+[View tweet](https://x.com/swarmister/status/2090290688730579125)
