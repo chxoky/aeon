@@ -1,0 +1,46 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet",
+        "link",
+        "separator",
+        "note"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "$ETH\n\nPretty funny to look at now we're at the day of the arrow placed a few months ago\n\nAll I had to do was stay long into the freaking day lmao\n\nToo concerned with price, and not enough with time…"
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2090565301549334845"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "note": {
+      "type": "Text",
+      "props": {
+        "text": "Note: Referenced chart images could not be fetched, but post reflects past-tense retrospective on multi-month technical setup validation and wisdom on time vs price focus in trading.",
+        "variant": "caption"
+      }
+    }
+  }
+}
