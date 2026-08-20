@@ -1,0 +1,33 @@
+*Token Movers — 2026-08-20*
+
+_Risk-on momentum holds mid-session — 95%+ of top-100 coins green, median approx +9%; BTC $71.7K (+11.6%) and XRP accelerating (+17.9%) as the short-liquidation cascade continues._
+
+*Top Winners (24h) — new/escalated since morning*
+1. BOME (Book of Meme) — $0.0012  +58.4%  •  #282  [PUMP-RISK]
+2. MON (Monad) — $0.0262  +18.8%  •  #128  [TRENDING+UP]
+3. XRP — $1.19  +17.9% / 7d +17.6% / 1h +2.3%  •  $4.4B / #5  [MAJOR][TRENDING+UP]
+4. CRO (Cronos) — $0.0527  +17.2% / 7d +15.1% / 1h +1.9%  •  $11.2M / #38
+5. XLM (Stellar) — $0.1821  +15.2% / 7d +12.1% / 1h +1.4%  •  $292M / #20
+6. PUMP (Pump.fun) — $0.0034  +14.8% / 7d +22.4% / 1h +2.4%  •  $227M / #57  [TRENDING+UP]
+7. UNI (Uniswap) — $3.69  +12.3% / 7d +3.5% / 1h -0.1%  •  $343M / #39
+8. ADA (Cardano) — $0.1909  +10.8% / 7d +4.5% / 1h +1.6%  •  $647M / #18
+9. BTC — $71,695  +11.6% / 7d +13.0% / 1h 0.0%  •  $66.4B / #1  [MAJOR][TRENDING+UP]
+
+*Top Losers (24h)*
+Minimal — market broadly green. Weakest top-50 non-stables:
+• TRX (TRON) +1.4% / #8  •  LEO +0.8% / #15  •  HTX DAO +1.3% / #50
+
+*Trending*
+1. BOME (Book of Meme) — #282, $0.0012, +58.4%  [PUMP-RISK]
+2. HYPE (Hyperliquid) — #10, $71.28, +20.3%  [BREAKOUT]
+3. MON (Monad) — #128, $0.0262, +18.8%  [TRENDING+UP]
+4. XRP — #5, $1.19, +18.1%  [MAJOR]
+5. ETH — #2, $2,280, +18.1%  [MAJOR]
+6. LIT (Lighter) — #87, $2.73, +16.6%
+7. BTC — #1, $71,695, +10.5%  [MAJOR]
+
+*Notable*
+• BOME: #282 trending +58.4% — [PUMP-RISK], low-cap spike, high manipulation risk
+• XRP: escalated from +11.2% (07:00) to +17.9% (12:43) — mid-session acceleration on SEC clarity
+• LIT: peaked +26.1% at 07:58 UTC, now +16.6% — 10pp pullback, fade risk developing
+• HYPE [BREAKOUT]: +22.8% at $71.28; HCH short at $60 now 11+ pts underwater, no close signal yet

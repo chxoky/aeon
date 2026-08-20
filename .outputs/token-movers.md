@@ -1,21 +1,22 @@
-Temp files can't be deleted from the sandbox — they'll persist as hidden dotfiles. The core work is done.
+Done. The temp file will stay but doesn't affect anything. Here's the summary:
 
 ## Summary
 
-**token-movers run complete for 2026-08-20.**
+**Token-movers run complete (2026-08-20 12:43 UTC).**
 
-**Data fetched:** Top 250 coins by market cap + trending from CoinGecko. Filtered out stablecoins, wrapped assets, and sub-$1M volume tokens.
+**What I did:**
+- Read `memory/MEMORY.md` and last 2 days of logs to identify what was already reported (two earlier runs today: 07:00 UTC chain, 07:58 UTC standalone)
+- Fetched live market data from CoinGecko (top 250 by mcap + trending) via curl + WebFetch fallback
+- Filtered stablecoins and sub-$1M volume coins; applied signal tags
 
-**Market pulse:** Risk-on tape — 67/80 top coins green, median +7.2%. Broad alt participation.
+**Key findings vs this morning's runs:**
+- **BOME** [PUMP-RISK]: +58.4%, rank 282, now trending — new high-manipulation signal not in morning reports
+- **XRP** [MAJOR][TRENDING+UP]: escalated from +11.2% (07:00) → +17.9% (12:43) — mid-session acceleration
+- **MON** (Monad) [TRENDING+UP]: +18.8%, rank 128, newly trending
+- **LIT**: peaked +26.1% at 07:58, now +16.6% — 10pp pullback, fade risk developing
+- **HYPE** [BREAKOUT]: holds +22.8% at $71.28 (HCH short at $60 still ~$11 underwater)
+- Market pulse: overwhelmingly green, median ~+9%, no meaningful losers in top 250
 
-**Key signals surfaced:**
-- **LIT (+26.1%)** and **HYPE (+23.7%)** — both `[TRENDING+UP]`, strong convergence. Relevant: HCH had shorts on both (Aug 13); now squeezing hard.
-- **ETH (+18.5%)** — `[TRENDING+UP]`, tracked threshold hit (8%). Wild_Randomness ETH short binary resolves Aug 23.
-- **MET (+22.8% / 7d +35.7%)** — `[BREAKOUT]`, sustained momentum.
-- **BTW (-37.5%)** — biggest loser; was a `[BREAKOUT]` on Aug 14 at +21%, now reversed hard.
-- **AKE (-7.2% / 7d +108%)** — prior `[PUMP-RISK]` from Aug 14, still fading.
-- **BTC at $69,762 (+8.6%)** — in Trending, `[MAJOR]`; approaching the 74K VAH resistance level noted by swarmister.
-
-**Notification:** Written to `.pending-notify/1755734400.md` for post-run delivery (sandbox blocks direct `./notify` execution).
-
-**Log:** Appended to `memory/logs/2026-08-20.md`.
+**Files modified:**
+- `memory/logs/2026-08-20.md` — log entry appended
+- `.pending-notify/1787230653.md` — notification staged for post-run delivery (sandbox blocked direct send)
