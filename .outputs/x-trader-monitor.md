@@ -1,9 +1,11 @@
-🐦 *[X] @Wild_Randomness*
+🔍 *Calibration — @bull_genius*
 
-The most bullish thing may be that it hasn't been in sync with the stock market in quite some time
+Event: Personal status update with conditional market outlook
 
-Reminiscing Oct 2023
+bull_genius: "@shillyxbt rn like 95% flat, today was gf birthday i wasnt at screen. i posted i took profit from lower i didnt rebuy anything i wanted to focus on the day
 
-↳ _Aligns with the broader group bullish lean (KillaXBT structural bull, HeartCanHodl net-long, bull_genius BTC bull)._
+but if i see another big wipe candle up or sfp on chart i think ill punt short for the correction. so im just having eye on and letting it come to me"
 
-[View tweet](https://x.com/Wild_Randomness/status/2090582544983240818)
+Unable to classify — is this a pending conditional short order you're setting up, or market commentary/watching? Conditional "if X then I'll short" vs currently passive observation.
+
+[View post](https://x.com/bull_genius/status/2090584401818100124)
