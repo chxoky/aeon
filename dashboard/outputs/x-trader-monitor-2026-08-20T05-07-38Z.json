@@ -1,0 +1,49 @@
+{
+  "root": "card1",
+  "state": {},
+  "elements": {
+    "card1": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @Stoiiic"
+      },
+      "children": [
+        "eventBadge",
+        "sep1",
+        "tweet",
+        "sep2",
+        "question"
+      ]
+    },
+    "eventBadge": {
+      "type": "Badge",
+      "props": {
+        "text": "Standalone post",
+        "variant": "secondary"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "Stoiiic",
+        "text": "🫡"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "question": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read? Is this typically a financial signal or non-financial banter?",
+        "variant": "lead"
+      }
+    }
+  }
+}
