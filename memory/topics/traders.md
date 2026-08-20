@@ -55,8 +55,9 @@
 - Current open positions: [TBD — tracking in progress]
 - Recent thesis: Timing-focused trader on crypto majors; bullish sentiment on BTC structure breakouts
 - Conviction notes: Technical sentiment trader; noted correct ~20-minute pre-breakout call on BTC Aug 20; minor conviction doubt on pre-market overshoots
-- Last seen: 2026-08-20T13:38:19Z (Discord TradFi — cryptic market observation)
+- Last seen: 2026-08-20T16:52:00Z (Discord TradFi — cryptic chart-type reply)
 - **Events (rolling):**
+  - Aug 20 16:52Z — ambiguous-cryptic: Discord TradFi (supporting) reply to member Q&A "why does my chart look slightly different?" — Chase replied "class a vs c"; unable to determine meaning without clarification (chart type difference? asset class? technical pattern?); member Q&A context included; HR-2 calibration alert sent to Kyle [$UNKNOWN] [1540040720620978176]
   - Aug 20 13:38Z — ambiguous-cryptic: Discord TradFi (supporting) extremely vague market observation "odd conditions really"; no context about what conditions, no ticker, no referenced message; unable to classify without clarification; supporting channel noise vs conviction shift unclear; HR-2 calibration alert sent to Kyle [$UNKNOWN] [1539991980166221846]
   - Aug 20 13:35Z — informational-sentiment: Discord TradFi (supporting) vague market observation "nothing convincing on it yet" + chart image; ambiguous reference/setup without image context; supporting channel sentiment, no standalone alert; silent log [$SETUP-ANALYSIS?] [1539991179771384019]
   - Aug 20 13:18Z — informational-conviction-doubt: Discord TradFi (supporting) risk reflection on targeting strategy; "But I hate doing that because if the target comes first then the trade probably gets fucked"; escalation/expansion on missed pre-market timing concern; now focused on execution risk when target levels hit first (reversal/fake-break risk); no personal action; supporting channel conviction shift; alerted Kyle [$TARGETING RISK] [1539986941112623174]

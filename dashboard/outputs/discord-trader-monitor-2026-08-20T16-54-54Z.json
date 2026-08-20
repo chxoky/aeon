@@ -1,0 +1,107 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "heading-calibration",
+        "sep1",
+        "stack-conversation",
+        "sep2",
+        "alert-question"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — DC: Chase — TradFi",
+        "level": "h3"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack-conversation": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "member-msg",
+        "chase-msg"
+      ]
+    },
+    "member-msg": {
+      "type": "Text",
+      "props": {
+        "text": "Member: \"why does my chart look slightly different?\"",
+        "variant": "body"
+      }
+    },
+    "chase-msg": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "chase-label",
+        "chase-content"
+      ]
+    },
+    "chase-label": {
+      "type": "Text",
+      "props": {
+        "text": "Crypto_Chase:",
+        "variant": "lead"
+      }
+    },
+    "chase-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-a",
+        "badge-c"
+      ]
+    },
+    "badge-a": {
+      "type": "Badge",
+      "props": {
+        "text": "class a",
+        "variant": "default"
+      }
+    },
+    "badge-c": {
+      "type": "Badge",
+      "props": {
+        "text": "class c",
+        "variant": "default"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert-question": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read? (Chart type? Asset class reference? Technical pattern?)",
+        "type": "info"
+      }
+    }
+  }
+}
