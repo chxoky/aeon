@@ -1,0 +1,198 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @t_in_crypto"
+      },
+      "children": [
+        "event-section",
+        "sep-1",
+        "tweet-card",
+        "sep-2",
+        "context-section",
+        "sep-3",
+        "classification-alert",
+        "sep-4",
+        "link"
+      ]
+    },
+    "event-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event-heading",
+        "event-text"
+      ]
+    },
+    "event-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "event-text": {
+      "type": "Text",
+      "props": {
+        "text": "Cryptic group confirmation posted 6 minutes after position thesis (BTC long from 58.4K, closing soon at top-of-range)"
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "handle": "t_in_crypto",
+        "text": "Proof from my group 🎯📌 $btc #btc https://t.co/JnEI4LXvss + media (chart image)"
+      },
+      "children": []
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "context-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context-heading",
+        "position-text",
+        "position-badge",
+        "liquidation-stat",
+        "media-text",
+        "interp-heading",
+        "interp-stack"
+      ]
+    },
+    "context-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "position-text": {
+      "type": "Text",
+      "props": {
+        "text": "t_in_crypto positioned contrarian long during risk-on breakout"
+      },
+      "children": []
+    },
+    "position-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "+8.8% to $69.9K"
+      },
+      "children": []
+    },
+    "liquidation-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Short liquidation cascade",
+        "value": "$19.5B"
+      },
+      "children": []
+    },
+    "media-text": {
+      "type": "Text",
+      "props": {
+        "text": "Post includes chart image but media fetch failed (auth-gated/stale)",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "interp-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Text alone is cryptic — could reference:",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "interp-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-a",
+        "badge-b",
+        "badge-c",
+        "badge-d"
+      ]
+    },
+    "badge-a": {
+      "type": "Badge",
+      "props": {
+        "text": "(a) Trade proof/confirmation of their BTC long"
+      },
+      "children": []
+    },
+    "badge-b": {
+      "type": "Badge",
+      "props": {
+        "text": "(b) Group signal/chart breakout"
+      },
+      "children": []
+    },
+    "badge-c": {
+      "type": "Badge",
+      "props": {
+        "text": "(c) Market validation"
+      },
+      "children": []
+    },
+    "badge-d": {
+      "type": "Badge",
+      "props": {
+        "text": "(d) Something entirely different"
+      },
+      "children": []
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "classification-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read?",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/t_in_crypto/status/2090378755529146394"
+      },
+      "children": []
+    }
+  }
+}
