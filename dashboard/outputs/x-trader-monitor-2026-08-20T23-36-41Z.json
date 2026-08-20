@@ -1,0 +1,33 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet_card",
+        "link_tweet"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "The most bullish thing may be that it hasn't been in sync with the stock market in quite some time\n\nReminiscing Oct 2023\n\nAligns with the broader group bullish lean (KillaXBT structural bull, HeartCanHodl net-long, bull_genius BTC bull)."
+      },
+      "children": []
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2090582544983240818"
+      },
+      "children": []
+    }
+  }
+}
