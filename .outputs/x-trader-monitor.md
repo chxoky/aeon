@@ -23,3 +23,10 @@ $HYPE — Highest daily close in history loading?
 Technical observation: HYPE/USDT rallying to 74.377 (+6.71%), breaking above consolidation resistance on daily. RSI 60+, volume expansion, clear breakout structure approaching ATH daily close.
 
 View: https://x.com/Wild_Randomness/status/2090554172387242048
+🐦 *[X] @bull_genius*
+
+the president literally said hyperliquid and today i read in the gc someone cooking up a shiba inu (the 2021 one) theez "its about to wake up from its 4yr slumber trust"
+
+my first instinct was to ridicule him but now inside me there are two wolves https://x.com/bull_genius/status/2090556286886687163
+
+↳ _SHIB is tracked (HCH short from Jul 31); bull_genius expressing internal conflict about bullish narrative circulating in community._

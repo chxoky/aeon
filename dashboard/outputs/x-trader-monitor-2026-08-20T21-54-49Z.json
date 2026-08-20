@@ -1,0 +1,108 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet-1",
+        "tweet-link",
+        "separator-1",
+        "analysis-section"
+      ]
+    },
+    "tweet-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "the president literally said hyperliquid and today i read in the gc someone cooking up a shiba inu (the 2021 one) theez \"its about to wake up from its 4yr slumber trust\"\n\nmy first instinct was to ridicule him but now inside me there are two wolves"
+      }
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/bull_genius/status/2090556286886687163"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tracking-info",
+        "position-info",
+        "sentiment-note"
+      ]
+    },
+    "tracking-info": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "tracking-label",
+        "shib-badge"
+      ]
+    },
+    "tracking-label": {
+      "type": "Text",
+      "props": {
+        "text": "Tracking:",
+        "variant": "body"
+      }
+    },
+    "shib-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "SHIB",
+        "variant": "default"
+      }
+    },
+    "position-info": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "position-label",
+        "position-detail"
+      ]
+    },
+    "position-label": {
+      "type": "Text",
+      "props": {
+        "text": "Position:",
+        "variant": "body"
+      }
+    },
+    "position-detail": {
+      "type": "Badge",
+      "props": {
+        "text": "HCH short (Jul 31)",
+        "variant": "secondary"
+      }
+    },
+    "sentiment-note": {
+      "type": "Text",
+      "props": {
+        "text": "bull_genius expressing internal conflict about bullish narrative circulating in community",
+        "variant": "muted"
+      }
+    }
+  }
+}

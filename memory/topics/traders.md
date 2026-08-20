@@ -142,10 +142,11 @@
 
 - Platforms: X (Twitter)
 - Current open positions: [Unclear — shares analysis/levels, no confirmed personal entry positions]
-- Recent thesis: BTC technical structure analyst. Structural bullish on BTC after long consolidation breakout. Focus on volume-profile analysis, POC/VAH levels, RVWAP clustering. Referenced in cross-trader context (HCH active-trades, KillaXBT structural thesis alignment).
+- Recent thesis: BTC technical structure analyst. Structural bullish on BTC after long consolidation breakout. Focus on volume-profile analysis, POC/VAH levels, RVWAP clustering. Referenced in cross-trader context (HCH active-trades, KillaXBT structural thesis alignment). Occasionally comments on alt-coin sentiment/narrative circulating in community.
 - Conviction notes: Technical analyst/educator. Shares price-level guidance and market structure analysis. First monitored Aug 20 17:19Z (real-time). Medium-high conviction technical analyst, not primarily a personal trader posting own positions.
-- Last seen: 2026-08-20T17:19:20Z (X post — BTC technical structure + resistance-level analysis)
+- Last seen: 2026-08-20T21:47:14Z (X post — alt-coin sentiment commentary on SHIB bullish narrative)
 - **Events (rolling):**
+  - Aug 20 21:47Z — informational-sentiment: X post on SHIB bullish narrative ("wake up from 4yr slumber"); commentary on what bull_genius read in community (GC) + personal conflict ("two wolves" meme image); not personal trade action, expressing skepticism/internal conflict about narrative; relevant context for HCH SHIB short position; alerted Kyle [$SHIB] [2090556286886687163]
   - Aug 20 17:19Z — informational-technical-structure: X post on BTC structure post-breakout; charts show long consolidation → breakout → AVWAP retest/confirmation; labels 74K VAH as next resistance zone; suggests shorts at 74-75K "probably good attempt"; describes zones of interest mapped on charts; no personal execution language ("we called it", "warned you", "i think...should be"); 3 chart attachments with labeled RVWAP/POC/VAH analysis; alerted Kyle with cross-trader context (KillaXBT hedge plan 73.6-74.9K, t_in_crypto long 58.4K) [$BTC] [2090488869510602954]
 
 ## Stoiiic
