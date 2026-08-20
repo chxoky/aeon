@@ -1,0 +1,60 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "content_stack"
+      ]
+    },
+    "content_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet",
+        "tweet_link",
+        "separator",
+        "contrast"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "I believe the $BTC bottom is in.\n\nAfter this leg upwards, we can expect a range to develop. This range would likely represent accumulation before expansion.\n\nI did warn you that we were in the manipulation phase.\n\nI guess people just chose not to believe it. Typical."
+      },
+      "children": []
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2090502305367863566"
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "contrast": {
+      "type": "Text",
+      "props": {
+        "text": "This cuts against the more bearish lean from HeartCanHodl (net-short since Aug 7) and Crypto_Chase (macro short sub-50%, entered Aug 20 17:28Z).",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
