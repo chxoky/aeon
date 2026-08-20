@@ -1,27 +1,24 @@
-Perfect! I've successfully executed the discord-trader-monitor skill for KillaXBT's message. Here's the summary:
+Perfect! I've successfully processed the Discord trader monitor event. Here's a summary of what I did:
 
-## Summary
+## Processing Summary
 
-**Event Processing Complete**
+**Event Details:**
+- **Trader**: Crypto_Chase
+- **Channel**: 1247927786681794601 (Chase — Crypto, supporting channel)
+- **Message**: "I mean it's the first move in three months. It's hard to blame people, especially those who only trade crypto"
+- **Time**: 2026-08-20T17:21:04Z
+- **Message ID**: 1540048035462123530
 
-**Classification:** `informational-price-level` (not a trade signal)
+**Classification**: `informational-sentiment-commentary`
 
-**Key Details:**
-- **Trader:** KillaXBT (killaxbt)
-- **Channel:** Discord Trades (primary, "K")
-- **Message Time:** 2026-08-20T17:05:25Z
-- **Content:** Contingent hedge plan announcement
-  - Looking for 35-40% short hedge against existing 62.6K long
-  - Entry target: 73.6-74.9K
-  - Hard stop loss: 76.1K
-  
-**Processing:**
-- ✓ Decoded & validated message JSON
-- ✓ Resolved channel (1411492188315193416 = KillaXBT primary)
-- ✓ Cross-platform dedup: This is the 5th mention of BTC conviction in a 5-hour window (12:15Z Discord → 14:18Z/15:51Z/17:00Z X posts → 17:05Z Discord hedge plan)
-- ✓ Classification: Informational (future/contingent "will look for" language, not current execution)
-- ✓ Fast-path alert status: `true` — Telegram already sent by Cloudflare Worker ~2-5s after message; skipped duplicate notification, processed memory updates only
-- ✓ Memory updated: traders.md + active-trades.md with hedge plan context
-- ✓ Event logged to daily memory log
+**Actions Taken:**
+1. ✅ Decoded the base64 Discord event
+2. ✅ Verified message is new (added to discord-trader-seen.txt)
+3. ✅ Applied supporting channel rules — **no alert to Kyle** (this is observer commentary in a supporting channel, not a trade signal or major conviction shift)
+4. ✅ Updated traders.md with the event and last-seen timestamp
+5. ✅ Logged event to memory/logs/2026-08-20.md
 
-**Rationale:** This announces a contingent market-structure plan that aligns with KillaXBT's documented HTF bullish thesis and re-accumulation-range management strategy. The specific entry/SL levels (73.6-74.9K / 76.1K) align with his key watch zone (73.4-75K) noted earlier today. No approval flow needed; purely informational for memory tracking.
+**Reasoning:** 
+This is a market commentary about how traders reacted to the BTC breakout (the "first move in three months"). Crypto_Chase is making an observer note about trader sentiment, not announcing any personal trade action. Per the skill's supporting-channel protocol, messages without personal execution language don't warrant standalone alerts—they're silent-logged only.
+
+The skill run is complete. No notification was sent to Kyle since this was informational commentary without a clear trade signal.

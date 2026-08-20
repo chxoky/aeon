@@ -58,6 +58,9 @@
 - Last seen: 2026-08-20T17:14:32Z (X post — ETH technical structure with monthly liquidity/pullback target)
 - **Events (rolling):**
   - Aug 20 17:14Z — informational-sentiment: ETH bullish push then $2000 pullback target [2090487661593235557]
+- Last seen: 2026-08-20T17:21:04Z (Discord Crypto — market observation on trader behavior post-breakout)
+- **Events (rolling):**
+  - Aug 20 17:21Z — informational-sentiment-commentary: Discord Crypto (supporting) market observation "I mean it's the first move in three months. It's hard to blame people, especially those who only trade crypto"; observer commentary on BTC breakout impact/trader reaction; supporting channel, silent log (no personal execution signal) [$BTC-CONTEXT] [1540048035462123530]
   - Aug 20 16:52Z — ambiguous-cryptic: Discord TradFi (supporting) reply to member Q&A "why does my chart look slightly different?" — Chase replied "class a vs c"; unable to determine meaning without clarification (chart type difference? asset class? technical pattern?); member Q&A context included; HR-2 calibration alert sent to Kyle [$UNKNOWN] [1540040720620978176]
   - Aug 20 16:53Z — ambiguous-cryptic: Discord Crypto (supporting) reply to member's ETH question with one-phrase "gut thought" + image attachment; unable to decipher meaning without image context; supported by chart/image but no text explanation; HR-2 calibration alert sent to Kyle requesting interpretation [$ETH?] [1540041210608095293]
   - Aug 20 13:38Z — ambiguous-cryptic: Discord TradFi (supporting) extremely vague market observation "odd conditions really"; no context about what conditions, no ticker, no referenced message; unable to classify without clarification; supporting channel noise vs conviction shift unclear; HR-2 calibration alert sent to Kyle [$UNKNOWN] [1539991980166221846]
