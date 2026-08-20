@@ -56,6 +56,9 @@
 - Last seen: 2026-08-20T13:17:53Z (Discord TradFi — market meta observation)
 - **Events (rolling):**
   - Aug 20 13:17Z — informational-meta-sentiment: Discord TradFi (supporting) casual market vibe observation "Yeah that's been the entire meta for what feels like a month now"; contextual agreement/validation sentiment on broader market theme; no trade action; silent log [$MARKET-VIBE] [1539986838335266938]
+- Last seen: 2026-08-20T13:18:18Z (Discord TradFi — conviction-doubt on targeting strategy execution)
+- **Events (rolling):**
+  - Aug 20 13:18Z — informational-conviction-doubt: Discord TradFi (supporting) risk reflection on targeting strategy; "But I hate doing that because if the target comes first then the trade probably gets fucked"; escalation/expansion on missed pre-market timing concern; now focused on execution risk when target levels hit first (reversal/fake-break risk); no personal action; supporting channel conviction shift; alerted Kyle [$TARGETING RISK] [1539986941112623174]
   - Aug 20 13:08Z — informational-conviction-doubt: Discord TradFi (supporting) reflection on missed pre-market trade opportunity; "The lower part front-ran and then the up move overshot pre-market. vibe was just off, but maybe I should loosen back up"; technical doubt on breakout exhaustion structure; "maybe" qualifier indicates tentative conviction on adding back; supporting channel sentiment note, silent log [$PRE-MARKET STRUCTURE] [1539984485917917234]
   - Aug 20 12:54Z — informational-sentiment: X reply to @win_or_learning comparing BTC breakout charts; "would've said I'm long for the pop"; bullish validation call ~20min before breakout occurred; aligns with KillaXBT structural bull thesis [$BTC] [2090422155187991025]
 

@@ -20,3 +20,6 @@ I've successfully executed the **discord-trader-monitor** skill for the real-tim
 3. **memory/logs/2026-08-20.md** — Appended skill execution log entry
 
 The message was correctly classified as non-actionable supporting-channel commentary and logged for context tracking without alerting Kyle.
+💬 *[DC: Chase — TradFi]*
+
+But I hate doing that because if the target comes first then the trade probably gets fucked
