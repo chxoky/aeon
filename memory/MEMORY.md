@@ -15,7 +15,7 @@ Autonomous trading-signal agent running on GitHub Actions via Claude Code. Monit
 ## Active Topics
 - [Trader State](topics/traders.md) — live per-trader positions, last-seen. (Rebuilt 2026-07-14 by trader-bootstrap; entries since flow via monitors + traders_update.txt.)
 - [Ticker Focus](topics/ticker-focus.md) — overlap/contested tickers, Kyle's watch list. Rebuilt 2026-07-14.
-- [Market Context](topics/market-context.md) — latest regime snapshot (Aug 14: BTC $62,877 (-1.5%), risk-off (high conviction), F&G 29 Fear, breadth 3/20; first Aug ETF net-outflow ($61.1M); DEX vol $6.24B; PUMP rising day-2; Jackson Hole Aug 27 dominant; Fed No Change Sep 71.5%).
+- [Market Context](topics/market-context.md) — latest regime snapshot (Aug 20: BTC $69,870 (+8.8%), risk-on (high conviction), F&G 62 Greed (was 46), breadth 18/20; $19.5B short liquidation cascade; US Treasury buybacks + SEC crypto proposal catalysts; DEX vol $10.79B; ETH +18.5% WR inflection confirmed; Jackson Hole Aug 27 in 7 days).
 - [Active Trades](topics/active-trades.md) — Kyle's mirror decisions. As of Jul 22: NO open Kraken mirrors; Chase SNDK/MU approvals never given (Chase has since TP'd most).
 
 ## Live Stack (verified 2026-07-21)
@@ -33,6 +33,7 @@ Autonomous trading-signal agent running on GitHub Actions via Claude Code. Monit
 | SOL   | solana      | 10%             |
 
 ## Recent Log Highlights
+- [2026-08-20](logs/2026-08-20.md) — RISK-ON BREAKOUT; BTC $69,870 (+8.8%); ETH $2,260 (+18.5%); F&G 62 Greed (was 46 Fear); $19.5B short liquidation cascade (record); US Treasury buybacks + SEC crypto proposal; DEX vol $10.79B (+85%); HYPE +23.7% [BREAKOUT] (HCH short failed); WR ETH inflection confirmed; KillaXBT HTF long validated; swarmister BTC breakout confirmed (holds short LT); HCH 65% short severely underwater; Jackson Hole 7d
 - [2026-08-14](logs/2026-08-14.md) — risk-off; BTC $62,877 (-1.5%); breadth 3/20; F&G 29; first Aug ETF net-outflow ($61.1M); AKE +89%[PUMP-RISK]; BTW [BREAKOUT] +21%; PUMP day-2 green (+3.1% 7d+25%); Fed No Change Sep 71.5% (+5pp); Jackson Hole 13d out
 - [2026-08-13](logs/2026-08-13.md) — chop; BTC $63,696 (-0.9%); breadth 5/20; F&G 29; PPI in-line (no breakout); ETH 7d flipped -0.8%; HCH added HYPE/LIT/PUMP shorts + CL oil + XAU/XAG shorts; WR ETH 10-day binary (resolution Aug 23)
 - [2026-08-12](logs/2026-08-12.md) — chop; BTC $63,863 (-0.5%); breadth 13/20; F&G 27; CPI resolved in-line (no breakout); BTC 7d rolled to 0.0%; alts 7d building (ETH +2.2%, SOL +3.9%, LINK +8.6%); Clarity Act -4pp to 17.5%; DeFi TVL accumulation day 5

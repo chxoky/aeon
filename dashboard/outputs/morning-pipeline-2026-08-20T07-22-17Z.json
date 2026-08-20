@@ -1,0 +1,457 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-08-20"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "heading_focus",
+        "stack_focus",
+        "sep1",
+        "heading_since",
+        "stack_since",
+        "sep2",
+        "heading_watch",
+        "stack_watch",
+        "sep3",
+        "heading_running",
+        "stack_running"
+      ]
+    },
+    "heading_focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "stack_focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus_1",
+        "focus_2",
+        "focus_3"
+      ]
+    },
+    "focus_1": {
+      "type": "Text",
+      "props": {
+        "text": "HCH 65% net-short severely underwater — $19.5B short cascade; watch for close/thesis-update in Discord today",
+        "variant": "body"
+      }
+    },
+    "focus_2": {
+      "type": "Text",
+      "props": {
+        "text": "ETH inflection resolved bullish — WR's Aug 20 call confirmed (+18.5%); update his state, watch next level",
+        "variant": "body"
+      }
+    },
+    "focus_3": {
+      "type": "Text",
+      "props": {
+        "text": "BTC regime flip: chop→risk-on — $65K cleared, Jackson Hole in 7 days; all downstream signals stale",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_since": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "stack_since": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "since_1",
+        "since_2",
+        "since_3",
+        "since_4",
+        "since_5"
+      ]
+    },
+    "since_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_moved_1",
+        "stats_group_1",
+        "text_fg"
+      ]
+    },
+    "badge_moved_1": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "stats_group_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_btc",
+        "stat_eth"
+      ]
+    },
+    "stat_btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$69,870",
+        "delta": "+8.8%",
+        "trend": "up"
+      }
+    },
+    "stat_eth": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$2,260",
+        "delta": "+18.5%",
+        "trend": "up"
+      }
+    },
+    "text_fg": {
+      "type": "Text",
+      "props": {
+        "text": "F&G Index: 46 (Fear) → 62 (Greed)",
+        "variant": "caption"
+      }
+    },
+    "since_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_moved_2",
+        "stat_hype",
+        "text_hch_short"
+      ]
+    },
+    "badge_moved_2": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "stat_hype": {
+      "type": "Stat",
+      "props": {
+        "label": "HYPE",
+        "value": "$72",
+        "delta": "+23.7%",
+        "trend": "up"
+      }
+    },
+    "text_hch_short": {
+      "type": "Text",
+      "props": {
+        "text": "HCH's $60 short entry now -20% running",
+        "variant": "caption"
+      }
+    },
+    "since_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_moved_3",
+        "text_killaxbt"
+      ]
+    },
+    "badge_moved_3": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "text_killaxbt": {
+      "type": "Text",
+      "props": {
+        "text": "KillaXBT alerted: $19.5B short liquidation cascade (record); validates his HTF long conviction",
+        "variant": "body"
+      }
+    },
+    "since_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_moved_4",
+        "text_swarmister"
+      ]
+    },
+    "badge_moved_4": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "text_swarmister": {
+      "type": "Text",
+      "props": {
+        "text": "swarmister confirms BTC daily downtrend breakout; holds short at disciplined size (bearish LT)",
+        "variant": "body"
+      }
+    },
+    "since_5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_stuck",
+        "text_failure"
+      ]
+    },
+    "badge_stuck": {
+      "type": "Badge",
+      "props": {
+        "text": "stuck",
+        "variant": "destructive"
+      }
+    },
+    "text_failure": {
+      "type": "Text",
+      "props": {
+        "text": "trader-memory-compact — 1 consecutive failure (Aug 16 run failed; next Sunday Aug 23)",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "stack_watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "watch_1",
+        "watch_2"
+      ]
+    },
+    "watch_1": {
+      "type": "Text",
+      "props": {
+        "text": "SPCX unlock today (Aug 20): intraday volatility risk; rally context may absorb ryzzqq/HCH short thesis",
+        "variant": "body"
+      }
+    },
+    "watch_2": {
+      "type": "Text",
+      "props": {
+        "text": "swarmister's levels: 74K VAH resistance, 67K-65.2K support — key anchors if BTC continues",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "stack_running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "running_1",
+        "running_2",
+        "running_3",
+        "running_4",
+        "running_5"
+      ]
+    },
+    "running_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "task_1",
+        "time_1"
+      ]
+    },
+    "task_1": {
+      "type": "Text",
+      "props": {
+        "text": "token-alert",
+        "variant": "body"
+      }
+    },
+    "time_1": {
+      "type": "Badge",
+      "props": {
+        "text": "12:00 UTC",
+        "variant": "outline"
+      }
+    },
+    "running_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "task_2",
+        "time_2"
+      ]
+    },
+    "task_2": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers",
+        "variant": "body"
+      }
+    },
+    "time_2": {
+      "type": "Badge",
+      "props": {
+        "text": "12:00 UTC",
+        "variant": "outline"
+      }
+    },
+    "running_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "task_3",
+        "time_3"
+      ]
+    },
+    "task_3": {
+      "type": "Text",
+      "props": {
+        "text": "market-context-refresh",
+        "variant": "body"
+      }
+    },
+    "time_3": {
+      "type": "Badge",
+      "props": {
+        "text": "13:00 UTC",
+        "variant": "outline"
+      }
+    },
+    "running_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "task_4",
+        "time_4"
+      ]
+    },
+    "task_4": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker",
+        "variant": "body"
+      }
+    },
+    "time_4": {
+      "type": "Badge",
+      "props": {
+        "text": "13:30 UTC",
+        "variant": "outline"
+      }
+    },
+    "running_5": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "task_5",
+        "time_5"
+      ]
+    },
+    "task_5": {
+      "type": "Text",
+      "props": {
+        "text": "skill-health",
+        "variant": "body"
+      }
+    },
+    "time_5": {
+      "type": "Badge",
+      "props": {
+        "text": "18:00 UTC",
+        "variant": "outline"
+      }
+    }
+  }
+}
