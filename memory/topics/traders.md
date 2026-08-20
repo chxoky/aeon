@@ -4,9 +4,10 @@
 - Current open positions: ETH short (pending entry), prior SOL long entry awaiting approval (Jul 31), SNDK/DRAM/MU/SKHY longs (Jul 28 entries)
 - Recent thesis: Bearish ETH structure (documented Jul 22 13:25 "looking for shorts over the next few days"), mean-reversion longs on semis (SNDK/MU/DRAM post-sector crash Jul 28), conservative position sizing
 - Conviction notes: New trader first X post monitored Aug 19. Medium conviction trader with documented technical bearishness on ETH and semis mean-reversion opportunism.
-- Calibration: None pending
-- Last seen: 2026-08-19T16:11:20Z (X post — ETH short entry)
+- Calibration: PENDING Aug 20 06:56Z (cryptic timing comment — financial vs personal?), awaiting Kyle interpretation
+- Last seen: 2026-08-20T06:56:07Z (X post — ambiguous timing comment)
 - **Events (rolling):**
+  - Aug 20 06:56Z — ambiguous-cryptic: X reply to @phyzer "well my timing couldn't be any worse" — cryptic personal reflection on timing, unclear whether referring to trade position or personal matter; no ticker/media; HR-2 calibration alert sent to Kyle [$UNKNOWN] [2090332030949306444]
   - Aug 19 16:11Z — trade-new-entry: X "trying an eth short here at 2095 looking to fill next 24hrs will take my loss if it doesn't retrace by weekend"; personal execution language, limit order entry over next 24h window with loss-stop at weekend; ETH SHORT at ~2095, awaiting Kyle `approve ETH` to mirror; alerted Kyle [$ETH] [20901093691450777]
 
 ## HeartCanHodl
