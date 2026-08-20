@@ -53,14 +53,12 @@
 
 - Platforms: X (Twitter) + Discord
 - Current open positions: [TBD — tracking in progress]
-- Recent thesis: Timing-focused trader on crypto majors; bullish sentiment on BTC structure breakouts
-- Conviction notes: Technical sentiment trader; noted correct ~20-minute pre-breakout call on BTC Aug 20; minor conviction doubt on pre-market overshoots
-- Last seen: 2026-08-20T17:14:32Z (X post — ETH technical structure with monthly liquidity/pullback target)
-- **Events (rolling):**
-  - Aug 20 17:14Z — informational-sentiment: ETH bullish push then $2000 pullback target [2090487661593235557]
-- Last seen: 2026-08-20T17:21:04Z (Discord Crypto — market observation on trader behavior post-breakout)
+- Recent thesis: Timing-focused trader on crypto majors; bullish sentiment on BTC structure breakouts; macro-bearish short conviction emerging
+- Conviction notes: Technical sentiment trader; noted correct ~20-minute pre-breakout call on BTC Aug 20; shifting to macro short "sub 50% area" per Aug 20 17:28Z signal
+- Last seen: 2026-08-20T17:28:00Z (Discord Crypto — macro short signal with chart attachment)
 - **Events (rolling):**
   - Aug 20 17:27Z — ambiguous-cryptic: Discord Crypto (supporting) reply to member ".ale81"'s "I was mainly in shorts" → "in shorts at a discount in a boring market, mistake" — cryptic self-reflection or commentary on shorting in boring market (unclear what "mistake" refers to; could be self-critique on position timing, or meta-commentary on shorting thesis); supporting channel reply context included; HR-2 calibration alert sent to Kyle [$UNKNOWN] [1540049622561718392]
+  - Aug 20 17:28Z — trade-new-entry: Discord Crypto (supporting) "macro move, shorting in sub 50% area"; chart attachment; personal execution language; macro bearish thesis; fast-path alerted [$MACRO SHORT] [15400497794779023647]
   - Aug 20 17:21Z — informational-sentiment-commentary: Discord Crypto (supporting) market observation "I mean it's the first move in three months. It's hard to blame people, especially those who only trade crypto"; observer commentary on BTC breakout impact/trader reaction; supporting channel, silent log (no personal execution signal) [$BTC-CONTEXT] [1540048035462123530]
   - Aug 20 16:52Z — ambiguous-cryptic: Discord TradFi (supporting) reply to member Q&A "why does my chart look slightly different?" — Chase replied "class a vs c"; unable to determine meaning without clarification (chart type difference? asset class? technical pattern?); member Q&A context included; HR-2 calibration alert sent to Kyle [$UNKNOWN] [1540040720620978176]
   - Aug 20 16:53Z — ambiguous-cryptic: Discord Crypto (supporting) reply to member's ETH question with one-phrase "gut thought" + image attachment; unable to decipher meaning without image context; supported by chart/image but no text explanation; HR-2 calibration alert sent to Kyle requesting interpretation [$ETH?] [1540041210608095293]
