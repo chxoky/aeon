@@ -1,0 +1,93 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "tweet-link",
+        "sep-1",
+        "quote-section",
+        "sep-2",
+        "sentiment-section"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "SPX*DXY (inverse dollar/equities) breakdown structure analysis — 4-chart technical overview (weekly/daily) showing recent weakness. OPEX Friday flagged as critical reversal point."
+      }
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2090540177081127351"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "quote-section": {
+      "type": "Text",
+      "props": {
+        "text": "\"You've got to lean on OPEX Friday for the save here… Sketchy\"",
+        "variant": "lead"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "sentiment-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sentiment-heading",
+        "sentiment-badge",
+        "sentiment-commentary"
+      ]
+    },
+    "sentiment-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Sentiment",
+        "level": "h3"
+      }
+    },
+    "sentiment-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Skeptical on reversal holding",
+        "variant": "outline"
+      }
+    },
+    "sentiment-commentary": {
+      "type": "Text",
+      "props": {
+        "text": "Market-structure commentary on macro dollar weakness into equity-bias consolidation.",
+        "variant": "body"
+      }
+    }
+  }
+}
