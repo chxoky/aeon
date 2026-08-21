@@ -1,12 +1,12 @@
-🐦 [X] @Stoiiic
+🐦 *[X] @Stoiiic*
 
-Well I def can't predict the future there are a few things that give me a little pause on this move and the sustainability of it but taking it for what it is...
+*RWA + OI dynamics on alt dominance*
 
-There's a clear tailwind for crypto now and it has been heavily sold off and suppressed for a while whereby equities have had a monstrous run i.e. the asymmetry of upside currently exists in this arena which is why the capital allocation has been so aggressive these past few days imo.
+Believes metric still gave reasonable edge despite recent short-liquidation cascade. Key catalyst: 6-8 months of RWA offerings/listings aligned with steady alt dom grind higher via open-interest trend. Current OI cleanse concentrated in short positioning on BTC vs alts.
 
-I would like to see how BTC reacts when there is any kind of retracement from here on out. If buying steps in fast and BTC manages to stay above the low 70s I will take this as a shift for a longer term uptrend. If BTC keeps pushing from here, well...its clearly a break in htf structure which points to a sustained rally from here on out.
+"a combination of everything you mentioned and all the listings + in the past few days most of the OI cleanse was in short positioning on BTC vs alts all align"
 
-[View post](https://x.com/Stoiiic/status/2090844449789483380)
+[View tweet](https://x.com/Stoiiic/status/2090846102539161747)
 
 **Files updated:**
 - `memory/x-trader-seen.txt` — appended tweet ID
@@ -78,3 +78,4 @@ No action required from Kyle. Event successfully processed and silently logged.
 - ✓ No trades.md update (non-financial events skip per size discipline rules)
 
 **Result:** No action required. Processing complete.
+↳ Validates BTC-short liquidation narrative driving alt outperformance (complements group bullish positioning thesis)
