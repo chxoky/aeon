@@ -1,0 +1,120 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor — Gold Sector Reversal"
+      },
+      "children": [
+        "author",
+        "thesis",
+        "sep1",
+        "charts-text",
+        "charts-grid",
+        "sep2",
+        "reversal-alert",
+        "sep3",
+        "observation",
+        "sep4",
+        "link"
+      ]
+    },
+    "author": {
+      "type": "Badge",
+      "props": {
+        "text": "🎯 @Wild_Randomness"
+      }
+    },
+    "thesis": {
+      "type": "Heading",
+      "props": {
+        "text": "Gold Sector Reversal Validation via Junior Miners (GDXJ) Leading Indicator",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "charts-text": {
+      "type": "Text",
+      "props": {
+        "text": "Charts: XAUUSD (down to 3,971 from 5,200 May peak), GDXJ (down to 91.66 from 160 peak, now showing GREEN REVERSAL ARROW at lows), GLD (down to 367.60 from 510 peak)."
+      }
+    },
+    "charts-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "stat-xauusd",
+        "stat-gdxj",
+        "stat-gld"
+      ]
+    },
+    "stat-xauusd": {
+      "type": "Stat",
+      "props": {
+        "label": "XAUUSD",
+        "value": "3,971",
+        "delta": "-23.6%",
+        "trend": "down"
+      }
+    },
+    "stat-gdxj": {
+      "type": "Stat",
+      "props": {
+        "label": "GDXJ",
+        "value": "91.66",
+        "delta": "-42.7%",
+        "trend": "down"
+      }
+    },
+    "stat-gld": {
+      "type": "Stat",
+      "props": {
+        "label": "GLD",
+        "value": "367.60",
+        "delta": "-27.9%",
+        "trend": "down"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "reversal-alert": {
+      "type": "Alert",
+      "props": {
+        "message": "GDXJ showing GREEN REVERSAL ARROW at lows — bullish reversal signal at capitulation",
+        "type": "success"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "observation": {
+      "type": "Text",
+      "props": {
+        "text": "Miner observation was key — GDXJ bullish reversal at capitulation lows validates gold-sector bottom structure. Miners lead commodities (classic pattern). Confirms your Aug 20 22:10Z 'North Star' consolidation thesis."
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2090788228618150246",
+        "source": "X"
+      }
+    }
+  }
+}
