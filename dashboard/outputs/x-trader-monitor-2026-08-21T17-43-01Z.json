@@ -1,0 +1,24 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "$SOXL $QQQ — Tech equity local bounce over past 2h; skeptical on Fed policy accommodation (Bessent/Warsh rates backdrop); market structure doubt on contra-trading viability; prefers commodities/crypto outperformance thesis.\n\nAligns with dispersion-trade framework (equities stalling, commodities leading).\n\n[View post](https://x.com/Wild_Randomness/status/2090855455337890278)"
+      },
+      "children": []
+    }
+  }
+}
