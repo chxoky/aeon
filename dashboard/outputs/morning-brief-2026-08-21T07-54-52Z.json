@@ -1,0 +1,276 @@
+{
+  "root": "morning-brief-card",
+  "state": {},
+  "elements": {
+    "morning-brief-card": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief",
+        "description": "2026-08-21"
+      },
+      "children": [
+        "focus-heading",
+        "focus-stack",
+        "sep1",
+        "yesterday-heading",
+        "yesterday-stack",
+        "sep2",
+        "watch-heading",
+        "watch-alert",
+        "sep3",
+        "running-heading",
+        "running-stack"
+      ]
+    },
+    "focus-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "focus-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus-1",
+        "focus-2",
+        "focus-3"
+      ]
+    },
+    "focus-1": {
+      "type": "Text",
+      "props": {
+        "text": "KillaXBT hedge SL breached ($76,302 > 76.1K) — re-entry POI 80–82K now live",
+        "variant": "body"
+      }
+    },
+    "focus-2": {
+      "type": "Text",
+      "props": {
+        "text": "Jackson Hole in 6 days — Fed guidance binary; Sep hike YES 27.5% in play",
+        "variant": "body"
+      }
+    },
+    "focus-3": {
+      "type": "Text",
+      "props": {
+        "text": "HCH adding into breakout (5% BTC + PUMP short) — max divergence vs group bulls",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "yesterday-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "yesterday-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "y-item-1",
+        "y-item-2",
+        "y-item-3",
+        "y-item-4",
+        "y-item-5"
+      ]
+    },
+    "y-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "y-badge-1",
+        "y-text-1"
+      ]
+    },
+    "y-badge-1": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "default"
+      }
+    },
+    "y-text-1": {
+      "type": "Text",
+      "props": {
+        "text": "BTC $76,302 (+8.9%) — KillaXBT's 76.1K invalidation crossed; \"next POI 80–82K\"",
+        "variant": "body"
+      }
+    },
+    "y-item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "y-badge-2",
+        "y-text-2"
+      ]
+    },
+    "y-badge-2": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "default"
+      }
+    },
+    "y-text-2": {
+      "type": "Text",
+      "props": {
+        "text": "ENA +41.2% — WR's long validating; TWAP algo observed (systematic buyer all day)",
+        "variant": "body"
+      }
+    },
+    "y-item-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "y-badge-3",
+        "y-text-3"
+      ]
+    },
+    "y-badge-3": {
+      "type": "Badge",
+      "props": {
+        "text": "added",
+        "variant": "default"
+      }
+    },
+    "y-text-3": {
+      "type": "Text",
+      "props": {
+        "text": "HCH 5% BTC short + PUMP short (07:22–07:25 UTC) — conviction-add into the green",
+        "variant": "body"
+      }
+    },
+    "y-item-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "y-badge-4",
+        "y-text-4"
+      ]
+    },
+    "y-badge-4": {
+      "type": "Badge",
+      "props": {
+        "text": "stuck",
+        "variant": "secondary"
+      }
+    },
+    "y-text-4": {
+      "type": "Text",
+      "props": {
+        "text": "HCH \"Entering another HTF level here\" (06:59 UTC) — ticker unconfirmed, calibration pending",
+        "variant": "body"
+      }
+    },
+    "y-item-5": {
+      "type": "Alert",
+      "props": {
+        "title": "Position Warning",
+        "message": "swarmister BTC short ROI -179.72%; SNDK long carrying the book (+402.77%)",
+        "type": "warning"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "watch-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "watch-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Jackson Hole Aug 27",
+        "message": "hawkish surprise from Fed Chair flips Sep hike odds (currently YES 27.5%) and could reverse the tape mid-rally",
+        "type": "info"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "running-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "running-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "running-1",
+        "running-2",
+        "running-3",
+        "running-4"
+      ]
+    },
+    "running-1": {
+      "type": "Text",
+      "props": {
+        "text": "x-trader-monitor + discord-trader-monitor: real-time",
+        "variant": "body"
+      }
+    },
+    "running-2": {
+      "type": "Text",
+      "props": {
+        "text": "token-alert + token-movers @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running-3": {
+      "type": "Text",
+      "props": {
+        "text": "market-context-refresh @ 13:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running-4": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC",
+        "variant": "body"
+      }
+    }
+  }
+}
