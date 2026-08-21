@@ -1,0 +1,262 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-08-21",
+        "description": "Transitions (first run — no prior baseline)"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section-1",
+        "sep-1",
+        "section-2",
+        "sep-2",
+        "section-3",
+        "sep-3",
+        "section-4"
+      ]
+    },
+    "section-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-1",
+        "badge-1",
+        "text-1-1",
+        "text-1-2",
+        "text-1-3"
+      ]
+    },
+    "heading-1": {
+      "type": "Heading",
+      "props": {
+        "text": "Semis Outperformance",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "badge-1": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "text-1-1": {
+      "type": "Text",
+      "props": {
+        "text": "SNDK/MU beating BTC's 25% move"
+      },
+      "children": []
+    },
+    "text-1-2": {
+      "type": "Text",
+      "props": {
+        "text": "5-trader convergence on SNDK"
+      },
+      "children": []
+    },
+    "text-1-3": {
+      "type": "Text",
+      "props": {
+        "text": "Crypto community waking up to TradFi sector rotation"
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-2",
+        "badge-2",
+        "stat-2-1",
+        "stat-2-2",
+        "stat-2-3",
+        "text-2-1"
+      ]
+    },
+    "heading-2": {
+      "type": "Heading",
+      "props": {
+        "text": "ENA/DeFi Yield BREAKOUT",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "badge-2": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "stat-2-1": {
+      "type": "Stat",
+      "props": {
+        "label": "24h Change",
+        "value": "+41.5%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat-2-2": {
+      "type": "Stat",
+      "props": {
+        "label": "7d Change",
+        "value": "+66.6%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat-2-3": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume",
+        "value": "$848M"
+      },
+      "children": []
+    },
+    "text-2-1": {
+      "type": "Text",
+      "props": {
+        "text": "WR long validating"
+      },
+      "children": []
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-3",
+        "badge-3",
+        "text-3-1",
+        "text-3-2",
+        "text-3-3"
+      ]
+    },
+    "heading-3": {
+      "type": "Heading",
+      "props": {
+        "text": "Gold Sector Reversal",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "badge-3": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "text-3-1": {
+      "type": "Text",
+      "props": {
+        "text": "WR GDXJ junior miners reversal arrow Aug 21"
+      },
+      "children": []
+    },
+    "text-3-2": {
+      "type": "Text",
+      "props": {
+        "text": "Miners-lead-commodities pattern"
+      },
+      "children": []
+    },
+    "text-3-3": {
+      "type": "Text",
+      "props": {
+        "text": "Multi-timeframe confirmation"
+      },
+      "children": []
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-4",
+        "badge-4",
+        "text-4-1",
+        "text-4-2"
+      ]
+    },
+    "heading-4": {
+      "type": "Heading",
+      "props": {
+        "text": "Trump Extraction Risk",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "badge-4": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "text-4-1": {
+      "type": "Text",
+      "props": {
+        "text": "ATUTATTIGTME framework (trading_axe)"
+      },
+      "children": []
+    },
+    "text-4-2": {
+      "type": "Text",
+      "props": {
+        "text": "HCH corroborates Trump"
+      },
+      "children": []
+    }
+  }
+}
