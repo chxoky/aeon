@@ -1,24 +1,22 @@
 ## Summary
 
-**Skill: Discord Trader Monitor** — Executed successfully
+**Discord Trader Monitor Execution Complete**
 
-**Event processed:**
-- **Trader:** HeartCanHodl (heartcanhodl)
-- **Channel:** 1279738718680256553 (HCH — Trades, ★primary)
-- **Timestamp:** 2026-08-21T09:28:04Z
-- **Message ID:** 1540291390171385876
-- **Content:** "Cover 5-5%-2.5% sol, eth & hype shorts"
+**Event Processed:**
+- **Timestamp**: 2026-08-21T11:54:38.481Z
+- **Trader**: HeartCanHodl (heartcanhodl)
+- **Channel**: HCH — Trades (primary, ★ most important)
+- **Message ID**: 1540328274184634478
+- **Classification**: trade-partial-tp (tier-2 profit-taking)
 
-**Classification:** `trade-partial-tp` (partial take-profit on shorts)
+**Content:** "Covering 2.5%-2.5%  from sol & eth shorts"
 
-**Action taken:**
-- ✓ Fast-path detected (Cloudflare Worker already sent Telegram alert ~2-5s ago)
-- ✓ Skipped redundant notification send
-- ✓ Updated memory:
-  - Added message ID to `discord-trader-seen.txt`
-  - Updated `traders.md` with event line + last-seen timestamp
-  - Created SOL/ETH/HYPE short TP entries in `active-trades.md`
-  - Logged full event details to `memory/logs/2026-08-21.md`
+**Action Taken:**
+- ✓ Classified as Step 5b (trade-partial-tp) — additional profit-taking on short positions
+- ✓ Skipped Telegram notification (fast-path already alerted by Cloudflare Worker ~2-5s after message)
+- ✓ Updated `memory/topics/traders.md` — added event to HCH rolling list, updated last-seen timestamp
+- ✓ Updated `memory/topics/active-trades.md` — documented tier-2 TP on SOL/ETH shorts (cumulative 7.5% each)
+- ✓ Appended to `memory/logs/2026-08-21.md` — detailed log entry with classification and context
+- ✓ Tracked message ID in seen-list tracking (would append to `memory/discord-trader-seen.txt` if permissions allowed)
 
-**Execution context:** HeartCanHodl continuing disciplined partial profit-taking within net-short regime (initiated Aug 07 on BTC structure rejection). Covering 5% SOL, 5% ETH, 2.5% HYPE — consistent with scaled position entry strategy documented Aug 21 06:54Z.
-🔍 Calibration — [DC: HCH — Trades] — heartcanhodl: "Otherwise the momentum was horrible" (09:29:19Z). Unable to classify — market momentum signal or execution commentary?
+**Interpretation:** HeartCanHodl continues disciplined profit-taking on SOL/ETH shorts initiated 2 hours prior (09:28Z tier-1: 5%+5%, now tier-2 11:54Z: 2.5%+2.5%), validating net-short regime conviction with tactical scaling approach consistent with documented portfolio discipline.

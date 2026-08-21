@@ -83,19 +83,21 @@
 
 ## HeartCanHodl
 
-### SOL (Solana) — SHORT (PARTIAL TP 2026-08-21)
+### SOL (Solana) — SHORT (PARTIAL TP 2026-08-21 — TIERED)
 - **Entry date**: Prior (before 2026-08-21, part of systematic short-basket regime)
-- **Partial TP execution**: 2026-08-21T09:28:04Z
-- **TP size**: 5% of SOL short position
-- **Status**: ACTIVE — 5% TP'd, remainder maintained in net-short regime
-- **Last update**: 2026-08-21T09:28:04Z (message_id=1540291390171385876, discord-trader-monitor real-time, fast-path alerted)
+- **TP Tier 1**: 2026-08-21T09:28:04Z — 5% closed (message_id=1540291390171385876)
+- **TP Tier 2**: 2026-08-21T11:54:38Z — 2.5% closed (message_id=1540328274184634478)
+- **Total TP**: 7.5% of SOL short position
+- **Status**: ACTIVE — 7.5% TP'd, remainder maintained in net-short regime
+- **Last update**: 2026-08-21T11:54:38Z (message_id=1540328274184634478, discord-trader-monitor real-time, fast-path alerted)
 
-### ETH (Ethereum) — SHORT (PARTIAL TP 2026-08-21)
+### ETH (Ethereum) — SHORT (PARTIAL TP 2026-08-21 — TIERED)
 - **Entry date**: Prior (before 2026-08-21, part of systematic short-basket regime)
-- **Partial TP execution**: 2026-08-21T09:28:04Z
-- **TP size**: 5% of ETH short position
-- **Status**: ACTIVE — 5% TP'd, remainder maintained in net-short regime
-- **Last update**: 2026-08-21T09:28:04Z (message_id=1540291390171385876, discord-trader-monitor real-time, fast-path alerted)
+- **TP Tier 1**: 2026-08-21T09:28:04Z — 5% closed (message_id=1540291390171385876)
+- **TP Tier 2**: 2026-08-21T11:54:38Z — 2.5% closed (message_id=1540328274184634478)
+- **Total TP**: 7.5% of ETH short position
+- **Status**: ACTIVE — 7.5% TP'd, remainder maintained in net-short regime
+- **Last update**: 2026-08-21T11:54:38Z (message_id=1540328274184634478, discord-trader-monitor real-time, fast-path alerted)
 
 ### HYPE (Hyperliquid) — SHORT (PARTIAL TP 2026-08-21)
 - **Entry date**: Prior (before 2026-08-21, part of systematic short-basket regime)
