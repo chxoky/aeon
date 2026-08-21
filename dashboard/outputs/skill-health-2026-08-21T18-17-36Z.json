@@ -1,0 +1,130 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "Skill Health",
+        "description": "2026-08-21 | WARNING(1)"
+      },
+      "children": [
+        "alert_warning",
+        "sep1",
+        "heading_healthy",
+        "stack_skills",
+        "sep2",
+        "stack_stats"
+      ]
+    },
+    "alert_warning": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "trader-memory-compact",
+        "message": "1 consecutive failure, 75% success (4 runs), last success 12 days ago (Aug 9), last_status: dispatched (Aug 16) — INVESTIGATE"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_healthy": {
+      "type": "Heading",
+      "props": {
+        "text": "Healthy Skills (6)",
+        "level": "h3"
+      }
+    },
+    "stack_skills": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_morning_brief",
+        "badge_token_alert",
+        "badge_token_movers",
+        "badge_market_context",
+        "badge_narrative_tracker",
+        "badge_skill_health"
+      ]
+    },
+    "badge_morning_brief": {
+      "type": "Badge",
+      "props": {
+        "text": "morning-brief",
+        "variant": "default"
+      }
+    },
+    "badge_token_alert": {
+      "type": "Badge",
+      "props": {
+        "text": "token-alert",
+        "variant": "default"
+      }
+    },
+    "badge_token_movers": {
+      "type": "Badge",
+      "props": {
+        "text": "token-movers",
+        "variant": "default"
+      }
+    },
+    "badge_market_context": {
+      "type": "Badge",
+      "props": {
+        "text": "market-context-refresh",
+        "variant": "default"
+      }
+    },
+    "badge_narrative_tracker": {
+      "type": "Badge",
+      "props": {
+        "text": "narrative-tracker",
+        "variant": "default"
+      }
+    },
+    "badge_skill_health": {
+      "type": "Badge",
+      "props": {
+        "text": "skill-health",
+        "variant": "default"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_open_issues",
+        "stat_resolved"
+      ]
+    },
+    "stat_open_issues": {
+      "type": "Stat",
+      "props": {
+        "label": "Open issues",
+        "value": "0"
+      }
+    },
+    "stat_resolved": {
+      "type": "Stat",
+      "props": {
+        "label": "Resolved this run",
+        "value": "0"
+      }
+    }
+  }
+}
