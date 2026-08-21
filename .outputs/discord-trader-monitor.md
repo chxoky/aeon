@@ -1,15 +1,20 @@
-Skill execution complete. I've processed the Discord trader monitor event according to the workflow:
+## Summary
 
-**Event Summary:**
-- **Trader**: KillaXBT (Discord primary channel — Trades)
-- **Time**: 2026-08-21T17:51:25Z
-- **Classification**: Informational trade-thesis (conditional setup)
-- **Content**: BTC market thesis waiting for weekly close and conditional entry around $79.5–80K; expects range formation ($72–84K preferred, $80–94K alternative); preference for continuation longs over hedge
+**Discord Trader Monitor — KillaXBT Market Setup Message (18:24 UTC)**
 
-**Processing Status:**
-- ✅ Fast-path check: `true` — Telegram already sent by Worker; skipped Steps 6-7 (alerting)
-- ✅ Updated `memory/discord-trader-seen.txt` with message ID
-- ✅ Updated `memory/topics/traders.md` — KillaXBT section with new event and Last seen timestamp
-- ✅ Logged to `memory/logs/2026-08-21.md` with full event details
+✅ **Event processed successfully**
 
-The message is now tracked in memory for Kyle's review. No duplicate alert sent (fast-path protocol observed).
+**Decoded event:** Message ID `1540426268812509275`, 2026-08-21T18:24:02Z from KillaXBT in primary channel "K"
+
+**Classification:** Informational market-setup continuation (reply to own earlier BTC thesis, detailing position limits and conviction)
+
+**Content:** Elaborated BTC/SOL trading setup — BTC fractional hedge, 70-72K continuation longs (SL 59K, target 126K); SOL waiting for 99-100K wick before short hedge, 84K continuation longs (SL 79.29); bottom-in conviction based on +37% from lows and seasonal bias.
+
+**Fast-path status:** `fast_path_alerted: true` — Cloudflare Worker already sent Telegram alert ~18:24 UTC. Skill proceeded directly to memory updates per Step 1 protocol.
+
+**Memory updates completed:**
+- ✅ Added message_id to `discord-trader-seen.txt`
+- ✅ Updated `traders.md` KillaXBT section with new event entry (18:24Z informational-market-setup-continuation)
+- ✅ Updated daily log `memory/logs/2026-08-21.md` with full processing details
+
+**Files maintained:** traders.md <150KB, discord-trader-seen.txt <5000 lines.
