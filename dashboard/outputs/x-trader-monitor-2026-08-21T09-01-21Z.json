@@ -1,0 +1,111 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Trader activity and market signals"
+      },
+      "children": [
+        "tweet_section",
+        "sep1",
+        "insight_section"
+      ]
+    },
+    "tweet_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet_card",
+        "tweet_link"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "@swarmister",
+        "text": "ok btc is up 25% in three days but have you seen micron or sandisk"
+      }
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/swarmister/status/2090724858384539972"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "insight_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "insight_heading",
+        "stats_container",
+        "mu_note",
+        "convergence_signal"
+      ]
+    },
+    "insight_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Key Signal: Outperformance vs BTC",
+        "level": "h3"
+      }
+    },
+    "stats_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat_btc",
+        "stat_sndk"
+      ]
+    },
+    "stat_btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC (3-day)",
+        "value": "+25%",
+        "trend": "up"
+      }
+    },
+    "stat_sndk": {
+      "type": "Stat",
+      "props": {
+        "label": "SNDK (swarmister long)",
+        "value": "+402%",
+        "trend": "up"
+      }
+    },
+    "mu_note": {
+      "type": "Text",
+      "props": {
+        "text": "MU (Micron): Also outperforming relative to BTC",
+        "variant": "body"
+      }
+    },
+    "convergence_signal": {
+      "type": "Badge",
+      "props": {
+        "text": "5-trader convergence on SNDK",
+        "variant": "secondary"
+      }
+    }
+  }
+}
