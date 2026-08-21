@@ -1,0 +1,107 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "🐦 [X] @Stoiiic — BTC/ETH Dominance Shift"
+      },
+      "children": [
+        "macro_section",
+        "signal_section",
+        "context_section",
+        "link_section"
+      ]
+    },
+    "macro_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "macro_heading",
+        "macro_text"
+      ]
+    },
+    "macro_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Macro Market Structure",
+        "level": "h3"
+      }
+    },
+    "macro_text": {
+      "type": "Text",
+      "props": {
+        "text": "BTC open-interest dominance recovering to ~47% (from ~42% lows), ETH dominance declining to ~33% (from ~40% highs), other alts compressed."
+      }
+    },
+    "signal_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "signal_heading",
+        "signal_text"
+      ]
+    },
+    "signal_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Signal",
+        "level": "h3"
+      }
+    },
+    "signal_text": {
+      "type": "Text",
+      "props": {
+        "text": "2-4 week dominance divergence validates group bullish BTC thesis + bearish ETH + emerging altcoin recovery positioning."
+      }
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context_heading",
+        "context_text"
+      ]
+    },
+    "context_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "No personal execution language (market observation only). Chart legible despite cryptic \"yo...ummm.\" caption."
+      }
+    },
+    "link_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "link_element"
+      ]
+    },
+    "link_element": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Stoiiic/status/2090835894911844642"
+      }
+    }
+  }
+}

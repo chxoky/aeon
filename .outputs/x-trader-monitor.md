@@ -1,15 +1,9 @@
-🔍 *Calibration — @Stoiiic*
+🐦 [X] @Stoiiic — BTC/ETH Dominance Shift
 
-XAUUSD Weekly Breakout — $4,616.795 (+2.17%)
+**Macro market structure:** BTC open-interest dominance recovering to ~47% (from ~42% lows), ETH dominance declining to ~33% (from ~40% highs), other alts compressed.
 
-Consolidation structure confirmation with RSI recovery from oversold. Validates GOLD sector reversal thesis (Aug 21 13:08Z miners reversal + Aug 21 15:59Z ratio bottoming).
+**Signal:** 2-4 week dominance divergence validates group bullish BTC thesis + bearish ETH + emerging altcoin recovery positioning.
 
-*"oh yeah"*
+**Context:** No personal execution language (market observation only). Chart legible despite cryptic "yo...ummm." caption.
 
-[View tweet](https://x.com/Wild_Randomness/status/2090831268724568525)
-🐦 *[X] @bull_genius* — Conviction-ranked crypto cycle narratives: perp dex wars, tokenized RWA, privacy coins, robinhood chain, ETH revival, revenue/tokenomics focus, social trading, creator coins, NFT revival. Bearish on AI megacaps; wants crypto-exclusive exposure. [View post](https://x.com/bull_genius/status/2090832033421340775)
-[View post](https://x.com/Wild_Randomness/status/2090833229838446830)
-Tweet: Aug 21 16:12Z (https://x.com/Stoiiic/status/2090834344503914644)
-Stoiiic: "still going LOL"
-
-Unable to classify — what's your read? Financial signal (price action commentary) or personal banter?
+[View tweet](https://x.com/Stoiiic/status/2090835894911844642)
