@@ -1,11 +1,9 @@
-🐦 *[SPCX] @Wild_Randomness*
+🐦 *[X] @KillaXBT*
 
-**Unlock-Driven Trading Pattern Theory**
+I'm bullish, but I highly doubt $BTC sees 100K+ this year.
 
-Biweekly unlocks through fall will drive selling into unlock dates + tactical 5-7 day rallies between tranches. Musk's 46.1% stake becomes eligible Day 366; progressive unlock schedule Aug 2026 → Sep 2027.
+I expect range bound chop. The plan remains the same, after the first leg up, we re-accumulate before the next move, similar to 2022.
 
-Invalidation: $130
+[View tweet](https://x.com/KillaXBT/status/2090817115062239452)
 
-Thesis frames as tactical trading opportunity (mean-reversion scalps into unlock volatility cycles). Educational market-structure analysis with technical + timeline charts.
-
-[View tweet](https://x.com/Wild_Randomness/status/2090815747086069992)
+_Macro sentiment: bullish conviction but expects consolidation + re-accumulation cycle (similar to 2022 structure). Aligns with documented HTF 2x long thesis + recent partial TP at 62.6K. 3 technical chart images referenced in tweet (range/consolidation structure validation)._

@@ -1,0 +1,69 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet",
+        "tweet-link",
+        "separator",
+        "analysis-heading",
+        "analysis-text"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "I'm bullish, but I highly doubt $BTC sees 100K+ this year. I expect range bound chop. The plan remains the same, after the first leg up, we re-accumulate before the next move, similar to 2022."
+      },
+      "children": []
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2090817115062239452"
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Macro Sentiment Analysis",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "analysis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Bullish conviction but expects consolidation + re-accumulation cycle (similar to 2022 structure). Aligns with documented HTF 2x long thesis + recent partial TP at 62.6K. 3 technical chart images referenced in tweet (range/consolidation structure validation).",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
