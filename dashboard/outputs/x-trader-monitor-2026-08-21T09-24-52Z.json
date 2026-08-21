@@ -1,0 +1,132 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @swarmister"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_context",
+        "separator_1",
+        "stack_positions",
+        "separator_2",
+        "text_thesis",
+        "separator_3",
+        "alert_classification",
+        "separator_4",
+        "link_post"
+      ]
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "Context: Reply to @OnlyZen_PK: \"He is optimistic about the near future\"",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack_positions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_positions",
+        "stat_btc",
+        "stat_sndk"
+      ]
+    },
+    "heading_positions": {
+      "type": "Heading",
+      "props": {
+        "text": "Swarmister's Known Positions (Aug 21 08:57Z)",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "stat_btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC SHORT",
+        "value": "-179.72%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "stat_sndk": {
+      "type": "Stat",
+      "props": {
+        "label": "SNDK LONG",
+        "value": "+402.77%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text_thesis": {
+      "type": "Text",
+      "props": {
+        "text": "Thesis: Bullish semis/tech",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert_classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to Classify",
+        "message": "What's your read? Is \"He\" referring to market sentiment (asset/macro), personal commentary, or a trader reference? Which asset if financial?",
+        "type": "info"
+      },
+      "children": []
+    },
+    "separator_4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/swarmister/status/2090730453367959981"
+      },
+      "children": []
+    }
+  }
+}
