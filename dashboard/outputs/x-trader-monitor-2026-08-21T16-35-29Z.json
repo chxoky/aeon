@@ -1,0 +1,263 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor",
+        "description": "Market analysis and GOLD bullish thesis"
+      },
+      "children": [
+        "tweet",
+        "sep1",
+        "market_section",
+        "sep2",
+        "sentiment",
+        "sep3",
+        "thesis_section",
+        "sep4",
+        "link_section"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Nasdaq exactly unchanged\nCommodity charts up 20%\n\nExtremely peaceful indeed (sarcastic market sentiment on divergence)"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "market_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "market_heading",
+        "market_stats"
+      ]
+    },
+    "market_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Market Observations",
+        "level": "h3"
+      }
+    },
+    "market_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "nasdaq_stat",
+        "commodity_stat"
+      ]
+    },
+    "nasdaq_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Nasdaq",
+        "value": "Unchanged",
+        "trend": "neutral"
+      }
+    },
+    "commodity_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Commodity Charts",
+        "value": "+20%",
+        "trend": "up"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sentiment": {
+      "type": "Alert",
+      "props": {
+        "title": "Market Sentiment",
+        "message": "Extremely peaceful indeed (sarcastic market sentiment on divergence)",
+        "type": "info"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "thesis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "thesis_heading",
+        "thesis_intro",
+        "thesis_bullets"
+      ]
+    },
+    "thesis_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "GOLD Bullish Positioning",
+        "level": "h3"
+      }
+    },
+    "thesis_intro": {
+      "type": "Text",
+      "props": {
+        "text": "Confirms dispersion-trade thesis. Reinforces GOLD bullish positioning.",
+        "variant": "body"
+      }
+    },
+    "thesis_bullets": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "obs1",
+        "obs2",
+        "obs3",
+        "obs4",
+        "thesis_summary"
+      ]
+    },
+    "obs1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "obs1_badge",
+        "obs1_text"
+      ]
+    },
+    "obs1_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Aug 21 13:08Z",
+        "variant": "secondary"
+      }
+    },
+    "obs1_text": {
+      "type": "Text",
+      "props": {
+        "text": "GOLD sector reversal (GDXJ bullish arrow)",
+        "variant": "body"
+      }
+    },
+    "obs2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "obs2_badge",
+        "obs2_text"
+      ]
+    },
+    "obs2_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Aug 21 15:59Z",
+        "variant": "secondary"
+      }
+    },
+    "obs2_text": {
+      "type": "Text",
+      "props": {
+        "text": "XAUUSD/SPX ratio bottoming (North Star entry)",
+        "variant": "body"
+      }
+    },
+    "obs3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "obs3_badge",
+        "obs3_text"
+      ]
+    },
+    "obs3_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Aug 21 16:07Z",
+        "variant": "secondary"
+      }
+    },
+    "obs3_text": {
+      "type": "Text",
+      "props": {
+        "text": "XAUUSD weekly breakout (+2.17%, RSI recovery)",
+        "variant": "body"
+      }
+    },
+    "obs4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "obs4_badge",
+        "obs4_text"
+      ]
+    },
+    "obs4_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Aug 21 16:28Z",
+        "variant": "secondary"
+      }
+    },
+    "obs4_text": {
+      "type": "Text",
+      "props": {
+        "text": "Market sentiment validation (equity stall vs commodity surge)",
+        "variant": "body"
+      }
+    },
+    "thesis_summary": {
+      "type": "Text",
+      "props": {
+        "text": "Multi-post convergence validates high-conviction GOLD long thesis within broader divergence framework (commodities/crypto leading, equities flat).",
+        "variant": "lead"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_section": {
+      "type": "Link",
+      "props": {
+        "label": "View post on X",
+        "href": "https://x.com/Wild_Randomness/status/2090838531908542967"
+      }
+    }
+  }
+}
