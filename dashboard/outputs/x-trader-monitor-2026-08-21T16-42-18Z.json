@@ -1,0 +1,107 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Macro Analysis & Trading Insights"
+      },
+      "children": [
+        "heading1",
+        "tweetcard",
+        "sep1",
+        "heading2",
+        "stats_grid",
+        "sep2",
+        "link"
+      ]
+    },
+    "heading1": {
+      "type": "Heading",
+      "props": {
+        "text": "Macro Analysis — @Stoiiic",
+        "level": "h2"
+      }
+    },
+    "tweetcard": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "@Stoiiic",
+        "text": "BTC OI Dominance & Short Liquidation Cascade\n\nAnalysis of unprecedented short-liquidation impact on BTC/altcoin OI distribution. Mechanism: billions in BTC shorts squeezed → BTC OI flushed hard → altcoins absorbing rotation upward.\n\nAltcoin drift has been gradually shifting higher since beginning of year and has been ratcheting up over time."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading2": {
+      "type": "Heading",
+      "props": {
+        "text": "Market Snapshot (Aug 20)",
+        "level": "h3"
+      }
+    },
+    "stats_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat_sliq",
+        "stat_ena",
+        "stat_xrp",
+        "stat_btc"
+      ]
+    },
+    "stat_sliq": {
+      "type": "Stat",
+      "props": {
+        "label": "Short Liquidation Cascade",
+        "value": "$19.5B"
+      }
+    },
+    "stat_ena": {
+      "type": "Stat",
+      "props": {
+        "label": "ENA",
+        "value": "+41.5%",
+        "trend": "up"
+      }
+    },
+    "stat_xrp": {
+      "type": "Stat",
+      "props": {
+        "label": "XRP",
+        "value": "+17.7%",
+        "trend": "up"
+      }
+    },
+    "stat_btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "+9.77%",
+        "trend": "up"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View Tweet",
+        "href": "https://x.com/Stoiiiic/status/2090840114138431646"
+      }
+    }
+  }
+}

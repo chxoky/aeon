@@ -1,14 +1,6 @@
-🐦 *[X] @Wild_Randomness*
+🐦 *Macro Analysis — @Stoiiic*
 
-**Event analyzed:** @Wild_Randomness tweet (Aug 21 16:23:13 UTC)
-- **Classification**: Non-financial meme post (Step 4A)
-- **Content**: Link + animated character meme image (not a trading chart)
-- **Decision**: Skip silently per HR-1 and Step 4A protocol
-- **Action taken**: 
-  - ✓ Recorded tweet ID in x-trader-seen.txt to prevent reprocessing
-  - ✓ Logged event to memory/logs/2026-08-21.md (non-financial events documented without event line in traders.md per size discipline)
-  - ✓ No alert sent to Kyle (meme content has no financial signal)
-🐦 *[X] @Wild_Randomness*
+**BTC OI Dominance & Short Liquidation Cascade**
 
 Next chapter began weeks ago
 
@@ -41,3 +33,10 @@ Multi-post convergence validates high-conviction GOLD long thesis within broader
 
 [View post](https://x.com/Wild_Randomness/status/2090838531908542967)
 [View tweet](https://x.com/Wild_Randomness/status/2090839352259793185)
+Analysis of unprecedented short-liquidation impact on BTC/altcoin OI distribution. Stoiiic explains mechanism: billions in BTC shorts squeezed → BTC OI flushed hard → altcoins absorbing rotation upward. 
+
+*Altcoin drift has been gradually shifting higher since beginning of year and has been ratcheting up over time.*
+
+Validates market regime (Aug 20 context: $19.5B short liq cascade, ENA +41.5%, XRP +17.7%, BTC +9.77%).
+
+[https://x.com/Stoiiiic/status/2090840114138431646](https://x.com/Stoiiiic/status/2090840114138431646)
