@@ -1,0 +1,54 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "calibration_header",
+        "event_context",
+        "tweet_card",
+        "classification_question",
+        "view_link"
+      ]
+    },
+    "calibration_header": {
+      "type": "Text",
+      "props": {
+        "text": "🔍 Calibration — @Stoiiic",
+        "variant": "lead"
+      }
+    },
+    "event_context": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Cryptic reply to @Mike_Rosko_"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "Stoiiic",
+        "text": "@Mike_Rosko_ 💜"
+      }
+    },
+    "classification_question": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "muted"
+      }
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Stoiiic/status/2090683737293963382"
+      }
+    }
+  }
+}
