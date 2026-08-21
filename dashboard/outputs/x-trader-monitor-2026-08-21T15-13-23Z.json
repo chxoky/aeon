@@ -1,0 +1,63 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Market sentiment calibration and analysis"
+      },
+      "children": [
+        "heading-1",
+        "text-event",
+        "sep-1",
+        "tweet-1",
+        "sep-2",
+        "alert-classify"
+      ]
+    },
+    "heading-1": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h2"
+      }
+    },
+    "text-event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Tech sector resilience into Jackson Hole (Fed event Aug 27, 6d out); options expiration flows commentary",
+        "variant": "lead"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Let's see if tech can breath a last gasp into JHole\n\nFeels dumb, but whatever\n\nMuh opex flows didn't help indices this week\n\nMaybe we're just living in the upside down\n\nAbsolutely no refunds"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert-classify": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification Needed",
+        "message": "Unable to classify — what's your read? (Bearish tech call? Market structure concern? Sarcastic commentary?)",
+        "type": "warning"
+      }
+    }
+  }
+}
