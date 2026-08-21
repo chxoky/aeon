@@ -1,0 +1,196 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Self-resolved market analysis"
+      },
+      "children": [
+        "status_row",
+        "sep1",
+        "cryptic_section",
+        "sep2",
+        "resolution_section",
+        "sep3",
+        "classification_section",
+        "sep4",
+        "inference_section",
+        "sep5",
+        "link_section"
+      ]
+    },
+    "status_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "status_badge",
+        "author_text"
+      ]
+    },
+    "status_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "✅ Self-resolved",
+        "variant": "default"
+      }
+    },
+    "author_text": {
+      "type": "Text",
+      "props": {
+        "text": "@Wild_Randomness",
+        "variant": "muted"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "cryptic_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cryptic_heading",
+        "cryptic_text"
+      ]
+    },
+    "cryptic_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Earlier cryptic",
+        "level": "h3"
+      }
+    },
+    "cryptic_text": {
+      "type": "Text",
+      "props": {
+        "text": "October 2023",
+        "variant": "lead"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "resolution_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "resolution_heading",
+        "resolution_text"
+      ]
+    },
+    "resolution_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Resolved by",
+        "level": "h3"
+      }
+    },
+    "resolution_text": {
+      "type": "Text",
+      "props": {
+        "text": "October 23 is burned in my mind because:\n1. Metals and crypto were pumping together\n2. Whilst equities were drawing down\n3. Catalyst for equity drawdown was rates panic\n\nRhymes with today",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "classification_heading",
+        "class_badge",
+        "class_desc"
+      ]
+    },
+    "classification_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Classification",
+        "level": "h3"
+      }
+    },
+    "class_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Macro-sentiment",
+        "variant": "secondary"
+      }
+    },
+    "class_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Historical market correlation pattern (Oct 2023: metals+crypto strength vs equity weakness during rates panic) echoed in current market structure.",
+        "variant": "body"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "inference_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "inference_heading",
+        "inference_text"
+      ]
+    },
+    "inference_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Inference",
+        "level": "h3"
+      }
+    },
+    "inference_text": {
+      "type": "Text",
+      "props": {
+        "text": "Trader sees current dispersion (commodities/crypto outperforming equities on policy divergence) paralleling Oct 2023 structure, validates his bearish macro bias + portfolio positioning (holding GOLD longs, crypto alts).",
+        "variant": "body"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_section": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2090909839711166896"
+      }
+    }
+  }
+}
