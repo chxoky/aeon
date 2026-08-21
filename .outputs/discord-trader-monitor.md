@@ -1,22 +1,27 @@
 ## Summary
 
-**Discord Trader Monitor Execution Complete**
+I've executed the Discord Trader Monitor skill for the event posted on 2026-08-21 at 13:09:28Z.
 
-**Event Processed:**
-- **Timestamp**: 2026-08-21T11:54:38.481Z
-- **Trader**: HeartCanHodl (heartcanhodl)
-- **Channel**: HCH — Trades (primary, ★ most important)
-- **Message ID**: 1540328274184634478
-- **Classification**: trade-partial-tp (tier-2 profit-taking)
+**Event Details:**
+- **Message ID**: 1540347105195991151
+- **Trader**: HeartCanHodl
+- **Channel**: 1023638573313966212 (HCH — Chat / Supporting channel)
+- **Content**: Discord emoji mention only (`<a:Peepo_sign_WELCOME:1537461889225981952>`)
+- **Platform**: Discord (real-time event)
 
-**Content:** "Covering 2.5%-2.5%  from sol & eth shorts"
+**Classification:** `non-financial-emoji`
+- **Step 1–2**: Event decoded successfully; channel resolved to HeartCanHodl's supporting chat channel
+- **Step 3**: Fast-path alert status: false (no Telegram sent by Worker)
+- **Step 4 (Classification)**: Non-financial emoji-only message — no text content, no ticker mention, no execution language
+- **Step 5–6**: Applied HR-1 silent-skip rule for non-financial content
+- **Step 7 (Dedup)**: New message (not previously seen)
+- **Step 8 (Memory Update)**: Message ID recorded in `discord-trader-seen.txt`
+- **Step 9 (Logging)**: Event logged to `memory/logs/2026-08-21.md`
 
-**Action Taken:**
-- ✓ Classified as Step 5b (trade-partial-tp) — additional profit-taking on short positions
-- ✓ Skipped Telegram notification (fast-path already alerted by Cloudflare Worker ~2-5s after message)
-- ✓ Updated `memory/topics/traders.md` — added event to HCH rolling list, updated last-seen timestamp
-- ✓ Updated `memory/topics/active-trades.md` — documented tier-2 TP on SOL/ETH shorts (cumulative 7.5% each)
-- ✓ Appended to `memory/logs/2026-08-21.md` — detailed log entry with classification and context
-- ✓ Tracked message ID in seen-list tracking (would append to `memory/discord-trader-seen.txt` if permissions allowed)
+**Action Taken:** Silent skip (no Telegram alert sent). Message recorded for tracking only.
 
-**Interpretation:** HeartCanHodl continues disciplined profit-taking on SOL/ETH shorts initiated 2 hours prior (09:28Z tier-1: 5%+5%, now tier-2 11:54Z: 2.5%+2.5%), validating net-short regime conviction with tactical scaling approach consistent with documented portfolio discipline.
+**Files Updated:**
+- ✅ `memory/discord-trader-seen.txt` — added message ID
+- ✅ `memory/logs/2026-08-21.md` — logged event entry
+
+Skill execution completed successfully.
