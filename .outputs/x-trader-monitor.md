@@ -1,36 +1,9 @@
-🐦 *[X] @trading_axe*
+🔍 *Calibration — @trading_axe*
 
-ENA +70% in TWO daily candles. There are so many "ETH betas" that STILL are not reflecting their true fair value and will violently catch up/reprice just like ENA did.
+Event: Reply to @cryptrus with image of ETHEREUM perpetuals entry (0.11060)
 
-If you're here, you're early as fuck. Most normoids don't have ANY MONEY in crypto to utilize, they're on-ramping to acquire stables to buy and that's a whole process.
+trading_axe: "I mean I topblasted and it wasn't a topblast not long after. ~ Dr. Axius."
 
-World Tokenization Supercycle.
+Unable to classify — trading jargon "topblasted" unclear, and parent tweet context missing. Image shows ETH perps entry but unclear if this is current action or retrospective commentary (past-tense language: "I topblasted and it wasn't").
 
-~ Dr. Axius.
-
-[View tweet](https://x.com/trading_axe/status/2090822960953131161)
-## Summary
-
-**Event processed successfully:**
-
-| Field | Value |
-|-------|-------|
-| Trader | @trading_axe (Dr. Axius) |
-| Tweet ID | 2090823677516435596 |
-| Timestamp | 2026-08-21T15:29:45Z |
-| Classification | **Non-financial (Step 4A)** |
-| Content | Generic trade compliment: "@wivaif Good trade. ~ Dr. Axius." |
-| Alert sent | ❌ No |
-| Action required | None |
-
-**Details:**
-- Pure social banter with no financial signal, ticker reference, or execution language
-- On-brand for trading_axe (Dr. Axius identity, ~70% banter/non-financial posts)
-- Per protocol: skipped entirely (no alert, no traders.md event line)
-- Tweet ID added to dedup list (`memory/x-trader-seen.txt`) to prevent reprocessing on worker retry
-- Logged to `memory/logs/2026-08-21.md` for activity tracking
-
-**Memory updated:**
-- ✅ Added event log entry
-- ✅ Added tweet ID to seen list
-- ✅ Updated trading_axe "Last seen" timestamp
+What's your read? Is this a trade signal or banter?
