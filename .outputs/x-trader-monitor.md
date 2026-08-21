@@ -1,15 +1,15 @@
-🐦 *[X] @KillaXBT*
+🐦 *[X] @bull_genius*
 
-You do not liquidate $4,000,000,000 in $BTC shorts during a simple bear market rally.
+ethereum looks like its going straight to $3000
 
-Study.
+2026 vah / april+ high just fell
+365d rvwap + ATH avwap + january neckline at 2850
+then its just a blip from there and the asset is in a bull market, all within 3 days. this lockout is absolutely brutal and can easily continue
 
-MMs build short delta to eventually take it once the bear market is over. We just printed a 25% weekly candle and broke above essentially every significant level that mattered.
+if you are shorting eth you will likely get run over and your potential profit is way too small to justify
 
-If we were truly still in a bear market, we shouldn't have had this move. Bear market retests are typically shallow, controlled, and designed to protect short exposure. Instead, we completely obliterated shorts.
+you are either long or wait for a pullback to add at a more face saving spot on the chart
 
-That is exactly why the probability of trending back down to a new low in Q4 looks extremely unlikely, incentive-wise, structurally, and fundamentally.
+[View tweet](https://x.com/bull_genius/status/2090932805672812642)
 
-[View tweet](https://x.com/KillaXBT/status/2090916456934326686)
-
-↳ _Structural bull thesis validation — market mechanics explanation on why liquidation levels preclude new lows. Aligns with Aug 21 00:24Z hedge activation + 10:36Z 126K price target + group net-long conviction._
+↳ Bullish ETH structural thesis aligned with group net-long regime (KillaXBT HTF long, HCH emerging longs, Crypto_Chase bullish). Technical analysis validates current recovery narrative.

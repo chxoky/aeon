@@ -1,0 +1,60 @@
+{
+  "root": "root",
+  "state": {},
+  "elements": {
+    "root": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "content-stack"
+      ]
+    },
+    "content-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "tweet-link",
+        "separator",
+        "analysis"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "ethereum looks like its going straight to $3000\n\n2026 vah / april+ high just fell\n365d rvwap + ATH avwap + january neckline at 2850\nthen its just a blip from there and the asset is in a bull market, all within 3 days. this lockout is absolutely brutal and can easily continue\n\nif you are shorting eth you will likely get run over and your potential profit is way too small to justify\n\nyou are either long or wait for a pullback to add at a more face saving spot on the chart"
+      },
+      "children": []
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/bull_genius/status/2090932805672812642"
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis": {
+      "type": "Text",
+      "props": {
+        "text": "↳ Bullish ETH structural thesis aligned with group net-long regime (KillaXBT HTF long, HCH emerging longs, Crypto_Chase bullish). Technical analysis validates current recovery narrative.",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
