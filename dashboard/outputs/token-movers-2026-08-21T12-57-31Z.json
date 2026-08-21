@@ -1,0 +1,469 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Token Movers — 2026-08-21",
+        "description": "Broad risk-on sweep — 67/100 top coins green, median 24h +5.2%; alts joining BTC's $77K breakout across the board."
+      },
+      "children": [
+        "sep1",
+        "winners_section",
+        "sep2",
+        "losers_section",
+        "sep3",
+        "trending_section",
+        "sep4",
+        "notable_section"
+      ]
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "winners_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "winners_heading",
+        "winners_table"
+      ]
+    },
+    "winners_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Winners (24h)",
+        "level": "h2"
+      }
+    },
+    "winners_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Rank",
+          "Coin",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Vol / Rank",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "1",
+            "ENA (Ethena)",
+            "$0.1390",
+            "+39.5%",
+            "+66.6%",
+            "+1.0%",
+            "$848M / #62",
+            "BREAKOUT"
+          ],
+          [
+            "2",
+            "BCH (Bitcoin Cash)",
+            "$262.1",
+            "+21.4%",
+            "+28.2%",
+            "+0.4%",
+            "$539M / #21",
+            "BREAKOUT"
+          ],
+          [
+            "3",
+            "PUMP (Pump.fun)",
+            "$0.004070",
+            "+21.2%",
+            "+42.8%",
+            "-1.5%",
+            "$358M / #58",
+            "BREAKOUT"
+          ],
+          [
+            "4",
+            "BTW (Bitway)",
+            "$0.4880",
+            "+20.4%",
+            "+73.7%",
+            "+1.4%",
+            "$36.6M / #72",
+            "BREAKOUT"
+          ],
+          [
+            "5",
+            "WBT (WhiteBIT)",
+            "$71.53",
+            "+17.8%",
+            "+30.5%",
+            "-1.4%",
+            "$382M / #17",
+            "BREAKOUT MAJOR"
+          ],
+          [
+            "6",
+            "XRP (XRP)",
+            "$1.380",
+            "+17.2%",
+            "+35.6%",
+            "-1.9%",
+            "$10.1B / #5",
+            "TRENDING+UP BREAKOUT"
+          ],
+          [
+            "7",
+            "CRV (Curve DAO)",
+            "$0.3210",
+            "+16.1%",
+            "+29.8%",
+            "-0.3%",
+            "$195M / #80",
+            "BREAKOUT"
+          ],
+          [
+            "8",
+            "PENGU (Pudgy Penguins)",
+            "$0.007900",
+            "+13.9%",
+            "+26.0%",
+            "-1.8%",
+            "$171M / #90",
+            ""
+          ],
+          [
+            "9",
+            "ZEC (Zcash)",
+            "$647.0",
+            "+13.3%",
+            "+31.2%",
+            "-3.0%",
+            "$936M / #12",
+            "MAJOR"
+          ],
+          [
+            "10",
+            "PEPE (Pepe)",
+            "$0.000003620",
+            "+13.3%",
+            "+33.9%",
+            "-2.8%",
+            "$637M / #55",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "losers_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "losers_heading",
+        "losers_note",
+        "losers_table"
+      ]
+    },
+    "losers_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Losers (24h)",
+        "level": "h2"
+      }
+    },
+    "losers_note": {
+      "type": "Text",
+      "props": {
+        "text": "Losers list historically thin — barely 5 coins significantly red in the top 250.",
+        "variant": "muted"
+      }
+    },
+    "losers_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Rank",
+          "Coin",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Vol / Rank",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "1",
+            "MEMECORE",
+            "$1.150",
+            "-6.7%",
+            "+4.4%",
+            "-0.8%",
+            "$4.4M / #100",
+            ""
+          ],
+          [
+            "2",
+            "LIT (Lighter)",
+            "$2.750",
+            "-2.7%",
+            "+21.5%",
+            "-1.5%",
+            "$92M / #95",
+            ""
+          ],
+          [
+            "3",
+            "FIGR_HELOC (Figure Heloc)",
+            "$1.026",
+            "-1.6%",
+            "+2.0%",
+            "0.0%",
+            "$433M / #9",
+            ""
+          ],
+          [
+            "4",
+            "XMR (Monero)",
+            "$412.0",
+            "-1.1%",
+            "+3.7%",
+            "+0.2%",
+            "$153M / #19",
+            "MAJOR"
+          ],
+          [
+            "5",
+            "INJ (Injective)",
+            "$4.950",
+            "-0.3%",
+            "+8.8%",
+            "-1.5%",
+            "$125M / #50",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "trending_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "trending_heading",
+        "trending_table"
+      ]
+    },
+    "trending_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending",
+        "level": "h2"
+      }
+    },
+    "trending_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Rank",
+          "Coin",
+          "Price",
+          "24h Change",
+          "Status"
+        ],
+        "rows": [
+          [
+            "#1",
+            "BTC (Bitcoin)",
+            "$77,331",
+            "+7.9%",
+            ""
+          ],
+          [
+            "#2",
+            "ETH (Ethereum)",
+            "$2,392",
+            "+4.9%",
+            ""
+          ],
+          [
+            "#5",
+            "XRP (XRP)",
+            "$1.380",
+            "+16.0%",
+            "TRENDING+UP"
+          ],
+          [
+            "#7",
+            "SOL (Solana)",
+            "$91.00",
+            "+5.0%",
+            ""
+          ],
+          [
+            "#10",
+            "HYPE (Hyperliquid)",
+            "$74.35",
+            "+4.4%",
+            ""
+          ],
+          [
+            "#16",
+            "LINK (Chainlink)",
+            "$11.38",
+            "+7.7%",
+            ""
+          ],
+          [
+            "#31",
+            "SUI (Sui)",
+            "$0.8000",
+            "+11.3%",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "notable_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "notable_heading",
+        "notable_item_1",
+        "notable_item_2",
+        "notable_item_3",
+        "notable_item_4"
+      ]
+    },
+    "notable_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h2"
+      }
+    },
+    "notable_item_1": {
+      "type": "Text",
+      "props": {
+        "text": "ENA: +39.5% on $848M vol, 7d +66.6% — DeFi yield narrative sustaining multi-day breakout; WR long validating",
+        "variant": "body"
+      }
+    },
+    "notable_item_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "notable_text_2",
+        "notable_badges_2"
+      ]
+    },
+    "notable_text_2": {
+      "type": "Text",
+      "props": {
+        "text": "XRP: trending + L1 breakout, 7d +35.6% — strongest sustained move among majors",
+        "variant": "body"
+      }
+    },
+    "notable_badges_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_trending",
+        "badge_breakout"
+      ]
+    },
+    "badge_trending": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+UP",
+        "variant": "default"
+      }
+    },
+    "badge_breakout": {
+      "type": "Badge",
+      "props": {
+        "text": "BREAKOUT",
+        "variant": "default"
+      }
+    },
+    "notable_item_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "notable_text_3",
+        "notable_badges_3"
+      ]
+    },
+    "notable_text_3": {
+      "type": "Text",
+      "props": {
+        "text": "WBT: set ATH today ($72.23) during +17.8% surge",
+        "variant": "body"
+      }
+    },
+    "notable_badges_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_breakout_wbt"
+      ]
+    },
+    "badge_breakout_wbt": {
+      "type": "Badge",
+      "props": {
+        "text": "BREAKOUT",
+        "variant": "default"
+      }
+    },
+    "notable_item_4": {
+      "type": "Text",
+      "props": {
+        "text": "ZEC: #12, +13.3% on $936M vol, 7d +31.2% — large-cap privacy outperformer; trading_axe ZEC-to-ATH thesis gaining traction vs HCH short",
+        "variant": "body"
+      }
+    }
+  }
+}
