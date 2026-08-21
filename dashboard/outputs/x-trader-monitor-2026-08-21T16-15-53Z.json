@@ -1,0 +1,80 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @Stoiiic"
+      },
+      "children": [
+        "main_stack"
+      ]
+    },
+    "main_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "metadata_section",
+        "tweet_card",
+        "separator_1",
+        "question_alert"
+      ]
+    },
+    "metadata_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "timestamp_badge",
+        "tweet_link"
+      ]
+    },
+    "timestamp_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Aug 21 16:12Z",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/Stoiiic/status/2090834344503914644"
+      },
+      "children": []
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "@Stoiiic",
+        "text": "still going LOL"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "question_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification Request",
+        "message": "Unable to classify — what's your read? Financial signal (price action commentary) or personal banter?",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}
