@@ -1,0 +1,70 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "header",
+        "event_info",
+        "sep1",
+        "tweet_card",
+        "sep2",
+        "analysis_alert",
+        "view_link"
+      ]
+    },
+    "header": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Stoiiic",
+        "level": "h2"
+      }
+    },
+    "event_info": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @degenbaku (parent message context unavailable)",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "Stoiiic",
+        "text": "@degenbaku yeah i need to look into that"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unclear Context",
+        "message": "Cryptic subject — unable to determine financial signal vs personal banter. What's the context from @degenbaku's message?",
+        "type": "warning"
+      }
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View Tweet on X",
+        "href": "https://x.com/Stoiiic/status/2090836658212192350"
+      }
+    }
+  }
+}
