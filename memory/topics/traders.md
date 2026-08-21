@@ -268,3 +268,14 @@
   - Aug 20 22:21Z — ambiguous-cryptic: Reply to @GiguereSherri "Yes, in next 3 years at some point" — cryptic context-dependent response; parent tweet not visible in payload; unable to determine what is being confirmed (price level? timeframe? personal action?); no ticker explicitly mentioned; HR-2 calibration alert sent to Kyle [$UNKNOWN] [2090564854528827479]
   - Aug 20 21:29Z — informational-sentiment: X post "I hear #Bitcoin is going to $150k now 🚀" — passive hearsay/bullish price prediction; no personal execution language; Step 6 informational alert (sentiment commentary). Aligns with emerging group bullish lean (KillaXBT/HeartCanHodl/t_in_crypto long conviction). Alerted Kyle [BTC] [2090551868455838195]
 
+## abetrade
+
+- Platforms: X (Twitter)
+- Current open positions: None confirmed. Options vol analyst — shares ideas, not executions.
+- Recent thesis: BTC IV at historic lows; Sep historically vol bottom (2023+2025 precedents); straddle/strangle setups direction-neutral. SPCX calendar spread (sell Sep straddle, buy Oct; IV 110% vs RV 50%; max profit $1726).
+- Conviction notes: Educational framework only — no personal execution language. Options volatility specialist focused on setup mechanics and educational content.
+- Calibration: PENDING Aug 21 13:49Z (cryptic reply to @BTC_yytho/@deltaxbt "yea looks pretty good" — context-dependent, need parent tweet to determine financial signal vs casual banter)
+- Last seen: 2026-08-21T13:49:41Z (X reply — cryptic response to trader discussion)
+- **Events (rolling):**
+  - Aug 21 13:49Z — ambiguous-cryptic-reply: X reply to @BTC_yytho @deltaxbt "yea looks pretty good" — extremely cryptic 4-word response; context-dependent (parent tweet not visible in event payload); unable to determine if this is market-signal confirmation (setup commentary, position agreement) or casual trader banter without seeing what BTC_yytho posted; no ticker mentioned; no personal execution language; media empty; HR-2 calibration alert sent to Kyle requesting parent-tweet context [$UNKNOWN] [2090798498316714353]
+
