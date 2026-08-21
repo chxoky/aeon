@@ -1,5 +1,8 @@
-🐦 *[X] @bull_genius*
+🔍 *Calibration — @HeartCanHodl*
 
-@pierre_crypt0 @iam4x wholeheartedly agree. proliquid is super based
+Event: Reply to @PaperFlow8 on comparative asset performance
+HeartCanHodl: "Actually.. it did more than 4x before any of them from 2022 lows to 2025 highs"
 
-[View tweet](https://x.com/bull_genius/status/2090717554989797396)
+Unable to classify — what asset is HCH referencing? And does this signal any position/conviction change?
+
+[View post](https://x.com/HeartCanHodl/status/2090720824777228745)

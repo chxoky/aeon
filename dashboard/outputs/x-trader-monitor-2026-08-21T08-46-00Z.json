@@ -1,0 +1,84 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @HeartCanHodl",
+        "description": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "event_section",
+        "calibration_alert",
+        "link_post"
+      ]
+    },
+    "event_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event_heading",
+        "event_text",
+        "quote_attribution",
+        "quote_text"
+      ]
+    },
+    "event_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h4"
+      }
+    },
+    "event_text": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to @PaperFlow8 on comparative asset performance"
+      }
+    },
+    "quote_attribution": {
+      "type": "Text",
+      "props": {
+        "text": "HeartCanHodl:",
+        "variant": "muted"
+      }
+    },
+    "quote_text": {
+      "type": "Text",
+      "props": {
+        "text": "\"Actually.. it did more than 4x before any of them from 2022 lows to 2025 highs\"",
+        "variant": "lead"
+      }
+    },
+    "calibration_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What asset is HCH referencing? And does this signal any position/conviction change?",
+        "type": "info"
+      }
+    },
+    "link_post": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View post",
+        "href": "https://x.com/HeartCanHodl/status/2090720824777228745",
+        "source": "@HeartCanHodl"
+      }
+    }
+  }
+}
