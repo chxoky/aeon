@@ -21,3 +21,4 @@
   - Logged full event details to `memory/logs/2026-08-21.md`
 
 **Execution context:** HeartCanHodl continuing disciplined partial profit-taking within net-short regime (initiated Aug 07 on BTC structure rejection). Covering 5% SOL, 5% ETH, 2.5% HYPE — consistent with scaled position entry strategy documented Aug 21 06:54Z.
+🔍 Calibration — [DC: HCH — Trades] — heartcanhodl: "Otherwise the momentum was horrible" (09:29:19Z). Unable to classify — market momentum signal or execution commentary?
