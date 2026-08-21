@@ -1,0 +1,62 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_1"
+      ]
+    },
+    "stack_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat_1",
+        "separator_1",
+        "tweet_card",
+        "link_1"
+      ]
+    },
+    "stat_1": {
+      "type": "Stat",
+      "props": {
+        "label": "XAUUSD",
+        "value": "$4,616.795",
+        "delta": "+2.17%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "XAUUSD Weekly Breakout — $4,616.795 (+2.17%)\n\nConsolidation structure confirmation with RSI recovery from oversold. Validates GOLD sector reversal thesis (Aug 21 13:08Z miners reversal + Aug 21 15:59Z ratio bottoming).\n\n\"oh yeah\""
+      },
+      "children": []
+    },
+    "link_1": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2090833229838446830"
+      },
+      "children": []
+    }
+  }
+}
