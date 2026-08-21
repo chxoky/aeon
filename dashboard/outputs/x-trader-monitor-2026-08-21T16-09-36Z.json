@@ -1,0 +1,151 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Crypto Cycle Narratives"
+      },
+      "children": [
+        "tweet",
+        "link",
+        "separator",
+        "narratives_section"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "@bull_genius",
+        "text": "Conviction-ranked crypto cycle narratives: perp dex wars, tokenized RWA, privacy coins, robinhood chain, ETH revival, revenue/tokenomics focus, social trading, creator coins, NFT revival. Bearish on AI megacaps; wants crypto-exclusive exposure."
+      },
+      "children": []
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/bull_genius/status/2090832033421340775"
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "narratives_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "narratives_heading",
+        "narratives_grid"
+      ]
+    },
+    "narratives_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Conviction-ranked Narratives",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "narratives_grid": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge1",
+        "badge2",
+        "badge3",
+        "badge4",
+        "badge5",
+        "badge6",
+        "badge7",
+        "badge8",
+        "badge9"
+      ]
+    },
+    "badge1": {
+      "type": "Badge",
+      "props": {
+        "text": "Perp DEX Wars",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge2": {
+      "type": "Badge",
+      "props": {
+        "text": "Tokenized RWA",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge3": {
+      "type": "Badge",
+      "props": {
+        "text": "Privacy Coins",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge4": {
+      "type": "Badge",
+      "props": {
+        "text": "Robinhood Chain",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge5": {
+      "type": "Badge",
+      "props": {
+        "text": "ETH Revival",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge6": {
+      "type": "Badge",
+      "props": {
+        "text": "Revenue/Tokenomics Focus",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge7": {
+      "type": "Badge",
+      "props": {
+        "text": "Social Trading",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge8": {
+      "type": "Badge",
+      "props": {
+        "text": "Creator Coins",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge9": {
+      "type": "Badge",
+      "props": {
+        "text": "NFT Revival",
+        "variant": "default"
+      },
+      "children": []
+    }
+  }
+}
