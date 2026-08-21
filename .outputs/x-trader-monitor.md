@@ -31,3 +31,10 @@ I have successfully executed the **x-trader-monitor** skill with the provided Ki
 **Notification prepared** in `.pending-notify/killaxbt-disbelief-sentiment` ready to send to Kyle with sentiment confirmation flag.
 
 No issues found — this is a clean informational alert showing KillaXBT's bullish conviction on the move magnitude, validated by charts and market context.
+🐦 *[X] @Crypto_Chase*
+
+i love the move, can get back to trading some crypto now. just funnay seeing those who been getting chopped on btc past 80 days calling others sidelined (while those others were crushing equities)
+
+[View tweet](https://x.com/Crypto_Chase/status/2090861645111201799)
+
+_Market sentiment on BTC reversal + commentary on trader behavior — bullish lean visible, crypto focus active again._
