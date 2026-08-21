@@ -1,0 +1,173 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "market context — 2026-08-21"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stack_take",
+        "sep1",
+        "stack_prices",
+        "sep2",
+        "progress_fg",
+        "stat_breadth",
+        "text_dex",
+        "sep3",
+        "stack_narrative",
+        "sep4",
+        "progress_fed"
+      ]
+    },
+    "stack_take": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_risk_on",
+        "badge_conviction"
+      ]
+    },
+    "badge_risk_on": {
+      "type": "Badge",
+      "props": {
+        "text": "risk-on",
+        "variant": "default"
+      }
+    },
+    "badge_conviction": {
+      "type": "Badge",
+      "props": {
+        "text": "conviction high",
+        "variant": "default"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_prices": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_btc",
+        "stat_eth"
+      ]
+    },
+    "stat_btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$76,300",
+        "delta": "+9.8%",
+        "trend": "up"
+      }
+    },
+    "stat_eth": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$2,373",
+        "delta": "+5.8%",
+        "trend": "up"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "progress_fg": {
+      "type": "Progress",
+      "props": {
+        "label": "Fear & Greed: Greed (+10 pts)",
+        "value": 72,
+        "max": 100
+      }
+    },
+    "stat_breadth": {
+      "type": "Stat",
+      "props": {
+        "label": "breadth",
+        "value": "14/20"
+      }
+    },
+    "text_dex": {
+      "type": "Text",
+      "props": {
+        "text": "DEX vol: $10.46B"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_narrative": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_narrative",
+        "text_btc_breakout",
+        "text_ena"
+      ]
+    },
+    "heading_narrative": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Narrative",
+        "level": "h3"
+      }
+    },
+    "text_btc_breakout": {
+      "type": "Text",
+      "props": {
+        "text": "BTC structural breakout (rising)"
+      }
+    },
+    "text_ena": {
+      "type": "Text",
+      "props": {
+        "text": "ENA +41.5%"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "progress_fed": {
+      "type": "Progress",
+      "props": {
+        "label": "Will Fed raise rates Sep 2026? YES",
+        "value": 27.5,
+        "max": 100
+      }
+    }
+  }
+}

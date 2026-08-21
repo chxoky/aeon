@@ -1,7 +1,7 @@
-market context — 2026-08-20
+market context — 2026-08-21
 
 take: risk-on (conviction high)
-BTC $71,615 (+11.5%) / ETH $2,275 (+19.0%) · F&G 62 (Greed)
-breadth 17/20 · DEX vol $11.02B (+2.1% since morning)
-top narrative: institutional bid — $517M BTC ETF + $189M ETH inflows Aug 19 (rising)
-hot catalyst: CLARITY Act White House push; Jackson Hole 7 days
+BTC $76,300 (+9.8%) / ETH $2,373 (+5.8%) · F&G 72 (Greed, +10 pts)
+breadth 14/20 · DEX vol $10.46B
+top narrative: BTC structural breakout (rising); ENA +41.5%
+hot market: "Will Fed raise rates Sep 2026?" YES 27.5%
