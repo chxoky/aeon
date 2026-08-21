@@ -1,0 +1,140 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @HeartCanHodl"
+      },
+      "children": [
+        "context",
+        "shorts-coverage",
+        "tweet-card",
+        "separator",
+        "classification-section",
+        "tweet-link"
+      ]
+    },
+    "context": {
+      "type": "Text",
+      "props": {
+        "text": "Posted 2 min after covering SOL 5%, ETH 5%, HYPE 2.5% shorts (09:28Z)",
+        "variant": "caption"
+      }
+    },
+    "shorts-coverage": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "sol-badge",
+        "eth-badge",
+        "hype-badge"
+      ]
+    },
+    "sol-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "SOL 5%",
+        "variant": "outline"
+      }
+    },
+    "eth-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "ETH 5%",
+        "variant": "outline"
+      }
+    },
+    "hype-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "HYPE 2.5%",
+        "variant": "outline"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "Instead of haircut"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "classification-question",
+        "options-stack"
+      ]
+    },
+    "classification-question": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read? Is this:",
+        "variant": "lead"
+      }
+    },
+    "options-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opt-a",
+        "opt-b",
+        "opt-c",
+        "opt-d"
+      ]
+    },
+    "opt-a": {
+      "type": "Text",
+      "props": {
+        "text": "(a) reference to expected price movement",
+        "variant": "caption"
+      }
+    },
+    "opt-b": {
+      "type": "Text",
+      "props": {
+        "text": "(b) trim/loss comment on the short covers",
+        "variant": "caption"
+      }
+    },
+    "opt-c": {
+      "type": "Text",
+      "props": {
+        "text": "(c) personal banter",
+        "variant": "caption"
+      }
+    },
+    "opt-d": {
+      "type": "Text",
+      "props": {
+        "text": "(d) something else",
+        "variant": "caption"
+      }
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/HeartCanHodl/status/2090733153963110804"
+      }
+    }
+  }
+}
