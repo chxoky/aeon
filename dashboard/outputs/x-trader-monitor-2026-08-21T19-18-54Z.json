@@ -1,0 +1,95 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_calibration",
+        "text_event",
+        "text_quote",
+        "alert_unclear",
+        "stack_options",
+        "link_tweet"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Stoiiic",
+        "level": "h2"
+      }
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Unclear market momentum shift observation"
+      }
+    },
+    "text_quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"lighter seems to have picked up the baton for now\"",
+        "variant": "lead"
+      }
+    },
+    "alert_unclear": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read?",
+        "type": "info"
+      }
+    },
+    "stack_options": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_option_a",
+        "text_option_b",
+        "text_option_c"
+      ]
+    },
+    "text_option_a": {
+      "type": "Text",
+      "props": {
+        "text": "(a) LIT ticker reference?"
+      }
+    },
+    "text_option_b": {
+      "type": "Text",
+      "props": {
+        "text": "(b) Market momentum handoff commentary?"
+      }
+    },
+    "text_option_c": {
+      "type": "Text",
+      "props": {
+        "text": "(c) Banter?"
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Stoiiic/status/2090880368467488988"
+      }
+    }
+  }
+}

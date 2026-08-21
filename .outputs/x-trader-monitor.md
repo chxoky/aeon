@@ -1,7 +1,11 @@
-🐦 *[X] @Wild_Randomness*
+🔍 *Calibration — @Stoiiic*
 
-Reply to @Papi_xbt on HYPE/LIT allocation split: 'Don't think 3:1 is warranted at this moment'
+Event: Unclear market momentum shift observation
+Text: "lighter seems to have picked up the baton for now"
 
-Aligns with Aug 21 18:17Z conviction shift (3x→50:50). Consensus building on allocation caution around HYPE relative strength.
+Unable to classify — what's your read?
+(a) LIT ticker reference?
+(b) Market momentum handoff commentary?
+(c) Banter?
 
-https://x.com/Wild_Randomness/status/2090876803032428905
+[View tweet](https://x.com/Stoiiic/status/2090880368467488988)
