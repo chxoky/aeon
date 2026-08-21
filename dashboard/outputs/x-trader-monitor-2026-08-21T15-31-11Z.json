@@ -1,0 +1,41 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "separator1",
+        "link_view"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "trading_axe",
+        "handle": "trading_axe",
+        "text": "ENA +70% in TWO daily candles. There are so many \"ETH betas\" that STILL are not reflecting their true fair value and will violently catch up/reprice just like ENA did.\n\nIf you're here, you're early as fuck. Most normoids don't have ANY MONEY in crypto to utilize, they're on-ramping to acquire stables to buy and that's a whole process.\n\nWorld Tokenization Supercycle.\n\n~ Dr. Axius."
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/trading_axe/status/2090822960953131161"
+      },
+      "children": []
+    }
+  }
+}
