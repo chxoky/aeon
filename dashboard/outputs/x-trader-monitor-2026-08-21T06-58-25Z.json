@@ -1,0 +1,144 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "sep1",
+        "heading_positions",
+        "grid_positions",
+        "alert_profitable",
+        "sep2",
+        "heading_quote",
+        "text_quote",
+        "sep3",
+        "heading_analysis",
+        "text_analysis",
+        "sep4",
+        "link_post"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "@swarmister",
+        "text": "Portfolio allocation: SHORT $BTC (partial, 1/4 capital) vs LONG $SNDK + tech stocks (8x volume). Current P&L: BTC -179.72% | SNDK +402.77%. Overall portfolio still profitable."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_positions": {
+      "type": "Heading",
+      "props": {
+        "level": "h3",
+        "text": "Position Details"
+      }
+    },
+    "grid_positions": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat_btc",
+        "stat_sndk"
+      ]
+    },
+    "stat_btc": {
+      "type": "Stat",
+      "props": {
+        "label": "SHORT $BTC (1/4 capital)",
+        "value": "-179.72%",
+        "trend": "down"
+      }
+    },
+    "stat_sndk": {
+      "type": "Stat",
+      "props": {
+        "label": "LONG $SNDK + tech stocks (8x volume)",
+        "value": "+402.77%",
+        "trend": "up"
+      }
+    },
+    "alert_profitable": {
+      "type": "Alert",
+      "props": {
+        "type": "success",
+        "message": "Overall portfolio still profitable"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_quote": {
+      "type": "Heading",
+      "props": {
+        "level": "h4",
+        "text": "Trader's Rationale"
+      }
+    },
+    "text_quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"I only opened a PARTIAL position because I wasn't sure price would be the market top, but I didn't want to miss out on a potential move.\"",
+        "variant": "lead"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_analysis": {
+      "type": "Heading",
+      "props": {
+        "level": "h4",
+        "text": "Cross-trader Analysis"
+      }
+    },
+    "text_analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Bearish BTC positioning diverges from KillaXBT/HeartCanHodl/t_in_crypto structural long thesis. Shorts not yet averaged down."
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/swarmister/status/2090693791481020635"
+      }
+    }
+  }
+}

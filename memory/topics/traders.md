@@ -155,13 +155,14 @@
 ## swarmister
 
 - Platforms: X (Twitter)
-- Current open positions: [Unknown — banter-heavy, no confirmed positions]
-- Recent thesis: Commentary/banter trader (personal insults, platform antagonism)
-- Conviction notes: High banter/noise ratio. First monitored Aug 20 14:36Z. Does not appear to be a systematic trader.
-- Last seen: 2026-08-20T20:45:00Z (X — ambiguous cryptic signal)
-- Calibration: PENDING Aug 20 20:45Z (single word "Top" — unclear if market timing signal or banter), awaiting Kyle interpretation
+- Current open positions: BTC SHORT (entry 69,190.5, mark 75,407.9, -179.72% ROI on 20x leverage, partial position per allocation), SNDK LONG (entry 1,337.43, mark 1,606.81, +402.77% ROI on 20x leverage, 8x position size vs BTC) + other tech stocks
+- Recent thesis: Bearish BTC conviction (partial short); bullish semis/tech conviction (large long SNDK + others); risk management via position sizing (BTC trade = 1/4 capital, SNDK trade = 8x larger volume)
+- Conviction notes: Contrarian BTC positioning vs group bullish lean. Medium conviction on position sizing/allocation strategy. Overall portfolio still profitable. Partial position discipline (aware of market uncertainty, willing to miss moves to manage risk). DIVERGES from KillaXBT/HeartCanHodl/t_in_crypto/bull_genius bullish BTC thesis.
+- Last seen: 2026-08-21T06:53:37Z (X — portfolio allocation explanation + trading philosophy)
+- Calibration: PENDING Aug 20 20:45Z (single word "Top" — unclear if market timing signal or banter), RESOLVED Aug 21 06:53Z (portfolio commentary clarifies trading approach)
 - **Events (rolling):**
-  - Aug 20 20:45Z — ambiguous-cryptic: X post "Top" — single-word cryptic signal, no context/media; 6+ hours after prior banter post (14:36Z); unclear if market peak timing call (financial) or generic banter; HR-2 calibration alert sent to Kyle [$UNKNOWN] [2090540628903878862]
+  - Aug 21 06:53Z — informational-position-allocation-philosophy: X post explaining portfolio allocation strategy; SHORT $BTC (partial position, 1/4 capital allocated due to uncertainty), LONG $SNDK (large position, 8x volume vs BTC trade) + other tech stocks; position sizing rationale (managed risk via allocation, not all-in bets); current P&L: BTC short at -179.72%, SNDK long at +402.77%; portfolio overall in green (90% trades public); personal discipline note "haven't averaged down on short yet"; chart image showing detailed position breakdown; Step 6 informational alert (position philosophy/risk management commentary, not trade signal); DIVERGES from group bullish BTC lean (KillaXBT/HCH/t_in_crypto all long BTC); alerted Kyle [$BTC SHORT / $SNDK LONG PHILOSOPHY] [2090693791481020635]
+  - Aug 20 20:45Z — ambiguous-cryptic-UNRESOLVED: X post "Top" — single-word cryptic signal, no context/media; 6+ hours after prior banter post (14:36Z); unclear if market peak timing call (financial) or generic banter; original HR-2 calibration alert sent to Kyle [$UNKNOWN] [2090540628903878862]
   _(other non-financial events not tracked per skill rule 4A; see daily log for details)_
 
 ## bull_genius
