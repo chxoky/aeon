@@ -1,0 +1,69 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-card",
+        "view-link",
+        "separator-1",
+        "analysis-section"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Crypto_Chase",
+        "handle": "@Crypto_Chase",
+        "text": "$BTC will go straight to 250K with no pullbacks.\nEveryone will pretend their vaguepost was a bottom call.\nMichael Saylor will post 3 AI clips per day.\n\nWelcome to hell."
+      },
+      "children": []
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Crypto_Chase/status/2090783781594546273"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sentiment-badge",
+        "analysis-text"
+      ]
+    },
+    "sentiment-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Cynical/bearish sentiment",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "analysis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Trader entered macro short sub-50% on Aug 20 17:28Z; this appears to express ongoing bearish conviction via heavy sarcasm.",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
