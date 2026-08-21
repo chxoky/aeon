@@ -1,0 +1,176 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "market context — 2026-08-21"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge-take",
+        "separator-1",
+        "stack-prices",
+        "separator-2",
+        "progress-breadth",
+        "separator-3",
+        "stat-lido",
+        "separator-4",
+        "stack-narrative",
+        "separator-5",
+        "alert-hype",
+        "separator-6",
+        "stat-etf"
+      ]
+    },
+    "badge-take": {
+      "type": "Badge",
+      "props": {
+        "text": "risk-on extended • conviction high",
+        "variant": "default"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack-prices": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat-btc",
+        "stat-eth",
+        "stat-fg"
+      ]
+    },
+    "stat-btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$76,669",
+        "delta": "+7.1%",
+        "trend": "up"
+      }
+    },
+    "stat-eth": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$2,374",
+        "delta": "+4.4%",
+        "trend": "up"
+      }
+    },
+    "stat-fg": {
+      "type": "Stat",
+      "props": {
+        "label": "Fear & Greed",
+        "value": "72 Greed"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "progress-breadth": {
+      "type": "Progress",
+      "props": {
+        "label": "Breadth",
+        "value": 15,
+        "max": 20
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stat-lido": {
+      "type": "Stat",
+      "props": {
+        "label": "TVL Lido",
+        "value": "$22.75B",
+        "delta": "+27.5% (7d)",
+        "trend": "up"
+      }
+    },
+    "separator-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack-narrative": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-narrative-label",
+        "badge-narrative-details"
+      ]
+    },
+    "text-narrative-label": {
+      "type": "Text",
+      "props": {
+        "text": "Top narrative: ENA / DeFi yield",
+        "variant": "lead"
+      }
+    },
+    "badge-narrative-details": {
+      "type": "Badge",
+      "props": {
+        "text": "rising • +43.4% 24h • TWAP bid",
+        "variant": "secondary"
+      }
+    },
+    "separator-5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert-hype": {
+      "type": "Alert",
+      "props": {
+        "title": "HYPE $76.23",
+        "message": "ATH $76.87 = 0.84% away • HCH short event imminent",
+        "type": "warning"
+      }
+    },
+    "separator-6": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stat-etf": {
+      "type": "Stat",
+      "props": {
+        "label": "ETF flows (Aug 21)",
+        "value": "$800M",
+        "delta": "BTC+ETH • day 2 surge",
+        "trend": "up"
+      }
+    }
+  }
+}
