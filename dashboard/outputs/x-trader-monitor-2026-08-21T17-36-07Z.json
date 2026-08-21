@@ -1,0 +1,77 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration — @trading_axe"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_calibration",
+        "sep_1",
+        "text_event",
+        "tweet_trading_axe",
+        "sep_2",
+        "alert_context",
+        "text_question"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration",
+        "level": "h3"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @eCorpAli on market timing/price action",
+        "variant": "body"
+      }
+    },
+    "tweet_trading_axe": {
+      "type": "TweetCard",
+      "props": {
+        "author": "trading_axe",
+        "handle": "trading_axe",
+        "text": "Short term price action, I don't think it takes as long as the daily chart shows."
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "alert_context": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Context Missing",
+        "message": "Cannot see @eCorpAli's original message — unable to determine what chart/price action being discussed. No first-person execution language detected (not \"I longed/shorted/added/closed\"). Appears to be technical market commentary but unclear reference."
+      }
+    },
+    "text_question": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read? Is this informational market view, or does the context suggest otherwise?",
+        "variant": "lead"
+      }
+    }
+  }
+}
