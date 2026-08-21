@@ -1,11 +1,7 @@
-🐦 *[X] @KillaXBT*
+🐦 *[X] @Wild_Randomness*
 
-'People ask, "Killa, I'm underexposed. Where would you long?"
+Reply to @Papi_xbt on HYPE/LIT allocation split: 'Don't think 3:1 is warranted at this moment'
 
-If $BTC retests 69K–72K, around the 2022 ATH and prior 7-month range highs, I'll look to long on sub-accounts with HSL below 59K.
+Aligns with Aug 21 18:17Z conviction shift (3x→50:50). Consensus building on allocation caution around HYPE relative strength.
 
-To be clear: this would be a separate position, not an addition to my existing BTC long.'
-
-[View tweet](https://x.com/KillaXBT/status/2090872691444330820)
-
-↳ **BTC conditional entry** — strategy on retest zone aligns with KillaXBT's documented net-long thesis + earlier Aug 21 hedge activation.
+https://x.com/Wild_Randomness/status/2090876803032428905

@@ -1,0 +1,41 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-1"
+      ]
+    },
+    "stack-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-1",
+        "link-1"
+      ]
+    },
+    "tweet-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Reply to @Papi_xbt on HYPE/LIT allocation split: 'Don't think 3:1 is warranted at this moment'\n\nAligns with Aug 21 18:17Z conviction shift (3x→50:50). Consensus building on allocation caution around HYPE relative strength."
+      }
+    },
+    "link-1": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/Wild_Randomness/status/2090876803032428905"
+      }
+    }
+  }
+}
