@@ -1,0 +1,56 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "link_view",
+        "separator_1",
+        "text_note"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "Stoiiic",
+        "text": "Well I def can't predict the future there are a few things that give me a little pause on this move and the sustainability of it but taking it for what it is...\n\nThere's a clear tailwind for crypto now and it has been heavily sold off and suppressed for a while whereby equities have had a monstrous run i.e. the asymmetry of upside currently exists in this arena which is why the capital allocation has been so aggressive these past few days imo.\n\nI would like to see how BTC reacts when there is any kind of retracement from here on out. If buying steps in fast and BTC manages to stay above the low 70s I will take this as a shift for a longer term uptrend. If BTC keeps pushing from here, well...its clearly a break in htf structure which points to a sustained rally from here on out."
+      }
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Stoiiic/status/2090844449789483380"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_note": {
+      "type": "Text",
+      "props": {
+        "text": "↳ Macro market-structure sentiment on BTC/equity asymmetry + capital rotation thesis aligns with group risk-on backdrop (KillaXBT/HCH bull conviction, short-liquidation cascade narrative).",
+        "variant": "muted"
+      }
+    }
+  }
+}
