@@ -1,13 +1,8 @@
-Perfect. I've successfully processed the Discord trader monitor event. Here's the summary:
+🔍 *Calibration — [DC: HCH — Chat]*
 
-## Processing Complete
+Event: HCH in established net-short regime, scaling entries
 
-**Message Decoded:**
-- **Trader**: HeartCanHodl (heartcanhodl)
-- **Channel**: 1023638573313966212 (HCH — Chat, supporting member Q&A)
-- **Content**: "65k was not all in man 😅" (reply to member asking about short entry at 65k)
-- **Timestamp**: 2026-08-21T06:54:12Z
-- **Message ID**: 1540252666901565450
+HCH: "Entering another HTF level here"
 
 **Classification**: `informational-position-clarification`
 
@@ -51,3 +46,4 @@ Perfect! I've executed the discord-trader-monitor skill successfully. Here's the
 7. ✅ No traders.md update needed (established pattern, no new conviction/execution)
 
 **Result**: Message processed successfully. Fast-path alert was false (already processed via Worker), so skill handled classification and memory updates only. No Telegram notification required (routine technical observation, not trade signal).
+Unable to classify — what's your read? (Which asset? Ticker? What conviction level?)

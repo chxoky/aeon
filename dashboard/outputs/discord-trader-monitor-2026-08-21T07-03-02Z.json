@@ -1,0 +1,87 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor",
+        "description": "Trading event calibration"
+      },
+      "children": [
+        "heading_calibration",
+        "separator_1",
+        "stack_event",
+        "separator_2",
+        "message_hch",
+        "separator_3",
+        "alert_unclassified"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration — DC: HCH — Chat",
+        "level": "h2"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_event": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "label_event",
+        "text_event"
+      ]
+    },
+    "label_event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h4"
+      }
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "HCH in established net-short regime, scaling entries",
+        "variant": "body"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message_hch": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HCH",
+        "text": "Entering another HTF level here"
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_unclassified": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to Classify",
+        "message": "What's your read? (Which asset? Ticker? What conviction level?)",
+        "type": "warning"
+      }
+    }
+  }
+}
