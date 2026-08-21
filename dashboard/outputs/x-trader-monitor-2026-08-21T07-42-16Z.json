@@ -1,0 +1,76 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @bull_genius"
+      },
+      "children": [
+        "timestamp",
+        "event_type",
+        "separator1",
+        "tweet",
+        "analysis",
+        "separator2",
+        "link"
+      ]
+    },
+    "timestamp": {
+      "type": "Text",
+      "props": {
+        "text": "Aug 21 07:38:38 UTC",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "event_type": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @yahoodisaazish on market reversal/recovery thesis"
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "nah that one comes back for sure sure 👍"
+      },
+      "children": []
+    },
+    "analysis": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "title": "Unable to classify",
+        "message": "The parent tweet context is missing from the event payload. \"That one\" reference is context-dependent. What's your read on this trade signal vs. banter?"
+      },
+      "children": []
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/bull_genius/status/2090705121080443290"
+      },
+      "children": []
+    }
+  }
+}
