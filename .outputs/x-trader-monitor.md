@@ -1,8 +1,8 @@
-🐦 *[X] @Wild_Randomness*
+Perfect. The corrupted base64 event from @Wild_Randomness has been properly handled:
 
-'Brother I was scalping 4% BTC moves in a range for months while building a November IBIT put position... I ended up closing the Bitcoin short at 68k but was already very long HYPE/ZEC'
+## Summary
 
-[View tweet](https://x.com/Wild_Randomness/status/2090812591484580247)
+✅ **Event logged as bad-event** — Base64 payload for tweet ID `2090813588479062304` was truncated/corrupted and failed to decode.
 
 ↳ _Position retrospective confirming current HYPE/ZEC long thesis; BTC short closed at 68k (historical)._
 🔍 *Calibration — @swarmister*
@@ -17,3 +17,13 @@ Context: "LMEEEOOOW" is extremely cryptic (possibly LMAO variant or playful inte
 Posted after: Aug 21 08:57Z SNDK/MU outperformance celebration. Pattern: swarmister showing multiple cryptic replies this morning (09:18Z "It's over", 09:19Z "He is optimistic").
 
 Unable to classify — what's your read?
+**Actions taken:**
+- Added detailed bad-event entry to `memory/logs/2026-08-21.md` with partial decoded text visible in error
+- Added tweet ID to `memory/x-trader-seen.txt` to prevent reprocessing on Worker retry
+- Followed skill Step 1 protocol: no alert sent, processing stopped
+
+**Partial content visible from decode error:**
+- Mentions @ActiveCapitall, @molesy39, bullposting sub 1600, ETHA October puts (-50%), HYPE win (8x)
+- Text truncated mid-sentence before completing
+
+Per the skill's BAD_EVENT protocol, corrupted payloads are logged silently with no notification sent — this prevents cascading alert failures from malformed Worker deliveries.
