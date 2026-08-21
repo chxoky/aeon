@@ -1,0 +1,98 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "heartbeat"
+      },
+      "children": [
+        "alert-stuck",
+        "separator-1",
+        "content-stack"
+      ]
+    },
+    "alert-stuck": {
+      "type": "Alert",
+      "props": {
+        "type": "error",
+        "title": "🕸 STUCK: trader-memory-compact",
+        "message": "Dispatched 2026-08-16 20:58 UTC (5 days ago), last_status still 'dispatched', never reported back. Last success: 2026-08-09. Consecutive failures: 1. Likely hung or crashed before cron-state update."
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "content-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "details-grid",
+        "separator-2",
+        "action-alert"
+      ]
+    },
+    "details-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat-last-success",
+        "stat-failures",
+        "stat-schedule",
+        "stat-next-run"
+      ]
+    },
+    "stat-last-success": {
+      "type": "Stat",
+      "props": {
+        "label": "Last success",
+        "value": "2026-08-09"
+      }
+    },
+    "stat-failures": {
+      "type": "Stat",
+      "props": {
+        "label": "Consecutive failures",
+        "value": "1"
+      }
+    },
+    "stat-schedule": {
+      "type": "Stat",
+      "props": {
+        "label": "Schedule",
+        "value": "Sundays at 20:00 UTC"
+      }
+    },
+    "stat-next-run": {
+      "type": "Stat",
+      "props": {
+        "label": "Next scheduled run",
+        "value": "Aug 23"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "action-alert": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Action required",
+        "message": "Manual re-trigger or investigation needed to unblock."
+      }
+    }
+  }
+}
