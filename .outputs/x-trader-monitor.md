@@ -1,8 +1,11 @@
-🔍 *Calibration — @HeartCanHodl*
+🎯 *Bottom Call — @KillaXBT*
 
-Posted 2 min after covering SOL 5%, ETH 5%, HYPE 2.5% shorts (09:28Z)
-HeartCanHodl: "Instead of haircut"
+"We did it. Nailed the bottom publicly just as I nailed the top publicly.
 
-Unable to classify — what's your read? Is this: (a) reference to expected price movement, (b) trim/loss comment on the short covers, (c) personal banter, or (d) something else?
+$BTC is now up 25% since my long entry & 20% since my spot entries.
 
-[View tweet](https://x.com/HeartCanHodl/status/2090733153963110804)
+We hit 80K sooner than expected, but none the less, bottom is in."
+
+[View post](https://x.com/KillaXBT/status/20907396892588893480)
+
+**Context:** HTF structural bull thesis confirmed. Entry documentation: long from ~62.6K (now +25%), spot avg ~65.9K (now +20%), targeting 80K+ range before re-accumulation phase. Validating Aug 20 conviction calls on accumulation + 2.5yr dump target 160K.
