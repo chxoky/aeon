@@ -1,20 +1,10 @@
 🔍 *Calibration — @bull_genius*
 
-Aug 21 07:38:38 UTC
+Event: Reply to @iwantlambo discussing technical pattern reliability
+Message: "the dorito never fails"
 
-Event: Reply to @yahoodisaazish on market reversal/recovery thesis
+Context: bull_genius is a BTC technical structure analyst (VAH/POC/AVWAP focus). "The dorito" is likely a named technical setup/pattern. Conviction statement ("never fails") validates pattern reliability.
 
-bull_genius: "nah that one comes back for sure sure 👍"
+Unable to classify — what's your read? Is this a trade setup observation, pattern confirmation for context, or something else?
 
-Unable to classify — the parent tweet context is missing from the event payload. "That one" reference is context-dependent. What's your read on this trade signal vs. banter?
-
-[View post](https://x.com/bull_genius/status/2090705121080443290)
-🔍 **Calibration — @HeartCanHodl**
-
-Event: Cryptic X post 13 min after PUMP short entry (07:25Z Discord)
-
-@HeartCanHodl: "@playrisk @playrisk wayy"
-
-Unclear reference: Who is @playrisk? What does "wayy" mean? Related to PUMP entry or separate?
-
-https://x.com/HeartCanHodl/status/2090705064608620587
+[View post](https://x.com/bull_genius/status/2090710573189136664)
