@@ -1,12 +1,13 @@
 🐦 *Macro Analysis — @Stoiiic*
 
 **BTC OI Dominance & Short Liquidation Cascade**
+**NVDA technical structure + bearpost sentiment timing**
 
-Next chapter began weeks ago
+May peak (237) → Nov low (183.69) → current consolidation (225.16)
 
-The events this week only solidified it
+'Mandel bearposting began… 6 days ago. Coincidence?'
 
-**Context:** Polymarket prediction market spike — Kevin Warsh Fed Chair nomination odds now at 93%, consolidating weeks-long narrative buildup. Macro catalyst signal validating broader rate/dollar/gold dispersion thesis.
+Market sentiment shift on bearish mood emerging with NVDA's technical breakdown pattern (1D/1W structure validation in charts).
 
 **BTC accumulation:**
 - Exchange liquidation map shows strong Bybit buy-side dominance (institutional strength)
@@ -40,3 +41,4 @@ Analysis of unprecedented short-liquidation impact on BTC/altcoin OI distributio
 Validates market regime (Aug 20 context: $19.5B short liq cascade, ENA +41.5%, XRP +17.7%, BTC +9.77%).
 
 [https://x.com/Stoiiiic/status/2090840114138431646](https://x.com/Stoiiiic/status/2090840114138431646)
+[View tweet](https://x.com/Wild_Randomness/status/2090840784174268877)

@@ -1,0 +1,96 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor",
+        "description": "NVDA technical structure + bearpost sentiment timing"
+      },
+      "children": [
+        "sentiment_badge",
+        "tweet_card",
+        "separator_1",
+        "price_data",
+        "separator_2",
+        "tweet_link"
+      ]
+    },
+    "sentiment_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Bearish",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "NVDA technical structure + bearpost sentiment timing\n\nMay peak (237) → Nov low (183.69) → current consolidation (225.16)\n\n'Mandel bearposting began… 6 days ago. Coincidence?'\n\nMarket sentiment shift on bearish mood emerging with NVDA's technical breakdown pattern (1D/1W structure validation in charts)."
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "price_data": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_may_peak",
+        "stat_nov_low",
+        "stat_current"
+      ]
+    },
+    "stat_may_peak": {
+      "type": "Stat",
+      "props": {
+        "label": "May Peak",
+        "value": "237"
+      },
+      "children": []
+    },
+    "stat_nov_low": {
+      "type": "Stat",
+      "props": {
+        "label": "Nov Low",
+        "value": "183.69"
+      },
+      "children": []
+    },
+    "stat_current": {
+      "type": "Stat",
+      "props": {
+        "label": "Current Consolidation",
+        "value": "225.16"
+      },
+      "children": []
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2090840784174268877"
+      },
+      "children": []
+    }
+  }
+}
