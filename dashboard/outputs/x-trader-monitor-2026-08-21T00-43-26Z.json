@@ -1,0 +1,156 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "status_badge",
+        "main_stack"
+      ]
+    },
+    "status_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "✅ Self-resolved — @Wild_Randomness",
+        "variant": "default"
+      }
+    },
+    "main_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "earlier_section",
+        "separator1",
+        "resolved_section",
+        "separator2",
+        "classification_section",
+        "separator3",
+        "link_section"
+      ]
+    },
+    "earlier_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "earlier_heading",
+        "earlier_timestamp",
+        "earlier_quote"
+      ]
+    },
+    "earlier_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Earlier ambiguous",
+        "level": "h3"
+      }
+    },
+    "earlier_timestamp": {
+      "type": "Text",
+      "props": {
+        "text": "Aug 21 00:27Z",
+        "variant": "caption"
+      }
+    },
+    "earlier_quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"This was one of two charts I feared the most w.r.t. playing for the final flush (that never came)\" — cryptic retrospective on failed bearish prediction",
+        "variant": "body"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "resolved_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "resolved_heading",
+        "resolved_timestamp",
+        "resolved_quote"
+      ]
+    },
+    "resolved_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Resolved by",
+        "level": "h3"
+      }
+    },
+    "resolved_timestamp": {
+      "type": "Text",
+      "props": {
+        "text": "Aug 21 00:40Z",
+        "variant": "caption"
+      }
+    },
+    "resolved_quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"For now, this has been BTC's moment; can always go higher and revisit some lower levels later\" — bullish acknowledgment that BTC breakout is real, tailwind supports higher prices, but mean-reversion discipline maintained for lower-level revisits",
+        "variant": "body"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "classification_heading",
+        "classification_text"
+      ]
+    },
+    "classification_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Classification",
+        "level": "h3"
+      }
+    },
+    "classification_text": {
+      "type": "Text",
+      "props": {
+        "text": "Bearish setup failed → BTC bullish momentum confirmed with disciplined scaling framework",
+        "variant": "body"
+      }
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_section": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2090599794968547708",
+        "source": "X"
+      }
+    }
+  }
+}
