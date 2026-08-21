@@ -1,0 +1,83 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Unlock-Driven Trading Pattern Theory"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge-spcx",
+        "tweet-card",
+        "stats-stack",
+        "text-dates",
+        "link-tweet"
+      ]
+    },
+    "badge-spcx": {
+      "type": "Badge",
+      "props": {
+        "text": "[SPCX]",
+        "variant": "outline"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Unlock-Driven Trading Pattern Theory\n\nBiweekly unlocks through fall will drive selling into unlock dates + tactical 5-7 day rallies between tranches. Musk's 46.1% stake becomes eligible Day 366; progressive unlock schedule Aug 2026 → Sep 2027.\n\nInvalidation: $130\n\nThesis frames as tactical trading opportunity (mean-reversion scalps into unlock volatility cycles). Educational market-structure analysis with technical + timeline charts."
+      }
+    },
+    "stats-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-stake",
+        "stat-invalidation"
+      ]
+    },
+    "stat-stake": {
+      "type": "Stat",
+      "props": {
+        "label": "Musk's Stake",
+        "value": "46.1%"
+      }
+    },
+    "stat-invalidation": {
+      "type": "Stat",
+      "props": {
+        "label": "Invalidation",
+        "value": "$130"
+      }
+    },
+    "text-dates": {
+      "type": "Text",
+      "props": {
+        "text": "Unlock schedule: Aug 2026 → Sep 2027",
+        "variant": "caption"
+      }
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2090815747086069992"
+      }
+    }
+  }
+}
