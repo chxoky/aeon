@@ -1,19 +1,11 @@
-🐦 *[X] @trading_axe — LIT Market Thesis*
-
-LIT 'retire TENFOLD OVER' narrative on fund-accumulation catalyst. Thesis: Billion-dollar AUM funds will seek RWA/tokenization exposure; HYPE/LIT gold-silver parallel; 'YOU ARE EARLY' conviction. 2 Hyperliquid charts confirm structure (HYPE consolidation, LIT recovery setup with support intact).
-
-**CROSS-TRADER DIVERGENCE FLAG:**
-- HCH: Strong SHORT conviction (Jul 27 '2nd best trade')
-- trading_axe: Bullish catalyst narrative (this post + Aug 20)
-- Group lean: CONTESTED (2-trader bullish vs 2-trader bearish) = HIGH VOLATILITY RISK
-
-Chart: https://x.com/trading_axe/status/2090852973773479960
 🔍 *Calibration — @trading_axe*
 
-Event: Reply to @eCorpAli on market timing/price action
+Event: Cryptic announcement on upcoming market positioning
 
-trading_axe: "Short term price action, I don't think it takes as long as the daily chart shows."
+@trading_axe: "MANY PEOPLE are asking me: Doctor Axius, since you've recovered your INSIDER PHONE and have A BUNCH OF ALPHA in your possession again, what's next? This weekend I WILL be onchain. I cannot comment any further for now."
 
-Context missing: Cannot see @eCorpAli's original message — unable to determine what chart/price action being discussed. No first-person execution language detected (not "I longed/shorted/added/closed"). Appears to be technical market commentary but unclear reference.
+Context: Previously posted Aug 20 cryptic 'vicious takeover' announcement. Now indicating significant market move this weekend with deliberately withheld details. Unable to classify as specific trade signal.
 
-Unable to classify — what's your read? Is this informational market view, or does the context suggest otherwise?
+What's your read?
+
+https://x.com/trading_axe/status/2090855099350270234
