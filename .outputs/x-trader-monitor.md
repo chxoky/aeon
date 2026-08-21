@@ -13,3 +13,4 @@ $BTC breakout at $73,130 (+5.48%) — clean technical structure with volume conf
 [View tweet](https://x.com/Wild_Randomness/status/2090596300400312732)
 
 ↳ _Aligns with group bullish lean (KillaXBT/HCH structural long thesis, t_in_crypto @58.4K position)_
+Quarterly BTC liquidity maps from Wild_Randomness: structural shift. Prior bear high (bearish skew) vs today (bearish skew + BTC thesis). US admin keeping equities afloat, not pushing shorts. Validates current risk-on HTF positioning. https://x.com/Wild_Randomness/status/2090598062318399768

@@ -1,0 +1,74 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "BTC Liquidity Analysis from Wild_Randomness"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading",
+        "text-comparison",
+        "sep1",
+        "text-context",
+        "text-validation",
+        "sep2",
+        "link"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Quarterly BTC Liquidity Maps: Structural Shift",
+        "level": "h3"
+      }
+    },
+    "text-comparison": {
+      "type": "Text",
+      "props": {
+        "text": "Prior bear high: bearish skew vs Today: bearish skew + BTC thesis"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "text-context": {
+      "type": "Text",
+      "props": {
+        "text": "US admin keeping equities afloat, not pushing shorts."
+      }
+    },
+    "text-validation": {
+      "type": "Text",
+      "props": {
+        "text": "Validates current risk-on HTF positioning.",
+        "variant": "lead"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View Full Analysis",
+        "href": "https://x.com/Wild_Randomness/status/2090598062318399768",
+        "source": "X (Twitter)"
+      }
+    }
+  }
+}
