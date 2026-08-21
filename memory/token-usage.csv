@@ -3964,4 +3964,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-08-21,token-movers,claude-sonnet-4-6,27,31824,2078561,108461
 2026-08-21,morning-brief,claude-sonnet-4-6,24,10953,1201531,43085
 2026-08-21,x-trader-monitor,claude-haiku-4-5-20251001,161,6478,966393,44940
-2026-08-21,morning-brief,claude-sonnet-4-6,10,4801,498193,54264
+2026-08-21,heartbeat,claude-sonnet-4-6,12,14127,688973,62505
