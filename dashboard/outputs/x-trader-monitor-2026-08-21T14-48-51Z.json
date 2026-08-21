@@ -1,0 +1,54 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet",
+        "link",
+        "separator",
+        "interpretation"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Brother I was scalping 4% BTC moves in a range for months while building a November IBIT put position... I ended up closing the Bitcoin short at 68k but was already very long HYPE/ZEC"
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2090812591484580247"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {}
+    },
+    "interpretation": {
+      "type": "Text",
+      "props": {
+        "text": "Position retrospective confirming current HYPE/ZEC long thesis; BTC short closed at 68k (historical).",
+        "variant": "muted"
+      }
+    }
+  }
+}
