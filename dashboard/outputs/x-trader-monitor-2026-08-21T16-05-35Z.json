@@ -1,0 +1,38 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "separator",
+        "link_tweet"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "$GOLD $SPAX\n\nXAUUSD/SPX ratio bottoming structure validation (4 charts: daily 0.561 support ↔ recent 0.600 bounce, weekly 2025-2026 peak-to-support macro structure with RSI oversold). Reinforces Aug 21 13:08Z GOLD sector reversal thesis (GDXJ reversal arrow + ratio confluence entry).\n\nMulti-post convergence: Aug 20 22:10Z (ratio consolidation entry) → Aug 21 13:08Z (sector reversal) → Aug 21 15:59Z (macro ratio reinforcement) validates high-conviction GOLD long focus. Framework reinforcement on keeping \"the task at hand.\""
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2090831268724568525"
+      }
+    }
+  }
+}
