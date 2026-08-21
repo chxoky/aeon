@@ -1,0 +1,79 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "main_stack"
+      ]
+    },
+    "main_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "separator_1",
+        "context_section"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Next chapter began weeks ago\n\nThe events this week only solidified it"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_heading",
+        "context_text",
+        "link_tweet"
+      ]
+    },
+    "context_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Market Context",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "Polymarket prediction market spike — Kevin Warsh Fed Chair nomination odds now at 93%, consolidating weeks-long narrative buildup. Macro catalyst signal validating broader rate/dollar/gold dispersion thesis.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2090839352259793185"
+      },
+      "children": []
+    }
+  }
+}
