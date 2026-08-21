@@ -1,0 +1,51 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet_card",
+        "tweet_link",
+        "separator",
+        "entry_note"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "People ask, \"Killa, I'm underexposed. Where would you long?\"\n\nIf $BTC retests 69K–72K, around the 2022 ATH and prior 7-month range highs, I'll look to long on sub-accounts with HSL below 59K.\n\nTo be clear: this would be a separate position, not an addition to my existing BTC long."
+      },
+      "children": []
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2090872691444330820"
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "entry_note": {
+      "type": "Alert",
+      "props": {
+        "title": "BTC conditional entry",
+        "message": "Strategy on retest zone aligns with KillaXBT's documented net-long thesis + earlier Aug 21 hedge activation.",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}

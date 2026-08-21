@@ -1,16 +1,11 @@
-**Skill execution complete.**
+🐦 *[X] @KillaXBT*
 
-**Event processed:** 2090870005261123998 from @Stoiiic (18:33 UTC)
+'People ask, "Killa, I'm underexposed. Where would you long?"
 
-**Classification:** Non-financial social greeting — trader tags other users with praying emoji, zero financial substance.
+If $BTC retests 69K–72K, around the 2022 ATH and prior 7-month range highs, I'll look to long on sub-accounts with HSL below 59K.
 
-**Action taken:** Silent skip per Step 4A protocol (no alert sent to Kyle). Tweet ID added to `memory/x-trader-seen.txt` to prevent reprocessing. Event logged to `memory/logs/2026-08-21.md`.
+To be clear: this would be a separate position, not an addition to my existing BTC long.'
 
-## Summary
+[View tweet](https://x.com/KillaXBT/status/2090872691444330820)
 
-Processed one real-time X trader event per SKILL.md workflow:
-- Decoded base64 event payload ✓
-- Classified as non-financial personal/social content ✓
-- Updated reprocessing safeguard (x-trader-seen.txt) ✓
-- Logged to daily activity log ✓
-- No alert sent (non-financial skip rule) ✓
+↳ **BTC conditional entry** — strategy on retest zone aligns with KillaXBT's documented net-long thesis + earlier Aug 21 hedge activation.
