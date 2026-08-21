@@ -1,0 +1,69 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "platform-header",
+        "tweet-card",
+        "view-link",
+        "separator-1",
+        "commentary-text"
+      ]
+    },
+    "platform-header": {
+      "type": "Text",
+      "props": {
+        "text": "🐦 [X] @KillaXBT",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "You do not liquidate $4,000,000,000 in $BTC shorts during a simple bear market rally.\n\nStudy.\n\nMMs build short delta to eventually take it once the bear market is over. We just printed a 25% weekly candle and broke above essentially every significant level that mattered.\n\nIf we were truly still in a bear market, we shouldn't have had this move. Bear market retests are typically shallow, controlled, and designed to protect short exposure. Instead, we completely obliterated shorts.\n\nThat is exactly why the probability of trending back down to a new low in Q4 looks extremely unlikely, incentive-wise, structurally, and fundamentally."
+      },
+      "children": []
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2090916456934326686"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "commentary-text": {
+      "type": "Text",
+      "props": {
+        "text": "↳ Structural bull thesis validation — market mechanics explanation on why liquidation levels preclude new lows. Aligns with Aug 21 00:24Z hedge activation + 10:36Z 126K price target + group net-long conviction.",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
