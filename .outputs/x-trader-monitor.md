@@ -7,3 +7,8 @@ Bitcoin_Astro sharing Fibonacci harmonic analysis on BTC structure (TradingView 
 No personal execution language (informational technical observation).
 
 [View post](https://x.com/Bitcoin_Astro/status/2090940965619957953)
+@VECTORCP major level at 80600.agree with your 82-83k
+
+[View tweet](https://x.com/Bitcoin_Astro/status/2090941753696125091)
+
+↳ _Technical structure confirmation aligns with KillaXBT's range-setup thesis (72–94K consolidation, targeting 79.5–80K re-entry) and group bullish positioning. Gann-fan chart validates current consolidation levels._

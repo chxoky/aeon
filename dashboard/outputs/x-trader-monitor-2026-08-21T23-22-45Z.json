@@ -1,0 +1,56 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet",
+        "tweet-link",
+        "separator",
+        "commentary"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Bitcoin_Astro",
+        "handle": "@Bitcoin_Astro",
+        "text": "@VECTORCP major level at 80600.agree with your 82-83k"
+      }
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Bitcoin_Astro/status/2090941753696125091"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "commentary": {
+      "type": "Text",
+      "props": {
+        "text": "Technical structure confirmation aligns with KillaXBT's range-setup thesis (72–94K consolidation, targeting 79.5–80K re-entry) and group bullish positioning. Gann-fan chart validates current consolidation levels.",
+        "variant": "body"
+      }
+    }
+  }
+}

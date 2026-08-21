@@ -233,6 +233,17 @@
   - Aug 20 14:35Z — informational-educational-market-mechanics: X reply to @gaspard515644 "Study PUMP unlocks and the price action after. Unlocks are priced in largely months before the event. ~ Dr. Axius." Educational commentary on token-unlock pricing dynamics (not personal execution). Quiet ticker PUMP single-mention. Silent log (informational only, no Kyle alert). [$PUMP] [2090447646137725360]
   - Aug 20 14:16Z — informational-sentiment-market-view: X post on $LIT macroeconomic catalyst: "Some of you should look at the mcap of LIT and understand that the US gov/Trump admin mentioning a crypto coin for US perps approval [at such a low val] will cause a pump that we haven't seen since probably 2021. The rest is up to you guys to decide on how you want to position, but get exposure. ~ Dr. Axius." Narrative analysis + market suggestion (not personal execution). Cross-trader context: HCH short conviction (Jul 27 "2nd best trade"), WR bullish (weekend momentum long), ryzzqq bearish (Jul 25 "beta for a reason"). CONTESTED ticker, informational alert + cross-trader divergence noted for Kyle [$LIT] [2090442963767738609]
 
+## Bitcoin_Astro
+
+- Platforms: X (Twitter)
+- Current open positions: None tracked (technical analysis/commentary only, no confirmed executions)
+- Recent thesis: BTC technical structure analysis, price level confirmation on major resistance/support zones
+- Conviction notes: Technical analyst, price-action commentary focused. First tracked mention Aug 21 23:18Z. No established conviction history.
+- Calibration: None needed (clear informational technical confirmation)
+- Last seen: 2026-08-21T23:18:56Z (X post — BTC price level/Gann-fan technical confirmation)
+- **Events (rolling):**
+  - Aug 21 23:18Z — informational-price-level-technical-confirmation: Reply to @VECTORCP confirming 80600 major level and agreeing with 82-83k target. Gann-fan multi-year BTC/USD chart (2023-2026 structure, dashed lines marking support/resistance zones). Technical structure validation on current consolidation. No personal execution language ("agree with your" = supporting analysis, not "I bought/longed/sold/shorted at"). Cross-trader convergence: Aligns with KillaXBT (Aug 21 17:51Z conditional 79.5-80K re-entry target, Aug 21 18:24Z detailed multi-timeframe setup, Aug 21 21:38Z market mechanics) + Wild_Randomness (Aug 21 multi-day BTC tracking) + group bullish regime (HCH net-long, Crypto_Chase bullish sentiment, bull_genius structural bull). Price levels (80.6k support, 82-83k resistance) validated across 3-trader technical consensus. No divergence signals. Alerted Kyle with cross-trader convergence context. [BTC PRICE-LEVEL] [2090941753696125091]
+
 ## swarmister
 
 - Platforms: X (Twitter)
