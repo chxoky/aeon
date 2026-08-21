@@ -1,0 +1,69 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @trading_axe"
+      },
+      "children": [
+        "event-label",
+        "alert-parent",
+        "separator1",
+        "tweet",
+        "separator2",
+        "analysis-text",
+        "view-link"
+      ]
+    },
+    "event-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Event: Reply to @eyearea",
+        "level": "h4"
+      }
+    },
+    "alert-parent": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "Parent tweet not visible in payload"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "trading_axe",
+        "handle": "trading_axe",
+        "text": "@eyearea Damn.\n~ Dr. Axius"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read? Context-dependent cryptic response; unable to determine financial signal vs. personal banter without seeing @eyearea's original message.",
+        "variant": "body"
+      }
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/trading_axe/status/2090863566496674296"
+      }
+    }
+  }
+}
