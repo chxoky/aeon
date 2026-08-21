@@ -1,22 +1,24 @@
 *Morning Brief — 2026-08-21*
 
 *Focus today*
-1. KillaXBT hedge SL breached ($76,302 > 76.1K) — re-entry POI 80–82K now live
-2. Jackson Hole in 6 days — Fed guidance binary; Sep hike YES 27.5% in play
-3. HCH adding into breakout (5% BTC + PUMP short) — max divergence vs group bulls
+1. KillaXBT HSL 76.1K breached — BTC at $76,300; re-entry POI 80–82K now live
+2. HCH adding into pain — 5% BTC + 2% PUMP short added while short basket is severely underwater; cover = high-conviction reversal signal
+3. Jackson Hole in 6 days — XRP payments cluster [BREAKOUT] +17.7% front-running Aug 27 "Financial Innovation" theme
 
 *Since yesterday*
-- [moved] BTC $76,302 (+8.9%) — KillaXBT's 76.1K invalidation crossed; "next POI 80–82K"
-- [moved] ENA +41.2% — WR's long validating; TWAP algo observed (systematic buyer all day)
-- [added] HCH 5% BTC short + PUMP short (07:22–07:25 UTC) — conviction-add into the green
-- [stuck] HCH "Entering another HTF level here" (06:59 UTC) — ticker unconfirmed, calibration pending
-- [warning] swarmister BTC short ROI -179.72%; SNDK long carrying the book (+402.77%)
+- BTC $76,300 (+9.77%): extended breakout, cleared 73.4K–75K resistance; F&G 72 Greed (+10 pts)
+- KillaXBT hedge (35% at 73.6–74.9K, SL 76.1K) activated then stopped; next POI 80–82K
+- HCH short basket added 5% BTC + 2% PUMP (07:22–07:25 UTC); net-short regime intact despite drawdown
+- ENA +41.5% on all-day TWAP algo bid; XRP +17.7% + XLM/BCH payments cluster co-moving
+- swarmister: BTC 20x short at 69,190 (-179% ROI) disclosed; offset by SNDK 20x long (+402% ROI)
 
 *Watch*
-- Jackson Hole Aug 27 — hawkish surprise from Fed Chair flips Sep hike odds (currently YES 27.5%) and could reverse the tape mid-rally
+- XRP payments cluster [BREAKOUT] — direct pre-positioning for Jackson Hole "digital payments" keynote (Aug 27); Fed Sep hike YES 27.5% Polymarket
 
 *Running today*
-- x-trader-monitor + discord-trader-monitor: real-time
-- token-alert + token-movers @ 12:00 UTC
+- token-alert @ 12:00 UTC
+- token-movers @ 12:00 UTC
 - market-context-refresh @ 13:00 UTC
 - narrative-tracker @ 13:30 UTC
+- skill-health @ 18:00 UTC
+- heartbeat @ 08:00, 14:00, 20:00 UTC

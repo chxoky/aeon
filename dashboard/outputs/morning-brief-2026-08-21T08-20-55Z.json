@@ -1,0 +1,329 @@
+{
+  "root": "card-morning-brief",
+  "state": {},
+  "elements": {
+    "card-morning-brief": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-08-21"
+      },
+      "children": [
+        "section-focus",
+        "sep-1",
+        "section-yesterday",
+        "sep-2",
+        "section-watch",
+        "sep-3",
+        "section-running"
+      ]
+    },
+    "section-focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-focus",
+        "focus-1",
+        "focus-2",
+        "focus-3"
+      ]
+    },
+    "h-focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "focus-1": {
+      "type": "Text",
+      "props": {
+        "text": "KillaXBT HSL 76.1K breached — BTC at $76,300; re-entry POI 80–82K now live",
+        "variant": "body"
+      }
+    },
+    "focus-2": {
+      "type": "Text",
+      "props": {
+        "text": "HCH adding into pain — 5% BTC + 2% PUMP short added while short basket is severely underwater; cover = high-conviction reversal signal",
+        "variant": "body"
+      }
+    },
+    "focus-3": {
+      "type": "Text",
+      "props": {
+        "text": "Jackson Hole in 6 days — XRP payments cluster [BREAKOUT] +17.7% front-running Aug 27 \"Financial Innovation\" theme",
+        "variant": "body"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-yesterday": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-yesterday",
+        "yesterday-1",
+        "yesterday-2",
+        "yesterday-3",
+        "yesterday-4",
+        "yesterday-5"
+      ]
+    },
+    "h-yesterday": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "yesterday-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-btc",
+        "text-btc-context"
+      ]
+    },
+    "stat-btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$76,300",
+        "delta": "+9.77%",
+        "trend": "up"
+      }
+    },
+    "text-btc-context": {
+      "type": "Text",
+      "props": {
+        "text": "Extended breakout, cleared 73.4K–75K resistance; F&G 72 Greed (+10 pts)",
+        "variant": "caption"
+      }
+    },
+    "yesterday-2": {
+      "type": "Text",
+      "props": {
+        "text": "KillaXBT hedge (35% at 73.6–74.9K, SL 76.1K) activated then stopped; next POI 80–82K",
+        "variant": "body"
+      }
+    },
+    "yesterday-3": {
+      "type": "Text",
+      "props": {
+        "text": "HCH short basket added 5% BTC + 2% PUMP (07:22–07:25 UTC); net-short regime intact despite drawdown",
+        "variant": "body"
+      }
+    },
+    "yesterday-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-ena",
+        "stat-xrp",
+        "text-moves-context"
+      ]
+    },
+    "stat-ena": {
+      "type": "Stat",
+      "props": {
+        "label": "ENA",
+        "value": "+41.5%",
+        "trend": "up"
+      }
+    },
+    "stat-xrp": {
+      "type": "Stat",
+      "props": {
+        "label": "XRP",
+        "value": "+17.7%",
+        "trend": "up"
+      }
+    },
+    "text-moves-context": {
+      "type": "Text",
+      "props": {
+        "text": "ENA on all-day TWAP algo bid; XRP + XLM/BCH payments cluster co-moving",
+        "variant": "caption"
+      }
+    },
+    "yesterday-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-swarmister",
+        "stat-swarm-short",
+        "stat-sndk-long"
+      ]
+    },
+    "text-swarmister": {
+      "type": "Text",
+      "props": {
+        "text": "swarmister positions:",
+        "variant": "muted"
+      }
+    },
+    "stat-swarm-short": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC 20x short @ 69,190",
+        "value": "-179% ROI",
+        "trend": "down"
+      }
+    },
+    "stat-sndk-long": {
+      "type": "Stat",
+      "props": {
+        "label": "SNDK 20x long",
+        "value": "+402% ROI",
+        "trend": "up"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-watch",
+        "watch-1",
+        "watch-2"
+      ]
+    },
+    "h-watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "watch-1": {
+      "type": "Text",
+      "props": {
+        "text": "XRP payments cluster [BREAKOUT] — direct pre-positioning for Jackson Hole \"digital payments\" keynote (Aug 27)",
+        "variant": "body"
+      }
+    },
+    "watch-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-fed",
+        "text-market"
+      ]
+    },
+    "stat-fed": {
+      "type": "Stat",
+      "props": {
+        "label": "Fed Sep hike YES",
+        "value": "27.5%"
+      }
+    },
+    "text-market": {
+      "type": "Text",
+      "props": {
+        "text": "Polymarket",
+        "variant": "caption"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-running",
+        "run-1",
+        "run-2",
+        "run-3",
+        "run-4",
+        "run-5",
+        "run-6"
+      ]
+    },
+    "h-running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "run-1": {
+      "type": "Text",
+      "props": {
+        "text": "token-alert @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "run-2": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "run-3": {
+      "type": "Text",
+      "props": {
+        "text": "market-context-refresh @ 13:00 UTC",
+        "variant": "body"
+      }
+    },
+    "run-4": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC",
+        "variant": "body"
+      }
+    },
+    "run-5": {
+      "type": "Text",
+      "props": {
+        "text": "skill-health @ 18:00 UTC",
+        "variant": "body"
+      }
+    },
+    "run-6": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 08:00, 14:00, 20:00 UTC",
+        "variant": "body"
+      }
+    }
+  }
+}
