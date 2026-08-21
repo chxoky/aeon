@@ -47,11 +47,12 @@
 
 ## HeartCanHodl
 - Platforms: Discord (★Trades: 1279738718680256553, Comments: 1393137051108507728, Chat: 1023638573313966212, Free: 1472153627324842057) + X
-- Current open positions: NET SHORT regime (shifted Aug 07 00:28Z). [See memory/topics/active-trades.md for detailed allocation...] STOCKS: fully closed Aug 20 15:42Z.
-- Recent thesis: Regime shifted to net-short Aug 07 on BTC structure rejection at 64K. Systematic short basket + major-pair longs maintained. STOCKS: closed full position Aug 20 after partial reduction at 14:05Z. SHORT ENTRY STRATEGY: Scaled entries (not all-in at single level, per Aug 21 06:54Z clarification).
+- Current open positions: NET SHORT regime (shifted Aug 07 00:28Z). [See memory/topics/active-trades.md for detailed allocation...] STOCKS: fully closed Aug 20 15:42Z. SHORT BASKET: 14+ tickers (BTC/ZEC/HYPE/UNI/ADA/KAITO/SPCX/TSLA/PLTR/DOGE/CL/PUMP + others).
+- Recent thesis: Regime shifted to net-short Aug 07 on BTC structure rejection at 64K. Systematic short basket + major-pair longs maintained. STOCKS: closed full position Aug 20 after partial reduction at 14:05Z. SHORT ENTRY STRATEGY: Scaled entries (not all-in at single level, per Aug 21 06:54Z clarification). PUMP short added Aug 21 07:25Z.
 - Conviction notes: Disciplined portfolio architect. Primary Trades channel = highest conviction. Disciplined position scaling across multiple entry levels.
-- Last seen: 2026-08-21T07:21:17Z (Discord Chat — bearish technical sentiment on BTC structure)
+- Last seen: 2026-08-21T07:25:01Z (Discord Trades — PUMP short entry, 2% allocation)
 - **Events (rolling):**
+  - Aug 21 07:25Z — trade-new-entry: Discord Trades "2% pump short"; market-order execution; 2% allocation on PUMP short; 14th ticker in documented net-short basket (BTC/ZEC/HYPE/UNI/ADA/KAITO/SPCX/TSLA/PLTR/DOGE/CL/PUMP + others); continuation of systematic short-basket accumulation initiated Aug 07; fast-path alerted by Worker (Telegram sent ~07:25); silent-logged to memory only per fast-path protocol [$PUMP SHORT] [1540260423800983622]
   - Aug 21 07:21Z — informational-technical-sentiment-bearish: Discord Chat (supporting) "All i can see a blow off top forming like a shitcoin scam pump here" — BTC technical structure observation + bearish sentiment; "blow off top" pattern (exhaustion/reversal indicator) consistent with net-short regime thesis; no first-person execution language (not saying adding/closing/scaling); supporting channel technical conviction observation; continuation of 07:00Z technical analysis on BTC structure rejection/range; fast-path alerted by Worker (Telegram sent ~07:21); silent-logged to memory only [$BTC-STRUCTURE] [1540259482821730344]
   - Aug 21 06:59Z — ambiguous-execution-signal: Discord Chat (supporting) "Entering another HTF level here" — first-person execution language ("Entering") but cryptic/ambiguous reference ("HTF level") with no explicit ticker; supporting channel real-time signal; unable to classify without asset context; HR-2 calibration alert sent to Kyle [$UNKNOWN] [1540254082500009994]
 - Last seen: 2026-08-21T07:22:26Z (Discord Trades — BTC short conviction add)
