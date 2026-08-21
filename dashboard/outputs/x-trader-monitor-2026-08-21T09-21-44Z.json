@@ -1,0 +1,151 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @swarmister"
+      },
+      "children": [
+        "event_desc",
+        "separator_1",
+        "tweet_card",
+        "separator_2",
+        "classify_text",
+        "interpretations_stack",
+        "separator_3",
+        "context_heading",
+        "positions_stack",
+        "separator_4",
+        "link_tweet"
+      ]
+    },
+    "event_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @_CryptoAnubis (parent context not visible)"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "It's over"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classify_text": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?"
+      }
+    },
+    "interpretations_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "interp_1",
+        "interp_2",
+        "interp_3"
+      ]
+    },
+    "interp_1": {
+      "type": "Badge",
+      "props": {
+        "text": "Bearish short capitulation?",
+        "variant": "outline"
+      }
+    },
+    "interp_2": {
+      "type": "Badge",
+      "props": {
+        "text": "Price structure call?",
+        "variant": "outline"
+      }
+    },
+    "interp_3": {
+      "type": "Badge",
+      "props": {
+        "text": "Personal banter?",
+        "variant": "outline"
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_heading": {
+      "type": "Text",
+      "props": {
+        "text": "Context: swarmister",
+        "variant": "lead"
+      }
+    },
+    "positions_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "position_short_btc",
+        "position_long_sndk",
+        "note_text"
+      ]
+    },
+    "position_short_btc": {
+      "type": "Stat",
+      "props": {
+        "label": "SHORT BTC (20x)",
+        "value": "-179.72%",
+        "trend": "down"
+      }
+    },
+    "position_long_sndk": {
+      "type": "Stat",
+      "props": {
+        "label": "LONG SNDK (20x)",
+        "value": "+402.77%",
+        "trend": "up"
+      }
+    },
+    "note_text": {
+      "type": "Text",
+      "props": {
+        "text": "Just noted semis outperformance 13 min prior.",
+        "variant": "caption"
+      }
+    },
+    "separator_4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/swarmister/status/2090730303102886331"
+      }
+    }
+  }
+}
