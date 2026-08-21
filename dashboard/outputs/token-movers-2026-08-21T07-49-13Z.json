@@ -1,0 +1,407 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "Token Movers — 2026-08-21",
+        "description": "Continuation risk-on sweep — 89/100 top coins green, median +7%; BTC hits $76,302 (+8.9%) as yesterday's breakout extends with alts rotating hard across DeFi, L1s, and meme coins."
+      },
+      "children": [
+        "summary-text",
+        "sep1",
+        "winners-section",
+        "sep2",
+        "losers-section",
+        "sep3",
+        "trending-section",
+        "sep4",
+        "notable-section"
+      ]
+    },
+    "summary-text": {
+      "type": "Text",
+      "props": {
+        "text": "89/100 top coins green, median +7%; BTC at $76,302 (+8.9%)",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "winners-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Winners (24h)",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "winners-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Coin",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Market Cap / Rank",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "ENA (Ethena)",
+            "$0.1324",
+            "+41.2%",
+            "+52.5%",
+            "+0.4%",
+            "$554M / #64",
+            "BREAKOUT, TRENDING+UP"
+          ],
+          [
+            "PUMP (Pump.fun)",
+            "$0.003912",
+            "+23.8%",
+            "+36.4%",
+            "+1.1%",
+            "$294M / #53",
+            "BREAKOUT, TRENDING+UP"
+          ],
+          [
+            "BTW (Bitway)",
+            "$0.48",
+            "+22.0%",
+            "+71.0%",
+            "+6.3%",
+            "$45.2M / #62",
+            "BREAKOUT"
+          ],
+          [
+            "CRV (Curve DAO)",
+            "$0.315",
+            "+19.0%",
+            "+26.1%",
+            "+2.1%",
+            "$167M / #103",
+            "BREAKOUT"
+          ],
+          [
+            "BCH (Bitcoin Cash)",
+            "$258.74",
+            "+18.1%",
+            "+20.7%",
+            "+4.7%",
+            "$426M / #21",
+            ""
+          ],
+          [
+            "XRP",
+            "$1.31",
+            "+17.7%",
+            "+28.7%",
+            "-0.8%",
+            "$8.3B / #5",
+            "BREAKOUT, MAJOR"
+          ],
+          [
+            "SPX (SPX6900)",
+            "$0.430",
+            "+17.7%",
+            "+34.7%",
+            "0.0%",
+            "$16.4M / #114",
+            "BREAKOUT"
+          ],
+          [
+            "PEPE",
+            "$0.000003493",
+            "+17.3%",
+            "+26.9%",
+            "+0.7%",
+            "$595M / #57",
+            "BREAKOUT, TRENDING+UP"
+          ],
+          [
+            "PENGU (Pudgy Penguins)",
+            "$0.0076",
+            "+15.6%",
+            "+20.0%",
+            "-0.9%",
+            "$166M / #106",
+            ""
+          ],
+          [
+            "PYTH",
+            "$0.0500",
+            "+15.1%",
+            "+22.3%",
+            "+3.0%",
+            "$88.8M / #115",
+            ""
+          ]
+        ]
+      },
+      "children": []
+    },
+    "winners-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "winners-heading",
+        "winners-table"
+      ]
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "losers-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Losers (24h)",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "losers-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Coin",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Market Cap / Rank"
+        ],
+        "rows": [
+          [
+            "M (MemeCore)",
+            "$1.14",
+            "-7.7%",
+            "-2.0%",
+            "-0.9%",
+            "$4.2M / #38"
+          ],
+          [
+            "WLFI (World Liberty)",
+            "$0.0604",
+            "-2.9%",
+            "+9.5%",
+            "-0.7%",
+            "$58.8M / #45"
+          ],
+          [
+            "GENIUS",
+            "—",
+            "-2.1%",
+            "-16.8%",
+            "+1.7%",
+            "$12.3M / #243"
+          ],
+          [
+            "SOSO (SoSoValue)",
+            "—",
+            "-2.1%",
+            "-7.3%",
+            "-1.8%",
+            "$4.8M / #244"
+          ],
+          [
+            "FIGR_HELOC (Figure Heloc)",
+            "$1.026",
+            "-1.6%",
+            "+2.0%",
+            "0.0%",
+            "$434M / #9"
+          ]
+        ]
+      },
+      "children": []
+    },
+    "losers-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "losers-heading",
+        "losers-table"
+      ]
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "trending-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "trending-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Coin",
+          "Rank",
+          "Price",
+          "24h Change",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "BTC (Bitcoin)",
+            "#1",
+            "$76,302",
+            "+8.9%",
+            "MAJOR"
+          ],
+          [
+            "PIPEDOG",
+            "#624",
+            "$0.002505",
+            "0.0%",
+            "MICROCAP"
+          ],
+          [
+            "ALIGN",
+            "#631",
+            "$0.01869",
+            "0.0%",
+            ""
+          ],
+          [
+            "SOL (Solana)",
+            "#7",
+            "$90.10",
+            "+6.2%",
+            ""
+          ],
+          [
+            "PUMP (Pump.fun)",
+            "#53",
+            "$0.003912",
+            "+23.8%",
+            "TRENDING+UP"
+          ],
+          [
+            "ENA (Ethena)",
+            "#64",
+            "$0.1324",
+            "+41.2%",
+            "TRENDING+UP"
+          ],
+          [
+            "HYPE (Hyperliquid)",
+            "#10",
+            "$73.50",
+            "+2.4%",
+            ""
+          ]
+        ]
+      },
+      "children": []
+    },
+    "trending-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "trending-heading",
+        "trending-table"
+      ]
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "notable-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "notable-item1": {
+      "type": "Text",
+      "props": {
+        "text": "ENA: trending + up 41% / 7d +53% on $554M volume — broadest alt signal of the day [BREAKOUT][TRENDING+UP]",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "notable-item2": {
+      "type": "Text",
+      "props": {
+        "text": "XRP: #5 large-cap +18% / 7d +29% on $8.3B volume — sustained breakout on massive liquidity [BREAKOUT][MAJOR]",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "notable-item3": {
+      "type": "Text",
+      "props": {
+        "text": "BTW: 7d +71% continuation — extraordinary weekly run in top-100",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "notable-item4": {
+      "type": "Text",
+      "props": {
+        "text": "PUMP: trending + 24% on 36% weekly base — Solana meme launchpad rotation [BREAKOUT][TRENDING+UP]",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "notable-item5": {
+      "type": "Text",
+      "props": {
+        "text": "Losers note: entire top-250 nearly green; M (MemeCore) -7.7% is the only meaningful red across top-50",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "notable-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "notable-heading",
+        "notable-item1",
+        "notable-item2",
+        "notable-item3",
+        "notable-item4",
+        "notable-item5"
+      ]
+    }
+  }
+}
