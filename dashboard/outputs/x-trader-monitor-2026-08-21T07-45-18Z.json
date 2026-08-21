@@ -1,0 +1,53 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @HeartCanHodl"
+      },
+      "children": [
+        "event-text",
+        "tweet",
+        "alert",
+        "link"
+      ]
+    },
+    "event-text": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Cryptic X post 13 min after PUMP short entry (07:25Z Discord)",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "@playrisk @playrisk wayy"
+      },
+      "children": []
+    },
+    "alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unclear Reference",
+        "message": "Who is @playrisk? What does \"wayy\" mean? Related to PUMP entry or separate?",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View on X",
+        "href": "https://x.com/HeartCanHodl/status/2090705064608620587",
+        "source": "X"
+      },
+      "children": []
+    }
+  }
+}
