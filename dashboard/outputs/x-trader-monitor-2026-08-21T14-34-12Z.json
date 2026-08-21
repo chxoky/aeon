@@ -1,0 +1,43 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_1"
+      ]
+    },
+    "stack_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_1",
+        "link_1"
+      ]
+    },
+    "tweet_1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Crypto_Chase",
+        "handle": "Crypto_Chase",
+        "text": "$BTC Daily — V-recovery from $58K bottom (Jun) through $80K breakout (early Aug), now consolidating $74-76K. Trader notes: \"this move could happen over the next few days (or even less).\" Implied: Sharp move pattern potential in near-term consolidation (continuation or reversal from range)."
+      },
+      "children": []
+    },
+    "link_1": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Crypto_Chase/status/2090808527396745231"
+      },
+      "children": []
+    }
+  }
+}
