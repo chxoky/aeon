@@ -1,0 +1,101 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Real-time X post calibration"
+      },
+      "children": [
+        "heading_calibration",
+        "text_event",
+        "sep1",
+        "tweet_card",
+        "text_timestamp",
+        "link_url",
+        "sep2",
+        "text_context",
+        "text_pattern",
+        "alert_question"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @swarmister",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Real-time X post — replied to @Cbb0fe with cryptic text",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "@Cbb0fe LMEEEOOOW"
+      },
+      "children": []
+    },
+    "text_timestamp": {
+      "type": "Text",
+      "props": {
+        "text": "2026-08-21 14:49:11 UTC",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "link_url": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/swarmister/status/2090813472544035129"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "Context: \"LMEEEOOOW\" is extremely cryptic (possibly LMAO variant or playful internet slang). No execution language. Unable to classify as financial signal vs. personal banter without seeing @Cbb0fe's original message.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_pattern": {
+      "type": "Text",
+      "props": {
+        "text": "Posted after: Aug 21 08:57Z SNDK/MU outperformance celebration. Pattern: swarmister showing multiple cryptic replies this morning (09:18Z \"It's over\", 09:19Z \"He is optimistic\").",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "alert_question": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification needed",
+        "message": "Unable to classify — what's your read?",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}
