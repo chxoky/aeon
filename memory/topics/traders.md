@@ -50,8 +50,9 @@
 - Current open positions: NET SHORT regime (shifted Aug 07 00:28Z). [See memory/topics/active-trades.md for detailed allocation...] STOCKS: fully closed Aug 20 15:42Z.
 - Recent thesis: Regime shifted to net-short Aug 07 on BTC structure rejection at 64K. Systematic short basket + major-pair longs maintained. STOCKS: closed full position Aug 20 after partial reduction at 14:05Z. SHORT ENTRY STRATEGY: Scaled entries (not all-in at single level, per Aug 21 06:54Z clarification).
 - Conviction notes: Disciplined portfolio architect. Primary Trades channel = highest conviction. Disciplined position scaling across multiple entry levels.
-- Last seen: 2026-08-21T06:59:49Z (Discord Chat — ambiguous execution signal)
+- Last seen: 2026-08-21T07:21:17Z (Discord Chat — bearish technical sentiment on BTC structure)
 - **Events (rolling):**
+  - Aug 21 07:21Z — informational-technical-sentiment-bearish: Discord Chat (supporting) "All i can see a blow off top forming like a shitcoin scam pump here" — BTC technical structure observation + bearish sentiment; "blow off top" pattern (exhaustion/reversal indicator) consistent with net-short regime thesis; no first-person execution language (not saying adding/closing/scaling); supporting channel technical conviction observation; continuation of 07:00Z technical analysis on BTC structure rejection/range; fast-path alerted by Worker (Telegram sent ~07:21); silent-logged to memory only [$BTC-STRUCTURE] [1540259482821730344]
   - Aug 21 06:59Z — ambiguous-execution-signal: Discord Chat (supporting) "Entering another HTF level here" — first-person execution language ("Entering") but cryptic/ambiguous reference ("HTF level") with no explicit ticker; supporting channel real-time signal; unable to classify without asset context; HR-2 calibration alert sent to Kyle [$UNKNOWN] [1540254082500009994]
 - Last seen: 2026-08-21T07:00:14Z (Discord Chat — technical structure observation)
 - **Events (rolling):**
