@@ -1,0 +1,196 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Trading thesis retrospective from @Wild_Randomness"
+      },
+      "children": [
+        "tweet",
+        "sep1",
+        "gold-section",
+        "sep2",
+        "hype-section",
+        "sep3",
+        "btc-section",
+        "sep4",
+        "context-section",
+        "post-link"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Retrospective post validating recent wins across GOLD thesis, HYPE rally, and BTC accumulation"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "gold-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "gold-title",
+        "gold-stat",
+        "gold-details"
+      ]
+    },
+    "gold-title": {
+      "type": "Heading",
+      "props": {
+        "text": "GOLD thesis convergence",
+        "level": "h3"
+      }
+    },
+    "gold-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "XAUUSD/SPX ratio",
+        "value": "0.600",
+        "delta": "+0.039"
+      }
+    },
+    "gold-details": {
+      "type": "Text",
+      "props": {
+        "text": "Aug 15:59 bottoming thesis + Aug 16:07 weekly breakout. Multi-timeframe structure alignment (daily + weekly + ratio all confirming reversal)"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "hype-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "hype-title",
+        "hype-stat",
+        "hype-details"
+      ]
+    },
+    "hype-title": {
+      "type": "Heading",
+      "props": {
+        "text": "HYPE rally",
+        "level": "h3"
+      }
+    },
+    "hype-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Current price",
+        "value": "56.130",
+        "delta": "+1.95%",
+        "trend": "up"
+      }
+    },
+    "hype-details": {
+      "type": "Text",
+      "props": {
+        "text": "Breakout from 50 support. Validates Aug 20 21:38Z thesis: \"Highest daily close in history loading?\" — now 80+ tested"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "btc-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "btc-title",
+        "btc-badge",
+        "btc-details"
+      ]
+    },
+    "btc-title": {
+      "type": "Heading",
+      "props": {
+        "text": "BTC accumulation",
+        "level": "h3"
+      }
+    },
+    "btc-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Institutional strength",
+        "variant": "default"
+      }
+    },
+    "btc-details": {
+      "type": "Text",
+      "props": {
+        "text": "Exchange liquidation map shows strong Bybit buy-side dominance"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context-title",
+        "context-details",
+        "execution-badge"
+      ]
+    },
+    "context-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h4"
+      }
+    },
+    "context-details": {
+      "type": "Text",
+      "props": {
+        "text": "Mixed with personal travel photos (appears to be on vacation). Light sentiment check, no new execution."
+      }
+    },
+    "execution-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "No new execution",
+        "variant": "outline"
+      }
+    },
+    "post-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View original post",
+        "href": "https://x.com/Wild_Randomness/status/2090838161765409096",
+        "source": "X/Twitter"
+      }
+    }
+  }
+}
