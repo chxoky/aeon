@@ -1,0 +1,76 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading-calibration",
+        "text-event",
+        "separator-1",
+        "tweet-card",
+        "separator-2",
+        "text-analysis",
+        "link-view"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text-event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @Commando26V discussing future positioning",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Yeah for now, maybe leaps at some point in the next two months though"
+      },
+      "children": []
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text-analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify without @Commando26V context — mentions \"leaps\" (likely long-dated options) but no ticker/asset specified. No execution language detected. What's your read?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "link-view": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2090894251689488617"
+      },
+      "children": []
+    }
+  }
+}
