@@ -1,0 +1,139 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Token Alert",
+        "description": "2026-08-21"
+      },
+      "children": [
+        "alert_btc",
+        "separator1",
+        "btc_section",
+        "separator2",
+        "eth_section",
+        "separator3",
+        "sol_section"
+      ]
+    },
+    "alert_btc": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "🔔 BTC Alert Triggered",
+        "message": "24h change (8.06%) exceeded 5% alert threshold"
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "btc_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "btc_price",
+        "btc_volume"
+      ]
+    },
+    "btc_price": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$77,320",
+        "delta": "+8.06%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "btc_volume": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume (24h)",
+        "value": "$68.5B"
+      },
+      "children": []
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "eth_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "eth_price",
+        "eth_status"
+      ]
+    },
+    "eth_price": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$2,392.46",
+        "delta": "+5.08%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "eth_status": {
+      "type": "Badge",
+      "props": {
+        "text": "Below 8% threshold — no alert",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "sol_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "sol_price",
+        "sol_status"
+      ]
+    },
+    "sol_price": {
+      "type": "Stat",
+      "props": {
+        "label": "SOL",
+        "value": "$91.02",
+        "delta": "+4.95%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "sol_status": {
+      "type": "Badge",
+      "props": {
+        "text": "Below 10% threshold — no alert",
+        "variant": "outline"
+      },
+      "children": []
+    }
+  }
+}

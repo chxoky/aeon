@@ -1,7 +1,8 @@
-*Token Alert — 2026-08-20*
+*Token Alert — 2026-08-21*
 
-BTC: $71,650 (up 10.4% 24h) | Vol: $66.5B
-ETH: $2,280 (up 18.0% 24h) | Vol: $37.9B
-SOL: $86.70 (up 11.1% 24h) | Vol: $5.8B
+🔔 BTC: $77,320 (up 8.06% 24h)
+Volume: $68.5B
+Trigger: 24h change (8.06%) exceeded 5% alert threshold
 
-Trigger: All 3 tracked tokens exceed alert thresholds (BTC >5%, ETH >8%, SOL >10%). Risk-on breakout day continues — BTC +$1,780 since 07:00 UTC morning brief. $19.5B short liquidation cascade (record). Jackson Hole 7 days out.
+ETH: $2,392.46 (+5.08% 24h) — below 8% threshold, no alert
+SOL: $91.02 (+4.95% 24h) — below 10% threshold, no alert
