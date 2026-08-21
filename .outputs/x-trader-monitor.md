@@ -1,11 +1,9 @@
-🔍 *Calibration — @bull_genius*
+🔍 *Calibration — @Bitcoin_Astro*
 
-Event: Personal status update with conditional market outlook
+Event: Reply to @Ozdemir0737 at 23:58:08 UTC
 
-bull_genius: "@shillyxbt rn like 95% flat, today was gf birthday i wasnt at screen. i posted i took profit from lower i didnt rebuy anything i wanted to focus on the day
+@Bitcoin_Astro: "@Ozdemir0737 Probably not"
 
-but if i see another big wipe candle up or sfp on chart i think ill punt short for the correction. so im just having eye on and letting it come to me"
+Unable to classify — referenced message context not visible. What's your read?
 
-Unable to classify — is this a pending conditional short order you're setting up, or market commentary/watching? Conditional "if X then I'll short" vs currently passive observation.
-
-[View post](https://x.com/bull_genius/status/2090584401818100124)
+[View post](https://x.com/Bitcoin_Astro/status/2090589231802376351)
