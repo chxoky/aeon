@@ -1,0 +1,267 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-08-21"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section-focus",
+        "sep1",
+        "section-yesterday",
+        "sep2",
+        "section-watch",
+        "sep3",
+        "section-running"
+      ]
+    },
+    "section-focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-focus",
+        "focus-item-1",
+        "focus-item-2",
+        "focus-item-3"
+      ]
+    },
+    "heading-focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "focus-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-1-title",
+        "focus-1-desc"
+      ]
+    },
+    "focus-1-title": {
+      "type": "Text",
+      "props": {
+        "text": "1. KillaXBT 76.1K HSL — BTC $76.3K within 0.1% of hedge hard stop",
+        "variant": "lead"
+      }
+    },
+    "focus-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Why now: breach = 80-82K next POI; hold = range confirmed here",
+        "variant": "body"
+      }
+    },
+    "focus-item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-2-title",
+        "focus-2-desc"
+      ]
+    },
+    "focus-2-title": {
+      "type": "Text",
+      "props": {
+        "text": "2. HCH net-short at breaking point — added +5% BTC conviction + 2% PUMP short this AM; no cover signal",
+        "variant": "lead"
+      }
+    },
+    "focus-2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Why now: forced-cover event is the sharpest regime-reversal trigger available",
+        "variant": "body"
+      }
+    },
+    "focus-item-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-3-title",
+        "focus-3-desc"
+      ]
+    },
+    "focus-3-title": {
+      "type": "Text",
+      "props": {
+        "text": "3. Jackson Hole in 6 days — theme \"Financial Innovation: Payments & Policy\" for first time addresses digital assets",
+        "variant": "lead"
+      }
+    },
+    "focus-3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Why now: positioning window before Aug 27; XRP [BREAKOUT] already responding",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-yesterday": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-yesterday",
+        "yesterday-1",
+        "yesterday-2",
+        "yesterday-3",
+        "yesterday-4"
+      ]
+    },
+    "heading-yesterday": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "yesterday-1": {
+      "type": "Text",
+      "props": {
+        "text": "[moved]: BTC $71.6K → $76.3K (+6.5%); KillaXBT hedge activated at 73.6-74.9K zone",
+        "variant": "body"
+      }
+    },
+    "yesterday-2": {
+      "type": "Text",
+      "props": {
+        "text": "[moved]: F&G 62 → 72 (+10 pts overnight); ENA +41.6% on all-day TWAP algo buying",
+        "variant": "body"
+      }
+    },
+    "yesterday-3": {
+      "type": "Text",
+      "props": {
+        "text": "[moved]: XRP [BREAKOUT] +18.3% 24h / +28.7% 7d — payments cluster active (XLM +11.4%, BCH +18.1%)",
+        "variant": "body"
+      }
+    },
+    "yesterday-4": {
+      "type": "Text",
+      "props": {
+        "text": "[stuck]: HCH short regime — conviction adds into squeeze, no cover yet",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-watch",
+        "watch-item"
+      ]
+    },
+    "heading-watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "watch-item": {
+      "type": "Text",
+      "props": {
+        "text": "XRP/Jackson Hole: payments cluster activation aligns with Jackson Hole \"digital payments\" theme — structural narrative forming; implication for focus #3",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-running",
+        "running-1",
+        "running-2",
+        "running-3",
+        "running-4"
+      ]
+    },
+    "heading-running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "running-1": {
+      "type": "Text",
+      "props": {
+        "text": "morning-pipeline @ 07:00 UTC ✓",
+        "variant": "body"
+      }
+    },
+    "running-2": {
+      "type": "Text",
+      "props": {
+        "text": "token-alert, token-movers @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running-3": {
+      "type": "Text",
+      "props": {
+        "text": "market-context-refresh @ 13:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running-4": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC",
+        "variant": "body"
+      }
+    }
+  }
+}
