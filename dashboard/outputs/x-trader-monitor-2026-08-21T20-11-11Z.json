@@ -1,0 +1,43 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_post",
+        "link_post"
+      ]
+    },
+    "tweet_post": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "BTC Market Cap Dominance: 60.20% (+0.75%)\n\nObserving multi-month consolidation structure with support at 58.5-60.5% and resistance at 61.5-62%. Chart shows technical reversals marked at key levels. Relevant to dispersion-trade framework (rising BTC dominance = capital flowing from alts; Wild_Randomness holds long HYPE/LIT/PEPE/ENA)."
+      },
+      "children": []
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2090893375818051935"
+      },
+      "children": []
+    }
+  }
+}
