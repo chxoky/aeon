@@ -1,0 +1,81 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "member_section",
+        "sep1",
+        "chase_section"
+      ]
+    },
+    "member_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "member_label",
+        "member_msg"
+      ]
+    },
+    "member_label": {
+      "type": "Text",
+      "props": {
+        "text": "↩️ Member",
+        "variant": "muted"
+      }
+    },
+    "member_msg": {
+      "type": "Text",
+      "props": {
+        "text": "Currently at / above ur level. Are you interested in any shorts? Guess the focus.."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "chase_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "chase_context",
+        "chase_msg"
+      ]
+    },
+    "chase_context": {
+      "type": "Text",
+      "props": {
+        "text": "💬 DC: Chase — Crypto",
+        "variant": "muted"
+      }
+    },
+    "chase_msg": {
+      "type": "Text",
+      "props": {
+        "text": "keeping it simple here really. I have no reason to short whatsoever until I see a key level deviate, show weakness, or a setup come my way"
+      }
+    }
+  }
+}
