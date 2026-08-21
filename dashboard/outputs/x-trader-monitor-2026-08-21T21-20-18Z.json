@@ -1,0 +1,182 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Self-resolved — @Wild_Randomness"
+      },
+      "children": [
+        "status_stack",
+        "sep1",
+        "resolution_stack",
+        "sep2",
+        "charts_stack",
+        "sep3",
+        "classification_stack",
+        "sep4",
+        "link_stack"
+      ]
+    },
+    "status_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "status_badge"
+      ]
+    },
+    "status_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Self-resolved",
+        "variant": "default"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "resolution_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "resolution_heading",
+        "ambiguity_text",
+        "resolved_by_text"
+      ]
+    },
+    "resolution_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Resolution",
+        "level": "h3"
+      }
+    },
+    "ambiguity_text": {
+      "type": "Text",
+      "props": {
+        "text": "Earlier ambiguous: \"October 2023\"",
+        "variant": "caption"
+      }
+    },
+    "resolved_by_text": {
+      "type": "Text",
+      "props": {
+        "text": "Resolved by: \"That previous sales dip in 2023? Mhmm\" + 3 chart images",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "charts_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "charts_heading",
+        "charts_detail_text",
+        "charts_note_text"
+      ]
+    },
+    "charts_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart Analysis",
+        "level": "h3"
+      }
+    },
+    "charts_detail_text": {
+      "type": "Text",
+      "props": {
+        "text": "3 images from pbs.twimg.com",
+        "variant": "body"
+      }
+    },
+    "charts_note_text": {
+      "type": "Text",
+      "props": {
+        "text": "CDN analysis attempted but fetch may timeout",
+        "variant": "caption"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "classification_heading",
+        "classification_type_badge",
+        "classification_context_text"
+      ]
+    },
+    "classification_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Classification",
+        "level": "h3"
+      }
+    },
+    "classification_type_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Technical retrospective / Chart analysis",
+        "variant": "secondary"
+      }
+    },
+    "classification_context_text": {
+      "type": "Text",
+      "props": {
+        "text": "2023 market structure — Multi-chart comparison showing historical dip structure validation",
+        "variant": "muted"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post_link"
+      ]
+    },
+    "post_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2090910527858037071",
+        "source": "X (Twitter)"
+      }
+    }
+  }
+}
