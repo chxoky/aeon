@@ -81,6 +81,29 @@
 - **Conviction**: HIGH throughout (waiting months for sub-850 level per 06-23 message); both TP hit and trim management confirm disciplined execution; final close at 1000+ level validates multi-tier entry strategy and ongoing technical setup favorability thesis
 - **Last update**: 2026-07-16T19:02:25Z (final position closed, TP'd over 1000, X post tweet_id=2077831237566169306, fast-path alerted via ./notify)
 
+## HeartCanHodl
+
+### SOL (Solana) — SHORT (PARTIAL TP 2026-08-21)
+- **Entry date**: Prior (before 2026-08-21, part of systematic short-basket regime)
+- **Partial TP execution**: 2026-08-21T09:28:04Z
+- **TP size**: 5% of SOL short position
+- **Status**: ACTIVE — 5% TP'd, remainder maintained in net-short regime
+- **Last update**: 2026-08-21T09:28:04Z (message_id=1540291390171385876, discord-trader-monitor real-time, fast-path alerted)
+
+### ETH (Ethereum) — SHORT (PARTIAL TP 2026-08-21)
+- **Entry date**: Prior (before 2026-08-21, part of systematic short-basket regime)
+- **Partial TP execution**: 2026-08-21T09:28:04Z
+- **TP size**: 5% of ETH short position
+- **Status**: ACTIVE — 5% TP'd, remainder maintained in net-short regime
+- **Last update**: 2026-08-21T09:28:04Z (message_id=1540291390171385876, discord-trader-monitor real-time, fast-path alerted)
+
+### HYPE (Hyperliquid) — SHORT (PARTIAL TP 2026-08-21)
+- **Entry date**: Prior (before 2026-08-21, part of systematic short-basket regime)
+- **Partial TP execution**: 2026-08-21T09:28:04Z
+- **TP size**: 2.5% of HYPE short position
+- **Status**: ACTIVE — 2.5% TP'd, remainder maintained in net-short regime
+- **Last update**: 2026-08-21T09:28:04Z (message_id=1540291390171385876, discord-trader-monitor real-time, fast-path alerted)
+
 ### MU (Micron Technology) — LONG (NEW ENTRY — 2026-07-17, PARTIAL TP 2026-07-21)
 - **Entry**: 2026-07-17T13:46:04Z — "I started about a third of my Micron bag around 800" (Discord message_id=1527672741509988483, fast-path-alerted=true)
 - **Entry level**: ~$800 (market-order execution or limit fill), later confirmed as ~$820 on 2026-07-18
