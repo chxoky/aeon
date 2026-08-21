@@ -1,0 +1,65 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration — @trading_axe"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event_info",
+        "separator_1",
+        "tweet_card",
+        "separator_2",
+        "alert_review"
+      ]
+    },
+    "event_info": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @bigcryptgains (parent message context missing)",
+        "variant": "caption"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "trading_axe",
+        "handle": "trading_axe",
+        "text": "They have 99%~ of the supply in the hands of Binance Cartel - and have been profiting by hunting longs and shorts [for those that dare to trade it]. They'll prob scam pump it too, similar to BNB. But very weak compared to HL/LIT."
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_review": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "title": "Unable to classify",
+        "message": "What's your read? Is this bearish market commentary (Step 6 informational) or encoded short signal on the unnamed token? Which token was @bigcryptgains asking about?"
+      }
+    }
+  }
+}
