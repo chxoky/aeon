@@ -1,0 +1,83 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor",
+        "description": "WMT trading signal and analysis"
+      },
+      "children": [
+        "tweet",
+        "sep",
+        "analysis_stack"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "Wild_Randomness",
+        "text": "$WMT — Time to buy https://x.com/Wild_Randomness/status/2090892691513192944"
+      }
+    },
+    "sep": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "price_stat",
+        "details_stack"
+      ]
+    },
+    "price_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "WMT Trading Price",
+        "value": "$103.43"
+      }
+    },
+    "details_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "detail1",
+        "detail2",
+        "detail3"
+      ]
+    },
+    "detail1": {
+      "type": "Text",
+      "props": {
+        "text": "Technical: At support post-weakness",
+        "variant": "body"
+      }
+    },
+    "detail2": {
+      "type": "Text",
+      "props": {
+        "text": "Fundamental: US comparable sales decelerated to 2.6% last quarter (slowest in 6+ years)",
+        "variant": "body"
+      }
+    },
+    "detail3": {
+      "type": "Text",
+      "props": {
+        "text": "Thesis: Contrarian mean-reversion opportunity into fundamental weakness at technical inflection",
+        "variant": "body"
+      }
+    }
+  }
+}
