@@ -1,0 +1,129 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X-Trader Monitor"
+      },
+      "children": [
+        "tweet_card",
+        "separator_1",
+        "chart_section",
+        "separator_2",
+        "context_section"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "Stoiiic",
+        "text": "someone left the TWAP on for the day on ENA lmao"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "chart_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "chart_heading",
+        "chart_details"
+      ]
+    },
+    "chart_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart Analysis",
+        "level": "h3"
+      }
+    },
+    "chart_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "chart_trend",
+        "chart_time",
+        "chart_algo"
+      ]
+    },
+    "chart_trend": {
+      "type": "Text",
+      "props": {
+        "text": "Clean mechanical uptrend: 0.0940 → 0.12550"
+      }
+    },
+    "chart_time": {
+      "type": "Text",
+      "props": {
+        "text": "Full trading day: 01:00 AM – 09:00 PM"
+      }
+    },
+    "chart_algo": {
+      "type": "Text",
+      "props": {
+        "text": "TWAP algorithm (Time-Weighted Average Price execution) drives consistent price progression via systematic order distribution."
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_heading",
+        "context_content",
+        "link_section"
+      ]
+    },
+    "context_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Cross-Trader Context",
+        "level": "h3"
+      }
+    },
+    "context_content": {
+      "type": "Text",
+      "props": {
+        "text": "Wild_Randomness currently holds ENA (Aug 20 holdings)"
+      }
+    },
+    "link_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet_link"
+      ]
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Stoiiic/status/2090660018395746465"
+      }
+    }
+  }
+}
