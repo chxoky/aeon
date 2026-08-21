@@ -1,0 +1,39 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "💬 Trading insight from Discord"
+      },
+      "children": [
+        "message",
+        "separator",
+        "elaboration"
+      ]
+    },
+    "message": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Chase",
+        "handle": "Crypto",
+        "text": "And to be honest, the HYPE long can be adapted to Bitcoin and ETH, it's all going to be mostly the same trade when there's a pullback to spot liquidity or the nearest worthwhile demand"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "elaboration": {
+      "type": "Text",
+      "props": {
+        "text": "Supporting channel elaboration on Aug 21 14:10Z HYPE long thesis (3-confluence zones: local demand, HTF liquidity 68, daily breaker 66)",
+        "variant": "caption"
+      }
+    }
+  }
+}
