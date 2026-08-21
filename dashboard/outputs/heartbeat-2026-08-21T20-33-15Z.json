@@ -1,0 +1,113 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "heartbeat"
+      },
+      "children": [
+        "status-section",
+        "separator-1",
+        "stuck-section"
+      ]
+    },
+    "status-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "status-heading"
+      ]
+    },
+    "status-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔴 DEGRADED",
+        "level": "h2"
+      }
+    },
+    "separator-1": {
+      "type": "Separator"
+    },
+    "stuck-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stuck-heading",
+        "stuck-details",
+        "action-alert"
+      ]
+    },
+    "stuck-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🕸 STUCK: trader-memory-compact",
+        "level": "h3"
+      }
+    },
+    "stuck-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "dispatched-info",
+        "completion-status",
+        "last-success-info",
+        "last-failure-info",
+        "task-status-badge"
+      ]
+    },
+    "dispatched-info": {
+      "type": "Text",
+      "props": {
+        "text": "Dispatched: 2026-08-16T20:58:09Z (5 days ago)",
+        "variant": "body"
+      }
+    },
+    "completion-status": {
+      "type": "Text",
+      "props": {
+        "text": "Never completed",
+        "variant": "body"
+      }
+    },
+    "last-success-info": {
+      "type": "Text",
+      "props": {
+        "text": "Last success: 2026-08-09 (12 days ago)",
+        "variant": "body"
+      }
+    },
+    "last-failure-info": {
+      "type": "Text",
+      "props": {
+        "text": "Last failure: 2026-08-16",
+        "variant": "body"
+      }
+    },
+    "task-status-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "stuck dispatched",
+        "variant": "destructive"
+      }
+    },
+    "action-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Action Required",
+        "message": "Re-run manually or check GitHub Actions for hung workflow",
+        "type": "warning"
+      }
+    }
+  }
+}

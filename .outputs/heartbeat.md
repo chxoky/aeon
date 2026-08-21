@@ -1,1 +1,3 @@
-🕸 STUCK: trader-memory-compact — dispatched 2026-08-16 20:58 UTC (5 days ago), last_status still 'dispatched', never reported back. Last success: 2026-08-09. consecutive_failures: 1. Likely hung or crashed before cron-state update. Runs Sundays at 20:00 UTC — next scheduled run: Aug 23. Manual re-trigger or investigation needed to unblock.
+🔴 DEGRADED
+
+🕸 STUCK: trader-memory-compact — dispatched 2026-08-16T20:58:09Z (5 days ago), never completed. Last success: 2026-08-09 (12 days ago). Last failure: 2026-08-16. Status: stuck dispatched. Action: re-run manually or check GitHub Actions for hung workflow.
