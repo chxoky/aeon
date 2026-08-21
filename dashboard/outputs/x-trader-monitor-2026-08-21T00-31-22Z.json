@@ -1,0 +1,73 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "heading",
+        "text-event",
+        "text-quote-label",
+        "text-quote",
+        "text-analysis",
+        "link"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h2"
+      }
+    },
+    "text-event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Retrospective reflection on charts feared during market setup",
+        "variant": "lead"
+      }
+    },
+    "text-quote-label": {
+      "type": "Text",
+      "props": {
+        "text": "Wild_Randomness:",
+        "variant": "caption"
+      }
+    },
+    "text-quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"This was one of two charts I feared the most w.r.t. playing for the final flush (that never came)\"",
+        "variant": "body"
+      }
+    },
+    "text-analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — which charts are referenced? Per your memory: holding HYPE/LIT/PEPE/ENA, \"Jump the Shark\" bearish thesis. The phrase \"final flush (never came)\" suggests feared capitulation didn't occur (bullish context?). What's your read?",
+        "variant": "body"
+      }
+    },
+    "link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View post",
+        "href": "https://x.com/Wild_Randomness/status/20905966010731440452",
+        "source": "X"
+      }
+    }
+  }
+}
