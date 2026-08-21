@@ -1,0 +1,105 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X-Trader Monitor: LIT Market Thesis",
+        "description": "Cross-trader market analysis and thesis divergence"
+      },
+      "children": [
+        "tweet-card",
+        "separator-1",
+        "divergence-section",
+        "alert-volatility",
+        "link-chart"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "trading_axe",
+        "handle": "trading_axe",
+        "text": "LIT 'retire TENFOLD OVER' narrative on fund-accumulation catalyst. Thesis: Billion-dollar AUM funds will seek RWA/tokenization exposure; HYPE/LIT gold-silver parallel; 'YOU ARE EARLY' conviction. 2 Hyperliquid charts confirm structure (HYPE consolidation, LIT recovery setup with support intact)."
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "divergence-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "divergence-heading",
+        "divergence-stack"
+      ]
+    },
+    "divergence-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Cross-Trader Divergence Flag",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "divergence-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trader-hch",
+        "trader-axe",
+        "group-lean"
+      ]
+    },
+    "trader-hch": {
+      "type": "Text",
+      "props": {
+        "text": "HCH: Strong SHORT conviction (Jul 27 '2nd best trade')"
+      },
+      "children": []
+    },
+    "trader-axe": {
+      "type": "Text",
+      "props": {
+        "text": "trading_axe: Bullish catalyst narrative (this post + Aug 20)"
+      },
+      "children": []
+    },
+    "group-lean": {
+      "type": "Text",
+      "props": {
+        "text": "Group lean: CONTESTED (2-trader bullish vs 2-trader bearish)"
+      },
+      "children": []
+    },
+    "alert-volatility": {
+      "type": "Alert",
+      "props": {
+        "title": "High Volatility Risk",
+        "message": "Contested trader positions indicate elevated market volatility risk",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "link-chart": {
+      "type": "Link",
+      "props": {
+        "label": "View Chart on X",
+        "href": "https://x.com/trading_axe/status/2090852973773479960"
+      },
+      "children": []
+    }
+  }
+}
