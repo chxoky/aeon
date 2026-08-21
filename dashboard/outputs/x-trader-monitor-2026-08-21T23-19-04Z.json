@@ -1,0 +1,42 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "price_stat",
+        "link_post"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Bitcoin_Astro",
+        "handle": "Bitcoin_Astro",
+        "text": "Two 2022 Patterns That Could Be Repeating Right Now\n\nBitcoin_Astro sharing Fibonacci harmonic analysis on BTC structure (TradingView daily, dated 08.21.2026). Chart shows multi-year Fibonacci fan from 2022 swing low (~19-20K) with current price 80,616.24 near upper resistance bands. Technical observation: historical pattern comparison suggests current 2026 structure parallels prior 2022 cycle dynamics. Thesis: harmonic inflection point may define tactical/medium-term price action into Q4 2026.\n\nInformational technical observation (no personal execution language)."
+      },
+      "children": []
+    },
+    "price_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC Current Price",
+        "value": "$80,616.24"
+      },
+      "children": []
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Bitcoin_Astro/status/2090940965619957953"
+      },
+      "children": []
+    }
+  }
+}

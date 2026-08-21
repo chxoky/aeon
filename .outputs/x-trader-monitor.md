@@ -1,15 +1,9 @@
-🐦 *[X] @bull_genius*
+🐦 *[X] @Bitcoin_Astro*
 
-ethereum looks like its going straight to $3000
+Two 2022 Patterns That Could Be Repeating Right Now
 
-2026 vah / april+ high just fell
-365d rvwap + ATH avwap + january neckline at 2850
-then its just a blip from there and the asset is in a bull market, all within 3 days. this lockout is absolutely brutal and can easily continue
+Bitcoin_Astro sharing Fibonacci harmonic analysis on BTC structure (TradingView daily, dated 08.21.2026). Chart shows multi-year Fibonacci fan from 2022 swing low (~19-20K) with current price 80,616.24 near upper resistance bands. Technical observation: historical pattern comparison suggests current 2026 structure parallels prior 2022 cycle dynamics. Thesis: harmonic inflection point may define tactical/medium-term price action into Q4 2026.
 
-if you are shorting eth you will likely get run over and your potential profit is way too small to justify
+No personal execution language (informational technical observation).
 
-you are either long or wait for a pullback to add at a more face saving spot on the chart
-
-[View tweet](https://x.com/bull_genius/status/2090932805672812642)
-
-↳ Bullish ETH structural thesis aligned with group net-long regime (KillaXBT HTF long, HCH emerging longs, Crypto_Chase bullish). Technical analysis validates current recovery narrative.
+[View post](https://x.com/Bitcoin_Astro/status/2090940965619957953)
