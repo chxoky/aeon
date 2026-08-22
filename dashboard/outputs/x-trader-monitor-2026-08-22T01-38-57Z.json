@@ -1,0 +1,212 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "ONDO Technical Setup",
+        "description": "Analysis from @Stoiiic on X"
+      },
+      "children": [
+        "content_stack"
+      ]
+    },
+    "content_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "tweet_card",
+        "sep1",
+        "technical_section",
+        "sep2",
+        "levels_section",
+        "sep3",
+        "dependency_alert",
+        "sep4",
+        "footer_stack"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "@Stoiiic",
+        "text": "ONDO technical setup: Diagonals working in this environment so far with momentum."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "technical_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "pattern_heading",
+        "pattern_text",
+        "trader_notes_heading",
+        "trader_notes_text",
+        "upside_heading",
+        "upside_text"
+      ]
+    },
+    "pattern_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart Pattern",
+        "level": "h3"
+      }
+    },
+    "pattern_text": {
+      "type": "Text",
+      "props": {
+        "text": "ONDO daily chart showing descending diagonal support + consolidation."
+      }
+    },
+    "trader_notes_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Trader Notes",
+        "level": "h3"
+      }
+    },
+    "trader_notes_text": {
+      "type": "Text",
+      "props": {
+        "text": "Diagonals working in this environment so far with momentum."
+      }
+    },
+    "upside_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Upside Conditions",
+        "level": "h3"
+      }
+    },
+    "upside_text": {
+      "type": "Text",
+      "props": {
+        "text": "Hold diagonal support (~0.355) + acceptance above previous day high (~0.41) = looks good for more upside."
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "levels_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "levels_heading",
+        "levels_table"
+      ]
+    },
+    "levels_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Key Levels",
+        "level": "h3"
+      }
+    },
+    "levels_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Level",
+          "Price"
+        ],
+        "rows": [
+          [
+            "Previous Day High",
+            "~0.41"
+          ],
+          [
+            "Previous Month High",
+            "~0.42"
+          ],
+          [
+            "Support",
+            "~0.355–0.36"
+          ]
+        ]
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "dependency_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Dependency",
+        "message": "BTC needs to continue ranging",
+        "type": "info"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "footer_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "metadata_stack",
+        "link"
+      ]
+    },
+    "metadata_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "new_ticker_badge",
+        "classification_badge"
+      ]
+    },
+    "new_ticker_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "New ticker",
+        "variant": "secondary"
+      }
+    },
+    "classification_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Informational",
+        "variant": "outline"
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View post on X",
+        "href": "https://x.com/Stoiiic/status/2090975835947741643"
+      }
+    }
+  }
+}
