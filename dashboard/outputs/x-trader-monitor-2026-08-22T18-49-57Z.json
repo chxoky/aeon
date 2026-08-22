@@ -1,0 +1,57 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Bitcoin (BTC) technical analysis and on-chain indicators"
+      },
+      "children": [
+        "tweet",
+        "sep",
+        "indicator"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "The $BTC bottom is in. We flipped STH cost basis. Something which I mentioned at 67K.\n\nQuote: \"The moment we reclaim 67.4K and start trading in the mid-70Ks, holding above the STH cost basis, the bottom is in.\"\n\nBut before we even think about 90K, 80-83K is the area to crack."
+      }
+    },
+    "sep": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "indicator": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "indicator_text",
+        "view_link"
+      ]
+    },
+    "indicator_text": {
+      "type": "Text",
+      "props": {
+        "text": "STH-SOPR indicator shows short-term holders flipped to profit (green spikes on-chain confirmation). Validates structural bottom thesis + reinforces group net-long positioning.",
+        "variant": "body"
+      }
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2091235428472869017"
+      }
+    }
+  }
+}

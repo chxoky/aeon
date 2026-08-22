@@ -1,9 +1,11 @@
-🔍 *Calibration — @trading_axe*
+🐦 *[X] @KillaXBT*
 
-Event: Market sentiment observation on perps/onchain positioning
+The $BTC bottom is in. We flipped STH cost basis. Something which I mentioned at 67K.
 
-trading_axe: "Disable your short button for perps and be onchain... 90%+ of my comments are people who are wiped out begging for a stimmy to rebuild [somehow a lot of you missed ANSEM which was arguably the easiest payday], But perhaps there may be something."
+Quote: "The moment we reclaim 67.4K and start trading in the mid-70Ks, holding above the STH cost basis, the bottom is in."
 
-**Unable to classify** — Is 'perhaps there may be something' suggesting a trade opportunity, market timing, or just philosophical commentary?
+But before we even think about 90K, 80-83K is the area to crack.
 
-[View post](https://x.com/trading_axe/status/2091230321442492436)
+[View tweet](https://x.com/KillaXBT/status/2091235428472869017)
+
+_STH-SOPR indicator shows short-term holders flipped to profit (green spikes on-chain confirmation). Validates structural bottom thesis + reinforces group net-long positioning._
