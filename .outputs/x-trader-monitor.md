@@ -1,22 +1,9 @@
-🐦 [X] @Stoiiic — ONDO technical setup
+🐦 *[X] @Stoiiic*
 
-ONDO daily chart showing descending diagonal support + consolidation. Trader notes: 'Diagonals working in this environment so far with momentum.' Condition for upside: hold diagonal support (~0.355) + acceptance above previous day high (~0.41) = looks good for more upside.
+Hold $2300-2400 ETH to close the gap to 365D rolling VWAP.
 
-Key levels: Prev Day High ~0.41, Prev Month High ~0.42, Support ~0.355-0.36. Dependency: BTC needs to continue ranging.
+Chart: Daily ETH (Feb-Oct 2026). Price consolidating 2,350-2,500 between 365D VWAP (~2,200) and 90D VWAP (~2,250). Thesis: holding 2,300-2,400 zone establishes support for upside to 365D VWAP level.
 
-New ticker (first mention across tracked traders). Technical setup/market analysis — no personal trade action. Informational log only.
+**Context**: ETH down from ~3,100 peak (Apr/May), support testing at dual-VWAP confluence. Aligns with HCH/ryzzqq near-term consolidation view before downside targets. No personal execution language.
 
-**Result:** Silent skip — logged only, no notification.
-**Event:** @Stoiiic tweet "chart requests? drop tickers, will share thoughts."
-
-**Classification:** Skip (non-financial, platform meta-commentary)
-
-**Action:** No alert sent. This is educator engagement soliciting chart suggestions from followers — not a trade signal, financial analysis, or market view.
-
-**Memory updates:**
-- ✅ Added tweet ID `2090974636754325957` to `/memory/x-trader-seen.txt` (dedup tracking)
-- ✅ Logged event to `/memory/logs/2026-08-22.md`
-- No entry added to `traders.md` (skip events logged to daily log only per Step 8 rules)
-
-Consistent with Stoiiic's documented pattern: 50-60% banter + 40-50% analyst/educator output, no personal executions.
-[View post](https://x.com/Stoiiic/status/2090975835947741643)
+[View tweet](https://x.com/Stoiiic/status/2090977515040838064)

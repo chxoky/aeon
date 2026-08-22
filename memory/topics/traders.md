@@ -371,3 +371,14 @@
 - **Events (rolling):**
   - Aug 21 13:49Z — ambiguous-cryptic-reply: X reply to @BTC_yytho @deltaxbt "yea looks pretty good" — extremely cryptic 4-word response; context-dependent (parent tweet not visible in event payload); unable to determine if this is market-signal confirmation (setup commentary, position agreement) or casual trader banter without seeing what BTC_yytho posted; no ticker mentioned; no personal execution language; media empty; HR-2 calibration alert sent to Kyle requesting parent-tweet context [$UNKNOWN] [2090798498316714353]
 
+## Stoiiic
+
+- Platforms: X (Twitter)
+- Current open positions: None explicitly stated (technical analysis focus)
+- Recent thesis: Multi-timeframe technical analysis on ETH structure; VWAP-based consolidation zones; price-action confirmation trader
+- Conviction notes: Chart-driven technical analyst. Focuses on rolling VWAP levels and consolidation confirmation. Two mentions tracked (Aug 22 ONDO + Aug 22 ETH VWAP).
+- Calibration: None needed (clear technical chart analysis)
+- Last seen: 2026-08-22T01:41:02Z (X post — ETH consolidation zone technical analysis)
+- **Events (rolling):**
+  - Aug 22 01:41Z — informational-technical-vwap-consolidation: "Hold $2300-2400 ETH to close the gap to 365D rolling VWAP" with daily ETH chart showing multi-month structure (Feb-Oct 2026). Chart labeled: 365D Rolling VWAP (~2,200 zone), 90D Rolling VWAP (~2,250), Yearly Open (~3,000), Prev Day High/Low, Prev Month High/Low. Current price consolidating 2,350-2,500 range between VWAP levels. Thesis: consolidation in 2,300-2,400 zone establishes support for upside move to close gap to 365D VWAP. Chart interpretation: ETH peaked ~3,100 (Apr/May), crashed to ~1,500 (Jul low), currently recovering with dual-VWAP convergence zone as key technical level. No personal execution language (imperative "Hold" is technical guidance, not personal action); Step 6 informational alert. Alerted Kyle with chart context. [$ETH-VWAP-CONSOLIDATION] [2090977515040838064]
+
