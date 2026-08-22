@@ -1,8 +1,15 @@
-*Token Alert — 2026-08-21*
+Done. Here's the summary:
 
-🔔 BTC: $77,320 (up 8.06% 24h)
-Volume: $68.5B
-Trigger: 24h change (8.06%) exceeded 5% alert threshold
+## Summary
 
-ETH: $2,392.46 (+5.08% 24h) — below 8% threshold, no alert
-SOL: $91.02 (+4.95% 24h) — below 10% threshold, no alert
+**token-alert — 2026-08-22**
+
+Fetched live prices from CoinGecko for all 3 tracked tokens. No thresholds breached:
+
+| Token | Price | 24h Change | Threshold |
+|-------|-------|-----------|-----------|
+| BTC | $77,242 | +0.52% | 5% |
+| ETH | $2,432.23 | +2.37% | 8% |
+| SOL | $93.95 | +3.96% | 10% |
+
+**TOKEN_ALERT_OK** — No notifications sent. Prices logged to `memory/logs/2026-08-22.md` for future baseline comparison.
