@@ -1,0 +1,56 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor: Market Sentiment Alert",
+        "description": "🔍 Calibration — @trading_axe"
+      },
+      "children": [
+        "event_type",
+        "tweet_section",
+        "separator1",
+        "analysis_section",
+        "view_post_link"
+      ]
+    },
+    "event_type": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Market sentiment observation on perps/onchain positioning",
+        "variant": "lead"
+      }
+    },
+    "tweet_section": {
+      "type": "TweetCard",
+      "props": {
+        "author": "trading_axe",
+        "handle": "trading_axe",
+        "text": "Disable your short button for perps and be onchain... 90%+ of my comments are people who are wiped out begging for a stimmy to rebuild [somehow a lot of you missed ANSEM which was arguably the easiest payday], But perhaps there may be something."
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_section": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Is 'perhaps there may be something' suggesting a trade opportunity, market timing, or just philosophical commentary?",
+        "type": "info"
+      }
+    },
+    "view_post_link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/trading_axe/status/2091230321442492436"
+      }
+    }
+  }
+}
