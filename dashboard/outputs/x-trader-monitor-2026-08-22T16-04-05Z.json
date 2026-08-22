@@ -1,0 +1,154 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet",
+        "tweet-link",
+        "separator-1",
+        "position-section",
+        "separator-2",
+        "chart-section",
+        "separator-3",
+        "action-status"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Just holding and praying this sticks imo"
+      },
+      "children": []
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2091194014649421899"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "position-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "position-header",
+        "position-details"
+      ]
+    },
+    "position-header": {
+      "type": "Heading",
+      "props": {
+        "text": "Informational Position Update",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "position-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tp-text",
+        "add-text"
+      ]
+    },
+    "tp-text": {
+      "type": "Text",
+      "props": {
+        "text": "Took profit on ENA & PEPE"
+      },
+      "children": []
+    },
+    "add-text": {
+      "type": "Text",
+      "props": {
+        "text": "Added VVV (scaling conviction)"
+      },
+      "children": []
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "chart-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "chart-header",
+        "chart-details"
+      ]
+    },
+    "chart-header": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart Context",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "chart-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "price-stat",
+        "structure-text"
+      ]
+    },
+    "price-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "ZEC/USDT 1W",
+        "value": "795.31",
+        "delta": "+8.35%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "structure-text": {
+      "type": "Text",
+      "props": {
+        "text": "Consolidation structure with volume expansion"
+      },
+      "children": []
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "action-status": {
+      "type": "Alert",
+      "props": {
+        "title": "Trade Action",
+        "message": "No trade action needed — already executed",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}

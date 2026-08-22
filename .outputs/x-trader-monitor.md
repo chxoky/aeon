@@ -1,9 +1,9 @@
-🐦 *[X] @KillaXBT*
+🐦 *[X] @Wild_Randomness*
 
-The 14th of August served its purpose.
+Just holding and praying this sticks imo
 
-Given the prevailing bearish narrative into the date, $BTC inverted the narrative and pushed up 20%+.
+Informational position update: TP'd ENA & PEPE (past-tense), added VVV (scaling conviction). Chart context: ZEC/USDT 1W at 795.31 (+8.35%), consolidation structure with volume expansion.
 
-This is why observing the narrative into a particular pivot is key. As we usually look for a inverse narrative movement.
+No trade action needed — already executed.
 
-[View tweet](https://x.com/KillaXBT/status/209118839486491053)
+[View tweet](https://x.com/Wild_Randomness/status/2091194014649421899)
