@@ -1,0 +1,49 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "source_text",
+        "stat_drop",
+        "sentiment_text"
+      ]
+    },
+    "source_text": {
+      "type": "Text",
+      "props": {
+        "text": "💬 [DC: HCH — Chat]",
+        "variant": "caption"
+      }
+    },
+    "stat_drop": {
+      "type": "Stat",
+      "props": {
+        "label": "Altcoin Movement (1 min across alts)",
+        "value": "-10% to -25%",
+        "trend": "down"
+      }
+    },
+    "sentiment_text": {
+      "type": "Text",
+      "props": {
+        "text": "😟 Real-time market sentiment from HeartCanHodl: rapid altcoin weakness observed",
+        "variant": "muted"
+      }
+    }
+  }
+}
