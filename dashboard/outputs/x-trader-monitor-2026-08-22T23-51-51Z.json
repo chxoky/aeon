@@ -1,0 +1,74 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet",
+        "separator",
+        "metadata-section",
+        "link-view"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "abetrade",
+        "handle": "abetrade",
+        "text": "I see so many people claiming they bought the bottom and saying how brutal it must be to be sidelined, which I find bit odd as the main content on my feed just last week was 'life after you take Rainbet sponsorship' videos instead of calling for longs."
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "metadata-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-new",
+        "category-text"
+      ]
+    },
+    "badge-new": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW TRADER",
+        "variant": "secondary"
+      }
+    },
+    "category-text": {
+      "type": "Text",
+      "props": {
+        "text": "Market sentiment/psychology commentary on trader credibility patterns",
+        "variant": "caption"
+      }
+    },
+    "link-view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/abetrade/status/2091311362227978289"
+      }
+    }
+  }
+}
