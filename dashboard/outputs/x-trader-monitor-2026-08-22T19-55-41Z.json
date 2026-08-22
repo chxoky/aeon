@@ -1,0 +1,112 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor: HYPE Technical Analysis",
+        "description": "5-Chart HYPE Analysis from @Wild_Randomness"
+      },
+      "children": [
+        "tweet-card",
+        "separator-1",
+        "data-stack",
+        "separator-2",
+        "validation-text",
+        "post-link"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "@Parida @thedefivillain Favourite chart\n\n5-Chart HYPE Analysis"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "data-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat-1",
+        "stat-2",
+        "text-3",
+        "stat-4",
+        "stat-5"
+      ]
+    },
+    "stat-1": {
+      "type": "Stat",
+      "props": {
+        "label": "HYPE/TOTAL ratio — 1W consolidation structure",
+        "value": "0.77",
+        "delta": "+5.67%",
+        "trend": "up"
+      }
+    },
+    "stat-2": {
+      "type": "Stat",
+      "props": {
+        "label": "HYPE/USDT — 1D consolidation post-decline from 76 peak",
+        "value": "56.183",
+        "delta": "+2.03%",
+        "trend": "up"
+      }
+    },
+    "text-3": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE/USDT — Extended timeframe context",
+        "variant": "caption"
+      }
+    },
+    "stat-4": {
+      "type": "Stat",
+      "props": {
+        "label": "HYPE/TOTAL ratio — 1W breakout above prior resistance",
+        "value": "0.65",
+        "delta": "+1.85%",
+        "trend": "up"
+      }
+    },
+    "stat-5": {
+      "type": "Stat",
+      "props": {
+        "label": "HYPE/USDT — 1W weekly strong rally 30→75 consolidating at 56-58",
+        "value": "56.130",
+        "delta": "+1.95%",
+        "trend": "up"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "validation-text": {
+      "type": "Text",
+      "props": {
+        "text": "↳ Multi-timeframe validation: HYPE ratio showing technical breakout on dominance; price consolidating after strong rally. Chart structure aligns with your HYPE holdings.",
+        "variant": "body"
+      }
+    },
+    "post-link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2091251524257062930"
+      }
+    }
+  }
+}
