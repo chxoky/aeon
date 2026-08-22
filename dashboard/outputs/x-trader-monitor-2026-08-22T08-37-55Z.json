@@ -1,0 +1,128 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @Bitcoin_Astro"
+      },
+      "children": [
+        "main_stack"
+      ]
+    },
+    "main_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "event_block",
+        "context_block",
+        "query_block"
+      ]
+    },
+    "event_block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event_label",
+        "tweet"
+      ]
+    },
+    "event_label": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @22202Ma",
+        "variant": "lead"
+      }
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Bitcoin_Astro",
+        "handle": "Bitcoin_Astro",
+        "text": "Still some hope. Next 10days should confirm it"
+      }
+    },
+    "context_block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_heading",
+        "analyst_info",
+        "frameworks_and_timestamps",
+        "watchlist_badge",
+        "parent_note"
+      ]
+    },
+    "context_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "analyst_info": {
+      "type": "Text",
+      "props": {
+        "text": "Bitcoin_Astro is a technical analyst.",
+        "variant": "body"
+      }
+    },
+    "frameworks_and_timestamps": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "framework_badge_1",
+        "framework_badge_2"
+      ]
+    },
+    "framework_badge_1": {
+      "type": "Badge",
+      "props": {
+        "text": "45° angle framework · Aug 22 08:27Z",
+        "variant": "outline"
+      }
+    },
+    "framework_badge_2": {
+      "type": "Badge",
+      "props": {
+        "text": "Fibonacci harmonic · Aug 21",
+        "variant": "outline"
+      }
+    },
+    "watchlist_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "BTC: Top-tier watch-list",
+        "variant": "secondary"
+      }
+    },
+    "parent_note": {
+      "type": "Text",
+      "props": {
+        "text": "This cryptic reply lacks parent tweet visibility.",
+        "variant": "muted"
+      }
+    },
+    "query_block": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read? Technical confirmation thesis on 10-day setup? Bullish conviction continuation? What's the context of @22202Ma's original message?",
+        "type": "info"
+      }
+    }
+  }
+}
