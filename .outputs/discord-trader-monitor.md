@@ -23,3 +23,4 @@ Skill execution complete. I've processed the Discord trader-monitor event for Cr
 4. ✅ Appended detailed event log to `memory/logs/2026-08-22.md`
 
 All files remain within size constraints (discord-trader-seen.txt: 24 lines; traders.md: <150KB; active-trades.md healthy).
+💬 *[DC: Chase — Chase]* My layering looked like that for anyone curious, something I've discussed many many times. _Chart image attached_
