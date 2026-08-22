@@ -1,0 +1,242 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-08-22",
+        "description": "Market focus, overnight updates, and scheduled tasks"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section_focus",
+        "sep_1",
+        "section_since",
+        "sep_2",
+        "section_watch",
+        "sep_3",
+        "section_running"
+      ]
+    },
+    "section_focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_focus",
+        "focus_item_1",
+        "focus_item_2",
+        "focus_item_3"
+      ]
+    },
+    "heading_focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus Today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "focus_item_1": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE $79.76 (ATH breached) — why now: HCH short live since ~$60, >33% underwater; cover signal or ATH extension = sharpest near-term binary.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "focus_item_2": {
+      "type": "Text",
+      "props": {
+        "text": "ZEC $808 (+33% 24h) — why now: Stoiiic + trading_axe both posted bullish ZEC catalyst pre-move (02–03 UTC); catalyst still unnamed, follow-up needed.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "focus_item_3": {
+      "type": "Text",
+      "props": {
+        "text": "Jackson Hole T−5 (Aug 27) — why now: BTC $77.3K entering the symposium; Powell tone sets $68–70K vs $80K+ path for all of Q3.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_since": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_since",
+        "since_btc",
+        "since_hype",
+        "since_zec",
+        "since_stoiiic",
+        "since_trading_axe"
+      ]
+    },
+    "heading_since": {
+      "type": "Heading",
+      "props": {
+        "text": "Since Yesterday",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "since_btc": {
+      "type": "Text",
+      "props": {
+        "text": "BTC $76,669 → $77,347 (+0.9%); ETF inflows 6 consecutive days ($800M BTC+ETH Aug 21)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "since_hype": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE ATH $76.87 breached → $79.76; HCH short >33% underwater, no cover signal",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "since_zec": {
+      "type": "Text",
+      "props": {
+        "text": "ZEC $644 → $808 (+25%); Stoiiic / trading_axe catalyst posts preceded the move",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "since_stoiiic": {
+      "type": "Text",
+      "props": {
+        "text": "Stoiiic added to tracking (X-only technical analyst, ONDO/ETH/ENA/ZEC setups)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "since_trading_axe": {
+      "type": "Text",
+      "props": {
+        "text": "trading_axe: 4 HR-2 calibration alerts pending Kyle response",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_watch",
+        "watch_etf"
+      ]
+    },
+    "heading_watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "watch_etf": {
+      "type": "Text",
+      "props": {
+        "text": "BTC ETF $800M combined Aug 21 (day-2 surge, 6-day streak) — institutional bid confirmed; deceleration <$200M/day = first warning sign into JH.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_running",
+        "running_task_1",
+        "running_task_2",
+        "running_task_3",
+        "running_task_4"
+      ]
+    },
+    "heading_running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running Today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "running_task_1": {
+      "type": "Text",
+      "props": {
+        "text": "token-alert @ 12:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "running_task_2": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "running_task_3": {
+      "type": "Text",
+      "props": {
+        "text": "market-context-refresh @ 13:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "running_task_4": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}

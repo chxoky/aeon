@@ -1,21 +1,22 @@
-*Morning Brief — 2026-08-21*
+*Morning Brief — 2026-08-22*
 
 *Focus today*
-1. KillaXBT 76.1K HSL — BTC $76.3K within 0.1% of hedge hard stop — why now: breach = 80-82K next POI; hold = range confirmed here
-2. HCH net-short at breaking point — added +5% BTC conviction + 2% PUMP short this AM; no cover signal — why now: forced-cover event is the sharpest regime-reversal trigger available
-3. Jackson Hole in 6 days — theme "Financial Innovation: Payments & Policy" for first time addresses digital assets — why now: positioning window before Aug 27; XRP [BREAKOUT] already responding
+1. HYPE $79.76 (ATH breached) — why now: HCH short live since ~$60, >33% underwater; cover signal or ATH extension = sharpest near-term binary.
+2. ZEC $808 (+33% 24h) — why now: Stoiiic + trading_axe both posted bullish ZEC catalyst pre-move (02–03 UTC); catalyst still unnamed, follow-up needed.
+3. Jackson Hole T−5 (Aug 27) — why now: BTC $77.3K entering the symposium; Powell tone sets $68–70K vs $80K+ path for all of Q3.
 
 *Since yesterday*
-- [moved]: BTC $71.6K → $76.3K (+6.5%); KillaXBT hedge activated at 73.6-74.9K zone
-- [moved]: F&G 62 → 72 (+10 pts overnight); ENA +41.6% on all-day TWAP algo buying
-- [moved]: XRP [BREAKOUT] +18.3% 24h / +28.7% 7d — payments cluster active (XLM +11.4%, BCH +18.1%)
-- [stuck]: HCH short regime — conviction adds into squeeze, no cover yet
+- BTC $76,669 → $77,347 (+0.9%); ETF inflows 6 consecutive days ($800M BTC+ETH Aug 21)
+- HYPE ATH $76.87 breached → $79.76; HCH short >33% underwater, no cover signal
+- ZEC $644 → $808 (+25%); Stoiiic / trading_axe catalyst posts preceded the move
+- Stoiiic added to tracking (X-only technical analyst, ONDO/ETH/ENA/ZEC setups)
+- trading_axe: 4 HR-2 calibration alerts pending Kyle response
 
 *Watch*
-- XRP/Jackson Hole: payments cluster activation aligns with Jackson Hole "digital payments" theme — structural narrative forming; implication for focus #3
+- BTC ETF $800M combined Aug 21 (day-2 surge, 6-day streak) — institutional bid confirmed; deceleration <$200M/day = first warning sign into JH.
 
 *Running today*
-- morning-pipeline @ 07:00 UTC ✓
-- token-alert, token-movers @ 12:00 UTC
+- token-alert @ 12:00 UTC
+- token-movers @ 12:00 UTC
 - market-context-refresh @ 13:00 UTC
 - narrative-tracker @ 13:30 UTC
