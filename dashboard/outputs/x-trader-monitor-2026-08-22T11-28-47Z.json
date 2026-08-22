@@ -1,0 +1,53 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "separator_1",
+        "post_link",
+        "separator_2",
+        "analysis_text"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "@bull_genius",
+        "text": "day 3 of the new bull cycle, first mini flush behind us after the generational lockout pump and i see people are shorting the hole instead of seeking to buy the dip\n\nif you have zero exposure just buy the dip a lil\nit dips more - buy a lil more\nit pulls back - buy a lil more\n\n71.5-74 would be amazing but its not too far away to justify not buying even a little already. bad entries will be forgiven eventually as long as you dont wipe out on high lev"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "post_link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/bull_genius/status/2091124243970826269"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Aligns with group bullish lean (BTC breakout Aug 20-21, KillaXBT/HCH structural bull thesis, heacanhodl net-long regime). DCA accumulation thesis consistent with Bitcoin_Astro technical framework (45° angle support validating structural recovery).",
+        "variant": "caption"
+      }
+    }
+  }
+}
