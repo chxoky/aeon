@@ -1,0 +1,47 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Discord: Chase — Crypto"
+      },
+      "children": [
+        "conversation-stack"
+      ]
+    },
+    "conversation-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "quoted-message",
+        "separator1",
+        "response-message"
+      ]
+    },
+    "quoted-message": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Member",
+        "text": "depends at the sector you are looking at ... ai stonks for example all go down together lol..."
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "response-message": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Chase",
+        "text": "I'm talking about the actual price, the variation between prices on crypto exchanges, versus any stock, is going to have the same price on any official broker"
+      }
+    }
+  }
+}
