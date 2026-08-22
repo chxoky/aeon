@@ -1,0 +1,99 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration event requiring classification"
+      },
+      "children": [
+        "header-stack",
+        "separator-1",
+        "tweet-section",
+        "separator-2",
+        "classification-alert"
+      ]
+    },
+    "header-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "calibration-header",
+        "event-type",
+        "posted-timestamp"
+      ]
+    },
+    "calibration-header": {
+      "type": "Text",
+      "props": {
+        "text": "🔍 Calibration — @swarmister",
+        "variant": "lead"
+      }
+    },
+    "event-type": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @janxbt",
+        "variant": "body"
+      }
+    },
+    "posted-timestamp": {
+      "type": "Text",
+      "props": {
+        "text": "Posted: 2026-08-22 05:24:46Z",
+        "variant": "caption"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "attachment-info"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "@swarmister",
+        "text": "@janxbt Fuckin buttox.. https://t.co/MYxauvD55r"
+      }
+    },
+    "attachment-info": {
+      "type": "Text",
+      "props": {
+        "text": "[Attached: red emoji character image]",
+        "variant": "caption"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification Required",
+        "message": "Unable to classify — what's your read? Crypto token reference (\"buttox\"?), personal banter, or external context needed?",
+        "type": "info"
+      }
+    }
+  }
+}
