@@ -17,6 +17,18 @@
 
 ## Crypto_Chase
 
+### HYPE (Hyperliquid) — LONG (PARTIAL TP 2026-08-22 — TIERED)
+- **Entry date**: 2026-08-21T14:10Z
+- **Entry zones (3-confluence)**: 
+  1. Local liquidity into demand (primary entry zone)
+  2. HTF liquidity at 68 (backup zone)
+  3. Daily breaker at 66 (invalidation if breached)
+- **TP Tier 1**: 2026-08-22T13:21:22Z — 1/3 closed at market (instant gains captured; message_id=1540712488130318416)
+- **Total TP so far**: 1/3 of position
+- **Status**: ACTIVE — 1/3 TP'd, 2/3 remainder maintained (riding strength)
+- **Position thesis**: Technical 3-confluence setup; bullish continuation bias. Partial TP validates entry conviction (immediate gains captured). Remainder held for continued upside per trader's "enjoy if you caught" tone.
+- **Last update**: 2026-08-22T13:21:22Z (message_id=1540712488130318416, discord-trader-monitor real-time, fast-path alerted)
+
 ### GOOG (Google) — LONG (CLOSED)
 - **Entry zone**: 330s (initial resting bid filled 2026-06-23T13:31Z at ~330-342 zone)
 - **Final size**: 0% (fully closed 2026-07-16T12:38:19Z)
