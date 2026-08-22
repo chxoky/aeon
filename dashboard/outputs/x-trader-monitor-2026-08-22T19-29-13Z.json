@@ -1,0 +1,70 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Wild_Randomness - Bullish Chart Post"
+      },
+      "children": [
+        "metrics-grid",
+        "separator",
+        "alert-badge"
+      ]
+    },
+    "metrics-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "stat-hype",
+        "stat-pump",
+        "stat-xrp"
+      ]
+    },
+    "stat-hype": {
+      "type": "Stat",
+      "props": {
+        "label": "HYPE",
+        "value": "78.863",
+        "delta": "+4.43%",
+        "trend": "up"
+      }
+    },
+    "stat-pump": {
+      "type": "Stat",
+      "props": {
+        "label": "PUMP",
+        "value": "0.00477",
+        "delta": "+17.28%",
+        "trend": "up"
+      }
+    },
+    "stat-xrp": {
+      "type": "Stat",
+      "props": {
+        "label": "XRP",
+        "value": "1.4866",
+        "delta": "+2.24%",
+        "trend": "up"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Informational sentiment alert",
+        "variant": "outline"
+      }
+    }
+  }
+}
