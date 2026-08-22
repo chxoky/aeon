@@ -1,0 +1,124 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration — @swarmister"
+      },
+      "children": [
+        "event-heading",
+        "tweet-card",
+        "separator-1",
+        "context-stack",
+        "media-section",
+        "separator-2",
+        "sentiment-alert",
+        "view-post-link"
+      ]
+    },
+    "event-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Event: Morning market sentiment post",
+        "level": "h3"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "Gmorning ma familia☕️🍋\n\nSo, are we all waiting for 120k now? Right?"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context-label",
+        "btc-price",
+        "upside-potential"
+      ]
+    },
+    "context-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h4"
+      }
+    },
+    "btc-price": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC currently",
+        "value": "~$77.2K"
+      }
+    },
+    "upside-potential": {
+      "type": "Stat",
+      "props": {
+        "label": "Upside to 120K level",
+        "value": "~55%",
+        "trend": "up"
+      }
+    },
+    "media-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "media-label",
+        "media-details"
+      ]
+    },
+    "media-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Media & Tone",
+        "level": "h4"
+      }
+    },
+    "media-details": {
+      "type": "Text",
+      "props": {
+        "text": "Media: Meme image (horse on beach), not a chart. Tone ambiguous — could be bullish conviction, sarcasm, or casual banter.",
+        "variant": "body"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sentiment-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Sentiment Classification",
+        "message": "Unable to classify — what's your read on the 120k sentiment?",
+        "type": "info"
+      }
+    },
+    "view-post-link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/swarmister/status/2091061980907872345"
+      }
+    }
+  }
+}
