@@ -1,0 +1,31 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "view_link"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "I also just want to clarify, in bull markets sometimes you do not get the \"ideal retests\". Sometimes, they are shallow & price simply front-runs certain levels.\n\nSo adaptability is key. These are just my current thoughts based on present conditions, but depending on future PA, thoughts & plans may adjust, just as any trader should adjust to changing conditions.\n\nIf we happen to get this quick retest down in the next few months, I would definitely be looking to long on other accounts to further compound.\n\nSo I wouldn't be overly fixated on the idea of \"lower\" due to the fact that retracements are usually shallow. We will just have to wait & see what the market gives us."
+      }
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/209113112643364913"
+      }
+    }
+  }
+}
