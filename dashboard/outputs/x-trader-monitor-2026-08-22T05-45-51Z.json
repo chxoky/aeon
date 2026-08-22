@@ -1,0 +1,104 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "separator_1",
+        "stats_heading",
+        "stats_container",
+        "separator_2",
+        "post_link"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "@Stoiiic",
+        "text": "can fly a 777 through the altcoin books lol\n\nunder 500M in total long liq on that flush"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stats_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Long Liquidation by Timeframe",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "stats_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat_1h",
+        "stat_4h",
+        "stat_12h",
+        "stat_24h"
+      ]
+    },
+    "stat_1h": {
+      "type": "Stat",
+      "props": {
+        "label": "1h",
+        "value": "$477.86M"
+      },
+      "children": []
+    },
+    "stat_4h": {
+      "type": "Stat",
+      "props": {
+        "label": "4h",
+        "value": "$495.23M"
+      },
+      "children": []
+    },
+    "stat_12h": {
+      "type": "Stat",
+      "props": {
+        "label": "12h",
+        "value": "$554.06M"
+      },
+      "children": []
+    },
+    "stat_24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h",
+        "value": "$781.04M"
+      },
+      "children": []
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "post_link": {
+      "type": "Link",
+      "props": {
+        "label": "View post on X",
+        "href": "https://x.com/Stoiiic/status/2091038160058769412"
+      },
+      "children": []
+    }
+  }
+}
