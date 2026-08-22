@@ -1,7 +1,1 @@
-market context — 2026-08-22
-
-take: rotation (conviction high)
-BTC $77,347 (+2.8%) / ETH $2,433 (+3.0%) · F&G 71 (Greed)
-breadth 19/20 · DEX vol $13.9B (+32.6% DoD)
-top narrative: HYPE post-ATH (peak) — ATH breached, now $79.76; HCH short ~33% underwater
-hot market: "Bitcoin reaches $80K in August" YES 63.2%
+market context 2026-08-22: risk-on consolidating (high conviction). BTC 77248 +0.9pct / ETH 2427 +2.6pct. F&G 71 Greed. Breadth 16/17. DEX vol 14.04B. Dominance flipped +0.21pp (rotation topping). HYPE ATH 82.43 - HCH short over 37pct underwater. ZEC 793 +25.2pct. XRP 1.50 fading from high of 1.69. Intraday flash crash absorbed. Jackson Hole T-5. BTC 80K Polymarket YES 63.2pct.

@@ -1,0 +1,297 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Market Context 2026-08-22"
+      },
+      "children": [
+        "sentiment_section",
+        "sep1",
+        "prices_section",
+        "sep2",
+        "breadth_section",
+        "sep3",
+        "moves_section",
+        "sep4",
+        "macro_section"
+      ]
+    },
+    "sentiment_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_risk_on",
+        "badge_high_conviction"
+      ]
+    },
+    "badge_risk_on": {
+      "type": "Badge",
+      "props": {
+        "text": "Risk-on",
+        "variant": "default"
+      }
+    },
+    "badge_high_conviction": {
+      "type": "Badge",
+      "props": {
+        "text": "High Conviction",
+        "variant": "secondary"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "prices_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_prices",
+        "grid_prices"
+      ]
+    },
+    "heading_prices": {
+      "type": "Heading",
+      "props": {
+        "text": "Major Assets",
+        "level": "h3"
+      }
+    },
+    "grid_prices": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat_btc",
+        "stat_eth",
+        "stat_fg",
+        "stat_breadth"
+      ]
+    },
+    "stat_btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$77,248",
+        "delta": "+0.9%",
+        "trend": "up"
+      }
+    },
+    "stat_eth": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$2,427",
+        "delta": "+2.6%",
+        "trend": "up"
+      }
+    },
+    "stat_fg": {
+      "type": "Stat",
+      "props": {
+        "label": "Fear & Greed",
+        "value": "71",
+        "delta": "Greed"
+      }
+    },
+    "stat_breadth": {
+      "type": "Stat",
+      "props": {
+        "label": "Breadth",
+        "value": "16/17"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "breadth_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_breadth",
+        "grid_breadth_metrics"
+      ]
+    },
+    "heading_breadth": {
+      "type": "Heading",
+      "props": {
+        "text": "Market Structure",
+        "level": "h3"
+      }
+    },
+    "grid_breadth_metrics": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat_dex_vol",
+        "stat_dominance",
+        "stat_hype_ath",
+        "stat_hch_short"
+      ]
+    },
+    "stat_dex_vol": {
+      "type": "Stat",
+      "props": {
+        "label": "DEX Volume",
+        "value": "$14.04B"
+      }
+    },
+    "stat_dominance": {
+      "type": "Stat",
+      "props": {
+        "label": "Dominance",
+        "value": "+0.21pp",
+        "delta": "Rotation topping"
+      }
+    },
+    "stat_hype_ath": {
+      "type": "Stat",
+      "props": {
+        "label": "HYPE ATH",
+        "value": "$82.43"
+      }
+    },
+    "stat_hch_short": {
+      "type": "Stat",
+      "props": {
+        "label": "HCH Short",
+        "value": "-37%",
+        "delta": "Underwater",
+        "trend": "down"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "moves_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_moves",
+        "grid_moves"
+      ]
+    },
+    "heading_moves": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable Moves",
+        "level": "h3"
+      }
+    },
+    "grid_moves": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat_zec",
+        "stat_xrp"
+      ]
+    },
+    "stat_zec": {
+      "type": "Stat",
+      "props": {
+        "label": "ZEC",
+        "value": "$793",
+        "delta": "+25.2%",
+        "trend": "up"
+      }
+    },
+    "stat_xrp": {
+      "type": "Stat",
+      "props": {
+        "label": "XRP",
+        "value": "$1.50",
+        "delta": "From $1.69 high",
+        "trend": "down"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "macro_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_macro",
+        "grid_macro",
+        "text_flash_crash"
+      ]
+    },
+    "heading_macro": {
+      "type": "Heading",
+      "props": {
+        "text": "Macro & Predictions",
+        "level": "h3"
+      }
+    },
+    "grid_macro": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat_jackson_hole",
+        "stat_btc_polymarket"
+      ]
+    },
+    "stat_jackson_hole": {
+      "type": "Stat",
+      "props": {
+        "label": "Jackson Hole",
+        "value": "T-5"
+      }
+    },
+    "stat_btc_polymarket": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC 80K Polymarket",
+        "value": "63.2%",
+        "trend": "up"
+      }
+    },
+    "text_flash_crash": {
+      "type": "Text",
+      "props": {
+        "text": "Intraday flash crash absorbed",
+        "variant": "muted"
+      }
+    }
+  }
+}

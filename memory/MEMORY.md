@@ -15,7 +15,7 @@ Autonomous trading-signal agent running on GitHub Actions via Claude Code. Monit
 ## Active Topics
 - [Trader State](topics/traders.md) — live per-trader positions, last-seen. (Rebuilt 2026-07-14 by trader-bootstrap; entries since flow via monitors + traders_update.txt.)
 - [Ticker Focus](topics/ticker-focus.md) — overlap/contested tickers, Kyle's watch list. Rebuilt 2026-07-14.
-- [Market Context](topics/market-context.md) — latest regime snapshot (Aug 22: BTC $77,347 (+2.8%), risk-on alt rotation (high conviction), F&G 71 Greed; BTC dominance fell 0.68pp; HYPE ATH breached ($79.76); ZEC $808 (+33.4%); XRP +19.7% 24h (+56.3% 7d, peak zone); DEX vol $13.9B; Fed No Change Sep 68.5%; Jackson Hole T-5 days).
+- [Market Context](topics/market-context.md) — latest regime snapshot (Aug 22 refresh 2: BTC $77,248 (+0.9%), risk-on consolidating (high conviction), F&G 71 Greed; BTC dominance +0.21pp to 58.79% (rotation topping); HYPE ATH $82.43; ZEC $793 (+25.2%); XRP $1.50 (fading, high was $1.69); DEX vol $14.04B; intraday flash crash recovered; Jackson Hole T-5 days).
 - [Active Trades](topics/active-trades.md) — Kyle's mirror decisions. As of Jul 22: NO open Kraken mirrors; Chase SNDK/MU approvals never given (Chase has since TP'd most).
 
 ## Live Stack (verified 2026-07-21)
