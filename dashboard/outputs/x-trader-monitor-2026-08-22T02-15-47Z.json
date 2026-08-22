@@ -1,0 +1,59 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @Stoiiic",
+        "description": "x-trader-monitor"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event-context",
+        "tweet-card",
+        "analysis-alert",
+        "link-post"
+      ]
+    },
+    "event-context": {
+      "type": "Text",
+      "props": {
+        "text": "Event: ZCash news or development cycle (context unavailable in tweet)",
+        "variant": "caption"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "Stoiiic",
+        "text": "zcash technology has suddenly improved tremendously."
+      }
+    },
+    "analysis-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Is this a sentiment update on ZEC tech progress, conviction signal, or response to specific news?",
+        "type": "info"
+      }
+    },
+    "link-post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Stoiiic/status/2090984955148919135"
+      }
+    }
+  }
+}
