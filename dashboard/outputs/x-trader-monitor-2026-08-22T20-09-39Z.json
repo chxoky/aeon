@@ -1,0 +1,132 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "ZEC Recovery Chart & Sentiment Question",
+        "description": "X Trader Monitor — @Wild_Randomness"
+      },
+      "children": [
+        "tweet_card",
+        "separator1",
+        "price_section",
+        "separator2",
+        "context_section"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "ZEC recovery chart + sentiment question to @5morewhooppers. ZEC/USDT 1D showing recovery from $250 crash → current $495.18 consolidation on moving average. Post frames as hypothetical conviction shift (\"What if I flipped bullish\") to another trader — chart-sharing sentiment validation on existing ZEC holdings, no personal execution."
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "price_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_price",
+        "current_price",
+        "recovery_info"
+      ]
+    },
+    "heading_price": {
+      "type": "Heading",
+      "props": {
+        "text": "Price Analysis",
+        "level": "h3"
+      }
+    },
+    "current_price": {
+      "type": "Stat",
+      "props": {
+        "label": "ZEC/USDT 1D Current",
+        "value": "$495.18"
+      }
+    },
+    "recovery_info": {
+      "type": "Text",
+      "props": {
+        "text": "Recovery from $250 crash, currently consolidating on moving average",
+        "variant": "caption"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_context",
+        "badges_stack",
+        "watch_note",
+        "tweet_link"
+      ]
+    },
+    "heading_context": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch-list & Context",
+        "level": "h3"
+      }
+    },
+    "badges_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_watchlist",
+        "badge_macro"
+      ]
+    },
+    "badge_watchlist": {
+      "type": "Badge",
+      "props": {
+        "text": "Watch-list",
+        "variant": "outline"
+      }
+    },
+    "badge_macro": {
+      "type": "Badge",
+      "props": {
+        "text": "Macro Indicator",
+        "variant": "outline"
+      }
+    },
+    "watch_note": {
+      "type": "Text",
+      "props": {
+        "text": "Recovery setup validates existing Wild_Randomness holdings. ZEC on watch-list (macro indicator).",
+        "variant": "body"
+      }
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2091254781197086934"
+      }
+    }
+  }
+}
