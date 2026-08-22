@@ -1,0 +1,31 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Bitcoin Trading Analysis"
+      },
+      "children": [
+        "tweet",
+        "link_to_post"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Bitcoin Astro",
+        "handle": "Bitcoin_Astro",
+        "text": "I want to share these two charts because they show something very important about time cycles and why I focus so much on specific time windows.\n\nI had three major windows calculated for the potential BTC cycle low this year, with the first and one of my main windows being 15–21 August. This window was identified last year.\n\nThe first chart was shared with members on 20 July. At the time, my projection was for BTC to continue lower into this August window, with a potential cycle low around the $48K area by approximately 21 August.\n\nWhat's fascinating is how closely price followed the projected path for weeks. The direction, structure and movement were remarkably similar.\n\nThen, during the final 3–10 days, something changed.\n\nInstead of completing the projected move DOWN into the August time window, BTC inverted the cycle and exploded UP, producing a huge move in exactly the opposite direction.\n\nSo you could say I almost got it right... except for the small detail that price went about $15,000 in the wrong direction 😂\n\nAnd this is something I've explained many times: an important time calculation doesn't necessarily tell us whether we're going to get a high or a low. It tells us when we should expect an important change or expansion in the market.\n\nThat's why we cannot blindly trade a date.\n\nWe combine TIME + PRICE + market structure and allow price action to confirm what type of turning point we're actually getting."
+      }
+    },
+    "link_to_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Bitcoin_Astro/status/2091288051888935347"
+      }
+    }
+  }
+}
