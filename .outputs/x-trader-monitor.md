@@ -1,9 +1,9 @@
 🐦 *[X] @Stoiiic*
 
-Hold $2300-2400 ETH to close the gap to 365D rolling VWAP.
+ENA had two straight days of continuous buying and finally retraced a bit today.
 
-Chart: Daily ETH (Feb-Oct 2026). Price consolidating 2,350-2,500 between 365D VWAP (~2,200) and 90D VWAP (~2,250). Thesis: holding 2,300-2,400 zone establishes support for upside to 365D VWAP level.
+On the weekly, previous highs need to hold to trade into the airgap above.
 
-**Context**: ETH down from ~3,100 peak (Apr/May), support testing at dual-VWAP confluence. Aligns with HCH/ryzzqq near-term consolidation view before downside targets. No personal execution language.
+[View tweet](https://x.com/Stoiiic/status/2090979427563835819)
 
-[View tweet](https://x.com/Stoiiic/status/2090977515040838064)
+↳ _Technical analysis: Weekly chart shows capitulation low (~0.08-0.16), recent 2-day recovery bounce. Key support: Yearly Open at 0.20000 (airgap target above if held). Cross-trader context: trading_axe mentioned ENA as exemplar of ETH-beta repricing (Aug 21); Stoiiic technical confirmation of accumulation structure._
