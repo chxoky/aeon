@@ -1,0 +1,64 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_platform",
+        "tweet_card",
+        "link_view",
+        "separator",
+        "text_notes"
+      ]
+    },
+    "badge_platform": {
+      "type": "Badge",
+      "props": {
+        "text": "X",
+        "variant": "secondary"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Bitcoin_Astro",
+        "handle": "@Bitcoin_Astro",
+        "text": "Btc hit the 45° yesterday at the 80k mark"
+      }
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Bitcoin_Astro/status/2091079899897319760"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_notes": {
+      "type": "Text",
+      "props": {
+        "text": "New trader first mention. Technical 45° angle framework validation from 2023 bear market bottom. BTC on Kyle's explicit watch list.",
+        "variant": "muted"
+      }
+    }
+  }
+}
