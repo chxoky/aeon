@@ -1,0 +1,24 @@
+{
+  "root": "card1",
+  "state": {},
+  "elements": {
+    "card1": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Discord Chat"
+      },
+      "children": [
+        "tweet1"
+      ]
+    },
+    "tweet1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HCH",
+        "handle": "HCH",
+        "text": "💬 Looks like we are filling the wicks now"
+      }
+    }
+  }
+}
