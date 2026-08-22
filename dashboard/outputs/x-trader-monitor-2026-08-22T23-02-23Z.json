@@ -1,0 +1,23 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "X-Trader Monitor"
+      },
+      "children": [
+        "tweet"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Macro sentiment reply to @DDjq0oo on October outlook. GPU pricing decline + rates stuck = equity headwinds. GOLD/crypto thesis: will NOT make new lows even if equities do. Position update: adapted from failed 'last leg down' play, max 3x leverage comfort on liq map. BTC liquidation map shows clean 77K environment.\n\nView: https://x.com/Wild_Randomness/status/2091298716590178591"
+      }
+    }
+  }
+}
