@@ -1,0 +1,152 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet-section",
+        "separator-1",
+        "analysis-section",
+        "separator-2",
+        "market-context"
+      ]
+    },
+    "tweet-section": {
+      "type": "TweetCard",
+      "props": {
+        "author": "trading_axe",
+        "handle": "@trading_axe",
+        "text": "\"The saying goes, 'Pain is temporary. In all crypto, it only takes one cycle to comprehend: Downside is temporary, upside is forever.\" Philosophical essay on permabull vs shorting strategy. Conclusion: \"Upside is unlimited.\""
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-essay",
+        "quote-gcr",
+        "text-conclusion"
+      ]
+    },
+    "text-essay": {
+      "type": "Text",
+      "props": {
+        "text": "Philosophical essay on permabull vs shorting strategy, referencing GCR.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "quote-gcr": {
+      "type": "Text",
+      "props": {
+        "text": "\"I made the largest chunk of my net and overall gains from being long/bullish.\"",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text-conclusion": {
+      "type": "Text",
+      "props": {
+        "text": "Conclusion: Upside is unlimited.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "market-context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-alignment",
+        "badges-section",
+        "story-link"
+      ]
+    },
+    "text-alignment": {
+      "type": "Text",
+      "props": {
+        "text": "Aligns with group emerging net-long lean:",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "badges-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-killaXBT",
+        "badge-HCH",
+        "badge-bull_genius",
+        "badge-btc"
+      ]
+    },
+    "badge-killaXBT": {
+      "type": "Badge",
+      "props": {
+        "text": "KillaXBT",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "badge-HCH": {
+      "type": "Badge",
+      "props": {
+        "text": "HCH",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "badge-bull_genius": {
+      "type": "Badge",
+      "props": {
+        "text": "bull_genius",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "badge-btc": {
+      "type": "Badge",
+      "props": {
+        "text": "BTC 73K breakout",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "story-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View post",
+        "href": "https://x.com/trading_axe/status/2090986447071269186",
+        "source": "X"
+      },
+      "children": []
+    }
+  }
+}
