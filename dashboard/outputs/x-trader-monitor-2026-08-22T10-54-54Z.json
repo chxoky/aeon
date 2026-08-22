@@ -1,0 +1,99 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Market Sentiment Update — @HeartCanHodl"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event_section",
+        "quote_section",
+        "sep1",
+        "context_section",
+        "link_section"
+      ]
+    },
+    "event_section": {
+      "type": "Text",
+      "props": {
+        "text": "Event: -50% alt drawdown (10:45Z observation), liquidation cascade in progress",
+        "variant": "lead"
+      }
+    },
+    "quote_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "quote_text",
+        "quote_commentary"
+      ]
+    },
+    "quote_text": {
+      "type": "Text",
+      "props": {
+        "text": "\"That makes me question whether the long liquidation numbers are genuinely reflecting what happened in the market\"",
+        "variant": "body"
+      }
+    },
+    "quote_commentary": {
+      "type": "Text",
+      "props": {
+        "text": "Meta-commentary on liquidation data authenticity during acute market event. Raises structural skepticism: are reported liquidations real or narrative-driven?",
+        "variant": "muted"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context_label",
+        "context_details"
+      ]
+    },
+    "context_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Market Context",
+        "level": "h4"
+      }
+    },
+    "context_details": {
+      "type": "Text",
+      "props": {
+        "text": "Stoiiic 05:42Z (<500M long liq), Wild_Randomness 05:41Z (liquidation map), HCH earlier alt-retrace confirmation (10:47Z). Multi-trader liquidation-event observation sequence.",
+        "variant": "body"
+      }
+    },
+    "link_section": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/HeartCanHodl/status/2091115883775058207"
+      }
+    }
+  }
+}
