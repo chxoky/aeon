@@ -1,0 +1,124 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor: Calibration"
+      },
+      "children": [
+        "heading_main",
+        "event_desc",
+        "sep1",
+        "tweet_post",
+        "sep2",
+        "analysis_section",
+        "sep3",
+        "context_text",
+        "link_view"
+      ]
+    },
+    "heading_main": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @trading_axe",
+        "level": "h2"
+      }
+    },
+    "event_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Cryptic exchange listing post with emojis; no context or thesis provided"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "tweet_post": {
+      "type": "TweetCard",
+      "props": {
+        "author": "trading_axe",
+        "handle": "trading_axe",
+        "text": "Kraken 🚀🐪 ‼ YYPUS 🐪🐪\nCryptodotcom 🚀🐪 ‼ LIT 🏴‍☠️🐪\n\n✨ Dr. Axius."
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "analysis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis_prompt",
+        "analysis_list"
+      ]
+    },
+    "analysis_prompt": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?"
+      }
+    },
+    "analysis_list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "q1",
+        "q2",
+        "q3",
+        "q4"
+      ]
+    },
+    "q1": {
+      "type": "Text",
+      "props": {
+        "text": "• YYPUS momentum hint (new ticker, first mention)?"
+      }
+    },
+    "q2": {
+      "type": "Text",
+      "props": {
+        "text": "• LIT catalyst signal (aligns with Aug 21 bullish thesis)?"
+      }
+    },
+    "q3": {
+      "type": "Text",
+      "props": {
+        "text": "• Exchange listing meta-commentary?"
+      }
+    },
+    "q4": {
+      "type": "Text",
+      "props": {
+        "text": "• Pure branding/banter (70% baseline)?"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "Context: HCH strong LIT SHORT = conflicting signals on same ticker",
+        "variant": "muted"
+      }
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/trading_axe/status/2091008108684263747"
+      }
+    }
+  }
+}
