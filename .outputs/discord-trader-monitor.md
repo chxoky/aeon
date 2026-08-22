@@ -1,12 +1,11 @@
 💬 *[DC: HCH — Chat]*
 
-Event: Member asked "I see, did you see that flash crash on the 1m chart"
-heartcanhodl: "Manipulated condition"
+Supporting channel real-time signal.
 
-Unable to classify — what's your read? Trade signal, market observation, or general commentary?
-💬 *[DC: HCH — Chat]*
+HCH: "Looking at the 1 & 4 hourly"
 
--10% to -25% in 1 min across alts  😟
+Context: No referenced message context; no explicit ticker. Supporting channel message without prior related primary-channel Trades context in past few hours.
 
 _Real-time market sentiment from HeartCanHodl: rapid altcoin weakness observed_
 Looks like we are filling the wicks now
+Unable to classify — what asset/context is HCH analyzing on 1H & 4H timeframes? Is this a conviction shift signal, technical chart check, or general market observation?

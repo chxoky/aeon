@@ -1,0 +1,79 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor",
+        "description": "Calibration — Real-time signal analysis"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_source",
+        "text_context",
+        "sep1",
+        "heading_observation",
+        "text_quote",
+        "sep2",
+        "alert_classification"
+      ]
+    },
+    "badge_source": {
+      "type": "Badge",
+      "props": {
+        "text": "DC: HCH — Chat",
+        "variant": "secondary"
+      }
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "Supporting channel real-time signal."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_observation": {
+      "type": "Heading",
+      "props": {
+        "text": "Observation",
+        "level": "h3"
+      }
+    },
+    "text_quote": {
+      "type": "Text",
+      "props": {
+        "text": "Looking at the 1 & 4 hourly",
+        "variant": "lead"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to Classify",
+        "message": "No referenced message context; no explicit ticker. What asset/context is HCH analyzing on 1H & 4H timeframes? Is this a conviction shift signal, technical chart check, or general market observation?",
+        "type": "warning"
+      }
+    }
+  }
+}
