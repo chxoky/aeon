@@ -1,0 +1,109 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Macro Update — @Wild_Randomness"
+      },
+      "children": [
+        "heading-main",
+        "separator-1",
+        "stats-container",
+        "separator-2",
+        "text-context",
+        "text-watchlist",
+        "link-post"
+      ]
+    },
+    "heading-main": {
+      "type": "Heading",
+      "props": {
+        "text": "Trump floating military intervention on bond market if Bessent's fiscal intervention fails…",
+        "level": "h3"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stats-container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat-btc",
+        "stat-gold"
+      ]
+    },
+    "stat-btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC/USD (1W)",
+        "value": "77,016",
+        "delta": "-1.67%",
+        "trend": "down"
+      }
+    },
+    "stat-gold": {
+      "type": "Stat",
+      "props": {
+        "label": "XAUUSD (1W)",
+        "value": "4,602.99",
+        "delta": "+1.86%",
+        "trend": "up"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-btc-detail",
+        "text-gold-detail"
+      ]
+    },
+    "text-btc-detail": {
+      "type": "Text",
+      "props": {
+        "text": "BTC consolidating after macro swings",
+        "variant": "caption"
+      }
+    },
+    "text-gold-detail": {
+      "type": "Text",
+      "props": {
+        "text": "XAUUSD showing relative strength, recovery trend intact",
+        "variant": "caption"
+      }
+    },
+    "text-watchlist": {
+      "type": "Text",
+      "props": {
+        "text": "Trader shares macro context + chart structure on policy uncertainty reaction. Both tickers on watch list.",
+        "variant": "body"
+      }
+    },
+    "link-post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2091171013539299705"
+      }
+    }
+  }
+}

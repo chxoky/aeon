@@ -1,7 +1,10 @@
-🐦 *[X] @KillaXBT*
+🐦 *Macro Update — @Wild_Randomness*
 
-$SOL is up 50% from the entry I shared publicly.
+Trump floating military intervention on bond market if Bessent's fiscal intervention fails…
 
-100–105 should be the local barrier for now, but once it breaks, prepare for a nice squeeze into the 120s.
+**BTC/USD (1W)**: 77,016 (−1.67%) — consolidating after macro swings
+**XAUUSD (1W)**: 4,602.99 (+1.86%) — relative strength, recovery trend intact
 
-[View tweet](https://x.com/KillaXBT/status/2091158951110832633)
+Trader shares macro context + chart structure on policy uncertainty reaction. Both tickers on watch list.
+
+[View post](https://x.com/Wild_Randomness/status/2091171013539299705)
