@@ -1,0 +1,120 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord: Chase — Crypto",
+        "description": "Member Q&A"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_platform",
+        "sep1",
+        "question_block",
+        "sep2",
+        "response_block",
+        "sep3",
+        "footer"
+      ]
+    },
+    "badge_platform": {
+      "type": "Badge",
+      "props": {
+        "text": "Discord",
+        "variant": "secondary"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "question_block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "q_author",
+        "q_content"
+      ]
+    },
+    "q_author": {
+      "type": "Text",
+      "props": {
+        "text": "pirolita_",
+        "variant": "lead"
+      }
+    },
+    "q_content": {
+      "type": "Text",
+      "props": {
+        "text": "Could you analyze XMR? HTF chart looks great, would like to know what you think of LTF"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "response_block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "resp_author",
+        "resp_content",
+        "chart_attachment"
+      ]
+    },
+    "resp_author": {
+      "type": "Text",
+      "props": {
+        "text": "Crypto_Chase",
+        "variant": "lead"
+      }
+    },
+    "resp_content": {
+      "type": "Text",
+      "props": {
+        "text": "Chart analysis provided"
+      }
+    },
+    "chart_attachment": {
+      "type": "Text",
+      "props": {
+        "text": "📊 Chart image attached (Discord message: 1540817402885832824)",
+        "variant": "caption"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "footer": {
+      "type": "Text",
+      "props": {
+        "text": "via Discord member Q&A — Chase — Crypto channel",
+        "variant": "muted"
+      }
+    }
+  }
+}
