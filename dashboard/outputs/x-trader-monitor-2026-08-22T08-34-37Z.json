@@ -1,0 +1,61 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "header",
+        "task",
+        "quote-attr",
+        "quote-text",
+        "class-alert",
+        "post-link"
+      ]
+    },
+    "header": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Bitcoin_Astro",
+        "level": "h3"
+      }
+    },
+    "task": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to @takajin15389308 confirming agreement on a pattern."
+      }
+    },
+    "quote-attr": {
+      "type": "Text",
+      "props": {
+        "text": "Bitcoin_Astro:",
+        "variant": "muted"
+      }
+    },
+    "quote-text": {
+      "type": "Text",
+      "props": {
+        "text": "\"@takajin15389308 Yes, made a post yesterday, exactly about this pattern\""
+      }
+    },
+    "class-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What pattern is being referenced?",
+        "type": "warning"
+      }
+    },
+    "post-link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Bitcoin_Astro/status/2091080482192535565"
+      }
+    }
+  }
+}
