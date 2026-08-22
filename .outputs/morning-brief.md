@@ -1,24 +1,22 @@
-*Morning Brief — 2026-08-21*
+*Morning Brief — 2026-08-22*
 
 *Focus today*
-1. KillaXBT HSL 76.1K breached — BTC at $76,300; re-entry POI 80–82K now live
-2. HCH adding into pain — 5% BTC + 2% PUMP short added while short basket is severely underwater; cover = high-conviction reversal signal
-3. Jackson Hole in 6 days — XRP payments cluster [BREAKOUT] +17.7% front-running Aug 27 "Financial Innovation" theme
+1. KillaXBT hedge SL (76.1K) breached — BTC $77K: position now pure unhedged long.
+2. HCH BTC + PUMP shorts added Aug 21 — both ~33%+ underwater; cover signal is catalytic.
+3. Jackson Hole Aug 27 (5 days) — macro binary; $80K Aug YES 63.2% in market now.
 
 *Since yesterday*
-- BTC $76,300 (+9.77%): extended breakout, cleared 73.4K–75K resistance; F&G 72 Greed (+10 pts)
-- KillaXBT hedge (35% at 73.6–74.9K, SL 76.1K) activated then stopped; next POI 80–82K
-- HCH short basket added 5% BTC + 2% PUMP (07:22–07:25 UTC); net-short regime intact despite drawdown
-- ENA +41.5% on all-day TWAP algo bid; XRP +17.7% + XLM/BCH payments cluster co-moving
-- swarmister: BTC 20x short at 69,190 (-179% ROI) disclosed; offset by SNDK 20x long (+402% ROI)
+- BTC $76,300 → $77,347; ETH $2,373 → $2,433 — risk-on accelerating, breadth 19/20
+- Alt rotation at full velocity: ZEC +31.6% (7d +62%), XRP +19.7% (7d +56%), TRUMP +68.7%
+- HYPE ATH breached → $79.76; HCH HYPE short further underwater
+- Group consensus solidified: bull_genius ETH $3K thesis, Crypto_Chase explicitly no shorts
+- trader-memory-compact stuck in dispatched since Aug 16 — check issue tracker
 
 *Watch*
-- XRP payments cluster [BREAKOUT] — direct pre-positioning for Jackson Hole "digital payments" keynote (Aug 27); Fed Sep hike YES 27.5% Polymarket
+- Polymarket BTC reaches $80K in August YES 63.2% — $2.7K gap with 9 days left; regime test aligned with Jackson Hole (focus #3)
 
 *Running today*
 - token-alert @ 12:00 UTC
 - token-movers @ 12:00 UTC
 - market-context-refresh @ 13:00 UTC
 - narrative-tracker @ 13:30 UTC
-- skill-health @ 18:00 UTC
-- heartbeat @ 08:00, 14:00, 20:00 UTC

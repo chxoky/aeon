@@ -1,0 +1,423 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-08-22"
+      },
+      "children": [
+        "section_focus",
+        "sep1",
+        "section_since",
+        "sep2",
+        "section_watch",
+        "sep3",
+        "section_running"
+      ]
+    },
+    "section_focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_focus",
+        "focus_item1",
+        "focus_item2",
+        "focus_item3"
+      ]
+    },
+    "heading_focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "focus_item1": {
+      "type": "Alert",
+      "props": {
+        "title": "KillaXBT hedge SL breached",
+        "message": "Stop loss at 76.1K breached — BTC $77K. Position now pure unhedged long.",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "focus_item2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "text_hch",
+        "badge_hch_status"
+      ]
+    },
+    "text_hch": {
+      "type": "Text",
+      "props": {
+        "text": "HCH BTC + PUMP shorts added Aug 21 — cover signal is catalytic.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "badge_hch_status": {
+      "type": "Badge",
+      "props": {
+        "text": "~33%+ underwater",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "focus_item3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_jackson",
+        "stat_jackson"
+      ]
+    },
+    "text_jackson": {
+      "type": "Text",
+      "props": {
+        "text": "Jackson Hole Aug 27 (5 days) — macro binary",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "stat_jackson": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC $80K in August YES",
+        "value": "63.2%"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_since": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_since",
+        "prices_grid",
+        "alt_rotation_group",
+        "consensus_group",
+        "alert_stuck"
+      ]
+    },
+    "heading_since": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "prices_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat_btc",
+        "stat_eth"
+      ]
+    },
+    "stat_btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$77,347",
+        "delta": "+$1,047",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat_eth": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$2,433",
+        "delta": "+$60",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "alt_rotation_group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_rotation_heading",
+        "text_breadth",
+        "grid_alts"
+      ]
+    },
+    "text_rotation_heading": {
+      "type": "Text",
+      "props": {
+        "text": "Alt rotation at full velocity:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text_breadth": {
+      "type": "Text",
+      "props": {
+        "text": "Breadth 19/20 (risk-on accelerating)",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "grid_alts": {
+      "type": "Grid",
+      "props": {
+        "columns": 4,
+        "gap": "md"
+      },
+      "children": [
+        "alt_zec",
+        "alt_xrp",
+        "alt_trump",
+        "alt_hype"
+      ]
+    },
+    "alt_zec": {
+      "type": "Stat",
+      "props": {
+        "label": "ZEC",
+        "value": "+31.6%",
+        "delta": "7d +62%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "alt_xrp": {
+      "type": "Stat",
+      "props": {
+        "label": "XRP",
+        "value": "+19.7%",
+        "delta": "7d +56%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "alt_trump": {
+      "type": "Stat",
+      "props": {
+        "label": "TRUMP",
+        "value": "+68.7%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "alt_hype": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "hype_price",
+        "hype_status"
+      ]
+    },
+    "hype_price": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE: $79.76 ATH",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "hype_status": {
+      "type": "Badge",
+      "props": {
+        "text": "HCH short underwater",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "consensus_group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_consensus_heading",
+        "text_eth_bull",
+        "text_crypto_chase"
+      ]
+    },
+    "text_consensus_heading": {
+      "type": "Text",
+      "props": {
+        "text": "Group consensus solidified:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text_eth_bull": {
+      "type": "Text",
+      "props": {
+        "text": "bull_genius: ETH $3K thesis",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_crypto_chase": {
+      "type": "Text",
+      "props": {
+        "text": "Crypto_Chase: explicitly no shorts",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "alert_stuck": {
+      "type": "Alert",
+      "props": {
+        "title": "trader-memory-compact stuck",
+        "message": "Dispatched since Aug 16 — check issue tracker",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_watch",
+        "watch_item"
+      ]
+    },
+    "heading_watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "watch_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_polymarket",
+        "stat_polymarket_odds",
+        "text_polymarket_detail"
+      ]
+    },
+    "text_polymarket": {
+      "type": "Text",
+      "props": {
+        "text": "Polymarket BTC reaches $80K in August YES",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "stat_polymarket_odds": {
+      "type": "Stat",
+      "props": {
+        "label": "Current odds",
+        "value": "63.2%"
+      },
+      "children": []
+    },
+    "text_polymarket_detail": {
+      "type": "Text",
+      "props": {
+        "text": "$2.7K gap with 9 days left; regime test aligned with Jackson Hole",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_running",
+        "tasks_table"
+      ]
+    },
+    "heading_running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "tasks_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Task",
+          "Time (UTC)"
+        ],
+        "rows": [
+          [
+            "token-alert",
+            "12:00"
+          ],
+          [
+            "token-movers",
+            "12:00"
+          ],
+          [
+            "market-context-refresh",
+            "13:00"
+          ],
+          [
+            "narrative-tracker",
+            "13:30"
+          ]
+        ]
+      },
+      "children": []
+    }
+  }
+}
