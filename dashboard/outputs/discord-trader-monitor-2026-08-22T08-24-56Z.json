@@ -1,0 +1,148 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor — Calibration"
+      },
+      "children": [
+        "badge_header",
+        "sep1",
+        "event_section",
+        "sep2",
+        "response_section",
+        "sep3",
+        "classification_section"
+      ]
+    },
+    "badge_header": {
+      "type": "Badge",
+      "props": {
+        "text": "🔍 Calibration — [DC: HCH — Chat]",
+        "variant": "secondary"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "event_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event_label",
+        "event_message"
+      ]
+    },
+    "event_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h4"
+      }
+    },
+    "event_message": {
+      "type": "Text",
+      "props": {
+        "text": "Member asked: \"I see, did you see that flash crash on the 1m chart\"",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "response_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "response_label",
+        "response_content"
+      ]
+    },
+    "response_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Initial Classification",
+        "level": "h4"
+      }
+    },
+    "response_content": {
+      "type": "Text",
+      "props": {
+        "text": "heartcanhodl: \"Manipulated condition\"",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "classification_alert",
+        "options_stack"
+      ]
+    },
+    "classification_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to Classify",
+        "message": "What's your read on this message?",
+        "type": "warning"
+      }
+    },
+    "options_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "option_trade_signal",
+        "option_market_obs",
+        "option_commentary"
+      ]
+    },
+    "option_trade_signal": {
+      "type": "Button",
+      "props": {
+        "label": "Trade signal",
+        "variant": "secondary"
+      }
+    },
+    "option_market_obs": {
+      "type": "Button",
+      "props": {
+        "label": "Market observation",
+        "variant": "secondary"
+      }
+    },
+    "option_commentary": {
+      "type": "Button",
+      "props": {
+        "label": "General commentary",
+        "variant": "secondary"
+      }
+    }
+  }
+}
