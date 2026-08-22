@@ -1,0 +1,18 @@
+Calibration Alert — @Stoiiic
+
+Post: "combination of this news and thin books on alts = lev flush" (2026-08-22 05:56Z)
+
+Context: Cryptic market observation following Aug 22 05:42Z altcoin liquidation chart analysis ("fly a 777 through altcoin books", $477M long liquidations) and 05:28Z "nice little flush innit" comment.
+
+Describes mechanism: unspecified "news" + thin altcoin order books = leverage flush cascade.
+
+Classification: HR-2 Ambiguous-Cryptic (unable to classify without clarification)
+
+Questions for Kyle:
+1. What does "this news" refer to? (External catalyst event?)
+2. Is this a market-structure warning or casual technical observation?
+3. Does it connect to/confirm earlier 05:42Z and 05:28Z flush-related posts?
+
+Awaiting calibration to refine Stoiiic baseline on leverage flush commentary patterns.
+
+Tweet: https://x.com/Stoiiic/status/20910417016286169760

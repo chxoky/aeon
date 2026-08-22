@@ -1,0 +1,84 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "meta-header",
+        "tweet-card",
+        "alert-hr2",
+        "context-notes",
+        "tweet-link"
+      ]
+    },
+    "meta-header": {
+      "type": "Text",
+      "props": {
+        "text": "Stoiiic (05:56Z)",
+        "variant": "caption"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "text": "Cryptic post on altcoin leverage flush mechanics"
+      }
+    },
+    "alert-hr2": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "HR-2 Calibration Alert",
+        "message": "combination of this news and thin books on alts = lev flush"
+      }
+    },
+    "context-notes": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context-note-1",
+        "context-note-2"
+      ]
+    },
+    "context-note-1": {
+      "type": "Text",
+      "props": {
+        "text": "Context-dependent on undefined 'news' reference",
+        "variant": "muted"
+      }
+    },
+    "context-note-2": {
+      "type": "Text",
+      "props": {
+        "text": "Awaiting Kyle interpretation",
+        "variant": "muted"
+      }
+    },
+    "tweet-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View Tweet",
+        "href": "https://x.com/Stoiiic/status/20910417016286169760",
+        "source": "X"
+      }
+    }
+  }
+}
