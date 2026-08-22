@@ -1,0 +1,1138 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-08-22"
+      },
+      "children": [
+        "alert_firstrun",
+        "sep1",
+        "heading_transitions",
+        "transitions_stack",
+        "sep2",
+        "heading_reflexivity",
+        "reflexivity_stack",
+        "sep3",
+        "heading_positions",
+        "positions_stack",
+        "sep4",
+        "heading_map",
+        "map_stack"
+      ]
+    },
+    "alert_firstrun": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "message": "FIRST RUN — no prior tracker baseline; all narratives are new to this tracker."
+      }
+    },
+    "sep1": {
+      "type": "Separator"
+    },
+    "heading_transitions": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      }
+    },
+    "transitions_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "trans_1",
+        "trans_2",
+        "trans_3",
+        "trans_4"
+      ]
+    },
+    "trans_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans1_title",
+        "trans1_stat1",
+        "trans1_stat2",
+        "trans1_stat3",
+        "trans1_stat4",
+        "trans1_desc"
+      ]
+    },
+    "trans1_title": {
+      "type": "Heading",
+      "props": {
+        "text": "• NEW: Alt Rotation Broadening",
+        "level": "h3"
+      }
+    },
+    "trans1_stat1": {
+      "type": "Stat",
+      "props": {
+        "label": "TRUMP",
+        "value": "+53.5%",
+        "trend": "up"
+      }
+    },
+    "trans1_stat2": {
+      "type": "Stat",
+      "props": {
+        "label": "ZEC",
+        "value": "+25.2%",
+        "trend": "up"
+      }
+    },
+    "trans1_stat3": {
+      "type": "Stat",
+      "props": {
+        "label": "POL",
+        "value": "+21.7%",
+        "trend": "up"
+      }
+    },
+    "trans1_stat4": {
+      "type": "Stat",
+      "props": {
+        "label": "ENA",
+        "value": "+9.8%",
+        "trend": "up"
+      }
+    },
+    "trans1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "16/17 non-stables green 7d • Broadest rotation since pre-risk-off regime"
+      }
+    },
+    "trans_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans2_title",
+        "trans2_stat",
+        "trans2_desc1",
+        "trans2_desc2"
+      ]
+    },
+    "trans2_title": {
+      "type": "Heading",
+      "props": {
+        "text": "• NEW: HYPE ATH $82.43",
+        "level": "h3"
+      }
+    },
+    "trans2_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "HYPE ATH",
+        "value": "$82.43"
+      }
+    },
+    "trans2_desc1": {
+      "type": "Text",
+      "props": {
+        "text": "Decentralized perps at peak • HCH short 33%+ underwater"
+      }
+    },
+    "trans2_desc2": {
+      "type": "Text",
+      "props": {
+        "text": "Reflexivity confirmed"
+      }
+    },
+    "trans_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans3_title",
+        "trans3_range",
+        "trans3_desc",
+        "trans3_sources"
+      ]
+    },
+    "trans3_title": {
+      "type": "Heading",
+      "props": {
+        "text": "• NEW: BTC 70–82K Range Formation",
+        "level": "h3"
+      }
+    },
+    "trans3_range": {
+      "type": "Text",
+      "props": {
+        "text": "Range: $70,000 – $82,000"
+      }
+    },
+    "trans3_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Aligned on post-breakout consolidation thesis"
+      }
+    },
+    "trans3_sources": {
+      "type": "Text",
+      "props": {
+        "text": "Sources: @KillaXBT, @Bitcoin_Astro, @bull_genius",
+        "variant": "caption"
+      }
+    },
+    "trans_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans4_title",
+        "trans4_timer",
+        "trans4_stat",
+        "trans4_source"
+      ]
+    },
+    "trans4_title": {
+      "type": "Heading",
+      "props": {
+        "text": "• NEW: Jackson Hole Binary",
+        "level": "h3"
+      }
+    },
+    "trans4_timer": {
+      "type": "Text",
+      "props": {
+        "text": "T-5 days | Aug 27"
+      }
+    },
+    "trans4_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Polymarket: BTC $80K YES",
+        "value": "63.2%"
+      }
+    },
+    "trans4_source": {
+      "type": "Text",
+      "props": {
+        "text": "Defines next cycle direction",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator"
+    },
+    "heading_reflexivity": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERTS",
+        "level": "h2"
+      }
+    },
+    "reflexivity_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert_hype",
+        "alert_trump"
+      ]
+    },
+    "alert_hype": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "HYPE — Reflexivity Risk",
+        "message": "ATH $82.43; HCH net-short 33%+ underwater from HYPE squeeze alone. Short destruction → more buyers → narrative self-fueling. No fundamental shift."
+      }
+    },
+    "alert_trump": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "TRUMP — Meme-Token Feedback Loop",
+        "message": "+53.5% today, $1.63B 7d vol. CT attention → price → attention cycle confirmed."
+      }
+    },
+    "sep3": {
+      "type": "Separator"
+    },
+    "heading_positions": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      }
+    },
+    "positions_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "pos_ride_alt",
+        "pos_ride_btc",
+        "pos_fade_hype",
+        "pos_fade_zec",
+        "pos_fade_xrp",
+        "pos_watch_base",
+        "pos_watch_jh",
+        "pos_watch_ai"
+      ]
+    },
+    "pos_ride_alt": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_ride_alt_title",
+        "pos_ride_alt_meta",
+        "pos_ride_alt_sources",
+        "pos_ride_alt_bull",
+        "pos_ride_alt_bear"
+      ]
+    },
+    "pos_ride_alt_title": {
+      "type": "Heading",
+      "props": {
+        "text": "RIDE: Alt Rotation",
+        "level": "h3"
+      }
+    },
+    "pos_ride_alt_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_ride_1",
+        "badge_conf_4_1",
+        "badge_trend_up_1",
+        "badge_sentiment_bull_1"
+      ]
+    },
+    "badge_ride_1": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "secondary"
+      }
+    },
+    "badge_conf_4_1": {
+      "type": "Badge",
+      "props": {
+        "text": "Conf 4"
+      }
+    },
+    "badge_trend_up_1": {
+      "type": "Badge",
+      "props": {
+        "text": "↑↑",
+        "variant": "secondary"
+      }
+    },
+    "badge_sentiment_bull_1": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull"
+      }
+    },
+    "pos_ride_alt_sources": {
+      "type": "Text",
+      "props": {
+        "text": "@Stoiiic, @trading_axe (ZEC); TRUMP political catalyst",
+        "variant": "caption"
+      }
+    },
+    "pos_ride_alt_bull": {
+      "type": "Text",
+      "props": {
+        "text": "Bull: Alt rotation broadening"
+      }
+    },
+    "pos_ride_alt_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: BTC dominance +0.21pp reversal; intraday flash crash fragility",
+        "variant": "muted"
+      }
+    },
+    "pos_ride_btc": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_ride_btc_title",
+        "pos_ride_btc_meta",
+        "pos_ride_btc_sources",
+        "pos_ride_btc_bull",
+        "pos_ride_btc_bear"
+      ]
+    },
+    "pos_ride_btc_title": {
+      "type": "Heading",
+      "props": {
+        "text": "RIDE: BTC Range 70–82K",
+        "level": "h3"
+      }
+    },
+    "pos_ride_btc_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_ride_2",
+        "badge_conf_4_2",
+        "badge_trend_neutral_2",
+        "badge_sentiment_bull_2"
+      ]
+    },
+    "badge_ride_2": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "secondary"
+      }
+    },
+    "badge_conf_4_2": {
+      "type": "Badge",
+      "props": {
+        "text": "Conf 4"
+      }
+    },
+    "badge_trend_neutral_2": {
+      "type": "Badge",
+      "props": {
+        "text": "→",
+        "variant": "outline"
+      }
+    },
+    "badge_sentiment_bull_2": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull"
+      }
+    },
+    "pos_ride_btc_sources": {
+      "type": "Text",
+      "props": {
+        "text": "@KillaXBT, @Bitcoin_Astro, @bull_genius",
+        "variant": "caption"
+      }
+    },
+    "pos_ride_btc_bull": {
+      "type": "Text",
+      "props": {
+        "text": "Bull: Post-breakout consolidation thesis"
+      }
+    },
+    "pos_ride_btc_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: Jackson Hole hawkish surprise breaks low 70s",
+        "variant": "muted"
+      }
+    },
+    "pos_fade_hype": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_fade_hype_title",
+        "pos_fade_hype_meta",
+        "pos_fade_hype_sources",
+        "pos_fade_hype_bull",
+        "pos_fade_hype_bear"
+      ]
+    },
+    "pos_fade_hype_title": {
+      "type": "Heading",
+      "props": {
+        "text": "FADE: HYPE / Decentralized Perps",
+        "level": "h3"
+      }
+    },
+    "pos_fade_hype_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_fade_1",
+        "badge_conf_5_1",
+        "badge_trend_up_3",
+        "badge_sentiment_peak_1"
+      ]
+    },
+    "badge_fade_1": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "destructive"
+      }
+    },
+    "badge_conf_5_1": {
+      "type": "Badge",
+      "props": {
+        "text": "Conf 5"
+      }
+    },
+    "badge_trend_up_3": {
+      "type": "Badge",
+      "props": {
+        "text": "↑↑",
+        "variant": "destructive"
+      }
+    },
+    "badge_sentiment_peak_1": {
+      "type": "Badge",
+      "props": {
+        "text": "Peak",
+        "variant": "destructive"
+      }
+    },
+    "pos_fade_hype_sources": {
+      "type": "Text",
+      "props": {
+        "text": "@Crypto_Chase partial TP 1/3 at ATH",
+        "variant": "caption"
+      }
+    },
+    "pos_fade_hype_bull": {
+      "type": "Text",
+      "props": {
+        "text": "Bull: Decentralized perps at ATH $82.43"
+      }
+    },
+    "pos_fade_hype_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: HCH still adding shorts; liquidation data integrity questioned",
+        "variant": "muted"
+      }
+    },
+    "pos_fade_zec": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_fade_zec_title",
+        "pos_fade_zec_meta",
+        "pos_fade_zec_sources",
+        "pos_fade_zec_bull",
+        "pos_fade_zec_bear"
+      ]
+    },
+    "pos_fade_zec_title": {
+      "type": "Heading",
+      "props": {
+        "text": "FADE: ZEC Privacy",
+        "level": "h3"
+      }
+    },
+    "pos_fade_zec_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_fade_2",
+        "badge_conf_3_1",
+        "badge_trend_up_4",
+        "badge_sentiment_peak_2"
+      ]
+    },
+    "badge_fade_2": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "destructive"
+      }
+    },
+    "badge_conf_3_1": {
+      "type": "Badge",
+      "props": {
+        "text": "Conf 3"
+      }
+    },
+    "badge_trend_up_4": {
+      "type": "Badge",
+      "props": {
+        "text": "↑↑",
+        "variant": "destructive"
+      }
+    },
+    "badge_sentiment_peak_2": {
+      "type": "Badge",
+      "props": {
+        "text": "Peak",
+        "variant": "destructive"
+      }
+    },
+    "pos_fade_zec_sources": {
+      "type": "Text",
+      "props": {
+        "text": "@Stoiiic single-actor catalyst",
+        "variant": "caption"
+      }
+    },
+    "pos_fade_zec_bull": {
+      "type": "Text",
+      "props": {
+        "text": "Bull: Privacy narrative +25.2%"
+      }
+    },
+    "pos_fade_zec_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: 2-day pump no structural narrative shift",
+        "variant": "muted"
+      }
+    },
+    "pos_fade_xrp": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_fade_xrp_title",
+        "pos_fade_xrp_meta",
+        "pos_fade_xrp_movement",
+        "pos_fade_xrp_bull",
+        "pos_fade_xrp_bear"
+      ]
+    },
+    "pos_fade_xrp_title": {
+      "type": "Heading",
+      "props": {
+        "text": "FADE: XRP L1 Breakout",
+        "level": "h3"
+      }
+    },
+    "pos_fade_xrp_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_fade_3",
+        "badge_conf_3_2",
+        "badge_trend_down",
+        "badge_sentiment_fading"
+      ]
+    },
+    "badge_fade_3": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "destructive"
+      }
+    },
+    "badge_conf_3_2": {
+      "type": "Badge",
+      "props": {
+        "text": "Conf 3"
+      }
+    },
+    "badge_trend_down": {
+      "type": "Badge",
+      "props": {
+        "text": "↓",
+        "variant": "destructive"
+      }
+    },
+    "badge_sentiment_fading": {
+      "type": "Badge",
+      "props": {
+        "text": "Fading"
+      }
+    },
+    "pos_fade_xrp_movement": {
+      "type": "Text",
+      "props": {
+        "text": "High: $1.69 → Current: $1.50"
+      }
+    },
+    "pos_fade_xrp_bull": {
+      "type": "Text",
+      "props": {
+        "text": "Bull: L1 breakout narrative"
+      }
+    },
+    "pos_fade_xrp_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: BTC dominance recovering capping alts",
+        "variant": "muted"
+      }
+    },
+    "pos_watch_base": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_watch_base_title",
+        "pos_watch_base_meta",
+        "pos_watch_base_sources",
+        "pos_watch_base_bull",
+        "pos_watch_base_bear"
+      ]
+    },
+    "pos_watch_base_title": {
+      "type": "Heading",
+      "props": {
+        "text": "WATCH: BASE/BASECAT Ecosystem",
+        "level": "h3"
+      }
+    },
+    "pos_watch_base_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_watch_1",
+        "badge_conf_2_1",
+        "badge_trend_up_6",
+        "badge_sentiment_emerging"
+      ]
+    },
+    "badge_watch_1": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "outline"
+      }
+    },
+    "badge_conf_2_1": {
+      "type": "Badge",
+      "props": {
+        "text": "Conf 2"
+      }
+    },
+    "badge_trend_up_6": {
+      "type": "Badge",
+      "props": {
+        "text": "↑",
+        "variant": "secondary"
+      }
+    },
+    "badge_sentiment_emerging": {
+      "type": "Badge",
+      "props": {
+        "text": "Emerging"
+      }
+    },
+    "pos_watch_base_sources": {
+      "type": "Text",
+      "props": {
+        "text": "@bull_genius; BASECAT (Cobie-backed) > KEYCAT",
+        "variant": "caption"
+      }
+    },
+    "pos_watch_base_bull": {
+      "type": "Text",
+      "props": {
+        "text": "Bull: Ecosystem momentum building"
+      }
+    },
+    "pos_watch_base_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: Needs broader CT confirmation",
+        "variant": "muted"
+      }
+    },
+    "pos_watch_jh": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_watch_jh_title",
+        "pos_watch_jh_meta",
+        "pos_watch_jh_event",
+        "pos_watch_jh_bull",
+        "pos_watch_jh_bear"
+      ]
+    },
+    "pos_watch_jh_title": {
+      "type": "Heading",
+      "props": {
+        "text": "WATCH: Jackson Hole Macro",
+        "level": "h3"
+      }
+    },
+    "pos_watch_jh_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_watch_2",
+        "badge_conf_3_7",
+        "badge_trend_up_7",
+        "badge_sentiment_rising"
+      ]
+    },
+    "badge_watch_2": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "outline"
+      }
+    },
+    "badge_conf_3_7": {
+      "type": "Badge",
+      "props": {
+        "text": "Conf 3"
+      }
+    },
+    "badge_trend_up_7": {
+      "type": "Badge",
+      "props": {
+        "text": "↑",
+        "variant": "secondary"
+      }
+    },
+    "badge_sentiment_rising": {
+      "type": "Badge",
+      "props": {
+        "text": "Rising"
+      }
+    },
+    "pos_watch_jh_event": {
+      "type": "Text",
+      "props": {
+        "text": "Aug 27 decision",
+        "variant": "caption"
+      }
+    },
+    "pos_watch_jh_bull": {
+      "type": "Text",
+      "props": {
+        "text": "Bull: Defines next cycle direction"
+      }
+    },
+    "pos_watch_jh_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: Untradeable until Aug 27 outcome",
+        "variant": "muted"
+      }
+    },
+    "pos_watch_ai": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_watch_ai_title",
+        "pos_watch_ai_meta",
+        "pos_watch_ai_status",
+        "pos_watch_ai_bull",
+        "pos_watch_ai_bear"
+      ]
+    },
+    "pos_watch_ai_title": {
+      "type": "Heading",
+      "props": {
+        "text": "WATCH: AI Agents / RWA Tokenization",
+        "level": "h3"
+      }
+    },
+    "pos_watch_ai_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_watch_3",
+        "badge_conf_3_8",
+        "badge_trend_neutral_8",
+        "badge_sentiment_rising_2"
+      ]
+    },
+    "badge_watch_3": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "outline"
+      }
+    },
+    "badge_conf_3_8": {
+      "type": "Badge",
+      "props": {
+        "text": "Conf 3"
+      }
+    },
+    "badge_trend_neutral_8": {
+      "type": "Badge",
+      "props": {
+        "text": "→",
+        "variant": "outline"
+      }
+    },
+    "badge_sentiment_rising_2": {
+      "type": "Badge",
+      "props": {
+        "text": "Rising"
+      }
+    },
+    "pos_watch_ai_status": {
+      "type": "Text",
+      "props": {
+        "text": "Persistent institutional narrative",
+        "variant": "caption"
+      }
+    },
+    "pos_watch_ai_bull": {
+      "type": "Text",
+      "props": {
+        "text": "Bull: Strong institutional interest"
+      }
+    },
+    "pos_watch_ai_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: No tracked-trader signal today",
+        "variant": "muted"
+      }
+    },
+    "sep4": {
+      "type": "Separator"
+    },
+    "heading_map": {
+      "type": "Heading",
+      "props": {
+        "text": "NARRATIVE LIFECYCLE MAP",
+        "level": "h2"
+      }
+    },
+    "map_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "map_emerging",
+        "map_rising",
+        "map_peak",
+        "map_fading"
+      ]
+    },
+    "map_emerging": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_emerg_label",
+        "map_emerg_badges"
+      ]
+    },
+    "map_emerg_label": {
+      "type": "Text",
+      "props": {
+        "text": "Emerging",
+        "variant": "lead"
+      }
+    },
+    "map_emerg_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_map_basecat"
+      ]
+    },
+    "badge_map_basecat": {
+      "type": "Badge",
+      "props": {
+        "text": "BASE/BASECAT",
+        "variant": "outline"
+      }
+    },
+    "map_rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_rising_label",
+        "map_rising_badges"
+      ]
+    },
+    "map_rising_label": {
+      "type": "Text",
+      "props": {
+        "text": "Rising",
+        "variant": "lead"
+      }
+    },
+    "map_rising_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_map_btc",
+        "badge_map_alt",
+        "badge_map_ai",
+        "badge_map_rwa",
+        "badge_map_jh"
+      ]
+    },
+    "badge_map_btc": {
+      "type": "Badge",
+      "props": {
+        "text": "BTC Range Formation"
+      }
+    },
+    "badge_map_alt": {
+      "type": "Badge",
+      "props": {
+        "text": "Alt Rotation"
+      }
+    },
+    "badge_map_ai": {
+      "type": "Badge",
+      "props": {
+        "text": "AI Agents"
+      }
+    },
+    "badge_map_rwa": {
+      "type": "Badge",
+      "props": {
+        "text": "RWA Tokenization"
+      }
+    },
+    "badge_map_jh": {
+      "type": "Badge",
+      "props": {
+        "text": "Jackson Hole Binary"
+      }
+    },
+    "map_peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_peak_label",
+        "map_peak_badges"
+      ]
+    },
+    "map_peak_label": {
+      "type": "Text",
+      "props": {
+        "text": "Peak",
+        "variant": "lead"
+      }
+    },
+    "map_peak_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_map_hype",
+        "badge_map_zec"
+      ]
+    },
+    "badge_map_hype": {
+      "type": "Badge",
+      "props": {
+        "text": "HYPE/Decentralized Perps",
+        "variant": "destructive"
+      }
+    },
+    "badge_map_zec": {
+      "type": "Badge",
+      "props": {
+        "text": "ZEC Privacy",
+        "variant": "destructive"
+      }
+    },
+    "map_fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_fading_label",
+        "map_fading_badges"
+      ]
+    },
+    "map_fading_label": {
+      "type": "Text",
+      "props": {
+        "text": "Fading",
+        "variant": "lead"
+      }
+    },
+    "map_fading_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_map_xrp"
+      ]
+    },
+    "badge_map_xrp": {
+      "type": "Badge",
+      "props": {
+        "text": "XRP L1 Breakout",
+        "variant": "outline"
+      }
+    }
+  }
+}
