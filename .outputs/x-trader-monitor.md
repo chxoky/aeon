@@ -1,10 +1,7 @@
-🐦 *Macro Update — @Wild_Randomness*
+🐦 *[X] @Wild_Randomness*
 
-Trump floating military intervention on bond market if Bessent's fiscal intervention fails…
+VVV / TetherUS Perpetual recovery structure (weekly): traded from ~$3.5 lows (May) → spike to $20 (July) → consolidation at $16.97 (+6.18%). Chart shows elevated RSI, broken resistance, consolidation setup forming.
 
-**BTC/USD (1W)**: 77,016 (−1.67%) — consolidating after macro swings
-**XAUUSD (1W)**: 4,602.99 (+1.86%) — relative strength, recovery trend intact
+[View tweet](https://x.com/Wild_Randomness/status/2091174965349642257)
 
-Trader shares macro context + chart structure on policy uncertainty reaction. Both tickers on watch list.
-
-[View post](https://x.com/Wild_Randomness/status/2091171013539299705)
+↳ _Context: HeartCanHodl SHORT 2% on VVV (entry ~$1.19 Jul 19). This recovery move now +1,327% against her position._

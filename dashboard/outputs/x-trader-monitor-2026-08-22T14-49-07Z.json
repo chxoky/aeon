@@ -1,0 +1,194 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "VVV/TetherUS Perpetual Recovery Analysis"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "tweet_card",
+        "separator_1",
+        "trading_section",
+        "separator_2",
+        "position_section"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "VVV / TetherUS Perpetual recovery structure (weekly): traded from ~$3.5 lows (May) → spike to $20 (July) → consolidation at $16.97 (+6.18%). Chart shows elevated RSI, broken resistance, consolidation setup forming."
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "trading_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "trading_heading",
+        "price_grid"
+      ]
+    },
+    "trading_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Price Movement",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "price_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat_may_low",
+        "stat_july_spike",
+        "stat_current",
+        "stat_gain"
+      ]
+    },
+    "stat_may_low": {
+      "type": "Stat",
+      "props": {
+        "label": "May Low",
+        "value": "$3.50"
+      },
+      "children": []
+    },
+    "stat_july_spike": {
+      "type": "Stat",
+      "props": {
+        "label": "July Spike",
+        "value": "$20.00"
+      },
+      "children": []
+    },
+    "stat_current": {
+      "type": "Stat",
+      "props": {
+        "label": "Current (Consolidation)",
+        "value": "$16.97"
+      },
+      "children": []
+    },
+    "stat_gain": {
+      "type": "Stat",
+      "props": {
+        "label": "Recovery Gain",
+        "value": "+6.18%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "position_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "position_heading",
+        "position_text",
+        "position_grid",
+        "tweet_link"
+      ]
+    },
+    "position_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Position Impact",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "position_text": {
+      "type": "Text",
+      "props": {
+        "text": "HeartCanHodl SHORT 2% on VVV (entry ~$1.19 Jul 19). This recovery move now +1,327% against her position.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "position_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat_position_size",
+        "stat_entry",
+        "stat_drawdown"
+      ]
+    },
+    "stat_position_size": {
+      "type": "Stat",
+      "props": {
+        "label": "Position Size",
+        "value": "SHORT 2%"
+      },
+      "children": []
+    },
+    "stat_entry": {
+      "type": "Stat",
+      "props": {
+        "label": "Entry Price",
+        "value": "$1.19",
+        "delta": "Jul 19"
+      },
+      "children": []
+    },
+    "stat_drawdown": {
+      "type": "Stat",
+      "props": {
+        "label": "Position Loss",
+        "value": "+1,327%",
+        "delta": "Against SHORT",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2091174965349642257"
+      },
+      "children": []
+    }
+  }
+}
