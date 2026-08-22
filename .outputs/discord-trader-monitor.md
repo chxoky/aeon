@@ -1,4 +1,4 @@
-Skill execution complete. I've processed the Discord trader-monitor event for Crypto_Chase's HYPE partial take profit update.
+💬 *[DC: Chase — Crypto]*
 
 ## Summary
 
@@ -24,3 +24,4 @@ Skill execution complete. I've processed the Discord trader-monitor event for Cr
 
 All files remain within size constraints (discord-trader-seen.txt: 24 lines; traders.md: <150KB; active-trades.md healthy).
 💬 *[DC: Chase — Chase]* My layering looked like that for anyone curious, something I've discussed many many times. _Chart image attached_
+My goal isn't to be short in these markets so unless the short looks super clean, I have no interest in it

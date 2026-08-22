@@ -1,0 +1,24 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "tweet_1"
+      ]
+    },
+    "tweet_1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Chase",
+        "handle": "Crypto",
+        "text": "My goal isn't to be short in these markets so unless the short looks super clean, I have no interest in it"
+      },
+      "children": []
+    }
+  }
+}
