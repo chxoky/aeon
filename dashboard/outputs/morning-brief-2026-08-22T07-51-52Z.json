@@ -1,0 +1,277 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-08-22"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section_focus",
+        "separator_1",
+        "section_since_yesterday",
+        "separator_2",
+        "section_watch",
+        "separator_3",
+        "section_running"
+      ]
+    },
+    "section_focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_focus",
+        "focus_item_1",
+        "focus_item_2",
+        "focus_item_3"
+      ]
+    },
+    "heading_focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "focus_item_1": {
+      "type": "Text",
+      "props": {
+        "text": "HCH shorts (BTC/PUMP/HYPE) ~33%+ underwater — why now: BTC $77K pressing; cover signal = squeeze catalyst",
+        "variant": "body"
+      }
+    },
+    "focus_item_2": {
+      "type": "Text",
+      "props": {
+        "text": "KillaXBT pure unhedged long live — why now: hedge SL (76.1K) blown; position tracking resets to 126K target",
+        "variant": "body"
+      }
+    },
+    "focus_item_3": {
+      "type": "Text",
+      "props": {
+        "text": "Jackson Hole T-5 (Aug 27) — why now: ETF 6-day inflow streak + $80K Aug YES 63.2%; last window to position",
+        "variant": "body"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_since_yesterday": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_since",
+        "item_stoiiic",
+        "item_bitcoin_astro",
+        "item_alt_rotation",
+        "item_trader_memory"
+      ]
+    },
+    "heading_since": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "item_stoiiic": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_stoiiic",
+        "text_stoiiic"
+      ]
+    },
+    "badge_stoiiic": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "outline"
+      }
+    },
+    "text_stoiiic": {
+      "type": "Text",
+      "props": {
+        "text": "Stoiiic added to tracking; 4 technical alerts (ETH $2,300–2,400 VWAP, ONDO HTF diagonal, ENA 2-trader convergence, altcoin liq flush)",
+        "variant": "body"
+      }
+    },
+    "item_bitcoin_astro": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_bitcoin_astro",
+        "text_bitcoin_astro"
+      ]
+    },
+    "badge_bitcoin_astro": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "outline"
+      }
+    },
+    "text_bitcoin_astro": {
+      "type": "Text",
+      "props": {
+        "text": "Bitcoin_Astro: BTC 80.6K major level + 82-83K resistance confirmed (2-analyst convergence)",
+        "variant": "body"
+      }
+    },
+    "item_alt_rotation": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_alt_rotation",
+        "text_alt_rotation"
+      ]
+    },
+    "badge_alt_rotation": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "outline"
+      }
+    },
+    "text_alt_rotation": {
+      "type": "Text",
+      "props": {
+        "text": "Alt rotation: TRUMP +68.7%, ZEC +33.4%, XRP +19.7%; HYPE ATH breached $79.76 (HCH short deepening)",
+        "variant": "body"
+      }
+    },
+    "item_trader_memory": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_trader_memory",
+        "text_trader_memory"
+      ]
+    },
+    "badge_trader_memory": {
+      "type": "Badge",
+      "props": {
+        "text": "stuck",
+        "variant": "destructive"
+      }
+    },
+    "text_trader_memory": {
+      "type": "Text",
+      "props": {
+        "text": "trader-memory-compact: dispatched Aug 16, never resolved — success_rate 0.75, needs manual trigger",
+        "variant": "body"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_watch",
+        "text_watch"
+      ]
+    },
+    "heading_watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "text_watch": {
+      "type": "Text",
+      "props": {
+        "text": "Bitcoin ETFs: 6th straight inflow day, zero August outflows, $517M on Aug 20 — institutional bid into Jackson Hole strengthening focus #3",
+        "variant": "body"
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_running",
+        "text_running_1",
+        "text_running_2",
+        "text_running_3"
+      ]
+    },
+    "heading_running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "text_running_1": {
+      "type": "Text",
+      "props": {
+        "text": "token-alert + token-movers @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "text_running_2": {
+      "type": "Text",
+      "props": {
+        "text": "market-context-refresh @ 13:00 UTC",
+        "variant": "body"
+      }
+    },
+    "text_running_3": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC",
+        "variant": "body"
+      }
+    }
+  }
+}
