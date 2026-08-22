@@ -1,0 +1,23 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "heartbeat"
+      },
+      "children": [
+        "alert"
+      ]
+    },
+    "alert": {
+      "type": "Alert",
+      "props": {
+        "title": "STUCK: trader-memory-compact",
+        "message": "Dispatched 2026-08-16T20:58:09Z, never reported back (6 days stuck). Last succeeded 2026-08-09. traders.md compaction overdue. Manual re-trigger recommended via workflow_dispatch.",
+        "type": "error"
+      }
+    }
+  }
+}
