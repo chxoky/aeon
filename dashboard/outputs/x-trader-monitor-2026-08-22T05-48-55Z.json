@@ -1,0 +1,47 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Big Swipe — BTC Exchange Liquidation Map"
+      },
+      "children": [
+        "story_link",
+        "description",
+        "price_stat",
+        "additional_context"
+      ]
+    },
+    "story_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2091037940151730493",
+        "source": "@Wild_Randomness / X"
+      }
+    },
+    "description": {
+      "type": "Text",
+      "props": {
+        "text": "90-day view showing cascading liquidation structure with red arrow highlighting potential upside liquidation zones at 28B level. Technical observation on market liquidity distribution.",
+        "variant": "body"
+      }
+    },
+    "price_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Current BTC Price",
+        "value": "$77,215"
+      }
+    },
+    "additional_context": {
+      "type": "Text",
+      "props": {
+        "text": "Aligns with Aug 21 BTC breakout conviction.",
+        "variant": "muted"
+      }
+    }
+  }
+}
