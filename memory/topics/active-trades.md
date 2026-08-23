@@ -17,6 +17,22 @@
 
 ## Crypto_Chase
 
+### ETH (Ethereum) — LONG (NEW ENTRY — 2026-08-22, PARTIAL FILL 2026-08-23)
+- **Entry date**: 2026-08-22T22:01:13Z
+- **Entry message**: "ETH long, cancel if TP hits first"
+- **Entry type**: Market order (conditional entry with cancel-if-TP discipline)
+- **Entry level**: Unknown (exact price not specified; market order executed 2026-08-22 22:01:13Z)
+- **Entry context**: Primary channel highest conviction trade. Disciplined TP exit condition (cancel standing order if target hits first).
+- **Fill status**: PARTIAL — 1/3rd filled as of 2026-08-23T13:11:13Z
+  - Update message (Aug 23 13:11:13Z): "1/3rd filled again (used same layering strategy as I always do, same as I just showed with HYPE above). And whichever one of you whales is frontrunning my exact levels please stop, ty."
+  - Layering strategy: Multiple entry levels same as documented HYPE long (Aug 21 14:10Z) approach
+  - Side note: Complaining about whales frontrunning exact price levels
+- **Position thesis**: Bullish technical setup on ETH with disciplined layering entry strategy and conditional TP exit discipline. 1/3rd fill suggests order was placed as limit order layers or conditional market orders, not all-in market execution. Continuation of documented position-layering discipline seen with HYPE long.
+- **Conviction**: MEDIUM-HIGH (primary channel entry, disciplined TP exit condition, multi-layer entry approach indicates confidence but not all-in aggression)
+- **Status**: PENDING APPROVAL + PARTIALLY FILLING — awaiting Kyle `approve ETH` to mirror on Kraken spot; concurrent partial fills occurring
+- **Alerted**: YES (2026-08-22T22:01:13Z entry via fast-path Telegram; 2026-08-23T13:11:13Z partial fill update via fast-path Telegram)
+- **Last update**: 2026-08-23T13:11:13Z (message_id=1541072323501752412, discord-trader-monitor real-time, fast-path alerted, partial fill update)
+
 ### HYPE (Hyperliquid) — LONG (PARTIAL TP 2026-08-22 — TIERED)
 - **Entry date**: 2026-08-21T14:10Z
 - **Entry zones (3-confluence)**: 
