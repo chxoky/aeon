@@ -1,0 +1,61 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — [DC: Chase — Crypto]"
+      },
+      "children": [
+        "event-text",
+        "sep1",
+        "tweet",
+        "sep2",
+        "status-alert",
+        "message-id"
+      ]
+    },
+    "event-text": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Member discussion on 4-hour price structure",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Crypto_Chase",
+        "text": "see, your low isnt on the H4"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "status-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What asset/ticker and price context is being discussed? (Is_reply: false but references 'your low'). Chart image attached to message but parent context unavailable.",
+        "type": "warning"
+      }
+    },
+    "message-id": {
+      "type": "Text",
+      "props": {
+        "text": "Message ID: 1541105198133682207",
+        "variant": "caption"
+      }
+    }
+  }
+}
