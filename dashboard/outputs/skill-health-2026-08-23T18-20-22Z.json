@@ -1,0 +1,167 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Skill Health",
+        "description": "2026-08-23"
+      },
+      "children": [
+        "text-status",
+        "sep-1",
+        "alert-warning",
+        "text-warning-skill",
+        "sep-2",
+        "heading-healthy",
+        "grid-skills",
+        "sep-3",
+        "stats-stack",
+        "text-note"
+      ]
+    },
+    "text-status": {
+      "type": "Text",
+      "props": {
+        "text": "WARNING(1) — 7 healthy",
+        "variant": "lead"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert-warning": {
+      "type": "Alert",
+      "props": {
+        "title": "WARNING",
+        "type": "warning"
+      }
+    },
+    "text-warning-skill": {
+      "type": "Text",
+      "props": {
+        "text": "trader-memory-compact — 75% success, 14d since last success (2026-08-09), 1 consecutive failure — INVESTIGATE"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-healthy": {
+      "type": "Heading",
+      "props": {
+        "text": "HEALTHY: 7",
+        "level": "h3"
+      }
+    },
+    "grid-skills": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "badge-morning-brief",
+        "badge-token-alert",
+        "badge-token-movers",
+        "badge-market-context",
+        "badge-narrative-tracker",
+        "badge-skill-health",
+        "badge-heartbeat"
+      ]
+    },
+    "badge-morning-brief": {
+      "type": "Badge",
+      "props": {
+        "text": "morning-brief",
+        "variant": "default"
+      }
+    },
+    "badge-token-alert": {
+      "type": "Badge",
+      "props": {
+        "text": "token-alert",
+        "variant": "default"
+      }
+    },
+    "badge-token-movers": {
+      "type": "Badge",
+      "props": {
+        "text": "token-movers",
+        "variant": "default"
+      }
+    },
+    "badge-market-context": {
+      "type": "Badge",
+      "props": {
+        "text": "market-context-refresh",
+        "variant": "default"
+      }
+    },
+    "badge-narrative-tracker": {
+      "type": "Badge",
+      "props": {
+        "text": "narrative-tracker",
+        "variant": "default"
+      }
+    },
+    "badge-skill-health": {
+      "type": "Badge",
+      "props": {
+        "text": "skill-health",
+        "variant": "default"
+      }
+    },
+    "badge-heartbeat": {
+      "type": "Badge",
+      "props": {
+        "text": "heartbeat",
+        "variant": "default"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stats-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat-open-issues",
+        "stat-resolved-issues"
+      ]
+    },
+    "stat-open-issues": {
+      "type": "Stat",
+      "props": {
+        "label": "Open issues",
+        "value": "0"
+      }
+    },
+    "stat-resolved-issues": {
+      "type": "Stat",
+      "props": {
+        "label": "Resolved this run",
+        "value": "0"
+      }
+    },
+    "text-note": {
+      "type": "Text",
+      "props": {
+        "text": "Note: skill-runs unavailable (SKILL_HEALTH_PARTIAL)",
+        "variant": "muted"
+      }
+    }
+  }
+}
