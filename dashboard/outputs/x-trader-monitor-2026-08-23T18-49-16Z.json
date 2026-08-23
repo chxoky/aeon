@@ -1,0 +1,88 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet",
+        "tweet_link",
+        "separator1",
+        "metadata_stack"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Just go buy bitcoin.\n\nDon't buy the derivatives."
+      },
+      "children": []
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/Wild_Randomness/status/2091596462996218308"
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "metadata_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badges_row",
+        "alert_note"
+      ]
+    },
+    "badges_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "classification_badge",
+        "ticker_badge"
+      ]
+    },
+    "classification_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "informational-bullish-opinion",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "ticker_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "BTC",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "alert_note": {
+      "type": "Text",
+      "props": {
+        "text": "No personal execution signal. Step 6 informational alert.",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
