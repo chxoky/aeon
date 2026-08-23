@@ -1,0 +1,23 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_1"
+      ]
+    },
+    "tweet_1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "Stoiiic",
+        "text": "OI extension from consolidation — ENA/PEPE/ZEC/AAVE/HYPE top of pack. ENA +91% (OI +19), PEPE +48% (OI +28), leading alt-dom momentum. Crowding thesis: good until work stops producing results on dips. https://x.com/Stoiiic/status/2091628286824579118"
+      }
+    }
+  }
+}
