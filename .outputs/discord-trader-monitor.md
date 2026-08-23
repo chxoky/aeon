@@ -1,6 +1,14 @@
-🔍 *Calibration — [DC: Chase — Crypto]*
+Skill execution complete.
 
-Event: Member question in supporting channel (message context unavailable)
-crypto_chase: "should have at least had first order at the liquidity low i did marked. unless you're new here then they maybe you didnt know i layer areas"
+**Event:** Crypto_Chase replied to member question "if price goes back to entry point, do you rebuy what you've partial tp'ed?" with "no, tp hit, so trade is done."
 
-Unable to classify — is this regret about missing an order, educational explanation of layering, or critique of member strategy? Grammar awkward ("i did marked"), context missing. Your read?
+**Classification:** Supporting channel member Q&A (Step 7 informational). No trade signal, no alert needed. Logged silently to memory.
+
+**Summary:**
+- Decoded event: ✓
+- Fast-path check: false (proceed with full classification)
+- Channel: 1247927786681794601 (Chase — Crypto, supporting)
+- Trader match: crypto_chase ✓
+- Classification: Informational-member-qa
+- Action: Silent log only
+- Message ID tracked: 1541089070451531797
