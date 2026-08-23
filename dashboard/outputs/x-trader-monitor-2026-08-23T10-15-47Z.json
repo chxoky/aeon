@@ -1,0 +1,58 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration — @Bitcoin_Astro"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event-label",
+        "tweet-card",
+        "classification-question",
+        "link-view"
+      ]
+    },
+    "event-label": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @sairakh5",
+        "variant": "muted"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Bitcoin_Astro",
+        "handle": "@Bitcoin_Astro",
+        "text": "The way this move happened, the other one will be the same quick and unexpected"
+      }
+    },
+    "classification-question": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read? Is this a BTC price-pattern prediction, framework commentary on time-cycle inflection, or personal market observation?",
+        "variant": "body"
+      }
+    },
+    "link-view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Bitcoin_Astro/status/2091468655137575267"
+      }
+    }
+  }
+}
