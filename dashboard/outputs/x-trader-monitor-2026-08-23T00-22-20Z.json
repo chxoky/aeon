@@ -1,0 +1,115 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "NVDA Market Commentary"
+      },
+      "children": [
+        "tweet",
+        "sep1",
+        "images",
+        "sep2",
+        "context",
+        "sep3",
+        "link"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "A week before earnings?\n\nDamage control for first earnings miss in five years?"
+      }
+    },
+    "sep1": {
+      "type": "Separator"
+    },
+    "images": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "img_heading",
+        "img1",
+        "img2"
+      ]
+    },
+    "img_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Images attached",
+        "level": "h4"
+      }
+    },
+    "img1": {
+      "type": "Text",
+      "props": {
+        "text": "(1) Cartoon bear with megaphone at stadium (damage control meme)"
+      }
+    },
+    "img2": {
+      "type": "Text",
+      "props": {
+        "text": "(2) Bloomberg report: Nvidia customers notified of AI-related price hikes above 15%"
+      }
+    },
+    "sep2": {
+      "type": "Separator"
+    },
+    "context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ctx_heading",
+        "ctx1",
+        "ctx2",
+        "ctx3"
+      ]
+    },
+    "ctx_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h4"
+      }
+    },
+    "ctx1": {
+      "type": "Text",
+      "props": {
+        "text": "Wild_Randomness raises critical question on timing of announced NVDA customer price hikes (15%+ on AI chips) occurring ~1 week ahead of earnings call."
+      }
+    },
+    "ctx2": {
+      "type": "Text",
+      "props": {
+        "text": "Thesis subtext: price increase announcements may serve as preemptive guidance management tool ahead of potential earnings miss (first in 5 years). Market psychology angle: softening customer sentiment/expectations before negative guidance."
+      }
+    },
+    "ctx3": {
+      "type": "Text",
+      "props": {
+        "text": "No personal execution signal (not taking trade action)."
+      }
+    },
+    "sep3": {
+      "type": "Separator"
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2091319280197329073"
+      }
+    }
+  }
+}
