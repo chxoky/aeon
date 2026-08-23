@@ -1,0 +1,319 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-08-23"
+      },
+      "children": [
+        "focus_section",
+        "sep1",
+        "yesterday_section",
+        "sep2",
+        "watch_section",
+        "sep3",
+        "running_section"
+      ]
+    },
+    "focus_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus_h",
+        "focus_1",
+        "focus_2",
+        "focus_3"
+      ]
+    },
+    "focus_h": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "focus_1": {
+      "type": "Text",
+      "props": {
+        "text": "1. WR's ETH 10-day binary resolves today — 10 days since Aug 13 setup; confirm or kill",
+        "variant": "body"
+      }
+    },
+    "focus_2": {
+      "type": "Text",
+      "props": {
+        "text": "2. BTC $76,059 (−1.9%); KillaXBT SL 76.1K at spot — directional signal imminent",
+        "variant": "body"
+      }
+    },
+    "focus_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_3_text",
+        "focus_3_link"
+      ]
+    },
+    "focus_3_text": {
+      "type": "Text",
+      "props": {
+        "text": "3. swarmister HR-2 \"next week\" still open — needs your read on the",
+        "variant": "body"
+      }
+    },
+    "focus_3_link": {
+      "type": "Link",
+      "props": {
+        "label": "@satsjava thread",
+        "href": "https://twitter.com/satsjava"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "yesterday_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "yesterday_h",
+        "yesterday_1",
+        "yesterday_2",
+        "yesterday_3",
+        "yesterday_4"
+      ]
+    },
+    "yesterday_h": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "yesterday_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday_1_badge",
+        "yesterday_1_text"
+      ]
+    },
+    "yesterday_1_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "yesterday_1_text": {
+      "type": "Text",
+      "props": {
+        "text": "BTC $77,347 → $76,059; F&G 71→66; breadth flipped to 1/17; risk-off snap",
+        "variant": "body"
+      }
+    },
+    "yesterday_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday_2_badge",
+        "yesterday_2_content"
+      ]
+    },
+    "yesterday_2_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "yesterday_2_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday_2_link",
+        "yesterday_2_text"
+      ]
+    },
+    "yesterday_2_link": {
+      "type": "Link",
+      "props": {
+        "label": "@abetrade",
+        "href": "https://twitter.com/abetrade"
+      }
+    },
+    "yesterday_2_text": {
+      "type": "Text",
+      "props": {
+        "text": "added to tracker — market-skeptic archetype (questions \"bought the bottom\" crowd)",
+        "variant": "body"
+      }
+    },
+    "yesterday_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday_3_badge",
+        "yesterday_3_text"
+      ]
+    },
+    "yesterday_3_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "yesterday_3_text": {
+      "type": "Text",
+      "props": {
+        "text": "Wild_Randomness not levered; flagged NVDA price-hike timing as pre-earnings damage control",
+        "variant": "body"
+      }
+    },
+    "yesterday_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday_4_badge",
+        "yesterday_4_text"
+      ]
+    },
+    "yesterday_4_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "stuck",
+        "variant": "outline"
+      }
+    },
+    "yesterday_4_text": {
+      "type": "Text",
+      "props": {
+        "text": "swarmister cryptic \"planning to do that next week\" (06:41Z) — awaiting your read",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "watch_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "watch_h",
+        "watch_1",
+        "watch_2"
+      ]
+    },
+    "watch_h": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "watch_1": {
+      "type": "Text",
+      "props": {
+        "text": "CLARITY Act still rising — cited catalyst for +22% BTC weekly run; stall = first pullback trigger",
+        "variant": "body"
+      }
+    },
+    "watch_2": {
+      "type": "Text",
+      "props": {
+        "text": "NVDA earnings risk: WR's timing thesis implies possible first miss in 5y; broader sentiment read",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "running_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "running_h",
+        "running_1",
+        "running_2",
+        "running_3",
+        "running_4"
+      ]
+    },
+    "running_h": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "running_1": {
+      "type": "Text",
+      "props": {
+        "text": "token-alert @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running_2": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running_3": {
+      "type": "Text",
+      "props": {
+        "text": "market-context-refresh @ 13:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running_4": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC",
+        "variant": "body"
+      }
+    }
+  }
+}
