@@ -1,0 +1,263 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Market Context — 2026-08-23"
+      },
+      "children": [
+        "take-section",
+        "sep1",
+        "prices-section",
+        "sep2",
+        "breadth-section",
+        "sep3",
+        "narrative-section",
+        "sep4",
+        "tokens-section",
+        "sep5",
+        "calendar-section"
+      ]
+    },
+    "take-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "take-label",
+        "take-badge"
+      ]
+    },
+    "take-label": {
+      "type": "Text",
+      "props": {
+        "text": "Take:",
+        "variant": "lead"
+      }
+    },
+    "take-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "chop (conviction medium)"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "prices-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "prices-grid",
+        "fear-greed"
+      ]
+    },
+    "prices-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "btc-stat",
+        "eth-stat"
+      ]
+    },
+    "btc-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$77,199",
+        "delta": "+0.0%",
+        "trend": "neutral"
+      }
+    },
+    "eth-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$2,428",
+        "delta": "+0.0%",
+        "trend": "neutral"
+      }
+    },
+    "fear-greed": {
+      "type": "Badge",
+      "props": {
+        "text": "Fear & Greed 66 — Greed",
+        "variant": "secondary"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "breadth-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "breadth-label",
+        "breadth-stat",
+        "tvl-note"
+      ]
+    },
+    "breadth-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Breadth",
+        "level": "h4"
+      }
+    },
+    "breadth-stat": {
+      "type": "Text",
+      "props": {
+        "text": "8/17 today (was 1/17 yesterday)"
+      }
+    },
+    "tvl-note": {
+      "type": "Text",
+      "props": {
+        "text": "TVL rising 7d — Lido +30.6%",
+        "variant": "muted"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "narrative-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "narrative-heading",
+        "narrative-badge",
+        "narrative-items"
+      ]
+    },
+    "narrative-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Narrative",
+        "level": "h4"
+      }
+    },
+    "narrative-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DeFi structural bid (rising)",
+        "variant": "secondary"
+      }
+    },
+    "narrative-items": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "ena-stat",
+        "aave-stat"
+      ]
+    },
+    "ena-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "ENA",
+        "value": "+9.5%",
+        "trend": "up"
+      }
+    },
+    "aave-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Aave TVL 7d",
+        "value": "+20.3%",
+        "trend": "up"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tokens-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "hype-stat",
+        "squeeze-note"
+      ]
+    },
+    "hype-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "HYPE",
+        "value": "$80.90",
+        "delta": "+3.4%",
+        "trend": "up"
+      }
+    },
+    "squeeze-note": {
+      "type": "Text",
+      "props": {
+        "text": "ATH $82.43 — squeeze live",
+        "variant": "caption"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "calendar-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "jackson-hole",
+        "polymarket-note"
+      ]
+    },
+    "jackson-hole": {
+      "type": "Badge",
+      "props": {
+        "text": "Jackson Hole T-3",
+        "variant": "outline"
+      }
+    },
+    "polymarket-note": {
+      "type": "Alert",
+      "props": {
+        "message": "No crypto Polymarket markets today",
+        "type": "info"
+      }
+    }
+  }
+}
