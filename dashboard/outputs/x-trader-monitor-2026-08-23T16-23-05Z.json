@@ -1,0 +1,61 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Historical BTC cycle prediction validation + next-year ATH acceleration conviction"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "link-view",
+        "separator-1",
+        "reinforcement-note"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "They called me a fool for betting against something that had never happened before. They said I was early. They said Q4 was the time to buy. In the end, the ATH pre-halving changed everything just like I said it would.\n\nI was right for spotting the subtle shifts ahead of the 99%.\n\nAnd that's my friend is why $BTC will create a new ATH next year quicker than every previous cycle.\n\nChart: Historical BTC cycles with marked structural breaks validating cyclical pattern recognition framework."
+      },
+      "children": []
+    },
+    "link-view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2091560444624589212"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "reinforcement-note": {
+      "type": "Text",
+      "props": {
+        "text": "Reinforces Aug 21 bottom-in call + 126K medium-term target thesis. Cycle-acceleration conviction aligns with documented structural bull bias.",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
