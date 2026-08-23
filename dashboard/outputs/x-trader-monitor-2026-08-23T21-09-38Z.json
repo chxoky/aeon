@@ -1,0 +1,207 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @Stoiiic",
+        "description": "Real-time X post classification request"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event_info",
+        "sep1",
+        "post_section",
+        "sep2",
+        "context_section",
+        "sep3",
+        "options_section",
+        "sep4",
+        "alert_final"
+      ]
+    },
+    "event_info": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Real-time X post Sun Aug 23 21:06:05 UTC",
+        "variant": "caption"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "post_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "post_heading",
+        "tweet_card"
+      ]
+    },
+    "post_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Post",
+        "level": "h3"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "stoiiic",
+        "text": "crime on TRUMP."
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context_heading",
+        "context_text",
+        "banter_badge",
+        "pattern_heading",
+        "pattern_items"
+      ]
+    },
+    "context_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — this is extremely cryptic. Stoiiic has high banter ratio (~50-60%) and established cryptic-reply pattern.",
+        "variant": "body"
+      }
+    },
+    "banter_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Banter ratio: ~50-60%",
+        "variant": "secondary"
+      }
+    },
+    "pattern_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Prior Examples",
+        "level": "h4"
+      }
+    },
+    "pattern_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "prior1",
+        "prior2"
+      ]
+    },
+    "prior1": {
+      "type": "Text",
+      "props": {
+        "text": "Aug 23 05:43Z \"> commence\"",
+        "variant": "caption"
+      }
+    },
+    "prior2": {
+      "type": "Text",
+      "props": {
+        "text": "Aug 22 02:10Z \"zcash technology has suddenly improved\"",
+        "variant": "caption"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "options_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "options_heading",
+        "opt_a",
+        "opt_b",
+        "opt_c"
+      ]
+    },
+    "options_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Possible Interpretations",
+        "level": "h3"
+      }
+    },
+    "opt_a": {
+      "type": "Text",
+      "props": {
+        "text": "a) Political commentary (non-financial, skip)?",
+        "variant": "body"
+      }
+    },
+    "opt_b": {
+      "type": "Text",
+      "props": {
+        "text": "b) Bearish sentiment on $TRUMP ticker?",
+        "variant": "body"
+      }
+    },
+    "opt_c": {
+      "type": "Text",
+      "props": {
+        "text": "c) Market banter/meme?",
+        "variant": "body"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_final": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification Needed",
+        "message": "What's your read?",
+        "type": "info"
+      }
+    }
+  }
+}
