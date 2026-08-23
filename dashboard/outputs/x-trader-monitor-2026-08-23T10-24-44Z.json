@@ -1,0 +1,60 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-bitcoin-astro",
+        "link-view-tweet",
+        "separator-1",
+        "analysis-text"
+      ]
+    },
+    "tweet-bitcoin-astro": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Bitcoin_Astro",
+        "handle": "@Bitcoin_Astro",
+        "text": "There are certain conditions that need to be met. Lose 72-74 k and we see lower prices"
+      },
+      "children": []
+    },
+    "link-view-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Bitcoin_Astro/status/2091469657098129614"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Technical level identified on BTC consolidation floor: 72-74K marks the breakdown point for lower-price scenario. Aligns with group consolidation thesis (70-82K range per KillaXBT/HCH structural analysis).",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
