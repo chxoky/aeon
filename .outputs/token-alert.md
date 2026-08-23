@@ -1,15 +1,13 @@
-Done. Here's the summary:
+TOKEN_ALERT_OK. No thresholds breached — no notification sent.
 
 ## Summary
 
-**token-alert — 2026-08-22**
+Checked all 3 tracked tokens against MEMORY.md thresholds using CoinGecko (WebFetch fallback):
 
-Fetched live prices from CoinGecko for all 3 tracked tokens. No thresholds breached:
+| Token | Price | 24h Change | Threshold | Status |
+|-------|-------|-----------|-----------|--------|
+| BTC | $77,074 | −0.28% | 5% | CLEAR |
+| ETH | $2,422.71 | −0.43% | 8% | CLEAR |
+| SOL | $94.42 | +0.41% | 10% | CLEAR |
 
-| Token | Price | 24h Change | Threshold |
-|-------|-------|-----------|-----------|
-| BTC | $77,242 | +0.52% | 5% |
-| ETH | $2,432.23 | +2.37% | 8% |
-| SOL | $93.95 | +3.96% | 10% |
-
-**TOKEN_ALERT_OK** — No notifications sent. Prices logged to `memory/logs/2026-08-22.md` for future baseline comparison.
+No price moves or volume spikes exceeded alert thresholds. Prices logged to `memory/logs/2026-08-23.md` for next comparison run. No notification sent.
