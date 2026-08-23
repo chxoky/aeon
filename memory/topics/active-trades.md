@@ -17,7 +17,7 @@
 
 ## Crypto_Chase
 
-### ETH (Ethereum) — LONG (NEW ENTRY — 2026-08-22, PARTIAL FILL 2026-08-23)
+### ETH (Ethereum) — LONG (NEW ENTRY — 2026-08-22, PARTIAL FILL 2026-08-23, PARTIAL TP 2026-08-23)
 - **Entry date**: 2026-08-22T22:01:13Z
 - **Entry message**: "ETH long, cancel if TP hits first"
 - **Entry type**: Market order (conditional entry with cancel-if-TP discipline)
@@ -27,11 +27,13 @@
   - Update message (Aug 23 13:11:13Z): "1/3rd filled again (used same layering strategy as I always do, same as I just showed with HYPE above). And whichever one of you whales is frontrunning my exact levels please stop, ty."
   - Layering strategy: Multiple entry levels same as documented HYPE long (Aug 21 14:10Z) approach
   - Side note: Complaining about whales frontrunning exact price levels
-- **Position thesis**: Bullish technical setup on ETH with disciplined layering entry strategy and conditional TP exit discipline. 1/3rd fill suggests order was placed as limit order layers or conditional market orders, not all-in market execution. Continuation of documented position-layering discipline seen with HYPE long.
+- **TP Tier 1**: 2026-08-23T13:55:22Z — 1/3 closed at market (TP hit; message_id=1541083432233476216)
+- **Total TP so far**: 1/3 of position
+- **Position thesis**: Bullish technical setup on ETH with disciplined layering entry strategy and conditional TP exit discipline. 1/3rd fill suggests order was placed as limit order layers or conditional market orders, not all-in market execution. Partial TP validates entry conviction. Continuation of documented position-layering discipline seen with HYPE long.
 - **Conviction**: MEDIUM-HIGH (primary channel entry, disciplined TP exit condition, multi-layer entry approach indicates confidence but not all-in aggression)
-- **Status**: PENDING APPROVAL + PARTIALLY FILLING — awaiting Kyle `approve ETH` to mirror on Kraken spot; concurrent partial fills occurring
-- **Alerted**: YES (2026-08-22T22:01:13Z entry via fast-path Telegram; 2026-08-23T13:11:13Z partial fill update via fast-path Telegram)
-- **Last update**: 2026-08-23T13:11:13Z (message_id=1541072323501752412, discord-trader-monitor real-time, fast-path alerted, partial fill update)
+- **Status**: ACTIVE — 1/3 TP'd, 2/3 remainder maintained (riding strength pending Kyle approval to mirror on Kraken)
+- **Alerted**: YES (2026-08-22T22:01:13Z entry via fast-path Telegram; 2026-08-23T13:11:13Z partial fill update via fast-path Telegram; 2026-08-23T13:55:22Z partial TP via fast-path Telegram)
+- **Last update**: 2026-08-23T13:55:22Z (message_id=1541083432233476216, discord-trader-monitor real-time, fast-path alerted, partial TP execution)
 
 ### HYPE (Hyperliquid) — LONG (PARTIAL TP 2026-08-22 — TIERED)
 - **Entry date**: 2026-08-21T14:10Z
