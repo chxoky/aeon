@@ -168,6 +168,7 @@
   - Aug 23 13:46Z — informational (X): "extremely lucky over next 6 months with $BTC ~$100K"; V-shape recovery charts [$BTC-6MO-TARGET] [2091522573158719943]
   - Aug 23 16:17Z — informational (X): historical cycle prediction validation; "BTC new ATH next year, faster than every prior cycle" [$BTC-CYCLE-ACCEL] [2091560444624589212]
   - Aug 23 18:59Z — informational (X): bull market psychology; "don't take profits because market 'should' cool; stay positioned" [$BTC-BULL-PSYCHOLOGY] [2091601296830714037]
+  - Aug 23 21:35Z — informational: BTC re-accumulation cycle; "mark up after manipulation/accumulation → re-accumulation next" [$BTC-CYCLE] [2091640524922847675]
 
 ## trading_axe
 
