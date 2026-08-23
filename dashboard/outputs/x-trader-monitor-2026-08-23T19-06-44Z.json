@@ -1,0 +1,96 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-section",
+        "sep-1",
+        "details-section"
+      ]
+    },
+    "tweet-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-1"
+      ]
+    },
+    "tweet-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "text": "Don't take profits early. Market keeps grinding. Bull conviction maintained through HTF long thesis and 20-BTC DCA strategy."
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "details-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "detail-heading",
+        "detail-text",
+        "badges-section"
+      ]
+    },
+    "detail-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Market Psychology Analysis",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "detail-text": {
+      "type": "Text",
+      "props": {
+        "text": "Market demonstrates sustained bullish momentum with strong conviction. Focus on long-term positioning rather than early profit-taking."
+      },
+      "children": []
+    },
+    "badges-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-thesis",
+        "badge-strategy"
+      ]
+    },
+    "badge-thesis": {
+      "type": "Badge",
+      "props": {
+        "text": "HTF Long Thesis",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge-strategy": {
+      "type": "Badge",
+      "props": {
+        "text": "20-BTC DCA",
+        "variant": "default"
+      },
+      "children": []
+    }
+  }
+}
