@@ -242,7 +242,7 @@
 - Recent thesis: BTC/altcoin OI dominance structure; unprecedented short-liquidation cascade flushed BTC OI faster than expected → alt-dom rotation (RWA accumulation 6-8 months drove alt-dom via OI trends). ETH: hold $2300-2400 to close gap to 365D rolling VWAP. ENA weekly capitulation recovery setup. ONDO diagonal pattern (HTF support + prev day high acceptance = upside, BTC-conditional). BTC Sunday vol interest: dip into 74-75K; 365d VWAP ~82.4K as acceptance line.
 - Conviction notes: Chart-driven technical analyst/educator. High banter ratio (~50-60%). No personal execution language detected. Key analytical insight: RWA supply surge + concentrated BTC short flush (not organic BTC strength) explains alt-dom rising. ENA TWAP observation (someone's systematic buy-side all day Aug 21).
 - Calibration: PENDING Aug 23 21:06Z ("crime on TRUMP." cryptic, banter/financial unclear), PENDING Aug 23 05:43Z ("> commence" 2-word cryptic), PENDING Aug 22 02:10Z ("zcash technology has suddenly improved tremendously")
-- Last seen: 2026-08-23T21:06:05Z
+- Last seen: 2026-08-23T21:16:37Z
 - **Events (rolling):**
   - Aug 23 21:06Z — ambiguous: "crime on TRUMP." — cryptic, unclear financial intent [$TRUMP?] [2091633096722419972]
   - Aug 21 01:53Z — informational: "two straight days of this / tail wind + compressed vol makes sense" [$MACRO] [20906181913786041221]
@@ -267,6 +267,7 @@
   - Aug 23 05:43Z — ambiguous: "> commence" — 2-word cryptic, out of pattern [$UNKNOWN] [2091400899671228554]
   - Aug 23 20:47Z — informational: XRP & DOGE watchlist upgrade; OI added vs extension chart analysis shows both as "clean movers" with favorable bid positioning [$XRP/$DOGE] [2091628293346807904]
   - Aug 23 20:46Z — informational: OI extension from consolidation + mean percentile ranking; ENA/PEPE/ZEC/AAVE/HYPE top of pack; "crowding" thesis on dips [$ENA/$PEPE/$ZEC/$AAVE/$HYPE] [2091628286824579118]
+  - Aug 23 21:16Z — informational: market structure framework: 40+ tokens "which moves worth buying" + "where the bid is" retracement analysis; HYPE featured; educational OI/consolidation setup identification [$MULTI-CRYPTO-OI-FRAMEWORK] [2091635746947891685]
 
 ## abetrade
 

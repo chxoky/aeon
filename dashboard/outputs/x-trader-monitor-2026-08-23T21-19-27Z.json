@@ -1,0 +1,235 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Market Structure Framework: OI + Retracement Analysis",
+        "description": "Technical analysis by @Stoiiic"
+      },
+      "children": [
+        "content-stack"
+      ]
+    },
+    "content-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-header",
+        "analysis-intro",
+        "charts-section",
+        "separator-1",
+        "kyle-alert",
+        "separator-2",
+        "assets-section",
+        "disclaimer",
+        "link-section"
+      ]
+    },
+    "tweet-header": {
+      "type": "Text",
+      "props": {
+        "text": "🐦 @Stoiiic on X",
+        "variant": "muted"
+      }
+    },
+    "analysis-intro": {
+      "type": "Text",
+      "props": {
+        "text": "Stoiiic posted an educational technical analysis showing which crypto moves are worth buying (40+ assets analyzed) with two key charts:"
+      }
+    },
+    "charts-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "chart-item-1",
+        "chart-item-2"
+      ]
+    },
+    "chart-item-1": {
+      "type": "Text",
+      "props": {
+        "text": "Left: Open interest vs consolidation base % (which moves have clean setups)"
+      }
+    },
+    "chart-item-2": {
+      "type": "Text",
+      "props": {
+        "text": "Right: Retracement band positioning across assets (where the bid is)"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "kyle-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Kyle Watch List Alert",
+        "message": "$HYPE featured prominently in retracement analysis with clear technical levels. Chart shows HYPE at key Fibonacci bands indicating structure validation for your positions.",
+        "type": "info"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "assets-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "assets-label",
+        "badges-container"
+      ]
+    },
+    "assets-label": {
+      "type": "Text",
+      "props": {
+        "text": "Other highlighted assets:",
+        "variant": "lead"
+      }
+    },
+    "badges-container": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-pump",
+        "badge-zec",
+        "badge-aave",
+        "badge-ena",
+        "badge-trump",
+        "badge-pepe",
+        "badge-lit",
+        "badge-xrp",
+        "badge-doge",
+        "badge-btc",
+        "badge-eth",
+        "badge-link",
+        "badge-alts"
+      ]
+    },
+    "badge-pump": {
+      "type": "Badge",
+      "props": {
+        "text": "PUMP",
+        "variant": "outline"
+      }
+    },
+    "badge-zec": {
+      "type": "Badge",
+      "props": {
+        "text": "ZEC",
+        "variant": "outline"
+      }
+    },
+    "badge-aave": {
+      "type": "Badge",
+      "props": {
+        "text": "AAVE",
+        "variant": "outline"
+      }
+    },
+    "badge-ena": {
+      "type": "Badge",
+      "props": {
+        "text": "ENA",
+        "variant": "outline"
+      }
+    },
+    "badge-trump": {
+      "type": "Badge",
+      "props": {
+        "text": "TRUMP",
+        "variant": "outline"
+      }
+    },
+    "badge-pepe": {
+      "type": "Badge",
+      "props": {
+        "text": "PEPE",
+        "variant": "outline"
+      }
+    },
+    "badge-lit": {
+      "type": "Badge",
+      "props": {
+        "text": "LIT",
+        "variant": "outline"
+      }
+    },
+    "badge-xrp": {
+      "type": "Badge",
+      "props": {
+        "text": "XRP",
+        "variant": "outline"
+      }
+    },
+    "badge-doge": {
+      "type": "Badge",
+      "props": {
+        "text": "DOGE",
+        "variant": "outline"
+      }
+    },
+    "badge-btc": {
+      "type": "Badge",
+      "props": {
+        "text": "BTC",
+        "variant": "outline"
+      }
+    },
+    "badge-eth": {
+      "type": "Badge",
+      "props": {
+        "text": "ETH",
+        "variant": "outline"
+      }
+    },
+    "badge-link": {
+      "type": "Badge",
+      "props": {
+        "text": "LINK",
+        "variant": "outline"
+      }
+    },
+    "badge-alts": {
+      "type": "Badge",
+      "props": {
+        "text": "27+ alts",
+        "variant": "secondary"
+      }
+    },
+    "disclaimer": {
+      "type": "Text",
+      "props": {
+        "text": "No personal trade action (informational educational analysis). Technical framework for identifying clean setups.",
+        "variant": "caption"
+      }
+    },
+    "link-section": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Stoiiic/status/2091635746947891685"
+      }
+    }
+  }
+}
