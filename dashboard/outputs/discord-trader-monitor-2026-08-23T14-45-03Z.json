@@ -1,0 +1,196 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Trader conviction update from Discord"
+      },
+      "children": [
+        "channel_info",
+        "separator1",
+        "conversation",
+        "separator2",
+        "metadata"
+      ]
+    },
+    "channel_info": {
+      "type": "Heading",
+      "props": {
+        "text": "💬 DC: Chase — Crypto",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "conversation": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "member_q",
+        "chase_reply"
+      ]
+    },
+    "member_q": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "member_label",
+        "member_text"
+      ]
+    },
+    "member_label": {
+      "type": "Text",
+      "props": {
+        "text": "Member:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "member_text": {
+      "type": "Text",
+      "props": {
+        "text": "Are you of the opinion that bottom is in and there is no more HTF lows that needs to be swept?"
+      },
+      "children": []
+    },
+    "chase_reply": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "chase_label",
+        "chase_text"
+      ]
+    },
+    "chase_label": {
+      "type": "Text",
+      "props": {
+        "text": "Crypto_Chase:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "chase_text": {
+      "type": "Text",
+      "props": {
+        "text": "I literally don't care about that at all , it's not how I trade"
+      },
+      "children": []
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "metadata": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "classification_section",
+        "ticker_section",
+        "msgid_section"
+      ]
+    },
+    "classification_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "classification_label",
+        "classification_text"
+      ]
+    },
+    "classification_label": {
+      "type": "Text",
+      "props": {
+        "text": "Classification:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "classification_text": {
+      "type": "Text",
+      "props": {
+        "text": "Conviction dismissal on HTF sweep thesis; supporting channel conviction update on positioning discipline."
+      },
+      "children": []
+    },
+    "ticker_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "ticker_label",
+        "ticker_badge"
+      ]
+    },
+    "ticker_label": {
+      "type": "Text",
+      "props": {
+        "text": "Ticker:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "ticker_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "HTF/STRUCTURE"
+      },
+      "children": []
+    },
+    "msgid_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "msgid_label",
+        "msgid_text"
+      ]
+    },
+    "msgid_label": {
+      "type": "Text",
+      "props": {
+        "text": "Message ID:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "msgid_text": {
+      "type": "Text",
+      "props": {
+        "text": "1541094643310137364",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
