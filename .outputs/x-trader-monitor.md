@@ -1,11 +1,9 @@
-🔍 *Calibration — @swarmister*
+🐦 *[X] @swarmister — TRX Short Setup*
 
-Event: Reply to @xbt2027
+$TRX 4H Short Setup. The price action shows clear signs of a reversal and a potential continuation of the asset's decline.
 
-@swarmister: "@xbt2027 Me"
+A manipulative move involving the removal of the buy liquidity pool, followed by a test of the indicated POI, will create excellent conditions for considering a short position.
 
-Unable to classify — what's your read? Context-dependent reply; parent @xbt2027 message not visible in event payload. No ticker/execution language identified.
+Entry point and partial take-profit zones marked on chart (0.3405 entry, TPs at 0.3402/0.3372/0.3359/0.3325).
 
-[View post](https://x.com/swarmister/status/2091542311461118038)
-
-*Pattern note:* 5th cryptic reply from swarmister today (Aug 23). Baseline established (Aug 21-22 pending).
+[View post](https://x.com/swarmister/status/2091544834544730168)

@@ -1,0 +1,139 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "TRX 4H Short Setup",
+        "description": "Trading setup by @swarmister"
+      },
+      "children": [
+        "badges-stack",
+        "tweet-card",
+        "separator-1",
+        "details-section",
+        "separator-2",
+        "link-post"
+      ]
+    },
+    "badges-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-trx",
+        "badge-timeframe",
+        "badge-direction"
+      ]
+    },
+    "badge-trx": {
+      "type": "Badge",
+      "props": {
+        "text": "TRX",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "badge-timeframe": {
+      "type": "Badge",
+      "props": {
+        "text": "4H",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge-direction": {
+      "type": "Badge",
+      "props": {
+        "text": "Short",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "$TRX 4H Short Setup. The price action shows clear signs of a reversal and a potential continuation of the asset's decline.\n\nA manipulative move involving the removal of the buy liquidity pool, followed by a test of the indicated POI, will create excellent conditions for considering a short position.\n\nEntry point and partial take-profit zones marked on chart (0.3405 entry, TPs at 0.3402/0.3372/0.3359/0.3325)."
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "details-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-details",
+        "table-levels"
+      ]
+    },
+    "heading-details": {
+      "type": "Heading",
+      "props": {
+        "text": "Entry & Take-Profit Zones",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "table-levels": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Level Type",
+          "Price"
+        ],
+        "rows": [
+          [
+            "Entry",
+            "0.3405"
+          ],
+          [
+            "Take-Profit 1",
+            "0.3402"
+          ],
+          [
+            "Take-Profit 2",
+            "0.3372"
+          ],
+          [
+            "Take-Profit 3",
+            "0.3359"
+          ],
+          [
+            "Take-Profit 4",
+            "0.3325"
+          ]
+        ]
+      },
+      "children": []
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link-post": {
+      "type": "Link",
+      "props": {
+        "label": "View post on X",
+        "href": "https://x.com/swarmister/status/2091544834544730168"
+      },
+      "children": []
+    }
+  }
+}
