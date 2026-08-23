@@ -17,3 +17,20 @@
 5. ✓ Logged event to daily activity log  
 
 No notification sent. Event archived for Kyle's future reference.
+**Event processed:** X/Twitter post from @swarmister
+
+**Classification:** **Skip** (Step 4A: Non-financial)
+
+**Details:**
+- Tweet ID: 2091429820416622912
+- Text: "@sodnjm Gm brocha"
+- Timestamp: Sun Aug 23 07:38:20 +0000 2026
+- Type: Simple greeting/banter — no financial signal, no trade action
+
+**Action taken:**
+- ✓ Added tweet ID to `memory/x-trader-seen.txt` (prevents reprocessing)
+- ✓ Logged to `memory/logs/2026-08-23.md` (non-financial entry)
+- ✗ No alert sent (per HR-1 rule: skip/non-financial events silent)
+- ✗ No traders.md update (log-only per skill rule)
+
+**Next:** Awaiting next real-time X event from Worker webhook.
