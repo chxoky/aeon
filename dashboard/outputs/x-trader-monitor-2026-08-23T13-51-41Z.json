@@ -1,0 +1,187 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X-Trader Monitor",
+        "description": "BTC trader analysis & sentiment"
+      },
+      "children": [
+        "content-stack"
+      ]
+    },
+    "content-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "tweet-card",
+        "sep-1",
+        "technical-section",
+        "sep-2",
+        "thesis-section"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "They're already calling us \"Lucky.\" I guess we're going to be extremely lucky over the next 6 months, with $BTC trading just shy of $100k."
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "technical-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tech-heading",
+        "chart-details",
+        "price-current",
+        "validation-info"
+      ]
+    },
+    "tech-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart Analysis",
+        "level": "h3"
+      }
+    },
+    "chart-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "chart-desc",
+        "pattern-badge"
+      ]
+    },
+    "chart-desc": {
+      "type": "Text",
+      "props": {
+        "text": "BTC daily showing V-shaped recovery patterns with consolidation structure"
+      }
+    },
+    "pattern-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "V-shaped recovery + consolidation",
+        "variant": "default"
+      }
+    },
+    "price-current": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC Current",
+        "value": "$74.8K"
+      }
+    },
+    "validation-info": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "validation-text",
+        "validation-badge"
+      ]
+    },
+    "validation-text": {
+      "type": "Text",
+      "props": {
+        "text": "Multiple bottoms marked validating bullish reversal thesis"
+      }
+    },
+    "validation-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Bullish reversal confirmed",
+        "variant": "secondary"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "thesis-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "thesis-heading",
+        "thesis-desc",
+        "thesis-grid"
+      ]
+    },
+    "thesis-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "KillaXBT Bull Thesis",
+        "level": "h3"
+      }
+    },
+    "thesis-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Documented higher-timeframe (HTF) structural bull thesis. Tweet's 6-month $100K target aligns within expected range structure."
+      }
+    },
+    "thesis-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "entry-stat",
+        "target-stat",
+        "bottom-badge",
+        "6m-target"
+      ]
+    },
+    "entry-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Entry",
+        "value": "$62.6K"
+      }
+    },
+    "target-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Target",
+        "value": "$126K"
+      }
+    },
+    "bottom-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Bottom confirmed Aug 21",
+        "variant": "default"
+      }
+    },
+    "6m-target": {
+      "type": "Badge",
+      "props": {
+        "text": "6-month target: $100K",
+        "variant": "secondary"
+      }
+    }
+  }
+}
