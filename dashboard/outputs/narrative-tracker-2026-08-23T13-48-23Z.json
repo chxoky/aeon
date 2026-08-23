@@ -1,0 +1,897 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-08-23",
+        "description": "First run — establishing baseline; no prior entries to diff"
+      },
+      "children": [
+        "transitions-section",
+        "transitions-separator",
+        "reflexivity-section",
+        "positions-separator",
+        "positions-section",
+        "map-separator",
+        "map-section"
+      ]
+    },
+    "transitions-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "transitions-heading",
+        "transition-privacy",
+        "transition-defi",
+        "transition-alt",
+        "transition-jacksonhole",
+        "transition-ai"
+      ]
+    },
+    "transitions-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      }
+    },
+    "transition-privacy": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "privacy-new-badge",
+        "privacy-title",
+        "privacy-stats",
+        "privacy-detail"
+      ]
+    },
+    "privacy-new-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "secondary"
+      }
+    },
+    "privacy-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Privacy/ZK Rotation",
+        "level": "h3"
+      }
+    },
+    "privacy-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "privacy-zec",
+        "privacy-zro"
+      ]
+    },
+    "privacy-zec": {
+      "type": "Stat",
+      "props": {
+        "label": "ZEC",
+        "value": "+25.2%",
+        "trend": "up"
+      }
+    },
+    "privacy-zro": {
+      "type": "Stat",
+      "props": {
+        "label": "ZRO",
+        "value": "+23%",
+        "trend": "up"
+      }
+    },
+    "privacy-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Aug 22 trending #2; @Stoiiic/@trading_axe named catalysts; story moved price with no fundamental anchor",
+        "variant": "body"
+      }
+    },
+    "transition-defi": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "defi-new-badge",
+        "defi-title",
+        "defi-stats",
+        "defi-detail"
+      ]
+    },
+    "defi-new-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "secondary"
+      }
+    },
+    "defi-title": {
+      "type": "Heading",
+      "props": {
+        "text": "DeFi Structural Bid",
+        "level": "h3"
+      }
+    },
+    "defi-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "defi-aave",
+        "defi-lido"
+      ]
+    },
+    "defi-aave": {
+      "type": "Stat",
+      "props": {
+        "label": "Aave TVL 7d",
+        "value": "+20.3%",
+        "trend": "up"
+      }
+    },
+    "defi-lido": {
+      "type": "Stat",
+      "props": {
+        "label": "Lido TVL 7d",
+        "value": "+30.6%",
+        "trend": "up"
+      }
+    },
+    "defi-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Morpho×Robinhood Earn + genuine product catalysts distinguish this from prior DeFi hype",
+        "variant": "body"
+      }
+    },
+    "transition-alt": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "alt-new-badge",
+        "alt-title",
+        "alt-stats",
+        "alt-detail"
+      ]
+    },
+    "alt-new-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "secondary"
+      }
+    },
+    "alt-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Alt Rotation",
+        "level": "h3"
+      }
+    },
+    "alt-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "alt-btc",
+        "alt-pump",
+        "alt-hype"
+      ]
+    },
+    "alt-btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC dominance",
+        "value": "−0.68pp",
+        "trend": "down"
+      }
+    },
+    "alt-pump": {
+      "type": "Stat",
+      "props": {
+        "label": "PUMP 7d",
+        "value": "+93.4%",
+        "trend": "up"
+      }
+    },
+    "alt-hype": {
+      "type": "Stat",
+      "props": {
+        "label": "HYPE near ATH",
+        "value": "$82.43",
+        "trend": "up"
+      }
+    },
+    "alt-detail": {
+      "type": "Text",
+      "props": {
+        "text": "HCH short squeeze mechanical; @abetrade flagged credibility gap on bottom-callers",
+        "variant": "body"
+      }
+    },
+    "transition-jacksonhole": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "jh-new-badge",
+        "jh-title",
+        "jh-detail"
+      ]
+    },
+    "jh-new-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "secondary"
+      }
+    },
+    "jh-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Jackson Hole Binary",
+        "level": "h3"
+      }
+    },
+    "jh-detail": {
+      "type": "Text",
+      "props": {
+        "text": "T-3 Aug 27–29; theme \"Financial Innovation and Policy\"; Warsh has DeFi portfolio; first JH where crypto regulatory language is on the official agenda",
+        "variant": "body"
+      }
+    },
+    "transition-ai": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ai-new-badge",
+        "ai-title",
+        "ai-detail"
+      ]
+    },
+    "ai-new-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "secondary"
+      }
+    },
+    "ai-title": {
+      "type": "Heading",
+      "props": {
+        "text": "AI x Crypto/Agents",
+        "level": "h3"
+      }
+    },
+    "ai-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Virtuals Protocol cross-chain + Virtuals Console (no-code launch); a16z + CNBC institutional validation → peak-cycle signal",
+        "variant": "body"
+      }
+    },
+    "transitions-separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "reflexivity-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "reflexivity-heading",
+        "reflexivity-privacy",
+        "reflexivity-alt"
+      ]
+    },
+    "reflexivity-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      }
+    },
+    "reflexivity-privacy": {
+      "type": "Alert",
+      "props": {
+        "title": "Privacy/ZK — Narrative-driven catalyst",
+        "message": "@Stoiiic/@trading_axe posts directly correlated with ZEC trending #2 in 24h; no independent fundamental shift — narrative IS the catalyst",
+        "type": "warning"
+      }
+    },
+    "reflexivity-alt": {
+      "type": "Alert",
+      "props": {
+        "title": "Alt Rotation — Self-reinforcing squeeze",
+        "message": "HCH multi-short squeeze (HYPE/PUMP/SOL >34% underwater) creating mechanical bid; forced covering feeds \"alt season\" story which attracts fresh buyers — self-reinforcing until HCH capitulates or tape reverses",
+        "type": "warning"
+      }
+    },
+    "positions-separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "positions-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "positions-heading",
+        "pos-privacy",
+        "pos-defi",
+        "pos-alt",
+        "pos-rwa",
+        "pos-ai",
+        "pos-jh",
+        "pos-dispersion"
+      ]
+    },
+    "positions-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      }
+    },
+    "pos-privacy": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-privacy-header",
+        "pos-privacy-sources",
+        "pos-privacy-bear"
+      ]
+    },
+    "pos-privacy-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "pos-privacy-badge1",
+        "pos-privacy-badge2",
+        "pos-privacy-label"
+      ]
+    },
+    "pos-privacy-badge1": {
+      "type": "Badge",
+      "props": {
+        "text": "FRONT-RUN",
+        "variant": "default"
+      }
+    },
+    "pos-privacy-badge2": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "default"
+      }
+    },
+    "pos-privacy-label": {
+      "type": "Text",
+      "props": {
+        "text": "Privacy/ZK Rotation (mindshare 2 ↑↑)",
+        "variant": "lead"
+      }
+    },
+    "pos-privacy-sources": {
+      "type": "Text",
+      "props": {
+        "text": "@Stoiiic @trading_axe",
+        "variant": "caption"
+      }
+    },
+    "pos-privacy-bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: regulatory risk persistent on privacy tokens; spike can fully reverse with no anchor",
+        "variant": "body"
+      }
+    },
+    "pos-defi": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-defi-header",
+        "pos-defi-sources",
+        "pos-defi-bear"
+      ]
+    },
+    "pos-defi-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "pos-defi-badge1",
+        "pos-defi-badge2",
+        "pos-defi-label"
+      ]
+    },
+    "pos-defi-badge1": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "secondary"
+      }
+    },
+    "pos-defi-badge2": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "default"
+      }
+    },
+    "pos-defi-label": {
+      "type": "Text",
+      "props": {
+        "text": "DeFi Structural Bid (4 ↑↑)",
+        "variant": "lead"
+      }
+    },
+    "pos-defi-sources": {
+      "type": "Text",
+      "props": {
+        "text": "Morpho/Robinhood Earn, Aave V4/Grayscale, Lido",
+        "variant": "caption"
+      }
+    },
+    "pos-defi-bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: Aave 46% TVL crash in 2026 (KelpDAO); protocol risk is real",
+        "variant": "body"
+      }
+    },
+    "pos-alt": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-alt-header",
+        "pos-alt-sources",
+        "pos-alt-bear"
+      ]
+    },
+    "pos-alt-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "pos-alt-badge1",
+        "pos-alt-badge2",
+        "pos-alt-label"
+      ]
+    },
+    "pos-alt-badge1": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "secondary"
+      }
+    },
+    "pos-alt-badge2": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "default"
+      }
+    },
+    "pos-alt-label": {
+      "type": "Text",
+      "props": {
+        "text": "Alt Rotation (3 ↑↑)",
+        "variant": "lead"
+      }
+    },
+    "pos-alt-sources": {
+      "type": "Text",
+      "props": {
+        "text": "@KillaXBT @bull_genius + squeeze mechanics",
+        "variant": "caption"
+      }
+    },
+    "pos-alt-bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: BTC dominance 58.79%; retail sidelined per @abetrade bottom-caller credibility audit",
+        "variant": "body"
+      }
+    },
+    "pos-rwa": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-rwa-header",
+        "pos-rwa-sources",
+        "pos-rwa-bear"
+      ]
+    },
+    "pos-rwa-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "pos-rwa-badge1",
+        "pos-rwa-badge2",
+        "pos-rwa-label"
+      ]
+    },
+    "pos-rwa-badge1": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "secondary"
+      }
+    },
+    "pos-rwa-badge2": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "default"
+      }
+    },
+    "pos-rwa-label": {
+      "type": "Text",
+      "props": {
+        "text": "RWA Tokenization (4 →)",
+        "variant": "lead"
+      }
+    },
+    "pos-rwa-sources": {
+      "type": "Text",
+      "props": {
+        "text": "Ondo, Morpho Midnight, Aave V3 tokenized gold",
+        "variant": "caption"
+      }
+    },
+    "pos-rwa-bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: yield-spread arbitrage collapses if rates drop",
+        "variant": "body"
+      }
+    },
+    "pos-ai": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-ai-header",
+        "pos-ai-sources",
+        "pos-ai-bear"
+      ]
+    },
+    "pos-ai-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "pos-ai-badge1",
+        "pos-ai-badge2",
+        "pos-ai-label"
+      ]
+    },
+    "pos-ai-badge1": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "destructive"
+      }
+    },
+    "pos-ai-badge2": {
+      "type": "Badge",
+      "props": {
+        "text": "Cope",
+        "variant": "destructive"
+      }
+    },
+    "pos-ai-label": {
+      "type": "Text",
+      "props": {
+        "text": "AI x Crypto/Agents (4 →)",
+        "variant": "lead"
+      }
+    },
+    "pos-ai-sources": {
+      "type": "Text",
+      "props": {
+        "text": "@a16zcrypto, Virtuals Protocol",
+        "variant": "caption"
+      }
+    },
+    "pos-ai-bear": {
+      "type": "Text",
+      "props": {
+        "text": "VCs endorsing to manufacture legitimacy; Virtuals Console = democratized dilution; reflexive top signal",
+        "variant": "body"
+      }
+    },
+    "pos-jh": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-jh-header",
+        "pos-jh-detail"
+      ]
+    },
+    "pos-jh-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "pos-jh-badge1",
+        "pos-jh-badge2",
+        "pos-jh-label"
+      ]
+    },
+    "pos-jh-badge1": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "outline"
+      }
+    },
+    "pos-jh-badge2": {
+      "type": "Badge",
+      "props": {
+        "text": "Mixed",
+        "variant": "outline"
+      }
+    },
+    "pos-jh-label": {
+      "type": "Text",
+      "props": {
+        "text": "Jackson Hole (4 ↑↑)",
+        "variant": "lead"
+      }
+    },
+    "pos-jh-detail": {
+      "type": "Text",
+      "props": {
+        "text": "T-3; Warsh speech Aug 27–29 — binary: crypto-friendly language = breakout, hawkish surprise = sharp reversal",
+        "variant": "body"
+      }
+    },
+    "pos-dispersion": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-dispersion-header",
+        "pos-dispersion-detail"
+      ]
+    },
+    "pos-dispersion-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "pos-dispersion-badge1",
+        "pos-dispersion-badge2",
+        "pos-dispersion-label"
+      ]
+    },
+    "pos-dispersion-badge1": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "outline"
+      }
+    },
+    "pos-dispersion-badge2": {
+      "type": "Badge",
+      "props": {
+        "text": "Mixed",
+        "variant": "outline"
+      }
+    },
+    "pos-dispersion-label": {
+      "type": "Text",
+      "props": {
+        "text": "Dispersion Trade (2 ↑)",
+        "variant": "lead"
+      }
+    },
+    "pos-dispersion-detail": {
+      "type": "Text",
+      "props": {
+        "text": "@Wild_Randomness (equities bearish into Oct, GOLD/crypto diverge) — single driver; needs JH + macro confirmation",
+        "variant": "body"
+      }
+    },
+    "map-separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "map-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "map-heading",
+        "map-emerging",
+        "map-rising",
+        "map-peak",
+        "map-fading"
+      ]
+    },
+    "map-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h2"
+      }
+    },
+    "map-emerging": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-emerging-badge",
+        "map-emerging-content"
+      ]
+    },
+    "map-emerging-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Emerging",
+        "variant": "secondary"
+      }
+    },
+    "map-emerging-content": {
+      "type": "Text",
+      "props": {
+        "text": "Privacy/ZK Rotation · Dispersion Trade",
+        "variant": "body"
+      }
+    },
+    "map-rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-rising-badge",
+        "map-rising-content"
+      ]
+    },
+    "map-rising-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Rising",
+        "variant": "default"
+      }
+    },
+    "map-rising-content": {
+      "type": "Text",
+      "props": {
+        "text": "DeFi Structural Bid · Alt Rotation · RWA Tokenization · Jackson Hole Binary",
+        "variant": "body"
+      }
+    },
+    "map-peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-peak-badge",
+        "map-peak-content"
+      ]
+    },
+    "map-peak-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Peak",
+        "variant": "destructive"
+      }
+    },
+    "map-peak-content": {
+      "type": "Text",
+      "props": {
+        "text": "AI x Crypto/Agents",
+        "variant": "body"
+      }
+    },
+    "map-fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-fading-badge",
+        "map-fading-content"
+      ]
+    },
+    "map-fading-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Fading",
+        "variant": "outline"
+      }
+    },
+    "map-fading-content": {
+      "type": "Text",
+      "props": {
+        "text": "XRP L1 Story (high $1.69 → $1.50, post-breakout exhaustion)",
+        "variant": "body"
+      }
+    }
+  }
+}
