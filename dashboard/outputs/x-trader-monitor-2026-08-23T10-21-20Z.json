@@ -1,0 +1,52 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "view-link",
+        "analysis-text"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Bitcoin_Astro",
+        "handle": "Bitcoin_Astro",
+        "text": "I did predict btc top last year months in advance to the day, also silver top this year 🔥🎉"
+      },
+      "children": []
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Bitcoin_Astro/status/2091469071145443522"
+      },
+      "children": []
+    },
+    "analysis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Retrospective validation of technical framework methodology (time-cycle analysis). Inflection point achieved — aligns with group bullish thesis on recovery phase.",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
