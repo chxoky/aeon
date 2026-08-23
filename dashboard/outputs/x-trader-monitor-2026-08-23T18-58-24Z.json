@@ -1,0 +1,149 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_stack",
+        "separator1",
+        "analysis_stack"
+      ]
+    },
+    "tweet_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet_card",
+        "tweet_link"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "For now it has the spotlight and it's tough to fade it\n\nI think just buy some on red days / liq swipes which are inevitable given how much lev has been put on over the past 5 days"
+      }
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2091600072589123918"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "chart_heading",
+        "chart_summary",
+        "liq_data_row",
+        "price_stat",
+        "separator2",
+        "position_heading",
+        "position_insight",
+        "holdings_stat",
+        "target_stat"
+      ]
+    },
+    "chart_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart: BTC Exchange Liquidation Map",
+        "level": "h3"
+      }
+    },
+    "chart_summary": {
+      "type": "Text",
+      "props": {
+        "text": "Shows cascading liq cliff downside with sparse liquidity above",
+        "variant": "body"
+      }
+    },
+    "liq_data_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "liq_cliff_stat",
+        "liq_cascade_badge"
+      ]
+    },
+    "liq_cliff_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Liquidation Cliff Downside",
+        "value": "1.4B → 0",
+        "trend": "down"
+      }
+    },
+    "liq_cascade_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Cascading",
+        "variant": "destructive"
+      }
+    },
+    "price_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Current BTC Price",
+        "value": "77077"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "position_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Position & DCA Target",
+        "level": "h3"
+      }
+    },
+    "position_insight": {
+      "type": "Text",
+      "props": {
+        "text": "Tactical DCA insight: buy on dips aligns with accumulation goals",
+        "variant": "lead"
+      }
+    },
+    "holdings_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Current Holdings",
+        "value": "11 BTC",
+        "delta": "@ 65897 avg"
+      }
+    },
+    "target_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Target on Dips",
+        "value": "20 BTC"
+      }
+    }
+  }
+}
