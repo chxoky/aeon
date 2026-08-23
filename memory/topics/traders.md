@@ -5,8 +5,9 @@
 - Recent thesis: Equities/vol specialist; dispersion-trade framework; bearish equities into Oct; GOLD/crypto won't make new lows even if equities do; BTC liq map structurally different ("bearish skew but buy-side ramping"). Not levered ("can't with liq map like this"). Conditional BTC reversion play above 74.5K if funding/OI stretched.
 - Conviction notes: High-conviction technical analyst on equities; vixpiry/OPEX structure commentary; macro dispersion positioning. Bear mode experiment failed Aug 20. "Scar tissue" from forced loss at 68K. HYPE/LIT = gold/silver parallel; ratio at 27-28 (down from 55 peak). URL-only posts = noise per calibration.
 - Calibration: PENDING Aug 23 19:05Z (cryptic "@QOTSA_FRL Its a 65% move to 126" — asset/context unknown), PENDING Aug 21 20:10Z (conditional LEAPS comment — unspecified asset)
-- Last seen: 2026-08-23T19:05:10Z
+- Last seen: 2026-08-23T21:11:10Z
 - **Events (rolling):**
+  - Aug 23 21:11Z — skip: meme images (Kevin Chang competitive quote + UNO bullish card); no financial signal [2091634377109524609]
   - Aug 21 15:59Z — informational: XAUUSD/SPX ratio bottoming 4 charts; "North Star" consolidation entry; RSI oversold [$GOLD/$SPX] [2090831268724568525]
   - Aug 21 16:07Z — informational: XAUUSD weekly breakout 4616.79 (+2.17%); "oh yeah" [$GOLD-WEEKLY] [2090833229838446830]
   - Aug 21 16:28Z — informational: Nasdaq unchanged / commodities +20%; dispersion trade confirmation [$COMMODITIES-VS-EQUITIES] [2090838531908542967]
