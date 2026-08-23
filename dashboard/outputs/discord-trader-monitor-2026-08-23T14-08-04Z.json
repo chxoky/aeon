@@ -1,0 +1,104 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "heading",
+        "sep1",
+        "event",
+        "quote",
+        "sep2",
+        "analysis",
+        "interpretations",
+        "sep3",
+        "question"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: Chase — Crypto]",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Member question in supporting channel (message context unavailable)",
+        "variant": "muted"
+      }
+    },
+    "quote": {
+      "type": "TweetCard",
+      "props": {
+        "author": "crypto_chase",
+        "text": "should have at least had first order at the liquidity low i did marked. unless you're new here then they maybe you didnt know i layer areas"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "analysis": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Grammar awkward (\"i did marked\"), context missing.",
+        "type": "warning"
+      }
+    },
+    "interpretations": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "i1",
+        "i2",
+        "i3"
+      ]
+    },
+    "i1": {
+      "type": "Badge",
+      "props": {
+        "text": "Regret about missing an order",
+        "variant": "outline"
+      }
+    },
+    "i2": {
+      "type": "Badge",
+      "props": {
+        "text": "Educational explanation of layering",
+        "variant": "outline"
+      }
+    },
+    "i3": {
+      "type": "Badge",
+      "props": {
+        "text": "Critique of member strategy",
+        "variant": "outline"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "question": {
+      "type": "Text",
+      "props": {
+        "text": "Your read?",
+        "variant": "lead"
+      }
+    }
+  }
+}
