@@ -1,20 +1,11 @@
-## Summary
+🐦 *[X] @bull_genius*
 
-**Skill:** x-trader-monitor (real-time event)
+BTC structural analysis: 75.8k dip marked the bottom. Post-lockout pump shows 'one of the greatest' weekly green candles. Strong confluence:
+• 2026 vah → 75.8k (new floor)
+• ATH avwap → 78.2k
+• 365d rvwap → 81.3k  
+• May high → 82.8k (key resistances)
 
-**Event processed:**
-- **Trader:** @Stoiiic
-- **Tweet ID:** 2091646569955422494
-- **Text:** "@jedifractal lmao"
-- **Created:** Sun Aug 23 21:59:37 +0000 2026
-- **URL:** https://x.com/Stoiiic/status/2091646569955422494
+Expected range 75-83k with wicks, breakout to 100k. "Buy every dip" conviction. BTC up only ~20% — momentum extreme vs prior lull, not absolute move.
 
-**Classification:** **A. Non-financial** → Skip (generic banter, no financial signal)
-
-**Actions taken:**
-- ✅ Added tweet ID to `memory/x-trader-seen.txt` to prevent reprocessing
-- ✅ Logged event to `memory/logs/2026-08-23.md` (skip events logged only, no traders.md event line per size discipline)
-- ✅ Updated Stoiiic's "Last seen" timestamp in `memory/topics/traders.md` to 21:59:37Z
-- ✅ No alert sent (non-financial per Step 4A rule)
-
-**Result:** Tweet silently filed. No action required from Kyle.
+[View tweet](https://x.com/bull_genius/status/2091651895009915088)

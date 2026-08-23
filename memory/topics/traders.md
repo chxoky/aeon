@@ -223,18 +223,19 @@
 - Current open positions: BASE/BASECAT (accumulated on dips; conditional add if lower — Aug 22 08:52Z). No confirmed BTC/ETH personal execution positions.
 - Recent thesis: BTC/ETH technical structure analyst. BTC "bear market end" conviction (Aug 21 07:22Z). ETH $3K target; 2850 multi-VWAP support confluence (Aug 21 22:43Z). DCA philosophy: "bad entries forgiven eventually as long as you don't wipe out on high lev." Crypto narrative ranking: perp dex wars > RWA > privacy coins > FX stables > ETH revival (Aug 21 16:02Z).
 - Conviction notes: Technical analyst/educator primarily (not personal position announcer). Medium-high conviction on BTC structural bottom + ETH upside. BASE position documented as personal entry (Aug 22 08:52Z — BASECAT preferred for Cobie angle + Robinhood competitive).
-- Last seen: 2026-08-22T11:24:05Z
+- Last seen: 2026-08-23T22:20:47Z
 - **Events (rolling):**
-  - Aug 20 17:19Z — informational: BTC post-breakout structure charts; 74K VAH as next resistance; shorts at 74-75K "probably good attempt" [$BTC] [2090488869510602954]
-  - Aug 20 21:47Z — informational: SHIB bullish narrative commentary; "two wolves" meme — internal conflict on narrative vs position [$SHIB] [2090556286886687163]
-  - Aug 20 23:38Z — ambiguous: "95% flat / didn't rebuy / conditional short punt if big wipe candle or SFP" [$BTC-IMPLIED] [2090584401818100124]
-  - Aug 21 07:22Z — informational: BTC volume-profile analysis; "strongest BTC upthrust in years / bear market end" conviction; pullback support 74K/71K/69K [$BTC] [2090701165885309227]
-  - Aug 21 16:02Z — informational: crypto narrative rankings (perp dex > RWA > privacy > FX stables > ETH revival > AI skeptical) [$NARRATIVES] [2090832033421340775]
-  - Aug 21 22:43Z — informational: ETH $3K target; 2850 VWAP confluence; "shorts will get run over" [$ETH] [2090932805672812642]
-  - Aug 22 08:52Z — informational: BASE position accumulated on dips; BASECAT preferred (Cobie); conditional add if lower [$BASE/$BASECAT] [2091086023631540252]
-  - Aug 22 09:21Z — informational: KEYCAT vs BASECAT analysis; BASECAT > KEYCAT (fresh chart + Cobie) [$KEYCAT/$BASECAT] [2091093374577094973]
-  - Aug 22 10:26Z — informational: bullish reply to Ray Dalio; "buy the dip" sentiment [$MACRO] [2091109741875413073]
+  - Aug 23 22:20Z — informational: BTC post-75.8k-dip analysis; "strongest weekly candle" + 2026-vah-to-82.8k-may-high resistance framework; range 83-75k then 100k target; volume-profile + avwap/rvwap/vah levels (2 charts) [$BTC-STRUCTURE-BULLISH] [2091651895009915088]
   - Aug 22 11:24Z — informational: "71.5-74K would be amazing but not far enough away to justify not buying"; DCA framework day 3 [$BTC/$DCA] [2091124243970826269]
+  - Aug 22 10:26Z — informational: bullish reply to Ray Dalio; "buy the dip" sentiment [$MACRO] [2091109741875413073]
+  - Aug 22 09:21Z — informational: KEYCAT vs BASECAT analysis; BASECAT > KEYCAT (fresh chart + Cobie) [$KEYCAT/$BASECAT] [2091093374577094973]
+  - Aug 22 08:52Z — informational: BASE position accumulated on dips; BASECAT preferred (Cobie); conditional add if lower [$BASE/$BASECAT] [2091086023631540252]
+  - Aug 21 22:43Z — informational: ETH $3K target; 2850 VWAP confluence; "shorts will get run over" [$ETH] [2090932805672812642]
+  - Aug 21 16:02Z — informational: crypto narrative rankings (perp dex > RWA > privacy > FX stables > ETH revival > AI skeptical) [$NARRATIVES] [2090832033421340775]
+  - Aug 21 07:22Z — informational: BTC volume-profile analysis; "strongest BTC upthrust in years / bear market end" conviction; pullback support 74K/71K/69K [$BTC] [2090701165885309227]
+  - Aug 20 23:38Z — ambiguous: "95% flat / didn't rebuy / conditional short punt if big wipe candle or SFP" [$BTC-IMPLIED] [2090584401818100124]
+  - Aug 20 21:47Z — informational: SHIB bullish narrative commentary; "two wolves" meme — internal conflict on narrative vs position [$SHIB] [2090556286886687163]
+  - Aug 20 17:19Z — informational: BTC post-breakout structure charts; 74K VAH as next resistance; shorts at 74-75K "probably good attempt" [$BTC] [2090488869510602954]
 
 ## Stoiiic
 

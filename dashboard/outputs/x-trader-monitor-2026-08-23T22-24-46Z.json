@@ -1,0 +1,43 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "link-view"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "@bull_genius",
+        "text": "BTC structural analysis: 75.8k dip marked the bottom. Post-lockout pump shows 'one of the greatest' weekly green candles. Strong confluence:\n• 2026 vah → 75.8k (new floor)\n• ATH avwap → 78.2k\n• 365d rvwap → 81.3k\n• May high → 82.8k (key resistances)\n\nExpected range 75-83k with wicks, breakout to 100k. \"Buy every dip\" conviction. BTC up only ~20% — momentum extreme vs prior lull, not absolute move."
+      },
+      "children": []
+    },
+    "link-view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/bull_genius/status/2091651895009915088"
+      },
+      "children": []
+    }
+  }
+}
