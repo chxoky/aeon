@@ -1,9 +1,1 @@
-🐦 *[X] @Stoiiic*
-
-Leaning towards getting some vol on Sunday futures open into Monday NYO.
-
-Dip on BTC into 74-75 — first area of interest, looking to observe spot behavior on any retracement.
-
-Current 365d rolling vwap is a good line in the sand ~82.4, acceptance above this = continue to leg higher.
-
-[View tweet](https://x.com/Stoiiic/status/2091365867703439705)
+🔍 *Calibration — @Stoiiic*\n\nEvent: Cryptic 2-word post on 2026-08-23 05:43:25Z\nStoiiic: "> commence"\n\nUnable to classify — could reference price level ("greater than X commence") or personal/non-financial context. No media attached, extremely cryptic.\n\n[View post](https://x.com/Stoiiic/status/2091400899671228554)

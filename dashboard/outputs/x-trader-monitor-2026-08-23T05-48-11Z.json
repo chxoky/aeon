@@ -1,0 +1,66 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor: Calibration",
+        "description": "@Stoiiic cryptic post analysis"
+      },
+      "children": [
+        "content_stack"
+      ]
+    },
+    "content_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "handle_badge",
+        "event_details",
+        "post_content",
+        "analysis",
+        "story_link"
+      ]
+    },
+    "handle_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "@Stoiiic",
+        "variant": "default"
+      }
+    },
+    "event_details": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Cryptic 2-word post on 2026-08-23 05:43:25Z",
+        "variant": "body"
+      }
+    },
+    "post_content": {
+      "type": "Text",
+      "props": {
+        "text": "Stoiiic: \"> commence\"",
+        "variant": "lead"
+      }
+    },
+    "analysis": {
+      "type": "Alert",
+      "props": {
+        "message": "Unable to classify — could reference price level (\"greater than X commence\") or personal/non-financial context. No media attached, extremely cryptic.",
+        "type": "info"
+      }
+    },
+    "story_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View post",
+        "href": "https://x.com/Stoiiic/status/2091400899671228554",
+        "source": "X"
+      }
+    }
+  }
+}
