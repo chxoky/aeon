@@ -1,0 +1,61 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @abetrade"
+      },
+      "children": [
+        "heading-event",
+        "separator-1",
+        "tweet-card",
+        "separator-2",
+        "text-unclear",
+        "link-view"
+      ]
+    },
+    "heading-event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event: Reply to @MajesticQuant",
+        "level": "h3"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "abetrade",
+        "handle": "abetrade",
+        "text": "@MajesticQuant no this only includes crypto markets"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-unclear": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read? (Parent tweet not visible; unclear if this is methodology clarification, market commentary, or trader banter)",
+        "variant": "body"
+      }
+    },
+    "link-view": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/abetrade/status/2091474101592309953"
+      }
+    }
+  }
+}

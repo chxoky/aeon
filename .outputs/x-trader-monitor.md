@@ -18,3 +18,12 @@ I've executed the x-trader-monitor skill on the Bitcoin_Astro event (tweet 20914
 - ✓ memory/x-trader-seen.txt: Added tweet ID for dedup tracking
 
 No action required — this is market education, not a trade signal.
+🔍 *Calibration — @abetrade*
+
+Event: Reply to @MajesticQuant
+
+abetrade: "@MajesticQuant no this only includes crypto markets"
+
+Unable to classify — what's your read? (Parent tweet not visible; unclear if this is methodology clarification, market commentary, or trader banter)
+
+[View post](https://x.com/abetrade/status/2091474101592309953)
