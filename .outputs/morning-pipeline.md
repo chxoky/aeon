@@ -1,22 +1,24 @@
-*Morning Brief — 2026-08-22*
+*Morning Brief — 2026-08-23*
 
 *Focus today*
-1. HYPE $79.76 (ATH breached) — why now: HCH short live since ~$60, >33% underwater; cover signal or ATH extension = sharpest near-term binary.
-2. ZEC $808 (+33% 24h) — why now: Stoiiic + trading_axe both posted bullish ZEC catalyst pre-move (02–03 UTC); catalyst still unnamed, follow-up needed.
-3. Jackson Hole T−5 (Aug 27) — why now: BTC $77.3K entering the symposium; Powell tone sets $68–70K vs $80K+ path for all of Q3.
+1. Jackson Hole T-4 — why now: BTC $76K entering the week; $80K vs flush to low 70s binary resolves this week
+2. Regime flip: alts red, dominance rising — why now: 2-day dominance rise confirms alt rotation done; risk-off before Asia open
+3. NVDA earnings + WR miss thesis — why now: WR flagged today 00:19Z; AI chip earnings = crypto risk-on correlation read this week
 
 *Since yesterday*
-- BTC $76,669 → $77,347 (+0.9%); ETF inflows 6 consecutive days ($800M BTC+ETH Aug 21)
-- HYPE ATH $76.87 breached → $79.76; HCH short >33% underwater, no cover signal
-- ZEC $644 → $808 (+25%); Stoiiic / trading_axe catalyst posts preceded the move
-- Stoiiic added to tracking (X-only technical analyst, ONDO/ETH/ENA/ZEC setups)
-- trading_axe: 4 HR-2 calibration alerts pending Kyle response
+- [moved] BTC −1.7% to $76.1K; all top-20 non-stables red; TRUMP [CAPITULATION] −17.9% on 2.4× daily vol
+- [moved] HYPE pulled from ATH $82.43 → $78.23; HCH cover watch continues, no signal
+- [stuck] swarmister cryptic @satsjava reply 06:41Z awaiting Kyle read (HR-2)
+- [note] trader-memory-compact success_rate 0.75 (<0.8 threshold); 1 consecutive failure from Aug 16
 
 *Watch*
-- BTC ETF $800M combined Aug 21 (day-2 surge, 6-day streak) — institutional bid confirmed; deceleration <$200M/day = first warning sign into JH.
+- NVDA earnings this week (WR damage-control thesis) — if miss: AI risk-off ripple → crypto macro read for focus #3
+- Jackson Hole Thu–Sat — Powell Friday tone = XRP/BTC positioning call; Financial Innovation theme on stage
 
 *Running today*
-- token-alert @ 12:00 UTC
-- token-movers @ 12:00 UTC
-- market-context-refresh @ 13:00 UTC
-- narrative-tracker @ 13:30 UTC
+- x-trader-monitor (continuous, every 3 min)
+- discord-trader-monitor (continuous, every 1 min)
+- market-context-refresh @ 10:00 UTC
+- token-alert @ 12:18 UTC
+- skill-health @ 18:27 UTC
+- heartbeat @ 20:13 UTC
