@@ -32,6 +32,7 @@
   - Aug 23 18:40Z — informational: "$BTC / Just go buy bitcoin. / Don't buy the derivatives." [$BTC-BULLISH] [2091596462996218308]
   - Aug 23 18:54Z — informational: BTC liq map "buy red days/liq swipes inevitable given 5-day lev buildup" [$BTC-TACTICAL-DCA] [2091600072589123918]
   - Aug 23 19:05Z — ambiguous: "@QOTSA_FRL Its a 65% move to 126." — ticker/context unknown [$UNKNOWN] [2091602668225474780]
+  - Aug 23 23:37Z — ambiguous: "@Parida Four year cycle stuff aside, easily the best comp" — comparison/context unknown [$UNKNOWN] [2091671249269469512]
 
 ## Bitcoin_Astro
 

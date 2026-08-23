@@ -1,0 +1,83 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @Wild_Randomness"
+      },
+      "children": [
+        "event_line",
+        "sep1",
+        "tweet_card",
+        "sep2",
+        "unable_classify",
+        "sep3",
+        "context_text",
+        "sep4",
+        "tweet_link"
+      ]
+    },
+    "event_line": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @Parida about market comparison, exact context unknown",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "@Parida Four year cycle stuff aside, easily the best comp"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "unable_classify": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "message": "Unable to classify — what's your read?"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "Recent context: WR bullish on BTC, bearish equities into Oct. \"Four year cycle\" = BTC halving cycles? \"best comp\" = best comparison of what asset?",
+        "variant": "body"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2091671249269469512"
+      }
+    }
+  }
+}
