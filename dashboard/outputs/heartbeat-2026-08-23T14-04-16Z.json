@@ -1,0 +1,162 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Heartbeat Status",
+        "description": "trader-memory-compact job status alert"
+      },
+      "children": [
+        "alert_stuck",
+        "stack_details"
+      ]
+    },
+    "alert_stuck": {
+      "type": "Alert",
+      "props": {
+        "title": "STUCK: trader-memory-compact",
+        "message": "Dispatched 2026-08-16T20:58Z — never completed (7 days). Last success 2026-08-09 (2× weekly interval exceeded).",
+        "type": "error"
+      },
+      "children": []
+    },
+    "stack_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_job",
+        "job_info",
+        "sep1",
+        "heading_issue",
+        "issue_stack",
+        "sep2",
+        "heading_action",
+        "action_text"
+      ]
+    },
+    "heading_job": {
+      "type": "Heading",
+      "props": {
+        "text": "Job Details",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "job_info": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_name",
+        "text_dispatch",
+        "text_duration",
+        "text_last_success"
+      ]
+    },
+    "text_name": {
+      "type": "Text",
+      "props": {
+        "text": "Job: trader-memory-compact"
+      },
+      "children": []
+    },
+    "text_dispatch": {
+      "type": "Text",
+      "props": {
+        "text": "Dispatched: 2026-08-16T20:58Z"
+      },
+      "children": []
+    },
+    "text_duration": {
+      "type": "Text",
+      "props": {
+        "text": "Status: Never completed (7 days)"
+      },
+      "children": []
+    },
+    "text_last_success": {
+      "type": "Text",
+      "props": {
+        "text": "Last success: 2026-08-09"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_issue": {
+      "type": "Heading",
+      "props": {
+        "text": "Issue Summary",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "issue_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_interval",
+        "text_compaction",
+        "text_capacity"
+      ]
+    },
+    "text_interval": {
+      "type": "Text",
+      "props": {
+        "text": "2× weekly interval exceeded"
+      },
+      "children": []
+    },
+    "text_compaction": {
+      "type": "Text",
+      "props": {
+        "text": "traders.md compaction overdue"
+      },
+      "children": []
+    },
+    "text_capacity": {
+      "type": "Text",
+      "props": {
+        "text": "Cloudflare Worker 200K payload cap risk rising"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_action": {
+      "type": "Heading",
+      "props": {
+        "text": "Action Required",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "action_text": {
+      "type": "Text",
+      "props": {
+        "text": "Check the Aug 16 workflow run for hang/crash details."
+      },
+      "children": []
+    }
+  }
+}
