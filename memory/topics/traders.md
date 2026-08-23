@@ -241,7 +241,7 @@
 - Recent thesis: BTC/altcoin OI dominance structure; unprecedented short-liquidation cascade flushed BTC OI faster than expected → alt-dom rotation (RWA accumulation 6-8 months drove alt-dom via OI trends). ETH: hold $2300-2400 to close gap to 365D rolling VWAP. ENA weekly capitulation recovery setup. ONDO diagonal pattern (HTF support + prev day high acceptance = upside, BTC-conditional). BTC Sunday vol interest: dip into 74-75K; 365d VWAP ~82.4K as acceptance line.
 - Conviction notes: Chart-driven technical analyst/educator. High banter ratio (~50-60%). No personal execution language detected. Key analytical insight: RWA supply surge + concentrated BTC short flush (not organic BTC strength) explains alt-dom rising. ENA TWAP observation (someone's systematic buy-side all day Aug 21).
 - Calibration: PENDING Aug 23 05:43Z ("> commence" 2-word cryptic), PENDING Aug 22 02:10Z ("zcash technology has suddenly improved tremendously")
-- Last seen: 2026-08-23T05:43:25Z
+- Last seen: 2026-08-23T20:47:00Z
 - **Events (rolling):**
   - Aug 21 01:53Z — informational: "two straight days of this / tail wind + compressed vol makes sense" [$MACRO] [20906181913786041221]
   - Aug 21 04:39Z — informational: ENA TWAP observation; clean mechanical uptrend all day 0.094→0.1255 [$ENA-TWAP] [2090660018395746465]
@@ -263,6 +263,7 @@
   - Aug 22 05:56Z — ambiguous: "combination of this news and thin books on alts = lev flush" — news unspecified [$ALTCOIN-LEV-FLUSH] [20910417016286169760]
   - Aug 23 03:24Z — informational: BTC Sunday vol; dip 74-75K interest; 365d VWAP ~82.4K acceptance level [$BTC] [2091365867703439705]
   - Aug 23 05:43Z — ambiguous: "> commence" — 2-word cryptic, out of pattern [$UNKNOWN] [2091400899671228554]
+  - Aug 23 20:47Z — informational: XRP & DOGE watchlist upgrade; OI added vs extension chart analysis shows both as "clean movers" with favorable bid positioning [$XRP/$DOGE] [2091628293346807904]
 
 ## abetrade
 

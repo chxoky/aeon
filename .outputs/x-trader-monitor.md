@@ -1,8 +1,11 @@
-🔍 *Calibration — @swarmister*
 
-Event: Reply to @FalconyFalcon
-swarmister: "Average…"
+🐦 *[X] @Stoiiic*
 
-Unable to classify — what's your read?
+XRP & DOGE seems to be some other tickers to move up the watchlist when looking at OI added vs extension.
 
-[View post](https://x.com/swarmister/status/2091615269059748208)
+Chart analysis: Both show clean bid positioning with favorable confluence for extension. XRP and DOGE marked as heaviest bars = strongest technical setups.
+
+[View tweet](https://x.com/Stoiiic/status/2091628293346807904)
+
+↳ _Aligns with WR bullish charts on XRP (Aug 22) + contested DOGE positioning (swarmister long DCA vs HCH short)._
+

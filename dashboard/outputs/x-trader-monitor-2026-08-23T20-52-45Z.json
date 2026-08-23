@@ -1,0 +1,53 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-stack"
+      ]
+    },
+    "tweet-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "view-link",
+        "commentary"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "Stoiiic",
+        "text": "XRP & DOGE seems to be some other tickers to move up the watchlist when looking at OI added vs extension.\n\nChart analysis: Both show clean bid positioning with favorable confluence for extension. XRP and DOGE marked as heaviest bars = strongest technical setups."
+      },
+      "children": []
+    },
+    "view-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View tweet",
+        "href": "https://x.com/Stoiiic/status/2091628293346807904",
+        "source": "X"
+      },
+      "children": []
+    },
+    "commentary": {
+      "type": "Text",
+      "props": {
+        "text": "Aligns with WR bullish charts on XRP (Aug 22) + contested DOGE positioning (swarmister long DCA vs HCH short).",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
