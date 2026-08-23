@@ -241,7 +241,7 @@
 - Recent thesis: BTC/altcoin OI dominance structure; unprecedented short-liquidation cascade flushed BTC OI faster than expected → alt-dom rotation (RWA accumulation 6-8 months drove alt-dom via OI trends). ETH: hold $2300-2400 to close gap to 365D rolling VWAP. ENA weekly capitulation recovery setup. ONDO diagonal pattern (HTF support + prev day high acceptance = upside, BTC-conditional). BTC Sunday vol interest: dip into 74-75K; 365d VWAP ~82.4K as acceptance line.
 - Conviction notes: Chart-driven technical analyst/educator. High banter ratio (~50-60%). No personal execution language detected. Key analytical insight: RWA supply surge + concentrated BTC short flush (not organic BTC strength) explains alt-dom rising. ENA TWAP observation (someone's systematic buy-side all day Aug 21).
 - Calibration: PENDING Aug 23 05:43Z ("> commence" 2-word cryptic), PENDING Aug 22 02:10Z ("zcash technology has suddenly improved tremendously")
-- Last seen: 2026-08-23T20:47:00Z
+- Last seen: 2026-08-23T20:55:09Z
 - **Events (rolling):**
   - Aug 21 01:53Z — informational: "two straight days of this / tail wind + compressed vol makes sense" [$MACRO] [20906181913786041221]
   - Aug 21 04:39Z — informational: ENA TWAP observation; clean mechanical uptrend all day 0.094→0.1255 [$ENA-TWAP] [2090660018395746465]
