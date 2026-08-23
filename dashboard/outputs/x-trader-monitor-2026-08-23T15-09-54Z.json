@@ -1,0 +1,98 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @swarmister"
+      },
+      "children": [
+        "event-section",
+        "sep1",
+        "analysis-section",
+        "sep2",
+        "pattern-alert"
+      ]
+    },
+    "event-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event-type",
+        "tweet-card"
+      ]
+    },
+    "event-type": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @xbt2027",
+        "variant": "lead"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "@swarmister",
+        "text": "@xbt2027 Me"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis-heading",
+        "analysis-text",
+        "view-link"
+      ]
+    },
+    "analysis-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Analysis",
+        "level": "h3"
+      }
+    },
+    "analysis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read? Context-dependent reply; parent @xbt2027 message not visible in event payload. No ticker/execution language identified.",
+        "variant": "body"
+      }
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/swarmister/status/2091542311461118038"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "pattern-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Pattern note",
+        "message": "5th cryptic reply from swarmister today (Aug 23). Baseline established (Aug 21-22 pending).",
+        "type": "info"
+      }
+    }
+  }
+}
