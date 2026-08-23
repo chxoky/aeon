@@ -1,0 +1,403 @@
+{
+  "root": "card-morning-brief",
+  "state": {},
+  "elements": {
+    "card-morning-brief": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-08-23"
+      },
+      "children": [
+        "main-stack"
+      ]
+    },
+    "main-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section-focus",
+        "sep-1",
+        "section-yesterday",
+        "sep-2",
+        "section-watch",
+        "sep-3",
+        "section-running"
+      ]
+    },
+    "section-focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-focus",
+        "focus-items-stack"
+      ]
+    },
+    "heading-focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "focus-items-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-item-1",
+        "focus-item-2",
+        "focus-item-3"
+      ]
+    },
+    "focus-item-1": {
+      "type": "Text",
+      "props": {
+        "text": "WR ETH 10-day binary closes — ETH $2,388; outcome window ends today",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "focus-item-2": {
+      "type": "Text",
+      "props": {
+        "text": "KillaXBT SL 76.1K breached — BTC $76,059 at spot; hedge cleared, net-long confirmed",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "focus-item-3": {
+      "type": "Text",
+      "props": {
+        "text": "NVDA earnings T-3 + Jackson Hole T-4 — overlapping binaries; fat-tail macro week",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-yesterday": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-yesterday",
+        "yesterday-items-stack"
+      ]
+    },
+    "heading-yesterday": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "yesterday-items-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday-item-1",
+        "yesterday-item-2",
+        "yesterday-item-3",
+        "yesterday-item-4"
+      ]
+    },
+    "yesterday-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday-badge-1",
+        "yesterday-text-1"
+      ]
+    },
+    "yesterday-badge-1": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "yesterday-text-1": {
+      "type": "Text",
+      "props": {
+        "text": "Regime flipped risk-off: breadth 28/100 green, BTC dom +0.49pp (alt rotation reversing)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "yesterday-item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday-badge-2",
+        "yesterday-text-2"
+      ]
+    },
+    "yesterday-badge-2": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "yesterday-text-2": {
+      "type": "Text",
+      "props": {
+        "text": "abetrade: NEW TRADER added — market psychology commentary on bottom-calling credibility",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "yesterday-item-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday-badge-3",
+        "yesterday-text-3"
+      ]
+    },
+    "yesterday-badge-3": {
+      "type": "Badge",
+      "props": {
+        "text": "pending",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "yesterday-text-3": {
+      "type": "Text",
+      "props": {
+        "text": "swarmister HR-2: cryptic \"next week\" → awaiting Kyle's read on @satsjava thread",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "yesterday-item-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday-badge-4",
+        "yesterday-text-4"
+      ]
+    },
+    "yesterday-badge-4": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "yesterday-text-4": {
+      "type": "Text",
+      "props": {
+        "text": "Stoiiic: BTC vol setup — dip interest 74-75K; 365d VWAP 82.4K = accept/reject line",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-watch",
+        "watch-items-stack"
+      ]
+    },
+    "heading-watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "watch-items-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "watch-item-1",
+        "watch-item-2"
+      ]
+    },
+    "watch-item-1": {
+      "type": "Text",
+      "props": {
+        "text": "NVDA earnings Aug 26: WR's \"first miss in 5 years\" damage-control thesis — crypto correlation read (focus #3)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "watch-item-2": {
+      "type": "Text",
+      "props": {
+        "text": "Jackson Hole Aug 27-29: Warsh first appearance; Jul 29 had 3 hawk dissenters (first since 2016) — rate-hike tail risk in play (focus #3)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-running",
+        "running-items-stack"
+      ]
+    },
+    "heading-running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "running-items-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "running-item-1",
+        "running-item-2",
+        "running-item-3",
+        "running-item-4",
+        "running-item-5",
+        "running-item-6",
+        "running-item-7"
+      ]
+    },
+    "running-item-1": {
+      "type": "Text",
+      "props": {
+        "text": "token-alert @ 12:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "running-item-2": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "running-item-3": {
+      "type": "Text",
+      "props": {
+        "text": "market-context-refresh @ 13:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "running-item-4": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "running-item-5": {
+      "type": "Text",
+      "props": {
+        "text": "skill-health @ 18:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "running-item-6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "running-item-6-text",
+        "running-item-6-alert"
+      ]
+    },
+    "running-item-6-text": {
+      "type": "Text",
+      "props": {
+        "text": "trader-memory-compact @ 20:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "running-item-6-alert": {
+      "type": "Alert",
+      "props": {
+        "message": "0.75 success_rate, 1 consecutive failure",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "running-item-7": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 08:00, 14:00, 20:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
