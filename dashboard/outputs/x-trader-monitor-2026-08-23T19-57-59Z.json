@@ -1,0 +1,64 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor — Calibration"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading",
+        "text-event",
+        "text-quote",
+        "text-question",
+        "link-view"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @swarmister",
+        "level": "h3"
+      }
+    },
+    "text-event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @FalconyFalcon",
+        "variant": "caption"
+      }
+    },
+    "text-quote": {
+      "type": "Text",
+      "props": {
+        "text": "swarmister: \"Average…\"",
+        "variant": "body"
+      }
+    },
+    "text-question": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "lead"
+      }
+    },
+    "link-view": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/swarmister/status/2091615269059748208"
+      }
+    }
+  }
+}
