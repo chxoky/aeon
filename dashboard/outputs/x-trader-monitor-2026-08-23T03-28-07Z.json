@@ -1,0 +1,43 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet",
+        "link"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "@Stoiiic",
+        "text": "Leaning towards getting some vol on Sunday futures open into Monday NYO.\n\nDip on BTC into 74-75 — first area of interest, looking to observe spot behavior on any retracement.\n\nCurrent 365d rolling vwap is a good line in the sand ~82.4, acceptance above this = continue to leg higher."
+      },
+      "children": []
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Stoiiic/status/2091365867703439705"
+      },
+      "children": []
+    }
+  }
+}
