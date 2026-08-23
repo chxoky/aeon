@@ -1,1 +1,7 @@
-market context 2026-08-22: risk-on consolidating (high conviction). BTC 77248 +0.9pct / ETH 2427 +2.6pct. F&G 71 Greed. Breadth 16/17. DEX vol 14.04B. Dominance flipped +0.21pp (rotation topping). HYPE ATH 82.43 - HCH short over 37pct underwater. ZEC 793 +25.2pct. XRP 1.50 fading from high of 1.69. Intraday flash crash absorbed. Jackson Hole T-5. BTC 80K Polymarket YES 63.2pct.
+market context — 2026-08-23
+
+take: risk-off (conviction medium)
+BTC $76,059 (−1.9%) / ETH $2,388 (−2.1%) · F&G 66 (Greed, ↓5)
+breadth 1/17 · DEX vol $11.75B (−16%)
+top narrative: CLARITY Act (rising) — week's 22% rally catalyst
+hot market: "ETH dip to $1K by Dec 2026" YES 7.5%
