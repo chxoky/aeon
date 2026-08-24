@@ -46,6 +46,7 @@
   - Aug 24 16:27Z — informational: SOXL 200-day MA technical setup; dual charts showing 35-36% recovery move off bottom with 2-bar formation; technical inflection observation, no personal execution [$SOXL-200D-MA] [2091925259503251735]
   - Aug 24 16:42Z — informational: global yields rising on government deficits + AI corporate issuance; bond vigilantes demanding higher compensation; managers should consider alternative reserves; macro sentiment [$BONDS/$YIELDS/$MACRO] [2091929254435139812]
   - Aug 24 17:03Z — informational: SPX ATH retest technical setup; "giving everyone time to buy perfect ATH retest"; 4 multi-timeframe charts showing prior ATH/resistance retesting pattern [$SPX-ATH-RETEST] [2091934420962038012]
+  - Aug 24 20:22Z — informational: AVGO fractal + NVDA weekend news failure price action; continuation thesis on semis weakness [$AVGO/$NVDA] [2091984548192297337]
 
 ## Bitcoin_Astro
 
