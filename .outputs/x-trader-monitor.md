@@ -1,12 +1,7 @@
-🐦 *[X] @Crypto_Chase*
+🐦 *[X] @Wild_Randomness*
 
-$BTC || 75K~ should be a good dip buy if we get a pullback. Target 83K~
+GOLD technical: XAUUSD/SPX multi-timeframe (1W + 1D) bottoming at 0.561. Recovery bounce to 0.611 with RSI recovering from oversold. Support zones marked on all timeframes. Follow-up to Aug 20 ratio analysis.
 
-[View tweet](https://x.com/Crypto_Chase/status/2091906338422943973)
-BTC bid-level technical opinion reply to @trdrlakin:
+Aligns with: KillaXBT short thesis (conflicting) | Kyle's watch list
 
-"The level should be a good bid regardless, but if 83K comes first then a pullback, then I'd TP a lower high."
-
-Conditional TP strategy on lower high target. Chart reference available but image couldn't be fetched.
-
-[View tweet](https://x.com/Crypto_Chase/status/2091907515755729226)
+[View tweet](https://x.com/Wild_Randomness/status/2091909938016858237)

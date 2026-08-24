@@ -1,0 +1,160 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweetcard_content",
+        "link_view",
+        "separator_1",
+        "technical_section",
+        "separator_2",
+        "alignment_section"
+      ]
+    },
+    "tweetcard_content": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "Wild_Randomness",
+        "text": "GOLD technical: XAUUSD/SPX multi-timeframe (1W + 1D) bottoming at 0.561. Recovery bounce to 0.611 with RSI recovering from oversold. Support zones marked on all timeframes. Follow-up to Aug 20 ratio analysis."
+      },
+      "children": []
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2091909938016858237"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "technical_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_technical",
+        "stat_bottom",
+        "stat_bounce",
+        "badge_rsi",
+        "badge_support"
+      ]
+    },
+    "heading_technical": {
+      "type": "Heading",
+      "props": {
+        "text": "Technical Analysis",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "stat_bottom": {
+      "type": "Stat",
+      "props": {
+        "label": "Bottom Level",
+        "value": "0.561"
+      },
+      "children": []
+    },
+    "stat_bounce": {
+      "type": "Stat",
+      "props": {
+        "label": "Recovery Bounce",
+        "value": "0.611"
+      },
+      "children": []
+    },
+    "badge_rsi": {
+      "type": "Badge",
+      "props": {
+        "text": "RSI recovering from oversold",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "badge_support": {
+      "type": "Badge",
+      "props": {
+        "text": "Support zones marked on all timeframes",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alignment_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_alignment",
+        "text_context",
+        "stack_aligns"
+      ]
+    },
+    "heading_alignment": {
+      "type": "Heading",
+      "props": {
+        "text": "Alignment & Context",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "Follow-up to Aug 20 ratio analysis",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "stack_aligns": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_killaXBT",
+        "badge_kyle"
+      ]
+    },
+    "badge_killaXBT": {
+      "type": "Badge",
+      "props": {
+        "text": "KillaXBT short thesis (conflicting)",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "badge_kyle": {
+      "type": "Badge",
+      "props": {
+        "text": "Kyle's watch list",
+        "variant": "default"
+      },
+      "children": []
+    }
+  }
+}
