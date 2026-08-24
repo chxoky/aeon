@@ -1,0 +1,138 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading-calibration",
+        "stack-event",
+        "separator-1",
+        "text-context",
+        "alert-escalation",
+        "stack-classification"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @swarmister",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack-event": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-event-header",
+        "tweetcard-swarmister"
+      ]
+    },
+    "text-event-header": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Liquidation taunt / market observation (Aug 24 15:52Z)",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "tweetcard-swarmister": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "I caught the guy who liquidated your long position. I don't think he regrets what he did, and he'll definitely do it again\n\nCry wigga https://t.co/8FFL57Tvtd"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text-context": {
+      "type": "Text",
+      "props": {
+        "text": "Context: Image is meme (cat attacking arm), not chart. Post directed at \"your\" position (unspecified trader). Cryptic liquidation commentary + taunting tone."
+      },
+      "children": []
+    },
+    "alert-escalation": {
+      "type": "Alert",
+      "props": {
+        "title": "CRITICAL ESCALATION",
+        "message": "This is the 12th+ ambiguous alert from swarmister in 72 hours (Aug 21-24 window). Pattern suggests inside-group banter, manic posting, or coordinated private-channel signal trading.",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "stack-classification": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-classification-prompt",
+        "text-classification-1",
+        "text-classification-2",
+        "text-classification-3",
+        "text-classification-4",
+        "text-calibration-request"
+      ]
+    },
+    "text-classification-prompt": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read? Is this:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text-classification-1": {
+      "type": "Text",
+      "props": {
+        "text": "(1) Inside-group joke/banter?"
+      },
+      "children": []
+    },
+    "text-classification-2": {
+      "type": "Text",
+      "props": {
+        "text": "(2) Commentary on actual market liquidations?"
+      },
+      "children": []
+    },
+    "text-classification-3": {
+      "type": "Text",
+      "props": {
+        "text": "(3) Taunting at specific trader?"
+      },
+      "children": []
+    },
+    "text-classification-4": {
+      "type": "Text",
+      "props": {
+        "text": "(4) Signal to contact someone?"
+      },
+      "children": []
+    },
+    "text-calibration-request": {
+      "type": "Text",
+      "props": {
+        "text": "Calibrate this pattern or recommend auto-skip on swarmister cryptic-replies going forward.",
+        "variant": "lead"
+      },
+      "children": []
+    }
+  }
+}
