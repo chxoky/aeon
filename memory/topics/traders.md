@@ -208,7 +208,7 @@
 - Recent thesis: Contrarian BTC short vs group bullish lean. Bullish semis vs bearish BTC. Added BNB/SHIB longs based on liquidity-filtered selection from Saturday's long squeeze. Risk-managed via position sizing. Portfolio overall profitable.
 - Conviction notes: DIVERGES from KillaXBT/HCH/t_in_crypto/bull_genius bullish BTC thesis. Medium conviction BTC; high conviction semis/tech. Very high cryptic-reply ratio (6+ calibration alerts Aug 21-23). New BNB/SHIB entry shows tactical/contrarian lean on alts.
 - Calibration: PENDING Aug 23 19:55Z ("@FalconyFalcon Average…"), PENDING Aug 23 15:05Z ("@xbt2027 Me"), PENDING Aug 23 06:41Z ("@satsjava Yeah, I'm planning to do that next week")
-- Last seen: 2026-08-24T05:49:56Z
+- Last seen: 2026-08-24T07:15:12Z
 - **Events (rolling):**
   - Aug 24 05:49Z — informational: $ETH bullish narrative weekly TF; stronger vs BTC locally; "looking to go long but didn't place an order"; regret miss; 7 charts [$ETH-BULLISH-MISSED] [2091764927333536118]
   - Aug 24 05:07Z — informational: liquidity-filtered coin selection from Saturday long squeeze (LINK, 1INCH avoided); open BNB + SHIB longs disclosed; 6 analysis charts [$BNB/$SHIB] [2091754316629483560]
