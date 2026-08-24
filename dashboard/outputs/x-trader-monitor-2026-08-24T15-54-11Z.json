@@ -1,0 +1,70 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet",
+        "separator",
+        "analysis",
+        "link"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "$BTC never seeing $50K again. The bottom is in, and next cycle the bottom will likely be in the high 90Ks. We are going to 160K+."
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis_heading",
+        "cycle_text",
+        "consensus_text"
+      ]
+    },
+    "analysis_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart Analysis",
+        "level": "h3"
+      }
+    },
+    "cycle_text": {
+      "type": "Text",
+      "props": {
+        "text": "Current cycle bottomed 100 days faster than historical (266d vs 364d)."
+      }
+    },
+    "consensus_text": {
+      "type": "Text",
+      "props": {
+        "text": "Market consensus (Kalshi): only 25% chance BTC hits $50K before $100K (implying 75% will reach $100K+ without revisiting $50K)."
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/KillaXBT/status/2091915701120389468"
+      }
+    }
+  }
+}

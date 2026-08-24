@@ -195,6 +195,7 @@
   - Aug 24 13:48Z — trade-position-management: "Remove first **BTC** short limit" (scalp hedge); front ran by $100; keeping 80.5K/82.2K limits intact; reply to prior limits context (Discord K, is_reply=true) [$BTC-SCALP-MGMT] [1541444113071738960]
   - Aug 24 14:39Z — informational: "+160K in 4 days. Patience is everything. Soon the hedges activate." (self-reply to Aug 21 hedge narrative); position update reflecting +160K P&L within 4 days (validates bullish conviction); reference to pending 79.5K/80.5K/82.2K short limits ready to execute (Discord K, is_reply=true) [$BTC-HEDGE-STATUS] [1541457021185040436]
   - Aug 24 14:42Z — informational: USDT 1B minting Tether Treasury; bottom-call validation with macro liquidity support [$BTC/$USDT] [2091898884511432720]
+  - Aug 24 15:49Z — informational: "$BTC never seeing $50K again; bottom is in, next cycle bottom ~90Ks, targeting 160K+"; cycle-speed validation (266d vs 364d historical); market consensus (Kalshi 25% $50K before $100K = 75% $100K+ without $50K revisit) [$BTC-CYCLE-BOTTOM] [2091915701120389468]
 
 ## trading_axe
 
