@@ -1,0 +1,52 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "chart-note",
+        "link-view"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Crypto Chase",
+        "handle": "@Crypto_Chase",
+        "text": "BTC bid-level technical opinion reply to @trdrlakin:\n\n\"The level should be a good bid regardless, but if 83K comes first then a pullback, then I'd TP a lower high.\"\n\nConditional TP strategy on lower high target."
+      },
+      "children": []
+    },
+    "chart-note": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "Chart reference available but image couldn't be fetched."
+      },
+      "children": []
+    },
+    "link-view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Crypto_Chase/status/2091907515755729226"
+      },
+      "children": []
+    }
+  }
+}
