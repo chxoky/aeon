@@ -39,6 +39,7 @@
   - Aug 24 01:12Z — informational: BTC 4yr cycle macro assessment; exchange liq map 28B upside vs 1.4B downside cliff; bullish structure despite bearish sentiment [$BTC-MACRO] [2091695009053766047]
   - Aug 24 13:45Z — informational: AVGO crash -6.30% + NVDA technical consolidation; semis complex weakness signal; "cinema" volatility [$NVDA/$AVGO] [2091884697970508120]
   - Aug 24 13:53Z — ambiguous: NVDA 1D consolidation chart + "What if?" cryptic post; context aligns with prior bearish semis theme but intent unclear [$NVDA] [2091886525982372119]
+  - Aug 24 14:00Z — ambiguous: "Stopped out on both on open" — trade-closure action on unspecified tickers; regretful tone ("didn't pay off fighting trend"); unable to determine which of (HYPE/LIT/PEPE/ENA/ZEC) were stopped out [$UNKNOWN-BOTH] [2091888270246621228]
 
 ## Bitcoin_Astro
 
