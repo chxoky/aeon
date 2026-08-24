@@ -1,0 +1,68 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "heading_calibration",
+        "separator_1",
+        "text_event",
+        "alert_message",
+        "separator_2",
+        "alert_classification"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: Chase — Crypto]",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Member question in supporting channel (context unknown)",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "alert_message": {
+      "type": "Alert",
+      "props": {
+        "title": "Member Message",
+        "message": "crypto_chase: \"But I don't know. I guess above the nearby local high\"",
+        "type": "info"
+      },
+      "children": []
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert_classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification Challenge",
+        "message": "Unable to classify — what's your read? Is this a price-level speculation, entry intent, or just market chatter?",
+        "type": "warning"
+      },
+      "children": []
+    }
+  }
+}
