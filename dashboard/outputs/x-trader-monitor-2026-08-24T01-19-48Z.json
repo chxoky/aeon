@@ -1,0 +1,60 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_stack",
+        "separator_1",
+        "analysis_text"
+      ]
+    },
+    "tweet_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet_card",
+        "tweet_link"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "@joosnjeets I'd say we are too far along time-wise into this four year cycle. I wanted the big flush down more than anyone but I need to honestly assess the situation here and the context of the macro btc makes sense here (despite all Saylor's cringe activity, I don't think he's a forced seller for years)"
+      },
+      "children": []
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2091695009053766047"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "↳ Confirms prior WR bullish macro BTC thesis (buy-side liquidity 28B upside / no liquidation cascade cliff downside). Exchange liq map + 3mo heatmap validate favorable consolidation for longs into 4yr cycle timing.",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
