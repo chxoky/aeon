@@ -1,0 +1,247 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor — Escalation Alert",
+        "description": "@swarmister — 10+ cryptic bare-reply tweets in 72 hours"
+      },
+      "children": [
+        "alert",
+        "separator1",
+        "latest-section",
+        "separator2",
+        "earlier-section",
+        "separator3",
+        "interpretations-section",
+        "separator4",
+        "recommendations-section"
+      ]
+    },
+    "alert": {
+      "type": "Alert",
+      "props": {
+        "title": "CRITICAL PATTERN: 10+ cryptic bare-reply tweets in 72 hours",
+        "message": "Unable to classify — what's your read?",
+        "type": "error"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "latest-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "latest-heading",
+        "latest-tweet"
+      ]
+    },
+    "latest-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Latest",
+        "level": "h3"
+      }
+    },
+    "latest-tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "@swarmister",
+        "text": "Hot. (replied to @crypto_petite)"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "earlier-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "earlier-heading",
+        "earlier-list"
+      ]
+    },
+    "earlier-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Earlier unresolved cryptic replies (Aug 24, 24h window)",
+        "level": "h3"
+      }
+    },
+    "earlier-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet1",
+        "tweet2",
+        "tweet3",
+        "tweet4"
+      ]
+    },
+    "tweet1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "pierre_crypt0",
+        "handle": "@pierre_crypt0",
+        "text": "Ye"
+      }
+    },
+    "tweet2": {
+      "type": "TweetCard",
+      "props": {
+        "author": "BittexXBT",
+        "handle": "@BittexXBT",
+        "text": "It's a trap"
+      }
+    },
+    "tweet3": {
+      "type": "TweetCard",
+      "props": {
+        "author": "AlucardTrades",
+        "handle": "@AlucardTrades",
+        "text": "AYYYOOOOOOOO LOOKS GUD"
+      }
+    },
+    "tweet4": {
+      "type": "TweetCard",
+      "props": {
+        "author": "0xTrenchor",
+        "handle": "@0xTrenchor",
+        "text": "Country*"
+      }
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "interpretations-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "interpretations-heading",
+        "interpretations-list"
+      ]
+    },
+    "interpretations-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Possible interpretations",
+        "level": "h3"
+      }
+    },
+    "interpretations-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "interp1",
+        "interp2",
+        "interp3",
+        "interp4"
+      ]
+    },
+    "interp1": {
+      "type": "Badge",
+      "props": {
+        "text": "inside-group banter",
+        "variant": "secondary"
+      }
+    },
+    "interp2": {
+      "type": "Badge",
+      "props": {
+        "text": "manic posting",
+        "variant": "secondary"
+      }
+    },
+    "interp3": {
+      "type": "Badge",
+      "props": {
+        "text": "private signal trading",
+        "variant": "secondary"
+      }
+    },
+    "interp4": {
+      "type": "Badge",
+      "props": {
+        "text": "pattern testing",
+        "variant": "secondary"
+      }
+    },
+    "separator4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "recommendations-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "recommendations-heading",
+        "recommendations-list"
+      ]
+    },
+    "recommendations-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Recommendations",
+        "level": "h3"
+      }
+    },
+    "recommendations-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "rec-a",
+        "rec-b",
+        "rec-c"
+      ]
+    },
+    "rec-a": {
+      "type": "Text",
+      "props": {
+        "text": "(A) contact swarmister for context",
+        "variant": "body"
+      }
+    },
+    "rec-b": {
+      "type": "Text",
+      "props": {
+        "text": "(B) auto-skip bare cryptic replies",
+        "variant": "body"
+      }
+    },
+    "rec-c": {
+      "type": "Text",
+      "props": {
+        "text": "(C) provide pattern guidance for future filtering",
+        "variant": "body"
+      }
+    }
+  }
+}
