@@ -1,0 +1,89 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor: Calibration Needed",
+        "description": "Unclear trader reply requires classification"
+      },
+      "children": [
+        "heading",
+        "context",
+        "separator1",
+        "tweet",
+        "separator2",
+        "question",
+        "metadata"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @swarmiester",
+        "level": "h3"
+      }
+    },
+    "context": {
+      "type": "Text",
+      "props": {
+        "text": "Reply context: @AlucardTrades post (content unknown to x-trader-monitor)",
+        "variant": "caption"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "@swarmiester",
+        "handle": "swarmiester",
+        "text": "What what"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "question": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read?",
+        "type": "warning"
+      }
+    },
+    "metadata": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ratio",
+        "pending"
+      ]
+    },
+    "ratio": {
+      "type": "Text",
+      "props": {
+        "text": "Trader has high cryptic-reply ratio",
+        "variant": "muted"
+      }
+    },
+    "pending": {
+      "type": "Badge",
+      "props": {
+        "text": "3 pending calibrations (Aug 23)",
+        "variant": "secondary"
+      }
+    }
+  }
+}
