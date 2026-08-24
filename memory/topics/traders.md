@@ -175,6 +175,7 @@
   - Aug 23 18:59Z — informational (X): bull market psychology; "don't take profits because market 'should' cool; stay positioned" [$BTC-BULL-PSYCHOLOGY] [2091601296830714037]
   - Aug 23 21:35Z — informational: BTC re-accumulation cycle; "mark up after manipulation/accumulation → re-accumulation next" [$BTC-CYCLE] [2091640524922847675]
   - Aug 24 09:39Z — informational: BTC PlanB chart phase transition (dark blue→light blue = bull run start); sarcasm at shorts [$BTC-CHART-PHASE] [2091822674620068058]
+  - Aug 24 11:47Z — informational: V-shaped recovery chart 58K→78.5K; celebratory sentiment on bottom call validation; "Who's laughing now, $BTC" [$BTC-RECOVERY] [2091854970261819561]
 
 ## trading_axe
 
