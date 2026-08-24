@@ -1,0 +1,52 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Skill Health"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-date",
+        "alert-health",
+        "stat-healthy"
+      ]
+    },
+    "text-date": {
+      "type": "Text",
+      "props": {
+        "text": "2026-08-24",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "alert-health": {
+      "type": "Alert",
+      "props": {
+        "title": "HEALTH",
+        "message": "OK",
+        "type": "success"
+      },
+      "children": []
+    },
+    "stat-healthy": {
+      "type": "Stat",
+      "props": {
+        "label": "Skills healthy",
+        "value": "8"
+      },
+      "children": []
+    }
+  }
+}

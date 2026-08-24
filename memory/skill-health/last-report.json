@@ -1,13 +1,13 @@
 {
   "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "last_notified_at": "2026-08-23T18:00:00Z",
-  "last_run_at": "2026-08-23T18:00:00Z",
+  "last_notified_at": "2026-08-24T18:00:00Z",
+  "last_run_at": "2026-08-24T18:00:00Z",
   "classification": {
     "critical": [],
     "degraded": [],
     "flapping": [],
-    "warning": ["trader-memory-compact"],
-    "healthy_count": 7,
+    "warning": [],
+    "healthy_count": 8,
     "no_data": []
   }
 }
