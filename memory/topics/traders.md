@@ -169,7 +169,7 @@
 - Current open positions: BTC HTF 2x swing LONG (62.6K entry, SL at BE, no profits target until >126K). BTC spot DCA (~11 BTC avg 65.9K, targeting 20 BTC total). Scalp hedge shorts: BTC limits at 79.5K (small), 80.5K, 82.2K (biggest) = ~40-50% hedge against spot. SOL: spot from 57K cold storage; two 84K continuation long limits (SL 79.29). HYPE long (entry $51.55 Aug 01, pending Kyle `approve HYPE`). GOLD short (context needed). Note: Aug 21 00:24Z 35% hedge (73.6-74.9K, HSL 76.1K) — HSL of 76.1K was BREACHED Aug 21 17:59Z; hedge superseded by new scalp limits.
 - Recent thesis: Structural BTC bull — bear cycle ~80% complete. 2.5yr target: dump at 126K+. Bottom confirmed Aug 21 09:56Z. Re-accumulation range expected below $80K (2023-style 200+ day range before breakout). Skeptical on 100K+ this year. "I simply refuse to be bearish on BTC from a HTF perspective." STH-SOPR flipped bullish (Aug 22 18:45Z on-chain confirmation). 6-month target ~$100K (Nov 2026).
 - Conviction notes: HTF bullish structural bias. "Shorts are scalps. Remember that." Tactical scalp shorts + structural long = hedge ethos. Research→analysis→execution→hedge→conviction-reaffirmation pattern. BTC still 65% below ATH = "everything below is a dip." Conditional retest entry: if BTC dips 69-72K → long on sub-accounts, HSL <59K.
-- Last seen: 2026-08-23T18:59:43Z
+- Last seen: 2026-08-24T18:17:22Z
 - **Events (rolling):**
   - Aug 20 12:15Z — informational: BTC re-accumulation range <$80K; $73.4-75K key level; 2023-style 200d range possible; caution on shorts (Discord K) [$BTC] [1539971206009323570]
   - Aug 20 17:05Z — informational: hedge plan: 35-40% at 73.6-74.9K, HSL 76.1K (Discord Trades) [$BTC-HEDGE-PLAN] [1540044097673494549]
@@ -200,6 +200,7 @@
   - Aug 24 14:39Z — informational: "+160K in 4 days. Patience is everything. Soon the hedges activate." (self-reply to Aug 21 hedge narrative); position update reflecting +160K P&L within 4 days (validates bullish conviction); reference to pending 79.5K/80.5K/82.2K short limits ready to execute (Discord K, is_reply=true) [$BTC-HEDGE-STATUS] [1541457021185040436]
   - Aug 24 14:42Z — informational: USDT 1B minting Tether Treasury; bottom-call validation with macro liquidity support [$BTC/$USDT] [2091898884511432720]
   - Aug 24 15:49Z — informational: "$BTC never seeing $50K again; bottom is in, next cycle bottom ~90Ks, targeting 160K+"; cycle-speed validation (266d vs 364d historical); market consensus (Kalshi 25% $50K before $100K = 75% $100K+ without $50K revisit) [$BTC-CYCLE-BOTTOM] [2091915701120389468]
+  - Aug 24 18:17Z — informational: Sell wall building above current price 79K; 80-83K region will take time to crack; behavioral/technical commentary on market structure + 2 liquidity depth charts [$BTC-SELL-WALL] [2091953026177138898]
 
 ## trading_axe
 
