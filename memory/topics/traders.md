@@ -287,6 +287,7 @@
   - Aug 24 07:11Z — informational: Historical BTC +20% weekly candle analysis; 9 instances since 2019; avg +32.9% over 8 weeks (78% win); current week +23% (62.8→77.7k); single-word affirm "yes" on pattern hold [$BTC-STATISTICS] [2091785529649930292]
   - Aug 24 01:21Z — informational: Weekly BTC structure review; 62.8→77.7k +23% explosive week; resistance zones (67/71/75k) all tested; consolidating 78k (ATH vwap); "eventually massive expansion up" bullish bias; won't go below yearly VAH extended time [$BTC] [2091697461022992728]
   - Aug 24 01:09Z — skip: "@AdamDelonga no i like eth more" — personal preference banter, aligns with documented ETH bullish thesis, no actionable signal [2091694296273395849]
+  - Aug 24 19:54Z — informational: Trader sentiment complaint; reports someone dismissing FWA ($13) reward as insufficient ("he literally told me..."); market psychology/sentiment commentary, not personal action [$FWA/$SENTIMENT] [2091977457838506368]
   - Aug 23 22:20Z — informational: BTC post-75.8k-dip analysis; "strongest weekly candle" + 2026-vah-to-82.8k-may-high resistance framework; range 83-75k then 100k target; volume-profile + avwap/rvwap/vah levels (2 charts) [$BTC-STRUCTURE-BULLISH] [2091651895009915088]
   - Aug 22 11:24Z — informational: "71.5-74K would be amazing but not far enough away to justify not buying"; DCA framework day 3 [$BTC/$DCA] [2091124243970826269]
   - Aug 22 10:26Z — informational: bullish reply to Ray Dalio; "buy the dip" sentiment [$MACRO] [2091109741875413073]
