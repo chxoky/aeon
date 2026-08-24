@@ -45,6 +45,7 @@
   - Aug 24 16:16Z — informational: SPX bearish sentiment via meme image ("try the long = bad idea") + options data table (puts/calls across 7000-7850 strikes); no personal execution language, market commentary only [$SPX-BEARISH-SENTIMENT] [2091922569280807412]
   - Aug 24 16:27Z — informational: SOXL 200-day MA technical setup; dual charts showing 35-36% recovery move off bottom with 2-bar formation; technical inflection observation, no personal execution [$SOXL-200D-MA] [2091925259503251735]
   - Aug 24 16:42Z — informational: global yields rising on government deficits + AI corporate issuance; bond vigilantes demanding higher compensation; managers should consider alternative reserves; macro sentiment [$BONDS/$YIELDS/$MACRO] [2091929254435139812]
+  - Aug 24 17:03Z — informational: SPX ATH retest technical setup; "giving everyone time to buy perfect ATH retest"; 4 multi-timeframe charts showing prior ATH/resistance retesting pattern [$SPX-ATH-RETEST] [2091934420962038012]
 
 ## Bitcoin_Astro
 
