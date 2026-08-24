@@ -1,0 +1,90 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet",
+        "separator",
+        "analysis"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "@swarmister",
+        "text": "$ETH bullish narrative on the weekly timeframe.\n\nIt followed the bullish scenario. And locally, it's showing itself to be stronger than Bitcoin. I was looking to go long on it, but I didn't place an order—what an idiot. I thought I had time, but it was already too late."
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis_heading",
+        "charts_detail",
+        "group_lean_container",
+        "view_link"
+      ]
+    },
+    "analysis_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Technical Analysis",
+        "level": "h3"
+      }
+    },
+    "charts_detail": {
+      "type": "Text",
+      "props": {
+        "text": "Charts: Weekly bullish breakout + volume profile. 4H consolidation triangle forming. Aligns with Crypto_Chase bullish-push thesis + Stoiiic VWAP support 2300-2400 zone.",
+        "variant": "body"
+      }
+    },
+    "group_lean_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "group_lean_label",
+        "group_lean_badge"
+      ]
+    },
+    "group_lean_label": {
+      "type": "Text",
+      "props": {
+        "text": "Group lean:",
+        "variant": "body"
+      }
+    },
+    "group_lean_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "BULLISH technical structure near-term before contested downside target",
+        "variant": "secondary"
+      }
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/swarmister/status/2091764927333536118"
+      }
+    }
+  }
+}
