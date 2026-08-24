@@ -1,0 +1,136 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "heartbeat",
+        "description": "Morning pipeline cascade failure"
+      },
+      "children": [
+        "alert_status",
+        "sep1",
+        "section_cascade"
+      ]
+    },
+    "alert_status": {
+      "type": "Alert",
+      "props": {
+        "title": "🔴 FAILED",
+        "message": "morning-pipeline cascade (07:39–07:44 UTC today)",
+        "type": "error"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "section_cascade": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_cascade",
+        "table_failures",
+        "sep2",
+        "section_root_cause"
+      ]
+    },
+    "heading_cascade": {
+      "type": "Heading",
+      "props": {
+        "text": "Failed Skills",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "table_failures": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Skill",
+          "Timestamp",
+          "Consecutive Failures"
+        ],
+        "rows": [
+          [
+            "morning-pipeline chain",
+            "2026-08-24 07:44 UTC",
+            ""
+          ],
+          [
+            "morning-brief",
+            "2026-08-24 07:43 UTC",
+            "1"
+          ],
+          [
+            "market-context-refresh",
+            "2026-08-24 07:39 UTC",
+            "2"
+          ],
+          [
+            "token-movers",
+            "2026-08-24 07:39 UTC",
+            "1"
+          ]
+        ]
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "section_root_cause": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_cause",
+        "text_cause",
+        "text_impact",
+        "text_retry"
+      ]
+    },
+    "heading_cause": {
+      "type": "Heading",
+      "props": {
+        "text": "Root Cause & Impact",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text_cause": {
+      "type": "Text",
+      "props": {
+        "text": "All four share the same api_error_status error signature — likely a transient Claude API error during the 07:00 UTC batch run.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_impact": {
+      "type": "Text",
+      "props": {
+        "text": "No morning brief delivered today.",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text_retry": {
+      "type": "Text",
+      "props": {
+        "text": "Next retry: token-alert / token-movers at 12:00 UTC.",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
