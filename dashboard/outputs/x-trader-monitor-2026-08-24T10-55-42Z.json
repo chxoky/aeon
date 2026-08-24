@@ -1,0 +1,86 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @swarmister",
+        "description": "Event: Reply to @pierre_crypt0"
+      },
+      "children": [
+        "tweet_card",
+        "separator1",
+        "context_stack"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "text": "Ye"
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "context_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "unable_text",
+        "pattern_text",
+        "questions_text",
+        "separator2",
+        "view_link"
+      ]
+    },
+    "unable_text": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "pattern_text": {
+      "type": "Text",
+      "props": {
+        "text": "This fits swarmister's escalating cryptic-reply pattern (6+ pending calibrations Aug 21-24).",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "questions_text": {
+      "type": "Text",
+      "props": {
+        "text": "Is this noise, agreement on something, or a financial signal I should track?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/swarmister/status/2091840901299458116"
+      },
+      "children": []
+    }
+  }
+}
