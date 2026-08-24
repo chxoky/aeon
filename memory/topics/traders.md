@@ -227,8 +227,9 @@
 - Current open positions: BASE/BASECAT (accumulated on dips; conditional add if lower — Aug 22 08:52Z). No confirmed BTC/ETH personal execution positions.
 - Recent thesis: BTC/ETH technical structure analyst. BTC "bear market end" conviction (Aug 21 07:22Z). ETH $3K target; 2850 multi-VWAP support confluence (Aug 21 22:43Z). DCA philosophy: "bad entries forgiven eventually as long as you don't wipe out on high lev." Crypto narrative ranking: perp dex wars > RWA > privacy coins > FX stables > ETH revival (Aug 21 16:02Z).
 - Conviction notes: Technical analyst/educator primarily (not personal position announcer). Medium-high conviction on BTC structural bottom + ETH upside. BASE position documented as personal entry (Aug 22 08:52Z — BASECAT preferred for Cobie angle + Robinhood competitive).
-- Last seen: 2026-08-23T22:20:47Z
+- Last seen: 2026-08-24T01:09:16Z
 - **Events (rolling):**
+  - Aug 24 01:09Z — skip: "@AdamDelonga no i like eth more" — personal preference banter, aligns with documented ETH bullish thesis, no actionable signal [2091694296273395849]
   - Aug 23 22:20Z — informational: BTC post-75.8k-dip analysis; "strongest weekly candle" + 2026-vah-to-82.8k-may-high resistance framework; range 83-75k then 100k target; volume-profile + avwap/rvwap/vah levels (2 charts) [$BTC-STRUCTURE-BULLISH] [2091651895009915088]
   - Aug 22 11:24Z — informational: "71.5-74K would be amazing but not far enough away to justify not buying"; DCA framework day 3 [$BTC/$DCA] [2091124243970826269]
   - Aug 22 10:26Z — informational: bullish reply to Ray Dalio; "buy the dip" sentiment [$MACRO] [2091109741875413073]
