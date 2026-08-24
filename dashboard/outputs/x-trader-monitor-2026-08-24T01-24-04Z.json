@@ -1,0 +1,63 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "sep1",
+        "link_post",
+        "sep2",
+        "text_alignment"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "trading_axe",
+        "handle": "@trading_axe",
+        "text": "We'll continue to rip hard next week.\n\nIf you guys didn't take advantage of the leverage flush over the weekend, you'll soon realize that in the \"prelims\" of a bull market, you blindly buy big dips.\n\nThe first to reach and front run others from \"catching on\" will be the most profitable [until we enter late stage of the bull and by then it's consensus].\n\nDon't overthink it, don't short and stay away from leverage unless you're sharp as fuck.\n\nMMs collaborating with VCs [who are investors in many coins i.e.: MONAD] will engineer ridiculous \"scam pumps\" as they've been waiting years for these market conditions.\n\nThere are two types of buyers in this market - sophisticated investors and degens. You should have exposure to both of their wants.\n\nIn both cases, price up = good/who cares about crime etc. etc.\n\n~ Dr. Axius"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/trading_axe/status/2091697110768816199"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_alignment": {
+      "type": "Text",
+      "props": {
+        "text": "Aligns with KillaXBT/bull_genius structural bull convergence (past 48h).",
+        "variant": "muted"
+      }
+    }
+  }
+}

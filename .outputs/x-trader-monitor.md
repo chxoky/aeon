@@ -1,26 +1,21 @@
-## Summary
+🐦 *[X] @trading_axe*
 
-**Skill: x-trader-monitor** — Real-time event processed ✓
+We'll continue to rip hard next week.
 
-**Event:** Tweet from @bull_genius at 2026-08-24 01:09:16 UTC
+If you guys didn't take advantage of the leverage flush over the weekend, you'll soon realize that in the "prelims" of a bull market, you blindly buy big dips.
 
-**Classification: SKIP (Non-financial)**
-- Text: "@AdamDelonga no i like eth more"
-- This is personal preference banter, not a financial signal
-- Aligns with bull_genius's documented bullish ETH thesis (Aug 21: $3K target + 2850 VWAP)
-- No execution language, no new market insight, no actionable signal
+The first to reach and front run others from "catching on" will be the most profitable [until we enter late stage of the bull and by then it's consensus].
 
-**Actions Taken:**
-- ✓ Deduplication check: tweet ID added to `memory/x-trader-seen.txt`
-- ✓ Traders.md updated: event logged under bull_genius section (skip classification)
-- ✓ Daily log updated: `memory/logs/2026-08-24.md` entry appended
-- ✓ No Kyle notification (skip = silent logging only)
+Don't overthink it, don't short and stay away from leverage unless you're sharp as fuck.
 
-**Result:** Event processed and filed to memory. No alert to Kyle.
-🐦 *[X] @Wild_Randomness*
+MMs collaborating with VCs [who are investors in many coins i.e.: MONAD] will engineer ridiculous "scam pumps" as they've been waiting years for these market conditions.
 
-"@joosnjeets I'd say we are too far along time-wise into this four year cycle. I wanted the big flush down more than anyone but I need to honestly assess the situation here and the context of the macro btc makes sense here (despite all Saylor's cringe activity, I don't think he's a forced seller for years)"
+There are two types of buyers in this market - sophisticated investors and degens. You should have exposure to both of their wants.
 
-[View tweet](https://x.com/Wild_Randomness/status/2091695009053766047)
+In both cases, price up = good/who cares about crime etc. etc.
 
-↳ _Confirms prior WR bullish macro BTC thesis (buy-side liquidity 28B upside / no liquidation cascade cliff downside). Exchange liq map + 3mo heatmap validate favorable consolidation for longs into 4yr cycle timing._
+~ Dr. Axius
+
+[View post](https://x.com/trading_axe/status/2091697110768816199)
+
+↳ _Aligns with KillaXBT/bull_genius structural bull convergence (past 48h)._
