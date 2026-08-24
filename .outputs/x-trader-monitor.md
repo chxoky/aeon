@@ -1,7 +1,5 @@
-🔍 *Calibration — @swarmister*
+🐦 *[X] @Crypto_Chase*
 
-Event: Cryptic mention of traders
+$BTC || 75K~ should be a good dip buy if we get a pullback. Target 83K~
 
-Post: "@DedWhaleson @mo_xbt @inversebrah Why"
-
-Unable to classify — appears to be a reply to an external event or other post. What's your read?
+[View tweet](https://x.com/Crypto_Chase/status/2091906338422943973)
