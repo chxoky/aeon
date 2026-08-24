@@ -1,0 +1,114 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-08-24"
+      },
+      "children": [
+        "transitions-heading",
+        "transitions-stack",
+        "separator-1",
+        "alert-heading",
+        "alert-stack"
+      ]
+    },
+    "transitions-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "transitions-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "trans-1",
+        "trans-2",
+        "trans-3",
+        "trans-4",
+        "trans-5"
+      ]
+    },
+    "trans-1": {
+      "type": "Text",
+      "props": {
+        "text": "DEMOTED: ZEC Privacy Run Rising → Fading — 4 consecutive sessions of deceleration (+33% peak Aug 22 → +2.4% today); OI crowding confirmed by Stoiiic framework; thin catalyst exhausted",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "trans-2": {
+      "type": "Text",
+      "props": {
+        "text": "NEW: Stoiiic Leverage-Breadth Overheat — first run of this signal; 8-episode historical framework triggered at BTC $79K; median −11.3% BTC drawdown predicted over next 14 days (by ~Sep 7)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "trans-3": {
+      "type": "Text",
+      "props": {
+        "text": "PROMOTED: DeFi Structural Bid Rising → Peak — AAVE/MORPHO/AERO 3 consecutive sessions leading; now showing OI extension (Stoiiic Aug 23 ranking: ENA #1, MORPHO #2 in extension intensity)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "trans-4": {
+      "type": "Text",
+      "props": {
+        "text": "NEW: BTC $80K Approach — emerged post Aug 21 breakout; 4-of-5 tracked traders bullish; ATH resistance cluster at 78.2K→81.3K→82.8K now in focus",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "trans-5": {
+      "type": "Text",
+      "props": {
+        "text": "DEMOTED: XRP Retail Narrative Peak → Fading — faded from $1.69 high to $1.50; bull_genius poker-game retail anecdote = late-cycle sentiment marker",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "alert-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "alert-text"
+      ]
+    },
+    "alert-text": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE ATH — HCH short >34% underwater creates reflexive squeeze bid; narrative (\\HCH",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
