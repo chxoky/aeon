@@ -1,0 +1,31 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet-card",
+        "view-link"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "BTC:QQQ:NDX — Reversal Pattern\n\n13% drawdown relative to QQQ over past 2 weeks now resolved into higher low formation. Character change evident with deviation pattern; structure validates recovery off support cluster.\n\nTechnical level: Hold above 2.55 for continuation\n\n4-chart multi-timeframe analysis shows clear double/triple bottom on 1D/1W; momentum recovering. Aligns with broader BTC bottoming thesis (convergent with KillaXBT/group structure)."
+      }
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2092001268139229263"
+      }
+    }
+  }
+}

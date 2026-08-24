@@ -1,13 +1,11 @@
-🔍 *Calibration — @Wild_Randomness*
+🐦 *[X] @Wild_Randomness*
 
-Event: Prior message asking "@Parida Turnaround Tuesday?" → equity market Tuesday reversal reference
-Wild_Randomness (now): "Just early preparations for Turnaround Tuesday"
+**BTC:QQQ:NDX — Reversal Pattern**
 
-Unable to classify — cryptic context:
-- "Early preparations" = personal positioning action, or market-sentiment commentary?
-- Turnaround Tuesday = equity seasonal setup (SPX pattern); WR is equities/vol specialist
-- No explicit execution language or ticker
+13% drawdown relative to QQQ over past 2 weeks now resolved into higher low formation. Character change evident with deviation pattern; structure validates recovery off support cluster.
 
-What's your read?
+Technical level: **Hold above 2.55 for continuation**
 
-https://x.com/Wild_Randomness/status/2091998438108070082
+4-chart multi-timeframe analysis shows clear double/triple bottom on 1D/1W; momentum recovering. Aligns with broader BTC bottoming thesis (convergent with KillaXBT/group structure).
+
+[View post](https://x.com/Wild_Randomness/status/2092001268139229263)
