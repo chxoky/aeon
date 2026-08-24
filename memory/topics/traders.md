@@ -208,8 +208,9 @@
 - Recent thesis: Contrarian BTC short vs group bullish lean. Bullish semis vs bearish BTC. Risk-managed via position sizing (BTC 1/4 capital; SNDK 8x volume). Portfolio overall profitable. "Haven't averaged down on short yet."
 - Conviction notes: DIVERGES from KillaXBT/HCH/t_in_crypto/bull_genius bullish BTC thesis. Medium conviction BTC; high conviction semis/tech. Very high cryptic-reply ratio (6+ calibration alerts Aug 21-23, mostly banter).
 - Calibration: PENDING Aug 23 19:55Z ("@FalconyFalcon Average…"), PENDING Aug 23 15:05Z ("@xbt2027 Me"), PENDING Aug 23 06:41Z ("@satsjava Yeah, I'm planning to do that next week")
-- Last seen: 2026-08-23T19:55:15Z
+- Last seen: 2026-08-24T04:51:43Z
 - **Events (rolling):**
+  - Aug 24 04:51Z — informational: BTC consolidation structure (upper 78.6k/lower 75.5k) with charts; existing short waiting for test, conditional long if breakout; NEAR sell-off short (past entry) [$BTC/$NEAR] [2091750275606311211]
   - Aug 20 20:45Z — ambiguous: "Top" — single word, possible BTC top-call or banter [$UNKNOWN] [2090540628903878862]
   - Aug 21 06:53Z — informational: BTC short 1/4 capital (-179.72%) + SNDK long 8x (+402.77%); "haven't averaged down on short yet" [$BTC-SHORT/$SNDK-LONG] [2090693791481020635]
   - Aug 21 08:57Z — informational: "ok BTC up 25% but have you seen Micron or SanDisk" — semis outperformance [$SNDK/$MU] [2090724858384539972]
