@@ -1,0 +1,166 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration & Classification Request"
+      },
+      "children": [
+        "heading-title",
+        "sep-1",
+        "event-stack",
+        "sep-2",
+        "tweet-content",
+        "sep-3",
+        "classification-section",
+        "sep-4",
+        "link-section",
+        "sep-5",
+        "status-alert"
+      ]
+    },
+    "heading-title": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Crypto_Chase",
+        "level": "h2"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "event-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event-label",
+        "reply-context"
+      ]
+    },
+    "event-label": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @Rictangular1",
+        "variant": "lead"
+      }
+    },
+    "reply-context": {
+      "type": "Text",
+      "props": {
+        "text": "(context unknown — original message not visible in event payload)",
+        "variant": "caption"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-content": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Crypto Chase",
+        "handle": "Crypto_Chase",
+        "text": "no, not unless its going way lower"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "classification-prompt",
+        "options-stack"
+      ]
+    },
+    "classification-prompt": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read? Is this:",
+        "variant": "lead"
+      }
+    },
+    "options-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "option-1",
+        "option-2",
+        "option-3",
+        "option-4"
+      ]
+    },
+    "option-1": {
+      "type": "Text",
+      "props": {
+        "text": "(1) Bearish entry condition for an unnamed asset?"
+      }
+    },
+    "option-2": {
+      "type": "Text",
+      "props": {
+        "text": "(2) Dismissal of a trade idea?"
+      }
+    },
+    "option-3": {
+      "type": "Text",
+      "props": {
+        "text": "(3) Market prediction or price level reference?"
+      }
+    },
+    "option-4": {
+      "type": "Text",
+      "props": {
+        "text": "(4) Response to a personal/non-trading question?"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link-section": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Crypto_Chase/status/2091968619328475534"
+      }
+    },
+    "sep-5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "status-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Pending Clarification",
+        "message": "Awaiting clarification for traders.md record.",
+        "type": "info"
+      }
+    }
+  }
+}

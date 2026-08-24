@@ -163,6 +163,7 @@
   - Aug 24 15:30Z — skip: personal BTC market commentary "i had a friend tell me to buy BTC at $11...don't think 80K is a good opportunity (just my opinion)"; banter/anecdote, no execution language [$BANTER] [1541469728982171818]
   - Aug 24 15:32Z — ambiguous (Discord Crypto supporting): "So it should either be my box or the high timeframe box or it's weak and this was a scam or something" — cryptic support/resistance level analysis; unclear which asset/trade; no execution language; calibration sent [$UNKNOWN] [1541470146483322941]
   - Aug 24 19:19Z — ambiguous (Discord Crypto supporting): [chart-only reply to member BTC invalidation question]; attachment unreadable; calibration sent [$BTC-INVALIDATION] [1541527455913873549]
+  - Aug 24 19:19Z — ambiguous: Reply to @Rictangular1: "no, not unless its going way lower" — cryptic response to unknown question; unclear whether (1) bearish entry condition for unnamed asset, (2) market prediction, (3) dismissal of trade idea, or (4) response to personal question; context unavailable without @Rictangular1 original message; HR-2 calibration alert sent to Kyle [$UNKNOWN] [2091968619328475534]
 
 ## KillaXBT
 
