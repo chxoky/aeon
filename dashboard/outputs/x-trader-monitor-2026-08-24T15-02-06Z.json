@@ -1,0 +1,108 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "🔍 Calibration — @swarmister"
+      },
+      "children": [
+        "event_section",
+        "separator_1",
+        "post_section",
+        "separator_2",
+        "status_section"
+      ]
+    },
+    "event_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event_label",
+        "event_heading"
+      ]
+    },
+    "event_label": {
+      "type": "Text",
+      "props": {
+        "text": "Event:",
+        "variant": "caption"
+      }
+    },
+    "event_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Cryptic mention of traders",
+        "level": "h3"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "post_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "post_label",
+        "tweet_card"
+      ]
+    },
+    "post_label": {
+      "type": "Text",
+      "props": {
+        "text": "Post:",
+        "variant": "caption"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Unknown",
+        "text": "@DedWhaleson @mo_xbt @inversebrah Why"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "status_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "status_alert",
+        "question_text"
+      ]
+    },
+    "status_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Appears to be a reply to an external event or other post.",
+        "type": "info"
+      }
+    },
+    "question_text": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "lead"
+      }
+    }
+  }
+}
