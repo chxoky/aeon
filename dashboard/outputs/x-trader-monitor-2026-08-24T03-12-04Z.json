@@ -1,0 +1,31 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-1",
+        "link-post"
+      ]
+    },
+    "tweet-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "@Stoiiic",
+        "text": "PENDLE lagging -34 heat rank while PUMP/HYPE/ZEC/LIT surge. Most positioning piling onto leaders — PENDLE has room to 'catch up'.\n\nChart: PENDLE at pivotal yearly VWAP ±std-dev band level (~1.7-1.8) for potential upside flip.\n\nRWA positioning dynamics driving alt-dominance rotation."
+      }
+    },
+    "link-post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Stoiiic/status/2091723804238115241"
+      }
+    }
+  }
+}
