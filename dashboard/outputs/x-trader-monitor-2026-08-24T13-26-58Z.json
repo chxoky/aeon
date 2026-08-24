@@ -1,0 +1,157 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "CRITICAL ESCALATION — @swarmister Calibration Pattern"
+      },
+      "children": [
+        "alert-critical",
+        "sep1",
+        "timeline-stack",
+        "sep2",
+        "text-latest",
+        "sep3",
+        "text-pattern",
+        "sep4",
+        "analysis-stack",
+        "sep5",
+        "recommendation",
+        "link-view"
+      ]
+    },
+    "alert-critical": {
+      "type": "Alert",
+      "props": {
+        "type": "error",
+        "title": "Critical Escalation",
+        "message": "9th+ cryptic-reply alert in 72 hours (Aug 21-24)"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "timeline-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-timeline",
+        "text-aug21",
+        "text-aug2223",
+        "text-aug24"
+      ]
+    },
+    "heading-timeline": {
+      "type": "Heading",
+      "props": {
+        "text": "Timeline",
+        "level": "h3"
+      }
+    },
+    "text-aug21": {
+      "type": "Text",
+      "props": {
+        "text": "Aug 21: 6 ambiguous posts (6+ calibration pending)"
+      }
+    },
+    "text-aug2223": {
+      "type": "Text",
+      "props": {
+        "text": "Aug 22-23: escalating cryptic replies"
+      }
+    },
+    "text-aug24": {
+      "type": "Text",
+      "props": {
+        "text": "Aug 24: 3 more by 13:20Z"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "text-latest": {
+      "type": "Text",
+      "props": {
+        "text": "Latest: @_CryptoAnubis @0xAnarchic 'No.' — bare 1-word reply"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "text-pattern": {
+      "type": "Text",
+      "props": {
+        "text": "Pattern: consistent bare-reply posts, impossible to classify without thread context.",
+        "variant": "muted"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "analysis-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-analysis",
+        "option-a",
+        "option-b",
+        "option-c"
+      ]
+    },
+    "heading-analysis": {
+      "type": "Heading",
+      "props": {
+        "text": "Your read",
+        "level": "h3"
+      }
+    },
+    "option-a": {
+      "type": "Text",
+      "props": {
+        "text": "(A) Inside group banter — auto-skip future cryptic-replies?"
+      }
+    },
+    "option-b": {
+      "type": "Text",
+      "props": {
+        "text": "(B) Coordinated signal within private group — request DM context?"
+      }
+    },
+    "option-c": {
+      "type": "Text",
+      "props": {
+        "text": "(C) Behavior change flag — check directly with @swarmister?"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {}
+    },
+    "recommendation": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify in isolation. Recommend guidance to calibrate future alerts.",
+        "variant": "lead"
+      }
+    },
+    "link-view": {
+      "type": "Link",
+      "props": {
+        "label": "View latest",
+        "href": "https://x.com/swarmister/status/2091878259575202243"
+      }
+    }
+  }
+}
