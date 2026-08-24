@@ -1,0 +1,80 @@
+{
+  "root": "main",
+  "state": {},
+  "elements": {
+    "main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "🔍 Calibration — [DC: Chase — Crypto]"
+      },
+      "children": [
+        "context",
+        "message",
+        "separator",
+        "analysis_heading",
+        "classification_options"
+      ]
+    },
+    "context": {
+      "type": "Text",
+      "props": {
+        "text": "Message in supporting channel (member Q&A)",
+        "variant": "caption"
+      }
+    },
+    "message": {
+      "type": "TweetCard",
+      "props": {
+        "author": "crypto_chase",
+        "text": "So it should either be my box or the high timeframe box or it's weak and this was a scam or something"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_heading": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "lead"
+      }
+    },
+    "classification_options": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "option1",
+        "option2",
+        "option3"
+      ]
+    },
+    "option1": {
+      "type": "Badge",
+      "props": {
+        "text": "Structure setup reference (support zone)",
+        "variant": "outline"
+      }
+    },
+    "option2": {
+      "type": "Badge",
+      "props": {
+        "text": "Trade doubt",
+        "variant": "outline"
+      }
+    },
+    "option3": {
+      "type": "Badge",
+      "props": {
+        "text": "Something else?",
+        "variant": "outline"
+      }
+    }
+  }
+}
