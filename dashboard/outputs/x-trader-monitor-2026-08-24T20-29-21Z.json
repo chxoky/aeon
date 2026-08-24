@@ -1,0 +1,87 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "X-Trader Monitor: Wild_Randomness"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet",
+        "stack-badges",
+        "link-post",
+        "sep1",
+        "alert-charts"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "$AVGO $NVDA\n\nSo AVGO was in fact 10 days ahead of NVDA's PA✨ boomed the win.\n\nHowever, let's have a look at AVGO's subsequent performance after it lost the 50📍 oh god"
+      },
+      "children": []
+    },
+    "stack-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-avgo",
+        "badge-nvda"
+      ]
+    },
+    "badge-avgo": {
+      "type": "Badge",
+      "props": {
+        "text": "$AVGO"
+      },
+      "children": []
+    },
+    "badge-nvda": {
+      "type": "Badge",
+      "props": {
+        "text": "$NVDA"
+      },
+      "children": []
+    },
+    "link-post": {
+      "type": "Link",
+      "props": {
+        "label": "View full post on X",
+        "href": "https://x.com/Wild_Randomness/status/2091984164790931711"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert-charts": {
+      "type": "Alert",
+      "props": {
+        "title": "Chart Images Unavailable",
+        "message": "Chart images unable to read (media fetch blocked); review post directly for technical levels.",
+        "type": "warning"
+      },
+      "children": []
+    }
+  }
+}
