@@ -1,5 +1,7 @@
-🐦 *[X] @Wild_Randomness*
+🐦 *Sentiment — @swarmister*
 
-Again, quite the rare occurrence that they are giving everyone so much time to buy the perfect ATH retest…
+Here's what the ppl who shorted these coins look like [exhausted face meme]
 
-[View tweet](https://x.com/Wild_Randomness/status/2091934420962038012)
+Ironic: swarmister himself is -179% underwater on a BTC short (20x lev, 1/4 capital). Self-aware market commentary on shorts getting wrecked in the 62K→77K rally.
+
+[View post](https://x.com/swarmister/status/2091936770321448970)

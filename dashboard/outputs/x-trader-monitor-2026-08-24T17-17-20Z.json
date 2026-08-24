@@ -1,0 +1,73 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "🐦 Sentiment — @swarmister"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "separator-1",
+        "text-intro",
+        "stat-loss",
+        "text-commentary",
+        "link-post"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "Here's what the ppl who shorted these coins look like [exhausted face meme]"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-intro": {
+      "type": "Text",
+      "props": {
+        "text": "Ironic: swarmister himself is underwater on a BTC short (20x lev, 1/4 capital).",
+        "variant": "lead"
+      }
+    },
+    "stat-loss": {
+      "type": "Stat",
+      "props": {
+        "label": "Current Loss",
+        "value": "-179%",
+        "trend": "down"
+      }
+    },
+    "text-commentary": {
+      "type": "Text",
+      "props": {
+        "text": "Self-aware market commentary on shorts getting wrecked in the 62K→77K rally.",
+        "variant": "body"
+      }
+    },
+    "link-post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/swarmister/status/2091936770321448970"
+      }
+    }
+  }
+}

@@ -238,6 +238,7 @@
 - Last seen: 2026-08-24T15:52:06Z
 - **Events (rolling):**
   - Aug 24 16:30Z — skip: meme image (military cat soldier) + "Lmoew" reply @kaitorey1 @tienluncon610; non-financial banter; 13th+ escalation in 72h [$NONE] [2091926118177619976]
+  - Aug 24 17:12Z — informational: "here's what the ppl who shorted these coins look like" + meme image (exhausted face); ironic self-aware sentiment on shorts underwater; swarmister himself holding -179% underwater BTC short; market sentiment commentary [$BTC-SHORT-SENTIMENT] [2091936770321448970]
   - Aug 24 15:52Z — ambiguous: liquidation-taunting "I caught the guy who liquidated your long position...Cry wigga" + meme image; cryptic banter to unknown trader; 12th+ calibration alert in 72h [$UNKNOWN] [2091916465666417129]
   - Aug 24 14:57Z — ambiguous: "@DedWhaleson @mo_xbt @inversebrah Why" — context unknown, 11th+ cryptic reply in 72h; calibration sent [$UNKNOWN] [2091902708370268393]
   - Aug 24 14:06Z — informational: $SKY 15m building long setup; POI retest uptrend continuation targets [$SKY] [2091889919702507799]
