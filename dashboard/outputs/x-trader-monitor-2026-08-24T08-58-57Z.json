@@ -1,0 +1,54 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @swarmister"
+      },
+      "children": [
+        "event-type",
+        "sep1",
+        "tweet-card",
+        "sep2",
+        "classification-note"
+      ]
+    },
+    "event-type": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @AlucardTrades on a trade/chart setup",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "@swarmister",
+        "text": "@AlucardTrades AYYYOOOOOOOO LOOKS GUD"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification-note": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read? (High cryptic-reply ratio from this trader — 6+ calibration alerts Aug 21-23)",
+        "type": "info"
+      }
+    }
+  }
+}
