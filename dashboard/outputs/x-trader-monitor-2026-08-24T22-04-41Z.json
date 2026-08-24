@@ -1,0 +1,49 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "link_view",
+        "text_analysis"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "if you are in ai, pivot to crypto"
+      }
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/bull_genius/status/2092009181331014079"
+      }
+    },
+    "text_analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Aligns with group's bullish crypto lean (post-Aug 07 net-long regime shift)",
+        "variant": "caption"
+      }
+    }
+  }
+}

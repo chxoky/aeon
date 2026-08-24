@@ -1,11 +1,7 @@
-🐦 *[X] @Wild_Randomness*
+🐦 *[X] @bull_genius*
 
-**BTC:QQQ:NDX — Reversal Pattern**
+if you are in ai, pivot to crypto
 
-13% drawdown relative to QQQ over past 2 weeks now resolved into higher low formation. Character change evident with deviation pattern; structure validates recovery off support cluster.
+[View tweet](https://x.com/bull_genius/status/2092009181331014079)
 
-Technical level: **Hold above 2.55 for continuation**
-
-4-chart multi-timeframe analysis shows clear double/triple bottom on 1D/1W; momentum recovering. Aligns with broader BTC bottoming thesis (convergent with KillaXBT/group structure).
-
-[View post](https://x.com/Wild_Randomness/status/2092001268139229263)
+↳ _Aligns with group's bullish crypto lean (post-Aug 07 net-long regime shift)_
