@@ -1,0 +1,139 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "heading_calibration",
+        "sep1",
+        "stack_metadata",
+        "sep2",
+        "text_event",
+        "sep3",
+        "heading_message",
+        "tweet_chase",
+        "sep4",
+        "heading_context",
+        "text_context",
+        "sep5",
+        "heading_question",
+        "text_question"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: Chase — TradFi]",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_metadata": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_channel",
+        "badge_timestamp"
+      ]
+    },
+    "badge_channel": {
+      "type": "Badge",
+      "props": {
+        "text": "Channel: Supporting (TradFi member Q&A)",
+        "variant": "default"
+      }
+    },
+    "badge_timestamp": {
+      "type": "Badge",
+      "props": {
+        "text": "2026-08-24 14:10:47 UTC",
+        "variant": "outline"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Ambiguous technical commentary with chart",
+        "variant": "lead"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_message": {
+      "type": "Heading",
+      "props": {
+        "text": "Discord Message",
+        "level": "h3"
+      }
+    },
+    "tweet_chase": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Crypto_Chase",
+        "text": "INTC never even got to the box for short\n+ 1 attachment (chart image)"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_context": {
+      "type": "Heading",
+      "props": {
+        "text": "Prior Context",
+        "level": "h3"
+      }
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "Prior INTC sentiment (Jul 17 14:06): \"lowest confidence out of Micron, SanDisk, and Intel\"; conditional long on deep unwind (~90 entry, ~120 target), but bearish near-term. Supporting channel suggests technical setup discussion rather than execution.",
+        "variant": "body"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_question": {
+      "type": "Heading",
+      "props": {
+        "text": "Interpretation Question",
+        "level": "h3"
+      }
+    },
+    "text_question": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify without seeing chart — what's your read? Failed entry setup, or technical rejection commentary?",
+        "variant": "body"
+      }
+    }
+  }
+}

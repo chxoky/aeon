@@ -145,6 +145,7 @@
   - Aug 23 14:55Z — informational: ETH shorting discipline; all timeframes must agree; "only take high-confidence trades" [$ETH-SHORT-DISCIPLINE] [1541098610383519844]
   - Aug 23 15:02Z — informational: entry strategy defense + track record: "HYPE/ETH reads right, equities liquidity trades sharp" [$TRACK-RECORD] [1541100245738590428]
   - Aug 23 15:21Z — informational: "@baaker_ relevant high/low and also check the H4" — entry zone guidance [$TECHNICAL-GUIDANCE] [1541104994831442000]
+  - Aug 24 14:10Z — ambiguous (Discord TradFi supporting): "INTC never even got to the box for short" + chart image; cryptic commentary on failed entry setup; matches prior INTC bearish sentiment ("lowest confidence", Jul 17) but execution context unclear [$INTC-CHART] [1541449702786990162]
 
 ## KillaXBT
 
