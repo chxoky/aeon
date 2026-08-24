@@ -1,0 +1,32 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "SPX bearish options sentiment analysis"
+      },
+      "children": [
+        "tweet-card",
+        "tweet-link"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "SPX bearish options sentiment — meme ('GO AHEAD, TRY THE LONG YOU'LL LIKE IT' bear-head joke) + options data table (puts/calls, 7000-7850 strikes, multiple expiries through 12/18/2026).\n\nMarket commentary on equity skepticism; aligns with WR macro bearish-into-Q4 thesis."
+      }
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2091922569280807412"
+      }
+    }
+  }
+}

@@ -42,6 +42,7 @@
   - Aug 24 14:00Z — ambiguous: "Stopped out on both on open" — trade-closure action on unspecified tickers; regretful tone ("didn't pay off fighting trend"); unable to determine which of (HYPE/LIT/PEPE/ENA/ZEC) were stopped out [$UNKNOWN-BOTH] [2091888270246621228]
   - Aug 24 14:50Z — skip: URL-only Breaking Bad meme post; no financial signal per calibration [$NONE] [2091900849794830820]
   - Aug 24 15:26Z — informational: XAUUSD/SPX ratio multi-timeframe bottoming pattern; 4 charts showing 0.561 lows with recovery bounce 0.600-0.611; aligns with prior Aug 20 ratio analysis; macro technical setup [$GOLD/$SPX] [2091909938016858237]
+  - Aug 24 16:16Z — informational: SPX bearish sentiment via meme image ("try the long = bad idea") + options data table (puts/calls across 7000-7850 strikes); no personal execution language, market commentary only [$SPX-BEARISH-SENTIMENT] [2091922569280807412]
 
 ## Bitcoin_Astro
 
