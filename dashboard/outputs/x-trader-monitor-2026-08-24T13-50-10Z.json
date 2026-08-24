@@ -1,0 +1,87 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "separator-1",
+        "data-row",
+        "separator-2",
+        "analysis-text"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "Wild_Randomness",
+        "text": "$NVDA — Semis complex under pressure as Broadcom ($AVGO) crashes -6.30%. Charts show NVDA consolidation after recent run. \"Cinema\" volatility comment suggests intraday drama."
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "data-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat-avgo",
+        "badge-nvda"
+      ]
+    },
+    "stat-avgo": {
+      "type": "Stat",
+      "props": {
+        "label": "AVGO",
+        "value": "-6.30%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "badge-nvda": {
+      "type": "Badge",
+      "props": {
+        "text": "NVDA • Consolidation"
+      },
+      "children": []
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis-text": {
+      "type": "Text",
+      "props": {
+        "text": "↳ AVGO weakness may drag chip sentiment. NVDA on watch list — monitor for structure breakdown.",
+        "variant": "lead"
+      },
+      "children": []
+    }
+  }
+}
