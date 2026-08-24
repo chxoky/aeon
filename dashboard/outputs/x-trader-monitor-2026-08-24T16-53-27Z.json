@@ -1,0 +1,33 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "tweet_link"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Global yields rising on government deficits + competition with heightened corporate AI issuance. Bond vigilantes demanding higher compensation; don't expect them to \"just sit around and take it.\" Long-term yields unchanged from 3 years ago → managers should consider alternative reserve assets.\n\nMacro sentiment on bond dynamics. No personal trade execution."
+      },
+      "children": []
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2091929254435139812"
+      },
+      "children": []
+    }
+  }
+}
