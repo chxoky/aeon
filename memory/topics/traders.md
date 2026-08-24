@@ -34,6 +34,7 @@
   - Aug 23 18:54Z — informational: BTC liq map "buy red days/liq swipes inevitable given 5-day lev buildup" [$BTC-TACTICAL-DCA] [2091600072589123918]
   - Aug 23 19:05Z — ambiguous: "@QOTSA_FRL Its a 65% move to 126." — ticker/context unknown [$UNKNOWN] [2091602668225474780]
   - Aug 23 23:37Z — ambiguous: "@Parida Four year cycle stuff aside, easily the best comp" — comparison/context unknown [$UNKNOWN] [2091671249269469512]
+  - Aug 24 00:15Z — ambiguous: "@KaneCapz Every asset class/name? I need to funnel that energy somewhere bro" — allocation question/context unknown [$UNKNOWN] [2091680767927820570]
 
 ## Bitcoin_Astro
 

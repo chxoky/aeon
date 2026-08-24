@@ -13,3 +13,12 @@ Let's assess the engulfing weekly candles that ended the three previous bear mar
 * ofc too early to conclude anything but that's the right type of candle…
 
 [View post](https://x.com/Wild_Randomness/status/2091680090283450543)
+Event: Reply to @KaneCapz, asking about asset class allocation
+
+@Wild_Randomness: "Every asset class/name?
+
+I need to funnel that energy somewhere bro"
+
+Unable to classify — what's your read? Is this market commentary, a genuine allocation question, or banter?
+
+[View post](https://x.com/Wild_Randomness/status/2091680767927820570)
