@@ -1,0 +1,63 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "sep1",
+        "macro_heading",
+        "commentary_text",
+        "link_tweet"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "Nailed it... $BTC"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "macro_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Macro validation",
+        "level": "h3"
+      }
+    },
+    "commentary_text": {
+      "type": "Text",
+      "props": {
+        "text": "Whale Alert just posted 1B USDT minted at Tether Treasury (fresh liquidity injection). Aligns with KillaXBT's bottom-call validation & structural bull thesis."
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/KillaXBT/status/2091898884511432720"
+      }
+    }
+  }
+}
