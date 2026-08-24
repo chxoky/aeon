@@ -177,6 +177,7 @@
   - Aug 23 21:35Z — informational: BTC re-accumulation cycle; "mark up after manipulation/accumulation → re-accumulation next" [$BTC-CYCLE] [2091640524922847675]
   - Aug 24 09:39Z — informational: BTC PlanB chart phase transition (dark blue→light blue = bull run start); sarcasm at shorts [$BTC-CHART-PHASE] [2091822674620068058]
   - Aug 24 11:47Z — informational: V-shaped recovery chart 58K→78.5K; celebratory sentiment on bottom call validation; "Who's laughing now, $BTC" [$BTC-RECOVERY] [2091854970261819561]
+  - Aug 24 13:48Z — trade-position-management: "Remove first **BTC** short limit" (scalp hedge); front ran by $100; keeping 80.5K/82.2K limits intact; reply to prior limits context (Discord K, is_reply=true) [$BTC-SCALP-MGMT] [1541444113071738960]
 
 ## trading_axe
 
