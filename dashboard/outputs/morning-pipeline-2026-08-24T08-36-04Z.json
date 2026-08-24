@@ -1,0 +1,213 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-08-24"
+      },
+      "children": [
+        "focus-heading",
+        "focus-stack",
+        "sep1",
+        "yesterday-heading",
+        "yesterday-stack",
+        "sep2",
+        "watch-heading",
+        "watch-text",
+        "sep3",
+        "running-heading",
+        "running-stack"
+      ]
+    },
+    "focus-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "focus-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus-1",
+        "focus-2",
+        "focus-3"
+      ]
+    },
+    "focus-1": {
+      "type": "Text",
+      "props": {
+        "text": "1. Jackson Hole T-3 / Warsh keynote Aug 28 AM — why now: \"Financial Innovation\" theme; positions need bull/bear plans before Friday."
+      }
+    },
+    "focus-2": {
+      "type": "Text",
+      "props": {
+        "text": "2. Stoiiic leverage-breadth overheat signal — why now: −11.3% median BTC drawdown predicted next 14 days (statistical, 90% CI)."
+      }
+    },
+    "focus-3": {
+      "type": "Text",
+      "props": {
+        "text": "3. market-context-refresh 2× failing — why now: next scheduled run 13:00 UTC today; chain breaks if it fails again."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "yesterday-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "yesterday-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "yesterday-1",
+        "yesterday-2",
+        "yesterday-3",
+        "yesterday-4"
+      ]
+    },
+    "yesterday-1": {
+      "type": "Text",
+      "props": {
+        "text": "[new]: swarmister entered BNB + SHIB longs (05:07Z) — first new basket entries since undated; explicit methodology (order-book liquidity focus)"
+      }
+    },
+    "yesterday-2": {
+      "type": "Text",
+      "props": {
+        "text": "[moved]: AAVE +14.2% on DeFi structural bid; F&G jumped 66→73; DEX vol fell −17% to $9.70B"
+      }
+    },
+    "yesterday-3": {
+      "type": "Text",
+      "props": {
+        "text": "[moved]: Stoiiic OI extension ranking shows ENA/PEPE/ZEC leading; PENDLE lagging −34 heat ranks"
+      }
+    },
+    "yesterday-4": {
+      "type": "Text",
+      "props": {
+        "text": "[stuck]: market-context-refresh consecutive_failures: 2; price-threshold-alert success_rate: 0.5"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "watch-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "watch-text": {
+      "type": "Text",
+      "props": {
+        "text": "BTC ETF week flows $1.92B inflows (IBIT $1.33B) — first Aug outflow day would be regime warning; today's flow not yet reported"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "running-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "running-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "running-1",
+        "running-2",
+        "running-3",
+        "running-4",
+        "running-5",
+        "running-6"
+      ]
+    },
+    "running-1": {
+      "type": "Text",
+      "props": {
+        "text": "token-alert @ 12:00 UTC"
+      }
+    },
+    "running-2": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC"
+      }
+    },
+    "running-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "running-3-text",
+        "running-3-badge"
+      ]
+    },
+    "running-3-text": {
+      "type": "Text",
+      "props": {
+        "text": "market-context-refresh @ 13:00 UTC"
+      }
+    },
+    "running-3-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "⚠ 2 consecutive failures",
+        "variant": "destructive"
+      }
+    },
+    "running-4": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC"
+      }
+    },
+    "running-5": {
+      "type": "Text",
+      "props": {
+        "text": "x-trader-monitor (continuous)"
+      }
+    },
+    "running-6": {
+      "type": "Text",
+      "props": {
+        "text": "discord-trader-monitor (continuous)"
+      }
+    }
+  }
+}

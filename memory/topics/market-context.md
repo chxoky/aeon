@@ -26,6 +26,36 @@
 
 ## Top DeFi Protocols (TVL, 7d change)
 *(DeFiLlama /protocols — top 7 by TVL; CEX custodial dominates rankings)*
+> **Take:** chop — BTC +1.1% and breadth 62/100 below the risk-on bar (needs >70%); F&G jumped 66→73 Greed (+7 pts) and AAVE +14% lead a DeFi surge, but DEX vol fell 17% ($11.6B→$9.7B); market marking time ahead of Jackson Hole T-3. Conviction: medium.
+
+## Signal Snapshot
+- BTC $77,081 (+1.14% 24h, +21.6% 7d) · dominance 59.25% (−0.15pp 24h)
+- ETH $2,444 (+1.60% 24h, +28.9% 7d) · ETH/BTC 0.03172
+- SOL $93.66 (+0.91% 24h, +24.1% 7d)
+- Total mcap ~$2.6T · DEX vol $9.70B 24h
+- Breadth: 62/100 green 24h (12.4/20 equivalent — below risk-on threshold of 14/20)
+- Fear & Greed: 73 (Greed) — yesterday 66 (Greed) · +7 pts
+
+## What Changed Since Last Refresh
+- **F&G jumped 7 pts: 66 → 73 Greed** — largest single-day sentiment move this week; approaching Extreme Greed threshold (75). Not matched by volume; sentiment leading price.
+- **AAVE surged +14.16% 24h, trending #6 on CoinGecko** — DeFi structural bid price-catching up to TVL growth (Aave V3 TVL +20.16% 7d, $17.12B); strongest single-asset move in top-50 today.
+- **DEX vol fell 17%: $11.64B → $9.70B** — significant volume cooldown on a day when prices edged up; divergence between sentiment (+F&G) and execution (-volume).
+- **HYPE pulled back: $80.90 → $77.51 (−3.9%)** — ATH $82.43 not tested; 2nd consecutive pullback day; HCH short partially recovering.
+- **BTC dominance slipped −0.15pp to 59.25%** — mild rotation signal; ETH (+1.60%) outpacing BTC (+1.14%); DeFi/alts leading.
+- **ZEC: $817 → $828 (+1.3%)** — momentum decelerating for 4th consecutive session (was +25%, +3.7%, +2.3%, now +2.4%); 7d +62.4% run intact but topping.
+
+## Active Narratives
+- **Jackson Hole / macro policy** — phase: peak. Evidence: Aug 27–29, T-3 days; Fed Chair Kevin Warsh keynote Aug 28 AM (first ever, "Financial Innovation: Implications for Payments and Policy" theme = direct crypto relevance); Stoiiic called it out Aug 24 06:20Z alongside PCE + NVDA earnings — biggest macro week of the month.
+- **DeFi structural bid** — phase: peak. Evidence: AAVE +14.16% 24h trending #6; Lido TVL $23.67B (+30.96% 7d); Aave V3 $17.12B (+20.16% 7d); SSV Network $12.45B (+29.89% 7d). DeFi protocols leading while BTC/alts range.
+- **BTC ETF institutional bid** — phase: rising. Evidence: Week of Aug 19–23: $1.92B net inflows; IBIT alone $1.33B; BTC ETF inflow streak intact with no net-outflow day in August. Institutional accumulation confirmed.
+- **BTC re-accumulation setup** — phase: emerging. Evidence: KillaXBT (Aug 23 21:35Z): "couple more wicks up → re-accumulation"; bull_genius historical: +20% weekly closes avg +8.8% 7d followthrough (89% win 14d); swarmister range 75.5K–78.6K; 365d RVWAP $81.3K + ATH VWAP $78.2K as next resistance cluster.
+- **ZEC/privacy arc** — phase: fading. Evidence: ZEC $828 (+2.44% 24h, +62.4% 7d); 4th consecutive session of decelerating gains (was +25% → +3.7% → +2.3% → +2.4%); XMR −0.87% 24h; volume topping.
+- **HYPE ATH squeeze** — phase: fading. Evidence: HYPE $77.51 (−1.95% 24h), 2nd consecutive pullback from $80.90 peak; ATH $82.43 uncontested; HCH short (from ~$60) recovering from >34% underwater.
+
+## ⚠ Risk Signal — Stoiiic Leverage-Breadth Overheat
+Aug 24 06:20Z: Stoiiic published statistical analysis showing 8 prior episodes where leverage breadth (≥4% of names with OI ≥+30%) reached current levels. Median outcome: **−11.3% BTC drawdown over 14 days** (90% CI −14.5% to −3.7%; max observed −17.5%). "Cooldown soon" prediction. If correct → BTC ~$68K in 2 weeks. This is the only concrete bear signal from a tracked trader; warrants tracking vs bulls (KillaXBT, bull_genius).
+
+## Top DeFi Protocols (TVL, 7d change)
 - Binance (CEX): $160.68B (+15.36% 7d)
 - OKX (CEX): $29.30B (+11.98% 7d)
 - Lido: $23.67B (+30.96% 7d)
@@ -39,6 +69,14 @@
 ## Chain Flow (top 6 by TVL)
 - Ethereum: $48.83B (up from $48.41B prior)
 - BSC: $10.94B (elevated; ⚠ up from $10.15B — methodology flag)
+- Robinhood: $14.21B (+23.18% 7d)
+- SSV Network: $12.45B (+29.89% 7d)
+
+*(Pure DeFi leaders: Lido $23.67B + Aave V3 $17.12B + SSV $12.45B. All +20–31% 7d = DeFi TVL in confirmed uptrend.)*
+
+## Chain Flow (top 6 by TVL)
+- Ethereum: $48.83B (dominant; +$0.42B from prior)
+- BSC: $10.94B (+$0.79B from prior — note: methodology spike flag from Aug 23 still applies)
 - Solana: $5.55B (flat)
 - Base: $5.48B (flat)
 - Tron: $5.19B (flat)
@@ -73,6 +111,36 @@ Total: ~$272.4B (flat vs ~$272B prior — no new deployment or flight-to-safety)
 ## Implications for Downstream Skills
 - **token-pick:** Risk-on consolidating at 14/20 breadth — selective entries fine. ENA, AAVE (DeFi bid with TVL momentum) and VVV (AI+privacy emerging) are highest-conviction setups. Avoid HYPE near ATH until $82.43 reclaimed. Jackson Hole = size-down event; prefer entries after resolution.
 - **narrative-tracker:** Monitor Jackson Hole Aug 27 for regime pivot. Meme rotation (CASHCAT/DOG) signals late-cycle attention — watch for ZEC breakdown <$800 as fading confirmation. ENA/AAVE trending together = DeFi narrative still in rising phase; track whether ALIGN enters top 500 mcap as next breakout candidate.
+*(7d change not returned by DeFiLlama /v2/chains)*
+
+## Stablecoins
+Total: ~$276.39B (flat vs $276.4B prior — no new deployment or flight-to-safety). USDT $183.21B · USDC $73.65B · USDS $6.66B · DAI $4.78B · USDe $4.07B · USD1 $4.02B. Stable supply = dry powder on sidelines; no forced exits.
+
+## Trending (CoinGecko, Aug 24)
+- BTC — rank #1, $77,234, +1.37% [Jackson Hole anchor]
+- XRP — rank #5, $1.47, −0.32% [payments narrative fading; +46.9% 7d intact]
+- SOL — rank #7, $94.05, +1.34%
+- HYPE — rank #9, $78.23, −1.04% [ATH resistance; 2nd pullback day]
+- ZEC — rank #11, $830.28, +2.42% [deceleration; 4th session]
+- AAVE — rank #42, $139.95, +14.16% [DeFi structural catch-up; Aave V3 TVL +20% 7d]  [TRENDING+UP]
+- PUMP — rank #46, $0.0049, −3.22%
+
+## Prediction Markets (Polymarket, Aug 24)
+| Market | YES% | 24h Vol | Liquidity |
+|--------|------|---------|-----------|
+| No Fed rate change at Sep 2026 meeting | 67.5% | $1.02M | $516K |
+*(Sports/esports dominate volume. Only one crypto/macro market with signal above threshold. Will reprice after Jackson Hole Aug 27–29.)*
+
+## Macro Catalysts (next 72h)
+- **Jackson Hole Aug 27–29 (T-3 days):** Kevin Warsh keynote Aug 28 AM (first as Fed Chair). Theme "Financial Innovation: Implications for Payments and Policy" = direct crypto relevance (XRP/payments, BTC ETF policy, digital asset frameworks). Primary directional catalyst for next 2–4 weeks.
+- **NVDA earnings this week:** Stoiiic Aug 24 06:20Z flagged explicitly as key risk catalyst alongside Jackson Hole. Big beat/miss will trigger broad risk-on/risk-off response across crypto.
+- **PCE data this week:** Inflation signal feeding into Warsh's Jackson Hole position. Below-consensus = rate-cut supportive → bullish.
+- **BTC ETF flows Mon Aug 24:** Week of Aug 19–23 was $1.92B net positive (IBIT $1.33B). First Aug outflow day would be regime warning — track daily.
+- **Stoiiic leverage-breadth signal:** Predicted median −11.3% BTC drawdown within 14 days from today (by ~Sep 7). Bears and bulls diverging; resolve unclear until Jackson Hole.
+
+## Implications for Downstream Skills
+- **token-pick:** Chop regime — no new conviction entries. AAVE strongest mover but DeFi sector overbought (TVL growth already priced in?). Wait for Jackson Hole resolution before sizing. If Warsh bullish → DeFi basket (AAVE/ENA) becomes primary target.
+- **narrative-tracker:** Monitor Jackson Hole Aug 27 for regime pivot. Track Stoiiic leverage-breadth signal for drawdown confirmation vs refutation (next 14d). AAVE/DeFi emerging as narrative leader — phase transition check for rising→peak. HYPE ATH $82.43 re-test or breakdown = secondary binary.
 
 ## Token Picks Made
 | Date | Token | Price | Thesis |
@@ -81,3 +149,5 @@ Total: ~$272.4B (flat vs ~$272B prior — no new deployment or flight-to-safety)
 ---
 *Sources — btc/eth/sol: CoinGecko /simple/price + /coins/markets · global: CoinGecko /global · trending: CoinGecko /search/trending · defi protocols: DeFiLlama /protocols · chains: DeFiLlama /v2/chains · dex vol: DeFiLlama /overview/dexs ($9.70B) · sentiment: alternative.me (F&G 73) · stablecoins: DeFiLlama stablecoins.llama.fi · markets: Polymarket (Clarity Act $1.28M vol; crypto thin) · macro: WebSearch (Jackson Hole, ETF flows, $80K rally)*
 *Source status: coingecko=ok defillama=ok(chains 7d=unavailable) fng=ok polymarket=ok(crypto markets thin) websearch=ok*
+*Sources — btc/eth/sol: CoinGecko /simple/price + /coins/markets · global: CoinGecko /global · trending: CoinGecko /search/trending · defi protocols: DeFiLlama /protocols · chains: DeFiLlama /v2/chains · dex vol: DeFiLlama /overview/dexs ($9.70B) · sentiment: alternative.me (F&G 73) · stablecoins: DeFiLlama stablecoins.llama.fi · markets: Polymarket (crypto: Fed Sep rate decision 67.5% no-change; sports dominate) · macro: WebSearch (Jackson Hole, ETF flows, NVDA earnings) · trader signals: memory/logs/2026-08-24.md (Stoiiic leverage-breadth Aug 24 06:20Z)*
+*Source status: coingecko=ok defillama=ok(chains 7d=unavailable) fng=ok polymarket=ok(limited crypto markets) websearch=ok*
