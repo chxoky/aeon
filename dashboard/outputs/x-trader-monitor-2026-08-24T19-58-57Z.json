@@ -1,0 +1,64 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_btc",
+        "tweet_main",
+        "link_view",
+        "separator_1",
+        "text_annotation"
+      ]
+    },
+    "badge_btc": {
+      "type": "Badge",
+      "props": {
+        "text": "$BTC",
+        "variant": "default"
+      }
+    },
+    "tweet_main": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "For those saying the bottom \"isn't in,\" you must not be looking at the same chart as me.\n\nEvery bull run starts with one major candle after months of consolidation.\n\nThat's exactly what we've just seen.\n\nAt this point, it's just cope. Feel sorry for anyone still married to the short side. Good luck."
+      }
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2091975919325815077"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_annotation": {
+      "type": "Text",
+      "props": {
+        "text": "Chart shows historical bull-run initiation patterns (major upcandle after consolidation) matching current structure; reinforces prior bottom-in calls and structural bullishness.",
+        "variant": "muted"
+      }
+    }
+  }
+}

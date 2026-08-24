@@ -203,6 +203,7 @@
   - Aug 24 14:42Z — informational: USDT 1B minting Tether Treasury; bottom-call validation with macro liquidity support [$BTC/$USDT] [2091898884511432720]
   - Aug 24 15:49Z — informational: "$BTC never seeing $50K again; bottom is in, next cycle bottom ~90Ks, targeting 160K+"; cycle-speed validation (266d vs 364d historical); market consensus (Kalshi 25% $50K before $100K = 75% $100K+ without $50K revisit) [$BTC-CYCLE-BOTTOM] [2091915701120389468]
   - Aug 24 18:17Z — informational: Sell wall building above current price 79K; 80-83K region will take time to crack; behavioral/technical commentary on market structure + 2 liquidity depth charts [$BTC-SELL-WALL] [2091953026177138898]
+  - Aug 24 19:48Z — informational: Bottom conviction reaffirmation; "Every bull run starts with one major candle after months of consolidation. That's exactly what we've just seen." Chart shows 3-pattern historical comparison (major upcandle post-consolidation); dismissal of shorts; aligns with prior cycle validation [$BTC-BULL-INITIATION] [2091975919325815077]
 
 ## trading_axe
 
