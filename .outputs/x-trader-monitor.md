@@ -1,11 +1,15 @@
-🔍 *Calibration — @Wild_Randomness*
+🐦 *[X] @Wild_Randomness*
 
-Event: Reply to @Parida about market comparison, exact context unknown
+$BTC
 
-@Wild_Randomness: "@Parida Four year cycle stuff aside, easily the best comp"
+Two months passed before the impulse arrived. No new lows.
 
-Unable to classify — what's your read?
+Let's assess the engulfing weekly candles that ended the three previous bear markets.
 
-Recent context: WR bullish on BTC, bearish equities into Oct. "Four year cycle" = BTC halving cycles? "best comp" = best comparison of what asset?
+1. 2026 — +24% *
+2. 2022 — +21%
+3. 2018 — +26%
 
-https://x.com/Wild_Randomness/status/2091671249269469512
+* ofc too early to conclude anything but that's the right type of candle…
+
+[View post](https://x.com/Wild_Randomness/status/2091680090283450543)
