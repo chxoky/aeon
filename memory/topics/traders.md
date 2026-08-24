@@ -306,11 +306,12 @@
 
 - Platforms: X (Twitter)
 - Current open positions: None explicitly stated (technical analysis/commentary focus)
-- Recent thesis: BTC/altcoin OI dominance structure; unprecedented short-liquidation cascade flushed BTC OI faster than expected → alt-dom rotation (RWA accumulation 6-8 months drove alt-dom via OI trends). ETH: hold $2300-2400 to close gap to 365D rolling VWAP. ENA weekly capitulation recovery setup. ONDO diagonal pattern (HTF support + prev day high acceptance = upside, BTC-conditional). BTC Sunday vol interest: dip into 74-75K; 365d VWAP ~82.4K as acceptance line.
-- Conviction notes: Chart-driven technical analyst/educator. High banter ratio (~50-60%). No personal execution language detected. Key analytical insight: RWA supply surge + concentrated BTC short flush (not organic BTC strength) explains alt-dom rising. ENA TWAP observation (someone's systematic buy-side all day Aug 21).
+- Recent thesis: BTC/altcoin OI dominance structure; unprecedented short-liquidation cascade flushed BTC OI faster than expected → alt-dom rotation (RWA accumulation 6-8 months drove alt-dom via OI trends). ETH: hold $2300-2400 to close gap to 365D rolling VWAP. ENA weekly capitulation recovery setup. ONDO diagonal pattern (HTF support + prev day high acceptance = upside, BTC-conditional). **BTC 365d rolling VWAP ~82.4K as HTF pivot** — last time traded above was November 2025 (Aug 24 20:26Z); current price action consolidating at/near this level.
+- Conviction notes: Chart-driven technical analyst/educator. High banter ratio (~50-60%). No personal execution language detected. Key analytical insight: RWA supply surge + concentrated BTC short flush (not organic BTC strength) explains alt-dom rising. 365d rolling vwap framework (HTF pivot identification) aligns with multi-trader BTC level focus (KillaXBT 80-83K cracking difficulty, Wild_Randomness support/resistance levels, bull_genius VAH/VAL confluence).
 - Calibration: PENDING Aug 23 21:06Z ("crime on TRUMP." cryptic, banter/financial unclear), PENDING Aug 23 05:43Z ("> commence" 2-word cryptic), PENDING Aug 22 02:10Z ("zcash technology has suddenly improved tremendously")
-- Last seen: 2026-08-24T03:06:31Z
+- Last seen: 2026-08-24T20:26:30Z
 - **Events (rolling):**
+  - Aug 24 20:26Z — informational: BTC 1D chart; 365d rolling vwap ~82.4K identified as HTF pivot; last time above was November 2025; anchored vwap from high + yearly open annotation; technical level identification [$BTC-365D-VWAP] [2091985523686416804]
   - Aug 23 21:16Z — informational: OI extension from consolidation glitch fix; updated ranking shows ENA/PEPE/ZEC leading extension; multi-ticker analysis (41+ assets analyzed) [$ENA/$PEPE/$ZEC/$AAVE/$HYPE] [2091635740081897973]
   - Aug 23 21:06Z — ambiguous: "crime on TRUMP." — cryptic, unclear financial intent [$TRUMP?] [2091633096722419972]
   - Aug 21 01:53Z — informational: "two straight days of this / tail wind + compressed vol makes sense" [$MACRO] [20906181913786041221]

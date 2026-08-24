@@ -1,0 +1,41 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_stoiiic",
+        "link_post"
+      ]
+    },
+    "tweet_stoiiic": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "Stoiiic",
+        "text": "BTC 365d rolling VWAP: ~82.4K HTF pivot\n\nTechnical level identification on BTC 1D chart. 365-day rolling VWAP anchored from yearly open positioned at ~82.4K. Stoiiic notes: last time BTC traded above this level was November 2025.\n\nChart shows multi-level technical structure with support/resistance zones marked. This level aligns with group's 80-83K resistance cluster (KillaXBT sell-wall structure, Stoiiic VWAP, Wild_Randomness level confluence)."
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Stoiiic/status/2091985523686416804"
+      }
+    }
+  }
+}
