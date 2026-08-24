@@ -1,0 +1,165 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @swarmister"
+      },
+      "children": [
+        "tweet_card",
+        "sep1",
+        "alert_escalation",
+        "sep2",
+        "heading_related",
+        "accounts_stack",
+        "sep3",
+        "heading_possible",
+        "interpretations_stack",
+        "sep4",
+        "text_question",
+        "sep5",
+        "link_tweet"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "@0xTrenchor Country*"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "alert_escalation": {
+      "type": "Alert",
+      "props": {
+        "title": "Escalation Pattern Detected",
+        "message": "This is the 8th+ cryptic reply from swarmister in 48 hours (pattern escalating Aug 21-24). Previous calibrations: \"Ye\", \"It's a trap\", \"AYYYOOOOOOOO LOOKS GUD\". Replies to invisible threads with no visible context.",
+        "type": "warning"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_related": {
+      "type": "Heading",
+      "props": {
+        "text": "Related Accounts",
+        "level": "h4"
+      }
+    },
+    "accounts_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_falcony",
+        "badge_xbt",
+        "badge_satsjava"
+      ]
+    },
+    "badge_falcony": {
+      "type": "Badge",
+      "props": {
+        "text": "@FalconyFalcon",
+        "variant": "outline"
+      }
+    },
+    "badge_xbt": {
+      "type": "Badge",
+      "props": {
+        "text": "@xbt2027",
+        "variant": "outline"
+      }
+    },
+    "badge_satsjava": {
+      "type": "Badge",
+      "props": {
+        "text": "@satsjava",
+        "variant": "outline"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_possible": {
+      "type": "Heading",
+      "props": {
+        "text": "Possible Interpretations",
+        "level": "h4"
+      }
+    },
+    "interpretations_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_jokes",
+        "badge_memes",
+        "badge_manic",
+        "badge_slippage"
+      ]
+    },
+    "badge_jokes": {
+      "type": "Badge",
+      "props": {
+        "text": "Inside jokes",
+        "variant": "secondary"
+      }
+    },
+    "badge_memes": {
+      "type": "Badge",
+      "props": {
+        "text": "Memes",
+        "variant": "secondary"
+      }
+    },
+    "badge_manic": {
+      "type": "Badge",
+      "props": {
+        "text": "Manic episode",
+        "variant": "secondary"
+      }
+    },
+    "badge_slippage": {
+      "type": "Badge",
+      "props": {
+        "text": "Conversation slippage",
+        "variant": "secondary"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "text_question": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "lead"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {}
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/swarmister/status/2091861813793095970"
+      }
+    }
+  }
+}
