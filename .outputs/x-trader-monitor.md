@@ -1,11 +1,7 @@
-🐦 *[X] @KillaXBT*
+🔍 *Calibration — @swarmister*
 
-$BTC 
+Event: Reply to @BittexXBT
 
-Every single time we've transitioned from dark blue to light blue, the bull run has started.
+@swarmister: "It's a trap"
 
-So please, keep piling into those shorts darling.
-
-[View post](https://x.com/KillaXBT/status/2091822674620068058)
-
-↳ _Aligns with group bullish structural bias (bull_genius expansion, Stoiiic 74-75K dips, trading_axe bull prelims)._
+Unable to classify — what's your read? (Cryptic reply, no context visible; may relate to recent BTC/BNB/SHIB positions or a specific chart @BittexXBT posted)

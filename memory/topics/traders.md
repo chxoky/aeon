@@ -207,10 +207,11 @@
 - Platforms: X (Twitter)
 - Current open positions: BTC SHORT (entry 69,190.5, mark 75,407.9, -179.72% ROI, 20x lev, 1/4 capital — has NOT averaged down yet). SNDK LONG (entry 1,337.43, mark 1,606.81, +402.77% ROI, 20x lev, 8x volume vs BTC). BNB + SHIB LONG (NEW Aug 24 05:07Z — no sizing given). Other tech stocks (long).
 - Recent thesis: Contrarian BTC short vs group bullish lean. Bullish semis vs bearish BTC. Added BNB/SHIB longs based on liquidity-filtered selection from Saturday's long squeeze. Risk-managed via position sizing. Portfolio overall profitable.
-- Conviction notes: DIVERGES from KillaXBT/HCH/t_in_crypto/bull_genius bullish BTC thesis. Medium conviction BTC; high conviction semis/tech. Very high cryptic-reply ratio (6+ calibration alerts Aug 21-23). New BNB/SHIB entry shows tactical/contrarian lean on alts.
-- Calibration: PENDING Aug 24 08:55Z (cryptic "@AlucardTrades AYYYOOOOOOOO LOOKS GUD" — reply but no context), PENDING Aug 23 19:55Z ("@FalconyFalcon Average…"), PENDING Aug 23 15:05Z ("@xbt2027 Me"), PENDING Aug 23 06:41Z ("@satsjava Yeah, I'm planning to do that next week")
-- Last seen: 2026-08-24T08:55:20Z
+- Conviction notes: DIVERGES from KillaXBT/HCH/t_in_crypto/bull_genius bullish BTC thesis. Medium conviction BTC; high conviction semis/tech. Very high cryptic-reply ratio (6+ calibration alerts Aug 21-23, escalating). New BNB/SHIB entry shows tactical/contrarian lean on alts.
+- Calibration: PENDING Aug 24 10:36Z (cryptic "@BittexXBT It's a trap" — reply, no context visible), PENDING Aug 24 08:55Z (cryptic "@AlucardTrades AYYYOOOOOOOO LOOKS GUD" — reply but no context), PENDING Aug 23 19:55Z ("@FalconyFalcon Average…"), PENDING Aug 23 15:05Z ("@xbt2027 Me"), PENDING Aug 23 06:41Z ("@satsjava Yeah, I'm planning to do that next week")
+- Last seen: 2026-08-24T10:36:35Z
 - **Events (rolling):**
+  - Aug 24 10:36Z — ambiguous: "@BittexXBT It's a trap" — cryptic reply, asset/context unknown; calibration sent [$UNKNOWN] [2091837065662976168]
   - Aug 24 08:55Z — ambiguous: "@AlucardTrades AYYYOOOOOOOO LOOKS GUD" — cryptic reply, unclear what asset/setup; calibration sent [$UNKNOWN] [2091811585979306209]
   - Aug 24 05:49Z — informational: $ETH bullish narrative weekly TF; stronger vs BTC locally; "looking to go long but didn't place an order"; regret miss; 7 charts [$ETH-BULLISH-MISSED] [2091764927333536118]
   - Aug 24 05:07Z — informational: liquidity-filtered coin selection from Saturday long squeeze (LINK, 1INCH avoided); open BNB + SHIB longs disclosed; 6 analysis charts [$BNB/$SHIB] [2091754316629483560]
