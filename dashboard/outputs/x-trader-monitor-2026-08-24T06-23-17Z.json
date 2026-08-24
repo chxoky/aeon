@@ -1,0 +1,59 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading_commentary",
+        "stack_content"
+      ]
+    },
+    "heading_commentary": {
+      "type": "Heading",
+      "props": {
+        "text": "Stoiiic Macro OI Structure Commentary",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_leverage",
+        "text_watchlist",
+        "link_source"
+      ]
+    },
+    "text_leverage": {
+      "type": "Text",
+      "props": {
+        "text": "Leverage concentration in ZEC/HYPE/LIT/PUMP vs market-wide"
+      },
+      "children": []
+    },
+    "text_watchlist": {
+      "type": "Text",
+      "props": {
+        "text": "Watching: PCE/NVDA earnings/Jackson Hole + ETF flow"
+      },
+      "children": []
+    },
+    "link_source": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View on X",
+        "href": "https://x.com/Stoiiic/status/2091772540179906896",
+        "source": "X"
+      },
+      "children": []
+    }
+  }
+}
