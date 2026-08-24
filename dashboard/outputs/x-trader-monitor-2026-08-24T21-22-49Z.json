@@ -1,0 +1,107 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor: Calibration"
+      },
+      "children": [
+        "heading_calibration",
+        "separator_1",
+        "text_event",
+        "text_response",
+        "separator_2",
+        "heading_unable",
+        "stack_bullets",
+        "separator_3",
+        "text_question",
+        "link_tweet"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h2"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Prior message asking \"@Parida Turnaround Tuesday?\" → equity market Tuesday reversal reference"
+      }
+    },
+    "text_response": {
+      "type": "Text",
+      "props": {
+        "text": "Wild_Randomness (now): \"Just early preparations for Turnaround Tuesday\""
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_unable": {
+      "type": "Heading",
+      "props": {
+        "text": "Unable to classify — cryptic context:",
+        "level": "h3"
+      }
+    },
+    "stack_bullets": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "bullet_1",
+        "bullet_2",
+        "bullet_3"
+      ]
+    },
+    "bullet_1": {
+      "type": "Text",
+      "props": {
+        "text": "\"Early preparations\" = personal positioning action, or market-sentiment commentary?"
+      }
+    },
+    "bullet_2": {
+      "type": "Text",
+      "props": {
+        "text": "Turnaround Tuesday = equity seasonal setup (SPX pattern); WR is equities/vol specialist"
+      }
+    },
+    "bullet_3": {
+      "type": "Text",
+      "props": {
+        "text": "No explicit execution language or ticker"
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "text_question": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "lead"
+      }
+    },
+    "link_tweet": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Tweet: Just early preparations for Turnaround Tuesday",
+        "href": "https://x.com/Wild_Randomness/status/2091998438108070082",
+        "source": "X"
+      }
+    }
+  }
+}
