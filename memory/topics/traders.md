@@ -204,12 +204,13 @@
 ## swarmister
 
 - Platforms: X (Twitter)
-- Current open positions: BTC SHORT (entry 69,190.5, mark 75,407.9, -179.72% ROI, 20x lev, 1/4 capital — has NOT averaged down yet). SNDK LONG (entry 1,337.43, mark 1,606.81, +402.77% ROI, 20x lev, 8x volume vs BTC). Other tech stocks (long).
-- Recent thesis: Contrarian BTC short vs group bullish lean. Bullish semis vs bearish BTC. Risk-managed via position sizing (BTC 1/4 capital; SNDK 8x volume). Portfolio overall profitable. "Haven't averaged down on short yet."
-- Conviction notes: DIVERGES from KillaXBT/HCH/t_in_crypto/bull_genius bullish BTC thesis. Medium conviction BTC; high conviction semis/tech. Very high cryptic-reply ratio (6+ calibration alerts Aug 21-23, mostly banter).
+- Current open positions: BTC SHORT (entry 69,190.5, mark 75,407.9, -179.72% ROI, 20x lev, 1/4 capital — has NOT averaged down yet). SNDK LONG (entry 1,337.43, mark 1,606.81, +402.77% ROI, 20x lev, 8x volume vs BTC). BNB + SHIB LONG (NEW Aug 24 05:07Z — no sizing given). Other tech stocks (long).
+- Recent thesis: Contrarian BTC short vs group bullish lean. Bullish semis vs bearish BTC. Added BNB/SHIB longs based on liquidity-filtered selection from Saturday's long squeeze. Risk-managed via position sizing. Portfolio overall profitable.
+- Conviction notes: DIVERGES from KillaXBT/HCH/t_in_crypto/bull_genius bullish BTC thesis. Medium conviction BTC; high conviction semis/tech. Very high cryptic-reply ratio (6+ calibration alerts Aug 21-23). New BNB/SHIB entry shows tactical/contrarian lean on alts.
 - Calibration: PENDING Aug 23 19:55Z ("@FalconyFalcon Average…"), PENDING Aug 23 15:05Z ("@xbt2027 Me"), PENDING Aug 23 06:41Z ("@satsjava Yeah, I'm planning to do that next week")
-- Last seen: 2026-08-24T04:51:43Z
+- Last seen: 2026-08-24T05:07:46Z
 - **Events (rolling):**
+  - Aug 24 05:07Z — informational: liquidity-filtered coin selection from Saturday long squeeze (LINK, 1INCH avoided); open BNB + SHIB longs disclosed; 6 analysis charts [$BNB/$SHIB] [2091754316629483560]
   - Aug 24 04:51Z — informational: BTC consolidation structure (upper 78.6k/lower 75.5k) with charts; existing short waiting for test, conditional long if breakout; NEAR sell-off short (past entry) [$BTC/$NEAR] [2091750275606311211]
   - Aug 20 20:45Z — ambiguous: "Top" — single word, possible BTC top-call or banter [$UNKNOWN] [2090540628903878862]
   - Aug 21 06:53Z — informational: BTC short 1/4 capital (-179.72%) + SNDK long 8x (+402.77%); "haven't averaged down on short yet" [$BTC-SHORT/$SNDK-LONG] [2090693791481020635]

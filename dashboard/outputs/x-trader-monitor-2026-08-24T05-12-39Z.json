@@ -1,0 +1,54 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Trader position alert"
+      },
+      "children": [
+        "alert-position",
+        "stack-badges"
+      ]
+    },
+    "alert-position": {
+      "type": "Alert",
+      "props": {
+        "message": "New alert from X trader monitor for swarmister BNB SHIB positions",
+        "type": "info"
+      }
+    },
+    "stack-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-trader",
+        "badge-bnb",
+        "badge-shib"
+      ]
+    },
+    "badge-trader": {
+      "type": "Badge",
+      "props": {
+        "text": "swarmister"
+      }
+    },
+    "badge-bnb": {
+      "type": "Badge",
+      "props": {
+        "text": "BNB"
+      }
+    },
+    "badge-shib": {
+      "type": "Badge",
+      "props": {
+        "text": "SHIB"
+      }
+    }
+  }
+}
