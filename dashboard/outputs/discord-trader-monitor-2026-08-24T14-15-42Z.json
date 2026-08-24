@@ -1,0 +1,49 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — [DC: Chase — TradFi]"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context-text",
+        "message-card",
+        "status-alert"
+      ]
+    },
+    "context-text": {
+      "type": "Text",
+      "props": {
+        "text": "Context: Supporting channel message reply",
+        "variant": "caption"
+      }
+    },
+    "message-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Crypto_Chase",
+        "text": "70~ maybe for me, idk"
+      }
+    },
+    "status-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read?",
+        "type": "warning"
+      }
+    }
+  }
+}
