@@ -1,0 +1,71 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "heading_calibration",
+        "separator1",
+        "stack_exchange",
+        "separator2",
+        "alert_unreadable"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: Chase — Crypto]",
+        "level": "h2"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_exchange": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_member_question",
+        "text_chase_response"
+      ]
+    },
+    "text_member_question": {
+      "type": "Text",
+      "props": {
+        "text": "Member: \"will u put ur inval below the H1 OB or at 71k ish ? for $BTC\"",
+        "variant": "body"
+      }
+    },
+    "text_chase_response": {
+      "type": "Text",
+      "props": {
+        "text": "Crypto_Chase: [chart image only, no text response]",
+        "variant": "body"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_unreadable": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Unable to read attachment",
+        "message": "What's your read on the invalidation level shown in the chart?"
+      }
+    }
+  }
+}
