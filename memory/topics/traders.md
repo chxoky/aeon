@@ -5,7 +5,7 @@
 - Recent thesis: Equities/vol specialist; dispersion-trade framework; bearish equities into Oct; GOLD/crypto won't make new lows even if equities do; BTC liq map structurally different ("bearish skew but buy-side ramping"). Not levered ("can't with liq map like this"). Conditional BTC reversion play above 74.5K if funding/OI stretched.
 - Conviction notes: High-conviction technical analyst on equities; vixpiry/OPEX structure commentary; macro dispersion positioning. Bear mode experiment failed Aug 20. "Scar tissue" from forced loss at 68K. HYPE/LIT = gold/silver parallel; ratio at 27-28 (down from 55 peak). URL-only posts = noise per calibration.
 - Calibration: PENDING Aug 23 19:05Z (cryptic "@QOTSA_FRL Its a 65% move to 126" — asset/context unknown), PENDING Aug 21 20:10Z (conditional LEAPS comment — unspecified asset)
-- Last seen: 2026-08-24T00:12:49Z
+- Last seen: 2026-08-24T14:50:02Z
 - **Events (rolling):**
   - Aug 24 00:12Z — informational: BTC engulfing candle pattern vs 2022/2018 bear market bottoms (+24%/+21%/+26%); historical comp analysis [$BTC-CANDLE-PATTERN] [2091680090283450543]
   - Aug 23 21:11Z — skip: meme images (Kevin Chang competitive quote + UNO bullish card); no financial signal [2091634377109524609]
@@ -40,6 +40,7 @@
   - Aug 24 13:45Z — informational: AVGO crash -6.30% + NVDA technical consolidation; semis complex weakness signal; "cinema" volatility [$NVDA/$AVGO] [2091884697970508120]
   - Aug 24 13:53Z — ambiguous: NVDA 1D consolidation chart + "What if?" cryptic post; context aligns with prior bearish semis theme but intent unclear [$NVDA] [2091886525982372119]
   - Aug 24 14:00Z — ambiguous: "Stopped out on both on open" — trade-closure action on unspecified tickers; regretful tone ("didn't pay off fighting trend"); unable to determine which of (HYPE/LIT/PEPE/ENA/ZEC) were stopped out [$UNKNOWN-BOTH] [2091888270246621228]
+  - Aug 24 14:50Z — skip: URL-only Breaking Bad meme post; no financial signal per calibration [$NONE] [2091900849794830820]
 
 ## Bitcoin_Astro
 
