@@ -202,11 +202,11 @@
 ## trading_axe
 
 - Platforms: X (Twitter)
-- Current open positions: None confirmed. Market analyst/idea distributor ("Dr. Axius" identity). No personal trade executions documented.
-- Recent thesis: LIT bullish catalyst (US gov/Trump admin perps approval as pump catalyst); ETH-beta repricing post-short-liquidation (ENA +70% exemplar); ZEC risk-on barometer; World Tokenization Supercycle; HYPE/LIT gold/silver parallel fund-flow thesis; "permabull forever" philosophy ("downside temporary, upside forever"). Exchange liquidation mechanics educator. Bull market prelims theory: MMs/VCs coordinate pump schemes; leverage risky unless skilled.
-- Conviction notes: Builder/commentator identity; ~70% banter/non-financial. LIT = CONTESTED ticker (trading_axe bullish vs HCH strong SHORT). Philosophical: "You are infinitely better off remaining a permabull" (GCR wisdom cited). No personal execution language detected in any post.
+- Current open positions: **DOPAMEME LONG (ONCHAIN)** — $20K entry (avg $1M MC), current position $830K, +3850% unrealized PnL (Aug 24 16:42Z documented). "One big public bet onchain." Execution language: "I've made one big public bet onchain and it's buying DOPAMEQE."
+- Recent thesis: LIT bullish catalyst (US gov/Trump admin perps approval as pump catalyst); ETH-beta repricing post-short-liquidation (ENA +70% exemplar); ZEC risk-on barometer; World Tokenization Supercycle; HYPE/LIT gold/silver parallel fund-flow thesis; "permabull forever" philosophy ("downside temporary, upside forever"). Exchange liquidation mechanics educator. Bull market prelims theory: MMs/VCs coordinate pump schemes; leverage risky unless skilled. Meme-token reflexivity thesis (CASHCAT/BONK pattern parallelism). Dopamine-cycle cultural commentary.
+- Conviction notes: Builder/commentator identity transitioning to documented executor. LIT = CONTESTED ticker (trading_axe bullish vs HCH strong SHORT). Philosophical: "You are infinitely better off remaining a permabull" (GCR wisdom cited). **First documented personal trade execution Aug 24 (DOPAMEME) — signals shift from pure analyst to positioned trader. High-conviction public bet.**
 - Calibration: None open (informational/sentiment only; multiple prior HR-2s resolved as banter)
-- Last seen: 2026-08-24T01:20:27Z
+- Last seen: 2026-08-24T16:42:53Z
 - **Events (rolling):**
   - Aug 20 14:16Z — informational: $LIT US gov/Trump admin perps approval catalyst thesis; "get exposure" [$LIT] [2090442963767738609]
   - Aug 20 14:35Z — informational: PUMP unlock pricing dynamics education [$PUMP] [2090447646137725360]
@@ -224,6 +224,7 @@
   - Aug 22 09:17Z — ambiguous: "@0xnobi SHORTS that remain OPENLY INTERESTED" — market positioning commentary [$UNKNOWN/$SHORTS] [2091092330082152796]
   - Aug 24 01:20Z — informational: bull market prelims thesis; MMs/VCs engineer pump schemes; leverage risky unless sharp; buyer taxonomy; aligns with KillaXBT/bull_genius structural bull reads [$BTC/$BULL-THESIS] [2091697110768816199]
   - Aug 22 20:59Z — informational: exchange liquidation mechanics education (FTX/Binance liq failure patterns) [$EXCHANGE-MECHANICS] [2091268952089301314]
+  - Aug 24 16:42Z — informational: DOPAMEME onchain long $20K→$830K (documented +3850% unrealized); CASHCAT bullish prediction; meme-token reflexivity & cultural dopamine cycles; first personal execution documented [$DOPAMEME/$CASHCAT] [2091929247572971706]
 
 ## swarmister
 
