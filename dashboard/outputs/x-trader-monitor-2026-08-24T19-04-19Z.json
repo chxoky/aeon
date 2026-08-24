@@ -1,0 +1,78 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading-calibration",
+        "heading-event",
+        "tweet-swarmister",
+        "text-unable-classify",
+        "separator-1",
+        "text-context",
+        "link-post"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @swarmister",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "heading-event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event: Reply to @deltaxbt and @stogolp (topic unknown)",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "tweet-swarmister": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "@deltaxbt @stogolp Fuckin& banger x2"
+      },
+      "children": []
+    },
+    "text-unable-classify": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text-context": {
+      "type": "Text",
+      "props": {
+        "text": "Context: 16th+ cryptic post in 72 hours",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "link-post": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View post",
+        "href": "https://x.com/swarmister/status/2091963432434114876",
+        "source": "X"
+      },
+      "children": []
+    }
+  }
+}
