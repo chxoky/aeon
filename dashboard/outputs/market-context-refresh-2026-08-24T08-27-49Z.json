@@ -1,0 +1,194 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "market context — 2026-08-24"
+      },
+      "children": [
+        "stack_conviction",
+        "sep1",
+        "stack_prices",
+        "sep2",
+        "progress_breadth",
+        "sep3",
+        "heading_tvl",
+        "stack_tvl",
+        "sep4",
+        "heading_narrative",
+        "text_narrative",
+        "sep5",
+        "heading_market",
+        "text_market"
+      ]
+    },
+    "stack_conviction": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_take",
+        "badge_conviction"
+      ]
+    },
+    "badge_take": {
+      "type": "Badge",
+      "props": {
+        "text": "risk-on consolidating",
+        "variant": "default"
+      }
+    },
+    "badge_conviction": {
+      "type": "Badge",
+      "props": {
+        "text": "conviction medium",
+        "variant": "secondary"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_prices": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat_btc",
+        "stat_eth",
+        "stat_fear_greed"
+      ]
+    },
+    "stat_btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$77,121",
+        "delta": "+1.19%",
+        "trend": "up"
+      }
+    },
+    "stat_eth": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$2,445",
+        "delta": "+1.63%",
+        "trend": "up"
+      }
+    },
+    "stat_fear_greed": {
+      "type": "Stat",
+      "props": {
+        "label": "Fear & Greed",
+        "value": "73 Greed",
+        "delta": "+7 pts",
+        "trend": "up"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "progress_breadth": {
+      "type": "Progress",
+      "props": {
+        "value": 14,
+        "max": 20,
+        "label": "breadth"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_tvl": {
+      "type": "Heading",
+      "props": {
+        "text": "TVL",
+        "level": "h3"
+      }
+    },
+    "stack_tvl": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat_lido",
+        "stat_aave"
+      ]
+    },
+    "stat_lido": {
+      "type": "Stat",
+      "props": {
+        "label": "Lido",
+        "value": "$23.7B",
+        "delta": "+31%",
+        "trend": "up"
+      }
+    },
+    "stat_aave": {
+      "type": "Stat",
+      "props": {
+        "label": "Aave",
+        "value": "$17.1B",
+        "delta": "+20% 7d",
+        "trend": "up"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_narrative": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Narrative",
+        "level": "h3"
+      }
+    },
+    "text_narrative": {
+      "type": "Text",
+      "props": {
+        "text": "Jackson Hole binary (peak — T-3 days)",
+        "variant": "body"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_market": {
+      "type": "Heading",
+      "props": {
+        "text": "Hot Market",
+        "level": "h3"
+      }
+    },
+    "text_market": {
+      "type": "Text",
+      "props": {
+        "text": "\"Clarity Act signed 2026?\" YES 17.5% ($1.28M vol)",
+        "variant": "body"
+      }
+    }
+  }
+}
