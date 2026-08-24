@@ -1,0 +1,176 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Market Context — 2026-08-24"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stack_risk",
+        "sep1",
+        "stack_prices",
+        "sep2",
+        "stack_metrics",
+        "sep3",
+        "text_narrative",
+        "sep4",
+        "stat_fed",
+        "sep5",
+        "alert_stoiiic"
+      ]
+    },
+    "stack_risk": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_riskon",
+        "text_conviction"
+      ]
+    },
+    "badge_riskon": {
+      "type": "Badge",
+      "props": {
+        "text": "risk-on",
+        "variant": "default"
+      }
+    },
+    "text_conviction": {
+      "type": "Text",
+      "props": {
+        "text": "conviction medium",
+        "variant": "muted"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_prices": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_btc",
+        "stat_eth",
+        "progress_fng"
+      ]
+    },
+    "stat_btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$79,006",
+        "delta": "+2.34%",
+        "trend": "up"
+      }
+    },
+    "stat_eth": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$2,505",
+        "delta": "+3.18%",
+        "trend": "up"
+      }
+    },
+    "progress_fng": {
+      "type": "Progress",
+      "props": {
+        "value": 73,
+        "max": 100,
+        "label": "Fear & Greed (Greed)"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_metrics": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "progress_breadth",
+        "stat_tvl"
+      ]
+    },
+    "progress_breadth": {
+      "type": "Progress",
+      "props": {
+        "value": 16,
+        "max": 20,
+        "label": "Breadth"
+      }
+    },
+    "stat_tvl": {
+      "type": "Stat",
+      "props": {
+        "label": "TVL (7d DeFi)",
+        "value": "+20–32%"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_narrative": {
+      "type": "Text",
+      "props": {
+        "text": "Top narrative: BTC $80K approach (rising) · Jackson Hole T-3 (peak)",
+        "variant": "body"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stat_fed": {
+      "type": "Stat",
+      "props": {
+        "label": "Fed no change Sep 2026",
+        "value": "67.5%"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_stoiiic": {
+      "type": "Alert",
+      "props": {
+        "title": "Stoiiic Drawdown Signal",
+        "message": "−11.3% drawdown · 9 days remaining",
+        "type": "warning"
+      }
+    }
+  }
+}

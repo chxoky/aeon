@@ -1,7 +1,8 @@
 market context — 2026-08-24
 
-take: risk-on consolidating (conviction medium)
-BTC $77,121 (+1.19%) / ETH $2,445 (+1.63%) · F&G 73 Greed (+7 pts)
-breadth 14/20 · TVL (Lido $23.7B +31%, Aave $17.1B +20% 7d)
-top narrative: Jackson Hole binary (peak — T-3 days)
-hot market: "Clarity Act signed 2026?" YES 17.5% ($1.28M vol)
+take: risk-on (conviction medium)
+BTC $79,006 (+2.34%) / ETH $2,505 (+3.18%) · F&G 73 Greed
+breadth 16/20 · TVL +20–32% 7d (DeFi)
+top narrative: BTC $80K approach (rising) · Jackson Hole T-3 (peak)
+hot market: "Fed no change Sep 2026" YES 67.5%
+⚠ Stoiiic: −11.3% drawdown signal — 9 days remaining
