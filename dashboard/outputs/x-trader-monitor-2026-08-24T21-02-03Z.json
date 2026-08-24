@@ -1,0 +1,119 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @Wild_Randomness"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_context",
+        "text_context",
+        "separator_1",
+        "heading_post",
+        "tweet_card",
+        "link_tweet",
+        "separator_2",
+        "alert_classification",
+        "text_q1",
+        "text_q2",
+        "text_q3"
+      ]
+    },
+    "heading_context": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "Recent posts focused on SPX ATH retest, yields/macro, semis technical analysis."
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_post": {
+      "type": "Heading",
+      "props": {
+        "text": "Post",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "@Parida Turnaround Tuesday?"
+      },
+      "children": []
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/Wild_Randomness/status/2091993761857540500"
+      },
+      "children": []
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert_classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read? Is this:",
+        "type": "info"
+      },
+      "children": []
+    },
+    "text_q1": {
+      "type": "Text",
+      "props": {
+        "text": "• SPX turnaround/rally expected Tuesday?"
+      },
+      "children": []
+    },
+    "text_q2": {
+      "type": "Text",
+      "props": {
+        "text": "• Reference to specific ticker or position?"
+      },
+      "children": []
+    },
+    "text_q3": {
+      "type": "Text",
+      "props": {
+        "text": "• Market sentiment only?"
+      },
+      "children": []
+    }
+  }
+}
