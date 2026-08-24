@@ -125,7 +125,7 @@
 - Current open positions: HYPE long (entry Aug 21 14:10Z 3-confluence; 1/3 TP Aug 22 13:21Z; 2/3 ACTIVE). ETH long (entry Aug 22 22:01Z; 1/3 fill Aug 23 13:11Z; 1/3 partial TP Aug 23 13:55Z; ~2/3 ACTIVE, awaiting Kyle approval to mirror).
 - Recent thesis: Technical entry trader; breakaway gap thesis (bid at higher liquidity levels); HYPE/ETH liq flush setups. No interest in shorts unless "super clean" setup (Aug 22 13:28Z). Indifferent to whether bottom is in; focuses on high-probability setups. Order layering: 3-5 tranches at varying demand zones.
 - Conviction notes: Known for correct ~20-min pre-BTC-breakout call Aug 20. Community educator on layering strategy + order discipline. Track record: HYPE/ETH reads correct, equities liquidity reads sharp (per Aug 23 15:02Z self-assessment). ETH macro short position ("sub 50% area", Aug 20 17:28Z) appears superseded by bullish stance.
-- Last seen: 2026-08-24T14:13:25Z
+- Last seen: 2026-08-24T15:26:50Z
 - **Events (rolling):**
   - Aug 20 12:54Z — informational (X): "would've said I'm long for the pop" ~20min pre-BTC-breakout call [$BTC] [2090422155187991025]
   - Aug 20 17:28Z — trade-new-entry: "macro move, shorting in sub 50% area" (Discord Crypto supporting) [$MACRO-SHORT] [15400497794779023647]
@@ -154,6 +154,7 @@
   - Aug 24 15:11Z — informational (X): BTC dip-buy market view; "75K~ should be a good dip buy if we get a pullback. Target 83K~" — trade idea/price-level suggestion, no personal action [$BTC] [2091906338422943973]
   - Aug 24 15:16Z — informational (X): BTC bid-level opinion reply to @trdrlakin; "The level should be a good bid regardless, but if 83K comes first then a pullback, then I'd TP a lower high"; conditional TP strategy on lower high target; technical reply with chart (image unreadable); Step 6 opinion-sharing, no personal execution [$BTC-LEVEL] [2091907515755729226]
   - Aug 24 15:23Z — ambiguous (Discord Crypto supporting): "But I don't know. I guess above the nearby local high" — cryptic response; unclear which asset; likely price-level speculation or entry-level discussion; calibration sent to Kyle [$UNKNOWN] [1541467922827051008]
+  - Aug 24 15:26Z — informational (Discord Crypto supporting): "But if it was slow bleeding then I might layer the area" — conditional layering strategy commentary; supporting-channel conviction reaffirmation on potential BTC dip entry; aligns with prior "75K~ dip buy" thesis [$BTC-LAYERING] [1541468840494375032]
 
 ## KillaXBT
 
