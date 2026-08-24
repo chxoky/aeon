@@ -1,0 +1,128 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Market Structure — @Stoiiic"
+      },
+      "children": [
+        "description",
+        "separator1",
+        "technical",
+        "stats_group",
+        "separator2",
+        "quote_group",
+        "link"
+      ]
+    },
+    "description": {
+      "type": "Text",
+      "props": {
+        "text": "Global overheat leverage-breadth signal indicates cooldown incoming.",
+        "variant": "lead"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "technical": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tech_title",
+        "tech_text"
+      ]
+    },
+    "tech_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Technical Framework",
+        "level": "h3"
+      }
+    },
+    "tech_text": {
+      "type": "Text",
+      "props": {
+        "text": "When ≥4% of names run OI ≥+30% over 20d mean, historical data shows next 14 days return median -11.3% (90% CI -14.5 to -3.7, max -17.5%) across 8 independent episodes. Current conditions appear extended on leverage metrics.",
+        "variant": "body"
+      }
+    },
+    "stats_group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat_median",
+        "stat_ci",
+        "stat_max"
+      ]
+    },
+    "stat_median": {
+      "type": "Stat",
+      "props": {
+        "label": "14-day Median Return",
+        "value": "-11.3%",
+        "trend": "down"
+      }
+    },
+    "stat_ci": {
+      "type": "Text",
+      "props": {
+        "text": "90% Confidence Interval: -14.5% to -3.7%",
+        "variant": "caption"
+      }
+    },
+    "stat_max": {
+      "type": "Stat",
+      "props": {
+        "label": "Maximum Drawdown",
+        "value": "-17.5%",
+        "trend": "down"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "quote_group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "quote_text",
+        "quote_author"
+      ]
+    },
+    "quote_text": {
+      "type": "Text",
+      "props": {
+        "text": "\"cooldown soon\"",
+        "variant": "lead"
+      }
+    },
+    "quote_author": {
+      "type": "Text",
+      "props": {
+        "text": "— Stoiiic",
+        "variant": "muted"
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Stoiiic/status/2091766490978562129"
+      }
+    }
+  }
+}

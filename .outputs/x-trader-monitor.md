@@ -1,9 +1,9 @@
-🐦 *[X] @swarmister*
+🔍 *Market Structure — @Stoiiic*
 
-$ETH bullish narrative on the weekly timeframe.
+Global overheat leverage-breadth signal indicates cooldown incoming.
 
-It followed the bullish scenario. And locally, it's showing itself to be stronger than Bitcoin. I was looking to go long on it, but I didn't place an order—what an idiot. I thought I had time, but it was already too late.
+Technical framework: When ≥4% of names run OI ≥+30% over 20d mean, historical data shows next 14 days return median **-11.3%** (90% CI -14.5 to -3.7, max -17.5%) across 8 independent episodes. Current conditions appear extended on leverage metrics.
 
-↳ Charts: Weekly bullish breakout + volume profile. 4H consolidation triangle forming. Aligns with Crypto_Chase bullish-push thesis + Stoiiic VWAP support 2300-2400 zone. Group lean: BULLISH technical structure near-term before contested downside target.
+Stoiiic: "cooldown soon"
 
-[View post](https://x.com/swarmister/status/2091764927333536118)
+[View post](https://x.com/Stoiiic/status/2091766490978562129)

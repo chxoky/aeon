@@ -283,6 +283,7 @@
   - Aug 23 20:46Z — informational: OI extension from consolidation + mean percentile ranking; ENA/PEPE/ZEC/AAVE/HYPE top of pack; "crowding" thesis on dips [$ENA/$PEPE/$ZEC/$AAVE/$HYPE] [2091628286824579118]
   - Aug 23 21:16Z — informational: market structure framework: 40+ tokens "which moves worth buying" + "where the bid is" retracement analysis; HYPE featured; educational OI/consolidation setup identification [$MULTI-CRYPTO-OI-FRAMEWORK] [2091635746947891685]
   - Aug 24 03:06Z — informational: PENDLE lagging (-34 heat rank) while PUMP/HYPE/ZEC/LIT surge; RWA positioning dynamics; PENDLE at pivotal yearly VWAP std-dev band level for potential "catch up" flip [$PENDLE/$RWA/$HYPE/$LIT/$ZEC] [2091723804238115241]
+  - Aug 24 05:56Z — informational: Global overheat leverage-breadth signal; "cooldown soon" market sentiment; chart shows ≥4% OI ≥+30% → median -11.3% drawdown next 14d; macro pullback prediction [$BTC/$MACRO-PULLBACK] [2091766490978562129]
 
 ## abetrade
 
