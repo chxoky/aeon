@@ -1,0 +1,129 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet",
+        "sep1",
+        "heading1",
+        "table",
+        "sep2",
+        "heading2",
+        "stat",
+        "price_change",
+        "sep3",
+        "link"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "Historical analysis: BTC after +20% weekly candles\n\nData from all 9 instances since 2019 when BTC closed weekly ≥+20% (Binance spot):\n• +1 day: avg +1.7% (56% win rate)\n• +2 days: avg +3.4% (89% win rate)\n• +7 days: avg +8.8% (67% win rate)\n• +14 days: avg +10.5% (89% win rate)\n• +21 days: avg +11.6% (78% win rate)\n• +8 weeks: avg +32.9% (78% win rate)\n\nCurrent week: +23% (62.8k → 77.7k). Pattern holds."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading1": {
+      "type": "Heading",
+      "props": {
+        "text": "Historical Data (9 instances since 2019)",
+        "level": "h3"
+      }
+    },
+    "table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Timeframe",
+          "Avg Performance",
+          "Win Rate"
+        ],
+        "rows": [
+          [
+            "+1 day",
+            "+1.7%",
+            "56%"
+          ],
+          [
+            "+2 days",
+            "+3.4%",
+            "89%"
+          ],
+          [
+            "+7 days",
+            "+8.8%",
+            "67%"
+          ],
+          [
+            "+14 days",
+            "+10.5%",
+            "89%"
+          ],
+          [
+            "+21 days",
+            "+11.6%",
+            "78%"
+          ],
+          [
+            "+8 weeks",
+            "+32.9%",
+            "78%"
+          ]
+        ]
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading2": {
+      "type": "Heading",
+      "props": {
+        "text": "Current Week",
+        "level": "h3"
+      }
+    },
+    "stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Weekly Change",
+        "value": "+23%",
+        "trend": "up"
+      }
+    },
+    "price_change": {
+      "type": "Text",
+      "props": {
+        "text": "62.8k → 77.7k",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View post",
+        "href": "https://x.com/bull_genius/status/2091785529649930292",
+        "source": "X"
+      }
+    }
+  }
+}

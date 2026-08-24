@@ -232,8 +232,9 @@
 - Current open positions: BASE/BASECAT (accumulated on dips; conditional add if lower — Aug 22 08:52Z). No confirmed BTC/ETH personal execution positions.
 - Recent thesis: BTC/ETH technical structure analyst. BTC "bear market end" conviction (Aug 21 07:22Z); structural bull — won't go below yearly VAH for extended time (Aug 24 01:21Z). ETH $3K target; 2850 multi-VWAP support confluence (Aug 21 22:43Z). DCA philosophy: "bad entries forgiven eventually as long as you don't wipe out on high lev." Crypto narrative ranking: perp dex wars > RWA > privacy coins > FX stables > ETH revival (Aug 21 16:02Z).
 - Conviction notes: Technical analyst/educator primarily (not personal position announcer). High conviction on BTC structural bottom + bullish expansion eventual. BASE position documented as personal entry (Aug 22 08:52Z — BASECAT preferred for Cobie angle + Robinhood competitive). Charts always labeled with multi-VWAP clusters, POC, VAH/VAL references.
-- Last seen: 2026-08-24T01:21:51Z
+- Last seen: 2026-08-24T07:11:48Z
 - **Events (rolling):**
+  - Aug 24 07:11Z — informational: Historical BTC +20% weekly candle analysis; 9 instances since 2019; avg +32.9% over 8 weeks (78% win); current week +23% (62.8→77.7k); single-word affirm "yes" on pattern hold [$BTC-STATISTICS] [2091785529649930292]
   - Aug 24 01:21Z — informational: Weekly BTC structure review; 62.8→77.7k +23% explosive week; resistance zones (67/71/75k) all tested; consolidating 78k (ATH vwap); "eventually massive expansion up" bullish bias; won't go below yearly VAH extended time [$BTC] [2091697461022992728]
   - Aug 24 01:09Z — skip: "@AdamDelonga no i like eth more" — personal preference banter, aligns with documented ETH bullish thesis, no actionable signal [2091694296273395849]
   - Aug 23 22:20Z — informational: BTC post-75.8k-dip analysis; "strongest weekly candle" + 2026-vah-to-82.8k-may-high resistance framework; range 83-75k then 100k target; volume-profile + avwap/rvwap/vah levels (2 charts) [$BTC-STRUCTURE-BULLISH] [2091651895009915088]

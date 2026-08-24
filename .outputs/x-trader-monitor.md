@@ -1,19 +1,15 @@
-## Summary
+🐦 *[X] @bull_genius*
 
-**x-trader-monitor skill executed** for tweet ID `2091774553282564518`
+Historical analysis: BTC after +20% weekly candles
 
-**Event:** @Stoiiic reply to @JadedCapital — "Lmao yep"
+Data from all 9 instances since 2019 when BTC closed weekly ≥+20% (Binance spot):
+• +1 day: avg +1.7% (56% win rate)
+• +2 days: avg +3.4% (89% win rate)  
+• +7 days: avg +8.8% (67% win rate)
+• +14 days: avg +10.5% (89% win rate)
+• +21 days: avg +11.6% (78% win rate)
+• +8 weeks: avg +32.9% (78% win rate)
 
-**Classification:** **SKIP** (non-financial banter)
-- No ticker mentions, no execution language, no financial signal
-- Generic agreement response without visible context
-- Matches Stoiiic baseline (high banter ratio, chart-analysis focus when financial)
-- Per Step 4A: classified as non-financial → silent skip
+Current week: +23% (62.8k → 77.7k). Pattern holds.
 
-**Actions Taken:**
-- ✅ Recorded tweet ID in dedup cache (`memory/x-trader-seen.txt`)
-- ✅ Added log entry to `memory/logs/2026-08-24.md`
-- ✅ **No Kyle notification** (non-financial)
-- ✅ **No traders.md event line** (per size discipline: skip events excluded)
-
-**Result:** Event processed and archived. No alert warranted.
+[View post](https://x.com/bull_genius/status/2091785529649930292)
