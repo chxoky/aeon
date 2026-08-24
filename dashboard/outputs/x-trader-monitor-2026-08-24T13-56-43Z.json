@@ -1,0 +1,69 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading_calibration",
+        "text_event",
+        "text_chart",
+        "tweet_content",
+        "text_question",
+        "link_post"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: NVDA consolidation + semis weakness (announced 8 min prior in Aug 24 13:45Z post)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_chart": {
+      "type": "Text",
+      "props": {
+        "text": "Chart shown: NVDA 1D consolidating 209-210 support after decline from 236 peak",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "tweet_content": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Sipping my morning coffee and thinking—\n\nWhat if?"
+      },
+      "children": []
+    },
+    "text_question": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read? [Bullish breakout expected, bearish breakdown, or just musing?]",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2091886525982372119"
+      },
+      "children": []
+    }
+  }
+}

@@ -1,7 +1,11 @@
-🐦 *[X] @Wild_Randomness*
+🔍 *Calibration — @Wild_Randomness*
 
-$NVDA — Semis complex under pressure as Broadcom ($AVGO) crashes -6.30%. Charts show NVDA consolidation after recent run. "Cinema" volatility comment suggests intraday drama.
+Event: NVDA consolidation + semis weakness (announced 8 min prior in Aug 24 13:45Z post)
 
-[View tweet](https://x.com/Wild_Randomness/status/2091884697970508120)
+Chart shown: NVDA 1D consolidating 209-210 support after decline from 236 peak
 
-↳ _AVGO weakness may drag chip sentiment. NVDA on watch list — monitor for structure breakdown._
+Wild_Randomness: "Sipping my morning coffee and thinking—\n\nWhat if?"
+
+Unable to classify — what's your read? [Bullish breakout expected, bearish breakdown, or just musing?]
+
+[View post](https://x.com/Wild_Randomness/status/2091886525982372119)
