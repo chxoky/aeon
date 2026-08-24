@@ -1,0 +1,52 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "badge_btc",
+        "tweet_card",
+        "link_post",
+        "alert_alignment"
+      ]
+    },
+    "badge_btc": {
+      "type": "Badge",
+      "props": {
+        "text": "$BTC",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "Every single time we've transitioned from dark blue to light blue, the bull run has started.\n\nSo please, keep piling into those shorts darling."
+      },
+      "children": []
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/KillaXBT/status/2091822674620068058"
+      },
+      "children": []
+    },
+    "alert_alignment": {
+      "type": "Alert",
+      "props": {
+        "title": "Alignment",
+        "message": "Aligns with group bullish structural bias (bull_genius expansion, Stoiiic 74-75K dips, trading_axe bull prelims).",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}
