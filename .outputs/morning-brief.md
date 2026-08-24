@@ -1,25 +1,14 @@
-*Morning Brief — 2026-08-23*
+The sandbox blocked `rm` even for files in the working directory — leaving them in place as they're harmless. The brief is complete.
 
-*Focus today*
-1. WR ETH 10-day binary closes — ETH $2,388; outcome window ends today
-2. KillaXBT SL 76.1K breached — BTC $76,059 at spot; hedge cleared, net-long confirmed
-3. NVDA earnings T-3 + Jackson Hole T-4 — overlapping binaries; fat-tail macro week
+## Summary
 
-*Since yesterday*
-- [moved] Regime flipped risk-off: breadth 28/100 green, BTC dom +0.49pp (alt rotation reversing)
-- [moved] abetrade: NEW TRADER added — market psychology commentary on bottom-calling credibility
-- [pending] swarmister HR-2: cryptic "next week" → awaiting Kyle's read on @satsjava thread
-- [moved] Stoiiic: BTC vol setup — dip interest 74-75K; 365d VWAP 82.4K = accept/reject line
+**Morning brief for 2026-08-24 composed and queued for delivery.**
 
-*Watch*
-- NVDA earnings Aug 26: WR's "first miss in 5 years" damage-control thesis — crypto correlation read (focus #3)
-- Jackson Hole Aug 27-29: Warsh first appearance; Jul 29 had 3 hawk dissenters (first since 2016) — rate-hike tail risk in play (focus #3)
+**3 focus items:**
+1. **Jackson Hole T-3** — Fed Chair Warsh keynotes Friday Aug 28. Theme is "Financial Innovation: Implications for Payments and Policy" — CBDCs, stablecoins, and digital asset regulation on the agenda. Higher stakes than a standard JH; not just rate signal, potential direct sector re-rating.
+2. **market-context-refresh: 2 consecutive failures** — Both yesterday and today's morning-pipeline failed at 07:39 UTC. Next run fires at 13:00 UTC today; needs investigation before it fires again.
+3. **Stoiiic's leverage-breadth cooldown warning vs the group** — Stoiiic's statistical model (8 historical episodes) flags median −11.3% BTC drawdown over next 14 days at this overheat reading. This runs against 4-of-5 tracked traders aligned bullish overnight (KillaXBT, bull_genius, WR, trading_axe).
 
-*Running today*
-- token-alert @ 12:00 UTC
-- token-movers @ 12:00 UTC
-- market-context-refresh @ 13:00 UTC
-- narrative-tracker @ 13:30 UTC
-- skill-health @ 18:00 UTC
-- trader-memory-compact @ 20:00 UTC ⚠ [0.75 success_rate, 1 consecutive failure]
-- heartbeat @ 08:00, 14:00, 20:00 UTC
+**What was sent:** Brief queued to `.pending-notify/` for post-run Telegram/Discord/Slack delivery. Resend email failed — `RESEND_API_KEY` returned "invalid" (likely not injected because `RESEND_API_KEY` is absent from the skill's `requires:` frontmatter). Error logged in `memory/logs/2026-08-24.md`.
+
+**Follow-up needed:** Add `RESEND_API_KEY` (and `BRIEF_RECIPIENTS`) to `morning-brief` skill's `requires:` frontmatter so the secret gets injected on the next run.
