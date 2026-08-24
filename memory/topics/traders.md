@@ -184,6 +184,7 @@
   - Aug 24 09:39Z — informational: BTC PlanB chart phase transition (dark blue→light blue = bull run start); sarcasm at shorts [$BTC-CHART-PHASE] [2091822674620068058]
   - Aug 24 11:47Z — informational: V-shaped recovery chart 58K→78.5K; celebratory sentiment on bottom call validation; "Who's laughing now, $BTC" [$BTC-RECOVERY] [2091854970261819561]
   - Aug 24 13:48Z — trade-position-management: "Remove first **BTC** short limit" (scalp hedge); front ran by $100; keeping 80.5K/82.2K limits intact; reply to prior limits context (Discord K, is_reply=true) [$BTC-SCALP-MGMT] [1541444113071738960]
+  - Aug 24 14:39Z — informational: "+160K in 4 days. Patience is everything. Soon the hedges activate." (self-reply to Aug 21 hedge narrative); position update reflecting +160K P&L within 4 days (validates bullish conviction); reference to pending 79.5K/80.5K/82.2K short limits ready to execute (Discord K, is_reply=true) [$BTC-HEDGE-STATUS] [1541457021185040436]
 
 ## trading_axe
 
