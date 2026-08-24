@@ -1,0 +1,40 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "metadata_badge",
+        "message_text"
+      ]
+    },
+    "metadata_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DC: Chase — Crypto",
+        "variant": "outline"
+      }
+    },
+    "message_text": {
+      "type": "Text",
+      "props": {
+        "text": "btc 74k~ but not expecting flush",
+        "variant": "lead"
+      }
+    }
+  }
+}
