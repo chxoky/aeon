@@ -1,0 +1,62 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "mirrored-text",
+        "separator-1",
+        "content-stack"
+      ]
+    },
+    "mirrored-text": {
+      "type": "Text",
+      "props": {
+        "text": "🔁 Mirrored — @Wild_Randomness",
+        "variant": "muted"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "content-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "title",
+        "body",
+        "link"
+      ]
+    },
+    "title": {
+      "type": "Heading",
+      "props": {
+        "text": "$NVDA — closed position",
+        "level": "h3"
+      }
+    },
+    "body": {
+      "type": "Text",
+      "props": {
+        "text": "Good TP on $NVDA consolidation structure. Charts show key support/resistance levels around 230/227 (resistance) and 200-215 (support) zone."
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2092249029170307553"
+      }
+    }
+  }
+}
