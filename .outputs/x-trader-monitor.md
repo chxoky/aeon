@@ -11,3 +11,10 @@ Images shown:
 4. [Fourth image fetch incomplete]
 
 Unable to classify intent — what's your read? Self-commentary on BTC short (-179% ROI)? Cautionary tale for Vhagar group? Risk-management reminder?
+🐦 *[X] @bull_genius*
+
+For spot literally nothing to worry about can sleep like a baby. only turbulence for the highly leveraged
+
+[View tweet](https://x.com/bull_genius/status/2092200132481527877)
+
+↳ _Reinforces documented BTC structural bull thesis — support below 71K intact._

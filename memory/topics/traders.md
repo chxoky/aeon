@@ -302,8 +302,9 @@
 - Last seen: 2026-08-25T10:11:53Z
 - **Events (rolling):**
   - Aug 25 10:11Z — informational: BTC consolidation framework; 73-82k zone for 30D+90D VWAP catch-up/base-build; near-term squirt 83-84k; ETH 365D RVWAP not yet reached (bullish divergence vs BTC); conviction: "ethereum's cycle this time" [$BTC/$ETH-STRUCTURE] [2092193238870307160]
-- Last seen: 2026-08-25T10:20:55Z
+- Last seen: 2026-08-25T10:39:17Z
 - **Events (rolling):**
+  - Aug 25 10:39Z — informational: spot vs leverage sentiment; "nothing to worry about" for spot, "turbulence" for leveraged; reinforces structural bull thesis ($BTC won't drop below yearly VAH) [$BTC] [2092200132481527877]
   - Aug 25 10:20Z — informational: ETH denomination preference reply to @Awowoko; "pick to denominate in eth" aligns with bullish ethereum-cycle thesis from 10:13Z technical [$ETH] [2092195368293323126]
   - Aug 25 10:13Z — informational: BTC consolidation structure analysis; 83-84K squirt possible but needs 73-82K basis rebuild (30d+90d vwaps), won't see 60s again, 71K floor; ETH different picture (365d rvwap not breached yet), ethereum's cycle coming; multi-VWAP technical framework with volume profile charts [$BTC/$ETH-VWAP-STRUCTURE] [2092193682577293374]
   - Aug 25 10:20Z — informational: BTC consolidation structure analysis; 83-84K squirt possible but needs 73-82K basis rebuild (30d+90d vwaps), won't see 60s again, 71K floor; ETH different picture (365d rvwap not breached yet), ethereum's cycle coming; multi-VWAP technical framework with volume profile charts [$BTC/$ETH-VWAP-STRUCTURE] [2092193682577293374]
