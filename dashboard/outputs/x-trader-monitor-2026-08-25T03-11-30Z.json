@@ -1,0 +1,160 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "status_heading",
+        "sep1",
+        "ambiguous_stack",
+        "sep2",
+        "resolution_stack",
+        "sep3",
+        "classification_stack",
+        "sep4",
+        "link_element"
+      ]
+    },
+    "status_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "✅ Self-resolved — @Stoiiic",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "ambiguous_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ambiguous_label",
+        "ambiguous_text",
+        "ambiguous_time"
+      ]
+    },
+    "ambiguous_label": {
+      "type": "Text",
+      "props": {
+        "text": "Earlier ambiguous",
+        "variant": "lead"
+      }
+    },
+    "ambiguous_text": {
+      "type": "Text",
+      "props": {
+        "text": "\"if i was to ever consider a short this is the one area when I start thinking about one\"",
+        "variant": "body"
+      }
+    },
+    "ambiguous_time": {
+      "type": "Text",
+      "props": {
+        "text": "[Aug 25 02:49Z]",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "resolution_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "resolution_label",
+        "resolution_text",
+        "resolution_time"
+      ]
+    },
+    "resolution_label": {
+      "type": "Text",
+      "props": {
+        "text": "Resolved by",
+        "variant": "lead"
+      }
+    },
+    "resolution_text": {
+      "type": "Text",
+      "props": {
+        "text": "\"@wilfred8140 Threes no decisive factor. I'm just saying across this entire rally this would be one spot to even think of entertaining a short because it's a high time frame pivot ,acceptance above the 82s just means continuation.\"",
+        "variant": "body"
+      }
+    },
+    "resolution_time": {
+      "type": "Text",
+      "props": {
+        "text": "[Aug 25 03:07Z]",
+        "variant": "caption"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "classification_label",
+        "classification_badge",
+        "classification_detail"
+      ]
+    },
+    "classification_label": {
+      "type": "Text",
+      "props": {
+        "text": "Classification",
+        "variant": "lead"
+      }
+    },
+    "classification_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Informational trade idea",
+        "variant": "outline"
+      }
+    },
+    "classification_detail": {
+      "type": "Text",
+      "props": {
+        "text": "Conditional short setup at BTC 365d rolling VWAP (~82.4K), contingent on flow deterioration. No personal execution language.",
+        "variant": "body"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_element": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Stoiiic/status/2092086387684372608"
+      }
+    }
+  }
+}

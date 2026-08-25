@@ -1,7 +1,9 @@
-🔍 *Calibration — @Stoiiic*
+✅ *Self-resolved — @Stoiiic*
 
-Event: chart analysis context (Aug 25 02:26-02:40Z posts: BTC consolidating at 365d VWAP ~82.4K, noting 250d VWAP ~80K as 'final boss' resistance)
+Earlier ambiguous [Aug 25 02:49Z]: "if i was to ever consider a short this is the one area when I start thinking about one"
 
-Stoiiic: "if i was to ever a consider a short this is the one area when I start thinking about one."
+Resolved by [Aug 25 03:07Z]: "@wilfred8140 Threes no decisive factor. I'm just saying across this entire rally this would be one spot to even think of entertaining a short because it's a high time frame pivot ,acceptance above the 82s just means continuation."
 
-Unable to classify — conditional language vs execution unclear, and asset/area unspecified. How do you read this? Bullish setup observation into shortable zone, or actual short-entry signal?
+Classification: Informational trade idea — conditional short setup at BTC 365d rolling VWAP (~82.4K), contingent on flow deterioration. No personal execution language.
+
+https://x.com/Stoiiic/status/2092086387684372608
