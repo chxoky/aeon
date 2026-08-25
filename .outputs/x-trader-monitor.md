@@ -1,7 +1,5 @@
 🐦 *[X] @Stoiiic*
 
-still squeezing.
+*final boss.* — BTC 250d rolling VWAP ~$80K identified as the critical resistance level consolidating. Chart shows historic trend from 2023 bottom through 2025 peak, now testing this multi-timeframe pivot.
 
-[View tweet](https://x.com/Stoiiic/status/2092076220888314327)
-
-↳ _Likely referring to the BTC consolidation at 365d VWAP (~82.4K) they identified yesterday — still holding at that HTF pivot level._
+[View tweet](https://x.com/Stoiiic/status/2092079750244082123)

@@ -352,6 +352,7 @@
   - Aug 24 14:32Z — ambiguous: "beautiful." — single word, no context/media; possible chart praise or sentiment; unable to determine reference [$UNKNOWN] [2091896559357325641]
   - Aug 25 00:26Z — informational: H4 EMA 9 & 21 trend-continuation framework; momentum resets in lock-out/strong/normal regimes; survivorship bias thesis [$FRAMEWORK] [2092045810628202947]
   - Aug 25 02:26Z — informational: BTC consolidation "still squeezing"; confirms ongoing squeeze at 365d VWAP (~82.4K) [$BTC] [2092076220888314327]
+  - Aug 25 02:40Z — informational: BTC 250d rolling VWAP ~$80K identified as "final boss" resistance; chart shows historical bull trend from 2023 bottom through 2025 peak consolidating at VWAP level; multi-timeframe technical pivot [$BTC-250D-VWAP-BOSS] [2092079750244082123]
 
 ## abetrade
 
