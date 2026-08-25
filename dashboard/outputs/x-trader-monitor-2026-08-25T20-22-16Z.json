@@ -1,0 +1,44 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor",
+        "description": "Trading commentary from @Wild_Randomness"
+      },
+      "children": [
+        "stack_1"
+      ]
+    },
+    "stack_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_1",
+        "link_1"
+      ]
+    },
+    "tweet_1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Pretty much a toss up for me…\n\nGathering energy here on top of daily trend right above the previous ATH…\n\nLooks terrible 1.5% lower, but hard spot to press unless you have a firm conviction on the how JHole is going to play out (and more importantly,— how the market will respond)."
+      },
+      "children": []
+    },
+    "link_1": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2092345040098279512"
+      },
+      "children": []
+    }
+  }
+}

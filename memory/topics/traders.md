@@ -58,6 +58,7 @@
   - Aug 25 19:32Z — informational: gold position structural conviction; "order of magnitude greater" than viral-moment trades (SA liq, Druck semis); position sizing hierarchy confirms GOLD core conviction vs tactical satellites [$GOLD] [2092333432218347540]
   - Aug 25 19:57Z — informational: bullish equities conviction; "I'm long semis and QQQ… ideally into mid September, just couldn't resist"; clarifies NOT local bear post; short-term bullish into mid-Sep [$SEMIS/$QQQ] [2092340632312578330]
   - Aug 25 20:11Z — informational: trading philosophy on breakouts; "breaks are always +EV" reply to @JackofTradesX, methodology observation [BREAKOUT-EV] [2092344078881169634]
+  - Aug 25 20:15Z — informational: market consolidation + conviction requirement for trade entry; "gathering energy on top of daily trend right above previous ATH"; 1.5% lower looks terrible but hard to press without firm conviction on JPowel impact; 3 chart images show technical structure and momentum setup [$BTC-CONSOLIDATION-ATH] [2092345040098279512]
 
 ## Bitcoin_Astro
 
