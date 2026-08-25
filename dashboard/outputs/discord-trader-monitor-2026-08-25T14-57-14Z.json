@@ -1,0 +1,86 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — [DC: Chase — TradFi]"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_context",
+        "sep1",
+        "quote_section",
+        "sep2",
+        "text_question"
+      ]
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "Continuation context: member discussing BTC pullback + dip entry strategy",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "quote_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_quote",
+        "badge_member"
+      ]
+    },
+    "text_quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"but yes after real pullback, long dip\"",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "badge_member": {
+      "type": "Badge",
+      "props": {
+        "text": "Crypto_Chase",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text_question": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — does this signal a new long entry, or affirmation of existing strategy? What's your read?",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}

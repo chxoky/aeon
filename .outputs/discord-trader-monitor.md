@@ -20,3 +20,10 @@ Successfully executed the **discord-trader-monitor** skill for the Discord event
 ✅ Appended log entry to `memory/logs/2026-08-25.md` with classification and rationale
 
 **Status**: Event processed successfully. No Kyle notification needed.
+🔍 *Calibration — [DC: Chase — TradFi]*
+
+Continuation context: member discussing BTC pullback + dip entry strategy
+
+Crypto_Chase: "but yes after real pullback, long dip"
+
+Unable to classify — does this signal a new long entry, or affirmation of existing strategy? What's your read?
