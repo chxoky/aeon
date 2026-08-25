@@ -2,17 +2,17 @@ Perfect. I've processed the Discord message from Crypto_Chase successfully. Here
 
 ## Summary
 
-**Discord Trader Monitor — Event Processed**
+**Skill: discord-trader-monitor (real-time event)**
 
-I've processed the Discord message from Crypto_Chase at 2026-08-25T00:52:02Z.
-
-**Event Details:**
+**Event processed:**
 - **Trader**: Crypto_Chase
-- **Channel**: Chase — Crypto (supporting/member Q&A channel 1247927786681794601)
-- **Message**: Reply to docpfc's question about Saylors; Crypto_Chase says he doesn't care about macro BTC and doesn't want to talk about it
-- **Classification**: Skip (chatter/banter, no actionable signal)
+- **Channel**: 1247927786681794601 (Chase — Crypto, supporting channel)
+- **Message ID**: 1541611884975751219
+- **Classification**: SKIP (Step 7 supporting-channel protocol)
+- **Timestamp**: 2026-08-25T00:55:15.142Z
 
-**Decision**: No alert sent to Kyle. Per Step 7 (Supporting Channel Protocol), standalone alerts are not sent on chatter-only messages when no related primary-channel context exists. This was a pure dismissal/banter message with no conviction shift or new information.
+**Analysis:**
+The message contains meta-commentary dismissing macro BTC traders who repeatedly predict large moves (250K, 1M) over years, framing it as exaggeration for follower-building. This is pure **trader-behavior sentiment/banter** — not a personal trade execution, not ambiguous, and without related primary-channel context.
 
 **Memory Updated:**
 - Added message ID (1541611077761105971) to discord-trader-seen.txt
@@ -32,3 +32,10 @@ I've processed the Discord message from Crypto_Chase at 2026-08-25T00:52:02Z.
 3. ✅ Updated `memory/topics/traders.md` with the event under Crypto_Chase's record
 
 **Reasoning:** This is a supporting-channel philosophy observation about trader behavior, not a personal execution. Per the skill rules, supporting channel non-actionable commentary doesn't trigger alerts — it's logged for context only.
+**Per Step 7 supporting-channel protocol**: No standalone alert generated. Message tracked in memory and logged. Fast-path alert was not triggered (fast_path_alerted=false), and skill completed full processing confirming this is chatter-only, no actionable financial signal.
+
+**Files updated:**
+- `memory/topics/traders.md` — added event entry
+- `memory/logs/2026-08-25.md` — logged event details
+
+No notification sent to Kyle (supporting-channel banter, no execution signal).
