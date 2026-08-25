@@ -1,0 +1,50 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor",
+        "description": "On-chain market analysis from @bull_genius"
+      },
+      "children": [
+        "tweet-card",
+        "separator-1",
+        "analysis-note"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "Battle against bear market final line could take some time. If BTC rejects and stalls here could imagine some shaking for few weeks while alts and onchain do well.\n\nCan see squirt to 83-84K but for sustained move into bull market zone need consolidation so 30d+90d vwaps catch up and price builds new basis between 73-82K to reload.\n\nDon't see BTC lower than 71K; 60s should be gone. Ethereum isn't at 365d rvwap/ath avwap yet—different picture than BTC. Think it will be ethereum's cycle this time."
+      },
+      "children": []
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/bull_genius/status/2092193682577293374"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis-note": {
+      "type": "Text",
+      "props": {
+        "text": "↳ Aligns with group structural bullish conviction (KillaXBT/Stoiiic levels) while emphasizing consolidation patience needed before breakout. ETH divergence thesis adds macro depth to near-term chop positioning.",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}

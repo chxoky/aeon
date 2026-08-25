@@ -299,6 +299,9 @@
 - Last seen: 2026-08-25T10:11:53Z
 - **Events (rolling):**
   - Aug 25 10:11Z — informational: BTC consolidation framework; 73-82k zone for 30D+90D VWAP catch-up/base-build; near-term squirt 83-84k; ETH 365D RVWAP not yet reached (bullish divergence vs BTC); conviction: "ethereum's cycle this time" [$BTC/$ETH-STRUCTURE] [2092193238870307160]
+- Last seen: 2026-08-25T10:13:39Z
+- **Events (rolling):**
+  - Aug 25 10:13Z — informational: BTC consolidation structure analysis; 83-84K squirt possible but needs 73-82K basis rebuild (30d+90d vwaps), won't see 60s again, 71K floor; ETH different picture (365d rvwap not breached yet), ethereum's cycle coming; multi-VWAP technical framework with volume profile charts [$BTC/$ETH-VWAP-STRUCTURE] [2092193682577293374]
   - Aug 25 07:32Z — informational: FWA/NFT product launch psychology; Rhynotic allowlist hype created false expectations; poor launch terms will kill backing interest; market commentary on poor communication (reply to @0xtygra/@Rhynotic) [$FWA-SENTIMENT] [2092153178762424356]
   - Aug 25 05:42Z — informational: BTC technical structure analysis; ATH AVWAP claimed, now consolidating at 365D RVWAP; bullish thesis on "lockout pump" structure; mean reversion shorters structurally wrong; multi-VWAP chart framework (3 labeled VWAP level charts) [$BTC-VWAP-STRUCTURE] [2092125477674635415]
   - Aug 24 14:36Z — ambiguous: "@0xMiaWallace nado to $10" — context/asset unclear; calibration sent to Kyle [$UNKNOWN] [2091897527725330488]
