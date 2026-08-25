@@ -23,3 +23,4 @@ Perfect. I've completed the skill execution for the x-trader-monitor event:
 - `memory/logs/2026-08-25.md` — logged event details
 
 Skill executed successfully. No trade signal or alert required.
+🐦 trading_axe shares market psychology lessons from the bear market cycle: early sellers turn into bitter bears who short every subsequent pump and lose it all. Context: BlackRock BTC ETF pump setup parallels. [View tweet](https://x.com/trading_axe/status/2092198052807266347)
