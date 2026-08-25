@@ -1,0 +1,365 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-08-25"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_focus",
+        "focus_item_1",
+        "focus_item_2",
+        "focus_item_3",
+        "sep_1",
+        "heading_since",
+        "since_item_1",
+        "since_item_2",
+        "since_item_3",
+        "since_item_4",
+        "since_item_5",
+        "sep_2",
+        "heading_watch",
+        "watch_item_1",
+        "watch_item_2",
+        "sep_3",
+        "heading_running",
+        "running_items"
+      ]
+    },
+    "heading_focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "focus_item_1": {
+      "type": "Text",
+      "props": {
+        "text": "BTC at 365d/250d VWAP resistance ($80K–$82.4K) — KillaXBT short filled at 80.5K; all tracked bulls hedging",
+        "variant": "body"
+      }
+    },
+    "focus_item_2": {
+      "type": "Text",
+      "props": {
+        "text": "Jackson Hole T-2 (Warsh keynote Aug 28) — Fed hike 33.5% YES; resolution window now 48 hours",
+        "variant": "body"
+      }
+    },
+    "focus_item_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_3_text1",
+        "focus_3_badge",
+        "focus_3_text2"
+      ]
+    },
+    "focus_3_text1": {
+      "type": "Text",
+      "props": {
+        "text": "STX",
+        "variant": "body"
+      }
+    },
+    "focus_3_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "BREAKOUT",
+        "variant": "destructive"
+      }
+    },
+    "focus_3_text2": {
+      "type": "Text",
+      "props": {
+        "text": "+133% 7d — Stacks L2 breakout on real volume; entry window narrowing",
+        "variant": "body"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_since": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "since_item_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "since_1_badge",
+        "since_1_text"
+      ]
+    },
+    "since_1_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "since_1_text": {
+      "type": "Text",
+      "props": {
+        "text": "KillaXBT 80.5K scalp short #2 filled 06:35 UTC; hedge thesis: range $80K–$84K → retrace $73K–$76K → $90K+ push",
+        "variant": "body"
+      }
+    },
+    "since_item_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "since_2_badge",
+        "since_2_text"
+      ]
+    },
+    "since_2_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "since_2_text": {
+      "type": "Text",
+      "props": {
+        "text": "Stoiiic: 365d/250d VWAP at ~$81K–$82.4K as conditional short zone; self-clarified via reply",
+        "variant": "body"
+      }
+    },
+    "since_item_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "since_3_badge",
+        "since_3_text"
+      ]
+    },
+    "since_3_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "since_3_text": {
+      "type": "Text",
+      "props": {
+        "text": "Wild_Randomness BTC:QQQ ratio \"character change\" at 2.55 — validates macro bottom structure",
+        "variant": "body"
+      }
+    },
+    "since_item_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "since_4_badge",
+        "since_4_text"
+      ]
+    },
+    "since_4_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "since_4_text": {
+      "type": "Text",
+      "props": {
+        "text": "bull_genius: lockout pump analysis — mean-reversion shorters structurally wrong; BTC above AVWAP $78.2K",
+        "variant": "body"
+      }
+    },
+    "since_item_5": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "since_5_badge",
+        "since_5_content"
+      ]
+    },
+    "since_5_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "since_5_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "since_5_text1",
+        "since_5_major",
+        "since_5_trending",
+        "since_5_text2"
+      ]
+    },
+    "since_5_text1": {
+      "type": "Text",
+      "props": {
+        "text": "SOL cleared $100",
+        "variant": "body"
+      }
+    },
+    "since_5_major": {
+      "type": "Badge",
+      "props": {
+        "text": "MAJOR",
+        "variant": "destructive"
+      }
+    },
+    "since_5_trending": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+UP",
+        "variant": "default"
+      }
+    },
+    "since_5_text2": {
+      "type": "Text",
+      "props": {
+        "text": "; ENA/AAVE/LIT distributing after 47–86% 7d runs",
+        "variant": "body"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "watch_item_1": {
+      "type": "Text",
+      "props": {
+        "text": "Jackson Hole Aug 28: Warsh hawkish → KillaXBT $73K–$76K retrace target in play; dovish → ATH path open (resolves Focus #1+2)",
+        "variant": "body"
+      }
+    },
+    "watch_item_2": {
+      "type": "Text",
+      "props": {
+        "text": "STX Stacks L2: clean breakout mechanics, not a pump; L2 rotation window active (Focus #3)",
+        "variant": "body"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "running_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "running_1",
+        "running_2",
+        "running_3",
+        "running_4",
+        "running_5",
+        "running_6"
+      ]
+    },
+    "running_1": {
+      "type": "Text",
+      "props": {
+        "text": "token-alert @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running_2": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running_3": {
+      "type": "Text",
+      "props": {
+        "text": "market-context-refresh @ 13:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running_4": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC",
+        "variant": "body"
+      }
+    },
+    "running_5": {
+      "type": "Text",
+      "props": {
+        "text": "skill-health @ 18:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running_6": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 08:00, 14:00, 20:00 UTC",
+        "variant": "body"
+      }
+    }
+  }
+}
