@@ -1,13 +1,11 @@
-Done. No alerts triggered.
+**TOKEN_ALERT_OK** — no anomalies detected.
 
-## Summary
+**Summary:**
 
-**Tracked tokens checked** (source: CoinGecko free API via WebFetch):
+| Token | Price | 24h Change | Threshold | Status |
+|-------|-------|-----------|-----------|--------|
+| BTC | $79,125 | +1.15% | 5% | ✓ Clear |
+| ETH | $2,479.34 | -0.29% | 8% | ✓ Clear |
+| SOL | $98.68 | +3.30% | 10% | ✓ Clear |
 
-| Token | Price   | 24h Δ | Threshold | Alert? |
-|-------|---------|-------|-----------|--------|
-| BTC   | $78,344 | +1.41% | 5%       | No     |
-| ETH   | $2,491  | +2.51% | 8%       | No     |
-| SOL   | $95.72  | +1.29% | 10%      | No     |
-
-All three tokens are in modest consolidation following the Aug 20–22 breakout rally. None crossed their alert thresholds and no volume spikes were detected. No notification sent. Result logged to `memory/logs/2026-08-24.md`.
+No thresholds breached, no volume spikes detected. Current prices logged to `memory/logs/2026-08-25.md`. No notification sent.
