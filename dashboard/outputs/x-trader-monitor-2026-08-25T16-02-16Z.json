@@ -1,0 +1,78 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🏀 x-trader-monitor"
+      },
+      "children": [
+        "header",
+        "content_divider",
+        "main_text",
+        "classification_divider",
+        "classification"
+      ]
+    },
+    "header": {
+      "type": "Text",
+      "props": {
+        "text": "15:58 UTC — @Crypto_Chase sports commentary skip",
+        "variant": "muted"
+      }
+    },
+    "content_divider": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "main_text": {
+      "type": "Text",
+      "props": {
+        "text": "Tigers have lost 8 out of their last 10 games. Rays coming for the easy W.",
+        "variant": "body"
+      }
+    },
+    "classification_divider": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "classification_label",
+        "classification_badge",
+        "dedup_note"
+      ]
+    },
+    "classification_label": {
+      "type": "Text",
+      "props": {
+        "text": "Classification:",
+        "variant": "caption"
+      }
+    },
+    "classification_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Non-financial (Step 4A)",
+        "variant": "secondary"
+      }
+    },
+    "dedup_note": {
+      "type": "Text",
+      "props": {
+        "text": "MLB sports banter; no market analysis or trade signal. Dedup registered.",
+        "variant": "caption"
+      }
+    }
+  }
+}
