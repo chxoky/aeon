@@ -1,0 +1,57 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor: @Wild_Randomness"
+      },
+      "children": [
+        "tweet-card",
+        "tweet-link",
+        "separator-1",
+        "analysis-heading",
+        "analysis-text"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "November puts for IWM and SPY\n\nBut very long commodities (primarily PMs, uranium, rare earths) and crypto while still actively trading tech (ideally swing into Sept, respecting intraweek PA)"
+      },
+      "children": []
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2092347426543956283"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "analysis-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Clarification",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "analysis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Clarifies dispersion thesis: Nov bearish-equities puts + extreme-conviction long commodities + crypto long + active tech trading. Aligns with prior same-day statements (19:32Z GOLD structural conviction, 19:57Z bullish semis/QQQ into mid-Sept). Short-term bullish equities swing → medium-term bearish on Nov puts.",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}

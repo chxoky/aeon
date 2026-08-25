@@ -1,9 +1,9 @@
 🐦 *[X] @Wild_Randomness*
 
-Pretty much a toss up for me…
+November puts for IWM and SPY
 
-Gathering energy here on top of daily trend right above the previous ATH…
+But very long commodities (primarily PMs, uranium, rare earths) and crypto while still actively trading tech (ideally swing into Sept, respecting intraweek PA)
 
-Looks terrible 1.5% lower, but hard spot to press unless you have a firm conviction on the how JHole is going to play out (and more importantly,— how the market will respond).
+[View tweet](https://x.com/Wild_Randomness/status/2092347426543956283)
 
-[View post](https://x.com/Wild_Randomness/status/2092345040098279512)
+↳ _Clarifies dispersion thesis: Nov bearish-equities puts + extreme-conviction long commodities + crypto long + active tech trading. Aligns with prior same-day statements (19:32Z GOLD structural conviction, 19:57Z bullish semis/QQQ into mid-Sept). Short-term bullish equities swing → medium-term bearish on Nov puts._
