@@ -1,0 +1,74 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_source",
+        "heading_ath",
+        "stat_ibkr",
+        "text_analysis",
+        "text_context",
+        "link_tweet"
+      ]
+    },
+    "badge_source": {
+      "type": "Badge",
+      "props": {
+        "text": "🐦 [X] @Wild_Randomness",
+        "variant": "outline"
+      }
+    },
+    "heading_ath": {
+      "type": "Heading",
+      "props": {
+        "text": "New ATHs",
+        "level": "h3"
+      }
+    },
+    "stat_ibkr": {
+      "type": "Stat",
+      "props": {
+        "label": "$IBKR",
+        "value": "98.19",
+        "delta": "+5.52%",
+        "trend": "up"
+      }
+    },
+    "text_analysis": {
+      "type": "Text",
+      "props": {
+        "text": "1D + 1W multi-timeframe ATH retest structure: consolidation/breakout pattern with support zones at 60/70/80 levels. RSI + volume confirming bullish momentum into breakout.",
+        "variant": "body"
+      }
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "Second mention from WR (prior Aug 17 trade-idea on business model + technical setup — now validated by breakout confirmation).",
+        "variant": "caption"
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2092392851573518683"
+      }
+    }
+  }
+}
