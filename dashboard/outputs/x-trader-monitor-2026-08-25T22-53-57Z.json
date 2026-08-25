@@ -1,0 +1,105 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration — @Wild_Randomness"
+      },
+      "children": [
+        "meta-info",
+        "tweet-card",
+        "sep1",
+        "images-section",
+        "sep2",
+        "classification-alert",
+        "question-section"
+      ]
+    },
+    "meta-info": {
+      "type": "Text",
+      "props": {
+        "text": "Post timestamp: 2026-08-25 22:50:48 UTC",
+        "variant": "caption"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "@CatOfLongTails Many people aren't going to let go of the fact that I simply re-bought 5% higher than where I sold hey"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "images-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "images-label",
+        "image1",
+        "image2",
+        "image3",
+        "image4"
+      ]
+    },
+    "images-label": {
+      "type": "Text",
+      "props": {
+        "text": "Images attached:",
+        "variant": "lead"
+      }
+    },
+    "image1": {
+      "type": "Text",
+      "props": {
+        "text": "• HYPE consolidation"
+      }
+    },
+    "image2": {
+      "type": "Text",
+      "props": {
+        "text": "• BTC liq map (69.4K)"
+      }
+    },
+    "image3": {
+      "type": "Text",
+      "props": {
+        "text": "• USDT.D ratio"
+      }
+    },
+    "image4": {
+      "type": "Text",
+      "props": {
+        "text": "• BTC price (68.6K +6.09%)"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "classification-alert": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Unable to classify",
+        "message": "This is a personal re-entry action (first-person execution language confirmed), but no ticker specified. Reply context to @CatOfLongTails unclear. Which asset did they re-buy? (HYPE? BTC? ENA/LIT/PEPE/ZEC?) Charts show technical context but don't disambiguate."
+      }
+    },
+    "question-section": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read on which position this refers to?",
+        "variant": "lead"
+      }
+    }
+  }
+}
