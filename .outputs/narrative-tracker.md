@@ -1,11 +1,21 @@
-*Narrative Tracker — 2026-08-24*
+Done. Here's the summary:
 
-TRANSITIONS
-• DEMOTED: ZEC Privacy Run Rising → Fading — 4 consecutive sessions of deceleration (+33% peak Aug 22 → +2.4% today); OI crowding confirmed by Stoiiic framework; thin catalyst exhausted
-• NEW: Stoiiic Leverage-Breadth Overheat — first run of this signal; 8-episode historical framework triggered at BTC $79K; median −11.3% BTC drawdown predicted over next 14 days (by ~Sep 7)
-• PROMOTED: DeFi Structural Bid Rising → Peak — AAVE/MORPHO/AERO 3 consecutive sessions leading; now showing OI extension (Stoiiic Aug 23 ranking: ENA #1, MORPHO #2 in extension intensity)
-• NEW: BTC $80K Approach — emerged post Aug 21 breakout; 4-of-5 tracked traders bullish; ATH resistance cluster at 78.2K→81.3K→82.8K now in focus
-• DEMOTED: XRP Retail Narrative Peak → Fading — faded from $1.69 high to $1.50; bull_genius poker-game retail anecdote = late-cycle sentiment marker
+## Summary
 
-REFLEXIVITY ALERT
-• HYPE ATH — HCH short >34% underwater creates reflexive squeeze bid; narrative (\HCH
+**What ran:** narrative-tracker for 2026-08-25, comparing against the Aug 16 baseline (9-day gap).
+
+**NARRATIVE_CACHE_MISS** logged — `.xai-cache/` absent, ran on WebSearch triangulation + internal log signals.
+
+**Key findings:**
+
+- **8 transitions detected** (the highest-value output):
+  - 3 PROMOTED: BTC Cycle Debate → BTC Structural Bull (Peak), Jackson Hole/Fed Binary → Peak, AI Agents → recovering Rising
+  - 4 NEW: Ethereum Cycle Conviction (FRONT-RUN), NVDA Earnings Binary, STX/BTC L2, Privacy/ZEC-XMR
+  - 2 DEMOTED: Liquid Restaking/ETHFI → Fading, PUMP.fun/Meme → Dead
+
+- **FRONT-RUN call:** Ethereum Cycle Conviction — bull_genius explicit Aug 25 thesis, ETH structural timing gap vs BTC at resistance, converging with WR + Chase
+
+- **Reflexivity flagged** on BTC ETF inflow loop and the ETH cycle narrative manufacturing its own rotation
+
+- **Notification** written to `.pending-notify/1756144800.md` (sandbox blocked direct delivery; post-run step will deliver)
+- **Log entry** appended to `memory/logs/2026-08-25.md` under `### narrative-tracker` with full structured map and tomorrow's diff baseline
