@@ -1,0 +1,43 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "link-tweet"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "$BTC — September 1st Monthly Open Structure\n\nThe monthly open is an important area with significant directional movement potential depending on prevailing narrative.\n\nIF dumping into Sept 1st: Look for long around the monthly open (structure permitting)\nIF aggressively pumping into Sept 1st: Look for short (structure validation required)\n\nChart confirms monthly open zones as key technical inflection points."
+      },
+      "children": []
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2092239067333484816"
+      },
+      "children": []
+    }
+  }
+}

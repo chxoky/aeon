@@ -222,6 +222,7 @@
   - Aug 25 06:46Z — informational: Hedge strategy clarification; "Rather than closing winners from lower levels, use hedges at retrace areas." Expected scenario: $80K-$84K → ranging + retrace to $73K-$76K → push to $90K+. Conditional hedge execution if scenario plays, validates fractional hedge thesis. Reaffirms bullish HTF conviction ("trend is your friend"). Cautions against revenge shorting. (Discord K primary, is_reply=true, fast_path_alerted) [$BTC/$SOL-STRATEGY] [1541700195992080394]
   - Aug 25 07:33Z — informational: Position update celebration: +30% unrealized profit on 2x swing long; 6 figures printing [$BTC-SWING-LONG-PROFIT] [2092153422401187860]
   - Aug 25 10:02Z — informational: Re-accumulation before expansion thesis; new range forming (76-84K zone), expecting additional longs targeting 96-98K when conditions align; parabolic structure study + philosophical "patience is the edge" message with 2 technical charts [$BTC-REACCUM-EXPANSION] [20921909000004803070]
+  - Aug 25 13:14Z — informational: Sept 1st monthly open structure guide; conditional long IF dumping into Sept 1st (monthly open support), conditional short IF aggressive pump (structure validation required); monthly open chart analysis [$BTC-SEPT-MONTHLY-OPEN] [2092239067333484816]
 
 ## trading_axe
 
