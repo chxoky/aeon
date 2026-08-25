@@ -1,0 +1,277 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-08-25"
+      },
+      "children": [
+        "focus_heading",
+        "focus_stack",
+        "separator_1",
+        "since_yesterday_heading",
+        "since_yesterday_stack",
+        "separator_2",
+        "watch_heading",
+        "watch_text",
+        "separator_3",
+        "running_heading",
+        "running_tasks"
+      ]
+    },
+    "focus_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "focus_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus_1",
+        "focus_2",
+        "focus_3"
+      ]
+    },
+    "focus_1": {
+      "type": "Text",
+      "props": {
+        "text": "BTC at VWAP resistance ($80K-$82.4K) — why now: KillaXBT short filled at $80.5K; Stoiiic conditional short at 365d VWAP; Jackson Hole T-2 determines extension vs retest",
+        "variant": "body"
+      }
+    },
+    "focus_2": {
+      "type": "Text",
+      "props": {
+        "text": "Jackson Hole T-2 days — why now: Warsh Aug 28 keynote; Fed hike probability at 33.5% (up 4pp); repricing into weekend",
+        "variant": "body"
+      }
+    },
+    "focus_3": {
+      "type": "Text",
+      "props": {
+        "text": "Stoiiic leverage-breadth: 8 days remaining — why now: BTC now inside predicted resistance zone; median −11.3% target ~$68K by ~Sep 7",
+        "variant": "body"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "since_yesterday_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "since_yesterday_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "btc_group",
+        "sol_group",
+        "stoiiic_item",
+        "clarity_group",
+        "hype_group"
+      ]
+    },
+    "btc_group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_btc",
+        "btc_context"
+      ]
+    },
+    "stat_btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$80,527",
+        "delta": "+$1,527"
+      }
+    },
+    "btc_context": {
+      "type": "Text",
+      "props": {
+        "text": "milestone hit; KillaXBT scalp short #2 filled at $80.5K + 82K DCA order in place",
+        "variant": "caption"
+      }
+    },
+    "sol_group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_sol",
+        "sol_context"
+      ]
+    },
+    "stat_sol": {
+      "type": "Stat",
+      "props": {
+        "label": "SOL",
+        "value": "$100.66",
+        "delta": "+$4.66"
+      }
+    },
+    "sol_context": {
+      "type": "Text",
+      "props": {
+        "text": "crossed $100; trending #2 on CoinGecko",
+        "variant": "caption"
+      }
+    },
+    "stoiiic_item": {
+      "type": "Text",
+      "props": {
+        "text": "Stoiiic: 3 posts on VWAP resistance ($80K/$82.4K); conditional short language (not executed); bull_genius counters with \"lockout pump\" thesis",
+        "variant": "body"
+      }
+    },
+    "clarity_group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_clarity",
+        "clarity_context"
+      ]
+    },
+    "stat_clarity": {
+      "type": "Stat",
+      "props": {
+        "label": "CLARITY Act YES",
+        "value": "18.5%",
+        "delta": "+1pp"
+      }
+    },
+    "clarity_context": {
+      "type": "Text",
+      "props": {
+        "text": "$1.94M Polymarket vol",
+        "variant": "caption"
+      }
+    },
+    "hype_group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_hype",
+        "hype_context"
+      ]
+    },
+    "stat_hype": {
+      "type": "Stat",
+      "props": {
+        "label": "HYPE",
+        "value": "$80.67",
+        "delta": "+$0.23"
+      }
+    },
+    "hype_context": {
+      "type": "Text",
+      "props": {
+        "text": "ATH $82.43 gap narrowing; HCH short ~35% underwater",
+        "variant": "caption"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "watch_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "watch_text": {
+      "type": "Text",
+      "props": {
+        "text": "Jackson Hole Aug 27-29 binary — hawkish Warsh = validates KillaXBT $73K-$76K retracement; dovish = $84K-$90K extension",
+        "variant": "body"
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "running_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "running_tasks": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "task_1",
+        "task_2",
+        "task_3",
+        "task_4"
+      ]
+    },
+    "task_1": {
+      "type": "Text",
+      "props": {
+        "text": "token-alert @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "task_2": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "task_3": {
+      "type": "Text",
+      "props": {
+        "text": "market-context-refresh @ 13:00 UTC",
+        "variant": "body"
+      }
+    },
+    "task_4": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC",
+        "variant": "body"
+      }
+    }
+  }
+}
