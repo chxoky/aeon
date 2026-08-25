@@ -55,6 +55,7 @@
   - Aug 25 13:53Z — trade-mirror-tp: NVDA "Good TP" — trader closed position; 1D chart shows consolidation 200-230 range with key support/resistance structure [$NVDA-TP] [2092249029170307553]
   - Aug 25 17:42Z — informational: ARKK chart acknowledgement "@jbulltard1 Yeah was looking at it a minute ago"; reply confirms interest in ARK Innovation ETF technical structure; quiet ticker single-mention (not Kyle watch-list) [$ARKK] [2092306614506430829]
   - Aug 25 17:47Z — informational: GDX/GLD ratio multi-timeframe technical analysis (1M6d/1M1W timeframes); 0.2467 current (+1.68%); long-term downtrend 2007-2026, recent consolidation/recovery pattern forming, bullish breakout on 1W with improving RSI momentum; charts show junior miners (GDX) underperformance vs senior gold (GLD) structural retest setup [$GDX/$GLD] [2092307826437992769]
+  - Aug 25 19:32Z — informational: gold position structural conviction; "order of magnitude greater" than viral-moment trades (SA liq, Druck semis); position sizing hierarchy confirms GOLD core conviction vs tactical satellites [$GOLD] [2092333432218347540]
 
 ## Bitcoin_Astro
 
