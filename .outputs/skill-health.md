@@ -1,2 +1,6 @@
-*Skill Health — 2026-08-24*
+*Skill Health — 2026-08-25*
 HEALTH: OK — 8 skills healthy
+
+🟢 HEALTHY (8): morning-brief, token-alert, token-movers, market-context-refresh, narrative-tracker, trader-memory-compact, skill-health, heartbeat
+
+Open issues: 0 · Resolved this run: 0

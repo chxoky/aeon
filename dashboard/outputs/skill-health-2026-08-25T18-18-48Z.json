@@ -1,0 +1,178 @@
+{
+  "root": "card_skill_health",
+  "state": {},
+  "elements": {
+    "card_skill_health": {
+      "type": "Card",
+      "props": {
+        "title": "Skill Health",
+        "description": "2026-08-25"
+      },
+      "children": [
+        "heading_status",
+        "stat_count",
+        "sep1",
+        "stack_skills",
+        "sep2",
+        "stack_issues"
+      ]
+    },
+    "heading_status": {
+      "type": "Heading",
+      "props": {
+        "text": "Status: OK",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stat_count": {
+      "type": "Stat",
+      "props": {
+        "label": "Skills Healthy",
+        "value": "8"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack_skills": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_healthy_label",
+        "grid_skills"
+      ]
+    },
+    "text_healthy_label": {
+      "type": "Text",
+      "props": {
+        "text": "🟢 HEALTHY (8):",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "grid_skills": {
+      "type": "Grid",
+      "props": {
+        "columns": 4,
+        "gap": "md"
+      },
+      "children": [
+        "badge_morning_brief",
+        "badge_token_alert",
+        "badge_token_movers",
+        "badge_market_context",
+        "badge_narrative_tracker",
+        "badge_trader_memory",
+        "badge_skill_health",
+        "badge_heartbeat"
+      ]
+    },
+    "badge_morning_brief": {
+      "type": "Badge",
+      "props": {
+        "text": "morning-brief",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge_token_alert": {
+      "type": "Badge",
+      "props": {
+        "text": "token-alert",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge_token_movers": {
+      "type": "Badge",
+      "props": {
+        "text": "token-movers",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge_market_context": {
+      "type": "Badge",
+      "props": {
+        "text": "market-context-refresh",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge_narrative_tracker": {
+      "type": "Badge",
+      "props": {
+        "text": "narrative-tracker",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge_trader_memory": {
+      "type": "Badge",
+      "props": {
+        "text": "trader-memory-compact",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge_skill_health": {
+      "type": "Badge",
+      "props": {
+        "text": "skill-health",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge_heartbeat": {
+      "type": "Badge",
+      "props": {
+        "text": "heartbeat",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack_issues": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat_open_issues",
+        "stat_resolved_issues"
+      ]
+    },
+    "stat_open_issues": {
+      "type": "Stat",
+      "props": {
+        "label": "Open Issues",
+        "value": "0"
+      },
+      "children": []
+    },
+    "stat_resolved_issues": {
+      "type": "Stat",
+      "props": {
+        "label": "Resolved This Run",
+        "value": "0"
+      },
+      "children": []
+    }
+  }
+}
