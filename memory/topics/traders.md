@@ -5,7 +5,7 @@
 - Recent thesis: Equities/vol specialist; dispersion-trade framework; bearish equities into Oct; GOLD/crypto won't make new lows even if equities do; BTC liq map structurally different ("bearish skew but buy-side ramping"). Not levered ("can't with liq map like this"). Conditional BTC reversion play above 74.5K if funding/OI stretched.
 - Conviction notes: High-conviction technical analyst on equities; vixpiry/OPEX structure commentary; macro dispersion positioning. Bear mode experiment failed Aug 20. "Scar tissue" from forced loss at 68K. HYPE/LIT = gold/silver parallel; ratio at 27-28 (down from 55 peak). URL-only posts = noise per calibration.
 - Calibration: PENDING Aug 23 19:05Z (cryptic "@QOTSA_FRL Its a 65% move to 126" — asset/context unknown), PENDING Aug 21 20:10Z (conditional LEAPS comment — unspecified asset)
-- Last seen: 2026-08-24T14:50:02Z
+- Last seen: 2026-08-25T19:57:35Z
 - **Events (rolling):**
   - Aug 24 00:12Z — informational: BTC engulfing candle pattern vs 2022/2018 bear market bottoms (+24%/+21%/+26%); historical comp analysis [$BTC-CANDLE-PATTERN] [2091680090283450543]
   - Aug 23 21:11Z — skip: meme images (Kevin Chang competitive quote + UNO bullish card); no financial signal [2091634377109524609]
@@ -56,6 +56,7 @@
   - Aug 25 17:42Z — informational: ARKK chart acknowledgement "@jbulltard1 Yeah was looking at it a minute ago"; reply confirms interest in ARK Innovation ETF technical structure; quiet ticker single-mention (not Kyle watch-list) [$ARKK] [2092306614506430829]
   - Aug 25 17:47Z — informational: GDX/GLD ratio multi-timeframe technical analysis (1M6d/1M1W timeframes); 0.2467 current (+1.68%); long-term downtrend 2007-2026, recent consolidation/recovery pattern forming, bullish breakout on 1W with improving RSI momentum; charts show junior miners (GDX) underperformance vs senior gold (GLD) structural retest setup [$GDX/$GLD] [2092307826437992769]
   - Aug 25 19:32Z — informational: gold position structural conviction; "order of magnitude greater" than viral-moment trades (SA liq, Druck semis); position sizing hierarchy confirms GOLD core conviction vs tactical satellites [$GOLD] [2092333432218347540]
+  - Aug 25 19:57Z — informational: bullish equities conviction; "I'm long semis and QQQ… ideally into mid September, just couldn't resist"; clarifies NOT local bear post; short-term bullish into mid-Sep [$SEMIS/$QQQ] [2092340632312578330]
 
 ## Bitcoin_Astro
 
