@@ -57,6 +57,7 @@
   - Aug 25 17:47Z — informational: GDX/GLD ratio multi-timeframe technical analysis (1M6d/1M1W timeframes); 0.2467 current (+1.68%); long-term downtrend 2007-2026, recent consolidation/recovery pattern forming, bullish breakout on 1W with improving RSI momentum; charts show junior miners (GDX) underperformance vs senior gold (GLD) structural retest setup [$GDX/$GLD] [2092307826437992769]
   - Aug 25 19:32Z — informational: gold position structural conviction; "order of magnitude greater" than viral-moment trades (SA liq, Druck semis); position sizing hierarchy confirms GOLD core conviction vs tactical satellites [$GOLD] [2092333432218347540]
   - Aug 25 19:57Z — informational: bullish equities conviction; "I'm long semis and QQQ… ideally into mid September, just couldn't resist"; clarifies NOT local bear post; short-term bullish into mid-Sep [$SEMIS/$QQQ] [2092340632312578330]
+  - Aug 25 20:11Z — informational: trading philosophy on breakouts; "breaks are always +EV" reply to @JackofTradesX, methodology observation [BREAKOUT-EV] [2092344078881169634]
 
 ## Bitcoin_Astro
 
