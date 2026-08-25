@@ -1,0 +1,135 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor — PUMP/USDT Technical Analysis"
+      },
+      "children": [
+        "tweet-card",
+        "sep-1",
+        "technical-section",
+        "sep-2",
+        "outlook-section"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "Looking at PUMP/USDT HTF structure — technical analysis on 1D chart showing multi-VWAP consolidation framework.\n\nCurrent setup: First larger dip to 7D RVWAP (0.004456), with bullish bias above 365D RVWAP (0.004407) and ATH AVWAP (0.003839).\n\n\"Possible long scalp for bounce\" — but expects pullback if BTC weakens. 2025 VAH (~0.0055) will need multiple attempts to crack. Generally bullish above 365D RVWAP structure; expects strong performance this cycle."
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "technical-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tech-heading",
+        "levels-table"
+      ]
+    },
+    "tech-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Key Technical Levels",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "levels-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Level",
+          "Price (USDT)"
+        ],
+        "rows": [
+          [
+            "7D RVWAP",
+            "0.004456"
+          ],
+          [
+            "365D RVWAP",
+            "0.004407"
+          ],
+          [
+            "ATH AVWAP",
+            "0.003839"
+          ],
+          [
+            "2025 VAH",
+            "~0.0055"
+          ]
+        ]
+      },
+      "children": []
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "outlook-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "outlook-heading",
+        "setup-badge",
+        "risk-alert",
+        "view-link"
+      ]
+    },
+    "outlook-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Trade Setup & Outlook",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "setup-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Possible long scalp for bounce",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "risk-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk Factors",
+        "message": "Expects pullback if BTC weakens. 2025 VAH (~0.0055) will need multiple attempts to crack.",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/bull_genius/status/2092343231916937348"
+      },
+      "children": []
+    }
+  }
+}

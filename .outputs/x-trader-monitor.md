@@ -1,7 +1,9 @@
-🐦 *[X] @Wild_Randomness*
+🐦 *[X] @bull_genius*
 
-I'm long semis and QQQ… ideally into mid September, just couldn't resist
+Looking at PUMP/USDT HTF structure — technical analysis on 1D chart showing multi-VWAP consolidation framework.
 
-[View tweet](https://x.com/Wild_Randomness/status/2092340632312578330)
+Current setup: First larger dip to 7D RVWAP (0.004456), with bullish bias above 365D RVWAP (0.004407) and ATH AVWAP (0.003839).
 
-↳ _Bullish equities conviction into mid-September. Aligns with 5-trader emerging semis recovery convergence thesis (Chase TP'd 27 → ryzzqq/WR sector-bottom 28-29 → HCH hedge 29 → swarmister breakout 13)._
+"Possible long scalp for bounce" — but expects pullback if BTC weakens. 2025 VAH (~0.0055) will need multiple attempts to crack. Generally bullish above 365D RVWAP structure; expects strong performance this cycle.
+
+[View post](https://x.com/bull_genius/status/2092343231916937348)
