@@ -217,6 +217,7 @@
   - Aug 24 19:48Z — informational: Bottom conviction reaffirmation; "Every bull run starts with one major candle after months of consolidation. That's exactly what we've just seen." Chart shows 3-pattern historical comparison (major upcandle post-consolidation); dismissal of shorts; aligns with prior cycle validation [$BTC-BULL-INITIATION] [2091975919325815077]
   - Aug 25 06:35Z — trade-mirror-entry: "80.5 limit filled! We still have a 82K DCA order in place aswell." Scalp short #2 activated (80.5K previously documented Aug 23 11:30Z); 82K is DCA spot accumulation target; fractional hedge commentary confirms context (Discord K primary, is_reply=true, fast_path_alerted) [$BTC-SCALP-FILL] [1541697604390486017]
   - Aug 25 06:46Z — informational: Hedge strategy clarification; "Rather than closing winners from lower levels, use hedges at retrace areas." Expected scenario: $80K-$84K → ranging + retrace to $73K-$76K → push to $90K+. Conditional hedge execution if scenario plays, validates fractional hedge thesis. Reaffirms bullish HTF conviction ("trend is your friend"). Cautions against revenge shorting. (Discord K primary, is_reply=true, fast_path_alerted) [$BTC/$SOL-STRATEGY] [1541700195992080394]
+  - Aug 25 07:33Z — informational: Position update celebration: +30% unrealized profit on 2x swing long; 6 figures printing [$BTC-SWING-LONG-PROFIT] [2092153422401187860]
 
 ## trading_axe
 
