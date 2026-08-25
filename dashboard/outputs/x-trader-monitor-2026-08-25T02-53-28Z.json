@@ -1,0 +1,184 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration — @Stoiiic"
+      },
+      "children": [
+        "event_section",
+        "sep1",
+        "quote_section",
+        "sep2",
+        "uncertainty_section"
+      ]
+    },
+    "event_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event_heading",
+        "event_time",
+        "btc_stat",
+        "vwap_stat"
+      ]
+    },
+    "event_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart Analysis Context",
+        "level": "h2"
+      }
+    },
+    "event_time": {
+      "type": "Text",
+      "props": {
+        "text": "Aug 25 02:26–02:40Z",
+        "variant": "caption"
+      }
+    },
+    "btc_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "365d VWAP",
+        "value": "82.4K"
+      }
+    },
+    "vwap_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "250d VWAP ('final boss' resistance)",
+        "value": "80K"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "quote_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "quote_heading",
+        "quote_text"
+      ]
+    },
+    "quote_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "@Stoiiic",
+        "level": "h3"
+      }
+    },
+    "quote_text": {
+      "type": "Text",
+      "props": {
+        "text": "\"if i was to ever a consider a short this is the one area when I start thinking about one.\"",
+        "variant": "lead"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "uncertainty_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert_box",
+        "interp_heading",
+        "interp_grid"
+      ]
+    },
+    "alert_box": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Conditional language vs execution unclear. Asset/area unspecified.",
+        "type": "warning"
+      }
+    },
+    "interp_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Possible Interpretations",
+        "level": "h4"
+      }
+    },
+    "interp_grid": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "interp_1",
+        "interp_2"
+      ]
+    },
+    "interp_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_setup",
+        "text_setup"
+      ]
+    },
+    "badge_setup": {
+      "type": "Badge",
+      "props": {
+        "text": "Setup Observation",
+        "variant": "outline"
+      }
+    },
+    "text_setup": {
+      "type": "Text",
+      "props": {
+        "text": "Bullish setup observation into shortable zone"
+      }
+    },
+    "interp_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_signal",
+        "text_signal"
+      ]
+    },
+    "badge_signal": {
+      "type": "Badge",
+      "props": {
+        "text": "Entry Signal",
+        "variant": "outline"
+      }
+    },
+    "text_signal": {
+      "type": "Text",
+      "props": {
+        "text": "Actual short-entry signal"
+      }
+    }
+  }
+}
