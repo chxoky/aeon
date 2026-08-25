@@ -1,0 +1,211 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "Market Context — 2026-08-25"
+      },
+      "children": [
+        "take-section",
+        "sep1",
+        "prices-section",
+        "sep2",
+        "metrics-section",
+        "sep3",
+        "alert-section",
+        "sep4",
+        "flows-section",
+        "sep5",
+        "narratives-section"
+      ]
+    },
+    "take-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "take-label",
+        "take-badge"
+      ]
+    },
+    "take-label": {
+      "type": "Text",
+      "props": {
+        "text": "Take:",
+        "variant": "caption"
+      }
+    },
+    "take-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "chop (conviction medium)",
+        "variant": "default"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "prices-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "btc-stat",
+        "eth-stat",
+        "fg-stat"
+      ]
+    },
+    "btc-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$78,975",
+        "delta": "-0.04%",
+        "trend": "down"
+      }
+    },
+    "eth-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$2,473",
+        "delta": "-1.27%",
+        "trend": "down"
+      }
+    },
+    "fg-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "F&G (Greed)",
+        "value": "74"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "metrics-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "breadth-progress",
+        "tvl-text"
+      ]
+    },
+    "breadth-progress": {
+      "type": "Progress",
+      "props": {
+        "label": "Breadth",
+        "value": 7,
+        "max": 20
+      }
+    },
+    "tvl-text": {
+      "type": "Text",
+      "props": {
+        "text": "TVL $10.86B DEX vol (stable)",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert-section": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "$80K Rejected",
+        "message": "Intraday high $81,160 → $78,975; KillaXBT scalp short live"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "flows-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "flows-text"
+      ]
+    },
+    "flows-text": {
+      "type": "Text",
+      "props": {
+        "text": "ETF flows: 7th consecutive inflow day ($2.5B+ 6-day streak)",
+        "variant": "body"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "narratives-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "narrative-text",
+        "hot-market-section"
+      ]
+    },
+    "narrative-text": {
+      "type": "Text",
+      "props": {
+        "text": "Top narrative: BTC $80K resistance (stalling at VWAP zone)",
+        "variant": "lead"
+      }
+    },
+    "hot-market-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "hot-market-label",
+        "hot-market-badge"
+      ]
+    },
+    "hot-market-label": {
+      "type": "Text",
+      "props": {
+        "text": "Hot market:",
+        "variant": "caption"
+      }
+    },
+    "hot-market-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Fed",
+        "variant": "secondary"
+      }
+    }
+  }
+}
