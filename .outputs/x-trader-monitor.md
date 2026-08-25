@@ -1,5 +1,7 @@
-🐦 *[X] @bull_genius*
+🐦 *[X] @t_in_crypto*
 
-BTC technical structure: claimed ATH on AVWAP, now consolidating at 365D RVWAP. Technical bull market above this level. Mean reversion shorters wrong — their systems aren't built for 'lockout pump' structure.
+don't catch knives $btc #btc
 
-[View tweet](https://x.com/bull_genius/status/2092125477674635415)
+[View tweet](https://x.com/t_in_crypto/status/2092132913462587700)
+
+↳ _Shared technical warning from MERK: expects BTC top in 8X-8X range, advises against shorting at this time. Aligns with group structural bullish positioning (KillaXBT HTF conviction, bull_genius structural bias)._

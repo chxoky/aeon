@@ -121,13 +121,14 @@
 - Current open positions: BTC long (entry 58.4, large position, positioning for top-of-range exit)
 - Recent thesis: Contrarian at BTC range top; "close my large long soon" (Aug 20 09:55Z). Skeptical of CT's rapid sentiment reversal (short at 64-65K → euphoric 80K calls). "Next 12h max" timing reference (Aug 20 12:35Z) for exit.
 - Conviction notes: Contrarian trader; measured exit discipline; skeptical of trend-followers. Default tone: NOT confirmed ironic (apply HR-2 for ambiguous posts rather than irony default).
-- Calibration: PENDING Aug 20 12:35Z ("Next 12h max" timing reference — closing long or other?)
-- Last seen: 2026-08-20T12:35:13Z
+- Calibration: None open (Aug 20 "Next 12h max" context resolved — exit timing reference clarified by Aug 25 market sentiment share)
+- Last seen: 2026-08-25T06:12:11Z
 - **Events (rolling):**
   - Aug 20 09:55Z — informational: "I bought 58.4 and will be closing my large long soon / we're close to the top of range" [$BTC] [2090377223546998992]
   - Aug 20 10:01Z — ambiguous: "Proof from my group 🎯📌 $btc" + chart inaccessible [$BTC] [2090378755529146394]
   - Aug 20 11:17Z — informational: "CT shorted 64-65K and today euphorically predicting bottom and 80K+ lmao" — contrarian dismissal [$BTC] [2090397831651610888]
   - Aug 20 12:35Z — ambiguous: "@codeminister420 @rektfencer Next 12h max" — timing reference [$BTC?] [2090417367033536814]
+  - Aug 25 06:12Z — informational: "don't catch knives $btc #btc" + Telegram MERK chart (technical analysis from group; expects BTC top in range, warns against shorting); shared market sentiment [$BTC] [2092132913462587700]
 
 ## Crypto_Chase
 
