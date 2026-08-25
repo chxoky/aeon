@@ -1,0 +1,252 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration event analysis"
+      },
+      "children": [
+        "heading-calibration",
+        "sep-1",
+        "event-section",
+        "sep-2",
+        "images-section",
+        "sep-3",
+        "classification-section"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @swarmister",
+        "level": "h2"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "event-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event-badge",
+        "quote-text"
+      ]
+    },
+    "event-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Event: Cryptic post with 4 images",
+        "variant": "outline"
+      }
+    },
+    "quote-text": {
+      "type": "Text",
+      "props": {
+        "text": "\"I meant this (read)\"",
+        "variant": "lead"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "images-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "images-heading",
+        "image-1-stack",
+        "image-2-stack",
+        "image-3-stack",
+        "image-4-stack"
+      ]
+    },
+    "images-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Images shown:",
+        "level": "h3"
+      }
+    },
+    "image-1-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "img1-badge",
+        "img1-text"
+      ]
+    },
+    "img1-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "1. Discord chat",
+        "variant": "secondary"
+      }
+    },
+    "img1-text": {
+      "type": "Text",
+      "props": {
+        "text": "Jun 17, 2026 — group planning new $10K trading account, scaling to $15K, Vhagar Discord server initiative",
+        "variant": "body"
+      }
+    },
+    "image-2-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "img2-badge",
+        "img2-text"
+      ]
+    },
+    "img2-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "2. Twitter post",
+        "variant": "secondary"
+      }
+    },
+    "img2-text": {
+      "type": "Text",
+      "props": {
+        "text": "@puterWorld, Apr 22, 2026 — personal loss narrative after 5 years of trading",
+        "variant": "body"
+      }
+    },
+    "image-3-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "img3-badge",
+        "img3-text"
+      ]
+    },
+    "img3-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "3. Account PnL chart",
+        "variant": "secondary"
+      }
+    },
+    "img3-text": {
+      "type": "Text",
+      "props": {
+        "text": "-$18K loss, ending Jun 25, 2026",
+        "variant": "body"
+      }
+    },
+    "image-4-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "img4-badge",
+        "img4-text"
+      ]
+    },
+    "img4-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "4. Fourth image",
+        "variant": "secondary"
+      }
+    },
+    "img4-text": {
+      "type": "Text",
+      "props": {
+        "text": "Fetch incomplete",
+        "variant": "muted"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "class-alert",
+        "class-heading",
+        "class-questions"
+      ]
+    },
+    "class-alert": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "message": "Unable to classify intent — what's your read?"
+      }
+    },
+    "class-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Possible interpretations:",
+        "level": "h3"
+      }
+    },
+    "class-questions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "q1-text",
+        "q2-text",
+        "q3-text"
+      ]
+    },
+    "q1-text": {
+      "type": "Text",
+      "props": {
+        "text": "• Self-commentary on BTC short (-179% ROI)?",
+        "variant": "body"
+      }
+    },
+    "q2-text": {
+      "type": "Text",
+      "props": {
+        "text": "• Cautionary tale for Vhagar group?",
+        "variant": "body"
+      }
+    },
+    "q3-text": {
+      "type": "Text",
+      "props": {
+        "text": "• Risk-management reminder?",
+        "variant": "body"
+      }
+    }
+  }
+}
