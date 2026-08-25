@@ -1,0 +1,112 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet_card",
+        "tweet_link",
+        "separator_1",
+        "analysis_stack"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "@hidden_whale @kingfisher_btc hello friend! im personally very aggressively biased i think downside is 75-76k at best. the market is very strong. if we hold above the ath avwap like now i think we tap the 365d again and then we see\n\nthe good times are here!"
+      }
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/bull_genius/status/2092277879065227535"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alignment_text",
+        "framework_section"
+      ]
+    },
+    "alignment_text": {
+      "type": "Text",
+      "props": {
+        "text": "Aligns with prior 14:40Z US open dip analysis + 11:56Z market structure posts on BTC consolidation 75-81k zone."
+      }
+    },
+    "framework_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "framework_heading",
+        "framework_details"
+      ]
+    },
+    "framework_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Multi-VWAP Framework",
+        "level": "h4"
+      }
+    },
+    "framework_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "level_1",
+        "level_2",
+        "level_3",
+        "execution_note"
+      ]
+    },
+    "level_1": {
+      "type": "Text",
+      "props": {
+        "text": "75-76k structural floor"
+      }
+    },
+    "level_2": {
+      "type": "Text",
+      "props": {
+        "text": "ATH AVWAP 78.3k"
+      }
+    },
+    "level_3": {
+      "type": "Text",
+      "props": {
+        "text": "365d VWAP 81.2k resistance"
+      }
+    },
+    "execution_note": {
+      "type": "Text",
+      "props": {
+        "text": "No personal execution language.",
+        "variant": "muted"
+      }
+    }
+  }
+}
