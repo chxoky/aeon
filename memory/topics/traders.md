@@ -51,6 +51,7 @@
   - Aug 24 20:59Z — ambiguous: "@Parida Turnaround Tuesday?" — cryptic question, market sentiment reply, unclear if SPX/equities or other; lacks context, calibration sent [$UNKNOWN] [2091993761857540500]
   - Aug 24 21:17Z — ambiguous: "@PurpleDrink_LLC Just early preparations for Turnaround Tuesday" — equity Tuesday reversal pattern reference, cryptic "preparations" (personal action or sentiment?), context-dependent, calibration sent [$SPX-TURNAROUND-TUESDAY] [2091998438108070082]
   - Aug 24 21:29Z — informational: BTC:QQQ:NDX ratio 13% drawdown resolved higher low; "character change" with deviation; holds above 2.55 technical support; multi-timeframe chart analysis on reversal pattern formation [$BTC/$QQQ/$NDX-RATIO] [2092001268139229263]
+  - Aug 25 13:17Z — informational: ZEC/USDT resistance 850.00 + selling pressure chart; "more coins to sell above 850"; technical level observation, 4H chart shows 828.77 consolidation at overhead resistance [$ZEC-RESISTANCE] [2092239841950134655]
 
 ## Bitcoin_Astro
 

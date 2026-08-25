@@ -1,0 +1,59 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "content-stack"
+      ]
+    },
+    "content-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "price-stat",
+        "analysis-text",
+        "tweet-link"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "ZEC resistance at 850.00 USDT 4H chart\n\nWell it looks like they found more coins to sell above 850"
+      }
+    },
+    "price-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Current Price",
+        "value": "828.77 USDT",
+        "delta": "-0.25%",
+        "trend": "down"
+      }
+    },
+    "analysis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Consolidating at key technical level. Overhead selling pressure emerging at 850 resistance zone.",
+        "variant": "body"
+      }
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2092239841950134655"
+      }
+    }
+  }
+}
