@@ -170,6 +170,7 @@
   - Aug 24 19:19Z — ambiguous (Discord Crypto supporting): [chart-only reply to member BTC invalidation question]; attachment unreadable; calibration sent [$BTC-INVALIDATION] [1541527455913873549]
   - Aug 24 19:19Z — ambiguous: Reply to @Rictangular1: "no, not unless its going way lower" — cryptic response to unknown question; unclear whether (1) bearish entry condition for unnamed asset, (2) market prediction, (3) dismissal of trade idea, or (4) response to personal question; context unavailable without @Rictangular1 original message; HR-2 calibration alert sent to Kyle [$UNKNOWN] [2091968619328475534]
   - Aug 25 00:36Z — informational (Discord Crypto supporting): reply to docpfc compliment on trading record; "well, you know my style lol, high confidence trades that i am patient for" — trading discipline philosophy; supporting-channel style clarification, no execution language [$TRADING-STYLE] [1541607105390190633]
+  - Aug 25 00:52Z — skip: supporting-channel dismissal of macro BTC interest in reply to docpfc question about Saylors; "doesn't care about macro BTC, not something I care to talk about too much"; banter/sentiment only, no actionable signal or related primary-channel context [$BANTER] [1541611077761105971]
 
 ## KillaXBT
 
