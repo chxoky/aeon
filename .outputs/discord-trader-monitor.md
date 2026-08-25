@@ -1,22 +1,18 @@
-Done. I've processed the Discord event for KillaXBT's scalp short fill at 80.5K BTC limit.
+## Summary
 
-**Summary:**
+Successfully processed Discord message event for KillaXBT:
 
-**Step 1 (Decode):** ✅ Event decoded successfully
-- Message ID: 1541697604390486017
-- Trader: killaxbt (KillaXBT)
-- Channel: 1411492188315193416 (primary "K")
-- Content: "80.5 limit filled! We still have a 82K DCA order in place aswell."
+**Event details:**
+- Message ID: 1541700195992080394
+- Channel: K (KillaXBT primary, 1411492188315193416)
+- Time: 2026-08-25T06:46:10Z
+- Type: Reply to prior message about position limits
 
-**Fast-path:** ✅ Skip Telegram (already alerted by Cloudflare Worker)
+**Processing:**
+- ✅ Message marked as seen (added to discord-trader-seen.txt)
+- ✅ fast_path_alerted=true → Cloudflare Worker already sent Telegram alert, skipped redundant notification
+- ✅ Classified as **informational** (strategy clarification, not new trade execution)
+- ✅ Updated traders.md with event context
+- ✅ Logged to daily activity log
 
-**Step 2 (Resolve):** ✅ KillaXBT verified; label "K" applied
-
-**Steps 3–5 (Classify):** ✅ **Trade execution** — order fill on documented 80.5K scalp short limit (originally set Aug 23, reaffirmed as hedge in Aug 24–25 context)
-
-**Memory updates:**
-- ✅ Added event to `traders.md` (Aug 25 06:35Z — trade-mirror-entry [$BTC-SCALP-FILL])
-- ✅ Added message ID to `discord-trader-seen.txt`
-- ✅ Logged to `memory/logs/2026-08-25.md` with classification + context
-
-**No Telegram alert sent** (fast_path_alerted=true; Worker already notified Kyle). Skill complete.
+**Key content:** KillaXBT clarified hedge strategy rationale — using fractional shorts at expected retrace levels ($80-84K → $73-76K) rather than closing winners from lower levels. Validates existing scalp hedge limits (79.5K, 80.5K filled, 82.2K) and reaffirms bullish HTF conviction with disciplined position management.
