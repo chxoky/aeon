@@ -1,0 +1,131 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration request"
+      },
+      "children": [
+        "heading_main",
+        "sep1",
+        "text_event",
+        "tweet_agreed",
+        "sep2",
+        "text_context",
+        "text_questions_intro",
+        "stack_options",
+        "sep3",
+        "text_final"
+      ]
+    },
+    "heading_main": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @bull_genius",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Bare cryptic reply to @yahoodisaazish",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "tweet_agreed": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "agreed"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to determine what was agreed upon (no prior context visible in timeline).",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_questions_intro": {
+      "type": "Text",
+      "props": {
+        "text": "Is this:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "stack_options": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_opt1",
+        "text_opt2",
+        "text_opt3"
+      ]
+    },
+    "text_opt1": {
+      "type": "Text",
+      "props": {
+        "text": "• Market sentiment / macro thesis alignment?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_opt2": {
+      "type": "Text",
+      "props": {
+        "text": "• Agreement on a ticker or structure?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_opt3": {
+      "type": "Text",
+      "props": {
+        "text": "• Personal message?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text_final": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "lead"
+      },
+      "children": []
+    }
+  }
+}
