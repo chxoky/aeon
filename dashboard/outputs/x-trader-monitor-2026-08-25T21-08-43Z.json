@@ -1,0 +1,145 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "Technical Consolidation Monitor",
+        "description": "4H consolidation analysis across key tickers"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_header",
+        "sep1",
+        "text_desc",
+        "sep2",
+        "grid_prices",
+        "sep3",
+        "text_analysis",
+        "sep4",
+        "link_post"
+      ]
+    },
+    "text_header": {
+      "type": "Text",
+      "props": {
+        "text": "🐦 X (Twitter) — @Wild_Randomness",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Technical consolidation on 4 tickers — BTC, ZEC, HYPE, LIT all showing 4H consolidation at resistance with support/resistance levels."
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "grid_prices": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat_btc",
+        "stat_zec",
+        "stat_hype",
+        "stat_lit"
+      ]
+    },
+    "stat_btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC — consolidating at $80K resistance",
+        "value": "78,163.99",
+        "delta": "-1.02%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "stat_zec": {
+      "type": "Stat",
+      "props": {
+        "label": "ZEC — consolidation $800 resistance zone",
+        "value": "775.42",
+        "delta": "-6.68%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "stat_hype": {
+      "type": "Stat",
+      "props": {
+        "label": "HYPE — $76-84 consolidation range",
+        "value": "79.573",
+        "delta": "+0.77%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat_lit": {
+      "type": "Stat",
+      "props": {
+        "label": "LIT — consolidation at $2-3.5 resistance",
+        "value": "3.271",
+        "delta": "-3.88%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text_analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Charts show all 4 aligned with group 75-81K chop consolidation thesis before breakout."
+      },
+      "children": []
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post on X",
+        "href": "https://x.com/Wild_Randomness/status/2092357257426280862"
+      },
+      "children": []
+    }
+  }
+}

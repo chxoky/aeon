@@ -61,6 +61,7 @@
   - Aug 25 20:15Z — informational: market consolidation + conviction requirement for trade entry; "gathering energy on top of daily trend right above previous ATH"; 1.5% lower looks terrible but hard to press without firm conviction on JPowel impact; 3 chart images show technical structure and momentum setup [$BTC-CONSOLIDATION-ATH] [2092345040098279512]
   - Aug 25 20:24Z — informational: portfolio position summary response; November puts IWM/SPY (bearish equities into Oct); very long commodities (PMs/uranium/rare earths, "order of magnitude greater" conviction); long crypto; actively trading tech (swing into Sept on PA respect); validates prior Aug 25 19:57Z bullish-equities statement + Aug 25 19:32Z GOLD conviction [$IWM/$SPY/$GOLD/$COMM/$BTC/$TECH] [2092347426543956283]
   - Aug 25 20:54Z — informational: ES1/SPX ATH retest technical setup; "Previous ATH retest is less than 3% away" continuation of Aug 24 17:03Z multi-timeframe ATH analysis; technical observation structure, no personal execution language [$SPX-ATH-RETEST-TIGHT] [2092354893843681409]
+  - Aug 25 21:03Z — informational: 4H consolidation charts on $BTC, $ZEC, $HYPE, $LIT; "Let's fix these, yeah?" technical level observation; all 4 showing resistance consolidation patterns with support/resistance levels labeled; no personal execution language [$BTC/$ZEC/$HYPE/$LIT-CONSOLIDATION] [2092357257426280862]
 
 ## Bitcoin_Astro
 
