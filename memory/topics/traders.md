@@ -345,6 +345,7 @@
   - Aug 24 05:56Z — informational: Global overheat leverage-breadth signal; "cooldown soon" market sentiment; chart shows ≥4% OI ≥+30% → median -11.3% drawdown next 14d; macro pullback prediction [$BTC/$MACRO-PULLBACK] [2091766490978562129]
   - Aug 24 06:20Z — informational: OI concentration imbalance thesis; ZEC/HYPE/LIT/PUMP aggregated short OI vs market-wide leverage fest; "big week w/ PCE, NVDA earnings & Jackson Hole"; watching ETF flow [$BTC/$OI-MACRO/$NVDA-EARNINGS] [2091772540179906896]
   - Aug 24 14:32Z — ambiguous: "beautiful." — single word, no context/media; possible chart praise or sentiment; unable to determine reference [$UNKNOWN] [2091896559357325641]
+  - Aug 25 00:26Z — informational: H4 EMA 9 & 21 trend-continuation framework; momentum resets in lock-out/strong/normal regimes; survivorship bias thesis [$FRAMEWORK] [2092045810628202947]
 
 ## abetrade
 

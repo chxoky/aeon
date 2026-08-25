@@ -1,0 +1,38 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "separator",
+        "link_tweet"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "@Stoiiic",
+        "text": "H4 EMA 9 & 21 trend-continuation assessment. Chart-driven analysis across three bull regimes (2020-2026) showing momentum reset levels and resumption odds by pullback depth.\n\nKey insight: \"A fill at the daily EMA20 in a lock-out trend is a warning, not a gift: resumption odds fall with depth.\"\n\nSurvivorship bias framework: strongest assets maintain structure better through retracements."
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Stoiiic/status/2092045810628202947"
+      }
+    }
+  }
+}
