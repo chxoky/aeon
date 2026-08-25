@@ -1,0 +1,56 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor - Bull Genius"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "separator-1",
+        "analysis-text",
+        "link-tweet"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "@bull_genius",
+        "text": "important underlying dynamic is that 2026 was the bottom year in many minds\n\npeople started their spot DCA plans mostly in summer so most are like 25-35% done (optimistically) as the lockout pump has hit them like a truck\n\nthey understand their original schedules until q3/q4 have gone tits up and so have everyone else's\n\nppl have to accumulate faster and higher now. in august everyone was like, im waiting for october but suddenly nobody wants to get cute anymore, instead frontrun the other accumulators, like the smart money did in june and july"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Macro sentiment on Q3/Q4 DCA urgency + accumulation pressure. Aligns with KillaXBT spot accumulation target (20 BTC) + Crypto_Chase layering discipline — group converging on aggressive accumulation narrative. 2 multi-VWAP technical charts (BTC 365D RVWAP ~81.2K + ETH structure divergence).",
+        "variant": "caption"
+      }
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/bull_genius/status/2092207128849096822"
+      }
+    }
+  }
+}
