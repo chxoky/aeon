@@ -262,8 +262,9 @@
 - Recent thesis: Contrarian BTC short vs group bullish lean. Bullish semis vs bearish BTC. Added BNB/SHIB longs based on liquidity-filtered selection from Saturday's long squeeze. Risk-managed via position sizing + disciplined profit-taking. Portfolio overall profitable.
 - Conviction notes: DIVERGES from KillaXBT/HCH/t_in_crypto/bull_genius bullish BTC thesis. Medium conviction BTC; high conviction semis/tech. **CRITICAL ESCALATION resolved**: 17+ cryptic-reply bare-post alerts Aug 21-24 resolved by substantive trade action Aug 25 07:47Z (BNB/SHIB TP), indicating pattern may have been manic trading energy rather than signal-trading. Profile continues unclear but recent action shows disciplined risk management (SL at BE, 50% TP). Pattern continues but less escalating post-Aug-25 execution.
 - Calibration: PENDING Aug 25 10:39Z (cryptic "I meant this (read)" + 4 images: Discord chat re: new $10K trading account/Vhagar initiative, @puterWorld 5-year loss narrative, -$18K account loss chart Jun 25, 2026). Intent unclear — self-aware BTC short commentary, cautionary tale for new group initiative, or risk-management reminder? Connection to Kyle decision unknown; awaiting calibration response.).
-- Last seen: 2026-08-25T10:39:13Z
+- Last seen: 2026-08-25T14:41:22Z
 - **Events (rolling):**
+  - Aug 25 14:41Z — skip: bare cryptic reply to @stogolp "Only for faqqts"; non-financial banter [$NONE] [2092261053870592369]
   - Aug 25 07:47Z — trade-partial-tp: BNB & SHIB 50% closed at 3R, SL set to break-even on remainder; disciplined risk management + conviction maintenance; pattern escalation resolved by substantive action [$BNB/$SHIB] [2092156869909331969]
   - Aug 25 08:00Z — ambiguous: "@exitpumpBTC @Sokio8D @grok Puter" — bare cryptic reply; "Puter" reference unclear (corrupted text/golf term/ticker unknown); 13min post-TP execution; pattern follow-up banter/celebration [$UNKNOWN] [2092160191580029154]
   - Aug 24 19:29Z — skip: bare cryptic reply "@Ehn_7H @garbycan Ye"; 17th+ escalation in 72h; auto-skip per protocol [$NONE] [2091971073801621989]
