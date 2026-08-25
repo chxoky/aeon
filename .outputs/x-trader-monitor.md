@@ -1,12 +1,7 @@
-🔍 *Calibration — @t_in_crypto*
+✅ **Execution complete.**
 
-Event: Reply to @Web3Whizzu and @HoudiniCapital (context unknown)
-t_in_crypto: "Ok"
+**Event:** @swarmister's post "@Shishir42069 IG"  
+**Classification:** Skip (non-financial)  
+**Action:** Logged only, no alert
 
-Unable to classify — what's your read?
-
-[View post](https://x.com/t_in_crypto/status/2092172296098062359)
-Event: Reply to @tiger_khan9
-Message: "What ?"
-
-Unable to classify — what's your read? Is this market commentary, banter, or related to his BTC position thesis?
+The post is a bare reply with no financial content—generic banter. Dedup ID recorded, daily log updated. No event line added to traders.md (skip events are log-only per protocol). No notification sent.
