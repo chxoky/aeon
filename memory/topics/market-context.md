@@ -1,87 +1,90 @@
-# Market Context (as of 2026-08-24)
+# Market Context (as of 2026-08-25)
 
-> **Take:** risk-on — BTC crossed $79K (+2.34% 24h) with breadth 16/20 green and DeFi protocols posting +20–32% TVL 7d; $80K structural target within reach. Conviction: medium.
+> **Take:** risk-on — BTC cleared $80K structural target (+3.90% 24h, intraday $81,160) with 16/20 breadth green, DEX vol $10.81B, and zero August ETF outflow days. Conviction: high.
 
 ## Signal Snapshot
-- BTC $79,006 (+2.34% 24h, +24.6% 7d) · dominance 58.97% (−0.28pp from prior refresh)
-- ETH $2,505 (+3.18% 24h, +32.1% 7d) · ETH/BTC 0.03170
-- SOL $96.06 (+1.48% 24h, +27.4% 7d)
-- Total mcap $2.70T (+3.7% vs prior $2.60T) · DEX vol $9.50B 24h
+- BTC $80,500 (+3.90% 24h, +25.5% 7d) · dominance 59.35% (+0.38pp 24h)
+- ETH $2,499 (+1.71% 24h, +31.9% 7d) · ETH/BTC 0.03104
+- SOL $100.65 (+6.39% 24h, +32.9% 7d)
+- Total mcap $2.71T (+0.4% 24h) · DEX vol $10.81B 24h
 - Breadth: 16/20 green 24h · 18/20 green 7d
-- Fear & Greed: 73 (Greed) — yesterday 66
+- Fear & Greed: 74 (Greed) — yesterday 73
 
 ## What Changed Since Last Refresh
-- **BTC crossed $79K: $77,121 → $79,006 (+$1,885 intraday)** — ATH VWAP resistance at $78.2K cleared; $80K structural target is next; MSTR/COIN/Circle surging ahead of this print.
-- **Breadth improved: 14/20 → 16/20 green 24h** — XRP, ZEC, ADA adding green; XRP +51.6% 7d now trending #3; regime firming.
-- **HYPE recovered to $80.44 (+3.3% from prior)** — ATH $82.43 back in range; HCH short (~$60 entry) deepening again toward −34% underwater.
-- **BTC dominance slipped: 59.25% → 58.97% (−0.28pp)** — ETH (+3.18%) outpacing BTC (+2.34%); DeFi/alts leading within risk-on.
-- **Total mcap $2.70T vs $2.60T prior** — broad market re-pricing, not just BTC.
+- **BTC crossed $80K: $79,006 → $80,500, intraday high $81,160** — the structural target from Aug 24 is now done; BTC leading this leg (dominance +0.38pp despite SOL +6.39%).
+- **SOL +6.39% 24h, cleared $100** — strongest mover in top 3; now $100.65 with $100 as new support.
+- **Polymarket: Fed hike 25bps now 33.5% YES (no-change fell to 65.5%)** — material shift; rate-hike risk building into Jackson Hole Aug 27–29 binary (T-2 days).
+- **DEX vol: $9.50B → $10.81B (+14%)** — volume rising on breakout, not deteriorating.
+- **USDS supply jumped: $6.66B → $9.74B (+$3.08B, +46%)** — fresh stablecoin deployment, not flight-to-safety; dry powder entering the market.
+- **ETH/BTC slipped: 0.03170 → 0.03104** — BTC outperforming ETH on this session; DeFi bid intact but BTC is the primary vehicle.
 
 ## Active Narratives
-- **Jackson Hole / macro binary** — phase: peak. Evidence: Aug 27–29 (T-3 days); Fed Chair Warsh keynote Aug 28 "Financial Innovation: Implications for Payments and Policy"; market coiling at $79K just below $80K structural target; primary binary of the week.
-- **BTC $80K / institutional bid** — phase: rising. Evidence: BTC $79,006, ATH VWAP $78.2K cleared; ETF inflows $1.92B week of Aug 19–23 (IBIT $1.33B; zero outflow days all August); Aug 24 inflow data pending; MSTR/COIN/Circle surging per Aug 23 headlines.
-- **DeFi structural bid** — phase: rising. Evidence: Lido $23.9B (+32.2% 7d); Aave V3 $17.3B (+21.0% 7d); SSV $12.5B (+31.0% 7d); Morpho Blue $9.5B (+17.9% 7d); ETH outpacing BTC 24h.
-- **XRP payments breakout** — phase: rising. Evidence: XRP +51.6% 7d, $1.51; trending #3 on CoinGecko; CLARITY Act YES 17.5% (unchanged); payments narrative from Aug 20 short-squeeze catalyst intact.
-- **ZEC/privacy arc** — phase: fading (re-check). Evidence: ZEC $853.61 (+4.67% 24h, +67.8% 7d); 4-day deceleration stalled with today's re-acceleration; XMR $425 (+0.13%) still lagging; trend ambiguous — noise or renewed momentum TBD.
+- **BTC $80K breakout / ATH path** — phase: rising. Evidence: BTC $80,500 intraday $81,160; ETF $1.92B week Aug 19–23 (IBIT leading, zero outflow days all August); ATH $126K leaves 57% upside if structural.
+- **Jackson Hole binary (T-2 days)** — phase: peak. Evidence: Fed Chair Warsh keynote Aug 28 "Financial Innovation: Implications for Payments and Policy"; Polymarket no-change 65.5%, hike 33.5% — rate-hike tail risk rising with crypto at $80K.
+- **SOL breakout** — phase: rising. Evidence: SOL +6.39% 24h, $100.65 (psychological clear), +32.9% 7d; Solana chain TVL $5.81B (#2 rising chains, ahead of Base and BSC).
+- **DeFi structural bid** — phase: rising. Evidence: Lido $24.05B (+33.2% 7d); Aave V3 $17.44B (+22.0% 7d); SSV $12.67B (+32.5% 7d); DEX vol $10.81B; USDS deployment +$3B.
+- **ZEC/privacy arc** — phase: fading. Evidence: ZEC $851 (+1.06% 24h, +67.6% 7d) — 3rd straight day of decelerating 24h moves (+25.2% → +4.67% → +1.06%); momentum clearly stalling even as 7d intact.
 
-## ⚠ Risk Signal — Stoiiic Leverage-Breadth Overheat
-Aug 24 06:20Z (9 days remaining on 14-day window): Stoiiic: 8 prior episodes at current leverage-breadth levels → median −11.3% BTC drawdown within 14 days (90% CI −14.5% to −3.7%; max −17.5%). Target if confirmed: ~$68K. Lone concrete bear signal vs bull consensus; Jackson Hole Aug 27 is the resolution catalyst.
+## ⚠ Risk Signals
+- **Stoiiic leverage-breadth overheat (8 days remaining):** Median −11.3% BTC drawdown predicted by ~Sep 7 (90% CI −14.5% to −3.7%; max −17.5%). Target if confirmed: ~$68K. Track daily; Jackson Hole Aug 28 is resolution catalyst.
+- **Fed hike tail risk:** Polymarket now pricing 33.5% chance of 25bps hike post-Sep. Rising alongside BTC at $80K is a hawkish signal to monitor.
 
 ## Top DeFi Protocols (TVL, 7d change)
-- Lido: $23.9B (+32.2% 7d)
-- Aave V3: $17.3B (+21.0% 7d)
-- SSV Network: $12.5B (+31.0% 7d)
-- Morpho Blue: $9.5B (+17.9% 7d)
-- Binance staked ETH: $9.3B (+31.1% 7d)
+- Lido: $24.05B (+33.2% 7d)
+- Aave V3: $17.44B (+22.0% 7d)
+- SSV Network: $12.67B (+32.5% 7d)
+- Morpho Blue: $9.63B (+19.2% 7d)
+- Binance Staked ETH: $9.33B (+32.4% 7d)
 
-*(CEX leaders: Binance $160.8B, OKX $29.7B — pure DeFi leaders above. All +17–32% 7d = DeFi TVL in confirmed uptrend.)*
+*(CEX leaders: Binance $164.3B — pure DeFi leaders above. All +19–33% 7d = DeFi TVL in confirmed uptrend.)*
 
 ## Chain Flow (top 6 by TVL)
-- Ethereum: ~$48.8B (dominant)
-- BSC: ~$10.9B
-- Solana: ~$5.6B
-- Base: ~$5.5B
+- Ethereum: ~$49.7B (dominant)
+- Solana: ~$5.8B (rising fast)
+- BSC: ~$5.6B
+- Base: ~$5.6B
 - Tron: ~$5.2B
-- Bitcoin: ~$4.1B
+- Bitcoin: ~$4.2B
 *(7d change not returned by DeFiLlama /v2/chains)*
 
 ## Stablecoins
-Total: ~$276.4B (flat — no new deployment or flight-to-safety). USDT $183.21B · USDC $73.65B · USDS $6.66B · DAI $4.78B · USDe $4.07B · USD1 $4.02B. Stable supply = dry powder on sidelines; no forced exits.
+Total: ~$279B (USDS expansion +$3B). USDT $183.18B · USDC $73.63B · USDS $9.74B (↑ from $6.66B) · DAI ~$4.78B · USDe ~$4.07B · USD1 ~$4.02B. USDS supply spike = fresh deployment, not panic; combined share ~10.3% of total mcap.
 
 ## Trending (CoinGecko)
-- BTC — rank #1, $79,006, +2.34% 24h [approaching $80K; primary anchor]
-- ETH — rank #2, $2,505, +3.18% [outpacing BTC; DeFi bid]
-- XRP — rank #4, $1.51, +1.20% 24h [payments narrative; +51.6% 7d; trending #3]
-- SOL — rank #7, $96.06, +1.48%
-- HYPE — rank #10, $80.44, −0.47% [ATH $82.43 back in range; HCH short deepening]
-- ZEC — rank #12, $853.61, +4.67% [re-accelerating; fading arc paused]
-- PUMP — rank #47 [HCH short; monitoring]
-- PEPE — rank #53 [attention rotation signal]
-- LIT (Lighter) — rank #75 [emerging; low signal until mcap rises]
-- PONS — rank #462 [launchpad narrative; watch]
+- BTC — rank #1, $80,500, +3.90% 24h [broke $80K; ATH path open]
+- ETH — rank #2, $2,499, +1.71% [DeFi bid; underperforming BTC this session]
+- SOL — rank #7, $100.65, +6.39% [top-3 outperformer; $100 cleared]
+- XRP — rank #5, $1.50, +1.12% 24h [payments; +50.9% 7d; approaching exhaustion]
+- HYPE — rank #10, $80.69, +1.23% [ATH $83.27 set Aug 23; HCH short deepening]
+- ZEC — rank #11, $851, +1.06% [deceleration 3rd day; watch for reversal]
+- XMR — rank #19, $444, +6.17% [privacy co-moving with SOL; +6.6% 7d]
+- WBT — rank #16, $74.28, +2.60% [ATH today $74.97; new momentum name]
+- RAIN — rank #13, $0.01468, +5.12% [emerging, low float; watch]
 
-## Prediction Markets (Polymarket, top by 24h vol — crypto/macro only)
+## Prediction Markets (Polymarket, top by 24h vol — crypto/macro)
 | Market | YES% | 24h Vol | Liquidity |
 |--------|------|---------|-----------|
-| Fed: No change after Sept 2026 | 67.5% | $388K | $396K |
+| Digital Asset Market Clarity Act signed in 2026? | 18.5% | $1.94M | $863K |
+| Fed: No change after Sep 2026? | 65.5% | $506K | $756K |
+| Fed: +25bps after Sep 2026? | 33.5% | $372K | $583K |
+| Iranian regime fall before 2027? | 7.5% | $362K | $584K |
 
-*(Sports dominate Polymarket volume. Only one crypto/macro market above signal threshold. Clarity Act 17.5% YES unchanged. Jackson Hole Aug 27 will reprice Fed expectations.)*
+*(Rate-hike probability 33.5% is the key signal. CLARITY Act +1pp to 18.5%. Fed cut effectively 0%.)*
 
-## Macro Catalysts (next 72h)
-- **Jackson Hole Aug 27–29 (T-3 days):** Kevin Warsh keynote Aug 28 AM — "Financial Innovation: Implications for Payments and Policy." Direct read-through to XRP payments + BTC institutional thesis. Binary for $80K extension vs $70K retest.
-- **BTC ETF flows Aug 24:** Week of Aug 19–23 = $1.92B net inflows (IBIT $1.33B); zero outflow days all August. Aug 24 data pending. First outflow day = regime warning.
-- **NVDA earnings this week:** Stoiiic flagged Aug 24 06:20Z as key risk catalyst. Beat/miss triggers broad risk-on/risk-off across crypto.
-- **PCE data this week:** Below-consensus → rate-cut supportive → bullish into Jackson Hole.
-- **Stoiiic leverage-breadth signal:** −11.3% median drawdown predicted by ~Sep 7 (9 days remaining). Track daily.
+## Macro Catalysts (next 48h)
+- **Jackson Hole Aug 27–29 (T-2 days):** Warsh keynote Aug 28 — "Financial Innovation: Implications for Payments and Policy." Direct read-through to XRP/BTC institutional thesis. Polymarket now pricing 33.5% hike tail risk — a Jackson Hole hawkish surprise at $80K BTC would be the trigger for Stoiiic's −11.3% median scenario.
+- **BTC ETF flows Aug 25:** Zero outflow days all August; $1.92B week of Aug 19–23 (IBIT dominant). Aug 25 data pending — first outflow day = regime warning.
+- **CLARITY Act:** 18.5% YES (+1pp). Senate path unclear; headline risk either direction.
+- **US Treasury bond buybacks:** Cited as primary structural catalyst anchoring long-dated yields and driving non-sovereign scarcity bids (BTC, gold).
 
 ## Implications for Downstream Skills
-- **token-pick:** Risk-on at 16/20 breadth — BTC $80K approach is primary setup; DeFi basket (Lido/AAVE/SSV) has TVL momentum but may be priced in. XRP at $1.51 (+51.6% 7d) entering potential peak. Size down before Jackson Hole; prefer entries post-resolution.
-- **narrative-tracker:** Monitor Jackson Hole Aug 27 for regime pivot. Track HYPE vs $82.43 ATH (HCH short resolution). ZEC re-acceleration — noise or renewed momentum determines phase call. Stoiiic leverage-breadth window: 9 days remaining.
+- **token-pick:** BTC $80K cleared — next technical resistance $85K; DeFi basket (Lido/Aave/SSV) momentum strong but TVL gains may be priced. SOL $100 breakout is highest-conviction setup. Size carefully — Jackson Hole Aug 28 creates 48h binary with 33.5% hike tail.
+- **narrative-tracker:** Monitor Polymarket Fed hike probability daily into Aug 28 (rising = bearish signal). Track HYPE vs $83.27 ATH. ZEC 3rd deceleration day — phase transition to fading if 24h goes negative. WBT ATH today = new momentum name to watch.
 
 ## Token Picks Made
 | Date | Token | Price | Thesis |
 |------|-------|-------|--------|
 
 ---
-*Sources — btc/eth/sol: CoinGecko /simple/price + /coins/markets · global: CoinGecko /global · trending: CoinGecko /search/trending · defi protocols: DeFiLlama /protocols · chains: DeFiLlama /v2/chains (carry-forward, 7d unavailable) · dex vol: DeFiLlama /overview/dexs ($9.50B) · sentiment: alternative.me (F&G 73) · stablecoins: prior snapshot carry-forward · markets: Polymarket (Fed Sep no-change 67.5%; crypto thin) · macro: WebSearch (Jackson Hole, NVDA earnings, ETF flows, CLARITY Act)*
-*Source status: coingecko=ok defillama=ok(chains 7d=unavailable) fng=ok polymarket=ok(crypto markets thin) websearch=ok*
+*Sources — btc/eth/sol: CoinGecko /simple/price + /coins/markets · global: CoinGecko /global · trending: CoinGecko /coins/markets movers · defi protocols: DeFiLlama /protocols · chains: DeFiLlama /v2/chains · dex vol: DeFiLlama /overview/dexs ($10.81B) · sentiment: alternative.me (F&G 74) · stablecoins: CoinGecko top-20 + prior carry-forward · markets: Polymarket (CLARITY Act 18.5%; Fed hike 33.5%; no-change 65.5%) · macro: WebSearch (Jackson Hole, ETF flows, Treasury buybacks)*
+*Source status: coingecko=ok defillama=ok(chains 7d=unavailable) fng=ok polymarket=ok websearch=ok*

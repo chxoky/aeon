@@ -1,0 +1,236 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Market Context — 2026-08-25"
+      },
+      "children": [
+        "main_stack"
+      ]
+    },
+    "main_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "take_section",
+        "separator1",
+        "prices_heading",
+        "prices_stack",
+        "metrics_heading",
+        "metrics_stack",
+        "separator2",
+        "narrative_section",
+        "separator3",
+        "alert_section"
+      ]
+    },
+    "take_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "take_badge",
+        "conviction_text"
+      ]
+    },
+    "take_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "risk-on",
+        "variant": "secondary"
+      }
+    },
+    "conviction_text": {
+      "type": "Text",
+      "props": {
+        "text": "conviction high",
+        "variant": "muted"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "prices_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Prices",
+        "level": "h3"
+      }
+    },
+    "prices_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "btc_section",
+        "eth_stat",
+        "sol_section"
+      ]
+    },
+    "btc_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "btc_stat",
+        "btc_detail"
+      ]
+    },
+    "btc_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$80,500",
+        "delta": "+3.90%",
+        "trend": "up"
+      }
+    },
+    "btc_detail": {
+      "type": "Text",
+      "props": {
+        "text": "$80K cleared · intraday $81,160",
+        "variant": "caption"
+      }
+    },
+    "eth_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$2,499",
+        "delta": "+1.71%",
+        "trend": "up"
+      }
+    },
+    "sol_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sol_stat",
+        "sol_detail"
+      ]
+    },
+    "sol_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "SOL",
+        "value": "$100.65",
+        "delta": "+6.39%",
+        "trend": "up"
+      }
+    },
+    "sol_detail": {
+      "type": "Text",
+      "props": {
+        "text": "leading",
+        "variant": "caption"
+      }
+    },
+    "metrics_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Market Metrics",
+        "level": "h3"
+      }
+    },
+    "metrics_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "f_and_g_progress",
+        "breadth_progress",
+        "dex_vol_stat"
+      ]
+    },
+    "f_and_g_progress": {
+      "type": "Progress",
+      "props": {
+        "value": 74,
+        "max": 100,
+        "label": "Fear & Greed: 74 Greed"
+      }
+    },
+    "breadth_progress": {
+      "type": "Progress",
+      "props": {
+        "value": 16,
+        "max": 20,
+        "label": "Market Breadth: 16/20"
+      }
+    },
+    "dex_vol_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "DEX Volume",
+        "value": "$10.81B",
+        "delta": "+14%",
+        "trend": "up"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "narrative_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "narrative_heading",
+        "narrative_text"
+      ]
+    },
+    "narrative_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Narrative",
+        "level": "h3"
+      }
+    },
+    "narrative_text": {
+      "type": "Text",
+      "props": {
+        "text": "BTC $80K breakout (rising) — ATH path open",
+        "variant": "lead"
+      }
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_section": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Fed Hike Odds",
+        "message": "Polymarket: +25bps now 33.5% YES · Jackson Hole T-2 days (Aug 28 Warsh keynote)"
+      }
+    }
+  }
+}
