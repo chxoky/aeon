@@ -1,0 +1,49 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet",
+        "link",
+        "interpretation"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "@Stoiiic",
+        "text": "still squeezing."
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Stoiiic/status/2092076220888314327"
+      }
+    },
+    "interpretation": {
+      "type": "Text",
+      "props": {
+        "text": "↳ Likely referring to the BTC consolidation at 365d VWAP (~82.4K) they identified yesterday — still holding at that HTF pivot level.",
+        "variant": "muted"
+      }
+    }
+  }
+}
