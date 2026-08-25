@@ -1,4 +1,4 @@
-## Summary
+🔍 *Calibration — @swarmister*
 
 **Event processed successfully via x-trader-monitor skill.**
 
@@ -13,3 +13,8 @@ The tweet is pure personal banter—no financial content, no positions mentioned
 **Memory updates:**
 - Added log entry to `memory/logs/2026-08-25.md` [17:36 UTC]
 - Added tweet ID to `memory/x-trader-seen.txt` (dedup tracking)
+Event: Reply to @flexing_red and @Ehn_7H
+
+Message: "100-300k is ok"
+
+Unable to classify — what's your read? (Price target? Position size? Which asset?)

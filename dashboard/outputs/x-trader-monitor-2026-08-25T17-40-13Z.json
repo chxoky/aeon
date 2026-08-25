@@ -1,0 +1,56 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading",
+        "stack"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @swarmister",
+        "level": "h2"
+      }
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event",
+        "message",
+        "alert"
+      ]
+    },
+    "event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @flexing_red and @Ehn_7H",
+        "variant": "body"
+      }
+    },
+    "message": {
+      "type": "Text",
+      "props": {
+        "text": "Message: \"100-300k is ok\"",
+        "variant": "body"
+      }
+    },
+    "alert": {
+      "type": "Alert",
+      "props": {
+        "message": "Unable to classify — what's your read? (Price target? Position size? Which asset?)",
+        "type": "info"
+      }
+    }
+  }
+}
