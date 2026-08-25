@@ -1,0 +1,69 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "GDX/GLD Ratio Technical Analysis"
+      },
+      "children": [
+        "tweet_card",
+        "sep1",
+        "current_ratio",
+        "sep2",
+        "technical_notes",
+        "sep3",
+        "link_post"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "GDX/GLD ratio technical analysis — 3 multi-timeframe charts showing:\n\nLong-term (2007–2026): GDX/GLD downtrend from 0.60 → 0.2467 (junior miners severely underperforming)\n\nMedium-term (2017–2026): Consolidation recovery pattern forming in 0.15–0.30 range\n\nShort-term (2025–2026): Bullish 1-week breakout with improving RSI momentum; recovery structure above 0.16 support, testing overhead resistance 0.23–0.24"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "current_ratio": {
+      "type": "Stat",
+      "props": {
+        "label": "Current Ratio",
+        "value": "0.2467",
+        "delta": "+1.68%",
+        "trend": "up"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "technical_notes": {
+      "type": "Text",
+      "props": {
+        "text": "Technical setup: Gold/silver miners correlation inflection — aligns with WR's prior GOLD macro thesis (XAUUSD/SPX ratio bottoming Aug 24). Structural retest setup forming in junior miners sector."
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View original post on X",
+        "href": "https://x.com/Wild_Randomness/status/2092307826437992769"
+      }
+    }
+  }
+}
