@@ -1,0 +1,93 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @swarmister"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event_text",
+        "sep1",
+        "tweet_card",
+        "sep2",
+        "alert_classify",
+        "sep3",
+        "context_text",
+        "sep4",
+        "link_view"
+      ]
+    },
+    "event_text": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Just closed BNB & SHIB positions (50% at 3R, SL at BE on remainder) 13min ago",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "text": "@exitpumpBTC @Sokio8D @grok Puter"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_classify": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "what's your read? (Is \"Puter\" a ticker/code/meme reference? Post-TP celebration vs. signal?)",
+        "type": "warning"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "Context: swarmister showed escalating cryptic-reply pattern Aug 21-24 (~17 bare-reply alerts), recently resolved via substantive BNB/SHIB trade action. This appears to be follow-up banter post-execution but intent/meaning unclear.",
+        "variant": "caption"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/swarmister/status/2092160191580029154"
+      }
+    }
+  }
+}
