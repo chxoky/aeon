@@ -1,13 +1,9 @@
-🐦 *[X] @KillaXBT*
+🐦 *[X] @bull_genius*
 
-Study.
+Battle against bear market could take time. Consolidation needed over next few weeks between 73-82k zone for 30D+90D VWAPs to catch up and build new basis before sustained bull move.
 
-Re-accumulation before expansion. New range, more chop for $BTC.
+**Key levels:** 83-84k (short-term squirt), 73-82k (consolidation zone), 365D RVWAP resistance
 
-When the time is right, we'll build additional longs targeting 96–98K.
+ETH setup contrasts with BTC — hasn't reached 365D RVWAP/ATH AVWAP yet, 'making it more interesting.' Bull_genius projects ETH $3K target and cycle ahead: 'I think it will be ethereum's cycle this time.'
 
-Patience is the edge.
-
-[View tweet](https://x.com/KillaXBT/status/20921909000004803070)
-
-↳ Charts show BTC parabolic structure with re-accumulation zones (76–84K). Aligns with your HTF bullish thesis and group consensus on 80K–82.4K VWAP pivot consolidation. 96–98K target continues his multi-year structural bull framework.
+[View tweet](https://x.com/bull_genius/status/2092193238870307160)
