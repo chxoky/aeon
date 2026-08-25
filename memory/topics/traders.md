@@ -248,6 +248,7 @@
   - Aug 24 01:20Z — informational: bull market prelims thesis; MMs/VCs engineer pump schemes; leverage risky unless sharp; buyer taxonomy; aligns with KillaXBT/bull_genius structural bull reads [$BTC/$BULL-THESIS] [2091697110768816199]
   - Aug 22 20:59Z — informational: exchange liquidation mechanics education (FTX/Binance liq failure patterns) [$EXCHANGE-MECHANICS] [2091268952089301314]
   - Aug 24 16:42Z — informational: DOPAMEME onchain long $20K→$830K (documented +3850% unrealized); CASHCAT bullish prediction; meme-token reflexivity & cultural dopamine cycles; first personal execution documented [$DOPAMEME/$CASHCAT] [2091929247572971706]
+  - Aug 25 10:27Z — informational: market psychology/trader behavior lessons; third-person narrative on cycles; no personal action signal [$TRADER-PSYCHOLOGY] [2092197241616281831]
 
 ## swarmister
 
