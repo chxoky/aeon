@@ -1,17 +1,18 @@
 ## Summary
 
-**Discord Trader Monitor — Execution Complete**
+✅ **Discord Trader Monitor execution complete**
 
-Processed Discord message from Crypto_Chase (primary channel, 1336082716063694962) at 15:59 UTC on 2026-08-25.
+**Event processed:**
+- **Trader**: HeartCanHodl (heartcanhodl ✓)
+- **Channel**: 1023638573313966212 (HCH — Chat, supporting)
+- **Message ID**: 1541843369905496124
+- **Content**: "Yes"
+- **Classification**: Non-financial / Skip
+- **Alert sent**: No
 
-**Classification: SKIP — Non-financial/promotional**
+**Reasoning**: This is a bare "Yes" acknowledgment with no financial signal, no context (is_reply=false, referenced_message=null), and no trade language. Per the skill's Step 5A protocol, non-financial messages are classified as skips and logged without alerts. The supporting channel context with no related primary-channel message further confirms this should be silent per Step 7.
 
-The message was pure engagement bait ("any likes/comments appreciated, thank you") requesting social engagement on an external X platform. No trade signals, market analysis, or conviction shifts detected.
-
-**Actions taken:**
-- Message ID 1541839457383092314 added to dedup tracking (62 total)
-- Log entry appended to 2026-08-25.md with skip rationale
-- No Telegram alert sent (non-actionable content)
-- Fast-path check: alerted=false (no premature alert occurred)
-
-System working as intended — promotional noise successfully filtered out.
+**Actions taken**:
+1. ✅ Message ID added to discord-trader-seen.txt (dedup tracking)
+2. ✅ Log entry created in memory/logs/2026-08-25.md at 16:15 UTC
+3. ✅ fast_path_alerted flag was false, so processed fully through all steps (no Telegram already sent by Worker)
