@@ -387,6 +387,7 @@
   - Aug 25 02:40Z — informational: BTC 250d rolling VWAP ~$80K identified as "final boss" resistance; chart shows historical bull trend from 2023 bottom through 2025 peak consolidating at VWAP level; multi-timeframe technical pivot [$BTC-250D-VWAP-BOSS] [2092079750244082123]
   - Aug 25 02:49Z — ambiguous: conditional short language "if i was to ever a consider a short this is the one area when I start thinking about one"; asset/area unspecified, execution unclear; calibration sent to Kyle [$UNKNOWN] [2092082024269987929]
   - Aug 25 03:07Z — self-resolved: clarification to ambiguous 02:49Z; conditional short idea at BTC 365d VWAP pivot (82.4K), contingent on flow weakening; technical trade idea, no execution [$BTC] [2092086387684372608]
+  - Aug 25 16:47Z — informational: EMA technical analysis education; reply on using EMAs in trending regime; "they work" affirmation [$EMA-TECHNICAL] [2092292895571099761]
 
 ## abetrade
 
