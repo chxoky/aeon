@@ -1,18 +1,15 @@
-Perfect. The skill execution is complete. Here's the summary:
+🐦 *[X] @abetrade*
 
-## Summary
+When markets get a little wild (which crypto did last week, printing 3+ sigma moves) follow through is generally of little consequence. There is a lot of profit-taking, repositioning etc involved which cools markets off and makes them consolidate for a bit.
 
-**Event processed:** Tweet from @trading_axe (ID 2092250093206294677) at 13:57 UTC on 2026-08-25
+This happened on the ETH chart, below, when call skew spiked (z-score > 2), the market slowed and consolidated for a little before the trend resumed, forming the next leg higher.
 
-**Classification:** Skip (Step 4A — non-financial)
+It also means that OTM calls become rich meaning they are often good candidates for selling even if you hold spot or have other long exposure.
 
-**Why:** The tweet is pure personal banter about @kingbtc's profile picture ("Fantastic profile picture Doctor Laxative. ~ Dr. Axius"). Zero financial content, no market signal, no ticker mention, no trade action.
+You can do that with naked calls (dangerous as price rally can you tear you a new asshole), covered calls (selling the rich OTM option while already holding the underlying asset), which will cap potential return.
 
-**Actions taken:**
-- ✅ Decoded base64 event JSON
-- ✅ Added tweet ID to `memory/x-trader-seen.txt` for dedup prevention
-- ✅ Logged event to `memory/logs/2026-08-25.md` at 13:57 UTC entry
-- ✅ Skipped traders.md event line (per protocol — skip events not logged there)
-- ✅ No notification sent (non-financial, no Kyle alert required)
+Or when the price is showing signs reversal with a risk reversal idea as well, which is when a cheap OTM option is bought and financed with the sale of an expensive OTM option on the other side, although after massive rallies like we just saw, its unlikely price will just  teleport back down.
 
-**Memory updated:** x-trader-seen.txt (63 entries), logs/2026-08-25.md
+The most complex variation is a 2:1 ratio of buy rich 25-delta wing, selling cheap one and delta-hedging with either a synthetic long (buy the ATM call, sell the ATM put) or futures. Done this way it becomes a pure skew trade that makes or loses a fixed amount for every vol point the risk reversal moves.
+
+[View post](https://x.com/abetrade/status/2092255885493932333)

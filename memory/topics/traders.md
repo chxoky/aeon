@@ -382,11 +382,12 @@
 
 - Platforms: X (Twitter)
 - Current open positions: None confirmed. Options vol analyst + market sentiment commentator.
-- Recent thesis: BTC IV at historic lows; Sep historically vol bottom (2023+2025 precedents); straddle/strangle setups direction-neutral. SPCX calendar spread thesis (sell Sep straddle, buy Oct; IV 110% vs RV 50%; max profit $1726). Market psychology: trader credibility commentary (CT bottom-buyers were watching Rainbet sponsorship videos last week, not calling longs).
+- Recent thesis: BTC IV at historic lows; Sep historically vol bottom (2023+2025 precedents); straddle/strangle setups direction-neutral. SPCX calendar spread thesis (sell Sep straddle, buy Oct; IV 110% vs RV 50%; max profit $1726). Market psychology: trader credibility commentary (CT bottom-buyers were watching Rainbet sponsorship videos last week, not calling longs). ETH call skew dynamics: z-score spikes correlate with market consolidation; rich OTM calls post-rally good selling candidates (naked/covered/risk-reversal/delta-hedged-ratio strategies).
 - Conviction notes: Educational framework only; no personal execution language. Options volatility specialist. First tracked Aug 21 13:49Z.
 - Calibration: PENDING Aug 23 10:34Z ("@MajesticQuant no this only includes crypto markets" — scope clarification or signal?)
-- Last seen: 2026-08-23T10:34:18Z
+- Last seen: 2026-08-25T14:20:49Z
 - **Events (rolling):**
+  - Aug 25 14:20Z — informational: ETH call skew z-score spike correlation with market consolidation; 4 charts (IBIT skew projection, skew z-score vs forward return, ETH 25d skew history, options payoff diagrams); educational on OTM call selling strategies (naked/covered/risk-reversal/delta-hedged ratio) [$ETH-SKEW-VOL] [2092255885493932333]
   - Aug 21 13:49Z — ambiguous: "@BTC_yytho @deltaxbt yea looks pretty good" — context unknown [$UNKNOWN] [2090798498316714353]
   - Aug 22 23:47Z — informational: trader credibility + market psychology; CT bottom-callers were watching sponsorship content last week [$TRADER-PSYCHOLOGY] [2091311362227978289]
   - Aug 23 10:34Z — ambiguous: "@MajesticQuant no this only includes crypto markets" — scope unknown [$UNKNOWN] [2091474101592309953]
