@@ -1,0 +1,50 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading_calibration",
+        "separator_1",
+        "text_reply",
+        "alert_clarification"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @HeartCanHodl",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text_reply": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to @Baker0x: \"Yes\"",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "alert_clarification": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification needed",
+        "message": "Unable to classify without seeing Baker0x's original message — what's your read?",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}
