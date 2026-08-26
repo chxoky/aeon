@@ -1,0 +1,69 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Trade signal calibration"
+      },
+      "children": [
+        "heading_calibration",
+        "separator_1",
+        "context_reply",
+        "tweet_linn",
+        "separator_2",
+        "question_classify"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Stoiiic",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "context_reply": {
+      "type": "Text",
+      "props": {
+        "text": "X reply to @crypto_linn:",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "tweet_linn": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "@Stoiiic",
+        "text": "LINN"
+      },
+      "children": []
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "question_classify": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification needed",
+        "message": "Bare ticker mention with no context — unable to classify whether this is a trade signal, sentiment observation, or conversational reply. What's your read?",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}

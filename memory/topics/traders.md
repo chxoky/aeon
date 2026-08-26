@@ -369,8 +369,8 @@
 - Current open positions: None explicitly stated (technical analysis/commentary focus)
 - Recent thesis: BTC/altcoin OI dominance structure; unprecedented short-liquidation cascade flushed BTC OI faster than expected → alt-dom rotation (RWA accumulation 6-8 months drove alt-dom via OI trends). ETH: hold $2300-2400 to close gap to 365D rolling VWAP. ENA weekly capitulation recovery setup. ONDO diagonal pattern (HTF support + prev day high acceptance = upside, BTC-conditional). **BTC 365d rolling VWAP ~82.4K as HTF pivot** — last time traded above was November 2025 (Aug 24 20:26Z); current price action consolidating at/near this level.
 - Conviction notes: Chart-driven technical analyst/educator. High banter ratio (~50-60%). No personal execution language detected. Key analytical insight: RWA supply surge + concentrated BTC short flush (not organic BTC strength) explains alt-dom rising. 365d rolling vwap framework (HTF pivot identification) aligns with multi-trader BTC level focus (KillaXBT 80-83K cracking difficulty, Wild_Randomness support/resistance levels, bull_genius VAH/VAL confluence).
-- Calibration: PENDING Aug 25 02:49Z (conditional short language "if i was to ever a consider a short this is the one area when I start thinking about one" — asset/area unspecified, execution unclear), PENDING Aug 23 21:06Z ("crime on TRUMP." cryptic, banter/financial unclear), PENDING Aug 23 05:43Z ("> commence" 2-word cryptic), PENDING Aug 22 02:10Z ("zcash technology has suddenly improved tremendously")
-- Last seen: 2026-08-25T20:41:01Z
+- Calibration: PENDING Aug 26 03:04Z (@crypto_linn LINN — bare ticker mention, execution/sentiment unclear), PENDING Aug 25 02:49Z (conditional short language "if i was to ever a consider a short this is the one area when I start thinking about one" — asset/area unspecified, execution unclear), PENDING Aug 23 21:06Z ("crime on TRUMP." cryptic, banter/financial unclear), PENDING Aug 23 05:43Z ("> commence" 2-word cryptic), PENDING Aug 22 02:10Z ("zcash technology has suddenly improved tremendously")
+- Last seen: 2026-08-26T03:04:12Z
 - **Events (rolling):**
   - Aug 25 17:52Z — informational: timeframe calibration question to @LSDinmycoffee/@Trader_XO on 4H for trend analysis; continues Aug 25 16:42Z 4H EMA framework discussion [$TIMEFRAME-DISCUSSION] [2092309232582295564]
   - Aug 25 16:42Z — informational: pullback framework analysis on 4,372 data points across 3 strong up-trending regimes; 4H EMA 9/21 effective for trend lock-out signals vs 4H EMA 50 for deeper momentum resets; HTF pivot at 74-75 area holds for continuation [$BTC-EMA-FRAMEWORK] [2092291518610460967]
@@ -411,6 +411,7 @@
   - Aug 25 03:07Z — self-resolved: clarification to ambiguous 02:49Z; conditional short idea at BTC 365d VWAP pivot (82.4K), contingent on flow weakening; technical trade idea, no execution [$BTC] [2092086387684372608]
   - Aug 25 16:47Z — informational: EMA technical analysis education; reply on using EMAs in trending regime; "they work" affirmation [$EMA-TECHNICAL] [2092292895571099761]
   - Aug 25 18:22Z — skip: methodology discussion reply to @JonYale/@Trader_XO on medium-timeframe trend heuristics; no ticker/position/level; educational banter [2092316806509662265]
+  - Aug 26 03:04Z — ambiguous: "@crypto_linn LINN" — bare ticker mention reply to @crypto_linn; no execution/sentiment language; context unknown [$LINN] [2092447995283558778]
 
 ## abetrade
 

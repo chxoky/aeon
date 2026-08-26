@@ -1,16 +1,5 @@
-🔍 *Calibration — @trading_axe*
+🔍 *Calibration — @Stoiiic*
 
-Event: Reply to @LoFiAlon and @kingbtc (context of discussion unknown)
+X reply to @crypto_linn: "LINN"
 
-trading_axe: "Patience young padawan.
-
-Return in a week.
-
-~ Dr. Axius."
-
-Unable to classify — what's your read? Is this:
-- A hint that a trade setup resolves in ~a week?
-- General market/patience philosophy?
-- Meme/banter in a known conversation thread?
-
-[View tweet](https://x.com/trading_axe/status/2092401784488611990)
+Bare ticker mention with no context — unable to classify whether this is a trade signal, sentiment observation, or conversational reply. What's your read?
