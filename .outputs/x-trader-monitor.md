@@ -48,3 +48,8 @@ This post is bare inter-trader banter with zero financial signal. It matches swa
 
 The skill completed successfully. No further action needed.
 Reply `approve NVDA` to mirror this on Kraken (spot), or ignore to skip.
+🐦 *[X] @swarmister*
+
+I've bought a lot of Sol, but I just don't want to buy any more
+
+[View tweet](https://x.com/swarmister/status/2092738741571846424)

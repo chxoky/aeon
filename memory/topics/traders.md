@@ -324,6 +324,9 @@
 - Last seen: 2026-08-26T22:16:57Z
 - **Events (rolling):**
   - Aug 26 22:16Z — trade-new-entry: $NVDA long @~220.01 (Hyperliquid perp, 1h timeframe); market order filled; chart shows key levels 207.23-230.00; awaiting Kyle `approve NVDA` [$NVDA] [2092738093572878375]
+- Last seen: 2026-08-26T22:19:31Z
+- **Events (rolling):**
+  - Aug 26 22:19Z — informational: SOL accumulation completed, saturation sentiment ("I've bought a lot of Sol, but I just don't want to buy any more"); reply to @based16z [$SOL] [2092738741571846424]
   - Aug 26 12:52Z — informational: $LTC 1W W-reversal pattern with POI support zone; ~49% upside target $72.22; classic reversal formation confirmation; Order Flow structure analysis; technical setup sharing (not personal execution) [$LTC] [2092596001018138973]
   - Aug 26 12:45Z — informational: $BCH 1H reversal pattern setup; "shift in narrative toward uptrend"; local relative strength + POI formation; "provides grounds for considering a long position from current levels"; technical trade idea (not personal execution); charts show 1h consolidation with support/resistance levels [$BCH] [2092594358553825712]
   - Aug 26 07:20Z — skip: greeting "@loli_roller Hai" [$NONE] [2092512407323124184]
