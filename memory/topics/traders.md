@@ -6,7 +6,9 @@
 - Conviction notes: High-conviction technical analyst on equities; vixpiry/OPEX structure commentary; macro dispersion positioning. Bear mode experiment failed Aug 20. "Scar tissue" from forced loss at 68K. HYPE/LIT = gold/silver parallel; ratio at 27-28 (down from 55 peak). URL-only posts = noise per calibration.
 - Calibration: PENDING Aug 23 19:05Z (cryptic "@QOTSA_FRL Its a 65% move to 126" — asset/context unknown), PENDING Aug 21 20:10Z (conditional LEAPS comment — unspecified asset)
 - Last seen: 2026-08-26T16:11:51Z
+- Last seen: 2026-08-26T16:13:19Z
 - **Events (rolling):**
+  - Aug 26 16:13Z — informational: NVDA 1D consolidation 210-230 range; "looks like junk" bearish sentiment on structure; earnings reaction bullish? [$NVDA] [2092646583632564736]
   - Aug 26 13:51Z — informational: CCJ weekly trend rejection + daily retest; -6% move down from rejection, consolidating in support zone; 3-chart technical analysis (1W/1D patterns) [$CCJ] [2092610841149657226]
   - Aug 24 00:12Z — informational: BTC engulfing candle pattern vs 2022/2018 bear market bottoms (+24%/+21%/+26%); historical comp analysis [$BTC-CANDLE-PATTERN] [2091680090283450543]
   - Aug 23 21:11Z — skip: meme images (Kevin Chang competitive quote + UNO bullish card); no financial signal [2091634377109524609]
