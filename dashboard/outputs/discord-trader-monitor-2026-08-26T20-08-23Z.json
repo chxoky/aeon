@@ -1,0 +1,189 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor: Calibration Request"
+      },
+      "children": [
+        "main_heading",
+        "separator1",
+        "content_section",
+        "separator2",
+        "question_alert"
+      ]
+    },
+    "main_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: Chase — TradFi]",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "event_label": {
+      "type": "Text",
+      "props": {
+        "text": "Event:",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "event_description": {
+      "type": "Text",
+      "props": {
+        "text": "Supporting channel market commentary",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "event_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event_label",
+        "event_description"
+      ]
+    },
+    "user_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Crypto_Chase",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "quote_text": {
+      "type": "Text",
+      "props": {
+        "text": "earnings tough",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "quote_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "user_badge",
+        "quote_text"
+      ]
+    },
+    "context_label": {
+      "type": "Text",
+      "props": {
+        "text": "Context:",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "context_description": {
+      "type": "Text",
+      "props": {
+        "text": "Posted in TradFi supporting channel (member Q&A zone), no execution language, no ticker reference.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "could_be_label": {
+      "type": "Text",
+      "props": {
+        "text": "Could be:",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "interpretation_1": {
+      "type": "Text",
+      "props": {
+        "text": "(1) General earnings-season sentiment",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "interpretation_2": {
+      "type": "Text",
+      "props": {
+        "text": "(2) Reference to NVDA/semis difficulty (recent context has NVDA earnings analysis)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "interpretation_3": {
+      "type": "Text",
+      "props": {
+        "text": "(3) Personal trade frustration on recent entries (ETH/HYPE)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "interpretations_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "could_be_label",
+        "interpretation_1",
+        "interpretation_2",
+        "interpretation_3"
+      ]
+    },
+    "context_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context_label",
+        "context_description",
+        "interpretations_stack"
+      ]
+    },
+    "content_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event_stack",
+        "quote_stack",
+        "context_stack"
+      ]
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "question_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification Help Needed",
+        "message": "Unable to classify — what's your read?",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}
