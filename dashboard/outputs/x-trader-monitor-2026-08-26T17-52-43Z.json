@@ -1,0 +1,178 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "sep1",
+        "ticker-section",
+        "price-section",
+        "sep2",
+        "technical-section",
+        "commentary-section",
+        "sep3",
+        "link-tweet"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "LITE (Lumentum Holdings) hitting new weekly all-time high at $934.41 (+5.52%). Chart shows multi-year uptrend structure from $200s in early 2026 to current ATH; multi-timeframe technical analysis on 1W chart with labeled support/resistance zones and volume profile. Pretty crazy considering how AI names are getting churned out right now."
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "ticker-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-ticker",
+        "badge-company"
+      ]
+    },
+    "badge-ticker": {
+      "type": "Badge",
+      "props": {
+        "text": "LITE",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge-company": {
+      "type": "Badge",
+      "props": {
+        "text": "Lumentum Holdings",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "price-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat-price",
+        "stat-change"
+      ]
+    },
+    "stat-price": {
+      "type": "Stat",
+      "props": {
+        "label": "Current Price",
+        "value": "$934.41"
+      },
+      "children": []
+    },
+    "stat-change": {
+      "type": "Stat",
+      "props": {
+        "label": "Weekly High",
+        "value": "+5.52%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "technical-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "technical-heading",
+        "technical-text"
+      ]
+    },
+    "technical-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Technical Analysis",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "technical-text": {
+      "type": "Text",
+      "props": {
+        "text": "Multi-year uptrend structure from $200s in early 2026 to current ATH; multi-timeframe technical analysis on 1W chart with labeled support/resistance zones and volume profile."
+      },
+      "children": []
+    },
+    "commentary-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "commentary-heading",
+        "commentary-text"
+      ]
+    },
+    "commentary-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Commentary",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "commentary-text": {
+      "type": "Text",
+      "props": {
+        "text": "\"Pretty crazy considering how AI names are getting churned out right now\" — observational sentiment on market narrative/saturation."
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2092669949424873611"
+      },
+      "children": []
+    }
+  }
+}
