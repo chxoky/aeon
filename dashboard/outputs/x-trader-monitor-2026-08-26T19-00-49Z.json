@@ -1,0 +1,41 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet",
+        "link"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "Wild_Randomness",
+        "text": "🐦 *[X] @Wild_Randomness*\n\nTwo macro equities scenarios taking shape:\n\n**Bear case:** End of 2021 fractal (downside risk into Oct)\n**Bull case:** Rip into mid-September → possible ANT IPO drawdown mid-Oct\n\nCurrent: Complex pullback consolidation on SPX/NQ at key levels. BoFA fund managers hit record equity allocation (complacent positioning), but put/call tape shows extreme bearish sentiment divergence.\n\n\"Difficult to be too bearish\" — bullish lean on near-term structure, but acknowledges longer-term fractal risk.\n\n**This week sets the tone for which scenario materializes.** NVDA earnings (AH today) + Jackson Hole = catalyst week.\n\nCharts: 6-chart technical analysis (NQ consolidation, SPX structure, put/call ratio, BoFA allocation records)"
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2092686146736406899"
+      }
+    }
+  }
+}
