@@ -33,3 +33,12 @@ I've successfully processed the Discord message event according to the skill spe
 - discord-trader-seen.txt: +1 message ID
 - traders.md: +1 event line (148 chars, within size discipline)
 - logs/2026-08-26.md: +1 detailed event entry
+**Discord Trader Monitor — Event Processed**
+
+- **Trader**: Crypto_Chase
+- **Channel**: Chase — TradFi (supporting)
+- **Message**: "enjoy late nighters"
+- **Classification**: **SKIP (non-financial banter)**
+- **Action**: Silent log — no alert sent
+
+This was casual social commentary with no financial signal, ticker mention, or execution language. Supporting-channel context (member Q&A zone) reinforces non-financial classification. Event logged to daily activity log and marked in discord-trader-seen.txt to prevent reprocessing. No Kyle notification needed.
