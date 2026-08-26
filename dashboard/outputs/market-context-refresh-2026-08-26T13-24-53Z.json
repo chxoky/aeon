@@ -1,0 +1,296 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Market Context — 2026-08-26 (10:00 UTC)"
+      },
+      "children": [
+        "strategy-section",
+        "sep1",
+        "prices-fg-section",
+        "sep2",
+        "metrics-section",
+        "sep3",
+        "updates-section"
+      ]
+    },
+    "strategy-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "strategy-text"
+      ]
+    },
+    "strategy-text": {
+      "type": "Text",
+      "props": {
+        "text": "take: chop (risk-off bias), conviction medium",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "prices-fg-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "prices-grid",
+        "fg-badge"
+      ]
+    },
+    "prices-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "stat-btc",
+        "stat-eth",
+        "stat-sol"
+      ]
+    },
+    "stat-btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$78,134",
+        "delta": "-0.69%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "stat-eth": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$2,446",
+        "delta": "-0.64%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "stat-sol": {
+      "type": "Stat",
+      "props": {
+        "label": "SOL",
+        "value": "$96.39",
+        "delta": "-1.49%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "fg-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Fear & Greed: 65 Greed (unchanged)",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "metrics-section": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "stat-breadth",
+        "stat-dex-vol",
+        "stat-dominance"
+      ]
+    },
+    "stat-breadth": {
+      "type": "Stat",
+      "props": {
+        "label": "Breadth",
+        "value": "3/20"
+      },
+      "children": []
+    },
+    "stat-dex-vol": {
+      "type": "Stat",
+      "props": {
+        "label": "DEX Volume",
+        "value": "$10.46B"
+      },
+      "children": []
+    },
+    "stat-dominance": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC Dominance",
+        "value": "59.16%"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "updates-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "btc-etf-block",
+        "fed-nvda-block",
+        "narrative-block",
+        "hot-market-block"
+      ]
+    },
+    "btc-etf-block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "btc-etf-badge",
+        "btc-etf-text"
+      ]
+    },
+    "btc-etf-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW: BTC ETF",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "btc-etf-text": {
+      "type": "Text",
+      "props": {
+        "text": "$314M inflows (7-day streak; Aug $3B+)"
+      },
+      "children": []
+    },
+    "fed-nvda-block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "fed-stack",
+        "nvda-badge"
+      ]
+    },
+    "fed-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-fed",
+        "pce-note"
+      ]
+    },
+    "stat-fed": {
+      "type": "Stat",
+      "props": {
+        "label": "Fed Hike YES",
+        "value": "34.5%",
+        "delta": "+2pp",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "pce-note": {
+      "type": "Text",
+      "props": {
+        "text": "PCE signal",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "nvda-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "NVDA AH tonight",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "narrative-block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "narrative-label",
+        "narrative-text"
+      ]
+    },
+    "narrative-label": {
+      "type": "Text",
+      "props": {
+        "text": "Top narrative:",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "narrative-text": {
+      "type": "Text",
+      "props": {
+        "text": "NVDA binary (peak) + JH T-1 (peak)"
+      },
+      "children": []
+    },
+    "hot-market-block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "hot-market-label",
+        "hot-market-text"
+      ]
+    },
+    "hot-market-label": {
+      "type": "Text",
+      "props": {
+        "text": "Hot market:",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "hot-market-text": {
+      "type": "Text",
+      "props": {
+        "text": "Hormuz traffic normal YES 11.5% ($847K vol)"
+      },
+      "children": []
+    }
+  }
+}
