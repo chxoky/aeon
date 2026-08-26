@@ -1,0 +1,60 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor - KillaXBT"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "tweet_link",
+        "separator1",
+        "commentary"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "The major capitalization has already taken place.\n\nIt's kind of funny seeing the Fear & Greed Index sitting at 74 (Greed) when $BTC is still roughly 65% below the 126K high lol.\n\nGet ready for the market to remain in Greed for a long time.\n\nMarkets can stay irrational far longer than most people expect."
+      },
+      "children": []
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2092619322934067403"
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "commentary": {
+      "type": "Text",
+      "props": {
+        "text": "Aligns with group bullish macro sentiment. Reinforces re-accumulation/disbelief phase narrative from KillaXBT's longer-term cycle analysis.",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
