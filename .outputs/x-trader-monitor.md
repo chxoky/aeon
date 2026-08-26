@@ -19,3 +19,12 @@
 - ✓ No alert sent to Kyle (quiet ticker with existing 3-trader monitoring; informational sentiment only)
 
 **Context:** CASHCAT is already tracked as an emerging 3-trader convergence ticker (bull_genius closed 15x trade previously, ryzzqq squeeze observation Jul 15, trading_axe reflexivity thesis Aug 08). This mention represents bull_genius continuing to monitor the asset with current bullish momentum commentary.
+🔍 *Calibration — @Wild_Randomness*
+
+Event: Cryptic market cap comparison (no tickers named; NVDA chart shown)
+
+Wild_Randomness: "Hey hey one company was ripping for weeks on end into the print and just put on 40B of market cap. The other was dying, people were writing eulogies for it, and just put on 250B of market cap."
+
+Chart shows NVDA 1D (209.74, -1.54% AH). Unable to identify which companies are being compared — is this NVDA vs something else? Or a broader market structure observation?
+
+View: x.com/Wild_Randomness/status/2092732138949063093

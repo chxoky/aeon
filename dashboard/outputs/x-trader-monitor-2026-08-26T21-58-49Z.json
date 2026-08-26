@@ -1,0 +1,116 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @Wild_Randomness",
+        "description": "Market cap comparison analysis from x-trader-monitor"
+      },
+      "children": [
+        "event_header",
+        "separator_1",
+        "tweet_card",
+        "separator_2",
+        "data_section",
+        "separator_3",
+        "analysis_note",
+        "separator_4",
+        "view_link"
+      ]
+    },
+    "event_header": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Cryptic market cap comparison (no tickers named; NVDA chart shown)",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Hey hey one company was ripping for weeks on end into the print and just put on 40B of market cap. The other was dying, people were writing eulogies for it, and just put on 250B of market cap."
+      },
+      "children": []
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "data_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "chart_label",
+        "nvda_stat"
+      ]
+    },
+    "chart_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart Reference",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "nvda_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "NVDA 1D (After Hours)",
+        "value": "209.74",
+        "delta": "-1.54%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis_note": {
+      "type": "Alert",
+      "props": {
+        "title": "Identification Challenge",
+        "message": "Unable to identify which companies are being compared — is this NVDA vs something else? Or a broader market structure observation?",
+        "type": "info"
+      },
+      "children": []
+    },
+    "separator_4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "view_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View on X",
+        "href": "https://x.com/Wild_Randomness/status/2092732138949063093",
+        "source": "X (Twitter)"
+      },
+      "children": []
+    }
+  }
+}
