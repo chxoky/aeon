@@ -1,7 +1,7 @@
-🔍 *Calibration — @Stoiiic*
+🐦 *[X] @Stoiiic*
 
-Event: Reply to @ferrumdeauratum
+this is ltf btw
 
-@Stoiiic: "@ferrumdeauratum valid"
+looks like small amount of binance spot dumping so far while perps carrying on this ltf bounce
 
-Unable to classify — what's your read? (Is this technical validation of a setup, confirmation of analysis, or non-financial banter?)
+[View tweet](https://x.com/Stoiiic/status/2092744937972322617)
