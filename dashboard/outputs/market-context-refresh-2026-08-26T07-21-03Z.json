@@ -1,0 +1,316 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "market context — 2026-08-26"
+      },
+      "children": [
+        "stack_take",
+        "sep_1",
+        "stack_assets",
+        "sep_2",
+        "stack_metrics",
+        "sep_3",
+        "stack_narratives"
+      ]
+    },
+    "stack_take": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "text_take_label",
+        "badge_chop",
+        "badge_conviction"
+      ]
+    },
+    "text_take_label": {
+      "type": "Text",
+      "props": {
+        "text": "take:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "badge_chop": {
+      "type": "Badge",
+      "props": {
+        "text": "chop (pre-event)",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge_conviction": {
+      "type": "Badge",
+      "props": {
+        "text": "conviction medium",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack_assets": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_assets",
+        "stack_prices"
+      ]
+    },
+    "heading_assets": {
+      "type": "Heading",
+      "props": {
+        "text": "Asset Prices",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "stack_prices": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat_btc",
+        "stat_eth"
+      ]
+    },
+    "stat_btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$78,952",
+        "delta": "-2.16%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "stat_eth": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$2,464",
+        "delta": "-1.72%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack_metrics": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_metrics",
+        "stack_fg_row",
+        "text_breadth",
+        "text_dex_vol"
+      ]
+    },
+    "heading_metrics": {
+      "type": "Heading",
+      "props": {
+        "text": "Market Metrics",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "stack_fg_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_fg_current",
+        "text_fg_change"
+      ]
+    },
+    "stat_fg_current": {
+      "type": "Stat",
+      "props": {
+        "label": "Fear & Greed",
+        "value": "65",
+        "delta": "-9"
+      },
+      "children": []
+    },
+    "text_fg_change": {
+      "type": "Text",
+      "props": {
+        "text": "(was 74)",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "text_breadth": {
+      "type": "Text",
+      "props": {
+        "text": "breadth 5/20",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_dex_vol": {
+      "type": "Text",
+      "props": {
+        "text": "DEX volume $10.51B",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack_narratives": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "heading_narratives",
+        "stack_jackson_hole",
+        "stack_iranian_blockade"
+      ]
+    },
+    "heading_narratives": {
+      "type": "Heading",
+      "props": {
+        "text": "Narratives & Markets",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "stack_jackson_hole": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_jackson_title",
+        "stack_fed_cut_odds"
+      ]
+    },
+    "text_jackson_title": {
+      "type": "Text",
+      "props": {
+        "text": "top narrative: Jackson Hole binary (peak)",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "stack_fed_cut_odds": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "text_fed_cut_label",
+        "progress_fed_cut",
+        "badge_fed_yes"
+      ]
+    },
+    "text_fed_cut_label": {
+      "type": "Text",
+      "props": {
+        "text": "Fed cut",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "progress_fed_cut": {
+      "type": "Progress",
+      "props": {
+        "value": 67.5,
+        "max": 100,
+        "label": "67.5%"
+      },
+      "children": []
+    },
+    "badge_fed_yes": {
+      "type": "Badge",
+      "props": {
+        "text": "YES",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "stack_iranian_blockade": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_iranian_title",
+        "stack_blockade_odds"
+      ]
+    },
+    "text_iranian_title": {
+      "type": "Text",
+      "props": {
+        "text": "hot market: Iranian Blockade End Sep 30",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "stack_blockade_odds": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_blockade_yes",
+        "progress_blockade"
+      ]
+    },
+    "badge_blockade_yes": {
+      "type": "Badge",
+      "props": {
+        "text": "YES",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "progress_blockade": {
+      "type": "Progress",
+      "props": {
+        "value": 40.5,
+        "max": 100,
+        "label": "40.5%"
+      },
+      "children": []
+    }
+  }
+}

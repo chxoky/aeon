@@ -1,9 +1,7 @@
-market context — 2026-08-25
+market context — 2026-08-26
 
-take: chop (conviction medium)
-BTC $78,975 (-0.04%) / ETH $2,473 (-1.27%) · F&G 74 (Greed)
-breadth 7/20 · TVL $10.86B DEX vol (stable)
-⚠ $80K rejected (intraday high $81,160 → $78,975); KillaXBT scalp short live
-ETF flows: 7th consecutive inflow day ($2.5B+ 6-day streak)
-top narrative: BTC $80K resistance (stalling at VWAP zone)
-hot market: Fed
+take: chop (pre-event) (conviction medium)
+BTC $78,952 (-2.16%) / ETH $2,464 (-1.72%) · F&G 65 Greed (was 74)
+breadth 5/20 · DEX vol $10.51B
+top narrative: Jackson Hole binary (peak) — Fed cut 67.5% YES
+hot market: "Iranian Blockade End Sep 30" YES 40.5%
