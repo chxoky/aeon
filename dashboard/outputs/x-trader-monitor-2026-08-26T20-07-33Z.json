@@ -1,0 +1,73 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet_card",
+        "sep1",
+        "metrics_stack",
+        "sep2",
+        "thesis_text"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "NVDA/SMH ratio at 0.3792, down 42% from Jul 2025 peak (0.65→0.38)."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "metrics_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat_ratio",
+        "tweet_link"
+      ]
+    },
+    "stat_ratio": {
+      "type": "Stat",
+      "props": {
+        "label": "NVDA/SMH Ratio",
+        "value": "0.3792",
+        "delta": "-42%",
+        "trend": "down"
+      }
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2092703682970480968"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "thesis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Continuation of documented bearish NVDA underperformance thesis (dispersion trade framework).",
+        "variant": "muted"
+      }
+    }
+  }
+}
