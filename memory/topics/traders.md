@@ -464,3 +464,14 @@
   - Aug 21 13:49Z — ambiguous: "@BTC_yytho @deltaxbt yea looks pretty good" — context unknown [$UNKNOWN] [2090798498316714353]
   - Aug 22 23:47Z — informational: trader credibility + market psychology; CT bottom-callers were watching sponsorship content last week [$TRADER-PSYCHOLOGY] [2091311362227978289]
   - Aug 23 10:34Z — ambiguous: "@MajesticQuant no this only includes crypto markets" — scope unknown [$UNKNOWN] [2091474101592309953]
+
+## Stoiiiic
+
+- Platforms: X (Twitter)
+- Current open positions: None documented
+- Recent thesis: RSI momentum indicator methodology; recommends Leviathan RSI Screener tool (TradingView); educational framework on momentum cooldown (50-60 RSI area) as precursor to gauge trend strength
+- Conviction notes: Technical indicator education + tool recommendation; no personal execution language detected. First tracked Aug 26 17:48Z.
+- Calibration: None yet (first event is educational content)
+- Last seen: 2026-08-26T17:48:21Z
+- **Events (rolling):**
+  - Aug 26 17:48Z — informational: Leviathan RSI Screener tool recommendation + educational framework; momentum cooldown 50-60 area signals trend strength/weakness gauge; no personal execution language or specific ticker [$TECHNICAL-EDUCATION] [2092670497561444694]
