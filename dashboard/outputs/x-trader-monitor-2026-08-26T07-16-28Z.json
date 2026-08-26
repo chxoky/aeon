@@ -1,0 +1,155 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading-calibration",
+        "badge-author",
+        "sep1",
+        "heading-event",
+        "text-event-desc",
+        "tweet-card",
+        "sep2",
+        "heading-analysis",
+        "text-analysis-intro",
+        "stack-interpretations",
+        "sep3",
+        "stack-meta"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration",
+        "level": "h2"
+      }
+    },
+    "badge-author": {
+      "type": "Badge",
+      "props": {
+        "text": "@swarmister",
+        "variant": "secondary"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "text-event-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Tweet reply to @BittexXBT, no visible external context"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "@BittexXBT Calling top"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-analysis": {
+      "type": "Heading",
+      "props": {
+        "text": "Analysis",
+        "level": "h3"
+      }
+    },
+    "text-analysis-intro": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read? Possible interpretations:",
+        "variant": "lead"
+      }
+    },
+    "stack-interpretations": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "interp1",
+        "interp2",
+        "interp3",
+        "interp4"
+      ]
+    },
+    "interp1": {
+      "type": "Text",
+      "props": {
+        "text": "Sarcasm on his -179% underwater BTC short (matches self-aware humor pattern Aug 24)"
+      }
+    },
+    "interp2": {
+      "type": "Text",
+      "props": {
+        "text": "Actual bearish BTC sentiment (aligns with contrarian short thesis)"
+      }
+    },
+    "interp3": {
+      "type": "Text",
+      "props": {
+        "text": "Response to something @BittexXBT said/posted (context missing)"
+      }
+    },
+    "interp4": {
+      "type": "Text",
+      "props": {
+        "text": "Market sentiment observation"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-timestamp",
+        "link-tweet"
+      ]
+    },
+    "text-timestamp": {
+      "type": "Text",
+      "props": {
+        "text": "Event time: 2026-08-26T07:11:13Z",
+        "variant": "caption"
+      }
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "Tweet: https://x.com/swarmister/status/2092510158240776551",
+        "href": "https://x.com/swarmister/status/2092510158240776551"
+      }
+    }
+  }
+}
