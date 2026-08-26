@@ -1,0 +1,200 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor Calibration"
+      },
+      "children": [
+        "heading_calib",
+        "sep1",
+        "event_section",
+        "sep2",
+        "message_section",
+        "sep3",
+        "context_section",
+        "sep4",
+        "classification_section",
+        "sep5",
+        "alert_section"
+      ]
+    },
+    "heading_calib": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — DC: Chase — TradFi",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "event_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event_header",
+        "event_channel_badge",
+        "event_timestamp_text"
+      ]
+    },
+    "event_header": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Supporting channel — Crypto_Chase message",
+        "variant": "lead"
+      }
+    },
+    "event_channel_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Crypto_Chase",
+        "variant": "default"
+      }
+    },
+    "event_timestamp_text": {
+      "type": "Text",
+      "props": {
+        "text": "Timestamp: 2026-08-26T20:02:05Z",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "message_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "msg_heading",
+        "msg_text",
+        "msg_attachment_note"
+      ]
+    },
+    "msg_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Message Content",
+        "level": "h3"
+      }
+    },
+    "msg_text": {
+      "type": "Text",
+      "props": {
+        "text": "\"hmmmmm\"",
+        "variant": "lead"
+      }
+    },
+    "msg_attachment_note": {
+      "type": "Text",
+      "props": {
+        "text": "Attachment: Chart image (unreadable from embed)",
+        "variant": "muted"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context_heading",
+        "context_description"
+      ]
+    },
+    "context_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context Analysis",
+        "level": "h3"
+      }
+    },
+    "context_description": {
+      "type": "Text",
+      "props": {
+        "text": "Single-word contemplative expression + image attachment (chart unreadable from embed). No execution language, no ticker mention, no referenced context.",
+        "variant": "body"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "classification_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "classification_heading",
+        "classification_prompt",
+        "option1",
+        "option2",
+        "option3"
+      ]
+    },
+    "classification_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Unable to Classify",
+        "level": "h3"
+      }
+    },
+    "classification_prompt": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read? Is this:",
+        "variant": "body"
+      }
+    },
+    "option1": {
+      "type": "Text",
+      "props": {
+        "text": "1. Technical chart observation (image contains setup details)",
+        "variant": "body"
+      }
+    },
+    "option2": {
+      "type": "Text",
+      "props": {
+        "text": "2. Banter/non-financial noise",
+        "variant": "body"
+      }
+    },
+    "option3": {
+      "type": "Text",
+      "props": {
+        "text": "3. Ambiguous trade intent requiring context",
+        "variant": "body"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {}
+    },
+    "alert_section": {
+      "type": "Alert",
+      "props": {
+        "title": "Fast-path Alert Status",
+        "message": "false — Claude inference needed, no same-message execution detected",
+        "type": "info"
+      }
+    }
+  }
+}
