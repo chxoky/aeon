@@ -83,6 +83,7 @@
   - Aug 26 18:07Z — informational: Options market structure cynicism; 7/8 down days + "now they want to short?"; NVDA 225 calls reference (past short positioning); SPY/NVDA put/call premium flows chart; "either MNPI or shorting the hole" [$SPY/$NVDA/$OPTIONS] [2092675428582625644]
   - Aug 26 18:50Z — informational: Equities macro scenarios (bear: 2021 fractal; bull: rip mid-Sept); consolidation/complex pullback; difficult to be bearish; this week tone-setter [$SPX/$QQQ/$MACRO] [2092686146736406899]
 - Aug 26 19:10Z — informational: SPCX technical unlock pattern thesis validation; 4 charts showing price structure consolidation ($135-140 support) + unlock timeline (Musk 46.1% eligible Day 366, progressive unlock through Sep 2027); "Theory working" = prior unlock analysis framework confirmed by current price structure; continuation of Aug 06/Aug 21 SPCX macro positioning [$SPCX-UNLOCK-PATTERN] [2092691113857712382]
+  - Aug 26 19:52Z — trade-new-entry: $WMT March 2027 $115 calls; filled @ ~105 support; target 115 by EOY; stop <$100 weekly close [2092701767528267854]
 
 ## Bitcoin_Astro
 

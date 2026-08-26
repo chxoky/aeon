@@ -1,0 +1,225 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Trade Signal — @Wild_Randomness"
+      },
+      "children": [
+        "stack-header",
+        "separator-1",
+        "stack-entry-details",
+        "separator-2",
+        "quote-section",
+        "separator-3",
+        "stack-levels",
+        "separator-4",
+        "action-section"
+      ]
+    },
+    "stack-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "heading-symbol",
+        "badge-direction",
+        "badge-type"
+      ]
+    },
+    "heading-symbol": {
+      "type": "Heading",
+      "props": {
+        "text": "WMT",
+        "level": "h2"
+      }
+    },
+    "badge-direction": {
+      "type": "Badge",
+      "props": {
+        "text": "LONG",
+        "variant": "default"
+      }
+    },
+    "badge-type": {
+      "type": "Badge",
+      "props": {
+        "text": "LIMIT order (options)",
+        "variant": "secondary"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack-entry-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-contract",
+        "text-contract-details",
+        "stat-entry"
+      ]
+    },
+    "heading-contract": {
+      "type": "Heading",
+      "props": {
+        "text": "$115 March 2027 Calls",
+        "level": "h3"
+      }
+    },
+    "text-contract-details": {
+      "type": "Text",
+      "props": {
+        "text": "Filled @ ~$104–106 support",
+        "variant": "body"
+      }
+    },
+    "stat-entry": {
+      "type": "Stat",
+      "props": {
+        "label": "Entry Price Range",
+        "value": "$104–$106"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "quote-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-quote",
+        "text-quote"
+      ]
+    },
+    "heading-quote": {
+      "type": "Heading",
+      "props": {
+        "text": "Trader's Note",
+        "level": "h4"
+      }
+    },
+    "text-quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"Alright, filled $115 March 2027 calls. Idea is this gets filled before the end of the year, can add lower but won't be hanging around if we close a week below $100.\"",
+        "variant": "body"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack-levels": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "stat-stop",
+        "stat-target",
+        "stack-thesis"
+      ]
+    },
+    "stat-stop": {
+      "type": "Stat",
+      "props": {
+        "label": "Stop Loss",
+        "value": "Below $100",
+        "trend": "down"
+      }
+    },
+    "stat-target": {
+      "type": "Stat",
+      "props": {
+        "label": "Target",
+        "value": "$115",
+        "trend": "up"
+      }
+    },
+    "stack-thesis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-thesis",
+        "text-thesis-main",
+        "text-thesis-context"
+      ]
+    },
+    "heading-thesis": {
+      "type": "Heading",
+      "props": {
+        "text": "Analysis",
+        "level": "h4"
+      }
+    },
+    "text-thesis-main": {
+      "type": "Text",
+      "props": {
+        "text": "Consolidation breakout on weekly chart; $115 target by end of 2027",
+        "variant": "body"
+      }
+    },
+    "text-thesis-context": {
+      "type": "Text",
+      "props": {
+        "text": "Aligns with prior Aug 21 WMT contrarian entry at $103.43",
+        "variant": "caption"
+      }
+    },
+    "separator-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "action-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-post",
+        "alert-action"
+      ]
+    },
+    "link-post": {
+      "type": "Link",
+      "props": {
+        "label": "View original post on X",
+        "href": "https://x.com/Wild_Randomness/status/2092701767528267854"
+      }
+    },
+    "alert-action": {
+      "type": "Alert",
+      "props": {
+        "title": "Mirror this trade",
+        "message": "Reply `approve WMT` to mirror, or ignore to skip.",
+        "type": "info"
+      }
+    }
+  }
+}

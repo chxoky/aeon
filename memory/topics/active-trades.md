@@ -47,6 +47,21 @@
 - **Position thesis**: Technical 3-confluence setup; bullish continuation bias. Partial TP validates entry conviction (immediate gains captured). Remainder held for continued upside per trader's "enjoy if you caught" tone.
 - **Last update**: 2026-08-22T13:21:22Z (message_id=1540712488130318416, discord-trader-monitor real-time, fast-path alerted)
 
+### WMT (Walmart) — LONG (NEW ENTRY — 2026-08-26)
+- **Entry date**: 2026-08-26T19:52:36Z
+- **Entry message**: "filled $115 March 2027 calls"
+- **Entry type**: Limit order (options entry on calls)
+- **Strike price**: $115
+- **Expiration**: March 2027 (~6.5 months)
+- **Entry level**: ~$104-106 (current WMT price when filled)
+- **Entry context**: Contrarian long on WMT following prior Aug 21 $103.43 entry signal. Bullish equities conviction into mid-September, long semis/QQQ positioning. Equities specialist with dispersion-trade framework.
+- **Stop loss**: If WMT closes below $100 for a week (hard stop)
+- **DCA thesis**: "can add lower but won't be hanging around if we close a week below $100"
+- **Position thesis**: Bullish technical setup on WMT consolidation; targets $115 by end of 2027. "Random/boring trade but sometimes those perform the best" — sentiment indicates medium conviction but high technical confidence.
+- **Status**: PENDING APPROVAL — awaiting Kyle response (`approve WMT` to consider mirroring calls strategy), or ignore to skip
+- **Alerted**: YES (2026-08-26T19:55Z, Step 5a trade alert via ./notify)
+- **Last update**: 2026-08-26T19:52:36Z (x-trader-monitor real-time event, step-5a pending approval)
+
 ### GOOG (Google) — LONG (CLOSED)
 - **Entry zone**: 330s (initial resting bid filled 2026-06-23T13:31Z at ~330-342 zone)
 - **Final size**: 0% (fully closed 2026-07-16T12:38:19Z)
