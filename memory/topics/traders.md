@@ -86,6 +86,7 @@
 - Aug 26 19:10Z — informational: SPCX technical unlock pattern thesis validation; 4 charts showing price structure consolidation ($135-140 support) + unlock timeline (Musk 46.1% eligible Day 366, progressive unlock through Sep 2027); "Theory working" = prior unlock analysis framework confirmed by current price structure; continuation of Aug 06/Aug 21 SPCX macro positioning [$SPCX-UNLOCK-PATTERN] [2092691113857712382]
   - Aug 26 19:52Z — trade-new-entry: $WMT March 2027 $115 calls; filled @ ~105 support; target 115 by EOY; stop <$100 weekly close [2092701767528267854]
   - Aug 26 20:00Z — informational: NVDA/SMH ratio 0.3792 (-42% from Jul peak 0.65); chart-only "What if?" post; continuation of bearish NVDA underperformance thesis [$NVDA-UNDERPERFORMANCE] [2092703682970480968]
+  - Aug 26 20:25Z — ambiguous: NVDA crash chart "Filled" (-2.70% AH); closed short 209 at 16:47Z; re-entry short or market sentiment? calibration sent [$NVDA] [2092709971440144488]
 
 ## Bitcoin_Astro
 
