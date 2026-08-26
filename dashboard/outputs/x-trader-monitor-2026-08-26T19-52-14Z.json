@@ -1,0 +1,48 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @trading_axe"
+      },
+      "children": [
+        "event_type",
+        "tweet",
+        "alert_context",
+        "link_post"
+      ]
+    },
+    "event_type": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @CL207",
+        "variant": "muted"
+      }
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "trading_axe",
+        "handle": "@trading_axe",
+        "text": "Lemme hold a band?\n\n~ Dr. Axius."
+      }
+    },
+    "alert_context": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Need context from original @CL207 message. Is this financial or personal banter?",
+        "type": "warning"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/trading_axe/status/2092699272777007500"
+      }
+    }
+  }
+}
