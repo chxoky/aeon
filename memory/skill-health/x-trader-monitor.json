@@ -1,15 +1,11 @@
 {
   "skill": "x-trader-monitor",
-  "last_analyzed": "2026-08-26T08:52:09Z",
+  "last_analyzed": "2026-08-26T13:47:29Z",
   "quality_score": 4,
-  "assessment": "Well-structured event processing with correct classification, proper logging, and clear reasoning",
+  "assessment": "Skill correctly classified and filtered non-trading content with proper audit logging and deduplication",
   "flags": [],
-  "avg_score": 4,
+  "avg_score": 3.97,
   "history": [
-    {
-      "date": "2026-08-04",
-      "score": 5
-    },
     {
       "date": "2026-08-04",
       "score": 4
@@ -120,6 +116,10 @@
     },
     {
       "date": "2026-08-25",
+      "score": 4
+    },
+    {
+      "date": "2026-08-26",
       "score": 4
     },
     {
