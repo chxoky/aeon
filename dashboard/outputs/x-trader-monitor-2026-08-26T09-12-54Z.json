@@ -1,0 +1,62 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading-title",
+        "text-event",
+        "separator-1",
+        "tweet-1",
+        "text-analysis",
+        "link-tweet"
+      ]
+    },
+    "heading-title": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @swarmister",
+        "level": "h2"
+      }
+    },
+    "text-event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @zkTuring",
+        "variant": "caption"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "text": "@zkTuring O"
+      }
+    },
+    "text-analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read? Is this acknowledgment, sarcasm, or reference to something external?",
+        "variant": "lead"
+      }
+    },
+    "link-tweet": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View on X",
+        "href": "https://x.com/swarmister/status/2092539100951679236",
+        "source": "X"
+      }
+    }
+  }
+}
