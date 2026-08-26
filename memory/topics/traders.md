@@ -9,6 +9,7 @@
 - Last seen: 2026-08-26T16:13:19Z
 - **Events (rolling):**
   - Aug 26 16:13Z — informational: NVDA 1D consolidation 210-230 range; "looks like junk" bearish sentiment on structure; earnings reaction bullish? [$NVDA] [2092646583632564736]
+  - Aug 26 16:49Z — informational: NVDA short closed 209 (chart follow-up); technical rationale: consolidation structure at key support; "overtrading" self-awareness commentary [$NVDA] [2092655598752112652]
   - Aug 26 16:47Z — informational: NVDA earnings bearish history 7/8 post-TP selloffs; closed prior short at 209, flat now; contrarian short-squeeze thesis [$NVDA] [2092655142697156982]
   - Aug 26 16:23Z — informational: Equity bearishness tempered by 3-4 week risk; relief rally expected (NVDA/Jackson Hole catalyst); November puts; prefers selling into rally vs chase [$EQUITIES/$NVDA/$MACRO] [2092649077171536151]
   - Aug 26 13:51Z — informational: CCJ weekly trend rejection + daily retest; -6% move down from rejection, consolidating in support zone; 3-chart technical analysis (1W/1D patterns) [$CCJ] [2092610841149657226]
