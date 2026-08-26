@@ -1,0 +1,39 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-1",
+        "view-link",
+        "chart-note"
+      ]
+    },
+    "tweet-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "5min bull div\n\nBears are fkd"
+      }
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/20927030233071005688"
+      }
+    },
+    "chart-note": {
+      "type": "Alert",
+      "props": {
+        "message": "Chart image unavailable",
+        "type": "info"
+      }
+    }
+  }
+}
