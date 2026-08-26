@@ -18,3 +18,12 @@ This is generic market-structure commentary/banter, not a personal trade action,
 - Did NOT add event line to `traders.md` (skip/non-financial events are logged but not stored as rolling trader context per size-discipline rules)
 
 No notification was sent to Kyle.
+🐦 *[X] @Wild_Randomness*
+
+$CCJ
+
+Got a -6% move off the rejection of weekly trend
+
+Re-tested daily trend and been dipping out of it ever since
+
+[View tweet](https://x.com/Wild_Randomness/status/2092610841149657226)

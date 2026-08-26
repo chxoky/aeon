@@ -1,0 +1,57 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge-ticker",
+        "tweet-card",
+        "stat-move",
+        "link-tweet"
+      ]
+    },
+    "badge-ticker": {
+      "type": "Badge",
+      "props": {
+        "text": "$CCJ"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Got a -6% move off the rejection of weekly trend\n\nRe-tested daily trend and been dipping out of it ever since"
+      }
+    },
+    "stat-move": {
+      "type": "Stat",
+      "props": {
+        "label": "Price Move",
+        "value": "-6%",
+        "trend": "down"
+      }
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2092610841149657226"
+      }
+    }
+  }
+}
