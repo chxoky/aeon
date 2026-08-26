@@ -1,0 +1,91 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "$LTC 1W — Reversal Setup"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "separator1",
+        "stats-stack",
+        "separator2",
+        "link-tweet"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmixter",
+        "handle": "@swarmixter",
+        "text": "Classic W-reversal pattern formation confirmed. Point of Interest (POI) zone at $45.65 likely acts as strong support from which upward Order Flow expected to continue."
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stats-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-upside",
+        "stat-poi",
+        "stat-target"
+      ]
+    },
+    "stat-upside": {
+      "type": "Stat",
+      "props": {
+        "label": "Upside potential",
+        "value": "49%",
+        "trend": "up"
+      }
+    },
+    "stat-poi": {
+      "type": "Stat",
+      "props": {
+        "label": "POI Support",
+        "value": "$45.65"
+      }
+    },
+    "stat-target": {
+      "type": "Stat",
+      "props": {
+        "label": "Target",
+        "value": "$72.22"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/swarmixter/status/2092596001018138973"
+      }
+    }
+  }
+}
