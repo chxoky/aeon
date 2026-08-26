@@ -1,0 +1,80 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading-calibration",
+        "event-section",
+        "sep1",
+        "quote-section",
+        "sep2",
+        "unable-classify-alert"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h2"
+      }
+    },
+    "event-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event-label",
+        "event-details"
+      ]
+    },
+    "event-label": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Trade context setup",
+        "variant": "lead"
+      }
+    },
+    "event-details": {
+      "type": "Text",
+      "props": {
+        "text": "WMT March 2027 $115 calls entered 2h prior @ ~105 support (19:52Z), recent technical analysis on NVDA/QQQ/GEV",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "quote-section": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Laid the groundwork a few hours ago. Needed the TWAP to progress before I showed hand."
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "unable-classify-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Is this referring to the WMT entry revealed 2h earlier, or something else? What's your read?",
+        "type": "warning"
+      }
+    }
+  }
+}
