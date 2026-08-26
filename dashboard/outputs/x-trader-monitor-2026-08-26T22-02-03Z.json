@@ -1,0 +1,71 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @Wild_Randomness"
+      },
+      "children": [
+        "event-heading",
+        "price-stat",
+        "sep-1",
+        "tweet-card",
+        "sep-2",
+        "analysis-text",
+        "question-text"
+      ]
+    },
+    "event-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Event: ENA dump to 0.1360 (-4.83%) on 4H/1H charts",
+        "level": "h3"
+      }
+    },
+    "price-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "ENA Price",
+        "value": "0.1360",
+        "delta": "-4.83%",
+        "trend": "down"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "$ENA\n\nTWAP in\n\nTWAP out\n\nTWAP in (?)"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Chart shows recent price collapse with support structure at ~0.14. Post text is ambiguous — unable to determine if describing past trade execution + re-entry question, or just technical observation.",
+        "variant": "body"
+      }
+    },
+    "question-text": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "lead"
+      }
+    }
+  }
+}
