@@ -1,0 +1,65 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "NVDA Intraday Earnings Volatility"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat_nvda",
+        "badge_time",
+        "text_analysis",
+        "text_sentiment",
+        "tweet_link"
+      ]
+    },
+    "stat_nvda": {
+      "type": "Stat",
+      "props": {
+        "label": "NVDA Price Movement",
+        "value": "225.33 → 214.80",
+        "delta": "-2.1%",
+        "trend": "down"
+      }
+    },
+    "badge_time": {
+      "type": "Badge",
+      "props": {
+        "text": "2.5hrs",
+        "variant": "default"
+      }
+    },
+    "text_analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Wild_Randomness chart analysis with consolidation whipsaw"
+      }
+    },
+    "text_sentiment": {
+      "type": "Text",
+      "props": {
+        "text": "Market sentiment: everything else is waste of time"
+      }
+    },
+    "tweet_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Wild_Randomness Chart Analysis",
+        "href": "https://x.com/Wild_Randomness/status/2092723745177911341",
+        "source": "X"
+      }
+    }
+  }
+}
