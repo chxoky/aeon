@@ -1,22 +1,22 @@
 *Morning Brief — 2026-08-26*
 
 *Focus today*
-1. NVDA earnings tonight AH — $92.2B / $2.09 expected; miss = deleveraging into Jackson Hole T-1
-2. BTC $78.9K — $80K rejected hard; KillaXBT short live and green; bull_genius 75-76K floor next test
-3. Jackson Hole T-2 — Warsh debuts Friday; "Financial Innovation" theme = direct stablecoin/crypto framing
+1. NVDA earnings tonight AH — miss triggers synchronized risk-off into JH T-1 tomorrow
+2. Jackson Hole T-1 (Warsh Aug 28) — first keynote; JH "Financial Innovation" theme = stablecoins/payments; BTC binary $73-76K vs $84-90K
+3. 4 pending calibrations — swarmister/HCH/Stoiiic/trading_axe ambiguous signals need your read today
 
 *Since yesterday*
-- [rejected]: BTC reversed $80.5K → $78.9K; F&G 74 → 65; breadth 18/20 → 5/20 — VWAP resistance held
-- [live]: KillaXBT 80.5K scalp short in profit; 83.3K next limit set; re-accumulation 76-84K thesis active
-- [cleared]: Wild_Randomness took NVDA TP (13:53Z Aug 25) — clear-handed into tonight's binary
-- [done]: swarmister 50% BNB/SHIB closed at 3R; remaining half stopped at break-even
-- [ambiguous]: trading_axe "return in a week" — calibration alert sent; possible setup brewing
+- [BTC] $80.5K → $78.9K; F&G 74→65 (-9pts, sharpest drop this bull leg); KillaXBT short live and green
+- [bull_genius] partial TP on BTC/ETH at 06:41Z — first tracked bull to lighten; distribution signal
+- [ZEC] CAPITULATION at $850 (WR called it); SOL broke $97 — two prior supports gone
+- [Hormuz] Strait of Hormuz #1 Polymarket by 24h vol ($890K); 40.5% blockade YES — new macro overlay
 
 *Watch*
-- Jackson Hole 2026 theme: "Financial Innovation: Implications for Payments and Policy" — Warsh framing Friday could directly shift stablecoin/digital asset regulatory tone (→ Focus #3)
+- NVDA miss + hawkish Warsh = Stoiiic $68K drawdown scenario activates (focus #1 + #2)
+- JH theme "Financial Innovation: Payments & Policy" — Warsh prior DeFi disclosures; most crypto-direct JH framing ever
 
 *Running today*
-- token-alert @ 12:00 UTC
-- token-movers @ 12:00 UTC
+- x-trader-monitor / discord-trader-monitor @ continuous
+- token-alert / token-movers @ 12:00 UTC
 - market-context-refresh @ 13:00 UTC
 - narrative-tracker @ 13:30 UTC

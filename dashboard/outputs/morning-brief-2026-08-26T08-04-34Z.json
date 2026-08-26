@@ -1,0 +1,218 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-08-26"
+      },
+      "children": [
+        "heading_focus",
+        "stack_focus",
+        "separator_1",
+        "heading_yesterday",
+        "stack_yesterday",
+        "separator_2",
+        "heading_watch",
+        "stack_watch",
+        "separator_3",
+        "heading_running",
+        "stack_running"
+      ]
+    },
+    "heading_focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "stack_focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus_1",
+        "focus_2",
+        "focus_3"
+      ]
+    },
+    "focus_1": {
+      "type": "Text",
+      "props": {
+        "text": "NVDA earnings tonight AH — miss triggers synchronized risk-off into JH T-1 tomorrow"
+      }
+    },
+    "focus_2": {
+      "type": "Text",
+      "props": {
+        "text": "Jackson Hole T-1 (Warsh Aug 28) — first keynote; JH \"Financial Innovation\" theme = stablecoins/payments; BTC binary $73-76K vs $84-90K"
+      }
+    },
+    "focus_3": {
+      "type": "Text",
+      "props": {
+        "text": "4 pending calibrations — swarmister/HCH/Stoiiic/trading_axe ambiguous signals need your read today"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_yesterday": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "stack_yesterday": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat_btc",
+        "stat_fg",
+        "text_killaxbt",
+        "text_bullgenius",
+        "text_zec_sol",
+        "text_hormuz"
+      ]
+    },
+    "stat_btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$78.9K",
+        "delta": "-$1.6K",
+        "trend": "down"
+      }
+    },
+    "stat_fg": {
+      "type": "Stat",
+      "props": {
+        "label": "Fear & Greed",
+        "value": "65",
+        "delta": "-9 pts (sharpest drop this bull leg)",
+        "trend": "down"
+      }
+    },
+    "text_killaxbt": {
+      "type": "Text",
+      "props": {
+        "text": "KillaXBT short live and green"
+      }
+    },
+    "text_bullgenius": {
+      "type": "Text",
+      "props": {
+        "text": "bull_genius partial TP on BTC/ETH at 06:41Z — first tracked bull to lighten; distribution signal"
+      }
+    },
+    "text_zec_sol": {
+      "type": "Text",
+      "props": {
+        "text": "ZEC CAPITULATION at $850 (WR called it); SOL broke $97 — two prior supports gone"
+      }
+    },
+    "text_hormuz": {
+      "type": "Text",
+      "props": {
+        "text": "Strait of Hormuz #1 Polymarket by 24h vol ($890K); 40.5% blockade YES — new macro overlay"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "stack_watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "watch_1",
+        "watch_2"
+      ]
+    },
+    "watch_1": {
+      "type": "Text",
+      "props": {
+        "text": "NVDA miss + hawkish Warsh = Stoiiic $68K drawdown scenario activates (focus #1 + #2)"
+      }
+    },
+    "watch_2": {
+      "type": "Text",
+      "props": {
+        "text": "JH theme \"Financial Innovation: Payments & Policy\" — Warsh prior DeFi disclosures; most crypto-direct JH framing ever"
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "stack_running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "running_1",
+        "running_2",
+        "running_3",
+        "running_4"
+      ]
+    },
+    "running_1": {
+      "type": "Text",
+      "props": {
+        "text": "x-trader-monitor / discord-trader-monitor @ continuous"
+      }
+    },
+    "running_2": {
+      "type": "Text",
+      "props": {
+        "text": "token-alert / token-movers @ 12:00 UTC"
+      }
+    },
+    "running_3": {
+      "type": "Text",
+      "props": {
+        "text": "market-context-refresh @ 13:00 UTC"
+      }
+    },
+    "running_4": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC"
+      }
+    }
+  }
+}
