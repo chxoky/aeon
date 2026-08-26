@@ -1,0 +1,137 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor",
+        "description": "Market sentiment and technical analysis from X traders"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "separator_1",
+        "stack_analysis"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Just feels like this as we slow bleed with known upcoming catalysts (which the market fears)\n\n[Meme: Garden of Eden with bear serpent — 'GO AHEAD, TRY THE SHORT YOU'LL LIKE IT']"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_analysis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "classification_block",
+        "thesis_block",
+        "context_block",
+        "link_post"
+      ]
+    },
+    "classification_block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "label_classification",
+        "badge_classification"
+      ]
+    },
+    "label_classification": {
+      "type": "Text",
+      "props": {
+        "text": "Classification:",
+        "variant": "caption"
+      }
+    },
+    "badge_classification": {
+      "type": "Badge",
+      "props": {
+        "text": "Informational — Market Sentiment",
+        "variant": "outline"
+      }
+    },
+    "thesis_block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "label_thesis",
+        "text_thesis"
+      ]
+    },
+    "label_thesis": {
+      "type": "Text",
+      "props": {
+        "text": "Thesis:",
+        "variant": "caption"
+      }
+    },
+    "text_thesis": {
+      "type": "Text",
+      "props": {
+        "text": "Bearish equities continuation; upcoming catalysts feared by market",
+        "variant": "body"
+      }
+    },
+    "context_block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "label_context",
+        "text_context"
+      ]
+    },
+    "label_context": {
+      "type": "Text",
+      "props": {
+        "text": "Context:",
+        "variant": "caption"
+      }
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "Aligns with documented 'bearish equities into Oct' conviction (Aug 22). Related to prior NVDA/relief rally positioning (Aug 26 16:23Z).",
+        "variant": "body"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2092663263863734463"
+      }
+    }
+  }
+}
