@@ -1,42 +1,43 @@
-*Token Movers — 2026-08-25*
+*Token Movers — 2026-08-26*
 
-_Mild risk-off at the edges — BTC +1.2% with 7d momentum intact, but ~65% of top-100 non-stables are red 24h; median top-50 move ~-0.4%, DeFi tokens pulling back hardest._
+_Risk-off reversal — BTC retracing from the $80K VWAP zone; ~85% of non-stable top-100 assets red 24h, median ~−3.5%; the tape is digesting this week's rally across the board._
 
 *Top Winners (24h)*
-1. BTW (Bitway) — $0.4477  +8.7% / 7d +21.3% / 1h -2.9%  •  $16.5M / #68
-2. INJ (Injective) — $5.90  +8.0% / 7d +45.4% / 1h +0.5%  •  $198M / #98
-3. POL (POL ex-MATIC) — $0.1234  +6.0% / 7d +52.7% / 1h +2.5%  •  $141M / #63
-4. XMR (Monero) — $444.7  +5.3% / 7d +8.6% / 1h -0.6%  •  $136M / #18  [TRENDING+UP][MAJOR]
-5. M (MemeCore) — $1.17  +4.2% / 7d +4.8% / 1h +0.8%  •  $4.4M / #38
-6. JUP (Jupiter) — $0.2175  +4.0% / 7d +30.6% / 1h -1.4%  •  $69.2M / #87
-7. SOL (Solana) — $98.68  +3.3% / 7d +30.1% / 1h -1.0%  •  $7.31B / #7  [TRENDING+UP]
-8. RAIN (Rain) — $0.01454  +3.3% / 7d +11.1% / 1h -0.1%  •  $45.5M / #13
-9. ASTER (Aster) — $0.6993  +1.8% / 7d +16.5% / 1h +0.2%  •  $149M / #47
-10. VVV (Venice Token) — $17.10  +1.3% / 7d +17.7% / 1h -0.3%  •  $28.4M / #83
+1. RAIN (Rain) — $0.01765  +20.1% / 7d +35.2% / 1h −0.3%  •  $40.7M / #13  [BREAKOUT]
+2. SPX (SPX6900) — $0.5335  +6.9% / 7d +66.6% / 1h −1.0%  •  $26.4M / #106
+3. M (MemeCore) — $1.17  +2.5% / 7d +12.7% / 1h −1.1%  •  $3.9M / #39
+4. WLFI — $0.05877  +1.9% / 7d −2.1% / 1h 0.0%  •  $53.0M / #49
+5. VVV (Venice Token) — $17.29  +1.6% / 7d +25.5% / 1h −0.4%  •  $34.9M / #81
+6. ASTER — $0.7027  +1.2% / 7d +16.6% / 1h −0.4%  •  $128M / #48
+7. HYPE (Hyperliquid) — $82.25  +1.2% / 7d +40.9% / 1h −0.5%  •  $1.04B / #10  [MAJOR]
+8. PUMP (Pump.fun) — $0.004896  +0.8% / 7d +64.7% / 1h +0.8%  •  $272.6M / #47
+9. POL (ex-MATIC) — $0.1215  +0.6% / 7d +47.4% / 1h −0.4%  •  $163.9M / #64
+10. ATOM (Cosmos) — $1.54  +0.3% / 7d +9.1% / 1h +0.3%  •  $42.0M / #83
 
 *Top Losers (24h)*
-1. ENA (Ethena) — $0.1478  -8.1% / 7d +77.9% / 1h -2.3%  •  $658M / #58  [TRENDING+DOWN][CAPITULATION]
-2. AAVE (Aave) — $128.21  -5.9% / 7d +44.1% / 1h -0.5%  •  $419M / #46
-3. ETHFI (Ether.fi) — $0.6010  -5.3% / 7d +22.4% / 1h -1.3%  •  $87.3M / #93
-4. MORPHO (Morpho) — $2.65  -5.2% / 7d +23.9% / 1h 0.0%  •  $52.8M / #51  [TRENDING+DOWN]
-5. TRUMP (Official Trump) — $2.38  -5.0% / 7d +69.4% / 1h -0.6%  •  $414M / #96
-6. PUMP (Pump.fun) — $0.004738  -5.0% / 7d +70.3% / 1h -0.8%  •  $278M / #48  [TRENDING+DOWN]
-7. CC (Canton) — $0.1207  -4.9% / 7d +32.6% / 1h -1.1%  •  $18.3M / #22  [TRENDING+DOWN]
-8. FLR (Flare) — $0.006743  -4.5% / 7d +14.5% / 1h -0.7%  •  $4.1M / #99
-9. ARB (Arbitrum) — $0.09491  -4.2% / 7d +26.1% / 1h -0.9%  •  $80.9M / #92
-10. LTC (Litecoin) — $51.04  -3.4% / 7d +15.0% / 1h -0.6%  •  $371M / #27
+1. BTW (Bitway) — $0.3992  −13.1% / 7d −27.7% / 1h +0.9%  •  $22.7M / #69
+2. DASH — $38.72  −10.7% / 7d +10.3% / 1h −0.3%  •  $93.1M / #107
+3. KAS (Kaspa) — $0.02753  −8.8% / 7d +8.0% / 1h −1.2%  •  $16.3M / #85
+4. PEPE — $0.00000383  −8.1% / 7d +47.6% / 1h −0.4%  •  $349.6M / #54
+5. ZEC (Zcash) — $791.8  −8.0% / 7d +56.6% / 1h −0.4%  •  $1.17B / #12  [MAJOR][TRENDING+DOWN]
+6. XDC (XDC Network) — $0.02839  −7.6% / 7d +6.4% / 1h +0.9%  •  $5.9M / #98
+7. INJ (Injective) — $5.54  −7.0% / 7d +33.3% / 1h +0.4%  •  $110.3M / #100
+8. TRUMP — $2.31  −6.9% / 7d +63.1% / 1h +1.3%  •  $346.6M / #96
+9. XLM (Stellar) — $0.1835  −6.7% / 7d +17.4% / 1h −0.3%  •  $212.5M / #20  [MAJOR]
+10. SUI — $0.7666  −6.6% / 7d +16.9% / 1h 0.0%  •  $540.3M / #32
 
 *Trending*
-1. PONS (Pons) — #363, $0.09261, 24h +42.6%  [PUMP-RISK]
-2. PEAQ (peaq) — #429, $0.02174, 24h +12.5%
-3. BTC (Bitcoin) — #1, $79,078, 24h +1.2%  [MAJOR]
-4. SOL (Solana) — #7, $98.59, 24h +3.1%  [TRENDING+UP]
-5. ZANO (Zano) — #219, $8.42, 24h -4.0%
-6. PUMP (Pump.fun) — #47, $0.004752, 24h -4.5%  [TRENDING+DOWN]
-7. CASHCAT (Cash Cat) — #175, $0.1951, 24h +25.2%
+1. PONS — #296, $0.1199, +34.1%  [PUMP-RISK]
+2. BTR (Bitlayer) — #764, $0.08474, +183%  [PUMP-RISK]
+3. CASHCAT (Cash Cat) — #165, $0.2069, −8.8%  [TRENDING+DOWN]
+4. DOG (Bitcoin) — #232, $0.001199, −8.9%  [TRENDING+DOWN]
+5. SOL — #7, $96.87, −4.6%  [MAJOR]
+6. ZEC — #12, $787.5, −8.0%  [MAJOR][TRENDING+DOWN]
+7. HYPE — #10, $81.88, +1.2%  [MAJOR]
 
 *Notable*
-• ENA [CAPITULATION]: 7d +77.9% leader giving back 1d hard; $658M vol (0.45× mcap), trending — flush or distribution watch
-• PONS [PUMP-RISK]: rank 363 trending +42.6% — low-cap spike, manipulation likely
-• XMR [TRENDING+UP]: rank-18 major leading trending searches + +5.3% 24h — unusual privacy-coin demand signal
-• INJ: 7d +45.4% with fresh +8% 24h — sustained, not a flash pump; no BREAKOUT tag yet (24h below 15% threshold)
+• RAIN [BREAKOUT]: rank-13 large-cap +20.1% / 7d +35.2% — sustained across timeframes, real signal not a flash spike
+• BTR [PUMP-RISK]: rank-764 Bitlayer +183% in trending — extremely thin liquidity, very high manipulation risk
+• PONS [PUMP-RISK]: rank-296 day-2 in trending at +34.1% again — ongoing low-cap squeeze, avoid chasing
+• BTW: reversed −13.1% / 7d −27.7% after yesterday's +8.7% — the breakout has failed, distribution in progress
+• ZEC [MAJOR][TRENDING+DOWN]: rank-12 giving back −8.0% while still in trending — profit-taking after 7d +56.6% run
