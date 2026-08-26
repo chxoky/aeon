@@ -1,13 +1,11 @@
-Excellent. Skill execution complete. Here's the summary:
+🚨 *Trade Signal — @swarmister*
 
-## Summary
+$NVDA — **LONG** — *Market order*
+Entry ~220.01 (perp on Hyperliquid, 1h timeframe)
 
-**Event:** Tweet from @swarmister at 2026-08-26T22:14:08Z
-- **Tweet ID:** 2092737383988859300  
-- **Text:** "My dog https://t.co/vPsPJ6kuoh"
-- **Media:** 2 dog photo images
+"Bought NVDA https://t.co/z6OfmgDPMV"
 
-**Classification:** **SKIP** (Step 4A — Non-financial personal content)
+[View post](https://x.com/swarmister/status/2092738093572878375)
 
 **Actions taken:**
 1. ✅ Decoded and validated event payload
@@ -49,3 +47,4 @@ This post is bare inter-trader banter with zero financial signal. It matches swa
 - ❌ None (non-financial, no approval required, no informational value)
 
 The skill completed successfully. No further action needed.
+Reply `approve NVDA` to mirror this on Kraken (spot), or ignore to skip.

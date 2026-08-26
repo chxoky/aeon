@@ -924,6 +924,23 @@
 
 ## swarmister
 
+### NVDA (Nvidia) — LONG (new entry 2026-08-26, PENDING APPROVAL)
+- **Entry**: 2026-08-26T22:16:57Z (X post, tweet_id=2092738093572878375)
+- **Entry message**: "@based16z Bought NVDA https://t.co/z6OfmgDPMV"
+- **Entry type**: Market order (filled on Hyperliquid perp)
+- **Entry level**: ~$220.01 (based on 1h chart showing key levels; exact fill price TBD)
+- **Platform**: Hyperliquid perp (1h timeframe)
+- **Position size**: Unspecified (awaiting Kyle approval for mirror sizing)
+- **Entry context**: Chart shows NVDA/USD with key resistance/support levels: 230.00, 220.01, 210.00, 207.50, 207.23, 200.00. PNL $4 on entry suggests very recent fill. Entry appears to be at ~220.01 based on chart level marking.
+- **Status**: PENDING APPROVAL — awaiting Kyle response (`approve NVDA` to mirror on Kraken spot), or ignore to skip
+- **Trade alert format**: Step 5a (new entry requiring approval)
+- **Chart analysis**: 1h NVDA/USD perp showing consolidation structure with volume SMA indicator. Entry at key level (220.01) with clear support/resistance zones marked.
+- **Thesis**: Bullish NVDA long entry into consolidation zone. New ticker for swarmister (prior focus on BTC/ETH/crypto, rare equities positions).
+- **Risk**: Chart shows downside support at 207.23, 200.00 zones if entry breaks
+- **Mirror instructions**: Upon Kyle approval, mirror $NVDA LONG position on Kraken spot at ~$220 entry (size to be specified by Kyle via `approve NVDA <size_or_percentage>` reply)
+- **Alerted**: YES (2026-08-26T22:16:57Z, x-trader-monitor real-time event, trade signal alert sent via ./notify)
+- **Last update**: 2026-08-26T22:16:57Z (new entry, X post tweet_id=2092738093572878375, x-trader-monitor real-time)
+
 ### SPCX — LONG (new entry 2026-07-29, PENDING APPROVAL)
 - **Entry**: 2026-07-29T14:31:48Z (X post, tweet_id=2082474174895804542)
 - **Entry message**: "ZOOOP? Great job, guys. We wiped out everyone who bought at the top. Maybe this is the bottom. I bought 2/3 of a large position in $SPCX on the spot."

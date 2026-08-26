@@ -1,0 +1,133 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "🚨 Trade Signal",
+        "description": "@swarmister"
+      },
+      "children": [
+        "heading-asset",
+        "stack-badges",
+        "stat-entry",
+        "text-details",
+        "separator1",
+        "quote-section",
+        "separator2",
+        "alert-action"
+      ]
+    },
+    "heading-asset": {
+      "type": "Heading",
+      "props": {
+        "text": "$NVDA",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-long",
+        "badge-order"
+      ]
+    },
+    "badge-long": {
+      "type": "Badge",
+      "props": {
+        "text": "LONG",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge-order": {
+      "type": "Badge",
+      "props": {
+        "text": "Market order",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "stat-entry": {
+      "type": "Stat",
+      "props": {
+        "label": "Entry",
+        "value": "~220.01"
+      },
+      "children": []
+    },
+    "text-details": {
+      "type": "Text",
+      "props": {
+        "text": "Perp on Hyperliquid, 1h timeframe",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "quote-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-quote",
+        "link-tweet",
+        "link-view"
+      ]
+    },
+    "text-quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"Bought NVDA\"",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "Tweet",
+        "href": "https://t.co/z6OfmgDPMV"
+      },
+      "children": []
+    },
+    "link-view": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/swarmister/status/2092738093572878375"
+      },
+      "children": []
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert-action": {
+      "type": "Alert",
+      "props": {
+        "title": "Action Required",
+        "message": "Reply `approve NVDA` to mirror this on Kraken (spot), or ignore to skip.",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}
