@@ -1,0 +1,74 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration — @Stoiiic"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-calibration",
+        "event-text",
+        "separator-1",
+        "tweet-card",
+        "alert-classify",
+        "link-post"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Stoiiic",
+        "level": "h2"
+      }
+    },
+    "event-text": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @lazyvillager1 @pierre_crypt0",
+        "variant": "lead"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "Stoiiic",
+        "text": "interesting spot?"
+      }
+    },
+    "alert-classify": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What are they discussing? (Asset, trade idea, technical level, or general banter?)",
+        "type": "warning"
+      }
+    },
+    "link-post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Stoiiic/status/2092448161491234889"
+      }
+    }
+  }
+}
