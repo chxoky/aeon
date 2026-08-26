@@ -1,0 +1,73 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor",
+        "description": "Trading analysis from @Wild_Randomness"
+      },
+      "children": [
+        "badge-nvda",
+        "tweet-card",
+        "link-view",
+        "separator",
+        "context-section"
+      ]
+    },
+    "badge-nvda": {
+      "type": "Badge",
+      "props": {
+        "text": "NVDA",
+        "variant": "default"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "The most contrarian trade in the market right now is NVDA sustainably rallies over the next 48 hours following earnings.\n\nI'm not even talking about pricing / implies as Kenny G is obviously going to eat— just open your TradingView app and you'll see that NVDA bulls get rinsed 7 of the past 8 earnings releases.\n\nI took profits on my short at 209 a few days ago, so I'm flat on this."
+      }
+    },
+    "link-view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2092655142697156982"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-context",
+        "text-context"
+      ]
+    },
+    "heading-context": {
+      "type": "Heading",
+      "props": {
+        "text": "Technical Context",
+        "level": "h3"
+      }
+    },
+    "text-context": {
+      "type": "Text",
+      "props": {
+        "text": "1D consolidation 210-230 range with support at 200/190; trader's earnings reaction bearish (7 of 8 post-earnings selloffs historically). Not a current position.",
+        "variant": "body"
+      }
+    }
+  }
+}
