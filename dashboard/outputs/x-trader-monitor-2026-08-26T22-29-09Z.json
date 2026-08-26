@@ -1,0 +1,94 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading",
+        "separator1",
+        "context",
+        "separator2",
+        "tweet_card",
+        "separator3",
+        "question_stack"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration — @Stoiiic",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "context": {
+      "type": "Text",
+      "props": {
+        "text": "Context: Reply to @chief_xbt",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "Stoiiic",
+        "text": "@chief_xbt btc"
+      },
+      "children": []
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "question_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "q_header",
+        "q_options"
+      ]
+    },
+    "q_header": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "q_options": {
+      "type": "Text",
+      "props": {
+        "text": "Confirming BTC thesis, technical signal, or acknowledgment of external event?",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
