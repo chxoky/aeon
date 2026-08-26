@@ -1,0 +1,74 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "SPCX — Technical unlock pattern thesis validation"
+      },
+      "children": [
+        "tweet-card",
+        "separator-1",
+        "details-section"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "$SPCX — Technical unlock pattern thesis validation\n\n4 charts showing:\n• Price consolidation structure ($135-140 support zone)\n• Unlock timeline: Musk's 46.1% stake eligible Day 366\n• Progressive unlock tranches through Sep 2027\n• V-shaped recovery from 2026 lows validating technical structure\n\n\"Theory working\" = Prior unlock analysis framework confirmed by current price action. Continuation of Aug 06/Aug 21 SPCX macro positioning."
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "details-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "post-link",
+        "context-block"
+      ]
+    },
+    "post-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2092691113857712382",
+        "source": "X"
+      }
+    },
+    "context-block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context-heading",
+        "context-text"
+      ]
+    },
+    "context-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "context-text": {
+      "type": "Text",
+      "props": {
+        "text": "SPCX contested positioning (HCH net-long spot + hedge short; swarmister bullish long pending Kyle approval; Crypto_Chase bearish; WR technical framework)."
+      }
+    }
+  }
+}
