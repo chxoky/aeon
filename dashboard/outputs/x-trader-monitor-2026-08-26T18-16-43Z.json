@@ -1,0 +1,133 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "badge",
+        "tweet_card",
+        "separator",
+        "details_stack"
+      ]
+    },
+    "badge": {
+      "type": "Badge",
+      "props": {
+        "text": "NFT Launch",
+        "variant": "secondary"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "Argonauts — Major early success signal observed\n\n683 ETH volume in 5h, +75% above mint price. Top sales 10, 9.69, 6.5 ETH. Rarity premiums active (offer 8 ETH for rare alien trait). Unseen volume dynamics for current environment. bull_genius got in at ground floor; positive conviction on launch trajectory."
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "details_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "metrics_grid",
+        "link"
+      ]
+    },
+    "metrics_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "volume_stat",
+        "price_stat",
+        "top_sales",
+        "rarity"
+      ]
+    },
+    "volume_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume (5h)",
+        "value": "683 ETH"
+      }
+    },
+    "price_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Above mint price",
+        "value": "+75%",
+        "trend": "up"
+      }
+    },
+    "top_sales": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "top_sales_heading",
+        "top_sales_text"
+      ]
+    },
+    "top_sales_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Sales",
+        "level": "h4"
+      }
+    },
+    "top_sales_text": {
+      "type": "Text",
+      "props": {
+        "text": "10 ETH, 9.69 ETH, 6.5 ETH"
+      }
+    },
+    "rarity": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "rarity_heading",
+        "rarity_text"
+      ]
+    },
+    "rarity_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Rarity Premiums",
+        "level": "h4"
+      }
+    },
+    "rarity_text": {
+      "type": "Text",
+      "props": {
+        "text": "8 ETH offered for rare alien trait"
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/bull_genius/status/2092674525284421680"
+      }
+    }
+  }
+}
