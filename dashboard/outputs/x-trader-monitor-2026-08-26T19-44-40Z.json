@@ -1,0 +1,78 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "sep1",
+        "metrics_header",
+        "metrics_table",
+        "link_view"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "If the alt doesn't look like this best to assume any bout of outperformance is short-lived\n\nPattern Shown: 3 consolidated breakout structures (HYPE/TOTAL 0.78, ZEC/TOTAL 5.04, LIT/USD/TOTAL 0.0013) — all showing consolidation breakouts with momentum confirmation. Thesis: these patterns = REAL altseason strength vs. transient noise.\n\nAligns with bullish alts outlook + ZEC core conviction."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "metrics_header": {
+      "type": "Heading",
+      "props": {
+        "text": "Identified Pairs",
+        "level": "h3"
+      }
+    },
+    "metrics_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Pair",
+          "Ratio"
+        ],
+        "rows": [
+          [
+            "HYPE/TOTAL",
+            "0.78"
+          ],
+          [
+            "ZEC/TOTAL",
+            "5.04"
+          ],
+          [
+            "LIT/USD/TOTAL",
+            "0.0013"
+          ]
+        ]
+      }
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2092698832446640272"
+      }
+    }
+  }
+}

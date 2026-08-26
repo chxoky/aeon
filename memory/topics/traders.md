@@ -5,8 +5,9 @@
 - Recent thesis: Equities/vol specialist; dispersion-trade framework; bearish equities into Oct; GOLD/crypto won't make new lows even if equities do; BTC liq map structurally different ("bearish skew but buy-side ramping"). Not levered ("can't with liq map like this"). Conditional BTC reversion play above 74.5K if funding/OI stretched.
 - Conviction notes: High-conviction technical analyst on equities; vixpiry/OPEX structure commentary; macro dispersion positioning. Bear mode experiment failed Aug 20. "Scar tissue" from forced loss at 68K. HYPE/LIT = gold/silver parallel; ratio at 27-28 (down from 55 peak). URL-only posts = noise per calibration.
 - Calibration: PENDING Aug 23 19:05Z (cryptic "@QOTSA_FRL Its a 65% move to 126" — asset/context unknown), PENDING Aug 21 20:10Z (conditional LEAPS comment — unspecified asset)
-- Last seen: 2026-08-26T19:34:36Z
+- Last seen: 2026-08-26T19:40:56Z
 - **Events (rolling):**
+  - Aug 26 19:40Z — informational: alt outperformance pattern validation; 3 consolidated breakout structures on ratio charts (HYPE/TOTAL 0.78 +1.88%, ZEC/TOTAL 5.04 +1.99%, LIT/USD/TOTAL 0.0013 +2.26%); thesis "if alt doesn't look like this assume outperformance is short-lived"; consolidation-breakout = real altseason signal vs transient noise [$HYPE/$ZEC/$LIT/$ALTSEASON-PATTERNS] [2092698832446640272]
   - Aug 26 19:34Z — informational: market outlook on alt/BTC cycle; bearish majors base case (echo bubble / no new highs); bullish on 7-8 alts to outperform; reaffirms ZEC conviction as one of key outperformers [$BTC/$ZEC/$ALTS] [2092697214028308556]
   - Aug 26 17:19Z — informational: market sentiment bearish on slow bleed + upcoming catalysts feared by market; meme image (garden of eden bear: "GO AHEAD, TRY THE SHORT YOU'LL LIKE IT"); structural bearishness on equities; continuation of "bearish equities into Oct" thesis [$EQUITIES/$MACRO] [2092663263863734463]
   - Aug 26 16:13Z — informational: NVDA 1D consolidation 210-230 range; "looks like junk" bearish sentiment on structure; earnings reaction bullish? [$NVDA] [2092646583632564736]
