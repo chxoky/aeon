@@ -1,7 +1,1 @@
-🔍 *Calibration — @Wild_Randomness*
-
-Event: NVDA earnings crash (AH); WR closed prior short at 209 earlier
-
-Wild_Randomness: "Filled" (chart shows NVDA 204, -5.66 AH)
-
-Re-entry short or just commentary?
+🐦 *[X] @Wild_Randomness*\n\nNVDA/SMH ratio breakdown to 0.3792 (-1.07%); NVDA underperforming semis. Multiple support levels breached from 0.60 consolidation range. Aligns with prior bearish NVDA sentiment.\n\n[View post](https://x.com/Wild_Randomness/status/2092712792692502853)
