@@ -88,6 +88,7 @@
   - Aug 26 19:52Z — trade-new-entry: $WMT March 2027 $115 calls; filled @ ~105 support; target 115 by EOY; stop <$100 weekly close [2092701767528267854]
   - Aug 26 20:00Z — informational: NVDA/SMH ratio 0.3792 (-42% from Jul peak 0.65); chart-only "What if?" post; continuation of bearish NVDA underperformance thesis [$NVDA-UNDERPERFORMANCE] [2092703682970480968]
   - Aug 26 20:25Z — ambiguous: NVDA crash chart "Filled" (-2.70% AH); closed short 209 at 16:47Z; re-entry short or market sentiment? calibration sent [$NVDA] [2092709971440144488]
+  - Aug 26 21:06Z — informational: NVDA intraday earnings volatility 1m chart; sharp selloff $211.50→$203.50 then recovery to $216.33 (current $215.86); market action commentary [$NVDA] [2092720352019558821]
 
 ## Bitcoin_Astro
 
