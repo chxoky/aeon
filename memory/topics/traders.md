@@ -5,7 +5,7 @@
 - Recent thesis: Equities/vol specialist; dispersion-trade framework; bearish equities into Oct; GOLD/crypto won't make new lows even if equities do; BTC liq map structurally different ("bearish skew but buy-side ramping"). Not levered ("can't with liq map like this"). Conditional BTC reversion play above 74.5K if funding/OI stretched.
 - Conviction notes: High-conviction technical analyst on equities; vixpiry/OPEX structure commentary; macro dispersion positioning. Bear mode experiment failed Aug 20. "Scar tissue" from forced loss at 68K. HYPE/LIT = gold/silver parallel; ratio at 27-28 (down from 55 peak). URL-only posts = noise per calibration.
 - Calibration: PENDING Aug 23 19:05Z (cryptic "@QOTSA_FRL Its a 65% move to 126" — asset/context unknown), PENDING Aug 21 20:10Z (conditional LEAPS comment — unspecified asset)
-- Last seen: 2026-08-26T21:19:56Z
+- Last seen: 2026-08-26T21:26:12Z
 - **Events (rolling):**
   - Aug 26 20:36Z — informational: NVDA/SMH ratio breakdown 0.38; relative weakness signal [$NVDA/$SMH] [2092712792692502853]
   - Aug 26 19:57Z — informational: bullish divergence technical signal (5min timeframe); bears fkd sentiment; chart unavailable [UNSPECIFIED] [20927030233071005688]
@@ -90,6 +90,7 @@
   - Aug 26 20:25Z — ambiguous: NVDA crash chart "Filled" (-2.70% AH); closed short 209 at 16:47Z; re-entry short or market sentiment? calibration sent [$NVDA] [2092709971440144488]
   - Aug 26 21:06Z — informational: NVDA intraday earnings volatility 1m chart; sharp selloff $211.50→$203.50 then recovery to $216.33 (current $215.86); market action commentary [$NVDA] [2092720352019558821]
   - Aug 26 21:19Z — informational: NVDA earnings dominance sentiment; dual 1D charts $225.33→$214.80 in 2.5hrs whipsaw; "everything else is just waste of time" [$NVDA] [2092723745177911341]
+  - Aug 26 21:26Z — informational: QQQ consolidation setup validation; "It's working" confirms prior ATH retest technical structure; meme celebration post (Frodo smoking pipe) [$QQQ] [2092725322655682833]
 
 ## Bitcoin_Astro
 
