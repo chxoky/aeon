@@ -1,0 +1,40 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "💬 Discord Trader Monitor"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "metadata",
+        "message"
+      ]
+    },
+    "metadata": {
+      "type": "Badge",
+      "props": {
+        "text": "DC: Chase — Crypto",
+        "variant": "secondary"
+      }
+    },
+    "message": {
+      "type": "Text",
+      "props": {
+        "text": "especially anytime soon, you wont see those prices for months at best if this is a healthy breakout",
+        "variant": "body"
+      }
+    }
+  }
+}
