@@ -1,22 +1,24 @@
-*Morning Brief — 2026-08-25*
+*Morning Brief — 2026-08-26*
 
 *Focus today*
-1. BTC at VWAP resistance ($80K-$82.4K) — why now: KillaXBT short filled at $80.5K; Stoiiic conditional short at 365d VWAP; Jackson Hole T-2 determines extension vs retest
-2. Jackson Hole T-2 days — why now: Warsh Aug 28 keynote; Fed hike probability at 33.5% (up 4pp); repricing into weekend
-3. Stoiiic leverage-breadth: 8 days remaining — why now: BTC now inside predicted resistance zone; median −11.3% target ~$68K by ~Sep 7
+1. NVDA earnings + PCE today — why now: both resolve the NVDA/rate-cut binary before Jackson Hole begins tomorrow
+2. Jackson Hole T-1 (Warsh Aug 28) — why now: zero prior guidance, Fed hike 33.5% tail; BTC rejected $80K again
+3. Strait of Hormuz / Iranian blockade — why now: #1 Polymarket market by volume ($890K 24h); new geopolitical risk not priced in
 
 *Since yesterday*
-- BTC: $79K → $80,527 [milestone hit]; KillaXBT scalp short #2 filled at $80.5K + 82K DCA order in place
-- SOL: $96 → $100.66 [crossed $100; trending #2 on CoinGecko]
-- Stoiiic: 3 posts on VWAP resistance ($80K/$82.4K); conditional short language (not executed); bull_genius counters with "lockout pump" thesis
-- CLARITY Act YES: 17.5% → 18.5% (+1pp, $1.94M Polymarket vol)
-- HYPE: $80.44 → $80.67; ATH $82.43 gap narrowing; HCH short ~35% underwater
+- BTC: $80K rejection holds → $78,983 (-2.1%); KillaXBT short #2 live ($80.5K filled), next limit 83.3K
+- SOL broke $97: -4.4% (was sole top-cap green yesterday); $95 next level to watch
+- ZEC [CAPITULATION]: -7.5% at $850 resistance WR flagged; privacy arc fading→dead
+- HYPE: +0.89% near ATH ($82.35 vs $83.27 ATH); HCH short grinding deeper underwater
+- F&G: 74 → 65 (-9pts); bull_genius took partial TP on BTC/ETH at open
+- Strait of Hormuz: new geopolitical wildcard topping Polymarket — not in any prior model
 
 *Watch*
-- Jackson Hole Aug 27-29 binary — hawkish Warsh = validates KillaXBT $73K-$76K retracement; dovish = $84K-$90K extension
+- NVDA AH tonight: beat → AI agents/compute tokens risk-on; miss → deleveraging into Jackson Hole T-0 (Stoiiic $68K scenario activated)
+- PCE (today): below-consensus = rate-cut support = BTC relief bid; above = confirms hawkish JH
 
 *Running today*
-- token-alert @ 12:00 UTC
-- token-movers @ 12:00 UTC
-- market-context-refresh @ 13:00 UTC
-- narrative-tracker @ 13:30 UTC
+- narrative-tracker @ 14:00 UTC
+- skill-health @ 18:00 UTC
+- heartbeat @ 20:30 UTC
+- x-trader-monitor + discord-trader-monitor: continuous
