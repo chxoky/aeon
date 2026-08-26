@@ -1,11 +1,15 @@
-🔍 *Calibration — @swarmister*
+🐦 *[X] @KillaXBT*
 
-Event: Tweet reply
+If $BTC accepts above the $83K range, the trend has significantly shifted from a TA perspective.
 
-Post: "@0xVKTR Nfa dyor*"
+Right now, technically speaking, the trend has not shifted yet because we haven't reclaimed and flipped the $83K high on the weekly.
 
-Cryptic bare reply — unable to determine context or intent without @0xVKTR's original message. "Nfa dyor" reads as "Not Financial Advice, Do Your Own Research" but unclear what's being referenced.
+I'm ~80% confident the bottom is already in, but if we're looking strictly at technical confirmation, 83K is the level that needs to break and hold for a meaningful trend shift.
 
-Unable to classify — what's your read?
+This analysis is based on the HTF structure.
 
-[View post](https://x.com/swarmister/status/2092578597298917813)
+So when we do reclaim 83K, be careful about blindly shorting the move higher. There's a very real possibility that doing so gets you squeezed aggressively into the mid-90Ks.
+
+I expect some chop for now, but keep this in mind.
+
+[View tweet](https://x.com/KillaXBT/status/2092584846162071860)

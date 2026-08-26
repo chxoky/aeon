@@ -1,0 +1,41 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet",
+        "separator",
+        "link"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "If $BTC accepts above the $83K range, the trend has significantly shifted from a TA perspective.\n\nRight now, technically speaking, the trend has not shifted yet because we haven't reclaimed and flipped the $83K high on the weekly.\n\nI'm ~80% confident the bottom is already in, but if we're looking strictly at technical confirmation, 83K is the level that needs to break and hold for a meaningful trend shift.\n\nThis analysis is based on the HTF structure.\n\nSo when we do reclaim 83K, be careful about blindly shorting the move higher. There's a very real possibility that doing so gets you squeezed aggressively into the mid-90Ks.\n\nI expect some chop for now, but keep this in mind."
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2092584846162071860"
+      },
+      "children": []
+    }
+  }
+}
