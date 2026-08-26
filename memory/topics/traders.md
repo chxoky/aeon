@@ -5,10 +5,10 @@
 - Recent thesis: Equities/vol specialist; dispersion-trade framework; bearish equities into Oct; GOLD/crypto won't make new lows even if equities do; BTC liq map structurally different ("bearish skew but buy-side ramping"). Not levered ("can't with liq map like this"). Conditional BTC reversion play above 74.5K if funding/OI stretched.
 - Conviction notes: High-conviction technical analyst on equities; vixpiry/OPEX structure commentary; macro dispersion positioning. Bear mode experiment failed Aug 20. "Scar tissue" from forced loss at 68K. HYPE/LIT = gold/silver parallel; ratio at 27-28 (down from 55 peak). URL-only posts = noise per calibration.
 - Calibration: PENDING Aug 23 19:05Z (cryptic "@QOTSA_FRL Its a 65% move to 126" — asset/context unknown), PENDING Aug 21 20:10Z (conditional LEAPS comment — unspecified asset)
-- Last seen: 2026-08-26T16:11:51Z
-- Last seen: 2026-08-26T16:13:19Z
+- Last seen: 2026-08-26T17:09:03Z
 - **Events (rolling):**
   - Aug 26 16:13Z — informational: NVDA 1D consolidation 210-230 range; "looks like junk" bearish sentiment on structure; earnings reaction bullish? [$NVDA] [2092646583632564736]
+  - Aug 26 17:09Z — skip: reply banter "@metaworldpeacea Seems absolutely crazy hey"; non-financial personal commentary [2092660609917890959]
   - Aug 26 16:49Z — informational: NVDA short closed 209 (chart follow-up); technical rationale: consolidation structure at key support; "overtrading" self-awareness commentary [$NVDA] [2092655598752112652]
   - Aug 26 16:47Z — informational: NVDA earnings bearish history 7/8 post-TP selloffs; closed prior short at 209, flat now; contrarian short-squeeze thesis [$NVDA] [2092655142697156982]
   - Aug 26 16:23Z — informational: Equity bearishness tempered by 3-4 week risk; relief rally expected (NVDA/Jackson Hole catalyst); November puts; prefers selling into rally vs chase [$EQUITIES/$NVDA/$MACRO] [2092649077171536151]
