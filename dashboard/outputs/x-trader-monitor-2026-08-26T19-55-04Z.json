@@ -1,0 +1,66 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading",
+        "sep1",
+        "event-text",
+        "sep2",
+        "tweet",
+        "sep3",
+        "analysis"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @bull_genius",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "event-text": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @Xccvrid",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "text": "theyll look better at 1 eth"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "analysis": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "This appears to be a cryptic price-level or technical commentary, but the asset context is unclear without the original message.",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}
