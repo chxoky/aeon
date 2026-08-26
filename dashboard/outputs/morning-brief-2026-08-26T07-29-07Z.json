@@ -1,0 +1,352 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-08-26"
+      },
+      "children": [
+        "focus-section",
+        "separator-1",
+        "yesterday-section",
+        "separator-2",
+        "watch-section",
+        "separator-3",
+        "running-section"
+      ]
+    },
+    "focus-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus-heading",
+        "focus-1",
+        "focus-2",
+        "focus-3"
+      ]
+    },
+    "focus-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "focus-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-1-title",
+        "focus-1-detail"
+      ]
+    },
+    "focus-1-title": {
+      "type": "Text",
+      "props": {
+        "text": "NVDA earnings tonight AH",
+        "variant": "lead"
+      }
+    },
+    "focus-1-detail": {
+      "type": "Text",
+      "props": {
+        "text": "$92.2B / $2.09 expected; miss = deleveraging into Jackson Hole T-1",
+        "variant": "body"
+      }
+    },
+    "focus-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-2-title",
+        "focus-2-detail"
+      ]
+    },
+    "focus-2-title": {
+      "type": "Text",
+      "props": {
+        "text": "BTC $78.9K",
+        "variant": "lead"
+      }
+    },
+    "focus-2-detail": {
+      "type": "Text",
+      "props": {
+        "text": "$80K rejected hard; KillaXBT short live and green; bull_genius 75-76K floor next test",
+        "variant": "body"
+      }
+    },
+    "focus-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-3-title",
+        "focus-3-detail"
+      ]
+    },
+    "focus-3-title": {
+      "type": "Text",
+      "props": {
+        "text": "Jackson Hole T-2",
+        "variant": "lead"
+      }
+    },
+    "focus-3-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Warsh debuts Friday; \"Financial Innovation\" theme = direct stablecoin/crypto framing",
+        "variant": "body"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "yesterday-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "yesterday-heading",
+        "yesterday-1",
+        "yesterday-2",
+        "yesterday-3",
+        "yesterday-4",
+        "yesterday-5"
+      ]
+    },
+    "yesterday-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "yesterday-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday-1-badge",
+        "yesterday-1-text"
+      ]
+    },
+    "yesterday-1-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "rejected",
+        "variant": "destructive"
+      }
+    },
+    "yesterday-1-text": {
+      "type": "Text",
+      "props": {
+        "text": "BTC reversed $80.5K → $78.9K; F&G 74 → 65; breadth 18/20 → 5/20 — VWAP resistance held",
+        "variant": "body"
+      }
+    },
+    "yesterday-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday-2-badge",
+        "yesterday-2-text"
+      ]
+    },
+    "yesterday-2-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "live",
+        "variant": "default"
+      }
+    },
+    "yesterday-2-text": {
+      "type": "Text",
+      "props": {
+        "text": "KillaXBT 80.5K scalp short in profit; 83.3K next limit set; re-accumulation 76-84K thesis active",
+        "variant": "body"
+      }
+    },
+    "yesterday-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday-3-badge",
+        "yesterday-3-text"
+      ]
+    },
+    "yesterday-3-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "cleared",
+        "variant": "secondary"
+      }
+    },
+    "yesterday-3-text": {
+      "type": "Text",
+      "props": {
+        "text": "Wild_Randomness took NVDA TP (13:53Z Aug 25) — clear-handed into tonight's binary",
+        "variant": "body"
+      }
+    },
+    "yesterday-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday-4-badge",
+        "yesterday-4-text"
+      ]
+    },
+    "yesterday-4-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "done",
+        "variant": "secondary"
+      }
+    },
+    "yesterday-4-text": {
+      "type": "Text",
+      "props": {
+        "text": "swarmister 50% BNB/SHIB closed at 3R; remaining half stopped at break-even",
+        "variant": "body"
+      }
+    },
+    "yesterday-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday-5-badge",
+        "yesterday-5-text"
+      ]
+    },
+    "yesterday-5-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "ambiguous",
+        "variant": "outline"
+      }
+    },
+    "yesterday-5-text": {
+      "type": "Text",
+      "props": {
+        "text": "trading_axe \"return in a week\" — calibration alert sent; possible setup brewing",
+        "variant": "body"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "watch-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "watch-heading",
+        "watch-alert"
+      ]
+    },
+    "watch-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "watch-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Jackson Hole 2026 theme",
+        "message": "\"Financial Innovation: Implications for Payments and Policy\" — Warsh framing Friday could directly shift stablecoin/digital asset regulatory tone (→ Focus #3)",
+        "type": "info"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "running-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "running-heading",
+        "running-table"
+      ]
+    },
+    "running-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "running-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Task",
+          "Time"
+        ],
+        "rows": [
+          [
+            "token-alert",
+            "12:00 UTC"
+          ],
+          [
+            "token-movers",
+            "12:00 UTC"
+          ],
+          [
+            "market-context-refresh",
+            "13:00 UTC"
+          ],
+          [
+            "narrative-tracker",
+            "13:30 UTC"
+          ]
+        ]
+      }
+    }
+  }
+}
