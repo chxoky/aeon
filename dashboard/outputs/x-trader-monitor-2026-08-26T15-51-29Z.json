@@ -1,0 +1,85 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Market analysis from @bull_genius"
+      },
+      "children": [
+        "tweet_card",
+        "separator",
+        "positions_section"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "@bull_genius",
+        "text": "🐦 *[X] @bull_genius*\n\n**BTC consolidation structure** — currently trading around 7d rvwap zone ($76.7K support). Tapped 365d rvwap and briefly touched ATH avwap, but structurally still defending bear market trendline break. Expect 10-15% chop after recent massive green weekly.\n\n**ETH looks different** — still 15%+ away from its bear market trendline (7d rvwap has caught up); alts at their 7d rvwap levels (PUMP, ZEC, HYPE).\n\n*Positions shown: 10x PUMP long +52%, 10x HYPE long +34% — aligns with bull thesis on consolidation dips.*"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "positions_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "positions_heading",
+        "positions_grid",
+        "tweet_link"
+      ]
+    },
+    "positions_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Active Positions",
+        "level": "h4"
+      }
+    },
+    "positions_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "pump_stat",
+        "hype_stat"
+      ]
+    },
+    "pump_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "10x PUMP long",
+        "value": "+52%",
+        "trend": "up"
+      }
+    },
+    "hype_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "10x HYPE long",
+        "value": "+34%",
+        "trend": "up"
+      }
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/bull_genius/status/2092639249937924341"
+      }
+    }
+  }
+}
