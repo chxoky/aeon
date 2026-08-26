@@ -110,8 +110,9 @@
 - Current open positions: NET SHORT regime (since Aug 07). SHORT BASKET: 14+ tickers (BTC/ZEC/HYPE/UNI/ADA/KAITO/SPCX/TSLA/PLTR/DOGE/CL/PUMP + others). Stocks: FULLY CLOSED Aug 20 15:42Z. Partial TPs Aug 21: SOL (7.5% covered), ETH (7.5% covered), HYPE (2.5% covered). BTC short conviction adds: Aug 20 09:15Z (+5%), Aug 21 07:22Z (+5%).
 - Recent thesis: Regime shifted to net-short Aug 07 on BTC structure rejection at 64K. Scaled entries NOT all-in at single level (clarified Aug 21 06:54Z). "Blow off top forming like a shitcoin scam pump" on BTC (Aug 21 07:21Z). Expecting "full mega retrace" (Aug 22 09:03Z). Skeptical on reported liquidation data authenticity (Aug 22 10:50Z). "Fc X" posts = false-close chart check (not execution).
 - Conviction notes: Disciplined portfolio architect. Primary Trades channel = highest conviction. Multi-account structure. Irony default calibrated. "Always high-leverage & all-in folks get hurt."
-- Last seen: 2026-08-25T16:15:49Z
+- Last seen: 2026-08-26T05:26:08Z
 - **Events (rolling):**
+  - Aug 26 05:26Z — ambiguous (Discord Chat supporting): "Yes" — bare reply without context; calibration sent [$UNKNOWN] [1542042444080750732]
   - Aug 25 16:15Z — informational (Discord Chat supporting): "Waiting for the inevitable pullback" (Chat) [$PULLBACK-CONVICTION] [1541843556224868502]
   - Aug 25 12:28Z — ambiguous: "@Baker0x Yes" — cryptic reply, calibration sent [$UNKNOWN] [2092227716322054392]
   - Aug 20 09:15Z — conviction-add: "Add 5% btc short" (Trades primary) [$BTC-SHORT] [1539925927264260126]

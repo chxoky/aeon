@@ -1,0 +1,80 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Discord Trader Monitor — Calibration"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "channel_meta",
+        "sep_1",
+        "message_data",
+        "sep_2",
+        "classification_alert"
+      ]
+    },
+    "channel_meta": {
+      "type": "Text",
+      "props": {
+        "text": "Channel: DC: HCH — Chat",
+        "variant": "caption"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message_data": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "msg_label",
+        "msg_badge"
+      ]
+    },
+    "msg_label": {
+      "type": "Text",
+      "props": {
+        "text": "Message:",
+        "variant": "body"
+      }
+    },
+    "msg_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Yes"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification_alert": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Unable to classify",
+        "message": "This appears to be a bare yes/no response without context. What's your read?"
+      }
+    }
+  }
+}
