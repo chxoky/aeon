@@ -1,0 +1,149 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Event processing and classification"
+      },
+      "children": [
+        "main-status",
+        "separator-1",
+        "classification-section",
+        "reason-section",
+        "separator-2",
+        "memory-section"
+      ]
+    },
+    "main-status": {
+      "type": "Text",
+      "props": {
+        "text": "✅ x-trader-monitor processed @swarmister event (2092507006837968933)",
+        "variant": "lead"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "classification-label",
+        "classification-badge",
+        "status-badge"
+      ]
+    },
+    "classification-label": {
+      "type": "Text",
+      "props": {
+        "text": "Classification:",
+        "variant": "muted"
+      }
+    },
+    "classification-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "skip (non-financial)",
+        "variant": "secondary"
+      }
+    },
+    "status-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Silent — no alert sent",
+        "variant": "outline"
+      }
+    },
+    "reason-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "reason-label",
+        "reason-text"
+      ]
+    },
+    "reason-label": {
+      "type": "Text",
+      "props": {
+        "text": "Reason:",
+        "variant": "muted"
+      }
+    },
+    "reason-text": {
+      "type": "Text",
+      "props": {
+        "text": "Morning greeting content ('Good morning, geeks' + 'Have a very gay day') with embedded media. Zero financial signal, no ticker mentions, no execution language. Per Step 4A classification.",
+        "variant": "body"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "memory-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "memory-heading",
+        "memory-list"
+      ]
+    },
+    "memory-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Memory Updated",
+        "level": "h3"
+      }
+    },
+    "memory-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "mem-item-1",
+        "mem-item-2",
+        "mem-item-3"
+      ]
+    },
+    "mem-item-1": {
+      "type": "Text",
+      "props": {
+        "text": "• Tweet ID added to x-trader-seen.txt (61 total)",
+        "variant": "body"
+      }
+    },
+    "mem-item-2": {
+      "type": "Text",
+      "props": {
+        "text": "• Event logged to memory/logs/2026-08-26.md",
+        "variant": "body"
+      }
+    },
+    "mem-item-3": {
+      "type": "Text",
+      "props": {
+        "text": "• Trader last-seen timestamp updated to 2026-08-26T06:58:41Z",
+        "variant": "body"
+      }
+    }
+  }
+}
