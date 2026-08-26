@@ -5,7 +5,7 @@
 - Recent thesis: Equities/vol specialist; dispersion-trade framework; bearish equities into Oct; GOLD/crypto won't make new lows even if equities do; BTC liq map structurally different ("bearish skew but buy-side ramping"). Not levered ("can't with liq map like this"). Conditional BTC reversion play above 74.5K if funding/OI stretched.
 - Conviction notes: High-conviction technical analyst on equities; vixpiry/OPEX structure commentary; macro dispersion positioning. Bear mode experiment failed Aug 20. "Scar tissue" from forced loss at 68K. HYPE/LIT = gold/silver parallel; ratio at 27-28 (down from 55 peak). URL-only posts = noise per calibration.
 - Calibration: PENDING Aug 23 19:05Z (cryptic "@QOTSA_FRL Its a 65% move to 126" — asset/context unknown), PENDING Aug 21 20:10Z (conditional LEAPS comment — unspecified asset)
-- Last seen: 2026-08-26T13:51:18Z
+- Last seen: 2026-08-26T16:11:51Z
 - **Events (rolling):**
   - Aug 26 13:51Z — informational: CCJ weekly trend rejection + daily retest; -6% move down from rejection, consolidating in support zone; 3-chart technical analysis (1W/1D patterns) [$CCJ] [2092610841149657226]
   - Aug 24 00:12Z — informational: BTC engulfing candle pattern vs 2022/2018 bear market bottoms (+24%/+21%/+26%); historical comp analysis [$BTC-CANDLE-PATTERN] [2091680090283450543]
@@ -69,6 +69,7 @@
   - Aug 25 22:04Z — ambiguous: "@Faisal_alHodhan I'll take it" — cryptic reply, external context unknown (what is Faisal offering?); unable to determine asset/execution intent without original message; calibration sent [$UNKNOWN] [2092372580871360778]
   - Aug 25 22:50Z — ambiguous: "@CatOfLongTails Many people aren't going to let go of the fact that I simply re-bought 5% higher than where I sold hey" + 4 technical chart images (HYPE/TOTAL, BTC liq map 69.4K, USDT.D ratio, BTC 68.6K). First-person re-entry action confirmed but **ticker NOT specified** — Step 7 image analysis shows technical context (HYPE consolidation, BTC structure, ratios) but doesn't ID which position. Possible: HYPE ($51.55 entry Aug 21, pending Kyle approval), BTC (closed 68K short Aug 21, re-buying higher?), or other open position (LIT/PEPE/ENA/ZEC). Reply to @CatOfLongTails context unavailable without original message. Calibration sent to Kyle requesting asset clarification. [$UNKNOWN] [2092384223072256496]
   - Aug 25 23:25Z — informational: IBKR ATH retest; 1D+1W multi-timeframe technical analysis; consolidation/breakout structure 98.19/98.45 [$IBKR] [2092392851573518683]
+  - Aug 26 16:11Z — informational: QQQ bearish structure; POC rejected 3 days, daily trend 5 days; predicts $730 clip EOW [$QQQ] [2092646211929231377]
 
 ## Bitcoin_Astro
 
