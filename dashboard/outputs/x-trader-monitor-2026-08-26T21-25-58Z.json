@@ -1,0 +1,40 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_success",
+        "text_metadata"
+      ]
+    },
+    "badge_success": {
+      "type": "Badge",
+      "props": {
+        "text": "✓ success",
+        "variant": "default"
+      }
+    },
+    "text_metadata": {
+      "type": "Text",
+      "props": {
+        "text": "Wild_Randomness • 21:21Z • banter (skip)",
+        "variant": "caption"
+      }
+    }
+  }
+}
