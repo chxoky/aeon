@@ -468,13 +468,15 @@
   - Aug 22 23:47Z — informational: trader credibility + market psychology; CT bottom-callers were watching sponsorship content last week [$TRADER-PSYCHOLOGY] [2091311362227978289]
   - Aug 23 10:34Z — ambiguous: "@MajesticQuant no this only includes crypto markets" — scope unknown [$UNKNOWN] [2091474101592309953]
 
-## Stoiiiic
+## Stoiiic
 
 - Platforms: X (Twitter)
 - Current open positions: None documented
-- Recent thesis: RSI momentum indicator methodology; recommends Leviathan RSI Screener tool (TradingView); educational framework on momentum cooldown (50-60 RSI area) as precursor to gauge trend strength
-- Conviction notes: Technical indicator education + tool recommendation; no personal execution language detected. First tracked Aug 26 17:48Z.
-- Calibration: None yet (first event is educational content)
-- Last seen: 2026-08-26T17:48:21Z
+- Recent thesis: Trading methodology on momentum cooldowns + technical confluence validation; describes approach to identifying entries via RSI areas (50-60 zone) + confluence + LTF validation; RSI momentum indicator specialist; tool recommendation (Leviathan RSI Screener, TradingView)
+- Conviction notes: Technical education + methodology commentary; no personal execution language detected; educational framework sharing rather than positioned trader; First tracked Aug 26 17:48Z.
+- Calibration: None yet (events are educational content)
+- Last seen: 2026-08-26T18:34:56Z
 - **Events (rolling):**
+  - Aug 26 18:34Z — informational: Trading methodology on momentum cooldowns + confluence validation; "interested in momentum cooldowns on coins into the 50-60 area and see if the pullback aligns with other forms of confluence. Then go to ltf to see if I like what I see"; no specific ticker or personal action; describes general approach/framework for identifying entries; no first-person execution language [$METHODOLOGY-TRADING] [2092682221492777057]
+  - Aug 26 18:33Z — skip: Technical RSI methodology explanation to @JonYale; educational content (14-period lookback, 60-65 level interpretation, confluence areas, 4-hour metric, LTF behavior); no personal execution language or ticker mention [2092681779153113206]
   - Aug 26 17:48Z — informational: Leviathan RSI Screener tool recommendation + educational framework; momentum cooldown 50-60 area signals trend strength/weakness gauge; no personal execution language or specific ticker [$TECHNICAL-EDUCATION] [2092670497561444694]
