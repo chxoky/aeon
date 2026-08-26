@@ -1,0 +1,109 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor"
+      },
+      "children": [
+        "status_badge",
+        "separator_1",
+        "content_stack",
+        "separator_2",
+        "status_section"
+      ]
+    },
+    "status_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "✅ fast-path",
+        "variant": "secondary"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "content_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "channel_badge",
+        "message_content"
+      ]
+    },
+    "channel_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DC: Chase — Crypto",
+        "variant": "outline"
+      }
+    },
+    "message_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "user_line",
+        "reply_text",
+        "context_text"
+      ]
+    },
+    "user_line": {
+      "type": "Text",
+      "props": {
+        "text": "crypto_chase replied:",
+        "variant": "lead"
+      }
+    },
+    "reply_text": {
+      "type": "Text",
+      "props": {
+        "text": "nice work 👌"
+      }
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "affirming member's SOL/ETH bidding strategy charts (88s-85s/2.3k zones)",
+        "variant": "muted"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "status_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "status_1",
+        "status_2"
+      ]
+    },
+    "status_1": {
+      "type": "Alert",
+      "props": {
+        "message": "Fast-path Telegram alert already delivered by Cloudflare Worker",
+        "type": "info"
+      }
+    },
+    "status_2": {
+      "type": "Alert",
+      "props": {
+        "message": "AEON memory update complete",
+        "type": "success"
+      }
+    }
+  }
+}
