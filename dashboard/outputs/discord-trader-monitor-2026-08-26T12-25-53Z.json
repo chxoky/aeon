@@ -1,0 +1,70 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor",
+        "description": "Calibration tracking for Discord channel activity"
+      },
+      "children": [
+        "heading_main",
+        "alert_main",
+        "separator1",
+        "details_stack"
+      ]
+    },
+    "heading_main": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: HCH — Chat]",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "alert_main": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Classification Uncertainty",
+        "message": "Second bare \"Yes\" reply in supporting channel (12:23 UTC)"
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "details_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "earlier_instance",
+        "classification_issue"
+      ]
+    },
+    "earlier_instance": {
+      "type": "Text",
+      "props": {
+        "text": "Earlier instance (05:26 UTC, message_id=1542042444080750732) was marked pending calibration. This is a continuation.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "classification_issue": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what context is HCH affirming? Is this the same ongoing discussion as the 05:26 instance?",
+        "variant": "lead"
+      },
+      "children": []
+    }
+  }
+}
