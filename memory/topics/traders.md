@@ -511,11 +511,12 @@
 
 - Platforms: X (Twitter)
 - Current open positions: None documented
-- Recent thesis: Trading methodology on momentum cooldowns + technical confluence validation; describes approach to identifying entries via RSI areas (50-60 zone) + confluence + LTF validation; RSI momentum indicator specialist; tool recommendation (Leviathan RSI Screener, TradingView)
-- Conviction notes: Technical education + methodology commentary; no personal execution language detected; educational framework sharing rather than positioned trader; First tracked Aug 26 17:48Z.
+- Recent thesis: H4 RSI cooldown backtesting research specialist; statistical validation of momentum reset patterns (1107 resets across 12 alts, 2021-current data); RSI shelf support at 45 level with clustering toward 55+; trading methodology on momentum cooldowns + technical confluence validation; describes approach to identifying entries via RSI areas (50-60 zone) + confluence + LTF validation; RSI momentum indicator specialist; tool recommendation (Leviathan RSI Screener, TradingView)
+- Conviction notes: Technical education + methodology commentary + data-driven research sharing; no personal execution language detected; educational framework sharing + backtesting research validation rather than positioned trader; First tracked Aug 26 17:48Z.
 - Calibration: PENDING Aug 26 22:34Z (reply "@ferrumdeauratum valid" — cryptic confirmation, context unknown; calibration sent to Kyle)
-- Last seen: 2026-08-26T22:34:41Z
+- Last seen: 2026-08-27T05:20:43Z
 - **Events (rolling):**
+  - Aug 27 05:20Z — informational: H4 RSI cooldown backtesting research + statistical validation; 1107 cooldown resets across 12 alts (strong uptrends, 2021-current); RSI shelf ~45 level identified; cluster concentration 55+ (fastest horses won't give clean resets to 50 level); chart visualization with median trend line [$RSI-METHODOLOGY/$BACKTESTING-RESEARCH] [2092844739800211495]
   - Aug 26 22:34Z — ambiguous: reply to @ferrumdeauratum "@ferrumdeauratum valid"; cryptic confirmation, context unknown; HR-2 calibration sent to Kyle [$UNKNOWN] [2092742558518497756]
   - Aug 26 18:34Z — informational: Trading methodology on momentum cooldowns + confluence validation; "interested in momentum cooldowns on coins into the 50-60 area and see if the pullback aligns with other forms of confluence. Then go to ltf to see if I like what I see"; no specific ticker or personal action; describes general approach/framework for identifying entries; no first-person execution language [$METHODOLOGY-TRADING] [2092682221492777057]
   - Aug 26 18:33Z — skip: Technical RSI methodology explanation to @JonYale; educational content (14-period lookback, 60-65 level interpretation, confluence areas, 4-hour metric, LTF behavior); no personal execution language or ticker mention [2092681779153113206]
