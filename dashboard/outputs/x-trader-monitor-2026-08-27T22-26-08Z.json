@@ -1,0 +1,49 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet",
+        "commentary",
+        "link"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Bitcoin_Astro",
+        "handle": "@Bitcoin_Astro",
+        "text": "I have results on solar eclipses and their effect on btc for last 10 years. I haven't tested the nodes though."
+      }
+    },
+    "commentary": {
+      "type": "Text",
+      "props": {
+        "text": "Research finding aligns with documented eclipse-cycle framework; preliminary/unconfirmed hypothesis",
+        "variant": "muted"
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Bitcoin_Astro/status/2093101492257575388"
+      }
+    }
+  }
+}
