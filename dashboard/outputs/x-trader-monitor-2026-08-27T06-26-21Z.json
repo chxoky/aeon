@@ -1,0 +1,54 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading-1",
+        "text-event",
+        "tweet-1",
+        "text-classify",
+        "link-post"
+      ]
+    },
+    "heading-1": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Stoiiic",
+        "level": "h2"
+      }
+    },
+    "text-event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @lazyvillager1 on Twitter"
+      }
+    },
+    "tweet-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "Stoiiic",
+        "text": "@lazyvillager1 means interesting spot"
+      }
+    },
+    "text-classify": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read? Is this a trade idea, technical level, or banter?"
+      }
+    },
+    "link-post": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View post",
+        "href": "https://x.com/Stoiiic/status/2092860178953826815",
+        "source": "Twitter/X"
+      }
+    }
+  }
+}
