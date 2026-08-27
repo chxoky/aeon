@@ -1,0 +1,58 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge-nvda",
+        "stat-price",
+        "tweet-card",
+        "link-tweet"
+      ]
+    },
+    "badge-nvda": {
+      "type": "Badge",
+      "props": {
+        "text": "$NVDA"
+      }
+    },
+    "stat-price": {
+      "type": "Stat",
+      "props": {
+        "label": "Current Price",
+        "value": "225.97",
+        "delta": "+7.74%",
+        "trend": "up"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "I did say more to come…\n\nPost-earnings bullish momentum continues: NVDA rallying to 225.97 (+7.74%) with breakout above 225 resistance. Technical structure shows strong alignment with support established at 214/206/198.50. Charts confirm multi-timeframe bullish continuation targeting 240 resistance."
+      }
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2092980330005479921"
+      }
+    }
+  }
+}
