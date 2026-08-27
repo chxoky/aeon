@@ -1,0 +1,55 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "badge_amzn",
+        "tweet_wild",
+        "link_tweet",
+        "stat_amzn",
+        "text_commentary"
+      ]
+    },
+    "badge_amzn": {
+      "type": "Badge",
+      "props": {
+        "text": "$AMZN"
+      }
+    },
+    "tweet_wild": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "They thought it was going to break out, so I reminded them I have over 200B to sell still"
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2093045260142391547"
+      }
+    },
+    "stat_amzn": {
+      "type": "Stat",
+      "props": {
+        "value": "259.65",
+        "delta": "-1.15%",
+        "trend": "down"
+      }
+    },
+    "text_commentary": {
+      "type": "Text",
+      "props": {
+        "text": "Market commentary on selling pressure/supply dynamics; technical charts show daily consolidation at 259.65 (-1.15%) with key support/resistance levels.",
+        "variant": "body"
+      }
+    }
+  }
+}
