@@ -597,3 +597,13 @@
   - Aug 26 18:34Z — informational: Trading methodology on momentum cooldowns + confluence validation; "interested in momentum cooldowns on coins into the 50-60 area and see if the pullback aligns with other forms of confluence. Then go to ltf to see if I like what I see"; no specific ticker or personal action; describes general approach/framework for identifying entries; no first-person execution language [$METHODOLOGY-TRADING] [2092682221492777057]
   - Aug 26 18:33Z — skip: Technical RSI methodology explanation to @JonYale; educational content (14-period lookback, 60-65 level interpretation, confluence areas, 4-hour metric, LTF behavior); no personal execution language or ticker mention [2092681779153113206]
   - Aug 26 17:48Z — informational: Leviathan RSI Screener tool recommendation + educational framework; momentum cooldown 50-60 area signals trend strength/weakness gauge; no personal execution language or specific ticker [$TECHNICAL-EDUCATION] [2092670497561444694]
+
+## bull_genius
+
+- Platforms: X (Twitter)
+- Current open positions: Unknown (informational/technical analysis posts, minimal personal execution signals documented)
+- Recent thesis: TAO structural recovery setup; multi-timeframe RVWAP confluence; consolidation base-building before continuation upside
+- Conviction notes: Technical analyst; market structure observation; frame-based price-action language without explicit personal execution. Community presence (CAT participation, trading commentary).
+- Last seen: 2026-08-27T19:36:24Z
+- **Events (rolling):**
+  - Aug 27 19:36Z — informational: TAO technical structure; "testing prev highs" @ 260 level; "build base around here as 7d rvwap catch up and send it imo"; multi-timeframe chart analysis with 7D/30D/90D pivot levels marked; RSI showing momentum building (66.94 approaching overbought); market structure observation, no first-person execution language (opinion/prediction on continuation, not "I longed" action). Step 7 image analysis: TAO 15m chart showing consolidation pattern, previous resistance test, RVWAP confluence setup. Classification: informational trade idea/market observation. [$TAO] [2093060080082010467]
