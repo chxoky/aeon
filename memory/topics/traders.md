@@ -312,6 +312,17 @@
   - Aug 27 09:41Z — trade-position-management: "Unfortunately stopped just below entry at BE after fees. Looking for 82-84K now as the build zone deviation"; stopped position at breakeven from prior entry; re-entry target set at 82-84K support/build zone levels (Discord K primary, is_reply=true, fast_path_alerted: Telegram already sent) [$BTC-STOPPED-BE-REENTRY] [1542469154681135195]
   - Aug 27 11:11Z — ambiguous: "Aged like fine wine. $SOL is up nearly 50% from my entry. Thanks for playing. $120 + waiting room." SOL position celebration; status unclear (holding vs closed); "$120 + waiting room" reference cryptic (image context unavailable, sandbox prevented CDN fetch); present-tense "is up" suggests position held, but "Thanks for playing" could indicate closed; calibration sent to Kyle [$SOL] [2092932930087583786]
 
+## swarmister
+
+- Platforms: X (Twitter)
+- Current open positions: $PUMP long (entry ~0.00503-0.005 range, awaiting TP placement advice), $NVDA long (entry ~220-225 range, awaiting TP placement advice), $LIT long (smaller position, 1h chart at 3.3-3.4 range, awaiting TP placement advice)
+- Recent thesis: Technical analysis focus on intraday chart structure and consolidation levels. Seeking input on TP placement for existing positions.
+- Conviction notes: Intraday trader with chart-marked support/resistance analysis. Uses "Fc" terminology (chart-check/false-close). Shares 1h technical charts with labeled price levels for position management.
+- Calibration: None pending
+- Last seen: 2026-08-27T16:15:03Z
+- **Events (rolling):**
+  - Aug 27 16:15Z — informational: $PUMP/$NVDA/$LIT TP placement advice request; asking where to place TP on existing long positions; 1h charts showing consolidation levels: PUMP (0.005447/0.004991/0.004931/0.004552/0.004353), LIT (3.8078/3.6092/3.3288/3.2619/2.3687), NVDA (220-230 consolidation); account interface shows open positions with P&L; no personal execution announcement, seeking technical input [$PUMP/$NVDA/$LIT-TP-ADVICE] [2093009407403536648]
+
 ## trading_axe
 
 - Platforms: X (Twitter)
