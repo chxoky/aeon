@@ -1,0 +1,61 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-calibration",
+        "tweet",
+        "alert-missing",
+        "decision"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Stoiiic",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Trader",
+        "text": "Reply to @cilinixcrypto: yep and also the median fluctuation was relatively low"
+      },
+      "children": []
+    },
+    "alert-missing": {
+      "type": "Alert",
+      "props": {
+        "title": "Context Missing",
+        "message": "Unable to determine asset, market condition, or trade intent without the original message. Appears to be technical analysis commentary, but topic/ticker unknown.",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "decision": {
+      "type": "Text",
+      "props": {
+        "text": "Awaiting your read: Is this worth tracking, or dismiss as chart-banter?",
+        "variant": "lead"
+      },
+      "children": []
+    }
+  }
+}
