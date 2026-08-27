@@ -5,11 +5,12 @@
 - Recent thesis: Equities/vol specialist; dispersion-trade framework; bearish equities into Oct; GOLD/crypto won't make new lows even if equities do; BTC liq map structurally different ("bearish skew but buy-side ramping"). Not levered ("can't with liq map like this"). Conditional BTC reversion play above 74.5K if funding/OI stretched.
 - Conviction notes: High-conviction technical analyst on equities; vixpiry/OPEX structure commentary; macro dispersion positioning. Bear mode experiment failed Aug 20. "Scar tissue" from forced loss at 68K. HYPE/LIT = gold/silver parallel; ratio at 27-28 (down from 55 peak). URL-only posts = noise per calibration.
 - Calibration: PENDING Aug 23 19:05Z (cryptic "@QOTSA_FRL Its a 65% move to 126" — asset/context unknown), PENDING Aug 21 20:10Z (conditional LEAPS comment — unspecified asset)
-- Last seen: 2026-08-27T14:56:37Z
+- Last seen: 2026-08-27T15:03:33Z
 - **Events (rolling):**
   - Aug 27 14:56Z — informational: BTC-gold correlation timing patterns (Q4 2020 / Q4 2022 blow-outs); rising correlation as early bull signal; best action when correlation realizes from high [$BTC/$GOLD-CORRELATION-TIMING] [2092989670179393689]
   - Aug 27 14:45Z — informational: Options traders chasing calls from losses; asking if relief rally forms [$EQUITIES/$OPTIONS] [2092986762113274149]
   - Aug 27 14:39Z — trade-mirror-tp: NVDA long fully closed at $225.97 (+7.74% daily post-earnings); chart analysis showed multi-timeframe support/resistance levels (240/230/214/206/198.50); "out of the NVDA long here" + bearish outlook "probably underperforms from here" [$NVDA-TP] [2092985425921200358]
+  - Aug 27 15:03Z — informational: NVDA post-TP technical outlook; "will rebuy if this breaks out"; skeptical on call-buying reflexivity but acknowledges IF breakout forms; consolidation 214-230 with support at 206; conditional re-entry thesis [$NVDA-CONDITIONAL-OUTLOOK] [2092991412912705651]
   - Aug 27 14:44Z — ambiguous: "They're chasing calls now" — post-NVDA earnings, options market sentiment or personal action unclear; cryptic 4-word post [$UNKNOWN] [2092986633306177610]
   - Aug 27 14:28Z — informational: BTC vs Gold 90D correlation at ATH; historical comparison chart (2021/2023 prior instances); macro correlation structure analysis [$BTC/$GOLD-CORRELATION-ATH] [2092982566815232510]
   - Aug 27 14:21Z — informational: NVDA post-earnings session strongest cash reaction in 2+ years; technical consolidation 209.74 (-1.54%); chart analysis showing multi-timeframe support/resistance structure [$NVDA] [2092980953052545264]

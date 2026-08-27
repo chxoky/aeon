@@ -1,0 +1,107 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "NVDA Trading Signal"
+      },
+      "children": [
+        "ticker_badge",
+        "tweet",
+        "separator1",
+        "analysis_content"
+      ]
+    },
+    "ticker_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "NVDA",
+        "variant": "default"
+      }
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Just FYa that I'm out but will rebuy if this breaks out\n\nI have some skepticism because of all the call buying, but that can also be reflexive if we do break out\n\nWouldn't fade the break if we get it\n\n(Market cap is a meme?)"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis_heading",
+        "analysis_text",
+        "levels_grid",
+        "timing_text"
+      ]
+    },
+    "analysis_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Multi-Timeframe Analysis",
+        "level": "h3"
+      }
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Multi-timeframe charts confirm consolidation with conditional re-entry thesis on breakout.",
+        "variant": "body"
+      }
+    },
+    "levels_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "consolidation",
+        "support",
+        "target"
+      ]
+    },
+    "consolidation": {
+      "type": "Stat",
+      "props": {
+        "label": "Consolidation",
+        "value": "214 - 230"
+      }
+    },
+    "support": {
+      "type": "Stat",
+      "props": {
+        "label": "Support",
+        "value": "206"
+      }
+    },
+    "target": {
+      "type": "Stat",
+      "props": {
+        "label": "Target Price",
+        "value": "225.97"
+      }
+    },
+    "timing_text": {
+      "type": "Text",
+      "props": {
+        "text": "~18 min after NVDA TP posted",
+        "variant": "caption"
+      }
+    }
+  }
+}
