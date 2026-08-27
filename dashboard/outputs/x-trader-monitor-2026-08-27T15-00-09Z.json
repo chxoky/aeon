@@ -1,0 +1,56 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "link_tweet",
+        "sep1",
+        "commentary"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Look at the timing where correlation blew out (red windows)\n\nQ4 2020\n\nQ4 2022\n\nI.e. it seems rising correlation with gold is an early bull signal for BTC, but the best (most sustainable) action is when correlation realizes from this high of level"
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2092989670179393689"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "commentary": {
+      "type": "Text",
+      "props": {
+        "text": "Macro correlation timing thesis aligns with KillaXBT's structural bull conviction and group emerging net-long positioning on crypto.",
+        "variant": "muted"
+      }
+    }
+  }
+}
