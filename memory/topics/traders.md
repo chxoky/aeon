@@ -618,4 +618,5 @@
 - Conviction notes: Technical analyst; market structure observation; frame-based price-action language without explicit personal execution. Community presence (CAT participation, trading commentary).
 - Last seen: 2026-08-27T19:36:24Z
 - **Events (rolling):**
+  - Aug 27 22:13Z — skip: FWA/USD project mechanics discussion + Bankless article crash analysis; "look for entries when this chills" future conditional (not personal execution); obscure token not on Kyle watch-list; filed to memory only [$FWA] [2093099503595188354]
   - Aug 27 19:36Z — informational: TAO technical structure; "testing prev highs" @ 260 level; "build base around here as 7d rvwap catch up and send it imo"; multi-timeframe chart analysis with 7D/30D/90D pivot levels marked; RSI showing momentum building (66.94 approaching overbought); market structure observation, no first-person execution language (opinion/prediction on continuation, not "I longed" action). Step 7 image analysis: TAO 15m chart showing consolidation pattern, previous resistance test, RVWAP confluence setup. Classification: informational trade idea/market observation. [$TAO] [2093060080082010467]
