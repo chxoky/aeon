@@ -1,0 +1,39 @@
+{
+  "root": "card1",
+  "state": {},
+  "elements": {
+    "card1": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet1",
+        "details1",
+        "link1"
+      ]
+    },
+    "tweet1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "$QQQ — 7 hours later... More than halfway there. Seems a little more believable now."
+      }
+    },
+    "details1": {
+      "type": "Text",
+      "props": {
+        "text": "Cryptic validation of Aug 26 16:11Z bearish structure prediction (POC rejected, targeting $730 EOW). Post contains 4 chart images showing progress.",
+        "variant": "caption"
+      }
+    },
+    "link1": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2092763759387574639"
+      }
+    }
+  }
+}

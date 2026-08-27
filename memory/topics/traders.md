@@ -5,7 +5,7 @@
 - Recent thesis: Equities/vol specialist; dispersion-trade framework; bearish equities into Oct; GOLD/crypto won't make new lows even if equities do; BTC liq map structurally different ("bearish skew but buy-side ramping"). Not levered ("can't with liq map like this"). Conditional BTC reversion play above 74.5K if funding/OI stretched.
 - Conviction notes: High-conviction technical analyst on equities; vixpiry/OPEX structure commentary; macro dispersion positioning. Bear mode experiment failed Aug 20. "Scar tissue" from forced loss at 68K. HYPE/LIT = gold/silver parallel; ratio at 27-28 (down from 55 peak). URL-only posts = noise per calibration.
 - Calibration: PENDING Aug 23 19:05Z (cryptic "@QOTSA_FRL Its a 65% move to 126" — asset/context unknown), PENDING Aug 21 20:10Z (conditional LEAPS comment — unspecified asset)
-- Last seen: 2026-08-26T21:26:12Z
+- Last seen: 2026-08-26T23:58:56Z
 - **Events (rolling):**
   - Aug 26 20:36Z — informational: NVDA/SMH ratio breakdown 0.38; relative weakness signal [$NVDA/$SMH] [2092712792692502853]
   - Aug 26 19:57Z — informational: bullish divergence technical signal (5min timeframe); bears fkd sentiment; chart unavailable [UNSPECIFIED] [20927030233071005688]
@@ -91,6 +91,7 @@
   - Aug 26 21:06Z — informational: NVDA intraday earnings volatility 1m chart; sharp selloff $211.50→$203.50 then recovery to $216.33 (current $215.86); market action commentary [$NVDA] [2092720352019558821]
   - Aug 26 21:19Z — informational: NVDA earnings dominance sentiment; dual 1D charts $225.33→$214.80 in 2.5hrs whipsaw; "everything else is just waste of time" [$NVDA] [2092723745177911341]
   - Aug 26 21:26Z — informational: QQQ consolidation setup validation; "It's working" confirms prior ATH retest technical structure; meme celebration post (Frodo smoking pipe) [$QQQ] [2092725322655682833]
+  - Aug 26 23:58Z — informational: QQQ "7 hours later... more than halfway there... seems a little more believable now"; cryptic validation post with 4 chart images; references Aug 16:11Z bearish structure prediction progress [$QQQ] [2092763759387574639]
   - Aug 26 21:34Z — informational: GEV diagonal trendline validation; "Diagonal line working" technical structure; weekly uptrend respecting diagonal support/resistance; $953.29 (+2.87%) [$GEV-TRENDLINE] [2092727437251789122]
   - Aug 26 21:57Z — ambiguous: ENA dump -4.83% to 0.1360; "TWAP in/TWAP out/TWAP in (?)" cryptic post; unclear if past trade execution + re-entry question or technical observation; calibration sent [$ENA] [2092733090527629689]
   - Aug 26 22:00Z — ambiguous: "@Naskoludurudlol Laid groundwork hrs ago / needed TWAP to progress b4 showed hand"; cryptic ref recent WMT entry (19:52Z) or other; calibration sent [$UNKNOWN] [2092734064839278593]
