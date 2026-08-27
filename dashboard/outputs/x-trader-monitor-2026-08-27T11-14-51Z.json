@@ -1,0 +1,179 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration — @KillaXBT"
+      },
+      "children": [
+        "heading-title",
+        "separator-1",
+        "event-section",
+        "separator-2",
+        "tweet-section",
+        "separator-3",
+        "analysis-section",
+        "separator-4",
+        "context-section",
+        "separator-5",
+        "question-section"
+      ]
+    },
+    "heading-title": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Position Calibration",
+        "level": "h2"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "event-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event-heading",
+        "event-text"
+      ]
+    },
+    "event-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "event-text": {
+      "type": "Text",
+      "props": {
+        "text": "$SOL position reported +50% from entry (Aug 21 entry at ~57K)"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "tweet-section": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "Aged like fine wine. $SOL is up nearly 50% from my entry. Thanks for playing. $120 + waiting room."
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "analysis-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis-heading",
+        "analysis-label",
+        "analysis-options",
+        "analysis-interpretation",
+        "analysis-alert"
+      ]
+    },
+    "analysis-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Classification Uncertainty",
+        "level": "h3"
+      }
+    },
+    "analysis-label": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify: Is this",
+        "variant": "lead"
+      }
+    },
+    "analysis-options": {
+      "type": "Text",
+      "props": {
+        "text": "(a) ongoing position celebration (holding)\n(b) notification of closed position (took profits)\n(c) narrative commentary?"
+      }
+    },
+    "analysis-interpretation": {
+      "type": "Text",
+      "props": {
+        "text": "\"Aged like fine wine\" could be celebratory or exit. \"Thanks for playing\" could indicate goodbye to position. \"$120 + waiting room\" reference unclear without chart context (images unavailable via sandbox)."
+      }
+    },
+    "analysis-alert": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "message": "Intent and position status ambiguous pending chart context"
+      }
+    },
+    "separator-4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "context-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context-heading",
+        "context-entry",
+        "context-targets"
+      ]
+    },
+    "context-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Entry Context",
+        "level": "h3"
+      }
+    },
+    "context-entry": {
+      "type": "Text",
+      "props": {
+        "text": "Aug 21 documented SOL spot entry from 57K"
+      }
+    },
+    "context-targets": {
+      "type": "Text",
+      "props": {
+        "text": "Aug 22 targets: 100-105K local, squeeze into 120s"
+      }
+    },
+    "separator-5": {
+      "type": "Separator",
+      "props": {}
+    },
+    "question-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "question-text"
+      ]
+    },
+    "question-text": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read on intent and current position status?"
+      }
+    }
+  }
+}

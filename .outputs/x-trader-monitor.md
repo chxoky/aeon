@@ -1,16 +1,11 @@
-## Summary
+🔍 *Calibration — @KillaXBT*
 
-Processed X trader event from @t_in_crypto (tweet ID 2092927612876177852):
+Event: $SOL position reported +50% from entry (Aug 21 entry at ~57K)
 
-**Classification:** Skip (non-financial)
-- The message "@Kindleweird88 @Alulim123gmail1 I work with levels and pivots, not with astro" is a personal methodology statement, not a financial signal
-- No ticker, no trade action, no market opinion
-- Follows Step 4A protocol: skip entirely, no alert
+KillaXBT: "Aged like fine wine. $SOL is up nearly 50% from my entry. Thanks for playing. $120 + waiting room."
 
-**Actions taken:**
-- ✓ Event ID added to dedup list (memory/x-trader-seen.txt)
-- ✓ Full protocol log entry appended to memory/logs/2026-08-27.md
-- ✓ No event line added to traders.md (skip events don't update rolling Events per protocol)
-- ✓ No ./notify alert sent to Kyle
+Unable to classify: Is this (a) ongoing position celebration (holding), (b) notification of closed position (took profits), or (c) narrative commentary? "Aged like fine wine" could be celebratory or exit. "Thanks for playing" could indicate goodbye to position. "$120 + waiting room" reference unclear without chart context (images unavailable via sandbox).
 
-No action required — trader context confirms this aligns with t_in_crypto's established profile (contrarian BTC range trader with measured discipline, currently long BTC from 58.4).
+Context: Aug 21 documented SOL spot entry from 57K; Aug 22 targets: 100-105K local, squeeze into 120s.
+
+What's your read on intent and current position status?
