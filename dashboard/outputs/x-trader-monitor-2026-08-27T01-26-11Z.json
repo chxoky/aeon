@@ -1,0 +1,50 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet",
+        "link",
+        "separator",
+        "analysis"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Couple massive software earnings beats & NVDA for the first time in years is holding 5% gains post-earnings call\n\naaaand gold is outperforming the Nasdaq overnight\n\nYeah, you might want to listen to this"
+      },
+      "children": []
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2092784644194550157"
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Dispersion-trade validation: equities (NVDA) + commodities (GOLD) both strong — aligns with WR's stated bearish-equities-into-Oct thesis but allowing tactical strength on structural shifts.",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
