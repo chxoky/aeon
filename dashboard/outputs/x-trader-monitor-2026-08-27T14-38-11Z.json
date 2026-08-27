@@ -1,0 +1,79 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet-card",
+        "sep-1",
+        "options-section",
+        "sep-2",
+        "classification-text",
+        "link-tweet"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Absolute monkeys…\n\nRemember yesterday when all the flow was bright red?"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "options-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "options-title",
+        "options-desc"
+      ]
+    },
+    "options-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Options Flow",
+        "level": "h3"
+      }
+    },
+    "options-desc": {
+      "type": "Text",
+      "props": {
+        "text": "QQQ/NVDA call options data showing multi-strike positions, primarily Call spreads, Sweeps, and Blocks across Aug 2026 - 2027 expiries"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification-text": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification",
+        "message": "Options market sentiment commentary on bearish/red flow (sell-side flow) observed yesterday. No personal execution signal — informational technical observation on options flow dynamics.",
+        "type": "info"
+      }
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2092984299901616610"
+      }
+    }
+  }
+}

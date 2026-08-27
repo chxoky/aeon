@@ -1,9 +1,11 @@
 🐦 *[X] @Wild_Randomness*
 
-$BTC vs $GOLD — 90D correlation at ATH
+Absolute monkeys…
 
-Asking historical context: has the correlation reached this level before? Chart shows prior instances in 2021 and 2023 (red zones). Current correlation ~0.6, matching ATH structure.
+Remember yesterday when all the flow was bright red?
 
-↳ _Validates dispersion-trade framing (GOLD/crypto won't make new lows even if equities do — Aug 21 thesis); macro correlation structure at key inflection._
+[Options flow table: QQQ/NVDA call options data showing multi-strike positions, primarily Call spreads, Sweeps, and Blocks across Aug 2026 - 2027 expiries]
 
-[View tweet](https://x.com/Wild_Randomness/status/2092982566815232510)
+Classification: Options market sentiment commentary on bearish/red flow (sell-side flow) observed yesterday. No personal execution signal — informational technical observation on options flow dynamics.
+
+[View tweet](https://x.com/Wild_Randomness/status/2092984299901616610)
