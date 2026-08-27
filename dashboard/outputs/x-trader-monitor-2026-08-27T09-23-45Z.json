@@ -1,0 +1,147 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badges-row",
+        "heading-nvda",
+        "sep-1",
+        "text-description",
+        "stats-grid",
+        "sep-2",
+        "text-action",
+        "link-post"
+      ]
+    },
+    "badges-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-mirrored",
+        "badge-long",
+        "badge-profit"
+      ]
+    },
+    "badge-mirrored": {
+      "type": "Badge",
+      "props": {
+        "text": "🔁 Mirrored @swarmister",
+        "variant": "secondary"
+      }
+    },
+    "badge-long": {
+      "type": "Badge",
+      "props": {
+        "text": "LONG",
+        "variant": "default"
+      }
+    },
+    "badge-profit": {
+      "type": "Badge",
+      "props": {
+        "text": "Partial Take Profit",
+        "variant": "outline"
+      }
+    },
+    "heading-nvda": {
+      "type": "Heading",
+      "props": {
+        "text": "$NVDA",
+        "level": "h2"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-description": {
+      "type": "Text",
+      "props": {
+        "text": "swarmister just took partial profit on their NVDA 20x long position at 225.05 (mark). Position entered Aug 26 @220.01, currently showing +172.2K unrealized P&L. They're closing ~50% to bank profits.",
+        "variant": "body"
+      }
+    },
+    "stats-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat-leverage",
+        "stat-entry-price",
+        "stat-exit-price",
+        "stat-pnl"
+      ]
+    },
+    "stat-leverage": {
+      "type": "Stat",
+      "props": {
+        "label": "Leverage",
+        "value": "20x"
+      }
+    },
+    "stat-entry-price": {
+      "type": "Stat",
+      "props": {
+        "label": "Entry (Aug 26)",
+        "value": "$220.01"
+      }
+    },
+    "stat-exit-price": {
+      "type": "Stat",
+      "props": {
+        "label": "Exit Price",
+        "value": "$225.05"
+      }
+    },
+    "stat-pnl": {
+      "type": "Stat",
+      "props": {
+        "label": "Unrealized P&L",
+        "value": "+$172.2K",
+        "trend": "up"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-action": {
+      "type": "Text",
+      "props": {
+        "text": "I closed 50% of your NVDA position to match.",
+        "variant": "lead"
+      }
+    },
+    "link-post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/swarmister/status/2092904592245748153"
+      }
+    }
+  }
+}

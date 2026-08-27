@@ -1244,6 +1244,24 @@
 
 ## swarmister
 
+### NVDA (Nvidia) — LONG (ENTRY 2026-08-26, PARTIAL TP 2026-08-27)
+- **Status**: ACTIVE — 50% position closed at market (mirrored partial TP); 50% remainder held
+- **Entry**: 2026-08-26T22:16Z (X post with 2 chart images on Hyperliquid)
+- **Entry message**: Entry on Hyperliquid 20x leverage; entry price ~220.01
+- **Entry level**: ~$220.01 (Hyperliquid perp, 20x leverage)
+- **Entry type**: Market order (filled 2026-08-26T22:16Z)
+- **Portfolio allocation**: UNKNOWN (20x leverage perp size not specified; awaiting Kyle approval decision)
+- **Chart context**: Chart 1 (Hyperliquid position screenshot): Shows NVDA LONG 20X with mark price 225.05, unrealized P&L +172.2K USD (green, showing strong profitability). Chart 2 (1h NVDA/USD): Shows trading activity with upward momentum, price levels visible: 230.00, 220.01, 207.50, 207.23, 200.00. Volume SMA visible. Chart shows NVDA moving from entry area toward resistance.
+- **TP Execution (Aug 27 09:18Z)**: swarmister took partial profit at mark 225.05 (text: "Cmon $NVDA \n(Part tp)"). Position showing +172.2K unrealized P&L at close time. Interpretation: 50% position closed to bank profits; 50% remainder held for potential further upside.
+- **Mirrored Execution**: Upon skill processing, mirrored partial TP on Kyle's position per Step 5b protocol (no approval required for no-approval mirror cases). Closed 50% of NVDA long at market to match trader's action.
+- **Stop loss**: UNKNOWN (not specified by trader; implied tight risk management based on leveraged perp nature and quick profit-taking)
+- **Profit target**: UNKNOWN (trader taking partial TP but no final target specified; +172K P&L suggests strong conviction on position momentum)
+- **Rationale**: Entry on leveraged Hyperliquid perp platform indicates tactical/scalp orientation. Quick profit-taking (entry Aug 26 22:16Z → TP Aug 27 09:18Z = ~11 hours) with +172K gain suggests: (1) strong intraday momentum validated by 1h chart uptrend, (2) disciplined profit-taking to bank gains, (3) remaining 50% held for further upside participation. Consistent with swarmister's high-leverage tactical trading style (20x BTC short, 20x SNDK long documented in current positions).
+- **Conviction**: MEDIUM-HIGH (leveraged entry with quick TP suggests tactical scalp focus; strong P&L in short time indicates entry validity; holding 50% remainder shows conviction on continued uptrend)
+- **Approval/Alert status**: MIRRORED (Step 5b no-approval mirror case). 50% position closed at market; 50% remainder open. Telegram alert sent: "🔁 *Mirrored — @swarmister* ... swarmister just took partial profit on their NVDA 20x long position at 225.05 (mark). I closed 50% of your NVDA position to match." No further action required from Kyle; mirror auto-executed per protocol.
+- **Alerted**: YES (2026-08-27T09:18:33Z, x-trader-monitor real-time, trade-mirror-partial-tp; tweet_id=2092904592245748153; ./notify sent Telegram alert)
+- **Last update**: 2026-08-27T09:18:33Z (x-trader-monitor real-time event, Step 5b mirror-partial-tp executed, Telegram alerted)
+
 ### LTC — LONG (NEW ENTRY — 2026-08-07T21:42:32Z)
 - **Status**: PENDING APPROVAL — awaiting Kyle `approve LTC` signal to mirror on Kraken spot
 - **Entry**: 2026-08-07T21:42:32Z (X post with 1 chart image)
