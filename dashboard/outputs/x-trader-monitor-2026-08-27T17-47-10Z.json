@@ -1,0 +1,124 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration — @t_in_crypto"
+      },
+      "children": [
+        "reply_context",
+        "tweet_card",
+        "separator_1",
+        "analysis_stack"
+      ]
+    },
+    "reply_context": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to @Alulim123gmail1 (Aug 27 17:43Z)",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "handle": "@t_in_crypto",
+        "text": "No, I think we'll reach my target, which I wrote about back in May. After that, I expect a strong reversal"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis_heading",
+        "classification_alert",
+        "thread_detail",
+        "separator_2",
+        "questions_heading",
+        "q1",
+        "q2",
+        "q3"
+      ]
+    },
+    "analysis_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Analysis",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "classification_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Three cryptic replies from same trader (10:41Z, 17:16Z, 17:43Z) suggest discussion thread with Alulim on specific thesis but context not visible in X posts.",
+        "type": "info"
+      },
+      "children": []
+    },
+    "thread_detail": {
+      "type": "Text",
+      "props": {
+        "text": "Thread timeline: 10:41Z → 17:16Z → 17:43Z",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "questions_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "What's your read on:",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "q1": {
+      "type": "Text",
+      "props": {
+        "text": "1. Which target from May?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "q2": {
+      "type": "Text",
+      "props": {
+        "text": "2. Which asset (BTC likely, but unconfirmed)?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "q3": {
+      "type": "Text",
+      "props": {
+        "text": "3. Is this market-structure prediction or personal action planning?",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
