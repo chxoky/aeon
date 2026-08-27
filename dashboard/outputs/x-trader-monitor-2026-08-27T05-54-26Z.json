@@ -1,0 +1,142 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Tweet Calibration & Classification"
+      },
+      "children": [
+        "header-stack",
+        "separator-1",
+        "tweet-card",
+        "separator-2",
+        "context-stack",
+        "separator-3",
+        "classification-alert",
+        "separator-4",
+        "link-section"
+      ]
+    },
+    "header-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "main-heading",
+        "event-badge"
+      ]
+    },
+    "main-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Stoiiic",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "event-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Reply to @SailorManCrypto — Technical Analysis Discussion",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "Stoiiic",
+        "text": "@SailorManCrypto or nvm it was horizontal support but yeah ive found with other forms confidence its great"
+      },
+      "children": []
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "context-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context-heading",
+        "context-text"
+      ]
+    },
+    "context-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "context-text": {
+      "type": "Text",
+      "props": {
+        "text": "Stoiiic is a technical methodology educator (H4 RSI cooldown research, confluence analysis). The message discusses horizontal support and \"other forms of confidence\" which align with documented methodology but lacks full conversation context with @SailorManCrypto.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "classification-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification Uncertain",
+        "message": "Unable to classify — is this: (a) educational opinion-sharing, (b) trade idea suggestion, or (c) personal entry confirmation? What's your read?",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "separator-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-link"
+      ]
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Stoiiic/status/20928508338722776"
+      },
+      "children": []
+    }
+  }
+}
