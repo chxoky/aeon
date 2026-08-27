@@ -1,13 +1,10 @@
-🐦 *[X] @Wild_Randomness*
+🔍 *Calibration — @swarmister*
 
-Look at the timing where correlation blew out (red windows)
+Event: Reply to @0xbags (original message not visible)
+@swarmister: "Same"
 
-Q4 2020
+Context: 9 minutes after swarmister's ETH technical setup analysis (14:03Z); within sequence of multiple bare cryptic replies today (14:10Z "HIGH RISK!!!!", 12:51Z "?", 11:24Z "Yea zero"). Unable to determine intent — agreement on trade, sentiment alignment, dismissal, or unrelated banter?
 
-Q4 2022
+Unable to classify — what's your read?
 
-I.e. it seems rising correlation with gold is an early bull signal for BTC, but the best (most sustainable) action is when correlation realizes from this high of level
-
-[View tweet](https://x.com/Wild_Randomness/status/2092989670179393689)
-
-↳ _Macro correlation timing thesis aligns with KillaXBT's structural bull conviction and group emerging net-long positioning on crypto._
+[View post](https://x.com/swarmister/status/2092991084460753242)
