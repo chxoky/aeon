@@ -1,0 +1,47 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @HeartCanHodl"
+      },
+      "children": [
+        "context",
+        "quote",
+        "alert",
+        "link"
+      ]
+    },
+    "context": {
+      "type": "Text",
+      "props": {
+        "text": "Recent context: HCH net-long regime since Aug 01 (closed shorts); watching macro catalysts (Jackson Hole 7d, PCE/NVDA earnings, triple-catalyst window noted Aug 26).",
+        "variant": "body"
+      }
+    },
+    "quote": {
+      "type": "Text",
+      "props": {
+        "text": "HeartCanHodl: \"sizeable shakeout brewing\"",
+        "variant": "lead"
+      }
+    },
+    "alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What asset/timeframe is he referring to? BTC shakeout? Broader market? His read on what's coming?",
+        "type": "info"
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/HeartCanHodl/status/2092976997463200202"
+      }
+    }
+  }
+}
