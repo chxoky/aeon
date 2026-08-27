@@ -434,6 +434,7 @@
   - Aug 20 23:38Z — ambiguous: "95% flat / didn't rebuy / conditional short punt if big wipe candle or SFP" [$BTC-IMPLIED] [2090584401818100124]
   - Aug 20 21:47Z — informational: SHIB bullish narrative commentary; "two wolves" meme — internal conflict on narrative vs position [$SHIB] [2090556286886687163]
   - Aug 20 17:19Z — informational: BTC post-breakout structure charts; 74K VAH as next resistance; shorts at 74-75K "probably good attempt" [$BTC] [2090488869510602954]
+  - Aug 27 01:46Z — informational: ETH cup-and-handle pattern technical observation; volume profile consolidation structure with handle forming after cup bottom; bullish continuation setup signal per classical chart pattern; no personal execution language; implied uptrend continuation bias [$ETH-CUP-HANDLE] [2092790880792871165]
   - Aug 27 01:04Z — informational: "the three titans trifecta" — detailed analysis of cashcat (Solana), ansem (Robinhood chain), basecat (Base) as ecosystem proxies; bullish thesis (cashcat/ansem will hit 1B mcap each); contrarian vs ansem (most narcissistic) on Solana; basecat "comfily in 9 figures"; no personal execution (pure opinion/analysis) [$CASHCAT/$ANSEM/$BASECAT/$SOL/$HOOD/$BASE] [2092780291865641065]
 
 ## Stoiiic
