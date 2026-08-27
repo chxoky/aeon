@@ -1,0 +1,165 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X-Trader Monitor"
+      },
+      "children": [
+        "tweet_card",
+        "sep1",
+        "heading_price",
+        "text_price",
+        "stat_peak",
+        "stat_crash",
+        "sep2",
+        "heading_inefficiency",
+        "stack_bullets",
+        "sep3",
+        "text_conviction",
+        "sep4",
+        "heading_chart",
+        "text_chart",
+        "text_execution",
+        "sep5",
+        "link_tweet"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "@bull_genius",
+        "text": "FWA protocol design critique on fairlaunch mechanics"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_price": {
+      "type": "Heading",
+      "props": {
+        "text": "Price Action",
+        "level": "h3"
+      }
+    },
+    "text_price": {
+      "type": "Text",
+      "props": {
+        "text": "Bankless article + slow 2nd launch caused price spike (\"hit the towers\") then crash"
+      }
+    },
+    "stat_peak": {
+      "type": "Stat",
+      "props": {
+        "label": "Peak price",
+        "value": "0.02768"
+      }
+    },
+    "stat_crash": {
+      "type": "Stat",
+      "props": {
+        "label": "Crash to",
+        "value": "0.01871"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_inefficiency": {
+      "type": "Heading",
+      "props": {
+        "text": "Multi-part Inefficiency",
+        "level": "h3"
+      }
+    },
+    "stack_bullets": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_bullet1",
+        "text_bullet2",
+        "text_bullet3"
+      ]
+    },
+    "text_bullet1": {
+      "type": "Text",
+      "props": {
+        "text": "Backers: Random mint unfair (5 spins = 0, lost money); OS secondary 20% cheaper than backing"
+      }
+    },
+    "text_bullet2": {
+      "type": "Text",
+      "props": {
+        "text": "Minters: If stall + 100s NFTs claim, supply dumps + bearish catalyst"
+      }
+    },
+    "text_bullet3": {
+      "type": "Text",
+      "props": {
+        "text": "Sentiment: Right team will solve; bullish long-term"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_conviction": {
+      "type": "Text",
+      "props": {
+        "text": "Future conviction: \"look for entries when this chills\""
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_chart": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart & Execution",
+        "level": "h3"
+      }
+    },
+    "text_chart": {
+      "type": "Text",
+      "props": {
+        "text": "15m FWA/USD pump-dump from catalyst timing"
+      }
+    },
+    "text_execution": {
+      "type": "Text",
+      "props": {
+        "text": "No current execution"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/bull_genius/status/2093098953848017240"
+      }
+    }
+  }
+}
