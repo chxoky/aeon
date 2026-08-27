@@ -1,0 +1,107 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "X Trading Analysis & Market Outlook"
+      },
+      "children": [
+        "tweet-card",
+        "separator-1",
+        "metrics-section",
+        "separator-2",
+        "technical-section",
+        "separator-3",
+        "link-to-post"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "@swarmister",
+        "text": "$XRP 1W (Game Plan for the Next 1.5–2 Months) A 185% increase is highly likely.\n\nThe long-term outlook is VERY bullish.\n\nPrice action shows clear signs of accumulation and the end of the corrective move that began last July.\n\nThe newly formed BPR range on the monthly timeframe serves as a Point of Interest (POI) for position-trading buys. Its rebalancing is highly likely to act as a catalyst for the continuation of the upward Order Flow."
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "metrics-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-185-increase",
+        "stat-189-potential"
+      ]
+    },
+    "stat-185-increase": {
+      "type": "Stat",
+      "props": {
+        "label": "Predicted Increase (1.5–2 months)",
+        "value": "185%",
+        "trend": "up"
+      }
+    },
+    "stat-189-potential": {
+      "type": "Stat",
+      "props": {
+        "label": "Movement Potential",
+        "value": "+189%",
+        "trend": "up"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "technical-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "technical-heading",
+        "technical-text"
+      ]
+    },
+    "technical-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Technical Analysis",
+        "level": "h3"
+      }
+    },
+    "technical-text": {
+      "type": "Text",
+      "props": {
+        "text": "Chart shows weekly consolidation at ~1.46-1.65 (BPR zone); bullish reversal setup with technical targets toward $2.70+ territory.",
+        "variant": "body"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link-to-post": {
+      "type": "Link",
+      "props": {
+        "label": "View post on X",
+        "href": "https://x.com/swarmister/status/2093000880421310707"
+      }
+    }
+  }
+}
