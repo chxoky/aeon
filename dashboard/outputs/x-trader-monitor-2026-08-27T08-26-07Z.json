@@ -1,0 +1,94 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-calibration",
+        "text-context",
+        "separator-1",
+        "tweet-killaXBT",
+        "separator-2",
+        "alert-analysis",
+        "separator-3",
+        "text-questions"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration — @KillaXBT",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text-context": {
+      "type": "Text",
+      "props": {
+        "text": "Context: Aug 27 08:20:46 UTC — BTC market cycle chart showing completion phases (Top → Complacency → Test Dump → Final Retest → Dead Cat → Bottom Formation → Pending).",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "tweet-killaXBT": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "text": "Thanks for playing. $BTC"
+      },
+      "children": []
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert-analysis": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Chart shows cycle structure with current status at bottom-formation inflection, but message intent is cryptic/sarcastic.",
+        "type": "info"
+      },
+      "children": []
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text-questions": {
+      "type": "Text",
+      "props": {
+        "text": "Is this a position closure? Sentiment on cycle completion? What's your read?",
+        "variant": "lead"
+      },
+      "children": []
+    }
+  }
+}
