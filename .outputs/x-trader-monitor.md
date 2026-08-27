@@ -1,18 +1,11 @@
-➕ *Conviction Add — @bull_genius*
+🐦 *[X] @Wild_Randomness*
 
-bull_genius just added to their BTC spot position on dips.
+Starting to see some pre-JHole derisking…
 
-"i used those dips to add on spot im not getting cute waiting for lower on spot"
+An encouraging and necessary step if bulls are going to get follow-through
 
-Technical context: BTC at 365d rolling VWAP second tap; support at 2026 VAH → ATH AVWAP; consolidation between 73-85k range with potential 83-85k overshoot before 73-75k scare. DCA philosophy: "positivity + patience. buy the dips." No leverage.
+They can buy it all back after Warsh is finished his world salad tomorrow
 
-[View post](https://x.com/bull_genius/status/2093037936883462280)
+[View post](https://x.com/Wild_Randomness/status/2093041069114212401)
 
-Want to add to your BTC spot too?
-🐦 *[X] @swarmister*
-
-Trading methodology — ICT (Inner Circle Trading) framework. Uses IFVG/FVG + BPR crossover for entries. Emphasizes high-quality BPRs aligned with HTF structure + liquidity over generic BPR occurrences.
-
-I'm @I_Am_The_ICT student📊
-
-https://x.com/swarmister/status/2093038244136878205
+↳ Sentiment at cycle-high bearishness (44.4% vs 31.5% historical), QQQ consolidation structure validated. Bullish take on dips into Jackson Hole event.
