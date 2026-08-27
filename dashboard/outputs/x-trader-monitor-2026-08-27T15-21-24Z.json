@@ -1,0 +1,44 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @swarmister",
+        "description": "Event: Reply to @based16z about position exit timing"
+      },
+      "children": [
+        "tweet_card",
+        "alert_classify",
+        "link_post"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "That's what I meant @based16z\n\nI sold 50% of my position at gud profit on the spot here"
+      },
+      "children": []
+    },
+    "alert_classify": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Which position was sold? (SOL? SNDK? Other?)",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/swarmister/status/2092994785585828224"
+      },
+      "children": []
+    }
+  }
+}
