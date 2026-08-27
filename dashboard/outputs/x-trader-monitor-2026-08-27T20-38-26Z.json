@@ -1,0 +1,60 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet_content",
+        "separator1",
+        "trading_analysis"
+      ]
+    },
+    "tweet_content": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Crypto_Chase",
+        "handle": "@Crypto_Chase",
+        "text": "Jackson Hole tomorrow. If we get a pullback on crypto assets, I like bitcoin:native at 76.2K and $HYPE at 76.6.\n\nThat would be a retest of the local range low for BTC and a wipe out of built-up liquidity on HYPE."
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "trading_analysis": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_btc",
+        "stat_hype"
+      ]
+    },
+    "stat_btc": {
+      "type": "Stat",
+      "props": {
+        "label": "Bitcoin Target",
+        "value": "76.2K"
+      },
+      "children": []
+    },
+    "stat_hype": {
+      "type": "Stat",
+      "props": {
+        "label": "$HYPE Target",
+        "value": "76.6"
+      },
+      "children": []
+    }
+  }
+}

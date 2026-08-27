@@ -225,6 +225,7 @@
 - Recent thesis: Technical entry trader; breakaway gap thesis (bid at higher liquidity levels); HYPE/ETH liq flush setups. No interest in shorts unless "super clean" setup (Aug 22 13:28Z). Indifferent to whether bottom is in; focuses on high-probability setups. Order layering: 3-5 tranches at varying demand zones.
 - Conviction notes: Known for correct ~20-min pre-BTC-breakout call Aug 20. Community educator on layering strategy + order discipline. Track record: HYPE/ETH reads correct, equities liquidity reads sharp (per Aug 23 15:02Z self-assessment). ETH macro short position ("sub 50% area", Aug 20 17:28Z) appears superseded by bullish stance.
 - Last seen: 2026-08-27T20:34:00Z
+- Last seen: 2026-08-27T20:32:48Z
 - **Events (rolling):**
   - Aug 20 12:54Z — informational (X): "would've said I'm long for the pop" ~20min pre-BTC-breakout call [$BTC] [2090422155187991025]
   - Aug 20 17:28Z — trade-new-entry: "macro move, shorting in sub 50% area" (Discord Crypto supporting) [$MACRO-SHORT] [15400497794779023647]
@@ -274,6 +275,7 @@
   - Aug 27 19:52Z — informational (Discord Crypto supporting): "If I was looking to get short, I'd probably need to see the range high and box impulsed through, and then potentially on a retest, but it is tough to short" — technical setup discussion on hypothetical short entry conditions; conditional language ("If I was looking") + setup requirements, not personal execution; supporting-channel conviction/technical analysis; chart attachment context validates technical level discussion [$SHORT-SETUP-HYPOTHESIS] [1542622847598465155]
   - Aug 27 20:10Z — informational (Discord Crypto supporting): "No, after strong initial impulses you only get shallow pullbacks. If you're looking for a discount then you're looking a couple months out potentially." — market sentiment on BTC structure; time-frame outlook on discount entry; supporting-channel conviction statement; no personal execution language [$BTC-PULLBACK-OUTLOOK] [1542627501296328795]
   - Aug 27 20:34Z — ambiguous (Discord Crypto supporting): "I don't use H12" — cryptic statement with no context or referenced_message; unclear whether personal opinion, response to member question (H12 = tool/indicator/timeframe?), or trading style affirmation; no execution language or financial signal; HR-2 calibration alert sent to Kyle [$UNKNOWN] [1542633304489066577]
+  - Aug 27 20:32Z — informational (X): Jackson Hole event pullback setup; conditional dip-buy levels "if we get a pullback" targeting bitcoin:native 76.2K + $HYPE 76.6 (liquidity flush retest thesis); technical structure observation, no personal execution language [$BTC/$HYPE] [2093074271895494816]
 
 ## KillaXBT
 
