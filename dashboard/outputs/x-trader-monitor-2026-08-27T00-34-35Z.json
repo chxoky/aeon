@@ -1,0 +1,141 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @Wild_Randomness"
+      },
+      "children": [
+        "stack_event",
+        "separator1",
+        "stack_current",
+        "separator2",
+        "stack_classify",
+        "separator3",
+        "link_post",
+        "text_closing"
+      ]
+    },
+    "stack_event": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_event",
+        "text_event"
+      ]
+    },
+    "heading_event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "ENA dump to 0.1360 (~2h30min earlier, Aug 26 21:57Z). Prior post cryptic: \"TWAP in/TWAP out/TWAP in (?)\""
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "stack_current": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_current",
+        "text_current"
+      ]
+    },
+    "heading_current": {
+      "type": "Heading",
+      "props": {
+        "text": "Current",
+        "level": "h3"
+      }
+    },
+    "text_current": {
+      "type": "Text",
+      "props": {
+        "text": "\"0.136 you say?\""
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "stack_classify": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_classify",
+        "text_classify_q",
+        "text_classify_1",
+        "text_classify_2",
+        "text_classify_3"
+      ]
+    },
+    "heading_classify": {
+      "type": "Heading",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "level": "h3"
+      }
+    },
+    "text_classify_q": {
+      "type": "Text",
+      "props": {
+        "text": "Options:"
+      }
+    },
+    "text_classify_1": {
+      "type": "Text",
+      "props": {
+        "text": "• Sarcasm on the ENA move?"
+      }
+    },
+    "text_classify_2": {
+      "type": "Text",
+      "props": {
+        "text": "• Questioning someone else's analysis at that level?"
+      }
+    },
+    "text_classify_3": {
+      "type": "Text",
+      "props": {
+        "text": "• Trade execution confirmation (TWAP fills)?"
+      }
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2092772080874066241"
+      }
+    },
+    "text_closing": {
+      "type": "Text",
+      "props": {
+        "text": "Need clarification to avoid future ambiguity on ENA positioning.",
+        "variant": "muted"
+      }
+    }
+  }
+}
