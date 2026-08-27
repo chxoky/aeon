@@ -1,0 +1,101 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor",
+        "description": "Silver trade analysis from @Wild_Randomness"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badges_stack",
+        "tweet_card",
+        "link_post",
+        "separator_1",
+        "analysis_section"
+      ]
+    },
+    "badges_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_slv",
+        "badge_xag"
+      ]
+    },
+    "badge_slv": {
+      "type": "Badge",
+      "props": {
+        "text": "$SLV",
+        "variant": "secondary"
+      }
+    },
+    "badge_xag": {
+      "type": "Badge",
+      "props": {
+        "text": "$XAG",
+        "variant": "secondary"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Certainly a timely move into silver…\n\nChart is looking pretty good for what is hopefully a bullish push into the end of the year"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2093052545551798528"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "analysis_heading",
+        "analysis_details"
+      ]
+    },
+    "analysis_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Technical Structure",
+        "level": "h4"
+      }
+    },
+    "analysis_details": {
+      "type": "Text",
+      "props": {
+        "text": "Weekly/daily consolidation recovery (bullish MA alignment, multi-level support 55.60/58.82/65.42, current 59.49). Strong 2x recovery from lows validating bullish recovery pattern. Aligns with Aug 21 gold/silver parallel thesis.",
+        "variant": "body"
+      }
+    }
+  }
+}
