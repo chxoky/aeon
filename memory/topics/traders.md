@@ -5,8 +5,9 @@
 - Recent thesis: Equities/vol specialist; dispersion-trade framework; bearish equities into Oct; GOLD/crypto won't make new lows even if equities do; BTC liq map structurally different ("bearish skew but buy-side ramping"). Not levered ("can't with liq map like this"). Conditional BTC reversion play above 74.5K if funding/OI stretched.
 - Conviction notes: High-conviction technical analyst on equities; vixpiry/OPEX structure commentary; macro dispersion positioning. Bear mode experiment failed Aug 20. "Scar tissue" from forced loss at 68K. HYPE/LIT = gold/silver parallel; ratio at 27-28 (down from 55 peak). URL-only posts = noise per calibration.
 - Calibration: PENDING Aug 23 19:05Z (cryptic "@QOTSA_FRL Its a 65% move to 126" — asset/context unknown), PENDING Aug 21 20:10Z (conditional LEAPS comment — unspecified asset)
-- Last seen: 2026-08-27T19:06:28Z
+- Last seen: 2026-08-27T19:15:35Z
 - **Events (rolling):**
+  - Aug 27 19:15Z — informational: $HYPE technical multi-timeframe recovery structure; 1D/4H/1W consolidation pattern validation, resistance zones progression 60-76; bullish MA alignment; chart-only analysis no execution [$HYPE] [2093054838913524116]
   - Aug 27 19:06Z — informational: $SLV/$XAG technical bullish consolidation recovery; multi-timeframe bullish MA alignment, support zones 55.60/58.82/65.42, consolidation above support on 59.49 current; price-target outlook "bullish push into end of year"; charts show strong 2x recovery off lows; no personal execution language; aligns with Aug 21 gold/silver parallel thesis [$SLV/$XAG-SILVER] [2093052545551798528]
   - Aug 27 18:52Z — informational: NVDA exit confirmation (closed 14:39Z) + technical level 229 support observation + focus shift to QQQ longs; reply to @WBigbucks; no new execution language; reaffirms prior QQQ long bias from Aug 25 [$NVDA/$QQQ] [2093048940082159684]
   - Aug 27 18:50Z — informational: $SPCX unlock pattern + Q correlation timing analysis; Sept 17-27 shorts window inferred, early-Oct tradeable bottom; technical/macro observation no personal execution [$SPCX-UNLOCK] [2093048490897396068]
