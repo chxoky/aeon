@@ -1,0 +1,58 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @t_in_crypto",
+        "description": "x-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event_context",
+        "tweet_card",
+        "unable_classify",
+        "link_post"
+      ]
+    },
+    "event_context": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Aug 14 bottom prediction + group conversation (context not visible)"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "handle": "t_in_crypto",
+        "text": "@Lambda0426813 @@Alulim123gmail1 On August 14, I marked the bottom and said we'd see an important top 20-21. I told my group that a breakout above 78 would lead us to X target on X pivot day"
+      }
+    },
+    "unable_classify": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read? The 'X target on X pivot day' and 'breakout above 78' are unclear without original context.",
+        "type": "info"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/t_in_crypto/status/2093024771617304932"
+      }
+    }
+  }
+}
