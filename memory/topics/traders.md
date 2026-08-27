@@ -96,6 +96,7 @@
   - Aug 26 21:57Z — ambiguous: ENA dump -4.83% to 0.1360; "TWAP in/TWAP out/TWAP in (?)" cryptic post; unclear if past trade execution + re-entry question or technical observation; calibration sent [$ENA] [2092733090527629689]
   - Aug 26 22:00Z — ambiguous: "@Naskoludurudlol Laid groundwork hrs ago / needed TWAP to progress b4 showed hand"; cryptic ref recent WMT entry (19:52Z) or other; calibration sent [$UNKNOWN] [2092734064839278593]
   - Aug 26 23:54Z — ambiguous: "$ZEC https://t.co/WKsQfk6CCD" — ticker + link + 5 media images (sandbox prevented read); unable to determine intent (chart/position/sentiment) without images; HR-2 calibration sent [$ZEC] [2092762568859521295]
+  - Aug 27 00:01Z — informational: Nasdaq E-mini consolidation pattern 28K-30.5K; complex pullback with support/resistance structure + downtrending trendline; aligns with bearish-equities-into-Oct thesis [$NASDAQ] [2092764375857963350]
 
 ## Bitcoin_Astro
 

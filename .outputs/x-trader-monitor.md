@@ -1,8 +1,8 @@
-🔍 *Calibration — @Wild_Randomness*
+🐦 *[X] @Wild_Randomness*
 
-Event: ZEC is open position (confirmed Aug 21); trader recently posted technical analysis on ZEC levels (Aug 25 13:17Z, 21:10Z). 5 media attachments included but unreadable (sandbox limitation).
+Complex Pullback on my Nasdaq https://t.co/2xMptkUjKA
 
-Wild_Randomness: "$ZEC https://t.co/WKsQfk6CCD"
+📊 Technical signal: Nasdaq E-mini consolidation (28K-30.5K range) with complex pullback structure, support/resistance levels marked, and downtrending trendline. Aligns with their bearish-equities-into-Oct positioning.
 
 Unable to classify — technical chart/position update/market sentiment? What's your read?
 
@@ -14,3 +14,4 @@ $QQQ — 7 hours later... More than halfway there. Seems a little more believabl
 Cryptic validation of Aug 26 16:11Z bearish structure prediction (POC rejected, targeting $730 EOW). Post contains 4 chart images showing progress.
 
 [View tweet](https://x.com/Wild_Randomness/status/2092763759387574639)
+[View post](https://x.com/Wild_Randomness/status/2092764375857963350)
