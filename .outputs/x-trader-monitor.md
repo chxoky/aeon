@@ -13,3 +13,12 @@ The tweet "@Lambda0426813 @Alulim123gmail1 For what?" is a bare clarification qu
 - ✓ Event logged silently to daily log (memory/logs/2026-08-27.md)
 - ✓ No alert sent to Kyle
 - ✓ No traders.md event entry added (skip events omitted per protocol)
+🔍 *Calibration — @t_in_crypto*
+
+Event: Reply to @Alulim123gmail1 (original message context not visible)
+
+t_in_crypto: "It's not that simple, and no, my target is a little different"
+
+Unable to classify — what's your read? Is this about BTC, a different asset, or general trade philosophy? What target is being referenced?
+
+[View tweet](https://x.com/t_in_crypto/status/2092925374061564361)
