@@ -1,0 +1,100 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "mirrored_badge",
+        "tweet_card",
+        "stat",
+        "sep1",
+        "analysis_stack",
+        "link"
+      ]
+    },
+    "mirrored_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Mirrored — @Wild_Randomness",
+        "variant": "secondary"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Just closed NVDA long at $225.97 (+7.74% daily post-earnings)."
+      }
+    },
+    "stat": {
+      "type": "Stat",
+      "props": {
+        "label": "NVDA Long (Closed)",
+        "value": "$225.97",
+        "delta": "+7.74%",
+        "trend": "up"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_text",
+        "tech_analysis",
+        "sentiment"
+      ]
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "Closed position reflects profitable exit on post-earnings strength rally.",
+        "variant": "body"
+      }
+    },
+    "tech_analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Prior technical analysis showed multi-timeframe support/resistance structure (targets toward 240, support at 214/206/198.50).",
+        "variant": "body"
+      }
+    },
+    "sentiment": {
+      "type": "Text",
+      "props": {
+        "text": "Trader sentiment: 'probably underperforms from here' — bearish outlook after taking profits.",
+        "variant": "body"
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2092985425921200358"
+      }
+    }
+  }
+}

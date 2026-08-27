@@ -1,11 +1,7 @@
-🐦 *[X] @Wild_Randomness*
+🔁 *Mirrored — @Wild_Randomness*
 
-Absolute monkeys…
+Wild_Randomness just closed NVDA long at $225.97 (+7.74% daily post-earnings).
 
-Remember yesterday when all the flow was bright red?
+Closed position reflects profitable exit on post-earnings strength rally. Prior technical analysis showed multi-timeframe support/resistance structure (targets toward 240, support at 214/206/198.50). Trader sentiment: "probably underperforms from here" — bearish outlook after taking profits.
 
-[Options flow table: QQQ/NVDA call options data showing multi-strike positions, primarily Call spreads, Sweeps, and Blocks across Aug 2026 - 2027 expiries]
-
-Classification: Options market sentiment commentary on bearish/red flow (sell-side flow) observed yesterday. No personal execution signal — informational technical observation on options flow dynamics.
-
-[View tweet](https://x.com/Wild_Randomness/status/2092984299901616610)
+[View post](https://x.com/Wild_Randomness/status/2092985425921200358)
