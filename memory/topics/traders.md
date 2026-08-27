@@ -8,6 +8,9 @@
 - Last seen: 2026-08-27T18:50:21Z
 - **Events (rolling):**
   - Aug 27 18:50Z — informational: $SPCX unlock pattern + Q correlation timing analysis; Sept 17-27 shorts window inferred, early-Oct tradeable bottom; technical/macro observation no personal execution [$SPCX-UNLOCK] [2093048490897396068]
+- Last seen: 2026-08-27T18:52:08Z
+- **Events (rolling):**
+  - Aug 27 18:52Z — informational: NVDA exit confirmation (closed 14:39Z) + technical level 229 support observation + focus shift to QQQ longs; reply to @WBigbucks; no new execution language; reaffirms prior QQQ long bias from Aug 25 [$NVDA/$QQQ] [2093048940082159684]
   - Aug 27 18:44Z — informational: $EQUITIES/$MACRO Jackson Hole bearish hedge sentiment; "guaranteed decline" conviction thesis, defensive positioning recommendation; no personal execution language [$EQUITIES/$MACRO] [2093046932025532571]
   - Aug 27 18:37Z — informational: $AMZN selling pressure commentary; "They thought it was going to break out, so I reminded them I have over 200B to sell still"; technical charts show daily consolidation 259.65 (-1.15%) and weekly structure; market structure observation on seller power, no personal execution language; Step 7 image analysis resolved technical structure [$AMZN] [2093045260142391547]
   - Aug 27 18:20Z — informational: Pre-Jackson Hole derisking macro sentiment; "encouraging and necessary step if bulls are going to get follow-through"; sentiment chart 44.4% bearish (vs 31.5% historical), QQQ consolidation 708.50 (-0.31%) with key levels 740/720/680; bullish take on bearish backdrop; "buy it all back after Warsh is finished" post-event re-entry thesis. Step 7 image analysis: sentiment votes trending toward bearishness all week, QQQ consolidation validates healthy pullback. No personal execution language. [$QQQ/$SENTIMENT/$MACRO] [2093041069114212401]

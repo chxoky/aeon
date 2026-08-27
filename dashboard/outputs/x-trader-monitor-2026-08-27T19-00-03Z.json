@@ -1,0 +1,43 @@
+{
+  "root": "card1",
+  "state": {},
+  "elements": {
+    "card1": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "stack1"
+      ]
+    },
+    "stack1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet1",
+        "link1"
+      ]
+    },
+    "tweet1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Out of NVDA, needs to hold above 229.\n\nMore focused on QQQ longs."
+      },
+      "children": []
+    },
+    "link1": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2093048940082159684"
+      },
+      "children": []
+    }
+  }
+}
