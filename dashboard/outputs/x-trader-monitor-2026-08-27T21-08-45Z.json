@@ -1,0 +1,64 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "calibration",
+        "event-details",
+        "separator",
+        "classification"
+      ]
+    },
+    "calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @swarmister",
+        "level": "h3"
+      }
+    },
+    "event-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event-line",
+        "reply-content"
+      ]
+    },
+    "event-line": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @Ehn_7H @loli_roller (context not visible)",
+        "variant": "body"
+      }
+    },
+    "reply-content": {
+      "type": "Text",
+      "props": {
+        "text": "swarmister: \"Nope. Mine.\"",
+        "variant": "lead"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read?",
+        "type": "info"
+      }
+    }
+  }
+}
