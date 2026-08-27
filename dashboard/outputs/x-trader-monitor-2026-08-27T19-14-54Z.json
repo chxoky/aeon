@@ -1,0 +1,87 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading-calibration",
+        "separator-1",
+        "stack-event",
+        "separator-2",
+        "alert-pattern"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @swarmister",
+        "level": "h2"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack-event": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-event",
+        "text-message",
+        "text-analysis",
+        "link-post"
+      ]
+    },
+    "text-event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Cryptic truncated reply to @OnlyZen_PK",
+        "variant": "body"
+      }
+    },
+    "text-message": {
+      "type": "Text",
+      "props": {
+        "text": "swarmister: \"@OnlyZen_PK If…\"",
+        "variant": "lead"
+      }
+    },
+    "text-analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — message ends at 'If…' (incomplete/truncated). Unable to determine if trade signal, agreement on market view, or personal commentary.",
+        "variant": "body"
+      }
+    },
+    "link-post": {
+      "type": "Link",
+      "props": {
+        "label": "Full post",
+        "href": "https://x.com/swarmister/status/2093052910733066517"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert-pattern": {
+      "type": "Alert",
+      "props": {
+        "title": "Pattern Flagging",
+        "message": "3+ cryptic bare replies from swarmister in final 2h:\n• 11:53Z: '5 eth'\n• 14:10Z: 'HIGH RISK!!!'\n• 19:07Z: 'If…'\n\nPossible manic activity or payload issues.",
+        "type": "warning"
+      }
+    }
+  }
+}
