@@ -1,0 +1,207 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "ENA Recovery Bullish Convergence",
+        "description": "3-Trader emerging bullish thesis on ENA"
+      },
+      "children": [
+        "tweet-card",
+        "separator-1",
+        "price-stat",
+        "separator-2",
+        "analysis-stack",
+        "quote-text",
+        "separator-3",
+        "traders-convergence",
+        "chart-link"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "ENA recovery bullish technical chart analysis. Current 0.1638 (+11.05%). Chart shows 2H consolidation at lows after 86% prior decline (1.20→0.1638)."
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "price-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "ENA Price",
+        "value": "0.1638",
+        "delta": "+11.05%",
+        "trend": "up"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis-heading",
+        "analysis-text",
+        "support-zones"
+      ]
+    },
+    "analysis-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart Analysis",
+        "level": "h3"
+      }
+    },
+    "analysis-text": {
+      "type": "Text",
+      "props": {
+        "text": "2H consolidation at lows after 86% prior decline from 1.20 to 0.1638. Multi-level support zones visible."
+      }
+    },
+    "support-zones": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "support-heading",
+        "support-grid"
+      ]
+    },
+    "support-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Support Zones",
+        "level": "h4"
+      }
+    },
+    "support-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 4,
+        "gap": "sm"
+      },
+      "children": [
+        "support-075",
+        "support-055",
+        "support-035",
+        "support-020"
+      ]
+    },
+    "support-075": {
+      "type": "Badge",
+      "props": {
+        "text": "0.75"
+      }
+    },
+    "support-055": {
+      "type": "Badge",
+      "props": {
+        "text": "0.55"
+      }
+    },
+    "support-035": {
+      "type": "Badge",
+      "props": {
+        "text": "0.35"
+      }
+    },
+    "support-020": {
+      "type": "Badge",
+      "props": {
+        "text": "0.20"
+      }
+    },
+    "quote-text": {
+      "type": "Text",
+      "props": {
+        "text": "\"Above there, much higher I suppose\" — bullish outlook IF price breaks above current consolidation.",
+        "variant": "lead"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "traders-convergence": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "convergence-heading",
+        "convergence-alert",
+        "traders-table"
+      ]
+    },
+    "convergence-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "3-Trader Emerging Bullish Convergence",
+        "level": "h3"
+      }
+    },
+    "convergence-alert": {
+      "type": "Alert",
+      "props": {
+        "message": "ENA upgraded from 2-trader to 3-trader emerging bullish thesis",
+        "type": "success"
+      }
+    },
+    "traders-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Trader",
+          "Date",
+          "Narrative"
+        ],
+        "rows": [
+          [
+            "trading_axe",
+            "Aug 21",
+            "ENA ETH-beta narrative"
+          ],
+          [
+            "Stoiiic",
+            "Aug 22",
+            "weekly recovery structure"
+          ],
+          [
+            "Wild_Randomness",
+            "Aug 27",
+            "2H technical chart"
+          ]
+        ]
+      }
+    },
+    "chart-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View Chart",
+        "href": "https://x.com/Wild_Randomness/status/2093007409862308110",
+        "source": "X/Twitter"
+      }
+    }
+  }
+}
