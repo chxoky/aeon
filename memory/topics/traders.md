@@ -583,7 +583,7 @@
 - Recent thesis: BTC IV at historic lows; Sep historically vol bottom (2023+2025 precedents); straddle/strangle setups direction-neutral. SPCX calendar spread thesis (sell Sep straddle, buy Oct; IV 110% vs RV 50%; max profit $1726). Market psychology: trader credibility commentary (CT bottom-buyers were watching Rainbet sponsorship videos last week, not calling longs). ETH call skew dynamics: z-score spikes correlate with market consolidation; rich OTM calls post-rally good selling candidates (naked/covered/risk-reversal/delta-hedged-ratio strategies).
 - Conviction notes: Educational framework only; no personal execution language. Options volatility specialist. First tracked Aug 21 13:49Z.
 - Calibration: PENDING Aug 26 08:37Z ("@btc_charlie @tradingriot yes" — bare reply, unable to determine context or intent), PENDING Aug 23 10:34Z ("@MajesticQuant no this only includes crypto markets" — scope clarification or signal?)
-- Last seen: 2026-08-26T08:37:32Z
+- Last seen: 2026-08-27T22:27:28Z
 - **Events (rolling):**
   - Aug 26 08:37Z — ambiguous: "@btc_charlie @tradingriot yes" — bare reply without context; unable to determine if confirmation of trade setup, agreement with sentiment, or other intent; calibration sent to Kyle [$UNKNOWN] [2092531882017636449]
   - Aug 25 14:20Z — informational: ETH call skew z-score spike correlation with market consolidation; 4 charts (IBIT skew projection, skew z-score vs forward return, ETH 25d skew history, options payoff diagrams); educational on OTM call selling strategies (naked/covered/risk-reversal/delta-hedged ratio) [$ETH-SKEW-VOL] [2092255885493932333]
