@@ -1,0 +1,69 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration — @swarmister"
+      },
+      "children": [
+        "heading_main",
+        "text_context",
+        "sep1",
+        "tweet_swarmister",
+        "sep2",
+        "alert_clarification"
+      ]
+    },
+    "heading_main": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @swarmister",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to @rottenAzoth333 (original message unavailable)",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "tweet_swarmister": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "HIGH RISK!!!!"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert_clarification": {
+      "type": "Alert",
+      "props": {
+        "title": "Clarification needed",
+        "message": "Unable to classify — what's your read? Is swarmister warning about something specific, or commenting on a market condition? Which asset/situation is \"HIGH RISK\" referring to?",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}
