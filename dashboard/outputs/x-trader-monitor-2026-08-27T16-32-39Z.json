@@ -1,0 +1,105 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X-trader-monitor"
+      },
+      "children": [
+        "source",
+        "stat_ratio",
+        "sep1",
+        "analysis_stack",
+        "sep2",
+        "link_tweet"
+      ]
+    },
+    "source": {
+      "type": "Text",
+      "props": {
+        "text": "🐦 [X] @Wild_Randomness",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "stat_ratio": {
+      "type": "Stat",
+      "props": {
+        "label": "NVDA/MAGS ratio recovery",
+        "value": "3.33",
+        "delta": "+7.43%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_subtitle",
+        "text_recovery",
+        "text_technical",
+        "text_volume"
+      ]
+    },
+    "text_subtitle": {
+      "type": "Text",
+      "props": {
+        "text": "Slowly outperforming Magnificent 7 basket",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_recovery": {
+      "type": "Text",
+      "props": {
+        "text": "Charts show V-shaped recovery from Feb 2024 capitulation (6.00→1.40 lows), now at +138% recovery.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_technical": {
+      "type": "Text",
+      "props": {
+        "text": "Bullish technical structure: moving averages aligned, RSI bouncing off oversold, consolidation breakout forming.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_volume": {
+      "type": "Text",
+      "props": {
+        "text": "Volume profile collapsed during recovery; structure validates ratio strength.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2093012961967354295"
+      },
+      "children": []
+    }
+  }
+}
