@@ -1,5 +1,7 @@
-🐦 *[X] @swarmister*
+🔍 *Calibration — @swarmister*
 
-ETH flash crash to 2483.40 on Hyperliquid 1m, recovered to 2505-2507 support consolidation. Sarcastic 'pico shmiko' commentary suggests non-threatening wick test; structure held.
+Context: Reply to @Shishir42069, posted Aug 27 11:24:43 UTC
 
-[View tweet](https://x.com/swarmister/status/2092934823165784082)
+@swarmister: "Yea zero"
+
+Unable to classify — what's your read? Is this a price target, position confirmation, agreement on a level, or something else?
