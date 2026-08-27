@@ -1,17 +1,13 @@
 🐦 *[X] @Wild_Randomness*
 
-Complex Pullback on my Nasdaq https://t.co/2xMptkUjKA
+Probably one of my better tweets of the day…
 
-📊 Technical signal: Nasdaq E-mini consolidation (28K-30.5K range) with complex pullback structure, support/resistance levels marked, and downtrending trendline. Aligns with their bearish-equities-into-Oct positioning.
+@_tolks 
 
-Unable to classify — technical chart/position update/market sentiment? What's your read?
+Always a good reminder that you need to accept and take risk in the face of uncertainty if you want to make outsized returns.
 
-[View post](https://x.com/Wild_Randomness/status/2092762568859521295)
-🐦 *[X] @Wild_Randomness*
+The key is to find spots where the market is overreacting to that uncertainty and take the asymmetric swings.
 
-$QQQ — 7 hours later... More than halfway there. Seems a little more believable now.
+Yes, it's just a 1.5% move, Korea can react poorly, we can reject POC here, we still have Jackson Hole, etc… so this can age poorly, but the point remains— gotta pick your spots when the "chart looks bad".
 
-Cryptic validation of Aug 26 16:11Z bearish structure prediction (POC rejected, targeting $730 EOW). Post contains 4 chart images showing progress.
-
-[View tweet](https://x.com/Wild_Randomness/status/2092763759387574639)
-[View post](https://x.com/Wild_Randomness/status/2092764375857963350)
+[View post](https://x.com/Wild_Randomness/status/2092768708372636122)

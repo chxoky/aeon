@@ -1,0 +1,33 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Wild_Randomness - Trading Insight"
+      },
+      "children": [
+        "tweet",
+        "link"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Probably one of my better tweets of the day…\n\n@_tolks\n\nAlways a good reminder that you need to accept and take risk in the face of uncertainty if you want to make outsized returns.\n\nThe key is to find spots where the market is overreacting to that uncertainty and take the asymmetric swings.\n\nYes, it's just a 1.5% move, Korea can react poorly, we can reject POC here, we still have Jackson Hole, etc… so this can age poorly, but the point remains— gotta pick your spots when the \"chart looks bad\"."
+      },
+      "children": []
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2092768708372636122"
+      },
+      "children": []
+    }
+  }
+}
