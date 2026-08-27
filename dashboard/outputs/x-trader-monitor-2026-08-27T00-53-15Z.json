@@ -1,0 +1,76 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Korean Index Algo Microstructure",
+        "description": "[INFORMATIONAL] @Wild_Randomness — 00:48Z (Aug 27)"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_observation",
+        "text_critique",
+        "sep_1",
+        "heading_analysis",
+        "text_analysis",
+        "sep_2",
+        "link_tweet"
+      ]
+    },
+    "text_observation": {
+      "type": "Text",
+      "props": {
+        "text": "XYZ100 + KOSPI 5m charts both showing identical spike-reject patterns with red arrow annotations. Charts display clear pump-and-dump structures driven by cascade effects (50T timeframe taking signals from 5T)."
+      }
+    },
+    "text_critique": {
+      "type": "Text",
+      "props": {
+        "text": "WR's critique: 'Ok enough of this meta where the 50T index takes signals from the 5T index. Turn those algos off.'"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_analysis": {
+      "type": "Heading",
+      "props": {
+        "text": "Analysis",
+        "level": "h3"
+      }
+    },
+    "text_analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Technical market structure observation on Korean index inefficiencies. No personal trade action. Alerts Kyle to potential intraday volatility patterns and algo-driven micro reversals in Korean equity derivatives."
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2092776148971487520"
+      }
+    }
+  }
+}

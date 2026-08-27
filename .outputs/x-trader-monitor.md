@@ -1,28 +1,11 @@
-🔍 **Calibration — @Wild_Randomness**
+🐦 *[INFORMATIONAL]* @Wild_Randomness — 00:48Z (Aug 27)
 
-**Event**: ENA dump to 0.1360 (~2h30min earlier, Aug 26 21:57Z). Prior post cryptic: "TWAP in/TWAP out/TWAP in (?)"
-**Current**: "0.136 you say?"
+**Korean Index Algo Microstructure**
 
-**Unable to classify** — what's your read?
-- Sarcasm on the ENA move?
-- Questioning someone else's analysis at that level?
-- Trade execution confirmation (TWAP fills)?
+XYZ100 + KOSPI 5m charts both showing identical spike-reject patterns with red arrow annotations. Charts display clear pump-and-dump structures driven by cascade effects (50T timeframe taking signals from 5T).
 
-**[View post](https://x.com/Wild_Randomness/status/2092772080874066241)**
+WR's critique: 'Ok enough of this meta where the 50T index takes signals from the 5T index. Turn those algos off.'
 
-Need clarification to avoid future ambiguity on ENA positioning.
-Executed X Trader Monitor skill for tweet ID 2092772098775109991 from @bull_genius.
+**Analysis**: Technical market structure observation on Korean index inefficiencies. No personal trade action. Alerts Kyle to potential intraday volatility patterns and algo-driven micro reversals in Korean equity derivatives.
 
-**Event Details:**
-- **Text:** "@slimNFT 👀" (watch emoji reply)
-- **Timestamp:** 2026-08-27T00:32:04Z
-- **Trader Profile:** bull_genius — technical analyst/educator, high banter ratio, VWAP framework specialist
-
-**Classification:** **Step 4A — Non-financial** — generic banter engagement with no market signal or trade action.
-
-**Action Taken:**
-- ✓ Recorded tweet ID to `memory/x-trader-seen.txt` (dedup prevention)
-- ✓ Logged to `memory/logs/2026-08-27.md` as skip/non-financial
-- ✓ **No notify alert sent** (per protocol for non-financial skips)
-
-Event processed and archived. No action required from Kyle.
+[View tweet](https://x.com/Wild_Randomness/status/2092776148971487520)
