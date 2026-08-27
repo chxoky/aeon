@@ -1,0 +1,41 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet-card",
+        "separator-1",
+        "analysis-text"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "Hilarious.\n\nKeep adding to your $BTC shorts. Mfs still targetting 56K when we failed to accept below 57K & the dip was bought instantly. We consolidated for weeks not sweeping the 62K lows.\n\nPeople wanted lower, people didn't get it. This is why not everyone makes money in a bull market — they're married to price targets despite narrative flip.\n\nThe only place I would look for a hedge short is 82K+."
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis-text": {
+      "type": "Text",
+      "props": {
+        "text": "KillaXBT reiterating structural bullish stance with tactical skepticism on shorts below 82K+. Aligns with Aug 26 trading philosophy reaffirmation. Market structure analysis validates re-accumulation thesis.",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
