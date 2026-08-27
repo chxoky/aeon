@@ -9,3 +9,10 @@ Technical context: BTC at 365d rolling VWAP second tap; support at 2026 VAH → 
 [View post](https://x.com/bull_genius/status/2093037936883462280)
 
 Want to add to your BTC spot too?
+🐦 *[X] @swarmister*
+
+Trading methodology — ICT (Inner Circle Trading) framework. Uses IFVG/FVG + BPR crossover for entries. Emphasizes high-quality BPRs aligned with HTF structure + liquidity over generic BPR occurrences.
+
+I'm @I_Am_The_ICT student📊
+
+https://x.com/swarmister/status/2093038244136878205
