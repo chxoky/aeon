@@ -224,7 +224,7 @@
 - Current open positions: HYPE long (entry Aug 21 14:10Z 3-confluence; 1/3 TP Aug 22 13:21Z; 2/3 ACTIVE). ETH long (entry Aug 22 22:01Z; 1/3 fill Aug 23 13:11Z; 1/3 partial TP Aug 23 13:55Z; ~2/3 ACTIVE, awaiting Kyle approval to mirror).
 - Recent thesis: Technical entry trader; breakaway gap thesis (bid at higher liquidity levels); HYPE/ETH liq flush setups. No interest in shorts unless "super clean" setup (Aug 22 13:28Z). Indifferent to whether bottom is in; focuses on high-probability setups. Order layering: 3-5 tranches at varying demand zones.
 - Conviction notes: Known for correct ~20-min pre-BTC-breakout call Aug 20. Community educator on layering strategy + order discipline. Track record: HYPE/ETH reads correct, equities liquidity reads sharp (per Aug 23 15:02Z self-assessment). ETH macro short position ("sub 50% area", Aug 20 17:28Z) appears superseded by bullish stance.
-- Last seen: 2026-08-27T20:10:56Z
+- Last seen: 2026-08-27T20:34:00Z
 - **Events (rolling):**
   - Aug 20 12:54Z — informational (X): "would've said I'm long for the pop" ~20min pre-BTC-breakout call [$BTC] [2090422155187991025]
   - Aug 20 17:28Z — trade-new-entry: "macro move, shorting in sub 50% area" (Discord Crypto supporting) [$MACRO-SHORT] [15400497794779023647]
@@ -273,6 +273,7 @@
   - Aug 26 20:25Z — skip (Discord TradFi supporting): "boring" — non-financial sentiment/banter; single-word market mood expression with no trade signal; supporting-channel chatter [1542268776056098906]
   - Aug 27 19:52Z — informational (Discord Crypto supporting): "If I was looking to get short, I'd probably need to see the range high and box impulsed through, and then potentially on a retest, but it is tough to short" — technical setup discussion on hypothetical short entry conditions; conditional language ("If I was looking") + setup requirements, not personal execution; supporting-channel conviction/technical analysis; chart attachment context validates technical level discussion [$SHORT-SETUP-HYPOTHESIS] [1542622847598465155]
   - Aug 27 20:10Z — informational (Discord Crypto supporting): "No, after strong initial impulses you only get shallow pullbacks. If you're looking for a discount then you're looking a couple months out potentially." — market sentiment on BTC structure; time-frame outlook on discount entry; supporting-channel conviction statement; no personal execution language [$BTC-PULLBACK-OUTLOOK] [1542627501296328795]
+  - Aug 27 20:34Z — ambiguous (Discord Crypto supporting): "I don't use H12" — cryptic statement with no context or referenced_message; unclear whether personal opinion, response to member question (H12 = tool/indicator/timeframe?), or trading style affirmation; no execution language or financial signal; HR-2 calibration alert sent to Kyle [$UNKNOWN] [1542633304489066577]
 
 ## KillaXBT
 

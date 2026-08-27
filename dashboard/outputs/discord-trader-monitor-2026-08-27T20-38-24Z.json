@@ -1,0 +1,72 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Calibration and classification analysis"
+      },
+      "children": [
+        "heading_calib",
+        "stack_content"
+      ]
+    },
+    "heading_calib": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: Chase — Crypto]",
+        "level": "h2"
+      }
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_context",
+        "separator_1",
+        "text_quote",
+        "separator_2",
+        "alert_unclear"
+      ]
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "Member: (no context — message lacks referenced_message field)",
+        "variant": "body"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_quote": {
+      "type": "Text",
+      "props": {
+        "text": "crypto_chase: \"I don't use H12\"",
+        "variant": "lead"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_unclear": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "H12 unclear (indicator? timeframe? external context?). What's the context?",
+        "type": "warning"
+      }
+    }
+  }
+}

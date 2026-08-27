@@ -24,3 +24,9 @@ The Discord message contains only a role mention and a link to an X post: `<@&12
 - ✅ No traders.md update (skip events are silent per Step 9 size discipline)
 
 **Dedup State:** This message has been recorded and will not be re-alerted if received again.
+🔍 *Calibration — [DC: Chase — Crypto]*
+
+Member: (no context — message lacks referenced_message field)
+crypto_chase: "I don't use H12"
+
+Unable to classify — H12 unclear (indicator? timeframe? external context?). What's the context?
