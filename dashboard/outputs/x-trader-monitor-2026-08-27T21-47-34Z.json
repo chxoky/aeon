@@ -1,0 +1,42 @@
+{
+  "root": "root-card",
+  "state": {},
+  "elements": {
+    "root-card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-card",
+        "chart-description",
+        "tweet-link"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Silver weekly POC test setup — technical observation. \"See what's up if/when we test POC\""
+      },
+      "children": []
+    },
+    "chart-description": {
+      "type": "Text",
+      "props": {
+        "text": "Chart shows multi-level consolidation structure on weekly XAUUSD; current 69.27 in consolidation zone with support/resistance boxes marked.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2093091942313972068"
+      },
+      "children": []
+    }
+  }
+}
