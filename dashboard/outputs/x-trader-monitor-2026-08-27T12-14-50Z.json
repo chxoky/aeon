@@ -1,0 +1,135 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor – TAO Signal",
+        "description": "Multi-trader convergence on TAO (Bittensor) with technical analysis"
+      },
+      "children": [
+        "tweet_card",
+        "sep1",
+        "technical_stack",
+        "sep2",
+        "convergence_stack",
+        "sep3",
+        "link_tweet"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "TAO (Bittensor) — $285.2 on 15m chart\n\n'not my favorite top pick for the cycle but it will definitely have its moment. was lagging for a bit this whole time now woke up'\n\n'i've not been exposed but prob going to try smtg like this if given the opportunity'"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "technical_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tech_heading",
+        "price_stat",
+        "support_text"
+      ]
+    },
+    "tech_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Multi-Timeframe Technical Analysis",
+        "level": "h3"
+      }
+    },
+    "price_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "TAO Current Price (15m)",
+        "value": "$285.2"
+      }
+    },
+    "support_text": {
+      "type": "Text",
+      "props": {
+        "text": "Support levels: 365D low ~$200, 90D ~$221.6, 30D ~$215.3. Bullish structure clearly marked. No personal entry yet."
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "convergence_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "conv_heading",
+        "traders_grid"
+      ]
+    },
+    "conv_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "3-Trader TAO Convergence Emerging",
+        "level": "h3"
+      }
+    },
+    "traders_grid": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trader1",
+        "trader2",
+        "trader3"
+      ]
+    },
+    "trader1": {
+      "type": "Text",
+      "props": {
+        "text": "HeartCanHodl — long Aug 03-06"
+      }
+    },
+    "trader2": {
+      "type": "Text",
+      "props": {
+        "text": "ryzzqq — long Jul 22"
+      }
+    },
+    "trader3": {
+      "type": "Text",
+      "props": {
+        "text": "bull_genius — bullish technical analysis Aug 27"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/bull_genius/status/2092947402692989238"
+      }
+    }
+  }
+}
