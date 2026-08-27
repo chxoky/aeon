@@ -1,0 +1,63 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor — NVDA"
+      },
+      "children": [
+        "tweet_card",
+        "separator1",
+        "ticker_badge",
+        "stat_price",
+        "text_analysis",
+        "link_view"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Strongest cash session reaction to an earnings report in over two years"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "ticker_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "$NVDA",
+        "variant": "default"
+      }
+    },
+    "stat_price": {
+      "type": "Stat",
+      "props": {
+        "value": "209.74",
+        "delta": "-1.54%",
+        "trend": "down"
+      }
+    },
+    "text_analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Technical consolidation structure on 1D showing support at 200-210 zone with resistance at 230.",
+        "variant": "body"
+      }
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2092980953052545264"
+      }
+    }
+  }
+}

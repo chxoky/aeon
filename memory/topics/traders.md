@@ -8,6 +8,9 @@
 - Last seen: 2026-08-27T14:19:31Z
 - **Events (rolling):**
   - Aug 27 14:19Z — informational: NVDA post-earnings bullish momentum continuation; charts show breakout above 225 resistance with targets toward 240; support established 214/206/198.50; multi-timeframe bullish alignment validates prior +5% post-earnings thesis [$NVDA] [2092980330005479921]
+- Last seen: 2026-08-27T14:21:17Z
+- **Events (rolling):**
+  - Aug 27 14:21Z — informational: NVDA post-earnings session strongest cash reaction in 2+ years; technical consolidation 209.74 (-1.54%); chart analysis showing multi-timeframe support/resistance structure [$NVDA] [2092980953052545264]
   - Aug 27 01:21Z — informational: NVDA post-earnings strength (+5% hold after call); gold outperforming Nasdaq overnight; macro fiscal-crisis sentiment (image: Bessent policy context); dispersion-trade validation [$NVDA/$GOLD-MACRO] [2092784644194550157]
   - Aug 27 00:48Z — informational: Korean indices (XYZ100/KOSPI) algo spike-reject pattern on 5m; "50T takes signals from 5T" timeframe cascade critique; 3-chart technical analysis showing pump-dump structure; market mechanics commentary [$KOSPI/$XYZ100/$ALGO-STRUCTURE] [2092776148971487520]
   - Aug 26 20:36Z — informational: NVDA/SMH ratio breakdown 0.38; relative weakness signal [$NVDA/$SMH] [2092712792692502853]

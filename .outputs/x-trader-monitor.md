@@ -7,3 +7,8 @@ I did say more to come…
 Post-earnings bullish momentum continues: NVDA rallying to 225.97 (+7.74%) with breakout above 225 resistance. Technical structure shows strong alignment with support established at 214/206/198.50. Charts confirm multi-timeframe bullish continuation targeting 240 resistance.
 
 [View tweet](https://x.com/Wild_Randomness/status/2092980330005479921)
+$NVDA — Strongest cash session reaction to an earnings report in over two years
+
+[View tweet](https://x.com/Wild_Randomness/status/2092980953052545264)
+
+Technical consolidation structure on 1D showing support at 200-210 zone with resistance at 230. Current: 209.74 (-1.54%)
