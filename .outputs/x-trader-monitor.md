@@ -1,7 +1,6 @@
 🔍 *Calibration — @swarmister*
 
-Context: Reply to @Shishir42069, posted Aug 27 11:24:43 UTC
+Event: Reply to @tienluncon610
+@swarmister: "5 eth"
 
-@swarmister: "Yea zero"
-
-Unable to classify — what's your read? Is this a price target, position confirmation, agreement on a level, or something else?
+New trader detected. Unable to classify — what's your read? Is this a position entry, price reference, or something else?
