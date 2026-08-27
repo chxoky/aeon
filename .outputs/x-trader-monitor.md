@@ -1,14 +1,9 @@
 🐦 *[X] @Wild_Randomness*
 
-$NVDA
+$BTC vs $GOLD — 90D correlation at ATH
 
-I did say more to come…
+Asking historical context: has the correlation reached this level before? Chart shows prior instances in 2021 and 2023 (red zones). Current correlation ~0.6, matching ATH structure.
 
-Post-earnings bullish momentum continues: NVDA rallying to 225.97 (+7.74%) with breakout above 225 resistance. Technical structure shows strong alignment with support established at 214/206/198.50. Charts confirm multi-timeframe bullish continuation targeting 240 resistance.
+↳ _Validates dispersion-trade framing (GOLD/crypto won't make new lows even if equities do — Aug 21 thesis); macro correlation structure at key inflection._
 
-[View tweet](https://x.com/Wild_Randomness/status/2092980330005479921)
-$NVDA — Strongest cash session reaction to an earnings report in over two years
-
-[View tweet](https://x.com/Wild_Randomness/status/2092980953052545264)
-
-Technical consolidation structure on 1D showing support at 200-210 zone with resistance at 230. Current: 209.74 (-1.54%)
+[View tweet](https://x.com/Wild_Randomness/status/2092982566815232510)

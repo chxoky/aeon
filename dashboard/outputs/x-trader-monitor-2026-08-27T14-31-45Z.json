@@ -1,0 +1,33 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "view_link"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "$BTC vs $GOLD — 90D correlation at ATH\n\nAsking historical context: has the correlation reached this level before? Chart shows prior instances in 2021 and 2023 (red zones). Current correlation ~0.6, matching ATH structure.\n\n↳ _Validates dispersion-trade framing (GOLD/crypto won't make new lows even if equities do — Aug 21 thesis); macro correlation structure at key inflection._"
+      },
+      "children": []
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2092982566815232510"
+      },
+      "children": []
+    }
+  }
+}
