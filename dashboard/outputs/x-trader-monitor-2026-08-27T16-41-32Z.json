@@ -1,0 +1,180 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor",
+        "description": "Market sentiment and technical analysis"
+      },
+      "children": [
+        "tweet-card",
+        "tweet-link",
+        "separator-1",
+        "sentiment-section",
+        "separator-2",
+        "technical-section"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Market sentiment at cycle-high bearishness: 44.4% for week of 8/26/2026 (vs 31.5% historical average).\n\nQQQ 1D consolidation structure validating downside thesis with support/resistance levels mapped: 740 → 720 → 680 → 620 → 600.\n\nRhetorical \"Bearish?\" affirms macro \"bearish equities into Oct\" conviction with chart validation."
+      }
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2093015062147658164"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sentiment-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "sentiment-heading",
+        "sentiment-grid"
+      ]
+    },
+    "sentiment-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Market Sentiment",
+        "level": "h3"
+      }
+    },
+    "sentiment-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "sentiment-current",
+        "sentiment-historical"
+      ]
+    },
+    "sentiment-current": {
+      "type": "Stat",
+      "props": {
+        "label": "Current Bearishness (Week of 8/26/2026)",
+        "value": "44.4%"
+      }
+    },
+    "sentiment-historical": {
+      "type": "Stat",
+      "props": {
+        "label": "Historical Average",
+        "value": "31.5%"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "technical-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "technical-heading",
+        "technical-text",
+        "levels-heading",
+        "levels-stack",
+        "conviction-text"
+      ]
+    },
+    "technical-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "QQQ Technical Analysis",
+        "level": "h3"
+      }
+    },
+    "technical-text": {
+      "type": "Text",
+      "props": {
+        "text": "1D consolidation structure validating downside thesis"
+      }
+    },
+    "levels-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Support/Resistance Levels",
+        "level": "h4"
+      }
+    },
+    "levels-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "level-740",
+        "level-720",
+        "level-680",
+        "level-620",
+        "level-600"
+      ]
+    },
+    "level-740": {
+      "type": "Badge",
+      "props": {
+        "text": "740",
+        "variant": "outline"
+      }
+    },
+    "level-720": {
+      "type": "Badge",
+      "props": {
+        "text": "720",
+        "variant": "outline"
+      }
+    },
+    "level-680": {
+      "type": "Badge",
+      "props": {
+        "text": "680",
+        "variant": "outline"
+      }
+    },
+    "level-620": {
+      "type": "Badge",
+      "props": {
+        "text": "620",
+        "variant": "outline"
+      }
+    },
+    "level-600": {
+      "type": "Badge",
+      "props": {
+        "text": "600",
+        "variant": "outline"
+      }
+    },
+    "conviction-text": {
+      "type": "Text",
+      "props": {
+        "text": "Macro conviction: bearish equities into October"
+      }
+    }
+  }
+}
