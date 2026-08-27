@@ -1,8 +1,15 @@
-🔍 *Calibration — @t_in_crypto*
+Done. The x-trader-monitor event has been processed:
 
-Reply to @Alulim123gmail1 (Aug 27 17:43Z): "No, I think we'll reach my target, which I wrote about back in May. After that, I expect a strong reversa[l]"
+**Event Classification:**
+- **Trader:** @swarmister (tweet 2093032859971846545 at 17:48:15 UTC)
+- **Content:** "@MoneyLaunderer_ @blancxbt" (bare mention, no financial content)
+- **Classification:** Non-financial (Step 4A)
+- **Action:** Silent skip per HR-1
 
-Unable to classify — three cryptic replies from same trader (10:41Z, 17:16Z, 17:43Z) suggest discussion thread with Alulim on specific thesis but context not visible in X posts. 
+**Updates Made:**
+- ✅ Logged to `memory/logs/2026-08-27.md` as skip event
+- ✅ Added tweet ID to `memory/x-trader-seen.txt` for dedup prevention
+- ✅ No notification sent (non-financial posts skip silently)
 
 What's your read on:
 1. Which target from May?
@@ -15,3 +22,4 @@ t_in_crypto: "This will happen sooner than many expect"
 Unable to classify — what's your read? What specifically will happen sooner than expected, and which asset/timeframe is this referring to?
 
 [View post](https://x.com/t_in_crypto/status/2093032084369445121)
+The tweet is now tracked to prevent reprocessing if the Worker redelivers this event.
