@@ -1,15 +1,7 @@
 🐦 *[X] @Wild_Randomness*
 
-$NVDA
+$LIT technical chart + market microstructure commentary. 1h Binance consolidation showing multiple price levels (3.8078 peak, 3.6092 support/resistance, 3.6478 current). Quote: 'Once you realize that this dude is the Lighter MM you will get chopped up much less while trading it.'
 
-Just FYa that I'm out but will rebuy if this breaks out
+Bullish sentiment (celebratory memes). CONTESTED ticker — HCH strong short vs WR/trading_axe bullish theses.
 
-I have some skepticism because of all the call buying, but that can also be reflexive if we do break out
-
-Wouldn't fade the break if we get it
-
-(Market cap is a meme?)
-
-[View tweet](https://x.com/Wild_Randomness/status/2092991412912705651)
-
-↳ _Multi-timeframe charts confirm consolidation 214-230 with support at 206. Conditional re-entry thesis on breakout._ ~18 min after NVDA TP at 225.97
+[View post](https://x.com/Wild_Randomness/status/2092993692663693512)

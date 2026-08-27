@@ -5,8 +5,9 @@
 - Recent thesis: Equities/vol specialist; dispersion-trade framework; bearish equities into Oct; GOLD/crypto won't make new lows even if equities do; BTC liq map structurally different ("bearish skew but buy-side ramping"). Not levered ("can't with liq map like this"). Conditional BTC reversion play above 74.5K if funding/OI stretched.
 - Conviction notes: High-conviction technical analyst on equities; vixpiry/OPEX structure commentary; macro dispersion positioning. Bear mode experiment failed Aug 20. "Scar tissue" from forced loss at 68K. HYPE/LIT = gold/silver parallel; ratio at 27-28 (down from 55 peak). URL-only posts = noise per calibration.
 - Calibration: PENDING Aug 23 19:05Z (cryptic "@QOTSA_FRL Its a 65% move to 126" — asset/context unknown), PENDING Aug 21 20:10Z (conditional LEAPS comment — unspecified asset)
-- Last seen: 2026-08-27T15:03:33Z
+- Last seen: 2026-08-27T15:12:36Z
 - **Events (rolling):**
+  - Aug 27 15:12Z — informational: $LIT technical chart + market microstructure commentary; 1h Binance chart (Aug 24-27) shows consolidation structure with multiple price levels (3.8078 peak, 3.6092 support, 3.6478 current @15:00 UTC); overlaid quote on "Lighter MM" behavior; two celebratory money-meme images suggest bullish sentiment; chart readable per Step 7 image analysis; no personal execution language; Step 6 informational sharing technical analysis [$LIT] [2092993692663693512]
   - Aug 27 14:56Z — informational: BTC-gold correlation timing patterns (Q4 2020 / Q4 2022 blow-outs); rising correlation as early bull signal; best action when correlation realizes from high [$BTC/$GOLD-CORRELATION-TIMING] [2092989670179393689]
   - Aug 27 14:45Z — informational: Options traders chasing calls from losses; asking if relief rally forms [$EQUITIES/$OPTIONS] [2092986762113274149]
   - Aug 27 14:39Z — trade-mirror-tp: NVDA long fully closed at $225.97 (+7.74% daily post-earnings); chart analysis showed multi-timeframe support/resistance levels (240/230/214/206/198.50); "out of the NVDA long here" + bearish outlook "probably underperforms from here" [$NVDA-TP] [2092985425921200358]

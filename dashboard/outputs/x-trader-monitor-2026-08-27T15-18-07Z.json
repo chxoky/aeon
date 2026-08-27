@@ -1,0 +1,180 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor",
+        "description": "Market analysis from Wild_Randomness"
+      },
+      "children": [
+        "tweet_card",
+        "separator_1",
+        "prices_section",
+        "separator_2",
+        "sentiment_section",
+        "separator_3",
+        "link_section"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "$LIT technical chart + market microstructure commentary. 1h Binance consolidation showing multiple price levels. Quote: 'Once you realize that this dude is the Lighter MM you will get chopped up much less while trading it.'"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "prices_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "prices_heading",
+        "price_grid"
+      ]
+    },
+    "prices_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Price Levels (1h Binance)",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "price_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "price_peak",
+        "price_support",
+        "price_current"
+      ]
+    },
+    "price_peak": {
+      "type": "Stat",
+      "props": {
+        "label": "Peak",
+        "value": "3.8078"
+      },
+      "children": []
+    },
+    "price_support": {
+      "type": "Stat",
+      "props": {
+        "label": "Support/Resistance",
+        "value": "3.6092"
+      },
+      "children": []
+    },
+    "price_current": {
+      "type": "Stat",
+      "props": {
+        "label": "Current",
+        "value": "3.6478"
+      },
+      "children": []
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "sentiment_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "sentiment_heading",
+        "badges_row",
+        "trading_views"
+      ]
+    },
+    "sentiment_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Market Sentiment",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "badges_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_bullish",
+        "badge_contested"
+      ]
+    },
+    "badge_bullish": {
+      "type": "Badge",
+      "props": {
+        "text": "Bullish (Celebratory Memes)",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge_contested": {
+      "type": "Badge",
+      "props": {
+        "text": "Contested Ticker",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "trading_views": {
+      "type": "Text",
+      "props": {
+        "text": "Trading Theses: HCH (strong short) vs WR/trading_axe (bullish)",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "link_to_post"
+      ]
+    },
+    "link_to_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post on X",
+        "href": "https://x.com/Wild_Randomness/status/2092993692663693512"
+      },
+      "children": []
+    }
+  }
+}
