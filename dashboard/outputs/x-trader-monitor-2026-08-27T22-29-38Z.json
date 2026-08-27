@@ -1,0 +1,76 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading-calibration",
+        "text-event",
+        "separator-1",
+        "tweet-bitcoin-astro",
+        "separator-2",
+        "text-analysis",
+        "link-post"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Bitcoin_Astro",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text-event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @VECTORCP on external factors affecting BTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "tweet-bitcoin-astro": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Bitcoin_Astro",
+        "handle": "Bitcoin_Astro",
+        "text": "Yes, but they do not affect btc, the same way solar eclipses do"
+      },
+      "children": []
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text-analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read? Original @VECTORCP message context unknown; possible dismissal of eclipse-timing theories or philosophical commentary on irrelevant externals.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "link-post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Bitcoin_Astro/status/2093101864149778801"
+      },
+      "children": []
+    }
+  }
+}
