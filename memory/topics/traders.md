@@ -102,6 +102,7 @@
   - Aug 27 00:01Z — informational: Nasdaq E-mini consolidation pattern 28K-30.5K; complex pullback with support/resistance structure + downtrending trendline; aligns with bearish-equities-into-Oct thesis [$NASDAQ] [2092764375857963350]
   - Aug 27 00:26Z — informational: XYZ100 (KOSPI 100) spike-rejection pattern; market microstructure commentary on Korean algo-driven inefficiencies; spike 29600→breakdown 29496; support zones 29100-29000; chart shows failed breakout [$KOSPI/$XYZ100] [2092770571268591715]
   - Aug 27 01:16Z — informational: XYZ100 spike-rejection continuation; reactive follow-up "I guess that's a start… thanks?"; 1m chart showing spike 29,600→breakdown 29,496→consolidation 29,383; sentiment response to market action; aligns with prior 00:26Z Korean index technical analysis [$XYZ100/$KOSPI] [2092783277346263269]
+  - Aug 27 01:24Z — informational: KOSPI/XYZ100 POC re-test + scam-open pattern; 1D chart consolidation 29,300-29,400 (volume profile POC) with multiple 30K rejection wicks; technical market-structure observation; sign-off post ("Ok last tweet of the night, check back in tomorrow") [$KOSPI/$XYZ100] [2092785285268672822]
   - Aug 27 00:32Z — ambiguous: ENA "0.136 you say?"; cryptic reference to Aug 26 21:57Z ENA dump to 0.1360; unclear if sarcasm/dismissal or execution question on TWAP fills; intent context unknown [$ENA] [2092772080874066241]
 
 ## Bitcoin_Astro
