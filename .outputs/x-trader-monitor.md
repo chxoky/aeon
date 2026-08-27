@@ -8,3 +8,10 @@ What's your read on:
 1. Which target from May?
 2. Which asset (BTC likely, but unconfirmed)?
 3. Is this market-structure prediction or personal action planning?
+Event: KillaXBT just posted about BTC market structure (17:05Z, Aug 27), discussing how shorts are targeting lower prices despite failed dips being bought instantly. He expressed skepticism on 56K targets and discussed consolidation structure.
+
+t_in_crypto: "This will happen sooner than many expect"
+
+Unable to classify — what's your read? What specifically will happen sooner than expected, and which asset/timeframe is this referring to?
+
+[View post](https://x.com/t_in_crypto/status/2093032084369445121)

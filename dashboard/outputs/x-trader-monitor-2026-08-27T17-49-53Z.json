@@ -1,0 +1,95 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor — Calibration",
+        "description": "Awaiting analysis classification"
+      },
+      "children": [
+        "heading_event",
+        "stack_event_details",
+        "separator_1",
+        "heading_quote",
+        "text_quote",
+        "separator_2",
+        "alert_classify",
+        "link_post"
+      ]
+    },
+    "heading_event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event: KillaXBT Market Structure Post",
+        "level": "h3"
+      }
+    },
+    "stack_event_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_meta",
+        "text_event"
+      ]
+    },
+    "badge_meta": {
+      "type": "Badge",
+      "props": {
+        "text": "17:05Z, Aug 27 • @t_in_crypto"
+      }
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "KillaXBT just posted about BTC market structure, discussing how shorts are targeting lower prices despite failed dips being bought instantly. He expressed skepticism on 56K targets and discussed consolidation structure.",
+        "variant": "body"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_quote": {
+      "type": "Heading",
+      "props": {
+        "text": "Quote",
+        "level": "h3"
+      }
+    },
+    "text_quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"This will happen sooner than many expect\"",
+        "variant": "lead"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_classify": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "title": "Unable to Classify",
+        "message": "What's your read? What specifically will happen sooner than expected, and which asset/timeframe is this referring to?"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/t_in_crypto/status/2093032084369445121"
+      }
+    }
+  }
+}
