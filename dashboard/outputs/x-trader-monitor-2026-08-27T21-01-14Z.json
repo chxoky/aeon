@@ -1,0 +1,68 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "header",
+        "event-desc",
+        "tweet-card",
+        "image-desc",
+        "alert",
+        "view-link"
+      ]
+    },
+    "header": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @swarmister",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "event-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @Ehn_7H with screenshot of @TheFlowHorse's cryptic message to @SalsaTekila"
+      },
+      "children": []
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "@Ehn_7H https://t.co/ymz7LT25wt"
+      },
+      "children": []
+    },
+    "image-desc": {
+      "type": "Text",
+      "props": {
+        "text": "[Image shows @TheFlowHorse saying \"Not that simple.\" in reply to @SalsaTekila]"
+      },
+      "children": []
+    },
+    "alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read on this? No ticker, price level, or execution language visible. Is this market commentary, a chart share, or something else?",
+        "type": "info"
+      },
+      "children": []
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/swarmister/status/2093079632639619340"
+      },
+      "children": []
+    }
+  }
+}
