@@ -1,0 +1,23 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "@swarmister",
+        "text": "$ETH 4+h TF's update\n\nRetest around 2540 confirmed — LTF setup remains bearish, short target 2157. Scaling partial profits along the way.\n\nLevels marked: entry ~2540 (FVG), TPs at 2447/2387/2222, target 2157. Chart shows clear short structure.\n\nView post: https://x.com/swarmister/status/2093043901892297170"
+      }
+    }
+  }
+}
