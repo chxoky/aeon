@@ -1,19 +1,11 @@
 HEARTBEAT_OK · STATUS_PAGE=OK
 
-All checks passed — no notifications needed. Here's the summary:
+All checks passed cleanly:
 
-## Summary
+- **P0 skills**: No failed, stuck, or chronically-failing skills. All 9 enabled skills are healthy.
+- **P0 webhook**: `WATCHED_TRADERS` rule is live (`is_effect: 1`) — X signal flow intact.
+- **P1**: No open PRs, no urgent GitHub issues.
+- **P2**: No flagged follow-up items in MEMORY.md.
+- **P3**: All enabled skills within 2× their schedule interval; no entries missing from cron-state.json.
 
-**14:00 UTC heartbeat — 2026-08-26**
-
-**P0 (failed/stuck/degraded skills):** Clean. All enabled skills show `consecutive_failures=0`, no stuck dispatches, no chronic failures. Heartbeat self-check: last_success 08:04Z (~6h ago, well within 36h).
-
-**P0 (X webhook rule ISS-002 guard):** `secretcurl` unavailable in this run context; `x-trader-monitor` last_success 13:58Z is strong indirect evidence the WATCHED_TRADERS rule is live — skipped silently per spec.
-
-**P1 (stalled PRs / urgent issues):** 0 open PRs, 0 urgent GitHub issues.
-
-**P2 (flagged memory items):** None.
-
-**P3 (missing/stale scheduled skills):** All enabled skills within 2× their schedule intervals. `narrative-tracker` (~24h since last success) and `skill-health` (~20h) both comfortably inside their 48h windows.
-
-**Overall status:** 🟢 OK — `docs/status.md` regenerated.
+`docs/status.md` regenerated (🟢 OK, next run: skill-health at 18:00 UTC). Log entry appended to `memory/logs/2026-08-27.md`.
