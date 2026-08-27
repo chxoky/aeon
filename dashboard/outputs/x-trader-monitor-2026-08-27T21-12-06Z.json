@@ -1,0 +1,169 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor - HYPE Technical Analysis",
+        "description": "Technical chart confirmation on quad-top pattern structure"
+      },
+      "children": [
+        "main-stack"
+      ]
+    },
+    "main-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "tweet-container",
+        "separator1",
+        "analysis-container"
+      ]
+    },
+    "tweet-container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet",
+        "tweet-link"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "@swarmister",
+        "text": "Technical chart confirmation on HYPE quad-top pattern structure. Affirming @notfrydoteth's 1h chart analysis identifying resistance rejection sequence (82.687 → 79.931 → 78.898 consolidation)."
+      }
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/swarmister/status/2093083306707300650"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis-container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "signal-badge",
+        "signal-alert",
+        "price-section",
+        "structure-section",
+        "confluence-section"
+      ]
+    },
+    "signal-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Bearish Signal",
+        "variant": "destructive"
+      }
+    },
+    "signal-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Consolidation Analysis",
+        "message": "Multiple resistance tests failing at 78-80 zone suggests potential inflection vs emerging structural bullish thesis",
+        "type": "warning"
+      }
+    },
+    "price-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "price-heading",
+        "resistance-seq",
+        "consolidation"
+      ]
+    },
+    "price-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Resistance Rejection Sequence",
+        "level": "h3"
+      }
+    },
+    "resistance-seq": {
+      "type": "Text",
+      "props": {
+        "text": "82.687 → 79.931 → 78.898"
+      }
+    },
+    "consolidation": {
+      "type": "Text",
+      "props": {
+        "text": "Consolidation zone: 78-80",
+        "variant": "muted"
+      }
+    },
+    "structure-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "structure-heading",
+        "structure-text"
+      ]
+    },
+    "structure-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Structural Thesis",
+        "level": "h3"
+      }
+    },
+    "structure-text": {
+      "type": "Text",
+      "props": {
+        "text": "Emerging structural bullish thesis from Aug 21-22: HCH recovery structure with technical confluence from KillaXBT entries and Wild_Randomness analysis"
+      }
+    },
+    "confluence-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "confluence-heading",
+        "confluence-text"
+      ]
+    },
+    "confluence-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Referenced Analysis",
+        "level": "h3"
+      }
+    },
+    "confluence-text": {
+      "type": "Text",
+      "props": {
+        "text": "@notfrydoteth (1h chart analysis), @KillaXBT (entries), @Wild_Randomness (technical confluence)"
+      }
+    }
+  }
+}
