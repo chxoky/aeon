@@ -1,0 +1,54 @@
+{
+  "root": "root",
+  "state": {},
+  "elements": {
+    "root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "calibration-header",
+        "event-info",
+        "separator1",
+        "tweet-card",
+        "separator2",
+        "classification-alert"
+      ]
+    },
+    "calibration-header": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @swarmister",
+        "level": "h3"
+      }
+    },
+    "event-info": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @Ehn_7H and @loli_roller"
+      }
+    },
+    "separator1": {
+      "type": "Separator"
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "text": "This one is mine, yeah"
+      }
+    },
+    "separator2": {
+      "type": "Separator"
+    },
+    "classification-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read? (Original context from @Ehn_7H's message unknown)",
+        "type": "warning"
+      }
+    }
+  }
+}
