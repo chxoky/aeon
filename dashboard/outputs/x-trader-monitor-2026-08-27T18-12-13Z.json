@@ -1,0 +1,93 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Conviction Add — @bull_genius",
+        "description": "BTC spot position accumulation on dips"
+      },
+      "children": [
+        "badge",
+        "main_text",
+        "quote",
+        "sep1",
+        "tech_heading",
+        "tech_context_1",
+        "tech_context_2",
+        "sep2",
+        "link",
+        "cta"
+      ]
+    },
+    "badge": {
+      "type": "Badge",
+      "props": {
+        "text": "@bull_genius",
+        "variant": "secondary"
+      }
+    },
+    "main_text": {
+      "type": "Text",
+      "props": {
+        "text": "bull_genius just added to their BTC spot position on dips.",
+        "variant": "lead"
+      }
+    },
+    "quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"i used those dips to add on spot im not getting cute waiting for lower on spot\"",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tech_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Technical Context",
+        "level": "h3"
+      }
+    },
+    "tech_context_1": {
+      "type": "Text",
+      "props": {
+        "text": "BTC at 365d rolling VWAP second tap; support at 2026 VAH → ATH AVWAP; consolidation between 73-85k range with potential 83-85k overshoot before 73-75k scare.",
+        "variant": "body"
+      }
+    },
+    "tech_context_2": {
+      "type": "Text",
+      "props": {
+        "text": "DCA philosophy: \"positivity + patience. buy the dips.\" No leverage.",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/bull_genius/status/2093037936883462280"
+      }
+    },
+    "cta": {
+      "type": "Text",
+      "props": {
+        "text": "Want to add to your BTC spot too?",
+        "variant": "body"
+      }
+    }
+  }
+}
