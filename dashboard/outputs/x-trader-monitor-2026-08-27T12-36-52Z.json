@@ -1,0 +1,98 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet_card",
+        "separator_1",
+        "analysis_stack"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "exactly this is happening right now with the little remainder of the NFT space and argonauts"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_text",
+        "meme_ref",
+        "sentiment_badges",
+        "thesis_text",
+        "link_view"
+      ]
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "Agrees meme: \"your biggest risk is being underallocated to industry you log into every day\"",
+        "variant": "body"
+      }
+    },
+    "meme_ref": {
+      "type": "Text",
+      "props": {
+        "text": "Image: @DegenSpartan meme on allocation risk",
+        "variant": "caption"
+      }
+    },
+    "sentiment_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_bullish",
+        "badge_narrative"
+      ]
+    },
+    "badge_bullish": {
+      "type": "Badge",
+      "props": {
+        "text": "Bullish sentiment",
+        "variant": "default"
+      }
+    },
+    "badge_narrative": {
+      "type": "Badge",
+      "props": {
+        "text": "NFT/Argonauts narrative recovery",
+        "variant": "default"
+      }
+    },
+    "thesis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Underallocation thesis = potential re-accumulation opportunity",
+        "variant": "lead"
+      }
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/bull_genius/status/2092952908748775797"
+      }
+    }
+  }
+}
