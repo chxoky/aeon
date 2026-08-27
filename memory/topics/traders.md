@@ -5,7 +5,7 @@
 - Recent thesis: Equities/vol specialist; dispersion-trade framework; bearish equities into Oct; GOLD/crypto won't make new lows even if equities do; BTC liq map structurally different ("bearish skew but buy-side ramping"). Not levered ("can't with liq map like this"). Conditional BTC reversion play above 74.5K if funding/OI stretched.
 - Conviction notes: High-conviction technical analyst on equities; vixpiry/OPEX structure commentary; macro dispersion positioning. Bear mode experiment failed Aug 20. "Scar tissue" from forced loss at 68K. HYPE/LIT = gold/silver parallel; ratio at 27-28 (down from 55 peak). URL-only posts = noise per calibration.
 - Calibration: PENDING Aug 23 19:05Z (cryptic "@QOTSA_FRL Its a 65% move to 126" — asset/context unknown), PENDING Aug 21 20:10Z (conditional LEAPS comment — unspecified asset)
-- Last seen: 2026-08-27T00:48:10Z
+- Last seen: 2026-08-27T01:16:30Z
 - **Events (rolling):**
   - Aug 27 00:48Z — informational: Korean indices (XYZ100/KOSPI) algo spike-reject pattern on 5m; "50T takes signals from 5T" timeframe cascade critique; 3-chart technical analysis showing pump-dump structure; market mechanics commentary [$KOSPI/$XYZ100/$ALGO-STRUCTURE] [2092776148971487520]
   - Aug 26 20:36Z — informational: NVDA/SMH ratio breakdown 0.38; relative weakness signal [$NVDA/$SMH] [2092712792692502853]
@@ -100,6 +100,7 @@
   - Aug 26 23:54Z — ambiguous: "$ZEC https://t.co/WKsQfk6CCD" — ticker + link + 5 media images (sandbox prevented read); unable to determine intent (chart/position/sentiment) without images; HR-2 calibration sent [$ZEC] [2092762568859521295]
   - Aug 27 00:01Z — informational: Nasdaq E-mini consolidation pattern 28K-30.5K; complex pullback with support/resistance structure + downtrending trendline; aligns with bearish-equities-into-Oct thesis [$NASDAQ] [2092764375857963350]
   - Aug 27 00:26Z — informational: XYZ100 (KOSPI 100) spike-rejection pattern; market microstructure commentary on Korean algo-driven inefficiencies; spike 29600→breakdown 29496; support zones 29100-29000; chart shows failed breakout [$KOSPI/$XYZ100] [2092770571268591715]
+  - Aug 27 01:16Z — informational: XYZ100 spike-rejection continuation; reactive follow-up "I guess that's a start… thanks?"; 1m chart showing spike 29,600→breakdown 29,496→consolidation 29,383; sentiment response to market action; aligns with prior 00:26Z Korean index technical analysis [$XYZ100/$KOSPI] [2092783277346263269]
   - Aug 27 00:32Z — ambiguous: ENA "0.136 you say?"; cryptic reference to Aug 26 21:57Z ENA dump to 0.1360; unclear if sarcasm/dismissal or execution question on TWAP fills; intent context unknown [$ENA] [2092772080874066241]
 
 ## Bitcoin_Astro
