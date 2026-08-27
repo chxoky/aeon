@@ -341,8 +341,9 @@
 - **Events (rolling):**
   - Aug 26 22:49Z — informational: "@garbycan Thanks for call babe" — acknowledgement of @garbycan's NVDA earnings prediction accuracy; image shows overlay of gaby's 17:17Z call ("Whole nibs trade goes to shit if nvda doesnt beat earnings this afternoon") on NVDA 1h chart with price levels annotated; secondary market sentiment on NVDA earnings validation; no personal trade action by swarmister [$NVDA] [2092746301121130942]
   - Aug 26 22:16Z — trade-new-entry: $NVDA long @~220.01 (Hyperliquid perp, 1h timeframe); market order filled; chart shows key levels 207.23-230.00; awaiting Kyle `approve NVDA` [$NVDA] [2092738093572878375]
+  - Aug 27 09:59Z — informational: $LTC 1h TTS forming on shorter timeframe with corrective inefficiency; bounce/rally expected as basis for considering long position; dual charts (1H: POI consolidation 49.44-50.93 range w/ triple-top resistance; 4H/1D: W-reversal 50.44% Fib setup, targets 60.60/60.82/72.25 levels) [$LTC] [2092914845435797863]
   - Aug 27 09:18Z — mirror-partial-tp: NVDA long 50% closed at 225.05 (mark price); +172.2K unrealized P&L shown on position; 1h chart shows upward momentum; partial profit-taking on winning trade [$NVDA-TP] [2092904592245748153]
-- Last seen: 2026-08-27T09:18:33Z
+- Last seen: 2026-08-27T09:59:18Z
 - **Events (rolling):**
   - Aug 26 22:52Z — informational: SWARM/USDT false-close chart check; 1d wick pump 0.02000→0.30000 closed 0.05390; classic false-close pattern (pump-and-dump structure) technical observation [$SWARM-FC] [2092746971253530760]
   - Aug 26 22:19Z — informational: SOL accumulation completed, saturation sentiment ("I've bought a lot of Sol, but I just don't want to buy any more"); reply to @based16z [$SOL] [2092738741571846424]

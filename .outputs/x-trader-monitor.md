@@ -1,9 +1,9 @@
-🔁 *Mirrored — @swarmister*
+🐦 *[X] @swarmister*
 
-$NVDA — LONG — *partial take profit*
+$LTC also looks good on a shorter timeframe (1-hour).
 
-swarmister just took partial profit on their NVDA 20x long position at 225.05 (mark). Position entered Aug 26 @220.01, currently showing +172.2K unrealized P&L. They're closing ~50% to bank profits.
+Price action within the current range shows signs of a TTS forming.
 
-I closed 50% of your NVDA position to match.
+A correction of the identified inefficiency will most likely lead to a subsequent rally, which will be used as a basis for considering a long position.
 
-[View post](https://x.com/swarmister/status/2092904592245748153)
+[View tweet](https://x.com/swarmister/status/2092914845435797863)
