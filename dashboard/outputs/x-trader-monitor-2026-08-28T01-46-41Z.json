@@ -1,0 +1,116 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Real-time event processing"
+      },
+      "children": [
+        "status-stack",
+        "event-details",
+        "separator-1",
+        "stats-stack"
+      ]
+    },
+    "status-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "status-badge",
+        "event-type-badge"
+      ]
+    },
+    "status-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "✅ Success",
+        "variant": "default"
+      }
+    },
+    "event-type-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Real-time event",
+        "variant": "secondary"
+      }
+    },
+    "event-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "author-label",
+        "content-label",
+        "classification-label",
+        "alert-label"
+      ]
+    },
+    "author-label": {
+      "type": "Text",
+      "props": {
+        "text": "Author: @trading_axe",
+        "variant": "body"
+      }
+    },
+    "content-label": {
+      "type": "Text",
+      "props": {
+        "text": "Content: Personal philosophy post (non-financial)",
+        "variant": "body"
+      }
+    },
+    "classification-label": {
+      "type": "Text",
+      "props": {
+        "text": "Classification: skip",
+        "variant": "body"
+      }
+    },
+    "alert-label": {
+      "type": "Text",
+      "props": {
+        "text": "Alerted: no",
+        "variant": "body"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stats-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat-events",
+        "stat-alerts"
+      ]
+    },
+    "stat-events": {
+      "type": "Stat",
+      "props": {
+        "label": "Events processed",
+        "value": "1"
+      }
+    },
+    "stat-alerts": {
+      "type": "Stat",
+      "props": {
+        "label": "Alerts sent",
+        "value": "0"
+      }
+    }
+  }
+}
