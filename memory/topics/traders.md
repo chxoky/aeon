@@ -271,8 +271,9 @@
 - Current open positions: HYPE long (entry Aug 21 14:10Z 3-confluence; 1/3 TP Aug 22 13:21Z; 2/3 ACTIVE). ETH long (entry Aug 22 22:01Z; 1/3 fill Aug 23 13:11Z; 1/3 partial TP Aug 23 13:55Z; ~2/3 ACTIVE, awaiting Kyle approval to mirror). Gold long (entry Aug 28 16:44Z, pending Kyle approval).
 - Recent thesis: Technical entry trader; breakaway gap thesis (bid at higher liquidity levels); HYPE/ETH liq flush setups. No interest in shorts unless "super clean" setup (Aug 22 13:28Z). Indifferent to whether bottom is in; focuses on high-probability setups. Order layering: 3-5 tranches at varying demand zones.
 - Conviction notes: Known for correct ~20-min pre-BTC-breakout call Aug 20. Community educator on layering strategy + order discipline. Track record: HYPE/ETH reads correct, equities liquidity reads sharp (per Aug 23 15:02Z self-assessment). ETH macro short position ("sub 50% area", Aug 20 17:28Z) appears superseded by bullish stance.
-- Last seen: 2026-08-28T17:45:54Z
+- Last seen: 2026-08-28T18:52:05Z
 - **Events (rolling):**
+  - Aug 28 18:52Z — informational: BTC consolidation zone (74.5K-76K) technical opinion; "Still the optimal area to bid $BTC imo"; chart shows multi-level support/resistance + demand-zone thesis; cross-trader BTC technical convergence [$BTC-OPTIMAL-BID] [2093411311992418576]
   - Aug 20 12:54Z — informational (X): "would've said I'm long for the pop" ~20min pre-BTC-breakout call [$BTC] [2090422155187991025]
   - Aug 20 17:28Z — trade-new-entry: "macro move, shorting in sub 50% area" (Discord Crypto supporting) [$MACRO-SHORT] [15400497794779023647]
   - Aug 21 12:51Z — informational (X): sarcastic "$BTC to 250K no pullbacks / everyone pretends vaguepost was bottom call" [$BTC-SENTIMENT] [2090783781594546273]
