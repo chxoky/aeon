@@ -22,3 +22,15 @@ cash-cat:native https://t.co/VUkYolaCj2
 Targets are marked on the chart.
 
 [View post](https://x.com/swarmister/status/2093261915187212430)
+🔍 *Calibration — @swarmister*
+
+Event: Reply to @bull_genius referencing external linked post with chart
+
+swarmister: "Also, take a look at the post I'm linking to. The daily chart looks good."
+
+The post references an external link but media attachment is empty (no fetchable chart). Unable to determine which asset/ticker the chart shows or if this signals a personal trade action.
+
+Context needed:
+- Which post/chart is being referenced?
+- Which ticker/asset?
+- Is this a trade entry signal requiring approval, or just chart sharing for context?
