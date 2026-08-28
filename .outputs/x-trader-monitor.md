@@ -1,17 +1,10 @@
-🔁 *Mirrored — @swarmister*
+🔍 *Calibration — @Stoiiic*
 
-BTC short: Taking partial profit on underwater short position. Charts show POI zone (80K-81K) for re-entry planning on retests.
+Event: Reply to @mainahcad / @Trader_XO discussing technical setup
+Stoiiic: "yeah a 3 drive would be nice if that last garbage sweep can be negated"
 
-I closed 50% of your BTC short position to match.
+Unable to classify without external context — what market/ticker/timeframe are they discussing? Is this (a) educational commentary, (b) trade setup watching/idea, or (c) personal entry consideration?
 
-[View post](https://x.com/Stoiiic/status/2093385739459268888)
-🐦 *[X] @swarmister*
+Context: Stoiiic is technical analyst (H4 RSI framework, BTC 365d VWAP levels). Recent activity focused on methodology education + framework-sharing, no personal execution detected.
 
-$XMR 1H — Short Setup
-
-"Price action is showing characteristic signs of distribution. Test of the indicated POI will likely lead to a further decline in the asset's price."
-
-Distribution box at 476-480 (poi) with marked downside targets; structure validates bearish retest scenario.
-
-[View tweet](https://x.com/swarmister/status/20933887083933148463)
-[View post](https://x.com/swarmister/status/2093389546213822596)
+[View post](https://x.com/Stoiiic/status/2093391532082503906)

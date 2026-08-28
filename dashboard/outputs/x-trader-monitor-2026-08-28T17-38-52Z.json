@@ -1,0 +1,121 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading_main",
+        "stack_event",
+        "separator_1",
+        "stack_analysis",
+        "separator_2",
+        "stack_context",
+        "separator_3",
+        "link_view"
+      ]
+    },
+    "heading_main": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Stoiiic",
+        "level": "h2"
+      }
+    },
+    "stack_event": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_event",
+        "text_quote"
+      ]
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @mainahcad / @Trader_XO discussing technical setup",
+        "variant": "body"
+      }
+    },
+    "text_quote": {
+      "type": "Text",
+      "props": {
+        "text": "Stoiiic: \"yeah a 3 drive would be nice if that last garbage sweep can be negated\"",
+        "variant": "lead"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_analysis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_unable_classify"
+      ]
+    },
+    "text_unable_classify": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify without external context — what market/ticker/timeframe are they discussing? Is this (a) educational commentary, (b) trade setup watching/idea, or (c) personal entry consideration?",
+        "variant": "body"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_context",
+        "text_context_desc"
+      ]
+    },
+    "heading_context": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h4"
+      }
+    },
+    "text_context_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Stoiiic is technical analyst (H4 RSI framework, BTC 365d VWAP levels). Recent activity focused on methodology education + framework-sharing, no personal execution detected.",
+        "variant": "body"
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Stoiiic/status/2093391532082503906"
+      }
+    }
+  }
+}
