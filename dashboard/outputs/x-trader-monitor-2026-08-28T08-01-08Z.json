@@ -1,0 +1,67 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "calibration-heading",
+        "event-context",
+        "separator-1",
+        "tweet-section",
+        "separator-2",
+        "follow-up-note"
+      ]
+    },
+    "calibration-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @swarmister",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "event-context": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Earlier cryptic @0xjune_ ??? at Aug 28 05:04Z; now affirming same traders with Yep 👍",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "tweet-section": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "@swarmister",
+        "text": "@OnlyZen_PK @0xjune_ Yep 👍"
+      },
+      "children": []
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "follow-up-note": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify without original context from @OnlyZen_PK/@0xjune_ — what's your read?",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}

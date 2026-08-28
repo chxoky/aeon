@@ -17,3 +17,10 @@
 - No notification sent (non-financial events skip silently per protocol)
 
 **Status**: ✅ Complete — Event processed and stored for record-keeping.
+🔍 *Calibration — @swarmister*
+
+Event: Earlier cryptic `@0xjune_ ???` at Aug 28 05:04Z; now affirming same traders with `Yep 👍`
+
+@swarmister: "@OnlyZen_PK @0xjune_ Yep 👍"
+
+Unable to classify without original context from @OnlyZen_PK/@0xjune_ — what's your read?
