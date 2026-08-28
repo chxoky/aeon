@@ -17,3 +17,12 @@ The post expresses bullish conviction and hope for pullback entry opportunities 
 - ✅ `memory/logs/2026-08-28.md` — Logged full event analysis
 
 No notification sent (general sentiment only, not a watch-list ticker requiring Kyle action per Step 6 protocol).
+🐦 *[X] @KillaXBT*
+
+Screams like "Bottom" to me.
+
+Re-accumulation before expansion.. $BTC
+
+Chart: Dynamic MA & Price Ratios (Alpharactal) shows post-bottom consolidation + tight MA alignment = re-accumulation setup. Aligns with documented HTF bull thesis.
+
+[View tweet](https://x.com/KillaXBT/status/2093277661720457229)
