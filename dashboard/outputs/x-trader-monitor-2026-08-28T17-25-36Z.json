@@ -1,0 +1,72 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-1",
+        "text-event",
+        "separator-1",
+        "text-response",
+        "alert-unclear",
+        "link-view"
+      ]
+    },
+    "heading-1": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Stoiiic",
+        "level": "h2"
+      }
+    },
+    "text-event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @wasmynme",
+        "variant": "body"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-response": {
+      "type": "Text",
+      "props": {
+        "text": "Stoiiic: \"everything\"",
+        "variant": "lead"
+      }
+    },
+    "alert-unclear": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Unclear without original @wasmynme message. What's your read on this?",
+        "type": "info"
+      }
+    },
+    "link-view": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Stoiiic/status/2093385739459268888"
+      }
+    }
+  }
+}
