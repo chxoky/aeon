@@ -1,0 +1,58 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration — @Stoiiic"
+      },
+      "children": [
+        "event-context",
+        "tweet-section",
+        "analysis"
+      ]
+    },
+    "event-context": {
+      "type": "Text",
+      "props": {
+        "text": "Recent exchange platform testing context (Aug 27 16:54Z tested @risextrade)",
+        "variant": "caption"
+      }
+    },
+    "tweet-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-card",
+        "tweet-link"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "Stoiiic",
+        "text": "@Omnia_Somnio @risextrade nope"
+      }
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "Tweet ID: 2093208187331641716",
+        "href": "https://x.com/Stoiiic/status/2093208187331641716"
+      }
+    },
+    "analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — need context on what Omnia_Somnio or risextrade said. Is this platform commentary (infrastructure/feature dismissal) or something financial?",
+        "variant": "muted"
+      }
+    }
+  }
+}

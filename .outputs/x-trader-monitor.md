@@ -1,7 +1,10 @@
-🔍 *Calibration — @swarmister*
+🔍 *Calibration — @Stoiiic*
 
-Context: @0xjune_ just posted something that prompted this response
+Event: Recent exchange platform testing context (Aug 27 16:54Z tested @risextrade)
 
-swarmister: "???"
+Stoiiic: "@Omnia_Somnio @risextrade nope"
 
-Unable to classify — what was @0xjune_ saying, and what's your read on the three question marks?
+Tweet ID: 2093208187331641716
+URL: https://x.com/Stoiiic/status/2093208187331641716
+
+Unable to classify — need context on what Omnia_Somnio or risextrade said. Is this platform commentary (infrastructure/feature dismissal) or something financial?
