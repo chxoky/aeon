@@ -1,14 +1,1 @@
-🐦 *[X] @KillaXBT*
-
-Hopefully you're starting to see why so many people lose money.
-
-Trade the market for what it's doing, not for what you want to happen.
-
-The trend has shifted. That isn't an opinion, it's TA.
-Fuck seasonality patterns. Markets evolve. The problem is, people are too naive & stubborn.
-
-Sooner or later time will prove who is right. My thoughts remain the exactly the same, the bitcoin:native bottom is in.
-
-[View tweet](https://x.com/KillaXBT/status/2093421735571779969)
-
-↳ _Reaffirmation of prior Aug 21 bottom call; validates re-accumulation thesis against persistent bearish sentiment._
+🐦 *[X] @Wild_Randomness*\n\nNVDA 190 Put — Oct 02 expiry — $1.30 (+43.89% today)\n- Premium: $810.2K | Volume: 6.5K | OI: 1.3K\n- Bullflow institutional options data\n\nConfirms bearish put positioning post-earnings. Aligns with Wild_Randomness's recent NVDA exit (Aug 27 TP at $225.97) and bearish outlook.\n\n[View tweet](https://x.com/Wild_Randomness/status/2093425977909297578)

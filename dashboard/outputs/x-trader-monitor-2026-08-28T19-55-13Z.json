@@ -1,0 +1,105 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "sep1",
+        "metrics_grid",
+        "source",
+        "sep2",
+        "analysis_text",
+        "sep3",
+        "link_view"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "NVDA 190 Put — Oct 02 expiry — $1.30 (+43.89% today)"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "metrics_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat_price",
+        "stat_premium",
+        "stat_volume",
+        "stat_oi"
+      ]
+    },
+    "stat_price": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$1.30",
+        "delta": "+43.89%",
+        "trend": "up"
+      }
+    },
+    "stat_premium": {
+      "type": "Stat",
+      "props": {
+        "label": "Premium",
+        "value": "$810.2K"
+      }
+    },
+    "stat_volume": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume",
+        "value": "6.5K"
+      }
+    },
+    "stat_oi": {
+      "type": "Stat",
+      "props": {
+        "label": "Open Interest",
+        "value": "1.3K"
+      }
+    },
+    "source": {
+      "type": "Text",
+      "props": {
+        "text": "Bullflow institutional options data",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Confirms bearish put positioning post-earnings. Aligns with Wild_Randomness's recent NVDA exit (Aug 27 TP at $225.97) and bearish outlook."
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2093425977909297578"
+      }
+    }
+  }
+}

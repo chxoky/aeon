@@ -5,8 +5,9 @@
 - Recent thesis: Equities/vol specialist; dispersion-trade framework; bearish equities into Oct; GOLD/crypto won't make new lows even if equities do; BTC liq map structurally different ("bearish skew but buy-side ramping"). Not levered ("can't with liq map like this"). Conditional BTC reversion play above 74.5K if funding/OI stretched.
 - Conviction notes: High-conviction technical analyst on equities; vixpiry/OPEX structure commentary; macro dispersion positioning. Bear mode experiment failed Aug 20. "Scar tissue" from forced loss at 68K. HYPE/LIT = gold/silver parallel; ratio at 27-28 (down from 55 peak). URL-only posts = noise per calibration.
 - Calibration: PENDING Aug 23 19:05Z (cryptic "@QOTSA_FRL Its a 65% move to 126" — asset/context unknown), PENDING Aug 21 20:10Z (conditional LEAPS comment — unspecified asset)
-- Last seen: 2026-08-28T19:09:55Z
+- Last seen: 2026-08-28T19:50:21Z
 - **Events (rolling):**
+  - Aug 28 19:50Z — informational: NVDA 190 put options chart; $1.30 (+43.89%); expiry 10/02/26; Bullflow premium $810.2K; institutional bearish put positioning confirmation; chart-only share, no execution language [$NVDA/$OPTIONS-FLOW] [2093425977909297578]
   - Aug 28 19:09Z — informational: NVDA options flow data (cheddarflow); call order sweep confirmation; bearish call sentiment post-earnings; chart-only share, no execution language [$NVDA/$OPTIONS-FLOW] [2093415802087387186]
 - Calibration: PENDING Aug 28 19:20Z ("smart money flow getting taken out back this week" — post-Jackson Hole market structure commentary, missing context on asset/direction), PENDING Aug 23 19:05Z (cryptic "@QOTSA_FRL Its a 65% move to 126" — asset/context unknown), PENDING Aug 21 20:10Z (conditional LEAPS comment — unspecified asset)
 - Last seen: 2026-08-28T19:20:41Z
