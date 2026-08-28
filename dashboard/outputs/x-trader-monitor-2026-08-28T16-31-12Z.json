@@ -1,0 +1,84 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "tweet_link",
+        "separator_1",
+        "context_stack"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "@bull_genius",
+        "text": "that was fast"
+      },
+      "children": []
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/bull_genius/status/2093374959418564930"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "context_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_heading",
+        "context_text_1",
+        "context_text_2",
+        "context_text_3"
+      ]
+    },
+    "context_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "context_text_1": {
+      "type": "Text",
+      "props": {
+        "text": "BTC liquidation level chart (365D/7D/30D/90D zones marked; current 80,969.7)"
+      },
+      "children": []
+    },
+    "context_text_2": {
+      "type": "Text",
+      "props": {
+        "text": "Market-structure observation ~15min post-Jackson Hole bounce closeout per prior 16:12Z update"
+      },
+      "children": []
+    },
+    "context_text_3": {
+      "type": "Text",
+      "props": {
+        "text": "Focus: Liquidation-aware position management and technical level tracking"
+      },
+      "children": []
+    }
+  }
+}
