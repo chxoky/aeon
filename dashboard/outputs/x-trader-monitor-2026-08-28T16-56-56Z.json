@@ -1,0 +1,96 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Jackson Hole Reversal",
+        "description": "Market analysis from @Wild_Randomness"
+      },
+      "children": [
+        "tweet",
+        "separator",
+        "analysis_section"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Jackson Hole Reversal",
+        "handle": "@Wild_Randomness",
+        "text": "Expected dump during Jackson Hole presser; got pump reversal instead.\n\n\"Stepped away after bidding the guaranteed JHole dump during presser and came back to guaranteed pump reversal. The 2yr is already up by a full hike over the past two weeks.\""
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis_heading",
+        "chart_analysis",
+        "thesis_note",
+        "post_link"
+      ]
+    },
+    "analysis_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart analysis:",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "chart_analysis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ugl_item",
+        "qqq_item"
+      ]
+    },
+    "ugl_item": {
+      "type": "Text",
+      "props": {
+        "text": "UGL (3x Gold): Downtrend recovery 42→58, now consolidating 53-56 range"
+      },
+      "children": []
+    },
+    "qqq_item": {
+      "type": "Text",
+      "props": {
+        "text": "QQQ (Tech): Consolidation validated, support holds 702.70, resistance 735.86, current 717.15"
+      },
+      "children": []
+    },
+    "thesis_note": {
+      "type": "Text",
+      "props": {
+        "text": "↳ Aligns with your bullish-gold + bearish-equities thesis; Treasury yield rise validates macro divergence.",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "post_link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2093380962164023421"
+      },
+      "children": []
+    }
+  }
+}
