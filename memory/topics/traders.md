@@ -5,7 +5,7 @@
 - Recent thesis: Equities/vol specialist; dispersion-trade framework; bearish equities into Oct; GOLD/crypto won't make new lows even if equities do; BTC liq map structurally different ("bearish skew but buy-side ramping"). Not levered ("can't with liq map like this"). Conditional BTC reversion play above 74.5K if funding/OI stretched.
 - Conviction notes: High-conviction technical analyst on equities; vixpiry/OPEX structure commentary; macro dispersion positioning. Bear mode experiment failed Aug 20. "Scar tissue" from forced loss at 68K. HYPE/LIT = gold/silver parallel; ratio at 27-28 (down from 55 peak). URL-only posts = noise per calibration.
 - Calibration: PENDING Aug 23 19:05Z (cryptic "@QOTSA_FRL Its a 65% move to 126" — asset/context unknown), PENDING Aug 21 20:10Z (conditional LEAPS comment — unspecified asset)
-- Last seen: 2026-08-28T15:04:09Z
+- Last seen: 2026-08-28T16:56:13Z
 - **Events (rolling):**
   - Aug 28 15:04Z — informational: SpaceX vs Anthropic IPO performance comparison; +35% (SpaceX 2mo) vs flat/down (Anthropic 2mo); caution N=1 sample-size analysis; macro context NASDAQ sentiment 44.4% bearish vs 31.5% avg, QQQ seasonality +19% YTD; related $SPCX tracker (high cross-trader activity); 4-chart Step 7 analysis; no personal execution [$SPCX/$ANT-IPO] [2093353951655870758]
   - Aug 28 14:51Z — informational: QQQ daily consolidation structure analysis; multi-level support/resistance zones (780/740/720/700/680/673/661/651/641); VPOC + moving averages visible; cryptic "Word Salad for Breakfast" caption on technical structure; no personal execution language; continuation of prior QQQ technical tracking [$QQQ-CONSOLIDATION] [2093350759559831576]
@@ -135,6 +135,7 @@
   - Aug 27 00:32Z — ambiguous: ENA "0.136 you say?"; cryptic reference to Aug 26 21:57Z ENA dump to 0.1360; unclear if sarcasm/dismissal or execution question on TWAP fills; intent context unknown [$ENA] [2092772080874066241]
   - Aug 28 01:10Z — informational: Earnings season volatility; OKTA +28.63% 5m spike pre-earnings (vol 320.95K), AMAT -2.48% post-earnings; multi-ticker earnings reaction chart sharing (#crimeseason); technical observation no personal execution [$OKTA/$AMAT-EARNINGS] [2093144263802618334]
   - Aug 28 16:51Z — informational: Jackson Hole pump reversal (expected dump→got pump). Gold UGL downtrend recovery validation, QQQ consolidation; 2yr yields up full hike; dispersion thesis affirmed [$GOLD/$QQQ/$EQUITIES/$MACRO] [2093380962164023421]
+  - Aug 28 16:56Z — informational: XAUUSD/SPX ratio 0.580 bounce from 0.520 support; multi-timeframe technical chart analysis; continuation of Aug 21/24 bullish ratio thesis validation [$GOLD/$SPX-RATIO] [2093382155686855116]
 
 ## swarmister
 
