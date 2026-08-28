@@ -1,0 +1,151 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Classification calibration and review"
+      },
+      "children": [
+        "calibration",
+        "sep1",
+        "event_section",
+        "sep2",
+        "message_section",
+        "sep3",
+        "status_section"
+      ]
+    },
+    "calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: HCH — Chat]",
+        "level": "h3"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "event_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event_heading",
+        "event_context",
+        "event_desc"
+      ]
+    },
+    "event_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h4"
+      }
+    },
+    "event_context": {
+      "type": "Text",
+      "props": {
+        "text": "No referenced message or prior context available.",
+        "variant": "body"
+      }
+    },
+    "event_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Standalone message in supporting member-chat channel.",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "message_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "msg_heading",
+        "msg_author_content",
+        "msg_metadata"
+      ]
+    },
+    "msg_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Discord Message",
+        "level": "h4"
+      }
+    },
+    "msg_author_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "msg_author",
+        "msg_text"
+      ]
+    },
+    "msg_author": {
+      "type": "Badge",
+      "props": {
+        "text": "heartcanhodl",
+        "variant": "secondary"
+      }
+    },
+    "msg_text": {
+      "type": "Text",
+      "props": {
+        "text": "\"Too\"",
+        "variant": "lead"
+      }
+    },
+    "msg_metadata": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "msg_id",
+        "msg_time"
+      ]
+    },
+    "msg_id": {
+      "type": "Text",
+      "props": {
+        "text": "ID: 1542974696662769664",
+        "variant": "caption"
+      }
+    },
+    "msg_time": {
+      "type": "Text",
+      "props": {
+        "text": "2026-08-28T19:10:34Z",
+        "variant": "caption"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "status_section": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read?",
+        "type": "info"
+      }
+    }
+  }
+}
