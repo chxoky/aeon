@@ -1,0 +1,61 @@
+{
+  "root": "card1",
+  "state": {},
+  "elements": {
+    "card1": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading1",
+        "text1",
+        "separator1",
+        "tweetcard1",
+        "separator2",
+        "text2"
+      ]
+    },
+    "heading1": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Stoiiic",
+        "level": "h2"
+      }
+    },
+    "text1": {
+      "type": "Text",
+      "props": {
+        "text": "Context: Reply to @Stnxbt, @mainachad, @Trader_XO discussing technical analysis",
+        "variant": "caption"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweetcard1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "Stoiiic",
+        "text": "youre not thats why i said if the last sweep was negated lol since it was so weak but that alone points to preemptive momentum loss."
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text2": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify without original conversation context — what's your read? Is this banter, educational commentary, a trade suggestion, or something else?",
+        "variant": "body"
+      }
+    }
+  }
+}
