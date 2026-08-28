@@ -5,8 +5,9 @@
 - Recent thesis: Equities/vol specialist; dispersion-trade framework; bearish equities into Oct; GOLD/crypto won't make new lows even if equities do; BTC liq map structurally different ("bearish skew but buy-side ramping"). Not levered ("can't with liq map like this"). Conditional BTC reversion play above 74.5K if funding/OI stretched.
 - Conviction notes: High-conviction technical analyst on equities; vixpiry/OPEX structure commentary; macro dispersion positioning. Bear mode experiment failed Aug 20. "Scar tissue" from forced loss at 68K. HYPE/LIT = gold/silver parallel; ratio at 27-28 (down from 55 peak). URL-only posts = noise per calibration.
 - Calibration: PENDING Aug 23 19:05Z (cryptic "@QOTSA_FRL Its a 65% move to 126" — asset/context unknown), PENDING Aug 21 20:10Z (conditional LEAPS comment — unspecified asset)
-- Last seen: 2026-08-28T14:51:28Z
+- Last seen: 2026-08-28T15:04:09Z
 - **Events (rolling):**
+  - Aug 28 15:04Z — informational: SpaceX vs Anthropic IPO performance comparison; +35% (SpaceX 2mo) vs flat/down (Anthropic 2mo); caution N=1 sample-size analysis; macro context NASDAQ sentiment 44.4% bearish vs 31.5% avg, QQQ seasonality +19% YTD; related $SPCX tracker (high cross-trader activity); 4-chart Step 7 analysis; no personal execution [$SPCX/$ANT-IPO] [2093353951655870758]
   - Aug 28 14:51Z — informational: QQQ daily consolidation structure analysis; multi-level support/resistance zones (780/740/720/700/680/673/661/651/641); VPOC + moving averages visible; cryptic "Word Salad for Breakfast" caption on technical structure; no personal execution language; continuation of prior QQQ technical tracking [$QQQ-CONSOLIDATION] [2093350759559831576]
   - Aug 28 14:40Z — informational: volume pattern technical commentary; reply to @jtgronerth; no ticker [2093348119018918294]
   - Aug 28 14:00Z — informational: Jackson Hole fear sentiment; market anxiety tone "Good that everyone is so afraid"; macro catalyst observation [$MACRO-JHOLEWATCH] [2093337933671706796]
