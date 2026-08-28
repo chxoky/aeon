@@ -1,0 +1,169 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor — Jackson Hole Catalyst"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "calibration_section",
+        "sep_1",
+        "event_section",
+        "sep_2",
+        "statement_section",
+        "sep_3",
+        "chart_section",
+        "sep_4",
+        "ambiguity_alert",
+        "sep_5",
+        "link_twitter"
+      ]
+    },
+    "calibration_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "calibration_text",
+        "trader_handle",
+        "new_trader_badge"
+      ]
+    },
+    "calibration_text": {
+      "type": "Text",
+      "props": {
+        "text": "🔍 Calibration —",
+        "variant": "muted"
+      }
+    },
+    "trader_handle": {
+      "type": "Text",
+      "props": {
+        "text": "@bull_genius"
+      }
+    },
+    "new_trader_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW TRADER",
+        "variant": "secondary"
+      }
+    },
+    "sep_1": {
+      "type": "Separator"
+    },
+    "event_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event_label",
+        "event_text"
+      ]
+    },
+    "event_label": {
+      "type": "Text",
+      "props": {
+        "text": "Event:",
+        "variant": "muted"
+      }
+    },
+    "event_text": {
+      "type": "Text",
+      "props": {
+        "text": "Jackson Hole catalyst window"
+      }
+    },
+    "sep_2": {
+      "type": "Separator"
+    },
+    "statement_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "statement_label",
+        "statement_text"
+      ]
+    },
+    "statement_label": {
+      "type": "Text",
+      "props": {
+        "text": "Trader Statement:",
+        "variant": "muted"
+      }
+    },
+    "statement_text": {
+      "type": "Text",
+      "props": {
+        "text": "LTF longing some just before jacksons hole lets see"
+      }
+    },
+    "sep_3": {
+      "type": "Separator"
+    },
+    "chart_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "chart_label",
+        "chart_text"
+      ]
+    },
+    "chart_label": {
+      "type": "Text",
+      "props": {
+        "text": "Chart:",
+        "variant": "muted"
+      }
+    },
+    "chart_text": {
+      "type": "Text",
+      "props": {
+        "text": "CASHCAT perp 15m MEXC, 7D RVWAP consolidation at 0.1927"
+      }
+    },
+    "sep_4": {
+      "type": "Separator"
+    },
+    "ambiguity_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Entry Ambiguity",
+        "message": "No explicit order type (limit/market), no size stated. New trader, alt token (CASHCAT). Step 4B cryptic — need chart read + trader context.",
+        "type": "warning"
+      }
+    },
+    "sep_5": {
+      "type": "Separator"
+    },
+    "link_twitter": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/bull_genius/status/2093336305098694703"
+      }
+    }
+  }
+}
