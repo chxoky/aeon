@@ -1,0 +1,88 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor event 28",
+        "description": "Personal reply from swarmister to @bull_genius"
+      },
+      "children": [
+        "status",
+        "event",
+        "separator1",
+        "details"
+      ]
+    },
+    "status": {
+      "type": "Alert",
+      "props": {
+        "type": "success",
+        "message": "✅ Event processed successfully"
+      },
+      "children": []
+    },
+    "event": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "congratulations"
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "metadata",
+        "classification",
+        "alerts",
+        "updates"
+      ]
+    },
+    "metadata": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to: @bull_genius",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "classification": {
+      "type": "Badge",
+      "props": {
+        "text": "non-financial · skipped silently",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "alerts": {
+      "type": "Stat",
+      "props": {
+        "label": "Alerts",
+        "value": "0"
+      },
+      "children": []
+    },
+    "updates": {
+      "type": "Text",
+      "props": {
+        "text": "Updated: x-trader-seen.txt + daily log",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
