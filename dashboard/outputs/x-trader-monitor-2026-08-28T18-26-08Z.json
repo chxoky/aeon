@@ -1,0 +1,112 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "separator1",
+        "macro_section",
+        "separator2",
+        "convergence_section",
+        "separator3",
+        "link_tweet"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "GOLD Technical Level\n\n400-404 on GLD is the buy spot during 1H Sept"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "macro_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "macro_heading",
+        "macro_text"
+      ]
+    },
+    "macro_heading": {
+      "type": "Text",
+      "props": {
+        "text": "Macro",
+        "variant": "muted"
+      }
+    },
+    "macro_text": {
+      "type": "Text",
+      "props": {
+        "text": "Will be rewarded greatly if Warsh doesn't cut next FOMC"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "convergence_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "convergence_heading",
+        "convergence_text"
+      ]
+    },
+    "convergence_heading": {
+      "type": "Text",
+      "props": {
+        "text": "Cross-trader convergence",
+        "variant": "muted"
+      }
+    },
+    "convergence_text": {
+      "type": "Text",
+      "props": {
+        "text": "Crypto_Chase entered GOLD long 1h36m earlier (16:44Z) with technical confluence — 2-trader bullish GOLD convergence on Kyle watch-list"
+      }
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2093403357616726123"
+      }
+    }
+  }
+}
