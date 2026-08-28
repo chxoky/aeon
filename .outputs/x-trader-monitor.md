@@ -1,9 +1,7 @@
-🔍 *Calibration — @Crypto_Chase*
+🔍 *Calibration — @swarmister*
 
-Event: X post mention of @CanixXS with short URL (t.co link, unable to resolve payload)
+Context: @0xjune_ just posted something that prompted this response
 
-Post text: "@CanixXS https://t.co/UQ5VLmW54W"
+swarmister: "???"
 
-Unable to classify — what's this referring to? Financial content or personal? (Link context needed for Step 4B calibration resolution.)
-
-tweet_id: 2093173902369231081
+Unable to classify — what was @0xjune_ saying, and what's your read on the three question marks?
