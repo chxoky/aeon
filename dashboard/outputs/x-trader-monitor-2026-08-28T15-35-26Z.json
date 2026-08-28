@@ -1,0 +1,107 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Conviction Downgrade — @KillaXBT"
+      },
+      "children": [
+        "pivot_alert",
+        "prior_now_stack",
+        "expectation_evidence",
+        "separator1",
+        "technical_section",
+        "separator2",
+        "context_section",
+        "post_link"
+      ]
+    },
+    "pivot_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "MAJOR PIVOT on $100K timing",
+        "type": "warning"
+      }
+    },
+    "prior_now_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "prior_section",
+        "now_section"
+      ]
+    },
+    "prior_section": {
+      "type": "Text",
+      "props": {
+        "text": "Prior (Aug 23): 'extremely lucky over next 6 months with $BTC ~$100K'"
+      }
+    },
+    "now_section": {
+      "type": "Text",
+      "props": {
+        "text": "NOW (Aug 28): 'absolutely 0% chance we see $100K this year'",
+        "variant": "lead"
+      }
+    },
+    "expectation_evidence": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "expectation_text",
+        "kalshi_evidence"
+      ]
+    },
+    "expectation_text": {
+      "type": "Text",
+      "props": {
+        "text": "Extends expectation to late Q2 2027 (9+ months out)."
+      }
+    },
+    "kalshi_evidence": {
+      "type": "Text",
+      "props": {
+        "text": "Evidence: Kalshi prediction market shows only 7% odds of $100K before October 2026 vs 30% before January 2027."
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "technical_section": {
+      "type": "Text",
+      "props": {
+        "text": "Technical: Consolidation structure with capitulation wick forming demand levels. HTF structural bull thesis preserved — just brutal bearish revision on near-term timing."
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_section": {
+      "type": "Text",
+      "props": {
+        "text": "This matters: KillaXBT is one of your 3 dual-platform traders + group bullish consensus. Conviction shift could ripple to other traders' positioning."
+      }
+    },
+    "post_link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/KillaXBT/status/2093359749442031891"
+      }
+    }
+  }
+}
