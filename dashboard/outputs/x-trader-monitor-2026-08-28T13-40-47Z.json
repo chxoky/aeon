@@ -1,0 +1,64 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-calib",
+        "text-event",
+        "tweet-post",
+        "separator-1",
+        "alert-classify"
+      ]
+    },
+    "heading-calib": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @trading_axe",
+        "level": "h2"
+      }
+    },
+    "text-event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Profit celebration post",
+        "variant": "body"
+      }
+    },
+    "tweet-post": {
+      "type": "TweetCard",
+      "props": {
+        "author": "trading_axe",
+        "handle": "trading_axe",
+        "text": "600 dollar PnL 🤯🤯🤯🤯🤘🤘"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert-classify": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "message": "Unable to classify — which trade generated this $600 profit?"
+      }
+    }
+  }
+}
