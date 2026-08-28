@@ -1,0 +1,184 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor — Calibration",
+        "description": "Classification issue with X post mention"
+      },
+      "children": [
+        "header_stack",
+        "separator_1",
+        "event_section",
+        "separator_2",
+        "post_section",
+        "separator_3",
+        "alert_classification",
+        "separator_4",
+        "metadata_section"
+      ]
+    },
+    "header_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_calibration",
+        "text_account"
+      ]
+    },
+    "badge_calibration": {
+      "type": "Badge",
+      "props": {
+        "text": "🔍 Calibration",
+        "variant": "outline"
+      }
+    },
+    "text_account": {
+      "type": "Text",
+      "props": {
+        "text": "@Crypto_Chase",
+        "variant": "body"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "event_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event_heading",
+        "event_text"
+      ]
+    },
+    "event_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h4"
+      }
+    },
+    "event_text": {
+      "type": "Text",
+      "props": {
+        "text": "X post mention of @CanixXS with short URL (t.co link, unable to resolve payload)",
+        "variant": "body"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "post_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "post_heading",
+        "post_content"
+      ]
+    },
+    "post_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Post Text",
+        "level": "h4"
+      }
+    },
+    "post_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "post_mention",
+        "post_link"
+      ]
+    },
+    "post_mention": {
+      "type": "Text",
+      "props": {
+        "text": "@CanixXS",
+        "variant": "body"
+      }
+    },
+    "post_link": {
+      "type": "Link",
+      "props": {
+        "label": "https://t.co/UQ5VLmW54W",
+        "href": "https://t.co/UQ5VLmW54W"
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to Classify",
+        "message": "What's this referring to? Financial content or personal? Link context needed for Step 4B calibration resolution.",
+        "type": "warning"
+      }
+    },
+    "separator_4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "metadata_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "tweet_id_row"
+      ]
+    },
+    "tweet_id_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet_id_label",
+        "tweet_id_value"
+      ]
+    },
+    "tweet_id_label": {
+      "type": "Text",
+      "props": {
+        "text": "Tweet ID:",
+        "variant": "caption"
+      }
+    },
+    "tweet_id_value": {
+      "type": "Text",
+      "props": {
+        "text": "2093173902369231081",
+        "variant": "muted"
+      }
+    }
+  }
+}
