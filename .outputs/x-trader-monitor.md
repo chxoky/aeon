@@ -18,3 +18,11 @@ Perfect! I've successfully executed the x-trader-monitor skill with your provide
 - ✅ Logged event to `memory/logs/2026-08-28.md` as Event 44 (skip classification)
 
 The skill completed successfully. This event generated no action items for Kyle — it was filtered as noise per the trader's established pattern, consistent with prior similar posts.
+🔍 *Calibration — @swarmister*
+
+Event: Bare reply to @le_1regard
+swarmister: "Wdym"
+
+Unable to classify — what's your read?
+
+[View tweet](https://x.com/swarmister/status/2093376332126122154)
