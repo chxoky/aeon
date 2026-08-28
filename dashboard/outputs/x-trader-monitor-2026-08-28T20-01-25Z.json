@@ -1,0 +1,86 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Social Media Trading Activity Monitoring"
+      },
+      "children": [
+        "heading_calibration",
+        "stack_content"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @swarmister",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_event",
+        "separator1",
+        "tweetcard_reply",
+        "separator2",
+        "text_context",
+        "text_question"
+      ]
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @bull_genius",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "tweetcard_reply": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "text": "Yep"
+      },
+      "children": []
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "Context unavailable without knowing what @bull_genius's original post was. Unable to determine if this is: (a) confirming a bullish technical setup, (b) confirming a bullish sentiment, (c) confirming a trade-structure observation, or (d) something else entirely. High cryptic-reply pattern on @swarmister continues.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_question": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
