@@ -1,0 +1,38 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "separator",
+        "link_element"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "QQQ Daily Consolidation Structure\n\nTechnical observation: Multi-level support/resistance zones marked (780/740/720/700/680/673/661/651/641). VPOC + moving averages visible on daily timeframe. Cryptic \"Word Salad for Breakfast\" caption suggests complex structural analysis in progress."
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_element": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2093350759559831576"
+      }
+    }
+  }
+}
