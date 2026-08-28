@@ -1,9 +1,8 @@
-🔍 *Calibration — @Stoiiic*
+🔁 *Mirrored — @swarmister*
 
-Event: Reply to @wasmynme
-Stoiiic: "everything"
+BTC short: Taking partial profit on underwater short position. Charts show POI zone (80K-81K) for re-entry planning on retests.
 
-Unable to classify — unclear without original @wasmynme message. What's your read on this?
+I closed 50% of your BTC short position to match.
 
 [View post](https://x.com/Stoiiic/status/2093385739459268888)
 🐦 *[X] @swarmister*
@@ -15,3 +14,4 @@ $XMR 1H — Short Setup
 Distribution box at 476-480 (poi) with marked downside targets; structure validates bearish retest scenario.
 
 [View tweet](https://x.com/swarmister/status/20933887083933148463)
+[View post](https://x.com/swarmister/status/2093389546213822596)
