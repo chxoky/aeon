@@ -1,9 +1,8 @@
-🐦 *[X] @Wild_Randomness*
+🔍 *Calibration — @swarmister*
 
-_Market Structure Commentary — Index Pinning Mechanism_
+Event: Reply to @MoneyCrptBunny
+swarmister: "@MoneyCrptBunny 1) what"
 
-Heavy put buying at 210, heavy call buying at 228. Critique of index-pinning strategy: Warsh et. al pinning indexes, retail chasing/chopped on single-name vol. Kenny Griffin monetizing via options selling, wealth effect drag.
+Unable to classify — external context unknown. What's your read?
 
-https://x.com/Wild_Randomness/status/2093412109061394805
-
-↳ _Continuation of Jackson Hole analysis: explains structural mechanism driving bearish single-name volatility environment. Aligns with prior Aug 28 18:45Z Warsh historical-precedent analysis._
+[View post](https://x.com/swarmister/status/2093414544601182577)
