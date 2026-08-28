@@ -1,0 +1,68 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading_calibration",
+        "text_event",
+        "separator_1",
+        "tweetcard_wild",
+        "separator_2",
+        "alert_classification"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration — @Wild_Randomness",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Post-Jackson Hole market reaction (Aug 28 19:20 UTC, ~50 min after Warsh FOMC statement response)",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "tweetcard_wild": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "@imjustanomody Idk maybe\n\nBut this \"smart money flow\" has been getting taken out back this week lol"
+      },
+      "children": []
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert_classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify — what's your read?",
+        "message": "Asset/direction/thesis unclear; appears to be market-structure observation on institutional positioning or index dynamics, but specific signal absent.",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}
