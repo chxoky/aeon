@@ -1,0 +1,49 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_1",
+        "link_view",
+        "text_annotation"
+      ]
+    },
+    "tweet_1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "Hopefully you're starting to see why so many people lose money.\n\nTrade the market for what it's doing, not for what you want to happen.\n\nThe trend has shifted. That isn't an opinion, it's TA.\nFuck seasonality patterns. Markets evolve. The problem is, people are too naive & stubborn.\n\nSooner or later time will prove who is right. My thoughts remain the exactly the same, the bitcoin:native bottom is in."
+      }
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2093421735571779969"
+      }
+    },
+    "text_annotation": {
+      "type": "Text",
+      "props": {
+        "text": "↳ _Reaffirmation of prior Aug 21 bottom call; validates re-accumulation thesis against persistent bearish sentiment._",
+        "variant": "muted"
+      }
+    }
+  }
+}

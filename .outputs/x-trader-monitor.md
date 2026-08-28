@@ -1,16 +1,14 @@
-🐦 *[X] @Wild_Randomness*
+🐦 *[X] @KillaXBT*
 
-Options flow data: NVDA call orders (cheddarflow).
+Hopefully you're starting to see why so many people lose money.
 
-Multiple strikes 200-260, mostly SELL side dominance with substantial volume. Confirms bearish options sentiment on NVDA post-earnings.
+Trade the market for what it's doing, not for what you want to happen.
 
-[View tweet](https://x.com/Wild_Randomness/status/2093415802087387186)
-🔍 *Calibration — @Wild_Randomness*
+The trend has shifted. That isn't an opinion, it's TA.
+Fuck seasonality patterns. Markets evolve. The problem is, people are too naive & stubborn.
 
-Event: Post-Jackson Hole market reaction (Aug 28 19:20 UTC, ~50 min after Warsh FOMC statement response)
+Sooner or later time will prove who is right. My thoughts remain the exactly the same, the bitcoin:native bottom is in.
 
-Wild_Randomness: "@imjustanomody Idk maybe
+[View tweet](https://x.com/KillaXBT/status/2093421735571779969)
 
-But this "smart money flow" has been getting taken out back this week lol"
-
-Unable to classify — what's your read? (Asset/direction/thesis unclear; appears to be market-structure observation on institutional positioning or index dynamics, but specific signal absent.)
+↳ _Reaffirmation of prior Aug 21 bottom call; validates re-accumulation thesis against persistent bearish sentiment._
