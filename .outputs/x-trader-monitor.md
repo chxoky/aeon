@@ -1,9 +1,7 @@
-🐦 *[X] @Wild_Randomness*\n\nNVDA 190 Put — Oct 02 expiry — $1.30 (+43.89% today)\n- Premium: $810.2K | Volume: 6.5K | OI: 1.3K\n- Bullflow institutional options data\n\nConfirms bearish put positioning post-earnings. Aligns with Wild_Randomness's recent NVDA exit (Aug 27 TP at $225.97) and bearish outlook.\n\n[View tweet](https://x.com/Wild_Randomness/status/2093425977909297578)
-🔍 *Calibration — @swarmister*
+🐦 *[X] @KillaXBT*
 
-Event: Reply to @bull_genius
-swarmister: "Yep"
+I will not regret buying bitcoin:native at 65K and holding my long from 62.6K. I will also not regret buying $SOM at 67-76 and seeing it rally 50%.
 
-Context unavailable without knowing what @bull_genius's original post was. Unable to determine if this is: (a) confirming a bullish technical setup, (b) confirming a bullish sentiment, (c) confirming a trade-structure observation, or (d) something else entirely. High cryptic-reply pattern on @swarmister continues. 
+[View tweet](https://x.com/KillaXBT/status/2093430774309556515)
 
-What's your read?
+↳ _Existing-position affirmation on BTC. First mention of $SOM across watched traders (prior 50% rally conviction). No new execution action._
