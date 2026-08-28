@@ -1,0 +1,79 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @swarmister",
+        "description": "Sharing sentiment on @saylor/@fundstrat market view"
+      },
+      "children": [
+        "tweet-card",
+        "separator-1",
+        "metadata-stack",
+        "separator-2",
+        "classification-alert"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "@swarmister",
+        "text": "@saylor @fundstrat Legendary shit [meme: market forces wrestling/bull vs bear]"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "metadata-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "url-link",
+        "timestamp-text"
+      ]
+    },
+    "url-link": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/swarmister/status/2093314100155527528",
+        "href": "https://x.com/swarmister/status/2093314100155527528"
+      },
+      "children": []
+    },
+    "timestamp-text": {
+      "type": "Text",
+      "props": {
+        "text": "Timestamp: Aug 28 12:25:48 UTC 2026",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "classification-alert": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "title": "Unable to classify",
+        "message": "What's your read on the original @saylor/@fundstrat content being referenced? This appears to be positive macro/market sentiment but the specific thesis/signal isn't clear without the original link context."
+      },
+      "children": []
+    }
+  }
+}

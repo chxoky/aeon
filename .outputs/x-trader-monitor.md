@@ -1,19 +1,8 @@
-
 🔍 *Calibration — @swarmister*
 
-Event: Reply to @surfxbt on unspecified topic (original post unknown, no media/context available)
+Event: Sharing sentiment on @saylor/@fundstrat market view
+swarmister: "@saylor @fundstrat Legendary shit [meme: market forces wrestling/bull vs bear]"
+URL: https://x.com/swarmister/status/2093314100155527528
+Timestamp: Aug 28 12:25:48 UTC 2026
 
-swarmister: "@surfxbt Risky"
-
-Unable to classify — what's your read? Context: swarmister just closed swing positions (Aug 28 06:00Z, 4RR profit), holds spot BTC/ETH, skeptical on 97K near-term BTC target (Aug 28 09:04Z).
-
-[View tweet](https://x.com/swarmister/status/2093300957903765913)
-
-🔍 *Calibration — @swarmister*
-
-Event: Reply to @bull_genius (context unavailable)
-swarmister: "Wow what"
-
-Unable to classify — what's your read?
-
-[View post](https://x.com/swarmister/status/2093300885132595441)
+Unable to classify — what's your read on the original @saylor/@fundstrat content being referenced? This appears to be positive macro/market sentiment but the specific thesis/signal isn't clear without the original link context.
