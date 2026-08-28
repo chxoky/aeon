@@ -1,0 +1,100 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor — Calibration"
+      },
+      "children": [
+        "header-text",
+        "event-desc",
+        "sep1",
+        "tweet-card",
+        "sep2",
+        "analysis-section",
+        "sep3",
+        "cta-text",
+        "link-view"
+      ]
+    },
+    "header-text": {
+      "type": "Text",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "variant": "lead"
+      }
+    },
+    "event-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @StonkTrump with 5 financial charts (XYZ100 technical + QQQ consolidation analysis)"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "@StonkTrump Imagine the smell"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "analysis-text",
+        "interpretation-text"
+      ]
+    },
+    "analysis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Charts show clear technical setups on XYZ100 (consolidation) and QQQ (716.43 inflection zone), but \"Imagine the smell\" is cryptic/sarcastic. Unable to determine intent: breakdown warning? Market sentiment? Technical observation?"
+      }
+    },
+    "interpretation-text": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "cta-text": {
+      "type": "Text",
+      "props": {
+        "text": "Request your interpretation of this market signal.",
+        "variant": "muted"
+      }
+    },
+    "link-view": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2093477601633542161"
+      }
+    }
+  }
+}
