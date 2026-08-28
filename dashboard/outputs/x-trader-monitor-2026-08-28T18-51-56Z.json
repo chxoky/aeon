@@ -1,0 +1,54 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet-card",
+        "separator-1",
+        "tweet-link",
+        "separator-2",
+        "precedent-alert"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Historically: When Warsh opened his mouth and market freaked out, three things happened—\n1. QQQ drew down 10% into event\n2. AMZN/MSFT reported incredible cloud revenues that night\n3. Reports came out that SA was liquidated\n\nReply to @Noodle_Noodle1 on Warsh FOMC catalyst risk into Jackson Hole close."
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2093409561965400377"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "precedent-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Historical Macro Precedent",
+        "message": "Warsh commentary = QQQ volatility driver. Aligns with Aug 28 18:20Z GOLD technical thesis tied to Warsh rate-cut read.",
+        "type": "info"
+      }
+    }
+  }
+}
