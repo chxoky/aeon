@@ -1,0 +1,151 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "main-stack"
+      ]
+    },
+    "main-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "header",
+        "event-details",
+        "separator-1",
+        "status-alert",
+        "separator-2",
+        "action-link"
+      ]
+    },
+    "header": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration",
+        "level": "h2"
+      }
+    },
+    "event-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "author-row",
+        "reply-row",
+        "content-row"
+      ]
+    },
+    "author-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "author-label",
+        "author-badge"
+      ]
+    },
+    "author-label": {
+      "type": "Text",
+      "props": {
+        "text": "Author:",
+        "variant": "muted"
+      }
+    },
+    "author-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "@swarmister",
+        "variant": "default"
+      }
+    },
+    "reply-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "reply-label",
+        "reply-badge"
+      ]
+    },
+    "reply-label": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to:",
+        "variant": "muted"
+      }
+    },
+    "reply-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "@George1Trader",
+        "variant": "outline"
+      }
+    },
+    "content-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "content-label",
+        "content-text"
+      ]
+    },
+    "content-label": {
+      "type": "Text",
+      "props": {
+        "text": "Content:",
+        "variant": "muted"
+      }
+    },
+    "content-text": {
+      "type": "Text",
+      "props": {
+        "text": "\"Same thing\"",
+        "variant": "lead"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "status-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read?",
+        "type": "info"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "action-link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/swarmister/status/2093315649468531181"
+      }
+    }
+  }
+}
