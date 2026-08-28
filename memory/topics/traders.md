@@ -141,8 +141,9 @@
 - **Events (rolling):**
   - Aug 28 09:00Z — ambiguous: "@bull_genius Also, take a look at the post I'm linking to. The daily chart looks good." — cryptic reply referencing external linked post/chart; media empty (no CDN URL); ticker/asset unspecified; no execution intent discernible; HR-2 calibration sent [$UNKNOWN] [2093262340363800724]
 - Calibration: PENDING Aug 28 07:52Z (cryptic "@OnlyZen_PK @0xjune_ Yep 👍" — bare affirmation reply following earlier Aug 28 05:04Z "@0xjune_ ???"; context/intent unknown without original @OnlyZen_PK/@0xjune_ conversation; unable to determine if self-resolving prior ambiguous message or separate new signal; HR-2 calibration sent)
-- Last seen: 2026-08-28T09:04:13Z
+- Last seen: 2026-08-28T11:33:34Z
 - **Events (rolling):**
+  - Aug 28 11:33Z — ambiguous: @surfxbt mention "Risky"; context/original post unknown; bare reply; HR-2 calibration sent [$UNKNOWN] [2093300957903765913]
   - Aug 28 09:04Z — informational: @bull_genius reply on BSL/HTF D1 BTC chart; skeptical on immediate 97K target achievement; closed swing positions, spot holdings showing profits; Sol alts mentioned; market structure opinion + position status [$BTC/$SOL] [2093263370166100212]
   - Aug 28 07:52Z — ambiguous: "@OnlyZen_PK @0xjune_ Yep 👍" — cryptic bare reply to unknown context; follows earlier Aug 28 05:04Z "@0xjune_ ???" message; unable to determine asset/intent without original conversation; HR-2 calibration sent to Kyle [$UNKNOWN] [2093245251129417910]
   - Aug 28 06:00Z — trade-mirror-partial-tp: BTC long position opened Aug 27, partial TP'd for 4RR achievement on 5M intraday structure; chart shows liquidity zones and technical entry/exit levels; scalp-to-target execution achieved; no current position size (closed via partial TP) [2093217164325007616]

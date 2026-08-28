@@ -1,0 +1,119 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @swarmister",
+        "description": "x-trader-monitor"
+      },
+      "children": [
+        "event-desc",
+        "alert",
+        "separator1",
+        "tweetcard",
+        "separator2",
+        "context-section",
+        "separator3",
+        "link"
+      ]
+    },
+    "event-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to @surfxbt on unspecified topic (original post unknown, no media/context available)",
+        "variant": "caption"
+      }
+    },
+    "alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification Status",
+        "message": "Unable to classify — what's your read?",
+        "type": "info"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweetcard": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "@surfxbt Risky"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context-heading",
+        "context-list"
+      ]
+    },
+    "context-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h4"
+      }
+    },
+    "context-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context1",
+        "context2",
+        "context3"
+      ]
+    },
+    "context1": {
+      "type": "Text",
+      "props": {
+        "text": "Closed swing positions (Aug 28 06:00Z, 4RR profit)"
+      }
+    },
+    "context2": {
+      "type": "Text",
+      "props": {
+        "text": "Holds spot BTC/ETH"
+      }
+    },
+    "context3": {
+      "type": "Text",
+      "props": {
+        "text": "Skeptical on 97K near-term BTC target (Aug 28 09:04Z)"
+      }
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/swarmister/status/2093300957903765913"
+      }
+    }
+  }
+}
