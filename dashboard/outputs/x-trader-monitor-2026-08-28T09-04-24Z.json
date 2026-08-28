@@ -1,0 +1,33 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_post",
+        "link_view"
+      ]
+    },
+    "tweet_post": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "$BTC 4H, a more localized view, short setup.\n\nThe initial conditions for a reversal and the emergence of a downward Order Flow are forming.\n\nA test of the marked POI will be used to consider opening a short position.\n\nTargets are marked on the chart."
+      },
+      "children": []
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/swarmister/status/2093261915187212430"
+      },
+      "children": []
+    }
+  }
+}
