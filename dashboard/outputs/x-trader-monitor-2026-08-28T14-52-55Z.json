@@ -1,0 +1,88 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet",
+        "separator1",
+        "positions-heading",
+        "positions-stack",
+        "separator2",
+        "link-tweet"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "BTC bounced off 7d RVWAP, alts consolidated and sharply bounced (pump zec cashcat eth). Cautious positioning: will gradually TP leveraged positions and stay exposed spot. No new entries below 74-75K support."
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "positions-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Current Leveraged Positions",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "positions-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat-pump",
+        "stat-zec"
+      ]
+    },
+    "stat-pump": {
+      "type": "Stat",
+      "props": {
+        "label": "PUMP 10x",
+        "value": "+29.81%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat-zec": {
+      "type": "Stat",
+      "props": {
+        "label": "ZEC 10x",
+        "value": "+25.27%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/bull_genius/status/2093348447516557641"
+      },
+      "children": []
+    }
+  }
+}
