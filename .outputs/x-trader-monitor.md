@@ -1,4 +1,4 @@
-🐦 *[X] @swarmister*
+🔁 *Mirrored — @swarmister*
 
 $BTC daily timeframe
 
@@ -9,3 +9,6 @@ A full trend reversal will occur if the price sustains above 83–84k and consol
 [View tweet](https://x.com/swarmister/status/2093216685754863939)
 
 ↳ _Charts show daily resistance zones 83–84k with downtrend structure + current consolidation. Aligns with risk-off regime (BTC -2.1%, breadth 4/20)._
+BTC long position (opened Aug 27), partial TP'd for 4RR.
+
+[View post](https://x.com/swarmister/status/2093217164325007616)

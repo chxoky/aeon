@@ -130,6 +130,17 @@
   - Aug 27 00:32Z — ambiguous: ENA "0.136 you say?"; cryptic reference to Aug 26 21:57Z ENA dump to 0.1360; unclear if sarcasm/dismissal or execution question on TWAP fills; intent context unknown [$ENA] [2092772080874066241]
   - Aug 28 01:10Z — informational: Earnings season volatility; OKTA +28.63% 5m spike pre-earnings (vol 320.95K), AMAT -2.48% post-earnings; multi-ticker earnings reaction chart sharing (#crimeseason); technical observation no personal execution [$OKTA/$AMAT-EARNINGS] [2093144263802618334]
 
+## swarmister
+
+- Platforms: X (Twitter)
+- Current open positions: None confirmed (intraday trader, daily closes out positions)
+- Recent thesis: Intraday BTC/ETH scalp trader focusing on 5M/15M/1H liquidity zones and order flow. Technical structure analyst on support/resistance levels and Point of Interest (POI) analysis. Alternates between long and short setups based on intraday price action confirmation.
+- Conviction notes: Precision intraday execution trader; disciplined profit-taking approach (4RR achievement documented Aug 28). Trades off technical levels (support/resistance/liquidity sweeps) rather than macro thesis. Medium conviction per entry = high technical precision, no ambiguous entries documented.
+- Calibration: None documented
+- Last seen: 2026-08-28T06:00:36Z
+- **Events (rolling):**
+  - Aug 28 06:00Z — trade-mirror-partial-tp: BTC long position opened Aug 27, partial TP'd for 4RR achievement on 5M intraday structure; chart shows liquidity zones and technical entry/exit levels; scalp-to-target execution achieved; no current position size (closed via partial TP) [2093217164325007616]
+
 ## Bitcoin_Astro
 
 - Platforms: X (Twitter)

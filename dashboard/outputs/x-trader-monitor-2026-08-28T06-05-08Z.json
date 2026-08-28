@@ -1,0 +1,49 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge-mirrored",
+        "tweet-card",
+        "link-post"
+      ]
+    },
+    "badge-mirrored": {
+      "type": "Badge",
+      "props": {
+        "text": "🔁 Mirrored — @swarmister",
+        "variant": "outline"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "@swarmister",
+        "text": "BTC long position (opened Aug 27), partial TP'd for 4RR."
+      }
+    },
+    "link-post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/swarmister/status/2093217164325007616"
+      }
+    }
+  }
+}
