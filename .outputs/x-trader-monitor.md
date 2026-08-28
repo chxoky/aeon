@@ -1,10 +1,10 @@
 🔁 *Mirrored — @swarmister*
 
-$BTC daily timeframe
+The logic was that yesterday the price was squeezed between the POCs from yesterday and the day before.
 
-There was a false breakout on the upside, so it would be wise to liquidate long positions before the price moves higher. at least, that's the logical move. 
+After that, I noticed abnormal volume on the clusters and entered a position on the retest. That's the lesson in trading clusters.
 
-A full trend reversal will occur if the price sustains above 83–84k and consolidates above these levels for 1–2 weeks.
+[View tweet](https://x.com/swarmister/status/2093218011171660024)
 
 [View tweet](https://x.com/swarmister/status/2093216685754863939)
 
@@ -12,3 +12,4 @@ A full trend reversal will occur if the price sustains above 83–84k and consol
 BTC long position (opened Aug 27), partial TP'd for 4RR.
 
 [View post](https://x.com/swarmister/status/2093217164325007616)
+✨ **Teaching point**: POC squeeze + abnormal volume on cluster profile = setup confirmation; retest of structure validates entry. Educational methodology post on trading price-action consolidations with cluster analysis.

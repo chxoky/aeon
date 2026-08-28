@@ -1,0 +1,80 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor",
+        "description": "Trading insights from @swarmister"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "sep-1",
+        "teaching-section"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "@swarmister",
+        "text": "The logic was that yesterday the price was squeezed between the POCs from yesterday and the day before.\n\nAfter that, I noticed abnormal volume on the clusters and entered a position on the retest. That's the lesson in trading clusters."
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "teaching-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "teaching-heading",
+        "teaching-text",
+        "link-view"
+      ]
+    },
+    "teaching-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "✨ Teaching Point",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "teaching-text": {
+      "type": "Text",
+      "props": {
+        "text": "POC squeeze + abnormal volume on cluster profile = setup confirmation; retest of structure validates entry. Educational methodology post on trading price-action consolidations with cluster analysis.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "link-view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/swarmister/status/2093218011171660024"
+      },
+      "children": []
+    }
+  }
+}
