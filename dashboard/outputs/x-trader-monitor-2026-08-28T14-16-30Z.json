@@ -1,0 +1,129 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "CASHCAT Technical Setup — @bull_genius"
+      },
+      "children": [
+        "tweet",
+        "sep1",
+        "technical_section",
+        "sep2",
+        "convergence"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "too early, waiting for liquidations"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "technical_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "market_heading",
+        "market_desc",
+        "levels_heading",
+        "support_level",
+        "intermediate_zones",
+        "chart_link",
+        "post_link"
+      ]
+    },
+    "market_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "CASHCAT/Tether Perpetual Futures (MEXC 15m)",
+        "level": "h3"
+      }
+    },
+    "market_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Showing consolidation at 0.19274. Trader waiting for liquidations before entry.",
+        "variant": "body"
+      }
+    },
+    "levels_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "DCA Entry Levels",
+        "level": "h4"
+      }
+    },
+    "support_level": {
+      "type": "Stat",
+      "props": {
+        "label": "30D Support",
+        "value": "0.12968"
+      }
+    },
+    "intermediate_zones": {
+      "type": "Stat",
+      "props": {
+        "label": "Intermediate Zones",
+        "value": "0.16–0.18K"
+      }
+    },
+    "chart_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Chart: CASHCAT/Tether Technical Analysis",
+        "href": "https://pbs.twimg.com/media/HQ0GH5HXkAA1QQx.png"
+      }
+    },
+    "post_link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/bull_genius/status/2093341186010341874"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "convergence": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "conv_heading",
+        "conv_desc"
+      ]
+    },
+    "conv_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Cross-trader CASHCAT Convergence",
+        "level": "h3"
+      }
+    },
+    "conv_desc": {
+      "type": "Text",
+      "props": {
+        "text": "3-trader emerging momentum:\n• @bull_genius — technical analysis\n• @ryzzqq — squeeze observation\n• @trading_axe — reflexivity thesis",
+        "variant": "body"
+      }
+    }
+  }
+}
