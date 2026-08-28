@@ -1,0 +1,56 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-card",
+        "separator-1",
+        "analysis-section"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "$BTC daily timeframe\n\nThere was a false breakout on the upside, so it would be wise to liquidate long positions before the price moves higher. at least, that's the logical move.\n\nA full trend reversal will occur if the price sustains above 83–84k and consolidates above these levels for 1–2 weeks."
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "link-element",
+        "analysis-text"
+      ]
+    },
+    "link-element": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/swarmister/status/2093216685754863939"
+      }
+    },
+    "analysis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Charts show daily resistance zones 83–84k with downtrend structure + current consolidation. Aligns with risk-off regime (BTC -2.1%, breadth 4/20).",
+        "variant": "caption"
+      }
+    }
+  }
+}
