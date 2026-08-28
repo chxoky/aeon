@@ -1,0 +1,90 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading_calibration",
+        "text_event_type",
+        "sep1",
+        "text_quote",
+        "text_chart",
+        "sep2",
+        "alert_classification",
+        "text_question",
+        "sep3",
+        "link_view"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @swarmister",
+        "level": "h2"
+      }
+    },
+    "text_event_type": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Technical setup post on POI zone re-entry",
+        "variant": "muted"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_quote": {
+      "type": "Text",
+      "props": {
+        "text": "@swarmister: \"I have some orders\"",
+        "variant": "lead"
+      }
+    },
+    "text_chart": {
+      "type": "Text",
+      "props": {
+        "text": "Chart shows: \"There may be retests. I'm re-enter in the POI zone\""
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Ticker unspecified, intent unclear (personal execution vs. educational/collaborative with @Dalio777). Chart shows marked order levels in POI zone but no asset label.",
+        "type": "warning"
+      }
+    },
+    "text_question": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/swarmister/status/2093393401794215996"
+      }
+    }
+  }
+}
