@@ -1,0 +1,150 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Heartbeat 2026-08-28",
+        "description": "Health status monitoring"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert-watch",
+        "sep-1",
+        "heading-affected",
+        "badges-skills",
+        "sep-2",
+        "stack-details"
+      ]
+    },
+    "alert-watch": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "🟡 WATCH — 🔵 P3: Daily cron skills stale >48h",
+        "message": "morning-pipeline, morning-brief, token-alert, token-movers, market-context-refresh, narrative-tracker, skill-health all last succeeded 2026-08-26. Aug 27 and Aug 28 scheduled runs appear to have been skipped."
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading-affected": {
+      "type": "Heading",
+      "props": {
+        "text": "Affected Skills",
+        "level": "h3"
+      }
+    },
+    "badges-skills": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-1",
+        "badge-2",
+        "badge-3",
+        "badge-4",
+        "badge-5",
+        "badge-6",
+        "badge-7"
+      ]
+    },
+    "badge-1": {
+      "type": "Badge",
+      "props": {
+        "text": "morning-pipeline",
+        "variant": "outline"
+      }
+    },
+    "badge-2": {
+      "type": "Badge",
+      "props": {
+        "text": "morning-brief",
+        "variant": "outline"
+      }
+    },
+    "badge-3": {
+      "type": "Badge",
+      "props": {
+        "text": "token-alert",
+        "variant": "outline"
+      }
+    },
+    "badge-4": {
+      "type": "Badge",
+      "props": {
+        "text": "token-movers",
+        "variant": "outline"
+      }
+    },
+    "badge-5": {
+      "type": "Badge",
+      "props": {
+        "text": "market-context-refresh",
+        "variant": "outline"
+      }
+    },
+    "badge-6": {
+      "type": "Badge",
+      "props": {
+        "text": "narrative-tracker",
+        "variant": "outline"
+      }
+    },
+    "badge-7": {
+      "type": "Badge",
+      "props": {
+        "text": "skill-health",
+        "variant": "outline"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "stack-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-webhook",
+        "text-issues",
+        "text-recommendation"
+      ]
+    },
+    "text-webhook": {
+      "type": "Text",
+      "props": {
+        "text": "X webhook (WATCHED_TRADERS) is healthy."
+      }
+    },
+    "text-issues": {
+      "type": "Text",
+      "props": {
+        "text": "No P0/P1/P2 issues."
+      }
+    },
+    "text-recommendation": {
+      "type": "Text",
+      "props": {
+        "text": "Recommend checking GitHub Actions cron dispatch for Aug 27–28.",
+        "variant": "lead"
+      }
+    }
+  }
+}

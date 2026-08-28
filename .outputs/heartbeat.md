@@ -1,11 +1,3 @@
-HEARTBEAT_OK · STATUS_PAGE=OK
+🟡 WATCH — Heartbeat 2026-08-28
 
-All checks passed cleanly:
-
-- **P0 skills**: No failed, stuck, or chronically-failing skills. All 9 enabled skills are healthy.
-- **P0 webhook**: `WATCHED_TRADERS` rule is live (`is_effect: 1`) — X signal flow intact.
-- **P1**: No open PRs, no urgent GitHub issues.
-- **P2**: No flagged follow-up items in MEMORY.md.
-- **P3**: All enabled skills within 2× their schedule interval; no entries missing from cron-state.json.
-
-`docs/status.md` regenerated (🟢 OK, next run: skill-health at 18:00 UTC). Log entry appended to `memory/logs/2026-08-27.md`.
+🔵 P3 — Daily cron skills stale >48h: morning-pipeline, morning-brief, token-alert, token-movers, market-context-refresh, narrative-tracker, skill-health all last succeeded 2026-08-26. Aug 27 and Aug 28 scheduled runs appear to have been skipped. X webhook (WATCHED_TRADERS) is healthy. No P0/P1/P2 issues. Recommend checking GitHub Actions cron dispatch for Aug 27–28.
