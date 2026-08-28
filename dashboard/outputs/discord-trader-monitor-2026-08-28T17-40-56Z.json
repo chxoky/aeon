@@ -1,0 +1,47 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord: Chase — Crypto"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-member-msg",
+        "separator-1",
+        "text-response"
+      ]
+    },
+    "text-member-msg": {
+      "type": "Text",
+      "props": {
+        "text": "↩️ Member: \"boss this still the play?\"",
+        "variant": "body"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-response": {
+      "type": "Text",
+      "props": {
+        "text": "Yes",
+        "variant": "lead"
+      }
+    }
+  }
+}
