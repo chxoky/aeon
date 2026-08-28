@@ -1,13 +1,13 @@
-🔍 *Conviction Downgrade — @KillaXBT*
+🐦 *[X] @bull_genius*
 
-**MAJOR PIVOT on $100K timing:**
-- Prior (Aug 23): 'extremely lucky over next 6 months with $BTC ~$100K' 
-- **NOW (Aug 28)**: 'absolutely 0% chance we see $100K this year'
+Profit taking was well timed. Jackson Hole bounce got sold off, closed some positions. Worth a try, made some money.
 
-Extends expectation to **late Q2 2027** (9+ months out). Evidence: Kalshi prediction market shows only **7% odds** of $100K before October 2026 vs 30% before January 2027.
+**BTC now trading below ATH AVWAP + 7D RVWAP** — means alts could lose it too.
 
-Technical: Consolidation structure with capitulation wick forming demand levels. **HTF structural bull thesis preserved** — just brutal bearish revision on near-term timing.
+This is the cleanup move we talked about this morning. Taking it chill into the weekend. Market's not going back to the 60s (bullish longer-term).
 
-This matters: KillaXBT is one of your 3 dual-platform traders + group bullish consensus. Conviction shift could ripple to other traders' positioning.
+**Active positions:** PUMP 10x long (+29.81% unrealized), ZEC 10x long (+25.27% unrealized)
 
-[View post](https://x.com/KillaXBT/status/2093359749442031891)
+Pay attention at marked zones.
+
+[View tweet](https://x.com/bull_genius/status/2093371036532150606)

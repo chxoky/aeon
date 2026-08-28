@@ -1,0 +1,99 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor",
+        "description": "Trading analysis and position updates"
+      },
+      "children": [
+        "tweet-card",
+        "separator-1",
+        "positions-section",
+        "separator-2",
+        "link-tweet"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "Profit taking was well timed. Jackson Hole bounce got sold off, closed some positions. Worth a try, made some money.\n\nBTC now trading below ATH AVWAP + 7D RVWAP — means alts could lose it too.\n\nThis is the cleanup move we talked about this morning. Taking it chill into the weekend. Market's not going back to the 60s (bullish longer-term).\n\nActive positions: PUMP 10x long (+29.81% unrealized), ZEC 10x long (+25.27% unrealized)\n\nPay attention at marked zones."
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "positions-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-positions",
+        "positions-stack"
+      ]
+    },
+    "heading-positions": {
+      "type": "Heading",
+      "props": {
+        "text": "Active Positions",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "positions-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat-pump",
+        "stat-zec"
+      ]
+    },
+    "stat-pump": {
+      "type": "Stat",
+      "props": {
+        "label": "PUMP 10x long",
+        "value": "+29.81%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat-zec": {
+      "type": "Stat",
+      "props": {
+        "label": "ZEC 10x long",
+        "value": "+25.27%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/bull_genius/status/2093371036532150606"
+      },
+      "children": []
+    }
+  }
+}
