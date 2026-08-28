@@ -1,0 +1,56 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "separator_1",
+        "link_tweet",
+        "text_continuation"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Market Structure Commentary — Index Pinning Mechanism\n\nHeavy put buying at 210, heavy call buying at 228. Critique of index-pinning strategy: Warsh et. al pinning indexes, retail chasing/chopped on single-name vol. Kenny Griffin monetizing via options selling, wealth effect drag."
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/Wild_Randomness/status/2093412109061394805"
+      }
+    },
+    "text_continuation": {
+      "type": "Text",
+      "props": {
+        "text": "Continuation of Jackson Hole analysis: explains structural mechanism driving bearish single-name volatility environment. Aligns with prior Aug 28 18:45Z Warsh historical-precedent analysis.",
+        "variant": "caption"
+      }
+    }
+  }
+}
