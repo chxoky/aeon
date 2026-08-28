@@ -1,0 +1,33 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet",
+        "tweet_link"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "monthly close/open structure analysis. BTC massive monthly candle 64K→84K. Three scenarios: (1) aggressive push→sweep+reversal; (2) selling into monthly pivot→strong rally; (3) pullback→higher-low continuation. Aligns with emerging group bullish convergence + re-accumulation thesis."
+      },
+      "children": []
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/KillaXBT/status/209329427064830773"
+      },
+      "children": []
+    }
+  }
+}
