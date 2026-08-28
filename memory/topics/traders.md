@@ -261,10 +261,10 @@
 ## Crypto_Chase
 
 - Platforms: X (Twitter) + Discord
-- Current open positions: HYPE long (entry Aug 21 14:10Z 3-confluence; 1/3 TP Aug 22 13:21Z; 2/3 ACTIVE). ETH long (entry Aug 22 22:01Z; 1/3 fill Aug 23 13:11Z; 1/3 partial TP Aug 23 13:55Z; ~2/3 ACTIVE, awaiting Kyle approval to mirror).
+- Current open positions: HYPE long (entry Aug 21 14:10Z 3-confluence; 1/3 TP Aug 22 13:21Z; 2/3 ACTIVE). ETH long (entry Aug 22 22:01Z; 1/3 fill Aug 23 13:11Z; 1/3 partial TP Aug 23 13:55Z; ~2/3 ACTIVE, awaiting Kyle approval to mirror). Gold long (entry Aug 28 16:44Z, pending Kyle approval).
 - Recent thesis: Technical entry trader; breakaway gap thesis (bid at higher liquidity levels); HYPE/ETH liq flush setups. No interest in shorts unless "super clean" setup (Aug 22 13:28Z). Indifferent to whether bottom is in; focuses on high-probability setups. Order layering: 3-5 tranches at varying demand zones.
 - Conviction notes: Known for correct ~20-min pre-BTC-breakout call Aug 20. Community educator on layering strategy + order discipline. Track record: HYPE/ETH reads correct, equities liquidity reads sharp (per Aug 23 15:02Z self-assessment). ETH macro short position ("sub 50% area", Aug 20 17:28Z) appears superseded by bullish stance.
-- Last seen: 2026-08-28T03:08:42Z
+- Last seen: 2026-08-28T17:45:54Z
 - **Events (rolling):**
   - Aug 20 12:54Z — informational (X): "would've said I'm long for the pop" ~20min pre-BTC-breakout call [$BTC] [2090422155187991025]
   - Aug 20 17:28Z — trade-new-entry: "macro move, shorting in sub 50% area" (Discord Crypto supporting) [$MACRO-SHORT] [15400497794779023647]
@@ -322,6 +322,7 @@
   - Aug 28 03:08Z — ambiguous: "@CanixXS https://t.co/UQ5VLmW54W" (X post, minimal text) — cryptic mention + t.co short URL; no media; unable to resolve link intent; Step 4B cryptic classification. HR-2 calibration alert sent to Kyle requesting context clarification. [$UNKNOWN] [2093173902369231081]
   - Aug 28 14:14Z — skip: YouTube link only (Discord TradFi supporting); bare URL "https://www.youtube.com/watch?v=mPOzSIZx9OU" with no context/caption; non-financial link sharing; Step 5.A classification [1542900074898522274]
   - Aug 28 17:38Z — conviction-add (Discord Crypto supporting): "Yes" reply to member asking "boss this still the play?" regarding HYPE long entered Aug 21 14:10Z (1/3 TP'd Aug 22, 2/3 active); reaffirms ongoing position conviction [$HYPE-LONG-REAFFIRM] [1542951585221578773]
+  - Aug 28 17:45Z — informational (Discord Crypto supporting): Reply to member @dexx1055 asking "isnt 76.2k the long target now 🧐"; Crypto_Chase responds with chart attachment (content empty, chart-only response). Context: Member confirming 76.2k BTC target per earlier Aug 27 20:32Z X-post ("if we get a pullback...targeting bitcoin:native 76.2K") and Aug 27 21:45Z Discord clarification ("76.2-74.3 is all good bid"). Chart response likely confirms/clarifies technical confluence on 76.2k level. Cross-platform dedup: Discord is supporting-channel chart clarification on X/Discord prior messaging chain (Aug 27-28 recurring 76.2k target discussion). Step 7 protocol: supporting-channel Q&A response with chart; no execution language detected; first seen on Discord. Fast-path alerted by Cloudflare Worker, Telegram already sent ~2-5s after message; memory update + logging only. [$BTC/$LIQUIDITY-LEVELS] [1542953388759715940]
 
 ## KillaXBT
 
