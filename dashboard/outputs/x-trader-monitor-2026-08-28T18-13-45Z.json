@@ -1,0 +1,77 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-card",
+        "sep-1",
+        "analysis-section",
+        "sep-2",
+        "link-tweet"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "ENA position closed at technical test level (0.1688 on 1W chart).\n\n\"Got close enough of a test. Will re-enter lower or on a break of that level.\""
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-analysis-1",
+        "text-analysis-2"
+      ]
+    },
+    "text-analysis-1": {
+      "type": "Text",
+      "props": {
+        "text": "Chart shows multi-level consolidation with failed breakout — consistent with tactical TP after recovery structure invalidation.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-analysis-2": {
+      "type": "Text",
+      "props": {
+        "text": "Recent bullish convergence (Aug 27 3-trader ENA recovery thesis) tested but rejected at resistance.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2093399165955137613"
+      },
+      "children": []
+    }
+  }
+}
