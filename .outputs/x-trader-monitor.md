@@ -1,8 +1,7 @@
-🔍 *Calibration — @swarmister*
+🐦 *[X] @Wild_Randomness*
 
-Event: Reply to @MoneyCrptBunny
-swarmister: "@MoneyCrptBunny 1) what"
+Options flow data: NVDA call orders (cheddarflow).
 
-Unable to classify — external context unknown. What's your read?
+Multiple strikes 200-260, mostly SELL side dominance with substantial volume. Confirms bearish options sentiment on NVDA post-earnings.
 
-[View post](https://x.com/swarmister/status/2093414544601182577)
+[View tweet](https://x.com/Wild_Randomness/status/2093415802087387186)
