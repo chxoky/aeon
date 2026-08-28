@@ -1,0 +1,50 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-card",
+        "sep-1",
+        "context-text",
+        "link-tweet"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "@Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "I still don't like how the action so far reminds me of the October thrust\n\nIdeally just bait into a word salad JHole speech and we can forget this once and for all"
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "context-text": {
+      "type": "Text",
+      "props": {
+        "text": "BTC 4H consolidation structure with moving averages shown. Jackson Hole catalyst watch for macro direction inflection.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2093324509181014018"
+      },
+      "children": []
+    }
+  }
+}
