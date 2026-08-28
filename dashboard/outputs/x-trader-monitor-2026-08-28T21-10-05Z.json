@@ -1,0 +1,213 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "QQQ Technical Analysis & Warsh FOMC Catalyst"
+      },
+      "children": [
+        "main_stack"
+      ]
+    },
+    "main_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "tweet_card",
+        "sep1",
+        "technical_section",
+        "sep2",
+        "scenario_section",
+        "sep3",
+        "timing_section",
+        "sep4",
+        "link_tweet"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "QQQ technical structure + Warsh FOMC catalyst analysis. Three-chart breakdown showing consolidation inflection at 716.43 with clear zones."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "technical_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tech_heading",
+        "inflection_stat",
+        "levels_grid"
+      ]
+    },
+    "tech_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Technical Structure",
+        "level": "h3"
+      }
+    },
+    "inflection_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Consolidation Inflection",
+        "value": "716.43"
+      }
+    },
+    "levels_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "support_zone",
+        "resistance_zone"
+      ]
+    },
+    "support_zone": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "support_label",
+        "support_value"
+      ]
+    },
+    "support_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Support",
+        "level": "h4"
+      }
+    },
+    "support_value": {
+      "type": "Text",
+      "props": {
+        "text": "700 / 680 / 660"
+      }
+    },
+    "resistance_zone": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "resistance_label",
+        "resistance_value"
+      ]
+    },
+    "resistance_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Resistance",
+        "level": "h4"
+      }
+    },
+    "resistance_value": {
+      "type": "Text",
+      "props": {
+        "text": "740 / 760 / 780+"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "scenario_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "scenario_heading",
+        "scenario_text"
+      ]
+    },
+    "scenario_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Scenario",
+        "level": "h3"
+      }
+    },
+    "scenario_text": {
+      "type": "Text",
+      "props": {
+        "text": "\"Market draws down before and while Warsh opens his mouth, and rips after…\" — conditional post-speech volatility setup into month-end positioning window."
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "timing_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "timing_heading",
+        "timing_posted",
+        "timing_current"
+      ]
+    },
+    "timing_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Timing Context",
+        "level": "h3"
+      }
+    },
+    "timing_posted": {
+      "type": "Text",
+      "props": {
+        "text": "Posted ~2.5hrs post-Jackson Hole presser."
+      }
+    },
+    "timing_current": {
+      "type": "Text",
+      "props": {
+        "text": "QQQ currently flat, awaiting directional break."
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2093445030996554019"
+      }
+    }
+  }
+}
