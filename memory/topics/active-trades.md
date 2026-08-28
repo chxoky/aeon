@@ -62,6 +62,24 @@
 - **Alerted**: YES (2026-08-26T19:55Z, Step 5a trade alert via ./notify)
 - **Last update**: 2026-08-26T19:52:36Z (x-trader-monitor real-time event, step-5a pending approval)
 
+### GOLD ($GC / $XAUUSD) — LONG (NEW ENTRY — 2026-08-28)
+- **Entry date**: 2026-08-28T16:44:21Z
+- **Entry message**: "Gold long if it comes"
+- **Entry type**: Pending market order (entry condition-contingent, exact fill level TBD)
+- **Entry level**: Not specified (awaiting market conditions, "if it comes" suggests contingent order setup)
+- **Entry context**: Primary channel highest-conviction tier signal. Technical confluence setup on consolidation above untapped demand. Chart analysis provided.
+- **Technical confluence**:
+  1. Consolidation as potential liquidity draw above untapped demand
+  2. 0.5 to 618 Fibonacci retracement area
+  3. Moving average retest pattern validation (historical precedent: each major pullback breaches MA momentarily before resuming trend)
+- **Invalidation level**: Full retracement of entire bullish leg
+- **Target/Risk**: 1.6R (reward-to-risk ratio) available to gain
+- **Position thesis**: Bullish technical entry into consolidation support with multi-timeframe confluence. Trader notes chart allows adaptation to various gold instruments (GC futures, MGC micro futures, GLD ETF, XAU spot) with position sizing flexibility based on acceptable max-loss tolerance per asset class.
+- **Entry size**: Unspecified (awaiting Kyle `approve GOLD` approval to establish position size/instruments)
+- **Status**: PENDING APPROVAL — awaiting Kyle response (`approve GOLD <size/allocation>` to mirror on Kraken spot or skip), or ignore to skip
+- **Alerted**: YES (2026-08-28T16:44:21Z, Discord fast-path alert sent by Cloudflare Worker ~2-5s post, Step 5a trade alert; memory/logging only per fast-path protocol)
+- **Last update**: 2026-08-28T16:44:21Z (discord-trader-monitor real-time event, step-5a pending approval, message_id=1542937898708504656)
+
 ### GOOG (Google) — LONG (CLOSED)
 - **Entry zone**: 330s (initial resting bid filled 2026-06-23T13:31Z at ~330-342 zone)
 - **Final size**: 0% (fully closed 2026-07-16T12:38:19Z)
