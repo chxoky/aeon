@@ -1,0 +1,178 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "GLD Cup Consolidation Setup",
+        "description": "Informational — @Wild_Randomness"
+      },
+      "children": [
+        "tweet_card",
+        "sep_1",
+        "technical_stack",
+        "sep_2",
+        "macro_stack",
+        "sep_3",
+        "target_stack"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Technical structure forming bullish cup pattern on 1D timeframe"
+      },
+      "children": []
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "technical_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tech_heading",
+        "support_text",
+        "cup_text",
+        "idea_badge"
+      ]
+    },
+    "tech_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Technical Structure",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "support_text": {
+      "type": "Text",
+      "props": {
+        "text": "Support/resistance box consolidating around 409-410 level",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "cup_text": {
+      "type": "Text",
+      "props": {
+        "text": "Cup recovery from May-July lows (365→410 range)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "idea_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Add to 2027 calls at technical support level",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "macro_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "macro_heading",
+        "trigger_text",
+        "valhalla_alert"
+      ]
+    },
+    "macro_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Macro Trigger",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "trigger_text": {
+      "type": "Text",
+      "props": {
+        "text": "Jackson Hole event + Warsh FOMC rate-cut scenario",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "valhalla_alert": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "Valhalla when Warsh doesn't cut sept FOMC"
+      },
+      "children": []
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "target_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "target_heading",
+        "breakout_text",
+        "support_hold_text",
+        "view_link"
+      ]
+    },
+    "target_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Target",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "breakout_text": {
+      "type": "Text",
+      "props": {
+        "text": "Breakout above 410-415 validates pattern",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "support_hold_text": {
+      "type": "Text",
+      "props": {
+        "text": "Support holds 407-408",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2093402779671019689"
+      },
+      "children": []
+    }
+  }
+}
